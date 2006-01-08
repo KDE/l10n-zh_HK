@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "POT-Creation-Date: 2006-01-02 03:14+0100\n"
-"PO-Revision-Date: 2006-01-07 17:27+0800\n"
+"PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "建立群組(&C)..."
 
 #: libkopete/ui/kopetestdaction.cpp:103
 msgid "Cha&nge Meta Contact..."
-msgstr "更改超聯絡人..."
+msgstr "更改超聯絡人...(&N)"
 
 #: libkopete/ui/kopetestdaction.cpp:108
 msgid "&Delete Contact"
@@ -784,6 +784,7 @@ msgid "Remove Contact"
 msgstr "移除聯絡人"
 
 #: libkopete/kopetecontact.cpp:649
+#, fuzzy
 msgid ""
 "_: <b>DISPLAY NAME</b>"
 "<br><img src=\"%2\">&nbsp;CONTACT STATUS\n"
@@ -795,6 +796,7 @@ msgstr ""
 "<br><img src=\"%2\">&nbsp;%1"
 
 #: libkopete/kopetecontact.cpp:656
+#, fuzzy
 msgid ""
 "_: <b>DISPLAY NAME</b> (CONTACT ID)"
 "<br><img src=\"%2\">&nbsp;CONTACT STATUS\n"
@@ -2005,7 +2007,7 @@ msgstr "<qt>你要新增此聯絡人到你的聯絡人清單嗎？</qt>"
 msgid ""
 "<qt>Are you sure you want to remove the contact <b>%1</b> "
 "from your contact list?</qt>"
-msgstr "<qt>確定要從你的聯絡人清單刪除此聯絡人嗎？</qt>"
+msgstr "<qt>確定要從你的聯絡人清單刪除聯絡人 <b>%1</b> 嗎？</qt>"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1574
 msgid ""
@@ -3071,7 +3073,7 @@ msgstr ""
 #: rc.cpp:321
 #, no-c-format
 msgid "Enable events for acti&ve chat windows"
-msgstr "在當前聊天視窗中啟用事件"
+msgstr "在當前聊天視窗中啟用事件(&V)"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 212
 #: rc.cpp:324
@@ -3239,7 +3241,7 @@ msgstr "在聊天視窗中顯示事件(&S)"
 #: rc.cpp:397
 #, no-c-format
 msgid "T&runcate contact name with more characters than:"
-msgstr "聯絡人名稱超過這個長度的字元時就將過長的部份砍掉:"
+msgstr "聯絡人名稱超過這個長度的字元時就將過長的部份砍掉(&R):"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_chat.ui line 245
 #: rc.cpp:400
@@ -3377,7 +3379,7 @@ msgstr "使用通訊錄名稱（需要通訊錄連結）(&K)"
 #: rc.cpp:474
 #, no-c-format
 msgid "Use nickname from con&tact for global nickname:"
-msgstr "使用來自聯絡人的暱稱作為通用暱稱:"
+msgstr "使用來自聯絡人的暱稱作為通用暱稱(&T):"
 
 #. i18n: file ./kopete/config/identity/kopeteidentityconfigbase.ui line 189
 #: rc.cpp:477 rc.cpp:1091 rc.cpp:1109
@@ -4332,7 +4334,7 @@ msgstr "輸入要顯示的訊息"
 #: rc.cpp:1005
 #, no-c-format
 msgid "D&isplay once"
-msgstr "只顯示一次(I)"
+msgstr "只顯示一次(&I)"
 
 #. i18n: file ./kopete/contactlist/customnotifications.ui line 139
 #: rc.cpp:1008
@@ -4664,7 +4666,7 @@ msgstr "<p>請按「下一步」按鈕開始。</p>"
 #: rc.cpp:1242
 #, no-c-format
 msgid "&Use the KDE address book for this contact"
-msgstr "對這個聯絡人使用 KDE 通訊錄"
+msgstr "對這個聯絡人使用 KDE 通訊錄(&U)"
 
 #. i18n: file ./kopete/addcontactwizard/addcontactwizard_base.ui line 129
 #: rc.cpp:1245
@@ -4882,7 +4884,7 @@ msgid ""
 msgstr ""
 "以「工具->傳送媒體資訊」，或在聊天\n"
 "視窗編輯區中鍵入「媒體」中\n"
-"指定。"
+"指定。(&V)"
 
 #. i18n: file ./plugins/nowlistening/nowlisteningprefs.ui line 238
 #: rc.cpp:1364
@@ -7550,7 +7552,7 @@ msgstr "這個聯絡人的電子郵件地址。"
 #: rc.cpp:3002
 #, no-c-format
 msgid "Offline to contact when you set \"&Just for friends\""
-msgstr "離線，當你設為「只讓朋友連接」時"
+msgstr "離線，當你設為「只讓朋友連接」時(&J)"
 
 #. i18n: file ./protocols/gadu/ui/gaduadd.ui line 314
 #: rc.cpp:3005 rc.cpp:3008
@@ -8806,7 +8808,7 @@ msgstr "帳號偏好設定(&A)"
 #: rc.cpp:3919
 #, no-c-format
 msgid "O&verride default server information"
-msgstr "蓋過預設伺服器資訊"
+msgstr "蓋過預設伺服器資訊(&V)"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 265
 #: rc.cpp:3925 rc.cpp:3934
@@ -13981,7 +13983,7 @@ msgstr "因為未知原因，無法觀看 %1 的網絡攝影機"
 
 #: protocols/yahoo/yahoocontact.cpp:338
 msgid "View &Webcam"
-msgstr "觀看網絡攝影機"
+msgstr "觀看網絡攝影機(&W)"
 
 #: protocols/yahoo/yahoocontact.cpp:349
 msgid "&Buzz Contact"
@@ -14228,7 +14230,7 @@ msgstr ""
 
 #: protocols/yahoo/yahoouserinfo.cpp:29
 msgid "&View Yahoo Profile"
-msgstr "檢視 Yahoo 資料檔"
+msgstr "檢視 Yahoo 資料檔(&V)"
 
 #: protocols/meanwhile/meanwhileaccount.cpp:154
 msgid "Meanwhile (%1)"
@@ -15618,3 +15620,4 @@ msgstr "此對話以 SSL 安全機制保密。"
 #: protocols/groupwise/gwmessagemanager.cpp:513
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
+
