@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2006-01-02 03:14+0100\n"
+"POT-Creation-Date: 2006-01-09 03:24+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -70,7 +70,7 @@ msgstr "選擇『%1』所是的那個人。"
 
 #. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 99
 #: libkopete/ui/addressbookselectorwidget.cpp:77
-#: plugins/cryptography/popuppublic.cpp:128 rc.cpp:119 rc.cpp:3553 rc.cpp:4524
+#: plugins/cryptography/popuppublic.cpp:128 rc.cpp:119 rc.cpp:3553 rc.cpp:4527
 #, no-c-format
 msgid "Email"
 msgstr "電子郵件"
@@ -99,7 +99,7 @@ msgid "Contact ID:"
 msgstr "聯絡人 ID:"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 76
-#: libkopete/ui/userinfodialog.cpp:216 rc.cpp:4997
+#: libkopete/ui/userinfodialog.cpp:216 rc.cpp:5000
 #, no-c-format
 msgid "Status:"
 msgstr "狀態:"
@@ -190,7 +190,7 @@ msgstr "解封聯絡人(&B)"
 
 #: libkopete/knotification.cpp:120 libkopete/knotification.cpp:141
 #: protocols/jabber/jabberaccount.cpp:1094
-#: protocols/jabber/jabbercontact.cpp:931
+#: protocols/jabber/jabbercontact.cpp:935
 msgid "Notification"
 msgstr "通知"
 
@@ -199,7 +199,7 @@ msgid "Fatal"
 msgstr "極嚴重"
 
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 41
-#: libkopete/kopetemetacontact.cpp:497 libkopete/kopeteonlinestatus.cpp:110
+#: libkopete/kopetemetacontact.cpp:498 libkopete/kopeteonlinestatus.cpp:110
 #: plugins/statistics/statisticscontact.cpp:362
 #: plugins/statistics/statisticsdialog.cpp:339
 #: protocols/gadu/gaduprotocol.cpp:71 protocols/gadu/gaduprotocol.cpp:73
@@ -211,12 +211,12 @@ msgstr "極嚴重"
 #: protocols/oscar/aim/aimprotocol.cpp:157
 #: protocols/oscar/icq/icqpresence.cpp:77 protocols/sms/smsprotocol.cpp:37
 #: protocols/winpopup/wpprotocol.cpp:53 protocols/yahoo/yahooprotocol.cpp:43
-#: rc.cpp:3838
+#: rc.cpp:3841
 #, no-c-format
 msgid "Online"
 msgstr "上線"
 
-#: libkopete/kopetemetacontact.cpp:499 libkopete/kopeteonlinestatus.cpp:113
+#: libkopete/kopetemetacontact.cpp:500 libkopete/kopeteonlinestatus.cpp:113
 #: plugins/statistics/statisticscontact.cpp:363
 #: plugins/statistics/statisticsdialog.cpp:344
 #: protocols/groupwise/gwprotocol.cpp:54 protocols/irc/ircprotocol.cpp:117
@@ -244,7 +244,7 @@ msgstr "正在連接"
 msgid "Invisible"
 msgstr "隱形"
 
-#: libkopete/kopetemetacontact.cpp:501 libkopete/kopeteonlinestatus.cpp:122
+#: libkopete/kopetemetacontact.cpp:502 libkopete/kopeteonlinestatus.cpp:122
 #: plugins/statistics/statisticscontact.cpp:364
 #: plugins/statistics/statisticsdialog.cpp:349
 #: protocols/gadu/gaduprotocol.cpp:59 protocols/gadu/gaduprotocol.cpp:61
@@ -271,7 +271,7 @@ msgid "<unknown>"
 msgstr "<未知>"
 
 #: libkopete/kopetetransfermanager.cpp:237 protocols/gadu/gaducontact.cpp:96
-#: protocols/irc/ircusercontact.cpp:136 protocols/jabber/jabbercontact.cpp:976
+#: protocols/irc/ircusercontact.cpp:136 protocols/jabber/jabbercontact.cpp:980
 #: protocols/jabber/jabbergroupcontact.cpp:252
 #: protocols/jabber/jabbergroupmembercontact.cpp:150
 #: protocols/msn/msncontact.cpp:586 protocols/yahoo/yahoocontact.cpp:306
@@ -299,16 +299,13 @@ msgstr "選取的聊天樣式無效。"
 msgid ""
 "Message could not be parsed. This is likely due to an encoding problem. Please "
 "ensure you have selected the correct encoding for this contact."
-msgstr ""
-"無法解析訊息。很有可能是編碼問題。請確定你已選擇用於此聯絡人的正確編碼。"
+msgstr "無法解析訊息。很有可能是編碼問題。請確定你已選擇用於此聯絡人的正確編碼。"
 
 #: libkopete/kopetexsl.cpp:186
 msgid ""
 "<div><b>Kopete encountered the following error while parsing a message:</b>"
 "<br />%1</div>"
-msgstr ""
-"<div><b>Kopete 解析訊息時遇到以下錯誤:</b>"
-"<br />%1</div>"
+msgstr "<div><b>Kopete 解析訊息時遇到以下錯誤:</b><br />%1</div>"
 
 #: libkopete/tests/kopetepasswordtest_program.cpp:35
 msgid "Config group to store password in"
@@ -333,8 +330,7 @@ msgstr "在密碼對話框顯示的圖像"
 #: libkopete/tests/kopetepasswordtest_program.cpp:120
 msgid ""
 "Hopefully this popped up because you set the password to the empty string."
-msgstr ""
-"幸運地這個還彈出，因為你將密碼設為空字串。"
+msgstr "幸運地這個還彈出，因為你將密碼設為空字串。"
 
 #: libkopete/kopetechatsession.cpp:248
 msgid "Outgoing Message Sent"
@@ -348,8 +344,7 @@ msgstr "有聯絡人發嗶聲/提示給你。"
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window has "
 "not been created.</qt>"
-msgstr ""
-"<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
+msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
 #: libkopete/kopetechatsession.cpp:440
 msgid "Error While Creating Chat Window"
@@ -364,8 +359,7 @@ msgid ""
 "A network connection was disconnected.  The application is now in offline mode. "
 " Do you want the application to resume network operations when the network is "
 "available again?"
-msgstr ""
-"網絡連線已中斷。 應用程式現處於離線模式。 你要應用程式於網絡再度可用時恢復網絡操作嗎？"
+msgstr "網絡連線已中斷。 應用程式現處於離線模式。 你要應用程式於網絡再度可用時恢復網絡操作嗎？"
 
 #: libkopete/connectionmanager.cpp:145
 msgid "This application is currently in offline mode.  Do you want to connect?"
@@ -408,8 +402,7 @@ msgid ""
 "later."
 msgstr ""
 "Kopete 失去和即時傳訊系統通訊的頻道。\n"
-"這可能是因為互聯網連接中斷、服務有問題或因為你從另一處使用同一帳號連接而被中斷服務。"
-"請稍後再連接。"
+"這可能是因為互聯網連接中斷、服務有問題或因為你從另一處使用同一帳號連接而被中斷服務。請稍後再連接。"
 
 #: libkopete/kopeteutils.cpp:42
 msgid "Can't connect with the instant messaging server or peers."
@@ -447,15 +440,13 @@ msgid ""
 "permission. If you need a service that supports connection from various "
 "locations at the same time, use the Jabber protocol."
 msgstr ""
-"絕大部份專屬即時傳訊服務不容許從多於一處地點連接。請檢查有沒有人未獲你授權而使用你的帳號。"
-"如你而要同時從多個地點連接，請使用 Jabber 通訊協定。"
+"絕大部份專屬即時傳訊服務不容許從多於一處地點連接。請檢查有沒有人未獲你授權而使用你的帳號。如你而要同時從多個地點連接，請使用 Jabber 通訊協定。"
 
 #: libkopete/kopeteaccount.cpp:240 libkopete/kopeteaccount.cpp:306
 msgid ""
 "You are not allowed to add yourself to the contact list. The addition of \"%1\" "
 "to account \"%2\" will not take place."
-msgstr ""
-"不能將自己加到聯絡人清單。新增「%1」到「%2」帳號的行動不會進行。"
+msgstr "不能將自己加到聯絡人清單。新增「%1」到「%2」帳號的行動不會進行。"
 
 #: libkopete/kopeteaccount.cpp:240 libkopete/kopeteaccount.cpp:306
 msgid "Error Creating Contact"
@@ -507,9 +498,7 @@ msgstr "找不到 %1 檔案。"
 msgid ""
 "<qt>Unable to download the requested file;"
 "<br>please check that address %1 is correct.</qt>"
-msgstr ""
-"<qt>無法下載所要求檔案；"
-"<br>請檢查位址 %1 是否正確。</qt>"
+msgstr "<qt>無法下載所要求檔案；<br>請檢查位址 %1 是否正確。</qt>"
 
 #: libkopete/kabcpersistence.cpp:294
 msgid "<qt>\"%1\" is not supported by Kopete.</qt>"
@@ -549,9 +538,7 @@ msgstr "不使用"
 msgid ""
 "<qt>One or more of your accounts using %1 are offline.  Most systems have to be "
 "connected to add contacts.  Please connect these accounts and try again.</qt>"
-msgstr ""
-"<qt>你部份正在使用 %1 的帳號離線。 絕大部份系統需要連接才能新增聯絡人。"
-"請連接這些帳號然後再試。</qt>"
+msgstr "<qt>你部份正在使用 %1 的帳號離線。 絕大部份系統需要連接才能新增聯絡人。請連接這些帳號然後再試。</qt>"
 
 #: libkopete/kabcpersistence.cpp:357 protocols/gadu/gadusession.cpp:217
 #: protocols/gadu/gadusession.cpp:230 protocols/gadu/gadusession.cpp:242
@@ -569,9 +556,7 @@ msgstr "選擇帳號"
 msgid ""
 "<qt>You do not have an account configured for <b>%1</b> "
 "yet.  Please create an account, connect it, and try again.</qt>"
-msgstr ""
-"<qt>你還未有設定用於 <b>%1</b> 的帳號。"
-"請建立帳號、連線，然後再試。</qt>"
+msgstr "<qt>你還未有設定用於 <b>%1</b> 的帳號。請建立帳號、連線，然後再試。</qt>"
 
 #: libkopete/kabcpersistence.cpp:382
 msgid "No Account Found"
@@ -581,28 +566,26 @@ msgstr "找不到帳號"
 msgid ""
 "<qt>It was not possible to add the contact. Please see the debug messages for "
 "details.</qt>"
-msgstr ""
-"<qt>不能新增此聯絡人。要知道詳細情形，請看偵錯訊息。</qt>"
+msgstr "<qt>不能新增此聯絡人。要知道詳細情形，請看偵錯訊息。</qt>"
 
 #: libkopete/kabcpersistence.cpp:399
 msgid "Could Not Add Contact"
 msgstr "未能新增聯絡人"
 
-#: libkopete/kopetemetacontact.cpp:339 libkopete/kopetemetacontact.cpp:357
-#: libkopete/kopetemetacontact.cpp:433
+#: libkopete/kopetemetacontact.cpp:340 libkopete/kopetemetacontact.cpp:358
+#: libkopete/kopetemetacontact.cpp:434
 msgid ""
 "This user is not reachable at the moment. Please make sure you are connected "
 "and using a protocol that supports offline sending, or wait until this user "
 "comes online."
-msgstr ""
-"這個用戶現在聯絡不上。請確定你已連線並使用支援離線傳送的通訊協定，或等待此用戶上線。"
+msgstr "這個用戶現在聯絡不上。請確定你已連線並使用支援離線傳送的通訊協定，或等待此用戶上線。"
 
-#: libkopete/kopetecontact.cpp:444 libkopete/kopetemetacontact.cpp:340
-#: libkopete/kopetemetacontact.cpp:358 libkopete/kopetemetacontact.cpp:434
+#: libkopete/kopetecontact.cpp:444 libkopete/kopetemetacontact.cpp:341
+#: libkopete/kopetemetacontact.cpp:359 libkopete/kopetemetacontact.cpp:435
 msgid "User is Not Reachable"
 msgstr "用戶現在聯絡不上"
 
-#: libkopete/kopetemetacontact.cpp:504 protocols/irc/ircprotocol.cpp:127
+#: libkopete/kopetemetacontact.cpp:505 protocols/irc/ircprotocol.cpp:127
 #: protocols/msn/msnprotocol.cpp:61
 msgid "Status not available"
 msgstr "無法取得狀態"
@@ -619,9 +602,7 @@ msgstr "已中止"
 msgid ""
 "<b>The password was wrong;</b> please re-enter your password for %1 account <b>"
 "%2</b>"
-msgstr ""
-"<b>密碼錯誤；</b>請重新輸入你 %1 帳號的密碼 <b>"
-"%2</b>"
+msgstr "<b>密碼錯誤；</b>請重新輸入你 %1 帳號的密碼 <b>%2</b>"
 
 #: libkopete/kopetepasswordedaccount.cpp:85
 msgid "Please enter your password for %1 account <b>%2</b>"
@@ -631,8 +612,7 @@ msgstr "請輸入你 %1 帳號的密碼 <b>%2</b>"
 msgid ""
 "USAGE: /help [<command>] - Used to list available commands, or show help for a "
 "specified command."
-msgstr ""
-"用法: /help [<指令>] - 用作列出可用的指令，或顯示特定指令的幫助說明。"
+msgstr "用法: /help [<指令>] - 用作列出可用的指令，或顯示特定指令的幫助說明。"
 
 #: libkopete/kopetecommandhandler.cpp:110
 msgid "USAGE: /close - Closes the current view."
@@ -659,17 +639,14 @@ msgstr "用法: /awayall [<理由>] - 對所有帳號標示你為離開或回來
 msgid ""
 "USAGE: /say <text> - Say text in this chat. This is the same as just typing a "
 "message, but is very useful for scripts."
-msgstr ""
-"用法: /say <文字> - 在此聊天說這文字。相當於鍵入訊息，但寫程序檔時很有用。"
+msgstr "用法: /say <文字> - 在此聊天說這文字。相當於鍵入訊息，但寫程序檔時很有用。"
 
 #: libkopete/kopetecommandhandler.cpp:133
 msgid ""
 "USAGE: /exec [-o] <command> - Executes the specified command and displays the "
 "output in the chat buffer. If -o is specified, the output is sent to all "
 "members of the chat."
-msgstr ""
-"用法: /exec [-o] <指令> - 執行指定的指令，並將結果送至聊天緩衝區。如有 -o ，結果將傳送給"
-"聊天內的所有成員。"
+msgstr "用法: /exec [-o] <指令> - 執行指定的指令，並將結果送至聊天緩衝區。如有 -o ，結果將傳送給聊天內的所有成員。"
 
 #: libkopete/kopetecommandhandler.cpp:236
 msgid ""
@@ -693,8 +670,7 @@ msgstr "『%1』沒有可用的幫助說明。"
 msgid ""
 "ERROR: Shell access has been restricted on your system. The /exec command will "
 "not function."
-msgstr ""
-"錯誤：系統殼（Shell）的存取只限於你的系統。 /exec 指令無法執行。"
+msgstr "錯誤：系統殼（Shell）的存取只限於你的系統。 /exec 指令無法執行。"
 
 #: libkopete/kopetepassword.cpp:196
 msgid "Password Required"
@@ -705,9 +681,7 @@ msgid ""
 "<qt>Kopete is unable to save your password securely in your wallet;"
 "<br>do you want to save the password in the <b>unsafe</b> "
 "configuration file instead?</qt>"
-msgstr ""
-"<qt>Kopete 無法安全地將你的密碼儲存到你的荷包（wallet）；"
-"<br>要將密碼存到<b>不案全</b>的設定檔嗎？</qt>"
+msgstr "<qt>Kopete 無法安全地將你的密碼儲存到你的荷包（wallet）；<br>要將密碼存到<b>不案全</b>的設定檔嗎？</qt>"
 
 #: libkopete/kopetepassword.cpp:310
 msgid "Unable to Store Secure Password"
@@ -750,8 +724,7 @@ msgstr "為此聯絡人建立超聯絡人"
 msgid ""
 "If you select this option, a new metacontact will be created in the top-level "
 "group with the name of this contact and the contact will be moved to it."
-msgstr ""
-"如選擇此選項，在頂層群組會建立和此聯絡人同名的新超聯絡人，此聯絡人會移往該處。"
+msgstr "如選擇此選項，在頂層群組會建立和此聯絡人同名的新超聯絡人，此聯絡人會移往該處。"
 
 #: libkopete/kopetecontact.cpp:306
 msgid ""
@@ -769,14 +742,12 @@ msgstr "保留(&K)"
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that supports "
 "offline sending, or wait until this user comes online."
-msgstr ""
-"此用戶現在聯絡不上。請以支援離線傳送的通訊協定再試，或等待這用戶再上線。"
+msgstr "此用戶現在聯絡不上。請以支援離線傳送的通訊協定再試，或等待這用戶再上線。"
 
 #: libkopete/kopetecontact.cpp:451
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
-msgstr ""
-"你確定要從聯絡人清單移除聯絡人『%1』嗎？"
+msgstr "你確定要從聯絡人清單移除聯絡人『%1』嗎？"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1387
 #: libkopete/kopetecontact.cpp:452
@@ -857,30 +828,26 @@ msgstr ""
 msgid ""
 "_: firstName lastName\n"
 "%2 %1"
-msgstr ""
-"%2 %1"
+msgstr "%2 %1"
 
 #: libkopete/kopetecontact.cpp:797
 msgid ""
 "_: <days>d <hours>h <minutes>m <seconds>s\n"
 "%4d %3h %2m %1s"
-msgstr ""
-"%4日 %3時 %2分 %1秒"
+msgstr "%4日 %3時 %2分 %1秒"
 
 #: libkopete/kopetecontact.cpp:805
 msgid ""
 "_: <hours>h <minutes>m <seconds>s\n"
 "%3h %2m %1s"
-msgstr ""
-"%3時 %2分 %1秒"
+msgstr "%3時 %2分 %1秒"
 
 #: libkopete/kopetecontact.cpp:812
 #, c-format
 msgid ""
 "_: <minutes>m <seconds>s\n"
 "%2m %1s"
-msgstr ""
-"%2分 %1秒"
+msgstr "%2分 %1秒"
 
 #: libkopete/private/kopetecommand.cpp:64
 msgid "Enter Arguments"
@@ -898,15 +865,13 @@ msgstr "別名「%1」展開自己。"
 msgid ""
 "_n: \"%1\" requires at least %n argument.\n"
 "\"%1\" requires at least %n arguments."
-msgstr ""
-"「%1」需要最少 %n 個引數。"
+msgstr "「%1」需要最少 %n 個引數。"
 
 #: libkopete/private/kopetecommand.cpp:88
 msgid ""
 "_n: \"%1\" has a maximum of %n argument.\n"
 "\"%1\" has a maximum of %n arguments."
-msgstr ""
-"「%1」最多只能有 %n 個引數。"
+msgstr "「%1」最多只能有 %n 個引數。"
 
 #: libkopete/private/kopetecommand.cpp:93
 msgid "You are not authorized to perform the command \"%1\"."
@@ -945,13 +910,13 @@ msgid "Away Message"
 msgstr "離開訊息"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqsearchbase.ui line 383
-#: libkopete/kopeteglobal.cpp:140 rc.cpp:3547 rc.cpp:4515 rc.cpp:4858
+#: libkopete/kopeteglobal.cpp:140 rc.cpp:3547 rc.cpp:4518 rc.cpp:4861
 #, no-c-format
 msgid "First Name"
 msgstr "名"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqsearchbase.ui line 394
-#: libkopete/kopeteglobal.cpp:146 rc.cpp:3550 rc.cpp:4518 rc.cpp:4861
+#: libkopete/kopeteglobal.cpp:146 rc.cpp:3550 rc.cpp:4521 rc.cpp:4864
 #, no-c-format
 msgid "Last Name"
 msgstr "姓"
@@ -1013,8 +978,7 @@ msgstr "<qt>正在安裝<strong>%1</strong>表情符號主題</qt>"
 msgid ""
 "<qt>A problem occurred during the installation process. However, some of the "
 "emoticon themes in the archive may have been installed.</qt>"
-msgstr ""
-"<qt>安裝時發生錯誤。但表情符號主題集的部份內容可能已安裝。</qt>"
+msgstr "<qt>安裝時發生錯誤。但表情符號主題集的部份內容可能已安裝。</qt>"
 
 #. i18n: file styles/Enclosed.xsl line 17
 #: xml_doc.cpp:3 xml_doc.cpp:12
@@ -1023,8 +987,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "Message from %FROM_METACONTACT_DISPLAYNAME% (%FROM_CONTACT_ID%)"
-msgstr ""
-"來自 %FROM_METACONTACT_DISPLAYNAME% (%FROM_CONTACT_ID%) 的訊息"
+msgstr "來自 %FROM_METACONTACT_DISPLAYNAME% (%FROM_CONTACT_ID%) 的訊息"
 
 #. i18n: file styles/Enclosed.xsl line 25
 #: xml_doc.cpp:6 xml_doc.cpp:15
@@ -1033,8 +996,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "System Message"
-msgstr ""
-"系統訊息"
+msgstr "系統訊息"
 
 #. i18n: file styles/Enclosed.xsl line 32
 #: xml_doc.cpp:9
@@ -1043,8 +1005,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "Message to %TO_METACONTACT_DISPLAYNAME% (from %FROM_CONTACT_ID%)"
-msgstr ""
-"送給 %TO_METACONTACT_DISPLAYNAME% (來自 %FROM_CONTACT_ID%) 的訊息"
+msgstr "送給 %TO_METACONTACT_DISPLAYNAME% (來自 %FROM_CONTACT_ID%) 的訊息"
 
 #. i18n: file styles/Keramik.xsl line 60
 #: xml_doc.cpp:18
@@ -1053,8 +1014,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "To %TO_CONTACT_DISPLAYNAME% at %FORMATTEDTIMESTAMP%"
-msgstr ""
-"於 %FORMATTEDTIMESTAMP% 送給 %TO_CONTACT_DISPLAYNAME%"
+msgstr "於 %FORMATTEDTIMESTAMP% 送給 %TO_CONTACT_DISPLAYNAME%"
 
 #. i18n: file styles/Keramik.xsl line 69
 #: xml_doc.cpp:21
@@ -1063,8 +1023,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "From %FROM_CONTACT_DISPLAYNAME% at %FORMATTEDTIMESTAMP%"
-msgstr ""
-"於 %FORMATTEDTIMESTAMP% 送給 %FROM_CONTACT_DISPLAYNAME%"
+msgstr "於 %FORMATTEDTIMESTAMP% 送給 %FROM_CONTACT_DISPLAYNAME%"
 
 #. i18n: file styles/Keramik.xsl line 104
 #: xml_doc.cpp:24
@@ -1073,8 +1032,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "* %FROM_CONTACT_DISPLAYNAME% &#160;%BODY%"
-msgstr ""
-"* %FROM_CONTACT_DISPLAYNAME% &#160;%BODY%"
+msgstr "* %FROM_CONTACT_DISPLAYNAME% &#160;%BODY%"
 
 #. i18n: file styles/Kopete-old.xsl line 16
 #: xml_doc.cpp:27
@@ -1083,8 +1041,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "Message to %TO_CONTACT_DISPLAYNAME% at %FORMATTEDTIMESTAMP%"
-msgstr ""
-"於 %FORMATTEDTIMESTAMP% 送給 %TO_CONTACT_DISPLAYNAME% 的訊息"
+msgstr "於 %FORMATTEDTIMESTAMP% 送給 %TO_CONTACT_DISPLAYNAME% 的訊息"
 
 #. i18n: file styles/Kopete-old.xsl line 22
 #: xml_doc.cpp:30
@@ -1093,8 +1050,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "Message from %FROM_CONTACT_DISPLAYNAME% at %FORMATTEDTIMESTAMP%"
-msgstr ""
-"於 %FORMATTEDTIMESTAMP% 來自 %FROM_CONTACT_DISPLAYNAME% 的訊息"
+msgstr "於 %FORMATTEDTIMESTAMP% 來自 %FROM_CONTACT_DISPLAYNAME% 的訊息"
 
 #. i18n: file styles/Kopete-old.xsl line 56
 #: xml_doc.cpp:33
@@ -1103,8 +1059,7 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "* %FROM_CONTACT_DISPLAYNAME%&#160;%BODY%"
-msgstr ""
-"* %FROM_CONTACT_DISPLAYNAME%&#160;%BODY%"
+msgstr "* %FROM_CONTACT_DISPLAYNAME%&#160;%BODY%"
 
 #. i18n: file styles/MSN.xsl line 11
 #: xml_doc.cpp:36
@@ -1113,16 +1068,13 @@ msgid ""
 "_: Translators: The %FOO% placeholders are variables that are substituted in "
 "the code, please leave them untranslated\n"
 "(%TIME%) %FROM_CONTACT_DISPLAYNAME% says:"
-msgstr ""
-"(%TIME%) %FROM_CONTACT_DISPLAYNAME% 說:"
+msgstr "(%TIME%) %FROM_CONTACT_DISPLAYNAME% 說:"
 
 #: kopete/systemtray.cpp:268
 msgid ""
 "<qt><nobr><b>New Message from %1:</b></nobr>"
 "<br><nobr>\"%2\"</nobr></qt>"
-msgstr ""
-"<qt><nobr><b>來自 %1 的新訊息:</b></nobr>"
-"<br><nobr>「%2」</nobr></qt>"
+msgstr "<qt><nobr><b>來自 %1 的新訊息:</b></nobr><br><nobr>「%2」</nobr></qt>"
 
 #: kopete/kopetewindow.cpp:167
 msgid "&Add Contact..."
@@ -1251,8 +1203,7 @@ msgstr "從鍵盤設定離開或回來"
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
-msgstr ""
-"<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離開應用程式。</qt>"
+msgstr "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離開應用程式。</qt>"
 
 #: kopete/kopetewindow.cpp:575
 msgid "Docking in System Tray"
@@ -1333,15 +1284,13 @@ msgstr "停用自動連線"
 msgid ""
 "Auto-connect the specified accounts. Use a comma-separated list\n"
 "to auto-connect multiple accounts."
-msgstr ""
-"自動連接指定的帳號。使用以逗號分隔的清單來自動連接多個帳號。"
+msgstr "自動連接指定的帳號。使用以逗號分隔的清單來自動連接多個帳號。"
 
 #: kopete/main.cpp:38
 msgid ""
 "Do not load the specified plugin. Use a comma-separated list\n"
 "to disable multiple plugins."
-msgstr ""
-"不要載入指定的插件。使用以逗號分隔的清單來停用多個插件。"
+msgstr "不要載入指定的插件。使用以逗號分隔的清單來停用多個插件。"
 
 #: kopete/main.cpp:40
 msgid ""
@@ -1364,7 +1313,7 @@ msgstr "要傳給 kopete 的 URL / 要安裝的表情符號主題"
 #: kopete/contactlist/kopetecontactlistview.cpp:1022
 #: kopete/contactlist/kopetecontactlistview.cpp:1489 kopete/main.cpp:52
 #: protocols/irc/ui/irceditaccountwidget.cpp:275
-#: protocols/msn/msncontact.cpp:314 rc.cpp:4410
+#: protocols/msn/msncontact.cpp:314 rc.cpp:4413
 #, no-c-format
 msgid "Kopete"
 msgstr "Kopete"
@@ -1500,7 +1449,7 @@ msgstr "視像(&V)"
 
 #. i18n: file ./kopete/contactlist/kopetegvipropswidget.ui line 31
 #: kopete/config/behavior/behaviorconfig.cpp:55 rc.cpp:1029 rc.cpp:1050
-#: rc.cpp:4134
+#: rc.cpp:4137
 #, no-c-format
 msgid "&General"
 msgstr "一般(&G)"
@@ -1721,10 +1670,7 @@ msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> emoticon theme?"
 "<br>"
 "<br>This will delete the files installed by this theme.</qt>"
-msgstr ""
-"<qt>你確定要移除 <strong>%1</strong> 表情符號主題嗎？"
-"<br>"
-"<br>這將會刪除這個主題安裝的所有檔案。</qt>"
+msgstr "<qt>你確定要移除 <strong>%1</strong> 表情符號主題嗎？<br><br>這將會刪除這個主題安裝的所有檔案。</qt>"
 
 #: kopete/config/appearance/appearanceconfig.cpp:1028
 msgid "Confirmation"
@@ -1750,8 +1696,7 @@ msgstr "一般插件"
 msgid ""
 "An external application is attempting to add the  '%1' contact '%2' to your "
 "contact list. Do you want to allow this?"
-msgstr ""
-"有個外部應用程式正嘗試新增「%1」聯絡人「%2」到你的聯絡人清單。要允許嗎？"
+msgstr "有個外部應用程式正嘗試新增「%1」聯絡人「%2」到你的聯絡人清單。要允許嗎？"
 
 #: kopete/kopeteiface.cpp:159
 msgid "Allow Contact?"
@@ -1769,8 +1714,7 @@ msgstr "拒絕"
 msgid ""
 "An external application has attempted to add a contact using  the %1 protocol, "
 "which either does not exist or is not loaded."
-msgstr ""
-"有個外部應用程式嘗試使用不存在或未載入的 %1 通訊協定新增聯絡人。"
+msgstr "有個外部應用程式嘗試使用不存在或未載入的 %1 通訊協定新增聯絡人。"
 
 #: kopete/kopeteiface.cpp:174
 msgid "Missing Protocol"
@@ -1782,9 +1726,7 @@ msgid ""
 "formatting.\n"
 "<h2>Welcome to Kopete</h2>"
 "<p>Which messaging service do you want to connect to?</p>"
-msgstr ""
-"<h2>歡迎使用 Kopete</h2>"
-"<p>你要連接哪種傳訊服務？</p>"
+msgstr "<h2>歡迎使用 Kopete</h2><p>你要連接哪種傳訊服務？</p>"
 
 #: kopete/addaccountwizard/addaccountwizard.cpp:56
 msgid ""
@@ -1793,10 +1735,7 @@ msgid ""
 "<h2>Congratulations</h2>"
 "<p>You have finished configuring the account. You can add more accounts with <i>"
 "Settings->Configure</i>.  Please click the \"Finish\" button.</p>"
-msgstr ""
-"<h2>恭喜你</h2>"
-"<p>你已完成設定帳號。你可以以<i>「設置」->「設定」</i>新增帳號。"
-"請按「完成」按鈕。</p>"
+msgstr "<h2>恭喜你</h2><p>你已完成設定帳號。你可以以<i>「設置」->「設定」</i>新增帳號。請按「完成」按鈕。</p>"
 
 #: kopete/addaccountwizard/addaccountwizard.cpp:131
 msgid "Cannot load the %1 protocol plugin."
@@ -1910,22 +1849,19 @@ msgstr "請輸入新群組的名稱:"
 msgid ""
 "_: Translators: format: '<nickname> (<online status>)'\n"
 "%1 (%2)"
-msgstr ""
-"%1 (%2)"
+msgstr "%1 (%2)"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:711
 msgid ""
 "_: Translators: format: '<displayName> (<id>)'\n"
 "%2 <%1>"
-msgstr ""
-"%2 <%1>"
+msgstr "%2 <%1>"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1004
 msgid ""
 "<qt>Would you like to add <b>%1</b> to your contact list as a member of <b>"
 "%2</b>?</qt>"
-msgstr ""
-"<qt>你要將 <b>%1</b> 加入你的聯絡人清單作為 <b>%2</b> 的成員之一嗎？</qt>"
+msgstr "<qt>你要將 <b>%1</b> 加入你的聯絡人清單作為 <b>%2</b> 的成員之一嗎？</qt>"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1006
 #: kopete/contactlist/kopetecontactlistview.cpp:1022
@@ -1940,15 +1876,13 @@ msgstr "不要加入"
 msgid ""
 "<qt>Would you like to add <b>%1</b> to your contact list as a child contact of "
 "<b>%2</b>?</qt>"
-msgstr ""
-"<qt>你要將 <b>%1</b> 加入你的聯絡人清單作為 <b>%2</b> 的子聯絡人嗎？</qt>"
+msgstr "<qt>你要將 <b>%1</b> 加入你的聯絡人清單作為 <b>%2</b> 的子聯絡人嗎？</qt>"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1071
 msgid ""
 "<qt>This contact is already on your contact list. It is a child contact of <b>"
 "%1</b></qt>"
-msgstr ""
-"<qt>這個聯絡人已經在你的聯絡人清單中。它是 <b>%1</b> 的子聯絡人</qt>"
+msgstr "<qt>這個聯絡人已經在你的聯絡人清單中。它是 <b>%1</b> 的子聯絡人</qt>"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1386
 msgid "Rename Contact"
@@ -1996,8 +1930,7 @@ msgstr "這個聯絡人在 KDE 通訊錄中找不到。請確定在屬性對話�
 msgid ""
 "This contact is not associated with a KDE address book entry, where the email "
 "address is stored. Check that a contact is selected in the properties dialog."
-msgstr ""
-"這個聯絡人未和 KDE 通訊錄任何項目關聯。該項目是儲存電子郵件地址的地方。請確定在屬性對話框中已選取此聯絡人。"
+msgstr "這個聯絡人未和 KDE 通訊錄任何項目關聯。該項目是儲存電子郵件地址的地方。請確定在屬性對話框中已選取此聯絡人。"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:1488
 msgid "<qt>Would you like to add this contact to your contact list?</qt>"
@@ -2061,8 +1994,7 @@ msgstr "使用從 Kopete 選取的資料設定通訊錄欄位"
 msgid ""
 "_: (NUMBER OF ONLINE CONTACTS/NUMBER OF CONTACTS IN GROUP)\n"
 "(%1/%2)"
-msgstr ""
-"(%1/%2)"
+msgstr "(%1/%2)"
 
 #: kopete/contactlist/kopetemetacontactlvi.cpp:134
 msgid ""
@@ -2255,9 +2187,7 @@ msgstr "(%1) 下一個 >>"
 msgid ""
 "<qt>You are about to leave the group chat session <b>%1</b>."
 "<br>You will not receive future messages from this conversation.</qt>"
-msgstr ""
-"<qt>你現在要離開群組聊天階段 <b>%1</b>."
-"<br>你不會再收到來自此對話的訊息。</qt>"
+msgstr "<qt>你現在要離開群組聊天階段 <b>%1</b>.<br>你不會再收到來自此對話的訊息。</qt>"
 
 #: kopete/chatwindow/chatview.cpp:361
 #: kopete/chatwindow/kopeteemailwindow.cpp:426
@@ -2277,8 +2207,7 @@ msgstr "關閉聊天(&O)"
 msgid ""
 "<qt>You have received a message from <b>%1</b> in the last second. Are you sure "
 "you want to close this chat?</qt>"
-msgstr ""
-"<qt>你在最後時刻從 <b>%1</b> 收到訊息。你確定要關閉此聊天嗎？</qt>"
+msgstr "<qt>你在最後時刻從 <b>%1</b> 收到訊息。你確定要關閉此聊天嗎？</qt>"
 
 #: kopete/chatwindow/chatview.cpp:368
 #: kopete/chatwindow/kopeteemailwindow.cpp:433
@@ -2290,8 +2219,7 @@ msgstr "未讀訊息"
 msgid ""
 "You have a message send in progress, which will be aborted if this chat is "
 "closed. Are you sure you want to close this chat?"
-msgstr ""
-"你有訊息正在傳送。如你關閉聊天，它將被中止。你確定要關閉這個聊天嗎？"
+msgstr "你有訊息正在傳送。如你關閉聊天，它將被中止。你確定要關閉這個聊天嗎？"
 
 #: kopete/chatwindow/chatview.cpp:375
 #: kopete/chatwindow/kopeteemailwindow.cpp:440
@@ -2377,8 +2305,7 @@ msgstr "向右對齊(&J)"
 msgid ""
 "_n: One other person in the chat\n"
 "%n other people in the chat"
-msgstr ""
-"聊天中有 %n 個其他人"
+msgstr "聊天中有 %n 個其他人"
 
 #: kopete/chatwindow/chatview.cpp:547
 msgid "%1 is typing a message"
@@ -2419,15 +2346,13 @@ msgstr "%2 現在是 %1 。"
 msgid ""
 "_: The account name is prepended here\n"
 "%1 contact information"
-msgstr ""
-"%1 聯絡資訊"
+msgstr "%1 聯絡資訊"
 
 #: kopete/addcontactwizard/addcontactwizard.cpp:286
 msgid ""
 "_: The user has to select the contact to add to the given account name\n"
 "Choose New Contact For %1 Account <b>%2</b>"
-msgstr ""
-"選擇用於 %1 <b>%2</b> 帳號的新聯絡人"
+msgstr "選擇用於 %1 <b>%2</b> 帳號的新聯絡人"
 
 #. i18n: file ./libkopete/ui/kopetepassworddialog.ui line 64
 #: rc.cpp:3 rc.cpp:2004 rc.cpp:2884
@@ -2454,8 +2379,7 @@ msgid ""
 "Check this and enter your password below if you would like your password to be "
 "stored in your wallet, so Kopete does not have to ask you for it each time it "
 "is needed."
-msgstr ""
-"如你想將你的密碼存到你的荷包（wallet），選取這個並在下面輸入你的密碼， Kopete 以後當需要時就不會再問。"
+msgstr "如你想將你的密碼存到你的荷包（wallet），選取這個並在下面輸入你的密碼， Kopete 以後當需要時就不會再問。"
 
 #. i18n: file ./libkopete/ui/kopetepasswordwidgetbase.ui line 64
 #: rc.cpp:15
@@ -2476,8 +2400,7 @@ msgid ""
 "Enter your password here. If you would rather not save your password, uncheck "
 "the Remember password checkbox above; you will then be prompted for your "
 "password whenever it is needed."
-msgstr ""
-"在此輸入你的密碼。如你不想儲存你的密碼，取消選取以上的選項；以後每當需要時都會問你。"
+msgstr "在此輸入你的密碼。如你不想儲存你的密碼，取消選取以上的選項；以後每當需要時都會問你。"
 
 #. i18n: file ./libkopete/ui/fileconfirmbase.ui line 33
 #: rc.cpp:27
@@ -2487,9 +2410,7 @@ msgid ""
 "accept this dialog. If you do not wish to receive it, please click 'Refuse'. "
 "This file will never be executed by Kopete at any point during or after the "
 "transfer."
-msgstr ""
-"有個用戶正嘗試傳送檔案給你。只有你接受這個對話框，檔案才會下載。如你不想接收，請按『拒絕』。"
-"Kopete 在任何時候都不會執行這個檔案。"
+msgstr "有個用戶正嘗試傳送檔案給你。只有你接受這個對話框，檔案才會下載。如你不想接收，請按『拒絕』。Kopete 在任何時候都不會執行這個檔案。"
 
 #. i18n: file ./libkopete/ui/fileconfirmbase.ui line 44
 #: rc.cpp:30
@@ -2587,8 +2508,7 @@ msgstr "在這個群組中:"
 msgid ""
 "Enter the group where the contact should be added. Leave it empty to add it in "
 "the top level group."
-msgstr ""
-"輸入這個聯絡人要加入到的群組。如要加入到最上層群組，請留空。"
+msgstr "輸入這個聯絡人要加入到的群組。如要加入到最上層群組，請留空。"
 
 #. i18n: file ./libkopete/ui/contactaddednotifywidget.ui line 181
 #: rc.cpp:87
@@ -2636,7 +2556,7 @@ msgstr "在你的通訊錄中建立新項目"
 #: plugins/cryptography/kgpgselkey.cpp:53
 #: plugins/cryptography/popuppublic.cpp:127
 #: protocols/jabber/ui/dlgjabberservices.cpp:63 rc.cpp:116 rc.cpp:828
-#: rc.cpp:3276 rc.cpp:4953
+#: rc.cpp:3276 rc.cpp:4956
 #, no-c-format
 msgid "Name"
 msgstr "名稱"
@@ -2789,9 +2709,7 @@ msgid ""
 "and showing a bubble. A left or middle mouse click on the icon will open the "
 "message in a new chat window. Pressing the \"View\" button in the bubble has "
 "the same effect."
-msgstr ""
-"預設，系統匣會以閃爍和顯示泡泡提示有新訊息。在圖示按下滑鼠鍵會在新聊天視窗開啟訊息。"
-"按下泡泡中的「檢視」鈕有同樣效果。"
+msgstr "預設，系統匣會以閃爍和顯示泡泡提示有新訊息。在圖示按下滑鼠鍵會在新聊天視窗開啟訊息。按下泡泡中的「檢視」鈕有同樣效果。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_general.ui line 55
 #: rc.cpp:201
@@ -2834,9 +2752,7 @@ msgid ""
 "Use a message for new incoming messages. New messages are messages that cannot "
 "be displayed in an already open chat window. Only queued messages trigger "
 "notification via bubble and flashing tray icon."
-msgstr ""
-"有新訊息時以使用訊息提示。新訊息是指無法在已開啟的聊天視窗顯示的訊息。"
-"只有佇列訊息會產生泡泡及閃爍系統匣圖示通知。"
+msgstr "有新訊息時以使用訊息提示。新訊息是指無法在已開啟的聊天視窗顯示的訊息。只有佇列訊息會產生泡泡及閃爍系統匣圖示通知。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_general.ui line 124
 #: rc.cpp:222
@@ -2860,9 +2776,8 @@ msgid ""
 "messages are queued, i.e. messages that cannot be displayed in an already open "
 "chat window."
 msgstr ""
-"未讀訊息是指會在已開啟的，但不是當前視窗的聊天視窗顯示的訊息。"
-"只有佇列訊息會產生泡泡及閃爍系統匣圖示通知。如關閉此選項，新訊息會被佇列，"
-"即訊息無法在已開啟視窗顯示。"
+"未讀訊息是指會在已開啟的，但不是當前視窗的聊天視窗顯示的訊息。只有佇列訊息會產生泡泡及閃爍系統匣圖示通知。如關閉此選項，新訊息會被佇列，即訊息無法在已開啟視窗顯"
+"示。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_general.ui line 140
 #: rc.cpp:231
@@ -2882,8 +2797,7 @@ msgstr "啟動 Kopete 時自動連接所有帳號"
 msgid ""
 "When starting Kopete all your accounts will be connected automatically. Note: "
 "You can exclude accounts individually in their properties."
-msgstr ""
-"Kopete 時啟動會自動連接所有帳號。注意：你可在帳號的屬性中個別地取消這功能。"
+msgstr "Kopete 時啟動會自動連接所有帳號。注意：你可在帳號的屬性中個別地取消這功能。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_general.ui line 154
 #: rc.cpp:240
@@ -2907,8 +2821,8 @@ msgid ""
 "your target contact. Each contact will be under the mouse cursor at a certain "
 "point."
 msgstr ""
-"這個導航配置是要排除垂直捲軸器。不用拖曳捲軸器，你只需在清單上垂直移動滑鼠：當你移動滑鼠，"
-"清單會向相反方向移動，而你可以到達所要的聯絡人。每在聯絡人會在滑鼠游標下的若干個點。"
+"這個導航配置是要排除垂直捲軸器。不用拖曳捲軸器，你只需在清單上垂直移動滑鼠：當你移動滑鼠，清單會向相反方向移動，而你可以到達所要的聯絡人。每在聯絡人會在滑鼠游標"
+"下的若干個點。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 16
 #: rc.cpp:249
@@ -2961,9 +2875,7 @@ msgid ""
 "A left mouse click on the flashing system tray icon opens the incoming message "
 "instead of restoring/minimizing the contact list (e.g. to check who is sending "
 "messages). A middle click always opens this message."
-msgstr ""
-"左鍵按正在閃動的系統匣圖示時打開訊息，而不是回復或最小化聯絡人清單"
-"（例如檢查是誰送來訊息）。中鍵按則必定打開訊息。"
+msgstr "左鍵按正在閃動的系統匣圖示時打開訊息，而不是回復或最小化聯絡人清單（例如檢查是誰送來訊息）。中鍵按則必定打開訊息。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 96
 #: rc.cpp:273
@@ -3002,8 +2914,7 @@ msgstr "泡泡的「忽略」按鈕會關閉傳送者的聊天視窗"
 msgid ""
 "If there is already a chat window opened for the sender of the message "
 "displayed in the bubble the \"Ignore\" button will close this chat window."
-msgstr ""
-"如訊息的傳送者已有聊天視窗開啟，按下泡泡的「忽略」按鈕會關閉這個聊天視窗。"
+msgstr "如訊息的傳送者已有聊天視窗開啟，按下泡泡的「忽略」按鈕會關閉這個聊天視窗。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 154
 #: rc.cpp:291
@@ -3023,8 +2934,7 @@ msgstr "在群組聊天中只通知加強顯示的訊息"
 msgid ""
 "In very active group chats important messages can be singled out by excluding "
 "non-highlighted messages from notification."
-msgstr ""
-"在很活躍的群組聊天中，從通知排除非加強顯示訊息可將重要訊息突顯出來。"
+msgstr "在很活躍的群組聊天中，從通知排除非加強顯示訊息可將重要訊息突顯出來。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 168
 #: rc.cpp:300
@@ -3065,9 +2975,7 @@ msgid ""
 "Enable notification events even if your account status is \"Away\" or less "
 "available, e.g. \"Not Available\" or \"Do not Disturb\". Note: This does not "
 "affect the flashing of the system tray icon."
-msgstr ""
-"即使你的帳號狀態是「離開」或更少，例如「沒空」或「請勿打擾」時，亦啟用通知事件。"
-"注意：這不影響系統圖示的閃動。"
+msgstr "即使你的帳號狀態是「離開」或更少，例如「沒空」或「請勿打擾」時，亦啟用通知事件。注意：這不影響系統圖示的閃動。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 209
 #: rc.cpp:321
@@ -3088,9 +2996,7 @@ msgid ""
 "Enable notification events for incoming messages even if the receiving chat "
 "window is active. Note: Neither the system tray icon flashes nor the bubble is "
 "shown."
-msgstr ""
-"即使你的接收聊天視窗是當前狀態，亦啟用內送訊息通知事件。"
-"注意：系統圖示不會閃動，亦不會冒出泡泡。"
+msgstr "即使你的接收聊天視窗是當前狀態，亦啟用內送訊息通知事件。注意：系統圖示不會閃動，亦不會冒出泡泡。"
 
 #. i18n: file ./kopete/config/behavior/behaviorconfig_events.ui line 223
 #: rc.cpp:330
@@ -3293,8 +3199,8 @@ msgid ""
 "<p>Kopete will set you available again when you come back if you checked <i>"
 "Become available when detecting activity again</i></p>"
 msgstr ""
-"<p>如你勾選<i>使用自動離開</i>， Kopete 會於 KDE 螢幕保護程式啟動，或"
-"沒有活動（例如滑鼠沒有動、沒有按鍵）若干分鐘數（可選）之後自動將你設為離開。</p>\n"
+"<p>如你勾選<i>使用自動離開</i>， Kopete 會於 KDE "
+"螢幕保護程式啟動，或沒有活動（例如滑鼠沒有動、沒有按鍵）若干分鐘數（可選）之後自動將你設為離開。</p>\n"
 "<p>如你勾選<i>再次偵測到動作時就設為有空</i>， Kopete 會你回來後再次將你設為有空。</p>"
 
 #. i18n: file ./kopete/config/behavior/kopeteawayconfigbase.ui line 109
@@ -3441,8 +3347,7 @@ msgstr "更改(&H)..."
 msgid ""
 "<b>Note:</b> The address book link uses KAddressBook's \n"
 "current user contact."
-msgstr ""
-"<b>注意:</b>通訊錄連結使用 KAddressBook 的當前用戶聯絡人。"
+msgstr "<b>注意:</b>通訊錄連結使用 KAddressBook 的當前用戶聯絡人。"
 
 #. i18n: file ./kopete/config/accounts/kopeteaccountconfigbase.ui line 17
 #: rc.cpp:509
@@ -3738,9 +3643,7 @@ msgid ""
 "When enabled, the contact list will automatically be hidden a fixed amount of "
 "time after the mouse cursor leaves the window. You can set the amount of time "
 "in the 'Time until autohide' box below."
-msgstr ""
-"當啟用的時候，聯絡人清單在游標離開視窗後一段時間就會自動隱藏。你可以在下面的"
-"『自動隱藏逾時』方塊中設定時間。"
+msgstr "當啟用的時候，聯絡人清單在游標離開視窗後一段時間就會自動隱藏。你可以在下面的『自動隱藏逾時』方塊中設定時間。"
 
 #. i18n: file ./kopete/config/appearance/appearanceconfig_contactlist.ui line 177
 #: rc.cpp:668
@@ -3823,8 +3726,7 @@ msgstr "更改工具提示內容(&T)..."
 msgid ""
 "Using the arrow buttons, put on the right the items you want to see in the "
 "contact tooltips. You can then sort them."
-msgstr ""
-"使用箭頭按鈕，將你將於聯絡人工具提示的項目移至在邊。然後就可以排列它們。"
+msgstr "使用箭頭按鈕，將你將於聯絡人工具提示的項目移至在邊。然後就可以排列它們。"
 
 #. i18n: file ./kopete/config/appearance/tooltipeditwidget.ui line 57
 #: rc.cpp:705
@@ -3838,8 +3740,7 @@ msgstr "<b>你可在此自訂聯絡人工具提示</b>"
 msgid ""
 "This list contains elements which are currently <b>not present</b> "
 "in the contact tooltip."
-msgstr ""
-"這個清單包含目前在聯絡人工具提示<b>未見</b>的元素。"
+msgstr "這個清單包含目前在聯絡人工具提示<b>未見</b>的元素。"
 
 #. i18n: file ./kopete/config/appearance/tooltipeditwidget.ui line 128
 #: rc.cpp:712
@@ -3883,8 +3784,7 @@ msgstr "使用此箭頭新增或移除項目至你的聯絡人工具提示。"
 msgid ""
 "This list contains elements which are currently <b>present</b> "
 "in the contact tooltips."
-msgstr ""
-"這個清單包含目前在聯絡人工具提示<b>可見</b>的元素。"
+msgstr "這個清單包含目前在聯絡人工具提示<b>可見</b>的元素。"
 
 #. i18n: file ./kopete/config/appearance/appearanceconfig_emoticons.ui line 24
 #: rc.cpp:734
@@ -3898,8 +3798,7 @@ msgstr "使用表情符號(&U)"
 msgid ""
 "If this is checked, the text representation of emoticons in messages will be "
 "replaced by an image"
-msgstr ""
-"如勾選這個，訊息中的文字表情符號會以圖像取代。"
+msgstr "如勾選這個，訊息中的文字表情符號會以圖像取代。"
 
 #. i18n: file ./kopete/config/appearance/appearanceconfig_emoticons.ui line 38
 #: rc.cpp:740
@@ -3913,8 +3812,7 @@ msgstr "表情符號兩旁需要分隔符號（空格）(&R)"
 msgid ""
 "If this is checked, only emoticons that are separated from the text by spaces "
 "will be shown as images."
-msgstr ""
-"如勾選這個，只有以空格分隔開表情符號才會以圖像取代顯示。"
+msgstr "如勾選這個，只有以空格分隔開表情符號才會以圖像取代顯示。"
 
 #. i18n: file ./kopete/config/appearance/appearanceconfig_emoticons.ui line 55
 #: rc.cpp:746
@@ -4055,7 +3953,7 @@ msgid "Step One: Select Messaging Service"
 msgstr "步驟一：選取傳訊服務"
 
 #. i18n: file ./kopete/addaccountwizard/addaccountwizardpage1.ui line 83
-#: protocols/sms/smseditaccountwidget.cpp:134 rc.cpp:831 rc.cpp:4081
+#: protocols/sms/smseditaccountwidget.cpp:134 rc.cpp:831 rc.cpp:4084
 #, no-c-format
 msgid "Description"
 msgstr "說明"
@@ -4108,8 +4006,7 @@ msgid ""
 "Account are often differentiated by the protocol icon. But if you have severals "
 "accounts of the same protocol, you may apply a color filter to that icon to "
 "differentiate accounts from the same protocols."
-msgstr ""
-"帳號通常以通訊協定圖示分辨。但若你在名個使用同一協定的帳號，你可套用顏色過濾器以分辨同一協定的不同帳號。"
+msgstr "帳號通常以通訊協定圖示分辨。但若你在名個使用同一協定的帳號，你可套用顏色過濾器以分辨同一協定的不同帳號。"
 
 #. i18n: file ./kopete/addaccountwizard/addaccountwizardpage2.ui line 131
 #: rc.cpp:859 rc.cpp:891
@@ -4129,8 +4026,7 @@ msgstr "按下「完成」之後就連線"
 msgid ""
 "If this is checked, the account will be connected right after you clicked on <i>"
 "Finished</i>."
-msgstr ""
-"如勾選這個，當你按下<i>完成</i>時將立刻連接該帳號。"
+msgstr "如勾選這個，當你按下<i>完成</i>時將立刻連接該帳號。"
 
 #. i18n: file ./kopete/addaccountwizard/addaccountwizardpage3.ui line 41
 #: rc.cpp:871
@@ -4181,8 +4077,7 @@ msgstr "匯出聯絡人到通訊錄"
 msgid ""
 "This wizard helps you export instant messaging contacts to the KDE address "
 "book."
-msgstr ""
-"這個精靈幫助你將即時傳訊聯絡人匯出至 KDE 通訊錄。"
+msgstr "這個精靈幫助你將即時傳訊聯絡人匯出至 KDE 通訊錄。"
 
 #. i18n: file ./kopete/contactlist/kabcexport_base.ui line 61
 #: rc.cpp:933
@@ -4227,7 +4122,7 @@ msgid "Merge with Address Book"
 msgstr "和通訊錄合併"
 
 #. i18n: file ./kopete/contactlist/kopeteaddrbookexportui.ui line 27
-#: rc.cpp:954 rc.cpp:3850 rc.cpp:5007
+#: rc.cpp:954 rc.cpp:3853 rc.cpp:5010
 #, no-c-format
 msgid "First name:"
 msgstr "名:"
@@ -4257,13 +4152,13 @@ msgid "URL:"
 msgstr "URL:"
 
 #. i18n: file ./kopete/contactlist/kopeteaddrbookexportui.ui line 121
-#: rc.cpp:969 rc.cpp:3856 rc.cpp:5017
+#: rc.cpp:969 rc.cpp:3859 rc.cpp:5020
 #, no-c-format
 msgid "Last name:"
 msgstr "名:"
 
 #. i18n: file ./kopete/contactlist/kopeteaddrbookexportui.ui line 140
-#: rc.cpp:972 rc.cpp:4177 rc.cpp:4189
+#: rc.cpp:972 rc.cpp:4180 rc.cpp:4192
 #, no-c-format
 msgid "Email:"
 msgstr "電子郵件:"
@@ -4378,11 +4273,10 @@ msgstr "壓制標準通知(&U)"
 msgid ""
 "Check to prevent notifications common to all contacts from happening for this "
 "contact"
-msgstr ""
-"勾選這個將防止用於所有聯絡人的通知傳到這個聯絡人"
+msgstr "勾選這個將防止用於所有聯絡人的通知傳到這個聯絡人"
 
 #. i18n: file ./kopete/contactlist/kopetegvipropswidget.ui line 50
-#: rc.cpp:1032 rc.cpp:4949
+#: rc.cpp:1032 rc.cpp:4952
 #, no-c-format
 msgid "&Name:"
 msgstr "名稱(&N):"
@@ -4544,7 +4438,7 @@ msgid "Format Toolbar"
 msgstr "格式工具列"
 
 #. i18n: file ./kopete/chatwindow/kopeteemailwindow.rc line 5
-#: rc.cpp:1158 rc.cpp:1173 rc.cpp:2618 rc.cpp:5082
+#: rc.cpp:1158 rc.cpp:1173 rc.cpp:2618 rc.cpp:5085
 #, no-c-format
 msgid "&Chat"
 msgstr "聊天(&C)"
@@ -4556,7 +4450,7 @@ msgid "&Format"
 msgstr "格式(&F)"
 
 #. i18n: file ./kopete/chatwindow/kopeteemailwindow.rc line 41
-#: rc.cpp:1170 rc.cpp:1191 rc.cpp:3019 rc.cpp:3273 rc.cpp:4855
+#: rc.cpp:1170 rc.cpp:1191 rc.cpp:3019 rc.cpp:3273 rc.cpp:4858
 #, no-c-format
 msgid "Status"
 msgstr "狀態"
@@ -4597,8 +4491,7 @@ msgstr "<p><h2>選取即時傳訊帳號</h2></p>"
 msgid ""
 "Select the Instant Messaging systems to message the contact.  If they use more "
 "than one IM system, select them all here"
-msgstr ""
-"選取向聯絡人發訊的即時傳訊系統。 如他們使用多於一個系統，在此全選他們。"
+msgstr "選取向聯絡人發訊的即時傳訊系統。 如他們使用多於一個系統，在此全選他們。"
 
 #. i18n: file ./kopete/addcontactwizard/fastaddcontactwizard_base.ui line 125
 #: rc.cpp:1216
@@ -4674,8 +4567,7 @@ msgstr "對這個聯絡人使用 KDE 通訊錄(&U)"
 msgid ""
 "Check this box if you do not want to integrate other KDE applications with "
 "Kopete"
-msgstr ""
-"如你不想其他 KDE 應用程式和 Kopete 整合，勾選這個。"
+msgstr "如你不想其他 KDE 應用程式和 Kopete 整合，勾選這個。"
 
 #. i18n: file ./kopete/addcontactwizard/addcontactwizard_base.ui line 156
 #: rc.cpp:1248
@@ -4751,8 +4643,7 @@ msgstr "<p><h2>選取即時傳訊帳號</h2></p>"
 msgid ""
 "Select the &account(s) you would like to use for this contact from the list "
 "below."
-msgstr ""
-"選取你要用於來自以下清單的聯絡人的帳號(&A)"
+msgstr "選取你要用於來自以下清單的聯絡人的帳號(&A)"
 
 #. i18n: file ./kopete/addcontactwizard/addcontactwizard_base.ui line 343
 #: rc.cpp:1287
@@ -4770,8 +4661,7 @@ msgstr ""
 msgid ""
 "How do you want to message the contact?  If they use more than one Instant "
 "Messaging system, select them all here"
-msgstr ""
-"你要怎樣發訊給聯絡人？ 如他們使用多於一個即時傳訊系統，在此全選它們"
+msgstr "你要怎樣發訊給聯絡人？ 如他們使用多於一個即時傳訊系統，在此全選它們"
 
 #. i18n: file ./kopete/addcontactwizard/addcontactwizard_base.ui line 407
 #: rc.cpp:1302
@@ -5144,9 +5034,8 @@ msgid ""
 msgstr ""
 "<qt>這是你執行這個別名時要執行的指令。\n"
 "\n"
-"你可以在指令中使用變數 <b>%1, %2 ... %9</b> ，它們"
-"會以別名的引數代替。變數 <b>%s</b> "
-"則會以所有引數代替。 <b>%n</b> 會伸開成為你的暱稱。\n"
+"你可以在指令中使用變數 <b>%1, %2 ... %9</b> ，它們會以別名的引數代替。變數 <b>%s</b> 則會以所有引數代替。 <b>%n</b> "
+"會伸開成為你的暱稱。\n"
 "\n"
 "在指令中不要包含『/』（如你這樣做，它會被除去）。</qt>"
 
@@ -5162,8 +5051,7 @@ msgstr "別名:"
 msgid ""
 "This is the alias you are adding (what you will type after the command "
 "identifier, '/')."
-msgstr ""
-"這是你要加入的別名（你在指令識別字，『/』，之後鍵入的東西）。"
+msgstr "這是你要加入的別名（你在指令識別字，『/』，之後鍵入的東西）。"
 
 #. i18n: file ./plugins/alias/aliasdialog.ui line 67
 #: rc.cpp:1520
@@ -5172,8 +5060,7 @@ msgid ""
 "This is the alias you are adding (what you will type after the command "
 "identifier, '/'). Do not include the '/' (it will be stripped off if you do "
 "anyway)."
-msgstr ""
-"這是你要加入的別名（你在指令識別字，『/』，之後鍵入的東西）。在指令中不要包含『/』（如你這樣做，它會被除去）。"
+msgstr "這是你要加入的別名（你在指令識別字，『/』，之後鍵入的東西）。在指令中不要包含『/』（如你這樣做，它會被除去）。"
 
 #. i18n: file ./plugins/alias/aliasdialog.ui line 123
 #: rc.cpp:1532 rc.cpp:1535
@@ -5181,8 +5068,7 @@ msgstr ""
 msgid ""
 "If you want this alias to only be active for certain protocols, select those "
 "protocols here."
-msgstr ""
-"如你想這個別名只用於某些協定，在此選取該等協定。"
+msgstr "如你想這個別名只用於某些協定，在此選取該等協定。"
 
 #. i18n: file ./plugins/alias/aliasdialog.ui line 137
 #: rc.cpp:1538
@@ -5246,8 +5132,7 @@ msgstr "簡單的 HTML(&K)"
 msgid ""
 "HTML 4.01 Transitional using the ISO-8859-1 (aka. Latin 1) character set "
 "encoding."
-msgstr ""
-"使用 ISO-8859-1 (即 Latin 1) 字元集編碼的 HTML 4.01 Transitional 。"
+msgstr "使用 ISO-8859-1 (即 Latin 1) 字元集編碼的 HTML 4.01 Transitional 。"
 
 #. i18n: file ./plugins/webpresence/webpresenceprefs.ui line 119
 #: rc.cpp:1572
@@ -5287,8 +5172,7 @@ msgid ""
 msgstr ""
 "結果頁會根據 XHTML 1.0 Strict W3C Recommendation 格式化。字元集編碼是 UTF-8 。\n"
 "\n"
-"注意有些網頁瀏覽器不支援 XHTML 。你應確定你的網頁伺服器能以正確的 MIME 類型（例如 application/xhtml+xml）將資料送出。"
-"."
+"注意有些網頁瀏覽器不支援 XHTML 。你應確定你的網頁伺服器能以正確的 MIME 類型（例如 application/xhtml+xml）將資料送出。."
 
 #. i18n: file ./plugins/webpresence/webpresenceprefs.ui line 143
 #: rc.cpp:1588
@@ -5597,16 +5481,14 @@ msgstr "每頁訊息數量:"
 #, no-c-format
 msgid ""
 "The number of messages that are shown when browsing history in the chat window"
-msgstr ""
-"在聊天視窗瀏覽歷程記錄時顯示的訊息數目"
+msgstr "在聊天視窗瀏覽歷程記錄時顯示的訊息數目"
 
 #. i18n: file ./plugins/history/historyprefsui.ui line 59
 #: rc.cpp:1761
 #, no-c-format
 msgid ""
 "The number of message that are shown when borwsing history in the chat window"
-msgstr ""
-"在聊天視窗瀏覽歷程記錄時顯示的訊息數目"
+msgstr "在聊天視窗瀏覽歷程記錄時顯示的訊息數目"
 
 #. i18n: file ./plugins/history/historyprefsui.ui line 67
 #: rc.cpp:1764
@@ -5626,8 +5508,7 @@ msgstr "聊天視窗中歷程記錄訊息的顏色"
 msgid ""
 "This is the number of messages that will be added automatically in the chat "
 "window when opening a new chat."
-msgstr ""
-"當開啟新聊天時在聊天視窗自動新增的訊息數目。"
+msgstr "當開啟新聊天時在聊天視窗自動新增的訊息數目。"
 
 #. i18n: file ./plugins/history/historyprefsui.ui line 116
 #: rc.cpp:1777
@@ -5647,8 +5528,7 @@ msgstr "在新聊天中顯示歷程記錄"
 msgid ""
 "When a new chat is opened, automatically add the last few messages between you "
 "and that contact."
-msgstr ""
-"開啟新聊天時，自動將你和此聯絡人之間的最後幾個訊息加入。"
+msgstr "開啟新聊天時，自動將你和此聯絡人之間的最後幾個訊息加入。"
 
 #. i18n: file ./plugins/history/historyviewer.ui line 52
 #: plugins/history/historydialog.cpp:570 rc.cpp:1792
@@ -5664,7 +5544,7 @@ msgstr "聯絡人:"
 
 #. i18n: file ./plugins/history/historyviewer.ui line 161
 #: plugins/history/historydialog.cpp:440 plugins/history/historydialog.cpp:533
-#: rc.cpp:1803 rc.cpp:3562 rc.cpp:3805 rc.cpp:4527 rc.cpp:4840
+#: rc.cpp:1803 rc.cpp:3562 rc.cpp:3805 rc.cpp:4530 rc.cpp:4843
 #, no-c-format
 msgid "&Search"
 msgstr "搜尋(&S)"
@@ -5754,7 +5634,7 @@ msgid "SMPPPDLocation"
 msgstr "SMPPPDLocation"
 
 #. i18n: file ./plugins/smpppdcs/config/smpppdlocationui.ui line 27
-#: rc.cpp:1857 rc.cpp:3394 rc.cpp:3922 rc.cpp:4036 rc.cpp:4367 rc.cpp:4903
+#: rc.cpp:1857 rc.cpp:3394 rc.cpp:3925 rc.cpp:4039 rc.cpp:4370 rc.cpp:4906
 #, no-c-format
 msgid "Ser&ver:"
 msgstr "伺服器(&V):"
@@ -5772,7 +5652,7 @@ msgid "The server on which the SMPPPD is running"
 msgstr "正在執行 SMPPPD 的伺服器"
 
 #. i18n: file ./plugins/smpppdcs/config/smpppdlocationui.ui line 55
-#: rc.cpp:1866 rc.cpp:3940
+#: rc.cpp:1866 rc.cpp:3943
 #, no-c-format
 msgid "P&ort:"
 msgstr "連接埠(&O):"
@@ -5790,7 +5670,7 @@ msgid "Default: 3185"
 msgstr "預設值: 3185"
 
 #. i18n: file ./plugins/smpppdcs/config/smpppdlocationui.ui line 118
-#: rc.cpp:1875 rc.cpp:4265
+#: rc.cpp:1875 rc.cpp:4268
 #, no-c-format
 msgid "Pass&word:"
 msgstr "密碼(&W):"
@@ -5830,8 +5710,7 @@ msgstr "&netstat - 偵測連線狀態的標準方法"
 #, no-c-format
 msgid ""
 "Uses the netstat command to find a gateway; suitable on dial-up computers"
-msgstr ""
-"使用 netstat 指令找尋閘道；適合用於撥號電腦"
+msgstr "使用 netstat 指令找尋閘道；適合用於撥號電腦"
 
 #. i18n: file ./plugins/smpppdcs/config/smpppdcsprefs.ui line 88
 #: rc.cpp:1896
@@ -5844,8 +5723,7 @@ msgstr "smpppd - 偵測連線狀態的進階方法(&V)"
 #, no-c-format
 msgid ""
 "Uses the smpppd on a gateway; suitable for a computer in a private network"
-msgstr ""
-"在閘道使用 smpppd ；適合用於私人網絡的電腦"
+msgstr "在閘道使用 smpppd ；適合用於私人網絡的電腦"
 
 #. i18n: file ./plugins/smpppdcs/config/smpppdcsprefs.ui line 107
 #: rc.cpp:1902
@@ -5921,7 +5799,7 @@ msgstr "取代清單"
 
 #. i18n: file ./plugins/autoreplace/autoreplaceprefs.ui line 108
 #: plugins/alias/aliaspreferences.cpp:311
-#: protocols/oscar/oscarlistnonservercontacts.cpp:32 rc.cpp:1941 rc.cpp:4959
+#: protocols/oscar/oscarlistnonservercontacts.cpp:33 rc.cpp:1941 rc.cpp:4962
 #, no-c-format
 msgid "&Add"
 msgstr "加入(&A)"
@@ -6016,8 +5894,7 @@ msgstr "和這網絡關聯的 IRC 伺服器"
 msgid ""
 "The IRC servers associated with this network. Use the up and down buttons to "
 "alter the order in which connections are attempted."
-msgstr ""
-"和這網絡關聯的 IRC 伺服器。使用「上」和「下」鍵更改嘗試連線次序。"
+msgstr "和這網絡關聯的 IRC 伺服器。使用「上」和「下」鍵更改嘗試連線次序。"
 
 #. i18n: file ./protocols/irc/ui/networkconfig.ui line 95
 #: rc.cpp:1998
@@ -6026,7 +5903,7 @@ msgid "Most IRC servers do not require a password"
 msgstr "絕大部份 IRC 伺服器不需要密碼"
 
 #. i18n: file ./protocols/irc/ui/networkconfig.ui line 103
-#: rc.cpp:2001 rc.cpp:4442
+#: rc.cpp:2001 rc.cpp:4445
 #, no-c-format
 msgid "Por&t:"
 msgstr "連接埠(&T):"
@@ -6104,8 +5981,8 @@ msgid "Remo&ve"
 msgstr "移除(&V)"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 50
-#: rc.cpp:2056 rc.cpp:2673 rc.cpp:3081 rc.cpp:3349 rc.cpp:3583 rc.cpp:4000
-#: rc.cpp:4294 rc.cpp:4876
+#: rc.cpp:2056 rc.cpp:2673 rc.cpp:3081 rc.cpp:3349 rc.cpp:3583 rc.cpp:4003
+#: rc.cpp:4297 rc.cpp:4879
 #, no-c-format
 msgid "B&asic Setup"
 msgstr "基本設定(&A)"
@@ -6116,12 +5993,11 @@ msgstr "基本設定(&A)"
 msgid ""
 "<p><b>Note:</b> Most IRC servers do not require a password, and only a nickname "
 "is required to connect</p>"
-msgstr ""
-"<p><b>注意：</b>絕大部份 IRC 伺服器不需要密碼，只需暱稱即可連接</p>"
+msgstr "<p><b>注意：</b>絕大部份 IRC 伺服器不需要密碼，只需暱稱即可連接</p>"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 109
-#: rc.cpp:2062 rc.cpp:2342 rc.cpp:2676 rc.cpp:3084 rc.cpp:3352 rc.cpp:3874
-#: rc.cpp:4003 rc.cpp:4297 rc.cpp:4651 rc.cpp:4879
+#: rc.cpp:2062 rc.cpp:2342 rc.cpp:2676 rc.cpp:3084 rc.cpp:3352 rc.cpp:3877
+#: rc.cpp:4006 rc.cpp:4300 rc.cpp:4654 rc.cpp:4882
 #, no-c-format
 msgid "Account Information"
 msgstr "帳號資訊"
@@ -6189,7 +6065,7 @@ msgid ""
 msgstr "如你的系統不支援 identd ，用於 IRC 的用戶名稱。"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 256
-#: rc.cpp:2110 rc.cpp:4030
+#: rc.cpp:2110 rc.cpp:4033
 #, no-c-format
 msgid "Connection"
 msgstr "連線"
@@ -6201,8 +6077,8 @@ msgid "&Network:"
 msgstr "網絡(&N):"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 371
-#: rc.cpp:2120 rc.cpp:3128 rc.cpp:3388 rc.cpp:3623 rc.cpp:3916 rc.cpp:4033
-#: rc.cpp:4349
+#: rc.cpp:2120 rc.cpp:3128 rc.cpp:3388 rc.cpp:3623 rc.cpp:3919 rc.cpp:4036
+#: rc.cpp:4352
 #, no-c-format
 msgid "Connection Preferences"
 msgstr "連線偏好設定"
@@ -6214,8 +6090,8 @@ msgid "&Prefer SSL-based connections"
 msgstr "偏好基於 SSL 的連線(&P)"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 390
-#: rc.cpp:2126 rc.cpp:2361 rc.cpp:3102 rc.cpp:3370 rc.cpp:3604 rc.cpp:3892
-#: rc.cpp:4021 rc.cpp:4316 rc.cpp:4897
+#: rc.cpp:2126 rc.cpp:2361 rc.cpp:3102 rc.cpp:3370 rc.cpp:3604 rc.cpp:3895
+#: rc.cpp:4024 rc.cpp:4319 rc.cpp:4900
 #, no-c-format
 msgid "E&xclude from connect all"
 msgstr "從全部連線中排除(&X)"
@@ -6227,8 +6103,7 @@ msgid ""
 "If you check that case, the account will not be connected when you press the "
 "\"Connect All\" button, or at startup even if you selected to automatically "
 "connect at startup"
-msgstr ""
-"如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
+msgstr "如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 409
 #: rc.cpp:2132
@@ -6260,8 +6135,7 @@ msgstr "關閉訊息(&Q):"
 msgid ""
 "The message you want people to see when you part a channel without giving a "
 "reason. Leave this field blank to use the Kopete default message."
-msgstr ""
-"當你沒有說明理由而離開頻道，希望別人看到的訊息。留空將使用 Kopete 的預設訊息。"
+msgstr "當你沒有說明理由而離開頻道，希望別人看到的訊息。留空將使用 Kopete 的預設訊息。"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 490
 #: rc.cpp:2150 rc.cpp:2153
@@ -6269,8 +6143,7 @@ msgstr ""
 msgid ""
 "The message you want people to see when you disconnect from IRC without giving "
 "a reason. Leave this field blank to use the Kopete default message."
-msgstr ""
-"當你沒有說明理由而中斷 IRC 連線，希望別人看到的訊息。留空將使用 Kopete 的預設訊息。"
+msgstr "當你沒有說明理由而中斷 IRC 連線，希望別人看到的訊息。留空將使用 Kopete 的預設訊息。"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 522
 #: rc.cpp:2156
@@ -6364,8 +6237,8 @@ msgid ""
 "requests to you. You can also use this dialog to override the built-in replies "
 "for VERSION, USERINFO, and CLIENTINFO."
 msgstr ""
-"你可使用這對話框新增當別人傳送 CTCP 要求給你時的自訂回應。你可使用此對話框蓋過內建的 "
-"VERSION 、 USERINFO 和 CLIENTINFO 回應。"
+"你可使用這對話框新增當別人傳送 CTCP 要求給你時的自訂回應。你可使用此對話框蓋過內建的 VERSION 、 USERINFO 和 CLIENTINFO "
+"回應。"
 
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 826
 #: rc.cpp:2252
@@ -6403,8 +6276,7 @@ msgstr "新增指令(&M)"
 msgid ""
 "Any commands added here will be run as soon as you are connected to the IRC "
 "server."
-msgstr ""
-"任何加在此的指令將於連線至 IRC 伺服器時立即執行。"
+msgstr "任何加在此的指令將於連線至 IRC 伺服器時立即執行。"
 
 #. i18n: file ./protocols/irc/ui/ircadd.ui line 59
 #: rc.cpp:2279
@@ -6425,8 +6297,7 @@ msgid ""
 "The name of the IRC contact or channel you would like to add.  You may type "
 "simply the text of a person's nickname, or you may type a channel name, "
 "preceded by a pound sign ('#')."
-msgstr ""
-"要新增的 IRC 聯絡人或頻道名稱。 你可只鍵入別人的暱稱文字，或頻道名稱（在之前要加上『#』符號）。"
+msgstr "要新增的 IRC 聯絡人或頻道名稱。 你可只鍵入別人的暱稱文字，或頻道名稱（在之前要加上『#』符號）。"
 
 #. i18n: file ./protocols/irc/ui/ircadd.ui line 79
 #: rc.cpp:2291
@@ -6435,8 +6306,7 @@ msgid ""
 "The name of the IRC contact or channel you would like to add.  You may type "
 "simply the text of a person's nickname, or you may type a channel name, "
 "preceded by a pound sign ('#')"
-msgstr ""
-"要新增的 IRC 聯絡人或頻道名稱。 你可只鍵入別人的暱稱文字，或頻道名稱（在之前要加上『#』符號）"
+msgstr "要新增的 IRC 聯絡人或頻道名稱。 你可只鍵入別人的暱稱文字，或頻道名稱（在之前要加上『#』符號）"
 
 #. i18n: file ./protocols/irc/ui/ircadd.ui line 89
 #: rc.cpp:2294
@@ -6519,7 +6389,7 @@ msgid "Account Preferences - MSN"
 msgstr "帳號偏好設定 - MSN"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 41
-#: rc.cpp:2339 rc.cpp:3871
+#: rc.cpp:2339 rc.cpp:3874
 #, no-c-format
 msgid "&Basic Setup"
 msgstr "基本設定(&B)"
@@ -6545,11 +6415,10 @@ msgid ""
 "If you check this checkbox, the account will not be connected when you press "
 "the \"Connect All\" button, or at startup when automatic connection at startup "
 "is enabled."
-msgstr ""
-"如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線。"
+msgstr "如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 141
-#: rc.cpp:2367 rc.cpp:3109 rc.cpp:3376 rc.cpp:3610 rc.cpp:3898 rc.cpp:4322
+#: rc.cpp:2367 rc.cpp:3109 rc.cpp:3376 rc.cpp:3610 rc.cpp:3901 rc.cpp:4325
 #, no-c-format
 msgid "Registration"
 msgstr "註冊"
@@ -6568,7 +6437,7 @@ msgstr ""
 "<br>如果你還沒有 Passport，請按一下按鈕來建立。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 177
-#: rc.cpp:2373 rc.cpp:3116 rc.cpp:3382 rc.cpp:3617 rc.cpp:4328
+#: rc.cpp:2373 rc.cpp:3116 rc.cpp:3382 rc.cpp:3617 rc.cpp:4331
 #, no-c-format
 msgid "Re&gister New Account"
 msgstr "註冊新帳號(&G)"
@@ -6629,8 +6498,7 @@ msgstr ""
 "<p>指示 Kopete 何時下載聯絡人的顯示圖片</p>\n"
 "<dl><dt>只手動</dt><dd>圖片不會自動下載。只有用戶要求時才下載</dd>\n"
 "<dt>聊天開啟時</dt><dd>圖片會於對話插座（socket）開啟時下載，即當你開啟聊天時</dd>\n"
-"<dt>自動</dt><dd>如聯絡人有圖片必定下載  "
-"<b>注意：</b>這會開啟插座（socket），和讓此用戶知道你正在下載圖片。</dd></dl>"
+"<dt>自動</dt><dd>如聯絡人有圖片必定下載  <b>注意：</b>這會開啟插座（socket），和讓此用戶知道你正在下載圖片。</dd></dl>"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 283
 #: rc.cpp:2400
@@ -6668,8 +6536,7 @@ msgstr ""
 "<p>指示 Kopete 何時下載聯絡人的顯示圖片</p>\n"
 "<dl><dt>只手動</dt><dd>圖片不會自動下載。只有用戶要求時才下載</dd>\n"
 "<dt>聊天開啟時</dt><dd>圖片會於對話插座（socket）開啟時下載，即當你開啟聊天時</dd>\n"
-"<dt>自動</dt><dd>如聯絡人有圖片必定下載  "
-"<b>注意：</b>這會開啟插座（socket），和讓此用戶知道你正在下載圖片。</dd></dl>"
+"<dt>自動</dt><dd>如聯絡人有圖片必定下載  <b>注意：</b>這會開啟插座（socket），和讓此用戶知道你正在下載圖片。</dd></dl>"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 324
 #: rc.cpp:2415
@@ -6683,8 +6550,7 @@ msgstr "下載並顯示自訂表情符號(&D)"
 msgid ""
 "MSN Messenger allows users to download and use custom emoticons. If this option "
 "is enabled, Kopete will download these emoticons and show them."
-msgstr ""
-"MSN Messenger 容許用戶下載及使用自訂表情符號。如開啟此選項， Kopete 會下載並顯示這些表情符號。"
+msgstr "MSN Messenger 容許用戶下載及使用自訂表情符號。如開啟此選項， Kopete 會下載並顯示這些表情符號。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 338
 #: rc.cpp:2421
@@ -6726,9 +6592,7 @@ msgstr "傳送用戶端資訊"
 msgid ""
 "<qt>Make it possible for your contacts to detect if you are using Kopete."
 "<br>We recommend leaving this checked.</qt>"
-msgstr ""
-"<qt>讓你的聯絡人偵測到你正在使用 Kopete 。"
-"<br>我們建議你保持勾選它。</qt>"
+msgstr "<qt>讓你的聯絡人偵測到你正在使用 Kopete 。<br>我們建議你保持勾選它。</qt>"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 381
 #: rc.cpp:2441
@@ -6737,8 +6601,7 @@ msgid ""
 "Third party MSN clients, such as Kopete, give users the ability to let other "
 "third party clients guess which client they are using. We recommend leaving "
 "this checkbox checked."
-msgstr ""
-"第三方的 MSN 客戶端，例如 Kopete ，容許用戶讓其他第三方客戶端猜測他們用的是什麼版本。我們建議你保持它勾選。"
+msgstr "第三方的 MSN 客戶端，例如 Kopete ，容許用戶讓其他第三方客戶端猜測他們用的是什麼版本。我們建議你保持它勾選。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 392
 #: rc.cpp:2444
@@ -6754,8 +6617,7 @@ msgid ""
 "to your contacts. When you are composing a message, you might want your contact "
 "to know that you are typing so that he knows you are answering.</qt>"
 msgstr ""
-"<qt>勾選此選會傳送<b>輸入通知</b>給你的聯絡人。"
-"當你撰寫訊息時，你可能想你的聯絡人知道你正在打字，好讓他們知道你正在回應他們。</qt>"
+"<qt>勾選此選會傳送<b>輸入通知</b>給你的聯絡人。當你撰寫訊息時，你可能想你的聯絡人知道你正在打字，好讓他們知道你正在回應他們。</qt>"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 414
 #: rc.cpp:2450
@@ -6769,8 +6631,7 @@ msgstr "將我的 Jabber 帳號開放給 Jabber 使用者"
 msgid ""
 "If you have a Jabber account, you may let Jabber users on an MSN gateway know "
 "that you are also using Jabber."
-msgstr ""
-"如你有 Jabber 帳，你可讓在 MSN 閘道上的 Jabber 用戶知道你正在使用 Jabber 。"
+msgstr "如你有 Jabber 帳，你可讓在 MSN 閘道上的 Jabber 用戶知道你正在使用 Jabber 。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 475
 #: rc.cpp:2459
@@ -6793,7 +6654,7 @@ msgid ""
 msgstr "你在 MSN 上使用的別名。 你可以在任何時候變更它。"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 567
-#: rc.cpp:2474 rc.cpp:3859
+#: rc.cpp:2474 rc.cpp:3862
 #, no-c-format
 msgid "Phone Numbers"
 msgstr "電話號碼"
@@ -6932,7 +6793,7 @@ msgid "Connection Preferences (for advanced users)"
 msgstr "連線偏好設定（供進階用戶使用）"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 1114
-#: rc.cpp:2545 rc.cpp:3391 rc.cpp:3659 rc.cpp:4364
+#: rc.cpp:2545 rc.cpp:3391 rc.cpp:3659 rc.cpp:4367
 #, no-c-format
 msgid "&Override default server information"
 msgstr "蓋過預設伺服器資訊(&O)"
@@ -6961,8 +6822,7 @@ msgstr "messenger.hotmail.com"
 msgid ""
 "Only modify these values if you want to use a special IM proxy server, like "
 "SIMP"
-msgstr ""
-"只有當你想用特別的即時傳訊代理伺服器時才好修改這些值，例如 SIMP"
+msgstr "只有當你想用特別的即時傳訊代理伺服器時才好修改這些值，例如 SIMP"
 
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 1221
 #: rc.cpp:2569
@@ -6998,11 +6858,11 @@ msgid ""
 "yourself, the operating system will choose an available port for you. It is "
 "recommended to leave the checkbox unchecked."
 msgstr ""
-"如你在防火牆後面，你需要指定用於內送連線的連接埠，及設定你的防火牆接受使用此連接埠的連線。"
-"內送連線埠用於網絡攝影機。如你自己不指定連接埠，作業系統會為你選擇一個。建議你將它保持不選。"
+"如你在防火牆後面，你需要指定用於內送連線的連接埠，及設定你的防火牆接受使用此連接埠的連線。內送連線埠用於網絡攝影機。如你自己不指定連接埠，作業系統會為你選擇一個"
+"。建議你將它保持不選。"
 
 #. i18n: file ./protocols/msn/ui/msninfo.ui line 46
-#: rc.cpp:2587 rc.cpp:3847
+#: rc.cpp:2587 rc.cpp:3850
 #, no-c-format
 msgid "Email address:"
 msgstr "電子郵件地址:"
@@ -7020,13 +6880,13 @@ msgid "Phones"
 msgstr "電話"
 
 #. i18n: file ./protocols/msn/ui/msninfo.ui line 141
-#: rc.cpp:2599 rc.cpp:3865 rc.cpp:4228
+#: rc.cpp:2599 rc.cpp:3868 rc.cpp:4231
 #, no-c-format
 msgid "Home:"
 msgstr "住家:"
 
 #. i18n: file ./protocols/msn/ui/msninfo.ui line 149
-#: rc.cpp:2602 rc.cpp:3862 rc.cpp:4225
+#: rc.cpp:2602 rc.cpp:3865 rc.cpp:4228
 #, no-c-format
 msgid "Work:"
 msgstr "工作:"
@@ -7146,7 +7006,7 @@ msgid "Account Preferences - SMS"
 msgstr "帳號偏好設定 - SMS"
 
 #. i18n: file ./protocols/sms/ui/smsactprefs.ui line 82
-#: rc.cpp:2679 rc.cpp:5085
+#: rc.cpp:2679 rc.cpp:5088
 #, no-c-format
 msgid "&Account name:"
 msgstr "帳號名稱(&A):"
@@ -7237,8 +7097,7 @@ msgid ""
 "automatically, cancel the message from being sent entirely, or have Kopete "
 "prompt you each time you enter a message that is too long."
 msgstr ""
-"如你鍵入的訊息過長，不能放入同一 SMS 訊息內時應怎樣做。 你可以選擇將它自動分為多個較小的訊息、"
-"完全取消傳送或要 Kopete 每次訊息過長時都提示你。"
+"如你鍵入的訊息過長，不能放入同一 SMS 訊息內時應怎樣做。 你可以選擇將它自動分為多個較小的訊息、完全取消傳送或要 Kopete 每次訊息過長時都提示你。"
 
 #. i18n: file ./protocols/sms/ui/smsactprefs.ui line 265
 #: rc.cpp:2736
@@ -7450,8 +7309,7 @@ msgstr "Gadu-Gadu 註冊記號"
 msgid ""
 "This field contains an image with number that you need to type into the <b>"
 "Verification Sequence</b> field above."
-msgstr ""
-"<i>此欄位包含你要在上面<b>驗證字串</b>欄位中鍵入數字的圖像。</i>"
+msgstr "<i>此欄位包含你要在上面<b>驗證字串</b>欄位中鍵入數字的圖像。</i>"
 
 #. i18n: file ./protocols/gadu/ui/gaduregisteraccountui.ui line 375
 #: rc.cpp:2905
@@ -7460,8 +7318,7 @@ msgid ""
 "<i>Type the letters and numbers shown in the image above into the <b>"
 "Verification Sequence</b> field.  This is used to prevent automated "
 "registration abuse.</i>"
-msgstr ""
-"<i>在<b>驗證字串</b>欄位中鍵入以上圖像的字母及數字。這用來防止自動登記濫用。</i>"
+msgstr "<i>在<b>驗證字串</b>欄位中鍵入以上圖像的字母及數字。這用來防止自動登記濫用。</i>"
 
 #. i18n: file ./protocols/gadu/ui/gaduadd.ui line 40
 #: rc.cpp:2909 rc.cpp:3087
@@ -7481,9 +7338,7 @@ msgstr "你要新增的 Gadu-Gadu 帳號用戶 ID 。"
 msgid ""
 "The user ID of the Gadu-Gadu account you would like to add.  This should be in "
 "the form of a number (no decimals, no spaces).  This field is mandatory."
-msgstr ""
-"你要新增的 Gadu-Gadu 帳號用戶 ID 。 這應該是數字的格式（沒有小數點、沒有空格）。"
-"此欄位是必須的。"
+msgstr "你要新增的 Gadu-Gadu 帳號用戶 ID 。 這應該是數字的格式（沒有小數點、沒有空格）。此欄位是必須的。"
 
 #. i18n: file ./protocols/gadu/ui/gaduadd.ui line 79
 #: rc.cpp:2924
@@ -7619,8 +7474,7 @@ msgstr "將你的狀態設為忙碌。"
 msgid ""
 "Set your status to busy, indicating that you may should not be bothered with "
 "trivial chat, and may not be able to reply immediately."
-msgstr ""
-"將你的狀態設為忙碌，代表你不想被瑣碎的聊天打擾，以及可能不能即時回應。"
+msgstr "將你的狀態設為忙碌，代表你不想被瑣碎的聊天打擾，以及可能不能即時回應。"
 
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 111
 #: rc.cpp:3048
@@ -7636,8 +7490,7 @@ msgid ""
 "Set status to invisible, which will hide your presence from other users (who "
 "will see you as offline).  However you may still chat, and see the online "
 "presence others."
-msgstr ""
-"將你的狀態設為隱形，其他用戶會看不到你（他們會看到你為離線）。但你仍然可以聊天，以及看到其他人的上線狀態。"
+msgstr "將你的狀態設為隱形，其他用戶會看不到你（他們會看到你為離線）。但你仍然可以聊天，以及看到其他人的上線狀態。"
 
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 128
 #: rc.cpp:3057 rc.cpp:3060
@@ -7706,7 +7559,7 @@ msgstr ""
 "如你現在未有帳號，請按下按鈕建立。"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 186
-#: rc.cpp:3119 rc.cpp:3122 rc.cpp:3907 rc.cpp:3910 rc.cpp:4331 rc.cpp:4334
+#: rc.cpp:3119 rc.cpp:3122 rc.cpp:3910 rc.cpp:3913 rc.cpp:4334 rc.cpp:4337
 #, no-c-format
 msgid "Register a new account on this network."
 msgstr "在此網絡註冊新帳號。"
@@ -7723,8 +7576,7 @@ msgstr "快取伺服器資訊(&A)"
 msgid ""
 "Cache connection information for each server connected to in case the main "
 "load-balancing server fails."
-msgstr ""
-"將每個連接的伺服器連接資訊放入快取記憶，以防主負載平衡伺服器當機。"
+msgstr "將每個連接的伺服器連接資訊放入快取記憶，以防主負載平衡伺服器當機。"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 252
 #: rc.cpp:3137
@@ -7736,8 +7588,8 @@ msgid ""
 "main load-balancing server does not answer. In practice it only helps very "
 "rarely."
 msgstr ""
-"此選項用於當 Gadu-Gadu 的主負載平衡伺服器當機。如勾選， Kopete 會使用快取的資訊嘗試直接連接真正的"
-"伺服器。 這可防止主負載平衡伺服器不回應時發生連線錯誤。實際很少會用到它。"
+"此選項用於當 Gadu-Gadu 的主負載平衡伺服器當機。如勾選， Kopete 會使用快取的資訊嘗試直接連接真正的伺服器。 "
+"這可防止主負載平衡伺服器不回應時發生連線錯誤。實際很少會用到它。"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 263
 #: rc.cpp:3140
@@ -7765,8 +7617,7 @@ msgid ""
 "Whether or not you want to enable SSL encrypted communication with the server.  "
 "Note that this is not end-to-end encryption, but rather encrypted communication "
 "with the server."
-msgstr ""
-"你要不要啟動和伺服器的 SSL 加密通訊。注意這不是用戶至用戶的加密，而只是和伺服器的加密通訊。"
+msgstr "你要不要啟動和伺服器的 SSL 加密通訊。注意這不是用戶至用戶的加密，而只是和伺服器的加密通訊。"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 297
 #: rc.cpp:3152
@@ -7792,8 +7643,7 @@ msgstr "用戶資訊(&S)"
 msgid ""
 "<p align=\"center\">You must be connected to change your Personal "
 "Information.</p>"
-msgstr ""
-"<p align=\"center\">你必須連線才能更改個人資訊。</p>"
+msgstr "<p align=\"center\">你必須連線才能更改個人資訊。</p>"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 391
 #: protocols/yahoo/yahoouserinfo.cpp:28 rc.cpp:3173
@@ -7826,7 +7676,7 @@ msgid "Year of birth:"
 msgstr "出生年份:"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 458
-#: rc.cpp:3191 rc.cpp:3242 rc.cpp:3466 rc.cpp:3768 rc.cpp:4168 rc.cpp:4183
+#: rc.cpp:3191 rc.cpp:3242 rc.cpp:3466 rc.cpp:3768 rc.cpp:4171 rc.cpp:4186
 #, no-c-format
 msgid "City:"
 msgstr "城市:"
@@ -7903,7 +7753,7 @@ msgid "0.0.0.0"
 msgstr "0.0.0.0"
 
 #. i18n: file ./protocols/gadu/ui/gadusearch.ui line 104
-#: rc.cpp:3239 rc.cpp:4494
+#: rc.cpp:3239 rc.cpp:4497
 #, no-c-format
 msgid "Nick:"
 msgstr "暱稱:"
@@ -8023,7 +7873,7 @@ msgid "AIM screen name:"
 msgstr "AIM 螢幕名稱:"
 
 #. i18n: file ./protocols/oscar/aim/ui/aiminfobase.ui line 51
-#: rc.cpp:3324 rc.cpp:3844 rc.cpp:4156
+#: rc.cpp:3324 rc.cpp:3847 rc.cpp:4159
 #, no-c-format
 msgid "Nickname:"
 msgstr "暱稱:"
@@ -8070,8 +7920,7 @@ msgstr "你 AIM 帳號的螢幕名稱。"
 msgid ""
 "The screen name of your AIM account.  This should be in the form of an "
 "alphanumeric string (spaces allowed, not case sensitive)."
-msgstr ""
-"你 AIM 帳號的螢幕名稱。這應該是字母或數字格式（可有空格，不分大小寫）。"
+msgstr "你 AIM 帳號的螢幕名稱。這應該是字母或數字格式（可有空格，不分大小寫）。"
 
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 167
 #: rc.cpp:3379
@@ -8108,7 +7957,7 @@ msgid "login.oscar.aol.com"
 msgstr "login.oscar.aol.com"
 
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 288
-#: rc.cpp:3412 rc.cpp:3641 rc.cpp:4051 rc.cpp:4383 rc.cpp:4919
+#: rc.cpp:3412 rc.cpp:3641 rc.cpp:4054 rc.cpp:4386 rc.cpp:4922
 #, no-c-format
 msgid "Po&rt:"
 msgstr "連接埠(&R):"
@@ -8146,19 +7995,19 @@ msgid "Personal Work Information"
 msgstr "個人工作資訊"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqworkinfowidget.ui line 43
-#: rc.cpp:3439 rc.cpp:4219
+#: rc.cpp:3439 rc.cpp:4222
 #, no-c-format
 msgid "Fax:"
 msgstr "傳真:"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqworkinfowidget.ui line 51
-#: rc.cpp:3442 rc.cpp:4210
+#: rc.cpp:3442 rc.cpp:4213
 #, no-c-format
 msgid "Department:"
 msgstr "部門:"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqworkinfowidget.ui line 67
-#: rc.cpp:3445 rc.cpp:4204
+#: rc.cpp:3445 rc.cpp:4207
 #, no-c-format
 msgid "Position:"
 msgstr "職位:"
@@ -8170,7 +8019,7 @@ msgid "Company Location Information"
 msgstr "公司位置資訊"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqworkinfowidget.ui line 120
-#: rc.cpp:3454 rc.cpp:4143
+#: rc.cpp:3454 rc.cpp:4146
 #, no-c-format
 msgid "Homepage:"
 msgstr "首頁:"
@@ -8188,7 +8037,7 @@ msgid "State:"
 msgstr "省/州:"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqworkinfowidget.ui line 168
-#: rc.cpp:3469 rc.cpp:3771 rc.cpp:4171 rc.cpp:4192
+#: rc.cpp:3469 rc.cpp:3771 rc.cpp:4174 rc.cpp:4195
 #, no-c-format
 msgid "Country:"
 msgstr "國家:"
@@ -8320,9 +8169,7 @@ msgid ""
 "This is where the results from your search are displayed. If you double-click a "
 "result, the search window will close and pass the UIN of the contact you wish "
 "to add back to the Add Contact Wizard. You can only add one contact at a time."
-msgstr ""
-"這是搜尋結果顯示的地方。如你雙擊某一結果，搜尋視窗會關閉，然後將聯絡人的 UIN 傳回給加入聯絡人精靈。"
-"你只可一次加入一個聯絡人。"
+msgstr "這是搜尋結果顯示的地方。如你雙擊某一結果，搜尋視窗會關閉，然後將聯絡人的 UIN 傳回給加入聯絡人精靈。你只可一次加入一個聯絡人。"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqsearchbase.ui line 443
 #: rc.cpp:3565
@@ -8453,8 +8300,7 @@ msgstr "別人將你加入他們的聯絡人清單時需要授權(&R)"
 msgid ""
 "Enable authorization requirement, which will not allow users to add you to "
 "their contact list without authorization from you."
-msgstr ""
-"啟用授權要求，這使別人要得你授權才能將你加到他們的聯絡人清單。"
+msgstr "啟用授權要求，這使別人要得你授權才能將你加到他們的聯絡人清單。"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 321
 #: rc.cpp:3671
@@ -8465,8 +8311,7 @@ msgid ""
 "will have to confirm any users who add you to their list before they may see "
 "your online status."
 msgstr ""
-"啟用授權要求，這使別人要得你授權才能將你加到他們的聯絡人清單。 "
-"如勾選此選項，別人要將你加到他們的清單前要得到你確認，然後他們才能看到你的上線狀態。"
+"啟用授權要求，這使別人要得你授權才能將你加到他們的聯絡人清單。 如勾選此選項，別人要將你加到他們的清單前要得到你確認，然後他們才能看到你的上線狀態。"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 329
 #: rc.cpp:3674
@@ -8514,9 +8359,7 @@ msgid ""
 "Check this box to enable ICQ's Web Aware functionality, which allows people to "
 "see your online status from ICQ's web page, and send you a message without "
 "necessarily having ICQ themselves."
-msgstr ""
-"勾選此處啟用 ICQ 的 Web Aware 功能，讓其他人可在 ICQ 的網頁看到你的上線狀態，"
-"以及他們毋須 ICQ 也可傳送訊息給你。"
+msgstr "勾選此處啟用 ICQ 的 Web Aware 功能，讓其他人可在 ICQ 的網頁看到你的上線狀態，以及他們毋須 ICQ 也可傳送訊息給你。"
 
 #. i18n: file ./protocols/oscar/icq/ui/icqgeneralinfo.ui line 24
 #: rc.cpp:3699
@@ -8694,26 +8537,32 @@ msgid ""
 "them?"
 msgstr "以下聯絡人不在你的聯絡人清單。要加入他們嗎？"
 
-#. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 16
+#. i18n: file ./protocols/oscar/oscarlistcontactsbase.ui line 43
 #: rc.cpp:3814
+#, fuzzy, no-c-format
+msgid "Do &not ask again"
+msgstr "不要翻譯"
+
+#. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 16
+#: rc.cpp:3817
 #, no-c-format
 msgid "Add Yahoo Contact"
 msgstr "新增 Yahoo 聯絡人"
 
 #. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 41
-#: rc.cpp:3817
+#: rc.cpp:3820
 #, no-c-format
 msgid "&Yahoo username:"
 msgstr "&Yahoo 用戶名稱:"
 
 #. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 47
-#: rc.cpp:3820 rc.cpp:3826
+#: rc.cpp:3823 rc.cpp:3829
 #, no-c-format
 msgid "The account name of the Yahoo account you would like to add."
 msgstr "你要新增的 Yahoo 帳號的帳號名稱"
 
 #. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 50
-#: rc.cpp:3823 rc.cpp:3829
+#: rc.cpp:3826 rc.cpp:3832
 #, no-c-format
 msgid ""
 "The account name of the Yahoo account you would like to add.  This should be in "
@@ -8721,49 +8570,49 @@ msgid ""
 msgstr "你要新增的 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooadd.ui line 71
-#: rc.cpp:3832
+#: rc.cpp:3835
 #, no-c-format
 msgid "<i>(for example: joe8752)</i>"
 msgstr "<i>(舉例: joe8752)</i>"
 
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 30
-#: rc.cpp:3835
+#: rc.cpp:3838
 #, no-c-format
 msgid "Show Me As"
 msgstr "將我顯示為"
 
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 52
-#: rc.cpp:3841
+#: rc.cpp:3844
 #, no-c-format
 msgid "Per&manently offline"
 msgstr "永久離線(&M)"
 
 #. i18n: file ./protocols/yahoo/ui/yahoouserinfobase.ui line 70
-#: rc.cpp:3853
+#: rc.cpp:3856
 #, no-c-format
 msgid "Yahoo ID:"
 msgstr "Yahoo ID:"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 16
-#: rc.cpp:3868
+#: rc.cpp:3871
 #, no-c-format
 msgid "Account Preferences - Yahoo"
 msgstr "帳號偏好設定 - Yahoo"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 73
-#: rc.cpp:3877
+#: rc.cpp:3880
 #, no-c-format
 msgid "Yahoo &username:"
 msgstr "Yahoo 使用者名稱(&U):"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 79
-#: rc.cpp:3880 rc.cpp:3886
+#: rc.cpp:3883 rc.cpp:3889
 #, no-c-format
 msgid "The account name of your Yahoo account."
 msgstr "你 Yahoo 帳號的帳號名稱。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 82
-#: rc.cpp:3883 rc.cpp:3889
+#: rc.cpp:3886 rc.cpp:3892
 #, no-c-format
 msgid ""
 "The account name of your Yahoo account.  This should be in the form of an "
@@ -8771,53 +8620,49 @@ msgid ""
 msgstr "你 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 106
-#: rc.cpp:3895 rc.cpp:4024 rc.cpp:4319 rc.cpp:4681 rc.cpp:4900
+#: rc.cpp:3898 rc.cpp:4027 rc.cpp:4322 rc.cpp:4684 rc.cpp:4903
 #, no-c-format
 msgid ""
 "Check to disable automatic connection.  If checked, you may connect to this "
 "account manually using the icon in the bottom of the main Kopete window"
-msgstr ""
-"勾選將停止自動連線。 如勾選，你可使用主 Kopete 視窗底部的圖示手動連接此帳號。"
+msgstr "勾選將停止自動連線。 如勾選，你可使用主 Kopete 視窗底部的圖示手動連接此帳號。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 149
-#: rc.cpp:3901
+#: rc.cpp:3904
 #, no-c-format
 msgid ""
 "To connect to the Yahoo network, you will need a Yahoo account."
 "<br>"
 "<br>If you do not currently have a Yahoo account, please click the button to "
 "create one."
-msgstr ""
-"要連接 Yahoo 網絡，你需要 Yahoo 帳號。"
-"<br>"
-"<br>如你未有 Yahoo 帳號，請按下按鈕建立。"
+msgstr "要連接 Yahoo 網絡，你需要 Yahoo 帳號。<br><br>如你未有 Yahoo 帳號，請按下按鈕建立。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 163
-#: rc.cpp:3904
+#: rc.cpp:3907
 #, no-c-format
 msgid "Register &New Account"
 msgstr "註冊新帳號(&N)"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 198
-#: rc.cpp:3913
+#: rc.cpp:3916
 #, no-c-format
 msgid "&Account Preferences"
 msgstr "帳號偏好設定(&A)"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 237
-#: rc.cpp:3919
+#: rc.cpp:3922
 #, no-c-format
 msgid "O&verride default server information"
 msgstr "蓋過預設伺服器資訊(&V)"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 265
-#: rc.cpp:3925 rc.cpp:3934
+#: rc.cpp:3928 rc.cpp:3937
 #, no-c-format
 msgid "The IP address or hostmask of the Yahoo server you wish to connect to."
 msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 268
-#: rc.cpp:3928 rc.cpp:3937
+#: rc.cpp:3931 rc.cpp:3940
 #, no-c-format
 msgid ""
 "The IP address or hostmask of the Yahoo server you wish to connect to.  "
@@ -8825,19 +8670,19 @@ msgid ""
 msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。 通常使用預設即可（scs.msg.yahoo.com）。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 279
-#: rc.cpp:3931
+#: rc.cpp:3934
 #, no-c-format
 msgid "scs.msg.yahoo.com"
 msgstr "scs.msg.yahoo.com"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 302
-#: rc.cpp:3943
+#: rc.cpp:3946
 #, no-c-format
 msgid "The port on the Yahoo server that you would like to connect to."
 msgstr "你要連接的 Yahoo 伺服器連接埠。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 305
-#: rc.cpp:3946 rc.cpp:3952
+#: rc.cpp:3949 rc.cpp:3955
 #, no-c-format
 msgid ""
 "The port on the Yahoo server that you would like to connect to.  Normally this "
@@ -8845,104 +8690,104 @@ msgid ""
 msgstr "你要連接的 Yahoo 伺服器連接埠。 通常是 5050 ，但為防止你在防火牆之後， Yahoo 亦容許使用連接埠 80 。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 325
-#: rc.cpp:3949
+#: rc.cpp:3952
 #, no-c-format
 msgid "The port on the Yahoo server that you would like to connect  to."
 msgstr "你要連接的 Yahoo 伺服器連接埠。"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 340
-#: rc.cpp:3955
+#: rc.cpp:3958
 #, no-c-format
 msgid "Buddy Icon"
 msgstr "伙伴圖示"
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 356
-#: rc.cpp:3958
+#: rc.cpp:3961
 #, no-c-format
 msgid "Select Picture..."
 msgstr "選取圖片..."
 
 #. i18n: file ./protocols/yahoo/ui/yahooeditaccountbase.ui line 396
-#: rc.cpp:3963
+#: rc.cpp:3966
 #, no-c-format
 msgid "Se&nd buddy icon to other users"
 msgstr "傳送伙伴圖示給其他用戶(&N)"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 16
-#: rc.cpp:3967
+#: rc.cpp:3970
 #, no-c-format
 msgid "Add Sametime Contact"
 msgstr "新增 Sametime 聯絡人"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 41
-#: rc.cpp:3970
+#: rc.cpp:3973
 #, no-c-format
 msgid "&Userid:"
 msgstr "用戶 ID (&U):"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 47
-#: rc.cpp:3973 rc.cpp:3976 rc.cpp:3979 rc.cpp:3982
+#: rc.cpp:3976 rc.cpp:3979 rc.cpp:3982 rc.cpp:3985
 #, no-c-format
 msgid "The user id of the contact you would like to add."
 msgstr "要新增的聯絡人 ID 。"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 69
-#: rc.cpp:3985
+#: rc.cpp:3988
 #, no-c-format
 msgid "&Find"
 msgstr "找尋(&F)"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 72
-#: rc.cpp:3988 rc.cpp:3991
+#: rc.cpp:3991 rc.cpp:3994
 #, no-c-format
 msgid "Find Userid"
 msgstr "找尋用戶 ID"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileaddcontactbase.ui line 85
-#: rc.cpp:3994
+#: rc.cpp:3997
 #, no-c-format
 msgid "<i>(for example: johndoe)</i>"
 msgstr "<i>(舉例: johndoe)</i>"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 16
-#: rc.cpp:3997
+#: rc.cpp:4000
 #, no-c-format
 msgid "Edit Meanwhile Account"
 msgstr "編輯 Meanwhile 帳號"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 67
-#: rc.cpp:4006
+#: rc.cpp:4009
 #, no-c-format
 msgid "Meanwhile &username:"
 msgstr "Meanwhile 使用者名稱(&U):"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 73
-#: rc.cpp:4009 rc.cpp:4012 rc.cpp:4015 rc.cpp:4018
+#: rc.cpp:4012 rc.cpp:4015 rc.cpp:4018 rc.cpp:4021
 #, no-c-format
 msgid "Your Sametime userid"
 msgstr "你的 Sametime 用戶 ID"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 129
-#: rc.cpp:4027
+#: rc.cpp:4030
 #, no-c-format
 msgid "<i>contact suppandi@gmail.com if you have any problems.</i>"
 msgstr "<i>如有問題請聯絡 suppandi@gmail.com 。</i>"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 186
-#: rc.cpp:4039 rc.cpp:4042 rc.cpp:4045 rc.cpp:4048
+#: rc.cpp:4042 rc.cpp:4045 rc.cpp:4048 rc.cpp:4051
 #, no-c-format
 msgid ""
 "The IP address or hostname of the Sametime server you wish to connect to."
 msgstr "你要連接的 Sametime 伺服器 IP 位址或主機遮罩。"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 224
-#: rc.cpp:4054 rc.cpp:4060
+#: rc.cpp:4057 rc.cpp:4063
 #, no-c-format
 msgid "The port on the Sametime server that you would like to connect to."
 msgstr "你要連接的 Sametime 伺服器連接埠。"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 227
-#: rc.cpp:4057 rc.cpp:4063
+#: rc.cpp:4060 rc.cpp:4066
 #, no-c-format
 msgid ""
 "The port on the Sametime server that you would like to connect to.  Usually "
@@ -8950,70 +8795,69 @@ msgid ""
 msgstr "你要連接的 Sametime 伺服器連接埠。 通常是 1533 。"
 
 #. i18n: file ./protocols/meanwhile/ui/meanwhileeditaccountbase.ui line 260
-#: rc.cpp:4069 rc.cpp:4072
+#: rc.cpp:4072 rc.cpp:4075
 #, no-c-format
 msgid "Restore the server and port values to their defaults."
 msgstr "將伺服器及連接埠值回復至預設值。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberchooseserver.ui line 22
-#: rc.cpp:4075
+#: rc.cpp:4078
 #, no-c-format
 msgid "Choose Server - Jabber"
 msgstr "選擇伺服器 - Jabber"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberchooseserver.ui line 31
-#: rc.cpp:4078
+#: rc.cpp:4081
 #, no-c-format
 msgid "Server"
 msgstr "伺服器"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberchooseserver.ui line 85
-#: rc.cpp:4084
+#: rc.cpp:4087
 #, no-c-format
 msgid ""
 "<a href=\"http://www.jabber.org/network/\">Details about free public Jabber "
 "servers</a>"
-msgstr ""
-"<a href=\"http://www.jabber.org/network/\">有關免費公共 Jabber 服務的詳細資料</a>"
+msgstr "<a href=\"http://www.jabber.org/network/\">有關免費公共 Jabber 服務的詳細資料</a>"
 
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 24
-#: rc.cpp:4088
+#: rc.cpp:4091
 #, no-c-format
 msgid "Register with Jabber Service"
 msgstr "註冊 Jabber 服務"
 
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 49
-#: rc.cpp:4091
+#: rc.cpp:4094
 #, no-c-format
 msgid "Registration Form"
 msgstr "註冊表格"
 
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 68
-#: rc.cpp:4094
+#: rc.cpp:4097
 #, no-c-format
 msgid "Please wait while querying the server..."
 msgstr "正在查詢伺服器，請稍候..."
 
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 129
-#: protocols/gadu/gaduregisteraccount.cpp:45 rc.cpp:4097 rc.cpp:4125
+#: protocols/gadu/gaduregisteraccount.cpp:45 rc.cpp:4100 rc.cpp:4128
 #, no-c-format
 msgid "&Register"
 msgstr "註冊(&R)"
 
 #. i18n: file ./protocols/jabber/ui/dlgchangepassword.ui line 24
-#: rc.cpp:4103
+#: rc.cpp:4106
 #, no-c-format
 msgid "Current password:"
 msgstr "目前密碼"
 
 #. i18n: file ./protocols/jabber/ui/dlgchangepassword.ui line 32
-#: rc.cpp:4106 rc.cpp:4109
+#: rc.cpp:4109 rc.cpp:4112
 #, no-c-format
 msgid "New password:"
 msgstr "新的密碼"
 
 #. i18n: file ./protocols/jabber/ui/dlgchangepassword.ui line 72
-#: rc.cpp:4112
+#: rc.cpp:4115
 #, no-c-format
 msgid ""
 "Please enter your current password first\n"
@@ -9023,139 +8867,139 @@ msgstr ""
 "再輸入新密碼兩次。"
 
 #. i18n: file ./protocols/jabber/ui/dlgservices.ui line 16
-#: rc.cpp:4116
+#: rc.cpp:4119
 #, no-c-format
 msgid "Jabber Service Management"
 msgstr "Jabber 服務管理"
 
 #. i18n: file ./protocols/jabber/ui/dlgservices.ui line 46
-#: rc.cpp:4119 rc.cpp:4500
+#: rc.cpp:4122 rc.cpp:4503
 #, no-c-format
 msgid "Server:"
 msgstr "伺服器:"
 
 #. i18n: file ./protocols/jabber/ui/dlgservices.ui line 75
-#: rc.cpp:4122
+#: rc.cpp:4125
 #, no-c-format
 msgid "&Query Server"
 msgstr "查詢伺服器(&Q)"
 
 #. i18n: file ./protocols/jabber/ui/dlgservices.ui line 175
-#: rc.cpp:4128
+#: rc.cpp:4131
 #, no-c-format
 msgid "&Browse"
 msgstr "瀏覽(&B)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 47
-#: rc.cpp:4137
+#: rc.cpp:4140
 #, no-c-format
 msgid "Birthday:"
 msgstr "生日:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 70
-#: rc.cpp:4140
+#: rc.cpp:4143
 #, no-c-format
 msgid "&Save Nickname to Contact List"
 msgstr "將暱稱儲存到聯絡人清單(&S)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 232
-#: rc.cpp:4146
+#: rc.cpp:4149
 #, no-c-format
 msgid "Timezone:"
 msgstr "時區:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 263
-#: rc.cpp:4149
+#: rc.cpp:4152
 #, no-c-format
 msgid "Jabber ID:"
 msgstr "Jabber ID:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 294
-#: rc.cpp:4152
+#: rc.cpp:4155
 #, no-c-format
 msgid "Full name:"
 msgstr "全名:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 353
-#: rc.cpp:4159
+#: rc.cpp:4162
 #, no-c-format
 msgid "&Home Address"
 msgstr "住家地址(&H)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 372
-#: rc.cpp:4162 rc.cpp:4195
+#: rc.cpp:4165 rc.cpp:4198
 #, no-c-format
 msgid "Postal code:"
 msgstr "郵遞區號:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 380
-#: rc.cpp:4165 rc.cpp:4186
+#: rc.cpp:4168 rc.cpp:4189
 #, no-c-format
 msgid "PO box:"
 msgstr "郵政信箱:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 481
-#: rc.cpp:4174 rc.cpp:4198
+#: rc.cpp:4177 rc.cpp:4201
 #, no-c-format
 msgid "Street:"
 msgstr "街道:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 551
-#: rc.cpp:4180
+#: rc.cpp:4183
 #, no-c-format
 msgid "&Work Address"
 msgstr "工作地址(&W)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 749
-#: rc.cpp:4201
+#: rc.cpp:4204
 #, no-c-format
 msgid "Wor&k Information"
 msgstr "工作資訊(&K)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 813
-#: rc.cpp:4207
+#: rc.cpp:4210
 #, no-c-format
 msgid "Role:"
 msgstr "職責:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 829
-#: rc.cpp:4213
+#: rc.cpp:4216
 #, no-c-format
 msgid "Company:"
 msgstr "公司:"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 841
-#: rc.cpp:4216
+#: rc.cpp:4219
 #, no-c-format
 msgid "Phone &Numbers"
 msgstr "電話號碼(&N)"
 
 #. i18n: file ./protocols/jabber/ui/dlgvcard.ui line 900
-#: rc.cpp:4222
+#: rc.cpp:4225
 #, no-c-format
 msgid "Cell:"
 msgstr "手提電話:"
 
 #. i18n: file ./protocols/jabber/ui/dlgaddcontact.ui line 16
-#: rc.cpp:4234
+#: rc.cpp:4237
 #, no-c-format
 msgid "Add Contacts"
 msgstr "新增聯絡人"
 
 #. i18n: file ./protocols/jabber/ui/dlgaddcontact.ui line 41
-#: rc.cpp:4237 rc.cpp:4300
+#: rc.cpp:4240 rc.cpp:4303
 #, no-c-format
 msgid "&Jabber ID:"
 msgstr "&Jabber ID:"
 
 #. i18n: file ./protocols/jabber/ui/dlgaddcontact.ui line 50
-#: rc.cpp:4240 rc.cpp:4246
+#: rc.cpp:4243 rc.cpp:4249
 #, no-c-format
 msgid "The Jabber ID for the account you would like to add."
 msgstr "你要新增的帳號的 Jabber ID 。"
 
 #. i18n: file ./protocols/jabber/ui/dlgaddcontact.ui line 53
-#: rc.cpp:4243 rc.cpp:4249
+#: rc.cpp:4246 rc.cpp:4252
 #, no-c-format
 msgid ""
 "The Jabber ID for the account you would like to add.  Note that this must "
@@ -9164,43 +9008,43 @@ msgid ""
 msgstr "你要新增的帳號的 Jabber ID 。注意這必須包含用戶名稱及網域（就像電子郵件地址那樣），因為有很多 Jabber 伺服器。"
 
 #. i18n: file ./protocols/jabber/ui/dlgaddcontact.ui line 74
-#: rc.cpp:4252
+#: rc.cpp:4255
 #, no-c-format
 msgid "<i>(for example: joe@jabber.org)</i>"
 msgstr "<i>(舉例: joe@jabber.org)</i>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 22
-#: rc.cpp:4255
+#: rc.cpp:4258
 #, no-c-format
 msgid "Register Account - Jabber"
 msgstr "註冊帳號 - Jabber"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 33
-#: rc.cpp:4258
+#: rc.cpp:4261
 #, no-c-format
 msgid "Desired Jabber &ID:"
 msgstr "想要的 Jabber &ID:"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 77
-#: rc.cpp:4262
+#: rc.cpp:4265
 #, no-c-format
 msgid "C&hoose..."
 msgstr "選擇(&H)..."
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 122
-#: rc.cpp:4268 rc.cpp:4352
+#: rc.cpp:4271 rc.cpp:4355
 #, no-c-format
 msgid "Use protocol encr&yption (SSL)"
 msgstr "使用通訊協定加密（SSL）(&Y)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 128
-#: rc.cpp:4271 rc.cpp:4355
+#: rc.cpp:4274 rc.cpp:4358
 #, no-c-format
 msgid "Check this box to enable SSL encrypted communication with the server."
 msgstr "勾選這裡啟用和伺服器的 SSL 加密通訊。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 131
-#: rc.cpp:4274 rc.cpp:4358
+#: rc.cpp:4277 rc.cpp:4361
 #, no-c-format
 msgid ""
 "Check this box to enable SSL encrypted communication with the server.  Note "
@@ -9209,47 +9053,46 @@ msgid ""
 msgstr "勾選這裡啟用和伺服器的 SSL 加密通訊。 注意這不是用戶端至用戶端的加密，而是和伺服器的加密通訊。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 156
-#: rc.cpp:4277
+#: rc.cpp:4280
 #, no-c-format
 msgid "&Port:"
 msgstr "連接埠(&P):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 170
-#: rc.cpp:4280
+#: rc.cpp:4283
 #, no-c-format
 msgid "&Repeat password:"
 msgstr "重覆密碼(&R):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabberregisteraccount.ui line 206
-#: rc.cpp:4283
+#: rc.cpp:4286
 #, no-c-format
 msgid "Jabber &server:"
 msgstr "Jabber 伺服器(&S):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 17
-#: rc.cpp:4289
+#: rc.cpp:4292
 #, no-c-format
 msgid "Account Preferences - Jabber"
 msgstr "帳號偏好設定 - Jabber"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 77
-#: rc.cpp:4303 rc.cpp:4310
+#: rc.cpp:4306 rc.cpp:4313
 #, no-c-format
 msgid "The Jabber ID for the account you would like to use."
 msgstr "這個帳號中你想使用的 Jabber ID 。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 80
-#: rc.cpp:4306
+#: rc.cpp:4309
 #, no-c-format
 msgid ""
 "The Jabber ID for the account you would like to use.  Note that this must "
 "include the username and the domain (like an E-mail address), as there are many "
 "Jabber servers."
-msgstr ""
-"這個帳號中你想使用的 Jabber ID 。注意它必須包含使用者名稱及網域名稱（就像電子信箱地址那樣），因為有很多 Jabber 伺服器。"
+msgstr "這個帳號中你想使用的 Jabber ID 。注意它必須包含使用者名稱及網域名稱（就像電子信箱地址那樣），因為有很多 Jabber 伺服器。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 94
-#: rc.cpp:4313
+#: rc.cpp:4316
 #, no-c-format
 msgid ""
 "The Jabber ID for the account you would like to use.  Note that this must "
@@ -9259,7 +9102,7 @@ msgstr ""
 "這個帳號中你想使用的 Jabber ID 。注意它必須包含使用者名稱及網域名稱（譬如 joe@jabber.org），因為有很多 Jabber 伺服器。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 155
-#: rc.cpp:4325
+#: rc.cpp:4328
 #, no-c-format
 msgid ""
 "To connect to the Jabber network, you will need an account on a Jabber server.  "
@@ -9267,46 +9110,45 @@ msgid ""
 msgstr "要連線到 Jabber 網絡，你需要 Jabber 伺服器的帳號。如果還沒有，請按下按鈕建立。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 190
-#: rc.cpp:4337
+#: rc.cpp:4340
 #, no-c-format
 msgid "Change Password"
 msgstr "更改密碼"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 201
-#: rc.cpp:4340
+#: rc.cpp:4343
 #, no-c-format
 msgid "Change &Your Password"
 msgstr "更改你的密碼(&Y)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 220
-#: rc.cpp:4343
+#: rc.cpp:4346
 #, no-c-format
 msgid ""
 "If you have an existing Jabber account and would like to change its password, "
 "you can use this button to enter a new password."
-msgstr ""
-"如你已有 Jabber 帳號並想更改密碼，你可使用此按鈕輸入新密碼。"
+msgstr "如你已有 Jabber 帳號並想更改密碼，你可使用此按鈕輸入新密碼。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 252
-#: rc.cpp:4346
+#: rc.cpp:4349
 #, no-c-format
 msgid "Co&nnection"
 msgstr "連線(&N)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 288
-#: rc.cpp:4361
+#: rc.cpp:4364
 #, no-c-format
 msgid "Allow plain-te&xt password authentication"
 msgstr "容許普通文本密碼認證(&X)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 335
-#: rc.cpp:4370 rc.cpp:4377 rc.cpp:4906 rc.cpp:4913
+#: rc.cpp:4373 rc.cpp:4380 rc.cpp:4909 rc.cpp:4916
 #, no-c-format
 msgid "The IP address or hostname of the server you would like to connect to."
 msgstr "你要連接的伺服器 IP 位址或主機名稱。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 338
-#: rc.cpp:4373 rc.cpp:4380
+#: rc.cpp:4376 rc.cpp:4383
 #, no-c-format
 msgid ""
 "The IP address or hostname of the server you would like to connect to (for "
@@ -9314,55 +9156,54 @@ msgid ""
 msgstr "你要連接的伺服器 IP 位址或主機名稱（例如 jabber.org）。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 380
-#: rc.cpp:4386 rc.cpp:4392 rc.cpp:4922 rc.cpp:4928
+#: rc.cpp:4389 rc.cpp:4395 rc.cpp:4925 rc.cpp:4931
 #, no-c-format
 msgid "The port on the server that you would like to connect to."
 msgstr "你要連接的伺服器連接埠。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 383
-#: rc.cpp:4389 rc.cpp:4395 rc.cpp:4925 rc.cpp:4931
+#: rc.cpp:4392 rc.cpp:4398 rc.cpp:4928 rc.cpp:4934
 #, no-c-format
 msgid ""
 "The port on the server that you would like to connect to (default is 5222)."
 msgstr "你要連接的伺服器連接埠。 預設是 5222 。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 429
-#: rc.cpp:4398
+#: rc.cpp:4401
 #, no-c-format
 msgid "Location Settings"
 msgstr "位置設置"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 440
-#: rc.cpp:4401
+#: rc.cpp:4404
 #, no-c-format
 msgid "R&esource:"
 msgstr "資源(&E):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 446
-#: rc.cpp:4404 rc.cpp:4413 rc.cpp:4422
+#: rc.cpp:4407 rc.cpp:4416 rc.cpp:4425
 #, no-c-format
 msgid "The resource name you would like to use on the Jabber network."
 msgstr "你想在 Jabber 網絡上使用的資源名稱。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 449
-#: rc.cpp:4407 rc.cpp:4416 rc.cpp:4425
+#: rc.cpp:4410 rc.cpp:4419 rc.cpp:4428
 #, no-c-format
 msgid ""
 "The resource name you would like to use on the Jabber network.  Jabber allows "
 "you to sign on with the same account from multiple locations with different "
 "resource names, so you may wish to enter 'Home' or 'Work' here, for example."
 msgstr ""
-"你要在 Jabber 網絡上使用的資源名稱。 Jabber 容許你於多於一個地點以不同資源名稱簽入同一帳號，"
-"所以你可能在此使用『住家』或『工作』等名稱。"
+"你要在 Jabber 網絡上使用的資源名稱。 Jabber 容許你於多於一個地點以不同資源名稱簽入同一帳號，所以你可能在此使用『住家』或『工作』等名稱。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 510
-#: rc.cpp:4419
+#: rc.cpp:4422
 #, no-c-format
 msgid "P&riority:"
 msgstr "優先次序(&R):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 555
-#: rc.cpp:4428
+#: rc.cpp:4431
 #, no-c-format
 msgid ""
 "<qt>Each resource can have different <b>priority </b> "
@@ -9372,37 +9213,36 @@ msgid ""
 "If two resources have the same priority, the messages will be sent to the one "
 "connected the latest.</qt>"
 msgstr ""
-"<qt>每個資源可有不同的<b>優先次序</b>等級。"
-"訊息會傳送給有最高優先次序等級的資源。\n"
+"<qt>每個資源可有不同的<b>優先次序</b>等級。訊息會傳送給有最高優先次序等級的資源。\n"
 "\n"
 "如兩個資源有同一優先次序，訊息會傳送至最後連接的那個。</qt>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 584
-#: rc.cpp:4433
+#: rc.cpp:4436
 #, no-c-format
 msgid "Fi&le Transfer"
 msgstr "檔案傳輸(&L)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 595
-#: rc.cpp:4436
+#: rc.cpp:4439
 #, no-c-format
 msgid "File Transfer Settings"
 msgstr "檔案傳輸設置"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 619
-#: rc.cpp:4439
+#: rc.cpp:4442
 #, no-c-format
 msgid "Pro&xy JID:"
 msgstr "代理 JID(&X):"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 667
-#: rc.cpp:4445
+#: rc.cpp:4448
 #, no-c-format
 msgid "Public &IP address:"
 msgstr "公共 &IP 位址:"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 684
-#: rc.cpp:4448
+#: rc.cpp:4451
 #, no-c-format
 msgid ""
 "<i>"
@@ -9424,572 +9264,564 @@ msgstr ""
 "<li>「代理 JID」可每個帳號有不同設定。</li></ul></i>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 716
-#: rc.cpp:4455
+#: rc.cpp:4458
 #, no-c-format
 msgid "&Privacy"
 msgstr "隱私(&P)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 727
-#: rc.cpp:4458
+#: rc.cpp:4461
 #, no-c-format
 msgid "Notifications"
 msgstr "通知"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 757
-#: rc.cpp:4461
+#: rc.cpp:4464
 #, no-c-format
 msgid "Always send not&ifications"
 msgstr "必定傳送通知(&I)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 763
-#: rc.cpp:4464
+#: rc.cpp:4467
 #, no-c-format
 msgid ""
 "Check this box if you want to always send notifications to your contacts."
 msgstr "如想必定傳送通知給你的聯絡人，勾選此處。"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 807
-#: rc.cpp:4467
+#: rc.cpp:4470
 #, no-c-format
 msgid "Alwa&ys send delivered notifications"
 msgstr "必定傳送已遞送通知(&Y)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 813
-#: rc.cpp:4470
+#: rc.cpp:4473
 #, no-c-format
 msgid ""
 "<qt>Check this box to send the <b>Delivered notification</b> "
 "to your contacts : when a message is delivered to Kopete, Kopete can notify "
 "your contact that it has received the message.</qt>"
 msgstr ""
-"<qt>勾選此處以傳送<b>已遞送通知</b>給你的聯絡人：當遞送訊息給 Kopete ， Kopete 可通知"
-"你的聯絡人它已收到訊息。</qt>"
+"<qt>勾選此處以傳送<b>已遞送通知</b>給你的聯絡人：當遞送訊息給 Kopete ， Kopete 可通知你的聯絡人它已收到訊息。</qt>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 824
-#: rc.cpp:4473
+#: rc.cpp:4476
 #, no-c-format
 msgid "Al&ways send displayed notifications"
 msgstr "必定傳送已顯示通知(&W)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 830
-#: rc.cpp:4476
+#: rc.cpp:4479
 #, no-c-format
 msgid ""
 "<qt>Check this box to send the <b>Displayed notification</b> "
 "to your contacts : when a message is displayed in Kopete, Kopete can notify "
 "your contact that it has displayed the message.</qt>"
 msgstr ""
-"<qt>勾選此處以傳送<b>已顯示通知</b>給你的聯絡人：當有訊息顯示在 Kopete 中， Kopete 可通知"
-"你的聯絡人它已顯示訊息。</qt>"
+"<qt>勾選此處以傳送<b>已顯示通知</b>給你的聯絡人：當有訊息顯示在 Kopete 中， Kopete 可通知你的聯絡人它已顯示訊息。</qt>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 841
-#: rc.cpp:4479
+#: rc.cpp:4482
 #, no-c-format
 msgid "Always send &typing notifications"
 msgstr "必定傳送輸入通知(&T)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 847
-#: rc.cpp:4482
+#: rc.cpp:4485
 #, no-c-format
 msgid ""
 "<qt>Check this box to send the <b>Typing notification</b> "
 "to your contacts : when you are composing a message, you might want your "
 "contact to know that you are typing so that he knows you are answering.</qt>"
 msgstr ""
-"<qt>勾選此處以傳送<b>輸入通知</b>給你的聯絡人：當你正在撰寫訊息時，你可能想你的"
-"聯絡人知道你正在打字，好讓他知道你正在回應。</qt>"
+"<qt>勾選此處以傳送<b>輸入通知</b>給你的聯絡人：當你正在撰寫訊息時，你可能想你的聯絡人知道你正在打字，好讓他知道你正在回應。</qt>"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 899
-#: rc.cpp:4485
+#: rc.cpp:4488
 #, no-c-format
 msgid "General Privacy"
 msgstr "一般隱私"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 927
-#: rc.cpp:4488
+#: rc.cpp:4491
 #, no-c-format
 msgid "&Hide system and client info"
 msgstr "隱藏系統及用戶端資訊(&H)"
 
 #. i18n: file ./protocols/jabber/ui/dlgjabbereditaccountwidget.ui line 930
-#: rc.cpp:4491
+#: rc.cpp:4494
 #, no-c-format
 msgid ""
 "By default, Kopete gives the other users some info about your system and the "
 "client. You can check this box in order to  hide those infos."
-msgstr ""
-"Kopete 預設會讓其他用戶知道你系統及客戶端的資訊。勾選此隱藏該等資訊。"
+msgstr "Kopete 預設會讓其他用戶知道你系統及客戶端的資訊。勾選此隱藏該等資訊。"
 
 #. i18n: file ./protocols/jabber/ui/dlgchatjoin.ui line 55
-#: rc.cpp:4497
+#: rc.cpp:4500
 #, no-c-format
 msgid "Room:"
 msgstr "室:"
 
 #. i18n: file ./protocols/jabber/ui/dlgbrowse.ui line 16
-#: protocols/jabber/ui/dlgjabberbrowse.cpp:114 rc.cpp:4503
+#: protocols/jabber/ui/dlgjabberbrowse.cpp:114 rc.cpp:4506
 #, no-c-format
 msgid "Jabber Search"
 msgstr "Jabber 搜尋"
 
 #. i18n: file ./protocols/jabber/ui/dlgbrowse.ui line 34
-#: rc.cpp:4506
+#: rc.cpp:4509
 #, no-c-format
 msgid "Search For"
 msgstr "搜尋"
 
 #. i18n: file ./protocols/jabber/ui/dlgbrowse.ui line 48
-#: rc.cpp:4509
+#: rc.cpp:4512
 #, no-c-format
 msgid "Please wait while retrieving search form..."
 msgstr "正在取得搜尋表格，請稍候..."
 
 #. i18n: file ./protocols/jabber/ui/dlgbrowse.ui line 59
-#: rc.cpp:4512
+#: rc.cpp:4515
 #, no-c-format
 msgid "JID"
 msgstr "JID"
 
 #. i18n: file ./protocols/jabber/ui/dlgbrowse.ui line 74
-#: rc.cpp:4521
+#: rc.cpp:4524
 #, no-c-format
 msgid "Nick"
 msgstr "暱稱"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 16
-#: rc.cpp:4533
+#: rc.cpp:4536
 #, no-c-format
 msgid "Send Raw XML Packet"
 msgstr "傳送原始 XML 封包"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 42
-#: rc.cpp:4536
+#: rc.cpp:4539
 #, no-c-format
 msgid "Type in the packet that should be sent to the server:"
 msgstr "鍵入要傳給伺服器的封包:"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 56
-#: rc.cpp:4539
+#: rc.cpp:4542
 #, no-c-format
 msgid "User Defined"
 msgstr "用戶定義"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 61
-#: rc.cpp:4542
+#: rc.cpp:4545
 #, no-c-format
 msgid "Account Deletion"
 msgstr "帳號刪除"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 66
-#: rc.cpp:4545
+#: rc.cpp:4548
 #, no-c-format
 msgid "Availability Status"
 msgstr "可用狀態"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 71
-#: rc.cpp:4548
+#: rc.cpp:4551
 #, no-c-format
 msgid "Last Active Time"
 msgstr "最後活躍時間"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 76
-#: rc.cpp:4551
+#: rc.cpp:4554
 #, no-c-format
 msgid "Message with Body"
 msgstr "有內容的訊息"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 81
-#: rc.cpp:4554
+#: rc.cpp:4557
 #, no-c-format
 msgid "Message with Subject"
 msgstr "有主題的訊息"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 86
-#: rc.cpp:4557
+#: rc.cpp:4560
 #, no-c-format
 msgid "Add Roster Item"
 msgstr "新增值勤項目"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 91
-#: rc.cpp:4560
+#: rc.cpp:4563
 #, no-c-format
 msgid "Delete Roster Item"
 msgstr "刪除值勤項目"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 96
-#: protocols/jabber/jabberprotocol.cpp:88 rc.cpp:4563
+#: protocols/jabber/jabberprotocol.cpp:88 rc.cpp:4566
 #, no-c-format
 msgid "Subscription"
 msgstr "訂閱"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 116
-#: rc.cpp:4566
+#: rc.cpp:4569
 #, no-c-format
 msgid "Clea&r"
 msgstr "清除(&R)"
 
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 124
-#: rc.cpp:4569
+#: rc.cpp:4572
 #, no-c-format
 msgid "&Send"
 msgstr "傳送(&S)"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 48
-#: rc.cpp:4575
+#: rc.cpp:4578
 #, no-c-format
 msgid "&Computer name:"
 msgstr "電腦名稱(&C):"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 54
-#: rc.cpp:4578 rc.cpp:4581 rc.cpp:4614 rc.cpp:4617
+#: rc.cpp:4581 rc.cpp:4584 rc.cpp:4617 rc.cpp:4620
 #, no-c-format
 msgid "The hostname of the computer for this contact."
 msgstr "此聯絡人的電腦的主機名稱。"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 65
-#: rc.cpp:4584
+#: rc.cpp:4587
 #, no-c-format
 msgid "Comment:"
 msgstr "註解:"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 73
-#: rc.cpp:4587 rc.cpp:4726
+#: rc.cpp:4590 rc.cpp:4729
 #, no-c-format
 msgid "&Workgroup/domain:"
 msgstr "工作群組/網域(&W):"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 79
-#: rc.cpp:4590 rc.cpp:4593 rc.cpp:4626 rc.cpp:4629
+#: rc.cpp:4593 rc.cpp:4596 rc.cpp:4629 rc.cpp:4632
 #, no-c-format
 msgid "The workgroup or domain the contact's computer is on."
 msgstr "聯絡人的電腦所在的工作群組或網域。"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 90
-#: rc.cpp:4596
+#: rc.cpp:4599
 #, no-c-format
 msgid "Operating s&ystem:"
 msgstr "作業系統(&Y):"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 96
-#: rc.cpp:4599 rc.cpp:4602 rc.cpp:4632 rc.cpp:4635
+#: rc.cpp:4602 rc.cpp:4605 rc.cpp:4635 rc.cpp:4638
 #, no-c-format
 msgid "The operating system the contact's computer is running."
 msgstr "聯絡人的電腦正在運行的作業系統。"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 107
-#: rc.cpp:4605
+#: rc.cpp:4608
 #, no-c-format
 msgid "Ser&ver software:"
 msgstr "伺服器軟件(&V):"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 113
-#: rc.cpp:4608 rc.cpp:4611 rc.cpp:4638 rc.cpp:4641
+#: rc.cpp:4611 rc.cpp:4614 rc.cpp:4641 rc.cpp:4644
 #, no-c-format
 msgid "The software the contact's computer is running."
 msgstr "聯絡人的電腦正在運行的軟件。"
 
 #. i18n: file ./protocols/winpopup/ui/wpuserinfowidget.ui line 151
-#: rc.cpp:4620 rc.cpp:4623
+#: rc.cpp:4623 rc.cpp:4626
 #, no-c-format
 msgid "The comment of the computer for this contact."
 msgstr "此聯絡人的電腦的註解。"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 16
-#: rc.cpp:4644
+#: rc.cpp:4647
 #, no-c-format
 msgid "Account Preferences - WinPopup"
 msgstr "帳號偏好設定 - WinPopup"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 48
-#: rc.cpp:4648
+#: rc.cpp:4651
 #, no-c-format
 msgid "Basic &Setup"
 msgstr "基本設定(&S)"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 78
-#: rc.cpp:4654
+#: rc.cpp:4657
 #, no-c-format
 msgid "Hos&tname:"
 msgstr "主機名稱(&T):"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 84
-#: rc.cpp:4657 rc.cpp:4663
+#: rc.cpp:4660 rc.cpp:4666
 #, no-c-format
 msgid "The hostname you would like to use to send WinPopup messages as."
 msgstr "傳送 WinPopup 訊息時聲稱的主機名稱。"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 87
-#: rc.cpp:4660 rc.cpp:4666
+#: rc.cpp:4663 rc.cpp:4669
 #, no-c-format
 msgid ""
 "The hostname you would like to use to send WinPopup messages as.  Note that "
 "this does not have to be the actual hostname of the machine to send messages, "
 "but it does to receive them."
-msgstr ""
-"傳送 WinPopup 訊息時聲稱的主機名稱。 注意這不必是傳送訊息的電腦的真正名稱，"
-"但要是接收它們的名稱。"
+msgstr "傳送 WinPopup 訊息時聲稱的主機名稱。 注意這不必是傳送訊息的電腦的真正名稱，但要是接收它們的名稱。"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 106
-#: rc.cpp:4669
+#: rc.cpp:4672
 #, no-c-format
 msgid "I&nstall Into Samba"
 msgstr "安裝進 Samba (&N)"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 109
-#: rc.cpp:4672 rc.cpp:4675
+#: rc.cpp:4675 rc.cpp:4678
 #, no-c-format
 msgid "Install support into Samba to enable this service."
 msgstr "安裝進 Samba 以啟動此服務。"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 122
-#: rc.cpp:4678
+#: rc.cpp:4681
 #, no-c-format
 msgid "Excl&ude from connection"
 msgstr "從連線中排除(&U)"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 154
-#: rc.cpp:4687
+#: rc.cpp:4690
 #, no-c-format
 msgid ""
 "To receive WinPopup messages sent from other machines, the hostname above must "
 "be set to this machine's hostname."
-msgstr ""
-"要接收來自其他電腦的 WinPopup 訊息，以上的主機名稱必須設為此電腦的真正主機名稱。"
+msgstr "要接收來自其他電腦的 WinPopup 訊息，以上的主機名稱必須設為此電腦的真正主機名稱。"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 186
-#: rc.cpp:4690
+#: rc.cpp:4693
 #, no-c-format
 msgid "S&ystem"
 msgstr "系統(&Y)"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 225
-#: rc.cpp:4696
+#: rc.cpp:4699
 #, no-c-format
 msgid "<i>These options apply to all WinPopup accounts.</i>"
 msgstr "<i>這些選項會套用至所有 WinPopup 帳號。</i>"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 235
-#: rc.cpp:4699
+#: rc.cpp:4702
 #, no-c-format
 msgid "Protocol Preferences"
 msgstr "通訊協定偏好選項"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 246
-#: rc.cpp:4702
+#: rc.cpp:4705
 #, no-c-format
 msgid "Host check frequency:"
 msgstr "主機檢查頻率:"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 254
-#: rc.cpp:4705
+#: rc.cpp:4708
 #, no-c-format
 msgid "Message check frequency:"
 msgstr "訊息檢查頻率:"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 262
-#: rc.cpp:4708
+#: rc.cpp:4711
 #, no-c-format
 msgid "Path to 'smbclient' executable:"
 msgstr "『smbclient』執行檔的路徑:"
 
 #. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 313
-#: rc.cpp:4711 rc.cpp:4714
+#: rc.cpp:4714 rc.cpp:4717
 #, no-c-format
 msgid "second(s)"
 msgstr "秒"
 
 #. i18n: file ./protocols/winpopup/ui/wpaddcontactbase.ui line 50
-#: rc.cpp:4717
+#: rc.cpp:4720
 #, no-c-format
 msgid "Com&puter hostname:"
 msgstr "電腦主機名稱(&P):"
 
 #. i18n: file ./protocols/winpopup/ui/wpaddcontactbase.ui line 56
-#: rc.cpp:4720 rc.cpp:4723 rc.cpp:4735 rc.cpp:4738
+#: rc.cpp:4723 rc.cpp:4726 rc.cpp:4738 rc.cpp:4741
 #, no-c-format
 msgid "The hostname you would like to use to send WinPopup messages to."
 msgstr "你要傳送 WinPopup 訊息給它的電腦的主機名稱。"
 
 #. i18n: file ./protocols/winpopup/ui/wpaddcontactbase.ui line 73
-#: rc.cpp:4729 rc.cpp:4732 rc.cpp:4741 rc.cpp:4744
+#: rc.cpp:4732 rc.cpp:4735 rc.cpp:4744 rc.cpp:4747
 #, no-c-format
 msgid ""
 "The workgroup or domain the computer is on that you would like to use to send "
 "WinPopup messages to."
-msgstr ""
-"你要傳送 WinPopup 訊息給它的電腦的工作群組或網域。"
+msgstr "你要傳送 WinPopup 訊息給它的電腦的工作群組或網域。"
 
 #. i18n: file ./protocols/winpopup/ui/wpaddcontactbase.ui line 148
-#: rc.cpp:4747
+#: rc.cpp:4750
 #, no-c-format
 msgid "&Refresh"
 msgstr "刷新(&R)"
 
 #. i18n: file ./protocols/winpopup/ui/wpaddcontactbase.ui line 151
-#: rc.cpp:4750 rc.cpp:4753
+#: rc.cpp:4753 rc.cpp:4756
 #, no-c-format
 msgid ""
 "Refresh the list of available workgroups & domains on the Windows network."
 msgstr "刷新 Windows 網絡上可用的工作群組及網域的清單。"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 21
-#: rc.cpp:4756
+#: rc.cpp:4759
 #, no-c-format
 msgid "WinPopup Preferences"
 msgstr "WinPopup 偏好設定"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 49
-#: rc.cpp:4759
+#: rc.cpp:4762
 #, no-c-format
 msgid "System Information"
 msgstr "系統資訊"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 76
-#: rc.cpp:4762
+#: rc.cpp:4765
 #, no-c-format
 msgid "&Initial search host:"
 msgstr "初始搜尋主機(&I):"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 92
-#: rc.cpp:4765
+#: rc.cpp:4768
 #, no-c-format
 msgid "&Path to 'smbclient' executable:"
 msgstr "『smbclient』執行檔的路徑(&P):"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 132
-#: rc.cpp:4768
+#: rc.cpp:4771
 #, no-c-format
 msgid "Timing Preferences"
 msgstr "間隔偏好設定"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 197
-#: rc.cpp:4771
+#: rc.cpp:4774
 #, no-c-format
 msgid "60 second(s)"
 msgstr "60 秒"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 234
-#: rc.cpp:4774
+#: rc.cpp:4777
 #, no-c-format
 msgid "&Message check frequency:"
 msgstr "訊息檢查頻率(&M):"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 245
-#: rc.cpp:4777
+#: rc.cpp:4780
 #, no-c-format
 msgid "&Host check frequency:"
 msgstr "主機檢查頻率(&H):"
 
 #. i18n: file ./protocols/winpopup/config/wppreferencesbase.ui line 262
-#: rc.cpp:4780
+#: rc.cpp:4783
 #, no-c-format
 msgid "5 second(s)"
 msgstr "5 秒"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 16
-#: rc.cpp:4783
+#: rc.cpp:4786
 #, no-c-format
 msgid "Search GroupWise Messenger"
 msgstr "搜尋 GroupWise Messenger"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 35
-#: rc.cpp:4786
+#: rc.cpp:4789
 #, no-c-format
 msgid "&First name"
 msgstr "名(&F)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 46
-#: rc.cpp:4789
+#: rc.cpp:4792
 #, no-c-format
 msgid "&User ID"
 msgstr "用戶 ID (&U)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 57
-#: rc.cpp:4792
+#: rc.cpp:4795
 #, no-c-format
 msgid "&Title"
 msgstr "職銜(&T)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 78
-#: rc.cpp:4795
+#: rc.cpp:4798
 #, no-c-format
 msgid "&Department"
 msgstr "部門(&D)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 87
-#: rc.cpp:4798 rc.cpp:4807 rc.cpp:4816 rc.cpp:4831 rc.cpp:4843
+#: rc.cpp:4801 rc.cpp:4810 rc.cpp:4819 rc.cpp:4834 rc.cpp:4846
 #, no-c-format
 msgid "contains"
 msgstr "包含"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 92
-#: rc.cpp:4801 rc.cpp:4810 rc.cpp:4819 rc.cpp:4834 rc.cpp:4846
+#: rc.cpp:4804 rc.cpp:4813 rc.cpp:4822 rc.cpp:4837 rc.cpp:4849
 #, no-c-format
 msgid "begins with"
 msgstr "以此開首:"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 97
-#: rc.cpp:4804 rc.cpp:4813 rc.cpp:4822 rc.cpp:4837 rc.cpp:4849
+#: rc.cpp:4807 rc.cpp:4816 rc.cpp:4825 rc.cpp:4840 rc.cpp:4852
 #, no-c-format
 msgid "equals"
 msgstr "相等於"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 154
-#: rc.cpp:4825
+#: rc.cpp:4828
 #, no-c-format
 msgid "Last &name"
 msgstr "姓(&N)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 165
-#: rc.cpp:4828
+#: rc.cpp:4831
 #, no-c-format
 msgid "Cl&ear"
 msgstr "清除(&E)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 250
-#: rc.cpp:4852
+#: rc.cpp:4855
 #, no-c-format
 msgid "&Results:"
 msgstr "結果(&R):"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 300
-#: rc.cpp:4864
+#: rc.cpp:4867
 #, no-c-format
 msgid "User ID"
 msgstr "用戶 ID"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 335
-#: rc.cpp:4867
+#: rc.cpp:4870
 #, no-c-format
 msgid "Detai&ls"
 msgstr "詳細資料(&L)"
 
 #. i18n: file ./protocols/groupwise/ui/gwsearchwidget.ui line 364
-#: rc.cpp:4870
+#: rc.cpp:4873
 #, no-c-format
 msgid "0 matching users found"
 msgstr "找不到相符的用戶"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 16
-#: rc.cpp:4873
+#: rc.cpp:4876
 #, no-c-format
 msgid "Account Preferences - Groupwise"
 msgstr "帳號偏好設定 - Groupwise"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 67
-#: rc.cpp:4882
+#: rc.cpp:4885
 #, no-c-format
 msgid "&User ID:"
 msgstr "用戶 ID (&U):"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 73
-#: rc.cpp:4885 rc.cpp:4888 rc.cpp:4891 rc.cpp:4894
+#: rc.cpp:4888 rc.cpp:4891 rc.cpp:4894 rc.cpp:4897
 #, no-c-format
 msgid "The account name of your account."
 msgstr "你的帳號的帳號名稱。"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 155
-#: rc.cpp:4909 rc.cpp:4916
+#: rc.cpp:4912 rc.cpp:4919
 #, no-c-format
 msgid ""
 "The IP address or hostname of the server you would like to connect to (for "
@@ -9997,230 +9829,230 @@ msgid ""
 msgstr "你要連接的伺服器 IP 位址或主機名稱（例如 im.yourcorp.com）。"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 248
-#: rc.cpp:4934
+#: rc.cpp:4937
 #, no-c-format
 msgid "Advanced &Options"
 msgstr "進階選項(&O)"
 
 #. i18n: file ./protocols/groupwise/ui/gwaccountpreferences.ui line 259
-#: rc.cpp:4937 rc.cpp:4987
+#: rc.cpp:4940 rc.cpp:4990
 #, no-c-format
 msgid "A&lways accept invitations"
 msgstr "必定接受邀請(&L)"
 
 #. i18n: file ./protocols/groupwise/ui/gwcustomstatusedit.ui line 54
-#: rc.cpp:4943
+#: rc.cpp:4946
 #, no-c-format
 msgid "&Status:"
 msgstr "狀態(&S):"
 
 #. i18n: file ./protocols/groupwise/ui/gwcustomstatusedit.ui line 65
-#: rc.cpp:4946
+#: rc.cpp:4949
 #, no-c-format
 msgid "Awa&y message:"
 msgstr "離開訊息(&Y):"
 
 #. i18n: file ./protocols/groupwise/ui/gwcustomstatuswidget.ui line 36
-#: rc.cpp:4956
+#: rc.cpp:4959
 #, no-c-format
 msgid "Auto Reply"
 msgstr "自動回覆"
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 35
-#: rc.cpp:4969
+#: rc.cpp:4972
 #, no-c-format
 msgid "<p align=\"right\">From:</p>"
 msgstr "<p align=\"right\">來自:</p>"
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 43
-#: rc.cpp:4972
+#: rc.cpp:4975
 #, no-c-format
 msgid "<p align=\"right\">Sent:</p>"
 msgstr "<p align=\"right\">已送:</p>"
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 59
-#: rc.cpp:4975
+#: rc.cpp:4978
 #, no-c-format
 msgid "INVITE_DATE_TIME"
 msgstr ""
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 67
-#: rc.cpp:4978
+#: rc.cpp:4981
 #, no-c-format
 msgid "CONTACT_NAME"
 msgstr ""
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 83
-#: rc.cpp:4981
+#: rc.cpp:4984
 #, no-c-format
 msgid "INVITE_MESSAGE"
 msgstr ""
 
 #. i18n: file ./protocols/groupwise/ui/gwshowinvitation.ui line 102
-#: rc.cpp:4984
+#: rc.cpp:4987
 #, no-c-format
 msgid "Would you like to join the conversation?"
 msgstr "你要加入對話嗎？"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 32
-#: rc.cpp:4990
+#: rc.cpp:4993
 #, no-c-format
 msgid "USER_ID"
 msgstr ""
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 68
-#: rc.cpp:4994 rc.cpp:5001 rc.cpp:5014
+#: rc.cpp:4997 rc.cpp:5004 rc.cpp:5017
 #, no-c-format
 msgid "Change the display name used for this contact"
 msgstr "更改用於此聯絡人的顯示名稱"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 98
-#: rc.cpp:5004
+#: rc.cpp:5007
 #, no-c-format
 msgid "USER_STATUS"
 msgstr ""
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 114
-#: rc.cpp:5010
+#: rc.cpp:5013
 #, no-c-format
 msgid "&Display name:"
 msgstr "顯示名稱(&D):"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 163
-#: rc.cpp:5020
+#: rc.cpp:5023
 #, no-c-format
 msgid "Additional properties:"
 msgstr "額外屬性:"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 169
-#: rc.cpp:5023
+#: rc.cpp:5026
 #, no-c-format
 msgid "Property"
 msgstr "屬性"
 
 #. i18n: file ./protocols/groupwise/ui/gwcontactpropswidget.ui line 180
-#: rc.cpp:5026
+#: rc.cpp:5029
 #, no-c-format
 msgid "Value"
 msgstr "值"
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 24
-#: rc.cpp:5029
+#: rc.cpp:5032
 #, no-c-format
 msgid "Who can see my online status and send me messages:"
 msgstr "誰可看見我的上線狀態及傳訊息給我:"
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 48
-#: rc.cpp:5032
+#: rc.cpp:5035
 #, no-c-format
 msgid "A&llowed"
 msgstr "允許(&L)"
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 91
-#: rc.cpp:5035
+#: rc.cpp:5038
 #, no-c-format
 msgid "&Block >>"
 msgstr "封鎖 >> (&B)"
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 99
-#: rc.cpp:5038
+#: rc.cpp:5041
 #, no-c-format
 msgid "<< Allo&w"
 msgstr "<< 允許(&W)"
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 124
-#: rc.cpp:5041
+#: rc.cpp:5044
 #, no-c-format
 msgid "A&dd..."
 msgstr "加入(&D)..."
 
 #. i18n: file ./protocols/groupwise/ui/gwprivacy.ui line 167
-#: rc.cpp:5047
+#: rc.cpp:5050
 #, no-c-format
 msgid "Bloc&ked"
 msgstr "已封鎖(&K)"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 16
-#: rc.cpp:5051
+#: rc.cpp:5054
 #, no-c-format
 msgid "TestbedAddUI"
 msgstr "TestbedAddUI"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 40
-#: rc.cpp:5055
+#: rc.cpp:5058
 #, no-c-format
 msgid "&Basic"
 msgstr "基本(&B)"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 51
-#: rc.cpp:5058
+#: rc.cpp:5061
 #, no-c-format
 msgid "Add Using"
 msgstr "以此加入"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 65
-#: rc.cpp:5061
+#: rc.cpp:5064
 #, no-c-format
 msgid "A full or partial name. Asterisks are ignored"
 msgstr "全名或部份名稱。星號將被忽略"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 68
-#: rc.cpp:5064
+#: rc.cpp:5067
 #, no-c-format
 msgid "Type some or all of the contact's name.  Matches will be shown below"
 msgstr "鍵入聯絡人的部份或全部名稱。 符合的會在下面顯示"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 76
-#: rc.cpp:5067
+#: rc.cpp:5070
 #, no-c-format
 msgid "User &ID:"
 msgstr "用戶 &ID:"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 90
-#: rc.cpp:5070
+#: rc.cpp:5073
 #, no-c-format
 msgid "Userna&me:"
 msgstr "用戶名稱(&M):"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 101
-#: rc.cpp:5073
+#: rc.cpp:5076
 #, no-c-format
 msgid "A correct User ID"
 msgstr "正確的用戶 ID"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 104
-#: rc.cpp:5076
+#: rc.cpp:5079
 #, no-c-format
 msgid ""
 "Use this field to add a contact if you already know the user's exact User ID"
 msgstr "如你已知道用戶的準確用戶 ID ，使用此欄位新增該用戶"
 
 #. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 116
-#: rc.cpp:5079
+#: rc.cpp:5082
 #, no-c-format
 msgid "Ad&vanced"
 msgstr "進階(&V)"
 
 #. i18n: file ./protocols/groupwise/gwaddui.ui line 44
-#: rc.cpp:5088 rc.cpp:5091 rc.cpp:5094 rc.cpp:5097
+#: rc.cpp:5091 rc.cpp:5094 rc.cpp:5097 rc.cpp:5100
 #, no-c-format
 msgid "The account name of the account you would like to add."
 msgstr "你要新增的帳號的帳號名稱。"
 
 #. i18n: file ./protocols/groupwise/gwaddui.ui line 68
-#: rc.cpp:5100
+#: rc.cpp:5103
 #, no-c-format
 msgid "Contact Type"
 msgstr "聯絡類型"
 
 #. i18n: file ./protocols/groupwise/gwaddui.ui line 79
-#: rc.cpp:5103
+#: rc.cpp:5106
 #, no-c-format
 msgid "&Echo"
 msgstr "回音(&E)"
 
 #. i18n: file ./protocols/groupwise/gwaddui.ui line 85
-#: rc.cpp:5106 rc.cpp:5109
+#: rc.cpp:5109 rc.cpp:5112
 #, no-c-format
 msgid ""
 "Hey look!  Only one option.  Could you please make this a dropdown and add "
@@ -10251,8 +10083,7 @@ msgid ""
 "information even though there are no songs playing or no media players running\n"
 "Now Listening for Kopete - it would tell you what I am listening to, if I was "
 "listening to something on a supported media player."
-msgstr ""
-"聽著 Kopete - 如我以支援的媒體播放器聆聽什麼的話，它會告訴你我在聽什麼。"
+msgstr "聽著 Kopete - 如我以支援的媒體播放器聆聽什麼的話，它會告訴你我在聽什麼。"
 
 #: plugins/nowlistening/nowlisteningplugin.cpp:416
 msgid "Unknown track"
@@ -10373,8 +10204,7 @@ msgstr "拒絕"
 msgid ""
 "<qt>Could not add alias <b>%1</b>. An alias name cannot contain the characters "
 "\"_\" or \"=\".</qt>"
-msgstr ""
-"<qt>無法新增別名 <b>%1</b>。別名名稱不能包含「_」或「=」字元。</qt>"
+msgstr "<qt>無法新增別名 <b>%1</b>。別名名稱不能包含「_」或「=」字元。</qt>"
 
 #: plugins/alias/aliaspreferences.cpp:323
 #: plugins/alias/aliaspreferences.cpp:412
@@ -10386,8 +10216,7 @@ msgstr "無效的別名"
 msgid ""
 "<qt>Could not add alias <b>%1</b>. This command is already being handled by "
 "either another alias or Kopete itself.</qt>"
-msgstr ""
-"<qt>無法新增別名 <b>%1</b>。此指令正被另一別名或 Kopete 自己處理。</qt>"
+msgstr "<qt>無法新增別名 <b>%1</b>。此指令正被另一別名或 Kopete 自己處理。</qt>"
 
 #: plugins/alias/aliaspreferences.cpp:341
 #: plugins/alias/aliaspreferences.cpp:437
@@ -10566,15 +10395,13 @@ msgstr "隱藏用戶 ID"
 #: plugins/cryptography/popuppublic.cpp:155
 msgid ""
 "<b>Public keys list</b>: select the key that will be used for encryption."
-msgstr ""
-"<b>公共密碼匙清單</b>：選取用於加密的鑰匙。"
+msgstr "<b>公共密碼匙清單</b>：選取用於加密的鑰匙。"
 
 #: plugins/cryptography/popuppublic.cpp:157
 msgid ""
 "<b>ASCII encryption</b>: makes it possible to open the encrypted file/message "
 "in a text editor"
-msgstr ""
-"<b>ASCII 加密</b>：使文本編輯器可以開啟加密的檔案/訊息"
+msgstr "<b>ASCII 加密</b>：使文本編輯器可以開啟加密的檔案/訊息"
 
 #: plugins/cryptography/popuppublic.cpp:159
 msgid ""
@@ -10583,8 +10410,8 @@ msgid ""
 "analysis. It may slow down the decryption process because all available secret "
 "keys are tried."
 msgstr ""
-"<b>隱藏用戶 ID</b>：不要將鑰匙id放入加密的封包。此選項隱藏訊息的收取人，用以對抗網絡交通分析"
-"（traffic analysis）。因為它會嘗試所有可能的鑰匙，可能會減慢解密的過程。"
+"<b>隱藏用戶 ID</b>：不要將鑰匙id放入加密的封包。此選項隱藏訊息的收取人，用以對抗網絡交通分析（traffic "
+"analysis）。因為它會嘗試所有可能的鑰匙，可能會減慢解密的過程。"
 
 #: plugins/cryptography/popuppublic.cpp:163
 msgid ""
@@ -10593,8 +10420,8 @@ msgid ""
 "order to make it 'trusted'. Checking this box enables you to use any key, even "
 "if it has not be signed."
 msgstr ""
-"<b>容許使用未信任的鑰匙加密</b>：當你匯入一個公共密碼匙，通常它是標為未信任的，而除非你簽署它，"
-"令它變成「已信任的」，否則你不可以使用它。選取此處令你可以使用任何鑰匙，即是未簽署的。"
+"<b>容許使用未信任的鑰匙加密</b>：當你匯入一個公共密碼匙，通常它是標為未信任的，而除非你簽署它，令它變成「已信任的」，否則你不可以使用它。選取此處令你可以"
+"使用任何鑰匙，即是未簽署的。"
 
 #: plugins/cryptography/popuppublic.cpp:172
 msgid "Shred source file"
@@ -10604,8 +10431,7 @@ msgstr "碎掉來源檔"
 msgid ""
 "<b>Shred source file</b>: permanently remove source file. No recovery will be "
 "possible"
-msgstr ""
-"<b>碎掉來源檔</b>：永久地移除來源檔。不能回復。"
+msgstr "<b>碎掉來源檔</b>：永久地移除來源檔。不能回復。"
 
 #: plugins/cryptography/popuppublic.cpp:176
 msgid ""
@@ -10621,8 +10447,7 @@ msgstr ""
 "<qt><b>碎掉來源檔：</b><br />"
 "<p>選取此選項將碎掉（刪除前覆寫多次）已加密的檔案。這樣做的話，將差不多不可能回復該來源檔。</p>"
 "<p><b>但請小心，這不是很安全的</b> "
-"在檔案系統中，檔案的部份可能會儲存到暫存檔；如你曾經在編輯器開啟它或嘗試列印它，它可能會殘留"
-"在列印排程器。只能用於檔案（不能用於資料夾）。</p></qt>"
+"在檔案系統中，檔案的部份可能會儲存到暫存檔；如你曾經在編輯器開啟它或嘗試列印它，它可能會殘留在列印排程器。只能用於檔案（不能用於資料夾）。</p></qt>"
 
 #: plugins/cryptography/popuppublic.cpp:177
 msgid "<a href=\"whatsthis:%1\">Read this before using shredding</a>"
@@ -10636,8 +10461,7 @@ msgstr "對稱式加密"
 msgid ""
 "<b>Symmetrical encryption</b>: encryption does not use keys. You just need to "
 "give a password to encrypt/decrypt the file"
-msgstr ""
-"<b>對稱式加密</b>：不使用鑰匙作加密。你只需提供密碼即可加密/解密檔案。"
+msgstr "<b>對稱式加密</b>：不使用鑰匙作加密。你只需提供密碼即可加密/解密檔案。"
 
 #: plugins/cryptography/cryptographyplugin.cpp:51
 msgid "Cryptography"
@@ -10721,7 +10545,7 @@ msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
 #: plugins/history/converter.cpp:40 protocols/jabber/jabberaccount.cpp:1094
-#: protocols/jabber/jabbercontact.cpp:932
+#: protocols/jabber/jabbercontact.cpp:936
 msgid "Keep"
 msgstr "保留"
 
@@ -10775,22 +10599,19 @@ msgid ""
 "November</a>&nbsp;<a href=\"monthofyear:12\">December</a>&nbsp;</span></div>"
 "<br>"
 msgstr ""
-"<div class=\"statgroup\"><b><a href=\"main:generalinfo\" title=\"一般"
-"摘要檢視\">一般</a></b>"
-"<br><span title=\"選取要檢視統計的日子或用份\"><b>"
-"Days: </b><a href=\"dayofweek:1\">星期一</a>&nbsp;<a href=\"dayofweek:2\">"
-"星期二</a>&nbsp;<a href=\"dayofweek:3\">星期三</a>"
-"&nbsp;<a href=\"dayofweek:4\">星期四</a>&nbsp;<a href=\"dayofweek:5\">"
-"星期五</a>&nbsp;<a href=\"dayofweek:6\">星期六</a>"
-"&nbsp;<a href=\"dayofweek:7\">星期日</a>"
-"<br><b>Months: </b><a href=\"monthofyear:1\">一月</a>"
-"&nbsp;<a href=\"monthofyear:2\">二月</a>&nbsp;<a href=\"monthofyear:3\">"
-"三月</a>&nbsp;<a href=\"monthofyear:4\">四月</a>&nbsp;<a "
-"href=\"monthofyear:5\">五月</a>&nbsp;<a href=\"monthofyear:6\">六月</a>"
-"&nbsp;<a href=\"monthofyear:7\">七月</a>&nbsp;<a href=\"monthofyear:8\">"
-"八月</a>&nbsp;<a href=\"monthofyear:9\">九月</a>"
-"&nbsp;<a href=\"monthofyear:10\">十月</a>&nbsp;<a href=\"monthofyear:11\">"
-"十一月</a>&nbsp;<a href=\"monthofyear:12\">十二月</a>&nbsp;</span></div>"
+"<div class=\"statgroup\"><b><a href=\"main:generalinfo\" title=\"一般摘要檢視\">一般</a>"
+"</b>"
+"<br><span title=\"選取要檢視統計的日子或用份\"><b>Days: </b><a href=\"dayofweek:1\">星期一</a>"
+"&nbsp;<a href=\"dayofweek:2\">星期二</a>&nbsp;<a href=\"dayofweek:3\">星期三</a>"
+"&nbsp;<a href=\"dayofweek:4\">星期四</a>&nbsp;<a href=\"dayofweek:5\">星期五</a>"
+"&nbsp;<a href=\"dayofweek:6\">星期六</a>&nbsp;<a href=\"dayofweek:7\">星期日</a>"
+"<br><b>Months: </b><a href=\"monthofyear:1\">一月</a>&nbsp;<a "
+"href=\"monthofyear:2\">二月</a>&nbsp;<a href=\"monthofyear:3\">三月</a>"
+"&nbsp;<a href=\"monthofyear:4\">四月</a>&nbsp;<a href=\"monthofyear:5\">五月</a>"
+"&nbsp;<a href=\"monthofyear:6\">六月</a>&nbsp;<a href=\"monthofyear:7\">七月</a>"
+"&nbsp;<a href=\"monthofyear:8\">八月</a>&nbsp;<a href=\"monthofyear:9\">九月</a>"
+"&nbsp;<a href=\"monthofyear:10\">十月</a>&nbsp;<a href=\"monthofyear:11\">十一月</a>"
+"&nbsp;<a href=\"monthofyear:12\">十二月</a>&nbsp;</span></div>"
 "<br>"
 
 #: plugins/statistics/statisticsdialog.cpp:226
@@ -10862,9 +10683,7 @@ msgstr "<b title=\"你最後和 %1 交談的時間\">最後交談：</b> %2<br>"
 msgid ""
 "<b title=\"The last time I have seen %1 online or away\">"
 "Last time contact was present :</b> %2"
-msgstr ""
-"<b title=\"我最後看到 %1 上線或離開的時間\">"
-"聯絡人的最後出現時間：</b> %2"
+msgstr "<b title=\"我最後看到 %1 上線或離開的時間\">聯絡人的最後出現時間：</b> %2"
 
 #: plugins/statistics/statisticsdialog.cpp:417
 msgid "Current status"
@@ -10915,8 +10734,7 @@ msgstr "在 %1 點到 %2 點之間，我看到 %3 %4% %5 。"
 msgid ""
 "_: 1 is date, 2 is contact name, 3 is online status\n"
 "%1, %2 was %3"
-msgstr ""
-"%1, %2 正 %3"
+msgstr "%1, %2 正 %3"
 
 #: plugins/statistics/statisticsplugin.cpp:45
 msgid "Statistics"
@@ -10947,8 +10765,7 @@ msgstr "替代"
 msgid ""
 "_: list_of_words_to_replace\n"
 "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
-msgstr ""
-"ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
+msgstr "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
 
 #: plugins/contactnotes/contactnotesedit.cpp:29
 msgid "Contact Notes"
@@ -10998,8 +10815,7 @@ msgstr "搜尋:"
 #: protocols/irc/ui/channellist.cpp:201 protocols/irc/ui/channellist.cpp:205
 msgid ""
 "You may search for channels on the IRC server for a text string entered here."
-msgstr ""
-"你可在 IRC 伺服器的頻道上搜尋在此輸入的文字字串。"
+msgstr "你可在 IRC 伺服器的頻道上搜尋在此輸入的文字字串。"
 
 #: protocols/irc/ui/channellist.cpp:202 protocols/irc/ui/channellist.cpp:203
 msgid "Channels returned must have at least this many members."
@@ -11010,8 +10826,7 @@ msgid ""
 "You may search for channels on the IRC server for a text string entered here.  "
 "For instance, you may type 'linux' to find channels that have something to do "
 "with linux."
-msgstr ""
-"你可在 IRC 伺服器的頻道上搜尋在此輸入的文字字串。 例如，你可鍵入『Linux』以找尋和 Linux 有關的頻道。"
+msgstr "你可在 IRC 伺服器的頻道上搜尋在此輸入的文字字串。 例如，你可鍵入『Linux』以找尋和 Linux 有關的頻道。"
 
 #: protocols/gadu/gadupubdir.cpp:103 protocols/gadu/gadupubdir.cpp:280
 #: protocols/irc/ui/channellist.cpp:207
@@ -11165,8 +10980,7 @@ msgstr "確認的大小大於預期的檔案大小"
 msgid ""
 "The IP address of the host %1 does not match the one the certificate was issued "
 "to."
-msgstr ""
-"主機 %1 的 IP 位址和證書上的不符。"
+msgstr "主機 %1 的 IP 位址和證書上的不符。"
 
 #: protocols/irc/libkirc/ksslsocket.cpp:372
 #: protocols/irc/libkirc/ksslsocket.cpp:382
@@ -11191,8 +11005,7 @@ msgstr "伺服器證書未能通過認證測試 (%1)。"
 #: protocols/irc/libkirc/ksslsocket.cpp:400
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
-msgstr ""
-"你要永久接受此證書嗎？"
+msgstr "你要永久接受此證書嗎？"
 
 #: protocols/irc/libkirc/ksslsocket.cpp:404
 msgid "&Forever"
@@ -11262,9 +11075,7 @@ msgid ""
 "<qt>The network associated with this account, <b>%1</b>"
 ", no longer exists. Please ensure that the account has a valid network. The "
 "account will not be enabled until you do so.</qt>"
-msgstr ""
-"<qt>和這帳號關聯的網絡， <b>%1</b> "
-"，已不存在。請確定該帳號擁有有效的網絡。直至你能確定，該帳號不會啟用。</qt>"
+msgstr "<qt>和這帳號關聯的網絡， <b>%1</b> ，已不存在。請確定該帳號擁有有效的網絡。直至你能確定，該帳號不會啟用。</qt>"
 
 #: protocols/irc/ircaccount.cpp:310
 #, c-format
@@ -11283,9 +11094,7 @@ msgstr "顯示安全資訊"
 msgid ""
 "<qt>The network associated with this account, <b>%1</b>"
 ", has no valid hosts. Please ensure that the account has a valid network.</qt>"
-msgstr ""
-"<qt>和這帳號關聯的網絡， <b>%1</b> "
-"，沒有有效的主機。請確定該帳號擁有有效的網絡。</qt>"
+msgstr "<qt>和這帳號關聯的網絡， <b>%1</b> ，沒有有效的主機。請確定該帳號擁有有效的網絡。</qt>"
 
 #: protocols/irc/ircaccount.cpp:459
 msgid "Network is Empty"
@@ -11295,8 +11104,7 @@ msgstr "網絡是空的"
 msgid ""
 "<qt>Kopete could not connect to any of the servers in the network associated "
 "with this account (<b>%1</b>). Please try again later.</qt>"
-msgstr ""
-"<qt>Kopete 無法連接任何和這帳號 (<b>%1</b>) 關聯的網絡中的伺服器。請稍後再試。</qt>"
+msgstr "<qt>Kopete 無法連接任何和這帳號 (<b>%1</b>) 關聯的網絡中的伺服器。請稍後再試。</qt>"
 
 #: protocols/irc/ircaccount.cpp:466
 msgid "Network is Unavailable"
@@ -11377,8 +11185,7 @@ msgstr "KIRC 錯誤 － 未知的錯誤: "
 msgid ""
 "You can not talk to the server, you can only issue commands here. Type /help "
 "for supported commands."
-msgstr ""
-"你無法和伺服器交談，你只能在這發出指令。鍵入 /help 獲得支援的指令。"
+msgstr "你無法和伺服器交談，你只能在這發出指令。鍵入 /help 獲得支援的指令。"
 
 #: protocols/irc/ircservercontact.cpp:148
 msgid "NOTICE from %1: %2"
@@ -11683,9 +11490,7 @@ msgstr "「%1」不是有效的暱稱。暱稱不能以『#』、『!』、『+�
 msgid ""
 "<qt>Are you sure you want to delete the network <b>%1</b>?"
 "<br>Any accounts which use this network will have to be modified.</qt>"
-msgstr ""
-"<qt>確定要刪除 <b>%1</b> 網絡嗎？"
-"<br>任何使用此網絡的帳號都要修改。</qt>"
+msgstr "<qt>確定要刪除 <b>%1</b> 網絡嗎？<br>任何使用此網絡的帳號都要修改。</qt>"
 
 #: protocols/irc/ircprotocol.cpp:888
 msgid "Deleting Network"
@@ -11736,9 +11541,7 @@ msgstr "已有網絡使用此名稱"
 msgid ""
 "<qt>An error occurred when trying to change the display picture."
 "<br>Make sure that you have selected a correct image file</qt>"
-msgstr ""
-"<qt>嘗試更改顯示圖片時發生錯誤。"
-"<br>請確定已選取正確的圖像檔案</qt>"
+msgstr "<qt>嘗試更改顯示圖片時發生錯誤。<br>請確定已選取正確的圖像檔案</qt>"
 
 #: protocols/msn/msnaccount.cpp:308 protocols/msn/msnaddcontactpage.cpp:76
 #: protocols/msn/msnchatsession.cpp:362
@@ -11767,8 +11570,7 @@ msgstr "下載顯示圖像失敗"
 msgid ""
 "<qt>The contact %1 wants to see <b>your</b> webcam, do you want them to see "
 "it?</qt>"
-msgstr ""
-"<qt>聯絡人 %1 想看<b>你的</b>網絡攝影機畫面，要給他們看嗎？</qt>"
+msgstr "<qt>聯絡人 %1 想看<b>你的</b>網絡攝影機畫面，要給他們看嗎？</qt>"
 
 #: protocols/msn/webcam.cpp:82
 msgid "The contact %1 wants to show you his/her webcam, do you want to see it?"
@@ -11915,29 +11717,27 @@ msgstr "用戶已斷線"
 #: protocols/msn/msnswitchboardsocket.cpp:150
 msgid ""
 "You are trying to invite too many contacts to this chat at the same time"
-msgstr ""
-"你正要在同一時間邀請太多聯絡人到此聊天"
+msgstr "你正要在同一時間邀請太多聯絡人到此聊天"
 
 #: protocols/msn/msnswitchboardsocket.cpp:202
 msgid "timeout"
 msgstr "逾時"
 
-#: protocols/msn/msnswitchboardsocket.cpp:755
+#: protocols/msn/msnswitchboardsocket.cpp:754
 msgid ""
 "The message you are trying to send is too long; it will be split into %1 "
 "messages."
-msgstr ""
-"你要傳送的訊息太長；它會被分成 %1 份訊息。"
+msgstr "你要傳送的訊息太長；它會被分成 %1 份訊息。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:756
+#: protocols/msn/msnswitchboardsocket.cpp:755
 msgid "Message too big - MSN Plugin"
 msgstr "訊息太大 - MSN 插件"
 
-#: protocols/msn/msnswitchboardsocket.cpp:817
+#: protocols/msn/msnswitchboardsocket.cpp:816
 msgid "connection closed"
 msgstr "連線已關閉"
 
-#: protocols/msn/msnswitchboardsocket.cpp:889
+#: protocols/msn/msnswitchboardsocket.cpp:888
 msgid "<img src=\"%1\" alt=\"Typewrited message\" />"
 msgstr "<img src=\"%1\" alt=\"鍵入的訊息\" />"
 
@@ -11955,8 +11755,7 @@ msgid ""
 msgstr ""
 "<qt>MSN 插件發生內部錯誤。"
 "<br>MSN 錯誤: %1"
-"<br>請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括"
-"在主控台的原始偵錯輸出（請使用 gzip 格式，因可能有很多輸出）。"
+"<br>請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括在主控台的原始偵錯輸出（請使用 gzip 格式，因可能有很多輸出）。"
 
 #: protocols/msn/msnnotifysocket.cpp:143
 msgid ""
@@ -11979,8 +11778,8 @@ msgid ""
 "format, as it is probably a lot of output.)</qt>"
 msgstr ""
 "<qt>使用者『%1』已在 MSN 伺服器上的這個群組中；"
-"<br>如 Kopete 不顯示這個使用者，請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括"
-"在主控台的原始偵錯輸出（請使用 gzip 格式，因可能有很多輸出）。</qt>"
+"<br>如 Kopete 不顯示這個使用者，請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括在主控台的原始偵錯輸出（請使用 gzip "
+"格式，因可能有很多輸出）。</qt>"
 
 #: protocols/msn/msnnotifysocket.cpp:184
 msgid "The user '%1' seems to already be blocked or allowed on the server."
@@ -12013,29 +11812,25 @@ msgstr "群組名稱太長；它未有在 MSN 伺服器上更改。"
 msgid ""
 "You cannot open a Hotmail inbox because you do not have an MSN account with a "
 "valid Hotmail or MSN mailbox."
-msgstr ""
-"你無法開啟 Hotmail 收件匣，因為你沒有有效 Hotmail 或 MSN 郵箱的 MSN 帳號。"
+msgstr "你無法開啟 Hotmail 收件匣，因為你沒有有效 Hotmail 或 MSN 郵箱的 MSN 帳號。"
 
 #: protocols/msn/msnnotifysocket.cpp:251
 msgid ""
 "You can not send messages when you are offline or when you are invisible."
-msgstr ""
-"當你離線或隱形時無法傳送訊息。"
+msgstr "當你離線或隱形時無法傳送訊息。"
 
 #: protocols/msn/msnnotifysocket.cpp:258
 msgid ""
 "You are trying to perform an action you are not allowed to perform in 'kid "
 "mode'."
-msgstr ""
-"你正要進行在『兒童模式』不容許的操作。"
+msgstr "你正要進行在『兒童模式』不容許的操作。"
 
 #: protocols/msn/msnnotifysocket.cpp:734
 #, c-format
 msgid ""
 "_n: You have one unread message in your MSN inbox.\n"
 "You have %n unread messages in your MSN inbox."
-msgstr ""
-"你的 MSN 收件匣有 %n 個未讀訊息。"
+msgstr "你的 MSN 收件匣有 %n 個未讀訊息。"
 
 #: protocols/msn/msnnotifysocket.cpp:734 protocols/msn/msnnotifysocket.cpp:756
 #: protocols/yahoo/yahooaccount.cpp:905 protocols/yahoo/yahooaccount.cpp:912
@@ -12071,8 +11866,7 @@ msgstr "發生伺服器內部錯誤。請稍後再試。"
 msgid ""
 "It is no longer possible to perform this operation. The MSN server does not "
 "allow it anymore."
-msgstr ""
-"現在已不能進行這種操作。 MSN 伺服器已不再容許。"
+msgstr "現在已不能進行這種操作。 MSN 伺服器已不再容許。"
 
 #: protocols/msn/msnsocket.cpp:577
 msgid "The MSN server is busy. Please try again later."
@@ -12244,8 +12038,7 @@ msgstr "開始聊天 - MSN 插件"
 #: protocols/msn/msnaccount.cpp:295
 msgid ""
 "Please enter the email address of the person with whom you want to chat:"
-msgstr ""
-"請輸入你要和他聊天的人的電子郵件地址："
+msgstr "請輸入你要和他聊天的人的電子郵件地址："
 
 #: protocols/msn/msnaccount.cpp:339 protocols/msn/msnaccount.cpp:350
 msgid "Change Display Name - MSN Plugin"
@@ -12255,8 +12048,7 @@ msgstr "更改顯示名稱 - MSN 插件"
 msgid ""
 "Enter the new display name by which you want to be visible to your friends on "
 "MSN:"
-msgstr ""
-"輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
+msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
 
 #: protocols/msn/msnaccount.cpp:348
 msgid ""
@@ -12320,8 +12112,7 @@ msgstr "用戶偏好設定"
 msgid ""
 "This message is longer than the maximum length (%1). Should it be divided to %2 "
 "messages?"
-msgstr ""
-"訊息超過最大長度 (%1)。要將它分為 %2 個訊息嗎？"
+msgstr "訊息超過最大長度 (%1)。要將它分為 %2 個訊息嗎？"
 
 #: protocols/sms/smsaccount.cpp:64
 msgid "Message Too Long"
@@ -12342,8 +12133,7 @@ msgstr "未設定提供者。"
 #: protocols/sms/services/smssend.cpp:64
 msgid ""
 "No prefix set for SMSSend, please change it in the configuration dialog."
-msgstr ""
-"未設定 SMSend 的前置字元，請在設定方塊更改。"
+msgstr "未設定 SMSend 的前置字元，請在設定方塊更改。"
 
 #: protocols/sms/services/smssend.cpp:64
 msgid "No Prefix"
@@ -12357,8 +12147,7 @@ msgstr "%1 設置"
 msgid ""
 "<qt>SMSSend is a program for sending SMS through gateways on the web. It can be "
 "found on <a href=\"%1\">%2</a></qt>"
-msgstr ""
-"<qt>SMSSend 是經網絡閘道傳送 SMS 的程式。可在 <a href=\"%1\">%2</a> 找到</qt>"
+msgstr "<qt>SMSSend 是經網絡閘道傳送 SMS 的程式。可在 <a href=\"%1\">%2</a> 找到</qt>"
 
 #: protocols/sms/services/smsclient.cpp:66
 msgid "No provider configured"
@@ -12368,8 +12157,7 @@ msgstr "未設定提供者"
 msgid ""
 "<qt>SMSClient is a program for sending SMS with the modem. The program can be "
 "found on <a href=\"%1\">%1</a></qt>"
-msgstr ""
-"<qt>SMSClient 是經數據機傳送 SMS 的程式。可在 <a href=\"%1\">%1</a> 找到</qt>"
+msgstr "<qt>SMSClient 是經數據機傳送 SMS 的程式。可在 <a href=\"%1\">%1</a> 找到</qt>"
 
 #: protocols/sms/services/smssendprovider.cpp:215
 msgid "Could not determine which argument which should contain the message."
@@ -12664,8 +12452,7 @@ msgstr "你的密碼已更改。"
 msgid ""
 "_: personal information being fetched from server\n"
 "<p align=\"center\">Fetching from server</p>"
-msgstr ""
-"<p align=\"center\">正從伺服器取得</p>"
+msgstr "<p align=\"center\">正從伺服器取得</p>"
 
 #: protocols/gadu/gadueditaccount.cpp:193
 msgid "<b>Registration FAILED.</b>"
@@ -12788,8 +12575,7 @@ msgstr "檔案已存在: %1"
 msgid ""
 "Connection to peer was refused; it possibly does not listen for incoming "
 "connections."
-msgstr ""
-"連接對方時被拒絕；可能它未有聆聽內進連線。"
+msgstr "連接對方時被拒絕；可能它未有聆聽內進連線。"
 
 #: protocols/gadu/gadudcctransaction.cpp:411
 msgid "File transfer transaction was not agreed by peer."
@@ -12877,8 +12663,7 @@ msgid ""
 "legitimate practices.)</qt>"
 msgstr ""
 "<qt>你要匿名地還是具名地警告 %1 ？"
-"<br>（在 AIM 上警告其他用戶會令該用戶的「警告等級」增加。一旦此等級到達某一點，他們將不能簽入。"
-"請勿濫用此功能，應正當地使用它。）</qt>"
+"<br>（在 AIM 上警告其他用戶會令該用戶的「警告等級」增加。一旦此等級到達某一點，他們將不能簽入。請勿濫用此功能，應正當地使用它。）</qt>"
 
 #: protocols/oscar/aim/aimcontact.cpp:301
 msgid "Warn User %1?"
@@ -12920,8 +12705,7 @@ msgid ""
 "Visit the Kopete website at <a href=\"http://kopete.kde.org\">"
 "http://kopete.kde.org</a>"
 msgstr ""
-"請參觀 Kopete 的網站: <a href=\"http://kopete.kde.org\">"
-"http://kopete.kde.org</a>"
+"請參觀 Kopete 的網站: <a href=\"http://kopete.kde.org\">http://kopete.kde.org</a>"
 
 #: protocols/oscar/aim/aimprotocol.cpp:109
 msgid "Do you want to add '%1' to your contact list?"
@@ -13615,15 +13399,15 @@ msgstr "出版"
 msgid "Home automation"
 msgstr "家居自動化"
 
-#: protocols/oscar/icq/icqcontact.cpp:212
+#: protocols/oscar/icq/icqcontact.cpp:220
 msgid "Request Authorization"
 msgstr "要求授權"
 
-#: protocols/oscar/icq/icqcontact.cpp:213
+#: protocols/oscar/icq/icqcontact.cpp:221
 msgid "Reason for requesting authorization:"
 msgstr "要求授權的理由:"
 
-#: protocols/oscar/icq/icqcontact.cpp:237
+#: protocols/oscar/icq/icqcontact.cpp:245
 msgid ""
 "User %1 has granted your authorization request.\n"
 "Reason: %2"
@@ -13631,7 +13415,7 @@ msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:246
+#: protocols/oscar/icq/icqcontact.cpp:254
 msgid ""
 "User %1 has rejected the authorization request.\n"
 "Reason: %2"
@@ -13639,60 +13423,58 @@ msgstr ""
 "用戶 %1 拒絕你的授權要求。\n"
 "理由: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:389
+#: protocols/oscar/icq/icqcontact.cpp:416
 msgid ""
 "_: Translators: client-name client-version\n"
 "%1 %2"
-msgstr ""
-"%1 %2"
+msgstr "%1 %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:398 protocols/oscar/oscarcontact.cpp:200
+#: protocols/oscar/icq/icqcontact.cpp:425 protocols/oscar/oscarcontact.cpp:200
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: protocols/oscar/icq/icqcontact.cpp:400
+#: protocols/oscar/icq/icqcontact.cpp:427
 msgid "RTF-Messages"
 msgstr "豐富文本（RTF）訊息"
 
-#: protocols/oscar/icq/icqcontact.cpp:402 protocols/oscar/oscarcontact.cpp:208
+#: protocols/oscar/icq/icqcontact.cpp:429 protocols/oscar/oscarcontact.cpp:208
 msgid "DirectIM/IMImage"
 msgstr "直接即時傳訊/即時傳訊影像"
 
-#: protocols/oscar/icq/icqcontact.cpp:404
+#: protocols/oscar/icq/icqcontact.cpp:431
 msgid "Groupchat"
 msgstr "群組聊天"
 
-#: protocols/oscar/icq/icqcontact.cpp:475
+#: protocols/oscar/icq/icqcontact.cpp:502
 msgid ""
 "<qt>You must be logged on to ICQ before you can send a message to a user.</qt>"
-msgstr ""
-"<qt>你必須登入 ICQ 才能發送訊息給用戶。</qt>"
+msgstr "<qt>你必須登入 ICQ 才能發送訊息給用戶。</qt>"
 
-#: protocols/oscar/icq/icqcontact.cpp:477
+#: protocols/oscar/icq/icqcontact.cpp:504
 msgid "Not Signed On"
 msgstr "未簽入"
 
-#: protocols/oscar/icq/icqcontact.cpp:537
+#: protocols/oscar/icq/icqcontact.cpp:564
 msgid "&Request Authorization"
 msgstr "要求授權(&R)"
 
-#: protocols/oscar/icq/icqcontact.cpp:539
+#: protocols/oscar/icq/icqcontact.cpp:566
 msgid "&Grant Authorization"
 msgstr "允許授權(&G)"
 
-#: protocols/oscar/icq/icqcontact.cpp:557
+#: protocols/oscar/icq/icqcontact.cpp:584
 msgid "&Ignore"
 msgstr "不理會(&I)"
 
-#: protocols/oscar/icq/icqcontact.cpp:558
+#: protocols/oscar/icq/icqcontact.cpp:585
 msgid "Always &Visible To"
 msgstr "必定給他看見(&V)"
 
-#: protocols/oscar/icq/icqcontact.cpp:559
+#: protocols/oscar/icq/icqcontact.cpp:586
 msgid "Always &Invisible To"
 msgstr "必定對他隱形(&I)"
 
-#: protocols/oscar/icq/icqcontact.cpp:575
+#: protocols/oscar/icq/icqcontact.cpp:602
 msgid "Select Encoding..."
 msgstr "選擇編碼..."
 
@@ -13774,11 +13556,11 @@ msgstr "給 %1 的『%2』訊息"
 msgid "Fetching '%2' Message for %1..."
 msgstr "正為 %1 取得『%2』訊息..."
 
-#: protocols/oscar/oscarlistnonservercontacts.cpp:27
+#: protocols/oscar/oscarlistnonservercontacts.cpp:28
 msgid "Add Contacts to Server List"
 msgstr "新增聯絡人到伺服器清單"
 
-#: protocols/oscar/oscarlistnonservercontacts.cpp:33
+#: protocols/oscar/oscarlistnonservercontacts.cpp:34
 msgid "Do &Not Add"
 msgstr "不新增(&N)"
 
@@ -13791,8 +13573,7 @@ msgstr "流動 AIM 客戶端"
 msgid ""
 "_: Translators: client name and version\n"
 "%1"
-msgstr ""
-"%1"
+msgstr "%1"
 
 #: protocols/oscar/oscarcontact.cpp:198
 msgid "Buddy icons"
@@ -13826,138 +13607,124 @@ msgstr "Trillian 用戶"
 msgid "Select Encoding"
 msgstr "選擇編碼"
 
-#: protocols/oscar/oscaraccount.cpp:220 protocols/oscar/oscaraccount.cpp:512
-#: protocols/oscar/oscaraccount.cpp:518
+#: protocols/oscar/oscaraccount.cpp:220 protocols/oscar/oscaraccount.cpp:517
+#: protocols/oscar/oscaraccount.cpp:523
 msgid "Buddies"
 msgstr "伙伴"
 
-#: protocols/oscar/oscaraccount.cpp:391
+#: protocols/oscar/oscaraccount.cpp:396
 msgid "ICQ Web Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:393
+#: protocols/oscar/oscaraccount.cpp:398
 msgid "ICQ Email Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:596 protocols/oscar/oscaraccount.cpp:613
+#: protocols/oscar/oscaraccount.cpp:601 protocols/oscar/oscaraccount.cpp:618
 msgid ""
 "_: account has been disconnected\n"
 "%1 disconnected"
-msgstr ""
-"%1 已斷線"
+msgstr "%1 已斷線"
 
-#: protocols/oscar/oscaraccount.cpp:634
+#: protocols/oscar/oscaraccount.cpp:639
 msgid ""
 "There was an error in the protocol handling; it was not fatal, so you will not "
 "be disconnected."
-msgstr ""
-"處理通訊協定時發生錯誤；但它不會令你斷線。"
+msgstr "處理通訊協定時發生錯誤；但它不會令你斷線。"
 
-#: protocols/oscar/oscaraccount.cpp:636
+#: protocols/oscar/oscaraccount.cpp:641
 msgid ""
 "There was an error in the protocol handling; automatic reconnection occurring."
-msgstr ""
-"處理通訊協定時發生錯誤；發生自動重連線。"
+msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
-#: protocols/oscar/oscaraccount.cpp:638
+#: protocols/oscar/oscaraccount.cpp:643
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
-#: protocols/oscar/oscaraccount.cpp:647
+#: protocols/oscar/oscaraccount.cpp:652
 msgid "ICQ"
 msgstr "ICQ"
 
-#: protocols/oscar/oscaraccount.cpp:647
+#: protocols/oscar/oscaraccount.cpp:652
 msgid "AIM"
 msgstr "AIM"
 
-#: protocols/oscar/oscaraccount.cpp:648
+#: protocols/oscar/oscaraccount.cpp:653
 msgid ""
 "_: ICQ user id\n"
 "UIN"
-msgstr ""
-"UIN"
+msgstr "UIN"
 
-#: protocols/oscar/oscaraccount.cpp:648
+#: protocols/oscar/oscaraccount.cpp:653
 msgid ""
 "_: AIM user id\n"
 "screen name"
-msgstr ""
-"螢幕名稱"
+msgstr "螢幕名稱"
 
-#: protocols/oscar/oscaraccount.cpp:658
+#: protocols/oscar/oscaraccount.cpp:663
 msgid ""
 "You have logged in more than once with the same %1, account %2 is now "
 "disconnected."
-msgstr ""
-"你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
+msgstr "你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
 
-#: protocols/oscar/oscaraccount.cpp:664
+#: protocols/oscar/oscaraccount.cpp:669
 msgid ""
 "Sign on failed because either your %1 or password are invalid. Please check "
 "your settings for account %2."
-msgstr ""
-"因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
+msgstr "因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
 
-#: protocols/oscar/oscaraccount.cpp:672
+#: protocols/oscar/oscaraccount.cpp:677
 msgid "The %1 service is temporarily unavailable. Please try again later."
 msgstr "%1 服務暫時停止。請稍後再試。"
 
-#: protocols/oscar/oscaraccount.cpp:677
+#: protocols/oscar/oscaraccount.cpp:682
 msgid ""
 "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr "無法以 %2 帳號登入 %1 ，因為密碼不正確。"
 
-#: protocols/oscar/oscaraccount.cpp:682
+#: protocols/oscar/oscaraccount.cpp:687
 msgid "Could not sign on to %1 with nonexistent account %2."
 msgstr "無法以不存在的 %2 帳號登入 %1 。"
 
-#: protocols/oscar/oscaraccount.cpp:686
+#: protocols/oscar/oscaraccount.cpp:691
 msgid "Sign on to %1 failed because your account %2 expired."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已逾期。"
 
-#: protocols/oscar/oscaraccount.cpp:690
+#: protocols/oscar/oscaraccount.cpp:695
 msgid "Sign on to %1 failed because your account %2 is currently suspended."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已被暫停。"
 
-#: protocols/oscar/oscaraccount.cpp:696
+#: protocols/oscar/oscaraccount.cpp:701
 msgid ""
 "Could not sign on to %1 as there are too many clients from the same computer."
-msgstr ""
-"無法登入 %1 ，因為已有太多客戶端來自這電腦。"
+msgstr "無法登入 %1 ，因為已有太多客戶端來自這電腦。"
 
-#: protocols/oscar/oscaraccount.cpp:702
+#: protocols/oscar/oscaraccount.cpp:707
 msgid ""
 "Account %1 was blocked on the %2 server for sending messages too quickly. Wait "
 "ten minutes and try again. If you continue to try, you will need to wait even "
 "longer."
-msgstr ""
-"在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在還繼續嘗試，"
-"你可能要等待更長時間。"
+msgstr "在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:711
+#: protocols/oscar/oscaraccount.cpp:716
 msgid ""
 "Account %1 was blocked on the %2 server for reconnecting too quickly. Wait ten "
 "minutes and try again. If you continue to try, you will need to wait even "
 "longer."
-msgstr ""
-"在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在還繼續嘗試，"
-"你可能要等待更長時間。"
-
-#: protocols/oscar/oscaraccount.cpp:720
-msgid ""
-"The %1 server thinks the client you are using is too old. Please report this as "
-"a bug at http://bugs.kde.org"
-msgstr ""
-"%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
+msgstr "在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在還繼續嘗試，你可能要等待更長時間。"
 
 #: protocols/oscar/oscaraccount.cpp:725
 msgid ""
-"Account %1 was disabled on the %2 server because of your age (less than 13)."
-msgstr ""
-"%1 帳號已在 %2 伺服器上被停用，因為你的年紀太小（13 歲以下）。"
+"The %1 server thinks the client you are using is too old. Please report this as "
+"a bug at http://bugs.kde.org"
+msgstr "%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
 
-#: protocols/oscar/oscaraccount.cpp:732
+#: protocols/oscar/oscaraccount.cpp:730
+msgid ""
+"Account %1 was disabled on the %2 server because of your age (less than 13)."
+msgstr "%1 帳號已在 %2 伺服器上被停用，因為你的年紀太小（13 歲以下）。"
+
+#: protocols/oscar/oscaraccount.cpp:737
 msgid "Sign on to %1 with your account %2 failed."
 msgstr "以帳號 %2 登入 %1 失敗。"
 
@@ -14039,30 +13806,26 @@ msgstr ""
 #: protocols/yahoo/yahooaccount.cpp:618
 msgid ""
 "Could not log into the Yahoo service: the username specified was invalid."
-msgstr ""
-"無法登入 Yahoo 服務：指定的用戶名稱無效。"
+msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
 
 #: protocols/yahoo/yahooaccount.cpp:625
 msgid ""
 "You have been logged out of the Yahoo service, possibly due to a duplicate "
 "login."
-msgstr ""
-"你已被 Yahoo 服務登出，可能是因為你重覆登入。"
+msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
 
 #: protocols/yahoo/yahooaccount.cpp:822
 msgid ""
 "_: This string is shown when the user is buzzed by a contact\n"
 "Buzz!!"
-msgstr ""
-"嗶！！"
+msgstr "嗶！！"
 
 #: protocols/yahoo/yahooaccount.cpp:905
 #, c-format
 msgid ""
 "_n: You have one unread message in your Yahoo inbox.\n"
 "You have %n unread messages in your Yahoo inbox."
-msgstr ""
-"你在 Yahoo 收件匣有 %n 個未讀訊息。"
+msgstr "你在 Yahoo 收件匣有 %n 個未讀訊息。"
 
 #: protocols/yahoo/yahooaccount.cpp:911
 msgid "You have a message from %1 in your Yahoo inbox."
@@ -14081,9 +13844,7 @@ msgstr "連線中斷 - Yahoo 插件"
 msgid ""
 "<qt>The selected buddy icon could not be opened. "
 "<br>Please set a new buddy icon.</qt>"
-msgstr ""
-"<qt>選取的伙伴圖示無法開啟。"
-"<br>請設定新的伙伴圖示。</qt>"
+msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
 
 #: protocols/yahoo/yahooaccount.cpp:1041 protocols/yahoo/yahooaccount.cpp:1054
 #: protocols/yahoo/yahooeditaccount.cpp:174
@@ -14193,15 +13954,13 @@ msgstr "不建立"
 #: protocols/yahoo/kyahoo.cpp:727
 msgid ""
 "An unknown error occurred. A possible reason is a invalid email address."
-msgstr ""
-"發生未知錯誤。可能是因為電子郵件地址無效。"
+msgstr "發生未知錯誤。可能是因為電子郵件地址無效。"
 
 #: protocols/yahoo/kyahoo.cpp:1057
 msgid ""
 "An unknown error occurred when trying to upload the file. The file was not "
 "transferred."
-msgstr ""
-"嘗試上載檔案時發生未知錯誤。該檔案並未傳輸。"
+msgstr "嘗試上載檔案時發生未知錯誤。該檔案並未傳輸。"
 
 #: protocols/yahoo/kyahoo.cpp:1065
 msgid "Could not open local file."
@@ -14299,8 +14058,7 @@ msgstr "狀態訊息"
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:101
 msgid ""
 "<qt>You must deselect password remembering or enter a valid password.</qt>"
-msgstr ""
-"<qt>你必須取消選取密碼記憶或輸入有效的密碼。</qt>"
+msgstr "<qt>你必須取消選取密碼記憶或輸入有效的密碼。</qt>"
 
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:108
 msgid "<qt>You must enter the server's hostname/ip address.</qt>"
@@ -14330,8 +14088,7 @@ msgstr "請輸入有效的 Jabber ID 。"
 msgid ""
 "Unless you know what you are doing, your JID should be of the form "
 "\"username@server.com\".  In your case for example \"username@%1\"."
-msgstr ""
-"除非你知道在自己在做什麼，不然你的 JID 的格式應該是「用戶名稱@server.com」。以你的情況舉例就是「用戶名稱@%1」。"
+msgstr "除非你知道在自己在做什麼，不然你的 JID 的格式應該是「用戶名稱@server.com」。以你的情況舉例就是「用戶名稱@%1」。"
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:248
 msgid "Connecting to server..."
@@ -14461,15 +14218,13 @@ msgid ""
 "Your password has been changed successfully. Please note that the change may "
 "not be instantaneous. If you have problems logging in with your new password, "
 "please contact the administrator."
-msgstr ""
-"你的密碼已成功更改。請注意更改不是即時有效的。如以新密碼登入有問題，請聯絡管理員。"
+msgstr "你的密碼已成功更改。請注意更改不是即時有效的。如以新密碼登入有問題，請聯絡管理員。"
 
 #: protocols/jabber/ui/dlgjabberchangepassword.cpp:128
 msgid ""
 "Your password could not be changed. Either your server does not support this "
 "feature or the administrator does not allow you to change your password."
-msgstr ""
-"你的密碼無法更改。可能你的伺服器不支援此功能，或管理員不容許你更改密碼。"
+msgstr "你的密碼無法更改。可能你的伺服器不支援此功能，或管理員不容許你更改密碼。"
 
 #: protocols/jabber/ui/jabberchooseserver.cpp:34
 msgid "Choose Jabber Server"
@@ -14579,26 +14334,24 @@ msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:807
+#: protocols/jabber/jabbercontact.cpp:811
 #, c-format
 msgid "Unable to store vCard for %1"
 msgstr "無法儲存 %1 的 vCard"
 
-#: protocols/jabber/jabbercontact.cpp:930
+#: protocols/jabber/jabbercontact.cpp:934
 msgid ""
 "Do you also want to remove the authorization from user %1 to see your status?"
-msgstr ""
-"要移除 %1 用戶看到你狀態的授權嗎？"
+msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:1064
+#: protocols/jabber/jabbercontact.cpp:1068
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
 "windows for this contact. The preselected resource will only apply to newly "
 "opened chat windows."
-msgstr ""
-"你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源只套用於新開啟的聊天視窗。"
+msgstr "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1068
+#: protocols/jabber/jabbercontact.cpp:1072
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
@@ -14737,9 +14490,7 @@ msgid ""
 "Could not bind Jabber file transfer manager to local port. Please check if the "
 "file transfer port is already in use or choose another port in the account "
 "settings."
-msgstr ""
-"無法將 Jabber 檔案傳輸管理員繫結至本機連接埠。請檢查該檔案傳輸連接埠是否已用，或在帳號設置中"
-"選擇另一個連接埠。"
+msgstr "無法將 Jabber 檔案傳輸管理員繫結至本機連接埠。請檢查該檔案傳輸連接埠是否已用，或在帳號設置中選擇另一個連接埠。"
 
 #: protocols/jabber/jabberaccount.cpp:122
 msgid "Failed to start Jabber File Transfer Manager"
@@ -14770,15 +14521,13 @@ msgid ""
 "Your connection to the server has been lost in the meantime. This means that "
 "your last action could not complete successfully. Please reconnect and try "
 "again."
-msgstr ""
-"你和伺服器的連線已同時中斷。代表你最後的行動未有成功完成。請重新連接及重試。"
+msgstr "你和伺服器的連線已同時中斷。代表你最後的行動未有成功完成。請重新連接及重試。"
 
 #: protocols/jabber/jabberaccount.cpp:218
 msgid ""
 "A connection attempt is already in progress. Please wait until the previous "
 "attempt finished or disconnect to start over."
-msgstr ""
-"已經在嘗試連接。請候之前的連接嘗試完成，或將之中斷再重新開始。"
+msgstr "已經在嘗試連接。請候之前的連接嘗試完成，或將之中斷再重新開始。"
 
 #: protocols/jabber/jabberaccount.cpp:221
 msgid "Connection Attempt Already in Progress"
@@ -14849,10 +14598,7 @@ msgid ""
 "<qt>"
 "<p>The certificate of server %1 could not be validated for account %2: %3</p>"
 "<p>Do you want to continue?</p></qt>"
-msgstr ""
-"<qt>"
-"<p>%1 伺服器的證書無法驗證帳號 %2: %3</p>"
-"<p>要繼續嗎？</p></qt>"
+msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎？</p></qt>"
 
 #: protocols/jabber/jabberaccount.cpp:454
 msgid "Jabber Connection Certificate Problem"
@@ -15120,8 +14866,7 @@ msgstr "和 Jabber 伺服器 %1 連線有問題"
 msgid ""
 "The Jabber user %1 wants to add you to their contact list; do you want to "
 "authorize them? Selecting Cancel will ignore the request."
-msgstr ""
-"Jabber 用戶 %1 想將你加到他的聯絡人清單；要授權嗎？選取取消將忽略該要求。"
+msgstr "Jabber 用戶 %1 想將你加到他的聯絡人清單；要授權嗎？選取取消將忽略該要求。"
 
 #: protocols/jabber/jabberaccount.cpp:1010
 msgid "Authorize Jabber User?"
@@ -15148,8 +14893,7 @@ msgid ""
 "The Jabber user %1 removed %2's subscription to them. This account will no "
 "longer be able to view their online/offline status. Do you want to delete the "
 "contact?"
-msgstr ""
-"Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。要刪除該聯絡人嗎？"
+msgstr "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。要刪除該聯絡人嗎？"
 
 #: protocols/jabber/jabberaccount.cpp:1182
 msgid "Waiting for authorization"
@@ -15163,8 +14907,7 @@ msgstr "伺服器未有交待原因"
 msgid ""
 "There was an error processing your request for group chat %1. (Reason: %2, Code "
 "%3)"
-msgstr ""
-"群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
+msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
 #: protocols/jabber/jabberaccount.cpp:1395
 msgid "Jabber Group Chat"
@@ -15174,8 +14917,7 @@ msgstr "Jabber 群組聊天"
 msgid ""
 "_: a contact's online status in parenthesis.\n"
 " (%1)"
-msgstr ""
-" (%1)"
+msgstr " (%1)"
 
 #: protocols/jabber/jabberbasecontact.cpp:121
 msgid "You cannot see each others' status."
@@ -15280,9 +15022,7 @@ msgstr "依然無法移除；請手動修正。"
 msgid ""
 "smbclient|Samba Client Binary\n"
 "*|All Files"
-msgstr ""
-"smbclient|Samba 客戶端執行檔n"
-"*|所有檔案"
+msgstr "smbclient|Samba 客戶端執行檔n*|所有檔案"
 
 #: protocols/winpopup/config/wppreferencesbase.ui.h:12
 #: protocols/winpopup/config/wppreferencesbase.ui.h:13
@@ -15290,8 +15030,7 @@ msgstr ""
 msgid ""
 "_n: %n second\n"
 "%n seconds"
-msgstr ""
-"%n 秒"
+msgstr "%n 秒"
 
 #: protocols/winpopup/wpprotocol.cpp:144
 msgid "The Samba configuration file is modified."
@@ -15328,8 +15067,7 @@ msgstr "WinPopup (%1)"
 #: protocols/groupwise/ui/gweditaccountwidget.cpp:104
 msgid ""
 "The changes you just made will take effect next time you log in with GroupWise."
-msgstr ""
-"你剛作的更改會於你下次登入 GroupWise 時生效。"
+msgstr "你剛作的更改會於你下次登入 GroupWise 時生效。"
 
 #: protocols/groupwise/ui/gweditaccountwidget.cpp:105
 msgid "GroupWise Settings Changed While Signed In"
@@ -15344,8 +15082,7 @@ msgstr "邀請作對話"
 msgid ""
 "_: Account specific privacy settings\n"
 "Manage Privacy for %1"
-msgstr ""
-"管理 %1 的隱私"
+msgstr "管理 %1 的隱私"
 
 #: protocols/groupwise/ui/gwprivacydialog.cpp:62
 msgid "Privacy settings have been administratively locked"
@@ -15363,8 +15100,7 @@ msgstr "搜尋要封鎖的聯絡人"
 msgid ""
 "You can only change privacy settings while you are logged in to the GroupWise "
 "Messenger server."
-msgstr ""
-"登入GroupWise Messenger 伺服器後才能更改隱私設置。"
+msgstr "登入GroupWise Messenger 伺服器後才能更改隱私設置。"
 
 #: protocols/groupwise/ui/gwprivacydialog.cpp:346
 msgid "'%1' Not Logged In"
@@ -15379,8 +15115,7 @@ msgstr "連接 GroupWise Messenger 及重試。"
 msgid ""
 "_n: 1 matching user found\n"
 "%n matching users found"
-msgstr ""
-"找到 %n 個符合用戶"
+msgstr "找到 %n 個符合用戶"
 
 #: protocols/groupwise/ui/gwcontactproperties.cpp:81
 msgid "Contact Properties"
@@ -15454,8 +15189,7 @@ msgstr "GroupWise SSL 錯誤"
 msgid ""
 "A change happened to your GroupWise contact list while you were offline which "
 "was impossible to reconcile."
-msgstr ""
-"當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
+msgstr "當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
 
 #: protocols/groupwise/gwaccount.cpp:556
 msgid "Conflicting Changes Made Offline"
@@ -15488,28 +15222,24 @@ msgid ""
 "_: Prefix used for automatically generated auto-reply messages when the contact "
 "is Away, contains contact's name\n"
 "Auto reply from %1: "
-msgstr ""
-"來自 %1 的自動回應: "
+msgstr "來自 %1 的自動回應: "
 
 #: protocols/groupwise/gwaccount.cpp:800
 msgid ""
 "_: Prefix used for broadcast messages\n"
 "Broadcast message from %1: "
-msgstr ""
-"來自 %1 的廣播訊息: "
+msgstr "來自 %1 的廣播訊息: "
 
 #: protocols/groupwise/gwaccount.cpp:806
 msgid ""
 "_: Prefix used for system broadcast messages\n"
 "System Broadcast message from %1: "
-msgstr ""
-"來自 %1 的系統廣播訊息: "
+msgstr "來自 %1 的系統廣播訊息: "
 
 #: protocols/groupwise/gwaccount.cpp:1170
 msgid ""
 "The contact %1 could not be added to the contact list, with error message: %2"
-msgstr ""
-"聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
+msgstr "聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
 
 #: protocols/groupwise/gwaccount.cpp:1172
 msgid "Error Adding Contact"
@@ -15520,8 +15250,7 @@ msgid ""
 "_: The parameter is the user's own account id for this protocol\n"
 "You have been disconnected from GroupWise Messenger because you signed in as %1 "
 "elsewhere"
-msgstr ""
-"你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
+msgstr "你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
 
 #: protocols/groupwise/gwaccount.cpp:1217
 msgid "Signed in as %1 Elsewhere"
@@ -15539,8 +15268,7 @@ msgstr "輸入自動回應訊息"
 msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message you "
 "while Away or Busy"
-msgstr ""
-"請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
 
 #: protocols/groupwise/gwmessagemanager.cpp:68
 #: protocols/groupwise/gwmessagemanager.cpp:506
@@ -15565,8 +15293,7 @@ msgstr "嘗試開始聊天: %1 時發生錯誤"
 msgid ""
 "Your message could not be sent. You cannot send messages while your status is "
 "Appear Offline. "
-msgstr ""
-"你的訊息無法送出。當你表現為離線時無法傳送訊息。"
+msgstr "你的訊息無法送出。當你表現為離線時無法傳送訊息。"
 
 #: protocols/groupwise/gwmessagemanager.cpp:319
 msgid "&Other..."
@@ -15590,16 +15317,13 @@ msgstr "搜尋要邀請的聯絡人"
 msgid ""
 "_: label attached to contacts who have been invited but are yet to join a chat\n"
 "(pending)"
-msgstr ""
-"(正在等待處理)"
+msgstr "(正在等待處理)"
 
 #: protocols/groupwise/gwmessagemanager.cpp:445
 msgid ""
 "All the other participants have left, and other invitations are still pending. "
 "Your messages will not be delivered until someone else joins the chat."
-msgstr ""
-"所有其他參與者都已離開，及其他邀請正在等待處理。"
-"直至有人加入這個聊天，你的訊息才會遞送。"
+msgstr "所有其他參與者都已離開，及其他邀請正在等待處理。直至有人加入這個聊天，你的訊息才會遞送。"
 
 #: protocols/groupwise/gwmessagemanager.cpp:471
 msgid "%1 has rejected an invitation to join this conversation."
@@ -15620,4 +15344,3 @@ msgstr "此對話以 SSL 安全機制保密。"
 #: protocols/groupwise/gwmessagemanager.cpp:513
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
-
