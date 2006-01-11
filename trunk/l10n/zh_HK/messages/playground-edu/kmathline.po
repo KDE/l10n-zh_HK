@@ -1,0 +1,303 @@
+# Chinese (Hong Kong) translation of kmathline.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmathline \n"
+"POT-Creation-Date: 2005-11-21 03:21+0100\n"
+"PO-Revision-Date: 2006-01-11 08:08+0800\n"
+"Last-Translator: Abel Cheung <abel@oaka.org>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Abel Cheung"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "abel@oaka.org"
+
+#: kmathline_part.cpp:75
+msgid "KMathLinePart"
+msgstr "KMathLinePart"
+
+#: lines.cpp:82
+msgid "Select a Straightline Function below"
+msgstr "在下面位置選擇直線函數"
+
+#: lines.cpp:299
+#, c-format
+msgid ""
+"The line, going through the given points, is vertical.\n"
+"So it is not a function and every point on this line has the property\n"
+"x = %1"
+msgstr ""
+"經過指定兩點的直線是垂直的。\n"
+"因此它不能表示成函數，而且它的方程式是\n"
+"x = %1"
+
+#: lines.cpp:309
+msgid "The equation of the line going through the given points is:\n"
+msgstr "經過指定的點的直線方程式為：\n"
+
+#: lines.cpp:346
+msgid ""
+"The line, with the given gradient which is going through the given point, "
+"has got the equation:\n"
+"\n"
+msgstr ""
+"經過指定的點，而且斜度為指定數值的直線方程式為：\n"
+"\n"
+
+#: lines.cpp:379
+msgid ""
+"The line with the given equation is parallel to the x-axis, so it does not "
+"intersect it.\n"
+"The y-axis is intersected at \n"
+"S( 0 | %1 )."
+msgstr ""
+"指定的直線和 X 軸互相平行，因此不會相交。\n"
+"它和 Y 軸的交點是\n"
+"S( 0 | %1 )"
+
+#: lines.cpp:389
+msgid ""
+"The given line crosses the <b>x-axis</b> at<br> S<sub>x</sub>( %1 | 0 ) and "
+"the <b>y-axis</b> at<br> S<sub>y</sub>( 0 | %2 )."
+msgstr ""
+"指定的直線和 <b>X 軸</b>相交於<br>S<sub>x</sub>( %1 | 0 )，而和 <b>Y 軸</b>相"
+"交於<br>S<sub>y</sub>( 0 | %2 )。"
+
+#: lines.cpp:410
+msgid ""
+"The two given lines are identical, so there are an infinite number of "
+"intersecting points."
+msgstr "兩條指定的直線完全相等，所以有無限個交點。"
+
+#: lines.cpp:414
+msgid "The two given lines are parallel, so there are no intersecting points."
+msgstr "兩條指定的直線乃平行線，所以沒有交點。"
+
+#: lines.cpp:423
+msgid ""
+"The intersection point of the two given lines is\n"
+"\n"
+"S( %1 | %2 )."
+msgstr ""
+"兩條直線的交點為\n"
+"\n"
+"S( %1 | %2 )"
+
+#: lines.cpp:478
+msgid " "
+msgstr " "
+
+#: lines.cpp:487
+msgid "Find intersection with axis"
+msgstr "計算和座標軸的交點"
+
+#: lines.cpp:510
+msgid "Find equation/point and gradient"
+msgstr "計算經過某點和有指定斜度的直線方程式"
+
+#: lines.cpp:538
+msgid "Find equation with two given points"
+msgstr "計算經過指定兩點的直線方桯式"
+
+#: lines.cpp:571
+msgid "Find intersect-point of two lines"
+msgstr "計算兩條直線的交點"
+
+#. i18n: file LineInputD.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "Line Input"
+msgstr "輸入直線"
+
+#. i18n: file LineInputD.ui line 84
+#: rc.cpp:6
+#, no-c-format
+msgid "First Point:"
+msgstr "第 1 點："
+
+#. i18n: file LineInputD.ui line 107
+#: rc.cpp:9
+#, no-c-format
+msgid "2nd Point:"
+msgstr "第 2 點："
+
+#. i18n: file LineInputD.ui line 138
+#: rc.cpp:12
+#, no-c-format
+msgid "Enter first point X value here"
+msgstr "在這裏輸入第 1 點的 X 座標"
+
+#. i18n: file LineInputD.ui line 156
+#: rc.cpp:15
+#, no-c-format
+msgid "Enter second point X value here"
+msgstr "在這裏輸入第 2 點的 X 座標"
+
+#. i18n: file LineInputD.ui line 179
+#: rc.cpp:18 rc.cpp:21 rc.cpp:54 rc.cpp:57
+#, no-c-format
+msgid "x"
+msgstr "x"
+
+#. i18n: file LineInputD.ui line 259
+#: rc.cpp:24 rc.cpp:27
+#, no-c-format
+msgid "y"
+msgstr "y"
+
+#. i18n: file LineInputD.ui line 300
+#: rc.cpp:30
+#, no-c-format
+msgid "Enter first point Y value here"
+msgstr "在這裏輸入第 1 點的 Y 座標"
+
+#. i18n: file LineInputD.ui line 318
+#: rc.cpp:33
+#, no-c-format
+msgid "Enter second point Y value here"
+msgstr "在這裏輸入第 2 點的 Y 座標"
+
+#. i18n: file LineInputD.ui line 340
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Point Format: (x|y)"
+msgstr "點的格式：(x|y)"
+
+#. i18n: file LineInputD.ui line 401
+#: rc.cpp:42
+#, no-c-format
+msgid "First Line: y="
+msgstr "第 1 條線：y="
+
+#. i18n: file LineInputD.ui line 416
+#: rc.cpp:45
+#, no-c-format
+msgid "Second Line: y="
+msgstr "第 2 條線：y="
+
+#. i18n: file LineInputD.ui line 447
+#: rc.cpp:48
+#, no-c-format
+msgid "Enter first line m/gradient value here"
+msgstr "輸入第 1 條線的 m 值或者斜度"
+
+#. i18n: file LineInputD.ui line 468
+#: rc.cpp:51
+#, no-c-format
+msgid "Enter second line m/gradient value here"
+msgstr "輸入第 2 條線的 m 值或者斜度"
+
+#. i18n: file LineInputD.ui line 535
+#: rc.cpp:60
+#, no-c-format
+msgid "Enter first line c/Y axis cut value here"
+msgstr "輸入第 1 條線的 c 值，或者它和 Y 軸的交點"
+
+#. i18n: file LineInputD.ui line 556
+#: rc.cpp:63
+#, no-c-format
+msgid "Enter second line c/Y axis cut value here"
+msgstr "輸入第 2 條線的 c 值，或者它和 Y 軸的交點"
+
+#. i18n: file LineInputD.ui line 578
+#: rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Line Format: y=mx+c"
+msgstr "直線格式：y=mx+c"
+
+#. i18n: file LineInputD.ui line 631
+#: rc.cpp:72
+#, no-c-format
+msgid "Gradient:"
+msgstr "斜度："
+
+#. i18n: file LineInputD.ui line 649
+#: rc.cpp:75
+#, no-c-format
+msgid "Enter gradient here - Change fraction to decimal"
+msgstr "請在這裏輸入斜度，並先將分數轉換為小數"
+
+#. i18n: file LinesD.ui line 95
+#: rc.cpp:78
+#, no-c-format
+msgid "Lines"
+msgstr "直線"
+
+#. i18n: file LinesD.ui line 118
+#: rc.cpp:81
+#, no-c-format
+msgid "Result:"
+msgstr "結果："
+
+#. i18n: file LinesD.ui line 141
+#: rc.cpp:84
+#, no-c-format
+msgid "Select Function:"
+msgstr "選擇函數："
+
+#. i18n: file LinesD.ui line 218
+#: rc.cpp:87
+#, no-c-format
+msgid "Sectio&n"
+msgstr "交點(&N)"
+
+#. i18n: file LinesD.ui line 221
+#: rc.cpp:90
+#, no-c-format
+msgid "Click this to find intercept point between  two lines"
+msgstr "請點選這裏計算兩條直線的交點"
+
+#. i18n: file LinesD.ui line 252
+#: rc.cpp:94
+#, no-c-format
+msgid "Result displayed here"
+msgstr "這裏顯示結果"
+
+#. i18n: file LinesD.ui line 274
+#: rc.cpp:97
+#, no-c-format
+msgid "&Axis Cuts"
+msgstr "座標軸交點(&A)"
+
+#. i18n: file LinesD.ui line 277
+#: rc.cpp:100
+#, no-c-format
+msgid "Click this to calculate X & Y axis cuts from equation"
+msgstr "點選這裏計算某直線方程式和 X/Y 軸的交點"
+
+#. i18n: file LinesD.ui line 299
+#: rc.cpp:103
+#, no-c-format
+msgid "Two Points"
+msgstr "兩點"
+
+#. i18n: file LinesD.ui line 302
+#: rc.cpp:106
+#, no-c-format
+msgid "Click this for equation from two points"
+msgstr "點選這裏計算經過某兩點的直線方程式"
+
+#. i18n: file LinesD.ui line 324
+#: rc.cpp:109
+#, no-c-format
+msgid "&One Point"
+msgstr "一點(&O)"
+
+#. i18n: file LinesD.ui line 327
+#: rc.cpp:112
+#, no-c-format
+msgid "Click this for equations from gradient and one point"
+msgstr "點選這裏計算有指定斜度和經過某點的直線方程式"
