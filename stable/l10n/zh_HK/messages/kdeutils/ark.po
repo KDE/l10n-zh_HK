@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-23 03:11+0100\n"
+"POT-Creation-Date: 2006-01-15 03:17+0100\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -30,7 +30,7 @@ msgstr "wmtuen@gmail.com"
 #: ar.cpp:255 compressedfile.cpp:197 compressedfile.cpp:308 lha.cpp:157
 #: lha.cpp:227 lha.cpp:268 lha.cpp:298 rar.cpp:130 rar.cpp:205 rar.cpp:260
 #: rar.cpp:296 sevenzip.cpp:106 sevenzip.cpp:145 sevenzip.cpp:185
-#: sevenzip.cpp:233 tar.cpp:272 tar.cpp:667 tar.cpp:754 tar.cpp:802
+#: sevenzip.cpp:233 tar.cpp:272 tar.cpp:560 tar.cpp:639 tar.cpp:683
 #: zip.cpp:104 zip.cpp:177 zip.cpp:236 zip.cpp:272 zoo.cpp:122 zoo.cpp:189
 #: zoo.cpp:248 zoo.cpp:279
 msgid "Could not start a subprocess."
@@ -693,7 +693,7 @@ msgstr ""
 msgid "Simple Compressed Archive"
 msgstr "簡單壓縮檔"
 
-#: compressedfile.cpp:323 tar.cpp:174 tar.cpp:191
+#: compressedfile.cpp:323 tar.cpp:176 tar.cpp:192
 msgid "Trouble writing to the archive..."
 msgstr "寫入壓縮檔時發生錯誤..."
 
@@ -820,7 +820,8 @@ msgid "KDE Archiving tool"
 msgstr "KDE 壓縮檔工具"
 
 #: main.cpp:70
-msgid "(c) 1997-2005, The Various Ark Developers"
+#, fuzzy
+msgid "(c) 1997-2006, The Various Ark Developers"
 msgstr "(c) 1997-2005, 各位 Ark 開發者"
 
 #: main.cpp:74
@@ -1084,10 +1085,10 @@ msgstr ""
 "重設搜尋字串\n"
 "將搜尋字串重設，這樣所有的壓縮檔項目將會重新顯示。"
 
-#: tar.cpp:511
+#: tar.cpp:405
 msgid "Unable to fork a decompressor"
 msgstr "無法衍生解壓程式"
 
-#: tar.cpp:538
+#: tar.cpp:432
 msgid "Trouble writing to the tempfile..."
 msgstr "寫入暫存檔失敗..."
