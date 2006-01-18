@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwifimanager\n"
-"POT-Creation-Date: 2006-01-11 03:16+0100\n"
+"POT-Creation-Date: 2006-01-18 03:18+0100\n"
 "PO-Revision-Date: 2006-01-08 17:12+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -28,46 +28,46 @@ msgstr "wwycheuk@netvigator.com"
 msgid "UNKNOWN"
 msgstr "未知"
 
-#: interface_wireless_wirelessextensions.cpp:535
-msgid "Ad-Hoc"
-msgstr "臨時（Ad-Hoc）"
-
-#: interface_wireless_wirelessextensions.cpp:536 networkscanning.cpp:120
-msgid "Managed"
-msgstr "受控"
-
-#: interface_wireless_wirelessextensions.cpp:537
-msgid "Unknown"
-msgstr "未知"
-
-#: interface_wireless_wirelessextensions.cpp:549 networkscanning.cpp:52
-#: networkscanning.cpp:87 status.cpp:252
-msgid "off"
-msgstr "關閉"
-
-#: interface_wireless_wirelessextensions.cpp:551
-msgid "on"
-msgstr "開啟"
-
-#: interface_wireless_wirelessextensions.cpp:567
+#: interface_wireless_wirelessextensions.cpp:521
 msgid "Network Name"
 msgstr "網絡名稱"
 
-#: interface_wireless_wirelessextensions.cpp:568
+#: interface_wireless_wirelessextensions.cpp:522
 msgid "Mode"
 msgstr "模式"
 
-#: interface_wireless_wirelessextensions.cpp:569
+#: interface_wireless_wirelessextensions.cpp:523
 msgid "Quality"
 msgstr "質素"
 
-#: interface_wireless_wirelessextensions.cpp:570
+#: interface_wireless_wirelessextensions.cpp:524
 msgid "WEP"
 msgstr "WEP"
 
-#: interface_wireless_wirelessextensions.cpp:707
-msgid "(hidden cell)"
-msgstr "(隱藏格)"
+#: interface_wireless_wirelessextensions.cpp:532
+msgid ""
+"Unable to perform the scan. Please make sure the executable \"iwlist\" is in "
+"your $PATH."
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:533
+#: interface_wireless_wirelessextensions.cpp:554
+msgid "Scanning not possible"
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:553
+msgid ""
+"Your card does not support scanning. The results window will not contain any "
+"results."
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:570 networkscanning.cpp:120
+msgid "Managed"
+msgstr "受控"
+
+#: interface_wireless_wirelessextensions.cpp:572
+msgid "Ad-Hoc"
+msgstr "臨時（Ad-Hoc）"
 
 #: kwifimanager.cpp:125
 msgid "No Interface"
@@ -157,6 +157,10 @@ msgstr "原作者和維謢者"
 #: main.cpp:43
 msgid "Lots of Fixes and Optimizations, added Session Management"
 msgstr "大量修正和優化，新增工作階段管理"
+
+#: networkscanning.cpp:52 networkscanning.cpp:87 status.cpp:252
+msgid "off"
+msgstr "關閉"
 
 #: networkscanning.cpp:58
 msgid "Scan Results"
@@ -285,3 +289,12 @@ msgstr "超出範圍"
 #: strength.cpp:160
 msgid "Signal strength: "
 msgstr "訊號強度: "
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "on"
+#~ msgstr "開啟"
+
+#~ msgid "(hidden cell)"
+#~ msgstr "(隱藏格)"
