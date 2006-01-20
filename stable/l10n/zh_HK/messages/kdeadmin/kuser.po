@@ -645,8 +645,7 @@ msgstr "已有名為 %1 的用戶。"
 msgid ""
 "You have selected %1 users. Do you really want to change the password for all "
 "the selected users?"
-msgstr ""
-"你已選取 %1 個用戶。你真的要更改所有已選取用戶的密碼嗎？"
+msgstr "你已選取 %1 個用戶。你真的要更改所有已選取用戶的密碼嗎？"
 
 #: mainView.cpp:308 propdlg.cpp:510
 msgid "Do Not Change"
@@ -660,8 +659,7 @@ msgstr "您已經用完 gid 的可用空間。"
 msgid ""
 "The group '%1' is the primary group of one or more users (such as '%2'); it "
 "cannot be deleted."
-msgstr ""
-"『%1』群組是一或多個用戶（例如『%2』）的主要群組；不能刪除它。"
+msgstr "『%1』群組是一或多個用戶（例如『%2』）的主要群組；不能刪除它。"
 
 #: mainView.cpp:460
 msgid "Do you really want to delete the group '%1'?"
@@ -1328,12 +1326,9 @@ msgid ""
 "provides a read-only access to all users and groups which your installation "
 "knows about."
 msgstr ""
-"此選項讓你選擇在哪裡儲存用戶/群組資料。"
-"目前支援三種儲存後端。<BR><B>檔案</B>"
-"將用戶/群組資料儲存在傳統的 /etc/passwd 及 /etc/group 檔案。"
-"<BR><B>LDAP</B>將資料儲存在目錄伺服器的 posixAccount 及 "
-"posixGroup 物件類別中；此後端容許從 sambaSamAccount 物件類別管理 Samba "
-"的用戶/群組。<BR><B>系統</B>"
+"此選項讓你選擇在哪裡儲存用戶/群組資料。目前支援三種儲存後端。<BR><B>檔案</B>將用戶/群組資料儲存在傳統的 /etc/passwd 及 "
+"/etc/group 檔案。<BR><B>LDAP</B>將資料儲存在目錄伺服器的 posixAccount 及 posixGroup "
+"物件類別中；此後端容許從 sambaSamAccount 物件類別管理 Samba 的用戶/群組。<BR><B>系統</B>"
 "提供你的套件安裝認識的所有用戶和群組的唯讀存取。"
 
 #. i18n: file kuser.kcfg line 36
@@ -1348,8 +1343,7 @@ msgstr "Shell"
 msgid ""
 "This option allows you to select the shell which will be the default for new "
 "users."
-msgstr ""
-"此選項讓你選取新用戶的預設 shell 。"
+msgstr "此選項讓你選取新用戶的預設 shell 。"
 
 #. i18n: file kuser.kcfg line 40
 #: rc.cpp:247
@@ -1363,8 +1357,7 @@ msgstr "家路徑樣板"
 msgid ""
 "This option specifies the UNIX home path template for new users. The '%U' macro "
 "will replaced with the actual user name."
-msgstr ""
-"此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
+msgstr "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
 
 #. i18n: file kuser.kcfg line 45
 #: rc.cpp:253
@@ -1378,8 +1371,7 @@ msgstr "第一個 UID"
 msgid ""
 "This options specifies the first user ID where searching for an available UID "
 "starts."
-msgstr ""
-"此選項指定當搜尋可用 UID 時開始的第一個用戶 ID 。"
+msgstr "此選項指定當搜尋可用 UID 時開始的第一個用戶 ID 。"
 
 #. i18n: file kuser.kcfg line 50
 #: rc.cpp:259
@@ -1393,16 +1385,14 @@ msgstr "第一個 GID"
 msgid ""
 "This options specifies the first group ID where searching for an available GID "
 "starts."
-msgstr ""
-"此選項指定當搜尋可用 GID 時開始的第一個群組 ID 。"
+msgstr "此選項指定當搜尋可用 GID 時開始的第一個群組 ID 。"
 
 #. i18n: file kuser.kcfg line 56
 #: rc.cpp:268
 #, no-c-format
 msgid ""
 "If this option is checked then a home directory will created for the new user."
-msgstr ""
-"如勾選此選項，會為新用戶建立家目錄。"
+msgstr "如勾選此選項，會為新用戶建立家目錄。"
 
 #. i18n: file kuser.kcfg line 61
 #: rc.cpp:274
@@ -1410,8 +1400,7 @@ msgstr ""
 msgid ""
 "If this option is checked then the contents of the skeleton folder will copied "
 "to the new user's home directory"
-msgstr ""
-"如勾選此選項，檔案架構資料夾的內容會複製至新用戶的家目錄。"
+msgstr "如勾選此選項，檔案架構資料夾的內容會複製至新用戶的家目錄。"
 
 #. i18n: file kuser.kcfg line 66
 #: rc.cpp:280
@@ -1420,8 +1409,7 @@ msgid ""
 "If this option is enabled, new user creation will create a private group named "
 "as the user, and the primary group of the user will assigned to this private "
 "group."
-msgstr ""
-"如啟用此選項，建立新用戶時會同時建立和用戶同名的私人群組，而該用戶的主要群組會指派至此私人群組。"
+msgstr "如啟用此選項，建立新用戶時會同時建立和用戶同名的私人群組，而該用戶的主要群組會指派至此私人群組。"
 
 #. i18n: file kuser.kcfg line 70
 #: rc.cpp:283
@@ -1435,8 +1423,7 @@ msgstr "預設主要群組"
 msgid ""
 "This is the default primary group which will be assigned to a newly created "
 "user."
-msgstr ""
-"這是會指派至新建立的用戶的預設主要群組。"
+msgstr "這是會指派至新建立的用戶的預設主要群組。"
 
 #. i18n: file kuser.kcfg line 76
 #: rc.cpp:289
@@ -1522,8 +1509,7 @@ msgstr "MD5 Shadow 密碼"
 msgid ""
 "Check this if you want the passwords in the shadow file MD5 hashed. Leave this "
 "unchecked if DES encryption should be used."
-msgstr ""
-"如你希望在 shadow 檔案中的密碼以 MD5 進行雜湊（hash），勾選此項。如使用 DES 加密，不要選。"
+msgstr "如你希望在 shadow 檔案中的密碼以 MD5 進行雜湊（hash），勾選此項。如使用 DES 加密，不要選。"
 
 #. i18n: file kuser.kcfg line 117
 #: rc.cpp:331
@@ -1537,8 +1523,7 @@ msgstr "Shadow 密碼檔案"
 msgid ""
 "Specifies the shadow password file (usually /etc/shadow). Leave this empty if "
 "your system does not use a shadow password file."
-msgstr ""
-"指定 shadow 密碼的檔案（通常是 /etc/shadow）。如你的系統不使用 shadow 密碼檔案，保持空白。"
+msgstr "指定 shadow 密碼的檔案（通常是 /etc/shadow）。如你的系統不使用 shadow 密碼檔案，保持空白。"
 
 #. i18n: file kuser.kcfg line 122
 #: rc.cpp:337
@@ -1552,8 +1537,7 @@ msgstr "群組 Shadow 檔案"
 msgid ""
 "Specifies the shadow group file (usually /etc/gshadow). Leave this empty if "
 "your system does not use a shadow group file."
-msgstr ""
-"指定 shadow 群組的檔案（通常是 /etc/gshadow）。如你的系統不使用 shadow 群組檔案，保持空白。"
+msgstr "指定 shadow 群組的檔案（通常是 /etc/gshadow）。如你的系統不使用 shadow 群組檔案，保持空白。"
 
 #. i18n: file kuser.kcfg line 127
 #: rc.cpp:343
@@ -1698,8 +1682,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This specifies where to store users' entries relative to the LDAP base DN."
-msgstr ""
-"此處指定用戶項目相對 LDAP 基礎 DN 的儲存位置。"
+msgstr "此處指定用戶項目相對 LDAP 基礎 DN 的儲存位置。"
 
 #. i18n: file kuser.kcfg line 210
 #: rc.cpp:415
@@ -1724,8 +1707,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This specifies where to store groups' entries relative to the LDAP base DN."
-msgstr ""
-"此處指定群組項目相對 LDAP 基礎 DN 的儲存位置。"
+msgstr "此處指定群組項目相對 LDAP 基礎 DN 的儲存位置。"
 
 #. i18n: file kuser.kcfg line 219
 #: rc.cpp:427
