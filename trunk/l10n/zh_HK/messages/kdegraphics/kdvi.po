@@ -279,8 +279,8 @@ msgstr ""
 "<br>"
 "<br><tt><strong>%1</strong></tt>"
 "<br/>"
-"<br/> 傳回錯誤。您可能需要查看一下 <strong>文件資訊對話框</strong> 的 檔案-選單 來得知詳細的情形。 "
-"KDVI 的使用手冊有詳細的說明如何設定編輯器及一些其他的問題說明。</qt>"
+"<br/> 傳回錯誤。您可能需要查看一下 <strong>文件資訊對話框</strong> 的 檔案-選單 來得知詳細的情形。 KDVI "
+"的使用手冊有詳細的說明如何設定編輯器及一些其他的問題說明。</qt>"
 
 #: dviRenderer.cpp:780
 msgid "Starting the editor..."
@@ -325,8 +325,8 @@ msgid ""
 "Hint to the perplexed system administrator: KDVI uses the shell's PATH variable "
 "when looking for programs."
 msgstr ""
-"KDVI 找不到『dvipdfm』程式。這個程式是輸出功能所必需。當然也可以由 KDVI 的列印功能來轉換 DVI 為 "
-"PDF，但通常這樣一來印表沒有問題，由 Acrobat Reader 閱覽時則品質較差。更新您的 TeX 系統至含 'dvipdfm' 程式的版本會較明智。\n"
+"KDVI 找不到『dvipdfm』程式。這個程式是輸出功能所必需。當然也可以由 KDVI 的列印功能來轉換 DVI 為 PDF，但通常這樣一來印表沒有問題，由 "
+"Acrobat Reader 閱覽時則品質較差。更新您的 TeX 系統至含 'dvipdfm' 程式的版本會較明智。\n"
 "給還沒進入狀況的系統管理者： KDVI 使用 shell 的 PATH 環境變數來找程式。"
 
 #: dviRenderer_export.cpp:98
@@ -385,8 +385,7 @@ msgid ""
 "an error. You might wish to look at the <strong>document info dialog</strong> "
 "which you will find in the File-Menu for a precise error report.</qt>"
 msgstr ""
-"<qt>用來匯出檔案的『dvipdf』外部程式回報錯誤。您可以查看<strong>文件資訊對話框</strong>"
-"的檔案選單來得到更精確的錯誤訊息。</qt>"
+"<qt>用來匯出檔案的『dvipdf』外部程式回報錯誤。您可以查看<strong>文件資訊對話框</strong>的檔案選單來得到更精確的錯誤訊息。</qt>"
 
 #: dviRenderer_export.cpp:139
 msgid "Export: %1 to PDF"
@@ -440,8 +439,7 @@ msgid ""
 "an error. You might wish to look at the <strong>document info dialog</strong> "
 "which you will find in the File-Menu for a precise error report.</qt>"
 msgstr ""
-"<qt>用來匯出檔案的『dvips』外部程式回報錯誤。您可以查看<strong>文件資訊對話框</strong>"
-"的檔案選單來得到更精確的錯誤訊息。</qt>"
+"<qt>用來匯出檔案的『dvips』外部程式回報錯誤。您可以查看<strong>文件資訊對話框</strong>的檔案選單來得到更精確的錯誤訊息。</qt>"
 
 #: dviRenderer_export.cpp:302
 msgid "Export: %1 to PostScript"
@@ -479,7 +477,8 @@ msgid ""
 "KDVI is currently generating bitmap fonts which are needed to display your "
 "document. For this, KDVI uses a number of external programs, such as MetaFont. "
 "You can find the output of these programs later in the document info dialog."
-msgstr "KDVI 正在產生顯示文件所需的點陣字型。 KDVI 會使用一些外部程式，例如 MetaFont 來達到這個目的。您可以由文件資訊對話框得知這些外部程式名稱。"
+msgstr ""
+"KDVI 正在產生顯示文件所需的點陣字型。 KDVI 會使用一些外部程式，例如 MetaFont 來達到這個目的。您可以由文件資訊對話框得知這些外部程式名稱。"
 
 #: fontpool.cpp:51
 msgid "KDVI is generating fonts. Please wait."
@@ -522,9 +521,7 @@ msgid ""
 "<qt>"
 "<p>KDVI was not able to locate all the font files which are necessary to "
 "display the current DVI file. Your document might be unreadable.</p></qt>"
-msgstr ""
-"<qt>"
-"<p>KDVI 無法找到顯示這個 DVI 檔所需的所有字型。您的文件有可能無法閱讀。</p></qt>"
+msgstr "<qt><p>KDVI 無法找到顯示這個 DVI 檔所需的所有字型。您的文件有可能無法閱讀。</p></qt>"
 
 #: fontpool.cpp:285
 msgid "Not All Font Files Found"
@@ -819,8 +816,8 @@ msgid ""
 "either install the FreeType library and recompile KDVI yourself, or find a "
 "precompiled software package for your operating system."
 msgstr ""
-"KDVI 需要 FreeType 來存取 type 1 字型。KDVI 編譯時並沒有編入 FreeType 。"
-"如果您要使用 type 1 字型，安裝 FreeType 函式庫並重新編譯 KDVI，或找尋已編譯好的套件。"
+"KDVI 需要 FreeType 來存取 type 1 字型。KDVI 編譯時並沒有編入 FreeType 。如果您要使用 type 1 字型，安裝 "
+"FreeType 函式庫並重新編譯 KDVI，或找尋已編譯好的套件。"
 
 #: optionDialogSpecialWidget.cpp:32
 msgid "User-Defined Editor"
@@ -914,8 +911,7 @@ msgid ""
 "monitor, or a notebook screen. However, many people find the \"improved\" fonts "
 "quite ugly and prefer to have this option disabled."
 msgstr ""
-"目前的許多字型都含有「字型提示（hinting）」資訊，這在低解像度的螢幕可增進可讀性。"
-"但有很多人發現這種「改進」很醜，這時可能需要把這個選項關掉。"
+"目前的許多字型都含有「字型提示（hinting）」資訊，這在低解像度的螢幕可增進可讀性。但有很多人發現這種「改進」很醜，這時可能需要把這個選項關掉。"
 
 #. i18n: file optionDialogSpecialWidget_base.ui line 27
 #: rc.cpp:27
@@ -1076,8 +1072,7 @@ msgid ""
 "computer monitor, or a notebook screen. However, many people find the "
 "&quot;improved&quot; fonts quite ugly and prefer to have this option disabled."
 msgstr ""
-"目前的許多字型都含有『字型提示（hinting）』資訊，這在低解析度的螢幕可增進可讀性。"
-"但有不少朋友發現這種『改進』很醜，這時可能需要把這個選項關掉。"
+"目前的許多字型都含有『字型提示（hinting）』資訊，這在低解析度的螢幕可增進可讀性。但有不少朋友發現這種『改進』很醜，這時可能需要把這個選項關掉。"
 
 #: special.cpp:39
 msgid "That makes 25 errors. Further error messages will not be printed."
