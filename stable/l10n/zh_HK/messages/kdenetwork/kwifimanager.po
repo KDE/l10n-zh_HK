@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwifimanager\n"
-"POT-Creation-Date: 2006-02-19 03:47+0100\n"
+"POT-Creation-Date: 2006-02-20 03:49+0100\n"
 "PO-Revision-Date: 2006-01-08 17:12+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -51,21 +51,21 @@ msgid ""
 msgstr ""
 
 #: interface_wireless_wirelessextensions.cpp:533
-#: interface_wireless_wirelessextensions.cpp:554
+#: interface_wireless_wirelessextensions.cpp:555
 msgid "Scanning not possible"
 msgstr ""
 
-#: interface_wireless_wirelessextensions.cpp:553
+#: interface_wireless_wirelessextensions.cpp:554
 msgid ""
 "Your card does not support scanning. The results window will not contain any "
 "results."
 msgstr ""
 
-#: interface_wireless_wirelessextensions.cpp:570 networkscanning.cpp:120
+#: interface_wireless_wirelessextensions.cpp:572 networkscanning.cpp:129
 msgid "Managed"
 msgstr "受控"
 
-#: interface_wireless_wirelessextensions.cpp:572
+#: interface_wireless_wirelessextensions.cpp:574
 msgid "Ad-Hoc"
 msgstr "臨時（Ad-Hoc）"
 
@@ -158,7 +158,7 @@ msgstr "原作者和維謢者"
 msgid "Lots of Fixes and Optimizations, added Session Management"
 msgstr "大量修正和優化，新增工作階段管理"
 
-#: networkscanning.cpp:52 networkscanning.cpp:87 status.cpp:252
+#: networkscanning.cpp:52 networkscanning.cpp:96 status.cpp:252
 msgid "off"
 msgstr "關閉"
 
@@ -170,19 +170,23 @@ msgstr "掃描結果"
 msgid "Switch to Network..."
 msgstr "切換至網絡..."
 
-#: networkscanning.cpp:79
+#: networkscanning.cpp:82
 msgid "The scan is complete, but no networks have been found."
 msgstr "掃描已完成，但沒有找到網絡。"
 
-#: networkscanning.cpp:79
+#: networkscanning.cpp:82
 msgid "No Network Available"
 msgstr "沒有可用的網絡"
 
-#: networkscanning.cpp:102
+#: networkscanning.cpp:88
+msgid "(hidden cell)"
+msgstr "(隱藏格)"
+
+#: networkscanning.cpp:111
 msgid "Aborting network switching due to invalid WEP key specification."
 msgstr "因為 WEP 鑰匙規格無效，正在中止網絡切換"
 
-#: networkscanning.cpp:102
+#: networkscanning.cpp:111
 msgid "Invalid WEP Key"
 msgstr "無效的 WEP 鑰匙"
 
@@ -295,6 +299,3 @@ msgstr "訊號強度: "
 
 #~ msgid "on"
 #~ msgstr "開啟"
-
-#~ msgid "(hidden cell)"
-#~ msgstr "(隱藏格)"
