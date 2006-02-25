@@ -1,0 +1,524 @@
+# translation of klinkstatus.po to Chinese Traditional
+# traditional Chinese translation of klinkstatus.
+# Stanley Wong<stanley18fan0k@yahoo.com.hk>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klinkstatus\n"
+"POT-Creation-Date: 2005-10-20 02:49+0200\n"
+"PO-Revision-Date: 2006-02-26 05:54+0800\n"
+"Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui/resultview.cpp:56 ui/tablelinkstatus.cpp:91 ui/tabwidgetsession.cpp:130
+#: ui/treeview.cpp:76
+msgid "Status"
+msgstr "狀態"
+
+#: ui/resultview.cpp:58 ui/tablelinkstatus.cpp:96 ui/tabwidgetsession.cpp:131
+#: ui/treeview.cpp:81
+msgid "Label"
+msgstr "標記"
+
+#: ui/resultview.cpp:60 ui/tablelinkstatus.cpp:100 ui/tabwidgetsession.cpp:129
+#: ui/treeview.cpp:71
+msgid "URL"
+msgstr "URL"
+
+#: engine/linkchecker.cpp:106 ui/resultview.cpp:87 ui/resultview.cpp:95
+#: ui/tablelinkstatus.cpp:590 ui/tablelinkstatus.cpp:655
+msgid "Timeout"
+msgstr "逾時"
+
+#: engine/linkstatus.cpp:134 engine/linkstatus.cpp:158
+#: engine/linkstatus.cpp:163 engine/searchmanager.cpp:478 ui/resultview.cpp:91
+#: ui/tablelinkstatus.cpp:659
+msgid "Malformed"
+msgstr "內容損壞"
+
+#: engine/searchmanager.cpp:489 ui/resultview.cpp:137
+msgid "Javascript not supported"
+msgstr "不支援 Javascript"
+
+#: ui/tablelinkstatus.cpp:277 ui/treeview.cpp:321
+msgid "All"
+msgstr "所有"
+
+#: ui/tablelinkstatus.cpp:286 ui/tablelinkstatus.cpp:291 ui/treeview.cpp:330
+#: ui/treeview.cpp:335
+msgid "Edit Referrer with Quanta"
+msgstr "以 Quanta 編輯 Referrer"
+
+#: ui/tablelinkstatus.cpp:295 ui/treeview.cpp:339
+msgid "Open URL"
+msgstr "開啟 URL"
+
+#: ui/tablelinkstatus.cpp:298 ui/treeview.cpp:342
+msgid "Open Referrer URL"
+msgstr "開啟 Referrer URL"
+
+#: ui/tablelinkstatus.cpp:303 ui/treeview.cpp:347
+msgid "Copy URL"
+msgstr "複製 URL"
+
+#: ui/tablelinkstatus.cpp:306 ui/treeview.cpp:350
+msgid "Copy Referrer URL"
+msgstr "複製 Referrer URL"
+
+#: ui/tablelinkstatus.cpp:309 ui/treeview.cpp:353
+msgid "Copy Cell Text"
+msgstr "複製儲存格文字"
+
+#: ui/tablelinkstatus.cpp:389 ui/treeview.cpp:268
+msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
+msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
+
+#: ui/tablelinkstatus.cpp:410 ui/tablelinkstatus.cpp:431 ui/treeview.cpp:289
+#: ui/treeview.cpp:310
+msgid "Invalid URL."
+msgstr "無效的 URL。"
+
+#: ui/tablelinkstatus.cpp:419 ui/treeview.cpp:298
+msgid "ROOT URL."
+msgstr "ROOT URL。"
+
+#: ui/tablelinkstatus.cpp:592
+msgid "not supported"
+msgstr "不支援"
+
+#: ui/tablelinkstatus.cpp:682 ui/tablelinkstatus.cpp:685
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: ui/sessionwidget.cpp:239 ui/sessionwidget.cpp:337 ui/sessionwidget.cpp:393
+#: ui/sessionwidget.cpp:411 ui/sessionwidget.cpp:557
+msgid "Checking..."
+msgstr "正在檢查..."
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 358
+#: rc.cpp:57 ui/sessionwidget.cpp:248 ui/sessionwidget.cpp:335
+#, no-c-format
+msgid "&Pause"
+msgstr "暫停(&P)"
+
+#: ui/sessionwidget.cpp:333 ui/sessionwidget.cpp:495
+msgid "&Resume"
+msgstr "繼續(&R)"
+
+#: ui/sessionwidget.cpp:380
+msgid "Cowardly refusing to check an empty URL."
+msgstr "小心翼翼地避開了空白 URL。"
+
+#: ui/sessionwidget.cpp:394 ui/sessionwidget.cpp:412 ui/sessionwidget.cpp:490
+msgid "Stopped"
+msgstr "已停止"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 400
+#: rc.cpp:61 ui/sessionwidget.cpp:469
+#, no-c-format
+msgid "Ready"
+msgstr "準備好"
+
+#: ui/sessionwidget.cpp:543 ui/sessionwidget.cpp:551
+msgid "Adding level..."
+msgstr "正在加入等級..."
+
+#: ui/tabwidgetsession.cpp:99
+msgid "Session"
+msgstr "工作階段"
+
+#: klinkstatus.cpp:75
+msgid ""
+"Could not find the KLinkStatus part; did you configure with "
+"'--prefix=/$KDEDIR' and perform 'make install'?"
+msgstr ""
+"找不到 KLinkStatus 元件；您在執行 configure 時有沒有加入 ‘--prefix=/$KDEDIR’ "
+"選項並進行 ‘make install’?"
+
+#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Stanley Wong"
+
+#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "stanley18fan0k@yahoo.com.hk"
+
+#: main.cpp:34
+msgid ""
+"A Link Checker.\n"
+"\n"
+"KLinkStatus belongs to the kdewebdev module from KDE."
+msgstr ""
+"一個連結檢查器。\n"
+"\n"
+"KLinkStatus 屬於 KDE kdewebdev 模組的一部份。"
+
+#: main.cpp:40
+msgid "Document to open"
+msgstr "要開啟的文件"
+
+#: klinkstatus_part.cpp:342 main.cpp:48
+msgid "KLinkStatus"
+msgstr "KLinkStatus"
+
+#: engine/linkstatus_impl.h:117
+msgid "ROOT"
+msgstr "ROOT"
+
+#: engine/linkchecker.cpp:309
+msgid "No Content"
+msgstr "無內容"
+
+#: engine/linkchecker.cpp:515 engine/linkchecker.cpp:548
+msgid "Link destination not found."
+msgstr "找不到連結指向的目的地"
+
+#: engine/linkstatus.cpp:100
+#, c-format
+msgid "Parent: %1"
+msgstr "上層: %1"
+
+#: engine/linkstatus.cpp:104
+#, c-format
+msgid "URL: %1"
+msgstr "URL: %1"
+
+#: engine/linkstatus.cpp:105
+#, c-format
+msgid "Original URL: %1"
+msgstr "原始 URL: %1"
+
+#: engine/linkstatus.cpp:107
+#, c-format
+msgid "Node: %1"
+msgstr "節點: %1"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 44
+#: rc.cpp:24
+#, no-c-format
+msgid "Search"
+msgstr "搜尋"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 118
+#: rc.cpp:28
+#, no-c-format
+msgid "URL: "
+msgstr "URL: "
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 183
+#: rc.cpp:32
+#, no-c-format
+msgid "Recursivel&y:"
+msgstr "遞迴地(&Y):"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 189
+#: rc.cpp:35
+#, no-c-format
+msgid "Check pages recursively"
+msgstr "遞迴地檢查頁面"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 200
+#: rc.cpp:38 rc.cpp:102
+#, no-c-format
+msgid "Unlimited"
+msgstr "不限制"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 223
+#: rc.cpp:42
+#, no-c-format
+msgid "Do &not check parent folders"
+msgstr "不要檢查上層目錄(&N)"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 261
+#: rc.cpp:45
+#, no-c-format
+msgid "Chec&k external links"
+msgstr "檢查網站以外的連結(&K)"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 299
+#: rc.cpp:48
+#, no-c-format
+msgid "Do not check regular expression:"
+msgstr "不要檢查正規表示式："
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 344
+#: rc.cpp:51
+#, no-c-format
+msgid "&Check"
+msgstr "檢查(&C)"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 347
+#: rc.cpp:54
+#, no-c-format
+msgid "Click here to begin searching"
+msgstr "按這裏開始搜尋"
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 490
+#: rc.cpp:65
+#, no-c-format
+msgid "Elapsed time:"
+msgstr "持續時間："
+
+#. i18n: file ./ui/sessionwidgetbase.ui line 493
+#: rc.cpp:68 rc.cpp:72
+#, no-c-format
+msgid "hh:mm:ss.zzz"
+msgstr "hh:mm:ss.zzz"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 24
+#: rc.cpp:75
+#, no-c-format
+msgid "Network"
+msgstr "網絡"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 49
+#: rc.cpp:78
+#, no-c-format
+msgid "Timeout in seconds:"
+msgstr "時限(秒):"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 71
+#: rc.cpp:81
+#, no-c-format
+msgid "Number of simultaneous connections:"
+msgstr "同時連接數量："
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 81
+#: rc.cpp:84
+#, no-c-format
+msgid "Input"
+msgstr "輸入"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 106
+#: rc.cpp:87
+#, no-c-format
+msgid "Check parent folders"
+msgstr "檢查上層目錄"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 117
+#: rc.cpp:90
+#, no-c-format
+msgid "Number of items in URL history:"
+msgstr "URL 記錄歷史的項數："
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 125
+#: rc.cpp:93
+#, no-c-format
+msgid "Check external links"
+msgstr "檢查網站以外的連結"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 144
+#: rc.cpp:96
+#, no-c-format
+msgid "Recursive"
+msgstr "遞迴"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 180
+#: rc.cpp:99
+#, no-c-format
+msgid "Depth:"
+msgstr "深度："
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 214
+#: rc.cpp:105
+#, no-c-format
+msgid "Quanta"
+msgstr "Quanta"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 225
+#: rc.cpp:108
+#, no-c-format
+msgid "Use preview prefix"
+msgstr "使用預覽字首"
+
+# (Abel) FIXME: what's this?
+#. i18n: file ./ui/settings/configsearchdialog.ui line 231
+#: rc.cpp:111
+#, no-c-format
+msgid ""
+"Check this one if you want to use Quanta's project preview prefix in the URL "
+"to check"
+msgstr ""
+"如果您想在檢查 URL 時對它使用 Quanta 專案的預覽字首，就選這項。"
+
+#. i18n: file ./ui/settings/configsearchdialog.ui line 241
+#: rc.cpp:114
+#, no-c-format
+msgid "Remember settings when exit"
+msgstr "結束時記住設定"
+
+#. i18n: file ./ui/settings/configresultsdialog.ui line 35
+#: rc.cpp:120
+#, no-c-format
+msgid "Tree view"
+msgstr "樹狀檢視模式"
+
+#. i18n: file ./ui/settings/configresultsdialog.ui line 43
+#: rc.cpp:123
+#, no-c-format
+msgid "Flat view"
+msgstr "平面檢視模式"
+
+#. i18n: file ./ui/settings/configresultsdialog.ui line 53
+#: rc.cpp:126
+#, no-c-format
+msgid "Tree View"
+msgstr "樹狀檢視模式"
+
+#. i18n: file ./ui/settings/configresultsdialog.ui line 64
+#: rc.cpp:129
+#, no-c-format
+msgid "Follow last link checked"
+msgstr "跟隨上一次檢查的連結"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 6
+#: rc.cpp:132
+#, no-c-format
+msgid "Maximum number of entries in the combo url."
+msgstr "Combo URL 中最大項數。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 10
+#: rc.cpp:135
+#, no-c-format
+msgid "Maximum number of simultaneous connections."
+msgstr "同時連接最多次數。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 14
+#: rc.cpp:138
+#, no-c-format
+msgid "Timeout on getting an URL."
+msgstr "讀取 URL 內容逾時。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 18
+#: rc.cpp:141
+#, no-c-format
+msgid "History of combo url."
+msgstr "Combo URL 的紀錄。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 21
+#: rc.cpp:144
+#, no-c-format
+msgid "Whether to do a recursive check."
+msgstr "要不要作遞迴檢查。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 25
+#: rc.cpp:147
+#, no-c-format
+msgid "Maximum depth to check."
+msgstr "最大檢查深度。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 29
+#: rc.cpp:150
+#, no-c-format
+msgid "Whether to check parent folders."
+msgstr "要不要檢查上層目錄。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 33
+#: rc.cpp:153
+#, no-c-format
+msgid "Whether to check external links."
+msgstr "要不要檢查該網站以外的連結"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 37
+#: rc.cpp:156
+#, no-c-format
+msgid "Whether to remeber the check settings like depth, and so on, on exit."
+msgstr "要不要在結束之時記住檢查的設定（例如深度）。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 41
+#: rc.cpp:159
+#, no-c-format
+msgid ""
+"Whether preview prefix in Quanta project is used to set the URL to check."
+msgstr ""
+"是否使用 Quanta 專案的預覽字首作為要檢查的 URL。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 45
+#: rc.cpp:162 rc.cpp:165
+#, no-c-format
+msgid "Whether to display a tree view or a flat view in the results view."
+msgstr "檢視結果時使用樹狀還是平面檢視模式。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 53
+#: rc.cpp:168
+#, no-c-format
+msgid ""
+"Whether to automatically adjust the width of the result columns (Not used)."
+msgstr ""
+"要不要自動調整顯示結果的欄位寬度(沒有使用)。"
+
+#. i18n: file ./cfg/klinkstatus.kcfg line 57
+#: rc.cpp:171
+#, no-c-format
+msgid ""
+"Whether the viewport of the result view should follow the last link checked."
+msgstr ""
+"顯示結果時是否跟隨上一次檢查的連結。"
+
+#: klinkstatus_part.cpp:47
+msgid "A Link Checker"
+msgstr "連結檢查器"
+
+#: klinkstatus_part.cpp:83
+msgid "New Link Check"
+msgstr "新的連結檢查"
+
+#: klinkstatus_part.cpp:88
+msgid "Open URL..."
+msgstr "開啟 URL..."
+
+#: klinkstatus_part.cpp:93
+msgid "Close Tab"
+msgstr "關閉分頁"
+
+#: klinkstatus_part.cpp:115
+msgid "Configure KLinkStatus..."
+msgstr "設定 KLinkStatus..."
+
+#: klinkstatus_part.cpp:121
+msgid "All Links"
+msgstr "所有連結"
+
+#: klinkstatus_part.cpp:126
+msgid "Good Links"
+msgstr "正常連結"
+
+#: klinkstatus_part.cpp:131
+msgid "Broken Links"
+msgstr "破斷的連結"
+
+#: klinkstatus_part.cpp:136
+msgid "Malformed Links"
+msgstr "格式有問題的連結"
+
+#: klinkstatus_part.cpp:142
+msgid "Undetermined Links"
+msgstr "未確認的連結"
+
+#: klinkstatus_part.cpp:149
+msgid "About KLinkStatus"
+msgstr "關於 KLinkStatus"
+
+#: klinkstatus_part.cpp:153
+msgid "&Report Bug..."
+msgstr "報告問題(&R)..."
+
+#: klinkstatus_part.cpp:236
+msgid "Check"
+msgstr "檢查"
+
+#: klinkstatus_part.cpp:237
+msgid "Results"
+msgstr "結果"
+
+#: klinkstatus_part.cpp:384
+msgid "KLinkStatus Part"
+msgstr "KLinkStatus Part"
