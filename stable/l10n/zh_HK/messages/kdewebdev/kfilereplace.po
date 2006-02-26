@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KFileReplace\n"
-"POT-Creation-Date: 2005-10-10 02:50+0200\n"
+"POT-Creation-Date: 2006-01-29 03:25+0100\n"
 "PO-Revision-Date: 2006-02-26 05:45+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -56,9 +56,7 @@ msgstr "%1 GB"
 msgid ""
 "<qt>Cannot open the file <b>%1</b> and load the string list. This file seems "
 "not to be a valid old kfr file or it is broken.</qt>"
-msgstr ""
-"<qt>無法開啟檔案 <b>%1</b> 並載入字串列表。這個檔案似乎不是"
-"一個有效的舊 kfr 檔案或它已損壞。</qt>"
+msgstr "<qt>無法開啟檔案 <b>%1</b> 並載入字串列表。這個檔案似乎不是一個有效的舊 kfr 檔案或它已損壞。</qt>"
 
 #: kfilereplacelib.cpp:158 kfilereplacelib.cpp:171 kfilereplacelib.cpp:177
 msgid "Cannot read data."
@@ -78,20 +76,21 @@ msgstr "搜尋完畢。"
 
 #: kfilereplacepart.cpp:164
 msgid ""
-"<qt>You have selected <b>%1</b> as the encoding of the files.<br>Selecting "
-"the correct encoding is very important as if you have files that have some "
-"other encoding than the selected one, after a replace you may damage those "
-"files.<br><br>In case you do not know the encoding of your files, select "
-"<i>utf8</i> and <b>enable</b> the creation of backup files. This setting "
-"will autodetect <i>utf8</i> and <i>utf16</i> files, but the changed files "
-"will be converted to <i>utf8</i>.</qt>"
+"<qt>You have selected <b>%1</b> as the encoding of the files."
+"<br>Selecting the correct encoding is very important as if you have files that "
+"have some other encoding than the selected one, after a replace you may damage "
+"those files."
+"<br>"
+"<br>In case you do not know the encoding of your files, select <i>utf8</i> "
+"and <b>enable</b> the creation of backup files. This setting will autodetect <i>"
+"utf8</i> and <i>utf16</i> files, but the changed files will be converted to <i>"
+"utf8</i>.</qt>"
 msgstr ""
-"<qt>您已經選擇了 <b>%1</b> 作為檔案的編碼。<br>選擇正確的編碼"
-"是非常重要的。如果檔案的編碼與選擇的不相符，那麼進行內容取代之後很有可能會"
-"導致檔案損壞。<br><br>"
-"若您不清楚檔案的編碼，請選擇 <i>utf8</i> 並<b>啟用</b>建立副本的功能。"
-"這個設定會自動偵測 <i>utf8</i> 及 <i>utf16</i> 的檔案，"
-"但是有更動的檔案會被轉換成 <i>utf8</i>。</qt>"
+"<qt>您已經選擇了 <b>%1</b> 作為檔案的編碼。"
+"<br>選擇正確的編碼是非常重要的。如果檔案的編碼與選擇的不相符，那麼進行內容取代之後很有可能會導致檔案損壞。"
+"<br>"
+"<br>若您不清楚檔案的編碼，請選擇 <i>utf8</i> 並<b>啟用</b>建立副本的功能。這個設定會自動偵測 <i>utf8</i> 及 <i>"
+"utf16</i> 的檔案，但是有更動的檔案會被轉換成 <i>utf8</i>。</qt>"
 
 #: kfilereplacepart.cpp:164
 msgid "File Encoding Warning"
@@ -305,73 +304,71 @@ msgstr "K&FileReplace 手冊"
 msgid "&Report Bug"
 msgstr "報告錯誤(&R)"
 
-#: kfilereplacepart.cpp:1018 kfilereplacepart.cpp:1106
-#: kfilereplacepart.cpp:1328
+#: kfilereplacepart.cpp:1025 kfilereplacepart.cpp:1113
+#: kfilereplacepart.cpp:1335
 msgid "<qt>Cannot open file <b>%1</b> for reading.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 來讀取內容。</qt>"
 
-#: kfilereplacepart.cpp:1057 kfilereplacepart.cpp:1135
+#: kfilereplacepart.cpp:1064 kfilereplacepart.cpp:1142
 msgid "<qt>Cannot open file <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 來寫入內容。</qt>"
 
-#: kfilereplacepart.cpp:1192
+#: kfilereplacepart.cpp:1199
 msgid ""
-"<qt>Do you want to replace the string <b>%1</b> with the string "
-"<b>%2</b>?</qt>"
-msgstr ""
-"<qt>您要把字串 <b>%1</b> 取代為 <b>%2</b> 嗎?</qt>"
+"<qt>Do you want to replace the string <b>%1</b> with the string <b>%2</b>?</qt>"
+msgstr "<qt>您要把字串 <b>%1</b> 取代為 <b>%2</b> 嗎?</qt>"
 
-#: kfilereplacepart.cpp:1193
+#: kfilereplacepart.cpp:1200
 msgid "Confirm Replace"
 msgstr "取代確認"
 
-#: kfilereplacepart.cpp:1195
+#: kfilereplacepart.cpp:1202
 msgid "Do Not Replace"
 msgstr "不要取代"
 
-#: kfilereplacepart.cpp:1399 kfilereplacepart.cpp:1439
+#: kfilereplacepart.cpp:1406 kfilereplacepart.cpp:1446
 msgid " Line:%2, Col:%3 - \"%1\""
 msgstr " 第%2行第%3字 - \"%1\""
 
-#: kfilereplacepart.cpp:1505
+#: kfilereplacepart.cpp:1512
 msgid "<qt>Cannot open the file <b>%1</b> and load the string list.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 並載入字串列表。</qt>"
 
-#: kfilereplacepart.cpp:1513
+#: kfilereplacepart.cpp:1520
 msgid ""
-"<qt>File <b>%1</b> seems not to be written in new kfr format. Remember that "
-"the old kfr format will be soon abandoned. You can convert your old rules "
-"files by simply saving them with kfilereplace.</qt>"
+"<qt>File <b>%1</b> seems not to be written in new kfr format. Remember that the "
+"old kfr format will be soon abandoned. You can convert your old rules files by "
+"simply saving them with kfilereplace.</qt>"
 msgstr ""
-"<qt>檔案 <b>%1</b> 似乎不是以新的 kfr 格式寫成。請注意舊 kfr 格式"
-"很快就會被廢棄。只要在 KFileReplace 內將舊檔案儲存一次就可以轉換成新格式。</qt>"
+"<qt>檔案 <b>%1</b> 似乎不是以新的 kfr 格式寫成。請注意舊 kfr 格式很快就會被廢棄。只要在 KFileReplace "
+"內將舊檔案儲存一次就可以轉換成新格式。</qt>"
 
-#: kfilereplacepart.cpp:1533
+#: kfilereplacepart.cpp:1540
 msgid ""
-"<qt>The format of kfr files has been changed; attempting to load <b>%1</b>. "
-"Please see the KFilereplace manual for details. Do you want to load a "
+"<qt>The format of kfr files has been changed; attempting to load <b>%1</b>"
+". Please see the KFilereplace manual for details. Do you want to load a "
 "search-and-replace list of strings?</qt>"
 msgstr ""
-"<qt>kfr 檔案的格式已經改變；正在嘗試載入 <b>%1</b>。"
-"請參閱 KFilereplace 手冊取得更多資訊。您要載入一個搜尋/取代字串的列表嗎?</qt>"
+"<qt>kfr 檔案的格式已經改變；正在嘗試載入 <b>%1</b>。請參閱 KFilereplace "
+"手冊取得更多資訊。您要載入一個搜尋/取代字串的列表嗎?</qt>"
 
-#: kfilereplacepart.cpp:1533
+#: kfilereplacepart.cpp:1540
 msgid "Load"
 msgstr "載入"
 
-#: kfilereplacepart.cpp:1533
+#: kfilereplacepart.cpp:1540
 msgid "Do Not Load"
 msgstr "不要載入"
 
-#: kfilereplacepart.cpp:1622
+#: kfilereplacepart.cpp:1629
 msgid "There are no strings to search and replace."
 msgstr "沒有字串可以進行搜尋及取代。"
 
-#: kfilereplacepart.cpp:1635
+#: kfilereplacepart.cpp:1642
 msgid "<qt>The main folder of the project <b>%1</b> does not exist.</qt>"
 msgstr "<qt>專案的主目錄 <b>%1</b> 並不存在。</qt>"
 
-#: kfilereplacepart.cpp:1643
+#: kfilereplacepart.cpp:1650
 msgid "<qt>Access denied in the main folder of the project:<br><b>%1</b></qt>"
 msgstr "<qt>專案的主目錄存取被拒：<br><b>%1</b></qt>"
 
@@ -379,8 +376,7 @@ msgstr "<qt>專案的主目錄存取被拒：<br><b>%1</b></qt>"
 msgid ""
 "<qt>Cannot invert string <b>%1</b>, because the search string would be "
 "empty.</qt>"
-msgstr ""
-"<qt>無法倒轉字串 <b>%1</b> 狀態的位置，因為這樣做的話搜尋字串會變成空白。</qt>"
+msgstr "<qt>無法倒轉字串 <b>%1</b> 狀態的位置，因為這樣做的話搜尋字串會變成空白。</qt>"
 
 #: kfilereplaceview.cpp:259
 msgid "File %1 cannot be opened. Might be a DCOP problem."
