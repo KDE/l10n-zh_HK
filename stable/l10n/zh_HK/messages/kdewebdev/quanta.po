@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
-"POT-Creation-Date: 2006-03-05 03:52+0100\n"
+"POT-Creation-Date: 2006-03-06 03:59+0100\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4488,8 +4488,8 @@ msgid "Password:"
 msgstr "密碼："
 
 #. i18n: file ./project/projectnewgenerals.ui line 343
-#: project/projectnewgeneral.cpp:62 project/projectnewgeneral.cpp:123
-#: project/projectnewgeneral.cpp:185 project/projectprivate.cpp:731
+#: project/projectnewgeneral.cpp:63 project/projectnewgeneral.cpp:124
+#: project/projectnewgeneral.cpp:195 project/projectprivate.cpp:739
 #: rc.cpp:2984
 #, no-c-format
 msgid "Local"
@@ -9597,7 +9597,7 @@ msgstr "<qt>您要把<br><b>%1</b><br>檔案加入到專案中嗎？</qt>"
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: src/quanta.cpp:563
+#: project/projectnewgeneral.cpp:170 src/quanta.cpp:563
 #, c-format
 msgid ""
 "You must save the templates in the following folder: \n"
@@ -9727,7 +9727,7 @@ msgstr "儲存工具列"
 msgid "Please select a toolbar:"
 msgstr "請選擇一個工具列："
 
-#: src/quanta.cpp:2513
+#: project/projectnewgeneral.cpp:185 src/quanta.cpp:2513
 msgid ""
 "<qt>You must save the toolbars to the following folder: "
 "<br>"
@@ -10700,7 +10700,7 @@ msgid "<qt>File<br><b>%1</b><br>already exists. Overwrite it?</qt>"
 msgstr "<qt>檔案<br><b>%1</b><br>已存在。要覆寫嗎？</qt>"
 
 #: ../lib/compatibility/knewstuff/knewstuffgeneric.cpp:135
-#: messages/messageoutput.cpp:162 project/projectprivate.cpp:912
+#: messages/messageoutput.cpp:162 project/projectprivate.cpp:920
 #: treeviews/basetreeview.cpp:1004 treeviews/templatestreeview.cpp:470
 #: utility/quantacommon.cpp:683
 msgid "Overwrite"
@@ -11543,13 +11543,13 @@ msgstr ""
 "變數 %1 的內容:\n"
 ">>>\n"
 
-#: components/debugger/debuggermanager.cpp:111 project/projectprivate.cpp:1524
+#: components/debugger/debuggermanager.cpp:111 project/projectprivate.cpp:1532
 msgid ""
 "<qt>Unable to load the debugger plugin, error code %1 was returned: <b>%2</b>"
 ".</qt>"
 msgstr "<qt>無法載入除錯誤外掛程式，傳回錯誤碼 %1 : <b>%2</b>。</qt>"
 
-#: components/debugger/debuggermanager.cpp:111 project/projectprivate.cpp:1524
+#: components/debugger/debuggermanager.cpp:111 project/projectprivate.cpp:1532
 msgid "Debugger Error"
 msgstr "除錯器錯誤"
 
@@ -13294,7 +13294,7 @@ msgid ""
 "loss)?"
 msgstr "專案儲存失敗。您仍然要退出嗎？(可能會導致資料遺失)"
 
-#: project/project.cpp:1245 project/projectprivate.cpp:1209
+#: project/project.cpp:1245 project/projectprivate.cpp:1217
 msgid "Project Saving Error"
 msgstr "專案儲存錯誤"
 
@@ -13516,43 +13516,43 @@ msgstr "正在讀取專案檔案..."
 msgid "Invalid project file."
 msgstr "無效的專案檔案。"
 
-#: project/projectprivate.cpp:898
+#: project/projectprivate.cpp:906
 msgid "Save Project View As"
 msgstr "另存專案檢視"
 
-#: project/projectprivate.cpp:899
+#: project/projectprivate.cpp:907
 msgid "Enter the name of the view:"
 msgstr "請輸入這個檢視的名稱："
 
-#: project/projectprivate.cpp:911
+#: project/projectprivate.cpp:919
 msgid ""
 "<qt>A project view named <b>%1</b> already exists."
 "<br>Do you want to overwrite it?</qt>"
 msgstr "<qt>名為 <b>%1</b> 的專案檢視已經存在。<br>您要覆寫它嗎？</qt>"
 
-#: project/projectprivate.cpp:1051
+#: project/projectprivate.cpp:1059
 msgid "<qt>Cannot open file <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 作寫入.</qt>"
 
-#: project/projectprivate.cpp:1116
+#: project/projectprivate.cpp:1124
 msgid "New Project Wizard"
 msgstr "新增專案精靈"
 
-#: project/projectprivate.cpp:1130
+#: project/projectprivate.cpp:1138
 msgid "<b>General Project Settings</b>"
 msgstr "<b>一般專案設定...</b>"
 
-#: project/projectprivate.cpp:1132
+#: project/projectprivate.cpp:1140
 msgid "<b>More Project Settings</b>"
 msgstr "<b>更多的專案設定...</b>"
 
-#: project/projectprivate.cpp:1209
+#: project/projectprivate.cpp:1217
 msgid ""
 "Saving of project failed. Do you want to continue with closing (might cause "
 "data loss)?"
 msgstr "專案儲存失敗。您仍然要關閉它嗎？(這可能會導致資料遺失的)"
 
-#: project/projectprivate.cpp:1233
+#: project/projectprivate.cpp:1241
 msgid ""
 "|Project Files\n"
 "*|All Files"
@@ -13560,28 +13560,28 @@ msgstr ""
 "|專案檔案\n"
 "*|所有檔案"
 
-#: project/projectprivate.cpp:1234
+#: project/projectprivate.cpp:1242
 msgid "Open Project"
 msgstr "開啟專案"
 
-#: project/projectprivate.cpp:1278
+#: project/projectprivate.cpp:1286
 #, c-format
 msgid "Wrote project file %1"
 msgstr "已寫入專案 %1"
 
-#: project/projectprivate.cpp:1282
+#: project/projectprivate.cpp:1290
 msgid "<qt>Cannot open the file <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 作寫入。</qt>"
 
-#: project/projectprivate.cpp:1333
+#: project/projectprivate.cpp:1341
 msgid "<qt>Cannot open the file <b>%1</b> for reading.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b> 作讀取。</qt>"
 
-#: project/projectprivate.cpp:1345
+#: project/projectprivate.cpp:1353
 msgid "<qt>Malformed URL: <b>%1</b></qt>"
 msgstr "<qt>錯誤的 URL：<b>%1</b></qt>"
 
-#: project/projectprivate.cpp:1351
+#: project/projectprivate.cpp:1359
 msgid ""
 "<qt>The project"
 "<br><b>%1</b>"
@@ -13598,27 +13598,27 @@ msgstr ""
 "<br>"
 "<br>您仍然要開啟它嗎?</qt>"
 
-#: project/projectprivate.cpp:1410
+#: project/projectprivate.cpp:1418
 msgid "<qt>Cannot access the project file <b>%1</b>.</qt>"
 msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 
-#: project/projectnewlocal.cpp:185 project/projectprivate.cpp:1419
+#: project/projectnewlocal.cpp:185 project/projectprivate.cpp:1427
 msgid "*"
 msgstr "*"
 
-#: project/projectnewlocal.cpp:185 project/projectprivate.cpp:1419
+#: project/projectnewlocal.cpp:185 project/projectprivate.cpp:1427
 msgid "Insert Files in Project"
 msgstr "插入檔案至專案中"
 
-#: project/projectnewlocal.cpp:196 project/projectprivate.cpp:1429
+#: project/projectnewlocal.cpp:196 project/projectprivate.cpp:1437
 msgid "Files: Copy to Project"
 msgstr "檔案: 複製到專案"
 
-#: project/projectnewlocal.cpp:244 project/projectprivate.cpp:1478
+#: project/projectnewlocal.cpp:244 project/projectprivate.cpp:1486
 msgid "Insert Folder in Project"
 msgstr "插入目錄至專案中"
 
-#: project/projectprivate.cpp:1629
+#: project/projectprivate.cpp:1637
 #, c-format
 msgid "Uploaded project file %1"
 msgstr "已上傳專案檔案 %1"
@@ -13687,15 +13687,15 @@ msgstr ""
 msgid "Insert files from %1."
 msgstr "從 %1 插入檔案。"
 
-#: project/projectnewgeneral.cpp:91
+#: project/projectnewgeneral.cpp:92
 msgid "Select Project Folder"
 msgstr "選擇專案目錄"
 
-#: project/projectnewgeneral.cpp:162 project/projectoptions.ui.h:28
+#: project/projectnewgeneral.cpp:163 project/projectoptions.ui.h:28
 msgid "Select Project Template Folder"
 msgstr "選擇專案範本目錄"
 
-#: project/projectnewgeneral.cpp:173 project/projectoptions.ui.h:40
+#: project/projectnewgeneral.cpp:178 project/projectoptions.ui.h:40
 msgid "Select Project Toolbar & Actions Folder"
 msgstr "選擇專案工具列 & 動作目錄"
 
