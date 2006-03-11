@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2006-03-08 03:58+0100\n"
+"POT-Creation-Date: 2006-03-11 03:56+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -190,7 +190,7 @@ msgstr "解封聯絡人(&B)"
 
 #: libkopete/knotification.cpp:120 libkopete/knotification.cpp:141
 #: protocols/jabber/jabberaccount.cpp:1094
-#: protocols/jabber/jabbercontact.cpp:935
+#: protocols/jabber/jabbercontact.cpp:934
 msgid "Notification"
 msgstr "通知"
 
@@ -271,7 +271,8 @@ msgid "<unknown>"
 msgstr "<未知>"
 
 #: libkopete/kopetetransfermanager.cpp:237 protocols/gadu/gaducontact.cpp:96
-#: protocols/irc/ircusercontact.cpp:136 protocols/jabber/jabbercontact.cpp:980
+#: protocols/irc/ircusercontact.cpp:136
+#: protocols/jabber/jabbercontact.cpp:1018
 #: protocols/jabber/jabbergroupcontact.cpp:252
 #: protocols/jabber/jabbergroupmembercontact.cpp:150
 #: protocols/msn/msncontact.cpp:586 protocols/yahoo/yahoocontact.cpp:306
@@ -10593,7 +10594,7 @@ msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
 #: plugins/history/converter.cpp:40 protocols/jabber/jabberaccount.cpp:1094
-#: protocols/jabber/jabbercontact.cpp:936
+#: protocols/jabber/jabbercontact.cpp:935
 msgid "Keep"
 msgstr "保留"
 
@@ -11721,7 +11722,7 @@ msgstr "遠端用戶端"
 msgid "Contact GUID"
 msgstr "聯絡人 GUID"
 
-#: protocols/msn/msnswitchboardsocket.cpp:116
+#: protocols/msn/msnswitchboardsocket.cpp:117
 msgid ""
 "Invalid user:\n"
 "this MSN user does not exist; please check the MSN ID."
@@ -11729,15 +11730,15 @@ msgstr ""
 "無效的用戶：\n"
 "沒有這個 MSN 用戶；請檢查 MSN ID 。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:120
+#: protocols/msn/msnswitchboardsocket.cpp:121
 msgid "user never joined"
 msgstr "用戶從未加入"
 
-#: protocols/msn/msnswitchboardsocket.cpp:125
+#: protocols/msn/msnswitchboardsocket.cpp:126
 msgid "The user %1 is already in this chat."
 msgstr "用戶 %1 已在聊天中。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:133
+#: protocols/msn/msnswitchboardsocket.cpp:134
 msgid ""
 "The user %1 is online but has blocked you:\n"
 "you can not talk to this user."
@@ -11745,12 +11746,12 @@ msgstr ""
 "用戶 %1 已上線，但將你封鎖了：\n"
 "你不能和他談話。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:136
-#: protocols/msn/msnswitchboardsocket.cpp:153
+#: protocols/msn/msnswitchboardsocket.cpp:137
+#: protocols/msn/msnswitchboardsocket.cpp:154
 msgid "user blocked you"
 msgstr "用戶將你封鎖了"
 
-#: protocols/msn/msnswitchboardsocket.cpp:142
+#: protocols/msn/msnswitchboardsocket.cpp:143
 msgid ""
 "The user %1 is currently not signed in.\n"
 "Messages will not be delivered."
@@ -11758,34 +11759,34 @@ msgstr ""
 "用戶 %1 未簽入。\n"
 "訊息不會遞送。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:145
+#: protocols/msn/msnswitchboardsocket.cpp:146
 msgid "user disconnected"
 msgstr "用戶已斷線"
 
-#: protocols/msn/msnswitchboardsocket.cpp:150
+#: protocols/msn/msnswitchboardsocket.cpp:151
 msgid ""
 "You are trying to invite too many contacts to this chat at the same time"
 msgstr "你正要在同一時間邀請太多聯絡人到此聊天"
 
-#: protocols/msn/msnswitchboardsocket.cpp:202
+#: protocols/msn/msnswitchboardsocket.cpp:203
 msgid "timeout"
 msgstr "逾時"
 
-#: protocols/msn/msnswitchboardsocket.cpp:754
+#: protocols/msn/msnswitchboardsocket.cpp:755
 msgid ""
 "The message you are trying to send is too long; it will be split into %1 "
 "messages."
 msgstr "你要傳送的訊息太長；它會被分成 %1 份訊息。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:755
+#: protocols/msn/msnswitchboardsocket.cpp:756
 msgid "Message too big - MSN Plugin"
 msgstr "訊息太大 - MSN 插件"
 
-#: protocols/msn/msnswitchboardsocket.cpp:816
+#: protocols/msn/msnswitchboardsocket.cpp:817
 msgid "connection closed"
 msgstr "連線已關閉"
 
-#: protocols/msn/msnswitchboardsocket.cpp:888
+#: protocols/msn/msnswitchboardsocket.cpp:896
 msgid "<img src=\"%1\" alt=\"Typewrited message\" />"
 msgstr "<img src=\"%1\" alt=\"鍵入的訊息\" />"
 
@@ -11873,23 +11874,23 @@ msgid ""
 "mode'."
 msgstr "你正要進行在『兒童模式』不容許的操作。"
 
-#: protocols/msn/msnnotifysocket.cpp:734
+#: protocols/msn/msnnotifysocket.cpp:744
 #, c-format
 msgid ""
 "_n: You have one unread message in your MSN inbox.\n"
 "You have %n unread messages in your MSN inbox."
 msgstr "你的 MSN 收件匣有 %n 個未讀訊息。"
 
-#: protocols/msn/msnnotifysocket.cpp:734 protocols/msn/msnnotifysocket.cpp:756
+#: protocols/msn/msnnotifysocket.cpp:744 protocols/msn/msnnotifysocket.cpp:766
 #: protocols/yahoo/yahooaccount.cpp:925 protocols/yahoo/yahooaccount.cpp:932
 msgid "Open Inbox..."
 msgstr "開啟收件匣..."
 
-#: protocols/msn/msnnotifysocket.cpp:755
+#: protocols/msn/msnnotifysocket.cpp:765
 msgid "You have one new email from %1 in your MSN inbox."
 msgstr "你的 MSN 收件匣有一個來自 %1 的新電子郵件。"
 
-#: protocols/msn/msnnotifysocket.cpp:903
+#: protocols/msn/msnnotifysocket.cpp:913
 msgid "Now Listening: ♫ %1 ♫"
 msgstr "正在聆聽: ♫ %1 ♫"
 
@@ -14382,24 +14383,24 @@ msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:811
+#: protocols/jabber/jabbercontact.cpp:810
 #, c-format
 msgid "Unable to store vCard for %1"
 msgstr "無法儲存 %1 的 vCard"
 
-#: protocols/jabber/jabbercontact.cpp:934
+#: protocols/jabber/jabbercontact.cpp:933
 msgid ""
 "Do you also want to remove the authorization from user %1 to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:1068
+#: protocols/jabber/jabbercontact.cpp:1106
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
 "windows for this contact. The preselected resource will only apply to newly "
 "opened chat windows."
 msgstr "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1072
+#: protocols/jabber/jabbercontact.cpp:1110
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
