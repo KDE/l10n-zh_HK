@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2006-03-11 03:56+0100\n"
+"POT-Creation-Date: 2006-03-12 03:49+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -12044,11 +12044,16 @@ msgstr ""
 msgid "%1 has started a chat with you"
 msgstr "%1 開始和你聊天"
 
-#: protocols/msn/msnchatsession.cpp:642
-msgid "You have received a nudge."
-msgstr "你收到提示。"
+#: protocols/msn/msnchatsession.cpp:636
+msgid "has sent a nudge"
+msgstr ""
 
-#: protocols/msn/msnchatsession.cpp:702
+#: protocols/msn/msnchatsession.cpp:649
+#, fuzzy
+msgid "has sent you a nudge"
+msgstr "有聯絡人發嗶聲/提示給你。"
+
+#: protocols/msn/msnchatsession.cpp:709
 msgid ""
 "The following message has not been sent correctly  (%1): \n"
 "%2"
@@ -12056,11 +12061,11 @@ msgstr ""
 "以下訊息並未正確地傳送 (%1):\n"
 "%2"
 
-#: protocols/msn/msnchatsession.cpp:709
+#: protocols/msn/msnchatsession.cpp:716
 msgid "These messages have not been sent correctly (%1): <br /><ul>"
 msgstr "以下訊息並未正確地傳送 (%1): <br /><ul>"
 
-#: protocols/msn/msnchatsession.cpp:744
+#: protocols/msn/msnchatsession.cpp:751
 msgid "Impossible to establish the connection"
 msgstr "不可能建立連線"
 
@@ -15393,6 +15398,9 @@ msgstr "此對話以 SSL 安全機制保密。"
 #: protocols/groupwise/gwmessagemanager.cpp:513
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
+
+#~ msgid "You have received a nudge."
+#~ msgstr "你收到提示。"
 
 #, fuzzy
 #~ msgid "connection status is managed by Kopete"
