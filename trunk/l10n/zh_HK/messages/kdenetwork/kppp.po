@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kppp 1.114\n"
-"POT-Creation-Date: 2005-07-24 01:36+0200\n"
+"POT-Creation-Date: 2006-01-17 03:17+0100\n"
 "PO-Revision-Date: 2006-01-08 17:13+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -550,11 +550,11 @@ msgstr "正在執行啟動指令..."
 msgid "Done"
 msgstr "完成"
 
-#: connect.cpp:1279 edit.cpp:157 general.cpp:262 modem.cpp:181
+#: connect.cpp:1279 edit.cpp:157 general.cpp:262 modem.cpp:187
 msgid "None"
 msgstr "無"
 
-#: connect.cpp:1281 general.cpp:260 modem.cpp:182 pppdata.cpp:546
+#: connect.cpp:1281 general.cpp:260 modem.cpp:188 pppdata.cpp:546
 msgid "Hardware [CRTSCTS]"
 msgstr "硬件 [CRTSCTS]"
 
@@ -1143,7 +1143,7 @@ msgstr "pppd 版本:"
 msgid "pppd &timeout:"
 msgstr "pppd 逾時(&T):"
 
-#: general.cpp:68 general.cpp:380 general.cpp:466
+#: general.cpp:68 general.cpp:384 general.cpp:470
 msgid " sec"
 msgstr " 秒"
 
@@ -1350,7 +1350,7 @@ msgstr ""
 msgid "Co&nnection speed:"
 msgstr "連線速度(&N):"
 
-#: general.cpp:339
+#: general.cpp:343
 msgid ""
 "Specifies the speed your modem and the serial\n"
 "port talk to each other. You should begin with\n"
@@ -1365,11 +1365,11 @@ msgstr ""
 "大一些的數字）。如果連線有問題，\n"
 "試著調低這個值。"
 
-#: general.cpp:357
+#: general.cpp:361
 msgid "&Use lock file"
 msgstr "使用鎖定檔案(&U)"
 
-#: general.cpp:365
+#: general.cpp:369
 msgid ""
 "<p>To prevent other programs from accessing the\n"
 "modem while a connection is established, a\n"
@@ -1391,11 +1391,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 開啟"
 
-#: general.cpp:378
+#: general.cpp:382
 msgid "Modem &timeout:"
 msgstr "數據機逾時(&T):"
 
-#: general.cpp:386
+#: general.cpp:390
 msgid ""
 "This specifies how long <i>kppp</i> waits for a\n"
 "<i>CONNECT</i> response from your modem. The\n"
@@ -1405,11 +1405,11 @@ msgstr ""
 "等候數據機做出 <i>CONNECT</i> 回應。\n"
 "建議值為 30 秒。"
 
-#: general.cpp:450
+#: general.cpp:454
 msgid "&Wait for dial tone before dialing"
 msgstr "撥號前先等待撥號音(&W)"
 
-#: general.cpp:455
+#: general.cpp:459
 msgid ""
 "<p>Normally the modem waits for a dial tone\n"
 "from your phone line, indicating that it can\n"
@@ -1426,11 +1426,11 @@ msgstr ""
 "\n"
 "<b>預設：</b>： 開啟"
 
-#: general.cpp:464
+#: general.cpp:468
 msgid "B&usy wait:"
 msgstr "忙線等候(&U):"
 
-#: general.cpp:471
+#: general.cpp:475
 msgid ""
 "Specifies the number of seconds to wait before\n"
 "redial if all dialed numbers are busy. This is\n"
@@ -1448,11 +1448,11 @@ msgstr ""
 "預設值為 0 秒鐘，但除非您有需要\n"
 "否則請勿變更。"
 
-#: general.cpp:484
+#: general.cpp:488
 msgid "Modem &volume:"
 msgstr "數據機音量(&V):"
 
-#: general.cpp:495
+#: general.cpp:499
 msgid ""
 "Most modems have a speaker which makes\n"
 "a lot of noise when dialing. Here you can\n"
@@ -1469,11 +1469,11 @@ msgstr ""
 "如果此選項對數據機並無作用，\n"
 "您即必須修改數據機音量指令。"
 
-#: general.cpp:509
+#: general.cpp:513
 msgid "Modem asserts CD line"
 msgstr "數據機佔用 CD 線路"
 
-#: general.cpp:517
+#: general.cpp:521
 msgid ""
 "This controls how <i>kppp</i> detects that the modem\n"
 "is not responding. Unless you are having\n"
@@ -1487,11 +1487,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 關閉"
 
-#: general.cpp:524
+#: general.cpp:528
 msgid "Mod&em Commands..."
 msgstr "數據機指令(&E)..."
 
-#: general.cpp:526
+#: general.cpp:530
 msgid ""
 "Allows you to change the AT command for\n"
 "your modem."
@@ -1499,11 +1499,11 @@ msgstr ""
 "可用來變更數據機的\n"
 "AT 指令。"
 
-#: general.cpp:529
+#: general.cpp:533
 msgid "&Query Modem..."
 msgstr "查詢數據機(&Q)..."
 
-#: general.cpp:531
+#: general.cpp:535
 msgid ""
 "Most modems support the ATI command set to\n"
 "find out vendor and revision of your modem.\n"
@@ -1519,11 +1519,11 @@ msgstr ""
 "資訊。此類資訊對設定數據機\n"
 "很有幫助"
 
-#: general.cpp:538
+#: general.cpp:542
 msgid "&Terminal..."
 msgstr "終端機(&T)..."
 
-#: general.cpp:540
+#: general.cpp:544
 msgid ""
 "Opens the built-in terminal program. You\n"
 "can use this if you want to play around\n"
@@ -1533,27 +1533,27 @@ msgstr ""
 "可以使用這個選項來操控數\n"
 "據機的 AT 指令集"
 
-#: general.cpp:615
+#: general.cpp:619
 msgid "&Enable throughput graph"
 msgstr "啟用流量圖(&E)"
 
-#: general.cpp:619
+#: general.cpp:623
 msgid "Graph Colors"
 msgstr "圖表顏色"
 
-#: general.cpp:624
+#: general.cpp:628
 msgid "Bac&kground:"
 msgstr "背景(&K):"
 
-#: general.cpp:629
+#: general.cpp:633
 msgid "&Text:"
 msgstr "文字(&T):"
 
-#: general.cpp:634
+#: general.cpp:638
 msgid "I&nput bytes:"
 msgstr "輸入位元組(&N):"
 
-#: general.cpp:639
+#: general.cpp:643
 msgid "O&utput bytes:"
 msgstr "輸出位元組(&U):"
 
@@ -1974,37 +1974,37 @@ msgstr "正在掛斷..."
 msgid "Resetting Modem"
 msgstr "正在重設數據機"
 
-#: modem.cpp:125
+#: modem.cpp:131
 msgid "Unable to open modem."
 msgstr "無法開啟數據機。"
 
-#: modem.cpp:132
+#: modem.cpp:138
 msgid "Unable to detect state of CD line."
 msgstr "無法偵測 CD 線路的狀態。"
 
-#: modem.cpp:138
+#: modem.cpp:144
 msgid "The modem is not ready."
 msgstr "數據機尚未就緒。"
 
-#: modem.cpp:154 modem.cpp:202
+#: modem.cpp:160 modem.cpp:208
 msgid "The modem is busy."
 msgstr "數據機正在忙錄。"
 
-#: modem.cpp:208
+#: modem.cpp:214
 msgid "Modem Ready."
 msgstr "數據機已就緒。"
 
-#: modem.cpp:220
+#: modem.cpp:226
 msgid ""
 "Can't restore tty settings: tcsetattr()\n"
 msgstr ""
 "無法恢復 tty 設定值： tcsetattr()\n"
 
-#: modem.cpp:372
+#: modem.cpp:381
 msgid "The modem does not respond."
 msgstr "數據機沒有回應。"
 
-#: modem.cpp:510
+#: modem.cpp:520
 msgid "Unknown speed"
 msgstr "無法辨識的速度"
 

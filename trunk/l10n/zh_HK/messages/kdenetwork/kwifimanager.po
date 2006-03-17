@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwifimanager\n"
-"POT-Creation-Date: 2005-12-09 03:10+0100\n"
+"POT-Creation-Date: 2006-02-20 03:49+0100\n"
 "PO-Revision-Date: 2006-01-08 17:12+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -28,46 +28,46 @@ msgstr "wwycheuk@netvigator.com"
 msgid "UNKNOWN"
 msgstr "未知"
 
-#: interface_wireless_wirelessextensions.cpp:535
-msgid "Ad-Hoc"
-msgstr "臨時（Ad-Hoc）"
-
-#: interface_wireless_wirelessextensions.cpp:536
-msgid "Managed"
-msgstr "受控"
-
-#: interface_wireless_wirelessextensions.cpp:537
-msgid "Unknown"
-msgstr "未知"
-
-#: interface_wireless_wirelessextensions.cpp:549 networkscanning.cpp:52
-#: networkscanning.cpp:87 status.cpp:252
-msgid "off"
-msgstr "關閉"
-
-#: interface_wireless_wirelessextensions.cpp:551
-msgid "on"
-msgstr "開啟"
-
-#: interface_wireless_wirelessextensions.cpp:567
+#: interface_wireless_wirelessextensions.cpp:521
 msgid "Network Name"
 msgstr "網絡名稱"
 
-#: interface_wireless_wirelessextensions.cpp:568
+#: interface_wireless_wirelessextensions.cpp:522
 msgid "Mode"
 msgstr "模式"
 
-#: interface_wireless_wirelessextensions.cpp:569
+#: interface_wireless_wirelessextensions.cpp:523
 msgid "Quality"
 msgstr "質素"
 
-#: interface_wireless_wirelessextensions.cpp:570
+#: interface_wireless_wirelessextensions.cpp:524
 msgid "WEP"
 msgstr "WEP"
 
-#: interface_wireless_wirelessextensions.cpp:707
-msgid "(hidden cell)"
-msgstr "(隱藏格)"
+#: interface_wireless_wirelessextensions.cpp:532
+msgid ""
+"Unable to perform the scan. Please make sure the executable \"iwlist\" is in "
+"your $PATH."
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:533
+#: interface_wireless_wirelessextensions.cpp:555
+msgid "Scanning not possible"
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:554
+msgid ""
+"Your card does not support scanning. The results window will not contain any "
+"results."
+msgstr ""
+
+#: interface_wireless_wirelessextensions.cpp:572 networkscanning.cpp:129
+msgid "Managed"
+msgstr "受控"
+
+#: interface_wireless_wirelessextensions.cpp:574
+msgid "Ad-Hoc"
+msgstr "臨時（Ad-Hoc）"
 
 #: kwifimanager.cpp:125
 msgid "No Interface"
@@ -82,59 +82,59 @@ msgstr "界面 %1"
 msgid "N/A"
 msgstr "不適用"
 
-#: kwifimanager.cpp:314
+#: kwifimanager.cpp:307
 msgid "&Disable Radio"
 msgstr "停用無線電(&D)"
 
-#: kwifimanager.cpp:319
+#: kwifimanager.cpp:312
 msgid "&Use Alternate Strength Calculation"
 msgstr "使用替代的強度計算(&U)"
 
-#: kwifimanager.cpp:326
+#: kwifimanager.cpp:319
 msgid "Show &Noise Graph in Statistics Window"
 msgstr "在統計資料視窗顯示噪聲圖表(&N)"
 
-#: kwifimanager.cpp:332
+#: kwifimanager.cpp:325
 msgid "&Show Strength Number in System Tray"
 msgstr "在系統匣顯示強度數字(&S)"
 
-#: kwifimanager.cpp:339
+#: kwifimanager.cpp:332
 msgid "Configuration &Editor..."
 msgstr "設定編輯器(&E)..."
 
-#: kwifimanager.cpp:341
+#: kwifimanager.cpp:334
 msgid "Connection &Statistics"
 msgstr "連線統計資料(&S)"
 
-#: kwifimanager.cpp:343
+#: kwifimanager.cpp:336
 msgid "&Acoustic Scanning"
 msgstr "效果掃描(&A)"
 
-#: kwifimanager.cpp:350
+#: kwifimanager.cpp:343
 msgid "Stay in System &Tray on Close"
 msgstr "關閉時留在系統匣(&T)"
 
-#: kwifimanager.cpp:377 kwifimanager.cpp:425
+#: kwifimanager.cpp:370 kwifimanager.cpp:419
 msgid "Scan for &Networks..."
 msgstr "找尋網絡(&N)..."
 
-#: kwifimanager.cpp:379
+#: kwifimanager.cpp:372
 msgid "The current signal strength"
 msgstr "目前的訊號強度"
 
-#: kwifimanager.cpp:380
+#: kwifimanager.cpp:373
 msgid "The speed at which the wireless LAN card is operating"
 msgstr "無線網絡卡正在運作的速度"
 
-#: kwifimanager.cpp:381
+#: kwifimanager.cpp:374
 msgid "Detailed connection status"
 msgstr "詳細連線狀態"
 
-#: kwifimanager.cpp:382
+#: kwifimanager.cpp:375
 msgid "Performs a scan to discover the networks you can log into"
 msgstr "進行掃描以發現您可登入的網絡"
 
-#: kwifimanager.cpp:422
+#: kwifimanager.cpp:416
 msgid "Scan in progress..."
 msgstr "正在進行掃描..."
 
@@ -158,6 +158,10 @@ msgstr "原作者和維謢者"
 msgid "Lots of Fixes and Optimizations, added Session Management"
 msgstr "大量修正和優化，新增工作階段管理"
 
+#: networkscanning.cpp:52 networkscanning.cpp:96 status.cpp:252
+msgid "off"
+msgstr "關閉"
+
 #: networkscanning.cpp:58
 msgid "Scan Results"
 msgstr "掃描結果"
@@ -166,19 +170,23 @@ msgstr "掃描結果"
 msgid "Switch to Network..."
 msgstr "切換至網絡..."
 
-#: networkscanning.cpp:79
+#: networkscanning.cpp:82
 msgid "The scan is complete, but no networks have been found."
 msgstr "掃描已完成，但沒有找到網絡。"
 
-#: networkscanning.cpp:79
+#: networkscanning.cpp:82
 msgid "No Network Available"
 msgstr "沒有可用的網絡"
 
-#: networkscanning.cpp:102
+#: networkscanning.cpp:88
+msgid "(hidden cell)"
+msgstr "(隱藏格)"
+
+#: networkscanning.cpp:111
 msgid "Aborting network switching due to invalid WEP key specification."
 msgstr "因為 WEP 鑰匙規格無效，正在中止網絡切換"
 
-#: networkscanning.cpp:102
+#: networkscanning.cpp:111
 msgid "Invalid WEP Key"
 msgstr "無效的 WEP 鑰匙"
 
@@ -285,3 +293,9 @@ msgstr "超出範圍"
 #: strength.cpp:160
 msgid "Signal strength: "
 msgstr "訊號強度: "
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "on"
+#~ msgstr "開啟"
