@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knetworkconf\n"
-"POT-Creation-Date: 2006-01-10 03:15+0100\n"
+"POT-Creation-Date: 2006-05-31 04:02+0200\n"
 "PO-Revision-Date: 2006-01-20 00:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -12,24 +12,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kadddnsserverdlg.ui.h:40
-msgid "You have to type an alias first."
-msgstr "你要先鍵入別名。"
-
-#: kadddnsserverdlg.ui.h:40
-msgid "Invalid Text"
-msgstr "無效的文字"
-
-#: kadddevicecontainer.cpp:129 kadddnsserverdlg.ui.h:51
+#: kadddevicecontainer.cpp:129 kadddnsserverdlg.ui.h:42
 #: kaddknownhostdlg.ui.h:25
 msgid "The format of the specified IP address is not valid."
 msgstr "指定的 IP 位址格式無效。"
 
 #: kadddevicecontainer.cpp:129 kadddevicecontainer.cpp:132
 #: kadddevicecontainer.cpp:135 kadddevicecontainer.cpp:138
-#: kadddnsserverdlg.ui.h:51 kaddknownhostdlg.ui.h:25 knetworkconf.cpp:589
+#: kadddnsserverdlg.ui.h:42 kaddknownhostdlg.ui.h:25 knetworkconf.cpp:589
 msgid "Invalid IP Address"
 msgstr "無效的 IP 位址"
+
+#: kadddnsserverdlg.ui.h:54
+msgid "You have to type an alias first."
+msgstr "你要先鍵入別名。"
+
+#: kadddnsserverdlg.ui.h:54
+msgid "Invalid Text"
+msgstr "無效的文字"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 "新的設定未儲存。\n"
 "要在離開前套用更改嗎？"
 
-#: knetworkconf.cpp:159
+#: knetworkconf.cpp:159 knetworkconf.cpp:830 knetworkconf.cpp:849
 msgid "New Configuration Not Saved"
 msgstr "新的設定未儲存"
 
@@ -140,33 +140,42 @@ msgstr "更改裝置狀態時發生錯誤。你要手動進行。"
 msgid "Could Not Change Device State"
 msgstr "無法更改裝置狀態"
 
+#: knetworkconf.cpp:829 knetworkconf.cpp:848
+#, fuzzy
+msgid ""
+"The new configuration has not been saved.\n"
+"Apply changes?"
+msgstr ""
+"新的設定未儲存。\n"
+"要在離開前套用更改嗎？"
+
 #. i18n: file kaddknownhostdlg.ui line 16
-#: knetworkconf.cpp:846 rc.cpp:204
+#: knetworkconf.cpp:866 rc.cpp:204
 #, no-c-format
 msgid "Add New Static Host"
 msgstr "加入新的靜態主機"
 
-#: knetworkconf.cpp:879
+#: knetworkconf.cpp:899
 msgid "Edit Static Host"
 msgstr "編輯靜態主機"
 
-#: knetworkconf.cpp:1014
+#: knetworkconf.cpp:1034
 msgid "Could not load the selected Network Profile."
 msgstr "無法載入選取的網絡資料檔。"
 
-#: knetworkconf.cpp:1015
+#: knetworkconf.cpp:1035
 msgid "Error Reading Profile"
 msgstr "讀取資料檔時發生錯誤"
 
-#: knetworkconf.cpp:1038
+#: knetworkconf.cpp:1058
 msgid "Create New Network Profile"
 msgstr "建立新的網絡資料檔"
 
-#: knetworkconf.cpp:1039
+#: knetworkconf.cpp:1059
 msgid "Name of new profile:"
 msgstr "新資料檔的名稱:"
 
-#: knetworkconf.cpp:1068
+#: knetworkconf.cpp:1088
 msgid "There is already another profile with that name."
 msgstr "已有同名的資料檔。"
 
@@ -870,7 +879,7 @@ msgid "&Delete Selected"
 msgstr "刪除所選(&D)"
 
 #. i18n: file kreloadnetworkdlg.ui line 28
-#: knetworkconfigparser.cpp:284 rc.cpp:385
+#: knetworkconfigparser.cpp:303 rc.cpp:385
 #, no-c-format
 msgid "Reloading Network"
 msgstr "正在重新載入網絡"
@@ -964,18 +973,18 @@ msgid "Could Not Find Network Configuration Backend Script"
 msgstr "找不到網絡設定偵測後端程序檔"
 
 #: knetworkconfigparser.cpp:65 knetworkconfigparser.cpp:95
-#: knetworkconfigparser.cpp:301 knetworkconfigparser.cpp:999
+#: knetworkconfigparser.cpp:320 knetworkconfigparser.cpp:1016
 msgid ""
 "Could not execute backend script for the network configuration detection. "
 "Something is wrong with your installation."
 msgstr "無法執行用於網絡設定偵測的後端程序檔。你的軟件安裝有問題。"
 
 #: knetworkconfigparser.cpp:66 knetworkconfigparser.cpp:96
-#: knetworkconfigparser.cpp:302 knetworkconfigparser.cpp:1000
+#: knetworkconfigparser.cpp:321 knetworkconfigparser.cpp:1017
 msgid "Could Not Launch Network Configuration Backend Script"
 msgstr "無法啟動網絡設定偵測後端程序檔。"
 
-#: knetworkconfigparser.cpp:113 knetworkconfigparser.cpp:820
+#: knetworkconfigparser.cpp:113 knetworkconfigparser.cpp:837
 msgid "Could not parse the XML output from the network configuration backend."
 msgstr "無法解析來自網絡設定偵測後端的 XML 輸出。"
 
@@ -991,29 +1000,29 @@ msgstr "無法開啟 /proc/net/route 檔案。"
 msgid "Could Not Open File"
 msgstr "無法開啟檔案"
 
-#: knetworkconfigparser.cpp:285
+#: knetworkconfigparser.cpp:304
 msgid "%1Please wait while saving the network settings...%2"
 msgstr "%1正在儲存網絡設置，請稍候...%2"
 
-#: knetworkconfigparser.cpp:739
+#: knetworkconfigparser.cpp:762
 msgid "Ethernet Network Device"
 msgstr "乙太網絡裝置"
 
-#: knetworkconfigparser.cpp:741
+#: knetworkconfigparser.cpp:764
 msgid "Wireless Network Device"
 msgstr "無線網絡裝置"
 
-#: knetworkconfigparser.cpp:821
+#: knetworkconfigparser.cpp:838
 msgid "Error Loading The Network Configuration"
 msgstr "載入網絡設定時發生錯誤"
 
-#: knetworkconfigparser.cpp:1013
+#: knetworkconfigparser.cpp:1030
 msgid ""
 "Could not parse the list of supported platforms from the network configuration "
 "backend."
 msgstr "無法解析來自網絡設定後端的支援平台清單。"
 
-#: knetworkconfigparser.cpp:1014
+#: knetworkconfigparser.cpp:1031
 msgid "Error Obtaining Supported Platforms List"
 msgstr "取得支援平台清單時發生錯誤"
 
