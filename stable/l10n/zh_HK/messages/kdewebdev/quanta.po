@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
-"POT-Creation-Date: 2006-05-21 04:05+0200\n"
+"POT-Creation-Date: 2006-06-11 04:10+0200\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4489,7 +4489,7 @@ msgstr "密碼："
 
 #. i18n: file ./project/projectnewgenerals.ui line 343
 #: project/projectnewgeneral.cpp:65 project/projectnewgeneral.cpp:129
-#: project/projectnewgeneral.cpp:205 project/projectprivate.cpp:739
+#: project/projectnewgeneral.cpp:203 project/projectprivate.cpp:739
 #: rc.cpp:2984
 #, no-c-format
 msgid "Local"
@@ -9602,7 +9602,6 @@ msgstr "<qt>您要把<br><b>%1</b><br>檔案加入到專案中嗎？</qt>"
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: project/projectnewgeneral.cpp:181 project/projectnewgeneral.cpp:231
 #: src/quanta.cpp:582
 #, c-format
 msgid ""
@@ -9728,7 +9727,6 @@ msgstr "儲存工具列"
 msgid "Please select a toolbar:"
 msgstr "請選擇一個工具列："
 
-#: project/projectnewgeneral.cpp:196 project/projectnewgeneral.cpp:245
 #: src/quanta.cpp:2537
 msgid ""
 "<qt>You must save the toolbars to the following folder: "
@@ -10053,7 +10051,8 @@ msgid "Reset the layout of the user interface to the default"
 msgstr "重設使用介面的布局"
 
 #: src/main.cpp:68
-msgid "(C) 2000-2005 - The Quanta+ developers"
+#, fuzzy
+msgid "%1 - The Quanta+ developers"
 msgstr "(C) 2000-2005 - The Quanta+ 開發人員"
 
 #: src/main.cpp:75
@@ -13697,9 +13696,25 @@ msgstr "選擇專案目錄"
 msgid "Select Project Template Folder"
 msgstr "選擇專案範本目錄"
 
-#: project/projectnewgeneral.cpp:189 project/projectoptions.ui.h:40
+#: project/projectnewgeneral.cpp:180 project/projectnewgeneral.cpp:228
+#, fuzzy
+msgid ""
+"<qt>The project templates must be stored under the main project folder: "
+"<br>"
+"<br><b>%1</b></qt>"
+msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
+
+#: project/projectnewgeneral.cpp:188 project/projectoptions.ui.h:40
 msgid "Select Project Toolbar & Actions Folder"
 msgstr "選擇專案工具列 & 動作目錄"
+
+#: project/projectnewgeneral.cpp:194 project/projectnewgeneral.cpp:241
+#, fuzzy
+msgid ""
+"<qt>The project toolbars must be stored under the main project folder: "
+"<br>"
+"<br><b>%1</b></qt>"
+msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
 
 #: project/eventconfigurationdlg.cpp:102
 msgid "New Event"
