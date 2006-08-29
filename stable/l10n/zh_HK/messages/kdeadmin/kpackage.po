@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
-"POT-Creation-Date: 2006-08-26 02:37+0200\n"
+"POT-Creation-Date: 2006-08-29 02:38+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -100,7 +100,7 @@ msgid "Assume yes"
 msgstr "假設為「是」"
 
 #: debAptInterface.cpp:73 debAptInterface.cpp:77 debDpkgInterface.cpp:92
-#: fbsdInterface.cpp:86 rpmInterface.cpp:74 slackInterface.cpp:101
+#: fbsdInterface.cpp:86 rpmInterface.cpp:75 slackInterface.cpp:101
 msgid "Test (do not uninstall)"
 msgstr "測試（不要真的反安裝）"
 
@@ -134,7 +134,7 @@ msgstr "正在查詢 DEB APT 遠端套件清單： %1"
 msgid "Processing DEB APT remote package list: %1"
 msgstr "正在處理 DEB APT 遠端套件清單： %1"
 
-#: debAptInterface.cpp:231 debAptInterface.cpp:287 rpmInterface.cpp:199
+#: debAptInterface.cpp:231 debAptInterface.cpp:287 rpmInterface.cpp:200
 msgid "DEB APT"
 msgstr "DEB APT"
 
@@ -209,7 +209,7 @@ msgid "Check Conflicts"
 msgstr "檢查是否衝突"
 
 #: debDpkgInterface.cpp:86 debDpkgInterface.cpp:91 fbsdInterface.cpp:81
-#: fbsdInterface.cpp:85 rpmInterface.cpp:69 rpmInterface.cpp:73
+#: fbsdInterface.cpp:85 rpmInterface.cpp:69 rpmInterface.cpp:74
 msgid "Check Dependencies"
 msgstr "檢查是否有依附"
 
@@ -941,18 +941,23 @@ msgid "Replace Packages"
 msgstr "取代套件"
 
 #: rpmInterface.cpp:72
+#, fuzzy
+msgid "Remove all versions"
+msgstr "舊版本"
+
+#: rpmInterface.cpp:73
 msgid "Use Scripts"
 msgstr "使用命令稿"
 
-#: rpmInterface.cpp:77
+#: rpmInterface.cpp:78
 msgid "Querying RPM package list: "
 msgstr "正在查詢 RPM 套件清單："
 
-#: rpmInterface.cpp:162
+#: rpmInterface.cpp:163
 msgid "Querying RPM package list"
 msgstr "正在查詢 RPM 套件清單"
 
-#: rpmInterface.cpp:166
+#: rpmInterface.cpp:167
 msgid "Processing RPM package list"
 msgstr "正在處理 RPM 套件清單"
 
