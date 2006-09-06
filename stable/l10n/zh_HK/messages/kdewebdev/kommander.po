@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2006-03-02 03:51+0100\n"
+"POT-Creation-Date: 2006-09-06 02:44+0200\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -108,7 +108,7 @@ msgstr "不要嘗試"
 msgid "'%1' saved."
 msgstr "已儲存 ‘%1’。"
 
-#: editor/formfile.cpp:133 editor/mainwindowactions.cpp:610
+#: editor/formfile.cpp:133 editor/mainwindowactions.cpp:619
 msgid "*.kmdr|Kommander Files"
 msgstr "*.kmdr|Kommander 檔案"
 
@@ -354,15 +354,15 @@ msgstr "新增 Signal Handler"
 msgid "Delete Signal Handler"
 msgstr "刪除 Signal Handler"
 
-#: editor/connectioneditorimpl.cpp:235 editor/propertyeditor.cpp:3430
+#: editor/connectioneditorimpl.cpp:236 editor/propertyeditor.cpp:3430
 msgid "Remove Connection"
 msgstr "移除連接"
 
-#: editor/connectioneditorimpl.cpp:245 editor/propertyeditor.cpp:3480
+#: editor/connectioneditorimpl.cpp:246 editor/propertyeditor.cpp:3480
 msgid "Add Connection"
 msgstr "加入連接"
 
-#: editor/mainwindow.cpp:230 editor/propertyeditor.cpp:3542
+#: editor/mainwindow.cpp:237 editor/propertyeditor.cpp:3542
 #: editor/propertyeditor.cpp:3582
 msgid "Property Editor"
 msgstr "屬性編輯器"
@@ -379,7 +379,7 @@ msgstr "S&ignal Handlers"
 msgid "Property Editor (%1)"
 msgstr "屬性編輯器 (%1)"
 
-#: editor/actioneditorimpl.cpp:43 editor/mainwindow.cpp:288
+#: editor/actioneditorimpl.cpp:43 editor/mainwindow.cpp:295
 msgid "Actions"
 msgstr "動作"
 
@@ -470,418 +470,428 @@ msgstr "頁面 1"
 msgid "Page 2"
 msgstr "頁面 2"
 
-#: editor/mainwindow.cpp:798 editor/mainwindowactions.cpp:92
+#: editor/mainwindow.cpp:805 editor/mainwindowactions.cpp:96
 msgid "&Undo: Not Available"
 msgstr "復原：不可用(&U)"
 
-#: editor/mainwindowactions.cpp:93
+#: editor/mainwindowactions.cpp:97
 msgid "Undoes the last action"
 msgstr "復原上一次動作"
 
-#: editor/mainwindow.cpp:802 editor/mainwindowactions.cpp:98
+#: editor/mainwindow.cpp:809 editor/mainwindowactions.cpp:102
 msgid "&Redo: Not Available"
 msgstr "重做：不可用(&R)"
 
-#: editor/mainwindowactions.cpp:99
+#: editor/mainwindowactions.cpp:103
 msgid "Redoes the last undone operation"
 msgstr "重做上一次復原過的動作"
 
-#: editor/mainwindowactions.cpp:104
+#: editor/mainwindowactions.cpp:108
 msgid "Cuts the selected widgets and puts them on the clipboard"
 msgstr "剪下所選的 Widget，並放在剪貼薄"
 
-#: editor/mainwindowactions.cpp:109
+#: editor/mainwindowactions.cpp:113
 msgid "Copies the selected widgets to the clipboard"
 msgstr "複製所選的 Widget 至剪貼薄"
 
-#: editor/mainwindowactions.cpp:114
+#: editor/mainwindowactions.cpp:118
 msgid "Pastes the clipboard's contents"
 msgstr "貼上剪貼薄的內容"
 
-#: editor/mainwindowactions.cpp:120
+#: editor/mainwindowactions.cpp:124
 msgid "Deletes the selected widgets"
 msgstr "刪除所選的 Widget"
 
-#: editor/mainwindowactions.cpp:125
+#: editor/mainwindowactions.cpp:129
 msgid "Selects all widgets"
 msgstr "選擇所有 Widget"
 
-#: editor/mainwindowactions.cpp:128
+#: editor/mainwindowactions.cpp:132
 msgid "Bring to Front"
 msgstr "移至最上層"
 
-#: editor/mainwindowactions.cpp:130
+#: editor/mainwindowactions.cpp:134
 msgid "Raises the selected widgets"
 msgstr "把所選的 Widget 移上一層"
 
-#: editor/mainwindowactions.cpp:133
+#: editor/mainwindowactions.cpp:137
 msgid "Send to Back"
 msgstr "移至最底層"
 
-#: editor/mainwindowactions.cpp:135 editor/mainwindowactions.cpp:136
+#: editor/mainwindowactions.cpp:139 editor/mainwindowactions.cpp:140
 msgid "Lowers the selected widgets"
 msgstr "把所選的 Widget 移後一層"
 
 #: editor/formwindow.cpp:1842 editor/formwindow.cpp:1854
-#: editor/mainwindowactions.cpp:139
+#: editor/mainwindowactions.cpp:143
 msgid "Check Accelerators"
 msgstr "檢查捷徑鍵(Accelerators)"
 
-#: editor/mainwindowactions.cpp:141
+#: editor/mainwindowactions.cpp:145
 msgid "Checks if the accelerators used in the form are unique"
 msgstr "檢查表單中使用的捷徑鍵是否獨一無二"
 
-#: editor/mainwindowactions.cpp:145
+#: editor/mainwindowactions.cpp:149
 msgid "Connections"
 msgstr "連接"
 
-#: editor/mainwindowactions.cpp:148
+#: editor/mainwindowactions.cpp:152
 msgid "Opens a dialog for editing connections"
 msgstr "開啟一個對話盒編輯連接"
 
-#: editor/mainwindowactions.cpp:152
+#: editor/mainwindowactions.cpp:156
 msgid "Form Settings..."
 msgstr "表單設定..."
 
-#: editor/mainwindowactions.cpp:154
+#: editor/mainwindowactions.cpp:158
 msgid "Opens a dialog to change the form's settings"
 msgstr "開啟一個對話盒更改表單的設定"
 
-#: editor/mainwindowactions.cpp:160
+#: editor/mainwindowactions.cpp:164
 #, c-format
 msgid "<b>The Edit toolbar</b>%1"
 msgstr "<b>編輯工具列</b>%1"
 
 #: editor/formwindow.cpp:1443 editor/formwindow.cpp:1457
-#: editor/formwindow.cpp:1465 editor/mainwindowactions.cpp:190
+#: editor/formwindow.cpp:1465 editor/mainwindowactions.cpp:194
 msgid "Adjust Size"
 msgstr "調整大小"
 
-#: editor/mainwindowactions.cpp:192
+#: editor/mainwindowactions.cpp:196
 msgid "Adjusts the size of the selected widget"
 msgstr "調整所選 Widget 的大小"
 
-#: editor/formwindow.cpp:1903 editor/mainwindowactions.cpp:196
+#: editor/formwindow.cpp:1903 editor/mainwindowactions.cpp:200
 msgid "Lay Out Horizontally"
 msgstr "橫向編排(Lay Out)"
 
-#: editor/mainwindowactions.cpp:198
+#: editor/mainwindowactions.cpp:202
 msgid "Lays out the selected widgets horizontally"
 msgstr "把所選的 Widget 橫向編排"
 
-#: editor/formwindow.cpp:1913 editor/mainwindowactions.cpp:202
+#: editor/formwindow.cpp:1913 editor/mainwindowactions.cpp:206
 msgid "Lay Out Vertically"
 msgstr "垂直編排"
 
-#: editor/mainwindowactions.cpp:204
+#: editor/mainwindowactions.cpp:208
 msgid "Lays out the selected widgets vertically"
 msgstr "把所選的 Widget 垂直編排"
 
-#: editor/formwindow.cpp:1948 editor/mainwindowactions.cpp:208
+#: editor/formwindow.cpp:1948 editor/mainwindowactions.cpp:212
 msgid "Lay Out in a Grid"
 msgstr "依格線分散編排"
 
-#: editor/mainwindowactions.cpp:210
+#: editor/mainwindowactions.cpp:214
 msgid "Lays out the selected widgets in a grid"
 msgstr "把所選的 Widget 依格線分散編排"
 
-#: editor/mainwindowactions.cpp:214
+#: editor/mainwindowactions.cpp:218
 msgid "Lay Out Horizontally in Splitter"
 msgstr "橫向編排(加入分割線)"
 
-#: editor/mainwindowactions.cpp:217
+#: editor/mainwindowactions.cpp:221
 msgid "Lays out the selected widgets horizontally in a splitter"
 msgstr "把所選的 Widget 橫向編排，並以分割線分隔它們"
 
-#: editor/mainwindowactions.cpp:221
+#: editor/mainwindowactions.cpp:225
 msgid "Lay Out Vertically in Splitter"
 msgstr "垂直編排(加入分割線)"
 
-#: editor/mainwindowactions.cpp:224
+#: editor/mainwindowactions.cpp:228
 msgid "Lays out the selected widgets vertically in a splitter"
 msgstr "把所選的 Widget 垂直編排，並以分割線分隔它們"
 
 #: editor/formwindow.cpp:2048 editor/formwindow.cpp:2067
-#: editor/mainwindowactions.cpp:228
+#: editor/mainwindowactions.cpp:232
 msgid "Break Layout"
 msgstr "解除編排"
 
-#: editor/mainwindowactions.cpp:230
+#: editor/mainwindowactions.cpp:234
 msgid "Breaks the selected layout"
 msgstr "解除所選的編排"
 
-#: editor/mainwindowactions.cpp:234 editor/widgetdatabase.cpp:356
+#: editor/mainwindowactions.cpp:238 editor/widgetdatabase.cpp:356
 msgid "Spacer"
 msgstr "Spacer"
 
-#: editor/mainwindowactions.cpp:237
+#: editor/mainwindowactions.cpp:241
 msgid "Add "
 msgstr "加入 "
 
-#: editor/mainwindowactions.cpp:238 editor/mainwindowactions.cpp:352
+#: editor/mainwindowactions.cpp:242 editor/mainwindowactions.cpp:356
 #, c-format
 msgid "Insert a %1"
 msgstr "插入一個 %1"
 
-#: editor/mainwindowactions.cpp:239
+#: editor/mainwindowactions.cpp:243
 msgid ""
 "<b>A %1</b>"
 "<p>%2</p>"
 "<p>Click to insert a single %3,or double click to keep the tool selected."
 msgstr ""
 
-#: editor/mainwindowactions.cpp:244
+#: editor/mainwindowactions.cpp:248
 #, c-format
 msgid "<b>The Layout toolbar</b>%1"
 msgstr "<b>編排工具列</b>%1"
 
-#: editor/mainwindowactions.cpp:257
+#: editor/mainwindowactions.cpp:261
 msgid "&Layout"
 msgstr "編排(&L)"
 
-#: editor/mainwindowactions.cpp:272
+#: editor/mainwindowactions.cpp:276
 msgid "Pointer"
 msgstr "指標"
 
-#: editor/mainwindowactions.cpp:275
+#: editor/mainwindowactions.cpp:279
 msgid "Selects the pointer tool"
 msgstr "選擇指標工具"
 
-#: editor/mainwindowactions.cpp:279
+#: editor/mainwindowactions.cpp:283
 msgid "Connect Signal/Slots"
 msgstr "連接 Signal/Slots"
 
-#: editor/mainwindowactions.cpp:282
+#: editor/mainwindowactions.cpp:286
 msgid "Selects the connection tool"
 msgstr "選擇連接工具"
 
-#: editor/mainwindowactions.cpp:286
+#: editor/mainwindowactions.cpp:290
 msgid "Tab Order"
 msgstr "Tab 鍵定位順序(Tab Order)"
 
-#: editor/mainwindowactions.cpp:289
+#: editor/mainwindowactions.cpp:293
 msgid "Selects the tab order tool"
 msgstr "選擇 Tab 鍵定位順序工具"
 
-#: editor/mainwindowactions.cpp:295
+#: editor/mainwindowactions.cpp:299
 #, c-format
 msgid "<b>The Tools toolbar</b>%1"
 msgstr "<b>工具的工具列</b>%1"
 
-#: editor/mainwindowactions.cpp:297
+#: editor/mainwindowactions.cpp:301
 msgid "Tools"
 msgstr "工具"
 
-#: editor/mainwindowactions.cpp:319
+#: editor/mainwindowactions.cpp:323
 msgid "<b>The %1</b>%2"
 msgstr "<b>The %1</b>%2"
 
-#: editor/mainwindowactions.cpp:320
+#: editor/mainwindowactions.cpp:324
 #, c-format
 msgid ""
 " Click on a button to insert a single widget, or double click to insert "
 "multiple %1."
 msgstr ""
 
-#: editor/mainwindowactions.cpp:324
+#: editor/mainwindowactions.cpp:328
 msgid "<b>The %1 Widgets</b>%2"
 msgstr ""
 
-#: editor/mainwindowactions.cpp:325
+#: editor/mainwindowactions.cpp:329
 msgid ""
 " Click on a button to insert a single %1 widget, or double click to insert "
 "multiple widgets."
 msgstr ""
 
-#: editor/mainwindowactions.cpp:354
+#: editor/mainwindowactions.cpp:358
 msgid "<b>A %1</b>"
 msgstr "<b>一個 %1</b>"
 
-#: editor/mainwindowactions.cpp:357
+#: editor/mainwindowactions.cpp:361
 msgid "<p>Double click on this tool to keep it selected.</p>"
 msgstr "<p>請雙擊這個工具，來使它維持在被選擇的狀態。</p>"
 
-#: editor/mainwindowactions.cpp:388
+#: editor/mainwindowactions.cpp:392
 msgid "Editor"
 msgstr "編輯器"
 
-#: editor/mainwindowactions.cpp:398
+#: editor/mainwindowactions.cpp:402
 #, c-format
 msgid "<b>The File toolbar</b>%1"
 msgstr "<b>檔案工具列</b>%1"
 
-#: editor/mainwindowactions.cpp:404
+#: editor/mainwindowactions.cpp:408
 msgid "Creates a new dialog"
 msgstr "建立一個新的對話盒"
 
-#: editor/mainwindowactions.cpp:410
+#: editor/mainwindowactions.cpp:414
 msgid "Opens an existing dialog"
 msgstr "開啟一個現有的對話盒"
 
-#: editor/mainwindowactions.cpp:416
+#: editor/mainwindowactions.cpp:420
 msgid "Opens recently open file"
 msgstr "開啟最近的檔案"
 
-#: editor/mainwindowactions.cpp:421
+#: editor/mainwindowactions.cpp:425
 msgid "Closes the current dialog"
 msgstr "關閉目前的對話盒"
 
-#: editor/mainwindowactions.cpp:429
+#: editor/mainwindowactions.cpp:433
 msgid "Saves the current dialog"
 msgstr "儲存目前的對話盒"
 
-#: editor/mainwindowactions.cpp:436
+#: editor/mainwindowactions.cpp:440
 msgid "Saves the current dialog with a new filename"
 msgstr "以新檔名儲存目前的對話盒"
 
-#: editor/mainwindowactions.cpp:441
+#: editor/mainwindowactions.cpp:445
 msgid "Save All"
 msgstr "儲存全部"
 
-#: editor/mainwindowactions.cpp:443
+#: editor/mainwindowactions.cpp:447
 msgid "Saves all open dialogs"
 msgstr "儲存全部開啟的對話盒"
 
-#: editor/mainwindowactions.cpp:451
+#: editor/mainwindowactions.cpp:455
 msgid "Quits the application and prompts to save any changed dialogs"
 msgstr "結束應用程式並提示要儲存更動過的對話盒"
 
-#: editor/mainwindowactions.cpp:460
+#: editor/mainwindowactions.cpp:464
 msgid "&Run"
 msgstr "執行(&R)"
 
-#: editor/mainwindowactions.cpp:462
+#: editor/mainwindowactions.cpp:466
 msgid "Run Dialog"
 msgstr "執行對話盒"
 
-#: editor/mainwindowactions.cpp:464
+#: editor/mainwindowactions.cpp:468
 msgid "Executes dialog"
 msgstr "運行對話盒"
 
-#: editor/mainwindowactions.cpp:477
+#: editor/mainwindowactions.cpp:481
 msgid "Tile"
 msgstr "並排"
 
-#: editor/mainwindowactions.cpp:479
+#: editor/mainwindowactions.cpp:483
 msgid "Tiles the windows so that they are all visible"
 msgstr "把視窗並排，使得它們全部都可以看到"
 
-#: editor/mainwindowactions.cpp:482 editor/mainwindowactions.cpp:487
+#: editor/mainwindowactions.cpp:486 editor/mainwindowactions.cpp:491
 msgid "Cascade"
 msgstr "層疊"
 
-#: editor/mainwindowactions.cpp:484
+#: editor/mainwindowactions.cpp:488
 msgid "Cascades the windows so that all their title bars are visible"
 msgstr "把視窗層疊，使得它們的標題列都可以看到"
 
-#: editor/mainwindowactions.cpp:489
+#: editor/mainwindowactions.cpp:493
 msgid "Closes the active window"
 msgstr "關閉作用中的視窗"
 
-#: editor/mainwindowactions.cpp:492
+#: editor/mainwindowactions.cpp:496
 msgid "Close All"
 msgstr "關閉全部"
 
-#: editor/mainwindowactions.cpp:494
+#: editor/mainwindowactions.cpp:498
 msgid "Closes all form windows"
 msgstr "關閉所有表單視窗"
 
-#: editor/mainwindowactions.cpp:497
+#: editor/mainwindowactions.cpp:501
 msgid "Next"
 msgstr "下一個"
 
-#: editor/mainwindowactions.cpp:499
+#: editor/mainwindowactions.cpp:503
 msgid "Activates the next window"
 msgstr "切換至下一個視窗"
 
-#: editor/mainwindowactions.cpp:502
+#: editor/mainwindowactions.cpp:506
 msgid "Previous"
 msgstr "上一個"
 
-#: editor/mainwindowactions.cpp:504
+#: editor/mainwindowactions.cpp:508
 msgid "Activates the previous window"
 msgstr "切換至上一個視窗"
 
-#: editor/mainwindowactions.cpp:508
+#: editor/mainwindowactions.cpp:512
 msgid "&Window"
 msgstr "視窗(&W)"
 
-#: editor/mainwindowactions.cpp:520
+#: editor/mainwindowactions.cpp:524
 msgid "Vie&ws"
 msgstr "檢視(&W)"
 
-#: editor/mainwindowactions.cpp:521
+#: editor/mainwindowactions.cpp:525
 msgid "Tool&bars"
 msgstr "工具列(&B)"
 
-#: editor/mainwindowactions.cpp:557
+#: editor/mainwindowactions.cpp:561
 msgid "Opens a dialog to change shortcuts"
 msgstr "開啟一個對話盒來更改捷徑"
 
-#: editor/mainwindowactions.cpp:561
-msgid "Opens a dialog to change preferences"
-msgstr "開啟一個對話盒來更改偏好設定"
-
-#: editor/mainwindowactions.cpp:565
-msgid "Configure &plugins..."
+#: editor/mainwindowactions.cpp:564
+#, fuzzy
+msgid "Configure &Plugins..."
 msgstr "設定外掛程式(&P)..."
 
-#: editor/mainwindowactions.cpp:567
+#: editor/mainwindowactions.cpp:566
 msgid "Opens a dialog to configure plugins"
 msgstr "開啟一個對話盒來設定外掛程式"
 
-#: editor/mainwindowactions.cpp:582
+#: editor/mainwindowactions.cpp:569
+#, fuzzy
+msgid "&Configure Editor..."
+msgstr "設定外掛程式(&P)..."
+
+#: editor/mainwindowactions.cpp:571
+msgid "Configure various aspects of this editor."
+msgstr ""
+
+#: editor/mainwindowactions.cpp:575
+msgid "Opens a dialog to change preferences"
+msgstr "開啟一個對話盒來更改偏好設定"
+
+#: editor/mainwindowactions.cpp:591
 msgid "Create a new dialog..."
 msgstr "建立一個新的對話盒..."
 
-#: editor/mainwindowactions.cpp:605
+#: editor/mainwindowactions.cpp:614
 msgid "Open a file..."
 msgstr "開啟一個檔案..."
 
-#: editor/mainwindowactions.cpp:610
+#: editor/mainwindowactions.cpp:619
 msgid "Open Files"
 msgstr "開啟檔案"
 
-#: editor/mainwindowactions.cpp:646
+#: editor/mainwindowactions.cpp:655
 msgid "Reading file '%1'..."
 msgstr "正在讀取檔案 '%1'..."
 
-#: editor/mainwindowactions.cpp:659
+#: editor/mainwindowactions.cpp:668
 msgid "Loaded file '%1'"
 msgstr "已載入檔案 '%1'"
 
-#: editor/mainwindowactions.cpp:662 editor/mainwindowactions.cpp:663
+#: editor/mainwindowactions.cpp:671 editor/mainwindowactions.cpp:672
 msgid "Could not load file '%1'"
 msgstr "無法載入檔案 '%1'"
 
-#: editor/mainwindowactions.cpp:663
+#: editor/mainwindowactions.cpp:672
 msgid "Load File"
 msgstr "載入檔案"
 
-#: editor/mainwindowactions.cpp:699
+#: editor/mainwindowactions.cpp:708
 msgid "Enter a filename..."
 msgstr "輸入一個檔案名稱..."
 
-#: editor/mainwindowactions.cpp:727
+#: editor/mainwindowactions.cpp:736
 msgid "Qt Designer is crashing. Attempting to save files..."
 msgstr "Qt Designer 已經當機。正在嘗試儲存檔案..."
 
-#: editor/mainwindowactions.cpp:764 editor/mainwindowactions.cpp:827
+#: editor/mainwindowactions.cpp:773 editor/mainwindowactions.cpp:836
 msgid "NewTemplate"
 msgstr "新範本"
 
-#: editor/mainwindowactions.cpp:776 editor/mainwindowactions.cpp:805
+#: editor/mainwindowactions.cpp:785 editor/mainwindowactions.cpp:814
 msgid "Could not create the template"
 msgstr "無法建立範本"
 
 #. i18n: file ./editor/createtemplate.ui line 38
-#: editor/mainwindowactions.cpp:776 editor/mainwindowactions.cpp:805
+#: editor/mainwindowactions.cpp:785 editor/mainwindowactions.cpp:814
 #: rc.cpp:402
 #, no-c-format
 msgid "Create Template"
 msgstr "建立範本"
 
-#: editor/mainwindowactions.cpp:879
+#: editor/mainwindowactions.cpp:888
 msgid ""
 "Cannot paste widgets. Designer could not find a container\n"
 "to paste into which does not contain a layout. Break the layout\n"
@@ -891,19 +901,19 @@ msgstr ""
 "無法貼上 Widget。Designer 找不到一個未被編排的容器來把它貼上。\n"
 "請把要貼上去的容器的編排解除，然後再試一次。"
 
-#: editor/mainwindowactions.cpp:882
+#: editor/mainwindowactions.cpp:891
 msgid "Paste Error"
 msgstr "貼上錯誤"
 
-#: editor/formwindow.cpp:2129 editor/mainwindowactions.cpp:1045
+#: editor/formwindow.cpp:2129 editor/mainwindowactions.cpp:1054
 msgid "Edit connections..."
 msgstr "編輯連接..."
 
-#: editor/mainwindowactions.cpp:1056
+#: editor/mainwindowactions.cpp:1065
 msgid "Edit the current form's settings..."
 msgstr "編輯目前表單的設定..."
 
-#: editor/mainwindowactions.cpp:1064
+#: editor/mainwindowactions.cpp:1073
 msgid "Edit preferences..."
 msgstr "編輯偏好設定..."
 
@@ -950,7 +960,7 @@ msgid "Set Text of '%1'"
 msgstr "設定 '%1' 的文字"
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 198
-#: editor/mainwindow.cpp:984 editor/mainwindow.cpp:1454
+#: editor/mainwindow.cpp:991 editor/mainwindow.cpp:1461
 #: editor/multilineeditorimpl.cpp:68 rc.cpp:145
 #, no-c-format
 msgid "Text"
@@ -981,14 +991,14 @@ msgid "Edit Wizard Pages"
 msgstr "編輯精靈的頁面"
 
 #: editor/hierarchyview.cpp:507 editor/hierarchyview.cpp:513
-#: editor/mainwindow.cpp:1049 editor/mainwindow.cpp:1085
+#: editor/mainwindow.cpp:1056 editor/mainwindow.cpp:1092
 #: editor/wizardeditorimpl.cpp:112
 #, c-format
 msgid "Add Page to %1"
 msgstr "加入頁面至 %1"
 
 #: editor/hierarchyview.cpp:529 editor/hierarchyview.cpp:539
-#: editor/mainwindow.cpp:1056 editor/mainwindow.cpp:1092
+#: editor/mainwindow.cpp:1063 editor/mainwindow.cpp:1099
 #: editor/wizardeditorimpl.cpp:130
 msgid "Delete Page %1 of %2"
 msgstr "刪除 %2 的頁面 %1"
@@ -997,17 +1007,17 @@ msgstr "刪除 %2 的頁面 %1"
 msgid "Swap Pages %1 and %2 of %3"
 msgstr "換轉 %3 的頁面 %1 及 %2"
 
-#: editor/mainwindow.cpp:1009 editor/mainwindow.cpp:1106
+#: editor/mainwindow.cpp:1016 editor/mainwindow.cpp:1113
 #: editor/wizardeditorimpl.cpp:200
 msgid "Page Title"
 msgstr "頁面標題"
 
-#: editor/mainwindow.cpp:1009 editor/mainwindow.cpp:1106
+#: editor/mainwindow.cpp:1016 editor/mainwindow.cpp:1113
 #: editor/wizardeditorimpl.cpp:200
 msgid "New page title:"
 msgstr "新的頁面標題："
 
-#: editor/mainwindow.cpp:1108 editor/wizardeditorimpl.cpp:202
+#: editor/mainwindow.cpp:1115 editor/wizardeditorimpl.cpp:202
 msgid "Rename page %1 of %2"
 msgstr "重新命名 %2 的頁面 %1"
 
@@ -1382,15 +1392,15 @@ msgstr ""
 "動作 '%1' 之前已經被加入到這個選單。\n"
 "指定的選單中只能存在一個這樣的動作。"
 
-#: editor/connectioneditorimpl.cpp:228
+#: editor/connectioneditorimpl.cpp:229
 msgid "Connect/Disconnect the signals and slots of '%1' and '%2'"
 msgstr "連接/中斷連接 '%1'及'%2'的 Signals 及 Slots。"
 
-#: editor/connectioneditorimpl.cpp:236
+#: editor/connectioneditorimpl.cpp:237
 msgid "Remove Connections"
 msgstr "移除連接"
 
-#: editor/connectioneditorimpl.cpp:247
+#: editor/connectioneditorimpl.cpp:248
 msgid "Add Connections"
 msgstr "加入連接"
 
@@ -1415,19 +1425,24 @@ msgid "Database"
 msgstr "資料庫"
 
 #: editor/choosewidgetimpl.cpp:38 editor/hierarchyview.cpp:596
-#: editor/mainwindow.cpp:255
+#: editor/mainwindow.cpp:262
 msgid "Widgets"
 msgstr "Widgets"
 
-#: editor/assoctexteditorimpl.cpp:144
+#: editor/assoctexteditorimpl.cpp:145
+#, fuzzy
+msgid "&Highlighting"
+msgstr "高亮"
+
+#: editor/assoctexteditorimpl.cpp:226
 msgid "Set the 'text association' of '%1'"
 msgstr "設定 '%1' 的「關聯文字」"
 
-#: editor/assoctexteditorimpl.cpp:154
+#: editor/assoctexteditorimpl.cpp:236
 msgid "Set the 'population text' of '%1'"
 msgstr "設定 '%1' 的 'population text'"
 
-#: editor/assoctexteditorimpl.cpp:277
+#: editor/assoctexteditorimpl.cpp:362
 msgid "<qt>Cannot open file<br><b>%1</b></qt"
 msgstr "<qt>無法開啟檔案<br><b>%1</b></qt"
 
@@ -1445,15 +1460,15 @@ msgstr "新一欄"
 msgid "&Items"
 msgstr "項目(&I)"
 
-#: editor/mainwindow.cpp:134
+#: editor/mainwindow.cpp:138
 msgid "Welcome to the Kommander Editor"
 msgstr "歡迎使用 Kommander 編輯器"
 
-#: editor/mainwindow.cpp:141
+#: editor/mainwindow.cpp:145
 msgid "Layout"
 msgstr "編排"
 
-#: editor/mainwindow.cpp:232
+#: editor/mainwindow.cpp:239
 msgid ""
 "<h2>The Property Editor</h2>"
 "<p>You can change the appearance and behavior of the selected widget in the "
@@ -1471,11 +1486,11 @@ msgid ""
 "made using the connection tool.)"
 msgstr ""
 
-#: editor/mainwindow.cpp:258
+#: editor/mainwindow.cpp:265
 msgid "Object Explorer"
 msgstr "物件總管"
 
-#: editor/mainwindow.cpp:260
+#: editor/mainwindow.cpp:267
 msgid ""
 "<h2>The Object Explorer</h2>"
 "<p>The Object Explorer provides an overview of the relationships between the "
@@ -1488,25 +1503,25 @@ msgid ""
 "etc.</p>"
 msgstr ""
 
-#: editor/mainwindow.cpp:271 editor/mainwindow.cpp:280
+#: editor/mainwindow.cpp:278 editor/mainwindow.cpp:287
 msgid "Dialogs"
 msgstr "對話盒"
 
-#: editor/mainwindow.cpp:274
+#: editor/mainwindow.cpp:281
 msgid "Start typing the buffer you want to switch to here (ALT+B)"
 msgstr ""
 
-#: editor/mainwindow.cpp:281
+#: editor/mainwindow.cpp:288
 msgid ""
 "<h2>The File Overview Window</h2>"
 "<p>The File Overview Window displays all open dialogs.</p>"
 msgstr ""
 
-#: editor/mainwindow.cpp:292
+#: editor/mainwindow.cpp:299
 msgid "Action Editor"
 msgstr "動作編輯器"
 
-#: editor/mainwindow.cpp:293
+#: editor/mainwindow.cpp:300
 msgid ""
 "<b>The Action Editor</b>"
 "<p>The Action Editor is used to add actions and action groups to a form, and to "
@@ -1516,19 +1531,19 @@ msgid ""
 "menus.</p>"
 msgstr ""
 
-#: editor/mainwindow.cpp:303 editor/mainwindow.cpp:306
+#: editor/mainwindow.cpp:310 editor/mainwindow.cpp:313
 msgid "Message Log"
 msgstr "訊息記錄"
 
-#: editor/mainwindow.cpp:366
+#: editor/mainwindow.cpp:373
 msgid "There is a dialog already running."
 msgstr "已經有一個對話盒在運行了。"
 
-#: editor/mainwindow.cpp:366
+#: editor/mainwindow.cpp:373
 msgid "Run"
 msgstr "執行"
 
-#: editor/mainwindow.cpp:691
+#: editor/mainwindow.cpp:698
 msgid ""
 "<b>The Form Window</b>"
 "<p>Use the various tools to add widgets or to change the layout and behavior of "
@@ -1543,111 +1558,111 @@ msgid ""
 "Form List</b>."
 msgstr ""
 
-#: editor/mainwindow.cpp:796
+#: editor/mainwindow.cpp:803
 #, c-format
 msgid "&Undo: %1"
 msgstr "復原(&U)：%1"
 
-#: editor/mainwindow.cpp:800
+#: editor/mainwindow.cpp:807
 #, c-format
 msgid "&Redo: %1"
 msgstr "重做(&R)：%1"
 
-#: editor/mainwindow.cpp:879
+#: editor/mainwindow.cpp:886
 msgid "Choose Pixmap..."
 msgstr "選擇點陣圖..."
 
-#: editor/mainwindow.cpp:883
+#: editor/mainwindow.cpp:890
 msgid "Edit Text..."
 msgstr "編輯文字..."
 
-#: editor/mainwindow.cpp:887
+#: editor/mainwindow.cpp:894
 msgid "Edit Title..."
 msgstr "編輯標題..."
 
-#: editor/mainwindow.cpp:891 editor/mainwindow.cpp:959
+#: editor/mainwindow.cpp:898 editor/mainwindow.cpp:966
 msgid "Edit Page Title..."
 msgstr "編輯頁面標題..."
 
-#: editor/mainwindow.cpp:907 editor/mainwindow.cpp:942
+#: editor/mainwindow.cpp:914 editor/mainwindow.cpp:949
 msgid "Edit Kommander Text..."
 msgstr "編輯 Kommander 文字..."
 
-#: editor/mainwindow.cpp:916 editor/mainwindow.cpp:952
-#: editor/mainwindow.cpp:1376
+#: editor/mainwindow.cpp:923 editor/mainwindow.cpp:959
+#: editor/mainwindow.cpp:1383
 msgid "Delete Page"
 msgstr "刪除頁面"
 
-#: editor/mainwindow.cpp:919 editor/mainwindow.cpp:956
-#: editor/mainwindow.cpp:1375
+#: editor/mainwindow.cpp:926 editor/mainwindow.cpp:963
+#: editor/mainwindow.cpp:1382
 msgid "Add Page"
 msgstr "加入頁面"
 
-#: editor/mainwindow.cpp:926
+#: editor/mainwindow.cpp:933
 msgid "Edit..."
 msgstr "編輯..."
 
-#: editor/mainwindow.cpp:962
+#: editor/mainwindow.cpp:969
 msgid "Edit Pages..."
 msgstr "編輯頁面..."
 
-#: editor/mainwindow.cpp:968
+#: editor/mainwindow.cpp:975
 msgid "Add Menu Item"
 msgstr "加入選單項目"
 
-#: editor/mainwindow.cpp:970
+#: editor/mainwindow.cpp:977
 msgid "Add Toolbar"
 msgstr "加入工具列"
 
-#: editor/mainwindow.cpp:984 editor/mainwindow.cpp:1454
+#: editor/mainwindow.cpp:991 editor/mainwindow.cpp:1461
 msgid "New text:"
 msgstr "新的文字："
 
-#: editor/mainwindow.cpp:987
+#: editor/mainwindow.cpp:994
 msgid "Set the 'text' of '%1'"
 msgstr "設定 '%1' 的「文字」"
 
-#: editor/mainwindow.cpp:997 editor/mainwindow.cpp:1470
+#: editor/mainwindow.cpp:1004 editor/mainwindow.cpp:1477
 msgid "Title"
 msgstr "標題"
 
-#: editor/mainwindow.cpp:997 editor/mainwindow.cpp:1470
+#: editor/mainwindow.cpp:1004 editor/mainwindow.cpp:1477
 msgid "New title:"
 msgstr "新標題："
 
-#: editor/mainwindow.cpp:999
+#: editor/mainwindow.cpp:1006
 msgid "Set the 'title' of '%1'"
 msgstr "設定 '%1' 的「標題」"
 
-#: editor/mainwindow.cpp:1011
+#: editor/mainwindow.cpp:1018
 msgid "Set the 'pageTitle' of '%1'"
 msgstr "設定 '%1' 的「頁面標題」"
 
-#: editor/mainwindow.cpp:1023
+#: editor/mainwindow.cpp:1030
 msgid "Set the 'pixmap' of '%1'"
 msgstr "設定 '%1' 的「點陣圖」"
 
-#: editor/mainwindow.cpp:1118
+#: editor/mainwindow.cpp:1125
 msgid "Add Toolbar to '%1'"
 msgstr "加入工具列至 '%1'"
 
-#: editor/mainwindow.cpp:1122
+#: editor/mainwindow.cpp:1129
 msgid "Add Menu to '%1'"
 msgstr "加入選單至 '%1'"
 
-#: editor/mainwindow.cpp:1439
+#: editor/mainwindow.cpp:1446
 msgid "Edit %1..."
 msgstr "編輯 %1..."
 
-#: editor/mainwindow.cpp:1457
+#: editor/mainwindow.cpp:1464
 msgid "Set the 'text' of '%2'"
 msgstr "設定 '%2' 的「文字」"
 
-#: editor/mainwindow.cpp:1472
+#: editor/mainwindow.cpp:1479
 msgid "Set the 'title' of '%2'"
 msgstr "設定 '%2' 的「標題」"
 
-#: editor/mainwindow.cpp:1560
+#: editor/mainwindow.cpp:1567
 msgid ""
 "Kommander found some temporary saved files, which were\n"
 "written when Kommander crashed last time. Do you want to\n"
@@ -1656,27 +1671,27 @@ msgstr ""
 "Kommander 找到一些暫存的檔案，是在上一次 Kommander\n"
 "當機時所留下的。您要載入這些檔案嗎?"
 
-#: editor/mainwindow.cpp:1562
+#: editor/mainwindow.cpp:1569
 msgid "Restoring Last Session"
 msgstr "恢復上一次的工作階段"
 
-#: editor/mainwindow.cpp:1562
+#: editor/mainwindow.cpp:1569
 msgid "Load"
 msgstr "載入"
 
-#: editor/mainwindow.cpp:1562
+#: editor/mainwindow.cpp:1569
 msgid "Do Not Load"
 msgstr "不要載入"
 
-#: editor/mainwindow.cpp:1615
+#: editor/mainwindow.cpp:1622
 msgid "There is no help available for this dialog at the moment."
 msgstr "目前來說並沒有這個對話盒的說明。"
 
-#: editor/mainwindow.cpp:1629
+#: editor/mainwindow.cpp:1636
 msgid "<qt>Could not open file:<br><b>%1</b><br>File does not exist.</qt>"
 msgstr "<qt>無法開啟檔案：<br><b>%1</b><br>檔案不存在。</qt>"
 
-#: editor/mainwindow.cpp:1630
+#: editor/mainwindow.cpp:1637
 msgid "Open File"
 msgstr "開啟檔案"
 
@@ -2569,19 +2584,19 @@ msgstr "&Widget:"
 msgid "&Text for:"
 msgstr "文字關聯(&T)："
 
-#. i18n: file ./editor/assoctexteditor.ui line 112
+#. i18n: file ./editor/assoctexteditor.ui line 104
 #: rc.cpp:450
 #, no-c-format
 msgid "&Function..."
 msgstr "函式(&F)..."
 
-#. i18n: file ./editor/assoctexteditor.ui line 145
+#. i18n: file ./editor/assoctexteditor.ui line 137
 #: rc.cpp:453
 #, no-c-format
 msgid "Wi&dget:"
 msgstr "Wi&dget:"
 
-#. i18n: file ./editor/assoctexteditor.ui line 192
+#. i18n: file ./editor/assoctexteditor.ui line 184
 #: rc.cpp:456
 #, no-c-format
 msgid "Fi&le..."
