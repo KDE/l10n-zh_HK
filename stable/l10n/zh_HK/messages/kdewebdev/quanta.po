@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
-"POT-Creation-Date: 2006-09-08 02:43+0200\n"
+"POT-Creation-Date: 2006-09-09 02:41+0200\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1123,7 +1123,7 @@ msgstr ""
 "我們建議不要使用這選項，而使用 Unicode 或本地編碼作為文件的編碼類型。"
 
 #. i18n: file ./dialogs/settings/abbreviations.ui line 25
-#: rc.cpp:594 src/quanta.cpp:1255
+#: rc.cpp:594 src/quanta.cpp:1253
 #, no-c-format
 msgid "Abbreviations"
 msgstr "縮寫"
@@ -1340,7 +1340,7 @@ msgid "Show dela&yed"
 msgstr "游標在分頁圖示上才顯示(&Y)"
 
 #. i18n: file ./dialogs/settings/previewoptionss.ui line 103
-#: rc.cpp:711 rc.cpp:4976 src/quanta.cpp:5298 src/quanta_init.cpp:185
+#: rc.cpp:711 rc.cpp:4976 src/quanta.cpp:5296 src/quanta_init.cpp:185
 #: src/viewmanager.cpp:558
 #, no-c-format
 msgid "Documentation"
@@ -1377,7 +1377,7 @@ msgid "Icon"
 msgstr "圖示"
 
 #. i18n: file ./dialogs/settings/previewoptionss.ui line 175
-#: rc.cpp:732 src/quanta.cpp:5284
+#: rc.cpp:732 src/quanta.cpp:5282
 #, no-c-format
 msgid "Preview"
 msgstr "預覽"
@@ -1569,7 +1569,7 @@ msgid "Attribute Case"
 msgstr "標籤屬性的大小寫"
 
 #. i18n: file ./dialogs/dtepeditdlgs.ui line 25
-#: parsers/dtd/dtdparser.cpp:178 rc.cpp:852 src/quanta.cpp:3108
+#: parsers/dtd/dtdparser.cpp:178 rc.cpp:852 src/quanta.cpp:3106
 #, no-c-format
 msgid "Configure DTEP"
 msgstr "設定 DTEP"
@@ -2510,7 +2510,7 @@ msgid "Available groups:"
 msgstr "可用的組別:"
 
 #. i18n: file ./dialogs/dtdselectdialog.ui line 31
-#: rc.cpp:1518 src/document.cpp:2821 src/quanta.cpp:3053
+#: rc.cpp:1518 src/document.cpp:2823 src/quanta.cpp:3051
 #, no-c-format
 msgid "DTD Selector"
 msgstr "DTD 選擇器"
@@ -9615,7 +9615,7 @@ msgstr "您可能忘記了執行 \"make install\"，或環境變數 KDEDIR, KDED
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: src/quanta.cpp:378 src/quanta.cpp:2091 treeviews/structtreeview.cpp:1008
+#: src/quanta.cpp:378 src/quanta.cpp:2089 treeviews/structtreeview.cpp:1008
 msgid ""
 "<qt>The file <b>%1</b> does not exist or is not a recognized mime type.</qt>"
 msgstr "<qt>檔案 <b>%1</b> 不存在或它的 MIME 類型無法被識別。</qt>"
@@ -9645,7 +9645,7 @@ msgstr "<qt>您要把<br><b>%1</b><br>檔案加入到專案中嗎？</qt>"
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: src/quanta.cpp:589
+#: src/quanta.cpp:587
 #, c-format
 msgid ""
 "You must save the templates in the following folder: \n"
@@ -9656,93 +9656,93 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/quanta.cpp:608
+#: src/quanta.cpp:606
 msgid ""
 "<qt>There was an error while creating the template file."
 "<br>Check that you have write access to <i>%1</i>.</qt>"
 msgstr "<qt>建立範本檔案時發生錯誤。<br>請確定您對 <i>%1</i> 擁有寫入權限。</qt>"
 
-#: src/quanta.cpp:608 treeviews/basetreeview.cpp:1150
+#: src/quanta.cpp:606 treeviews/basetreeview.cpp:1150
 msgid "Template Creation Error"
 msgstr "範本建立錯誤"
 
-#: src/quanta.cpp:787
+#: src/quanta.cpp:785
 msgid "<center><h3>The current document is empty...</h3></center>"
 msgstr "<center><h3>目前的文件是空白的...</h3></center>"
 
-#: src/quanta.cpp:935
+#: src/quanta.cpp:933
 msgid " OVR "
 msgstr " 覆寫 "
 
-#: src/quanta.cpp:935
+#: src/quanta.cpp:933
 msgid " INS "
 msgstr " 插入 "
 
-#: src/quanta.cpp:939 src/quanta.cpp:1518
+#: src/quanta.cpp:937 src/quanta.cpp:1516
 msgid " R/O "
 msgstr " 唯讀 "
 
-#: src/quanta.cpp:1063 src/quanta.cpp:1116 src/quanta_init.cpp:248
+#: src/quanta.cpp:1061 src/quanta.cpp:1114 src/quanta_init.cpp:248
 msgid "&Window"
 msgstr "視窗(&W)"
 
-#: src/quanta.cpp:1154
+#: src/quanta.cpp:1152
 msgid ""
 "Changes made in the preview configuration dialog are global and have effect on "
 "every application using the KHTML part to display web pages, including "
 "Konqueror."
 msgstr "預覽對話盒的設定是全域性的。所有使用 KHTML part 顯示網頁的應用程式都會受到影響，包括 Konqueror。"
 
-#: src/quanta.cpp:1161
+#: src/quanta.cpp:1159
 msgid "Configure Quanta"
 msgstr "設定 Quanta"
 
-#: src/quanta.cpp:1166
+#: src/quanta.cpp:1164
 msgid "Tag Style"
 msgstr "標籤風格"
 
-#: src/quanta.cpp:1180
+#: src/quanta.cpp:1178
 msgid "Environment"
 msgstr "環境"
 
-#: src/quanta.cpp:1220
+#: src/quanta.cpp:1218
 msgid "User Interface"
 msgstr "用戶介面"
 
-#: src/main.cpp:141 src/quanta.cpp:1243
+#: src/main.cpp:141 src/quanta.cpp:1241
 msgid "VPL View"
 msgstr "VPL 預覽"
 
-#: src/quanta.cpp:1246
+#: src/quanta.cpp:1244
 msgid "Parser"
 msgstr "解析器"
 
-#: src/quanta.cpp:1516 src/quanta.cpp:1544
+#: src/quanta.cpp:1514 src/quanta.cpp:1542
 msgid "Line: %1 Col: %2"
 msgstr "行: %1 字: %2"
 
-#: src/quanta.cpp:1972
+#: src/quanta.cpp:1970
 #, c-format
 msgid "Open File: %1"
 msgstr "開啟檔案：%1"
 
-#: src/quanta.cpp:1976 src/quanta_init.cpp:930
+#: src/quanta.cpp:1974 src/quanta_init.cpp:930
 msgid "Open File: none"
 msgstr "開啟檔案： 無"
 
-#: src/quanta.cpp:2031
+#: src/quanta.cpp:2029
 msgid "Add Watch: '%1'"
 msgstr "加入監視器：'%1'"
 
-#: src/quanta.cpp:2042
+#: src/quanta.cpp:2040
 msgid "Set Value of '%1'"
 msgstr "設定'%1'的數值"
 
-#: src/quanta.cpp:2053
+#: src/quanta.cpp:2051
 msgid "Break When '%1'..."
 msgstr "當'%1'發生時中斷..."
 
-#: src/quanta.cpp:2141
+#: src/quanta.cpp:2139
 msgid ""
 "Cannot load the toolbars from the archive.\n"
 "Check that the filenames inside the archives begin with the archive name."
@@ -9750,7 +9750,7 @@ msgstr ""
 "無法從壓縮包中載入工具列。\n"
 "請確定壓縮包內的檔案名稱與壓縮包前檔名(不包括它本身的副檔名)一樣。"
 
-#: src/quanta.cpp:2464
+#: src/quanta.cpp:2462
 msgid ""
 "<qt>An error happened while saving the <b>%1</b> toolbar."
 "<br>Check that you have write permissions for"
@@ -9761,53 +9761,53 @@ msgid ""
 "Save as Local Toolbar</i> in this case. </qt>"
 msgstr ""
 
-#: src/quanta.cpp:2465
+#: src/quanta.cpp:2463
 msgid "Toolbar Saving Error"
 msgstr "工具列儲存錯誤"
 
-#: src/quanta.cpp:2499 src/quanta.cpp:3322 src/quanta.cpp:3327
+#: src/quanta.cpp:2497 src/quanta.cpp:3320 src/quanta.cpp:3325
 msgid "Save Toolbar"
 msgstr "儲存工具列"
 
-#: dialogs/actionconfigdialog.cpp:888 src/quanta.cpp:2500 src/quanta.cpp:2664
-#: src/quanta.cpp:2700 src/quanta.cpp:2802
+#: dialogs/actionconfigdialog.cpp:888 src/quanta.cpp:2498 src/quanta.cpp:2662
+#: src/quanta.cpp:2698 src/quanta.cpp:2800
 msgid "Please select a toolbar:"
 msgstr "請選擇一個工具列："
 
-#: src/quanta.cpp:2556
+#: src/quanta.cpp:2554
 msgid ""
 "<qt>You must save the toolbars to the following folder: "
 "<br>"
 "<br><b>%1</b></qt>"
 msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
 
-#: src/quanta.cpp:2594
+#: src/quanta.cpp:2592
 msgid "New Toolbar"
 msgstr "新的工具列"
 
-#: src/quanta.cpp:2594
+#: src/quanta.cpp:2592
 msgid "Enter toolbar name:"
 msgstr "請輸入工具列名稱："
 
-#: src/quanta.cpp:2594
+#: src/quanta.cpp:2592
 #, c-format
 msgid "User_%1"
 msgstr "User_%1"
 
-#: src/quanta.cpp:2663 utility/toolbartabwidget.cpp:49
+#: src/quanta.cpp:2661 utility/toolbartabwidget.cpp:49
 #: utility/toolbartabwidget.cpp:327
 msgid "Remove Toolbar"
 msgstr "移除工具列"
 
-#: src/quanta.cpp:2699
+#: src/quanta.cpp:2697
 msgid "Send Toolbar"
 msgstr "傳送工具列"
 
-#: src/quanta.cpp:2738
+#: src/quanta.cpp:2736
 msgid "Send toolbar in email"
 msgstr "以 Email 傳送工具列"
 
-#: src/quanta.cpp:2740
+#: src/quanta.cpp:2738
 msgid ""
 "Hi,\n"
 " This is a Quanta Plus [http://quanta.kdewebdev.org] toolbar.\n"
@@ -9819,16 +9819,16 @@ msgstr ""
 "\n"
 "Have fun.\n"
 
-#: src/quanta.cpp:2744 src/quanta.cpp:3618 treeviews/scripttreeview.cpp:279
+#: src/quanta.cpp:2742 src/quanta.cpp:3616 treeviews/scripttreeview.cpp:279
 #: treeviews/templatestreeview.cpp:991
 msgid "Content:"
 msgstr "內容："
 
-#: src/quanta.cpp:2752
+#: src/quanta.cpp:2750
 msgid "Quanta Plus toolbar"
 msgstr "Quanta Plus 工具列"
 
-#: src/quanta.cpp:2757 src/quanta.cpp:3632 treeviews/scripttreeview.cpp:293
+#: src/quanta.cpp:2755 src/quanta.cpp:3630 treeviews/scripttreeview.cpp:293
 #: treeviews/templatestreeview.cpp:1005
 msgid ""
 "No destination address was specified.\n"
@@ -9837,64 +9837,64 @@ msgstr ""
 "沒有指定要傳送的地址。\n"
 " 傳送已中止。"
 
-#: src/quanta.cpp:2757 src/quanta.cpp:3632 treeviews/scripttreeview.cpp:293
+#: src/quanta.cpp:2755 src/quanta.cpp:3630 treeviews/scripttreeview.cpp:293
 #: treeviews/templatestreeview.cpp:1005
 msgid "Error Sending Email"
 msgstr "傳送郵件時發生錯誤"
 
-#: src/quanta.cpp:2801 src/quanta.cpp:2824
+#: src/quanta.cpp:2799 src/quanta.cpp:2822
 msgid "Rename Toolbar"
 msgstr "重新命名工具列"
 
-#: src/quanta.cpp:2824
+#: src/quanta.cpp:2822
 msgid "Enter the new name:"
 msgstr "請輸入新的名稱："
 
-#: src/quanta.cpp:3076
+#: src/quanta.cpp:3074
 msgid "Change the current DTD."
 msgstr "更換目前的 DTD。"
 
-#: src/quanta.cpp:3098
+#: src/quanta.cpp:3096
 msgid "Edit DTD"
 msgstr "編輯 DTD"
 
-#: src/quanta.cpp:3099 src/quanta.cpp:3562
+#: src/quanta.cpp:3097 src/quanta.cpp:3560
 msgid "Please select a DTD:"
 msgstr "請選擇一個 DTD："
 
-#: src/quanta.cpp:3101
+#: src/quanta.cpp:3099
 msgid "Create a new DTEP description"
 msgstr "建立一個新的 DTEP 描述"
 
-#: src/quanta.cpp:3102
+#: src/quanta.cpp:3100
 msgid "Load DTEP description from disk"
 msgstr "從磁碟中載入 DTEP 描述"
 
-#: src/quanta.cpp:3321
+#: src/quanta.cpp:3319
 msgid ""
 "<qt>Toolbar <b>%1</b> is new and unsaved. Do you want to save it before it is "
 "removed?</qt>"
 msgstr "<qt>工具列<b>%1</b>是新的而且未被儲存。您要在它被移除之前儲存它嗎?</qt>"
 
-#: src/quanta.cpp:3326
+#: src/quanta.cpp:3324
 msgid ""
 "<qt>The toolbar <b>%1</b> was modified. Do you want to save it before it is "
 "removed?</qt>"
 msgstr "<qt>工具列<b>%1</b>已被修改。您要在它被移除之前儲存它嗎?</qt>"
 
-#: src/quanta.cpp:3545
+#: src/quanta.cpp:3543
 msgid "Select DTEP Directory"
 msgstr "選擇 DTEP 目錄"
 
-#: src/quanta.cpp:3561
+#: src/quanta.cpp:3559
 msgid "Send DTD"
 msgstr "傳送 DTD"
 
-#: src/quanta.cpp:3612
+#: src/quanta.cpp:3610
 msgid "Send DTEP in Email"
 msgstr "以 Email 傳送 DTEP"
 
-#: src/quanta.cpp:3614
+#: src/quanta.cpp:3612
 msgid ""
 "Hi,\n"
 " This is a Quanta Plus [http://quanta.kdewebdev.org] DTEP definition tarball.\n"
@@ -9906,37 +9906,37 @@ msgstr ""
 "\n"
 "Have fun.\n"
 
-#: src/quanta.cpp:3627
+#: src/quanta.cpp:3625
 msgid "Quanta Plus DTD"
 msgstr "Quanta Plus DTD"
 
-#: src/quanta.cpp:3723
+#: src/quanta.cpp:3721
 msgid "Code formatting can only be done in the source view."
 msgstr "縮排代碼的功能只可在代碼檢視模式時才能使用。"
 
-#: src/quanta.cpp:3741
+#: src/quanta.cpp:3739
 msgid "The Document Properties Dialog is only for HTML and XHTML."
 msgstr "文件屬性對話櫂只能被 HTML 及 XHTML 使用。"
 
-#: src/quanta.cpp:3858
+#: src/quanta.cpp:3856
 msgid "Do you want to review the upload?"
 msgstr ""
 
-#: src/quanta.cpp:3858
+#: src/quanta.cpp:3856
 msgid "Enable Quick Upload"
 msgstr "啟用快速上傳"
 
-#: src/quanta.cpp:3858
+#: src/quanta.cpp:3856
 #, fuzzy
 msgid "Review"
 msgstr "預覽"
 
-#: src/quanta.cpp:3858
+#: src/quanta.cpp:3856
 #, fuzzy
 msgid "Do Not Review"
 msgstr "預覽"
 
-#: src/quanta.cpp:4081 src/quanta.cpp:4769 src/quanta.cpp:4804
+#: src/quanta.cpp:4079 src/quanta.cpp:4767 src/quanta.cpp:4802
 msgid ""
 "The file must be saved before external preview.\n"
 "Do you want to save and preview?"
@@ -9944,21 +9944,21 @@ msgstr ""
 "這個檔案在外部預覽前要先被儲存。\n"
 "您要儲存它來繼續預覽嗎?"
 
-#: src/quanta.cpp:4083 src/quanta.cpp:4771 src/quanta.cpp:4806
+#: src/quanta.cpp:4081 src/quanta.cpp:4769 src/quanta.cpp:4804
 msgid "Save Before Preview"
 msgstr "預覽前儲存"
 
-#: src/main.cpp:70 src/quanta.cpp:4106 treeviews/basetreeview.cpp:438
+#: src/main.cpp:70 src/quanta.cpp:4104 treeviews/basetreeview.cpp:438
 #: treeviews/templatestreeview.cpp:567
 msgid "Quanta"
 msgstr "Quanta"
 
-#: src/quanta.cpp:4330 src/quantadoc.cpp:322
+#: src/quanta.cpp:4328 src/quantadoc.cpp:322
 #, c-format
 msgid "Unknown tag: %1"
 msgstr "未知的標籤 : %1"
 
-#: src/quanta.cpp:4553
+#: src/quanta.cpp:4551
 msgid ""
 "The CSS Editor cannot be invoked here.\n"
 "Try to invoke it on a tag or on a style section."
@@ -9966,26 +9966,26 @@ msgstr ""
 "CSS 編輯器無法在這裏被調用。\n"
 "請嘗試在標籤或 style 區域內調用它。"
 
-#: src/quanta.cpp:4562
+#: src/quanta.cpp:4560
 msgid "Email Link (mailto)"
 msgstr "Email Link (mailto)"
 
-#: src/quanta.cpp:4624
+#: src/quanta.cpp:4622
 msgid "Generate List"
 msgstr "產生列表"
 
-#: src/quanta.cpp:4691
+#: src/quanta.cpp:4689
 msgid ""
 "The table structure is invalid. Most probably you forgot to close some tags."
 msgstr "這個表格結構是無效的，想必是您忘記加上某些結束標籤了。"
 
 #: components/tableeditor/tableeditor.cpp:1168
 #: components/tableeditor/tableeditor.cpp:1189
-#: components/tableeditor/tableeditor.cpp:1204 src/quanta.cpp:4691
+#: components/tableeditor/tableeditor.cpp:1204 src/quanta.cpp:4689
 msgid "Cannot Read Table"
 msgstr "無法讀取表格"
 
-#: src/quanta.cpp:5360
+#: src/quanta.cpp:5358
 msgid "Annotate Document"
 msgstr "加上文件附註"
 
@@ -10035,25 +10035,25 @@ msgstr "<qt>無法下載 <b>%1</b>。</qt>"
 msgid "<qt>Cannot open <b>%1</b> for reading.</qt>"
 msgstr "<qt>無法開啟 <b>%1</b> 作讀取。</qt>"
 
-#: src/document.cpp:2663
+#: src/document.cpp:2665
 msgid "Change Tag & Attribute Case"
 msgstr "改變標籤 & 標籤屬性的大小寫"
 
-#: src/document.cpp:2682
+#: src/document.cpp:2684
 msgid "Working..."
 msgstr "工作中..."
 
-#: src/document.cpp:2683
+#: src/document.cpp:2685
 msgid ""
 "Changing tag and attribute case. This may take some time, depending on the "
 "document complexity."
 msgstr "正在轉換標籤和標籤屬性的大小寫。所需的時間取決於文件的複雜程度。"
 
-#: src/document.cpp:2881
+#: src/document.cpp:2883
 msgid "This DTD is not known for Quanta. Choose a DTD or create a new one."
 msgstr "Quanta 不認識這個 DTD。請選擇一個已知的 DTD 或建立一個新的。"
 
-#: src/document.cpp:2927
+#: src/document.cpp:2929
 msgid ""
 "\"%1\" is used for \"%2\".\n"
 msgstr ""
