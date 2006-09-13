@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdvi\n"
-"POT-Creation-Date: 2006-08-09 04:03+0200\n"
+"POT-Creation-Date: 2006-09-13 02:36+0200\n"
 "PO-Revision-Date: 2006-01-08 20:32+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -153,56 +153,56 @@ msgstr "記憶體不足以載入 DVI 檔。"
 msgid "Could not load the DVI-file."
 msgstr "無法載入 DVI 檔。"
 
-#: dviRenderer.cpp:209
+#: dviRenderer.cpp:210
 msgid ""
 "<qt><strong>File corruption!</strong> KDVI had trouble interpreting your DVI "
 "file. Most likely this means that the DVI file is broken.</qt>"
 msgstr "<qt><strong>檔案有誤！</strong> KDVI 無法解譯您的 DVI 檔。很可能您的 DVI 檔已毀損。</qt>"
 
-#: dviRenderer.cpp:211 dviRenderer.cpp:472
+#: dviRenderer.cpp:212 dviRenderer.cpp:483
 msgid "DVI File Error"
 msgstr "DVI 檔案錯誤"
 
-#: dviRenderer.cpp:261
+#: dviRenderer.cpp:262
 msgid "KDVI: Information"
 msgstr "KDVI: 資訊"
 
-#: dviRenderer.cpp:276
+#: dviRenderer.cpp:277
 msgid ""
 "<qt>This DVI file contains source file information. You may click into the text "
 "with the middle mouse button, and an editor will open the TeX-source file "
 "immediately.</qt>"
 msgstr "<qt>這個 DVI 檔含有原始文稿檔案資訊。您可以按一下滑鼠中鍵來開啟 TeX 文稿的編輯器。</qt>"
 
-#: dviRenderer.cpp:285
+#: dviRenderer.cpp:286
 msgid "Explain in more detail..."
 msgstr "更詳細的解釋..."
 
-#: dviRenderer.cpp:314
+#: dviRenderer.cpp:315
 msgid "Embedding PostScript Files"
 msgstr "正在嵌入 PostScript 檔案"
 
-#: dviRenderer.cpp:344
+#: dviRenderer.cpp:345
 msgid "Not all PostScript files could be embedded into your document."
 msgstr "不是所有 PostScript 檔案皆可嵌入你的文件中。"
 
-#: dviRenderer.cpp:347
+#: dviRenderer.cpp:348
 msgid ""
 "All external PostScript files were embedded into your document. You will "
 "probably want to save the DVI file now."
 msgstr "所有外部 PostScript 檔已經嵌入你的文件中。你最好現在儲存 DVI 檔。"
 
-#: dviRenderer.cpp:438
+#: dviRenderer.cpp:439
 msgid ""
 "<qt><strong>File error.</strong> The specified file '%1' does not exist. KDVI "
 "already tried to add the ending '.dvi'.</qt>"
 msgstr "<qt><strong>檔案錯誤！</strong> 所指定的檔案『%1』不存在。 KDVI 已嘗試加入『.dvi』副檔名。</qt>"
 
-#: dviRenderer.cpp:440
+#: dviRenderer.cpp:441
 msgid "File Error!"
 msgstr "檔案錯誤！"
 
-#: dviRenderer.cpp:451
+#: dviRenderer.cpp:452
 msgid ""
 "<qt>Could not open file <nobr><strong>%1</strong></nobr> which has type <strong>"
 "%2</strong>. KDVI can only load DVI (.dvi) files.</qt>"
@@ -210,13 +210,13 @@ msgstr ""
 "<qt>無法開啟 <nobr><strong>%1</strong></nobr>，檔案類型為 <strong>%2</strong>"
 "。KDVI 只能載入 DVI (.dvi) 檔。</qt>"
 
-#: dviRenderer.cpp:470
+#: dviRenderer.cpp:463 dviRenderer.cpp:481
 msgid ""
 "<qt>File corruption! KDVI had trouble interpreting your DVI file. Most likely "
 "this means that the DVI file is broken.</qt>"
 msgstr "<qt>檔案有誤！KDVI 無法解譯您的 DVI 檔。很可能您的 DVI 檔已毀損。</qt>"
 
-#: dviRenderer.cpp:629
+#: dviRenderer.cpp:640
 msgid ""
 "<qt>You have asked KDVI to locate the place in the DVI file which corresponds "
 "to line %1 in the TeX-file <strong>%2</strong>. It seems, however, that the DVI "
@@ -227,27 +227,27 @@ msgstr ""
 "<qt>您要 KDVI 找到在 <strong>%2</strong> TeX 文稿的 %1 行的相對應位置。但此 DVI "
 "檔並沒有包含必要的來源文稿資訊。請按 F1 鍵，參考 KDVI 手冊的詳細說明。</qt>"
 
-#: dviRenderer.cpp:634 dviRenderer.cpp:674
+#: dviRenderer.cpp:645 dviRenderer.cpp:685
 msgid "Could Not Find Reference"
 msgstr "無法找到參考"
 
-#: dviRenderer.cpp:672
+#: dviRenderer.cpp:683
 msgid ""
 "<qt>KDVI was not able to locate the place in the DVI file which corresponds to "
 "line %1 in the TeX-file <strong>%2</strong>.</qt>"
 msgstr "<qt>KDVI 無法找到在 <strong>%2</strong> TeX 文稿的 %1 行的相對應位置。<qt>"
 
-#: dviRenderer.cpp:726
+#: dviRenderer.cpp:737
 msgid ""
 "The DVI-file refers to the TeX-file <strong>%1</strong> "
 "which could not be found."
 msgstr "DVI 檔參考了找不到的 TeX 文稿 <strong>%1</strong>。"
 
-#: dviRenderer.cpp:729
+#: dviRenderer.cpp:740
 msgid "Could Not Find File"
 msgstr "無法找到檔案"
 
-#: dviRenderer.cpp:736
+#: dviRenderer.cpp:747
 msgid ""
 "You have not yet specified an editor for inverse search. Please choose your "
 "favorite editor in the <strong>DVI options dialog</strong> "
@@ -255,15 +255,15 @@ msgid ""
 msgstr ""
 "您尚未指定用於反向搜尋的編輯器。請由<strong>設置</strong>選單中的<strong>DVI 選項對話框</strong>指定您喜愛的編輯器。"
 
-#: dviRenderer.cpp:741
+#: dviRenderer.cpp:752
 msgid "Need to Specify Editor"
 msgstr "需指定編輯器"
 
-#: dviRenderer.cpp:742
+#: dviRenderer.cpp:753
 msgid "Use KDE's Editor Kate for Now"
 msgstr "現在使用 KDE 的 Kate 編輯器"
 
-#: dviRenderer.cpp:774
+#: dviRenderer.cpp:785
 msgid ""
 "<qt>The external program"
 "<br>"
@@ -282,7 +282,7 @@ msgstr ""
 "<br/> 傳回錯誤。您可能需要查看一下 <strong>文件資訊對話框</strong> 的 檔案-選單 來得知詳細的情形。 KDVI "
 "的使用手冊有詳細的說明如何設定編輯器及一些其他的問題說明。</qt>"
 
-#: dviRenderer.cpp:780
+#: dviRenderer.cpp:791
 msgid "Starting the editor..."
 msgstr "正在啟動編輯器..."
 
