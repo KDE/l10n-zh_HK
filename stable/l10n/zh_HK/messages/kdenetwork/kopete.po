@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2006-10-08 02:39+0200\n"
+"POT-Creation-Date: 2006-11-01 02:38+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -210,8 +210,9 @@ msgstr "極嚴重"
 #: plugins/statistics/statisticscontact.cpp:362
 #: plugins/statistics/statisticsdialog.cpp:339
 #: protocols/gadu/gaduprotocol.cpp:71 protocols/gadu/gaduprotocol.cpp:73
-#: protocols/irc/ircprotocol.cpp:111 protocols/irc/ircprotocol.cpp:116
-#: protocols/irc/ircprotocol.cpp:139 protocols/jabber/jabbercontact.cpp:156
+#: protocols/groupwise/gwprotocol.cpp:50 protocols/irc/ircprotocol.cpp:111
+#: protocols/irc/ircprotocol.cpp:116 protocols/irc/ircprotocol.cpp:139
+#: protocols/jabber/jabbercontact.cpp:156
 #: protocols/jabber/jabberprotocol.cpp:75
 #: protocols/meanwhile/meanwhileprotocol.cpp:42
 #: protocols/msn/msnprotocol.cpp:52 protocols/oscar/aim/aimaccount.cpp:309
@@ -1020,7 +1021,8 @@ msgstr "隱形(&I)"
 
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 61
 #: kopete/kopetewindow.cpp:260 protocols/gadu/gaduprotocol.cpp:71
-#: protocols/gadu/gaduprotocol.cpp:73 rc.cpp:4071
+#: protocols/gadu/gaduprotocol.cpp:73 protocols/groupwise/gwprotocol.cpp:50
+#: rc.cpp:4071
 #, no-c-format
 msgid "&Online"
 msgstr "上線(&O)"
@@ -16323,14 +16325,6 @@ msgstr ""
 msgid "Personal Title"
 msgstr "個人頭銜"
 
-#: protocols/groupwise/gwprotocol.cpp:50
-msgid "Available"
-msgstr "有空"
-
-#: protocols/groupwise/gwprotocol.cpp:50
-msgid "A&vailable"
-msgstr "有空(&V)"
-
 #: protocols/groupwise/gwprotocol.cpp:59
 msgid "Appear Offline"
 msgstr "表現為離線"
@@ -16527,6 +16521,12 @@ msgstr "此對話以 SSL 安全機制保密。"
 #: protocols/groupwise/gwmessagemanager.cpp:513
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
+
+#~ msgid "Available"
+#~ msgstr "有空"
+
+#~ msgid "A&vailable"
+#~ msgstr "有空(&V)"
 
 #~ msgid "Addressbook association"
 #~ msgstr "通訊錄關聯"
