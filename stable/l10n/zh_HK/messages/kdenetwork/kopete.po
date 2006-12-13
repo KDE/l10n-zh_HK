@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2006-12-03 02:38+0100\n"
+"POT-Creation-Date: 2006-12-13 02:39+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -10830,7 +10830,7 @@ msgid "%1 wants to start a chat with NetMeeting; do you want to accept it? "
 msgstr "%1 想以 NetMeeting 開始聊天；要接受嗎？"
 
 #: plugins/netmeeting/netmeetinginvitation.cpp:68
-#: protocols/msn/msnaccount.cpp:344 protocols/msn/msnaccount.cpp:1284
+#: protocols/msn/msnaccount.cpp:346 protocols/msn/msnaccount.cpp:1285
 #: protocols/msn/msnaddcontactpage.cpp:76 protocols/msn/msnchatsession.cpp:356
 #: protocols/msn/msnchatsession.cpp:365 protocols/msn/msncontact.cpp:175
 #: protocols/msn/msncontact.cpp:252
@@ -12223,7 +12223,7 @@ msgid ""
 "<br>Make sure that you have selected a correct image file</qt>"
 msgstr "<qt>嘗試更改顯示圖片時發生錯誤。<br>請確定已選取正確的圖像檔案</qt>"
 
-#: protocols/msn/msnaccount.cpp:344 protocols/msn/msnaddcontactpage.cpp:76
+#: protocols/msn/msnaccount.cpp:346 protocols/msn/msnaddcontactpage.cpp:76
 #: protocols/msn/msnchatsession.cpp:365
 #: protocols/msn/ui/msneditaccountwidget.cpp:278
 msgid "<qt>You must enter a valid email address.</qt>"
@@ -12353,7 +12353,7 @@ msgstr "遠端用戶端"
 msgid "Contact GUID"
 msgstr "聯絡人 GUID"
 
-#: protocols/msn/msnswitchboardsocket.cpp:118
+#: protocols/msn/msnswitchboardsocket.cpp:122
 msgid ""
 "Invalid user:\n"
 "this MSN user does not exist; please check the MSN ID."
@@ -12361,15 +12361,15 @@ msgstr ""
 "無效的用戶：\n"
 "沒有這個 MSN 用戶；請檢查 MSN ID 。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:122
+#: protocols/msn/msnswitchboardsocket.cpp:126
 msgid "user never joined"
 msgstr "用戶從未加入"
 
-#: protocols/msn/msnswitchboardsocket.cpp:127
+#: protocols/msn/msnswitchboardsocket.cpp:131
 msgid "The user %1 is already in this chat."
 msgstr "用戶 %1 已在聊天中。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:135
+#: protocols/msn/msnswitchboardsocket.cpp:139
 msgid ""
 "The user %1 is online but has blocked you:\n"
 "you can not talk to this user."
@@ -12377,12 +12377,12 @@ msgstr ""
 "用戶 %1 已上線，但將你封鎖了：\n"
 "你不能和他談話。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:138
-#: protocols/msn/msnswitchboardsocket.cpp:155
+#: protocols/msn/msnswitchboardsocket.cpp:142
+#: protocols/msn/msnswitchboardsocket.cpp:159
 msgid "user blocked you"
 msgstr "用戶將你封鎖了"
 
-#: protocols/msn/msnswitchboardsocket.cpp:144
+#: protocols/msn/msnswitchboardsocket.cpp:148
 msgid ""
 "The user %1 is currently not signed in.\n"
 "Messages will not be delivered."
@@ -12390,42 +12390,47 @@ msgstr ""
 "用戶 %1 未簽入。\n"
 "訊息不會遞送。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:147
+#: protocols/msn/msnswitchboardsocket.cpp:151
 msgid "user disconnected"
 msgstr "用戶已斷線"
 
-#: protocols/msn/msnswitchboardsocket.cpp:152
+#: protocols/msn/msnswitchboardsocket.cpp:156
 msgid ""
 "You are trying to invite too many contacts to this chat at the same time"
 msgstr "你正要在同一時間邀請太多聯絡人到此聊天"
 
-#: protocols/msn/msnswitchboardsocket.cpp:204
+#: protocols/msn/msnswitchboardsocket.cpp:164
+#, fuzzy
+msgid "Kopete MSN plugin has trouble authenticating with switchboard server."
+msgstr "向伺服器認證時發生錯誤： %1"
+
+#: protocols/msn/msnswitchboardsocket.cpp:218
 msgid "timeout"
 msgstr "逾時"
 
-#: protocols/msn/msnswitchboardsocket.cpp:756
+#: protocols/msn/msnswitchboardsocket.cpp:770
 msgid ""
 "The message you are trying to send is too long; it will be split into %1 "
 "messages."
 msgstr "你要傳送的訊息太長；它會被分成 %1 份訊息。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:757
+#: protocols/msn/msnswitchboardsocket.cpp:771
 msgid "Message too big - MSN Plugin"
 msgstr "訊息太大 - MSN 插件"
 
-#: protocols/msn/msnswitchboardsocket.cpp:828
+#: protocols/msn/msnswitchboardsocket.cpp:842
 msgid "connection closed"
 msgstr "連線已關閉"
 
-#: protocols/msn/msnswitchboardsocket.cpp:908
+#: protocols/msn/msnswitchboardsocket.cpp:922
 msgid "<img src=\"%1\" alt=\"Typewrited message\" />"
 msgstr "<img src=\"%1\" alt=\"鍵入的訊息\" />"
 
-#: protocols/msn/msnnotifysocket.cpp:123
+#: protocols/msn/msnnotifysocket.cpp:125
 msgid "<qt>The MSN user '%1' does not exist.<br>Please check the MSN ID.</qt>"
 msgstr "<qt>沒有這個 MSN 用戶『%1』。<br>請檢查該 MSN ID 。</qt>"
 
-#: protocols/msn/msnnotifysocket.cpp:132
+#: protocols/msn/msnnotifysocket.cpp:133
 msgid ""
 "<qt>An internal error occurred in the MSN plugin."
 "<br>MSN Error: %1"
@@ -12437,7 +12442,7 @@ msgstr ""
 "<br>MSN 錯誤: %1"
 "<br>請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括在主控台的原始偵錯輸出（請使用 gzip 格式，因可能有很多輸出）。"
 
-#: protocols/msn/msnnotifysocket.cpp:146
+#: protocols/msn/msnnotifysocket.cpp:145
 msgid ""
 "Unable to change your display name.\n"
 "Please ensure your display is not too long and does not contains censored "
@@ -12446,11 +12451,11 @@ msgstr ""
 "無法更改你的顯示名稱。\n"
 "請確定你的顯示不是太長及沒有有問題的字詞。"
 
-#: protocols/msn/msnnotifysocket.cpp:162
+#: protocols/msn/msnnotifysocket.cpp:160
 msgid "Your contact list is full; you cannot add any new contacts."
 msgstr "你的聯絡人清單已滿；你無法再新增聯絡人。"
 
-#: protocols/msn/msnnotifysocket.cpp:169
+#: protocols/msn/msnnotifysocket.cpp:166
 msgid ""
 "<qt>The user '%1' already exists in this group on the MSN server;"
 "<br>if Kopete does not show the user, please send us a detailed bug report at "
@@ -12461,11 +12466,11 @@ msgstr ""
 "<br>如 Kopete 不顯示這個使用者，請傳送詳細的錯誤報告給 kopete-devel@kde.org ，包括在主控台的原始偵錯輸出（請使用 gzip "
 "格式，因可能有很多輸出）。</qt>"
 
-#: protocols/msn/msnnotifysocket.cpp:187
+#: protocols/msn/msnnotifysocket.cpp:183
 msgid "The user '%1' seems to already be blocked or allowed on the server."
 msgstr "使用者『%1』看來已經在伺服器上被封鎖或容許。"
 
-#: protocols/msn/msnnotifysocket.cpp:194
+#: protocols/msn/msnnotifysocket.cpp:189
 msgid ""
 "You have reached the maximum number of groups:\n"
 "MSN does not support more than 30 groups."
@@ -12473,7 +12478,7 @@ msgstr ""
 "你已到達群組的最大值：\n"
 "MSN 不支援多於 30 個群組。"
 
-#: protocols/msn/msnnotifysocket.cpp:204
+#: protocols/msn/msnnotifysocket.cpp:198
 msgid ""
 "Kopete is trying to perform an operation on a group or a contact that does not "
 "exists on the server.\n"
@@ -12484,54 +12489,54 @@ msgstr ""
 "Kopete 正要對不存在於伺服器的群組或聯絡人進行操作。\n"
 "這可能是因為 Kopete 的聯絡人清單和 MSN-伺服器聯絡人清單未能同步；如真是這樣你可能要傳送錯誤報告。"
 
-#: protocols/msn/msnnotifysocket.cpp:213
+#: protocols/msn/msnnotifysocket.cpp:206
 msgid "The group name is too long; it has not been changed on the MSN server."
 msgstr "群組名稱太長；它未有在 MSN 伺服器上更改。"
 
-#: protocols/msn/msnnotifysocket.cpp:220
+#: protocols/msn/msnnotifysocket.cpp:212
 msgid ""
 "You cannot open a Hotmail inbox because you do not have an MSN account with a "
 "valid Hotmail or MSN mailbox."
 msgstr "你無法開啟 Hotmail 收件匣，因為你沒有有效 Hotmail 或 MSN 郵箱的 MSN 帳號。"
 
-#: protocols/msn/msnnotifysocket.cpp:254
+#: protocols/msn/msnnotifysocket.cpp:245
 msgid ""
 "You can not send messages when you are offline or when you are invisible."
 msgstr "當你離線或隱形時無法傳送訊息。"
 
-#: protocols/msn/msnnotifysocket.cpp:261
+#: protocols/msn/msnnotifysocket.cpp:251
 msgid ""
 "You are trying to perform an action you are not allowed to perform in 'kid "
 "mode'."
 msgstr "你正要進行在『兒童模式』不容許的操作。"
 
-#: protocols/msn/msnnotifysocket.cpp:765
+#: protocols/msn/msnnotifysocket.cpp:757
 #, c-format
 msgid ""
 "_n: You have one unread message in your MSN inbox.\n"
 "You have %n unread messages in your MSN inbox."
 msgstr "你的 MSN 收件匣有 %n 個未讀訊息。"
 
-#: protocols/msn/msnnotifysocket.cpp:765 protocols/msn/msnnotifysocket.cpp:787
+#: protocols/msn/msnnotifysocket.cpp:757 protocols/msn/msnnotifysocket.cpp:779
 #: protocols/yahoo/yahooaccount.cpp:1499 protocols/yahoo/yahooaccount.cpp:1506
 msgid "Open Inbox..."
 msgstr "開啟收件匣..."
 
-#: protocols/msn/msnnotifysocket.cpp:786
+#: protocols/msn/msnnotifysocket.cpp:778
 msgid "You have one new email from %1 in your MSN inbox."
 msgstr "你的 MSN 收件匣有一個來自 %1 的新電子郵件。"
 
-#: protocols/msn/msnnotifysocket.cpp:913
+#: protocols/msn/msnnotifysocket.cpp:905
 #, fuzzy
 msgid "More Information"
 msgstr "更多資訊..."
 
-#: protocols/msn/msnnotifysocket.cpp:916
+#: protocols/msn/msnnotifysocket.cpp:908
 #, fuzzy
 msgid "Manage Subscription"
 msgstr "訂閱"
 
-#: protocols/msn/msnnotifysocket.cpp:1025
+#: protocols/msn/msnnotifysocket.cpp:1017
 msgid "Now Listening: ♫ %1 ♫"
 msgstr "正在聆聽: ♫ %1 ♫"
 
@@ -12548,7 +12553,7 @@ msgstr ""
 msgid "Unable to lookup %1"
 msgstr "無法查找 %1"
 
-#: protocols/msn/msnsocket.cpp:569
+#: protocols/msn/msnsocket.cpp:568
 msgid "An internal server error occurred. Please try again later."
 msgstr "發生伺服器內部錯誤。請稍後再試。"
 
@@ -12558,15 +12563,15 @@ msgid ""
 "allow it anymore."
 msgstr "現在已不能進行這種操作。 MSN 伺服器已不再容許。"
 
-#: protocols/msn/msnsocket.cpp:578
+#: protocols/msn/msnsocket.cpp:580
 msgid "The MSN server is busy. Please try again later."
 msgstr "MSN 伺服器忙碌。請稍後再試。"
 
-#: protocols/msn/msnsocket.cpp:587
+#: protocols/msn/msnsocket.cpp:590
 msgid "The server is not available at the moment. Please try again later."
 msgstr "伺服器現在不能用。請稍後再試。"
 
-#: protocols/msn/msnsocket.cpp:591
+#: protocols/msn/msnsocket.cpp:596
 msgid ""
 "Unhandled MSN error code %1 \n"
 "Please fill a bug report with a detailed description and if possible the last "
@@ -12630,7 +12635,7 @@ msgstr "%1 的網絡攝影機影像"
 msgid "&Invite"
 msgstr "邀請(&I)"
 
-#: protocols/msn/msnaccount.cpp:269 protocols/msn/msnchatsession.cpp:82
+#: protocols/msn/msnaccount.cpp:271 protocols/msn/msnchatsession.cpp:82
 msgid "Send Raw C&ommand..."
 msgstr "傳送原始指令(&O)..."
 
@@ -12710,38 +12715,38 @@ msgstr "不可能建立連線"
 msgid "DEBUG: Send Raw Command - MSN Plugin"
 msgstr "偵錯：傳送原始指令 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:81 protocols/yahoo/yahooaccount.cpp:99
+#: protocols/msn/msnaccount.cpp:83 protocols/yahoo/yahooaccount.cpp:99
 msgid "Open Inbo&x..."
 msgstr "開啟收件匣(&X)..."
 
-#: protocols/msn/msnaccount.cpp:82
+#: protocols/msn/msnaccount.cpp:84
 msgid "&Change Display Name..."
 msgstr "更改顯示名稱(&C)..."
 
-#: protocols/msn/msnaccount.cpp:83
+#: protocols/msn/msnaccount.cpp:85
 msgid "&Start Chat..."
 msgstr "開始聊天(&S)..."
 
-#: protocols/msn/msnaccount.cpp:330
+#: protocols/msn/msnaccount.cpp:332
 msgid "Start Chat - MSN Plugin"
 msgstr "開始聊天 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:331
+#: protocols/msn/msnaccount.cpp:333
 msgid ""
 "Please enter the email address of the person with whom you want to chat:"
 msgstr "請輸入你要和他聊天的人的電子郵件地址："
 
-#: protocols/msn/msnaccount.cpp:375 protocols/msn/msnaccount.cpp:386
+#: protocols/msn/msnaccount.cpp:377 protocols/msn/msnaccount.cpp:388
 msgid "Change Display Name - MSN Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:376
+#: protocols/msn/msnaccount.cpp:378
 msgid ""
 "Enter the new display name by which you want to be visible to your friends on "
 "MSN:"
 msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
 
-#: protocols/msn/msnaccount.cpp:384
+#: protocols/msn/msnaccount.cpp:386
 msgid ""
 "<qt>The display name you entered is too long. Please use a shorter name.\n"
 "Your display name has <b>not</b> been changed.</qt>"
@@ -12749,7 +12754,7 @@ msgstr ""
 "<qt>你輸入的顯示名稱太長。請使用較短的名稱。\n"
 "你的顯示名稱<b>並未</b>更改。</qt>"
 
-#: protocols/msn/msnaccount.cpp:432
+#: protocols/msn/msnaccount.cpp:434
 msgid ""
 "The connection with the MSN server was lost unexpectedly.\n"
 "If you cannot reconnect now, the server might be down. In that case, please try "
@@ -12758,13 +12763,9 @@ msgstr ""
 "和 MSN 伺服器的連線不預期的中斷。\n"
 "如你現在無法再連線，伺服器可能已當機。請稍後再試。"
 
-#: protocols/msn/msnaccount.cpp:434
+#: protocols/msn/msnaccount.cpp:436
 msgid "Connection Lost - MSN Plugin"
 msgstr "連線中斷 - MSN 插件"
-
-#: protocols/msn/msnaccount.cpp:1306
-msgid "MSN Internal Error"
-msgstr "MSN 內部錯誤"
 
 #: protocols/sms/serviceloader.cpp:46
 #, c-format
@@ -16532,6 +16533,9 @@ msgstr "此對話以 SSL 安全機制保密。"
 #: protocols/groupwise/gwmessagemanager.cpp:513
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
+
+#~ msgid "MSN Internal Error"
+#~ msgstr "MSN 內部錯誤"
 
 #~ msgid "Available"
 #~ msgstr "有空"
