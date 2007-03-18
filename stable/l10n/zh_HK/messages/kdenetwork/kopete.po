@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2007-03-05 02:42+0100\n"
+"POT-Creation-Date: 2007-03-17 02:16+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -216,7 +216,7 @@ msgstr "極嚴重"
 #: protocols/jabber/jabberprotocol.cpp:75
 #: protocols/meanwhile/meanwhileprotocol.cpp:42
 #: protocols/msn/msnprotocol.cpp:52 protocols/oscar/aim/aimaccount.cpp:311
-#: protocols/oscar/aim/aimprotocol.cpp:223
+#: protocols/oscar/aim/aimprotocol.cpp:232
 #: protocols/oscar/icq/icqpresence.cpp:77 protocols/sms/smsprotocol.cpp:37
 #: protocols/winpopup/wpprotocol.cpp:53 protocols/yahoo/yahooprotocol.cpp:43
 msgid "Online"
@@ -231,7 +231,7 @@ msgstr "上線"
 #: protocols/jabber/jabberprotocol.cpp:76
 #: protocols/meanwhile/meanwhileprotocol.cpp:46
 #: protocols/oscar/aim/aimaccount.cpp:314
-#: protocols/oscar/aim/aimprotocol.cpp:225
+#: protocols/oscar/aim/aimprotocol.cpp:234
 #: protocols/oscar/icq/icqpresence.cpp:75 protocols/winpopup/wpprotocol.cpp:54
 msgid "Away"
 msgstr "離開"
@@ -259,7 +259,7 @@ msgstr "隱形"
 #: protocols/jabber/jabberprotocol.cpp:79
 #: protocols/meanwhile/meanwhileprotocol.cpp:37
 #: protocols/msn/msnprotocol.cpp:58 protocols/oscar/aim/aimaccount.cpp:319
-#: protocols/oscar/aim/aimprotocol.cpp:224
+#: protocols/oscar/aim/aimprotocol.cpp:233
 #: protocols/oscar/icq/icqpresence.cpp:71 protocols/sms/smsprotocol.cpp:39
 #: protocols/winpopup/wpprotocol.cpp:55 protocols/yahoo/yahooprotocol.cpp:42
 msgid "Offline"
@@ -539,8 +539,8 @@ msgstr "<qt>你部份正在使用 %1 的帳號離線。 絕大部份系統需要
 msgid "Not Connected"
 msgstr "未連接"
 
-#: libkopete/kabcpersistence.cpp:367 protocols/oscar/aim/aimprotocol.cpp:163
-#: protocols/oscar/icq/icqprotocol.cpp:130
+#: libkopete/kabcpersistence.cpp:367 protocols/oscar/aim/aimprotocol.cpp:164
+#: protocols/oscar/icq/icqprotocol.cpp:119
 msgid "Choose Account"
 msgstr "選擇帳號"
 
@@ -1877,8 +1877,8 @@ msgstr "<qt>你要將 <b>%1</b> 加入你的聯絡人清單作為 <b>%2</b> 的�
 #: kopete/contactlist/kopetecontactlistview.cpp:1010
 #: kopete/contactlist/kopetecontactlistview.cpp:1026
 #: kopete/contactlist/kopetecontactlistview.cpp:1496
-#: protocols/oscar/aim/aimprotocol.cpp:184
-#: protocols/oscar/icq/icqprotocol.cpp:120
+#: protocols/oscar/aim/aimprotocol.cpp:193
+#: protocols/oscar/icq/icqprotocol.cpp:148
 msgid "Do Not Add"
 msgstr "不要加入"
 
@@ -7849,13 +7849,13 @@ msgid "City:"
 msgstr "城市:"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 520
-#: protocols/oscar/icq/icqprotocol.cpp:208 rc.cpp:3261 rc.cpp:3324
+#: protocols/oscar/icq/icqprotocol.cpp:215 rc.cpp:3261 rc.cpp:3324
 #, no-c-format
 msgid "Female"
 msgstr "女性"
 
 #. i18n: file ./protocols/gadu/ui/gadueditaccountui.ui line 525
-#: protocols/oscar/icq/icqprotocol.cpp:209 rc.cpp:3264 rc.cpp:3321
+#: protocols/oscar/icq/icqprotocol.cpp:216 rc.cpp:3264 rc.cpp:3321
 #, no-c-format
 msgid "Male"
 msgstr "男性"
@@ -13330,6 +13330,7 @@ msgstr "隱形(&N)"
 
 #: protocols/groupwise/ui/gwaddcontactpage.cpp:63
 #: protocols/jabber/ui/jabberaddcontactpage.cpp:62
+#: protocols/oscar/aim/aimprotocol.cpp:186
 #: protocols/oscar/aim/ui/aimaddcontactpage.cpp:42
 msgid "You need to be connected to be able to add contacts."
 msgstr "你要連線才能新增聯絡人。"
@@ -13463,42 +13464,47 @@ msgstr "你必須上線才能顯示用戶資訊。"
 msgid "ICQ Plugin"
 msgstr "ICQ 插件"
 
-#: protocols/oscar/aim/aimprotocol.cpp:183
+#: protocols/oscar/aim/aimprotocol.cpp:187
+#: protocols/oscar/oscaraccount.cpp:809 protocols/yahoo/yahooprotocol.cpp:74
+msgid "AIM"
+msgstr "AIM"
+
+#: protocols/oscar/aim/aimprotocol.cpp:192
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/oscar/aim/aimprotocol.cpp:205
+#: protocols/oscar/aim/aimprotocol.cpp:214
 msgid ""
 "Unable to connect to the chat room %1 because the account for %2 is not "
 "connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimprotocol.cpp:227
+#: protocols/oscar/aim/aimprotocol.cpp:236
 #, fuzzy
 msgid "Mobile"
 msgstr "手提電話:"
 
-#: protocols/oscar/aim/aimprotocol.cpp:230
+#: protocols/oscar/aim/aimprotocol.cpp:239
 #, fuzzy
 msgid "Mobile Away"
 msgstr "離開"
 
-#: protocols/oscar/aim/aimprotocol.cpp:231
+#: protocols/oscar/aim/aimprotocol.cpp:240
 #: protocols/oscar/icq/icqpresence.cpp:129
 msgid "Connecting..."
 msgstr "正在連接..."
 
-#: protocols/oscar/aim/aimprotocol.cpp:233
-#: protocols/oscar/icq/icqprotocol.cpp:176
+#: protocols/oscar/aim/aimprotocol.cpp:242
+#: protocols/oscar/icq/icqprotocol.cpp:183
 msgid "Client Features"
 msgstr "客戶端功能"
 
-#: protocols/oscar/aim/aimprotocol.cpp:234
+#: protocols/oscar/aim/aimprotocol.cpp:243
 msgid "User Profile"
 msgstr "用戶資料檔"
 
-#: protocols/oscar/aim/aimprotocol.cpp:235
-#: protocols/oscar/icq/icqprotocol.cpp:177
+#: protocols/oscar/aim/aimprotocol.cpp:244
+#: protocols/oscar/icq/icqprotocol.cpp:184
 msgid "Buddy Icon MD5 Hash"
 msgstr "伙伴圖示 MD5 Hash"
 
@@ -13510,6 +13516,7 @@ msgstr "加入 AIM 聊天室"
 msgid "Join"
 msgstr "加入"
 
+#: protocols/oscar/icq/icqprotocol.cpp:139
 #: protocols/oscar/icq/ui/icqaddcontactpage.cpp:86
 msgid "You must be online to add a contact."
 msgstr "你必須上線才能新增聯絡人。"
@@ -13587,107 +13594,112 @@ msgstr "你必須輸入搜尋準則。"
 msgid "You must be online to display user info."
 msgstr "你必須上線才能顯示用戶資訊。"
 
-#: protocols/oscar/icq/icqprotocol.cpp:116
+#: protocols/oscar/icq/icqprotocol.cpp:139
+#: protocols/oscar/oscaraccount.cpp:809 protocols/yahoo/yahooprotocol.cpp:75
+msgid "ICQ"
+msgstr "ICQ"
+
+#: protocols/oscar/icq/icqprotocol.cpp:144
 msgid "'%1'"
 msgstr "『%1』"
 
-#: protocols/oscar/icq/icqprotocol.cpp:117
+#: protocols/oscar/icq/icqprotocol.cpp:145
 msgid "'%1' (%2)"
 msgstr "『%1』 (%2)"
 
-#: protocols/oscar/icq/icqprotocol.cpp:120
+#: protocols/oscar/icq/icqprotocol.cpp:148
 msgid "Do you want to add %1 to your contact list?"
 msgstr "要新增 %1 到你的聯絡人清單嗎？"
 
-#: protocols/oscar/icq/icqprotocol.cpp:175
+#: protocols/oscar/icq/icqprotocol.cpp:182
 msgid "IP Address"
 msgstr "IP 位址"
 
-#: protocols/oscar/icq/icqprotocol.cpp:178
+#: protocols/oscar/icq/icqprotocol.cpp:185
 msgid "Contact Encoding"
 msgstr "聯絡人編碼"
 
-#: protocols/oscar/icq/icqprotocol.cpp:228
+#: protocols/oscar/icq/icqprotocol.cpp:235
 msgid "Ascension Island"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:230
+#: protocols/oscar/icq/icqprotocol.cpp:237
 msgid "Australian Antarctic Territory"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:237
+#: protocols/oscar/icq/icqprotocol.cpp:244
 msgid "Barbuda"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:248
+#: protocols/oscar/icq/icqprotocol.cpp:255
 msgid "British Virgin Islands"
 msgstr "英屬處女群島"
 
-#: protocols/oscar/icq/icqprotocol.cpp:274
+#: protocols/oscar/icq/icqprotocol.cpp:281
 msgid "Diego Garcia"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:290
+#: protocols/oscar/icq/icqprotocol.cpp:297
 msgid "French Antilles"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:304
+#: protocols/oscar/icq/icqprotocol.cpp:311
 msgid "Guantanamo Bay"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:313
+#: protocols/oscar/icq/icqprotocol.cpp:320
 msgid "INMARSAT (Atlantic-East)"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:314
+#: protocols/oscar/icq/icqprotocol.cpp:321
 msgid "INMARSAT (Atlantic-West)"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:315
+#: protocols/oscar/icq/icqprotocol.cpp:322
 msgid "INMARSAT (Indian)"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:316
+#: protocols/oscar/icq/icqprotocol.cpp:323
 msgid "INMARSAT (Pacific)"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:317
+#: protocols/oscar/icq/icqprotocol.cpp:324
 msgid "INMARSAT"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:321
+#: protocols/oscar/icq/icqprotocol.cpp:328
 msgid "International Freephone Service"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:327
-#: protocols/oscar/icq/icqprotocol.cpp:401
+#: protocols/oscar/icq/icqprotocol.cpp:334
+#: protocols/oscar/icq/icqprotocol.cpp:408
 msgid "Ivory Coast"
 msgstr "象牙海岸"
 
-#: protocols/oscar/icq/icqprotocol.cpp:373
+#: protocols/oscar/icq/icqprotocol.cpp:380
 msgid "Nevis"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:395
+#: protocols/oscar/icq/icqprotocol.cpp:402
 msgid "Reunion Island"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:397
+#: protocols/oscar/icq/icqprotocol.cpp:404
 msgid "Rota Island"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:430
+#: protocols/oscar/icq/icqprotocol.cpp:437
 msgid "Tinian Island"
 msgstr ""
 
 #. i18n("Arabic")
-#: protocols/oscar/icq/icqprotocol.cpp:468
+#: protocols/oscar/icq/icqprotocol.cpp:475
 msgid "Bhojpuri"
 msgstr ""
 
 #. i18n("Bulgarian")
 #. i18n("Burmese")
-#: protocols/oscar/icq/icqprotocol.cpp:471
+#: protocols/oscar/icq/icqprotocol.cpp:478
 msgid "Cantonese"
 msgstr "粵語"
 
@@ -13700,7 +13712,7 @@ msgstr "粵語"
 #. i18n("English")
 #. i18n("Esperanto")
 #. i18n("Estonian")
-#: protocols/oscar/icq/icqprotocol.cpp:481
+#: protocols/oscar/icq/icqprotocol.cpp:488
 msgid "Farsi"
 msgstr ""
 
@@ -13743,436 +13755,436 @@ msgstr ""
 #. i18n("Vietnamese")
 #. i18n("Yiddish")
 #. i18n("Yoruba")
-#: protocols/oscar/icq/icqprotocol.cpp:521
+#: protocols/oscar/icq/icqprotocol.cpp:528
 msgid "Taiwanese"
 msgstr "台語"
 
-#: protocols/oscar/icq/icqprotocol.cpp:530
+#: protocols/oscar/icq/icqprotocol.cpp:537
 #: protocols/oscar/oscarencodingselectiondialog.cpp:36
 msgid "Big5"
 msgstr "Big5"
 
-#: protocols/oscar/icq/icqprotocol.cpp:531
+#: protocols/oscar/icq/icqprotocol.cpp:538
 #: protocols/oscar/oscarencodingselectiondialog.cpp:37
 msgid "Big5-HKSCS"
 msgstr "Big5-HKSCS"
 
-#: protocols/oscar/icq/icqprotocol.cpp:532
+#: protocols/oscar/icq/icqprotocol.cpp:539
 #: protocols/oscar/oscarencodingselectiondialog.cpp:38
 msgid "euc-JP Japanese"
 msgstr "euc-JP 日文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:533
+#: protocols/oscar/icq/icqprotocol.cpp:540
 #: protocols/oscar/oscarencodingselectiondialog.cpp:39
 msgid "euc-KR Korean"
 msgstr "euc-KR 韓文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:534
+#: protocols/oscar/icq/icqprotocol.cpp:541
 #: protocols/oscar/oscarencodingselectiondialog.cpp:40
 msgid "GB-2312 Chinese"
 msgstr "GB-2312 中文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:535
+#: protocols/oscar/icq/icqprotocol.cpp:542
 #: protocols/oscar/oscarencodingselectiondialog.cpp:41
 msgid "GBK Chinese"
 msgstr "GBK 中文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:536
+#: protocols/oscar/icq/icqprotocol.cpp:543
 #: protocols/oscar/oscarencodingselectiondialog.cpp:42
 msgid "GB18030 Chinese"
 msgstr "GB18030 中文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:538
+#: protocols/oscar/icq/icqprotocol.cpp:545
 #: protocols/oscar/oscarencodingselectiondialog.cpp:44
 msgid "JIS Japanese"
 msgstr "JIS 日文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:539
+#: protocols/oscar/icq/icqprotocol.cpp:546
 #: protocols/oscar/oscarencodingselectiondialog.cpp:45
 msgid "Shift-JIS Japanese"
 msgstr "Shift-JIS 日文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:541
+#: protocols/oscar/icq/icqprotocol.cpp:548
 #: protocols/oscar/oscarencodingselectiondialog.cpp:47
 msgid "KOI8-R Russian"
 msgstr "KOI8-R 俄文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:542
+#: protocols/oscar/icq/icqprotocol.cpp:549
 #: protocols/oscar/oscarencodingselectiondialog.cpp:48
 msgid "KOI8-U Ukrainian"
 msgstr "KOI8-R 烏克蘭文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:544
+#: protocols/oscar/icq/icqprotocol.cpp:551
 #: protocols/oscar/oscarencodingselectiondialog.cpp:50
 msgid "ISO-8859-1 Western"
 msgstr "ISO-8859-1 西歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:545
+#: protocols/oscar/icq/icqprotocol.cpp:552
 #: protocols/oscar/oscarencodingselectiondialog.cpp:51
 msgid "ISO-8859-2 Central European"
 msgstr "ISO-8859-2 中歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:546
+#: protocols/oscar/icq/icqprotocol.cpp:553
 #: protocols/oscar/oscarencodingselectiondialog.cpp:52
 msgid "ISO-8859-3 Central European"
 msgstr "ISO-8859-3 中歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:547
+#: protocols/oscar/icq/icqprotocol.cpp:554
 #: protocols/oscar/oscarencodingselectiondialog.cpp:53
 msgid "ISO-8859-4 Baltic"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:548
+#: protocols/oscar/icq/icqprotocol.cpp:555
 #: protocols/oscar/oscarencodingselectiondialog.cpp:54
 msgid "ISO-8859-5 Cyrillic"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:549
+#: protocols/oscar/icq/icqprotocol.cpp:556
 #: protocols/oscar/oscarencodingselectiondialog.cpp:55
 msgid "ISO-8859-6 Arabic"
 msgstr "ISO-8859-6 阿拉伯文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:550
+#: protocols/oscar/icq/icqprotocol.cpp:557
 #: protocols/oscar/oscarencodingselectiondialog.cpp:56
 msgid "ISO-8859-7 Greek"
 msgstr "ISO-8859-7 希臘文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:551
+#: protocols/oscar/icq/icqprotocol.cpp:558
 #: protocols/oscar/oscarencodingselectiondialog.cpp:57
 msgid "ISO-8859-8 Hebrew, visually ordered"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:552
+#: protocols/oscar/icq/icqprotocol.cpp:559
 #: protocols/oscar/oscarencodingselectiondialog.cpp:58
 msgid "ISO-8859-8-I Hebrew, logically ordered"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:553
+#: protocols/oscar/icq/icqprotocol.cpp:560
 #: protocols/oscar/oscarencodingselectiondialog.cpp:59
 msgid "ISO-8859-9 Turkish"
 msgstr "ISO-8859-9 土耳其文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:554
+#: protocols/oscar/icq/icqprotocol.cpp:561
 #: protocols/oscar/oscarencodingselectiondialog.cpp:60
 msgid "ISO-8859-10"
 msgstr "ISO-8859-10"
 
-#: protocols/oscar/icq/icqprotocol.cpp:555
+#: protocols/oscar/icq/icqprotocol.cpp:562
 #: protocols/oscar/oscarencodingselectiondialog.cpp:61
 msgid "ISO-8859-13"
 msgstr "ISO-8859-13"
 
-#: protocols/oscar/icq/icqprotocol.cpp:556
+#: protocols/oscar/icq/icqprotocol.cpp:563
 #: protocols/oscar/oscarencodingselectiondialog.cpp:62
 msgid "ISO-8859-14"
 msgstr "ISO-8859-14"
 
-#: protocols/oscar/icq/icqprotocol.cpp:557
+#: protocols/oscar/icq/icqprotocol.cpp:564
 #: protocols/oscar/oscarencodingselectiondialog.cpp:63
 msgid "ISO-8859-15 Western"
 msgstr "ISO-8859-15 西歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:559
+#: protocols/oscar/icq/icqprotocol.cpp:566
 #: protocols/oscar/oscarencodingselectiondialog.cpp:65
 msgid "Windows-1250 Central European"
 msgstr "Windows-1250 中歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:560
+#: protocols/oscar/icq/icqprotocol.cpp:567
 #: protocols/oscar/oscarencodingselectiondialog.cpp:66
 msgid "Windows-1251 Cyrillic"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:561
+#: protocols/oscar/icq/icqprotocol.cpp:568
 #: protocols/oscar/oscarencodingselectiondialog.cpp:67
 msgid "Windows-1252 Western"
 msgstr "Windows-1252 西歐語文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:562
+#: protocols/oscar/icq/icqprotocol.cpp:569
 #: protocols/oscar/oscarencodingselectiondialog.cpp:68
 msgid "Windows-1253 Greek"
 msgstr "Windows-1253 希臘文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:563
+#: protocols/oscar/icq/icqprotocol.cpp:570
 #: protocols/oscar/oscarencodingselectiondialog.cpp:69
 msgid "Windows-1254 Turkish"
 msgstr "Windows-1254 土耳其文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:564
+#: protocols/oscar/icq/icqprotocol.cpp:571
 #: protocols/oscar/oscarencodingselectiondialog.cpp:70
 msgid "Windows-1255 Hebrew"
 msgstr "Windows-1255 希伯來文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:565
+#: protocols/oscar/icq/icqprotocol.cpp:572
 #: protocols/oscar/oscarencodingselectiondialog.cpp:71
 msgid "Windows-1256 Arabic"
 msgstr "Windows-1256 阿拉伯文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:566
+#: protocols/oscar/icq/icqprotocol.cpp:573
 #: protocols/oscar/oscarencodingselectiondialog.cpp:72
 msgid "Windows-1257 Baltic"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:567
+#: protocols/oscar/icq/icqprotocol.cpp:574
 #: protocols/oscar/oscarencodingselectiondialog.cpp:73
 msgid "Windows-1258 Viet Nam"
 msgstr "Windows-1258 越南文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:569
+#: protocols/oscar/icq/icqprotocol.cpp:576
 #: protocols/oscar/oscarencodingselectiondialog.cpp:75
 msgid "IBM 850"
 msgstr "IBM 850"
 
-#: protocols/oscar/icq/icqprotocol.cpp:570
+#: protocols/oscar/icq/icqprotocol.cpp:577
 #: protocols/oscar/oscarencodingselectiondialog.cpp:76
 msgid "IBM 866"
 msgstr "IBM 866"
 
-#: protocols/oscar/icq/icqprotocol.cpp:572
+#: protocols/oscar/icq/icqprotocol.cpp:579
 #: protocols/oscar/oscarencodingselectiondialog.cpp:78
 msgid "TIS-620 Thai"
 msgstr "TIS-620 泰文"
 
-#: protocols/oscar/icq/icqprotocol.cpp:574
+#: protocols/oscar/icq/icqprotocol.cpp:581
 #: protocols/oscar/oscarencodingselectiondialog.cpp:80
 msgid "UTF-8 Unicode"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:575
+#: protocols/oscar/icq/icqprotocol.cpp:582
 #: protocols/oscar/oscarencodingselectiondialog.cpp:81
 msgid "UTF-16 Unicode"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:589
+#: protocols/oscar/icq/icqprotocol.cpp:596
 msgid "Single"
 msgstr "單身"
 
 # 可以是暗示同性戀關係 -- Walter
-#: protocols/oscar/icq/icqprotocol.cpp:590
+#: protocols/oscar/icq/icqprotocol.cpp:597
 msgid "Long term relationship"
 msgstr "長期關係"
 
-#: protocols/oscar/icq/icqprotocol.cpp:591
+#: protocols/oscar/icq/icqprotocol.cpp:598
 msgid "Engaged"
 msgstr "已訂婚"
 
-#: protocols/oscar/icq/icqprotocol.cpp:592
+#: protocols/oscar/icq/icqprotocol.cpp:599
 msgid "Married"
 msgstr "已婚"
 
-#: protocols/oscar/icq/icqprotocol.cpp:593
+#: protocols/oscar/icq/icqprotocol.cpp:600
 msgid "Divorced"
 msgstr "離婚"
 
-#: protocols/oscar/icq/icqprotocol.cpp:594
+#: protocols/oscar/icq/icqprotocol.cpp:601
 msgid "Separated"
 msgstr "已分開"
 
-#: protocols/oscar/icq/icqprotocol.cpp:595
+#: protocols/oscar/icq/icqprotocol.cpp:602
 msgid "Widowed"
 msgstr "鰥寡"
 
-#: protocols/oscar/icq/icqprotocol.cpp:602
+#: protocols/oscar/icq/icqprotocol.cpp:609
 msgid "Art"
 msgstr "文學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:603
+#: protocols/oscar/icq/icqprotocol.cpp:610
 msgid "Cars"
 msgstr "車子"
 
-#: protocols/oscar/icq/icqprotocol.cpp:604
+#: protocols/oscar/icq/icqprotocol.cpp:611
 msgid "Celebrities"
 msgstr "明星"
 
-#: protocols/oscar/icq/icqprotocol.cpp:605
+#: protocols/oscar/icq/icqprotocol.cpp:612
 msgid "Collections"
 msgstr "收藏"
 
-#: protocols/oscar/icq/icqprotocol.cpp:606
+#: protocols/oscar/icq/icqprotocol.cpp:613
 msgid "Computers"
 msgstr "電腦"
 
-#: protocols/oscar/icq/icqprotocol.cpp:607
+#: protocols/oscar/icq/icqprotocol.cpp:614
 msgid "Culture"
 msgstr "文化"
 
-#: protocols/oscar/icq/icqprotocol.cpp:608
+#: protocols/oscar/icq/icqprotocol.cpp:615
 msgid "Fitness"
 msgstr "健美"
 
-#: protocols/oscar/icq/icqprotocol.cpp:609
+#: protocols/oscar/icq/icqprotocol.cpp:616
 #: protocols/oscar/oscarcontact.cpp:202
 msgid "Games"
 msgstr "遊戲"
 
-#: protocols/oscar/icq/icqprotocol.cpp:610
+#: protocols/oscar/icq/icqprotocol.cpp:617
 msgid "Hobbies"
 msgstr "嗜好"
 
-#: protocols/oscar/icq/icqprotocol.cpp:611
+#: protocols/oscar/icq/icqprotocol.cpp:618
 msgid "ICQ - Help"
 msgstr "ICQ - 幫忙"
 
-#: protocols/oscar/icq/icqprotocol.cpp:612
+#: protocols/oscar/icq/icqprotocol.cpp:619
 msgid "Internet"
 msgstr "互聯網"
 
-#: protocols/oscar/icq/icqprotocol.cpp:613
+#: protocols/oscar/icq/icqprotocol.cpp:620
 msgid "Lifestyle"
 msgstr "生活時尚"
 
-#: protocols/oscar/icq/icqprotocol.cpp:614
+#: protocols/oscar/icq/icqprotocol.cpp:621
 msgid "Movies"
 msgstr "電影"
 
-#: protocols/oscar/icq/icqprotocol.cpp:615
+#: protocols/oscar/icq/icqprotocol.cpp:622
 msgid "Music"
 msgstr "音樂"
 
-#: protocols/oscar/icq/icqprotocol.cpp:616
+#: protocols/oscar/icq/icqprotocol.cpp:623
 msgid "Outdoors"
 msgstr "戶外活動"
 
-#: protocols/oscar/icq/icqprotocol.cpp:617
+#: protocols/oscar/icq/icqprotocol.cpp:624
 msgid "Parenting"
 msgstr "管教子女"
 
-#: protocols/oscar/icq/icqprotocol.cpp:618
+#: protocols/oscar/icq/icqprotocol.cpp:625
 msgid "Pets and animals"
 msgstr "寵物及動物"
 
-#: protocols/oscar/icq/icqprotocol.cpp:619
+#: protocols/oscar/icq/icqprotocol.cpp:626
 msgid "Religion"
 msgstr "宗教"
 
-#: protocols/oscar/icq/icqprotocol.cpp:620
+#: protocols/oscar/icq/icqprotocol.cpp:627
 msgid "Science"
 msgstr "科學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:621
+#: protocols/oscar/icq/icqprotocol.cpp:628
 msgid "Skills"
 msgstr ""
 
-#: protocols/oscar/icq/icqprotocol.cpp:622
+#: protocols/oscar/icq/icqprotocol.cpp:629
 msgid "Sports"
 msgstr "體育"
 
-#: protocols/oscar/icq/icqprotocol.cpp:623
+#: protocols/oscar/icq/icqprotocol.cpp:630
 msgid "Web design"
 msgstr "網頁設計"
 
-#: protocols/oscar/icq/icqprotocol.cpp:624
+#: protocols/oscar/icq/icqprotocol.cpp:631
 msgid "Ecology"
 msgstr "生態學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:625
+#: protocols/oscar/icq/icqprotocol.cpp:632
 msgid "News and media"
 msgstr "新聞及媒體"
 
-#: protocols/oscar/icq/icqprotocol.cpp:626
+#: protocols/oscar/icq/icqprotocol.cpp:633
 msgid "Government"
 msgstr "政府"
 
-#: protocols/oscar/icq/icqprotocol.cpp:627
+#: protocols/oscar/icq/icqprotocol.cpp:634
 msgid "Business"
 msgstr "商業"
 
-#: protocols/oscar/icq/icqprotocol.cpp:628
+#: protocols/oscar/icq/icqprotocol.cpp:635
 msgid "Mystics"
 msgstr "神秘學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:629
+#: protocols/oscar/icq/icqprotocol.cpp:636
 msgid "Travel"
 msgstr "旅遊"
 
-#: protocols/oscar/icq/icqprotocol.cpp:630
+#: protocols/oscar/icq/icqprotocol.cpp:637
 msgid "Astronomy"
 msgstr "天文學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:631
+#: protocols/oscar/icq/icqprotocol.cpp:638
 msgid "Space"
 msgstr "太空"
 
-#: protocols/oscar/icq/icqprotocol.cpp:632
+#: protocols/oscar/icq/icqprotocol.cpp:639
 msgid "Clothing"
 msgstr "衣著"
 
-#: protocols/oscar/icq/icqprotocol.cpp:633
+#: protocols/oscar/icq/icqprotocol.cpp:640
 msgid "Parties"
 msgstr "派對"
 
-#: protocols/oscar/icq/icqprotocol.cpp:634
+#: protocols/oscar/icq/icqprotocol.cpp:641
 msgid "Women"
 msgstr "女人"
 
-#: protocols/oscar/icq/icqprotocol.cpp:635
+#: protocols/oscar/icq/icqprotocol.cpp:642
 msgid "Social science"
 msgstr "社會科學"
 
-#: protocols/oscar/icq/icqprotocol.cpp:636
+#: protocols/oscar/icq/icqprotocol.cpp:643
 msgid "60's"
 msgstr "六十年代"
 
-#: protocols/oscar/icq/icqprotocol.cpp:637
+#: protocols/oscar/icq/icqprotocol.cpp:644
 msgid "70's"
 msgstr "七十年代"
 
-#: protocols/oscar/icq/icqprotocol.cpp:638
+#: protocols/oscar/icq/icqprotocol.cpp:645
 msgid "40's"
 msgstr "四十年代"
 
-#: protocols/oscar/icq/icqprotocol.cpp:639
+#: protocols/oscar/icq/icqprotocol.cpp:646
 msgid "50's"
 msgstr "五十年代"
 
-#: protocols/oscar/icq/icqprotocol.cpp:640
+#: protocols/oscar/icq/icqprotocol.cpp:647
 msgid "Finance and corporate"
 msgstr "財務及公司管理"
 
-#: protocols/oscar/icq/icqprotocol.cpp:641
+#: protocols/oscar/icq/icqprotocol.cpp:648
 msgid "Entertainment"
 msgstr "娛樂"
 
-#: protocols/oscar/icq/icqprotocol.cpp:642
+#: protocols/oscar/icq/icqprotocol.cpp:649
 msgid "Consumer electronics"
 msgstr "消費電子產品"
 
-#: protocols/oscar/icq/icqprotocol.cpp:643
+#: protocols/oscar/icq/icqprotocol.cpp:650
 msgid "Retail stores"
 msgstr "零售商店"
 
-#: protocols/oscar/icq/icqprotocol.cpp:644
+#: protocols/oscar/icq/icqprotocol.cpp:651
 msgid "Health and beauty"
 msgstr "健康及美容"
 
-#: protocols/oscar/icq/icqprotocol.cpp:645
+#: protocols/oscar/icq/icqprotocol.cpp:652
 msgid "Media"
 msgstr "媒體"
 
-#: protocols/oscar/icq/icqprotocol.cpp:646
+#: protocols/oscar/icq/icqprotocol.cpp:653
 msgid "Household products"
 msgstr "家庭用品"
 
-#: protocols/oscar/icq/icqprotocol.cpp:647
+#: protocols/oscar/icq/icqprotocol.cpp:654
 msgid "Mail order catalog"
 msgstr "郵寄目錄"
 
-#: protocols/oscar/icq/icqprotocol.cpp:648
+#: protocols/oscar/icq/icqprotocol.cpp:655
 msgid "Business services"
 msgstr "商業服務"
 
-#: protocols/oscar/icq/icqprotocol.cpp:649
+#: protocols/oscar/icq/icqprotocol.cpp:656
 msgid "Audio and visual"
 msgstr "影音"
 
-#: protocols/oscar/icq/icqprotocol.cpp:650
+#: protocols/oscar/icq/icqprotocol.cpp:657
 msgid "Sporting and athletic"
 msgstr "體育"
 
-#: protocols/oscar/icq/icqprotocol.cpp:651
+#: protocols/oscar/icq/icqprotocol.cpp:658
 msgid "Publishing"
 msgstr "出版"
 
-#: protocols/oscar/icq/icqprotocol.cpp:652
+#: protocols/oscar/icq/icqprotocol.cpp:659
 msgid "Home automation"
 msgstr "家居自動化"
 
@@ -14409,14 +14421,6 @@ msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 #: protocols/oscar/oscaraccount.cpp:775
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
-
-#: protocols/oscar/oscaraccount.cpp:809 protocols/yahoo/yahooprotocol.cpp:75
-msgid "ICQ"
-msgstr "ICQ"
-
-#: protocols/oscar/oscaraccount.cpp:809 protocols/yahoo/yahooprotocol.cpp:74
-msgid "AIM"
-msgstr "AIM"
 
 #: protocols/oscar/oscaraccount.cpp:810
 msgid ""
