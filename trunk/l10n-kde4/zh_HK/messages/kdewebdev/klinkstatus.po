@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-23 18:06+0100\n"
+"POT-Creation-Date: 2007-03-26 05:31+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -31,46 +31,47 @@ msgstr "標記"
 msgid "URL"
 msgstr "URL"
 
-#: ui/tablelinkstatus.cpp:279 ui/treeview.cpp:326
+#: ui/tablelinkstatus.cpp:279 ui/treeview.cpp:288
 msgid "All"
 msgstr "所有"
 
-#: ui/tablelinkstatus.cpp:288 ui/tablelinkstatus.cpp:293 ui/treeview.cpp:322
-#: ui/treeview.cpp:337
-msgid "Edit Referrer with Quanta"
+#: ui/tablelinkstatus.cpp:288 ui/tablelinkstatus.cpp:293 ui/treeview.cpp:284
+#: ui/treeview.cpp:299
+#, fuzzy
+msgid "Edit Referrer"
 msgstr "以 Quanta 編輯 Referrer"
 
-#: ui/tablelinkstatus.cpp:297 ui/treeview.cpp:342
+#: ui/tablelinkstatus.cpp:297 ui/treeview.cpp:304
 msgid "Open URL"
 msgstr "開啟 URL"
 
-#: ui/tablelinkstatus.cpp:300 ui/treeview.cpp:344
+#: ui/tablelinkstatus.cpp:300 ui/treeview.cpp:306
 msgid "Open Referrer URL"
 msgstr "開啟 Referrer URL"
 
-#: ui/tablelinkstatus.cpp:305 ui/treeview.cpp:349
+#: ui/tablelinkstatus.cpp:305 ui/treeview.cpp:311
 msgid "Copy URL"
 msgstr "複製 URL"
 
-#: ui/tablelinkstatus.cpp:308 ui/treeview.cpp:351
+#: ui/tablelinkstatus.cpp:308 ui/treeview.cpp:313
 msgid "Copy Referrer URL"
 msgstr "複製 Referrer URL"
 
-#: ui/tablelinkstatus.cpp:311 ui/treeview.cpp:353
+#: ui/tablelinkstatus.cpp:311 ui/treeview.cpp:315
 msgid "Copy Cell Text"
 msgstr "複製儲存格文字"
 
-#: ui/tablelinkstatus.cpp:391 ui/treeview.cpp:269
+#: ui/tablelinkstatus.cpp:391
 #, qt-format
 msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
 
-#: ui/tablelinkstatus.cpp:412 ui/tablelinkstatus.cpp:433 ui/treeview.cpp:292
-#: ui/treeview.cpp:313
+#: ui/tablelinkstatus.cpp:412 ui/tablelinkstatus.cpp:433 ui/treeview.cpp:254
+#: ui/treeview.cpp:275
 msgid "Invalid URL."
 msgstr "無效的 URL。"
 
-#: ui/tablelinkstatus.cpp:421 ui/treeview.cpp:301
+#: ui/tablelinkstatus.cpp:421 ui/treeview.cpp:263
 msgid "ROOT URL."
 msgstr "ROOT URL。"
 
@@ -104,39 +105,56 @@ msgid ""
 "Please specify one:"
 msgstr ""
 
-#: ui/sessionwidget.cpp:256 ui/sessionwidget.cpp:376 ui/sessionwidget.cpp:397
-#: ui/sessionwidget.cpp:554 ui/sessionwidget.cpp:639
+#: ui/sessionwidget.cpp:258 ui/sessionwidget.cpp:368 ui/sessionwidget.cpp:387
+#: ui/sessionwidget.cpp:525 ui/sessionwidget.cpp:610
 msgid "Checking..."
 msgstr "正在檢查..."
 
-#: ui/sessionwidget.cpp:365
+#: ui/sessionwidget.cpp:358
 msgid "Cowardly refusing to check an empty URL."
 msgstr "小心翼翼地避開了空白 URL。"
 
-#: ui/sessionwidget.cpp:377 ui/sessionwidget.cpp:398 ui/sessionwidget.cpp:471
+#: ui/sessionwidget.cpp:369 ui/sessionwidget.cpp:388 ui/sessionwidget.cpp:465
 msgid "Stopped"
 msgstr "已停止"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 368
-#: ui/sessionwidget.cpp:443 rc.cpp:86
+#. i18n: file ./ui/sessionwidgetbase.ui line 376
+#: ui/sessionwidget.cpp:433 rc.cpp:86
 #, no-c-format
 msgid "Ready"
 msgstr "準備好"
 
-#: ui/sessionwidget.cpp:540 ui/sessionwidget.cpp:548
+#: ui/sessionwidget.cpp:452
+msgid "Finished checking"
+msgstr ""
+
+#: ui/sessionwidget.cpp:491
+msgid "Paused"
+msgstr ""
+
+#: ui/sessionwidget.cpp:511 ui/sessionwidget.cpp:519
 msgid "Adding level..."
 msgstr "正在加入等級..."
 
-#: ui/sessionwidget.cpp:701
+#: ui/sessionwidget.cpp:620
+msgid "Resuming"
+msgstr ""
+
+#: ui/sessionwidget.cpp:675
 msgid "Export Results as HTML"
 msgstr ""
 
-#: ui/sessionwidget.cpp:769
+#: ui/sessionwidget.cpp:743
 msgid ""
 "Use a protocol different than HTTP, e.g., file, ftp, sftp, fish, etc, so the "
 "files can be saved."
 msgstr ""
+
+#: ui/sessionwidget.cpp:755
+#, fuzzy
+msgid "Checking"
+msgstr "正在檢查..."
 
 #: ui/tabwidgetsession.cpp:60
 msgid "Open new tab"
@@ -214,7 +232,7 @@ msgstr ""
 msgid "Document to open"
 msgstr "要開啟的文件"
 
-#: main.cpp:46 klinkstatus_part.cpp:195
+#: main.cpp:46 klinkstatus_part.cpp:186
 msgid "KLinkStatus"
 msgstr "KLinkStatus"
 
@@ -381,35 +399,35 @@ msgid "Your emails"
 msgstr "stanley18fan0k@yahoo.com.hk"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 34
+#. i18n: file ./ui/sessionwidgetbase.ui line 42
 #: rc.cpp:54
 #, no-c-format
 msgid "Search"
 msgstr "搜尋"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 100
+#. i18n: file ./ui/sessionwidgetbase.ui line 108
 #: rc.cpp:58
 #, no-c-format
 msgid "URL: "
 msgstr "URL: "
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 169
+#. i18n: file ./ui/sessionwidgetbase.ui line 177
 #: rc.cpp:62
 #, no-c-format
 msgid "Check pages recursively"
 msgstr "遞迴地檢查頁面"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 172
+#. i18n: file ./ui/sessionwidgetbase.ui line 180
 #: rc.cpp:66
 #, no-c-format
 msgid "Recursivel&y:"
 msgstr "遞迴地(&Y):"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 188
+#. i18n: file ./ui/sessionwidgetbase.ui line 196
 #. i18n: tag string
 #. i18n: file ./ui/settings/configsearchdialog.ui line 263
 #: rc.cpp:70 rc.cpp:138
@@ -418,40 +436,40 @@ msgid "Unlimited"
 msgstr "不限制"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 207
+#. i18n: file ./ui/sessionwidgetbase.ui line 215
 #: rc.cpp:74
 #, no-c-format
 msgid "Do &not check parent folders"
 msgstr "不要檢查上層目錄(&N)"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 243
+#. i18n: file ./ui/sessionwidgetbase.ui line 251
 #: rc.cpp:78
 #, no-c-format
 msgid "Chec&k external links"
 msgstr "檢查網站以外的連結(&K)"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 279
+#. i18n: file ./ui/sessionwidgetbase.ui line 287
 #: rc.cpp:82
 #, no-c-format
 msgid "Do not check regular expression:"
 msgstr "不要檢查正規表示式："
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 459
+#. i18n: file ./ui/sessionwidgetbase.ui line 423
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 489
+#. i18n: file ./ui/sessionwidgetbase.ui line 456
 #: rc.cpp:90 rc.cpp:98
 #, no-c-format
 msgid "hh:mm:ss.zzz"
 msgstr "hh:mm:ss.zzz"
 
 #. i18n: tag string
-#. i18n: file ./ui/sessionwidgetbase.ui line 462
+#. i18n: file ./ui/sessionwidgetbase.ui line 426
 #: rc.cpp:94
-#, no-c-format
-msgid "Elapsed time:"
+#, fuzzy, no-c-format
+msgid "Elapsed time: "
 msgstr "持續時間："
 
 #. i18n: tag string
@@ -550,7 +568,7 @@ msgstr "結束時記住設定"
 
 #. i18n: tag string
 #. i18n: file ./ui/settings/configidentificationdialogui.ui line 28
-#: rc.cpp:158 klinkstatus_part.cpp:165
+#: rc.cpp:158 klinkstatus_part.cpp:156
 #, no-c-format
 msgid "Identification"
 msgstr ""
@@ -824,19 +842,19 @@ msgstr ""
 msgid "A Link Checker"
 msgstr "連結檢查器"
 
-#: klinkstatus_part.cpp:163
+#: klinkstatus_part.cpp:154
 msgid "Check"
 msgstr "檢查"
 
-#: klinkstatus_part.cpp:164
+#: klinkstatus_part.cpp:155
 msgid "Results"
 msgstr "結果"
 
-#: klinkstatus_part.cpp:166
+#: klinkstatus_part.cpp:157
 msgid "Configure the way KLinkstatus reports itself"
 msgstr ""
 
-#: klinkstatus_part.cpp:202
+#: klinkstatus_part.cpp:193
 msgid "KLinkStatus Part"
 msgstr "KLinkStatus Part"
 

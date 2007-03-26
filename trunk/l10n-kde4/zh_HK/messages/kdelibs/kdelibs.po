@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-23 18:03+0100\n"
+"POT-Creation-Date: 2007-03-26 05:28+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -707,7 +707,7 @@ msgstr "文件資訊"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 36
-#: rc.cpp:387 kross/modules/scriptmanager.cpp:475
+#: rc.cpp:387 kross/core/view.cpp:518
 #, no-c-format
 msgid "General"
 msgstr "一般"
@@ -757,7 +757,6 @@ msgstr "內容"
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 222
 #: rc.cpp:415 khtml/java/kjavaappletviewer.cpp:142
-#: kross/modules/scriptmanagereditor.cpp:87
 #, no-c-format
 msgid "Value"
 msgstr "值"
@@ -804,7 +803,7 @@ msgstr "清除(&L)"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 47
-#: rc.cpp:455 kross/modules/scriptmanagereditor.cpp:307 kcert/kcertpart.cc:196
+#: rc.cpp:455 kross/core/view.cpp:213 kcert/kcertpart.cc:196
 #: kcert/kcertpart.cc:287
 #, no-c-format
 msgid "File:"
@@ -1345,7 +1344,7 @@ msgstr "結束應用程式"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/console/jsconsole.ui line 197
-#: rc.cpp:758 kross/modules/scriptmanager.cpp:141
+#: rc.cpp:758 kross/core/view.cpp:306
 #, fuzzy, no-c-format
 msgid "Run"
 msgstr "Runic"
@@ -1392,7 +1391,7 @@ msgstr ""
 #: rc.cpp:782 rc.cpp:1358 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:323
 #: khtml/ecma/kjs_debugwin.cpp:481 khtml/ecma/debugger/debugwindow.cpp:176
-#: kross/modules/scriptmanager.cpp:147
+#: kross/core/view.cpp:313
 #, no-c-format
 msgid "Stop"
 msgstr "停止"
@@ -3416,19 +3415,19 @@ msgstr "NEC SOCKS 客戶端"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS 客戶端"
 
-#: kdecore/kernel/kcmdlineargs.cpp:64
+#: kdecore/kernel/kcmdlineargs.cpp:63
 msgid "Use the X-server display 'displayname'"
 msgstr "使用 X-Server 顯示器‘displayname’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:66
+#: kdecore/kernel/kcmdlineargs.cpp:65
 msgid "Use the QWS display 'displayname'"
 msgstr "使用 QWS 顯示器‘displayname’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:69
+#: kdecore/kernel/kcmdlineargs.cpp:68
 msgid "Restore the application for the given 'sessionId'"
 msgstr "還原應用程式給指定的‘sessionId’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:70
+#: kdecore/kernel/kcmdlineargs.cpp:69
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -3436,7 +3435,7 @@ msgstr ""
 "導致此應用程式在 8-bit 顯示下\n"
 "安裝自己才能使用的色彩轉換表"
 
-#: kdecore/kernel/kcmdlineargs.cpp:71
+#: kdecore/kernel/kcmdlineargs.cpp:70
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -3446,11 +3445,11 @@ msgstr ""
 "如果應用程式使用 QApplication::ManyColor 的色彩規格，\n"
 "限制在 8-bit 顯示上使用的色數。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:72
+#: kdecore/kernel/kcmdlineargs.cpp:71
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "通知 Qt 不要爭奪滑鼠或鍵盤。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:73
+#: kdecore/kernel/kcmdlineargs.cpp:72
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -3458,15 +3457,15 @@ msgstr ""
 "在除錯器下執行可能會使其自動加上 -nograb，\n"
 "請用 -dograb 來覆蓋其效用。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:74
+#: kdecore/kernel/kcmdlineargs.cpp:73
 msgid "switches to synchronous mode for debugging"
 msgstr "切換到同步模式以便除錯。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:76
+#: kdecore/kernel/kcmdlineargs.cpp:75
 msgid "defines the application font"
 msgstr "定義應用程式字型。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:78
+#: kdecore/kernel/kcmdlineargs.cpp:77
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -3475,29 +3474,29 @@ msgstr ""
 "設定預設背景顏色和應用程式調色盤\n"
 "(明暗會自動計算)。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:80
+#: kdecore/kernel/kcmdlineargs.cpp:79
 msgid "sets the default foreground color"
 msgstr "設定預設前景顏色。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:82
+#: kdecore/kernel/kcmdlineargs.cpp:81
 msgid "sets the default button color"
 msgstr "設定預設按鈕顏色。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:83
+#: kdecore/kernel/kcmdlineargs.cpp:82
 msgid "sets the application name"
 msgstr "設定應用程式名稱。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:84
+#: kdecore/kernel/kcmdlineargs.cpp:83
 msgid "sets the application title (caption)"
 msgstr "設定應用程式標題 (說明標題)。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:86
+#: kdecore/kernel/kcmdlineargs.cpp:85
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
 msgstr "強制此應用程式在 8-bit 顯示時使用全彩 (TrueColor) 視覺效果。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:87
+#: kdecore/kernel/kcmdlineargs.cpp:86
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -3506,63 +3505,63 @@ msgstr ""
 "設定 XIM (X Input Method) 輸入風格。可設的值為\n"
 "onthespot, overthespot, offthespot 和 root。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:88
+#: kdecore/kernel/kcmdlineargs.cpp:87
 msgid "set XIM server"
 msgstr "設定 XIM 伺服器。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:89
+#: kdecore/kernel/kcmdlineargs.cpp:88
 msgid "disable XIM"
 msgstr "停用 XIM。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:92
+#: kdecore/kernel/kcmdlineargs.cpp:91
 msgid "forces the application to run as QWS Server"
 msgstr "強制應用程式作為 QWS 伺服器運作。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:94
+#: kdecore/kernel/kcmdlineargs.cpp:93
 msgid "mirrors the whole layout of widgets"
 msgstr "複製整個視窗部件的配置樣式。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:100
+#: kdecore/kernel/kcmdlineargs.cpp:99
 msgid "Use 'caption' as name in the titlebar"
 msgstr "使用「說明標題」作為標題列上的名稱。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:101
+#: kdecore/kernel/kcmdlineargs.cpp:100
 msgid "Use 'icon' as the application icon"
 msgstr "使用「圖示」作為應用程式圖示。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:102
+#: kdecore/kernel/kcmdlineargs.cpp:101
 msgid "Use alternative configuration file"
 msgstr "使用替代設定檔。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:103
+#: kdecore/kernel/kcmdlineargs.cpp:102
 msgid "Disable crash handler, to get core dumps"
 msgstr "停用當機控制程式以取得核心傾印 (core dumps)。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:104
+#: kdecore/kernel/kcmdlineargs.cpp:103
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "等待 WM_NET 相容的視窗管理員。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:105
+#: kdecore/kernel/kcmdlineargs.cpp:104
 msgid "sets the application GUI style"
 msgstr "設定應用程式的圖形介面風格。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:106
+#: kdecore/kernel/kcmdlineargs.cpp:105
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format"
 msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:539 kdecore/kernel/kcmdlineargs.cpp:559
+#: kdecore/kernel/kcmdlineargs.cpp:531 kdecore/kernel/kcmdlineargs.cpp:551
 #, qt-format
 msgid "Unknown option '%1'."
 msgstr "不明的選項 ‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:567
+#: kdecore/kernel/kcmdlineargs.cpp:559
 #, qt-format
 msgid "'%1' missing."
 msgstr "找不到‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:662
+#: kdecore/kernel/kcmdlineargs.cpp:654
 #, qt-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -3572,86 +3571,86 @@ msgstr ""
 "%1 的作者是：\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:665
+#: kdecore/kernel/kcmdlineargs.cpp:657
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:672
+#: kdecore/kernel/kcmdlineargs.cpp:664
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:675 kdecore/kernel/kcmdlineargs.cpp:677
+#: kdecore/kernel/kcmdlineargs.cpp:667 kdecore/kernel/kcmdlineargs.cpp:669
 #, qt-format
 msgid "Please report bugs to %1.\n"
 msgstr "請回報問題到 %1。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:703
+#: kdecore/kernel/kcmdlineargs.cpp:695
 #, qt-format
 msgid "Unexpected argument '%1'."
 msgstr "未預料到的參數‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:825
+#: kdecore/kernel/kcmdlineargs.cpp:817
 msgid "Use --help to get a list of available command line options."
 msgstr "使用 --help 以取得可用指令行選項的清單。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:848
+#: kdecore/kernel/kcmdlineargs.cpp:840
 msgid "[options] "
 msgstr "[選項] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:855
+#: kdecore/kernel/kcmdlineargs.cpp:847
 #, qt-format
 msgid "[%1-options]"
 msgstr "[%1-選項]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:877
+#: kdecore/kernel/kcmdlineargs.cpp:869
 #, qt-format
 msgid "Usage: %1 %2\n"
 msgstr "用法：%1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:880
+#: kdecore/kernel/kcmdlineargs.cpp:872
 #, fuzzy
 msgid ""
 "\n"
 "Generic options:\n"
 msgstr "一般選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:881
+#: kdecore/kernel/kcmdlineargs.cpp:873
 msgid "Show help about options"
 msgstr "顯示關於選項的說明"
 
-#: kdecore/kernel/kcmdlineargs.cpp:889
+#: kdecore/kernel/kcmdlineargs.cpp:881
 #, qt-format
 msgid "Show %1 specific options"
 msgstr "顯示 %1 相關的選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:896
+#: kdecore/kernel/kcmdlineargs.cpp:888
 msgid "Show all options"
 msgstr "顯示所有選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:897
+#: kdecore/kernel/kcmdlineargs.cpp:889
 msgid "Show author information"
 msgstr "顯示作者資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:898
+#: kdecore/kernel/kcmdlineargs.cpp:890
 msgid "Show version information"
 msgstr "顯示版本資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:899
+#: kdecore/kernel/kcmdlineargs.cpp:891
 msgid "Show license information"
 msgstr "顯示版權資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:900
+#: kdecore/kernel/kcmdlineargs.cpp:892
 msgid "End of options"
 msgstr "選項結尾"
 
-#: kdecore/kernel/kcmdlineargs.cpp:922
+#: kdecore/kernel/kcmdlineargs.cpp:914
 #, fuzzy, qt-format
 msgid ""
 "\n"
 "%1 options:\n"
 msgstr "%1 個選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:924
+#: kdecore/kernel/kcmdlineargs.cpp:916
 msgid ""
 "\n"
 "Options:\n"
@@ -3659,7 +3658,7 @@ msgstr ""
 "\n"
 "選項：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:981
+#: kdecore/kernel/kcmdlineargs.cpp:973
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3667,7 +3666,7 @@ msgstr ""
 "\n"
 "參數：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1344
+#: kdecore/kernel/kcmdlineargs.cpp:1348
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
@@ -3922,7 +3921,7 @@ msgid "Share Hot New Stuff"
 msgstr "分享熱門禮物"
 
 #: knewstuff/uploaddialog.cpp:62 kdeui/dialogs/kcolordialog.cpp:1156
-#: kross/modules/scriptmanagereditor.cpp:249
+#: kross/core/view.cpp:155
 msgid "Name:"
 msgstr "名稱："
 
@@ -4017,7 +4016,6 @@ msgstr "最新"
 
 #: knewstuff/downloaddialog.cpp:239 knewstuff/downloaddialog.cpp:244
 #: knewstuff/downloaddialog.cpp:249 knewstuff/providerdialog.cpp:71
-#: kross/modules/scriptmanagereditor.cpp:87
 msgid "Name"
 msgstr "名稱"
 
@@ -4663,12 +4661,10 @@ msgstr "尋找(&F)"
 
 #: kdeui/util/kstandardguiitem.cpp:270 kross/modules/scriptmanageradd.cpp:249
 #: kross/modules/scriptmanageradd.cpp:252
-#: kross/modules/scriptmanagereditor.cpp:104
 msgid "Add"
 msgstr "新增"
 
-#: kdeui/util/kstandardguiitem.cpp:275 kross/modules/scriptmanager.cpp:169
-#: kross/modules/scriptmanagereditor.cpp:109
+#: kdeui/util/kstandardguiitem.cpp:275 kross/core/view.cpp:334
 msgid "Remove"
 msgstr "移除"
 
@@ -4676,7 +4672,7 @@ msgstr "移除"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kross/modules/scriptmanager.cpp:477
+#: kdeui/util/kstandardguiitem.cpp:285
 msgid "Properties"
 msgstr "內容"
 
@@ -4869,22 +4865,22 @@ msgstr ""
 msgid "Low Password Strength"
 msgstr "密碼不夠安全"
 
-#: kdeui/dialogs/kkeydialog.cpp:293
+#: kdeui/dialogs/kkeydialog.cpp:294
 msgid "Shortcuts"
 msgstr "快速鍵"
 
-#: kdeui/dialogs/kkeydialog.cpp:376 kdeui/dialogs/kkeydialog.cpp:377
+#: kdeui/dialogs/kkeydialog.cpp:377 kdeui/dialogs/kkeydialog.cpp:378
 #, fuzzy
 msgid "none"
 msgstr "無"
 
-#: kdeui/dialogs/kkeydialog.cpp:376 kdeui/dialogs/kkeydialog.cpp:377
+#: kdeui/dialogs/kkeydialog.cpp:377 kdeui/dialogs/kkeydialog.cpp:378
 #, fuzzy, qt-format
 msgctxt "Default (default shortcut)"
 msgid "De&fault (%1)"
 msgstr "預設值 - %1"
 
-#: kdeui/dialogs/kkeydialog.cpp:521 kdeui/dialogs/kkeydialog.cpp:554
+#: kdeui/dialogs/kkeydialog.cpp:522 kdeui/dialogs/kkeydialog.cpp:555
 #, fuzzy, qt-format
 msgid ""
 "In order to use the '%1' key as a shortcut, it must be combined with the "
@@ -4893,15 +4889,15 @@ msgstr ""
 "要以 '%1' 鍵作為快速鍵，\n"
 "必須配合 Meta、Alt、Ctrl、和/或 Shift 鍵一同使用。"
 
-#: kdeui/dialogs/kkeydialog.cpp:524 kdeui/dialogs/kkeydialog.cpp:557
+#: kdeui/dialogs/kkeydialog.cpp:525 kdeui/dialogs/kkeydialog.cpp:558
 msgid "Invalid Shortcut Key"
 msgstr "不正確的快速鍵"
 
-#: kdeui/dialogs/kkeydialog.cpp:795
+#: kdeui/dialogs/kkeydialog.cpp:796
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快速鍵定義衝突"
 
-#: kdeui/dialogs/kkeydialog.cpp:796
+#: kdeui/dialogs/kkeydialog.cpp:797
 #, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the standard action "
@@ -4911,11 +4907,11 @@ msgstr ""
 "'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/dialogs/kkeydialog.cpp:802
+#: kdeui/dialogs/kkeydialog.cpp:803
 msgid "Conflict with Global Shortcut"
 msgstr "與系統的全域快速鍵定義衝突"
 
-#: kdeui/dialogs/kkeydialog.cpp:803
+#: kdeui/dialogs/kkeydialog.cpp:804
 #, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -4925,11 +4921,11 @@ msgstr ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/dialogs/kkeydialog.cpp:809
+#: kdeui/dialogs/kkeydialog.cpp:810
 msgid "Key Conflict"
 msgstr "按鍵衝突"
 
-#: kdeui/dialogs/kkeydialog.cpp:810
+#: kdeui/dialogs/kkeydialog.cpp:811
 #, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
@@ -4938,11 +4934,11 @@ msgstr ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/dialogs/kkeydialog.cpp:816
+#: kdeui/dialogs/kkeydialog.cpp:817
 msgid "Reassign"
 msgstr "重新指定"
 
-#: kdeui/dialogs/kkeydialog.cpp:945
+#: kdeui/dialogs/kkeydialog.cpp:946
 msgid "Configure Shortcuts"
 msgstr "設定快速鍵"
 
@@ -5918,7 +5914,7 @@ msgstr "無效的正規表達式。"
 
 #: kdeui/findreplace/kreplace.cpp:47 kdeui/findreplace/kreplace.cpp:51
 #: kdeui/shortcuts/kstandardshortcut.cpp:87
-#: kross/modules/scriptmanager.cpp:402 kcert/kcertpart.cc:739
+#: kross/modules/scriptmanager.cpp:263 kcert/kcertpart.cc:739
 #: kcert/kcertpart.cc:755
 msgid "Replace"
 msgstr "取代"
@@ -6036,6 +6032,41 @@ msgstr "所有可見的欄"
 #: kde3support/kdeui/k3listviewsearchline.cpp:557
 msgid "S&earch:"
 msgstr "搜尋(&S)："
+
+#: kdeui/shortcuts/kgesture.cpp:379
+msgctxt "left mouse button"
+msgid "left button"
+msgstr ""
+
+#: kdeui/shortcuts/kgesture.cpp:382
+msgctxt "middle mouse button"
+msgid "middle button"
+msgstr ""
+
+#: kdeui/shortcuts/kgesture.cpp:385
+msgctxt "right mouse button"
+msgid "right button"
+msgstr ""
+
+#: kdeui/shortcuts/kgesture.cpp:388
+msgctxt "a nonexistent value of mouse button"
+msgid "invalid button"
+msgstr ""
+
+#: kdeui/shortcuts/kgesture.cpp:398
+msgctxt ""
+"an invalid mouse gesture of type \"hold down one button, then press another "
+"button\""
+msgid "invalid rocker gesture"
+msgstr ""
+
+#: kdeui/shortcuts/kgesture.cpp:401
+#, qt-format
+msgctxt ""
+"a kind of mouse gesture: hold down one mouse button, then press another "
+"button"
+msgid "Hold %1, then push %2"
+msgstr ""
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:65
 msgid "New"
@@ -7881,12 +7912,21 @@ msgstr ""
 msgid "Incompatible interpreter library."
 msgstr ""
 
-#: kross/core/manager.cpp:114
+#: kross/core/manager.cpp:116
 msgid "Level of safety of the Ruby interpreter"
 msgstr ""
 
-#: kross/core/manager.cpp:139
+#: kross/core/manager.cpp:141
 msgid "Restricted mode for untrusted scripts"
+msgstr ""
+
+#: kross/core/manager.cpp:317
+#, fuzzy
+msgid "Execute Script File"
+msgstr "執行檔案嗎？"
+
+#: kross/core/manager.cpp:341
+msgid "Failed to load the Script Manager."
 msgstr ""
 
 #: kross/core/action.cpp:443
@@ -7929,19 +7969,66 @@ msgstr "語文(&I)"
 msgid "Execute Script File..."
 msgstr "執行檔案嗎？"
 
-#: kross/core/guiclient.cpp:81
+#: kross/core/guiclient.cpp:82
 #, fuzzy
 msgid "Script Manager..."
 msgstr "加密管理員(&C)..."
 
-#: kross/core/guiclient.cpp:250
+#: kross/core/view.cpp:163
 #, fuzzy
-msgid "Execute Script File"
-msgstr "執行檔案嗎？"
+msgid "Text:"
+msgstr "Test"
 
-#: kross/core/guiclient.cpp:275
-msgid "Failed to load the Script Manager."
+#: kross/core/view.cpp:170
+#, fuzzy
+msgid "Comment:"
+msgstr "備註"
+
+#: kross/core/view.cpp:177
+#, fuzzy
+msgid "Icon:"
+msgstr "圖示"
+
+#: kross/core/view.cpp:198
+#, fuzzy
+msgid "Interpreter:"
+msgstr "網絡搜尋"
+
+#: kross/core/view.cpp:308
+#, fuzzy
+msgid "Execute the selected script."
+msgstr "預覽所選擇的字型"
+
+#: kross/core/view.cpp:315
+#, fuzzy
+msgid "Stop execution of the selected script."
+msgstr "預覽所選擇的字型"
+
+#: kross/core/view.cpp:320
+#, fuzzy
+msgid "Edit..."
+msgstr "編輯(&E)..."
+
+#: kross/core/view.cpp:322
+msgid "Edit selected script."
 msgstr ""
+
+#: kross/core/view.cpp:327
+#, fuzzy
+msgid "Add..."
+msgstr "新增(&A)..."
+
+#: kross/core/view.cpp:329
+msgid "Add a new script."
+msgstr ""
+
+#: kross/core/view.cpp:336
+msgid "Remove selected script."
+msgstr ""
+
+#: kross/core/view.cpp:511
+msgid "Edit"
+msgstr "編輯"
 
 #: kross/modules/scriptmanageradd.cpp:53
 msgid ""
@@ -7980,126 +8067,62 @@ msgstr "語文(&I)"
 msgid "Collection"
 msgstr "冒號"
 
-#: kross/modules/scriptmanager.cpp:142
-#, fuzzy
-msgid "Execute the selected script."
-msgstr "預覽所選擇的字型"
-
-#: kross/modules/scriptmanager.cpp:148
-#, fuzzy
-msgid "Stop execution of the selected script."
-msgstr "預覽所選擇的字型"
-
-#: kross/modules/scriptmanager.cpp:157
-#, fuzzy
-msgid "Edit..."
-msgstr "編輯(&E)..."
-
-#: kross/modules/scriptmanager.cpp:158
-msgid "Edit selected script."
-msgstr ""
-
-#: kross/modules/scriptmanager.cpp:163
-#, fuzzy
-msgid "Add..."
-msgstr "新增(&A)..."
-
-#: kross/modules/scriptmanager.cpp:164
-msgid "Add a new script."
-msgstr ""
-
-#: kross/modules/scriptmanager.cpp:170
-msgid "Remove selected script."
-msgstr ""
-
-#: kross/modules/scriptmanager.cpp:308
+#: kross/modules/scriptmanager.cpp:169
 msgid "Install Script Package"
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:371
+#: kross/modules/scriptmanager.cpp:232
 #, fuzzy, qt-format
 msgid "Could not read the package \"%1\"."
 msgstr "無法載入這份文件。"
 
-#: kross/modules/scriptmanager.cpp:378
+#: kross/modules/scriptmanager.cpp:239
 #, qt-format
 msgid "The package \"%1\" does not contain a valid install.rc file."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:385
+#: kross/modules/scriptmanager.cpp:246
 #, qt-format
 msgid "Failed to parse the install.rc file at package \"%1\"."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:391
+#: kross/modules/scriptmanager.cpp:252
 #, qt-format
 msgid ""
 "Failed to determinate location where the package \"%1\" should be installed "
 "to."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:401
+#: kross/modules/scriptmanager.cpp:262
 #, fuzzy, qt-format
 msgid ""
 "A script package with the name \"%1\" already exists. Replace this package?"
 msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
 
-#: kross/modules/scriptmanager.cpp:405
+#: kross/modules/scriptmanager.cpp:266
 #, qt-format
 msgid ""
 "Could not uninstall this script package. You may not have sufficient "
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:435
+#: kross/modules/scriptmanager.cpp:296
 #, qt-format
 msgid ""
 "Could not uninstall the script package \"%1\" since the script is not "
 "installed."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:441
+#: kross/modules/scriptmanager.cpp:302
 msgid ""
 "Could not uninstall the script package \"%1\". You may not have sufficient "
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:458
-msgid "Edit"
-msgstr "編輯"
-
-#: kross/modules/scriptmanager.cpp:495
+#: kross/modules/scriptmanager.cpp:319
 #, fuzzy
 msgid "Script Manager"
 msgstr "加密管理員(&C)..."
-
-#: kross/modules/scriptmanagereditor.cpp:105
-msgid "Add new property"
-msgstr ""
-
-#: kross/modules/scriptmanagereditor.cpp:110
-msgid "Remove selected property"
-msgstr ""
-
-#: kross/modules/scriptmanagereditor.cpp:257
-#, fuzzy
-msgid "Text:"
-msgstr "Test"
-
-#: kross/modules/scriptmanagereditor.cpp:264
-#, fuzzy
-msgid "Comment:"
-msgstr "備註"
-
-#: kross/modules/scriptmanagereditor.cpp:271
-#, fuzzy
-msgid "Icon:"
-msgstr "圖示"
-
-#: kross/modules/scriptmanagereditor.cpp:292
-#, fuzzy
-msgid "Interpreter:"
-msgstr "網絡搜尋"
 
 #: solid/kcm/kcmsolid.cpp:41
 #, fuzzy
@@ -9615,127 +9638,127 @@ msgstr "使用者路徑： 桌面|自動啟動|垃圾桶|文件"
 msgid "Prefix to install resource files to"
 msgstr "安裝資源檔案的目錄"
 
-#: kdecore/kde-config.cpp.in:178
+#: kdecore/kde-config.cpp.in:248
 msgid "Applications menu (.desktop files)"
 msgstr "應用程式選單(.desktop 檔案)"
 
-#: kdecore/kde-config.cpp.in:179
+#: kdecore/kde-config.cpp.in:249
 msgid "CGIs to run from kdehelp"
 msgstr "由 kdehelp 執行的 CGI"
 
-#: kdecore/kde-config.cpp.in:180
+#: kdecore/kde-config.cpp.in:250
 msgid "Configuration files"
 msgstr "組態設定檔案"
 
-#: kdecore/kde-config.cpp.in:181
+#: kdecore/kde-config.cpp.in:251
 msgid "Where applications store data"
 msgstr "應用程式儲存資料的地方"
 
-#: kdecore/kde-config.cpp.in:182
+#: kdecore/kde-config.cpp.in:252
 #, fuzzy
 msgid "Emoticons"
 msgstr "[選項] "
 
-#: kdecore/kde-config.cpp.in:183
+#: kdecore/kde-config.cpp.in:253
 msgid "Executables in $prefix/bin"
 msgstr "在 $prefix/bin 內的執行檔"
 
-#: kdecore/kde-config.cpp.in:184
+#: kdecore/kde-config.cpp.in:254
 msgid "HTML documentation"
 msgstr "HTML 文件"
 
-#: kdecore/kde-config.cpp.in:185
+#: kdecore/kde-config.cpp.in:255
 msgid "Icons"
 msgstr "圖示"
 
-#: kdecore/kde-config.cpp.in:186
+#: kdecore/kde-config.cpp.in:256
 msgid "Configuration description files"
 msgstr "組態描述檔案"
 
-#: kdecore/kde-config.cpp.in:187
+#: kdecore/kde-config.cpp.in:257
 msgid "Libraries"
 msgstr "程式庫"
 
-#: kdecore/kde-config.cpp.in:188
+#: kdecore/kde-config.cpp.in:258
 msgid "Includes/Headers"
 msgstr "引入檔/標頭檔"
 
-#: kdecore/kde-config.cpp.in:189
+#: kdecore/kde-config.cpp.in:259
 msgid "Translation files for KLocale"
 msgstr "KLocale 的翻譯檔案"
 
-#: kdecore/kde-config.cpp.in:190
+#: kdecore/kde-config.cpp.in:260
 msgid "Mime types"
 msgstr "Mime 類型"
 
-#: kdecore/kde-config.cpp.in:191
+#: kdecore/kde-config.cpp.in:261
 msgid "Loadable modules"
 msgstr "可載入的模組"
 
-#: kdecore/kde-config.cpp.in:192 kdecore/kde-config.cpp.in:202
+#: kdecore/kde-config.cpp.in:262 kdecore/kde-config.cpp.in:272
 msgid "Legacy pixmaps"
 msgstr ""
 
-#: kdecore/kde-config.cpp.in:193
+#: kdecore/kde-config.cpp.in:263
 msgid "Qt plugins"
 msgstr "Qt 外掛模組"
 
-#: kdecore/kde-config.cpp.in:194
+#: kdecore/kde-config.cpp.in:264
 msgid "Services"
 msgstr "服務"
 
-#: kdecore/kde-config.cpp.in:195
+#: kdecore/kde-config.cpp.in:265
 msgid "Service types"
 msgstr "服務類型"
 
-#: kdecore/kde-config.cpp.in:196
+#: kdecore/kde-config.cpp.in:266
 msgid "Application sounds"
 msgstr "應用程式聲音"
 
-#: kdecore/kde-config.cpp.in:197
+#: kdecore/kde-config.cpp.in:267
 msgid "Templates"
 msgstr "範本"
 
-#: kdecore/kde-config.cpp.in:198
+#: kdecore/kde-config.cpp.in:268
 msgid "Wallpapers"
 msgstr "桌布"
 
-#: kdecore/kde-config.cpp.in:199
+#: kdecore/kde-config.cpp.in:269
 msgid "XDG Application menu (.desktop files)"
 msgstr "XDG 應用程式選單(.desktop 檔案)"
 
-#: kdecore/kde-config.cpp.in:200
+#: kdecore/kde-config.cpp.in:270
 msgid "XDG Menu descriptions (.directory files)"
 msgstr "XDG 應用程式描述(.directory 檔案)"
 
-#: kdecore/kde-config.cpp.in:201
+#: kdecore/kde-config.cpp.in:271
 #, fuzzy
 msgid "XDG Icons"
 msgstr "圖示"
 
-#: kdecore/kde-config.cpp.in:203
+#: kdecore/kde-config.cpp.in:273
 #, fuzzy
 msgid "XDG Mime Types"
 msgstr "Mime 類型"
 
-#: kdecore/kde-config.cpp.in:204
+#: kdecore/kde-config.cpp.in:274
 msgid "XDG Menu layout (.menu files)"
 msgstr "XDG 選單配置樣式(.menu 檔案)"
 
-#: kdecore/kde-config.cpp.in:205
+#: kdecore/kde-config.cpp.in:275
 msgid "Temporary files (specific for both current host and current user)"
 msgstr "暫存檔案 (指定給目前主機和目前使用者)"
 
-#: kdecore/kde-config.cpp.in:206
+#: kdecore/kde-config.cpp.in:276
 msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr "UNIX Sockets (指定給目前主機和目前使用者)"
 
-#: kdecore/kde-config.cpp.in:218
+#: kdecore/kde-config.cpp.in:288
 #, qt-format
 msgid "%1 - unknown type\n"
 msgstr "%1 - 無法識別的類型\n"
 
-#: kdecore/kde-config.cpp.in:280
+#: kdecore/kde-config.cpp.in:350
 #, qt-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - 無法識別的用戶路徑類型\n"
