@@ -7,7 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
-"POT-Creation-Date: 2007-03-11 02:48+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-03-28 05:52+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -17,573 +18,67 @@ msgstr ""
 "X-Generator: KBabel 0.9.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: _translatorinfo.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Tse-Chun Ho,Walter Cheuk"
+#: main.cpp:28
+msgid "Start KGet with drop target"
+msgstr "使用拖放目標模式啟動 KGet"
 
-#: _translatorinfo.cpp:3
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
+#: main.cpp:29
+#, fuzzy
+msgid "URL(s) to download"
+msgstr "用以下載的 URL"
 
-#: dlgDirectories.cpp:90 dlgDirectories.cpp:126
-msgid ""
-"Each row consists of exactly one\n"
-"extension type and one folder."
-msgstr "每一行由一個延伸類型和一個資料夾組成。"
+#: main.cpp:114 mainwindow.cpp:63
+msgid "KGet"
+msgstr "KGet"
 
-#: dlgDirectories.cpp:97 dlgDirectories.cpp:133
-#, c-format
-msgid ""
-"Folder does not exist:\n"
-"%1"
+#: main.cpp:115
+msgid "An advanced download manager for KDE"
+msgstr "KDE 先進的下載管理員"
+
+#: main.cpp:123
+msgid "Maintainer, Core Developer"
 msgstr ""
-"沒有這個資料夾：\n"
-"%1"
 
-#: dlgIndividual.cpp:65
-msgid "&Dock"
-msgstr "停泊(&D)"
-
-#: dlgIndividual.cpp:75
-msgid "Source:"
-msgstr "來源："
-
-#: dlgIndividual.cpp:79 dlgIndividual.cpp:84
-msgid "Source Label"
-msgstr "來源標籤："
-
-#: dlgIndividual.cpp:80
-msgid "Destination:"
-msgstr "目的地："
-
-#: dlgIndividual.cpp:99
-msgid "0 B/s"
-msgstr "0 B/秒"
-
-#: dlgIndividual.cpp:127
-msgid "&Keep this window open after the operation is complete."
-msgstr "操作結束後保持這個視窗開啟(&K)。"
-
-#: dlgIndividual.cpp:139
-msgid "Open &File"
-msgstr "開啟檔案(&F)"
-
-#: dlgIndividual.cpp:144
-msgid "Open &Destination"
-msgstr "開啟目的地(&D)"
-
-#: dlgIndividual.cpp:150 dlgPreferences.cpp:74
-msgid "Advanced"
-msgstr "進階"
-
-#: dlgIndividual.cpp:175
-msgid "Timer"
-msgstr "計時器"
-
-#: dlgIndividual.cpp:190
-msgid "Log"
-msgstr "記錄檔"
-
-#: dlgIndividual.cpp:204
-msgid "Progress Dialog"
-msgstr "進度對話方塊"
-
-#: dlgIndividual.cpp:220
-msgid "%1% of %2 - %3"
-msgstr "%1% / %2 - %3"
-
-#: dlgIndividual.cpp:226
-msgid "%1 of %2"
-msgstr "%1 / %2"
-
-#: dlgIndividual.cpp:250 transferlist.cpp:68
-msgid "Resumed"
-msgstr "已續傳"
-
-#: dlgIndividual.cpp:252
-msgid "Not resumed"
-msgstr "未續傳"
-
-#: dlgPreferences.cpp:56
-msgid "Connection"
-msgstr "連線數"
-
-#: dlgPreferences.cpp:62
-msgid "Automation"
-msgstr "自動化"
-
-#: dlgPreferences.cpp:68
-msgid "Limits"
-msgstr "限制"
-
-#: dlgPreferences.cpp:85
-msgid "Folders"
-msgstr "資料夾"
-
-#: dlgPreferences.cpp:91
-msgid "System"
-msgstr "系統"
-
-#: droptarget.cpp:92
-msgid "Maximize"
-msgstr "放到最大"
-
-#: droptarget.cpp:93
-msgid "Minimize"
-msgstr "縮到最小"
-
-#: droptarget.cpp:95
-msgid "Sticky"
-msgstr "固定"
-
-#: kfileio.cpp:45
-#, c-format
-msgid ""
-"The specified file does not exist:\n"
-"%1"
+#: main.cpp:124
+msgid "Core Developer"
 msgstr ""
-"指定的檔案不存在：\n"
-"%1"
 
-#: kfileio.cpp:50
-#, c-format
-msgid ""
-"This is a folder and not a file:\n"
-"%1"
+#: main.cpp:125
+msgid "Multithreaded Plugin Author"
 msgstr ""
-"這是個目錄而不是檔案：\n"
-"%1"
 
-#: kfileio.cpp:55
-#, c-format
-msgid ""
-"You do not have read permission for the file:\n"
-"%1"
+#: main.cpp:126 main.cpp:127 main.cpp:128
+msgid "Former KGet Developer"
 msgstr ""
-"您沒有權限讀取這個檔案：\n"
-"%1"
 
-#: kfileio.cpp:65
-#, c-format
-msgid ""
-"Could not read file:\n"
-"%1"
+#: mainwindow.cpp:93
+msgid "&New Download..."
 msgstr ""
-"無法讀取檔案：\n"
-"%1"
 
-#: kfileio.cpp:68
-#, c-format
-msgid ""
-"Could not open file:\n"
-"%1"
+#: mainwindow.cpp:99
+msgid "&Open..."
 msgstr ""
-"無法開啟檔案：\n"
-"%1"
 
-#: kfileio.cpp:71
-#, c-format
-msgid ""
-"Error while reading file:\n"
-"%1"
-msgstr ""
-"讀取檔案時發生錯誤：\n"
-"%1"
-
-#: kfileio.cpp:85
-msgid "Could only read %1 bytes of %2."
-msgstr "只能讀取 %2 中的 %1 個位元組。"
-
-#: kfileio.cpp:110
-msgid ""
-"File %1 exists.\n"
-"Do you want to replace it?"
-msgstr ""
-"檔案 %1 已存在。\n"
-"是否要取代它？"
-
-#: kfileio.cpp:127
-msgid ""
-"Failed to make a backup copy of %1.\n"
-"Continue anyway?"
-msgstr ""
-"無法建立 %1 的備份。\n"
-"仍要繼續？"
-
-#: kfileio.cpp:138 kfileio.cpp:152
-#, c-format
-msgid ""
-"Could not write to file:\n"
-"%1"
-msgstr ""
-"無法寫入檔案：\n"
-"%1"
-
-#: kfileio.cpp:141
-#, c-format
-msgid ""
-"Could not open file for writing:\n"
-"%1"
-msgstr ""
-"無法開啟檔案進行寫入：\n"
-"%1"
-
-#: kfileio.cpp:144
-#, c-format
-msgid ""
-"Error while writing file:\n"
-"%1"
-msgstr ""
-"寫入檔案時發生錯誤：\n"
-"%1"
-
-#: kfileio.cpp:155
-msgid "Could only write %1 bytes of %2."
-msgstr "只能寫入 %2 中的 %1 個位元組。"
-
-#: kmainwidget.cpp:161
-msgid "Welcome to KGet"
-msgstr "歡迎使用 KGet"
-
-#: kmainwidget.cpp:176
-msgid "Could not create valid socket"
-msgstr "無法建立有效的 socket"
-
-#: kmainwidget.cpp:246 kmainwidget.cpp:1703 kmainwidget.cpp:2185
-msgid "Offline"
-msgstr "離線"
-
-#: kmainwidget.cpp:247
-msgid "Starting offline"
-msgstr "開始離線"
-
-#: kmainwidget.cpp:341
-msgid "&Export Transfer List..."
+#: mainwindow.cpp:105
+#, fuzzy
+msgid "&Export Transfers List..."
 msgstr "匯出傳輸列表(&E)..."
 
-#: kmainwidget.cpp:342
-msgid "&Import Transfer List..."
-msgstr "匯入傳輸列表(&I)..."
+#: mainwindow.cpp:111
+msgid "Edit Groups.."
+msgstr ""
 
-#: kmainwidget.cpp:344
-msgid "Import Text &File..."
-msgstr "匯入文字檔案(&F)..."
-
-#: kmainwidget.cpp:350
-msgid "&Copy URL to Clipboard"
-msgstr "複製 URL 到剪貼簿(&C)"
-
-#: kmainwidget.cpp:351
-msgid "&Open Individual Window"
-msgstr "開啟個別視窗(&O)"
-
-#: kmainwidget.cpp:353
-msgid "Move to &Beginning"
-msgstr "移至開頭(&B)"
-
-#: kmainwidget.cpp:355
-msgid "Move to &End"
-msgstr "移至結尾(&E)"
-
-#: kmainwidget.cpp:359 transfer.cpp:127
-msgid "&Resume"
-msgstr "續傳(&R)"
-
-#: kmainwidget.cpp:360 transfer.cpp:129
-msgid "&Pause"
-msgstr "暫停(&P)"
-
-#: kmainwidget.cpp:362 transfer.cpp:133
-msgid "Re&start"
-msgstr "重新開始(&S)"
-
-#: kmainwidget.cpp:364 transfer.cpp:135
-msgid "&Queue"
-msgstr "排入佇列(&Q)"
-
-#: kmainwidget.cpp:365 transfer.cpp:137
-msgid "&Timer"
-msgstr "計時器(&T)"
-
-#: kmainwidget.cpp:366 transfer.cpp:139
-msgid "De&lay"
-msgstr "延遲(&L)"
-
-#: kmainwidget.cpp:373
-msgid "Use &Animation"
-msgstr "使用動畫(&A)"
-
-#: kmainwidget.cpp:374
-msgid "&Expert Mode"
-msgstr "專家模式(&E)"
-
-#: kmainwidget.cpp:375
-msgid "&Use-Last-Folder Mode"
-msgstr "「使用最近資料夾」模式(&U)"
-
-#: kmainwidget.cpp:376
-msgid "Auto-&Disconnect Mode"
-msgstr "自動斷線模式(&D)"
-
-#: kmainwidget.cpp:377
-msgid "Auto-S&hutdown Mode"
-msgstr "自動關閉模式(&H)"
-
-#: kmainwidget.cpp:378
-msgid "&Offline Mode"
-msgstr "離線模式(&O)"
-
-#: kmainwidget.cpp:379
-msgid "Auto-Pas&te Mode"
+#: mainwindow.cpp:116
+#, fuzzy
+msgid "Auto-Paste Mode"
 msgstr "自動貼上模式(&T)"
 
-#: kmainwidget.cpp:393
-msgid "Show &Log Window"
-msgstr "顯示記錄視窗(&L)"
-
-#: kmainwidget.cpp:394
-msgid "Hide &Log Window"
-msgstr "隱藏記錄視窗(&L)"
-
-#: kmainwidget.cpp:395 kmainwidget.cpp:1844
-msgid "Show Drop &Target"
-msgstr "顯示拖放目標(&T)"
-
-#: kmainwidget.cpp:396 kmainwidget.cpp:1872
-msgid "Enable &KGet as Konqueror Download Manager"
-msgstr "將 &KGet 設定為 Konqueror 的下載管理員"
-
-#: kmainwidget.cpp:398 kmainwidget.cpp:1868
-msgid "Disable &KGet as Konqueror Download Manager"
-msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
-
-#: kmainwidget.cpp:407 kmainwidget.cpp:2107
-msgid " Transfers: %1 "
-msgstr " 傳輸： %1"
-
-#: kmainwidget.cpp:408 kmainwidget.cpp:2108
-msgid " Files: %1 "
-msgstr " 檔案： %1"
-
-#: kmainwidget.cpp:409
-msgid " Size: %1 KB "
-msgstr " 大小: %1 KB "
-
-#: kmainwidget.cpp:410 kmainwidget.cpp:2110
-msgid " Time: %1 "
-msgstr " 時間： %1 "
-
-#: kmainwidget.cpp:411
-msgid " %1 KB/s "
-msgstr " %1 KB/秒"
-
-#: kmainwidget.cpp:433
+#: mainwindow.cpp:119
+#, fuzzy
 msgid ""
-"<b>Resume</b> button starts selected transfers\n"
-"and sets their mode to <i>queued</i>."
-msgstr ""
-"<b>續傳</b>按鈕開始所選擇的檔案傳輸\n"
-"並設定它們的模式至<i>已佇列</i>。"
-
-#: kmainwidget.cpp:436
-msgid ""
-"<b>Pause</b> button stops selected transfers\n"
-"and sets their mode to <i>delayed</i>."
-msgstr ""
-"<b>暫停</b>按鈕停止所選擇的檔案傳輸\n"
-"並設定它們的模式至 <i>已延遲</i>。"
-
-#: kmainwidget.cpp:439
-msgid ""
-"<b>Delete</b> button removes selected transfers\n"
-"from the list."
-msgstr "<b>刪除</b>按鈕從列表移除所選擇的檔案傳輸。"
-
-#: kmainwidget.cpp:442
-msgid ""
-"<b>Restart</b> button is a convenience button\n"
-"that simply does Pause and Resume."
-msgstr "<b>重新開始</b>按鈕讓您方便的暫停或恢復傳輸。"
-
-#: kmainwidget.cpp:445
-msgid ""
-"<b>Queued</b> button sets the mode of selected\n"
-"transfers to <i>queued</i>.\n"
-"\n"
-"It is a radio button -- you can choose between\n"
-"three modes."
-msgstr ""
-"<b>已佇列</b>按鈕將所選擇的檔案傳輸模式設定為<i>已佇列</i>。\n"
-"\n"
-"它是個單選按鈕——你可以在三種模式中選擇一種。"
-
-#: kmainwidget.cpp:448
-msgid ""
-"<b>Scheduled</b> button sets the mode of selected\n"
-"transfers to <i>scheduled</i>.\n"
-"\n"
-"It is a radio button -- you can choose between\n"
-"three modes."
-msgstr ""
-"<b>已排程</b>按鈕將所選擇的檔案傳輸模式設定為<i>已排程</i>。\n"
-"\n"
-"它是一個單選按鈕——你可以在三種模式中選擇一種。"
-
-#: kmainwidget.cpp:451
-msgid ""
-"<b>Delayed</b> button sets the mode of selected\n"
-"transfers to <i>delayed</i>.This also causes the selected transfers to "
-"stop.\n"
-"\n"
-"It is a radio button -- you can choose between\n"
-"three modes."
-msgstr ""
-"<b>已延遲</b>按鈕將所選擇的檔案傳輸\n"
-"模式設定為<i>已延遲</i>。它也會令所選擇的檔案\n"
-"停止傳輸。\n"
-"\n"
-"它是一個單選按鈕——你可以在三種模式中選擇一種。"
-
-#: kmainwidget.cpp:454
-msgid ""
-"<b>Preferences</b> button opens a preferences dialog\n"
-"where you can set various options.\n"
-"\n"
-"Some of these options can be more easily set using the toolbar."
-msgstr ""
-"<b>偏好設定</b>按鈕開啟偏好設定對話框，讓您設定多種選項。\n"
-"\n"
-"使用這工具列令您某容易些設定某些選項。"
-
-#: kmainwidget.cpp:457
-msgid ""
-"<b>Log window</b> button opens a log window.\n"
-"The log window records all program events that occur\n"
-"while KGet is running."
-msgstr ""
-"<b>記錄視窗</b>按鈕開啟記錄視窗。\n"
-"記錄視窗記錄所有 KGet 執行時發生的程式事件。"
-
-#: kmainwidget.cpp:460
-msgid ""
-"<b>Paste transfer</b> button adds a URL from\n"
-"the clipboard as a new transfer.\n"
-"\n"
-"This way you can easily copy&paste URLs between\n"
-"applications."
-msgstr ""
-"<b>貼上傳輸</b>按鈕會自剪貼簿增加一個 URL 為新的傳輸。\n"
-"\n"
-"這個方法讓您在應用程式之間容易地複製和貼上 URL 。"
-
-#: kmainwidget.cpp:463
-msgid ""
-"<b>Expert mode</b> button toggles the expert mode\n"
-"on and off.\n"
-"\n"
-"Expert mode is recommended for experienced users.\n"
-"When set, you will not be \"bothered\" by confirmation\n"
-"messages.\n"
-"<b>Important!</b>\n"
-"Turn it on if you are using auto-disconnect or\n"
-"auto-shutdown features and you want KGet to disconnect \n"
-"or shut down without asking."
-msgstr ""
-"<b>專家模式</b>按鈕會啟動或關閉專家模式；\n"
-"按一下啟動，再按則停止。\n"
-"\n"
-"專家模式供熟練使用者使用。\n"
-"當啟動了專家模式，您將不會被確定訊息「打擾」。\n"
-"<b>重要事項！</b>\n"
-"如果您使用自動斷線或自動關閉功能，\n"
-"並且您想要 KGet 斷線或關閉而不而事先詢問，請啟動它。"
-
-#: kmainwidget.cpp:466
-msgid ""
-"<b>Use last folder</b> button toggles the\n"
-"use-last-folder feature on and off.\n"
-"\n"
-"When set, KGet will ignore the folder settings\n"
-"and put all new added transfers into the folder\n"
-"where the last transfer was put."
-msgstr ""
-"<b>使用最近資料夾</b>按鈕會啟動或關閉「使用最近資料夾」\n"
-"模式；按一下啟動，再按則停止。\n"
-"\n"
-"當啟動了這項功能， KGet 將會忽略目錄設定值\n"
-"並且將所有新增的傳輸檔案放置到最近一次傳輸所放置的目錄。"
-
-#: kmainwidget.cpp:469
-msgid ""
-"<b>Auto disconnect</b> button toggles the auto-disconnect\n"
-"mode on and off.\n"
-"\n"
-"When set, KGet will disconnect automatically\n"
-"after all queued transfers are finished.\n"
-"\n"
-"<b>Important!</b>\n"
-"Also turn on the expert mode when you want KGet\n"
-"to disconnect without asking."
-msgstr ""
-"<b>自動斷線</b>按鈕會啟動或關閉自動斷線\n"
-"模式；按一下啟動，再按則停止。\n"
-"\n"
-"當啟動了這項功能， KGet 將會在所有已佇列傳輸完成後\n"
-"自動斷線。\n"
-"\n"
-"<b>重要事項！</b>\n"
-"如您希望 KGet 斷線而不要事先詢問您，請同時啟動\n"
-"專家模式。"
-
-#: kmainwidget.cpp:472
-msgid ""
-"<b>Auto shutdown</b> button toggles the auto-shutdown\n"
-"mode on and off.\n"
-"\n"
-"When set, KGet will quit automatically\n"
-"after all queued transfers are finished.\n"
-"<b>Important!</b>\n"
-"Also turn on the expert mode when you want KGet\n"
-"to quit without asking."
-msgstr ""
-"<b>自動關閉</b>按鈕會啟動或關閉自動關閉\n"
-"模式；按一下啟動，再按則停止。\n"
-"\n"
-"當啟動了這項功能， KGet 將會在所有已佇列\n"
-"傳輸完成後自動關閉。\n"
-"\n"
-"<b>重要事項！</b>\n"
-"如您希望 KGet 關閉而不要事先詢問您，請同時開啟\n"
-"專家模式。"
-
-#: kmainwidget.cpp:475
-msgid ""
-"<b>Offline mode</b> button toggles the offline mode\n"
-"on and off.\n"
-"\n"
-"When set, KGet will act as if it was not connected\n"
-"to the Internet.\n"
-"\n"
-"You can browse offline, while still being able to add\n"
-"new transfers as queued."
-msgstr ""
-"<b>離線模式</b>按鈕會啟動或關閉離線模式\n"
-"模式；按一下啟動，再按則停止。\n"
-"\n"
-"當啟動了這項功能， KGet 將會扮作沒有連結到\n"
-"互聯網。\n"
-"\n"
-"您可以離線瀏覽，並且仍然可以新增傳輸到佇列中。"
-
-#: kmainwidget.cpp:478
-msgid ""
-"<b>Auto paste</b> button toggles the auto-paste mode\n"
-"on and off.\n"
-"\n"
-"When set, KGet will periodically scan the clipboard\n"
-"for URLs and paste them automatically."
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
 msgstr ""
 "<b>自動貼上</b>按鈕會啟動或關閉自動貼上離線\n"
 "模式；按一下啟動，再按則停止。\n"
@@ -591,78 +86,512 @@ msgstr ""
 "當啟動了這項功能， KGet 將會週期性地掃描剪貼簿上的\n"
 "URL 並且自動地貼上這些 URL 。"
 
-#: kmainwidget.cpp:481
-msgid ""
-"<b>Drop target</b> button toggles the window style\n"
-"between a normal window and a drop target.\n"
-"\n"
-"When set, the main window will be hidden and\n"
-"instead a small shaped window will appear.\n"
-"\n"
-"You can show/hide a normal window with a simple click\n"
-"on a shaped window."
+#: mainwindow.cpp:125
+#, fuzzy
+msgid "Use KGet as Konqueror Download Manager"
+msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
+
+#: mainwindow.cpp:149
+#, fuzzy
+msgid "Delete Selected"
+msgstr "沒有選擇檔案"
+
+#: mainwindow.cpp:155
+msgid "Start / Resume All"
 msgstr ""
-"<b>拖放目標</b>按鈕會於一般視窗及拖放目標兩個\n"
-"視窗風格間切換。\n"
-"\n"
-"開啟後，主視窗將會隱藏而一個小的成形視窗將會出現。\n"
-"\n"
-"你可以簡單地敲擊成形視窗以顯示或隱藏一般視窗。"
 
-#: kmainwidget.cpp:586 kmainwidget.cpp:648
-msgid ""
-"*.kgt|*.kgt\n"
-"*|All Files"
+#: mainwindow.cpp:160
+#, fuzzy
+msgid "Start / Resume Selected"
+msgstr "沒有選擇檔案"
+
+#: mainwindow.cpp:165
+msgid "Stop All"
 msgstr ""
-"*.kgt|*.kgt\n"
-"*|所有檔案"
 
-#: kmainwidget.cpp:700
-msgid "Quitting..."
-msgstr "正在關閉..."
+#: mainwindow.cpp:170
+#, fuzzy
+msgid "Stop Selected"
+msgstr "沒有選擇檔案"
 
-#: kmainwidget.cpp:705
-msgid ""
-"Some transfers are still running.\n"
-"Are you sure you want to quit KGet?"
+#: mainwindow.cpp:174
+msgid "Start / Resume"
 msgstr ""
-"有傳輸仍在運作。\n"
-"您確定您要關閉 KGet 嗎？"
 
-#: kmainwidget.cpp:816
-msgid "Are you sure you want to delete these transfers?"
-msgstr "你確定要刪除這些傳輸嗎？"
+#: mainwindow.cpp:182 core/transfergrouphandler.cpp:312
+#, fuzzy
+msgid "Stop"
+msgstr "已停止"
 
-#: kmainwidget.cpp:817 kmainwidget.cpp:826 kmainwidget.cpp:2154
-#: kmainwidget.cpp:2424
-msgid "Question"
-msgstr "問題"
+#: mainwindow.cpp:191
+#, fuzzy
+msgid "Open Destination"
+msgstr "開啟目的地(&D)"
 
-#: kmainwidget.cpp:825 transfer.cpp:457
-msgid "Are you sure you want to delete this transfer?"
-msgstr "你確定要刪除這筆傳輸嗎？"
+#: mainwindow.cpp:196
+#, fuzzy
+msgid "Show Details"
+msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: kmainwidget.cpp:853
-#, c-format
-msgid "The transfer you wanted to delete completed before it could be deleted."
-msgid_plural ""
-"%n transfers you wanted to delete completed before they could be deleted."
-msgstr[0] "%1 個您要刪除的傳輸在它們能被刪除之前已完成了。"
+#: mainwindow.cpp:201
+#, fuzzy
+msgid "Copy URL to Clipboard"
+msgstr "複製 URL 到剪貼簿(&C)"
 
-#: kmainwidget.cpp:869
-msgid "Stopping all jobs"
-msgstr "正在停止所有工作"
+#: mainwindow.cpp:259
+msgid "All openable files"
+msgstr ""
 
-#: kmainwidget.cpp:963 kmainwidget.cpp:1027
-msgid "Open Transfer"
-msgstr "開啟傳輸"
+#: mainwindow.cpp:261
+#, fuzzy
+msgid "Open file"
+msgstr "開啟檔案(&F)"
 
-#: kmainwidget.cpp:963 kmainwidget.cpp:1027
-msgid "Open transfer:"
+#: mainwindow.cpp:317
+#, fuzzy
+msgid "KGet transfer list"
 msgstr "開啟傳輸："
 
-#: kmainwidget.cpp:973 kmainwidget.cpp:2402
-#, c-format
+#: mainwindow.cpp:319
+#, fuzzy
+msgid "Export transfers"
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:506
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+
+#: mainwindow.cpp:509
+#, fuzzy
+msgid "Konqueror Integration disabled"
+msgstr "Konqueror 整合"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 13
+#: rc.cpp:4
+#, fuzzy, no-c-format
+msgid "DlgAdvanced"
+msgstr "進階"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 25
+#: rc.cpp:8
+#, no-c-format
+msgid "Disable confirmation dialogs (less verbosity)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 32
+#: rc.cpp:12
+#, fuzzy, no-c-format
+msgid "Integration"
+msgstr "Konqueror 整合"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 44
+#: rc.cpp:16
+#, fuzzy, no-c-format
+msgid "Use as download manager for Konqueror"
+msgstr "使用 KGet 為 Konqueror 的下載管理員"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 51
+#: rc.cpp:20
+#, fuzzy, no-c-format
+msgid "Monitor clipboard for files to download"
+msgstr "您未有選擇要下載的檔案。"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 13
+#: rc.cpp:24
+#, no-c-format
+msgid "DlgAppearance"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 25
+#: rc.cpp:28
+#, no-c-format
+msgid "Show main window at startup"
+msgstr "啟動時顯示主視窗"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 35
+#: rc.cpp:32
+#, no-c-format
+msgid "Open each download in a separate window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 69
+#: rc.cpp:36
+#, fuzzy, no-c-format
+msgid "Docked"
+msgstr "停泊"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 78
+#: rc.cpp:40
+#, fuzzy, no-c-format
+msgid "Show drop target"
+msgstr "顯示拖放目標"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 109
+#: rc.cpp:44
+#, fuzzy, no-c-format
+msgid "Enable animations"
+msgstr "使用動畫"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 118
+#: rc.cpp:48
+#, no-c-format
+msgid "Show splashscreen"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 13
+#: rc.cpp:52
+#, no-c-format
+msgid "DlgDirectories"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 25
+#: rc.cpp:56
+#, no-c-format
+msgid "Ask save location for every new download"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 32
+#: rc.cpp:60
+#, no-c-format
+msgid "Place new downloads inside default folders"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 54
+#: rc.cpp:64
+#, no-c-format
+msgid "Default folder:"
+msgstr "預設的資料夾:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 64
+#: rc.cpp:68
+#, no-c-format
+msgid "Move downloads inside matching folder for extension:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 78
+#: rc.cpp:72
+#, no-c-format
+msgid "Extension"
+msgstr "延伸檔名"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 83
+#: rc.cpp:76
+#, no-c-format
+msgid "Default Folder"
+msgstr "預設的資料夾"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 99
+#: rc.cpp:80
+#, fuzzy, no-c-format
+msgid "Extension:"
+msgstr "延伸檔名"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 118
+#: rc.cpp:84
+#, fuzzy, no-c-format
+msgid "Folder:"
+msgstr "資料夾"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 147
+#: rc.cpp:88
+#, no-c-format
+msgid "Add"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 154
+#: rc.cpp:92
+#, fuzzy, no-c-format
+msgid "Remove"
+msgstr "續傳(&R)"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 164
+#: rc.cpp:96
+#, no-c-format
+msgid "Change"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 16
+#: rc.cpp:100
+#, no-c-format
+msgid "DlgNetwork"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 28
+#: rc.cpp:104
+#, no-c-format
+msgid "Start downloading files immediately after startup"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 38
+#: rc.cpp:108
+#, no-c-format
+msgid "Limit maximum downloads per group"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 56
+#: rc.cpp:112
+#, no-c-format
+msgid "Downloads from the same server:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 63
+#: rc.cpp:116
+#, fuzzy, no-c-format
+msgid "Downloads number:"
+msgstr "下載管理員"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 103
+#: rc.cpp:120
+#, fuzzy, no-c-format
+msgid "Reconnect on error or broken connection"
+msgstr "斷線時"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 118
+#: rc.cpp:124
+#, fuzzy, no-c-format
+msgid "Retry after:"
+msgstr "在這之後重新連線："
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 128
+#: rc.cpp:128
+#, no-c-format
+msgid "Number of retries:"
+msgstr "重試的次數："
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 174
+#: rc.cpp:132
+#, fuzzy, no-c-format
+msgid "After completing downloads"
+msgstr "完成下載後自動關閉"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 186
+#: rc.cpp:136
+#, fuzzy, no-c-format
+msgid "Auto shutdown"
+msgstr "自動關閉開啟。"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 193
+#: rc.cpp:140
+#, fuzzy, no-c-format
+msgid "Auto disconnect"
+msgstr "自動斷線開啟。"
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 13
+#: rc.cpp:144
+#, fuzzy, no-c-format
+msgid "Form"
+msgstr "或"
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 40
+#: rc.cpp:148 ui/transferdetails.cpp:37
+#, no-c-format
+msgid "Saving to:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 47
+#: rc.cpp:152 ui/transferdetails.cpp:36
+#, no-c-format
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 90
+#: rc.cpp:156
+#, no-c-format
+msgid "<done> MiB of <todo> MiB"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 110
+#: rc.cpp:160 ui/transferdetails.cpp:38
+#, no-c-format
+msgid "Status:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 117
+#: rc.cpp:164
+#, no-c-format
+msgid "<icon>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 124
+#: rc.cpp:168
+#, no-c-format
+msgid "<status>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 141
+#: rc.cpp:172
+#, fuzzy, no-c-format
+msgid "<speed>"
+msgstr "速度"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 4
+#: rc.cpp:176
+#, fuzzy, no-c-format
+msgid "&File"
+msgstr "開啟檔案(&F)"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 12
+#: rc.cpp:180
+#, fuzzy, no-c-format
+msgid "&Downloads"
+msgstr "下載已續傳"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 21
+#: rc.cpp:184
+#, no-c-format
+msgid "&Settings"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 32
+#: rc.cpp:188
+#, no-c-format
+msgid "&Help"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 35
+#: rc.cpp:192
+#, no-c-format
+msgid "Main Toolbar"
+msgstr ""
+
+#: conf/dlgdirectories.cpp:124
+msgid "Folder and extension can not be empty."
+msgstr ""
+
+#: conf/dlgdirectories.cpp:124 core/kget.cpp:372 core/kget.cpp:581
+#: core/kget.cpp:608
+msgid "Error"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:37
+msgid "Appearance"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:37
+msgid "Look and Feel"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:38
+msgid "Folders"
+msgstr "資料夾"
+
+#: conf/preferencesdialog.cpp:38
+#, fuzzy
+msgid "Default Download Folders"
+msgstr "預設的資料夾"
+
+#: conf/preferencesdialog.cpp:39
+msgid "Network"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:39
+#, fuzzy
+msgid "Network and Downloads"
+msgstr "標示部份下載的檔案"
+
+#: conf/preferencesdialog.cpp:40
+msgid "Advanced"
+msgstr "進階"
+
+#: conf/preferencesdialog.cpp:40
+msgid "Advanced Options"
+msgstr "進階選項"
+
+#: conf/preferencesdialog.cpp:41
+msgid "Plugins"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:41
+msgid "Transfer Plugin Options"
+msgstr ""
+
+#: core/kget.cpp:344
+#, fuzzy, qt-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"目標檔案\n"
+"%1\n"
+"已存在。\n"
+"是否要覆寫它？"
+
+#: core/kget.cpp:345
+msgid "Overwrite existing file?"
+msgstr ""
+
+#: core/kget.cpp:371
+#, qt-format
+msgid "Unable to save to: %1"
+msgstr ""
+
+#: core/kget.cpp:432 ui/groupseditdialog.cpp:90
+#, fuzzy
+msgid "Default Group"
+msgstr "預設的資料夾"
+
+#: core/kget.cpp:519
+#, fuzzy
+msgid "New Download"
+msgstr "再次下載"
+
+#: core/kget.cpp:519
+msgid "Enter URL:"
+msgstr ""
+
+#: core/kget.cpp:580
+#, qt-format
 msgid ""
 "Malformed URL:\n"
 "%1"
@@ -670,7 +599,33 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: kmainwidget.cpp:1110 kmainwidget.cpp:1187 kmainwidget.cpp:1248
+#: core/kget.cpp:592
+#, fuzzy, qt-format
+msgid ""
+"URL already saved:\n"
+"%1\n"
+"Download again?"
+msgstr ""
+"已經儲存 URL\n"
+"%1\n"
+"要再下載嗎？"
+
+#: core/kget.cpp:593
+#, fuzzy
+msgid "Download URL again?"
+msgstr "再次下載"
+
+#: core/kget.cpp:607
+#, qt-format
+msgid ""
+"Already saving URL\n"
+"%1"
+msgstr ""
+"已經在儲存 URL\n"
+"%1"
+
+#: core/kget.cpp:626
+#, qt-format
 msgid ""
 "Destination file \n"
 "%1\n"
@@ -682,533 +637,15 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: kmainwidget.cpp:1110 kmainwidget.cpp:1187 kmainwidget.cpp:1248
-msgid "Overwrite"
-msgstr "覆寫"
-
-#: kmainwidget.cpp:1110 kmainwidget.cpp:1187 kmainwidget.cpp:1248
-msgid "Do Not Overwrite"
-msgstr "不要覆寫"
-
-#: kmainwidget.cpp:1137
-msgid "<i>%1</i> has been added."
-msgstr "已新增<i>%1</i>。"
-
-#: kmainwidget.cpp:1261
-#, c-format
-msgid "1 download has been added."
-msgid_plural "%n downloads have been added."
-msgstr[0] "已新增 %1 個下載。"
-
-#: kmainwidget.cpp:1317
-msgid "Starting another queued job."
-msgstr "正在開始另一個已佇列工作。"
-
-#: kmainwidget.cpp:1448
-msgid "All the downloads are finished."
-msgstr "所有下載已完成。"
-
-#: kmainwidget.cpp:1452
-msgid "<i>%1</i> successfully downloaded."
-msgstr "已成功下載 <i>%1</i> 。"
-
-#: kmainwidget.cpp:1701
-msgid "Offline mode on."
-msgstr "離線模式開啟。"
-
-#: kmainwidget.cpp:1706
-msgid "Offline mode off."
-msgstr "離線模式關閉。"
-
-#: kmainwidget.cpp:1731
-msgid "Expert mode on."
-msgstr "專家模式開啟。"
-
-#: kmainwidget.cpp:1733
-msgid "Expert mode off."
-msgstr "專家模式關閉。"
-
-#: kmainwidget.cpp:1752
-msgid "Use last folder on."
-msgstr "「使用最近資料夾」開啟。"
-
-#: kmainwidget.cpp:1754
-msgid "Use last folder off."
-msgstr "「使用最近資料夾」關閉。"
-
-#: kmainwidget.cpp:1772
-msgid "Auto disconnect on."
-msgstr "自動斷線開啟。"
-
-#: kmainwidget.cpp:1774
-msgid "Auto disconnect off."
-msgstr "自動斷線關閉。"
-
-#: kmainwidget.cpp:1793
-msgid "Auto shutdown on."
-msgstr "自動關閉開啟。"
-
-#: kmainwidget.cpp:1795
-msgid "Auto shutdown off."
-msgstr "自動關閉關閉。"
-
-#: kmainwidget.cpp:1816
-msgid "Auto paste on."
-msgstr "自動貼上開啟。"
-
-#: kmainwidget.cpp:1819
-msgid "Auto paste off."
-msgstr "自動貼上關閉。"
-
-#: kmainwidget.cpp:1840
-msgid "Hide Drop &Target"
-msgstr "隱藏拖放目標(&T)"
-
-#: kmainwidget.cpp:2109
-msgid " Size: %1 "
-msgstr " 大小： %1 "
-
-#: kmainwidget.cpp:2111
-msgid " %1/s "
-msgstr " %1/秒 "
-
-#: kmainwidget.cpp:2120
-msgid "<b>Transfers:</b> %1 "
-msgstr "<b>傳輸：</b> %1"
-
-#: kmainwidget.cpp:2121
-msgid "<br /><b>Files:</b> %1 "
-msgstr "<br /><b>檔案：</b> %1"
-
-#: kmainwidget.cpp:2122
-msgid "<br /><b>Size:</b> %1 "
-msgstr "<br /><b>大小：</b> %1 "
-
-#: kmainwidget.cpp:2123
-msgid "<br /><b>Time:</b> %1 "
-msgstr "<br /><b>時間：</b> %1 "
-
-#: kmainwidget.cpp:2124
-msgid "<br /><b>Speed:</b> %1/s"
-msgstr "<br /><b>速度：</b> %1 "
-
-#: kmainwidget.cpp:2153
-msgid "Do you really want to disconnect?"
-msgstr "你真的要斷線嗎？"
-
-#: kmainwidget.cpp:2155
-msgid "Disconnect"
-msgstr "斷線"
-
-#: kmainwidget.cpp:2155
-msgid "Stay Connected"
-msgstr "保持連線"
-
-#: kmainwidget.cpp:2161
-msgid "Disconnecting..."
-msgstr "正在斷線..."
-
-#: kmainwidget.cpp:2179
-#, fuzzy
-msgid "We are online."
-msgstr "上線了！"
-
-#: kmainwidget.cpp:2184
-#, fuzzy
-msgid "We are offline."
-msgstr "離線了！"
-
-#: kmainwidget.cpp:2414
-#, c-format
+#: core/kget.cpp:754
+#, qt-format
 msgid ""
-"Already saving URL\n"
-"%1"
+"<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
+"<br/><i>%2</i></p>"
 msgstr ""
-"已經在儲存 URL\n"
-"%1"
 
-#: kmainwidget.cpp:2424
-msgid ""
-"Already saved URL\n"
-"%1\n"
-"Download again?"
-msgstr ""
-"已經儲存 URL\n"
-"%1\n"
-"要再下載嗎？"
-
-#: kmainwidget.cpp:2424
-msgid "Download Again"
-msgstr "再次下載"
-
-#: logwindow.cpp:96
-msgid "Id"
-msgstr "ID"
-
-#: logwindow.cpp:97
-msgid "Name"
-msgstr "名稱"
-
-#: logwindow.cpp:159
-msgid "Log Window"
-msgstr "記錄視窗"
-
-#: logwindow.cpp:163
-msgid "Mixed"
-msgstr "已混合"
-
-#: logwindow.cpp:172
-msgid "Separated"
-msgstr "已分離"
-
-#: main.cpp:45
-msgid "An advanced download manager for KDE"
-msgstr "KDE 先進的下載管理員"
-
-#: main.cpp:51
-msgid "Start KGet with drop target"
-msgstr "使用拖放目標模式啟動 KGet"
-
-#: main.cpp:52
-#, fuzzy
-msgid "URL(s) to download"
-msgstr "用以下載的 URL"
-
-#: kget_plug_in/kget_linkview.cpp:40 main.cpp:187
-msgid "KGet"
-msgstr "KGet"
-
-#. i18n: file dlgadvancedbase.ui line 27
-#: rc.cpp:3
-#, no-c-format
-msgid "Advanced Options"
-msgstr "進階選項"
-
-#. i18n: file dlgadvancedbase.ui line 38
-#: rc.cpp:6
-#, no-c-format
-msgid "Add new transfers as:"
-msgstr "新增傳輸為："
-
-#. i18n: file dlgadvancedbase.ui line 63
-#: rc.cpp:9
-#, no-c-format
-msgid "Iconified"
-msgstr "已圖示化"
-
-#. i18n: file dlgadvancedbase.ui line 71
-#: rc.cpp:12
-#, no-c-format
-msgid "Advanced individual windows"
-msgstr "進階個別視窗"
-
-#. i18n: file dlgadvancedbase.ui line 79
-#: rc.cpp:15
-#, no-c-format
-msgid "Mark partial downloads"
-msgstr "標示部份下載的檔案"
-
-#. i18n: file dlgadvancedbase.ui line 87
-#: rc.cpp:18
-#, no-c-format
-msgid "Remove files from a list after success"
-msgstr "成功後從列表中移除檔案"
-
-#. i18n: file dlgadvancedbase.ui line 95
-#: rc.cpp:21
-#, no-c-format
-msgid "Get file sizes"
-msgstr "取得檔案大小"
-
-#. i18n: file dlgadvancedbase.ui line 103
-#: rc.cpp:24
-#, no-c-format
-msgid "Expert mode (do not prompt for Cancel or Delete)"
-msgstr "專家模式（取消或刪除皆不詢問）"
-
-#. i18n: file dlgadvancedbase.ui line 111
-#: rc.cpp:27
-#, no-c-format
-msgid "Use KGet as Download Manager for Konqueror"
-msgstr "使用 KGet 為 Konqueror 的下載管理員"
-
-#. i18n: file dlgadvancedbase.ui line 119
-#: rc.cpp:30
-#, no-c-format
-msgid "Show main window at startup"
-msgstr "啟動時顯示主視窗"
-
-#. i18n: file dlgadvancedbase.ui line 127
-#: rc.cpp:33
-#, no-c-format
-msgid "Show individual windows"
-msgstr "顯示個別視窗"
-
-#. i18n: file dlgadvancedbase.ui line 158
-#: rc.cpp:37
-#, no-c-format
-msgid "Queued"
-msgstr "已佇列"
-
-#. i18n: file dlgadvancedbase.ui line 166
-#: rc.cpp:40
-#, no-c-format
-msgid "Delayed"
-msgstr "已延遲"
-
-#. i18n: file dlgautomationbase.ui line 27
-#: rc.cpp:43
-#, no-c-format
-msgid "Automation Options"
-msgstr "自動化選項"
-
-#. i18n: file dlgautomationbase.ui line 38
-#: rc.cpp:46 rc.cpp:79 rc.cpp:94 rc.cpp:100
-#, no-c-format
-msgid " min"
-msgstr " 分鐘"
-
-#. i18n: file dlgautomationbase.ui line 52
-#: rc.cpp:49
-#, no-c-format
-msgid "Auto disconnect after completing downloads"
-msgstr "完成下載後自動斷線"
-
-#. i18n: file dlgautomationbase.ui line 60
-#: rc.cpp:52
-#, fuzzy, no-c-format
-msgid "Autosave file list every:"
-msgstr "每隔多久自動儲存檔案列表："
-
-#. i18n: file dlgautomationbase.ui line 68
-#: rc.cpp:55
-#, no-c-format
-msgid "Timed disconnect"
-msgstr "已設定時間的斷線"
-
-#. i18n: file dlgautomationbase.ui line 76
-#: rc.cpp:58
-#, no-c-format
-msgid "Disconnect command:"
-msgstr "斷線指令："
-
-#. i18n: file dlgautomationbase.ui line 94
-#: rc.cpp:61
-#, no-c-format
-msgid "Auto paste from clipboard"
-msgstr "從剪貼簿自動貼上"
-
-#. i18n: file dlgautomationbase.ui line 102
-#: rc.cpp:64
-#, no-c-format
-msgid "Auto shutdown after completing downloads"
-msgstr "完成下載後自動關閉"
-
-#. i18n: file dlgconnectionbase.ui line 27
-#: rc.cpp:67
-#, fuzzy, no-c-format
-msgid "Reconnect Options"
-msgstr "重新連接選項"
-
-#. i18n: file dlgconnectionbase.ui line 38
-#: rc.cpp:70
-#, no-c-format
-msgid "On login or timeout error"
-msgstr "在登入或逾時的錯誤"
-
-#. i18n: file dlgconnectionbase.ui line 46
-#: rc.cpp:73
-#, no-c-format
-msgid "Reconnect after:"
-msgstr "在這之後重新連線："
-
-#. i18n: file dlgconnectionbase.ui line 54
-#: rc.cpp:76
-#, no-c-format
-msgid "Number of retries:"
-msgstr "重試的次數："
-
-#. i18n: file dlgconnectionbase.ui line 84
-#: rc.cpp:82
-#, no-c-format
-msgid "On broken connection"
-msgstr "斷線時"
-
-#. i18n: file dlgconnectionbase.ui line 128
-#: rc.cpp:85
-#, no-c-format
-msgid "Timeout Options"
-msgstr "逾時選項"
-
-#. i18n: file dlgconnectionbase.ui line 156
-#: rc.cpp:88
-#, fuzzy, no-c-format
-msgid "If no data arrives in:"
-msgstr "如果沒有資料在以下時間內抵達:"
-
-#. i18n: file dlgconnectionbase.ui line 164
-#: rc.cpp:91
-#, fuzzy, no-c-format
-msgid "If server cannot resume:"
-msgstr "如果伺服器不支援續傳:"
-
-#. i18n: file dlgconnectionbase.ui line 203
-#: rc.cpp:97
-#, no-c-format
-msgid "or"
-msgstr "或"
-
-#. i18n: file dlgconnectionbase.ui line 227
-#: rc.cpp:103
-#, no-c-format
-msgid "Connection Type"
-msgstr "連線類型"
-
-#. i18n: file dlgconnectionbase.ui line 236
-#: rc.cpp:106
-#, no-c-format
-msgid "Permanent"
-msgstr "永久"
-
-#. i18n: file dlgconnectionbase.ui line 241
-#: rc.cpp:109
-#, no-c-format
-msgid "Ethernet"
-msgstr "乙太網絡"
-
-#. i18n: file dlgconnectionbase.ui line 246
-#: rc.cpp:112
-#, no-c-format
-msgid "PLIP"
-msgstr "PLIP"
-
-#. i18n: file dlgconnectionbase.ui line 251
-#: rc.cpp:115
-#, no-c-format
-msgid "SLIP"
-msgstr "SLIP"
-
-#. i18n: file dlgconnectionbase.ui line 256
-#: rc.cpp:118
-#, no-c-format
-msgid "PPP"
-msgstr "PPP"
-
-#. i18n: file dlgconnectionbase.ui line 261
-#: rc.cpp:121
-#, no-c-format
-msgid "ISDN"
-msgstr "ISDN"
-
-#. i18n: file dlgconnectionbase.ui line 273
-#: rc.cpp:124
-#, no-c-format
-msgid "Offline mode"
-msgstr "離線模式"
-
-#. i18n: file dlgconnectionbase.ui line 298
-#: rc.cpp:127
-#, no-c-format
-msgid "Link number:"
-msgstr "連結數："
-
-#. i18n: file dlgdirectoriesbase.ui line 78
-#: rc.cpp:132
-#, no-c-format
-msgid "Extension"
-msgstr "延伸檔名"
-
-#. i18n: file dlgdirectoriesbase.ui line 89
-#: rc.cpp:135
-#, no-c-format
-msgid "Default Folder"
-msgstr "預設的資料夾"
-
-#. i18n: file dlgdirectoriesbase.ui line 186
-#: rc.cpp:147
-#, no-c-format
-msgid "Extension (* for all files):"
-msgstr "延伸檔名（所有檔案用 * ）"
-
-#. i18n: file dlgdirectoriesbase.ui line 199
-#: rc.cpp:150
-#, no-c-format
-msgid "Default folder:"
-msgstr "預設的資料夾:"
-
-#. i18n: file dlglimitsbase.ui line 27
-#: rc.cpp:153
-#, no-c-format
-msgid "Limits Options"
-msgstr "限制選項"
-
-#. i18n: file dlglimitsbase.ui line 38
-#: rc.cpp:156
-#, no-c-format
-msgid "Maximum open connections:"
-msgstr "開啟連線的最大數目:"
-
-#. i18n: file dlglimitsbase.ui line 46
-#: rc.cpp:159
-#, no-c-format
-msgid "Minimum network bandwidth:"
-msgstr "最小網絡頻寬:"
-
-#. i18n: file dlglimitsbase.ui line 54
-#: rc.cpp:162
-#, no-c-format
-msgid "Maximum network bandwidth:"
-msgstr "最大網絡頻寬:"
-
-#. i18n: file dlglimitsbase.ui line 70
-#: rc.cpp:165 rc.cpp:168
-#, no-c-format
-msgid " bytes/sec"
-msgstr " 位元組/秒"
-
-#. i18n: file dlgsystembase.ui line 27
-#: rc.cpp:171
-#, no-c-format
-msgid "Use animation"
-msgstr "使用動畫"
-
-#. i18n: file dlgsystembase.ui line 38
-#: rc.cpp:174
-#, no-c-format
-msgid "Window style:"
-msgstr "視窗風格:"
-
-#. i18n: file dlgsystembase.ui line 46
-#: rc.cpp:177
-#, no-c-format
-msgid "Font:"
-msgstr "字型:"
-
-#. i18n: file dlgsystembase.ui line 79
-#: rc.cpp:181
-#, no-c-format
-msgid "Normal"
-msgstr "標準"
-
-#. i18n: file dlgsystembase.ui line 87
-#: rc.cpp:184
-#, fuzzy, no-c-format
-msgid "Docked"
-msgstr "停泊"
-
-#. i18n: file dlgsystembase.ui line 95
-#: rc.cpp:187
-#, no-c-format
-msgid "Drop target"
-msgstr "拖放目標"
-
-#. i18n: file kgetui.rc line 14
-#: rc.cpp:193
-#, no-c-format
-msgid "&Transfer"
-msgstr "開啟傳輸(&T)"
-
-#: safedelete.cpp:18
+#: core/kget.cpp:779
+#, qt-format
 msgid ""
 "Not deleting\n"
 "%1\n"
@@ -1218,11 +655,12 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: safedelete.cpp:20 safedelete.cpp:32
+#: core/kget.cpp:781 core/kget.cpp:792
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: safedelete.cpp:30
+#: core/kget.cpp:790
+#, qt-format
 msgid ""
 "Not deleting\n"
 "%1\n"
@@ -1232,195 +670,961 @@ msgstr ""
 "%1\n"
 "不是本機檔案，未能刪除。"
 
-#: settings.cpp:131
-msgid ""
-"This is the first time that you have run KGet.\n"
-"Do you want to use KGet as Download Manager for Konqueror?"
-msgstr ""
-"這是你第一次執行 KGet 。\n"
-"要 KGet 成為 Konqueror 的下載管理員嗎？"
-
-#: settings.cpp:131
-msgid "Konqueror Integration"
-msgstr "Konqueror 整合"
-
-#: settings.cpp:131
-msgid "Enable"
-msgstr "啟用"
-
-#: settings.cpp:131
-msgid "Do Not Enable"
-msgstr "不啟用"
-
-#: transfer.cpp:275
-#, c-format
-msgid "Copy file from: %1"
-msgstr "從 %1 複製檔案"
-
-#: transfer.cpp:276
-#, c-format
-msgid "To: %1"
-msgstr "到： %1"
-
-#: transfer.cpp:298
-msgid "unknown"
-msgstr "未知"
-
-#: transfer.cpp:389
-#, c-format
-msgid "Attempt number %1"
-msgstr "嘗試次數 %1"
-
-#: transfer.cpp:402
-msgid "Stopping"
-msgstr "正在停止"
-
-#: transfer.cpp:424
-msgid "Pausing"
-msgstr "正在暫停"
-
-#: transfer.cpp:493
-msgid "Queueing"
-msgstr "正在佇列"
-
-#: transfer.cpp:508
-msgid "Scheduling"
-msgstr "正在排程"
-
-#: transfer.cpp:532
-msgid "Delaying"
-msgstr "延遲中"
-
-#: transfer.cpp:562
-msgid "Download finished"
-msgstr "完成下載"
-
-#: transfer.cpp:605 transfer.cpp:606 transfer.cpp:608
-msgid "Stalled"
-msgstr "因擠塞停止了"
-
-#: transfer.cpp:611 transfer.cpp:704
-msgctxt "OK as in 'finished'"
-msgid "OK"
-msgstr "完成"
-
-#: transfer.cpp:612 transfer.cpp:613 transfer.cpp:615
-msgid "Finished"
-msgstr "已完成"
-
-#: transfer.cpp:620 transfer.cpp:621 transfer.cpp:623
+#: core/transfer.cpp:36 core/transfer.cpp:59 core/transfer.cpp:104
 msgid "Stopped"
 msgstr "已停止"
 
-#: transfer.cpp:626
+#: core/transfer.cpp:52
+msgid "Delayed"
+msgstr "已延遲"
+
+#: core/transfer.cpp:100
+msgid "Finished"
+msgstr "已完成"
+
+#: core/transfergrouphandler.cpp:102
+#, qt-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] ""
+
+#: core/transfergrouphandler.cpp:115 core/transferhandler.cpp:130
+#: ui/mainview.cpp:251 ui/transferdetails.cpp:90
+msgid "Stalled"
+msgstr "因擠塞停止了"
+
+#: core/transfergrouphandler.cpp:120 core/transferhandler.cpp:135
+#: ui/mainview.cpp:256 ui/transferdetails.cpp:95
+#, qt-format
 msgid "%1/s"
 msgstr "%1/秒"
 
-#: transfer.cpp:647
-msgid "Total size is %1 bytes"
-msgstr "總大小為 %1 位元組"
+#: core/transfergrouphandler.cpp:175
+#, qt-format
+msgctxt "%1 is the name of the group"
+msgid "%1 Group"
+msgstr ""
 
-#: transfer.cpp:663
-msgid "The file size does not match."
-msgstr "檔案大小不符。"
+#: core/transfergrouphandler.cpp:306
+#, fuzzy
+msgid "Start"
+msgstr "重新開始(&S)"
 
-#: transfer.cpp:665
-msgid "File Size checked"
-msgstr "已檢查檔案大小"
+#: core/transferhandler.cpp:123 ui/mainview.cpp:240
+msgctxt "not available"
+msgid "n/a"
+msgstr ""
 
-#: transfer.cpp:785
-msgid "Malformed URL:\n"
-msgstr "格式不正確的 URL:\n"
+#: core/transfertreemodel.cpp:271
+msgid "Name"
+msgstr "名稱"
 
-#: transfer.cpp:924
-msgid "Download resumed"
-msgstr "下載已續傳"
+#: core/transfertreemodel.cpp:273 ui/mainview.cpp:314
+msgid "Status"
+msgstr ""
 
-#: transfer.cpp:1017
-msgid "checking if file is in cache...no"
-msgstr "正在檢查檔案是否已在快取中……沒有"
+#: core/transfertreemodel.cpp:275 ui/mainview.cpp:315
+msgid "Size"
+msgstr ""
 
-#: transferlist.cpp:66
-msgid "S"
-msgstr "S"
+#: core/transfertreemodel.cpp:277 ui/mainview.cpp:316
+#, fuzzy
+msgid "Progress"
+msgstr "進度對話方塊"
 
-#: transferlist.cpp:67
-msgid "Local File Name"
-msgstr "本機檔案名稱"
-
-#: transferlist.cpp:69
-msgid "Count"
-msgstr "記數"
-
-#: transferlist.cpp:70
-#, c-format
-msgid "%"
-msgstr "%"
-
-#: transferlist.cpp:71
-msgid "Total"
-msgstr "總計"
-
-#: transferlist.cpp:72
+#: core/transfertreemodel.cpp:279 ui/mainview.cpp:317
 msgid "Speed"
 msgstr "速度"
 
-#: transferlist.cpp:73
-msgid "Rem. Time"
-msgstr "剩下的時間"
-
-#: transferlist.cpp:74
-msgid "Address (URL)"
-msgstr "位址（URL）"
-
-#: kget_plug_in/kget_linkview.cpp:42
-msgid "Download Selected Files"
-msgstr "下載選擇的檔案"
-
-#: kget_plug_in/kget_linkview.cpp:57
-msgid "File Name"
+#: ui/droptarget.cpp:81
+#, fuzzy
+msgid "Hide me"
 msgstr "檔案名稱"
 
-#: kget_plug_in/kget_linkview.cpp:58
-msgid "Description"
-msgstr "說明"
+#: ui/droptarget.cpp:82
+msgid "Sticky"
+msgstr "固定"
 
-#: kget_plug_in/kget_linkview.cpp:59
-msgid "File Type"
+#: ui/droptarget.cpp:253
+#, fuzzy
+msgid "Show main window"
+msgstr "啟動時顯示主視窗"
+
+#: ui/droptarget.cpp:254
+#, fuzzy
+msgid "Hide main window"
+msgstr "隱藏記錄視窗(&L)"
+
+#: ui/droptarget.cpp:377
+msgid ""
+"Drop target has been hidden. If you want to show it again, go to Settings-"
+">Configure KGet->Look & Feel."
+msgstr ""
+
+#: ui/droptarget.cpp:379
+#, fuzzy
+msgid "Hiding drop target"
+msgstr "隱藏拖放目標(&T)"
+
+#: ui/groupseditdialog.cpp:26
+msgid "Edit Groups"
+msgstr ""
+
+#: ui/groupseditdialog.cpp:31
+msgid "Add Group"
+msgstr ""
+
+#: ui/groupseditdialog.cpp:36
+msgid "Delete Group"
+msgstr ""
+
+#: ui/groupseditdialog.cpp:64
+msgid "Enter the group name"
+msgstr ""
+
+#: ui/groupseditdialog.cpp:65
+#, fuzzy
+msgid "Group name:"
+msgstr "Tse-Chun Ho,Walter Cheuk"
+
+#: ui/groupseditdialog.cpp:73
+msgid ""
+"A group with that name already exists!\n"
+"Please change the group name."
+msgstr ""
+
+#: ui/groupseditdialog.cpp:92
+msgid "You can't delete the default group!"
+msgstr ""
+
+#: ui/groupseditdialog.cpp:97
+#, fuzzy, qt-format
+msgid ""
+"Are you sure that you want to remove\n"
+"the group named %1?"
+msgstr "你確定要刪除這些傳輸嗎？"
+
+#: ui/mainview.cpp:313
+#, fuzzy
+msgid "File"
 msgstr "檔案類型"
 
-#: kget_plug_in/kget_linkview.cpp:60
-msgid "Location (URL)"
-msgstr "地點 (URL)"
+#: ui/sidebar.cpp:367 ui/viewscontainer.cpp:177
+#, fuzzy
+msgid "Downloads"
+msgstr "下載已續傳"
 
-#: kget_plug_in/kget_linkview.cpp:104
-msgid "You did not select any files to download."
-msgstr "您未有選擇要下載的檔案。"
+#: ui/transferdetails.cpp:67 ui/transferdetails.cpp:74
+#, fuzzy
+msgid " of "
+msgstr "%1 / %2"
 
-#: kget_plug_in/kget_linkview.cpp:105
-msgid "No Files Selected"
-msgstr "沒有選擇檔案"
+#: ui/viewscontainer.cpp:48
+msgid "Details for file: \t"
+msgstr ""
 
-#: kget_plug_in/kget_linkview.cpp:133
-msgid "Links in: %1 - KGet"
-msgstr "%1 中的連結 - KGet"
+#: ui/viewscontainer.cpp:53
+#, fuzzy
+msgid "All downloads"
+msgstr "標示部份下載的檔案"
 
-#: kget_plug_in/kget_plug_in.cpp:52
-msgid "Download Manager"
-msgstr "下載管理員"
+#: ui/viewscontainer.cpp:58
+#, fuzzy
+msgid "Finished downloads"
+msgstr "已完成"
 
-#: kget_plug_in/kget_plug_in.cpp:57
-msgid "Show Drop Target"
-msgstr "顯示拖放目標"
+#: ui/viewscontainer.cpp:87
+#, fuzzy
+msgid "Transfers:"
+msgstr "開啟傳輸(&T)"
 
-#: kget_plug_in/kget_plug_in.cpp:64
-msgid "List All Links"
-msgstr "列出所有連結"
+#: ui/viewscontainer.cpp:191
+#, fuzzy
+msgid "Transfer details:"
+msgstr " 傳輸： %1"
 
-#: kget_plug_in/kget_plug_in.cpp:147
-msgid "There are no links in the active frame of the current HTML page."
-msgstr "在目前網頁的頁框中沒有連結。"
+#~ msgid ""
+#~ "Each row consists of exactly one\n"
+#~ "extension type and one folder."
+#~ msgstr "每一行由一個延伸類型和一個資料夾組成。"
 
-#: kget_plug_in/kget_plug_in.cpp:148
-msgid "No Links"
-msgstr "沒有連結"
+#~ msgid ""
+#~ "Folder does not exist:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "沒有這個資料夾：\n"
+#~ "%1"
+
+#~ msgid "&Dock"
+#~ msgstr "停泊(&D)"
+
+#~ msgid "Source Label"
+#~ msgstr "來源標籤："
+
+#~ msgid "Destination:"
+#~ msgstr "目的地："
+
+#~ msgid "0 B/s"
+#~ msgstr "0 B/秒"
+
+#~ msgid "&Keep this window open after the operation is complete."
+#~ msgstr "操作結束後保持這個視窗開啟(&K)。"
+
+#~ msgid "Timer"
+#~ msgstr "計時器"
+
+#~ msgid "Log"
+#~ msgstr "記錄檔"
+
+#~ msgid "%1% of %2 - %3"
+#~ msgstr "%1% / %2 - %3"
+
+#~ msgid "Resumed"
+#~ msgstr "已續傳"
+
+#~ msgid "Not resumed"
+#~ msgstr "未續傳"
+
+#~ msgid "Connection"
+#~ msgstr "連線數"
+
+#~ msgid "Automation"
+#~ msgstr "自動化"
+
+#~ msgid "Limits"
+#~ msgstr "限制"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "Maximize"
+#~ msgstr "放到最大"
+
+#~ msgid "Minimize"
+#~ msgstr "縮到最小"
+
+#~ msgid ""
+#~ "The specified file does not exist:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "指定的檔案不存在：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "This is a folder and not a file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "這是個目錄而不是檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "You do not have read permission for the file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "您沒有權限讀取這個檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not read file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not open file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Error while reading file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "讀取檔案時發生錯誤：\n"
+#~ "%1"
+
+#~ msgid "Could only read %1 bytes of %2."
+#~ msgstr "只能讀取 %2 中的 %1 個位元組。"
+
+#~ msgid ""
+#~ "File %1 exists.\n"
+#~ "Do you want to replace it?"
+#~ msgstr ""
+#~ "檔案 %1 已存在。\n"
+#~ "是否要取代它？"
+
+#~ msgid ""
+#~ "Failed to make a backup copy of %1.\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "無法建立 %1 的備份。\n"
+#~ "仍要繼續？"
+
+#~ msgid ""
+#~ "Could not write to file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法寫入檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not open file for writing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法開啟檔案進行寫入：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Error while writing file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "寫入檔案時發生錯誤：\n"
+#~ "%1"
+
+#~ msgid "Could only write %1 bytes of %2."
+#~ msgstr "只能寫入 %2 中的 %1 個位元組。"
+
+#~ msgid "Welcome to KGet"
+#~ msgstr "歡迎使用 KGet"
+
+#~ msgid "Could not create valid socket"
+#~ msgstr "無法建立有效的 socket"
+
+#~ msgid "Offline"
+#~ msgstr "離線"
+
+#~ msgid "Starting offline"
+#~ msgstr "開始離線"
+
+#~ msgid "&Import Transfer List..."
+#~ msgstr "匯入傳輸列表(&I)..."
+
+#~ msgid "Import Text &File..."
+#~ msgstr "匯入文字檔案(&F)..."
+
+#~ msgid "&Open Individual Window"
+#~ msgstr "開啟個別視窗(&O)"
+
+#~ msgid "Move to &Beginning"
+#~ msgstr "移至開頭(&B)"
+
+#~ msgid "Move to &End"
+#~ msgstr "移至結尾(&E)"
+
+#~ msgid "&Pause"
+#~ msgstr "暫停(&P)"
+
+#~ msgid "&Queue"
+#~ msgstr "排入佇列(&Q)"
+
+#~ msgid "&Timer"
+#~ msgstr "計時器(&T)"
+
+#~ msgid "De&lay"
+#~ msgstr "延遲(&L)"
+
+#~ msgid "Use &Animation"
+#~ msgstr "使用動畫(&A)"
+
+#~ msgid "&Expert Mode"
+#~ msgstr "專家模式(&E)"
+
+#~ msgid "&Use-Last-Folder Mode"
+#~ msgstr "「使用最近資料夾」模式(&U)"
+
+#~ msgid "Auto-&Disconnect Mode"
+#~ msgstr "自動斷線模式(&D)"
+
+#~ msgid "Auto-S&hutdown Mode"
+#~ msgstr "自動關閉模式(&H)"
+
+#~ msgid "&Offline Mode"
+#~ msgstr "離線模式(&O)"
+
+#~ msgid "Show &Log Window"
+#~ msgstr "顯示記錄視窗(&L)"
+
+#~ msgid "Show Drop &Target"
+#~ msgstr "顯示拖放目標(&T)"
+
+#~ msgid "Enable &KGet as Konqueror Download Manager"
+#~ msgstr "將 &KGet 設定為 Konqueror 的下載管理員"
+
+#~ msgid " Files: %1 "
+#~ msgstr " 檔案： %1"
+
+#~ msgid " Size: %1 KB "
+#~ msgstr " 大小: %1 KB "
+
+#~ msgid " Time: %1 "
+#~ msgstr " 時間： %1 "
+
+#~ msgid " %1 KB/s "
+#~ msgstr " %1 KB/秒"
+
+#~ msgid ""
+#~ "<b>Resume</b> button starts selected transfers\n"
+#~ "and sets their mode to <i>queued</i>."
+#~ msgstr ""
+#~ "<b>續傳</b>按鈕開始所選擇的檔案傳輸\n"
+#~ "並設定它們的模式至<i>已佇列</i>。"
+
+#~ msgid ""
+#~ "<b>Pause</b> button stops selected transfers\n"
+#~ "and sets their mode to <i>delayed</i>."
+#~ msgstr ""
+#~ "<b>暫停</b>按鈕停止所選擇的檔案傳輸\n"
+#~ "並設定它們的模式至 <i>已延遲</i>。"
+
+#~ msgid ""
+#~ "<b>Delete</b> button removes selected transfers\n"
+#~ "from the list."
+#~ msgstr "<b>刪除</b>按鈕從列表移除所選擇的檔案傳輸。"
+
+#~ msgid ""
+#~ "<b>Restart</b> button is a convenience button\n"
+#~ "that simply does Pause and Resume."
+#~ msgstr "<b>重新開始</b>按鈕讓您方便的暫停或恢復傳輸。"
+
+#~ msgid ""
+#~ "<b>Queued</b> button sets the mode of selected\n"
+#~ "transfers to <i>queued</i>.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已佇列</b>按鈕將所選擇的檔案傳輸模式設定為<i>已佇列</i>。\n"
+#~ "\n"
+#~ "它是個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Scheduled</b> button sets the mode of selected\n"
+#~ "transfers to <i>scheduled</i>.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已排程</b>按鈕將所選擇的檔案傳輸模式設定為<i>已排程</i>。\n"
+#~ "\n"
+#~ "它是一個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Delayed</b> button sets the mode of selected\n"
+#~ "transfers to <i>delayed</i>.This also causes the selected transfers to "
+#~ "stop.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已延遲</b>按鈕將所選擇的檔案傳輸\n"
+#~ "模式設定為<i>已延遲</i>。它也會令所選擇的檔案\n"
+#~ "停止傳輸。\n"
+#~ "\n"
+#~ "它是一個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Preferences</b> button opens a preferences dialog\n"
+#~ "where you can set various options.\n"
+#~ "\n"
+#~ "Some of these options can be more easily set using the toolbar."
+#~ msgstr ""
+#~ "<b>偏好設定</b>按鈕開啟偏好設定對話框，讓您設定多種選項。\n"
+#~ "\n"
+#~ "使用這工具列令您某容易些設定某些選項。"
+
+#~ msgid ""
+#~ "<b>Log window</b> button opens a log window.\n"
+#~ "The log window records all program events that occur\n"
+#~ "while KGet is running."
+#~ msgstr ""
+#~ "<b>記錄視窗</b>按鈕開啟記錄視窗。\n"
+#~ "記錄視窗記錄所有 KGet 執行時發生的程式事件。"
+
+#~ msgid ""
+#~ "<b>Paste transfer</b> button adds a URL from\n"
+#~ "the clipboard as a new transfer.\n"
+#~ "\n"
+#~ "This way you can easily copy&paste URLs between\n"
+#~ "applications."
+#~ msgstr ""
+#~ "<b>貼上傳輸</b>按鈕會自剪貼簿增加一個 URL 為新的傳輸。\n"
+#~ "\n"
+#~ "這個方法讓您在應用程式之間容易地複製和貼上 URL 。"
+
+#~ msgid ""
+#~ "<b>Expert mode</b> button toggles the expert mode\n"
+#~ "on and off.\n"
+#~ "\n"
+#~ "Expert mode is recommended for experienced users.\n"
+#~ "When set, you will not be \"bothered\" by confirmation\n"
+#~ "messages.\n"
+#~ "<b>Important!</b>\n"
+#~ "Turn it on if you are using auto-disconnect or\n"
+#~ "auto-shutdown features and you want KGet to disconnect \n"
+#~ "or shut down without asking."
+#~ msgstr ""
+#~ "<b>專家模式</b>按鈕會啟動或關閉專家模式；\n"
+#~ "按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "專家模式供熟練使用者使用。\n"
+#~ "當啟動了專家模式，您將不會被確定訊息「打擾」。\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如果您使用自動斷線或自動關閉功能，\n"
+#~ "並且您想要 KGet 斷線或關閉而不而事先詢問，請啟動它。"
+
+#~ msgid ""
+#~ "<b>Use last folder</b> button toggles the\n"
+#~ "use-last-folder feature on and off.\n"
+#~ "\n"
+#~ "When set, KGet will ignore the folder settings\n"
+#~ "and put all new added transfers into the folder\n"
+#~ "where the last transfer was put."
+#~ msgstr ""
+#~ "<b>使用最近資料夾</b>按鈕會啟動或關閉「使用最近資料夾」\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會忽略目錄設定值\n"
+#~ "並且將所有新增的傳輸檔案放置到最近一次傳輸所放置的目錄。"
+
+#~ msgid ""
+#~ "<b>Auto disconnect</b> button toggles the auto-disconnect\n"
+#~ "mode on and off.\n"
+#~ "\n"
+#~ "When set, KGet will disconnect automatically\n"
+#~ "after all queued transfers are finished.\n"
+#~ "\n"
+#~ "<b>Important!</b>\n"
+#~ "Also turn on the expert mode when you want KGet\n"
+#~ "to disconnect without asking."
+#~ msgstr ""
+#~ "<b>自動斷線</b>按鈕會啟動或關閉自動斷線\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會在所有已佇列傳輸完成後\n"
+#~ "自動斷線。\n"
+#~ "\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如您希望 KGet 斷線而不要事先詢問您，請同時啟動\n"
+#~ "專家模式。"
+
+#~ msgid ""
+#~ "<b>Auto shutdown</b> button toggles the auto-shutdown\n"
+#~ "mode on and off.\n"
+#~ "\n"
+#~ "When set, KGet will quit automatically\n"
+#~ "after all queued transfers are finished.\n"
+#~ "<b>Important!</b>\n"
+#~ "Also turn on the expert mode when you want KGet\n"
+#~ "to quit without asking."
+#~ msgstr ""
+#~ "<b>自動關閉</b>按鈕會啟動或關閉自動關閉\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會在所有已佇列\n"
+#~ "傳輸完成後自動關閉。\n"
+#~ "\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如您希望 KGet 關閉而不要事先詢問您，請同時開啟\n"
+#~ "專家模式。"
+
+#~ msgid ""
+#~ "<b>Offline mode</b> button toggles the offline mode\n"
+#~ "on and off.\n"
+#~ "\n"
+#~ "When set, KGet will act as if it was not connected\n"
+#~ "to the Internet.\n"
+#~ "\n"
+#~ "You can browse offline, while still being able to add\n"
+#~ "new transfers as queued."
+#~ msgstr ""
+#~ "<b>離線模式</b>按鈕會啟動或關閉離線模式\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會扮作沒有連結到\n"
+#~ "互聯網。\n"
+#~ "\n"
+#~ "您可以離線瀏覽，並且仍然可以新增傳輸到佇列中。"
+
+#~ msgid ""
+#~ "<b>Drop target</b> button toggles the window style\n"
+#~ "between a normal window and a drop target.\n"
+#~ "\n"
+#~ "When set, the main window will be hidden and\n"
+#~ "instead a small shaped window will appear.\n"
+#~ "\n"
+#~ "You can show/hide a normal window with a simple click\n"
+#~ "on a shaped window."
+#~ msgstr ""
+#~ "<b>拖放目標</b>按鈕會於一般視窗及拖放目標兩個\n"
+#~ "視窗風格間切換。\n"
+#~ "\n"
+#~ "開啟後，主視窗將會隱藏而一個小的成形視窗將會出現。\n"
+#~ "\n"
+#~ "你可以簡單地敲擊成形視窗以顯示或隱藏一般視窗。"
+
+#~ msgid ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|所有檔案"
+
+#~ msgid "Quitting..."
+#~ msgstr "正在關閉..."
+
+#~ msgid ""
+#~ "Some transfers are still running.\n"
+#~ "Are you sure you want to quit KGet?"
+#~ msgstr ""
+#~ "有傳輸仍在運作。\n"
+#~ "您確定您要關閉 KGet 嗎？"
+
+#~ msgid "Question"
+#~ msgstr "問題"
+
+#~ msgid "Are you sure you want to delete this transfer?"
+#~ msgstr "你確定要刪除這筆傳輸嗎？"
+
+#~ msgid ""
+#~ "The transfer you wanted to delete completed before it could be deleted."
+#~ msgid_plural ""
+#~ "%n transfers you wanted to delete completed before they could be deleted."
+#~ msgstr[0] "%1 個您要刪除的傳輸在它們能被刪除之前已完成了。"
+
+#~ msgid "Stopping all jobs"
+#~ msgstr "正在停止所有工作"
+
+#~ msgid "Open Transfer"
+#~ msgstr "開啟傳輸"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "不要覆寫"
+
+#~ msgid "<i>%1</i> has been added."
+#~ msgstr "已新增<i>%1</i>。"
+
+#~ msgid "1 download has been added."
+#~ msgid_plural "%n downloads have been added."
+#~ msgstr[0] "已新增 %1 個下載。"
+
+#~ msgid "Starting another queued job."
+#~ msgstr "正在開始另一個已佇列工作。"
+
+#~ msgid "All the downloads are finished."
+#~ msgstr "所有下載已完成。"
+
+#~ msgid "<i>%1</i> successfully downloaded."
+#~ msgstr "已成功下載 <i>%1</i> 。"
+
+#~ msgid "Offline mode on."
+#~ msgstr "離線模式開啟。"
+
+#~ msgid "Offline mode off."
+#~ msgstr "離線模式關閉。"
+
+#~ msgid "Expert mode on."
+#~ msgstr "專家模式開啟。"
+
+#~ msgid "Expert mode off."
+#~ msgstr "專家模式關閉。"
+
+#~ msgid "Use last folder on."
+#~ msgstr "「使用最近資料夾」開啟。"
+
+#~ msgid "Use last folder off."
+#~ msgstr "「使用最近資料夾」關閉。"
+
+#~ msgid "Auto disconnect off."
+#~ msgstr "自動斷線關閉。"
+
+#~ msgid "Auto shutdown off."
+#~ msgstr "自動關閉關閉。"
+
+#~ msgid "Auto paste on."
+#~ msgstr "自動貼上開啟。"
+
+#~ msgid "Auto paste off."
+#~ msgstr "自動貼上關閉。"
+
+#~ msgid " Size: %1 "
+#~ msgstr " 大小： %1 "
+
+#~ msgid " %1/s "
+#~ msgstr " %1/秒 "
+
+#~ msgid "<b>Transfers:</b> %1 "
+#~ msgstr "<b>傳輸：</b> %1"
+
+#~ msgid "<br /><b>Files:</b> %1 "
+#~ msgstr "<br /><b>檔案：</b> %1"
+
+#~ msgid "<br /><b>Size:</b> %1 "
+#~ msgstr "<br /><b>大小：</b> %1 "
+
+#~ msgid "<br /><b>Time:</b> %1 "
+#~ msgstr "<br /><b>時間：</b> %1 "
+
+#~ msgid "<br /><b>Speed:</b> %1/s"
+#~ msgstr "<br /><b>速度：</b> %1 "
+
+#~ msgid "Do you really want to disconnect?"
+#~ msgstr "你真的要斷線嗎？"
+
+#~ msgid "Disconnect"
+#~ msgstr "斷線"
+
+#~ msgid "Stay Connected"
+#~ msgstr "保持連線"
+
+#~ msgid "Disconnecting..."
+#~ msgstr "正在斷線..."
+
+#, fuzzy
+#~ msgid "We are online."
+#~ msgstr "上線了！"
+
+#, fuzzy
+#~ msgid "We are offline."
+#~ msgstr "離線了！"
+
+#~ msgid "Id"
+#~ msgstr "ID"
+
+#~ msgid "Log Window"
+#~ msgstr "記錄視窗"
+
+#~ msgid "Mixed"
+#~ msgstr "已混合"
+
+#~ msgid "Separated"
+#~ msgstr "已分離"
+
+#~ msgid "Add new transfers as:"
+#~ msgstr "新增傳輸為："
+
+#~ msgid "Iconified"
+#~ msgstr "已圖示化"
+
+#~ msgid "Advanced individual windows"
+#~ msgstr "進階個別視窗"
+
+#~ msgid "Remove files from a list after success"
+#~ msgstr "成功後從列表中移除檔案"
+
+#~ msgid "Get file sizes"
+#~ msgstr "取得檔案大小"
+
+#~ msgid "Expert mode (do not prompt for Cancel or Delete)"
+#~ msgstr "專家模式（取消或刪除皆不詢問）"
+
+#~ msgid "Show individual windows"
+#~ msgstr "顯示個別視窗"
+
+#~ msgid "Queued"
+#~ msgstr "已佇列"
+
+#~ msgid "Automation Options"
+#~ msgstr "自動化選項"
+
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid "Auto disconnect after completing downloads"
+#~ msgstr "完成下載後自動斷線"
+
+#, fuzzy
+#~ msgid "Autosave file list every:"
+#~ msgstr "每隔多久自動儲存檔案列表："
+
+#~ msgid "Timed disconnect"
+#~ msgstr "已設定時間的斷線"
+
+#~ msgid "Disconnect command:"
+#~ msgstr "斷線指令："
+
+#~ msgid "Auto paste from clipboard"
+#~ msgstr "從剪貼簿自動貼上"
+
+#, fuzzy
+#~ msgid "Reconnect Options"
+#~ msgstr "重新連接選項"
+
+#~ msgid "On login or timeout error"
+#~ msgstr "在登入或逾時的錯誤"
+
+#~ msgid "Timeout Options"
+#~ msgstr "逾時選項"
+
+#, fuzzy
+#~ msgid "If no data arrives in:"
+#~ msgstr "如果沒有資料在以下時間內抵達:"
+
+#, fuzzy
+#~ msgid "If server cannot resume:"
+#~ msgstr "如果伺服器不支援續傳:"
+
+#~ msgid "Connection Type"
+#~ msgstr "連線類型"
+
+#~ msgid "Permanent"
+#~ msgstr "永久"
+
+#~ msgid "Ethernet"
+#~ msgstr "乙太網絡"
+
+#~ msgid "PLIP"
+#~ msgstr "PLIP"
+
+#~ msgid "SLIP"
+#~ msgstr "SLIP"
+
+#~ msgid "PPP"
+#~ msgstr "PPP"
+
+#~ msgid "ISDN"
+#~ msgstr "ISDN"
+
+#~ msgid "Offline mode"
+#~ msgstr "離線模式"
+
+#~ msgid "Link number:"
+#~ msgstr "連結數："
+
+#~ msgid "Extension (* for all files):"
+#~ msgstr "延伸檔名（所有檔案用 * ）"
+
+#~ msgid "Limits Options"
+#~ msgstr "限制選項"
+
+#~ msgid "Maximum open connections:"
+#~ msgstr "開啟連線的最大數目:"
+
+#~ msgid "Minimum network bandwidth:"
+#~ msgstr "最小網絡頻寬:"
+
+#~ msgid "Maximum network bandwidth:"
+#~ msgstr "最大網絡頻寬:"
+
+#~ msgid " bytes/sec"
+#~ msgstr " 位元組/秒"
+
+#~ msgid "Window style:"
+#~ msgstr "視窗風格:"
+
+#~ msgid "Font:"
+#~ msgstr "字型:"
+
+#~ msgid "Normal"
+#~ msgstr "標準"
+
+#~ msgid "Drop target"
+#~ msgstr "拖放目標"
+
+#~ msgid ""
+#~ "This is the first time that you have run KGet.\n"
+#~ "Do you want to use KGet as Download Manager for Konqueror?"
+#~ msgstr ""
+#~ "這是你第一次執行 KGet 。\n"
+#~ "要 KGet 成為 Konqueror 的下載管理員嗎？"
+
+#~ msgid "Enable"
+#~ msgstr "啟用"
+
+#~ msgid "Do Not Enable"
+#~ msgstr "不啟用"
+
+#~ msgid "Copy file from: %1"
+#~ msgstr "從 %1 複製檔案"
+
+#~ msgid "To: %1"
+#~ msgstr "到： %1"
+
+#~ msgid "unknown"
+#~ msgstr "未知"
+
+#~ msgid "Attempt number %1"
+#~ msgstr "嘗試次數 %1"
+
+#~ msgid "Stopping"
+#~ msgstr "正在停止"
+
+#~ msgid "Pausing"
+#~ msgstr "正在暫停"
+
+#~ msgid "Queueing"
+#~ msgstr "正在佇列"
+
+#~ msgid "Scheduling"
+#~ msgstr "正在排程"
+
+#~ msgid "Delaying"
+#~ msgstr "延遲中"
+
+#~ msgid "Download finished"
+#~ msgstr "完成下載"
+
+#~ msgctxt "OK as in 'finished'"
+#~ msgid "OK"
+#~ msgstr "完成"
+
+#~ msgid "Total size is %1 bytes"
+#~ msgstr "總大小為 %1 位元組"
+
+#~ msgid "The file size does not match."
+#~ msgstr "檔案大小不符。"
+
+#~ msgid "File Size checked"
+#~ msgstr "已檢查檔案大小"
+
+#~ msgid "Malformed URL:\n"
+#~ msgstr "格式不正確的 URL:\n"
+
+#~ msgid "checking if file is in cache...no"
+#~ msgstr "正在檢查檔案是否已在快取中……沒有"
+
+#~ msgid "S"
+#~ msgstr "S"
+
+#~ msgid "Local File Name"
+#~ msgstr "本機檔案名稱"
+
+#~ msgid "Count"
+#~ msgstr "記數"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Total"
+#~ msgstr "總計"
+
+#~ msgid "Rem. Time"
+#~ msgstr "剩下的時間"
+
+#~ msgid "Address (URL)"
+#~ msgstr "位址（URL）"
+
+#~ msgid "Download Selected Files"
+#~ msgstr "下載選擇的檔案"
+
+#~ msgid "Description"
+#~ msgstr "說明"
+
+#~ msgid "Location (URL)"
+#~ msgstr "地點 (URL)"
+
+#~ msgid "Links in: %1 - KGet"
+#~ msgstr "%1 中的連結 - KGet"
+
+#~ msgid "List All Links"
+#~ msgstr "列出所有連結"
+
+#~ msgid "There are no links in the active frame of the current HTML page."
+#~ msgstr "在目前網頁的頁框中沒有連結。"
+
+#~ msgid "No Links"
+#~ msgstr "沒有連結"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-01-27 08:23+0100\n"
+"POT-Creation-Date: 2007-03-28 05:52+0200\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: keycapturedialog.cpp:48
+#: keycapturedialog.cpp:47
 msgid "Enter Key Combination"
 msgstr "輸入鑰匙組合"
 
-#: krdc.cpp:133 krdc.cpp:156
+#: krdc.cpp:131 krdc.cpp:154
 msgid "The entered host does not have the required form."
 msgstr "輸入的主機沒有所需的表格。"
 
-#: krdc.cpp:134 krdc.cpp:157
+#: krdc.cpp:132 krdc.cpp:155
 msgid "Malformed URL or Host"
 msgstr "格式不正確的 URL 或主機"
 
-#: krdc.cpp:163
+#: krdc.cpp:161
 #, qt-format
 msgid "%1 - Remote Desktop Connection"
 msgstr "%1 - 遠端桌面連線"
@@ -70,40 +70,44 @@ msgstr "只檢視"
 msgid "Always Show Local Cursor"
 msgstr "必定顯示本機游標"
 
-#: krdc.cpp:495
+#: krdc.cpp:493
 #, fuzzy
 msgid "Autohide"
 msgstr "自動隱藏開啟/關閉"
 
-#: krdc.cpp:497
+#: krdc.cpp:495
 msgid "Autohide on/off"
 msgstr "自動隱藏開啟/關閉"
 
-#: krdc.cpp:503 krdc.cpp:505 krdc.cpp:610 krdc.cpp:612
+#: krdc.cpp:501 krdc.cpp:503 krdc.cpp:604 krdc.cpp:606
 msgid "Fullscreen"
 msgstr "全螢幕"
 
-#: krdc.cpp:523 krdc.cpp:620
+#: krdc.cpp:521 krdc.cpp:614
 msgid "Scale"
 msgstr "縮放"
 
-#: krdc.cpp:525
+#: krdc.cpp:523
 msgid "Scale view"
 msgstr "縮放檢視"
 
-#: krdc.cpp:532
+#: krdc.cpp:530
 msgid "Iconify"
 msgstr ""
 
-#: krdc.cpp:534
+#: krdc.cpp:532
 msgid "Minimize"
 msgstr "最小化"
 
-#: krdc.cpp:540 krdc.cpp:542
+#: krdc.cpp:538 krdc.cpp:540
 msgid "Close"
 msgstr ""
 
-#: krdc.cpp:613
+#: krdc.cpp:599
+msgid "Window Mode"
+msgstr ""
+
+#: krdc.cpp:607
 msgid ""
 "Switches to full screen. If the remote desktop has a different screen "
 "resolution, Remote Desktop Connection will automatically switch to the "
@@ -112,25 +116,25 @@ msgstr ""
 "切換至全螢幕。如遠端桌面有不同的螢幕解像度，遠端桌面連線會自動切換至最接近的"
 "解像度。"
 
-#: krdc.cpp:622
+#: krdc.cpp:616
 #, fuzzy
 msgid "Scale View"
 msgstr "縮放檢視"
 
-#: krdc.cpp:623
+#: krdc.cpp:617
 msgid "This option scales the remote screen to fit your window size."
 msgstr "此選項將遠端螢幕縮放至切合您的視窗大小。"
 
-#: krdc.cpp:631
+#: krdc.cpp:625
 msgid "Special Keys"
 msgstr "特別鍵"
 
-#: krdc.cpp:633
+#: krdc.cpp:627
 #, fuzzy
 msgid "Enter special keys"
 msgstr "輸入特別鍵。"
 
-#: krdc.cpp:634
+#: krdc.cpp:628
 msgid ""
 "This option allows you to send special key combinations like Ctrl-Alt-Del to "
 "the remote host."
@@ -180,7 +184,7 @@ msgstr "以檔案形式提供密碼"
 msgid "The name of the host, e.g. 'localhost:1'"
 msgstr "主機的名稱，例如『localhost:1』"
 
-#: main.cpp:74 maindialog.cpp:34
+#: main.cpp:74 maindialog.cpp:33
 msgid "Remote Desktop Connection"
 msgstr "遠端桌面連線"
 
@@ -209,11 +213,11 @@ msgstr "密碼檔案『%1』不存在。"
 msgid "Wrong geometry format, must be widthXheight"
 msgstr "錯誤幾何格式，必須是「寬度X高度」"
 
-#: maindialog.cpp:36
+#: maindialog.cpp:35
 msgid "&Preferences"
 msgstr "偏好設定(&P)"
 
-#: maindialog.cpp:41
+#: maindialog.cpp:40
 msgid "Connect"
 msgstr "連接"
 
@@ -261,23 +265,23 @@ msgstr "掃描網絡時發生錯誤。"
 msgid "Error While Scanning"
 msgstr "掃描時發生錯誤"
 
-#: preferencesdialog.cpp:35
+#: preferencesdialog.cpp:34
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: preferencesdialog.cpp:43
+#: preferencesdialog.cpp:42
 msgid "&Host Profiles"
 msgstr "主機資料檔(&H)"
 
-#: preferencesdialog.cpp:49
+#: preferencesdialog.cpp:48
 msgid "&VNC Defaults"
 msgstr "&VNC 預設值"
 
-#: preferencesdialog.cpp:57 preferencesdialog.cpp:67
+#: preferencesdialog.cpp:56 preferencesdialog.cpp:66
 msgid "Do not &show the preferences dialog on new connections"
 msgstr "新的連線不要顯示偏好設定對話盒(&S)"
 
-#: preferencesdialog.cpp:61
+#: preferencesdialog.cpp:60
 msgid "RD&P Defaults"
 msgstr "RD&P 預設值"
 
@@ -965,34 +969,34 @@ msgstr "低質素（數據機、ISDN、慢速互聯網）"
 msgid "Show this dialog &again for this host"
 msgstr "為此主機再顯示此對話盒(&S)"
 
-#: rdp/krdpview.cpp:198
+#: rdp/krdpview.cpp:166
 #, qt-format
 msgid "RDP Host Preferences for %1"
 msgstr "%1 的 RDP 主機偏好設定"
 
-#: rdp/krdpview.cpp:275
+#: rdp/krdpview.cpp:243
 msgid "Please enter the password."
 msgstr "請輸入密碼。"
 
-#: rdp/krdpview.cpp:300
+#: rdp/krdpview.cpp:269
 msgid "Could not start rdesktop; make sure rdesktop is properly installed."
 msgstr "無法啟動 rdesktop；請確定 rdesktop 已正確安裝。"
 
-#: rdp/krdpview.cpp:301 rdp/krdpview.cpp:371
+#: rdp/krdpview.cpp:270 rdp/krdpview.cpp:338
 msgid "rdesktop Failure"
 msgstr "rdesktop 失敗"
 
-#: rdp/krdpview.cpp:363 vnc/kvncview.cpp:463
+#: rdp/krdpview.cpp:330 vnc/kvncview.cpp:462
 msgid "Connection attempt to host failed."
 msgstr "連線至主機失敗。"
 
-#: rdp/krdpview.cpp:364 vnc/kvncview.cpp:227 vnc/kvncview.cpp:464
-#: vnc/kvncview.cpp:469 vnc/kvncview.cpp:474 vnc/kvncview.cpp:479
-#: vnc/kvncview.cpp:484 vnc/kvncview.cpp:489
+#: rdp/krdpview.cpp:331 vnc/kvncview.cpp:226 vnc/kvncview.cpp:463
+#: vnc/kvncview.cpp:468 vnc/kvncview.cpp:473 vnc/kvncview.cpp:478
+#: vnc/kvncview.cpp:483 vnc/kvncview.cpp:488
 msgid "Connection Failure"
 msgstr "連線失敗"
 
-#: rdp/krdpview.cpp:369
+#: rdp/krdpview.cpp:336
 #, qt-format
 msgid ""
 "The version of rdesktop you are using (%1) is too old:\n"
@@ -1015,52 +1019,52 @@ msgstr "是"
 msgid "no"
 msgstr "否"
 
-#: vnc/kvncview.cpp:226
+#: vnc/kvncview.cpp:225
 msgid "It is not possible to connect to a local desktop sharing service."
 msgstr "不能連接至本機桌面分享服務。"
 
-#: vnc/kvncview.cpp:251
+#: vnc/kvncview.cpp:250
 #, qt-format
 msgid "VNC Host Preferences for %1"
 msgstr "%1 的 VNC 主機偏好設定"
 
-#: vnc/kvncview.cpp:406
+#: vnc/kvncview.cpp:405
 msgid "Access to the system requires a password."
 msgstr "存取系統需要密碼。"
 
-#: vnc/kvncview.cpp:468
+#: vnc/kvncview.cpp:467
 msgid "Remote host is using an incompatible protocol."
 msgstr "遠端主機正使用不相容的協定。"
 
-#: vnc/kvncview.cpp:473
+#: vnc/kvncview.cpp:472
 msgid "The connection to the host has been interrupted."
 msgstr "連線至主機被中斷。"
 
-#: vnc/kvncview.cpp:478
+#: vnc/kvncview.cpp:477
 msgid "Connection failed. The server does not accept new connections."
 msgstr "連線失敗。伺服器不接受新連線。"
 
-#: vnc/kvncview.cpp:483
+#: vnc/kvncview.cpp:482
 msgid "Connection failed. A server with the given name cannot be found."
 msgstr "連線失敗。找不到指定的伺服器。"
 
-#: vnc/kvncview.cpp:488
+#: vnc/kvncview.cpp:487
 msgid "Connection failed. No server running at the given address and port."
 msgstr "連線失敗。指定的位址及連接埠沒有找到伺服器。"
 
-#: vnc/kvncview.cpp:497
+#: vnc/kvncview.cpp:496
 msgid "Authentication failed. Connection aborted."
 msgstr "認證失敗。連線中止。"
 
-#: vnc/kvncview.cpp:498
+#: vnc/kvncview.cpp:497
 msgid "Authentication Failure"
 msgstr "認證失敗"
 
-#: vnc/kvncview.cpp:502
+#: vnc/kvncview.cpp:501
 msgid "Unknown error."
 msgstr "未知的錯誤。"
 
-#: vnc/kvncview.cpp:503
+#: vnc/kvncview.cpp:502
 msgid "Unknown Error"
 msgstr "未知的錯誤"
 
