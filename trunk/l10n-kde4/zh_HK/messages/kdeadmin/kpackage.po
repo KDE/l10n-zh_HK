@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-23 18:05+0100\n"
+"POT-Creation-Date: 2007-04-02 05:39+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -26,259 +26,6 @@ msgstr "無法建立資料夾 %1"
 #, qt-format
 msgid "Malformed URL: %1"
 msgstr "格式錯誤的 URL： %1"
-
-#: debAptInterface.cpp:51
-msgid "APT: Debian"
-msgstr "APT： Debian"
-
-#: debAptInterface.cpp:53
-msgid "Querying DEB APT package list: "
-msgstr "正在查詢 DEB APT 套件清單："
-
-#: debAptInterface.cpp:54
-msgid "KPackage: Waiting on APT-GET"
-msgstr "KPackage：正在等待 APT-GET"
-
-#: debAptInterface.cpp:58
-msgid "Location of Debian Packages"
-msgstr "Debian 套件的位置"
-
-#: debAptInterface.cpp:60
-msgctxt "APT sources"
-msgid "A"
-msgstr ""
-
-#: debAptInterface.cpp:61
-msgid "APT Sources Entries"
-msgstr "APT 來源項目"
-
-#: debAptInterface.cpp:62 debDpkgInterface.cpp:77 kissInterface.cpp:73
-#: slackInterface.cpp:91
-msgctxt "Folders"
-msgid "F"
-msgstr ""
-
-#: debAptInterface.cpp:64 debDpkgInterface.cpp:79
-msgid "Location of Folders Containing Debian Packages"
-msgstr "含有 Debian 套件的資料夾位置"
-
-#: debAptInterface.cpp:69
-msgid "Download only"
-msgstr "只下載"
-
-#: debAptInterface.cpp:70
-msgid "No download"
-msgstr "不下載"
-
-#: debAptInterface.cpp:71
-msgid "Ignore missing"
-msgstr "忽略遺失的"
-
-#: debAptInterface.cpp:72
-msgid "Ignore hold"
-msgstr "忽略鎖定"
-
-#: debAptInterface.cpp:73
-msgid "Allow Unauthenticated"
-msgstr "容許未認證的"
-
-#: debAptInterface.cpp:74 debAptInterface.cpp:78
-msgid "Assume yes"
-msgstr "假設為「是」"
-
-#: debAptInterface.cpp:75 debAptInterface.cpp:79 debDpkgInterface.cpp:92
-#: fbsdInterface.cpp:87 rpmInterface.cpp:76 slackInterface.cpp:101
-msgid "Test (do not uninstall)"
-msgstr "測試（不要真的反安裝）"
-
-#: debAptInterface.cpp:77 debDpkgInterface.cpp:89
-msgid "Purge Config Files"
-msgstr "清除設定檔案"
-
-#: debAptInterface.cpp:106
-#, fuzzy
-msgid "&Update"
-msgstr "已更新"
-
-#: debAptInterface.cpp:110
-msgid "U&pgrade"
-msgstr "升級(&P)"
-
-#: debAptInterface.cpp:114
-msgid "&Fixup"
-msgstr "修補(&F)"
-
-#: debAptInterface.cpp:118
-msgid "&Apt-File Update"
-msgstr "&Apt-File 更新"
-
-#: debAptInterface.cpp:161 debAptInterface.cpp:370
-#, qt-format
-msgid "The %1 program needs to be installed"
-msgstr "需要安裝 %1 程式"
-
-#: debAptInterface.cpp:190
-#, qt-format
-msgid "Querying DEB APT remote package list: %1"
-msgstr "正在查詢 DEB APT 遠端套件清單： %1"
-
-#: debAptInterface.cpp:196
-#, qt-format
-msgid "Processing DEB APT remote package list: %1"
-msgstr "正在處理 DEB APT 遠端套件清單： %1"
-
-#: debAptInterface.cpp:233 debAptInterface.cpp:289 rpmInterface.cpp:201
-msgid "DEB APT"
-msgstr "DEB APT"
-
-#: debAptInterface.cpp:246
-msgid "Querying DEB APT available list"
-msgstr "正在查詢 DEB APT 可用的清單"
-
-#: debAptInterface.cpp:248
-#, qt-format
-msgid "Querying DEB APT available list: %1"
-msgstr "正在查詢 DEB APT 可用的清單： %1"
-
-#: debAptInterface.cpp:253
-msgid "Processing DEB APT available list"
-msgstr "正在處理 DEB APT 可用的清單"
-
-#: debAptInterface.cpp:255
-#, qt-format
-msgid "Processing DEB APT available list: %1"
-msgstr "正在處理 DEB APT 可用的清單： %1"
-
-#: debDpkgInterface.cpp:61
-msgid "DPKG: Debian"
-msgstr "DPKG: Debian"
-
-#: debDpkgInterface.cpp:64 debInterface.cpp:155
-msgid "Querying DEB package list: "
-msgstr "正在查詢 DEB 套件清單："
-
-#: debDpkgInterface.cpp:65
-msgid "Kpackage: Waiting on DPKG"
-msgstr "Kpackage：正在等待 DPKG"
-
-#: debDpkgInterface.cpp:67
-msgid "Location of Debian Package Archives"
-msgstr "Debian 套件庫的位置"
-
-#: debDpkgInterface.cpp:68
-msgctxt "Location"
-msgid "L"
-msgstr ""
-
-#: debDpkgInterface.cpp:70
-msgid ""
-"Version\n"
-"Architecture"
-msgstr ""
-"版本\n"
-"架構"
-
-#: debDpkgInterface.cpp:71 debDpkgInterface.cpp:76
-msgid "Location of Base Folder of Debian Distribution"
-msgstr "Debian 發行版本基礎資料夾的位置"
-
-#: debDpkgInterface.cpp:73
-msgctxt "Packages"
-msgid "P"
-msgstr ""
-
-#: debDpkgInterface.cpp:75
-msgid "Location of 'Packages' Files for Sections of Debian Distributions"
-msgstr "Debian 發行版本區中「Packages」檔案的位置"
-
-#: debDpkgInterface.cpp:84
-msgid "Allow Downgrade"
-msgstr "可降級"
-
-#: debDpkgInterface.cpp:85
-msgid "Check Conflicts"
-msgstr "檢查是否衝突"
-
-#: debDpkgInterface.cpp:86 debDpkgInterface.cpp:91 fbsdInterface.cpp:82
-#: fbsdInterface.cpp:86 rpmInterface.cpp:71 rpmInterface.cpp:75
-msgid "Check Dependencies"
-msgstr "檢查是否有依附"
-
-#: debDpkgInterface.cpp:87 fbsdInterface.cpp:83 rpmInterface.cpp:72
-#: slackInterface.cpp:99
-msgid "Test (do not install)"
-msgstr "測試（不要真的安裝）"
-
-#: fbsdInterface.cpp:60
-msgid "BSD"
-msgstr "BSD"
-
-#: fbsdInterface.cpp:71
-msgid "Querying package list: "
-msgstr "正在查詢套件清單："
-
-#: fbsdInterface.cpp:73
-msgid "Location of BSD Packages and Ports"
-msgstr "BSD 套件及 ports 的位置"
-
-#: fbsdInterface.cpp:74
-msgid "Ports"
-msgstr "Ports"
-
-#: fbsdInterface.cpp:75
-msgid "Location of Ports Tree (e.g. /usr/ports or /usr/opt)"
-msgstr "Ports 目錄樹（如 /usr/ports 或 /usr/opt）的位置"
-
-#: fbsdInterface.cpp:76
-msgid "Packages"
-msgstr "套件"
-
-#: fbsdInterface.cpp:77
-msgid "Location of Folders Containing BSD Packages or Package Trees"
-msgstr "含有 BSD 套件或套件目錄樹的資料夾的位置"
-
-#: fbsdInterface.cpp:81 fbsdInterface.cpp:85
-msgid "Ignore Scripts"
-msgstr "忽略命令稿"
-
-#: fbsdInterface.cpp:128
-msgid "Getting package info"
-msgstr "正在擷取套件資訊"
-
-#: fbsdInterface.cpp:200 fbsdInterface.cpp:407 fbsdInterface.cpp:408
-#: fbsdInterface.cpp:557 fbsdInterface.cpp:559 packageProperties.cpp:179
-msgid "none"
-msgstr "無"
-
-#: fbsdInterface.cpp:201 fbsdInterface.cpp:409 fbsdInterface.cpp:560
-msgid "binary package and source port"
-msgstr "二進位套件及來源 port"
-
-#: fbsdInterface.cpp:201 fbsdInterface.cpp:409 fbsdInterface.cpp:560
-msgid "binary package"
-msgstr "二進位套件"
-
-#: fbsdInterface.cpp:201 fbsdInterface.cpp:409 fbsdInterface.cpp:560
-msgid "source port"
-msgstr "來源 port"
-
-#: fbsdInterface.cpp:234
-msgid "Getting file list"
-msgstr "正在擷取檔案清單"
-
-#: fbsdInterface.cpp:248
-#, fuzzy
-msgid "Can't find package name"
-msgstr "找不到套件名稱！"
-
-#: fbsdInterface.cpp:499
-msgid "Querying BSD packages database for installed packages"
-msgstr "正在查詢已安裝套件之 BSD 套件資料庫"
-
-#: fbsdInterface.cpp:528
-#, qt-format
-msgid "Unexpected output from pkg_info (looking for package name): %1"
-msgstr "pkg_info 非預期的輸出（正在尋找套件名稱）： %1"
 
 #: findf.cpp:56
 msgid "Find File"
@@ -339,26 +86,6 @@ msgstr "正在查詢 Gentoo 套件清單："
 #: gentooInterface.cpp:128
 msgid "Looking for Gentoo packages: "
 msgstr "正在尋找 Gentoo 套件："
-
-#: kissInterface.cpp:62
-msgid "KISS"
-msgstr "KISS"
-
-#: kissInterface.cpp:72
-msgid "Location of KISS Packages"
-msgstr "KISS 套件的位置"
-
-#: kissInterface.cpp:75
-msgid "Location of Folders Containing KISS Packages"
-msgstr "含有 KISS 套件的資料夾的位置"
-
-#: kissInterface.cpp:81 kissInterface.cpp:139
-msgid "Querying KISS package list: "
-msgstr "正在查詢 KISS 套件清單："
-
-#: kissInterface.cpp:82
-msgid "KPackage: Waiting on KISS"
-msgstr "Kpackage：正在等待 KISS"
 
 #: kpPty.cpp:155
 msgid ""
@@ -492,19 +219,19 @@ msgstr "版本"
 msgid "Old Version"
 msgstr "舊版本"
 
-#: main.cpp:59
+#: main.cpp:51
 msgid "KDE Package installer"
 msgstr "KDE 套件安裝程式"
 
-#: main.cpp:63
+#: main.cpp:55
 msgid "Remote host for Debian APT, via SSH"
 msgstr "Debian APT 的遠端主機，透過 SSH"
 
-#: main.cpp:65
+#: main.cpp:57
 msgid "Package to install"
 msgstr "要安裝的套件"
 
-#: main.cpp:83
+#: main.cpp:75
 msgid "KPackage"
 msgstr "KPackage"
 
@@ -528,32 +255,32 @@ msgstr "清除搜尋"
 msgid "Search: "
 msgstr "搜尋: "
 
-#: managementWidget.cpp:172
+#: managementWidget.cpp:171
 msgid "Uninstall Marked"
 msgstr "反安裝已標記的"
 
-#: managementWidget.cpp:176
+#: managementWidget.cpp:175
 msgid "Install Marked"
 msgstr "安裝已標記的"
 
-#: managementWidget.cpp:201 pkgOptions.cpp:363 pkgOptions.cpp:365
+#: managementWidget.cpp:200 pkgOptions.cpp:366 pkgOptions.cpp:369
 msgid "Uninstall"
 msgstr "反安裝"
 
-#: managementWidget.cpp:205 managementWidget.cpp:272 pkgOptions.cpp:348
-#: pkgOptions.cpp:350
+#: managementWidget.cpp:204 managementWidget.cpp:271 pkgOptions.cpp:350
+#: pkgOptions.cpp:353
 msgid "Install"
 msgstr "安裝"
 
-#: managementWidget.cpp:274
+#: managementWidget.cpp:273
 msgid "Fetch"
 msgstr "取得"
 
-#: managementWidget.cpp:360
+#: managementWidget.cpp:359
 msgid "Building package tree"
 msgstr "正在建立套件的樹狀結構"
 
-#: managementWidget.cpp:449
+#: managementWidget.cpp:448
 #, fuzzy
 msgid "Filename not available\n"
 msgstr "檔案名稱不存在\n"
@@ -676,7 +403,7 @@ msgstr " 檔案"
 msgid "&Open With..."
 msgstr "以此開啟(&O)..."
 
-#: packageInfo.cpp:122 slackInterface.cpp:349
+#: packageInfo.cpp:122
 msgid "OTHER"
 msgstr "其他"
 
@@ -832,6 +559,10 @@ msgstr "建立時依附"
 msgid "available as"
 msgstr "存在於"
 
+#: packageProperties.cpp:179
+msgid "none"
+msgstr "無"
+
 #: pkgInterface.cpp:74
 msgid "'Delete this window to continue'"
 msgstr "『關掉本視窗以繼續』"
@@ -865,13 +596,13 @@ msgstr "保持此視窗"
 msgid "PACKAGES"
 msgstr "套件"
 
-#: pkgOptions.cpp:209
+#: pkgOptions.cpp:211
 #, qt-format
 msgid "%2: 1 %3 Package"
 msgid_plural "%2: %1 %3 Packages"
 msgstr[0] "%2: %1 %3 套件"
 
-#: pkgOptions.cpp:275
+#: pkgOptions.cpp:277
 msgid "Done"
 msgstr "完成"
 
@@ -942,51 +673,6 @@ msgid "Your emails"
 msgstr ""
 "lancelot@pchome.com.tw,pesder.liao@msa.hinet.net,wwycheuk@netvigator.com"
 
-#: rpmInterface.cpp:50
-msgid "RPM"
-msgstr "RPM"
-
-#: rpmInterface.cpp:60
-msgid "Location of RPM Package Archives"
-msgstr "RPM 套件庫的位置"
-
-#: rpmInterface.cpp:61
-msgctxt "Folder"
-msgid "F"
-msgstr ""
-
-#: rpmInterface.cpp:62
-msgid "Location of Folders Containing RPM Packages"
-msgstr "含有 RPM 套件的資料夾的位置"
-
-#: rpmInterface.cpp:68
-msgid "Upgrade"
-msgstr "升級"
-
-#: rpmInterface.cpp:69
-msgid "Replace Files"
-msgstr "取代檔案"
-
-#: rpmInterface.cpp:70
-msgid "Replace Packages"
-msgstr "取代套件"
-
-#: rpmInterface.cpp:74
-msgid "Use Scripts"
-msgstr "使用命令稿"
-
-#: rpmInterface.cpp:79
-msgid "Querying RPM package list: "
-msgstr "正在查詢 RPM 套件清單："
-
-#: rpmInterface.cpp:164
-msgid "Querying RPM package list"
-msgstr "正在查詢 RPM 套件清單"
-
-#: rpmInterface.cpp:168
-msgid "Processing RPM package list"
-msgstr "正在處理 RPM 套件清單"
-
 #: search.cpp:67
 msgid "Sub string"
 msgstr "子字串"
@@ -1004,104 +690,137 @@ msgstr "備註"
 msgid "%1 was not found."
 msgstr "找不到 %1 。"
 
-#: slackInterface.cpp:68
-msgid "Slackware"
-msgstr "Slackware"
+#: smartInterface.cpp:67
+#, fuzzy
+#| msgid "Summary"
+msgid "Smart"
+msgstr "摘要"
 
-#: slackInterface.cpp:80 slackInterface.cpp:211 slackInterface.cpp:264
-#: slackInterface.cpp:629
-msgid "Querying SLACK package list: "
+#: smartInterface.cpp:69
+#, fuzzy
+#| msgid "Querying SLACK package list: "
+msgid "Querying SMART package list: "
 msgstr "正在查詢 SLACK 套件清單："
 
-#: slackInterface.cpp:81
-msgid "KPackage: Waiting on SLACK"
+#: smartInterface.cpp:70
+#, fuzzy
+#| msgid "KPackage: Waiting on SLACK"
+msgid "KPackage: Waiting on SMART"
 msgstr "KPackage：正在等待 SLACK"
 
-#: slackInterface.cpp:83
-msgid "Location of Slackware Package Archives"
-msgstr "Slackware 套件庫的位置"
+#: smartInterface.cpp:74
+msgid "Location of Debian Packages"
+msgstr "Debian 套件的位置"
 
-#: slackInterface.cpp:84
-msgctxt "Install location"
-msgid "I"
+#: smartInterface.cpp:76
+msgctxt "APT sources"
+msgid "A"
 msgstr ""
 
-#: slackInterface.cpp:86
-msgid "Location of a 'PACKAGES.TXT' File for Extended Information"
-msgstr "延伸資訊的『PACKAGES.TXT』檔案的位置"
+#: smartInterface.cpp:77
+msgid "APT Sources Entries"
+msgstr "APT 來源項目"
 
-#: slackInterface.cpp:87
-msgctxt "Packages file"
-msgid "P"
+#: smartInterface.cpp:78
+msgctxt "Folders"
+msgid "F"
 msgstr ""
 
-#: slackInterface.cpp:89
-msgid "Location of 'PACKAGES.TXT' File for Slackware Distribution"
-msgstr "Slackware 發行版本的『PACKAGES.TXT』檔案的位置"
+#: smartInterface.cpp:80
+msgid "Location of Folders Containing Debian Packages"
+msgstr "含有 Debian 套件的資料夾位置"
 
-#: slackInterface.cpp:90
-msgid "Location of Base Folder of Slackware Distribution"
-msgstr "Slackware 發行版本基礎資料夾的位置"
+#: smartInterface.cpp:85
+msgid "Download only"
+msgstr "只下載"
 
-#: slackInterface.cpp:93
-msgid "Location of Folders Containing Slackware Packages"
-msgstr "含有 Slackware 套件的資料夾的位置"
+#: smartInterface.cpp:86
+msgid "No download"
+msgstr "不下載"
 
-#: slackInterface.cpp:119
-msgid "Base System"
-msgstr "基礎系統"
+#: smartInterface.cpp:87
+msgid "Ignore missing"
+msgstr "忽略遺失的"
 
-#: slackInterface.cpp:120
-msgid "Linux Applications"
-msgstr "Linux 應用程式"
+#: smartInterface.cpp:88
+msgid "Ignore hold"
+msgstr "忽略鎖定"
 
-#: slackInterface.cpp:121
-msgid "Program Development"
-msgstr "程式開發"
+#: smartInterface.cpp:89
+msgid "Allow Unauthenticated"
+msgstr "容許未認證的"
 
-#: slackInterface.cpp:122
-msgid "GNU EMacs"
-msgstr "GNU EMacs"
+#: smartInterface.cpp:90 smartInterface.cpp:94
+msgid "Assume yes"
+msgstr "假設為「是」"
 
-#: slackInterface.cpp:123
-msgid "FAQs"
-msgstr "常見問題"
+#: smartInterface.cpp:91 smartInterface.cpp:95
+msgid "Test (do not uninstall)"
+msgstr "測試（不要真的反安裝）"
 
-#: slackInterface.cpp:124
-msgid "Kernel Source"
-msgstr "核心源始碼"
+#: smartInterface.cpp:93
+msgid "Purge Config Files"
+msgstr "清除設定檔案"
 
-#: slackInterface.cpp:125
-msgid "Networking"
-msgstr "網絡"
+#: smartInterface.cpp:503
+#, fuzzy
+msgid "&Update"
+msgstr "已更新"
 
-#: slackInterface.cpp:126
-msgid "TeX Distribution"
-msgstr "TeX 分配套件"
+#: smartInterface.cpp:507
+msgid "U&pgrade"
+msgstr "升級(&P)"
 
-#: slackInterface.cpp:127
-msgid "TCL Script Language"
-msgstr "TCL 命令稿語言"
+#: smartInterface.cpp:511
+msgid "&Fixup"
+msgstr "修補(&F)"
 
-#: slackInterface.cpp:128
-msgid "X Window System"
-msgstr "X 視窗系統"
+#: smartInterface.cpp:515
+msgid "&Apt-File Update"
+msgstr "&Apt-File 更新"
 
-#: slackInterface.cpp:129
-msgid "X Applications"
-msgstr "X 應用程式"
+#: smartInterface.cpp:558
+#, qt-format
+msgid "The %1 program needs to be installed"
+msgstr "需要安裝 %1 程式"
 
-#: slackInterface.cpp:130
-msgid "X Development Tools"
-msgstr "X 開發工具"
+#: smartInterface.cpp:604
+#, fuzzy, qt-format
+#| msgid "Querying SLACK package list: "
+msgid "Querying SMART package list: %1"
+msgstr "正在查詢 SLACK 套件清單："
 
-#: slackInterface.cpp:131
-msgid "XView and OpenLook"
-msgstr "XView 與 OpenLook"
+#: smartInterface.cpp:611
+#, fuzzy, qt-format
+#| msgid "Processing RPM package list"
+msgid "Processing SMART package list: %1"
+msgstr "正在處理 RPM 套件清單"
 
-#: slackInterface.cpp:132
-msgid "Games"
-msgstr "遊戲"
+#: smartInterface.cpp:648
+msgid "SMART"
+msgstr ""
+
+#: smartInterface.cpp:662
+msgid "Querying DEB APT available list"
+msgstr "正在查詢 DEB APT 可用的清單"
+
+#: smartInterface.cpp:664
+#, qt-format
+msgid "Querying DEB APT available list: %1"
+msgstr "正在查詢 DEB APT 可用的清單： %1"
+
+#: smartInterface.cpp:669
+msgid "Processing DEB APT available list"
+msgstr "正在處理 DEB APT 可用的清單"
+
+#: smartInterface.cpp:671
+#, qt-format
+msgid "Processing DEB APT available list: %1"
+msgstr "正在處理 DEB APT 可用的清單： %1"
+
+#: smartInterface.cpp:705
+msgid "DEB APT"
+msgstr "DEB APT"
 
 #: updateLoc.cpp:54 updateLoc.cpp:137
 msgid "Use"
@@ -1122,6 +841,209 @@ msgstr "套件庫"
 #: updateLoc.cpp:347
 msgid "File truncated..."
 msgstr "被截去的檔案..."
+
+#~ msgid "APT: Debian"
+#~ msgstr "APT： Debian"
+
+#~ msgid "Querying DEB APT package list: "
+#~ msgstr "正在查詢 DEB APT 套件清單："
+
+#~ msgid "KPackage: Waiting on APT-GET"
+#~ msgstr "KPackage：正在等待 APT-GET"
+
+#~ msgid "Querying DEB APT remote package list: %1"
+#~ msgstr "正在查詢 DEB APT 遠端套件清單： %1"
+
+#~ msgid "Processing DEB APT remote package list: %1"
+#~ msgstr "正在處理 DEB APT 遠端套件清單： %1"
+
+#~ msgid "DPKG: Debian"
+#~ msgstr "DPKG: Debian"
+
+#~ msgid "Querying DEB package list: "
+#~ msgstr "正在查詢 DEB 套件清單："
+
+#~ msgid "Kpackage: Waiting on DPKG"
+#~ msgstr "Kpackage：正在等待 DPKG"
+
+#~ msgid "Location of Debian Package Archives"
+#~ msgstr "Debian 套件庫的位置"
+
+#~ msgid ""
+#~ "Version\n"
+#~ "Architecture"
+#~ msgstr ""
+#~ "版本\n"
+#~ "架構"
+
+#~ msgid "Location of Base Folder of Debian Distribution"
+#~ msgstr "Debian 發行版本基礎資料夾的位置"
+
+#~ msgid "Location of 'Packages' Files for Sections of Debian Distributions"
+#~ msgstr "Debian 發行版本區中「Packages」檔案的位置"
+
+#~ msgid "Allow Downgrade"
+#~ msgstr "可降級"
+
+#~ msgid "Check Conflicts"
+#~ msgstr "檢查是否衝突"
+
+#~ msgid "Check Dependencies"
+#~ msgstr "檢查是否有依附"
+
+#~ msgid "Test (do not install)"
+#~ msgstr "測試（不要真的安裝）"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Querying package list: "
+#~ msgstr "正在查詢套件清單："
+
+#~ msgid "Location of BSD Packages and Ports"
+#~ msgstr "BSD 套件及 ports 的位置"
+
+#~ msgid "Ports"
+#~ msgstr "Ports"
+
+#~ msgid "Location of Ports Tree (e.g. /usr/ports or /usr/opt)"
+#~ msgstr "Ports 目錄樹（如 /usr/ports 或 /usr/opt）的位置"
+
+#~ msgid "Packages"
+#~ msgstr "套件"
+
+#~ msgid "Location of Folders Containing BSD Packages or Package Trees"
+#~ msgstr "含有 BSD 套件或套件目錄樹的資料夾的位置"
+
+#~ msgid "Ignore Scripts"
+#~ msgstr "忽略命令稿"
+
+#~ msgid "Getting package info"
+#~ msgstr "正在擷取套件資訊"
+
+#~ msgid "binary package and source port"
+#~ msgstr "二進位套件及來源 port"
+
+#~ msgid "binary package"
+#~ msgstr "二進位套件"
+
+#~ msgid "source port"
+#~ msgstr "來源 port"
+
+#~ msgid "Getting file list"
+#~ msgstr "正在擷取檔案清單"
+
+#, fuzzy
+#~ msgid "Can't find package name"
+#~ msgstr "找不到套件名稱！"
+
+#~ msgid "Querying BSD packages database for installed packages"
+#~ msgstr "正在查詢已安裝套件之 BSD 套件資料庫"
+
+#~ msgid "Unexpected output from pkg_info (looking for package name): %1"
+#~ msgstr "pkg_info 非預期的輸出（正在尋找套件名稱）： %1"
+
+#~ msgid "KISS"
+#~ msgstr "KISS"
+
+#~ msgid "Location of KISS Packages"
+#~ msgstr "KISS 套件的位置"
+
+#~ msgid "Location of Folders Containing KISS Packages"
+#~ msgstr "含有 KISS 套件的資料夾的位置"
+
+#~ msgid "Querying KISS package list: "
+#~ msgstr "正在查詢 KISS 套件清單："
+
+#~ msgid "KPackage: Waiting on KISS"
+#~ msgstr "Kpackage：正在等待 KISS"
+
+#~ msgid "RPM"
+#~ msgstr "RPM"
+
+#~ msgid "Location of RPM Package Archives"
+#~ msgstr "RPM 套件庫的位置"
+
+#~ msgid "Location of Folders Containing RPM Packages"
+#~ msgstr "含有 RPM 套件的資料夾的位置"
+
+#~ msgid "Upgrade"
+#~ msgstr "升級"
+
+#~ msgid "Replace Files"
+#~ msgstr "取代檔案"
+
+#~ msgid "Replace Packages"
+#~ msgstr "取代套件"
+
+#~ msgid "Use Scripts"
+#~ msgstr "使用命令稿"
+
+#~ msgid "Querying RPM package list: "
+#~ msgstr "正在查詢 RPM 套件清單："
+
+#~ msgid "Querying RPM package list"
+#~ msgstr "正在查詢 RPM 套件清單"
+
+#~ msgid "Slackware"
+#~ msgstr "Slackware"
+
+#~ msgid "Location of Slackware Package Archives"
+#~ msgstr "Slackware 套件庫的位置"
+
+#~ msgid "Location of a 'PACKAGES.TXT' File for Extended Information"
+#~ msgstr "延伸資訊的『PACKAGES.TXT』檔案的位置"
+
+#~ msgid "Location of 'PACKAGES.TXT' File for Slackware Distribution"
+#~ msgstr "Slackware 發行版本的『PACKAGES.TXT』檔案的位置"
+
+#~ msgid "Location of Base Folder of Slackware Distribution"
+#~ msgstr "Slackware 發行版本基礎資料夾的位置"
+
+#~ msgid "Location of Folders Containing Slackware Packages"
+#~ msgstr "含有 Slackware 套件的資料夾的位置"
+
+#~ msgid "Base System"
+#~ msgstr "基礎系統"
+
+#~ msgid "Linux Applications"
+#~ msgstr "Linux 應用程式"
+
+#~ msgid "Program Development"
+#~ msgstr "程式開發"
+
+#~ msgid "GNU EMacs"
+#~ msgstr "GNU EMacs"
+
+#~ msgid "FAQs"
+#~ msgstr "常見問題"
+
+#~ msgid "Kernel Source"
+#~ msgstr "核心源始碼"
+
+#~ msgid "Networking"
+#~ msgstr "網絡"
+
+#~ msgid "TeX Distribution"
+#~ msgstr "TeX 分配套件"
+
+#~ msgid "TCL Script Language"
+#~ msgstr "TCL 命令稿語言"
+
+#~ msgid "X Window System"
+#~ msgstr "X 視窗系統"
+
+#~ msgid "X Applications"
+#~ msgstr "X 應用程式"
+
+#~ msgid "X Development Tools"
+#~ msgstr "X 開發工具"
+
+#~ msgid "XView and OpenLook"
+#~ msgstr "XView 與 OpenLook"
+
+#~ msgid "Games"
+#~ msgstr "遊戲"
 
 #, fuzzy
 #~ msgid "Remove all versions"
