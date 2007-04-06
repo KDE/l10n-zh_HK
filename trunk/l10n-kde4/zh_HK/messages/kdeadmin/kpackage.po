@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-05 05:37+0200\n"
+"POT-Creation-Date: 2007-04-06 05:52+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -531,23 +531,35 @@ msgstr "檔案名稱"
 msgid "serial"
 msgstr "序號"
 
+#: packageProperties.cpp:105
+msgid "flags"
+msgstr ""
+
 #: packageProperties.cpp:106
+msgid "channels"
+msgstr ""
+
+#: packageProperties.cpp:107
+msgid "reference urls"
+msgstr ""
+
+#: packageProperties.cpp:109
 msgid "also in"
 msgstr "也出現在"
 
-#: packageProperties.cpp:107
+#: packageProperties.cpp:110
 msgid "run depends"
 msgstr "執行時依附"
 
-#: packageProperties.cpp:108
+#: packageProperties.cpp:111
 msgid "build depends"
 msgstr "建立時依附"
 
-#: packageProperties.cpp:109
+#: packageProperties.cpp:112
 msgid "available as"
 msgstr "存在於"
 
-#: packageProperties.cpp:179
+#: packageProperties.cpp:182
 msgid "none"
 msgstr "無"
 
@@ -717,34 +729,6 @@ msgstr "含有 Debian 套件的資料夾位置"
 msgid "Download only"
 msgstr "只下載"
 
-#: smartInterface.cpp:86
-msgid "No download"
-msgstr "不下載"
-
-#: smartInterface.cpp:87
-msgid "Ignore missing"
-msgstr "忽略遺失的"
-
-#: smartInterface.cpp:88
-msgid "Ignore hold"
-msgstr "忽略鎖定"
-
-#: smartInterface.cpp:89
-msgid "Allow Unauthenticated"
-msgstr "容許未認證的"
-
-#: smartInterface.cpp:90 smartInterface.cpp:94
-msgid "Assume yes"
-msgstr "假設為「是」"
-
-#: smartInterface.cpp:91 smartInterface.cpp:95
-msgid "Test (do not uninstall)"
-msgstr "測試（不要真的反安裝）"
-
-#: smartInterface.cpp:93
-msgid "Purge Config Files"
-msgstr "清除設定檔案"
-
 #: smartInterface.cpp:542
 #, fuzzy
 msgid "&Update"
@@ -824,6 +808,27 @@ msgstr "套件庫"
 #: updateLoc.cpp:346
 msgid "File truncated..."
 msgstr "被截去的檔案..."
+
+#~ msgid "No download"
+#~ msgstr "不下載"
+
+#~ msgid "Ignore missing"
+#~ msgstr "忽略遺失的"
+
+#~ msgid "Ignore hold"
+#~ msgstr "忽略鎖定"
+
+#~ msgid "Allow Unauthenticated"
+#~ msgstr "容許未認證的"
+
+#~ msgid "Assume yes"
+#~ msgstr "假設為「是」"
+
+#~ msgid "Test (do not uninstall)"
+#~ msgstr "測試（不要真的反安裝）"
+
+#~ msgid "Purge Config Files"
+#~ msgstr "清除設定檔案"
 
 #~ msgid "Gentoo"
 #~ msgstr "Gentoo"
