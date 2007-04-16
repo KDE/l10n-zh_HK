@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-15 05:41+0200\n"
+"POT-Creation-Date: 2007-04-16 05:47+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -825,7 +825,7 @@ msgstr "文件資訊"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 36
-#: rc.cpp:346 kross/core/view.cpp:529
+#: rc.cpp:346 kross/ui/view.cpp:533
 msgid "General"
 msgstr "一般"
 
@@ -910,7 +910,7 @@ msgstr "清除(&L)"
 
 #. i18n: tag string
 #. i18n: file ./kross/test/testguiform.ui line 47
-#: rc.cpp:397 kross/core/view.cpp:211 kcert/kcertpart.cc:196
+#: rc.cpp:397 kross/ui/view.cpp:210 kcert/kcertpart.cc:196
 #: kcert/kcertpart.cc:287
 msgid "File:"
 msgstr "檔案:"
@@ -1400,7 +1400,7 @@ msgstr "結束應用程式"
 
 #. i18n: tag string
 #. i18n: file ./kjsembed/console/jsconsole.ui line 197
-#: rc.cpp:625 kross/core/view.cpp:304
+#: rc.cpp:625 kross/ui/view.cpp:303
 #, fuzzy
 msgid "Run"
 msgstr "Runic"
@@ -1443,7 +1443,7 @@ msgstr ""
 #: rc.cpp:643 rc.cpp:945 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:323
 #: khtml/ecma/kjs_debugwin.cpp:483 khtml/ecma/debugger/debugwindow.cpp:176
-#: kross/core/view.cpp:311
+#: kross/ui/view.cpp:310
 msgid "Stop"
 msgstr "停止"
 
@@ -3760,12 +3760,12 @@ msgstr "電子郵件地址"
 msgid "Please describe your upload."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:79 kross/core/view.cpp:153
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:79 kross/ui/view.cpp:152
 msgid "Name:"
 msgstr "名稱："
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:84
-#: kdeui/dialogs/kbugreport.cpp:203
+#: kdeui/dialogs/kbugreport.cpp:204
 msgid "Version:"
 msgstr "版本："
 
@@ -4559,12 +4559,12 @@ msgstr "設定(&G)..."
 msgid "&Find"
 msgstr "尋找(&F)"
 
-#: kdeui/util/kstandardguiitem.cpp:270 kross/modules/scriptmanageradd.cpp:249
-#: kross/modules/scriptmanageradd.cpp:252
+#: kdeui/util/kstandardguiitem.cpp:270 kross/modules/scriptmanageradd.cpp:248
+#: kross/modules/scriptmanageradd.cpp:251
 msgid "Add"
 msgstr "新增"
 
-#: kdeui/util/kstandardguiitem.cpp:275 kross/core/view.cpp:332
+#: kdeui/util/kstandardguiitem.cpp:275 kross/ui/view.cpp:331
 msgid "Remove"
 msgstr "移除"
 
@@ -4883,7 +4883,7 @@ msgstr ""
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:612
 #: kdeui/dialogs/kshortcutsdialog.cpp:650
-#: kdeui/dialogs/kshortcutsdialog.cpp:666 kdeui/shortcuts/kglobalaccel.cpp:341
+#: kdeui/dialogs/kshortcutsdialog.cpp:666 kdeui/shortcuts/kglobalaccel.cpp:346
 msgid "Reassign"
 msgstr "重新指定"
 
@@ -5111,45 +5111,45 @@ msgstr "翻譯(&R)"
 msgid "&License Agreement"
 msgstr "授權宣告(&L)"
 
-#: kdeui/dialogs/kbugreport.cpp:100
+#: kdeui/dialogs/kbugreport.cpp:101
 msgid "Submit Bug Report"
 msgstr "提交問題報告"
 
-#: kdeui/dialogs/kbugreport.cpp:136
+#: kdeui/dialogs/kbugreport.cpp:137
 msgid ""
 "Your email address. If incorrect, use the Configure Email button to change it"
 msgstr "你的 email 地址。如果不正確，請使用 [設定 Email] 按鈕來變更"
 
-#: kdeui/dialogs/kbugreport.cpp:137
+#: kdeui/dialogs/kbugreport.cpp:138
 msgid "From:"
 msgstr "來源："
 
-#: kdeui/dialogs/kbugreport.cpp:146
+#: kdeui/dialogs/kbugreport.cpp:147
 msgid "Configure Email..."
 msgstr "設定 Email..."
 
-#: kdeui/dialogs/kbugreport.cpp:153
+#: kdeui/dialogs/kbugreport.cpp:154
 msgid "The email address this bug report is sent to."
 msgstr "本問題回覆是寄往此 email 地址"
 
-#: kdeui/dialogs/kbugreport.cpp:154
+#: kdeui/dialogs/kbugreport.cpp:155
 msgid "To:"
 msgstr "到："
 
-#: kdeui/dialogs/kbugreport.cpp:161
+#: kdeui/dialogs/kbugreport.cpp:162
 msgid "&Send"
 msgstr "送出(&S)"
 
-#: kdeui/dialogs/kbugreport.cpp:161
+#: kdeui/dialogs/kbugreport.cpp:162
 msgid "Send bug report."
 msgstr "送出問題報告。"
 
-#: kdeui/dialogs/kbugreport.cpp:162
+#: kdeui/dialogs/kbugreport.cpp:163
 #, qt-format
 msgid "Send this bug report to %1."
 msgstr "送出這個問題報告到 %1 問題清單。"
 
-#: kdeui/dialogs/kbugreport.cpp:173
+#: kdeui/dialogs/kbugreport.cpp:174
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
 "please use the Report Bug menu item of the correct application"
@@ -5157,58 +5157,58 @@ msgstr ""
 "你希望提交問題報告的應用程式──如果不正確，請使用正確的應用程式的 [報告問題] "
 "選單"
 
-#: kdeui/dialogs/kbugreport.cpp:174
+#: kdeui/dialogs/kbugreport.cpp:175
 msgid "Application: "
 msgstr "應用程式："
 
-#: kdeui/dialogs/kbugreport.cpp:202
+#: kdeui/dialogs/kbugreport.cpp:203
 msgid ""
 "The version of this application - please make sure that no newer version is "
 "available before sending a bug report"
 msgstr "這個應用程式的版本──請確定在你提交問題報告之前沒有新的版本"
 
-#: kdeui/dialogs/kbugreport.cpp:209
+#: kdeui/dialogs/kbugreport.cpp:210
 msgid "no version set (programmer error!)"
 msgstr "沒有設定版本 (程式設計者的錯誤！)"
 
-#: kdeui/dialogs/kbugreport.cpp:219
+#: kdeui/dialogs/kbugreport.cpp:220
 msgid "OS:"
 msgstr "作業系統："
 
-#: kdeui/dialogs/kbugreport.cpp:231
+#: kdeui/dialogs/kbugreport.cpp:232
 msgid "Compiler:"
 msgstr "編譯器："
 
-#: kdeui/dialogs/kbugreport.cpp:239
+#: kdeui/dialogs/kbugreport.cpp:240
 msgid "Se&verity"
 msgstr "嚴重程度(&V)"
 
-#: kdeui/dialogs/kbugreport.cpp:241
+#: kdeui/dialogs/kbugreport.cpp:242
 msgid "Critical"
 msgstr "危險的"
 
-#: kdeui/dialogs/kbugreport.cpp:241
+#: kdeui/dialogs/kbugreport.cpp:242
 msgid "Grave"
 msgstr "嚴重的"
 
-#: kdeui/dialogs/kbugreport.cpp:241
+#: kdeui/dialogs/kbugreport.cpp:242
 msgctxt "normal severity"
 msgid "Normal"
 msgstr "普通的"
 
-#: kdeui/dialogs/kbugreport.cpp:241
+#: kdeui/dialogs/kbugreport.cpp:242
 msgid "Wishlist"
 msgstr "希望清單"
 
-#: kdeui/dialogs/kbugreport.cpp:241
+#: kdeui/dialogs/kbugreport.cpp:242
 msgid "Translation"
 msgstr "翻譯"
 
-#: kdeui/dialogs/kbugreport.cpp:258
+#: kdeui/dialogs/kbugreport.cpp:259
 msgid "S&ubject: "
 msgstr "主題(&U)："
 
-#: kdeui/dialogs/kbugreport.cpp:265
+#: kdeui/dialogs/kbugreport.cpp:266
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
 "report.\n"
@@ -5218,7 +5218,7 @@ msgstr ""
 "請輸入你要提交的問題報告的文字，盡量使用英文。\n"
 "如果你按下「送出」按鈕，將會傳送郵件訊息到此程式的維護者。\n"
 
-#: kdeui/dialogs/kbugreport.cpp:286
+#: kdeui/dialogs/kbugreport.cpp:287
 #, fuzzy
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
@@ -5231,22 +5231,22 @@ msgstr ""
 "的表格。\n"
 "以上所顯示的訊息將會被傳送到該伺服器。"
 
-#: kdeui/dialogs/kbugreport.cpp:297
+#: kdeui/dialogs/kbugreport.cpp:298
 msgid "&Launch Bug Report Wizard"
 msgstr "執行錯誤報告精靈(&L)"
 
-#: kdeui/dialogs/kbugreport.cpp:346
+#: kdeui/dialogs/kbugreport.cpp:347
 msgctxt "unknown program name"
 msgid "unknown"
 msgstr "未知的程式名"
 
-#: kdeui/dialogs/kbugreport.cpp:411
+#: kdeui/dialogs/kbugreport.cpp:412
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "你必須指定主題與描述才能發出問題報告。"
 
-#: kdeui/dialogs/kbugreport.cpp:421
+#: kdeui/dialogs/kbugreport.cpp:422
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p><ul><li>break unrelated software on the "
@@ -5262,7 +5262,7 @@ msgstr ""
 "<p>你正準備報告的錯誤會造成以上任一個損壞嗎？如果不會，請你選擇較低的嚴重性。"
 "謝謝！</p>"
 
-#: kdeui/dialogs/kbugreport.cpp:432
+#: kdeui/dialogs/kbugreport.cpp:433
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p><ul><li>make the package in question unusable "
@@ -5278,7 +5278,7 @@ msgstr ""
 "<p>你正準備報告的錯誤會造成以上任一個損壞嗎？如果不會，請你選擇較低的嚴重性。"
 "謝謝！</p>"
 
-#: kdeui/dialogs/kbugreport.cpp:446
+#: kdeui/dialogs/kbugreport.cpp:447
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
@@ -5288,11 +5288,11 @@ msgstr ""
 "請以手動方式提交問題報告...\n"
 "請參閱 http://bugs.kde.org/ 取得指示。"
 
-#: kdeui/dialogs/kbugreport.cpp:454
+#: kdeui/dialogs/kbugreport.cpp:455
 msgid "Bug report sent, thank you for your input."
 msgstr "問題報告已送出，感謝你的幫忙。"
 
-#: kdeui/dialogs/kbugreport.cpp:463
+#: kdeui/dialogs/kbugreport.cpp:464
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -5300,7 +5300,7 @@ msgstr ""
 "關閉並放棄\n"
 "已編輯的訊息？"
 
-#: kdeui/dialogs/kbugreport.cpp:464
+#: kdeui/dialogs/kbugreport.cpp:465
 msgid "Close Message"
 msgstr "關閉訊息"
 
@@ -5702,7 +5702,7 @@ msgstr "無效的正規表達式。"
 
 #: kdeui/findreplace/kreplace.cpp:47 kdeui/findreplace/kreplace.cpp:51
 #: kdeui/shortcuts/kstandardshortcut.cpp:87
-#: kross/modules/scriptmanager.cpp:266 kcert/kcertpart.cc:739
+#: kross/modules/scriptmanager.cpp:264 kcert/kcertpart.cc:739
 #: kcert/kcertpart.cc:755
 msgid "Replace"
 msgstr "取代"
@@ -5750,22 +5750,22 @@ msgstr "你要從頭重新開始搜尋嗎？"
 msgid "Restart"
 msgstr "重新開始"
 
-#: kdeui/findreplace/kreplacedialog.cpp:145
+#: kdeui/findreplace/kreplacedialog.cpp:148
 #, qt-format
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr "你的替代字串使用了大於'\\%1'的字串樣式，"
 
-#: kdeui/findreplace/kreplacedialog.cpp:147
+#: kdeui/findreplace/kreplacedialog.cpp:150
 #, qt-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] "但你的表示式只定義了 %1 個字串樣式。"
 
-#: kdeui/findreplace/kreplacedialog.cpp:149
+#: kdeui/findreplace/kreplacedialog.cpp:152
 msgid "but your pattern defines no captures."
 msgstr "但你的表示式沒有定義字串樣式。"
 
-#: kdeui/findreplace/kreplacedialog.cpp:150
+#: kdeui/findreplace/kreplacedialog.cpp:153
 msgid ""
 "\n"
 "Please correct."
@@ -5821,11 +5821,11 @@ msgstr "所有可見的欄"
 msgid "S&earch:"
 msgstr "搜尋(&S)："
 
-#: kdeui/shortcuts/kglobalaccel.cpp:335
+#: kdeui/shortcuts/kglobalaccel.cpp:340
 msgid "Conflict with Global Shortcut"
 msgstr "與系統的全域快速鍵定義衝突"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:336
+#: kdeui/shortcuts/kglobalaccel.cpp:341
 #, qt-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -8685,229 +8685,229 @@ msgstr "載入‘%1’發生錯誤。\n"
 msgid "Launching %1"
 msgstr "啟動 %1"
 
-#: kross/core/interpreter.cpp:132
-#, fuzzy, qt-format
-msgid "Could not load interpreter library \"%1\"."
-msgstr ""
-"無法開啟程式庫‘%1’。\n"
-"%2"
-
-#: kross/core/interpreter.cpp:144
-msgid "Incompatible interpreter library."
-msgstr ""
-
-#: kross/core/manager.cpp:116
-msgid "Level of safety of the Ruby interpreter"
-msgstr ""
-
-#: kross/core/manager.cpp:141
-msgid "Restricted mode for untrusted scripts"
-msgstr ""
-
-#: kross/core/manager.cpp:317
-#, fuzzy
-msgid "Execute Script File"
-msgstr "執行檔案嗎？"
-
-#: kross/core/manager.cpp:341
-msgid "Failed to load the Script Manager."
-msgstr ""
-
-#: kross/core/action.cpp:446
-#, qt-format
-msgid "There exists no such scriptfile \"%1\""
-msgstr ""
-
-#: kross/core/action.cpp:450
-#, qt-format
-msgid "Failed to determinate interpreter for scriptfile \"%1\""
-msgstr ""
-
-#: kross/core/action.cpp:454
-#, fuzzy, qt-format
-msgid "Failed to open scriptfile \"%1\""
-msgstr "找不到命令稿 \"%1\"。"
-
-#: kross/core/action.cpp:465
-#, qt-format
-msgid "Failed to load interpreter \"%1\": %2"
-msgstr ""
-
-#: kross/core/action.cpp:467
-#, qt-format
-msgid "No such interpreter \"%1\""
-msgstr ""
-
-#: kross/core/action.cpp:473
-#, fuzzy, qt-format
-msgid "Failed to create script for interpreter \"%1\""
-msgstr "無法取得 KScript Runner <b>%1</b> 的型別。"
-
-#: kross/core/guiclient.cpp:69
+#: kross/ui/guiclient.cpp:69
 #, fuzzy
 msgid "Scripts"
 msgstr "語文(&I)"
 
-#: kross/core/guiclient.cpp:76
+#: kross/ui/guiclient.cpp:74
 #, fuzzy
 msgid "Execute Script File..."
 msgstr "執行檔案嗎？"
 
-#: kross/core/guiclient.cpp:82
+#: kross/ui/guiclient.cpp:79
 #, fuzzy
 msgid "Script Manager..."
 msgstr "加密管理員(&C)..."
 
-#: kross/core/view.cpp:161
+#: kross/ui/guiclient.cpp:260
+#, fuzzy
+msgid "Execute Script File"
+msgstr "執行檔案嗎？"
+
+#: kross/ui/guiclient.cpp:272
+msgid "Failed to load the Script Manager."
+msgstr ""
+
+#: kross/ui/view.cpp:160
 #, fuzzy
 msgid "Text:"
 msgstr "Test"
 
-#: kross/core/view.cpp:168
+#: kross/ui/view.cpp:167
 #, fuzzy
 msgid "Comment:"
 msgstr "備註"
 
-#: kross/core/view.cpp:175
+#: kross/ui/view.cpp:174
 #, fuzzy
 msgid "Icon:"
 msgstr "圖示"
 
-#: kross/core/view.cpp:196
+#: kross/ui/view.cpp:195
 #, fuzzy
 msgid "Interpreter:"
 msgstr "網絡搜尋"
 
-#: kross/core/view.cpp:306
+#: kross/ui/view.cpp:305
 #, fuzzy
 msgid "Execute the selected script."
 msgstr "預覽所選擇的字型"
 
-#: kross/core/view.cpp:313
+#: kross/ui/view.cpp:312
 #, fuzzy
 msgid "Stop execution of the selected script."
 msgstr "預覽所選擇的字型"
 
-#: kross/core/view.cpp:318
+#: kross/ui/view.cpp:317
 #, fuzzy
 msgid "Edit..."
 msgstr "編輯(&E)..."
 
-#: kross/core/view.cpp:320
+#: kross/ui/view.cpp:319
 msgid "Edit selected script."
 msgstr ""
 
-#: kross/core/view.cpp:325
+#: kross/ui/view.cpp:324
 #, fuzzy
 msgid "Add..."
 msgstr "新增(&A)..."
 
-#: kross/core/view.cpp:327
+#: kross/ui/view.cpp:326
 msgid "Add a new script."
 msgstr ""
 
-#: kross/core/view.cpp:334
+#: kross/ui/view.cpp:333
 msgid "Remove selected script."
 msgstr ""
 
 #. i18n("About"), i18n("Configure")
-#: kross/core/view.cpp:348 kross/modules/scriptmanager.cpp:322
+#: kross/ui/view.cpp:347 kross/modules/scriptmanager.cpp:320
 #, fuzzy
 msgid "Script Manager"
 msgstr "加密管理員(&C)..."
 
-#: kross/core/view.cpp:350
+#: kross/ui/view.cpp:349
 msgid "Script Manager to configure scripts."
 msgstr ""
 
-#: kross/core/view.cpp:522
+#: kross/ui/view.cpp:526
 msgid "Edit"
 msgstr "編輯"
 
-#: kross/modules/scriptmanageradd.cpp:53
+#: kross/core/interpreter.cpp:131
+#, fuzzy, qt-format
+msgid "Could not load interpreter library \"%1\""
+msgstr ""
+"無法開啟程式庫‘%1’。\n"
+"%2"
+
+#: kross/core/interpreter.cpp:143
+msgid "Incompatible interpreter library."
+msgstr ""
+
+#: kross/core/manager.cpp:105
+msgid "Level of safety of the Ruby interpreter"
+msgstr ""
+
+#: kross/core/manager.cpp:149
+msgid "Restricted mode for untrusted scripts"
+msgstr ""
+
+#: kross/core/action.cpp:375
+#, qt-format
+msgid "There exists no such scriptfile \"%1\""
+msgstr ""
+
+#: kross/core/action.cpp:379
+#, qt-format
+msgid "Failed to determinate interpreter for scriptfile \"%1\""
+msgstr ""
+
+#: kross/core/action.cpp:383
+#, fuzzy, qt-format
+msgid "Failed to open scriptfile \"%1\""
+msgstr "找不到命令稿 \"%1\"。"
+
+#: kross/core/action.cpp:394
+#, qt-format
+msgid "Failed to load interpreter \"%1\": %2"
+msgstr ""
+
+#: kross/core/action.cpp:396
+#, qt-format
+msgid "No such interpreter \"%1\""
+msgstr ""
+
+#: kross/core/action.cpp:402
+#, fuzzy, qt-format
+msgid "Failed to create script for interpreter \"%1\""
+msgstr "無法取得 KScript Runner <b>%1</b> 的型別。"
+
+#: kross/modules/scriptmanageradd.cpp:52
 msgid ""
 "<qt>This wizard will guide you through the proccess of adding a new resource "
 "to your scripts.</qt>"
 msgstr ""
 
-#: kross/modules/scriptmanageradd.cpp:58
+#: kross/modules/scriptmanageradd.cpp:57
 msgid "Add script file"
 msgstr ""
 
-#: kross/modules/scriptmanageradd.cpp:63
+#: kross/modules/scriptmanageradd.cpp:62
 msgid "Add collection folder"
 msgstr ""
 
-#: kross/modules/scriptmanageradd.cpp:66
+#: kross/modules/scriptmanageradd.cpp:65
 msgid "Install script package file"
 msgstr ""
 
-#: kross/modules/scriptmanageradd.cpp:70
+#: kross/modules/scriptmanageradd.cpp:69
 msgid "Install online script package"
 msgstr ""
 
-#: kross/modules/scriptmanageradd.cpp:256
+#: kross/modules/scriptmanageradd.cpp:255
 #, fuzzy
 msgid "Script File"
 msgstr "語文(&I)"
 
-#: kross/modules/scriptmanageradd.cpp:259
+#: kross/modules/scriptmanageradd.cpp:258
 #, fuzzy
 msgid "Script"
 msgstr "語文(&I)"
 
-#: kross/modules/scriptmanageradd.cpp:262
+#: kross/modules/scriptmanageradd.cpp:261
 #, fuzzy
 msgid "Collection"
 msgstr "冒號"
 
-#: kross/modules/scriptmanager.cpp:172
+#: kross/modules/scriptmanager.cpp:170
 msgid "Install Script Package"
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:235
+#: kross/modules/scriptmanager.cpp:233
 #, fuzzy, qt-format
 msgid "Could not read the package \"%1\"."
 msgstr "無法載入這份文件。"
 
-#: kross/modules/scriptmanager.cpp:242
+#: kross/modules/scriptmanager.cpp:240
 #, qt-format
 msgid "The package \"%1\" does not contain a valid install.rc file."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:249
+#: kross/modules/scriptmanager.cpp:247
 #, qt-format
 msgid "Failed to parse the install.rc file at package \"%1\"."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:255
+#: kross/modules/scriptmanager.cpp:253
 #, qt-format
 msgid ""
 "Failed to determinate location where the package \"%1\" should be installed "
 "to."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:265
+#: kross/modules/scriptmanager.cpp:263
 #, fuzzy, qt-format
 msgid ""
 "A script package with the name \"%1\" already exists. Replace this package?"
 msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
 
-#: kross/modules/scriptmanager.cpp:269
+#: kross/modules/scriptmanager.cpp:267
 #, qt-format
 msgid ""
 "Could not uninstall this script package. You may not have sufficient "
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:299
+#: kross/modules/scriptmanager.cpp:297
 #, qt-format
 msgid ""
 "Could not uninstall the script package \"%1\" since the script is not "
 "installed."
 msgstr ""
 
-#: kross/modules/scriptmanager.cpp:305
+#: kross/modules/scriptmanager.cpp:303
 msgid ""
 "Could not uninstall the script package \"%1\". You may not have sufficient "
 "permissions to delete the folder \"%1\"."
