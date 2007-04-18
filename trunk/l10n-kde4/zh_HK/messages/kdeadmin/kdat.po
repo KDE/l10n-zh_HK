@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdat 1.54\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-03 05:46+0200\n"
+"POT-Creation-Date: 2007-04-18 05:45+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -385,8 +385,6 @@ msgstr "就緒。"
 msgid "Unmount Tape"
 msgstr "卸載磁帶"
 
-#. i18n changes.  But, the program isn't very usable without this information.  Thanks. LEW
-#. (later today):  now the program works correctly!  Why?  Beats me!
 #: KDatMainWindow.cpp:418
 #, qt-format
 msgid ""
@@ -1048,10 +1046,6 @@ msgstr "回存至資料夾:"
 msgid "Verify in folder:"
 msgstr "檢驗資料夾:"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 136
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 166
 #: VerifyOptDlg.cpp:62 rc.cpp:31 rc.cpp:43
 msgid "..."
 msgstr "..."
@@ -1076,22 +1070,16 @@ msgstr "KDat"
 msgid "Can't allocate memory in kdat"
 msgstr "無法在 kdat 中配置記憶體"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 17
 #: rc.cpp:3
 msgid "Options Widget"
 msgstr "選項配件"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 53
 #: rc.cpp:6
 msgid ""
 "This setting determines the capacity that KDat assumes your backup tapes to "
 "be.  This is used when formatting the tapes."
 msgstr "此設置決定 KDat 假設你用作備份的磁帶的容量。用來格式化磁帶。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 67
 #: rc.cpp:9
 msgid ""
 "Tape drives read and write data in individual blocks.  This setting controls "
@@ -1101,72 +1089,50 @@ msgstr ""
 "磁帶機在個別的區塊中讀寫資料。 此設置控制每個區塊的大小，應設為你磁帶機的區塊"
 "大小。 軟磁帶機應設為 <b>10240</b> 個組元組。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 73
 #: rc.cpp:12
 msgid "MB"
 msgstr "MB"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 78
 #: rc.cpp:15
 msgid "GB"
 msgstr "GB"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 88
 #: rc.cpp:19
 msgid ""
 "This option chooses whether the default tape size to the left is in "
 "megabytes (MB) or gigabytes (GB)."
 msgstr "此選項選擇左邊的預設磁帶大小是百萬位元組 (MB) 還是十億位元組 (GB) 。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 96
 #: rc.cpp:22
 msgid "bytes"
 msgstr "位元組"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 104
 #: rc.cpp:25
 msgid "Tape block size:"
 msgstr "磁帶區塊大小:"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 115
 #: rc.cpp:28
 msgid "Default tape size:"
 msgstr "預設磁帶大小:"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 139
 #: rc.cpp:34
 msgid "Browse for the tar command."
 msgstr "瀏覽以取得 tar 指令。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 147
 #: rc.cpp:37
 msgid ""
 "The location in the filesystem of the <em>non-rewinding</em> tape device.  "
 "The default is <b>/dev/tape</b>."
 msgstr "<em>不回捲</em>磁帶機在檔案系統中的位置。 預設是 <b>/dev/tape</b> 。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 155
 #: rc.cpp:40
 msgid "Tar command:"
 msgstr "Tar 指令:"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 169
 #: rc.cpp:46
 msgid "Browse for the tape device."
 msgstr "瀏覽以取得磁帶機。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 177
 #: rc.cpp:49
 msgid ""
 "This setting controls the command that KDat uses to perform the tape "
@@ -1175,32 +1141,22 @@ msgstr ""
 "此設置控制 KDat 用作進行磁帶備份的指令。 要提供完整路徑。 預設是 <b>tar</"
 "b> 。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 185
 #: rc.cpp:52
 msgid "Tape device:"
 msgstr "磁帶裝置:"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 198
 #: rc.cpp:55
 msgid "Tape Drive Options"
 msgstr "磁帶機選項"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 209
 #: rc.cpp:58
 msgid "Load tape on mount"
 msgstr "掛載磁帶時載入磁帶"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 212
 #: rc.cpp:61
 msgid "<qt>Issue an <tt>mtload</tt> command prior to mounting the tape.</qt>"
 msgstr "<qt>掛載磁帶之前發出 <tt>mtload</tt> 指令。</qt>"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 217
 #: rc.cpp:64
 msgid ""
 "This command issues an <tt>mtload</tt> command to the tape device before "
@@ -1212,20 +1168,14 @@ msgstr ""
 "\n"
 "某些磁帶機需要它。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 225
 #: rc.cpp:69
 msgid "Lock tape drive on mount"
 msgstr "掛載磁帶時鎖住磁帶"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 228
 #: rc.cpp:72
 msgid "Disable the eject button after mounting the tape."
 msgstr "掛載磁帶後使「退出」按鈕失效。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 233
 #: rc.cpp:75
 msgid ""
 "This option makes KDat try to disable the eject button on the tape drive "
@@ -1237,20 +1187,14 @@ msgstr ""
 "\n"
 "對某些磁帶機沒有效。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 241
 #: rc.cpp:80
 msgid "Eject tape on unmount"
 msgstr "卸載磁帶時退出磁帶"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 244
 #: rc.cpp:83
 msgid "Try to eject the tape after it is unmounted.  Don't use this for ftape."
 msgstr "卸載磁帶後嘗試退出磁帶。 不要用於 ftape 。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 249
 #: rc.cpp:86
 msgid ""
 "Try to eject the tape after it has been unmounted.\n"
@@ -1261,20 +1205,14 @@ msgstr ""
 "\n"
 "此選項不要用於 floppy-tape 磁帶機。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 257
 #: rc.cpp:91
 msgid "Variable block size"
 msgstr "可變區塊大小"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 260
 #: rc.cpp:94
 msgid "Enable variable-block size support in the tape drive."
 msgstr "啟用磁帶機的可變區塊大小支援。"
 
-#. i18n: tag string
-#. i18n: file OptionsDlgWidget.ui line 265
 #: rc.cpp:97
 msgid ""
 "Some tape drives support different sizes of the data block.  With this "
