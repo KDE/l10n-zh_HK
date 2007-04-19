@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-18 05:45+0200\n"
+"POT-Creation-Date: 2007-04-19 05:47+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -65,7 +65,7 @@ msgid "&Export Transfers List..."
 msgstr "匯出傳輸列表(&E)..."
 
 #: mainwindow.cpp:113
-msgid "Edit Groups.."
+msgid "Edit Groups..."
 msgstr ""
 
 #: mainwindow.cpp:118
@@ -91,80 +91,105 @@ msgstr ""
 msgid "Use KGet as Konqueror Download Manager"
 msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
 
-#: mainwindow.cpp:151
+#: mainwindow.cpp:150
 #, fuzzy
 msgid "Delete Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:157
+#: mainwindow.cpp:156
 msgid "Start / Resume All"
 msgstr ""
 
-#: mainwindow.cpp:162
+#: mainwindow.cpp:161
 #, fuzzy
 msgid "Start / Resume Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:167
+#: mainwindow.cpp:166
 msgid "Stop All"
 msgstr ""
 
-#: mainwindow.cpp:172
+#: mainwindow.cpp:171
 #, fuzzy
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:176
+#: mainwindow.cpp:175
 msgid "Start / Resume"
 msgstr ""
 
-#: mainwindow.cpp:184 core/transfergrouphandler.cpp:311
+#: mainwindow.cpp:183 core/transfergrouphandler.cpp:311
 #, fuzzy
 msgid "Stop"
 msgstr "已停止"
 
-#: mainwindow.cpp:193
+#: mainwindow.cpp:192
 #, fuzzy
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:198
+#: mainwindow.cpp:197
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:203
+#: mainwindow.cpp:202
 #, fuzzy
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:261
-msgid "All openable files"
+#: mainwindow.cpp:241
+#, fuzzy
+#| msgid ""
+#| "This is the first time that you have run KGet.\n"
+#| "Do you want to use KGet as Download Manager for Konqueror?"
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to use KGet as the download manager for Konqueror?"
+msgstr ""
+"這是你第一次執行 KGet 。\n"
+"要 KGet 成為 Konqueror 的下載管理員嗎？"
+
+#: mainwindow.cpp:243
+#, fuzzy
+msgid "Konqueror Integration"
+msgstr "Konqueror 整合"
+
+#: mainwindow.cpp:243
+msgid "Enable"
+msgstr "啟用"
+
+#: mainwindow.cpp:244
+msgid "Do Not Enable"
+msgstr "不啟用"
+
+#: mainwindow.cpp:271
+msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:263
+#: mainwindow.cpp:273
 #, fuzzy
-msgid "Open file"
+msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:319
+#: mainwindow.cpp:329
 #, fuzzy
-msgid "KGet transfer list"
+msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:321
+#: mainwindow.cpp:331
 #, fuzzy
-msgid "Export transfers"
+msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:508
+#: mainwindow.cpp:517
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:511
+#: mainwindow.cpp:520
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror 整合"
@@ -312,7 +337,7 @@ msgstr "重試的次數："
 
 #: rc.cpp:99
 #, fuzzy
-msgid "After completing downloads"
+msgid "After Completing Downloads"
 msgstr "完成下載後自動關閉"
 
 #: rc.cpp:102
@@ -385,8 +410,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:125 core/kget.cpp:384 core/kget.cpp:593
-#: core/kget.cpp:620
+#: conf/dlgdirectories.cpp:125 core/kget.cpp:384 core/kget.cpp:598
+#: core/kget.cpp:625
 msgid "Error"
 msgstr ""
 
@@ -452,21 +477,21 @@ msgstr ""
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:444 ui/groupseditdialog.cpp:91
+#: core/kget.cpp:449 ui/groupseditdialog.cpp:91
 #, fuzzy
 msgid "Default Group"
 msgstr "預設的資料夾"
 
-#: core/kget.cpp:531
+#: core/kget.cpp:536
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:531
+#: core/kget.cpp:536
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:592
+#: core/kget.cpp:597
 #, qt-format
 msgid ""
 "Malformed URL:\n"
@@ -475,7 +500,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:604
+#: core/kget.cpp:609
 #, fuzzy, qt-format
 msgid ""
 "URL already saved:\n"
@@ -486,12 +511,12 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:605
+#: core/kget.cpp:610
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:619
+#: core/kget.cpp:624
 #, qt-format
 msgid ""
 "Already saving URL\n"
@@ -500,7 +525,7 @@ msgstr ""
 "已經在儲存 URL\n"
 "%1"
 
-#: core/kget.cpp:638
+#: core/kget.cpp:643
 #, qt-format
 msgid ""
 "Destination file \n"
@@ -513,14 +538,14 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:766
+#: core/kget.cpp:771
 #, qt-format
 msgid ""
 "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
 "<br/><i>%2</i></p>"
 msgstr ""
 
-#: core/kget.cpp:791
+#: core/kget.cpp:796
 #, qt-format
 msgid ""
 "Not deleting\n"
@@ -531,11 +556,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:793 core/kget.cpp:804
+#: core/kget.cpp:798 core/kget.cpp:809
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:802
+#: core/kget.cpp:807
 #, qt-format
 msgid ""
 "Not deleting\n"
@@ -614,7 +639,7 @@ msgstr "速度"
 
 #: ui/droptarget.cpp:82
 #, fuzzy
-msgid "Hide me"
+msgid "Hide Me"
 msgstr "檔案名稱"
 
 #: ui/droptarget.cpp:83
@@ -623,12 +648,12 @@ msgstr "固定"
 
 #: ui/droptarget.cpp:254
 #, fuzzy
-msgid "Show main window"
+msgid "Show Main Window"
 msgstr "啟動時顯示主視窗"
 
 #: ui/droptarget.cpp:255
 #, fuzzy
-msgid "Hide main window"
+msgid "Hide Main Window"
 msgstr "隱藏記錄視窗(&L)"
 
 #: ui/droptarget.cpp:378
@@ -647,7 +672,7 @@ msgid "Edit Groups"
 msgstr ""
 
 #: ui/groupseditdialog.cpp:32
-msgid "Add Group"
+msgid "Add Group..."
 msgstr ""
 
 #: ui/groupseditdialog.cpp:37
@@ -655,8 +680,9 @@ msgid "Delete Group"
 msgstr ""
 
 #: ui/groupseditdialog.cpp:65
-msgid "Enter the group name"
-msgstr ""
+#, fuzzy
+msgid "Enter Group Name"
+msgstr "Tse-Chun Ho,Walter Cheuk"
 
 #: ui/groupseditdialog.cpp:66
 #, fuzzy
@@ -1400,19 +1426,6 @@ msgstr " 傳輸： %1"
 
 #~ msgid "Drop target"
 #~ msgstr "拖放目標"
-
-#~ msgid ""
-#~ "This is the first time that you have run KGet.\n"
-#~ "Do you want to use KGet as Download Manager for Konqueror?"
-#~ msgstr ""
-#~ "這是你第一次執行 KGet 。\n"
-#~ "要 KGet 成為 Konqueror 的下載管理員嗎？"
-
-#~ msgid "Enable"
-#~ msgstr "啟用"
-
-#~ msgid "Do Not Enable"
-#~ msgstr "不啟用"
 
 #~ msgid "Copy file from: %1"
 #~ msgstr "從 %1 複製檔案"

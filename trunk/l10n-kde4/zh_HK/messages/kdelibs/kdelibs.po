@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-18 05:41+0200\n"
+"POT-Creation-Date: 2007-04-19 05:44+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4405,7 +4405,7 @@ msgstr "重設"
 
 #: kdeui/dialogs/kedittoolbar.cpp:774
 #, fuzzy
-msgid "&ToolBar:"
+msgid "&Toolbar:"
 msgstr "工具列(&T)："
 
 #: kdeui/dialogs/kedittoolbar.cpp:790
@@ -6433,25 +6433,29 @@ msgstr "檔案錯誤"
 msgid "*|All Folders"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1668
+#: kfile/kfilewidget.cpp:1529 kparts/browserrun.cpp:344
+msgid "&Open"
+msgstr "開啟(&O)"
+
+#: kfile/kfilewidget.cpp:1669
 #, qt-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1669
+#: kfile/kfilewidget.cpp:1670
 #, qt-format
 msgid "the extension <b>%1</b>"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1677
+#: kfile/kfilewidget.cpp:1678
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1678
+#: kfile/kfilewidget.cpp:1679
 msgid "a suitable extension"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1688
+#: kfile/kfilewidget.cpp:1689
 #, qt-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -6467,11 +6471,11 @@ msgid ""
 "makes your files more manageable."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1957
+#: kfile/kfilewidget.cpp:1958
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: kfile/kfilewidget.cpp:1960
+#: kfile/kfilewidget.cpp:1961
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
@@ -6504,17 +6508,7 @@ msgstr "NoCARoot"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: kfile/kurlnavigator.cpp:409
-#, qt-format
-msgid "Browse (%1, Escape)"
-msgstr ""
-
-#: kfile/kurlnavigator.cpp:415
-#, qt-format
-msgid "Edit location (%1)"
-msgstr ""
-
-#: kfile/kurlnavigator.cpp:530
+#: kfile/kurlnavigator.cpp:507
 #, fuzzy
 #| msgid "Custom"
 msgid "Custom Path"
@@ -6797,8 +6791,14 @@ msgstr ""
 msgid "Hide Preview"
 msgstr "尋找上一個"
 
+#: kfile/kurltogglebutton.cpp:32
+#, fuzzy
+#| msgid "Click to select a font"
+msgid "Click to Edit Location"
+msgstr "選擇一個字型"
+
 #: khtml/khtml_run.cpp:84 khtml/khtml_part.cpp:3908 khtml/khtml_part.cpp:4122
-#: khtml/khtml_part.cpp:4443 kparts/browserrun.cpp:402
+#: khtml/khtml_part.cpp:4443 kparts/browserrun.cpp:403
 msgid "Save As"
 msgstr "另存新檔"
 
@@ -6953,13 +6953,13 @@ msgstr "覆寫檔案嗎？"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: khtml/khtml_ext.cpp:937 kparts/browserrun.cpp:373
+#: khtml/khtml_ext.cpp:937 kparts/browserrun.cpp:374
 #, qt-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "找不到下載管理程式 (%1)，請檢查你的安裝是否正確，包含 PATH 路徑有設定正確。"
 
-#: khtml/khtml_ext.cpp:938 kparts/browserrun.cpp:374
+#: khtml/khtml_ext.cpp:938 kparts/browserrun.cpp:375
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -8651,33 +8651,33 @@ msgid ""
 "The slot sked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:557
+#: kjsembed/kjsembed/qobject_binding.cpp:596
 #, qt-format
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:592
+#: kjsembed/kjsembed/qobject_binding.cpp:631
 #, fuzzy, qt-format
 msgid "No such method '%1'."
 msgstr "沒有此選單項目 '%1'。"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:607
+#: kjsembed/kjsembed/qobject_binding.cpp:646
 #, qt-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:622
+#: kjsembed/kjsembed/qobject_binding.cpp:661
 #, fuzzy, qt-format
 msgid "Call to '%1' failed."
 msgstr "安裝失敗。"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:697
+#: kjsembed/kjsembed/qobject_binding.cpp:736
 #: kjsembed/kjsembed/object_binding.h:217
 #, fuzzy, qt-format
 msgid "%1 is not an Object type"
 msgstr "Base 並不是一個物件"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:703
+#: kjsembed/kjsembed/qobject_binding.cpp:742
 #, fuzzy
 msgid "Could not construct value"
 msgstr "無法載入這份文件。"
@@ -12163,9 +12163,6 @@ msgstr "%1 - 無法識別的用戶路徑類型\n"
 
 #~ msgid "KInstalltheme"
 #~ msgstr "KInstalltheme"
-
-#~ msgid "&Open"
-#~ msgstr "開啟(&O)"
 
 #~ msgid "<big>Loading...</big>"
 #~ msgstr "<big>載入中...</big>"
