@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-19 05:47+0200\n"
+"POT-Creation-Date: 2007-04-22 05:50+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -172,24 +172,40 @@ msgstr ""
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:329
+#: mainwindow.cpp:296
+#, fuzzy
+#| msgid ""
+#| "Some transfers are still running.\n"
+#| "Are you sure you want to quit KGet?"
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+"有傳輸仍在運作。\n"
+"您確定您要關閉 KGet 嗎？"
+
+#: mainwindow.cpp:298
+msgid "Confirm Quit"
+msgstr ""
+
+#: mainwindow.cpp:331
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:331
+#: mainwindow.cpp:333
 #, fuzzy
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:517
+#: mainwindow.cpp:519
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:520
+#: mainwindow.cpp:522
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror 整合"
@@ -1175,13 +1191,6 @@ msgstr " 傳輸： %1"
 
 #~ msgid "Quitting..."
 #~ msgstr "正在關閉..."
-
-#~ msgid ""
-#~ "Some transfers are still running.\n"
-#~ "Are you sure you want to quit KGet?"
-#~ msgstr ""
-#~ "有傳輸仍在運作。\n"
-#~ "您確定您要關閉 KGet 嗎？"
 
 #~ msgid "Question"
 #~ msgstr "問題"
