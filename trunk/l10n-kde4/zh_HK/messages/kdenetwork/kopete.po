@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-22 05:50+0200\n"
+"POT-Creation-Date: 2007-04-23 05:42+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -215,7 +215,6 @@ msgstr "離線"
 
 #: libkopete/kopeteonlinestatus.cpp:127
 #: plugins/translator/translatorlanguages.cpp:33
-#: plugins/cryptography/kgpgselkey.cpp:99
 #: protocols/oscar/aim/aimstatusmanager.cpp:33
 #: protocols/oscar/icq/icqstatusmanager.cpp:36
 #: protocols/oscar/icq/icqprotocol.cpp:450
@@ -1693,8 +1692,8 @@ msgid "Missing Protocol"
 msgstr "沒有該通訊協定"
 
 #: kopete/addaccountwizard/addaccountwizard.cpp:70 rc.cpp:122 rc.cpp:4820
-#: rc.cpp:4887 plugins/cryptography/kgpgselkey.cpp:63
-#: plugins/cryptography/popuppublic.cpp:139
+#: rc.cpp:4887 plugins/cryptography/popuppublic.cpp:139
+#: plugins/cryptography/selectkeydialog.cpp:59
 msgid "Name"
 msgstr "名稱"
 
@@ -9150,68 +9149,6 @@ msgstr "選取聯絡人的公共密碼匙"
 msgid "Select public key for %1"
 msgstr "選取 %1 的公共密碼匙"
 
-#: plugins/cryptography/kgpgselkey.cpp:50
-msgid "Private Key List"
-msgstr "私人密碼匙清單"
-
-#: plugins/cryptography/kgpgselkey.cpp:67
-msgid "Choose secret key:"
-msgstr "選擇密碼匙（secret key）:"
-
-#: plugins/cryptography/kgpgselkey.cpp:75
-msgid "Local signature (cannot be exported)"
-msgstr "本機簽署（不能匯出）"
-
-#: plugins/cryptography/kgpgselkey.cpp:94
-#: plugins/cryptography/popuppublic.cpp:417
-msgid "Unlimited"
-msgstr "無限制"
-
-#: plugins/cryptography/kgpgselkey.cpp:102
-msgid "Invalid"
-msgstr "無效"
-
-#: plugins/cryptography/kgpgselkey.cpp:105
-msgid "Disabled"
-msgstr "停用"
-
-#: plugins/cryptography/kgpgselkey.cpp:108
-msgid "Revoked"
-msgstr "撤消"
-
-#: plugins/cryptography/kgpgselkey.cpp:111
-msgid "Expired"
-msgstr "過期"
-
-#: plugins/cryptography/kgpgselkey.cpp:114
-msgid "Undefined"
-msgstr "未定義"
-
-#: plugins/cryptography/kgpgselkey.cpp:117
-msgid "None"
-msgstr "沒有"
-
-#: plugins/cryptography/kgpgselkey.cpp:120
-msgid "Marginal"
-msgstr "剛好"
-
-#: plugins/cryptography/kgpgselkey.cpp:123
-msgid "Full"
-msgstr "完全"
-
-#: plugins/cryptography/kgpgselkey.cpp:126
-msgid "Ultimate"
-msgstr "終極"
-
-#: plugins/cryptography/kgpgselkey.cpp:129
-msgid "?"
-msgstr "?"
-
-#: plugins/cryptography/kgpgselkey.cpp:159
-#, qt-format
-msgid "ID: %1, trust: %2, expiration: %3"
-msgstr "ID: %1, 信任: %2, 逾期時間: %3"
-
 #: plugins/cryptography/popuppublic.cpp:101
 msgid "Select Public Key"
 msgstr "選取公共密碼匙"
@@ -9323,6 +9260,10 @@ msgid ""
 "to give a password to encrypt/decrypt the file"
 msgstr "<b>對稱式加密</b>：不使用鑰匙作加密。你只需提供密碼即可加密/解密檔案。"
 
+#: plugins/cryptography/popuppublic.cpp:417
+msgid "Unlimited"
+msgstr "無限制"
+
 #: plugins/cryptography/cryptographyplugin.cpp:55
 msgid "Cryptography"
 msgstr "加密學"
@@ -9368,6 +9309,31 @@ msgstr[0] ""
 msgid "Missing public key"
 msgid_plural "Missing public keys"
 msgstr[0] ""
+
+#: plugins/cryptography/selectkeydialog.cpp:50
+msgid "Private Key List"
+msgstr "私人密碼匙清單"
+
+#: plugins/cryptography/selectkeydialog.cpp:63
+msgid "Choose secret key:"
+msgstr "選擇密碼匙（secret key）:"
+
+#: plugins/cryptography/selectkeydialog.cpp:71
+msgid "Local signature (cannot be exported)"
+msgstr "本機簽署（不能匯出）"
+
+#: plugins/cryptography/selectkeydialog.cpp:103
+#, fuzzy
+#| msgid "Unlimited"
+msgctxt "adj"
+msgid "Unlimited"
+msgstr "無限制"
+
+#: plugins/cryptography/selectkeydialog.cpp:106
+#, fuzzy, qt-format
+#| msgid "ID: %1, trust: %2, expiration: %3"
+msgid "ID: %1, expiration: %2"
+msgstr "ID: %1, 信任: %2, 逾期時間: %3"
 
 #: plugins/history/historydialog.cpp:101 plugins/history/historydialog.cpp:572
 #, qt-format
@@ -15173,6 +15139,36 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#~ msgid "Invalid"
+#~ msgstr "無效"
+
+#~ msgid "Disabled"
+#~ msgstr "停用"
+
+#~ msgid "Revoked"
+#~ msgstr "撤消"
+
+#~ msgid "Expired"
+#~ msgstr "過期"
+
+#~ msgid "Undefined"
+#~ msgstr "未定義"
+
+#~ msgid "None"
+#~ msgstr "沒有"
+
+#~ msgid "Marginal"
+#~ msgstr "剛好"
+
+#~ msgid "Full"
+#~ msgstr "完全"
+
+#~ msgid "Ultimate"
+#~ msgstr "終極"
+
+#~ msgid "?"
+#~ msgstr "?"
 
 #~ msgid ""
 #~ "This list contains elements which are currently <b>not present</b> in the "
