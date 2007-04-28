@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-18 05:45+0200\n"
+"POT-Creation-Date: 2007-04-28 05:48+0200\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -285,6 +285,8 @@ msgstr "新的連線不要顯示偏好設定對話盒(&S)"
 msgid "RD&P Defaults"
 msgstr "RD&P 預設值"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 34
 #: rc.cpp:3 rc.cpp:73
 msgid ""
 "This list shows all hosts that you have visited and a summary of your "
@@ -295,52 +297,76 @@ msgstr ""
 "此清單列出所有你曾到過的主機，及對它們的設置摘要。如你想重設某一主機的設置，"
 "可以以下按鈕將它刪除。當再連接時即可重新設定它們。"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 38
 #: rc.cpp:6 rc.cpp:76
 msgid "Host"
 msgstr "主機"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 49
 #: rc.cpp:9 rc.cpp:79
 msgid "Type"
 msgstr "類型"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 60
 #: rc.cpp:12 rc.cpp:82
 msgid "Settings"
 msgstr "設置"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 90
 #: rc.cpp:15 rc.cpp:85
 msgid "&Remove Selected Host"
 msgstr "移除選取的主機(&R)"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 93
 #: rc.cpp:18 rc.cpp:88
 msgid "Deletes the hosts that you have selected in the list above."
 msgstr "移除在以上清單中選取的主機。"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 100
 #: rc.cpp:21 rc.cpp:91
 msgid "Remove &All Hosts"
 msgstr "移除所有主機(&A)"
 
+#. i18n: tag string
+#. i18n: file hostprofiles.ui line 103
 #: rc.cpp:24 rc.cpp:94
 msgid "Removes all hosts from the list."
 msgstr "移除清單中的所有主機。"
 
+#. i18n: tag string
+#. i18n: file keycapturewidget.ui line 27
 #: rc.cpp:27 rc.cpp:97
 msgid "Enter a special key or key combination to send to the remote side:"
 msgstr "輸入要傳送至對方的特別鍵或按鍵組合:"
 
+#. i18n: tag string
+#. i18n: file keycapturewidget.ui line 95
 #: rc.cpp:31 rc.cpp:101
 msgid ""
 "This function allows you to send a key combination like Ctrl+Alt+Del to the "
 "remote side. Press Esc to cancel."
 msgstr "此功能容許你傳送如 Ctrl+Alt+Del 的按鍵組合至對方。按 Esc 取消。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 30
 #: rc.cpp:34 rc.cpp:104
 msgid "Remote &desktop:"
 msgstr "遠端桌面(&D):"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 49
 #: rc.cpp:37 rc.cpp:107
 msgid "Enter the hostname and display number"
 msgstr "輸入主機名稱及顯示數字"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 53
 #: rc.cpp:40 rc.cpp:110
 msgid ""
 "Enter the name and display number of the computer that you want to connect "
@@ -354,10 +380,14 @@ msgstr ""
 "1 。\n"
 "遠端桌面連線只支援使用 VNC 的系統。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 68
 #: rc.cpp:44 rc.cpp:114
 msgid "Turn on/off the network browsing panel."
 msgstr "開關網絡瀏覽面板。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 83
 #: rc.cpp:47 rc.cpp:117
 msgid ""
 "Enter the address of the computer to connect to, or browse the network and "
@@ -365,20 +395,28 @@ msgid ""
 "\"whatsthisExampleUrls\"<h3>Examples</h3>"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 113
 #: rc.cpp:50 rc.cpp:120
 msgid ""
 "Rescans the network. Depending on the network configuration this may take a "
 "few seconds until all systems have responded."
 msgstr "重新掃描網絡。視乎你的網絡設定，這可花上幾秒鐘，直至所有系統回應。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 136
 #: rc.cpp:53 rc.cpp:123
 msgid "&Search:"
 msgstr "搜尋(&S):"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 149
 #: rc.cpp:56 rc.cpp:126
 msgid "Enter a search term"
 msgstr "輸入搜尋項目"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 152
 #: rc.cpp:59 rc.cpp:129
 msgid ""
 "Enter a search term here if you want to search for a specific system, then "
@@ -390,16 +428,22 @@ msgstr ""
 "符合搜尋項目的系統都會顯示出來。此搜尋不分辨大小寫。如留空此欄則會顯示所有系"
 "統。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 183
 #: rc.cpp:62 rc.cpp:132
 msgid "Scop&e:"
 msgstr "範圍(&E):"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 210
 #: rc.cpp:65 rc.cpp:135
 msgid ""
 "An administrator can configure the network to have several scopes. If this "
 "is the case, you can select the scope to scan here."
 msgstr "管理員可設定網絡有若干範圍。你可在此選擇要掃描的範圍。"
 
+#. i18n: tag string
+#. i18n: file maindialogbase.ui line 217
 #: rc.cpp:68 rc.cpp:138
 msgid ""
 "Here you can see the systems on the network that allow you to connect. Note "
@@ -419,245 +463,365 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wwycheuk@netvigator.com"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 22
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 25
 #: rc.cpp:141 rc.cpp:309
 msgid "Connection"
 msgstr "連線"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 64
 #: rc.cpp:144
 msgid ""
 "Here you can specify the resolution of the remote desktop. This resolution "
 "determines the size of the desktop that will be presented to you."
 msgstr "你可在此指定遠端桌面的解像度。此解像度決定顯示予你的桌面大小。"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 68
 #: rc.cpp:147
 #, fuzzy
 msgid "Minimal (640x480)"
 msgstr "小 (640x480)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 73
 #: rc.cpp:150
 #, fuzzy
 msgid "Small (800x600)"
 msgstr "小 (640x480)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 78
 #: rc.cpp:153
 #, fuzzy
 msgid "Normal (1024x768)"
 msgstr "大 (1024x768)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 83
 #: rc.cpp:156
 msgid "Large (1280x1024)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 88
 #: rc.cpp:159
 msgid "Very Large (1600x1200)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 93
 #: rc.cpp:162
 msgid "Custom (...)"
 msgstr "自訂 (...)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 110
 #: rc.cpp:165
 msgid ""
 "This is the width of the remote desktop. You can only change this value "
 "manually if you select Custom as desktop resolution above."
 msgstr "這是遠端桌面的寬度。只有以上的桌面解像度為自訂時你才可手動更改此值。"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 120
 #: rc.cpp:168
 msgid "H&eight:"
 msgstr "高度(&E):"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 142
 #: rc.cpp:171
 msgid ""
 "This is the height of the remote desktop. You can only change this value "
 "manually if you select Custom as desktop resolution above."
 msgstr "這是遠端桌面的高度。只有以上的桌面解像度為自訂時你才可手動更改此值。"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 169
 #: rc.cpp:174
 msgid ""
 "Use this to specify your keyboard layout. This layout setting is used to "
 "send the correct keyboard codes to the server."
 msgstr "以此指定你的鍵盤布局。此布局設置用於傳送正確的鍵盤代碼至伺服器。"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 173
 #: rc.cpp:177
 msgid "Arabic (ar)"
 msgstr "阿拉伯文 (ar)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 178
 #: rc.cpp:180
 msgid "Czech (cs)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 183
 #: rc.cpp:183
 msgid "Danish (da)"
 msgstr "丹麥文 (da)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 188
 #: rc.cpp:186
 msgid "German (de)"
 msgstr "德文 (de)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 193
 #: rc.cpp:189
 #, fuzzy
 msgid "Swiss German (de-ch)"
 msgstr "德文 (de)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 198
 #: rc.cpp:192
 msgid "British English (en-gb)"
 msgstr "英式英文 (en-gb)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 203
 #: rc.cpp:195
 msgid "US English (en-us)"
 msgstr "美式英文 (en-us)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 208
 #: rc.cpp:198
 msgid "Spanish (es)"
 msgstr "西班牙文 (es)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 213
 #: rc.cpp:201
 #, fuzzy
 msgid "Estonian (et)"
 msgstr "意大利文 (it)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 218
 #: rc.cpp:204
 msgid "Finnish (fi)"
 msgstr "芬蘭文 (fi)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 223
 #: rc.cpp:207
 msgid "French (fr)"
 msgstr "法文 (fr)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 228
 #: rc.cpp:210
 #, fuzzy
 msgid "Belgian (fr-be)"
 msgstr "比利時文 (fr-be)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 233
 #: rc.cpp:213
 #, fuzzy
 msgid "French Canadian (fr-ca)"
 msgstr "法文 (fr)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 238
 #: rc.cpp:216
 #, fuzzy
 msgid "Swiss French (fr-ch)"
 msgstr "法文 (fr)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 243
 #: rc.cpp:219
 #, fuzzy
 msgid "Croatian (hr)"
 msgstr "巴西文 (pt-br)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 248
 #: rc.cpp:222
 msgid "Hungarian (hu)"
 msgstr "匈牙利文 (hu)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 253
 #: rc.cpp:225
 #, fuzzy
 msgid "Icelandic (is)"
 msgstr "意大利文 (it)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 258
 #: rc.cpp:228
 msgid "Italian (it)"
 msgstr "意大利文 (it)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 263
 #: rc.cpp:231
 msgid "Japanese (ja)"
 msgstr "日文 (ja)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 268
 #: rc.cpp:234
 msgid "Lithuanian (lt)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 273
 #: rc.cpp:237
 msgid "Latvian (lv)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 278
 #: rc.cpp:240
 msgid "Macedonian (mk)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 283
 #: rc.cpp:243
 msgid "Dutch (nl)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 288
 #: rc.cpp:246
 #, fuzzy
 msgid "Belgian Dutch (nl-be)"
 msgstr "比利時文 (fr-be)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 293
 #: rc.cpp:249
 msgid "Norwegian (no)"
 msgstr "挪威文 (no)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 298
 #: rc.cpp:252
 msgid "Polish (pl)"
 msgstr "波蘭文 (pl)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 303
 #: rc.cpp:255
 msgid "Portuguese (pt)"
 msgstr "葡萄牙文 (pt)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 308
 #: rc.cpp:258
 msgid "Brazilian (pt-br)"
 msgstr "巴西文 (pt-br)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 313
 #: rc.cpp:261
 msgid "Russian (ru)"
 msgstr "俄文 (ru)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 318
 #: rc.cpp:264
 msgid "Slovenian (sl)"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 323
 #: rc.cpp:267
 msgid "Swedish (sv)"
 msgstr "瑞典文 (sv)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 328
 #: rc.cpp:270
 msgid "Thai (th)"
 msgstr "泰文 (th)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 333
 #: rc.cpp:273
 msgid "Turkish (tr)"
 msgstr "土耳其文 (tr)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 349
 #: rc.cpp:276
 msgid "&Keyboard layout:"
 msgstr "鍵盤布局(&K):"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 362
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 59
 #: rc.cpp:279 rc.cpp:321
 msgid "Use K&Wallet for passwords"
 msgstr "使用 K&Wallet 的密碼"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 365
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 56
 #: rc.cpp:282 rc.cpp:318
 msgid "Enable this option to store your passwords with KWallet."
 msgstr "啟用此選項將密碼以 KWallet 儲存。"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 380
 #: rc.cpp:285
 msgid "Desktop &resolution:"
 msgstr "桌面解像度(&R):"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 398
 #: rc.cpp:288
 msgid "Color &depth:"
 msgstr "色彩深度(&D):"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 411
 #: rc.cpp:291
 msgid "&Width:"
 msgstr "寬度(&W):"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 425
 #: rc.cpp:294
 msgid "Low Color (8 Bit)"
 msgstr "低彩 (8 位元)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 430
 #: rc.cpp:297
 msgid "High Color (16 Bit)"
 msgstr "高彩 (16 位元)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 435
 #: rc.cpp:300
 msgid "True Color (24 Bit)"
 msgstr "真彩 (24 位元)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 446
 #: rc.cpp:303
 msgid "&Show this dialog again for this host"
 msgstr "為此主機再顯示此對話盒(&S)"
 
+#. i18n: tag string
+#. i18n: file rdp/rdpprefs.ui line 449
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 139
 #: rc.cpp:306 rc.cpp:339
 msgid ""
 "Select this option if you do not want to be asked for the settings when "
@@ -667,6 +831,8 @@ msgstr ""
 "如你不想連接此主機時再被詢問要用的設置，選取此項。已有資料檔的會用既有資料"
 "檔。新的主機會以預設值設定。"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 43
 #: rc.cpp:312
 msgid ""
 "Enable this option to encrypt the connection. Only newer servers support "
@@ -676,14 +842,20 @@ msgstr ""
 "啟動此選項將連線加密。只有較新的伺服器支援此選項。加密防止其他人盜取通訊，但"
 "可能大幅度降低連線速度。"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 46
 #: rc.cpp:315
 msgid "&Enable encryption (secure, but slow and not always possible)"
 msgstr "啟用加密（安全，但較慢且不一定可以）(&E)"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 74
 #: rc.cpp:324
 msgid "Connection &type:"
 msgstr "連線類型(&T):"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 98
 #: rc.cpp:327
 msgid ""
 "Use this to specify the performance of your connection. Note that you should "
@@ -698,18 +870,26 @@ msgstr ""
 "你有高速連線也沒用。在慢速連線上選擇高質素等級會令反應變得很慢。使用高速連線"
 "而選擇較低質素會增加反應延遲及令畫面質素很差，特別是在『低質素』模式。"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 102
 #: rc.cpp:330
 msgid "High Quality (LAN, direct connection)"
 msgstr "高質素（區域網絡、直接連線）"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 107
 #: rc.cpp:333
 msgid "Medium Quality (DSL, Cable, fast Internet)"
 msgstr "中等質素（DSL、有線、高速互聯網）"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 112
 #: rc.cpp:336
 msgid "Low Quality (Modem, ISDN, slow Internet)"
 msgstr "低質素（數據機、ISDN、慢速互聯網）"
 
+#. i18n: tag string
+#. i18n: file vnc/vncprefs.ui line 142
 #: rc.cpp:342
 #, fuzzy
 msgid "Show this dialog &again for this host"

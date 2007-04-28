@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-18 05:44+0200\n"
+"POT-Creation-Date: 2007-04-28 05:47+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -482,6 +482,8 @@ msgstr ""
 msgid "An error occurred while trying to open the archive %1"
 msgstr "嘗試開啟壓縮檔 %1 時發生錯誤。"
 
+#. i18n: tag string
+#. i18n: file general.ui line 16
 #: arkwidget.cpp:2235 rc.cpp:129
 msgid "General"
 msgstr "一般"
@@ -595,6 +597,8 @@ msgstr "以較新的檔案取代舊有的檔案(&O)"
 msgid "Keep entries &generic (Lha)"
 msgstr "項目保持通用 (&Lha)"
 
+#. i18n: tag string
+#. i18n: file addition.ui line 26
 #: common_texts.cpp:27 rc.cpp:6
 msgid "Force &MS-DOS short filenames (Zip)"
 msgstr "強制使用 &MS-DOS 短檔名 (Zip)"
@@ -603,22 +607,32 @@ msgstr "強制使用 &MS-DOS 短檔名 (Zip)"
 msgid "Translate LF to DOS &CRLF (Zip)"
 msgstr "將 LF 轉換成 DOS &CRLF (Zip)"
 
+#. i18n: tag string
+#. i18n: file addition.ui line 47
 #: common_texts.cpp:29 rc.cpp:15
 msgid "&Recursively add subfolders (Zip, Rar)"
 msgstr "遞迴地加入子資料夾 (Zip, &Rar)"
 
+#. i18n: tag string
+#. i18n: file addition.ui line 40
 #: common_texts.cpp:30 rc.cpp:12
 msgid "&Store symlinks as links (Zip, Rar)"
 msgstr "儲存符號連結為連結 (&Zip, Rar)"
 
+#. i18n: tag string
+#. i18n: file extraction.ui line 19
 #: common_texts.cpp:31 rc.cpp:114
 msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
 msgstr "覆寫檔案 (Zip, &Tar, Zoo, Rar)"
 
+#. i18n: tag string
+#. i18n: file extraction.ui line 26
 #: common_texts.cpp:32 rc.cpp:117
 msgid "&Preserve permissions (Tar)"
 msgstr "保留權限 (T&ar)"
 
+#. i18n: tag string
+#. i18n: file extraction.ui line 33
 #: common_texts.cpp:33 rc.cpp:120
 msgid "&Ignore folder names (Zip)"
 msgstr "忽略資料夾名稱 (Z&ip)"
@@ -680,6 +694,8 @@ msgstr "解開所有檔案"
 msgid "Destination folder: "
 msgstr "目的地資料夾："
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 82
 #: extractiondialog.cpp:128 rc.cpp:81
 msgid "Open destination folder after extraction"
 msgstr "解壓後開啟目的地資料夾"
@@ -831,22 +847,32 @@ msgstr "壓縮中..."
 msgid "Please Wait"
 msgstr "請稍候"
 
+#. i18n: tag string
+#. i18n: file addition.ui line 19
 #: rc.cpp:3
 msgid "Replace old files only &with newer files"
 msgstr "以較新的檔案取代舊有的檔案(&W)"
 
+#. i18n: tag string
+#. i18n: file addition.ui line 33
 #: rc.cpp:9
 msgid "Translate &LF to DOS CRLF (Zip)"
 msgstr "將 &LF 轉換成 DOS CRLF (Zip)"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 9
 #: rc.cpp:18
 msgid "Last folders used for extraction"
 msgstr "上次用作解壓縮的資料夾"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 12
 #: rc.cpp:21
 msgid "Replace old files only with newer files"
 msgstr "以較新的檔案取代舊有的檔案"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 13
 #: rc.cpp:24
 msgid ""
 "If this option is enabled and you add filenames that already exist in an "
@@ -855,20 +881,28 @@ msgstr ""
 "如啟用此選項，當你在加入壓縮檔中加入已經存在的檔案，只會在加入的檔案比較新的"
 "情況下，才會取代舊的檔案。"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 17
 #: rc.cpp:27
 msgid "Overwrite files (Zip, Tar, Zoo, Rar)"
 msgstr "覆寫檔案 (Zip, Tar, Zoo, Rar)"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 18
 #: rc.cpp:30
 msgid ""
 "Overwrite any files that have matching names on disk with the one from the "
 "archive"
 msgstr "以壓縮檔中的檔案覆蓋在磁碟上相同名字的檔案。"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 24
 #: rc.cpp:33
 msgid "Preserve permissions"
 msgstr "保留權限"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 25
 #: rc.cpp:36
 msgid ""
 "Save the user, group, and permission settings on files. Use with care, as "
@@ -878,52 +912,76 @@ msgstr ""
 "在檔案中儲存使用者、群組及權限設定。請小心使用，在你的電腦解開檔案時可能會導"
 "致其不屬於任何使用者。"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 31
 #: rc.cpp:39
 msgid "Force MS-DOS short filenames (Zip)"
 msgstr "強制使用 MS-DOS 短檔名 (Zip)"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 32
 #: rc.cpp:42
 msgid "Force names of files in Zip archives to the DOS 8.3 format"
 msgstr "強制 Zip 壓縮檔使用 DOS 8.3 格式"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 36
 #: rc.cpp:45
 msgid "Translate LF to DOS CRLF"
 msgstr "將 LF 轉換成 DOS CRLF"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 40
 #: rc.cpp:48
 msgid "Ignore folder names (Zip)"
 msgstr "忽略資料夾名稱 (Zip)"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 41
 #: rc.cpp:51
 msgid ""
 "Extract all the files into the extraction folder, ignoring any folder "
 "structure in the archive."
 msgstr "將所有檔案解壓型解壓資料夾中，忽略壓縮檔的資料夾結構。"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 47
 #: rc.cpp:54
 msgid "Store symlinks as links (Zip, Rar)"
 msgstr "儲存符號連結為連結 (Zip, Rar)"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 51
 #: rc.cpp:57
 msgid "Recursively add subfolders (Zip, Rar)"
 msgstr "遞迴地加入子資料夾 (Zip, Rar)"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 55
 #: rc.cpp:60
 msgid "Convert filenames to lowercase (Zip, Rar)"
 msgstr "將檔案名稱改成小寫 (Zip, Rar)"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 59
 #: rc.cpp:63
 msgid "Convert filenames to uppercase"
 msgstr "將檔案名稱改成大寫"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 65
 #: rc.cpp:66
 msgid "Show search bar"
 msgstr "顯示搜尋列"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 69
 #: rc.cpp:69
 msgid "Enable Konqueror integration"
 msgstr "啟用 Konqueror 整合模式"
 
+#. i18n: tag whatsthis
+#. i18n: file ark.kcfg line 70
 #: rc.cpp:72
 msgid ""
 "Enables integration with Konqueror's context menus, letting you easily "
@@ -933,52 +991,86 @@ msgstr ""
 "啟用將 Konqueror 整合到快顯選單的功能，使用戶更容易建立或解開壓縮檔。只有在安"
 "裝 kdeaddons 套件後，此選項才能夠使用。"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 74
 #: rc.cpp:75
 msgid "Use integrated viewer"
 msgstr "使用內置的檢視器"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 78
 #: rc.cpp:78
 msgid "Tar Command"
 msgstr "Tar 指令"
 
+#. i18n: tag label
+#. i18n: file ark.kcfg line 86
 #: rc.cpp:84
 msgid "Enable experimental support for loading ACE files"
 msgstr "啟用 ACE 檔案的實驗性支援"
 
+#. i18n: tag text
+#. i18n: file ark_part.rc line 7
+#. i18n: tag text
+#. i18n: file ark_part_readonly.rc line 7
+#. i18n: tag text
+#. i18n: file arkui.rc line 4
 #: rc.cpp:87 rc.cpp:99 rc.cpp:111
 #, fuzzy
 msgid "&File"
 msgstr "資料夾(&F)"
 
+#. i18n: tag text
+#. i18n: file ark_part.rc line 10
+#. i18n: tag text
+#. i18n: file ark_part_readonly.rc line 10
 #: rc.cpp:90 rc.cpp:102
 msgid "&Edit"
 msgstr ""
 
+#. i18n: tag text
+#. i18n: file ark_part.rc line 16
+#. i18n: tag text
+#. i18n: file ark_part_readonly.rc line 16
 #: rc.cpp:93 rc.cpp:105
 msgid "&Action"
 msgstr "動作(&A)"
 
+#. i18n: tag text
+#. i18n: file ark_part.rc line 26
+#. i18n: tag text
+#. i18n: file ark_part_readonly.rc line 22
 #: rc.cpp:96 rc.cpp:108
 #, fuzzy
 msgid "&Settings"
 msgstr "設定"
 
+#. i18n: tag string
+#. i18n: file extraction.ui line 40
 #: rc.cpp:123
 msgid "Convert file names to &lowercase (Zip, Rar)"
 msgstr "將檔案名稱改成小寫 (Zi&p, Rar)"
 
+#. i18n: tag string
+#. i18n: file extraction.ui line 47
 #: rc.cpp:126
 msgid "Convert file names to &uppercase (Rar)"
 msgstr "將檔案名稱改成大寫 (R&ar)"
 
+#. i18n: tag string
+#. i18n: file general.ui line 22
 #: rc.cpp:132
 msgid "&Use integrated viewer"
 msgstr "使用內置的檢視器(&U)"
 
+#. i18n: tag string
+#. i18n: file general.ui line 29
 #: rc.cpp:135
 msgid "&Enable Konqueror integration"
 msgstr "啟用 Konqu&eror 整合模式"
 
+#. i18n: tag string
+#. i18n: file general.ui line 57
 #: rc.cpp:138
 #, fuzzy
 msgid ""

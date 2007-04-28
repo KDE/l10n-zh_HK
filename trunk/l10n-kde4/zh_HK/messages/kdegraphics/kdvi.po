@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdvi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-25 06:02+0200\n"
+"POT-Creation-Date: 2007-04-28 05:47+0200\n"
 "PO-Revision-Date: 2006-01-08 20:32+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1021,11 +1021,15 @@ msgid ""
 "support.</p></qt>"
 msgstr ""
 
+#. i18n: tag label
+#. i18n: file kdvi.kcfg line 10
 #: rc.cpp:3
 msgid ""
 "Use MetaFont to generate missing fonts. If in doubt, enable this option."
 msgstr "使用 MetaFont 產生欠缺的字型。如有疑問就打開吧！"
 
+#. i18n: tag whatsthis
+#. i18n: file kdvi.kcfg line 11
 #: rc.cpp:6
 msgid ""
 "Allows KDVI to use MetaFont to produce bitmap fonts. Unless you have a very "
@@ -1034,11 +1038,17 @@ msgstr ""
 "允許 KDVI 使用 MetaFont 來產生點陣字型。除非您有很特殊的理由，您最好是將之打"
 "開。"
 
+#. i18n: tag label
+#. i18n: file kdvi.kcfg line 15
 #: rc.cpp:9
 #, fuzzy
 msgid "Show PostScript specials. If in doubt, enable this option."
 msgstr "顯示特別的 PostScript 。如有疑問就打開吧！"
 
+#. i18n: tag whatsthis
+#. i18n: file kdvi.kcfg line 16
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 28
 #: rc.cpp:12 rc.cpp:48
 #, fuzzy
 msgid ""
@@ -1051,6 +1061,8 @@ msgstr ""
 "PostScript 解譯器來顯示這些圖形。您可能得打開這個功能，除非您的 DVI 檔的 "
 "PostScript 圖形毀損，或圖形太大，您的系統無法處理。"
 
+#. i18n: tag label
+#. i18n: file kdvi.kcfg line 20
 #: rc.cpp:15
 #, fuzzy
 msgid ""
@@ -1058,6 +1070,8 @@ msgid ""
 "improves readability on your machine."
 msgstr "使用字型提示（hinting）。如果啟用它可增進可讀性，那你可以試試看"
 
+#. i18n: tag whatsthis
+#. i18n: file kdvi.kcfg line 21
 #: rc.cpp:18
 #, fuzzy
 msgid ""
@@ -1070,34 +1084,48 @@ msgstr ""
 "目前的許多字型都含有『字型提示（hinting）』資訊，這在低解析度的螢幕可增進可讀"
 "性。但有不少朋友發現這種『改進』很醜，這時可能需要把這個選項關掉。"
 
+#. i18n: tag text
+#. i18n: file kdvi_part.rc line 4
 #: rc.cpp:21
 #, fuzzy
 msgid "&File"
 msgstr "DVI 檔案"
 
+#. i18n: tag text
+#. i18n: file kdvi_part.rc line 6
 #: rc.cpp:24
 msgid "Export As"
 msgstr "匯出為"
 
+#. i18n: tag text
+#. i18n: file kdvi_part.rc line 12
 #: rc.cpp:27
 #, fuzzy
 msgid "&Edit"
 msgstr "編輯器："
 
+#. i18n: tag text
+#. i18n: file kdvi_part.rc line 17
 #: rc.cpp:30
 msgid "&Settings"
 msgstr ""
 
+#. i18n: tag string
+#. i18n: file optionDialogFontsWidget_base.ui line 28
 #: rc.cpp:33
 msgid "Use font hinting for Type 1 fonts, if available"
 msgstr "如可以的話，使用 Type 1 字型的字型提示（hinting）"
 
+#. i18n: tag string
+#. i18n: file optionDialogFontsWidget_base.ui line 31
 #: rc.cpp:36
 msgid ""
 "You should enable this, if the use of font hinting improves readability on "
 "your machine."
 msgstr "如果字型提示（hinting）可增進可讀性，那麼你應啟用這個"
 
+#. i18n: tag string
+#. i18n: file optionDialogFontsWidget_base.ui line 34
 #: rc.cpp:39
 msgid ""
 "Many modern fonts contain \"font hinting\" information which can be used to "
@@ -1108,23 +1136,33 @@ msgstr ""
 "目前的許多字型都含有「字型提示（hinting）」資訊，這在低解像度的螢幕可增進可讀"
 "性。但有很多人發現這種「改進」很醜，這時可能需要把這個選項關掉。"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 22
 #: rc.cpp:42
 msgid "Show PostScript specials"
 msgstr "顯示特殊 PostScript"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 25
 #: rc.cpp:45
 #, fuzzy
 msgid "If in doubt, enable this option."
 msgstr "如有疑問就打開吧！"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 35
 #: rc.cpp:51
 msgid "Editor for Inverse Search"
 msgstr "用於反向搜尋的編輯器"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 52
 #: rc.cpp:54
 msgid "Choose an editor which is used in inverse search."
 msgstr "選擇用於反向搜尋的編輯器。"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 56
 #: rc.cpp:57
 #, fuzzy
 msgid ""
@@ -1140,19 +1178,27 @@ msgstr ""
 "器。如果有疑問，『nedit』通常是好的選擇。</p>\n"
 "<p>查閱 KDVI 的使用手冊，如何準備支援反向搜尋的 DVI 檔。</p>"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 71
 #: rc.cpp:61
 msgid "Description:"
 msgstr "說明："
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 89
 #: rc.cpp:64
 msgid "Shell command:"
 msgstr "命令列指令："
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 110
 #: rc.cpp:67
 msgid ""
 "Explains about the editor's capabilities in conjunction with inverse search."
 msgstr "說明編輯器結合反向搜尋的能力。"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 114
 #: rc.cpp:70
 #, fuzzy
 msgid ""
@@ -1172,10 +1218,14 @@ msgstr ""
 "參數供 KDVI 去指定特定行。</p>\n"
 "<p>如果您覺得 KDVI 對某些編輯器支援不完整，請寫信給 kebekus@kde.org。</p>"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 132
 #: rc.cpp:74
 msgid "Shell-command line used to start the editor."
 msgstr "開啟編輯器的命令列指令。"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 135
 #: rc.cpp:77
 #, fuzzy
 msgid ""
@@ -1186,14 +1236,20 @@ msgstr ""
 "如果您使用反向搜尋，KDVI 使用這個命令列去啟動編輯器。『%f』欄位會被檔名取代，"
 "而且『%l』會被行數取代。"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 150
 #: rc.cpp:80
 msgid "Editor:"
 msgstr "編輯器："
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 168
 #: rc.cpp:83
 msgid "What is 'inverse search'? "
 msgstr "什麼是『反向搜尋』？"
 
+#. i18n: tag string
+#. i18n: file optionDialogSpecialWidget_base.ui line 174
 #: rc.cpp:86
 msgid "inv-search"
 msgstr "反向搜尋"
