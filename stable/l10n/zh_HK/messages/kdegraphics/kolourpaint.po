@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
-"POT-Creation-Date: 2007-05-06 02:16+0200\n"
+"POT-Creation-Date: 2007-05-07 02:15+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -110,15 +110,15 @@ msgid ""
 "%n more items"
 msgstr "還有 %n 個項目"
 
-#: kpdocument.cpp:254
+#: kpdocument.cpp:255
 msgid "Could not open \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: kpdocument.cpp:280
+#: kpdocument.cpp:281
 msgid "Could not open \"%1\" - unknown mimetype."
 msgstr "無法開啟「%1」 - 未知的 mime 類型。"
 
-#: kpdocument.cpp:295
+#: kpdocument.cpp:296
 msgid ""
 "Could not open \"%1\" - unsupported image format.\n"
 "The file may be corrupt."
@@ -126,7 +126,7 @@ msgstr ""
 "無法開啟「%1」 - 不支援的圖像格式。\n"
 "檔案可能已損壞。"
 
-#: kpdocument.cpp:303
+#: kpdocument.cpp:304
 msgid ""
 "The image \"%1\" may have more colors than the current screen mode. In order to "
 "display it, some colors may be changed. Try increasing your screen depth to at "
@@ -137,28 +137,28 @@ msgstr ""
 "「%1」圖像可能包含多於目前螢幕模式的顏色。要顯示它，某些顏色可能會改變。請嘗試將你的螢幕色彩深度增加至至少 %2bpp 。\n"
 "它亦包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模擬。"
 
-#: kpdocument.cpp:314
+#: kpdocument.cpp:315
 msgid ""
 "The image \"%1\" may have more colors than the current screen mode. In order to "
 "display it, some colors may be changed. Try increasing your screen depth to at "
 "least %2bpp."
 msgstr "「%1」圖像可能包含多於目前螢幕模式的顏色。要顯示它，某些顏色可能會改變。請嘗試將你的螢幕色彩深度增加至至少 %2bpp 。"
 
-#: kpdocument.cpp:319
+#: kpdocument.cpp:320
 msgid ""
 "The image \"%1\" contains translucency which is not fully supported. The "
 "translucency data will be approximated with a 1-bit transparency mask."
 msgstr "「%1」圖像包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模擬。"
 
-#: kpdocument.cpp:332
+#: kpdocument.cpp:333
 msgid "Could not open \"%1\" - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
 
-#: kpdocument.cpp:428
+#: kpdocument.cpp:429
 msgid "Could not save image - insufficient information."
 msgstr "無法儲存圖像 - 資訊不足。"
 
-#: kpdocument.cpp:429
+#: kpdocument.cpp:430
 msgid ""
 "URL: %1\n"
 "Mimetype: %2"
@@ -166,15 +166,15 @@ msgstr ""
 "URL: %1\n"
 "Mime 類型: %2"
 
-#: kpdocument.cpp:433
+#: kpdocument.cpp:434
 msgid "<empty>"
 msgstr "<空的>"
 
-#: kpdocument.cpp:435
+#: kpdocument.cpp:436
 msgid "Internal Error"
 msgstr "內部錯誤"
 
-#: kpdocument.cpp:468
+#: kpdocument.cpp:469
 msgid ""
 "<qt>"
 "<p>The <b>%1</b> format may not be able to preserve all of the image's color "
@@ -182,11 +182,11 @@ msgid ""
 "<p>Are you sure you want to save in this format?</p></qt>"
 msgstr "<qt><p><b>%1</b>格式可能無法保存圖像所有的顏色資訊。</p><p>你確定要以這種格式儲存嗎？</p></qt>"
 
-#: kpdocument.cpp:475
+#: kpdocument.cpp:476
 msgid "Lossy File Format"
 msgstr "有損性檔案格式"
 
-#: kpdocument.cpp:483
+#: kpdocument.cpp:484
 msgid ""
 "<qt>"
 "<p>Saving the image at the low color depth of %1-bit may result in the loss of "
@@ -197,15 +197,19 @@ msgstr ""
 "<p>以 %1 位元的低色彩深度儲存圖像會令顏色資訊喪失。透明資料亦會被移除。</p>"
 "<p>你確定要以這個色彩深度儲存嗎？</p></qt>"
 
-#: kpdocument.cpp:490
+#: kpdocument.cpp:491
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
-#: kpdocument.cpp:630
+#: kpdocument.cpp:602
+msgid "Could not save image - unable to create temporary file."
+msgstr "無法儲存圖像 - 無法建立暫存檔。"
+
+#: kpdocument.cpp:609
 msgid "Could not save as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: kpdocument.cpp:661
+#: kpdocument.cpp:635
 msgid ""
 "A document called \"%1\" already exists.\n"
 "Do you want to overwrite it?"
@@ -213,15 +217,11 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: kpdocument.cpp:665
+#: kpdocument.cpp:639
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: kpdocument.cpp:717
-msgid "Could not save image - unable to create temporary file."
-msgstr "無法儲存圖像 - 無法建立暫存檔。"
-
-#: kpdocument.cpp:739
+#: kpdocument.cpp:777
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
 
