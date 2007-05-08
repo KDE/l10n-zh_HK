@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-07 05:52+0200\n"
+"POT-Creation-Date: 2007-05-08 05:50+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17149,7 +17149,7 @@ msgstr "手提電話:"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:274
 #: protocols/oscar/icq/icqprotocol.cpp:121
-#: protocols/oscar/oscaraccount.cpp:947 protocols/yahoo/yahooprotocol.cpp:76
+#: protocols/oscar/oscaraccount.cpp:943 protocols/yahoo/yahooprotocol.cpp:76
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -17161,7 +17161,7 @@ msgstr "你要連線才能新增聯絡人。"
 
 #: protocols/oscar/aim/aimprotocol.cpp:183
 #: protocols/oscar/icq/icqstatusmanager.cpp:93
-#: protocols/oscar/oscaraccount.cpp:947 protocols/yahoo/yahooprotocol.cpp:75
+#: protocols/oscar/oscaraccount.cpp:943 protocols/yahoo/yahooprotocol.cpp:75
 msgid "AIM"
 msgstr "AIM"
 
@@ -18380,7 +18380,7 @@ msgstr "設定狀態(&S)"
 msgid "Edit Statuses..."
 msgstr "編輯別名..."
 
-#: protocols/oscar/icq/icqaccount.cpp:340
+#: protocols/oscar/icq/icqaccount.cpp:341
 #, fuzzy, qt-format
 msgid "User %1 is reading your status message"
 msgstr "在你的狀態訊息中顯示（自動）(&Y)"
@@ -18455,8 +18455,8 @@ msgstr "選擇編碼"
 msgid "Default"
 msgstr "預設值: 3185"
 
-#: protocols/oscar/oscaraccount.cpp:248 protocols/oscar/oscaraccount.cpp:637
-#: protocols/oscar/oscaraccount.cpp:643
+#: protocols/oscar/oscaraccount.cpp:248 protocols/oscar/oscaraccount.cpp:633
+#: protocols/oscar/oscaraccount.cpp:639
 msgid "Buddies"
 msgstr "伙伴"
 
@@ -18468,85 +18468,85 @@ msgstr ""
 msgid "ICQ Email Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:751 protocols/oscar/oscaraccount.cpp:768
+#: protocols/oscar/oscaraccount.cpp:747 protocols/oscar/oscaraccount.cpp:764
 #, qt-format
 msgctxt "account has been disconnected"
 msgid "%1 disconnected"
 msgstr "%1 已斷線"
 
-#: protocols/oscar/oscaraccount.cpp:792
+#: protocols/oscar/oscaraccount.cpp:788
 msgid ""
 "There was an error in the protocol handling; it was not fatal, so you will "
 "not be disconnected."
 msgstr "處理通訊協定時發生錯誤；但它不會令你斷線。"
 
-#: protocols/oscar/oscaraccount.cpp:794
+#: protocols/oscar/oscaraccount.cpp:790
 msgid ""
 "There was an error in the protocol handling; automatic reconnection "
 "occurring."
 msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
-#: protocols/oscar/oscaraccount.cpp:796
+#: protocols/oscar/oscaraccount.cpp:792
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
-#: protocols/oscar/oscaraccount.cpp:948
+#: protocols/oscar/oscaraccount.cpp:944
 msgctxt "ICQ user id"
 msgid "UIN"
 msgstr "UIN"
 
-#: protocols/oscar/oscaraccount.cpp:948
+#: protocols/oscar/oscaraccount.cpp:944
 msgctxt "AIM user id"
 msgid "screen name"
 msgstr "螢幕名稱"
 
-#: protocols/oscar/oscaraccount.cpp:958
+#: protocols/oscar/oscaraccount.cpp:954
 #, qt-format
 msgid ""
 "You have logged in more than once with the same %1, account %2 is now "
 "disconnected."
 msgstr "你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
 
-#: protocols/oscar/oscaraccount.cpp:964
+#: protocols/oscar/oscaraccount.cpp:960
 #, qt-format
 msgid ""
 "Sign on failed because either your %1 or password are invalid. Please check "
 "your settings for account %2."
 msgstr "因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
 
-#: protocols/oscar/oscaraccount.cpp:972
+#: protocols/oscar/oscaraccount.cpp:968
 #, qt-format
 msgid "The %1 service is temporarily unavailable. Please try again later."
 msgstr "%1 服務暫時停止。請稍後再試。"
 
-#: protocols/oscar/oscaraccount.cpp:977
+#: protocols/oscar/oscaraccount.cpp:973
 #, qt-format
 msgid ""
 "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr "無法以 %2 帳號登入 %1 ，因為密碼不正確。"
 
-#: protocols/oscar/oscaraccount.cpp:982
+#: protocols/oscar/oscaraccount.cpp:978
 #, qt-format
 msgid "Could not sign on to %1 with nonexistent account %2."
 msgstr "無法以不存在的 %2 帳號登入 %1 。"
 
-#: protocols/oscar/oscaraccount.cpp:986
+#: protocols/oscar/oscaraccount.cpp:982
 #, qt-format
 msgid "Sign on to %1 failed because your account %2 expired."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已逾期。"
 
-#: protocols/oscar/oscaraccount.cpp:990
+#: protocols/oscar/oscaraccount.cpp:986
 #, qt-format
 msgid "Sign on to %1 failed because your account %2 is currently suspended."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已被暫停。"
 
-#: protocols/oscar/oscaraccount.cpp:996
+#: protocols/oscar/oscaraccount.cpp:992
 #, qt-format
 msgid ""
 "Could not sign on to %1 as there are too many clients from the same computer."
 msgstr "無法登入 %1 ，因為已有太多客戶端來自這電腦。"
 
-#: protocols/oscar/oscaraccount.cpp:1002
+#: protocols/oscar/oscaraccount.cpp:998
 #, qt-format
 msgid ""
 "Account %1 was blocked on the %2 server for sending messages too quickly. "
@@ -18556,7 +18556,7 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1011
+#: protocols/oscar/oscaraccount.cpp:1007
 #, qt-format
 msgid ""
 "Account %1 was blocked on the %2 server for reconnecting too quickly. Wait "
@@ -18566,12 +18566,12 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1023 protocols/oscar/oscaraccount.cpp:1043
+#: protocols/oscar/oscaraccount.cpp:1019 protocols/oscar/oscaraccount.cpp:1039
 #, qt-format
 msgid "Sign on to %1 with your account %2 failed."
 msgstr "以帳號 %2 登入 %1 失敗。"
 
-#: protocols/oscar/oscaraccount.cpp:1030
+#: protocols/oscar/oscaraccount.cpp:1026
 #, qt-format
 msgid ""
 "The %1 server thinks the client you are using is too old. Please report this "
@@ -18579,7 +18579,7 @@ msgid ""
 msgstr ""
 "%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
 
-#: protocols/oscar/oscaraccount.cpp:1036
+#: protocols/oscar/oscaraccount.cpp:1032
 #, qt-format
 msgid ""
 "Account %1 was disabled on the %2 server because of your age (less than 13)."
@@ -18597,34 +18597,34 @@ msgstr "伙伴圖示 MD5 Hash"
 msgid "Contact Encoding"
 msgstr "聯絡人編碼"
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:279
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:273
 #, fuzzy
 msgid "file is empty: "
 msgstr "檔案已存在: %1"
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:470
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:464
 msgid "Bad Request"
 msgstr ""
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:473
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:467
 msgid "Request Timed Out"
 msgstr ""
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:476
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:470
 msgid "Accept Period Timed Out"
 msgstr ""
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:479
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:473
 #, fuzzy
 msgid "Unknown Error: "
 msgstr "未知錯誤。"
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:577
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:571
 msgid "missing ip or port"
 msgstr ""
 
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:666
-#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:676
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:660
+#: protocols/oscar/liboscar/tasks/filetransfertask.cpp:670
 #, fuzzy
 msgid "Timeout"
 msgstr "逾時"

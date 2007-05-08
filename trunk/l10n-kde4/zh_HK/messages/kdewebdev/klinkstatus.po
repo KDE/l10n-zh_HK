@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-28 05:49+0200\n"
+"POT-Creation-Date: 2007-05-08 05:51+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -18,79 +18,6 @@ msgstr ""
 #: ui/resultview.cpp:146
 msgid "Javascript not supported"
 msgstr "不支援 Javascript"
-
-#: ui/tablelinkstatus.cpp:93
-msgid "Status"
-msgstr "狀態"
-
-#: ui/tablelinkstatus.cpp:98
-msgid "Label"
-msgstr "標記"
-
-#: ui/tablelinkstatus.cpp:102
-msgid "URL"
-msgstr "URL"
-
-#: ui/tablelinkstatus.cpp:279 ui/treeview.cpp:363
-msgid "All"
-msgstr "所有"
-
-#: ui/tablelinkstatus.cpp:288 ui/tablelinkstatus.cpp:293 ui/treeview.cpp:359
-#: ui/treeview.cpp:374
-#, fuzzy
-msgid "Edit Referrer"
-msgstr "以 Quanta 編輯 Referrer"
-
-#: ui/tablelinkstatus.cpp:297 ui/treeview.cpp:379
-msgid "Open URL"
-msgstr "開啟 URL"
-
-#: ui/tablelinkstatus.cpp:300 ui/treeview.cpp:381
-msgid "Open Referrer URL"
-msgstr "開啟 Referrer URL"
-
-#: ui/tablelinkstatus.cpp:305 ui/treeview.cpp:386
-msgid "Copy URL"
-msgstr "複製 URL"
-
-#: ui/tablelinkstatus.cpp:308 ui/treeview.cpp:388
-msgid "Copy Referrer URL"
-msgstr "複製 Referrer URL"
-
-#: ui/tablelinkstatus.cpp:311 ui/treeview.cpp:390
-msgid "Copy Cell Text"
-msgstr "複製儲存格文字"
-
-#: ui/tablelinkstatus.cpp:391
-#, qt-format
-msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
-msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
-
-#: ui/tablelinkstatus.cpp:412 ui/tablelinkstatus.cpp:433 ui/treeview.cpp:324
-#: ui/treeview.cpp:345
-msgid "Invalid URL."
-msgstr "無效的 URL。"
-
-#: ui/tablelinkstatus.cpp:421 ui/treeview.cpp:333
-msgid "ROOT URL."
-msgstr "ROOT URL。"
-
-#: ui/tablelinkstatus.cpp:592 ui/tablelinkstatus.cpp:657
-msgid "Timeout"
-msgstr "逾時"
-
-#: ui/tablelinkstatus.cpp:594
-msgid "not supported"
-msgstr "不支援"
-
-#: ui/tablelinkstatus.cpp:661
-msgid "Malformed"
-msgstr "內容損壞"
-
-#: ui/tablelinkstatus.cpp:684 ui/tablelinkstatus.cpp:687
-#, qt-format
-msgid "%1"
-msgstr "%1"
 
 #: ui/documentrootdialog.cpp:37
 msgid "Choose a Document Root"
@@ -233,6 +160,14 @@ msgstr ""
 msgid "Choose what kind of link status to show in result list"
 msgstr ""
 
+#: ui/treeview.cpp:324 ui/treeview.cpp:345
+msgid "Invalid URL."
+msgstr "無效的 URL。"
+
+#: ui/treeview.cpp:333
+msgid "ROOT URL."
+msgstr "ROOT URL。"
+
 #. i18n: tag text
 #. i18n: file klinkstatus_part.rc line 31
 #. i18n: tag text
@@ -242,6 +177,35 @@ msgstr ""
 #| msgid "Check"
 msgid "Recheck"
 msgstr "檢查"
+
+#: ui/treeview.cpp:359 ui/treeview.cpp:374
+#, fuzzy
+msgid "Edit Referrer"
+msgstr "以 Quanta 編輯 Referrer"
+
+#: ui/treeview.cpp:363
+msgid "All"
+msgstr "所有"
+
+#: ui/treeview.cpp:379
+msgid "Open URL"
+msgstr "開啟 URL"
+
+#: ui/treeview.cpp:381
+msgid "Open Referrer URL"
+msgstr "開啟 Referrer URL"
+
+#: ui/treeview.cpp:386
+msgid "Copy URL"
+msgstr "複製 URL"
+
+#: ui/treeview.cpp:388
+msgid "Copy Referrer URL"
+msgstr "複製 Referrer URL"
+
+#: ui/treeview.cpp:390
+msgid "Copy Cell Text"
+msgstr "複製儲存格文字"
 
 #: klinkstatus.cpp:81
 msgid ""
@@ -927,6 +891,30 @@ msgstr ""
 #: klinkstatus_part.cpp:174
 msgid "KLinkStatus Part"
 msgstr "KLinkStatus Part"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Label"
+#~ msgstr "標記"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
+#~ msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
+
+#~ msgid "Timeout"
+#~ msgstr "逾時"
+
+#~ msgid "not supported"
+#~ msgstr "不支援"
+
+#~ msgid "Malformed"
+#~ msgstr "內容損壞"
+
+#~ msgid "%1"
+#~ msgstr "%1"
 
 #, fuzzy
 #~| msgid "Broken Links"
