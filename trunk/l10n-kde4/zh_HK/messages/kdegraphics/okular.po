@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-13 05:51+0200\n"
+"POT-Creation-Date: 2007-05-14 05:44+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -205,6 +205,66 @@ msgstr ""
 #, qt-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
+
+#: core/document.cpp:2484
+msgid "Title"
+msgstr "標題"
+
+#: core/document.cpp:2487
+msgid "Subject"
+msgstr "主題"
+
+#: core/document.cpp:2490 ui/embeddedfilesdialog.cpp:42
+msgid "Description"
+msgstr ""
+
+#: core/document.cpp:2493
+#, fuzzy
+#| msgid "Author"
+msgid "Author"
+msgstr "作者"
+
+#: core/document.cpp:2496
+#, fuzzy
+#| msgid "Creator"
+msgid "Creator"
+msgstr "建立者"
+
+#: core/document.cpp:2499
+msgid "Producer"
+msgstr ""
+
+#: core/document.cpp:2502
+msgid "Copyright"
+msgstr ""
+
+#: core/document.cpp:2505
+#, fuzzy
+#| msgid "Pages:"
+msgid "Pages"
+msgstr "頁："
+
+#: core/document.cpp:2508 ui/embeddedfilesdialog.cpp:43
+msgid "Created"
+msgstr ""
+
+#: core/document.cpp:2511 ui/embeddedfilesdialog.cpp:44
+msgid "Modified"
+msgstr ""
+
+#: core/document.cpp:2514
+#, fuzzy
+#| msgid "Type"
+msgid "Mime Type"
+msgstr "類型"
+
+#: core/document.cpp:2517
+msgid "Category"
+msgstr ""
+
+#: core/document.cpp:2520
+msgid "Keywords"
+msgstr "關鍵字"
 
 #: core/generator.cpp:440
 msgid "Plain &Text..."
@@ -986,18 +1046,6 @@ msgstr "未知"
 #| msgid "Embedded"
 msgid "Embedded Files"
 msgstr "內嵌的"
-
-#: ui/embeddedfilesdialog.cpp:42
-msgid "Description"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:43
-msgid "Created"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:44
-msgid "Modified"
-msgstr ""
 
 #: ui/embeddedfilesdialog.cpp:81
 #, qt-format
@@ -2030,15 +2078,6 @@ msgstr ""
 
 #~ msgid "Incorrect password. Try again:"
 #~ msgstr "密碼不正確。請再試:"
-
-#~ msgid "Title"
-#~ msgstr "標題"
-
-#~ msgid "Subject"
-#~ msgstr "主題"
-
-#~ msgid "Keywords"
-#~ msgstr "關鍵字"
 
 #~ msgid "Encrypted"
 #~ msgstr "已加密"
