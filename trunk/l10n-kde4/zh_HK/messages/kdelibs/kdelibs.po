@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-16 05:45+0200\n"
+"POT-Creation-Date: 2007-05-18 05:51+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4639,6 +4639,7 @@ msgid "Front"
 msgstr "Front"
 
 #: kdeui/util/kkeyserver_x11.cpp:114 kdeui/shortcuts/kstandardshortcut.cpp:75
+#: kfile/kurlbutton.cpp:85
 msgid "Copy"
 msgstr "複製"
 
@@ -4647,6 +4648,7 @@ msgid "Open"
 msgstr "開啟"
 
 #: kdeui/util/kkeyserver_x11.cpp:116 kdeui/shortcuts/kstandardshortcut.cpp:76
+#: kfile/kurlbutton.cpp:89
 msgid "Paste"
 msgstr "貼上"
 
@@ -6736,31 +6738,31 @@ msgstr "圖示大小"
 msgid "Unknown View"
 msgstr "無法辨識的欄位"
 
-#: kfile/kfileplacesview.cpp:116
+#: kfile/kfileplacesview.cpp:119
 #, fuzzy
 #| msgid "&Edit..."
 msgid "&Edit Entry..."
 msgstr "編輯(&E)..."
 
-#: kfile/kfileplacesview.cpp:121
+#: kfile/kfileplacesview.cpp:124
 #, fuzzy
 #| msgid "&Hide Errors"
 msgid "&Hide Entry"
 msgstr "隱藏錯誤(&H)"
 
-#: kfile/kfileplacesview.cpp:128
+#: kfile/kfileplacesview.cpp:131
 #, fuzzy
 #| msgid "Show all options"
 msgid "&Show All Entries"
 msgstr "顯示所有選項"
 
-#: kfile/kfileplacesview.cpp:135
+#: kfile/kfileplacesview.cpp:138
 #, fuzzy
 #| msgid "Add Entry"
 msgid "&Add Entry..."
 msgstr "新增項目"
 
-#: kfile/kfileplacesview.cpp:139
+#: kfile/kfileplacesview.cpp:142
 #, fuzzy
 #| msgid "Remove Entry"
 msgid "&Remove Entry"
@@ -7371,6 +7373,16 @@ msgstr "選擇一個字型"
 #| msgid "Click to select a font"
 msgid "Click to Edit Location"
 msgstr "選擇一個字型"
+
+#: kfile/kurlbutton.cpp:96 kross/ui/view.cpp:525
+msgid "Edit"
+msgstr "編輯"
+
+#: kfile/kurlbutton.cpp:99
+#, fuzzy
+#| msgid "Navigation"
+msgid "Navigate"
+msgstr "航行"
 
 #: khtml/khtml_run.cpp:84 khtml/khtml_part.cpp:3907 khtml/khtml_part.cpp:4121
 #: khtml/khtml_part.cpp:4442 kparts/browserrun.cpp:403
@@ -8748,10 +8760,6 @@ msgstr "加密管理員(&C)..."
 #: kross/ui/view.cpp:348
 msgid "Script Manager to configure scripts."
 msgstr ""
-
-#: kross/ui/view.cpp:525
-msgid "Edit"
-msgstr "編輯"
 
 #: kross/core/interpreter.cpp:132
 #, fuzzy, qt-format
@@ -12339,9 +12347,6 @@ msgstr "%1 - 無法識別的用戶路徑類型\n"
 
 #~ msgid "<empty UNIX socket>"
 #~ msgstr "<空的 Unix socket>"
-
-#~ msgid "Navigation"
-#~ msgstr "航行"
 
 #~ msgctxt ""
 #~ "Dear translator, please do not translate this string in any form, but "
