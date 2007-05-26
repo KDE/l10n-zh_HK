@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlanbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-12 05:47+0200\n"
+"POT-Creation-Date: 2007-05-26 05:48+0200\n"
 "PO-Revision-Date: 2006-01-02 14:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -160,7 +160,7 @@ msgstr "主機列表更新間隔："
 msgid "Search hosts after this number of seconds"
 msgstr "在這個數字的時間過後（以秒為單位），搜尋主機"
 
-#: kcmlisa.cpp:154 setupwizard.cpp:298
+#: kcmlisa.cpp:154 setupwizard.cpp:299
 msgid " sec"
 msgstr " 秒"
 
@@ -176,7 +176,7 @@ msgstr "等待第一次掃描後的回覆:"
 msgid "How long to wait for replies to the ICMP echo requests from hosts"
 msgstr "花多久的時間等待主機的 ICMP 回應要求的結果"
 
-#: kcmlisa.cpp:165 kcmlisa.cpp:173 setupwizard.cpp:332 setupwizard.cpp:354
+#: kcmlisa.cpp:165 kcmlisa.cpp:173 setupwizard.cpp:333 setupwizard.cpp:355
 msgid " ms"
 msgstr " ms"
 
@@ -233,7 +233,7 @@ msgstr "永不"
 msgid "LISa Network Neighborhood Setup"
 msgstr "LISa 網絡芳鄰設定"
 
-#: setupwizard.cpp:73 setupwizard.cpp:533
+#: setupwizard.cpp:73 setupwizard.cpp:535
 msgid "Advanced Settings"
 msgstr "進階設定"
 
@@ -292,11 +292,11 @@ msgstr ""
 "所有使用 TCP/IP 的主機將回應，<br>不論他們是否 samba 伺服器。<br>如果您的網絡"
 "很大，例如超過 1000 台主機，不要使用這個方法。<br>"
 
-#: setupwizard.cpp:196
+#: setupwizard.cpp:197
 msgid "Send NetBIOS broadcasts"
 msgstr "送出 NetBIOS 廣播"
 
-#: setupwizard.cpp:197
+#: setupwizard.cpp:198
 msgid ""
 "You need to have the samba package (nmblookup) installed.<br>Only samba/"
 "windows servers will respond.<br>This method is not very reliable.<br>You "
@@ -305,12 +305,12 @@ msgstr ""
 "您需要安裝 samba 套件（nmblookup）。<br>只有 samba/windows 伺服器會回應。<br>"
 "這個方法並不十分可靠。<br>如果您網絡很大，您應該使用這個方法。"
 
-#: setupwizard.cpp:206 setupwizard.cpp:234 setupwizard.cpp:258
-#: setupwizard.cpp:281 setupwizard.cpp:310 setupwizard.cpp:361
+#: setupwizard.cpp:207 setupwizard.cpp:235 setupwizard.cpp:259
+#: setupwizard.cpp:282 setupwizard.cpp:311 setupwizard.cpp:362
 msgid "<b>If unsure, keep it as is.</b>"
 msgstr "<b>如果不肯定，保持原狀。</b>"
 
-#: setupwizard.cpp:215
+#: setupwizard.cpp:216
 msgid ""
 "All IP addresses included in the specified range will be pinged.<br>If you "
 "are part of a small network, e.g. with network mask 255.255.255.0<br>use "
@@ -319,7 +319,7 @@ msgstr ""
 "所有包含在指定範圍內的 IP 位址將會以 ping 訊號測試。<br>如果您是一個小型網絡"
 "的一部分，例如網路遮罩為 255.255.255.0<br>使用您的 IP 位址/網絡遮罩。<br>"
 
-#: setupwizard.cpp:221
+#: setupwizard.cpp:222
 msgid ""
 "<br>There are four ways to specify address ranges:<br>1. IP address/network "
 "mask, like <code>192.168.0.0/255.255.255.0;</code><br>2. single IP "
@@ -337,7 +337,7 @@ msgstr ""
 "可以輸入 1 到 4 的組合，使用「;」分開，<br>例如 "
 "<code>192.168.0.0/255.255.255.0;10.0.0.0;10.0.1.1-10.0.1.100;</code><br>"
 
-#: setupwizard.cpp:243
+#: setupwizard.cpp:244
 msgid ""
 "This is a security related setting.<br>It provides a simple IP address based "
 "way to specify \"trusted\" hosts.<br>Only hosts which fit into the addresses "
@@ -350,7 +350,7 @@ msgstr ""
 "LISa 所發佈的主機列表也只包含符合這規範的主機。<br>通常您在這兒輸入您的 IP 位"
 "址/網絡遮罩。"
 
-#: setupwizard.cpp:267
+#: setupwizard.cpp:268
 msgid ""
 "<br>Enter your IP address and network mask here, like "
 "<code>192.168.0.1/255.255.255.0</code>"
@@ -358,7 +358,7 @@ msgstr ""
 "<br>在這兒輸入您的 IP 位址和網絡遮罩，例如 <code>192.168.0.1/255.255.255.0</"
 "code>"
 
-#: setupwizard.cpp:272
+#: setupwizard.cpp:273
 msgid ""
 "<br>To reduce the network load, the LISa servers in one network<br>cooperate "
 "with each other. Therefore you have to enter the broadcast<br>address here. "
@@ -368,12 +368,12 @@ msgstr ""
 "<br>為了減少網絡負載，在網絡上的 LISa 伺服器<br>會彼此合作。因此您要在此輸入"
 "廣播位址。<br>如果您連接到一個以上的網路，請選擇其中一個<br>廣播位址。"
 
-#: setupwizard.cpp:292
+#: setupwizard.cpp:293
 msgid ""
 "<br>Enter the interval after which LISa, if busy, will update its host list."
 msgstr "<br>輸入當 LISa 忙碌時，下一次更新主機列表的時間間隔。"
 
-#: setupwizard.cpp:300
+#: setupwizard.cpp:301
 msgid ""
 "<br>Please note that the update interval will grow automatically by up to 16 "
 "times the value you enter here, if nobody accesses the LISa server. So if "
@@ -385,27 +385,27 @@ msgstr ""
 "六倍。所以若果您在此輸入 300 秒，即 5 分鐘， LISa 不一定會每 5 分鐘進行 ping "
 "訊號測試。該間隔會增長最高至 16 x 5 分鐘 = 80 分鐘。"
 
-#: setupwizard.cpp:320
+#: setupwizard.cpp:321
 msgid ""
 "This page contains several settings you usually only<br>need if LISa doesn't "
 "find all hosts in your network."
 msgstr "如果 LISa 無法在您的網絡上發現所有主機，<br>本頁包含一些您需要的設定。"
 
-#: setupwizard.cpp:323
+#: setupwizard.cpp:324
 msgid "Re&port unnamed hosts"
 msgstr "報告未命名的主機(&P)"
 
-#: setupwizard.cpp:324
+#: setupwizard.cpp:325
 msgid ""
 "Should hosts for which LISa can't resolve the name be included in the host "
 "list?<br>"
 msgstr "LISa 無法解析主機名稱的主機該被包含在主機列表裡嗎？<br>"
 
-#: setupwizard.cpp:328
+#: setupwizard.cpp:329
 msgid "Wait for replies after first scan"
 msgstr "等待第一次掃描後的回覆"
 
-#: setupwizard.cpp:333
+#: setupwizard.cpp:334
 msgid ""
 "How long should LISa wait for answers to pings?<br>If LISa doesn't find all "
 "hosts, try to increase this value.<br>"
@@ -413,11 +413,11 @@ msgstr ""
 "LISa 應該等待 ping 訊號的回應多久時間？<br>如果 LISa 無法發現所有的主機，試著"
 "增加這個值。<br>"
 
-#: setupwizard.cpp:337
+#: setupwizard.cpp:338
 msgid "Max. number of pings to send at once"
 msgstr "同一時間送出 ping 封包的最大數目"
 
-#: setupwizard.cpp:342
+#: setupwizard.cpp:343
 msgid ""
 "How many ping packets should LISa send at once?<br>If LISa doesn't find all "
 "hosts you could try to decrease this value.<br>"
@@ -425,20 +425,20 @@ msgstr ""
 "LISa 應該同一時間送出多少的 ping 封包？<br>如果 LISa 無法發現所有的主機，試著"
 "減少這個值。<br>"
 
-#: setupwizard.cpp:345
+#: setupwizard.cpp:346
 msgid "Al&ways scan twice"
 msgstr "總是掃描兩次(&W)"
 
-#: setupwizard.cpp:349
+#: setupwizard.cpp:350
 msgid "Wait for replies after second scan"
 msgstr "等待第二次掃描後的回覆"
 
-#: setupwizard.cpp:355
+#: setupwizard.cpp:356
 #, fuzzy
 msgid "If LISa does not find all hosts, enable this option."
 msgstr "如果 LISa 無法發現所有的主機，開啟這個選項。"
 
-#: setupwizard.cpp:371
+#: setupwizard.cpp:372
 msgid ""
 "<br>Your LAN browsing has been successfully set up.<br><br>Make sure that "
 "the LISa server is started during the boot process. How this is done depends "
@@ -456,16 +456,16 @@ msgstr ""
 "Konqueror 中試試 <code>lan:/</code>並且祝玩得愉快！:-)<br><br>如果您有任何問"
 "題或建議，請瀏覽 http://lisa-home.sourceforge.net 。"
 
-#: setupwizard.cpp:458
+#: setupwizard.cpp:460
 #, fuzzy
 msgid "Congratulations"
 msgstr "恭喜您！"
 
-#: setupwizard.cpp:483
+#: setupwizard.cpp:485
 msgid "You can use the same syntax as on the previous page.<br>"
 msgstr "您可以使用和上一頁相同的語法。<br>"
 
-#: setupwizard.cpp:485
+#: setupwizard.cpp:487
 msgid ""
 "There are three ways to specify IP addresses:<br>1. IP address/network mask, "
 "like<code> 192.168.0.0/255.255.255.0;</code><br>2. continuous ranges, "
@@ -480,31 +480,31 @@ msgstr ""
 "以輸入 1 到 3 的組合，其中以「;」隔開，<br>例如<code> "
 "192.168.0.0/255.255.255.0;10.0.0.0;10.0.1.1-10.0.1.100;</code><br>"
 
-#: setupwizard.cpp:511
+#: setupwizard.cpp:513
 msgid "Multiple Network Interfaces Found"
 msgstr "找到多於一個網絡介面"
 
-#: setupwizard.cpp:514
+#: setupwizard.cpp:516
 msgid "No Network Interface Found"
 msgstr "沒有找到網絡介面"
 
-#: setupwizard.cpp:519
+#: setupwizard.cpp:521
 msgid "Specify Search Method"
 msgstr "指定搜尋方法"
 
-#: setupwizard.cpp:522
+#: setupwizard.cpp:524
 msgid "Specify Address Range LISa Will Ping"
 msgstr "指定 LISa 要檢測的位址範圍"
 
-#: setupwizard.cpp:525
+#: setupwizard.cpp:527
 msgid "\"Trusted\" Hosts"
 msgstr "「可信任的」主機"
 
-#: setupwizard.cpp:528
+#: setupwizard.cpp:530
 msgid "Your Broadcast Address"
 msgstr "您的廣播位址"
 
-#: setupwizard.cpp:531
+#: setupwizard.cpp:533
 msgid "LISa Update Interval"
 msgstr "LISa 更新時間間隔"
 
