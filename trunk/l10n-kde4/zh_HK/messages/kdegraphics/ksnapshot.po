@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-04 05:45+0200\n"
+"POT-Creation-Date: 2007-06-07 05:46+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -197,46 +197,90 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "shyue@sonoma.com.tw,kenduest@i18n.linux.org.tw,wwycheuk@netvigator.com"
 
-#: ksnapshot.cpp:132
+#: kbackgroundsnapshot.cpp:92 ksnapshot.cpp:155
 msgid "snapshot"
 msgstr "快照"
 
-#: ksnapshot.cpp:146
+#: kbackgroundsnapshot.cpp:173 main.cpp:32
+msgid "KDE Screenshot Utility"
+msgstr "KDE 畫面擷取工具"
+
+#: kbackgroundsnapshot.cpp:178 main.cpp:37
+msgid "Captures the window under the mouse on startup (instead of the desktop)"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:179 main.cpp:38
+msgid "Captures the desktop"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:180 main.cpp:39
+msgid "Captures a region"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:181 main.cpp:40
+msgid "Captures a part of windows"
+msgstr ""
+
+#: kbackgroundsnapshot.cpp:187
+#, fuzzy
+#| msgid "KSnapshot"
+msgid "KBackgroundSnapshot"
+msgstr "KSbaoshot"
+
+#: ksnapshot.cpp:169
 msgid "Quick Save Snapshot &As..."
 msgstr "快速儲存快照為(&A)..."
 
-#: ksnapshot.cpp:147
+#: ksnapshot.cpp:170
 msgid ""
 "Save the snapshot to the file specified by the user without showing the file "
 "dialog."
 msgstr ""
 
-#: ksnapshot.cpp:149
+#: ksnapshot.cpp:172
 msgid "Save Snapshot &As..."
 msgstr "儲存快照為(&A)..."
 
-#: ksnapshot.cpp:150
+#: ksnapshot.cpp:173
 msgid "Save the snapshot to the file specified by the user."
 msgstr "將快照儲存至用戶指定的檔案。"
 
-#: ksnapshot.cpp:193
+#: ksnapshot.cpp:221
+#, fuzzy
+msgid "Save As"
+msgstr "儲存為(&S)..."
+
+#: ksnapshot.cpp:359
+msgid "Other Application..."
+msgstr ""
+
+#: ksnapshot.cpp:437
+msgid "The screen has been successfully grabbed."
+msgstr "這個螢幕已經成功的擷取."
+
+#: ksnapshot.cpp:535
+#, qt-format
+msgid "Preview of the snapshot image (%1 x %2)"
+msgstr ""
+
+#: ksnapshotobject.cpp:101
 msgid "File Exists"
 msgstr "檔案已經存在"
 
-#: ksnapshot.cpp:194
+#: ksnapshotobject.cpp:102
 #, qt-format
 msgid "<qt>Do you really want to overwrite <b>%1</b>?</qt>"
 msgstr "<qt>您確定要覆蓋 <b>%1</b> 此檔案嗎？</qt>"
 
-#: ksnapshot.cpp:195
+#: ksnapshotobject.cpp:103
 msgid "Overwrite"
 msgstr "蓋寫"
 
-#: ksnapshot.cpp:233
+#: ksnapshotobject.cpp:141
 msgid "Unable to save image"
 msgstr "錯誤: 無法儲存圖片檔案"
 
-#: ksnapshot.cpp:234
+#: ksnapshotobject.cpp:142
 #, qt-format
 msgid ""
 "KSnapshot was unable to save the image to\n"
@@ -245,43 +289,17 @@ msgstr ""
 "KSnapshot 無法儲存圖片至\n"
 "%1."
 
-#: ksnapshot.cpp:255
-#, fuzzy
-msgid "Save As"
-msgstr "儲存為(&S)..."
-
-#: ksnapshot.cpp:395
-msgid "Other Application..."
-msgstr ""
-
-#: ksnapshot.cpp:504
-msgid "The screen has been successfully grabbed."
-msgstr "這個螢幕已經成功的擷取."
-
-#: ksnapshot.cpp:602
-#, qt-format
-msgid "Preview of the snapshot image (%1 x %2)"
-msgstr ""
-
-#: main.cpp:32
-msgid "KDE Screenshot Utility"
-msgstr "KDE 畫面擷取工具"
-
-#: main.cpp:37
-msgid "Captures the window under the mouse on startup (instead of the desktop)"
-msgstr ""
-
-#: main.cpp:43
+#: main.cpp:46
 msgid "KSnapshot"
 msgstr "KSbaoshot"
 
-#: main.cpp:49
+#: main.cpp:52
 msgid ""
 "Region Grabbing\n"
 "Reworked GUI"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:54
 msgid "\"Open With\" function"
 msgstr ""
 
