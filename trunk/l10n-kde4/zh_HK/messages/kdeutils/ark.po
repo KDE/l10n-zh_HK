@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-04 05:44+0200\n"
+"POT-Creation-Date: 2007-06-08 06:03+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ace.cpp:102 ace.cpp:171 ar.cpp:100 ar.cpp:119 ar.cpp:163 ar.cpp:220
-#: ar.cpp:253 compressedfile.cpp:194 compressedfile.cpp:305 lha.cpp:154
-#: lha.cpp:224 lha.cpp:265 lha.cpp:295 rar.cpp:129 rar.cpp:204 rar.cpp:259
-#: rar.cpp:295 sevenzip.cpp:104 sevenzip.cpp:143 sevenzip.cpp:183
-#: sevenzip.cpp:231 tar.cpp:272 tar.cpp:667 tar.cpp:754 tar.cpp:802
-#: zip.cpp:102 zip.cpp:173 zip.cpp:232 zip.cpp:268 zoo.cpp:121 zoo.cpp:188
-#: zoo.cpp:247 zoo.cpp:278
+#: ar.cpp:253 compressedfile.cpp:194 compressedfile.cpp:306 lha.cpp:155
+#: lha.cpp:225 lha.cpp:266 lha.cpp:296 rar.cpp:130 rar.cpp:205 rar.cpp:260
+#: rar.cpp:296 sevenzip.cpp:104 sevenzip.cpp:143 sevenzip.cpp:183
+#: sevenzip.cpp:231 tar.cpp:272 tar.cpp:668 tar.cpp:755 tar.cpp:803
+#: zip.cpp:102 zip.cpp:173 zip.cpp:232 zip.cpp:268 zoo.cpp:122 zoo.cpp:189
+#: zoo.cpp:248 zoo.cpp:279
 msgid "Could not start a subprocess."
 msgstr "無法啟動子進程。"
 
@@ -466,11 +466,11 @@ msgstr ""
 msgid "An error occurred while trying to create the archive."
 msgstr "嘗試建立壓縮檔時發生錯誤。"
 
-#: arkwidget.cpp:2154
+#: arkwidget.cpp:2156
 msgid "Opening the archive..."
 msgstr "開啟壓縮檔中..."
 
-#: arkwidget.cpp:2178
+#: arkwidget.cpp:2180
 msgid ""
 "This archive is read-only. If you want to save it under a new name, go to "
 "the File menu and select Save As."
@@ -478,22 +478,22 @@ msgstr ""
 "本壓縮檔是唯讀的，如果你希望將它儲存為另一個名稱，請在選單列中選取「檔案」→"
 "「另存新檔」。"
 
-#: arkwidget.cpp:2178
+#: arkwidget.cpp:2180
 msgid "Information"
 msgstr ""
 
-#: arkwidget.cpp:2196
+#: arkwidget.cpp:2198
 #, qt-format
 msgid "An error occurred while trying to open the archive %1"
 msgstr "嘗試開啟壓縮檔 %1 時發生錯誤。"
 
 #. i18n: tag string
 #. i18n: file general.ui line 16
-#: arkwidget.cpp:2232 rc.cpp:129
+#: arkwidget.cpp:2234 rc.cpp:129
 msgid "General"
 msgstr "一般"
 
-#: arkwidget.cpp:2232
+#: arkwidget.cpp:2234
 msgid "General Settings"
 msgstr "一般設定"
 
@@ -513,7 +513,7 @@ msgstr ""
 msgid "Simple Compressed Archive"
 msgstr "簡單壓縮檔"
 
-#: compressedfile.cpp:320 tar.cpp:174 tar.cpp:191
+#: compressedfile.cpp:321 tar.cpp:174 tar.cpp:191
 msgid "Trouble writing to the archive..."
 msgstr "寫入壓縮檔時發生錯誤..."
 
@@ -979,47 +979,47 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wmtuen@gmail.com"
 
-#: tar.cpp:511
+#: tar.cpp:512
 msgid "Unable to fork a decompressor"
 msgstr "無法衍生解壓程式"
 
-#: tar.cpp:538
+#: tar.cpp:539
 msgid "Trouble writing to the tempfile..."
 msgstr "寫入暫存檔失敗..."
 
-#: archive.h:192
+#: archive.h:193
 msgid " Filename "
 msgstr " 檔案名稱 "
 
-#: archive.h:193
+#: archive.h:194
 msgid " Permissions "
 msgstr " 權限 "
 
-#: archive.h:194
+#: archive.h:195
 msgid " Owner/Group "
 msgstr " 擁有者/群組 "
 
-#: archive.h:195
+#: archive.h:196
 msgid " Size "
 msgstr " 大小 "
 
-#: archive.h:196
+#: archive.h:197
 msgid " Timestamp "
 msgstr " 時間標記 "
 
-#: archive.h:197
+#: archive.h:198
 msgid " Link "
 msgstr " 連結 "
 
-#: archive.h:198
+#: archive.h:199
 msgid " Size Now "
 msgstr " 目前大小 "
 
-#: archive.h:199
+#: archive.h:200
 msgid " Ratio "
 msgstr " 壓縮比 "
 
-#: archive.h:200
+#: archive.h:201
 #, fuzzy
 #| msgctxt "acronym for Cyclic Redundancy Check"
 #| msgid " CRC "
@@ -1027,19 +1027,19 @@ msgctxt "Cyclic Redundancy Check"
 msgid " CRC "
 msgstr " CRC "
 
-#: archive.h:201
+#: archive.h:202
 msgid " Method "
 msgstr " 壓縮法 "
 
-#: archive.h:202
+#: archive.h:203
 msgid " Version "
 msgstr " 版本 "
 
-#: archive.h:203
+#: archive.h:204
 msgid " Owner "
 msgstr " 擁有者 "
 
-#: archive.h:204
+#: archive.h:205
 msgid " Group "
 msgstr " 群組 "
 
