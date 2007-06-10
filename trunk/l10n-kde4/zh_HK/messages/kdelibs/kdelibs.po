@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-10 05:16+0200\n"
+"POT-Creation-Date: 2007-06-10 21:26+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3507,11 +3507,14 @@ msgstr "%1 - [%2]"
 #: kdecore/services/kmimetype.cpp:58
 #, fuzzy, qt-format
 msgid ""
-"Could not find mime type\n"
-"%1"
-msgstr "找不到服務程式‘%1’。"
+"Could not find mime type:\n"
+"%2"
+msgid_plural ""
+"Could not fine mime types:\n"
+"%2"
+msgstr[0] "找不到服務程式‘%1’。"
 
-#: kdecore/services/kmimetype.cpp:130
+#: kdecore/services/kmimetype.cpp:131
 msgid "No mime types installed."
 msgstr ""
 
@@ -6118,7 +6121,7 @@ msgid "Exit F&ull Screen Mode"
 msgstr "離開全螢幕模式(&U)"
 
 #: kdeui/actions/kcodecaction.cpp:87 kdeui/widgets/klineedit.cpp:1058
-#: kdeui/widgets/ktoolbar.cpp:274
+#: kdeui/widgets/ktoolbar.cpp:275
 msgid "Default"
 msgstr "預設"
 
@@ -6671,79 +6674,79 @@ msgstr "關於 %1(&A)"
 msgid "About &KDE"
 msgstr "關於 KDE(&K)"
 
-#: kdeui/widgets/ktoolbar.cpp:239
+#: kdeui/widgets/ktoolbar.cpp:240
 msgid "Toolbar Menu"
 msgstr "工具列選單"
 
-#: kdeui/widgets/ktoolbar.cpp:241
+#: kdeui/widgets/ktoolbar.cpp:242
 msgid "Orientation"
 msgstr "方向"
 
-#: kdeui/widgets/ktoolbar.cpp:244
+#: kdeui/widgets/ktoolbar.cpp:245
 msgctxt "toolbar position string"
 msgid "Top"
 msgstr "頂端"
 
-#: kdeui/widgets/ktoolbar.cpp:246
+#: kdeui/widgets/ktoolbar.cpp:247
 msgctxt "toolbar position string"
 msgid "Left"
 msgstr "左邊"
 
-#: kdeui/widgets/ktoolbar.cpp:247
+#: kdeui/widgets/ktoolbar.cpp:248
 msgctxt "toolbar position string"
 msgid "Right"
 msgstr "右邊"
 
-#: kdeui/widgets/ktoolbar.cpp:248
+#: kdeui/widgets/ktoolbar.cpp:249
 msgctxt "toolbar position string"
 msgid "Bottom"
 msgstr "底部"
 
-#: kdeui/widgets/ktoolbar.cpp:256
+#: kdeui/widgets/ktoolbar.cpp:257
 msgid "Text Position"
 msgstr "文字位置"
 
-#: kdeui/widgets/ktoolbar.cpp:259
+#: kdeui/widgets/ktoolbar.cpp:260
 msgid "Icons Only"
 msgstr "只用圖示"
 
-#: kdeui/widgets/ktoolbar.cpp:261
+#: kdeui/widgets/ktoolbar.cpp:262
 msgid "Text Only"
 msgstr "只用文字"
 
-#: kdeui/widgets/ktoolbar.cpp:262
+#: kdeui/widgets/ktoolbar.cpp:263
 msgid "Text Alongside Icons"
 msgstr "文字在圖示旁"
 
-#: kdeui/widgets/ktoolbar.cpp:263
+#: kdeui/widgets/ktoolbar.cpp:264
 msgid "Text Under Icons"
 msgstr "文字在圖示下"
 
-#: kdeui/widgets/ktoolbar.cpp:271
+#: kdeui/widgets/ktoolbar.cpp:272
 msgid "Icon Size"
 msgstr "圖示大小"
 
-#: kdeui/widgets/ktoolbar.cpp:294 kdeui/widgets/ktoolbar.cpp:314
+#: kdeui/widgets/ktoolbar.cpp:295 kdeui/widgets/ktoolbar.cpp:315
 #, qt-format
 msgid "Small (%1x%2)"
 msgstr "小型 (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:296 kdeui/widgets/ktoolbar.cpp:316
+#: kdeui/widgets/ktoolbar.cpp:297 kdeui/widgets/ktoolbar.cpp:317
 #, qt-format
 msgid "Medium (%1x%2)"
 msgstr "中型 (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:298 kdeui/widgets/ktoolbar.cpp:318
+#: kdeui/widgets/ktoolbar.cpp:299 kdeui/widgets/ktoolbar.cpp:319
 #, qt-format
 msgid "Large (%1x%2)"
 msgstr "大型 (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:300 kdeui/widgets/ktoolbar.cpp:320
+#: kdeui/widgets/ktoolbar.cpp:301 kdeui/widgets/ktoolbar.cpp:321
 #, qt-format
 msgid "Huge (%1x%2)"
 msgstr "大型 (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:340
+#: kdeui/widgets/ktoolbar.cpp:341
 #, fuzzy
 msgid "Lock Toolbars"
 msgstr "工具列"
@@ -7147,7 +7150,7 @@ msgstr "NoCARoot"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: kfile/kurlnavigator.cpp:538
+#: kfile/kurlnavigator.cpp:561
 #, fuzzy
 #| msgid "Custom"
 msgid "Custom Path"
