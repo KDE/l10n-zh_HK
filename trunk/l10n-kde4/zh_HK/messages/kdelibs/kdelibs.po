@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-11 06:07+0200\n"
+"POT-Creation-Date: 2007-06-11 14:46+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2033,6 +2033,29 @@ msgstr "%1 - 無法識別的類型\n"
 #, qt-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 - 無法識別的用戶路徑類型\n"
+
+#: kdecore/io/kptydevice.cpp:260
+#, fuzzy
+#| msgid "ErrorReadingRoot"
+msgid "Error reading from PTY"
+msgstr "讀取根證書時發生錯誤"
+
+#: kdecore/io/kptydevice.cpp:294
+msgid "Error writing to PTY"
+msgstr ""
+
+#: kdecore/io/kptydevice.cpp:379
+#, fuzzy
+#| msgctxt "Socket error code Timeout"
+#| msgid "timed operation timed out"
+msgid "PTY operation timed out"
+msgstr "限時的動作逾時"
+
+#: kdecore/io/kptydevice.cpp:421
+#, fuzzy
+#| msgid "Error opening file."
+msgid "Error opening PTY"
+msgstr "開啟檔案時發生錯誤。"
 
 #: kdecore/io/ksavefile.cpp:83
 msgid "No target filename has been given."
