@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-11 14:46+0200\n"
+"POT-Creation-Date: 2007-06-12 00:36+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5802,11 +5802,11 @@ msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "完成了 %1 次替換。"
 
-#: kdeui/findreplace/kreplace.cpp:317 kdeui/findreplace/kfind.cpp:667
+#: kdeui/findreplace/kreplace.cpp:317 kdeui/findreplace/kfind.cpp:676
 msgid "Beginning of document reached."
 msgstr "已達文件開頭。"
 
-#: kdeui/findreplace/kreplace.cpp:319 kdeui/findreplace/kfind.cpp:669
+#: kdeui/findreplace/kreplace.cpp:319 kdeui/findreplace/kfind.cpp:678
 msgid "End of document reached."
 msgstr "已達文件結尾。"
 
@@ -5854,27 +5854,27 @@ msgstr "尋找下一個"
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>搜尋下一個 '<b>%1</b>'？</qt>"
 
-#: kdeui/findreplace/kfind.cpp:640 kdeui/findreplace/kfind.cpp:660
+#: kdeui/findreplace/kfind.cpp:649 kdeui/findreplace/kfind.cpp:669
 #, qt-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "找到了 %1 個相符項目。"
 
-#: kdeui/findreplace/kfind.cpp:642
+#: kdeui/findreplace/kfind.cpp:651
 #, qt-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>找不到相符 '<b>%1</b>' 的項目。</qt>"
 
-#: kdeui/findreplace/kfind.cpp:662
+#: kdeui/findreplace/kfind.cpp:671
 #, qt-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "找不到相符 '<b>%1</b>' 的項目。"
 
-#: kdeui/findreplace/kfind.cpp:676
+#: kdeui/findreplace/kfind.cpp:685
 msgid "Continue from the end?"
 msgstr "要從結尾繼續？"
 
-#: kdeui/findreplace/kfind.cpp:677
+#: kdeui/findreplace/kfind.cpp:686
 msgid "Continue from the beginning?"
 msgstr "要從頭繼續？"
 
@@ -6177,7 +6177,7 @@ msgid ""
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
 
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:179
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:831
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:857
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:178
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:179
 #, qt-format
@@ -6824,31 +6824,31 @@ msgstr "圖示大小"
 msgid "Unknown View"
 msgstr "無法辨識的欄位"
 
-#: kfile/kfileplacesview.cpp:149
+#: kfile/kfileplacesview.cpp:155
 #, fuzzy
 #| msgid "&Edit..."
 msgid "&Edit Entry..."
 msgstr "編輯(&E)..."
 
-#: kfile/kfileplacesview.cpp:154
+#: kfile/kfileplacesview.cpp:160
 #, fuzzy
 #| msgid "&Hide Errors"
 msgid "&Hide Entry"
 msgstr "隱藏錯誤(&H)"
 
-#: kfile/kfileplacesview.cpp:161
+#: kfile/kfileplacesview.cpp:167
 #, fuzzy
 #| msgid "Show all options"
 msgid "&Show All Entries"
 msgstr "顯示所有選項"
 
-#: kfile/kfileplacesview.cpp:168
+#: kfile/kfileplacesview.cpp:174
 #, fuzzy
 #| msgid "Add Entry"
 msgid "&Add Entry..."
 msgstr "新增項目"
 
-#: kfile/kfileplacesview.cpp:172
+#: kfile/kfileplacesview.cpp:178
 #, fuzzy
 #| msgid "Remove Entry"
 msgid "&Remove Entry"
@@ -7146,26 +7146,26 @@ msgid ""
 "operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: kfile/kfileplacesmodel.cpp:72
+#: kfile/kfileplacesmodel.cpp:73
 #, fuzzy
 #| msgctxt "Opposite to End"
 #| msgid "Home"
 msgid "Home"
 msgstr "開頭"
 
-#: kfile/kfileplacesmodel.cpp:73
+#: kfile/kfileplacesmodel.cpp:74
 #, fuzzy
 #| msgid "New"
 msgid "Network"
 msgstr "新增"
 
-#: kfile/kfileplacesmodel.cpp:74
+#: kfile/kfileplacesmodel.cpp:75
 #, fuzzy
 #| msgid "NoCARoot"
 msgid "Root"
 msgstr "NoCARoot"
 
-#: kfile/kfileplacesmodel.cpp:75
+#: kfile/kfileplacesmodel.cpp:76
 #, fuzzy
 #| msgid "Trash"
 msgid "Trash"
@@ -8761,22 +8761,17 @@ msgstr "載入‘%1’發生錯誤。\n"
 msgid "Launching %1"
 msgstr "啟動 %1"
 
-#: kross/ui/guiclient.cpp:66
+#: kross/ui/guiclient.cpp:63
 #, fuzzy
 msgid "Scripts"
 msgstr "語文(&I)"
 
-#: kross/ui/guiclient.cpp:71
+#: kross/ui/guiclient.cpp:68
 #, fuzzy
 msgid "Execute Script File..."
 msgstr "執行檔案嗎？"
 
-#: kross/ui/guiclient.cpp:76
-#, fuzzy
-msgid "Script Manager..."
-msgstr "加密管理員(&C)..."
-
-#: kross/ui/guiclient.cpp:260
+#: kross/ui/guiclient.cpp:269
 #, fuzzy
 msgid "Execute Script File"
 msgstr "執行檔案嗎？"
@@ -8947,59 +8942,59 @@ msgstr "makekdewidgets"
 msgid "Web style plugin"
 msgstr "KDE 網頁風格外掛模組"
 
-#: kmetadata/kmetadata/ui/kratingwidget.cpp:227
+#: nepomuk/core/ui/kratingwidget.cpp:227
 #, fuzzy
 msgid "Not yet rated"
 msgstr "內容"
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:169
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:169
 #, fuzzy
 #| msgid "Valid Resource"
 msgid "Tag resource..."
 msgstr "有效資源"
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:182
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:182
 msgid "Create new tag..."
 msgstr ""
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:187
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:187
 #, fuzzy
 #| msgid "New Game"
 msgid "New Tag"
 msgstr "開始新遊戲"
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:187
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:187
 #, fuzzy
 #| msgid "Please select type of the new resource:"
 msgid "Please insert the name of the new tag"
 msgstr "請選取新資源的類型："
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:196
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:196
 #, qt-format
 msgid "The tag %1 already exists"
 msgstr ""
 
-#: kmetadata/kmetadata/ui/kmetadatatagwidget.cpp:196
+#: nepomuk/core/ui/kmetadatatagwidget.cpp:196
 #, fuzzy
 msgid "Tag exists"
 msgstr "Test"
 
-#: kmetadata/kmetadata/generated/resource.cpp:172
+#: nepomuk/core/generated/resource.cpp:172
 msgid "Success"
 msgstr ""
 
-#: kmetadata/kmetadata/generated/resource.cpp:174
+#: nepomuk/core/generated/resource.cpp:174
 #, fuzzy
 msgid "Communication error"
 msgstr "組態設定"
 
-#: kmetadata/kmetadata/generated/resource.cpp:176
+#: nepomuk/core/generated/resource.cpp:176
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
-#: kmetadata/kmetadata/generated/resource.cpp:178
+#: nepomuk/core/generated/resource.cpp:178
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
@@ -10209,6 +10204,10 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~ msgid "Script Manager..."
+#~ msgstr "加密管理員(&C)..."
 
 #, fuzzy
 #~ msgid "Script Manager"
