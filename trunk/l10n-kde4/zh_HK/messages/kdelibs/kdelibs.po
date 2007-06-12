@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-12 00:36+0200\n"
+"POT-Creation-Date: 2007-06-12 13:17+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1664,7 +1664,7 @@ msgstr "選擇元件..."
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/SMIV/SMIVBase.ui line 55
-#: rc.cpp:895 solid/solid/powermanagement.cpp:75
+#: rc.cpp:895
 #, fuzzy
 msgid "Suspend"
 msgstr "聲音"
@@ -8306,11 +8306,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "中止(&A)"
 
-#: khtml/ecma/kjs_window.cpp:1562 khtml/ecma/kjs_html.cpp:2107
+#: khtml/ecma/kjs_window.cpp:1563 khtml/ecma/kjs_html.cpp:2108
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
 
-#: khtml/ecma/kjs_window.cpp:1565
+#: khtml/ecma/kjs_window.cpp:1566
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -8318,7 +8318,7 @@ msgstr ""
 "此網站試圖使用 Javascript 開啟一個新的瀏覽器視窗。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1568
+#: khtml/ecma/kjs_window.cpp:1569
 #, qt-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -8327,49 +8327,49 @@ msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2114
+#: khtml/ecma/kjs_window.cpp:1571 khtml/ecma/kjs_html.cpp:2115
 msgid "Allow"
 msgstr "允許"
 
-#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2114
+#: khtml/ecma/kjs_window.cpp:1571 khtml/ecma/kjs_html.cpp:2115
 msgid "Do Not Allow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_window.cpp:1861
+#: khtml/ecma/kjs_window.cpp:1862
 msgid "Close window?"
 msgstr "關閉視窗？"
 
-#: khtml/ecma/kjs_window.cpp:1861
+#: khtml/ecma/kjs_window.cpp:1862
 msgid "Confirmation Required"
 msgstr "需要確認"
 
-#: khtml/ecma/kjs_window.cpp:2811
+#: khtml/ecma/kjs_window.cpp:2812
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "你要把 \"%1\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2814
+#: khtml/ecma/kjs_window.cpp:2815
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "你要把 \"%1\"，標題 \"%2\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2822
+#: khtml/ecma/kjs_window.cpp:2823
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "javaScript 嘗試加入書籤"
 
-#: khtml/ecma/kjs_window.cpp:2826
+#: khtml/ecma/kjs_window.cpp:2827
 msgid "Insert"
 msgstr "插入"
 
-#: khtml/ecma/kjs_window.cpp:2826
+#: khtml/ecma/kjs_window.cpp:2827
 msgid "Disallow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_html.cpp:2110
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -8378,7 +8378,7 @@ msgstr ""
 "這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
 "你要允許表格被提交嗎？"
 
-#: khtml/ecma/kjs_html.cpp:2112
+#: khtml/ecma/kjs_html.cpp:2113
 #, qt-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -8876,19 +8876,6 @@ msgstr ""
 #, fuzzy, qt-format
 msgid "Failed to create script for interpreter \"%1\""
 msgstr "無法取得 KScript Runner <b>%1</b> 的型別。"
-
-#: solid/solid/powermanagement.cpp:73
-#, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Standby"
-msgid "Standby"
-msgstr "待命"
-
-#: solid/solid/powermanagement.cpp:77
-#, fuzzy
-#| msgid "Alternate"
-msgid "Hibernate"
-msgstr "備選"
 
 #: kconf_update/kconf_update.cpp:43
 msgid "Keep output results from scripts"
@@ -10204,6 +10191,17 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~| msgctxt "QAccel"
+#~| msgid "Standby"
+#~ msgid "Standby"
+#~ msgstr "待命"
+
+#, fuzzy
+#~| msgid "Alternate"
+#~ msgid "Hibernate"
+#~ msgstr "備選"
 
 #, fuzzy
 #~ msgid "Script Manager..."
