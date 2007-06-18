@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-17 05:23+0200\n"
+"POT-Creation-Date: 2007-06-18 05:28+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4495,7 +4495,7 @@ msgstr "最多下載次數"
 msgid "Unsorted"
 msgstr "不可信的"
 
-#: knewstuff/knewstuff2/core/security.cpp:70
+#: knewstuff/knewstuff2/core/security.cpp:78
 msgid ""
 "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
 "<i>gpg</i> is installed, otherwise verification of downloaded resources will "
@@ -4504,7 +4504,7 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來取得可用的密鑰。請確定<i>gpg</i>已安裝，否則將無法對"
 "下載的資源進行檢驗。</p>"
 
-#: knewstuff/knewstuff2/core/security.cpp:184
+#: knewstuff/knewstuff2/core/security.cpp:216
 #, qt-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br><i>%2&lt;%3&gt;</"
@@ -4513,7 +4513,7 @@ msgstr ""
 "<qt>請輸入密鑰<b>0x%1</b>的密碼短語。這個密鑰是屬於<br><i>%2&lt;%3&gt;</i>"
 "的：</qt>"
 
-#: knewstuff/knewstuff2/core/security.cpp:263
+#: knewstuff/knewstuff2/core/security.cpp:304
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
 "that <i>gpg</i> is installed, otherwise verification of downloaded resources "
@@ -4522,15 +4522,15 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來檢驗檔案。請確定<i>gpg</i>已安裝，否則將無法對下載的"
 "資源進行檢驗。</p>"
 
-#: knewstuff/knewstuff2/core/security.cpp:323
+#: knewstuff/knewstuff2/core/security.cpp:365
 msgid "Select Signing Key"
 msgstr "選擇用作簽署的密鑰"
 
-#: knewstuff/knewstuff2/core/security.cpp:323
+#: knewstuff/knewstuff2/core/security.cpp:365
 msgid "Key used for signing:"
 msgstr "用作簽署的密鑰："
 
-#: knewstuff/knewstuff2/core/security.cpp:344
+#: knewstuff/knewstuff2/core/security.cpp:399
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
 "installed, otherwise signing of the resources will not be possible.</qt>"
@@ -4685,7 +4685,7 @@ msgstr "確定(&O)"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:850
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -4693,7 +4693,7 @@ msgstr "是(&Y)"
 msgid "Yes"
 msgstr "是"
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:843
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
 msgid "&No"
 msgstr "否(&N)"
 
@@ -5347,15 +5347,15 @@ msgstr "設定"
 msgid "&Try"
 msgstr "試用(&T)"
 
-#: kdeui/dialogs/kdialog.cpp:466 kstyles/web/webstyle.cpp:1604
+#: kdeui/dialogs/kdialog.cpp:473 kstyles/web/webstyle.cpp:1604
 msgid "modified"
 msgstr "已修改"
 
-#: kdeui/dialogs/kdialog.cpp:841
+#: kdeui/dialogs/kdialog.cpp:848
 msgid "&Details"
 msgstr "詳細資料(&D)"
 
-#: kdeui/dialogs/kdialog.cpp:981
+#: kdeui/dialogs/kdialog.cpp:988
 msgid "Get help..."
 msgstr "取得說明..."
 
@@ -6928,7 +6928,7 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "開始取代"
 
-#: kdeui/widgets/kcharselectdata.cpp:531 khtml/java/kjavaappletserver.cpp:698
+#: kdeui/widgets/kcharselectdata.cpp:531 khtml/java/kjavaappletserver.cpp:697
 msgid "Unknown"
 msgstr "無法識別"
 
@@ -8388,7 +8388,7 @@ msgstr "安全警告"
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgstr "<qt>此不可信賴的網頁對<BR><B>%1</B>的存取<BR>已被禁止了。"
 
-#: khtml/khtml_part.cpp:6820 khtml/java/kjavaappletserver.cpp:824
+#: khtml/khtml_part.cpp:6820 khtml/java/kjavaappletserver.cpp:823
 msgid "Security Alert"
 msgstr "安全警報"
 
@@ -8887,83 +8887,83 @@ msgstr "載入 Applet"
 msgid "Error: java executable not found"
 msgstr "錯誤：找不到 java 執行檔"
 
-#: khtml/java/kjavaappletserver.cpp:664
+#: khtml/java/kjavaappletserver.cpp:663
 msgid "Signed by (validation: "
 msgstr "簽署者(驗證："
 
-#: khtml/java/kjavaappletserver.cpp:666
+#: khtml/java/kjavaappletserver.cpp:665
 msgid "Certificate (validation: "
 msgstr "證書(驗證："
 
-#: khtml/java/kjavaappletserver.cpp:669
+#: khtml/java/kjavaappletserver.cpp:668
 msgid "Ok"
 msgstr "Ok"
 
-#: khtml/java/kjavaappletserver.cpp:671
+#: khtml/java/kjavaappletserver.cpp:670
 msgid "NoCARoot"
 msgstr "NoCARoot"
 
-#: khtml/java/kjavaappletserver.cpp:673
+#: khtml/java/kjavaappletserver.cpp:672
 msgid "InvalidPurpose"
 msgstr "用途不合"
 
-#: khtml/java/kjavaappletserver.cpp:675
+#: khtml/java/kjavaappletserver.cpp:674
 msgid "PathLengthExceeded"
 msgstr "超出路徑長度"
 
-#: khtml/java/kjavaappletserver.cpp:677
+#: khtml/java/kjavaappletserver.cpp:676
 msgid "InvalidCA"
 msgstr "CA證書無效"
 
-#: khtml/java/kjavaappletserver.cpp:679
+#: khtml/java/kjavaappletserver.cpp:678
 msgid "Expired"
 msgstr "已過期"
 
-#: khtml/java/kjavaappletserver.cpp:681
+#: khtml/java/kjavaappletserver.cpp:680
 msgid "SelfSigned"
 msgstr "自簽署的"
 
-#: khtml/java/kjavaappletserver.cpp:683
+#: khtml/java/kjavaappletserver.cpp:682
 msgid "ErrorReadingRoot"
 msgstr "讀取根證書時發生錯誤"
 
-#: khtml/java/kjavaappletserver.cpp:685
+#: khtml/java/kjavaappletserver.cpp:684
 msgid "Revoked"
 msgstr "已撤銷"
 
-#: khtml/java/kjavaappletserver.cpp:687
+#: khtml/java/kjavaappletserver.cpp:686
 msgid "Untrusted"
 msgstr "不可信的"
 
-#: khtml/java/kjavaappletserver.cpp:689
+#: khtml/java/kjavaappletserver.cpp:688
 msgid "SignatureFailed"
 msgstr "簽署失敗"
 
-#: khtml/java/kjavaappletserver.cpp:691
+#: khtml/java/kjavaappletserver.cpp:690
 msgid "Rejected"
 msgstr "已拒絕"
 
-#: khtml/java/kjavaappletserver.cpp:693
+#: khtml/java/kjavaappletserver.cpp:692
 msgid "PrivateKeyFailed"
 msgstr "個人密錀失敗"
 
-#: khtml/java/kjavaappletserver.cpp:695
+#: khtml/java/kjavaappletserver.cpp:694
 msgid "InvalidHost"
 msgstr "錯誤主機"
 
-#: khtml/java/kjavaappletserver.cpp:831
+#: khtml/java/kjavaappletserver.cpp:830
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "你是否允許有下列證書的 Java applet："
 
-#: khtml/java/kjavaappletserver.cpp:833
+#: khtml/java/kjavaappletserver.cpp:832
 msgid "the following permission"
 msgstr "接著的權限"
 
-#: khtml/java/kjavaappletserver.cpp:847
+#: khtml/java/kjavaappletserver.cpp:846
 msgid "&Reject All"
 msgstr "全部拒絕(&R)"
 
-#: khtml/java/kjavaappletserver.cpp:853
+#: khtml/java/kjavaappletserver.cpp:852
 msgid "&Grant All"
 msgstr "全部允許(&R)"
 
@@ -10086,11 +10086,11 @@ msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "下一步(&N)"
 
-#: kde3support/kdeui/k3spell.cpp:1177
+#: kde3support/kdeui/k3spell.cpp:1205
 msgid "You have to restart the dialog for changes to take effect"
 msgstr "你必須重新啟動對話盒來使設定生效"
 
-#: kde3support/kdeui/k3spell.cpp:1403
+#: kde3support/kdeui/k3spell.cpp:1431
 msgid "Spell Checker"
 msgstr "拼字檢查程式"
 
