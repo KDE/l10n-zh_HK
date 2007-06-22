@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-21 05:11+0200\n"
+"POT-Creation-Date: 2007-06-22 05:13+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -43,7 +43,7 @@ msgstr "搜尋套件"
 msgid "Find:"
 msgstr "搜尋:"
 
-#: findf.cpp:91 managementWidget.cpp:90
+#: findf.cpp:91
 msgid "Installed"
 msgstr "已安裝"
 
@@ -224,47 +224,65 @@ msgid "KPackage"
 msgstr "KPackage"
 
 #: managementWidget.cpp:91
-msgid "Updated"
-msgstr "已更新"
+#, fuzzy
+#| msgid "Install Marked"
+msgid "Installed Packages"
+msgstr "安裝已標記的"
 
 #: managementWidget.cpp:92
-msgid "New"
-msgstr "新的"
+#, fuzzy
+#| msgid "Packages"
+msgid "New Packages"
+msgstr "套件"
 
 #: managementWidget.cpp:93
-msgid "All"
-msgstr "全部"
+#, fuzzy
+#| msgid "Replace Packages"
+msgid "Updated Packages"
+msgstr "取代套件"
 
-#: managementWidget.cpp:146
+#: managementWidget.cpp:94
+#, fuzzy
+#| msgid "available as"
+msgid "Available Packages"
+msgstr "存在於"
+
+#: managementWidget.cpp:95
+#, fuzzy
+#| msgid "Packages"
+msgid "All Packages"
+msgstr "套件"
+
+#: managementWidget.cpp:132
 msgid "Search: "
 msgstr "搜尋: "
 
-#: managementWidget.cpp:175
+#: managementWidget.cpp:159
 msgid "Uninstall Marked"
 msgstr "反安裝已標記的"
 
-#: managementWidget.cpp:179
+#: managementWidget.cpp:163
 msgid "Install Marked"
 msgstr "安裝已標記的"
 
-#: managementWidget.cpp:204 pkgOptions.cpp:400 pkgOptions.cpp:403
+#: managementWidget.cpp:188 pkgOptions.cpp:400 pkgOptions.cpp:403
 msgid "Uninstall"
 msgstr "反安裝"
 
-#: managementWidget.cpp:208 managementWidget.cpp:275 pkgOptions.cpp:384
+#: managementWidget.cpp:192 managementWidget.cpp:259 pkgOptions.cpp:384
 #: pkgOptions.cpp:387
 msgid "Install"
 msgstr "安裝"
 
-#: managementWidget.cpp:277
+#: managementWidget.cpp:261
 msgid "Fetch"
 msgstr "取得"
 
-#: managementWidget.cpp:365
+#: managementWidget.cpp:350
 msgid "Building package tree"
 msgstr "正在建立套件的樹狀結構"
 
-#: managementWidget.cpp:487
+#: managementWidget.cpp:472
 #, fuzzy
 msgid "Filename not available\n"
 msgstr "檔案名稱不存在\n"
@@ -831,6 +849,15 @@ msgstr "套件庫"
 msgid "File truncated..."
 msgstr "被截去的檔案..."
 
+#~ msgid "Updated"
+#~ msgstr "已更新"
+
+#~ msgid "New"
+#~ msgstr "新的"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
 #~ msgid "PACKAGES"
 #~ msgstr "套件"
 
@@ -928,9 +955,6 @@ msgstr "被截去的檔案..."
 #~ msgid "Location of Ports Tree (e.g. /usr/ports or /usr/opt)"
 #~ msgstr "Ports 目錄樹（如 /usr/ports 或 /usr/opt）的位置"
 
-#~ msgid "Packages"
-#~ msgstr "套件"
-
 #~ msgid "Location of Folders Containing BSD Packages or Package Trees"
 #~ msgstr "含有 BSD 套件或套件目錄樹的資料夾的位置"
 
@@ -988,9 +1012,6 @@ msgstr "被截去的檔案..."
 
 #~ msgid "Replace Files"
 #~ msgstr "取代檔案"
-
-#~ msgid "Replace Packages"
-#~ msgstr "取代套件"
 
 #~ msgid "Use Scripts"
 #~ msgstr "使用命令稿"
