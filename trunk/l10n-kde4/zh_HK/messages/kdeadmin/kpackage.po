@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-23 05:23+0200\n"
+"POT-Creation-Date: 2007-06-26 05:23+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -87,96 +87,88 @@ msgstr "你要求的行動需要系統管理員（root）權限。請輸入你�
 msgid "Login Problem: Please login manually"
 msgstr "登入問題：請手動登入"
 
-#: kpackage.cpp:105
+#: kpackage.cpp:104
 msgid "Find &Package..."
 msgstr "搜尋套件(&P)..."
 
-#: kpackage.cpp:111
+#: kpackage.cpp:110
 msgid "Find &File..."
 msgstr "搜尋檔案(&F)..."
 
-#: kpackage.cpp:116
+#: kpackage.cpp:115
 msgid "&Reload"
 msgstr ""
 
-#: kpackage.cpp:134
+#: kpackage.cpp:133
 msgid "&Expand Tree"
 msgstr "展開樹狀結構(&E)"
 
-#: kpackage.cpp:140
+#: kpackage.cpp:139
 msgid "&Collapse Tree"
 msgstr "摺疊樹狀結構(&C)"
 
-#: kpackage.cpp:145
+#: kpackage.cpp:144
 msgid "Clear &Marked"
 msgstr "清除已標記的(&M)"
 
-#: kpackage.cpp:149
+#: kpackage.cpp:148
 msgid "Mark &All"
 msgstr "全部標記(&A)"
 
-#: kpackage.cpp:153
+#: kpackage.cpp:152
 msgid "&Install"
 msgstr "安裝(&I)"
 
-#: kpackage.cpp:161
+#: kpackage.cpp:160
 msgid "&Uninstall"
 msgstr "反安裝(&U)"
 
-#: kpackage.cpp:169
+#: kpackage.cpp:168
 msgid "&Install Marked"
 msgstr "安裝已標記的(&I)"
 
-#: kpackage.cpp:174
+#: kpackage.cpp:173
 msgid "&Uninstall Marked"
 msgstr "反安裝已標記的(&U)"
 
-#: kpackage.cpp:188
+#: kpackage.cpp:187
 msgid "Configure &KPackage..."
 msgstr "設定 &KPackage..."
 
-#: kpackage.cpp:194
+#: kpackage.cpp:193
 msgid "Clear Package &Folder Cache"
 msgstr "清除套件資料夾快取(&F)"
 
-#: kpackage.cpp:198
+#: kpackage.cpp:197
 msgid "Clear &Package Cache"
 msgstr "清除套件快取(&P)"
 
-#: kpackage.cpp:385
+#: kpackage.cpp:384
 msgid "Management Mode"
 msgstr "管理模式"
 
-#: kpackage.cpp:429
+#: kpackage.cpp:428
 msgid "Select Package"
 msgstr "選擇套件"
 
-#: kpackage.cpp:490
+#: kpackage.cpp:489
 #, qt-format
 msgid "Unknown package type: %1"
 msgstr "未知的套件類型： %1"
 
-#: kpackage.cpp:492
+#: kpackage.cpp:491
 #, qt-format
 msgid "File not found: %1"
 msgstr "找不到檔案： %1"
 
-#: kpackage.cpp:594
+#: kpackage.cpp:593
 #, qt-format
 msgid "Malformed URL: %1"
 msgstr "格式錯誤的 URL： %1"
 
-#: kpackage.cpp:640
+#: kpackage.cpp:639
 msgid "Starting KIO"
 msgstr "正在啟動 KIO"
-
-#: kpackage.cpp:645
-msgid "KIO finished"
-msgstr "KIO 完成"
-
-#: kpackage.cpp:657
-msgid "KIO failed"
-msgstr "KIO 失敗"
 
 #: kpackage.cpp:670
 msgid "Open location:"
@@ -273,11 +265,11 @@ msgstr "安裝"
 msgid "Fetch"
 msgstr "取得"
 
-#: managementWidget.cpp:354
+#: managementWidget.cpp:352
 msgid "Building package tree"
 msgstr "正在建立套件的樹狀結構"
 
-#: managementWidget.cpp:476
+#: managementWidget.cpp:474
 #, fuzzy
 msgid "Filename not available\n"
 msgstr "檔案名稱不存在\n"
@@ -572,11 +564,51 @@ msgstr "存在於"
 msgid "none"
 msgstr "無"
 
-#: pkgInterface.cpp:72
+#: pkgInterface.cpp:70
 msgid "'Delete this window to continue'"
 msgstr "『關掉本視窗以繼續』"
 
-#: pkgInterface.cpp:271
+#: pkgInterface.cpp:327
+#, fuzzy
+#| msgid "Querying package list: "
+msgid "Querying package state"
+msgstr "正在查詢套件清單："
+
+#: pkgInterface.cpp:395
+#, fuzzy
+#| msgid "Querying Gentoo package list: "
+msgid "Querying installed package list"
+msgstr "正在查詢 Gentoo 套件清單："
+
+#: pkgInterface.cpp:416
+#, fuzzy
+#| msgid "Getting package info"
+msgid "Generating package information"
+msgstr "正在擷取套件資訊"
+
+#: pkgInterface.cpp:423
+#, fuzzy
+#| msgid "Getting package info"
+msgid "Processing package information"
+msgstr "正在擷取套件資訊"
+
+#: pkgInterface.cpp:461
+#, fuzzy, qt-format
+#| msgid "Querying SLACK package list: "
+msgid "Querying SMART package list: %1"
+msgstr "正在查詢 SLACK 套件清單："
+
+#: pkgInterface.cpp:473
+#, fuzzy, qt-format
+#| msgid "Processing RPM package list"
+msgid "Processing SMART package list: %1"
+msgstr "正在處理 RPM 套件清單"
+
+#: pkgInterface.cpp:515
+msgid "SMART"
+msgstr ""
+
+#: pkgInterface.cpp:532
 msgid "Verifying"
 msgstr "正在檢驗"
 
@@ -701,89 +733,55 @@ msgid ""
 "function"
 msgstr ""
 
-#: smartInterface.cpp:491
+#: smartInterface.cpp:320
 #, fuzzy
 msgid "&Update"
 msgstr "已更新"
 
-#: smartInterface.cpp:495
+#: smartInterface.cpp:324
 msgid "U&pgrade"
 msgstr "升級(&P)"
 
-#: smartInterface.cpp:499
+#: smartInterface.cpp:328
 msgid "&Fixup"
 msgstr "修補(&F)"
 
-#: smartInterface.cpp:503
+#: smartInterface.cpp:332
 msgid "&Apt-File Update"
 msgstr "&Apt-File 更新"
 
-#: smartInterface.cpp:546
+#: smartInterface.cpp:375
 #, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "需要安裝 %1 程式"
 
-#: smartInterface.cpp:554
-#, fuzzy
-#| msgid "Querying package list: "
-msgid "Querying package state"
-msgstr "正在查詢套件清單："
-
-#: smartInterface.cpp:621
-#, fuzzy
-#| msgid "Querying Gentoo package list: "
-msgid "Querying installed package list"
-msgstr "正在查詢 Gentoo 套件清單："
-
-#: smartInterface.cpp:642
-#, fuzzy
-#| msgid "Getting package info"
-msgid "Generating package information"
-msgstr "正在擷取套件資訊"
-
-#: smartInterface.cpp:649
-#, fuzzy
-#| msgid "Getting package info"
-msgid "Processing package information"
-msgstr "正在擷取套件資訊"
-
-#: smartInterface.cpp:687
-#, fuzzy, qt-format
-#| msgid "Querying SLACK package list: "
-msgid "Querying SMART package list: %1"
-msgstr "正在查詢 SLACK 套件清單："
-
-#: smartInterface.cpp:699
-#, fuzzy, qt-format
-#| msgid "Processing RPM package list"
-msgid "Processing SMART package list: %1"
-msgstr "正在處理 RPM 套件清單"
-
-#: smartInterface.cpp:741
-msgid "SMART"
-msgstr ""
-
-#: smartInterface.cpp:755
+#: smartInterface.cpp:389
 msgid "Querying DEB APT available list"
 msgstr "正在查詢 DEB APT 可用的清單"
 
-#: smartInterface.cpp:757
+#: smartInterface.cpp:391
 #, qt-format
 msgid "Querying DEB APT available list: %1"
 msgstr "正在查詢 DEB APT 可用的清單： %1"
 
-#: smartInterface.cpp:762
+#: smartInterface.cpp:396
 msgid "Processing DEB APT available list"
 msgstr "正在處理 DEB APT 可用的清單"
 
-#: smartInterface.cpp:764
+#: smartInterface.cpp:398
 #, qt-format
 msgid "Processing DEB APT available list: %1"
 msgstr "正在處理 DEB APT 可用的清單： %1"
 
-#: smartInterface.cpp:798
+#: smartInterface.cpp:432
 msgid "DEB APT"
 msgstr "DEB APT"
+
+#~ msgid "KIO finished"
+#~ msgstr "KIO 完成"
+
+#~ msgid "KIO failed"
+#~ msgstr "KIO 失敗"
 
 #~ msgid "Cannot create folder %1"
 #~ msgstr "無法建立資料夾 %1"
