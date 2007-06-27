@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-26 05:23+0200\n"
+"POT-Creation-Date: 2007-06-27 05:26+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -87,90 +87,82 @@ msgstr "你要求的行動需要系統管理員（root）權限。請輸入你�
 msgid "Login Problem: Please login manually"
 msgstr "登入問題：請手動登入"
 
-#: kpackage.cpp:104
+#: kpackage.cpp:105
 msgid "Find &Package..."
 msgstr "搜尋套件(&P)..."
 
-#: kpackage.cpp:110
+#: kpackage.cpp:111
 msgid "Find &File..."
 msgstr "搜尋檔案(&F)..."
 
-#: kpackage.cpp:115
+#: kpackage.cpp:116
 msgid "&Reload"
 msgstr ""
 
-#: kpackage.cpp:133
+#: kpackage.cpp:134
 msgid "&Expand Tree"
 msgstr "展開樹狀結構(&E)"
 
-#: kpackage.cpp:139
+#: kpackage.cpp:140
 msgid "&Collapse Tree"
 msgstr "摺疊樹狀結構(&C)"
 
-#: kpackage.cpp:144
+#: kpackage.cpp:145
 msgid "Clear &Marked"
 msgstr "清除已標記的(&M)"
 
-#: kpackage.cpp:148
+#: kpackage.cpp:149
 msgid "Mark &All"
 msgstr "全部標記(&A)"
 
-#: kpackage.cpp:152
+#: kpackage.cpp:153
 msgid "&Install"
 msgstr "安裝(&I)"
 
-#: kpackage.cpp:160
+#: kpackage.cpp:161
 msgid "&Uninstall"
 msgstr "反安裝(&U)"
 
-#: kpackage.cpp:168
+#: kpackage.cpp:169
 msgid "&Install Marked"
 msgstr "安裝已標記的(&I)"
 
-#: kpackage.cpp:173
+#: kpackage.cpp:174
 msgid "&Uninstall Marked"
 msgstr "反安裝已標記的(&U)"
 
-#: kpackage.cpp:187
+#: kpackage.cpp:188
 msgid "Configure &KPackage..."
 msgstr "設定 &KPackage..."
 
-#: kpackage.cpp:193
-msgid "Clear Package &Folder Cache"
-msgstr "清除套件資料夾快取(&F)"
-
-#: kpackage.cpp:197
-msgid "Clear &Package Cache"
-msgstr "清除套件快取(&P)"
-
-#: kpackage.cpp:384
+#: kpackage.cpp:372
 msgid "Management Mode"
 msgstr "管理模式"
 
-#: kpackage.cpp:428
+#: kpackage.cpp:416
 msgid "Select Package"
 msgstr "選擇套件"
 
-#: kpackage.cpp:489
+#: kpackage.cpp:475
 #, qt-format
 msgid "Unknown package type: %1"
 msgstr "未知的套件類型： %1"
 
-#: kpackage.cpp:491
+#: kpackage.cpp:477
 #, qt-format
 msgid "File not found: %1"
 msgstr "找不到檔案： %1"
 
-#: kpackage.cpp:593
+#: kpackage.cpp:579
 #, qt-format
 msgid "Malformed URL: %1"
 msgstr "格式錯誤的 URL： %1"
 
-#: kpackage.cpp:639
+#: kpackage.cpp:625
 msgid "Starting KIO"
 msgstr "正在啟動 KIO"
 
-#: kpackage.cpp:670
+#: kpackage.cpp:657
 msgid "Open location:"
 msgstr "開啟位置:"
 
@@ -564,51 +556,64 @@ msgstr "存在於"
 msgid "none"
 msgstr "無"
 
-#: pkgInterface.cpp:70
+#: pkgInterface.cpp:73
 msgid "'Delete this window to continue'"
 msgstr "『關掉本視窗以繼續』"
 
-#: pkgInterface.cpp:327
+#: pkgInterface.cpp:99
+#, fuzzy
+msgid "&Update"
+msgstr "已更新"
+
+#: pkgInterface.cpp:103
+msgid "U&pgrade"
+msgstr "升級(&P)"
+
+#: pkgInterface.cpp:107
+msgid "&Fixup"
+msgstr "修補(&F)"
+
+#: pkgInterface.cpp:344
 #, fuzzy
 #| msgid "Querying package list: "
 msgid "Querying package state"
 msgstr "正在查詢套件清單："
 
-#: pkgInterface.cpp:395
+#: pkgInterface.cpp:412
 #, fuzzy
 #| msgid "Querying Gentoo package list: "
 msgid "Querying installed package list"
 msgstr "正在查詢 Gentoo 套件清單："
 
-#: pkgInterface.cpp:416
+#: pkgInterface.cpp:433
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Generating package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:423
+#: pkgInterface.cpp:440
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Processing package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:461
+#: pkgInterface.cpp:478
 #, fuzzy, qt-format
 #| msgid "Querying SLACK package list: "
 msgid "Querying SMART package list: %1"
 msgstr "正在查詢 SLACK 套件清單："
 
-#: pkgInterface.cpp:473
+#: pkgInterface.cpp:490
 #, fuzzy, qt-format
 #| msgid "Processing RPM package list"
 msgid "Processing SMART package list: %1"
 msgstr "正在處理 RPM 套件清單"
 
-#: pkgInterface.cpp:515
+#: pkgInterface.cpp:532
 msgid "SMART"
 msgstr ""
 
-#: pkgInterface.cpp:532
+#: pkgInterface.cpp:549
 msgid "Verifying"
 msgstr "正在檢驗"
 
@@ -648,41 +653,35 @@ msgid "&File"
 msgstr " 檔案"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 13
+#. i18n: file kpackageui.rc line 17
 #: rc.cpp:6
 msgid "&Packages"
 msgstr "套件(&P)"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 30
+#. i18n: file kpackageui.rc line 34
 #: rc.cpp:9
-msgid "&Cache"
-msgstr "快取(&C)"
-
-#. i18n: tag text
-#. i18n: file kpackageui.rc line 36
-#: rc.cpp:12
 msgid "Spe&cial"
 msgstr "特別的(&C)"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 38
-#: rc.cpp:15
+#. i18n: file kpackageui.rc line 36
+#: rc.cpp:12
 msgid "&APT: Debian"
 msgstr "&APT: Debian"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 47
-#: rc.cpp:18
+#. i18n: file kpackageui.rc line 42
+#: rc.cpp:15
 msgid "&Settings"
 msgstr ""
 
-#: rc.cpp:19
+#: rc.cpp:16
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Allen Huang,Chao-Hsiung Liao,Walter Cheuk"
 
-#: rc.cpp:20
+#: rc.cpp:17
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -705,77 +704,73 @@ msgstr "備註"
 msgid "%1 was not found."
 msgstr "找不到 %1 。"
 
-#: smartInterface.cpp:65
+#: smartInterface.cpp:64
 #, fuzzy
 #| msgid "Summary"
 msgid "Smart"
 msgstr "摘要"
 
-#: smartInterface.cpp:67
+#: smartInterface.cpp:66
 #, fuzzy
 #| msgid "Querying SLACK package list: "
 msgid "Querying SMART package list: "
 msgstr "正在查詢 SLACK 套件清單："
 
-#: smartInterface.cpp:68
+#: smartInterface.cpp:67
 #, fuzzy
 #| msgid "KPackage: Waiting on SLACK"
 msgid "KPackage: Waiting on SMART"
 msgstr "KPackage：正在等待 SLACK"
 
-#: smartInterface.cpp:73
+#: smartInterface.cpp:72
 msgid "Download only"
 msgstr "只下載"
 
-#: smartInterface.cpp:84
+#: smartInterface.cpp:83
 msgid ""
 "Kpackage requires the SMART Package Manager to be installed in order to "
 "function"
 msgstr ""
 
 #: smartInterface.cpp:320
-#, fuzzy
-msgid "&Update"
-msgstr "已更新"
-
-#: smartInterface.cpp:324
-msgid "U&pgrade"
-msgstr "升級(&P)"
-
-#: smartInterface.cpp:328
-msgid "&Fixup"
-msgstr "修補(&F)"
-
-#: smartInterface.cpp:332
 msgid "&Apt-File Update"
 msgstr "&Apt-File 更新"
 
-#: smartInterface.cpp:375
+#: smartInterface.cpp:340
 #, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "需要安裝 %1 程式"
 
-#: smartInterface.cpp:389
+#: smartInterface.cpp:354
 msgid "Querying DEB APT available list"
 msgstr "正在查詢 DEB APT 可用的清單"
 
-#: smartInterface.cpp:391
+#: smartInterface.cpp:356
 #, qt-format
 msgid "Querying DEB APT available list: %1"
 msgstr "正在查詢 DEB APT 可用的清單： %1"
 
-#: smartInterface.cpp:396
+#: smartInterface.cpp:361
 msgid "Processing DEB APT available list"
 msgstr "正在處理 DEB APT 可用的清單"
 
-#: smartInterface.cpp:398
+#: smartInterface.cpp:363
 #, qt-format
 msgid "Processing DEB APT available list: %1"
 msgstr "正在處理 DEB APT 可用的清單： %1"
 
-#: smartInterface.cpp:432
+#: smartInterface.cpp:397
 msgid "DEB APT"
 msgstr "DEB APT"
+
+#~ msgid "Clear Package &Folder Cache"
+#~ msgstr "清除套件資料夾快取(&F)"
+
+#~ msgid "Clear &Package Cache"
+#~ msgstr "清除套件快取(&P)"
+
+#~ msgid "&Cache"
+#~ msgstr "快取(&C)"
 
 #~ msgid "KIO finished"
 #~ msgstr "KIO 完成"
