@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-26 05:23+0200\n"
+"POT-Creation-Date: 2007-07-03 05:07+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -56,6 +56,12 @@ msgstr "設定 - 混音小程式"
 msgid "KMix Panel Applet"
 msgstr "KMix 面板小程式"
 
+#: kmixapplet.cpp:164
+#, fuzzy
+#| msgid "Configure - Mixer Applet"
+msgid "Mini Sound Mixer Applet"
+msgstr "設定 - 混音小程式"
+
 #: kmixapplet.cpp:165
 msgid ""
 "(c) 1996-2000 Christian Esken\n"
@@ -91,16 +97,24 @@ msgid "kmixctrl - kmix volume save/restore utility"
 msgstr "kmixctrl - kmix 音量儲存/復原工具"
 
 #: kmixctrl.cpp:41
+msgid "KMixCtrl"
+msgstr "KMixCtrl"
+
+#: kmixctrl.cpp:43
+msgid "(c) 2000 by Stefan Schimanski"
+msgstr ""
+
+#: kmixctrl.cpp:45 main.cpp:47
+msgid "Stefan Schimanski"
+msgstr ""
+
+#: kmixctrl.cpp:51
 msgid "Save current volumes as default"
 msgstr "儲存當前音量為預設音量"
 
-#: kmixctrl.cpp:43
+#: kmixctrl.cpp:53
 msgid "Restore default volumes"
 msgstr "回復到預設音量"
-
-#: kmixctrl.cpp:51
-msgid "KMixCtrl"
-msgstr "KMixCtrl"
 
 #: kmixdevicemanager.cpp:42
 msgid "kmixd - Soundcard Mixer Device Manager"
@@ -108,6 +122,10 @@ msgstr ""
 
 #: kmixdevicemanager.cpp:87
 msgid "Soundcard Mixer Device Manager"
+msgstr ""
+
+#: kmixdevicemanager.cpp:89
+msgid "(c) 2007 by Christian Esken"
 msgstr ""
 
 #: kmixdockwidget.cpp:75
@@ -208,15 +226,10 @@ msgid "KMix - KDE's full featured mini mixer"
 msgstr "KMix - KDE 的全功能小型混音器"
 
 #: main.cpp:36
-msgid ""
-"Inhibits the unhiding of the KMix main window, if KMix is already running."
-msgstr ""
-
-#: main.cpp:43
 msgid "KMix"
 msgstr "KMix"
 
-#: main.cpp:45
+#: main.cpp:38
 msgid ""
 "(c) 1996-2000 Christian Esken\n"
 "(c) 2000-2003 Christian Esken, Stefan Schimanski\n"
@@ -226,32 +239,75 @@ msgstr ""
 "(c) 2000-2003 Christian Esken, Stefan Schimanski\n"
 "(c) 2002-2005 Christian Esken, Helio Chissini de Castro"
 
-#: main.cpp:48
+#: main.cpp:40
+msgid "Christian Esken"
+msgstr ""
+
+#: main.cpp:40
+#, fuzzy
+#| msgid "Current mixer"
+msgid "Current maintainer"
+msgstr "當前混音器"
+
+#: main.cpp:41
+msgid "Helio Chissini de Castro"
+msgstr ""
+
+#: main.cpp:41
 msgid "Co-maintainer, Alsa 0.9x port"
 msgstr ""
 
-#: main.cpp:49
+#: main.cpp:42
+msgid "Brian Hanson"
+msgstr ""
+
+#: main.cpp:42
 msgid "Solaris port"
 msgstr "Solaris 移植"
 
-#: main.cpp:54
+#: main.cpp:47
 msgid "Temporary maintainer"
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:48
+msgid "Erwin Mascher"
+msgstr ""
+
+#: main.cpp:48
 msgid "Improving support for emu10k1 based soundcards"
 msgstr ""
 
-#: main.cpp:56 main.cpp:57
+#: main.cpp:49
+msgid "Sebestyen Zoltan"
+msgstr ""
+
+#: main.cpp:49 main.cpp:50
 msgid "*BSD fixes"
 msgstr "*BSD 修正"
 
-#: main.cpp:58
+#: main.cpp:50
+msgid "Lennart Augustsson"
+msgstr ""
+
+#: main.cpp:51
+msgid "Nick Lopez"
+msgstr ""
+
+#: main.cpp:51
 msgid "ALSA port"
 msgstr "ALSA 移植"
 
-#: main.cpp:59
+#: main.cpp:52
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:52
 msgid "Mute and volume preview, other fixes"
+msgstr ""
+
+#: main.cpp:57
+msgid ""
+"Inhibits the unhiding of the KMix main window, if KMix is already running."
 msgstr ""
 
 #: mdwenum.cpp:62 mdwslider.cpp:75 mdwswitch.cpp:60

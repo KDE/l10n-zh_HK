@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kviewshell\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-21 05:47+0200\n"
+"POT-Creation-Date: 2007-07-03 05:09+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -731,7 +731,98 @@ msgstr "正在匯出至文字..."
 msgid "Abort"
 msgstr "中止"
 
-#: main.cpp:22
+#: main.cpp:20
+msgid "Generic framework for viewer applications"
+msgstr "檢視應用程式的一般框架"
+
+#: main.cpp:25
+msgid "Ligature"
+msgstr ""
+
+#: main.cpp:27
+msgid ""
+"(C) 2000, Matthias Hoelzer-Kluepfel\n"
+"(C) 2004-2006, Wilfried Huss"
+msgstr ""
+
+#: main.cpp:29
+msgid ""
+"Displays various document formats. Based on original code from KGhostView."
+msgstr "顯示不同的文件格式。基於 KGhostView 的原始碼。"
+
+#: main.cpp:31
+msgid "Wilfried Huss"
+msgstr ""
+
+#: main.cpp:31
+msgid "Current Maintainer"
+msgstr "目前維護者"
+
+#: main.cpp:33
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr ""
+
+#: main.cpp:33
+msgid "Framework"
+msgstr "框架"
+
+#: main.cpp:35
+msgid "David Sweet"
+msgstr ""
+
+#: main.cpp:36
+msgid "KGhostView Maintainer"
+msgstr "KGhostView 維護者"
+
+#: main.cpp:39
+msgid "Mark Donohoe"
+msgstr ""
+
+#: main.cpp:40
+msgid "KGhostView Author"
+msgstr "KGhostView 作者"
+
+#: main.cpp:41
+msgid "Markku Hihnala"
+msgstr ""
+
+#: main.cpp:42
+msgid "Navigation widgets"
+msgstr "導覽配件"
+
+#: main.cpp:43
+msgid "David Faure"
+msgstr ""
+
+#: main.cpp:44
+msgid "Basis for shell"
+msgstr "shell 基礎"
+
+#: main.cpp:45
+msgid "Daniel Duley"
+msgstr ""
+
+#: main.cpp:46
+msgid "Port to KParts"
+msgstr "移植至 KParts"
+
+#: main.cpp:47
+msgid "Espen Sand"
+msgstr ""
+
+#: main.cpp:48
+msgid "Dialog boxes"
+msgstr "對話框"
+
+#: main.cpp:49
+msgid "Stefan Kebekus"
+msgstr ""
+
+#: main.cpp:50
+msgid "DCOP-Interface, major improvements"
+msgstr "DCOP-Interface, 較大的改進"
+
+#: main.cpp:57
 #, fuzzy
 msgid ""
 "Check if the file is loaded in another ligature.\n"
@@ -740,75 +831,26 @@ msgstr ""
 "檢查檔案是否已在另一個 kviewshell 載入。如果是，則升起該 kviewshell 。否則載"
 "入該檔案。"
 
-#: main.cpp:24
+#: main.cpp:59
 msgid ""
 "Loads a plugin which supports files of type <mimetype>,\n"
 "if one is installed."
 msgstr ""
 
-#: main.cpp:26
+#: main.cpp:61
 msgid "Navigate to this page"
 msgstr "導覽至此頁"
 
-#: main.cpp:27
+#: main.cpp:62
 msgid "Files to load"
 msgstr "要載入的檔案"
 
-#: main.cpp:32
-msgid "Generic framework for viewer applications"
-msgstr "檢視應用程式的一般框架"
-
-#: main.cpp:37
-msgid "Ligature"
-msgstr ""
-
-#: main.cpp:41
-msgid ""
-"Displays various document formats. Based on original code from KGhostView."
-msgstr "顯示不同的文件格式。基於 KGhostView 的原始碼。"
-
-#: main.cpp:43
-msgid "Current Maintainer"
-msgstr "目前維護者"
-
-#: main.cpp:45
-msgid "Framework"
-msgstr "框架"
-
-#: main.cpp:48
-msgid "KGhostView Maintainer"
-msgstr "KGhostView 維護者"
-
-#: main.cpp:52
-msgid "KGhostView Author"
-msgstr "KGhostView 作者"
-
-#: main.cpp:54
-msgid "Navigation widgets"
-msgstr "導覽配件"
-
-#: main.cpp:56
-msgid "Basis for shell"
-msgstr "shell 基礎"
-
-#: main.cpp:58
-msgid "Port to KParts"
-msgstr "移植至 KParts"
-
-#: main.cpp:60
-msgid "Dialog boxes"
-msgstr "對話框"
-
-#: main.cpp:62
-msgid "DCOP-Interface, major improvements"
-msgstr "DCOP-Interface, 較大的改進"
-
-#: main.cpp:94
+#: main.cpp:91
 #, qt-format
 msgid "The URL %1 is not well-formed."
 msgstr "位址 %1 不是正確的格式。"
 
-#: main.cpp:100
+#: main.cpp:97
 #, qt-format
 msgid ""
 "The URL %1 does not point to a local file. You can only specify local files "
@@ -817,7 +859,7 @@ msgstr ""
 "位址 %1 並沒有指到本機檔案。如果您使用『--unique』的選項時，您只能指定本機檔"
 "案。"
 
-#: main.cpp:107
+#: main.cpp:104
 msgid ""
 "You can not read from standard input if you are using the '--unique' option."
 msgstr ""

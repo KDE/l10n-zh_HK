@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kghostview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-13 17:42+0200\n"
+"POT-Creation-Date: 2007-07-03 05:06+0200\n"
 "PO-Revision-Date: 2006-01-09 23:32+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -238,6 +238,11 @@ msgid ""
 "Viewer for PostScript (.ps, .eps) and Portable Document Format (.pdf) files"
 msgstr "PostScript(.ps, .eps) 及可攜式文件格式 (.pdf) 檔的閱覽器。"
 
+#: kgv_view.cpp:396
+msgid ""
+"(C) 1998 Mark Donohoe, (C) 1999-2000 David Sweet, (C) 2000-2003 Wilco Greven"
+msgstr ""
+
 #: kgv_view.cpp:398
 msgid ""
 "KGhostView displays, prints, and saves PostScript and PDF files.\n"
@@ -246,37 +251,77 @@ msgstr ""
 "KGhostView 能顯示、列印及儲存 PostScript 及 PDF 檔。\n"
 "建基於 Tim Theisen 的原有創作。"
 
+#: kgv_view.cpp:401
+msgid "Luís Pedro Coelho"
+msgstr ""
+
 #: kgv_view.cpp:402
 msgid "Current maintainer"
 msgstr "目前維護者"
+
+#: kgv_view.cpp:405
+msgid "Wilco Greven"
+msgstr ""
 
 #: kgv_view.cpp:406
 msgid "Maintainer 2000-2003"
 msgstr "維護者 2000-2003"
 
+#: kgv_view.cpp:408
+msgid "David Sweet"
+msgstr ""
+
 #: kgv_view.cpp:409
 msgid "Maintainer 1999-2000"
 msgstr "維護者 1999-2000"
+
+#: kgv_view.cpp:412
+#, fuzzy
+#| msgid "&Monochrome"
+msgid "Mark Donohoe"
+msgstr "單色(&M)"
 
 #: kgv_view.cpp:413
 msgid "Original author"
 msgstr "原作者"
 
+#: kgv_view.cpp:415
+msgid "David Faure"
+msgstr ""
+
 #: kgv_view.cpp:416
 msgid "Basis for shell"
+msgstr ""
+
+#: kgv_view.cpp:418
+msgid "Daniel Duley"
 msgstr ""
 
 #: kgv_view.cpp:419
 msgid "Port to KParts"
 msgstr "傳送給 KParts 程式"
 
+#: kgv_view.cpp:421
+msgid "Espen Sand"
+msgstr ""
+
 #: kgv_view.cpp:422
 msgid "Dialog boxes"
 msgstr "對話盒"
 
+#: kgv_view.cpp:424
+msgid "Russell Lang of Ghostgum Software Pty Ltd"
+msgstr ""
+
 #: kgv_view.cpp:425
 msgid "for contributing GSView's DSC parser."
 msgstr "貢獻 GSView 的 DSC 分析器。"
+
+#: kgv_view.cpp:428
+#, fuzzy
+#| msgid "Ghostscript Messages"
+msgid "The Ghostscript authors"
+msgstr "Ghostscipt 訊息"
 
 #: kgv_view.cpp:771
 #, qt-format
@@ -427,7 +472,7 @@ msgstr "行程被殺掉或當掉了。"
 msgid "Configure Ghostscript"
 msgstr "設定 Ghostscipt"
 
-#: main.cpp:33
+#: main.cpp:36
 msgid ""
 "Page to open. Use --page=3 to show the third page, for example. Note that if "
 "the page does not exist, any other page may be displayed"
@@ -435,33 +480,33 @@ msgstr ""
 "要開啟的頁數。例如使用 --page=3 顯示第三頁。注意，如沒有該頁，可能會顯示任何"
 "一頁"
 
-#: main.cpp:34
+#: main.cpp:37
 msgid "Magnification of the display"
 msgstr "顯示放大"
 
-#: main.cpp:35
+#: main.cpp:38
 msgid ""
 "The orientation of the shown image. Use either \"auto\", \"portrait\", "
 "\"landscape\", \"upsidedown\" or \"seascape\""
 msgstr "圖形顯示方向。使用「自動」、「直向」、「橫向」、「上下倒轉」或「橫幅」"
 
-#: main.cpp:36
+#: main.cpp:39
 msgid "Equivalent to orientation=portrait"
 msgstr "相等於 方向=直向"
 
-#: main.cpp:37
+#: main.cpp:40
 msgid "Equivalent to orientation=landscape"
 msgstr "相等於 方向=橫向"
 
-#: main.cpp:38
+#: main.cpp:41
 msgid "Equivalent to orientation=upsidedown"
 msgstr "相等於 方向=上下倒轉"
 
-#: main.cpp:39
+#: main.cpp:42
 msgid "Equivalent to orientation=seascape"
 msgstr "相等於 方向=橫幅"
 
-#: main.cpp:42
+#: main.cpp:45
 msgid "Location to open"
 msgstr "要開啟的位置"
 

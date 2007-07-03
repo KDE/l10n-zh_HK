@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-08 06:03+0200\n"
+"POT-Creation-Date: 2007-07-03 05:07+0200\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -144,72 +144,101 @@ msgstr "此選項容許你傳送特別的按鍵組合，例如 Ctrl-Alt-Del 至�
 msgid "Remote desktop connection"
 msgstr "遠端桌面連線"
 
-#: main.cpp:50
-msgid "Start in fullscreen mode"
-msgstr "以全螢幕模式開啟"
-
-#: main.cpp:52
-msgid "Start in regular window"
-msgstr "以一般視窗開啟"
-
-#: main.cpp:54
-msgid "Low quality mode (Tight Encoding, 8 bit color)"
-msgstr "低質素模式（緊緻編碼， 8 位元顏色）"
-
-#: main.cpp:56
-msgid "Medium quality mode (Tight Encoding, lossy)"
-msgstr "中等質素模式（緊緻編碼，有損性）"
-
-#: main.cpp:58
-msgid "High quality mode, default (Hextile Encoding)"
-msgstr "高質素模式，預設（Hextile 編碼）"
-
-#: main.cpp:60
-msgid "Start VNC in scaled mode"
-msgstr "在縮放模式啟動 VNC"
-
-#: main.cpp:62
-msgid "Show local cursor (VNC only)"
-msgstr "顯示本機游標（只用於 VNC）"
-
-#: main.cpp:64
-msgid "Override VNC encoding list (e.g. 'hextile raw')"
-msgstr "蓋過 VNC 編碼清單（例如『hextile raw』）"
-
-#: main.cpp:66
-msgid "Provide the password in a file"
-msgstr "以檔案形式提供密碼"
-
-#: main.cpp:67
-msgid "The name of the host, e.g. 'localhost:1'"
-msgstr "主機的名稱，例如『localhost:1』"
-
-#: main.cpp:74 maindialog.cpp:32
+#: main.cpp:50 maindialog.cpp:32
 msgid "Remote Desktop Connection"
 msgstr "遠端桌面連線"
 
-#: main.cpp:85
+#: main.cpp:52
+msgid ""
+"(c) 2001-2003, Tim Jansen(c) 2002-2003, Arend van Beelen jr.(c) 2000-2002, "
+"Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Cambridge\n"
+"(c) 1999-2003, Matthew Chapman\n"
+msgstr ""
+
+#: main.cpp:59
+msgid "Tim Jansen"
+msgstr ""
+
+#: main.cpp:60
+msgid "Arend van Beelen jr."
+msgstr ""
+
+#: main.cpp:61
 msgid "RDP backend"
 msgstr "RDP 後端"
 
-#: main.cpp:87
+#: main.cpp:62
+msgid "AT&T Laboratories Cambridge"
+msgstr ""
+
+#: main.cpp:63
 msgid "Original VNC viewer and protocol design"
 msgstr "原有 VNC 檢視器及協定設計"
 
-#: main.cpp:89
+#: main.cpp:64
+msgid "Const Kaplinsky"
+msgstr ""
+
+#: main.cpp:65
 msgid "TightVNC encoding"
 msgstr "TightVNC 編碼"
 
-#: main.cpp:91
+#: main.cpp:66
+msgid "Tridia Corporation"
+msgstr ""
+
+#: main.cpp:67
 msgid "ZLib encoding"
 msgstr "ZLib 編碼"
 
-#: main.cpp:136
+#: main.cpp:72
+msgid "Start in fullscreen mode"
+msgstr "以全螢幕模式開啟"
+
+#: main.cpp:74
+msgid "Start in regular window"
+msgstr "以一般視窗開啟"
+
+#: main.cpp:76
+msgid "Low quality mode (Tight Encoding, 8 bit color)"
+msgstr "低質素模式（緊緻編碼， 8 位元顏色）"
+
+#: main.cpp:78
+msgid "Medium quality mode (Tight Encoding, lossy)"
+msgstr "中等質素模式（緊緻編碼，有損性）"
+
+#: main.cpp:80
+msgid "High quality mode, default (Hextile Encoding)"
+msgstr "高質素模式，預設（Hextile 編碼）"
+
+#: main.cpp:82
+msgid "Start VNC in scaled mode"
+msgstr "在縮放模式啟動 VNC"
+
+#: main.cpp:84
+msgid "Show local cursor (VNC only)"
+msgstr "顯示本機游標（只用於 VNC）"
+
+#: main.cpp:86
+msgid "Override VNC encoding list (e.g. 'hextile raw')"
+msgstr "蓋過 VNC 編碼清單（例如『hextile raw』）"
+
+#: main.cpp:88
+msgid "Provide the password in a file"
+msgstr "以檔案形式提供密碼"
+
+#: main.cpp:89
+msgid "The name of the host, e.g. 'localhost:1'"
+msgstr "主機的名稱，例如『localhost:1』"
+
+#: main.cpp:133
 #, qt-format
 msgid "The password file '%1' does not exist."
 msgstr "密碼檔案『%1』不存在。"
 
-#: main.cpp:156
+#: main.cpp:153
 msgid "Wrong geometry format, must be widthXheight"
 msgstr "錯誤幾何格式，必須是「寬度X高度」"
 
