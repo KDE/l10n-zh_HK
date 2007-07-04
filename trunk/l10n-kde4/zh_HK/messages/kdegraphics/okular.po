@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:06+0200\n"
+"POT-Creation-Date: 2007-07-04 05:32+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -214,7 +214,7 @@ msgstr "標題"
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:2511 ui/embeddedfilesdialog.cpp:42
+#: core/document.cpp:2511 ui/embeddedfilesdialog.cpp:46
 msgid "Description"
 msgstr ""
 
@@ -244,11 +244,11 @@ msgstr ""
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:2529 ui/embeddedfilesdialog.cpp:43
+#: core/document.cpp:2529 ui/embeddedfilesdialog.cpp:48
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:2532 ui/embeddedfilesdialog.cpp:44
+#: core/document.cpp:2532 ui/embeddedfilesdialog.cpp:49
 msgid "Modified"
 msgstr ""
 
@@ -564,7 +564,7 @@ msgstr ""
 msgid "Order by:"
 msgstr ""
 
-#: ui/newstuff.cpp:515 ui/embeddedfilesdialog.cpp:41
+#: ui/newstuff.cpp:515 ui/embeddedfilesdialog.cpp:45
 #: ui/propertiesdialog.cpp:201
 msgid "Name"
 msgstr "名稱"
@@ -1051,31 +1051,47 @@ msgid_plural ""
 "%2 bookmarks"
 msgstr[0] ""
 
-#: ui/embeddedfilesdialog.cpp:28
+#: ui/embeddedfilesdialog.cpp:32
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/embeddedfilesdialog.cpp:33
+#: ui/embeddedfilesdialog.cpp:37
 #, fuzzy
 #| msgid "Embedded"
 msgid "Embedded Files"
 msgstr "內嵌的"
 
-#: ui/embeddedfilesdialog.cpp:81
+#: ui/embeddedfilesdialog.cpp:47
+#, fuzzy
+msgid "Size"
+msgstr "標題"
+
+#: ui/embeddedfilesdialog.cpp:65
+msgctxt "Not available size"
+msgid "N/A"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:103
+#, fuzzy
+#| msgid "Save to File..."
+msgid "Save As..."
+msgstr "儲存至檔案..."
+
+#: ui/embeddedfilesdialog.cpp:118
 #, qt-format
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/embeddedfilesdialog.cpp:85 part.cpp:1193
+#: ui/embeddedfilesdialog.cpp:123 part.cpp:1193
 #, qt-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
-#: ui/embeddedfilesdialog.cpp:85 part.cpp:1193
+#: ui/embeddedfilesdialog.cpp:123 part.cpp:1193
 msgid "Overwrite"
 msgstr ""
 
