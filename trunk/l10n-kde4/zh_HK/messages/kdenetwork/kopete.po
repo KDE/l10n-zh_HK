@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-05 05:16+0200\n"
+"POT-Creation-Date: 2007-07-06 05:13+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -169,7 +169,7 @@ msgstr "選取聯絡人"
 #: protocols/gadu/gaduprotocol.cpp:84 protocols/gadu/gaduprotocol.cpp:88
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:86
-#: protocols/oscar/icq/icqcontact.cpp:104 protocols/yahoo/yahooprotocol.cpp:44
+#: protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/meanwhile/meanwhileprotocol.cpp:41
 #: protocols/jabber/jabbercontact.cpp:171
 #: protocols/jabber/jabberprotocol.cpp:69 protocols/winpopup/wpprotocol.cpp:54
@@ -266,7 +266,7 @@ msgstr "<未知>"
 
 #: libkopete/kopetetransfermanager.cpp:272 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:606 protocols/gadu/gaducontact.cpp:100
-#: protocols/oscar/oscarcontact.cpp:302
+#: protocols/oscar/oscarcontact.cpp:299
 #: protocols/jabber/jabbercontact.cpp:1040
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:308
@@ -16805,18 +16805,18 @@ msgstr "警告用戶(&W)"
 #: protocols/oscar/aim/aimcontact.cpp:74
 #: protocols/oscar/aim/icqcontact.cpp:176
 #: protocols/oscar/icq/aimcontact.cpp:62
-#: protocols/oscar/icq/icqcontact.cpp:477
+#: protocols/oscar/icq/icqcontact.cpp:533
 msgid "Always &Visible To"
 msgstr "必定給他看見(&V)"
 
 #: protocols/oscar/aim/aimcontact.cpp:78
 #: protocols/oscar/aim/icqcontact.cpp:180
 #: protocols/oscar/icq/aimcontact.cpp:66
-#: protocols/oscar/icq/icqcontact.cpp:481
+#: protocols/oscar/icq/icqcontact.cpp:537
 msgid "Always &Invisible To"
 msgstr "必定對他隱形(&I)"
 
-#: protocols/oscar/aim/aimcontact.cpp:218
+#: protocols/oscar/aim/aimcontact.cpp:220
 #, qt-format
 msgid ""
 "<qt>Would you like to warn %1 anonymously or with your name?<br>(Warning a "
@@ -16829,16 +16829,16 @@ msgstr ""
 "告等級」增加。一旦此等級到達某一點，他們將不能簽入。請勿濫用此功能，應正當地"
 "使用它。）</qt>"
 
-#: protocols/oscar/aim/aimcontact.cpp:226
+#: protocols/oscar/aim/aimcontact.cpp:228
 #, qt-format
 msgid "Warn User %1?"
 msgstr "警告 %1 用戶嗎？"
 
-#: protocols/oscar/aim/aimcontact.cpp:227
+#: protocols/oscar/aim/aimcontact.cpp:229
 msgid "Warn Anonymously"
 msgstr "匿名地警告"
 
-#: protocols/oscar/aim/aimcontact.cpp:227
+#: protocols/oscar/aim/aimcontact.cpp:229
 msgid "Warn"
 msgstr "警告"
 
@@ -17215,12 +17215,12 @@ msgid "Xtraz Status Editor"
 msgstr ""
 
 #: protocols/oscar/icq/aimcontact.cpp:58
-#: protocols/oscar/icq/icqcontact.cpp:473
+#: protocols/oscar/icq/icqcontact.cpp:529
 msgid "&Ignore"
 msgstr "不理會(&I)"
 
 #: protocols/oscar/icq/aimcontact.cpp:70
-#: protocols/oscar/icq/icqcontact.cpp:485
+#: protocols/oscar/icq/icqcontact.cpp:541
 msgid "Select Encoding..."
 msgstr "選擇編碼..."
 
@@ -17702,7 +17702,7 @@ msgid "Fitness"
 msgstr "健美"
 
 #: protocols/oscar/icq/icqprotocol.cpp:613
-#: protocols/oscar/oscarcontact.cpp:247
+#: protocols/oscar/oscarcontact.cpp:244
 msgid "Games"
 msgstr "遊戲"
 
@@ -18118,15 +18118,15 @@ msgstr ""
 msgid "Past Organization"
 msgstr "授權"
 
-#: protocols/oscar/icq/icqcontact.cpp:230
+#: protocols/oscar/icq/icqcontact.cpp:262
 msgid "Request Authorization"
 msgstr "要求授權"
 
-#: protocols/oscar/icq/icqcontact.cpp:231
+#: protocols/oscar/icq/icqcontact.cpp:263
 msgid "Reason for requesting authorization:"
 msgstr "要求授權的理由:"
 
-#: protocols/oscar/icq/icqcontact.cpp:255
+#: protocols/oscar/icq/icqcontact.cpp:287
 #, qt-format
 msgid ""
 "User %1 has granted your authorization request.\n"
@@ -18135,7 +18135,7 @@ msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:264
+#: protocols/oscar/icq/icqcontact.cpp:296
 #, qt-format
 msgid ""
 "User %1 has rejected the authorization request.\n"
@@ -18144,43 +18144,43 @@ msgstr ""
 "用戶 %1 拒絕你的授權要求。\n"
 "理由: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:349
+#: protocols/oscar/icq/icqcontact.cpp:405
 #, qt-format
 msgctxt "Translators: client-name client-version"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:358 protocols/oscar/oscarcontact.cpp:233
+#: protocols/oscar/icq/icqcontact.cpp:414 protocols/oscar/oscarcontact.cpp:230
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: protocols/oscar/icq/icqcontact.cpp:360
+#: protocols/oscar/icq/icqcontact.cpp:416
 msgid "RTF-Messages"
 msgstr "豐富文本（RTF）訊息"
 
-#: protocols/oscar/icq/icqcontact.cpp:362 protocols/oscar/oscarcontact.cpp:241
+#: protocols/oscar/icq/icqcontact.cpp:418 protocols/oscar/oscarcontact.cpp:238
 msgid "DirectIM/IMImage"
 msgstr "直接即時傳訊/即時傳訊影像"
 
-#: protocols/oscar/icq/icqcontact.cpp:364
+#: protocols/oscar/icq/icqcontact.cpp:420
 msgid "Groupchat"
 msgstr "群組聊天"
 
-#: protocols/oscar/icq/icqcontact.cpp:435
+#: protocols/oscar/icq/icqcontact.cpp:491
 msgid ""
 "<qt>You must be logged on to ICQ before you can send a message to a user.</"
 "qt>"
 msgstr "<qt>你必須登入 ICQ 才能發送訊息給用戶。</qt>"
 
-#: protocols/oscar/icq/icqcontact.cpp:437
+#: protocols/oscar/icq/icqcontact.cpp:493
 msgid "Not Signed On"
 msgstr "未簽入"
 
-#: protocols/oscar/icq/icqcontact.cpp:463
+#: protocols/oscar/icq/icqcontact.cpp:519
 msgid "&Request Authorization"
 msgstr "要求授權(&R)"
 
-#: protocols/oscar/icq/icqcontact.cpp:468
+#: protocols/oscar/icq/icqcontact.cpp:524
 msgid "&Grant Authorization"
 msgstr "允許授權(&G)"
 
@@ -18222,41 +18222,41 @@ msgstr "新增聯絡人到伺服器清單"
 msgid "Do &Not Add"
 msgstr "不新增(&N)"
 
-#: protocols/oscar/oscarcontact.cpp:219
+#: protocols/oscar/oscarcontact.cpp:216
 msgid "Mobile AIM Client"
 msgstr "流動 AIM 客戶端"
 
-#: protocols/oscar/oscarcontact.cpp:225
+#: protocols/oscar/oscarcontact.cpp:222
 #, qt-format
 msgctxt "Translators: client name and version"
 msgid "%1"
 msgstr "%1"
 
-#: protocols/oscar/oscarcontact.cpp:231
+#: protocols/oscar/oscarcontact.cpp:228
 msgid "Buddy icons"
 msgstr "伙伴圖示"
 
-#: protocols/oscar/oscarcontact.cpp:235
+#: protocols/oscar/oscarcontact.cpp:232
 msgid "Rich text messages"
 msgstr "豐富文本（Rich text）訊息"
 
-#: protocols/oscar/oscarcontact.cpp:237
+#: protocols/oscar/oscarcontact.cpp:234
 msgid "Group chat"
 msgstr "群組聊天"
 
-#: protocols/oscar/oscarcontact.cpp:239
+#: protocols/oscar/oscarcontact.cpp:236
 msgid "Voice chat"
 msgstr "話音聊天"
 
-#: protocols/oscar/oscarcontact.cpp:243
+#: protocols/oscar/oscarcontact.cpp:240
 msgid "Send buddy list"
 msgstr "傳送伙伴清單"
 
-#: protocols/oscar/oscarcontact.cpp:245
+#: protocols/oscar/oscarcontact.cpp:242
 msgid "File transfers"
 msgstr "檔案傳輸"
 
-#: protocols/oscar/oscarcontact.cpp:249
+#: protocols/oscar/oscarcontact.cpp:246
 msgid "Trillian user"
 msgstr "Trillian 用戶"
 
