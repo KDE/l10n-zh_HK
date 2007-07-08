@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-05 05:16+0200\n"
+"POT-Creation-Date: 2007-07-08 04:52+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -156,33 +156,33 @@ msgstr ""
 msgid "Play movie..."
 msgstr ""
 
-#: core/document.cpp:237
+#: core/document.cpp:245
 #, qt-format
 msgid "%1 x %2 in"
 msgstr ""
 
-#: core/document.cpp:241
+#: core/document.cpp:249
 #, qt-format
 msgid "%1 x %2 mm"
 msgstr ""
 
-#: core/document.cpp:485
+#: core/document.cpp:493
 #, fuzzy
 #| msgid "Moves to the next page of the document"
 msgid "Could not load the necessary plugin to view the document"
 msgstr "移至文件次頁"
 
-#: core/document.cpp:793
+#: core/document.cpp:824
 msgid "Can not find a plugin which is able to handle the passed document."
 msgstr ""
 
-#: core/document.cpp:1162
+#: core/document.cpp:1195
 #, fuzzy
 #| msgid "Pages"
 msgid "Pages Size"
 msgstr "頁："
 
-#: core/document.cpp:1755
+#: core/document.cpp:1814
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -190,79 +190,79 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1802
+#: core/document.cpp:1861
 #, qt-format
 msgid "No matches found for '%1'."
 msgstr "找不到符合『%1』的。"
 
-#: core/document.cpp:2047 core/document.cpp:2055
+#: core/document.cpp:2106 core/document.cpp:2114
 msgid ""
 "The document is trying to execute an external application and for your "
 "safety okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:2068
+#: core/document.cpp:2127
 #, qt-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:2505
+#: core/document.cpp:2564
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:2508
+#: core/document.cpp:2567
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:2511 ui/embeddedfilesdialog.cpp:46
+#: core/document.cpp:2570 ui/embeddedfilesdialog.cpp:46
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:2514
+#: core/document.cpp:2573
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:2517
+#: core/document.cpp:2576
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:2520
+#: core/document.cpp:2579
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:2523
+#: core/document.cpp:2582
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:2526
+#: core/document.cpp:2585
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:2529 ui/embeddedfilesdialog.cpp:48
+#: core/document.cpp:2588 ui/embeddedfilesdialog.cpp:48
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:2532 ui/embeddedfilesdialog.cpp:49
+#: core/document.cpp:2591 ui/embeddedfilesdialog.cpp:49
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:2535
+#: core/document.cpp:2594
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:2538
+#: core/document.cpp:2597
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:2541
+#: core/document.cpp:2600
 msgid "Keywords"
 msgstr "關鍵字"
 
@@ -565,7 +565,7 @@ msgid "Order by:"
 msgstr ""
 
 #: ui/newstuff.cpp:515 ui/embeddedfilesdialog.cpp:45
-#: ui/propertiesdialog.cpp:201
+#: ui/propertiesdialog.cpp:269
 msgid "Name"
 msgstr "名稱"
 
@@ -1119,45 +1119,122 @@ msgstr ""
 msgid "All files"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:30
+#: ui/propertiesdialog.cpp:33
 msgid "Unknown File"
 msgstr "未知檔案"
 
-#: ui/propertiesdialog.cpp:35 part.cpp:379
+#: ui/propertiesdialog.cpp:38 part.cpp:379
 msgid "&Properties"
 msgstr "屬性(&P)"
 
-#: ui/propertiesdialog.cpp:44
+#: ui/propertiesdialog.cpp:47
 msgid "No document opened."
 msgstr "未有開啟文件。"
 
-#: ui/propertiesdialog.cpp:50
+#: ui/propertiesdialog.cpp:53
 #, qt-format
 msgid "%1 Properties"
 msgstr "%1 屬性"
 
-#: ui/propertiesdialog.cpp:65
+#: ui/propertiesdialog.cpp:68
 #, qt-format
 msgid "%1:"
 msgstr "%1:"
 
-#: ui/propertiesdialog.cpp:78
+#: ui/propertiesdialog.cpp:81
 msgid "Pages:"
 msgstr "頁："
 
-#: ui/propertiesdialog.cpp:91
+#: ui/propertiesdialog.cpp:93
 msgid "&Fonts"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:202
+#: ui/propertiesdialog.cpp:112
+#, fuzzy
+#| msgid "Reloading the document..."
+msgid "Reading font information..."
+msgstr "正在重新載入文件..."
+
+#: ui/propertiesdialog.cpp:195
+#, fuzzy
+#| msgid "Type"
+msgid "Type 1"
+msgstr "類型"
+
+#: ui/propertiesdialog.cpp:198
+#, fuzzy
+#| msgid "Type"
+msgid "Type 1C"
+msgstr "類型"
+
+#: ui/propertiesdialog.cpp:201
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:204
+#, fuzzy
+#| msgid "Type"
+msgid "Type 3"
+msgstr "類型"
+
+#: ui/propertiesdialog.cpp:207
+#, fuzzy
+#| msgid "Type"
+msgid "TrueType"
+msgstr "類型"
+
+#: ui/propertiesdialog.cpp:210
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:213
+msgid "CID Type 0"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:216
+msgid "CID Type 0C"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:219
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:222
+msgid "CID TrueType"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:225
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:228
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/propertiesdialog.cpp:249
+msgid "Yes"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:249
+msgid "No"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:270
 msgid "Type"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:203
+#: ui/propertiesdialog.cpp:271
 msgid "Embedded"
 msgstr "內嵌的"
 
-#: ui/propertiesdialog.cpp:204
+#: ui/propertiesdialog.cpp:272
 #, fuzzy
 msgid "File"
 msgstr "標題"
