@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-07 04:58+0200\n"
+"POT-Creation-Date: 2007-07-09 04:53+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4561,6 +4561,7 @@ msgid "Please describe your upload."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:80 kross/ui/view.cpp:151
+#: kdeui/colors/kcolordialog.cpp:1156
 msgid "Name:"
 msgstr "名稱："
 
@@ -10797,6 +10798,109 @@ msgstr "KUnitTest ModRunner"
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr ""
 
+#: kdeui/colors/kcolordialog.cpp:93
+msgctxt "palette name"
+msgid "* Recent Colors *"
+msgstr "* 最近使用的顏色 *"
+
+#: kdeui/colors/kcolordialog.cpp:94
+msgctxt "palette name"
+msgid "* Custom Colors *"
+msgstr "* 自訂顏色 *"
+
+#: kdeui/colors/kcolordialog.cpp:95
+msgctxt "palette name"
+msgid "Forty Colors"
+msgstr "40色"
+
+#: kdeui/colors/kcolordialog.cpp:96
+msgctxt "palette name"
+msgid "Rainbow Colors"
+msgstr "彩虹色彩"
+
+#: kdeui/colors/kcolordialog.cpp:97
+msgctxt "palette name"
+msgid "Royal Colors"
+msgstr "精選色彩"
+
+#: kdeui/colors/kcolordialog.cpp:98
+msgctxt "palette name"
+msgid "Web Colors"
+msgstr "網頁色彩"
+
+#: kdeui/colors/kcolordialog.cpp:483
+msgid "Named Colors"
+msgstr "已命名的顏色"
+
+#: kdeui/colors/kcolordialog.cpp:642
+msgid ""
+"Unable to read X11 RGB color strings. The following file location(s) were "
+"examined:\n"
+msgstr "無法讀取 X11 RGB 色彩字串。下列檔案位置已經檢查：\n"
+
+#: kdeui/colors/kcolordialog.cpp:947
+#, fuzzy
+#| msgid "Select Color"
+msgid "Select Color"
+msgstr "選取顏色"
+
+#: kdeui/colors/kcolordialog.cpp:1016
+#, fuzzy
+msgid "Hue:"
+msgstr "色調:"
+
+#: kdeui/colors/kcolordialog.cpp:1026
+#, fuzzy
+msgid "Saturation:"
+msgstr "星期六"
+
+#: kdeui/colors/kcolordialog.cpp:1036
+#, fuzzy
+msgid "Value:"
+msgstr "值"
+
+#: kdeui/colors/kcolordialog.cpp:1050
+#, fuzzy
+msgid "Red:"
+msgstr "重做"
+
+#: kdeui/colors/kcolordialog.cpp:1059
+#, fuzzy
+msgid "Green:"
+msgstr "希臘文"
+
+#: kdeui/colors/kcolordialog.cpp:1069
+#, fuzzy
+msgid "Blue:"
+msgstr "檔案:"
+
+#: kdeui/colors/kcolordialog.cpp:1126
+msgid "&Add to Custom Colors"
+msgstr "加入至自訂顏色(&A)"
+
+#: kdeui/colors/kcolordialog.cpp:1163
+msgid "HTML:"
+msgstr "HTML:"
+
+#: kdeui/colors/kcolordialog.cpp:1246
+msgid "Default color"
+msgstr "預設顏色"
+
+#: kdeui/colors/kcolordialog.cpp:1330
+msgid "-default-"
+msgstr "-預設-"
+
+#: kdeui/colors/kcolordialog.cpp:1642
+msgid "-unnamed-"
+msgstr "-未命名-"
+
+#: kdeui/colors/kcolorcombo.cpp:354
+#, fuzzy
+#| msgid "Custom..."
+msgctxt "Custom color"
+msgid "Custom..."
+msgstr "自訂..."
+
 #: interfaces/terminal/test/main.cc:34
 #, fuzzy
 #| msgid "Test"
@@ -12100,83 +12204,6 @@ msgstr ""
 
 #~ msgid "Get hot new stuff:"
 #~ msgstr "取得熱門禮物："
-
-#~ msgctxt "palette name"
-#~ msgid "* Recent Colors *"
-#~ msgstr "* 最近使用的顏色 *"
-
-#~ msgctxt "palette name"
-#~ msgid "* Custom Colors *"
-#~ msgstr "* 自訂顏色 *"
-
-#~ msgctxt "palette name"
-#~ msgid "Forty Colors"
-#~ msgstr "40色"
-
-#~ msgctxt "palette name"
-#~ msgid "Rainbow Colors"
-#~ msgstr "彩虹色彩"
-
-#~ msgctxt "palette name"
-#~ msgid "Royal Colors"
-#~ msgstr "精選色彩"
-
-#~ msgctxt "palette name"
-#~ msgid "Web Colors"
-#~ msgstr "網頁色彩"
-
-#~ msgid "Named Colors"
-#~ msgstr "已命名的顏色"
-
-#~ msgid ""
-#~ "Unable to read X11 RGB color strings. The following file location(s) were "
-#~ "examined:\n"
-#~ msgstr "無法讀取 X11 RGB 色彩字串。下列檔案位置已經檢查：\n"
-
-#, fuzzy
-#~ msgid "Hue:"
-#~ msgstr "色調:"
-
-#, fuzzy
-#~ msgid "Saturation:"
-#~ msgstr "星期六"
-
-#, fuzzy
-#~ msgid "Value:"
-#~ msgstr "值"
-
-#, fuzzy
-#~ msgid "Red:"
-#~ msgstr "重做"
-
-#, fuzzy
-#~ msgid "Green:"
-#~ msgstr "希臘文"
-
-#, fuzzy
-#~ msgid "Blue:"
-#~ msgstr "檔案:"
-
-#~ msgid "&Add to Custom Colors"
-#~ msgstr "加入至自訂顏色(&A)"
-
-#~ msgid "HTML:"
-#~ msgstr "HTML:"
-
-#~ msgid "Default color"
-#~ msgstr "預設顏色"
-
-#~ msgid "-default-"
-#~ msgstr "-預設-"
-
-#~ msgid "-unnamed-"
-#~ msgstr "-未命名-"
-
-#, fuzzy
-#~| msgid "Custom..."
-#~ msgctxt "Custom color"
-#~ msgid "Custom..."
-#~ msgstr "自訂..."
 
 #~ msgid "Table:"
 #~ msgstr "表格："
