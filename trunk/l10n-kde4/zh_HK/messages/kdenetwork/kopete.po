@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-13 05:27+0200\n"
+"POT-Creation-Date: 2007-07-14 05:34+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14467,9 +14467,13 @@ msgid "Send Media Info"
 msgstr "傳送媒體資訊"
 
 #: plugins/nowlistening/nowlisteningguiclient.cpp:64
+#, fuzzy
+#| msgid ""
+#| "None of the supported media players (KsCD, JuK, amaroK, Noatun or "
+#| "Kaffeine) are playing anything."
 msgid ""
-"None of the supported media players (KsCD, JuK, amaroK, Noatun or Kaffeine) "
-"are playing anything."
+"None of the supported media players (Amarok, KsCD, JuK, Noatun, Kaffeine, or "
+"Quod Libet) are playing anything."
 msgstr ""
 "沒有支援的媒體播放器 (KsCD, JuK, amaroK, Noatun 或 Kaffeine) 正在播放東西。"
 
@@ -14477,11 +14481,26 @@ msgstr ""
 msgid "Nothing to Send"
 msgstr "無有可傳的東西"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:132
+#: plugins/nowlistening/nlquodlibet.cpp:66
+#: plugins/nowlistening/nowlisteningplugin.cpp:449
+msgid "Unknown artist"
+msgstr "未知的歌手"
+
+#: plugins/nowlistening/nlquodlibet.cpp:67
+#: plugins/nowlistening/nowlisteningplugin.cpp:456
+msgid "Unknown album"
+msgstr "未知的專輯"
+
+#: plugins/nowlistening/nlquodlibet.cpp:68
+#: plugins/nowlistening/nowlisteningplugin.cpp:440
+msgid "Unknown track"
+msgstr "未知的音軌"
+
+#: plugins/nowlistening/nowlisteningplugin.cpp:135
 msgid "USAGE: /media - Displays information on current song"
 msgstr "用法： /media - 顯示當前歌曲的資訊"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:171
+#: plugins/nowlistening/nowlisteningplugin.cpp:174
 msgctxt ""
 "Message from Kopete user to another user; used when sending media "
 "information even though there are no songs playing or no media players "
@@ -14492,19 +14511,7 @@ msgid ""
 msgstr ""
 "聽著 Kopete - 如我以支援的媒體播放器聆聽什麼的話，它會告訴你我在聽什麼。"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:437
-msgid "Unknown track"
-msgstr "未知的音軌"
-
-#: plugins/nowlistening/nowlisteningplugin.cpp:446
-msgid "Unknown artist"
-msgstr "未知的歌手"
-
-#: plugins/nowlistening/nowlisteningplugin.cpp:453
-msgid "Unknown album"
-msgstr "未知的專輯"
-
-#: plugins/nowlistening/nowlisteningplugin.cpp:460
+#: plugins/nowlistening/nowlisteningplugin.cpp:463
 msgid "Unknown player"
 msgstr "未知的播放程式"
 
