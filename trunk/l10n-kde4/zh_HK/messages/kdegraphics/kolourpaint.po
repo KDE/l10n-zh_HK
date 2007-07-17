@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:06+0200\n"
+"POT-Creation-Date: 2007-07-17 06:01+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -429,45 +429,50 @@ msgstr "要平滑縮放選取區域嗎？"
 msgid "Smooth Scal&e Selection"
 msgstr "平滑縮放選取區域(&E)"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:82
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:83
 msgid "More Image Effects (Selection)"
 msgstr "更多圖像效果（選取區域）"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:84
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:85
 msgid "More Image Effects"
 msgstr "更多圖像效果"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:97
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:98
 msgid "&Effect:"
 msgstr "效果(&E):"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:100
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:101
 #: commands/imagelib/effects/kpEffectBalanceCommand.cpp:63
 msgid "Balance"
 msgstr "平衡"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:101
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:102
 #: commands/imagelib/effects/kpEffectEmbossCommand.cpp:57
 msgid "Emboss"
 msgstr "浮雕"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:102
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:103
 #: commands/imagelib/effects/kpEffectFlattenCommand.cpp:57
 msgid "Flatten"
 msgstr "平板化"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:103
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:104
 #: commands/imagelib/effects/kpEffectInvertCommand.cpp:50
 msgid "Invert"
 msgstr "反白"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:104
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:105
 msgid "Reduce Colors"
 msgstr "減少顏色"
 
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:105
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:106
 msgid "Soften & Sharpen"
 msgstr "柔化及銳化"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:107
+#: commands/imagelib/effects/kpEffectHSVCommand.cpp:53
+msgid "Hue, Saturation, Value"
+msgstr ""
 
 #: tools/flow/kpToolPen.cpp:51
 msgid "Pen"
@@ -2099,6 +2104,22 @@ msgstr "24 位元色(&B)"
 #: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:192
 msgid "Reduce To"
 msgstr "減少至"
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:60
+#, fuzzy
+#| msgid "&New:"
+msgid "&Hue:"
+msgstr "新增(&N):"
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:61
+msgid "&Saturation:"
+msgstr ""
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:62
+#, fuzzy
+#| msgid "&Blue"
+msgid "&Value:"
+msgstr "藍色(&B)"
 
 #: widgets/imagelib/effects/kpEffectFlattenWidget.cpp:144
 msgid "Colors"
