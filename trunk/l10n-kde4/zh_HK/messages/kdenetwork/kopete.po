@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-17 06:01+0200\n"
+"POT-Creation-Date: 2007-07-18 05:32+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -518,11 +518,11 @@ msgstr "你未獲授權執行以下指令「%1」。"
 msgid "Command Error"
 msgstr "指令錯誤"
 
-#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1023
+#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1027
 msgid "No Message"
 msgstr "沒有訊息"
 
-#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1017
+#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1021
 msgid "New Message..."
 msgstr "新訊息..."
 
@@ -1022,7 +1022,7 @@ msgstr "上線時間:"
 msgid "Last Seen"
 msgstr "上次上線"
 
-#: libkopete/kopeteglobal.cpp:139 kopete/kopetewindow.cpp:1000
+#: libkopete/kopeteglobal.cpp:139 kopete/kopetewindow.cpp:1004
 #: protocols/meanwhile/meanwhileprotocol.cpp:62
 msgid "Status Message"
 msgstr "狀態訊息"
@@ -1244,7 +1244,7 @@ msgstr "顯示或隱藏聯絡人清單"
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:665
+#: kopete/kopetewindow.cpp:669
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1252,11 +1252,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:667
+#: kopete/kopetewindow.cpp:671
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:887
+#: kopete/kopetewindow.cpp:891
 #, qt-format
 msgctxt ""
 "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
@@ -1267,12 +1267,12 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1006
+#: kopete/kopetewindow.cpp:1010
 #, fuzzy
 msgid "Add "
 msgstr "加入 &ID"
 
-#: kopete/kopetewindow.cpp:1081
+#: kopete/kopetewindow.cpp:1085
 #: kopete/contactlist/kopetecontactlistview.cpp:1772
 msgid "Add Contact"
 msgstr "加入聯絡人"
@@ -1834,7 +1834,7 @@ msgstr "註冊成功。"
 #: kopete/config/chatwindow/chatwindowconfig.cpp:118
 #: kopete/config/chatwindow/chatwindowconfig.cpp:348
 msgid ""
-"The specified archive cannot be openned.\n"
+"The specified archive cannot be opened.\n"
 "Make sure that the archive is valid ZIP or TAR archive."
 msgstr ""
 
@@ -1895,7 +1895,7 @@ msgstr "從互聯網取得新的聊天視窗樣式"
 
 #: kopete/config/chatwindow/chatwindowconfig.cpp:361
 #, fuzzy
-msgid "The Chat Window style was successfully installed !"
+msgid "The Chat Window style was successfully installed!"
 msgstr "檔案已成功傳送。"
 
 #: kopete/config/chatwindow/chatwindowconfig.cpp:461
@@ -2694,9 +2694,21 @@ msgstr "向右對齊(&R)"
 msgid "&Justify"
 msgstr "向右對齊(&J)"
 
-#: kopete/chatwindow/sidebarwidget.cpp:52
+#. i18n: tag string
+#. i18n: file ./protocols/sms/ui/smsactprefs.ui line 169
+#. i18n: tag string
+#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 118
+#. i18n: tag string
+#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 325
+#. i18n: tag string
+#. i18n: file ./protocols/sms/ui/smsactprefs.ui line 169
+#. i18n: tag string
+#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 118
+#. i18n: tag string
+#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 325
+#: kopete/chatwindow/sidebarwidget.cpp:52 rc.cpp:2917 rc.cpp:5334 rc.cpp:5363
 #, fuzzy
-msgid "Informations"
+msgid "Information"
 msgstr "用戶資訊"
 
 #: kopete/chatwindow/sidebarwidget.cpp:56
@@ -9437,23 +9449,6 @@ msgid "Description of the SMS delivery service, including download locations."
 msgstr "SMS 遞送服務的說明，包括下載位置。"
 
 #. i18n: tag string
-#. i18n: file ./protocols/sms/ui/smsactprefs.ui line 169
-#. i18n: tag string
-#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 118
-#. i18n: tag string
-#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 325
-#. i18n: tag string
-#. i18n: file ./protocols/sms/ui/smsactprefs.ui line 169
-#. i18n: tag string
-#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 118
-#. i18n: tag string
-#. i18n: file ./protocols/winpopup/ui/wpeditaccountbase.ui line 325
-#: rc.cpp:2917 rc.cpp:5334 rc.cpp:5363
-#, fuzzy
-msgid "Information"
-msgstr "用戶資訊"
-
-#. i18n: tag string
 #. i18n: file ./protocols/sms/ui/smsactprefs.ui line 188
 #: rc.cpp:2920
 msgid "To use SMS, you will need an account with a delivery service."
@@ -14276,7 +14271,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwchatpropswidget.ui line 186
 #: rc.cpp:5717
-msgid "Maximum simiultaneous users allowed in the chatroom"
+msgid "Maximum simultaneous users allowed in the chatroom"
 msgstr ""
 
 #. i18n: tag string
@@ -14706,7 +14701,7 @@ msgstr ""
 #: plugins/cryptography/cryptographypreferences.cpp:51
 #, fuzzy
 #| msgid "Do not ask for the passphrase"
-msgid "Ask for passphrase every time"
+msgid "Ask for passphrase on Kopete startup"
 msgstr "不要詢問 Passphrase"
 
 #: plugins/cryptography/popuppublic.cpp:38
@@ -14721,30 +14716,33 @@ msgstr "前前預設鑰匙(&G)"
 msgid "Unlimited"
 msgstr "無限制"
 
-#: plugins/cryptography/cryptographyplugin.cpp:57
+#: plugins/cryptography/cryptographyplugin.cpp:58
 msgid "Cryptography"
 msgstr "加密學"
 
-#: plugins/cryptography/cryptographyplugin.cpp:78
+#: plugins/cryptography/cryptographyplugin.cpp:79
 #, fuzzy
 #| msgid "Select Public Key"
 msgid "&Select Public Key..."
 msgstr "選取公共密碼匙"
 
-#: plugins/cryptography/cryptographyplugin.cpp:192
+#: plugins/cryptography/cryptographyplugin.cpp:191
 msgid "You have not chosen an encryption key for one or more recipients"
 msgstr ""
 
-#: plugins/cryptography/gpginterface.cpp:203
-#, fuzzy, qt-format
+#: plugins/cryptography/cryptographyplugin.cpp:256
+#, fuzzy
 #| msgid "Enter passphrase for <b>%1</b>:"
-msgid "Enter passphrase for secret key %1:"
+msgid "Enter password for GPG private key"
 msgstr "輸入 <b>%1</b> 的 passphrase:"
 
 #: plugins/cryptography/gpginterface.cpp:205
-#, qt-format
-msgid "<b>Bad passphrase</b><br> You have %1 tries left.<br>"
-msgstr "<b>不良的 passphrase</b><br>你還有 %1 次機會。<br>"
+#, fuzzy, qt-format
+#| msgid "Enter passphrase for <b>%1</b>:"
+msgid ""
+"Enter passphrase for secret key %1:\n"
+"You have %2 tries left."
+msgstr "輸入 <b>%1</b> 的 passphrase:"
 
 #: plugins/cryptography/cryptographyguiclient.cpp:70
 msgid "Encrypt Messages"
@@ -20178,7 +20176,7 @@ msgstr "時間戳記"
 
 #: protocols/jabber/jabberbasecontact.cpp:644
 #, fuzzy
-msgid "Downloading of Jabber contact photo failed !"
+msgid "Downloading of Jabber contact photo failed!"
 msgstr "下載顯示圖像失敗"
 
 #: protocols/jabber/jabbergroupcontact.cpp:118
@@ -20642,6 +20640,13 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#, fuzzy
+#~ msgid "Informations"
+#~ msgstr "用戶資訊"
+
+#~ msgid "<b>Bad passphrase</b><br> You have %1 tries left.<br>"
+#~ msgstr "<b>不良的 passphrase</b><br>你還有 %1 次機會。<br>"
 
 #~ msgid "&Select Cryptography Public Key..."
 #~ msgstr "選取加密學公共密碼匙(&S)..."
