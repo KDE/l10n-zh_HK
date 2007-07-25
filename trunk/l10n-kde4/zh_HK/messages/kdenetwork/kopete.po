@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-23 05:28+0200\n"
+"POT-Creation-Date: 2007-07-25 05:33+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -266,7 +266,7 @@ msgstr "<未知>"
 
 #: libkopete/kopetetransfermanager.cpp:272 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:606 protocols/gadu/gaducontact.cpp:100
-#: protocols/oscar/oscarcontact.cpp:299
+#: protocols/oscar/oscarcontact.cpp:301
 #: protocols/jabber/jabbercontact.cpp:1040
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:308
@@ -1324,6 +1324,7 @@ msgstr "Kopete，KDE 的即時傳訊程式"
 #: kopete/contactlist/kopetecontactlistview.cpp:1550 rc.cpp:5061
 #: protocols/irc/ui/irceditaccountwidget.cpp:274
 #: protocols/msn/msncontact.cpp:336
+#: protocols/oscar/liboscar/userdetails.cpp:535
 msgid "Kopete"
 msgstr "Kopete"
 
@@ -18225,16 +18226,6 @@ msgstr "新增聯絡人到伺服器清單"
 msgid "Do &Not Add"
 msgstr "不新增(&N)"
 
-#: protocols/oscar/oscarcontact.cpp:216
-msgid "Mobile AIM Client"
-msgstr "流動 AIM 客戶端"
-
-#: protocols/oscar/oscarcontact.cpp:222
-#, qt-format
-msgctxt "Translators: client name and version"
-msgid "%1"
-msgstr "%1"
-
 #: protocols/oscar/oscarcontact.cpp:228
 msgid "Buddy icons"
 msgstr "伙伴圖示"
@@ -18258,10 +18249,6 @@ msgstr "傳送伙伴清單"
 #: protocols/oscar/oscarcontact.cpp:242
 msgid "File transfers"
 msgstr "檔案傳輸"
-
-#: protocols/oscar/oscarcontact.cpp:246
-msgid "Trillian user"
-msgstr "Trillian 用戶"
 
 #: protocols/oscar/oscarencodingselectiondialog.cpp:29
 msgid "Select Encoding"
@@ -18413,6 +18400,23 @@ msgstr "伙伴圖示 MD5 Hash"
 #: protocols/oscar/oscarprotocol.cpp:32
 msgid "Contact Encoding"
 msgstr "聯絡人編碼"
+
+#: protocols/oscar/oscarprotocol.cpp:33
+#, fuzzy
+#| msgid "Members"
+msgid "Member Since"
+msgstr "成員"
+
+#: protocols/oscar/oscarprotocol.cpp:34
+#: protocols/jabber/jabberbasecontact.cpp:250
+msgid "Client"
+msgstr "客戶端"
+
+#: protocols/oscar/oscarprotocol.cpp:35
+#, fuzzy
+#| msgid "Protocol error."
+msgid "Protocol Version"
+msgstr "通訊協定錯誤"
 
 #: protocols/oscar/liboscar/tasks/filetransfertask.cpp:273
 #, fuzzy
@@ -20159,10 +20163,6 @@ msgstr "此聯絡人可看到的狀態，但你看不到他們的狀態。"
 msgid "You can see each others' status."
 msgstr "你可看見其他人的狀態。"
 
-#: protocols/jabber/jabberbasecontact.cpp:250
-msgid "Client"
-msgstr "客戶端"
-
 #: protocols/jabber/jabberbasecontact.cpp:275
 msgid "Timestamp"
 msgstr "時間戳記"
@@ -20633,6 +20633,16 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#~ msgid "Mobile AIM Client"
+#~ msgstr "流動 AIM 客戶端"
+
+#~ msgctxt "Translators: client name and version"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Trillian user"
+#~ msgstr "Trillian 用戶"
 
 #~ msgid "Private Key List"
 #~ msgstr "私人密碼匙清單"
@@ -21356,9 +21366,6 @@ msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回
 
 #~ msgid "I&nstall Into Samba"
 #~ msgstr "安裝進 Samba (&N)"
-
-#~ msgid "Members"
-#~ msgstr "成員"
 
 #~ msgid "Auto Reply"
 #~ msgstr "自動回覆"
