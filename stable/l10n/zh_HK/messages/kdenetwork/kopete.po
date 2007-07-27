@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
-"POT-Creation-Date: 2007-06-14 07:57+0200\n"
+"POT-Creation-Date: 2007-07-27 01:13+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15116,7 +15116,7 @@ msgstr "除非你知道在自己在做什麼，不然你的 JID 的格式應該�
 msgid "Connecting to server..."
 msgstr "正在連線到伺服器..."
 
-#: protocols/groupwise/gwaccount.cpp:250
+#: protocols/groupwise/gwaccount.cpp:251
 #: protocols/jabber/jabberaccount.cpp:424
 #: protocols/jabber/ui/jabberregisteraccount.cpp:267
 msgid ""
@@ -15619,62 +15619,62 @@ msgstr "傳送原始封包至伺服器..."
 msgid "Please connect first."
 msgstr "請先連線。"
 
-#: protocols/groupwise/gwaccount.cpp:705
+#: protocols/groupwise/gwaccount.cpp:706
 #: protocols/jabber/jabberaccount.cpp:455
 msgid "No certificate was presented."
 msgstr "沒有證書。"
 
-#: protocols/groupwise/gwaccount.cpp:709
+#: protocols/groupwise/gwaccount.cpp:710
 #: protocols/jabber/jabberaccount.cpp:459
 msgid "The host name does not match the one in the certificate."
 msgstr "主機名稱和證書上的不符。"
 
-#: protocols/groupwise/gwaccount.cpp:713
+#: protocols/groupwise/gwaccount.cpp:714
 #: protocols/jabber/jabberaccount.cpp:463
 msgid "The Certificate Authority rejected the certificate."
 msgstr "核證機關拒絕證書。"
 
-#: protocols/groupwise/gwaccount.cpp:718
+#: protocols/groupwise/gwaccount.cpp:719
 #: protocols/jabber/jabberaccount.cpp:468
 msgid "The certificate is untrusted."
 msgstr "證書未被信任。"
 
-#: protocols/groupwise/gwaccount.cpp:722
+#: protocols/groupwise/gwaccount.cpp:723
 #: protocols/jabber/jabberaccount.cpp:472
 msgid "The signature is invalid."
 msgstr "簽署無效"
 
-#: protocols/groupwise/gwaccount.cpp:726
+#: protocols/groupwise/gwaccount.cpp:727
 #: protocols/jabber/jabberaccount.cpp:476
 msgid "The Certificate Authority is invalid."
 msgstr "核證機關無效。"
 
-#: protocols/groupwise/gwaccount.cpp:731
+#: protocols/groupwise/gwaccount.cpp:732
 #: protocols/jabber/jabberaccount.cpp:481
 msgid "Invalid certificate purpose."
 msgstr "無效的證書用途。"
 
-#: protocols/groupwise/gwaccount.cpp:735
+#: protocols/groupwise/gwaccount.cpp:736
 #: protocols/jabber/jabberaccount.cpp:485
 msgid "The certificate is self-signed."
 msgstr "證書是自簽署（self-signed）的。"
 
-#: protocols/groupwise/gwaccount.cpp:739
+#: protocols/groupwise/gwaccount.cpp:740
 #: protocols/jabber/jabberaccount.cpp:489
 msgid "The certificate has been revoked."
 msgstr "證書已被撤銷。"
 
-#: protocols/groupwise/gwaccount.cpp:743
+#: protocols/groupwise/gwaccount.cpp:744
 #: protocols/jabber/jabberaccount.cpp:493
 msgid "Maximum certificate chain length was exceeded."
 msgstr "超過證書串最大長度。"
 
-#: protocols/groupwise/gwaccount.cpp:747
+#: protocols/groupwise/gwaccount.cpp:748
 #: protocols/jabber/jabberaccount.cpp:497
 msgid "The certificate has expired."
 msgstr "證書已過期。"
 
-#: protocols/groupwise/gwaccount.cpp:752
+#: protocols/groupwise/gwaccount.cpp:753
 #: protocols/jabber/jabberaccount.cpp:502
 msgid "An unknown error occurred trying to validate the certificate."
 msgstr "嘗試驗證證書時發生未知錯誤。"
@@ -16267,7 +16267,7 @@ msgstr "連接 GroupWise Messenger 及重試。"
 msgid "Search Chatrooms"
 msgstr "搜尋頻道(&S)"
 
-#: protocols/groupwise/ui/gwchatsearchdialog.cpp:66
+#: protocols/groupwise/ui/gwchatsearchdialog.cpp:67
 msgid "Updating chatroom list..."
 msgstr ""
 
@@ -16308,6 +16308,197 @@ msgstr ""
 msgid "Personal Title"
 msgstr "個人頭銜"
 
+#: protocols/groupwise/libgroupwise/gwerror.cpp:29
+msgid "Access denied"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:32
+#, fuzzy
+msgid "Not supported"
+msgstr "未連接"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:35
+#, fuzzy
+msgid "Password expired"
+msgstr "需要密碼"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:38
+#, fuzzy
+msgid "Invalid password"
+msgstr "無效狀態"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:41
+#, fuzzy
+msgid "User not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:44
+#, fuzzy
+msgid "Attribute not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:47
+#, fuzzy
+msgid "User is disabled"
+msgstr "用戶現在聯絡不上"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:50
+#, fuzzy
+msgid "Directory failure"
+msgstr "網絡問題。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:53
+#, fuzzy
+msgid "Host not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:56
+msgid "Locked by admin"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:59
+msgid "Duplicate participant"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:62
+#, fuzzy
+msgid "Server busy"
+msgstr "伺服器忙碌"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:65
+#, fuzzy
+msgid "Object not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:68
+msgid "Directory update"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:71
+msgid "Duplicate folder"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:74
+#, fuzzy
+msgid "Contact list entry already exists"
+msgstr "聯絡人清單外觀"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:77
+#, fuzzy
+msgid "User not allowed"
+msgstr "不允許不在本機的照片。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:80
+#, fuzzy
+msgid "Too many contacts"
+msgstr "來自聯絡人:"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:83
+#, fuzzy
+msgid "Conference not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:86
+#, fuzzy
+msgid "Too many folders"
+msgstr "公司職責"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:89
+#, fuzzy
+msgid "Server protocol error"
+msgstr "OSCAR 通訊協定錯誤"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:92
+#, fuzzy
+msgid "Conversation invitation error"
+msgstr "對話是安全的"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:95
+#, fuzzy
+msgid "User is blocked"
+msgstr "用戶將你封鎖了"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:98
+msgid "Master archive is missing"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:101
+#, fuzzy
+msgid "Expired password in use"
+msgstr "提醒密碼完成:"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:104
+msgid "Credentials missing"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:107
+#, fuzzy
+msgid "Authentication failed"
+msgstr "註冊失敗。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:110
+#, fuzzy
+msgid "Eval connection limit"
+msgstr "Tls 連線協商"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:113
+#, fuzzy
+msgid "Unsupported client version"
+msgstr "不支援的協定版本。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:116
+msgid "A duplicate chat was found"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:119
+#, fuzzy
+msgid "Chat not found"
+msgstr "找不到主機。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:122
+#, fuzzy
+msgid "Invalid chat name"
+msgstr "無效的別名"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:125
+msgid "The chat is active"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:128
+msgid "Chat is busy; try again"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:131
+msgid "Tried request too soon after another; try again"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:134
+msgid "Server's chat subsystem is not active"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:137
+#, fuzzy
+msgid "The chat update request is invalid"
+msgstr "簽署無效"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:140
+msgid "Write failed due to directory mismatch"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:143
+msgid "Recipient's client version is too old"
+msgstr ""
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:146
+#, fuzzy
+msgid "Chat has been removed from server"
+msgstr "你已中斷 IRC 伺服器連線。"
+
+#: protocols/groupwise/libgroupwise/gwerror.cpp:149
+#, c-format
+msgid "Unrecognized error code: %s"
+msgstr ""
+
 #: protocols/groupwise/gwprotocol.cpp:59
 msgid "Appear Offline"
 msgstr "表現為離線"
@@ -16341,21 +16532,21 @@ msgstr "加入頻道..."
 msgid "&Manage Privacy..."
 msgstr "管理隱私(&M)..."
 
-#: protocols/groupwise/gwaccount.cpp:252
+#: protocols/groupwise/gwaccount.cpp:253
 msgid "GroupWise SSL Error"
 msgstr "GroupWise SSL 錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:565
+#: protocols/groupwise/gwaccount.cpp:566
 msgid "Conflicting Changes Made Offline"
 msgstr "離線時作了有衝突的更改"
 
-#: protocols/groupwise/gwaccount.cpp:565
+#: protocols/groupwise/gwaccount.cpp:566
 msgid ""
 "A change happened to your GroupWise contact list while you were offline which "
 "was impossible to reconcile."
 msgstr "當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
 
-#: protocols/groupwise/gwaccount.cpp:638
+#: protocols/groupwise/gwaccount.cpp:639
 msgid ""
 "_: Error shown when connecting failed\n"
 "Kopete was not able to connect to the GroupWise Messenger server for account "
@@ -16365,66 +16556,66 @@ msgstr ""
 "Kopete 無法連接『%1』帳號的 GroupWise Messenger 伺服器。\n"
 "請檢查你的伺服器及連接埠設置並重試。"
 
-#: protocols/groupwise/gwaccount.cpp:638
+#: protocols/groupwise/gwaccount.cpp:639
 msgid "Unable to Connect '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:758
+#: protocols/groupwise/gwaccount.cpp:759
 msgid "The certificate of server %1 could not be validated for account %2: %3"
 msgstr "%1 伺服器的證書無法核實帳號 %2: %3"
 
-#: protocols/groupwise/gwaccount.cpp:762
+#: protocols/groupwise/gwaccount.cpp:763
 msgid "GroupWise Connection Certificate Problem"
 msgstr "GroupWise 連線證書問題"
 
-#: protocols/groupwise/gwaccount.cpp:811
+#: protocols/groupwise/gwaccount.cpp:812
 msgid ""
 "_: Prefix used for automatically generated auto-reply messages when the contact "
 "is Away, contains contact's name\n"
 "Auto reply from %1: "
 msgstr "來自 %1 的自動回應: "
 
-#: protocols/groupwise/gwaccount.cpp:817
+#: protocols/groupwise/gwaccount.cpp:818
 msgid ""
 "_: Prefix used for broadcast messages\n"
 "Broadcast message from %1: "
 msgstr "來自 %1 的廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:823
+#: protocols/groupwise/gwaccount.cpp:824
 msgid ""
 "_: Prefix used for system broadcast messages\n"
 "System Broadcast message from %1: "
 msgstr "來自 %1 的系統廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:1193
+#: protocols/groupwise/gwaccount.cpp:1198
 msgid ""
 "The contact %1 could not be added to the contact list, with error message: %2"
 msgstr "聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
 
-#: protocols/groupwise/gwaccount.cpp:1195
+#: protocols/groupwise/gwaccount.cpp:1200
 msgid "Error Adding Contact"
 msgstr "加入聯絡人時發生錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:1239
+#: protocols/groupwise/gwaccount.cpp:1244
 msgid "Signed in as %1 Elsewhere"
 msgstr "如同別處般以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1240
+#: protocols/groupwise/gwaccount.cpp:1245
 msgid ""
 "_: The parameter is the user's own account id for this protocol\n"
 "You have been disconnected from GroupWise Messenger because you signed in as %1 "
 "elsewhere"
 msgstr "你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1348
+#: protocols/groupwise/gwaccount.cpp:1353
 msgid "%1 has been invited to join this conversation."
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/groupwise/gwaccount.cpp:1374
+#: protocols/groupwise/gwaccount.cpp:1379
 msgid "Enter Auto-Reply Message"
 msgstr "輸入自動回應訊息"
 
-#: protocols/groupwise/gwaccount.cpp:1375
+#: protocols/groupwise/gwaccount.cpp:1380
 msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message you "
 "while Away or Busy"
