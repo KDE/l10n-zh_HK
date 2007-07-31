@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-25 05:33+0200\n"
+"POT-Creation-Date: 2007-07-31 05:15+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -240,31 +240,49 @@ msgstr "離線"
 msgid "Unknown"
 msgstr "未知"
 
-#: libkopete/kopetetransfermanager.cpp:139
+#: libkopete/kopetetransfermanager.cpp:134
+#, fuzzy
+#| msgid "Clothing"
+msgid "Copying"
+msgstr "衣著"
+
+#: libkopete/kopetetransfermanager.cpp:135
+#, fuzzy
+#| msgid "Photo Source"
+msgid "Source"
+msgstr "照片來源"
+
+#: libkopete/kopetetransfermanager.cpp:136
+#, fuzzy
+#| msgid "Description"
+msgid "Destination"
+msgstr "說明"
+
+#: libkopete/kopetetransfermanager.cpp:146
 #, fuzzy, qt-format
 msgid "File transfer %1 completed. :)"
 msgstr "檔案傳輸取消。"
 
-#: libkopete/kopetetransfermanager.cpp:148
+#: libkopete/kopetetransfermanager.cpp:155
 #, fuzzy, qt-format
 msgid "File transfer %1 failed. :("
 msgstr "檔案傳輸取消。"
 
-#: libkopete/kopetetransfermanager.cpp:156
+#: libkopete/kopetetransfermanager.cpp:163
 #, qt-format
 msgid "You cancelled filetransfer %1"
 msgstr ""
 
-#: libkopete/kopetetransfermanager.cpp:163
+#: libkopete/kopetetransfermanager.cpp:170
 #, fuzzy, qt-format
 msgid "File transfer %1 cancelled."
 msgstr "檔案傳輸取消。"
 
-#: libkopete/kopetetransfermanager.cpp:225
+#: libkopete/kopetetransfermanager.cpp:232
 msgid "<unknown>"
 msgstr "<未知>"
 
-#: libkopete/kopetetransfermanager.cpp:272 protocols/qq/qqcontact.cpp:418
+#: libkopete/kopetetransfermanager.cpp:279 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:606 protocols/gadu/gaducontact.cpp:100
 #: protocols/oscar/oscarcontact.cpp:301
 #: protocols/jabber/jabbercontact.cpp:1040
@@ -273,7 +291,7 @@ msgstr "<未知>"
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
 
-#: libkopete/kopetetransfermanager.cpp:293
+#: libkopete/kopetetransfermanager.cpp:300
 msgid ""
 "Sorry, sending files which are not stored locally is not yet supported by "
 "this protocol.\n"
