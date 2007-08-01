@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-06 05:13+0200\n"
+"POT-Creation-Date: 2007-08-01 04:47+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,1089 +15,894 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ace.cpp:102 ace.cpp:171 ar.cpp:100 ar.cpp:118 ar.cpp:162 ar.cpp:219
-#: ar.cpp:252 compressedfile.cpp:194 compressedfile.cpp:302 lha.cpp:155
-#: lha.cpp:225 lha.cpp:266 lha.cpp:296 rar.cpp:130 rar.cpp:205 rar.cpp:260
-#: rar.cpp:296 sevenzip.cpp:104 sevenzip.cpp:143 sevenzip.cpp:183
-#: sevenzip.cpp:231 tar.cpp:272 tar.cpp:668 tar.cpp:755 tar.cpp:803
-#: zip.cpp:102 zip.cpp:173 zip.cpp:232 zip.cpp:268 zoo.cpp:122 zoo.cpp:189
-#: zoo.cpp:248 zoo.cpp:279
-msgid "Could not start a subprocess."
-msgstr "無法啟動子進程。"
-
-#: archive.cpp:132
-msgid "The deletion operation failed."
-msgstr "刪除動作失敗。"
-
-#: archive.cpp:136 archive.cpp:185 archive.cpp:221
-msgid ""
-"\n"
-"Use \"Details\" to view the last shell output."
-msgstr ""
-
-#: archive.cpp:160
-msgid "The password was incorrect. "
-msgstr "密碼錯誤。"
-
-#: archive.cpp:162
-msgid "You must enter a password to extract the file:"
-msgstr "你必須輸入密碼才能解開檔案："
-
-#: archive.cpp:181
-msgid "The extraction operation failed."
-msgstr "解壓動作失敗。"
-
-#: archive.cpp:217
-msgid "The addition operation failed."
-msgstr "附加動作失敗。"
-
-#: archiveformatdlg.cpp:35
-msgid "Choose Archive Format"
-msgstr "選擇壓縮檔格式"
-
-#: archiveformatdlg.cpp:42
-#, qt-format
-msgid ""
-"This file appears to be of type %1,\n"
-"which is not a supported archive format.\n"
-"In order to proceed, please choose the format\n"
-"of the file."
-msgstr ""
-"本檔案應是 %1 類型，\n"
-"但這種格式沒有被支援。\n"
-"若要繼續進行，請選擇該檔的格式。"
-
-#: archiveformatdlg.cpp:47
-#, qt-format
-msgid ""
-"You are about to open a file that has a non-standard extension.\n"
-"Ark has detected the format: %1\n"
-"If this is not correct, please choose the appropriate format."
-msgstr ""
-"你嘗試開啟一個有非標準伸延名稱的檔案。\n"
-"Ark 偵測到該格式是：%1\n"
-"如果不正確，請選擇適當的格式。"
-
-#: archiveformatinfo.cpp:70
-msgid "Compressed File"
-msgstr "已壓縮檔案"
-
-#: archiveformatinfo.cpp:113
-msgid "All Valid Archives\n"
-msgstr "所有支援的壓縮檔\n"
-
-#: archiveformatinfo.cpp:114
-msgid "All Files"
-msgstr "所有檔案"
-
-#: ark_part.cpp:52
-msgid "ark"
-msgstr "ark"
-
-#: ark_part.cpp:54
-msgid "Ark KParts Component"
-msgstr "Ark KParts 元件"
-
-#: ark_part.cpp:56
-msgid "(c) 1997-2003, The Various Ark Developers"
-msgstr "(c) 1997-2003, 各位 Ark 開發者"
-
-#: ark_part.cpp:57 main.cpp:77
-msgid "Robert Palmbos"
-msgstr ""
-
-#: ark_part.cpp:58 main.cpp:68
-msgid "Francois-Xavier Duranceau"
-msgstr ""
-
-#: ark_part.cpp:59
-msgid "Corel Corporation (author: Emily Ezust)"
-msgstr ""
-
-#: ark_part.cpp:61
-msgid "Corel Corporation (author: Michael Jarrett)"
-msgstr ""
-
-#: ark_part.cpp:63
-msgid "Jian Huang"
-msgstr ""
-
-#: ark_part.cpp:64
-msgid "Roberto Teixeira"
-msgstr ""
-
-#: ark_part.cpp:125
-msgid "Add &File..."
-msgstr "加入檔案(&F)..."
-
-#: ark_part.cpp:129
-msgid "Add Folde&r..."
-msgstr "加入資料夾(&R)..."
-
-#: ark_part.cpp:134
-msgid "E&xtract..."
-msgstr "解開(&X)..."
-
-#: ark_part.cpp:138
-msgid "De&lete"
-msgstr "刪除(&E)"
-
-#: ark_part.cpp:143
-msgctxt "to view something"
-msgid "&View"
-msgstr "檢視(&V)"
-
-#: ark_part.cpp:147
-msgid "&Open With..."
-msgstr "以其它程式開啟(&O)..."
-
-#: ark_part.cpp:152
-msgid "Edit &With..."
-msgstr "以其它程式編輯(&W)..."
-
-#: ark_part.cpp:159
-msgid "&Unselect All"
-msgstr "全部不選(&U)"
-
-#: ark_part.cpp:163
-msgid "&Invert Selection"
-msgstr "選取相反項目(&I)"
-
-#: ark_part.cpp:172
-msgid "Configure &Ark..."
-msgstr "設定 &ARK..."
-
-#: ark_part.cpp:177
-msgid "Show Search Bar"
-msgstr "顯示搜尋列"
-
-#: ark_part.cpp:179
-msgid "Hide Search Bar"
-msgstr "隱藏搜尋列"
-
-#: ark_part.cpp:318
-#, qt-format
-msgid ""
-"The archive \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"壓縮檔“%1”已被修改。\n"
-"是否儲存它？"
-
-#: ark_part.cpp:320
-msgid "Save Archive?"
-msgstr "儲存壓縮檔？"
-
-#: ark_part.cpp:345
-#, qt-format
-msgid "Downloading %1..."
-msgstr "正在下載 %1..."
-
-#: ark_part.cpp:437
-msgid "Total: 0 files"
-msgstr "總計：0 個檔案"
-
-#: ark_part.cpp:442 arkwidget.cpp:1801
-msgid "0 files selected"
-msgstr "已選取 0 個檔案"
-
-#: arkapp.cpp:130
-msgid "Wrong number of arguments specified"
-msgstr "提供的參數數目錯誤"
-
-#: arkapp.cpp:139 arkapp.cpp:182
-msgid "You need to specify at least one file to be added to the archive."
-msgstr "你最少要加入一個檔案到壓縮檔中。"
-
-#: arkutils.cpp:191
-msgid "You have run out of disk space."
-msgstr "磁碟空間用完了。"
-
-#: arkwidget.cpp:89
-#, fuzzy
-#| msgid ""
-#| "The file you're trying to view may be an executable. Running untrusted "
-#| "executables may compromise your system's security.\n"
-#| "Are you sure you want to run that file?"
-msgid ""
-"The file you are trying to view may be an executable. Running untrusted "
-"executables may compromise your system's security.\n"
-"Are you sure you want to run that file?"
-msgstr ""
-"你嘗試檢視的檔案可能是可執行檔。執行不受信任的可執行檔，可能令系統變得不安"
-"全。\n"
-"你確定要執行該檔案？"
-
-#: arkwidget.cpp:90
-msgid "Run Nevertheless"
-msgstr "依然執行"
-
-#: arkwidget.cpp:133
-msgid "&Search:"
-msgstr "搜尋(&S)："
-
-#: arkwidget.cpp:202
-#, qt-format
-msgid "%1 file  %2"
-msgid_plural "%1 files  %2"
-msgstr[0] "%1 檔案 %2"
-
-#: arkwidget.cpp:273
-msgid "Save Archive As"
-msgstr "另存壓縮檔為"
-
-#: arkwidget.cpp:278
-msgid ""
-"Please save your archive in the same format as the original.\n"
-"Hint: Use one of the suggested extensions."
-msgstr ""
-"儲存壓縮檔時請使用和原來一樣的格式。\n"
-"提示：使用相同的延伸名稱。"
-
-#: arkwidget.cpp:296
-msgid "Saving..."
-msgstr "儲存中..."
-
-#: arkwidget.cpp:430
-#, qt-format
-msgid "Could not create the folder %1"
-msgstr "無法建立資料夾 %1"
-
-#: arkwidget.cpp:466
-#, qt-format
-msgid "An error occurred while opening the archive %1."
-msgstr "開啟壓縮檔 %1 時發生錯誤。"
-
-#: arkwidget.cpp:497
-msgid ""
-"None of the files in the archive have been\n"
-"extracted since all of them already exist."
-msgstr ""
-
-#: arkwidget.cpp:503
-msgid ""
-"The following files will not be extracted\n"
-"because they already exist:"
-msgstr ""
-"下列的檔案將不會被解開\n"
-"因為檔案已經存在："
-
-#: arkwidget.cpp:518
-msgid "Not enough free disc space to extract the archive."
-msgstr "沒有足夠的磁碟空間來解開壓縮檔。"
-
-#: arkwidget.cpp:534
-msgid "An error occurred while extracting the archive."
-msgstr "解開壓縮檔時發生錯誤。"
-
-#: arkwidget.cpp:674
-msgid "An error occurred while adding the files to the archive."
-msgstr "加入檔案到壓縮檔時發生錯誤。"
-
-#: arkwidget.cpp:713
-#, qt-format
-msgid "The archive %1 does not exist."
-msgstr "壓縮檔 %1 不存在。"
-
-#: arkwidget.cpp:719
-msgid "You do not have permission to access that archive."
-msgstr "你沒有存取這個壓縮檔的權限。"
-
-#: arkwidget.cpp:800
-msgid "Archive already exists. Do you wish to overwrite it?"
-msgstr "壓縮檔已經存在。你是否要覆寫它？"
-
-#: arkwidget.cpp:801
-msgid "Archive Already Exists"
-msgstr "壓縮檔已經存在"
-
-#: arkwidget.cpp:801
-msgid "Do Not Overwrite"
-msgstr "不要覆寫"
-
-#: arkwidget.cpp:821
-#, qt-format
-msgid "You do not have permission to write to the directory %1"
-msgstr "你沒有寫入目錄 %1 的權限。"
-
-#: arkwidget.cpp:834 arkwidget.cpp:980
-msgid "Create New Archive"
-msgstr "建立新的壓縮檔"
-
-#: arkwidget.cpp:977
-msgid ""
-"You are currently working with a simple compressed file.\n"
-"Would you like to make it into an archive so that it can contain multiple "
-"files?\n"
-"If so, you must choose a name for your new archive."
-msgstr ""
-"你目前使用的是一個「簡單壓縮檔」（壓縮檔中只有一個檔案）。\n"
-"你是否要將其轉換為可以含有多個檔案的壓縮檔？\n"
-"如果轉換，你必須輸入一個新的壓縮檔名稱。"
-
-#: arkwidget.cpp:977
-msgid "Warning"
-msgstr ""
-
-#: arkwidget.cpp:977
-msgid "Make Into Archive"
-msgstr "轉換"
-
-#: arkwidget.cpp:977
-msgid "Do Not Make"
-msgstr "不要轉換"
-
-#: arkwidget.cpp:992 arkwidget.cpp:2053
-msgid "Creating archive..."
-msgstr "正在建立壓縮檔...."
-
-#: arkwidget.cpp:1096
-msgid "Select Files to Add"
-msgstr "選取要加入檔案"
-
-#: arkwidget.cpp:1131
-msgid "Adding files..."
-msgstr "加入檔案中..."
-
-#: arkwidget.cpp:1149
-msgid "Select Folder to Add"
-msgstr "選擇要加入的資料夾"
-
-#: arkwidget.cpp:1154
-msgid "Adding folder..."
-msgstr "加入資料夾..."
-
-#: arkwidget.cpp:1246
-msgid "Do you really want to delete the selected items?"
-msgstr "你確定要刪除選擇的項目嗎？"
-
-#: arkwidget.cpp:1265
-msgid "Removing..."
-msgstr "移除中..."
-
-#: arkwidget.cpp:1311
-msgid "Open with:"
-msgstr "以其它程式開啟："
-
-#: arkwidget.cpp:1373
-#, qt-format
-msgid ""
-"%1 will not be extracted because it will overwrite an existing file.\n"
-"Go back to the Extraction Dialog?"
-msgstr ""
-
-#: arkwidget.cpp:1378
-msgid ""
-"Some files will not be extracted, because they would overwrite existing "
-"files.\n"
-"Would you like to go back to the extraction dialog?\n"
-"\n"
-"The following files will not be extracted if you choose to continue:"
-msgstr ""
-
-#: arkwidget.cpp:1430
-msgid "The archive to extract from no longer exists."
-msgstr "要解開的壓縮檔已經不存在。"
-
-#: arkwidget.cpp:1510 arkwidget.cpp:1537 arkwidget.cpp:1575 mainwindow.cpp:414
-msgid "Extracting..."
-msgstr "解壓中..."
-
-#: arkwidget.cpp:1603
-msgid "Edit with:"
-msgstr "以其它程式編輯："
-
-#: arkwidget.cpp:1613
-msgid "Trouble editing the file..."
-msgstr "編輯檔案失敗..."
-
-#: arkwidget.cpp:1653
-msgid "Readding edited file..."
-msgstr "重新加入已編輯的檔案..."
-
-#: arkwidget.cpp:1672
-msgid "Extracting file to view"
-msgstr "正在解開檔案作檢視"
-
-#: arkwidget.cpp:1691
-msgid ""
-"The internal viewer is not able to display this file. Would you like to view "
-"it using an external program?"
-msgstr "內置的檢視器無法顯示此檔案。你想要使用外部的程式來開啟它？"
-
-#: arkwidget.cpp:1692
-msgid "View Externally"
-msgstr "以外部程式檢視"
-
-#: arkwidget.cpp:1692
-msgid "Do Not View"
-msgstr "不要檢視"
-
-#: arkwidget.cpp:1806
-#, fuzzy, qt-format
-msgctxt "%2 is the total size of selected files"
-msgid "1 files selected  %2"
-msgid_plural "%1 files selected  %2"
-msgstr[0] "選取了 %1 個檔案，大小為 %2"
-
-#: arkwidget.cpp:1880
-msgid ""
-"Do you wish to add this to the current archive or open it as a new archive?"
-msgstr "你要將其加到目前壓縮檔中，還是開啟成為新的壓縮檔？"
-
-#: arkwidget.cpp:1882
-msgid "&Add"
-msgstr "加入(&A)"
-
-#: arkwidget.cpp:1882
-msgid "&Open"
-msgstr "開啟(&O)"
-
-#: arkwidget.cpp:1937
-msgid ""
-"There is no archive currently open. Do you wish to create one now for these "
-"files?"
-msgstr "目前尚未開啟任何壓縮檔。你要為這些檔案開啟一個新的壓縮檔嗎？"
-
-#: arkwidget.cpp:1938
-msgid ""
-"There is no archive currently open. Do you wish to create one now for this "
-"file?"
-msgstr "目前尚未開啟任何壓縮檔，你要為這個檔案開啟一個新的壓縮檔嗎？"
-
-#: arkwidget.cpp:1939
-msgid "Create Archive"
-msgstr "建立壓縮檔"
-
-#: arkwidget.cpp:1939 extractiondialog.cpp:155
-msgid "Do Not Create"
-msgstr "不要建立"
-
-#: arkwidget.cpp:2022 arkwidget.cpp:2135
-msgid "Unknown archive format or corrupted archive"
-msgstr "未知的壓縮檔格式或壓縮檔已損壞"
-
-#: arkwidget.cpp:2029 arkwidget.cpp:2141
-#, qt-format
-msgid ""
-"The utility %1 is not in your PATH.\n"
-"Please install it or contact your system administrator."
-msgstr ""
-"工具 %1 不在你的執行路經中。\n"
-"請安裝它或聯絡系統管理者。"
-
-#: arkwidget.cpp:2090
-msgid "An error occurred while trying to create the archive."
-msgstr "嘗試建立壓縮檔時發生錯誤。"
-
-#: arkwidget.cpp:2156
-msgid "Opening the archive..."
-msgstr "開啟壓縮檔中..."
-
-#: arkwidget.cpp:2180
-msgid ""
-"This archive is read-only. If you want to save it under a new name, go to "
-"the File menu and select Save As."
-msgstr ""
-"本壓縮檔是唯讀的，如果你希望將它儲存為另一個名稱，請在選單列中選取「檔案」→"
-"「另存新檔」。"
-
-#: arkwidget.cpp:2180
-msgid "Information"
-msgstr ""
-
-#: arkwidget.cpp:2198
-#, qt-format
-msgid "An error occurred while trying to open the archive %1"
-msgstr "嘗試開啟壓縮檔 %1 時發生錯誤。"
-
-#. i18n: tag string
-#. i18n: file general.ui line 16
-#: arkwidget.cpp:2234 rc.cpp:129
-msgid "General"
-msgstr "一般"
-
-#: arkwidget.cpp:2234
-msgid "General Settings"
-msgstr "一般設定"
-
-#: compressedfile.cpp:68
-msgid ""
-"You are creating a simple compressed archive which contains only one input "
-"file.\n"
-"When uncompressed, the file name will be based on the name of the archive "
-"file.\n"
-"If you add more files you will be prompted to convert it to a real archive."
-msgstr ""
-"你正在建立只包含一個檔案的簡單壓縮檔。\n"
-"解壓時，它的檔名會以壓縮檔的名稱為基礎。\n"
-"如果你加入更多的檔案，程式將會提示你，它會轉換成可以含有多個檔案的壓縮檔。"
-
-#: compressedfile.cpp:71
-msgid "Simple Compressed Archive"
-msgstr "簡單壓縮檔"
-
-#: compressedfile.cpp:317 tar.cpp:174 tar.cpp:191
-msgid "Trouble writing to the archive..."
-msgstr "寫入壓縮檔時發生錯誤..."
-
-#: extractiondialog.cpp:62
-msgid "Extract"
-msgstr "解開"
-
-#: extractiondialog.cpp:67
-#, qt-format
-msgid "Extract Files From %1"
-msgstr "從 %1 中解開檔案"
-
-#: extractiondialog.cpp:85
-msgid "Extract:"
-msgstr "解開："
-
-#: extractiondialog.cpp:88
-msgid "Selected files only"
-msgstr "只解開已選的檔案"
-
-#: extractiondialog.cpp:90
-msgid "All files"
-msgstr "所有檔案"
-
-#: extractiondialog.cpp:98
-msgid "Extract all files"
-msgstr "解開所有檔案"
-
-#: extractiondialog.cpp:103
-msgid "Destination folder: "
-msgstr "目的地資料夾："
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 82
-#: extractiondialog.cpp:127 rc.cpp:81
-msgid "Open destination folder after extraction"
-msgstr "解壓後開啟目的地資料夾"
-
-#: extractiondialog.cpp:154
-#, qt-format
-msgid "Create folder %1?"
-msgstr "建立資料夾 %1？"
-
-#: extractiondialog.cpp:155
-msgid "Missing Folder"
-msgstr "未指定資料夾"
-
-#: extractiondialog.cpp:155
-msgid "Create Folder"
-msgstr "建立資料夾"
-
-#: extractiondialog.cpp:164
-msgid "The folder could not be created. Please check permissions."
-msgstr "無法建立資料夾，請檢查權限。"
-
-#: extractiondialog.cpp:170
-msgid ""
-"You do not have write permission to this folder. Please provide another "
-"folder."
-msgstr "你沒有該資料夾的寫入權限。請選擇其它資料夾。"
-
-#: filelistview.cpp:146
-#, qt-format
-msgctxt "Packed Ratio"
-msgid "%1 %"
-msgstr "%1 %"
-
-#: main.cpp:50
+#: app/main.cpp:31
 msgid "Ark"
 msgstr "Ark"
 
-#: main.cpp:51
+#: app/main.cpp:32
 msgid "KDE Archiving tool"
 msgstr "KDE 壓縮檔工具"
 
-#: main.cpp:53
+#: app/main.cpp:34
 #, fuzzy
-msgid "(c) 1997-2005, The Various Ark Developers"
+#| msgid "(c) 1997-2003, The Various Ark Developers"
+msgid "(c) 1997-2007, The Various Ark Developers"
 msgstr "(c) 1997-2003, 各位 Ark 開發者"
 
-#: main.cpp:56
+#: app/main.cpp:37
 msgid "Henrique Pinto"
 msgstr ""
 
-#: main.cpp:57
+#: app/main.cpp:38
 msgid "Maintainer"
 msgstr "維護人"
 
-#: main.cpp:59
+#: app/main.cpp:40
 msgid "Helio Chissini de Castro"
 msgstr ""
 
-#: main.cpp:60
+#: app/main.cpp:41
 msgid "Former maintainer"
 msgstr "前維護人"
 
-#: main.cpp:62
+#: app/main.cpp:43
 msgid "Georg Robbers"
 msgstr ""
 
-#: main.cpp:65
+#: app/main.cpp:46
 msgid "Roberto Selbach Teixeira"
 msgstr ""
 
-#: main.cpp:71
+#: app/main.cpp:49
+msgid "Francois-Xavier Duranceau"
+msgstr ""
+
+#: app/main.cpp:52
 msgid "Emily Ezust (Corel Corporation)"
 msgstr ""
 
-#: main.cpp:74
+#: app/main.cpp:55
 msgid "Michael Jarrett (Corel Corporation)"
 msgstr ""
 
-#: main.cpp:81
+#: app/main.cpp:58
+msgid "Robert Palmbos"
+msgstr ""
+
+#: app/main.cpp:62
 msgid "Bryce Corkins"
 msgstr ""
 
-#: main.cpp:82
+#: app/main.cpp:63
 msgid "Icons"
 msgstr "圖示"
 
-#: main.cpp:84
+#: app/main.cpp:65
 msgid "Liam Smit"
 msgstr ""
 
-#: main.cpp:85
+#: app/main.cpp:66
 msgid "Ideas, help with the icons"
 msgstr "概念、說明及圖示"
 
-#: main.cpp:91
-msgid "Open extract dialog, quit when finished"
-msgstr "開啟解壓對話視窗，完成後離開"
-
-#: main.cpp:92
-msgid ""
-"Extract 'archive' to 'folder'. Quit when finished.\n"
-"'folder' will be created if it does not exist."
+#: app/main.cpp:68
+msgid "Andrew Smith"
 msgstr ""
-"解開「壓縮檔」至「資料夾」。完成後離開。\n"
-"「資料夾」不存在則會自動建立。"
 
-#: main.cpp:94
-msgid "Ask for the name of the archive to add 'files' to. Quit when finished."
-msgstr "詢問要加入「檔案」的壓縮檔的名稱。完成後離開。"
-
-#: main.cpp:95
-msgid ""
-"Add 'files' to 'archive'. Quit when finished.\n"
-"'archive' will be created if it does not exist."
+#: app/main.cpp:69
+msgid "bkisofs code"
 msgstr ""
-"加入檔案至「壓縮檔」。完成後離開。\n"
-"如果「壓縮檔」不存在則會自動建立。"
 
-#: main.cpp:97
-msgid ""
-"Used with '--extract-to'. When specified, 'archive'\n"
-"will be extracted to a subfolder of 'folder'\n"
-"whose name will be the name of 'archive' without the filename extension."
+#: app/main.cpp:76
+msgid "URL of an archive to be opened"
 msgstr ""
-"與「--extract-to」一起使用。\n"
-"使用時，「壓縮檔」會解壓至某「資料夾」的子資料夾中\n"
-"而其名稱則為沒有伸延的壓縮檔名稱。"
 
-#: main.cpp:100
-msgid "Folder to extract to"
-msgstr "資料夾解壓至"
-
-#: main.cpp:101
-msgid "Files to be added"
-msgstr "要加入的檔案"
-
-#: main.cpp:102
-msgid "Open 'archive'"
-msgstr "開啟「壓縮檔」"
-
-#: mainwindow.cpp:121
-msgid "New &Window"
-msgstr "新增視窗(&W)"
-
-#: mainwindow.cpp:131
-msgid "Re&load"
-msgstr "重新讀取(&L)"
-
-#: mainwindow.cpp:241
-#, qt-format
-msgid ""
-"The archive %1 is already open and has been raised.\n"
-"Note: if the filename does not match, it only means that one of the two is a "
-"symbolic link."
+#: app/mainwindow.cpp:45
+msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
-"壓縮檔 %1 已經被開啟並已經解開。\n"
-"注意：如果你看到的檔名不同，這表示其中一個是符號連結。"
 
-#: mainwindow.cpp:268
-msgid "Open &as:"
-msgstr "開啟為(&A)："
-
-#: mainwindow.cpp:276
-msgid "Autodetect (default)"
-msgstr "自動偵測（預設）"
-
-#: mainwindow.cpp:302
+#: app/mainwindow.cpp:82
 #, fuzzy
 msgid "Open"
 msgstr "開啟(&O)"
 
-#: mainwindow.cpp:436
-msgid "Select Archive to Add Files To"
-msgstr "選擇要加入檔案的壓縮檔"
-
-#: mainwindow.cpp:449
-msgid "Compressing..."
-msgstr "壓縮中..."
-
-#: mainwindow.cpp:474
-msgid "Please Wait"
-msgstr "請稍候"
-
-#. i18n: tag string
-#. i18n: file addition.ui line 19
-#: rc.cpp:3
-msgid "Replace old files only &with newer files"
-msgstr "以較新的檔案取代舊有的檔案(&W)"
-
-#. i18n: tag string
-#. i18n: file addition.ui line 26
-#: rc.cpp:6
-msgid "Force &MS-DOS short filenames (Zip)"
-msgstr "強制使用 &MS-DOS 短檔名 (Zip)"
-
-#. i18n: tag string
-#. i18n: file addition.ui line 33
-#: rc.cpp:9
-msgid "Translate &LF to DOS CRLF (Zip)"
-msgstr "將 &LF 轉換成 DOS CRLF (Zip)"
-
-#. i18n: tag string
-#. i18n: file addition.ui line 40
-#: rc.cpp:12
-msgid "&Store symlinks as links (Zip, Rar)"
-msgstr "儲存符號連結為連結 (&Zip, Rar)"
-
-#. i18n: tag string
-#. i18n: file addition.ui line 47
-#: rc.cpp:15
-msgid "&Recursively add subfolders (Zip, Rar)"
-msgstr "遞迴地加入子資料夾 (Zip, &Rar)"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 9
-#: rc.cpp:18
-msgid "Last folders used for extraction"
-msgstr "上次用作解壓縮的資料夾"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 12
-#: rc.cpp:21
-msgid "Replace old files only with newer files"
-msgstr "以較新的檔案取代舊有的檔案"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 13
-#: rc.cpp:24
+#: app/mainwindow.cpp:83
 msgid ""
-"If this option is enabled and you add filenames that already exist in an "
-"archive, only replace the old files if the added files are newer than them"
+"Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
-"如啟用此選項，當你在加入壓縮檔中加入已經存在的檔案，只會在加入的檔案比較新的"
-"情況下，才會取代舊的檔案。"
 
-#. i18n: tag label
-#. i18n: file ark.kcfg line 17
-#: rc.cpp:27
-msgid "Overwrite files (Zip, Tar, Zoo, Rar)"
-msgstr "覆寫檔案 (Zip, Tar, Zoo, Rar)"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 18
-#: rc.cpp:30
-msgid ""
-"Overwrite any files that have matching names on disk with the one from the "
-"archive"
-msgstr "以壓縮檔中的檔案覆蓋在磁碟上相同名字的檔案。"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 24
-#: rc.cpp:33
-msgid "Preserve permissions"
-msgstr "保留權限"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 25
-#: rc.cpp:36
-msgid ""
-"Save the user, group, and permission settings on files. Use with care, as "
-"this may result in files being extracted that do not belong to any valid "
-"user on your computer"
-msgstr ""
-"在檔案中儲存使用者、群組及權限設定。請小心使用，在你的電腦解開檔案時可能會導"
-"致其不屬於任何使用者。"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 31
-#: rc.cpp:39
-msgid "Force MS-DOS short filenames (Zip)"
-msgstr "強制使用 MS-DOS 短檔名 (Zip)"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 32
-#: rc.cpp:42
-msgid "Force names of files in Zip archives to the DOS 8.3 format"
-msgstr "強制 Zip 壓縮檔使用 DOS 8.3 格式"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 36
-#: rc.cpp:45
-msgid "Translate LF to DOS CRLF"
-msgstr "將 LF 轉換成 DOS CRLF"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 40
-#: rc.cpp:48
-msgid "Ignore folder names (Zip)"
-msgstr "忽略資料夾名稱 (Zip)"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 41
-#: rc.cpp:51
-msgid ""
-"Extract all the files into the extraction folder, ignoring any folder "
-"structure in the archive."
-msgstr "將所有檔案解壓型解壓資料夾中，忽略壓縮檔的資料夾結構。"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 47
-#: rc.cpp:54
-msgid "Store symlinks as links (Zip, Rar)"
-msgstr "儲存符號連結為連結 (Zip, Rar)"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 51
-#: rc.cpp:57
-msgid "Recursively add subfolders (Zip, Rar)"
-msgstr "遞迴地加入子資料夾 (Zip, Rar)"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 55
-#: rc.cpp:60
-msgid "Convert filenames to lowercase (Zip, Rar)"
-msgstr "將檔案名稱改成小寫 (Zip, Rar)"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 59
-#: rc.cpp:63
-msgid "Convert filenames to uppercase"
-msgstr "將檔案名稱改成大寫"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 65
-#: rc.cpp:66
-msgid "Show search bar"
-msgstr "顯示搜尋列"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 69
-#: rc.cpp:69
-msgid "Enable Konqueror integration"
-msgstr "啟用 Konqueror 整合模式"
-
-#. i18n: tag whatsthis
-#. i18n: file ark.kcfg line 70
-#: rc.cpp:72
-msgid ""
-"Enables integration with Konqueror's context menus, letting you easily "
-"archive or unarchive files. This option will only work if you have the "
-"kdeaddons package installed."
-msgstr ""
-"啟用將 Konqueror 整合到快顯選單的功能，使用戶更容易建立或解開壓縮檔。只有在安"
-"裝 kdeaddons 套件後，此選項才能夠使用。"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 74
-#: rc.cpp:75
-msgid "Use integrated viewer"
-msgstr "使用內置的檢視器"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 78
-#: rc.cpp:78
-msgid "Tar Command"
-msgstr "Tar 指令"
-
-#. i18n: tag label
-#. i18n: file ark.kcfg line 86
-#: rc.cpp:84
-msgid "Enable experimental support for loading ACE files"
-msgstr "啟用 ACE 檔案的實驗性支援"
-
-#. i18n: tag text
-#. i18n: file ark_part.rc line 7
-#. i18n: tag text
-#. i18n: file ark_part_readonly.rc line 7
-#. i18n: tag text
-#. i18n: file arkui.rc line 4
-#: rc.cpp:87 rc.cpp:99 rc.cpp:111
+#: app/mainwindow.cpp:84
 #, fuzzy
-msgid "&File"
-msgstr "資料夾(&F)"
+#| msgid "Open 'archive'"
+msgid "Open an archive"
+msgstr "開啟「壓縮檔」"
 
-#. i18n: tag text
-#. i18n: file ark_part.rc line 10
-#. i18n: tag text
-#. i18n: file ark_part_readonly.rc line 10
-#: rc.cpp:90 rc.cpp:102
-msgid "&Edit"
+#: kerfuffle/jobs.cpp:39
+#, qt-format
+msgid "Listing entries in the archive '%1'"
 msgstr ""
 
-#. i18n: tag text
-#. i18n: file ark_part.rc line 16
-#. i18n: tag text
-#. i18n: file ark_part_readonly.rc line 16
-#: rc.cpp:93 rc.cpp:105
-msgid "&Action"
-msgstr "動作(&A)"
+#: kerfuffle/jobs.cpp:67
+#, fuzzy, qt-format
+#| msgid "Extracting file to view"
+msgid "Extracting all files from the archive '%1'"
+msgstr "正在解開檔案作檢視"
 
-#. i18n: tag text
-#. i18n: file ark_part.rc line 26
-#. i18n: tag text
-#. i18n: file ark_part_readonly.rc line 22
-#: rc.cpp:96 rc.cpp:108
-#, fuzzy
-msgid "&Settings"
-msgstr "設定"
+#: kerfuffle/jobs.cpp:71
+#, fuzzy, qt-format
+#| msgid "Extracting file to view"
+msgid "Extracting one file from the archive %2"
+msgid_plural "Extracting %1 files from the archive '%2'"
+msgstr[0] "正在解開檔案作檢視"
 
-#. i18n: tag string
-#. i18n: file extraction.ui line 19
-#: rc.cpp:114
-msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
-msgstr "覆寫檔案 (Zip, &Tar, Zoo, Rar)"
+#: kerfuffle/jobs.cpp:115
+#, fuzzy, qt-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Adding one file to the archive"
+msgid_plural "Adding %1 files to the archive"
+msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#. i18n: tag string
-#. i18n: file extraction.ui line 26
-#: rc.cpp:117
-msgid "&Preserve permissions (Tar)"
-msgstr "保留權限 (T&ar)"
+#: kerfuffle/jobs.cpp:156
+#, fuzzy, qt-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Deleting one file from the archive"
+msgid_plural "Deleting %1 files from the archive"
+msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#. i18n: tag string
-#. i18n: file extraction.ui line 33
-#: rc.cpp:120
-msgid "&Ignore folder names (Zip)"
-msgstr "忽略資料夾名稱 (Z&ip)"
-
-#. i18n: tag string
-#. i18n: file extraction.ui line 40
-#: rc.cpp:123
-msgid "Convert file names to &lowercase (Zip, Rar)"
-msgstr "將檔案名稱改成小寫 (Zi&p, Rar)"
-
-#. i18n: tag string
-#. i18n: file extraction.ui line 47
-#: rc.cpp:126
-msgid "Convert file names to &uppercase (Rar)"
-msgstr "將檔案名稱改成大寫 (R&ar)"
-
-#. i18n: tag string
-#. i18n: file general.ui line 22
-#: rc.cpp:132
-msgid "&Use integrated viewer"
-msgstr "使用內置的檢視器(&U)"
-
-#. i18n: tag string
-#. i18n: file general.ui line 29
-#: rc.cpp:135
-msgid "&Enable Konqueror integration"
-msgstr "啟用 Konqu&eror 整合模式"
-
-#. i18n: tag string
-#. i18n: file general.ui line 57
-#: rc.cpp:138
-#, fuzzy
-msgid ""
-"<font size=\"-1\"><i>Konqueror integration is only available<br> if you "
-"install the Konqueror integration<br> plugin from the kdeaddons package.</"
-"i></font>"
+#: part/archivemodel.cpp:220
+msgid "Name"
 msgstr ""
-"<font size=\"-1\"><i>只有在安裝在 kdeaddos 套件中 Konqueror 整合的外掛程式"
-"後，才可使用 Konqueror 整合功能。</i></font>"
 
-#: rc.cpp:139
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Woodman Tuen"
-
-#: rc.cpp:140
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "wmtuen@gmail.com"
-
-#: tar.cpp:512
-msgid "Unable to fork a decompressor"
-msgstr "無法衍生解壓程式"
-
-#: tar.cpp:539
-msgid "Trouble writing to the tempfile..."
-msgstr "寫入暫存檔失敗..."
-
-#: archive.h:193
-msgid " Filename "
-msgstr " 檔案名稱 "
-
-#: archive.h:194
-msgid " Permissions "
-msgstr " 權限 "
-
-#: archive.h:195
-msgid " Owner/Group "
-msgstr " 擁有者/群組 "
-
-#: archive.h:196
-msgid " Size "
+#: part/archivemodel.cpp:222
+#, fuzzy
+#| msgid " Size "
+msgid "Size"
 msgstr " 大小 "
 
-#: archive.h:197
-msgid " Timestamp "
-msgstr " 時間標記 "
+#: part/extractiondialog.cpp:41
+msgid "Extract"
+msgstr "解開"
 
-#: archive.h:198
-msgid " Link "
-msgstr " 連結 "
+#: part/infopanel.cpp:59
+msgid "No archive loaded"
+msgstr ""
 
-#: archive.h:199
-msgid " Size Now "
-msgstr " 目前大小 "
+#: part/infopanel.cpp:96
+#, qt-format
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] ""
 
-#: archive.h:200
-msgid " Ratio "
-msgstr " 壓縮比 "
+#: part/infopanel.cpp:100
+msgid "Symbolic Link"
+msgstr ""
 
-#: archive.h:201
+#: part/infopanel.cpp:156
+#, qt-format
+msgid "<b>Type:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:160
+#, qt-format
+msgid "<b>Owner:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:165
+#, qt-format
+msgid "<b>Group:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:170
+#, qt-format
+msgid "<b>Target:</b> %1<br/>"
+msgstr ""
+
+#: part/jobtracker.cpp:87
+msgid "Done!"
+msgstr ""
+
+#: part/part.cpp:110
 #, fuzzy
-#| msgctxt "acronym for Cyclic Redundancy Check"
-#| msgid " CRC "
-msgctxt "Cyclic Redundancy Check"
-msgid " CRC "
-msgstr " CRC "
+#| msgctxt "to view something"
+#| msgid "&View"
+msgctxt "to preview a file inside an archive"
+msgid "Pre&view"
+msgstr "檢視(&V)"
 
-#: archive.h:202
-msgid " Method "
-msgstr " 壓縮法 "
+#: part/part.cpp:112
+msgid "Click to preview the selected file"
+msgstr ""
 
-#: archive.h:203
-msgid " Version "
-msgstr " 版本 "
+#: part/part.cpp:117
+msgid "E&xtract..."
+msgstr "解開(&X)..."
 
-#: archive.h:204
-msgid " Owner "
-msgstr " 擁有者 "
+#: part/part.cpp:119
+msgid ""
+"Click to open an extraction dialog, where you can choose to extract either "
+"all files or just the selected ones"
+msgstr ""
 
-#: archive.h:205
-msgid " Group "
-msgstr " 群組 "
+#: part/part.cpp:125
+msgid "Add &File..."
+msgstr "加入檔案(&F)..."
+
+#: part/part.cpp:126
+#, fuzzy
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Click to add files to the archive"
+msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#: part/part.cpp:132
+#, fuzzy
+#| msgid "Add Folde&r..."
+msgid "Add Fo&lder..."
+msgstr "加入資料夾(&R)..."
+
+#: part/part.cpp:133
+msgid "Click to add a folder to the archive"
+msgstr ""
+
+#: part/part.cpp:139
+msgid "De&lete"
+msgstr "刪除(&E)"
+
+#: part/part.cpp:140
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgid "Click to delete the selected files"
+msgstr "你確定要刪除選擇的項目嗎？"
+
+#: part/part.cpp:171
+#, fuzzy
+#| msgid "Ark"
+msgid "ArkPart"
+msgstr "Ark"
+
+#: part/part.cpp:233
+msgid "The internal viewer cannot preview this file."
+msgstr ""
+
+#: part/part.cpp:327
+#, fuzzy
+#| msgid "All Files"
+msgid "Add Files"
+msgstr "所有檔案"
+
+#: part/part.cpp:341
+#, fuzzy
+#| msgid "Add Folde&r..."
+msgid "Add Folder"
+msgstr "加入資料夾(&R)..."
+
+#~ msgid "Could not start a subprocess."
+#~ msgstr "無法啟動子進程。"
+
+#~ msgid "The deletion operation failed."
+#~ msgstr "刪除動作失敗。"
+
+#~ msgid "The password was incorrect. "
+#~ msgstr "密碼錯誤。"
+
+#~ msgid "You must enter a password to extract the file:"
+#~ msgstr "你必須輸入密碼才能解開檔案："
+
+#~ msgid "The extraction operation failed."
+#~ msgstr "解壓動作失敗。"
+
+#~ msgid "The addition operation failed."
+#~ msgstr "附加動作失敗。"
+
+#~ msgid "Choose Archive Format"
+#~ msgstr "選擇壓縮檔格式"
+
+#~ msgid ""
+#~ "This file appears to be of type %1,\n"
+#~ "which is not a supported archive format.\n"
+#~ "In order to proceed, please choose the format\n"
+#~ "of the file."
+#~ msgstr ""
+#~ "本檔案應是 %1 類型，\n"
+#~ "但這種格式沒有被支援。\n"
+#~ "若要繼續進行，請選擇該檔的格式。"
+
+#~ msgid ""
+#~ "You are about to open a file that has a non-standard extension.\n"
+#~ "Ark has detected the format: %1\n"
+#~ "If this is not correct, please choose the appropriate format."
+#~ msgstr ""
+#~ "你嘗試開啟一個有非標準伸延名稱的檔案。\n"
+#~ "Ark 偵測到該格式是：%1\n"
+#~ "如果不正確，請選擇適當的格式。"
+
+#~ msgid "Compressed File"
+#~ msgstr "已壓縮檔案"
+
+#~ msgid "All Valid Archives\n"
+#~ msgstr "所有支援的壓縮檔\n"
+
+#~ msgid "ark"
+#~ msgstr "ark"
+
+#~ msgid "Ark KParts Component"
+#~ msgstr "Ark KParts 元件"
+
+#~ msgid "&Open With..."
+#~ msgstr "以其它程式開啟(&O)..."
+
+#~ msgid "Edit &With..."
+#~ msgstr "以其它程式編輯(&W)..."
+
+#~ msgid "&Unselect All"
+#~ msgstr "全部不選(&U)"
+
+#~ msgid "&Invert Selection"
+#~ msgstr "選取相反項目(&I)"
+
+#~ msgid "Configure &Ark..."
+#~ msgstr "設定 &ARK..."
+
+#~ msgid "Show Search Bar"
+#~ msgstr "顯示搜尋列"
+
+#~ msgid "Hide Search Bar"
+#~ msgstr "隱藏搜尋列"
+
+#~ msgid ""
+#~ "The archive \"%1\" has been modified.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "壓縮檔“%1”已被修改。\n"
+#~ "是否儲存它？"
+
+#~ msgid "Save Archive?"
+#~ msgstr "儲存壓縮檔？"
+
+#~ msgid "Downloading %1..."
+#~ msgstr "正在下載 %1..."
+
+#~ msgid "Total: 0 files"
+#~ msgstr "總計：0 個檔案"
+
+#~ msgid "0 files selected"
+#~ msgstr "已選取 0 個檔案"
+
+#~ msgid "Wrong number of arguments specified"
+#~ msgstr "提供的參數數目錯誤"
+
+#~ msgid "You need to specify at least one file to be added to the archive."
+#~ msgstr "你最少要加入一個檔案到壓縮檔中。"
+
+#~ msgid "You have run out of disk space."
+#~ msgstr "磁碟空間用完了。"
+
+#, fuzzy
+#~| msgid ""
+#~| "The file you're trying to view may be an executable. Running untrusted "
+#~| "executables may compromise your system's security.\n"
+#~| "Are you sure you want to run that file?"
+#~ msgid ""
+#~ "The file you are trying to view may be an executable. Running untrusted "
+#~ "executables may compromise your system's security.\n"
+#~ "Are you sure you want to run that file?"
+#~ msgstr ""
+#~ "你嘗試檢視的檔案可能是可執行檔。執行不受信任的可執行檔，可能令系統變得不安"
+#~ "全。\n"
+#~ "你確定要執行該檔案？"
+
+#~ msgid "Run Nevertheless"
+#~ msgstr "依然執行"
+
+#~ msgid "&Search:"
+#~ msgstr "搜尋(&S)："
+
+#~ msgid "%1 file  %2"
+#~ msgid_plural "%1 files  %2"
+#~ msgstr[0] "%1 檔案 %2"
+
+#~ msgid "Save Archive As"
+#~ msgstr "另存壓縮檔為"
+
+#~ msgid ""
+#~ "Please save your archive in the same format as the original.\n"
+#~ "Hint: Use one of the suggested extensions."
+#~ msgstr ""
+#~ "儲存壓縮檔時請使用和原來一樣的格式。\n"
+#~ "提示：使用相同的延伸名稱。"
+
+#~ msgid "Saving..."
+#~ msgstr "儲存中..."
+
+#~ msgid "Could not create the folder %1"
+#~ msgstr "無法建立資料夾 %1"
+
+#~ msgid "An error occurred while opening the archive %1."
+#~ msgstr "開啟壓縮檔 %1 時發生錯誤。"
+
+#~ msgid ""
+#~ "The following files will not be extracted\n"
+#~ "because they already exist:"
+#~ msgstr ""
+#~ "下列的檔案將不會被解開\n"
+#~ "因為檔案已經存在："
+
+#~ msgid "Not enough free disc space to extract the archive."
+#~ msgstr "沒有足夠的磁碟空間來解開壓縮檔。"
+
+#~ msgid "An error occurred while extracting the archive."
+#~ msgstr "解開壓縮檔時發生錯誤。"
+
+#~ msgid "The archive %1 does not exist."
+#~ msgstr "壓縮檔 %1 不存在。"
+
+#~ msgid "You do not have permission to access that archive."
+#~ msgstr "你沒有存取這個壓縮檔的權限。"
+
+#~ msgid "Archive already exists. Do you wish to overwrite it?"
+#~ msgstr "壓縮檔已經存在。你是否要覆寫它？"
+
+#~ msgid "Archive Already Exists"
+#~ msgstr "壓縮檔已經存在"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "不要覆寫"
+
+#~ msgid "You do not have permission to write to the directory %1"
+#~ msgstr "你沒有寫入目錄 %1 的權限。"
+
+#~ msgid "Create New Archive"
+#~ msgstr "建立新的壓縮檔"
+
+#~ msgid ""
+#~ "You are currently working with a simple compressed file.\n"
+#~ "Would you like to make it into an archive so that it can contain multiple "
+#~ "files?\n"
+#~ "If so, you must choose a name for your new archive."
+#~ msgstr ""
+#~ "你目前使用的是一個「簡單壓縮檔」（壓縮檔中只有一個檔案）。\n"
+#~ "你是否要將其轉換為可以含有多個檔案的壓縮檔？\n"
+#~ "如果轉換，你必須輸入一個新的壓縮檔名稱。"
+
+#~ msgid "Make Into Archive"
+#~ msgstr "轉換"
+
+#~ msgid "Do Not Make"
+#~ msgstr "不要轉換"
+
+#~ msgid "Creating archive..."
+#~ msgstr "正在建立壓縮檔...."
+
+#~ msgid "Select Files to Add"
+#~ msgstr "選取要加入檔案"
+
+#~ msgid "Adding files..."
+#~ msgstr "加入檔案中..."
+
+#~ msgid "Select Folder to Add"
+#~ msgstr "選擇要加入的資料夾"
+
+#~ msgid "Adding folder..."
+#~ msgstr "加入資料夾..."
+
+#~ msgid "Removing..."
+#~ msgstr "移除中..."
+
+#~ msgid "Open with:"
+#~ msgstr "以其它程式開啟："
+
+#~ msgid "The archive to extract from no longer exists."
+#~ msgstr "要解開的壓縮檔已經不存在。"
+
+#~ msgid "Extracting..."
+#~ msgstr "解壓中..."
+
+#~ msgid "Edit with:"
+#~ msgstr "以其它程式編輯："
+
+#~ msgid "Trouble editing the file..."
+#~ msgstr "編輯檔案失敗..."
+
+#~ msgid "Readding edited file..."
+#~ msgstr "重新加入已編輯的檔案..."
+
+#~ msgid ""
+#~ "The internal viewer is not able to display this file. Would you like to "
+#~ "view it using an external program?"
+#~ msgstr "內置的檢視器無法顯示此檔案。你想要使用外部的程式來開啟它？"
+
+#~ msgid "View Externally"
+#~ msgstr "以外部程式檢視"
+
+#~ msgid "Do Not View"
+#~ msgstr "不要檢視"
+
+#, fuzzy
+#~ msgctxt "%2 is the total size of selected files"
+#~ msgid "1 files selected  %2"
+#~ msgid_plural "%1 files selected  %2"
+#~ msgstr[0] "選取了 %1 個檔案，大小為 %2"
+
+#~ msgid ""
+#~ "Do you wish to add this to the current archive or open it as a new "
+#~ "archive?"
+#~ msgstr "你要將其加到目前壓縮檔中，還是開啟成為新的壓縮檔？"
+
+#~ msgid "&Add"
+#~ msgstr "加入(&A)"
+
+#~ msgid "&Open"
+#~ msgstr "開啟(&O)"
+
+#~ msgid ""
+#~ "There is no archive currently open. Do you wish to create one now for "
+#~ "these files?"
+#~ msgstr "目前尚未開啟任何壓縮檔。你要為這些檔案開啟一個新的壓縮檔嗎？"
+
+#~ msgid ""
+#~ "There is no archive currently open. Do you wish to create one now for "
+#~ "this file?"
+#~ msgstr "目前尚未開啟任何壓縮檔，你要為這個檔案開啟一個新的壓縮檔嗎？"
+
+#~ msgid "Create Archive"
+#~ msgstr "建立壓縮檔"
+
+#~ msgid "Do Not Create"
+#~ msgstr "不要建立"
+
+#~ msgid "Unknown archive format or corrupted archive"
+#~ msgstr "未知的壓縮檔格式或壓縮檔已損壞"
+
+#~ msgid ""
+#~ "The utility %1 is not in your PATH.\n"
+#~ "Please install it or contact your system administrator."
+#~ msgstr ""
+#~ "工具 %1 不在你的執行路經中。\n"
+#~ "請安裝它或聯絡系統管理者。"
+
+#~ msgid "An error occurred while trying to create the archive."
+#~ msgstr "嘗試建立壓縮檔時發生錯誤。"
+
+#~ msgid "Opening the archive..."
+#~ msgstr "開啟壓縮檔中..."
+
+#~ msgid ""
+#~ "This archive is read-only. If you want to save it under a new name, go to "
+#~ "the File menu and select Save As."
+#~ msgstr ""
+#~ "本壓縮檔是唯讀的，如果你希望將它儲存為另一個名稱，請在選單列中選取「檔案」"
+#~ "→「另存新檔」。"
+
+#~ msgid "An error occurred while trying to open the archive %1"
+#~ msgstr "嘗試開啟壓縮檔 %1 時發生錯誤。"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid ""
+#~ "You are creating a simple compressed archive which contains only one "
+#~ "input file.\n"
+#~ "When uncompressed, the file name will be based on the name of the archive "
+#~ "file.\n"
+#~ "If you add more files you will be prompted to convert it to a real "
+#~ "archive."
+#~ msgstr ""
+#~ "你正在建立只包含一個檔案的簡單壓縮檔。\n"
+#~ "解壓時，它的檔名會以壓縮檔的名稱為基礎。\n"
+#~ "如果你加入更多的檔案，程式將會提示你，它會轉換成可以含有多個檔案的壓縮檔。"
+
+#~ msgid "Simple Compressed Archive"
+#~ msgstr "簡單壓縮檔"
+
+#~ msgid "Trouble writing to the archive..."
+#~ msgstr "寫入壓縮檔時發生錯誤..."
+
+#~ msgid "Extract Files From %1"
+#~ msgstr "從 %1 中解開檔案"
+
+#~ msgid "Extract:"
+#~ msgstr "解開："
+
+#~ msgid "Selected files only"
+#~ msgstr "只解開已選的檔案"
+
+#~ msgid "All files"
+#~ msgstr "所有檔案"
+
+#~ msgid "Extract all files"
+#~ msgstr "解開所有檔案"
+
+#~ msgid "Destination folder: "
+#~ msgstr "目的地資料夾："
+
+#~ msgid "Open destination folder after extraction"
+#~ msgstr "解壓後開啟目的地資料夾"
+
+#~ msgid "Create folder %1?"
+#~ msgstr "建立資料夾 %1？"
+
+#~ msgid "Missing Folder"
+#~ msgstr "未指定資料夾"
+
+#~ msgid "Create Folder"
+#~ msgstr "建立資料夾"
+
+#~ msgid "The folder could not be created. Please check permissions."
+#~ msgstr "無法建立資料夾，請檢查權限。"
+
+#~ msgid ""
+#~ "You do not have write permission to this folder. Please provide another "
+#~ "folder."
+#~ msgstr "你沒有該資料夾的寫入權限。請選擇其它資料夾。"
+
+#~ msgctxt "Packed Ratio"
+#~ msgid "%1 %"
+#~ msgstr "%1 %"
+
+#, fuzzy
+#~ msgid "(c) 1997-2005, The Various Ark Developers"
+#~ msgstr "(c) 1997-2003, 各位 Ark 開發者"
+
+#~ msgid "Open extract dialog, quit when finished"
+#~ msgstr "開啟解壓對話視窗，完成後離開"
+
+#~ msgid ""
+#~ "Extract 'archive' to 'folder'. Quit when finished.\n"
+#~ "'folder' will be created if it does not exist."
+#~ msgstr ""
+#~ "解開「壓縮檔」至「資料夾」。完成後離開。\n"
+#~ "「資料夾」不存在則會自動建立。"
+
+#~ msgid ""
+#~ "Ask for the name of the archive to add 'files' to. Quit when finished."
+#~ msgstr "詢問要加入「檔案」的壓縮檔的名稱。完成後離開。"
+
+#~ msgid ""
+#~ "Add 'files' to 'archive'. Quit when finished.\n"
+#~ "'archive' will be created if it does not exist."
+#~ msgstr ""
+#~ "加入檔案至「壓縮檔」。完成後離開。\n"
+#~ "如果「壓縮檔」不存在則會自動建立。"
+
+#~ msgid ""
+#~ "Used with '--extract-to'. When specified, 'archive'\n"
+#~ "will be extracted to a subfolder of 'folder'\n"
+#~ "whose name will be the name of 'archive' without the filename extension."
+#~ msgstr ""
+#~ "與「--extract-to」一起使用。\n"
+#~ "使用時，「壓縮檔」會解壓至某「資料夾」的子資料夾中\n"
+#~ "而其名稱則為沒有伸延的壓縮檔名稱。"
+
+#~ msgid "Folder to extract to"
+#~ msgstr "資料夾解壓至"
+
+#~ msgid "Files to be added"
+#~ msgstr "要加入的檔案"
+
+#~ msgid "New &Window"
+#~ msgstr "新增視窗(&W)"
+
+#~ msgid "Re&load"
+#~ msgstr "重新讀取(&L)"
+
+#~ msgid ""
+#~ "The archive %1 is already open and has been raised.\n"
+#~ "Note: if the filename does not match, it only means that one of the two "
+#~ "is a symbolic link."
+#~ msgstr ""
+#~ "壓縮檔 %1 已經被開啟並已經解開。\n"
+#~ "注意：如果你看到的檔名不同，這表示其中一個是符號連結。"
+
+#~ msgid "Open &as:"
+#~ msgstr "開啟為(&A)："
+
+#~ msgid "Autodetect (default)"
+#~ msgstr "自動偵測（預設）"
+
+#~ msgid "Select Archive to Add Files To"
+#~ msgstr "選擇要加入檔案的壓縮檔"
+
+#~ msgid "Compressing..."
+#~ msgstr "壓縮中..."
+
+#~ msgid "Please Wait"
+#~ msgstr "請稍候"
+
+#~ msgid "Replace old files only &with newer files"
+#~ msgstr "以較新的檔案取代舊有的檔案(&W)"
+
+#~ msgid "Force &MS-DOS short filenames (Zip)"
+#~ msgstr "強制使用 &MS-DOS 短檔名 (Zip)"
+
+#~ msgid "Translate &LF to DOS CRLF (Zip)"
+#~ msgstr "將 &LF 轉換成 DOS CRLF (Zip)"
+
+#~ msgid "&Store symlinks as links (Zip, Rar)"
+#~ msgstr "儲存符號連結為連結 (&Zip, Rar)"
+
+#~ msgid "&Recursively add subfolders (Zip, Rar)"
+#~ msgstr "遞迴地加入子資料夾 (Zip, &Rar)"
+
+#~ msgid "Last folders used for extraction"
+#~ msgstr "上次用作解壓縮的資料夾"
+
+#~ msgid "Replace old files only with newer files"
+#~ msgstr "以較新的檔案取代舊有的檔案"
+
+#~ msgid ""
+#~ "If this option is enabled and you add filenames that already exist in an "
+#~ "archive, only replace the old files if the added files are newer than them"
+#~ msgstr ""
+#~ "如啟用此選項，當你在加入壓縮檔中加入已經存在的檔案，只會在加入的檔案比較新"
+#~ "的情況下，才會取代舊的檔案。"
+
+#~ msgid "Overwrite files (Zip, Tar, Zoo, Rar)"
+#~ msgstr "覆寫檔案 (Zip, Tar, Zoo, Rar)"
+
+#~ msgid ""
+#~ "Overwrite any files that have matching names on disk with the one from "
+#~ "the archive"
+#~ msgstr "以壓縮檔中的檔案覆蓋在磁碟上相同名字的檔案。"
+
+#~ msgid "Preserve permissions"
+#~ msgstr "保留權限"
+
+#~ msgid ""
+#~ "Save the user, group, and permission settings on files. Use with care, as "
+#~ "this may result in files being extracted that do not belong to any valid "
+#~ "user on your computer"
+#~ msgstr ""
+#~ "在檔案中儲存使用者、群組及權限設定。請小心使用，在你的電腦解開檔案時可能會"
+#~ "導致其不屬於任何使用者。"
+
+#~ msgid "Force MS-DOS short filenames (Zip)"
+#~ msgstr "強制使用 MS-DOS 短檔名 (Zip)"
+
+#~ msgid "Force names of files in Zip archives to the DOS 8.3 format"
+#~ msgstr "強制 Zip 壓縮檔使用 DOS 8.3 格式"
+
+#~ msgid "Translate LF to DOS CRLF"
+#~ msgstr "將 LF 轉換成 DOS CRLF"
+
+#~ msgid "Ignore folder names (Zip)"
+#~ msgstr "忽略資料夾名稱 (Zip)"
+
+#~ msgid ""
+#~ "Extract all the files into the extraction folder, ignoring any folder "
+#~ "structure in the archive."
+#~ msgstr "將所有檔案解壓型解壓資料夾中，忽略壓縮檔的資料夾結構。"
+
+#~ msgid "Store symlinks as links (Zip, Rar)"
+#~ msgstr "儲存符號連結為連結 (Zip, Rar)"
+
+#~ msgid "Recursively add subfolders (Zip, Rar)"
+#~ msgstr "遞迴地加入子資料夾 (Zip, Rar)"
+
+#~ msgid "Convert filenames to lowercase (Zip, Rar)"
+#~ msgstr "將檔案名稱改成小寫 (Zip, Rar)"
+
+#~ msgid "Convert filenames to uppercase"
+#~ msgstr "將檔案名稱改成大寫"
+
+#~ msgid "Show search bar"
+#~ msgstr "顯示搜尋列"
+
+#~ msgid "Enable Konqueror integration"
+#~ msgstr "啟用 Konqueror 整合模式"
+
+#~ msgid ""
+#~ "Enables integration with Konqueror's context menus, letting you easily "
+#~ "archive or unarchive files. This option will only work if you have the "
+#~ "kdeaddons package installed."
+#~ msgstr ""
+#~ "啟用將 Konqueror 整合到快顯選單的功能，使用戶更容易建立或解開壓縮檔。只有"
+#~ "在安裝 kdeaddons 套件後，此選項才能夠使用。"
+
+#~ msgid "Use integrated viewer"
+#~ msgstr "使用內置的檢視器"
+
+#~ msgid "Tar Command"
+#~ msgstr "Tar 指令"
+
+#~ msgid "Enable experimental support for loading ACE files"
+#~ msgstr "啟用 ACE 檔案的實驗性支援"
+
+#, fuzzy
+#~ msgid "&File"
+#~ msgstr "資料夾(&F)"
+
+#~ msgid "&Action"
+#~ msgstr "動作(&A)"
+
+#, fuzzy
+#~ msgid "&Settings"
+#~ msgstr "設定"
+
+#~ msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
+#~ msgstr "覆寫檔案 (Zip, &Tar, Zoo, Rar)"
+
+#~ msgid "&Preserve permissions (Tar)"
+#~ msgstr "保留權限 (T&ar)"
+
+#~ msgid "&Ignore folder names (Zip)"
+#~ msgstr "忽略資料夾名稱 (Z&ip)"
+
+#~ msgid "Convert file names to &lowercase (Zip, Rar)"
+#~ msgstr "將檔案名稱改成小寫 (Zi&p, Rar)"
+
+#~ msgid "Convert file names to &uppercase (Rar)"
+#~ msgstr "將檔案名稱改成大寫 (R&ar)"
+
+#~ msgid "&Use integrated viewer"
+#~ msgstr "使用內置的檢視器(&U)"
+
+#~ msgid "&Enable Konqueror integration"
+#~ msgstr "啟用 Konqu&eror 整合模式"
+
+#, fuzzy
+#~ msgid ""
+#~ "<font size=\"-1\"><i>Konqueror integration is only available<br> if you "
+#~ "install the Konqueror integration<br> plugin from the kdeaddons package.</"
+#~ "i></font>"
+#~ msgstr ""
+#~ "<font size=\"-1\"><i>只有在安裝在 kdeaddos 套件中 Konqueror 整合的外掛程式"
+#~ "後，才可使用 Konqueror 整合功能。</i></font>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Woodman Tuen"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "wmtuen@gmail.com"
+
+#~ msgid "Unable to fork a decompressor"
+#~ msgstr "無法衍生解壓程式"
+
+#~ msgid "Trouble writing to the tempfile..."
+#~ msgstr "寫入暫存檔失敗..."
+
+#~ msgid " Filename "
+#~ msgstr " 檔案名稱 "
+
+#~ msgid " Permissions "
+#~ msgstr " 權限 "
+
+#~ msgid " Owner/Group "
+#~ msgstr " 擁有者/群組 "
+
+#~ msgid " Timestamp "
+#~ msgstr " 時間標記 "
+
+#~ msgid " Link "
+#~ msgstr " 連結 "
+
+#~ msgid " Size Now "
+#~ msgstr " 目前大小 "
+
+#~ msgid " Ratio "
+#~ msgstr " 壓縮比 "
+
+#, fuzzy
+#~| msgctxt "acronym for Cyclic Redundancy Check"
+#~| msgid " CRC "
+#~ msgctxt "Cyclic Redundancy Check"
+#~ msgid " CRC "
+#~ msgstr " CRC "
+
+#~ msgid " Method "
+#~ msgstr " 壓縮法 "
+
+#~ msgid " Version "
+#~ msgstr " 版本 "
+
+#~ msgid " Owner "
+#~ msgstr " 擁有者 "
+
+#~ msgid " Group "
+#~ msgstr " 群組 "
 
 #~ msgctxt "(used as part of a sentence)"
 #~ msgid "start-up folder"
