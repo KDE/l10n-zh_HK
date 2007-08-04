@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-02 04:53+0200\n"
+"POT-Creation-Date: 2007-08-04 05:34+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -763,12 +763,12 @@ msgid_plural "%1 Items"
 msgstr[0] ""
 
 #: core/transfergrouphandler.cpp:114 core/transferhandler.cpp:131
-#: ui/mainview.cpp:252 ui/transferdetails.cpp:91
+#: ui/transferdetails.cpp:91
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
 #: core/transfergrouphandler.cpp:119 core/transferhandler.cpp:136
-#: ui/mainview.cpp:257 ui/transferdetails.cpp:96
+#: ui/transferdetails.cpp:96
 #, qt-format
 msgid "%1/s"
 msgstr "%1/秒"
@@ -778,7 +778,7 @@ msgstr "%1/秒"
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: core/transferhandler.cpp:124 ui/mainview.cpp:241
+#: core/transferhandler.cpp:124
 msgctxt "not available"
 msgid "n/a"
 msgstr ""
@@ -787,20 +787,20 @@ msgstr ""
 msgid "Name"
 msgstr "名稱"
 
-#: core/transfertreemodel.cpp:274 ui/mainview.cpp:315
+#: core/transfertreemodel.cpp:274
 msgid "Status"
 msgstr ""
 
-#: core/transfertreemodel.cpp:276 ui/mainview.cpp:316
+#: core/transfertreemodel.cpp:276
 msgid "Size"
 msgstr ""
 
-#: core/transfertreemodel.cpp:278 ui/mainview.cpp:317
+#: core/transfertreemodel.cpp:278
 #, fuzzy
 msgid "Progress"
 msgstr "進度對話方塊"
 
-#: core/transfertreemodel.cpp:280 ui/mainview.cpp:318
+#: core/transfertreemodel.cpp:280
 msgid "Speed"
 msgstr "速度"
 
@@ -875,16 +875,6 @@ msgid ""
 "the group named %1?"
 msgstr "你確定要刪除這些傳輸嗎？"
 
-#: ui/mainview.cpp:314
-#, fuzzy
-msgid "File"
-msgstr "檔案類型"
-
-#: ui/sidebar.cpp:367 ui/viewscontainer.cpp:172
-#, fuzzy
-msgid "Downloads"
-msgstr "下載已續傳"
-
 #: ui/transferdetails.cpp:68 ui/transferdetails.cpp:75
 #, fuzzy
 msgid " of "
@@ -911,10 +901,19 @@ msgstr "已完成"
 msgid "Transfers:"
 msgstr "開啟傳輸(&T)"
 
+#: ui/viewscontainer.cpp:172
+#, fuzzy
+msgid "Downloads"
+msgstr "下載已續傳"
+
 #: ui/viewscontainer.cpp:186
 #, fuzzy
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "檔案類型"
 
 #, fuzzy
 #~ msgid "Delete Group."
