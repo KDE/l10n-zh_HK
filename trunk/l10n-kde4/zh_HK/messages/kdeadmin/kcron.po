@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:07+0200\n"
+"POT-Creation-Date: 2007-08-05 05:37+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -375,7 +375,7 @@ msgstr "修改(&O)..."
 msgid "&Delete"
 msgstr ""
 
-#: ktapp.cpp:156 kttask.cpp:197 ktvariable.cpp:88
+#: ktapp.cpp:156 kttask.cpp:193 ktvariable.cpp:88
 msgid "&Enabled"
 msgstr "啟用(&E)"
 
@@ -542,147 +542,169 @@ msgstr "列印 Crontab(&T)"
 msgid "Print &all users"
 msgstr "列印所有用戶(&A)"
 
-#: kttask.cpp:124
+#: kttask.cpp:129
 msgid "&Run as:"
 msgstr "以此身份執行(&R):"
 
-#: kttask.cpp:155
+#: kttask.cpp:153
 msgid "&Comment:"
 msgstr "註解(&C):"
 
-#: kttask.cpp:171
+#: kttask.cpp:169
 msgid "&Program:"
 msgstr "程式(&P):"
 
-#: kttask.cpp:189
+#: kttask.cpp:185
 msgid "&Browse..."
 msgstr "瀏覽(&B)..."
 
-#: kttask.cpp:203
+#: kttask.cpp:199
 msgid "&Silent"
 msgstr "無聲(&S)"
 
-#: kttask.cpp:215
+#: kttask.cpp:211
 msgid "Months"
 msgstr "個月"
 
-#: kttask.cpp:234 kttask.cpp:275 kttask.cpp:297 kttask.cpp:377 kttask.cpp:416
-#: kttask.cpp:796 kttask.cpp:825 kttask.cpp:834 kttask.cpp:863 kttask.cpp:872
-#: kttask.cpp:901 kttask.cpp:910 kttask.cpp:939 kttask.cpp:948 kttask.cpp:977
+#: kttask.cpp:230 kttask.cpp:270 kttask.cpp:292 kttask.cpp:371 kttask.cpp:410
+#: kttask.cpp:842 kttask.cpp:871 kttask.cpp:880 kttask.cpp:909 kttask.cpp:918
+#: kttask.cpp:947 kttask.cpp:956 kttask.cpp:985 kttask.cpp:994 kttask.cpp:1023
 msgid "Set All"
 msgstr "全部設定"
 
-#: kttask.cpp:242
+#: kttask.cpp:238
 msgid "Days of Month"
 msgstr "月份中的天數"
 
-#: kttask.cpp:279
+#: kttask.cpp:274
 msgid "Days of Week"
 msgstr "星期中的天數"
 
-#: kttask.cpp:305
+#: kttask.cpp:300
 msgid "Daily"
 msgstr "每日"
 
-#: kttask.cpp:312
+#: kttask.cpp:307
 msgid "Run every day"
 msgstr "每天執行"
 
-#: kttask.cpp:318
+#: kttask.cpp:313
 msgid "Hours"
 msgstr "小時"
 
-#: kttask.cpp:324
+#: kttask.cpp:319
 msgid "AM"
 msgstr "上午"
 
-#: kttask.cpp:352
+#: kttask.cpp:346
 msgid "PM"
 msgstr "下午"
 
-#: kttask.cpp:381
+#: kttask.cpp:375
 msgid "Minutes"
 msgstr "分鐘"
 
-#: kttask.cpp:601
-msgid "Please enter the following to schedule the task:\n"
-msgstr "請輸入下列資訊以安排工作:\n"
+#: kttask.cpp:529
+msgid "Add or modify a Kcron task"
+msgstr ""
 
-#: kttask.cpp:607
-msgid "the program to run"
-msgstr "要執行的程式"
+#: kttask.cpp:530
+msgid "<i>This task has a valid configuration ...</i>"
+msgstr ""
 
-#: kttask.cpp:638
-#, fuzzy
-#| msgid "the program to run"
-msgid "an executable program to run"
-msgstr "要執行的程式"
+#: kttask.cpp:535 ktvariable.cpp:130
+msgid "Kcron Information"
+msgstr ""
 
-#: kttask.cpp:645
-#, fuzzy
-#| msgid "the program to run"
-msgid "a valid program to run"
-msgstr "要執行的程式"
+#: kttask.cpp:693
+msgid "<i>Please check 'Enabled' to edit this task ...</i>"
+msgstr ""
 
-#: kttask.cpp:658
-msgid "the months"
-msgstr "月份"
+#: kttask.cpp:701 kttask.cpp:740
+msgid "<i>Please browse for a program to execute ...</i>"
+msgstr ""
 
-#: kttask.cpp:679
-msgid "either the days of the month or the days of the week"
-msgstr "月份中的天數或星期中的天數"
+#: kttask.cpp:732
+msgid "<i>Please select an executable program ...</i>"
+msgstr ""
 
-#: kttask.cpp:695
-msgid "the hours"
-msgstr "小時"
+#: kttask.cpp:754
+msgid "<i>Please select from the 'Months' section ...</i>"
+msgstr ""
 
-#: kttask.cpp:711
-msgid "the minutes"
-msgstr "分鐘"
+#: kttask.cpp:773
+msgid ""
+"<i>Please select from either the 'Days of Month' or the 'Days of Week' "
+"section ...</i>"
+msgstr ""
 
-#: kttask.cpp:787
+#: kttask.cpp:788
+msgid "<i>Please select from the 'Hours' section ...</i>"
+msgstr ""
+
+#: kttask.cpp:803
+msgid "<i>Please select from the 'Minutes' section ...</i>"
+msgstr ""
+
+#: kttask.cpp:834
 msgid "Only local or mounted files can be executed by crontab."
 msgstr "只有本機或掛載的檔案可以被 crontab 執行。"
 
-#: kttask.cpp:828 kttask.cpp:866 kttask.cpp:904 kttask.cpp:942 kttask.cpp:980
+#: kttask.cpp:874 kttask.cpp:912 kttask.cpp:950 kttask.cpp:988 kttask.cpp:1026
 #, fuzzy
 msgid "Clear All"
 msgstr "全部設定"
 
-#: ktvariable.cpp:45
+#: ktvariable.cpp:51
 msgid "&Variable:"
 msgstr "變數(&V):"
 
-#: ktvariable.cpp:67
+#: ktvariable.cpp:68
 msgid "Va&lue:"
 msgstr "值(&L):"
 
-#: ktvariable.cpp:78
+#: ktvariable.cpp:79
 msgid "Co&mment:"
 msgstr "註解(&M):"
 
-#: ktvariable.cpp:122
+#: ktvariable.cpp:124
+msgid "Add or modify a Kcron variable"
+msgstr ""
+
+#: ktvariable.cpp:125
+msgid "<i>This variable has a valid configuration ...</i>"
+msgstr ""
+
+#: ktvariable.cpp:164
 msgid "Override default home folder."
 msgstr "覆蓋預設的家目錄。"
 
-#: ktvariable.cpp:127
+#: ktvariable.cpp:165
 msgid "Email output to specified account."
 msgstr "將輸出結果郵寄到特定帳戶。"
 
-#: ktvariable.cpp:132
+#: ktvariable.cpp:166
 msgid "Override default shell."
 msgstr "覆蓋預設的 shell 。"
 
-#: ktvariable.cpp:137
+#: ktvariable.cpp:167
 msgid "Folders to search for program files."
 msgstr "用於搜尋程式檔案的目錄。"
 
-#: ktvariable.cpp:153
-msgid "Please enter the variable name."
+#: ktvariable.cpp:173
+msgid "<i>Please check 'Enabled' to edit this variable ...</i>"
+msgstr ""
+
+#: ktvariable.cpp:181
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please enter the variable name ...</i>"
 msgstr "請輸入變數名稱。"
 
-#: ktvariable.cpp:160
-msgid "Please enter the variable value."
+#: ktvariable.cpp:189
+#, fuzzy
+#| msgid "Please enter the variable value."
+msgid "<i>Please enter the variable value ...</i>"
 msgstr "請輸入變數值。"
 
 #: ktview.cpp:103
@@ -748,6 +770,34 @@ msgstr "Eric Cheng,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#~ msgid "Please enter the following to schedule the task:\n"
+#~ msgstr "請輸入下列資訊以安排工作:\n"
+
+#~ msgid "the program to run"
+#~ msgstr "要執行的程式"
+
+#, fuzzy
+#~| msgid "the program to run"
+#~ msgid "an executable program to run"
+#~ msgstr "要執行的程式"
+
+#, fuzzy
+#~| msgid "the program to run"
+#~ msgid "a valid program to run"
+#~ msgstr "要執行的程式"
+
+#~ msgid "the months"
+#~ msgstr "月份"
+
+#~ msgid "either the days of the month or the days of the week"
+#~ msgstr "月份中的天數或星期中的天數"
+
+#~ msgid "the hours"
+#~ msgstr "小時"
+
+#~ msgid "the minutes"
+#~ msgstr "分鐘"
 
 #~ msgid "Enable/disable the tool bar."
 #~ msgstr "啟用/停用工具列。"
