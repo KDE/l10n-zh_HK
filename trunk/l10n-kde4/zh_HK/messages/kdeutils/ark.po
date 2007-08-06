@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-01 04:47+0200\n"
+"POT-Creation-Date: 2007-08-06 05:38+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -101,55 +101,56 @@ msgstr ""
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:82
+#: app/mainwindow.cpp:83
 #, fuzzy
+msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "開啟(&O)"
 
-#: app/mainwindow.cpp:83
+#: app/mainwindow.cpp:84
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 
-#: app/mainwindow.cpp:84
+#: app/mainwindow.cpp:85
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Open an archive"
 msgstr "開啟「壓縮檔」"
 
 #: kerfuffle/jobs.cpp:39
-#, qt-format
-msgid "Listing entries in the archive '%1'"
+msgid "Listing entries"
 msgstr ""
 
 #: kerfuffle/jobs.cpp:67
-#, fuzzy, qt-format
-#| msgid "Extracting file to view"
-msgid "Extracting all files from the archive '%1'"
-msgstr "正在解開檔案作檢視"
+#, fuzzy
+#| msgid "Extract all files"
+msgid "Extracting all files"
+msgstr "解開所有檔案"
 
 #: kerfuffle/jobs.cpp:71
 #, fuzzy, qt-format
-#| msgid "Extracting file to view"
-msgid "Extracting one file from the archive %2"
-msgid_plural "Extracting %1 files from the archive '%2'"
-msgstr[0] "正在解開檔案作檢視"
+#| msgid "Extract all files"
+msgid "Extracting one file"
+msgid_plural "Extracting %1 files"
+msgstr[0] "解開所有檔案"
 
 #: kerfuffle/jobs.cpp:115
 #, fuzzy, qt-format
-#| msgid "An error occurred while adding the files to the archive."
-msgid "Adding one file to the archive"
-msgid_plural "Adding %1 files to the archive"
-msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
+#| msgid "Adding files..."
+msgid "Adding a file"
+msgid_plural "Adding %1 files"
+msgstr[0] "加入檔案中..."
 
 #: kerfuffle/jobs.cpp:156
 #, fuzzy, qt-format
 #| msgid "An error occurred while adding the files to the archive."
-msgid "Deleting one file from the archive"
-msgid_plural "Deleting %1 files from the archive"
+msgid "Deleting a file from the archive"
+msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
 #: part/archivemodel.cpp:220
+msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
@@ -197,11 +198,13 @@ msgstr ""
 msgid "<b>Target:</b> %1<br/>"
 msgstr ""
 
-#: part/jobtracker.cpp:87
-msgid "Done!"
-msgstr ""
+#: part/jobtracker.cpp:83
+#, fuzzy
+#| msgid "Open extract dialog, quit when finished"
+msgid "Operation finished."
+msgstr "開啟解壓對話視窗，完成後離開"
 
-#: part/part.cpp:110
+#: part/part.cpp:116
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -209,71 +212,88 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:112
+#: part/part.cpp:118
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:117
+#: part/part.cpp:123
 msgid "E&xtract..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:119
+#: part/part.cpp:125
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:125
+#: part/part.cpp:131
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:126
+#: part/part.cpp:132
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:132
+#: part/part.cpp:138
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:133
+#: part/part.cpp:139
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:139
+#: part/part.cpp:145
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:140
+#: part/part.cpp:146
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:171
+#: part/part.cpp:178
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:233
+#: part/part.cpp:247
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/part.cpp:327
+#: part/part.cpp:341
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:341
+#: part/part.cpp:355
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
+
+#, fuzzy
+#~| msgid "Extracting file to view"
+#~ msgid "Extracting all files from the archive '%1'"
+#~ msgstr "正在解開檔案作檢視"
+
+#, fuzzy
+#~| msgid "Extracting file to view"
+#~ msgid "Extracting one file from the archive %2"
+#~ msgid_plural "Extracting %1 files from the archive '%2'"
+#~ msgstr[0] "正在解開檔案作檢視"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgid "Adding one file to the archive"
+#~ msgid_plural "Adding %1 files to the archive"
+#~ msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
 #~ msgid "Could not start a subprocess."
 #~ msgstr "無法啟動子進程。"
@@ -475,9 +495,6 @@ msgstr "加入資料夾(&R)..."
 #~ msgid "Select Files to Add"
 #~ msgstr "選取要加入檔案"
 
-#~ msgid "Adding files..."
-#~ msgstr "加入檔案中..."
-
 #~ msgid "Select Folder to Add"
 #~ msgstr "選擇要加入的資料夾"
 
@@ -611,9 +628,6 @@ msgstr "加入資料夾(&R)..."
 #~ msgid "All files"
 #~ msgstr "所有檔案"
 
-#~ msgid "Extract all files"
-#~ msgstr "解開所有檔案"
-
 #~ msgid "Destination folder: "
 #~ msgstr "目的地資料夾："
 
@@ -644,9 +658,6 @@ msgstr "加入資料夾(&R)..."
 #, fuzzy
 #~ msgid "(c) 1997-2005, The Various Ark Developers"
 #~ msgstr "(c) 1997-2003, 各位 Ark 開發者"
-
-#~ msgid "Open extract dialog, quit when finished"
-#~ msgstr "開啟解壓對話視窗，完成後離開"
 
 #~ msgid ""
 #~ "Extract 'archive' to 'folder'. Quit when finished.\n"
