@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-14 05:34+0200\n"
+"POT-Creation-Date: 2007-08-15 05:32+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -98,8 +98,10 @@ msgid "&New Download..."
 msgstr ""
 
 #: mainwindow.cpp:103
-msgid "&Open..."
-msgstr ""
+#, fuzzy
+#| msgid "&Import Transfer List..."
+msgid "&Import Transfers..."
+msgstr "匯入傳輸列表(&I)..."
 
 #: mainwindow.cpp:109
 #, fuzzy
@@ -628,8 +630,8 @@ msgstr ""
 
 #: core/kget.cpp:450 ui/groupseditdialog.cpp:91
 #, fuzzy
-msgid "Default Group"
-msgstr "預設的資料夾"
+msgid "My Downloads"
+msgstr "下載已續傳"
 
 #: core/kget.cpp:537
 #, fuzzy
@@ -759,24 +761,24 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transfertreemodel.cpp:272
+#: core/transfertreemodel.cpp:274
 msgid "Name"
 msgstr "名稱"
 
-#: core/transfertreemodel.cpp:274
+#: core/transfertreemodel.cpp:276
 msgid "Status"
 msgstr ""
 
-#: core/transfertreemodel.cpp:276
+#: core/transfertreemodel.cpp:278
 msgid "Size"
 msgstr ""
 
-#: core/transfertreemodel.cpp:278
+#: core/transfertreemodel.cpp:280
 #, fuzzy
 msgid "Progress"
 msgstr "進度對話方塊"
 
-#: core/transfertreemodel.cpp:280
+#: core/transfertreemodel.cpp:282
 msgid "Speed"
 msgstr "速度"
 
@@ -835,7 +837,7 @@ msgid ""
 msgstr ""
 
 #: ui/groupseditdialog.cpp:93
-msgid "You can not delete the default group!"
+msgid "You can not delete this group!"
 msgstr ""
 
 #: ui/groupseditdialog.cpp:98
@@ -880,6 +882,10 @@ msgstr "下載已續傳"
 #, fuzzy
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
+
+#, fuzzy
+#~ msgid "Default Group"
+#~ msgstr "預設的資料夾"
 
 #, fuzzy
 #~ msgid "Docked"
@@ -1059,9 +1065,6 @@ msgstr " 傳輸： %1"
 
 #~ msgid "Starting offline"
 #~ msgstr "開始離線"
-
-#~ msgid "&Import Transfer List..."
-#~ msgstr "匯入傳輸列表(&I)..."
 
 #~ msgid "Import Text &File..."
 #~ msgstr "匯入文字檔案(&F)..."
