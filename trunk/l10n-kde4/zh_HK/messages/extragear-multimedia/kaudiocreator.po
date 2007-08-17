@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:40+0200\n"
+"POT-Creation-Date: 2007-08-17 05:46+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -542,8 +542,8 @@ msgstr "輸出結果..."
 #. i18n: tag string
 #. i18n: file infodialog.ui line 222
 #. i18n: tag string
-#. i18n: file wizard.ui line 234
-#: rc.cpp:105 rc.cpp:203 rc.cpp:396
+#. i18n: file wizard.ui line 270
+#: rc.cpp:105 rc.cpp:203 rc.cpp:399
 msgid "&OK"
 msgstr ""
 
@@ -678,8 +678,8 @@ msgstr "下一音軌(&N)"
 #. i18n: tag string
 #. i18n: file infodialog.ui line 235
 #. i18n: tag string
-#. i18n: file wizard.ui line 247
-#: rc.cpp:206 rc.cpp:399
+#. i18n: file wizard.ui line 283
+#: rc.cpp:206 rc.cpp:402
 msgid "&Cancel"
 msgstr ""
 
@@ -936,13 +936,13 @@ msgid "/dev/cdrom"
 msgstr "/dev/cdrom"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 24
+#. i18n: file wizard.ui line 19
 #: rc.cpp:348
 msgid "File Location Wizard"
 msgstr "檔案位置精靈"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 44
+#. i18n: file wizard.ui line 46
 #: rc.cpp:351
 #, fuzzy, c-format
 #| msgid ""
@@ -968,95 +968,103 @@ msgstr ""
 "二的。"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 84
+#. i18n: file wizard.ui line 95
 #: rc.cpp:354
 msgid "&File location:"
 msgstr "檔案位置(&F):"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 97
+#. i18n: file wizard.ui line 108
 #: rc.cpp:357
 msgid "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
 msgstr "~/%{延伸檔名}/%{藝人}/%{專輯}/%{藝人} - %{專輯}.m3u"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 106
+#. i18n: file wizard.ui line 117
 #: rc.cpp:360
 msgid "Example: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 msgstr "範例: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 121
+#. i18n: file wizard.ui line 141
 #: rc.cpp:363
 msgid "&Artist"
 msgstr "藝人(&A)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 128
+#. i18n: file wizard.ui line 148
 #: rc.cpp:366
 msgid "&Home Folder"
 msgstr "家資料夾(&H)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 135
+#. i18n: file wizard.ui line 155
 #: rc.cpp:369
 msgid "&Track Number"
 msgstr "音軌編號(&T)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 142
+#. i18n: file wizard.ui line 162
 #: rc.cpp:372
 msgid "&Extension"
 msgstr "延伸檔名(&E)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 149
+#. i18n: file wizard.ui line 169
 #: rc.cpp:375
 msgid "Track T&itle"
 msgstr "音軌標題(&T)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 156
+#. i18n: file wizard.ui line 176
 #: rc.cpp:378
 msgid "T&rack Comment"
 msgstr "音軌註解(&R)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 163
+#. i18n: file wizard.ui line 183
 #: rc.cpp:381
 msgid "&Genre"
 msgstr "風格(&G)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 170
+#. i18n: file wizard.ui line 190
 #: rc.cpp:384
 msgid "&Year"
 msgstr "年份(&Y)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 177
+#. i18n: file wizard.ui line 197
 #: rc.cpp:387
 msgid "Al&bum"
 msgstr "專輯(&B)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 184
+#. i18n: file wizard.ui line 204
 #: rc.cpp:390
 msgid "Trac&k Artist"
 msgstr "音軌藝人(&K)"
 
 #. i18n: tag string
-#. i18n: file wizard.ui line 191
+#. i18n: file wizard.ui line 211
 #: rc.cpp:393
 msgid "Co&mment"
 msgstr "註解(&M)"
 
-#: rc.cpp:400
+#. i18n: tag string
+#. i18n: file wizard.ui line 218
+#: rc.cpp:396
+#, fuzzy
+#| msgid "Artist - Title"
+msgid "Arti&st's Initial"
+msgstr "藝人 - 標題"
+
+#: rc.cpp:403
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: rc.cpp:401
+#: rc.cpp:404
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
@@ -1146,7 +1154,7 @@ msgstr "專輯資訊不完整"
 msgid " - "
 msgstr ""
 
-#: wizard.cpp:121
+#: wizard.cpp:127
 #, qt-format
 msgid "Example: %1"
 msgstr "範例: %1"

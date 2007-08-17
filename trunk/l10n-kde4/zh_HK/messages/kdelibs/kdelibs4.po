@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:34+0200\n"
+"POT-Creation-Date: 2007-08-17 05:40+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -889,7 +889,6 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./khtml/kjserrordlgbase.ui line 31
 #: rc.cpp:363 kdeui/util/kstandardguiitem.cpp:180
-#: kdeui/shortcuts/kcheckaccelerators.cpp:170
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "關閉(&C)"
@@ -1393,7 +1392,6 @@ msgstr "安全性..."
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/QProcessJob/MainWindowUi.ui line 39
 #: rc.cpp:615 rc.cpp:883 rc.cpp:901 rc.cpp:904
-#: kdeui/shortcuts/kstandardshortcut.cpp:69
 msgid "Quit"
 msgstr "離開"
 
@@ -1888,8 +1886,7 @@ msgstr "KDE 設定管理程式"
 msgid "Do you want to reload KDE configuration?"
 msgstr "你要重新載入 KDE 設定嗎?"
 
-#: kded/kbuildsycoca.cpp:749 kdeui/shortcuts/kstandardshortcut.cpp:98
-#: kfile/kdiroperator.cpp:1377
+#: kded/kbuildsycoca.cpp:749 kfile/kdiroperator.cpp:1377
 msgid "Reload"
 msgstr "重新載入"
 
@@ -3198,14 +3195,14 @@ msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "錯誤的旗號"
 
-#: kdecore/date/kdatetime.cpp:1452 kdecore/date/kdatetime.cpp:1462
-#: kdecore/date/kdatetime.cpp:2799 kdecore/localization/klocale.cpp:1712
-#: kdecore/localization/klocale.cpp:1838
+#: kdecore/date/kdatetime.cpp:1461 kdecore/date/kdatetime.cpp:1471
+#: kdecore/date/kdatetime.cpp:2808 kdecore/localization/klocale.cpp:1719
+#: kdecore/localization/klocale.cpp:1845
 msgid "am"
 msgstr "am"
 
-#: kdecore/date/kdatetime.cpp:2807 kdecore/localization/klocale.cpp:1703
-#: kdecore/localization/klocale.cpp:1836
+#: kdecore/date/kdatetime.cpp:2816 kdecore/localization/klocale.cpp:1710
+#: kdecore/localization/klocale.cpp:1843
 msgid "pm"
 msgstr "pm"
 
@@ -3359,51 +3356,51 @@ msgctxt "Socket error code RemotelyDisconnected"
 msgid "remote host closed connection"
 msgstr "對方主機關閉連線"
 
-#: kdecore/network/netsupp.cpp:890 kdecore/network/k3resolver.cpp:545
+#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
 msgid "no error"
 msgstr "沒有錯誤"
 
-#: kdecore/network/netsupp.cpp:891
+#: kdecore/network/netsupp.cpp:892
 msgid "address family for nodename not supported"
 msgstr "節點的位址群組不支援"
 
-#: kdecore/network/netsupp.cpp:892 kdecore/network/k3resolver.cpp:547
+#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
 msgid "temporary failure in name resolution"
 msgstr "網域名稱查詢暫時性錯誤"
 
-#: kdecore/network/netsupp.cpp:893
+#: kdecore/network/netsupp.cpp:894
 msgid "invalid value for 'ai_flags'"
 msgstr "‘ai_flags’的值錯誤"
 
-#: kdecore/network/netsupp.cpp:894 kdecore/network/k3resolver.cpp:548
+#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
 msgid "non-recoverable failure in name resolution"
 msgstr "網域名稱查詢無法回復的錯誤"
 
-#: kdecore/network/netsupp.cpp:895
+#: kdecore/network/netsupp.cpp:896
 msgid "'ai_family' not supported"
 msgstr "‘ai_family’不支援"
 
-#: kdecore/network/netsupp.cpp:896 kdecore/network/k3resolver.cpp:550
+#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
 msgid "memory allocation failure"
 msgstr "記憶體配置錯誤"
 
-#: kdecore/network/netsupp.cpp:897
+#: kdecore/network/netsupp.cpp:898
 msgid "no address associated with nodename"
 msgstr "此節點相關位址不存在"
 
-#: kdecore/network/netsupp.cpp:898 kdecore/network/k3resolver.cpp:551
+#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
 msgid "name or service not known"
 msgstr "未知的主機名稱或服務"
 
-#: kdecore/network/netsupp.cpp:899
+#: kdecore/network/netsupp.cpp:900
 msgid "servname not supported for ai_socktype"
 msgstr "ai_socktype 不支援的服務名稱 (servname)"
 
-#: kdecore/network/netsupp.cpp:900
+#: kdecore/network/netsupp.cpp:901
 msgid "'ai_socktype' not supported"
 msgstr "不支援 ai_socktype"
 
-#: kdecore/network/netsupp.cpp:901
+#: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "系統錯誤"
 
@@ -3584,39 +3581,41 @@ msgstr "等待 WM_NET 相容的視窗管理員。"
 msgid "sets the application GUI style"
 msgstr "設定應用程式的圖形介面風格。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:312
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
 "format"
 msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:428
+#: kdecore/kernel/kcmdlineargs.cpp:426
 #, fuzzy
 #| msgid "Application: "
 msgid "KDE Application"
 msgstr "應用程式："
 
-#: kdecore/kernel/kcmdlineargs.cpp:485
+#: kdecore/kernel/kcmdlineargs.cpp:483
 #, fuzzy
 #| msgid "Quit"
 msgid "Qt"
 msgstr "離開"
 
-#: kdecore/kernel/kcmdlineargs.cpp:488 khtml/khtml_part.cpp:4874
+#: kdecore/kernel/kcmdlineargs.cpp:486 khtml/khtml_part.cpp:4874
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kernel/kcmdlineargs.cpp:794 kdecore/kernel/kcmdlineargs.cpp:814
+#: kdecore/kernel/kcmdlineargs.cpp:792 kdecore/kernel/kcmdlineargs.cpp:812
 #, qt-format
 msgid "Unknown option '%1'."
 msgstr "不明的選項 ‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:822
-#, qt-format
+#: kdecore/kernel/kcmdlineargs.cpp:820
+#, fuzzy, qt-format
+#| msgid "'%1' missing."
+msgctxt "@info %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "找不到‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:907
+#: kdecore/kernel/kcmdlineargs.cpp:905
 #, qt-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -3626,86 +3625,86 @@ msgstr ""
 "%1 的作者是：\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:910
+#: kdecore/kernel/kcmdlineargs.cpp:908
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:917
+#: kdecore/kernel/kcmdlineargs.cpp:915
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:920 kdecore/kernel/kcmdlineargs.cpp:922
+#: kdecore/kernel/kcmdlineargs.cpp:918 kdecore/kernel/kcmdlineargs.cpp:920
 #, qt-format
 msgid "Please report bugs to %1.\n"
 msgstr "請回報問題到 %1。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:948
+#: kdecore/kernel/kcmdlineargs.cpp:946
 #, qt-format
 msgid "Unexpected argument '%1'."
 msgstr "未預料到的參數‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1064
+#: kdecore/kernel/kcmdlineargs.cpp:1062
 msgid "Use --help to get a list of available command line options."
 msgstr "使用 --help 以取得可用指令行選項的清單。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1087
+#: kdecore/kernel/kcmdlineargs.cpp:1085
 msgid "[options] "
 msgstr "[選項] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1094
+#: kdecore/kernel/kcmdlineargs.cpp:1092
 #, qt-format
 msgid "[%1-options]"
 msgstr "[%1-選項]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1115
+#: kdecore/kernel/kcmdlineargs.cpp:1113
 #, qt-format
 msgid "Usage: %1 %2\n"
 msgstr "用法：%1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1118
+#: kdecore/kernel/kcmdlineargs.cpp:1116
 #, fuzzy
 msgid ""
 "\n"
 "Generic options:\n"
 msgstr "一般選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1119
+#: kdecore/kernel/kcmdlineargs.cpp:1117
 msgid "Show help about options"
 msgstr "顯示關於選項的說明"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1127
+#: kdecore/kernel/kcmdlineargs.cpp:1125
 #, qt-format
 msgid "Show %1 specific options"
 msgstr "顯示 %1 相關的選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1134
+#: kdecore/kernel/kcmdlineargs.cpp:1132
 msgid "Show all options"
 msgstr "顯示所有選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1135
+#: kdecore/kernel/kcmdlineargs.cpp:1133
 msgid "Show author information"
 msgstr "顯示作者資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1136
+#: kdecore/kernel/kcmdlineargs.cpp:1134
 msgid "Show version information"
 msgstr "顯示版本資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1137
+#: kdecore/kernel/kcmdlineargs.cpp:1135
 msgid "Show license information"
 msgstr "顯示版權資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1138
+#: kdecore/kernel/kcmdlineargs.cpp:1136
 msgid "End of options"
 msgstr "選項結尾"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1159
+#: kdecore/kernel/kcmdlineargs.cpp:1157
 #, fuzzy, qt-format
 msgid ""
 "\n"
 "%1 options:\n"
 msgstr "%1 個選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid ""
 "\n"
 "Options:\n"
@@ -3713,7 +3712,7 @@ msgstr ""
 "\n"
 "選項：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1219
+#: kdecore/kernel/kcmdlineargs.cpp:1217
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3721,11 +3720,11 @@ msgstr ""
 "\n"
 "參數：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1586
+#: kdecore/kernel/kcmdlineargs.cpp:1584
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1587
+#: kdecore/kernel/kcmdlineargs.cpp:1585
 msgid "KDE-tempfile"
 msgstr ""
 
@@ -3810,36 +3809,45 @@ msgid "This program is distributed under the terms of the %1."
 msgstr "這個程式以 %1 的條款散佈。"
 
 #: kdecore/kernel/kaboutdata.cpp:627
+msgctxt "@info license"
 msgid "GNU General Public License Version 2"
 msgstr ""
 
 #: kdecore/kernel/kaboutdata.cpp:631
+msgctxt "@info license"
 msgid "GNU Library General Public License Version 2"
 msgstr ""
 
 #: kdecore/kernel/kaboutdata.cpp:635
 #, fuzzy
 #| msgid "License:"
+msgctxt "@info license"
 msgid "BSD License"
 msgstr "許可證："
 
 #: kdecore/kernel/kaboutdata.cpp:639
+#, fuzzy
+#| msgid "Public Key"
+msgctxt "@info license"
 msgid "Artistic License"
-msgstr ""
+msgstr "公開密鑰"
 
 #: kdecore/kernel/kaboutdata.cpp:643
 #, fuzzy
 #| msgid "Public Key"
+msgctxt "@info license"
 msgid "Q Public License"
 msgstr "公開密鑰"
 
 #: kdecore/kernel/kaboutdata.cpp:647
 #, fuzzy
+msgctxt "@info license"
 msgid "Custom"
 msgstr "自訂(&U)"
 
 #: kdecore/kernel/kaboutdata.cpp:650
 #, fuzzy
+msgctxt "@info license"
 msgid "Not specified"
 msgstr "沒有選擇供應者。"
 
@@ -4114,79 +4122,79 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "泰文"
 
-#: kdecore/localization/klocale.cpp:1171
+#: kdecore/localization/klocale.cpp:1178
 #, qt-format
 msgid "%1 TiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1173
+#: kdecore/localization/klocale.cpp:1180
 #, qt-format
 msgid "%1 GiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1179
+#: kdecore/localization/klocale.cpp:1186
 #, qt-format
 msgid "%1 MiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1185
+#: kdecore/localization/klocale.cpp:1192
 #, qt-format
 msgid "%1 KiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1190
+#: kdecore/localization/klocale.cpp:1197
 #, fuzzy, qt-format
 msgid "%1 B"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1195
+#: kdecore/localization/klocale.cpp:1202
 msgid "0 B"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1203
+#: kdecore/localization/klocale.cpp:1210
 #, qt-format
 msgid "%1 days"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1206
+#: kdecore/localization/klocale.cpp:1213
 #, qt-format
 msgid "%1 hours"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1209
+#: kdecore/localization/klocale.cpp:1216
 #, fuzzy, qt-format
 msgid "%1 minutes"
 msgstr "%1 個選項"
 
-#: kdecore/localization/klocale.cpp:1212
+#: kdecore/localization/klocale.cpp:1219
 #, fuzzy, qt-format
 msgid "%1 seconds"
 msgstr "%1 個選項"
 
-#: kdecore/localization/klocale.cpp:1215
+#: kdecore/localization/klocale.cpp:1222
 #, qt-format
 msgid "%1 milliseconds"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1305
+#: kdecore/localization/klocale.cpp:1312
 #, fuzzy
 #| msgid "Monday"
 msgid "Today"
 msgstr "星期一"
 
-#: kdecore/localization/klocale.cpp:1307
+#: kdecore/localization/klocale.cpp:1314
 #, fuzzy
 #| msgid "Tuesday"
 msgid "Yesterday"
 msgstr "星期二"
 
-#: kdecore/localization/klocale.cpp:1876
+#: kdecore/localization/klocale.cpp:1883
 #, qt-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1937
+#: kdecore/localization/klocale.cpp:1944
 #, fuzzy, qt-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -5613,7 +5621,7 @@ msgstr "Again"
 msgid "Props"
 msgstr "Props"
 
-#: kdeui/util/kkeyserver_x11.cpp:112 kdeui/shortcuts/kstandardshortcut.cpp:72
+#: kdeui/util/kkeyserver_x11.cpp:112
 msgid "Undo"
 msgstr "復原"
 
@@ -5621,30 +5629,27 @@ msgstr "復原"
 msgid "Front"
 msgstr "Front"
 
-#: kdeui/util/kkeyserver_x11.cpp:114 kdeui/shortcuts/kstandardshortcut.cpp:75
-#: kfile/kurlbutton.cpp:86
+#: kdeui/util/kkeyserver_x11.cpp:114 kfile/kurlbutton.cpp:86
 msgid "Copy"
 msgstr "複製"
 
-#: kdeui/util/kkeyserver_x11.cpp:115 kdeui/shortcuts/kstandardshortcut.cpp:64
+#: kdeui/util/kkeyserver_x11.cpp:115
 msgid "Open"
 msgstr "開啟"
 
-#: kdeui/util/kkeyserver_x11.cpp:116 kdeui/shortcuts/kstandardshortcut.cpp:76
-#: kfile/kurlbutton.cpp:90
+#: kdeui/util/kkeyserver_x11.cpp:116 kfile/kurlbutton.cpp:90
 msgid "Paste"
 msgstr "貼上"
 
 #: kdeui/util/kkeyserver_x11.cpp:117 kdeui/findreplace/kfinddialog.cpp:91
-#: kdeui/shortcuts/kstandardshortcut.cpp:84
 msgid "Find"
 msgstr "尋找"
 
-#: kdeui/util/kkeyserver_x11.cpp:118 kdeui/shortcuts/kstandardshortcut.cpp:74
+#: kdeui/util/kkeyserver_x11.cpp:118
 msgid "Cut"
 msgstr "剪下"
 
-#: kdeui/util/kkeyserver_x11.cpp:119 kdeui/shortcuts/kstandardshortcut.cpp:68
+#: kdeui/util/kkeyserver_x11.cpp:119
 msgid "Print"
 msgstr "列印"
 
@@ -6417,97 +6422,151 @@ msgstr "這些是\"%1\"字型的預覽。你可以按\"選擇...\"來預覽其�
 msgid "Select Font"
 msgstr "選擇字型"
 
-#: kdeui/fonts/kfontchooser.cpp:147
+#: kdeui/fonts/kfontchooser.cpp:146
+#, fuzzy
+#| msgid "Here you can choose the font to be used."
+msgctxt "@info:whatsthis"
 msgid "Here you can choose the font to be used."
 msgstr "在此選擇要用的字型。"
 
-#: kdeui/fonts/kfontchooser.cpp:160
+#: kdeui/fonts/kfontchooser.cpp:158
 msgid "Requested Font"
 msgstr "要求的字型"
 
-#: kdeui/fonts/kfontchooser.cpp:183
+#: kdeui/fonts/kfontchooser.cpp:181
+#, fuzzy
+#| msgid "Font"
+msgctxt "@option:check"
 msgid "Font"
 msgstr "字型"
 
-#: kdeui/fonts/kfontchooser.cpp:188
+#: kdeui/fonts/kfontchooser.cpp:185
+#, fuzzy
+#| msgid "Enable this checkbox to change the font family settings."
+msgctxt "@info:whatsthis"
+msgid "Enable this checkbox to change the font family settings."
+msgstr "啟動該選項來變更字型家族設定。"
+
+#: kdeui/fonts/kfontchooser.cpp:186
+#, fuzzy
+#| msgid "Change font family?"
+msgctxt "@info:tooltip"
 msgid "Change font family?"
 msgstr "變更字型家族？"
 
 #: kdeui/fonts/kfontchooser.cpp:190
-msgid "Enable this checkbox to change the font family settings."
-msgstr "啟動該選項來變更字型家族設定。"
-
-#: kdeui/fonts/kfontchooser.cpp:196
+#, fuzzy
+#| msgid "Font:"
+msgctxt "@label"
 msgid "Font:"
 msgstr "字型："
 
-#: kdeui/fonts/kfontchooser.cpp:204
+#: kdeui/fonts/kfontchooser.cpp:198
+#, fuzzy
+#| msgid "Font style"
+msgctxt "@option:check"
 msgid "Font style"
 msgstr "字型樣式"
 
-#: kdeui/fonts/kfontchooser.cpp:209
-msgid "Change font style?"
-msgstr "變更字型樣式？"
-
-#: kdeui/fonts/kfontchooser.cpp:211
+#: kdeui/fonts/kfontchooser.cpp:202
+#, fuzzy
+#| msgid "Enable this checkbox to change the font style settings."
+msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font style settings."
 msgstr "啟動該選項來變更字型樣式設定。"
 
-#: kdeui/fonts/kfontchooser.cpp:217
+#: kdeui/fonts/kfontchooser.cpp:203
+#, fuzzy
+#| msgid "Change font style?"
+msgctxt "@info:tooltip"
+msgid "Change font style?"
+msgstr "變更字型樣式？"
+
+#: kdeui/fonts/kfontchooser.cpp:207
 msgid "Font style:"
 msgstr "字型樣式："
 
-#: kdeui/fonts/kfontchooser.cpp:226 kfile/k3filedetailview.cpp:66
+#: kdeui/fonts/kfontchooser.cpp:216
+#, fuzzy
+#| msgid "Size"
+msgctxt "@option:check"
 msgid "Size"
 msgstr "大小"
 
-#: kdeui/fonts/kfontchooser.cpp:231
-msgid "Change font size?"
-msgstr "變更字型大小？"
-
-#: kdeui/fonts/kfontchooser.cpp:233
+#: kdeui/fonts/kfontchooser.cpp:220
+#, fuzzy
+#| msgid "Enable this checkbox to change the font size settings."
+msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font size settings."
 msgstr "啟動該選項來變更字型大小設定。"
 
-#: kdeui/fonts/kfontchooser.cpp:239
+#: kdeui/fonts/kfontchooser.cpp:221
+#, fuzzy
+#| msgid "Change font size?"
+msgctxt "@info:tooltip"
+msgid "Change font size?"
+msgstr "變更字型大小？"
+
+#: kdeui/fonts/kfontchooser.cpp:225
 msgid "Size:"
 msgstr "大小："
 
-#: kdeui/fonts/kfontchooser.cpp:257
+#: kdeui/fonts/kfontchooser.cpp:243
+#, fuzzy
+#| msgid "Here you can choose the font family to be used."
+msgctxt "@info:whatsthis"
 msgid "Here you can choose the font family to be used."
 msgstr "在此選擇要使用的字型家族。"
 
-#: kdeui/fonts/kfontchooser.cpp:285
+#: kdeui/fonts/kfontchooser.cpp:270
+#, fuzzy
+#| msgid "Here you can choose the font style to be used."
+msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "在此選擇要使用的字型樣式。"
 
-#: kdeui/fonts/kfontchooser.cpp:292 kdeui/fonts/kfontchooser.cpp:593
-#: kdeui/fonts/kfontchooser.cpp:595 kdeui/fonts/kfontchooser.cpp:606
-#: kdeui/fonts/kfontchooser.cpp:607
+#: kdeui/fonts/kfontchooser.cpp:276 kdeui/fonts/kfontchooser.cpp:577
+#: kdeui/fonts/kfontchooser.cpp:579 kdeui/fonts/kfontchooser.cpp:590
+#: kdeui/fonts/kfontchooser.cpp:591
+#, fuzzy
+#| msgid "Regular"
+msgctxt "@item font"
 msgid "Regular"
 msgstr "標準"
 
-#: kdeui/fonts/kfontchooser.cpp:293 kdeui/fonts/kfontchooser.cpp:597
+#: kdeui/fonts/kfontchooser.cpp:277 kdeui/fonts/kfontchooser.cpp:581
+#, fuzzy
+#| msgid "Italic"
+msgctxt "@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:294
+#: kdeui/fonts/kfontchooser.cpp:278
+#, fuzzy
+#| msgid "Bold"
+msgctxt "@item font"
 msgid "Bold"
 msgstr "粗體"
 
-#: kdeui/fonts/kfontchooser.cpp:295
+#: kdeui/fonts/kfontchooser.cpp:279
+#, fuzzy
+#| msgid "Bold Italic"
+msgctxt "@item font"
 msgid "Bold Italic"
 msgstr "粗斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:313
+#: kdeui/fonts/kfontchooser.cpp:297
+#, fuzzy
+#| msgid "Relative"
+msgctxt "@item font size"
 msgid "Relative"
 msgstr "相對"
 
-#: kdeui/fonts/kfontchooser.cpp:315
+#: kdeui/fonts/kfontchooser.cpp:299
 msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
 msgstr "字型大小<br>「<b>固定</b>」或「<b>相對</b>」<br>於環境"
 
-#: kdeui/fonts/kfontchooser.cpp:317
+#: kdeui/fonts/kfontchooser.cpp:301
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
 "dynamically and adjusted to changing environment (e.g. widget dimensions, "
@@ -6516,22 +6575,22 @@ msgstr ""
 "在此你可以選擇使用固定大小字型，或根據環境動態計算調整字型大小 (例如根據部件"
 "大小、紙張大小等)。"
 
-#: kdeui/fonts/kfontchooser.cpp:345
+#: kdeui/fonts/kfontchooser.cpp:329
 msgid "Here you can choose the font size to be used."
 msgstr "在此選擇要使用的字型大小。"
 
 #. i18n: This is a classical test phrase. (It contains all letters from A to Z.)
-#: kdeui/fonts/kfontchooser.cpp:381
+#: kdeui/fonts/kfontchooser.cpp:365
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox 跳過那隻懶狗"
 
-#: kdeui/fonts/kfontchooser.cpp:386
+#: kdeui/fonts/kfontchooser.cpp:370
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr "此段範例文字顯示目前的設定。你可以編輯這段文字來測試特殊字符。"
 
-#: kdeui/fonts/kfontchooser.cpp:395 kdeui/fonts/kfontchooser.cpp:408
+#: kdeui/fonts/kfontchooser.cpp:379 kdeui/fonts/kfontchooser.cpp:392
 msgid "Actual Font"
 msgstr "實際字型"
 
@@ -6688,7 +6747,6 @@ msgid "Start of Line"
 msgstr "行開頭"
 
 #: kdeui/findreplace/kfinddialog.cpp:440
-#: kdeui/shortcuts/kstandardshortcut.cpp:101
 msgid "End of Line"
 msgstr "行結尾"
 
@@ -6750,7 +6808,6 @@ msgid "Invalid regular expression."
 msgstr "無效的正規表達式。"
 
 #: kdeui/findreplace/kreplace.cpp:49 kdeui/findreplace/kreplace.cpp:53
-#: kdeui/shortcuts/kstandardshortcut.cpp:87
 msgid "Replace"
 msgstr "取代"
 
@@ -6820,7 +6877,7 @@ msgstr ""
 "\n"
 "請更正。"
 
-#: kdeui/findreplace/kfind.cpp:52 kdeui/shortcuts/kstandardshortcut.cpp:85
+#: kdeui/findreplace/kfind.cpp:52
 msgid "Find Next"
 msgstr "尋找下一個"
 
@@ -6914,164 +6971,370 @@ msgctxt ""
 msgid "Hold %1, then push %2"
 msgstr ""
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:64
+#, fuzzy
+#| msgid "Open"
+msgctxt "@action"
+msgid "Open"
+msgstr "開啟"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:65
+#, fuzzy
+#| msgid "New"
+msgctxt "@action"
 msgid "New"
 msgstr "新增"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:66
-#: kde3support/kdeui/k3dockwidget.cpp:272
+#, fuzzy
+#| msgid "Close"
+msgctxt "@action"
 msgid "Close"
 msgstr "關閉"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:67
+#, fuzzy
+#| msgid "Save"
+msgctxt "@action"
 msgid "Save"
 msgstr "儲存"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:68
+#, fuzzy
+#| msgid "Print"
+msgctxt "@action"
+msgid "Print"
+msgstr "列印"
+
+#: kdeui/shortcuts/kstandardshortcut.cpp:69
+#, fuzzy
+#| msgid "Quit"
+msgctxt "@action"
+msgid "Quit"
+msgstr "離開"
+
+#: kdeui/shortcuts/kstandardshortcut.cpp:72
+#, fuzzy
+#| msgid "Undo"
+msgctxt "@action"
+msgid "Undo"
+msgstr "復原"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:73
+#, fuzzy
+#| msgid "Redo"
+msgctxt "@action"
 msgid "Redo"
 msgstr "重做"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:74
+#, fuzzy
+#| msgid "Cut"
+msgctxt "@action"
+msgid "Cut"
+msgstr "剪下"
+
+#: kdeui/shortcuts/kstandardshortcut.cpp:75
+#, fuzzy
+#| msgid "Copy"
+msgctxt "@action"
+msgid "Copy"
+msgstr "複製"
+
+#: kdeui/shortcuts/kstandardshortcut.cpp:76
+#, fuzzy
+#| msgid "Paste"
+msgctxt "@action"
+msgid "Paste"
+msgstr "貼上"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:77
+#, fuzzy
+#| msgid "Paste Selection"
+msgctxt "@action"
 msgid "Paste Selection"
 msgstr "貼上選擇"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:79
+#, fuzzy
+#| msgid "Select All"
+msgctxt "@action"
 msgid "Select All"
 msgstr "全選"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:80
+#, fuzzy
+#| msgid "Deselect"
+msgctxt "@action"
 msgid "Deselect"
 msgstr "取消選擇"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:81
+#, fuzzy
+#| msgid "Delete Word Backwards"
+msgctxt "@action"
 msgid "Delete Word Backwards"
 msgstr "向後刪字"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:82
+#, fuzzy
+#| msgid "Delete Word Forward"
+msgctxt "@action"
 msgid "Delete Word Forward"
 msgstr "向前刪字"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:84
+#, fuzzy
+#| msgid "Find"
+msgctxt "@action"
+msgid "Find"
+msgstr "尋找"
+
+#: kdeui/shortcuts/kstandardshortcut.cpp:85
+#, fuzzy
+#| msgid "Find Next"
+msgctxt "@action"
+msgid "Find Next"
+msgstr "尋找下一個"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:86
+#, fuzzy
+#| msgid "Find Prev"
+msgctxt "@action"
 msgid "Find Prev"
 msgstr "尋找上一個"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:87
+#, fuzzy
+#| msgid "Replace"
+msgctxt "@action"
+msgid "Replace"
+msgstr "取代"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:90
-msgctxt "Opposite to End"
+#, fuzzy
+#| msgctxt "Opposite to End"
+#| msgid "Home"
+msgctxt "@action Opposite to End"
 msgid "Home"
 msgstr "開頭"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:91
+#, fuzzy
+#| msgid "End"
+msgctxt "@action"
 msgid "End"
 msgstr "結尾"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:92
+#, fuzzy
+#| msgid "Prior"
+msgctxt "@action"
 msgid "Prior"
 msgstr "上一個"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:93
-msgctxt "Opposite to Prior"
+#, fuzzy
+msgctxt "@action Opposite to Prior"
 msgid "Next"
-msgstr "下一個"
+msgstr "Next"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:95
+#, fuzzy
+#| msgid "Up"
+msgctxt "@action"
 msgid "Up"
 msgstr "向上"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:96
+#, fuzzy
+#| msgid "Back"
+msgctxt "@action"
 msgid "Back"
 msgstr "上一步"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:97
+#, fuzzy
+#| msgid "Forward"
+msgctxt "@action"
 msgid "Forward"
 msgstr "向前"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:98
+#, fuzzy
+#| msgid "Reload"
+msgctxt "@action"
+msgid "Reload"
+msgstr "重新載入"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:100
+#, fuzzy
+#| msgid "Beginning of Line"
+msgctxt "@action"
 msgid "Beginning of Line"
 msgstr "行開頭"
 
+#: kdeui/shortcuts/kstandardshortcut.cpp:101
+#, fuzzy
+#| msgid "End of Line"
+msgctxt "@action"
+msgid "End of Line"
+msgstr "行結尾"
+
 #: kdeui/shortcuts/kstandardshortcut.cpp:102
+#, fuzzy
+#| msgid "Go to Line"
+msgctxt "@action"
 msgid "Go to Line"
 msgstr "跳至行數"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:103
+#, fuzzy
+#| msgid "Backward Word"
+msgctxt "@action"
 msgid "Backward Word"
 msgstr "前一個詞語"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:104
+#, fuzzy
+#| msgid "Forward Word"
+msgctxt "@action"
 msgid "Forward Word"
 msgstr "後一個詞語"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:106
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@action"
 msgid "Add Bookmark"
 msgstr "加入書籤"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:107
+#, fuzzy
+#| msgid "Zoom In"
+msgctxt "@action"
 msgid "Zoom In"
 msgstr "放大"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:108
+#, fuzzy
+#| msgid "Zoom Out"
+msgctxt "@action"
 msgid "Zoom Out"
 msgstr "縮小"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:109
+#, fuzzy
+#| msgid "Full Screen Mode"
+msgctxt "@action"
 msgid "Full Screen Mode"
 msgstr "全螢幕模式"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:111
+#, fuzzy
+#| msgid "Popup Menu Context"
+msgctxt "@action"
 msgid "Popup Menu Context"
 msgstr "彈跳選單內容"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:112
+#, fuzzy
+#| msgid "Show Menu Bar"
+msgctxt "@action"
 msgid "Show Menu Bar"
 msgstr "顯示選單列"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:113
+#, fuzzy
+#| msgid "Activate Next Tab"
+msgctxt "@action"
 msgid "Activate Next Tab"
 msgstr "下一標籤頁"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:114
+#, fuzzy
+#| msgid "Activate Previous Tab"
+msgctxt "@action"
 msgid "Activate Previous Tab"
 msgstr "上一標籤頁"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:117
+#, fuzzy
+#| msgid "Help"
+msgctxt "@action"
 msgid "Help"
 msgstr "說明"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:118
+#, fuzzy
+#| msgid "What's This"
+msgctxt "@action"
 msgid "What's This"
 msgstr "這是什麼"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:121 kdeui/widgets/klineedit.cpp:1023
+#: kdeui/shortcuts/kstandardshortcut.cpp:121
+#, fuzzy
+#| msgid "Text Completion"
+msgctxt "@action"
 msgid "Text Completion"
 msgstr "文字完成"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:122
+#, fuzzy
+#| msgid "Previous Completion Match"
+msgctxt "@action"
 msgid "Previous Completion Match"
 msgstr "上一個完成符合"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:123
+#, fuzzy
+#| msgid "Next Completion Match"
+msgctxt "@action"
 msgid "Next Completion Match"
 msgstr "下一個完成符合"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:124
+#, fuzzy
+#| msgid "Substring Completion"
+msgctxt "@action"
 msgid "Substring Completion"
 msgstr "子字串完成"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:126
+#, fuzzy
+#| msgid "Previous Item in List"
+msgctxt "@action"
 msgid "Previous Item in List"
 msgstr "上一個清單中的項目"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:127
+#, fuzzy
+#| msgid "Next Item in List"
+msgctxt "@action"
 msgid "Next Item in List"
 msgstr "下一個清單中的項目"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:157
+#, fuzzy
+#| msgid "Dr. Klash' Accelerator Diagnosis"
+msgctxt "@title:window"
 msgid "Dr. Klash' Accelerator Diagnosis"
 msgstr "Klash 博士的的快速鍵分析"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:166
-msgid "&Disable automatic checking"
+#, fuzzy
+#| msgid "&Disable automatic checking"
+msgctxt "@option:check"
+msgid "Disable automatic checking"
 msgstr "關閉自動檢查功能(&D)"
+
+#: kdeui/shortcuts/kcheckaccelerators.cpp:170
+#: kdeui/widgets/kdatepicker.cpp:644
+#, fuzzy
+#| msgid "Close"
+msgctxt "@action:button"
+msgid "Close"
+msgstr "關閉"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:206
 msgid "<h2>Accelerators changed</h2>"
@@ -7169,11 +7432,17 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 msgid "Desktop %1"
 msgstr "桌面 %1"
 
-#: kdeui/sonnet/dialog.cpp:65 kde3support/kdeui/k3spelldlg.cpp:47
+#: kdeui/sonnet/dialog.cpp:65
+#, fuzzy
+#| msgid "Check Spelling"
+msgctxt "@title:window"
 msgid "Check Spelling"
 msgstr "拼字檢查"
 
-#: kdeui/sonnet/dialog.cpp:67 kde3support/kdeui/k3spelldlg.cpp:52
+#: kdeui/sonnet/dialog.cpp:67
+#, fuzzy
+#| msgid "&Finished"
+msgctxt "@action:button"
 msgid "&Finished"
 msgstr "完成(&F)"
 
@@ -7393,6 +7662,10 @@ msgstr ""
 msgid "Clear text"
 msgstr "清除快速鍵"
 
+#: kdeui/widgets/klineedit.cpp:1023
+msgid "Text Completion"
+msgstr "文字完成"
+
 #: kdeui/widgets/klineedit.cpp:1031
 msgid "Manual"
 msgstr "手動"
@@ -7449,13 +7722,6 @@ msgstr "選擇一個年份"
 #: kdeui/widgets/kdatepicker.cpp:280
 msgid "Select the current day"
 msgstr "選擇一個日期"
-
-#: kdeui/widgets/kdatepicker.cpp:644
-#, fuzzy
-#| msgid "Close"
-msgctxt "@action:button"
-msgid "Close"
-msgstr "關閉"
 
 #: kdeui/widgets/kcharselectdata.cpp:233
 msgid "<Non Private Use High Surrogate>"
@@ -7849,6 +8115,10 @@ msgstr "移除(&R)"
 msgid "Detailed View"
 msgstr "詳細資料"
 
+#: kfile/k3filedetailview.cpp:66
+msgid "Size"
+msgstr "大小"
+
 #: kfile/k3filedetailview.cpp:67
 #, fuzzy
 #| msgid "Dates"
@@ -8188,7 +8458,7 @@ msgstr "載入 <B>%1</B> 時發生錯誤："
 msgid "An error occurred while accessing '%1'"
 msgstr "載入 <B>%1</B> 時發生錯誤："
 
-#: kfile/kurlnavigator.cpp:563
+#: kfile/kurlnavigator.cpp:582
 #, fuzzy
 #| msgid "Custom"
 msgid "Custom Path"
@@ -10336,17 +10606,27 @@ msgstr ""
 "問題，並嘗試移除錯誤訊息中的模組。若是不行，請聯絡你的發行商或套件供應者。</"
 "p></qt>"
 
-#: kutils/kpluginselector.cpp:129
+#: kutils/kpluginselector.cpp:62
+#, fuzzy
+#| msgid "Options"
+msgid "More Options"
+msgstr "選項"
+
+#: kutils/kpluginselector.cpp:63 kutils/kpluginselector.cpp:1558
+msgid "About"
+msgstr "關於"
+
+#: kutils/kpluginselector.cpp:144
 msgid "Automatic changes have been performed due to plugin dependencies"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:196
+#: kutils/kpluginselector.cpp:211
 msgid ""
 "Automatically changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:200
+#: kutils/kpluginselector.cpp:215
 #, qt-format
 msgid ""
 "\n"
@@ -10354,7 +10634,7 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:202
+#: kutils/kpluginselector.cpp:217
 #, qt-format
 msgid ""
 "\n"
@@ -10362,42 +10642,31 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:204
+#: kutils/kpluginselector.cpp:219
 msgid "Dependency Check"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:222
+#: kutils/kpluginselector.cpp:237
 #, qt-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
 msgstr[0] ""
 
-#: kutils/kpluginselector.cpp:225
+#: kutils/kpluginselector.cpp:240
 msgid ", "
 msgstr ""
 
-#: kutils/kpluginselector.cpp:228
+#: kutils/kpluginselector.cpp:243
 #, qt-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
 msgstr[0] ""
 
-#: kutils/kpluginselector.cpp:231
+#: kutils/kpluginselector.cpp:246
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:746 kutils/kpluginselector.cpp:1035
-#, fuzzy
-#| msgid "Options"
-msgid "More Options"
-msgstr "選項"
-
-#: kutils/kpluginselector.cpp:747 kutils/kpluginselector.cpp:1038
-#: kutils/kpluginselector.cpp:1257
-msgid "About"
-msgstr "關於"
-
-#: kutils/kpluginselector.cpp:1185
+#: kutils/kpluginselector.cpp:1486
 #, fuzzy, qt-format
 #| msgid "Description:"
 msgid ""
@@ -10405,7 +10674,7 @@ msgid ""
 "\t%1"
 msgstr "描述："
 
-#: kutils/kpluginselector.cpp:1192
+#: kutils/kpluginselector.cpp:1493
 #, fuzzy, qt-format
 #| msgid "Author:"
 msgid ""
@@ -10413,16 +10682,16 @@ msgid ""
 "\t%1"
 msgstr "作者："
 
-#: kutils/kpluginselector.cpp:1199
+#: kutils/kpluginselector.cpp:1500
 #, fuzzy
 msgid "E-Mail:"
 msgstr "Email"
 
-#: kutils/kpluginselector.cpp:1220
+#: kutils/kpluginselector.cpp:1521
 msgid "Website:"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1241
+#: kutils/kpluginselector.cpp:1542
 #, fuzzy, qt-format
 #| msgid "Version:"
 msgid ""
@@ -10430,7 +10699,7 @@ msgid ""
 "\t%1"
 msgstr "版本："
 
-#: kutils/kpluginselector.cpp:1249
+#: kutils/kpluginselector.cpp:1550
 #, fuzzy, qt-format
 #| msgid "License:"
 msgid ""
@@ -10692,6 +10961,14 @@ msgstr ""
 #: kjsembed/kjsembed/qaction_binding.cpp:91
 msgid "Must supply a valid parent."
 msgstr ""
+
+#: kde3support/kdeui/k3spelldlg.cpp:47
+msgid "Check Spelling"
+msgstr "拼字檢查"
+
+#: kde3support/kdeui/k3spelldlg.cpp:52
+msgid "&Finished"
+msgstr "完成(&F)"
 
 #: kde3support/kdeui/k3listviewsearchline.cpp:307
 #, qt-format
@@ -11046,6 +11323,10 @@ msgstr "其他貢獻者："
 #: kde3support/kdeui/k3aboutdialog.cpp:901
 msgid "(No logo available)"
 msgstr "(無可用標誌)"
+
+#: kde3support/kdeui/k3dockwidget.cpp:272
+msgid "Close"
+msgstr "關閉"
 
 #: kde3support/kdeui/k3dockwidget.cpp:280
 msgctxt "Freeze the window geometry"
@@ -11460,6 +11741,14 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#~ msgctxt "Opposite to End"
+#~ msgid "Home"
+#~ msgstr "開頭"
+
+#~ msgctxt "Opposite to Prior"
+#~ msgid "Next"
+#~ msgstr "下一個"
 
 #, fuzzy
 #~ msgid "Scripts"
