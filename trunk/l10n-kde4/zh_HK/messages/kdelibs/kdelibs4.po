@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-17 05:40+0200\n"
+"POT-Creation-Date: 2007-08-18 05:29+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -737,7 +737,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291
+#: rc.cpp:291 kutils/kpluginselector.cpp:62
 #, fuzzy
 msgid "Settings"
 msgstr "設定(&S)"
@@ -10606,13 +10606,7 @@ msgstr ""
 "問題，並嘗試移除錯誤訊息中的模組。若是不行，請聯絡你的發行商或套件供應者。</"
 "p></qt>"
 
-#: kutils/kpluginselector.cpp:62
-#, fuzzy
-#| msgid "Options"
-msgid "More Options"
-msgstr "選項"
-
-#: kutils/kpluginselector.cpp:63 kutils/kpluginselector.cpp:1558
+#: kutils/kpluginselector.cpp:63
 msgid "About"
 msgstr "關於"
 
@@ -10666,7 +10660,13 @@ msgstr[0] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1486
+#: kutils/kpluginselector.cpp:1586
+#, fuzzy, qt-format
+#| msgid "About %1"
+msgid "About %1 plugin"
+msgstr "關於 %1"
+
+#: kutils/kpluginselector.cpp:1596
 #, fuzzy, qt-format
 #| msgid "Description:"
 msgid ""
@@ -10674,7 +10674,7 @@ msgid ""
 "\t%1"
 msgstr "描述："
 
-#: kutils/kpluginselector.cpp:1493
+#: kutils/kpluginselector.cpp:1603
 #, fuzzy, qt-format
 #| msgid "Author:"
 msgid ""
@@ -10682,16 +10682,16 @@ msgid ""
 "\t%1"
 msgstr "作者："
 
-#: kutils/kpluginselector.cpp:1500
+#: kutils/kpluginselector.cpp:1610
 #, fuzzy
 msgid "E-Mail:"
 msgstr "Email"
 
-#: kutils/kpluginselector.cpp:1521
+#: kutils/kpluginselector.cpp:1631
 msgid "Website:"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1542
+#: kutils/kpluginselector.cpp:1652
 #, fuzzy, qt-format
 #| msgid "Version:"
 msgid ""
@@ -10699,7 +10699,7 @@ msgid ""
 "\t%1"
 msgstr "版本："
 
-#: kutils/kpluginselector.cpp:1550
+#: kutils/kpluginselector.cpp:1660
 #, fuzzy, qt-format
 #| msgid "License:"
 msgid ""
@@ -11741,6 +11741,11 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Options"
+#~ msgid "More Options"
+#~ msgstr "選項"
 
 #~ msgctxt "Opposite to End"
 #~ msgid "Home"
