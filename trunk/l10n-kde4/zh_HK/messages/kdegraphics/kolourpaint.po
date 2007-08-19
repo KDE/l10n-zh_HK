@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-17 05:42+0200\n"
+"POT-Creation-Date: 2007-08-19 05:34+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -638,8 +638,8 @@ msgid "Click or drag to erase."
 msgstr "單擊或拖曳擦走。"
 
 #: tools/flow/kpToolFlowBase.cpp:302 tools/kpToolColorPicker.cpp:112
-#: tools/selection/kpToolSelection.cpp:168
-#: tools/selection/kpToolSelection.cpp:1047 tools/kpToolZoom.cpp:196
+#: tools/selection/kpAbstractSelectionTool.cpp:250
+#: tools/selection/kpAbstractSelectionTool.cpp:493 tools/kpToolZoom.cpp:196
 #: tools/rectangular/kpToolRectangularBase.cpp:333
 #: tools/kpToolFloodFill.cpp:131 tools/polygonal/kpToolPolygonalBase.cpp:433
 msgid "Let go of all the mouse buttons."
@@ -690,174 +690,173 @@ msgstr "讓你從圖像選取顏色"
 msgid "Click to select a color."
 msgstr "單擊選取顏色。"
 
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:113
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:180
-#: tools/selection/text/kpToolText.cpp:148
+#: tools/selection/text/kpToolText_Create.cpp:47
+msgid "Left drag to create text box."
+msgstr "以左鍵拖曳建立文字盒。"
+
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:118
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:185
+#: tools/selection/text/kpToolText_Commands.cpp:87
 msgid "Text: Delete"
 msgstr "文字：刪除"
 
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:133
-#: tools/selection/text/kpToolText_InputMethodEvents.cpp:202
-#: tools/selection/text/kpToolText_KeyboardEvents.cpp:391
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:138
+#: tools/selection/text/kpToolText_InputMethodEvents.cpp:207
+#: tools/selection/text/kpToolText_Commands.cpp:121
 msgid "Text: Write"
 msgstr "文字：寫入"
 
-#: tools/selection/text/kpToolText.cpp:57
+#: tools/selection/text/kpToolText_Commands.cpp:70
+msgid "Text: Backspace"
+msgstr "文字：後退一格"
+
+#: tools/selection/text/kpToolText_Commands.cpp:104
+msgid "Text: New Line"
+msgstr "文字：新一行"
+
+#: tools/selection/text/kpToolText.cpp:62
 #: layers/selections/text/kpTextSelection.cpp:136
 msgid "Text"
 msgstr "文字"
 
-#: tools/selection/text/kpToolText.cpp:57
+#: tools/selection/text/kpToolText.cpp:62
 msgid "Writes text"
 msgstr "寫入文字。"
 
-#: tools/selection/text/kpToolText.cpp:85
-msgid "Left drag to resize text box."
-msgstr "以左鍵拖曳更改文字盒大小。"
-
-#: tools/selection/text/kpToolText.cpp:92
-msgid "Left click to change cursor position."
-msgstr "按左鍵更改游標位置。"
-
-#: tools/selection/text/kpToolText.cpp:94
-msgid "Left drag to move text box."
-msgstr "以左鍵拖曳移動文字盒。"
-
-#: tools/selection/text/kpToolText.cpp:100
-msgid "Left drag to create text box."
-msgstr "以左鍵拖曳建立文字盒。"
-
-#: tools/selection/text/kpToolText.cpp:132
-msgid "Text: Backspace"
-msgstr "文字：後退一格"
-
-#: tools/selection/text/kpToolText.cpp:441
-#: mainWindow/kpMainWindow_Edit.cpp:400
+#: tools/selection/text/kpToolText.cpp:99 mainWindow/kpMainWindow_Edit.cpp:400
 msgid "Text: Create Box"
 msgstr "文字：建立盒子"
 
-#: tools/selection/text/kpToolText.cpp:502
-msgid "Text: Move Box"
-msgstr "文字：移動盒子"
-
-#: tools/selection/text/kpToolText.cpp:587
+#: tools/selection/text/kpToolText_TextStyle.cpp:118
 msgid "Text: Opaque Background"
 msgstr "文字：不透明背景"
 
-#: tools/selection/text/kpToolText.cpp:588
+#: tools/selection/text/kpToolText_TextStyle.cpp:119
 msgid "Text: Transparent Background"
 msgstr "文字：透明背景"
 
-#: tools/selection/text/kpToolText.cpp:610
+#: tools/selection/text/kpToolText_TextStyle.cpp:141
 msgid "Text: Swap Colors"
 msgstr "文字：置換顏色"
 
-#: tools/selection/text/kpToolText.cpp:630
+#: tools/selection/text/kpToolText_TextStyle.cpp:161
 msgid "Text: Foreground Color"
 msgstr "文字：前景顏色"
 
-#: tools/selection/text/kpToolText.cpp:650
+#: tools/selection/text/kpToolText_TextStyle.cpp:181
 msgid "Text: Background Color"
 msgstr "文字：背景顏色"
 
-#: tools/selection/text/kpToolText.cpp:686
+#: tools/selection/text/kpToolText_TextStyle.cpp:217
 msgid "Text: Font"
 msgstr "文字：字型"
 
-#: tools/selection/text/kpToolText.cpp:713
+#: tools/selection/text/kpToolText_TextStyle.cpp:244
 msgid "Text: Font Size"
 msgstr "文字：字型大小"
 
-#: tools/selection/text/kpToolText.cpp:735
+#: tools/selection/text/kpToolText_TextStyle.cpp:266
 msgid "Text: Bold"
 msgstr "文字：粗體"
 
-#: tools/selection/text/kpToolText.cpp:756
+#: tools/selection/text/kpToolText_TextStyle.cpp:287
 msgid "Text: Italic"
 msgstr "文字：斜體"
 
-#: tools/selection/text/kpToolText.cpp:777
+#: tools/selection/text/kpToolText_TextStyle.cpp:308
 msgid "Text: Underline"
 msgstr "文字：加底線"
 
-#: tools/selection/text/kpToolText.cpp:798
+#: tools/selection/text/kpToolText_TextStyle.cpp:329
 msgid "Text: Strike Through"
 msgstr "文字：中間劃線"
 
-#: tools/selection/text/kpToolText_KeyboardEvents.cpp:354
-msgid "Text: New Line"
-msgstr "文字：新一行"
+#: tools/selection/text/kpToolText_SelectText.cpp:56
+msgid "Left click to change cursor position."
+msgstr "按左鍵更改游標位置。"
 
-#: tools/selection/kpToolFreeFormSelection.cpp:46
+#: tools/selection/text/kpToolText_Move.cpp:42
+msgid "Left drag to move text box."
+msgstr "以左鍵拖曳移動文字盒。"
+
+#: tools/selection/text/kpToolText_Move.cpp:61
+msgid "Text: Move Box"
+msgstr "文字：移動盒子"
+
+#: tools/selection/text/kpToolText_ResizeScale.cpp:42
+msgid "Left drag to resize text box."
+msgstr "以左鍵拖曳更改文字盒大小。"
+
+#: tools/selection/image/kpToolFreeFormSelection.cpp:45
 msgid "Selection (Free-Form)"
 msgstr "選取（任何形式）"
 
-#: tools/selection/kpToolFreeFormSelection.cpp:47
+#: tools/selection/image/kpToolFreeFormSelection.cpp:46
 msgid "Makes a free-form selection"
 msgstr "選取任何形式的區域"
 
-#: tools/selection/kpToolSelection.cpp:140
-msgid "Left drag to scale selection."
-msgstr "以左鍵拖曳縮放選取區域。"
+#: tools/selection/image/kpToolRectSelection.cpp:41
+msgid "Selection (Rectangular)"
+msgstr "選取（長方形）"
 
-#: tools/selection/kpToolSelection.cpp:146
-msgid "Left drag to move selection."
-msgstr "以左鍵拖曳移動選取區域。"
+#: tools/selection/image/kpToolRectSelection.cpp:42
+msgid "Makes a rectangular selection"
+msgstr "選取長方形的區域"
 
-#: tools/selection/kpToolSelection.cpp:153
-msgid "Left drag to create selection."
-msgstr "以左鍵拖曳建立選取區域。"
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:118
+msgid "Selection: Transparency"
+msgstr "選取：透明度"
 
-#: tools/selection/kpToolSelection.cpp:1060
-msgid "Selection: Move"
-msgstr "選取：移動"
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:174
+msgid "Selection: Opaque"
+msgstr "選取：不透明"
 
-#: tools/selection/kpToolSelection.cpp:1084
-#, qt-format
-msgid "%1: Smear"
-msgstr "%1: 塗上"
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:175
+msgid "Selection: Transparent"
+msgstr "選取：透明"
 
-#: tools/selection/kpToolSelection.cpp:1128
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:223
+msgid "Selection: Transparency Color"
+msgstr "選取：透明色"
+
+#: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:267
+msgid "Selection: Transparency Color Similarity"
+msgstr "選取：透明色相似性"
+
+#: tools/selection/image/kpToolEllipticalSelection.cpp:42
+msgid "Selection (Elliptical)"
+msgstr "選取（橢圓形）"
+
+#: tools/selection/image/kpToolEllipticalSelection.cpp:43
+msgid "Makes an elliptical or circular selection"
+msgstr "選取橢圓形或圓形的區域"
+
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 #: imagelib/transforms/kpTransformCrop.cpp:371
 #: mainWindow/kpMainWindow_Edit.cpp:401 mainWindow/kpMainWindow_Image.cpp:289
 msgid "Selection: Create"
 msgstr "選取：建立"
 
-#: tools/selection/kpToolSelection.cpp:1277
-msgid "Selection: Transparency"
-msgstr "選取：透明度"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:89
+msgid "Left drag to create selection."
+msgstr "以左鍵拖曳建立選取區域。"
 
-#: tools/selection/kpToolSelection.cpp:1333
-msgid "Selection: Opaque"
-msgstr "選取：不透明"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:95
+msgid "Left drag to move selection."
+msgstr "以左鍵拖曳移動選取區域。"
 
-#: tools/selection/kpToolSelection.cpp:1334
-msgid "Selection: Transparent"
-msgstr "選取：透明"
+#: tools/selection/image/kpAbstractImageSelectionTool.cpp:101
+msgid "Left drag to scale selection."
+msgstr "以左鍵拖曳縮放選取區域。"
 
-#: tools/selection/kpToolSelection.cpp:1382
-msgid "Selection: Transparency Color"
-msgstr "選取：透明色"
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:311
+msgid "Selection: Move"
+msgstr "選取：移動"
 
-#: tools/selection/kpToolSelection.cpp:1426
-msgid "Selection: Transparency Color Similarity"
-msgstr "選取：透明色相似性"
-
-#: tools/selection/kpToolRectSelection.cpp:42
-msgid "Selection (Rectangular)"
-msgstr "選取（長方形）"
-
-#: tools/selection/kpToolRectSelection.cpp:43
-msgid "Makes a rectangular selection"
-msgstr "選取長方形的區域"
-
-#: tools/selection/kpToolEllipticalSelection.cpp:43
-msgid "Selection (Elliptical)"
-msgstr "選取（橢圓形）"
-
-#: tools/selection/kpToolEllipticalSelection.cpp:44
-msgid "Makes an elliptical or circular selection"
-msgstr "選取橢圓形或圓形的區域"
+#: tools/selection/kpAbstractSelectionTool_Move.cpp:331
+#, qt-format
+msgid "%1: Smear"
+msgstr "%1: 塗上"
 
 #: tools/kpToolZoom.cpp:72
 msgid "Zoom"

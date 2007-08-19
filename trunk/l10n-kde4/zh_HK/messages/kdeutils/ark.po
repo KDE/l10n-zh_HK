@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-12 05:36+0200\n"
+"POT-Creation-Date: 2007-08-19 05:34+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -178,22 +178,29 @@ msgstr[0] ""
 msgid "Symbolic Link"
 msgstr ""
 
-#: part/infopanel.cpp:156
+#: part/infopanel.cpp:129
+#, fuzzy, qt-format
+#| msgid "0 files selected"
+msgid "One file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "已選取 0 個檔案"
+
+#: part/infopanel.cpp:181
 #, qt-format
 msgid "<b>Type:</b> %1<br/>"
 msgstr ""
 
-#: part/infopanel.cpp:160
+#: part/infopanel.cpp:185
 #, qt-format
 msgid "<b>Owner:</b> %1<br/>"
 msgstr ""
 
-#: part/infopanel.cpp:165
+#: part/infopanel.cpp:190
 #, qt-format
 msgid "<b>Group:</b> %1<br/>"
 msgstr ""
 
-#: part/infopanel.cpp:170
+#: part/infopanel.cpp:195
 #, qt-format
 msgid "<b>Target:</b> %1<br/>"
 msgstr ""
@@ -383,9 +390,6 @@ msgstr "加入資料夾(&R)..."
 
 #~ msgid "Total: 0 files"
 #~ msgstr "總計：0 個檔案"
-
-#~ msgid "0 files selected"
-#~ msgstr "已選取 0 個檔案"
 
 #~ msgid "Wrong number of arguments specified"
 #~ msgstr "提供的參數數目錯誤"
