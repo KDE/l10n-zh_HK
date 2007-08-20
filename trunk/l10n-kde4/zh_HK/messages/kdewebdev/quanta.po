@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-08 05:32+0200\n"
+"POT-Creation-Date: 2007-08-20 05:33+0200\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -8870,9 +8870,12 @@ msgstr "未知的類型"
 
 #: lib/extfileinfo.cpp:218 lib/basetreeview.cpp:906
 #: plugins/templatestree/templatestreeview.cpp:498
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</"
+#| "qt>"
 msgid ""
-"<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</qt>"
+"<qt>The file <b>%1</b> already exists.<br />Do you want to overwrite it?</qt>"
 msgstr "<qt>檔案 <b>%1</b> 已經存在。<br>您要覆寫它嗎</qt>"
 
 #: lib/basetreeview.cpp:380
@@ -8985,8 +8988,8 @@ msgstr "以 &Quanta 編輯"
 #: lib/useraction.cpp:300
 #, fuzzy, qt-format
 msgid ""
-"<qt>There was an error running <b>%1</b>.<br>Check that you have the <i>%2</"
-"i> executable installed and it is accessible.</qt>"
+"<qt>There was an error running <b>%1</b>.<br />Check that you have the <i>%"
+"2</i> executable installed and it is accessible.</qt>"
 msgstr ""
 "<qt>執行<b>%1</b>時發生錯誤。<br>請確定<i>%2</i>執行檔已安裝並且可以被存取。"
 "</qt>"
@@ -9001,9 +9004,12 @@ msgid "The \"%1\" script output:\n"
 msgstr "\"%1\" 指令稿的輸出: \n"
 
 #: lib/useraction.cpp:406
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The filtering action <b>%1</b> seems to be locked.<br>Do you want to "
+#| "terminate it?</qt>"
 msgid ""
-"<qt>The filtering action <b>%1</b> seems to be locked.<br>Do you want to "
+"<qt>The filtering action <b>%1</b> seems to be locked.<br />Do you want to "
 "terminate it?</qt>"
 msgstr "<qt>篩選動作 <b>%1</b> 似乎已當掉了。<br>您要終止它嗎?</qt>"
 
@@ -9012,8 +9018,9 @@ msgid "Action Not Responding"
 msgstr "動作不回應"
 
 #: lib/quantanetaccess.cpp:309
-#, qt-format
-msgid "<qt>Do you want to add <br><b>%1</b><br> to the project?</qt>"
+#, fuzzy, qt-format
+#| msgid "<qt>Do you want to add <br><b>%1</b><br> to the project?</qt>"
+msgid "<qt>Do you want to add<br /><b>%1</b><br />to the project?</qt>"
 msgstr "<qt>您要把 <br><b>%1</b><br> 加入到專案中嗎？</qt>"
 
 #: lib/quantanetaccess.cpp:309
@@ -9021,9 +9028,11 @@ msgid "Add to Project"
 msgstr "加入到專案"
 
 #: lib/quantanetaccess.cpp:367
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Do you really want to remove <br><b>%1</b><br> from the project?</qt>"
 msgid ""
-"<qt>Do you really want to remove <br><b>%1</b><br> from the project?</qt>"
+"<qt>Do you really want to remove<br /><b>%1</b><br />from the project?</qt>"
 msgstr "<qt>您真的要從專案中移除 <br><b>%1</b><br> 嗎?</qt>"
 
 #: lib/quantanetaccess.cpp:367
@@ -9031,9 +9040,12 @@ msgid "Remove From Project"
 msgstr "從專案中移除"
 
 #: lib/quantanetaccess.cpp:400
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Do you really want to delete <br><b>%1</b><br> and remove it from the "
+#| "project?</qt>"
 msgid ""
-"<qt>Do you really want to delete <br><b>%1</b><br> and remove it from the "
+"<qt>Do you really want to delete<br /><b>%1</b><br />and remove it from the "
 "project?</qt>"
 msgstr "<qt>您真的要刪除 <br><b>%1</b>，並且從專案中移除嗎？</qt>"
 
@@ -9042,8 +9054,9 @@ msgid "Delete & Remove From Project"
 msgstr "刪除 & 從專案移除"
 
 #: lib/quantanetaccess.cpp:415
-#, qt-format
-msgid "<qt>Do you really want to delete <br><b>%1</b>?</qt>"
+#, fuzzy, qt-format
+#| msgid "<qt>Do you really want to delete <br><b>%1</b>?</qt>"
+msgid "<qt>Do you really want to delete<br /><b>%1</b>?</qt>"
 msgstr "<qt>您真的要刪除 <br><b>%1</b> 嗎？</qt>"
 
 #: lib/quantanetaccess.cpp:415
@@ -9125,9 +9138,12 @@ msgid "Code"
 msgstr "模式"
 
 #: quantacore/dialogs/dtepeditdlg.cpp:211
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The file <b>%1</b> is not writable.<br>Do you want to save the "
+#| "configuration to a different file?</qt>"
 msgid ""
-"<qt>The file <b>%1</b> is not writable.<br>Do you want to save the "
+"<qt>The file <b>%1</b> is not writable.<br />Do you want to save the "
 "configuration to a different file?</qt>"
 msgstr "<qt>檔案 <b>%1</b> 無法寫入。<br>您要把組態儲存至不同的檔案嗎?</qt>"
 
@@ -9162,11 +9178,15 @@ msgid "Delete Group"
 msgstr "刪除組別"
 
 #: quantacore/quantacommon.cpp:342
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Cannot create folder<br><b>%1</b>.<br>Check that you have write "
+#| "permission in the parent folder or that the connection to<br><b>%2</"
+#| "b><br> is valid.</qt>"
 msgid ""
-"<qt>Cannot create folder<br><b>%1</b>.<br>Check that you have write "
-"permission in the parent folder or that the connection to<br><b>%2</b><br> "
-"is valid.</qt>"
+"<qt>Cannot create folder<br /><b>%1</b>.<br />Check that you have write "
+"permission in the parent folder or that the connection to<br /><b>%2</b><br /"
+">is valid.</qt>"
 msgstr ""
 "<qt>無法建立目錄<br><b>%1</b>。<br>請確定您對它的母目錄擁有寫入權限，或者到"
 "<br><b>%2</b><br>的連線是有效的。</qt>"
@@ -9216,9 +9236,12 @@ msgid "Change the current DTD."
 msgstr "更換目前的 DTD。"
 
 #: quantacore/dtds.cpp:662
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
+#| "line %3, column %4.</i></qt>"
 msgid ""
-"<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
+"<qt>The DTD tag file %1 is not valid.<br />The error message is: <i>%2 in "
 "line %3, column %4.</i></qt>"
 msgstr ""
 "<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
@@ -9260,9 +9283,13 @@ msgid "Unknown"
 msgstr "未知"
 
 #: quantacore/parsers/dtd/dtdparser.cpp:105
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Error while parsing the DTD.<br>The error message is:<br><i>%1</i></"
+#| "qt>"
 msgid ""
-"<qt>Error while parsing the DTD.<br>The error message is:<br><i>%1</i></qt>"
+"<qt>Error while parsing the DTD.<br />The error message is:<br /><i>%1</i></"
+"qt>"
 msgstr "<qt>解析 DTD 時發生錯誤。<br>錯誤訊息為：<br><i>%1</i></qt>"
 
 #: quantacore/parsers/dtd/dtdparser.cpp:147
@@ -9301,7 +9328,7 @@ msgstr "無法建立檔案來上傳。"
 #: quantacore/parsers/statemachine.cpp:47
 #, fuzzy, qt-format
 msgid ""
-"<qt>The statemachine describing file <b>%1</b> is not valid.<br> The error "
+"<qt>The statemachine describing file <b>%1</b> is not valid.<br />The error "
 "message is: <i>%2 in line %3, column %4.</i></qt>"
 msgstr ""
 "<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
@@ -9523,17 +9550,20 @@ msgid ""
 msgstr "<qt>工具列<b>%1</b>已被修改。您要在它被移除之前儲存它嗎?</qt>"
 
 #: plugins/usertoolbars/usertoolbarspart.cpp:774
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>You must save the toolbars to the following folder: <br><br><b>%1</"
+#| "b></qt>"
 msgid ""
-"<qt>You must save the toolbars to the following folder: <br><br><b>%1</b></"
-"qt>"
+"<qt>You must save the toolbars to the following folder: <br /><br /><b>%1</"
+"b></qt>"
 msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
 
 #: plugins/usertoolbars/usertoolbarspart.cpp:900
 #, fuzzy, qt-format
 msgid ""
-"<qt>An error happened while saving the <b>%1</b> toolbar.<br>Check that you "
-"have write permissions for<br><b>%2</b></qt>"
+"<qt>An error happened while saving the <b>%1</b> toolbar.<br />Check that "
+"you have write permissions for<br /><b>%2</b></qt>"
 msgstr ""
 "<qt>建立範本檔案時發生錯誤。<br>請確定您對 <i>%1</i> 擁有寫入權限。</qt>"
 
@@ -9831,10 +9861,13 @@ msgid "Save selection as template file:"
 msgstr "儲存選取的作為範本："
 
 #: plugins/templatestree/templatestreeview.cpp:504
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Could not write to file <b>%1</b>.<br>Check if you have rights to "
+#| "write there or that your connection is working.</qt>"
 msgid ""
-"<qt>Could not write to file <b>%1</b>.<br>Check if you have rights to write "
-"there or that your connection is working.</qt>"
+"<qt>Could not write to file <b>%1</b>.<br />Check if you have rights to "
+"write there or that your connection is working.</qt>"
 msgstr ""
 "<qt>無法寫入到檔案 <b>%1</b>。<br>請檢查一下您有沒有足夠的權限在那裏進行寫"
 "入，或連線有無發生問題。</qt>"
@@ -9876,7 +9909,7 @@ msgstr ""
 #, fuzzy, qt-format
 msgid ""
 "<qt>Some error happened while extracting the <i>%1</i> site template file."
-"<br>Check that you have write permission for <i>%2</i> and that there is "
+"<br />Check that you have write permission for <i>%2</i> and that there is "
 "enough free space in your temporary folder.</qt>"
 msgstr ""
 "<qt>無法建立 <br><b>%1</b> 檔案。<br>請確定您對指定位置擁有寫入的權限。</qt>"
@@ -9910,7 +9943,7 @@ msgstr ""
 #: plugins/templatestree/templatestreepart.cpp:266
 #, fuzzy, qt-format
 msgid ""
-"<qt>There was an error while creating the site template tarball.<br>Check "
+"<qt>There was an error while creating the site template tarball.<br />Check "
 "that you can read the files from <i>%1</i>, you have write access to <i>%2</"
 "i> and that you have enough free space in your temporary folder.</qt>"
 msgstr ""
@@ -10072,9 +10105,9 @@ msgstr "逐程序執行(&S)"
 #: plugins/createproject/webimportwizardpage.cpp:128
 #, fuzzy
 msgid ""
-"<qt>There was an error while trying to run the <b>wget</b> application."
-"<br>Check first that it is present on your system and that it is in your "
-"PATH.</qt>"
+"<qt>There was an error while trying to run the <b>wget</b> application.<br /"
+">Check first that it is present on your system and that it is in your PATH.</"
+"qt>"
 msgstr ""
 "執行\"wget\"應用程式時發生錯誤。           請確定它已安裝，並且位於 PATH 環境"
 "變數的位置下。"
@@ -10103,7 +10136,7 @@ msgstr "建立新的子專案(&C)"
 #: plugins/createproject/createquantaprojectpart.cpp:100
 msgid ""
 "<qt>The <b>create new Quanta project</b> plugin requires the <b>Quanta core</"
-"b> plugin to be loaded."
+"b> plugin to be loaded.</qt>"
 msgstr ""
 
 #: plugins/createproject/createquantaprojectpart.cpp:100

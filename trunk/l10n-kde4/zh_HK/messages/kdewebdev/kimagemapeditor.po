@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KImageMapEditor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:08+0200\n"
+"POT-Creation-Date: 2007-08-20 05:33+0200\n"
 "PO-Revision-Date: 2006-02-26 05:42+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kimearea.h:231 kimedialogs.cpp:418
+#: kimearea.h:231 kimedialogs.cpp:417
 msgid "Rectangle"
 msgstr "長方形"
 
-#: kimearea.h:254 kimedialogs.cpp:419
+#: kimearea.h:254 kimedialogs.cpp:418
 msgid "Circle"
 msgstr "圓形"
 
-#: kimearea.h:280 kimedialogs.cpp:420
+#: kimearea.h:280 kimedialogs.cpp:419
 msgid "Polygon"
 msgstr "多邊形"
 
-#: kimearea.h:304 kimedialogs.cpp:451
+#: kimearea.h:304 kimedialogs.cpp:450
 msgid "Default"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr "要開啟的檔案"
 msgid "Areas"
 msgstr "區域"
 
-#: arealistview.cpp:42 kimedialogs.cpp:661
+#: arealistview.cpp:42 kimedialogs.cpp:660
 msgid "Preview"
 msgstr "預覽"
 
@@ -269,7 +269,9 @@ msgid "Your emails"
 msgstr "stanley18fan0k@yahoo.com.hk"
 
 #: kimagemapeditor.cpp:258
-msgid "(c) 2001-2003 Jan Sch&auml;fer <janschaefer@users.sourceforge.net>"
+msgid ""
+"(c) 2001-2003 Jan Sch&auml;fer <email>janschaefer@users.sourceforge.net</"
+"email>"
 msgstr ""
 
 #: kimagemapeditor.cpp:448
@@ -637,14 +639,18 @@ msgstr "HTML 檔案"
 msgid "Text File"
 msgstr "文字檔案"
 
-#: kimagemapeditor.cpp:1676 kimeshell.cpp:178 kimedialogs.cpp:495
+#: kimagemapeditor.cpp:1676 kimeshell.cpp:178 kimedialogs.cpp:494
 msgid "All Files"
 msgstr "所有檔案"
 
 #: kimagemapeditor.cpp:1687
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The file <em>%1</em> already exists.<br>Do you want to overwrite it?</"
+#| "qt>"
 msgid ""
-"<qt>The file <em>%1</em> already exists.<br>Do you want to overwrite it?</qt>"
+"<qt>The file <em>%1</em> already exists.<br />Do you want to overwrite it?</"
+"qt>"
 msgstr "<qt>檔案 <em>%1</em> 已經存在。<br>您要覆寫它嗎?</qt>"
 
 #: kimagemapeditor.cpp:1688
@@ -677,9 +683,12 @@ msgid ""
 msgstr "<qt>無法儲存檔案 <i>%1</i>，因為您沒有需要的寫入權限。</qt>"
 
 #: kimagemapeditor.cpp:2714
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Are you sure you want to delete the map <i>%1</i>? <br><b>There is no "
+#| "way to undo this.</b></qt>"
 msgid ""
-"<qt>Are you sure you want to delete the map <i>%1</i>? <br><b>There is no "
+"<qt>Are you sure you want to delete the map <i>%1</i>? <br /><b>There is no "
 "way to undo this.</b></qt>"
 msgstr ""
 "<qt>您真的要刪除地圖 <i>%1</i> 嗎? <br><b>這個動作是不可復原的。</b></qt>"
@@ -689,9 +698,11 @@ msgid "Delete Map?"
 msgstr "刪除地圖?"
 
 #: kimagemapeditor.cpp:2764
-#, qt-format
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>The file <i>%1</i> has been modified.<br>Do you want to save it?</qt>"
 msgid ""
-"<qt>The file <i>%1</i> has been modified.<br>Do you want to save it?</qt>"
+"<qt>The file <i>%1</i> has been modified.<br />Do you want to save it?</qt>"
 msgstr "<qt>檔案 <i>%1</i> 已被修改。<br>您要儲存它嗎?</qt>"
 
 #: kimagemapeditor.cpp:2894
@@ -726,140 +737,140 @@ msgstr "GIF 圖片"
 msgid "Choose Picture to Open"
 msgstr "請選擇要開啟的圖片"
 
-#: kimedialogs.cpp:86
+#: kimedialogs.cpp:85
 msgid "Top &X:"
 msgstr "最大 &X 值："
 
-#: kimedialogs.cpp:97
+#: kimedialogs.cpp:96
 msgid "Top &Y:"
 msgstr "最大 &Y 值："
 
-#: kimedialogs.cpp:108
+#: kimedialogs.cpp:107
 msgid "&Width:"
 msgstr "闊度(&W)："
 
-#: kimedialogs.cpp:119
+#: kimedialogs.cpp:118
 msgid "Hei&ght:"
 msgstr "高度(&G)："
 
-#: kimedialogs.cpp:147
+#: kimedialogs.cpp:146
 msgid "Center &X:"
 msgstr "中心 &X 值："
 
-#: kimedialogs.cpp:159
+#: kimedialogs.cpp:158
 msgid "Center &Y:"
 msgstr "中心 &Y 值："
 
-#: kimedialogs.cpp:171
+#: kimedialogs.cpp:170
 msgid "&Radius:"
 msgstr "半徑(&R)："
 
-#: kimedialogs.cpp:207
+#: kimedialogs.cpp:206
 msgid "Add"
 msgstr ""
 
-#: kimedialogs.cpp:209
+#: kimedialogs.cpp:208
 #, fuzzy
 msgid "Remove"
 msgstr "移除圖片"
 
-#: kimedialogs.cpp:284
+#: kimedialogs.cpp:283
 msgid "Top &X"
 msgstr "最大 &X 值"
 
-#: kimedialogs.cpp:295
+#: kimedialogs.cpp:294
 msgid "Top &Y"
 msgstr "最大 &Y 值"
 
-#: kimedialogs.cpp:331
+#: kimedialogs.cpp:330
 msgid "&HREF:"
 msgstr "&HREF:"
 
-#: kimedialogs.cpp:337
+#: kimedialogs.cpp:336
 msgid "Alt. &Text:"
 msgstr "替代文字(&T):"
 
-#: kimedialogs.cpp:340
+#: kimedialogs.cpp:339
 msgid "Tar&get:"
 msgstr "Tar&get:"
 
-#: kimedialogs.cpp:343
+#: kimedialogs.cpp:342
 msgid "Tit&le:"
 msgstr "Tit&le:"
 
-#: kimedialogs.cpp:347
+#: kimedialogs.cpp:346
 msgid "Enable default map"
 msgstr "啟用預設的地圖"
 
-#: kimedialogs.cpp:377
+#: kimedialogs.cpp:376
 msgid "OnClick:"
 msgstr "OnClick:"
 
-#: kimedialogs.cpp:378
+#: kimedialogs.cpp:377
 msgid "OnDblClick:"
 msgstr "OnDblClick:"
 
-#: kimedialogs.cpp:379
+#: kimedialogs.cpp:378
 msgid "OnMouseDown:"
 msgstr "OnMouseDown:"
 
-#: kimedialogs.cpp:380
+#: kimedialogs.cpp:379
 msgid "OnMouseUp:"
 msgstr "OnMouseUp:"
 
-#: kimedialogs.cpp:381
+#: kimedialogs.cpp:380
 msgid "OnMouseOver:"
 msgstr "OnMouseOver:"
 
-#: kimedialogs.cpp:382
+#: kimedialogs.cpp:381
 msgid "OnMouseMove:"
 msgstr "OnMouseMove:"
 
-#: kimedialogs.cpp:383
+#: kimedialogs.cpp:382
 msgid "OnMouseOut:"
 msgstr "OnMouseOut:"
 
-#: kimedialogs.cpp:396
+#: kimedialogs.cpp:395
 msgid "Area Tag Editor"
 msgstr "Area 標籤編緝器"
 
-#: kimedialogs.cpp:421
+#: kimedialogs.cpp:420
 msgid "Selection"
 msgstr "選取"
 
-#: kimedialogs.cpp:447
+#: kimedialogs.cpp:446
 msgid "&General"
 msgstr "一般(&G)"
 
-#: kimedialogs.cpp:454
+#: kimedialogs.cpp:453
 msgid "Coor&dinates"
 msgstr "座標(&D)"
 
-#: kimedialogs.cpp:456
+#: kimedialogs.cpp:455
 msgid "&JavaScript"
 msgstr "&JavaScript"
 
-#: kimedialogs.cpp:495
+#: kimedialogs.cpp:494
 msgid "Choose File"
 msgstr "選擇檔案"
 
-#: kimedialogs.cpp:564
+#: kimedialogs.cpp:563
 msgid "Preferences"
 msgstr "偏好設定"
 
-#: kimedialogs.cpp:575
+#: kimedialogs.cpp:574
 msgid "&Maximum image preview height:"
 msgstr "預覽圖高度上限(&M)："
 
-#: kimedialogs.cpp:588
+#: kimedialogs.cpp:587
 msgid "&Undo limit:"
 msgstr "復原次數上限(&U)："
 
-#: kimedialogs.cpp:598
+#: kimedialogs.cpp:597
 msgid "&Redo limit:"
 msgstr "取消復原次數上限(&R)："
 
-#: kimedialogs.cpp:607
+#: kimedialogs.cpp:606
 msgid "&Start with last used document"
 msgstr "啟動時開啟上一次使用的文件(&S)"
 
