@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-25 05:35+0200\n"
+"POT-Creation-Date: 2007-08-26 05:32+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,60 +17,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: debInterface.cpp:61
+#: debInterface.cpp:61 rpmInterface.cpp:53
 msgid "Download only"
 msgstr "只下載"
 
-#: debInterface.cpp:303
+#: debInterface.cpp:270
 msgid "&Apt-File Update"
 msgstr "&Apt-File 更新"
 
-#: debInterface.cpp:323
+#: debInterface.cpp:290
 #, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "需要安裝 %1 程式"
 
-#: findf.cpp:56
+#: findf.cpp:55
 msgid "Find File"
 msgstr "搜尋檔案"
 
-#: findf.cpp:59 search.cpp:46
+#: findf.cpp:58 search.cpp:46
 msgid "&Find"
 msgstr "搜尋(&F)"
 
-#: findf.cpp:70 search.cpp:43 search.cpp:54
+#: findf.cpp:69 search.cpp:43 search.cpp:54
 msgid "Find Package"
 msgstr "搜尋套件"
 
-#: findf.cpp:84
+#: findf.cpp:83
 msgid "Find:"
 msgstr "搜尋:"
 
-#: findf.cpp:91
+#: findf.cpp:90
 msgid "Installed"
 msgstr "已安裝"
 
-#: findf.cpp:93 kplview.cpp:59
+#: findf.cpp:92 kplview.cpp:59
 msgid "Package"
 msgstr "套件"
 
-#: findf.cpp:94
+#: findf.cpp:93
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: findf.cpp:99
+#: findf.cpp:98
 msgid "Also search uninstalled packages"
 msgstr "亦搜尋已反裝之套件"
 
-#: findf.cpp:102
+#: findf.cpp:101
 msgid "Also search uninstalled packages (apt-file needs to be installed)"
 msgstr "亦搜尋已反裝之套件（需要安裝 apt-file）"
 
-#: findf.cpp:179
+#: findf.cpp:180
 msgid "--Nothing found--"
 msgstr "--找不到任何東西--"
 
-#: findf.cpp:229
+#: findf.cpp:230
 msgid "Incorrect URL type"
 msgstr "不正確的 URL 類型"
 
@@ -181,27 +181,27 @@ msgstr "版本"
 msgid "Old Version"
 msgstr "舊版本"
 
-#: main.cpp:50
+#: main.cpp:51
 msgid "KDE Package installer"
 msgstr "KDE 套件安裝程式"
 
-#: main.cpp:66
+#: main.cpp:67
 msgid "KPackage"
 msgstr "KPackage"
 
-#: main.cpp:69
+#: main.cpp:70
 msgid "(c) 1999-2001, Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:72
 msgid "Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:75
 msgid "Remote host for Debian APT, via SSH"
 msgstr "Debian APT 的遠端主機，透過 SSH"
 
-#: main.cpp:76
+#: main.cpp:77
 msgid "Package to install"
 msgstr "要安裝的套件"
 
@@ -279,12 +279,6 @@ msgstr "遠端主機"
 #: options.cpp:77
 msgid "Use remote host (Debian APT only):"
 msgstr "使用遠端主機（只有 Debian APT）:"
-
-#: options.cpp:94
-#, fuzzy, qt-format
-#| msgid "%1: %2 not found"
-msgid "%1 not found"
-msgstr "%1: 找不到 %2"
 
 #: options.cpp:98
 msgid "Enable"
@@ -730,6 +724,11 @@ msgstr "備註"
 #, qt-format
 msgid "%1 was not found."
 msgstr "找不到 %1 。"
+
+#, fuzzy
+#~| msgid "%1: %2 not found"
+#~ msgid "%1 not found"
+#~ msgstr "%1: 找不到 %2"
 
 #~ msgid "Fetch"
 #~ msgstr "取得"
