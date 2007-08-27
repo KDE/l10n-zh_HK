@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-26 05:32+0200\n"
+"POT-Creation-Date: 2007-08-27 05:31+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -364,6 +364,9 @@ msgid "Welcome to the Task Scheduler"
 msgstr "歡迎使用工作排程器"
 
 #: ktapp.cpp:135
+#, fuzzy
+#| msgid "&New..."
+msgctxt "Adds a new task or variable"
 msgid "&New..."
 msgstr "新增(&N)..."
 
@@ -386,6 +389,7 @@ msgstr "立即執行(&R)"
 #: ktapp.cpp:168
 #, fuzzy
 #| msgid "Ready."
+msgctxt "Kcron in ready for user input"
 msgid " Ready."
 msgstr "就緒。"
 
@@ -398,11 +402,17 @@ msgstr ""
 "要儲存變更嗎？"
 
 #: ktapp.cpp:237
+#, fuzzy
+#| msgid "Saving..."
+msgctxt "Kcron is saving the file to the hard drive"
 msgid "Saving..."
 msgstr "正在儲存..."
 
 #: ktapp.cpp:239 ktapp.cpp:250 ktapp.cpp:270 ktapp.cpp:277 ktapp.cpp:284
 #: ktapp.cpp:291 ktapp.cpp:298 ktapp.cpp:305 ktapp.cpp:322 ktapp.cpp:329
+#, fuzzy
+#| msgid "Ready."
+msgctxt "Kcron is ready for user input"
 msgid "Ready."
 msgstr "就緒。"
 
@@ -467,14 +477,20 @@ msgid "Run the selected task now."
 msgstr "立即執行選定的工作。"
 
 #: ktlisttask.cpp:42
-msgid "At system bootup"
+msgid "At system startup"
 msgstr ""
 
-#: ktlisttask.cpp:53 ktlistvar.cpp:43
+#: ktlisttask.cpp:53
+#, fuzzy
+#| msgid "Disabled"
+msgctxt "The cron task had been disabled"
 msgid "Disabled"
 msgstr "停用"
 
-#: ktlisttask.cpp:79 ktlistvar.cpp:66
+#: ktlisttask.cpp:79
+#, fuzzy
+#| msgid "Disabled."
+msgctxt "The cron task had been disabled"
 msgid "Disabled."
 msgstr "停用。"
 
@@ -506,6 +522,20 @@ msgstr "描述:"
 msgid "No tasks..."
 msgstr "沒有工作..."
 
+#: ktlistvar.cpp:43
+#, fuzzy
+#| msgid "Disabled"
+msgctxt "The cron variable has been disabled"
+msgid "Disabled"
+msgstr "停用"
+
+#: ktlistvar.cpp:66
+#, fuzzy
+#| msgid "Disabled."
+msgctxt "The cron variable has been disabled"
+msgid "Disabled."
+msgstr "停用。"
+
 #: ktlistvar.cpp:72
 msgid "Modify Variable"
 msgstr "修改變數"
@@ -515,6 +545,9 @@ msgid "Edit Variable"
 msgstr "編輯變數"
 
 #: ktlistvars.cpp:70
+#, fuzzy
+#| msgid "Variable:"
+msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "Variable:"
 msgstr "變數:"
 
@@ -586,6 +619,9 @@ msgid "Days of Week"
 msgstr "星期中的天數"
 
 #: kttask.cpp:304
+#, fuzzy
+#| msgid "Daily"
+msgctxt "Every day of the week"
 msgid "Daily"
 msgstr "每日"
 
@@ -666,6 +702,9 @@ msgid "Clear All"
 msgstr "全部設定"
 
 #: ktvariable.cpp:53
+#, fuzzy
+#| msgid "&Variable:"
+msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "&Variable:"
 msgstr "變數(&V):"
 
