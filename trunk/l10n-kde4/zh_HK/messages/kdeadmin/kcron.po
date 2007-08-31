@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-28 05:42+0200\n"
+"POT-Creation-Date: 2007-08-31 05:51+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -479,7 +479,7 @@ msgstr "啟用/停用選定的工作或變數。"
 msgid "Run the selected task now."
 msgstr "立即執行選定的工作。"
 
-#: ktlisttask.cpp:42
+#: ktlisttask.cpp:42 ktlisttask.cpp:79
 msgid "At system startup"
 msgstr ""
 
@@ -490,14 +490,14 @@ msgctxt "The cron task had been disabled"
 msgid "Disabled"
 msgstr "停用"
 
-#: ktlisttask.cpp:79
+#: ktlisttask.cpp:85
 #, fuzzy
 #| msgid "Disabled."
 msgctxt "The cron task had been disabled"
 msgid "Disabled."
 msgstr "停用。"
 
-#: ktlisttask.cpp:84
+#: ktlisttask.cpp:90
 msgid "Modify Task"
 msgstr "修改工作"
 
@@ -760,7 +760,9 @@ msgid "<i>Please enter the variable value ...</i>"
 msgstr "請輸入變數值。"
 
 #: ktview.cpp:103
-msgid "Users/Tasks/Variables"
+#, fuzzy
+#| msgid "Users/Tasks/Variables"
+msgid "Users/Tasks/Variable"
 msgstr "用戶/工作/變數"
 
 #: ktview.cpp:105
@@ -775,13 +777,13 @@ msgstr "值"
 msgid "Description"
 msgstr "描述"
 
-#: ktview.cpp:275
+#: ktview.cpp:274
 #, qt-format
 msgctxt "user on host"
 msgid "%1 <placeholder>%2</placeholder> on %3"
 msgstr ""
 
-#: ktview.cpp:283
+#: ktview.cpp:282
 msgid "Scheduled Tasks"
 msgstr "已排定的工作"
 
