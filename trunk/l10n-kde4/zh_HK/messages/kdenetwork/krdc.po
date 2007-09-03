@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-02 05:41+0200\n"
+"POT-Creation-Date: 2007-09-03 05:36+0200\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -919,11 +919,21 @@ msgstr ""
 msgid "Server not found."
 msgstr ""
 
-#: vnc/vncclientthread.cpp:128
+#: vnc/vncclientthread.cpp:129
 #, fuzzy
 #| msgid "Authentication failed. Connection aborted."
-msgid "VNC authentication faile because of too many tries."
+msgid "VNC authentication failed because of too many authentication tries."
 msgstr "認證失敗。連線中止。"
+
+#: vnc/vncclientthread.cpp:132 vnc/vncclientthread.cpp:162
+#, fuzzy
+#| msgid "Authentication Failure"
+msgid "VNC authentication failed."
+msgstr "認證失敗"
+
+#: vnc/vncclientthread.cpp:135
+msgid "VNC server closed connection."
+msgstr ""
 
 #: vnc/vncview.cpp:172
 msgid "VNC failure"
@@ -1249,9 +1259,6 @@ msgstr ""
 
 #~ msgid "Connection failed. No server running at the given address and port."
 #~ msgstr "連線失敗。指定的位址及連接埠沒有找到伺服器。"
-
-#~ msgid "Authentication Failure"
-#~ msgstr "認證失敗"
 
 #~ msgid "Unknown error."
 #~ msgstr "未知的錯誤。"
