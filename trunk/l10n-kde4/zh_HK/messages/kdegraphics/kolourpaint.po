@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-23 05:39+0200\n"
+"POT-Creation-Date: 2007-09-06 05:37+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -682,8 +682,8 @@ msgid "Click or drag to erase."
 msgstr "單擊或拖曳擦走。"
 
 #: tools/flow/kpToolFlowBase.cpp:302 tools/kpToolColorPicker.cpp:112
-#: tools/selection/kpAbstractSelectionTool.cpp:251
-#: tools/selection/kpAbstractSelectionTool.cpp:494 tools/kpToolZoom.cpp:196
+#: tools/selection/kpAbstractSelectionTool.cpp:242
+#: tools/selection/kpAbstractSelectionTool.cpp:485 tools/kpToolZoom.cpp:196
 #: tools/rectangular/kpToolRectangularBase.cpp:333
 #: tools/kpToolFloodFill.cpp:131 tools/polygonal/kpToolPolygonalBase.cpp:433
 msgid "Let go of all the mouse buttons."
@@ -768,7 +768,7 @@ msgid "Writes text"
 msgstr "寫入文字。"
 
 #: tools/selection/text/kpToolText.cpp:102
-#: mainWindow/kpMainWindow_Edit.cpp:396
+#: mainWindow/kpMainWindow_Edit.cpp:390 mainWindow/kpMainWindow_Edit.cpp:465
 msgid "Text: Create Box"
 msgstr "文字：建立盒子"
 
@@ -878,7 +878,7 @@ msgstr "選取橢圓形或圓形的區域"
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 #: imagelib/transforms/kpTransformCrop.cpp:371
-#: mainWindow/kpMainWindow_Edit.cpp:397 mainWindow/kpMainWindow_Image.cpp:289
+#: mainWindow/kpMainWindow_Edit.cpp:391 mainWindow/kpMainWindow_Image.cpp:290
 msgid "Selection: Create"
 msgstr "選取：建立"
 
@@ -2110,7 +2110,7 @@ msgstr ""
 msgid "Acquiring Screenshots"
 msgstr "正在取得螢幕截圖"
 
-#: mainWindow/kpMainWindow_Edit.cpp:77
+#: mainWindow/kpMainWindow_Edit.cpp:78
 #, fuzzy, qt-format
 #| msgid ""
 #| "The image to be pasted may have more colors than the current screen mode. "
@@ -2132,7 +2132,7 @@ msgstr ""
 "嘗試將你的螢幕色彩深度增加至至少 %1bpp 。\n"
 "它亦包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模擬。"
 
-#: mainWindow/kpMainWindow_Edit.cpp:97
+#: mainWindow/kpMainWindow_Edit.cpp:98
 #, fuzzy, qt-format
 #| msgid ""
 #| "The image to be pasted may have more colors than the current screen mode. "
@@ -2148,7 +2148,7 @@ msgstr ""
 "要貼上的圖像可能包含多於目前螢幕模式的顏色。要顯示它，某些顏色可能會改變。請"
 "嘗試將你的螢幕色彩深度增加至至少 %1bpp 。"
 
-#: mainWindow/kpMainWindow_Edit.cpp:106
+#: mainWindow/kpMainWindow_Edit.cpp:107
 #, fuzzy
 #| msgid ""
 #| "The image to be pasted contains translucency which is not fully "
@@ -2163,27 +2163,27 @@ msgstr ""
 "要貼上的圖像包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩"
 "模擬。"
 
-#: mainWindow/kpMainWindow_Edit.cpp:139
+#: mainWindow/kpMainWindow_Edit.cpp:140
 msgid "Paste in &New Window"
 msgstr "貼上至新視窗(&N)"
 
-#: mainWindow/kpMainWindow_Edit.cpp:146
+#: mainWindow/kpMainWindow_Edit.cpp:147
 msgid "&Delete Selection"
 msgstr "刪除所選(&D)"
 
-#: mainWindow/kpMainWindow_Edit.cpp:154
+#: mainWindow/kpMainWindow_Edit.cpp:155
 msgid "C&opy to File..."
 msgstr "複製至檔案(&O)..."
 
-#: mainWindow/kpMainWindow_Edit.cpp:158
+#: mainWindow/kpMainWindow_Edit.cpp:159
 msgid "Paste &From File..."
 msgstr "從檔案貼上(&F)..."
 
-#: mainWindow/kpMainWindow_Edit.cpp:463
+#: mainWindow/kpMainWindow_Edit.cpp:471
 msgid "Text: Paste"
 msgstr "文字：貼上"
 
-#: mainWindow/kpMainWindow_Edit.cpp:631
+#: mainWindow/kpMainWindow_Edit.cpp:657
 msgid ""
 "<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
 "unexpectedly disappeared.</p><p>This usually occurs if the application which "
@@ -2192,31 +2192,31 @@ msgstr ""
 "<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
 "是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
 
-#: mainWindow/kpMainWindow_Edit.cpp:637
+#: mainWindow/kpMainWindow_Edit.cpp:663
 msgid "Cannot Paste"
 msgstr "無法貼上"
 
-#: mainWindow/kpMainWindow_Edit.cpp:698
+#: mainWindow/kpMainWindow_Edit.cpp:724
 msgid "Text: Delete Box"
 msgstr "文字：刪除盒子"
 
-#: mainWindow/kpMainWindow_Edit.cpp:699
+#: mainWindow/kpMainWindow_Edit.cpp:725
 msgid "Selection: Delete"
 msgstr "選取：刪除"
 
-#: mainWindow/kpMainWindow_Edit.cpp:768
+#: mainWindow/kpMainWindow_Edit.cpp:794
 msgid "Text: Finish"
 msgstr "文字：完成"
 
-#: mainWindow/kpMainWindow_Edit.cpp:769
+#: mainWindow/kpMainWindow_Edit.cpp:795
 msgid "Selection: Deselect"
 msgstr "選取：反選取"
 
-#: mainWindow/kpMainWindow_Edit.cpp:846
+#: mainWindow/kpMainWindow_Edit.cpp:872
 msgid "Copy to File"
 msgstr "複製至檔案"
 
-#: mainWindow/kpMainWindow_Edit.cpp:892
+#: mainWindow/kpMainWindow_Edit.cpp:918
 msgid "Paste From File"
 msgstr "從檔案貼上"
 
