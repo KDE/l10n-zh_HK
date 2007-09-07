@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-06 05:37+0200\n"
+"POT-Creation-Date: 2007-09-07 05:34+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -682,8 +682,8 @@ msgid "Click or drag to erase."
 msgstr "單擊或拖曳擦走。"
 
 #: tools/flow/kpToolFlowBase.cpp:302 tools/kpToolColorPicker.cpp:112
-#: tools/selection/kpAbstractSelectionTool.cpp:242
-#: tools/selection/kpAbstractSelectionTool.cpp:485 tools/kpToolZoom.cpp:196
+#: tools/selection/kpAbstractSelectionTool.cpp:244
+#: tools/selection/kpAbstractSelectionTool.cpp:487 tools/kpToolZoom.cpp:196
 #: tools/rectangular/kpToolRectangularBase.cpp:333
 #: tools/kpToolFloodFill.cpp:131 tools/polygonal/kpToolPolygonalBase.cpp:433
 msgid "Let go of all the mouse buttons."
@@ -769,6 +769,7 @@ msgstr "寫入文字。"
 
 #: tools/selection/text/kpToolText.cpp:102
 #: mainWindow/kpMainWindow_Edit.cpp:390 mainWindow/kpMainWindow_Edit.cpp:465
+#: mainWindow/kpMainWindow_Image.cpp:295
 msgid "Text: Create Box"
 msgstr "文字：建立盒子"
 
@@ -878,7 +879,7 @@ msgstr "選取橢圓形或圓形的區域"
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 #: imagelib/transforms/kpTransformCrop.cpp:371
-#: mainWindow/kpMainWindow_Edit.cpp:391 mainWindow/kpMainWindow_Image.cpp:290
+#: mainWindow/kpMainWindow_Edit.cpp:391 mainWindow/kpMainWindow_Image.cpp:293
 msgid "Selection: Create"
 msgstr "選取：建立"
 
@@ -2255,59 +2256,59 @@ msgstr "放大縮圖模式(&M)"
 msgid "Enable Thumbnail &Rectangle"
 msgstr "啟用縮圖矩形(&R)"
 
-#: mainWindow/kpMainWindow_Image.cpp:111
+#: mainWindow/kpMainWindow_Image.cpp:113
 msgid "R&esize / Scale..."
 msgstr "更改大小 / 縮放(&E)..."
 
-#: mainWindow/kpMainWindow_Image.cpp:116
+#: mainWindow/kpMainWindow_Image.cpp:118
 msgid "Se&t as Image (Crop)"
 msgstr "設為圖像（截取）(&T)"
 
-#: mainWindow/kpMainWindow_Image.cpp:126
+#: mainWindow/kpMainWindow_Image.cpp:128
 msgid "&Flip..."
 msgstr "反轉(&F)..."
 
-#: mainWindow/kpMainWindow_Image.cpp:131
+#: mainWindow/kpMainWindow_Image.cpp:133
 msgid "&Rotate..."
 msgstr "旋轉(&R)..."
 
-#: mainWindow/kpMainWindow_Image.cpp:136
+#: mainWindow/kpMainWindow_Image.cpp:138
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate &Left"
 msgstr "旋轉圖像"
 
-#: mainWindow/kpMainWindow_Image.cpp:141
+#: mainWindow/kpMainWindow_Image.cpp:143
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate Righ&t"
 msgstr "旋轉圖像"
 
-#: mainWindow/kpMainWindow_Image.cpp:146
+#: mainWindow/kpMainWindow_Image.cpp:148
 msgid "S&kew..."
 msgstr "扭曲(&K)..."
 
-#: mainWindow/kpMainWindow_Image.cpp:151
+#: mainWindow/kpMainWindow_Image.cpp:153
 msgid "Reduce to Mo&nochrome (Dithered)"
 msgstr "減少至單色（抖震(Dithered)）(&N)"
 
-#: mainWindow/kpMainWindow_Image.cpp:155
+#: mainWindow/kpMainWindow_Image.cpp:157
 msgid "Reduce to &Grayscale"
 msgstr "減少至灰階(&G)"
 
-#: mainWindow/kpMainWindow_Image.cpp:159
+#: mainWindow/kpMainWindow_Image.cpp:161
 msgid "&Invert Colors"
 msgstr "反白顏色(&I)"
 
-#: mainWindow/kpMainWindow_Image.cpp:164
+#: mainWindow/kpMainWindow_Image.cpp:166
 msgid "C&lear"
 msgstr "清除(&L)"
 
-#: mainWindow/kpMainWindow_Image.cpp:169
+#: mainWindow/kpMainWindow_Image.cpp:171
 msgid "&More Effects..."
 msgstr "更多效果(&M)..."
 
-#: mainWindow/kpMainWindow_Image.cpp:205
+#: mainWindow/kpMainWindow_Image.cpp:207
 #, fuzzy
 msgctxt ""
 "Image/Selection Menu caption - make sure the translation has the same accel "
@@ -2315,7 +2316,7 @@ msgctxt ""
 msgid "&Image"
 msgstr "圖像(&I)"
 
-#: mainWindow/kpMainWindow_Image.cpp:209
+#: mainWindow/kpMainWindow_Image.cpp:211
 #, fuzzy
 msgctxt ""
 "Image/Selection Menu caption - make sure that translation has the same accel "
