@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-07 05:34+0200\n"
+"POT-Creation-Date: 2007-09-10 05:33+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -231,7 +231,7 @@ msgid "Invisible"
 msgstr "隱形"
 
 #: libkopete/kopeteonlinestatus.cpp:122 libkopete/kopetemetacontact.cpp:473
-#: libkopete/kopeteidentity.cpp:128
+#: libkopete/kopeteidentity.cpp:128 kopete/kopetewindow.cpp:310
 #: kopete/identity/identitystatuswidget.cpp:151
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:354 protocols/qq/qqprotocol.cpp:39
@@ -554,11 +554,11 @@ msgstr "你未獲授權執行以下指令「%1」。"
 msgid "Command Error"
 msgstr "指令錯誤"
 
-#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1029
+#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1013
 msgid "No Message"
 msgstr "沒有訊息"
 
-#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1023
+#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1007
 msgid "New Message..."
 msgstr "新訊息..."
 
@@ -962,18 +962,22 @@ msgstr "移除聯絡人"
 msgid "Remove"
 msgstr "移除(&V)"
 
-#: libkopete/kopetecontact.cpp:555
-#, qt-format
-msgctxt "@label:textbox display name"
-msgid "<b>DISPLAY NAME</b><br /><img src=\"%2\">&nbsp;CONTACT STATUS"
+#: libkopete/kopetecontact.cpp:556
+#, fuzzy, qt-format
+msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
+msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
+"<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
+"<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:562
-#, qt-format
-msgctxt "@label:textbox display name"
-msgid ""
-"<b>DISPLAY NAME</b> (CONTACT ID)<br /><img src=\"%2\">&nbsp;CONTACT STATUS"
+#: libkopete/kopetecontact.cpp:563
+#, fuzzy, qt-format
+msgctxt ""
+"@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
+msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 msgstr ""
+"<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
+"<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
 
 #: libkopete/kopetecontact.cpp:581
 #, fuzzy, qt-format
@@ -1013,10 +1017,15 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:645
-msgctxt "@label:textbox property label"
-msgid "<br /><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
+#: libkopete/kopetecontact.cpp:646
+#, fuzzy, qt-format
+#| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
+#| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+msgctxt "@label:textbox property label %2 is name, %1 is value"
+msgid "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
 msgstr ""
+"<br><b>屬性標籤:</b>&nbsp;屬性值\n"
+"<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
 #: libkopete/kopetecontact.cpp:669
 #, qt-format
@@ -1099,7 +1108,7 @@ msgstr "上線時間:"
 msgid "Last Seen"
 msgstr "上次上線"
 
-#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:1006
+#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:990
 #: protocols/meanwhile/meanwhileprotocol.cpp:62
 msgid "Status Message"
 msgstr "狀態訊息"
@@ -1199,16 +1208,6 @@ msgstr "全域離開訊息"
 #: kopete/contactlist/kopetecontactlistview.cpp:515 rc.cpp:2384
 msgid "&Add Contact"
 msgstr "加入聯絡人(&A)"
-
-#. i18n: tag string
-#. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 112
-#: kopete/kopetewindow.cpp:310 rc.cpp:3192 protocols/qq/qqprotocol.cpp:39
-#: protocols/gadu/gaduprotocol.cpp:60
-#: protocols/oscar/aim/aimstatusmanager.cpp:67
-#: protocols/oscar/icq/icqstatusmanager.cpp:74
-#: protocols/groupwise/gwprotocol.cpp:52
-msgid "O&ffline"
-msgstr "離線(&F)"
 
 #: kopete/kopetewindow.cpp:315
 msgid "&Export Contacts..."
@@ -1311,7 +1310,7 @@ msgstr "顯示或隱藏聯絡人清單"
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:677
+#: kopete/kopetewindow.cpp:661
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1319,11 +1318,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:679
+#: kopete/kopetewindow.cpp:663
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:841
+#: kopete/kopetewindow.cpp:825
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1341,12 +1340,12 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1012
+#: kopete/kopetewindow.cpp:996
 #, fuzzy
 msgid "Add "
 msgstr "加入 &ID"
 
-#: kopete/kopetewindow.cpp:1087
+#: kopete/kopetewindow.cpp:1071
 #: kopete/contactlist/kopetecontactlistview.cpp:1772
 msgid "Add Contact"
 msgstr "加入聯絡人"
@@ -2527,135 +2526,142 @@ msgstr "聊天"
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> 現在是 %2 。</qt>"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:223
-#: kopete/chatwindow/kopeteemailwindow.cpp:501
-#: kopete/chatwindow/kopeteemailwindow.cpp:519
+#: kopete/chatwindow/kopetechatwindow.cpp:225
+#, fuzzy
+#| msgid "Send"
+msgctxt "@action:button"
 msgid "Send"
 msgstr "傳送"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:234
+#: kopete/chatwindow/kopetechatwindow.cpp:236
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status"
 msgid "Ready."
 msgstr "就緒。"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:340
+#: kopete/chatwindow/kopetechatwindow.cpp:339
 #: kopete/chatwindow/kopeteemailwindow.cpp:225
 msgid "&Send Message"
 msgstr "傳送訊息(&S)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:350
+#: kopete/chatwindow/kopetechatwindow.cpp:349
 msgid "Close All Chats"
 msgstr "關閉所有聊天"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:355
+#: kopete/chatwindow/kopetechatwindow.cpp:354
 msgid "&Activate Next Tab"
 msgstr "換到下一個分頁(&A)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:361
+#: kopete/chatwindow/kopetechatwindow.cpp:360
 msgid "&Activate Previous Tab"
 msgstr "換到上一個分頁(&A)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:367
+#: kopete/chatwindow/kopetechatwindow.cpp:366
 msgid "Nic&k Completion"
 msgstr "暱稱自動完成功能(&K)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:372
+#: kopete/chatwindow/kopetechatwindow.cpp:371
 msgid "&Detach Chat"
 msgstr "分離聊天視窗(&D)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:377
+#: kopete/chatwindow/kopetechatwindow.cpp:376
 msgid "&Move Tab to Window"
 msgstr "移動分頁到視窗(&M)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:384
+#: kopete/chatwindow/kopetechatwindow.cpp:383
 msgid "&Tab Placement"
 msgstr "標籤位置(&T)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:396
+#: kopete/chatwindow/kopetechatwindow.cpp:395
 msgid "Set Default &Font..."
 msgstr "設定預設字型(&F)..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:400
+#: kopete/chatwindow/kopetechatwindow.cpp:399
 msgid "Set Default Text &Color..."
 msgstr "設定預設文字顏色(&C)..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:404
+#: kopete/chatwindow/kopetechatwindow.cpp:403
 #: kopete/chatwindow/kopeteemailwindow.cpp:246
 msgid "Set &Background Color..."
 msgstr "設定背景顏色(&B)..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:408
+#: kopete/chatwindow/kopetechatwindow.cpp:407
 msgid "Previous History"
 msgstr "上一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:413
+#: kopete/chatwindow/kopetechatwindow.cpp:412
 msgid "Next History"
 msgstr "下一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:425
+#: kopete/chatwindow/kopetechatwindow.cpp:424
 msgid "Place to Left of Chat Area"
 msgstr "放在聊天區左邊"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:429
+#: kopete/chatwindow/kopetechatwindow.cpp:428
 msgid "Place to Right of Chat Area"
 msgstr "放在聊天區右邊"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:433
+#: kopete/chatwindow/kopetechatwindow.cpp:432
 msgid "Show"
 msgstr "顯示"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:435
+#: kopete/chatwindow/kopetechatwindow.cpp:434
 msgid "Hide"
 msgstr "隱藏"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:438
+#: kopete/chatwindow/kopetechatwindow.cpp:437
 msgid "Automatic Spell Checking"
 msgstr "自動拼字檢查"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:448
+#: kopete/chatwindow/kopetechatwindow.cpp:447
 msgid "Co&ntacts"
 msgstr "聯絡人(&N)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:472
+#: kopete/chatwindow/kopetechatwindow.cpp:471
 #: kopete/chatwindow/kopeteemailwindow.cpp:274
 msgid "Toolbar Animation"
 msgstr "工具列動畫"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:626
+#, fuzzy
+#| msgid "Close the current tab"
+msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "關閉目前分頁"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1036
+#: kopete/chatwindow/kopetechatwindow.cpp:1033
 msgid "More..."
 msgstr "更多..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1052
+#: kopete/chatwindow/kopetechatwindow.cpp:1049
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1055
+#: kopete/chatwindow/kopetechatwindow.cpp:1052
 msgid "Bottom"
 msgstr ""
 
-#: kopete/chatwindow/chatmessagepart.cpp:244
+#: kopete/chatwindow/chatmessagepart.cpp:243
 #: plugins/history/historydialog.cpp:186
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
-#: kopete/chatwindow/chatmessagepart.cpp:271
+#: kopete/chatwindow/chatmessagepart.cpp:267
 msgid "Save Conversation"
 msgstr "儲存對話"
 
-#: kopete/chatwindow/chatmessagepart.cpp:313
+#: kopete/chatwindow/chatmessagepart.cpp:309
 #, qt-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟 <b>%1</b> 以寫入。</qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:314
+#: kopete/chatwindow/chatmessagepart.cpp:310
 msgid "Error While Saving"
 msgstr "儲存時發生錯誤"
 
-#: kopete/chatwindow/chatmessagepart.cpp:652
+#: kopete/chatwindow/chatmessagepart.cpp:648
 msgid "User Has Left"
 msgstr "使用者已經離開"
 
@@ -2701,8 +2707,6 @@ msgstr "正在關閉群組聊天"
 #: kopete/chatwindow/kopeteemailwindow.cpp:462
 #: kopete/chatwindow/kopeteemailwindow.cpp:469
 #: kopete/chatwindow/kopeteemailwindow.cpp:476
-#: kopete/chatwindow/chatview.cpp:347 kopete/chatwindow/chatview.cpp:354
-#: kopete/chatwindow/chatview.cpp:361
 msgid "Cl&ose Chat"
 msgstr "關閉聊天(&O)"
 
@@ -2730,6 +2734,11 @@ msgstr "你有訊息正在傳送。如你關閉聊天，它將被中止。你確
 #: kopete/chatwindow/chatview.cpp:360
 msgid "Message in Transit"
 msgstr "正傳送的訊息"
+
+#: kopete/chatwindow/kopeteemailwindow.cpp:501
+#: kopete/chatwindow/kopeteemailwindow.cpp:519
+msgid "Send"
+msgstr "傳送"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:508
 msgid "Reply"
@@ -2809,6 +2818,14 @@ msgstr "向右對齊(&J)"
 #, fuzzy
 msgid "Chat members list"
 msgstr "聊天成員清單(&C)"
+
+#: kopete/chatwindow/chatview.cpp:347 kopete/chatwindow/chatview.cpp:354
+#: kopete/chatwindow/chatview.cpp:361
+#, fuzzy
+#| msgid "Cl&ose Chat"
+msgctxt "@action:button"
+msgid "Close Chat"
+msgstr "關閉聊天(&O)"
 
 #: kopete/chatwindow/chatview.cpp:396
 #, qt-format
@@ -10033,6 +10050,16 @@ msgid "Choose this status to disconnect with description entered below."
 msgstr "以以下的說明將狀態設為中斷。"
 
 #. i18n: tag string
+#. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 112
+#: rc.cpp:3192 protocols/qq/qqprotocol.cpp:39
+#: protocols/gadu/gaduprotocol.cpp:60
+#: protocols/oscar/aim/aimstatusmanager.cpp:67
+#: protocols/oscar/icq/icqstatusmanager.cpp:74
+#: protocols/groupwise/gwprotocol.cpp:52
+msgid "O&ffline"
+msgstr "離線(&F)"
+
+#. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 132
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 151
@@ -14515,11 +14542,6 @@ msgstr ""
 msgid "Select public key for %1"
 msgstr "選取 %1 的公共密碼匙"
 
-#: plugins/cryptography/cryptographyselectuserkey.cpp:84
-#: plugins/cryptography/cryptographyguiclient.cpp:143
-msgid "Public Keys Found"
-msgstr ""
-
 #: plugins/cryptography/cryptographypreferences.cpp:48
 #: plugins/cryptography/cryptographypreferences.cpp:49
 #, fuzzy
@@ -14584,60 +14606,53 @@ msgstr "選取公共密碼匙"
 msgid "Export checked keys to address book"
 msgstr "匯出到通訊錄"
 
-#: plugins/cryptography/exportkeys.cpp:71
+#: plugins/cryptography/exportkeys.cpp:69
 #, fuzzy
 #| msgid "No Contacts with Photo Support"
 msgid "<No meta-contacts with keys to export>"
 msgstr "沒有聯絡人有照片支援"
 
-#: plugins/cryptography/cryptographyplugin.cpp:70
+#: plugins/cryptography/kabckeyselector.cpp:29
+#, fuzzy
+#| msgid "Select Public Key"
+msgid "Public Key Found"
+msgstr "選取公共密碼匙"
+
+#: plugins/cryptography/kabckeyselector.cpp:40
+msgid "Public Keys Found"
+msgstr ""
+
+#: plugins/cryptography/cryptographyplugin.cpp:69
 #, fuzzy
 #| msgid "Select Public Key"
 msgid "&Select Public Key..."
 msgstr "選取公共密碼匙"
 
-#: plugins/cryptography/cryptographyplugin.cpp:76
+#: plugins/cryptography/cryptographyplugin.cpp:75
 #, fuzzy
 #| msgid "Export to Address Book"
-msgid "&Export Public Key To Address Book..."
+msgid "&Export Public Keys To Address Book..."
 msgstr "匯出到通訊錄"
 
-#: plugins/cryptography/cryptographyplugin.cpp:153
-#: plugins/cryptography/cryptographyplugin.cpp:166
+#: plugins/cryptography/cryptographyplugin.cpp:154
+#: plugins/cryptography/cryptographyplugin.cpp:167
 msgid ""
 "Cryptography plugin refuses to show the most recent message because it "
 "contains an attempt to forge an encrypted or signed message"
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:212
+#: plugins/cryptography/cryptographyplugin.cpp:211
 msgid "You have not chosen an encryption key for one or more recipients"
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:267
-#, fuzzy
-#| msgid "Play a sound when this event occurs for this contact"
-msgid "No key has been set for this meta-contact"
-msgstr "聯絡人發生此事件時播放聲音"
-
-#: plugins/cryptography/cryptographyplugin.cpp:267
-#, fuzzy
-msgid "No Key"
-msgstr "沒有"
-
-#: plugins/cryptography/cryptographyplugin.cpp:278
-#, fuzzy
-#| msgid "Select Public Key"
-msgid "Export Public Key"
-msgstr "選取公共密碼匙"
-
-#: plugins/cryptography/cryptographyplugin.cpp:295
+#: plugins/cryptography/cryptographyplugin.cpp:272
 #, fuzzy
 #| msgid "Enter passphrase for <b>%1</b>:"
 msgid "Enter password for GPG encryption and signing key"
 msgstr "輸入 <b>%1</b> 的 passphrase:"
 
-#: plugins/cryptography/cryptographyplugin.cpp:309
-#: plugins/cryptography/cryptographyguiclient.cpp:164
+#: plugins/cryptography/cryptographyplugin.cpp:288
+#: plugins/cryptography/cryptographyguiclient.cpp:153
 msgid ""
 "This protocol may not work with messages that are encrypted. This is because "
 "encrypted messages are very long, and the server or peer may reject them due "
@@ -14645,8 +14660,8 @@ msgid ""
 "temporarily suspended, turn off encryption."
 msgstr ""
 
-#: plugins/cryptography/cryptographyplugin.cpp:309
-#: plugins/cryptography/cryptographyguiclient.cpp:164
+#: plugins/cryptography/cryptographyplugin.cpp:288
+#: plugins/cryptography/cryptographyguiclient.cpp:153
 #, fuzzy
 #| msgid "Unsupported protocol version."
 msgid "Cryptography Unsupported Protocol"
@@ -14660,29 +14675,27 @@ msgid ""
 "You have %2 tries left."
 msgstr "輸入 <b>%1</b> 的 passphrase:"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:78
+#: plugins/cryptography/cryptographyguiclient.cpp:56
+msgid "Cryptography"
+msgstr "加密學"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:80
 msgid "Encrypt Messages"
 msgstr "將訊息加密"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:80
+#: plugins/cryptography/cryptographyguiclient.cpp:82
 #, fuzzy
 #| msgid "&Send Message"
 msgid "Sign Messages"
 msgstr "傳送訊息(&S)"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:82
+#: plugins/cryptography/cryptographyguiclient.cpp:84
 #, fuzzy
 #| msgid "Export Contacts to Address Book"
-msgid "Export Contact's Key to Address Book"
+msgid "Export Contacts' Keys to Address Book"
 msgstr "匯出聯絡人到通訊錄"
 
-#: plugins/cryptography/cryptographyguiclient.cpp:132
-#, fuzzy
-#| msgid "Select Public Key"
-msgid "Public Key Found"
-msgstr "選取公共密碼匙"
-
-#: plugins/cryptography/cryptographyguiclient.cpp:174
+#: plugins/cryptography/cryptographyguiclient.cpp:164
 #, qt-format
 msgid ""
 "To send encrypted messages to %2, you still need to select a public key for "
@@ -14693,7 +14706,7 @@ msgid_plural ""
 "%2"
 msgstr[0] ""
 
-#: plugins/cryptography/cryptographyguiclient.cpp:174
+#: plugins/cryptography/cryptographyguiclient.cpp:164
 msgid "Missing public key"
 msgid_plural "Missing public keys"
 msgstr[0] ""
@@ -20542,34 +20555,19 @@ msgid ""
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
 
-#~ msgid "Cryptography"
-#~ msgstr "加密學"
+#, fuzzy
+#~| msgid "Play a sound when this event occurs for this contact"
+#~ msgid "No key has been set for this meta-contact"
+#~ msgstr "聯絡人發生此事件時播放聲音"
 
 #, fuzzy
-#~ msgctxt ""
-#~ "@label:textbox <b>DISPLAY NAME</b><br><img src=\"%2\">&nbsp;CONTACT STATUS"
-#~ msgid "<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
-#~ msgstr ""
-#~ "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
-#~ "<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
+#~ msgid "No Key"
+#~ msgstr "沒有"
 
 #, fuzzy
-#~ msgctxt ""
-#~ "@label:textbox <b>DISPLAY NAME</b> (CONTACT ID)<br><img src=\"%2\">&nbsp;"
-#~ "CONTACT STATUS"
-#~ msgid "<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
-#~ msgstr ""
-#~ "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
-#~ "<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
-
-#, fuzzy
-#~| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgctxt "@label:textbox <br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
-#~ msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
-#~ msgstr ""
-#~ "<br><b>屬性標籤:</b>&nbsp;屬性值\n"
-#~ "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
+#~| msgid "Select Public Key"
+#~ msgid "Export Public Key"
+#~ msgstr "選取公共密碼匙"
 
 #, fuzzy
 #~ msgid "The list of accounts"
