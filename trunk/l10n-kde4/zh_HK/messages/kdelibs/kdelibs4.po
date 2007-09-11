@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-10 05:30+0200\n"
+"POT-Creation-Date: 2007-09-11 05:33+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3199,13 +3199,13 @@ msgid "Invalid Calendar Type"
 msgstr "錯誤的旗號"
 
 #: kdecore/date/kdatetime.cpp:1464 kdecore/date/kdatetime.cpp:1474
-#: kdecore/date/kdatetime.cpp:2811 kdecore/localization/klocale.cpp:1719
-#: kdecore/localization/klocale.cpp:1845
+#: kdecore/date/kdatetime.cpp:2811 kdecore/localization/klocale.cpp:1708
+#: kdecore/localization/klocale.cpp:1834
 msgid "am"
 msgstr "am"
 
-#: kdecore/date/kdatetime.cpp:2819 kdecore/localization/klocale.cpp:1710
-#: kdecore/localization/klocale.cpp:1843
+#: kdecore/date/kdatetime.cpp:2819 kdecore/localization/klocale.cpp:1699
+#: kdecore/localization/klocale.cpp:1832
 msgid "pm"
 msgstr "pm"
 
@@ -3240,7 +3240,7 @@ msgstr "在路徑裏找不到“%1”需要的程式庫檔案。"
 msgid "No service matching the requirements was found"
 msgstr ""
 
-#: kdecore/util/klibloader.cpp:649 kdecore/util/kpluginloader.cpp:114
+#: kdecore/util/klibloader.cpp:649
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
 "file"
@@ -3259,6 +3259,13 @@ msgstr ""
 #, fuzzy
 msgid "KLibLoader: Unknown error"
 msgstr "不明的錯誤"
+
+#: kdecore/util/kpluginloader.cpp:114
+#, qt-format
+msgid ""
+"The service '%1' provides no library or the Library key is missing in the ."
+"desktop file"
+msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:175
 #, qt-format
@@ -4004,7 +4011,7 @@ msgid_plural ""
 "<resource>%2</resource>"
 msgstr[0] "找不到服務程式‘%1’。"
 
-#: kdecore/services/kmimetype.cpp:131
+#: kdecore/services/kmimetype.cpp:121
 msgid "No mime types installed."
 msgstr ""
 
@@ -4130,79 +4137,79 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "泰文"
 
-#: kdecore/localization/klocale.cpp:1178
+#: kdecore/localization/klocale.cpp:1167
 #, qt-format
 msgid "%1 TiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1180
+#: kdecore/localization/klocale.cpp:1169
 #, qt-format
 msgid "%1 GiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1186
+#: kdecore/localization/klocale.cpp:1175
 #, qt-format
 msgid "%1 MiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1192
+#: kdecore/localization/klocale.cpp:1181
 #, qt-format
 msgid "%1 KiB"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1197
+#: kdecore/localization/klocale.cpp:1186
 #, fuzzy, qt-format
 msgid "%1 B"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1202
+#: kdecore/localization/klocale.cpp:1191
 msgid "0 B"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1210
+#: kdecore/localization/klocale.cpp:1199
 #, qt-format
 msgid "%1 days"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1213
+#: kdecore/localization/klocale.cpp:1202
 #, qt-format
 msgid "%1 hours"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1216
+#: kdecore/localization/klocale.cpp:1205
 #, fuzzy, qt-format
 msgid "%1 minutes"
 msgstr "%1 個選項"
 
-#: kdecore/localization/klocale.cpp:1219
+#: kdecore/localization/klocale.cpp:1208
 #, fuzzy, qt-format
 msgid "%1 seconds"
 msgstr "%1 個選項"
 
-#: kdecore/localization/klocale.cpp:1222
+#: kdecore/localization/klocale.cpp:1211
 #, qt-format
 msgid "%1 milliseconds"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1312
+#: kdecore/localization/klocale.cpp:1301
 #, fuzzy
 #| msgid "Monday"
 msgid "Today"
 msgstr "星期一"
 
-#: kdecore/localization/klocale.cpp:1314
+#: kdecore/localization/klocale.cpp:1303
 #, fuzzy
 #| msgid "Tuesday"
 msgid "Yesterday"
 msgstr "星期二"
 
-#: kdecore/localization/klocale.cpp:1883
+#: kdecore/localization/klocale.cpp:1872
 #, qt-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1944
+#: kdecore/localization/klocale.cpp:1933
 #, fuzzy, qt-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -10729,11 +10736,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "中止(&A)"
 
-#: khtml/ecma/kjs_window.cpp:1565 khtml/ecma/kjs_html.cpp:2108
+#: khtml/ecma/kjs_window.cpp:1564 khtml/ecma/kjs_html.cpp:2107
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
 
-#: khtml/ecma/kjs_window.cpp:1568
+#: khtml/ecma/kjs_window.cpp:1567
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10741,7 +10748,7 @@ msgstr ""
 "此網站試圖使用 Javascript 開啟一個新的瀏覽器視窗。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1571
+#: khtml/ecma/kjs_window.cpp:1570
 #, qt-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10750,49 +10757,49 @@ msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1573 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1572 khtml/ecma/kjs_html.cpp:2114
 msgid "Allow"
 msgstr "允許"
 
-#: khtml/ecma/kjs_window.cpp:1573 khtml/ecma/kjs_html.cpp:2115
+#: khtml/ecma/kjs_window.cpp:1572 khtml/ecma/kjs_html.cpp:2114
 msgid "Do Not Allow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_window.cpp:1865
+#: khtml/ecma/kjs_window.cpp:1864
 msgid "Close window?"
 msgstr "關閉視窗？"
 
-#: khtml/ecma/kjs_window.cpp:1865
+#: khtml/ecma/kjs_window.cpp:1864
 msgid "Confirmation Required"
 msgstr "需要確認"
 
-#: khtml/ecma/kjs_window.cpp:2815
+#: khtml/ecma/kjs_window.cpp:2814
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "你要把 \"%1\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2818
+#: khtml/ecma/kjs_window.cpp:2817
 #, qt-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "你要把 \"%1\"，標題 \"%2\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2826
+#: khtml/ecma/kjs_window.cpp:2825
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "javaScript 嘗試加入書籤"
 
-#: khtml/ecma/kjs_window.cpp:2830
+#: khtml/ecma/kjs_window.cpp:2829
 msgid "Insert"
 msgstr "插入"
 
-#: khtml/ecma/kjs_window.cpp:2830
+#: khtml/ecma/kjs_window.cpp:2829
 msgid "Disallow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_html.cpp:2110
+#: khtml/ecma/kjs_html.cpp:2109
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10801,7 +10808,7 @@ msgstr ""
 "這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
 "你要允許表格被提交嗎？"
 
-#: khtml/ecma/kjs_html.cpp:2113
+#: khtml/ecma/kjs_html.cpp:2112
 #, qt-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -11422,7 +11429,7 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/ui/kratingwidget.cpp:227
+#: nepomuk/core/ui/kratingwidget.cpp:228
 #, fuzzy
 msgid "Not yet rated"
 msgstr "內容"
@@ -11696,13 +11703,13 @@ msgstr[0] ""
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1620
+#: kutils/kpluginselector.cpp:1625
 #, fuzzy, qt-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "關於 %1"
 
-#: kutils/kpluginselector.cpp:1630
+#: kutils/kpluginselector.cpp:1635
 #, fuzzy, qt-format
 #| msgid "Description:"
 msgid ""
@@ -11710,7 +11717,7 @@ msgid ""
 "\t%1"
 msgstr "描述："
 
-#: kutils/kpluginselector.cpp:1637
+#: kutils/kpluginselector.cpp:1642
 #, fuzzy, qt-format
 #| msgid "Author:"
 msgid ""
@@ -11718,16 +11725,16 @@ msgid ""
 "\t%1"
 msgstr "作者："
 
-#: kutils/kpluginselector.cpp:1644
+#: kutils/kpluginselector.cpp:1649
 #, fuzzy
 msgid "E-Mail:"
 msgstr "Email"
 
-#: kutils/kpluginselector.cpp:1665
+#: kutils/kpluginselector.cpp:1670
 msgid "Website:"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1686
+#: kutils/kpluginselector.cpp:1691
 #, fuzzy, qt-format
 #| msgid "Version:"
 msgid ""
@@ -11735,7 +11742,7 @@ msgid ""
 "\t%1"
 msgstr "版本："
 
-#: kutils/kpluginselector.cpp:1694
+#: kutils/kpluginselector.cpp:1699
 #, fuzzy, qt-format
 #| msgid "License:"
 msgid ""
@@ -12598,6 +12605,11 @@ msgstr "解密錯誤。"
 #| msgid "Latest"
 msgid "qttest"
 msgstr "最新"
+
+#: kdecore/services/kservice.h:509
+#, qt-format
+msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
