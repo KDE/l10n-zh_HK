@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-11 05:35+0200\n"
+"POT-Creation-Date: 2007-09-12 05:40+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,13 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: lgpl/generic/kpColorCollection.cpp:123
+#: lgpl/generic/kpColorCollection.cpp:124
 #, fuzzy, qt-format
 #| msgid "Could not open \"%1\"."
 msgid "Could not open color palette \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: lgpl/generic/kpColorCollection.cpp:134
+#: lgpl/generic/kpColorCollection.cpp:162
 #, fuzzy, qt-format
 #| msgid ""
 #| "Could not open \"%1\" - unsupported image format.\n"
@@ -32,13 +32,13 @@ msgstr ""
 "無法開啟「%1」 - 不支援的圖像格式。\n"
 "檔案可能已損壞。"
 
-#: lgpl/generic/kpColorCollection.cpp:184
+#: lgpl/generic/kpColorCollection.cpp:213
 #, fuzzy, qt-format
 #| msgid "Could not save as \"%1\"."
 msgid "Could not save color palette as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: lgpl/generic/kpColorCollection.cpp:194
+#: lgpl/generic/kpColorCollection.cpp:242
 #, fuzzy, qt-format
 #| msgid ""
 #| "A document called \"%1\" already exists.\n"
@@ -50,7 +50,7 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: lgpl/generic/kpColorCollection.cpp:198 document/kpDocument_Save.cpp:304
+#: lgpl/generic/kpColorCollection.cpp:246 document/kpDocument_Save.cpp:304
 msgid "Overwrite"
 msgstr "覆寫"
 
@@ -1279,7 +1279,7 @@ msgstr "紅色(&R)"
 msgid "Undo: %1"
 msgstr "復原(&U): %1"
 
-#: commands/kpCommandHistoryBase.cpp:472 commands/kpCommandHistoryBase.cpp:666
+#: commands/kpCommandHistoryBase.cpp:472 commands/kpCommandHistoryBase.cpp:661
 #, fuzzy
 msgid "Undo"
 msgstr "復原(&U): %1"
@@ -1289,7 +1289,7 @@ msgstr "復原(&U): %1"
 msgid "Redo: %1"
 msgstr "取消復原(&R): %1"
 
-#: commands/kpCommandHistoryBase.cpp:483 commands/kpCommandHistoryBase.cpp:687
+#: commands/kpCommandHistoryBase.cpp:483 commands/kpCommandHistoryBase.cpp:682
 #, fuzzy
 msgid "Redo"
 msgstr "紅色"
@@ -1299,7 +1299,7 @@ msgstr "紅色"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: commands/kpCommandHistoryBase.cpp:636
+#: commands/kpCommandHistoryBase.cpp:634
 #, qt-format
 msgid "%1 more item"
 msgid_plural "%1 more items"

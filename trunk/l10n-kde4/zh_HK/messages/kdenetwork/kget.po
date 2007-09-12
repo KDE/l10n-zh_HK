@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-10 05:33+0200\n"
+"POT-Creation-Date: 2007-09-12 05:41+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -259,12 +259,12 @@ msgstr "開啟傳輸："
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:375 conf/transfersgroupwidget.cpp:71
+#: mainwindow.cpp:375
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:376 conf/transfersgroupwidget.cpp:72
+#: mainwindow.cpp:376
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
@@ -387,22 +387,23 @@ msgstr "預設的資料夾"
 
 #. i18n: tag string
 #. i18n: file conf/dlgdirectories.ui line 122
-#: rc.cpp:51 conf/transfersgroupwidget.cpp:130
+#: rc.cpp:51 conf/transfersgroupwidget.cpp:118
 msgid "Add"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file conf/dlgdirectories.ui line 132
-#: rc.cpp:54
+#: rc.cpp:54 conf/transfersgroupwidget.cpp:123
 msgid "Edit"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file conf/dlgdirectories.ui line 139
-#: rc.cpp:57
+#: rc.cpp:57 conf/transfersgroupwidget.cpp:120
 #, fuzzy
-msgid "Remove"
-msgstr "續傳(&R)"
+#| msgid "Not Deleted"
+msgid "Delete"
+msgstr "沒有刪除"
 
 #. i18n: tag string
 #. i18n: file conf/dlgdirectories.ui line 149
@@ -677,39 +678,22 @@ msgstr ""
 msgid "Transfer Plugin Options"
 msgstr ""
 
-#: conf/transfersgroupwidget.cpp:81
-msgid ""
-"A group with that name already exists!\n"
-"Please change the group name."
-msgstr ""
-
-#: conf/transfersgroupwidget.cpp:111 core/kget.cpp:492
+#: conf/transfersgroupwidget.cpp:99 core/kget.cpp:492
 #: core/transfergrouphandler.cpp:186
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
-#: conf/transfersgroupwidget.cpp:113
+#: conf/transfersgroupwidget.cpp:101
 msgid "You can not delete this group!"
 msgstr ""
 
-#: conf/transfersgroupwidget.cpp:118
+#: conf/transfersgroupwidget.cpp:106
 #, fuzzy, qt-format
 msgid ""
 "Are you sure that you want to remove\n"
 "the group named %1?"
 msgstr "你確定要刪除這些傳輸嗎？"
-
-#: conf/transfersgroupwidget.cpp:132
-#, fuzzy
-#| msgid "Not Deleted"
-msgid "Delete"
-msgstr "沒有刪除"
-
-#: conf/transfersgroupwidget.cpp:135
-#, fuzzy
-msgid "Rename"
-msgstr "預設的資料夾"
 
 #: core/kget.cpp:399
 #, fuzzy, qt-format
@@ -946,6 +930,14 @@ msgstr "下載已續傳"
 #, fuzzy
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "續傳(&R)"
+
+#, fuzzy
+#~ msgid "Rename"
+#~ msgstr "預設的資料夾"
 
 #, fuzzy
 #~ msgid "Hide drop target"
