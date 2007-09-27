@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noatun\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-20 05:31+0200\n"
+"POT-Creation-Date: 2007-09-27 05:42+0200\n"
 "PO-Revision-Date: 2006-01-20 00:10+0800\n"
 "Last-Translator: zombit <zombit@kimo.com>\n"
 "Language-Team: zh-l10n <zh-l10n@linux.org.tw>\n"
@@ -177,8 +177,9 @@ msgstr "循環(&L)"
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 168
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 71
-#: library/stdaction.cpp:127 modules/kaiman/userinterface.cpp:537 rc.cpp:127
-#: rc.cpp:234
+#: library/stdaction.cpp:127 modules/kaiman/userinterface.cpp:537 rc.cpp:166
+#: rc.cpp:308
+#, no-c-format
 msgid "&None"
 msgstr "沒有(&N)"
 
@@ -190,8 +191,9 @@ msgstr "歌曲(&S)"
 #. i18n: file ./modules/simpleplaylist/noatun_simpleplaylist.rc line 5
 #. i18n: tag text
 #. i18n: file ./modules/splitplaylist/splui.rc line 4
-#: library/stdaction.cpp:141 modules/kaiman/userinterface.cpp:541 rc.cpp:73
-#: rc.cpp:82
+#: library/stdaction.cpp:141 modules/kaiman/userinterface.cpp:541 rc.cpp:94
+#: rc.cpp:106
+#, no-c-format
 msgid "&Playlist"
 msgstr "播放清單(&P)"
 
@@ -201,7 +203,8 @@ msgstr "隨機(&R)"
 
 #. i18n: tag string
 #. i18n: file ./app/pluginmodulewidget.ui line 92
-#: library/stdaction.cpp:207 rc.cpp:14
+#: library/stdaction.cpp:207 rc.cpp:18
+#, no-c-format
 msgid "&Visualizations"
 msgstr "視覺效果(&V)"
 
@@ -751,7 +754,8 @@ msgstr "當前播放時間"
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 133
 #: modules/kjofol-skin/kjtextdisplay.cpp:545
-#: modules/kjofol-skin/kjsliders.cpp:245 rc.cpp:243
+#: modules/kjofol-skin/kjsliders.cpp:245 rc.cpp:320
+#, no-c-format
 msgid "Pitch"
 msgstr "音階"
 
@@ -1036,7 +1040,8 @@ msgstr "移除佈景(&R)"
 #. i18n: file ./library/noatun.rc line 10
 #. i18n: tag text
 #. i18n: file ./modules/excellent/noatun_excellent.rc line 4
-#: modules/winskin/winSkinConfig.cpp:58 rc.cpp:61 rc.cpp:76
+#: modules/winskin/winSkinConfig.cpp:58 rc.cpp:78 rc.cpp:98
+#, no-c-format
 msgid "Settings"
 msgstr "設置"
 
@@ -1046,7 +1051,8 @@ msgstr "標題捲動速度(&I):"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 356
-#: modules/winskin/winSkinConfig.cpp:74 rc.cpp:270
+#: modules/winskin/winSkinConfig.cpp:74 rc.cpp:356
+#, no-c-format
 msgid "Fast"
 msgstr "快"
 
@@ -1085,47 +1091,51 @@ msgstr "zombit@kimo.com,wwycheuk@netvigator.com"
 #. i18n: file ./app/pluginmodulewidget.ui line 26
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 42
-#: rc.cpp:5 rc.cpp:91
+#: rc.cpp:6 rc.cpp:118
+#, no-c-format
 msgid "&General"
 msgstr "一般(&G)"
 
 #. i18n: tag string
 #. i18n: file ./app/pluginmodulewidget.ui line 38
-#: rc.cpp:8
-#, fuzzy
+#: rc.cpp:10
+#, fuzzy, no-c-format
 msgid "&Userinterface:"
 msgstr "介面(&I)"
 
 #. i18n: tag string
 #. i18n: file ./app/pluginmodulewidget.ui line 71
-#: rc.cpp:11
-#, fuzzy
+#: rc.cpp:14
+#, fuzzy, no-c-format
 msgid "&Playlist:"
 msgstr "播放清單(&P)"
 
 #. i18n: tag string
 #. i18n: file ./app/pluginmodulewidget.ui line 112
-#: rc.cpp:17
-#, fuzzy
+#: rc.cpp:22
+#, fuzzy, no-c-format
 msgid "O&thers"
 msgstr "其他插件(&T)"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 22
-#: rc.cpp:20
+#: rc.cpp:26
+#, no-c-format
 msgid ""
 "Opening a file with the global Open menu item will clear the playlist first."
 msgstr "使用全域開啟選單開啟檔案的時候，先清除播放清單。"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 25
-#: rc.cpp:23
+#: rc.cpp:30
+#, no-c-format
 msgid "Clear playlist &when opening a file"
 msgstr "開啟檔案時清除播放列表(&W)"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 32
-#: rc.cpp:26
+#: rc.cpp:34
+#, no-c-format
 msgid ""
 "Starting noatun a second time will cause it to just append items from the "
 "start to the current instance."
@@ -1133,20 +1143,22 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 35
-#: rc.cpp:29
+#: rc.cpp:38
+#, no-c-format
 msgid "Allow only one &instance of Noatun"
 msgstr "只允許同一時間運行一個 Noatun (&I)"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 58
-#: rc.cpp:32
-#, fuzzy
+#: rc.cpp:42
+#, fuzzy, no-c-format
 msgid "&Use hardware mixer"
 msgstr "使用快速硬體音量控制(&U)"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 76
-#: rc.cpp:35
+#: rc.cpp:46
+#, no-c-format
 msgid ""
 "<qt>Select a title to use for each file (in the playlist and user "
 "interface).\n"
@@ -1164,27 +1176,29 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 83
-#: rc.cpp:46
-#, fuzzy
+#: rc.cpp:58
+#, fuzzy, no-c-format
 msgid "&Title format:"
 msgstr "標題格式(&F):"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 112
-#: rc.cpp:49
+#: rc.cpp:62
+#, no-c-format
 msgid "Device:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 125
-#: rc.cpp:52
-#, fuzzy
+#: rc.cpp:66
+#, fuzzy, no-c-format
 msgid "Dow&nload folder:"
 msgstr "下載資料夾(&D):"
 
 #. i18n: tag string
 #. i18n: file ./app/generalprefswidget.ui line 138
-#: rc.cpp:55
+#: rc.cpp:70
+#, no-c-format
 msgid "When opening a non-local file, download it to the selected folder."
 msgstr "當開啟非本機的檔案時，將它下載到所選擇的資料夾。"
 
@@ -1194,167 +1208,190 @@ msgstr "當開啟非本機的檔案時，將它下載到所選擇的資料夾。
 #. i18n: file ./library/noatun.rc line 45
 #. i18n: tag text
 #. i18n: file ./modules/kaiman/kaimanui.rc line 16
-#: rc.cpp:58 rc.cpp:70 rc.cpp:163
+#: rc.cpp:74 rc.cpp:90 rc.cpp:214
+#, no-c-format
 msgid "&Go"
 msgstr "到(&G)"
 
 #. i18n: tag text
 #. i18n: file ./library/noatun.rc line 17
-#: rc.cpp:64
+#: rc.cpp:82
+#, no-c-format
 msgid "Player Toolbar"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./library/noatun.rc line 31
-#: rc.cpp:67
+#: rc.cpp:86
+#, no-c-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./modules/metatag/noatun_metatag.rc line 4
-#: rc.cpp:79
+#: rc.cpp:102
+#, no-c-format
 msgid "Edit"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 16
-#: rc.cpp:85
+#: rc.cpp:110
+#, no-c-format
 msgid "YHConfigWidget"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 30
-#: rc.cpp:88
-#, fuzzy
+#: rc.cpp:114
+#, fuzzy, no-c-format
 msgid "Show system tray icon"
 msgstr "系統匣圖示"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 53
-#: rc.cpp:94
+#: rc.cpp:122
+#, no-c-format
 msgid "Show a &tooltip for the current track"
 msgstr "顯示目前歌曲的工具提示(&T)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 61
-#: rc.cpp:97
+#: rc.cpp:126
+#, no-c-format
 msgid "Show &covers in popup window and tooltip"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 69
-#: rc.cpp:100
+#: rc.cpp:130
+#, no-c-format
 msgid "Popup Window"
 msgstr "彈出視窗"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 80
-#: rc.cpp:103
+#: rc.cpp:134
+#, no-c-format
 msgid "Display popup window t&ime:"
 msgstr "顯示彈出視窗時間(&I):"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 91
-#: rc.cpp:106
+#: rc.cpp:138
+#, no-c-format
 msgid "Show &buttons in popup window"
 msgstr "在彈出視窗中顯示按鈕(&B)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 99
-#: rc.cpp:109
+#: rc.cpp:142
+#, no-c-format
 msgid "s"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 117
-#: rc.cpp:112
+#: rc.cpp:146
+#, no-c-format
 msgid "Announce tracks with a &popup window"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 127
-#: rc.cpp:115
+#: rc.cpp:150
+#, no-c-format
 msgid "State Icon Display"
 msgstr "狀態圖示顯示"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 141
-#: rc.cpp:118
+#: rc.cpp:154
+#, no-c-format
 msgid "&Animated"
 msgstr "動畫式(&A)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 149
-#: rc.cpp:121
+#: rc.cpp:158
+#, no-c-format
 msgid "&Flashing"
 msgstr "閃動(&F)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 157
-#: rc.cpp:124
+#: rc.cpp:162
+#, no-c-format
 msgid "&Static"
 msgstr "靜態(&S)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 197
-#: rc.cpp:130
+#: rc.cpp:170
+#, no-c-format
 msgid "Ad&vanced"
 msgstr "進階(&V)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 208
-#: rc.cpp:133
+#: rc.cpp:174
+#, no-c-format
 msgid "Middle Mouse Button Action"
 msgstr "滑鼠中鍵行動"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 219
-#: rc.cpp:136
-#, fuzzy
+#: rc.cpp:178
+#, fuzzy, no-c-format
 msgid "Hide / Show Play&list"
 msgstr "隱藏 / 顯示播放清單(&L)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 227
-#: rc.cpp:139
+#: rc.cpp:182
+#, no-c-format
 msgid "&Play / Pause"
 msgstr "播放 / 暫停(&P)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 237
-#: rc.cpp:142
+#: rc.cpp:186
+#, no-c-format
 msgid "Mouse &Wheel"
 msgstr "滑鼠滾輪(&W)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 256
-#: rc.cpp:145
+#: rc.cpp:190
+#, no-c-format
 msgid "&Keyboard Modifier:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 274
-#: rc.cpp:148
+#: rc.cpp:194
+#, no-c-format
 msgid "Action:"
 msgstr "行動:"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 282
-#: rc.cpp:151
+#: rc.cpp:198
+#, no-c-format
 msgid "&Nothing"
 msgstr "無事(&N)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 290
-#: rc.cpp:154
-#, fuzzy
+#: rc.cpp:202
+#, fuzzy, no-c-format
 msgid "Change V&olume"
 msgstr "改變音量(&O)"
 
 #. i18n: tag string
 #. i18n: file ./modules/systray/systray_prefswidget.ui line 298
-#: rc.cpp:157
-#, fuzzy
+#: rc.cpp:206
+#, fuzzy, no-c-format
 msgid "Switch &Track"
 msgstr "切換歌曲(&T)"
 
@@ -1362,8 +1399,8 @@ msgstr "切換歌曲(&T)"
 #. i18n: file ./modules/kaiman/kaimanui.rc line 11
 #. i18n: tag text
 #. i18n: file ./modules/simple/simpleui.rc line 7
-#: rc.cpp:160 rc.cpp:203
-#, fuzzy
+#: rc.cpp:210 rc.cpp:267
+#, fuzzy, no-c-format
 msgid "&File"
 msgstr "標題(&T)"
 
@@ -1371,93 +1408,106 @@ msgstr "標題(&T)"
 #. i18n: file ./modules/kaiman/kaimanui.rc line 22
 #. i18n: tag text
 #. i18n: file ./modules/simple/simpleui.rc line 23
-#: rc.cpp:166 rc.cpp:206
-#, fuzzy
+#: rc.cpp:218 rc.cpp:271
+#, fuzzy, no-c-format
 msgid "&Settings"
 msgstr "設置"
 
 #. i18n: tag text
 #. i18n: file ./modules/kaiman/kaimanui.rc line 32
-#: rc.cpp:169
+#: rc.cpp:222
+#, no-c-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 17
-#: rc.cpp:172
-#, fuzzy
+#: rc.cpp:226
+#, fuzzy, no-c-format
 msgid "Properties"
 msgstr "屬性(&P)"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 38
-#: rc.cpp:175
+#: rc.cpp:230
+#, no-c-format
 msgid "&Details"
 msgstr "詳細資料(&D)"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 138
-#: rc.cpp:179
+#: rc.cpp:235
+#, no-c-format
 msgid "Type:"
 msgstr "類型:"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 163
-#: rc.cpp:182
+#: rc.cpp:239
+#, no-c-format
 msgid "Length:"
 msgstr "長度:"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 184
-#: rc.cpp:185
+#: rc.cpp:243
+#, no-c-format
 msgid "Audio:"
 msgstr "音訊:"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 205
-#: rc.cpp:188
+#: rc.cpp:247
+#, no-c-format
 msgid "Video:"
 msgstr "視訊:"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 228
-#: rc.cpp:191
+#: rc.cpp:251
+#, no-c-format
 msgid "&PlayObject"
 msgstr "播放物件(&P)"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 257
-#: rc.cpp:194
+#: rc.cpp:255
+#, no-c-format
 msgid "Description:"
 msgstr "說明:"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 268
-#: rc.cpp:197
+#: rc.cpp:259
+#, no-c-format
 msgid "Capabilities"
 msgstr "能力"
 
 #. i18n: tag string
 #. i18n: file ./modules/simple/propertiesdialog.ui line 320
-#: rc.cpp:200
+#: rc.cpp:263
+#, no-c-format
 msgid "&OK"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjskinselectorwidget.ui line 51
-#: rc.cpp:209
+#: rc.cpp:275
+#, no-c-format
 msgid "Preview"
 msgstr "預覽"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjskinselectorwidget.ui line 153
-#: rc.cpp:212
+#: rc.cpp:279
+#, no-c-format
 msgid "About skin:"
 msgstr "有關佈景:"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjskinselectorwidget.ui line 170
-#: rc.cpp:215
+#: rc.cpp:283
+#, no-c-format
 msgid ""
 "Here you will see all the comments people wrote about their skins.\n"
 "It can be several lines and usually does not contain anything interesting "
@@ -1466,49 +1516,57 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjskinselectorwidget.ui line 205
-#: rc.cpp:219
+#: rc.cpp:288
+#, no-c-format
 msgid "Install Skin"
 msgstr "安裝佈景"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjskinselectorwidget.ui line 213
-#: rc.cpp:222
+#: rc.cpp:292
+#, no-c-format
 msgid "Remove Skin"
 msgstr "移除佈景"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 38
-#: rc.cpp:225
+#: rc.cpp:296
+#, no-c-format
 msgid "Visualization"
 msgstr "視覺效果"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 55
-#: rc.cpp:228
+#: rc.cpp:300
+#, no-c-format
 msgid "Oscillo&scope"
 msgstr "顯波器(&S)"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 63
-#: rc.cpp:231
+#: rc.cpp:304
+#, no-c-format
 msgid "&Analyzer"
 msgstr "分析器(&A)"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 101
-#: rc.cpp:237
+#: rc.cpp:312
+#, no-c-format
 msgid "U&pdate every:"
 msgstr "每隔此時間更新(&P):"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 121
-#: rc.cpp:240
+#: rc.cpp:316
+#, no-c-format
 msgid "ms"
 msgstr "毫秒"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 172
-#: rc.cpp:246
+#: rc.cpp:324
+#, no-c-format
 msgid "&Lower limit:"
 msgstr "下限(&L):"
 
@@ -1516,61 +1574,71 @@ msgstr "下限(&L):"
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 192
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 244
-#: rc.cpp:249 rc.cpp:255
+#: rc.cpp:328 rc.cpp:336
+#, no-c-format
 msgid "%"
 msgstr "%"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 224
-#: rc.cpp:252
+#: rc.cpp:332
+#, no-c-format
 msgid "&Upper limit:"
 msgstr "上限(&U):"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 258
-#: rc.cpp:258
+#: rc.cpp:340
+#, no-c-format
 msgid "Display &tooltips"
 msgstr "顯示工具提示(&T)"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 266
-#: rc.cpp:261
+#: rc.cpp:344
+#, no-c-format
 msgid "Display splash sc&reen"
 msgstr "顯示歡迎畫面(&R)"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 305
-#: rc.cpp:264
+#: rc.cpp:348
+#, no-c-format
 msgid "T&itle display scrolling speed:"
 msgstr "標題顯示捲動速度(&I):"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 316
-#: rc.cpp:267
+#: rc.cpp:352
+#, no-c-format
 msgid "Slow"
 msgstr "慢"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 366
-#: rc.cpp:273
+#: rc.cpp:360
+#, no-c-format
 msgid "System Font"
 msgstr "系統字型"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 389
-#: rc.cpp:276
+#: rc.cpp:364
+#, no-c-format
 msgid "Color:"
 msgstr "顏色:"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 397
-#: rc.cpp:279
+#: rc.cpp:368
+#, no-c-format
 msgid "Font:"
 msgstr "字型:"
 
 #. i18n: tag string
 #. i18n: file ./modules/kjofol-skin/kjguisettingswidget.ui line 416
-#: rc.cpp:282
+#: rc.cpp:372
+#, no-c-format
 msgid "Use system font"
 msgstr "使用系統字型"
 

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-26 05:47+0200\n"
+"POT-Creation-Date: 2007-09-27 05:41+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1383,8 +1383,8 @@ msgstr ""
 #. i18n: file kolourpaintui.rc line 38
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 38
-#: rc.cpp:3 rc.cpp:32
-#, fuzzy
+#: rc.cpp:4 rc.cpp:42
+#, fuzzy, no-c-format
 msgid "&View"
 msgstr "預覽(&P)"
 
@@ -1396,7 +1396,8 @@ msgstr "預覽(&P)"
 #. i18n: file ./kolourpaintui.rc line 73
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 210
-#: rc.cpp:6 rc.cpp:27 rc.cpp:35 rc.cpp:56
+#: rc.cpp:8 rc.cpp:36 rc.cpp:46 rc.cpp:74
+#, no-c-format
 msgid "&Image"
 msgstr "圖像(&I)"
 
@@ -1404,8 +1405,8 @@ msgstr "圖像(&I)"
 #. i18n: file kolourpaintui.rc line 99
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 99
-#: rc.cpp:9 rc.cpp:38
-#, fuzzy
+#: rc.cpp:12 rc.cpp:50
+#, fuzzy, no-c-format
 #| msgid "Colors"
 msgid "&Colors"
 msgstr "色彩"
@@ -1414,7 +1415,8 @@ msgstr "色彩"
 #. i18n: file kolourpaintui.rc line 122
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 122
-#: rc.cpp:12 rc.cpp:41
+#: rc.cpp:16 rc.cpp:54
+#, no-c-format
 msgid "DO NOT TRANSLATE, JUST LEAVE AS IS: toolToolBarHiddenMenu"
 msgstr ""
 
@@ -1422,8 +1424,8 @@ msgstr ""
 #. i18n: file kolourpaintui.rc line 150
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 150
-#: rc.cpp:15 rc.cpp:44
-#, fuzzy
+#: rc.cpp:20 rc.cpp:58
+#, fuzzy, no-c-format
 msgid "Main Toolbar"
 msgstr "文字工具列"
 
@@ -1431,7 +1433,8 @@ msgstr "文字工具列"
 #. i18n: file kolourpaintui.rc line 165
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 165
-#: rc.cpp:18 rc.cpp:47
+#: rc.cpp:24 rc.cpp:62
+#, no-c-format
 msgid "Text Toolbar"
 msgstr "文字工具列"
 
@@ -1439,7 +1442,8 @@ msgstr "文字工具列"
 #. i18n: file kolourpaintui.rc line 175
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 175
-#: rc.cpp:21 rc.cpp:50
+#: rc.cpp:28 rc.cpp:66
+#, no-c-format
 msgid "Selection Tool RMB Menu"
 msgstr "選取工具 RMB 選單"
 
@@ -1447,16 +1451,17 @@ msgstr "選取工具 RMB 選單"
 #. i18n: file kolourpaintui.rc line 177
 #. i18n: tag text
 #. i18n: file ./kolourpaintui.rc line 177
-#: rc.cpp:24 rc.cpp:53
+#: rc.cpp:32 rc.cpp:70
+#, no-c-format
 msgid "&Edit"
 msgstr ""
 
-#: rc.cpp:28
+#: rc.cpp:37
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Walter Cheuk"
 
-#: rc.cpp:29
+#: rc.cpp:38
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wwycheuk@netvigator.com"
@@ -1946,10 +1951,6 @@ msgstr "中間劃線"
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
 
-#: mainWindow/kpMainWindow_Settings.cpp:71
-msgid "Hide &Path"
-msgstr "隱藏路徑(&P)"
-
 #: mainWindow/kpMainWindow_Settings.cpp:190
 msgid "You have to restart KolourPaint for these changes to take effect."
 msgstr "要令這些更改生效，你需要重新啟動 KolourPaint 。"
@@ -2133,10 +2134,6 @@ msgstr ""
 msgid "Show &Grid"
 msgstr "顯示格線(&G)"
 
-#: mainWindow/kpMainWindow_View.cpp:78
-msgid "Hide &Grid"
-msgstr "隱藏格線(&G)"
-
 #: mainWindow/kpMainWindow.cpp:267
 msgid "Color Box"
 msgstr "顏色盒"
@@ -2310,10 +2307,6 @@ msgstr "將縮放等級設至 %1%"
 #: mainWindow/kpMainWindow_View_Thumbnail.cpp:69
 msgid "Show T&humbnail"
 msgstr "顯示縮圖(&H)"
-
-#: mainWindow/kpMainWindow_View_Thumbnail.cpp:76
-msgid "Hide T&humbnail"
-msgstr "隱藏縮圖(&H)"
 
 #: mainWindow/kpMainWindow_View_Thumbnail.cpp:82
 msgid "Zoo&med Thumbnail Mode"
@@ -2537,6 +2530,15 @@ msgstr ""
 #, qt-format
 msgid "Could not open \"%1\" - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
+
+#~ msgid "Hide &Path"
+#~ msgstr "隱藏路徑(&P)"
+
+#~ msgid "Hide &Grid"
+#~ msgstr "隱藏格線(&G)"
+
+#~ msgid "Hide T&humbnail"
+#~ msgstr "隱藏縮圖(&H)"
 
 #, fuzzy
 #~| msgid "Reduce Colors"
