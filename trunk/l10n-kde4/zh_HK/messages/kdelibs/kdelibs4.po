@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-27 05:39+0200\n"
+"POT-Creation-Date: 2007-09-28 05:48+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -124,7 +124,7 @@ msgstr "移動(&M)"
 #. i18n: file ./kdeui/ui_standards.rc line 100
 #. i18n: tag text
 #. i18n: file ./khtml/khtml_browser.rc line 20
-#: rc.cpp:38 rc.cpp:487 kfile/kdiroperator.cpp:1580
+#: rc.cpp:38 rc.cpp:487 kfile/kdiroperator.cpp:1576
 #, no-c-format
 msgid "&View"
 msgstr "檢視(&V)"
@@ -4891,7 +4891,7 @@ msgstr "翻譯"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:390
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:70 kfile/k3filedetailview.cpp:65
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:70
 msgid "Name"
 msgstr "名稱"
 
@@ -5751,7 +5751,7 @@ msgstr "移除"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1574
+#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1570
 msgid "Properties"
 msgstr "內容"
 
@@ -9244,28 +9244,6 @@ msgstr "自動拼字檢查"
 msgid "Allow Tabulations"
 msgstr "允許跳格"
 
-#: kfile/k3fileiconview.cpp:70
-#, fuzzy
-#| msgid "Icons"
-msgid "Small Icons"
-msgstr "圖示"
-
-#: kfile/k3fileiconview.cpp:74
-#, fuzzy
-#| msgid "Icons"
-msgid "Large Icons"
-msgstr "圖示"
-
-#: kfile/k3fileiconview.cpp:83
-msgid "Thumbnail Previews"
-msgstr ""
-
-#: kfile/k3fileiconview.cpp:119
-#, fuzzy
-#| msgid "Icon Size"
-msgid "Icon View"
-msgstr "圖示大小"
-
 #: kfile/kfileview.cpp:80
 #, fuzzy
 #| msgid "Unknown Field"
@@ -9296,40 +9274,6 @@ msgstr "顯示所有選項"
 msgid "&Remove '%1'"
 msgstr "移除(&R)"
 
-#: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:1555
-#, fuzzy
-#| msgid "Details"
-msgid "Detailed View"
-msgstr "詳細資料"
-
-#: kfile/k3filedetailview.cpp:66
-msgid "Size"
-msgstr "大小"
-
-#: kfile/k3filedetailview.cpp:67
-#, fuzzy
-#| msgid "Dates"
-msgid "Date"
-msgstr "日期"
-
-#: kfile/k3filedetailview.cpp:68
-#, fuzzy
-#| msgid "Permission denied."
-msgid "Permissions"
-msgstr "權限拒絕。"
-
-#: kfile/k3filedetailview.cpp:69
-#, fuzzy
-#| msgid "Other"
-msgid "Owner"
-msgstr "其他"
-
-#: kfile/k3filedetailview.cpp:70
-#, fuzzy
-#| msgid "Props"
-msgid "Group"
-msgstr "Props"
-
 #: kfile/kfilefiltercombo.cpp:33 kfile/kfilewidget.cpp:1417
 #, fuzzy
 #| msgid "Files"
@@ -9341,18 +9285,6 @@ msgstr "檔案"
 #| msgid "&Send Files"
 msgid "All Supported Files"
 msgstr "傳送檔案(&S)"
-
-#: kfile/kfilepreview.cpp:66
-#, fuzzy
-#| msgid "Preview URL:"
-msgid "Preview"
-msgstr "預覽 URL："
-
-#: kfile/kfilepreview.cpp:73
-#, fuzzy
-#| msgid "Preview not available."
-msgid "No preview available."
-msgstr "無法提供預覽功能。"
 
 #: kfile/kfilewidget.cpp:182
 msgid ""
@@ -9647,7 +9579,7 @@ msgid "Select Folder"
 msgstr "選取顏色"
 
 #: kfile/kdirselectdialog.cpp:104 kfile/kdirselectdialog.cpp:143
-#: kfile/kdiroperator.cpp:1503
+#: kfile/kdiroperator.cpp:1499
 msgid "New Folder..."
 msgstr ""
 
@@ -9663,23 +9595,23 @@ msgid "Show Hidden Folders"
 msgstr "顯示說明"
 
 #: kfile/kdirselectdialog.cpp:429 kfile/kdirselectdialog.cpp:433
-#: kfile/kdiroperator.cpp:647 kfile/kdiroperator.cpp:655
+#: kfile/kdiroperator.cpp:643 kfile/kdiroperator.cpp:651
 msgid "New Folder"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:434 kfile/kdiroperator.cpp:656
+#: kfile/kdirselectdialog.cpp:434 kfile/kdiroperator.cpp:652
 #, qt-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:457 kfile/kdiroperator.cpp:682
+#: kfile/kdirselectdialog.cpp:457 kfile/kdiroperator.cpp:678
 #, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:461 kfile/kdiroperator.cpp:685
+#: kfile/kdirselectdialog.cpp:461 kfile/kdiroperator.cpp:681
 msgid "You do not have permission to create that folder."
 msgstr ""
 
@@ -9734,16 +9666,16 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:700
+#: kfile/kdiroperator.cpp:696
 msgid "You did not select a file to delete."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:701
+#: kfile/kdiroperator.cpp:697
 #, fuzzy
 msgid "Nothing to Delete"
 msgstr "沒有選擇供應者。"
 
-#: kfile/kdiroperator.cpp:722
+#: kfile/kdiroperator.cpp:718
 #, fuzzy, qt-format
 #| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgid ""
@@ -9751,34 +9683,34 @@ msgid ""
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
-#: kfile/kdiroperator.cpp:724
+#: kfile/kdiroperator.cpp:720
 #, fuzzy
 #| msgid "Delete All"
 msgid "Delete File"
 msgstr "全部刪除"
 
-#: kfile/kdiroperator.cpp:729
+#: kfile/kdiroperator.cpp:725
 #, fuzzy, qt-format
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "你真的要執行‘%1’？"
 
-#: kfile/kdiroperator.cpp:731
+#: kfile/kdiroperator.cpp:727
 #, fuzzy
 #| msgid "Delete item(s)"
 msgid "Delete Files"
 msgstr "刪除項目"
 
-#: kfile/kdiroperator.cpp:761
+#: kfile/kdiroperator.cpp:757
 msgid "You did not select a file to trash."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:762
+#: kfile/kdiroperator.cpp:758
 msgid "Nothing to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:779
+#: kfile/kdiroperator.cpp:775
 #, fuzzy, qt-format
 #| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgid ""
@@ -9786,110 +9718,116 @@ msgid ""
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
-#: kfile/kdiroperator.cpp:781
+#: kfile/kdiroperator.cpp:777
 #, fuzzy
 #| msgid "Trash"
 msgid "Trash File"
 msgstr "垃圾桶"
 
-#: kfile/kdiroperator.cpp:782 kfile/kdiroperator.cpp:789
+#: kfile/kdiroperator.cpp:778 kfile/kdiroperator.cpp:785
 #, fuzzy
 #| msgid "Trash"
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "垃圾桶"
 
-#: kfile/kdiroperator.cpp:786
+#: kfile/kdiroperator.cpp:782
 #, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] ""
 
-#: kfile/kdiroperator.cpp:788
+#: kfile/kdiroperator.cpp:784
 #, fuzzy
 #| msgid "Files"
 msgid "Trash Files"
 msgstr "檔案"
 
-#: kfile/kdiroperator.cpp:910 kfile/kdiroperator.cpp:1023
+#: kfile/kdiroperator.cpp:906 kfile/kdiroperator.cpp:1019
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1486
+#: kfile/kdiroperator.cpp:1482
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Menu"
 msgid "Menu"
 msgstr "選單"
 
-#: kfile/kdiroperator.cpp:1490
+#: kfile/kdiroperator.cpp:1486
 #, fuzzy
 #| msgid "Print header"
 msgid "Parent Folder"
 msgstr "列印標頭"
 
-#: kfile/kdiroperator.cpp:1497
+#: kfile/kdiroperator.cpp:1493
 #, fuzzy
 #| msgid "Home Phone"
 msgid "Home Folder"
 msgstr "住家電話"
 
-#: kfile/kdiroperator.cpp:1500
+#: kfile/kdiroperator.cpp:1496
 msgid "Reload"
 msgstr "重新載入"
 
-#: kfile/kdiroperator.cpp:1508
+#: kfile/kdiroperator.cpp:1504
 msgid "Move to Trash"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1514
+#: kfile/kdiroperator.cpp:1510
 msgid "Delete"
 msgstr "刪除"
 
-#: kfile/kdiroperator.cpp:1521
+#: kfile/kdiroperator.cpp:1517
 #, fuzzy
 #| msgid "Sort String"
 msgid "Sorting"
 msgstr "分類字串"
 
-#: kfile/kdiroperator.cpp:1524
+#: kfile/kdiroperator.cpp:1520
 #, fuzzy
 #| msgid "Name"
 msgid "By Name"
 msgstr "名稱"
 
-#: kfile/kdiroperator.cpp:1528
+#: kfile/kdiroperator.cpp:1524
 #, fuzzy
 #| msgid "Size"
 msgid "By Size"
 msgstr "大小"
 
-#: kfile/kdiroperator.cpp:1532
+#: kfile/kdiroperator.cpp:1528
 #, fuzzy
 #| msgid "Dates"
 msgid "By Date"
 msgstr "日期"
 
-#: kfile/kdiroperator.cpp:1536
+#: kfile/kdiroperator.cpp:1532
 #, fuzzy
 #| msgid "Type"
 msgid "By Type"
 msgstr "類型"
 
-#: kfile/kdiroperator.cpp:1540
+#: kfile/kdiroperator.cpp:1536
 msgid "Descending"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1550
+#: kfile/kdiroperator.cpp:1546
 msgid "Short View"
 msgstr ""
 
-#: kfile/kdiroperator.cpp:1564
+#: kfile/kdiroperator.cpp:1551
+#, fuzzy
+#| msgid "Details"
+msgid "Detailed View"
+msgstr "詳細資料"
+
+#: kfile/kdiroperator.cpp:1560
 #, fuzzy
 msgid "Show Hidden Files"
 msgstr "顯示說明"
 
-#: kfile/kdiroperator.cpp:1568
+#: kfile/kdiroperator.cpp:1564
 msgid "Show Preview"
 msgstr ""
 
@@ -12951,6 +12889,54 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Small Icons"
+#~ msgstr "圖示"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Large Icons"
+#~ msgstr "圖示"
+
+#, fuzzy
+#~| msgid "Icon Size"
+#~ msgid "Icon View"
+#~ msgstr "圖示大小"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#, fuzzy
+#~| msgid "Dates"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#, fuzzy
+#~| msgid "Permission denied."
+#~ msgid "Permissions"
+#~ msgstr "權限拒絕。"
+
+#, fuzzy
+#~| msgid "Other"
+#~ msgid "Owner"
+#~ msgstr "其他"
+
+#, fuzzy
+#~| msgid "Props"
+#~ msgid "Group"
+#~ msgstr "Props"
+
+#, fuzzy
+#~| msgid "Preview URL:"
+#~ msgid "Preview"
+#~ msgstr "預覽 URL："
+
+#, fuzzy
+#~| msgid "Preview not available."
+#~ msgid "No preview available."
+#~ msgstr "無法提供預覽功能。"
 
 #, fuzzy
 #~ msgid "Form"

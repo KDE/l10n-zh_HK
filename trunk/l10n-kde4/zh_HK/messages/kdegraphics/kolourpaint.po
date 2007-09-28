@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-27 05:41+0200\n"
+"POT-Creation-Date: 2007-09-28 05:50+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,13 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: lgpl/generic/kpColorCollection.cpp:117
+#: lgpl/generic/kpColorCollection.cpp:116
 #, fuzzy, qt-format
 #| msgid "Could not open \"%1\"."
 msgid "Could not open color palette \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: lgpl/generic/kpColorCollection.cpp:156
+#: lgpl/generic/kpColorCollection.cpp:155
 #, fuzzy, qt-format
 #| msgid ""
 #| "Could not open \"%1\" - unsupported image format.\n"
@@ -32,19 +32,19 @@ msgstr ""
 "無法開啟「%1」 - 不支援的圖像格式。\n"
 "檔案可能已損壞。"
 
-#: lgpl/generic/kpColorCollection.cpp:207
+#: lgpl/generic/kpColorCollection.cpp:206
 #, fuzzy, qt-format
 #| msgid "Could not open \"%1\"."
 msgid "Could not open KDE color palette \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: lgpl/generic/kpColorCollection.cpp:256
+#: lgpl/generic/kpColorCollection.cpp:255
 #, fuzzy, qt-format
 #| msgid "Could not save as \"%1\"."
 msgid "Could not save color palette as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: lgpl/generic/kpColorCollection.cpp:291
+#: lgpl/generic/kpColorCollection.cpp:290
 #, fuzzy, qt-format
 #| msgid ""
 #| "A document called \"%1\" already exists.\n"
@@ -56,12 +56,12 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: lgpl/generic/kpColorCollection.cpp:295 document/kpDocument_Save.cpp:304
+#: lgpl/generic/kpColorCollection.cpp:294 document/kpDocument_Save.cpp:304
 msgid "Overwrite"
 msgstr "覆寫"
 
 #: lgpl/generic/kpUrlFormatter.cpp:39 lgpl/generic/kpUrlFormatter.cpp:48
-#: widgets/toolbars/kpColorToolBar.cpp:262
+#: widgets/toolbars/kpColorToolBar.cpp:265
 msgid "Untitled"
 msgstr ""
 
@@ -408,12 +408,12 @@ msgstr ""
 "用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:742
-#: mainWindow/kpMainWindow_Tools.cpp:650
+#: mainWindow/kpMainWindow_Tools.cpp:632
 msgid "Resize Image?"
 msgstr "要更改圖像大小嗎？"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:743
-#: mainWindow/kpMainWindow_Tools.cpp:651
+#: mainWindow/kpMainWindow_Tools.cpp:633
 msgid "R&esize Image"
 msgstr "更改圖像大小(&E)"
 
@@ -1606,7 +1606,7 @@ msgstr "藍色(&B)"
 msgid "Colors"
 msgstr "色彩"
 
-#: widgets/kpColorCells.cpp:209
+#: widgets/kpColorCells.cpp:217
 msgid ""
 "<qt><p>To select the foreground color that tools draw in, left-click on a "
 "filled-in color cell. To select the background color, right-click instead.</"
@@ -1617,20 +1617,20 @@ msgid ""
 "the color of the source cell.</p></qt>"
 msgstr ""
 
-#: widgets/toolbars/kpColorToolBar.cpp:258
+#: widgets/toolbars/kpColorToolBar.cpp:261
 #, fuzzy
 #| msgid "KolourPaint"
 msgid "KolourPaint Defaults"
 msgstr "KolourPaint"
 
-#: widgets/toolbars/kpColorToolBar.cpp:271
+#: widgets/toolbars/kpColorToolBar.cpp:274
 #, fuzzy, qt-format
 #| msgid "Colors"
 msgctxt "Colors: name_or_url_of_color_palette"
 msgid "Colors: %1"
 msgstr "色彩"
 
-#: widgets/toolbars/kpColorToolBar.cpp:278
+#: widgets/toolbars/kpColorToolBar.cpp:281
 #, qt-format
 msgctxt "Colors: name_or_url_of_color_palette [modified]"
 msgid "Colors: %1 [modified]"
@@ -1787,7 +1787,7 @@ msgstr "匯出(&X)..."
 msgid "Scan..."
 msgstr "..."
 
-#: mainWindow/kpMainWindow_File.cpp:109 mainWindow/kpMainWindow_Colors.cpp:75
+#: mainWindow/kpMainWindow_File.cpp:109 mainWindow/kpMainWindow_Colors.cpp:77
 msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
@@ -1844,9 +1844,9 @@ msgstr ""
 "確定嗎？"
 
 #: mainWindow/kpMainWindow_File.cpp:1000 mainWindow/kpMainWindow_File.cpp:1010
-#: mainWindow/kpMainWindow_Colors.cpp:314
-#: mainWindow/kpMainWindow_Colors.cpp:327
-#: mainWindow/kpMainWindow_Colors.cpp:336
+#: mainWindow/kpMainWindow_Colors.cpp:343
+#: mainWindow/kpMainWindow_Colors.cpp:356
+#: mainWindow/kpMainWindow_Colors.cpp:365
 #, fuzzy
 msgid "&Reload"
 msgstr "重新載入(&D)"
@@ -1951,14 +1951,6 @@ msgstr "中間劃線"
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
 
-#: mainWindow/kpMainWindow_Settings.cpp:190
-msgid "You have to restart KolourPaint for these changes to take effect."
-msgstr "要令這些更改生效，你需要重新啟動 KolourPaint 。"
-
-#: mainWindow/kpMainWindow_Settings.cpp:191
-msgid "Toolbar Settings Changed"
-msgstr "工具列設置已更改"
-
 #: mainWindow/kpMainWindow_Colors.cpp:58
 #, fuzzy
 #| msgid "KolourPaint"
@@ -1969,33 +1961,37 @@ msgstr "KolourPaint"
 msgid "Use KDE's"
 msgstr ""
 
-#: mainWindow/kpMainWindow_Colors.cpp:70
+#: mainWindow/kpMainWindow_Colors.cpp:72
 #, fuzzy
 #| msgid "&Flip..."
 msgid "&Open..."
 msgstr "反轉(&F)..."
 
-#: mainWindow/kpMainWindow_Colors.cpp:81
+#: mainWindow/kpMainWindow_Colors.cpp:83
 #, fuzzy
 #| msgid "&Scale"
 msgid "&Save"
 msgstr "縮放(&S)"
 
-#: mainWindow/kpMainWindow_Colors.cpp:86
+#: mainWindow/kpMainWindow_Colors.cpp:88
 #, fuzzy
 #| msgid "Save Image As"
 msgid "Save &As..."
 msgstr "儲存圖像為"
 
-#: mainWindow/kpMainWindow_Colors.cpp:92
+#: mainWindow/kpMainWindow_Colors.cpp:94
 msgid "Add Row"
 msgstr ""
 
-#: mainWindow/kpMainWindow_Colors.cpp:97
+#: mainWindow/kpMainWindow_Colors.cpp:99
 msgid "Delete Last Row"
 msgstr ""
 
-#: mainWindow/kpMainWindow_Colors.cpp:162
+#: mainWindow/kpMainWindow_Colors.cpp:110
+msgid "Color Box"
+msgstr "顏色盒"
+
+#: mainWindow/kpMainWindow_Colors.cpp:183
 #, fuzzy, qt-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2007,7 +2003,7 @@ msgstr ""
 "「%1」文件已修改。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:174
+#: mainWindow/kpMainWindow_Colors.cpp:195
 #, fuzzy, qt-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2019,7 +2015,7 @@ msgstr ""
 "「%1」文件已修改。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:183
+#: mainWindow/kpMainWindow_Colors.cpp:204
 #, fuzzy
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2031,13 +2027,13 @@ msgstr ""
 "「%1」文件已修改。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:285
+#: mainWindow/kpMainWindow_Colors.cpp:313
 #, fuzzy
 #| msgid "Colors"
 msgid "Open Color Palette"
 msgstr "色彩"
 
-#: mainWindow/kpMainWindow_Colors.cpp:309
+#: mainWindow/kpMainWindow_Colors.cpp:338
 #, fuzzy, qt-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2052,7 +2048,7 @@ msgstr ""
 "重新載入會失去上次儲存之後的所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:322
+#: mainWindow/kpMainWindow_Colors.cpp:351
 #, fuzzy, qt-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2067,7 +2063,7 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:332
+#: mainWindow/kpMainWindow_Colors.cpp:361
 #, fuzzy
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -2082,45 +2078,45 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_Colors.cpp:385
+#: mainWindow/kpMainWindow_Colors.cpp:414
 #, fuzzy
 #| msgid "Invert Colors"
 msgid "Save Color Palette As"
 msgstr "反白色彩"
 
-#: mainWindow/kpMainWindow_Tools.cpp:133
+#: mainWindow/kpMainWindow_Tools.cpp:132
 msgid "Previous Tool Option (Group #1)"
 msgstr "前一個工具選項（第一組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:139
+#: mainWindow/kpMainWindow_Tools.cpp:138
 msgid "Next Tool Option (Group #1)"
 msgstr "下一個工具選項（第一組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:145
+#: mainWindow/kpMainWindow_Tools.cpp:144
 msgid "Previous Tool Option (Group #2)"
 msgstr "前一個工具選項（第二組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:151
+#: mainWindow/kpMainWindow_Tools.cpp:150
 msgid "Next Tool Option (Group #2)"
 msgstr "下一個工具選項（第二組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:163
+#: mainWindow/kpMainWindow_Tools.cpp:162
 #, fuzzy
 #| msgid "Opaque"
 msgid "&Draw Opaque"
 msgstr "不透明"
 
-#: mainWindow/kpMainWindow_Tools.cpp:168
+#: mainWindow/kpMainWindow_Tools.cpp:167
 #, fuzzy
 #| msgid "Color Similarity"
 msgid "Draw With Color Similarity..."
 msgstr "顏色相似性"
 
-#: mainWindow/kpMainWindow_Tools.cpp:193
+#: mainWindow/kpMainWindow_Tools.cpp:175
 msgid "Tool Box"
 msgstr "工具盒"
 
-#: mainWindow/kpMainWindow_Tools.cpp:640
+#: mainWindow/kpMainWindow_Tools.cpp:622
 #, qt-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
@@ -2133,10 +2129,6 @@ msgstr ""
 #: mainWindow/kpMainWindow_View.cpp:76
 msgid "Show &Grid"
 msgstr "顯示格線(&G)"
-
-#: mainWindow/kpMainWindow.cpp:267
-msgid "Color Box"
-msgstr "顏色盒"
 
 #: mainWindow/kpMainWindow_Help.cpp:62
 msgid "Acquiring &Screenshots"
@@ -2289,7 +2281,7 @@ msgstr "從檔案貼上"
 msgid "&Zoom"
 msgstr ""
 
-#: mainWindow/kpMainWindow_View_Zoom.cpp:187
+#: mainWindow/kpMainWindow_View_Zoom.cpp:189
 #, qt-format
 msgid ""
 "Setting the zoom level to a value that is not a multiple of 100% results in "
@@ -2299,7 +2291,7 @@ msgstr ""
 "將縮放等級設為不是 100% 的倍數會產生圖像不精確的情況。\n"
 "確定要將縮放等級設至 %1% 嗎？"
 
-#: mainWindow/kpMainWindow_View_Zoom.cpp:192
+#: mainWindow/kpMainWindow_View_Zoom.cpp:194
 #, qt-format
 msgid "Set Zoom Level to %1%"
 msgstr "將縮放等級設至 %1%"
@@ -2530,6 +2522,12 @@ msgstr ""
 #, qt-format
 msgid "Could not open \"%1\" - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
+
+#~ msgid "You have to restart KolourPaint for these changes to take effect."
+#~ msgstr "要令這些更改生效，你需要重新啟動 KolourPaint 。"
+
+#~ msgid "Toolbar Settings Changed"
+#~ msgstr "工具列設置已更改"
 
 #~ msgid "Hide &Path"
 #~ msgstr "隱藏路徑(&P)"
