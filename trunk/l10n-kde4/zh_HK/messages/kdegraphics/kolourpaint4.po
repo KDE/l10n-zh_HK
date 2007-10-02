@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-30 05:38+0200\n"
+"POT-Creation-Date: 2007-10-02 05:32+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -543,7 +543,7 @@ msgid "Tone Enhance"
 msgstr ""
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:644
+#: mainWindow/kpMainWindow_File.cpp:648
 msgid "Document Properties"
 msgstr ""
 
@@ -885,7 +885,7 @@ msgid "Makes an elliptical or circular selection"
 msgstr "選取橢圓形或圓形的區域"
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
-#: imagelib/transforms/kpTransformCrop.cpp:371
+#: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:242
 #: mainWindow/kpMainWindow_Edit.cpp:391 mainWindow/kpMainWindow_Image.cpp:293
 msgid "Selection: Create"
 msgstr "選取：建立"
@@ -1314,43 +1314,43 @@ msgstr "更改圖像大小：放開所有滑鼠鍵。"
 msgid "Resize Image: Right click to cancel."
 msgstr "更改圖像大小：按右鍵取消。"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:383
+#: imagelib/transforms/kpTransformAutoCrop.cpp:384
 msgid "Remove Internal B&order"
 msgstr "移除內部邊界(&O)"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:385
+#: imagelib/transforms/kpTransformAutoCrop.cpp:386
 msgid "Remove Internal Border"
 msgstr "移除內部邊界"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:390
+#: imagelib/transforms/kpTransformAutoCrop.cpp:391
 msgid "Autocr&op"
 msgstr "自動截取(&O)"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:392
+#: imagelib/transforms/kpTransformAutoCrop.cpp:393
 msgid "Autocrop"
 msgstr "自動截取"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:639
+#: imagelib/transforms/kpTransformAutoCrop.cpp:622
 msgid ""
 "KolourPaint cannot remove the selection's internal border as it could not be "
 "located."
 msgstr "KolourPaint 無法找到選取區域的內部邊界，所以無法移除。"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:641
+#: imagelib/transforms/kpTransformAutoCrop.cpp:624
 msgid "Cannot Remove Internal Border"
 msgstr "無法移除內部邊界"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:647
+#: imagelib/transforms/kpTransformAutoCrop.cpp:630
 msgid ""
 "KolourPaint cannot automatically crop the image as its border could not be "
 "located."
 msgstr "KolourPaint 無法找到圖像的邊界，所以自動截取。"
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:649
+#: imagelib/transforms/kpTransformAutoCrop.cpp:632
 msgid "Cannot Autocrop"
 msgstr "無法自動截取"
 
-#: imagelib/transforms/kpTransformCrop.cpp:272
+#: imagelib/transforms/kpTransformCrop.cpp:45
 msgid "Set as Image"
 msgstr "設為圖像"
 
@@ -1799,40 +1799,40 @@ msgstr "設為牆紙（置中）(&L)"
 msgid "Set as Wallpaper (&Tiled)"
 msgstr "設為牆紙（排列）(&T)"
 
-#: mainWindow/kpMainWindow_File.cpp:438
+#: mainWindow/kpMainWindow_File.cpp:442
 msgid "Open Image"
 msgstr "開啟圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:510
+#: mainWindow/kpMainWindow_File.cpp:514
 msgid "Scanning support is not installed."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:511
+#: mainWindow/kpMainWindow_File.cpp:515
 msgid "No Scanning Support"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:614
+#: mainWindow/kpMainWindow_File.cpp:618
 #, fuzzy
 #| msgid "Could not open \"%1\" - out of graphics memory."
 msgid "Cannot scan - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
 
-#: mainWindow/kpMainWindow_File.cpp:615
+#: mainWindow/kpMainWindow_File.cpp:619
 #, fuzzy
 #| msgid "Cannot Paste"
 msgid "Cannot Scan"
 msgstr "無法貼上"
 
-#: mainWindow/kpMainWindow_File.cpp:881
+#: mainWindow/kpMainWindow_File.cpp:885
 msgid "Save Image As"
 msgstr "儲存圖像為"
 
-#: mainWindow/kpMainWindow_File.cpp:931
+#: mainWindow/kpMainWindow_File.cpp:935
 #, fuzzy
 msgid "Export"
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:995
+#: mainWindow/kpMainWindow_File.cpp:999
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1843,7 +1843,7 @@ msgstr ""
 "重新載入會失去上次儲存之後的所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1000 mainWindow/kpMainWindow_File.cpp:1010
+#: mainWindow/kpMainWindow_File.cpp:1004 mainWindow/kpMainWindow_File.cpp:1014
 #: mainWindow/kpMainWindow_Colors.cpp:346
 #: mainWindow/kpMainWindow_Colors.cpp:359
 #: mainWindow/kpMainWindow_Colors.cpp:368
@@ -1851,7 +1851,7 @@ msgstr ""
 msgid "&Reload"
 msgstr "重新載入(&D)"
 
-#: mainWindow/kpMainWindow_File.cpp:1005
+#: mainWindow/kpMainWindow_File.cpp:1009
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1862,7 +1862,7 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1316
+#: mainWindow/kpMainWindow_File.cpp:1320
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
@@ -1870,7 +1870,7 @@ msgstr ""
 "傳送此圖像之前必須先儲存。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1359
+#: mainWindow/kpMainWindow_File.cpp:1363
 msgid ""
 "Before this image can be set as the wallpaper, you must save it as a local "
 "file.\n"
@@ -1879,7 +1879,7 @@ msgstr ""
 "要將此圖像設為牆紙之前，必須要將它儲存為本地檔案。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1365
+#: mainWindow/kpMainWindow_File.cpp:1369
 msgid ""
 "Before this image can be set as the wallpaper, you must save it.\n"
 "Do you want to save it?"
@@ -1887,11 +1887,11 @@ msgstr ""
 "要將此圖像設為牆紙之前，必須先儲存它。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1439
+#: mainWindow/kpMainWindow_File.cpp:1443
 msgid "Could not change wallpaper."
 msgstr "無法更改牆紙。"
 
-#: mainWindow/kpMainWindow_File.cpp:1474
+#: mainWindow/kpMainWindow_File.cpp:1478
 #, qt-format
 msgid ""
 "The document \"%1\" has been modified.\n"
