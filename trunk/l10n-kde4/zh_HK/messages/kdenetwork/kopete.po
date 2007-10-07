@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-05 05:41+0200\n"
+"POT-Creation-Date: 2007-10-07 05:51+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -185,7 +185,7 @@ msgstr "預設身份"
 #: protocols/msn/msnprotocol.cpp:51 protocols/sms/smsprotocol.cpp:37
 #: protocols/gadu/gaduprotocol.cpp:84 protocols/gadu/gaduprotocol.cpp:88
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
-#: protocols/oscar/icq/icqstatusmanager.cpp:86
+#: protocols/oscar/icq/icqstatusmanager.cpp:87
 #: protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/meanwhile/meanwhileprotocol.cpp:41
 #: protocols/jabber/jabbercontact.cpp:170
@@ -198,7 +198,7 @@ msgstr "上線"
 #: plugins/statistics/statisticscontact.cpp:261
 #: plugins/statistics/statisticsdialog.cpp:349 protocols/qq/qqprotocol.cpp:37
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
-#: protocols/oscar/icq/icqstatusmanager.cpp:82
+#: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/meanwhile/meanwhileprotocol.cpp:45
 #: protocols/jabber/jabbercontact.cpp:172
 #: protocols/jabber/jabberprotocol.cpp:70 protocols/winpopup/wpprotocol.cpp:55
@@ -225,7 +225,7 @@ msgstr "正在連接"
 #: protocols/msn/msnprotocol.cpp:77 protocols/gadu/gaduprotocol.cpp:76
 #: protocols/gadu/gaduprotocol.cpp:81
 #: protocols/oscar/aim/aimstatusmanager.cpp:85
-#: protocols/oscar/icq/icqstatusmanager.cpp:91
+#: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/yahoo/yahooprotocol.cpp:54 protocols/jabber/jabbercontact.cpp:175
 #: protocols/jabber/jabberprotocol.cpp:74
 #: protocols/telepathy/telepathyprotocol.cpp:51
@@ -241,7 +241,7 @@ msgstr "隱形"
 #: protocols/msn/msnprotocol.cpp:73 protocols/sms/smsprotocol.cpp:38
 #: protocols/gadu/gaduprotocol.cpp:59 protocols/gadu/gaduprotocol.cpp:65
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
-#: protocols/oscar/icq/icqstatusmanager.cpp:74
+#: protocols/oscar/icq/icqstatusmanager.cpp:75
 #: protocols/yahoo/yahooprotocol.cpp:43
 #: protocols/meanwhile/meanwhileprotocol.cpp:36
 #: protocols/jabber/jabberprotocol.cpp:73 protocols/winpopup/wpprotocol.cpp:56
@@ -253,7 +253,7 @@ msgstr "離線"
 #: libkopete/kopeteonlinestatus.cpp:126
 #: plugins/translator/translatorlanguages.cpp:33
 #: protocols/oscar/aim/aimstatusmanager.cpp:33
-#: protocols/oscar/icq/icqstatusmanager.cpp:36
+#: protocols/oscar/icq/icqstatusmanager.cpp:37
 #: protocols/oscar/icq/icqprotocol.cpp:448
 #: protocols/oscar/icq/icqprotocol.cpp:530
 #: protocols/groupwise/gwprotocol.cpp:66
@@ -1225,7 +1225,7 @@ msgstr "匯出聯絡人(&E)..."
 #: kopete/kopetewindow.cpp:318 protocols/qq/qqprotocol.cpp:37
 #: protocols/msn/msnprotocol.cpp:63
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
-#: protocols/oscar/icq/icqstatusmanager.cpp:82
+#: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/telepathy/telepathyprotocol.cpp:47
 #: protocols/groupwise/gwprotocol.cpp:58
 msgid "&Away"
@@ -2480,15 +2480,38 @@ msgid ""
 "list?"
 msgstr "確定要從你的聯絡人清單刪除這些群組和聯絡人嗎？"
 
-#: kopete/contactlist/kabcexport.cpp:90
+#: kopete/contactlist/kabcexport.cpp:61
+#, fuzzy
+#| msgid "&Select Address Book"
+msgid "Select Address Book"
+msgstr "選取通訊錄(&S)"
+
+#. i18n: tag string
+#. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 24
+#. i18n: tag string
+#. i18n: file ./libkopete/ui/metacontactselectorwidget_base.ui line 24
+#. i18n: tag string
+#. i18n: file ./plugins/privacy/contactselectorwidget_base.ui line 21
+#. i18n: tag string
+#. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 24
+#. i18n: tag string
+#. i18n: file ./libkopete/ui/metacontactselectorwidget_base.ui line 24
+#. i18n: tag string
+#. i18n: file ./plugins/privacy/contactselectorwidget_base.ui line 21
+#: kopete/contactlist/kabcexport.cpp:64 rc.cpp:148 rc.cpp:184 rc.cpp:2186
+#, no-c-format
+msgid "Select Contact"
+msgstr "選取聯絡人"
+
+#: kopete/contactlist/kabcexport.cpp:98
 msgid "No writeable addressbook resource found."
 msgstr "找不到可寫入的通訊錄資源。"
 
-#: kopete/contactlist/kabcexport.cpp:91
+#: kopete/contactlist/kabcexport.cpp:99
 msgid "Add or enable one using the KDE Control Center."
 msgstr "使用 KDE 控制中心新增或啟用一個。"
 
-#: kopete/contactlist/kabcexport.cpp:102
+#: kopete/contactlist/kabcexport.cpp:110
 msgid " (already in address book)"
 msgstr "(已經在通訊錄中)"
 
@@ -3174,23 +3197,6 @@ msgstr "在這個群組中:"
 #, no-c-format
 msgid "Addressbook link:"
 msgstr "通訊錄連結:"
-
-#. i18n: tag string
-#. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 24
-#. i18n: tag string
-#. i18n: file ./libkopete/ui/metacontactselectorwidget_base.ui line 24
-#. i18n: tag string
-#. i18n: file ./plugins/privacy/contactselectorwidget_base.ui line 21
-#. i18n: tag string
-#. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 24
-#. i18n: tag string
-#. i18n: file ./libkopete/ui/metacontactselectorwidget_base.ui line 24
-#. i18n: tag string
-#. i18n: file ./plugins/privacy/contactselectorwidget_base.ui line 21
-#: rc.cpp:148 rc.cpp:184 rc.cpp:2186
-#, no-c-format
-msgid "Select Contact"
-msgstr "選取聯絡人"
 
 #. i18n: tag string
 #. i18n: file ./libkopete/ui/addressbookselectorwidget_base.ui line 52
@@ -5192,14 +5198,20 @@ msgid "&Groups"
 msgstr "群組(&G)"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 16
-#: rc.cpp:1172
-#, no-c-format
-msgid "Export Contacts"
-msgstr "匯出聯絡人"
+#. i18n: file ./kopete/contactlist/kabcexport_page1.ui line 13
+#. i18n: tag string
+#. i18n: file ./kopete/contactlist/kabcexport_page2.ui line 13
+#. i18n: tag string
+#. i18n: file ./kopete/contactlist/kabcexport_page1.ui line 13
+#. i18n: tag string
+#. i18n: file ./kopete/contactlist/kabcexport_page2.ui line 13
+#: rc.cpp:1172 rc.cpp:1184
+#, fuzzy, no-c-format
+msgid "Form"
+msgstr "持續"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 45
+#. i18n: file ./kopete/contactlist/kabcexport_page1.ui line 25
 #: rc.cpp:1176
 #, no-c-format
 msgid ""
@@ -5208,45 +5220,28 @@ msgid ""
 msgstr "這個精靈幫助你將即時傳訊聯絡人匯出至 KDE 通訊錄。"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 55
+#. i18n: file ./kopete/contactlist/kabcexport_page1.ui line 35
 #: rc.cpp:1180
 #, no-c-format
 msgid "&Select Address Book"
 msgstr "選取通訊錄(&S)"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 108
-#: rc.cpp:1184
+#. i18n: file ./kopete/contactlist/kabcexport_page2.ui line 25
+#: rc.cpp:1188
 #, no-c-format
 msgid "Selected contacts will be added to the KDE address book."
 msgstr "選取的聯絡人將會被加入到 KDE 通訊錄。"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 122
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 198
-#. i18n: tag string
-#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
-#. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 122
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 198
-#. i18n: tag string
-#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
-#: rc.cpp:1188 rc.cpp:2026 rc.cpp:2358
-#, no-c-format
-msgid "Contact"
-msgstr "聯絡人"
-
-#. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 138
+#. i18n: file ./kopete/contactlist/kabcexport_page2.ui line 52
 #: rc.cpp:1192
 #, no-c-format
 msgid "Select &All"
 msgstr "全選(&A)"
 
 #. i18n: tag string
-#. i18n: file ./kopete/contactlist/kabcexport_base.ui line 145
+#. i18n: file ./kopete/contactlist/kabcexport_page2.ui line 59
 #: rc.cpp:1196
 #, no-c-format
 msgid "&Deselect All"
@@ -6716,6 +6711,19 @@ msgstr "搜尋(&A):"
 #, no-c-format
 msgid "Date"
 msgstr "日期"
+
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 198
+#. i18n: tag string
+#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 198
+#. i18n: tag string
+#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
+#: rc.cpp:2026 rc.cpp:2358
+#, no-c-format
+msgid "Contact"
+msgstr "聯絡人"
 
 #. i18n: tag string
 #. i18n: file ./plugins/history/historyviewer.ui line 248
@@ -10485,7 +10493,7 @@ msgstr "將你的狀態設為上線，代表任何想和你聊天的人都可看
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 73
 #: rc.cpp:4087 protocols/qq/qqprotocol.cpp:35 protocols/msn/msnprotocol.cpp:51
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
-#: protocols/oscar/icq/icqstatusmanager.cpp:86
+#: protocols/oscar/icq/icqstatusmanager.cpp:87
 #, no-c-format
 msgid "O&nline"
 msgstr "上線(&N)"
@@ -10544,7 +10552,7 @@ msgstr "以以下的說明將狀態設為中斷。"
 #: rc.cpp:4123 protocols/qq/qqprotocol.cpp:39
 #: protocols/gadu/gaduprotocol.cpp:60
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
-#: protocols/oscar/icq/icqstatusmanager.cpp:74
+#: protocols/oscar/icq/icqstatusmanager.cpp:75
 #: protocols/groupwise/gwprotocol.cpp:52
 #, no-c-format
 msgid "O&ffline"
@@ -15426,8 +15434,8 @@ msgid "All"
 msgstr "所有"
 
 #: plugins/history/historydialog.cpp:220
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:43
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:65
+#: protocols/yahoo/ui/yahoochatselectordialog.cpp:45
+#: protocols/yahoo/ui/yahoochatselectordialog.cpp:67
 msgid "Loading..."
 msgstr "正在載入..."
 
@@ -15679,7 +15687,7 @@ msgstr "文字"
 msgid "Replacement"
 msgstr "替代"
 
-#: plugins/autoreplace/autoreplaceconfig.cpp:67
+#: plugins/autoreplace/autoreplaceconfig.cpp:68
 msgctxt "list_of_words_to_replace"
 msgid "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
 msgstr "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
@@ -17535,58 +17543,58 @@ msgid "Unable to Join AIM Chat Room"
 msgstr "加入 AIM 聊天室"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:31
-#: protocols/oscar/icq/icqstatusmanager.cpp:34
+#: protocols/oscar/icq/icqstatusmanager.cpp:35
 msgid "Connecting..."
 msgstr "正在連接..."
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:35
-#: protocols/oscar/icq/icqstatusmanager.cpp:38
+#: protocols/oscar/icq/icqstatusmanager.cpp:39
 msgid "Waiting for Authorization"
 msgstr "正在等待授權"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:69
-#: protocols/oscar/icq/icqstatusmanager.cpp:76
+#: protocols/oscar/icq/icqstatusmanager.cpp:77
 msgid "&Do Not Disturb"
 msgstr "請勿打擾(&D)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:69
-#: protocols/oscar/icq/icqstatusmanager.cpp:76
+#: protocols/oscar/icq/icqstatusmanager.cpp:77
 #: protocols/jabber/jabbercontact.cpp:174
 msgid "Do Not Disturb"
 msgstr "請勿打擾"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:71
-#: protocols/oscar/icq/icqstatusmanager.cpp:78
+#: protocols/oscar/icq/icqstatusmanager.cpp:79
 msgid "O&ccupied"
 msgstr "有事(&C)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:71
-#: protocols/oscar/icq/icqstatusmanager.cpp:78
+#: protocols/oscar/icq/icqstatusmanager.cpp:79
 msgid "Occupied"
 msgstr "有事"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:73
-#: protocols/oscar/icq/icqstatusmanager.cpp:80
+#: protocols/oscar/icq/icqstatusmanager.cpp:81
 msgid "Not A&vailable"
 msgstr "沒空(&V)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:73
-#: protocols/oscar/icq/icqstatusmanager.cpp:80
+#: protocols/oscar/icq/icqstatusmanager.cpp:81
 msgid "Not Available"
 msgstr "沒空"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:77
-#: protocols/oscar/icq/icqstatusmanager.cpp:84
+#: protocols/oscar/icq/icqstatusmanager.cpp:85
 msgid "&Free for Chat"
 msgstr "開放聊天(&F)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:77
-#: protocols/oscar/icq/icqstatusmanager.cpp:84
+#: protocols/oscar/icq/icqstatusmanager.cpp:85
 msgid "Free For Chat"
 msgstr "開放聊天"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:86
-#: protocols/oscar/icq/icqstatusmanager.cpp:92
+#: protocols/oscar/icq/icqstatusmanager.cpp:93
 #, fuzzy
 msgid "Mobile"
 msgstr "手提電話:"
@@ -17605,7 +17613,7 @@ msgid "You need to be connected to be able to add contacts."
 msgstr "你要連線才能新增聯絡人。"
 
 #: protocols/oscar/aim/aimprotocol.cpp:183
-#: protocols/oscar/icq/icqstatusmanager.cpp:93
+#: protocols/oscar/icq/icqstatusmanager.cpp:94
 #: protocols/oscar/oscaraccount.cpp:899 protocols/yahoo/yahooprotocol.cpp:75
 msgid "AIM"
 msgstr "AIM"
@@ -19137,16 +19145,16 @@ msgstr ""
 msgid "Invite"
 msgstr "邀請(&I)"
 
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:27
+#: protocols/yahoo/ui/yahoochatselectordialog.cpp:29
 msgid "Choose a chat room..."
 msgstr ""
 
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:88
+#: protocols/yahoo/ui/yahoochatselectordialog.cpp:90
 #, fuzzy
 msgid "Yahoo Chat rooms"
 msgstr "搜尋頻道(&S)"
 
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:159
+#: protocols/yahoo/ui/yahoochatselectordialog.cpp:161
 #, qt-format
 msgid "Users: %1 Webcams: %2 Voices: %3"
 msgstr ""
@@ -21266,9 +21274,8 @@ msgid ""
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
 
-#, fuzzy
-#~ msgid "Form"
-#~ msgstr "持續"
+#~ msgid "Export Contacts"
+#~ msgstr "匯出聯絡人"
 
 #, fuzzy
 #~| msgid "Cryptography"
