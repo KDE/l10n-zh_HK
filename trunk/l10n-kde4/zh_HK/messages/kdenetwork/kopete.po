@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-07 05:51+0200\n"
+"POT-Creation-Date: 2007-10-08 05:50+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -181,7 +181,7 @@ msgstr "預設身份"
 
 #: libkopete/kopeteonlinestatus.cpp:110 libkopete/kopetemetacontact.cpp:469
 #: plugins/statistics/statisticscontact.cpp:260
-#: plugins/statistics/statisticsdialog.cpp:344 protocols/qq/qqprotocol.cpp:35
+#: plugins/statistics/statisticsdialog.cpp:349 protocols/qq/qqprotocol.cpp:35
 #: protocols/msn/msnprotocol.cpp:51 protocols/sms/smsprotocol.cpp:37
 #: protocols/gadu/gaduprotocol.cpp:84 protocols/gadu/gaduprotocol.cpp:88
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
@@ -196,7 +196,7 @@ msgstr "上線"
 
 #: libkopete/kopeteonlinestatus.cpp:113 libkopete/kopetemetacontact.cpp:471
 #: plugins/statistics/statisticscontact.cpp:261
-#: plugins/statistics/statisticsdialog.cpp:349 protocols/qq/qqprotocol.cpp:37
+#: plugins/statistics/statisticsdialog.cpp:354 protocols/qq/qqprotocol.cpp:37
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/meanwhile/meanwhileprotocol.cpp:45
@@ -237,7 +237,7 @@ msgstr "隱形"
 #: libkopete/kopeteidentity.cpp:128 kopete/kopetewindow.cpp:309
 #: kopete/identity/identitystatuswidget.cpp:252
 #: plugins/statistics/statisticscontact.cpp:262
-#: plugins/statistics/statisticsdialog.cpp:354 protocols/qq/qqprotocol.cpp:39
+#: plugins/statistics/statisticsdialog.cpp:359 protocols/qq/qqprotocol.cpp:39
 #: protocols/msn/msnprotocol.cpp:73 protocols/sms/smsprotocol.cpp:38
 #: protocols/gadu/gaduprotocol.cpp:59 protocols/gadu/gaduprotocol.cpp:65
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
@@ -1151,7 +1151,7 @@ msgid "Work Mobile Phone"
 msgstr "工作流動電話"
 
 #: libkopete/kopeteglobal.cpp:195
-#: protocols/groupwise/ui/gwcontactproperties.cpp:120
+#: protocols/groupwise/ui/gwcontactproperties.cpp:121
 msgid "Email Address"
 msgstr "電子郵件地址"
 
@@ -15516,12 +15516,12 @@ msgstr "最後的歷程記錄"
 msgid "Statistics for %1"
 msgstr "%1 的統計"
 
-#: plugins/statistics/statisticsdialog.cpp:197
+#: plugins/statistics/statisticsdialog.cpp:202
 #, qt-format
 msgid "<h1>Statistics for %1</h1>"
 msgstr "<h1>%1 的統計</h1>"
 
-#: plugins/statistics/statisticsdialog.cpp:200
+#: plugins/statistics/statisticsdialog.cpp:205
 msgid ""
 "<div class=\"statgroup\"><b><a href=\"main:generalinfo\" title=\"General "
 "summary view\">General</a></b><br><span title=\"Select the a day or a month "
@@ -15552,7 +15552,7 @@ msgstr ""
 "\">十月</a>&nbsp;<a href=\"monthofyear:11\">十一月</a>&nbsp;<a href="
 "\"monthofyear:12\">十二月</a>&nbsp;</span></div><br>"
 
-#: plugins/statistics/statisticsdialog.cpp:231
+#: plugins/statistics/statisticsdialog.cpp:236
 msgid ""
 "<div class=\"statgroup\" title=\"Contact status history for today"
 "\"><h2>Today</h2><table width=\"100%\"><tr><td>Status</td><td>From</"
@@ -15561,60 +15561,60 @@ msgstr ""
 "<div class=\"statgroup\" title=\"今天的狀態歷程記錄\"><h2>今天</h2><table "
 "width=\"100%\"><tr><td>狀態</td><td>自</td><td>到</td></tr>"
 
-#: plugins/statistics/statisticsdialog.cpp:391
+#: plugins/statistics/statisticsdialog.cpp:396
 msgid "<div class=\"statgroup\">"
 msgstr "<div class=\"statgroup\">"
 
-#: plugins/statistics/statisticsdialog.cpp:392
+#: plugins/statistics/statisticsdialog.cpp:397
 #, qt-format
 msgid ""
 "<b title=\"The total time I have been able to see %1 status\">Total seen "
 "time :</b> %2 hour(s)<br>"
 msgstr "<b title=\"我看到 %1 的狀態的總時間\">總看到時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:394
+#: plugins/statistics/statisticsdialog.cpp:399
 #, qt-format
 msgid ""
 "<b title=\"The total time I have seen %1 online\">Total online time :</b> %2 "
 "hour(s)<br>"
 msgstr "<b title=\"我看到 %1 的總上線時間\">總上線時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:396
+#: plugins/statistics/statisticsdialog.cpp:401
 #, qt-format
 msgid ""
 "<b title=\"The total time I have seen %1 away\">Total busy time :</b> %2 hour"
 "(s)<br>"
 msgstr "<b title=\"我看到 %1 的總離開時間\">總忙碌時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:397
+#: plugins/statistics/statisticsdialog.cpp:402
 #, qt-format
 msgid ""
 "<b title=\"The total time I have seen %1 offline\">Total offline time :</b> %"
 "2 hour(s)"
 msgstr "<b title=\"我看到 %1 的總離線時間\">總離線時間 :</b> %2 小時"
 
-#: plugins/statistics/statisticsdialog.cpp:400
-#: plugins/statistics/statisticsdialog.cpp:468
-#: plugins/statistics/statisticsdialog.cpp:486
+#: plugins/statistics/statisticsdialog.cpp:405
+#: plugins/statistics/statisticsdialog.cpp:473
+#: plugins/statistics/statisticsdialog.cpp:491
 msgid "General information"
 msgstr "一般資訊"
 
-#: plugins/statistics/statisticsdialog.cpp:406
+#: plugins/statistics/statisticsdialog.cpp:411
 #, qt-format
 msgid "<b>Average message length :</b> %1 characters<br>"
 msgstr "<b>平均訊息長度 :</b> %1 個字元<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:407
+#: plugins/statistics/statisticsdialog.cpp:412
 #, qt-format
 msgid "<b>Time between two messages : </b> %1 second(s)"
 msgstr "<b>訊息的時間間隔 : </b> %1 秒"
 
-#: plugins/statistics/statisticsdialog.cpp:411
+#: plugins/statistics/statisticsdialog.cpp:416
 #, qt-format
 msgid "<b title=\"The last time you talked with %1\">Last talk :</b> %2<br>"
 msgstr "<b title=\"你最後和 %1 交談的時間\">最後交談：</b> %2<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:412
+#: plugins/statistics/statisticsdialog.cpp:417
 #, qt-format
 msgid ""
 "<b title=\"The last time I have seen %1 online or away\">Last time contact "
@@ -15622,54 +15622,54 @@ msgid ""
 msgstr ""
 "<b title=\"我最後看到 %1 上線或離開的時間\">聯絡人的最後出現時間：</b> %2"
 
-#: plugins/statistics/statisticsdialog.cpp:422
+#: plugins/statistics/statisticsdialog.cpp:427
 msgid "Current status"
 msgstr "目前狀態"
 
-#: plugins/statistics/statisticsdialog.cpp:423
+#: plugins/statistics/statisticsdialog.cpp:428
 #, qt-format
 msgid "Is <b>%1</b> since <b>%2</b>"
 msgstr "自 <b>%2</b> 成為 <b>%1</b>"
 
-#: plugins/statistics/statisticsdialog.cpp:433
+#: plugins/statistics/statisticsdialog.cpp:438
 msgid "When have I seen this contact ?"
 msgstr "我什麼時候看到這個聯絡人？"
 
-#: plugins/statistics/statisticsdialog.cpp:447
+#: plugins/statistics/statisticsdialog.cpp:452
 #, qt-format
 msgid "Between %1:00 and %2:00, I was able to see %3 status %4% of the hour."
 msgstr "在 %1 點到 %2 點之間，我有 %4% 的機會看到 %3 的狀態。"
 
-#: plugins/statistics/statisticsdialog.cpp:456
+#: plugins/statistics/statisticsdialog.cpp:461
 msgid "Online time"
 msgstr "上線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:456
+#: plugins/statistics/statisticsdialog.cpp:461
 msgid "Away time"
 msgstr "離開時間"
 
-#: plugins/statistics/statisticsdialog.cpp:456
+#: plugins/statistics/statisticsdialog.cpp:461
 msgid "Offline time"
 msgstr "離線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:461
+#: plugins/statistics/statisticsdialog.cpp:466
 msgid "online"
 msgstr "上線"
 
-#: plugins/statistics/statisticsdialog.cpp:463
+#: plugins/statistics/statisticsdialog.cpp:468
 msgid "away"
 msgstr "離開"
 
-#: plugins/statistics/statisticsdialog.cpp:465
+#: plugins/statistics/statisticsdialog.cpp:470
 msgid "offline"
 msgstr "離線"
 
-#: plugins/statistics/statisticsdialog.cpp:506
+#: plugins/statistics/statisticsdialog.cpp:511
 #, fuzzy, qt-format
 msgid "Between %1:00 and %2:00, I have seen %3 %4% %5."
 msgstr "在 %1 點到 %2 點之間，我看到 %3 %4% %5 。"
 
-#: plugins/statistics/statisticsdialog.cpp:530
+#: plugins/statistics/statisticsdialog.cpp:535
 #, qt-format
 msgctxt "1 is date, 2 is contact name, 3 is online status"
 msgid "%1, %2 was %3"
@@ -15768,14 +15768,14 @@ msgstr "%1 的網絡攝影機影像"
 msgid "No webcam image received"
 msgstr "未收到網絡攝影機影像"
 
-#: protocols/qq/ui/qqeditaccountwidget.cpp:174
-#: protocols/msn/ui/msneditaccountwidget.cpp:222
+#: protocols/qq/ui/qqeditaccountwidget.cpp:175
+#: protocols/msn/ui/msneditaccountwidget.cpp:223
 #: protocols/msn/msnaddcontactpage.cpp:83 protocols/msn/msnchatsession.cpp:374
 #: protocols/msn/msnaccount.cpp:361
 msgid "<qt>You must enter a valid email address.</qt>"
 msgstr "<qt>你必須要輸入有效的電子郵件地址。</qt>"
 
-#: protocols/qq/ui/qqeditaccountwidget.cpp:174
+#: protocols/qq/ui/qqeditaccountwidget.cpp:175
 #, fuzzy
 msgid "QQ Plugin"
 msgstr "ICQ 插件"
@@ -15798,14 +15798,14 @@ msgstr "再取(&F)"
 msgid "WARNING: This vCard may be out-of-date."
 msgstr ""
 
-#: protocols/qq/ui/dlgqqvcard.cpp:224
-#: protocols/jabber/ui/dlgjabbervcard.cpp:309
+#: protocols/qq/ui/dlgqqvcard.cpp:225
+#: protocols/jabber/ui/dlgjabbervcard.cpp:310
 #, fuzzy
 msgid "Saving vCard to server..."
 msgstr "正在連線到伺服器..."
 
-#: protocols/qq/ui/dlgqqvcard.cpp:246
-#: protocols/jabber/ui/dlgjabbervcard.cpp:444
+#: protocols/qq/ui/dlgqqvcard.cpp:247
+#: protocols/jabber/ui/dlgjabbervcard.cpp:445
 msgid "Fetching contact vCard..."
 msgstr ""
 
@@ -16285,8 +16285,8 @@ msgstr ""
 msgid "Network is Unavailable"
 msgstr "網絡不能用"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:222
-#: protocols/msn/ui/msneditaccountwidget.cpp:283
+#: protocols/msn/ui/msneditaccountwidget.cpp:223
+#: protocols/msn/ui/msneditaccountwidget.cpp:284
 #: protocols/msn/msnaddcontactpage.cpp:83 protocols/msn/msncontact.cpp:186
 #: protocols/msn/msncontact.cpp:267 protocols/msn/msnchatsession.cpp:365
 #: protocols/msn/msnchatsession.cpp:374 protocols/msn/msnaccount.cpp:361
@@ -16294,15 +16294,15 @@ msgstr "網絡不能用"
 msgid "MSN Plugin"
 msgstr "MSN 插件"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:266
+#: protocols/msn/ui/msneditaccountwidget.cpp:267
 msgid "Here you can see a list of contacts who added you to their contact list"
 msgstr "在此你可看到將你加入到他們聯絡人清單的聯絡人"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:267
+#: protocols/msn/ui/msneditaccountwidget.cpp:268
 msgid "Reverse List - MSN Plugin"
 msgstr "反向清單 - MSN 插件"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:282
+#: protocols/msn/ui/msneditaccountwidget.cpp:283
 #, fuzzy
 #| msgid ""
 #| "<qt>An error occurred when trying to change the display picture.<br>Make "
@@ -17600,7 +17600,7 @@ msgid "Mobile"
 msgstr "手提電話:"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
-#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:271
+#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:273
 #: protocols/oscar/icq/icqprotocol.cpp:121
 #: protocols/oscar/oscaraccount.cpp:899 protocols/yahoo/yahooprotocol.cpp:76
 msgid "ICQ"
@@ -17771,27 +17771,27 @@ msgstr ""
 msgid "Organization & Affiliation Information"
 msgstr "位置及聯絡資訊"
 
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:360
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:623
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:653
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:722
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:723
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:362
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:625
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:655
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:724
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:725
 #, fuzzy
 msgctxt "Primary email address"
 msgid "Primary"
 msgstr "隱私"
 
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:410
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:623
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:639
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:722
-#: protocols/oscar/icq/ui/icquserinfowidget.cpp:723
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:412
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:625
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:641
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:724
+#: protocols/oscar/icq/ui/icquserinfowidget.cpp:725
 #, fuzzy
 msgctxt "Other email address"
 msgid "More"
 msgstr "更多..."
 
-#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:271
+#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:273
 #, fuzzy
 msgid "<qt>You must enter a valid ICQ Nr.</qt>"
 msgstr "<qt>你必須輸入有效的密碼。</qt>"
@@ -19545,7 +19545,7 @@ msgid "Buddy Icon Remote Url"
 msgstr "伙伴圖示遠端 URL"
 
 #: protocols/yahoo/yahooprotocol.cpp:66
-#: protocols/groupwise/ui/gwcontactproperties.cpp:118
+#: protocols/groupwise/ui/gwcontactproperties.cpp:119
 msgid "Title"
 msgstr "頭銜"
 
@@ -19708,7 +19708,7 @@ msgid "Buzz Contact"
 msgstr "向聯絡人發出「嗶」聲"
 
 #: protocols/yahoo/yahoochatsession.cpp:66
-#: protocols/jabber/jabberchatsession.cpp:93
+#: protocols/jabber/jabberchatsession.cpp:92
 #, fuzzy
 msgid "Send File"
 msgstr "傳送檔案(&F)..."
@@ -19879,26 +19879,26 @@ msgstr "無效的 Jabber ID"
 msgid "Jabber vCard"
 msgstr "Jabber vCard"
 
-#: protocols/jabber/ui/dlgjabbervcard.cpp:431
+#: protocols/jabber/ui/dlgjabbervcard.cpp:432
 msgid "vCard save sucessful."
 msgstr ""
 
-#: protocols/jabber/ui/dlgjabbervcard.cpp:436
+#: protocols/jabber/ui/dlgjabbervcard.cpp:437
 #, fuzzy
 msgid "Error: Unable to save vCard."
 msgstr "無法儲存 %1 的 vCard"
 
-#: protocols/jabber/ui/dlgjabbervcard.cpp:467
+#: protocols/jabber/ui/dlgjabbervcard.cpp:468
 msgid "vCard fetching Done."
 msgstr ""
 
-#: protocols/jabber/ui/dlgjabbervcard.cpp:471
+#: protocols/jabber/ui/dlgjabbervcard.cpp:472
 msgid ""
 "Error: vCard could not be fetched correctly. Check connectivity with the "
 "Jabber server."
 msgstr ""
 
-#: protocols/jabber/ui/dlgjabbervcard.cpp:490
+#: protocols/jabber/ui/dlgjabbervcard.cpp:491
 #, fuzzy
 msgid ""
 "<qt>An error occurred when trying to change the photo.<br />Make sure that "
@@ -20052,7 +20052,7 @@ msgid "Automatic (best/default resource)"
 msgstr "自動（最佳/預設資源）"
 
 #: protocols/jabber/jabbercontact.cpp:249
-#: protocols/jabber/jabberchatsession.cpp:71
+#: protocols/jabber/jabberchatsession.cpp:70
 #, fuzzy
 msgid "Voice call"
 msgstr "話音聊天"
@@ -20257,7 +20257,7 @@ msgid "You have been invited to %1"
 msgstr "你已經斷線了"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:102
-#: protocols/jabber/jabberchatsession.cpp:346
+#: protocols/jabber/jabberchatsession.cpp:345
 msgid "This message is encrypted."
 msgstr "此訊息已加密。"
 
@@ -20777,7 +20777,7 @@ msgstr ""
 msgid "Session in progress."
 msgstr ""
 
-#: protocols/jabber/jabberchatsession.cpp:126
+#: protocols/jabber/jabberchatsession.cpp:125
 #, qt-format
 msgctxt "a contact's online status in parenthesis."
 msgid " (%1)"
@@ -21053,13 +21053,13 @@ msgid ""
 "could not be delivered. Reason: %2"
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/groupwise/ui/gweditaccountwidget.cpp:109
+#: protocols/groupwise/ui/gweditaccountwidget.cpp:110
 msgid ""
 "The changes you just made will take effect next time you log in with "
 "GroupWise."
 msgstr "你剛作的更改會於你下次登入 GroupWise 時生效。"
 
-#: protocols/groupwise/ui/gweditaccountwidget.cpp:110
+#: protocols/groupwise/ui/gweditaccountwidget.cpp:111
 msgid "GroupWise Settings Changed While Signed In"
 msgstr "登入後 GroupWise 設置曾被更改"
 
@@ -21077,21 +21077,21 @@ msgstr "管理 %1 的隱私"
 msgid "Privacy settings have been administratively locked"
 msgstr "隱私設置已被管理員鎖定"
 
-#: protocols/groupwise/ui/gwprivacydialog.cpp:111
+#: protocols/groupwise/ui/gwprivacydialog.cpp:112
 msgid "<Everyone Else>"
 msgstr "<其他所有人>"
 
-#: protocols/groupwise/ui/gwprivacydialog.cpp:191
+#: protocols/groupwise/ui/gwprivacydialog.cpp:192
 msgid "Search for Contact to Block"
 msgstr "搜尋要封鎖的聯絡人"
 
-#: protocols/groupwise/ui/gwprivacydialog.cpp:362
+#: protocols/groupwise/ui/gwprivacydialog.cpp:363
 msgid ""
 "You can only change privacy settings while you are logged in to the "
 "GroupWise Messenger server."
 msgstr "登入GroupWise Messenger 伺服器後才能更改隱私設置。"
 
-#: protocols/groupwise/ui/gwprivacydialog.cpp:362
+#: protocols/groupwise/ui/gwprivacydialog.cpp:363
 #, qt-format
 msgid "'%1' Not Logged In"
 msgstr "『%1』未登入"
@@ -21105,7 +21105,7 @@ msgstr "連接 GroupWise Messenger 及重試。"
 msgid "Search Chatrooms"
 msgstr "搜尋頻道(&S)"
 
-#: protocols/groupwise/ui/gwchatsearchdialog.cpp:71
+#: protocols/groupwise/ui/gwchatsearchdialog.cpp:72
 msgid "Updating chatroom list..."
 msgstr ""
 
@@ -21125,27 +21125,27 @@ msgid "1 matching user found"
 msgid_plural "%1 matching users found"
 msgstr[0] "找到 %1 個符合用戶"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:81
+#: protocols/groupwise/ui/gwcontactproperties.cpp:82
 msgid "Contact Properties"
 msgstr "聯絡人屬性"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:108
+#: protocols/groupwise/ui/gwcontactproperties.cpp:109
 msgid "Telephone Number"
 msgstr "電話號碼"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:110
+#: protocols/groupwise/ui/gwcontactproperties.cpp:111
 msgid "Department"
 msgstr "部門"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:112
+#: protocols/groupwise/ui/gwcontactproperties.cpp:113
 msgid "Location"
 msgstr "地點"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:114
+#: protocols/groupwise/ui/gwcontactproperties.cpp:115
 msgid "Mailstop"
 msgstr ""
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:116
+#: protocols/groupwise/ui/gwcontactproperties.cpp:117
 msgid "Personal Title"
 msgstr "個人頭銜"
 
