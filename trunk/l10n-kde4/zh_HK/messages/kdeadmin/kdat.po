@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdat 1.54\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:32+0200\n"
+"POT-Creation-Date: 2007-10-11 05:42+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -90,13 +90,15 @@ msgstr "*** 寫入失敗，正在放棄。"
 
 #: BackupDlg.cpp:418 BackupDlg.cpp:430 IndexDlg.cpp:351 VerifyDlg.cpp:401
 #: VerifyDlg.cpp:413
-#, qt-format
+#, kde-format
+#| msgctxt "Hours:minutes:seconds"
+#| msgid "%1:%2:%3"
 msgctxt "Hours:minutes:seconds"
 msgid "%1:%2:%3"
 msgstr ""
 
 #: BackupDlg.cpp:439 IndexDlg.cpp:360 VerifyDlg.cpp:422
-#, qt-format
+#, kde-format
 msgid "%1/min"
 msgstr "%1/分鐘"
 
@@ -261,12 +263,12 @@ msgid "Failed to skip tape ID."
 msgstr "跳過磁帶 ID 失敗。"
 
 #: IndexDlg.cpp:284
-#, qt-format
+#, kde-format
 msgid "Indexing archive %1."
 msgstr "正在對封存 %1 進行索引。"
 
 #: IndexDlg.cpp:287
-#, qt-format
+#, kde-format
 msgid "Archive %1"
 msgstr "封存 %1"
 
@@ -342,7 +344,7 @@ msgid "&Settings"
 msgstr ""
 
 #: KDatMainWindow.cpp:154
-#, qt-format
+#, kde-format
 msgid ""
 "KDat Version %1\n"
 "\n"
@@ -388,7 +390,7 @@ msgstr "卸載磁帶"
 #. i18n changes.  But, the program isn't very usable without this information.  Thanks. LEW
 #. (later today):  now the program works correctly!  Why?  Beats me!
 #: KDatMainWindow.cpp:418
-#, qt-format
+#, kde-format
 msgid ""
 "KDat will dump your files properly to tape, but may not be able\n"
 "to restore them. To restore your files by hand, you need to know\n"
@@ -398,7 +400,7 @@ msgstr ""
 "要手動回存檔案，你要知道你的 %1 磁帶裝置的 *不回捲* 版本的名稱。\n"
 
 #: KDatMainWindow.cpp:422
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "For example, if your device is /dev/st0, the non-rewinding version\n"
 "is /dev/nst0. If your device name doesn't look like that, type\n"
@@ -423,7 +425,7 @@ msgstr ""
 " - KDat 維護隊伍\n"
 
 #: KDatMainWindow.cpp:448
-#, qt-format
+#, kde-format
 msgid "Archive created on %1"
 msgstr "封存建立時間為 %1"
 
@@ -436,7 +438,7 @@ msgid "Backup canceled."
 msgstr "備份已取消。"
 
 #: KDatMainWindow.cpp:485
-#, qt-format
+#, kde-format
 msgid ""
 "WARNING: The estimated archive size is %1 KB but the tape has only %2 KB of "
 "space!\n"
@@ -511,7 +513,7 @@ msgid "Verify aborted."
 msgstr "已中止檢驗。"
 
 #: KDatMainWindow.cpp:694 KDatMainWindow.cpp:844
-#, qt-format
+#, kde-format
 msgid ""
 "There appears to be no tape in the drive %1. Please\n"
 "check \"Edit->Preferences\" to make sure the\n"
@@ -538,7 +540,7 @@ msgid "Overwrite"
 msgstr "覆蓋"
 
 #: KDatMainWindow.cpp:729 KDatMainWindow.cpp:1234
-#, qt-format
+#, kde-format
 msgid "KDat: %1"
 msgstr "KDat: %1"
 
@@ -560,7 +562,7 @@ msgstr ""
 "要刪除封存，必須要先在樹狀結構中選取要刪除的封存。"
 
 #: KDatMainWindow.cpp:778
-#, qt-format
+#, kde-format
 msgid ""
 "An archive cannot be removed from the middle of the tape. If\n"
 "the archive '%1' is deleted then\n"
@@ -586,7 +588,7 @@ msgid "Archives deleted."
 msgstr "封存已刪除。"
 
 #: KDatMainWindow.cpp:792
-#, qt-format
+#, kde-format
 msgid "Really delete the archive '%1'?"
 msgstr "真的要刪除封存『%1』？"
 
@@ -617,7 +619,7 @@ msgstr ""
 "卸載磁帶，然後重試。"
 
 #: KDatMainWindow.cpp:826
-#, qt-format
+#, kde-format
 msgid "Really delete the index for '%1'?"
 msgstr "真的要刪除『%1』的索引嗎？"
 
@@ -650,7 +652,7 @@ msgid "Format"
 msgstr "格式化"
 
 #: KDatMainWindow.cpp:867
-#, qt-format
+#, kde-format
 msgid "Tape created on %1"
 msgstr "磁帶建立的時間是 %1"
 
@@ -663,7 +665,7 @@ msgid "Format complete."
 msgstr "完成格式化。"
 
 #: KDatMainWindow.cpp:900
-#, qt-format
+#, kde-format
 msgid "Backup Profile %1"
 msgstr "備份設定檔 %1"
 
@@ -680,7 +682,7 @@ msgstr ""
 "要刪除備份設定檔，必須要先在樹狀結構中選取要刪除的備份設定檔。"
 
 #: KDatMainWindow.cpp:948
-#, qt-format
+#, kde-format
 msgid "Really delete backup profile '%1'?"
 msgstr "真的要刪除備份設定檔『%1』？"
 
@@ -719,7 +721,7 @@ msgid "Tape mounted."
 msgstr "磁帶已掛載。"
 
 #: KDatMainWindow.cpp:1104
-#, qt-format
+#, kde-format
 msgid "Estimating backup size: %1, %2"
 msgstr "正在估計備份的大小: %1, %2"
 
@@ -842,7 +844,7 @@ msgid "Index File Error"
 msgstr "索引檔案錯誤"
 
 #: Tape.cpp:225
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The tape index file format is version %1. The index cannot be read by this "
 "version of KDat. Perhaps the tape index file was created by a newer version "

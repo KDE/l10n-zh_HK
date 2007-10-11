@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:34+0200\n"
+"POT-Creation-Date: 2007-10-11 05:43+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,8 +33,8 @@ msgid ""
 msgstr ""
 
 #: ui/sessionwidget.cpp:252 ui/sessionwidget.cpp:393 ui/sessionwidget.cpp:521
-#: ui/sessionwidget.cpp:526 ui/sessionwidget.cpp:532 ui/sessionwidget.cpp:676
-#: ui/sessionwidget.cpp:787
+#: ui/sessionwidget.cpp:526 ui/sessionwidget.cpp:532 ui/sessionwidget.cpp:681
+#: ui/sessionwidget.cpp:792
 msgid "Checking..."
 msgstr "正在檢查..."
 
@@ -42,7 +42,7 @@ msgstr "正在檢查..."
 msgid "Cowardly refusing to check an empty URL."
 msgstr "小心翼翼地避開了空白 URL。"
 
-#: ui/sessionwidget.cpp:394 ui/sessionwidget.cpp:476 ui/sessionwidget.cpp:788
+#: ui/sessionwidget.cpp:394 ui/sessionwidget.cpp:476 ui/sessionwidget.cpp:793
 msgid "Stopped"
 msgstr "已停止"
 
@@ -67,26 +67,26 @@ msgstr ""
 msgid "Adding level..."
 msgstr "正在加入等級..."
 
-#: ui/sessionwidget.cpp:686
+#: ui/sessionwidget.cpp:691
 msgid "Resuming"
 msgstr ""
 
-#: ui/sessionwidget.cpp:747
+#: ui/sessionwidget.cpp:752
 msgid "Export Results as HTML"
 msgstr ""
 
-#: ui/sessionwidget.cpp:764
+#: ui/sessionwidget.cpp:769
 msgid ""
 "Use a protocol different than HTTP, e.g., file, ftp, sftp, fish, etc, so the "
 "files can be saved."
 msgstr ""
 
-#: ui/sessionwidget.cpp:776
+#: ui/sessionwidget.cpp:781
 #, fuzzy
 msgid "Checking"
 msgstr "正在檢查..."
 
-#: ui/sessionwidget.cpp:804
+#: ui/sessionwidget.cpp:809
 msgid "Done rechecking "
 msgstr ""
 
@@ -176,10 +176,10 @@ msgid "ROOT URL."
 msgstr "ROOT URL。"
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 31
+#. i18n: file klinkstatus_part.rc line 32
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 31
-#: ui/treeview.cpp:374 rc.cpp:15 rc.cpp:297
+#. i18n: file ./klinkstatus_part.rc line 32
+#: ui/treeview.cpp:374 rc.cpp:15 rc.cpp:300
 #, fuzzy
 #| msgid "Check"
 msgid "Recheck"
@@ -323,77 +323,90 @@ msgstr ""
 msgid "&Follow last Link checked"
 msgstr "跟隨上一次檢查的連結"
 
-#: actionmanager.cpp:165
+#: actionmanager.cpp:164
+#, fuzzy
+msgid "&Do not follow last Link checked"
+msgstr "跟隨上一次檢查的連結"
+
+#: actionmanager.cpp:168
 msgid "&Hide Search Panel"
 msgstr ""
 
-#: actionmanager.cpp:169
+#: actionmanager.cpp:172
 msgid "&Show Search Panel"
 msgstr ""
 
-#: actionmanager.cpp:172
+#: actionmanager.cpp:175
 msgid "&Reset Search Options"
 msgstr ""
 
-#: actionmanager.cpp:179
+#: actionmanager.cpp:180
+msgid "&Disable Updates on Results Table"
+msgstr ""
+
+#: actionmanager.cpp:185
+msgid "&Enable Updates on Results Table"
+msgstr ""
+
+#: actionmanager.cpp:191
 #, fuzzy
 msgid "&Start Search"
 msgstr "搜尋"
 
-#: actionmanager.cpp:185
+#: actionmanager.cpp:197
 #, fuzzy
 msgid "&Pause Search"
 msgstr "搜尋"
 
-#: actionmanager.cpp:191
+#: actionmanager.cpp:203
 #, fuzzy
 msgid "St&op Search"
 msgstr "搜尋"
 
-#: actionmanager.cpp:197
+#: actionmanager.cpp:209
 #, fuzzy
 #| msgid "Broken Links"
 msgid "&Broken Links"
 msgstr "破斷的連結"
 
-#: actionmanager.cpp:203
+#: actionmanager.cpp:215
 msgid "&Displayed Links"
 msgstr ""
 
-#: actionmanager.cpp:209
+#: actionmanager.cpp:221
 msgid "&Unreferred Documents..."
 msgstr ""
 
-#: actionmanager.cpp:217
+#: actionmanager.cpp:229
 msgid "&Fix All..."
 msgstr ""
 
-#: actionmanager.cpp:225
+#: actionmanager.cpp:237
 #, fuzzy
 msgid "Check Links"
 msgstr "正在檢查..."
 
 #. i18n: tag string
 #. i18n: file ./ui/unreferreddocumentswidget.ui line 120
-#: actionmanager.cpp:231 rc.cpp:173
+#: actionmanager.cpp:243 rc.cpp:173
 msgid "Unreferred Documents"
 msgstr ""
 
-#: actionmanager.cpp:237
+#: actionmanager.cpp:249
 msgid "Previous View"
 msgstr ""
 
-#: actionmanager.cpp:243
+#: actionmanager.cpp:255
 msgid "Next View"
 msgstr ""
 
-#: actionmanager.cpp:249
+#: actionmanager.cpp:261
 #, fuzzy
 #| msgid "Session"
 msgid "Previous Session"
 msgstr "工作階段"
 
-#: actionmanager.cpp:255
+#: actionmanager.cpp:267
 #, fuzzy
 #| msgid "Session"
 msgid "Next Session"
@@ -407,7 +420,7 @@ msgstr "工作階段"
 #. i18n: file ./klinkstatus_shell.rc line 5
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 5
-#: rc.cpp:3 rc.cpp:36 rc.cpp:267 rc.cpp:285
+#: rc.cpp:3 rc.cpp:36 rc.cpp:270 rc.cpp:288
 msgid "&File"
 msgstr ""
 
@@ -419,7 +432,7 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 27
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 14
-#: rc.cpp:6 rc.cpp:51 rc.cpp:282 rc.cpp:288
+#: rc.cpp:6 rc.cpp:51 rc.cpp:285 rc.cpp:291
 msgid "&Settings"
 msgstr ""
 
@@ -431,76 +444,76 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 11
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 19
-#: rc.cpp:9 rc.cpp:39 rc.cpp:270 rc.cpp:291
+#: rc.cpp:9 rc.cpp:39 rc.cpp:273 rc.cpp:294
 msgid "&View"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 26
+#. i18n: file klinkstatus_part.rc line 27
 #. i18n: tag text
 #. i18n: file klinkstatus_shell.rc line 15
 #. i18n: tag text
 #. i18n: file ./klinkstatus_shell.rc line 15
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 26
-#: rc.cpp:12 rc.cpp:42 rc.cpp:273 rc.cpp:294
+#. i18n: file ./klinkstatus_part.rc line 27
+#: rc.cpp:12 rc.cpp:42 rc.cpp:276 rc.cpp:297
 #, fuzzy
 msgid "S&earch"
 msgstr "搜尋"
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 39
+#. i18n: file klinkstatus_part.rc line 40
 #. i18n: tag text
 #. i18n: file klinkstatus_shell.rc line 19
 #. i18n: tag text
 #. i18n: file ./klinkstatus_shell.rc line 19
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 39
-#: rc.cpp:18 rc.cpp:45 rc.cpp:276 rc.cpp:300
+#. i18n: file ./klinkstatus_part.rc line 40
+#: rc.cpp:18 rc.cpp:45 rc.cpp:279 rc.cpp:303
 msgid "&Validate"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 44
+#. i18n: file klinkstatus_part.rc line 45
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 44
-#: rc.cpp:21 rc.cpp:303
+#. i18n: file ./klinkstatus_part.rc line 45
+#: rc.cpp:21 rc.cpp:306
 msgid "Manual Fix"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 51
+#. i18n: file klinkstatus_part.rc line 52
 #. i18n: tag text
 #. i18n: file klinkstatus_shell.rc line 23
 #. i18n: tag text
 #. i18n: file ./klinkstatus_shell.rc line 23
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 51
-#: rc.cpp:24 rc.cpp:48 rc.cpp:279 rc.cpp:306
+#. i18n: file ./klinkstatus_part.rc line 52
+#: rc.cpp:24 rc.cpp:48 rc.cpp:282 rc.cpp:309
 msgid "&Window"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 55
+#. i18n: file klinkstatus_part.rc line 56
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 55
-#: rc.cpp:27 rc.cpp:309
+#. i18n: file ./klinkstatus_part.rc line 56
+#: rc.cpp:27 rc.cpp:312
 msgid "Navigation"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 67
+#. i18n: file klinkstatus_part.rc line 68
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 67
-#: rc.cpp:30 rc.cpp:312
+#. i18n: file ./klinkstatus_part.rc line 68
+#: rc.cpp:30 rc.cpp:315
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file klinkstatus_part.rc line 75
+#. i18n: file klinkstatus_part.rc line 76
 #. i18n: tag text
-#. i18n: file ./klinkstatus_part.rc line 75
-#: rc.cpp:33 rc.cpp:315
+#. i18n: file ./klinkstatus_part.rc line 76
+#: rc.cpp:33 rc.cpp:318
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr ""
@@ -546,7 +559,7 @@ msgstr "遞迴地(&Y):"
 #. i18n: tag string
 #. i18n: file ./ui/sessionwidgetbase.ui line 193
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 263
+#. i18n: file ./ui/settings/configsearchdialog.ui line 299
 #: rc.cpp:68 rc.cpp:122
 msgid "Unlimited"
 msgstr "不限制"
@@ -601,68 +614,68 @@ msgid "Elapsed time: "
 msgstr "持續時間："
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 22
+#. i18n: file ./ui/settings/configsearchdialog.ui line 31
 #: rc.cpp:95
 msgid "Network"
 msgstr "網絡"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 100
+#. i18n: file ./ui/settings/configsearchdialog.ui line 119
 #: rc.cpp:98
 msgid "Number of simultaneous connections:"
 msgstr "同時連接數量："
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 118
+#. i18n: file ./ui/settings/configsearchdialog.ui line 135
 #: rc.cpp:101
 msgid "Timeout in seconds:"
 msgstr "時限(秒):"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 131
+#. i18n: file ./ui/settings/configsearchdialog.ui line 148
 #: rc.cpp:104
 msgid "Input"
 msgstr "輸入"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 169
+#. i18n: file ./ui/settings/configsearchdialog.ui line 198
 #: rc.cpp:107
 msgid "Check external links"
 msgstr "檢查網站以外的連結"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 187
+#. i18n: file ./ui/settings/configsearchdialog.ui line 214
 #: rc.cpp:110
 msgid "Number of items in URL history:"
 msgstr "URL 記錄歷史的項數："
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 197
+#. i18n: file ./ui/settings/configsearchdialog.ui line 224
 #: rc.cpp:113
 msgid "Check parent folders"
 msgstr "檢查上層目錄"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 218
+#. i18n: file ./ui/settings/configsearchdialog.ui line 254
 #: rc.cpp:116
 msgid "Recursive"
 msgstr "遞迴"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 241
+#. i18n: file ./ui/settings/configsearchdialog.ui line 277
 #: rc.cpp:119
 msgid "Depth:"
 msgstr "深度："
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 275
+#. i18n: file ./ui/settings/configsearchdialog.ui line 311
 #: rc.cpp:125
 msgid "Quanta"
 msgstr "Quanta"
 
 # (Abel) FIXME: what's this?
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 287
+#. i18n: file ./ui/settings/configsearchdialog.ui line 332
 #: rc.cpp:128
 msgid ""
 "Check this one if you want to use Quanta's project preview prefix in the URL "
@@ -670,13 +683,13 @@ msgid ""
 msgstr "如果您想在檢查 URL 時對它使用 Quanta 專案的預覽字首，就選這項。"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 290
+#. i18n: file ./ui/settings/configsearchdialog.ui line 335
 #: rc.cpp:131
 msgid "Use preview prefix"
 msgstr "使用預覽字首"
 
 #. i18n: tag string
-#. i18n: file ./ui/settings/configsearchdialog.ui line 303
+#. i18n: file ./ui/settings/configsearchdialog.ui line 348
 #: rc.cpp:134
 msgid "Remember settings when exit"
 msgstr "結束時記住設定"
@@ -819,70 +832,72 @@ msgstr "是否使用 Quanta 專案的預覽字首作為要檢查的 URL。"
 
 #. i18n: tag label
 #. i18n: file ./cfg/klinkstatus.kcfg line 57
-#: rc.cpp:221
-msgid "Whether to display a tree view or a flat view in the results view."
-msgstr "檢視結果時使用樹狀還是平面檢視模式。"
-
 #. i18n: tag label
 #. i18n: file ./cfg/klinkstatus.kcfg line 62
-#: rc.cpp:224
-msgid ""
-"Whether to automatically adjust the width of the result columns (Not used)."
-msgstr "要不要自動調整顯示結果的欄位寬度(沒有使用)。"
+#: rc.cpp:221 rc.cpp:224
+msgid "Whether to display a tree view or a flat view in the results view."
+msgstr "檢視結果時使用樹狀還是平面檢視模式。"
 
 #. i18n: tag label
 #. i18n: file ./cfg/klinkstatus.kcfg line 67
 #: rc.cpp:227
 msgid ""
-"Whether the viewport of the result view should follow the last link checked."
-msgstr "顯示結果時是否跟隨上一次檢查的連結。"
+"Whether to automatically adjust the width of the result columns (Not used)."
+msgstr "要不要自動調整顯示結果的欄位寬度(沒有使用)。"
 
 #. i18n: tag label
 #. i18n: file ./cfg/klinkstatus.kcfg line 72
 #: rc.cpp:230
-msgid "Whether to send an User-Agent in HTTP requests."
-msgstr ""
+msgid ""
+"Whether the viewport of the result view should follow the last link checked."
+msgstr "顯示結果時是否跟隨上一次檢查的連結。"
 
 #. i18n: tag label
 #. i18n: file ./cfg/klinkstatus.kcfg line 77
 #: rc.cpp:233
+msgid "Whether to send an User-Agent in HTTP requests."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./cfg/klinkstatus.kcfg line 82
+#: rc.cpp:236
 msgid "Defines the HTTP User-Agent to send."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 81
-#: rc.cpp:236
+#. i18n: file ./cfg/klinkstatus.kcfg line 86
+#: rc.cpp:239
 msgid ""
 "Whether the user can see if the markup is valid by showing a column with an "
 "icon indicator."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 90
-#: rc.cpp:239
+#. i18n: file ./cfg/klinkstatus.kcfg line 95
+#: rc.cpp:242
 msgid ""
 "This option specifies the number of spaces Tidy uses to indent content, when "
 "indentation is enabled."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 95
-#: rc.cpp:242
+#. i18n: file ./cfg/klinkstatus.kcfg line 100
+#: rc.cpp:245
 #, fuzzy
 msgid "Whether to do line wrapping."
 msgstr "要不要檢查該網站以外的連結"
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 100
-#: rc.cpp:245
+#. i18n: file ./cfg/klinkstatus.kcfg line 105
+#: rc.cpp:248
 msgid ""
 "This option specifies the right margin Tidy uses for line wrapping. Tidy "
 "tries to wrap lines so that they do not exceed this length."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 105
-#: rc.cpp:248
+#. i18n: file ./cfg/klinkstatus.kcfg line 110
+#: rc.cpp:251
 msgid ""
 "This option specifies if Tidy should output tag names in upper case. The "
 "default is no, which results in lower case tag names, except for XML input, "
@@ -890,8 +905,8 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 110
-#: rc.cpp:251
+#. i18n: file ./cfg/klinkstatus.kcfg line 115
+#: rc.cpp:254
 msgid ""
 "This option specifies if Tidy should output attribute names in upper case. "
 "The default is no, which results in lower case attribute names, except for "
@@ -899,8 +914,8 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 117
-#: rc.cpp:254
+#. i18n: file ./cfg/klinkstatus.kcfg line 122
+#: rc.cpp:257
 msgid ""
 "This option specifies the DOCTYPE declaration generated by Tidy. If set to "
 "\"omit\" the output won't contain a DOCTYPE declaration. If set to \"auto"
@@ -913,8 +928,8 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 122
-#: rc.cpp:258
+#. i18n: file ./cfg/klinkstatus.kcfg line 127
+#: rc.cpp:261
 msgid ""
 "This option specifies if Tidy should pretty print output, writing it as well-"
 "formed XML. Any entities not defined in XML 1.0 will be written as numeric "
@@ -923,8 +938,8 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 127
-#: rc.cpp:261
+#. i18n: file ./cfg/klinkstatus.kcfg line 132
+#: rc.cpp:264
 msgid ""
 "This option specifies if Tidy should strip out surplus presentational tags "
 "and attributes replacing them by style rules and structural markup as "
@@ -932,8 +947,8 @@ msgid ""
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ./cfg/klinkstatus.kcfg line 132
-#: rc.cpp:264
+#. i18n: file ./cfg/klinkstatus.kcfg line 137
+#: rc.cpp:267
 msgid ""
 "This option specifies the character encoding Tidy uses for both the input "
 "and output."

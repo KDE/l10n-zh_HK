@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_sambaconf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:32+0200\n"
+"POT-Creation-Date: 2007-10-11 05:41+0200\n"
 "PO-Revision-Date: 2006-01-02 22:10+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -25,14 +25,14 @@ msgstr "容讓所有使用者分享資料夾"
 #. i18n: tag string
 #. i18n: file ./simple/groupconfiggui.ui line 55
 #: rc.cpp:8 simple/groupconfigdlg.cpp:345
-#, no-c-format, qt-format
+#, no-c-format, kde-format
 msgid "Only users of the '%1' group are allowed to share folders"
 msgstr "只有『%1』群組的使用者可以分享資料夾"
 
 #. i18n: tag string
 #. i18n: file ./simple/groupconfiggui.ui line 68
 #: rc.cpp:12 simple/groupconfigdlg.cpp:347
-#, no-c-format, qt-format
+#, no-c-format, kde-format
 msgid "Users of '%1' Group"
 msgstr "『%1』群組的使用者"
 
@@ -5517,7 +5517,8 @@ msgid "Could not save settings."
 msgstr ""
 
 #: simple/fileshare.cpp:304
-#, qt-format
+#, kde-format
+#| msgid "Could not open file '%1' for writing: %2"
 msgid "Could not open file '%1' for writing: %2"
 msgstr ""
 
@@ -5542,7 +5543,8 @@ msgid "Allowed Users"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:136
-#, qt-format
+#, kde-format
+#| msgid "All users are in the %1 group already."
 msgid "All users are in the %1 group already."
 msgstr ""
 
@@ -5555,12 +5557,14 @@ msgid "Select a user:"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:181
-#, qt-format
+#, kde-format
+#| msgid "Could not add user '%1' to group '%2'"
 msgid "Could not add user '%1' to group '%2'"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:193
-#, qt-format
+#, kde-format
+#| msgid "Could not remove user '%1' from group '%2'"
 msgid "Could not remove user '%1' from group '%2'"
 msgstr ""
 
@@ -5593,17 +5597,20 @@ msgid "Choose Group..."
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:373
-#, qt-format
+#, kde-format
+#| msgid "Do you really want to remove all users from group '%1'?"
 msgid "Do you really want to remove all users from group '%1'?"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:390
-#, qt-format
+#, kde-format
+#| msgid "Do you really want to delete group '%1'?"
 msgid "Do you really want to delete group '%1'?"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:397
-#, qt-format
+#, kde-format
+#| msgid "Deleting group '%1' failed."
 msgid "Deleting group '%1' failed."
 msgstr ""
 
@@ -5612,7 +5619,8 @@ msgid "Please choose a valid group."
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:411
-#, qt-format
+#, kde-format
+#| msgid "This group '%1' does not exist. Should it be created?"
 msgid "This group '%1' does not exist. Should it be created?"
 msgstr ""
 
@@ -5625,7 +5633,8 @@ msgid "Do Not Create"
 msgstr ""
 
 #: simple/groupconfigdlg.cpp:418
-#, qt-format
+#, kde-format
+#| msgid "Creation of group '%1' failed."
 msgid "Creation of group '%1' failed."
 msgstr ""
 
@@ -5646,7 +5655,8 @@ msgid "No Hostname/IP-Address"
 msgstr ""
 
 #: advanced/nfs/nfshostdlg.cpp:173
-#, qt-format
+#, kde-format
+#| msgid "The host '%1' already exists."
 msgid "The host '%1' already exists."
 msgstr ""
 
@@ -5655,7 +5665,11 @@ msgid "Unnamed"
 msgstr ""
 
 #: advanced/kcm_sambaconf/linuxpermissionchecker.cpp:116
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>You have specified <b>public read access</b> for this directory, but "
+#| "the guest account <b>%1</b> does not have the necessary read permissions;"
+#| "<br />do you want to continue anyway?</qt>"
 msgid ""
 "<qt>You have specified <b>public read access</b> for this directory, but the "
 "guest account <b>%1</b> does not have the necessary read permissions;<br /"
@@ -5670,7 +5684,11 @@ msgid "Warning"
 msgstr ""
 
 #: advanced/kcm_sambaconf/linuxpermissionchecker.cpp:131
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>You have specified <b>public write access</b> for this directory, but "
+#| "the guest account <b>%1</b> does not have the necessary write permissions;"
+#| "<br />do you want to continue anyway?</qt>"
 msgid ""
 "<qt>You have specified <b>public write access</b> for this directory, but "
 "the guest account <b>%1</b> does not have the necessary write permissions;"
@@ -5678,7 +5696,11 @@ msgid ""
 msgstr ""
 
 #: advanced/kcm_sambaconf/linuxpermissionchecker.cpp:169
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>You have specified <b>write access</b> to the user <b>%1</b> for this "
+#| "directory, but the user does not have the necessary write permissions;"
+#| "<br />do you want to continue anyway?</qt>"
 msgid ""
 "<qt>You have specified <b>write access</b> to the user <b>%1</b> for this "
 "directory, but the user does not have the necessary write permissions;<br /"
@@ -5686,7 +5708,11 @@ msgid ""
 msgstr ""
 
 #: advanced/kcm_sambaconf/linuxpermissionchecker.cpp:192
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>You have specified <b>read access</b> to the user <b>%1</b> for this "
+#| "directory, but the user does not have the necessary read permissions;<br /"
+#| ">do you want to continue anyway?</qt>"
 msgid ""
 "<qt>You have specified <b>read access</b> to the user <b>%1</b> for this "
 "directory, but the user does not have the necessary read permissions;<br /"
@@ -5698,32 +5724,39 @@ msgid "Error while opening file"
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1120
-#, qt-format
+#, kde-format
+#| msgid "Joining the domain %1 failed."
 msgid "Joining the domain %1 failed."
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1188
-#, qt-format
+#, kde-format
+#| msgid "<qt>Please enter a password for the user <b>%1</b></qt>"
 msgid "<qt>Please enter a password for the user <b>%1</b></qt>"
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1196
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>Adding the user <b>%1</b> to the Samba user database failed.</qt>"
 msgid "<qt>Adding the user <b>%1</b> to the Samba user database failed.</qt>"
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1225
-#, qt-format
+#, kde-format
+#| msgid "Removing the user %1 from the Samba user database failed."
 msgid "Removing the user %1 from the Samba user database failed."
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1247
-#, qt-format
+#, kde-format
+#| msgid "Please enter a password for the user %1"
 msgid "Please enter a password for the user %1"
 msgstr ""
 
 #: advanced/kcm_sambaconf/kcmsambaconf.cpp:1253
-#, qt-format
+#, kde-format
+#| msgid "Changing the password of the user %1 failed."
 msgid "Changing the password of the user %1 failed."
 msgstr ""
 
@@ -5758,6 +5791,10 @@ msgid "Keep Hidden"
 msgstr ""
 
 #: advanced/kcm_sambaconf/hiddenfileview.cpp:407
+#, kde-format
+#| msgid ""
+#| "<b></b>Some files you have selected are matched by the wildcarded string "
+#| "<b>'%1'</b>; do you want to uncheck all files matching <b>'%1'</b>?"
 msgid ""
 "<b></b>Some files you have selected are matched by the wildcarded string "
 "<b>'%1'</b>; do you want to uncheck all files matching <b>'%1'</b>?"
@@ -5797,7 +5834,8 @@ msgid "Get smb.conf Location"
 msgstr ""
 
 #: advanced/kcm_sambaconf/smbconfconfigwidget.cpp:78
-#, qt-format
+#, kde-format
+#| msgid "<qt>The file <i>%1</i> could not be read.</qt>"
 msgid "<qt>The file <i>%1</i> could not be read.</qt>"
 msgstr ""
 
@@ -5822,7 +5860,8 @@ msgid "Admin"
 msgstr ""
 
 #: advanced/kcm_sambaconf/dictmanager.cpp:60
-#, qt-format
+#, kde-format
+#| msgid "The option <em>%1</em> is not supported by your Samba version"
 msgid "The option <em>%1</em> is not supported by your Samba version"
 msgstr ""
 
@@ -5926,7 +5965,10 @@ msgid "You have to enter a name for the Samba share."
 msgstr ""
 
 #: advanced/propsdlgplugin/propertiespage.cpp:529
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>There is already a share with the name <strong>%1</strong>.<br /> "
+#| "Please choose another name.</qt>"
 msgid ""
 "<qt>There is already a share with the name <strong>%1</strong>.<br /> Please "
 "choose another name.</qt>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdvi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:35+0200\n"
+"POT-Creation-Date: 2007-10-11 05:44+0200\n"
 "PO-Revision-Date: 2006-01-08 20:32+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: TeXFontDefinition.cpp:107
-#, qt-format
+#, kde-format
 msgid "Cannot find font %1, file %2."
 msgstr "找不到 %1 字型，檔案 %2 。"
 
 #: TeXFontDefinition.cpp:123
-#, qt-format
+#, kde-format
 msgid "Checksum mismatch for font file %1"
 msgstr "字型檔 %1 的檢驗值不符"
 
@@ -40,80 +40,80 @@ msgid "FreeType"
 msgstr "FreeType"
 
 #: TeXFontDefinition.cpp:171
-#, qt-format
+#, kde-format
 msgid "Cannot recognize format for font file %1"
 msgstr "無法識別字型檔 %1 的格式"
 
 #: TeXFont_PFB.cpp:42
-#, qt-format
+#, kde-format
 msgid ""
 "The font file %1 could be opened and read, but its font format is "
 "unsupported."
 msgstr "這個 %1 字型檔雖可開啟及讀取，但此種字型格式不被支援。"
 
 #: TeXFont_PFB.cpp:48
-#, qt-format
+#, kde-format
 msgid "The font file %1 is broken, or it could not be opened or read."
 msgstr "%1 字型檔破損，或無法被開啟或讀取。"
 
 #: TeXFont_PFB.cpp:169
-#, qt-format
+#, kde-format
 msgid ""
 "FreeType reported an error when setting the character size for font file %1."
 msgstr "調整 %1 字型檔的字元大小時， FreeType 回報錯誤。"
 
 #: TeXFont_PFB.cpp:185
-#, qt-format
+#, kde-format
 msgid "FreeType is unable to load glyph #%1 from font file %2."
 msgstr "FreeType 無法從 %2 字型檔載入 #%1 字形。"
 
 #: TeXFont_PFB.cpp:197
-#, qt-format
+#, kde-format
 msgid "FreeType is unable to render glyph #%1 from font file %2."
 msgstr "FreeType 無法從 %2 字型檔合成 #%1 字形。"
 
 #: TeXFont_PFB.cpp:210
-#, qt-format
+#, kde-format
 msgid "Glyph #%1 is empty."
 msgstr "字形 #%1 是空的。"
 
 #: TeXFont_PFB.cpp:211
-#, qt-format
+#, kde-format
 msgid "Glyph #%1 from font file %2 is empty."
 msgstr "字型檔 %2 中的字形 #%1 是空的。"
 
 #: TeXFont_PFB.cpp:279
-#, qt-format
+#, kde-format
 msgid "FreeType is unable to load metric for glyph #%1 from font file %2."
 msgstr "FreeType 無法從 %2 字型檔載入 #%1 字形的尺度資料。"
 
 #: TeXFont_PK.cpp:89
-#, qt-format
+#, kde-format
 msgid "Cannot open font file %1."
 msgstr "無法開啟字型檔 %1 。"
 
 #: TeXFont_PK.cpp:134
-#, qt-format
+#, kde-format
 msgid "TexFont_PK::operator[]: Character %1 not defined in font %2"
 msgstr "TexFont_PK::operator[]: 字元 %1 未有定義在字型 %2 中"
 
 #: TeXFont_PK.cpp:450
-#, qt-format
+#, kde-format
 msgid "Unexpected %1 in PK file %2"
 msgstr "在 PK 檔案 %2 中有未預期的 %1"
 
 #: TeXFont_PK.cpp:517
-#, qt-format
+#, kde-format
 msgid "The character %1 is too large in file %2"
 msgstr "字元 %1 在檔案 %2 中太大了"
 
 #: TeXFont_PK.cpp:622 TeXFont_PK.cpp:708
-#, qt-format
+#, kde-format
 msgid "Wrong number of bits stored:  char. %1, font %2"
 msgstr "儲存了錯誤的數字或位元: 字元 %1, 字型 %2"
 
 #: TeXFont_PK.cpp:624 TeXFont_PK.cpp:710
-#, qt-format
+#, kde-format
 msgid "Bad pk file (%1), too many bits"
 msgstr "不良的 PK 檔案 (%1), 太多位元"
 
@@ -148,7 +148,7 @@ msgid "The postamble contained a command other than FNTDEF."
 msgstr "完結部份含有非 FNTDEF 的指令。"
 
 #: dviFile.cpp:255
-#, qt-format
+#, kde-format
 msgid "The page %1 does not start with the BOP command."
 msgstr "第 %1 頁不以 BOP 指令開始。"
 
@@ -161,7 +161,20 @@ msgid "Could not load the DVI-file."
 msgstr "無法載入 DVI 檔。"
 
 #: dviFile.cpp:386
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><p>The external program <strong>pdf2ps</strong> could not be started. "
+#| "As a result, the PDF-file %1 could not be converted to PostScript. Some "
+#| "graphic elements in your document will therefore not be displayed.</"
+#| "p><p><b>Possible reason:</b> The program <strong>pdf2ps</strong> is "
+#| "perhaps not installed on your system, or it cannot be found in the "
+#| "current search path.</p><p><b>What you can do:</b> The program "
+#| "<strong>pdf2ps</strong> program is normally contained in distributions of "
+#| "the ghostscript PostScript interpreter system. If ghostscipt is not "
+#| "installed on your system, you could install it now. If you are sure that "
+#| "ghostscript is installed, please try to use <strong>pdf2ps</strong> from "
+#| "the command line to check if it really works.</p><p><b>PATH:</b> %2</p></"
+#| "qt>"
 msgid ""
 "<qt><p>The external program <strong>pdf2ps</strong> could not be started. As "
 "a result, the PDF-file %1 could not be converted to PostScript. Some graphic "
@@ -177,6 +190,13 @@ msgid ""
 msgstr ""
 
 #: dviFile.cpp:410
+#, kde-format
+#| msgid ""
+#| "<qt><p>The PDF-file %1 could not be converted to PostScript. Some graphic "
+#| "elements in your document will therefore not be displayed.</"
+#| "p><p><b>Possible reason:</b> The file %1 might be broken, or might not be "
+#| "a PDF-file at all. This is the output of the <strong>pdf2ps</strong> "
+#| "program that KDVI used:</p><p><strong>%2</strong></p></qt>"
 msgid ""
 "<qt><p>The PDF-file %1 could not be converted to PostScript. Some graphic "
 "elements in your document will therefore not be displayed.</p><p><b>Possible "
@@ -186,57 +206,68 @@ msgid ""
 msgstr ""
 
 #: dviRenderer.cpp:261
-#, qt-format
+#, kde-format
+#| msgid "Chapter %1"
 msgid "Chapter %1"
 msgstr ""
 
 #: dviRenderer.cpp:265
-#, qt-format
+#, kde-format
+#| msgid "Section %1"
 msgid "Section %1"
 msgstr ""
 
 #: dviRenderer.cpp:269
-#, qt-format
+#, kde-format
+#| msgid "Subsection %1"
 msgid "Subsection %1"
 msgstr ""
 
 #: dviRenderer.cpp:273
-#, qt-format
+#, kde-format
+#| msgid "Figure %1"
 msgid "Figure %1"
 msgstr ""
 
 #: dviRenderer.cpp:277
-#, qt-format
+#, kde-format
+#| msgid "Theorem %1"
 msgid "Theorem %1"
 msgstr ""
 
 #: dviRenderer.cpp:281
-#, qt-format
+#, kde-format
+#| msgid "Lemma %1"
 msgid "Lemma %1"
 msgstr ""
 
 #: dviRenderer.cpp:285
-#, qt-format
+#, kde-format
+#| msgid "Remark %1"
 msgid "Remark %1"
 msgstr ""
 
 #: dviRenderer.cpp:289
-#, qt-format
+#, kde-format
+#| msgid "Example %1"
 msgid "Example %1"
 msgstr ""
 
 #: dviRenderer.cpp:293
-#, qt-format
+#, kde-format
+#| msgid "Equation %1"
 msgid "Equation %1"
 msgstr ""
 
 #: dviRenderer.cpp:297
-#, qt-format
+#, kde-format
+#| msgid "Item %1"
 msgid "Item %1"
 msgstr ""
 
 #: dviRenderer.cpp:301
-#, qt-format
+#, kde-format
+#| msgid "Citation [%1]"
 msgid "Citation [%1]"
 msgstr ""
 
@@ -289,7 +320,7 @@ msgid ""
 msgstr "所有外部 PostScript 檔已經嵌入你的文件中。你最好現在儲存 DVI 檔。"
 
 #: dviRenderer.cpp:543
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><strong>File error.</strong> The specified file '%1' does not exist. "
 "KDVI already tried to add the ending '.dvi'.</qt>"
@@ -303,7 +334,7 @@ msgid "File Error"
 msgstr "檔案錯誤！"
 
 #: dviRenderer.cpp:556
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>Could not open file <nobr><strong>%1</strong></nobr> which has type "
 "<strong>%2</strong>. KDVI can only load DVI (.dvi) files.</qt>"
@@ -312,7 +343,7 @@ msgstr ""
 "strong>。KDVI 只能載入 DVI (.dvi) 檔。</qt>"
 
 #: dviRenderer.cpp:567
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>File corruption! KDVI had trouble interpreting the file <nobr><strong>%"
 "1</strong></nobr>. Most likely this means that the DVI file is broken.</qt>"
@@ -326,7 +357,7 @@ msgid ""
 msgstr "<qt>檔案有誤！KDVI 無法解譯您的 DVI 檔。很可能您的 DVI 檔已毀損。</qt>"
 
 #: dviRenderer.cpp:742
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>You have asked KDVI to locate the place in the DVI file which "
 "corresponds to line %1 in the TeX-file <strong>%2</strong>. It seems, "
@@ -343,7 +374,7 @@ msgid "Could Not Find Reference"
 msgstr "無法找到參考"
 
 #: dviRenderer.cpp:783
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>KDVI was not able to locate the place in the DVI file which corresponds "
 "to line %1 in the TeX-file <strong>%2</strong>.</qt>"
@@ -355,7 +386,7 @@ msgid "The DVI code set a character of an unknown font."
 msgstr "DVI 碼將字元設為不明的字型。"
 
 #: dviRenderer_draw.cpp:287 dviRenderer_prescan.cpp:646
-#, qt-format
+#, kde-format
 msgid "The DVI code referred to font #%1, which was not previously defined."
 msgstr "DVI 碼所參考的字型 #%1，事先並未被定義。"
 
@@ -376,40 +407,45 @@ msgid "An illegal command was encountered."
 msgstr "出現不合法的指令。"
 
 #: dviRenderer_draw.cpp:562
-#, qt-format
+#, kde-format
 msgid "The unknown op-code %1 was encountered."
 msgstr "出現未知的 op-code %1。"
 
 #: dviRenderer_prescan.cpp:87
-#, qt-format
+#, kde-format
 msgid "Embedding %1"
 msgstr "正在嵌入 %1"
 
 #: dviRenderer_prescan.cpp:102
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "Page %1: The PDF file <strong>%2</strong> could not be converted to "
 "PostScript.<br>"
 msgstr "第 %1 頁：PostScript 檔案找不到 <strong>%2</strong>。<br>"
 
 #: dviRenderer_prescan.cpp:104
-#, qt-format
+#, kde-format
 msgid ""
 "Page %1: The PostScript file <strong>%2</strong> could not be found.<br>"
 msgstr "第 %1 頁：PostScript 檔案找不到 <strong>%2</strong>。<br>"
 
 #: dviRenderer_prescan.cpp:253
-#, qt-format
+#, kde-format
 msgid "The papersize data '%1' could not be parsed."
 msgstr "紙張大小資料『%1』無法被解析。"
 
 #: dviRenderer_prescan.cpp:435
-#, qt-format
+#, kde-format
+#| msgid "Converting PDF-file %1..."
 msgid "Converting PDF-file %1..."
 msgstr ""
 
 #: dviRenderer_prescan.cpp:440
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><strong>File conversion error</strong> KDVI was not able to convert "
+#| "the external PDF file <strong>%1</strong> into PostScript. Expect missing "
+#| "graphics or graphic errors.</qt>"
 msgid ""
 "<qt><strong>File conversion error</strong> KDVI was not able to convert the "
 "external PDF file <strong>%1</strong> into PostScript. Expect missing "
@@ -421,7 +457,7 @@ msgid "PDF/PS conversion error"
 msgstr ""
 
 #: dviWidget.cpp:111
-#, qt-format
+#, kde-format
 msgid "line %1 of %2"
 msgstr "%2 列的第 %1 列"
 
@@ -455,7 +491,7 @@ msgid "Export File As"
 msgstr "匯出檔案為"
 
 #: dviexport.cpp:280 dviexport.cpp:365
-#, qt-format
+#, kde-format
 msgid ""
 "The file %1\n"
 "exists. Do you want to overwrite that file?"
@@ -493,7 +529,7 @@ msgid "dvipdfm progress dialog"
 msgstr "dvipdfm 進度對話框"
 
 #: dviexport.cpp:296
-#, qt-format
+#, kde-format
 msgid "Export: %1 to PDF"
 msgstr "匯出： %1 至 PDF"
 
@@ -558,7 +594,7 @@ msgid "dvips progress dialog"
 msgstr "dvips 進度對話框"
 
 #: dviexport.cpp:451
-#, qt-format
+#, kde-format
 msgid "Export: %1 to PostScript"
 msgstr "匯出：%1 至 PostScript"
 
@@ -573,7 +609,7 @@ msgstr ""
 "</strong>的檔案選單來得到更精確的錯誤訊息。</qt>"
 
 #: dvisourceeditor.cpp:53
-#, qt-format
+#, kde-format
 msgid ""
 "The DVI-file refers to the TeX-file <strong>%1</strong> which could not be "
 "found."
@@ -601,7 +637,7 @@ msgid "Use KDE's Editor Kate for Now"
 msgstr "現在使用 KDE 的 Kate 編輯器"
 
 #: dvisourceeditor.cpp:93
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>The external program<br><br><tt><strong>%1</strong></tt><br/><br/>which "
 "was used to call the editor for inverse search, reported an error. You might "
@@ -723,7 +759,7 @@ msgid "Font generation aborted - KDVI"
 msgstr "已中止產生字型 - KDVI"
 
 #: fontpool.cpp:564
-#, qt-format
+#, kde-format
 msgid "Currently generating %1 at %2 dpi"
 msgstr "正在產生 %2 dpi 的 %1"
 
@@ -910,7 +946,10 @@ msgid "Re-organisation of source code."
 msgstr ""
 
 #: kdvi_multipage.cpp:155
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>Error saving the document to the file <strong>%1</strong>. The "
+#| "document is <strong>not</strong> saved.</qt>"
 msgid ""
 "<qt>Error saving the document to the file <strong>%1</strong>. The document "
 "is <strong>not</strong> saved.</qt>"
@@ -938,7 +977,7 @@ msgid "Options for DVI Special Support"
 msgstr ""
 
 #: kdvi_multipage.cpp:208
-#, qt-format
+#, kde-format
 msgid "Print %1"
 msgstr "列印 %1"
 
@@ -1285,14 +1324,14 @@ msgid "That makes 25 errors. Further error messages will not be printed."
 msgstr "已產生 25 個錯誤。進一步的錯誤訊息將不再顯示。"
 
 #: special.cpp:219
-#, qt-format
+#, kde-format
 msgid ""
 "Error in DVIfile '%1', page %2. Color pop command issued when the color "
 "stack is empty."
 msgstr "DVI 檔『%1』，第 %2 頁有錯誤。顏色堆疊錯誤。"
 
 #: special.cpp:304
-#, qt-format
+#, kde-format
 msgid ""
 "Malformed parameter in the epsf special command.\n"
 "Expected a float to follow %1 in %2"
@@ -1301,7 +1340,7 @@ msgstr ""
 "預期在 %2 中跟隨 %1 的浮點點"
 
 #: special.cpp:441
-#, qt-format
+#, kde-format
 msgid ""
 "File not found: \n"
 " %1"
@@ -1310,14 +1349,14 @@ msgstr ""
 "%1"
 
 #: special.cpp:710
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "Error in DVIfile '%1', page %2. Could not interpret angle in text rotation "
 "special."
 msgstr "DVI 檔『%1』，第 %2 頁有錯誤。旋轉特殊文字時無法解譯角度。"
 
 #: special.cpp:733
-#, qt-format
+#, kde-format
 msgid "The special command '%1' is not implemented."
 msgstr "特殊命令『%1』尚未實作。"
 
@@ -1379,7 +1418,7 @@ msgid " ignored."
 msgstr " 已忽略。"
 
 #: vf.cpp:182
-#, qt-format
+#, kde-format
 msgid "Wrong command byte found in VF macro list: %1"
 msgstr "在 VF 巨集清單中找到錯誤的命令位元組: %1"
 

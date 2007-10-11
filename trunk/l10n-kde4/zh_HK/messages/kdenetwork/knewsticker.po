@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewsticker\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:32+0200\n"
+"POT-Creation-Date: 2007-10-11 05:41+0200\n"
 "PO-Revision-Date: 2006-01-08 17:21+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: traditional chinese <zh-l10n@linux.org.tw>\n"
@@ -69,7 +69,7 @@ msgid "Rotated scrolling text modes"
 msgstr "環迴文字捲軸模式"
 
 #: knewsticker.cpp:289
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Could not update news site '%1'.<br>The supplied resource file is "
 #| "probably invalid or broken.</qt>"
@@ -139,12 +139,12 @@ msgstr "未知的"
 #: knewstickerconfig.cpp:264 newsscroller.cpp:203 newsscroller.cpp:204
 #: knewstickerstub/knewstickerstub.cpp:59
 #: knewstickerstub/knewstickerstub.cpp:60
-#, qt-format
+#, kde-format
 msgid "Unknown %1"
 msgstr "未知的 %1"
 
 #: knewstickerconfig.cpp:329
-#, qt-format
+#, kde-format
 msgid "<p>Do you really want to remove %1 news source?</p>"
 msgid_plural "<p>Do you really want to remove these %1 news sources?</p>"
 msgstr[0] "<p>你真的要移除 %1 個新聞來源嗎？</p>"
@@ -162,12 +162,12 @@ msgid "&Add News Source"
 msgstr "新增新聞來源(&A)"
 
 #: knewstickerconfig.cpp:379
-#, qt-format
+#, kde-format
 msgid "&Modify '%1'"
 msgstr "更改『%1』(&M)"
 
 #: knewstickerconfig.cpp:381
-#, qt-format
+#, kde-format
 msgid "&Remove '%1'"
 msgstr "移除『%1』(&R)"
 
@@ -184,7 +184,7 @@ msgid "&Remove News Source"
 msgstr "移除新聞來源(&R)"
 
 #: newsscroller.cpp:194
-#, qt-format
+#, kde-format
 msgid "<p>Do you really want to add '%1' to the list of news sources?</p>"
 msgstr "<p>你真的要新增『%1』到新聞來源列表嗎？</p>"
 
@@ -1373,7 +1373,7 @@ msgid "Magazines"
 msgstr "雜誌"
 
 #: common/newsengine.cpp:221
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "<p>The program '%1' was terminated abnormally.<br>This can happen if it "
 #| "receives the SIGKILL signal.</p>"
@@ -1384,13 +1384,13 @@ msgstr ""
 "<p>程式『%1』被不正常地終止。<br>這可能是因為它收到了 SIGKILL 訊號。</P>"
 
 #: common/newsengine.cpp:236
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<p>Program output:<br>%1<br>"
 msgid "<br />Program output:<br />%1<br />"
 msgstr "<p>程式輸出：<br>%1<br>"
 
 #: common/newsengine.cpp:238
-#, qt-format
+#, kde-format
 msgid "An error occurred while updating the news source '%1'."
 msgstr "更新新聞來源時發生錯誤『%1』。"
 
@@ -1399,86 +1399,86 @@ msgid "KNewsTicker Error"
 msgstr "K新聞快報錯誤"
 
 #: common/newsengine.cpp:252
-#, qt-format
+#, kde-format
 msgid "The program '%1' could not be started at all."
 msgstr "『%1』程式完全無法啟動。"
 
 #: common/newsengine.cpp:253
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to read or write a file or directory which could not "
 "be found."
 msgstr "『%1』程式嘗試讀寫無法找到的檔案或目錄。"
 
 #: common/newsengine.cpp:255
-#, qt-format
+#, kde-format
 msgid "An error occurred while the program '%1' tried to read or write data."
 msgstr "『%1』程式嘗試讀寫資料時發生錯誤。"
 
 #: common/newsengine.cpp:257
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' was passed too many arguments. Please adjust the command "
 "line in the configuration dialog."
 msgstr "『%1』程式被傳遞過多參數。請在設定對話框中調整指令。"
 
 #: common/newsengine.cpp:259
-#, qt-format
+#, kde-format
 msgid ""
 "An external system program upon which the program '%1' relied could not be "
 "executed."
 msgstr "『%1』程式依賴的外部系統程式無法執行。"
 
 #: common/newsengine.cpp:261
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to read or write a file or directory but lacks the "
 "permission to do so."
 msgstr "『%1』程式嘗試讀寫檔案或目錄中，但沒有足夠的權限執行。"
 
 #: common/newsengine.cpp:263
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a device which was not available."
 msgstr "『%1』程式嘗試存取無法用的裝置。"
 
 #: common/newsengine.cpp:265
-#, qt-format
+#, kde-format
 msgid "There is no more space left on the device used by the program '%1'."
 msgstr "『%1』程式使用的裝置沒有足夠空間。"
 
 #: common/newsengine.cpp:267
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to create a temporary file on a read only file system."
 msgstr "『%1』程式嘗試在唯讀的檔案系統上建立暫存檔。"
 
 #: common/newsengine.cpp:269
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to call a function which is not implemented or "
 "attempted to access an external resource which does not exist."
 msgstr "『%1』程式嘗試呼叫一個未有實作的函數、或企圖存取不存在的外部資源。"
 
 #: common/newsengine.cpp:272
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' was unable to retrieve input data and was therefore unable "
 "to return any XML data."
 msgstr "『%1』程式無法取回輸入資料，因此無法傳回任何 XML 資料。"
 
 #: common/newsengine.cpp:274
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to access a host which is not connected to a network."
 msgstr "『%1』程式嘗試存取沒有連到網絡的主機。"
 
 #: common/newsengine.cpp:276
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a protocol which is not implemented."
 msgstr "『%1』程式嘗試存取未有實作的通訊協定。"
 
 #: common/newsengine.cpp:278
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' requires you to configure a destination address to retrieve "
 "data from. Please refer to the documentation of the program for information "
@@ -1487,53 +1487,53 @@ msgstr ""
 "『%1』程式要求您設定要取得的資料的目標位址。請查閱程式文件瞭解如何進行。"
 
 #: common/newsengine.cpp:281
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to use a socket type which is not supported by this "
 "system."
 msgstr "『%1』程式嘗試使用系統不支援的 socket 類型。"
 
 #: common/newsengine.cpp:283
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access an unreachable network."
 msgstr "『%1』不被此嘗試存取無法到達的網路。"
 
 #: common/newsengine.cpp:285
-#, qt-format
+#, kde-format
 msgid ""
 "The network the program '%1' was trying to access dropped the connection "
 "with a reset."
 msgstr "『%1』程式嘗試存取被中斷並重置的連線。"
 
 #: common/newsengine.cpp:287
-#, qt-format
+#, kde-format
 msgid "The connection of the program '%1' was reset by peer."
 msgstr "『%1』程式的連線已被對方重置。"
 
 #: common/newsengine.cpp:289
-#, qt-format
+#, kde-format
 msgid "The connection the program '%1' was trying to establish timed out."
 msgstr "『%1』程式嘗試建立的連線逾時。"
 
 #: common/newsengine.cpp:291
-#, qt-format
+#, kde-format
 msgid "The connection the program '%1' was trying to establish was refused."
 msgstr "『%1』程式嘗試建立的連線被拒絕。"
 
 #: common/newsengine.cpp:293
-#, qt-format
+#, kde-format
 msgid "The host the program '%1' was trying to reach is down."
 msgstr "『%1』程式嘗試聯繫的主機已停止。"
 
 #: common/newsengine.cpp:295
-#, qt-format
+#, kde-format
 msgid ""
 "The host the program '%1' was trying to reach is unreachable, no route to "
 "host."
 msgstr "『%1』程式嘗試聯繫的主機無法到達，沒有到達該主機的路由。"
 
 #: common/newsengine.cpp:297
-#, qt-format
+#, kde-format
 msgid ""
 "KNewsTicker could not execute the program '%1' because its executable bit "
 "was not set. You can mark that program as executable by executing the "
@@ -1549,37 +1549,37 @@ msgstr ""
 "『執行』，以允許目前的使用者可以執行此檔。</li></ul>"
 
 #: common/newsengine.cpp:305
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' sent a bad request which was not understood by the server."
 msgstr "『%1』程式送出有問題的請求，伺服器無法了解。"
 
 #: common/newsengine.cpp:307
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' failed to issue an authorization for an area which needs "
 "some form of authorization before it can be accessed."
 msgstr "『%1』程式在需要授權才能存取的區域未能發出授權。"
 
 #: common/newsengine.cpp:310
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' aborted because it could not access the data without paying "
 "for it."
 msgstr "『%1』程式中止，因為無法存取資料。"
 
 #: common/newsengine.cpp:312
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a forbidden source."
 msgstr "『%1』程式嘗試存取被禁止的來源。"
 
 #: common/newsengine.cpp:314
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access data which could not be found."
 msgstr "『%1』程式嘗試存取無法找到的資料。"
 
 #: common/newsengine.cpp:316
-#, qt-format
+#, kde-format
 msgid "The HTTP request of the program '%1' timed out."
 msgstr "『%1』程式的 HTTP 請求已逾時。"
 
@@ -1590,7 +1590,7 @@ msgid ""
 msgstr "伺服器遇到錯誤。看來你無法解決這個問題。"
 
 #: common/newsengine.cpp:319
-#, qt-format
+#, kde-format
 msgid ""
 "The HTTP protocol version used by the program '%1' was not understood by the "
 "HTTP server or source."

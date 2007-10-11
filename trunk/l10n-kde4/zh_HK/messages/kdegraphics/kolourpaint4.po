@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:32+0200\n"
+"POT-Creation-Date: 2007-10-11 05:41+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,13 +15,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lgpl/generic/kpColorCollection.cpp:118
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Could not open \"%1\"."
 msgid "Could not open color palette \"%1\"."
 msgstr "無法開啟「%1」。"
 
 #: lgpl/generic/kpColorCollection.cpp:157
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "Could not open \"%1\" - unsupported image format.\n"
 #| "The file may be corrupt."
@@ -33,19 +33,19 @@ msgstr ""
 "檔案可能已損壞。"
 
 #: lgpl/generic/kpColorCollection.cpp:208
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Could not open \"%1\"."
 msgid "Could not open KDE color palette \"%1\"."
 msgstr "無法開啟「%1」。"
 
 #: lgpl/generic/kpColorCollection.cpp:257
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Could not save as \"%1\"."
 msgid "Could not save color palette as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
 #: lgpl/generic/kpColorCollection.cpp:292
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "A document called \"%1\" already exists.\n"
 #| "Do you want to overwrite it?"
@@ -56,7 +56,7 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: lgpl/generic/kpColorCollection.cpp:296 document/kpDocument_Save.cpp:307
+#: lgpl/generic/kpColorCollection.cpp:296 document/kpDocument_Save.cpp:317
 msgid "Overwrite"
 msgstr "覆寫"
 
@@ -105,7 +105,7 @@ msgid "Save Preview"
 msgstr "儲存預覽"
 
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:140
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
 msgstr[0] "%1 位元組 (約為 %2%)"
@@ -156,7 +156,7 @@ msgid "&Vertical:"
 msgstr "垂直(&V):"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:252
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
@@ -174,7 +174,7 @@ msgid "Sk&ew Selection"
 msgstr "扭曲選取區域(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:267
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
@@ -203,7 +203,7 @@ msgstr "原來的："
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:242
-#, qt-format
+#, kde-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
@@ -265,7 +265,7 @@ msgid "C&ustom:"
 msgstr "自訂(&U):"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:271
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
@@ -283,7 +283,7 @@ msgid "Rotat&e Selection"
 msgstr "旋轉選取區域(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:286
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
@@ -379,7 +379,7 @@ msgid "Keep &aspect ratio"
 msgstr "保持長闊比例(&A)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:697
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
@@ -398,7 +398,7 @@ msgid "R&esize Text Box"
 msgstr "更改文字盒大小(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:711
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
@@ -418,7 +418,7 @@ msgid "R&esize Image"
 msgstr "更改圖像大小(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:729
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Scaling the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
@@ -436,7 +436,7 @@ msgid "Scal&e Image"
 msgstr "縮放圖像(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:743
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
@@ -455,7 +455,7 @@ msgid "Scal&e Selection"
 msgstr "縮放選取區域(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:761
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
@@ -474,7 +474,7 @@ msgid "Smooth Scal&e Image"
 msgstr "平滑縮放圖像(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:775
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
 "of memory. This can reduce system responsiveness and cause other application "
@@ -648,11 +648,16 @@ msgid "Value"
 msgstr "藍色(&B)"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:486
-#, qt-format
+#, kde-format
+#| msgid "The text value \"%1\" on line %2 requires a key."
 msgid "The text value \"%1\" on line %2 requires a key."
 msgstr ""
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:512
+#, kde-format
+#| msgid ""
+#| "All text keys must be unique.  The text key \"%1\" on lines %1 and %2 are "
+#| "identical."
 msgid ""
 "All text keys must be unique.  The text key \"%1\" on lines %1 and %2 are "
 "identical."
@@ -708,15 +713,15 @@ msgstr "將前景顏色以背景顏色代替"
 msgid "Click or drag to erase pixels of the foreground color."
 msgstr "單擊或拖曳擦走前景顏色的像素。"
 
-#: tools/flow/kpToolSpraycan.cpp:64
+#: tools/flow/kpToolSpraycan.cpp:61
 msgid "Spraycan"
 msgstr "噴潻罐"
 
-#: tools/flow/kpToolSpraycan.cpp:64
+#: tools/flow/kpToolSpraycan.cpp:61
 msgid "Sprays graffiti"
 msgstr "噴塗鴉"
 
-#: tools/flow/kpToolSpraycan.cpp:80
+#: tools/flow/kpToolSpraycan.cpp:78
 msgid "Click or drag to spray graffiti."
 msgstr "點擊或拖曳噴塗鴉。"
 
@@ -907,7 +912,7 @@ msgid "Selection: Move"
 msgstr "選取：移動"
 
 #: tools/selection/kpAbstractSelectionTool_Move.cpp:331
-#, qt-format
+#, kde-format
 msgid "%1: Smear"
 msgstr "%1: 塗上"
 
@@ -1031,7 +1036,7 @@ msgid "Draws connected lines"
 msgstr "繪畫連接的線條"
 
 #: tools/kpTool.cpp:160
-#, qt-format
+#, kde-format
 msgctxt "<Tool Name> (<Single Accel Key>)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -1045,7 +1050,7 @@ msgid "Left click to cancel."
 msgstr "按左鍵取消。"
 
 #: tools/kpTool_UserNotifications.cpp:98
-#, qt-format
+#, kde-format
 msgid "%1: "
 msgstr "%1: "
 
@@ -1055,7 +1060,7 @@ msgid "Unzoomed Mode - Thumbnail"
 msgstr "放大縮圖模式(&M)"
 
 #: views/kpZoomedThumbnailView.cpp:66
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1% - Thumbnail"
 msgstr "縮圖"
 
@@ -1172,7 +1177,7 @@ msgstr "扭曲"
 #: commands/imagelib/transforms/kpTransformRotateCommand.cpp:75
 #: commands/imagelib/effects/kpEffectClearCommand.cpp:62
 #: commands/imagelib/effects/kpEffectCommandBase.cpp:67
-#, qt-format
+#, kde-format
 msgid "Selection: %1"
 msgstr "選取：%1"
 
@@ -1251,7 +1256,7 @@ msgid "Invert Colors"
 msgstr "反白色彩"
 
 #: commands/kpCommandHistoryBase.cpp:447
-#, qt-format
+#, kde-format
 msgid "&Undo: %1"
 msgstr "復原(&U): %1"
 
@@ -1261,7 +1266,7 @@ msgid "&Undo"
 msgstr "復原(&U): %1"
 
 #: commands/kpCommandHistoryBase.cpp:458
-#, qt-format
+#, kde-format
 msgid "&Redo: %1"
 msgstr "取消復原(&R): %1"
 
@@ -1271,7 +1276,7 @@ msgid "&Redo"
 msgstr "紅色(&R)"
 
 #: commands/kpCommandHistoryBase.cpp:470
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Undo: %1"
 msgstr "復原(&U): %1"
 
@@ -1281,7 +1286,7 @@ msgid "Undo"
 msgstr "復原(&U): %1"
 
 #: commands/kpCommandHistoryBase.cpp:481
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Redo: %1"
 msgstr "取消復原(&R): %1"
 
@@ -1291,12 +1296,12 @@ msgid "Redo"
 msgstr "紅色"
 
 #: commands/kpCommandHistoryBase.cpp:626
-#, qt-format
+#, kde-format
 msgid "%1: %2"
 msgstr "%1: %2"
 
 #: commands/kpCommandHistoryBase.cpp:634
-#, qt-format
+#, kde-format
 msgid "%1 more item"
 msgid_plural "%1 more items"
 msgstr[0] "還有 %1 個項目"
@@ -1355,7 +1360,12 @@ msgid "Set as Image"
 msgstr "設為圖像"
 
 #: pixmapfx/kpPixmapFX_ScreenDepth.cpp:60
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><p>KolourPaint does not support the current screen depth of %1bpp. "
+#| "KolourPaint will attempt to start but may act unreliably.</p><p>To avoid "
+#| "this issue, please change your screen depth to 24bpp and then restart "
+#| "KolourPaint.</p></qt>"
 msgid ""
 "<qt><p>KolourPaint does not support the current screen depth of %1bpp. "
 "KolourPaint will attempt to start but may act unreliably.</p><p>To avoid "
@@ -1368,7 +1378,11 @@ msgid "Unsupported Screen Mode"
 msgstr ""
 
 #: pixmapfx/kpPixmapFX_ScreenDepth.cpp:85
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt><p>This effect does not support the current screen depth of %1bpp."
+#| "<p>To avoid this issue, please change your screen depth to 24bpp and then "
+#| "restart KolourPaint.</p></qt>"
 msgid ""
 "<qt><p>This effect does not support the current screen depth of %1bpp.<p>To "
 "avoid this issue, please change your screen depth to 24bpp and then restart "
@@ -1627,14 +1641,16 @@ msgid "KolourPaint Defaults"
 msgstr "KolourPaint"
 
 #: widgets/toolbars/kpColorToolBar.cpp:274
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "Colors: name_or_url_of_color_palette"
 msgid "Colors: %1"
 msgstr "色彩"
 
 #: widgets/toolbars/kpColorToolBar.cpp:281
-#, qt-format
+#, kde-format
+#| msgctxt "Colors: name_or_url_of_color_palette [modified]"
+#| msgid "Colors: %1 [modified]"
 msgctxt "Colors: name_or_url_of_color_palette [modified]"
 msgid "Colors: %1 [modified]"
 msgstr ""
@@ -1643,7 +1659,7 @@ msgstr ""
 #: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:119
 #: mainWindow/kpMainWindow_StatusBar.cpp:193
 #: mainWindow/kpMainWindow_StatusBar.cpp:222
-#, qt-format
+#, kde-format
 msgid "%1x%2"
 msgstr "%1x%2"
 
@@ -1680,7 +1696,7 @@ msgid "Backslash"
 msgstr "反斜線（Backslash）"
 
 #: widgets/toolbars/options/kpToolWidgetBrush.cpp:190
-#, qt-format
+#, kde-format
 msgid "%1x%2 %3"
 msgstr "%1x%2 %3"
 
@@ -1721,7 +1737,9 @@ msgid "24-bit Color"
 msgstr "24 位元色"
 
 #: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:225
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
 msgid "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
 msgstr ""
 
@@ -1836,7 +1854,7 @@ msgid "Export"
 msgstr "匯出(&X)..."
 
 #: mainWindow/kpMainWindow_File.cpp:1007
-#, qt-format
+#, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes since you last saved it.\n"
@@ -1855,7 +1873,7 @@ msgid "&Reload"
 msgstr "重新載入(&D)"
 
 #: mainWindow/kpMainWindow_File.cpp:1017
-#, qt-format
+#, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes.\n"
@@ -1895,7 +1913,7 @@ msgid "Could not change wallpaper."
 msgstr "無法更改牆紙。"
 
 #: mainWindow/kpMainWindow_File.cpp:1485
-#, qt-format
+#, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save it?"
@@ -1904,23 +1922,23 @@ msgstr ""
 "要儲存嗎？"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:145
-#, qt-format
+#, kde-format
 msgid "%1,%2"
 msgstr "%1,%2"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:152
-#, qt-format
+#, kde-format
 msgid "%1,%2 - %3,%4"
 msgstr "%1,%2 - %3,%4"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:248
-#, qt-format
+#, kde-format
 msgid "%1bpp"
 msgstr "%1bpp"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:272
 #: mainWindow/kpMainWindow_View_Zoom.cpp:90
-#, qt-format
+#, kde-format
 msgid "%1%"
 msgstr "%1%"
 
@@ -1995,7 +2013,7 @@ msgid "Color Box"
 msgstr "顏色盒"
 
 #: mainWindow/kpMainWindow_Colors.cpp:187
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
 #| "Do you want to save it?"
@@ -2007,7 +2025,7 @@ msgstr ""
 "要儲存嗎？"
 
 #: mainWindow/kpMainWindow_Colors.cpp:199
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
 #| "Do you want to save it?"
@@ -2037,7 +2055,7 @@ msgid "Open Color Palette"
 msgstr "色彩"
 
 #: mainWindow/kpMainWindow_Colors.cpp:342
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
 #| "Reloading will lose all changes since you last saved it.\n"
@@ -2052,7 +2070,7 @@ msgstr ""
 "確定嗎？"
 
 #: mainWindow/kpMainWindow_Colors.cpp:355
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
 #| "Reloading will lose all changes.\n"
@@ -2120,7 +2138,7 @@ msgid "Tool Box"
 msgstr "工具盒"
 
 #: mainWindow/kpMainWindow_Tools.cpp:625
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
@@ -2138,7 +2156,7 @@ msgid "Acquiring &Screenshots"
 msgstr "正在取得螢幕截圖(&S)"
 
 #: mainWindow/kpMainWindow_Help.cpp:134
-#, qt-format
+#, kde-format
 msgid ""
 "<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be placed "
 "into the clipboard and you will be able to paste it in KolourPaint.</"
@@ -2153,7 +2171,7 @@ msgstr ""
 "ksnapshot\">KSnapshot</a> 應用程式。</p>"
 
 #: mainWindow/kpMainWindow_Help.cpp:157
-#, qt-format
+#, kde-format
 msgid ""
 "<p>You do not appear to be running KDE.</p><p>Once you have loaded KDE:"
 "<br><blockquote>To acquire a screenshot, press <b>%1</b>.  The screenshot "
@@ -2171,7 +2189,7 @@ msgid "Acquiring Screenshots"
 msgstr "正在取得螢幕截圖"
 
 #: mainWindow/kpMainWindow_Edit.cpp:79
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The image to be pasted may have more colors than the current screen mode. "
 #| "In order to display it, some colors may be changed. Try increasing your "
@@ -2193,7 +2211,7 @@ msgstr ""
 "它亦包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模擬。"
 
 #: mainWindow/kpMainWindow_Edit.cpp:99
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid ""
 #| "The image to be pasted may have more colors than the current screen mode. "
 #| "In order to display it, some colors may be changed. Try increasing your "
@@ -2260,27 +2278,27 @@ msgstr ""
 "<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
 "是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
 
-#: mainWindow/kpMainWindow_Edit.cpp:855
+#: mainWindow/kpMainWindow_Edit.cpp:852
 msgid "Text: Delete Box"
 msgstr "文字：刪除盒子"
 
-#: mainWindow/kpMainWindow_Edit.cpp:856
+#: mainWindow/kpMainWindow_Edit.cpp:853
 msgid "Selection: Delete"
 msgstr "選取：刪除"
 
-#: mainWindow/kpMainWindow_Edit.cpp:925
+#: mainWindow/kpMainWindow_Edit.cpp:922
 msgid "Text: Finish"
 msgstr "文字：完成"
 
-#: mainWindow/kpMainWindow_Edit.cpp:926
+#: mainWindow/kpMainWindow_Edit.cpp:923
 msgid "Selection: Deselect"
 msgstr "選取：反選取"
 
-#: mainWindow/kpMainWindow_Edit.cpp:1003
+#: mainWindow/kpMainWindow_Edit.cpp:1000
 msgid "Copy to File"
 msgstr "複製至檔案"
 
-#: mainWindow/kpMainWindow_Edit.cpp:1049
+#: mainWindow/kpMainWindow_Edit.cpp:1046
 msgid "Paste From File"
 msgstr "從檔案貼上"
 
@@ -2289,7 +2307,7 @@ msgid "&Zoom"
 msgstr ""
 
 #: mainWindow/kpMainWindow_View_Zoom.cpp:191
-#, qt-format
+#, kde-format
 msgid ""
 "Setting the zoom level to a value that is not a multiple of 100% results in "
 "imprecise editing and redraw glitches.\n"
@@ -2299,7 +2317,7 @@ msgstr ""
 "確定要將縮放等級設至 %1% 嗎？"
 
 #: mainWindow/kpMainWindow_View_Zoom.cpp:196
-#, qt-format
+#, kde-format
 msgid "Set Zoom Level to %1%"
 msgstr "將縮放等級設至 %1%"
 
@@ -2392,7 +2410,7 @@ msgid "<empty>"
 msgstr "<空的>"
 
 #: document/kpDocument_Save.cpp:89
-#, qt-format
+#, kde-format
 msgid ""
 "URL: %1\n"
 "Mimetype: %2"
@@ -2405,7 +2423,7 @@ msgid "Internal Error"
 msgstr "內部錯誤"
 
 #: document/kpDocument_Save.cpp:128
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
 "color information.</p><p>Are you sure you want to save in this format?</p></"
@@ -2419,7 +2437,7 @@ msgid "Lossy File Format"
 msgstr "有損性檔案格式"
 
 #: document/kpDocument_Save.cpp:144
-#, qt-format
+#, kde-format
 msgid ""
 "<qt><p>Saving the image at the low color depth of %1-bit may result in the "
 "loss of color information. Any transparency will also be removed.</p><p>Are "
@@ -2432,17 +2450,17 @@ msgstr ""
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
-#: document/kpDocument_Save.cpp:269
+#: document/kpDocument_Save.cpp:279
 msgid "Could not save image - unable to create temporary file."
 msgstr "無法儲存圖像 - 無法建立暫存檔。"
 
-#: document/kpDocument_Save.cpp:276
-#, qt-format
+#: document/kpDocument_Save.cpp:286
+#, kde-format
 msgid "Could not save as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: document/kpDocument_Save.cpp:303
-#, qt-format
+#: document/kpDocument_Save.cpp:313
+#, kde-format
 msgid ""
 "A document called \"%1\" already exists.\n"
 "Do you want to overwrite it?"
@@ -2450,22 +2468,22 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: document/kpDocument_Save.cpp:440
+#: document/kpDocument_Save.cpp:450
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
 
 #: document/kpDocument_Open.cpp:201
-#, qt-format
+#, kde-format
 msgid "Could not open \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: document/kpDocument_Open.cpp:235
-#, qt-format
+#: document/kpDocument_Open.cpp:234
+#, kde-format
 msgid "Could not open \"%1\" - unknown mimetype."
 msgstr "無法開啟「%1」 - 未知的 mime 類型。"
 
-#: document/kpDocument_Open.cpp:249
-#, qt-format
+#: document/kpDocument_Open.cpp:259
+#, kde-format
 msgid ""
 "Could not open \"%1\" - unsupported image format.\n"
 "The file may be corrupt."
@@ -2473,8 +2491,8 @@ msgstr ""
 "無法開啟「%1」 - 不支援的圖像格式。\n"
 "檔案可能已損壞。"
 
-#: document/kpDocument_Open.cpp:257
-#, fuzzy, qt-format
+#: document/kpDocument_Open.cpp:267
+#, fuzzy, kde-format
 #| msgid ""
 #| "The image \"%1\" may have more colors than the current screen mode. In "
 #| "order to display it, some colors may be changed. Try increasing your "
@@ -2495,8 +2513,8 @@ msgstr ""
 "試將你的螢幕色彩深度增加至至少 %2bpp 。\n"
 "它亦包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模擬。"
 
-#: document/kpDocument_Open.cpp:278
-#, fuzzy, qt-format
+#: document/kpDocument_Open.cpp:288
+#, fuzzy, kde-format
 #| msgid ""
 #| "The image \"%1\" may have more colors than the current screen mode. In "
 #| "order to display it, some colors may be changed. Try increasing your "
@@ -2511,8 +2529,8 @@ msgstr ""
 "「%1」圖像可能包含多於目前螢幕模式的顏色。要顯示它，某些顏色可能會改變。請嘗"
 "試將你的螢幕色彩深度增加至至少 %2bpp 。"
 
-#: document/kpDocument_Open.cpp:288
-#, fuzzy, qt-format
+#: document/kpDocument_Open.cpp:298
+#, fuzzy, kde-format
 #| msgid ""
 #| "The image \"%1\" contains translucency which is not fully supported. The "
 #| "translucency data will be approximated with a 1-bit transparency mask."
@@ -2525,8 +2543,8 @@ msgstr ""
 "「%1」圖像包含本程式不完全支援的半透明資料。半透明資料會以 1 位元的透明遮罩模"
 "擬。"
 
-#: document/kpDocument_Open.cpp:304
-#, qt-format
+#: document/kpDocument_Open.cpp:314
+#, kde-format
 msgid "Could not open \"%1\" - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
 
