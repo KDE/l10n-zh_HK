@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:41+0200\n"
+"POT-Creation-Date: 2007-10-14 05:38+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "X-Generator: KBabel 0.9.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: main.cpp:110 mainwindow.cpp:71
+#: main.cpp:115 mainwindow.cpp:71
 msgid "KGet"
 msgstr "KGet"
 
-#: main.cpp:111
+#: main.cpp:116
 msgid "An advanced download manager for KDE"
 msgstr "KDE 先進的下載管理員"
 
-#: main.cpp:113
+#: main.cpp:118
 msgid ""
 "(C) 2005 - 2007, The KGet developers\n"
 "(C) 2001 - 2002, Patrick Charbonnier\n"
@@ -34,75 +34,75 @@ msgid ""
 "(C) 1998 - 2000, Matej Koss"
 msgstr ""
 
-#: main.cpp:117
+#: main.cpp:122
 msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
 msgstr ""
 
-#: main.cpp:119
+#: main.cpp:124
 msgid "Dario Massarin"
 msgstr ""
 
-#: main.cpp:119
+#: main.cpp:124
 msgid "Maintainer, Core Developer"
 msgstr ""
 
-#: main.cpp:120
+#: main.cpp:125
 msgid "Urs Wolfer"
 msgstr ""
 
-#: main.cpp:120
+#: main.cpp:125
 msgid "Core Developer"
 msgstr ""
 
-#: main.cpp:121
+#: main.cpp:126
 msgid "Manolo Valdes"
 msgstr ""
 
-#: main.cpp:121
+#: main.cpp:126
 msgid "Core Developer, Multithreaded Plugin Author"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:127
 msgid "Javier Goday"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:127
 msgid "Developer"
 msgstr ""
 
-#: main.cpp:123
+#: main.cpp:128
 msgid "Patrick Charbonnier"
 msgstr ""
 
-#: main.cpp:123 main.cpp:124 main.cpp:125
+#: main.cpp:128 main.cpp:129 main.cpp:130
 msgid "Former Developer"
 msgstr ""
 
-#: main.cpp:124
+#: main.cpp:129
 msgid "Carsten Pfeiffer"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:130
 msgid "Matej Koss"
 msgstr ""
 
-#: main.cpp:130
+#: main.cpp:135
 msgid "Start KGet with drop target"
 msgstr "使用拖放目標模式啟動 KGet"
 
-#: main.cpp:131
+#: main.cpp:136
 #, fuzzy
 #| msgid "Start KGet with drop target"
 msgid "Start KGet with hidden main window"
 msgstr "使用拖放目標模式啟動 KGet"
 
-#: main.cpp:132
+#: main.cpp:137
 #, fuzzy
 #| msgid "Start KGet with drop target"
 msgid "Start KGet without drop target animation"
 msgstr "使用拖放目標模式啟動 KGet"
 
-#: main.cpp:133
+#: main.cpp:138
 #, fuzzy
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
@@ -352,7 +352,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file conf/dlgappearance.ui line 31
-#: rc.cpp:30 ui/droptarget.cpp:340
+#: rc.cpp:30 ui/droptarget.cpp:342
 #, fuzzy
 #| msgid "Drop target"
 msgid "Drop Target"
@@ -526,28 +526,35 @@ msgid "Auto disconnect"
 msgstr "自動斷線開啟。"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferdialog.ui line 30
-#: rc.cpp:109
-msgid "Enter Url"
+#. i18n: file ui/newtransferwidget.ui line 25
+#: rc.cpp:109 core/kget.cpp:600 ui/newtransferdialog.cpp:33
+#, fuzzy
+msgid "New Download"
+msgstr "再次下載"
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 40
+#: rc.cpp:112
+msgid "Url"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/newtransferdialog.ui line 47
-#: rc.cpp:112
+#. i18n: file ui/newtransferwidget.ui line 50
+#: rc.cpp:115
 #, fuzzy
 msgid "Download Folder"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferdialog.ui line 73
-#: rc.cpp:115
+#. i18n: file ui/newtransferwidget.ui line 60
+#: rc.cpp:118
 #, fuzzy
 msgid "Transfer Group"
 msgstr "開啟傳輸(&T)"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferdialog.ui line 87
-#: rc.cpp:118
+#. i18n: file ui/newtransferwidget.ui line 90
+#: rc.cpp:121
 #, fuzzy
 #| msgid "Default folder:"
 msgid "Set as default folder"
@@ -555,76 +562,76 @@ msgstr "預設的資料夾:"
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 37
-#: rc.cpp:121 ui/transferdetails.cpp:36
+#: rc.cpp:124 ui/transferdetails.cpp:36
 msgid "Saving to:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 44
-#: rc.cpp:124 ui/transferdetails.cpp:35
+#: rc.cpp:127 ui/transferdetails.cpp:35
 msgid "Source:"
 msgstr "來源："
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 87
-#: rc.cpp:127
+#: rc.cpp:130
 msgid "<done> MiB of <todo> MiB"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 107
-#: rc.cpp:130 ui/transferdetails.cpp:37
+#: rc.cpp:133 ui/transferdetails.cpp:37
 msgid "Status:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 114
-#: rc.cpp:133
+#: rc.cpp:136
 msgid "<icon>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 121
-#: rc.cpp:136
+#: rc.cpp:139
 msgid "<status>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 138
-#: rc.cpp:139
+#: rc.cpp:142
 #, fuzzy
 msgid "<speed>"
 msgstr "速度"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 4
-#: rc.cpp:142
+#: rc.cpp:145
 #, fuzzy
 msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 12
-#: rc.cpp:145
+#: rc.cpp:148
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 21
-#: rc.cpp:148
+#: rc.cpp:151
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 33
-#: rc.cpp:151
+#: rc.cpp:154
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 36
-#: rc.cpp:154
+#: rc.cpp:157
 msgid "Main Toolbar"
 msgstr ""
 
@@ -632,7 +639,7 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140 core/kget.cpp:436 core/kget.cpp:658
+#: conf/dlgdirectories.cpp:140 core/kget.cpp:441 core/kget.cpp:663
 msgid "Error"
 msgstr ""
 
@@ -686,7 +693,7 @@ msgstr ""
 msgid "Transfer Plugin Options"
 msgstr ""
 
-#: conf/transfersgroupwidget.cpp:87 core/kget.cpp:501
+#: conf/transfersgroupwidget.cpp:87 core/kget.cpp:506
 #: core/transfergrouphandler.cpp:186
 #, fuzzy
 msgid "My Downloads"
@@ -708,13 +715,13 @@ msgstr "你確定要刪除這些傳輸嗎？"
 msgid "Rename"
 msgstr "預設的資料夾"
 
-#: core/kget.cpp:176
+#: core/kget.cpp:178
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:408
+#: core/kget.cpp:413
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -725,25 +732,20 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:409
+#: core/kget.cpp:414
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:435
+#: core/kget.cpp:440
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:595 ui/newtransferdialog.cpp:31 ui/newtransferdialog.cpp:39
-#, fuzzy
-msgid "New Download"
-msgstr "再次下載"
-
-#: core/kget.cpp:595
+#: core/kget.cpp:600
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:657
+#: core/kget.cpp:662
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -752,7 +754,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:669
+#: core/kget.cpp:674
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -763,12 +765,12 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:670
+#: core/kget.cpp:675
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:700
+#: core/kget.cpp:705
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -781,14 +783,12 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:828
+#: core/kget.cpp:829
 #, kde-format
-msgid ""
-"<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
-"<br/><i>%2</i></p>"
+msgid "<html><p>KLibLoader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:853
+#: core/kget.cpp:855
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -799,11 +799,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:855 core/kget.cpp:866
+#: core/kget.cpp:857 core/kget.cpp:868
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:864
+#: core/kget.cpp:866
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -874,42 +874,42 @@ msgstr "進度對話方塊"
 msgid "Speed"
 msgstr "速度"
 
-#: ui/droptarget.cpp:83
+#: ui/droptarget.cpp:84
 #, fuzzy
 msgid "Hide Drop Target"
 msgstr "隱藏拖放目標(&T)"
 
-#: ui/droptarget.cpp:84
+#: ui/droptarget.cpp:85
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:91
+#: ui/droptarget.cpp:92
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: ui/droptarget.cpp:262
+#: ui/droptarget.cpp:264
 #, fuzzy
 msgid "Show Main Window"
 msgstr "啟動時顯示主視窗"
 
-#: ui/droptarget.cpp:263
+#: ui/droptarget.cpp:265
 #, fuzzy
 msgid "Hide Main Window"
 msgstr "隱藏記錄視窗(&L)"
 
-#: ui/droptarget.cpp:341
+#: ui/droptarget.cpp:343
 msgid "You can drag download links into the drop target."
 msgstr ""
 
-#: ui/droptarget.cpp:387
+#: ui/droptarget.cpp:389
 msgid ""
 "Drop target has been hidden. If you want to show it again, go to Settings-"
 ">Configure KGet->Look & Feel."
 msgstr ""
 
-#: ui/droptarget.cpp:389
+#: ui/droptarget.cpp:391
 #, fuzzy
 msgid "Hiding drop target"
 msgstr "隱藏拖放目標(&T)"
