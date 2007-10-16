@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:42+0200\n"
+"POT-Creation-Date: 2007-10-16 05:33+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -30,49 +30,67 @@ msgstr "&Apt-File 更新"
 msgid "The %1 program needs to be installed"
 msgstr "需要安裝 %1 程式"
 
-#: findf.cpp:55
+#: findf.cpp:53
 msgid "Find File"
 msgstr "搜尋檔案"
 
-#: findf.cpp:58 search.cpp:46
+#: findf.cpp:56 search.cpp:46
 msgid "&Find"
 msgstr "搜尋(&F)"
 
-#: findf.cpp:69 search.cpp:43 search.cpp:54
+#: findf.cpp:67 search.cpp:43 search.cpp:54
 msgid "Find Package"
 msgstr "搜尋套件"
 
-#: findf.cpp:83
+#: findf.cpp:81
 msgid "Find:"
 msgstr "搜尋:"
 
-#: findf.cpp:90
+#: findf.cpp:88
 msgid "Installed"
 msgstr "已安裝"
 
-#: findf.cpp:92 kplview.cpp:59
+#: findf.cpp:90 kplview.cpp:58
 msgid "Package"
 msgstr "套件"
 
-#: findf.cpp:93
+#: findf.cpp:91
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: findf.cpp:98
+#: findf.cpp:96
 msgid "Also search uninstalled packages"
 msgstr "亦搜尋已反裝之套件"
 
-#: findf.cpp:101
+#: findf.cpp:99
 msgid "Also search uninstalled packages (apt-file needs to be installed)"
 msgstr "亦搜尋已反裝之套件（需要安裝 apt-file）"
 
-#: findf.cpp:180
+#: findf.cpp:178
 msgid "--Nothing found--"
 msgstr "--找不到任何東西--"
 
-#: findf.cpp:230
+#: findf.cpp:228
 msgid "Incorrect URL type"
 msgstr "不正確的 URL 類型"
+
+#: kpConfig.cpp:16
+#, fuzzy
+#| msgid "su command"
+msgid "Command"
+msgstr "su 指令"
+
+#: kpConfig.cpp:16
+#, fuzzy
+#| msgid "Execute Privileged Commands Using"
+msgid "Privilege Command"
+msgstr "執行特許的指令，使用"
+
+#: kpConfig.cpp:21
+#, fuzzy
+#| msgid "&Misc"
+msgid "Misc"
+msgstr "雜項(&M)"
 
 #: kpPty.cpp:157
 msgid ""
@@ -92,294 +110,228 @@ msgid ""
 "password.\n"
 msgstr "你要求的行動需要系統管理員（root）權限。請輸入你的 SUDO 密碼。\n"
 
-#: kpPty.cpp:179
+#: kpPty.cpp:181
 msgid "Login Problem: Please login manually"
 msgstr "登入問題：請手動登入"
 
-#: kpackage.cpp:106
-msgid "Find &Package..."
-msgstr "搜尋套件(&P)..."
-
-#: kpackage.cpp:112
-msgid "Find &File..."
-msgstr "搜尋檔案(&F)..."
-
-#: kpackage.cpp:117
-msgid "&Reload"
-msgstr ""
-
-#: kpackage.cpp:135
-msgid "&Expand Tree"
-msgstr "展開樹狀結構(&E)"
-
-#: kpackage.cpp:141
-msgid "&Collapse Tree"
-msgstr "摺疊樹狀結構(&C)"
-
-#: kpackage.cpp:146
-msgid "Clear &Marked"
-msgstr "清除已標記的(&M)"
-
-#: kpackage.cpp:150
-msgid "Mark &All"
-msgstr "全部標記(&A)"
-
-#: kpackage.cpp:154
-msgid "&Install"
-msgstr "安裝(&I)"
-
-#: kpackage.cpp:162
-msgid "&Uninstall"
-msgstr "反安裝(&U)"
-
-#: kpackage.cpp:170
-msgid "&Install Marked"
-msgstr "安裝已標記的(&I)"
-
-#: kpackage.cpp:175
-msgid "&Uninstall Marked"
-msgstr "反安裝已標記的(&U)"
-
-#: kpackage.cpp:189
-msgid "Configure &KPackage..."
-msgstr "設定 &KPackage..."
-
-#: kpackage.cpp:348
+#: kpackage.cpp:119
 msgid "Management Mode"
 msgstr "管理模式"
 
-#: kpackage.cpp:387
+#: kpackage.cpp:158
 msgid "Select Package"
 msgstr "選擇套件"
 
-#: kpackage.cpp:483
+#: kpackage.cpp:254
 #, kde-format
 msgid "Malformed URL: %1"
 msgstr "格式錯誤的 URL： %1"
 
-#: kpackage.cpp:529
+#: kpackage.cpp:300
 msgid "Open location:"
 msgstr "開啟位置:"
 
-#: kplview.cpp:61
+#: kpkg.cpp:107
+#, fuzzy
+#| msgid "Remote Host"
+msgid "remote &Host..."
+msgstr "遠端主機"
+
+#: kpkg.cpp:112
+#, fuzzy
+#| msgid "Remote Host"
+msgid "Recent Remote Hosts"
+msgstr "遠端主機"
+
+#: kpkg.cpp:125
+msgid "Find &Package..."
+msgstr "搜尋套件(&P)..."
+
+#: kpkg.cpp:131
+msgid "Find &File..."
+msgstr "搜尋檔案(&F)..."
+
+#: kpkg.cpp:136
+msgid "&Reload"
+msgstr ""
+
+#: kpkg.cpp:154
+msgid "&Expand Tree"
+msgstr "展開樹狀結構(&E)"
+
+#: kpkg.cpp:160
+msgid "&Collapse Tree"
+msgstr "摺疊樹狀結構(&C)"
+
+#: kpkg.cpp:165
+msgid "Clear &Marked"
+msgstr "清除已標記的(&M)"
+
+#: kpkg.cpp:169
+msgid "Mark &All"
+msgstr "全部標記(&A)"
+
+#: kpkg.cpp:173
+msgid "&Install"
+msgstr "安裝(&I)"
+
+#: kpkg.cpp:181
+msgid "&Uninstall"
+msgstr "反安裝(&U)"
+
+#: kpkg.cpp:189
+msgid "&Install Marked"
+msgstr "安裝已標記的(&I)"
+
+#: kpkg.cpp:194
+msgid "&Uninstall Marked"
+msgstr "反安裝已標記的(&U)"
+
+#: kpkg.cpp:208
+msgid "Configure &KPackage..."
+msgstr "設定 &KPackage..."
+
+#: kpkg.cpp:279
+#, fuzzy
+#| msgid "Remote Host"
+msgid "Name of Remote Host:"
+msgstr "遠端主機"
+
+#: kplview.cpp:60
 msgid "Mark"
 msgstr "標記"
 
-#: kplview.cpp:63
+#: kplview.cpp:62
 msgid "Summary"
 msgstr "摘要"
 
-#: kplview.cpp:65
+#: kplview.cpp:64
 msgid "Size"
 msgstr "大小"
 
-#: kplview.cpp:67
+#: kplview.cpp:66
 msgid "Version"
 msgstr "版本"
 
-#: kplview.cpp:69
+#: kplview.cpp:68
 msgid "Old Version"
 msgstr "舊版本"
 
-#: main.cpp:51
+#: main.cpp:50
 msgid "KDE Package installer"
 msgstr "KDE 套件安裝程式"
 
-#: main.cpp:67
+#: main.cpp:65
 msgid "KPackage"
 msgstr "KPackage"
 
-#: main.cpp:70
+#: main.cpp:68
 msgid "(c) 1999-2001, Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:72
+#: main.cpp:70
 msgid "Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:73
 msgid "Remote host for Debian APT, via SSH"
 msgstr "Debian APT 的遠端主機，透過 SSH"
 
-#: main.cpp:77
+#: main.cpp:75
 msgid "Package to install"
 msgstr "要安裝的套件"
 
-#: managementWidget.cpp:90
+#: managementWidget.cpp:87
 #, fuzzy
 #| msgid "Install Marked"
 msgid "Installed Packages"
 msgstr "安裝已標記的"
 
-#: managementWidget.cpp:91
+#: managementWidget.cpp:88
 #, fuzzy
 #| msgid "Packages"
 msgid "New Packages"
 msgstr "套件"
 
-#: managementWidget.cpp:92
+#: managementWidget.cpp:89
 #, fuzzy
 #| msgid "Replace Packages"
 msgid "Updated Packages"
 msgstr "取代套件"
 
-#: managementWidget.cpp:93
+#: managementWidget.cpp:90
 #, fuzzy
 #| msgid "available as"
 msgid "Available Packages"
 msgstr "存在於"
 
-#: managementWidget.cpp:94
+#: managementWidget.cpp:91
 #, fuzzy
 #| msgid "Packages"
 msgid "All Packages"
 msgstr "套件"
 
-#: managementWidget.cpp:133
+#: managementWidget.cpp:130
 msgid "Search: "
 msgstr "搜尋: "
 
-#: managementWidget.cpp:163
+#: managementWidget.cpp:160
 msgid "Uninstall Marked"
 msgstr "反安裝已標記的"
 
-#: managementWidget.cpp:167
+#: managementWidget.cpp:164
 msgid "Install Marked"
 msgstr "安裝已標記的"
 
-#: managementWidget.cpp:192 pkgOptions.cpp:399 pkgOptions.cpp:402
+#: managementWidget.cpp:189 pkgOptions.cpp:398 pkgOptions.cpp:401
 msgid "Uninstall"
 msgstr "反安裝"
 
-#: managementWidget.cpp:196 managementWidget.cpp:262 pkgOptions.cpp:383
-#: pkgOptions.cpp:386
+#: managementWidget.cpp:193 managementWidget.cpp:261 pkgOptions.cpp:382
+#: pkgOptions.cpp:385
 msgid "Install"
 msgstr "安裝"
 
-#: managementWidget.cpp:342
+#: managementWidget.cpp:341
 msgid "Building package tree"
 msgstr "正在建立套件的樹狀結構"
 
-#: options.cpp:59
-msgid "Options"
-msgstr ""
-
-#: options.cpp:73
-msgid "&Types"
-msgstr "類型(&T)"
-
-#: options.cpp:74
-msgid "Handle Package Type"
-msgstr "處理套件類型"
-
-#: options.cpp:76
-msgid "Remote Host"
-msgstr "遠端主機"
-
-#: options.cpp:77
-msgid "Use remote host (Debian APT only):"
-msgstr "使用遠端主機（只有 Debian APT）:"
-
-#: options.cpp:98
-msgid "Enable"
-msgstr "啟用"
-
-#: options.cpp:100
-msgid "Location of Packages"
-msgstr "套件的位置"
-
-#: options.cpp:105
-msgid "Cac&he"
-msgstr "快取(&H)"
-
-#: options.cpp:108
-msgid "Cache Remote Package Folders"
-msgstr "快取遠端套件資料夾"
-
-#: options.cpp:117 options.cpp:137
-msgid "Always"
-msgstr "永遠"
-
-#: options.cpp:120 options.cpp:140
-msgid "During a session"
-msgstr "工作階段期間"
-
-#: options.cpp:123 options.cpp:143
-msgid "Never"
-msgstr "永不"
-
-#: options.cpp:128
-msgid "Cache Remote Package Files"
-msgstr "快取遠端套件檔案"
-
-#: options.cpp:146
-msgid "Cache Folder"
-msgstr "快取資料夾"
-
-#: options.cpp:154
-msgid "&Misc"
-msgstr "雜項(&M)"
-
-#: options.cpp:161
-msgid "Execute Privileged Commands Using"
-msgstr "執行特許的指令，使用"
-
-#: options.cpp:170
-msgid "su command"
-msgstr "su 指令"
-
-#: options.cpp:173
-msgid "sudo command"
-msgstr "sudo 指令"
-
-#: options.cpp:176
-msgid "ssh command"
-msgstr "ssh 指令"
-
-#: options.cpp:180
-msgid "Verify file list"
-msgstr "檢驗檔案清單"
-
-#: options.cpp:184
-msgid "Read information from all local package files"
-msgstr "從所有本地端套件檔案讀取資訊"
-
-#: packageDisplay.cpp:97
+#: packageDisplay.cpp:96
 #, fuzzy
 msgid "Properties"
 msgstr "Ports"
 
-#: packageDisplay.cpp:98
+#: packageDisplay.cpp:97
 #, fuzzy
 #| msgid "dependencies"
 msgid "Dependencies List"
 msgstr "依附套件"
 
-#: packageDisplay.cpp:99
+#: packageDisplay.cpp:98
 msgid "File List"
 msgstr "檔案清單"
 
-#: packageDisplay.cpp:100
+#: packageDisplay.cpp:99
 msgid "Change Log"
 msgstr "更改記錄"
 
-#: packageDisplay.cpp:295
+#: packageDisplay.cpp:294
 msgid " - No change log -"
 msgstr "－沒有更改記錄－"
 
-#: packageDisplay.cpp:310 packageDisplay.cpp:328
+#: packageDisplay.cpp:309 packageDisplay.cpp:327
 msgid "Updating File List"
 msgstr "正在更新檔案清單"
 
-#: packageDisplay.cpp:335
+#: packageDisplay.cpp:334
 msgid " Files"
 msgstr " 檔案"
 
-#: packageDisplay.cpp:390
+#: packageDisplay.cpp:389
 msgid "&Open With..."
 msgstr "以此開啟(&O)..."
 
-#: packageInfo.cpp:130
+#: packageInfo.cpp:129
 msgid "OTHER"
 msgstr "其他"
 
@@ -604,43 +556,43 @@ msgstr "正在查詢套件清單："
 msgid "Querying installed package list"
 msgstr "正在查詢 Gentoo 套件清單："
 
-#: pkgInterface.cpp:583
+#: pkgInterface.cpp:585
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Generating package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:590
+#: pkgInterface.cpp:592
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Processing package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:630
+#: pkgInterface.cpp:632
 #, fuzzy, kde-format
 #| msgid "Querying SLACK package list: "
 msgid "Querying SMART package list: %1"
 msgstr "正在查詢 SLACK 套件清單："
 
-#: pkgInterface.cpp:643
+#: pkgInterface.cpp:644
 #, fuzzy, kde-format
 #| msgid "Processing RPM package list"
 msgid "Processing SMART package list: %1"
 msgstr "正在處理 RPM 套件清單"
 
-#: pkgInterface.cpp:650
+#: pkgInterface.cpp:651
 msgid "SMART"
 msgstr ""
 
-#: pkgInterface.cpp:753
+#: pkgInterface.cpp:754
 msgid "Verifying"
 msgstr "正在檢驗"
 
-#: pkgOptions.cpp:103
+#: pkgOptions.cpp:102
 msgid "Keep this window"
 msgstr "保持此視窗"
 
-#: pkgOptions.cpp:234
+#: pkgOptions.cpp:233
 #, fuzzy, kde-format
 #| msgid "%2: 1 %3 Package"
 #| msgid_plural "%2: %1 %3 Packages"
@@ -648,7 +600,7 @@ msgid "%2: 1 Package"
 msgid_plural "%2: %1 Packages"
 msgstr[0] "%2: %1 %3 套件"
 
-#: pkgOptions.cpp:310
+#: pkgOptions.cpp:309
 msgid "Done"
 msgstr "完成"
 
@@ -666,43 +618,107 @@ msgstr "逾時： %1"
 msgid "Kprocess error:%1"
 msgstr "Kprocess 錯誤：%1"
 
+#. i18n: tag string
+#. i18n: file Command.ui line 13
+#. i18n: tag string
+#. i18n: file Misc.ui line 13
+#: rc.cpp:3 rc.cpp:21
+msgid "Form"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file Command.ui line 19
+#: rc.cpp:6
+#, fuzzy
+#| msgid "Execute Privileged Commands Using"
+msgid "How to Execute Pivileged Commands"
+msgstr "執行特許的指令，使用"
+
+#. i18n: tag string
+#. i18n: file Command.ui line 25
+#: rc.cpp:9
+msgid "Command to use"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file Command.ui line 46
+#: rc.cpp:12
+msgid "sudo"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file Command.ui line 51
+#: rc.cpp:15
+msgid "su"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file Command.ui line 56
+#: rc.cpp:18
+msgid "ssh"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file Misc.ui line 25
+#: rc.cpp:24
+#, fuzzy
+#| msgid "Verify file list"
+msgid "Verify List of Files"
+msgstr "檢驗檔案清單"
+
+#. i18n: tag label
+#. i18n: file kpackageSettings.kcfg line 8
+#: rc.cpp:27
+#, fuzzy
+#| msgid "Execute Privileged Commands Using"
+msgid "The way to execute priviliged commands."
+msgstr "執行特許的指令，使用"
+
+#. i18n: tag label
+#. i18n: file kpackageSettings.kcfg line 18
+#: rc.cpp:30
+#, fuzzy
+#| msgid "Verify file list"
+msgid "Verify file list."
+msgstr "檢驗檔案清單"
+
 #. i18n: tag text
 #. i18n: file kpackageui.rc line 5
-#: rc.cpp:3
+#: rc.cpp:33
 #, fuzzy
 msgid "&File"
 msgstr " 檔案"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 17
-#: rc.cpp:6
+#. i18n: file kpackageui.rc line 20
+#: rc.cpp:36
 msgid "&Packages"
 msgstr "套件(&P)"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 34
-#: rc.cpp:9
+#. i18n: file kpackageui.rc line 37
+#: rc.cpp:39
 msgid "Spe&cial"
 msgstr "特別的(&C)"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 36
-#: rc.cpp:12
+#. i18n: file kpackageui.rc line 39
+#: rc.cpp:42
 msgid "&APT: Debian"
 msgstr "&APT: Debian"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 42
-#: rc.cpp:15
+#. i18n: file kpackageui.rc line 45
+#: rc.cpp:45
 msgid "&Settings"
 msgstr ""
 
-#: rc.cpp:16
+#: rc.cpp:46
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Allen Huang,Chao-Hsiung Liao,Walter Cheuk"
 
-#: rc.cpp:17
+#: rc.cpp:47
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -724,6 +740,51 @@ msgstr "備註"
 #, kde-format
 msgid "%1 was not found."
 msgstr "找不到 %1 。"
+
+#~ msgid "&Types"
+#~ msgstr "類型(&T)"
+
+#~ msgid "Handle Package Type"
+#~ msgstr "處理套件類型"
+
+#~ msgid "Use remote host (Debian APT only):"
+#~ msgstr "使用遠端主機（只有 Debian APT）:"
+
+#~ msgid "Enable"
+#~ msgstr "啟用"
+
+#~ msgid "Location of Packages"
+#~ msgstr "套件的位置"
+
+#~ msgid "Cac&he"
+#~ msgstr "快取(&H)"
+
+#~ msgid "Cache Remote Package Folders"
+#~ msgstr "快取遠端套件資料夾"
+
+#~ msgid "Always"
+#~ msgstr "永遠"
+
+#~ msgid "During a session"
+#~ msgstr "工作階段期間"
+
+#~ msgid "Never"
+#~ msgstr "永不"
+
+#~ msgid "Cache Remote Package Files"
+#~ msgstr "快取遠端套件檔案"
+
+#~ msgid "Cache Folder"
+#~ msgstr "快取資料夾"
+
+#~ msgid "sudo command"
+#~ msgstr "sudo 指令"
+
+#~ msgid "ssh command"
+#~ msgstr "ssh 指令"
+
+#~ msgid "Read information from all local package files"
+#~ msgstr "從所有本地端套件檔案讀取資訊"
 
 #, fuzzy
 #~| msgid "%1: %2 not found"
