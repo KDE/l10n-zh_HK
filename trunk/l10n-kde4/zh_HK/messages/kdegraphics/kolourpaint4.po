@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-16 05:32+0200\n"
+"POT-Creation-Date: 2007-10-17 05:38+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -56,7 +56,7 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: lgpl/generic/kpColorCollection.cpp:296 document/kpDocument_Save.cpp:321
+#: lgpl/generic/kpColorCollection.cpp:296 document/kpDocument_Save.cpp:331
 msgid "Overwrite"
 msgstr "覆寫"
 
@@ -109,20 +109,6 @@ msgstr "儲存預覽"
 msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
 msgstr[0] "%1 位元組 (約為 %2%)"
-
-#: dialogs/kpPrintDialogPage.cpp:64
-#, fuzzy
-#| msgid "Image file to open"
-msgid "Ima&ge Position"
-msgstr "要開啟的圖像檔案"
-
-#: dialogs/kpPrintDialogPage.cpp:69
-msgid "&Center of the page"
-msgstr ""
-
-#: dialogs/kpPrintDialogPage.cpp:71
-msgid "Top-&left of the page"
-msgstr ""
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
 msgid "Skew Selection"
@@ -543,7 +529,7 @@ msgid "Soften & Sharpen"
 msgstr "柔化及銳化"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:656
+#: mainWindow/kpMainWindow_File.cpp:657
 msgid "Document Properties"
 msgstr ""
 
@@ -1475,6 +1461,20 @@ msgstr "wwycheuk@netvigator.com"
 msgid "Transparent"
 msgstr "透明"
 
+#: widgets/kpPrintDialogPage.cpp:60
+#, fuzzy
+#| msgid "Image file to open"
+msgid "I&mage Position"
+msgstr "要開啟的圖像檔案"
+
+#: widgets/kpPrintDialogPage.cpp:65
+msgid "&Center of the page"
+msgstr ""
+
+#: widgets/kpPrintDialogPage.cpp:67
+msgid "Top-&left of the page"
+msgstr ""
+
 #: widgets/generic/kpSqueezedTextLabel.cpp:118
 msgid "..."
 msgstr "..."
@@ -1586,7 +1586,7 @@ msgstr "256 色（抖震(Dithered)）(&R)"
 msgid "24-&bit color"
 msgstr "24 位元色(&B)"
 
-#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:191
+#: widgets/imagelib/effects/kpEffectReduceColorsWidget.cpp:192
 msgid "Reduce To"
 msgstr "減少至"
 
@@ -1642,8 +1642,8 @@ msgstr ""
 
 #: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:92
 #: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:119
-#: mainWindow/kpMainWindow_StatusBar.cpp:193
-#: mainWindow/kpMainWindow_StatusBar.cpp:222
+#: mainWindow/kpMainWindow_StatusBar.cpp:194
+#: mainWindow/kpMainWindow_StatusBar.cpp:223
 #, kde-format
 msgid "%1x%2"
 msgstr "%1x%2"
@@ -1782,61 +1782,61 @@ msgid ""
 "decrease this setting.</p></qt>"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:98
+#: mainWindow/kpMainWindow_File.cpp:99
 msgid "E&xport..."
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:102
+#: mainWindow/kpMainWindow_File.cpp:103
 #, fuzzy
 msgid "Scan..."
 msgstr "..."
 
-#: mainWindow/kpMainWindow_File.cpp:112 mainWindow/kpMainWindow_Colors.cpp:78
+#: mainWindow/kpMainWindow_File.cpp:113 mainWindow/kpMainWindow_Colors.cpp:78
 msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
-#: mainWindow/kpMainWindow_File.cpp:123
+#: mainWindow/kpMainWindow_File.cpp:124
 msgid "Set as Wa&llpaper (Centered)"
 msgstr "設為牆紙（置中）(&L)"
 
-#: mainWindow/kpMainWindow_File.cpp:126
+#: mainWindow/kpMainWindow_File.cpp:127
 msgid "Set as Wallpaper (&Tiled)"
 msgstr "設為牆紙（排列）(&T)"
 
-#: mainWindow/kpMainWindow_File.cpp:450
+#: mainWindow/kpMainWindow_File.cpp:451
 msgid "Open Image"
 msgstr "開啟圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:522
+#: mainWindow/kpMainWindow_File.cpp:523
 msgid "Scanning support is not installed."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:523
+#: mainWindow/kpMainWindow_File.cpp:524
 msgid "No Scanning Support"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:626
+#: mainWindow/kpMainWindow_File.cpp:627
 #, fuzzy
 #| msgid "Could not open \"%1\" - out of graphics memory."
 msgid "Cannot scan - out of graphics memory."
 msgstr "無法開啟「%1」 - 圖形記憶體不足。"
 
-#: mainWindow/kpMainWindow_File.cpp:627
+#: mainWindow/kpMainWindow_File.cpp:628
 #, fuzzy
 #| msgid "Cannot Paste"
 msgid "Cannot Scan"
 msgstr "無法貼上"
 
-#: mainWindow/kpMainWindow_File.cpp:893
+#: mainWindow/kpMainWindow_File.cpp:894
 msgid "Save Image As"
 msgstr "儲存圖像為"
 
-#: mainWindow/kpMainWindow_File.cpp:943
+#: mainWindow/kpMainWindow_File.cpp:944
 #, fuzzy
 msgid "Export"
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:1007
+#: mainWindow/kpMainWindow_File.cpp:1008
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1847,7 +1847,7 @@ msgstr ""
 "重新載入會失去上次儲存之後的所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1012 mainWindow/kpMainWindow_File.cpp:1022
+#: mainWindow/kpMainWindow_File.cpp:1013 mainWindow/kpMainWindow_File.cpp:1023
 #: mainWindow/kpMainWindow_Colors.cpp:347
 #: mainWindow/kpMainWindow_Colors.cpp:360
 #: mainWindow/kpMainWindow_Colors.cpp:369
@@ -1855,7 +1855,7 @@ msgstr ""
 msgid "&Reload"
 msgstr "重新載入(&D)"
 
-#: mainWindow/kpMainWindow_File.cpp:1017
+#: mainWindow/kpMainWindow_File.cpp:1018
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1866,7 +1866,13 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1329
+#: mainWindow/kpMainWindow_File.cpp:1260
+#, fuzzy
+#| msgid "Entire Image"
+msgid "Print Image"
+msgstr "整個圖像"
+
+#: mainWindow/kpMainWindow_File.cpp:1345
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
@@ -1874,7 +1880,7 @@ msgstr ""
 "傳送此圖像之前必須先儲存。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1372
+#: mainWindow/kpMainWindow_File.cpp:1388
 msgid ""
 "Before this image can be set as the wallpaper, you must save it as a local "
 "file.\n"
@@ -1883,7 +1889,7 @@ msgstr ""
 "要將此圖像設為牆紙之前，必須要將它儲存為本地檔案。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1378
+#: mainWindow/kpMainWindow_File.cpp:1394
 msgid ""
 "Before this image can be set as the wallpaper, you must save it.\n"
 "Do you want to save it?"
@@ -1891,11 +1897,11 @@ msgstr ""
 "要將此圖像設為牆紙之前，必須先儲存它。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1452
+#: mainWindow/kpMainWindow_File.cpp:1468
 msgid "Could not change wallpaper."
 msgstr "無法更改牆紙。"
 
-#: mainWindow/kpMainWindow_File.cpp:1487
+#: mainWindow/kpMainWindow_File.cpp:1503
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1904,22 +1910,22 @@ msgstr ""
 "「%1」文件已修改。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_StatusBar.cpp:145
+#: mainWindow/kpMainWindow_StatusBar.cpp:146
 #, kde-format
 msgid "%1,%2"
 msgstr "%1,%2"
 
-#: mainWindow/kpMainWindow_StatusBar.cpp:152
+#: mainWindow/kpMainWindow_StatusBar.cpp:153
 #, kde-format
 msgid "%1,%2 - %3,%4"
 msgstr "%1,%2 - %3,%4"
 
-#: mainWindow/kpMainWindow_StatusBar.cpp:248
+#: mainWindow/kpMainWindow_StatusBar.cpp:249
 #, kde-format
 msgid "%1bpp"
 msgstr "%1bpp"
 
-#: mainWindow/kpMainWindow_StatusBar.cpp:272
+#: mainWindow/kpMainWindow_StatusBar.cpp:273
 #: mainWindow/kpMainWindow_View_Zoom.cpp:90
 #, kde-format
 msgid "%1%"
@@ -2420,29 +2426,33 @@ msgid "Lossy File Format"
 msgstr "有損性檔案格式"
 
 #: document/kpDocument_Save.cpp:144
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>Saving the image at the low color depth of %1-bit may result in "
+#| "the loss of color information. Any transparency will also be removed.</"
+#| "p><p>Are you sure you want to save at this color depth?</p></qt>"
 msgid ""
 "<qt><p>Saving the image at the low color depth of %1-bit may result in the "
-"loss of color information. Any transparency will also be removed.</p><p>Are "
+"loss of color information. Any transparency might also be removed.</p><p>Are "
 "you sure you want to save at this color depth?</p></qt>"
 msgstr ""
 "<qt><p>以 %1 位元的低色彩深度儲存圖像會令顏色資訊喪失。透明資料亦會被移除。</"
 "p><p>你確定要以這個色彩深度儲存嗎？</p></qt>"
 
-#: document/kpDocument_Save.cpp:151
+#: document/kpDocument_Save.cpp:154
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
-#: document/kpDocument_Save.cpp:283
+#: document/kpDocument_Save.cpp:293
 msgid "Could not save image - unable to create temporary file."
 msgstr "無法儲存圖像 - 無法建立暫存檔。"
 
-#: document/kpDocument_Save.cpp:290
+#: document/kpDocument_Save.cpp:300
 #, kde-format
 msgid "Could not save as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: document/kpDocument_Save.cpp:317
+#: document/kpDocument_Save.cpp:327
 #, kde-format
 msgid ""
 "A document called \"%1\" already exists.\n"
@@ -2451,7 +2461,7 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: document/kpDocument_Save.cpp:454
+#: document/kpDocument_Save.cpp:464
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
 
