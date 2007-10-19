@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-17 05:37+0200\n"
+"POT-Creation-Date: 2007-10-19 05:38+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -197,7 +197,7 @@ msgstr "保存密碼(&K)"
 
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/configui.ui line 28
-#: rc.cpp:68 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:354
+#: rc.cpp:68 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:348
 msgid "Options"
 msgstr "選項"
 
@@ -602,6 +602,9 @@ msgstr "編輯(&E)"
 #. i18n: tag text
 #. i18n: file ./kdeui/xmlgui/ui_standards.rc line 83
 #: rc.cpp:225
+#, fuzzy
+#| msgid "&Move"
+msgctxt "@title:menu Game move"
 msgid "&Move"
 msgstr "移動(&M)"
 
@@ -9112,7 +9115,7 @@ msgstr "顯示所有選項"
 msgid "&Remove '%1'"
 msgstr "移除(&R)"
 
-#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1443
+#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1437
 #, fuzzy
 #| msgid "Files"
 msgid "*|All Files"
@@ -9131,34 +9134,13 @@ msgid ""
 "button and selecting a preferred mode from the <b>Text Completion</b> menu."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:247
+#: kfile/kfilewidget.cpp:248
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "Drive: %1"
 msgstr "隱藏 %1"
 
-#: kfile/kfilewidget.cpp:254
-#, kde-format
-msgid "Root Folder: %1"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:261
-#, kde-format
-msgid "Home Folder: %1"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:270
-#, fuzzy, kde-format
-msgid "Documents: %1"
-msgstr "增強音量"
-
-#: kfile/kfilewidget.cpp:277
-#, fuzzy, kde-format
-#| msgid "Desktop %1"
-msgid "Desktop: %1"
-msgstr "桌面 %1"
-
-#: kfile/kfilewidget.cpp:326
+#: kfile/kfilewidget.cpp:320
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -9166,35 +9148,35 @@ msgid ""
 "to file:/home.</qt>"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:331
+#: kfile/kfilewidget.cpp:325
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:333
+#: kfile/kfilewidget.cpp:327
 msgid "Click this button to move forward one step in the browsing history."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:336
+#: kfile/kfilewidget.cpp:330
 msgid "Click this button to reload the contents of the current location."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:339
+#: kfile/kfilewidget.cpp:333
 msgid "Click this button to create a new folder."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:342
+#: kfile/kfilewidget.cpp:336
 #, fuzzy
 #| msgid "Show license information"
 msgid "Show Places Navigation Panel"
 msgstr "顯示版權資訊"
 
-#: kfile/kfilewidget.cpp:349
+#: kfile/kfilewidget.cpp:343
 #, fuzzy
 #| msgid "Bookmarks"
 msgid "Show Bookmarks"
 msgstr "書籤"
 
-#: kfile/kfilewidget.cpp:356
+#: kfile/kfilewidget.cpp:350
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
 "accessed from this menu including: <ul><li>how files are sorted in the list</"
@@ -9203,12 +9185,12 @@ msgid ""
 "li><li>separating folders from files</li></ul></qt>"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:400 kfile/kfileplaceeditdialog.cpp:116
+#: kfile/kfilewidget.cpp:394 kfile/kfileplaceeditdialog.cpp:116
 #, fuzzy
 msgid "&Location:"
 msgstr "組態設定"
 
-#: kfile/kfilewidget.cpp:424
+#: kfile/kfilewidget.cpp:418
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown.<p>You may select from one of the preset "
@@ -9216,72 +9198,72 @@ msgid ""
 "into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:430
+#: kfile/kfilewidget.cpp:424
 #, fuzzy
 #| msgid "Filter:"
 msgid "&Filter:"
 msgstr "過濾器："
 
-#: kfile/kfilewidget.cpp:592
+#: kfile/kfilewidget.cpp:586
 msgid "Please specify the filename to save to."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:594
+#: kfile/kfilewidget.cpp:588
 #, fuzzy
 #| msgid "Please select type of the new resource:"
 msgid "Please select the file to open."
 msgstr "請選取新資源的類型："
 
-#: kfile/kfilewidget.cpp:653 kfile/kfilewidget.cpp:696
-#: kfile/kfilewidget.cpp:1376
+#: kfile/kfilewidget.cpp:647 kfile/kfilewidget.cpp:690
+#: kfile/kfilewidget.cpp:1370
 msgid "You can only select local files."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:654 kfile/kfilewidget.cpp:697
-#: kfile/kfilewidget.cpp:1377
+#: kfile/kfilewidget.cpp:648 kfile/kfilewidget.cpp:691
+#: kfile/kfilewidget.cpp:1371
 msgid "Remote Files Not Accepted"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:688
+#: kfile/kfilewidget.cpp:682
 #, kde-format
 msgid ""
 "%1\n"
 "does not appear to be a valid URL.\n"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:688
+#: kfile/kfilewidget.cpp:682
 #, fuzzy
 #| msgid "InvalidCA"
 msgid "Invalid URL"
 msgstr "CA證書無效"
 
-#: kfile/kfilewidget.cpp:1014
+#: kfile/kfilewidget.cpp:1008
 msgid "This is the name to save the file as."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1019
+#: kfile/kfilewidget.cpp:1013
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1026
+#: kfile/kfilewidget.cpp:1020
 msgid "This is the name of the file to open."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1308
+#: kfile/kfilewidget.cpp:1302
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1310
+#: kfile/kfilewidget.cpp:1304
 #, fuzzy
 #| msgid "invalid flags"
 msgid "Invalid Filenames"
 msgstr "錯誤的旗號"
 
-#: kfile/kfilewidget.cpp:1339
+#: kfile/kfilewidget.cpp:1333
 #, kde-format
 msgid ""
 "The requested filenames\n"
@@ -9290,39 +9272,39 @@ msgid ""
 "make sure every filename is enclosed in double quotes."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1343
+#: kfile/kfilewidget.cpp:1337
 #, fuzzy
 #| msgid "File Error"
 msgid "Filename Error"
 msgstr "檔案錯誤"
 
-#: kfile/kfilewidget.cpp:1440
+#: kfile/kfilewidget.cpp:1434
 msgid "*|All Folders"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1577 kparts/browserrun.cpp:375
+#: kfile/kfilewidget.cpp:1571 kparts/browserrun.cpp:375
 msgid "&Open"
 msgstr "開啟(&O)"
 
-#: kfile/kfilewidget.cpp:1720
+#: kfile/kfilewidget.cpp:1714
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1721
+#: kfile/kfilewidget.cpp:1715
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1729
+#: kfile/kfilewidget.cpp:1723
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1730
+#: kfile/kfilewidget.cpp:1724
 msgid "a suitable extension"
 msgstr ""
 
-#: kfile/kfilewidget.cpp:1740
+#: kfile/kfilewidget.cpp:1734
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -9338,11 +9320,11 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: kfile/kfilewidget.cpp:2008
+#: kfile/kfilewidget.cpp:2002
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: kfile/kfilewidget.cpp:2012
+#: kfile/kfilewidget.cpp:2006
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
@@ -12729,6 +12711,15 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~ msgid "Documents: %1"
+#~ msgstr "增強音量"
+
+#, fuzzy
+#~| msgid "Desktop %1"
+#~ msgid "Desktop: %1"
+#~ msgstr "桌面 %1"
 
 #, fuzzy
 #~| msgctxt "Opposite to End"
