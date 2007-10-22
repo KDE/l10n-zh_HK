@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewsticker\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:41+0200\n"
+"POT-Creation-Date: 2007-10-22 05:39+0200\n"
 "PO-Revision-Date: 2006-01-08 17:21+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: traditional chinese <zh-l10n@linux.org.tw>\n"
@@ -18,1607 +18,750 @@ msgstr ""
 "X-Generator: KBabel 1.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: knewsticker.cpp:50 knewsticker.cpp:474
-msgid "KNewsTicker"
-msgstr "K新聞快報"
-
-#: knewsticker.cpp:51
-msgid "A news ticker applet."
-msgstr "接收及顯示新聞的小程式。"
-
-#: knewsticker.cpp:52
-msgid "(c) 2000, 2001 The KNewsTicker developers"
-msgstr "(c) 2000, 2001 K新聞快報開發人員"
-
-#: knewsticker.cpp:63
-msgid "Show menu"
-msgstr "顯示選單"
-
-#: knewsticker.cpp:79 knewstickerstub/knewstickerstub.cpp:38
-#, fuzzy
-#| msgid "(c)2000, 2001 Frerich Raabe"
-msgid "Frerich Raabe"
-msgstr "(c)2000, 2001 Frerich Raabe"
-
-#: knewsticker.cpp:79
-msgid "Original author"
-msgstr "原始作者"
-
-#: knewsticker.cpp:81
-msgid "Malte Starostik"
-msgstr ""
-
-#: knewsticker.cpp:81
-msgid "Hypertext headlines and much more"
-msgstr "超連結的頭條標題，及更多好東西"
-
-#: knewsticker.cpp:83
-msgid "Wilco Greven"
-msgstr ""
-
-#: knewsticker.cpp:83
-msgid "Mouse wheel support"
-msgstr "滾輪滑鼠支援"
-
-#: knewsticker.cpp:85
-msgid "Adriaan de Groot"
-msgstr ""
-
-#: knewsticker.cpp:85
-msgid "Rotated scrolling text modes"
-msgstr "環迴文字捲軸模式"
-
-#: knewsticker.cpp:289
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Could not update news site '%1'.<br>The supplied resource file is "
-#| "probably invalid or broken.</qt>"
-msgid ""
-"<qt>Could not update news site '%1'.<br />The supplied resource file is "
-"probably invalid or broken.</qt>"
-msgstr "<qt>無法更新新聞站台『%1』。<br>所提供的資源檔可能無效或已毀壞。</qt>"
-
-#: knewsticker.cpp:293
-msgid ""
-"<qt>The following news sites had problems. Their resource files are probably "
-"invalid or broken.<ul>"
-msgstr "<qt>下列的新聞站台發生了問題。它們的資源檔可能無效或已毀壞。<ul>"
-
-#: knewsticker.cpp:301
-msgid ""
-"Failed to update several news sites. The Internet connection might be cut."
-msgstr "無法更新某些新聞站台。互聯網連線可能已被切斷。"
-
-#: knewsticker.cpp:432 knewsticker.cpp:463
-msgid "Check News"
-msgstr "檢查新聞"
-
-#: knewsticker.cpp:438
-msgid "Currently Being Updated, No Articles Available"
-msgstr "正在更新，沒有新的文章。"
-
-#: knewsticker.cpp:454
-msgid "No Articles Available"
-msgstr "沒有新的文章"
-
-#: knewsticker.cpp:464
-msgid "Offline Mode"
-msgstr "離線模式"
-
-#: knewsticker.cpp:476
-#, fuzzy
-msgid "Help"
-msgstr "健康"
-
-#: knewsticker.cpp:477
-msgid "About KNewsTicker"
-msgstr "關於 K新聞快報"
-
-#: knewsticker.cpp:479
-msgid "Configure KNewsTicker..."
-msgstr "設定 K新聞快報..."
-
-#: knewstickerconfig.cpp:103
-#, fuzzy
-msgid "Configuration"
-msgstr "條件"
-
-#: knewstickerconfig.cpp:111
-msgid "News query interval:"
-msgstr "新聞查詢間隔："
-
-#: knewstickerconfig.cpp:156
-msgid "All News Sources"
-msgstr "所有新聞來源"
-
-#: knewstickerconfig.cpp:252 newsscroller.cpp:200 common/newsengine.cpp:90
-#: knewstickerstub/knewstickerstub.cpp:56
-msgid "Unknown"
-msgstr "未知的"
-
-#: knewstickerconfig.cpp:264 newsscroller.cpp:203 newsscroller.cpp:204
-#: knewstickerstub/knewstickerstub.cpp:59
-#: knewstickerstub/knewstickerstub.cpp:60
-#, kde-format
-msgid "Unknown %1"
-msgstr "未知的 %1"
-
-#: knewstickerconfig.cpp:329
-#, kde-format
-msgid "<p>Do you really want to remove %1 news source?</p>"
-msgid_plural "<p>Do you really want to remove these %1 news sources?</p>"
-msgstr[0] "<p>你真的要移除 %1 個新聞來源嗎？</p>"
-
-#: knewstickerconfig.cpp:355
-msgid "<p>Do you really want to remove the selected filter?</p>"
-msgstr "<p>你真的要移除選擇的過濾器嗎？</p>"
-
-#: knewstickerconfig.cpp:374 newssourcedlgimpl.cpp:206
-msgid "Edit News Source"
-msgstr "編輯新聞來源"
-
-#: knewstickerconfig.cpp:375
-msgid "&Add News Source"
-msgstr "新增新聞來源(&A)"
-
-#: knewstickerconfig.cpp:379
-#, kde-format
-msgid "&Modify '%1'"
-msgstr "更改『%1』(&M)"
-
-#: knewstickerconfig.cpp:381
-#, kde-format
-msgid "&Remove '%1'"
-msgstr "移除『%1』(&R)"
-
-#: knewstickerconfig.cpp:383
-msgid "&Remove News Sources"
-msgstr "移除新聞來源(&R)"
-
-#: knewstickerconfig.cpp:386
-msgid "&Modify News Source"
-msgstr "更改新聞來源(&M)"
-
-#: knewstickerconfig.cpp:387
-msgid "&Remove News Source"
-msgstr "移除新聞來源(&R)"
-
-#: newsscroller.cpp:194
-#, kde-format
-msgid "<p>Do you really want to add '%1' to the list of news sources?</p>"
-msgstr "<p>你真的要新增『%1』到新聞來源列表嗎？</p>"
-
-#: newsscroller.cpp:451
-msgid " +++ No News Available +++"
-msgstr " +++ 沒有新的新聞 +++"
-
-#: newssourcedlgimpl.cpp:34
-msgid "Downloading Data"
-msgstr "正在下載資料"
-
-#: newssourcedlgimpl.cpp:41
-msgid ""
-"<qt>Please wait while KNewsTicker is downloading some data necessary to "
-"suggest reasonable values.<br/><br/>This will not take longer than one "
-"minute.</qt>"
-msgstr ""
-"<qt>請等候 K新聞快報下載資料，完成後即可建議會理的使用值。<br/><br/>這不會需"
-"要多於一分鐘。</qt>"
-
-#: newssourcedlgimpl.cpp:79
-msgid "Could not retrieve the specified source file."
-msgstr "無法取得指定的來源檔案。"
-
-#: newssourcedlgimpl.cpp:131
-msgid "You have to specify a name for this news source to be able to use it."
-msgstr "你要指定新聞來源的名稱才能使用它。"
-
-#: newssourcedlgimpl.cpp:132
-msgid "No Name Specified"
-msgstr "未有指定名稱"
-
-#: newssourcedlgimpl.cpp:226
-msgid ""
-"You have to specify the source file for this news source to be able to use "
-"it."
-msgstr "你要指定新聞來源的來源檔案才能使用它。"
-
-#: newssourcedlgimpl.cpp:227
-msgid "No Source File Specified"
-msgstr "未有指定來源檔案"
-
-#: newssourcedlgimpl.cpp:233
-msgid ""
-"KNewsTicker needs a valid RDF or RSS file to suggest sensible values. The "
-"specified source file is invalid."
-msgstr ""
-"K新聞快報需要有效的 RDF 或 RSS 檔案來建議有用的使用值。指定的來源檔案無效。"
-
-#: newssourcedlgimpl.cpp:235
-msgid "Invalid Source File"
-msgstr "來源檔案無效"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 34
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 46
-#: rc.cpp:3 rc.cpp:6
-msgid "General"
-msgstr "一般"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 64
-#: rc.cpp:9
-msgid " min"
-msgstr " 分鐘"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 67
-#: rc.cpp:12
-msgid "Never"
-msgstr "從不"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 70
-#: rc.cpp:15
-msgid "Interval of news queries"
-msgstr "新聞查詢間隔"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 76
-#: rc.cpp:18
-msgid ""
-"Here you can define at what interval KNewsTicker queries the configured news "
-"sources for new headlines. This depends generally on how fast you would like "
-"to hear about news and how much load you want to put on the network:<ul>\n"
-"<li>A lower value (lower than <b>15 minutes</b>) enables you to get notified "
-"about news very quickly if you want or need to. Please note that it "
-"increases the network traffic significantly, though. Therefore, such low "
-"values should not be used if you query popular news sites (such as <a href="
-"\"http://slashdot.org\">Slashdot</a> or <a href=\"http://freshmeat.net"
-"\">Freshmeat</a>) as they have generally already enough work processing the "
-"incoming queries.</li>\n"
-"<li>A higher value (higher than <b>45 minutes</b>) will make you hear about "
-"news less quickly. For non-timecritical applications, it should be suitable, "
-"though. The positive aspect of longer intervals is that only very little "
-"load is put on the network; this saves resources and nerves, for you and the "
-"system administrators of the news sites you query.</li></ul>\n"
-"The default value (30 minutes) should be appropriate and reasonable in most "
-"cases."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 91
-#: rc.cpp:24
-msgid "Nonsensitive"
-msgstr "不敏感的"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 94
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 119
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 132
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 153
-#: rc.cpp:27 rc.cpp:33 rc.cpp:42 rc.cpp:51
-msgid "Mousewheel sensitivity"
-msgstr "滑鼠滾輪敏感度"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 97
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 122
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 135
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 156
-#: rc.cpp:30 rc.cpp:36 rc.cpp:45 rc.cpp:54
-msgid ""
-"This slider allows you to define how fast/slow the text should be scrolled "
-"when using the mousewheel."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 129
-#: rc.cpp:39
-msgid "Sensitive"
-msgstr "敏感"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 147
-#: rc.cpp:48
-msgid "&Mousewheel sensitivity:"
-msgstr "滑鼠滾輪敏感度(&M):"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 166
-#: rc.cpp:57
-msgid "&Use custom names for news sites"
-msgstr "新聞站台使用自訂名稱(&U)"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 169
-#: rc.cpp:60
-msgid "Use the names defined in the list of news sources"
-msgstr "使用定義在新聞來源列表中的名稱"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 172
-#: rc.cpp:63
-#, fuzzy
-msgid ""
-"Check this box to make the news ticker use the names you specified in the "
-"list of news sources (available on the tab labeled <i>News sources</i>) "
-"instead of the ones the news sites themselves report.<br>This can be handy "
-"for news sites which report a very long or useless name."
-msgstr ""
-"核取這個方塊使新聞快報使用您在新聞來源列表（在<i>新聞來源</i>標籤頁）中指定的"
-"名稱，而不是新聞網站所提供的名稱。<br>當網站提供的名稱很長或不合適時很有用。"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 199
-#: rc.cpp:66
-msgid "News Sources"
-msgstr "新聞來源"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 217
-#: rc.cpp:69
-msgid "News sources to be queried"
-msgstr "要查詢的新聞來源"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 224
-#: rc.cpp:72
-msgid ""
-"This list lets you manage the list of news sites the news ticker will query "
-"for headlines. The news sources are arranged in a tree-like hierarchy and "
-"sorted by topic.<br>The column labeled \"Max. articles\" shows how many "
-"articles will be cached for the news sites (read: how many articles will be "
-"accessible through the context menu).<ul>\n"
-"<li>To add a site, you can either drag the URL of the RDF or RSS file to "
-"this list from Konqueror or any other application, or use the <i>Add...</i> "
-"button in the bottom right corner.</li>\n"
-"<li>To modify a site, just double-click on the particular news source you "
-"would like to edit and an input field will pop up which lets you edit the "
-"respective property.</li>\n"
-"<li>To remove a site, simply select a news source in the list and click on "
-"the <i>Remove</i> button in the lower right corner.</li></ul>\n"
-"Note that you can also right-click on the list to open a menu which lets you "
-"add and remove news sources. You can also enable or disable certain news "
-"sources temporarily by checking or unchecking the box next to it; those news "
-"sources whose boxes are checked are considered activated and will be "
-"processed by KNewsTicker."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 228
-#: rc.cpp:79
-msgid "Name of Site"
-msgstr "站台名稱"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 239
-#: rc.cpp:82
-msgid "Source File"
-msgstr "來源檔案"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 250
-#: rc.cpp:85
-msgid "Max. Articles"
-msgstr "文章的最大數目"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 267
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 444
-#: rc.cpp:88 rc.cpp:141
-msgid "R&emove"
-msgstr "移除(&E)"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 270
-#: rc.cpp:91
-msgid "Remove selected site"
-msgstr "移除選擇的站台"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 273
-#: rc.cpp:94
-msgid ""
-"Click this button to remove the currently selected news site from the list."
-msgstr "按這個按鈕從列表中移除目前選擇的新聞站台。"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 296
-#: rc.cpp:97
-msgid "Add..."
-msgstr "新增..."
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 299
-#: rc.cpp:100
-msgid "Add a new site"
-msgstr "加增新的站台"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 302
-#: rc.cpp:103
-msgid ""
-"Click this button to add a new site to the list. Note that you can also drag "
-"a RDF or RSS file to this list (i.e. from Konqueror) to add it to the list."
-msgstr ""
-"按這個按鈕加增新的站台到列表中。注意您也可以拖曳  RDF 或 RSS 檔案到這個列表中"
-"（例如從 Konqueror）加增它到列表。"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 312
-#: rc.cpp:106
-msgid "&Modify..."
-msgstr "更改(&M)..."
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 315
-#: rc.cpp:109
-msgid "Modify selected news source"
-msgstr "更改選擇的新聞來源"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 318
-#: rc.cpp:112
-msgid ""
-"Click this button to open a dialog which lets you edit the properties (such "
-"as the name, the source file, or the icon) of the currently selected news "
-"source."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 326
-#: rc.cpp:115
-msgid "Filters"
-msgstr "過濾器"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 344
-#: rc.cpp:118
-msgid "Currently configured filters"
-msgstr "目前已設定的過濾器"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 352
-#: rc.cpp:121
-msgid ""
-"Here you can see the list of currently configured filters and manage them as "
-"well as add new filters. Managing them is fairly easy:<ul>\n"
-"<li>To <b>add</b> a new filter, specify its properties in the box below "
-"labeled <i>Filter properties</i> and press the <i>Add</i> button in the "
-"lower right corner.</li>\n"
-"<li><b>Modifying</b> an existing filter is done in a similar manner: simply "
-"select the filter you would like to edit in the list and change its "
-"properties in the box below.</li>\n"
-"<li>Finally, to <b>remove</b> a filter, select it in the list and press the "
-"button labeled <i>Remove</i> in the lower right corner.</li></ul>\n"
-"You can also enable or disable certain filters temporarily by checking or "
-"unchecking the box next to them; those filters whose boxes are checked are "
-"considered enabled and will be honored by KNewsTicker.<br>\n"
-"Note that the filters are processed from the top to the bottom so that of "
-"two filters which might nullify each other (like \"Show...does not contain "
-"KDE\" and \"Show...contains KDE\") only the one which is lower in the list "
-"will take effect."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 356
-#: rc.cpp:129
-msgid "Action"
-msgstr "動作"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 378
-#: rc.cpp:132
-msgid "Affects"
-msgstr "影響"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 400
-#: rc.cpp:135
-msgid "Condition"
-msgstr "條件"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 411
-#: rc.cpp:138
-msgid "Expression"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 447
-#: rc.cpp:144
-msgid "Remove selected filter"
-msgstr "移除選擇的過濾器"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 450
-#: rc.cpp:147
-msgid "Press this button to remove the selected filter from the list."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 457
-#: rc.cpp:150
-msgid "A&dd"
-msgstr "新增(&D)"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 460
-#: rc.cpp:153
-msgid "Add configured filter"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 463
-#: rc.cpp:156
-msgid "Press this button to add the configured filter to the list."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 470
-#: rc.cpp:159
-msgid "Filter Properties"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 482
-#: rc.cpp:162
-msgid "Action for this filter"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 485
-#: rc.cpp:165
-msgid ""
-"Here you can define what should happen if this filter matches (e.g. whether "
-"the matching articles should be shown or hidden)."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 489
-#: rc.cpp:168
-msgid "Hide"
-msgstr "隱藏"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 494
-#: rc.cpp:171 common/configaccess.cpp:395 common/configaccess.cpp:619
-msgid "Show"
-msgstr "顯示"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 518
-#: rc.cpp:174
-msgid "articles from"
-msgstr "文章來自"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 528
-#: rc.cpp:177
-msgid "Affected news sources"
-msgstr "受影響的新聞來源"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 531
-#: rc.cpp:180
-msgid ""
-"Here you can specify which news sources (or all of them) are affected. Note "
-"that only the news sources which have been activated on the <i>News sources</"
-"i> tab are shown in this combo box."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 535
-#: rc.cpp:183 common/configaccess.cpp:377 common/configaccess.cpp:620
-msgid "all news sources"
-msgstr "所有新聞來源"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 543
-#: rc.cpp:186
-msgid "whose"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 553
-#: rc.cpp:189
-msgid "Keyword/Expression"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 559
-#: rc.cpp:192
-msgid ""
-"Here you can type a keyword or expression to be used for this filter which "
-"depends on the condition you selected in the combo box at the right:<ul>\n"
-"<li><b>contain</b>, <b>does not contain</b> - you should probably enter a "
-"keyword here, like \"KDE\", \"Baseball\" or \"Business\". The keyword is not "
-"case-sensitive so it does not matter whether you type \"kde\", \"KDE\" or "
-"\"kDe\".</li>\n"
-"<li><b>equals</b>, <b>does not equal</b> - enter a phrase or expression here "
-"to have the filter match only those articles whose headlines match "
-"<b>exactly</b> the text you typed. The phrase you type will be considered to "
-"be case-sensitive, so it makes a difference whether you show articles which "
-"contain \"Boeing\" or \"BOEING\".</li>\n"
-"<li><b>matches</b> - a regular expression is expected. Recommended only if "
-"you are familiar with regular expressions, i.e. it should be used by "
-"advanced users only.</li></ul>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 582
-#: rc.cpp:198
-msgid "headlines"
-msgstr "頭條"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 592
-#: rc.cpp:201
-msgid "Condition for this filter"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 600
-#: rc.cpp:204
-msgid ""
-"This combo box lets you specify the condition under which the keyword/"
-"expression you entered in the input field at the right will match. You can "
-"select one of the following values:<ul>\n"
-"<li>contain - the filter matches if the headline contains the keyword.</li>\n"
-"<li>does not contain - the filter matches if the headline does not contain "
-"the keyword.</li>\n"
-"<li>equals - the filter matches if the headline equals the expression.</li>\n"
-"<li>does not equal - the filter matches if the headline does not equal the "
-"expression.</li>\n"
-"<li>matches - the filter matches if the expression matches the headline. The "
-"expression you typed at the right will be considered a regular expression in "
-"this mode.</li>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 604
-#: rc.cpp:212 common/configaccess.cpp:382 common/configaccess.cpp:621
-msgid "contain"
-msgstr "包含"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 609
-#: rc.cpp:215 common/configaccess.cpp:384
-msgid "do not contain"
-msgstr "不包含"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 614
-#: rc.cpp:218 common/configaccess.cpp:386
-msgid "equal"
-msgstr "等於"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 619
-#: rc.cpp:221 common/configaccess.cpp:388
-msgid "do not equal"
-msgstr "不等於"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 624
-#: rc.cpp:224
-msgid "match"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 636
-#: rc.cpp:227
-msgid "Scroller"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 648
-#: rc.cpp:230
-msgid "Behavior"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 668
-#: rc.cpp:233
-msgid "&Scrolling speed:"
-msgstr "捲動速度(&S)："
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 674
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 698
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 723
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 736
-#: rc.cpp:236 rc.cpp:245 rc.cpp:251 rc.cpp:260
-msgid "Scrolling speed"
-msgstr "捲動速度"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 677
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 701
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 726
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 739
-#: rc.cpp:239 rc.cpp:248 rc.cpp:254 rc.cpp:263
-msgid ""
-"Here you can define how fast the text should be scrolling. If you only have "
-"a little space on your taskbar (and therefore a rather small news ticker), "
-"you should probably set this to a slower speed so that you have a chance to "
-"read the headlines. For wider news tickers (and better eyes), faster "
-"scrolling is probably appropriate so that you do not have to wait too long "
-"for the next headline."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 695
-#: rc.cpp:242
-msgid "Slow"
-msgstr "慢"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 733
-#: rc.cpp:257
-msgid "Fast"
-msgstr "快"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 753
-#: rc.cpp:266
-msgid "Di&rection of scrolling:"
-msgstr "捲動方向(&R):"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 759
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 772
-#: rc.cpp:269 rc.cpp:275
-msgid "Direction of scrolling"
-msgstr "捲動方向"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 762
-#: rc.cpp:272
-msgid ""
-"These options allow you to define in what direction the text should be "
-"scrolled, e.g. to the left or to the right, upwards or downwards."
-msgstr "這個選項可以讓您定義文字捲動的方向，例如往左、往右、 往上或往下。"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 775
-#: rc.cpp:278
-msgid ""
-"These options allow you to define in what direction the text should be "
-"scrolled, e.g. to the left or to the right, upwards or downwards. Rotated "
-"means the text is rotated 90 degrees."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 779
-#: rc.cpp:281
-msgid "To the Left"
-msgstr "往左"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 784
-#: rc.cpp:284
-msgid "To the Right"
-msgstr "往右"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 789
-#: rc.cpp:287
-msgid "Upwards"
-msgstr "往上"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 794
-#: rc.cpp:290
-msgid "Downwards"
-msgstr "往下"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 799
-#: rc.cpp:293
-msgid "Upwards, Rotated"
-msgstr "往上，重覆"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 804
-#: rc.cpp:296
-msgid "Downwards, Rotated"
-msgstr "往下，重覆"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 818
-#: rc.cpp:299
+#: knewsticker.cpp:112
 msgid "Appearance"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 830
-#: rc.cpp:302
-msgid "H&ighlighted color:"
-msgstr "加強顯示的顏色(&I)："
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 836
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 852
-#: rc.cpp:305 rc.cpp:311
-msgid "Highlighted color"
-msgstr "加強顯示的顏色"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 839
-#: rc.cpp:308
-msgid ""
-"Click the button at the right to open a convenient color-selection dialog "
-"which lets you choose the color of the headlines when they are highlighted "
-"(when you move the mouse over them)."
+#: knewsticker.cpp:119
+msgid "Feed Access"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 855
-#: rc.cpp:314
-msgid ""
-"Click this button to open a convenient color-selection dialog which lets you "
-"choose the color of the headlines when they are highlighted (when you move "
-"the mouse over them)."
+#. i18n: file feedsettings.ui line 13
+#. i18n: tag string
+#. i18n: file visualsettings.ui line 13
+#. i18n: tag string
+#. i18n: file feedsettings.ui line 13
+#. i18n: tag string
+#. i18n: file visualsettings.ui line 13
+#: rc.cpp:3 rc.cpp:24 rc.cpp:36 rc.cpp:45
+msgid "Form"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 862
-#: rc.cpp:317
-msgid "&Background color:"
-msgstr "背景顏色(&B)："
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 868
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 884
-#: rc.cpp:320 rc.cpp:326
-msgid "Background color"
-msgstr "背景顏色"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 871
-#: rc.cpp:323
-msgid ""
-"Click the button at the right to open a convenient color-selection dialog "
-"which lets you choose the background color of the scrolling text."
+#. i18n: file feedsettings.ui line 19
+#: rc.cpp:6 rc.cpp:39
+msgid "Update Interval:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 887
-#: rc.cpp:329
-msgid ""
-"Click this button to open a convenient color-selection dialog which lets you "
-"choose the background color of the scrolling text."
+#. i18n: file feedsettings.ui line 29
+#: rc.cpp:9 rc.cpp:42
+msgid " Minutes"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 894
-#: rc.cpp:332
-msgid "&Foreground color:"
-msgstr "前景顏色(&F)："
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 900
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 916
-#: rc.cpp:335 rc.cpp:341
-msgid "Foreground color"
-msgstr "前景顏色"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 903
-#: rc.cpp:338
-msgid ""
-"Click the button at the right to open a convenient color-selection dialog "
-"which lets you choose the color of the scrolling text."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 919
-#: rc.cpp:344
-msgid ""
-"Click this button to open a convenient color-selection dialog which lets you "
-"choose the color of the scrolling text."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 926
-#: rc.cpp:347
-msgid "F&ont:"
-msgstr "字型(&O):"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 932
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 948
-#: rc.cpp:350 rc.cpp:359
-msgid "Scrolling text font"
-msgstr "捲動文字的字型"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 935
-#: rc.cpp:353
-msgid ""
-"Click on the button at the right labeled <i>Choose Font...</i> to choose the "
-"font which will be used for the scrolling text. Please note that certain "
-"fonts are harder to read than others, especially when they are used as "
-"scrolling text. You should probably choose a font which can be easily read "
-"while it is moving."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 945
-#: rc.cpp:356
-msgid "Choose Font..."
-msgstr "選擇字型..."
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 951
-#: rc.cpp:362
-msgid ""
-"Click here to choose the font which will be used for the scrolling text. "
-"Please note that certain fonts are harder to read than others, especially "
-"when they are used as a scrolling text. You should probably choose a font "
-"which can be easily read while it is moving."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 961
-#: rc.cpp:365 common/newsengine.cpp:88
-msgid "Miscellaneous"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 973
-#: rc.cpp:368
-msgid "Scroll the most recent headlines onl&y"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 976
-#: rc.cpp:371
-msgid "Show only the most recent headline for each news site in the scroller"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 979
-#: rc.cpp:374
-msgid ""
-"Check this button to show only the most recent headline for each news site. "
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 986
-#: rc.cpp:377
-msgid "Show icons"
-msgstr "顯示圖示"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 989
-#: rc.cpp:380
-msgid "Show icons in the scrolling text"
+#. i18n: tag label
+#. i18n: file settings.kcfg line 8
+#: rc.cpp:12
+#, fuzzy
+#| msgid "Show icons in the scrolling text"
+msgid "Font used for the scrolling text"
 msgstr "在捲動文字顯示圖示"
 
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 992
-#: rc.cpp:383
+#. i18n: tag label
+#. i18n: file settings.kcfg line 12
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Show icons in the scrolling text"
+msgid "The color used for the scrolling text"
+msgstr "在捲動文字顯示圖示"
+
+#. i18n: tag label
+#. i18n: file settings.kcfg line 18
+#: rc.cpp:18
+msgid "List of URLs to RSS feeds which should be shown"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file settings.kcfg line 22
+#: rc.cpp:21
 msgid ""
-"Click this button to make KNewsTicker show the icons of the news site to "
-"which each headline belongs. This makes associating a headline to a news "
-"site very easy but takes up some space in the text."
+"The update interval (in minutes) defining how often the feeds are updated"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 999
-#: rc.cpp:386
-msgid "&Temporarily slowed scrolling"
-msgstr "暫時減慢捲動(&T)"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 1002
-#: rc.cpp:389
-msgid "Slow the scrolling down when mouse points at the scroller"
-msgstr "當滑鼠指著捲動器時減慢捲動"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 1005
-#: rc.cpp:392
-msgid ""
-"Check this box to make KNewsTicker slow the scrolling down when you move the "
-"mouse cursor over the scrolling text. This makes clicking on items and "
-"dragging the icons (if enabled) away a lot easier."
+#. i18n: file visualsettings.ui line 19
+#: rc.cpp:27 rc.cpp:48
+msgid "Color:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 1012
-#: rc.cpp:395
-msgid "&Underline highlighted headline"
-msgstr "加強顯示的頭條加底線(&U)"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 1015
-#: rc.cpp:398
-msgid "Underline the currently highlighted headline"
-msgstr "目前加強顯示的頭條加底線"
-
-#. i18n: tag string
-#. i18n: file knewstickerconfigwidget.ui line 1018
-#: rc.cpp:401
-msgid ""
-"Check this box to have the currently highlighted headline (e.g. the headline "
-"which is currently under the mouse cursor) underlined."
-msgstr "核取這個方塊使目前加強顯示的頭條 (例如目前在滑鼠游標下面的) 加底線。"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 26
-#: rc.cpp:404
-msgid "Add News Source"
-msgstr "新增新聞來源"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 50
-#: rc.cpp:407
-msgid "News Source Properties"
-msgstr "新聞來源屬性"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 71
-#: rc.cpp:410
-msgid "&Name:"
-msgstr "名稱(&N):"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 77
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 88
-#: rc.cpp:413 rc.cpp:419
-msgid "Name of the news source"
-msgstr "新聞來源名稱"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 80
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 91
-#: rc.cpp:416 rc.cpp:422
-msgid ""
-"Here you can enter the name of the news source.<br>Note that you can also "
-"use the button at the bottom right labeled <i>Suggest</i> to let KNewsTicker "
-"fill this field automatically, after you have entered a source file below."
+#. i18n: file visualsettings.ui line 27
+#: rc.cpp:30 rc.cpp:51
+msgid "Custom..."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file newssourcedlg.ui line 99
-#: rc.cpp:425
-msgid "Source &file:"
-msgstr "來源檔案(&F):"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 105
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 256
-#: rc.cpp:428 rc.cpp:494
-msgid "The source file for this news source"
-msgstr "這個新聞來源的來源檔"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 108
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 259
-#: rc.cpp:431 rc.cpp:497
-msgid ""
-"Enter the path to the source file for the news source you want to add here. "
-"If you specified a source file here, you can use the button at the bottom "
-"right labeled <i>Suggest</i> to let KNewsTicker fill in the remaining values "
-"automatically."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 116
-#: rc.cpp:434
-msgid "&Icon:"
-msgstr "圖示(&I):"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 122
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 133
-#: rc.cpp:437 rc.cpp:443
-msgid "Path to the icon for this news source"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 125
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 136
-#: rc.cpp:440 rc.cpp:446
-msgid ""
-"Here you can specify the path to an icon to be used for this news source. "
-"Icons make it easier to distinguish between multiple news sources as the "
-"headlines scroll by.<br>Note that you can also use the button at the bottom "
-"right labeled <i>Suggest</i> to let KNewsTicker fill this field "
-"automatically, after you have entered a source file above."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 158
-#: rc.cpp:449
-msgid "Icon to be used for this news source"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 161
-#: rc.cpp:452
-msgid ""
-"This is what the currently configured icon for this news source looks like. "
-"To change this icon, use the input field at the left."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 169
-#: rc.cpp:455
-msgid "Ca&tegory:"
-msgstr "類別(&T):"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 175
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 186
-#: rc.cpp:458 rc.cpp:464
-msgid "Into which category does this news source belong?"
-msgstr "這個新聞來源屬於哪個類別？"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 178
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 189
-#: rc.cpp:461 rc.cpp:467
-msgid ""
-"Here you can specify into which category this news source belongs. Arranging "
-"the news sources into categories makes it much easier to maintain large "
-"lists of news sources.<br>Note that you can also use the button at the "
-"bottom right labeled <i>Suggest</i> to let KNewsTicker fill this field "
-"automatically, after you have entered a source file above."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 208
-#: rc.cpp:470
-msgid "&Max. articles:"
-msgstr "最大文章數目(&M):"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 214
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 231
-#: rc.cpp:473 rc.cpp:479
-msgid "Maximum number of articles"
-msgstr "最大文章數目"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 217
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 234
-#: rc.cpp:476 rc.cpp:482
-msgid ""
-"This option lets you define how many articles KNewsTicker should cache for "
-"this news source. This value will never be exceeded.<br>Note that you can "
-"also use the button at the bottom right labeled <i>Suggest</i> to let "
-"KNewsTicker fill this field automatically, after you have entered a source "
-"file above."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 242
-#: rc.cpp:485
-msgid "The file is a &program"
-msgstr "這檔案是個程式(&P)"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 245
-#: rc.cpp:488
-msgid "Is the specified source file a program?"
-msgstr "指定的來源檔是個程式嗎？"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 248
-#: rc.cpp:491
-msgid ""
-"Check this box to tell KNewsTicker that the file you specified in the above "
-"input field labeled <i>Source file</i> is a program and not a RDF or RSS "
-"file. KNewsTicker will then process the output (as received on <i>stdout</"
-"i>) of that program."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 269
-#: rc.cpp:500
-msgid "&Cancel"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 272
-#: rc.cpp:503
-msgid "Cancel this configuration"
-msgstr "取消這個設定"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 275
-#: rc.cpp:506
-msgid ""
-"Press this button to close this dialog, discarding all entered information."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 286
-#: rc.cpp:509
-msgid "&Suggest"
-msgstr "建議(&S)"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 289
-#: rc.cpp:512
-msgid "Suggest suitable values"
-msgstr "建議合適的值"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 292
-#: rc.cpp:515
-msgid ""
-"Press this button to make KNewsTicker guess more or less reasonable values "
-"for some of the news properties (such as the name, icon or maximum number of "
-"articles).<br>Note that you have to supply a source file in order to use "
-"this function."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 300
-#: rc.cpp:518
-msgid "&OK"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 306
-#: rc.cpp:521
-msgid "Acknowledge these values"
-msgstr "確認這些值"
-
-#. i18n: tag string
-#. i18n: file newssourcedlg.ui line 309
-#: rc.cpp:524
-msgid ""
-"Press this button to apply the values of this dialog and return to the "
-"previous configuration dialog."
-msgstr ""
-
-#: rc.cpp:525
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Keanu,Hydonsingore,Walter Cheuk"
-
-#: rc.cpp:526
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-"keanu@ms50.url.com.tw,hydonsingore@mail.educities.edu.tw,wwycheuk@netvigator."
-"com"
-
-#: common/newsengine.cpp:76
-msgid "Arts"
-msgstr "文學"
-
-#: common/newsengine.cpp:77
-msgid "Business"
-msgstr "商業"
-
-#: common/newsengine.cpp:78
-msgid "Computers"
-msgstr "電腦"
-
-#: common/newsengine.cpp:79
-msgid "Games"
-msgstr "遊戲"
-
-#: common/newsengine.cpp:80
-msgid "Health"
-msgstr "健康"
-
-#: common/newsengine.cpp:81
-msgid "Home"
-msgstr "家庭"
-
-#: common/newsengine.cpp:82
-msgid "Recreation"
-msgstr "娛樂"
-
-#: common/newsengine.cpp:83
-msgid "Reference"
-msgstr "參考"
-
-#: common/newsengine.cpp:84
-msgid "Science"
-msgstr "科學"
-
-#: common/newsengine.cpp:85
-msgid "Shopping"
-msgstr "購物"
-
-#: common/newsengine.cpp:86
-msgid "Society"
-msgstr "社會"
-
-#: common/newsengine.cpp:87
-msgid "Sports"
-msgstr "體育"
-
-#: common/newsengine.cpp:89
-msgid "Magazines"
-msgstr "雜誌"
-
-#: common/newsengine.cpp:221
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The program '%1' was terminated abnormally.<br>This can happen if it "
-#| "receives the SIGKILL signal.</p>"
-msgid ""
-"<p>The program '%1' was terminated abnormally.<br />This can happen if it "
-"receives the SIGKILL signal.</p>"
-msgstr ""
-"<p>程式『%1』被不正常地終止。<br>這可能是因為它收到了 SIGKILL 訊號。</P>"
-
-#: common/newsengine.cpp:236
-#, fuzzy, kde-format
-#| msgid "<p>Program output:<br>%1<br>"
-msgid "<br />Program output:<br />%1<br />"
-msgstr "<p>程式輸出：<br>%1<br>"
-
-#: common/newsengine.cpp:238
-#, kde-format
-msgid "An error occurred while updating the news source '%1'."
-msgstr "更新新聞來源時發生錯誤『%1』。"
-
-#: common/newsengine.cpp:240
-msgid "KNewsTicker Error"
-msgstr "K新聞快報錯誤"
-
-#: common/newsengine.cpp:252
-#, kde-format
-msgid "The program '%1' could not be started at all."
-msgstr "『%1』程式完全無法啟動。"
-
-#: common/newsengine.cpp:253
-#, kde-format
-msgid ""
-"The program '%1' tried to read or write a file or directory which could not "
-"be found."
-msgstr "『%1』程式嘗試讀寫無法找到的檔案或目錄。"
-
-#: common/newsengine.cpp:255
-#, kde-format
-msgid "An error occurred while the program '%1' tried to read or write data."
-msgstr "『%1』程式嘗試讀寫資料時發生錯誤。"
-
-#: common/newsengine.cpp:257
-#, kde-format
-msgid ""
-"The program '%1' was passed too many arguments. Please adjust the command "
-"line in the configuration dialog."
-msgstr "『%1』程式被傳遞過多參數。請在設定對話框中調整指令。"
-
-#: common/newsengine.cpp:259
-#, kde-format
-msgid ""
-"An external system program upon which the program '%1' relied could not be "
-"executed."
-msgstr "『%1』程式依賴的外部系統程式無法執行。"
-
-#: common/newsengine.cpp:261
-#, kde-format
-msgid ""
-"The program '%1' tried to read or write a file or directory but lacks the "
-"permission to do so."
-msgstr "『%1』程式嘗試讀寫檔案或目錄中，但沒有足夠的權限執行。"
-
-#: common/newsengine.cpp:263
-#, kde-format
-msgid "The program '%1' tried to access a device which was not available."
-msgstr "『%1』程式嘗試存取無法用的裝置。"
-
-#: common/newsengine.cpp:265
-#, kde-format
-msgid "There is no more space left on the device used by the program '%1'."
-msgstr "『%1』程式使用的裝置沒有足夠空間。"
-
-#: common/newsengine.cpp:267
-#, kde-format
-msgid ""
-"The program '%1' tried to create a temporary file on a read only file system."
-msgstr "『%1』程式嘗試在唯讀的檔案系統上建立暫存檔。"
-
-#: common/newsengine.cpp:269
-#, kde-format
-msgid ""
-"The program '%1' tried to call a function which is not implemented or "
-"attempted to access an external resource which does not exist."
-msgstr "『%1』程式嘗試呼叫一個未有實作的函數、或企圖存取不存在的外部資源。"
-
-#: common/newsengine.cpp:272
-#, kde-format
-msgid ""
-"The program '%1' was unable to retrieve input data and was therefore unable "
-"to return any XML data."
-msgstr "『%1』程式無法取回輸入資料，因此無法傳回任何 XML 資料。"
-
-#: common/newsengine.cpp:274
-#, kde-format
-msgid ""
-"The program '%1' tried to access a host which is not connected to a network."
-msgstr "『%1』程式嘗試存取沒有連到網絡的主機。"
-
-#: common/newsengine.cpp:276
-#, kde-format
-msgid "The program '%1' tried to access a protocol which is not implemented."
-msgstr "『%1』程式嘗試存取未有實作的通訊協定。"
-
-#: common/newsengine.cpp:278
-#, kde-format
-msgid ""
-"The program '%1' requires you to configure a destination address to retrieve "
-"data from. Please refer to the documentation of the program for information "
-"on how to do that."
-msgstr ""
-"『%1』程式要求您設定要取得的資料的目標位址。請查閱程式文件瞭解如何進行。"
-
-#: common/newsengine.cpp:281
-#, kde-format
-msgid ""
-"The program '%1' tried to use a socket type which is not supported by this "
-"system."
-msgstr "『%1』程式嘗試使用系統不支援的 socket 類型。"
-
-#: common/newsengine.cpp:283
-#, kde-format
-msgid "The program '%1' tried to access an unreachable network."
-msgstr "『%1』不被此嘗試存取無法到達的網路。"
-
-#: common/newsengine.cpp:285
-#, kde-format
-msgid ""
-"The network the program '%1' was trying to access dropped the connection "
-"with a reset."
-msgstr "『%1』程式嘗試存取被中斷並重置的連線。"
-
-#: common/newsengine.cpp:287
-#, kde-format
-msgid "The connection of the program '%1' was reset by peer."
-msgstr "『%1』程式的連線已被對方重置。"
-
-#: common/newsengine.cpp:289
-#, kde-format
-msgid "The connection the program '%1' was trying to establish timed out."
-msgstr "『%1』程式嘗試建立的連線逾時。"
-
-#: common/newsengine.cpp:291
-#, kde-format
-msgid "The connection the program '%1' was trying to establish was refused."
-msgstr "『%1』程式嘗試建立的連線被拒絕。"
-
-#: common/newsengine.cpp:293
-#, kde-format
-msgid "The host the program '%1' was trying to reach is down."
-msgstr "『%1』程式嘗試聯繫的主機已停止。"
-
-#: common/newsengine.cpp:295
-#, kde-format
-msgid ""
-"The host the program '%1' was trying to reach is unreachable, no route to "
-"host."
-msgstr "『%1』程式嘗試聯繫的主機無法到達，沒有到達該主機的路由。"
-
-#: common/newsengine.cpp:297
-#, kde-format
-msgid ""
-"KNewsTicker could not execute the program '%1' because its executable bit "
-"was not set. You can mark that program as executable by executing the "
-"following steps:<ul><li>Open a Konqueror window and browse to the program</"
-"li><li>Click on the file with the right mouse button, and select "
-"'Properties'</li><li>Open the 'Permissions' tab and make sure that the box "
-"in the column 'Exec' and the row 'User' is checked to ensure that the "
-"current user is allowed to execute that file.</li></ul>"
-msgstr ""
-"K新聞快報無法執行『%1』程式，因為它的可執行位元未有設定。你可以下列步驟將程式"
-"標示為可執行：<ul><li>開啟 Konqueror 視窗並瀏覽至此程式</li><li>用滑鼠右鍵點"
-"擊此檔案，然後選擇『屬性』</li><li>打開『權限』的標籤，並在『擁有者』列勾選"
-"『執行』，以允許目前的使用者可以執行此檔。</li></ul>"
-
-#: common/newsengine.cpp:305
-#, kde-format
-msgid ""
-"The program '%1' sent a bad request which was not understood by the server."
-msgstr "『%1』程式送出有問題的請求，伺服器無法了解。"
-
-#: common/newsengine.cpp:307
-#, kde-format
-msgid ""
-"The program '%1' failed to issue an authorization for an area which needs "
-"some form of authorization before it can be accessed."
-msgstr "『%1』程式在需要授權才能存取的區域未能發出授權。"
-
-#: common/newsengine.cpp:310
-#, kde-format
-msgid ""
-"The program '%1' aborted because it could not access the data without paying "
-"for it."
-msgstr "『%1』程式中止，因為無法存取資料。"
-
-#: common/newsengine.cpp:312
-#, kde-format
-msgid "The program '%1' tried to access a forbidden source."
-msgstr "『%1』程式嘗試存取被禁止的來源。"
-
-#: common/newsengine.cpp:314
-#, kde-format
-msgid "The program '%1' tried to access data which could not be found."
-msgstr "『%1』程式嘗試存取無法找到的資料。"
-
-#: common/newsengine.cpp:316
-#, kde-format
-msgid "The HTTP request of the program '%1' timed out."
-msgstr "『%1』程式的 HTTP 請求已逾時。"
-
-#: common/newsengine.cpp:317
-msgid ""
-"A server error has been encountered. It is likely that you cannot do "
-"anything about it."
-msgstr "伺服器遇到錯誤。看來你無法解決這個問題。"
-
-#: common/newsengine.cpp:319
-#, kde-format
-msgid ""
-"The HTTP protocol version used by the program '%1' was not understood by the "
-"HTTP server or source."
-msgstr "『%1』程式所使用的 HTTP 協定版本無法被 HTTP 伺服器或來源了解。"
-
-#: common/newsengine.cpp:321
-msgid "KNewsTicker was unable to detect the exact reasons for the error."
-msgstr "K新聞快報無法偵測錯誤的精確原因。"
-
-#: knewstickerstub/knewstickerstub.cpp:27
-msgid "KNewsTickerStub"
-msgstr "K新聞快報末端"
-
-#: knewstickerstub/knewstickerstub.cpp:29
-msgid "A frontend to the KNewsTicker configuration"
-msgstr "K新聞快報設定的前端介面"
-
-#: knewstickerstub/knewstickerstub.cpp:30
-msgid "(c)2000, 2001 Frerich Raabe"
-msgstr "(c)2000, 2001 Frerich Raabe"
-
-#: knewstickerstub/knewstickerstub.cpp:38
-msgid "Author"
-msgstr "作者"
-
-#: knewstickerstub/knewstickerstub.cpp:44
-msgid "Add the RDF/RSS file referenced by <url>"
-msgstr "加增<url>所參考的 RDF/RSS 檔案"
+#. i18n: file visualsettings.ui line 35
+#: rc.cpp:33 rc.cpp:54
+#, fuzzy
+#| msgid "F&ont:"
+msgid "Font:"
+msgstr "字型(&O):"
+
+#~ msgid "KNewsTicker"
+#~ msgstr "K新聞快報"
+
+#~ msgid "A news ticker applet."
+#~ msgstr "接收及顯示新聞的小程式。"
+
+#~ msgid "(c) 2000, 2001 The KNewsTicker developers"
+#~ msgstr "(c) 2000, 2001 K新聞快報開發人員"
+
+#~ msgid "Show menu"
+#~ msgstr "顯示選單"
+
+#, fuzzy
+#~| msgid "(c)2000, 2001 Frerich Raabe"
+#~ msgid "Frerich Raabe"
+#~ msgstr "(c)2000, 2001 Frerich Raabe"
+
+#~ msgid "Original author"
+#~ msgstr "原始作者"
+
+#~ msgid "Hypertext headlines and much more"
+#~ msgstr "超連結的頭條標題，及更多好東西"
+
+#~ msgid "Mouse wheel support"
+#~ msgstr "滾輪滑鼠支援"
+
+#~ msgid "Rotated scrolling text modes"
+#~ msgstr "環迴文字捲軸模式"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>Could not update news site '%1'.<br>The supplied resource file is "
+#~| "probably invalid or broken.</qt>"
+#~ msgid ""
+#~ "<qt>Could not update news site '%1'.<br />The supplied resource file is "
+#~ "probably invalid or broken.</qt>"
+#~ msgstr ""
+#~ "<qt>無法更新新聞站台『%1』。<br>所提供的資源檔可能無效或已毀壞。</qt>"
+
+#~ msgid ""
+#~ "<qt>The following news sites had problems. Their resource files are "
+#~ "probably invalid or broken.<ul>"
+#~ msgstr "<qt>下列的新聞站台發生了問題。它們的資源檔可能無效或已毀壞。<ul>"
+
+#~ msgid ""
+#~ "Failed to update several news sites. The Internet connection might be cut."
+#~ msgstr "無法更新某些新聞站台。互聯網連線可能已被切斷。"
+
+#~ msgid "Check News"
+#~ msgstr "檢查新聞"
+
+#~ msgid "Currently Being Updated, No Articles Available"
+#~ msgstr "正在更新，沒有新的文章。"
+
+#~ msgid "No Articles Available"
+#~ msgstr "沒有新的文章"
+
+#~ msgid "Offline Mode"
+#~ msgstr "離線模式"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "健康"
+
+#~ msgid "About KNewsTicker"
+#~ msgstr "關於 K新聞快報"
+
+#~ msgid "Configure KNewsTicker..."
+#~ msgstr "設定 K新聞快報..."
+
+#, fuzzy
+#~ msgid "Configuration"
+#~ msgstr "條件"
+
+#~ msgid "News query interval:"
+#~ msgstr "新聞查詢間隔："
+
+#~ msgid "All News Sources"
+#~ msgstr "所有新聞來源"
+
+#~ msgid "Unknown"
+#~ msgstr "未知的"
+
+#~ msgid "Unknown %1"
+#~ msgstr "未知的 %1"
+
+#~ msgid "<p>Do you really want to remove %1 news source?</p>"
+#~ msgid_plural "<p>Do you really want to remove these %1 news sources?</p>"
+#~ msgstr[0] "<p>你真的要移除 %1 個新聞來源嗎？</p>"
+
+#~ msgid "<p>Do you really want to remove the selected filter?</p>"
+#~ msgstr "<p>你真的要移除選擇的過濾器嗎？</p>"
+
+#~ msgid "Edit News Source"
+#~ msgstr "編輯新聞來源"
+
+#~ msgid "&Add News Source"
+#~ msgstr "新增新聞來源(&A)"
+
+#~ msgid "&Modify '%1'"
+#~ msgstr "更改『%1』(&M)"
+
+#~ msgid "&Remove '%1'"
+#~ msgstr "移除『%1』(&R)"
+
+#~ msgid "&Remove News Sources"
+#~ msgstr "移除新聞來源(&R)"
+
+#~ msgid "&Modify News Source"
+#~ msgstr "更改新聞來源(&M)"
+
+#~ msgid "&Remove News Source"
+#~ msgstr "移除新聞來源(&R)"
+
+#~ msgid "<p>Do you really want to add '%1' to the list of news sources?</p>"
+#~ msgstr "<p>你真的要新增『%1』到新聞來源列表嗎？</p>"
+
+#~ msgid " +++ No News Available +++"
+#~ msgstr " +++ 沒有新的新聞 +++"
+
+#~ msgid "Downloading Data"
+#~ msgstr "正在下載資料"
+
+#~ msgid ""
+#~ "<qt>Please wait while KNewsTicker is downloading some data necessary to "
+#~ "suggest reasonable values.<br/><br/>This will not take longer than one "
+#~ "minute.</qt>"
+#~ msgstr ""
+#~ "<qt>請等候 K新聞快報下載資料，完成後即可建議會理的使用值。<br/><br/>這不會"
+#~ "需要多於一分鐘。</qt>"
+
+#~ msgid "Could not retrieve the specified source file."
+#~ msgstr "無法取得指定的來源檔案。"
+
+#~ msgid ""
+#~ "You have to specify a name for this news source to be able to use it."
+#~ msgstr "你要指定新聞來源的名稱才能使用它。"
+
+#~ msgid "No Name Specified"
+#~ msgstr "未有指定名稱"
+
+#~ msgid ""
+#~ "You have to specify the source file for this news source to be able to "
+#~ "use it."
+#~ msgstr "你要指定新聞來源的來源檔案才能使用它。"
+
+#~ msgid "No Source File Specified"
+#~ msgstr "未有指定來源檔案"
+
+#~ msgid ""
+#~ "KNewsTicker needs a valid RDF or RSS file to suggest sensible values. The "
+#~ "specified source file is invalid."
+#~ msgstr ""
+#~ "K新聞快報需要有效的 RDF 或 RSS 檔案來建議有用的使用值。指定的來源檔案無"
+#~ "效。"
+
+#~ msgid "Invalid Source File"
+#~ msgstr "來源檔案無效"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid "Never"
+#~ msgstr "從不"
+
+#~ msgid "Interval of news queries"
+#~ msgstr "新聞查詢間隔"
+
+#~ msgid "Nonsensitive"
+#~ msgstr "不敏感的"
+
+#~ msgid "Mousewheel sensitivity"
+#~ msgstr "滑鼠滾輪敏感度"
+
+#~ msgid "Sensitive"
+#~ msgstr "敏感"
+
+#~ msgid "&Mousewheel sensitivity:"
+#~ msgstr "滑鼠滾輪敏感度(&M):"
+
+#~ msgid "&Use custom names for news sites"
+#~ msgstr "新聞站台使用自訂名稱(&U)"
+
+#~ msgid "Use the names defined in the list of news sources"
+#~ msgstr "使用定義在新聞來源列表中的名稱"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this box to make the news ticker use the names you specified in the "
+#~ "list of news sources (available on the tab labeled <i>News sources</i>) "
+#~ "instead of the ones the news sites themselves report.<br>This can be "
+#~ "handy for news sites which report a very long or useless name."
+#~ msgstr ""
+#~ "核取這個方塊使新聞快報使用您在新聞來源列表（在<i>新聞來源</i>標籤頁）中指"
+#~ "定的名稱，而不是新聞網站所提供的名稱。<br>當網站提供的名稱很長或不合適時很"
+#~ "有用。"
+
+#~ msgid "News Sources"
+#~ msgstr "新聞來源"
+
+#~ msgid "News sources to be queried"
+#~ msgstr "要查詢的新聞來源"
+
+#~ msgid "Name of Site"
+#~ msgstr "站台名稱"
+
+#~ msgid "Source File"
+#~ msgstr "來源檔案"
+
+#~ msgid "Max. Articles"
+#~ msgstr "文章的最大數目"
+
+#~ msgid "R&emove"
+#~ msgstr "移除(&E)"
+
+#~ msgid "Remove selected site"
+#~ msgstr "移除選擇的站台"
+
+#~ msgid ""
+#~ "Click this button to remove the currently selected news site from the "
+#~ "list."
+#~ msgstr "按這個按鈕從列表中移除目前選擇的新聞站台。"
+
+#~ msgid "Add..."
+#~ msgstr "新增..."
+
+#~ msgid "Add a new site"
+#~ msgstr "加增新的站台"
+
+#~ msgid ""
+#~ "Click this button to add a new site to the list. Note that you can also "
+#~ "drag a RDF or RSS file to this list (i.e. from Konqueror) to add it to "
+#~ "the list."
+#~ msgstr ""
+#~ "按這個按鈕加增新的站台到列表中。注意您也可以拖曳  RDF 或 RSS 檔案到這個列"
+#~ "表中（例如從 Konqueror）加增它到列表。"
+
+#~ msgid "&Modify..."
+#~ msgstr "更改(&M)..."
+
+#~ msgid "Modify selected news source"
+#~ msgstr "更改選擇的新聞來源"
+
+#~ msgid "Filters"
+#~ msgstr "過濾器"
+
+#~ msgid "Currently configured filters"
+#~ msgstr "目前已設定的過濾器"
+
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgid "Affects"
+#~ msgstr "影響"
+
+#~ msgid "Condition"
+#~ msgstr "條件"
+
+#~ msgid "Remove selected filter"
+#~ msgstr "移除選擇的過濾器"
+
+#~ msgid "A&dd"
+#~ msgstr "新增(&D)"
+
+#~ msgid "Hide"
+#~ msgstr "隱藏"
+
+#~ msgid "Show"
+#~ msgstr "顯示"
+
+#~ msgid "articles from"
+#~ msgstr "文章來自"
+
+#~ msgid "Affected news sources"
+#~ msgstr "受影響的新聞來源"
+
+#~ msgid "all news sources"
+#~ msgstr "所有新聞來源"
+
+#~ msgid "headlines"
+#~ msgstr "頭條"
+
+#~ msgid "contain"
+#~ msgstr "包含"
+
+#~ msgid "do not contain"
+#~ msgstr "不包含"
+
+#~ msgid "equal"
+#~ msgstr "等於"
+
+#~ msgid "do not equal"
+#~ msgstr "不等於"
+
+#~ msgid "&Scrolling speed:"
+#~ msgstr "捲動速度(&S)："
+
+#~ msgid "Scrolling speed"
+#~ msgstr "捲動速度"
+
+#~ msgid "Slow"
+#~ msgstr "慢"
+
+#~ msgid "Fast"
+#~ msgstr "快"
+
+#~ msgid "Di&rection of scrolling:"
+#~ msgstr "捲動方向(&R):"
+
+#~ msgid "Direction of scrolling"
+#~ msgstr "捲動方向"
+
+#~ msgid ""
+#~ "These options allow you to define in what direction the text should be "
+#~ "scrolled, e.g. to the left or to the right, upwards or downwards."
+#~ msgstr "這個選項可以讓您定義文字捲動的方向，例如往左、往右、 往上或往下。"
+
+#~ msgid "To the Left"
+#~ msgstr "往左"
+
+#~ msgid "To the Right"
+#~ msgstr "往右"
+
+#~ msgid "Upwards"
+#~ msgstr "往上"
+
+#~ msgid "Downwards"
+#~ msgstr "往下"
+
+#~ msgid "Upwards, Rotated"
+#~ msgstr "往上，重覆"
+
+#~ msgid "Downwards, Rotated"
+#~ msgstr "往下，重覆"
+
+#~ msgid "H&ighlighted color:"
+#~ msgstr "加強顯示的顏色(&I)："
+
+#~ msgid "Highlighted color"
+#~ msgstr "加強顯示的顏色"
+
+#~ msgid "&Background color:"
+#~ msgstr "背景顏色(&B)："
+
+#~ msgid "Background color"
+#~ msgstr "背景顏色"
+
+#~ msgid "&Foreground color:"
+#~ msgstr "前景顏色(&F)："
+
+#~ msgid "Foreground color"
+#~ msgstr "前景顏色"
+
+#~ msgid "Scrolling text font"
+#~ msgstr "捲動文字的字型"
+
+#~ msgid "Choose Font..."
+#~ msgstr "選擇字型..."
+
+#~ msgid "Show icons"
+#~ msgstr "顯示圖示"
+
+#~ msgid "&Temporarily slowed scrolling"
+#~ msgstr "暫時減慢捲動(&T)"
+
+#~ msgid "Slow the scrolling down when mouse points at the scroller"
+#~ msgstr "當滑鼠指著捲動器時減慢捲動"
+
+#~ msgid "&Underline highlighted headline"
+#~ msgstr "加強顯示的頭條加底線(&U)"
+
+#~ msgid "Underline the currently highlighted headline"
+#~ msgstr "目前加強顯示的頭條加底線"
+
+#~ msgid ""
+#~ "Check this box to have the currently highlighted headline (e.g. the "
+#~ "headline which is currently under the mouse cursor) underlined."
+#~ msgstr ""
+#~ "核取這個方塊使目前加強顯示的頭條 (例如目前在滑鼠游標下面的) 加底線。"
+
+#~ msgid "Add News Source"
+#~ msgstr "新增新聞來源"
+
+#~ msgid "News Source Properties"
+#~ msgstr "新聞來源屬性"
+
+#~ msgid "&Name:"
+#~ msgstr "名稱(&N):"
+
+#~ msgid "Name of the news source"
+#~ msgstr "新聞來源名稱"
+
+#~ msgid "Source &file:"
+#~ msgstr "來源檔案(&F):"
+
+#~ msgid "The source file for this news source"
+#~ msgstr "這個新聞來源的來源檔"
+
+#~ msgid "&Icon:"
+#~ msgstr "圖示(&I):"
+
+#~ msgid "Ca&tegory:"
+#~ msgstr "類別(&T):"
+
+#~ msgid "Into which category does this news source belong?"
+#~ msgstr "這個新聞來源屬於哪個類別？"
+
+#~ msgid "&Max. articles:"
+#~ msgstr "最大文章數目(&M):"
+
+#~ msgid "Maximum number of articles"
+#~ msgstr "最大文章數目"
+
+#~ msgid "The file is a &program"
+#~ msgstr "這檔案是個程式(&P)"
+
+#~ msgid "Is the specified source file a program?"
+#~ msgstr "指定的來源檔是個程式嗎？"
+
+#~ msgid "Cancel this configuration"
+#~ msgstr "取消這個設定"
+
+#~ msgid "&Suggest"
+#~ msgstr "建議(&S)"
+
+#~ msgid "Suggest suitable values"
+#~ msgstr "建議合適的值"
+
+#~ msgid "Acknowledge these values"
+#~ msgstr "確認這些值"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Keanu,Hydonsingore,Walter Cheuk"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "keanu@ms50.url.com.tw,hydonsingore@mail.educities.edu.tw,"
+#~ "wwycheuk@netvigator.com"
+
+#~ msgid "Arts"
+#~ msgstr "文學"
+
+#~ msgid "Business"
+#~ msgstr "商業"
+
+#~ msgid "Computers"
+#~ msgstr "電腦"
+
+#~ msgid "Games"
+#~ msgstr "遊戲"
+
+#~ msgid "Health"
+#~ msgstr "健康"
+
+#~ msgid "Home"
+#~ msgstr "家庭"
+
+#~ msgid "Recreation"
+#~ msgstr "娛樂"
+
+#~ msgid "Reference"
+#~ msgstr "參考"
+
+#~ msgid "Science"
+#~ msgstr "科學"
+
+#~ msgid "Shopping"
+#~ msgstr "購物"
+
+#~ msgid "Society"
+#~ msgstr "社會"
+
+#~ msgid "Sports"
+#~ msgstr "體育"
+
+#~ msgid "Magazines"
+#~ msgstr "雜誌"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>The program '%1' was terminated abnormally.<br>This can happen if it "
+#~| "receives the SIGKILL signal.</p>"
+#~ msgid ""
+#~ "<p>The program '%1' was terminated abnormally.<br />This can happen if it "
+#~ "receives the SIGKILL signal.</p>"
+#~ msgstr ""
+#~ "<p>程式『%1』被不正常地終止。<br>這可能是因為它收到了 SIGKILL 訊號。</P>"
+
+#, fuzzy
+#~| msgid "<p>Program output:<br>%1<br>"
+#~ msgid "<br />Program output:<br />%1<br />"
+#~ msgstr "<p>程式輸出：<br>%1<br>"
+
+#~ msgid "An error occurred while updating the news source '%1'."
+#~ msgstr "更新新聞來源時發生錯誤『%1』。"
+
+#~ msgid "KNewsTicker Error"
+#~ msgstr "K新聞快報錯誤"
+
+#~ msgid "The program '%1' could not be started at all."
+#~ msgstr "『%1』程式完全無法啟動。"
+
+#~ msgid ""
+#~ "The program '%1' tried to read or write a file or directory which could "
+#~ "not be found."
+#~ msgstr "『%1』程式嘗試讀寫無法找到的檔案或目錄。"
+
+#~ msgid ""
+#~ "An error occurred while the program '%1' tried to read or write data."
+#~ msgstr "『%1』程式嘗試讀寫資料時發生錯誤。"
+
+#~ msgid ""
+#~ "The program '%1' was passed too many arguments. Please adjust the command "
+#~ "line in the configuration dialog."
+#~ msgstr "『%1』程式被傳遞過多參數。請在設定對話框中調整指令。"
+
+#~ msgid ""
+#~ "An external system program upon which the program '%1' relied could not "
+#~ "be executed."
+#~ msgstr "『%1』程式依賴的外部系統程式無法執行。"
+
+#~ msgid ""
+#~ "The program '%1' tried to read or write a file or directory but lacks the "
+#~ "permission to do so."
+#~ msgstr "『%1』程式嘗試讀寫檔案或目錄中，但沒有足夠的權限執行。"
+
+#~ msgid "The program '%1' tried to access a device which was not available."
+#~ msgstr "『%1』程式嘗試存取無法用的裝置。"
+
+#~ msgid "There is no more space left on the device used by the program '%1'."
+#~ msgstr "『%1』程式使用的裝置沒有足夠空間。"
+
+#~ msgid ""
+#~ "The program '%1' tried to create a temporary file on a read only file "
+#~ "system."
+#~ msgstr "『%1』程式嘗試在唯讀的檔案系統上建立暫存檔。"
+
+#~ msgid ""
+#~ "The program '%1' tried to call a function which is not implemented or "
+#~ "attempted to access an external resource which does not exist."
+#~ msgstr "『%1』程式嘗試呼叫一個未有實作的函數、或企圖存取不存在的外部資源。"
+
+#~ msgid ""
+#~ "The program '%1' was unable to retrieve input data and was therefore "
+#~ "unable to return any XML data."
+#~ msgstr "『%1』程式無法取回輸入資料，因此無法傳回任何 XML 資料。"
+
+#~ msgid ""
+#~ "The program '%1' tried to access a host which is not connected to a "
+#~ "network."
+#~ msgstr "『%1』程式嘗試存取沒有連到網絡的主機。"
+
+#~ msgid ""
+#~ "The program '%1' tried to access a protocol which is not implemented."
+#~ msgstr "『%1』程式嘗試存取未有實作的通訊協定。"
+
+#~ msgid ""
+#~ "The program '%1' requires you to configure a destination address to "
+#~ "retrieve data from. Please refer to the documentation of the program for "
+#~ "information on how to do that."
+#~ msgstr ""
+#~ "『%1』程式要求您設定要取得的資料的目標位址。請查閱程式文件瞭解如何進行。"
+
+#~ msgid ""
+#~ "The program '%1' tried to use a socket type which is not supported by "
+#~ "this system."
+#~ msgstr "『%1』程式嘗試使用系統不支援的 socket 類型。"
+
+#~ msgid "The program '%1' tried to access an unreachable network."
+#~ msgstr "『%1』不被此嘗試存取無法到達的網路。"
+
+#~ msgid ""
+#~ "The network the program '%1' was trying to access dropped the connection "
+#~ "with a reset."
+#~ msgstr "『%1』程式嘗試存取被中斷並重置的連線。"
+
+#~ msgid "The connection of the program '%1' was reset by peer."
+#~ msgstr "『%1』程式的連線已被對方重置。"
+
+#~ msgid "The connection the program '%1' was trying to establish timed out."
+#~ msgstr "『%1』程式嘗試建立的連線逾時。"
+
+#~ msgid "The connection the program '%1' was trying to establish was refused."
+#~ msgstr "『%1』程式嘗試建立的連線被拒絕。"
+
+#~ msgid "The host the program '%1' was trying to reach is down."
+#~ msgstr "『%1』程式嘗試聯繫的主機已停止。"
+
+#~ msgid ""
+#~ "The host the program '%1' was trying to reach is unreachable, no route to "
+#~ "host."
+#~ msgstr "『%1』程式嘗試聯繫的主機無法到達，沒有到達該主機的路由。"
+
+#~ msgid ""
+#~ "KNewsTicker could not execute the program '%1' because its executable bit "
+#~ "was not set. You can mark that program as executable by executing the "
+#~ "following steps:<ul><li>Open a Konqueror window and browse to the "
+#~ "program</li><li>Click on the file with the right mouse button, and select "
+#~ "'Properties'</li><li>Open the 'Permissions' tab and make sure that the "
+#~ "box in the column 'Exec' and the row 'User' is checked to ensure that the "
+#~ "current user is allowed to execute that file.</li></ul>"
+#~ msgstr ""
+#~ "K新聞快報無法執行『%1』程式，因為它的可執行位元未有設定。你可以下列步驟將"
+#~ "程式標示為可執行：<ul><li>開啟 Konqueror 視窗並瀏覽至此程式</li><li>用滑鼠"
+#~ "右鍵點擊此檔案，然後選擇『屬性』</li><li>打開『權限』的標籤，並在『擁有"
+#~ "者』列勾選『執行』，以允許目前的使用者可以執行此檔。</li></ul>"
+
+#~ msgid ""
+#~ "The program '%1' sent a bad request which was not understood by the "
+#~ "server."
+#~ msgstr "『%1』程式送出有問題的請求，伺服器無法了解。"
+
+#~ msgid ""
+#~ "The program '%1' failed to issue an authorization for an area which needs "
+#~ "some form of authorization before it can be accessed."
+#~ msgstr "『%1』程式在需要授權才能存取的區域未能發出授權。"
+
+#~ msgid ""
+#~ "The program '%1' aborted because it could not access the data without "
+#~ "paying for it."
+#~ msgstr "『%1』程式中止，因為無法存取資料。"
+
+#~ msgid "The program '%1' tried to access a forbidden source."
+#~ msgstr "『%1』程式嘗試存取被禁止的來源。"
+
+#~ msgid "The program '%1' tried to access data which could not be found."
+#~ msgstr "『%1』程式嘗試存取無法找到的資料。"
+
+#~ msgid "The HTTP request of the program '%1' timed out."
+#~ msgstr "『%1』程式的 HTTP 請求已逾時。"
+
+#~ msgid ""
+#~ "A server error has been encountered. It is likely that you cannot do "
+#~ "anything about it."
+#~ msgstr "伺服器遇到錯誤。看來你無法解決這個問題。"
+
+#~ msgid ""
+#~ "The HTTP protocol version used by the program '%1' was not understood by "
+#~ "the HTTP server or source."
+#~ msgstr "『%1』程式所使用的 HTTP 協定版本無法被 HTTP 伺服器或來源了解。"
+
+#~ msgid "KNewsTicker was unable to detect the exact reasons for the error."
+#~ msgstr "K新聞快報無法偵測錯誤的精確原因。"
+
+#~ msgid "KNewsTickerStub"
+#~ msgstr "K新聞快報末端"
+
+#~ msgid "A frontend to the KNewsTicker configuration"
+#~ msgstr "K新聞快報設定的前端介面"
+
+#~ msgid "(c)2000, 2001 Frerich Raabe"
+#~ msgstr "(c)2000, 2001 Frerich Raabe"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Add the RDF/RSS file referenced by <url>"
+#~ msgstr "加增<url>所參考的 RDF/RSS 檔案"
 
 #~ msgid "Icon of this news site"
 #~ msgstr "這個新聞站台的圖示"
