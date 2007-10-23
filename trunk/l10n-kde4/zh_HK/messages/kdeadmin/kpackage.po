@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-20 05:41+0200\n"
+"POT-Creation-Date: 2007-10-23 05:41+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: debInterface.cpp:61 rpmInterface.cpp:53
+#: debInterface.cpp:62 rpmInterface.cpp:53
 msgid "Download only"
 msgstr "只下載"
 
-#: debInterface.cpp:270
+#: debInterface.cpp:289
 msgid "&Apt-File Update"
 msgstr "&Apt-File 更新"
 
-#: debInterface.cpp:290
+#: debInterface.cpp:311
 #, kde-format
 msgid "The %1 program needs to be installed"
 msgstr "需要安裝 %1 程式"
@@ -66,11 +66,11 @@ msgstr "亦搜尋已反裝之套件"
 msgid "Also search uninstalled packages (apt-file needs to be installed)"
 msgstr "亦搜尋已反裝之套件（需要安裝 apt-file）"
 
-#: findf.cpp:178
+#: findf.cpp:179
 msgid "--Nothing found--"
 msgstr "--找不到任何東西--"
 
-#: findf.cpp:228
+#: findf.cpp:229
 msgid "Incorrect URL type"
 msgstr "不正確的 URL 類型"
 
@@ -530,61 +530,61 @@ msgstr "KPackage：正在等待 SLACK"
 msgid "&Update"
 msgstr "已更新"
 
-#: pkgInterface.cpp:120
+#: pkgInterface.cpp:121
 msgid "U&pgrade"
 msgstr "升級(&P)"
 
-#: pkgInterface.cpp:124
+#: pkgInterface.cpp:126
 msgid "&Fixup"
 msgstr "修補(&F)"
 
-#: pkgInterface.cpp:440
+#: pkgInterface.cpp:442
 #, fuzzy
 #| msgid "Querying package list: "
 msgid "Querying package state"
 msgstr "正在查詢套件清單："
 
-#: pkgInterface.cpp:490
+#: pkgInterface.cpp:492
 #, fuzzy
 #| msgid "Querying package list: "
 msgid "Querying package dependencies"
 msgstr "正在查詢套件清單："
 
-#: pkgInterface.cpp:551
+#: pkgInterface.cpp:553
 #, fuzzy
 #| msgid "Querying Gentoo package list: "
 msgid "Querying installed package list"
 msgstr "正在查詢 Gentoo 套件清單："
 
-#: pkgInterface.cpp:585
+#: pkgInterface.cpp:587
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Generating package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:592
+#: pkgInterface.cpp:594
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Processing package information"
 msgstr "正在擷取套件資訊"
 
-#: pkgInterface.cpp:632
+#: pkgInterface.cpp:634
 #, fuzzy, kde-format
 #| msgid "Querying SLACK package list: "
 msgid "Querying SMART package list: %1"
 msgstr "正在查詢 SLACK 套件清單："
 
-#: pkgInterface.cpp:644
+#: pkgInterface.cpp:646
 #, fuzzy, kde-format
 #| msgid "Processing RPM package list"
 msgid "Processing SMART package list: %1"
 msgstr "正在處理 RPM 套件清單"
 
-#: pkgInterface.cpp:651
+#: pkgInterface.cpp:653
 msgid "SMART"
 msgstr ""
 
-#: pkgInterface.cpp:754
+#: pkgInterface.cpp:756
 msgid "Verifying"
 msgstr "正在檢驗"
 
@@ -682,35 +682,29 @@ msgid "&File"
 msgstr " 檔案"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 20
+#. i18n: file kpackageui.rc line 17
 #: rc.cpp:30
+msgid "&Edit"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kpackageui.rc line 25
+#: rc.cpp:33
 msgid "&Packages"
 msgstr "套件(&P)"
 
 #. i18n: tag text
-#. i18n: file kpackageui.rc line 37
-#: rc.cpp:33
-msgid "Spe&cial"
-msgstr "特別的(&C)"
-
-#. i18n: tag text
-#. i18n: file kpackageui.rc line 39
+#. i18n: file kpackageui.rc line 42
 #: rc.cpp:36
-msgid "&APT: Debian"
-msgstr "&APT: Debian"
-
-#. i18n: tag text
-#. i18n: file kpackageui.rc line 45
-#: rc.cpp:39
 msgid "&Settings"
 msgstr ""
 
-#: rc.cpp:40
+#: rc.cpp:37
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Allen Huang,Chao-Hsiung Liao,Walter Cheuk"
 
-#: rc.cpp:41
+#: rc.cpp:38
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -732,6 +726,12 @@ msgstr "備註"
 #, kde-format
 msgid "%1 was not found."
 msgstr "找不到 %1 。"
+
+#~ msgid "Spe&cial"
+#~ msgstr "特別的(&C)"
+
+#~ msgid "&APT: Debian"
+#~ msgstr "&APT: Debian"
 
 #~ msgid "&Types"
 #~ msgstr "類型(&T)"
