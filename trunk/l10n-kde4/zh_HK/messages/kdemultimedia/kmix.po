@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-31 05:50+0100\n"
+"POT-Creation-Date: 2007-11-04 06:19+0100\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 msgid "Select Master Channel"
 msgstr "顯示主聲道"
 
-#: dialogselectmaster.cpp:76
+#: dialogselectmaster.cpp:73
 msgid "Current Mixer"
 msgstr "當前混音器"
 
-#: dialogselectmaster.cpp:97
+#: dialogselectmaster.cpp:92
 msgid "Current mixer"
 msgstr "當前混音器"
 
-#: dialogselectmaster.cpp:102
+#: dialogselectmaster.cpp:99
 msgid "Select the channel representing the master volume:"
 msgstr "選取代表主音量的聲道:"
 
@@ -40,11 +40,11 @@ msgstr ""
 msgid "Hardware &Information"
 msgstr "軟件資訊(&I)"
 
-#: kmix.cpp:109 kmixdockwidget.cpp:382
+#: kmix.cpp:109 kmixdockwidget.cpp:391
 msgid "Hide Mixer Window"
 msgstr "隱藏混音器視窗"
 
-#: kmix.cpp:523
+#: kmix.cpp:524
 msgid "Mixer Hardware Information"
 msgstr "混音器軟件資訊"
 
@@ -136,30 +136,26 @@ msgstr "靜音(&U)"
 msgid "Select Master Channel..."
 msgstr "選取主聲道..."
 
-#: kmixdockwidget.cpp:168
+#: kmixdockwidget.cpp:177
 msgid "Mixer cannot be found"
 msgstr "找不到混音器"
 
-#: kmixdockwidget.cpp:188
+#: kmixdockwidget.cpp:197
 #, kde-format
 msgid "Volume at %1%"
 msgstr "在 %1% 的音量"
 
-#: kmixdockwidget.cpp:190
+#: kmixdockwidget.cpp:199
 msgid " (Muted)"
 msgstr "（已靜音）"
 
-#: kmixdockwidget.cpp:386
+#: kmixdockwidget.cpp:395
 msgid "Show Mixer Window"
 msgstr "顯示混音器視窗"
 
-#: kmixerwidget.cpp:81
+#: kmixerwidget.cpp:79
 msgid "Invalid mixer"
 msgstr "無效的混音器"
-
-#: kmixerwidget.cpp:146
-msgid "Left/Right balancing"
-msgstr "左/右平衡"
 
 #: kmixprefdlg.cpp:56
 msgid "Behaviour"
@@ -349,17 +345,17 @@ msgstr "增加『%1』的音量"
 msgid "Decrease Volume"
 msgstr "降低『%1』的音量"
 
-#: mdwslider.cpp:228
+#: mdwslider.cpp:250
 #, kde-format
 msgid "Mute/Unmute %1"
 msgstr ""
 
-#: mdwslider.cpp:297
+#: mdwslider.cpp:314
 #, kde-format
 msgid "Capture/Uncapture %1"
 msgstr ""
 
-#: mdwslider.cpp:337
+#: mdwslider.cpp:356
 msgid "(capture)"
 msgstr ""
 
@@ -371,7 +367,7 @@ msgstr "切換開關"
 msgid "unknown"
 msgstr "不詳"
 
-#: mixer_alsa9.cpp:766
+#: mixer_alsa9.cpp:776
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
 "Please verify if all alsa devices are properly created."
@@ -379,7 +375,7 @@ msgstr ""
 "你沒有足夠權限存取 alsa 混音器裝置。\n"
 "請查看所有的 alsa 裝置是否已正確的建立。"
 
-#: mixer_alsa9.cpp:770
+#: mixer_alsa9.cpp:780
 msgid ""
 "Alsa mixer cannot be found.\n"
 "Please check that the soundcard is installed and the\n"
@@ -671,17 +667,20 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "trmetal@yahoo.com.hk,wwycheuk@netvigator.com"
 
-#: viewbase.cpp:75
+#: viewbase.cpp:76
 msgid "&Channels"
 msgstr "聲道(&C)"
 
-#: viewbase.cpp:144
+#: viewbase.cpp:145
 msgid "Device Settings"
 msgstr "裝置設置"
 
 #: viewdockareapopup.cpp:141
 msgid "Mixer"
 msgstr "混音器"
+
+#~ msgid "Left/Right balancing"
+#~ msgstr "左/右平衡"
 
 #~ msgid "Record"
 #~ msgstr "錄音"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-03 05:48+0100\n"
+"POT-Creation-Date: 2007-11-04 06:19+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -236,8 +236,8 @@ msgid "Invisible"
 msgstr "隱形"
 
 #: libkopete/kopeteonlinestatus.cpp:122 libkopete/kopetemetacontact.cpp:473
-#: libkopete/kopeteidentity.cpp:157 kopete/kopeteidentitystatusbaricon.cpp:55
-#: kopete/kopetewindow.cpp:316 kopete/identity/identitystatuswidget.cpp:261
+#: libkopete/kopeteidentity.cpp:153 kopete/kopeteidentitystatusbaricon.cpp:55
+#: kopete/kopetewindow.cpp:316 kopete/identity/identitystatuswidget.cpp:263
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:359 protocols/qq/qqprotocol.cpp:39
 #: protocols/msn/msnprotocol.cpp:73 protocols/sms/smsprotocol.cpp:38
@@ -697,7 +697,7 @@ msgstr "用戶現在聯絡不上"
 msgid "Status not available"
 msgstr "無法取得狀態"
 
-#: libkopete/kopeteidentity.cpp:151
+#: libkopete/kopeteidentity.cpp:147
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -713,7 +713,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: libkopete/kopeteidentity.cpp:159
+#: libkopete/kopeteidentity.cpp:155
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -731,14 +731,14 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: libkopete/kopetepasswordedaccount.cpp:77
+#: libkopete/kopetepasswordedaccount.cpp:75
 #, fuzzy, kde-format
 msgid ""
 "<qt><b>The password was wrong.</b> Please re-enter your password for %1 "
 "account <b>%2</b></qt>"
 msgstr "<b>密碼錯誤；</b>請重新輸入你 %1 帳號的密碼 <b>%2</b>"
 
-#: libkopete/kopetepasswordedaccount.cpp:79
+#: libkopete/kopetepasswordedaccount.cpp:77
 #, fuzzy, kde-format
 msgid "<qt>Please enter your password for %1 account <b>%2</b></qt>"
 msgstr "請輸入你 %1 帳號的密碼 <b>%2</b>"
@@ -1383,8 +1383,8 @@ msgid "Quick Search Bar"
 msgstr "快速搜尋列"
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 87
-#: kopete/kopetewindow.cpp:400 rc.cpp:1557
+#. i18n: file ./plugins/history/historyviewer.ui line 201
+#: kopete/kopetewindow.cpp:400 rc.cpp:1575
 msgid "Search:"
 msgstr "搜尋"
 
@@ -1892,7 +1892,7 @@ msgstr "個人資訊"
 msgid "No Photo"
 msgstr "照片"
 
-#: kopete/identity/identitystatuswidget.cpp:263
+#: kopete/identity/identitystatuswidget.cpp:265
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -2763,7 +2763,7 @@ msgid "Bottom"
 msgstr ""
 
 #: kopete/chatwindow/chatmessagepart.cpp:243
-#: plugins/history/historydialog.cpp:186
+#: plugins/history/historydialog.cpp:167
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
@@ -5955,7 +5955,7 @@ msgstr "省/州(&S):"
 #. i18n: file ./protocols/irc/ui/networkconfig.ui line 241
 #. i18n: tag string
 #. i18n: file ./protocols/jabber/ui/dlgregister.ui line 125
-#: rc.cpp:1298 rc.cpp:2097 rc.cpp:4533 plugins/history/historydialog.cpp:477
+#: rc.cpp:1298 rc.cpp:2097 rc.cpp:4533 plugins/history/historydialog.cpp:459
 #: protocols/gadu/gaduregisteraccount.cpp:55
 #, fuzzy
 msgid "&Cancel"
@@ -6479,67 +6479,67 @@ msgid "Show chat history in new chats"
 msgstr "在新聊天中顯示歷程記錄"
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 53
-#: rc.cpp:1554 plugins/history/historydialog.cpp:588
-msgid "Ready"
-msgstr "就緒"
-
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 120
-#: rc.cpp:1560
-#, fuzzy
-msgid "Se&arch"
-msgstr "搜尋(&A):"
-
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 193
-#: rc.cpp:1563
-msgid "Date"
-msgstr "日期"
-
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 198
-#. i18n: tag string
-#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 198
-#. i18n: tag string
-#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
-#: rc.cpp:1566 rc.cpp:1791
-msgid "Contact"
-msgstr "聯絡人"
-
-#. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 248
-#: rc.cpp:1569
+#. i18n: file ./plugins/history/historyviewer.ui line 63
+#: rc.cpp:1554
 msgid "Contact:"
 msgstr "聯絡人:"
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 267
-#: rc.cpp:1572
+#. i18n: file ./plugins/history/historyviewer.ui line 80
+#: rc.cpp:1557
 #, fuzzy
 msgid "Message Filter:"
 msgstr "重新命名過濾器"
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 289
-#: rc.cpp:1575
+#. i18n: file ./plugins/history/historyviewer.ui line 100
+#: rc.cpp:1560
 #, fuzzy
 msgid "All messages"
 msgstr "離開訊息"
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 294
-#: rc.cpp:1578
+#. i18n: file ./plugins/history/historyviewer.ui line 105
+#: rc.cpp:1563
 msgid "Only incoming"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./plugins/history/historyviewer.ui line 299
-#: rc.cpp:1581
+#. i18n: file ./plugins/history/historyviewer.ui line 110
+#: rc.cpp:1566
 msgid "Only outgoing"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 137
+#: rc.cpp:1569
+msgid "Date"
+msgstr "日期"
+
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 142
+#. i18n: tag string
+#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 142
+#. i18n: tag string
+#. i18n: file ./protocols/qq/ui/qqvcard.ui line 263
+#: rc.cpp:1572 rc.cpp:1791
+msgid "Contact"
+msgstr "聯絡人"
+
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 214
+#: rc.cpp:1578
+#, fuzzy
+msgid "Se&arch"
+msgstr "搜尋(&A):"
+
+#. i18n: tag string
+#. i18n: file ./plugins/history/historyviewer.ui line 246
+#: rc.cpp:1581 plugins/history/historydialog.cpp:564
+msgid "Ready"
+msgstr "就緒"
 
 #. i18n: tag string
 #. i18n: file ./plugins/statistics/statisticswidgetbase.ui line 38
@@ -11185,7 +11185,7 @@ msgstr "根據你的搜尋準則搜尋 ICQ 電話簿"
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwcontactsearch.ui line 196
 #: rc.cpp:3641 rc.cpp:4095 rc.cpp:4972 rc.cpp:5278
-#: plugins/history/historydialog.cpp:461 plugins/history/historydialog.cpp:549
+#: plugins/history/historydialog.cpp:443 plugins/history/historydialog.cpp:525
 msgid "&Search"
 msgstr "搜尋(&S)"
 
@@ -14477,26 +14477,26 @@ msgstr "－新的過濾器－"
 msgid "Preview of:"
 msgstr "預覽:"
 
-#: plugins/history/historydialog.cpp:101 plugins/history/historydialog.cpp:572
+#: plugins/history/historydialog.cpp:82 plugins/history/historydialog.cpp:548
 #, kde-format
 msgid "History for %1"
 msgstr "%1 的歷程記錄"
 
-#: plugins/history/historydialog.cpp:126
+#: plugins/history/historydialog.cpp:107
 msgid "All"
 msgstr "所有"
 
-#: plugins/history/historydialog.cpp:220
+#: plugins/history/historydialog.cpp:201
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:45
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:67
 msgid "Loading..."
 msgstr "正在載入..."
 
-#: plugins/history/historydialog.cpp:476
+#: plugins/history/historydialog.cpp:458
 msgid "Searching..."
 msgstr "正在搜尋..."
 
-#: plugins/history/historydialog.cpp:565
+#: plugins/history/historydialog.cpp:541
 #, fuzzy
 msgid "History for All Contacts"
 msgstr "%1 的歷程記錄"
@@ -16562,36 +16562,36 @@ msgstr ""
 "請參觀 Kopete 的網站: <a href=\"http://kopete.kde.org\">http://kopete.kde."
 "org</a>"
 
-#: protocols/oscar/aim/aimaccount.cpp:277
+#: protocols/oscar/aim/aimaccount.cpp:231
 #, fuzzy
 msgid "Join Chat..."
 msgstr "加入頻道..."
 
-#: protocols/oscar/aim/aimaccount.cpp:282
-#: protocols/oscar/icq/icqaccount.cpp:162
+#: protocols/oscar/aim/aimaccount.cpp:234
+#: protocols/oscar/icq/icqaccount.cpp:130
 #: protocols/jabber/jabberaccount.cpp:214
 msgid "Edit User Info..."
 msgstr "編輯用戶資訊..."
 
-#: protocols/oscar/aim/aimaccount.cpp:287
-#: protocols/oscar/icq/icqaccount.cpp:167
+#: protocols/oscar/aim/aimaccount.cpp:237
+#: protocols/oscar/icq/icqaccount.cpp:133
 msgid "In&visible"
 msgstr "隱形(&V)"
 
-#: protocols/oscar/aim/aimaccount.cpp:379
+#: protocols/oscar/aim/aimaccount.cpp:378
 msgid "Editing your user info is not possible because you are not connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimaccount.cpp:381
+#: protocols/oscar/aim/aimaccount.cpp:380
 #, fuzzy
 msgid "Unable to edit user info"
 msgstr "無法取得搜尋表格。"
 
-#: protocols/oscar/aim/aimaccount.cpp:402
+#: protocols/oscar/aim/aimaccount.cpp:401
 msgid "Joining an AIM chat room is not possible because you are not connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimaccount.cpp:404
+#: protocols/oscar/aim/aimaccount.cpp:403
 #, fuzzy
 msgid "Unable to Join AIM Chat Room"
 msgstr "加入 AIM 聊天室"
