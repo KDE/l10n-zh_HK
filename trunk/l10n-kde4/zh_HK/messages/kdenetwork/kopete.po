@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-04 06:19+0100\n"
+"POT-Creation-Date: 2007-11-05 05:55+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1461,40 +1461,6 @@ msgstr "加入 &ID"
 msgid "Add Contact"
 msgstr "加入聯絡人"
 
-#: kopete/kimifaceimpl.cpp:370
-msgid ""
-"Another KDE application tried to use Kopete for instant messaging, but "
-"Kopete could not find the specified contact in the KDE address book."
-msgstr ""
-"另一 KDE 應用程式嘗試使用 Kopete 作即時傳訊，但 Kopete 在 KDE 通訊錄中找不到"
-"指定的聯絡人。"
-
-#: kopete/kimifaceimpl.cpp:370
-#: kopete/contactlist/kopetecontactlistview.cpp:1524
-#: kopete/contactlist/kopetecontactlistview.cpp:1527
-msgid "Not Found in Address Book"
-msgstr "通訊錄中找不到"
-
-#: kopete/kimifaceimpl.cpp:375
-#, fuzzy, kde-format
-msgctxt ""
-"Translators: %1 is the name of a person taken from the KDE address book, who "
-"Kopete does not know about. Kopete must either be told that an existing "
-"contact in Kopete is this person, or add a new contact for them"
-msgid ""
-"<qt><p>The KDE Address Book has no instant messaging information for</"
-"p><p><b>%1</b>.</p><p>If he/she is already present in the Kopete contact "
-"list, indicate the correct addressbook entry in their properties.</"
-"p><p>Otherwise, add a new contact using the Add Contact wizard.</p></qt>"
-msgstr ""
-"<qt><p>KDE 通訊錄沒有<b>%1</b>的即時傳訊資訊。</p><p>如他已在 Kopete 聯絡人清"
-"單，在他的屬性頁指明正確的通訊錄項目。</p><p>否則使用新增聯絡人精靈新增一個聯"
-"絡人。</p></qt>"
-
-#: kopete/kimifaceimpl.cpp:376
-msgid "No Instant Messaging Address"
-msgstr "沒有即時傳訊位址"
-
 #: kopete/main.cpp:29
 msgid "Kopete, the KDE Instant Messenger"
 msgstr "Kopete，KDE 的即時傳訊程式"
@@ -2518,6 +2484,11 @@ msgid ""
 "selected in the properties dialog."
 msgstr "這個聯絡人在 KDE 通訊錄中找不到。請確定在屬性對話框中已選取此聯絡人。"
 
+#: kopete/contactlist/kopetecontactlistview.cpp:1524
+#: kopete/contactlist/kopetecontactlistview.cpp:1527
+msgid "Not Found in Address Book"
+msgstr "通訊錄中找不到"
+
 #: kopete/contactlist/kopetecontactlistview.cpp:1527
 msgid ""
 "This contact is not associated with a KDE address book entry, where the "
@@ -2749,16 +2720,16 @@ msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "關閉目前分頁"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1045
+#: kopete/chatwindow/kopetechatwindow.cpp:1048
 msgid "More..."
 msgstr "更多..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1061
+#: kopete/chatwindow/kopetechatwindow.cpp:1064
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1064
+#: kopete/chatwindow/kopetechatwindow.cpp:1067
 msgid "Bottom"
 msgstr ""
 
@@ -20328,6 +20299,31 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#~ msgid ""
+#~ "Another KDE application tried to use Kopete for instant messaging, but "
+#~ "Kopete could not find the specified contact in the KDE address book."
+#~ msgstr ""
+#~ "另一 KDE 應用程式嘗試使用 Kopete 作即時傳訊，但 Kopete 在 KDE 通訊錄中找不"
+#~ "到指定的聯絡人。"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "Translators: %1 is the name of a person taken from the KDE address book, "
+#~ "who Kopete does not know about. Kopete must either be told that an "
+#~ "existing contact in Kopete is this person, or add a new contact for them"
+#~ msgid ""
+#~ "<qt><p>The KDE Address Book has no instant messaging information for</"
+#~ "p><p><b>%1</b>.</p><p>If he/she is already present in the Kopete contact "
+#~ "list, indicate the correct addressbook entry in their properties.</"
+#~ "p><p>Otherwise, add a new contact using the Add Contact wizard.</p></qt>"
+#~ msgstr ""
+#~ "<qt><p>KDE 通訊錄沒有<b>%1</b>的即時傳訊資訊。</p><p>如他已在 Kopete 聯絡"
+#~ "人清單，在他的屬性頁指明正確的通訊錄項目。</p><p>否則使用新增聯絡人精靈新"
+#~ "增一個聯絡人。</p></qt>"
+
+#~ msgid "No Instant Messaging Address"
+#~ msgstr "沒有即時傳訊位址"
 
 #~ msgid ""
 #~ "<p>Motion Auto-Away can set you to be away automatically when it does not "
