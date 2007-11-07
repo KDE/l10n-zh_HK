@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-06 05:57+0100\n"
+"POT-Creation-Date: 2007-11-07 05:57+0100\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "Hardware &Information"
 msgstr "軟件資訊(&I)"
 
-#: kmix.cpp:114 kmixdockwidget.cpp:391
+#: kmix.cpp:114 kmixdockwidget.cpp:382
 msgid "Hide Mixer Window"
 msgstr "隱藏混音器視窗"
 
@@ -61,7 +61,18 @@ msgstr "隱藏混音器視窗"
 msgid "Configure &Channels"
 msgstr "聲道(&C)"
 
-#: kmix.cpp:564
+#: kmix.cpp:395
+#, kde-format
+msgid ""
+"The soundcard containing the master device was unplugged. Changing to "
+"control %1 on card %2"
+msgstr ""
+
+#: kmix.cpp:404
+msgid "The last soundcard was unplugged."
+msgstr ""
+
+#: kmix.cpp:599
 msgid "Mixer Hardware Information"
 msgstr "混音器軟件資訊"
 
@@ -133,28 +144,28 @@ msgstr "儲存當前音量為預設音量"
 msgid "Restore default volumes"
 msgstr "回復到預設音量"
 
-#: kmixdockwidget.cpp:75
+#: kmixdockwidget.cpp:76
 msgid "M&ute"
 msgstr "靜音(&U)"
 
-#: kmixdockwidget.cpp:84
+#: kmixdockwidget.cpp:85
 msgid "Select Master Channel..."
 msgstr "選取主聲道..."
 
-#: kmixdockwidget.cpp:177
+#: kmixdockwidget.cpp:168
 msgid "Mixer cannot be found"
 msgstr "找不到混音器"
 
-#: kmixdockwidget.cpp:197
+#: kmixdockwidget.cpp:188
 #, kde-format
 msgid "Volume at %1%"
 msgstr "在 %1% 的音量"
 
-#: kmixdockwidget.cpp:199
+#: kmixdockwidget.cpp:190
 msgid " (Muted)"
 msgstr "（已靜音）"
 
-#: kmixdockwidget.cpp:395
+#: kmixdockwidget.cpp:386
 msgid "Show Mixer Window"
 msgstr "顯示混音器視窗"
 
@@ -591,11 +602,11 @@ msgstr ""
 "kmix: 你沒有足夠權限存取混音器裝置。\n"
 "請向系統管理員要求修正以存取這個裝置 /dev/audioctl 。"
 
-#: mixertoolbox.cpp:220
+#: mixertoolbox.cpp:181
 msgid "Sound drivers supported:"
 msgstr "支援的音效驅動程式:"
 
-#: mixertoolbox.cpp:221
+#: mixertoolbox.cpp:182
 msgid "Sound drivers used:"
 msgstr "已使用的音效驅動程式:"
 
