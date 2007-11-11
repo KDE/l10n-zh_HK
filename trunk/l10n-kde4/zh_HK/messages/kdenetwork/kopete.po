@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-10 05:57+0100\n"
+"POT-Creation-Date: 2007-11-11 06:00+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -184,7 +184,7 @@ msgstr "預設身份"
 
 #: libkopete/kopeteonlinestatus.cpp:110 libkopete/kopetemetacontact.cpp:469
 #: plugins/statistics/statisticscontact.cpp:260
-#: plugins/statistics/statisticsdialog.cpp:347 protocols/qq/qqprotocol.cpp:35
+#: plugins/statistics/statisticsdialog.cpp:363 protocols/qq/qqprotocol.cpp:35
 #: protocols/msn/msnprotocol.cpp:51 protocols/sms/smsprotocol.cpp:37
 #: protocols/gadu/gaduprotocol.cpp:84 protocols/gadu/gaduprotocol.cpp:88
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
@@ -199,7 +199,7 @@ msgstr "上線"
 
 #: libkopete/kopeteonlinestatus.cpp:113 libkopete/kopetemetacontact.cpp:471
 #: plugins/statistics/statisticscontact.cpp:261
-#: plugins/statistics/statisticsdialog.cpp:352 protocols/qq/qqprotocol.cpp:37
+#: plugins/statistics/statisticsdialog.cpp:368 protocols/qq/qqprotocol.cpp:37
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/meanwhile/meanwhileprotocol.cpp:45
@@ -239,7 +239,7 @@ msgstr "隱形"
 #: libkopete/kopeteidentity.cpp:153 kopete/kopeteidentitystatusbaricon.cpp:55
 #: kopete/kopetewindow.cpp:316 kopete/identity/identitystatuswidget.cpp:263
 #: plugins/statistics/statisticscontact.cpp:262
-#: plugins/statistics/statisticsdialog.cpp:357 protocols/qq/qqprotocol.cpp:39
+#: plugins/statistics/statisticsdialog.cpp:373 protocols/qq/qqprotocol.cpp:39
 #: protocols/msn/msnprotocol.cpp:73 protocols/sms/smsprotocol.cpp:38
 #: protocols/gadu/gaduprotocol.cpp:59 protocols/gadu/gaduprotocol.cpp:65
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
@@ -2297,17 +2297,17 @@ msgstr ""
 "<h2>恭喜你</h2><p>你已完成設定帳號。你可以以<i>「設置」->「設定」</i>新增帳"
 "號。請按「完成」按鈕。</p>"
 
-#: kopete/addaccountwizard/addaccountwizard.cpp:163
+#: kopete/addaccountwizard/addaccountwizard.cpp:164
 #, kde-format
 msgid "Cannot load the %1 protocol plugin."
 msgstr "無法載入 %1 即時傳訊協定插件。"
 
-#: kopete/addaccountwizard/addaccountwizard.cpp:164
-#: kopete/addaccountwizard/addaccountwizard.cpp:173
+#: kopete/addaccountwizard/addaccountwizard.cpp:165
+#: kopete/addaccountwizard/addaccountwizard.cpp:174
 msgid "Error While Adding Account"
 msgstr "加入帳號時發生錯誤"
 
-#: kopete/addaccountwizard/addaccountwizard.cpp:172
+#: kopete/addaccountwizard/addaccountwizard.cpp:173
 msgid "This protocol does not currently support adding accounts."
 msgstr "此通訊協定尚未支援新增帳號。"
 
@@ -3672,7 +3672,7 @@ msgstr "色彩:"
 #. i18n: tag string
 #. i18n: file ./protocols/msn/config/msnprefs.ui line 30
 #: rc.cpp:292 rc.cpp:519 rc.cpp:1787 rc.cpp:2712
-#: plugins/statistics/statisticsdialog.cpp:64
+#: plugins/statistics/statisticsdialog.cpp:67
 msgid "General"
 msgstr "一般"
 
@@ -14940,17 +14940,17 @@ msgstr ""
 msgid "Latest History"
 msgstr "下一個歷程記錄"
 
-#: plugins/statistics/statisticsdialog.cpp:50
+#: plugins/statistics/statisticsdialog.cpp:48
 #, kde-format
 msgid "Statistics for %1"
 msgstr "%1 的統計"
 
-#: plugins/statistics/statisticsdialog.cpp:200
+#: plugins/statistics/statisticsdialog.cpp:216
 #, kde-format
 msgid "<h1>Statistics for %1</h1>"
 msgstr "<h1>%1 的統計</h1>"
 
-#: plugins/statistics/statisticsdialog.cpp:203
+#: plugins/statistics/statisticsdialog.cpp:219
 #, fuzzy
 #| msgid ""
 #| "<div class=\"statgroup\"><b><a href=\"main:generalinfo\" title=\"General "
@@ -14979,7 +14979,7 @@ msgid ""
 "\"monthofyear:1\">January</a>&nbsp;<a href=\"monthofyear:2\">February</"
 "a>&nbsp;<a href=\"monthofyear:3\">March</a>&nbsp;<a href=\"monthofyear:4"
 "\">April</a>&nbsp;<a href=\"monthofyear:5\">May</a>&nbsp;<a href="
-"\"monthofyear:6\">June</a>&nbsp;<a href=\"monthofyear:7\">July</a>&nbsp;<a "
+"\"monthofyear:6\">June</a><br /><a href=\"monthofyear:7\">July</a>&nbsp;<a "
 "href=\"monthofyear:8\">August</a>&nbsp;<a href=\"monthofyear:9\">September</"
 "a>&nbsp;<a href=\"monthofyear:10\">October</a>&nbsp;<a href=\"monthofyear:11"
 "\">November</a>&nbsp;<a href=\"monthofyear:12\">December</a>&nbsp;</span></"
@@ -14999,7 +14999,7 @@ msgstr ""
 "\">十月</a>&nbsp;<a href=\"monthofyear:11\">十一月</a>&nbsp;<a href="
 "\"monthofyear:12\">十二月</a>&nbsp;</span></div><br>"
 
-#: plugins/statistics/statisticsdialog.cpp:234
+#: plugins/statistics/statisticsdialog.cpp:250
 msgid ""
 "<div class=\"statgroup\" title=\"Contact status history for today"
 "\"><h2>Today</h2><table width=\"100%\"><tr><td>Status</td><td>From</"
@@ -15008,11 +15008,11 @@ msgstr ""
 "<div class=\"statgroup\" title=\"今天的狀態歷程記錄\"><h2>今天</h2><table "
 "width=\"100%\"><tr><td>狀態</td><td>自</td><td>到</td></tr>"
 
-#: plugins/statistics/statisticsdialog.cpp:394
+#: plugins/statistics/statisticsdialog.cpp:410
 msgid "<div class=\"statgroup\">"
 msgstr "<div class=\"statgroup\">"
 
-#: plugins/statistics/statisticsdialog.cpp:395
+#: plugins/statistics/statisticsdialog.cpp:411
 #, fuzzy, kde-format
 #| msgid ""
 #| "<b title=\"The total time I have been able to see %1 status\">Total seen "
@@ -15022,49 +15022,49 @@ msgid ""
 "time :</b> %2 hour(s)<br>"
 msgstr "<b title=\"我看到 %1 的狀態的總時間\">總看到時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:397
+#: plugins/statistics/statisticsdialog.cpp:413
 #, kde-format
 msgid ""
 "<b title=\"The total time I have seen %1 online\">Total online time :</b> %2 "
 "hour(s)<br>"
 msgstr "<b title=\"我看到 %1 的總上線時間\">總上線時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:399
+#: plugins/statistics/statisticsdialog.cpp:415
 #, kde-format
 msgid ""
 "<b title=\"The total time I have seen %1 away\">Total busy time :</b> %2 hour"
 "(s)<br>"
 msgstr "<b title=\"我看到 %1 的總離開時間\">總忙碌時間 :</b> %2 小時<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:400
+#: plugins/statistics/statisticsdialog.cpp:416
 #, kde-format
 msgid ""
 "<b title=\"The total time I have seen %1 offline\">Total offline time :</b> %"
 "2 hour(s)"
 msgstr "<b title=\"我看到 %1 的總離線時間\">總離線時間 :</b> %2 小時"
 
-#: plugins/statistics/statisticsdialog.cpp:403
-#: plugins/statistics/statisticsdialog.cpp:471
-#: plugins/statistics/statisticsdialog.cpp:489
+#: plugins/statistics/statisticsdialog.cpp:419
+#: plugins/statistics/statisticsdialog.cpp:487
+#: plugins/statistics/statisticsdialog.cpp:505
 msgid "General information"
 msgstr "一般資訊"
 
-#: plugins/statistics/statisticsdialog.cpp:409
+#: plugins/statistics/statisticsdialog.cpp:425
 #, kde-format
 msgid "<b>Average message length :</b> %1 characters<br>"
 msgstr "<b>平均訊息長度 :</b> %1 個字元<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:410
+#: plugins/statistics/statisticsdialog.cpp:426
 #, kde-format
 msgid "<b>Time between two messages : </b> %1 second(s)"
 msgstr "<b>訊息的時間間隔 : </b> %1 秒"
 
-#: plugins/statistics/statisticsdialog.cpp:414
+#: plugins/statistics/statisticsdialog.cpp:430
 #, kde-format
 msgid "<b title=\"The last time you talked with %1\">Last talk :</b> %2<br>"
 msgstr "<b title=\"你最後和 %1 交談的時間\">最後交談：</b> %2<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:415
+#: plugins/statistics/statisticsdialog.cpp:431
 #, fuzzy, kde-format
 #| msgid ""
 #| "<b title=\"The last time I have seen %1 online or away\">Last time "
@@ -15075,54 +15075,54 @@ msgid ""
 msgstr ""
 "<b title=\"我最後看到 %1 上線或離開的時間\">聯絡人的最後出現時間：</b> %2"
 
-#: plugins/statistics/statisticsdialog.cpp:425
+#: plugins/statistics/statisticsdialog.cpp:441
 msgid "Current status"
 msgstr "目前狀態"
 
-#: plugins/statistics/statisticsdialog.cpp:426
+#: plugins/statistics/statisticsdialog.cpp:442
 #, kde-format
 msgid "Is <b>%1</b> since <b>%2</b>"
 msgstr "自 <b>%2</b> 成為 <b>%1</b>"
 
-#: plugins/statistics/statisticsdialog.cpp:436
+#: plugins/statistics/statisticsdialog.cpp:452
 msgid "When have I seen this contact ?"
 msgstr "我什麼時候看到這個聯絡人？"
 
-#: plugins/statistics/statisticsdialog.cpp:450
+#: plugins/statistics/statisticsdialog.cpp:466
 #, kde-format
 msgid "Between %1:00 and %2:00, I was able to see %3 status %4% of the hour."
 msgstr "在 %1 點到 %2 點之間，我有 %4% 的機會看到 %3 的狀態。"
 
-#: plugins/statistics/statisticsdialog.cpp:459
+#: plugins/statistics/statisticsdialog.cpp:475
 msgid "Online time"
 msgstr "上線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:459
+#: plugins/statistics/statisticsdialog.cpp:475
 msgid "Away time"
 msgstr "離開時間"
 
-#: plugins/statistics/statisticsdialog.cpp:459
+#: plugins/statistics/statisticsdialog.cpp:475
 msgid "Offline time"
 msgstr "離線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:464
+#: plugins/statistics/statisticsdialog.cpp:480
 msgid "online"
 msgstr "上線"
 
-#: plugins/statistics/statisticsdialog.cpp:466
+#: plugins/statistics/statisticsdialog.cpp:482
 msgid "away"
 msgstr "離開"
 
-#: plugins/statistics/statisticsdialog.cpp:468
+#: plugins/statistics/statisticsdialog.cpp:484
 msgid "offline"
 msgstr "離線"
 
-#: plugins/statistics/statisticsdialog.cpp:509
+#: plugins/statistics/statisticsdialog.cpp:525
 #, fuzzy, kde-format
 msgid "Between %1:00 and %2:00, I have seen %3 %4% %5."
 msgstr "在 %1 點到 %2 點之間，我看到 %3 %4% %5 。"
 
-#: plugins/statistics/statisticsdialog.cpp:533
+#: plugins/statistics/statisticsdialog.cpp:549
 #, kde-format
 msgctxt "1 is date, 2 is contact name, 3 is online status"
 msgid "%1, %2 was %3"
@@ -15222,9 +15222,9 @@ msgid "No webcam image received"
 msgstr "未收到網絡攝影機影像"
 
 #: protocols/qq/ui/qqeditaccountwidget.cpp:175
-#: protocols/msn/ui/msneditaccountwidget.cpp:223
+#: protocols/msn/ui/msneditaccountwidget.cpp:224
 #: protocols/msn/msnaddcontactpage.cpp:83 protocols/msn/msnchatsession.cpp:374
-#: protocols/msn/msnaccount.cpp:361
+#: protocols/msn/msnaccount.cpp:359
 msgid "<qt>You must enter a valid email address.</qt>"
 msgstr "<qt>你必須要輸入有效的電子郵件地址。</qt>"
 
@@ -15769,16 +15769,16 @@ msgstr ""
 msgid "Network is Unavailable"
 msgstr "網絡不能用"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:223
-#: protocols/msn/ui/msneditaccountwidget.cpp:284
+#: protocols/msn/ui/msneditaccountwidget.cpp:224
+#: protocols/msn/ui/msneditaccountwidget.cpp:285
 #: protocols/msn/msnaddcontactpage.cpp:83 protocols/msn/msncontact.cpp:186
 #: protocols/msn/msncontact.cpp:267 protocols/msn/msnchatsession.cpp:365
-#: protocols/msn/msnchatsession.cpp:374 protocols/msn/msnaccount.cpp:361
-#: protocols/msn/msnaccount.cpp:1262
+#: protocols/msn/msnchatsession.cpp:374 protocols/msn/msnaccount.cpp:359
+#: protocols/msn/msnaccount.cpp:1267
 msgid "MSN Plugin"
 msgstr "MSN 插件"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:267
+#: protocols/msn/ui/msneditaccountwidget.cpp:268
 #, fuzzy
 #| msgid ""
 #| "Here you can see a list of contacts who added you to their contact list"
@@ -15787,11 +15787,11 @@ msgid ""
 "list"
 msgstr "在此你可看到將你加入到他們聯絡人清單的聯絡人"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:268
+#: protocols/msn/ui/msneditaccountwidget.cpp:269
 msgid "Reverse List - MSN Plugin"
 msgstr "反向清單 - MSN 插件"
 
-#: protocols/msn/ui/msneditaccountwidget.cpp:283
+#: protocols/msn/ui/msneditaccountwidget.cpp:284
 #, fuzzy
 #| msgid ""
 #| "<qt>An error occurred when trying to change the display picture.<br>Make "
@@ -15920,7 +15920,7 @@ msgstr "遠端用戶端"
 msgid "Contact GUID"
 msgstr "聯絡人 GUID"
 
-#: protocols/msn/msnswitchboardsocket.cpp:122
+#: protocols/msn/msnswitchboardsocket.cpp:121
 msgid ""
 "Invalid user:\n"
 "this MSN user does not exist; please check the MSN ID."
@@ -15928,16 +15928,16 @@ msgstr ""
 "無效的用戶：\n"
 "沒有這個 MSN 用戶；請檢查 MSN ID 。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:126
+#: protocols/msn/msnswitchboardsocket.cpp:125
 msgid "user never joined"
 msgstr "用戶從未加入"
 
-#: protocols/msn/msnswitchboardsocket.cpp:131
+#: protocols/msn/msnswitchboardsocket.cpp:130
 #, kde-format
 msgid "The user %1 is already in this chat."
 msgstr "用戶 %1 已在聊天中。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:139
+#: protocols/msn/msnswitchboardsocket.cpp:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "The user %1 is online but has blocked you:\n"
@@ -15949,12 +15949,12 @@ msgstr ""
 "用戶 %1 已上線，但將你封鎖了：\n"
 "你不能和他談話。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:142
-#: protocols/msn/msnswitchboardsocket.cpp:159
+#: protocols/msn/msnswitchboardsocket.cpp:141
+#: protocols/msn/msnswitchboardsocket.cpp:158
 msgid "user blocked you"
 msgstr "用戶將你封鎖了"
 
-#: protocols/msn/msnswitchboardsocket.cpp:148
+#: protocols/msn/msnswitchboardsocket.cpp:147
 #, kde-format
 msgid ""
 "The user %1 is currently not signed in.\n"
@@ -15963,35 +15963,35 @@ msgstr ""
 "用戶 %1 未簽入。\n"
 "訊息不會遞送。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:151
+#: protocols/msn/msnswitchboardsocket.cpp:150
 msgid "user disconnected"
 msgstr "用戶已斷線"
 
-#: protocols/msn/msnswitchboardsocket.cpp:156
+#: protocols/msn/msnswitchboardsocket.cpp:155
 msgid ""
 "You are trying to invite too many contacts to this chat at the same time"
 msgstr "你正要在同一時間邀請太多聯絡人到此聊天"
 
-#: protocols/msn/msnswitchboardsocket.cpp:208
+#: protocols/msn/msnswitchboardsocket.cpp:207
 msgid "timeout"
 msgstr "逾時"
 
-#: protocols/msn/msnswitchboardsocket.cpp:787
+#: protocols/msn/msnswitchboardsocket.cpp:786
 #, kde-format
 msgid ""
 "The message you are trying to send is too long; it will be split into %1 "
 "messages."
 msgstr "你要傳送的訊息太長；它會被分成 %1 份訊息。"
 
-#: protocols/msn/msnswitchboardsocket.cpp:788
+#: protocols/msn/msnswitchboardsocket.cpp:787
 msgid "Message too big - MSN Plugin"
 msgstr "訊息太大 - MSN 插件"
 
-#: protocols/msn/msnswitchboardsocket.cpp:859
+#: protocols/msn/msnswitchboardsocket.cpp:858
 msgid "connection closed"
 msgstr "連線已關閉"
 
-#: protocols/msn/msnswitchboardsocket.cpp:939
+#: protocols/msn/msnswitchboardsocket.cpp:938
 #, fuzzy, kde-format
 #| msgid "<img src=\"%1\" alt=\"Typewrited message\" />"
 msgid "<img src=\"%1\" alt=\"Typed message\" />"
@@ -16222,7 +16222,7 @@ msgstr ""
 msgid "%1|Blocked"
 msgstr "%1|已封鎖"
 
-#: protocols/msn/msnchatsession.cpp:87 protocols/msn/msnaccount.cpp:280
+#: protocols/msn/msnchatsession.cpp:87 protocols/msn/msnaccount.cpp:278
 msgid "Send Raw C&ommand..."
 msgstr "傳送原始指令(&O)..."
 
@@ -16307,38 +16307,38 @@ msgstr "不可能建立連線"
 msgid "DEBUG: Send Raw Command - MSN Plugin"
 msgstr "偵錯：傳送原始指令 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:83 protocols/yahoo/yahooaccount.cpp:88
+#: protocols/msn/msnaccount.cpp:81 protocols/yahoo/yahooaccount.cpp:88
 msgid "Open Inbo&x..."
 msgstr "開啟收件匣(&X)..."
 
-#: protocols/msn/msnaccount.cpp:87
+#: protocols/msn/msnaccount.cpp:85
 msgid "&Change Display Name..."
 msgstr "更改顯示名稱(&C)..."
 
-#: protocols/msn/msnaccount.cpp:91
+#: protocols/msn/msnaccount.cpp:89
 msgid "&Start Chat..."
 msgstr "開始聊天(&S)..."
 
-#: protocols/msn/msnaccount.cpp:347
+#: protocols/msn/msnaccount.cpp:345
 msgid "Start Chat - MSN Plugin"
 msgstr "開始聊天 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:348
+#: protocols/msn/msnaccount.cpp:346
 msgid ""
 "Please enter the email address of the person with whom you want to chat:"
 msgstr "請輸入你要和他聊天的人的電子郵件地址："
 
-#: protocols/msn/msnaccount.cpp:392 protocols/msn/msnaccount.cpp:403
+#: protocols/msn/msnaccount.cpp:390 protocols/msn/msnaccount.cpp:401
 msgid "Change Display Name - MSN Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:393
+#: protocols/msn/msnaccount.cpp:391
 msgid ""
 "Enter the new display name by which you want to be visible to your friends "
 "on MSN:"
 msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
 
-#: protocols/msn/msnaccount.cpp:401
+#: protocols/msn/msnaccount.cpp:399
 msgid ""
 "<qt>The display name you entered is too long. Please use a shorter name.\n"
 "Your display name has <b>not</b> been changed.</qt>"
@@ -16346,7 +16346,7 @@ msgstr ""
 "<qt>你輸入的顯示名稱太長。請使用較短的名稱。\n"
 "你的顯示名稱<b>並未</b>更改。</qt>"
 
-#: protocols/msn/msnaccount.cpp:449
+#: protocols/msn/msnaccount.cpp:447
 msgid ""
 "The connection with the MSN server was lost unexpectedly.\n"
 "If you cannot reconnect now, the server might be down. In that case, please "
@@ -16355,11 +16355,11 @@ msgstr ""
 "和 MSN 伺服器的連線不預期的中斷。\n"
 "如你現在無法再連線，伺服器可能已當機。請稍後再試。"
 
-#: protocols/msn/msnaccount.cpp:451
+#: protocols/msn/msnaccount.cpp:449
 msgid "Connection Lost - MSN Plugin"
 msgstr "連線中斷 - MSN 插件"
 
-#: protocols/msn/msnaccount.cpp:1284
+#: protocols/msn/msnaccount.cpp:1289
 #, fuzzy
 msgid "MSN Internal Error"
 msgstr "伺服器內部問題。"
