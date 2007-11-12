@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkscan\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-30 05:50+0100\n"
+"POT-Creation-Date: 2007-11-12 05:58+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -179,7 +179,7 @@ msgstr "取消掃描"
 msgid "Start Scan"
 msgstr "開始掃描"
 
-#: massscandialog.cpp:103 scanparams.cpp:172
+#: massscandialog.cpp:103
 msgid "Stop"
 msgstr ""
 
@@ -372,22 +372,41 @@ msgid "Check this if you want to query for configured network scan stations."
 msgstr "若你想查詢已設定的網絡掃描站台，選取這個選項。"
 
 #: scanparams.cpp:123
-msgid "<B>Scanner Settings</B>"
+#, fuzzy
+#| msgid "<B>Scanner Settings</B>"
+msgid "<b>Scanner Settings</b>"
 msgstr "<B>掃描器設置</B>"
 
 #: scanparams.cpp:164
+#, fuzzy
+#| msgid "Final S&can"
+msgctxt "@action:button"
 msgid "Final S&can"
 msgstr "最後掃描(&C)"
 
 #: scanparams.cpp:166
+#, fuzzy
+#| msgid "&Preview Scan"
+msgctxt "@action:button"
 msgid "&Preview Scan"
 msgstr "預覽掃描(&P)"
 
 #: scanparams.cpp:171
+#, fuzzy
+#| msgid "Scanning in progress"
+msgctxt "@info"
 msgid "Scanning in progress"
 msgstr "掃描進行中"
 
+#: scanparams.cpp:172
+msgctxt "@action:button"
+msgid "Stop"
+msgstr ""
+
 #: scanparams.cpp:285
+#, fuzzy
+#| msgid "Source..."
+msgctxt "@action:button"
 msgid "Source..."
 msgstr "來源..."
 
@@ -396,62 +415,101 @@ msgid "Resolution"
 msgstr "解像度"
 
 #: scanparams.cpp:465
+#, fuzzy
+#| msgid "Custom Gamma Table"
+msgctxt "@label"
 msgid "Custom Gamma Table"
 msgstr "自訂 Gamma 表"
 
 #: scanparams.cpp:471
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "@action:button"
 msgid "Edit..."
 msgstr "編輯..."
 
 #: scanparams.cpp:506
+#, fuzzy
+#| msgid "Acquire a gray preview even in color mode (faster)"
+msgctxt "@info:tooltip"
 msgid "Acquire a gray preview even in color mode (faster)"
 msgstr "在彩色模式中仍擷取灰階模式預覽 (較快速)"
 
 #: scanparams.cpp:516
+#, fuzzy
+#| msgid ""
+#| "<B>Problem: No Scanner was found</B><P>Your system does not provide a "
+#| "SANE <I>(Scanner Access Now Easy)</I> installation, which is required by "
+#| "the KDE scan support.<P>Please install and configure SANE correctly on "
+#| "your system.<P>Visit the SANE homepage under http://www.sane-project.org "
+#| "to find out more about SANE installation and configuration. "
 msgid ""
-"<B>Problem: No Scanner was found</B><P>Your system does not provide a SANE "
-"<I>(Scanner Access Now Easy)</I> installation, which is required by the KDE "
-"scan support.<P>Please install and configure SANE correctly on your system."
-"<P>Visit the SANE homepage under http://www.sane-project.org to find out "
-"more about SANE installation and configuration. "
+"<b>Problem: No Scanner was found</b><p>Your system does not provide a SANE "
+"<i>(Scanner Access Now Easy)</i> installation, which is required by the KDE "
+"scan support.</p><p>Please install and configure SANE correctly on your "
+"system.</p><p>Visit the SANE homepage under http://www.sane-project.org to "
+"find out more about SANE installation and configuration.</p>"
 msgstr ""
 "<B>問題：沒有找到掃瞄器</B><P>你的系統被沒有提供 KDE 掃描支援所需的 SANE <I>"
 "(Scanner Access Now Easy)</I> 軟件。<P>請在你的系統上正確的安裝及設定 SANE 。"
 "<P>瀏覽 SANE 的網頁獲取有關安裝及設定的資訊: http://www.sane-project.org 。"
 
-#: scanparams.cpp:590
+#: scanparams.cpp:595
 msgid "*|All Files (*)"
 msgstr "*|所有檔案 (*)"
 
-#: scanparams.cpp:600
+#: scanparams.cpp:605
 msgid "*.pnm|PNM Image Files (*.pnm)"
 msgstr "*.pnm|PNM 圖像檔 (*.pnm)"
 
-#: scanparams.cpp:606
+#: scanparams.cpp:611
+#, fuzzy
+#| msgid "Select Input File"
+msgctxt "@title:window"
 msgid "Select Input File"
 msgstr "選取輸入檔案"
 
-#: scanparams.cpp:671
+#: scanparams.cpp:676
+#, fuzzy
+#| msgid "SANE debug (pnm only)"
+msgctxt "@option:radio"
 msgid "SANE debug (pnm only)"
 msgstr "SANE 除錯 (僅適用 pnm 格式)"
 
-#: scanparams.cpp:676
+#: scanparams.cpp:681
+#, fuzzy
+#| msgid "virt. Scan (all Qt modes)"
+msgctxt "@option:radio"
 msgid "virt. Scan (all Qt modes)"
 msgstr "虛擬掃描 (所有 Qt 模式)"
 
-#: scanparams.cpp:737
-msgid "convert the image to gray on loading"
+#: scanparams.cpp:742
+#, fuzzy
+#| msgid "convert the image to gray on loading"
+msgctxt "@option:check"
+msgid "Convert the image to gray on loading"
 msgstr "載入時將圖像轉換為灰階"
 
-#: scanparams.cpp:746
+#: scanparams.cpp:751
+#, fuzzy
+#| msgid "Simulate three-pass acquiring"
+msgctxt "@option:check"
 msgid "Simulate three-pass acquiring"
 msgstr "模擬三階段擷取"
 
-#: scanparams.cpp:776
+#: scanparams.cpp:781
+#, fuzzy
+#| msgid "KSANE"
+msgctxt "@title:window"
 msgid "KSANE"
 msgstr "KSANE"
 
-#: scanparams.cpp:777
+#: scanparams.cpp:782
+#, fuzzy
+#| msgid ""
+#| "The filename for virtual scanning is not set.\n"
+#| "Please set the filename first."
+msgctxt "@info"
 msgid ""
 "The filename for virtual scanning is not set.\n"
 "Please set the filename first."
