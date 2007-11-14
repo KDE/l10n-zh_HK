@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdat 1.54\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:42+0200\n"
+"POT-Creation-Date: 2007-11-14 06:10+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -45,15 +45,21 @@ msgid "Time remaining:"
 msgstr "剩餘時間:"
 
 #: BackupDlg.cpp:113 VerifyDlg.cpp:109
-msgid "Total KB:"
+#, fuzzy
+#| msgid "Total KB:"
+msgid "Total KiB:"
 msgstr "總 KB:"
 
 #: BackupDlg.cpp:119
-msgid "KB written:"
+#, fuzzy
+#| msgid "KB written:"
+msgid "KiB written:"
 msgstr "已寫 KB:"
 
 #: BackupDlg.cpp:122 IndexDlg.cpp:93 VerifyDlg.cpp:118
-msgid "0KB"
+#, fuzzy
+#| msgid "0KB"
+msgid "0KiB"
 msgstr "0KB"
 
 #: BackupDlg.cpp:125 IndexDlg.cpp:102 VerifyDlg.cpp:121
@@ -61,7 +67,9 @@ msgid "Transfer rate:"
 msgstr "傳輸速率:"
 
 #: BackupDlg.cpp:128 IndexDlg.cpp:105 VerifyDlg.cpp:124
-msgid "0KB/min"
+#, fuzzy
+#| msgid "0KB/min"
+msgid "0KiB/min"
 msgstr "0KB/分鐘"
 
 #: BackupDlg.cpp:131 IndexDlg.cpp:96 VerifyDlg.cpp:129
@@ -225,7 +233,9 @@ msgid "Archives:"
 msgstr "封存:"
 
 #: IndexDlg.cpp:90 VerifyDlg.cpp:115
-msgid "KB read:"
+#, fuzzy
+#| msgid "KB read:"
+msgid "KiB read:"
 msgstr "已讀取 KB:"
 
 #: IndexDlg.cpp:108
@@ -436,10 +446,14 @@ msgid "Backup canceled."
 msgstr "備份已取消。"
 
 #: KDatMainWindow.cpp:485
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "WARNING: The estimated archive size is %1 KB but the tape has only %2 KB "
+#| "of space!\n"
+#| "Back up anyway?"
 msgid ""
-"WARNING: The estimated archive size is %1 KB but the tape has only %2 KB of "
-"space!\n"
+"WARNING: The estimated archive size is %1 KiB but the tape has only %2 KiB "
+"of space!\n"
 "Back up anyway?"
 msgstr ""
 "警告：封存大小估計為 %1 KB ，但磁帶只有 %2 KB 空間！\n"
