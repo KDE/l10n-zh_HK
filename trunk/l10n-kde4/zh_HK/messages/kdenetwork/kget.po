@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-13 06:01+0100\n"
+"POT-Creation-Date: 2007-11-15 05:57+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -539,34 +539,34 @@ msgid "Auto disconnect"
 msgstr "自動斷線開啟。"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 25
+#. i18n: file ui/newtransferwidget.ui line 24
 #: rc.cpp:115 core/kget.cpp:603 ui/newtransferdialog.cpp:33
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 40
+#. i18n: file ui/newtransferwidget.ui line 39
 #: rc.cpp:118
 msgid "Url"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 50
+#. i18n: file ui/newtransferwidget.ui line 49
 #: rc.cpp:121
 #, fuzzy
 msgid "Download Folder"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 60
+#. i18n: file ui/newtransferwidget.ui line 59
 #: rc.cpp:124
 #, fuzzy
 msgid "Transfer Group"
 msgstr "開啟傳輸(&T)"
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 90
+#. i18n: file ui/newtransferwidget.ui line 89
 #: rc.cpp:127
 #, fuzzy
 #| msgid "Default folder:"
@@ -783,7 +783,11 @@ msgstr ""
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:708
+#: core/kget.cpp:703
+msgid "Directory is not writable"
+msgstr ""
+
+#: core/kget.cpp:712
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -796,12 +800,12 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:832
+#: core/kget.cpp:836
 #, kde-format
 msgid "<html><p>KLibLoader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:858
+#: core/kget.cpp:862
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -812,11 +816,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:860 core/kget.cpp:871
+#: core/kget.cpp:864 core/kget.cpp:875
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:869
+#: core/kget.cpp:873
 #, kde-format
 msgid ""
 "Not deleting\n"
