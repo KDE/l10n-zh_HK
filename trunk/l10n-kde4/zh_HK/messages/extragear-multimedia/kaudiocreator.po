@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-12 06:02+0100\n"
+"POT-Creation-Date: 2007-11-20 06:01+0100\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -586,7 +586,7 @@ msgstr "完成後自動移除工作(&A)"
 #. i18n: tag string
 #. i18n: file general.ui line 26
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 21
+#. i18n: file kaudiocreator.kcfg line 22
 #: rc.cpp:124 rc.cpp:248
 msgid "Prompt if information is not complete"
 msgstr "資訊不完整提示"
@@ -750,109 +750,111 @@ msgid "Remove Selected Jobs"
 msgstr "移除選擇的工作"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 9
+#. i18n: file kaudiocreator.kcfg line 10
 #: rc.cpp:239
 msgid "Perform automatic CDDB lookups."
 msgstr "進行自動的 CDDB 查詢。"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 13
+#. i18n: file kaudiocreator.kcfg line 14
 #: rc.cpp:242
 msgid "Automatically rip all tracks upon a successful CDDB retrieval"
 msgstr "取得 CDDB 資訊後自動擷取所有音軌"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 17
+#. i18n: file kaudiocreator.kcfg line 18
 #: rc.cpp:245
-msgid "CD device"
+#, fuzzy
+#| msgid "CD device"
+msgid "Last used CD device"
 msgstr "CD 裝置"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 27
+#. i18n: file kaudiocreator.kcfg line 28
 #: rc.cpp:251
 msgid "Automatically remove jobs when finished"
 msgstr "完成後自動移除工作"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 31
+#. i18n: file kaudiocreator.kcfg line 32
 #: rc.cpp:254
 msgid "Regexp to match file names with"
 msgstr "用於配對檔案名稱的正規表示式（Regexp）:"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 34
+#. i18n: file kaudiocreator.kcfg line 35
 #: rc.cpp:257
 msgid "String used to replace the parts that match the selection regexp"
 msgstr "用來替代符合選擇正規表示式部份的字串"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 54
+#. i18n: file kaudiocreator.kcfg line 55
 #: rc.cpp:260
 msgid "Currently selected encoder"
 msgstr "當前選擇的編碼器"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 58
+#. i18n: file kaudiocreator.kcfg line 59
 #: rc.cpp:263
 msgid "Last encoder in the list"
 msgstr "清單中最後的編碼器"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 62
+#. i18n: file kaudiocreator.kcfg line 63
 #: rc.cpp:266
 msgid "Number of files to encode at a time"
 msgstr "同一時間編碼的 wav 檔案數目"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 66
+#. i18n: file kaudiocreator.kcfg line 67
 #: rc.cpp:269
 msgid "Location pattern for encoded files"
 msgstr "編碼檔案的位置樣式"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 70
+#. i18n: file kaudiocreator.kcfg line 71
 #: rc.cpp:272
 msgid "Encoder priority"
 msgstr "編碼器優先權"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 76
+#. i18n: file kaudiocreator.kcfg line 77
 #: rc.cpp:275
 msgid "Enable full decoder debugging"
 msgstr "啟用完整解碼器偵錯"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 82
+#. i18n: file kaudiocreator.kcfg line 83
 #: rc.cpp:278
 msgid "Number of tracks to rip at a time"
 msgstr "同一時間擷取音軌的數目"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 86
+#. i18n: file kaudiocreator.kcfg line 87
 #: rc.cpp:281
 msgid "Beep after rip"
 msgstr "擷取後發出「嗶」聲"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 90
+#. i18n: file kaudiocreator.kcfg line 91
 #: rc.cpp:284
 msgid "Eject CD after last track is ripped"
 msgstr "完成擷取後退出 CD"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 94
+#. i18n: file kaudiocreator.kcfg line 95
 #: rc.cpp:287
 msgid "Auto-eject delay"
 msgstr "自動退出延遲"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 98
+#. i18n: file kaudiocreator.kcfg line 99
 #: rc.cpp:290
 msgid "Specify temporary directory"
 msgstr "指定暫存目錄"
 
 #. i18n: tag label
-#. i18n: file kaudiocreator.kcfg line 102
+#. i18n: file kaudiocreator.kcfg line 103
 #: rc.cpp:293
 msgid "Location of temporary directory to use"
 msgstr "要使用的暫存目錄位置"
@@ -1115,7 +1117,13 @@ msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 msgid "Ripping: %1 - %2"
 msgstr "正在擷取: %1 - %2"
 
-#: tracksimp.cpp:134
+#: tracksimp.cpp:94
+#, fuzzy
+#| msgid "No Encoder Selected"
+msgid "none detected"
+msgstr "未有選擇編碼器"
+
+#: tracksimp.cpp:115
 #, fuzzy
 msgid "No disc"
 msgstr "沒有碟片"
