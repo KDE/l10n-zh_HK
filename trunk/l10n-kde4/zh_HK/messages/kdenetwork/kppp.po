@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kppp 1.114\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-14 06:10+0100\n"
+"POT-Creation-Date: 2007-11-26 06:03+0100\n"
 "PO-Revision-Date: 2006-01-08 17:13+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -332,88 +332,88 @@ msgstr "可用規則"
 msgid "(none)"
 msgstr "(無)"
 
-#: connect.cpp:124
+#: connect.cpp:118
 msgid "Connecting to: "
 msgstr "正在連接至: "
 
-#: connect.cpp:135 connect.cpp:269 miniterm.cpp:137 modeminfo.cpp:70
+#: connect.cpp:129 connect.cpp:263 miniterm.cpp:137 modeminfo.cpp:70
 #: modeminfo.cpp:148
 msgid "Unable to create modem lock file."
 msgstr "無法建立數據機鎖定檔。"
 
-#: connect.cpp:140 connect.cpp:209 modeminfo.cpp:75
+#: connect.cpp:134 connect.cpp:203 modeminfo.cpp:75
 msgid "Looking for modem..."
 msgstr "正在尋找數據機..."
 
-#: connect.cpp:149
+#: connect.cpp:143
 msgid "&Log"
 msgstr "記錄(&L)"
 
-#: connect.cpp:236 kpppwidget.cpp:821
+#: connect.cpp:230 kpppwidget.cpp:812
 #, kde-format
 msgid "Connecting to: %1"
 msgstr "正在連接至: %1"
 
-#: connect.cpp:245 connect.cpp:246
+#: connect.cpp:239 connect.cpp:240
 msgid "Running pre-startup command..."
 msgstr "正在執行預先啟動指令..."
 
-#: connect.cpp:263 miniterm.cpp:132 modeminfo.cpp:142
+#: connect.cpp:257 miniterm.cpp:132 modeminfo.cpp:142
 msgid "Modem device is locked."
 msgstr "數據機裝置已被鎖定。"
 
-#: connect.cpp:316 connect.cpp:317
+#: connect.cpp:310 connect.cpp:311
 msgid "Initializing modem..."
 msgstr "正在起始數據機..."
 
-#: connect.cpp:354
+#: connect.cpp:351
 msgid "Setting "
 msgstr "設定"
 
-#: connect.cpp:377 connect.cpp:378
+#: connect.cpp:374 connect.cpp:375
 msgid "Setting speaker volume..."
 msgstr "正在設定揚聲器音量..."
 
-#: connect.cpp:393
+#: connect.cpp:390
 msgid "Turning off dial tone waiting..."
 msgstr "正在關閉撥號聲等待..."
 
-#: connect.cpp:412
+#: connect.cpp:409
 msgid "Waiting for callback..."
 msgstr "正在等待回撥..."
 
-#: connect.cpp:423
+#: connect.cpp:420
 #, kde-format
 msgid "Dialing %1"
 msgstr "正在撥接 %1"
 
-#: connect.cpp:454
+#: connect.cpp:451
 msgid "Line busy. Hanging up..."
 msgstr "線路忙錄。正在掛斷..."
 
-#: connect.cpp:459
+#: connect.cpp:456
 #, kde-format
 msgid "Line busy. Waiting: %1 seconds"
 msgstr "線路忙錄。正在等候： %1 秒"
 
-#: connect.cpp:480
+#: connect.cpp:477
 msgid "No Dial Tone"
 msgstr "沒有撥號音"
 
-#: connect.cpp:493
+#: connect.cpp:490
 #, kde-format
 msgid "No carrier. Waiting: %1 seconds"
 msgstr "沒有載波（Carrier）。正在等候： %1 秒"
 
-#: connect.cpp:511
+#: connect.cpp:508
 msgid "No Carrier"
 msgstr "沒有載波"
 
-#: connect.cpp:522
+#: connect.cpp:519
 msgid "Digital Line Protection Detected."
 msgstr "偵測到數碼線路保護。"
 
-#: connect.cpp:526
+#: connect.cpp:523
 msgid ""
 "A Digital Line Protection (DLP) error response has been detected.\n"
 "Please disconnect the phone line.\n"
@@ -426,145 +426,145 @@ msgstr ""
 "\n"
 "*不*要將這個數據機接到數碼電話線路，否則數據機可能會永久損壞。"
 
-#: connect.cpp:580
+#: connect.cpp:577
 #, kde-format
 msgid "Scanning %1"
 msgstr "正在掃描 %1"
 
-#: connect.cpp:590
+#: connect.cpp:587
 #, kde-format
 msgid "Saving %1"
 msgstr "正在儲存 %1"
 
-#: connect.cpp:622
+#: connect.cpp:619
 #, kde-format
 msgid "Sending %1"
 msgstr "正在傳送 %1"
 
-#: connect.cpp:633
+#: connect.cpp:630
 #, kde-format
 msgid "Expecting %1"
 msgstr "正在期待 %1"
 
-#: connect.cpp:647
+#: connect.cpp:644
 #, kde-format
 msgid "Pause %1 seconds"
 msgstr "暫停 %1 秒"
 
-#: connect.cpp:665
+#: connect.cpp:662
 #, kde-format
 msgid "Timeout %1 seconds"
 msgstr "逾時 %1 秒"
 
-#: connect.cpp:677 connect.cpp:678
+#: connect.cpp:674 connect.cpp:675
 msgid "Hangup"
 msgstr "掛斷"
 
-#: connect.cpp:691 connect.cpp:692
+#: connect.cpp:688 connect.cpp:689
 msgid "Answer"
 msgstr "回答"
 
-#: connect.cpp:700
+#: connect.cpp:697
 #, kde-format
 msgid "ID %1"
 msgstr "識別碼 %1"
 
-#: connect.cpp:736
+#: connect.cpp:733
 #, kde-format
 msgid "Password %1"
 msgstr "密碼 %1"
 
-#: connect.cpp:784
+#: connect.cpp:781
 #, kde-format
 msgid "Prompting %1"
 msgstr "正在提示 %1"
 
-#: connect.cpp:808
+#: connect.cpp:805
 #, kde-format
 msgid "PW Prompt %1"
 msgstr "密碼提示 %1"
 
-#: connect.cpp:833
+#: connect.cpp:830
 #, kde-format
 msgid "Loop Start %1"
 msgstr "迴圈開始 %1"
 
-#: connect.cpp:841
+#: connect.cpp:838
 msgid "ERROR: Nested too deep, ignored."
 msgstr "錯誤：巢狀結構過深，已忽略。"
 
-#: connect.cpp:844
+#: connect.cpp:841
 msgid "Loops nested too deeply."
 msgstr "巢狀迴圈過深。"
 
-#: connect.cpp:858
+#: connect.cpp:855
 #, kde-format
 msgid "Loop End %1"
 msgstr "迴圈結束 %1"
 
-#: connect.cpp:860
+#: connect.cpp:857
 #, kde-format
 msgid "LoopEnd without matching Start. Line: %1"
 msgstr "迴圈結束沒有相稱的開始。線路： %1"
 
-#: connect.cpp:945
+#: connect.cpp:942
 msgid "Starting pppd..."
 msgstr "正在啟動 pppd..."
 
-#: connect.cpp:1029
+#: connect.cpp:1026
 #, kde-format
 msgid "Scan Var: %1"
 msgstr "掃描變數： %1"
 
-#: connect.cpp:1039
+#: connect.cpp:1036
 #, kde-format
 msgid "Found: %1"
 msgstr "發現： %1"
 
-#: connect.cpp:1050
+#: connect.cpp:1047
 #, kde-format
 msgid "Looping: %1"
 msgstr "正在迴圈： %1"
 
-#: connect.cpp:1084 modeminfo.cpp:239
+#: connect.cpp:1081 modeminfo.cpp:239
 msgid "One moment please..."
 msgstr "請稍候..."
 
-#: connect.cpp:1128
+#: connect.cpp:1125
 msgid "Script timed out."
 msgstr "Script 逾時。"
 
-#: connect.cpp:1143
+#: connect.cpp:1140
 #, kde-format
 msgid "Scanning: %1"
 msgstr "正在掃描： %1"
 
-#: connect.cpp:1152
+#: connect.cpp:1149
 #, kde-format
 msgid "Expecting: %1"
 msgstr "正在期待： %1"
 
-#: connect.cpp:1187
+#: connect.cpp:1184
 msgid "Logging on to network..."
 msgstr "正在登入網絡..."
 
-#: connect.cpp:1222
+#: connect.cpp:1219
 msgid "Running startup command..."
 msgstr "正在執行啟動指令..."
 
-#: connect.cpp:1227 connect.cpp:1234
+#: connect.cpp:1224 connect.cpp:1231
 msgid "Done"
 msgstr "完成"
 
-#: connect.cpp:1303 edit.cpp:160 general.cpp:276 modem.cpp:182
+#: connect.cpp:1300 edit.cpp:164 general.cpp:282 modem.cpp:182
 msgid "None"
 msgstr "無"
 
-#: connect.cpp:1305 general.cpp:274 modem.cpp:183 pppdata.cpp:540
+#: connect.cpp:1302 general.cpp:280 modem.cpp:183 pppdata.cpp:540
 msgid "Hardware [CRTSCTS]"
 msgstr "硬件 [CRTSCTS]"
 
-#: connect.cpp:1363
+#: connect.cpp:1360
 msgid "pppd command + command-line arguments exceed 2024 characters in length."
 msgstr "pppd 指令 + 命令列引數的長度已超過 2024 個字元。"
 
@@ -622,44 +622,35 @@ msgstr "登入 Script 偵錯視窗"
 msgid "&Close"
 msgstr ""
 
-#: docking.cpp:58 docking.cpp:124
-#, fuzzy
-msgid "Restore"
-msgstr "重設數據機"
-
-#: docking.cpp:60
+#: docking.cpp:61
 msgid "Details"
 msgstr "詳細資料"
 
-#: docking.cpp:62
+#: docking.cpp:63
 msgid "Disconnect"
 msgstr "斷線"
 
-#: docking.cpp:122
-msgid "Minimize"
-msgstr "最小化"
-
-#: edit.cpp:56
+#: edit.cpp:60
 msgid "Connection &name:"
 msgstr "連線名稱(&N):"
 
-#: edit.cpp:64
+#: edit.cpp:68
 msgid "Type in a unique name for this connection"
 msgstr "給這個連線輸入唯一的名稱"
 
-#: edit.cpp:70
+#: edit.cpp:74
 msgid "P&hone number:"
 msgstr "電話號碼(&H):"
 
-#: edit.cpp:83
+#: edit.cpp:87
 msgid "&Add..."
 msgstr "新增(&A)..."
 
-#: edit.cpp:84 edit.cpp:676 edit.cpp:904 pppdargs.cpp:91
+#: edit.cpp:88 edit.cpp:684 edit.cpp:913 pppdargs.cpp:91
 msgid "&Remove"
 msgstr ""
 
-#: edit.cpp:107
+#: edit.cpp:111
 msgid ""
 "<p>Specifies the phone numbers to dial. You\n"
 "can supply multiple numbers here, simply\n"
@@ -680,31 +671,31 @@ msgstr ""
 "<i>kppp</i> 會接著試撥下一\n"
 "組號碼"
 
-#: edit.cpp:118
+#: edit.cpp:122
 msgid "A&uthentication:"
 msgstr "認證(&U):"
 
-#: edit.cpp:123
+#: edit.cpp:127
 msgid "Script-based"
 msgstr "Script 式"
 
-#: edit.cpp:124
+#: edit.cpp:128
 msgid "PAP"
 msgstr "PAP"
 
-#: edit.cpp:125
+#: edit.cpp:129
 msgid "Terminal-based"
 msgstr "終端機式"
 
-#: edit.cpp:126
+#: edit.cpp:130
 msgid "CHAP"
 msgstr "CHAP"
 
-#: edit.cpp:127
+#: edit.cpp:131
 msgid "PAP/CHAP"
 msgstr "PAP/CHAP"
 
-#: edit.cpp:129
+#: edit.cpp:133
 msgid ""
 "<p>Specifies the method used to identify yourself to\n"
 "the PPP server. Most universities still use\n"
@@ -727,11 +718,11 @@ msgstr ""
 "請選擇 CHAP，因為較為安全。如果您不知道\n"
 "PAP 或 CHAP 那個好，選擇 PAP/CHAP 。"
 
-#: edit.cpp:142
+#: edit.cpp:146
 msgid "Store &password"
 msgstr "儲存密碼(&P)"
 
-#: edit.cpp:146
+#: edit.cpp:150
 msgid ""
 "<p>When this is turned on, your ISP password\n"
 "will be saved in <i>kppp</i>'s config file, so\n"
@@ -751,35 +742,35 @@ msgstr ""
 "您可以讀取。請確定他人無法\n"
 "存取此檔案！"
 
-#: edit.cpp:155
+#: edit.cpp:159
 msgid "&Callback type:"
 msgstr "回撥類型(&C):"
 
-#: edit.cpp:161
+#: edit.cpp:165
 msgid "Administrator-defined"
 msgstr "管理員定義的"
 
-#: edit.cpp:162
+#: edit.cpp:166
 msgid "User-defined"
 msgstr "用戶定義的"
 
-#: edit.cpp:166
+#: edit.cpp:170
 msgid "Callback type"
 msgstr "回撥類型"
 
-#: edit.cpp:171
+#: edit.cpp:175
 msgid "Call&back number:"
 msgstr "回撥號碼(&B):"
 
-#: edit.cpp:178
+#: edit.cpp:182
 msgid "Callback phone number"
 msgstr "回撥電話號碼"
 
-#: edit.cpp:183
+#: edit.cpp:187
 msgid "Customize &pppd Arguments..."
 msgstr "自訂 &pppd 引數..."
 
-#: edit.cpp:326
+#: edit.cpp:330
 msgid ""
 "Here you can select commands to run at certain stages of the\n"
 "connection. The commands are run with your real user id, so\n"
@@ -797,11 +788,11 @@ msgstr ""
 "請務必提供該程式的完整路徑，否則\n"
 "kppp 將可能找不到它！"
 
-#: edit.cpp:342
+#: edit.cpp:346
 msgid "&Before connect:"
 msgstr "連線前(&B):"
 
-#: edit.cpp:349
+#: edit.cpp:353
 msgid ""
 "Allows you to run a program <b>before</b> a connection\n"
 "is established. It is called immediately before\n"
@@ -817,11 +808,11 @@ msgstr ""
 "這個選項偶有用處，例如停止 HylaFAX 阻礙\n"
 "數據機。"
 
-#: edit.cpp:358
+#: edit.cpp:362
 msgid "&Upon connect:"
 msgstr "連線時(&U):"
 
-#: edit.cpp:365
+#: edit.cpp:369
 msgid ""
 "Allows you to run a program <b>after</b> a connection\n"
 "is established. When your program is called, all\n"
@@ -835,11 +826,11 @@ msgstr ""
 "\n"
 "對擷取郵件與新聞很有用"
 
-#: edit.cpp:374
+#: edit.cpp:378
 msgid "Before &disconnect:"
 msgstr "斷線前(&D):"
 
-#: edit.cpp:382
+#: edit.cpp:386
 msgid ""
 "Allows you to run a program <b>before</b> a connection\n"
 "is closed. The connection will stay open until\n"
@@ -849,11 +840,11 @@ msgstr ""
 "程式。連線將保持開啟直到程式\n"
 "離開為止。"
 
-#: edit.cpp:389
+#: edit.cpp:393
 msgid "U&pon disconnect:"
 msgstr "斷線時(&P):"
 
-#: edit.cpp:398
+#: edit.cpp:402
 msgid ""
 "Allows you to run a program <b>after</b> a connection\n"
 "has been closed."
@@ -861,15 +852,15 @@ msgstr ""
 "允許您在關閉連線<b>之後</b>執行\n"
 "程式。"
 
-#: edit.cpp:443 edit.cpp:799
+#: edit.cpp:447 edit.cpp:807
 msgid "C&onfiguration"
 msgstr "設定(&O):"
 
-#: edit.cpp:452
+#: edit.cpp:456
 msgid "Dynamic IP address"
 msgstr "動態 IP 位址"
 
-#: edit.cpp:454
+#: edit.cpp:458
 msgid ""
 "Select this option when your computer gets an\n"
 "internet address (IP) every time a\n"
@@ -885,11 +876,11 @@ msgstr ""
 "幾乎所有互聯網服務提供者都是\n"
 "採用這個方式，因此應該開啟。"
 
-#: edit.cpp:462
+#: edit.cpp:466
 msgid "Static IP address"
 msgstr "固定 IP 位址"
 
-#: edit.cpp:466
+#: edit.cpp:470
 msgid ""
 "Select this option when your computer has a\n"
 "fixed internet address (IP). Most computers\n"
@@ -902,11 +893,11 @@ msgstr ""
 "個，所以您除非您知道您在做什麼，\n"
 "您應該選擇動態 IP 位址。"
 
-#: edit.cpp:476
+#: edit.cpp:480
 msgid "&IP address:"
 msgstr "&IP 位址:"
 
-#: edit.cpp:477
+#: edit.cpp:481
 msgid ""
 "If your computer has a permanent internet\n"
 "address, you must supply your IP address here."
@@ -914,11 +905,11 @@ msgstr ""
 "如果您的電腦擁有固定的互聯網\n"
 "位址，您必須在這裡提供 IP 位址。"
 
-#: edit.cpp:488
+#: edit.cpp:492
 msgid "&Subnet mask:"
 msgstr "子網絡遮罩(&S):"
 
-#: edit.cpp:489
+#: edit.cpp:493
 msgid ""
 "<p>If your computer has a static Internet address,\n"
 "you must supply a network mask here. In almost\n"
@@ -934,11 +925,11 @@ msgstr ""
 "\n"
 "如果無法確定，請洽詢您的互聯網服務提供者"
 
-#: edit.cpp:504
+#: edit.cpp:508
 msgid "&Auto-configure hostname from this IP"
 msgstr "自動從這個 IP 設定主機名稱(&A)"
 
-#: edit.cpp:510
+#: edit.cpp:514
 msgid ""
 "<p>Whenever you connect, this reconfigures\n"
 "your hostname to match the IP address you\n"
@@ -958,7 +949,7 @@ msgstr ""
 "\n"
 "除非真有需要，否則請勿啟用它。"
 
-#: edit.cpp:551
+#: edit.cpp:555
 msgid ""
 "Selecting this option might cause some weird problems with the X-server and "
 "applications while kppp is connected. Don't use it until you know what you "
@@ -973,15 +964,15 @@ msgstr ""
 "相關詳情可參閱手冊內容（或輔助說明）\n"
 "中的「常見問題」章節。"
 
-#: edit.cpp:558
+#: edit.cpp:562
 msgid "Warning"
 msgstr ""
 
-#: edit.cpp:600
+#: edit.cpp:608
 msgid "Domain &name:"
 msgstr "網域名稱(&N):"
 
-#: edit.cpp:607
+#: edit.cpp:615
 msgid ""
 "If you enter a domain name here, this domain\n"
 "name is used for your computer while you are\n"
@@ -999,23 +990,23 @@ msgstr ""
 "如果將這個欄位留空，網域\n"
 "名稱將不會改變。"
 
-#: edit.cpp:619
+#: edit.cpp:627
 msgid "C&onfiguration:"
 msgstr "設定(&O):"
 
-#: edit.cpp:627
+#: edit.cpp:635
 msgid "Automatic"
 msgstr "自動"
 
-#: edit.cpp:634
+#: edit.cpp:642
 msgid "Manual"
 msgstr "手動"
 
-#: edit.cpp:638
+#: edit.cpp:646
 msgid "DNS &IP address:"
 msgstr "DNS &IP 位址:"
 
-#: edit.cpp:651
+#: edit.cpp:659
 msgid ""
 "<p>Allows you to specify a new DNS server to be\n"
 "used while you are connected. When the\n"
@@ -1032,11 +1023,11 @@ msgstr ""
 "若要新增 DNS 伺服器，請在此鍵入\n"
 "DNS 伺服器的 IP 位址，並按下<b>新增</b>"
 
-#: edit.cpp:664 edit.cpp:900 pppdargs.cpp:86
+#: edit.cpp:672 edit.cpp:909 pppdargs.cpp:86
 msgid "&Add"
 msgstr "新增(&A)"
 
-#: edit.cpp:672
+#: edit.cpp:680
 msgid ""
 "Click this button to add the DNS server\n"
 "specified in the field above. The entry\n"
@@ -1046,7 +1037,7 @@ msgstr ""
 "中所指定的 DNS 伺服器。該項目\n"
 "會接著新增到下列清單中"
 
-#: edit.cpp:683
+#: edit.cpp:691
 msgid ""
 "Click this button to remove the selected DNS\n"
 "server entry from the list below"
@@ -1054,11 +1045,11 @@ msgstr ""
 "按下這個按鈕可以移除下列清單中\n"
 "選擇的 DNS 伺服器項目"
 
-#: edit.cpp:686
+#: edit.cpp:694
 msgid "DNS address &list:"
 msgstr "DNS 位址清單(&L):"
 
-#: edit.cpp:696
+#: edit.cpp:704
 msgid ""
 "<p>This shows all defined DNS servers to use\n"
 "while you are connected. Use the <b>Add</b> and\n"
@@ -1068,11 +1059,11 @@ msgstr ""
 "已定義 DNS 伺服器。請使用<b>新增</b>及\n"
 "<b>移除</b>按鈕來修改清單"
 
-#: edit.cpp:704
+#: edit.cpp:712
 msgid "&Disable existing DNS servers during connection"
 msgstr "連線時關閉現有的 DNS 伺服器(&D)"
 
-#: edit.cpp:709
+#: edit.cpp:717
 msgid ""
 "<p>When this option is selected, all DNS\n"
 "servers specified in <tt>/etc/resolv.conf</tt> are\n"
@@ -1094,11 +1085,11 @@ msgstr ""
 "選項，但在某些情況下它可能\n"
 "極有用處。"
 
-#: edit.cpp:807
+#: edit.cpp:815
 msgid "Default gateway"
 msgstr "預設閘道"
 
-#: edit.cpp:810
+#: edit.cpp:818
 msgid ""
 "This makes the PPP peer computer (the computer\n"
 "you are connected to with your modem) to act as\n"
@@ -1118,11 +1109,11 @@ msgstr ""
 "對大部份 ISP 這是預設值，因此您應該\n"
 "讓此選項保持開啟"
 
-#: edit.cpp:821
+#: edit.cpp:829
 msgid "Static gateway"
 msgstr "靜態閘道"
 
-#: edit.cpp:824
+#: edit.cpp:832
 msgid ""
 "<p>Allows you to specify which computer you want\n"
 "to use as gateway (see <i>Default Gateway</i> above)"
@@ -1130,15 +1121,15 @@ msgstr ""
 "<p>可供您指定要以哪部電腦作為\n"
 "閘道（請參閱上述的<i>預設閘道</i>）"
 
-#: edit.cpp:830
+#: edit.cpp:837
 msgid "Gateway &IP address:"
 msgstr "閘道 &IP 位址:"
 
-#: edit.cpp:834
+#: edit.cpp:843
 msgid "&Assign the default route to this gateway"
 msgstr "將預設路由指派至這個閘道(&A)"
 
-#: edit.cpp:837
+#: edit.cpp:846
 msgid ""
 "If this option is enabled, all packets not\n"
 "going to the local net are routed through\n"
@@ -1152,16 +1143,16 @@ msgstr ""
 "\n"
 "一般而言，您應加以開啟"
 
-#: edit.cpp:902
+#: edit.cpp:911
 #, fuzzy
 msgid "&Insert"
 msgstr "回答"
 
-#: edit.cpp:1216
+#: edit.cpp:1225
 msgid "Add Phone Number"
 msgstr "新增電話號碼"
 
-#: edit.cpp:1229
+#: edit.cpp:1238
 msgid "Enter a phone number:"
 msgstr "輸入電話號碼:"
 
@@ -1173,11 +1164,11 @@ msgstr "pppd 版本:"
 msgid "pppd &timeout:"
 msgstr "pppd 逾時(&T):"
 
-#: general.cpp:79 general.cpp:395 general.cpp:485
+#: general.cpp:80 general.cpp:401 general.cpp:497
 msgid " sec"
 msgstr " 秒"
 
-#: general.cpp:83
+#: general.cpp:84
 msgid ""
 "<i>kppp</i> will wait this number of seconds\n"
 "to see if a PPP connection is established.\n"
@@ -1189,11 +1180,11 @@ msgstr ""
 "如果並未在這個時限內建立連線，\n"
 "<i>kppp</i> 將放棄並清除 pppd。"
 
-#: general.cpp:93
+#: general.cpp:94
 msgid "Doc&k into panel on connect"
 msgstr "連線時嵌入至面板(&K)"
 
-#: general.cpp:95
+#: general.cpp:96
 msgid ""
 "<p>After a connection is established, the\n"
 "window is minimized and a small icon\n"
@@ -1210,11 +1201,11 @@ msgstr ""
 "按下這個圖示即可將視窗\n"
 "恢復成原來位置與大小。"
 
-#: general.cpp:108
+#: general.cpp:109
 msgid "A&utomatic redial on disconnect"
 msgstr "斷線時自動重撥(&U)"
 
-#: general.cpp:114
+#: general.cpp:115
 msgid ""
 "<p>When a connection is established and\n"
 "it somehow gets disconnected, <i>kppp</i>\n"
@@ -1228,11 +1219,11 @@ msgstr ""
 "\n"
 "有關這個主題的詳細資訊，請參閱<a href=\"#redial\">這裡</a>。"
 
-#: general.cpp:120
+#: general.cpp:121
 msgid "Automatic redial on NO &CARRIER"
 msgstr "沒有載波時自動重撥(&C)"
 
-#: general.cpp:126
+#: general.cpp:127
 msgid ""
 "<p>When dialing if modem returns NO CARRIER\n"
 "the program will make a new attempt to redial\n"
@@ -1242,11 +1233,11 @@ msgstr ""
 "<p>當撥號時，如數據機傳回「沒有載波」訊號，\n"
 "程式將試著重撥，而不是等待使用者按<取消>鍵。"
 
-#: general.cpp:131
+#: general.cpp:132
 msgid "&Show clock on caption"
 msgstr "於標題顯示時鐘(&S)"
 
-#: general.cpp:137
+#: general.cpp:138
 msgid ""
 "When this option is checked, the window\n"
 "title shows the time since a connection\n"
@@ -1258,11 +1249,11 @@ msgstr ""
 "經過的時間。它非常有用，\n"
 "因此請開啟"
 
-#: general.cpp:142
+#: general.cpp:143
 msgid "Disco&nnect on X server shutdown"
 msgstr "於 X 伺服器關閉時斷線(&N)"
 
-#: general.cpp:148
+#: general.cpp:149
 msgid ""
 "<p>Checking this option will close any\n"
 "open connection when the X-server is\n"
@@ -1278,11 +1269,11 @@ msgstr ""
 "\n"
 "相關詳情請參閱<a href=\"#disxserver\">這裡</a>。"
 
-#: general.cpp:155
+#: general.cpp:156
 msgid "&Quit on disconnect"
 msgstr "切斷連線時離開(&Q)"
 
-#: general.cpp:161
+#: general.cpp:162
 msgid ""
 "When this option is turned on, <i>kppp</i>\n"
 "will be closed when you disconnect"
@@ -1290,11 +1281,11 @@ msgstr ""
 "開啟這個選項時，<i>kppp</i>\n"
 "將會在您斷線時關閉"
 
-#: general.cpp:164
+#: general.cpp:165
 msgid "Minimi&ze window on connect"
 msgstr "連線時將視窗最小化(&Z)"
 
-#: general.cpp:170
+#: general.cpp:171
 msgid ""
 "Iconifies <i>kppp</i>'s window when a\n"
 "connection is established"
@@ -1302,19 +1293,19 @@ msgstr ""
 "建立連線後將 <i>kppp</i> 視窗\n"
 "圖示化"
 
-#: general.cpp:223
+#: general.cpp:229
 msgid "Modem &name:"
 msgstr "數據機名稱(&N):"
 
-#: general.cpp:231
+#: general.cpp:237
 msgid "Type in a unique name for this modem"
 msgstr "輸入數據機的唯一名稱"
 
-#: general.cpp:236
+#: general.cpp:242
 msgid "Modem de&vice:"
 msgstr "數據機裝置(&V):"
 
-#: general.cpp:256
+#: general.cpp:262
 msgid ""
 "This specifies the serial port your modem is attached \n"
 "to. On Linux/x86, typically this is either /dev/ttyS0 \n"
@@ -1332,15 +1323,15 @@ msgstr ""
 "介面卡（大多數介面卡 Linux 皆支援此功能），\n"
 "你應選擇 /dev/ttyIx 裝置之一。"
 
-#: general.cpp:268
+#: general.cpp:274
 msgid "&Flow control:"
 msgstr "流量控制(&F):"
 
-#: general.cpp:275
+#: general.cpp:281
 msgid "Software [XON/XOFF]"
 msgstr "軟件 [XON/XOFF]"
 
-#: general.cpp:286
+#: general.cpp:292
 msgid ""
 "<p>Specifies how the serial port and modem\n"
 "communicate. You should not change this unless\n"
@@ -1354,11 +1345,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： CRTSCTS"
 
-#: general.cpp:295
+#: general.cpp:301
 msgid "&Line termination:"
 msgstr "線路終端(&L):"
 
-#: general.cpp:306
+#: general.cpp:312
 msgid ""
 "<p>Specifies how AT commands are sent to your\n"
 "modem. Most modems will work fine with the\n"
@@ -1376,11 +1367,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： CR/LF"
 
-#: general.cpp:317
+#: general.cpp:323
 msgid "Co&nnection speed:"
 msgstr "連線速度(&N):"
 
-#: general.cpp:354
+#: general.cpp:360
 msgid ""
 "Specifies the speed your modem and the serial\n"
 "port talk to each other. You should begin with\n"
@@ -1395,11 +1386,11 @@ msgstr ""
 "大一些的數字）。如果連線有問題，\n"
 "試著調低這個值。"
 
-#: general.cpp:372
+#: general.cpp:378
 msgid "&Use lock file"
 msgstr "使用鎖定檔案(&U)"
 
-#: general.cpp:380
+#: general.cpp:386
 msgid ""
 "<p>To prevent other programs from accessing the\n"
 "modem while a connection is established, a\n"
@@ -1421,11 +1412,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 開啟"
 
-#: general.cpp:393
+#: general.cpp:399
 msgid "Modem &timeout:"
 msgstr "數據機逾時(&T):"
 
-#: general.cpp:401
+#: general.cpp:407
 msgid ""
 "This specifies how long <i>kppp</i> waits for a\n"
 "<i>CONNECT</i> response from your modem. The\n"
@@ -1435,11 +1426,11 @@ msgstr ""
 "等候數據機做出 <i>CONNECT</i> 回應。\n"
 "建議值為 30 秒。"
 
-#: general.cpp:469
+#: general.cpp:480
 msgid "&Wait for dial tone before dialing"
 msgstr "撥號前先等待撥號音(&W)"
 
-#: general.cpp:474
+#: general.cpp:485
 msgid ""
 "<p>Normally the modem waits for a dial tone\n"
 "from your phone line, indicating that it can\n"
@@ -1456,11 +1447,11 @@ msgstr ""
 "\n"
 "<b>預設：</b>： 開啟"
 
-#: general.cpp:483
+#: general.cpp:494
 msgid "B&usy wait:"
 msgstr "忙線等候(&U):"
 
-#: general.cpp:490
+#: general.cpp:502
 msgid ""
 "Specifies the number of seconds to wait before\n"
 "redial if all dialed numbers are busy. This is\n"
@@ -1478,11 +1469,11 @@ msgstr ""
 "預設值為 0 秒鐘，但除非您有需要\n"
 "否則請勿變更。"
 
-#: general.cpp:503
+#: general.cpp:515
 msgid "Modem &volume:"
 msgstr "數據機音量(&V):"
 
-#: general.cpp:518
+#: general.cpp:530
 msgid ""
 "Most modems have a speaker which makes\n"
 "a lot of noise when dialing. Here you can\n"
@@ -1499,11 +1490,11 @@ msgstr ""
 "如果此選項對數據機並無作用，\n"
 "您即必須修改數據機音量指令。"
 
-#: general.cpp:532
+#: general.cpp:544
 msgid "Modem asserts CD line"
 msgstr "數據機佔用 CD 線路"
 
-#: general.cpp:540
+#: general.cpp:552
 msgid ""
 "This controls how <i>kppp</i> detects that the modem\n"
 "is not responding. Unless you are having\n"
@@ -1517,11 +1508,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 關閉"
 
-#: general.cpp:547
+#: general.cpp:559
 msgid "Mod&em Commands..."
 msgstr "數據機指令(&E)..."
 
-#: general.cpp:549
+#: general.cpp:561
 msgid ""
 "Allows you to change the AT command for\n"
 "your modem."
@@ -1529,11 +1520,11 @@ msgstr ""
 "可用來變更數據機的\n"
 "AT 指令。"
 
-#: general.cpp:552
+#: general.cpp:564
 msgid "&Query Modem..."
 msgstr "查詢數據機(&Q)..."
 
-#: general.cpp:554
+#: general.cpp:566
 msgid ""
 "Most modems support the ATI command set to\n"
 "find out vendor and revision of your modem.\n"
@@ -1549,11 +1540,11 @@ msgstr ""
 "資訊。此類資訊對設定數據機\n"
 "很有幫助"
 
-#: general.cpp:561
+#: general.cpp:573
 msgid "&Terminal..."
 msgstr "終端機(&T)..."
 
-#: general.cpp:563
+#: general.cpp:575
 msgid ""
 "Opens the built-in terminal program. You\n"
 "can use this if you want to play around\n"
@@ -1563,27 +1554,27 @@ msgstr ""
 "可以使用這個選項來操控數\n"
 "據機的 AT 指令集"
 
-#: general.cpp:638
+#: general.cpp:650
 msgid "&Enable throughput graph"
 msgstr "啟用流量圖(&E)"
 
-#: general.cpp:642
+#: general.cpp:654
 msgid "Graph Colors"
 msgstr "圖表顏色"
 
-#: general.cpp:647
+#: general.cpp:659
 msgid "Bac&kground:"
 msgstr "背景(&K):"
 
-#: general.cpp:652
+#: general.cpp:664
 msgid "&Text:"
 msgstr "文字(&T):"
 
-#: general.cpp:657
+#: general.cpp:669
 msgid "I&nput bytes:"
 msgstr "輸入位元組(&N):"
 
-#: general.cpp:662
+#: general.cpp:674
 msgid "O&utput bytes:"
 msgstr "輸出位元組(&U):"
 
@@ -1669,7 +1660,7 @@ msgstr "設定(&N)..."
 msgid "&Connect"
 msgstr "連線(&C)"
 
-#: kpppwidget.cpp:330
+#: kpppwidget.cpp:331
 #, kde-format
 msgid ""
 "No such Modem:\n"
@@ -1680,7 +1671,7 @@ msgstr ""
 "%1\n"
 "還原至預設值"
 
-#: kpppwidget.cpp:340
+#: kpppwidget.cpp:341
 #, kde-format
 msgid ""
 "No such Account:\n"
@@ -1689,56 +1680,56 @@ msgstr ""
 "沒有此帳號：\n"
 "%1"
 
-#: kpppwidget.cpp:410
+#: kpppwidget.cpp:401
 msgid "KPPP Configuration"
 msgstr "KPPP 設定"
 
-#: kpppwidget.cpp:420
+#: kpppwidget.cpp:411
 msgid "&Accounts"
 msgstr "帳號(&A)"
 
-#: kpppwidget.cpp:421
+#: kpppwidget.cpp:412
 msgid "Account Setup"
 msgstr "帳號設定"
 
-#: kpppwidget.cpp:433
+#: kpppwidget.cpp:424
 msgid "&Modems"
 msgstr "數據機(&M)"
 
-#: kpppwidget.cpp:434
+#: kpppwidget.cpp:425
 msgid "Modems Setup"
 msgstr "數據機設定"
 
-#: kpppwidget.cpp:441
+#: kpppwidget.cpp:432
 msgid "&Graph"
 msgstr "圖表(&G)"
 
-#: kpppwidget.cpp:442
+#: kpppwidget.cpp:433
 msgid "Throughput Graph"
 msgstr "流量圖"
 
-#: kpppwidget.cpp:448
+#: kpppwidget.cpp:439
 msgid "M&isc"
 msgstr "雜項(&I)"
 
-#: kpppwidget.cpp:449
+#: kpppwidget.cpp:440
 msgid "Miscellaneous Settings"
 msgstr "雜項設定"
 
-#: kpppwidget.cpp:660
+#: kpppwidget.cpp:651
 msgid "Timeout expired while waiting for the PPP interface to come up."
 msgstr "等候 PPP 介面啟動的時限已逾期！"
 
-#: kpppwidget.cpp:663
+#: kpppwidget.cpp:654
 msgid "<p>The pppd daemon died unexpectedly!</p>"
 msgstr "<p>pppd 系統程式不預期地結束！</p>"
 
-#: kpppwidget.cpp:666
+#: kpppwidget.cpp:657
 #, kde-format
 msgid "<p>Exit status: %1"
 msgstr "<p>離開狀態： %1"
 
-#: kpppwidget.cpp:667
+#: kpppwidget.cpp:658
 #, fuzzy, kde-format
 msgid ""
 "</p><p>See 'man pppd' for an explanation of the error codes or take a look "
@@ -1747,15 +1738,15 @@ msgstr ""
 "</p><p>參閱『man pppd』以得到錯誤代碼的解釋或參閱 <a href=\"%1\">%2</a>的 "
 "kppp FAQ</p>"
 
-#: kpppwidget.cpp:674 main.cpp:284
+#: kpppwidget.cpp:665 main.cpp:284
 msgid "Error"
 msgstr ""
 
-#: kpppwidget.cpp:674
+#: kpppwidget.cpp:665
 msgid "&Details"
 msgstr "詳細資料(&D)"
 
-#: kpppwidget.cpp:707
+#: kpppwidget.cpp:698
 msgid ""
 "kppp's helper process just died.\n"
 "Since further execution would be pointless, kppp will shut down now."
@@ -1763,7 +1754,7 @@ msgstr ""
 "kppp 的輔助行程已結束。\n"
 "由於繼續執行將毫無意義，kppp 現在將立即關閉。"
 
-#: kpppwidget.cpp:749
+#: kpppwidget.cpp:740
 msgid ""
 "Cannot find the PPP daemon!\n"
 "Make sure that pppd is installed and that you have entered the correct path."
@@ -1771,7 +1762,7 @@ msgstr ""
 "找不到 PPP 系統程式！\n"
 "請確定已安裝 pppd 且輸入了正確的路徑。"
 
-#: kpppwidget.cpp:758
+#: kpppwidget.cpp:749
 #, kde-format
 msgid ""
 "kppp cannot execute:\n"
@@ -1784,7 +1775,7 @@ msgstr ""
 "請確定已給 kppp setuid 權限且\n"
 "pppd 是可執行的。"
 
-#: kpppwidget.cpp:779
+#: kpppwidget.cpp:770
 #, kde-format
 msgid ""
 "kppp can not find:\n"
@@ -1797,53 +1788,53 @@ msgstr ""
 "請確定您已經正確地設定您的數據機且/或在設定對話盒的數據機分頁調整數據機裝置的"
 "位置。"
 
-#: kpppwidget.cpp:796
+#: kpppwidget.cpp:787
 msgid ""
 "You have selected the authentication method PAP or CHAP. This requires that "
 "you supply a username and a password."
 msgstr "您已經選擇了 PAP 或 CHAP 認證方法。因此必須提供使用者名稱與密碼。"
 
-#: kpppwidget.cpp:805
+#: kpppwidget.cpp:796
 #, kde-format
 msgid ""
 "Cannot create PAP/CHAP authentication\n"
 "file \"%1\""
 msgstr "無法建立 PAP/CHAP 認證檔「%1」"
 
-#: kpppwidget.cpp:814
+#: kpppwidget.cpp:805
 msgid "You must specify a telephone number."
 msgstr "您必須指定一個電話號碼。"
 
-#: kpppwidget.cpp:848
+#: kpppwidget.cpp:839
 msgid "Disconnecting..."
 msgstr "正在斷線..."
 
-#: kpppwidget.cpp:851
+#: kpppwidget.cpp:842
 msgid "Executing command before disconnection."
 msgstr "正在執行斷線前的指令。"
 
-#: kpppwidget.cpp:865
+#: kpppwidget.cpp:856
 msgid "Announcing disconnection."
 msgstr "正在公佈斷線。"
 
-#: kpppwidget.cpp:917
+#: kpppwidget.cpp:908
 msgid "Exiting kPPP will close your PPP Session."
 msgstr "離開 kPPP 將會關閉您的 PPP 工作階段。"
 
-#: kpppwidget.cpp:918
+#: kpppwidget.cpp:909
 msgid "Quit kPPP?"
 msgstr "離開 kPPP ？"
 
-#: kpppwidget.cpp:967
+#: kpppwidget.cpp:958
 #, kde-format
 msgid "Can not load the accounting ruleset \"%1\"."
 msgstr "無法載入結算規則集「%1」。"
 
-#: kpppwidget.cpp:1057
+#: kpppwidget.cpp:1048
 msgid "Recent Changes in KPPP"
 msgstr "KPPP 最近的變更"
 
-#: kpppwidget.cpp:1072
+#: kpppwidget.cpp:1063
 msgid ""
 "From version 1.4.8 on, kppp has a new feature\n"
 "called \"Quickhelp\". It's similar to a tooltip,\n"
@@ -1867,12 +1858,12 @@ msgstr ""
 "\n"
 "要測試它，請在本文字中任意位置按下滑鼠右鍵。"
 
-#: kpppwidget.cpp:1084
+#: kpppwidget.cpp:1075
 #, fuzzy
 msgid "Do not show this hint again"
 msgstr "不要再顯示這個提示"
 
-#: kpppwidget.cpp:1092
+#: kpppwidget.cpp:1083
 msgid ""
 "This is an example of <b>QuickHelp</b>.\n"
 "This window will stay open until you\n"
@@ -1882,7 +1873,7 @@ msgstr ""
 "這個視窗將保持開啟，直到您\n"
 "按下滑鼠鍵或敲擊鍵盤按鍵。\n"
 
-#: loginterm.cpp:108
+#: loginterm.cpp:109
 msgid "Login Terminal Window"
 msgstr "登入終端機視窗"
 
@@ -2440,12 +2431,12 @@ msgstr "vjerr"
 msgid "non-vj"
 msgstr "non-vj"
 
-#: pppstatdlg.cpp:304
+#: pppstatdlg.cpp:307
 #, kde-format
 msgid "%1 (max. %2) kb/sec"
 msgstr "%1 (最大 %2) kb/秒"
 
-#: pppstatdlg.cpp:420 pppstatdlg.cpp:427
+#: pppstatdlg.cpp:414 pppstatdlg.cpp:421
 msgid "unavailable"
 msgstr "無法使用"
 
@@ -2656,3 +2647,10 @@ msgstr ""
 "%1 遺失或無法讀取！\n"
 "請洽詢系統管理員以適當的讀寫權限建立\n"
 "這個檔案（該檔案內容可為空的）。"
+
+#, fuzzy
+#~ msgid "Restore"
+#~ msgstr "重設數據機"
+
+#~ msgid "Minimize"
+#~ msgstr "最小化"
