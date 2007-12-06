@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-05 05:57+0100\n"
+"POT-Creation-Date: 2007-12-06 06:00+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -740,7 +740,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 206
-#: rc.cpp:291 kutils/kpluginselector.cpp:62
+#: rc.cpp:291 kutils/kpluginselector.cpp:63
 #, fuzzy
 msgid "Settings"
 msgstr "設定(&S)"
@@ -4994,7 +4994,7 @@ msgstr "分享熱門禮物"
 msgid "Please give some information about yourself."
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:67 kutils/kpluginselector.cpp:1671
 msgid "Author:"
 msgstr "作者："
 
@@ -5014,11 +5014,11 @@ msgid "Name:"
 msgstr "名稱："
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:85
-#: kdeui/dialogs/kbugreport.cpp:205
+#: kdeui/dialogs/kbugreport.cpp:205 kutils/kpluginselector.cpp:1715
 msgid "Version:"
 msgstr "版本："
 
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:90 kutils/kpluginselector.cpp:1724
 msgid "License:"
 msgstr "許可證："
 
@@ -6104,15 +6104,15 @@ msgstr "設定"
 msgid "&Try"
 msgstr "試用(&T)"
 
-#: kdeui/dialogs/kdialog.cpp:453
+#: kdeui/dialogs/kdialog.cpp:458
 msgid "modified"
 msgstr "已修改"
 
-#: kdeui/dialogs/kdialog.cpp:833
+#: kdeui/dialogs/kdialog.cpp:838
 msgid "&Details"
 msgstr "詳細資料(&D)"
 
-#: kdeui/dialogs/kdialog.cpp:981
+#: kdeui/dialogs/kdialog.cpp:986
 msgid "Get help..."
 msgstr "取得說明..."
 
@@ -6136,8 +6136,8 @@ msgstr "你真的要重設這個應用程式的所有工具列嗎？這個動作
 msgid "Reset ToolBars"
 msgstr "重設工具列"
 
-#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2798
-#: khtml/khtmlview.cpp:2831 khtml/html/html_formimpl.cpp:2163
+#: kdeui/dialogs/kedittoolbar.cpp:506 khtml/khtmlview.cpp:2801
+#: khtml/khtmlview.cpp:2834 khtml/html/html_formimpl.cpp:2163
 msgid "Reset"
 msgstr "重設"
 
@@ -10483,7 +10483,7 @@ msgstr "日期及時間：%1 "
 msgid "Additional Information: %1"
 msgstr "額外資訊：%1"
 
-#: khtml/khtml_part.cpp:1762
+#: khtml/khtml_part.cpp:1762 kutils/kpluginselector.cpp:1661
 msgid "Description:"
 msgstr "描述："
 
@@ -10645,7 +10645,7 @@ msgstr ""
 "<qt>這個表格將會提交到你的本地檔案系統上的<BR><B>%1</B><BR><BR>你真的要提交表"
 "格嗎？"
 
-#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2784 khtml/khtmlview.cpp:2826
+#: khtml/khtml_part.cpp:4725 khtml/khtmlview.cpp:2787 khtml/khtmlview.cpp:2829
 #: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2171
 msgid "Submit"
 msgstr "提交"
@@ -10765,39 +10765,39 @@ msgstr "跳至行數(&G)..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1754
+#: khtml/khtmlview.cpp:1757
 msgid "Find stopped."
 msgstr "已停止搜尋。"
 
-#: khtml/khtmlview.cpp:1765
+#: khtml/khtmlview.cpp:1768
 msgid "Starting -- find links as you type"
 msgstr "正在開啟 -- 即時連結搜尋"
 
-#: khtml/khtmlview.cpp:1771
+#: khtml/khtmlview.cpp:1774
 msgid "Starting -- find text as you type"
 msgstr "正在開啟 -- 即時文字搜尋"
 
-#: khtml/khtmlview.cpp:1794
+#: khtml/khtmlview.cpp:1797
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "找到連結： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1799
+#: khtml/khtmlview.cpp:1802
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "找不到連結： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1807
+#: khtml/khtmlview.cpp:1810
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "找到文字： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1812
+#: khtml/khtmlview.cpp:1815
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "找不到文字：\"%1\"。"
 
-#: khtml/khtmlview.cpp:1858
+#: khtml/khtmlview.cpp:1861
 msgid "Access Keys activated"
 msgstr "存取鍵已啟動"
 
@@ -11900,21 +11900,21 @@ msgstr ""
 "問題，並嘗試移除錯誤訊息中的模組。若是不行，請聯絡你的發行商或套件供應者。</"
 "p></qt>"
 
-#: kutils/kpluginselector.cpp:63
+#: kutils/kpluginselector.cpp:64
 msgid "About"
 msgstr "關於"
 
-#: kutils/kpluginselector.cpp:157
+#: kutils/kpluginselector.cpp:158
 msgid "Automatic changes have been performed due to plugin dependencies"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:224
+#: kutils/kpluginselector.cpp:225
 msgid ""
 "Automatically changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:228
+#: kutils/kpluginselector.cpp:229
 #, kde-format
 msgid ""
 "\n"
@@ -11922,7 +11922,7 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:230
+#: kutils/kpluginselector.cpp:231
 #, kde-format
 msgid ""
 "\n"
@@ -11930,76 +11930,44 @@ msgid ""
 "plugin"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:232
+#: kutils/kpluginselector.cpp:233
 msgid "Dependency Check"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:250
+#: kutils/kpluginselector.cpp:251
 #, kde-format
 msgid "%1 plugin added"
 msgid_plural "%1 plugins added"
 msgstr[0] ""
 
-#: kutils/kpluginselector.cpp:253
+#: kutils/kpluginselector.cpp:254
 msgid ", "
 msgstr ""
 
-#: kutils/kpluginselector.cpp:256
+#: kutils/kpluginselector.cpp:257
 #, kde-format
 msgid "%1 plugin removed"
 msgid_plural "%1 plugins removed"
 msgstr[0] ""
 
-#: kutils/kpluginselector.cpp:259
+#: kutils/kpluginselector.cpp:260
 msgid " since the last time you asked for details"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:1634
+#: kutils/kpluginselector.cpp:1646
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgid "About %1 plugin"
 msgstr "關於 %1"
 
-#: kutils/kpluginselector.cpp:1642
-#, fuzzy, kde-format
-#| msgid "Description:"
-msgid ""
-"Description:\n"
-"\t%1"
-msgstr "描述："
-
-#: kutils/kpluginselector.cpp:1647
-#, fuzzy, kde-format
-#| msgid "Author:"
-msgid ""
-"Author:\n"
-"\t%1"
-msgstr "作者："
-
-#: kutils/kpluginselector.cpp:1652
+#: kutils/kpluginselector.cpp:1679
 #, fuzzy
 msgid "E-Mail:"
 msgstr "Email"
 
-#: kutils/kpluginselector.cpp:1658
+#: kutils/kpluginselector.cpp:1697
 msgid "Website:"
 msgstr ""
-
-#: kutils/kpluginselector.cpp:1664
-#, fuzzy, kde-format
-#| msgid "Version:"
-msgid ""
-"Version:\n"
-"\t%1"
-msgstr "版本："
-
-#: kutils/kpluginselector.cpp:1669
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid ""
-"License:\n"
-"\t%1"
-msgstr "許可證："
 
 #: kutils/kprintpreview.cpp:123
 #, fuzzy
@@ -13071,6 +13039,34 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid ""
+#~ "Description:\n"
+#~ "\t%1"
+#~ msgstr "描述："
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid ""
+#~ "Author:\n"
+#~ "\t%1"
+#~ msgstr "作者："
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid ""
+#~ "Version:\n"
+#~ "\t%1"
+#~ msgstr "版本："
+
+#, fuzzy
+#~| msgid "License:"
+#~ msgid ""
+#~ "License:\n"
+#~ "\t%1"
+#~ msgstr "許可證："
 
 #, fuzzy
 #~| msgid "Popup Menu Context"
