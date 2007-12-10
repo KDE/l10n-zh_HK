@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-09 05:59+0100\n"
+"POT-Creation-Date: 2007-12-10 05:58+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -411,7 +411,7 @@ msgstr ""
 "離開簡報模式有兩個方法：按 ESC 鍵、或將滑鼠移至右上角，當「離開」按鈕出現時按"
 "下。當然你亦可將視窗循環展示（預設是 Alt+TAB）。"
 
-#: ui/thumbnaillist.cpp:753
+#: ui/thumbnaillist.cpp:760
 msgid "Show bookmarked pages only"
 msgstr "只顯示標有書籤的頁面"
 
@@ -860,7 +860,7 @@ msgstr ""
 
 #. i18n: tag tool attribute name
 #. i18n: file ui/data/tools.xml line 20
-#: ui/annotationwidgets.cpp:186 ui/annotationguiutils.cpp:29 rc.cpp:302
+#: ui/annotationwidgets.cpp:186 ui/annotationguiutils.cpp:29 rc.cpp:299
 msgid "Note"
 msgstr ""
 
@@ -1090,7 +1090,7 @@ msgstr ""
 
 #. i18n: tag tool attribute name
 #. i18n: file ui/data/tools.xml line 27
-#: ui/annotationguiutils.cpp:31 rc.cpp:305
+#: ui/annotationguiutils.cpp:31 rc.cpp:302
 msgid "Inline Note"
 msgstr ""
 
@@ -1103,8 +1103,8 @@ msgid "Geometry"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 69
-#: ui/annotationguiutils.cpp:43 rc.cpp:323
+#. i18n: file ui/data/tools.xml line 62
+#: ui/annotationguiutils.cpp:43 rc.cpp:317
 msgid "Stamp"
 msgstr ""
 
@@ -2074,91 +2074,77 @@ msgstr ""
 #. i18n: file ui/data/tools.xml line 42
 #: rc.cpp:281
 msgctxt "Annotation tool"
-msgid "Pink Ink"
+msgid "Yellow Highlight"
 msgstr ""
 
 #. i18n: tag tooltip
 #. i18n: file ui/data/tools.xml line 49
 #: rc.cpp:284
 msgctxt "Annotation tool"
-msgid "Yellow Highlight"
+msgid "Straight Yellow Line"
 msgstr ""
 
 #. i18n: tag tooltip
 #. i18n: file ui/data/tools.xml line 56
 #: rc.cpp:287
 msgctxt "Annotation tool"
-msgid "Straight Yellow Line"
+msgid "Draw a polygon (click on the first point to close it)"
 msgstr ""
 
 #. i18n: tag tooltip
 #. i18n: file ui/data/tools.xml line 63
 #: rc.cpp:290
 msgctxt "Annotation tool"
-msgid "Draw a polygon (click on the first point to close it)"
+msgid "Put a stamp symbol"
 msgstr ""
 
 #. i18n: tag tooltip
 #. i18n: file ui/data/tools.xml line 70
 #: rc.cpp:293
 msgctxt "Annotation tool"
-msgid "Put a stamp symbol"
+msgid "Underline the text with a black line"
 msgstr ""
 
 #. i18n: tag tooltip
 #. i18n: file ui/data/tools.xml line 77
 #: rc.cpp:296
 msgctxt "Annotation tool"
-msgid "Underline the text with a black line"
-msgstr ""
-
-#. i18n: tag tooltip
-#. i18n: file ui/data/tools.xml line 84
-#: rc.cpp:299
-msgctxt "Annotation tool"
 msgid "A cyan ellipse"
 msgstr ""
 
 #. i18n: tag tool attribute name
 #. i18n: file ui/data/tools.xml line 34
-#: rc.cpp:308
+#: rc.cpp:305
 msgid "Green Highlighter"
 msgstr ""
 
 #. i18n: tag tool attribute name
 #. i18n: file ui/data/tools.xml line 41
-#: rc.cpp:311
-#, fuzzy
-msgid "Pink Highlighter"
-msgstr "屬性(&P)"
-
-#. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 48
-#: rc.cpp:314
+#: rc.cpp:308
 msgid "Yellow Highlighter"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 55
-#: rc.cpp:317
+#. i18n: file ui/data/tools.xml line 48
+#: rc.cpp:311
 msgid "Straight Yellow Line"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 62
-#: rc.cpp:320
+#. i18n: file ui/data/tools.xml line 55
+#: rc.cpp:314
 msgid "Blue Polygon"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 76
-#: rc.cpp:326
+#. i18n: file ui/data/tools.xml line 69
+#: rc.cpp:320
 msgid "Black Underlining"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#. i18n: file ui/data/tools.xml line 83
-#: rc.cpp:329
+#. i18n: file ui/data/tools.xml line 76
+#: rc.cpp:323
 msgid "Cyan Ellipse"
 msgstr ""
 
@@ -2216,6 +2202,10 @@ msgstr ""
 #: aboutdata.h:35
 msgid "KPDF developer"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Pink Highlighter"
+#~ msgstr "屬性(&P)"
 
 #, fuzzy
 #~| msgid "Moves to the next page of the document"
