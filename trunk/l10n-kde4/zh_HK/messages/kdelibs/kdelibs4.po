@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-15 06:09+0100\n"
+"POT-Creation-Date: 2007-12-16 06:12+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -857,7 +857,7 @@ msgstr "內容"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 237
-#: rc.cpp:351 khtml/ecma/debugger/execstatemodel.cpp:242
+#: rc.cpp:351 khtml/ecma/debugger/execstatemodel.cpp:244
 #: khtml/java/kjavaappletviewer.cpp:140
 msgid "Value"
 msgstr "值"
@@ -1494,7 +1494,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:656 rc.cpp:888 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:177
+#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:176
 #: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "停止"
@@ -3476,6 +3476,23 @@ msgstr "NEC SOCKS 客戶端"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS 客戶端"
 
+#: kdecore/kernel/ktoolinvocation_win.cpp:69
+#: kdecore/kernel/ktoolinvocation_x11.cpp:96
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"無法執行輔助中心：\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_win.cpp:70
+#: kdecore/kernel/ktoolinvocation_x11.cpp:97
+msgid "Could not Launch Help Center"
+msgstr "無法執行輔助中心"
+
 #: kdecore/kernel/kcmdlineargs.cpp:270
 msgid "Use the X-server display 'displayname'"
 msgstr "使用 X-Server 顯示器‘displayname’。"
@@ -3752,21 +3769,6 @@ msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 #: kdecore/kernel/kcmdlineargs.cpp:1584
 msgid "KDE-tempfile"
 msgstr ""
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:96
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"無法執行輔助中心：\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:97
-msgid "Could not Launch Help Center"
-msgstr "無法執行輔助中心"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:359
 #, kde-format
@@ -10781,7 +10783,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:170
+#: khtml/ecma/debugger/debugwindow.cpp:169
 msgid "Continue"
 msgstr "繼續"
 
@@ -10873,7 +10875,7 @@ msgstr "JavaScript 錯誤"
 msgid "&Do not show this message again"
 msgstr "不要再顯示這個訊息(&D)"
 
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:118
+#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:113
 msgid "JavaScript Debugger"
 msgstr "JavaScript 除錯器"
 
@@ -10957,11 +10959,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "中止(&A)"
 
-#: khtml/ecma/kjs_window.cpp:1566 khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_window.cpp:1567 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
 
-#: khtml/ecma/kjs_window.cpp:1569
+#: khtml/ecma/kjs_window.cpp:1570
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10969,7 +10971,7 @@ msgstr ""
 "此網站試圖使用 Javascript 開啟一個新的瀏覽器視窗。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1572
+#: khtml/ecma/kjs_window.cpp:1573
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10978,45 +10980,45 @@ msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
 msgid "Allow"
 msgstr "允許"
 
-#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
 msgid "Do Not Allow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_window.cpp:1866
+#: khtml/ecma/kjs_window.cpp:1867
 msgid "Close window?"
 msgstr "關閉視窗？"
 
-#: khtml/ecma/kjs_window.cpp:1866
+#: khtml/ecma/kjs_window.cpp:1867
 msgid "Confirmation Required"
 msgstr "需要確認"
 
-#: khtml/ecma/kjs_window.cpp:2816
+#: khtml/ecma/kjs_window.cpp:2817
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "你要把 \"%1\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2819
+#: khtml/ecma/kjs_window.cpp:2820
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "你要把 \"%1\"，標題 \"%2\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2827
+#: khtml/ecma/kjs_window.cpp:2828
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "javaScript 嘗試加入書籤"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2832
 msgid "Insert"
 msgstr "插入"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2832
 msgid "Disallow"
 msgstr "不允許"
 
@@ -11039,41 +11041,41 @@ msgstr ""
 "<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>%"
 "1</p>你要批准提交表格嗎？</qt>"
 
-#: khtml/ecma/debugger/scriptsdock.cpp:37
+#: khtml/ecma/debugger/scriptsdock.cpp:38
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "語文(&I)"
 
-#: khtml/ecma/debugger/execstatemodel.cpp:238
+#: khtml/ecma/debugger/execstatemodel.cpp:240
 #, fuzzy
 #| msgid "Reference error"
 msgid "Reference"
 msgstr "參考錯誤"
 
-#: khtml/ecma/debugger/execstatemodel.cpp:240
+#: khtml/ecma/debugger/execstatemodel.cpp:242
 #, fuzzy
 #| msgid "Type"
 msgid "Type"
 msgstr "類型"
 
-#: khtml/ecma/debugger/localvariabledock.cpp:41
+#: khtml/ecma/debugger/localvariabledock.cpp:43
 msgid "Local Variables"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:124
+#: khtml/ecma/debugger/debugwindow.cpp:119
 msgid ""
 "A KDE text-editor component could not be found;\n"
 "please check your KDE installation."
 msgstr ""
 
+#: khtml/ecma/debugger/debugwindow.cpp:171
 #: khtml/ecma/debugger/debugwindow.cpp:172
-#: khtml/ecma/debugger/debugwindow.cpp:173
 #, fuzzy
 msgid "Continue script execution"
 msgstr "繼續作業"
 
+#: khtml/ecma/debugger/debugwindow.cpp:178
 #: khtml/ecma/debugger/debugwindow.cpp:179
-#: khtml/ecma/debugger/debugwindow.cpp:180
 msgid "Stop script execution"
 msgstr ""
 
@@ -11109,35 +11111,35 @@ msgstr "關閉文件"
 msgid "Ready"
 msgstr "重新載入"
 
-#: khtml/ecma/debugger/breakpointsdock.cpp:28
+#: khtml/ecma/debugger/breakpointsdock.cpp:30
 msgid "Breakpoints"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:31
+#: khtml/ecma/debugger/consoledock.cpp:33
 #, fuzzy
 #| msgid "Close"
 msgid "Console"
 msgstr "關閉"
 
-#: khtml/ecma/debugger/consoledock.cpp:39
+#: khtml/ecma/debugger/consoledock.cpp:41
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Enter"
 msgid "Enter"
 msgstr "Enter"
 
-#: khtml/ecma/debugger/callstackdock.cpp:33
+#: khtml/ecma/debugger/callstackdock.cpp:36
 #, fuzzy
 #| msgid "Call stack"
 msgid "Call Stack"
 msgstr "呼叫堆疊"
 
-#: khtml/ecma/debugger/callstackdock.cpp:37
+#: khtml/ecma/debugger/callstackdock.cpp:40
 #, fuzzy
 msgid "Call"
 msgstr "安裝"
 
-#: khtml/ecma/debugger/callstackdock.cpp:37
+#: khtml/ecma/debugger/callstackdock.cpp:40
 #, fuzzy
 #| msgid "Line up"
 msgid "Line"
