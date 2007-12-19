@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser 1.29\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-18 06:18+0100\n"
+"POT-Creation-Date: 2007-12-19 06:22+0100\n"
 "PO-Revision-Date: 2006-01-20 00:07+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 0.9.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ku_adduser.cpp:46
+#: ku_adduser.cpp:47
 msgid "New Account Options"
 msgstr "新帳號選項"
 
@@ -26,25 +26,25 @@ msgstr "新帳號選項"
 #. i18n: file ku_generalsettings.ui line 130
 #. i18n: tag label
 #. i18n: file kuser.kcfg line 55
-#: ku_adduser.cpp:52 rc.cpp:45 rc.cpp:238
+#: ku_adduser.cpp:53 rc.cpp:45 rc.cpp:238
 msgid "Create home folder"
 msgstr "建立家資料夾"
 
-#: ku_adduser.cpp:55
+#: ku_adduser.cpp:56
 msgid "Copy skeleton"
 msgstr "複製檔案架構（skeleton）"
 
-#: ku_adduser.cpp:71
+#: ku_adduser.cpp:72
 #, kde-format
 msgid "User with UID %1 already exists."
 msgstr "已有用戶使用 UID %1 。"
 
-#: ku_adduser.cpp:78
+#: ku_adduser.cpp:79
 #, kde-format
 msgid "User with RID %1 already exists."
 msgstr "已有用戶使用 RID %1 。"
 
-#: ku_adduser.cpp:120
+#: ku_adduser.cpp:121
 #, fuzzy, kde-format
 msgid ""
 "Folder %1 already exists.\n"
@@ -55,204 +55,204 @@ msgstr ""
 "%2 可能成為擁有者而權限可能變更。\n"
 "真的要使用 %3 嗎？"
 
-#: ku_adduser.cpp:127
+#: ku_adduser.cpp:128
 #, kde-format
 msgid "%1 is not a folder."
 msgstr "%1 不是資料夾。"
 
-#: ku_adduser.cpp:129 ku_adduser.cpp:156
+#: ku_adduser.cpp:130 ku_adduser.cpp:157
 #, kde-format
 msgid "stat() failed on %1."
 msgstr "stat() 在 %1 上失敗。"
 
-#: ku_adduser.cpp:149
+#: ku_adduser.cpp:150
 #, kde-format
 msgid "Mailbox %1 already exists (uid=%2)."
 msgstr "已有 %1 這個郵箱 (uid=%2)。"
 
-#: ku_adduser.cpp:153
+#: ku_adduser.cpp:154
 #, kde-format
 msgid "%1 exists but is not a regular file."
 msgstr "已有 %1 ，但它不是一般的檔案。"
 
-#: ku_configdlg.cpp:54 ku_edituser.cpp:152
+#: ku_configdlg.cpp:55 ku_edituser.cpp:153
 msgid "<Empty>"
 msgstr "<空的>"
 
-#: ku_configdlg.cpp:56 ku_configdlg.cpp:92
+#: ku_configdlg.cpp:57 ku_configdlg.cpp:93
 msgid "Connection"
 msgstr "連線"
 
-#: ku_configdlg.cpp:62
+#: ku_configdlg.cpp:63
 msgid "Password Policy"
 msgstr "密碼政策"
 
-#: ku_configdlg.cpp:64
+#: ku_configdlg.cpp:65
 msgid "General"
 msgstr "一般"
 
-#: ku_configdlg.cpp:64
+#: ku_configdlg.cpp:65
 msgid "General Settings"
 msgstr "一般設置"
 
 #. i18n: tag string
 #. i18n: file ku_generalsettings.ui line 44
-#: ku_configdlg.cpp:70 rc.cpp:24
+#: ku_configdlg.cpp:71 rc.cpp:24
 msgid "Files"
 msgstr ""
 
-#: ku_configdlg.cpp:70
+#: ku_configdlg.cpp:71
 msgid "File Source Settings"
 msgstr "檔案來源設置"
 
-#: ku_configdlg.cpp:98
+#: ku_configdlg.cpp:99
 msgid "Settings"
 msgstr "設置"
 
 #. i18n: tag string
 #. i18n: file ku_ldapsamba.ui line 24
-#: ku_configdlg.cpp:105 ku_edituser.cpp:270 rc.cpp:57
+#: ku_configdlg.cpp:106 ku_edituser.cpp:271 rc.cpp:57
 msgid "Samba"
 msgstr "Samba"
 
 #. i18n: tag string
 #. i18n: file ku_generalsettings.ui line 49
-#: ku_configdlg.cpp:107 rc.cpp:27
+#: ku_configdlg.cpp:108 rc.cpp:27
 msgid "LDAP"
 msgstr "LDAP"
 
-#: ku_configdlg.cpp:107
+#: ku_configdlg.cpp:108
 msgid "LDAP Source Settings"
 msgstr "LDAP 來源設置"
 
-#: ku_deluser.cpp:33
+#: ku_deluser.cpp:34
 msgid "Delete User"
 msgstr "刪除用戶"
 
-#: ku_deluser.cpp:38
+#: ku_deluser.cpp:39
 #, fuzzy, kde-format
 #| msgid "<p>Deleting user <b>%1</b><p>Also perform the following actions:"
 msgid "<p>Deleting user <b>%1</b><br />Also perform the following actions:</p>"
 msgstr "<p>正在刪除 <b>%1</b> 用戶<p>同時進行以下行動："
 
-#: ku_deluser.cpp:41
+#: ku_deluser.cpp:42
 #, kde-format
 msgid "Delete &home folder: %1"
 msgstr "刪除家資料夾(&H): %1"
 
-#: ku_deluser.cpp:43
+#: ku_deluser.cpp:44
 #, kde-format
 msgid "Delete &mailbox: %1"
 msgstr "刪除郵箱(&M): %1"
 
-#: ku_editgroup.cpp:37
+#: ku_editgroup.cpp:38
 msgid "Group Properties"
 msgstr "群組屬性"
 
-#: ku_editgroup.cpp:48
+#: ku_editgroup.cpp:49
 msgid "Domain Admins"
 msgstr "網域管理員"
 
-#: ku_editgroup.cpp:48
+#: ku_editgroup.cpp:49
 msgid "Admins"
 msgstr "管理員"
 
-#: ku_editgroup.cpp:49
+#: ku_editgroup.cpp:50
 msgid "Domain Users"
 msgstr "網域用戶"
 
-#: ku_editgroup.cpp:49 ku_mainview.cpp:61
+#: ku_editgroup.cpp:50 ku_mainview.cpp:62
 msgid "Users"
 msgstr "用戶"
 
-#: ku_editgroup.cpp:50
+#: ku_editgroup.cpp:51
 msgid "Domain Guests"
 msgstr "網域來賓"
 
-#: ku_editgroup.cpp:50
+#: ku_editgroup.cpp:51
 msgid "Guests"
 msgstr "來賓"
 
-#: ku_editgroup.cpp:61
+#: ku_editgroup.cpp:62
 msgid "Group number:"
 msgstr "群組號碼:"
 
-#: ku_editgroup.cpp:76
+#: ku_editgroup.cpp:77
 msgid "Group rid:"
 msgstr "群組 rid:"
 
-#: ku_editgroup.cpp:94
+#: ku_editgroup.cpp:95
 msgid "Group name:"
 msgstr "群組名稱:"
 
-#: ku_editgroup.cpp:108
+#: ku_editgroup.cpp:109
 msgid "Description:"
 msgstr "說明:"
 
-#: ku_editgroup.cpp:117
+#: ku_editgroup.cpp:118
 msgid "Display name:"
 msgstr "顯示名稱:"
 
-#: ku_editgroup.cpp:126
+#: ku_editgroup.cpp:127
 msgid "Type:"
 msgstr "類型:"
 
-#: ku_editgroup.cpp:128 ku_groupmodel.cpp:75
+#: ku_editgroup.cpp:129 ku_groupmodel.cpp:75
 msgid "Domain"
 msgstr "網域"
 
-#: ku_editgroup.cpp:129 ku_groupmodel.cpp:76
+#: ku_editgroup.cpp:130 ku_groupmodel.cpp:76
 msgid "Local"
 msgstr "本地端"
 
-#: ku_editgroup.cpp:130 ku_groupmodel.cpp:77
+#: ku_editgroup.cpp:131 ku_groupmodel.cpp:77
 msgid "Builtin"
 msgstr "內置"
 
-#: ku_editgroup.cpp:147 ku_edituser.cpp:312
+#: ku_editgroup.cpp:148 ku_edituser.cpp:313
 msgid "Domain SID:"
 msgstr "網域 SID:"
 
-#: ku_editgroup.cpp:155
+#: ku_editgroup.cpp:156
 msgid "Disable Samba group information"
 msgstr "停用 Samba 群組資訊"
 
-#: ku_editgroup.cpp:169
+#: ku_editgroup.cpp:170
 msgid "Users in Group"
 msgstr "用戶在此群組中"
 
-#: ku_editgroup.cpp:176
+#: ku_editgroup.cpp:177
 msgid "Add <-"
 msgstr "新增 <-"
 
-#: ku_editgroup.cpp:177
+#: ku_editgroup.cpp:178
 msgid "Remove ->"
 msgstr "移除 ->"
 
-#: ku_editgroup.cpp:189
+#: ku_editgroup.cpp:190
 msgid "Users NOT in Group"
 msgstr "用戶*不在*此群組中"
 
-#: ku_editgroup.cpp:279
+#: ku_editgroup.cpp:280
 msgid "You need to type a group name."
 msgstr "你需要鍵入群組名稱。"
 
-#: ku_editgroup.cpp:287
+#: ku_editgroup.cpp:288
 #, kde-format
 msgid "Group with name %1 already exists."
 msgstr "已有 %1 這個群組。"
 
-#: ku_editgroup.cpp:294
+#: ku_editgroup.cpp:295
 #, kde-format
 msgid "Group with SID %1 already exists."
 msgstr "已有群組使用 SID %1 。"
 
-#: ku_editgroup.cpp:299
+#: ku_editgroup.cpp:300
 #, kde-format
 msgid "Group with gid %1 already exists."
 msgstr "已有群組使用 gid %1 。"
 
-#: ku_edituser.cpp:60 ku_edituser.cpp:91
+#: ku_edituser.cpp:61 ku_edituser.cpp:92
 msgid "Do not change"
 msgstr "不更改"
 
@@ -264,7 +264,7 @@ msgstr "不更改"
 #. i18n: file ku_passwordpolicy.ui line 128
 #. i18n: tag string
 #. i18n: file ku_passwordpolicy.ui line 144
-#: ku_edituser.cpp:76 rc.cpp:174 rc.cpp:180 rc.cpp:189 rc.cpp:192
+#: ku_edituser.cpp:77 rc.cpp:174 rc.cpp:180 rc.cpp:189 rc.cpp:192
 msgid " days"
 msgstr " 天"
 
@@ -276,203 +276,203 @@ msgstr " 天"
 #. i18n: file ku_passwordpolicy.ui line 125
 #. i18n: tag string
 #. i18n: file ku_passwordpolicy.ui line 174
-#: ku_edituser.cpp:81 ku_edituser.cpp:259 rc.cpp:171 rc.cpp:177 rc.cpp:186
+#: ku_edituser.cpp:82 ku_edituser.cpp:260 rc.cpp:171 rc.cpp:177 rc.cpp:186
 #: rc.cpp:198
 msgid "Never"
 msgstr "永不"
 
-#: ku_edituser.cpp:108
+#: ku_edituser.cpp:109
 msgid "User Info"
 msgstr "用戶資訊"
 
-#: ku_edituser.cpp:117
+#: ku_edituser.cpp:118
 msgid "User login:"
 msgstr "用戶登入："
 
-#: ku_edituser.cpp:122
+#: ku_edituser.cpp:123
 msgid "&User ID:"
 msgstr "用戶 ID (&U):"
 
-#: ku_edituser.cpp:126
+#: ku_edituser.cpp:127
 msgid "Set &Password..."
 msgstr "設定密碼(&P)..."
 
-#: ku_edituser.cpp:134
+#: ku_edituser.cpp:135
 msgid "Full &name:"
 msgstr "全名(&N):"
 
-#: ku_edituser.cpp:141
+#: ku_edituser.cpp:142
 msgid "Surname:"
 msgstr "姓氏:"
 
-#: ku_edituser.cpp:146
+#: ku_edituser.cpp:147
 msgid "Email address:"
 msgstr "電郵地址:"
 
-#: ku_edituser.cpp:160
+#: ku_edituser.cpp:161
 msgid "&Login shell:"
 msgstr "登入 Shell (&L):"
 
-#: ku_edituser.cpp:165
+#: ku_edituser.cpp:166
 msgid "&Home folder:"
 msgstr "家資料夾(&H):"
 
-#: ku_edituser.cpp:173
+#: ku_edituser.cpp:174
 msgid "&Office:"
 msgstr "辦公室(&O):"
 
-#: ku_edituser.cpp:178
+#: ku_edituser.cpp:179
 msgid "Offi&ce Phone:"
 msgstr "辦公室電話(&C):"
 
-#: ku_edituser.cpp:183
+#: ku_edituser.cpp:184
 msgid "Ho&me Phone:"
 msgstr "住家電話(&M):"
 
-#: ku_edituser.cpp:188
+#: ku_edituser.cpp:189
 msgid "Login class:"
 msgstr "登入類別:"
 
-#: ku_edituser.cpp:193
+#: ku_edituser.cpp:194
 msgid "&Office #1:"
 msgstr "辦公室 #1 (&O):"
 
-#: ku_edituser.cpp:198
+#: ku_edituser.cpp:199
 msgid "O&ffice #2:"
 msgstr "辦公室 #2 (&F):"
 
-#: ku_edituser.cpp:203
+#: ku_edituser.cpp:204
 msgid "&Address:"
 msgstr "地址(&A):"
 
-#: ku_edituser.cpp:207
+#: ku_edituser.cpp:208
 msgid "Account &disabled"
 msgstr "帳號已停用(&D)"
 
-#: ku_edituser.cpp:213
+#: ku_edituser.cpp:214
 msgid "Disable &POSIX account information"
 msgstr "停用 &POSIX 帳號資訊"
 
-#: ku_edituser.cpp:226
+#: ku_edituser.cpp:227
 msgid "Password Management"
 msgstr "密碼管理"
 
-#: ku_edituser.cpp:232
+#: ku_edituser.cpp:233
 msgid "Last password change:"
 msgstr "最後密碼變更:"
 
-#: ku_edituser.cpp:238
+#: ku_edituser.cpp:239
 msgid "POSIX parameters:"
 msgstr ""
 
-#: ku_edituser.cpp:239
+#: ku_edituser.cpp:240
 msgid "Time before password may &not be changed after last password change:"
 msgstr "自最後一次密碼變更後多久不可再變更密碼(&N):"
 
-#: ku_edituser.cpp:240
+#: ku_edituser.cpp:241
 msgid "Time when password &expires after last password change:"
 msgstr "自最後一次密碼變更後多久密碼會到期(&E):"
 
-#: ku_edituser.cpp:241
+#: ku_edituser.cpp:242
 msgid "Time before password expires to &issue an expire warning:"
 msgstr "密碼逾期前多久要發出到期警告(&I):"
 
-#: ku_edituser.cpp:242
+#: ku_edituser.cpp:243
 msgid "Time when account will be &disabled after expiration of password:"
 msgstr "密碼到期後多久帳號會被停用(&D):"
 
-#: ku_edituser.cpp:253
+#: ku_edituser.cpp:254
 msgid "&Account will expire on:"
 msgstr "帳號將於此時間到期(&A):"
 
-#: ku_edituser.cpp:277
+#: ku_edituser.cpp:278
 msgid "RID:"
 msgstr "RID:"
 
-#: ku_edituser.cpp:282
+#: ku_edituser.cpp:283
 msgid "Login script:"
 msgstr "登入程序檔:"
 
-#: ku_edituser.cpp:287
+#: ku_edituser.cpp:288
 msgid "Profile path:"
 msgstr "Profile 路徑:"
 
 #. i18n: tag string
 #. i18n: file ku_ldapsamba.ui line 77
-#: ku_edituser.cpp:292 rc.cpp:66
+#: ku_edituser.cpp:293 rc.cpp:66
 msgid "Home drive:"
 msgstr "家磁碟機:"
 
-#: ku_edituser.cpp:297
+#: ku_edituser.cpp:298
 msgid "Home path:"
 msgstr "家路徑:"
 
-#: ku_edituser.cpp:302
+#: ku_edituser.cpp:303
 msgid "User workstations:"
 msgstr "用戶工作站:"
 
 #. i18n: tag string
 #. i18n: file ku_ldapsamba.ui line 160
-#: ku_edituser.cpp:307 rc.cpp:78
+#: ku_edituser.cpp:308 rc.cpp:78
 msgid "Domain name:"
 msgstr "網域名稱:"
 
-#: ku_edituser.cpp:318
+#: ku_edituser.cpp:319
 msgid "Disable &Samba account information"
 msgstr "停用 &Samba 帳號資訊"
 
-#: ku_edituser.cpp:324 ku_mainview.cpp:69
+#: ku_edituser.cpp:325 ku_mainview.cpp:70
 msgid "Groups"
 msgstr "群組"
 
-#: ku_edituser.cpp:334 ku_edituser.cpp:663 ku_edituser.cpp:694
+#: ku_edituser.cpp:335 ku_edituser.cpp:664 ku_edituser.cpp:695
 msgid "Primary group: "
 msgstr "主要群組:"
 
-#: ku_edituser.cpp:337
+#: ku_edituser.cpp:338
 msgid "Set as Primary"
 msgstr "設為主要"
 
-#: ku_edituser.cpp:351 ku_edituser.cpp:374
+#: ku_edituser.cpp:352 ku_edituser.cpp:375
 msgid "User Properties"
 msgstr "用戶屬性"
 
-#: ku_edituser.cpp:357
+#: ku_edituser.cpp:358
 #, kde-format
 msgid "User Properties - %1 Selected Users"
 msgstr "用戶屬性 - %1 個已選取用戶"
 
-#: ku_edituser.cpp:530 ku_mainview.cpp:145
+#: ku_edituser.cpp:531 ku_mainview.cpp:146
 msgid "Do Not Change"
 msgstr "不更改"
 
-#: ku_edituser.cpp:909
+#: ku_edituser.cpp:910
 msgid "You need to specify an UID."
 msgstr "你要指定 UID 。"
 
-#: ku_edituser.cpp:914
+#: ku_edituser.cpp:915
 msgid "You must specify a home directory."
 msgstr "你必須指定家目錄。"
 
-#: ku_edituser.cpp:920
+#: ku_edituser.cpp:921
 msgid "You must fill the surname field."
 msgstr "你必須填入「姓氏」一欄。"
 
-#: ku_edituser.cpp:927
+#: ku_edituser.cpp:928
 msgid "You need to specify a samba RID."
 msgstr "你要指定 samba RID 。"
 
-#: ku_edituser.cpp:972
+#: ku_edituser.cpp:973
 #, kde-format
 msgid "User with UID %1 already exists"
 msgstr "已有用戶使用 UID %1"
 
-#: ku_edituser.cpp:982
+#: ku_edituser.cpp:983
 #, kde-format
 msgid "User with RID %1 already exists"
 msgstr "已有用戶使用 RID %1"
 
-#: ku_edituser.cpp:996
+#: ku_edituser.cpp:997
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The shell %1 is not yet listed in the file %2. In order to use this "
@@ -484,23 +484,23 @@ msgstr ""
 "<p>shell %1 尚未列於 %2 檔案中。要使用這個 shell ，你必須先將它加入到這個檔"
 "案。<p>您要現在加入它嗎？"
 
-#: ku_edituser.cpp:1000
+#: ku_edituser.cpp:1001
 msgid "Unlisted Shell"
 msgstr "未列出的 Shell"
 
-#: ku_edituser.cpp:1001
+#: ku_edituser.cpp:1002
 msgid "&Add Shell"
 msgstr "新增 Shell (&A)"
 
-#: ku_edituser.cpp:1002
+#: ku_edituser.cpp:1003
 msgid "Do &Not Add"
 msgstr "不要加入(&N)"
 
-#: ku_groupfiles.cpp:74
+#: ku_groupfiles.cpp:75
 msgid "Groups file name not set, please check 'Settings/Files'"
 msgstr ""
 
-#: ku_groupfiles.cpp:82
+#: ku_groupfiles.cpp:83
 #, fuzzy, kde-format
 msgid ""
 "stat() call on file %1 failed: %2\n"
@@ -509,13 +509,13 @@ msgstr ""
 "呼叫檔案 %1 的狀態失敗: %2\n"
 "請檢查 KUser 設置。"
 
-#: ku_groupfiles.cpp:96 ku_userfiles.cpp:194
+#: ku_groupfiles.cpp:97 ku_userfiles.cpp:195
 #, kde-format
 msgid "Error opening %1 for reading."
 msgstr "開啟 %1 以讀取時發生錯誤。"
 
-#: ku_groupfiles.cpp:172 ku_groupfiles.cpp:179 ku_userfiles.cpp:293
-#: ku_userfiles.cpp:300
+#: ku_groupfiles.cpp:173 ku_groupfiles.cpp:180 ku_userfiles.cpp:294
+#: ku_userfiles.cpp:301
 #, kde-format
 msgid "Error opening %1 for writing."
 msgstr "開啟 %1 以寫入時發生錯誤。"
@@ -560,62 +560,62 @@ msgstr "說明"
 msgid "Unknown"
 msgstr "未知"
 
-#: ku_main.cpp:36
+#: ku_main.cpp:37
 msgid "KDE User Editor"
 msgstr "KDE 用戶編輯器"
 
-#: ku_main.cpp:43
+#: ku_main.cpp:44
 msgid "KUser"
 msgstr "KUser"
 
-#: ku_main.cpp:45
+#: ku_main.cpp:46
 msgid ""
 "(c) 1997-2000, Denis Perchine\n"
 "(c) 2004, Szombathelyi György"
 msgstr ""
 
-#: ku_main.cpp:46
+#: ku_main.cpp:47
 msgid "Denis Perchine"
 msgstr ""
 
-#: ku_main.cpp:46 ku_main.cpp:48
+#: ku_main.cpp:47 ku_main.cpp:49
 msgid "kuser author"
 msgstr "kuser 作者"
 
-#: ku_main.cpp:48
+#: ku_main.cpp:49
 msgid "Szombathelyi György"
 msgstr ""
 
-#: ku_main.cpp:63
+#: ku_main.cpp:64
 msgid "KDE User Manager"
 msgstr "KDE 用戶管理員"
 
-#: ku_mainview.cpp:144
+#: ku_mainview.cpp:145
 #, kde-format
 msgid ""
 "You have selected %1 users. Do you really want to change the password for "
 "all the selected users?"
 msgstr "你已選取 %1 個用戶。你真的要更改所有已選取用戶的密碼嗎？"
 
-#: ku_mainview.cpp:145
+#: ku_mainview.cpp:146
 #, fuzzy
 msgid "Change"
 msgstr "不更改"
 
-#: ku_mainview.cpp:186
+#: ku_mainview.cpp:187
 msgid "You have run out of uid space."
 msgstr "您已經用完 uid 的可用空間。"
 
-#: ku_mainview.cpp:198
+#: ku_mainview.cpp:199
 msgid "Please type the name of the new user:"
 msgstr "請輸入新用戶的名稱:"
 
-#: ku_mainview.cpp:204
+#: ku_mainview.cpp:205
 #, kde-format
 msgid "User with name %1 already exists."
 msgstr "已有名為 %1 的用戶。"
 
-#: ku_mainview.cpp:357
+#: ku_mainview.cpp:358
 #, kde-format
 msgid ""
 "You are using private groups.\n"
@@ -624,79 +624,79 @@ msgstr ""
 "您正在使用私人群組。\n"
 "要刪除用戶的私人群組『%1』嗎？"
 
-#: ku_mainview.cpp:360
+#: ku_mainview.cpp:361
 msgid "Do Not Delete"
 msgstr "不刪除"
 
-#: ku_mainview.cpp:378
+#: ku_mainview.cpp:379
 msgid "You have run out of gid space."
 msgstr "您已經用完 gid 的可用空間。"
 
-#: ku_mainview.cpp:455
+#: ku_mainview.cpp:456
 #, kde-format
 msgid ""
 "The group '%1' is the primary group of one or more users (such as '%2'); it "
 "cannot be deleted."
 msgstr "『%1』群組是一或多個用戶（例如『%2』）的主要群組；不能刪除它。"
 
-#: ku_mainview.cpp:464
+#: ku_mainview.cpp:465
 #, kde-format
 msgid "Do you really want to delete the group '%1'?"
 msgstr "你真的要刪除『%1』群組嗎？"
 
-#: ku_mainview.cpp:468
+#: ku_mainview.cpp:469
 #, kde-format
 msgid "Do you really want to delete the %1 selected groups?"
 msgstr "你真的要刪除 %1 個已選取的群組嗎？"
 
-#: ku_mainwidget.cpp:50
+#: ku_mainwidget.cpp:51
 msgid "Reading configuration"
 msgstr "正在讀取設定"
 
-#: ku_mainwidget.cpp:56
+#: ku_mainwidget.cpp:57
 msgid "Ready"
 msgstr "就緒"
 
-#: ku_mainwidget.cpp:77 ku_mainwidget.cpp:93
+#: ku_mainwidget.cpp:78 ku_mainwidget.cpp:94
 msgid "&Add..."
 msgstr "加增(&A)..."
 
-#: ku_mainwidget.cpp:81 ku_mainwidget.cpp:97
+#: ku_mainwidget.cpp:82 ku_mainwidget.cpp:98
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: ku_mainwidget.cpp:85 ku_mainwidget.cpp:101
+#: ku_mainwidget.cpp:86 ku_mainwidget.cpp:102
 msgid "&Delete..."
 msgstr "刪除(&D)..."
 
-#: ku_mainwidget.cpp:89
+#: ku_mainwidget.cpp:90
 msgid "&Set Password..."
 msgstr "設定密碼(&S)..."
 
-#: ku_mainwidget.cpp:105
+#: ku_mainwidget.cpp:106
 #, fuzzy
 msgid "&Reload..."
 msgstr "刪除(&D)..."
 
-#: ku_mainwidget.cpp:109
+#: ku_mainwidget.cpp:110
 msgid "&Select Connection..."
 msgstr "選取連線(&S)..."
 
-#: ku_mainwidget.cpp:113
+#: ku_mainwidget.cpp:114
 msgid "Show System Users/Groups"
 msgstr "顯示系統用戶/群組"
 
-#: ku_mainwidget.cpp:117
+#: ku_mainwidget.cpp:118
 msgid "Hide System Users/Groups"
 msgstr "隱藏系統用戶/群組"
 
-#: ku_misc.cpp:54
+#: ku_misc.cpp:55
 #, fuzzy, kde-format
 #| msgid "Can't create backup file for %1"
 msgid "Can not create backup file for %1"
 msgstr "無法為 %1 建立備份檔案"
 
-#: ku_misc.cpp:104
+#: ku_misc.cpp:105
 #, kde-format
 msgid ""
 "Error creating symlink %1.\n"
@@ -705,7 +705,7 @@ msgstr ""
 "建立符號連結 %1 時發生錯誤。\n"
 "錯誤： %2"
 
-#: ku_misc.cpp:114
+#: ku_misc.cpp:115
 #, kde-format
 msgid ""
 "Cannot change owner of folder %1.\n"
@@ -714,7 +714,7 @@ msgstr ""
 "無法改變資料夾 %1 之擁有者。\n"
 "錯誤： %2"
 
-#: ku_misc.cpp:119
+#: ku_misc.cpp:120
 #, kde-format
 msgid ""
 "Cannot change permissions on folder %1.\n"
@@ -723,7 +723,7 @@ msgstr ""
 "無法改變資料夾 %1 之權限。\n"
 "錯誤： %2"
 
-#: ku_misc.cpp:129
+#: ku_misc.cpp:130
 #, kde-format
 msgid ""
 "Cannot change owner of file %1.\n"
@@ -732,7 +732,7 @@ msgstr ""
 "無法改變檔案 %1 之擁有者。\n"
 "錯誤： %2"
 
-#: ku_misc.cpp:134
+#: ku_misc.cpp:135
 #, kde-format
 msgid ""
 "Cannot change permissions on file %1.\n"
@@ -741,34 +741,34 @@ msgstr ""
 "無法改變檔案 %1 之權限。\n"
 "錯誤： %2"
 
-#: ku_misc.cpp:153
+#: ku_misc.cpp:154
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "沒有 %1 這個檔案。"
 
-#: ku_misc.cpp:158
+#: ku_misc.cpp:159
 #, kde-format
 msgid "Cannot open file %1 for reading."
 msgstr "無法開啟要讀取的檔案 %1 。"
 
-#: ku_misc.cpp:163
+#: ku_misc.cpp:164
 #, kde-format
 msgid "Cannot open file %1 for writing."
 msgstr "無法開啟要寫入的檔案 %1 。"
 
-#: ku_pwdlg.cpp:32
+#: ku_pwdlg.cpp:33
 msgid "Enter Password"
 msgstr "輸入密碼"
 
-#: ku_pwdlg.cpp:38
+#: ku_pwdlg.cpp:39
 msgid "Password:"
 msgstr "密碼:"
 
-#: ku_pwdlg.cpp:54
+#: ku_pwdlg.cpp:55
 msgid "Verify:"
 msgstr "驗證:"
 
-#: ku_pwdlg.cpp:85
+#: ku_pwdlg.cpp:86
 msgid ""
 "Passwords are not identical.\n"
 "Try again."
@@ -973,7 +973,7 @@ msgstr ""
 "無法移除郵箱 %1 。\n"
 "錯誤： %2"
 
-#: ku_userfiles.cpp:102
+#: ku_userfiles.cpp:103
 #, fuzzy
 msgid ""
 "KUser sources were not configured.\n"
@@ -983,7 +983,7 @@ msgstr ""
 "本地端密碼來源設定為 %1\n"
 "本地端群組來源設定為 %2 。"
 
-#: ku_userfiles.cpp:110
+#: ku_userfiles.cpp:111
 #, kde-format
 msgid ""
 "Stat call on file %1 failed: %2\n"
@@ -992,12 +992,12 @@ msgstr ""
 "呼叫檔案 %1 狀態失敗： %2\n"
 "請檢查 KUser 設置。"
 
-#: ku_userfiles.cpp:124
+#: ku_userfiles.cpp:125
 #, fuzzy, kde-format
 msgid "Error opening %1 for reading.\n"
 msgstr "開啟 %1 以讀取時發生錯誤。"
 
-#: ku_userfiles.cpp:206
+#: ku_userfiles.cpp:207
 #, kde-format
 msgid ""
 "No /etc/passwd entry for %1.\n"
@@ -1006,7 +1006,7 @@ msgstr ""
 "沒有 %1 的 /etc/passwd 項目。\n"
 "下一個『儲存』動作將移除項目。"
 
-#: ku_userfiles.cpp:440
+#: ku_userfiles.cpp:441
 msgid "Unable to build password database."
 msgstr "無法建立密碼資料庫。"
 
