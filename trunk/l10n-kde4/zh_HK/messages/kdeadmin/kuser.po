@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser 1.29\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-19 06:22+0100\n"
+"POT-Creation-Date: 2007-12-20 06:14+0100\n"
 "PO-Revision-Date: 2006-01-20 00:07+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -161,7 +161,7 @@ msgstr "管理員"
 msgid "Domain Users"
 msgstr "網域用戶"
 
-#: ku_editgroup.cpp:50 ku_mainview.cpp:62
+#: ku_editgroup.cpp:50 ku_mainview.cpp:61
 msgid "Users"
 msgstr "用戶"
 
@@ -421,7 +421,7 @@ msgstr "網域名稱:"
 msgid "Disable &Samba account information"
 msgstr "停用 &Samba 帳號資訊"
 
-#: ku_edituser.cpp:325 ku_mainview.cpp:70
+#: ku_edituser.cpp:325 ku_mainview.cpp:69
 msgid "Groups"
 msgstr "群組"
 
@@ -442,7 +442,7 @@ msgstr "用戶屬性"
 msgid "User Properties - %1 Selected Users"
 msgstr "用戶屬性 - %1 個已選取用戶"
 
-#: ku_edituser.cpp:531 ku_mainview.cpp:146
+#: ku_edituser.cpp:531 ku_mainview.cpp:145
 msgid "Do Not Change"
 msgstr "不更改"
 
@@ -496,11 +496,11 @@ msgstr "新增 Shell (&A)"
 msgid "Do &Not Add"
 msgstr "不要加入(&N)"
 
-#: ku_groupfiles.cpp:75
+#: ku_groupfiles.cpp:74
 msgid "Groups file name not set, please check 'Settings/Files'"
 msgstr ""
 
-#: ku_groupfiles.cpp:83
+#: ku_groupfiles.cpp:82
 #, fuzzy, kde-format
 msgid ""
 "stat() call on file %1 failed: %2\n"
@@ -509,12 +509,12 @@ msgstr ""
 "呼叫檔案 %1 的狀態失敗: %2\n"
 "請檢查 KUser 設置。"
 
-#: ku_groupfiles.cpp:97 ku_userfiles.cpp:195
+#: ku_groupfiles.cpp:96 ku_userfiles.cpp:195
 #, kde-format
 msgid "Error opening %1 for reading."
 msgstr "開啟 %1 以讀取時發生錯誤。"
 
-#: ku_groupfiles.cpp:173 ku_groupfiles.cpp:180 ku_userfiles.cpp:294
+#: ku_groupfiles.cpp:172 ku_groupfiles.cpp:179 ku_userfiles.cpp:294
 #: ku_userfiles.cpp:301
 #, kde-format
 msgid "Error opening %1 for writing."
@@ -590,32 +590,32 @@ msgstr ""
 msgid "KDE User Manager"
 msgstr "KDE 用戶管理員"
 
-#: ku_mainview.cpp:145
+#: ku_mainview.cpp:144
 #, kde-format
 msgid ""
 "You have selected %1 users. Do you really want to change the password for "
 "all the selected users?"
 msgstr "你已選取 %1 個用戶。你真的要更改所有已選取用戶的密碼嗎？"
 
-#: ku_mainview.cpp:146
+#: ku_mainview.cpp:145
 #, fuzzy
 msgid "Change"
 msgstr "不更改"
 
-#: ku_mainview.cpp:187
+#: ku_mainview.cpp:186
 msgid "You have run out of uid space."
 msgstr "您已經用完 uid 的可用空間。"
 
-#: ku_mainview.cpp:199
+#: ku_mainview.cpp:198
 msgid "Please type the name of the new user:"
 msgstr "請輸入新用戶的名稱:"
 
-#: ku_mainview.cpp:205
+#: ku_mainview.cpp:204
 #, kde-format
 msgid "User with name %1 already exists."
 msgstr "已有名為 %1 的用戶。"
 
-#: ku_mainview.cpp:358
+#: ku_mainview.cpp:357
 #, kde-format
 msgid ""
 "You are using private groups.\n"
@@ -624,27 +624,27 @@ msgstr ""
 "您正在使用私人群組。\n"
 "要刪除用戶的私人群組『%1』嗎？"
 
-#: ku_mainview.cpp:361
+#: ku_mainview.cpp:360
 msgid "Do Not Delete"
 msgstr "不刪除"
 
-#: ku_mainview.cpp:379
+#: ku_mainview.cpp:378
 msgid "You have run out of gid space."
 msgstr "您已經用完 gid 的可用空間。"
 
-#: ku_mainview.cpp:456
+#: ku_mainview.cpp:455
 #, kde-format
 msgid ""
 "The group '%1' is the primary group of one or more users (such as '%2'); it "
 "cannot be deleted."
 msgstr "『%1』群組是一或多個用戶（例如『%2』）的主要群組；不能刪除它。"
 
-#: ku_mainview.cpp:465
+#: ku_mainview.cpp:464
 #, kde-format
 msgid "Do you really want to delete the group '%1'?"
 msgstr "你真的要刪除『%1』群組嗎？"
 
-#: ku_mainview.cpp:469
+#: ku_mainview.cpp:468
 #, kde-format
 msgid "Do you really want to delete the %1 selected groups?"
 msgstr "你真的要刪除 %1 個已選取的群組嗎？"
