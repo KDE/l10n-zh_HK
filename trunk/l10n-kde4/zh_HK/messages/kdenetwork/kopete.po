@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-03 06:20+0100\n"
+"POT-Creation-Date: 2008-01-09 07:18+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -183,13 +183,13 @@ msgstr "預設身份"
 #: plugins/statistics/statisticscontact.cpp:260
 #: plugins/statistics/statisticsdialog.cpp:354 protocols/qq/qqprotocol.cpp:35
 #: protocols/msn/msnprotocol.cpp:51 protocols/sms/smsprotocol.cpp:37
-#: protocols/gadu/gaduprotocol.cpp:84 protocols/gadu/gaduprotocol.cpp:88
+#: protocols/gadu/gaduprotocol.cpp:83 protocols/gadu/gaduprotocol.cpp:87
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:87
 #: protocols/yahoo/yahooprotocol.cpp:44
-#: protocols/meanwhile/meanwhileprotocol.cpp:41
+#: protocols/meanwhile/meanwhileprotocol.cpp:40
 #: protocols/jabber/jabbercontact.cpp:170
-#: protocols/jabber/jabberprotocol.cpp:69 protocols/winpopup/wpprotocol.cpp:54
+#: protocols/jabber/jabberprotocol.cpp:68 protocols/winpopup/wpprotocol.cpp:54
 #: protocols/winpopup/wpaccount.cpp:172 protocols/groupwise/gwprotocol.cpp:54
 msgid "Online"
 msgstr "上線"
@@ -199,16 +199,16 @@ msgstr "上線"
 #: plugins/statistics/statisticsdialog.cpp:359 protocols/qq/qqprotocol.cpp:37
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
-#: protocols/meanwhile/meanwhileprotocol.cpp:45
+#: protocols/meanwhile/meanwhileprotocol.cpp:44
 #: protocols/jabber/jabbercontact.cpp:172
-#: protocols/jabber/jabberprotocol.cpp:70 protocols/winpopup/wpprotocol.cpp:55
+#: protocols/jabber/jabberprotocol.cpp:69 protocols/winpopup/wpprotocol.cpp:55
 #: protocols/winpopup/wpaccount.cpp:178 protocols/groupwise/gwprotocol.cpp:58
 msgid "Away"
 msgstr "離開"
 
 #: libkopete/kopeteonlinestatus.cpp:116 protocols/msn/msnprotocol.cpp:86
-#: protocols/sms/smsprotocol.cpp:39 protocols/gadu/gaduprotocol.cpp:91
-#: protocols/yahoo/yahooprotocol.cpp:57 protocols/jabber/jabberprotocol.cpp:75
+#: protocols/sms/smsprotocol.cpp:39 protocols/gadu/gaduprotocol.cpp:90
+#: protocols/yahoo/yahooprotocol.cpp:57 protocols/jabber/jabberprotocol.cpp:74
 #: protocols/groupwise/gwprotocol.cpp:70
 msgid "Connecting"
 msgstr "正在連接"
@@ -222,12 +222,12 @@ msgstr "正在連接"
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 806
 #: libkopete/kopeteonlinestatus.cpp:119 rc.cpp:3477 rc.cpp:3846
-#: protocols/msn/msnprotocol.cpp:77 protocols/gadu/gaduprotocol.cpp:76
-#: protocols/gadu/gaduprotocol.cpp:81
+#: protocols/msn/msnprotocol.cpp:77 protocols/gadu/gaduprotocol.cpp:75
+#: protocols/gadu/gaduprotocol.cpp:80
 #: protocols/oscar/aim/aimstatusmanager.cpp:85
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/yahoo/yahooprotocol.cpp:54 protocols/jabber/jabbercontact.cpp:175
-#: protocols/jabber/jabberprotocol.cpp:74
+#: protocols/jabber/jabberprotocol.cpp:73
 #: protocols/telepathy/telepathyprotocol.cpp:51
 msgid "Invisible"
 msgstr "隱形"
@@ -237,12 +237,12 @@ msgstr "隱形"
 #: kopete/kopetewindow.cpp:318 plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:364 protocols/qq/qqprotocol.cpp:39
 #: protocols/msn/msnprotocol.cpp:73 protocols/sms/smsprotocol.cpp:38
-#: protocols/gadu/gaduprotocol.cpp:59 protocols/gadu/gaduprotocol.cpp:65
+#: protocols/gadu/gaduprotocol.cpp:58 protocols/gadu/gaduprotocol.cpp:64
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75
 #: protocols/yahoo/yahooprotocol.cpp:43
-#: protocols/meanwhile/meanwhileprotocol.cpp:36
-#: protocols/jabber/jabberprotocol.cpp:73 protocols/winpopup/wpprotocol.cpp:56
+#: protocols/meanwhile/meanwhileprotocol.cpp:35
+#: protocols/jabber/jabberprotocol.cpp:72 protocols/winpopup/wpprotocol.cpp:56
 #: protocols/telepathy/telepathyprotocol.cpp:55
 #: protocols/groupwise/gwprotocol.cpp:52
 msgid "Offline"
@@ -390,7 +390,7 @@ msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
 #: libkopete/kopeteprotocol.cpp:59
-#: protocols/meanwhile/meanwhileprotocol.cpp:59
+#: protocols/meanwhile/meanwhileprotocol.cpp:58
 msgid "Account Offline"
 msgstr "帳號離線"
 
@@ -647,9 +647,9 @@ msgstr ""
 msgid "Not Connected"
 msgstr "未連接"
 
-#: libkopete/kabcpersistence.cpp:380 protocols/oscar/aim/aimprotocol.cpp:158
+#: libkopete/kabcpersistence.cpp:380 protocols/oscar/aim/aimprotocol.cpp:156
 #: protocols/oscar/icq/icqprotocol.cpp:100
-#: protocols/jabber/jabberprotocol.cpp:389
+#: protocols/jabber/jabberprotocol.cpp:388
 msgid "Choose Account"
 msgstr "選擇帳號"
 
@@ -957,7 +957,7 @@ msgstr "移除聯絡人"
 #: kopete/contactlist/kopetecontactlistview.cpp:1662
 #: kopete/contactlist/kopetecontactlistview.cpp:1663 rc.cpp:1386 rc.cpp:1653
 #: rc.cpp:1674 rc.cpp:3471 rc.cpp:3483 rc.cpp:3624 rc.cpp:3840 rc.cpp:3849
-#: rc.cpp:3864 protocols/jabber/jabberprotocol.cpp:462
+#: rc.cpp:3864 protocols/jabber/jabberprotocol.cpp:461
 #, fuzzy
 msgid "Remove"
 msgstr "移除(&V)"
@@ -1109,7 +1109,7 @@ msgid "Last Seen"
 msgstr "上次上線"
 
 #: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:1005
-#: protocols/meanwhile/meanwhileprotocol.cpp:62
+#: protocols/meanwhile/meanwhileprotocol.cpp:61
 msgid "Status Message"
 msgstr "狀態訊息"
 
@@ -1198,8 +1198,8 @@ msgstr "<qt>安裝時發生錯誤。但表情符號主題集的部份內容可�
 #. i18n: tag string
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 43
 #: kopete/kopeteidentitystatusbaricon.cpp:43 kopete/kopetewindow.cpp:341
-#: rc.cpp:4186 protocols/gadu/gaduprotocol.cpp:84
-#: protocols/gadu/gaduprotocol.cpp:88
+#: rc.cpp:4186 protocols/gadu/gaduprotocol.cpp:83
+#: protocols/gadu/gaduprotocol.cpp:87
 msgid "&Online"
 msgstr "上線(&O)"
 
@@ -1294,9 +1294,9 @@ msgstr "加入聯絡人(&A)"
 #: kopete/contactlist/kopetecontactlistview.cpp:1551 rc.cpp:1383 rc.cpp:1659
 #: rc.cpp:1677 rc.cpp:3468 rc.cpp:3486 rc.cpp:3603 rc.cpp:3621 rc.cpp:3843
 #: rc.cpp:3852 rc.cpp:3867 rc.cpp:3981 rc.cpp:4159
-#: protocols/oscar/aim/aimprotocol.cpp:189
+#: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/icqprotocol.cpp:131
-#: protocols/jabber/jabberprotocol.cpp:445
+#: protocols/jabber/jabberprotocol.cpp:444
 #, fuzzy
 msgid "Add"
 msgstr "加入(&A)"
@@ -2402,9 +2402,9 @@ msgstr ""
 #: kopete/contactlist/kopetecontactlistview.cpp:1064
 #: kopete/contactlist/kopetecontactlistview.cpp:1080
 #: kopete/contactlist/kopetecontactlistview.cpp:1551
-#: protocols/oscar/aim/aimprotocol.cpp:189
+#: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/icqprotocol.cpp:131
-#: protocols/jabber/jabberprotocol.cpp:445
+#: protocols/jabber/jabberprotocol.cpp:444
 msgid "Do Not Add"
 msgstr "不要加入"
 
@@ -6610,7 +6610,7 @@ msgstr "取代清單"
 #. i18n: file ./plugins/autoreplace/autoreplaceprefs.ui line 127
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwcustomstatus.ui line 37
-#: rc.cpp:1611 rc.cpp:5306 plugins/alias/aliaspreferences.cpp:321
+#: rc.cpp:1611 rc.cpp:5306 plugins/alias/aliaspreferences.cpp:317
 #: protocols/oscar/oscarlistnonservercontacts.cpp:38
 msgid "&Add"
 msgstr "加入(&A)"
@@ -7084,7 +7084,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./protocols/qq/ui/qqvcard.ui line 511
-#: rc.cpp:1797 protocols/jabber/jabberprotocol.cpp:114
+#: rc.cpp:1797 protocols/jabber/jabberprotocol.cpp:113
 #, fuzzy
 msgid "About"
 msgstr "已中止"
@@ -9962,7 +9962,7 @@ msgstr "以以下的說明將狀態設為中斷。"
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 151
 #: rc.cpp:3059 protocols/qq/qqprotocol.cpp:39
-#: protocols/gadu/gaduprotocol.cpp:60
+#: protocols/gadu/gaduprotocol.cpp:59
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75
 #: protocols/groupwise/gwprotocol.cpp:52
@@ -11760,7 +11760,7 @@ msgstr "時區(&T):"
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/icq/ui/icqgeneralinfo.ui line 206
 #: rc.cpp:3954 protocols/yahoo/yahooprotocol.cpp:97
-#: protocols/jabber/jabberprotocol.cpp:93
+#: protocols/jabber/jabberprotocol.cpp:92
 msgid "Birthday"
 msgstr "生日"
 
@@ -11819,7 +11819,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui line 29
-#: rc.cpp:3984 plugins/alias/aliaspreferences.cpp:464
+#: rc.cpp:3984 plugins/alias/aliaspreferences.cpp:460
 #, fuzzy
 msgid "Delete"
 msgstr "刪除主機(&D)"
@@ -13359,7 +13359,7 @@ msgstr "刪除值勤項目"
 
 #. i18n: tag string
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 90
-#: rc.cpp:4946 protocols/jabber/jabberprotocol.cpp:87
+#: rc.cpp:4946 protocols/jabber/jabberprotocol.cpp:86
 msgid "Subscription"
 msgstr "訂閱"
 
@@ -14404,25 +14404,25 @@ msgid "Nothing to Send"
 msgstr "無有可傳的東西"
 
 #: plugins/nowlistening/nlquodlibet.cpp:66
-#: plugins/nowlistening/nowlisteningplugin.cpp:449
+#: plugins/nowlistening/nowlisteningplugin.cpp:450
 msgid "Unknown artist"
 msgstr "未知的歌手"
 
 #: plugins/nowlistening/nlquodlibet.cpp:67
-#: plugins/nowlistening/nowlisteningplugin.cpp:456
+#: plugins/nowlistening/nowlisteningplugin.cpp:457
 msgid "Unknown album"
 msgstr "未知的專輯"
 
 #: plugins/nowlistening/nlquodlibet.cpp:68
-#: plugins/nowlistening/nowlisteningplugin.cpp:440
+#: plugins/nowlistening/nowlisteningplugin.cpp:441
 msgid "Unknown track"
 msgstr "未知的音軌"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:135
+#: plugins/nowlistening/nowlisteningplugin.cpp:136
 msgid "USAGE: /media - Displays information on current song"
 msgstr "用法： /media - 顯示當前歌曲的資訊"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:174
+#: plugins/nowlistening/nowlisteningplugin.cpp:175
 msgctxt ""
 "Message from Kopete user to another user; used when sending media "
 "information even though there are no songs playing or no media players "
@@ -14433,7 +14433,7 @@ msgid ""
 msgstr ""
 "聽著 Kopete - 如我以支援的媒體播放器聆聽什麼的話，它會告訴你我在聽什麼。"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:463
+#: plugins/nowlistening/nowlisteningplugin.cpp:464
 msgid "Unknown player"
 msgstr "未知的播放程式"
 
@@ -14507,20 +14507,20 @@ msgstr ""
 msgid "Translate"
 msgstr "翻譯"
 
-#: plugins/alias/aliaspreferences.cpp:331
-#: plugins/alias/aliaspreferences.cpp:420
+#: plugins/alias/aliaspreferences.cpp:327
+#: plugins/alias/aliaspreferences.cpp:416
 #, kde-format
 msgid ""
 "<qt>Could not add alias <b>%1</b>. An alias name cannot contain the "
 "characters \"_\" or \"=\".</qt>"
 msgstr "<qt>無法新增別名 <b>%1</b>。別名名稱不能包含「_」或「=」字元。</qt>"
 
-#: plugins/alias/aliaspreferences.cpp:333
-#: plugins/alias/aliaspreferences.cpp:422
+#: plugins/alias/aliaspreferences.cpp:329
+#: plugins/alias/aliaspreferences.cpp:418
 msgid "Invalid Alias Name"
 msgstr "無效的別名"
 
-#: plugins/alias/aliaspreferences.cpp:349
+#: plugins/alias/aliaspreferences.cpp:345
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Could not add alias <b>%1</b>. This command is already being handled "
@@ -14531,12 +14531,12 @@ msgid ""
 msgstr ""
 "<qt>無法新增別名 <b>%1</b>。此指令正被另一別名或 Kopete 自己處理。</qt>"
 
-#: plugins/alias/aliaspreferences.cpp:351
-#: plugins/alias/aliaspreferences.cpp:447
+#: plugins/alias/aliaspreferences.cpp:347
+#: plugins/alias/aliaspreferences.cpp:443
 msgid "Could Not Add Alias"
 msgstr "無法新增別名"
 
-#: plugins/alias/aliaspreferences.cpp:445
+#: plugins/alias/aliaspreferences.cpp:441
 #, kde-format
 msgid ""
 "<qt>Could not add alias <b>%1</b>. This command is already being handled by "
@@ -14544,11 +14544,11 @@ msgid ""
 msgstr ""
 "<qt>無法新增別名 <b>%1</b>。此指令正被另一別名或 Kopete 自己處理。</qt>"
 
-#: plugins/alias/aliaspreferences.cpp:464
+#: plugins/alias/aliaspreferences.cpp:460
 msgid "Are you sure you want to delete the selected aliases?"
 msgstr "你確定要刪除選取的別名嗎？"
 
-#: plugins/alias/aliaspreferences.cpp:464
+#: plugins/alias/aliaspreferences.cpp:460
 msgid "Delete Aliases"
 msgstr "刪除別名"
 
@@ -14912,11 +14912,11 @@ msgstr "%1, %2 正 %3"
 msgid "View &Statistics"
 msgstr "檢視統計(&S)"
 
-#: plugins/autoreplace/autoreplacepreferences.cpp:47
+#: plugins/autoreplace/autoreplacepreferences.cpp:48
 msgid "Text"
 msgstr "文字"
 
-#: plugins/autoreplace/autoreplacepreferences.cpp:48
+#: plugins/autoreplace/autoreplacepreferences.cpp:49
 msgid "Replacement"
 msgstr "替代"
 
@@ -14925,43 +14925,43 @@ msgctxt "list_of_words_to_replace"
 msgid "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
 msgstr "ur,your,r,are,u,you,theres,there is,arent,are not,dont,do not"
 
-#: plugins/privacy/privacyplugin.cpp:50
+#: plugins/privacy/privacyplugin.cpp:51
 #: plugins/privacy/privacyguiclient.cpp:47
 #, fuzzy
 msgid "Add to WhiteList"
 msgstr "加入到你的聯絡人清單"
 
-#: plugins/privacy/privacyplugin.cpp:53
+#: plugins/privacy/privacyplugin.cpp:54
 #: plugins/privacy/privacyguiclient.cpp:50
 #, fuzzy
 msgid "Add to BlackList"
 msgstr "加入到你的聯絡人清單"
 
-#: plugins/privacy/privacyplugin.cpp:158
+#: plugins/privacy/privacyplugin.cpp:159
 #, kde-format
 msgid ""
 "A message from %1 was dropped, because this contact is not on your whitelist."
 msgstr ""
 
-#: plugins/privacy/privacyplugin.cpp:168
+#: plugins/privacy/privacyplugin.cpp:169
 #, kde-format
 msgid ""
 "A message from %1 was dropped, because this contact is on your blacklist."
 msgstr ""
 
-#: plugins/privacy/privacyplugin.cpp:178
+#: plugins/privacy/privacyplugin.cpp:179
 #, fuzzy, kde-format
 msgid ""
 "A message from %1 was dropped, because this contact is not on your contact "
 "list."
 msgstr "確定要從你的聯絡人清單刪除這些聯絡人嗎？"
 
-#: plugins/privacy/privacyplugin.cpp:195
+#: plugins/privacy/privacyplugin.cpp:196
 #, kde-format
 msgid "A message from %1 was dropped, because it contained a blacklisted word."
 msgstr ""
 
-#: plugins/privacy/privacyplugin.cpp:219
+#: plugins/privacy/privacyplugin.cpp:220
 #, kde-format
 msgid "A message from %1 was dropped, because it contained blacklisted words."
 msgstr ""
@@ -15640,9 +15640,9 @@ msgstr "檔案傳輸取消。"
 msgid "MSN Messenger"
 msgstr "MSN Messenger"
 
-#: protocols/msn/msnprotocol.cpp:55 protocols/gadu/gaduprotocol.cpp:69
-#: protocols/gadu/gaduprotocol.cpp:71 protocols/yahoo/yahooprotocol.cpp:46
-#: protocols/meanwhile/meanwhileprotocol.cpp:50
+#: protocols/msn/msnprotocol.cpp:55 protocols/gadu/gaduprotocol.cpp:68
+#: protocols/gadu/gaduprotocol.cpp:70 protocols/yahoo/yahooprotocol.cpp:46
+#: protocols/meanwhile/meanwhileprotocol.cpp:49
 #: protocols/telepathy/telepathyprotocol.cpp:49
 #: protocols/groupwise/gwprotocol.cpp:56
 msgid "Busy"
@@ -15683,7 +15683,7 @@ msgid "&Offline"
 msgstr "離線(&O)"
 
 #: protocols/msn/msnprotocol.cpp:80 protocols/yahoo/yahooprotocol.cpp:56
-#: protocols/meanwhile/meanwhileprotocol.cpp:55
+#: protocols/meanwhile/meanwhileprotocol.cpp:54
 #: protocols/groupwise/gwprotocol.cpp:60
 msgid "Idle"
 msgstr "閒置"
@@ -16717,19 +16717,19 @@ msgstr "新搜尋(&N)"
 msgid "&Add User..."
 msgstr "加入使用者(&A)..."
 
-#: protocols/gadu/gaduprotocol.cpp:56
+#: protocols/gadu/gaduprotocol.cpp:55
 msgid "Blocked"
 msgstr "已封鎖"
 
-#: protocols/gadu/gaduprotocol.cpp:65
+#: protocols/gadu/gaduprotocol.cpp:64
 msgid "A&way"
 msgstr "離開(&W)"
 
-#: protocols/gadu/gaduprotocol.cpp:69 protocols/gadu/gaduprotocol.cpp:72
+#: protocols/gadu/gaduprotocol.cpp:68 protocols/gadu/gaduprotocol.cpp:71
 msgid "B&usy"
 msgstr "忙碌(&U)"
 
-#: protocols/gadu/gaduprotocol.cpp:76 protocols/gadu/gaduprotocol.cpp:81
+#: protocols/gadu/gaduprotocol.cpp:75 protocols/gadu/gaduprotocol.cpp:80
 msgid "I&nvisible"
 msgstr "隱形(&N)"
 
@@ -16936,32 +16936,32 @@ msgstr "手提電話:"
 msgid "ICQ"
 msgstr "ICQ"
 
-#: protocols/oscar/aim/aimprotocol.cpp:182
+#: protocols/oscar/aim/aimprotocol.cpp:180
 #: protocols/jabber/ui/jabberaddcontactpage.cpp:68
 #: protocols/groupwise/ui/gwaddcontactpage.cpp:66
 msgid "You need to be connected to be able to add contacts."
 msgstr "你要連線才能新增聯絡人。"
 
-#: protocols/oscar/aim/aimprotocol.cpp:183
+#: protocols/oscar/aim/aimprotocol.cpp:181
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
 #: protocols/oscar/oscaraccount.cpp:954 protocols/yahoo/yahooprotocol.cpp:75
 msgid "AIM"
 msgstr "AIM"
 
-#: protocols/oscar/aim/aimprotocol.cpp:188
-#: protocols/jabber/jabberprotocol.cpp:444
+#: protocols/oscar/aim/aimprotocol.cpp:186
+#: protocols/jabber/jabberprotocol.cpp:443
 #, kde-format
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/oscar/aim/aimprotocol.cpp:210
+#: protocols/oscar/aim/aimprotocol.cpp:208
 #, kde-format
 msgid ""
 "Unable to connect to the chat room %1 because the account for %2 is not "
 "connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimprotocol.cpp:228
+#: protocols/oscar/aim/aimprotocol.cpp:226
 msgid "User Profile"
 msgstr "用戶資料檔"
 
@@ -19176,7 +19176,7 @@ msgid "Work Address"
 msgstr "工作地址(&W)"
 
 #: protocols/yahoo/yahooprotocol.cpp:91
-#: protocols/jabber/jabberprotocol.cpp:103
+#: protocols/jabber/jabberprotocol.cpp:102
 msgid "Work City"
 msgstr "工作城市"
 
@@ -19191,7 +19191,7 @@ msgid "Work ZIP"
 msgstr "工作資訊"
 
 #: protocols/yahoo/yahooprotocol.cpp:94
-#: protocols/jabber/jabberprotocol.cpp:105
+#: protocols/jabber/jabberprotocol.cpp:104
 msgid "Work Country"
 msgstr "工作國家"
 
@@ -19597,7 +19597,7 @@ msgid "Free to Chat"
 msgstr "我有空聊天"
 
 #: protocols/jabber/jabbercontact.cpp:173
-#: protocols/jabber/jabberprotocol.cpp:71
+#: protocols/jabber/jabberprotocol.cpp:70
 #: protocols/telepathy/telepathyprotocol.cpp:53
 msgid "Extended Away"
 msgstr "離開（進階）"
@@ -19689,129 +19689,129 @@ msgstr "Jabber 資源選取器"
 msgid "Groupchat bookmark"
 msgstr "群組聊天"
 
-#: protocols/jabber/jabberprotocol.cpp:68
+#: protocols/jabber/jabberprotocol.cpp:67
 msgid "Free for Chat"
 msgstr "我有空聊天"
 
-#: protocols/jabber/jabberprotocol.cpp:72
+#: protocols/jabber/jabberprotocol.cpp:71
 msgid "Do not Disturb"
 msgstr "請勿打擾"
 
-#: protocols/jabber/jabberprotocol.cpp:88
+#: protocols/jabber/jabberprotocol.cpp:87
 msgid "Authorization Status"
 msgstr "授權狀態"
 
-#: protocols/jabber/jabberprotocol.cpp:89
+#: protocols/jabber/jabberprotocol.cpp:88
 msgid "Available Resources"
 msgstr "可用資源"
 
-#: protocols/jabber/jabberprotocol.cpp:90
+#: protocols/jabber/jabberprotocol.cpp:89
 msgid "vCard Cache Timestamp"
 msgstr "vCard 快取時間戳記"
 
-#: protocols/jabber/jabberprotocol.cpp:92
+#: protocols/jabber/jabberprotocol.cpp:91
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
-#: protocols/jabber/jabberprotocol.cpp:94
+#: protocols/jabber/jabberprotocol.cpp:93
 msgid "Timezone"
 msgstr "時區"
 
-#: protocols/jabber/jabberprotocol.cpp:95
+#: protocols/jabber/jabberprotocol.cpp:94
 msgid "Homepage"
 msgstr "首頁"
 
-#: protocols/jabber/jabberprotocol.cpp:96
+#: protocols/jabber/jabberprotocol.cpp:95
 msgid "Company name"
 msgstr "公司名稱"
 
-#: protocols/jabber/jabberprotocol.cpp:97
+#: protocols/jabber/jabberprotocol.cpp:96
 msgid "Company Departement"
 msgstr "公司部門"
 
-#: protocols/jabber/jabberprotocol.cpp:98
+#: protocols/jabber/jabberprotocol.cpp:97
 msgid "Company Position"
 msgstr "公司職位"
 
-#: protocols/jabber/jabberprotocol.cpp:99
+#: protocols/jabber/jabberprotocol.cpp:98
 msgid "Company Role"
 msgstr "公司職責"
 
-#: protocols/jabber/jabberprotocol.cpp:100
+#: protocols/jabber/jabberprotocol.cpp:99
 msgid "Work Street"
 msgstr "工作地址"
 
-#: protocols/jabber/jabberprotocol.cpp:101
+#: protocols/jabber/jabberprotocol.cpp:100
 msgid "Work Extra Address"
 msgstr "額外工作地址"
 
-#: protocols/jabber/jabberprotocol.cpp:102
+#: protocols/jabber/jabberprotocol.cpp:101
 msgid "Work PO Box"
 msgstr "工作郵政信箱"
 
-#: protocols/jabber/jabberprotocol.cpp:104
+#: protocols/jabber/jabberprotocol.cpp:103
 msgid "Work Postal Code"
 msgstr "工作郵遞區號"
 
-#: protocols/jabber/jabberprotocol.cpp:106
+#: protocols/jabber/jabberprotocol.cpp:105
 msgid "Work Email Address"
 msgstr "工作電子郵件"
 
-#: protocols/jabber/jabberprotocol.cpp:107
+#: protocols/jabber/jabberprotocol.cpp:106
 msgid "Home Street"
 msgstr "住家地址"
 
-#: protocols/jabber/jabberprotocol.cpp:108
+#: protocols/jabber/jabberprotocol.cpp:107
 msgid "Home Extra Address"
 msgstr "額外住家地址"
 
-#: protocols/jabber/jabberprotocol.cpp:109
+#: protocols/jabber/jabberprotocol.cpp:108
 msgid "Home PO Box"
 msgstr "住家郵政信箱"
 
-#: protocols/jabber/jabberprotocol.cpp:110
+#: protocols/jabber/jabberprotocol.cpp:109
 msgid "Home City"
 msgstr "住家城市"
 
-#: protocols/jabber/jabberprotocol.cpp:111
+#: protocols/jabber/jabberprotocol.cpp:110
 msgid "Home Postal Code"
 msgstr "住家郵遞區號"
 
-#: protocols/jabber/jabberprotocol.cpp:112
+#: protocols/jabber/jabberprotocol.cpp:111
 msgid "Home Country"
 msgstr "住家國家"
 
-#: protocols/jabber/jabberprotocol.cpp:113
+#: protocols/jabber/jabberprotocol.cpp:112
 msgid "Fax"
 msgstr "傳真"
 
-#: protocols/jabber/jabberprotocol.cpp:395
+#: protocols/jabber/jabberprotocol.cpp:394
 #, fuzzy, kde-format
 msgid "Choose an account to handle the URL %1"
 msgstr "選擇要忽略的帳號:"
 
-#: protocols/jabber/jabberprotocol.cpp:461
+#: protocols/jabber/jabberprotocol.cpp:460
 #, fuzzy, kde-format
 msgid "Do you want to remove '%1' from your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/jabber/jabberprotocol.cpp:462
+#: protocols/jabber/jabberprotocol.cpp:461
 #, fuzzy
 msgid "Do Not Remove"
 msgstr "不使用"
 
-#: protocols/jabber/jabberprotocol.cpp:484
+#: protocols/jabber/jabberprotocol.cpp:483
 #, fuzzy, kde-format
 msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
-#: protocols/jabber/jabberprotocol.cpp:485
+#: protocols/jabber/jabberprotocol.cpp:484
 #: protocols/jabber/jabberaccount.cpp:1586
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabberprotocol.cpp:507
+#: protocols/jabber/jabberprotocol.cpp:506
 #: protocols/jabber/jabbergroupchatmanager.cpp:149
 #, fuzzy, kde-format
 msgid "You have been invited to %1"
