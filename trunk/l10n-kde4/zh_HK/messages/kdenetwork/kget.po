@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-10 10:26+0100\n"
+"POT-Creation-Date: 2008-01-11 09:44+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: conf/transfersgroupwidget.cpp:87 core/transfergrouphandler.cpp:187
-#: core/kget.cpp:580
+#: core/kget.cpp:581
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -115,8 +115,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:117 core/kget.cpp:450
-#: core/kget.cpp:736 ui/transferhistory.cpp:177 ui/transferhistory.cpp:224
+#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:117 core/kget.cpp:451
+#: core/kget.cpp:753 ui/transferhistory.cpp:177 ui/transferhistory.cpp:224
 msgid "Error"
 msgstr ""
 
@@ -202,13 +202,13 @@ msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "已停止"
 
-#: core/kget.h:54 ui/droptarget.cpp:92
+#: core/kget.h:55 ui/droptarget.cpp:92
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: core/kget.h:55
+#: core/kget.h:56
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet quits now because all downloads have been completed."
@@ -218,8 +218,8 @@ msgstr "所有下載已完成。"
 #: transfer-plugins/kio/transferKio.cpp:53
 #: transfer-plugins/metalink/metalink.cpp:53
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:60
-#: transfer-plugins/bittorrent/bttransfer.cpp:146
-#: transfer-plugins/bittorrent/bttransfer.cpp:239
+#: transfer-plugins/bittorrent/bttransfer.cpp:167
+#: transfer-plugins/bittorrent/bttransfer.cpp:260
 #, fuzzy
 #| msgid "Stopped"
 msgctxt "transfer state: stopped"
@@ -236,21 +236,21 @@ msgstr "已延遲"
 #: core/transfer.cpp:119 transfer-plugins/kio/transferKio.cpp:114
 #: transfer-plugins/metalink/metalink.cpp:113
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:198
-#: transfer-plugins/bittorrent/bttransfer.cpp:141
-#: transfer-plugins/bittorrent/bttransfer.cpp:236
+#: transfer-plugins/bittorrent/bttransfer.cpp:162
+#: transfer-plugins/bittorrent/bttransfer.cpp:257
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/kget.cpp:179
+#: core/kget.cpp:180
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:422
+#: core/kget.cpp:423
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -261,27 +261,27 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:423
+#: core/kget.cpp:424
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:449
+#: core/kget.cpp:450
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:673 ui/newtransferdialog.cpp:33 rc.cpp:339
+#: core/kget.cpp:690 ui/newtransferdialog.cpp:33 rc.cpp:339
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:673
+#: core/kget.cpp:690
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:735
+#: core/kget.cpp:752
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -290,7 +290,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:747
+#: core/kget.cpp:764
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -301,16 +301,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:748
+#: core/kget.cpp:765
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:773
+#: core/kget.cpp:790
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:782
+#: core/kget.cpp:799
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -323,13 +323,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:894
+#: core/kget.cpp:911
 #, kde-format
 msgid ""
 "<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:911
+#: core/kget.cpp:928
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -340,11 +340,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:913 core/kget.cpp:924
+#: core/kget.cpp:930 core/kget.cpp:941
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:922
+#: core/kget.cpp:939
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -503,12 +503,12 @@ msgid "Trackers"
 msgstr "開啟傳輸(&T)"
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:76
-#: transfer-plugins/bittorrent/bttransfer.cpp:195
+#: transfer-plugins/bittorrent/bttransfer.cpp:216
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:92
-#: transfer-plugins/bittorrent/bttransfer.cpp:201
+#: transfer-plugins/bittorrent/bttransfer.cpp:222
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -720,22 +720,22 @@ msgstr "進階選項"
 msgid "&Speed Limits"
 msgstr "速度"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:84
+#: transfer-plugins/bittorrent/bttransfer.cpp:85
 #, fuzzy
 msgid "Downloading Torrent-File.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:220
+#: transfer-plugins/bittorrent/bttransfer.cpp:241
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:265
+#: transfer-plugins/bittorrent/bttransfer.cpp:286
 msgid "Analizing torrent.."
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:340
+#: transfer-plugins/bittorrent/bttransfer.cpp:361
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
