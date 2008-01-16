@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-14 09:38+0100\n"
+"POT-Creation-Date: 2008-01-16 08:05+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -272,7 +272,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:683 ui/newtransferdialog.cpp:33 rc.cpp:360
+#: core/kget.cpp:683 ui/newtransferdialog.cpp:33 rc.cpp:363
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
@@ -503,7 +503,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 154
 #: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:70
-#: rc.cpp:228 rc.cpp:327
+#: rc.cpp:231 rc.cpp:330
 msgid "Chunks"
 msgstr ""
 
@@ -517,14 +517,14 @@ msgstr "開啟傳輸(&T)"
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
-#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:92
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:93
 #: transfer-plugins/bittorrent/bttransfer.cpp:222
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
 msgstr "格式不正確的 URL:\n"
 
-#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:110
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:111
 msgid "Cannot remove torrent default tracker."
 msgstr ""
 
@@ -778,7 +778,7 @@ msgstr "來源："
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 247
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 64
-#: ui/transferdetails.cpp:37 rc.cpp:357 rc.cpp:375
+#: ui/transferdetails.cpp:37 rc.cpp:360 rc.cpp:378
 msgid "Saving to:"
 msgstr ""
 
@@ -786,7 +786,7 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 60
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 143
-#: ui/transferdetails.cpp:38 rc.cpp:255 rc.cpp:384
+#: ui/transferdetails.cpp:38 rc.cpp:258 rc.cpp:387
 msgid "Status:"
 msgstr ""
 
@@ -802,35 +802,45 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:277
+#: ui/droptarget.cpp:219 mainwindow.cpp:644
+#, fuzzy
+msgid "&Download"
+msgstr "下載已續傳"
+
+#: ui/droptarget.cpp:220 mainwindow.cpp:645
+#, fuzzy
+msgid "&Load transferlist"
+msgstr "開啟傳輸："
+
+#: ui/droptarget.cpp:278
 #, fuzzy
 msgid "Show Main Window"
 msgstr "啟動時顯示主視窗"
 
-#: ui/droptarget.cpp:278
+#: ui/droptarget.cpp:279
 #, fuzzy
 msgid "Hide Main Window"
 msgstr "隱藏記錄視窗(&L)"
 
 #. i18n: tag string
 #. i18n: file conf/dlgappearance.ui line 51
-#: ui/droptarget.cpp:355 rc.cpp:114
+#: ui/droptarget.cpp:356 rc.cpp:114
 #, fuzzy
 #| msgid "Drop target"
 msgid "Drop Target"
 msgstr "拖放目標"
 
-#: ui/droptarget.cpp:356
+#: ui/droptarget.cpp:357
 msgid "You can drag download links into the drop target."
 msgstr ""
 
-#: ui/droptarget.cpp:401
+#: ui/droptarget.cpp:402
 msgid ""
 "Drop target has been hidden. If you want to show it again, go to Settings-"
 ">Configure KGet->Look & Feel."
 msgstr ""
 
-#: ui/droptarget.cpp:403
+#: ui/droptarget.cpp:404
 #, fuzzy
 msgid "Hiding drop target"
 msgstr "隱藏拖放目標(&T)"
@@ -1575,7 +1585,7 @@ msgstr ""
 #. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 187
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 39
-#: rc.cpp:162 rc.cpp:363
+#: rc.cpp:162 rc.cpp:366
 msgid "Url"
 msgstr ""
 
@@ -1635,7 +1645,7 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 26
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 46
-#: rc.cpp:201 rc.cpp:207 rc.cpp:285 rc.cpp:291
+#: rc.cpp:201 rc.cpp:207 rc.cpp:288 rc.cpp:294
 msgid "KiB"
 msgstr ""
 
@@ -1680,8 +1690,16 @@ msgid "Tracker-Url:"
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/btaddtrackerwidget.ui line 26
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 125
+#: rc.cpp:228 rc.cpp:270
+msgid "Add Tracker"
+msgstr ""
+
+#. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 23
-#: rc.cpp:231
+#: rc.cpp:234
 #, fuzzy
 #| msgid "Total"
 msgctxt "total chunks"
@@ -1690,7 +1708,7 @@ msgstr "總計"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 59
-#: rc.cpp:234
+#: rc.cpp:237
 msgid "Currently downloading:"
 msgstr ""
 
@@ -1698,7 +1716,7 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 95
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 163
-#: rc.cpp:237 rc.cpp:330
+#: rc.cpp:240 rc.cpp:333
 #, fuzzy
 msgid "Downloaded:"
 msgstr "下載已續傳"
@@ -1707,7 +1725,7 @@ msgstr "下載已續傳"
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 131
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 205
-#: rc.cpp:240 rc.cpp:348
+#: rc.cpp:243 rc.cpp:351
 msgid "Excluded:"
 msgstr ""
 
@@ -1715,14 +1733,14 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 167
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 177
-#: rc.cpp:243 rc.cpp:336
+#: rc.cpp:246 rc.cpp:339
 msgctxt "chunks left"
 msgid "Left:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 203
-#: rc.cpp:246
+#: rc.cpp:249
 #, fuzzy
 #| msgid " Size: %1 "
 msgid "Size:"
@@ -1730,7 +1748,7 @@ msgstr " 大小： %1 "
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 20
-#: rc.cpp:249
+#: rc.cpp:252
 msgid "URL:"
 msgstr ""
 
@@ -1738,31 +1756,25 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 33
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 73
-#: rc.cpp:252 rc.cpp:258
+#: rc.cpp:255 rc.cpp:261
 msgid "KSqueezedTextLabel"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 100
-#: rc.cpp:261
+#: rc.cpp:264
 msgid "Next Update In:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 118
-#: rc.cpp:264
+#: rc.cpp:267
 msgid "Update Tracker"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 125
-#: rc.cpp:267
-msgid "Add Tracker"
-msgstr ""
-
-#. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 144
-#: rc.cpp:270
+#: rc.cpp:273
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Remove Tracker"
@@ -1770,19 +1782,19 @@ msgstr "開啟傳輸"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 151
-#: rc.cpp:273
+#: rc.cpp:276
 msgid "Change Tracker"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 171
-#: rc.cpp:276
+#: rc.cpp:279
 msgid "Restore Defaults"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 13
-#: rc.cpp:279
+#: rc.cpp:282
 #, fuzzy
 #| msgid "Speed"
 msgid "Bittorrent-Speedlimits"
@@ -1790,20 +1802,20 @@ msgstr "速度"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 19
-#: rc.cpp:282
+#: rc.cpp:285
 #, fuzzy
 msgid "Download-Limit:"
 msgstr "下載已續傳"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 39
-#: rc.cpp:288
+#: rc.cpp:291
 msgid "Upload-Limit:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 65
-#: rc.cpp:294
+#: rc.cpp:297
 #, fuzzy
 #| msgid "Speed"
 msgid "Speed-Limits"
@@ -1811,20 +1823,20 @@ msgstr "速度"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 72
-#: rc.cpp:297
+#: rc.cpp:300
 msgid "Maximum Shared-Ratio:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 29
-#: rc.cpp:300
+#: rc.cpp:303
 #, fuzzy
 msgid "Stats"
 msgstr "重新開始(&S)"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 47
-#: rc.cpp:303
+#: rc.cpp:306
 #, fuzzy
 #| msgid "Speed"
 msgid "Seeders:"
@@ -1846,14 +1858,14 @@ msgstr "速度"
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 198
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 212
-#: rc.cpp:306 rc.cpp:312 rc.cpp:318 rc.cpp:324 rc.cpp:333 rc.cpp:339
-#: rc.cpp:345 rc.cpp:351
+#: rc.cpp:309 rc.cpp:315 rc.cpp:321 rc.cpp:327 rc.cpp:336 rc.cpp:342
+#: rc.cpp:348 rc.cpp:354
 msgid "<n>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 73
-#: rc.cpp:309
+#: rc.cpp:312
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download-Speed:"
@@ -1861,19 +1873,19 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 99
-#: rc.cpp:315
+#: rc.cpp:318
 msgid "Leechers:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 125
-#: rc.cpp:321
+#: rc.cpp:324
 msgid "Upload-Speed:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 191
-#: rc.cpp:342
+#: rc.cpp:345
 msgctxt "all chunks"
 msgid "All:"
 msgstr ""
@@ -1882,7 +1894,7 @@ msgstr ""
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 240
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 71
-#: rc.cpp:354 rc.cpp:378
+#: rc.cpp:357 rc.cpp:381
 #, fuzzy
 #| msgid "Source:"
 msgctxt "source-file"
@@ -1891,21 +1903,21 @@ msgstr "來源："
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 49
-#: rc.cpp:366
+#: rc.cpp:369
 #, fuzzy
 msgid "Download Folder"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 59
-#: rc.cpp:369
+#: rc.cpp:372
 #, fuzzy
 msgid "Transfer Group"
 msgstr "開啟傳輸(&T)"
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 89
-#: rc.cpp:372
+#: rc.cpp:375
 #, fuzzy
 #| msgid "Default folder:"
 msgid "Set as default folder"
@@ -1913,32 +1925,32 @@ msgstr "預設的資料夾:"
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 123
-#: rc.cpp:381
+#: rc.cpp:384
 msgid "<done> MiB of <todo> MiB"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 150
-#: rc.cpp:387
+#: rc.cpp:390
 msgid "<icon>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 157
-#: rc.cpp:390
+#: rc.cpp:393
 msgid "<status>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 183
-#: rc.cpp:393
+#: rc.cpp:396
 #, fuzzy
 msgid "<speed>"
 msgstr "速度"
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 47
-#: rc.cpp:396
+#: rc.cpp:399
 #, fuzzy
 #| msgid "Source:"
 msgid "Source-File"
@@ -1946,7 +1958,7 @@ msgstr "來源："
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 52
-#: rc.cpp:399
+#: rc.cpp:402
 #, fuzzy
 #| msgid "Destination:"
 msgid "Destination"
@@ -1954,7 +1966,7 @@ msgstr "目的地："
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 57
-#: rc.cpp:402
+#: rc.cpp:405
 #, fuzzy
 #| msgid "Timer"
 msgid "Time"
@@ -1962,33 +1974,33 @@ msgstr "計時器"
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 62
-#: rc.cpp:405
+#: rc.cpp:408
 #, fuzzy
 msgid "File-Size"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 67
-#: rc.cpp:408
+#: rc.cpp:411
 #, fuzzy
 msgid "Status"
 msgstr "重新開始(&S)"
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 83
-#: rc.cpp:411
+#: rc.cpp:414
 msgid "Clear History"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 109
-#: rc.cpp:414
+#: rc.cpp:417
 msgid "Filter history..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 118
-#: rc.cpp:417
+#: rc.cpp:420
 #, fuzzy
 msgctxt "delete selected transfer"
 msgid "Delete Selected"
@@ -1996,46 +2008,46 @@ msgstr "沒有選擇檔案"
 
 #. i18n: tag string
 #. i18n: file ui/transferhistory.ui line 123
-#: rc.cpp:420
+#: rc.cpp:423
 #, fuzzy
 msgid "Download"
 msgstr "下載已續傳"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 4
-#: rc.cpp:423
+#: rc.cpp:426
 #, fuzzy
 msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 14
-#: rc.cpp:426
+#: rc.cpp:429
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 23
-#: rc.cpp:429
+#: rc.cpp:432
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 35
-#: rc.cpp:432
+#: rc.cpp:435
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 38
-#: rc.cpp:435
+#: rc.cpp:438
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag Text
 #. i18n: file extensions/konqueror/kget_plug_in.rc line 4
-#: rc.cpp:438
+#: rc.cpp:441
 msgid "&Tools"
 msgstr ""
 
