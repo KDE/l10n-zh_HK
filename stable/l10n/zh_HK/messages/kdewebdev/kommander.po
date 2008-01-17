@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-01-10 01:19+0100\n"
+"POT-Creation-Date: 2008-01-17 01:19+0100\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -63,13 +63,13 @@ msgstr "<qt>無法載入 Kommander 外掛程式<br><b>%1</b></qt>"
 msgid "Cannot add plugin"
 msgstr "無法加入外掛程式"
 
-#: _translatorinfo.cpp:1 editor/main.cpp:49
+#: _translatorinfo.cpp:1 editor/main.cpp:50
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Stanley Wong"
 
-#: _translatorinfo.cpp:3 editor/main.cpp:50
+#: _translatorinfo.cpp:3 editor/main.cpp:51
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
@@ -982,7 +982,24 @@ msgstr "要開啟的對話盒"
 msgid "Kommander"
 msgstr "Kommander"
 
-#: editor/main.cpp:70
+#: editor/main.cpp:46
+msgid "Project manager"
+msgstr ""
+
+#: editor/main.cpp:47
+#, fuzzy
+msgid "Current maintainer"
+msgstr "複製目前一行(&L)"
+
+#: editor/main.cpp:48
+msgid "Previous maintainer"
+msgstr ""
+
+#: editor/main.cpp:49
+msgid "Original author"
+msgstr ""
+
+#: editor/main.cpp:71
 msgid "Kommander Dialog Editor"
 msgstr "Kommander 對話盒編輯器"
 
@@ -1820,11 +1837,16 @@ msgstr "垂直編排子項目"
 msgid "Lay Out Children in a Grid"
 msgstr "依格線分散編排子項目"
 
-#: editor/functionsimpl.cpp:136
+#: editor/functionsimpl.cpp:72 plugin/specialinformation.cpp:372
+#, fuzzy
+msgid "Slots"
+msgstr "Slot"
+
+#: editor/functionsimpl.cpp:162
 msgid "<p>Parameters are not obligatory."
 msgstr "<p>參數不是必須的。"
 
-#: editor/functionsimpl.cpp:139
+#: editor/functionsimpl.cpp:165
 #, c-format
 msgid ""
 "_n: "
@@ -1832,7 +1854,7 @@ msgid ""
 "<p>Only first %n arguments are obligatory."
 msgstr "<p>只有首 %n 個引數是必須的。"
 
-#: editor/functionsimpl.cpp:147
+#: editor/functionsimpl.cpp:173
 msgid ""
 "<qt>"
 "<h3>%1</h3>"
@@ -1843,6 +1865,511 @@ msgstr ""
 "<h3>%1</h3>"
 "<p><b>描述：</b> %2\n"
 "<p><b>語法：</b> <i>%3</i>%4</qt>"
+
+#: plugin/specialinformation.cpp:286
+msgid "Inserts the item if it will not create a duplicate."
+msgstr "如果項目不會造成重複，就插入它。"
+
+#: plugin/specialinformation.cpp:288
+msgid ""
+"Returns scripts associated with widget. This is an advanced feature that would "
+"not be commonly used."
+msgstr "傳回與 Widget 有關聯的指令稿。這個進階的功能通常不會被使用。"
+
+#: plugin/specialinformation.cpp:289
+msgid "Stops execution of the script associated with the widget."
+msgstr "停止與 Widget 有關聯的指令稿的執行。"
+
+#: plugin/specialinformation.cpp:291
+msgid "Returns text of a cell in a table."
+msgstr "傳回表格中其中一個儲存格的文字。"
+
+#: plugin/specialinformation.cpp:293
+msgid "Returns 1 for checked boxes, 0 for unchecked."
+msgstr "已剔選的傳回 1，未剔選的傳回 0。"
+
+#: plugin/specialinformation.cpp:295
+msgid ""
+"Returns the list of child widgets contained in the parent widget. Set the <i>"
+"recursive</i> parameter to <i>true</i> to include widgets contained by child "
+"widgets."
+msgstr ""
+
+#: plugin/specialinformation.cpp:297
+msgid "Removes all content from the widget."
+msgstr "移除 Widget 中所有的內容。"
+
+#: plugin/specialinformation.cpp:300
+msgid "Returns number of items in a widget such as combobox or listbox."
+msgstr ""
+
+#: plugin/specialinformation.cpp:302
+msgid "Returns index of current column."
+msgstr "傳回目前欄位的索引值。"
+
+#: plugin/specialinformation.cpp:304
+msgid "Returns index of current item."
+msgstr "傳回目前項目的索引值。"
+
+#: plugin/specialinformation.cpp:306
+msgid "Returns index of current row."
+msgstr "傳回目前列的索引值。"
+
+#: plugin/specialinformation.cpp:307
+msgid "Executes the script associated with the widget."
+msgstr "執行與 Widget 關聯的指令稿。"
+
+#: plugin/specialinformation.cpp:309
+msgid "Returns the index of an item with the given text."
+msgstr "傳回找到指定文字的項目的索引值。"
+
+#: plugin/specialinformation.cpp:311
+msgid "Inserts new column (or <i>count</i> columns) at <i>column</i> position."
+msgstr ""
+
+#: plugin/specialinformation.cpp:313
+msgid "Inserts item at <i>index</i> position."
+msgstr "於<i>index</i>位置插入項目。"
+
+#: plugin/specialinformation.cpp:316
+msgid "Inserts multiple items (EOL-separated) at <i>index</i> position."
+msgstr ""
+
+#: plugin/specialinformation.cpp:319
+msgid "Inserts new row (or <i>count</i> rows) at <i>row</i> position."
+msgstr ""
+
+#: plugin/specialinformation.cpp:321
+msgid "Returns the text of the item at the given index."
+msgstr "傳回指定項目索引的文字。"
+
+#: plugin/specialinformation.cpp:323
+msgid ""
+"Returns the depth of the current item in the tree. Root items have depth 0."
+msgstr ""
+
+#: plugin/specialinformation.cpp:325
+msgid "Returns the slash-separated path to the given item in the tree."
+msgstr ""
+
+#: plugin/specialinformation.cpp:327
+msgid ""
+"Removes the column (or <i>count</i> consecutive columns) with the given index."
+msgstr ""
+
+#: plugin/specialinformation.cpp:329
+msgid "Removes the item with the given index."
+msgstr "移除指定索引的項目。"
+
+#: plugin/specialinformation.cpp:332
+msgid ""
+"Removes the row (or <i>count</i> consecutive rows) with the given index."
+msgstr ""
+
+#: plugin/specialinformation.cpp:335
+msgid ""
+"Returns selected text or text of current item.\n"
+"In case of Table widgets, returns the selection coordinates, separated by "
+"commas in TopRow,LeftColumn,BottomRow,RightColumn form. "
+msgstr ""
+
+#: plugin/specialinformation.cpp:337
+msgid ""
+"Sets scripts associated with widget. This is an advanced feature that would not "
+"be commonly used."
+msgstr ""
+
+#: plugin/specialinformation.cpp:339
+msgid "Enables or disables widget."
+msgstr "啟用或停用 Widget。"
+
+#: plugin/specialinformation.cpp:342
+msgid "Sets text of a cell in a table."
+msgstr "設定表格其中一個儲存格的文字。"
+
+#: plugin/specialinformation.cpp:344
+#, fuzzy
+msgid "Inserts a widget into a cell of a table."
+msgstr "設定表格其中一個儲存格的文字。"
+
+#: plugin/specialinformation.cpp:346
+msgid "Sets/unsets checkbox."
+msgstr "設定/取消設定剔選方塊。"
+
+#: plugin/specialinformation.cpp:348
+msgid "Sets caption of the column <i>column</i>."
+msgstr "設定欄位 <i>column</i> 的標題。"
+
+#: plugin/specialinformation.cpp:350
+msgid "Selects the item at the specified index. Indexes are zero based."
+msgstr ""
+
+#: plugin/specialinformation.cpp:353
+msgid ""
+"Inserts a tab to the tabwidget with the specified label at the given index. "
+"Indexes are zero based."
+msgstr ""
+
+#: plugin/specialinformation.cpp:355
+msgid "Sets maximum numeric value"
+msgstr "設定最大數值(必需是數字)"
+
+#: plugin/specialinformation.cpp:357
+msgid ""
+"Sets pixmap at the given index to the specified icon. Use <i>index = -1</i> "
+"to set the pixmap for all items."
+msgstr ""
+
+#: plugin/specialinformation.cpp:359
+msgid "Sets caption of the row <i>row</i>."
+msgstr "設定列 <i>row</i> 的標題。"
+
+#: plugin/specialinformation.cpp:361
+msgid "Selects given text or select item containing given text."
+msgstr "選擇指定的文字，或包含指定文字的項目。"
+
+#: plugin/specialinformation.cpp:364
+msgid "Sets widget's content."
+msgstr "設定 Widget 的內容。"
+
+#: plugin/specialinformation.cpp:367
+msgid "Shows/hides widget."
+msgstr "顯示/隱藏 Widget。"
+
+#: plugin/specialinformation.cpp:368
+msgid "Returns content of widget."
+msgstr "傳回 Widget 的內容。"
+
+#: plugin/specialinformation.cpp:370
+msgid "Returns type(class) of widget."
+msgstr "傳回 Widget 的類型(類別)。"
+
+#: plugin/specialinformation.cpp:376
+msgid ""
+"Returns current widget's content. This was required inside widget A to return "
+"widget A content when requested by widget B. The new method is to use @A.text "
+"inside B instead of just @A if you just want the unaltered text."
+msgstr ""
+
+#: plugin/specialinformation.cpp:378
+msgid ""
+"Returns selected text or text of current item. This is deprecated for <i>"
+"@mywidget.selected</i>."
+msgstr ""
+
+#: plugin/specialinformation.cpp:380
+msgid ""
+"Does nothing. This is useful if you request a CheckBox or RadioButton to return "
+"a value where a state, typically the unchecked state, has no value. The @null "
+"prevents an error indicating it is empty."
+msgstr ""
+
+#: plugin/specialinformation.cpp:382
+msgid "Returns the pid (process ID) of the current process."
+msgstr "傳回目前進程的 pid (process ID)。"
+
+#: plugin/specialinformation.cpp:384
+msgid ""
+"Returns DCOP identifier of current process. This is shorthand for <i>"
+"kmdr-executor-@pid</i>."
+msgstr ""
+
+#: plugin/specialinformation.cpp:387
+msgid "Returns the pid of the parent Kommander window."
+msgstr "傳回 parent Kommander 視窗的 pid。"
+
+#: plugin/specialinformation.cpp:389
+msgid "Writes <i>text</i> on stderr."
+msgstr "於 stderr 寫入<i>文字</i>。"
+
+#: plugin/specialinformation.cpp:391
+msgid "Writes <i>text</i> on standard output."
+msgstr "於標準輸出寫入<i>文字</i>。"
+
+#: plugin/specialinformation.cpp:393
+msgid ""
+"Executes a script block. Bash is used if no shell is given. It is primarily for "
+"use in non-button widgets where script actions are not expected. Full path is "
+"not required for the shell which may be useful for portability. "
+"<p><i>If this is used inside a button it allows alternate script languages to "
+"be used and will return a value to the main script, which may be unexpected.</i>"
+msgstr ""
+
+#: plugin/specialinformation.cpp:395
+msgid ""
+"Returns value of an environment (shell) variable. Do not use <i>$</i> "
+"in the name. For example, <i>@env(PATH)</i>."
+msgstr ""
+
+#: plugin/specialinformation.cpp:397
+msgid "Executes an external shell command."
+msgstr "執行一個外部 Shell 命令。"
+
+#: plugin/specialinformation.cpp:399
+msgid "Parses an expression and returns computed value."
+msgstr ""
+
+#: plugin/specialinformation.cpp:401
+msgid ""
+"Executes loop: values from <i>items</i> list (passed as EOL-separated string) "
+"are assigned to the variable. "
+"<br> <i>@forEach(i,A\\nB\\nC\\n)"
+"<br>  @# @i=A"
+"<br>@endif</i>"
+msgstr ""
+
+#: plugin/specialinformation.cpp:403
+msgid ""
+"Executes loop: variable is set to <i>start</i> and is increased by <i>step</i> "
+"each time loop is executed. Execution stops when variable becomes larger then "
+"<i>end</i>. "
+"<br><i>@for(i,1,10,1)"
+"<br>  @# @i=1"
+"<br>@endif</i>."
+msgstr ""
+
+#: plugin/specialinformation.cpp:405
+msgid "Returns the value of a global variable."
+msgstr "傳回一個全域變數的數值。"
+
+#: plugin/specialinformation.cpp:407
+msgid ""
+"Translates the string into the current language. Texts in GUI would be "
+"automatically extracted for translation."
+msgstr ""
+
+#: plugin/specialinformation.cpp:409
+msgid ""
+"Executes block if expression is true (non-zero number or non-empty string.) "
+"<p>Close with <b>@endif</b></p>"
+msgstr ""
+
+#: plugin/specialinformation.cpp:411
+msgid ""
+"Executes another Kommander dialog. Current dialog directory is used if no path "
+"is given. Arguments may be given as named arguments which will become global "
+"variables in the new dialog. For instance: <i>var=val</i>"
+msgstr ""
+
+#: plugin/specialinformation.cpp:413
+msgid "Reads setting from configration file for this dialog."
+msgstr "為這個對話盒讀取設定檔案。"
+
+#: plugin/specialinformation.cpp:415
+msgid ""
+"Sets the value of a global variable. Global variables exist for the life of the "
+"Kommander window."
+msgstr "設定全域變數的數值。全域變數直至 Kommander 視窗消失之前都會存在。"
+
+#: plugin/specialinformation.cpp:417
+msgid "Stores setting in configuration file for this dialog."
+msgstr "為這個對話盒儲存設定至一個檔案。"
+
+#: plugin/specialinformation.cpp:419
+msgid ""
+"Begin of <b>switch</b> block. Following <b>case</b> values are compared to <i>"
+"expression</i>."
+"<p>@switch()"
+"<br>@case()"
+"<br>@end"
+msgstr ""
+
+#: plugin/specialinformation.cpp:421
+msgid "Executes an external DCOP call."
+msgstr "執行一個外部 DCOP 呼叫。"
+
+#: plugin/specialinformation.cpp:423
+msgid "Adds a comment to EOL that Kommander will not parse"
+msgstr ""
+
+#: plugin/specialinformation.cpp:425
+msgid ""
+"Creates a new widget with the specified type and as the child of parent."
+msgstr ""
+
+#: plugin/specialinformation.cpp:429
+msgid "Returns an EOL-separated list of all values in the array."
+msgstr "以 EOL 分隔的列表，傳回陣列中所有的數值。"
+
+#: plugin/specialinformation.cpp:431
+msgid "Returns an EOL-separated list of all keys in the array."
+msgstr "以 EOL 分隔的列表，傳回陣列中所有的 Key。"
+
+#: plugin/specialinformation.cpp:433
+msgid "Removes all elements from the array."
+msgstr "移除所有陣列的元素。"
+
+#: plugin/specialinformation.cpp:435
+msgid "Returns the number of elements in the array."
+msgstr "傳回陣列中元素的數量。"
+
+#: plugin/specialinformation.cpp:437
+msgid "Returns the value associated with the given key."
+msgstr "傳回指定 Key 關聯的數值。"
+
+#: plugin/specialinformation.cpp:439
+msgid "Removes element with the given key from the array."
+msgstr "從陣列移除指定 Key 的元素。"
+
+#: plugin/specialinformation.cpp:441
+msgid "Adds element with the given key and value to the array"
+msgstr "加入指定 Key 及數值的元素至陣列"
+
+#: plugin/specialinformation.cpp:443
+msgid ""
+"Adds all elements in the string to the array. String should have <i>"
+"key\\tvalue\\n</i> format."
+msgstr ""
+"把字串中所有的元素加入至陣列中。字串必須是<i>key>\\tvalue\\n</i>的格式。"
+
+#: plugin/specialinformation.cpp:446
+msgid ""
+"Returns all elements in the array in "
+"<pre>key\\tvalue\\n</pre> format."
+msgstr ""
+"以<i>key>\\tvalue\\n</i>的格式，傳回陣列中所有的元素。"
+
+#: plugin/specialinformation.cpp:451
+msgid "Returns number of chars in the string."
+msgstr "傳回字串中字元的數目。"
+
+#: plugin/specialinformation.cpp:453
+msgid "Checks if the the string contains the given substring."
+msgstr "檢查字串是否包含指定的子字串。"
+
+#: plugin/specialinformation.cpp:455
+msgid ""
+"Returns the position of a substring in the string, or -1 if it is not found."
+msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。"
+
+#: plugin/specialinformation.cpp:457
+msgid ""
+"Returns the position of a substring in the string, or -1 if it is not found. "
+"String is searched backwards"
+msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。字串是倒轉來尋找的。"
+
+#: plugin/specialinformation.cpp:459
+msgid "Returns the first <i>n</i> chars of the string."
+msgstr "傳回字串最前<i>n</i> 個字元。"
+
+#: plugin/specialinformation.cpp:461
+msgid "Returns the last <i>n</i> chars of the string."
+msgstr "傳回字串最後<i>n</i>個字元。"
+
+#: plugin/specialinformation.cpp:463
+msgid "Returns <i>n</i> chars of the string, starting from <i>start</i>."
+msgstr "從字串的<i>start</i>位置開始，傳回<i>n</i>個字元。"
+
+#: plugin/specialinformation.cpp:465
+msgid "Removes all occurrences of given substring."
+msgstr "取代所有找到指定子字串的地方。"
+
+#: plugin/specialinformation.cpp:467
+msgid ""
+"Replaces all occurrences of the given substring with the given replacement."
+msgstr "把所有找到指定子字串的地方，替換為取代文字。"
+
+#: plugin/specialinformation.cpp:469
+msgid "Converts the string to uppercase."
+msgstr "把字串轉換成大寫的。"
+
+#: plugin/specialinformation.cpp:471
+msgid "Converts the string to lowercase."
+msgstr "把字串轉換成小寫的。"
+
+#: plugin/specialinformation.cpp:473
+msgid ""
+"Compares two strings. Returns 0 if they are equal, -1 if the first one is "
+"lower, 1 if the first one is higher"
+msgstr "比較兩個字串。相等的傳回 0，第二個較大就傳回 -1，第一個較大則傳回 1"
+
+#: plugin/specialinformation.cpp:476
+msgid "Checks if the string is empty."
+msgstr "檢查字串是否空白。"
+
+#: plugin/specialinformation.cpp:478
+msgid "Checks if the string is a valid number."
+msgstr "檢查字串是否一個有效的數字。"
+
+#: plugin/specialinformation.cpp:480
+msgid "Returns given section of a string."
+msgstr "傳回指定字串的一部份。"
+
+#: plugin/specialinformation.cpp:482
+msgid ""
+"Returns the given string with %1, %2, %3 replaced with <i>arg1</i>, <i>arg2</i>"
+", <i>arg3</i> accordingly."
+msgstr "傳回指定的字串，並且把字串中 %1, %2, %3 的部分以<i>arg1</i>，<i>arg2</i>，<i>arg3</i>分別取代。"
+
+#: plugin/specialinformation.cpp:486
+msgid "Returns content of given file."
+msgstr "傳回指定檔案的內容。"
+
+#: plugin/specialinformation.cpp:488
+msgid "Writes given string to a file."
+msgstr "寫入指定的字串到一個檔案。"
+
+#: plugin/specialinformation.cpp:490
+msgid "Appends given string to the end of a file."
+msgstr "附加指定的字串到一個檔案的結尾。"
+
+#: plugin/specialinformation.cpp:493
+msgid "Shows color dialog. Returns color in #RRGGBB format."
+msgstr "顯示顏色對話盒。以 #RRGGBB 的格式傳回顏色。"
+
+#: plugin/specialinformation.cpp:495
+msgid "Shows text selection dialog. Returns entered text."
+msgstr "顯示文字選擇對話盒。傳回輸入的文字。"
+
+#: plugin/specialinformation.cpp:497
+msgid "Shows a dialog asking user for password and returns it."
+msgstr "顯示密碼輸入對話盒並傳回密碼。"
+
+#: plugin/specialinformation.cpp:499
+msgid "Shows value selection dialog. Returns entered value."
+msgstr "顯示數值選擇對話盒。傳回輸入數值。"
+
+#: plugin/specialinformation.cpp:501
+msgid "Shows float value selection dialog. Returns entered value."
+msgstr "顯示浮點數值選擇對話盒。傳回輸入數值。"
+
+#: plugin/specialinformation.cpp:503
+msgid "Shows existing file selection dialog. Returns selected file."
+msgstr "顯示現存檔案選擇對話盒。傳回選擇的檔案。"
+
+#: plugin/specialinformation.cpp:505
+msgid "Shows save file selection dialog. Returns selected file."
+msgstr "顯示儲存檔案選擇對話盒。傳回選擇的檔案。"
+
+#: plugin/specialinformation.cpp:507
+msgid "Shows directory selection dialog. Returns selected directory."
+msgstr "顯示目錄選擇對話盒。傳回選擇的目錄。"
+
+#: plugin/specialinformation.cpp:509
+msgid ""
+"Shows multiple files selection dialog. Returns EOL-separated list of selected "
+"files."
+msgstr "顯示多個檔案的選擇對話盒。傳回以 EOL 分隔的選擇檔案列表。"
+
+#: plugin/specialinformation.cpp:513
+msgid "Shows an information dialog."
+msgstr "顯示一個資訊對話盒。"
+
+#: plugin/specialinformation.cpp:515
+msgid "Shows an error dialog."
+msgstr "顯示一個錯誤對話盒。"
+
+#: plugin/specialinformation.cpp:517
+msgid ""
+"Shows a warning dialog with up to three buttons. Returns number of selected "
+"button."
+msgstr "顯示一個警告對話盒，最多可有三個按鈕。傳回選擇按鈕的號碼。"
+
+#: plugin/specialinformation.cpp:519
+msgid ""
+"Shows a question dialog with up to three buttons. Returns number of selected "
+"button."
+msgstr "顯示一個問題對話盒，最多可有三個按鈕。傳回選擇按鈕的號碼。"
 
 #. i18n: file ./editor/wizardeditor.ui line 16
 #: rc.cpp:3
@@ -3627,11 +4154,11 @@ msgstr "無效的字元：'%1'"
 msgid "Constant value expected"
 msgstr ""
 
-#: widget/parser.cpp:216 widget/parser.cpp:485
+#: widget/parser.cpp:216 widget/parser.cpp:497
 msgid "'%1' is not a widget"
 msgstr "'%1' 不是一個 Widget"
 
-#: widget/parser.cpp:221 widget/parser.cpp:487
+#: widget/parser.cpp:221 widget/parser.cpp:500
 msgid "'%1' is not a function"
 msgstr "'%1' 不是一個函式"
 
@@ -3655,15 +4182,15 @@ msgstr "參數太少"
 msgid "too many parameters"
 msgstr "參數太多"
 
-#: widget/parser.cpp:456
+#: widget/parser.cpp:460
 msgid "in widget function '%1.%2': %3"
 msgstr "在 Widget 函數 '%1.%2' 中： %3"
 
-#: widget/parser.cpp:489
+#: widget/parser.cpp:502
 msgid "Unexpected symbol after variable '%1'"
 msgstr "變數 '%1' 有著未預料到的符號(symbol)"
 
-#: widget/parser.cpp:675
+#: widget/parser.cpp:720
 msgid ""
 "Expected '%1'"
 "<br>"
@@ -3671,539 +4198,44 @@ msgid ""
 "widget"
 msgstr ""
 
-#: widget/parser.cpp:677
+#: widget/parser.cpp:722
 msgid "Expected '%1'"
 msgstr "預期的 '%1'"
 
-#: widget/parser.cpp:691 widget/parser.cpp:704
+#: widget/parser.cpp:736 widget/parser.cpp:749
 msgid "Expected variable"
 msgstr "預期的變數"
-
-#: widget/specials.cpp:24
-msgid "Inserts the item if it will not create a duplicate."
-msgstr "如果項目不會造成重複，就插入它。"
-
-#: widget/specials.cpp:26
-msgid ""
-"Returns scripts associated with widget. This is an advanced feature that would "
-"not be commonly used."
-msgstr "傳回與 Widget 有關聯的指令稿。這個進階的功能通常不會被使用。"
-
-#: widget/specials.cpp:27
-msgid "Stops execution of the script associated with the widget."
-msgstr "停止與 Widget 有關聯的指令稿的執行。"
-
-#: widget/specials.cpp:29
-msgid "Returns text of a cell in a table."
-msgstr "傳回表格中其中一個儲存格的文字。"
-
-#: widget/specials.cpp:31
-msgid "Returns 1 for checked boxes, 0 for unchecked."
-msgstr "已剔選的傳回 1，未剔選的傳回 0。"
-
-#: widget/specials.cpp:33
-msgid ""
-"Returns the list of child widgets contained in the parent widget. Set the <i>"
-"recursive</i> parameter to <i>true</i> to include widgets contained by child "
-"widgets."
-msgstr ""
-
-#: widget/specials.cpp:35
-msgid "Removes all content from the widget."
-msgstr "移除 Widget 中所有的內容。"
-
-#: widget/specials.cpp:38
-msgid "Returns number of items in a widget such as combobox or listbox."
-msgstr ""
-
-#: widget/specials.cpp:40
-msgid "Returns index of current column."
-msgstr "傳回目前欄位的索引值。"
-
-#: widget/specials.cpp:42
-msgid "Returns index of current item."
-msgstr "傳回目前項目的索引值。"
-
-#: widget/specials.cpp:44
-msgid "Returns index of current row."
-msgstr "傳回目前列的索引值。"
-
-#: widget/specials.cpp:45
-msgid "Executes the script associated with the widget."
-msgstr "執行與 Widget 關聯的指令稿。"
-
-#: widget/specials.cpp:47
-msgid "Returns the index of an item with the given text."
-msgstr "傳回找到指定文字的項目的索引值。"
-
-#: widget/specials.cpp:49
-msgid "Inserts new column (or <i>count</i> columns) at <i>column</i> position."
-msgstr ""
-
-#: widget/specials.cpp:51
-msgid "Inserts item at <i>index</i> position."
-msgstr "於<i>index</i>位置插入項目。"
-
-#: widget/specials.cpp:54
-msgid "Inserts multiple items (EOL-separated) at <i>index</i> position."
-msgstr ""
-
-#: widget/specials.cpp:57
-msgid "Inserts new row (or <i>count</i> rows) at <i>row</i> position."
-msgstr ""
-
-#: widget/specials.cpp:59
-msgid "Returns the text of the item at the given index."
-msgstr "傳回指定項目索引的文字。"
-
-#: widget/specials.cpp:61
-msgid ""
-"Returns the depth of the current item in the tree. Root items have depth 0."
-msgstr ""
-
-#: widget/specials.cpp:63
-msgid "Returns the slash-separated path to the given item in the tree."
-msgstr ""
-
-#: widget/specials.cpp:65
-msgid ""
-"Removes the column (or <i>count</i> consecutive columns) with the given index."
-msgstr ""
-
-#: widget/specials.cpp:67
-msgid "Removes the item with the given index."
-msgstr "移除指定索引的項目。"
-
-#: widget/specials.cpp:70
-msgid ""
-"Removes the row (or <i>count</i> consecutive rows) with the given index."
-msgstr ""
-
-#: widget/specials.cpp:73
-msgid ""
-"Returns selected text or text of current item.\n"
-"In case of Table widgets, returns the selection coordinates, separated by "
-"commas in TopRow,LeftColumn,BottomRow,RightColumn form. "
-msgstr ""
-
-#: widget/specials.cpp:75
-msgid ""
-"Sets scripts associated with widget. This is an advanced feature that would not "
-"be commonly used."
-msgstr ""
-
-#: widget/specials.cpp:77
-msgid "Enables or disables widget."
-msgstr "啟用或停用 Widget。"
-
-#: widget/specials.cpp:80
-msgid "Sets text of a cell in a table."
-msgstr "設定表格其中一個儲存格的文字。"
-
-#: widget/specials.cpp:82
-msgid "Sets/unsets checkbox."
-msgstr "設定/取消設定剔選方塊。"
-
-#: widget/specials.cpp:84
-msgid "Sets caption of the column <i>column</i>."
-msgstr "設定欄位 <i>column</i> 的標題。"
-
-#: widget/specials.cpp:86
-msgid "Selects the item at the specified index. Indexes are zero based."
-msgstr ""
-
-#: widget/specials.cpp:89
-msgid ""
-"Inserts a tab to the tabwidget with the specified label at the given index. "
-"Indexes are zero based."
-msgstr ""
-
-#: widget/specials.cpp:91
-msgid "Sets maximum numeric value"
-msgstr "設定最大數值(必需是數字)"
-
-#: widget/specials.cpp:93
-msgid ""
-"Sets pixmap at the given index to the specified icon. Use <i>index = -1</i> "
-"to set the pixmap for all items."
-msgstr ""
-
-#: widget/specials.cpp:95
-msgid "Sets caption of the row <i>row</i>."
-msgstr "設定列 <i>row</i> 的標題。"
-
-#: widget/specials.cpp:97
-msgid "Selects given text or select item containing given text."
-msgstr "選擇指定的文字，或包含指定文字的項目。"
-
-#: widget/specials.cpp:100
-msgid "Sets widget's content."
-msgstr "設定 Widget 的內容。"
-
-#: widget/specials.cpp:103
-msgid "Shows/hides widget."
-msgstr "顯示/隱藏 Widget。"
-
-#: widget/specials.cpp:104
-msgid "Returns content of widget."
-msgstr "傳回 Widget 的內容。"
-
-#: widget/specials.cpp:106
-msgid "Returns type(class) of widget."
-msgstr "傳回 Widget 的類型(類別)。"
-
-#: widget/specials.cpp:109
-msgid ""
-"Returns current widget's content. This was required inside widget A to return "
-"widget A content when requested by widget B. The new method is to use @A.text "
-"inside B instead of just @A if you just want the unaltered text."
-msgstr ""
-
-#: widget/specials.cpp:111
-msgid ""
-"Returns selected text or text of current item. This is deprecated for <i>"
-"@mywidget.selected</i>."
-msgstr ""
-
-#: widget/specials.cpp:113
-msgid ""
-"Does nothing. This is useful if you request a CheckBox or RadioButton to return "
-"a value where a state, typically the unchecked state, has no value. The @null "
-"prevents an error indicating it is empty."
-msgstr ""
-
-#: widget/specials.cpp:115
-msgid "Returns the pid (process ID) of the current process."
-msgstr "傳回目前進程的 pid (process ID)。"
-
-#: widget/specials.cpp:117
-msgid ""
-"Returns DCOP identifier of current process. This is shorthand for <i>"
-"kmdr-executor-@pid</i>."
-msgstr ""
-
-#: widget/specials.cpp:120
-msgid "Returns the pid of the parent Kommander window."
-msgstr "傳回 parent Kommander 視窗的 pid。"
-
-#: widget/specials.cpp:122
-msgid "Writes <i>text</i> on stderr."
-msgstr "於 stderr 寫入<i>文字</i>。"
-
-#: widget/specials.cpp:124
-msgid "Writes <i>text</i> on standard output."
-msgstr "於標準輸出寫入<i>文字</i>。"
-
-#: widget/specials.cpp:126
-msgid ""
-"Executes a script block. Bash is used if no shell is given. It is primarily for "
-"use in non-button widgets where script actions are not expected. Full path is "
-"not required for the shell which may be useful for portability. "
-"<p><i>If this is used inside a button it allows alternate script languages to "
-"be used and will return a value to the main script, which may be unexpected.</i>"
-msgstr ""
-
-#: widget/specials.cpp:128
-msgid ""
-"Returns value of an environment (shell) variable. Do not use <i>$</i> "
-"in the name. For example, <i>@env(PATH)</i>."
-msgstr ""
-
-#: widget/specials.cpp:130
-msgid "Executes an external shell command."
-msgstr "執行一個外部 Shell 命令。"
-
-#: widget/specials.cpp:132
-msgid "Parses an expression and returns computed value."
-msgstr ""
-
-#: widget/specials.cpp:134
-msgid ""
-"Executes loop: values from <i>items</i> list (passed as EOL-separated string) "
-"are assigned to the variable. "
-"<br> <i>@forEach(i,A\\nB\\nC\\n)"
-"<br>  @# @i=A"
-"<br>@endif</i>"
-msgstr ""
-
-#: widget/specials.cpp:136
-msgid ""
-"Executes loop: variable is set to <i>start</i> and is increased by <i>step</i> "
-"each time loop is executed. Execution stops when variable becomes larger then "
-"<i>end</i>. "
-"<br><i>@for(i,1,10,1)"
-"<br>  @# @i=1"
-"<br>@endif</i>."
-msgstr ""
-
-#: widget/specials.cpp:138
-msgid "Returns the value of a global variable."
-msgstr "傳回一個全域變數的數值。"
-
-#: widget/specials.cpp:140
-msgid ""
-"Translates the string into the current language. Texts in GUI would be "
-"automatically extracted for translation."
-msgstr ""
-
-#: widget/specials.cpp:142
-msgid ""
-"Executes block if expression is true (non-zero number or non-empty string.) "
-"<p>Close with <b>@endif</b></p>"
-msgstr ""
-
-#: widget/specials.cpp:144
-msgid ""
-"Executes another Kommander dialog. Current dialog directory is used if no path "
-"is given. Arguments may be given as named arguments which will become global "
-"variables in the new dialog. For instance: <i>var=val</i>"
-msgstr ""
-
-#: widget/specials.cpp:146
-msgid "Reads setting from configration file for this dialog."
-msgstr "為這個對話盒讀取設定檔案。"
-
-#: widget/specials.cpp:148
-msgid ""
-"Sets the value of a global variable. Global variables exist for the life of the "
-"Kommander window."
-msgstr "設定全域變數的數值。全域變數直至 Kommander 視窗消失之前都會存在。"
-
-#: widget/specials.cpp:150
-msgid "Stores setting in configuration file for this dialog."
-msgstr "為這個對話盒儲存設定至一個檔案。"
-
-#: widget/specials.cpp:152
-msgid ""
-"Begin of <b>switch</b> block. Following <b>case</b> values are compared to <i>"
-"expression</i>."
-"<p>@switch()"
-"<br>@case()"
-"<br>@end"
-msgstr ""
-
-#: widget/specials.cpp:154
-msgid "Executes an external DCOP call."
-msgstr "執行一個外部 DCOP 呼叫。"
-
-#: widget/specials.cpp:156
-msgid "Adds a comment to EOL that Kommander will not parse"
-msgstr ""
-
-#: widget/specials.cpp:160
-msgid "Returns an EOL-separated list of all values in the array."
-msgstr "以 EOL 分隔的列表，傳回陣列中所有的數值。"
-
-#: widget/specials.cpp:162
-msgid "Returns an EOL-separated list of all keys in the array."
-msgstr "以 EOL 分隔的列表，傳回陣列中所有的 Key。"
-
-#: widget/specials.cpp:164
-msgid "Removes all elements from the array."
-msgstr "移除所有陣列的元素。"
-
-#: widget/specials.cpp:166
-msgid "Returns the number of elements in the array."
-msgstr "傳回陣列中元素的數量。"
-
-#: widget/specials.cpp:168
-msgid "Returns the value associated with the given key."
-msgstr "傳回指定 Key 關聯的數值。"
-
-#: widget/specials.cpp:170
-msgid "Removes element with the given key from the array."
-msgstr "從陣列移除指定 Key 的元素。"
-
-#: widget/specials.cpp:172
-msgid "Adds element with the given key and value to the array"
-msgstr "加入指定 Key 及數值的元素至陣列"
-
-#: widget/specials.cpp:174
-msgid ""
-"Adds all elements in the string to the array. String should have <i>"
-"key\\tvalue\\n</i> format."
-msgstr ""
-"把字串中所有的元素加入至陣列中。字串必須是<i>key>\\tvalue\\n</i>的格式。"
-
-#: widget/specials.cpp:177
-msgid ""
-"Returns all elements in the array in "
-"<pre>key\\tvalue\\n</pre> format."
-msgstr ""
-"以<i>key>\\tvalue\\n</i>的格式，傳回陣列中所有的元素。"
-
-#: widget/specials.cpp:182
-msgid "Returns number of chars in the string."
-msgstr "傳回字串中字元的數目。"
-
-#: widget/specials.cpp:184
-msgid "Checks if the the string contains the given substring."
-msgstr "檢查字串是否包含指定的子字串。"
-
-#: widget/specials.cpp:186
-msgid ""
-"Returns the position of a substring in the string, or -1 if it is not found."
-msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。"
-
-#: widget/specials.cpp:188
-msgid ""
-"Returns the position of a substring in the string, or -1 if it is not found. "
-"String is searched backwards"
-msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。字串是倒轉來尋找的。"
-
-#: widget/specials.cpp:190
-msgid "Returns the first <i>n</i> chars of the string."
-msgstr "傳回字串最前<i>n</i> 個字元。"
-
-#: widget/specials.cpp:192
-msgid "Returns the last <i>n</i> chars of the string."
-msgstr "傳回字串最後<i>n</i>個字元。"
-
-#: widget/specials.cpp:194
-msgid "Returns <i>n</i> chars of the string, starting from <i>start</i>."
-msgstr "從字串的<i>start</i>位置開始，傳回<i>n</i>個字元。"
-
-#: widget/specials.cpp:196
-msgid "Removes all occurrences of given substring."
-msgstr "取代所有找到指定子字串的地方。"
-
-#: widget/specials.cpp:198
-msgid ""
-"Replaces all occurrences of the given substring with the given replacement."
-msgstr "把所有找到指定子字串的地方，替換為取代文字。"
-
-#: widget/specials.cpp:200
-msgid "Converts the string to uppercase."
-msgstr "把字串轉換成大寫的。"
-
-#: widget/specials.cpp:202
-msgid "Converts the string to lowercase."
-msgstr "把字串轉換成小寫的。"
-
-#: widget/specials.cpp:204
-msgid ""
-"Compares two strings. Returns 0 if they are equal, -1 if the first one is "
-"lower, 1 if the first one is higher"
-msgstr "比較兩個字串。相等的傳回 0，第二個較大就傳回 -1，第一個較大則傳回 1"
-
-#: widget/specials.cpp:207
-msgid "Checks if the string is empty."
-msgstr "檢查字串是否空白。"
-
-#: widget/specials.cpp:209
-msgid "Checks if the string is a valid number."
-msgstr "檢查字串是否一個有效的數字。"
-
-#: widget/specials.cpp:211
-msgid "Returns given section of a string."
-msgstr "傳回指定字串的一部份。"
-
-#: widget/specials.cpp:213
-msgid ""
-"Returns the given string with %1, %2, %3 replaced with <i>arg1</i>, <i>arg2</i>"
-", <i>arg3</i> accordingly."
-msgstr "傳回指定的字串，並且把字串中 %1, %2, %3 的部分以<i>arg1</i>，<i>arg2</i>，<i>arg3</i>分別取代。"
-
-#: widget/specials.cpp:217
-msgid "Returns content of given file."
-msgstr "傳回指定檔案的內容。"
-
-#: widget/specials.cpp:219
-msgid "Writes given string to a file."
-msgstr "寫入指定的字串到一個檔案。"
-
-#: widget/specials.cpp:221
-msgid "Appends given string to the end of a file."
-msgstr "附加指定的字串到一個檔案的結尾。"
-
-#: widget/specials.cpp:224
-msgid "Shows color dialog. Returns color in #RRGGBB format."
-msgstr "顯示顏色對話盒。以 #RRGGBB 的格式傳回顏色。"
-
-#: widget/specials.cpp:226
-msgid "Shows text selection dialog. Returns entered text."
-msgstr "顯示文字選擇對話盒。傳回輸入的文字。"
-
-#: widget/specials.cpp:228
-msgid "Shows a dialog asking user for password and returns it."
-msgstr "顯示密碼輸入對話盒並傳回密碼。"
-
-#: widget/specials.cpp:230
-msgid "Shows value selection dialog. Returns entered value."
-msgstr "顯示數值選擇對話盒。傳回輸入數值。"
-
-#: widget/specials.cpp:232
-msgid "Shows float value selection dialog. Returns entered value."
-msgstr "顯示浮點數值選擇對話盒。傳回輸入數值。"
-
-#: widget/specials.cpp:234
-msgid "Shows existing file selection dialog. Returns selected file."
-msgstr "顯示現存檔案選擇對話盒。傳回選擇的檔案。"
-
-#: widget/specials.cpp:236
-msgid "Shows save file selection dialog. Returns selected file."
-msgstr "顯示儲存檔案選擇對話盒。傳回選擇的檔案。"
-
-#: widget/specials.cpp:238
-msgid "Shows directory selection dialog. Returns selected directory."
-msgstr "顯示目錄選擇對話盒。傳回選擇的目錄。"
-
-#: widget/specials.cpp:240
-msgid ""
-"Shows multiple files selection dialog. Returns EOL-separated list of selected "
-"files."
-msgstr "顯示多個檔案的選擇對話盒。傳回以 EOL 分隔的選擇檔案列表。"
-
-#: widget/specials.cpp:244
-msgid "Shows an information dialog."
-msgstr "顯示一個資訊對話盒。"
-
-#: widget/specials.cpp:246
-msgid "Shows an error dialog."
-msgstr "顯示一個錯誤對話盒。"
-
-#: widget/specials.cpp:248
-msgid ""
-"Shows a warning dialog with up to three buttons. Returns number of selected "
-"button."
-msgstr "顯示一個警告對話盒，最多可有三個按鈕。傳回選擇按鈕的號碼。"
-
-#: widget/specials.cpp:250
-msgid ""
-"Shows a question dialog with up to three buttons. Returns number of selected "
-"button."
-msgstr "顯示一個問題對話盒，最多可有三個按鈕。傳回選擇按鈕的號碼。"
 
 #: widget/myprocess.cpp:94
 msgid "<qt>Failed to start shell process<br><b>%1</b></qt>"
 msgstr "<qt>無法啟動 shell 進程<br><b>%1</b></qt>"
 
-#: widget/kommanderfunctions.cpp:119
+#: widget/kommanderfunctions.cpp:120
 msgid "Unterminated @execBegin ... @execEnd block."
 msgstr ""
 
-#: widget/kommanderfunctions.cpp:137 widget/kommanderfunctions.cpp:163
+#: widget/kommanderfunctions.cpp:138 widget/kommanderfunctions.cpp:164
 msgid "Unterminated @forEach ... @end block."
 msgstr ""
 
-#: widget/kommanderfunctions.cpp:200
+#: widget/kommanderfunctions.cpp:201
 msgid "Unterminated @if ... @endif block."
 msgstr ""
 
-#: widget/kommanderfunctions.cpp:220
+#: widget/kommanderfunctions.cpp:221
 msgid "Unterminated @switch ... @end block."
 msgstr ""
 
-#: widget/kommanderfunctions.cpp:320
+#: widget/kommanderfunctions.cpp:321
 #, c-format
 msgid "Unknown widget: @%1."
 msgstr "未知的 Widget：@%1."
 
-#: widget/kommanderfunctions.cpp:338
+#: widget/kommanderfunctions.cpp:339
 msgid "Infinite loop: @%1 called inside @%2."
 msgstr "無限循環：@%1 在 @%2 之內被呼叫。"
 
-#: widget/kommanderfunctions.cpp:344
+#: widget/kommanderfunctions.cpp:345
 msgid "Script for @%1 is empty."
 msgstr "@%1 的指令稿是空的。"
 
@@ -4253,33 +4285,33 @@ msgstr ""
 "Widget %1 發生錯誤：\n"
 "  %2\n"
 
-#: widget/kommanderwidget.cpp:569
+#: widget/kommanderwidget.cpp:576
 msgid "Unmatched parenthesis after '%1'."
 msgstr ""
 
-#: widget/kommanderwidget.cpp:578
+#: widget/kommanderwidget.cpp:585
 msgid "Unmatched quotes in argument of '%1'."
 msgstr ""
 
-#: widget/kommanderwidget.cpp:580
+#: widget/kommanderwidget.cpp:587
 msgid "Unknown function group: '%1'."
 msgstr "未知的函式組別：'%1'。"
 
-#: widget/kommanderwidget.cpp:582
+#: widget/kommanderwidget.cpp:589
 msgid "Unknown function: '%1' in group '%2'."
 msgstr "未知的函式：'%1'，位於組別 '%2'。"
 
-#: widget/kommanderwidget.cpp:584
+#: widget/kommanderwidget.cpp:591
 msgid "Unknown widget function: '%1'."
 msgstr "未知的 Widget 函式： '%1'。"
 
-#: widget/kommanderwidget.cpp:586
+#: widget/kommanderwidget.cpp:593
 msgid ""
 "Not enough arguments for '%1' (%2 instead of %3)."
 "<p>Correct syntax is: %4"
 msgstr ""
 
-#: widget/kommanderwidget.cpp:591
+#: widget/kommanderwidget.cpp:598
 msgid "Too many arguments for '%1' (%2 instead of %3).<p>Correct syntax is: %4"
 msgstr ""
 
@@ -4307,27 +4339,27 @@ msgid ""
 msgstr ""
 "錯誤：沒有指定的對話盒。請使用 --stdin 選項從標準輸入讀取對話盒。\n"
 
-#: executor/instance.cpp:113
+#: executor/instance.cpp:114
 #, fuzzy
 msgid "<qt>Unable to create dialog.</qt>"
 msgstr "<qt>無法從這個檔案建立對話盒：<br><b>%1</b></qt>"
 
-#: executor/instance.cpp:183
+#: executor/instance.cpp:184
 msgid "<qt>Kommander file<br><b>%1</b><br>does not exist.</qt>"
 msgstr "<qt>Kommander 檔案<br><b>%1</b><br>並不存在。</qt>"
 
-#: executor/instance.cpp:191
+#: executor/instance.cpp:192
 msgid ""
 "<qt>This file does not have a <b>.kmdr</b> extension. As a security precaution "
 "Kommander will only run Kommander scripts with a clear identity.</qt>"
 msgstr ""
 "<qt>這個檔案不是以 <b>.kmdr</b> 作副檔名。基於安全的理由，Kommander只會執行這個形式為副檔名的 Kommander 指令稿。</qt>"
 
-#: executor/instance.cpp:193
+#: executor/instance.cpp:194
 msgid "Wrong Extension"
 msgstr "錯誤的副檔名"
 
-#: executor/instance.cpp:210
+#: executor/instance.cpp:211
 msgid ""
 "<qt>This dialog is running from your <i>/tmp</i> directory.  This may mean that "
 "it was run from a KMail attachment or from a webpage. "
@@ -4336,7 +4368,7 @@ msgid ""
 "<p>are you sure you want to continue?</qt>"
 msgstr ""
 
-#: executor/instance.cpp:214
+#: executor/instance.cpp:215
 msgid "Run Nevertheless"
 msgstr "仍然執行"
 
