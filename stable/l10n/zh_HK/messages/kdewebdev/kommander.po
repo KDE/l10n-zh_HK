@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-01-18 01:20+0100\n"
+"POT-Creation-Date: 2008-01-19 01:19+0100\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -77,9 +77,9 @@ msgstr "stanley18fan0k@yahoo.com.hk"
 
 #. i18n: file ./editor/templates/Configuration_Dialog.ui line 31
 #: editor/iconvieweditorimpl.cpp:57 editor/listboxeditorimpl.cpp:61
-#: editor/widgetfactory.cpp:839 editor/widgetfactory.cpp:872
-#: editor/widgetfactory.cpp:883 editor/widgetfactory.cpp:1074
-#: editor/widgetfactory.cpp:1162 rc.cpp:1382
+#: editor/widgetfactory.cpp:838 editor/widgetfactory.cpp:871
+#: editor/widgetfactory.cpp:882 editor/widgetfactory.cpp:1073
+#: editor/widgetfactory.cpp:1163 rc.cpp:1382
 #, no-c-format
 msgid "New Item"
 msgstr "新增項目"
@@ -443,30 +443,30 @@ msgstr "<無區域>"
 msgid "Edit Rows and Columns of '%1' "
 msgstr "編輯 '%1' 的列及欄"
 
-#: editor/widgetfactory.cpp:288 editor/widgetfactory.cpp:568
+#: editor/widgetfactory.cpp:287 editor/widgetfactory.cpp:567
 msgid "Move Tab Page"
 msgstr "移動分頁頁面"
 
 #. i18n: file ./editor/listeditor.ui line 31
-#: editor/widgetfactory.cpp:882 editor/widgetfactory.cpp:1073
-#: editor/widgetfactory.cpp:1161 rc.cpp:894
+#: editor/widgetfactory.cpp:881 editor/widgetfactory.cpp:1072
+#: editor/widgetfactory.cpp:1162 rc.cpp:894
 #, no-c-format
 msgid "Column 1"
 msgstr "欄 1"
 
-#: editor/widgetfactory.cpp:915 editor/widgetfactory.cpp:1117
+#: editor/widgetfactory.cpp:914 editor/widgetfactory.cpp:1116
 msgid "Tab 1"
 msgstr "分頁 1"
 
-#: editor/widgetfactory.cpp:918 editor/widgetfactory.cpp:1120
+#: editor/widgetfactory.cpp:917 editor/widgetfactory.cpp:1119
 msgid "Tab 2"
 msgstr "分頁 2"
 
-#: editor/widgetfactory.cpp:1104
+#: editor/widgetfactory.cpp:1103
 msgid "Page 1"
 msgstr "頁面 1"
 
-#: editor/widgetfactory.cpp:1105
+#: editor/widgetfactory.cpp:1104
 msgid "Page 2"
 msgstr "頁面 2"
 
@@ -1851,13 +1851,13 @@ msgstr "依格線分散編排子項目"
 msgid "Slots"
 msgstr "Slot"
 
-#: editor/functionsimpl.cpp:166
+#: editor/functionsimpl.cpp:169
 msgid ""
 "To learn more about the slot, look at the documentation of the base Qt/KDE "
 "class, most probably <i>%1</i>."
 msgstr ""
 
-#: editor/functionsimpl.cpp:170 editor/functionsimpl.cpp:191
+#: editor/functionsimpl.cpp:173 editor/functionsimpl.cpp:194
 msgid ""
 "<qt>"
 "<h3>%1</h3>"
@@ -1869,11 +1869,11 @@ msgstr ""
 "<p><b>描述：</b> %2\n"
 "<p><b>語法：</b> <i>%3</i>%4</qt>"
 
-#: editor/functionsimpl.cpp:180
+#: editor/functionsimpl.cpp:183
 msgid "<p>Parameters are not obligatory."
 msgstr "<p>參數不是必須的。"
 
-#: editor/functionsimpl.cpp:183
+#: editor/functionsimpl.cpp:186
 #, c-format
 msgid ""
 "_n: "
@@ -2215,185 +2215,199 @@ msgid ""
 "Creates a new widget with the specified type and as the child of parent."
 msgstr ""
 
+#: plugin/specialinformation.cpp:431
+msgid ""
+"Returns true if there is a widget with the passed name, false otherwise."
+msgstr ""
+
 #: plugin/specialinformation.cpp:433
+msgid "Connects the signal of sender with the slot of the receiver"
+msgstr ""
+
+#: plugin/specialinformation.cpp:435
+#, fuzzy
+msgid "Disconnects the signal of sender from the slot of the receiver"
+msgstr "顯示發出者及接收者之間的連接。"
+
+#: plugin/specialinformation.cpp:439
 msgid "Returns an EOL-separated list of all values in the array."
 msgstr "以 EOL 分隔的列表，傳回陣列中所有的數值。"
 
-#: plugin/specialinformation.cpp:435
+#: plugin/specialinformation.cpp:441
 msgid "Returns an EOL-separated list of all keys in the array."
 msgstr "以 EOL 分隔的列表，傳回陣列中所有的 Key。"
 
-#: plugin/specialinformation.cpp:437
+#: plugin/specialinformation.cpp:443
 msgid "Removes all elements from the array."
 msgstr "移除所有陣列的元素。"
 
-#: plugin/specialinformation.cpp:439
+#: plugin/specialinformation.cpp:445
 msgid "Returns the number of elements in the array."
 msgstr "傳回陣列中元素的數量。"
 
-#: plugin/specialinformation.cpp:441
+#: plugin/specialinformation.cpp:447
 msgid "Returns the value associated with the given key."
 msgstr "傳回指定 Key 關聯的數值。"
 
-#: plugin/specialinformation.cpp:443
+#: plugin/specialinformation.cpp:449
 msgid "Removes element with the given key from the array."
 msgstr "從陣列移除指定 Key 的元素。"
 
-#: plugin/specialinformation.cpp:445
+#: plugin/specialinformation.cpp:451
 msgid "Adds element with the given key and value to the array"
 msgstr "加入指定 Key 及數值的元素至陣列"
 
-#: plugin/specialinformation.cpp:447
+#: plugin/specialinformation.cpp:453
 msgid ""
 "Adds all elements in the string to the array. String should have <i>"
 "key\\tvalue\\n</i> format."
 msgstr ""
 "把字串中所有的元素加入至陣列中。字串必須是<i>key>\\tvalue\\n</i>的格式。"
 
-#: plugin/specialinformation.cpp:450
+#: plugin/specialinformation.cpp:456
 msgid ""
 "Returns all elements in the array in "
 "<pre>key\\tvalue\\n</pre> format."
 msgstr ""
 "以<i>key>\\tvalue\\n</i>的格式，傳回陣列中所有的元素。"
 
-#: plugin/specialinformation.cpp:455
+#: plugin/specialinformation.cpp:461
 msgid "Returns number of chars in the string."
 msgstr "傳回字串中字元的數目。"
 
-#: plugin/specialinformation.cpp:457
+#: plugin/specialinformation.cpp:463
 msgid "Checks if the the string contains the given substring."
 msgstr "檢查字串是否包含指定的子字串。"
 
-#: plugin/specialinformation.cpp:459
+#: plugin/specialinformation.cpp:465
 msgid ""
 "Returns the position of a substring in the string, or -1 if it is not found."
 msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。"
 
-#: plugin/specialinformation.cpp:461
+#: plugin/specialinformation.cpp:467
 msgid ""
 "Returns the position of a substring in the string, or -1 if it is not found. "
 "String is searched backwards"
 msgstr "傳回子字串在字串中的位置，找不到的話傳回 -1。字串是倒轉來尋找的。"
 
-#: plugin/specialinformation.cpp:463
+#: plugin/specialinformation.cpp:469
 msgid "Returns the first <i>n</i> chars of the string."
 msgstr "傳回字串最前<i>n</i> 個字元。"
 
-#: plugin/specialinformation.cpp:465
+#: plugin/specialinformation.cpp:471
 msgid "Returns the last <i>n</i> chars of the string."
 msgstr "傳回字串最後<i>n</i>個字元。"
 
-#: plugin/specialinformation.cpp:467
+#: plugin/specialinformation.cpp:473
 msgid "Returns <i>n</i> chars of the string, starting from <i>start</i>."
 msgstr "從字串的<i>start</i>位置開始，傳回<i>n</i>個字元。"
 
-#: plugin/specialinformation.cpp:469
+#: plugin/specialinformation.cpp:475
 msgid "Removes all occurrences of given substring."
 msgstr "取代所有找到指定子字串的地方。"
 
-#: plugin/specialinformation.cpp:471
+#: plugin/specialinformation.cpp:477
 msgid ""
 "Replaces all occurrences of the given substring with the given replacement."
 msgstr "把所有找到指定子字串的地方，替換為取代文字。"
 
-#: plugin/specialinformation.cpp:473
+#: plugin/specialinformation.cpp:479
 msgid "Converts the string to uppercase."
 msgstr "把字串轉換成大寫的。"
 
-#: plugin/specialinformation.cpp:475
+#: plugin/specialinformation.cpp:481
 msgid "Converts the string to lowercase."
 msgstr "把字串轉換成小寫的。"
 
-#: plugin/specialinformation.cpp:477
+#: plugin/specialinformation.cpp:483
 msgid ""
 "Compares two strings. Returns 0 if they are equal, -1 if the first one is "
 "lower, 1 if the first one is higher"
 msgstr "比較兩個字串。相等的傳回 0，第二個較大就傳回 -1，第一個較大則傳回 1"
 
-#: plugin/specialinformation.cpp:480
+#: plugin/specialinformation.cpp:486
 msgid "Checks if the string is empty."
 msgstr "檢查字串是否空白。"
 
-#: plugin/specialinformation.cpp:482
+#: plugin/specialinformation.cpp:488
 msgid "Checks if the string is a valid number."
 msgstr "檢查字串是否一個有效的數字。"
 
-#: plugin/specialinformation.cpp:484
+#: plugin/specialinformation.cpp:490
 msgid "Returns given section of a string."
 msgstr "傳回指定字串的一部份。"
 
-#: plugin/specialinformation.cpp:486
+#: plugin/specialinformation.cpp:492
 msgid ""
 "Returns the given string with %1, %2, %3 replaced with <i>arg1</i>, <i>arg2</i>"
 ", <i>arg3</i> accordingly."
 msgstr "傳回指定的字串，並且把字串中 %1, %2, %3 的部分以<i>arg1</i>，<i>arg2</i>，<i>arg3</i>分別取代。"
 
-#: plugin/specialinformation.cpp:490
+#: plugin/specialinformation.cpp:496
 msgid "Returns content of given file."
 msgstr "傳回指定檔案的內容。"
 
-#: plugin/specialinformation.cpp:492
+#: plugin/specialinformation.cpp:498
 msgid "Writes given string to a file."
 msgstr "寫入指定的字串到一個檔案。"
 
-#: plugin/specialinformation.cpp:494
+#: plugin/specialinformation.cpp:500
 msgid "Appends given string to the end of a file."
 msgstr "附加指定的字串到一個檔案的結尾。"
 
-#: plugin/specialinformation.cpp:497
+#: plugin/specialinformation.cpp:503
 msgid "Shows color dialog. Returns color in #RRGGBB format."
 msgstr "顯示顏色對話盒。以 #RRGGBB 的格式傳回顏色。"
 
-#: plugin/specialinformation.cpp:499
+#: plugin/specialinformation.cpp:505
 msgid "Shows text selection dialog. Returns entered text."
 msgstr "顯示文字選擇對話盒。傳回輸入的文字。"
 
-#: plugin/specialinformation.cpp:501
+#: plugin/specialinformation.cpp:507
 msgid "Shows a dialog asking user for password and returns it."
 msgstr "顯示密碼輸入對話盒並傳回密碼。"
 
-#: plugin/specialinformation.cpp:503
+#: plugin/specialinformation.cpp:509
 msgid "Shows value selection dialog. Returns entered value."
 msgstr "顯示數值選擇對話盒。傳回輸入數值。"
 
-#: plugin/specialinformation.cpp:505
+#: plugin/specialinformation.cpp:511
 msgid "Shows float value selection dialog. Returns entered value."
 msgstr "顯示浮點數值選擇對話盒。傳回輸入數值。"
 
-#: plugin/specialinformation.cpp:507
+#: plugin/specialinformation.cpp:513
 msgid "Shows existing file selection dialog. Returns selected file."
 msgstr "顯示現存檔案選擇對話盒。傳回選擇的檔案。"
 
-#: plugin/specialinformation.cpp:509
+#: plugin/specialinformation.cpp:515
 msgid "Shows save file selection dialog. Returns selected file."
 msgstr "顯示儲存檔案選擇對話盒。傳回選擇的檔案。"
 
-#: plugin/specialinformation.cpp:511
+#: plugin/specialinformation.cpp:517
 msgid "Shows directory selection dialog. Returns selected directory."
 msgstr "顯示目錄選擇對話盒。傳回選擇的目錄。"
 
-#: plugin/specialinformation.cpp:513
+#: plugin/specialinformation.cpp:519
 msgid ""
 "Shows multiple files selection dialog. Returns EOL-separated list of selected "
 "files."
 msgstr "顯示多個檔案的選擇對話盒。傳回以 EOL 分隔的選擇檔案列表。"
 
-#: plugin/specialinformation.cpp:517
+#: plugin/specialinformation.cpp:523
 msgid "Shows an information dialog."
 msgstr "顯示一個資訊對話盒。"
 
-#: plugin/specialinformation.cpp:519
+#: plugin/specialinformation.cpp:525
 msgid "Shows an error dialog."
 msgstr "顯示一個錯誤對話盒。"
 
-#: plugin/specialinformation.cpp:521
+#: plugin/specialinformation.cpp:527
 msgid ""
 "Shows a warning dialog with up to three buttons. Returns number of selected "
 "button."
 msgstr "顯示一個警告對話盒，最多可有三個按鈕。傳回選擇按鈕的號碼。"
 
-#: plugin/specialinformation.cpp:523
+#: plugin/specialinformation.cpp:529
 msgid ""
 "Shows a question dialog with up to three buttons. Returns number of selected "
 "button."
@@ -2852,76 +2866,76 @@ msgstr "參數(&P)："
 #. i18n: file ./editor/functions.ui line 76
 #: rc.cpp:256
 #, no-c-format
-msgid "Widget:"
-msgstr "Widget:"
+msgid "Arg3"
+msgstr "Arg3"
 
 #. i18n: file ./editor/functions.ui line 84
 #: rc.cpp:259
 #, no-c-format
-msgid "Arg3"
-msgstr "Arg3"
-
-#. i18n: file ./editor/functions.ui line 92
-#: rc.cpp:262
-#, no-c-format
 msgid "Arg5"
 msgstr "Arg5"
 
-#. i18n: file ./editor/functions.ui line 134
-#: rc.cpp:266
+#. i18n: file ./editor/functions.ui line 126
+#: rc.cpp:263
 #, no-c-format
 msgid "Insert function"
 msgstr "插入函式"
 
-#. i18n: file ./editor/functions.ui line 160
-#: rc.cpp:269
+#. i18n: file ./editor/functions.ui line 134
+#: rc.cpp:266
 #, no-c-format
 msgid "Arg2"
 msgstr "Arg2"
 
-#. i18n: file ./editor/functions.ui line 168
-#: rc.cpp:272
+#. i18n: file ./editor/functions.ui line 142
+#: rc.cpp:269
 #, no-c-format
 msgid "Arg4"
 msgstr "Arg4"
 
-#. i18n: file ./editor/functions.ui line 240
-#: rc.cpp:275
+#. i18n: file ./editor/functions.ui line 150
+#: rc.cpp:272
 #, no-c-format
 msgid "Arg6"
 msgstr "Arg6"
 
-#. i18n: file ./editor/functions.ui line 279
-#: rc.cpp:278
+#. i18n: file ./editor/functions.ui line 171
+#: rc.cpp:275
 #, no-c-format
 msgid "Arg1"
 msgstr "Arg1"
 
-#. i18n: file ./editor/functions.ui line 309
+#. i18n: file ./editor/functions.ui line 179
+#: rc.cpp:278
+#, no-c-format
+msgid "Widget:"
+msgstr "Widget:"
+
+#. i18n: file ./editor/functions.ui line 428
 #: rc.cpp:282
 #, no-c-format
 msgid "Clear edited text"
 msgstr "清除編輯過的文字"
 
-#. i18n: file ./editor/functions.ui line 317
+#. i18n: file ./editor/functions.ui line 436
 #: rc.cpp:285
 #, no-c-format
 msgid "Inserted &text:"
 msgstr "插入的文字(&T)："
 
-#. i18n: file ./editor/functions.ui line 328
+#. i18n: file ./editor/functions.ui line 447
 #: rc.cpp:288
 #, no-c-format
 msgid "Text to be inserted"
 msgstr "要插入的文字"
 
-#. i18n: file ./editor/functions.ui line 421
+#. i18n: file ./editor/functions.ui line 540
 #: rc.cpp:299
 #, no-c-format
 msgid "&Group:"
 msgstr "組別(&G)："
 
-#. i18n: file ./editor/functions.ui line 451
+#. i18n: file ./editor/functions.ui line 570
 #: rc.cpp:302
 #, no-c-format
 msgid "&Function:"
@@ -4182,43 +4196,43 @@ msgstr "無效的字元：'%1'"
 msgid "Constant value expected"
 msgstr ""
 
-#: widget/parser.cpp:216 widget/parser.cpp:497
+#: widget/parser.cpp:218 widget/parser.cpp:506
 msgid "'%1' is not a widget"
 msgstr "'%1' 不是一個 Widget"
 
-#: widget/parser.cpp:221 widget/parser.cpp:500
+#: widget/parser.cpp:230 widget/parser.cpp:509
 msgid "'%1' is not a function"
 msgstr "'%1' 不是一個函式"
 
-#: widget/parser.cpp:232
+#: widget/parser.cpp:241
 msgid "Expected value"
 msgstr "預期的數值"
 
-#: widget/parser.cpp:257 widget/parser.cpp:267
+#: widget/parser.cpp:266 widget/parser.cpp:276
 msgid "Divide by zero"
 msgstr ""
 
-#: widget/parser.cpp:412 widget/parser.cpp:414 widget/parser.cpp:420
+#: widget/parser.cpp:421 widget/parser.cpp:423 widget/parser.cpp:429
 msgid "in function '%1': %2"
 msgstr "在函數 '%1'中：%2"
 
-#: widget/parser.cpp:412
+#: widget/parser.cpp:421
 msgid "too few parameters"
 msgstr "參數太少"
 
-#: widget/parser.cpp:414
+#: widget/parser.cpp:423
 msgid "too many parameters"
 msgstr "參數太多"
 
-#: widget/parser.cpp:460
+#: widget/parser.cpp:469
 msgid "in widget function '%1.%2': %3"
 msgstr "在 Widget 函數 '%1.%2' 中： %3"
 
-#: widget/parser.cpp:502
+#: widget/parser.cpp:511
 msgid "Unexpected symbol after variable '%1'"
 msgstr "變數 '%1' 有著未預料到的符號(symbol)"
 
-#: widget/parser.cpp:720
+#: widget/parser.cpp:729
 msgid ""
 "Expected '%1'"
 "<br>"
@@ -4226,11 +4240,11 @@ msgid ""
 "widget"
 msgstr ""
 
-#: widget/parser.cpp:722
+#: widget/parser.cpp:731
 msgid "Expected '%1'"
 msgstr "預期的 '%1'"
 
-#: widget/parser.cpp:736 widget/parser.cpp:749
+#: widget/parser.cpp:745 widget/parser.cpp:758
 msgid "Expected variable"
 msgstr "預期的變數"
 
@@ -4506,6 +4520,47 @@ msgstr "寫入指定的字串到一個檔案。"
 #: executor/register.cpp:99
 msgid "Append given string to the end of a file."
 msgstr "附加指定的字串到一個檔案的結尾。"
+
+#: widgets/popupmenu.cpp:54
+msgid ""
+"Insert an item into the popup menu. The executeWidget's execute method will be "
+"run when this item is selected. Returns the id of the inserted item. Use -1 for "
+"index to insert to the end."
+msgstr ""
+
+#: widgets/popupmenu.cpp:55
+msgid ""
+"Insert a separator item into the popup menu. Use -1 for index to insert to the "
+"end."
+msgstr ""
+
+#: widgets/popupmenu.cpp:56
+msgid ""
+"Change an item specified by id in the popup menu. The executeWidget's execute "
+"method will be run when this item is selected."
+msgstr ""
+
+#: widgets/popupmenu.cpp:57
+msgid "Enable the item specified by id in the popup menu."
+msgstr ""
+
+#: widgets/popupmenu.cpp:58
+msgid "Check if the item specified by id is enabled."
+msgstr ""
+
+#: widgets/popupmenu.cpp:59
+msgid "Make the item specified by id visible."
+msgstr ""
+
+#: widgets/popupmenu.cpp:60
+msgid "Check if the item specified by id is visible."
+msgstr ""
+
+#: widgets/popupmenu.cpp:61
+msgid ""
+"Insert submenu widget into the popup menu. Use -1 for index to insert to the "
+"end."
+msgstr ""
 
 #: widgets/closebutton.cpp:116
 msgid "Failed to start shell process."
