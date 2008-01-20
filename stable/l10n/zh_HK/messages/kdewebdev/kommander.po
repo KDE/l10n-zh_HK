@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-01-19 01:19+0100\n"
+"POT-Creation-Date: 2008-01-20 01:32+0100\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -77,9 +77,9 @@ msgstr "stanley18fan0k@yahoo.com.hk"
 
 #. i18n: file ./editor/templates/Configuration_Dialog.ui line 31
 #: editor/iconvieweditorimpl.cpp:57 editor/listboxeditorimpl.cpp:61
-#: editor/widgetfactory.cpp:838 editor/widgetfactory.cpp:871
-#: editor/widgetfactory.cpp:882 editor/widgetfactory.cpp:1073
-#: editor/widgetfactory.cpp:1163 rc.cpp:1382
+#: editor/widgetfactory.cpp:887 editor/widgetfactory.cpp:920
+#: editor/widgetfactory.cpp:931 editor/widgetfactory.cpp:1122
+#: editor/widgetfactory.cpp:1228 rc.cpp:1382
 #, no-c-format
 msgid "New Item"
 msgstr "新增項目"
@@ -443,30 +443,30 @@ msgstr "<無區域>"
 msgid "Edit Rows and Columns of '%1' "
 msgstr "編輯 '%1' 的列及欄"
 
-#: editor/widgetfactory.cpp:287 editor/widgetfactory.cpp:567
+#: editor/widgetfactory.cpp:288 editor/widgetfactory.cpp:568
 msgid "Move Tab Page"
 msgstr "移動分頁頁面"
 
 #. i18n: file ./editor/listeditor.ui line 31
-#: editor/widgetfactory.cpp:881 editor/widgetfactory.cpp:1072
-#: editor/widgetfactory.cpp:1162 rc.cpp:894
+#: editor/widgetfactory.cpp:930 editor/widgetfactory.cpp:1121
+#: editor/widgetfactory.cpp:1227 rc.cpp:894
 #, no-c-format
 msgid "Column 1"
 msgstr "欄 1"
 
-#: editor/widgetfactory.cpp:914 editor/widgetfactory.cpp:1116
+#: editor/widgetfactory.cpp:963 editor/widgetfactory.cpp:1165
 msgid "Tab 1"
 msgstr "分頁 1"
 
-#: editor/widgetfactory.cpp:917 editor/widgetfactory.cpp:1119
+#: editor/widgetfactory.cpp:966 editor/widgetfactory.cpp:1168
 msgid "Tab 2"
 msgstr "分頁 2"
 
-#: editor/widgetfactory.cpp:1103
+#: editor/widgetfactory.cpp:1152 editor/widgetfactory.cpp:1180
 msgid "Page 1"
 msgstr "頁面 1"
 
-#: editor/widgetfactory.cpp:1104
+#: editor/widgetfactory.cpp:1153 editor/widgetfactory.cpp:1183
 msgid "Page 2"
 msgstr "頁面 2"
 
@@ -960,7 +960,7 @@ msgid "Set Text of '%1'"
 msgstr "設定 '%1' 的文字"
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 198
-#: editor/mainwindow.cpp:999 editor/mainwindow.cpp:1467
+#: editor/mainwindow.cpp:1009 editor/mainwindow.cpp:1495
 #: editor/multilineeditorimpl.cpp:68 rc.cpp:145
 #, no-c-format
 msgid "Text"
@@ -1007,16 +1007,16 @@ msgstr "Kommander 對話盒編輯器"
 msgid "Edit Wizard Pages"
 msgstr "編輯精靈的頁面"
 
-#: editor/hierarchyview.cpp:507 editor/hierarchyview.cpp:513
-#: editor/mainwindow.cpp:1063 editor/mainwindow.cpp:1098
-#: editor/wizardeditorimpl.cpp:112
+#: editor/hierarchyview.cpp:518 editor/hierarchyview.cpp:524
+#: editor/mainwindow.cpp:1073 editor/mainwindow.cpp:1091
+#: editor/mainwindow.cpp:1126 editor/wizardeditorimpl.cpp:112
 #, c-format
 msgid "Add Page to %1"
 msgstr "加入頁面至 %1"
 
-#: editor/hierarchyview.cpp:529 editor/hierarchyview.cpp:539
-#: editor/mainwindow.cpp:1070 editor/mainwindow.cpp:1105
-#: editor/wizardeditorimpl.cpp:130
+#: editor/hierarchyview.cpp:540 editor/hierarchyview.cpp:550
+#: editor/mainwindow.cpp:1080 editor/mainwindow.cpp:1098
+#: editor/mainwindow.cpp:1133 editor/wizardeditorimpl.cpp:130
 msgid "Delete Page %1 of %2"
 msgstr "刪除 %2 的頁面 %1"
 
@@ -1024,17 +1024,17 @@ msgstr "刪除 %2 的頁面 %1"
 msgid "Swap Pages %1 and %2 of %3"
 msgstr "換轉 %3 的頁面 %1 及 %2"
 
-#: editor/mainwindow.cpp:1024 editor/mainwindow.cpp:1119
+#: editor/mainwindow.cpp:1034 editor/mainwindow.cpp:1147
 #: editor/wizardeditorimpl.cpp:200
 msgid "Page Title"
 msgstr "頁面標題"
 
-#: editor/mainwindow.cpp:1024 editor/mainwindow.cpp:1119
+#: editor/mainwindow.cpp:1034 editor/mainwindow.cpp:1147
 #: editor/wizardeditorimpl.cpp:200
 msgid "New page title:"
 msgstr "新的頁面標題："
 
-#: editor/mainwindow.cpp:1121 editor/wizardeditorimpl.cpp:202
+#: editor/mainwindow.cpp:1149 editor/wizardeditorimpl.cpp:202
 msgid "Rename page %1 of %2"
 msgstr "重新命名 %2 的頁面 %1"
 
@@ -1446,7 +1446,7 @@ msgstr "類別"
 msgid "Database"
 msgstr "資料庫"
 
-#: editor/choosewidgetimpl.cpp:38 editor/hierarchyview.cpp:596
+#: editor/choosewidgetimpl.cpp:38 editor/hierarchyview.cpp:607
 #: editor/mainwindow.cpp:262
 msgid "Widgets"
 msgstr "Widgets"
@@ -1611,89 +1611,89 @@ msgstr "編輯文字..."
 msgid "Edit Title..."
 msgstr "編輯標題..."
 
-#: editor/mainwindow.cpp:906 editor/mainwindow.cpp:974
+#: editor/mainwindow.cpp:906 editor/mainwindow.cpp:984
 msgid "Edit Page Title..."
 msgstr "編輯頁面標題..."
 
-#: editor/mainwindow.cpp:922 editor/mainwindow.cpp:957
+#: editor/mainwindow.cpp:922 editor/mainwindow.cpp:967
 msgid "Edit Kommander Text..."
 msgstr "編輯 Kommander 文字..."
 
-#: editor/mainwindow.cpp:931 editor/mainwindow.cpp:967
-#: editor/mainwindow.cpp:1389
+#: editor/mainwindow.cpp:931 editor/mainwindow.cpp:941
+#: editor/mainwindow.cpp:977 editor/mainwindow.cpp:1417
 msgid "Delete Page"
 msgstr "刪除頁面"
 
-#: editor/mainwindow.cpp:934 editor/mainwindow.cpp:971
-#: editor/mainwindow.cpp:1388
+#: editor/mainwindow.cpp:934 editor/mainwindow.cpp:944
+#: editor/mainwindow.cpp:981 editor/mainwindow.cpp:1416
 msgid "Add Page"
 msgstr "加入頁面"
 
-#: editor/mainwindow.cpp:941
+#: editor/mainwindow.cpp:951
 msgid "Edit..."
 msgstr "編輯..."
 
-#: editor/mainwindow.cpp:977
+#: editor/mainwindow.cpp:987
 msgid "Edit Pages..."
 msgstr "編輯頁面..."
 
-#: editor/mainwindow.cpp:983
+#: editor/mainwindow.cpp:993
 msgid "Add Menu Item"
 msgstr "加入選單項目"
 
-#: editor/mainwindow.cpp:985
+#: editor/mainwindow.cpp:995
 msgid "Add Toolbar"
 msgstr "加入工具列"
 
-#: editor/mainwindow.cpp:999 editor/mainwindow.cpp:1467
+#: editor/mainwindow.cpp:1009 editor/mainwindow.cpp:1495
 msgid "New text:"
 msgstr "新的文字："
 
-#: editor/mainwindow.cpp:1002
+#: editor/mainwindow.cpp:1012
 msgid "Set the 'text' of '%1'"
 msgstr "設定 '%1' 的「文字」"
 
-#: editor/mainwindow.cpp:1012 editor/mainwindow.cpp:1483
+#: editor/mainwindow.cpp:1022 editor/mainwindow.cpp:1511
 msgid "Title"
 msgstr "標題"
 
-#: editor/mainwindow.cpp:1012 editor/mainwindow.cpp:1483
+#: editor/mainwindow.cpp:1022 editor/mainwindow.cpp:1511
 msgid "New title:"
 msgstr "新標題："
 
-#: editor/mainwindow.cpp:1014
+#: editor/mainwindow.cpp:1024
 msgid "Set the 'title' of '%1'"
 msgstr "設定 '%1' 的「標題」"
 
-#: editor/mainwindow.cpp:1026
+#: editor/mainwindow.cpp:1036
 msgid "Set the 'pageTitle' of '%1'"
 msgstr "設定 '%1' 的「頁面標題」"
 
-#: editor/mainwindow.cpp:1038
+#: editor/mainwindow.cpp:1048
 msgid "Set the 'pixmap' of '%1'"
 msgstr "設定 '%1' 的「點陣圖」"
 
-#: editor/mainwindow.cpp:1131
+#: editor/mainwindow.cpp:1159
 msgid "Add Toolbar to '%1'"
 msgstr "加入工具列至 '%1'"
 
-#: editor/mainwindow.cpp:1135
+#: editor/mainwindow.cpp:1163
 msgid "Add Menu to '%1'"
 msgstr "加入選單至 '%1'"
 
-#: editor/mainwindow.cpp:1452
+#: editor/mainwindow.cpp:1480
 msgid "Edit %1..."
 msgstr "編輯 %1..."
 
-#: editor/mainwindow.cpp:1470
+#: editor/mainwindow.cpp:1498
 msgid "Set the 'text' of '%2'"
 msgstr "設定 '%2' 的「文字」"
 
-#: editor/mainwindow.cpp:1485
+#: editor/mainwindow.cpp:1513
 msgid "Set the 'title' of '%2'"
 msgstr "設定 '%2' 的「標題」"
 
-#: editor/mainwindow.cpp:1573
+#: editor/mainwindow.cpp:1601
 msgid ""
 "Kommander found some temporary saved files, which were\n"
 "written when Kommander crashed last time. Do you want to\n"
@@ -1702,27 +1702,27 @@ msgstr ""
 "Kommander 找到一些暫存的檔案，是在上一次 Kommander\n"
 "當機時所留下的。您要載入這些檔案嗎?"
 
-#: editor/mainwindow.cpp:1575
+#: editor/mainwindow.cpp:1603
 msgid "Restoring Last Session"
 msgstr "恢復上一次的工作階段"
 
-#: editor/mainwindow.cpp:1575
+#: editor/mainwindow.cpp:1603
 msgid "Load"
 msgstr "載入"
 
-#: editor/mainwindow.cpp:1575
+#: editor/mainwindow.cpp:1603
 msgid "Do Not Load"
 msgstr "不要載入"
 
-#: editor/mainwindow.cpp:1628
+#: editor/mainwindow.cpp:1656
 msgid "There is no help available for this dialog at the moment."
 msgstr "目前來說並沒有這個對話盒的說明。"
 
-#: editor/mainwindow.cpp:1642
+#: editor/mainwindow.cpp:1670
 msgid "<qt>Could not open file:<br><b>%1</b><br>File does not exist.</qt>"
 msgstr "<qt>無法開啟檔案：<br><b>%1</b><br>檔案不存在。</qt>"
 
-#: editor/mainwindow.cpp:1643
+#: editor/mainwindow.cpp:1671
 msgid "Open File"
 msgstr "開啟檔案"
 
@@ -4196,11 +4196,11 @@ msgstr "無效的字元：'%1'"
 msgid "Constant value expected"
 msgstr ""
 
-#: widget/parser.cpp:218 widget/parser.cpp:506
+#: widget/parser.cpp:218 widget/parser.cpp:512
 msgid "'%1' is not a widget"
 msgstr "'%1' 不是一個 Widget"
 
-#: widget/parser.cpp:230 widget/parser.cpp:509
+#: widget/parser.cpp:230 widget/parser.cpp:515
 msgid "'%1' is not a function"
 msgstr "'%1' 不是一個函式"
 
@@ -4228,11 +4228,11 @@ msgstr "參數太多"
 msgid "in widget function '%1.%2': %3"
 msgstr "在 Widget 函數 '%1.%2' 中： %3"
 
-#: widget/parser.cpp:511
+#: widget/parser.cpp:517
 msgid "Unexpected symbol after variable '%1'"
 msgstr "變數 '%1' 有著未預料到的符號(symbol)"
 
-#: widget/parser.cpp:729
+#: widget/parser.cpp:735
 msgid ""
 "Expected '%1'"
 "<br>"
@@ -4240,11 +4240,11 @@ msgid ""
 "widget"
 msgstr ""
 
-#: widget/parser.cpp:731
+#: widget/parser.cpp:737
 msgid "Expected '%1'"
 msgstr "預期的 '%1'"
 
-#: widget/parser.cpp:745 widget/parser.cpp:758
+#: widget/parser.cpp:751 widget/parser.cpp:764
 msgid "Expected variable"
 msgstr "預期的變數"
 
@@ -4561,6 +4561,48 @@ msgid ""
 "Insert submenu widget into the popup menu. Use -1 for index to insert to the "
 "end."
 msgstr ""
+
+#: widgets/toolbox.cpp:39
+msgid "Adds a widget to the toolbox. Returns the index of the widget."
+msgstr ""
+
+#: widgets/toolbox.cpp:41
+#, fuzzy
+msgid "Returns the name of the active widget."
+msgstr "傳回指定項目索引的文字。"
+
+#: widgets/toolbox.cpp:42
+msgid ""
+"Remove the selected widget, returns the index of the removed widget or -1 if no "
+"such widget was found."
+msgstr ""
+
+#: widgets/toolbox.cpp:43
+msgid ""
+"Remove the widget from the index position, returns the index of the removed "
+"widget or -1 if no widget was found."
+msgstr ""
+
+#: widgets/toolbox.cpp:45
+#, fuzzy
+msgid "Activates the selected widget."
+msgstr "把所選的 Widget 移上一層"
+
+#: widgets/toolbox.cpp:47
+#, fuzzy
+msgid "Returns the index of the active widget."
+msgstr "傳回指定項目索引的文字。"
+
+#: widgets/toolbox.cpp:49
+#, fuzzy
+msgid "Returns the widget having the supplied index."
+msgstr "傳回指定項目索引的文字。"
+
+#: widgets/toolbox.cpp:51
+#, fuzzy
+msgid ""
+"Returns the index of the widget, -1 if the widget is not part of the toolbox."
+msgstr "傳回找到指定文字的項目的索引值。"
 
 #: widgets/closebutton.cpp:116
 msgid "Failed to start shell process."
