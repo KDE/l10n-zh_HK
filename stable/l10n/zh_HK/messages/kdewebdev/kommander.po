@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-01-23 01:19+0100\n"
+"POT-Creation-Date: 2008-01-24 01:19+0100\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -79,7 +79,7 @@ msgstr "stanley18fan0k@yahoo.com.hk"
 #: editor/iconvieweditorimpl.cpp:57 editor/listboxeditorimpl.cpp:61
 #: editor/widgetfactory.cpp:890 editor/widgetfactory.cpp:923
 #: editor/widgetfactory.cpp:934 editor/widgetfactory.cpp:1125
-#: editor/widgetfactory.cpp:1235 rc.cpp:1400
+#: editor/widgetfactory.cpp:1235 rc.cpp:1397
 #, no-c-format
 msgid "New Item"
 msgstr "新增項目"
@@ -149,8 +149,8 @@ msgid "Click this button to reset the property to its default value"
 msgstr "按此按鈕把屬性設回預設值"
 
 #. i18n: file ./editor/iconvieweditor.ui line 254
-#: editor/propertyeditor.cpp:595 rc.cpp:390 rc.cpp:459 rc.cpp:592 rc.cpp:689
-#: rc.cpp:766 rc.cpp:1039 rc.cpp:1209 rc.cpp:1269
+#: editor/propertyeditor.cpp:595 rc.cpp:387 rc.cpp:456 rc.cpp:589 rc.cpp:686
+#: rc.cpp:763 rc.cpp:1036 rc.cpp:1206 rc.cpp:1266
 #, no-c-format
 msgid "..."
 msgstr "..."
@@ -449,7 +449,7 @@ msgstr "移動分頁頁面"
 
 #. i18n: file ./editor/listeditor.ui line 31
 #: editor/widgetfactory.cpp:933 editor/widgetfactory.cpp:1124
-#: editor/widgetfactory.cpp:1234 rc.cpp:912
+#: editor/widgetfactory.cpp:1234 rc.cpp:909
 #, no-c-format
 msgid "Column 1"
 msgstr "欄 1"
@@ -886,7 +886,7 @@ msgstr "無法建立範本"
 
 #. i18n: file ./editor/createtemplate.ui line 38
 #: editor/mainwindowactions.cpp:788 editor/mainwindowactions.cpp:817
-#: rc.cpp:420
+#: rc.cpp:417
 #, no-c-format
 msgid "Create Template"
 msgstr "建立範本"
@@ -939,19 +939,19 @@ msgstr ""
 "Widget 的名稱不能為空白。\n"
 "這個名字已經回復為 '%1'."
 
-#: editor/newformimpl.cpp:116
+#: editor/newformimpl.cpp:123
 msgid "Load Template"
 msgstr "載入範本"
 
-#: editor/newformimpl.cpp:117
+#: editor/newformimpl.cpp:124
 msgid "Could not load form description from template '%1'"
 msgstr "無法從範本 '%1' 載入表單的描述"
 
-#: editor/newformimpl.cpp:137
+#: editor/newformimpl.cpp:144
 msgid "Dialog"
 msgstr "對話盒"
 
-#: editor/newformimpl.cpp:143
+#: editor/newformimpl.cpp:150
 msgid "Wizard"
 msgstr "精靈"
 
@@ -1314,7 +1314,7 @@ msgid "All Files (*)"
 msgstr "所有檔案 (*)"
 
 #. i18n: file ./editor/pixmapfunction.ui line 38
-#: editor/pixmapchooser.cpp:964 rc.cpp:1122
+#: editor/pixmapchooser.cpp:964 rc.cpp:1119
 #, no-c-format
 msgid "Choose Pixmap"
 msgstr "選擇點陣圖"
@@ -1333,7 +1333,7 @@ msgstr "刪除分隔符"
 
 #. i18n: file ./editor/listboxeditor.ui line 147
 #: editor/actiondnd.cpp:350 editor/actiondnd.cpp:735 editor/actiondnd.cpp:1022
-#: rc.cpp:1017 rc.cpp:1069
+#: rc.cpp:1014 rc.cpp:1066
 #, no-c-format
 msgid "Delete Item"
 msgstr "刪除項目"
@@ -1461,19 +1461,19 @@ msgstr "高亮"
 msgid "Edit text"
 msgstr "編輯文字"
 
-#: editor/assoctexteditorimpl.cpp:234
+#: editor/assoctexteditorimpl.cpp:243
 msgid "Edit text - read only mode"
 msgstr ""
 
-#: editor/assoctexteditorimpl.cpp:252
+#: editor/assoctexteditorimpl.cpp:261
 msgid "Set the 'text association' of '%1'"
 msgstr "設定 '%1' 的「關聯文字」"
 
-#: editor/assoctexteditorimpl.cpp:262
+#: editor/assoctexteditorimpl.cpp:271
 msgid "Set the 'population text' of '%1'"
 msgstr "設定 '%1' 的 'population text'"
 
-#: editor/assoctexteditorimpl.cpp:411
+#: editor/assoctexteditorimpl.cpp:420
 msgid "<qt>Cannot open file<br><b>%1</b></qt"
 msgstr "<qt>無法開啟檔案<br><b>%1</b></qt"
 
@@ -1486,7 +1486,7 @@ msgid "New Column"
 msgstr "新一欄"
 
 #. i18n: file ./editor/listvieweditor.ui line 62
-#: editor/listvieweditorimpl.cpp:570 rc.cpp:643
+#: editor/listvieweditorimpl.cpp:570 rc.cpp:640
 #, no-c-format
 msgid "&Items"
 msgstr "項目(&I)"
@@ -1846,18 +1846,18 @@ msgstr "垂直編排子項目"
 msgid "Lay Out Children in a Grid"
 msgstr "依格線分散編排子項目"
 
-#: editor/functionsimpl.cpp:73 plugin/specialinformation.cpp:379
+#: editor/functionsimpl.cpp:87 plugin/specialinformation.cpp:379
 #, fuzzy
 msgid "Slots"
 msgstr "Slot"
 
-#: editor/functionsimpl.cpp:170
+#: editor/functionsimpl.cpp:186
 msgid ""
 "To learn more about the slot, look at the documentation of the base Qt/KDE "
 "class, most probably <i>%1</i>."
 msgstr ""
 
-#: editor/functionsimpl.cpp:174 editor/functionsimpl.cpp:195
+#: editor/functionsimpl.cpp:190 editor/functionsimpl.cpp:211
 msgid ""
 "<qt>"
 "<h3>%1</h3>"
@@ -1869,11 +1869,11 @@ msgstr ""
 "<p><b>描述：</b> %2\n"
 "<p><b>語法：</b> <i>%3</i>%4</qt>"
 
-#: editor/functionsimpl.cpp:184
+#: editor/functionsimpl.cpp:200
 msgid "<p>Parameters are not obligatory."
 msgstr "<p>參數不是必須的。"
 
-#: editor/functionsimpl.cpp:187
+#: editor/functionsimpl.cpp:203
 #, c-format
 msgid ""
 "_n: "
@@ -2448,27 +2448,27 @@ msgid "Wizard pages:"
 msgstr "精靈頁面："
 
 #. i18n: file ./editor/wizardeditor.ui line 90
-#: rc.cpp:9 rc.cpp:915
+#: rc.cpp:9 rc.cpp:912
 #, no-c-format
 msgid "&Add"
 msgstr "加入(&A)"
 
 #. i18n: file ./editor/wizardeditor.ui line 200
-#: rc.cpp:23 rc.cpp:238 rc.cpp:405 rc.cpp:628 rc.cpp:837 rc.cpp:900 rc.cpp:936
-#: rc.cpp:1002 rc.cpp:1107 rc.cpp:1158 rc.cpp:1349
+#: rc.cpp:23 rc.cpp:238 rc.cpp:402 rc.cpp:625 rc.cpp:834 rc.cpp:897 rc.cpp:933
+#: rc.cpp:999 rc.cpp:1104 rc.cpp:1155 rc.cpp:1346
 #, no-c-format
 msgid "Close the dialog and apply all the changes."
 msgstr "關閉對話盒並套用所有變更。"
 
 #. i18n: file ./editor/wizardeditor.ui line 214
-#: rc.cpp:29 rc.cpp:411 rc.cpp:843 rc.cpp:1008 rc.cpp:1113 rc.cpp:1164
+#: rc.cpp:29 rc.cpp:408 rc.cpp:840 rc.cpp:1005 rc.cpp:1110 rc.cpp:1161
 #, no-c-format
 msgid "Apply all changes."
 msgstr "套用所有變更。"
 
 #. i18n: file ./editor/wizardeditor.ui line 228
-#: rc.cpp:35 rc.cpp:244 rc.cpp:417 rc.cpp:634 rc.cpp:849 rc.cpp:906 rc.cpp:942
-#: rc.cpp:1014 rc.cpp:1119 rc.cpp:1170 rc.cpp:1355
+#: rc.cpp:35 rc.cpp:244 rc.cpp:414 rc.cpp:631 rc.cpp:846 rc.cpp:903 rc.cpp:939
+#: rc.cpp:1011 rc.cpp:1116 rc.cpp:1167 rc.cpp:1352
 #, no-c-format
 msgid "Close the dialog and discard any changes."
 msgstr "關閉對話盒並取消所有變更。"
@@ -2609,25 +2609,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 81
-#: rc.cpp:109 rc.cpp:882
+#: rc.cpp:109 rc.cpp:879
 #, no-c-format
 msgid "Select &palette:"
 msgstr "選擇調色板(&P)："
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 90
-#: rc.cpp:112 rc.cpp:885
+#: rc.cpp:112 rc.cpp:882
 #, no-c-format
 msgid "Active Palette"
 msgstr "作用中的調色板"
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 95
-#: rc.cpp:115 rc.cpp:888
+#: rc.cpp:115 rc.cpp:885
 #, no-c-format
 msgid "Inactive Palette"
 msgstr "非作用中的調色板"
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 100
-#: rc.cpp:118 rc.cpp:891
+#: rc.cpp:118 rc.cpp:888
 #, no-c-format
 msgid "Disabled Palette"
 msgstr "已停用的調色板"
@@ -2752,7 +2752,7 @@ msgid "Choose pi&xmap:"
 msgstr "選擇點陣圖(&X)："
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 310
-#: rc.cpp:175 rc.cpp:513
+#: rc.cpp:175 rc.cpp:510
 #, no-c-format
 msgid "Select a pixmap"
 msgstr "選擇一幅點陣圖"
@@ -2770,7 +2770,7 @@ msgid "&Select color:"
 msgstr "選擇顏色(&S)："
 
 #. i18n: file ./editor/paletteeditoradvanced.ui line 360
-#: rc.cpp:184 rc.cpp:226 rc.cpp:489 rc.cpp:861 rc.cpp:870
+#: rc.cpp:184 rc.cpp:226 rc.cpp:486 rc.cpp:858 rc.cpp:867
 #, no-c-format
 msgid "Choose a color"
 msgstr "選擇一種顏色"
@@ -2879,128 +2879,122 @@ msgstr "函式瀏覽器"
 msgid "Description:"
 msgstr "描述："
 
-#. i18n: file ./editor/functions.ui line 79
-#: rc.cpp:254
-#, no-c-format
-msgid "Clear edited text"
-msgstr "清除編輯過的文字"
-
-#. i18n: file ./editor/functions.ui line 87
-#: rc.cpp:257
-#, no-c-format
-msgid "Inserted &text:"
-msgstr "插入的文字(&T)："
-
-#. i18n: file ./editor/functions.ui line 98
-#: rc.cpp:260
-#, no-c-format
-msgid "Text to be inserted"
-msgstr "要插入的文字"
-
-#. i18n: file ./editor/functions.ui line 191
-#: rc.cpp:271
+#. i18n: file ./editor/functions.ui line 67
+#: rc.cpp:253
 #, no-c-format
 msgid "&Group:"
 msgstr "組別(&G)："
 
-#. i18n: file ./editor/functions.ui line 221
-#: rc.cpp:274
+#. i18n: file ./editor/functions.ui line 97
+#: rc.cpp:256
 #, no-c-format
 msgid "&Function:"
 msgstr "函式(&F)："
 
-#. i18n: file ./editor/functions.ui line 253
-#: rc.cpp:277
+#. i18n: file ./editor/functions.ui line 129
+#: rc.cpp:259
 #, no-c-format
 msgid "&Parameters"
 msgstr "參數(&P)："
 
-#. i18n: file ./editor/functions.ui line 264
-#: rc.cpp:280
+#. i18n: file ./editor/functions.ui line 140
+#: rc.cpp:262
 #, no-c-format
 msgid "Arg3"
 msgstr "Arg3"
 
-#. i18n: file ./editor/functions.ui line 272
-#: rc.cpp:283
+#. i18n: file ./editor/functions.ui line 148
+#: rc.cpp:265
 #, no-c-format
 msgid "Arg5"
 msgstr "Arg5"
 
-#. i18n: file ./editor/functions.ui line 314
-#: rc.cpp:287
+#. i18n: file ./editor/functions.ui line 190
+#: rc.cpp:269
 #, no-c-format
 msgid "Insert function"
 msgstr "插入函式"
 
-#. i18n: file ./editor/functions.ui line 322
-#: rc.cpp:290
+#. i18n: file ./editor/functions.ui line 198
+#: rc.cpp:272
 #, no-c-format
 msgid "Arg4"
 msgstr "Arg4"
 
-#. i18n: file ./editor/functions.ui line 364
-#: rc.cpp:293 rc.cpp:299 rc.cpp:302 rc.cpp:308 rc.cpp:311 rc.cpp:314
+#. i18n: file ./editor/functions.ui line 240
+#: rc.cpp:275 rc.cpp:281 rc.cpp:284 rc.cpp:290 rc.cpp:293 rc.cpp:296
 #, no-c-format
 msgid "Quote"
 msgstr ""
 
-#. i18n: file ./editor/functions.ui line 387
-#: rc.cpp:296
+#. i18n: file ./editor/functions.ui line 263
+#: rc.cpp:278
 #, no-c-format
 msgid "Arg1"
 msgstr "Arg1"
 
-#. i18n: file ./editor/functions.ui line 486
-#: rc.cpp:305
+#. i18n: file ./editor/functions.ui line 362
+#: rc.cpp:287
 #, no-c-format
 msgid "Widget:"
 msgstr "Widget:"
 
-#. i18n: file ./editor/functions.ui line 626
-#: rc.cpp:317
+#. i18n: file ./editor/functions.ui line 502
+#: rc.cpp:299
 #, no-c-format
 msgid "Arg6"
 msgstr "Arg6"
 
-#. i18n: file ./editor/functions.ui line 634
-#: rc.cpp:320
+#. i18n: file ./editor/functions.ui line 510
+#: rc.cpp:302
 #, no-c-format
 msgid "Arg2"
 msgstr "Arg2"
 
+#. i18n: file ./editor/functions.ui line 623
+#: rc.cpp:314
+#, no-c-format
+msgid "Clear edited text"
+msgstr "清除編輯過的文字"
+
+#. i18n: file ./editor/functions.ui line 631
+#: rc.cpp:317
+#, no-c-format
+msgid "Inserted &text:"
+msgstr "插入的文字(&T)："
+
 #. i18n: file ./editor/actioneditor.ui line 19
-#: rc.cpp:323
+#: rc.cpp:320
 #, no-c-format
 msgid "Edit Actions"
 msgstr "編輯動作"
 
 #. i18n: file ./editor/actioneditor.ui line 61
-#: rc.cpp:327
+#: rc.cpp:324
 #, no-c-format
 msgid "Create new Action"
 msgstr "建立新的動作"
 
 #. i18n: file ./editor/actioneditor.ui line 78
-#: rc.cpp:331
+#: rc.cpp:328
 #, no-c-format
 msgid "Delete current Action"
 msgstr "刪除目前的動作"
 
 #. i18n: file ./editor/actioneditor.ui line 95
-#: rc.cpp:335
+#: rc.cpp:332
 #, no-c-format
 msgid "Connect current Action"
 msgstr "連接目前的動作"
 
 #. i18n: file ./editor/iconvieweditor.ui line 35
-#: rc.cpp:338
+#: rc.cpp:335
 #, no-c-format
 msgid "Edit Iconview"
 msgstr "編輯 Iconview"
 
 #. i18n: file ./editor/iconvieweditor.ui line 41
-#: rc.cpp:341
+#: rc.cpp:338
 #, no-c-format
 msgid ""
 "<b>Edit Iconview</b>"
@@ -3012,206 +3006,206 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/iconvieweditor.ui line 72
-#: rc.cpp:344
+#: rc.cpp:341
 #, no-c-format
 msgid "All items in the iconview."
 msgstr "Iconview 中所有項目。"
 
 #. i18n: file ./editor/iconvieweditor.ui line 94
-#: rc.cpp:347 rc.cpp:698 rc.cpp:1057
+#: rc.cpp:344 rc.cpp:695 rc.cpp:1054
 #, no-c-format
 msgid "&New Item"
 msgstr "新的項目(&N)"
 
 #. i18n: file ./editor/iconvieweditor.ui line 97
-#: rc.cpp:350 rc.cpp:701 rc.cpp:1060
+#: rc.cpp:347 rc.cpp:698 rc.cpp:1057
 #, no-c-format
 msgid "Add an item"
 msgstr "加入一個項目"
 
 #. i18n: file ./editor/iconvieweditor.ui line 100
-#: rc.cpp:353
+#: rc.cpp:350
 #, no-c-format
 msgid "Create a new item for the iconview."
 msgstr "為 Iconview 建立一個新的項目。"
 
 #. i18n: file ./editor/iconvieweditor.ui line 108
-#: rc.cpp:356 rc.cpp:646 rc.cpp:1066
+#: rc.cpp:353 rc.cpp:643 rc.cpp:1063
 #, no-c-format
 msgid "&Delete Item"
 msgstr "刪除項目(&D)"
 
 #. i18n: file ./editor/iconvieweditor.ui line 111
-#: rc.cpp:359 rc.cpp:649
+#: rc.cpp:356 rc.cpp:646
 #, no-c-format
 msgid "Delete item"
 msgstr "刪除項目"
 
 #. i18n: file ./editor/iconvieweditor.ui line 114
-#: rc.cpp:362
+#: rc.cpp:359
 #, no-c-format
 msgid "Delete the selected item."
 msgstr "刪除選擇的項目。"
 
 #. i18n: file ./editor/iconvieweditor.ui line 147
-#: rc.cpp:365 rc.cpp:1023
+#: rc.cpp:362 rc.cpp:1020
 #, no-c-format
 msgid "&Item Properties"
 msgstr "項目屬性(&I)"
 
 #. i18n: file ./editor/iconvieweditor.ui line 164
-#: rc.cpp:368 rc.cpp:661 rc.cpp:775 rc.cpp:1048 rc.cpp:1095
+#: rc.cpp:365 rc.cpp:658 rc.cpp:772 rc.cpp:1045 rc.cpp:1092
 #, no-c-format
 msgid "&Text:"
 msgstr "文字(&T)："
 
 #. i18n: file ./editor/iconvieweditor.ui line 181
-#: rc.cpp:371 rc.cpp:664 rc.cpp:1051
+#: rc.cpp:368 rc.cpp:661 rc.cpp:1048
 #, no-c-format
 msgid "Change text"
 msgstr "更改文字"
 
 #. i18n: file ./editor/iconvieweditor.ui line 184
-#: rc.cpp:374
+#: rc.cpp:371
 #, no-c-format
 msgid "Change the text for the selected item."
 msgstr "更改選擇項目的文字"
 
 #. i18n: file ./editor/iconvieweditor.ui line 192
-#: rc.cpp:377 rc.cpp:753 rc.cpp:1026
+#: rc.cpp:374 rc.cpp:750 rc.cpp:1023
 #, no-c-format
 msgid "&Pixmap:"
 msgstr "點陣圖(&P)："
 
 #. i18n: file ./editor/iconvieweditor.ui line 217
-#: rc.cpp:380 rc.cpp:679 rc.cpp:756 rc.cpp:1029 rc.cpp:1199 rc.cpp:1259
+#: rc.cpp:377 rc.cpp:676 rc.cpp:753 rc.cpp:1026 rc.cpp:1196 rc.cpp:1256
 #, no-c-format
 msgid "Label4"
 msgstr "Label4"
 
 #. i18n: file ./editor/iconvieweditor.ui line 237
-#: rc.cpp:384 rc.cpp:683 rc.cpp:760 rc.cpp:1033 rc.cpp:1203 rc.cpp:1263
+#: rc.cpp:381 rc.cpp:680 rc.cpp:757 rc.cpp:1030 rc.cpp:1200 rc.cpp:1260
 #, no-c-format
 msgid "Delete Pixmap"
 msgstr "刪除點陣圖"
 
 #. i18n: file ./editor/iconvieweditor.ui line 240
-#: rc.cpp:387 rc.cpp:1036
+#: rc.cpp:384 rc.cpp:1033
 #, no-c-format
 msgid "Delete the selected item's pixmap."
 msgstr "刪除選擇項目的點陣圖。"
 
 #. i18n: file ./editor/iconvieweditor.ui line 257
-#: rc.cpp:393 rc.cpp:692 rc.cpp:769 rc.cpp:1042 rc.cpp:1212 rc.cpp:1272
+#: rc.cpp:390 rc.cpp:689 rc.cpp:766 rc.cpp:1039 rc.cpp:1209 rc.cpp:1269
 #, no-c-format
 msgid "Select a Pixmap"
 msgstr "選擇一幅點陣圖"
 
 #. i18n: file ./editor/iconvieweditor.ui line 260
-#: rc.cpp:396
+#: rc.cpp:393
 #, no-c-format
 msgid "Select a pixmap file for the current item."
 msgstr "為目前的項目選擇一幅點陣圖。"
 
 #. i18n: file ./editor/createtemplate.ui line 61
-#: rc.cpp:423
+#: rc.cpp:420
 #, no-c-format
 msgid "Template &name:"
 msgstr "範本名稱(&N)："
 
 #. i18n: file ./editor/createtemplate.ui line 76
-#: rc.cpp:426
+#: rc.cpp:423
 #, no-c-format
 msgid "Name of the new template"
 msgstr "新範本的名稱"
 
 #. i18n: file ./editor/createtemplate.ui line 80
-#: rc.cpp:429
+#: rc.cpp:426
 #, no-c-format
 msgid "Enter the name of the new template"
 msgstr "輸入新範本的名稱"
 
 #. i18n: file ./editor/createtemplate.ui line 91
-#: rc.cpp:432
+#: rc.cpp:429
 #, no-c-format
 msgid "Class of the new template"
 msgstr "新範本的類別"
 
 #. i18n: file ./editor/createtemplate.ui line 95
-#: rc.cpp:435
+#: rc.cpp:432
 #, no-c-format
 msgid ""
 "Enter the name of the class which should be used as the template's base class"
 msgstr "輸入範本的基底類別名稱"
 
 #. i18n: file ./editor/createtemplate.ui line 142
-#: rc.cpp:438
+#: rc.cpp:435
 #, no-c-format
 msgid "C&reate"
 msgstr "建立(&R)"
 
 #. i18n: file ./editor/createtemplate.ui line 150
-#: rc.cpp:441
+#: rc.cpp:438
 #, no-c-format
 msgid "Creates the new template"
 msgstr "建立新的範本"
 
 #. i18n: file ./editor/createtemplate.ui line 165
-#: rc.cpp:447
+#: rc.cpp:444
 #, no-c-format
 msgid "Closes the Dialog"
 msgstr "關閉對話盒"
 
 #. i18n: file ./editor/createtemplate.ui line 178
-#: rc.cpp:450
+#: rc.cpp:447
 #, no-c-format
 msgid "&Baseclass for template:"
 msgstr "範本的基底類別(&B)："
 
 #. i18n: file ./editor/assoctexteditor.ui line 16
-#: rc.cpp:453
+#: rc.cpp:450
 #, no-c-format
 msgid "Edit Text"
 msgstr "編輯文字"
 
 #. i18n: file ./editor/assoctexteditor.ui line 35
-#: rc.cpp:456
+#: rc.cpp:453
 #, no-c-format
 msgid "&Widget:"
 msgstr "&Widget:"
 
 #. i18n: file ./editor/assoctexteditor.ui line 67
-#: rc.cpp:462
+#: rc.cpp:459
 #, no-c-format
 msgid "&Text for:"
 msgstr "文字關聯(&T)："
 
 #. i18n: file ./editor/assoctexteditor.ui line 104
-#: rc.cpp:468
+#: rc.cpp:465
 #, no-c-format
 msgid "&Function..."
 msgstr "函式(&F)..."
 
 #. i18n: file ./editor/assoctexteditor.ui line 137
-#: rc.cpp:471
+#: rc.cpp:468
 #, no-c-format
 msgid "Wi&dget:"
 msgstr "Wi&dget:"
 
 #. i18n: file ./editor/assoctexteditor.ui line 184
-#: rc.cpp:474
+#: rc.cpp:471
 #, no-c-format
 msgid "Fi&le..."
 msgstr "檔案(&L)..."
 
 #. i18n: file ./editor/preferences.ui line 35
-#: rc.cpp:477
+#: rc.cpp:474
 #, no-c-format
 msgid "Preferences"
 msgstr "偏好設定"
 
 #. i18n: file ./editor/preferences.ui line 41
-#: rc.cpp:480
+#: rc.cpp:477
 #, no-c-format
 msgid ""
 "<b>Preferences</b>"
@@ -3223,79 +3217,79 @@ msgstr ""
 "<p>更改 Qt Designer 的偏好設定。這個對話盒一定會有一個作一般設定分頁，其他的分頁是由外掛程式提供的。</p>"
 
 #. i18n: file ./editor/preferences.ui line 62
-#: rc.cpp:483
+#: rc.cpp:480
 #, no-c-format
 msgid "General"
 msgstr "一般"
 
 #. i18n: file ./editor/preferences.ui line 79
-#: rc.cpp:486
+#: rc.cpp:483
 #, no-c-format
 msgid "Backgro&und"
 msgstr "背景(&U)"
 
 #. i18n: file ./editor/preferences.ui line 114
-#: rc.cpp:492
+#: rc.cpp:489
 #, no-c-format
 msgid "Select a color in the color dialog."
 msgstr "於顏色對話盒中選擇顏色。"
 
 #. i18n: file ./editor/preferences.ui line 125
-#: rc.cpp:495
+#: rc.cpp:492
 #, no-c-format
 msgid "Co&lor"
 msgstr "顏色(&L)"
 
 #. i18n: file ./editor/preferences.ui line 128
-#: rc.cpp:498
+#: rc.cpp:495
 #, no-c-format
 msgid "Use a background color"
 msgstr "使用一種背景顏色"
 
 #. i18n: file ./editor/preferences.ui line 131
-#: rc.cpp:501
+#: rc.cpp:498
 #, no-c-format
 msgid "Use a background color."
 msgstr "使用一種背景顏色。"
 
 #. i18n: file ./editor/preferences.ui line 139
-#: rc.cpp:504
+#: rc.cpp:501
 #, no-c-format
 msgid "&Pixmap"
 msgstr "點陣圖(&P)"
 
 #. i18n: file ./editor/preferences.ui line 145
-#: rc.cpp:507
+#: rc.cpp:504
 #, no-c-format
 msgid "Use a background pixmap"
 msgstr "使用一幅背景點陣圖"
 
 #. i18n: file ./editor/preferences.ui line 148
-#: rc.cpp:510
+#: rc.cpp:507
 #, no-c-format
 msgid "Use a background pixmap."
 msgstr "使用一幅背景點陣圖。"
 
 #. i18n: file ./editor/preferences.ui line 171
-#: rc.cpp:516
+#: rc.cpp:513
 #, no-c-format
 msgid "Choose a pixmap file."
 msgstr "選擇一個點陣圖檔案。"
 
 #. i18n: file ./editor/preferences.ui line 181
-#: rc.cpp:519
+#: rc.cpp:516
 #, no-c-format
 msgid "Show &grid"
 msgstr "顯示格線(&G)"
 
 #. i18n: file ./editor/preferences.ui line 187
-#: rc.cpp:522
+#: rc.cpp:519
 #, no-c-format
 msgid "Show Grid"
 msgstr "顯示格線"
 
 #. i18n: file ./editor/preferences.ui line 190
-#: rc.cpp:525
+#: rc.cpp:522
 #, no-c-format
 msgid ""
 "<b>Customize the grid appearance for all forms.</b>"
@@ -3303,25 +3297,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/preferences.ui line 198
-#: rc.cpp:528
+#: rc.cpp:525
 #, no-c-format
 msgid "Gr&id"
 msgstr "格線(&I)"
 
 #. i18n: file ./editor/preferences.ui line 218
-#: rc.cpp:532
+#: rc.cpp:529
 #, no-c-format
 msgid "Sn&ap to grid"
 msgstr "對齊格線(&A)"
 
 #. i18n: file ./editor/preferences.ui line 224
-#: rc.cpp:535
+#: rc.cpp:532
 #, no-c-format
 msgid "Snap to the grid"
 msgstr "對齊格線"
 
 #. i18n: file ./editor/preferences.ui line 227
-#: rc.cpp:538
+#: rc.cpp:535
 #, no-c-format
 msgid ""
 "<b>Customize the grid-settings for all forms.</b>"
@@ -3330,13 +3324,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/preferences.ui line 258
-#: rc.cpp:541 rc.cpp:547
+#: rc.cpp:538 rc.cpp:544
 #, no-c-format
 msgid "Grid resolution"
 msgstr ""
 
 #. i18n: file ./editor/preferences.ui line 261
-#: rc.cpp:544 rc.cpp:550
+#: rc.cpp:541 rc.cpp:547
 #, no-c-format
 msgid ""
 "<b>Customize the grid-settings for all forms.</b>"
@@ -3345,19 +3339,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/preferences.ui line 289
-#: rc.cpp:553
+#: rc.cpp:550
 #, no-c-format
 msgid "Grid-&X:"
 msgstr "格線-&X:"
 
 #. i18n: file ./editor/preferences.ui line 300
-#: rc.cpp:556
+#: rc.cpp:553
 #, no-c-format
 msgid "Grid-&Y:"
 msgstr "格線-&Y:"
 
 #. i18n: file ./editor/preferences.ui line 327
-#: rc.cpp:559 rc.cpp:580
+#: rc.cpp:556 rc.cpp:577
 #, no-c-format
 msgid ""
 "A splash screen is displayed when starting Qt Designer if this option is "
@@ -3365,25 +3359,25 @@ msgid ""
 msgstr "這個選項啟用後，啟動 Qt Designer 時會顯示一個歡迎畫面。"
 
 #. i18n: file ./editor/preferences.ui line 335
-#: rc.cpp:562
+#: rc.cpp:559
 #, no-c-format
 msgid "Ge&neral"
 msgstr "一般(&N)"
 
 #. i18n: file ./editor/preferences.ui line 352
-#: rc.cpp:565
+#: rc.cpp:562
 #, no-c-format
 msgid "Restore last &workspace on startup"
 msgstr "於啟動時恢復上一次的工作空間(&W)"
 
 #. i18n: file ./editor/preferences.ui line 358
-#: rc.cpp:568
+#: rc.cpp:565
 #, no-c-format
 msgid "Restore last workspace"
 msgstr "恢復上一次的工作空間"
 
 #. i18n: file ./editor/preferences.ui line 361
-#: rc.cpp:571
+#: rc.cpp:568
 #, no-c-format
 msgid ""
 "The current workspace settings will be restored the next time you start Qt "
@@ -3391,31 +3385,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/preferences.ui line 369
-#: rc.cpp:574
+#: rc.cpp:571
 #, no-c-format
 msgid "Show &splash screen on startup"
 msgstr "於啟動時顯示歡迎畫面(&S)"
 
 #. i18n: file ./editor/preferences.ui line 375
-#: rc.cpp:577
+#: rc.cpp:574
 #, no-c-format
 msgid "Show Splashscreen"
 msgstr "顯示歡迎畫面"
 
 #. i18n: file ./editor/preferences.ui line 386
-#: rc.cpp:583
+#: rc.cpp:580
 #, no-c-format
 msgid "Disable data&base auto-edit in preview"
 msgstr "在預覽時停用資料庫的自動修改(&B)"
 
 #. i18n: file ./editor/preferences.ui line 397
-#: rc.cpp:586
+#: rc.cpp:583
 #, no-c-format
 msgid "&Documentation path:"
 msgstr "說明文件路徑(&D)："
 
 #. i18n: file ./editor/preferences.ui line 422
-#: rc.cpp:589
+#: rc.cpp:586
 #, no-c-format
 msgid ""
 "<b>Enter the path to the documentation.</b>"
@@ -3424,67 +3418,67 @@ msgid ""
 msgstr "<b>輸入說明文件的路徑。</b><p>您可以在路徑文字的首段輸入一個環境變數。</p>"
 
 #. i18n: file ./editor/preferences.ui line 436
-#: rc.cpp:595
+#: rc.cpp:592
 #, no-c-format
 msgid "Select path"
 msgstr "選擇路徑"
 
 #. i18n: file ./editor/preferences.ui line 439
-#: rc.cpp:598
+#: rc.cpp:595
 #, no-c-format
 msgid "Look for the documentation path."
 msgstr "尋找說明文件的路徑。"
 
 #. i18n: file ./editor/preferences.ui line 451
-#: rc.cpp:601
+#: rc.cpp:598
 #, no-c-format
 msgid "&Toolbars"
 msgstr "工具列(&T)"
 
 #. i18n: file ./editor/preferences.ui line 468
-#: rc.cpp:604
+#: rc.cpp:601
 #, no-c-format
 msgid "Show &big icons"
 msgstr "顯示大圖示(&B)"
 
 #. i18n: file ./editor/preferences.ui line 471
-#: rc.cpp:607
+#: rc.cpp:604
 #, no-c-format
 msgid "Big Icons"
 msgstr "大圖示"
 
 #. i18n: file ./editor/preferences.ui line 474
-#: rc.cpp:610
+#: rc.cpp:607
 #, no-c-format
 msgid "Big icons will be used in the toolbars if this is checked."
 msgstr "這個選項啟用後，工具列將會使用大型圖示。"
 
 #. i18n: file ./editor/preferences.ui line 482
-#: rc.cpp:613
+#: rc.cpp:610
 #, no-c-format
 msgid "Show text lab&els"
 msgstr "顯示文字標籤(&L)"
 
 #. i18n: file ./editor/preferences.ui line 485
-#: rc.cpp:616
+#: rc.cpp:613
 #, no-c-format
 msgid "Text Labels"
 msgstr "文字標籤"
 
 #. i18n: file ./editor/preferences.ui line 488
-#: rc.cpp:619
+#: rc.cpp:616
 #, no-c-format
 msgid "Text labels will be usin in the toolbars if this is checked."
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 35
-#: rc.cpp:637
+#: rc.cpp:634
 #, no-c-format
 msgid "Edit Listview"
 msgstr "編輯 Listview"
 
 #. i18n: file ./editor/listvieweditor.ui line 41
-#: rc.cpp:640
+#: rc.cpp:637
 #, no-c-format
 msgid ""
 "<b>Edit Listview</b>"
@@ -3497,25 +3491,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 85
-#: rc.cpp:652
+#: rc.cpp:649
 #, no-c-format
 msgid "<b>Deletes the selected item.</b><p>Any sub-items are also deleted.</p>"
 msgstr "<b>刪除所選的項目。</b><p>所有子項目都會一併被刪除。</p>"
 
 #. i18n: file ./editor/listvieweditor.ui line 99
-#: rc.cpp:655
+#: rc.cpp:652
 #, no-c-format
 msgid "Item &Properties"
 msgstr "項目屬性(&P)"
 
 #. i18n: file ./editor/listvieweditor.ui line 116
-#: rc.cpp:658
+#: rc.cpp:655
 #, no-c-format
 msgid "Pi&xmap:"
 msgstr "點陣圖(&X)："
 
 #. i18n: file ./editor/listvieweditor.ui line 147
-#: rc.cpp:667
+#: rc.cpp:664
 #, no-c-format
 msgid ""
 "<b>Change the text of the item.</b>"
@@ -3523,13 +3517,13 @@ msgid ""
 msgstr "<b>更改項目的文字。</b><p>選擇項目目前的欄位文字將會被更改。</p>"
 
 #. i18n: file ./editor/listvieweditor.ui line 155
-#: rc.cpp:670
+#: rc.cpp:667
 #, no-c-format
 msgid "Change column"
 msgstr "更改欄位"
 
 #. i18n: file ./editor/listvieweditor.ui line 158
-#: rc.cpp:673
+#: rc.cpp:670
 #, no-c-format
 msgid ""
 "<b>Select the current column.</b>"
@@ -3537,13 +3531,13 @@ msgid ""
 msgstr "<b>選擇目前的欄位。</b><p>目前欄位的項目文字及點陣圖將會被更改</p>"
 
 #. i18n: file ./editor/listvieweditor.ui line 166
-#: rc.cpp:676
+#: rc.cpp:673
 #, no-c-format
 msgid "Colu&mn:"
 msgstr "欄(&M)："
 
 #. i18n: file ./editor/listvieweditor.ui line 214
-#: rc.cpp:686 rc.cpp:1206 rc.cpp:1266
+#: rc.cpp:683 rc.cpp:1203 rc.cpp:1263
 #, no-c-format
 msgid ""
 "<b>Delete the selected item's pixmap.</b>"
@@ -3551,7 +3545,7 @@ msgid ""
 msgstr "<b>刪除選擇項目的點陣圖。</b><p>選擇項目目前的欄位的點陣圖將會被刪除。</p>"
 
 #. i18n: file ./editor/listvieweditor.ui line 234
-#: rc.cpp:695 rc.cpp:1215 rc.cpp:1275
+#: rc.cpp:692 rc.cpp:1212 rc.cpp:1272
 #, no-c-format
 msgid ""
 "<b>Select a pixmap file for the item.</b>"
@@ -3559,7 +3553,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 252
-#: rc.cpp:704
+#: rc.cpp:701
 #, no-c-format
 msgid ""
 "<b>Adds a new item to the list.</b>"
@@ -3568,25 +3562,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 260
-#: rc.cpp:707 rc.cpp:1020
+#: rc.cpp:704 rc.cpp:1017
 #, no-c-format
 msgid "The list of items."
 msgstr "項目的列表。"
 
 #. i18n: file ./editor/listvieweditor.ui line 268
-#: rc.cpp:710
+#: rc.cpp:707
 #, no-c-format
 msgid "New &Subitem"
 msgstr "新的子項目(&S)"
 
 #. i18n: file ./editor/listvieweditor.ui line 271
-#: rc.cpp:713
+#: rc.cpp:710
 #, no-c-format
 msgid "Add a subitem"
 msgstr "加入一個子項目"
 
 #. i18n: file ./editor/listvieweditor.ui line 274
-#: rc.cpp:716
+#: rc.cpp:713
 #, no-c-format
 msgid ""
 "<b>Create a new sub-item for the selected item.</b>"
@@ -3595,13 +3589,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 305
-#: rc.cpp:720 rc.cpp:822 rc.cpp:1076 rc.cpp:1177 rc.cpp:1234
+#: rc.cpp:717 rc.cpp:819 rc.cpp:1073 rc.cpp:1174 rc.cpp:1231
 #, no-c-format
 msgid "Move up"
 msgstr "移上"
 
 #. i18n: file ./editor/listvieweditor.ui line 308
-#: rc.cpp:723
+#: rc.cpp:720
 #, no-c-format
 msgid ""
 "<b>Move the selected item up.</b>"
@@ -3609,13 +3603,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 322
-#: rc.cpp:727 rc.cpp:806 rc.cpp:1083 rc.cpp:1184 rc.cpp:1241
+#: rc.cpp:724 rc.cpp:803 rc.cpp:1080 rc.cpp:1181 rc.cpp:1238
 #, no-c-format
 msgid "Move down"
 msgstr "移下"
 
 #. i18n: file ./editor/listvieweditor.ui line 325
-#: rc.cpp:730
+#: rc.cpp:727
 #, no-c-format
 msgid ""
 "<b>Move the selected item down.</b>"
@@ -3623,13 +3617,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 339
-#: rc.cpp:734
+#: rc.cpp:731
 #, no-c-format
 msgid "Move left"
 msgstr "移左"
 
 #. i18n: file ./editor/listvieweditor.ui line 342
-#: rc.cpp:737
+#: rc.cpp:734
 #, no-c-format
 msgid ""
 "<b>Move the selected item one level up.</b>"
@@ -3637,13 +3631,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 356
-#: rc.cpp:741
+#: rc.cpp:738
 #, no-c-format
 msgid "Move right"
 msgstr "移右"
 
 #. i18n: file ./editor/listvieweditor.ui line 359
-#: rc.cpp:744
+#: rc.cpp:741
 #, no-c-format
 msgid ""
 "<b>Move the selected item one level down.</b>"
@@ -3651,25 +3645,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 369
-#: rc.cpp:747 rc.cpp:1173
+#: rc.cpp:744 rc.cpp:1170
 #, no-c-format
 msgid "Co&lumns"
 msgstr "欄(&L)"
 
 #. i18n: file ./editor/listvieweditor.ui line 386
-#: rc.cpp:750
+#: rc.cpp:747
 #, no-c-format
 msgid "Column Properties"
 msgstr "欄位屬性"
 
 #. i18n: file ./editor/listvieweditor.ui line 437
-#: rc.cpp:763
+#: rc.cpp:760
 #, no-c-format
 msgid "Delete the pixmap of the selected column."
 msgstr "刪除選擇欄位的點陣圖。"
 
 #. i18n: file ./editor/listvieweditor.ui line 457
-#: rc.cpp:772
+#: rc.cpp:769
 #, no-c-format
 msgid ""
 "<b>Select a pixmap file for the selected column.</b>"
@@ -3677,13 +3671,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 482
-#: rc.cpp:778
+#: rc.cpp:775
 #, no-c-format
 msgid "Enter column text"
 msgstr "輸入欄位文字"
 
 #. i18n: file ./editor/listvieweditor.ui line 485
-#: rc.cpp:781
+#: rc.cpp:778
 #, no-c-format
 msgid ""
 "<b>Enter the text for the selected column.</b>"
@@ -3691,13 +3685,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 493
-#: rc.cpp:784
+#: rc.cpp:781
 #, no-c-format
 msgid "Clicka&ble"
 msgstr "可按下(&B)"
 
 #. i18n: file ./editor/listvieweditor.ui line 496
-#: rc.cpp:787
+#: rc.cpp:784
 #, no-c-format
 msgid ""
 "If this option is checked, the selected column will react to mouse clicks on "
@@ -3705,37 +3699,37 @@ msgid ""
 msgstr "這個選項啟用後，選擇的欄位將會對滑鼠按鍵產生反應。"
 
 #. i18n: file ./editor/listvieweditor.ui line 504
-#: rc.cpp:790
+#: rc.cpp:787
 #, no-c-format
 msgid "Re&sizable"
 msgstr "可調整大小(&S)"
 
 #. i18n: file ./editor/listvieweditor.ui line 507
-#: rc.cpp:793
+#: rc.cpp:790
 #, no-c-format
 msgid "The column's width will be resizeable if this option is checked."
 msgstr "這個選項啟用後，欄寬將會成為可調整的。"
 
 #. i18n: file ./editor/listvieweditor.ui line 517
-#: rc.cpp:796 rc.cpp:1190
+#: rc.cpp:793 rc.cpp:1187
 #, no-c-format
 msgid "&Delete Column"
 msgstr "刪除欄位(&D)"
 
 #. i18n: file ./editor/listvieweditor.ui line 520
-#: rc.cpp:799
+#: rc.cpp:796
 #, no-c-format
 msgid "Delete column"
 msgstr "刪除欄位"
 
 #. i18n: file ./editor/listvieweditor.ui line 523
-#: rc.cpp:802
+#: rc.cpp:799
 #, no-c-format
 msgid "Deletes the selected Column."
 msgstr "刪除所選的欄位。"
 
 #. i18n: file ./editor/listvieweditor.ui line 540
-#: rc.cpp:809
+#: rc.cpp:806
 #, no-c-format
 msgid ""
 "<b>Move the selected item down.</b>"
@@ -3743,19 +3737,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 548
-#: rc.cpp:812 rc.cpp:1193
+#: rc.cpp:809 rc.cpp:1190
 #, no-c-format
 msgid "&New Column"
 msgstr "新的欄位(&N)"
 
 #. i18n: file ./editor/listvieweditor.ui line 551
-#: rc.cpp:815
+#: rc.cpp:812
 #, no-c-format
 msgid "Add a Column"
 msgstr "加入一欄"
 
 #. i18n: file ./editor/listvieweditor.ui line 554
-#: rc.cpp:818
+#: rc.cpp:815
 #, no-c-format
 msgid ""
 "<b>Create a new column.</b>"
@@ -3764,7 +3758,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 571
-#: rc.cpp:825
+#: rc.cpp:822
 #, no-c-format
 msgid ""
 "<b>Move the selected item up.</b>"
@@ -3772,73 +3766,73 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listvieweditor.ui line 579
-#: rc.cpp:828
+#: rc.cpp:825
 #, no-c-format
 msgid "The list of columns."
 msgstr "欄位的列表。"
 
 #. i18n: file ./editor/paletteeditor.ui line 43
-#: rc.cpp:852
+#: rc.cpp:849
 #, no-c-format
 msgid "Edit Palette"
 msgstr "編輯調色板"
 
 #. i18n: file ./editor/paletteeditor.ui line 68
-#: rc.cpp:855
+#: rc.cpp:852
 #, no-c-format
 msgid "Build Palette"
 msgstr "建立調色板"
 
 #. i18n: file ./editor/paletteeditor.ui line 111
-#: rc.cpp:858
+#: rc.cpp:855
 #, no-c-format
 msgid "&3D effects:"
 msgstr "&3D 效果："
 
 #. i18n: file ./editor/paletteeditor.ui line 142
-#: rc.cpp:864
+#: rc.cpp:861
 #, no-c-format
 msgid "Choose the effect-color for the generated palette."
 msgstr "選擇產生的調色板使用的效果顏色。"
 
 #. i18n: file ./editor/paletteeditor.ui line 173
-#: rc.cpp:867
+#: rc.cpp:864
 #, no-c-format
 msgid "Back&ground:"
 msgstr "背景(&G)："
 
 #. i18n: file ./editor/paletteeditor.ui line 204
-#: rc.cpp:873
+#: rc.cpp:870
 #, no-c-format
 msgid "Choose the background color for the generated palette."
 msgstr "選擇產生的調色板使用的背景顏色。"
 
 #. i18n: file ./editor/paletteeditor.ui line 229
-#: rc.cpp:876
+#: rc.cpp:873
 #, no-c-format
 msgid "&Tune Palette..."
 msgstr "微調調色板(&T)..."
 
 #. i18n: file ./editor/paletteeditor.ui line 247
-#: rc.cpp:879
+#: rc.cpp:876
 #, no-c-format
 msgid "Preview"
 msgstr "預覽"
 
 #. i18n: file ./editor/listeditor.ui line 71
-#: rc.cpp:921
+#: rc.cpp:918
 #, no-c-format
 msgid "Re&name"
 msgstr "重新命名(&N)"
 
 #. i18n: file ./editor/formsettings.ui line 35
-#: rc.cpp:927
+#: rc.cpp:924
 #, no-c-format
 msgid "Form Settings"
 msgstr "表單設定"
 
 #. i18n: file ./editor/formsettings.ui line 41
-#: rc.cpp:930
+#: rc.cpp:927
 #, no-c-format
 msgid ""
 "<b>Form Settings</b>"
@@ -3847,73 +3841,73 @@ msgid ""
 msgstr "<b>表單設定</b><p>更改表單的設定。像是<b>註解</b>及<b>作者</b>的項目不是必須的。</p>"
 
 #. i18n: file ./editor/formsettings.ui line 122
-#: rc.cpp:945
+#: rc.cpp:942
 #, no-c-format
 msgid "La&youts"
 msgstr "編排(&Y)"
 
 #. i18n: file ./editor/formsettings.ui line 155
-#: rc.cpp:948
+#: rc.cpp:945
 #, no-c-format
 msgid "Default mar&gin:"
 msgstr "預設邊界(&G)："
 
 #. i18n: file ./editor/formsettings.ui line 166
-#: rc.cpp:951
+#: rc.cpp:948
 #, no-c-format
 msgid "D&efault spacing:"
 msgstr "預設間格(&E)："
 
 #. i18n: file ./editor/formsettings.ui line 202
-#: rc.cpp:957
+#: rc.cpp:954
 #, no-c-format
 msgid "Enter a comment about the form."
 msgstr "輸入表單的註解。"
 
 #. i18n: file ./editor/formsettings.ui line 227
-#: rc.cpp:960
+#: rc.cpp:957
 #, no-c-format
 msgid "Co&mment:"
 msgstr "註解(&M)："
 
 #. i18n: file ./editor/formsettings.ui line 238
-#: rc.cpp:963
+#: rc.cpp:960
 #, no-c-format
 msgid "&License:"
 msgstr "許可證(&L)："
 
 #. i18n: file ./editor/formsettings.ui line 249
-#: rc.cpp:966 rc.cpp:978 rc.cpp:984
+#: rc.cpp:963 rc.cpp:975 rc.cpp:981
 #, no-c-format
 msgid "Enter your name"
 msgstr "輸入您的名字"
 
 #. i18n: file ./editor/formsettings.ui line 252
-#: rc.cpp:969 rc.cpp:981 rc.cpp:987
+#: rc.cpp:966 rc.cpp:978 rc.cpp:984
 #, no-c-format
 msgid "Enter your name."
 msgstr "輸入您的名字。"
 
 #. i18n: file ./editor/formsettings.ui line 260
-#: rc.cpp:972
+#: rc.cpp:969
 #, no-c-format
 msgid "&Version:"
 msgstr "版本(&V)："
 
 #. i18n: file ./editor/formsettings.ui line 271
-#: rc.cpp:975
+#: rc.cpp:972
 #, no-c-format
 msgid "A&uthor:"
 msgstr "作者(&U)："
 
 #. i18n: file ./editor/listboxeditor.ui line 35
-#: rc.cpp:990
+#: rc.cpp:987
 #, no-c-format
 msgid "Edit Listbox"
 msgstr "編輯 Listbox"
 
 #. i18n: file ./editor/listboxeditor.ui line 41
-#: rc.cpp:993
+#: rc.cpp:990
 #, no-c-format
 msgid ""
 "<b>Edit Listbox</b>"
@@ -3925,49 +3919,49 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/listboxeditor.ui line 229
-#: rc.cpp:1045
+#: rc.cpp:1042
 #, no-c-format
 msgid "Choose a pixmap file for the selected item."
 msgstr "為所選的項目選擇一幅點陣圖。"
 
 #. i18n: file ./editor/listboxeditor.ui line 257
-#: rc.cpp:1054
+#: rc.cpp:1051
 #, no-c-format
 msgid "Change the selected item's text."
 msgstr "更改所選項目的文字。"
 
 #. i18n: file ./editor/listboxeditor.ui line 273
-#: rc.cpp:1063
+#: rc.cpp:1060
 #, no-c-format
 msgid "<b>Add a new item.</b><p>New items are appended to the list.</p>"
 msgstr "<b>加入一個新的項目。</b>新的項目會被加入至列表中。</p>"
 
 #. i18n: file ./editor/listboxeditor.ui line 287
-#: rc.cpp:1072
+#: rc.cpp:1069
 #, no-c-format
 msgid "Delete the selected item"
 msgstr "刪除所選的項目"
 
 #. i18n: file ./editor/listboxeditor.ui line 321
-#: rc.cpp:1079
+#: rc.cpp:1076
 #, no-c-format
 msgid "Moves the selected item up."
 msgstr "把所選的項目移上。"
 
 #. i18n: file ./editor/listboxeditor.ui line 338
-#: rc.cpp:1086
+#: rc.cpp:1083
 #, no-c-format
 msgid "Move the selected item down."
 msgstr "把所選的項目移下。"
 
 #. i18n: file ./editor/multilineeditor.ui line 38
-#: rc.cpp:1089
+#: rc.cpp:1086
 #, no-c-format
 msgid "Edit Multiline Edit"
 msgstr "編輯 Multiline Edit"
 
 #. i18n: file ./editor/multilineeditor.ui line 46
-#: rc.cpp:1092
+#: rc.cpp:1089
 #, no-c-format
 msgid ""
 "<b>Edit Multiline Edit</b>"
@@ -3975,43 +3969,43 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/multilineeditor.ui line 84
-#: rc.cpp:1098
+#: rc.cpp:1095
 #, no-c-format
 msgid "Enter your text here."
 msgstr "請在此輸入您的文字。"
 
 #. i18n: file ./editor/pixmapfunction.ui line 61
-#: rc.cpp:1125
+#: rc.cpp:1122
 #, no-c-format
 msgid "&Enter arguments for loading the pixmap:"
 msgstr "輸入在載入點陣圖時的引數(&E)："
 
 #. i18n: file ./editor/pixmapfunction.ui line 109
-#: rc.cpp:1128
+#: rc.cpp:1125
 #, no-c-format
 msgid "QPixmap("
 msgstr "QPixmap("
 
 #. i18n: file ./editor/pixmapfunction.ui line 573
-#: rc.cpp:1131
+#: rc.cpp:1128
 #, no-c-format
 msgid ")"
 msgstr ")"
 
 #. i18n: file ./editor/tableeditor.ui line 16
-#: rc.cpp:1143
+#: rc.cpp:1140
 #, no-c-format
 msgid "Edit Table"
 msgstr "編輯表格"
 
 #. i18n: file ./editor/tableeditor.ui line 34
-#: rc.cpp:1146 rc.cpp:1149
+#: rc.cpp:1143 rc.cpp:1146
 #, no-c-format
 msgid "1"
 msgstr "1"
 
 #. i18n: file ./editor/tableeditor.ui line 218
-#: rc.cpp:1180 rc.cpp:1237
+#: rc.cpp:1177 rc.cpp:1234
 #, no-c-format
 msgid ""
 "<b>Move the selected item up.</b>"
@@ -4019,7 +4013,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/tableeditor.ui line 235
-#: rc.cpp:1187 rc.cpp:1244
+#: rc.cpp:1184 rc.cpp:1241
 #, no-c-format
 msgid ""
 "<b>Move the selected item down.</b>"
@@ -4027,73 +4021,73 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/tableeditor.ui line 273
-#: rc.cpp:1196
+#: rc.cpp:1193
 #, no-c-format
 msgid "Table:"
 msgstr "表格："
 
 #. i18n: file ./editor/tableeditor.ui line 348
-#: rc.cpp:1218 rc.cpp:1253
+#: rc.cpp:1215 rc.cpp:1250
 #, no-c-format
 msgid "&Label:"
 msgstr "標記(&L)："
 
 #. i18n: file ./editor/tableeditor.ui line 359
-#: rc.cpp:1221 rc.cpp:1256
+#: rc.cpp:1218 rc.cpp:1253
 #, no-c-format
 msgid "Pixmap:"
 msgstr "點陣圖："
 
 #. i18n: file ./editor/tableeditor.ui line 370
-#: rc.cpp:1224
+#: rc.cpp:1221
 #, no-c-format
 msgid "&Field:"
 msgstr "區域(&F)："
 
 #. i18n: file ./editor/tableeditor.ui line 394
-#: rc.cpp:1227
+#: rc.cpp:1224
 #, no-c-format
 msgid "<no table>"
 msgstr "<沒有表格>"
 
 #. i18n: file ./editor/tableeditor.ui line 406
-#: rc.cpp:1230
+#: rc.cpp:1227
 #, no-c-format
 msgid "&Rows"
 msgstr "列(&R)"
 
 #. i18n: file ./editor/tableeditor.ui line 496
-#: rc.cpp:1247
+#: rc.cpp:1244
 #, no-c-format
 msgid "&New Row"
 msgstr "新一列(&N)"
 
 #. i18n: file ./editor/tableeditor.ui line 504
-#: rc.cpp:1250
+#: rc.cpp:1247
 #, no-c-format
 msgid "&Delete Row"
 msgstr "刪除列(&D)"
 
 #. i18n: file ./editor/choosewidget.ui line 16
-#: rc.cpp:1278
+#: rc.cpp:1275
 #, no-c-format
 msgid "Choose Widget"
 msgstr "選擇 Widget"
 
 #. i18n: file ./editor/choosewidget.ui line 118
-#: rc.cpp:1289
+#: rc.cpp:1286
 #, no-c-format
 msgid "Find:"
 msgstr "尋找："
 
 #. i18n: file ./editor/connectioneditor.ui line 35
-#: rc.cpp:1292
+#: rc.cpp:1289
 #, no-c-format
 msgid "Edit Connections"
 msgstr "編輯連接"
 
 #. i18n: file ./editor/connectioneditor.ui line 41
-#: rc.cpp:1295
+#: rc.cpp:1292
 #, no-c-format
 msgid ""
 "<b>Edit Connections</b>"
@@ -4105,37 +4099,37 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/connectioneditor.ui line 56
-#: rc.cpp:1298
+#: rc.cpp:1295
 #, no-c-format
 msgid "Sender"
 msgstr "發出者"
 
 #. i18n: file ./editor/connectioneditor.ui line 67
-#: rc.cpp:1301
+#: rc.cpp:1298
 #, no-c-format
 msgid "Signal"
 msgstr "Signal"
 
 #. i18n: file ./editor/connectioneditor.ui line 78
-#: rc.cpp:1304
+#: rc.cpp:1301
 #, no-c-format
 msgid "Receiver"
 msgstr "接收者"
 
 #. i18n: file ./editor/connectioneditor.ui line 89
-#: rc.cpp:1307
+#: rc.cpp:1304
 #, no-c-format
 msgid "Slot"
 msgstr "Slot"
 
 #. i18n: file ./editor/connectioneditor.ui line 111
-#: rc.cpp:1310
+#: rc.cpp:1307
 #, no-c-format
 msgid "Displays the connections between the sender and the receiver."
 msgstr "顯示發出者及接收者之間的連接。"
 
 #. i18n: file ./editor/connectioneditor.ui line 119
-#: rc.cpp:1313
+#: rc.cpp:1310
 #, no-c-format
 msgid ""
 "<b>A list of slots for the receiver.</b>"
@@ -4145,73 +4139,73 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./editor/connectioneditor.ui line 127
-#: rc.cpp:1316
+#: rc.cpp:1313
 #, no-c-format
 msgid "Connec&tions:"
 msgstr "連接(&T)："
 
 #. i18n: file ./editor/connectioneditor.ui line 138
-#: rc.cpp:1319
+#: rc.cpp:1316
 #, no-c-format
 msgid "Co&nnect"
 msgstr "連接(&N)"
 
 #. i18n: file ./editor/connectioneditor.ui line 144
-#: rc.cpp:1322
+#: rc.cpp:1319
 #, no-c-format
 msgid "Create connection"
 msgstr "建立連接"
 
 #. i18n: file ./editor/connectioneditor.ui line 147
-#: rc.cpp:1325
+#: rc.cpp:1322
 #, no-c-format
 msgid "Create a connection between a signal and a slot."
 msgstr "為一個 Signal 和一個 Slot 建立連接。"
 
 #. i18n: file ./editor/connectioneditor.ui line 155
-#: rc.cpp:1328
+#: rc.cpp:1325
 #, no-c-format
 msgid "&Disconnect"
 msgstr "中斷連接(&D)"
 
 #. i18n: file ./editor/connectioneditor.ui line 161
-#: rc.cpp:1331
+#: rc.cpp:1328
 #, no-c-format
 msgid "Remove the selected connection"
 msgstr "移除選擇的連接"
 
 #. i18n: file ./editor/connectioneditor.ui line 164
-#: rc.cpp:1334
+#: rc.cpp:1331
 #, no-c-format
 msgid "Remove the selected connection."
 msgstr "移除選擇的連接。"
 
 #. i18n: file ./editor/connectioneditor.ui line 206
-#: rc.cpp:1337
+#: rc.cpp:1334
 #, no-c-format
 msgid "Displays the list of signals that the widget emits."
 msgstr "顯示所有 Widget 會發出的訊號。"
 
 #. i18n: file ./editor/connectioneditor.ui line 222
-#: rc.cpp:1340
+#: rc.cpp:1337
 #, no-c-format
 msgid "Si&gnals:"
 msgstr "Si&gnals:"
 
 #. i18n: file ./editor/connectioneditor.ui line 262
-#: rc.cpp:1343
+#: rc.cpp:1340
 #, no-c-format
 msgid "&Slots:"
 msgstr "&Slots:"
 
 #. i18n: file ./editor/templates/Tab_Dialog.ui line 37
-#: rc.cpp:1358 rc.cpp:1361 rc.cpp:1403 rc.cpp:1406
+#: rc.cpp:1355 rc.cpp:1358 rc.cpp:1400 rc.cpp:1403
 #, no-c-format
 msgid "Tab"
 msgstr "Tab"
 
 #. i18n: file ./editor/templates/Tab_Dialog.ui line 71
-#: rc.cpp:1367 rc.cpp:1385 rc.cpp:1391 rc.cpp:1412
+#: rc.cpp:1364 rc.cpp:1382 rc.cpp:1388 rc.cpp:1409
 #, no-c-format
 msgid "F1"
 msgstr "F1"
@@ -4280,6 +4274,11 @@ msgstr "預期的變數"
 msgid "<qt>Failed to start shell process<br><b>%1</b></qt>"
 msgstr "<qt>無法啟動 shell 進程<br><b>%1</b></qt>"
 
+#: widget/expression.cpp:199 widget/expression.cpp:208
+#, fuzzy
+msgid "error"
+msgstr "貼上錯誤"
+
 #: widget/kommanderfunctions.cpp:120
 msgid "Unterminated @execBegin ... @execEnd block."
 msgstr ""
@@ -4296,16 +4295,16 @@ msgstr ""
 msgid "Unterminated @switch ... @end block."
 msgstr ""
 
-#: widget/kommanderfunctions.cpp:321
+#: widget/kommanderfunctions.cpp:320
 #, c-format
 msgid "Unknown widget: @%1."
 msgstr "未知的 Widget：@%1."
 
-#: widget/kommanderfunctions.cpp:339
+#: widget/kommanderfunctions.cpp:338
 msgid "Infinite loop: @%1 called inside @%2."
 msgstr "無限循環：@%1 在 @%2 之內被呼叫。"
 
-#: widget/kommanderfunctions.cpp:345
+#: widget/kommanderfunctions.cpp:344
 msgid "Script for @%1 is empty."
 msgstr "@%1 的指令稿是空的。"
 
@@ -4403,7 +4402,7 @@ msgstr ""
 msgid "Kommander Executor"
 msgstr "Kommander 執行器"
 
-#: executor/main.cpp:86
+#: executor/main.cpp:87
 msgid ""
 "Error: no dialog given. Use --stdin option to read dialog from standard input.\n"
 msgstr ""
@@ -4706,6 +4705,9 @@ msgstr ""
 #, fuzzy
 msgid "Returns the set version string."
 msgstr "傳回指定字串的一部份。"
+
+#~ msgid "Text to be inserted"
+#~ msgstr "要插入的文字"
 
 #~ msgid "Executes the script associated with the widget."
 #~ msgstr "執行與 Widget 關聯的指令稿。"
