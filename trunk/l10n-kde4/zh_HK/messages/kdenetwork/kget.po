@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-22 07:58+0100\n"
+"POT-Creation-Date: 2008-01-25 09:38+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -116,7 +116,7 @@ msgid "Folder and extension can not be empty."
 msgstr ""
 
 #: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:117 core/kget.cpp:443
-#: core/kget.cpp:746 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
+#: core/kget.cpp:747 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
 msgid "Error"
 msgstr ""
 
@@ -272,16 +272,16 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:683 ui/newtransferdialog.cpp:35 rc.cpp:363
+#: core/kget.cpp:684 ui/newtransferdialog.cpp:35 rc.cpp:363
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:683
+#: core/kget.cpp:684
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:745
+#: core/kget.cpp:746
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -290,7 +290,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:757
+#: core/kget.cpp:758
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -301,16 +301,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:758
+#: core/kget.cpp:759
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:786 core/kget.cpp:793
+#: core/kget.cpp:787 core/kget.cpp:794
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:803
+#: core/kget.cpp:804
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -323,13 +323,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:918
+#: core/kget.cpp:919
 #, kde-format
 msgid ""
 "<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:935
+#: core/kget.cpp:936
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -340,11 +340,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:937 core/kget.cpp:948
+#: core/kget.cpp:938 core/kget.cpp:949
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:946
+#: core/kget.cpp:947
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -947,11 +947,17 @@ msgstr "顯示拖放目標(&T)"
 msgid "List All Links"
 msgstr "列出所有連結"
 
-#: extensions/konqueror/kget_plug_in.cpp:135
+#: extensions/konqueror/kget_plug_in.cpp:60
+#, fuzzy
+#| msgid "List All Links"
+msgid "List Selected Links"
+msgstr "列出所有連結"
+
+#: extensions/konqueror/kget_plug_in.cpp:178
 msgid "There are no links in the active frame of the current HTML page."
 msgstr "在目前網頁的頁框中沒有連結。"
 
-#: extensions/konqueror/kget_plug_in.cpp:136
+#: extensions/konqueror/kget_plug_in.cpp:179
 msgid "No Links"
 msgstr "沒有連結"
 
