@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-25 09:36+0100\n"
+"POT-Creation-Date: 2008-01-26 09:46+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -251,19 +251,29 @@ msgstr "預設語言："
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 42
 #. i18n: tag string
 #. i18n: file ./kdeui/sonnet/sonnetui.ui line 58
-#. i18n: tag string
-#. i18n: file ./kde3support/kdeui/k3spellui.ui line 36
-#. i18n: tag string
-#. i18n: file ./kde3support/kdeui/k3spellui.ui line 52
-#: rc.cpp:92 rc.cpp:104 rc.cpp:752 rc.cpp:764
+#: rc.cpp:92 rc.cpp:104
+#, fuzzy
+#| msgid ""
+#| "<qt><p>This word was considered to be an \"unknown word\" because it does "
+#| "not match any entry in the dictionary currently in use. It may also be a "
+#| "word in a foreign language.</p>\n"
+#| "<p>If the word is not misspelled, you may add it to the dictionary by "
+#| "clicking <b>Add to Dictionary</b>. If you don't want to add the unknown "
+#| "word to the dictionary, but you want to leave it unchanged, click "
+#| "<b>Ignore</b> or <b>Ignore All</b>.</p>\n"
+#| "<p>However, if the word is misspelled, you can try to find the correct "
+#| "replacement in the list below. If you cannot find a replacement there, "
+#| "you may type it in the text box below, and click <b>Replace</b> or "
+#| "<b>Replace All</b>.</p>\n"
+#| "</qt>"
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
 "word in a foreign language.</p>\n"
 "<p>If the word is not misspelled, you may add it to the dictionary by "
-"clicking <b>Add to Dictionary</b>. If you don't want to add the unknown word "
-"to the dictionary, but you want to leave it unchanged, click <b>Ignore</b> "
-"or <b>Ignore All</b>.</p>\n"
+"clicking <b>Add to Dictionary</b>. If you do not want to add the unknown "
+"word to the dictionary, but you want to leave it unchanged, click <b>Ignore</"
+"b> or <b>Ignore All</b>.</p>\n"
 "<p>However, if the word is misspelled, you can try to find the correct "
 "replacement in the list below. If you cannot find a replacement there, you "
 "may type it in the text box below, and click <b>Replace</b> or <b>Replace "
@@ -1680,6 +1690,34 @@ msgid ""
 "indent:0px;\"><span style=\" font-size:18pt;\">Template</span></p></body></"
 "html>"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kde3support/kdeui/k3spellui.ui line 36
+#. i18n: tag string
+#. i18n: file ./kde3support/kdeui/k3spellui.ui line 52
+#: rc.cpp:752 rc.cpp:764
+msgid ""
+"<qt><p>This word was considered to be an \"unknown word\" because it does "
+"not match any entry in the dictionary currently in use. It may also be a "
+"word in a foreign language.</p>\n"
+"<p>If the word is not misspelled, you may add it to the dictionary by "
+"clicking <b>Add to Dictionary</b>. If you don't want to add the unknown word "
+"to the dictionary, but you want to leave it unchanged, click <b>Ignore</b> "
+"or <b>Ignore All</b>.</p>\n"
+"<p>However, if the word is misspelled, you can try to find the correct "
+"replacement in the list below. If you cannot find a replacement there, you "
+"may type it in the text box below, and click <b>Replace</b> or <b>Replace "
+"All</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt><p>由於在使用中的字典內找不到這個詞語，它被當成一個\"未知詞語\"。它也有可"
+"能是一個外語。</p>\n"
+"<p>如果它真的沒有拼錯字，你可以按<b>加到字典中</b>來把它加入字典裏。如果你不"
+"希望這樣做，但仍想這個詞語保持原狀，你可以按<b>略過</b>或<b>全部略過</b>。</"
+"p>\n"
+"<p>然而，要是它拼錯了，試在下面的相近詞語中找出一個正確的。找不到的話，你也可"
+"自行輸入一個，然後按<b>取代</b>或<b>全部取代</b>來更正它。</p>\n"
+"</qt>"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 16
@@ -6753,7 +6791,7 @@ msgstr "選擇..."
 #. i18n: Filtering message, so that translators can translate the
 #. font names on their own should they want. May be replaced in
 #. the future with conventional messages in a PO file.
-#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/kfontchooser.cpp:1059
+#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/kfontchooser.cpp:1038
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font name"
@@ -6790,127 +6828,127 @@ msgstr "這些是\"%1\"字型的預覽。你可以按\"選擇...\"來預覽其�
 msgid "Select Font"
 msgstr "選擇字型"
 
-#: kdeui/fonts/kfontchooser.cpp:184
+#: kdeui/fonts/kfontchooser.cpp:174
 #, fuzzy
 #| msgid "Here you can choose the font to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font to be used."
 msgstr "在此選擇要用的字型。"
 
-#: kdeui/fonts/kfontchooser.cpp:207
+#: kdeui/fonts/kfontchooser.cpp:197
 msgid "Requested Font"
 msgstr "要求的字型"
 
-#: kdeui/fonts/kfontchooser.cpp:230
+#: kdeui/fonts/kfontchooser.cpp:220
 #, fuzzy
 #| msgid "Font"
 msgctxt "@option:check"
 msgid "Font"
 msgstr "字型"
 
-#: kdeui/fonts/kfontchooser.cpp:234
+#: kdeui/fonts/kfontchooser.cpp:224
 #, fuzzy
 #| msgid "Enable this checkbox to change the font family settings."
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font family settings."
 msgstr "啟動該選項來變更字型家族設定。"
 
-#: kdeui/fonts/kfontchooser.cpp:235
+#: kdeui/fonts/kfontchooser.cpp:225
 #, fuzzy
 #| msgid "Change font family?"
 msgctxt "@info:tooltip"
 msgid "Change font family?"
 msgstr "變更字型家族？"
 
-#: kdeui/fonts/kfontchooser.cpp:239
+#: kdeui/fonts/kfontchooser.cpp:229
 #, fuzzy
 #| msgid "Font:"
 msgctxt "@label"
 msgid "Font:"
 msgstr "字型："
 
-#: kdeui/fonts/kfontchooser.cpp:247
+#: kdeui/fonts/kfontchooser.cpp:236
 #, fuzzy
 #| msgid "Font style"
 msgctxt "@option:check"
 msgid "Font style"
 msgstr "字型樣式"
 
-#: kdeui/fonts/kfontchooser.cpp:251
+#: kdeui/fonts/kfontchooser.cpp:240
 #, fuzzy
 #| msgid "Enable this checkbox to change the font style settings."
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font style settings."
 msgstr "啟動該選項來變更字型樣式設定。"
 
-#: kdeui/fonts/kfontchooser.cpp:252
+#: kdeui/fonts/kfontchooser.cpp:241
 #, fuzzy
 #| msgid "Change font style?"
 msgctxt "@info:tooltip"
 msgid "Change font style?"
 msgstr "變更字型樣式？"
 
-#: kdeui/fonts/kfontchooser.cpp:256
+#: kdeui/fonts/kfontchooser.cpp:245
 msgid "Font style:"
 msgstr "字型樣式："
 
-#: kdeui/fonts/kfontchooser.cpp:265
+#: kdeui/fonts/kfontchooser.cpp:253
 #, fuzzy
 #| msgid "Size"
 msgctxt "@option:check"
 msgid "Size"
 msgstr "大小"
 
-#: kdeui/fonts/kfontchooser.cpp:269
+#: kdeui/fonts/kfontchooser.cpp:257
 #, fuzzy
 #| msgid "Enable this checkbox to change the font size settings."
 msgctxt "@info:whatsthis"
 msgid "Enable this checkbox to change the font size settings."
 msgstr "啟動該選項來變更字型大小設定。"
 
-#: kdeui/fonts/kfontchooser.cpp:270
+#: kdeui/fonts/kfontchooser.cpp:258
 #, fuzzy
 #| msgid "Change font size?"
 msgctxt "@info:tooltip"
 msgid "Change font size?"
 msgstr "變更字型大小？"
 
-#: kdeui/fonts/kfontchooser.cpp:274
+#: kdeui/fonts/kfontchooser.cpp:262
 #, fuzzy
 #| msgid "Size:"
 msgctxt "@label:listbox Font size"
 msgid "Size:"
 msgstr "大小："
 
-#: kdeui/fonts/kfontchooser.cpp:292
+#: kdeui/fonts/kfontchooser.cpp:278
 #, fuzzy
 #| msgid "Here you can choose the font family to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font family to be used."
 msgstr "在此選擇要使用的字型家族。"
 
-#: kdeui/fonts/kfontchooser.cpp:319
+#: kdeui/fonts/kfontchooser.cpp:304
 #, fuzzy
 #| msgid "Here you can choose the font style to be used."
 msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "在此選擇要使用的字型樣式。"
 
-#: kdeui/fonts/kfontchooser.cpp:327 kdeui/fonts/kfontchooser.cpp:649
+#: kdeui/fonts/kfontchooser.cpp:312 kdeui/fonts/kfontchooser.cpp:628
 #, fuzzy
 #| msgid "Regular"
 msgctxt "@item font"
 msgid "Regular"
 msgstr "標準"
 
-#: kdeui/fonts/kfontchooser.cpp:328 kdeui/fonts/kfontchooser.cpp:670
+#: kdeui/fonts/kfontchooser.cpp:313 kdeui/fonts/kfontchooser.cpp:649
 #, fuzzy
 #| msgid "Italic"
 msgctxt "@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:329 kdeui/fonts/kfontchooser.cpp:671
+#: kdeui/fonts/kfontchooser.cpp:314 kdeui/fonts/kfontchooser.cpp:650
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -6918,34 +6956,34 @@ msgctxt "@item font"
 msgid "Oblique"
 msgstr "傾斜"
 
-#: kdeui/fonts/kfontchooser.cpp:330
+#: kdeui/fonts/kfontchooser.cpp:315
 #, fuzzy
 #| msgid "Bold"
 msgctxt "@item font"
 msgid "Bold"
 msgstr "粗體"
 
-#: kdeui/fonts/kfontchooser.cpp:331
+#: kdeui/fonts/kfontchooser.cpp:316
 #, fuzzy
 #| msgid "Bold Italic"
 msgctxt "@item font"
 msgid "Bold Italic"
 msgstr "粗斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:351
+#: kdeui/fonts/kfontchooser.cpp:335
 #, fuzzy
 #| msgid "Relative"
 msgctxt "@item font size"
 msgid "Relative"
 msgstr "相對"
 
-#: kdeui/fonts/kfontchooser.cpp:353
+#: kdeui/fonts/kfontchooser.cpp:337
 #, fuzzy
 #| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "字型大小<br>「<b>固定</b>」或「<b>相對</b>」<br>於環境"
 
-#: kdeui/fonts/kfontchooser.cpp:355
+#: kdeui/fonts/kfontchooser.cpp:339
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
 "dynamically and adjusted to changing environment (e.g. widget dimensions, "
@@ -6954,7 +6992,7 @@ msgstr ""
 "在此你可以選擇使用固定大小字型，或根據環境動態計算調整字型大小 (例如根據部件"
 "大小、紙張大小等)。"
 
-#: kdeui/fonts/kfontchooser.cpp:383
+#: kdeui/fonts/kfontchooser.cpp:364
 msgid "Here you can choose the font size to be used."
 msgstr "在此選擇要使用的字型大小。"
 
@@ -6962,17 +7000,17 @@ msgstr "在此選擇要使用的字型大小。"
 #. Replace it with a sample text in your language, such that it is
 #. representative of language's writing system.
 #. If you wish, you can input several lines of text separated by \n.
-#: kdeui/fonts/kfontchooser.cpp:422
+#: kdeui/fonts/kfontchooser.cpp:402
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox 跳過那隻懶狗"
 
-#: kdeui/fonts/kfontchooser.cpp:424
+#: kdeui/fonts/kfontchooser.cpp:404
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr "此段範例文字顯示目前的設定。你可以編輯這段文字來測試特殊字符。"
 
-#: kdeui/fonts/kfontchooser.cpp:440 kdeui/fonts/kfontchooser.cpp:453
+#: kdeui/fonts/kfontchooser.cpp:420 kdeui/fonts/kfontchooser.cpp:433
 msgid "Actual Font"
 msgstr "實際字型"
 
@@ -6981,14 +7019,14 @@ msgstr "實際字型"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:656
+#: kdeui/fonts/kfontchooser.cpp:635
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/fonts/kfontchooser.cpp:1062
+#: kdeui/fonts/kfontchooser.cpp:1041
 #, fuzzy, kde-format
 msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
@@ -7874,19 +7912,19 @@ msgctxt "@action:button"
 msgid "&Finished"
 msgstr "完成(&F)"
 
-#: kdeui/sonnet/dialog.cpp:156
+#: kdeui/sonnet/dialog.cpp:157
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check stopped."
 msgstr "拼字檢查程式"
 
-#: kdeui/sonnet/dialog.cpp:164
+#: kdeui/sonnet/dialog.cpp:165
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check canceled."
 msgstr "拼字檢查程式"
 
-#: kdeui/sonnet/dialog.cpp:298
+#: kdeui/sonnet/dialog.cpp:299
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check complete."
@@ -7956,152 +7994,152 @@ msgstr "可用的(&V)："
 msgid "&Selected:"
 msgstr "已選取的(&S)："
 
-#: kdeui/widgets/kcharselect.cpp:277 kdeui/widgets/kcharselect.cpp:279
+#: kdeui/widgets/kcharselect.cpp:269 kdeui/widgets/kcharselect.cpp:271
 msgid "Enter a search term here"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:282
+#: kdeui/widgets/kcharselect.cpp:274
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Search"
 msgid "Search"
 msgstr "搜尋"
 
-#: kdeui/widgets/kcharselect.cpp:302
+#: kdeui/widgets/kcharselect.cpp:294
 #, fuzzy
 #| msgid "Select Font"
 msgid "Set font"
 msgstr "選擇字型"
 
-#: kdeui/widgets/kcharselect.cpp:309
+#: kdeui/widgets/kcharselect.cpp:301
 #, fuzzy
 #| msgid "Change font size?"
 msgid "Set font size"
 msgstr "變更字型大小？"
 
-#: kdeui/widgets/kcharselect.cpp:319
+#: kdeui/widgets/kcharselect.cpp:311
 #, fuzzy
 #| msgid "Select a year"
 msgid "Select a category"
 msgstr "選擇一個年份"
 
-#: kdeui/widgets/kcharselect.cpp:322
+#: kdeui/widgets/kcharselect.cpp:314
 #, fuzzy
 #| msgid "Message string to be displayed"
 msgid "Select a block to be displayed"
 msgstr "將要顯示的訊息字串"
 
-#: kdeui/widgets/kcharselect.cpp:444 kdeui/widgets/kcharselect.cpp:446
+#: kdeui/widgets/kcharselect.cpp:436 kdeui/widgets/kcharselect.cpp:438
 #, fuzzy
 #| msgid "Any Character"
 msgid "Character:"
 msgstr "任何字元"
 
-#: kdeui/widgets/kcharselect.cpp:446 kdeui/widgets/kcharselect_p.h:174
+#: kdeui/widgets/kcharselect.cpp:438 kdeui/widgets/kcharselect_p.h:174
 #, fuzzy
 #| msgid "Horizontal"
 msgid "Non-printable"
 msgstr "水平的"
 
-#: kdeui/widgets/kcharselect.cpp:450
+#: kdeui/widgets/kcharselect.cpp:442
 #, fuzzy
 #| msgid "Name:"
 msgid "Name: "
 msgstr "名稱："
 
-#: kdeui/widgets/kcharselect.cpp:458
+#: kdeui/widgets/kcharselect.cpp:450
 msgid "Annotations and Cross References"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:462
+#: kdeui/widgets/kcharselect.cpp:454
 #, fuzzy
 #| msgid "Please enter name:"
 msgid "Alias names:"
 msgstr "請輸入名稱："
 
-#: kdeui/widgets/kcharselect.cpp:470
+#: kdeui/widgets/kcharselect.cpp:462
 #, fuzzy
 #| msgid "Note"
 msgid "Notes:"
 msgstr "註解"
 
-#: kdeui/widgets/kcharselect.cpp:478
+#: kdeui/widgets/kcharselect.cpp:470
 msgid "See also:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:490
+#: kdeui/widgets/kcharselect.cpp:482
 msgid "Equivalents:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:498
+#: kdeui/widgets/kcharselect.cpp:490
 msgid "Approximate equivalents:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:507
+#: kdeui/widgets/kcharselect.cpp:499
 #, fuzzy
 #| msgid "Frame Information"
 msgid "CJK Ideograph Information"
 msgstr "框架資訊"
 
-#: kdeui/widgets/kcharselect.cpp:510
+#: kdeui/widgets/kcharselect.cpp:502
 msgid "Definition in English: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:515
+#: kdeui/widgets/kcharselect.cpp:507
 msgid "Mandarin Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:520
+#: kdeui/widgets/kcharselect.cpp:512
 msgid "Cantonese Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:525
+#: kdeui/widgets/kcharselect.cpp:517
 msgid "Japanese On Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:530
+#: kdeui/widgets/kcharselect.cpp:522
 msgid "Japanese Kun Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:535
+#: kdeui/widgets/kcharselect.cpp:527
 msgid "Tang Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:540
+#: kdeui/widgets/kcharselect.cpp:532
 msgid "Korean Pronunciation: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:546
+#: kdeui/widgets/kcharselect.cpp:538
 msgid "General Character Properties"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:547
+#: kdeui/widgets/kcharselect.cpp:539
 msgid "Block: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:548
+#: kdeui/widgets/kcharselect.cpp:540
 #, fuzzy
 #| msgid "&Unicode code point:"
 msgid "Unicode category: "
 msgstr "&Unicode 編碼："
 
-#: kdeui/widgets/kcharselect.cpp:552
+#: kdeui/widgets/kcharselect.cpp:544
 msgid "Various Useful Representations"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:553
+#: kdeui/widgets/kcharselect.cpp:545
 msgid "UTF-8:"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:556
+#: kdeui/widgets/kcharselect.cpp:548
 msgid "UTF-16: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:557
+#: kdeui/widgets/kcharselect.cpp:549
 msgid "C octal escaped UTF-8: "
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:560
+#: kdeui/widgets/kcharselect.cpp:552
 msgid "XML decimal entity:"
 msgstr ""
 
