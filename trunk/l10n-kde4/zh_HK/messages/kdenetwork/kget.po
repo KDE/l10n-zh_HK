@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-28 10:45+0100\n"
+"POT-Creation-Date: 2008-01-29 12:29+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -43,8 +43,8 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:142 core/transfergrouphandler.cpp:189
-#: core/kget.cpp:605
+#: conf/transfersgroupwidget.cpp:142 core/transfergrouphandler.cpp:186
+#: core/kget.cpp:620
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -140,8 +140,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:119 core/kget.cpp:443
-#: core/kget.cpp:779 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
+#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:119 core/kget.cpp:458
+#: core/kget.cpp:794 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
 msgid "Error"
 msgstr ""
 
@@ -193,17 +193,16 @@ msgstr ""
 msgid "History-File cannot be opened correctly!"
 msgstr ""
 
-#: core/transferhandler.cpp:124 ui/transfersviewdelegate.cpp:325
+#: core/transferhandler.cpp:124 ui/transfersviewdelegate.cpp:329
 msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:132 core/transfergrouphandler.cpp:121
-#: ui/transferdetails.cpp:98
+#: core/transferhandler.cpp:132 ui/transferdetails.cpp:98
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
-#: core/transferhandler.cpp:137 core/transfergrouphandler.cpp:126
+#: core/transferhandler.cpp:137 core/transfergrouphandler.cpp:123
 #: ui/transferdetails.cpp:103
 #, kde-format
 msgid "%1/s"
@@ -215,13 +214,13 @@ msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] ""
 
-#: core/transfergrouphandler.cpp:318
+#: core/transfergrouphandler.cpp:315
 #, fuzzy
 msgctxt "start transfergroup downloads"
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: core/transfergrouphandler.cpp:324
+#: core/transfergrouphandler.cpp:321
 #, fuzzy
 msgctxt "stop transfergroup downloads"
 msgid "Stop"
@@ -275,7 +274,7 @@ msgstr "已完成"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:415
+#: core/kget.cpp:430
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -286,27 +285,27 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:416
+#: core/kget.cpp:431
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:442
+#: core/kget.cpp:457
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:716 ui/newtransferdialog.cpp:35 rc.cpp:363
+#: core/kget.cpp:731 ui/newtransferdialog.cpp:35 rc.cpp:363
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:716
+#: core/kget.cpp:731
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:778
+#: core/kget.cpp:793
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -315,7 +314,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:790
+#: core/kget.cpp:805
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -326,16 +325,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:791
+#: core/kget.cpp:806
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:819 core/kget.cpp:826
+#: core/kget.cpp:834 core/kget.cpp:841
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:836
+#: core/kget.cpp:851
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -348,13 +347,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:951
+#: core/kget.cpp:966
 #, kde-format
 msgid ""
 "<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:968
+#: core/kget.cpp:983
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -365,11 +364,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:970 core/kget.cpp:981
+#: core/kget.cpp:985 core/kget.cpp:996
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:979
+#: core/kget.cpp:994
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -791,7 +790,7 @@ msgstr "正在排程"
 msgid "Group-Settings for %1"
 msgstr "預設的資料夾:"
 
-#: ui/transfersviewdelegate.cpp:456
+#: ui/transfersviewdelegate.cpp:460
 #, fuzzy
 msgid "Transfer details"
 msgstr " 傳輸： %1"
@@ -872,12 +871,12 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:219 mainwindow.cpp:667
+#: ui/droptarget.cpp:219 mainwindow.cpp:680
 #, fuzzy
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: ui/droptarget.cpp:220 mainwindow.cpp:668
+#: ui/droptarget.cpp:220 mainwindow.cpp:681
 #, fuzzy
 msgid "&Load transferlist"
 msgstr "開啟傳輸："
@@ -968,7 +967,7 @@ msgstr ""
 msgid "Download Manager"
 msgstr "下載管理員"
 
-#: extensions/konqueror/kget_plug_in.cpp:48 mainwindow.cpp:234
+#: extensions/konqueror/kget_plug_in.cpp:48 mainwindow.cpp:239
 #, fuzzy
 #| msgid "Show Drop &Target"
 msgid "Show Drop Target"
@@ -1064,7 +1063,7 @@ msgstr "KDE 先進的下載管理員"
 
 #: main.cpp:117
 msgid ""
-"(C) 2005 - 2007, The KGet developers\n"
+"(C) 2005 - 2008, The KGet developers\n"
 "(C) 2001 - 2002, Patrick Charbonnier\n"
 "(C) 2002, Carsten Pfeiffer\n"
 "(C) 1998 - 2000, Matej Koss"
@@ -1102,43 +1101,47 @@ msgstr ""
 msgid "Javier Goday"
 msgstr ""
 
-#: main.cpp:126
+#: main.cpp:126 main.cpp:127
 msgid "Developer"
 msgstr ""
 
 #: main.cpp:127
-msgid "Patrick Charbonnier"
-msgstr ""
-
-#: main.cpp:127 main.cpp:128 main.cpp:129
-msgid "Former Developer"
+msgid "Lukas Appelhans"
 msgstr ""
 
 #: main.cpp:128
-msgid "Carsten Pfeiffer"
+msgid "Patrick Charbonnier"
+msgstr ""
+
+#: main.cpp:128 main.cpp:129 main.cpp:130
+msgid "Former Developer"
 msgstr ""
 
 #: main.cpp:129
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:130
 msgid "Matej Koss"
 msgstr ""
 
-#: main.cpp:134
-msgid "Start KGet with drop target"
-msgstr "使用拖放目標模式啟動 KGet"
-
 #: main.cpp:135
-#, fuzzy
-#| msgid "Start KGet with drop target"
-msgid "Start KGet with hidden main window"
+msgid "Start KGet with drop target"
 msgstr "使用拖放目標模式啟動 KGet"
 
 #: main.cpp:136
 #, fuzzy
 #| msgid "Start KGet with drop target"
-msgid "Start KGet without drop target animation"
+msgid "Start KGet with hidden main window"
 msgstr "使用拖放目標模式啟動 KGet"
 
 #: main.cpp:137
+#, fuzzy
+#| msgid "Start KGet with drop target"
+msgid "Start KGet without drop target animation"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:138
 #, fuzzy
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
@@ -1197,62 +1200,69 @@ msgid "Delete Selected"
 msgstr "沒有選擇檔案"
 
 #: mainwindow.cpp:176
+#, fuzzy
+#| msgid "Download finished"
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "完成下載"
+
+#: mainwindow.cpp:181
 msgid "Start / Resume All"
 msgstr ""
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:187
 #, fuzzy
 msgid "Start / Resume Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:187
+#: mainwindow.cpp:192
 msgid "Stop All"
 msgstr ""
 
-#: mainwindow.cpp:193
+#: mainwindow.cpp:198
 #, fuzzy
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:197
+#: mainwindow.cpp:202
 msgid "Start / Resume"
 msgstr ""
 
-#: mainwindow.cpp:205
+#: mainwindow.cpp:210
 #, fuzzy
 msgid "Stop"
 msgstr "已停止"
 
-#: mainwindow.cpp:214
+#: mainwindow.cpp:219
 #, fuzzy
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:219 mainwindow.cpp:327
+#: mainwindow.cpp:224 mainwindow.cpp:332
 #, fuzzy
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:224
+#: mainwindow.cpp:229
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:229
+#: mainwindow.cpp:234
 #, fuzzy
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:240
+#: mainwindow.cpp:245
 #, fuzzy
 msgid "&Transfer History"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:246
+#: mainwindow.cpp:251
 msgid "&Group Settings"
 msgstr ""
 
-#: mainwindow.cpp:285
+#: mainwindow.cpp:290
 #, fuzzy
 #| msgid ""
 #| "This is the first time that you have run KGet.\n"
@@ -1264,24 +1274,24 @@ msgstr ""
 "這是你第一次執行 KGet 。\n"
 "要 KGet 成為 Konqueror 的下載管理員嗎？"
 
-#: mainwindow.cpp:287
+#: mainwindow.cpp:292
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror 整合"
 
-#: mainwindow.cpp:287
+#: mainwindow.cpp:292
 msgid "Enable"
 msgstr "啟用"
 
-#: mainwindow.cpp:288
+#: mainwindow.cpp:293
 msgid "Do Not Enable"
 msgstr "不啟用"
 
-#: mainwindow.cpp:326
+#: mainwindow.cpp:331
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:343
+#: mainwindow.cpp:348
 #, fuzzy
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -1293,38 +1303,38 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:345
+#: mainwindow.cpp:350
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:378
+#: mainwindow.cpp:383
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:380
+#: mainwindow.cpp:385
 #, fuzzy
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:403
+#: mainwindow.cpp:408
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:404
+#: mainwindow.cpp:409
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:590
+#: mainwindow.cpp:603
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:593
+#: mainwindow.cpp:606
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror 整合"
