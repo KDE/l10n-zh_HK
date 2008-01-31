@@ -5,13 +5,42 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-01-30 01:28+0100\n"
+"POT-Creation-Date: 2008-01-31 01:20+0100\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: part/kommander_part.cpp:30
+#, fuzzy
+msgid ""
+"Executor Part is a component of the Kommander dialog system that executes .kmdr "
+"files inside a KDE KPart"
+msgstr "kmdr-plugins 是 Kommander 對話盒系統的一部份，用來管理已安裝的外掛程式。"
+
+#: part/kommander_part.cpp:54
+#, fuzzy
+msgid "Kommander Executor Part"
+msgstr "Kommander 執行器"
+
+#: part/kommander_part.cpp:56
+msgid "Part of the KDEWebDev module."
+msgstr ""
+
+#: editor/main.cpp:47 executor/main.cpp:61 part/kommander_part.cpp:58
+#, fuzzy
+msgid "Current maintainer"
+msgstr "複製目前一行(&L)"
+
+#: editor/main.cpp:48 executor/main.cpp:62 part/kommander_part.cpp:59
+msgid "Previous maintainer"
+msgstr ""
+
+#: editor/main.cpp:49 executor/main.cpp:63 part/kommander_part.cpp:60
+msgid "Original author"
+msgstr ""
 
 #: pluginmanager/main.cpp:39
 msgid ""
@@ -128,15 +157,15 @@ msgstr "覆寫檔案?"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: editor/formfile.cpp:182
+#: editor/formfile.cpp:184
 msgid "Dialog '%1' was modified.Do you want to save it?"
 msgstr "對話盒 ‘%1’ 已被修改。您要儲存它嗎?"
 
-#: editor/formfile.cpp:183
+#: editor/formfile.cpp:185
 msgid "Save File?"
 msgstr "儲存檔案?"
 
-#: editor/formfile.cpp:242
+#: editor/formfile.cpp:244
 msgid "unnamed"
 msgstr "未命名"
 
@@ -993,19 +1022,6 @@ msgstr "Kommander"
 
 #: editor/main.cpp:46
 msgid "Project manager"
-msgstr ""
-
-#: editor/main.cpp:47
-#, fuzzy
-msgid "Current maintainer"
-msgstr "複製目前一行(&L)"
-
-#: editor/main.cpp:48
-msgid "Previous maintainer"
-msgstr ""
-
-#: editor/main.cpp:49
-msgid "Original author"
 msgstr ""
 
 #: editor/main.cpp:71
@@ -4705,6 +4721,10 @@ msgstr ""
 msgid ""
 "Insert submenu widget into the popup menu. Use -1 for index to insert to the "
 "end. The icon is optional."
+msgstr ""
+
+#: widgets/timer.cpp:63
+msgid "Set the timer timeout interval in ms."
 msgstr ""
 
 #: widgets/toolbox.cpp:39
