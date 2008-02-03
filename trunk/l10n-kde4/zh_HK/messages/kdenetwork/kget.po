@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-02 08:56+0100\n"
+"POT-Creation-Date: 2008-02-03 08:53+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -100,7 +100,7 @@ msgid "Manage the groups"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 108
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 111
 #: conf/preferencesdialog.cpp:49 rc.cpp:213
 msgid "Folders"
 msgstr "資料夾"
@@ -111,7 +111,7 @@ msgid "Default Download Folders"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 22
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 25
 #: conf/preferencesdialog.cpp:50 rc.cpp:192
 msgid "Network"
 msgstr ""
@@ -785,6 +785,18 @@ msgstr ""
 msgctxt "Transfer status: seeding"
 msgid "Seeding.."
 msgstr "正在排程"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:22
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Select a default Torrent-Folder"
+msgstr "預設的資料夾"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:24
+#, fuzzy
+#| msgid "Default folder:"
+msgid "Select a default Temporary-Folder"
+msgstr "預設的資料夾:"
 
 #: ui/groupsettingsdialog.cpp:18
 #, fuzzy, kde-format
@@ -1500,7 +1512,7 @@ msgstr ""
 #. i18n: file conf/dlgdirectories.ui line 164
 #: rc.cpp:74
 msgid ""
-"Use a regexp expression for the extension. \n"
+"Use a regular expression for the extension. \n"
 "Example: *.tar.gz"
 msgstr ""
 
@@ -1720,7 +1732,7 @@ msgid "0"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 28
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 31
 #: rc.cpp:195
 #, fuzzy
 #| msgid "Font:"
@@ -1728,15 +1740,15 @@ msgid "Port:"
 msgstr "字型:"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 51
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 54
 #: rc.cpp:198
-msgid "Upload Limit in kB per Transfer: (0 if no limit)"
+msgid "Upload Limit per Transfer: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 58
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 61
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 75
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 78
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btspeedlimits.ui line 26
 #. i18n: tag string
@@ -1750,19 +1762,19 @@ msgid "KiB"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 68
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 71
 #: rc.cpp:204
-msgid "Download Limit in kB per Transfer: (0 if no limit)"
+msgid "Download Limit per Transfer: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 85
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 88
 #: rc.cpp:210
 msgid "Maximum Shared Ration: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 120
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 123
 #: rc.cpp:216
 #, fuzzy
 #| msgid "Default Folder"
@@ -1770,7 +1782,7 @@ msgid "Default Torrent-Folder:"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 137
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 143
 #: rc.cpp:219
 #, fuzzy
 #| msgid "Default Folder"
@@ -1778,7 +1790,7 @@ msgid "Default temporary folder"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 154
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 160
 #: rc.cpp:222
 msgid "Preallocate disk-space"
 msgstr ""
