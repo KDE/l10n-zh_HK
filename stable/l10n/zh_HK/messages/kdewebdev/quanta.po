@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
-"POT-Creation-Date: 2008-02-02 01:24+0100\n"
+"POT-Creation-Date: 2008-02-06 01:35+0100\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3661,7 +3661,7 @@ msgid "Included images:"
 msgstr "包含的圖片："
 
 #. i18n: file ./treeviews/fileinfodlg.ui line 80
-#: rc.cpp:2454 rc.cpp:3954 treeviews/basetreeview.cpp:510
+#: rc.cpp:2454 rc.cpp:3954 treeviews/basetreeview.cpp:512
 #, no-c-format
 msgid "Description:"
 msgstr "描述："
@@ -3819,7 +3819,7 @@ msgid "The plugin executable or library name (with extension)."
 msgstr "外掛程式的執行檔或程式庫的名稱(含副檔名)。"
 
 #. i18n: file ./plugins/pluginconfig.ui line 165
-#: rc.cpp:2549 treeviews/basetreeview.cpp:1172
+#: rc.cpp:2549 treeviews/basetreeview.cpp:1206
 #: treeviews/projecttreeview.cpp:393
 #, no-c-format
 msgid "File name:"
@@ -3875,7 +3875,7 @@ msgid "Search paths:"
 msgstr "搜尋路徑："
 
 #. i18n: file ./plugins/plugineditor.ui line 57
-#: rc.cpp:2582
+#: rc.cpp:2582 treeviews/basetreeview.cpp:614
 #, no-c-format
 msgid "Plugins"
 msgstr "外掛程式"
@@ -9787,7 +9787,7 @@ msgid ""
 "<br>Check that you have write access to <i>%1</i>.</qt>"
 msgstr "<qt>建立範本檔案時發生錯誤。<br>請確定您對 <i>%1</i> 擁有寫入權限。</qt>"
 
-#: src/quanta.cpp:606 treeviews/basetreeview.cpp:1150
+#: src/quanta.cpp:606 treeviews/basetreeview.cpp:1184
 msgid "Template Creation Error"
 msgstr "範本建立錯誤"
 
@@ -10073,7 +10073,7 @@ msgstr ""
 msgid "Save Before Preview"
 msgstr "預覽前儲存"
 
-#: src/main.cpp:70 src/quanta.cpp:4106 treeviews/basetreeview.cpp:438
+#: src/main.cpp:70 src/quanta.cpp:4106 treeviews/basetreeview.cpp:440
 #: treeviews/templatestreeview.cpp:567
 msgid "Quanta"
 msgstr "Quanta"
@@ -10874,7 +10874,7 @@ msgstr "<qt>檔案<br><b>%1</b><br>已存在。要覆寫嗎？</qt>"
 
 #: ../lib/compatibility/knewstuff/knewstuffgeneric.cpp:135
 #: messages/messageoutput.cpp:162 project/projectprivate.cpp:920
-#: treeviews/basetreeview.cpp:1004 treeviews/templatestreeview.cpp:470
+#: treeviews/basetreeview.cpp:1038 treeviews/templatestreeview.cpp:470
 #: utility/quantacommon.cpp:710
 msgid "Overwrite"
 msgstr "覆寫"
@@ -12288,7 +12288,7 @@ msgstr ""
 msgid "Save selection as template file:"
 msgstr "儲存選取的作為範本："
 
-#: treeviews/basetreeview.cpp:1004 treeviews/templatestreeview.cpp:470
+#: treeviews/basetreeview.cpp:1038 treeviews/templatestreeview.cpp:470
 #: utility/quantacommon.cpp:710
 msgid ""
 "<qt>The file <b>%1</b> already exists."
@@ -12368,7 +12368,7 @@ msgid ""
 "and that there is enough free space in your temporary folder.</qt>"
 msgstr ""
 
-#: treeviews/basetreeview.cpp:593 treeviews/servertreeview.cpp:104
+#: treeviews/basetreeview.cpp:627 treeviews/servertreeview.cpp:104
 msgid "Open &With..."
 msgstr "開啟用(&W)..."
 
@@ -12448,73 +12448,73 @@ msgstr "上傳"
 msgid "Date"
 msgstr "日期"
 
-#: treeviews/basetreeview.cpp:436
+#: treeviews/basetreeview.cpp:438
 msgid "Quanta File Info"
 msgstr "Quanta 檔案資訊"
 
-#: treeviews/basetreeview.cpp:495
+#: treeviews/basetreeview.cpp:497
 #, c-format
 msgid "Number of lines: %1"
 msgstr "行數：%1"
 
-#: treeviews/basetreeview.cpp:496
+#: treeviews/basetreeview.cpp:498
 #, c-format
 msgid "Number of images included: %1"
 msgstr "包含的圖片數目：%1"
 
-#: treeviews/basetreeview.cpp:497
+#: treeviews/basetreeview.cpp:499
 msgid "Size of the included images: %1 bytes"
 msgstr "包含圖片的檔案大小: %1 bytes"
 
-#: treeviews/basetreeview.cpp:498
+#: treeviews/basetreeview.cpp:500
 msgid "Total size with images: %1 bytes"
 msgstr "連圖片的總檔案大小：%1 bytes"
 
-#: treeviews/basetreeview.cpp:503
+#: treeviews/basetreeview.cpp:505
 msgid "Image size: %1 x %2"
 msgstr "圖片大小：%1 x %2"
 
-#: treeviews/basetreeview.cpp:590
+#: treeviews/basetreeview.cpp:624
 msgid "&Other..."
 msgstr "其他(&O)..."
 
-#: treeviews/basetreeview.cpp:591
+#: treeviews/basetreeview.cpp:625
 msgid "Open &With"
 msgstr "開啟用(&W)"
 
-#: treeviews/basetreeview.cpp:848 treeviews/structtreeview.cpp:832
+#: treeviews/basetreeview.cpp:882 treeviews/structtreeview.cpp:832
 msgid "&Move Here"
 msgstr "移至這裏(&M)"
 
-#: treeviews/basetreeview.cpp:850 treeviews/structtreeview.cpp:833
+#: treeviews/basetreeview.cpp:884 treeviews/structtreeview.cpp:833
 msgid "&Copy Here"
 msgstr "複製這裏(&C)"
 
-#: treeviews/basetreeview.cpp:852
+#: treeviews/basetreeview.cpp:886
 msgid "&Link Here"
 msgstr "連結這裏(&L)"
 
-#: treeviews/basetreeview.cpp:854 treeviews/structtreeview.cpp:835
+#: treeviews/basetreeview.cpp:888 treeviews/structtreeview.cpp:835
 msgid "C&ancel"
 msgstr "取消(&A)"
 
-#: treeviews/basetreeview.cpp:1098
+#: treeviews/basetreeview.cpp:1132
 msgid "Create Site Template File"
 msgstr "建立站點範本檔案"
 
-#: treeviews/basetreeview.cpp:1106
+#: treeviews/basetreeview.cpp:1140
 msgid "Templates should be saved to the local or project template folder."
 msgstr ""
 
-#: treeviews/basetreeview.cpp:1114
+#: treeviews/basetreeview.cpp:1148
 msgid "Currently you can create site templates only from local folders."
 msgstr ""
 
-#: treeviews/basetreeview.cpp:1114
+#: treeviews/basetreeview.cpp:1148
 msgid "Unsupported Feature"
 msgstr "未支援的功能"
 
-#: treeviews/basetreeview.cpp:1150
+#: treeviews/basetreeview.cpp:1184
 msgid ""
 "<qt>There was an error while creating the site template tarball."
 "<br>Check that you can read the files from <i>%1</i>"
@@ -12522,24 +12522,24 @@ msgid ""
 "your temporary folder.</qt>"
 msgstr ""
 
-#: treeviews/basetreeview.cpp:1157 treeviews/projecttreeview.cpp:375
+#: treeviews/basetreeview.cpp:1191 treeviews/projecttreeview.cpp:375
 msgid "Create New Folder"
 msgstr "建立新的目錄"
 
-#: treeviews/basetreeview.cpp:1157 treeviews/projecttreeview.cpp:375
+#: treeviews/basetreeview.cpp:1191 treeviews/projecttreeview.cpp:375
 msgid "Folder name:"
 msgstr "目錄名稱："
 
-#: treeviews/basetreeview.cpp:1172 treeviews/projecttreeview.cpp:393
+#: treeviews/basetreeview.cpp:1206 treeviews/projecttreeview.cpp:393
 msgid "Create New File"
 msgstr "新增文件"
 
-#: treeviews/basetreeview.cpp:1182 treeviews/projecttreeview.cpp:403
+#: treeviews/basetreeview.cpp:1216 treeviews/projecttreeview.cpp:403
 msgid ""
 "<qt>Cannot create file, because a file named <b>%1</b> already exists.</qt>"
 msgstr "<qt>無法建立檔案，因為檔案 <b>%1</b> 早已存在。</qt>"
 
-#: treeviews/basetreeview.cpp:1182 treeviews/projecttreeview.cpp:403
+#: treeviews/basetreeview.cpp:1216 treeviews/projecttreeview.cpp:403
 msgid "Error Creating File"
 msgstr "建立檔案時發生錯誤"
 
