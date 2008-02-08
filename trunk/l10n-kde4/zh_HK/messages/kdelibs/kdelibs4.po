@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-07 09:35+0100\n"
+"POT-Creation-Date: 2008-02-08 10:55+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5600,7 +5600,7 @@ msgstr "確定(&O)"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:849
+#: kdeui/util/kstandardguiitem.cpp:116 khtml/java/kjavaappletserver.cpp:817
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -5608,7 +5608,7 @@ msgstr "是(&Y)"
 msgid "Yes"
 msgstr "是"
 
-#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:842
+#: kdeui/util/kstandardguiitem.cpp:121 khtml/java/kjavaappletserver.cpp:810
 msgid "&No"
 msgstr "否(&N)"
 
@@ -9282,7 +9282,7 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "開始取代"
 
-#: kdeui/widgets/kcharselectdata.cpp:530 khtml/java/kjavaappletserver.cpp:697
+#: kdeui/widgets/kcharselectdata.cpp:530
 msgid "Unknown"
 msgstr "無法識別"
 
@@ -10115,19 +10115,19 @@ msgstr "編輯"
 msgid "Navigate"
 msgstr "航行"
 
-#: khtml/testkhtml.cpp:37
+#: khtml/testkhtml.cpp:38
 #, fuzzy
 #| msgid "URL to open"
 msgid "url to open"
 msgstr "要開啟的 URL"
 
-#: khtml/testkhtml.cpp:39
+#: khtml/testkhtml.cpp:40
 #, fuzzy
 #| msgid "Test"
 msgid "Testkhtml"
 msgstr "Test"
 
-#: khtml/testkhtml.cpp:40
+#: khtml/testkhtml.cpp:41
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
@@ -10859,7 +10859,7 @@ msgstr "安全警告"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>此不可信賴的網頁對<BR><B>%1</B>的存取<BR>已被禁止了。"
 
-#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:823
+#: khtml/khtml_part.cpp:6891 khtml/java/kjavaappletserver.cpp:791
 msgid "Security Alert"
 msgstr "安全警報"
 
@@ -11434,82 +11434,30 @@ msgid "Error: java executable not found"
 msgstr "錯誤：找不到 java 執行檔"
 
 #: khtml/java/kjavaappletserver.cpp:663
-msgid "Signed by (validation: "
+#, fuzzy, kde-format
+#| msgid "Signed by (validation: "
+msgid "Signed by (validation: %1)"
 msgstr "簽署者(驗證："
 
 #: khtml/java/kjavaappletserver.cpp:665
-msgid "Certificate (validation: "
+#, fuzzy, kde-format
+#| msgid "Certificate (validation: "
+msgid "Certificate (validation: %1)"
 msgstr "證書(驗證："
 
-#: khtml/java/kjavaappletserver.cpp:668
-msgid "Ok"
-msgstr "Ok"
-
-#: khtml/java/kjavaappletserver.cpp:670
-msgid "NoCARoot"
-msgstr "NoCARoot"
-
-#: khtml/java/kjavaappletserver.cpp:672
-msgid "InvalidPurpose"
-msgstr "用途不合"
-
-#: khtml/java/kjavaappletserver.cpp:674
-msgid "PathLengthExceeded"
-msgstr "超出路徑長度"
-
-#: khtml/java/kjavaappletserver.cpp:676
-msgid "InvalidCA"
-msgstr "CA證書無效"
-
-#: khtml/java/kjavaappletserver.cpp:678
-msgid "Expired"
-msgstr "已過期"
-
-#: khtml/java/kjavaappletserver.cpp:680
-msgid "SelfSigned"
-msgstr "自簽署的"
-
-#: khtml/java/kjavaappletserver.cpp:682
-msgid "ErrorReadingRoot"
-msgstr "讀取根證書時發生錯誤"
-
-#: khtml/java/kjavaappletserver.cpp:684
-msgid "Revoked"
-msgstr "已撤銷"
-
-#: khtml/java/kjavaappletserver.cpp:686
-msgid "Untrusted"
-msgstr "不可信的"
-
-#: khtml/java/kjavaappletserver.cpp:688
-msgid "SignatureFailed"
-msgstr "簽署失敗"
-
-#: khtml/java/kjavaappletserver.cpp:690
-msgid "Rejected"
-msgstr "已拒絕"
-
-#: khtml/java/kjavaappletserver.cpp:692
-msgid "PrivateKeyFailed"
-msgstr "個人密錀失敗"
-
-#: khtml/java/kjavaappletserver.cpp:694
-msgid "InvalidHost"
-msgstr "錯誤主機"
-
-#: khtml/java/kjavaappletserver.cpp:830
+#: khtml/java/kjavaappletserver.cpp:798
 msgid "Do you grant Java applet with certificate(s):"
 msgstr "你是否允許有下列證書的 Java applet："
 
-#: khtml/java/kjavaappletserver.cpp:832
+#: khtml/java/kjavaappletserver.cpp:800
 msgid "the following permission"
 msgstr "接著的權限"
 
-#: khtml/java/kjavaappletserver.cpp:846
+#: khtml/java/kjavaappletserver.cpp:814
 msgid "&Reject All"
 msgstr "全部拒絕(&R)"
 
-#: khtml/java/kjavaappletserver.cpp:852
+#: khtml/java/kjavaappletserver.cpp:820
 msgid "&Grant All"
 msgstr "全部允許(&R)"
 
@@ -13205,6 +13153,48 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "NoCARoot"
+#~ msgstr "NoCARoot"
+
+#~ msgid "InvalidPurpose"
+#~ msgstr "用途不合"
+
+#~ msgid "PathLengthExceeded"
+#~ msgstr "超出路徑長度"
+
+#~ msgid "InvalidCA"
+#~ msgstr "CA證書無效"
+
+#~ msgid "Expired"
+#~ msgstr "已過期"
+
+#~ msgid "SelfSigned"
+#~ msgstr "自簽署的"
+
+#~ msgid "ErrorReadingRoot"
+#~ msgstr "讀取根證書時發生錯誤"
+
+#~ msgid "Revoked"
+#~ msgstr "已撤銷"
+
+#~ msgid "Untrusted"
+#~ msgstr "不可信的"
+
+#~ msgid "SignatureFailed"
+#~ msgstr "簽署失敗"
+
+#~ msgid "Rejected"
+#~ msgstr "已拒絕"
+
+#~ msgid "PrivateKeyFailed"
+#~ msgstr "個人密錀失敗"
+
+#~ msgid "InvalidHost"
+#~ msgstr "錯誤主機"
 
 #, fuzzy
 #~ msgctxt ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-07 09:37+0100\n"
+"POT-Creation-Date: 2008-02-08 10:58+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -44,7 +44,7 @@ msgid "New Group"
 msgstr "預設的資料夾"
 
 #: conf/transfersgroupwidget.cpp:144 core/transfergrouphandler.cpp:192
-#: core/kget.cpp:620
+#: core/kget.cpp:619
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -152,8 +152,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:135 core/kget.cpp:458
-#: core/kget.cpp:794 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
+#: conf/dlgdirectories.cpp:140 core/transfergroup.cpp:135 core/kget.cpp:457
+#: core/kget.cpp:793 ui/transferhistory.cpp:121 ui/transferhistory.cpp:224
 msgid "Error"
 msgstr ""
 
@@ -205,20 +205,33 @@ msgstr ""
 msgid "History-File cannot be opened correctly!"
 msgstr ""
 
-#: core/transferhandler.cpp:125 ui/transfersviewdelegate.cpp:343
+#: core/transferhandler.cpp:129 ui/transfersviewdelegate.cpp:343
 msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:133 ui/transferdetails.cpp:98
+#: core/transferhandler.cpp:137 ui/transferdetails.cpp:98
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
-#: core/transferhandler.cpp:138 core/transfergrouphandler.cpp:128
+#: core/transferhandler.cpp:142 core/transfergrouphandler.cpp:128
 #: ui/transferdetails.cpp:103
 #, kde-format
 msgid "%1/s"
 msgstr "%1/秒"
+
+#: core/transferhandler.cpp:291 core/transferhandler.cpp:297
+#: ui/droptarget.cpp:94
+#, fuzzy
+#| msgid "KGet"
+msgid "Quit KGet"
+msgstr "KGet"
+
+#: core/transferhandler.cpp:292 core/transferhandler.cpp:298
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "KGet quits now because all downloads have been completed."
+msgstr "所有下載已完成。"
 
 #: core/transfergrouphandler.cpp:112
 #, kde-format
@@ -238,19 +251,7 @@ msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "已停止"
 
-#: core/kget.h:55 ui/droptarget.cpp:94
-#, fuzzy
-#| msgid "KGet"
-msgid "Quit KGet"
-msgstr "KGet"
-
-#: core/kget.h:56
-#, fuzzy
-#| msgid "All the downloads are finished."
-msgid "KGet quits now because all downloads have been completed."
-msgstr "所有下載已完成。"
-
-#: core/transfer.cpp:38 core/transfer.cpp:75 core/transfer.cpp:139
+#: core/transfer.cpp:37 core/transfer.cpp:74 core/transfer.cpp:138
 #: transfer-plugins/kio/transferKio.cpp:57
 #: transfer-plugins/metalink/metalink.cpp:53
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:61
@@ -261,14 +262,14 @@ msgctxt "transfer state: stopped"
 msgid "Stopped"
 msgstr "已停止"
 
-#: core/transfer.cpp:68
+#: core/transfer.cpp:67
 #, fuzzy
 #| msgid "Delayed"
 msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "已延遲"
 
-#: core/transfer.cpp:135 transfer-plugins/kio/transferKio.cpp:133
+#: core/transfer.cpp:134 transfer-plugins/kio/transferKio.cpp:133
 #: transfer-plugins/metalink/metalink.cpp:113
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:214
 #: transfer-plugins/bittorrent/bttransfer.cpp:259
@@ -278,13 +279,13 @@ msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/kget.cpp:180
+#: core/kget.cpp:179
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:430
+#: core/kget.cpp:429
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -295,27 +296,27 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:431
+#: core/kget.cpp:430
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:457
+#: core/kget.cpp:456
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:731 ui/newtransferdialog.cpp:35 rc.cpp:378
+#: core/kget.cpp:730 ui/newtransferdialog.cpp:35 rc.cpp:378
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:731
+#: core/kget.cpp:730
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:793
+#: core/kget.cpp:792
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -324,7 +325,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:805
+#: core/kget.cpp:804
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -335,16 +336,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:806
+#: core/kget.cpp:805
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:834 core/kget.cpp:841
+#: core/kget.cpp:833 core/kget.cpp:840
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:851
+#: core/kget.cpp:850
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -357,13 +358,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:966
+#: core/kget.cpp:965
 #, kde-format
 msgid ""
 "<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:983
+#: core/kget.cpp:982
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -374,11 +375,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:985 core/kget.cpp:996
+#: core/kget.cpp:984 core/kget.cpp:995
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:994
+#: core/kget.cpp:993
 #, kde-format
 msgid ""
 "Not deleting\n"
