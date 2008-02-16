@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-12 11:49+0100\n"
+"POT-Creation-Date: 2008-02-16 16:25+0100\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2967,7 +2967,7 @@ msgstr "通訊協定(&P)："
 
 #. i18n: tag string
 #. i18n: file ./plugins/upload/uploaddialog.ui line 13
-#: rc.cpp:1373
+#: rc.cpp:1373 plugins/upload/kdevuploadplugin.cpp:198
 msgid "Upload"
 msgstr "上傳"
 
@@ -10550,7 +10550,7 @@ msgstr ""
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: plugins/upload/uploaddialog.cpp:44
+#: plugins/upload/uploaddialog.cpp:45
 msgid "&Upload"
 msgstr "上傳(&U)"
 
@@ -10560,53 +10560,93 @@ msgstr "上傳(&U)"
 msgid "Can't upload, no profile selected."
 msgstr "沒有選擇供應者。"
 
-#: plugins/upload/uploadjob.cpp:36
+#: plugins/upload/uploadjob.cpp:37
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Uploading files"
 msgstr "上傳檔案"
 
-#: plugins/upload/uploadjob.cpp:37
+#: plugins/upload/uploadjob.cpp:38
 #, fuzzy
 #| msgid "Working..."
-msgid "Prepearing..."
+msgid "Preparing..."
 msgstr "工作中..."
 
-#: plugins/upload/uploadjob.cpp:50
+#: plugins/upload/uploadjob.cpp:51
 msgid "Calculating size..."
 msgstr ""
 
-#: plugins/upload/uploadjob.cpp:110
+#: plugins/upload/uploadjob.cpp:80
+#, fuzzy
+#| msgid "Upload Requested"
+msgid "Upload completed"
+msgstr "要求上傳"
+
+#: plugins/upload/uploadjob.cpp:111
+#, kde-format
+msgid "Marked as uploaded for %1: %2"
+msgstr ""
+
+#: plugins/upload/uploadjob.cpp:120
+#, fuzzy, kde-format
+#| msgid "Upload..."
+msgid "Uploading to %1: %2"
+msgstr "上傳..."
+
+#: plugins/upload/uploadjob.cpp:125
 #, fuzzy, kde-format
 #| msgid "Upload..."
 msgid "Uploading %1..."
 msgstr "上傳..."
 
+#: plugins/upload/uploadjob.cpp:128
+#, fuzzy, kde-format
+#| msgid "Group already exists"
+msgid "Directory in %1 allready exists: %2"
+msgstr "組別已經存在"
+
+#: plugins/upload/uploadjob.cpp:137
+#, fuzzy, kde-format
+#| msgid "Main directory:"
+msgid "Creating directory in %1: %2"
+msgstr "主目錄："
+
+#: plugins/upload/uploadjob.cpp:164
+#, fuzzy
+#| msgid "Upload Tree"
+msgid "Upload canceled"
+msgstr "上傳樹狀"
+
+#: plugins/upload/uploadjob.cpp:168
+#, fuzzy, kde-format
+msgid "Upload error: %1"
+msgstr "您的附註：%1"
+
 #: plugins/upload/profilesfiletree.cpp:44
 msgid "Please choose an upload profile."
 msgstr ""
 
-#: plugins/upload/kdevuploadplugin.cpp:73
+#: plugins/upload/kdevuploadplugin.cpp:78
 msgid "Upload Profiles"
 msgstr "上傳 Profile"
 
-#: plugins/upload/kdevuploadplugin.cpp:85
+#: plugins/upload/kdevuploadplugin.cpp:90
 #, fuzzy
 #| msgid "&Upload Project..."
 msgid "&Upload Project"
 msgstr "上傳專案(&U)..."
 
-#: plugins/upload/kdevuploadplugin.cpp:87
+#: plugins/upload/kdevuploadplugin.cpp:92
 #, fuzzy
 #| msgid "&Upload Project..."
 msgid "Upload project"
 msgstr "上傳專案(&U)..."
 
-#: plugins/upload/kdevuploadplugin.cpp:135
+#: plugins/upload/kdevuploadplugin.cpp:140
 msgid "Upload..."
 msgstr "上傳..."
 
-#: plugins/upload/kdevuploadplugin.cpp:139
+#: plugins/upload/kdevuploadplugin.cpp:144
 #, fuzzy
 #| msgid "&Quick File Upload"
 msgid "Quick Upload"
@@ -12031,9 +12071,6 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 #~ msgid "Toolbars directory:"
 #~ msgstr "工具列目錄："
 
-#~ msgid "Main directory:"
-#~ msgstr "主目錄："
-
 #~ msgid "Project Sources"
 #~ msgstr "專案的來源"
 
@@ -12637,9 +12674,6 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 #~ msgid "Group name:"
 #~ msgstr "組別名稱:"
 
-#~ msgid "Group already exists"
-#~ msgstr "組別已經存在"
-
 #~ msgid "Add DTEP"
 #~ msgstr "加入 DTEP"
 
@@ -13198,9 +13232,6 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 #~ msgid "Open &With..."
 #~ msgstr "開啟用(&W)..."
 
-#~ msgid "Upload Tree"
-#~ msgstr "上傳樹狀"
-
 #~ msgid "Local Scripts"
 #~ msgstr "本地指令稿"
 
@@ -13475,9 +13506,6 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 
 #~ msgid "After Project Close"
 #~ msgstr "在專案關閉後"
-
-#~ msgid "Upload Requested"
-#~ msgstr "要求上傳"
 
 #~ msgid "Before Document Upload"
 #~ msgstr "在文件上傳前"
