@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-16 16:25+0100\n"
+"POT-Creation-Date: 2008-02-18 14:49+0100\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -9850,6 +9850,7 @@ msgstr "設定工具列..."
 #: plugins/usertoolbars/actionconfigdialog.cpp:89
 #: plugins/usertoolbars/actionconfigdialog.cpp:203
 #: plugins/usertoolbars/actionconfigdialog.cpp:231
+#: plugins/upload/uploaddialog.cpp:76
 msgid "All"
 msgstr "全部"
 
@@ -10550,11 +10551,22 @@ msgstr ""
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: plugins/upload/uploaddialog.cpp:45
+#: plugins/upload/uploaddialog.cpp:47
 msgid "&Upload"
 msgstr "上傳(&U)"
 
-#: plugins/upload/uploaddialog.cpp:112
+#: plugins/upload/uploaddialog.cpp:80
+#, fuzzy
+#| msgid "&Modified"
+msgid "Modified"
+msgstr "修改過(&M)"
+
+#: plugins/upload/uploaddialog.cpp:84
+#, fuzzy
+msgid "Invert"
+msgstr "反向選擇(&I)"
+
+#: plugins/upload/uploaddialog.cpp:130
 #, fuzzy
 #| msgid "No provider selected."
 msgid "Can't upload, no profile selected."
@@ -10576,48 +10588,48 @@ msgstr "工作中..."
 msgid "Calculating size..."
 msgstr ""
 
-#: plugins/upload/uploadjob.cpp:80
+#: plugins/upload/uploadjob.cpp:82
 #, fuzzy
 #| msgid "Upload Requested"
 msgid "Upload completed"
 msgstr "要求上傳"
 
-#: plugins/upload/uploadjob.cpp:111
+#: plugins/upload/uploadjob.cpp:114
 #, kde-format
 msgid "Marked as uploaded for %1: %2"
 msgstr ""
 
-#: plugins/upload/uploadjob.cpp:120
+#: plugins/upload/uploadjob.cpp:123
 #, fuzzy, kde-format
 #| msgid "Upload..."
 msgid "Uploading to %1: %2"
 msgstr "上傳..."
 
-#: plugins/upload/uploadjob.cpp:125
+#: plugins/upload/uploadjob.cpp:128
 #, fuzzy, kde-format
 #| msgid "Upload..."
 msgid "Uploading %1..."
 msgstr "上傳..."
 
-#: plugins/upload/uploadjob.cpp:128
+#: plugins/upload/uploadjob.cpp:131
 #, fuzzy, kde-format
 #| msgid "Group already exists"
 msgid "Directory in %1 allready exists: %2"
 msgstr "組別已經存在"
 
-#: plugins/upload/uploadjob.cpp:137
+#: plugins/upload/uploadjob.cpp:140
 #, fuzzy, kde-format
 #| msgid "Main directory:"
 msgid "Creating directory in %1: %2"
 msgstr "主目錄："
 
-#: plugins/upload/uploadjob.cpp:164
+#: plugins/upload/uploadjob.cpp:168
 #, fuzzy
 #| msgid "Upload Tree"
 msgid "Upload canceled"
 msgstr "上傳樹狀"
 
-#: plugins/upload/uploadjob.cpp:168
+#: plugins/upload/uploadjob.cpp:180
 #, fuzzy, kde-format
 msgid "Upload error: %1"
 msgstr "您的附註：%1"
@@ -11969,9 +11981,6 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 
 #~ msgid "This will cause all files to appear already uploaded"
 #~ msgstr "這會使得所有檔案看上去是已經上傳的"
-
-#~ msgid "&Modified"
-#~ msgstr "修改過(&M)"
 
 #~ msgid "E&xpand All"
 #~ msgstr "全部展開(&X)"
