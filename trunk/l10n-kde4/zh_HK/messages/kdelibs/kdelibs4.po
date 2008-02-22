@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-21 14:35+0100\n"
+"POT-Creation-Date: 2008-02-22 12:33+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5997,96 +5997,7 @@ msgstr "選擇圖片的一份區域"
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr "請按下並拖曳圖片來選擇一份區域："
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:374
-#, fuzzy
-#| msgid "Default"
-msgid "Default:"
-msgstr "預設"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:377 kdeui/widgets/klineedit.cpp:1080
-msgid "None"
-msgstr "無"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:380
-#, fuzzy
-msgid "Custom:"
-msgstr "自訂(&U)"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:480
-msgid "Shortcuts"
-msgstr "快速鍵"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:746
-#: kdeui/dialogs/kshortcutsdialog.cpp:775
-#: kdeui/dialogs/kshortcutsdialog.cpp:791
-#: kdeui/widgets/kkeysequencewidget.cpp:124
-msgid "Key Conflict"
-msgstr "按鍵衝突"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:747
-#: kdeui/widgets/kkeysequencewidget.cpp:125
-#, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
-"你確定要重新設定此組合鍵給此動作？"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:751
-#: kdeui/dialogs/kshortcutsdialog.cpp:780
-#: kdeui/dialogs/kshortcutsdialog.cpp:796 kdeui/shortcuts/kglobalaccel.cpp:317
-#: kdeui/widgets/kkeysequencewidget.cpp:128
-msgid "Reassign"
-msgstr "重新指定"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:763
-msgid "Conflict with Standard Application Shortcut"
-msgstr "與標準的應用程式快速鍵定義衝突"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:764
-#, fuzzy, kde-format
-msgid ""
-"The '%1' key combination has already been allocated to the standard action "
-"\"%2\" that many applications use.\n"
-"You cannot use it for global shortcuts for this reason."
-msgstr ""
-"'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
-"你確定要重新設定此組合鍵給此動作？"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:776
-#, fuzzy, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
-"你確定要重新設定此組合鍵給此動作？"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:792
-#, fuzzy, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
-"你確定要重新設定此組合鍵給此動作？"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:873
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:896
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kshortcutsdialog.cpp:1119
+#: kdeui/dialogs/kshortcutsdialog.cpp:58
 msgid "Configure Shortcuts"
 msgstr "設定快速鍵"
 
@@ -6174,6 +6085,20 @@ msgstr "關於 %1"
 #: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:105
 msgid "Configure"
 msgstr "設定"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:57
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item:intable Action name in shortcuts configuration"
+msgid "%1"
+msgstr "%1%"
+
+#: kdeui/dialogs/kshortcutseditoritem.cpp:80
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip Action tooltip in shortcuts configuration"
+msgid "%1"
+msgstr "%1%"
 
 #: kdeui/dialogs/kdialog.cpp:227
 msgid "&Try"
@@ -6280,6 +6205,66 @@ msgstr "%1%"
 #| msgid "Change &Icon..."
 msgid "Change Icon"
 msgstr "變更圖示(&I)..."
+
+#: kdeui/dialogs/kshortcutseditor.cpp:82
+msgid "Shortcuts"
+msgstr "快速鍵"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:410
+#: kdeui/dialogs/kshortcutseditor.cpp:439
+#: kdeui/dialogs/kshortcutseditor.cpp:455
+#: kdeui/widgets/kkeysequencewidget.cpp:124
+msgid "Key Conflict"
+msgstr "按鍵衝突"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:411
+#: kdeui/widgets/kkeysequencewidget.cpp:125
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
+"你確定要重新設定此組合鍵給此動作？"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:415
+#: kdeui/dialogs/kshortcutseditor.cpp:444
+#: kdeui/dialogs/kshortcutseditor.cpp:460 kdeui/shortcuts/kglobalaccel.cpp:317
+#: kdeui/widgets/kkeysequencewidget.cpp:128
+msgid "Reassign"
+msgstr "重新指定"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:427
+msgid "Conflict with Standard Application Shortcut"
+msgstr "與標準的應用程式快速鍵定義衝突"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:428
+#, fuzzy, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to the standard action "
+"\"%2\" that many applications use.\n"
+"You cannot use it for global shortcuts for this reason."
+msgstr ""
+"'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
+"你確定要重新設定此組合鍵給此動作？"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:440
+#, fuzzy, kde-format
+msgid ""
+"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
+"你確定要重新設定此組合鍵給此動作？"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:456
+#, fuzzy, kde-format
+msgid ""
+"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+"Do you want to reassign it from that action to the current one?"
+msgstr ""
+"'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
+"你確定要重新設定此組合鍵給此動作？"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:64
 #, fuzzy
@@ -6543,6 +6528,21 @@ msgstr ""
 #: kdeui/dialogs/kbugreport.cpp:470
 msgid "Close Message"
 msgstr "關閉訊息"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:55
+#, fuzzy
+#| msgid "Default"
+msgid "Default:"
+msgstr "預設"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58 kdeui/widgets/klineedit.cpp:1080
+msgid "None"
+msgstr "無"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:61
+#, fuzzy
+msgid "Custom:"
+msgstr "自訂(&U)"
 
 #: kdeui/dialogs/kaboutkdedialog_p.cpp:42
 #, fuzzy
