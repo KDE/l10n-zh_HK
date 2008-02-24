@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-20 14:26+0100\n"
+"POT-Creation-Date: 2008-02-24 13:27+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,220 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/ktvariable.cpp:54
-#, fuzzy
-#| msgid "Modify Variable"
-msgid "Add or modify a variable"
-msgstr "修改變數"
-
-#: src/ktvariable.cpp:58
-#, fuzzy
-#| msgid "&Variable:"
-msgctxt "The environmental variable name ie HOME, MAILTO etc"
-msgid "&Variable:"
-msgstr "變數(&V):"
-
-#: src/ktvariable.cpp:86
-msgid "Va&lue:"
-msgstr "值(&L):"
-
-#: src/ktvariable.cpp:95
-msgid "Co&mment:"
-msgstr "註解(&M):"
-
-#: src/ktvariable.cpp:103
-msgid "&Enable this environment variable"
-msgstr ""
-
-#: src/ktvariable.cpp:130
-msgid "<i>This variable will be used by scheduled tasks.</i>"
-msgstr ""
-
-#: src/ktvariable.cpp:161
-msgid "Override default home folder."
-msgstr "覆蓋預設的家目錄。"
-
-#: src/ktvariable.cpp:165
-msgid "Email output to specified account."
-msgstr "將輸出結果郵寄到特定帳戶。"
-
-#: src/ktvariable.cpp:169
-msgid "Override default shell."
-msgstr "覆蓋預設的 shell 。"
-
-#: src/ktvariable.cpp:173
-msgid "Folders to search for program files."
-msgstr "用於搜尋程式檔案的目錄。"
-
-#: src/ktvariable.cpp:177
-#, fuzzy
-#| msgid "Variables"
-msgid "Local Variable"
-msgstr "變數"
-
-#: src/ktvariable.cpp:183
-msgid "<i>This variable is disabled.</i>"
-msgstr ""
-
-#: src/ktvariable.cpp:190
-#, fuzzy
-#| msgid "Please enter the variable name."
-msgid "<i>Please enter the variable name...</i>"
-msgstr "請輸入變數名稱。"
-
-#: src/ktvariable.cpp:197
-#, fuzzy
-#| msgid "Please enter the variable value."
-msgid "<i>Please enter the variable value ...</i>"
-msgstr "請輸入變數值。"
-
-#: src/ktapp.cpp:44 src/ktapp.cpp:287
-msgid "Task Scheduler"
-msgstr "工作排程器"
-
-#: src/ktapp.cpp:69
-#, kde-format
-msgid ""
-"The following error occurred while initializing KCron:\n"
-"\n"
-"%1\n"
-"\n"
-"KCron will now exit.\n"
-msgstr ""
-"初始化 KCron 時發生以下錯誤:\n"
-"\n"
-"%1\n"
-"\n"
-"KCron 現在會關閉。\n"
-
-#: src/ktapp.cpp:85
-msgid ""
-"You can use this application to schedule programs to run in the background.\n"
-"To schedule a new task now, click on the Tasks folder and select Edit/New "
-"from the menu."
-msgstr ""
-"你可以使用這個應用程式來安排程式在背景執行。\n"
-"要現在安排新工作，請按下「工作」資料夾並從選單中選擇「編輯」/「新增」。"
-
-#: src/ktapp.cpp:85
-msgid "Welcome to the Task Scheduler"
-msgstr "歡迎使用工作排程器"
-
-#: src/ktapp.cpp:119
-#, fuzzy
-#| msgid "&New..."
-msgctxt "Adds a new task or variable"
-msgid "&New..."
-msgstr "新增(&N)..."
-
-#: src/ktapp.cpp:127
-msgid "M&odify..."
-msgstr "修改(&O)..."
-
-#: src/ktapp.cpp:134
-msgid "&Delete"
-msgstr ""
-
-#: src/ktapp.cpp:140 src/kttask.cpp:192
-msgid "&Enabled"
-msgstr "啟用(&E)"
-
-#: src/ktapp.cpp:146
-msgid "&Run Now"
-msgstr "立即執行(&R)"
-
-#: src/ktapp.cpp:151
-#, fuzzy
-#| msgid "Ready."
-msgctxt "KCron in ready for user input"
-msgid " Ready."
-msgstr "就緒。"
-
-#: src/ktapp.cpp:173
-msgid ""
-"Scheduled tasks have been modified.\n"
-"Do you want to save changes?"
-msgstr ""
-"您已修改了排定的工作，\n"
-"要儲存變更嗎？"
-
-#: src/ktapp.cpp:205
-#, fuzzy
-#| msgid "Saving..."
-msgctxt "KCron is saving the file to the hard drive"
-msgid "Saving..."
-msgstr "正在儲存..."
-
-#: src/ktapp.cpp:207 src/ktapp.cpp:216 src/ktapp.cpp:233 src/ktapp.cpp:239
-#: src/ktapp.cpp:245 src/ktapp.cpp:251 src/ktapp.cpp:257 src/ktapp.cpp:263
-#: src/ktapp.cpp:276 src/ktapp.cpp:282
-#, fuzzy
-#| msgid "Ready."
-msgctxt "KCron is ready for user input"
-msgid "Ready."
-msgstr "就緒。"
-
-#: src/ktapp.cpp:214
-msgid "Printing..."
-msgstr "正在列印..."
-
-#: src/ktapp.cpp:230
-msgid "Cutting to clipboard..."
-msgstr "正在剪下至剪貼簿..."
-
-#: src/ktapp.cpp:237
-msgid "Copying to clipboard..."
-msgstr "正在複製至剪貼簿..."
-
-#: src/ktapp.cpp:243
-msgid "Pasting from clipboard..."
-msgstr "正在自剪貼簿貼上..."
-
-#: src/ktapp.cpp:249
-msgid "Adding new entry..."
-msgstr "正在新增項目..."
-
-#: src/ktapp.cpp:255
-msgid "Modifying entry..."
-msgstr "正在修改項目..."
-
-#: src/ktapp.cpp:261
-msgid "Deleting entry..."
-msgstr "正在刪除項目..."
-
-#: src/ktapp.cpp:270
-msgid "Disabling entry..."
-msgstr "正在停用項目..."
-
-#: src/ktapp.cpp:273
-msgid "Enabling entry..."
-msgstr "正在啟用項目..."
-
-#: src/ktapp.cpp:280
-msgid "Running command..."
-msgstr "正在執行指令..."
-
-#: src/ktapp.cpp:297
-msgid "Create a new task or variable."
-msgstr "建立新工作或變數。"
-
-#: src/ktapp.cpp:299
-msgid "Edit the selected task or variable."
-msgstr "編輯選定的工作或變數。"
-
-#: src/ktapp.cpp:301
-msgid "Delete the selected task or variable."
-msgstr "刪除選定的工作或變數。"
-
-#: src/ktapp.cpp:303
-msgid "Enable/disable the selected task or variable."
-msgstr "啟用/停用選定的工作或變數。"
-
-#: src/ktapp.cpp:305
-msgid "Run the selected task now."
-msgstr "立即執行選定的工作。"
-
-#: src/crontablib/cthost.cpp:51
+#: src/crontablib/cthost.cpp:53
 msgid ""
 "You have been blocked from using KCron                      by either the /"
 "etc/cron.allow file or the /etc/cron.deny file.                      \n"
@@ -238,51 +25,78 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 
-#: src/crontablib/cttask.cpp:219
-msgid "%H:%M"
-msgstr "%H:%M"
-
-#: src/crontablib/cttask.cpp:220
-msgctxt ""
-"Please translator, read the README.translators file in kcron's source code"
-msgid "DAYS_OF_MONTH of MONTHS"
+#: src/crontablib/cttask.cpp:232 src/taskWidget.cpp:69
+msgid "At system startup"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:221
-msgctxt "Really, read that file"
-msgid "every DAYS_OF_WEEK"
+#: src/crontablib/cttask.cpp:239
+#, kde-format
+msgctxt "1:Time Description, 2:Date Description"
+msgid "%1, %2"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:222
-msgid "DOM_FORMAT as well as DOW_FORMAT"
-msgstr "DOM_FORMAT 以及 DOW_FORMAT"
+#: src/crontablib/cttask.cpp:243
+#, fuzzy, kde-format
+#| msgid "every day "
+msgctxt "Every 'days of week'"
+msgid "every %1"
+msgstr "每天 "
 
-#: src/crontablib/cttask.cpp:223
-msgid "At TIME"
-msgstr "在 TIME"
+#: src/crontablib/cttask.cpp:247
+#, kde-format
+msgctxt "'Days of month' of 'Months'"
+msgid "%1 of %2"
+msgstr ""
 
-#: src/crontablib/cttask.cpp:224
-msgid "TIME_FORMAT, DATE_FORMAT"
-msgstr "TIME_FORMAT, DATE_FORMAT"
-
-#: src/crontablib/cttask.cpp:270
-msgid ", and "
-msgstr "，和 "
-
-#: src/crontablib/cttask.cpp:272 src/crontablib/ctunit.cpp:178
-msgid " and "
-msgstr " 和 "
-
-#: src/crontablib/cttask.cpp:275 src/crontablib/ctunit.cpp:181
-msgid ", "
-msgstr "， "
-
-#: src/crontablib/cttask.cpp:284 src/crontablib/ctdom.cpp:23
+#: src/crontablib/cttask.cpp:258 src/crontablib/ctdom.cpp:23
 #: src/crontablib/ctdow.cpp:44
 msgid "every day "
 msgstr "每天 "
 
-#: src/crontablib/ctcron.cpp:67 src/ktlistcron.cpp:37
+#: src/crontablib/cttask.cpp:269
+#, kde-format
+msgctxt "1:Day of month, 2:Day of week"
+msgid "%1 as well as %2"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:299
+#, fuzzy, kde-format
+#| msgid "%H:%M"
+msgctxt "1:Hour, 2:Minute"
+msgid "%1:%2"
+msgstr "%H:%M"
+
+#: src/crontablib/cttask.cpp:308
+msgid ", and "
+msgstr "，和 "
+
+#: src/crontablib/cttask.cpp:310 src/crontablib/ctunit.cpp:171
+msgid " and "
+msgstr " 和 "
+
+#: src/crontablib/cttask.cpp:313 src/crontablib/ctunit.cpp:174
+msgid ", "
+msgstr "， "
+
+#: src/crontablib/cttask.cpp:321
+#, kde-format
+msgctxt "Hour::Minute list"
+msgid "At %1"
+msgstr ""
+
+#: src/crontablib/cttask.cpp:329
+#, fuzzy
+#| msgid "the minutes"
+msgid "Every minutes"
+msgstr "分鐘"
+
+#: src/crontablib/cttask.cpp:331
+#, fuzzy, kde-format
+#| msgid "the minutes"
+msgid "Every %1 minutes"
+msgstr "分鐘"
+
+#: src/crontablib/ctcron.cpp:67
 msgid "(System Crontab)"
 msgstr "(系統 Crontab)"
 
@@ -301,7 +115,9 @@ msgid "An error occurred while updating crontab."
 msgstr "更新 crontab 時發生錯誤。"
 
 #: src/crontablib/ctmonth.cpp:23
-msgid "every month "
+#, fuzzy
+#| msgid "every month "
+msgid "every month"
 msgstr "每月 "
 
 #: src/crontablib/ctmonth.cpp:33
@@ -356,7 +172,7 @@ msgstr "十一月"
 msgid "December"
 msgstr "十二月"
 
-#: src/crontablib/ctunit.cpp:177
+#: src/crontablib/ctunit.cpp:170
 msgid ","
 msgstr "，"
 
@@ -484,109 +300,249 @@ msgstr "三十日"
 msgid "31st"
 msgstr "三十一日"
 
-#: src/crontablib/ctdow.cpp:46
-msgid "weekday "
-msgstr "工作日"
-
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Mon"
 msgstr "星期一"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Tue"
 msgstr "星期二"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Wed"
 msgstr "星期三"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Thu"
 msgstr "星期四"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Fri"
 msgstr "星期五"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Sat"
 msgstr "星期六"
 
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/ctdow.cpp:56
 msgid "Sun"
 msgstr "星期日"
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 #, fuzzy
 msgid "Monday"
 msgstr "星期一"
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 #, fuzzy
 msgid "Tuesday"
 msgstr "星期二"
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 msgid "Wednesday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 msgid "Thursday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 #, fuzzy
 msgid "Friday"
 msgstr "星期五"
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 msgid "Saturday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:58
 #, fuzzy
 msgid "Sunday"
 msgstr "星期日"
 
-#: src/ktlistvar.cpp:43
-#, fuzzy
-#| msgid "Disabled"
-msgctxt "The cron variable has been disabled"
-msgid "Disabled"
-msgstr "停用"
-
-#: src/ktlistvar.cpp:66
-#, fuzzy
-#| msgid "Disabled."
-msgctxt "The cron variable has been disabled"
-msgid "Disabled."
-msgstr "停用。"
-
-#: src/ktlistvar.cpp:72
-msgid "Modify Variable"
-msgstr "修改變數"
-
-#: src/ktlisttask.cpp:36 src/ktlisttask.cpp:70
-msgid "At system startup"
+#: src/tasksWidget.cpp:40
+msgid "<b>Tasks</b>"
 msgstr ""
 
-#: src/ktlisttask.cpp:43
-#, fuzzy
-#| msgid "Disabled"
-msgctxt "The cron task had been disabled"
-msgid "Disabled"
-msgstr "停用"
+#: src/tasksWidget.cpp:45 src/variablesWidget.cpp:40
+msgid "Users"
+msgstr ""
 
-#: src/ktlisttask.cpp:75
-#, fuzzy
-#| msgid "Disabled."
-msgctxt "The cron task had been disabled"
-msgid "Disabled."
-msgstr "停用。"
+#: src/tasksWidget.cpp:48
+msgid "Scheduling"
+msgstr ""
 
-#: src/ktlisttask.cpp:79
-msgid "Modify Task"
+#: src/tasksWidget.cpp:49
+#, fuzzy
+#| msgid "Modify Task"
+msgid "Command Task"
 msgstr "修改工作"
+
+#: src/tasksWidget.cpp:50 src/variablesWidget.cpp:45
+#, fuzzy
+#| msgid "Sat"
+msgid "Status"
+msgstr "星期六"
+
+#: src/tasksWidget.cpp:51
+msgid "Description"
+msgstr "描述"
+
+#: src/tasksWidget.cpp:52
+#, fuzzy
+#| msgid "Scheduled Tasks"
+msgid "Scheduling Details"
+msgstr "已排定的工作"
+
+#: src/tasksWidget.cpp:70
+msgid "Task name:"
+msgstr "工作名稱:"
+
+#: src/tasksWidget.cpp:71
+msgid "Program:"
+msgstr "程式:"
+
+#: src/tasksWidget.cpp:72 src/variablesWidget.cpp:102
+msgid "Description:"
+msgstr "描述:"
+
+#: src/tasksWidget.cpp:77
+msgid "No tasks..."
+msgstr "沒有工作..."
+
+#: src/tasksWidget.cpp:156
+msgctxt "Do not use any quote characters (') in this string"
+msgid "End of script execution. Type Enter or Ctrl+C to exit."
+msgstr ""
+
+#: src/tasksWidget.cpp:189
+#, fuzzy
+#| msgid "Tasks"
+msgid "New Task"
+msgstr "工作"
+
+#: src/kcron.cpp:85 src/kcron.cpp:315
+msgid "Task Scheduler"
+msgstr "工作排程器"
+
+#: src/kcron.cpp:111
+#, kde-format
+msgid ""
+"The following error occurred while initializing KCron:\n"
+"\n"
+"%1\n"
+"\n"
+"KCron will now exit.\n"
+msgstr ""
+"初始化 KCron 時發生以下錯誤:\n"
+"\n"
+"%1\n"
+"\n"
+"KCron 現在會關閉。\n"
+
+#: src/kcron.cpp:126
+msgid ""
+"You can use this application to schedule programs to run in the background.\n"
+"To schedule a new task now, click on the Tasks folder and select Edit/New "
+"from the menu."
+msgstr ""
+"你可以使用這個應用程式來安排程式在背景執行。\n"
+"要現在安排新工作，請按下「工作」資料夾並從選單中選擇「編輯」/「新增」。"
+
+#: src/kcron.cpp:126
+msgid "Welcome to the Task Scheduler"
+msgstr "歡迎使用工作排程器"
+
+#: src/kcron.cpp:163
+#, fuzzy
+#| msgid "No tasks..."
+msgctxt "Adds a new task"
+msgid "New &Task..."
+msgstr "沒有工作..."
+
+#: src/kcron.cpp:168
+#, fuzzy
+#| msgid "No variables..."
+msgctxt "Adds a new variable"
+msgid "New &Variable..."
+msgstr "沒有變數..."
+
+#: src/kcron.cpp:172
+msgid "M&odify..."
+msgstr "修改(&O)..."
+
+#: src/kcron.cpp:178
+msgid "&Delete"
+msgstr ""
+
+#: src/kcron.cpp:184
+msgid "&Run Now"
+msgstr "立即執行(&R)"
+
+#: src/kcron.cpp:229
+#, fuzzy
+#| msgid "Ready."
+msgctxt "Ready for user input"
+msgid " Ready."
+msgstr "就緒。"
+
+#: src/kcron.cpp:250
+msgid ""
+"Scheduled tasks have been modified.\n"
+"Do you want to save changes?"
+msgstr ""
+"您已修改了排定的工作，\n"
+"要儲存變更嗎？"
+
+#: src/kcron.cpp:282
+#, fuzzy
+#| msgid "Saving..."
+msgctxt "Saving the file to the hard drive"
+msgid "Saving..."
+msgstr "正在儲存..."
+
+#: src/kcron.cpp:284 src/kcron.cpp:293 src/kcron.cpp:304 src/kcron.cpp:310
+#, fuzzy
+#| msgid "Ready."
+msgctxt "Ready for user input"
+msgid "Ready."
+msgstr "就緒。"
+
+#: src/kcron.cpp:291
+msgid "Printing..."
+msgstr "正在列印..."
+
+#: src/kcron.cpp:302
+msgid "Copying to clipboard..."
+msgstr "正在複製至剪貼簿..."
+
+#: src/kcron.cpp:308
+msgid "Pasting from clipboard..."
+msgstr "正在自剪貼簿貼上..."
+
+#: src/kcron.cpp:325
+#, fuzzy
+#| msgid "Create a new task or variable."
+msgid "Create a new task."
+msgstr "建立新工作或變數。"
+
+#: src/kcron.cpp:328
+#, fuzzy
+#| msgid "Create a new task or variable."
+msgid "Create a new variable."
+msgstr "建立新工作或變數。"
+
+#: src/kcron.cpp:331
+msgid "Edit the selected task or variable."
+msgstr "編輯選定的工作或變數。"
+
+#: src/kcron.cpp:334
+msgid "Delete the selected task or variable."
+msgstr "刪除選定的工作或變數。"
+
+#: src/kcron.cpp:337
+msgid "Run the selected task now."
+msgstr "立即執行選定的工作。"
 
 #: src/main.cpp:20
 msgid "KDE Task Scheduler"
@@ -622,175 +578,268 @@ msgstr ""
 msgid "Alberto G. Hierro"
 msgstr ""
 
-#: src/kttask.cpp:61
-msgid "Set All"
-msgstr "全部設定"
-
-#: src/kttask.cpp:63
+#: src/variablesWidget.cpp:35
 #, fuzzy
-msgid "Clear All"
-msgstr "全部設定"
+#| msgid "Variables"
+msgid "<b>Variables</b>"
+msgstr "變數"
 
-#: src/kttask.cpp:138
+#: src/variablesWidget.cpp:43
 #, fuzzy
-#| msgid "Modify Variable"
-msgid "Add or modify a scheduled task"
-msgstr "修改變數"
+#| msgid "Variables"
+msgid "Variable"
+msgstr "變數"
 
-#: src/kttask.cpp:139 src/kttask.cpp:811
-msgid "<i>This task will be executed at the specified intervals.</i>"
-msgstr ""
+#: src/variablesWidget.cpp:44
+msgid "Value"
+msgstr "值"
 
-#: src/kttask.cpp:147
-msgid "&Program:"
-msgstr "程式(&P):"
-
-#: src/kttask.cpp:164
-msgid "&Run as:"
-msgstr "以此身份執行(&R):"
-
-#: src/kttask.cpp:179
-msgid "&Comment:"
-msgstr "註解(&C):"
-
-#: src/kttask.cpp:197
-msgid "Run at system &bootup"
-msgstr ""
-
-#: src/kttask.cpp:202
+#: src/variablesWidget.cpp:46
 #, fuzzy
-#| msgid "Run every day"
-msgid "Run &every day"
-msgstr "每天執行"
+#| msgid "Co&mment:"
+msgid "Comment"
+msgstr "註解(&M):"
 
-#: src/kttask.cpp:319
-msgid "Days of Month"
-msgstr "月份中的天數"
-
-#: src/kttask.cpp:354
-msgid "Months"
-msgstr "個月"
-
-#: src/kttask.cpp:391
-msgid "Days of Week"
-msgstr "星期中的天數"
-
-#: src/kttask.cpp:426
-msgid "Minutes"
-msgstr "分鐘"
-
-#: src/kttask.cpp:468
-msgid "Hours"
-msgstr "小時"
-
-#: src/kttask.cpp:471
-msgid "AM"
-msgstr "上午"
-
-#: src/kttask.cpp:497
-msgid "PM"
-msgstr "下午"
-
-#: src/kttask.cpp:687
-msgid "<i>This task is disabled.</i>"
-msgstr ""
-
-#: src/kttask.cpp:694
-msgid "<i>This task will be run on system bootup.</i>"
-msgstr ""
-
-#: src/kttask.cpp:700 src/kttask.cpp:742
-msgid "<i>Please browse for a program to execute...</i>"
-msgstr ""
-
-#: src/kttask.cpp:734
-#, fuzzy
-#| msgid "Please enter the variable name."
-msgid "<i>Please select an executable program...</i>"
-msgstr "請輸入變數名稱。"
-
-#: src/kttask.cpp:757
-#, fuzzy
-#| msgid "Please enter the variable name."
-msgid "<i>Please select from the 'Months' section...</i>"
-msgstr "請輸入變數名稱。"
-
-#: src/kttask.cpp:775
-msgid ""
-"<i>Please select from either the 'Days of Month' or the 'Days of Week' "
-"section...</i>"
-msgstr ""
-
-#: src/kttask.cpp:789
-#, fuzzy
-#| msgid "Please enter the variable name."
-msgid "<i>Please select from the 'Hours' section...</i>"
-msgstr "請輸入變數名稱。"
-
-#: src/kttask.cpp:803
-#, fuzzy
-#| msgid "Please enter the variable name."
-msgid "<i>Please select from the 'Minutes' section...</i>"
-msgstr "請輸入變數名稱。"
-
-#: src/ktprint.cpp:76
-msgid "Print Cron Tab"
-msgstr "列印 Cron Tab"
-
-#: src/ktlistvars.cpp:38
-msgid "Edit Variable"
-msgstr "編輯變數"
-
-#: src/ktlistvars.cpp:60
+#: src/variablesWidget.cpp:100
 #, fuzzy
 #| msgid "Variable:"
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "Variable:"
 msgstr "變數:"
 
-#: src/ktlistvars.cpp:61
+#: src/variablesWidget.cpp:101
 msgid "Value:"
 msgstr "值:"
 
-#: src/ktlistvars.cpp:62 src/ktlisttasks.cpp:65
-msgid "Description:"
-msgstr "描述:"
-
-#: src/ktlistvars.cpp:71
+#: src/variablesWidget.cpp:107
 msgid "No variables..."
 msgstr "沒有變數..."
 
-#: src/ktlistvars.cpp:87
-msgid "Variables"
+#: src/variablesWidget.cpp:137
+#, fuzzy
+#| msgid "Variables"
+msgid "New Variable"
 msgstr "變數"
 
-#: src/ktview.cpp:82
+#: src/taskWidget.cpp:36 src/variableWidget.cpp:36
 #, fuzzy
-#| msgid "Users/Tasks/Variables"
-msgid "Users/Tasks/Variable"
-msgstr "用戶/工作/變數"
+#| msgid "&Enabled"
+msgid "Enabled"
+msgstr "啟用(&E)"
 
-#: src/ktview.cpp:84
-msgid "Tasks/Variables"
-msgstr "工作/變數"
+#: src/taskWidget.cpp:39 src/variableWidget.cpp:40
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "停用"
 
-#: src/ktview.cpp:86
-msgid "Value"
-msgstr "值"
+#: src/taskWidget.cpp:73
+#, fuzzy
+#| msgid "Disabled."
+msgctxt "The cron task had been disabled"
+msgid "Disabled."
+msgstr "停用。"
 
-#: src/ktview.cpp:87
-msgid "Description"
-msgstr "描述"
+#: src/taskWidget.cpp:77
+msgid "Modify Task"
+msgstr "修改工作"
 
-#: src/ktview.cpp:221
-#, kde-format
-msgctxt "user on host"
-msgid "%1 <placeholder>%2</placeholder> on %3"
+#: src/ktprint.cpp:78
+msgid "Print Cron Tab"
+msgstr "列印 Cron Tab"
+
+#: src/variableWidget.cpp:67
+#, fuzzy
+#| msgid "Disabled."
+msgctxt "The cron variable has been disabled"
+msgid "Disabled."
+msgstr "停用。"
+
+#: src/variableWidget.cpp:73
+msgid "Modify Variable"
+msgstr "修改變數"
+
+#: src/taskEditorDialog.cpp:61
+msgid "Set All"
+msgstr "全部設定"
+
+#: src/taskEditorDialog.cpp:63
+#, fuzzy
+msgid "Clear All"
+msgstr "全部設定"
+
+#: src/taskEditorDialog.cpp:138
+#, fuzzy
+#| msgid "Modify Variable"
+msgid "Add or modify a scheduled task"
+msgstr "修改變數"
+
+#: src/taskEditorDialog.cpp:139 src/taskEditorDialog.cpp:811
+msgid "<i>This task will be executed at the specified intervals.</i>"
 msgstr ""
 
-#: src/ktview.cpp:226
-msgid "Scheduled Tasks"
-msgstr "已排定的工作"
+#: src/taskEditorDialog.cpp:147
+msgid "&Program:"
+msgstr "程式(&P):"
+
+#: src/taskEditorDialog.cpp:164
+msgid "&Run as:"
+msgstr "以此身份執行(&R):"
+
+#: src/taskEditorDialog.cpp:179
+msgid "&Comment:"
+msgstr "註解(&C):"
+
+#: src/taskEditorDialog.cpp:192
+msgid "&Enabled"
+msgstr "啟用(&E)"
+
+#: src/taskEditorDialog.cpp:197
+msgid "Run at system &bootup"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:202
+#, fuzzy
+#| msgid "Run every day"
+msgid "Run &every day"
+msgstr "每天執行"
+
+#: src/taskEditorDialog.cpp:319
+msgid "Days of Month"
+msgstr "月份中的天數"
+
+#: src/taskEditorDialog.cpp:354
+msgid "Months"
+msgstr "個月"
+
+#: src/taskEditorDialog.cpp:391
+msgid "Days of Week"
+msgstr "星期中的天數"
+
+#: src/taskEditorDialog.cpp:426
+msgid "Minutes"
+msgstr "分鐘"
+
+#: src/taskEditorDialog.cpp:468
+msgid "Hours"
+msgstr "小時"
+
+#: src/taskEditorDialog.cpp:471
+msgid "AM"
+msgstr "上午"
+
+#: src/taskEditorDialog.cpp:497
+msgid "PM"
+msgstr "下午"
+
+#: src/taskEditorDialog.cpp:687
+msgid "<i>This task is disabled.</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:694
+msgid "<i>This task will be run on system bootup.</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:700 src/taskEditorDialog.cpp:742
+msgid "<i>Please browse for a program to execute...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:734
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please select an executable program...</i>"
+msgstr "請輸入變數名稱。"
+
+#: src/taskEditorDialog.cpp:757
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please select from the 'Months' section...</i>"
+msgstr "請輸入變數名稱。"
+
+#: src/taskEditorDialog.cpp:775
+msgid ""
+"<i>Please select from either the 'Days of Month' or the 'Days of Week' "
+"section...</i>"
+msgstr ""
+
+#: src/taskEditorDialog.cpp:789
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please select from the 'Hours' section...</i>"
+msgstr "請輸入變數名稱。"
+
+#: src/taskEditorDialog.cpp:803
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please select from the 'Minutes' section...</i>"
+msgstr "請輸入變數名稱。"
+
+#: src/variableEditorDialog.cpp:53
+#, fuzzy
+#| msgid "Modify Variable"
+msgid "Add or modify a variable"
+msgstr "修改變數"
+
+#: src/variableEditorDialog.cpp:57
+#, fuzzy
+#| msgid "&Variable:"
+msgctxt "The environmental variable name ie HOME, MAILTO etc"
+msgid "&Variable:"
+msgstr "變數(&V):"
+
+#: src/variableEditorDialog.cpp:85
+msgid "Va&lue:"
+msgstr "值(&L):"
+
+#: src/variableEditorDialog.cpp:94
+msgid "Co&mment:"
+msgstr "註解(&M):"
+
+#: src/variableEditorDialog.cpp:102
+msgid "&Enable this environment variable"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:129
+msgid "<i>This variable will be used by scheduled tasks.</i>"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:160
+msgid "Override default home folder."
+msgstr "覆蓋預設的家目錄。"
+
+#: src/variableEditorDialog.cpp:164
+msgid "Email output to specified account."
+msgstr "將輸出結果郵寄到特定帳戶。"
+
+#: src/variableEditorDialog.cpp:168
+msgid "Override default shell."
+msgstr "覆蓋預設的 shell 。"
+
+#: src/variableEditorDialog.cpp:172
+msgid "Folders to search for program files."
+msgstr "用於搜尋程式檔案的目錄。"
+
+#: src/variableEditorDialog.cpp:176
+#, fuzzy
+#| msgid "Variables"
+msgid "Local Variable"
+msgstr "變數"
+
+#: src/variableEditorDialog.cpp:182
+msgid "<i>This variable is disabled.</i>"
+msgstr ""
+
+#: src/variableEditorDialog.cpp:189
+#, fuzzy
+#| msgid "Please enter the variable name."
+msgid "<i>Please enter the variable name...</i>"
+msgstr "請輸入變數名稱。"
+
+#: src/variableEditorDialog.cpp:196
+#, fuzzy
+#| msgid "Please enter the variable value."
+msgid "<i>Please enter the variable value ...</i>"
+msgstr "請輸入變數值。"
 
 #: src/ktprintopt.cpp:25
 msgid "Cron Options"
@@ -804,26 +853,6 @@ msgstr "列印 Crontab(&T)"
 msgid "Print &all users"
 msgstr "列印所有用戶(&A)"
 
-#: src/ktlisttasks.cpp:36
-msgid "Tasks"
-msgstr "工作"
-
-#: src/ktlisttasks.cpp:41
-msgid "Edit Task"
-msgstr "編輯工作"
-
-#: src/ktlisttasks.cpp:63
-msgid "Task name:"
-msgstr "工作名稱:"
-
-#: src/ktlisttasks.cpp:64
-msgid "Program:"
-msgstr "程式:"
-
-#: src/ktlisttasks.cpp:74
-msgid "No tasks..."
-msgstr "沒有工作..."
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -833,6 +862,68 @@ msgstr "Eric Cheng,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#, fuzzy
+#~| msgid "&New..."
+#~ msgctxt "Adds a new task or variable"
+#~ msgid "&New..."
+#~ msgstr "新增(&N)..."
+
+#~ msgid "Cutting to clipboard..."
+#~ msgstr "正在剪下至剪貼簿..."
+
+#~ msgid "Adding new entry..."
+#~ msgstr "正在新增項目..."
+
+#~ msgid "Modifying entry..."
+#~ msgstr "正在修改項目..."
+
+#~ msgid "Deleting entry..."
+#~ msgstr "正在刪除項目..."
+
+#~ msgid "Disabling entry..."
+#~ msgstr "正在停用項目..."
+
+#~ msgid "Enabling entry..."
+#~ msgstr "正在啟用項目..."
+
+#~ msgid "Running command..."
+#~ msgstr "正在執行指令..."
+
+#~ msgid "Enable/disable the selected task or variable."
+#~ msgstr "啟用/停用選定的工作或變數。"
+
+#~ msgid "DOM_FORMAT as well as DOW_FORMAT"
+#~ msgstr "DOM_FORMAT 以及 DOW_FORMAT"
+
+#~ msgid "At TIME"
+#~ msgstr "在 TIME"
+
+#~ msgid "TIME_FORMAT, DATE_FORMAT"
+#~ msgstr "TIME_FORMAT, DATE_FORMAT"
+
+#~ msgid "weekday "
+#~ msgstr "工作日"
+
+#, fuzzy
+#~| msgid "Disabled"
+#~ msgctxt "The cron task had been disabled"
+#~ msgid "Disabled"
+#~ msgstr "停用"
+
+#~ msgid "Edit Variable"
+#~ msgstr "編輯變數"
+
+#, fuzzy
+#~| msgid "Users/Tasks/Variables"
+#~ msgid "Users/Tasks/Variable"
+#~ msgstr "用戶/工作/變數"
+
+#~ msgid "Tasks/Variables"
+#~ msgstr "工作/變數"
+
+#~ msgid "Edit Task"
+#~ msgstr "編輯工作"
 
 #~ msgid "&Browse..."
 #~ msgstr "瀏覽(&B)..."
@@ -882,9 +973,6 @@ msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
 
 #~ msgid "the hours"
 #~ msgstr "小時"
-
-#~ msgid "the minutes"
-#~ msgstr "分鐘"
 
 #~ msgid "Enable/disable the tool bar."
 #~ msgstr "啟用/停用工具列。"
