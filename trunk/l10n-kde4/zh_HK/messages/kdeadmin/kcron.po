@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 13:27+0100\n"
+"POT-Creation-Date: 2008-02-25 13:33+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16,6 +16,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/crontabWidget.cpp:127
+msgid "Show the following Cron:"
+msgstr ""
+
+#: src/crontabWidget.cpp:131
+msgid "Personal Cron"
+msgstr ""
+
+#: src/crontabWidget.cpp:136
+#, fuzzy
+#| msgid "(System Crontab)"
+msgid "System Cron"
+msgstr "(系統 Crontab)"
+
+#: src/crontabWidget.cpp:140
+msgid "Cron of User:"
+msgstr ""
+
+#: src/crontabWidget.cpp:303
+#, kde-format
+msgctxt "user on host"
+msgid "%1 <placeholder>%2</placeholder> on %3"
+msgstr ""
+
+#: src/crontabWidget.cpp:308
+#, fuzzy
+#| msgid "Scheduled Tasks"
+msgid "Scheduled Tasks"
+msgstr "已排定的工作"
 
 #: src/crontablib/cthost.cpp:53
 msgid ""
@@ -96,21 +126,16 @@ msgstr "分鐘"
 msgid "Every %1 minutes"
 msgstr "分鐘"
 
-#: src/crontablib/ctcron.cpp:67
+#: src/crontablib/ctcron.cpp:124
 msgid "(System Crontab)"
 msgstr "(系統 Crontab)"
 
-#: src/crontablib/ctcron.cpp:78
-#, kde-format
-msgid "No password entry found for user '%1'"
-msgstr "找不到用戶「%1」的密碼項目"
-
-#: src/crontablib/ctcron.cpp:92
+#: src/crontablib/ctcron.cpp:186
 #, kde-format
 msgid "No password entry found for uid '%1'"
 msgstr "找不到 uid 「%1」的密碼項目"
 
-#: src/crontablib/ctcron.cpp:279
+#: src/crontablib/ctcron.cpp:332
 msgid "An error occurred while updating crontab."
 msgstr "更新 crontab 時發生錯誤。"
 
@@ -360,72 +385,68 @@ msgstr ""
 msgid "Sunday"
 msgstr "星期日"
 
-#: src/tasksWidget.cpp:40
+#: src/tasksWidget.cpp:41
 msgid "<b>Tasks</b>"
 msgstr ""
 
-#: src/tasksWidget.cpp:45 src/variablesWidget.cpp:40
-msgid "Users"
-msgstr ""
-
-#: src/tasksWidget.cpp:48
+#: src/tasksWidget.cpp:51
 msgid "Scheduling"
 msgstr ""
 
-#: src/tasksWidget.cpp:49
+#: src/tasksWidget.cpp:52
 #, fuzzy
 #| msgid "Modify Task"
-msgid "Command Task"
+msgid "Command"
 msgstr "修改工作"
 
-#: src/tasksWidget.cpp:50 src/variablesWidget.cpp:45
+#: src/tasksWidget.cpp:53 src/variablesWidget.cpp:47
 #, fuzzy
 #| msgid "Sat"
 msgid "Status"
 msgstr "星期六"
 
-#: src/tasksWidget.cpp:51
+#: src/tasksWidget.cpp:54
 msgid "Description"
 msgstr "描述"
 
-#: src/tasksWidget.cpp:52
+#: src/tasksWidget.cpp:55
 #, fuzzy
 #| msgid "Scheduled Tasks"
 msgid "Scheduling Details"
 msgstr "已排定的工作"
 
-#: src/tasksWidget.cpp:70
+#: src/tasksWidget.cpp:73
 msgid "Task name:"
 msgstr "工作名稱:"
 
-#: src/tasksWidget.cpp:71
+#: src/tasksWidget.cpp:74
 msgid "Program:"
 msgstr "程式:"
 
-#: src/tasksWidget.cpp:72 src/variablesWidget.cpp:102
+#: src/tasksWidget.cpp:75 src/variablesWidget.cpp:105
 msgid "Description:"
 msgstr "描述:"
 
-#: src/tasksWidget.cpp:77
+#: src/tasksWidget.cpp:80
 msgid "No tasks..."
 msgstr "沒有工作..."
 
-#: src/tasksWidget.cpp:156
+#: src/tasksWidget.cpp:161
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
 msgstr ""
 
-#: src/tasksWidget.cpp:189
+#: src/tasksWidget.cpp:194
 #, fuzzy
 #| msgid "Tasks"
 msgid "New Task"
 msgstr "工作"
 
-#: src/kcron.cpp:85 src/kcron.cpp:315
+#: src/kcron.cpp:85 src/kcron.cpp:317
 msgid "Task Scheduler"
 msgstr "工作排程器"
 
-#: src/kcron.cpp:111
+#: src/kcron.cpp:113
 #, kde-format
 msgid ""
 "The following error occurred while initializing KCron:\n"
@@ -440,7 +461,7 @@ msgstr ""
 "\n"
 "KCron 現在會關閉。\n"
 
-#: src/kcron.cpp:126
+#: src/kcron.cpp:128
 msgid ""
 "You can use this application to schedule programs to run in the background.\n"
 "To schedule a new task now, click on the Tasks folder and select Edit/New "
@@ -449,44 +470,44 @@ msgstr ""
 "你可以使用這個應用程式來安排程式在背景執行。\n"
 "要現在安排新工作，請按下「工作」資料夾並從選單中選擇「編輯」/「新增」。"
 
-#: src/kcron.cpp:126
+#: src/kcron.cpp:128
 msgid "Welcome to the Task Scheduler"
 msgstr "歡迎使用工作排程器"
 
-#: src/kcron.cpp:163
+#: src/kcron.cpp:165
 #, fuzzy
 #| msgid "No tasks..."
 msgctxt "Adds a new task"
 msgid "New &Task..."
 msgstr "沒有工作..."
 
-#: src/kcron.cpp:168
+#: src/kcron.cpp:170
 #, fuzzy
 #| msgid "No variables..."
 msgctxt "Adds a new variable"
 msgid "New &Variable..."
 msgstr "沒有變數..."
 
-#: src/kcron.cpp:172
+#: src/kcron.cpp:174
 msgid "M&odify..."
 msgstr "修改(&O)..."
 
-#: src/kcron.cpp:178
+#: src/kcron.cpp:180
 msgid "&Delete"
 msgstr ""
 
-#: src/kcron.cpp:184
+#: src/kcron.cpp:186
 msgid "&Run Now"
 msgstr "立即執行(&R)"
 
-#: src/kcron.cpp:229
+#: src/kcron.cpp:231
 #, fuzzy
 #| msgid "Ready."
 msgctxt "Ready for user input"
 msgid " Ready."
 msgstr "就緒。"
 
-#: src/kcron.cpp:250
+#: src/kcron.cpp:252
 msgid ""
 "Scheduled tasks have been modified.\n"
 "Do you want to save changes?"
@@ -494,53 +515,53 @@ msgstr ""
 "您已修改了排定的工作，\n"
 "要儲存變更嗎？"
 
-#: src/kcron.cpp:282
+#: src/kcron.cpp:284
 #, fuzzy
 #| msgid "Saving..."
 msgctxt "Saving the file to the hard drive"
 msgid "Saving..."
 msgstr "正在儲存..."
 
-#: src/kcron.cpp:284 src/kcron.cpp:293 src/kcron.cpp:304 src/kcron.cpp:310
+#: src/kcron.cpp:286 src/kcron.cpp:295 src/kcron.cpp:306 src/kcron.cpp:312
 #, fuzzy
 #| msgid "Ready."
 msgctxt "Ready for user input"
 msgid "Ready."
 msgstr "就緒。"
 
-#: src/kcron.cpp:291
+#: src/kcron.cpp:293
 msgid "Printing..."
 msgstr "正在列印..."
 
-#: src/kcron.cpp:302
+#: src/kcron.cpp:304
 msgid "Copying to clipboard..."
 msgstr "正在複製至剪貼簿..."
 
-#: src/kcron.cpp:308
+#: src/kcron.cpp:310
 msgid "Pasting from clipboard..."
 msgstr "正在自剪貼簿貼上..."
 
-#: src/kcron.cpp:325
+#: src/kcron.cpp:327
 #, fuzzy
 #| msgid "Create a new task or variable."
 msgid "Create a new task."
 msgstr "建立新工作或變數。"
 
-#: src/kcron.cpp:328
+#: src/kcron.cpp:330
 #, fuzzy
 #| msgid "Create a new task or variable."
 msgid "Create a new variable."
 msgstr "建立新工作或變數。"
 
-#: src/kcron.cpp:331
+#: src/kcron.cpp:333
 msgid "Edit the selected task or variable."
 msgstr "編輯選定的工作或變數。"
 
-#: src/kcron.cpp:334
+#: src/kcron.cpp:336
 msgid "Delete the selected task or variable."
 msgstr "刪除選定的工作或變數。"
 
-#: src/kcron.cpp:337
+#: src/kcron.cpp:339
 msgid "Run the selected task now."
 msgstr "立即執行選定的工作。"
 
@@ -581,41 +602,41 @@ msgstr ""
 #: src/variablesWidget.cpp:35
 #, fuzzy
 #| msgid "Variables"
-msgid "<b>Variables</b>"
+msgid "<b>Environment Variables</b>"
 msgstr "變數"
 
-#: src/variablesWidget.cpp:43
+#: src/variablesWidget.cpp:45
 #, fuzzy
 #| msgid "Variables"
 msgid "Variable"
 msgstr "變數"
 
-#: src/variablesWidget.cpp:44
+#: src/variablesWidget.cpp:46
 msgid "Value"
 msgstr "值"
 
-#: src/variablesWidget.cpp:46
+#: src/variablesWidget.cpp:48
 #, fuzzy
 #| msgid "Co&mment:"
 msgid "Comment"
 msgstr "註解(&M):"
 
-#: src/variablesWidget.cpp:100
+#: src/variablesWidget.cpp:103
 #, fuzzy
 #| msgid "Variable:"
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "Variable:"
 msgstr "變數:"
 
-#: src/variablesWidget.cpp:101
+#: src/variablesWidget.cpp:104
 msgid "Value:"
 msgstr "值:"
 
-#: src/variablesWidget.cpp:107
+#: src/variablesWidget.cpp:110
 msgid "No variables..."
 msgstr "沒有變數..."
 
-#: src/variablesWidget.cpp:137
+#: src/variablesWidget.cpp:142
 #, fuzzy
 #| msgid "Variables"
 msgid "New Variable"
@@ -643,10 +664,6 @@ msgstr "停用。"
 #: src/taskWidget.cpp:77
 msgid "Modify Task"
 msgstr "修改工作"
-
-#: src/ktprint.cpp:78
-msgid "Print Cron Tab"
-msgstr "列印 Cron Tab"
 
 #: src/variableWidget.cpp:67
 #, fuzzy
@@ -841,6 +858,10 @@ msgstr "請輸入變數名稱。"
 msgid "<i>Please enter the variable value ...</i>"
 msgstr "請輸入變數值。"
 
+#: src/crontabPrinter.cpp:78
+msgid "Print Cron Tab"
+msgstr "列印 Cron Tab"
+
 #: src/ktprintopt.cpp:25
 msgid "Cron Options"
 msgstr "Cron 選項"
@@ -862,6 +883,9 @@ msgstr "Eric Cheng,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#~ msgid "No password entry found for user '%1'"
+#~ msgstr "找不到用戶「%1」的密碼項目"
 
 #, fuzzy
 #~| msgid "&New..."
