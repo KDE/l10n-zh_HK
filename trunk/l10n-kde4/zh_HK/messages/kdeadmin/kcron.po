@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-25 13:33+0100\n"
+"POT-Creation-Date: 2008-02-26 14:46+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,35 +17,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/crontabWidget.cpp:127
+#: src/crontabWidget.cpp:128
 msgid "Show the following Cron:"
 msgstr ""
 
-#: src/crontabWidget.cpp:131
+#: src/crontabWidget.cpp:132
 msgid "Personal Cron"
 msgstr ""
 
-#: src/crontabWidget.cpp:136
+#: src/crontabWidget.cpp:137
 #, fuzzy
 #| msgid "(System Crontab)"
 msgid "System Cron"
 msgstr "(系統 Crontab)"
 
-#: src/crontabWidget.cpp:140
+#: src/crontabWidget.cpp:141
 msgid "Cron of User:"
 msgstr ""
-
-#: src/crontabWidget.cpp:303
-#, kde-format
-msgctxt "user on host"
-msgid "%1 <placeholder>%2</placeholder> on %3"
-msgstr ""
-
-#: src/crontabWidget.cpp:308
-#, fuzzy
-#| msgid "Scheduled Tasks"
-msgid "Scheduled Tasks"
-msgstr "已排定的工作"
 
 #: src/crontablib/cthost.cpp:53
 msgid ""
@@ -55,7 +43,7 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 
-#: src/crontablib/cttask.cpp:232 src/taskWidget.cpp:69
+#: src/crontablib/cttask.cpp:232
 msgid "At system startup"
 msgstr ""
 
@@ -135,7 +123,7 @@ msgstr "(系統 Crontab)"
 msgid "No password entry found for uid '%1'"
 msgstr "找不到 uid 「%1」的密碼項目"
 
-#: src/crontablib/ctcron.cpp:332
+#: src/crontablib/ctcron.cpp:333
 msgid "An error occurred while updating crontab."
 msgstr "更新 crontab 時發生錯誤。"
 
@@ -385,58 +373,42 @@ msgstr ""
 msgid "Sunday"
 msgstr "星期日"
 
-#: src/tasksWidget.cpp:41
+#: src/tasksWidget.cpp:40
 msgid "<b>Tasks</b>"
 msgstr ""
 
-#: src/tasksWidget.cpp:51
+#: src/tasksWidget.cpp:50 src/crontabPrinter.cpp:135
 msgid "Scheduling"
 msgstr ""
 
-#: src/tasksWidget.cpp:52
+#: src/tasksWidget.cpp:51 src/crontabPrinter.cpp:135
 #, fuzzy
 #| msgid "Modify Task"
 msgid "Command"
 msgstr "修改工作"
 
-#: src/tasksWidget.cpp:53 src/variablesWidget.cpp:47
+#: src/tasksWidget.cpp:52 src/variablesWidget.cpp:48
 #, fuzzy
 #| msgid "Sat"
 msgid "Status"
 msgstr "星期六"
 
-#: src/tasksWidget.cpp:54
+#: src/tasksWidget.cpp:53 src/crontabPrinter.cpp:135
 msgid "Description"
 msgstr "描述"
 
-#: src/tasksWidget.cpp:55
+#: src/tasksWidget.cpp:54
 #, fuzzy
 #| msgid "Scheduled Tasks"
 msgid "Scheduling Details"
 msgstr "已排定的工作"
 
-#: src/tasksWidget.cpp:73
-msgid "Task name:"
-msgstr "工作名稱:"
-
-#: src/tasksWidget.cpp:74
-msgid "Program:"
-msgstr "程式:"
-
-#: src/tasksWidget.cpp:75 src/variablesWidget.cpp:105
-msgid "Description:"
-msgstr "描述:"
-
-#: src/tasksWidget.cpp:80
-msgid "No tasks..."
-msgstr "沒有工作..."
-
-#: src/tasksWidget.cpp:161
+#: src/tasksWidget.cpp:130
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
 msgstr ""
 
-#: src/tasksWidget.cpp:194
+#: src/tasksWidget.cpp:163
 #, fuzzy
 #| msgid "Tasks"
 msgid "New Task"
@@ -599,80 +571,51 @@ msgstr ""
 msgid "Alberto G. Hierro"
 msgstr ""
 
-#: src/variablesWidget.cpp:35
+#: src/variablesWidget.cpp:36
 #, fuzzy
 #| msgid "Variables"
 msgid "<b>Environment Variables</b>"
 msgstr "變數"
 
-#: src/variablesWidget.cpp:45
+#: src/variablesWidget.cpp:46
 #, fuzzy
 #| msgid "Variables"
 msgid "Variable"
 msgstr "變數"
 
-#: src/variablesWidget.cpp:46
+#: src/variablesWidget.cpp:47
 msgid "Value"
 msgstr "值"
 
-#: src/variablesWidget.cpp:48
+#: src/variablesWidget.cpp:49
 #, fuzzy
 #| msgid "Co&mment:"
 msgid "Comment"
 msgstr "註解(&M):"
 
-#: src/variablesWidget.cpp:103
-#, fuzzy
-#| msgid "Variable:"
-msgctxt "The environmental variable name ie HOME, MAILTO etc"
-msgid "Variable:"
-msgstr "變數:"
-
-#: src/variablesWidget.cpp:104
-msgid "Value:"
-msgstr "值:"
-
-#: src/variablesWidget.cpp:110
-msgid "No variables..."
-msgstr "沒有變數..."
-
-#: src/variablesWidget.cpp:142
+#: src/variablesWidget.cpp:112
 #, fuzzy
 #| msgid "Variables"
 msgid "New Variable"
 msgstr "變數"
 
-#: src/taskWidget.cpp:36 src/variableWidget.cpp:36
+#: src/taskWidget.cpp:35 src/variableWidget.cpp:35
 #, fuzzy
 #| msgid "&Enabled"
 msgid "Enabled"
 msgstr "啟用(&E)"
 
-#: src/taskWidget.cpp:39 src/variableWidget.cpp:40
+#: src/taskWidget.cpp:38 src/variableWidget.cpp:39
 #, fuzzy
 #| msgid "Disabled"
 msgid "Disabled"
 msgstr "停用"
 
-#: src/taskWidget.cpp:73
-#, fuzzy
-#| msgid "Disabled."
-msgctxt "The cron task had been disabled"
-msgid "Disabled."
-msgstr "停用。"
-
-#: src/taskWidget.cpp:77
+#: src/taskWidget.cpp:63
 msgid "Modify Task"
 msgstr "修改工作"
 
-#: src/variableWidget.cpp:67
-#, fuzzy
-#| msgid "Disabled."
-msgctxt "The cron variable has been disabled"
-msgid "Disabled."
-msgstr "停用。"
-
-#: src/variableWidget.cpp:73
+#: src/variableWidget.cpp:61
 msgid "Modify Variable"
 msgstr "修改變數"
 
@@ -858,19 +801,39 @@ msgstr "請輸入變數名稱。"
 msgid "<i>Please enter the variable value ...</i>"
 msgstr "請輸入變數值。"
 
-#: src/crontabPrinter.cpp:78
-msgid "Print Cron Tab"
-msgstr "列印 Cron Tab"
+#: src/crontabPrinter.cpp:120
+#, fuzzy
+#| msgid "Scheduled Tasks"
+msgid "Scheduled Tasks"
+msgstr "已排定的工作"
 
-#: src/ktprintopt.cpp:25
+#: src/crontabPrinter.cpp:159
+#, fuzzy
+#| msgid "Variables"
+msgid "Environment Variables"
+msgstr "變數"
+
+#: src/crontabPrinter.cpp:182
+#, fuzzy
+#| msgid "(System Crontab)"
+msgid "System Crontab"
+msgstr "(系統 Crontab)"
+
+#: src/crontabPrinter.cpp:184
+#, kde-format
+msgctxt "Crontab of user login"
+msgid "Crontab of user %1"
+msgstr ""
+
+#: src/crontabPrinterWidget.cpp:24
 msgid "Cron Options"
 msgstr "Cron 選項"
 
-#: src/ktprintopt.cpp:31
+#: src/crontabPrinterWidget.cpp:30
 msgid "Print cron&tab"
 msgstr "列印 Crontab(&T)"
 
-#: src/ktprintopt.cpp:35
+#: src/crontabPrinterWidget.cpp:34
 msgid "Print &all users"
 msgstr "列印所有用戶(&A)"
 
@@ -883,6 +846,45 @@ msgstr "Eric Cheng,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#~ msgid "Task name:"
+#~ msgstr "工作名稱:"
+
+#~ msgid "Program:"
+#~ msgstr "程式:"
+
+#~ msgid "Description:"
+#~ msgstr "描述:"
+
+#~ msgid "No tasks..."
+#~ msgstr "沒有工作..."
+
+#, fuzzy
+#~| msgid "Variable:"
+#~ msgctxt "The environmental variable name ie HOME, MAILTO etc"
+#~ msgid "Variable:"
+#~ msgstr "變數:"
+
+#~ msgid "Value:"
+#~ msgstr "值:"
+
+#~ msgid "No variables..."
+#~ msgstr "沒有變數..."
+
+#, fuzzy
+#~| msgid "Disabled."
+#~ msgctxt "The cron task had been disabled"
+#~ msgid "Disabled."
+#~ msgstr "停用。"
+
+#, fuzzy
+#~| msgid "Disabled."
+#~ msgctxt "The cron variable has been disabled"
+#~ msgid "Disabled."
+#~ msgstr "停用。"
+
+#~ msgid "Print Cron Tab"
+#~ msgstr "列印 Cron Tab"
 
 #~ msgid "No password entry found for user '%1'"
 #~ msgstr "找不到用戶「%1」的密碼項目"
