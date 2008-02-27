@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron 1.28\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-26 14:46+0100\n"
+"POT-Creation-Date: 2008-02-27 15:05+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,21 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/crontabWidget.cpp:128
+#: src/crontabWidget.cpp:129
 msgid "Show the following Cron:"
 msgstr ""
 
-#: src/crontabWidget.cpp:132
+#: src/crontabWidget.cpp:133
 msgid "Personal Cron"
 msgstr ""
 
-#: src/crontabWidget.cpp:137
+#: src/crontabWidget.cpp:138
 #, fuzzy
 #| msgid "(System Crontab)"
 msgid "System Cron"
 msgstr "(系統 Crontab)"
 
-#: src/crontabWidget.cpp:141
+#: src/crontabWidget.cpp:142
 msgid "Cron of User:"
 msgstr ""
 
@@ -43,72 +43,72 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 
-#: src/crontablib/cttask.cpp:232
+#: src/crontablib/cttask.cpp:231
 msgid "At system startup"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:239
+#: src/crontablib/cttask.cpp:238
 #, kde-format
 msgctxt "1:Time Description, 2:Date Description"
 msgid "%1, %2"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:243
+#: src/crontablib/cttask.cpp:242
 #, fuzzy, kde-format
 #| msgid "every day "
 msgctxt "Every 'days of week'"
 msgid "every %1"
 msgstr "每天 "
 
-#: src/crontablib/cttask.cpp:247
+#: src/crontablib/cttask.cpp:246
 #, kde-format
 msgctxt "'Days of month' of 'Months'"
 msgid "%1 of %2"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:258 src/crontablib/ctdom.cpp:23
+#: src/crontablib/cttask.cpp:257 src/crontablib/ctdom.cpp:23
 #: src/crontablib/ctdow.cpp:44
 msgid "every day "
 msgstr "每天 "
 
-#: src/crontablib/cttask.cpp:269
+#: src/crontablib/cttask.cpp:268
 #, kde-format
 msgctxt "1:Day of month, 2:Day of week"
 msgid "%1 as well as %2"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:299
+#: src/crontablib/cttask.cpp:298
 #, fuzzy, kde-format
 #| msgid "%H:%M"
 msgctxt "1:Hour, 2:Minute"
 msgid "%1:%2"
 msgstr "%H:%M"
 
-#: src/crontablib/cttask.cpp:308
+#: src/crontablib/cttask.cpp:307
 msgid ", and "
 msgstr "，和 "
 
-#: src/crontablib/cttask.cpp:310 src/crontablib/ctunit.cpp:171
+#: src/crontablib/cttask.cpp:309 src/crontablib/ctunit.cpp:171
 msgid " and "
 msgstr " 和 "
 
-#: src/crontablib/cttask.cpp:313 src/crontablib/ctunit.cpp:174
+#: src/crontablib/cttask.cpp:312 src/crontablib/ctunit.cpp:174
 msgid ", "
 msgstr "， "
 
-#: src/crontablib/cttask.cpp:321
+#: src/crontablib/cttask.cpp:320
 #, kde-format
 msgctxt "Hour::Minute list"
 msgid "At %1"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:329
+#: src/crontablib/cttask.cpp:328
 #, fuzzy
 #| msgid "the minutes"
 msgid "Every minutes"
 msgstr "分鐘"
 
-#: src/crontablib/cttask.cpp:331
+#: src/crontablib/cttask.cpp:330
 #, fuzzy, kde-format
 #| msgid "the minutes"
 msgid "Every %1 minutes"
@@ -374,51 +374,61 @@ msgid "Sunday"
 msgstr "星期日"
 
 #: src/tasksWidget.cpp:40
-msgid "<b>Tasks</b>"
-msgstr ""
-
-#: src/tasksWidget.cpp:50 src/crontabPrinter.cpp:135
-msgid "Scheduling"
-msgstr ""
-
-#: src/tasksWidget.cpp:51 src/crontabPrinter.cpp:135
-#, fuzzy
-#| msgid "Modify Task"
-msgid "Command"
-msgstr "修改工作"
-
-#: src/tasksWidget.cpp:52 src/variablesWidget.cpp:48
-#, fuzzy
-#| msgid "Sat"
-msgid "Status"
-msgstr "星期六"
-
-#: src/tasksWidget.cpp:53 src/crontabPrinter.cpp:135
-msgid "Description"
-msgstr "描述"
-
-#: src/tasksWidget.cpp:54
 #, fuzzy
 #| msgid "Scheduled Tasks"
-msgid "Scheduling Details"
+msgid "<b>Scheduled Tasks</b>"
 msgstr "已排定的工作"
 
-#: src/tasksWidget.cpp:130
+#: src/tasksWidget.cpp:87
+msgid "Modify Task"
+msgstr "修改工作"
+
+#: src/tasksWidget.cpp:133
 msgctxt "Do not use any quote characters (') in this string"
 msgid "End of script execution. Type Enter or Ctrl+C to exit."
 msgstr ""
 
-#: src/tasksWidget.cpp:163
+#: src/tasksWidget.cpp:166
 #, fuzzy
 #| msgid "Tasks"
 msgid "New Task"
 msgstr "工作"
 
-#: src/kcron.cpp:85 src/kcron.cpp:317
+#: src/tasksWidget.cpp:211 src/crontabPrinter.cpp:135
+msgid "Scheduling"
+msgstr ""
+
+#: src/tasksWidget.cpp:214
+msgid "User"
+msgstr ""
+
+#: src/tasksWidget.cpp:217 src/crontabPrinter.cpp:135
+#, fuzzy
+#| msgid "Modify Task"
+msgid "Command"
+msgstr "修改工作"
+
+#: src/tasksWidget.cpp:218 src/variablesWidget.cpp:153
+#, fuzzy
+#| msgid "Sat"
+msgid "Status"
+msgstr "星期六"
+
+#: src/tasksWidget.cpp:219 src/crontabPrinter.cpp:135
+msgid "Description"
+msgstr "描述"
+
+#: src/tasksWidget.cpp:220
+#, fuzzy
+#| msgid "Scheduled Tasks"
+msgid "Scheduling Details"
+msgstr "已排定的工作"
+
+#: src/kcron.cpp:87 src/kcron.cpp:312
 msgid "Task Scheduler"
 msgstr "工作排程器"
 
-#: src/kcron.cpp:113
+#: src/kcron.cpp:115
 #, kde-format
 msgid ""
 "The following error occurred while initializing KCron:\n"
@@ -433,7 +443,7 @@ msgstr ""
 "\n"
 "KCron 現在會關閉。\n"
 
-#: src/kcron.cpp:128
+#: src/kcron.cpp:130
 msgid ""
 "You can use this application to schedule programs to run in the background.\n"
 "To schedule a new task now, click on the Tasks folder and select Edit/New "
@@ -442,44 +452,44 @@ msgstr ""
 "你可以使用這個應用程式來安排程式在背景執行。\n"
 "要現在安排新工作，請按下「工作」資料夾並從選單中選擇「編輯」/「新增」。"
 
-#: src/kcron.cpp:128
+#: src/kcron.cpp:130
 msgid "Welcome to the Task Scheduler"
 msgstr "歡迎使用工作排程器"
 
-#: src/kcron.cpp:165
+#: src/kcron.cpp:166
 #, fuzzy
 #| msgid "No tasks..."
 msgctxt "Adds a new task"
 msgid "New &Task..."
 msgstr "沒有工作..."
 
-#: src/kcron.cpp:170
+#: src/kcron.cpp:171
 #, fuzzy
 #| msgid "No variables..."
 msgctxt "Adds a new variable"
 msgid "New &Variable..."
 msgstr "沒有變數..."
 
-#: src/kcron.cpp:174
+#: src/kcron.cpp:175
 msgid "M&odify..."
 msgstr "修改(&O)..."
 
-#: src/kcron.cpp:180
+#: src/kcron.cpp:181
 msgid "&Delete"
 msgstr ""
 
-#: src/kcron.cpp:186
+#: src/kcron.cpp:187
 msgid "&Run Now"
 msgstr "立即執行(&R)"
 
-#: src/kcron.cpp:231
+#: src/kcron.cpp:244
 #, fuzzy
 #| msgid "Ready."
 msgctxt "Ready for user input"
 msgid " Ready."
 msgstr "就緒。"
 
-#: src/kcron.cpp:252
+#: src/kcron.cpp:265
 msgid ""
 "Scheduled tasks have been modified.\n"
 "Do you want to save changes?"
@@ -487,53 +497,41 @@ msgstr ""
 "您已修改了排定的工作，\n"
 "要儲存變更嗎？"
 
-#: src/kcron.cpp:284
+#: src/kcron.cpp:297
 #, fuzzy
 #| msgid "Saving..."
 msgctxt "Saving the file to the hard drive"
 msgid "Saving..."
 msgstr "正在儲存..."
 
-#: src/kcron.cpp:286 src/kcron.cpp:295 src/kcron.cpp:306 src/kcron.cpp:312
+#: src/kcron.cpp:299
 #, fuzzy
 #| msgid "Ready."
 msgctxt "Ready for user input"
 msgid "Ready."
 msgstr "就緒。"
 
-#: src/kcron.cpp:293
-msgid "Printing..."
-msgstr "正在列印..."
-
-#: src/kcron.cpp:304
-msgid "Copying to clipboard..."
-msgstr "正在複製至剪貼簿..."
-
-#: src/kcron.cpp:310
-msgid "Pasting from clipboard..."
-msgstr "正在自剪貼簿貼上..."
-
-#: src/kcron.cpp:327
+#: src/kcron.cpp:322
 #, fuzzy
 #| msgid "Create a new task or variable."
 msgid "Create a new task."
 msgstr "建立新工作或變數。"
 
-#: src/kcron.cpp:330
+#: src/kcron.cpp:325
 #, fuzzy
 #| msgid "Create a new task or variable."
 msgid "Create a new variable."
 msgstr "建立新工作或變數。"
 
-#: src/kcron.cpp:333
+#: src/kcron.cpp:328
 msgid "Edit the selected task or variable."
 msgstr "編輯選定的工作或變數。"
 
-#: src/kcron.cpp:336
+#: src/kcron.cpp:331
 msgid "Delete the selected task or variable."
 msgstr "刪除選定的工作或變數。"
 
-#: src/kcron.cpp:339
+#: src/kcron.cpp:334
 msgid "Run the selected task now."
 msgstr "立即執行選定的工作。"
 
@@ -577,158 +575,154 @@ msgstr ""
 msgid "<b>Environment Variables</b>"
 msgstr "變數"
 
-#: src/variablesWidget.cpp:46
-#, fuzzy
-#| msgid "Variables"
-msgid "Variable"
-msgstr "變數"
+#: src/variablesWidget.cpp:57
+msgid "Modify Variable"
+msgstr "修改變數"
 
-#: src/variablesWidget.cpp:47
-msgid "Value"
-msgstr "值"
-
-#: src/variablesWidget.cpp:49
-#, fuzzy
-#| msgid "Co&mment:"
-msgid "Comment"
-msgstr "註解(&M):"
-
-#: src/variablesWidget.cpp:112
+#: src/variablesWidget.cpp:113
 #, fuzzy
 #| msgid "Variables"
 msgid "New Variable"
 msgstr "變數"
 
-#: src/taskWidget.cpp:35 src/variableWidget.cpp:35
+#: src/variablesWidget.cpp:151
+#, fuzzy
+#| msgid "Variables"
+msgid "Variable"
+msgstr "變數"
+
+#: src/variablesWidget.cpp:152
+msgid "Value"
+msgstr "值"
+
+#: src/variablesWidget.cpp:154
+#, fuzzy
+#| msgid "Co&mment:"
+msgid "Comment"
+msgstr "註解(&M):"
+
+#: src/taskWidget.cpp:46 src/variableWidget.cpp:35
 #, fuzzy
 #| msgid "&Enabled"
 msgid "Enabled"
 msgstr "啟用(&E)"
 
-#: src/taskWidget.cpp:38 src/variableWidget.cpp:39
+#: src/taskWidget.cpp:49 src/variableWidget.cpp:39
 #, fuzzy
 #| msgid "Disabled"
 msgid "Disabled"
 msgstr "停用"
 
-#: src/taskWidget.cpp:63
-msgid "Modify Task"
-msgstr "修改工作"
-
-#: src/variableWidget.cpp:61
-msgid "Modify Variable"
-msgstr "修改變數"
-
-#: src/taskEditorDialog.cpp:61
+#: src/taskEditorDialog.cpp:63
 msgid "Set All"
 msgstr "全部設定"
 
-#: src/taskEditorDialog.cpp:63
+#: src/taskEditorDialog.cpp:65
 #, fuzzy
 msgid "Clear All"
 msgstr "全部設定"
 
-#: src/taskEditorDialog.cpp:138
+#: src/taskEditorDialog.cpp:140
 #, fuzzy
 #| msgid "Modify Variable"
 msgid "Add or modify a scheduled task"
 msgstr "修改變數"
 
-#: src/taskEditorDialog.cpp:139 src/taskEditorDialog.cpp:811
+#: src/taskEditorDialog.cpp:141 src/taskEditorDialog.cpp:829
 msgid "<i>This task will be executed at the specified intervals.</i>"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:147
+#: src/taskEditorDialog.cpp:149
 msgid "&Program:"
 msgstr "程式(&P):"
 
-#: src/taskEditorDialog.cpp:164
+#: src/taskEditorDialog.cpp:166
 msgid "&Run as:"
 msgstr "以此身份執行(&R):"
 
-#: src/taskEditorDialog.cpp:179
+#: src/taskEditorDialog.cpp:197
 msgid "&Comment:"
 msgstr "註解(&C):"
 
-#: src/taskEditorDialog.cpp:192
+#: src/taskEditorDialog.cpp:210
 msgid "&Enabled"
 msgstr "啟用(&E)"
 
-#: src/taskEditorDialog.cpp:197
+#: src/taskEditorDialog.cpp:215
 msgid "Run at system &bootup"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:202
+#: src/taskEditorDialog.cpp:220
 #, fuzzy
 #| msgid "Run every day"
 msgid "Run &every day"
 msgstr "每天執行"
 
-#: src/taskEditorDialog.cpp:319
+#: src/taskEditorDialog.cpp:337
 msgid "Days of Month"
 msgstr "月份中的天數"
 
-#: src/taskEditorDialog.cpp:354
+#: src/taskEditorDialog.cpp:372
 msgid "Months"
 msgstr "個月"
 
-#: src/taskEditorDialog.cpp:391
+#: src/taskEditorDialog.cpp:409
 msgid "Days of Week"
 msgstr "星期中的天數"
 
-#: src/taskEditorDialog.cpp:426
+#: src/taskEditorDialog.cpp:444
 msgid "Minutes"
 msgstr "分鐘"
 
-#: src/taskEditorDialog.cpp:468
+#: src/taskEditorDialog.cpp:486
 msgid "Hours"
 msgstr "小時"
 
-#: src/taskEditorDialog.cpp:471
+#: src/taskEditorDialog.cpp:489
 msgid "AM"
 msgstr "上午"
 
-#: src/taskEditorDialog.cpp:497
+#: src/taskEditorDialog.cpp:515
 msgid "PM"
 msgstr "下午"
 
-#: src/taskEditorDialog.cpp:687
+#: src/taskEditorDialog.cpp:705
 msgid "<i>This task is disabled.</i>"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:694
+#: src/taskEditorDialog.cpp:712
 msgid "<i>This task will be run on system bootup.</i>"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:700 src/taskEditorDialog.cpp:742
+#: src/taskEditorDialog.cpp:718 src/taskEditorDialog.cpp:760
 msgid "<i>Please browse for a program to execute...</i>"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:734
+#: src/taskEditorDialog.cpp:752
 #, fuzzy
 #| msgid "Please enter the variable name."
 msgid "<i>Please select an executable program...</i>"
 msgstr "請輸入變數名稱。"
 
-#: src/taskEditorDialog.cpp:757
+#: src/taskEditorDialog.cpp:775
 #, fuzzy
 #| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Months' section...</i>"
 msgstr "請輸入變數名稱。"
 
-#: src/taskEditorDialog.cpp:775
+#: src/taskEditorDialog.cpp:793
 msgid ""
 "<i>Please select from either the 'Days of Month' or the 'Days of Week' "
 "section...</i>"
 msgstr ""
 
-#: src/taskEditorDialog.cpp:789
+#: src/taskEditorDialog.cpp:807
 #, fuzzy
 #| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Hours' section...</i>"
 msgstr "請輸入變數名稱。"
 
-#: src/taskEditorDialog.cpp:803
+#: src/taskEditorDialog.cpp:821
 #, fuzzy
 #| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Minutes' section...</i>"
@@ -846,6 +840,15 @@ msgstr "Eric Cheng,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#~ msgid "Printing..."
+#~ msgstr "正在列印..."
+
+#~ msgid "Copying to clipboard..."
+#~ msgstr "正在複製至剪貼簿..."
+
+#~ msgid "Pasting from clipboard..."
+#~ msgstr "正在自剪貼簿貼上..."
 
 #~ msgid "Task name:"
 #~ msgstr "工作名稱:"
