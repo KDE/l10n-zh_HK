@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-25 13:37+0100\n"
+"POT-Creation-Date: 2008-03-03 14:28+0100\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2952,7 +2952,7 @@ msgstr "用作預設的 Profile(&D)"
 
 #. i18n: tag string
 #. i18n: file ./plugins/upload/uploaddialog.ui line 13
-#: rc.cpp:1364 plugins/upload/kdevuploadplugin.cpp:199
+#: rc.cpp:1364 plugins/upload/kdevuploadplugin.cpp:225
 msgid "Upload"
 msgstr "上傳"
 
@@ -9835,7 +9835,7 @@ msgstr "設定工具列..."
 #: plugins/usertoolbars/actionconfigdialog.cpp:89
 #: plugins/usertoolbars/actionconfigdialog.cpp:203
 #: plugins/usertoolbars/actionconfigdialog.cpp:231
-#: plugins/upload/uploaddialog.cpp:76
+#: plugins/upload/uploaddialog.cpp:66
 msgid "All"
 msgstr "全部"
 
@@ -10540,18 +10540,18 @@ msgstr "開啟檔案"
 msgid "&Upload"
 msgstr "上傳(&U)"
 
-#: plugins/upload/uploaddialog.cpp:80
+#: plugins/upload/uploaddialog.cpp:70
 #, fuzzy
 #| msgid "&Modified"
 msgid "Modified"
 msgstr "修改過(&M)"
 
-#: plugins/upload/uploaddialog.cpp:84
+#: plugins/upload/uploaddialog.cpp:74
 #, fuzzy
 msgid "Invert"
 msgstr "反向選擇(&I)"
 
-#: plugins/upload/uploaddialog.cpp:130
+#: plugins/upload/uploaddialog.cpp:120
 #, fuzzy
 #| msgid "No provider selected."
 msgid "Can't upload, no profile selected."
@@ -10624,39 +10624,43 @@ msgstr "上傳樹狀"
 msgid "Upload error: %1"
 msgstr "您的附註：%1"
 
-#: plugins/upload/uploadprofiledlg.cpp:45
+#: plugins/upload/uploadprofiledlg.cpp:47
 msgid "Upload Profile"
 msgstr "上傳 Profile"
 
-#: plugins/upload/profilesfiletree.cpp:57
+#: plugins/upload/uploadprofiledlg.cpp:106
+msgid "The specified url does not exist."
+msgstr ""
+
+#: plugins/upload/profilesfiletree.cpp:53
 msgid "Please choose an upload profile."
 msgstr ""
 
-#: plugins/upload/kdevuploadplugin.cpp:78
-msgid "Upload Profiles"
-msgstr "上傳 Profile"
-
-#: plugins/upload/kdevuploadplugin.cpp:90
+#: plugins/upload/kdevuploadplugin.cpp:100
 #, fuzzy
 #| msgid "&Upload Project..."
 msgid "&Upload Project"
 msgstr "上傳專案(&U)..."
 
-#: plugins/upload/kdevuploadplugin.cpp:92
+#: plugins/upload/kdevuploadplugin.cpp:102
 #, fuzzy
 #| msgid "&Upload Project..."
 msgid "Upload project"
 msgstr "上傳專案(&U)..."
 
-#: plugins/upload/kdevuploadplugin.cpp:140
+#: plugins/upload/kdevuploadplugin.cpp:164
 msgid "Upload..."
 msgstr "上傳..."
 
-#: plugins/upload/kdevuploadplugin.cpp:144
+#: plugins/upload/kdevuploadplugin.cpp:168
 #, fuzzy
 #| msgid "&Quick File Upload"
 msgid "Quick Upload"
 msgstr "快速檔案上傳(&Q)"
+
+#: plugins/upload/kdevuploadplugin.cpp:242
+msgid "Upload Profiles"
+msgstr "上傳 Profile"
 
 #: plugins/createproject/localimportwizardpage.cpp:142
 #: plugins/project/quantaproject/quantaprojectpart.cpp:343
