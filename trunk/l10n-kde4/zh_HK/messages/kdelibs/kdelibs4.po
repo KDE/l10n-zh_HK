@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-04 12:27+0100\n"
+"POT-Creation-Date: 2008-03-05 10:14+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1819,12 +1819,12 @@ msgstr "通知 KDE 主機名稱的改變。"
 msgid "(c) 2001 Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:654 khtml/khtml_global.cpp:198
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:660 khtml/khtml_global.cpp:198
 #: kconf_update/kconf_update.cpp:964
 msgid "Waldo Bastian"
 msgstr ""
 
-#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:653 kded/kbuildsycoca.cpp:654
+#: kded/khostname.cpp:221 kded/kbuildsycoca.cpp:659 kded/kbuildsycoca.cpp:660
 #: kross/qts/main.cpp:63 kross/test/main.cpp:138 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -1850,7 +1850,7 @@ msgstr "KDE 常駐程式 - 有需要時可更新 Sycoca 資料庫。"
 msgid "Check Sycoca database only once"
 msgstr "只檢查 Sycoca 資料庫一次"
 
-#: kded/kbuildsycoca.cpp:428
+#: kded/kbuildsycoca.cpp:431
 #, kde-format
 msgid ""
 "Error creating database '%1'.\n"
@@ -1860,12 +1860,12 @@ msgstr ""
 "建立資料庫 '%1' 時發生錯誤。\n"
 "請檢查目錄的權限是否正確，而且磁碟未滿。\n"
 
-#: kded/kbuildsycoca.cpp:428 kded/kbuildsycoca.cpp:459
-#: kded/kbuildsycoca.cpp:650
+#: kded/kbuildsycoca.cpp:431 kded/kbuildsycoca.cpp:462
+#: kded/kbuildsycoca.cpp:656
 msgid "KBuildSycoca"
 msgstr "KBuildSycoca"
 
-#: kded/kbuildsycoca.cpp:459
+#: kded/kbuildsycoca.cpp:462
 #, kde-format
 msgid ""
 "Error writing database '%1'.\n"
@@ -1875,78 +1875,78 @@ msgstr ""
 "寫入資料庫 '%1' 時發生錯誤。\n"
 "請檢查目錄的權限是否正確，而且磁碟未滿。\n"
 
-#: kded/kbuildsycoca.cpp:651
+#: kded/kbuildsycoca.cpp:657
 msgid "Rebuilds the system configuration cache."
 msgstr "重建系統設定快取。"
 
-#: kded/kbuildsycoca.cpp:652
+#: kded/kbuildsycoca.cpp:658
 msgid "(c) 1999-2002 KDE Developers"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:653
+#: kded/kbuildsycoca.cpp:659
 msgid "David Faure"
 msgstr ""
 
-#: kded/kbuildsycoca.cpp:657
+#: kded/kbuildsycoca.cpp:663
 msgid "Do not signal applications to update"
 msgstr "不向應用程式發出更新訊號。"
 
-#: kded/kbuildsycoca.cpp:658
+#: kded/kbuildsycoca.cpp:664
 msgid "Disable incremental update, re-read everything"
 msgstr "取消逐步更新，並重新讀取所有資料。"
 
-#: kded/kbuildsycoca.cpp:659
+#: kded/kbuildsycoca.cpp:665
 msgid "Check file timestamps"
 msgstr "檢查檔案的時間標記。"
 
-#: kded/kbuildsycoca.cpp:660
+#: kded/kbuildsycoca.cpp:666
 msgid "Disable checking files (dangerous)"
 msgstr "不檢查檔案(危險)"
 
-#: kded/kbuildsycoca.cpp:661
+#: kded/kbuildsycoca.cpp:667
 msgid "Create global database"
 msgstr "建立全域資料庫"
 
-#: kded/kbuildsycoca.cpp:662
+#: kded/kbuildsycoca.cpp:668
 msgid "Perform menu generation test run only"
 msgstr "僅執行產生選單的測試。"
 
-#: kded/kbuildsycoca.cpp:663
+#: kded/kbuildsycoca.cpp:669
 msgid "Track menu id for debug purposes"
 msgstr "追蹤選單 id 為偵錯之用"
 
-#: kded/kbuildsycoca.cpp:665
+#: kded/kbuildsycoca.cpp:671
 msgid "Silent - work without windows and stderr"
 msgstr "沉默 - 在沒有視窗和標準錯誤(stderr)的情況下工作"
 
-#: kded/kbuildsycoca.cpp:666
+#: kded/kbuildsycoca.cpp:672
 msgid "Show progress information (even if 'silent' mode is on)"
 msgstr "顯示進度資訊(即使開啟了'沉默'模式)"
 
-#: kded/kbuildsycoca.cpp:691
+#: kded/kbuildsycoca.cpp:697
 msgid "Reloading KDE configuration, please wait..."
 msgstr "正在重新載入 KDE 組態，請稍候..."
 
-#: kded/kbuildsycoca.cpp:692
+#: kded/kbuildsycoca.cpp:698
 msgid "KDE Configuration Manager"
 msgstr "KDE 設定管理程式"
 
-#: kded/kbuildsycoca.cpp:694
+#: kded/kbuildsycoca.cpp:700
 msgid "Do you want to reload KDE configuration?"
 msgstr "你要重新載入 KDE 設定嗎?"
 
-#: kded/kbuildsycoca.cpp:694
+#: kded/kbuildsycoca.cpp:700
 #, fuzzy
 #| msgid "Reload"
 msgctxt "Reload KDE configuration messagebox"
 msgid "Reload"
 msgstr "重新載入"
 
-#: kded/kbuildsycoca.cpp:694
+#: kded/kbuildsycoca.cpp:700
 msgid "Do Not Reload"
 msgstr "不重新載入"
 
-#: kded/kbuildsycoca.cpp:864
+#: kded/kbuildsycoca.cpp:870
 msgid "Configuration information reloaded successfully."
 msgstr "重新載入設定成功。"
 
@@ -3326,9 +3326,14 @@ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
 msgid "The plugin '%1' uses incompatible KDE library. (%2)"
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:656
+#: kdecore/config/kconfig.cpp:659
 msgid "Please contact your system administrator."
 msgstr "請聯絡你的系統管理者。"
+
+#: kdecore/config/kconfigini.cpp:475
+#, kde-format
+msgid "Configuration file \"%1\" not writable.\n"
+msgstr "設定檔 \"%1\" 是不可寫入的。\n"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -4063,6 +4068,41 @@ msgstr "%1 ( %2 )"
 msgctxt "dictionary name. %1-language and %2-variant name"
 msgid "%1 [%2]"
 msgstr "%1 - [%2]"
+
+#: kdecore/sycoca/kmemfile.cpp:73 kdecore/sycoca/kmemfile.cpp:154
+#, fuzzy, kde-format
+msgid "File %1 does not exist"
+msgstr "沒有找到 %1 風格\n"
+
+#: kdecore/sycoca/kmemfile.cpp:78
+#, kde-format
+msgid "Can't open %1 for reading"
+msgstr ""
+
+#: kdecore/sycoca/kmemfile.cpp:88
+#, fuzzy, kde-format
+msgid "Can not create memory segment for file %1"
+msgstr "無法建立新的檔案。"
+
+#: kdecore/sycoca/kmemfile.cpp:98
+#, fuzzy, kde-format
+#| msgctxt "QFile"
+#| msgid "Could not read from the file"
+msgid "Could not read data from %1 into shm"
+msgstr "無法讀取這個檔案"
+
+#: kdecore/sycoca/kmemfile.cpp:149
+msgid "Only 'ReadOnly' allowed"
+msgstr ""
+
+#: kdecore/sycoca/kmemfile.cpp:167
+#, kde-format
+msgid "Can't create memory segment for file %1"
+msgstr ""
+
+#: kdecore/sycoca/kmemfile.cpp:205
+msgid "Can't seek over eof"
+msgstr ""
 
 #: kdecore/services/kmimetype.cpp:58
 #, fuzzy, kde-format
@@ -7879,7 +7919,7 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:163
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:853
-#: kdeui/windowmanagement/kwindowsystem_mac.cpp:170
+#: kdeui/windowmanagement/kwindowsystem_mac.cpp:546
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:247
 #, kde-format
 msgid "Desktop %1"
@@ -13357,9 +13397,6 @@ msgstr ""
 #~ msgid "Will not save configuration.\n"
 #~ msgstr "將不會儲存設定。\n"
 
-#~ msgid "Configuration file \"%1\" not writable.\n"
-#~ msgstr "設定檔 \"%1\" 是不可寫入的。\n"
-
 #, fuzzy
 #~| msgid "Files"
 #~ msgid "Folders"
@@ -16163,10 +16200,6 @@ msgstr ""
 
 #~ msgid "False"
 #~ msgstr "假"
-
-#~ msgctxt "QFile"
-#~ msgid "Could not read from the file"
-#~ msgstr "無法讀取這個檔案"
 
 #~ msgctxt "QFile"
 #~ msgid "Could not write to the file"
