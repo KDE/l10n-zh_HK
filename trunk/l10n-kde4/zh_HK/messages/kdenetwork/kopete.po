@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-03 14:20+0100\n"
+"POT-Creation-Date: 2008-03-07 20:09+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -241,7 +241,7 @@ msgstr "隱形"
 
 #: libkopete/kopeteonlinestatus.cpp:169 libkopete/kopetemetacontact.cpp:473
 #: libkopete/kopetestatusmanager.cpp:289 libkopete/kopeteidentity.cpp:166
-#: kopete/kopetewindow.cpp:328
+#: kopete/kopetewindow.cpp:329
 #: kopete/config/status/statusconfig_manager.cpp:121
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:376
@@ -1029,7 +1029,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:635
+#: libkopete/kopetecontact.cpp:635 kopete/kopetewindow.cpp:1025
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1134,7 +1134,7 @@ msgstr "上次上線"
 msgid "Status Title"
 msgstr "狀態"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1023
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1035
 #: protocols/meanwhile/meanwhileprotocol.cpp:61
 msgid "Status Message"
 msgstr "狀態訊息"
@@ -1221,14 +1221,14 @@ msgid ""
 "emoticon themes in the archive may have been installed.</qt>"
 msgstr "<qt>安裝時發生錯誤。但表情符號主題集的部份內容可能已安裝。</qt>"
 
-#: kopete/kopetewindow.cpp:229
+#: kopete/kopetewindow.cpp:230
 #, fuzzy
 msgid "Global status message"
 msgstr "全域離開訊息"
 
 #. i18n: tag string
 #. i18n: file ./protocols/irc/ui/ircadd.ui line 23
-#: kopete/kopetewindow.cpp:319
+#: kopete/kopetewindow.cpp:320
 #: kopete/contactlist/kopetecontactlistview.cpp:516 rc.cpp:2336
 msgid "&Add Contact"
 msgstr "加入聯絡人(&A)"
@@ -1285,7 +1285,7 @@ msgstr "加入聯絡人(&A)"
 #. i18n: file ./protocols/yahoo/ui/yahooinvitelistbase.ui line 173
 #. i18n: tag string
 #. i18n: file ./protocols/jabber/ui/privacy.ui line 242
-#: kopete/kopetewindow.cpp:320
+#: kopete/kopetewindow.cpp:321
 #: kopete/contactlist/kopetecontactlistview.cpp:1084
 #: kopete/contactlist/kopetecontactlistview.cpp:1100
 #: kopete/contactlist/kopetecontactlistview.cpp:1570 rc.cpp:733 rc.cpp:1452
@@ -1299,11 +1299,11 @@ msgstr "加入聯絡人(&A)"
 msgid "Add"
 msgstr "加入(&A)"
 
-#: kopete/kopetewindow.cpp:333
+#: kopete/kopetewindow.cpp:334
 msgid "&Export Contacts..."
 msgstr "匯出聯絡人(&E)..."
 
-#: kopete/kopetewindow.cpp:338 protocols/qq/qqprotocol.cpp:37
+#: kopete/kopetewindow.cpp:339 protocols/qq/qqprotocol.cpp:37
 #: protocols/msn/msnprotocol.cpp:63
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
@@ -1314,7 +1314,7 @@ msgstr "離開(&A)"
 
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 125
-#: kopete/kopetewindow.cpp:342 rc.cpp:3092 protocols/msn/msnprotocol.cpp:55
+#: kopete/kopetewindow.cpp:343 rc.cpp:3092 protocols/msn/msnprotocol.cpp:55
 #: protocols/telepathy/telepathyprotocol.cpp:49
 #: protocols/groupwise/gwprotocol.cpp:56
 msgid "&Busy"
@@ -1322,18 +1322,18 @@ msgstr "忙碌(&B)"
 
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 138
-#: kopete/kopetewindow.cpp:347 rc.cpp:3101 protocols/msn/msnprotocol.cpp:77
+#: kopete/kopetewindow.cpp:348 rc.cpp:3101 protocols/msn/msnprotocol.cpp:77
 msgid "&Invisible"
 msgstr "隱形(&I)"
 
 #. i18n: tag string
 #. i18n: file ./protocols/yahoo/ui/yahoostealthsetting.ui line 43
-#: kopete/kopetewindow.cpp:351 rc.cpp:4219 protocols/gadu/gaduprotocol.cpp:83
+#: kopete/kopetewindow.cpp:352 rc.cpp:4219 protocols/gadu/gaduprotocol.cpp:83
 #: protocols/gadu/gaduprotocol.cpp:87
 msgid "&Online"
 msgstr "上線(&O)"
 
-#: kopete/kopetewindow.cpp:355
+#: kopete/kopetewindow.cpp:356
 msgid "&Set Status"
 msgstr "設定狀態(&S)"
 
@@ -1353,82 +1353,82 @@ msgstr "設定狀態(&S)"
 #. i18n: file ./kopete/chatwindow/kopetechatwindow.rc line 58
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 62
-#: kopete/kopetewindow.cpp:356 rc.cpp:529 rc.cpp:1113 rc.cpp:1134 rc.cpp:3074
+#: kopete/kopetewindow.cpp:357 rc.cpp:529 rc.cpp:1113 rc.cpp:1134 rc.cpp:3074
 #: protocols/groupwise/ui/gwsearch.cpp:90
 msgid "Status"
 msgstr "狀態"
 
-#: kopete/kopetewindow.cpp:383
+#: kopete/kopetewindow.cpp:384
 msgid "Configure &Global Shortcuts..."
 msgstr "設定全域快速鍵(&G)..."
 
-#: kopete/kopetewindow.cpp:391
+#: kopete/kopetewindow.cpp:392
 #, fuzzy
 #| msgid "Show Me As"
 msgid "Show &All"
 msgstr "將我顯示為"
 
-#: kopete/kopetewindow.cpp:396
+#: kopete/kopetewindow.cpp:397
 msgid "Show Offline &Users"
 msgstr "顯示離線聯絡人(&U)"
 
-#: kopete/kopetewindow.cpp:400
+#: kopete/kopetewindow.cpp:401
 msgid "Show Empty &Groups"
 msgstr "顯示空的群組(&G)"
 
-#: kopete/kopetewindow.cpp:405
+#: kopete/kopetewindow.cpp:406
 #, fuzzy
 #| msgid "O&ffline"
 msgid "Hide O&ffline"
 msgstr "離線(&F)"
 
-#: kopete/kopetewindow.cpp:406
+#: kopete/kopetewindow.cpp:407
 msgid "Hide Offline &Users"
 msgstr "隱藏離線聯絡人(&U)"
 
-#: kopete/kopetewindow.cpp:407
+#: kopete/kopetewindow.cpp:408
 msgid "Hide Empty &Groups"
 msgstr "隱藏空的群組(&G)"
 
-#: kopete/kopetewindow.cpp:410
+#: kopete/kopetewindow.cpp:411
 msgid "Se&arch:"
 msgstr "搜尋(&A):"
 
 #. i18n: tag Text
 #. i18n: file ./kopete/kopeteui.rc line 54
-#: kopete/kopetewindow.cpp:414 rc.cpp:930
+#: kopete/kopetewindow.cpp:415 rc.cpp:930
 msgid "Quick Search Bar"
 msgstr "快速搜尋列"
 
 #. i18n: tag string
 #. i18n: file ./plugins/history/historyviewer.ui line 191
-#: kopete/kopetewindow.cpp:417 rc.cpp:1617
+#: kopete/kopetewindow.cpp:418 rc.cpp:1617
 msgid "Search:"
 msgstr "搜尋"
 
 #. i18n: tag string
 #. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 330
-#: kopete/kopetewindow.cpp:426 rc.cpp:5498
+#: kopete/kopetewindow.cpp:427 rc.cpp:5498
 msgid "Read Message"
 msgstr "閱讀訊息"
 
-#: kopete/kopetewindow.cpp:430
+#: kopete/kopetewindow.cpp:431
 msgid "Read the next pending message"
 msgstr "閱讀下個待處理的訊息"
 
-#: kopete/kopetewindow.cpp:432
+#: kopete/kopetewindow.cpp:433
 msgid "Show/Hide Contact List"
 msgstr "顯示/隱藏聯絡人清單"
 
-#: kopete/kopetewindow.cpp:436
+#: kopete/kopetewindow.cpp:437
 msgid "Show or hide the contact list"
 msgstr "顯示或隱藏聯絡人清單"
 
-#: kopete/kopetewindow.cpp:438
+#: kopete/kopetewindow.cpp:439
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:680
+#: kopete/kopetewindow.cpp:681
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1436,11 +1436,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:682
+#: kopete/kopetewindow.cpp:683
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:855
+#: kopete/kopetewindow.cpp:856
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1458,7 +1458,15 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1058
+#: kopete/kopetewindow.cpp:1022
+#, fuzzy, kde-format
+msgctxt "@label:textbox formatted status title"
+msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
+msgstr ""
+"<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
+"<br><b>離開訊息:</b>&nbsp;%1"
+
+#: kopete/kopetewindow.cpp:1070
 #: kopete/contactlist/kopetecontactlistview.cpp:1792
 msgid "Add Contact"
 msgstr "加入聯絡人"
