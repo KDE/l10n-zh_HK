@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-22 20:27+0100\n"
+"POT-Creation-Date: 2008-03-24 14:51+0100\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -106,31 +106,31 @@ msgstr ""
 msgid "URLs to connect after startup"
 msgstr ""
 
-#: mainwindow.cpp:121
+#: mainwindow.cpp:122
 #, fuzzy
 #| msgid "Remote Desktop Connection"
 msgid "KDE Remote Desktop Client started"
 msgstr "遠端桌面連線"
 
-#: mainwindow.cpp:143
+#: mainwindow.cpp:144
 #, fuzzy
 #| msgid "Connection"
 msgid "New VNC Connection..."
 msgstr "連線"
 
-#: mainwindow.cpp:151
+#: mainwindow.cpp:152
 #, fuzzy
 #| msgid "Connection"
 msgid "New NX Connection..."
 msgstr "連線"
 
-#: mainwindow.cpp:159
+#: mainwindow.cpp:160
 #, fuzzy
 #| msgid "Connection"
 msgid "New RDP Connection..."
 msgstr "連線"
 
-#: mainwindow.cpp:167
+#: mainwindow.cpp:168
 msgid "Browse Remote Desktop Services on Local Network..."
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Copy Screenshot to Clipboard"
 msgstr ""
 
-#: mainwindow.cpp:181 mainwindow.cpp:475
+#: mainwindow.cpp:181 mainwindow.cpp:490
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Switch to Fullscreen Mode"
@@ -164,73 +164,79 @@ msgstr "必定顯示本機游標"
 msgid "Grab all possible keys"
 msgstr ""
 
-#: mainwindow.cpp:249
+#: mainwindow.cpp:211
+#, fuzzy
+#| msgid "This option scales the remote screen to fit your window size."
+msgid "Scale remote screen to fit window size"
+msgstr "此選項將遠端螢幕縮放至切合您的視窗大小。"
+
+#: mainwindow.cpp:255
 #, fuzzy
 #| msgid "Remote &desktop:"
 msgid "Remote desktop:"
 msgstr "遠端桌面(&D):"
 
-#: mainwindow.cpp:257
+#: mainwindow.cpp:263
 #, fuzzy
 #| msgid "Address"
 msgctxt "Title for remote address input action"
 msgid "Address"
 msgstr "位址"
 
-#: mainwindow.cpp:262
+#: mainwindow.cpp:268
 #, fuzzy
 #| msgid "Address"
 msgid "Goto Address"
 msgstr "位址"
 
-#: mainwindow.cpp:266
+#: mainwindow.cpp:272
 msgid "Bookmarks"
 msgstr ""
 
-#: mainwindow.cpp:292
+#: mainwindow.cpp:298
 #, fuzzy
 #| msgid "The entered host does not have the required form."
 msgid "The entered address does not have the required form."
 msgstr "輸入的主機沒有所需的表格。"
 
-#: mainwindow.cpp:293
+#: mainwindow.cpp:299
 #, fuzzy
 #| msgid "Malformed URL or Host"
 msgid "Malformed URL"
 msgstr "格式不正確的 URL 或主機"
 
-#: mainwindow.cpp:322
+#: mainwindow.cpp:326
 msgid "The entered address cannot be handled."
 msgstr ""
 
-#: mainwindow.cpp:323 config/hostpreferenceslist.cpp:124
+#: mainwindow.cpp:327 config/hostpreferenceslist.cpp:124
 msgid "Unusable URL"
 msgstr ""
 
-#: mainwindow.cpp:408
+#: mainwindow.cpp:423
 #, fuzzy, kde-format
 #| msgid "Connection"
 msgid "Connecting to %1"
 msgstr "連線"
 
-#: mainwindow.cpp:412
+#: mainwindow.cpp:427
 #, fuzzy, kde-format
 #| msgid "Authenticating..."
 msgid "Authenticating at %1"
 msgstr "正在進行認證..."
 
-#: mainwindow.cpp:416
+#: mainwindow.cpp:431
 #, kde-format
 msgid "Preparing connection to %1"
 msgstr ""
 
-#: mainwindow.cpp:420
+#: mainwindow.cpp:435
 #, fuzzy, kde-format
 #| msgid "Connection"
 msgid "Connected to %1"
 msgstr "連線"
 
-#: mainwindow.cpp:483
+#: mainwindow.cpp:498
 #, fuzzy
 #| msgid "Remote Desktop Connection"
 msgctxt ""
@@ -238,74 +244,74 @@ msgctxt ""
 msgid "KDE Remote Desktop Client (Fullscreen)"
 msgstr "遠端桌面連線"
 
-#: mainwindow.cpp:568
+#: mainwindow.cpp:590
 msgid "Switch to Window Mode"
 msgstr ""
 
-#: mainwindow.cpp:583
+#: mainwindow.cpp:605
 msgid "Switch to..."
 msgstr ""
 
-#: mainwindow.cpp:595
+#: mainwindow.cpp:617
 msgid "Minimize Fullscreen Window"
 msgstr ""
 
-#: mainwindow.cpp:608
+#: mainwindow.cpp:631
 msgid "Stick Toolbar"
 msgstr ""
 
-#: mainwindow.cpp:707
+#: mainwindow.cpp:738
 msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgstr ""
 
-#: mainwindow.cpp:708
+#: mainwindow.cpp:739
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:779 mainwindow.cpp:847
+#: mainwindow.cpp:808 mainwindow.cpp:876
 msgid "Start Page"
 msgstr ""
 
-#: mainwindow.cpp:794
+#: mainwindow.cpp:823
 msgid ""
 "<h1>KDE Remote Desktop Client</h1><br /><br />What would you like to do?<br /"
 ">"
 msgstr ""
 
-#: mainwindow.cpp:807
+#: mainwindow.cpp:836
 msgid "Connect to a VNC Remote Desktop"
 msgstr ""
 
-#: mainwindow.cpp:816
+#: mainwindow.cpp:845
 msgid "Connect to a NX Remote Desktop"
 msgstr ""
 
-#: mainwindow.cpp:825
+#: mainwindow.cpp:854
 msgid "Connect to a Windows Remote Desktop (RDP)"
 msgstr ""
 
-#: mainwindow.cpp:834
+#: mainwindow.cpp:863
 msgid "Browse Remote Desktop Services on Local Network"
 msgstr ""
 
-#: mainwindow.cpp:857
+#: mainwindow.cpp:886
 msgid ""
 "<html>Enter the address here.<br /><i>Example: vncserver:1 (host:port / "
 "screen)</i></html>"
 msgstr ""
 
-#: mainwindow.cpp:868
+#: mainwindow.cpp:897
 msgid ""
 "<html>Enter the address here.<br /><i>Example: nxserver (host)</i></html>"
 msgstr ""
 
-#: mainwindow.cpp:879
+#: mainwindow.cpp:908
 msgid ""
 "<html>Enter the address here. Port is optional.<br /><i>Example: "
 "rdpserver:3389 (host:port)</i></html>"
 msgstr ""
 
-#: mainwindow.cpp:893
+#: mainwindow.cpp:921
 msgid "Browse Local Network"
 msgstr ""
 
@@ -322,7 +328,7 @@ msgid "&Session"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file krdcui.rc line 22
+#. i18n: file krdcui.rc line 23
 #: rc.cpp:9 rc.cpp:263
 #, fuzzy
 #| msgid "Settings"
@@ -330,19 +336,19 @@ msgid "&Settings"
 msgstr "設置"
 
 #. i18n: tag text
-#. i18n: file krdcui.rc line 33
+#. i18n: file krdcui.rc line 34
 #: rc.cpp:12 rc.cpp:266
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file krdcui.rc line 36
+#. i18n: file krdcui.rc line 37
 #: rc.cpp:15 rc.cpp:269
 msgid "Remote View Toolbar"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file krdcui.rc line 43
+#. i18n: file krdcui.rc line 45
 #: rc.cpp:18 rc.cpp:272
 #, fuzzy
 #| msgid "Address"
@@ -925,7 +931,7 @@ msgstr "輸入特別鍵。"
 msgid "Please enter the username you would like to use for login."
 msgstr ""
 
-#: rdp/rdpview.cpp:140 vnc/vncview.cpp:181
+#: rdp/rdpview.cpp:140 vnc/vncview.cpp:195
 msgid "Access to the system requires a password."
 msgstr "存取系統需要密碼。"
 
@@ -972,13 +978,13 @@ msgstr "認證失敗"
 msgid "VNC server closed connection."
 msgstr ""
 
-#: vnc/vncview.cpp:182
+#: vnc/vncview.cpp:196
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "Authentication failed. Please try again."
 msgstr "認證失敗"
 
-#: vnc/vncview.cpp:196
+#: vnc/vncview.cpp:210
 msgid "VNC failure"
 msgstr ""
 
@@ -1095,9 +1101,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Scale View"
 #~ msgstr "縮放檢視"
-
-#~ msgid "This option scales the remote screen to fit your window size."
-#~ msgstr "此選項將遠端螢幕縮放至切合您的視窗大小。"
 
 #~ msgid ""
 #~ "This option allows you to send special key combinations like Ctrl-Alt-Del "
