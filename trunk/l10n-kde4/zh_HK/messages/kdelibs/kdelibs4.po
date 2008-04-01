@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:23+0100\n"
+"POT-Creation-Date: 2008-03-31 20:05+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -750,7 +750,7 @@ msgstr "Pause"
 #: rc.cpp:285 rc.cpp:288
 msgid ""
 "You may select a file where the log content is stored, before the regression "
-"testing started!"
+"testing started."
 msgstr ""
 
 #. i18n: tag string
@@ -800,8 +800,8 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./khtml/test_regression_gui.ui line 257
-#: rc.cpp:312
-msgid "Do not supress debug output"
+#: rc.cpp:312 khtml/test_regression.cpp:618
+msgid "Do not suppress debug output"
 msgstr ""
 
 #. i18n: tag string
@@ -1119,8 +1119,8 @@ msgstr ""
 #. i18n: file ./kutils/kdeglobals.kcfg line 31
 #: rc.cpp:473
 msgid ""
-"If the ordinary PC speaker should be used instead of KDE's own notifications "
-"system."
+"Whether the ordinary PC speaker should be used instead of KDE's own "
+"notifications system."
 msgstr ""
 
 #. i18n: tag label
@@ -1180,7 +1180,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 54
 #: rc.cpp:502
-msgid "What color links which are yet not clicked on should have."
+msgid "What color links should be that have not yet been clicked on"
 msgstr ""
 
 #. i18n: tag label
@@ -1237,19 +1237,19 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 388
 #: rc.cpp:529
-msgid "If directories should be placed at the top when displaying files"
+msgid "Whether directories should be placed at the top when displaying files"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 396
 #: rc.cpp:532
-msgid "The recent URLs recently visited"
+msgid "The URLs recently visited"
 msgstr ""
 
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 397
 #: rc.cpp:535
-msgid "Used for auto completion in file dialogs for example."
+msgid "Used for auto-completion in file dialogs, for example"
 msgstr ""
 
 #. i18n: tag label
@@ -1269,8 +1269,8 @@ msgstr "顯示說明"
 #. i18n: file ./kutils/kdeglobals.kcfg line 407
 #: rc.cpp:544
 msgid ""
-"Determines if files starting with a dot(convention for hidden files) should "
-"be shown"
+"Whether files starting with a dot (convention for hidden files) should be "
+"shown"
 msgstr ""
 
 #. i18n: tag label
@@ -1298,13 +1298,13 @@ msgstr "國家/地區"
 #. i18n: file ./kutils/kdeglobals.kcfg line 433
 #: rc.cpp:556
 msgid ""
-"Used to determine how to display numbers, currency and time/date for example"
+"Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./kutils/kdeglobals.kcfg line 437
 #: rc.cpp:559
-msgid "What language to display text in"
+msgid "What language to use to display text"
 msgstr ""
 
 #. i18n: tag label
@@ -1346,7 +1346,7 @@ msgstr ""
 #. i18n: tag whatsthis
 #. i18n: file ./kutils/kdeglobals.kcfg line 456
 #: rc.cpp:580
-msgid "In this directory the files on the desktop are stored"
+msgid "Directory where the files on the desktop are stored"
 msgstr ""
 
 #. i18n: tag label
@@ -1683,7 +1683,7 @@ msgstr ""
 #: rc.cpp:852
 msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
-"amount of milliseconds between 1 and 1000."
+"number of milliseconds between 1 and 1000."
 msgstr ""
 
 #. i18n: tag string
@@ -1798,11 +1798,11 @@ msgstr "系統預設值 (%1)"
 
 #: interfaces/ktexteditor/templateinterface.cpp:65
 msgid ""
-"The templates needs information about you, which are stored in your "
-"addressbook.\n"
-"The needed plugin could not be loaded.\n"
+"The template needs information about you, which is stored in your address "
+"book.\n"
+"However, the required plugin could not be loaded.\n"
 "\n"
-"Please install the KDEPIM/Kontact package for your system"
+"Please install the KDEPIM/Kontact package for your system."
 msgstr ""
 
 #: kded/khostname.cpp:73
@@ -3288,26 +3288,25 @@ msgstr "pm"
 msgid "Library not found"
 msgstr "找不到連結： \"%1\"。"
 
-#: kdecore/util/klibloader.cpp:146 kdecore/services/kmimetypetrader.h:136
-#: kdecore/services/kmimetypetrader.h:169
-#: kdecore/services/kservicetypetrader.h:187
-msgid "No service matching the requirements was found"
+#: kdecore/util/klibloader.cpp:146
+msgid "No service matching the requirements was found."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:148
 msgid ""
 "The service provides no library, the Library key is missing in the .desktop "
-"file"
+"file."
 msgstr ""
 
 #: kdecore/util/klibloader.cpp:152
 #, fuzzy
-msgid "The library does not export a factory for creating components"
+msgid "The library does not export a factory for creating components."
 msgstr "函數庫 %1 不提供 %2 這個功能。"
 
 #: kdecore/util/klibloader.cpp:154
-msgid "The factory does not support creating components of the specified type"
-msgstr ""
+#, fuzzy
+msgid "The factory does not support creating components of the specified type."
+msgstr "函數庫 %1 不提供 %2 這個功能。"
 
 #: kdecore/util/klibloader.cpp:156
 #, fuzzy
@@ -3318,7 +3317,7 @@ msgstr "不明的錯誤"
 #, kde-format
 msgid ""
 "The service '%1' provides no library or the Library key is missing in the ."
-"desktop file"
+"desktop file."
 msgstr ""
 
 #: kdecore/util/kpluginloader.cpp:163
@@ -3329,7 +3328,7 @@ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
 
 #: kdecore/util/kpluginloader.cpp:187
 #, kde-format
-msgid "The plugin '%1' uses incompatible KDE library. (%2)"
+msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
 #: kdecore/config/kconfig.cpp:659
@@ -3945,7 +3944,7 @@ msgstr ""
 #: kdecore/kernel/ktoolinvocation.cpp:110
 #, fuzzy, kde-format
 msgid ""
-"KLauncher could not be reached via D-Bus, error when calling %1:\n"
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr "無法透過 DCOP 呼叫 KLauncher。\n"
 
@@ -4082,12 +4081,12 @@ msgstr "沒有找到 %1 風格\n"
 
 #: kdecore/sycoca/kmemfile.cpp:78
 #, kde-format
-msgid "Can't open %1 for reading"
+msgid "Cannot open %1 for reading"
 msgstr ""
 
-#: kdecore/sycoca/kmemfile.cpp:88
+#: kdecore/sycoca/kmemfile.cpp:88 kdecore/sycoca/kmemfile.cpp:167
 #, fuzzy, kde-format
-msgid "Can not create memory segment for file %1"
+msgid "Cannot create memory segment for file %1"
 msgstr "無法建立新的檔案。"
 
 #: kdecore/sycoca/kmemfile.cpp:98
@@ -4101,14 +4100,15 @@ msgstr "無法讀取這個檔案"
 msgid "Only 'ReadOnly' allowed"
 msgstr ""
 
-#: kdecore/sycoca/kmemfile.cpp:167
-#, kde-format
-msgid "Can't create memory segment for file %1"
-msgstr ""
-
 #: kdecore/sycoca/kmemfile.cpp:205
-msgid "Can't seek over eof"
+#, fuzzy
+#| msgid ""
+#| "Cannot save the file\n"
+#| "\""
+msgid "Cannot seek past eof"
 msgstr ""
+"無法儲存檔案。\n"
+"\""
 
 #: kdecore/services/kmimetype.cpp:58
 #, fuzzy, kde-format
@@ -4121,7 +4121,7 @@ msgstr[0] "找不到服務程式‘%1’。"
 #: kdecore/services/kmimetype.cpp:129
 msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
-"XDG_DATA_DIRS is not set, or includes /usr/share"
+"XDG_DATA_DIRS is not set, or includes /usr/share."
 msgstr ""
 
 #: kdecore/localization/kencodingdetector.cpp:1116
@@ -5118,7 +5118,7 @@ msgstr "作者："
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:72
 #, fuzzy
 #| msgid "Email Address"
-msgid "E-mail address:"
+msgid "Email address:"
 msgstr "電子郵件地址"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:77
@@ -5160,7 +5160,7 @@ msgid "Summary:"
 msgstr "摘要："
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:109
-msgid "In which language did you describe above?"
+msgid "In which language did you describe the above?"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:112
@@ -5192,11 +5192,11 @@ msgstr "取得熱門禮物"
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:96
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
-msgid "%1 Add On Installer"
+msgid "%1 Add-On Installer"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:168
-msgid "Timeout. Check internet connection!"
+msgid "Timeout. Check Internet connection!"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:250
@@ -5404,7 +5404,7 @@ msgid "KNewStuff contributions"
 msgstr "新分發清單"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:565
-msgid "This operation needs authentication"
+msgid "This operation requires authentication."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/knewstuffaction.cpp:37
@@ -6202,7 +6202,7 @@ msgstr "你真的要重設這個應用程式的所有工具列嗎？這個動作
 
 #: kdeui/dialogs/kedittoolbar.cpp:527
 #, fuzzy
-msgid "Reset ToolBars"
+msgid "Reset Toolbars"
 msgstr "重設工具列"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2887
@@ -6757,7 +6757,7 @@ msgid "Switch Application Language"
 msgstr "設定應用程式名稱。"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:108
-msgid "Please choose language which should be used for this application:"
+msgid "Please choose the language which should be used for this application:"
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:136
@@ -6769,19 +6769,19 @@ msgstr "預設語言："
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:137
 msgid ""
 "Adds one more language which will be used if other translations do not "
-"contain proper translation"
+"contain a proper translation."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:226
 msgid ""
-"Language for this application has been changed. The change will take effect "
-"upon next start of application"
+"The language for this application has been changed. The change will take "
+"effect the next time the application is started."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:227
 #, fuzzy
 #| msgid "Application sounds"
-msgid "Application language changed"
+msgid "Application Language Changed"
 msgstr "應用程式聲音"
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:280
@@ -6798,14 +6798,14 @@ msgstr "預設語言："
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:311
 msgid ""
-"This is main application language which will be used first before any other "
-"languages"
+"This is the main application language which will be used first, before any "
+"other languages."
 msgstr ""
 
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:312
 msgid ""
-"This is language which will be used if any previous languages does not "
-"contain proper translation"
+"This is the language which will be used if any previous languages do not "
+"contain a proper translation."
 msgstr ""
 
 #: kdeui/dialogs/kpassworddialog.cpp:68
@@ -7193,7 +7193,7 @@ msgstr "請輸入替代字串，或在清單中選取一個。"
 #| "an extra backslash in front of it, like <code><b>\\\\N</b></code>.</qt>"
 msgid ""
 "<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where <code><b>N</"
-"b></code> is a integer number, will be replaced with the corresponding "
+"b></code> is an integer number, will be replaced with the corresponding "
 "capture (\"parenthesized substring\") from the pattern.<p>To include (a "
 "literal <code><b>\\N</b></code> in your replacement, put an extra backslash "
 "in front of it, like <code><b>\\\\N</b></code>.</p></qt>"
@@ -7851,7 +7851,7 @@ msgctxt ""
 msgid "LTR"
 msgstr ""
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:862
 #, fuzzy, kde-format
 #| msgid "The style %1 was not found\n"
 msgid "The style '%1' was not found"
@@ -8731,7 +8731,7 @@ msgstr "CombiningMarks"
 #| msgctxt "QFont"
 #| msgid "Letterlike Symbols"
 msgctxt "KCharselect unicode block name"
-msgid "Letterlike Symbols"
+msgid "Letter-Like Symbols"
 msgstr "類似字母的符號"
 
 #: kdeui/widgets/kcharselect-translation.cpp:98
@@ -9142,9 +9142,12 @@ msgid "Arabic Presentation Forms-B"
 msgstr ""
 
 #: kdeui/widgets/kcharselect-translation.cpp:161
+#, fuzzy
+#| msgctxt "QFont"
+#| msgid "Katakana Half-Width Forms"
 msgctxt "KCharselect unicode block name"
-msgid "Halfwidth and Fullwidth Forms"
-msgstr ""
+msgid "Half-Width and Full-Width Forms"
+msgstr "半角片假名"
 
 #: kdeui/widgets/kcharselect-translation.cpp:162
 msgctxt "KCharselect unicode block name"
@@ -9878,7 +9881,7 @@ msgstr "關於 %1(&A)"
 #: kfile/kfileplacesmodel.cpp:727
 #, fuzzy, kde-format
 #| msgid "An error occurred while loading <B>%1</B>:"
-msgid "An error occurred while accessing '%1', the system said: %2"
+msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "載入 <B>%1</B> 時發生錯誤："
 
 #: kfile/kfileplacesmodel.cpp:731
@@ -10201,7 +10204,7 @@ msgstr "航行"
 #: khtml/testkhtml.cpp:38
 #, fuzzy
 #| msgid "URL to open"
-msgid "url to open"
+msgid "URL to open"
 msgstr "要開啟的 URL"
 
 #: khtml/testkhtml.cpp:40
@@ -10247,10 +10250,6 @@ msgstr "完成。"
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
 
-#: khtml/test_regression.cpp:618
-msgid "Do not suppress debug output"
-msgstr ""
-
 #: khtml/test_regression.cpp:620
 msgid "Regenerate baseline (instead of checking)"
 msgstr ""
@@ -10277,8 +10276,8 @@ msgstr ""
 
 #: khtml/test_regression.cpp:630
 msgid ""
-"Directory containing tests,basedir and output directories. Only regarded if -"
-"b is not specified."
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
 msgstr ""
 
 #: khtml/test_regression.cpp:631
@@ -11017,7 +11016,7 @@ msgstr "繼續"
 
 #: khtml/test_regression_gui_window.cpp:632
 #, fuzzy
-msgid "Can not find testregression executable."
+msgid "Cannot find testregression executable."
 msgstr "找不到可執行檔‘%1’。"
 
 #: khtml/test_regression_gui_window.cpp:1102
@@ -11729,14 +11728,14 @@ msgid "Level of safety of the Ruby interpreter"
 msgstr ""
 
 #: kross/core/action.cpp:399
-#, kde-format
-msgid "There exists no such scriptfile \"%1\""
-msgstr ""
+#, fuzzy, kde-format
+msgid "Scriptfile \"%1\" does not exist."
+msgstr "沒有找到 %1 風格\n"
 
 #: kross/core/action.cpp:403
-#, kde-format
-msgid "Failed to determinate interpreter for scriptfile \"%1\""
-msgstr ""
+#, fuzzy, kde-format
+msgid "Failed to determine interpreter for scriptfile \"%1\""
+msgstr "找不到命令稿 \"%1\"。"
 
 #: kross/core/action.cpp:407
 #, fuzzy, kde-format
@@ -11872,6 +11871,28 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
+#: nepomuk/core/resource.cpp:368
+msgid "Success"
+msgstr ""
+
+#: nepomuk/core/resource.cpp:370
+#, fuzzy
+msgid "Communication error"
+msgstr "組態設定"
+
+#: nepomuk/core/resource.cpp:372
+#, fuzzy
+#| msgid "Invalid reference base"
+msgid "Invalid type in Database"
+msgstr "無效的 reference base"
+
+#: nepomuk/core/resource.cpp:374
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Unknown error"
+msgid "Unknown error"
+msgstr "不明的錯誤"
+
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:207
 msgid "Create New Tag..."
 msgstr ""
@@ -11907,28 +11928,6 @@ msgstr "設定通知(&N)..."
 #: nepomuk/core/test/tagcloudtest.cpp:30
 msgid "tagcloudtest"
 msgstr ""
-
-#: nepomuk/core/generated/resource.cpp:370
-msgid "Success"
-msgstr ""
-
-#: nepomuk/core/generated/resource.cpp:372
-#, fuzzy
-msgid "Communication error"
-msgstr "組態設定"
-
-#: nepomuk/core/generated/resource.cpp:374
-#, fuzzy
-#| msgid "Invalid reference base"
-msgid "Invalid type in Database"
-msgstr "無效的 reference base"
-
-#: nepomuk/core/generated/resource.cpp:376
-#, fuzzy
-#| msgctxt "QFile"
-#| msgid "Unknown error"
-msgid "Unknown error"
-msgstr "不明的錯誤"
 
 #: kparts/browserextension.cpp:645
 #, fuzzy, kde-format
@@ -12097,7 +12096,7 @@ msgstr ""
 
 #: kutils/kpluginselector.cpp:224
 msgid ""
-"Automatically changes have been performed in order to satisfy plugin "
+"Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
 msgstr ""
 
@@ -12105,7 +12104,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "\n"
-"    %1 plugin has been automatically checked because the dependency of %2 "
+"    %1 plugin has been automatically checked because of the dependency of %2 "
 "plugin"
 msgstr ""
 
@@ -12113,8 +12112,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "\n"
-"    %1 plugin has been automatically unchecked because its dependency on %2 "
-"plugin"
+"    %1 plugin has been automatically unchecked because of its dependency on %"
+"2 plugin"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:232
@@ -12149,7 +12148,8 @@ msgstr "關於 %1"
 
 #: kutils/kpluginselector.cpp:1683
 #, fuzzy
-msgid "E-Mail:"
+#| msgid "Email"
+msgid "Email:"
 msgstr "Email"
 
 #: kutils/kpluginselector.cpp:1701
@@ -12172,7 +12172,7 @@ msgstr "預覽列印(&W)..."
 #: kutils/kcmoduleproxy.cpp:134
 #, fuzzy
 msgid ""
-"<b>Changes in this section requires root access.</b><br />On applying your "
+"<b>Changes in this section require root access.</b><br />On applying your "
 "changes you will have to supply your root password."
 msgstr "<b>這個部份的更改需要 root 權限。</b><br />請按\"管理員模式\"來更改。"
 
@@ -12253,7 +12253,7 @@ msgstr ""
 #: kjsembed/kjsembed/qobject_binding.cpp:410
 #, kde-format
 msgid ""
-"The slot sked for %1 arguments but there are only %2 arguments available."
+"The slot asked for %1 arguments but there are only %2 arguments available."
 msgstr ""
 
 #: kjsembed/kjsembed/qobject_binding.cpp:604
@@ -12389,7 +12389,7 @@ msgstr "無法建立新的檔案。"
 
 #: kjsembed/kjsembed/builtins.cpp:89 kjsembed/kjsembed/builtins.cpp:129
 #, kde-format
-msgid "Error seen while processing include '%1' line %2: %3"
+msgid "Error encountered while processing include '%1' line %2: %3"
 msgstr ""
 
 #: kjsembed/kjsembed/builtins.cpp:95
@@ -12506,7 +12506,7 @@ msgstr "密碼是空白的"
 #: kde3support/kdeui/k3sconfig.cpp:109
 #, fuzzy
 msgctxt "@option:check"
-msgid "Do SpellChecking"
+msgid "Do Spellchecking"
 msgstr "拼字檢查程式"
 
 #: kde3support/kdeui/k3sconfig.cpp:113
@@ -13046,6 +13046,12 @@ msgstr ""
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
 
+#: kdecore/services/kmimetypetrader.h:136
+#: kdecore/services/kmimetypetrader.h:169
+#: kdecore/services/kservicetypetrader.h:187
+msgid "No service matching the requirements was found"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:43
 msgid "&New"
 msgstr "開新檔案(&N)"
@@ -13234,6 +13240,15 @@ msgid ""
 msgstr ""
 "<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode 編碼： U+%3<br>(十進"
 "制: %4)<br>(字元: %5)</qt>"
+
+#: kross/qts/values_p.h:68
+#, fuzzy, kde-format
+msgid "No such function \"%1\""
+msgstr "沒有此選單項目 '%1'。"
+
+#, fuzzy
+#~ msgid "E-Mail:"
+#~ msgstr "Email"
 
 #, fuzzy
 #~| msgid "Latest"
@@ -15741,13 +15756,6 @@ msgstr ""
 #~ "\""
 
 #~ msgid ""
-#~ "Cannot save the file\n"
-#~ "\""
-#~ msgstr ""
-#~ "無法儲存檔案。\n"
-#~ "\""
-
-#~ msgid ""
 #~ "Cannot find kab's configuration template file.\n"
 #~ "kab cannot be configured."
 #~ msgstr ""
@@ -15963,10 +15971,6 @@ msgstr ""
 #~ msgctxt "QFont"
 #~ msgid "Unicode"
 #~ msgstr "Unicode"
-
-#~ msgctxt "QFont"
-#~ msgid "Katakana Half-Width Forms"
-#~ msgstr "半角片假名"
 
 #~ msgctxt "QFont"
 #~ msgid "Han (Japanese)"
