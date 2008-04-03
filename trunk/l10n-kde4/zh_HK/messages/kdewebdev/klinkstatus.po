@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:34+0100\n"
+"POT-Creation-Date: 2008-04-02 16:33+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -185,7 +185,7 @@ msgstr "ROOT URL。"
 #. i18n: file klinkstatus_part.rc line 39
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 39
-#: ui/treeview.cpp:376 rc.cpp:18 rc.cpp:315
+#: ui/treeview.cpp:376 rc.cpp:18 rc.cpp:351
 #, fuzzy
 #| msgid "Check"
 msgid "Recheck"
@@ -427,7 +427,7 @@ msgstr "工作階段"
 #. i18n: file ./klinkstatus_shell.rc line 5
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 5
-#: rc.cpp:3 rc.cpp:39 rc.cpp:279 rc.cpp:300
+#: rc.cpp:3 rc.cpp:39 rc.cpp:315 rc.cpp:336
 msgid "&File"
 msgstr ""
 
@@ -435,7 +435,7 @@ msgstr ""
 #. i18n: file klinkstatus_part.rc line 10
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 10
-#: rc.cpp:6 rc.cpp:303
+#: rc.cpp:6 rc.cpp:339
 msgid "Export to HTML"
 msgstr ""
 
@@ -447,7 +447,7 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 31
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 19
-#: rc.cpp:9 rc.cpp:57 rc.cpp:297 rc.cpp:306
+#: rc.cpp:9 rc.cpp:57 rc.cpp:333 rc.cpp:342
 msgid "&Settings"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 11
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 24
-#: rc.cpp:12 rc.cpp:42 rc.cpp:282 rc.cpp:309
+#: rc.cpp:12 rc.cpp:42 rc.cpp:318 rc.cpp:345
 msgid "&View"
 msgstr ""
 
@@ -471,7 +471,7 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 15
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 32
-#: rc.cpp:15 rc.cpp:45 rc.cpp:285 rc.cpp:312
+#: rc.cpp:15 rc.cpp:45 rc.cpp:321 rc.cpp:348
 #, fuzzy
 msgid "S&earch"
 msgstr "搜尋"
@@ -484,7 +484,7 @@ msgstr "搜尋"
 #. i18n: file ./klinkstatus_shell.rc line 19
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 47
-#: rc.cpp:21 rc.cpp:48 rc.cpp:288 rc.cpp:318
+#: rc.cpp:21 rc.cpp:48 rc.cpp:324 rc.cpp:354
 msgid "&Validate"
 msgstr ""
 
@@ -492,7 +492,7 @@ msgstr ""
 #. i18n: file klinkstatus_part.rc line 52
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 52
-#: rc.cpp:24 rc.cpp:321
+#: rc.cpp:24 rc.cpp:357
 msgid "Manual Fix"
 msgstr ""
 
@@ -504,7 +504,7 @@ msgstr ""
 #. i18n: file ./klinkstatus_shell.rc line 27
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 59
-#: rc.cpp:27 rc.cpp:54 rc.cpp:294 rc.cpp:324
+#: rc.cpp:27 rc.cpp:54 rc.cpp:330 rc.cpp:360
 msgid "&Window"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgstr ""
 #. i18n: file klinkstatus_part.rc line 63
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 63
-#: rc.cpp:30 rc.cpp:327
+#: rc.cpp:30 rc.cpp:363
 msgid "Navigation"
 msgstr ""
 
@@ -520,7 +520,7 @@ msgstr ""
 #. i18n: file klinkstatus_part.rc line 75
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 75
-#: rc.cpp:33 rc.cpp:330
+#: rc.cpp:33 rc.cpp:366
 msgid "&Help"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 #. i18n: file klinkstatus_part.rc line 83
 #. i18n: tag text
 #. i18n: file ./klinkstatus_part.rc line 83
-#: rc.cpp:36 rc.cpp:333
+#: rc.cpp:36 rc.cpp:369
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr ""
@@ -541,7 +541,7 @@ msgstr ""
 #. i18n: file ./plugins/automation/klinkstatus_automation.rc line 4
 #. i18n: tag text
 #. i18n: file ./plugins/scripting/scripting.rc line 4
-#: rc.cpp:51 rc.cpp:291 rc.cpp:336 rc.cpp:339
+#: rc.cpp:51 rc.cpp:327 rc.cpp:426 rc.cpp:429
 msgid "&Tools"
 msgstr ""
 
@@ -583,7 +583,9 @@ msgstr "深度："
 #. i18n: file ./ui/sessionwidgetbase.ui line 199
 #. i18n: tag string
 #. i18n: file ./ui/settings/configsearchdialog.ui line 289
-#: rc.cpp:71 rc.cpp:122
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 158
+#: rc.cpp:71 rc.cpp:122 rc.cpp:414
 msgid "Unlimited"
 msgstr "不限制"
 
@@ -984,7 +986,212 @@ msgid ""
 "and output."
 msgstr ""
 
-#: plugins/automation/automationpart.cpp:65
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 8
+#: rc.cpp:279
+msgid "Name of the configuration, e.g. kdewebdev"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 13
+#: rc.cpp:282
+msgid "Periodicity of the check"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 18
+#: rc.cpp:285
+msgid "Hour in which the task will be executed"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 28
+#: rc.cpp:288
+msgid "URL of the site to check"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 33
+#: rc.cpp:291
+msgid ""
+"For protocols different than HTTP, specify the root of your files, e.g. '/"
+"var/www'"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 38
+#: rc.cpp:294
+msgid "Depth of recursive search, -1 is unlimited"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 43
+#: rc.cpp:297
+#, fuzzy
+#| msgid "Whether to check parent folders."
+msgid "Whether to check links in parent folders"
+msgstr "要不要檢查上層目錄。"
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 48
+#: rc.cpp:300
+#, fuzzy
+#| msgid "Whether to check external links."
+msgid "Whether to check external links"
+msgstr "要不要檢查該網站以外的連結"
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 53
+#: rc.cpp:303
+msgid "The URLs that match the regexp will not me checked"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 62
+#: rc.cpp:306
+msgid "Whether to include only broken links in the result"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 67
+#: rc.cpp:309
+msgid "The directory where the results will be saved"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./engine/automationconfig.kcfg line 72
+#: rc.cpp:312
+msgid "The e-mail address to where reults will be emailed"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 13
+#: rc.cpp:372
+msgid "Form"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 34
+#: rc.cpp:375
+msgid "Scheduling"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 40
+#: rc.cpp:378
+msgid "Name"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 50
+#: rc.cpp:381
+msgid "Periodicity"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 60
+#: rc.cpp:384
+msgid "Hour"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 67
+#: rc.cpp:387
+msgid "00:00; "
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 77
+#: rc.cpp:390 klinkstatus_part.cpp:132
+msgid "Results"
+msgstr "結果"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 83
+#: rc.cpp:393
+#, fuzzy
+#| msgid "Broken Links"
+msgid "Show Broken Links Only"
+msgstr "破斷的連結"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 90
+#: rc.cpp:396
+#, fuzzy
+#| msgid "Results"
+msgid "Results Folder"
+msgstr "結果"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 100
+#: rc.cpp:399
+msgid "E-Mail Recipient"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 113
+#: rc.cpp:402
+#, fuzzy
+#| msgid "Search"
+msgid "Search Options"
+msgstr "搜尋"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 119
+#: rc.cpp:405
+msgid "URL"
+msgstr "URL"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 129
+#: rc.cpp:408
+#, fuzzy
+#| msgid "Document to open"
+msgid "Document Root"
+msgstr "要開啟的文件"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 139
+#: rc.cpp:411
+#, fuzzy
+#| msgid "Depth:"
+msgid "Depth"
+msgstr "深度："
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 171
+#: rc.cpp:417
+#, fuzzy
+#| msgid "Check parent folders"
+msgid "Check Parent Folders"
+msgstr "檢查上層目錄"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 178
+#: rc.cpp:420
+#, fuzzy
+#| msgid "Check external links"
+msgid "Check External Links"
+msgstr "檢查網站以外的連結"
+
+#. i18n: tag string
+#. i18n: file ./plugins/automation/automationconfigpageui.ui line 185
+#: rc.cpp:423
+#, fuzzy
+#| msgid "Do not check regular expression:"
+msgid "Do not check Regular Expression"
+msgstr "不要檢查正規表示式："
+
+#: plugins/automation/automationdialog.cpp:61
+msgid "Configure Site check Automation"
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:128
+#, kde-format
+msgid "Could not delete configuration file %1"
+msgstr ""
+
+#: plugins/automation/automationpart.cpp:74
 #, fuzzy
 #| msgid "New Link Check"
 msgid "Schedule Link Checks..."
@@ -1005,10 +1212,6 @@ msgstr "連結檢查器"
 #: klinkstatus_part.cpp:131
 msgid "Check"
 msgstr "檢查"
-
-#: klinkstatus_part.cpp:132
-msgid "Results"
-msgstr "結果"
 
 #: klinkstatus_part.cpp:135
 msgid "Configure the way KLinkstatus reports itself"
@@ -1050,9 +1253,6 @@ msgstr ""
 
 #~ msgid "Label"
 #~ msgstr "標記"
-
-#~ msgid "URL"
-#~ msgstr "URL"
 
 #~ msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
 #~ msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
