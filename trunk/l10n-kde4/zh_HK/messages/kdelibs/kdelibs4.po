@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-02 16:21+0200\n"
+"POT-Creation-Date: 2008-04-04 16:32+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3521,23 +3521,6 @@ msgstr "NEC SOCKS 客戶端"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS 客戶端"
 
-#: kdecore/kernel/ktoolinvocation_win.cpp:72
-#: kdecore/kernel/ktoolinvocation_x11.cpp:81
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"無法執行輔助中心：\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_win.cpp:73
-#: kdecore/kernel/ktoolinvocation_x11.cpp:82
-msgid "Could not Launch Help Center"
-msgstr "無法執行輔助中心"
-
 #: kdecore/kernel/kcmdlineargs.cpp:270
 msgid "Use the X-server display 'displayname'"
 msgstr "使用 X-Server 顯示器‘displayname’。"
@@ -3819,7 +3802,7 @@ msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:344
+#: kdecore/kernel/ktoolinvocation_x11.cpp:252
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -3830,11 +3813,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:345
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 msgid "Could not Launch Mail Client"
 msgstr "無法執行電子郵件客戶程式。"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:267
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -3845,11 +3828,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:268
 msgid "Could not Launch Browser"
 msgstr "無法執行網頁瀏覽器"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:390
+#: kdecore/kernel/ktoolinvocation_x11.cpp:298
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -3864,7 +3847,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:391
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -3958,16 +3941,31 @@ msgstr ""
 "等) 和管理者 (包括 shyue, kenduest lee, seventeen, jouston, acelan 等人)，沒"
 "有他們以往的辛勞工作，就沒有現在的繁體中文翻譯。</p></blockquote>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:73
+#: kdecore/kernel/ktoolinvocation.cpp:79
 msgid "Function must be called from the main thread."
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:110
+#: kdecore/kernel/ktoolinvocation.cpp:116
 #, fuzzy, kde-format
 msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr "無法透過 DCOP 呼叫 KLauncher。\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:272
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"無法執行輔助中心：\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:273
+msgid "Could not Launch Help Center"
+msgstr "無法執行輔助中心"
 
 #: kdecore/sonnet/loader.cpp:162
 msgctxt "dictionary variant"
@@ -10389,7 +10387,9 @@ msgid "Open '%1'"
 msgstr "開啟 '%1'"
 
 #: khtml/khtml_ext.cpp:541
-msgid "Copy Email Address"
+#, fuzzy
+#| msgid "Copy Email Address"
+msgid "&Copy Email Address"
 msgstr "複製 Email 地址"
 
 #: khtml/khtml_ext.cpp:546
@@ -10397,7 +10397,9 @@ msgid "&Save Link As..."
 msgstr "另存連結為(&S)..."
 
 #: khtml/khtml_ext.cpp:551
-msgid "Copy &Link Address"
+#, fuzzy
+#| msgid "Copy &Link Address"
+msgid "&Copy Link Address"
 msgstr "複製連結地址(&L)"
 
 #: khtml/khtml_ext.cpp:563
@@ -11123,7 +11125,7 @@ msgstr "嚴重解析錯誤：%1，發生在第 %2 行，第 %3 列"
 msgid "XML parsing error"
 msgstr "XML 解析錯誤"
 
-#: khtml/xml/dom_docimpl.cpp:2162
+#: khtml/xml/dom_docimpl.cpp:2170
 msgid "Basic Page Style"
 msgstr "基本頁面風格"
 
