@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-04 12:03+0200\n"
+"POT-Creation-Date: 2008-04-08 14:42+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -303,7 +303,7 @@ msgstr "<未知>"
 
 #: libkopete/kopetetransfermanager.cpp:275 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:607 protocols/gadu/gaducontact.cpp:100
-#: protocols/oscar/oscarcontact.cpp:318
+#: protocols/oscar/oscarcontact.cpp:317
 #: protocols/jabber/jabbercontact.cpp:1038
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:308
@@ -1459,7 +1459,7 @@ msgstr "Kopete，KDE 的即時傳訊程式"
 #: kopete/contactlist/kopetecontactlistview.cpp:1570 rc.cpp:4811
 #: protocols/irc/ui/irceditaccountwidget.cpp:274
 #: protocols/msn/msncontact.cpp:337
-#: protocols/oscar/liboscar/userdetails.cpp:537
+#: protocols/oscar/liboscar/userdetails.cpp:550
 msgid "Kopete"
 msgstr "Kopete"
 
@@ -11271,7 +11271,7 @@ msgstr "關閉對話方塊"
 #. i18n: file ./protocols/jabber/ui/dlgsendraw.ui line 136
 #: rc.cpp:3615 rc.cpp:4529 rc.cpp:4913 rc.cpp:4955
 #: protocols/gadu/gaduregisteraccount.cpp:170
-#: protocols/gadu/gadupubdir.cpp:119 protocols/oscar/aim/aimuserinfo.cpp:114
+#: protocols/gadu/gadupubdir.cpp:119 protocols/oscar/aim/aimuserinfo.cpp:115
 #, fuzzy
 msgid "&Close"
 msgstr "關閉(&L):"
@@ -16772,20 +16772,20 @@ msgid "&Warn User"
 msgstr "警告用戶(&W)"
 
 #: protocols/oscar/aim/aimcontact.cpp:74
-#: protocols/oscar/aim/icqcontact.cpp:156
+#: protocols/oscar/aim/icqcontact.cpp:154
 #: protocols/oscar/icq/aimcontact.cpp:62
 #: protocols/oscar/icq/icqcontact.cpp:568
 msgid "Always &Visible To"
 msgstr "必定給他看見(&V)"
 
 #: protocols/oscar/aim/aimcontact.cpp:78
-#: protocols/oscar/aim/icqcontact.cpp:160
+#: protocols/oscar/aim/icqcontact.cpp:158
 #: protocols/oscar/icq/aimcontact.cpp:66
 #: protocols/oscar/icq/icqcontact.cpp:572
 msgid "Always &Invisible To"
 msgstr "必定對他隱形(&I)"
 
-#: protocols/oscar/aim/aimcontact.cpp:220
+#: protocols/oscar/aim/aimcontact.cpp:218
 #, kde-format
 msgid ""
 "<qt>Would you like to warn %1 anonymously or with your name?<br>(Warning a "
@@ -16798,35 +16798,35 @@ msgstr ""
 "告等級」增加。一旦此等級到達某一點，他們將不能簽入。請勿濫用此功能，應正當地"
 "使用它。）</qt>"
 
-#: protocols/oscar/aim/aimcontact.cpp:228
+#: protocols/oscar/aim/aimcontact.cpp:226
 #, kde-format
 msgid "Warn User %1?"
 msgstr "警告 %1 用戶嗎？"
 
-#: protocols/oscar/aim/aimcontact.cpp:229
+#: protocols/oscar/aim/aimcontact.cpp:227
 msgid "Warn Anonymously"
 msgstr "匿名地警告"
 
-#: protocols/oscar/aim/aimcontact.cpp:229
+#: protocols/oscar/aim/aimcontact.cpp:227
 msgid "Warn"
 msgstr "警告"
 
 #: protocols/oscar/aim/aimuserinfo.cpp:42
-#: protocols/oscar/aim/aimuserinfo.cpp:142
-#: protocols/oscar/aim/aimuserinfo.cpp:159
+#: protocols/oscar/aim/aimuserinfo.cpp:143
+#: protocols/oscar/aim/aimuserinfo.cpp:160
 #, kde-format
 msgid "User Information on %1"
 msgstr "%1 上的用戶資訊"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:94
+#: protocols/oscar/aim/aimuserinfo.cpp:95
 msgid "&Save Profile"
 msgstr "儲存資料檔(&S)"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:121
+#: protocols/oscar/aim/aimuserinfo.cpp:122
 msgid "Requesting User Profile, please wait..."
 msgstr "正在要求用戶資料檔，請稍候..."
 
-#: protocols/oscar/aim/aimuserinfo.cpp:204
+#: protocols/oscar/aim/aimuserinfo.cpp:205
 msgid "<html><body><I>No user information provided</I></body></html>"
 msgstr "<html><body><I>沒有提供用戶資訊</I></body></html>"
 
@@ -17858,7 +17858,7 @@ msgid "Fitness"
 msgstr "健美"
 
 #: protocols/oscar/icq/icqprotocol.cpp:613
-#: protocols/oscar/oscarcontact.cpp:246
+#: protocols/oscar/oscarcontact.cpp:245
 msgid "Games"
 msgstr "遊戲"
 
@@ -18306,7 +18306,7 @@ msgctxt "Translators: client-name client-version"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:449 protocols/oscar/oscarcontact.cpp:232
+#: protocols/oscar/icq/icqcontact.cpp:449 protocols/oscar/oscarcontact.cpp:231
 msgid "UTF-8"
 msgstr "UTF-8"
 
@@ -18314,7 +18314,7 @@ msgstr "UTF-8"
 msgid "RTF-Messages"
 msgstr "豐富文本（RTF）訊息"
 
-#: protocols/oscar/icq/icqcontact.cpp:453 protocols/oscar/oscarcontact.cpp:240
+#: protocols/oscar/icq/icqcontact.cpp:453 protocols/oscar/oscarcontact.cpp:239
 msgid "DirectIM/IMImage"
 msgstr "直接即時傳訊/即時傳訊影像"
 
@@ -18378,27 +18378,27 @@ msgstr "新增聯絡人到伺服器清單"
 msgid "Do &Not Add"
 msgstr "不新增(&N)"
 
-#: protocols/oscar/oscarcontact.cpp:230
+#: protocols/oscar/oscarcontact.cpp:229
 msgid "Buddy icons"
 msgstr "伙伴圖示"
 
-#: protocols/oscar/oscarcontact.cpp:234
+#: protocols/oscar/oscarcontact.cpp:233
 msgid "Rich text messages"
 msgstr "豐富文本（Rich text）訊息"
 
-#: protocols/oscar/oscarcontact.cpp:236
+#: protocols/oscar/oscarcontact.cpp:235
 msgid "Group chat"
 msgstr "群組聊天"
 
-#: protocols/oscar/oscarcontact.cpp:238
+#: protocols/oscar/oscarcontact.cpp:237
 msgid "Voice chat"
 msgstr "話音聊天"
 
-#: protocols/oscar/oscarcontact.cpp:242
+#: protocols/oscar/oscarcontact.cpp:241
 msgid "Send buddy list"
 msgstr "傳送伙伴清單"
 
-#: protocols/oscar/oscarcontact.cpp:244
+#: protocols/oscar/oscarcontact.cpp:243
 msgid "File transfers"
 msgstr "檔案傳輸"
 
