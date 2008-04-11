@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser 1.29\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-06 22:00+0100\n"
+"POT-Creation-Date: 2008-04-10 23:14+0200\n"
 "PO-Revision-Date: 2006-01-20 00:07+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -145,109 +145,113 @@ msgstr "刪除家資料夾(&H): %1"
 msgid "Delete &mailbox: %1"
 msgstr "刪除郵箱(&M): %1"
 
-#: ku_editgroup.cpp:38
+#: ku_editgroup.cpp:39
 msgid "Group Properties"
 msgstr "群組屬性"
 
-#: ku_editgroup.cpp:49
+#: ku_editgroup.cpp:50
 msgid "Domain Admins"
 msgstr "網域管理員"
 
-#: ku_editgroup.cpp:49
+#: ku_editgroup.cpp:50
 msgid "Admins"
 msgstr "管理員"
 
-#: ku_editgroup.cpp:50
+#: ku_editgroup.cpp:51
 msgid "Domain Users"
 msgstr "網域用戶"
 
-#: ku_editgroup.cpp:50 ku_mainview.cpp:61
+#: ku_editgroup.cpp:51 ku_mainview.cpp:61
 msgid "Users"
 msgstr "用戶"
 
-#: ku_editgroup.cpp:51
+#: ku_editgroup.cpp:52
 msgid "Domain Guests"
 msgstr "網域來賓"
 
-#: ku_editgroup.cpp:51
+#: ku_editgroup.cpp:52
 msgid "Guests"
 msgstr "來賓"
 
-#: ku_editgroup.cpp:62
+#: ku_editgroup.cpp:63
 msgid "Group number:"
 msgstr "群組號碼:"
 
-#: ku_editgroup.cpp:77
+#: ku_editgroup.cpp:78
 msgid "Group rid:"
 msgstr "群組 rid:"
 
-#: ku_editgroup.cpp:95
+#: ku_editgroup.cpp:96
 msgid "Group name:"
 msgstr "群組名稱:"
 
-#: ku_editgroup.cpp:109
+#: ku_editgroup.cpp:110
 msgid "Description:"
 msgstr "說明:"
 
-#: ku_editgroup.cpp:118
+#: ku_editgroup.cpp:119
 msgid "Display name:"
 msgstr "顯示名稱:"
 
-#: ku_editgroup.cpp:127
+#: ku_editgroup.cpp:128
 msgid "Type:"
 msgstr "類型:"
 
-#: ku_editgroup.cpp:129 ku_groupmodel.cpp:75
+#: ku_editgroup.cpp:130 ku_groupmodel.cpp:75
 msgid "Domain"
 msgstr "網域"
 
-#: ku_editgroup.cpp:130 ku_groupmodel.cpp:76
+#: ku_editgroup.cpp:131 ku_groupmodel.cpp:76
 msgid "Local"
 msgstr "本地端"
 
-#: ku_editgroup.cpp:131 ku_groupmodel.cpp:77
+#: ku_editgroup.cpp:132 ku_groupmodel.cpp:77
 msgid "Builtin"
 msgstr "內置"
 
-#: ku_editgroup.cpp:148 ku_edituser.cpp:313
+#: ku_editgroup.cpp:149 ku_edituser.cpp:313
 msgid "Domain SID:"
 msgstr "網域 SID:"
 
-#: ku_editgroup.cpp:156
+#: ku_editgroup.cpp:157
 msgid "Disable Samba group information"
 msgstr "停用 Samba 群組資訊"
 
-#: ku_editgroup.cpp:170
+#: ku_editgroup.cpp:171
 msgid "Users in Group"
 msgstr "用戶在此群組中"
 
-#: ku_editgroup.cpp:177
-msgid "Add <-"
+#: ku_editgroup.cpp:178
+#, fuzzy
+#| msgid "Add <-"
+msgid "Add"
 msgstr "新增 <-"
 
-#: ku_editgroup.cpp:178
-msgid "Remove ->"
+#: ku_editgroup.cpp:179
+#, fuzzy
+#| msgid "Remove ->"
+msgid "Remove"
 msgstr "移除 ->"
 
-#: ku_editgroup.cpp:190
+#: ku_editgroup.cpp:191
 msgid "Users NOT in Group"
 msgstr "用戶*不在*此群組中"
 
-#: ku_editgroup.cpp:280
+#: ku_editgroup.cpp:281
 msgid "You need to type a group name."
 msgstr "你需要鍵入群組名稱。"
 
-#: ku_editgroup.cpp:288
+#: ku_editgroup.cpp:289
 #, kde-format
 msgid "Group with name %1 already exists."
 msgstr "已有 %1 這個群組。"
 
-#: ku_editgroup.cpp:295
+#: ku_editgroup.cpp:296
 #, kde-format
 msgid "Group with SID %1 already exists."
 msgstr "已有群組使用 SID %1 。"
 
-#: ku_editgroup.cpp:300
+#: ku_editgroup.cpp:301
 #, kde-format
 msgid "Group with gid %1 already exists."
 msgstr "已有群組使用 gid %1 。"

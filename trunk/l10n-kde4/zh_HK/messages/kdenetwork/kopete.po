@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-06 20:00+0200\n"
+"POT-Creation-Date: 2008-04-10 23:13+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14857,19 +14857,21 @@ msgstr ""
 #: plugins/otr/smppopup.cpp:43
 #, fuzzy
 #| msgid "Server Authentication"
+msgctxt "@title:window"
 msgid "Enter authentication secret"
 msgstr "伺服器認證"
 
 #: plugins/otr/smppopup.cpp:45
 #, fuzzy
 #| msgid "Server Authentication"
-msgctxt "@button"
+msgctxt "@action:button"
 msgid "Manual Authentication"
 msgstr "伺服器認證"
 
 #: plugins/otr/smppopup.cpp:49
 #, fuzzy, kde-format
 #| msgid "Please enter the same password twice."
+msgctxt "@info"
 msgid "Please enter the secret passphrase to authenticate %1"
 msgstr "請輸入同一密碼兩次。"
 
@@ -16273,15 +16275,17 @@ msgid "Cannot join %1, wrong channel key was given."
 msgstr ""
 
 #: protocols/irc/libkirc/client/tasks/kirci18ntask.cpp:366
-#, c-format
+#, kde-format
+#| msgid "There is 1 operator online."
+#| msgid_plural "There are %s operators online."
 msgid "There is 1 operator online."
-msgid_plural "There are %s operators online."
+msgid_plural "There are %1 operators online."
 msgstr[0] ""
 
 #: protocols/irc/libkirc/client/tasks/kirci18ntask.cpp:374
-#, fuzzy, c-format
+#, fuzzy, kde-format
 msgid "There is 1 unknown connection."
-msgid_plural "There are %s unknown connections."
+msgid_plural "There are %1 unknown connections."
 msgstr[0] "連線錯誤: %1"
 
 #: protocols/irc/libkirc/client/tasks/kirci18ntask.cpp:382
@@ -22408,6 +22412,12 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#, fuzzy
+#~| msgid "Server Authentication"
+#~ msgctxt "@button"
+#~ msgid "Manual Authentication"
+#~ msgstr "伺服器認證"
 
 #, fuzzy
 #~| msgid "Nickname"
