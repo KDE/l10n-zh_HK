@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-10 23:11+0200\n"
+"POT-Creation-Date: 2008-04-12 19:05+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -79,11 +79,18 @@ msgid "Identity Settings"
 msgstr ""
 
 #: conf/dlgpresentation.cpp:28
+#, fuzzy
+#| msgid "Current mantainer"
+msgctxt "@label:listbox The current screen, for the presentation mode"
+msgid "Current Screen"
+msgstr "目前維護者"
+
+#: conf/dlgpresentation.cpp:29
 msgctxt "@label:listbox The default screen for the presentation mode"
 msgid "Default Screen"
 msgstr ""
 
-#: conf/dlgpresentation.cpp:32
+#: conf/dlgpresentation.cpp:33
 #, fuzzy, kde-format
 #| msgid "Creator"
 msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
@@ -206,7 +213,8 @@ msgstr ""
 "要從開始部份繼續嗎？"
 
 #: core/document.cpp:1292
-msgid "Can not find a plugin which is able to handle the passed document."
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
 #: core/document.cpp:1688
@@ -218,7 +226,7 @@ msgstr "頁："
 #: core/document.cpp:1692
 #, fuzzy
 #| msgid "Pages"
-msgid "Pages Size"
+msgid "Page Size"
 msgstr "頁："
 
 #: core/document.cpp:2235
@@ -232,8 +240,8 @@ msgstr ""
 
 #: core/document.cpp:2538 core/document.cpp:2546
 msgid ""
-"The document is trying to execute an external application and for your "
-"safety Okular does not allow that."
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
 msgstr ""
 
 #: core/document.cpp:2559
@@ -394,7 +402,7 @@ msgid "Options"
 msgstr "過濾器選項"
 
 #: ui/findbar.cpp:62
-msgid "Modify search behaviour"
+msgid "Modify search behavior"
 msgstr ""
 
 #: ui/findbar.cpp:64
@@ -446,7 +454,7 @@ msgstr "頁：%1"
 msgid "Click to begin"
 msgstr "單擊開始"
 
-#: ui/presentationwidget.cpp:1126
+#: ui/presentationwidget.cpp:1135
 msgid ""
 "There are two ways of exiting presentation mode, you can press either ESC "
 "key or click with the quit button that appears when placing the mouse in the "
@@ -679,7 +687,7 @@ msgstr ""
 #: ui/sidebar.cpp:595
 #, fuzzy
 #| msgid "Icon"
-msgid "Big Icons"
+msgid "Large Icons"
 msgstr "圖示"
 
 #: ui/pageview.cpp:396
@@ -900,21 +908,23 @@ msgstr ""
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:2986
+#: ui/pageview.cpp:2994
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:3058
+#: ui/pageview.cpp:3066
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:3070
+#: ui/pageview.cpp:3078
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:3082
-msgid "Select text."
-msgstr ""
+#: ui/pageview.cpp:3090
+#, fuzzy
+#| msgid "&Select Tool"
+msgid "Select text"
+msgstr "選取工具(&S)"
 
 #: ui/pageviewutils.cpp:317
 msgid "Close this message"
@@ -1569,7 +1579,7 @@ msgstr ""
 
 #: part.cpp:831
 msgid ""
-"The document requested to be launched on presentation mode.\n"
+"The document requested to be launched in presentation mode.\n"
 "Do you want to allow it?"
 msgstr ""
 
@@ -1672,8 +1682,8 @@ msgstr ""
 msgid ""
 "<qt>This error typically occurs if you do not have enough permissions to "
 "read the file. You can check ownership and permissions if you right-click on "
-"the file in the Konqueror file manager and then choose the 'Properties' menu."
-"</qt>"
+"the file in the Dolphin file manager and then choose the 'Properties' tab.</"
+"qt>"
 msgstr ""
 
 #: part.cpp:1840
@@ -2348,9 +2358,6 @@ msgstr ""
 #~| msgid "Moves to the next page of the document"
 #~ msgid "Could not load the necessary plugin to view the document."
 #~ msgstr "移至文件次頁"
-
-#~ msgid "&Select Tool"
-#~ msgstr "選取工具(&S)"
 
 #, fuzzy
 #~| msgid "Fit to &Text"
