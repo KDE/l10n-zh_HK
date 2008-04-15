@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-12 19:05+0200\n"
+"POT-Creation-Date: 2008-04-14 18:49+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -173,21 +173,25 @@ msgstr "跳至頁"
 msgid "Play sound..."
 msgstr ""
 
-#: core/action.cpp:353
+#: core/action.cpp:359
+msgid "JavaScript Script"
+msgstr ""
+
+#: core/action.cpp:405
 msgid "Play movie..."
 msgstr ""
 
-#: core/document.cpp:141
+#: core/document.cpp:142
 #, kde-format
 msgid "%1 x %2 in"
 msgstr ""
 
-#: core/document.cpp:145
+#: core/document.cpp:146
 #, kde-format
 msgid "%1 x %2 mm"
 msgstr ""
 
-#: core/document.cpp:758
+#: core/document.cpp:759
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -195,12 +199,12 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:821 core/document.cpp:922
+#: core/document.cpp:822 core/document.cpp:923
 #, kde-format
 msgid "No matches found for '%1'."
 msgstr "找不到符合『%1』的。"
 
-#: core/document.cpp:859
+#: core/document.cpp:860
 #, fuzzy
 #| msgid ""
 #| "End of document reached.\n"
@@ -212,100 +216,100 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1292
+#: core/document.cpp:1293
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:1688
+#: core/document.cpp:1702
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:1692
+#: core/document.cpp:1706
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
 msgstr "頁："
 
-#: core/document.cpp:2235
+#: core/document.cpp:2249
 msgid "Search in progress..."
 msgstr ""
 
-#: core/document.cpp:2237
+#: core/document.cpp:2251
 #, kde-format
 msgid "Searching for %1"
 msgstr ""
 
-#: core/document.cpp:2538 core/document.cpp:2546
+#: core/document.cpp:2552 core/document.cpp:2560
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:2559
+#: core/document.cpp:2573
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3109
+#: core/document.cpp:3130
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:3112
+#: core/document.cpp:3133
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:3115 ui/embeddedfilesdialog.cpp:49
+#: core/document.cpp:3136 ui/embeddedfilesdialog.cpp:49
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:3118
+#: core/document.cpp:3139
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:3121
+#: core/document.cpp:3142
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:3124
+#: core/document.cpp:3145
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:3127
+#: core/document.cpp:3148
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:3130
+#: core/document.cpp:3151
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:3133 ui/embeddedfilesdialog.cpp:51
+#: core/document.cpp:3154 ui/embeddedfilesdialog.cpp:51
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:3136 ui/embeddedfilesdialog.cpp:52
+#: core/document.cpp:3157 ui/embeddedfilesdialog.cpp:52
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:3139
+#: core/document.cpp:3160
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:3142
+#: core/document.cpp:3163
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:3145
+#: core/document.cpp:3166
 msgid "Keywords"
 msgstr "關鍵字"
 
@@ -440,7 +444,7 @@ msgstr "表現模式選項"
 msgid "Title: %1"
 msgstr "標題：%1"
 
-#: ui/presentationwidget.cpp:266 ui/guiutils.cpp:116
+#: ui/presentationwidget.cpp:266 ui/guiutils.cpp:125
 #, kde-format
 msgid "Author: %1"
 msgstr "作者：%1"
@@ -514,7 +518,7 @@ msgstr "作者"
 msgid "Created: %1"
 msgstr "建立者"
 
-#: ui/annotationpropertiesdialog.cpp:109 ui/annotationpropertiesdialog.cpp:194
+#: ui/annotationpropertiesdialog.cpp:109 ui/annotationpropertiesdialog.cpp:203
 #, kde-format
 msgid "Modified: %1"
 msgstr ""
@@ -556,6 +560,21 @@ msgstr "屬性(&P)"
 
 #: ui/annotationpropertiesdialog.cpp:167
 #, fuzzy
+msgid "Caret Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:170
+#, fuzzy
+msgid "File Attachment Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:173
+#, fuzzy
+msgid "Sound Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:176
+#, fuzzy
 #| msgid "%1 Properties"
 msgid "Annotation Properties"
 msgstr "%1 屬性"
@@ -594,7 +613,21 @@ msgstr ""
 msgid "Ink"
 msgstr ""
 
-#: ui/guiutils.cpp:73
+#: ui/guiutils.cpp:64
+#, fuzzy
+#| msgid "Creator"
+msgid "Caret"
+msgstr "建立者"
+
+#: ui/guiutils.cpp:67
+msgid "File Attachment"
+msgstr ""
+
+#: ui/guiutils.cpp:70
+msgid "Sound"
+msgstr ""
+
+#: ui/guiutils.cpp:82
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown author"
@@ -2380,10 +2413,6 @@ msgstr ""
 #~| msgid "Speak Text"
 #~ msgid "Free Text"
 #~ msgstr "讀出文字"
-
-#, fuzzy
-#~ msgid "FreeText Properties"
-#~ msgstr "屬性(&P)"
 
 #, fuzzy
 #~| msgid "Format"
