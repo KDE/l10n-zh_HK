@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-14 18:50+0200\n"
+"POT-Creation-Date: 2008-04-16 15:57+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1116,7 +1116,7 @@ msgstr "<qt>收到來自 %1<br>「%2」的訊息</qt>"
 msgid "<qt>A highlighted message arrived from %1<br />\"%2\"</qt>"
 msgstr "<qt>來自 %1<br>「%2」的加強顯示訊息到達</qt>"
 
-#: libkopete/private/kopeteviewmanager.cpp:312 kopete/infoeventwidget.cpp:198
+#: libkopete/private/kopeteviewmanager.cpp:312 kopete/infoeventwidget.cpp:201
 #, fuzzy
 msgid "View"
 msgstr "檢視"
@@ -1902,7 +1902,7 @@ msgstr "個人資訊"
 msgid "No Photo"
 msgstr "照片"
 
-#: kopete/identity/identitystatuswidget.cpp:184
+#: kopete/identity/identitystatuswidget.cpp:187
 #, fuzzy
 #| msgid "No Account Found"
 msgctxt "Label to tell the user no accounts existed"
@@ -2066,7 +2066,7 @@ msgid "Contact List"
 msgstr "聯絡人清單"
 
 #: kopete/config/appearance/appearanceconfig.cpp:116
-#: kopete/config/chatwindow/chatwindowconfig.cpp:282
+#: kopete/config/chatwindow/chatwindowconfig.cpp:221
 msgid "Colors && Fonts"
 msgstr "色彩及字型"
 
@@ -2122,203 +2122,239 @@ msgstr "剛好"
 msgid "General Plugins"
 msgstr "一般插件"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:175
-#: kopete/config/chatwindow/chatwindowconfig.cpp:475
-#, fuzzy
-msgid "The Chat Window style was successfully installed."
-msgstr "檔案已成功傳送。"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:175
-#: kopete/config/chatwindow/chatwindowconfig.cpp:475
-#, fuzzy
-msgid "Install successful"
-msgstr "註冊成功。"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:180
-#: kopete/config/chatwindow/chatwindowconfig.cpp:462
-msgid ""
-"The specified archive cannot be opened.\n"
-"Make sure that the archive is valid ZIP or TAR archive."
-msgstr ""
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:180
-#: kopete/config/chatwindow/chatwindowconfig.cpp:462
-msgid "Cannot open archive"
-msgstr ""
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:185
-#: kopete/config/chatwindow/chatwindowconfig.cpp:467
-#, fuzzy
-msgid ""
-"Could not find a suitable place to install the Chat Window style in user "
-"directory."
-msgstr "找不到安裝表情符號的合適地方。"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:185
-#: kopete/config/chatwindow/chatwindowconfig.cpp:467
-#, fuzzy
-msgid "Cannot find styles directory"
-msgstr "建立目錄"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:190
-#: kopete/config/chatwindow/chatwindowconfig.cpp:471
-msgid "The specified archive does not contain a valid Chat Window style."
-msgstr ""
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:190
-#: kopete/config/chatwindow/chatwindowconfig.cpp:471
-msgid "Invalid Style"
-msgstr "無效的樣式"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:197
-#: kopete/config/chatwindow/chatwindowconfig.cpp:481
-#, fuzzy
-msgid "An unknow error occurred while trying to install the Chat Window style."
-msgstr "嘗試驗證證書時發生未知錯誤。"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:197
-#: kopete/config/chatwindow/chatwindowconfig.cpp:481
-#, fuzzy
-msgid "Unknow error"
-msgstr "未知錯誤。"
-
-#: kopete/config/chatwindow/chatwindowconfig.cpp:223
+#: kopete/config/chatwindow/chatwindowconfig.cpp:158
 #, fuzzy
 msgid "&Style"
 msgstr "樣式"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:264
+#: kopete/config/chatwindow/chatwindowconfig.cpp:203
 msgid "&Emoticons"
 msgstr "表情符號(&E)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:399
+#: kopete/config/chatwindow/chatwindowconfig.cpp:339
 msgid "(No Variant)"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:449
+#: kopete/config/chatwindow/chatwindowconfig.cpp:389
 #, fuzzy
-msgid "Choose Chat Window style to install."
+msgid "Choose a Chat Window Style to install"
 msgstr "從互聯網取得新的聊天視窗樣式"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:502
-#, kde-format
-msgctxt "@info"
-msgid "The style <resource>%1</resource> was successfully deleted."
+#: kopete/config/chatwindow/chatwindowconfig.cpp:400
+msgid ""
+"The specified archive cannot be opened.\n"
+"Make sure that the archive is a valid ZIP or TAR archive."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:507
+#: kopete/config/chatwindow/chatwindowconfig.cpp:400
+msgid "Cannot open archive"
+msgstr ""
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:405
+#, fuzzy
+msgid "Could not find a suitable place to install the Chat Window Style."
+msgstr "找不到安裝表情符號的合適地方。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:405
+#, fuzzy
+msgid "Cannot find styles directory"
+msgstr "建立目錄"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:409
+msgid "The specified archive does not contain a valid Chat Window Style."
+msgstr ""
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:409
+msgid "Invalid Style"
+msgstr "無效的樣式"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:413
+#, fuzzy
+msgid "The Chat Window Style was successfully installed."
+msgstr "檔案已成功傳送。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:413
+#, fuzzy
+msgid "Install successful"
+msgstr "註冊成功。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
+#, fuzzy
+msgid ""
+"An unknown error occurred while trying to install the Chat Window Style."
+msgstr "嘗試驗證證書時發生未知錯誤。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
+#, fuzzy
+#| msgid "Unknown error."
+msgid "Unknown error"
+msgstr "未知錯誤。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:454
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "The Chat Window Style <resource>%1</resource> was successfully deleted."
+msgstr "檔案已成功傳送。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:459
 #, kde-format
 msgctxt "@info"
 msgid ""
-"An error occurred while trying to delete the <resource>%1</resource> style. "
-"Your account might not have permission to remove it."
+"An error occurred while trying to delete the <resource>%1</resource> Chat "
+"Window Style. Your account might not have permission to remove it."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:541
+#: kopete/config/chatwindow/chatwindowconfig.cpp:486
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Chat Window Style <resource>%1</resource> installation"
+msgstr "檔案已成功傳送。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:491
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The specified archive <filename>%1</filename> cannot be opened.\n"
+"Make sure that the archive is a valid ZIP or TAR archive."
+msgstr ""
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:496
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"Could not find a suitable place to install the Chat Window Style <resource>%"
+"1</resource>."
+msgstr "找不到安裝表情符號的合適地方。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:500
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The specified archive <filename>%1</filename> does not contain a valid Chat "
+"Window Style."
+msgstr ""
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:510
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"An unknown error occurred while trying to install the Chat Window Style "
+"<resource>%1</resource>."
+msgstr "嘗試驗證證書時發生未知錯誤。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:519
+#, fuzzy, kde-format
+msgid "One Chat Window Style package has been installed."
+msgid_plural "%1 Chat Window Style packages have been installed."
+msgstr[0] "檔案已成功傳送。"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:534
 msgid "Myself"
 msgstr "自己"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:544
+#: kopete/config/chatwindow/chatwindowconfig.cpp:537
 msgctxt "This is the myself preview contact id"
 msgid "myself@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:545
+#: kopete/config/chatwindow/chatwindowconfig.cpp:538
 msgctxt "This is the myself preview contact nickname"
 msgid "Myself"
 msgstr ""
 
 # 菜市場名XD
-#: kopete/config/chatwindow/chatwindowconfig.cpp:549
+#: kopete/config/chatwindow/chatwindowconfig.cpp:542
 msgid "Jack"
 msgstr "雅婷"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:552
+#: kopete/config/chatwindow/chatwindowconfig.cpp:545
 msgctxt "This is the other preview contact id"
 msgid "jack@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:553
+#: kopete/config/chatwindow/chatwindowconfig.cpp:546
 msgctxt "This is the other preview contact nickname"
 msgid "Jack"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:567
+#: kopete/config/chatwindow/chatwindowconfig.cpp:560
 msgid "Hello, this is an incoming message :-)"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:571
+#: kopete/config/chatwindow/chatwindowconfig.cpp:564
 #, fuzzy
 msgid "Hello, this is an incoming consecutive message."
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:575
+#: kopete/config/chatwindow/chatwindowconfig.cpp:568
 msgid "Ok, this is an outgoing message"
 msgstr "嗯，這是個外送訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:579
+#: kopete/config/chatwindow/chatwindowconfig.cpp:572
 #, fuzzy
 msgid "Ok, an outgoing consecutive message."
 msgstr "嗯，這是個外送訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:583
+#: kopete/config/chatwindow/chatwindowconfig.cpp:576
 #, fuzzy
 #| msgid "Here is an incoming colored message"
 msgid "Here is an incoming colored message."
 msgstr "這是彩色新進訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:589
+#: kopete/config/chatwindow/chatwindowconfig.cpp:582
 msgid "This is an internal message"
 msgstr "這是內部訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:593
+#: kopete/config/chatwindow/chatwindowconfig.cpp:586
 msgid "performed an action"
 msgstr "執行某個行動"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:598
+#: kopete/config/chatwindow/chatwindowconfig.cpp:591
 msgid "This is a highlighted message"
 msgstr "這是高亮度訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:604
+#: kopete/config/chatwindow/chatwindowconfig.cpp:597
 msgctxt ""
-"This special UTF-8 string is to test if the style support Right-to-Left "
+"This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:608
+#: kopete/config/chatwindow/chatwindowconfig.cpp:601
 msgid "Bye"
 msgstr "Bye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:698
+#: kopete/config/chatwindow/chatwindowconfig.cpp:691
 msgid "Drag or Type Emoticon Theme URL"
 msgstr "拖曳或鍵入表情符號主題 URL"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:705
+#: kopete/config/chatwindow/chatwindowconfig.cpp:698
 msgid "Sorry, emoticon themes must be installed from local files."
 msgstr "抱歉，表情符號主題必須從本機檔案安裝。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:706
+#: kopete/config/chatwindow/chatwindowconfig.cpp:699
 msgid "Could Not Install Emoticon Theme"
 msgstr "無法安裝表情符號主題"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:722
+#: kopete/config/chatwindow/chatwindowconfig.cpp:715
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> emoticon "
 #| "theme?<br><br>This will delete the files installed by this theme.</qt>"
+msgctxt "@info"
 msgid ""
-"<qt>Are you sure you want to remove the <strong>%1</strong> emoticon theme?"
-"<br /><br />This will delete the files installed by this theme.</qt>"
+"Are you sure you want to remove the <resource>%1</resource> emoticon theme?"
+"<br /><br /><warning>This will delete all files installed by this theme.</"
+"warning>"
 msgstr ""
 "<qt>你確定要移除 <strong>%1</strong> 表情符號主題嗎？<br><br>這將會刪除這個主"
 "題安裝的所有檔案。</qt>"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:728
+#: kopete/config/chatwindow/chatwindowconfig.cpp:721
 msgid "Confirmation"
 msgstr "確認"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:751
+#: kopete/config/chatwindow/chatwindowconfig.cpp:744
 msgid "Get New Emoticons"
 msgstr "取得新的表情符號"
 
@@ -4830,57 +4866,57 @@ msgid "Chat Window Appearance"
 msgstr "聊天視窗外觀"
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 63
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 39
 #: rc.cpp:769
 #, fuzzy
 msgid "Display"
 msgstr "顯示名稱"
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 69
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 45
 #: rc.cpp:772
 msgid "Group consecuti&ve messages"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 76
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 52
 #: rc.cpp:775
 msgid "Co&mpact style in chatrooms"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 92
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 68
 #: rc.cpp:778
 msgid "Styles"
 msgstr "樣式"
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 133
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 88
 #: rc.cpp:781
 msgid "Style variant:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 203
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 149
 #: rc.cpp:784
 msgid "Get new Chat Window styles over the Internet"
 msgstr "從互聯網取得新的聊天視窗樣式"
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 206
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 152
 #: rc.cpp:787
 msgid "&Get New..."
 msgstr "抓新的(&G)..."
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 213
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 159
 #: rc.cpp:790
 #, fuzzy
 msgid "&Install..."
 msgstr "安裝主題檔案(&I)..."
 
 #. i18n: tag string
-#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 220
+#. i18n: file ./kopete/config/chatwindow/chatwindowconfig_style.ui line 166
 #: rc.cpp:793 protocols/oscar/oscarlistnonservercontacts.cpp:40
 #, fuzzy
 msgid "&Delete"
@@ -22410,6 +22446,10 @@ msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#, fuzzy
+#~ msgid "Unknow error"
+#~ msgstr "未知錯誤。"
 
 #, fuzzy
 #~| msgid "Server Authentication"
