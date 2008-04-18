@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-16 16:09+0200\n"
+"POT-Creation-Date: 2008-04-18 12:04+0200\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2376,9 +2376,7 @@ msgstr "工具列 & 動作樹狀列表"
 
 #. i18n: tag string
 #. i18n: file ./plugins/usertoolbars/actionconfigdialogbase.ui line 121
-#: rc.cpp:1100 plugins/structuretree/structuretreewidget.cpp:52
-#: plugins/structuretree/groupswidget.cpp:56
-#: plugins/createproject/simplefiletree.cpp:35
+#: rc.cpp:1100 plugins/createproject/simplefiletree.cpp:35
 msgid "Name"
 msgstr "名稱"
 
@@ -6632,7 +6630,7 @@ msgstr "文件"
 
 #. i18n: tag text
 #. i18n: file extrafiles line 475
-#: rc.cpp:3099 plugins/tagdialogs/tagdialog.cpp:199
+#: rc.cpp:3099 plugins/tagdialogs/tagdialog.cpp:198
 msgid "Main"
 msgstr "主要"
 
@@ -9659,7 +9657,7 @@ msgstr "<qt>您真的要刪除 <b>%1</b> 組別?</qt>"
 msgid "Delete Group"
 msgstr "刪除組別"
 
-#: quantacore/quantacommon.cpp:342
+#: quantacore/quantacommon.cpp:340
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Cannot create folder<br><b>%1</b>.<br>Check that you have write "
@@ -9673,51 +9671,51 @@ msgstr ""
 "<qt>無法建立目錄<br><b>%1</b>。<br>請確定您對它的母目錄擁有寫入權限，或者到"
 "<br><b>%2</b><br>的連線是有效的。</qt>"
 
-#: quantacore/quantacorepart.cpp:123
+#: quantacore/quantacorepart.cpp:121
 msgid "&Quanta Homepage"
 msgstr "&Quanta 主頁"
 
-#: quantacore/quantacorepart.cpp:127
+#: quantacore/quantacorepart.cpp:125
 msgid "&User Mailing List"
 msgstr "用戶求助郵件列表(&U)"
 
-#: quantacore/quantacorepart.cpp:131
+#: quantacore/quantacorepart.cpp:129
 msgid "Make &Donation"
 msgstr "捐獻(&D)"
 
-#: quantacore/quantacorepart.cpp:135
+#: quantacore/quantacorepart.cpp:133
 msgid "Complete Text"
 msgstr "完整文字"
 
-#: quantacore/quantacorepart.cpp:140
+#: quantacore/quantacorepart.cpp:138
 #, fuzzy
 msgid "Show Completion Hints"
 msgstr "補完提示"
 
-#: quantacore/quantacorepart.cpp:145
+#: quantacore/quantacorepart.cpp:143
 msgid "Insert &Tag"
 msgstr "插入標籤(&T)"
 
-#: quantacore/quantacorepart.cpp:153
+#: quantacore/quantacorepart.cpp:151
 #, fuzzy
 msgid "&Change the DTEP..."
 msgstr "更換 DTD (&C)..."
 
-#: quantacore/quantacorepart.cpp:424
+#: quantacore/quantacorepart.cpp:426
 #, fuzzy
 msgid ".unsaved"
 msgstr "文件已儲存"
 
-#: quantacore/quantacorepart.cpp:439
+#: quantacore/quantacorepart.cpp:441
 #, fuzzy
 msgid "DTEP Selector"
 msgstr "DTD 選擇器"
 
-#: quantacore/quantacorepart.cpp:469
+#: quantacore/quantacorepart.cpp:471
 msgid "Change the current DTD."
 msgstr "更換目前的 DTD。"
 
-#: quantacore/dtds.cpp:658
+#: quantacore/dtds.cpp:660
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
@@ -9728,16 +9726,16 @@ msgid ""
 msgstr ""
 "<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
 
-#: quantacore/dtds.cpp:659
+#: quantacore/dtds.cpp:661
 msgid "Invalid Tag File"
 msgstr "無效的標籤檔案"
 
-#: quantacore/dtds.cpp:883 quantacore/dtds.cpp:915
+#: quantacore/dtds.cpp:885 quantacore/dtds.cpp:917
 #, kde-format
 msgid "<qt>Do you want to replace the existing <b>%1</b> DTD?</qt>"
 msgstr "<qt>您要取代目前的 <b>%1</b> DTD 嗎?</qt>"
 
-#: quantacore/dtds.cpp:922
+#: quantacore/dtds.cpp:924
 #, kde-format
 msgid ""
 "<qt>Cannot read the DTEP from <b>%1</b>. Check that the folder contains a "
@@ -9746,11 +9744,11 @@ msgstr ""
 "<qt>無法從 <b>%1</b> 讀取 DTEP。請檢查該目錄包含一個有效的 DTEP "
 "(<i>description.rc 及 *.tag 檔案</i>)。</qt>"
 
-#: quantacore/dtds.cpp:922
+#: quantacore/dtds.cpp:924
 msgid "Error Loading DTEP"
 msgstr "載入 DTEP 時發生錯誤"
 
-#: quantacore/dtds.cpp:926
+#: quantacore/dtds.cpp:928
 #, fuzzy, kde-format
 msgid "<qt>Autoload the <b>%1</b> DTD in the feature?</qt>"
 msgstr "<qt>以後自動載入 <b>%1</b> DTD 嗎?</qt>"
@@ -9778,33 +9776,9 @@ msgstr "<qt>解析 DTD 時發生錯誤。<br>錯誤訊息為：<br><i>%1</i></qt
 msgid "No elements were found in the DTD."
 msgstr "DTD 中找不到任何元素。"
 
-#: quantacore/parsers/parsercommon.cpp:163
-#, kde-format
-msgid "[%1]"
-msgstr ""
-
-#: quantacore/parsers/dombuilder.cpp:79
-#, fuzzy
-msgid "Unable to create a CDATA element!"
-msgstr "無法建立檔案來上傳。"
-
-#: quantacore/parsers/dombuilder.cpp:111
-msgid "Unable to append a text node!"
-msgstr ""
-
-#: quantacore/parsers/dombuilder.cpp:183
+#: quantacore/parsers/dombuilder.cpp:182
 #, fuzzy
 msgid "Unable to create an empty element!"
-msgstr "無法建立檔案來上傳。"
-
-#: quantacore/parsers/dombuilder.cpp:214
-#, fuzzy
-msgid "Unable to create an element: DOMException !"
-msgstr "無法建立檔案來上傳。"
-
-#: quantacore/parsers/dombuilder.cpp:220
-#, fuzzy
-msgid "Unable to create an element!"
 msgstr "無法建立檔案來上傳。"
 
 #: quantacore/parsers/statemachine.cpp:47
@@ -10479,12 +10453,12 @@ msgstr ""
 "|圖片檔案\n"
 "*|所有檔案"
 
-#: plugins/tagdialogs/tagdialog.cpp:135 plugins/tagdialogs/tagdialog.cpp:153
-#: plugins/tagdialogs/tagdialog.cpp:351 plugins/tagdialogs/tagdialog.cpp:436
+#: plugins/tagdialogs/tagdialog.cpp:134 plugins/tagdialogs/tagdialog.cpp:152
+#: plugins/tagdialogs/tagdialog.cpp:352 plugins/tagdialogs/tagdialog.cpp:438
 msgid "Unknown tag"
 msgstr "未知的標籤"
 
-#: plugins/tagdialogs/tagdialog.cpp:145
+#: plugins/tagdialogs/tagdialog.cpp:144
 msgid "Tag Properties: "
 msgstr "標籤屬性："
 
@@ -10710,64 +10684,26 @@ msgid ""
 ".%1"
 msgstr ""
 
-#: plugins/structuretree/structuretreepart.cpp:61
+#: plugins/structuretree/structuretreepart.cpp:60
 #, fuzzy
 msgid "Structure Tree"
 msgstr "結構結束:"
 
-#: plugins/structuretree/structuretreepart.cpp:64
+#: plugins/structuretree/structuretreepart.cpp:63
 msgid ""
 "Displays the structure of the current document. Manipulation of the document "
 "is also possible."
 msgstr ""
 
-#: plugins/structuretree/structuretreepart.cpp:94
+#: plugins/structuretree/structuretreepart.cpp:96
 #, fuzzy
 msgid "Groups"
 msgstr "組別："
 
-#: plugins/structuretree/structuretreepart.cpp:95
+#: plugins/structuretree/structuretreepart.cpp:97
 #, fuzzy
 msgid "Document"
 msgstr "文件"
-
-#: plugins/structuretree/structuretreewidget.cpp:155
-#: plugins/structuretree/groupswidget.cpp:158
-msgid "Select Tag Area"
-msgstr "選擇標籤區域"
-
-#: plugins/structuretree/structuretreewidget.cpp:156
-msgid "Go to End of Tag"
-msgstr "前往標籤結尾"
-
-#: plugins/structuretree/structuretreewidget.cpp:165
-msgid "Open Subtrees"
-msgstr "開啟子樹狀"
-
-#: plugins/structuretree/structuretreewidget.cpp:166
-msgid "Close Subtrees"
-msgstr "關閉子樹狀"
-
-#: plugins/structuretree/structuretreewidget.cpp:168
-msgid "Follow Cursor"
-msgstr "跟著游標"
-
-#: plugins/structuretree/structtreeitem.cpp:171
-#, fuzzy
-msgid "Whitespace"
-msgstr "空白"
-
-#: plugins/structuretree/groupswidget.cpp:150
-msgid "Show Groups For"
-msgstr "對此顯示組別"
-
-#: plugins/structuretree/groupswidget.cpp:151
-msgid "All Present DTEP"
-msgstr ""
-
-#: plugins/structuretree/groupswidget.cpp:167
-msgid "Open File"
-msgstr "開啟檔案"
 
 #: plugins/upload/uploaddialog.cpp:47
 msgid "&Upload"
@@ -11102,6 +11038,43 @@ msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
 #, kde-format
 msgid "<qt>Cannot access the project file <b>%1</b>.</qt>"
 msgstr "<qt>無法存取專案檔案 <b>%1</b>。</qt>"
+
+#, fuzzy
+#~ msgid "Unable to create a CDATA element!"
+#~ msgstr "無法建立檔案來上傳。"
+
+#, fuzzy
+#~ msgid "Unable to create an element: DOMException !"
+#~ msgstr "無法建立檔案來上傳。"
+
+#, fuzzy
+#~ msgid "Unable to create an element!"
+#~ msgstr "無法建立檔案來上傳。"
+
+#~ msgid "Select Tag Area"
+#~ msgstr "選擇標籤區域"
+
+#~ msgid "Go to End of Tag"
+#~ msgstr "前往標籤結尾"
+
+#~ msgid "Open Subtrees"
+#~ msgstr "開啟子樹狀"
+
+#~ msgid "Close Subtrees"
+#~ msgstr "關閉子樹狀"
+
+#~ msgid "Follow Cursor"
+#~ msgstr "跟著游標"
+
+#, fuzzy
+#~ msgid "Whitespace"
+#~ msgstr "空白"
+
+#~ msgid "Show Groups For"
+#~ msgstr "對此顯示組別"
+
+#~ msgid "Open File"
+#~ msgstr "開啟檔案"
 
 #, fuzzy
 #~| msgid "Submit"
