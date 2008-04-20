@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-18 11:59+0200\n"
+"POT-Creation-Date: 2008-04-19 21:57+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -284,6 +284,16 @@ msgstr "已延遲"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
+
+#: core/linkimporter.cpp:63
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while writing file:\n"
+#| "%1"
+msgid "Erro trying to get %1"
+msgstr ""
+"寫入檔案時發生錯誤：\n"
+"%1"
 
 #: core/kget.cpp:181
 #, fuzzy
@@ -1582,12 +1592,12 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:221 mainwindow.cpp:777
+#: ui/droptarget.cpp:221 mainwindow.cpp:806
 #, fuzzy
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: ui/droptarget.cpp:222 mainwindow.cpp:778
+#: ui/droptarget.cpp:222 mainwindow.cpp:807
 #, fuzzy
 msgid "&Load transferlist"
 msgstr "開啟傳輸："
@@ -1656,74 +1666,44 @@ msgstr "下載已續傳"
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
 
-#: extensions/konqueror/kget_linkview.h:85
+#: ui/linkview/kget_linkview.h:100
 msgctxt "filter: show all file types"
 msgid "All"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.h:86
+#: ui/linkview/kget_linkview.h:101
 msgid "Videos"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.h:87
+#: ui/linkview/kget_linkview.h:102
 msgid "Audio"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.h:88
+#: ui/linkview/kget_linkview.h:103
 msgid "Archives"
 msgstr ""
 
-#: extensions/konqueror/kget_plug_in.cpp:44
-#, fuzzy
-msgid "Download Manager"
-msgstr "下載管理員"
-
-#: extensions/konqueror/kget_plug_in.cpp:51 mainwindow.cpp:256
-#, fuzzy
-#| msgid "Show Drop &Target"
-msgid "Show Drop Target"
-msgstr "顯示拖放目標(&T)"
-
-#: extensions/konqueror/kget_plug_in.cpp:58
-msgid "List All Links"
-msgstr "列出所有連結"
-
-#: extensions/konqueror/kget_plug_in.cpp:63
-#, fuzzy
-#| msgid "List All Links"
-msgid "List Selected Links"
-msgstr "列出所有連結"
-
-#: extensions/konqueror/kget_plug_in.cpp:198
-msgid "There are no links in the active frame of the current HTML page."
-msgstr "在目前網頁的頁框中沒有連結。"
-
-#: extensions/konqueror/kget_plug_in.cpp:199
-msgid "No Links"
-msgstr "沒有連結"
-
-#: extensions/konqueror/kget_linkview.cpp:40 main.cpp:113 mainwindow.cpp:83
+#: ui/linkview/kget_linkview.cpp:48 main.cpp:113 mainwindow.cpp:84
 msgid "KGet"
 msgstr "KGet"
 
-#: extensions/konqueror/kget_linkview.cpp:62
+#: ui/linkview/kget_linkview.cpp:70
 msgid "Filter files here..."
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:73
+#: ui/linkview/kget_linkview.cpp:81
 msgid "Show:"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:90
-#: extensions/konqueror/kget_linkview.cpp:247
+#: ui/linkview/kget_linkview.cpp:113 ui/linkview/kget_linkview.cpp:282
 msgid "Select all"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:91
+#: ui/linkview/kget_linkview.cpp:114
 msgid "Show web content"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:92
+#: ui/linkview/kget_linkview.cpp:115
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download checked"
@@ -1731,42 +1711,71 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/scandlg.ui line 183
-#: extensions/konqueror/kget_linkview.cpp:94 rc.cpp:207
+#: ui/linkview/kget_linkview.cpp:117 rc.cpp:207
 msgid "Cancel"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:130
+#: ui/linkview/kget_linkview.cpp:158
 msgid "Auxiliar header"
 msgstr ""
 
-#: extensions/konqueror/kget_linkview.cpp:131
+#: ui/linkview/kget_linkview.cpp:159
 #, fuzzy
 #| msgid "Local File Name"
 msgid "File Name"
 msgstr "本機檔案名稱"
 
-#: extensions/konqueror/kget_linkview.cpp:132
+#: ui/linkview/kget_linkview.cpp:160
 msgid "Description"
 msgstr "說明"
 
-#: extensions/konqueror/kget_linkview.cpp:133
+#: ui/linkview/kget_linkview.cpp:161
 #, fuzzy
 msgctxt "list header: type of file"
 msgid "File Type"
 msgstr "檔案類型"
 
-#: extensions/konqueror/kget_linkview.cpp:134
+#: ui/linkview/kget_linkview.cpp:162
 msgid "Location (URL)"
 msgstr "地點 (URL)"
 
-#: extensions/konqueror/kget_linkview.cpp:195
+#: ui/linkview/kget_linkview.cpp:216
 #, kde-format
 msgid "Links in: %1 - KGet"
 msgstr "%1 中的連結 - KGet"
 
-#: extensions/konqueror/kget_linkview.cpp:247
+#: ui/linkview/kget_linkview.cpp:282
 msgid "Select all filtered"
 msgstr ""
+
+#: extensions/konqueror/kget_plug_in.cpp:43
+#, fuzzy
+msgid "Download Manager"
+msgstr "下載管理員"
+
+#: extensions/konqueror/kget_plug_in.cpp:50 mainwindow.cpp:257
+#, fuzzy
+#| msgid "Show Drop &Target"
+msgid "Show Drop Target"
+msgstr "顯示拖放目標(&T)"
+
+#: extensions/konqueror/kget_plug_in.cpp:57
+msgid "List All Links"
+msgstr "列出所有連結"
+
+#: extensions/konqueror/kget_plug_in.cpp:62
+#, fuzzy
+#| msgid "List All Links"
+msgid "List Selected Links"
+msgstr "列出所有連結"
+
+#: extensions/konqueror/kget_plug_in.cpp:197
+msgid "There are no links in the active frame of the current HTML page."
+msgstr "在目前網頁的頁框中沒有連結。"
+
+#: extensions/konqueror/kget_plug_in.cpp:198
+msgid "No Links"
+msgstr "沒有連結"
 
 #: main.cpp:114
 msgid "An advanced download manager for KDE"
@@ -1873,40 +1882,40 @@ msgstr "使用拖放目標模式啟動 KGet"
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
 
-#: mainwindow.cpp:117
+#: mainwindow.cpp:118
 msgid "&New Download..."
 msgstr ""
 
-#: mainwindow.cpp:123
+#: mainwindow.cpp:124
 #, fuzzy
 #| msgid "&Import Transfer List..."
 msgid "&Import Transfers..."
 msgstr "匯入傳輸列表(&I)..."
 
-#: mainwindow.cpp:129
+#: mainwindow.cpp:130
 #, fuzzy
 msgid "&Export Transfers List..."
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:135
+#: mainwindow.cpp:136
 msgid "Delete Group"
 msgstr ""
 
-#: mainwindow.cpp:140
+#: mainwindow.cpp:141
 #, fuzzy
 msgid "Rename Group"
 msgstr "預設的資料夾"
 
-#: mainwindow.cpp:145
+#: mainwindow.cpp:146
 msgid "Set Icon"
 msgstr ""
 
-#: mainwindow.cpp:150
+#: mainwindow.cpp:151
 #, fuzzy
 msgid "Auto-Paste Mode"
 msgstr "自動貼上模式(&T)"
 
-#: mainwindow.cpp:153
+#: mainwindow.cpp:154
 #, fuzzy
 msgid ""
 "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
@@ -1919,91 +1928,97 @@ msgstr ""
 "當啟動了這項功能， KGet 將會週期性地掃描剪貼簿上的\n"
 "URL 並且自動地貼上這些 URL 。"
 
-#: mainwindow.cpp:159
+#: mainwindow.cpp:160
 #, fuzzy
 msgid "Use KGet as Konqueror Download Manager"
 msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:183
 #, fuzzy
 msgctxt "delete selected transfer item"
 msgid "Delete Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:188
+#: mainwindow.cpp:189
 msgctxt "delete all finished transfers"
 msgid "Delete all finished"
 msgstr ""
 
-#: mainwindow.cpp:193
+#: mainwindow.cpp:194
 #, fuzzy
 #| msgid "Download finished"
 msgctxt "redownload selected transfer item"
 msgid "Redownload Selected"
 msgstr "完成下載"
 
-#: mainwindow.cpp:198
+#: mainwindow.cpp:199
 msgid "Start / Resume All"
 msgstr ""
 
-#: mainwindow.cpp:204
+#: mainwindow.cpp:205
 #, fuzzy
 msgid "Start / Resume Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:209
+#: mainwindow.cpp:210
 msgid "Stop All"
 msgstr ""
 
-#: mainwindow.cpp:215
+#: mainwindow.cpp:216
 #, fuzzy
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:219
+#: mainwindow.cpp:220
 msgid "Start / Resume"
 msgstr ""
 
-#: mainwindow.cpp:227
+#: mainwindow.cpp:228
 #, fuzzy
 msgid "Stop"
 msgstr "已停止"
 
-#: mainwindow.cpp:236
+#: mainwindow.cpp:237
 #, fuzzy
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:241 mainwindow.cpp:372
+#: mainwindow.cpp:242 mainwindow.cpp:379
 #, fuzzy
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:246
+#: mainwindow.cpp:247
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:251
+#: mainwindow.cpp:252
 #, fuzzy
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:262
+#: mainwindow.cpp:263
 #, fuzzy
 msgid "&Transfer History"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:268
+#: mainwindow.cpp:269
 msgid "&Group Settings"
 msgstr ""
 
-#: mainwindow.cpp:274
+#: mainwindow.cpp:275
 #, fuzzy
 msgid "&Transfer Settings"
 msgstr " 傳輸： %1"
 
-#: mainwindow.cpp:313
+#: mainwindow.cpp:281
+#, fuzzy
+#| msgid "List All Links"
+msgid "&List Links"
+msgstr "列出所有連結"
+
+#: mainwindow.cpp:320
 #, fuzzy
 #| msgid ""
 #| "This is the first time that you have run KGet.\n"
@@ -2015,24 +2030,24 @@ msgstr ""
 "這是你第一次執行 KGet 。\n"
 "要 KGet 成為 Konqueror 的下載管理員嗎？"
 
-#: mainwindow.cpp:315
+#: mainwindow.cpp:322
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror 整合"
 
-#: mainwindow.cpp:315
+#: mainwindow.cpp:322
 msgid "Enable"
 msgstr "啟用"
 
-#: mainwindow.cpp:316
+#: mainwindow.cpp:323
 msgid "Do Not Enable"
 msgstr "不啟用"
 
-#: mainwindow.cpp:371
+#: mainwindow.cpp:378
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:388
+#: mainwindow.cpp:395
 #, fuzzy
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -2044,38 +2059,38 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:390
+#: mainwindow.cpp:397
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:423
+#: mainwindow.cpp:430
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:425
+#: mainwindow.cpp:432
 #, fuzzy
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:448
+#: mainwindow.cpp:455
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:449
+#: mainwindow.cpp:456
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:689
+#: mainwindow.cpp:696
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:692
+#: mainwindow.cpp:699
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror 整合"
@@ -2955,26 +2970,26 @@ msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 14
+#. i18n: file ui/kgetui.rc line 15
 #: rc.cpp:479
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 24
+#. i18n: file ui/kgetui.rc line 25
 #: rc.cpp:482
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 36
+#. i18n: file ui/kgetui.rc line 37
 #: rc.cpp:485
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 39
+#. i18n: file ui/kgetui.rc line 40
 #: rc.cpp:488
 msgid "Main Toolbar"
 msgstr ""
