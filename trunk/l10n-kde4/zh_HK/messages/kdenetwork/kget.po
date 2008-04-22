@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-19 21:57+0200\n"
+"POT-Creation-Date: 2008-04-21 20:10+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -290,7 +290,7 @@ msgstr "已完成"
 #| msgid ""
 #| "Error while writing file:\n"
 #| "%1"
-msgid "Erro trying to get %1"
+msgid "Error trying to get %1"
 msgstr ""
 "寫入檔案時發生錯誤：\n"
 "%1"
@@ -1666,44 +1666,50 @@ msgstr "下載已續傳"
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
 
-#: ui/linkview/kget_linkview.h:100
+#: ui/linkview/kget_linkview.h:102
 msgctxt "filter: show all file types"
 msgid "All"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:101
+#: ui/linkview/kget_linkview.h:103
 msgid "Videos"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:102
+#: ui/linkview/kget_linkview.h:104
 msgid "Audio"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:103
+#: ui/linkview/kget_linkview.h:105
 msgid "Archives"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:48 main.cpp:113 mainwindow.cpp:84
-msgid "KGet"
-msgstr "KGet"
+#: ui/linkview/kget_linkview.cpp:49
+#, fuzzy
+#| msgid "No Links"
+msgid "Import Links"
+msgstr "沒有連結"
 
-#: ui/linkview/kget_linkview.cpp:70
+#: ui/linkview/kget_linkview.cpp:71
 msgid "Filter files here..."
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:81
+#: ui/linkview/kget_linkview.cpp:82
 msgid "Show:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:113 ui/linkview/kget_linkview.cpp:282
+#: ui/linkview/kget_linkview.cpp:93
+msgid "File with links to import:"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:122 ui/linkview/kget_linkview.cpp:291
 msgid "Select all"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:114
+#: ui/linkview/kget_linkview.cpp:123
 msgid "Show web content"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:115
+#: ui/linkview/kget_linkview.cpp:124
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download checked"
@@ -1711,40 +1717,40 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/scandlg.ui line 183
-#: ui/linkview/kget_linkview.cpp:117 rc.cpp:207
+#: ui/linkview/kget_linkview.cpp:126 rc.cpp:207
 msgid "Cancel"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:158
+#: ui/linkview/kget_linkview.cpp:167
 msgid "Auxiliar header"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:159
+#: ui/linkview/kget_linkview.cpp:168
 #, fuzzy
 #| msgid "Local File Name"
 msgid "File Name"
 msgstr "本機檔案名稱"
 
-#: ui/linkview/kget_linkview.cpp:160
+#: ui/linkview/kget_linkview.cpp:169
 msgid "Description"
 msgstr "說明"
 
-#: ui/linkview/kget_linkview.cpp:161
+#: ui/linkview/kget_linkview.cpp:170
 #, fuzzy
 msgctxt "list header: type of file"
 msgid "File Type"
 msgstr "檔案類型"
 
-#: ui/linkview/kget_linkview.cpp:162
+#: ui/linkview/kget_linkview.cpp:171
 msgid "Location (URL)"
 msgstr "地點 (URL)"
 
-#: ui/linkview/kget_linkview.cpp:216
+#: ui/linkview/kget_linkview.cpp:225
 #, kde-format
 msgid "Links in: %1 - KGet"
 msgstr "%1 中的連結 - KGet"
 
-#: ui/linkview/kget_linkview.cpp:282
+#: ui/linkview/kget_linkview.cpp:291
 msgid "Select all filtered"
 msgstr ""
 
@@ -1776,6 +1782,10 @@ msgstr "在目前網頁的頁框中沒有連結。"
 #: extensions/konqueror/kget_plug_in.cpp:198
 msgid "No Links"
 msgstr "沒有連結"
+
+#: main.cpp:113 mainwindow.cpp:84
+msgid "KGet"
+msgstr "KGet"
 
 #: main.cpp:114
 msgid "An advanced download manager for KDE"
@@ -2014,9 +2024,9 @@ msgstr " 傳輸： %1"
 
 #: mainwindow.cpp:281
 #, fuzzy
-#| msgid "List All Links"
-msgid "&List Links"
-msgstr "列出所有連結"
+#| msgid "No Links"
+msgid "Import &Links"
+msgstr "沒有連結"
 
 #: mainwindow.cpp:320
 #, fuzzy
@@ -2999,6 +3009,11 @@ msgstr ""
 #: rc.cpp:491
 msgid "&Tools"
 msgstr ""
+
+#, fuzzy
+#~| msgid "List All Links"
+#~ msgid "&List Links"
+#~ msgstr "列出所有連結"
 
 #, fuzzy
 #~| msgid ""
