@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kommander\n"
-"POT-Creation-Date: 2008-04-21 01:53+0200\n"
+"POT-Creation-Date: 2008-04-23 02:16+0200\n"
 "PO-Revision-Date: 2006-02-26 06:02+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1982,8 +1982,12 @@ msgid ""
 msgstr ""
 
 #: plugin/specialinformation.cpp:312
-msgid "Returns the index of an item with the given text."
-msgstr "傳回找到指定文字的項目的索引值。"
+msgid ""
+"Returns the index of an item with the given text. Defaults to case sensitive. "
+"Matching can be an exact match or match if it contains the string. Only the "
+"first argument is requred. If no column is given it will search the first by "
+"default."
+msgstr ""
 
 #: plugin/specialinformation.cpp:314
 msgid "Inserts new column (or <i>count</i> columns) at <i>column</i> position."
@@ -4775,20 +4779,24 @@ msgstr ""
 msgid "Set the timer timeout interval in ms."
 msgstr ""
 
-#: widgets/treewidget.cpp:63
+#: widgets/treewidget.cpp:64
 msgid "Add column at end with column header"
 msgstr ""
 
-#: widgets/treewidget.cpp:64
+#: widgets/treewidget.cpp:65
 msgid "Set sorting for a column"
 msgstr ""
 
-#: widgets/treewidget.cpp:67
+#: widgets/treewidget.cpp:68
 msgid "Get the column caption for column index"
 msgstr ""
 
-#: widgets/treewidget.cpp:68
+#: widgets/treewidget.cpp:69
 msgid "Set the pixel width for column index - use 0 to hide"
+msgstr ""
+
+#: widgets/treewidget.cpp:70
+msgid "Set to <i>left</i>, <i>right</i> or <i>center</i>, case insensitive "
 msgstr ""
 
 #: widgets/toolbox.cpp:39
@@ -4964,6 +4972,9 @@ msgstr ""
 #, fuzzy
 msgid "Kommander %{APPNAME} plugin."
 msgstr "加入 Kommander 外掛程式"
+
+#~ msgid "Returns the index of an item with the given text."
+#~ msgstr "傳回找到指定文字的項目的索引值。"
 
 #~ msgid "Text to be inserted"
 #~ msgstr "要插入的文字"
