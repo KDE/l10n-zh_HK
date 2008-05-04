@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-26 08:40+0200\n"
+"POT-Creation-Date: 2008-05-03 10:01+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:127 core/transfergrouphandler.cpp:192
+#: conf/transfersgroupwidget.cpp:127 core/transfergrouphandler.cpp:193
 #: core/kget.cpp:677
 #, fuzzy
 msgid "My Downloads"
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
-#: core/transferhandler.cpp:151 core/transfergrouphandler.cpp:128
+#: core/transferhandler.cpp:151 core/transfergrouphandler.cpp:129
 #: ui/transferdetails.cpp:95
 #, kde-format
 msgid "%1/s"
@@ -239,53 +239,53 @@ msgstr "KGet"
 msgid "KGet quits now because all downloads have been completed."
 msgstr "所有下載已完成。"
 
-#: core/transfergrouphandler.cpp:112
+#: core/transfergrouphandler.cpp:113
 #, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] ""
 
-#: core/transfergrouphandler.cpp:330
+#: core/transfergrouphandler.cpp:331
 #, fuzzy
 msgctxt "start transfergroup downloads"
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: core/transfergrouphandler.cpp:336
+#: core/transfergrouphandler.cpp:337
 #, fuzzy
 msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "已停止"
 
-#: core/transfer.cpp:45 core/transfer.cpp:107 core/transfer.cpp:174
+#: core/transfer.cpp:45 core/transfer.cpp:133 core/transfer.cpp:200
 #: transfer-plugins/kio/transferKio.cpp:57
 #: transfer-plugins/metalink/metalink.cpp:53
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:62
-#: transfer-plugins/bittorrent/bttransfer.cpp:256
+#: transfer-plugins/bittorrent/bttransfer.cpp:243
 #, fuzzy
 #| msgid "Stopped"
 msgctxt "transfer state: stopped"
 msgid "Stopped"
 msgstr "已停止"
 
-#: core/transfer.cpp:100
+#: core/transfer.cpp:126
 #, fuzzy
 #| msgid "Delayed"
 msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "已延遲"
 
-#: core/transfer.cpp:170 transfer-plugins/kio/transferKio.cpp:123
+#: core/transfer.cpp:196 transfer-plugins/kio/transferKio.cpp:123
 #: transfer-plugins/metalink/metalink.cpp:103
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:210
-#: transfer-plugins/bittorrent/bttransfer.cpp:253
+#: transfer-plugins/bittorrent/bttransfer.cpp:240
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/linkimporter.cpp:63
+#: core/linkimporter.cpp:64
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error while writing file:\n"
@@ -665,12 +665,12 @@ msgid "Cannot remove webseed %s, it is part of the torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:75
-#: transfer-plugins/bittorrent/bttransfer.cpp:211
+#: transfer-plugins/bittorrent/bttransfer.cpp:198
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:92
-#: transfer-plugins/bittorrent/bttransfer.cpp:217
+#: transfer-plugins/bittorrent/bttransfer.cpp:204
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -803,18 +803,18 @@ msgstr "開啟檔案(&F)"
 msgid "Downloading Torrent-File.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:236
+#: transfer-plugins/bittorrent/bttransfer.cpp:223
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:300
+#: transfer-plugins/bittorrent/bttransfer.cpp:287
 #, fuzzy
 msgid "Analyzing torrent.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:373
+#: transfer-plugins/bittorrent/bttransfer.cpp:360
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
@@ -1701,7 +1701,7 @@ msgstr ""
 msgid "File with links to import:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:122 ui/linkview/kget_linkview.cpp:291
+#: ui/linkview/kget_linkview.cpp:122 ui/linkview/kget_linkview.cpp:294
 msgid "Select all"
 msgstr ""
 
@@ -1750,7 +1750,7 @@ msgstr "地點 (URL)"
 msgid "Links in: %1 - KGet"
 msgstr "%1 中的連結 - KGet"
 
-#: ui/linkview/kget_linkview.cpp:291
+#: ui/linkview/kget_linkview.cpp:294
 msgid "Select all filtered"
 msgstr ""
 
