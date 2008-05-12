@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-09 09:50+0200\n"
+"POT-Creation-Date: 2008-05-12 08:03+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -554,11 +554,11 @@ msgstr "你未獲授權執行以下指令「%1」。"
 msgid "Command Error"
 msgstr "指令錯誤"
 
-#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1043
+#: libkopete/kopeteawayaction.cpp:75 kopete/kopetewindow.cpp:1045
 msgid "No Message"
 msgstr "沒有訊息"
 
-#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1037
+#: libkopete/kopeteawayaction.cpp:76 kopete/kopetewindow.cpp:1039
 msgid "New Message..."
 msgstr "新訊息..."
 
@@ -1108,20 +1108,20 @@ msgstr "上線時間:"
 msgid "Last Seen"
 msgstr "上次上線"
 
-#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:1013
+#: libkopete/kopeteglobal.cpp:153 kopete/kopetewindow.cpp:1015
 #: protocols/meanwhile/meanwhileprotocol.cpp:62
 msgid "Status Message"
 msgstr "狀態訊息"
 
 #: libkopete/kopeteglobal.cpp:159
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:59
-#: protocols/groupwise/ui/gwsearch.cpp:93
+#: protocols/groupwise/ui/gwsearch.cpp:103
 msgid "First Name"
 msgstr "名"
 
 #: libkopete/kopeteglobal.cpp:165
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:60
-#: protocols/groupwise/ui/gwsearch.cpp:96
+#: protocols/groupwise/ui/gwsearch.cpp:106
 msgid "Last Name"
 msgstr "姓"
 
@@ -1288,7 +1288,7 @@ msgstr "加入聯絡人(&A)"
 #. i18n: file ./protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui line 22
 #. i18n: tag string
 #. i18n: file ./protocols/yahoo/ui/yahooinvitelistbase.ui line 173
-#: kopete/kopetewindow.cpp:310 kopete/kopetewindow.cpp:1023
+#: kopete/kopetewindow.cpp:310 kopete/kopetewindow.cpp:1025
 #: kopete/contactlist/kopetecontactlistview.cpp:1080
 #: kopete/contactlist/kopetecontactlistview.cpp:1096
 #: kopete/contactlist/kopetecontactlistview.cpp:1566 rc.cpp:1383 rc.cpp:1659
@@ -1326,7 +1326,7 @@ msgstr "設定狀態(&S)"
 #. i18n: tag string
 #. i18n: file ./protocols/gadu/ui/gaduawayui.ui line 62
 #: kopete/kopetewindow.cpp:347 rc.cpp:523 rc.cpp:1053 rc.cpp:1074 rc.cpp:3023
-#: protocols/groupwise/ui/gwsearch.cpp:90
+#: protocols/groupwise/ui/gwsearch.cpp:100
 msgid "Status"
 msgstr "狀態"
 
@@ -1348,70 +1348,56 @@ msgstr "顯示離線聯絡人(&U)"
 msgid "Show Empty &Groups"
 msgstr "顯示空的群組(&G)"
 
-#: kopete/kopetewindow.cpp:391
-#, fuzzy
-#| msgid "O&ffline"
-msgid "Hide O&ffline"
-msgstr "離線(&F)"
-
-#: kopete/kopetewindow.cpp:392
-msgid "Hide Offline &Users"
-msgstr "隱藏離線聯絡人(&U)"
-
-#: kopete/kopetewindow.cpp:393
-msgid "Hide Empty &Groups"
-msgstr "隱藏空的群組(&G)"
-
-#: kopete/kopetewindow.cpp:396
+#: kopete/kopetewindow.cpp:398
 msgid "Se&arch:"
 msgstr "搜尋(&A):"
 
 #. i18n: tag Text
 #. i18n: file ./kopete/kopeteui.rc line 54
-#: kopete/kopetewindow.cpp:400 rc.cpp:882
+#: kopete/kopetewindow.cpp:402 rc.cpp:882
 msgid "Quick Search Bar"
 msgstr "快速搜尋列"
 
 #. i18n: tag string
 #. i18n: file ./plugins/history/historyviewer.ui line 201
-#: kopete/kopetewindow.cpp:403 rc.cpp:1548
+#: kopete/kopetewindow.cpp:405 rc.cpp:1548
 msgid "Search:"
 msgstr "搜尋"
 
-#: kopete/kopetewindow.cpp:408
+#: kopete/kopetewindow.cpp:410
 #, fuzzy
 msgid "Set Status Message"
 msgstr "狀態訊息"
 
-#: kopete/kopetewindow.cpp:409
+#: kopete/kopetewindow.cpp:411
 #, fuzzy
 #| msgid "&Message:"
 msgid "&Message"
 msgstr "訊息(&M):"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 333
-#: kopete/kopetewindow.cpp:420 rc.cpp:5447
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 330
+#: kopete/kopetewindow.cpp:422 rc.cpp:5447
 msgid "Read Message"
 msgstr "閱讀訊息"
 
-#: kopete/kopetewindow.cpp:424
+#: kopete/kopetewindow.cpp:426
 msgid "Read the next pending message"
 msgstr "閱讀下個待處理的訊息"
 
-#: kopete/kopetewindow.cpp:426
+#: kopete/kopetewindow.cpp:428
 msgid "Show/Hide Contact List"
 msgstr "顯示/隱藏聯絡人清單"
 
-#: kopete/kopetewindow.cpp:430
+#: kopete/kopetewindow.cpp:432
 msgid "Show or hide the contact list"
 msgstr "顯示或隱藏聯絡人清單"
 
-#: kopete/kopetewindow.cpp:432
+#: kopete/kopetewindow.cpp:434
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:677
+#: kopete/kopetewindow.cpp:679
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1419,11 +1405,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:679
+#: kopete/kopetewindow.cpp:681
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:860
+#: kopete/kopetewindow.cpp:862
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1441,7 +1427,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1110
+#: kopete/kopetewindow.cpp:1112
 #: kopete/contactlist/kopetecontactlistview.cpp:1788
 msgid "Add Contact"
 msgstr "加入聯絡人"
@@ -5296,11 +5282,11 @@ msgstr "將照片和通訊錄同步化(&Y)"
 #. i18n: tag string
 #. i18n: file ./kopete/contactlist/kopetemetalvipropswidget.ui line 374
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 136
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 133
 #. i18n: tag string
 #. i18n: file ./kopete/contactlist/kopetemetalvipropswidget.ui line 374
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 136
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 133
 #: rc.cpp:1005 rc.cpp:5522
 msgid "Ad&vanced"
 msgstr "進階(&V)"
@@ -14233,64 +14219,64 @@ msgid "Default Access"
 msgstr "預設訊息"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 330
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 327
 #: rc.cpp:5444
 #, fuzzy
 msgid "General permission to read messages in the chatroom"
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 343
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 340
 #: rc.cpp:5450
 #, fuzzy
 msgid "General permission to write messages in the chatroom"
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 346
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 343
 #: rc.cpp:5453
 #, fuzzy
 msgid "Write Message"
 msgstr "未讀訊息"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 356
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 353
 #: rc.cpp:5456
 msgid "General permission to modify the chatroom's access control list"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 359
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 356
 #: rc.cpp:5459
 msgid "Modify Access"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 372
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 369
 #: rc.cpp:5462
 msgid "Access Control List"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 385
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 382
 #: rc.cpp:5465
 msgid "Access permissions for specific users"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 409
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 406
 #: rc.cpp:5468
 msgid "Add a new ACL entry"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 416
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 413
 #: rc.cpp:5471
 msgid "Edit an existing ACL entry"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 423
+#. i18n: file ./protocols/groupwise/ui/gwchatprops.ui line 420
 #: rc.cpp:5474
 #, fuzzy
 msgid "Delete a ACL entry"
@@ -14347,37 +14333,37 @@ msgid "Add Using"
 msgstr "以此加入"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 89
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 86
 #: rc.cpp:5504
 msgid "A full or partial name. Asterisks are ignored"
 msgstr "全名或部份名稱。星號將被忽略"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 92
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 89
 #: rc.cpp:5507
 msgid "Type some or all of the contact's name.  Matches will be shown below"
 msgstr "鍵入聯絡人的部份或全部名稱。 符合的會在下面顯示"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 99
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 96
 #: rc.cpp:5510
 msgid "User &ID:"
 msgstr "用戶 &ID:"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 112
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 109
 #: rc.cpp:5513
 msgid "Userna&me:"
 msgstr "用戶名稱(&M):"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 122
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 119
 #: rc.cpp:5516
 msgid "A correct User ID"
 msgstr "正確的用戶 ID"
 
 #. i18n: tag string
-#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 125
+#. i18n: file ./protocols/groupwise/ui/gwaddui.ui line 122
 #: rc.cpp:5519
 msgid ""
 "Use this field to add a contact if you already know the user's exact User ID"
@@ -19873,80 +19859,80 @@ msgid "Please connect first."
 msgstr "請先連線。"
 
 #: protocols/jabber/jabberaccount.cpp:472
-#: protocols/groupwise/gwaccount.cpp:739
+#: protocols/groupwise/gwaccount.cpp:741
 msgid "The host name does not match the one in the certificate."
 msgstr "主機名稱和證書上的不符。"
 
 #: protocols/jabber/jabberaccount.cpp:476
-#: protocols/groupwise/gwaccount.cpp:743
+#: protocols/groupwise/gwaccount.cpp:745
 #, fuzzy
 msgid "The certificate is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:480
-#: protocols/groupwise/gwaccount.cpp:747
+#: protocols/groupwise/gwaccount.cpp:749
 msgid "No certificate was presented."
 msgstr "沒有證書。"
 
 #: protocols/jabber/jabberaccount.cpp:490
-#: protocols/groupwise/gwaccount.cpp:757
+#: protocols/groupwise/gwaccount.cpp:759
 msgid "The Certificate Authority rejected the certificate."
 msgstr "核證機關拒絕證書。"
 
 #: protocols/jabber/jabberaccount.cpp:494
-#: protocols/groupwise/gwaccount.cpp:761
+#: protocols/groupwise/gwaccount.cpp:763
 #, fuzzy
 msgid "The certificate is not trusted."
 msgstr "證書未被信任。"
 
 #: protocols/jabber/jabberaccount.cpp:498
-#: protocols/groupwise/gwaccount.cpp:765
+#: protocols/groupwise/gwaccount.cpp:767
 msgid "The signature is invalid."
 msgstr "簽署無效"
 
 #: protocols/jabber/jabberaccount.cpp:502
-#: protocols/groupwise/gwaccount.cpp:769
+#: protocols/groupwise/gwaccount.cpp:771
 msgid "The Certificate Authority is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:506
-#: protocols/groupwise/gwaccount.cpp:773
+#: protocols/groupwise/gwaccount.cpp:775
 msgid "Invalid certificate purpose."
 msgstr "無效的證書用途。"
 
 #: protocols/jabber/jabberaccount.cpp:510
-#: protocols/groupwise/gwaccount.cpp:777
+#: protocols/groupwise/gwaccount.cpp:779
 msgid "The certificate is self-signed."
 msgstr "證書是自簽署（self-signed）的。"
 
 #: protocols/jabber/jabberaccount.cpp:514
-#: protocols/groupwise/gwaccount.cpp:781
+#: protocols/groupwise/gwaccount.cpp:783
 msgid "The certificate has been revoked."
 msgstr "證書已被撤銷。"
 
 #: protocols/jabber/jabberaccount.cpp:518
-#: protocols/groupwise/gwaccount.cpp:785
+#: protocols/groupwise/gwaccount.cpp:787
 msgid "Maximum certificate chain length was exceeded."
 msgstr "超過證書串最大長度。"
 
 #: protocols/jabber/jabberaccount.cpp:522
-#: protocols/groupwise/gwaccount.cpp:789
+#: protocols/groupwise/gwaccount.cpp:791
 msgid "The certificate has expired."
 msgstr "證書已過期。"
 
 #: protocols/jabber/jabberaccount.cpp:526
-#: protocols/groupwise/gwaccount.cpp:793
+#: protocols/groupwise/gwaccount.cpp:795
 #, fuzzy
 msgid "The Certificate Authority has expired."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:530
-#: protocols/groupwise/gwaccount.cpp:797
+#: protocols/groupwise/gwaccount.cpp:799
 msgid "Validity is unknown."
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:541
-#: protocols/groupwise/gwaccount.cpp:808
+#: protocols/groupwise/gwaccount.cpp:810
 #, fuzzy, kde-format
 msgid ""
 "<qt><p>The identity and the certificate of server %1 could not be validated "
@@ -19955,7 +19941,7 @@ msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎
 
 #: protocols/jabber/jabberaccount.cpp:547
 #: protocols/jabber/jabberaccount.cpp:552
-#: protocols/groupwise/gwaccount.cpp:814 protocols/groupwise/gwaccount.cpp:819
+#: protocols/groupwise/gwaccount.cpp:816 protocols/groupwise/gwaccount.cpp:821
 #, kde-format
 msgid ""
 "<qt><p>The certificate of server %1 could not be validated for account %2: %"
@@ -20706,15 +20692,15 @@ msgstr ""
 msgid "Chatroom properties"
 msgstr "聯絡人屬性"
 
-#: protocols/groupwise/ui/gwsearch.cpp:99
+#: protocols/groupwise/ui/gwsearch.cpp:109
 msgid "User ID"
 msgstr "用戶 ID"
 
-#: protocols/groupwise/ui/gwsearch.cpp:323
+#: protocols/groupwise/ui/gwsearch.cpp:333
 msgid "Searching"
 msgstr "正在搜尋"
 
-#: protocols/groupwise/ui/gwsearch.cpp:389
+#: protocols/groupwise/ui/gwsearch.cpp:396
 #, kde-format
 msgid "1 matching user found"
 msgid_plural "%1 matching users found"
@@ -21000,7 +20986,7 @@ msgstr "GroupWise SSL 錯誤"
 
 #: protocols/groupwise/gwaccount.cpp:375
 #, kde-format
-msgctxt "Message Sending Failed"
+msgctxt "Message Sending Failed using the named local account"
 msgid ""
 "Kopete was not able to send the last message sent on account '%1'.\n"
 "If possible, please send the console output from Kopete to "
@@ -21010,14 +20996,15 @@ msgstr ""
 #: protocols/groupwise/gwaccount.cpp:375
 #, fuzzy, kde-format
 #| msgid "Unable to Connect '%1'"
+msgctxt "message sending failed using the named local account"
 msgid "Unable to Send Message on Account '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:591
+#: protocols/groupwise/gwaccount.cpp:593
 msgid "Conflicting Changes Made Offline"
 msgstr "離線時作了有衝突的更改"
 
-#: protocols/groupwise/gwaccount.cpp:591
+#: protocols/groupwise/gwaccount.cpp:593
 #, fuzzy
 #| msgid ""
 #| "A change happened to your GroupWise contact list while you were offline "
@@ -21027,7 +21014,7 @@ msgid ""
 "which was impossible to reconcile."
 msgstr "當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
 
-#: protocols/groupwise/gwaccount.cpp:664
+#: protocols/groupwise/gwaccount.cpp:666
 #, kde-format
 msgctxt "Error shown when connecting failed"
 msgid ""
@@ -21038,16 +21025,16 @@ msgstr ""
 "Kopete 無法連接『%1』帳號的 GroupWise Messenger 伺服器。\n"
 "請檢查你的伺服器及連接埠設置並重試。"
 
-#: protocols/groupwise/gwaccount.cpp:664
+#: protocols/groupwise/gwaccount.cpp:666
 #, kde-format
 msgid "Unable to Connect '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:826
+#: protocols/groupwise/gwaccount.cpp:828
 msgid "GroupWise Connection Certificate Problem"
 msgstr "GroupWise 連線證書問題"
 
-#: protocols/groupwise/gwaccount.cpp:876
+#: protocols/groupwise/gwaccount.cpp:878
 #, kde-format
 msgctxt ""
 "Prefix used for automatically generated auto-reply messages when the contact "
@@ -21055,34 +21042,34 @@ msgctxt ""
 msgid "Auto reply from %1: "
 msgstr "來自 %1 的自動回應: "
 
-#: protocols/groupwise/gwaccount.cpp:882
+#: protocols/groupwise/gwaccount.cpp:884
 #, kde-format
 msgctxt "Prefix used for broadcast messages"
 msgid "Broadcast message from %1: "
 msgstr "來自 %1 的廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:888
+#: protocols/groupwise/gwaccount.cpp:890
 #, kde-format
 msgctxt "Prefix used for system broadcast messages"
 msgid "System Broadcast message from %1: "
 msgstr "來自 %1 的系統廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:1264
+#: protocols/groupwise/gwaccount.cpp:1268
 #, kde-format
 msgid ""
 "The contact %1 could not be added to the contact list, with error message: %2"
 msgstr "聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
 
-#: protocols/groupwise/gwaccount.cpp:1266
+#: protocols/groupwise/gwaccount.cpp:1270
 msgid "Error Adding Contact"
 msgstr "加入聯絡人時發生錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:1310
+#: protocols/groupwise/gwaccount.cpp:1314
 #, kde-format
 msgid "Signed in as %1 Elsewhere"
 msgstr "如同別處般以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1310
+#: protocols/groupwise/gwaccount.cpp:1314
 #, kde-format
 msgctxt "The parameter is the user's own account id for this protocol"
 msgid ""
@@ -21090,20 +21077,31 @@ msgid ""
 "%1 elsewhere"
 msgstr "你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1423
+#: protocols/groupwise/gwaccount.cpp:1427
 #, kde-format
 msgid "%1 has been invited to join this conversation."
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/groupwise/gwaccount.cpp:1449
+#: protocols/groupwise/gwaccount.cpp:1453
 msgid "Enter Auto-Reply Message"
 msgstr "輸入自動回應訊息"
 
-#: protocols/groupwise/gwaccount.cpp:1450
+#: protocols/groupwise/gwaccount.cpp:1454
 msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
 msgstr "請輸入當你離開或忙碌時顯示給傳訊你的用戶的自動回應訊息"
+
+#, fuzzy
+#~| msgid "O&ffline"
+#~ msgid "Hide O&ffline"
+#~ msgstr "離線(&F)"
+
+#~ msgid "Hide Offline &Users"
+#~ msgstr "隱藏離線聯絡人(&U)"
+
+#~ msgid "Hide Empty &Groups"
+#~ msgstr "隱藏空的群組(&G)"
 
 #, fuzzy
 #~ msgid "Close &bubble automatically after"
