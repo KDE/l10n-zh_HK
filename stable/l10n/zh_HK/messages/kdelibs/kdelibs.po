@@ -23,7 +23,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2008-04-16 01:20+0200\n"
+"POT-Creation-Date: 2008-05-15 01:50+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -872,9 +872,9 @@ msgstr "關於(&B)"
 msgid "Untitled"
 msgstr "未命名"
 
-#: common_texts.cpp:67 kdecore/kapplication.cpp:1414
-#: kdecore/kapplication.cpp:2242 kdecore/kapplication.cpp:2277
-#: kdecore/kapplication.cpp:2548 kdecore/kapplication.cpp:2570
+#: common_texts.cpp:67 kdecore/kapplication.cpp:1417
+#: kdecore/kapplication.cpp:2245 kdecore/kapplication.cpp:2280
+#: kdecore/kapplication.cpp:2551 kdecore/kapplication.cpp:2573
 #: kdecore/kdebug.cpp:295 kdeui/kdialogbase.cpp:908 kdeui/kstdguiitem.cpp:99
 msgid "&OK"
 msgstr "確定(&O)"
@@ -2746,7 +2746,7 @@ msgid ""
 "and Arabic) to get proper widget layout."
 msgstr "LTR"
 
-#: kdecore/kapplication.cpp:1401
+#: kdecore/kapplication.cpp:1404
 msgid ""
 "There was an error setting up inter-process communications for KDE. The message "
 "returned by the system was:\n"
@@ -2756,7 +2756,7 @@ msgstr ""
 "系統所傳回的錯誤訊息是：\n"
 "\n"
 
-#: kdecore/kapplication.cpp:1405
+#: kdecore/kapplication.cpp:1408
 msgid ""
 "\n"
 "\n"
@@ -2766,23 +2766,23 @@ msgstr ""
 "\n"
 "請確定“dcopserver’程式在執行中!"
 
-#: kdecore/kapplication.cpp:1412
+#: kdecore/kapplication.cpp:1415
 msgid "DCOP communications error (%1)"
 msgstr "DCOP 通訊錯誤 (%1)"
 
-#: kdecore/kapplication.cpp:1430
+#: kdecore/kapplication.cpp:1433
 msgid "Use the X-server display 'displayname'"
 msgstr "使用 X-Server 顯示器‘displayname’。"
 
-#: kdecore/kapplication.cpp:1432
+#: kdecore/kapplication.cpp:1435
 msgid "Use the QWS display 'displayname'"
 msgstr "使用 QWS 顯示器‘displayname’。"
 
-#: kdecore/kapplication.cpp:1434
+#: kdecore/kapplication.cpp:1437
 msgid "Restore the application for the given 'sessionId'"
 msgstr "還原應用程式給指定的‘sessionId’。"
 
-#: kdecore/kapplication.cpp:1435
+#: kdecore/kapplication.cpp:1438
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -2790,7 +2790,7 @@ msgstr ""
 "導致此應用程式在 8-bit 顯示下\n"
 "安裝自己才能使用的色彩轉換表"
 
-#: kdecore/kapplication.cpp:1436
+#: kdecore/kapplication.cpp:1439
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -2800,11 +2800,11 @@ msgstr ""
 "如果應用程式使用 QApplication::ManyColor 的色彩規格，\n"
 "限制在 8-bit 顯示上使用的色數。"
 
-#: kdecore/kapplication.cpp:1437
+#: kdecore/kapplication.cpp:1440
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "通知 Qt 不要爭奪滑鼠或鍵盤。"
 
-#: kdecore/kapplication.cpp:1438
+#: kdecore/kapplication.cpp:1441
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -2812,15 +2812,15 @@ msgstr ""
 "在除錯器下執行可能會使其自動加上 -nograb，\n"
 "請用 -dograb 來覆蓋其效用。"
 
-#: kdecore/kapplication.cpp:1439
+#: kdecore/kapplication.cpp:1442
 msgid "switches to synchronous mode for debugging"
 msgstr "切換到同步模式以便除錯。"
 
-#: kdecore/kapplication.cpp:1441
+#: kdecore/kapplication.cpp:1444
 msgid "defines the application font"
 msgstr "定義應用程式字型。"
 
-#: kdecore/kapplication.cpp:1443
+#: kdecore/kapplication.cpp:1446
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -2829,29 +2829,29 @@ msgstr ""
 "設定預設背景顏色和應用程式調色盤\n"
 "(明暗會自動計算)。"
 
-#: kdecore/kapplication.cpp:1445
+#: kdecore/kapplication.cpp:1448
 msgid "sets the default foreground color"
 msgstr "設定預設前景顏色。"
 
-#: kdecore/kapplication.cpp:1447
+#: kdecore/kapplication.cpp:1450
 msgid "sets the default button color"
 msgstr "設定預設按鈕顏色。"
 
-#: kdecore/kapplication.cpp:1448
+#: kdecore/kapplication.cpp:1451
 msgid "sets the application name"
 msgstr "設定應用程式名稱。"
 
-#: kdecore/kapplication.cpp:1449
+#: kdecore/kapplication.cpp:1452
 msgid "sets the application title (caption)"
 msgstr "設定應用程式標題 (說明標題)。"
 
-#: kdecore/kapplication.cpp:1451
+#: kdecore/kapplication.cpp:1454
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
 msgstr "強制此應用程式在 8-bit 顯示時使用全彩 (TrueColor) 視覺效果。"
 
-#: kdecore/kapplication.cpp:1452
+#: kdecore/kapplication.cpp:1455
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -2860,75 +2860,75 @@ msgstr ""
 "設定 XIM (X Input Method) 輸入風格。可設的值為\n"
 "onthespot, overthespot, offthespot 和 root。"
 
-#: kdecore/kapplication.cpp:1453
+#: kdecore/kapplication.cpp:1456
 msgid "set XIM server"
 msgstr "設定 XIM 伺服器。"
 
-#: kdecore/kapplication.cpp:1454
+#: kdecore/kapplication.cpp:1457
 msgid "disable XIM"
 msgstr "停用 XIM。"
 
-#: kdecore/kapplication.cpp:1457
+#: kdecore/kapplication.cpp:1460
 msgid "forces the application to run as QWS Server"
 msgstr "強制應用程式作為 QWS 伺服器運作。"
 
-#: kdecore/kapplication.cpp:1459
+#: kdecore/kapplication.cpp:1462
 msgid "mirrors the whole layout of widgets"
 msgstr "複製整個視窗部件的配置樣式。"
 
-#: kdecore/kapplication.cpp:1465
+#: kdecore/kapplication.cpp:1468
 msgid "Use 'caption' as name in the titlebar"
 msgstr "使用「說明標題」作為標題列上的名稱。"
 
-#: kdecore/kapplication.cpp:1466
+#: kdecore/kapplication.cpp:1469
 msgid "Use 'icon' as the application icon"
 msgstr "使用「圖示」作為應用程式圖示。"
 
-#: kdecore/kapplication.cpp:1467
+#: kdecore/kapplication.cpp:1470
 msgid "Use 'icon' as the icon in the titlebar"
 msgstr "使用「圖示」作為標題列上的圖示。"
 
-#: kdecore/kapplication.cpp:1468
+#: kdecore/kapplication.cpp:1471
 msgid "Use alternative configuration file"
 msgstr "使用替代設定檔。"
 
-#: kdecore/kapplication.cpp:1469
+#: kdecore/kapplication.cpp:1472
 msgid "Use the DCOP Server specified by 'server'"
 msgstr "使用‘伺服器’所指定的 DCOP 伺服器。"
 
-#: kdecore/kapplication.cpp:1470
+#: kdecore/kapplication.cpp:1473
 msgid "Disable crash handler, to get core dumps"
 msgstr "停用當機控制程式以取得核心傾印 (core dumps)。"
 
-#: kdecore/kapplication.cpp:1471
+#: kdecore/kapplication.cpp:1474
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "等待 WM_NET 相容的視窗管理員。"
 
-#: kdecore/kapplication.cpp:1472
+#: kdecore/kapplication.cpp:1475
 msgid "sets the application GUI style"
 msgstr "設定應用程式的圖形介面風格。"
 
-#: kdecore/kapplication.cpp:1473
+#: kdecore/kapplication.cpp:1476
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument format"
 msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
 
-#: kdecore/kapplication.cpp:1513
+#: kdecore/kapplication.cpp:1516
 msgid ""
 "The style %1 was not found\n"
 msgstr ""
 "沒有找到 %1 風格\n"
 
-#: kdecore/kapplication.cpp:1975 kstyles/klegacy/klegacystyle.cpp:3044
+#: kdecore/kapplication.cpp:1978 kstyles/klegacy/klegacystyle.cpp:3044
 #: kstyles/web/webstyle.cpp:1604
 msgid "modified"
 msgstr "已修改"
 
-#: kdecore/kapplication.cpp:2241 kdecore/kapplication.cpp:2276
+#: kdecore/kapplication.cpp:2244 kdecore/kapplication.cpp:2279
 msgid "Could not Launch Help Center"
 msgstr "無法執行輔助中心"
 
-#: kdecore/kapplication.cpp:2242 kdecore/kapplication.cpp:2277
+#: kdecore/kapplication.cpp:2245 kdecore/kapplication.cpp:2280
 #, c-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -2939,11 +2939,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kapplication.cpp:2547
+#: kdecore/kapplication.cpp:2550
 msgid "Could not Launch Mail Client"
 msgstr "無法執行電子郵件客戶程式。"
 
-#: kdecore/kapplication.cpp:2548
+#: kdecore/kapplication.cpp:2551
 #, c-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -2954,11 +2954,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kapplication.cpp:2569
+#: kdecore/kapplication.cpp:2572
 msgid "Could not Launch Browser"
 msgstr "無法執行網頁瀏覽器"
 
-#: kdecore/kapplication.cpp:2570
+#: kdecore/kapplication.cpp:2573
 #, c-format
 msgid ""
 "Could not launch the browser:\n"
@@ -2969,13 +2969,13 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kapplication.cpp:2634
+#: kdecore/kapplication.cpp:2637
 msgid ""
 "Could not register with DCOP.\n"
 msgstr ""
 "無法在 DCOP 上登錄。\n"
 
-#: kdecore/kapplication.cpp:2669
+#: kdecore/kapplication.cpp:2672
 msgid ""
 "KLauncher could not be reached via DCOP.\n"
 msgstr ""
