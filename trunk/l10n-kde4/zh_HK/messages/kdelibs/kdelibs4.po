@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-23 10:50+0200\n"
+"POT-Creation-Date: 2008-05-25 11:00+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3479,7 +3479,7 @@ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:679
+#: kdecore/config/kconfig.cpp:677
 msgid "Please contact your system administrator."
 msgstr "請聯絡你的系統管理者。"
 
@@ -5964,24 +5964,24 @@ msgstr "重做"
 msgid "Undo"
 msgstr "復原"
 
-#: kdeui/util/ksystemtrayicon.cpp:130
+#: kdeui/util/ksystemtrayicon.cpp:133
 msgid "Minimize"
 msgstr "縮到最小"
 
-#: kdeui/util/ksystemtrayicon.cpp:189
+#: kdeui/util/ksystemtrayicon.cpp:192
 msgid "&Minimize"
 msgstr "縮到最小(&M)"
 
-#: kdeui/util/ksystemtrayicon.cpp:193
+#: kdeui/util/ksystemtrayicon.cpp:196
 msgid "&Restore"
 msgstr "還原(&R)"
 
-#: kdeui/util/ksystemtrayicon.cpp:213
+#: kdeui/util/ksystemtrayicon.cpp:216
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
-#: kdeui/util/ksystemtrayicon.cpp:216
+#: kdeui/util/ksystemtrayicon.cpp:219
 msgid "Confirm Quit From System Tray"
 msgstr "確定要離開系統列"
 
@@ -7322,10 +7322,9 @@ msgstr "下一頁(&N)"
 msgid "Choose..."
 msgstr "選擇..."
 
-#. i18n: Filtering message, so that translators can translate the
-#. font names on their own should they want. May be replaced in
-#. the future with conventional messages in a PO file.
-#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:58
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/kfontrequester.cpp:200 kdeui/fonts/fonthelpers.cpp:81
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font name"
@@ -7560,7 +7559,32 @@ msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/fonts/fonthelpers.cpp:60
+#. i18n: Generic sans serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:32
+msgctxt "@item Font name"
+msgid "Sans Serif"
+msgstr ""
+
+#. i18n: Generic serif font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:35
+#, fuzzy
+#| msgid "&Verify:"
+msgctxt "@item Font name"
+msgid "Serif"
+msgstr "確認(&V)："
+
+#. i18n: Generic monospace font presented in font choosers. When selected,
+#. the system will choose a real font, mandated by distro settings.
+#: kdeui/fonts/fonthelpers.cpp:38
+msgctxt "@item Font name"
+msgid "Monospace"
+msgstr ""
+
+#. i18n: Filter by which the translators can translate, or otherwise
+#. operate on the font names not put up for regular translation.
+#: kdeui/fonts/fonthelpers.cpp:85
 #, fuzzy, kde-format
 msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
@@ -11868,7 +11892,7 @@ msgstr "嚴重解析錯誤：%1，發生在第 %2 行，第 %3 列"
 msgid "XML parsing error"
 msgstr "XML 解析錯誤"
 
-#: khtml/xml/dom_docimpl.cpp:2208
+#: khtml/xml/dom_docimpl.cpp:2215
 msgid "Basic Page Style"
 msgstr "基本頁面風格"
 
