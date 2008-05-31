@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-25 11:04+0200\n"
+"POT-Creation-Date: 2008-05-31 05:45+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -463,7 +463,7 @@ msgstr "開啟檔案(&F)"
 #. i18n: file ui/history/transferhistory.ui line 120
 #: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
 #: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
-#: rc.cpp:473
+#: rc.cpp:463
 msgid "Size"
 msgstr ""
 
@@ -1591,7 +1591,7 @@ msgstr "來源："
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 247
 #. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 64
+#. i18n: file ui/transferdetailsfrm.ui line 43
 #: ui/transferdetails.cpp:38 rc.cpp:380 rc.cpp:416
 msgid "Saving to:"
 msgstr ""
@@ -1599,8 +1599,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 58
 #. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 143
-#: ui/transferdetails.cpp:39 rc.cpp:287 rc.cpp:425
+#. i18n: file ui/transferdetailsfrm.ui line 113
+#: ui/transferdetails.cpp:39 rc.cpp:287 rc.cpp:423
 msgid "Status:"
 msgstr ""
 
@@ -2582,7 +2582,7 @@ msgstr ""
 #. i18n: file ui/groupsettingsdialog.ui line 49
 #. i18n: tag string
 #. i18n: file ui/groupsettingsdialog.ui line 75
-#: rc.cpp:219 rc.cpp:225 rc.cpp:389 rc.cpp:395 rc.cpp:449 rc.cpp:455
+#: rc.cpp:219 rc.cpp:225 rc.cpp:389 rc.cpp:395 rc.cpp:439 rc.cpp:445
 msgid "KiB"
 msgstr ""
 
@@ -2851,7 +2851,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 240
 #. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 71
+#. i18n: file ui/transferdetailsfrm.ui line 50
 #: rc.cpp:377 rc.cpp:419
 #, fuzzy
 #| msgid "Source:"
@@ -2908,55 +2908,22 @@ msgid "Set as default folder"
 msgstr "預設的資料夾:"
 
 #. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 123
-#: rc.cpp:422
-msgid "<done> MiB of <todo> MiB"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 150
-#: rc.cpp:428
-msgid "<icon>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 157
-#: rc.cpp:431
-msgid "<status>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 183
-#: rc.cpp:434
-#, fuzzy
-msgid "<speed>"
-msgstr "速度"
-
-#. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 203
-#: rc.cpp:437
+#. i18n: file ui/transferdetailsfrm.ui line 164
+#: rc.cpp:429
 #, fuzzy
 #| msgid "Rem. Time"
 msgid "Remaining Time:"
 msgstr "剩下的時間"
 
 #. i18n: tag string
-#. i18n: file ui/transferdetailsfrm.ui line 210
-#: rc.cpp:440
-#, fuzzy
-#| msgid "Rem. Time"
-msgid "<remaining time>"
-msgstr "剩下的時間"
-
-#. i18n: tag string
 #. i18n: file ui/groupsettingsdialog.ui line 26
-#: rc.cpp:443
+#: rc.cpp:433
 msgid "Group-Settings"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/groupsettingsdialog.ui line 33
-#: rc.cpp:446
+#: rc.cpp:436
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum download speed"
@@ -2964,7 +2931,7 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file ui/groupsettingsdialog.ui line 59
-#: rc.cpp:452
+#: rc.cpp:442
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum upload speed"
@@ -2972,7 +2939,7 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file ui/groupsettingsdialog.ui line 85
-#: rc.cpp:458
+#: rc.cpp:448
 #, fuzzy
 #| msgid "Default Folder"
 msgid "Default folder:"
@@ -2980,13 +2947,13 @@ msgstr "預設的資料夾"
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 26
-#: rc.cpp:461
+#: rc.cpp:451
 msgid "Clear History"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 46
-#: rc.cpp:464
+#: rc.cpp:454
 #, fuzzy
 #| msgid "Offline mode"
 msgctxt "View modes"
@@ -2995,33 +2962,33 @@ msgstr "離線模式"
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 99
-#: rc.cpp:467
+#: rc.cpp:457
 msgid "Select ranges"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 115
-#: rc.cpp:470
+#: rc.cpp:460
 #, fuzzy
 msgid "Date"
 msgstr "重新開始(&S)"
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 125
-#: rc.cpp:476
+#: rc.cpp:466
 msgid "Host"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 136
-#: rc.cpp:479
+#: rc.cpp:469
 #, fuzzy
 msgid "Filter history"
 msgstr "開啟傳輸："
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 161
-#: rc.cpp:482
+#: rc.cpp:472
 #, fuzzy
 msgctxt "delete selected transfer"
 msgid "Delete Selected"
@@ -3029,48 +2996,57 @@ msgstr "沒有選擇檔案"
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 166
-#: rc.cpp:485
+#: rc.cpp:475
 #, fuzzy
 msgid "Download"
 msgstr "下載已續傳"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 4
-#: rc.cpp:488
+#: rc.cpp:478
 #, fuzzy
 msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 15
-#: rc.cpp:491
+#: rc.cpp:481
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 25
-#: rc.cpp:494
+#: rc.cpp:484
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 37
-#: rc.cpp:497
+#: rc.cpp:487
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ui/kgetui.rc line 40
-#: rc.cpp:500
+#: rc.cpp:490
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag Text
 #. i18n: file extensions/konqueror/kget_plug_in.rc line 4
-#: rc.cpp:503
+#: rc.cpp:493
 msgid "&Tools"
 msgstr ""
+
+#, fuzzy
+#~ msgid "<speed>"
+#~ msgstr "速度"
+
+#, fuzzy
+#~| msgid "Rem. Time"
+#~ msgid "<remaining time>"
+#~ msgstr "剩下的時間"
 
 #, fuzzy
 #~| msgid ""
