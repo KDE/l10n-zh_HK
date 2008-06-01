@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-31 05:45+0200\n"
+"POT-Creation-Date: 2008-06-01 12:03+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -191,7 +191,7 @@ msgstr ""
 msgid "%1 x %2 mm"
 msgstr ""
 
-#: core/document.cpp:779
+#: core/document.cpp:866
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -199,12 +199,12 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:842 core/document.cpp:943
+#: core/document.cpp:929 core/document.cpp:1030
 #, kde-format
 msgid "No matches found for '%1'."
 msgstr "找不到符合『%1』的。"
 
-#: core/document.cpp:880
+#: core/document.cpp:967
 #, fuzzy
 #| msgid ""
 #| "End of document reached.\n"
@@ -216,108 +216,108 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1318
+#: core/document.cpp:1405
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:1730
+#: core/document.cpp:1817
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:1734
+#: core/document.cpp:1821
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
 msgstr "頁："
 
-#: core/document.cpp:2277
+#: core/document.cpp:2364
 msgid "Search in progress..."
 msgstr ""
 
-#: core/document.cpp:2279
+#: core/document.cpp:2366
 #, kde-format
 msgid "Searching for %1"
 msgstr ""
 
-#: core/document.cpp:2580 core/document.cpp:2588
+#: core/document.cpp:2667 core/document.cpp:2675
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:2601
+#: core/document.cpp:2688
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3247
+#: core/document.cpp:3334
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:3250
+#: core/document.cpp:3337
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:3253 ui/embeddedfilesdialog.cpp:49
+#: core/document.cpp:3340 ui/embeddedfilesdialog.cpp:49
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:3256
+#: core/document.cpp:3343
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:3259
+#: core/document.cpp:3346
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:3262
+#: core/document.cpp:3349
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:3265
+#: core/document.cpp:3352
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:3268
+#: core/document.cpp:3355
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:3271 ui/embeddedfilesdialog.cpp:51
+#: core/document.cpp:3358 ui/embeddedfilesdialog.cpp:51
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:3274 ui/embeddedfilesdialog.cpp:52
+#: core/document.cpp:3361 ui/embeddedfilesdialog.cpp:52
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:3277
+#: core/document.cpp:3364
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:3280
+#: core/document.cpp:3367
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:3283
+#: core/document.cpp:3370
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/generator.cpp:539
+#: core/generator.cpp:542
 msgid "Plain &Text..."
 msgstr ""
 
-#: core/generator.cpp:542
+#: core/generator.cpp:545
 #, fuzzy
 #| msgid "KPDF"
 msgid "PDF"
@@ -892,92 +892,92 @@ msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
 msgstr[0] "已載入一份 %1 頁的文件。"
 
-#: ui/pageview.cpp:1788
+#: ui/pageview.cpp:1803
 msgid "Follow This Link"
 msgstr ""
 
-#: ui/pageview.cpp:1791
+#: ui/pageview.cpp:1806
 msgid "Copy Link Address"
 msgstr ""
 
-#: ui/pageview.cpp:1933
+#: ui/pageview.cpp:1948
 #, kde-format
 msgid "Text (1 character)"
 msgid_plural "Text (%1 characters)"
 msgstr[0] "文字（%1 個字元）"
 
-#: ui/pageview.cpp:1934 ui/pageview.cpp:1944
+#: ui/pageview.cpp:1949 ui/pageview.cpp:1959
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
-#: ui/pageview.cpp:1938 ui/pageview.cpp:2042
+#: ui/pageview.cpp:1953 ui/pageview.cpp:2057
 msgid "Copy forbidden by DRM"
 msgstr ""
 
-#: ui/pageview.cpp:1941 ui/pageview.cpp:2038
+#: ui/pageview.cpp:1956 ui/pageview.cpp:2053
 msgid "Speak Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:1943
+#: ui/pageview.cpp:1958
 #, kde-format
 msgid "Image (%1 by %2 pixels)"
 msgstr "圖像 (%1 X %2 像素)"
 
-#: ui/pageview.cpp:1945
+#: ui/pageview.cpp:1960
 msgid "Save to File..."
 msgstr "儲存至檔案..."
 
-#: ui/pageview.cpp:1966
+#: ui/pageview.cpp:1981
 #, kde-format
 msgid "Image [%1x%2] copied to clipboard."
 msgstr "圖像 [%1x%2] 已複製至剪貼簿。"
 
-#: ui/pageview.cpp:1973
+#: ui/pageview.cpp:1988
 msgid "File not saved."
 msgstr "檔案未儲存。"
 
-#: ui/pageview.cpp:1983
+#: ui/pageview.cpp:1998
 #, kde-format
 msgid "Image [%1x%2] saved to %3 file."
 msgstr "圖像 [%1x%2] 已儲存至 %3 檔案。"
 
-#: ui/pageview.cpp:2035
+#: ui/pageview.cpp:2050
 #, fuzzy
 #| msgid "Speak Text"
 msgid "Copy Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:2597 part.cpp:1499
+#: ui/pageview.cpp:2608 part.cpp:1499
 msgid "Fit Width"
 msgstr "符合闊度"
 
-#: ui/pageview.cpp:2597
+#: ui/pageview.cpp:2608
 msgid "Fit Page"
 msgstr "符合頁面"
 
-#: ui/pageview.cpp:2720
+#: ui/pageview.cpp:2731
 msgid "Hide Forms"
 msgstr ""
 
-#: ui/pageview.cpp:2724
+#: ui/pageview.cpp:2735
 #, fuzzy
 #| msgid "Show scroll&bars"
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:3124
+#: ui/pageview.cpp:3135
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:3196
+#: ui/pageview.cpp:3207
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:3208
+#: ui/pageview.cpp:3219
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:3220
+#: ui/pageview.cpp:3231
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "Select text"
