@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-31 05:45+0200\n"
+"POT-Creation-Date: 2008-06-04 22:52+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:127 core/kget.cpp:677 ui/contextmenu.cpp:97
+#: conf/transfersgroupwidget.cpp:127 core/kget.cpp:683 ui/contextmenu.cpp:97
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -160,8 +160,8 @@ msgid "Folder and extension can not be empty."
 msgstr ""
 
 #. i18n("Malformed URL, protocol missing:\n%1", source.prettyUrl()),
-#: conf/dlgdirectories.cpp:140 core/kget.cpp:472 core/kget.cpp:852
-#: core/kget.cpp:861
+#: conf/dlgdirectories.cpp:140 core/kget.cpp:472 core/kget.cpp:858
+#: core/kget.cpp:867
 msgid "Error"
 msgstr ""
 
@@ -264,7 +264,7 @@ msgstr "已停止"
 #: transfer-plugins/kio/transferKio.cpp:57
 #: transfer-plugins/metalink/metalink.cpp:53
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:62
-#: transfer-plugins/bittorrent/bttransfer.cpp:235
+#: transfer-plugins/bittorrent/bttransfer.cpp:234
 #, fuzzy
 #| msgid "Stopped"
 msgctxt "transfer state: stopped"
@@ -281,7 +281,7 @@ msgstr "已延遲"
 #: core/transfer.cpp:198 transfer-plugins/kio/transferKio.cpp:123
 #: transfer-plugins/metalink/metalink.cpp:103
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:210
-#: transfer-plugins/bittorrent/bttransfer.cpp:232
+#: transfer-plugins/bittorrent/bttransfer.cpp:231
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
@@ -326,16 +326,16 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:788 ui/newtransferdialog.cpp:38 rc.cpp:401
+#: core/kget.cpp:794 ui/newtransferdialog.cpp:38 rc.cpp:401
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:788
+#: core/kget.cpp:794
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:851 core/kget.cpp:858
+#: core/kget.cpp:857 core/kget.cpp:864
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -344,7 +344,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:872
+#: core/kget.cpp:878
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -355,16 +355,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:873
+#: core/kget.cpp:879
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:907 core/kget.cpp:914
+#: core/kget.cpp:913 core/kget.cpp:920
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:924
+#: core/kget.cpp:930
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -377,13 +377,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:1039
+#: core/kget.cpp:1045
 #, kde-format
 msgid ""
 "<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1056
+#: core/kget.cpp:1062
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -394,11 +394,11 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1058 core/kget.cpp:1069
+#: core/kget.cpp:1064 core/kget.cpp:1075
 msgid "Not Deleted"
 msgstr "沒有刪除"
 
-#: core/kget.cpp:1067
+#: core/kget.cpp:1073
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -669,12 +669,12 @@ msgid "Cannot remove webseed %1, it is part of the torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:87
-#: transfer-plugins/bittorrent/bttransfer.cpp:193
+#: transfer-plugins/bittorrent/bttransfer.cpp:192
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
-#: transfer-plugins/bittorrent/bttransfer.cpp:199
+#: transfer-plugins/bittorrent/bttransfer.cpp:198
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -816,18 +816,18 @@ msgstr "開啟檔案(&F)"
 msgid "Downloading Torrent-File.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:217
+#: transfer-plugins/bittorrent/bttransfer.cpp:216
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:283
+#: transfer-plugins/bittorrent/bttransfer.cpp:282
 #, fuzzy
 msgid "Analyzing torrent.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:354
+#: transfer-plugins/bittorrent/bttransfer.cpp:353
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
@@ -1816,6 +1816,146 @@ msgstr "在目前網頁的頁框中沒有連結。"
 msgid "No Links"
 msgstr "沒有連結"
 
+#: extensions/webinterface/httpserver.cpp:33
+#, kde-format
+msgctxt "@info"
+msgid "Unable to start the server: %1."
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:85
+#, fuzzy, kde-format
+#| msgid "%1/s"
+msgctxt "@item speed of transfer per seconds"
+msgid "%1/s"
+msgstr "%1/秒"
+
+#: extensions/webinterface/httpserver.cpp:154
+msgctxt "@label"
+msgid "KGet Webinterface"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:155
+msgctxt "@label number"
+msgid "Nr"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:156
+#, fuzzy
+#| msgid "Local File Name"
+msgctxt "@label"
+msgid "File name"
+msgstr "本機檔案名稱"
+
+#: extensions/webinterface/httpserver.cpp:157
+#, fuzzy
+#| msgid "Finished"
+msgctxt "@label Progress of transfer"
+msgid "Finished"
+msgstr "已完成"
+
+#: extensions/webinterface/httpserver.cpp:158
+#, fuzzy
+#| msgid "Speed"
+msgctxt "@label Speed of transfer"
+msgid "Speed"
+msgstr "速度"
+
+#: extensions/webinterface/httpserver.cpp:159
+#, fuzzy
+msgctxt "@label Status of transfer"
+msgid "Status"
+msgstr "重新開始(&S)"
+
+#: extensions/webinterface/httpserver.cpp:160
+#, fuzzy
+msgctxt "@action:button start a transfer"
+msgid "Start"
+msgstr "重新開始(&S)"
+
+#: extensions/webinterface/httpserver.cpp:161
+#, fuzzy
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "已停止"
+
+#: extensions/webinterface/httpserver.cpp:162
+#, fuzzy
+#| msgid "Open Transfer"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "開啟傳輸"
+
+#: extensions/webinterface/httpserver.cpp:163
+#, fuzzy
+#| msgid "Source:"
+msgctxt "@label Download from"
+msgid "Source:"
+msgstr "來源："
+
+#: extensions/webinterface/httpserver.cpp:164
+msgctxt "@label Save download to"
+msgid "Saving to:"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:165
+msgctxt "@label Title in header"
+msgid "Webinterface"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:166
+#, fuzzy
+#| msgid "Scheduling"
+msgctxt "@action"
+msgid "Settings"
+msgstr "正在排程"
+
+#: extensions/webinterface/httpserver.cpp:167
+msgctxt "@action"
+msgid "Refresh"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:168
+msgctxt "@action"
+msgid "Enter URL: "
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:169
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgctxt "@action:button"
+msgid "OK"
+msgstr "完成"
+
+#: extensions/webinterface/httpserver.cpp:171
+#, fuzzy
+#| msgid "Download finished"
+msgctxt "@action Refresh download list every x (seconds)"
+msgid "Refresh download list every"
+msgstr "完成下載"
+
+#: extensions/webinterface/httpserver.cpp:172
+msgctxt "@action (Refresh very x )seconds"
+msgid "seconds"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:173
+#, fuzzy
+msgctxt "@action:button"
+msgid "Save Settings"
+msgstr " 傳輸： %1"
+
+#: extensions/webinterface/httpserver.cpp:174
+#, fuzzy
+msgctxt "@title"
+msgid "Downloads"
+msgstr "下載已續傳"
+
+#: extensions/webinterface/httpserver.cpp:176
+msgctxt "@label text in footer"
+msgid "KGet Webinterface | Valid XHTML 1.0 Strict &amp; CSS"
+msgstr ""
+
 #: main.cpp:113 mainwindow.cpp:84
 msgid "KGet"
 msgstr "KGet"
@@ -2733,23 +2873,23 @@ msgstr "速度"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 108
-#. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 99
-#: rc.cpp:296 rc.cpp:338
-msgid "Leechers:"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 132
-#: rc.cpp:299
+#: rc.cpp:296
 #, fuzzy
 msgid "Times Downloaded:"
 msgstr "下載已續傳"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 156
-#: rc.cpp:302
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 132
+#: rc.cpp:299
 msgid "Next Update In:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 156
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 99
+#: rc.cpp:302 rc.cpp:338
+msgid "Leechers:"
 msgstr ""
 
 #. i18n: tag string
