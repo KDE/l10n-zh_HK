@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-18 10:42+0200\n"
+"POT-Creation-Date: 2008-06-22 02:41+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1051,7 +1051,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:623 kopete/kopetewindow.cpp:1120
+#: libkopete/kopetecontact.cpp:623 kopete/kopetewindow.cpp:1116
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1103,7 +1103,7 @@ msgstr "<qt>收到來自 %1<br>「%2」的訊息</qt>"
 msgid "<qt>A highlighted message arrived from %1<br />\"%2\"</qt>"
 msgstr "<qt>來自 %1<br>「%2」的加強顯示訊息到達</qt>"
 
-#: libkopete/private/kopeteviewmanager.cpp:330 kopete/infoeventwidget.cpp:202
+#: libkopete/private/kopeteviewmanager.cpp:330 kopete/infoeventwidget.cpp:206
 #, fuzzy
 msgid "View"
 msgstr "檢視"
@@ -1156,7 +1156,7 @@ msgstr "上次上線"
 msgid "Status Title"
 msgstr "狀態"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1130
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1126
 #: protocols/meanwhile/meanwhileprotocol.cpp:61
 msgid "Status Message"
 msgstr "狀態訊息"
@@ -1417,7 +1417,7 @@ msgstr "顯示或隱藏聯絡人清單"
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:728
+#: kopete/kopetewindow.cpp:724
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1425,11 +1425,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:730
+#: kopete/kopetewindow.cpp:726
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:917
+#: kopete/kopetewindow.cpp:913
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1447,7 +1447,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1117
+#: kopete/kopetewindow.cpp:1113
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
@@ -1455,7 +1455,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: kopete/kopetewindow.cpp:1165
+#: kopete/kopetewindow.cpp:1161
 #: kopete/contactlist/kopetecontactlistview.cpp:1788
 msgid "Add Contact"
 msgstr "加入聯絡人"
@@ -14819,40 +14819,40 @@ msgstr ""
 msgid "<b>OTR connection refreshed successfully.</b>"
 msgstr "註冊已成功送出。"
 
-#: plugins/otr/otrlchatinterface.cpp:397
+#: plugins/otr/otrlchatinterface.cpp:395
 #, kde-format
 msgid "<b>%1</b> has ended the OTR session. You should do the same."
 msgstr ""
 
-#: plugins/otr/otrlchatinterface.cpp:436 plugins/otr/otrlchatinterface.cpp:459
+#: plugins/otr/otrlchatinterface.cpp:434 plugins/otr/otrlchatinterface.cpp:457
 msgid "<b>Authentication successful. The conversation is now secure!</b>"
 msgstr ""
 
-#: plugins/otr/otrlchatinterface.cpp:442 plugins/otr/otrlchatinterface.cpp:465
+#: plugins/otr/otrlchatinterface.cpp:440 plugins/otr/otrlchatinterface.cpp:463
 msgid "<b>Authentication failed. The conversation is now insecure!</b>"
 msgstr ""
 
-#: plugins/otr/otrlchatinterface.cpp:476
+#: plugins/otr/otrlchatinterface.cpp:474
 #, fuzzy
 #| msgid "Registration failed."
 msgid "<b>Authentication error!</b>"
 msgstr "註冊失敗。"
 
-#: plugins/otr/otrlchatinterface.cpp:510 plugins/otr/otrlchatinterface.cpp:525
+#: plugins/otr/otrlchatinterface.cpp:508 plugins/otr/otrlchatinterface.cpp:523
 #, fuzzy
 #| msgid "Connection Error"
 msgid "Encryption error"
 msgstr "連線錯誤"
 
-#: plugins/otr/otrlchatinterface.cpp:555
+#: plugins/otr/otrlchatinterface.cpp:553
 msgid "Terminating OTR session."
 msgstr ""
 
-#: plugins/otr/otrlchatinterface.cpp:731
+#: plugins/otr/otrlchatinterface.cpp:729
 msgid "<b>Authentication aborded. The conversation is now insecure!</b>"
 msgstr ""
 
-#: plugins/otr/otrlchatinterface.cpp:750
+#: plugins/otr/otrlchatinterface.cpp:748
 msgid "<b>Authenticating contact...</b>"
 msgstr ""
 
@@ -17176,6 +17176,12 @@ msgstr "關閉(&L):"
 #, kde-format
 msgid "Registration failed: %1"
 msgstr "註冊失敗: %1"
+
+#: protocols/gadu/gaduregisteraccount.cpp:177
+#, fuzzy
+#| msgid "Registration sent successfully."
+msgid "Registration was unsucessful, please try again."
+msgstr "註冊已成功送出。"
 
 #: protocols/gadu/gadueditcontact.cpp:51 protocols/gadu/gadueditcontact.cpp:72
 msgid "Edit Contact's Properties"
@@ -21759,6 +21765,14 @@ msgstr "翻譯者插件程式"
 msgid ""
 "Please fill in the fields in the dialog. First select a connection manager, "
 "then select a protocol."
+msgstr ""
+
+#: protocols/telepathy/ui/telepathyeditaccountwidget.cpp:198
+#, kde-format
+msgid ""
+"ConnectionManager: %1\n"
+"Protocol: %2\n"
+"Account: %3"
 msgstr ""
 
 #: protocols/telepathy/ui/telepathyeditaccountwidget.cpp:277
