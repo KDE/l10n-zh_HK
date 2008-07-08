@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-05 07:06+0200\n"
+"POT-Creation-Date: 2008-07-08 14:26+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -155,12 +155,12 @@ msgstr ""
 msgid "Transfer Plugin Options"
 msgstr ""
 
-#: conf/dlgdirectories.cpp:140
+#: conf/dlgdirectories.cpp:141
 msgid "Folder and extension can not be empty."
 msgstr ""
 
 #. i18n("Malformed URL, protocol missing:\n%1", source.prettyUrl()),
-#: conf/dlgdirectories.cpp:140 core/kget.cpp:472 core/kget.cpp:858
+#: conf/dlgdirectories.cpp:141 core/kget.cpp:472 core/kget.cpp:858
 #: core/kget.cpp:867
 msgid "Error"
 msgstr ""
@@ -1002,7 +1002,7 @@ msgstr ""
 msgid "Not connected"
 msgstr "保持連線"
 
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:260
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:262
 #: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:117
 #, fuzzy
 #| msgid "Connection Type"
@@ -1462,11 +1462,11 @@ msgid "Under 10MiB"
 msgstr ""
 
 #: ui/history/transferhistorycategorizeddelegate.cpp:80
-msgid "More than 10MiB and 50MiB"
+msgid "Between 10MiB and 50MiB"
 msgstr ""
 
 #: ui/history/transferhistorycategorizeddelegate.cpp:84
-msgid "More than 50MiB and 100MiB"
+msgid "Between 50MiB and 100MiB"
 msgstr ""
 
 #: ui/history/transferhistorycategorizeddelegate.cpp:89
@@ -1477,6 +1477,11 @@ msgstr ""
 #, fuzzy
 msgid "Transfer History"
 msgstr "開啟傳輸："
+
+#: ui/history/transferhistory.cpp:81
+#, fuzzy
+msgid "&Open File"
+msgstr "開啟檔案(&F)"
 
 #: ui/history/transferhistory.cpp:210
 msgid "Running"
