@@ -1,0 +1,2097 @@
+# Chinese (Hong Kong) translation of kuser
+# Copyright (C) 2001-2002 Free Software Foundation, Inc.
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, 2001.
+# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# Walter Cheuk <wwycheuk@netvigator.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kuser 1.29\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-04-10 23:14+0200\n"
+"PO-Revision-Date: 2006-01-20 00:07+0800\n"
+"Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ku_adduser.cpp:47
+msgid "New Account Options"
+msgstr "新帳號選項"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 130
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 55
+#: ku_adduser.cpp:53 rc.cpp:45 rc.cpp:238
+msgid "Create home folder"
+msgstr "建立家資料夾"
+
+#: ku_adduser.cpp:56
+msgid "Copy skeleton"
+msgstr "複製檔案架構（skeleton）"
+
+#: ku_adduser.cpp:72
+#, kde-format
+msgid "User with UID %1 already exists."
+msgstr "已有用戶使用 UID %1 。"
+
+#: ku_adduser.cpp:79
+#, kde-format
+msgid "User with RID %1 already exists."
+msgstr "已有用戶使用 RID %1 。"
+
+#: ku_adduser.cpp:121
+#, fuzzy, kde-format
+msgid ""
+"Folder %1 already exists.\n"
+"%2 may become owner and permissions may change.\n"
+"Do you really want to use %3?"
+msgstr ""
+"已有 %1 資料夾！\n"
+"%2 可能成為擁有者而權限可能變更。\n"
+"真的要使用 %3 嗎？"
+
+#: ku_adduser.cpp:128
+#, kde-format
+msgid "%1 is not a folder."
+msgstr "%1 不是資料夾。"
+
+#: ku_adduser.cpp:130 ku_adduser.cpp:157
+#, kde-format
+msgid "stat() failed on %1."
+msgstr "stat() 在 %1 上失敗。"
+
+#: ku_adduser.cpp:150
+#, kde-format
+msgid "Mailbox %1 already exists (uid=%2)."
+msgstr "已有 %1 這個郵箱 (uid=%2)。"
+
+#: ku_adduser.cpp:154
+#, kde-format
+msgid "%1 exists but is not a regular file."
+msgstr "已有 %1 ，但它不是一般的檔案。"
+
+#: ku_configdlg.cpp:55 ku_edituser.cpp:153
+msgid "<Empty>"
+msgstr "<空的>"
+
+#: ku_configdlg.cpp:57 ku_configdlg.cpp:93
+msgid "Connection"
+msgstr "連線"
+
+#: ku_configdlg.cpp:63
+msgid "Password Policy"
+msgstr "密碼政策"
+
+#: ku_configdlg.cpp:65
+msgid "General"
+msgstr "一般"
+
+#: ku_configdlg.cpp:65
+msgid "General Settings"
+msgstr "一般設置"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 44
+#: ku_configdlg.cpp:71 rc.cpp:24
+msgid "Files"
+msgstr ""
+
+#: ku_configdlg.cpp:71
+msgid "File Source Settings"
+msgstr "檔案來源設置"
+
+#: ku_configdlg.cpp:99
+msgid "Settings"
+msgstr "設置"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 24
+#: ku_configdlg.cpp:106 ku_edituser.cpp:271 rc.cpp:57
+msgid "Samba"
+msgstr "Samba"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 49
+#: ku_configdlg.cpp:108 rc.cpp:27
+msgid "LDAP"
+msgstr "LDAP"
+
+#: ku_configdlg.cpp:108
+msgid "LDAP Source Settings"
+msgstr "LDAP 來源設置"
+
+#: ku_deluser.cpp:34
+msgid "Delete User"
+msgstr "刪除用戶"
+
+#: ku_deluser.cpp:39
+#, fuzzy, kde-format
+#| msgid "<p>Deleting user <b>%1</b><p>Also perform the following actions:"
+msgid "<p>Deleting user <b>%1</b><br />Also perform the following actions:</p>"
+msgstr "<p>正在刪除 <b>%1</b> 用戶<p>同時進行以下行動："
+
+#: ku_deluser.cpp:42
+#, kde-format
+msgid "Delete &home folder: %1"
+msgstr "刪除家資料夾(&H): %1"
+
+#: ku_deluser.cpp:44
+#, kde-format
+msgid "Delete &mailbox: %1"
+msgstr "刪除郵箱(&M): %1"
+
+#: ku_editgroup.cpp:39
+msgid "Group Properties"
+msgstr "群組屬性"
+
+#: ku_editgroup.cpp:50
+msgid "Domain Admins"
+msgstr "網域管理員"
+
+#: ku_editgroup.cpp:50
+msgid "Admins"
+msgstr "管理員"
+
+#: ku_editgroup.cpp:51
+msgid "Domain Users"
+msgstr "網域用戶"
+
+#: ku_editgroup.cpp:51 ku_mainview.cpp:61
+msgid "Users"
+msgstr "用戶"
+
+#: ku_editgroup.cpp:52
+msgid "Domain Guests"
+msgstr "網域來賓"
+
+#: ku_editgroup.cpp:52
+msgid "Guests"
+msgstr "來賓"
+
+#: ku_editgroup.cpp:63
+msgid "Group number:"
+msgstr "群組號碼:"
+
+#: ku_editgroup.cpp:78
+msgid "Group rid:"
+msgstr "群組 rid:"
+
+#: ku_editgroup.cpp:96
+msgid "Group name:"
+msgstr "群組名稱:"
+
+#: ku_editgroup.cpp:110
+msgid "Description:"
+msgstr "說明:"
+
+#: ku_editgroup.cpp:119
+msgid "Display name:"
+msgstr "顯示名稱:"
+
+#: ku_editgroup.cpp:128
+msgid "Type:"
+msgstr "類型:"
+
+#: ku_editgroup.cpp:130 ku_groupmodel.cpp:75
+msgid "Domain"
+msgstr "網域"
+
+#: ku_editgroup.cpp:131 ku_groupmodel.cpp:76
+msgid "Local"
+msgstr "本地端"
+
+#: ku_editgroup.cpp:132 ku_groupmodel.cpp:77
+msgid "Builtin"
+msgstr "內置"
+
+#: ku_editgroup.cpp:149 ku_edituser.cpp:313
+msgid "Domain SID:"
+msgstr "網域 SID:"
+
+#: ku_editgroup.cpp:157
+msgid "Disable Samba group information"
+msgstr "停用 Samba 群組資訊"
+
+#: ku_editgroup.cpp:171
+msgid "Users in Group"
+msgstr "用戶在此群組中"
+
+#: ku_editgroup.cpp:178
+#, fuzzy
+#| msgid "Add <-"
+msgid "Add"
+msgstr "新增 <-"
+
+#: ku_editgroup.cpp:179
+#, fuzzy
+#| msgid "Remove ->"
+msgid "Remove"
+msgstr "移除 ->"
+
+#: ku_editgroup.cpp:191
+msgid "Users NOT in Group"
+msgstr "用戶*不在*此群組中"
+
+#: ku_editgroup.cpp:281
+msgid "You need to type a group name."
+msgstr "你需要鍵入群組名稱。"
+
+#: ku_editgroup.cpp:289
+#, kde-format
+msgid "Group with name %1 already exists."
+msgstr "已有 %1 這個群組。"
+
+#: ku_editgroup.cpp:296
+#, kde-format
+msgid "Group with SID %1 already exists."
+msgstr "已有群組使用 SID %1 。"
+
+#: ku_editgroup.cpp:301
+#, kde-format
+msgid "Group with gid %1 already exists."
+msgstr "已有群組使用 gid %1 。"
+
+#: ku_edituser.cpp:61 ku_edituser.cpp:92
+msgid "Do not change"
+msgstr "不更改"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 83
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 99
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 128
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 144
+#: ku_edituser.cpp:77 rc.cpp:174 rc.cpp:180 rc.cpp:189 rc.cpp:192
+msgid " days"
+msgstr " 天"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 80
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 96
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 125
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 174
+#: ku_edituser.cpp:82 ku_edituser.cpp:260 rc.cpp:171 rc.cpp:177 rc.cpp:186
+#: rc.cpp:198
+msgid "Never"
+msgstr "永不"
+
+#: ku_edituser.cpp:109
+msgid "User Info"
+msgstr "用戶資訊"
+
+#: ku_edituser.cpp:118
+msgid "User login:"
+msgstr "用戶登入："
+
+#: ku_edituser.cpp:123
+msgid "&User ID:"
+msgstr "用戶 ID (&U):"
+
+#: ku_edituser.cpp:127
+msgid "Set &Password..."
+msgstr "設定密碼(&P)..."
+
+#: ku_edituser.cpp:135
+msgid "Full &name:"
+msgstr "全名(&N):"
+
+#: ku_edituser.cpp:142
+msgid "Surname:"
+msgstr "姓氏:"
+
+#: ku_edituser.cpp:147
+msgid "Email address:"
+msgstr "電郵地址:"
+
+#: ku_edituser.cpp:161
+msgid "&Login shell:"
+msgstr "登入 Shell (&L):"
+
+#: ku_edituser.cpp:166
+msgid "&Home folder:"
+msgstr "家資料夾(&H):"
+
+#: ku_edituser.cpp:174
+msgid "&Office:"
+msgstr "辦公室(&O):"
+
+#: ku_edituser.cpp:179
+msgid "Offi&ce Phone:"
+msgstr "辦公室電話(&C):"
+
+#: ku_edituser.cpp:184
+msgid "Ho&me Phone:"
+msgstr "住家電話(&M):"
+
+#: ku_edituser.cpp:189
+msgid "Login class:"
+msgstr "登入類別:"
+
+#: ku_edituser.cpp:194
+msgid "&Office #1:"
+msgstr "辦公室 #1 (&O):"
+
+#: ku_edituser.cpp:199
+msgid "O&ffice #2:"
+msgstr "辦公室 #2 (&F):"
+
+#: ku_edituser.cpp:204
+msgid "&Address:"
+msgstr "地址(&A):"
+
+#: ku_edituser.cpp:208
+msgid "Account &disabled"
+msgstr "帳號已停用(&D)"
+
+#: ku_edituser.cpp:214
+msgid "Disable &POSIX account information"
+msgstr "停用 &POSIX 帳號資訊"
+
+#: ku_edituser.cpp:227
+msgid "Password Management"
+msgstr "密碼管理"
+
+#: ku_edituser.cpp:233
+msgid "Last password change:"
+msgstr "最後密碼變更:"
+
+#: ku_edituser.cpp:239
+msgid "POSIX parameters:"
+msgstr ""
+
+#: ku_edituser.cpp:240
+msgid "Time before password may &not be changed after last password change:"
+msgstr "自最後一次密碼變更後多久不可再變更密碼(&N):"
+
+#: ku_edituser.cpp:241
+msgid "Time when password &expires after last password change:"
+msgstr "自最後一次密碼變更後多久密碼會到期(&E):"
+
+#: ku_edituser.cpp:242
+msgid "Time before password expires to &issue an expire warning:"
+msgstr "密碼逾期前多久要發出到期警告(&I):"
+
+#: ku_edituser.cpp:243
+msgid "Time when account will be &disabled after expiration of password:"
+msgstr "密碼到期後多久帳號會被停用(&D):"
+
+#: ku_edituser.cpp:254
+msgid "&Account will expire on:"
+msgstr "帳號將於此時間到期(&A):"
+
+#: ku_edituser.cpp:278
+msgid "RID:"
+msgstr "RID:"
+
+#: ku_edituser.cpp:283
+msgid "Login script:"
+msgstr "登入程序檔:"
+
+#: ku_edituser.cpp:288
+msgid "Profile path:"
+msgstr "Profile 路徑:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 77
+#: ku_edituser.cpp:293 rc.cpp:66
+msgid "Home drive:"
+msgstr "家磁碟機:"
+
+#: ku_edituser.cpp:298
+msgid "Home path:"
+msgstr "家路徑:"
+
+#: ku_edituser.cpp:303
+msgid "User workstations:"
+msgstr "用戶工作站:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 160
+#: ku_edituser.cpp:308 rc.cpp:78
+msgid "Domain name:"
+msgstr "網域名稱:"
+
+#: ku_edituser.cpp:319
+msgid "Disable &Samba account information"
+msgstr "停用 &Samba 帳號資訊"
+
+#: ku_edituser.cpp:325 ku_mainview.cpp:69
+msgid "Groups"
+msgstr "群組"
+
+#: ku_edituser.cpp:335 ku_edituser.cpp:664 ku_edituser.cpp:695
+msgid "Primary group: "
+msgstr "主要群組:"
+
+#: ku_edituser.cpp:338
+msgid "Set as Primary"
+msgstr "設為主要"
+
+#: ku_edituser.cpp:352 ku_edituser.cpp:375
+msgid "User Properties"
+msgstr "用戶屬性"
+
+#: ku_edituser.cpp:358
+#, kde-format
+msgid "User Properties - %1 Selected Users"
+msgstr "用戶屬性 - %1 個已選取用戶"
+
+#: ku_edituser.cpp:531 ku_mainview.cpp:145
+msgid "Do Not Change"
+msgstr "不更改"
+
+#: ku_edituser.cpp:910
+msgid "You need to specify an UID."
+msgstr "你要指定 UID 。"
+
+#: ku_edituser.cpp:915
+msgid "You must specify a home directory."
+msgstr "你必須指定家目錄。"
+
+#: ku_edituser.cpp:921
+msgid "You must fill the surname field."
+msgstr "你必須填入「姓氏」一欄。"
+
+#: ku_edituser.cpp:928
+msgid "You need to specify a samba RID."
+msgstr "你要指定 samba RID 。"
+
+#: ku_edituser.cpp:973
+#, kde-format
+msgid "User with UID %1 already exists"
+msgstr "已有用戶使用 UID %1"
+
+#: ku_edituser.cpp:983
+#, kde-format
+msgid "User with RID %1 already exists"
+msgstr "已有用戶使用 RID %1"
+
+#: ku_edituser.cpp:997
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The shell %1 is not yet listed in the file %2. In order to use this "
+#| "shell you must add it to this file first.<p>Do you want to add it now?"
+msgid ""
+"<p>The shell %1 is not yet listed in the file %2. In order to use this shell "
+"you must add it to this file first.<br />Do you want to add it now?</p>"
+msgstr ""
+"<p>shell %1 尚未列於 %2 檔案中。要使用這個 shell ，你必須先將它加入到這個檔"
+"案。<p>您要現在加入它嗎？"
+
+#: ku_edituser.cpp:1001
+msgid "Unlisted Shell"
+msgstr "未列出的 Shell"
+
+#: ku_edituser.cpp:1002
+msgid "&Add Shell"
+msgstr "新增 Shell (&A)"
+
+#: ku_edituser.cpp:1003
+msgid "Do &Not Add"
+msgstr "不要加入(&N)"
+
+#: ku_groupfiles.cpp:74
+msgid "Groups file name not set, please check 'Settings/Files'"
+msgstr ""
+
+#: ku_groupfiles.cpp:82
+#, fuzzy, kde-format
+msgid ""
+"stat() call on file %1 failed: %2\n"
+"Check KUser settings."
+msgstr ""
+"呼叫檔案 %1 的狀態失敗: %2\n"
+"請檢查 KUser 設置。"
+
+#: ku_groupfiles.cpp:96 ku_userfiles.cpp:195
+#, kde-format
+msgid "Error opening %1 for reading."
+msgstr "開啟 %1 以讀取時發生錯誤。"
+
+#: ku_groupfiles.cpp:172 ku_groupfiles.cpp:179 ku_userfiles.cpp:294
+#: ku_userfiles.cpp:301
+#, kde-format
+msgid "Error opening %1 for writing."
+msgstr "開啟 %1 以寫入時發生錯誤。"
+
+#: ku_groupldap.cpp:156
+msgid "Loading Groups From LDAP"
+msgstr "正在從 LDAP 載入群組"
+
+#: ku_groupldap.cpp:208 ku_userldap.cpp:512
+msgid "LDAP Operation"
+msgstr "LDAP 操作"
+
+#: ku_groupmodel.cpp:48
+msgid "GID"
+msgstr "GID"
+
+#: ku_groupmodel.cpp:49
+msgid "Group Name"
+msgstr "群組名稱"
+
+#: ku_groupmodel.cpp:50 ku_usermodel.cpp:53
+msgid "Domain SID"
+msgstr "網域 SID"
+
+#: ku_groupmodel.cpp:51 ku_usermodel.cpp:54
+msgid "RID"
+msgstr "RID"
+
+#: ku_groupmodel.cpp:52
+msgid "Type"
+msgstr "類型"
+
+#: ku_groupmodel.cpp:53
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: ku_groupmodel.cpp:54
+msgid "Description"
+msgstr "說明"
+
+#: ku_groupmodel.cpp:78
+msgid "Unknown"
+msgstr "未知"
+
+#: ku_main.cpp:37
+msgid "KDE User Editor"
+msgstr "KDE 用戶編輯器"
+
+#: ku_main.cpp:44
+msgid "KUser"
+msgstr "KUser"
+
+#: ku_main.cpp:46
+msgid ""
+"(c) 1997-2000, Denis Perchine\n"
+"(c) 2004, Szombathelyi György"
+msgstr ""
+
+#: ku_main.cpp:47
+msgid "Denis Perchine"
+msgstr ""
+
+#: ku_main.cpp:47 ku_main.cpp:49
+msgid "kuser author"
+msgstr "kuser 作者"
+
+#: ku_main.cpp:49
+msgid "Szombathelyi György"
+msgstr ""
+
+#: ku_main.cpp:64
+msgid "KDE User Manager"
+msgstr "KDE 用戶管理員"
+
+#: ku_mainview.cpp:144
+#, kde-format
+msgid ""
+"You have selected %1 users. Do you really want to change the password for "
+"all the selected users?"
+msgstr "你已選取 %1 個用戶。你真的要更改所有已選取用戶的密碼嗎？"
+
+#: ku_mainview.cpp:145
+#, fuzzy
+msgid "Change"
+msgstr "不更改"
+
+#: ku_mainview.cpp:186
+msgid "You have run out of uid space."
+msgstr "您已經用完 uid 的可用空間。"
+
+#: ku_mainview.cpp:198
+msgid "Please type the name of the new user:"
+msgstr "請輸入新用戶的名稱:"
+
+#: ku_mainview.cpp:204
+#, kde-format
+msgid "User with name %1 already exists."
+msgstr "已有名為 %1 的用戶。"
+
+#: ku_mainview.cpp:357
+#, kde-format
+msgid ""
+"You are using private groups.\n"
+"Do you want to delete the user's private group '%1'?"
+msgstr ""
+"您正在使用私人群組。\n"
+"要刪除用戶的私人群組『%1』嗎？"
+
+#: ku_mainview.cpp:360
+msgid "Do Not Delete"
+msgstr "不刪除"
+
+#: ku_mainview.cpp:378
+msgid "You have run out of gid space."
+msgstr "您已經用完 gid 的可用空間。"
+
+#: ku_mainview.cpp:455
+#, kde-format
+msgid ""
+"The group '%1' is the primary group of one or more users (such as '%2'); it "
+"cannot be deleted."
+msgstr "『%1』群組是一或多個用戶（例如『%2』）的主要群組；不能刪除它。"
+
+#: ku_mainview.cpp:464
+#, kde-format
+msgid "Do you really want to delete the group '%1'?"
+msgstr "你真的要刪除『%1』群組嗎？"
+
+#: ku_mainview.cpp:468
+#, kde-format
+msgid "Do you really want to delete the %1 selected groups?"
+msgstr "你真的要刪除 %1 個已選取的群組嗎？"
+
+#: ku_mainwidget.cpp:51
+msgid "Reading configuration"
+msgstr "正在讀取設定"
+
+#: ku_mainwidget.cpp:57
+msgid "Ready"
+msgstr "就緒"
+
+#: ku_mainwidget.cpp:78 ku_mainwidget.cpp:94
+msgid "&Add..."
+msgstr "加增(&A)..."
+
+#: ku_mainwidget.cpp:82 ku_mainwidget.cpp:98
+msgid "&Edit..."
+msgstr "編輯(&E)..."
+
+#: ku_mainwidget.cpp:86 ku_mainwidget.cpp:102
+msgid "&Delete..."
+msgstr "刪除(&D)..."
+
+#: ku_mainwidget.cpp:90
+msgid "&Set Password..."
+msgstr "設定密碼(&S)..."
+
+#: ku_mainwidget.cpp:106
+#, fuzzy
+msgid "&Reload..."
+msgstr "刪除(&D)..."
+
+#: ku_mainwidget.cpp:110
+msgid "&Select Connection..."
+msgstr "選取連線(&S)..."
+
+#: ku_mainwidget.cpp:114
+msgid "Show System Users/Groups"
+msgstr "顯示系統用戶/群組"
+
+#: ku_mainwidget.cpp:118
+msgid "Hide System Users/Groups"
+msgstr "隱藏系統用戶/群組"
+
+#: ku_misc.cpp:55
+#, fuzzy, kde-format
+#| msgid "Can't create backup file for %1"
+msgid "Can not create backup file for %1"
+msgstr "無法為 %1 建立備份檔案"
+
+#: ku_misc.cpp:105
+#, kde-format
+msgid ""
+"Error creating symlink %1.\n"
+"Error: %2"
+msgstr ""
+"建立符號連結 %1 時發生錯誤。\n"
+"錯誤： %2"
+
+#: ku_misc.cpp:115
+#, kde-format
+msgid ""
+"Cannot change owner of folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變資料夾 %1 之擁有者。\n"
+"錯誤： %2"
+
+#: ku_misc.cpp:120
+#, kde-format
+msgid ""
+"Cannot change permissions on folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變資料夾 %1 之權限。\n"
+"錯誤： %2"
+
+#: ku_misc.cpp:130
+#, kde-format
+msgid ""
+"Cannot change owner of file %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變檔案 %1 之擁有者。\n"
+"錯誤： %2"
+
+#: ku_misc.cpp:135
+#, kde-format
+msgid ""
+"Cannot change permissions on file %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變檔案 %1 之權限。\n"
+"錯誤： %2"
+
+#: ku_misc.cpp:154
+#, kde-format
+msgid "File %1 does not exist."
+msgstr "沒有 %1 這個檔案。"
+
+#: ku_misc.cpp:159
+#, kde-format
+msgid "Cannot open file %1 for reading."
+msgstr "無法開啟要讀取的檔案 %1 。"
+
+#: ku_misc.cpp:164
+#, kde-format
+msgid "Cannot open file %1 for writing."
+msgstr "無法開啟要寫入的檔案 %1 。"
+
+#: ku_pwdlg.cpp:33
+msgid "Enter Password"
+msgstr "輸入密碼"
+
+#: ku_pwdlg.cpp:39
+msgid "Password:"
+msgstr "密碼:"
+
+#: ku_pwdlg.cpp:55
+msgid "Verify:"
+msgstr "驗證:"
+
+#: ku_pwdlg.cpp:86
+msgid ""
+"Passwords are not identical.\n"
+"Try again."
+msgstr ""
+"兩個密碼不相同。\n"
+"請再試一次。"
+
+#: ku_selectconn.cpp:39
+msgid "Connection Selection"
+msgstr "連線選擇"
+
+#: ku_selectconn.cpp:40
+msgid "&New..."
+msgstr "新增(&N)..."
+
+#: ku_selectconn.cpp:41
+#, fuzzy
+msgid "&Edit"
+msgstr "編輯(&E)..."
+
+#: ku_selectconn.cpp:42
+#, fuzzy
+msgid "&Delete"
+msgstr "刪除(&D)..."
+
+#: ku_selectconn.cpp:48
+msgid "Defined connections:"
+msgstr "已定義的連線:"
+
+#: ku_selectconn.cpp:86
+msgid "Please type the name of the new connection:"
+msgstr "請鍵入新連線的名稱:"
+
+#: ku_selectconn.cpp:89
+msgid "A connection with this name already exists."
+msgstr "已有同名的連線。"
+
+#: ku_selectconn.cpp:129
+#, kde-format
+msgid "Do you really want to delete the connection '%1'?"
+msgstr "你真的要刪除『%1』連線嗎？"
+
+#: ku_selectconn.cpp:130
+msgid "Delete Connection"
+msgstr "刪除連線"
+
+#: ku_user.cpp:161
+#, kde-format
+msgid "Cannot create home folder for %1: it is null or empty."
+msgstr "無法為 %1 建立家資料夾：它是 null 或空的。"
+
+#: ku_user.cpp:167
+#, kde-format
+msgid ""
+"Cannot create home folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法建立家資料夾 %1 。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:173
+#, kde-format
+msgid ""
+"Cannot change owner of home folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變家資料夾 %1 的擁有者。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:178
+#, kde-format
+msgid ""
+"Cannot change permissions on home folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法改變家資料夾 %1 的權限。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:193
+#, fuzzy, kde-format
+msgid ""
+"Folder %1 already exists.\n"
+"Will make %2 owner and change permissions.\n"
+"Do you want to continue?"
+msgstr ""
+"已有名為 %1 的資料夾！\n"
+"接下來會將該資料夾的擁有者換成 %2 ，及更改它的權限。\n"
+"要繼續嗎？"
+
+#: ku_user.cpp:197 ku_user.cpp:215
+#, kde-format
+msgid ""
+"Cannot change owner of %1 folder.\n"
+"Error: %2"
+msgstr ""
+"無法改變資料夾 %1 的擁有者。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:201
+#, fuzzy, kde-format
+msgid ""
+"Folder %1 left 'as is'.\n"
+"Verify ownership and permissions for user %2 who may not be able to log in."
+msgstr ""
+"資料夾 %1 沒有作任何更改。\n"
+"請驗證用戶 %2 的所有權與權限，他可能無法登入！"
+
+#: ku_user.cpp:205
+#, fuzzy, kde-format
+msgid "%1 exists and is not a folder. User %2 will not be able to log in."
+msgstr "已有 %1 ，但它不是目錄。 %2 用戶將會無法登入！"
+
+#: ku_user.cpp:211
+#, kde-format
+msgid ""
+"Cannot create %1 folder.\n"
+"Error: %2"
+msgstr ""
+"無法建立 %1 資料夾。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:219
+#, kde-format
+msgid ""
+"stat call on %1 failed.\n"
+"Error: %2"
+msgstr ""
+"呼叫 %1 的狀態失敗。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:234
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr "無法建立 %1： %2"
+
+#: ku_user.cpp:244
+#, kde-format
+msgid ""
+"Cannot change owner on mailbox: %1\n"
+"Error: %2"
+msgstr ""
+"無法改變郵箱 %1 之擁有者\n"
+"錯誤： %2"
+
+#: ku_user.cpp:250
+#, kde-format
+msgid ""
+"Cannot change permissions on mailbox: %1\n"
+"Error: %2"
+msgstr ""
+"無法改變郵箱 %1 之權限\n"
+"錯誤： %2"
+
+#: ku_user.cpp:265
+#, kde-format
+msgid "Folder %1 does not exist, cannot copy skeleton for %2."
+msgstr "沒有 %1 這個資料夾，無法為 %2 複製檔案架構（skeleton）。"
+
+#: ku_user.cpp:270
+#, kde-format
+msgid "Folder %1 does not exist, cannot copy skeleton."
+msgstr "沒有 %1 這個資料夾，無法複製檔案架構（skeleton）。"
+
+#: ku_user.cpp:288
+#, kde-format
+msgid ""
+"Cannot remove home folder %1.\n"
+"Error: %2"
+msgstr ""
+"無法移除家資料夾 %1 。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:292
+#, kde-format
+msgid "Removal of home folder %1 failed (uid = %2, gid = %3)."
+msgstr "移除 %1 家資料夾失敗 (uid = %2, gid = %3)。"
+
+#: ku_user.cpp:295
+#, kde-format
+msgid ""
+"stat call on file %1 failed.\n"
+"Error: %2"
+msgstr ""
+"取得 %1 檔案狀態失敗。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:313
+#, kde-format
+msgid ""
+"Cannot remove crontab %1.\n"
+"Error: %2"
+msgstr ""
+"無法移除 crontab %1 。\n"
+"錯誤： %2"
+
+#: ku_user.cpp:327
+#, kde-format
+msgid ""
+"Cannot remove mailbox %1.\n"
+"Error: %2"
+msgstr ""
+"無法移除郵箱 %1 。\n"
+"錯誤： %2"
+
+#: ku_userfiles.cpp:103
+#, fuzzy
+msgid ""
+"KUser sources were not configured.\n"
+"Set 'Password file' in Settings/Files"
+msgstr ""
+"KUser 來源尚未設定。\n"
+"本地端密碼來源設定為 %1\n"
+"本地端群組來源設定為 %2 。"
+
+#: ku_userfiles.cpp:111
+#, kde-format
+msgid ""
+"Stat call on file %1 failed: %2\n"
+"Check KUser settings."
+msgstr ""
+"呼叫檔案 %1 狀態失敗： %2\n"
+"請檢查 KUser 設置。"
+
+#: ku_userfiles.cpp:125
+#, fuzzy, kde-format
+msgid "Error opening %1 for reading.\n"
+msgstr "開啟 %1 以讀取時發生錯誤。"
+
+#: ku_userfiles.cpp:207
+#, kde-format
+msgid ""
+"No /etc/passwd entry for %1.\n"
+"Entry will be removed at the next `Save'-operation."
+msgstr ""
+"沒有 %1 的 /etc/passwd 項目。\n"
+"下一個『儲存』動作將移除項目。"
+
+#: ku_userfiles.cpp:441
+msgid "Unable to build password database."
+msgstr "無法建立密碼資料庫。"
+
+#: ku_userldap.cpp:228
+msgid "Loading Users From LDAP"
+msgstr "正在從 LDAP 載入用戶"
+
+#: ku_usermodel.cpp:48
+msgid "UID"
+msgstr "UID"
+
+#: ku_usermodel.cpp:49
+msgid "User Login"
+msgstr "用戶登入"
+
+#: ku_usermodel.cpp:50
+msgid "Full Name"
+msgstr "全名"
+
+#: ku_usermodel.cpp:51
+msgid "Home Directory"
+msgstr "家目錄"
+
+#: ku_usermodel.cpp:52
+msgid "Login Shell"
+msgstr "登入 Shell"
+
+#: ku_usermodel.cpp:55
+msgid "Samba Login Script"
+msgstr "Samba 登入程序檔"
+
+#: ku_usermodel.cpp:56
+msgid "Samba Profile Path"
+msgstr "Samba Profile 路徑"
+
+#: ku_usermodel.cpp:57
+msgid "Samba Home Drive"
+msgstr "Samba 家磁碟機"
+
+#: ku_usermodel.cpp:58
+msgid "Samba Home Path"
+msgstr "Samba 家路徑"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 33
+#: rc.cpp:3
+#, fuzzy
+msgid "User/group database locations"
+msgstr "用戶/群組資料庫來源:"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 45
+#: rc.cpp:6
+msgid "MD5 shadow passwords"
+msgstr "MD5 shadow 密碼"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 55
+#: rc.cpp:9
+msgid "Shadow group file:"
+msgstr "Shadow 群組檔案:"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 68
+#: rc.cpp:12
+msgid "Shadow password file:"
+msgstr "Shadow 密碼檔案:"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 81
+#: rc.cpp:15
+msgid "Group file:"
+msgstr "群組檔案:"
+
+#. i18n: tag string
+#. i18n: file ku_filessettings.ui line 91
+#: rc.cpp:18
+msgid "Password file:"
+msgstr "密碼檔案:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 33
+#: rc.cpp:21
+msgid "Source of user/group database:"
+msgstr "用戶/群組資料庫來源:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 54
+#: rc.cpp:30
+msgid "System"
+msgstr "系統"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 75
+#: rc.cpp:33
+msgid "First normal GID:"
+msgstr "第一個正常的 GID:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 85
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 106
+#: rc.cpp:36 rc.cpp:72
+msgid "Home path template:"
+msgstr "家路徑樣板:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 95
+#: rc.cpp:39
+msgid "Shell:"
+msgstr "Shell:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 112
+#: rc.cpp:42
+msgid "First normal UID:"
+msgstr "第一個正常的 UID:"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 140
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 60
+#: rc.cpp:48 rc.cpp:244
+msgid "Copy skeleton to home folder"
+msgstr "複製檔案架構至家資料夾"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 155
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 65
+#: rc.cpp:51 rc.cpp:250
+msgid "User private groups"
+msgstr "用戶私人群組"
+
+#. i18n: tag string
+#. i18n: file ku_generalsettings.ui line 162
+#: rc.cpp:54
+msgid "Default group:"
+msgstr "預設群組:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 39
+#: rc.cpp:60
+msgid "Manage Samba user accounts/groups"
+msgstr "管理 Samba 用戶帳號/群組"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 64
+#: rc.cpp:63
+msgid "Default login script:"
+msgstr "預設登入程序檔:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 90
+#: rc.cpp:69
+msgid "Profile path template:"
+msgstr "Profile 路徑樣板:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 142
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 304
+#: rc.cpp:75 rc.cpp:489
+msgid "Store LanManager hashed password"
+msgstr "儲存 LanManager 的已雜湊（hashed）密碼"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 180
+#: rc.cpp:81
+msgid "&Query Server"
+msgstr "查詢伺服器(&Q)"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 192
+#: rc.cpp:84
+msgid "Domain SID (you can obtain with 'net getlocalsid domain_name'):"
+msgstr "網域 SID（你可以『net getlocalsid domain_name』獲得）:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsamba.ui line 220
+#: rc.cpp:87
+msgid "Algorithmic RID base:"
+msgstr "算法 RID 基礎:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 37
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 168
+#: rc.cpp:90 rc.cpp:141
+msgid "cn"
+msgstr "cn"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 42
+#: rc.cpp:93
+msgid "gidNumber"
+msgstr "gidNumber"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 54
+#: rc.cpp:96
+msgid "Plain Text"
+msgstr "純文字"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 59
+#: rc.cpp:99
+msgid "CRYPT"
+msgstr "CRYPT"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 64
+#: rc.cpp:102
+msgid "MD5"
+msgstr "MD5"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 69
+#: rc.cpp:105
+msgid "SMD5"
+msgstr "SMD5"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 74
+#: rc.cpp:108
+msgid "SHA"
+msgstr "SHA"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 79
+#: rc.cpp:111
+msgid "SSHA"
+msgstr "SSHA"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 87
+#: rc.cpp:114
+msgid "User base:"
+msgstr "用戶基礎:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 97
+#: rc.cpp:117
+msgid "Group filter:"
+msgstr "群組過濾器:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 107
+#: rc.cpp:120
+msgid "Structural objectclass:"
+msgstr "結構性物件類別（Structural objectclass）:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 117
+#: rc.cpp:123
+msgid "User filter:"
+msgstr "用戶過濾器:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 134
+#: rc.cpp:126
+msgid "account"
+msgstr "帳號"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 139
+#: rc.cpp:129
+msgid "inetOrgPerson"
+msgstr "inetOrgPerson"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 147
+#: rc.cpp:132
+msgid "Group RDN prefix:"
+msgstr "群組 RDN 前置字元:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 158
+#: rc.cpp:135
+msgid "uid"
+msgstr "uid"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 163
+#: rc.cpp:138
+msgid "uidNumber"
+msgstr "uidNumber"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 176
+#: rc.cpp:144
+msgid "Group base:"
+msgstr "群組基礎:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 186
+#: rc.cpp:147
+msgid "User RDN prefix:"
+msgstr "用戶 RDN 前置字元:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 196
+#: rc.cpp:150
+msgid "Password hash:"
+msgstr "密碼雜湊（hash）:"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 208
+#: rc.cpp:153
+msgid "Manage shadowAccount objectclass"
+msgstr "管理 shadowAccount objectclass"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 215
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 225
+#: rc.cpp:156 rc.cpp:403
+msgid "Store the user's full name in the cn attribute"
+msgstr "在 cn 屬性中儲存用戶的全名"
+
+#. i18n: tag string
+#. i18n: file ku_ldapsettings.ui line 222
+#: rc.cpp:159
+msgid "Update the gecos attribute"
+msgstr "更新 gecos 屬性"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 41
+#: rc.cpp:162
+msgid "Time before password expires to issue an expire warning:"
+msgstr "密碼到期之前多久發出到期警告:"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 54
+#: rc.cpp:165
+msgid "Time when password expires after last password change:"
+msgstr "最後一次密碼更改之後密碼要多久才到期:"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 67
+#: rc.cpp:168
+msgid "Time when account will be disabled after expiration of password:"
+msgstr "密碼到期後多久帳號才停用:"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 112
+#: rc.cpp:183
+msgid "Time before password may not be changed after last password change:"
+msgstr "最後一次密碼更改後密碼多久不可變更:"
+
+#. i18n: tag string
+#. i18n: file ku_passwordpolicy.ui line 164
+#: rc.cpp:195
+msgid "Account will expire on:"
+msgstr "帳號將於此時間到期:"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 16
+#: rc.cpp:201
+msgid "Default connection"
+msgstr "預設連線"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 20
+#: rc.cpp:204
+msgid "Show system users"
+msgstr "顯示系統用戶"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 26
+#: rc.cpp:207
+msgid "The source of the user and group database"
+msgstr "用戶及群組資料庫的來源"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 27
+#: rc.cpp:210
+msgid ""
+"This option allows you to select where the user/group data stored. Currently "
+"three storage backends are supported. <BR><B>Files</B> stores user/group "
+"data in traditional /etc/passwd and /etc/group flat files. <BR><B>LDAP</B> "
+"stores data in a directory server using the posixAccount and posixGroup "
+"object classes; this backend allows the management of Samba users/groups via "
+"the sambaSamAccount object class.<BR><B>System</B> provides a read-only "
+"access to all users and groups which your installation knows about."
+msgstr ""
+"此選項讓你選擇在哪裡儲存用戶/群組資料。目前支援三種儲存後端。<BR><B>檔案</B>"
+"將用戶/群組資料儲存在傳統的 /etc/passwd 及 /etc/group 檔案。<BR><B>LDAP</B>將"
+"資料儲存在目錄伺服器的 posixAccount 及 posixGroup 物件類別中；此後端容許從 "
+"sambaSamAccount 物件類別管理 Samba 的用戶/群組。<BR><B>系統</B>提供你的套件安"
+"裝認識的所有用戶和群組的唯讀存取。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 36
+#: rc.cpp:213
+msgid "Shell"
+msgstr "Shell"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 37
+#: rc.cpp:216
+msgid ""
+"This option allows you to select the shell which will be the default for new "
+"users."
+msgstr "此選項讓你選取新用戶的預設 shell 。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 40
+#: rc.cpp:219
+msgid "Home path template"
+msgstr "家路徑樣板"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 41
+#: rc.cpp:223
+#, no-c-format
+msgid ""
+"This option specifies the UNIX home path template for new users. The '%U' "
+"macro will replaced with the actual user name."
+msgstr "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 45
+#: rc.cpp:226
+msgid "First UID"
+msgstr "第一個 UID"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 46
+#: rc.cpp:229
+msgid ""
+"This options specifies the first user ID where searching for an available "
+"UID starts."
+msgstr "此選項指定當搜尋可用 UID 時開始的第一個用戶 ID 。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 50
+#: rc.cpp:232
+msgid "First GID"
+msgstr "第一個 GID"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 51
+#: rc.cpp:235
+msgid ""
+"This options specifies the first group ID where searching for an available "
+"GID starts."
+msgstr "此選項指定當搜尋可用 GID 時開始的第一個群組 ID 。"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 56
+#: rc.cpp:241
+msgid ""
+"If this option is checked then a home directory will created for the new "
+"user."
+msgstr "如勾選此選項，會為新用戶建立家目錄。"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 61
+#: rc.cpp:247
+msgid ""
+"If this option is checked then the contents of the skeleton folder will "
+"copied to the new user's home directory"
+msgstr "如勾選此選項，檔案架構資料夾的內容會複製至新用戶的家目錄。"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 66
+#: rc.cpp:253
+msgid ""
+"If this option is enabled, new user creation will create a private group "
+"named as the user, and the primary group of the user will assigned to this "
+"private group."
+msgstr ""
+"如啟用此選項，建立新用戶時會同時建立和用戶同名的私人群組，而該用戶的主要群組"
+"會指派至此私人群組。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 70
+#: rc.cpp:256
+msgid "Default primary group"
+msgstr "預設主要群組"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 71
+#: rc.cpp:259
+msgid ""
+"This is the default primary group which will be assigned to a newly created "
+"user."
+msgstr "這是會指派至新建立的用戶的預設主要群組。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 76
+#: rc.cpp:262
+msgid "smin"
+msgstr "smin"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 80
+#: rc.cpp:265
+msgid "smax"
+msgstr "smax"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 84
+#: rc.cpp:268
+msgid "swarn"
+msgstr "swarn"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 88
+#: rc.cpp:271
+msgid "sinact"
+msgstr "sinact"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 92
+#: rc.cpp:274
+msgid "sexpire"
+msgstr "sexpire"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 93
+#: rc.cpp:277
+msgid "This setting is for specifying a date when user accounts will expire."
+msgstr "此設置指定用戶帳號到期的日子。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 97
+#: rc.cpp:280
+msgid "sneverexpire"
+msgstr "sneverexpire"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 98
+#: rc.cpp:283
+msgid "Check this if you want to user accounts never expire."
+msgstr "如你希望用戶帳號不會到期，勾選此項目。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 103
+#: rc.cpp:286
+msgid "Password file"
+msgstr "密碼檔案"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 104
+#: rc.cpp:289
+msgid "This specifies the users database file (usually /etc/passwd)."
+msgstr "此處指定用戶資料庫的檔案（通常是 /etc/passwd）。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 108
+#: rc.cpp:292
+msgid "Group file"
+msgstr "群組檔案"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 109
+#: rc.cpp:295
+msgid "This specifies the groups database file (usually /etc/group)."
+msgstr "此處指定群組資料庫的檔案（通常是 /etc/group）。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 113
+#: rc.cpp:298
+msgid "MD5 Shadow passwords"
+msgstr "MD5 Shadow 密碼"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 114
+#: rc.cpp:301
+msgid ""
+"Check this if you want the passwords in the shadow file MD5 hashed. Leave "
+"this unchecked if DES encryption should be used."
+msgstr ""
+"如你希望在 shadow 檔案中的密碼以 MD5 進行雜湊（hash），勾選此項。如使用 DES "
+"加密，不要選。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 117
+#: rc.cpp:304
+msgid "Shadow password file"
+msgstr "Shadow 密碼檔案"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 118
+#: rc.cpp:307
+msgid ""
+"Specifies the shadow password file (usually /etc/shadow). Leave this empty "
+"if your system does not use a shadow password file."
+msgstr ""
+"指定 shadow 密碼的檔案（通常是 /etc/shadow）。如你的系統不使用 shadow 密碼檔"
+"案，保持空白。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 122
+#: rc.cpp:310
+msgid "Group shadow file"
+msgstr "群組 Shadow 檔案"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 123
+#: rc.cpp:313
+msgid ""
+"Specifies the shadow group file (usually /etc/gshadow). Leave this empty if "
+"your system does not use a shadow group file."
+msgstr ""
+"指定 shadow 群組的檔案（通常是 /etc/gshadow）。如你的系統不使用 shadow 群組檔"
+"案，保持空白。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 128
+#: rc.cpp:316
+msgid "LDAP User"
+msgstr "LDAP 用戶"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 131
+#: rc.cpp:319
+msgid "LDAP Password"
+msgstr "LDAP 密碼"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 134
+#: rc.cpp:322
+msgid "LDAP SASL Realm"
+msgstr "LDAP SASL 領域"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 137
+#: rc.cpp:325
+msgid "LDAP Bind DN"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 140
+#: rc.cpp:328
+msgid "LDAP Host"
+msgstr "LDAP 主機"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 143
+#: rc.cpp:331
+msgid "LDAP Port"
+msgstr "LDAP 連接埠"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 147
+#: rc.cpp:334
+msgid "LDAP version"
+msgstr "LDAP 版本"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 151
+#: rc.cpp:337
+msgid "LDAP Size limit"
+msgstr "LDAP 大小限制"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 155
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 159
+#: rc.cpp:340 rc.cpp:343
+msgid "LDAP Time limit"
+msgstr "LDAP 時間限制"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 163
+#: rc.cpp:346
+msgid "LDAP Base DN"
+msgstr "LDAP 基礎 DN"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 166
+#: rc.cpp:349
+msgid "LDAP Filter"
+msgstr "LDAP 過濾器"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 169
+#: rc.cpp:352
+msgid "LDAP no encryption"
+msgstr "LDAP 不用加密"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 173
+#: rc.cpp:355
+msgid "LDAP TLS"
+msgstr "LDAP TLS"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 177
+#: rc.cpp:358
+msgid "LDAP SSL"
+msgstr "LDAP SSL"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 181
+#: rc.cpp:361
+msgid "LDAP Anonymous"
+msgstr "LDAP 匿名"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 185
+#: rc.cpp:364
+msgid "LDAP Simple auth"
+msgstr "LDAP 簡單認證"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 189
+#: rc.cpp:367
+msgid "LDAP SASL auth"
+msgstr "LDAP SASL 認證"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 193
+#: rc.cpp:370
+msgid "LDAP SASL mechanism"
+msgstr "LDAP SASL 機制"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 197
+#: rc.cpp:373
+msgid "LDAP User container"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 198
+#: rc.cpp:376
+msgid ""
+"This specifies where to store users' entries relative to the LDAP base DN."
+msgstr "此處指定用戶項目相對 LDAP 基礎 DN 的儲存位置。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 202
+#: rc.cpp:379
+msgid "LDAP User filter"
+msgstr "LDAP 用戶過濾器"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 203
+#: rc.cpp:382
+msgid "This specifies the filter used for user entries."
+msgstr "此處指定用於用戶項目的過濾器。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 206
+#: rc.cpp:385
+msgid "LDAP Group container"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 207
+#: rc.cpp:388
+msgid ""
+"This specifies where to store groups' entries relative to the LDAP base DN."
+msgstr "此處指定群組項目相對 LDAP 基礎 DN 的儲存位置。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 211
+#: rc.cpp:391
+msgid "LDAP Group filter"
+msgstr "LDAP 群組過濾器"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 212
+#: rc.cpp:394
+msgid "This specifies the filter used for group entries."
+msgstr "此處指定用於群組項目的過濾器。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 215
+#: rc.cpp:397
+msgid "LDAP User RDN prefix"
+msgstr "LDAP 用戶 RDN 前置字元"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 216
+#: rc.cpp:400
+msgid "This specifies what prefix will used for user entries."
+msgstr "此處指定用於用戶項目的前置字元。"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 226
+#: rc.cpp:406
+msgid ""
+"Check this if the user's full name should be stored in the cn (Canonical "
+"Name) attribute."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 230
+#: rc.cpp:409
+msgid "Update the gecos field"
+msgstr "更新 gecos 欄位"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 231
+#: rc.cpp:412
+msgid "Check this if the gecos attribute should be updated."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 235
+#: rc.cpp:415
+msgid "Manage LDAP shadowAccount objectclass"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 236
+#: rc.cpp:418
+msgid ""
+"Check this if the shadowAccount object should be used in the users' entries. "
+"It allows to enforce password change/expiration policies."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 240
+#: rc.cpp:421
+msgid "LDAP Structural objectclass"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 241
+#: rc.cpp:424
+msgid ""
+"This option allows to specify the structural objectclass used with users' "
+"entries. If you want to use these entries not just for authentication, but "
+"for an addressbook, too, then choose inetOrgPerson."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 249
+#: rc.cpp:427
+msgid "LDAP Group RDN prefix"
+msgstr "LDAP 群組 RDN 前置字元"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 250
+#: rc.cpp:430
+msgid "This specifies what prefix will used for group entries."
+msgstr "此處指定用於群組項目的前置字元。"
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 258
+#: rc.cpp:433
+msgid "LDAP Password hash method"
+msgstr "LDAP 密碼雜湊（hash）方法"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 259
+#: rc.cpp:436
+msgid "This specifies the password hashing method. The most secure is SSHA."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 271
+#: rc.cpp:439
+msgid "Enable samba account management"
+msgstr "啟用 samba 帳號管理"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 272
+#: rc.cpp:442
+msgid ""
+"Check this if you want to use the user/group entries in a Samba domain. "
+"KUser will create sambaSamAccount objectclass for each entry which is usable "
+"with the ldapsam passdb backend with Samba version greater than 3.0."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 275
+#: rc.cpp:445
+msgid "Samba domain name"
+msgstr "Samba 網域名稱"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 276
+#: rc.cpp:448
+msgid "This specifies the samba domain name."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 279
+#: rc.cpp:451
+msgid "Samba domain SID"
+msgstr "Samba 網域 SID"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 280
+#: rc.cpp:454
+msgid ""
+"This specifies the domain Security IDentifier. It is unique in a single "
+"domain. You can query the value of the domain SID with 'net getlocalsid "
+"domain_name'."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 283
+#: rc.cpp:457
+msgid "Algorithmic RID base"
+msgstr "算法 RID 基礎"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 284
+#: rc.cpp:460
+msgid ""
+"This value is an offset for the algorithmic mapping from uids and gids to "
+"rids. The default (and minimum) value is 1000, it must be even, and the LDAP "
+"database and smb.conf must store the same values."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 288
+#: rc.cpp:463
+msgid "Samba login script"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 289
+#: rc.cpp:466
+msgid ""
+"This specifies a name of a login script (in the `Netlogon` share) which will "
+"be executed as the user logs in to a Windows machine."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 292
+#: rc.cpp:469
+msgid "Samba home drive"
+msgstr "Samba 家磁碟機"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 293
+#: rc.cpp:472
+msgid ""
+"Specifies a drive letter where the user's home directory will automatically "
+"mapped when he/she logs into a Windows machine."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 296
+#: rc.cpp:475
+msgid "Samba profile path template"
+msgstr "Samba profile 路徑樣板"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 297
+#: rc.cpp:479
+#, no-c-format
+msgid ""
+"This specifies the location of the roaming profile of the user. The '%U' "
+"macro will be replaced with the actual user name."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kuser.kcfg line 300
+#: rc.cpp:482
+msgid "Samba home path template"
+msgstr "Samba 家路徑樣板"
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 301
+#: rc.cpp:486
+#, no-c-format
+msgid ""
+"This specifies the location of the home directory of the user. This field is "
+"meaningful only for Windows machines. The '%U' macro will be replaced with "
+"the actual user name."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file kuser.kcfg line 305
+#: rc.cpp:492
+msgid ""
+"Store the LanManager hashed password in the sambaLMPassword attribute. Check "
+"this if you have older clients (Win9x series and before) on your network."
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kuserui.rc line 4
+#: rc.cpp:495
+msgid "&File"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file kuserui.rc line 8
+#: rc.cpp:498
+msgid "&User"
+msgstr "用戶(&U)"
+
+#. i18n: tag text
+#. i18n: file kuserui.rc line 14
+#: rc.cpp:501
+msgid "&Group"
+msgstr "群組(&G)"
+
+#. i18n: tag text
+#. i18n: file kuserui.rc line 19
+#: rc.cpp:504
+#, fuzzy
+msgid "&Settings"
+msgstr "設置"
+
+#: rc.cpp:505
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jing-Jong Shyue,Chao-Hsiung Liao,Walter Cheuk"
+
+#: rc.cpp:506
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyue@sonoma.com.tw,pesder.liao@msa.hinet.net,wwycheuk@netvigator.com"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "未知"
+
+#~ msgid "LDAP Query"
+#~ msgstr "LDAP 查詢"
+
+#~ msgid ""
+#~ "Unable to process NIS group file without a minimum GID specified.\n"
+#~ "Please update KUser settings (File Source Settings)."
+#~ msgstr ""
+#~ "無法處理沒有指定最小 GID 的 NIS 群組檔案。\n"
+#~ "請更新 KUser 設置（檔案來源設置）。"
+
+#~ msgid ""
+#~ "Specifying NIS minimum GID requires NIS file(s).\n"
+#~ "Please update KUser settings (File Source Settings)."
+#~ msgstr ""
+#~ "指定 NIS 的最小 GID 時需要 NIS 檔案。\n"
+#~ "請更新 KUser 設置（檔案來源設置）。"
+
+#~ msgid "Unable to build NIS group databases."
+#~ msgstr "無法建立 NIS 群組資料庫。"
+
+#~ msgid ""
+#~ "Unable to process NIS passwd file without a minimum UID specified.\n"
+#~ "Please update KUser settings (Files)."
+#~ msgstr ""
+#~ "無法處理沒有指定最小 UID 的 NIS 密碼檔案。\n"
+#~ "請更新 KUser 設置（檔案）。"
+
+#~ msgid ""
+#~ "Specifying NIS minimum UID requires NIS file(s).\n"
+#~ "Please update KUser settings (Files)."
+#~ msgstr ""
+#~ "指定 NIS 的最小 UID 時需要 NIS 檔案。\n"
+#~ "請更新 KUser 設置（檔案）"
+
+#~ msgid "Unable to build password databases."
+#~ msgstr "無法建立密碼資料庫。"
+
+#~ msgid "Local User Database Files"
+#~ msgstr "本地端用戶資料庫檔案"
+
+#~ msgid "NIS Settings"
+#~ msgstr "NIS 設置"
+
+#~ msgid "NIS password source:"
+#~ msgstr "NIS 密碼來源:"
+
+#~ msgid "NIS group source:"
+#~ msgstr "NIS 群組來源:"
+
+#~ msgid "NIS minimum UID:"
+#~ msgstr "NIS 最小的 UID:"
+
+#~ msgid "NIS minimum GID:"
+#~ msgstr "NIS 最小的 GID:"
+
+#~ msgid "NIS password source"
+#~ msgstr "NIS 密碼來源"
+
+#~ msgid "NIS minimum UID"
+#~ msgstr "NIS 最小的 UID"
+
+#~ msgid "NIS group source"
+#~ msgstr "NIS 群組來源"
+
+#~ msgid "NIS minimum GID"
+#~ msgstr "NIS 最小的 GID"

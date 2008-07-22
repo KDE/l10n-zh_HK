@@ -1,0 +1,1236 @@
+# Chinese (Hong Kong) translation of kaudiocreator
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Tse-Chun Ho <saviro.tw@yahoo.com.tw>, 2002.
+# Walter Cheuk <wwycheuk@netvigator.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaudiocreator\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-03-07 20:17+0100\n"
+"PO-Revision-Date: 2006-01-20 00:09+0800\n"
+"Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: encodefileimp.cpp:31
+msgid "Encode File"
+msgstr "編碼檔案"
+
+#: encodefileimp.cpp:33
+msgid "&Encode File"
+msgstr "編碼檔案(&E)"
+
+#: encodefileimp.cpp:75 tracksimp.cpp:410
+#, kde-format
+msgid ""
+"%1 Job(s) have been started.  You can watch their progress in the jobs "
+"section."
+msgstr "%1 工作已經開始。  你可以在工作欄內看到進度。"
+
+#: encodefileimp.cpp:77 tracksimp.cpp:412
+msgid "Jobs have started"
+msgstr "工作已經開始"
+
+#: encoder.cpp:68
+msgid ""
+"No encoder has been selected.\n"
+"Please select an encoder in the configuration."
+msgstr ""
+"未有選擇編碼器。\n"
+"請在設定內選擇編碼器。"
+
+#: encoder.cpp:68 encoderconfigimp.cpp:169 encoderconfigimp.cpp:198
+msgid "No Encoder Selected"
+msgstr "未有選擇編碼器"
+
+#: encoder.cpp:147
+#, kde-format
+msgid "Encoding (%1): %2 - %3"
+msgstr "正在編碼 (%1): %2 - %3"
+
+#: encoder.cpp:187
+msgid "File Already Exists"
+msgstr "已有此檔案"
+
+#: encoder.cpp:187
+msgid "Sorry, file already exists. Please pick a new name:"
+msgstr "抱歉，已有此檔案。請選取新的名字:"
+
+#: encoder.cpp:201
+msgid "Cannot place file, unable to make directories."
+msgstr "無法放置檔案，無法建立目錄。"
+
+#: encoder.cpp:201 encoder.cpp:303 encoder.cpp:309 encoder.cpp:324
+msgid "Encoding Failed"
+msgstr "編碼失敗"
+
+#: encoder.cpp:303
+#, kde-format
+msgid ""
+"The selected encoder was not found.\n"
+"The wav file has been removed. Command was: %1"
+msgstr ""
+"找不到選擇的編碼器。\n"
+"wav 檔已經移除。指令是： %1"
+
+#: encoder.cpp:309
+msgid ""
+"The encoder exited with a error.  Please check that the file was created.\n"
+"Do you want to see the full encoder output?"
+msgstr ""
+"編碼器發生錯誤，並已關閉。請檢查檔案是否已建立。\n"
+"要觀看編碼器完整的輸出嗎？"
+
+#: encoder.cpp:309 encoder.cpp:324
+msgid "Show Output"
+msgstr "顯示輸出"
+
+#: encoder.cpp:309 encoder.cpp:324
+msgid "Skip Output"
+msgstr "跳過輸出"
+
+#: encoder.cpp:324
+msgid ""
+"The encoded file was not created.\n"
+"Please check the encoder options.\n"
+"The wav file has been removed.\n"
+"Do you want to see the full encoder output?"
+msgstr ""
+"編碼檔未建立。\n"
+"請檢查你的編碼選項。\n"
+"wav 檔已經移除。\n"
+"要觀看編碼器完整的輸出嗎？"
+
+#: encoderconfigimp.cpp:56
+msgid "Ogg Vorbis"
+msgstr ""
+
+#: encoderconfigimp.cpp:63
+msgid "MP3"
+msgstr ""
+
+#: encoderconfigimp.cpp:70
+msgid "WAV"
+msgstr ""
+
+#: encoderconfigimp.cpp:77
+msgid "FLAC"
+msgstr "FLAC"
+
+#: encoderconfigimp.cpp:151 encoderconfigimp.cpp:212
+msgid "Configure Encoder"
+msgstr "設定編碼器"
+
+#: encoderconfigimp.cpp:152 encoderconfigimp.cpp:213 kaudiocreator.cpp:316
+msgid "Encoder Configuration"
+msgstr "編碼器設定"
+
+#: encoderconfigimp.cpp:169 encoderconfigimp.cpp:198
+msgid "Please select an encoder."
+msgstr "請選擇編碼器。"
+
+#: encoderconfigimp.cpp:173
+msgid "At least one encoder must exist."
+msgstr "必須有至少一個編碼器。"
+
+#: encoderconfigimp.cpp:173
+msgid "Can Not Remove"
+msgstr "無法移除"
+
+#: encoderconfigimp.cpp:176
+msgid "Delete encoder?"
+msgstr "要刪除編碼器嗎？"
+
+#: encoderconfigimp.cpp:176
+msgid "Delete Encoder"
+msgstr "刪除編碼器"
+
+#: jobqueimp.cpp:103 jobqueimp.cpp:195 jobqueimp.cpp:253
+#, kde-format
+msgid "Number of jobs in the queue: %1"
+msgstr "在佇列中的工作數目： %1"
+
+#: jobqueimp.cpp:174
+#, kde-format
+msgid "KAudioCreator has not finished %1. Remove anyway?"
+msgstr "KAudioCreator 未完成 %1 。要移除嗎？"
+
+#: jobqueimp.cpp:174 jobqueimp.cpp:224
+msgid "Unfinished Job in Queue"
+msgstr "佇列中未完成的工作"
+
+#: jobqueimp.cpp:174 jobqueimp.cpp:224
+msgid "Keep"
+msgstr "保留"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 28
+#: jobqueimp.cpp:190 jobqueimp.cpp:249 rc.cpp:218
+msgid "No jobs are in the queue"
+msgstr "佇列中沒有工作"
+
+#: jobqueimp.cpp:224
+msgid "KAudioCreator has not finished all of the jobs. Remove them anyway?"
+msgstr "KAudioCreator 未完成所有工作。要全部移除嗎？"
+
+#: kaudiocreator.cpp:62
+msgid "&CD Tracks"
+msgstr "&CD 音軌"
+
+#: kaudiocreator.cpp:70
+msgid "&Jobs"
+msgstr "工作(&J)"
+
+#: kaudiocreator.cpp:99
+msgid "&Eject CD"
+msgstr "退出 CD (&E)"
+
+#: kaudiocreator.cpp:103
+msgid "&Configure KAudioCreator..."
+msgstr "設定 KAudio&Creator..."
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 161
+#: kaudiocreator.cpp:107 rc.cpp:354
+msgid "Select &All Tracks"
+msgstr "選擇所有音軌(&A)"
+
+#: kaudiocreator.cpp:112
+msgid "Deselect &All Tracks"
+msgstr "取消選擇所有音軌(&A)"
+
+#: kaudiocreator.cpp:119 kaudiocreator.cpp:129
+msgid "Rip &Selection"
+msgstr "擷取選擇的音軌(&S)"
+
+#: kaudiocreator.cpp:137
+msgid "Remove &Completed Jobs"
+msgstr "移除已完成的工作(&C)"
+
+#: kaudiocreator.cpp:141
+msgid "&Edit Album..."
+msgstr "編輯專輯(&E)..."
+
+#: kaudiocreator.cpp:147
+msgid "Encode &File..."
+msgstr "編碼檔案(&F)..."
+
+#: kaudiocreator.cpp:151
+msgid "&CDDB Lookup"
+msgstr "進行 &CDDB 查詢"
+
+#: kaudiocreator.cpp:172 kaudiocreator.cpp:214
+msgid "No Audio CD detected"
+msgstr "偵測不到音樂 CD"
+
+#: kaudiocreator.cpp:212
+msgid "CD Inserted"
+msgstr "已插入 CD"
+
+#: kaudiocreator.cpp:221
+#, fuzzy, kde-format
+#| msgid "Delete encoder?"
+msgid "Default encoder: %1"
+msgstr "要刪除編碼器嗎？"
+
+#: kaudiocreator.cpp:226
+msgid "Idle."
+msgstr "閒置。"
+
+#: kaudiocreator.cpp:235
+#, kde-format
+msgid "Ripping (%1 active, %2 queued)"
+msgstr "正在擷取 (%1 個進行中， %2 已排程)"
+
+#: kaudiocreator.cpp:239
+#, kde-format
+msgid "Encoding (%1 active, %2 queued)"
+msgstr "正在編碼 (%1 個進行中， %2 已排程)"
+
+#: kaudiocreator.cpp:257
+msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
+msgstr "在佇列中尚有未完成的工作。真的要離開嗎？"
+
+#: kaudiocreator.cpp:257
+msgid "Unfinished Jobs in Queue"
+msgstr "佇列中未完成的工作"
+
+#. i18n: tag string
+#. i18n: file general.ui line 13
+#: kaudiocreator.cpp:293 rc.cpp:118
+msgid "General"
+msgstr "一般"
+
+#: kaudiocreator.cpp:294
+msgid "General Configuration"
+msgstr "一般設定"
+
+#: kaudiocreator.cpp:296
+msgid "CD"
+msgstr "CD"
+
+#: kaudiocreator.cpp:297
+msgid "CD Configuration"
+msgstr "CD 設定"
+
+#: kaudiocreator.cpp:307
+msgid "CDDB"
+msgstr "CDDB"
+
+#: kaudiocreator.cpp:307
+msgid "CDDB Configuration"
+msgstr "CDDB 設定"
+
+#: kaudiocreator.cpp:313
+msgid "Ripper"
+msgstr "擷取器"
+
+#: kaudiocreator.cpp:313
+msgid "Ripper Configuration"
+msgstr "擷取器設定"
+
+#: kaudiocreator.cpp:316
+msgid "Encoder"
+msgstr "編碼器"
+
+#: main.cpp:30
+msgid "KAudioCreator"
+msgstr "KAudioCreator"
+
+#: main.cpp:31
+msgid "CD ripper and audio encoder frontend"
+msgstr "CD 擷取器及音效編碼器前端"
+
+#: main.cpp:31
+msgid "(c) 2003-2005, Benjamin Meyer"
+msgstr ""
+
+#: main.cpp:33
+msgid "Benjamin Meyer"
+msgstr ""
+
+#: main.cpp:33
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:39
+msgid "CD device, can be a path or a media:/ URL"
+msgstr "CD 裝置，可以是路徑或 media:/ URL"
+
+#. i18n: tag string
+#. i18n: file cdconfig.ui line 28
+#: rc.cpp:3
+msgid "&Perform CDDB lookup automatically"
+msgstr "自動進行 CDDB 查詢(&P)"
+
+#. i18n: tag string
+#. i18n: file cdconfig.ui line 35
+#: rc.cpp:6
+msgid "&Automatically rip all tracks upon a successful CDDB retrieval"
+msgstr "取得 CDDB 資訊後自動擷取所有音軌(&A)"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 33
+#: rc.cpp:9
+msgid "&File to encode:"
+msgstr "要編碼的檔案(&F):"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 48
+#. i18n: tag string
+#. i18n: file tracks.ui line 125
+#: rc.cpp:12 rc.cpp:345
+msgid "Track"
+msgstr "音軌"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 67
+#: rc.cpp:15
+msgid "Track:"
+msgstr "音軌:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 77
+#. i18n: tag string
+#. i18n: file encodefile.ui line 187
+#. i18n: tag string
+#. i18n: file infodialog.ui line 40
+#. i18n: tag string
+#. i18n: file infodialog.ui line 168
+#: rc.cpp:18 rc.cpp:42 rc.cpp:179 rc.cpp:203
+msgid "Comment:"
+msgstr "註解:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 90
+#. i18n: tag string
+#. i18n: file infodialog.ui line 56
+#: rc.cpp:21 rc.cpp:182
+msgid "Title:"
+msgstr "標題:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 100
+#. i18n: tag string
+#. i18n: file encodefile.ui line 134
+#. i18n: tag string
+#. i18n: file infodialog.ui line 72
+#. i18n: tag string
+#. i18n: file infodialog.ui line 103
+#: rc.cpp:24 rc.cpp:30 rc.cpp:185 rc.cpp:191
+msgid "Artist:"
+msgstr "藝人:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 119
+#. i18n: tag string
+#. i18n: file infodialog.ui line 91
+#: rc.cpp:27 rc.cpp:188
+msgid "Album"
+msgstr "專輯"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 144
+#. i18n: tag string
+#. i18n: file infodialog.ui line 116
+#: rc.cpp:33 rc.cpp:194
+msgid "Album:"
+msgstr "專輯:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 164
+#. i18n: tag string
+#. i18n: file infodialog.ui line 139
+#: rc.cpp:36 rc.cpp:197
+msgid "Year:"
+msgstr "年份:"
+
+#. i18n: tag string
+#. i18n: file encodefile.ui line 174
+#. i18n: tag string
+#. i18n: file infodialog.ui line 152
+#: rc.cpp:39 rc.cpp:200
+msgid "Genre:"
+msgstr "風格:"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 19
+#: rc.cpp:45
+#, fuzzy
+#| msgid "Encoder Configuration"
+msgid "Add a new encoder configuration."
+msgstr "編碼器設定"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 22
+#: rc.cpp:48
+msgid "&Add..."
+msgstr "加入(&A)..."
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 29
+#: rc.cpp:51
+#, fuzzy
+#| msgid "At least one encoder must exist."
+msgid "Remove encoder from list."
+msgstr "必須有至少一個編碼器。"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 32
+#: rc.cpp:54
+msgid "&Remove"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 39
+#: rc.cpp:57
+msgid "Set encoder details."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 42
+#: rc.cpp:60
+msgid "&Configure..."
+msgstr "設定(&C)..."
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 51
+#: rc.cpp:63
+#, fuzzy
+#| msgid "Current encoder:"
+msgid "Current default encoder:"
+msgstr "當前編碼器:"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 92
+#: rc.cpp:66
+msgid "Encoded File Location"
+msgstr "已編碼檔案的位置"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 98
+#: rc.cpp:69
+msgid "Location:"
+msgstr "位置:"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 111
+#: rc.cpp:72
+msgid "&Wizard"
+msgstr "精靈(&W)"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 121
+#: rc.cpp:75
+msgid "&Number of wav files to encode at a time:"
+msgstr "同一時間編碼的 wav 檔案數目(&N):"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 144
+#: rc.cpp:78
+#, fuzzy
+#| msgid "Encode File"
+msgid "Encoder nice level"
+msgstr "編碼檔案"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 177
+#: rc.cpp:81
+msgid "-19"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 203
+#: rc.cpp:84
+#, fuzzy
+#| msgid "Current encoder:"
+msgid "Current:"
+msgstr "當前編碼器:"
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 216
+#: rc.cpp:87
+msgid "0"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file encoderconfig.ui line 242
+#: rc.cpp:90
+msgid "19"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 19
+#: rc.cpp:94
+#, no-c-format
+msgid "app.exe %f %o"
+msgstr "app.exe %f %o"
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 32
+#: rc.cpp:97
+msgid "Unknown Encoder"
+msgstr "未知的編碼器"
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 39
+#: rc.cpp:100
+msgid "wav"
+msgstr "wav"
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 46
+#: rc.cpp:103
+msgid "Extension:"
+msgstr "延伸檔名:"
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 56
+#: rc.cpp:106
+msgid "Command line:"
+msgstr "指令列:"
+
+#. i18n: tag string
+#. i18n: file encoderedit.ui line 66
+#: rc.cpp:109
+msgid "Name:"
+msgstr "名稱:"
+
+#. i18n: tag string
+#. i18n: file encoderoutput.ui line 13
+#: rc.cpp:112
+msgid "Encoder Output"
+msgstr "編碼器輸出"
+
+#. i18n: tag string
+#. i18n: file encoderoutput.ui line 65
+#. i18n: tag string
+#. i18n: file infodialog.ui line 222
+#. i18n: tag string
+#. i18n: file wizard.ui line 270
+#: rc.cpp:115 rc.cpp:212 rc.cpp:413
+msgid "&OK"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file general.ui line 19
+#: rc.cpp:121
+msgid "&Automatically remove jobs when finished"
+msgstr "完成後自動移除工作(&A)"
+
+#. i18n: tag string
+#. i18n: file general.ui line 26
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 22
+#: rc.cpp:124 rc.cpp:248
+msgid "Prompt if information is not complete"
+msgstr "資訊不完整提示"
+
+#. i18n: tag string
+#. i18n: file general.ui line 33
+#: rc.cpp:127
+msgid "File Regular Expression Replacement"
+msgstr "檔案正規式替代"
+
+#. i18n: tag string
+#. i18n: file general.ui line 51
+#: rc.cpp:130
+msgid "Selection:"
+msgstr "選擇:"
+
+#. i18n: tag string
+#. i18n: file general.ui line 62
+#: rc.cpp:133
+msgid ""
+"Regular expression used on all file names. For example using selection \" \" "
+"and replace with \"_\" would replace all the spaces with underlines.\n"
+msgstr ""
+"用於所有檔案名稱的正規表示式。例如使用選擇 \" \" 並以 \"_\" 代替會將所有空格"
+"以底線代替。\n"
+
+#. i18n: tag string
+#. i18n: file general.ui line 75
+#: rc.cpp:137
+msgid "Input:"
+msgstr "輸入:"
+
+#. i18n: tag string
+#. i18n: file general.ui line 85
+#: rc.cpp:140
+msgid "Output:"
+msgstr "輸出:"
+
+#. i18n: tag string
+#. i18n: file general.ui line 95
+#: rc.cpp:143
+msgid "Example"
+msgstr "範例"
+
+#. i18n: tag string
+#. i18n: file general.ui line 105
+#. i18n: tag string
+#. i18n: file general.ui line 115
+#: rc.cpp:146 rc.cpp:149
+msgid "Cool artist - example audio file.wav"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file general.ui line 128
+#: rc.cpp:152
+msgid "Replace with:"
+msgstr "以此取代:"
+
+#. i18n: tag string
+#. i18n: file general.ui line 151
+#: rc.cpp:155
+msgid "Automatically Separate Multi-Artist CDDB Entries"
+msgstr "自動分開多藝人的 CDDB 項目"
+
+#. i18n: tag string
+#. i18n: file general.ui line 163
+#: rc.cpp:158
+msgid "Format"
+msgstr "格式"
+
+#. i18n: tag string
+#. i18n: file general.ui line 169
+#: rc.cpp:161
+msgid "Title - Artist"
+msgstr "標題 - 藝人"
+
+#. i18n: tag string
+#. i18n: file general.ui line 176
+#: rc.cpp:164
+msgid "Artist - Title"
+msgstr "藝人 - 標題"
+
+#. i18n: tag string
+#. i18n: file general.ui line 203
+#: rc.cpp:167
+msgid "Delimiter:"
+msgstr "分隔字元:"
+
+#. i18n: tag string
+#. i18n: file general.ui line 213
+#: rc.cpp:170
+msgid "Generic artist:"
+msgstr "一般藝人:"
+
+#. i18n: tag string
+#. i18n: file infodialog.ui line 16
+#: rc.cpp:173
+msgid "Album Editor"
+msgstr "專輯編輯器"
+
+#. i18n: tag string
+#. i18n: file infodialog.ui line 31
+#: rc.cpp:176
+msgid "Current Track"
+msgstr "當前音軌"
+
+#. i18n: tag string
+#. i18n: file infodialog.ui line 208
+#: rc.cpp:206
+msgid "&Previous Track"
+msgstr "前一音軌(&P)"
+
+#. i18n: tag string
+#. i18n: file infodialog.ui line 215
+#: rc.cpp:209
+msgid "&Next Track"
+msgstr "下一音軌(&N)"
+
+#. i18n: tag string
+#. i18n: file infodialog.ui line 235
+#. i18n: tag string
+#. i18n: file wizard.ui line 283
+#: rc.cpp:215 rc.cpp:416
+msgid "&Cancel"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 54
+#: rc.cpp:221
+msgid "Job"
+msgstr "工作"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 59
+#: rc.cpp:224
+msgid "Progress"
+msgstr "進度"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 64
+#: rc.cpp:227
+msgid "Description"
+msgstr "說明"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 90
+#: rc.cpp:230
+msgid "Remove Completed Jobs"
+msgstr "移除已完成的工作"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 97
+#: rc.cpp:233
+msgid "Remove All Jobs"
+msgstr "移除所有工作"
+
+#. i18n: tag string
+#. i18n: file jobque.ui line 104
+#: rc.cpp:236
+msgid "Remove Selected Jobs"
+msgstr "移除選擇的工作"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 10
+#: rc.cpp:239
+msgid "Perform automatic CDDB lookups."
+msgstr "進行自動的 CDDB 查詢。"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 14
+#: rc.cpp:242
+msgid "Automatically rip all tracks upon a successful CDDB retrieval"
+msgstr "取得 CDDB 資訊後自動擷取所有音軌"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 18
+#: rc.cpp:245
+#, fuzzy
+#| msgid "CD device"
+msgid "Last used CD device"
+msgstr "CD 裝置"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 28
+#: rc.cpp:251
+msgid "Automatically remove jobs when finished"
+msgstr "完成後自動移除工作"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 32
+#: rc.cpp:254
+msgid "Regexp to match file names with"
+msgstr "用於配對檔案名稱的正規表示式（Regexp）:"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 35
+#: rc.cpp:257
+msgid "String used to replace the parts that match the selection regexp"
+msgstr "用來替代符合選擇正規表示式部份的字串"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 55
+#: rc.cpp:260
+msgid "Currently selected encoder"
+msgstr "當前選擇的編碼器"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 59
+#: rc.cpp:263
+msgid "Last encoder in the list"
+msgstr "清單中最後的編碼器"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 63
+#: rc.cpp:266
+msgid "Number of files to encode at a time"
+msgstr "同一時間編碼的 wav 檔案數目"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 67
+#: rc.cpp:269
+msgid "Location pattern for encoded files"
+msgstr "編碼檔案的位置樣式"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 71
+#: rc.cpp:272
+msgid "Encoder priority"
+msgstr "編碼器優先權"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 77
+#: rc.cpp:275
+msgid "Enable full decoder debugging"
+msgstr "啟用完整解碼器偵錯"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 83
+#: rc.cpp:278
+msgid "Number of tracks to rip at a time"
+msgstr "同一時間擷取音軌的數目"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 87
+#: rc.cpp:281
+msgid "Beep after rip"
+msgstr "擷取後發出「嗶」聲"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 91
+#: rc.cpp:284
+msgid "Eject CD after last track is ripped"
+msgstr "完成擷取後退出 CD"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 95
+#: rc.cpp:287
+msgid "Auto-eject delay"
+msgstr "自動退出延遲"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 99
+#: rc.cpp:290
+msgid "Specify temporary directory"
+msgstr "指定暫存目錄"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator.kcfg line 103
+#: rc.cpp:293
+msgid "Location of temporary directory to use"
+msgstr "要使用的暫存目錄位置"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator_encoders.kcfg line 12
+#: rc.cpp:296
+msgid "Name of the encoder"
+msgstr "編碼器名稱"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator_encoders.kcfg line 16
+#: rc.cpp:299
+msgid "Command line to invoke encoder"
+msgstr "叫出編碼器的指令列"
+
+#. i18n: tag label
+#. i18n: file kaudiocreator_encoders.kcfg line 20
+#: rc.cpp:302
+msgid "File extension"
+msgstr "檔案延伸檔名"
+
+#. i18n: tag Text
+#. i18n: file kaudiocreatorui.rc line 14
+#: rc.cpp:306
+msgid "&Program"
+msgstr "程式(&P)"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 16
+#: rc.cpp:309
+msgid "&Beep after each rip is done"
+msgstr "每次擷取完畢後發出「嗶」聲(&B)"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 40
+#: rc.cpp:312
+msgid "&Number of tracks to rip at a time:"
+msgstr "同一時間擷取的音軌數目(&N):"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 65
+#: rc.cpp:315
+msgid "&Auto-eject CD after last track is ripped"
+msgstr "擷取完成後自動退出 CD (&A)"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 92
+#: rc.cpp:318
+msgid "Auto-&eject delay:"
+msgstr "自動退出延遲(&E):"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 108
+#: rc.cpp:321
+msgid " seconds"
+msgstr " 秒"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 120
+#: rc.cpp:324
+#, fuzzy
+#| msgid "Default Temporary Directory"
+msgid "Use default temporary directory"
+msgstr "預設暫存目錄"
+
+#. i18n: tag string
+#. i18n: file ripconfig.ui line 132
+#: rc.cpp:327
+#, fuzzy
+#| msgid "Specify temporary directory"
+msgid "Temporary directory:"
+msgstr "指定暫存目錄"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 13
+#: rc.cpp:330
+msgid "Tracks"
+msgstr "音軌"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 39
+#: rc.cpp:333
+msgid "Device:"
+msgstr "裝置:"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 59
+#: rc.cpp:336
+msgid "/dev/cdrom"
+msgstr "/dev/cdrom"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 91
+#: rc.cpp:339
+msgid "Unknown Artist - Unknown Album"
+msgstr "不明的藝人 - 不明的專輯"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 120
+#: rc.cpp:342 tracksimp.cpp:375
+msgid "Rip"
+msgstr "擷取"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 130
+#: rc.cpp:348
+msgid "Length"
+msgstr "長度"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 135
+#: rc.cpp:351
+msgid "Title"
+msgstr "標題"
+
+#. i18n: tag string
+#. i18n: file tracks.ui line 168
+#: rc.cpp:357
+msgid "&Deselect All Tracks"
+msgstr "取消選擇所有音軌(&D)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 19
+#: rc.cpp:360
+msgid "File Location Wizard"
+msgstr "檔案位置精靈"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 46
+#: rc.cpp:364
+#, fuzzy, no-c-format
+#| msgid ""
+#| "When files have finished being processed, they are saved based upon the "
+#| "<i>File Location</i>.  Information about the track should be used within "
+#| "that text.  There are eleven special words starting with a % that will be "
+#| "replaced with the corresponding track's information.  Each of the buttons "
+#| "below will insert its replacement word into the <i>File Location</i> "
+#| "where the cursor is.  Use at least one replacement string to make sure "
+#| "that the <i>File Location</i> is unique."
+msgid ""
+"When files have finished being processed, they are saved based upon the "
+"<i>File Location</i>.  Information about the track should be used within "
+"that text.  There are eleven special words starting with a % that will be "
+"replaced with the corresponding track's information.  Each of the buttons "
+"below will insert its replacement word into the <i>File Location</i> where "
+"the cursor is.  Use at least one replacement string to make sure that the "
+"<i>File Location</i> is unique."
+msgstr ""
+"檔案完成處理後會儲存在<i>檔案位置</i>。音軌的資訊應用於此文字內。有十一個以 "
+"% 開首的特別字會以對應的音軌資訊代替。以下的每個按鈕會將替代的字插入<i>檔案位"
+"置</i>中游標的位置。請使用至少一個替代字串以確保產生的<i>檔案位置</i>是獨一無"
+"二的。"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 95
+#: rc.cpp:367
+msgid "&File location:"
+msgstr "檔案位置(&F):"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 108
+#: rc.cpp:371
+#, no-c-format
+msgid "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
+msgstr "~/%{延伸檔名}/%{藝人}/%{專輯}/%{藝人} - %{專輯}.m3u"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 117
+#: rc.cpp:374
+msgid "Example: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
+msgstr "範例: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 141
+#: rc.cpp:377
+msgid "&Artist"
+msgstr "藝人(&A)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 148
+#: rc.cpp:380
+msgid "&Home Folder"
+msgstr "家資料夾(&H)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 155
+#: rc.cpp:383
+msgid "&Track Number"
+msgstr "音軌編號(&T)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 162
+#: rc.cpp:386
+msgid "&Extension"
+msgstr "延伸檔名(&E)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 169
+#: rc.cpp:389
+msgid "Track T&itle"
+msgstr "音軌標題(&T)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 176
+#: rc.cpp:392
+msgid "T&rack Comment"
+msgstr "音軌註解(&R)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 183
+#: rc.cpp:395
+msgid "&Genre"
+msgstr "風格(&G)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 190
+#: rc.cpp:398
+msgid "&Year"
+msgstr "年份(&Y)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 197
+#: rc.cpp:401
+msgid "Al&bum"
+msgstr "專輯(&B)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 204
+#: rc.cpp:404
+msgid "Trac&k Artist"
+msgstr "音軌藝人(&K)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 211
+#: rc.cpp:407
+msgid "Co&mment"
+msgstr "註解(&M)"
+
+#. i18n: tag string
+#. i18n: file wizard.ui line 218
+#: rc.cpp:410
+#, fuzzy
+#| msgid "Artist - Title"
+msgid "Arti&st's Initial"
+msgstr "藝人 - 標題"
+
+#: rc.cpp:417
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tse-Chun Ho,Walter Cheuk"
+
+#: rc.cpp:418
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
+
+#: ripper.cpp:140
+#, kde-format
+msgid "Ripping: %1 - %2"
+msgstr "正在擷取: %1 - %2"
+
+#: tracksimp.cpp:91
+#, fuzzy
+#| msgid "No Encoder Selected"
+msgid "none detected"
+msgstr "未有選擇編碼器"
+
+#: tracksimp.cpp:112
+#, fuzzy
+msgid "No disc"
+msgstr "沒有碟片"
+
+#: tracksimp.cpp:199
+#, kde-format
+msgid ""
+"CDROM read or access error (or no audio disk in drive).\n"
+"Please make sure you have access permissions to:\n"
+"%1"
+msgstr ""
+"讀取或存取 CDROM 時發生錯誤（或光碟機中沒有音樂光碟）。\n"
+"請確定你對以下裝置的有存取權限:\n"
+"%1"
+
+#: tracksimp.cpp:202
+msgid "Error"
+msgstr ""
+
+#: tracksimp.cpp:211
+msgid "Please insert a disk."
+msgstr "請插入光碟。"
+
+#: tracksimp.cpp:212 tracksimp.cpp:236
+msgid "CDDB Failed"
+msgstr "CDDB 失敗"
+
+#: tracksimp.cpp:236
+msgid "Unable to retrieve CDDB information."
+msgstr "無法取得 CDDB 資訊。"
+
+#: tracksimp.cpp:256
+msgid "Select CDDB entry"
+msgstr "選擇 CDDB 項目"
+
+#: tracksimp.cpp:257
+msgid "Select a CDDB entry:"
+msgstr "選擇 CDDB 項目:"
+
+#: tracksimp.cpp:298
+msgid "CD Editor"
+msgstr "CD 編輯器"
+
+#: tracksimp.cpp:348
+msgid "No tracks have been selected.  Would you like to rip the entire CD?"
+msgstr ""
+
+#: tracksimp.cpp:349
+msgid "No Tracks Selected"
+msgstr "未有選擇音軌"
+
+#: tracksimp.cpp:349
+#, fuzzy
+msgid "Rip CD"
+msgstr "擷取"
+
+#: tracksimp.cpp:359
+msgid "Could not find audiocd:/ protocol. Please install the audiocd ioslave"
+msgstr ""
+
+#: tracksimp.cpp:360
+msgid "Protocol Not Found"
+msgstr ""
+
+#: tracksimp.cpp:375
+#, kde-format
+msgid ""
+"Part of the album is not set: %1.\n"
+" (To change album information click the \"Edit Information\" button.)\n"
+" Would you like to rip the selected tracks anyway?"
+msgstr ""
+"專輯的某部份未設定： %1。\n"
+"（要改變專輯資訊，點選「編輯資訊」按鈕。）\n"
+"你還是要擷取所選的音軌嗎？"
+
+#: tracksimp.cpp:375
+msgid "Album Information Incomplete"
+msgstr "專輯資訊不完整"
+
+#: tracksimp.cpp:456
+msgid " - "
+msgstr ""
+
+#: wizard.cpp:126
+#, kde-format
+msgid "Example: %1"
+msgstr "範例: %1"
+
+#: job.h:32
+msgid "Other"
+msgstr "其他"
+
+#~ msgid "Encoder Priority"
+#~ msgstr "編碼器優先權"
+
+#~ msgid "Highest"
+#~ msgstr "最高"
+
+#~ msgid "Lowest"
+#~ msgstr "最低"
+
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgid "The output...."
+#~ msgstr "輸出結果..."
+
+#, fuzzy
+#~ msgid "Wav"
+#~ msgstr "wav"
