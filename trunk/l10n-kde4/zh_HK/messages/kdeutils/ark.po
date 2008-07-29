@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-22 05:29+0200\n"
+"POT-Creation-Date: 2008-07-29 08:30+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,86 +15,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/main.cpp:32
+#: app/batchextract.cpp:65 app/batchextract.cpp:83
+#, fuzzy
+#| msgid "Save Archive?"
+msgid "Source archive"
+msgstr "儲存壓縮檔？"
+
+#: app/batchextract.cpp:66 app/batchextract.cpp:84
+#, fuzzy
+#| msgid "Destination folder: "
+msgid "Destination"
+msgstr "目的地資料夾："
+
+#: app/main.cpp:33
 msgid "Ark"
 msgstr "Ark"
 
-#: app/main.cpp:33
+#: app/main.cpp:34
 msgid "KDE Archiving tool"
 msgstr "KDE 壓縮檔工具"
 
-#: app/main.cpp:35
+#: app/main.cpp:36
 #, fuzzy
 #| msgid "(c) 1997-2003, The Various Ark Developers"
 msgid "(c) 1997-2008, The Various Ark Developers"
 msgstr "(c) 1997-2003, 各位 Ark 開發者"
 
-#: app/main.cpp:40
+#: app/main.cpp:41
 msgid "Henrique Pinto"
 msgstr ""
 
-#: app/main.cpp:41
+#: app/main.cpp:42
 msgid "Maintainer"
 msgstr "維護人"
 
-#: app/main.cpp:43
+#: app/main.cpp:44
 msgid "Helio Chissini de Castro"
 msgstr ""
 
-#: app/main.cpp:44
+#: app/main.cpp:45
 msgid "Former maintainer"
 msgstr "前維護人"
 
-#: app/main.cpp:46
+#: app/main.cpp:47
 msgid "Georg Robbers"
 msgstr ""
 
-#: app/main.cpp:49
+#: app/main.cpp:50
 msgid "Roberto Selbach Teixeira"
 msgstr ""
 
-#: app/main.cpp:52
+#: app/main.cpp:53
 msgid "Francois-Xavier Duranceau"
 msgstr ""
 
-#: app/main.cpp:55
+#: app/main.cpp:56
 msgid "Emily Ezust (Corel Corporation)"
 msgstr ""
 
-#: app/main.cpp:58
+#: app/main.cpp:59
 msgid "Michael Jarrett (Corel Corporation)"
 msgstr ""
 
-#: app/main.cpp:61
+#: app/main.cpp:62
 msgid "Robert Palmbos"
 msgstr ""
 
-#: app/main.cpp:65
+#: app/main.cpp:66
 msgid "Bryce Corkins"
 msgstr ""
 
-#: app/main.cpp:66
+#: app/main.cpp:67
 msgid "Icons"
 msgstr "圖示"
 
-#: app/main.cpp:68
+#: app/main.cpp:69
 msgid "Liam Smit"
 msgstr ""
 
-#: app/main.cpp:69
+#: app/main.cpp:70
 msgid "Ideas, help with the icons"
 msgstr "概念、說明及圖示"
 
-#: app/main.cpp:71
+#: app/main.cpp:72
 msgid "Andrew Smith"
 msgstr ""
 
-#: app/main.cpp:72
+#: app/main.cpp:73
 msgid "bkisofs code"
 msgstr ""
 
-#: app/main.cpp:80
+#: app/main.cpp:81
 msgid "URL of an archive to be opened"
+msgstr ""
+
+#: app/main.cpp:82
+msgid "Show the extract dialog after opening archive"
+msgstr ""
+
+#: app/main.cpp:83
+msgid ""
+"Destination folder to extract to. Defaults to current path if not specified."
+msgstr ""
+
+#: app/main.cpp:84
+msgid ""
+"Use the batch interface instead of the usual dialog. This option is implied "
+"if more than one url is specified"
+msgstr ""
+
+#: app/main.cpp:85
+#, fuzzy
+#| msgid "Open destination folder after extraction"
+msgid "Options for batch extraction:"
+msgstr "解壓後開啟目的地資料夾"
+
+#: app/main.cpp:86
+msgid ""
+"Archive contents will be read, and if detected to not be a single folder "
+"archive, a subfolder by the name of the archive will be created."
+msgstr ""
+
+#: app/main.cpp:87
+msgid "Create a subfolder under the destination directory and extract here."
 msgstr ""
 
 #: app/mainwindow.cpp:73
@@ -118,52 +161,58 @@ msgstr ""
 msgid "Open an archive"
 msgstr "開啟「壓縮檔」"
 
-#: kerfuffle/jobs.cpp:40
+#: kerfuffle/extractiondialog.cpp:53
+msgid "Extract"
+msgstr "解開"
+
+#: kerfuffle/extractiondialog.cpp:90
+#, fuzzy
+#| msgid "Extract all files"
+msgid "Extract multiple archives"
+msgstr "解開所有檔案"
+
+#: kerfuffle/jobs.cpp:44
 msgid "Listing entries"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:68
+#: kerfuffle/jobs.cpp:100
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:72
+#: kerfuffle/jobs.cpp:104
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:116
+#: kerfuffle/jobs.cpp:148
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:157
+#: kerfuffle/jobs.cpp:189
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/archivemodel.cpp:225
+#: part/archivemodel.cpp:237
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:227
+#: part/archivemodel.cpp:239
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
-
-#: part/extractiondialog.cpp:41
-msgid "Extract"
-msgstr "解開"
 
 #: part/infopanel.cpp:59
 msgid "No archive loaded"
@@ -206,13 +255,17 @@ msgstr ""
 msgid "<b>Target:</b> %1<br/>"
 msgstr ""
 
-#: part/jobtracker.cpp:85
+#: part/infopanel.cpp:200
+msgid "<b>Password protected:</b> Yes<br/>"
+msgstr ""
+
+#: part/jobtracker.cpp:91
 #, fuzzy
 #| msgid "Open extract dialog, quit when finished"
 msgid "Operation finished."
 msgstr "開啟解壓對話視窗，完成後離開"
 
-#: part/part.cpp:118
+#: part/part.cpp:147
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -220,67 +273,83 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:120
+#: part/part.cpp:149
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:125
+#: part/part.cpp:154
 msgid "E&xtract..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:127
+#: part/part.cpp:156
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:133
+#: part/part.cpp:162
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:134
+#: part/part.cpp:163
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:140
+#: part/part.cpp:169
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:141
+#: part/part.cpp:170
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:147
+#: part/part.cpp:176
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:148
+#: part/part.cpp:177
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:180
+#: part/part.cpp:203
+#, fuzzy
+#| msgid "E&xtract..."
+msgid "Quick extract to..."
+msgstr "解開(&X)..."
+
+#: part/part.cpp:264
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:254
+#: part/part.cpp:343
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/part.cpp:348
+#: part/part.cpp:423
+msgid "Password required"
+msgstr ""
+
+#: part/part.cpp:423
+msgid ""
+"This archive contains one or more password protected files. Please enter the "
+"password to extract these."
+msgstr ""
+
+#: part/part.cpp:491
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:362
+#: part/part.cpp:505
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
@@ -304,7 +373,7 @@ msgid "Could not add the directory %1 to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
 #: plugins/karchiveplugin/karchiveplugin.cpp:205
-#: plugins/libzipplugin/zipplugin.cpp:208
+#: plugins/libzipplugin/zipplugin.cpp:209
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not add the file %1 to the archive."
@@ -322,35 +391,35 @@ msgstr "無法建立資料夾 %1"
 msgid "An error occurred while trying to read entry #%1 of the archive"
 msgstr "嘗試建立壓縮檔時發生錯誤。"
 
-#: plugins/libzipplugin/zipplugin.cpp:145
+#: plugins/libzipplugin/zipplugin.cpp:146
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not locate file '%1' in the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libzipplugin/zipplugin.cpp:153
+#: plugins/libzipplugin/zipplugin.cpp:154
 #, fuzzy
 #| msgid "Could not create the folder %1"
 msgid "Could not write to the destination file"
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libzipplugin/zipplugin.cpp:190
+#: plugins/libzipplugin/zipplugin.cpp:191
 msgid "Adding directories is not supported yet, sorry."
 msgstr ""
 
-#: plugins/libzipplugin/zipplugin.cpp:199
+#: plugins/libzipplugin/zipplugin.cpp:200
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgid "Could not read from the input file '%1'"
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libzipplugin/zipplugin.cpp:227
+#: plugins/libzipplugin/zipplugin.cpp:228
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not find a file named %1 in the archive."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/rarplugin/rarplugin.cpp:43
+#: plugins/rarplugin/rarplugin.cpp:48
 msgid "Neither rar or unrar are available in your PATH."
 msgstr ""
 
@@ -455,9 +524,6 @@ msgstr ""
 #~ msgstr ""
 #~ "壓縮檔“%1”已被修改。\n"
 #~ "是否儲存它？"
-
-#~ msgid "Save Archive?"
-#~ msgstr "儲存壓縮檔？"
 
 #~ msgid "Downloading %1..."
 #~ msgstr "正在下載 %1..."
@@ -699,12 +765,6 @@ msgstr ""
 
 #~ msgid "All files"
 #~ msgstr "所有檔案"
-
-#~ msgid "Destination folder: "
-#~ msgstr "目的地資料夾："
-
-#~ msgid "Open destination folder after extraction"
-#~ msgstr "解壓後開啟目的地資料夾"
 
 #~ msgid "Create folder %1?"
 #~ msgstr "建立資料夾 %1？"

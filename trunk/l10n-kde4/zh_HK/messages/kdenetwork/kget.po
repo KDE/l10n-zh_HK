@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-22 05:29+0200\n"
+"POT-Creation-Date: 2008-07-29 08:30+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:127 core/kget.cpp:683 ui/contextmenu.cpp:97
+#: conf/transfersgroupwidget.cpp:127 core/kget.cpp:693 ui/contextmenu.cpp:97
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -82,76 +82,80 @@ msgstr "預設的資料夾"
 msgid "Select Icon"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:45
+#: conf/preferencesdialog.cpp:46
 msgid "Xml"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:47
+#: conf/preferencesdialog.cpp:48
 msgid "Sqlite"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:57
+#: conf/preferencesdialog.cpp:52
+msgid "Turn off the computer"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:67
 msgid "Appearance"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:57
+#: conf/preferencesdialog.cpp:67
 msgid "Change appearance settings"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:58
+#: conf/preferencesdialog.cpp:68
 msgid "Groups"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:58
+#: conf/preferencesdialog.cpp:68
 msgid "Manage the groups"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 108
-#: conf/preferencesdialog.cpp:59 rc.cpp:231
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 102
+#: conf/preferencesdialog.cpp:69 rc.cpp:231
 msgid "Folders"
 msgstr "資料夾"
 
-#: conf/preferencesdialog.cpp:59
+#: conf/preferencesdialog.cpp:69
 #, fuzzy
 msgid "Default Download Folders"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 22
-#: conf/preferencesdialog.cpp:60 rc.cpp:210
+#: conf/preferencesdialog.cpp:70 rc.cpp:210
 msgid "Network"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:60
+#: conf/preferencesdialog.cpp:70
 #, fuzzy
 msgid "Network and Downloads"
 msgstr "標示部份下載的檔案"
 
-#: conf/preferencesdialog.cpp:61
+#: conf/preferencesdialog.cpp:71
 msgid "Webinterface"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:61
+#: conf/preferencesdialog.cpp:71
 msgid "Control KGet over Network or Internet"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:62
+#: conf/preferencesdialog.cpp:72
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "Advanced Options"
 msgid "Advanced"
 msgstr "進階"
 
-#: conf/preferencesdialog.cpp:62
+#: conf/preferencesdialog.cpp:72
 msgid "Advanced Options"
 msgstr "進階選項"
 
-#: conf/preferencesdialog.cpp:63
+#: conf/preferencesdialog.cpp:73
 msgid "Plugins"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:63
+#: conf/preferencesdialog.cpp:73
 msgid "Transfer Plugin Options"
 msgstr ""
 
@@ -159,9 +163,8 @@ msgstr ""
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#. i18n("Malformed URL, protocol missing:\n%1", source.prettyUrl()),
-#: conf/dlgdirectories.cpp:141 core/kget.cpp:472 core/kget.cpp:858
-#: core/kget.cpp:867
+#: conf/dlgdirectories.cpp:141 core/kget.cpp:459 core/kget.cpp:868
+#: core/kget.cpp:876
 msgid "Error"
 msgstr ""
 
@@ -203,7 +206,48 @@ msgctxt "remaining time of download"
 msgid "Remaining Time"
 msgstr "剩下的時間"
 
-#: core/transferhandler.cpp:138
+#: core/transfertreemodel.cpp:560
+#, fuzzy
+#| msgid "Name"
+msgid "Name"
+msgstr "名稱"
+
+#: core/transfertreemodel.cpp:562
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+msgid "Status"
+msgstr "重新開始(&S)"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 120
+#: core/transfertreemodel.cpp:564
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
+#: rc.cpp:463
+msgid "Size"
+msgstr ""
+
+#: core/transfertreemodel.cpp:566
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:193
+#, fuzzy
+msgid "Progress"
+msgstr "進度對話方塊"
+
+#: core/transfertreemodel.cpp:568
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed"
+msgstr "速度"
+
+#: core/transfertreemodel.cpp:570
+#, fuzzy
+#| msgid "Rem. Time"
+msgid "Remaining Time"
+msgstr "剩下的時間"
+
+#: core/transferhandler.cpp:142
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:27
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:28
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:29
@@ -217,29 +261,37 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:146
+#: core/transferhandler.cpp:150
 #: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1448
 #: ui/transferdetails.cpp:90
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
-#: core/transferhandler.cpp:151 core/transfergrouphandler.cpp:129
+#: core/transferhandler.cpp:155 core/transfergrouphandler.cpp:129
 #: ui/transferdetails.cpp:95
 #, kde-format
 msgid "%1/s"
 msgstr "%1/秒"
 
-#: core/transferhandler.cpp:325 core/transferhandler.cpp:331
-#: ui/droptarget.cpp:94
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 43
+#: core/transferhandler.cpp:355 core/transferhandler.cpp:365
+#: ui/droptarget.cpp:94 rc.cpp:99
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: core/transferhandler.cpp:326 core/transferhandler.cpp:332
+#: core/transferhandler.cpp:356
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet quits now because all downloads have been completed."
+msgstr "所有下載已完成。"
+
+#: core/transferhandler.cpp:366
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "The computer turn off now because all downloads have been completed."
 msgstr "所有下載已完成。"
 
 #: core/transfergrouphandler.cpp:113
@@ -319,23 +371,23 @@ msgstr ""
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:471
+#: core/kget.cpp:458
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ui/newtransferwidget.ui line 24
-#: core/kget.cpp:794 ui/newtransferdialog.cpp:38 rc.cpp:401
+#: core/kget.cpp:804 ui/newtransferdialog.cpp:210 rc.cpp:401
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:794
+#: core/kget.cpp:804
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:857 core/kget.cpp:864
+#: core/kget.cpp:867
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -344,7 +396,19 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:878
+#: core/kget.cpp:875
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL:\n"
+#| "%1"
+msgid ""
+"Malformed URL, protocol missing:\n"
+"%1"
+msgstr ""
+"格式不正確的 URL:\n"
+"%1"
+
+#: core/kget.cpp:888
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -355,16 +419,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:879
+#: core/kget.cpp:889
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:913 core/kget.cpp:920
+#: core/kget.cpp:923 core/kget.cpp:930
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:930
+#: core/kget.cpp:940
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -377,13 +441,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:1045
+#: core/kget.cpp:1055
 #, kde-format
 msgid ""
-"<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
+"<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1062
+#: core/kget.cpp:1073
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -394,11 +458,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1064 core/kget.cpp:1075
-msgid "Not Deleted"
-msgstr "沒有刪除"
-
-#: core/kget.cpp:1073
+#: core/kget.cpp:1083
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -420,7 +480,6 @@ msgstr "連線數"
 
 #: transfer-plugins/kio/transferKio.cpp:135
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:221
-#: ui/history/transferhistory.cpp:216
 msgid "Aborted"
 msgstr ""
 
@@ -458,14 +517,6 @@ msgstr ""
 #, fuzzy
 msgid "File"
 msgstr "開啟檔案(&F)"
-
-#. i18n: tag string
-#. i18n: file ui/history/transferhistory.ui line 120
-#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
-#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
-#: rc.cpp:463
-msgid "Size"
-msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:64
 #, fuzzy
@@ -606,18 +657,6 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
-#, fuzzy
-#| msgid "Speed"
-msgid "Speed"
-msgstr "速度"
-
-#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
-#: ui/history/transferhistory.cpp:247
-#, fuzzy
-msgid "Status"
-msgstr "重新開始(&S)"
-
 #: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
 #, fuzzy, kde-format
 #| msgid "Default folder:"
@@ -663,7 +702,7 @@ msgstr ""
 msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
 msgstr ""
 
-#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:110
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:109
 #, kde-format
 msgid "Cannot remove webseed %1, it is part of the torrent."
 msgstr ""
@@ -774,11 +813,6 @@ msgstr " %1/秒 "
 #| msgid "Count"
 msgid "Chunk"
 msgstr "記數"
-
-#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:193
-#, fuzzy
-msgid "Progress"
-msgstr "進度對話方塊"
 
 #: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:194
 msgid "Peer"
@@ -1333,7 +1367,6 @@ msgstr "下載已續傳"
 
 #: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1450
 #: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
-#: ui/history/transferhistory.cpp:214
 #, fuzzy
 #| msgid "Stopped"
 msgid "Stopped"
@@ -1422,7 +1455,7 @@ msgstr ""
 "無法開啟檔案：\n"
 "%1"
 
-#: ui/tray.cpp:61
+#: ui/tray.cpp:62
 #, fuzzy
 msgid "KGet - Download Manager"
 msgstr "下載管理員"
@@ -1437,6 +1470,10 @@ msgstr "預設的資料夾:"
 #, fuzzy
 msgid "Transfer details"
 msgstr " 傳輸： %1"
+
+#: ui/transfersview.cpp:152
+msgid "Select columns"
+msgstr ""
 
 #: ui/history/transferhistorycategorizeddelegate.cpp:45
 #: ui/history/transferhistory.cpp:268
@@ -1484,18 +1521,33 @@ msgid "&Open File"
 msgstr "開啟檔案(&F)"
 
 #: ui/history/transferhistory.cpp:210
+msgctxt "The transfer is running"
 msgid "Running"
 msgstr ""
 
 #: ui/history/transferhistory.cpp:212
 #, fuzzy
 #| msgid "Delayed"
+msgctxt "The transfer is delayed"
 msgid "Delayed"
 msgstr "已延遲"
+
+#: ui/history/transferhistory.cpp:214
+#, fuzzy
+#| msgid "Stopped"
+msgctxt "The transfer is stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: ui/history/transferhistory.cpp:216
+msgctxt "The transfer is aborted"
+msgid "Aborted"
+msgstr ""
 
 #: ui/history/transferhistory.cpp:218
 #, fuzzy
 #| msgid "Finished"
+msgctxt "The transfer is finished"
 msgid "Finished"
 msgstr "已完成"
 
@@ -1505,9 +1557,7 @@ msgstr "已完成"
 msgid "Source-File"
 msgstr "來源："
 
-#. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 49
-#: ui/history/transferhistory.cpp:247 rc.cpp:407
+#: ui/history/transferhistory.cpp:247
 #, fuzzy
 #| msgid "Destination:"
 msgid "Destination"
@@ -1562,6 +1612,7 @@ msgstr "再次下載"
 
 #: ui/history/transferhistoryitemdelegate.cpp:46
 #, fuzzy
+msgctxt "Delete selected history-item"
 msgid "Delete selected"
 msgstr "沒有選擇檔案"
 
@@ -1618,16 +1669,16 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:220 mainwindow.cpp:805
+#: ui/droptarget.cpp:220 mainwindow.cpp:863
 msgid "The dropped file is a KGet-Transferlist"
 msgstr ""
 
-#: ui/droptarget.cpp:221 mainwindow.cpp:806
+#: ui/droptarget.cpp:221 mainwindow.cpp:864
 #, fuzzy
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: ui/droptarget.cpp:222 mainwindow.cpp:807
+#: ui/droptarget.cpp:222 mainwindow.cpp:865
 #, fuzzy
 msgid "&Load transferlist"
 msgstr "開啟傳輸："
@@ -1643,7 +1694,7 @@ msgid "Hide Main Window"
 msgstr "隱藏記錄視窗(&L)"
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 51
+#. i18n: file conf/dlgappearance.ui line 35
 #: ui/droptarget.cpp:358 rc.cpp:132
 #, fuzzy
 #| msgid "Drop target"
@@ -1696,20 +1747,20 @@ msgstr "下載已續傳"
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
 
-#: ui/linkview/kget_linkview.h:101
+#: ui/linkview/kget_linkview.h:103
 msgctxt "filter: show all file types"
 msgid "All"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:102
+#: ui/linkview/kget_linkview.h:104
 msgid "Videos"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:103
+#: ui/linkview/kget_linkview.h:105
 msgid "Audio"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:104
+#: ui/linkview/kget_linkview.h:106
 msgid "Archives"
 msgstr ""
 
@@ -1719,37 +1770,42 @@ msgstr ""
 msgid "Import Links"
 msgstr "沒有連結"
 
-#: ui/linkview/kget_linkview.cpp:75
+#: ui/linkview/kget_linkview.cpp:76
 msgid "Filter files here..."
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:86
+#: ui/linkview/kget_linkview.cpp:87
 msgid "Show:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:97
+#: ui/linkview/kget_linkview.cpp:98
 msgid "File with links to import:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:98
+#: ui/linkview/kget_linkview.cpp:99
 #, fuzzy
 #| msgid "No Links"
 msgid "Import links"
 msgstr "沒有連結"
 
-#: ui/linkview/kget_linkview.cpp:126 ui/linkview/kget_linkview.cpp:317
+#: ui/linkview/kget_linkview.cpp:127 ui/linkview/kget_linkview.cpp:324
 msgid "Select all"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:127 ui/linkview/kget_linkview.cpp:318
+#: ui/linkview/kget_linkview.cpp:128 ui/linkview/kget_linkview.cpp:325
 msgid "Deselect all"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:129
+#: ui/linkview/kget_linkview.cpp:130
+#, fuzzy
+msgid "Check selected"
+msgstr "沒有選擇檔案"
+
+#: ui/linkview/kget_linkview.cpp:132
 msgid "Show web content"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:130
+#: ui/linkview/kget_linkview.cpp:133
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download checked"
@@ -1757,44 +1813,44 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/scandlg.ui line 183
-#: ui/linkview/kget_linkview.cpp:132 rc.cpp:207
+#: ui/linkview/kget_linkview.cpp:135 rc.cpp:207
 msgid "Cancel"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:175
+#: ui/linkview/kget_linkview.cpp:182
 msgid "Auxiliar header"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:176
+#: ui/linkview/kget_linkview.cpp:183
 #, fuzzy
 #| msgid "Local File Name"
 msgid "File Name"
 msgstr "本機檔案名稱"
 
-#: ui/linkview/kget_linkview.cpp:177
+#: ui/linkview/kget_linkview.cpp:184
 msgid "Description"
 msgstr "說明"
 
-#: ui/linkview/kget_linkview.cpp:178
+#: ui/linkview/kget_linkview.cpp:185
 #, fuzzy
 msgctxt "list header: type of file"
 msgid "File Type"
 msgstr "檔案類型"
 
-#: ui/linkview/kget_linkview.cpp:179
+#: ui/linkview/kget_linkview.cpp:186
 msgid "Location (URL)"
 msgstr "地點 (URL)"
 
-#: ui/linkview/kget_linkview.cpp:234
+#: ui/linkview/kget_linkview.cpp:241
 #, kde-format
 msgid "Links in: %1 - KGet"
 msgstr "%1 中的連結 - KGet"
 
-#: ui/linkview/kget_linkview.cpp:317
+#: ui/linkview/kget_linkview.cpp:324
 msgid "Select all filtered"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:318
+#: ui/linkview/kget_linkview.cpp:325
 msgid "Deselect all filtered"
 msgstr ""
 
@@ -1803,7 +1859,7 @@ msgstr ""
 msgid "Download Manager"
 msgstr "下載管理員"
 
-#: extensions/konqueror/kget_plug_in.cpp:54 mainwindow.cpp:257
+#: extensions/konqueror/kget_plug_in.cpp:54 mainwindow.cpp:303
 #, fuzzy
 #| msgid "Show Drop &Target"
 msgid "Show Drop Target"
@@ -1967,7 +2023,7 @@ msgctxt "@label text in footer"
 msgid "KGet Webinterface | Valid XHTML 1.0 Strict &amp; CSS"
 msgstr ""
 
-#: main.cpp:113 mainwindow.cpp:84
+#: main.cpp:113 mainwindow.cpp:84 mainwindow.cpp:443
 msgid "KGet"
 msgstr "KGet"
 
@@ -2080,40 +2136,55 @@ msgstr "使用拖放目標模式啟動 KGet"
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
 
-#: mainwindow.cpp:118
+#: mainwindow.cpp:141
+#, fuzzy
+msgid "KGet Transfer List"
+msgstr "開啟傳輸："
+
+#: mainwindow.cpp:148
+#, fuzzy
+msgid "Export Transfers"
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:158
 msgid "&New Download..."
 msgstr ""
 
-#: mainwindow.cpp:124
+#: mainwindow.cpp:164
 #, fuzzy
 #| msgid "&Import Transfer List..."
 msgid "&Import Transfers..."
 msgstr "匯入傳輸列表(&I)..."
 
-#: mainwindow.cpp:130
+#: mainwindow.cpp:170
 #, fuzzy
 msgid "&Export Transfers List..."
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:136
+#: mainwindow.cpp:176
+#, fuzzy
+msgid "&Export Transfers as Plain Text"
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:182
 msgid "Delete Group"
 msgstr ""
 
-#: mainwindow.cpp:141
+#: mainwindow.cpp:187
 #, fuzzy
 msgid "Rename Group"
 msgstr "預設的資料夾"
 
-#: mainwindow.cpp:146
+#: mainwindow.cpp:192
 msgid "Set Icon"
 msgstr ""
 
-#: mainwindow.cpp:151
+#: mainwindow.cpp:197
 #, fuzzy
 msgid "Auto-Paste Mode"
 msgstr "自動貼上模式(&T)"
 
-#: mainwindow.cpp:154
+#: mainwindow.cpp:200
 #, fuzzy
 msgid ""
 "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
@@ -2126,97 +2197,99 @@ msgstr ""
 "當啟動了這項功能， KGet 將會週期性地掃描剪貼簿上的\n"
 "URL 並且自動地貼上這些 URL 。"
 
-#: mainwindow.cpp:160
+#: mainwindow.cpp:206
 #, fuzzy
 msgid "Use KGet as Konqueror Download Manager"
 msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
 
-#: mainwindow.cpp:183
+#: mainwindow.cpp:229
 #, fuzzy
 msgctxt "delete selected transfer item"
 msgid "Delete Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:189
+#: mainwindow.cpp:235
 msgctxt "delete all finished transfers"
 msgid "Delete all finished"
 msgstr ""
 
-#: mainwindow.cpp:194
+#: mainwindow.cpp:240
 #, fuzzy
 #| msgid "Download finished"
 msgctxt "redownload selected transfer item"
 msgid "Redownload Selected"
 msgstr "完成下載"
 
-#: mainwindow.cpp:199
+#: mainwindow.cpp:245
 msgid "Start / Resume All"
 msgstr ""
 
-#: mainwindow.cpp:205
+#: mainwindow.cpp:251
 #, fuzzy
 msgid "Start / Resume Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:210
+#: mainwindow.cpp:256
 msgid "Stop All"
 msgstr ""
 
-#: mainwindow.cpp:216
+#: mainwindow.cpp:262
 #, fuzzy
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:220
+#: mainwindow.cpp:266
 msgid "Start / Resume"
 msgstr ""
 
-#: mainwindow.cpp:228
+#: mainwindow.cpp:274
 #, fuzzy
 msgid "Stop"
 msgstr "已停止"
 
-#: mainwindow.cpp:237
+#: mainwindow.cpp:283
 #, fuzzy
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:242 mainwindow.cpp:379
+#: mainwindow.cpp:288 mainwindow.cpp:425
 #, fuzzy
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:247
+#: mainwindow.cpp:293
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:252
+#: mainwindow.cpp:298
 #, fuzzy
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:263
+#: mainwindow.cpp:309
 #, fuzzy
-msgid "&Transfer History"
+msgid "&Transfer History..."
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:269
-msgid "&Group Settings"
-msgstr ""
-
-#: mainwindow.cpp:275
+#: mainwindow.cpp:315
 #, fuzzy
-msgid "&Transfer Settings"
+#| msgid "Default folder:"
+msgid "&Group Settings..."
+msgstr "預設的資料夾:"
+
+#: mainwindow.cpp:321
+#, fuzzy
+msgid "&Transfer Settings..."
 msgstr " 傳輸： %1"
 
-#: mainwindow.cpp:281
+#: mainwindow.cpp:327
 #, fuzzy
 #| msgid "No Links"
-msgid "Import &Links"
+msgid "Import &Links..."
 msgstr "沒有連結"
 
-#: mainwindow.cpp:320
+#: mainwindow.cpp:366
 #, fuzzy
 #| msgid ""
 #| "This is the first time that you have run KGet.\n"
@@ -2228,24 +2301,30 @@ msgstr ""
 "這是你第一次執行 KGet 。\n"
 "要 KGet 成為 Konqueror 的下載管理員嗎？"
 
-#: mainwindow.cpp:322
+#: mainwindow.cpp:368
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror 整合"
 
-#: mainwindow.cpp:322
+#: mainwindow.cpp:368
 msgid "Enable"
 msgstr "啟用"
 
-#: mainwindow.cpp:323
+#: mainwindow.cpp:369
 msgid "Do Not Enable"
 msgstr "不啟用"
 
-#: mainwindow.cpp:378
+#: mainwindow.cpp:424
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:395
+#: mainwindow.cpp:441
+#, kde-format
+msgctxt "window title including overall download progress in percent"
+msgid "KGet - %1%"
+msgstr ""
+
+#: mainwindow.cpp:451
 #, fuzzy
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -2257,41 +2336,26 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:397
+#: mainwindow.cpp:453
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:430
-#, fuzzy
-msgid "KGet Transfer List"
-msgstr "開啟傳輸："
-
-#: mainwindow.cpp:432
-#, fuzzy
-msgid "Export Transfers"
-msgstr "匯出傳輸列表(&E)..."
-
-#: mainwindow.cpp:455
+#: mainwindow.cpp:508
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:456
+#: mainwindow.cpp:509
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:696
+#: mainwindow.cpp:749
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
-
-#: mainwindow.cpp:699
-#, fuzzy
-msgid "Konqueror Integration disabled"
-msgstr "Konqueror 整合"
 
 #: rc.cpp:1
 #, fuzzy
@@ -2306,32 +2370,32 @@ msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 28
+#. i18n: file conf/dlgnetwork.ui line 19
 #: rc.cpp:5
 msgid "Start downloading files immediately after startup"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 35
+#. i18n: file conf/dlgnetwork.ui line 26
 #: rc.cpp:8
 msgid "Limit maximum downloads per group"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 47
+#. i18n: file conf/dlgnetwork.ui line 35
 #: rc.cpp:11
-msgid "Downloads from the same server:"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 54
-#: rc.cpp:14
 #, fuzzy
 msgid "Downloads number:"
 msgstr "下載管理員"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 91
+#. i18n: file conf/dlgnetwork.ui line 52
+#: rc.cpp:14
+msgid "Downloads from the same server:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 69
 #: rc.cpp:17
 #, fuzzy
 #| msgid "Speed"
@@ -2339,86 +2403,86 @@ msgid "Speed limit"
 msgstr "速度"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 100
+#. i18n: file conf/dlgnetwork.ui line 78
 #: rc.cpp:20
-#, fuzzy
-msgid "Per Transfer:"
-msgstr "開啟傳輸(&T)"
-
-#. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 123
-#: rc.cpp:23
-#, fuzzy
-#| msgid "0 B/s"
-msgid "kBi/s"
-msgstr "0 B/秒"
-
-#. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 139
-#: rc.cpp:26
 #, fuzzy
 msgid "Global Download-Limit:"
 msgstr "下載已續傳"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 146
-#: rc.cpp:29
-#, fuzzy
-msgid "Global Upload-Limit:"
-msgstr "下載已續傳"
-
+#. i18n: file conf/dlgnetwork.ui line 85
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 153
-#. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 160
-#: rc.cpp:32 rc.cpp:35
+#. i18n: file conf/dlgnetwork.ui line 99
+#: rc.cpp:23 rc.cpp:29
 #, fuzzy
 #| msgid " %1 KB/s "
 msgid "KiB/s"
 msgstr " %1 KB/秒"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 196
+#. i18n: file conf/dlgnetwork.ui line 92
+#: rc.cpp:26
+#, fuzzy
+msgid "Global Upload-Limit:"
+msgstr "下載已續傳"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 106
+#: rc.cpp:32
+#, fuzzy
+msgid "Per Transfer:"
+msgstr "開啟傳輸(&T)"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 113
+#: rc.cpp:35
+#, fuzzy
+#| msgid "0 B/s"
+msgid "kBi/s"
+msgstr "0 B/秒"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 132
 #: rc.cpp:38
 #, fuzzy
 msgid "Reconnect on error or broken connection"
 msgstr "斷線時"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 205
+#. i18n: file conf/dlgnetwork.ui line 141
 #: rc.cpp:41
+msgid "Number of retries:"
+msgstr "重試的次數："
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 155
+#: rc.cpp:44
 #, fuzzy
 msgid "Retry after:"
 msgstr "在這之後重新連線："
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 212
-#: rc.cpp:44
-msgid "Number of retries:"
-msgstr "重試的次數："
-
-#. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 242
+#. i18n: file conf/dlgnetwork.ui line 162
 #: rc.cpp:47
 msgid "sec"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 258
+#. i18n: file conf/dlgnetwork.ui line 178
 #: rc.cpp:50
 #, fuzzy
 msgid "After Completing Downloads"
 msgstr "完成下載後自動關閉"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 264
+#. i18n: file conf/dlgnetwork.ui line 184
 #: rc.cpp:53
 #, fuzzy
 msgid "Auto shutdown"
 msgstr "自動關閉開啟。"
 
 #. i18n: tag string
-#. i18n: file conf/dlgnetwork.ui line 271
+#. i18n: file conf/dlgnetwork.ui line 191
 #: rc.cpp:56
 #, fuzzy
 msgid "Auto disconnect"
@@ -2490,119 +2554,114 @@ msgid "Enable system tray icon"
 msgstr "使用動畫"
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 33
+#. i18n: file conf/dlgadvanced.ui line 35
 #: rc.cpp:96
 #, fuzzy
 #| msgid "All the downloads are finished."
-msgid "Quit when all downloads have been finished"
+msgid "Execute action after all downloads have been finished"
 msgstr "所有下載已完成。"
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 40
-#: rc.cpp:99
+#. i18n: file conf/dlgadvanced.ui line 53
+#: rc.cpp:102
 #, fuzzy
 msgid "History"
 msgstr "開啟傳輸："
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 46
-#: rc.cpp:102
-msgid "History backend"
-msgstr ""
+#. i18n: file conf/dlgadvanced.ui line 59
+#: rc.cpp:105
+#, fuzzy
+msgid "History backend:"
+msgstr "開啟傳輸："
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 63
-#: rc.cpp:105
+#. i18n: file conf/dlgadvanced.ui line 72
+#: rc.cpp:108
 #, fuzzy
 msgid "Integration"
 msgstr "Konqueror 整合"
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 69
-#: rc.cpp:108
+#. i18n: file conf/dlgadvanced.ui line 78
+#: rc.cpp:111
 #, fuzzy
 msgid "Use as download manager for Konqueror"
 msgstr "使用 KGet 為 Konqueror 的下載管理員"
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 76
-#: rc.cpp:111
+#. i18n: file conf/dlgadvanced.ui line 85
+#: rc.cpp:114
 #, fuzzy
 msgid "Monitor clipboard for files to download"
 msgstr "您未有選擇要下載的檔案。"
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 92
-#: rc.cpp:114
+#. i18n: file conf/dlgadvanced.ui line 95
+#: rc.cpp:117
 msgid "Enable KDE global progress tracking"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 104
-#: rc.cpp:117
+#. i18n: file conf/dlgadvanced.ui line 107
+#: rc.cpp:120
 msgid "Show every single download "
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgadvanced.ui line 111
-#: rc.cpp:120
+#. i18n: file conf/dlgadvanced.ui line 114
+#: rc.cpp:123
 msgid "Show overall progress"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 28
-#: rc.cpp:123
+#. i18n: file conf/dlgappearance.ui line 19
+#: rc.cpp:126
 #, fuzzy
 msgid "Startup"
 msgstr "重新開始(&S)"
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 34
-#: rc.cpp:126
-msgid "Show main window at startup"
-msgstr "啟動時顯示主視窗"
-
-#. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 41
+#. i18n: file conf/dlgappearance.ui line 25
 #: rc.cpp:129
 msgid "Show splashscreen"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 57
+#. i18n: file conf/dlgappearance.ui line 41
 #: rc.cpp:135
 #, fuzzy
 msgid "Show drop target"
 msgstr "顯示拖放目標"
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 64
+#. i18n: file conf/dlgappearance.ui line 48
 #: rc.cpp:138
 #, fuzzy
 msgid "Enable animations"
 msgstr "使用動畫"
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 74
+#. i18n: file conf/dlgappearance.ui line 58
 #: rc.cpp:141
 #, fuzzy
 msgid "Transfer List"
 msgstr "開啟傳輸："
 
 #. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 80
+#. i18n: file conf/dlgappearance.ui line 64
 #: rc.cpp:144
 msgid "Expandable transfer details instead of separate tabs"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgwebinterface.ui line 31
+#. i18n: file conf/dlgwebinterface.ui line 19
 #: rc.cpp:147
 msgid "Enable Webinterface"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgwebinterface.ui line 43
+#. i18n: file conf/dlgwebinterface.ui line 31
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 28
 #: rc.cpp:150 rc.cpp:213
@@ -2612,13 +2671,13 @@ msgid "Port:"
 msgstr "字型:"
 
 #. i18n: tag string
-#. i18n: file conf/dlgwebinterface.ui line 70
+#. i18n: file conf/dlgwebinterface.ui line 45
 #: rc.cpp:153
 msgid "User:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file conf/dlgwebinterface.ui line 84
+#. i18n: file conf/dlgwebinterface.ui line 59
 #: rc.cpp:156
 msgid "Password:"
 msgstr ""
@@ -2644,9 +2703,9 @@ msgid "Minimal segment size:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 62
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 49
 #. i18n: tag string
-#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 91
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 78
 #: rc.cpp:168 rc.cpp:174
 #, fuzzy
 #| msgid "0 B/s"
@@ -2654,13 +2713,13 @@ msgid "kBi"
 msgstr "0 B/秒"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 84
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 71
 #: rc.cpp:171
 msgid "Save data every:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 113
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 100
 #: rc.cpp:177
 msgid "Use search engines"
 msgstr ""
@@ -2716,41 +2775,41 @@ msgid "0"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 51
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 45
 #: rc.cpp:216
 msgid "Upload Limit per Transfer: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 58
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 52
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 75
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 69
 #. i18n: tag string
-#. i18n: file ui/transfersettingsdialog.ui line 45
+#. i18n: file ui/transfersettingsdialog.ui line 41
 #. i18n: tag string
-#. i18n: file ui/transfersettingsdialog.ui line 71
+#. i18n: file ui/transfersettingsdialog.ui line 61
 #. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 49
+#. i18n: file ui/groupsettingsdialog.ui line 58
 #. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 75
-#: rc.cpp:219 rc.cpp:225 rc.cpp:389 rc.cpp:395 rc.cpp:439 rc.cpp:445
+#. i18n: file ui/groupsettingsdialog.ui line 84
+#: rc.cpp:219 rc.cpp:225 rc.cpp:389 rc.cpp:395 rc.cpp:442 rc.cpp:448
 msgid "KiB"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 68
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 62
 #: rc.cpp:222
 msgid "Download Limit per Transfer: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 85
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 79
 #: rc.cpp:228
 msgid "Maximum Shared Ration: (0 if no limit)"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 120
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 114
 #: rc.cpp:234
 #, fuzzy
 #| msgid "Default Folder"
@@ -2758,7 +2817,7 @@ msgid "Default Torrent-Folder:"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 140
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 134
 #: rc.cpp:237
 #, fuzzy
 #| msgid "Default Folder"
@@ -2766,7 +2825,7 @@ msgid "Default temporary folder"
 msgstr "預設的資料夾"
 
 #. i18n: tag string
-#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 157
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 151
 #: rc.cpp:240
 msgid "Preallocate disk-space"
 msgstr ""
@@ -2860,7 +2919,9 @@ msgstr "開啟傳輸"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 34
-#: rc.cpp:281
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 33
+#: rc.cpp:281 rc.cpp:404
 msgid "URL:"
 msgstr ""
 
@@ -3018,45 +3079,47 @@ msgid "Transfer-Settings"
 msgstr " 傳輸： %1"
 
 #. i18n: tag string
-#. i18n: file ui/transfersettingsdialog.ui line 29
+#. i18n: file ui/transfersettingsdialog.ui line 31
 #: rc.cpp:386
 #, fuzzy
 msgid "Upload Limit"
 msgstr "下載已續傳"
 
 #. i18n: tag string
-#. i18n: file ui/transfersettingsdialog.ui line 55
+#. i18n: file ui/transfersettingsdialog.ui line 51
 #: rc.cpp:392
 #, fuzzy
 msgid "Download Limit"
 msgstr "下載已續傳"
 
 #. i18n: tag string
-#. i18n: file ui/transfersettingsdialog.ui line 81
+#. i18n: file ui/transfersettingsdialog.ui line 71
 #: rc.cpp:398
 msgid "Maximum Share Ratio"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 39
-#: rc.cpp:404
-msgid "Url"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 59
-#: rc.cpp:410
+#. i18n: file ui/newtransferwidget.ui line 43
+#: rc.cpp:407
 #, fuzzy
-msgid "Transfer Group"
-msgstr "開啟傳輸(&T)"
+#| msgid "Destination:"
+msgid "Destination:"
+msgstr "目的地："
 
 #. i18n: tag string
-#. i18n: file ui/newtransferwidget.ui line 89
-#: rc.cpp:413
+#. i18n: file ui/newtransferwidget.ui line 53
+#: rc.cpp:410
 #, fuzzy
 #| msgid "Default folder:"
 msgid "Set as default folder"
 msgstr "預設的資料夾:"
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 60
+#: rc.cpp:413
+#, fuzzy
+msgid "Transfer Group:"
+msgstr "開啟傳輸(&T)"
 
 #. i18n: tag string
 #. i18n: file ui/transferdetailsfrm.ui line 164
@@ -3067,34 +3130,34 @@ msgid "Remaining Time:"
 msgstr "剩下的時間"
 
 #. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 26
+#. i18n: file ui/groupsettingsdialog.ui line 19
 #: rc.cpp:433
 msgid "Group-Settings"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 33
+#. i18n: file ui/groupsettingsdialog.ui line 28
 #: rc.cpp:436
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default folder:"
+msgstr "預設的資料夾"
+
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 42
+#: rc.cpp:439
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum download speed"
 msgstr "完成下載"
 
 #. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 59
-#: rc.cpp:442
+#. i18n: file ui/groupsettingsdialog.ui line 68
+#: rc.cpp:445
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum upload speed"
 msgstr "完成下載"
-
-#. i18n: tag string
-#. i18n: file ui/groupsettingsdialog.ui line 85
-#: rc.cpp:448
-#, fuzzy
-#| msgid "Default Folder"
-msgid "Default folder:"
-msgstr "預設的資料夾"
 
 #. i18n: tag string
 #. i18n: file ui/history/transferhistory.ui line 26
@@ -3160,26 +3223,26 @@ msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 15
+#. i18n: file ui/kgetui.rc line 16
 #: rc.cpp:481
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 25
+#. i18n: file ui/kgetui.rc line 26
 #: rc.cpp:484
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 37
+#. i18n: file ui/kgetui.rc line 38
 #: rc.cpp:487
 msgid "&Help"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file ui/kgetui.rc line 40
+#. i18n: file ui/kgetui.rc line 41
 #: rc.cpp:490
 msgid "Main Toolbar"
 msgstr ""
@@ -3189,6 +3252,16 @@ msgstr ""
 #: rc.cpp:493
 msgid "&Tools"
 msgstr ""
+
+#~ msgid "Not Deleted"
+#~ msgstr "沒有刪除"
+
+#, fuzzy
+#~ msgid "Konqueror Integration disabled"
+#~ msgstr "Konqueror 整合"
+
+#~ msgid "Show main window at startup"
+#~ msgstr "啟動時顯示主視窗"
 
 #, fuzzy
 #~ msgid "<speed>"

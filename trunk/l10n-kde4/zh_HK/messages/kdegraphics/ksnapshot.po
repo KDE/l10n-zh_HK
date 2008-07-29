@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-01 12:02+0200\n"
+"POT-Creation-Date: 2008-07-29 08:30+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Captures a part of windows"
 msgstr ""
 
-#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:151
+#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:165
 msgid "snapshot"
 msgstr "快照"
 
@@ -53,38 +53,38 @@ msgstr "KSbaoshot"
 msgid "(c) 2007, Montel Laurent"
 msgstr ""
 
-#: ksnapshot.cpp:165
+#: ksnapshot.cpp:179
 msgid "Quick Save Snapshot &As..."
 msgstr "快速儲存快照為(&A)..."
 
-#: ksnapshot.cpp:166
+#: ksnapshot.cpp:180
 msgid ""
 "Save the snapshot to the file specified by the user without showing the file "
 "dialog."
 msgstr ""
 
-#: ksnapshot.cpp:168
+#: ksnapshot.cpp:182
 msgid "Save Snapshot &As..."
 msgstr "儲存快照為(&A)..."
 
-#: ksnapshot.cpp:169
+#: ksnapshot.cpp:183
 msgid "Save the snapshot to the file specified by the user."
 msgstr "將快照儲存至用戶指定的檔案。"
 
-#: ksnapshot.cpp:218
+#: ksnapshot.cpp:232
 #, fuzzy
 msgid "Save As"
 msgstr "儲存為(&S)..."
 
-#: ksnapshot.cpp:357
+#: ksnapshot.cpp:371
 msgid "Other Application..."
 msgstr ""
 
-#: ksnapshot.cpp:435
+#: ksnapshot.cpp:449
 msgid "The screen has been successfully grabbed."
 msgstr "這個螢幕已經成功的擷取."
 
-#: ksnapshot.cpp:533
+#: ksnapshot.cpp:557
 #, kde-format
 msgid "Preview of the snapshot image (%1 x %2)"
 msgstr ""
@@ -216,7 +216,7 @@ msgstr " 秒"
 
 #. i18n: tag string
 #. i18n: file ksnapshotwidget.ui line 75
-#: rc.cpp:29 snapshottimer.cpp:89
+#: rc.cpp:29
 msgid "Snapshot &delay:"
 msgstr "抓圖延遲(&D)："
 
@@ -281,20 +281,28 @@ msgid "Section of Window"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 164
+#. i18n: file ksnapshotwidget.ui line 153
 #: rc.cpp:61
+#, fuzzy
+#| msgid "Print Screenshot"
+msgid "Current Screen"
+msgstr "列印快照"
+
+#. i18n: tag string
+#. i18n: file ksnapshotwidget.ui line 169
+#: rc.cpp:64
 msgid "Click this button to take a new snapshot."
 msgstr "按下這按鈕擷取新的快照。"
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 167
-#: rc.cpp:64
+#. i18n: file ksnapshotwidget.ui line 172
+#: rc.cpp:67
 msgid "&New Snapshot"
 msgstr "新的快照(&N)"
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 190
-#: rc.cpp:67
+#. i18n: file ksnapshotwidget.ui line 195
+#: rc.cpp:70
 msgid ""
 "Click this button to save the current snapshot. To quickly save the snapshot "
 "without showing the file dialog, press Ctrl+Shift+S. The filename is "
@@ -302,42 +310,42 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 193
-#: rc.cpp:70
+#. i18n: file ksnapshotwidget.ui line 198
+#: rc.cpp:73
 msgid "&Save As..."
 msgstr "儲存為(&S)..."
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 200
-#: rc.cpp:73
+#. i18n: file ksnapshotwidget.ui line 205
+#: rc.cpp:76
 #, fuzzy
 msgid "Click this button to open the snapshot with another application."
 msgstr "按下這按鈕將目前快照複製至剪貼簿。"
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 203
-#: rc.cpp:76
+#. i18n: file ksnapshotwidget.ui line 208
+#: rc.cpp:79
 msgid "&Open With"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 210
-#: rc.cpp:79
+#. i18n: file ksnapshotwidget.ui line 215
+#: rc.cpp:82
 msgid "Click this button to copy the current snapshot to the clipboard."
 msgstr "按下這按鈕將目前快照複製至剪貼簿。"
 
 #. i18n: tag string
-#. i18n: file ksnapshotwidget.ui line 213
-#: rc.cpp:82
+#. i18n: file ksnapshotwidget.ui line 218
+#: rc.cpp:85
 msgid "&Copy to Clipboard"
 msgstr ""
 
-#: rc.cpp:83
+#: rc.cpp:86
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "薛景中,李爵樺,Walter Cheuk"
 
-#: rc.cpp:84
+#: rc.cpp:87
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "shyue@sonoma.com.tw,kenduest@i18n.linux.org.tw,wwycheuk@netvigator.com"
@@ -348,8 +356,12 @@ msgid ""
 "Press Esc to quit."
 msgstr ""
 
+#: snapshottimer.cpp:87
+#, fuzzy, kde-format
+#| msgid "Snapshot delay in seconds"
+msgid "Snapshot will be taken in 1 second"
+msgid_plural "Snapshot will be taken in %1 seconds"
+msgstr[0] "抓圖延遲時間 (秒)"
+
 #~ msgid "Click this button to print the current screenshot."
 #~ msgstr "按下這按鈕列印當前快照。"
-
-#~ msgid "Print Screenshot"
-#~ msgstr "列印快照"
