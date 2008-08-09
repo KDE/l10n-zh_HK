@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-08 08:24+0200\n"
+"POT-Creation-Date: 2008-08-09 09:49+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,13 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/batchextract.cpp:85 app/batchextract.cpp:106
+#: app/batchextract.cpp:93 app/batchextract.cpp:114
 #, fuzzy
 #| msgid "Save Archive?"
 msgid "Source archive"
 msgstr "儲存壓縮檔？"
 
-#: app/batchextract.cpp:86 app/batchextract.cpp:107
+#: app/batchextract.cpp:94 app/batchextract.cpp:115
 #, fuzzy
 #| msgid "Destination folder: "
 msgid "Destination"
@@ -202,17 +202,35 @@ msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/archivemodel.cpp:237
+#: kerfuffle/queries.cpp:65
+#, fuzzy
+#| msgid "Archive Already Exists"
+msgid "File already exists"
+msgstr "壓縮檔已經存在"
+
+#: part/archivemodel.cpp:259
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:239
+#: part/archivemodel.cpp:261
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
+
+#: part/archivemodel.cpp:263
+#, fuzzy
+#| msgid "Compressed File"
+msgctxt "Compressed size of a file inside an archive"
+msgid "Compressed"
+msgstr "已壓縮檔案"
+
+#: part/archivemodel.cpp:265
+msgctxt "Compression rate of file"
+msgid "Rate"
+msgstr ""
 
 #: part/infopanel.cpp:59
 msgid "No archive loaded"
@@ -265,7 +283,7 @@ msgstr ""
 msgid "Operation finished."
 msgstr "開啟解壓對話視窗，完成後離開"
 
-#: part/part.cpp:158
+#: part/part.cpp:159
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -273,79 +291,97 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:160
+#: part/part.cpp:161
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:165
+#: part/part.cpp:166
 msgid "E&xtract..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:167
+#: part/part.cpp:168
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:173
+#: part/part.cpp:174
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:174
+#: part/part.cpp:175
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:180
+#: part/part.cpp:181
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:181
+#: part/part.cpp:182
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:187
+#: part/part.cpp:188
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:188
+#: part/part.cpp:189
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:214
+#: part/part.cpp:215
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick extract to..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:275
+#: part/part.cpp:276
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:355
+#: part/part.cpp:282
+#, kde-format
+msgid "Error opening archive: the file '%1' was not found."
+msgstr ""
+
+#: part/part.cpp:282 part/part.cpp:291
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Error opening archive"
+msgstr "開啟「壓縮檔」"
+
+#: part/part.cpp:291
+#, kde-format
+msgid ""
+"Ark was not able to open the archive '%1'. No library capable of handling "
+"the file was found."
+msgstr ""
+
+#: part/part.cpp:366
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/part.cpp:436
+#: part/part.cpp:447
 msgid ""
 "This archive contains one or more password protected files. Please enter the "
 "password to extract these."
 msgstr ""
 
-#: part/part.cpp:539
+#: part/part.cpp:550
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:553
+#: part/part.cpp:564
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
@@ -427,7 +463,7 @@ msgstr "無法建立資料夾 %1"
 msgid "Could not find a file named %1 in the archive."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/rarplugin/rarplugin.cpp:48
+#: plugins/rarplugin/rarplugin.cpp:49
 msgid "Neither rar or unrar are available in your PATH."
 msgstr ""
 
@@ -492,9 +528,6 @@ msgstr ""
 #~ "你嘗試開啟一個有非標準伸延名稱的檔案。\n"
 #~ "Ark 偵測到該格式是：%1\n"
 #~ "如果不正確，請選擇適當的格式。"
-
-#~ msgid "Compressed File"
-#~ msgstr "已壓縮檔案"
 
 #~ msgid "All Valid Archives\n"
 #~ msgstr "所有支援的壓縮檔\n"
@@ -609,9 +642,6 @@ msgstr ""
 
 #~ msgid "Archive already exists. Do you wish to overwrite it?"
 #~ msgstr "壓縮檔已經存在。你是否要覆寫它？"
-
-#~ msgid "Archive Already Exists"
-#~ msgstr "壓縮檔已經存在"
 
 #~ msgid "Do Not Overwrite"
 #~ msgstr "不要覆寫"
