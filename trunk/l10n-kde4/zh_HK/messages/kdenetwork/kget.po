@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-08 08:24+0200\n"
+"POT-Creation-Date: 2008-08-10 08:32+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:128 core/kget.cpp:674 ui/contextmenu.cpp:125
+#: conf/transfersgroupwidget.cpp:128 core/kget.cpp:674 ui/contextmenu.cpp:128
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -1471,7 +1471,7 @@ msgstr "下載管理員"
 msgid "Group-Settings for %1"
 msgstr "預設的資料夾:"
 
-#: ui/transfersviewdelegate.cpp:490
+#: ui/transfersviewdelegate.cpp:488
 #, fuzzy
 msgid "Transfer details"
 msgstr " 傳輸： %1"
@@ -1752,65 +1752,79 @@ msgstr "下載已續傳"
 msgid "Transfer details:"
 msgstr " 傳輸： %1"
 
-#: ui/linkview/kget_linkview.h:103
+#: ui/linkview/kget_linkview.h:113
 msgctxt "filter: show all file types"
 msgid "All"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:104
+#: ui/linkview/kget_linkview.h:114
 msgid "Videos"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:105
+#: ui/linkview/kget_linkview.h:115
 msgid "Audio"
 msgstr ""
 
-#: ui/linkview/kget_linkview.h:106
+#: ui/linkview/kget_linkview.h:116
 msgid "Archives"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:54
+#: ui/linkview/kget_linkview.cpp:55
 #, fuzzy
 #| msgid "No Links"
 msgid "Import Links"
 msgstr "沒有連結"
 
-#: ui/linkview/kget_linkview.cpp:76
+#: ui/linkview/kget_linkview.cpp:77
 msgid "Filter files here..."
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:87
+#: ui/linkview/kget_linkview.cpp:82
+#, fuzzy
+#| msgid "Connection"
+msgid "Contains"
+msgstr "連線數"
+
+#: ui/linkview/kget_linkview.cpp:83
+msgid "Does not Contain"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:94
 msgid "Show:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:98
+#: ui/linkview/kget_linkview.cpp:106
 msgid "File with links to import:"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:99
+#: ui/linkview/kget_linkview.cpp:107
 #, fuzzy
 #| msgid "No Links"
 msgid "Import links"
 msgstr "沒有連結"
 
-#: ui/linkview/kget_linkview.cpp:127 ui/linkview/kget_linkview.cpp:324
+#: ui/linkview/kget_linkview.cpp:135 ui/linkview/kget_linkview.cpp:354
 msgid "Select all"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:128 ui/linkview/kget_linkview.cpp:325
+#: ui/linkview/kget_linkview.cpp:136 ui/linkview/kget_linkview.cpp:355
 msgid "Deselect all"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:130
+#: ui/linkview/kget_linkview.cpp:138
 #, fuzzy
 msgid "Check selected"
 msgstr "沒有選擇檔案"
 
-#: ui/linkview/kget_linkview.cpp:132
+#: ui/linkview/kget_linkview.cpp:140
+msgid "Invert selection"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:142
 msgid "Show web content"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:133
+#: ui/linkview/kget_linkview.cpp:143
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download checked"
@@ -1818,44 +1832,44 @@ msgstr "完成下載"
 
 #. i18n: tag string
 #. i18n: file transfer-plugins/bittorrent/scandlg.ui line 183
-#: ui/linkview/kget_linkview.cpp:135 rc.cpp:216
+#: ui/linkview/kget_linkview.cpp:145 rc.cpp:216
 msgid "Cancel"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:182
+#: ui/linkview/kget_linkview.cpp:202
 msgid "Auxiliar header"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:183
+#: ui/linkview/kget_linkview.cpp:203
 #, fuzzy
 #| msgid "Local File Name"
 msgid "File Name"
 msgstr "本機檔案名稱"
 
-#: ui/linkview/kget_linkview.cpp:184
+#: ui/linkview/kget_linkview.cpp:204
 msgid "Description"
 msgstr "說明"
 
-#: ui/linkview/kget_linkview.cpp:185
+#: ui/linkview/kget_linkview.cpp:205
 #, fuzzy
 msgctxt "list header: type of file"
 msgid "File Type"
 msgstr "檔案類型"
 
-#: ui/linkview/kget_linkview.cpp:186
+#: ui/linkview/kget_linkview.cpp:206
 msgid "Location (URL)"
 msgstr "地點 (URL)"
 
-#: ui/linkview/kget_linkview.cpp:241
+#: ui/linkview/kget_linkview.cpp:261
 #, kde-format
 msgid "Links in: %1 - KGet"
 msgstr "%1 中的連結 - KGet"
 
-#: ui/linkview/kget_linkview.cpp:324
+#: ui/linkview/kget_linkview.cpp:354
 msgid "Select all filtered"
 msgstr ""
 
-#: ui/linkview/kget_linkview.cpp:325
+#: ui/linkview/kget_linkview.cpp:355
 msgid "Deselect all filtered"
 msgstr ""
 
