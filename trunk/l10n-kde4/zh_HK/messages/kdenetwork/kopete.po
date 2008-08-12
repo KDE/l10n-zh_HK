@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-05 08:27+0200\n"
+"POT-Creation-Date: 2008-08-12 08:36+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2075,7 +2075,7 @@ msgstr "離開（進階）"
 #: kopete/config/status/statusconfig_manager.cpp:68
 #, fuzzy
 #| msgid "No Change"
-msgid "Don't change"
+msgid "Do not change"
 msgstr "沒有更改"
 
 #: kopete/config/status/statusconfig_manager.cpp:105
@@ -3051,7 +3051,7 @@ msgstr "%2 現在是 %1 。"
 #. i18n: tag string
 #. i18n: file ./doc/t3/tutorialprefs.ui line 16
 #: rc.cpp:5
-msgid "I'm a fast learner"
+msgid "I am a fast learner"
 msgstr ""
 
 #. i18n: tag string
@@ -4024,8 +4024,8 @@ msgid ""
 "Message for Active Chat\" event is used for the notification. Chat windows "
 "on other desktops will trigger notifications.\n"
 "If not activated, all chat windows except the active one will notify you "
-"that an event has occured using animations (if activated) and the \"Incoming "
-"Message\" event."
+"that an event has occurred using animations (if activated) and the "
+"\"Incoming Message\" event."
 msgstr ""
 
 #. i18n: tag string
@@ -8494,7 +8494,9 @@ msgstr "基本設定(&A)"
 #. i18n: tag string
 #. i18n: file ./protocols/irc/ui/irceditaccount.ui line 191
 #: rc.cpp:2211 rc.cpp:2238
-msgid "This is the name that everyone will see everytime you say something"
+#, fuzzy
+#| msgid "This is the name that everyone will see everytime you say something"
+msgid "This is the name that everyone will see every time you say something"
 msgstr "這是當你說話時其化人看見你的名字"
 
 #. i18n: tag string
@@ -8555,7 +8557,7 @@ msgstr "如你的系統不支援 identd ，用於 IRC 的用戶名稱。"
 #| "The alias you would like to use on IRC.  You may change this once online "
 #| "with the /nick command."
 msgid ""
-"The alias you would like to use on IRC.  Once you're online, you can change "
+"The alias you would like to use on IRC.  Once you are online, you can change "
 "it with the /nick command."
 msgstr "你要在 IRC 使用的暱稱。 當你上線時可以 /nick 指令更改。"
 
@@ -9379,10 +9381,15 @@ msgstr "messenger.hotmail.com"
 #. i18n: tag string
 #. i18n: file ./protocols/msn/ui/msneditaccountui.ui line 1350
 #: rc.cpp:2690
+#, fuzzy
+#| msgid ""
+#| "Connect to MSN Messenger using an HTTP-like protocol on port 80.\n"
+#| "This may be used to connect on a network with a restrictive firewall.\n"
+#| "Only check this option if the normal connection doesn't work."
 msgid ""
 "Connect to MSN Messenger using an HTTP-like protocol on port 80.\n"
 "This may be used to connect on a network with a restrictive firewall.\n"
-"Only check this option if the normal connection doesn't work."
+"Only check this option if the normal connection does not work."
 msgstr ""
 "以類似 HTTP 的協定在連接埠 80 連接 MSN Messenger 。\n"
 "有很大限制的防火牆時也可連接網絡。\n"
@@ -9408,7 +9415,7 @@ msgid ""
 "If you are behind a firewall, you may specify a base port to use for the "
 "incoming connection, and configure your firewall to accept connections on a "
 "range of 10 ports, starting at this one. Incoming connections are used for "
-"the webcam. If you don't specify a port yourself, the operating system will "
+"the webcam. If you do not specify a port yourself, the operating system will "
 "choose an available port for you. It is recommended to leave the checkbox "
 "unchecked."
 msgstr ""
@@ -11109,33 +11116,21 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 506
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 594
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 506
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 594
-#: rc.cpp:3532 rc.cpp:3904
+#: rc.cpp:3532
 msgid ""
-"Use AOL proxy server instead of direct connections. If you're behind a "
-"router that you don't control, you'll probably want this."
+"Use AOL proxy server instead of direct connections. If you are behind a "
+"router that you do not control, you'll probably want this."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 509
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 597
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/aim/ui/aimeditaccountui.ui line 509
-#. i18n: tag string
-#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 597
-#: rc.cpp:3535 rc.cpp:3907
+#: rc.cpp:3535
 msgid ""
 "Use the AOL proxy server for things that would normally need a direct "
 "connection, like file transfers. You'll want this if there's a firewall or "
-"router that blocks connections to your computer and you can't get unblocked. "
-"If a direct connection fails, a proxy connection will be tried regardless of "
-"this setting."
+"router that blocks connections to your computer and you cannot get "
+"unblocked. If a direct connection fails, a proxy connection will be tried "
+"regardless of this setting."
 msgstr ""
 
 #. i18n: tag string
@@ -11945,6 +11940,25 @@ msgstr ""
 #: rc.cpp:3877
 msgid "Make my status available via &ICQ's unified messaging center"
 msgstr "將我的狀態經 &ICQ 的統一傳訊中心分享出去"
+
+#. i18n: tag string
+#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 594
+#: rc.cpp:3904
+msgid ""
+"Use AOL proxy server instead of direct connections. If you're behind a "
+"router that you don't control, you'll probably want this."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 597
+#: rc.cpp:3907
+msgid ""
+"Use the AOL proxy server for things that would normally need a direct "
+"connection, like file transfers. You'll want this if there's a firewall or "
+"router that blocks connections to your computer and you can't get unblocked. "
+"If a direct connection fails, a proxy connection will be tried regardless of "
+"this setting."
+msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./protocols/oscar/icq/ui/icqeditaccountui.ui line 916
@@ -13995,7 +14009,7 @@ msgstr "傳送 WinPopup 訊息時聲稱的主機名稱。"
 #| "messages, but it does to receive them."
 msgid ""
 "The host name under which you want to send WinPopup messages. Note that you "
-"don't have to specify the true hostname in order to send messages, but you "
+"do not have to specify the true hostname in order to send messages, but you "
 "do if you want to receive them."
 msgstr ""
 "傳送 WinPopup 訊息時聲稱的主機名稱。 注意這不必是傳送訊息的電腦的真正名稱，但"
@@ -14841,7 +14855,7 @@ msgid ""
 "will appear as they come online.</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">If you "
-"expect to see a contact, but it isn't appearing</p>\n"
+"expect to see a contact, but it is not appearing</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">1) Please "
 "ensure that your local mDNS server (avahi-daemon) is running properly.</p>\n"
@@ -18230,7 +18244,7 @@ msgstr "正在觀望"
 
 #: protocols/oscar/icq/icqstatusmanager.cpp:171
 msgctxt "@item icq xtraz status"
-msgid "i'm high"
+msgid "i am high"
 msgstr ""
 
 #: protocols/oscar/icq/icqstatusmanager.cpp:172
