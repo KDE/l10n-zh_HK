@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-28 09:38+0200\n"
+"POT-Creation-Date: 2008-08-29 11:28+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -423,7 +423,7 @@ msgstr "保存密碼(&K)"
 
 #. i18n: file: kdeui/sonnet/configui.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126 kfile/kfilewidget.cpp:399
+#: rc.cpp:158 kdeui/findreplace/kfinddialog.cpp:126
 msgid "Options"
 msgstr "選項"
 
@@ -848,7 +848,7 @@ msgstr "移動(&M)"
 #. i18n: ectx: Menu (view)
 #. i18n: file: khtml/khtml_browser.rc:20
 #. i18n: ectx: Menu (view)
-#: rc.cpp:318 rc.cpp:459 kfile/kdiroperator.cpp:1701
+#: rc.cpp:318 rc.cpp:459
 msgid "&View"
 msgstr "檢視(&V)"
 
@@ -6294,7 +6294,7 @@ msgstr "移除"
 msgid "Test"
 msgstr "Test"
 
-#: kdeui/util/kstandardguiitem.cpp:285 kfile/kdiroperator.cpp:1694
+#: kdeui/util/kstandardguiitem.cpp:285
 msgid "Properties"
 msgstr "內容"
 
@@ -6353,7 +6353,7 @@ msgstr "Props"
 msgid "Front"
 msgstr "Front"
 
-#: kdeui/util/kkeyserver_x11.cpp:114 kfile/kurlbutton.cpp:90
+#: kdeui/util/kkeyserver_x11.cpp:114
 msgid "Copy"
 msgstr "複製"
 
@@ -6361,7 +6361,7 @@ msgstr "複製"
 msgid "Open"
 msgstr "開啟"
 
-#: kdeui/util/kkeyserver_x11.cpp:116 kfile/kurlbutton.cpp:94
+#: kdeui/util/kkeyserver_x11.cpp:116
 msgid "Paste"
 msgstr "貼上"
 
@@ -10725,669 +10725,6 @@ msgstr "<< 加到字典中"
 msgid "Nothing to spell check."
 msgstr "沒有選擇供應者。"
 
-#: kfile/kfileplacesview.cpp:560
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "垃圾桶"
-
-#: kfile/kfileplacesview.cpp:566
-#, fuzzy, kde-format
-#| msgid "&Edit..."
-msgid "&Edit '%1'..."
-msgstr "編輯(&E)..."
-
-#: kfile/kfileplacesview.cpp:585
-#, fuzzy, kde-format
-#| msgid "Hide %1"
-msgid "&Hide '%1'"
-msgstr "隱藏 %1"
-
-#: kfile/kfileplacesview.cpp:592
-#, fuzzy
-#| msgid "Show all options"
-msgid "&Show All Entries"
-msgstr "顯示所有選項"
-
-#: kfile/kfileplacesview.cpp:601
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Remove '%1'"
-msgstr "移除(&R)"
-
-#: kfile/kfileplacesview.cpp:610
-#, fuzzy
-#| msgid "Do you really want to execute '%1'? "
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "你真的要執行‘%1’？"
-
-#: kfile/kfileplacesview.cpp:614
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "垃圾桶"
-
-#: kfile/kfilefiltercombo.cpp:36 kfile/kfilewidget.cpp:1663
-#, fuzzy
-#| msgid "Files"
-msgid "*|All Files"
-msgstr "檔案"
-
-#: kfile/kfilefiltercombo.cpp:181
-#, fuzzy
-#| msgid "&Send Files"
-msgid "All Supported Files"
-msgstr "傳送檔案(&S)"
-
-#: kfile/kfilewidget.cpp:246
-msgid ""
-"<qt>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:313
-#, fuzzy, kde-format
-#| msgid "Hide %1"
-msgid "Drive: %1"
-msgstr "隱藏 %1"
-
-#: kfile/kfilewidget.cpp:368
-#, kde-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
-"if the current location is file:/home/%1 clicking this button will take you "
-"to file:/home.</qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:373
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:375
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:378
-msgid "Click this button to reload the contents of the current location."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:381
-msgid "Click this button to create a new folder."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:387
-#, fuzzy
-#| msgid "Show license information"
-msgid "Show Places Navigation Panel"
-msgstr "顯示版權資訊"
-
-#: kfile/kfilewidget.cpp:394
-#, fuzzy
-#| msgid "Bookmarks"
-msgid "Show Bookmarks"
-msgstr "書籤"
-
-#: kfile/kfilewidget.cpp:401
-msgid ""
-"<qt>This is the preferences menu for the file dialog. Various options can be "
-"accessed from this menu including: <ul><li>how files are sorted in the list</"
-"li><li>types of view, including icon and list</li><li>showing of hidden "
-"files</li><li>the Places navigation panel</li><li>file previews</"
-"li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:447 kfile/kfileplaceeditdialog.cpp:116
-#, fuzzy
-msgid "&Location:"
-msgstr "組態設定"
-
-#: kfile/kfilewidget.cpp:484
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:490
-#, fuzzy
-#| msgid "Filter:"
-msgid "&Filter:"
-msgstr "過濾器："
-
-#: kfile/kfilewidget.cpp:717 kfile/kfilewidget.cpp:766
-#: kfile/kfilewidget.cpp:1600
-msgid "You can only select local files."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:718 kfile/kfilewidget.cpp:767
-#: kfile/kfilewidget.cpp:1601
-msgid "Remote Files Not Accepted"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:757
-#, kde-format
-msgid ""
-"%1\n"
-"does not appear to be a valid URL.\n"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:757
-#, fuzzy
-#| msgid "InvalidCA"
-msgid "Invalid URL"
-msgstr "CA證書無效"
-
-#: kfile/kfilewidget.cpp:1191
-msgid "This is the name to save the file as."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1196
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1203
-msgid "This is the name of the file to open."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1377
-#, fuzzy, kde-format
-#| msgid "The file '%1' already exists. Do you want to overwrite it?"
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr "名為“%1”的檔案已經存在。你確定要覆寫它嗎？"
-
-#: kfile/kfilewidget.cpp:1378 khtml/khtml_ext.cpp:928
-msgid "Overwrite File?"
-msgstr "覆寫檔案嗎？"
-
-#: kfile/kfilewidget.cpp:1532
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1534
-#, fuzzy
-#| msgid "invalid flags"
-msgid "Invalid Filenames"
-msgstr "錯誤的旗號"
-
-#: kfile/kfilewidget.cpp:1563
-#, kde-format
-msgid ""
-"The requested filenames\n"
-"%1\n"
-"do not appear to be valid;\n"
-"make sure every filename is enclosed in double quotes."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1567
-#, fuzzy
-#| msgid "File Error"
-msgid "Filename Error"
-msgstr "檔案錯誤"
-
-#: kfile/kfilewidget.cpp:1660
-msgid "*|All Folders"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1802 kparts/browserrun.cpp:384
-msgid "&Open"
-msgstr "開啟(&O)"
-
-#: kfile/kfilewidget.cpp:1958
-#, kde-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1959
-#, kde-format
-msgid "the extension <b>%1</b>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1967
-msgid "Automatically select filename e&xtension"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1968
-msgid "a suitable extension"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1978
-#, kde-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br /><br /></"
-"li><li>If no extension is specified in the <b>%2</b> text area when you "
-"click <b>Save</b>, %3 will be added to the end of the filename (if the "
-"filename does not already exist). This extension is based on the file type "
-"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
-"an extension for the filename, you can either turn this option off or you "
-"can suppress it by adding a period (.) to the end of the filename (the "
-"period will be automatically removed).</li></ol>If unsure, keep this option "
-"enabled as it makes your files more manageable."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:2277
-msgid "Bookmarks"
-msgstr "書籤"
-
-#: kfile/kfilewidget.cpp:2281
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
-"otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-
-#: kfile/kfileplacesmodel.cpp:101
-#, fuzzy
-#| msgctxt "Opposite to End"
-#| msgid "Home"
-msgctxt "Home Directory"
-msgid "Home"
-msgstr "開頭"
-
-#: kfile/kfileplacesmodel.cpp:103
-#, fuzzy
-#| msgid "New"
-msgid "Network"
-msgstr "新增"
-
-#: kfile/kfileplacesmodel.cpp:107 kfile/kfileplacesmodel.cpp:110
-#, fuzzy
-#| msgid "NoCARoot"
-msgid "Root"
-msgstr "NoCARoot"
-
-#: kfile/kfileplacesmodel.cpp:113
-#, fuzzy
-#| msgid "Trash"
-msgid "Trash"
-msgstr "垃圾桶"
-
-#: kfile/kfileplacesmodel.cpp:687
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Release '%1'"
-msgstr "移除(&R)"
-
-#: kfile/kfileplacesmodel.cpp:689
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Safely Remove '%1'"
-msgstr "移除(&R)"
-
-#: kfile/kfileplacesmodel.cpp:692
-#, fuzzy, kde-format
-#| msgid "&About %1"
-msgid "&Unmount '%1'"
-msgstr "關於 %1(&A)"
-
-#: kfile/kfileplacesmodel.cpp:713
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgid "&Eject '%1'"
-msgstr "開啟用 '%1'(&O)"
-
-#: kfile/kfileplacesmodel.cpp:746
-#, kde-format
-msgid "The device '%1' is not a disc and can't be ejected."
-msgstr ""
-
-#: kfile/kfileplacesmodel.cpp:782
-#, fuzzy, kde-format
-#| msgid "An error occurred while loading <B>%1</B>:"
-msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr "載入 <B>%1</B> 時發生錯誤："
-
-#: kfile/kfileplacesmodel.cpp:786
-#, fuzzy, kde-format
-#| msgid "An error occurred while loading <B>%1</B>:"
-msgid "An error occurred while accessing '%1'"
-msgstr "載入 <B>%1</B> 時發生錯誤："
-
-#: kfile/kurlnavigator.cpp:573
-#, fuzzy
-#| msgid "Custom"
-msgid "Custom Path"
-msgstr "自訂"
-
-#: kfile/kdirselectdialog.cpp:115 kfile/kdiroperator.cpp:666
-#: kfile/kdiroperator.cpp:674
-msgid "New Folder"
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:119
-#, fuzzy
-#| msgid "Home Phone"
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "住家電話"
-
-#: kfile/kdirselectdialog.cpp:120
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:143 kfile/kdiroperator.cpp:701
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:147 kfile/kdiroperator.cpp:704
-msgid "You do not have permission to create that folder."
-msgstr ""
-
-#: kfile/kdirselectdialog.cpp:223
-#, fuzzy
-#| msgid "Select Color"
-msgctxt "@title:window"
-msgid "Select Folder"
-msgstr "選取顏色"
-
-#: kfile/kdirselectdialog.cpp:225
-#, fuzzy
-#| msgid "Home Phone"
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "住家電話"
-
-#: kfile/kdirselectdialog.cpp:264
-#, fuzzy
-#| msgid "Home Phone"
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "住家電話"
-
-#: kfile/kdirselectdialog.cpp:271
-#, fuzzy
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "顯示說明"
-
-#: kfile/kfileplaceeditdialog.cpp:85
-#, fuzzy
-#| msgid "&Edit..."
-msgid "Edit Places Entry"
-msgstr "編輯(&E)..."
-
-#: kfile/kfileplaceeditdialog.cpp:99
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:102
-#, fuzzy
-#| msgid "Description:"
-msgid "&Description:"
-msgstr "描述："
-
-#: kfile/kfileplaceeditdialog.cpp:112
-#, kde-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:125
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:127
-msgid "Choose an &icon:"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr ""
-
-#: kfile/kfileplaceeditdialog.cpp:149
-#, kde-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-
-#: kfile/kfiletreeview.cpp:185
-#, fuzzy
-msgid "Show Hidden Folders"
-msgstr "顯示說明"
-
-#: kfile/kdiroperator.cpp:675
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:719
-msgid "You did not select a file to delete."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:720
-#, fuzzy
-msgid "Nothing to Delete"
-msgstr "沒有選擇供應者。"
-
-#: kfile/kdiroperator.cpp:741
-#, fuzzy, kde-format
-#| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
-msgid ""
-"<qt>Do you really want to delete\n"
-" <b>'%1'</b>?</qt>"
-msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
-
-#: kfile/kdiroperator.cpp:743
-#, fuzzy
-#| msgid "Delete All"
-msgid "Delete File"
-msgstr "全部刪除"
-
-#: kfile/kdiroperator.cpp:748
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "你真的要執行‘%1’？"
-
-#: kfile/kdiroperator.cpp:750
-#, fuzzy
-#| msgid "Delete item(s)"
-msgid "Delete Files"
-msgstr "刪除項目"
-
-#: kfile/kdiroperator.cpp:781
-msgid "You did not select a file to trash."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:782
-msgid "Nothing to Trash"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:799
-#, fuzzy, kde-format
-#| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
-msgid ""
-"<qt>Do you really want to trash\n"
-" <b>'%1'</b>?</qt>"
-msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
-
-#: kfile/kdiroperator.cpp:801
-#, fuzzy
-#| msgid "Trash"
-msgid "Trash File"
-msgstr "垃圾桶"
-
-#: kfile/kdiroperator.cpp:802 kfile/kdiroperator.cpp:809
-#, fuzzy
-#| msgid "Trash"
-msgctxt "to trash"
-msgid "&Trash"
-msgstr "垃圾桶"
-
-#: kfile/kdiroperator.cpp:806
-#, kde-format
-msgid "translators: not called for n == 1"
-msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] ""
-
-#: kfile/kdiroperator.cpp:808
-#, fuzzy
-#| msgid "Files"
-msgid "Trash Files"
-msgstr "檔案"
-
-#: kfile/kdiroperator.cpp:935 kfile/kdiroperator.cpp:1052
-msgid "The specified folder does not exist or was not readable."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1594
-#, fuzzy
-#| msgctxt "QAccel"
-#| msgid "Menu"
-msgid "Menu"
-msgstr "選單"
-
-#: kfile/kdiroperator.cpp:1598
-#, fuzzy
-#| msgid "Print header"
-msgid "Parent Folder"
-msgstr "列印標頭"
-
-#: kfile/kdiroperator.cpp:1605
-#, fuzzy
-#| msgid "Home Phone"
-msgid "Home Folder"
-msgstr "住家電話"
-
-#: kfile/kdiroperator.cpp:1608
-msgid "Reload"
-msgstr "重新載入"
-
-#: kfile/kdiroperator.cpp:1611
-msgid "New Folder..."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1616
-msgid "Move to Trash"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1622
-msgid "Delete"
-msgstr "刪除"
-
-#: kfile/kdiroperator.cpp:1629
-#, fuzzy
-#| msgid "Sort String"
-msgid "Sorting"
-msgstr "分類字串"
-
-#: kfile/kdiroperator.cpp:1632
-#, fuzzy
-#| msgid "Name"
-msgid "By Name"
-msgstr "名稱"
-
-#: kfile/kdiroperator.cpp:1636
-#, fuzzy
-#| msgid "Size"
-msgid "By Size"
-msgstr "大小"
-
-#: kfile/kdiroperator.cpp:1640
-#, fuzzy
-#| msgid "Dates"
-msgid "By Date"
-msgstr "日期"
-
-#: kfile/kdiroperator.cpp:1644
-#, fuzzy
-#| msgid "Type"
-msgid "By Type"
-msgstr "類型"
-
-#: kfile/kdiroperator.cpp:1648
-msgid "Descending"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1658
-msgid "Short View"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1663
-#, fuzzy
-#| msgid "Details"
-msgid "Detailed View"
-msgstr "詳細資料"
-
-#: kfile/kdiroperator.cpp:1668
-#, fuzzy
-#| msgid "&New View"
-msgid "Tree View"
-msgstr "開新檢視(&N)"
-
-#: kfile/kdiroperator.cpp:1673
-#, fuzzy
-#| msgid "Details"
-msgid "Detailed Tree View"
-msgstr "詳細資料"
-
-#: kfile/kdiroperator.cpp:1684
-#, fuzzy
-msgid "Show Hidden Files"
-msgstr "顯示說明"
-
-#: kfile/kdiroperator.cpp:1688
-msgid "Show Preview"
-msgstr ""
-
-#: kfile/kurltogglebutton.cpp:76
-#, fuzzy
-#| msgid "Click to select a font"
-msgid "Click for Location Navigation"
-msgstr "選擇一個字型"
-
-#: kfile/kurltogglebutton.cpp:78
-#, fuzzy
-#| msgid "Click to select a font"
-msgid "Click to Edit Location"
-msgstr "選擇一個字型"
-
-#: kfile/kurlbutton.cpp:101 kross/ui/view.cpp:505
-msgid "Edit"
-msgstr "編輯"
-
-#: kfile/kurlbutton.cpp:104
-#, fuzzy
-#| msgid "Navigation"
-msgid "Navigate"
-msgstr "航行"
-
-#: kfile/kurlbutton.cpp:119
-#, fuzzy
-#| msgid "Show all options"
-msgid "Show Full Path"
-msgstr "顯示所有選項"
-
 #: khtml/testkhtml.cpp:38
 #, fuzzy
 #| msgid "URL to open"
@@ -11656,6 +10993,10 @@ msgstr ""
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "名為“%1”的檔案已經存在。你確定要覆寫它嗎？"
+
+#: khtml/khtml_ext.cpp:928
+msgid "Overwrite File?"
+msgstr "覆寫檔案嗎？"
 
 #: khtml/khtml_ext.cpp:928
 msgid "Overwrite"
@@ -12902,6 +12243,10 @@ msgstr ""
 msgid "Remove selected script."
 msgstr ""
 
+#: kross/ui/view.cpp:505
+msgid "Edit"
+msgstr "編輯"
+
 #: kross/qts/main.cpp:57 kross/console/main.cpp:94
 #, fuzzy
 #| msgid "Props"
@@ -13205,6 +12550,10 @@ msgstr "開啟用 '%1'(&O)"
 #: kparts/browserrun.cpp:339
 msgid "&Open With..."
 msgstr "開啟用(&O)..."
+
+#: kparts/browserrun.cpp:384
+msgid "&Open"
+msgstr "開啟(&O)"
 
 #: kutils/kcmoduleloader.cpp:76
 #, kde-format
@@ -14413,6 +13762,337 @@ msgstr "每日小祕訣(&D)"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Empty Trash"
+#~ msgstr "垃圾桶"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgid "&Edit '%1'..."
+#~ msgstr "編輯(&E)..."
+
+#, fuzzy
+#~| msgid "Hide %1"
+#~ msgid "&Hide '%1'"
+#~ msgstr "隱藏 %1"
+
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "&Show All Entries"
+#~ msgstr "顯示所有選項"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Remove '%1'"
+#~ msgstr "移除(&R)"
+
+#, fuzzy
+#~| msgid "Do you really want to execute '%1'? "
+#~ msgctxt "@info"
+#~ msgid "Do you really want to empty the Trash? All items will be deleted."
+#~ msgstr "你真的要執行‘%1’？"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "@action:button"
+#~ msgid "Empty Trash"
+#~ msgstr "垃圾桶"
+
+#, fuzzy
+#~| msgid "Files"
+#~ msgid "*|All Files"
+#~ msgstr "檔案"
+
+#, fuzzy
+#~| msgid "&Send Files"
+#~ msgid "All Supported Files"
+#~ msgstr "傳送檔案(&S)"
+
+#, fuzzy
+#~| msgid "Hide %1"
+#~ msgid "Drive: %1"
+#~ msgstr "隱藏 %1"
+
+#, fuzzy
+#~| msgid "Show license information"
+#~ msgid "Show Places Navigation Panel"
+#~ msgstr "顯示版權資訊"
+
+#, fuzzy
+#~| msgid "Bookmarks"
+#~ msgid "Show Bookmarks"
+#~ msgstr "書籤"
+
+#, fuzzy
+#~ msgid "&Location:"
+#~ msgstr "組態設定"
+
+#, fuzzy
+#~| msgid "Filter:"
+#~ msgid "&Filter:"
+#~ msgstr "過濾器："
+
+#, fuzzy
+#~| msgid "InvalidCA"
+#~ msgid "Invalid URL"
+#~ msgstr "CA證書無效"
+
+#, fuzzy
+#~| msgid "The file '%1' already exists. Do you want to overwrite it?"
+#~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+#~ msgstr "名為“%1”的檔案已經存在。你確定要覆寫它嗎？"
+
+#, fuzzy
+#~| msgid "invalid flags"
+#~ msgid "Invalid Filenames"
+#~ msgstr "錯誤的旗號"
+
+#, fuzzy
+#~| msgid "File Error"
+#~ msgid "Filename Error"
+#~ msgstr "檔案錯誤"
+
+#~ msgid "Bookmarks"
+#~ msgstr "書籤"
+
+#, fuzzy
+#~| msgctxt "Opposite to End"
+#~| msgid "Home"
+#~ msgctxt "Home Directory"
+#~ msgid "Home"
+#~ msgstr "開頭"
+
+#, fuzzy
+#~| msgid "New"
+#~ msgid "Network"
+#~ msgstr "新增"
+
+#, fuzzy
+#~| msgid "NoCARoot"
+#~ msgid "Root"
+#~ msgstr "NoCARoot"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgid "Trash"
+#~ msgstr "垃圾桶"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Release '%1'"
+#~ msgstr "移除(&R)"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Safely Remove '%1'"
+#~ msgstr "移除(&R)"
+
+#, fuzzy
+#~| msgid "&About %1"
+#~ msgid "&Unmount '%1'"
+#~ msgstr "關於 %1(&A)"
+
+#, fuzzy
+#~| msgid "&Open with '%1'"
+#~ msgid "&Eject '%1'"
+#~ msgstr "開啟用 '%1'(&O)"
+
+#, fuzzy
+#~| msgid "An error occurred while loading <B>%1</B>:"
+#~ msgid "An error occurred while accessing '%1', the system responded: %2"
+#~ msgstr "載入 <B>%1</B> 時發生錯誤："
+
+#, fuzzy
+#~| msgid "An error occurred while loading <B>%1</B>:"
+#~ msgid "An error occurred while accessing '%1'"
+#~ msgstr "載入 <B>%1</B> 時發生錯誤："
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Custom Path"
+#~ msgstr "自訂"
+
+#, fuzzy
+#~| msgid "Home Phone"
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "住家電話"
+
+#, fuzzy
+#~| msgid "Select Color"
+#~ msgctxt "@title:window"
+#~ msgid "Select Folder"
+#~ msgstr "選取顏色"
+
+#, fuzzy
+#~| msgid "Home Phone"
+#~ msgctxt "@action:button"
+#~ msgid "New Folder..."
+#~ msgstr "住家電話"
+
+#, fuzzy
+#~| msgid "Home Phone"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Folder..."
+#~ msgstr "住家電話"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Show Hidden Folders"
+#~ msgstr "顯示說明"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgid "Edit Places Entry"
+#~ msgstr "編輯(&E)..."
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid "&Description:"
+#~ msgstr "描述："
+
+#, fuzzy
+#~ msgid "Show Hidden Folders"
+#~ msgstr "顯示說明"
+
+#, fuzzy
+#~ msgid "Nothing to Delete"
+#~ msgstr "沒有選擇供應者。"
+
+#, fuzzy
+#~| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
+#~ msgid ""
+#~ "<qt>Do you really want to delete\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
+
+#, fuzzy
+#~| msgid "Delete All"
+#~ msgid "Delete File"
+#~ msgstr "全部刪除"
+
+#, fuzzy
+#~| msgid "Do you really want to execute '%1'? "
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "你真的要執行‘%1’？"
+
+#, fuzzy
+#~| msgid "Delete item(s)"
+#~ msgid "Delete Files"
+#~ msgstr "刪除項目"
+
+#, fuzzy
+#~| msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
+#~ msgid ""
+#~ "<qt>Do you really want to trash\n"
+#~ " <b>'%1'</b>?</qt>"
+#~ msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgid "Trash File"
+#~ msgstr "垃圾桶"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "to trash"
+#~ msgid "&Trash"
+#~ msgstr "垃圾桶"
+
+#, fuzzy
+#~| msgid "Files"
+#~ msgid "Trash Files"
+#~ msgstr "檔案"
+
+#, fuzzy
+#~| msgctxt "QAccel"
+#~| msgid "Menu"
+#~ msgid "Menu"
+#~ msgstr "選單"
+
+#, fuzzy
+#~| msgid "Print header"
+#~ msgid "Parent Folder"
+#~ msgstr "列印標頭"
+
+#, fuzzy
+#~| msgid "Home Phone"
+#~ msgid "Home Folder"
+#~ msgstr "住家電話"
+
+#~ msgid "Reload"
+#~ msgstr "重新載入"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#, fuzzy
+#~| msgid "Sort String"
+#~ msgid "Sorting"
+#~ msgstr "分類字串"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "By Name"
+#~ msgstr "名稱"
+
+#, fuzzy
+#~| msgid "Size"
+#~ msgid "By Size"
+#~ msgstr "大小"
+
+#, fuzzy
+#~| msgid "Dates"
+#~ msgid "By Date"
+#~ msgstr "日期"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "By Type"
+#~ msgstr "類型"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgid "Detailed View"
+#~ msgstr "詳細資料"
+
+#, fuzzy
+#~| msgid "&New View"
+#~ msgid "Tree View"
+#~ msgstr "開新檢視(&N)"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgid "Detailed Tree View"
+#~ msgstr "詳細資料"
+
+#, fuzzy
+#~ msgid "Show Hidden Files"
+#~ msgstr "顯示說明"
+
+#, fuzzy
+#~| msgid "Click to select a font"
+#~ msgid "Click for Location Navigation"
+#~ msgstr "選擇一個字型"
+
+#, fuzzy
+#~| msgid "Click to select a font"
+#~ msgid "Click to Edit Location"
+#~ msgstr "選擇一個字型"
+
+#, fuzzy
+#~| msgid "Navigation"
+#~ msgid "Navigate"
+#~ msgstr "航行"
+
+#, fuzzy
+#~| msgid "Show all options"
+#~ msgid "Show Full Path"
+#~ msgstr "顯示所有選項"
 
 #, fuzzy
 #~| msgid "Business Phone"
