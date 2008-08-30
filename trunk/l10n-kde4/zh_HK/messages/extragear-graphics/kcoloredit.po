@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoloredit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-27 09:47+0200\n"
+"POT-Creation-Date: 2008-08-30 10:27+0200\n"
 "PO-Revision-Date: 2006-01-08 19:04+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -170,7 +170,7 @@ msgstr "無法開啟檔案供寫入"
 msgid "Is not a palette file"
 msgstr "無法開啟檔案"
 
-#: src/core/palettemodel.cpp:126
+#: src/core/palettemodel.cpp:132
 msgid "Items"
 msgstr ""
 
@@ -214,33 +214,35 @@ msgstr "顯示色彩名稱(&C)"
 msgid "If is checked, views will be synchronized"
 msgstr ""
 
-#: src/itemviews/palettebriefview.cpp:189
-#: src/itemviews/palettebriefview.cpp:211
+#: src/itemviews/palettebriefview.cpp:215
+#: src/itemviews/palettebriefview.cpp:250
 #, fuzzy
 #| msgid "Name"
-msgid "Name : "
+msgid "Name: "
 msgstr "名稱"
 
-#: src/itemviews/palettebriefview.cpp:227
-msgid "Comment : "
-msgstr ""
+#: src/itemviews/palettebriefview.cpp:230
+#, fuzzy
+#| msgid "Add Color"
+msgid "Comment: "
+msgstr "加增顏色"
 
 #: src/itemviews/palettedetailview.cpp:56
-#: src/itemviews/palettedetailview.cpp:207
+#: src/itemviews/palettedetailview.cpp:205
 msgid "Add description"
 msgstr ""
 
-#: src/itemviews/palettedetailview.cpp:63
+#: src/itemviews/palettedetailview.cpp:61
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Palette Name:"
 msgstr "載入色板"
 
-#: src/itemviews/palettedetailview.cpp:68
+#: src/itemviews/palettedetailview.cpp:66
 msgid " for this palette"
 msgstr ""
 
-#: src/itemviews/palettedetailview.cpp:205
+#: src/itemviews/palettedetailview.cpp:203
 msgid "Edit description"
 msgstr ""
 
@@ -335,7 +337,7 @@ msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:125
 #: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
-#: src/widgets/colortoolwidget.cpp:98
+#: src/widgets/colortoolwidget.cpp:100
 msgid "Saturation"
 msgstr ""
 
@@ -412,26 +414,36 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:79
+#: src/widgets/colortoolwidget.cpp:81
 msgid "Brightness"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:81 src/widgets/colortoolwidget.cpp:100
+#: src/widgets/colortoolwidget.cpp:83 src/widgets/colortoolwidget.cpp:102
 msgid "Decrease"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:82 src/widgets/colortoolwidget.cpp:101
+#: src/widgets/colortoolwidget.cpp:84 src/widgets/colortoolwidget.cpp:103
 msgid "Increase"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:117
+#: src/widgets/colortoolwidget.cpp:119
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "Color selectors"
 msgstr "在游標處的顏色"
 
-#: src/widgets/colortoolwidget.cpp:119
-msgid "Pick a color from desktop"
+#: src/widgets/colortoolwidget.cpp:121
+msgid "Pick a color"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:123
+#, fuzzy
+#| msgid "New &Window"
+msgid "Hide window"
+msgstr "新視窗(&W)"
+
+#: src/widgets/colortoolwidget.cpp:124
+msgid "Only works if Desktop Effects is enabled"
 msgstr ""
 
 #: rc.cpp:1
@@ -486,9 +498,6 @@ msgstr ""
 
 #~ msgid "Synchronize"
 #~ msgstr "同步化"
-
-#~ msgid "New &Window"
-#~ msgstr "新視窗(&W)"
 
 #~ msgid "From &Palette"
 #~ msgstr "從色板中(&P)"

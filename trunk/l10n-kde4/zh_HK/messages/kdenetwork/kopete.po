@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-29 11:31+0200\n"
+"POT-Creation-Date: 2008-08-30 10:22+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -315,7 +315,7 @@ msgstr "覆寫檔案"
 
 #: libkopete/kopetetransfermanager.cpp:333 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:607 protocols/gadu/gaducontact.cpp:100
-#: protocols/oscar/oscarcontact.cpp:318
+#: protocols/oscar/oscarcontact.cpp:342
 #: protocols/jabber/jabbercontact.cpp:1039
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:309
@@ -391,13 +391,13 @@ msgstr "已發出訊息"
 msgid "A contact sent you a buzz/nudge."
 msgstr "有聯絡人發嗶聲/提示給你。"
 
-#: libkopete/kopetechatsession.cpp:458
+#: libkopete/kopetechatsession.cpp:463
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
 msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
-#: libkopete/kopetechatsession.cpp:459
+#: libkopete/kopetechatsession.cpp:464
 msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
@@ -2826,21 +2826,21 @@ msgstr "主題"
 msgid "Bottom"
 msgstr ""
 
-#: kopete/chatwindow/chatmessagepart.cpp:276
+#: kopete/chatwindow/chatmessagepart.cpp:257
 #: plugins/history/historydialog.cpp:169
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
-#: kopete/chatwindow/chatmessagepart.cpp:312
+#: kopete/chatwindow/chatmessagepart.cpp:293
 msgid "Save Conversation"
 msgstr "儲存對話"
 
-#: kopete/chatwindow/chatmessagepart.cpp:354
+#: kopete/chatwindow/chatmessagepart.cpp:335
 #, kde-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟 <b>%1</b> 以寫入。</qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:355
+#: kopete/chatwindow/chatmessagepart.cpp:336
 msgid "Error While Saving"
 msgstr "儲存時發生錯誤"
 
@@ -3059,13 +3059,13 @@ msgstr "你現在被標示為 %1 。"
 msgid "%2 is now %1."
 msgstr "%2 現在是 %1 。"
 
-#: kopete/chatwindow/kopetechatwindowstyle.cpp:342
+#: kopete/chatwindow/kopetechatwindowstyle.cpp:371
 #, fuzzy
 #| msgid "Down"
 msgid "Download"
 msgstr "下"
 
-#: kopete/chatwindow/kopetechatwindowstyle.cpp:342
+#: kopete/chatwindow/kopetechatwindowstyle.cpp:371
 #, fuzzy
 msgid "Cancel"
 msgstr "頻道"
@@ -18787,7 +18787,7 @@ msgid "Fitness"
 msgstr "健美"
 
 #: protocols/oscar/icq/icqprotocol.cpp:613
-#: protocols/oscar/oscarcontact.cpp:246
+#: protocols/oscar/oscarcontact.cpp:250
 msgid "Games"
 msgstr "遊戲"
 
@@ -19203,7 +19203,7 @@ msgstr ""
 msgid "Past Organization"
 msgstr "授權"
 
-#: protocols/oscar/icq/icqcontact.cpp:253 protocols/oscar/oscarcontact.cpp:363
+#: protocols/oscar/icq/icqcontact.cpp:253 protocols/oscar/oscarcontact.cpp:387
 msgid "Request Authorization"
 msgstr "要求授權"
 
@@ -19235,7 +19235,7 @@ msgctxt "Translators: client-name client-version"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:452 protocols/oscar/oscarcontact.cpp:232
+#: protocols/oscar/icq/icqcontact.cpp:452 protocols/oscar/oscarcontact.cpp:236
 msgid "UTF-8"
 msgstr "UTF-8"
 
@@ -19243,7 +19243,7 @@ msgstr "UTF-8"
 msgid "RTF-Messages"
 msgstr "豐富文本（RTF）訊息"
 
-#: protocols/oscar/icq/icqcontact.cpp:456 protocols/oscar/oscarcontact.cpp:240
+#: protocols/oscar/icq/icqcontact.cpp:456 protocols/oscar/oscarcontact.cpp:244
 msgid "DirectIM/IMImage"
 msgstr "直接即時傳訊/即時傳訊影像"
 
@@ -19307,31 +19307,31 @@ msgstr "新增聯絡人到伺服器清單"
 msgid "Do &Not Add"
 msgstr "不新增(&N)"
 
-#: protocols/oscar/oscarcontact.cpp:230
+#: protocols/oscar/oscarcontact.cpp:234
 msgid "Buddy icons"
 msgstr "伙伴圖示"
 
-#: protocols/oscar/oscarcontact.cpp:234
+#: protocols/oscar/oscarcontact.cpp:238
 msgid "Rich text messages"
 msgstr "豐富文本（Rich text）訊息"
 
-#: protocols/oscar/oscarcontact.cpp:236
+#: protocols/oscar/oscarcontact.cpp:240
 msgid "Group chat"
 msgstr "群組聊天"
 
-#: protocols/oscar/oscarcontact.cpp:238
+#: protocols/oscar/oscarcontact.cpp:242
 msgid "Voice chat"
 msgstr "話音聊天"
 
-#: protocols/oscar/oscarcontact.cpp:242
+#: protocols/oscar/oscarcontact.cpp:246
 msgid "Send buddy list"
 msgstr "傳送伙伴清單"
 
-#: protocols/oscar/oscarcontact.cpp:244
+#: protocols/oscar/oscarcontact.cpp:248
 msgid "File transfers"
 msgstr "檔案傳輸"
 
-#: protocols/oscar/oscarcontact.cpp:359
+#: protocols/oscar/oscarcontact.cpp:383
 #, kde-format
 msgid ""
 "The user %1 requires authorization before being added to a contact list. Do "
@@ -19340,7 +19340,7 @@ msgid ""
 "Reason for requesting authorization:"
 msgstr ""
 
-#: protocols/oscar/oscarcontact.cpp:364
+#: protocols/oscar/oscarcontact.cpp:388
 #, fuzzy
 #| msgid ""
 #| "&Require authorization before someone can add you to their contact list"
