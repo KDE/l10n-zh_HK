@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-30 10:22+0200\n"
+"POT-Creation-Date: 2008-08-31 10:07+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -223,28 +223,84 @@ msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 msgid "File already exists"
 msgstr "壓縮檔已經存在"
 
-#: part/archivemodel.cpp:259
+#: part/archivemodel.cpp:267
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:261
+#: part/archivemodel.cpp:269
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
 
-#: part/archivemodel.cpp:263
+#: part/archivemodel.cpp:271
 #, fuzzy
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
 msgid "Compressed"
 msgstr "已壓縮檔案"
 
-#: part/archivemodel.cpp:265
+#: part/archivemodel.cpp:273
 msgctxt "Compression rate of file"
 msgid "Rate"
+msgstr ""
+
+#: part/archivemodel.cpp:275
+#, fuzzy
+#| msgid " Owner "
+msgctxt "File's owner username"
+msgid "Owner"
+msgstr " 擁有者 "
+
+#: part/archivemodel.cpp:277
+#, fuzzy
+#| msgid " Group "
+msgctxt "File's group"
+msgid "Group"
+msgstr " 群組 "
+
+#: part/archivemodel.cpp:279
+msgctxt "File permissions"
+msgid "Mode"
+msgstr ""
+
+#: part/archivemodel.cpp:281
+#, fuzzy
+#| msgctxt "acronym for Cyclic Redundancy Check"
+#| msgid " CRC "
+msgctxt "CRC hash code"
+msgid "CRC"
+msgstr " CRC "
+
+#: part/archivemodel.cpp:283
+#, fuzzy
+#| msgid " Method "
+msgctxt "Compression method"
+msgid "Method"
+msgstr " 壓縮法 "
+
+#: part/archivemodel.cpp:286
+#, fuzzy
+#| msgid " Version "
+msgctxt "File version"
+msgid "Version"
+msgstr " 版本 "
+
+#: part/archivemodel.cpp:288
+msgctxt "Timestamp"
+msgid "Time"
+msgstr ""
+
+#: part/archivemodel.cpp:290
+msgctxt "File comment"
+msgid "Comment"
+msgstr ""
+
+#: part/archivemodel.cpp:292
+msgctxt "Unnamed column"
+msgid "??"
 msgstr ""
 
 #: part/infopanel.cpp:59
@@ -1153,25 +1209,6 @@ msgstr ""
 
 #~ msgid " Ratio "
 #~ msgstr " 壓縮比 "
-
-#, fuzzy
-#~| msgctxt "acronym for Cyclic Redundancy Check"
-#~| msgid " CRC "
-#~ msgctxt "Cyclic Redundancy Check"
-#~ msgid " CRC "
-#~ msgstr " CRC "
-
-#~ msgid " Method "
-#~ msgstr " 壓縮法 "
-
-#~ msgid " Version "
-#~ msgstr " 版本 "
-
-#~ msgid " Owner "
-#~ msgstr " 擁有者 "
-
-#~ msgid " Group "
-#~ msgstr " 群組 "
 
 #~ msgctxt "(used as part of a sentence)"
 #~ msgid "start-up folder"

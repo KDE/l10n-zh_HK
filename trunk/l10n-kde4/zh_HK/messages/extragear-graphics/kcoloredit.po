@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoloredit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-30 10:27+0200\n"
+"POT-Creation-Date: 2008-08-31 10:12+0200\n"
 "PO-Revision-Date: 2006-01-08 19:04+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -50,127 +50,140 @@ msgstr "KColorEdit"
 msgid "File to open (Text file with colors and comments items)"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:144 src/dialog/palettedialog.cpp:174
+#: src/app/kcoloredit.cpp:152 src/dialog/palettedialog.cpp:174
 #, fuzzy
 #| msgid "All Files"
 msgid "All Supported Files"
 msgstr "所有檔案"
 
-#: src/app/kcoloredit.cpp:145 src/dialog/palettedialog.cpp:175
+#: src/app/kcoloredit.cpp:153 src/dialog/palettedialog.cpp:175
 #, fuzzy
 #| msgid "Load Palette"
 msgid "KDE Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:146 src/dialog/palettedialog.cpp:176
+#: src/app/kcoloredit.cpp:154 src/dialog/palettedialog.cpp:176
 #, fuzzy
 #| msgid "Load Palette"
 msgid "GIMP Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:183
+#: src/app/kcoloredit.cpp:163
+#, fuzzy, kde-format
+#| msgid ""
+#| "A Document with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "已有同名的檔案。要覆蓋它嗎？"
+
+#: src/app/kcoloredit.cpp:163
+msgid "Overwrite"
+msgstr "覆蓋"
+
+#: src/app/kcoloredit.cpp:195
 msgid ""
 "This action will delete all items (colors and comments) of the current "
 "palette."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:185 src/app/kcoloredit.cpp:319
+#: src/app/kcoloredit.cpp:197 src/app/kcoloredit.cpp:331
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Clean Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:195
+#: src/app/kcoloredit.cpp:207
 msgid ""
 "This action will replace the name of all color items with names in this "
 "format #RRGGBB."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:197 src/app/kcoloredit.cpp:323
+#: src/app/kcoloredit.cpp:209 src/app/kcoloredit.cpp:335
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgid "Generate Color Names"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/app/kcoloredit.cpp:258
+#: src/app/kcoloredit.cpp:270
 msgid " [modified]"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:278
+#: src/app/kcoloredit.cpp:290
 msgid "Brief view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:285
+#: src/app/kcoloredit.cpp:297
 msgid "Detail view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:327
+#: src/app/kcoloredit.cpp:339
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgid "Complete Color Names"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/app/kcoloredit.cpp:333
+#: src/app/kcoloredit.cpp:345
 #, fuzzy
 #| msgid "Add Color"
 msgid "Append Color"
 msgstr "加增顏色"
 
-#: src/app/kcoloredit.cpp:337
+#: src/app/kcoloredit.cpp:349
 #, fuzzy
 #| msgid "Add Color"
 msgid "Append Comment"
 msgstr "加增顏色"
 
-#: src/app/kcoloredit.cpp:341
+#: src/app/kcoloredit.cpp:353
 #, fuzzy
 #| msgid "Custom Colors"
 msgid "Insert Color"
 msgstr "自訂顏色"
 
-#: src/app/kcoloredit.cpp:345
+#: src/app/kcoloredit.cpp:357
 msgid "Insert Comment"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:349
+#: src/app/kcoloredit.cpp:361
 msgid "Remove Item"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:353
+#: src/app/kcoloredit.cpp:365
 msgid "Prev position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:357
+#: src/app/kcoloredit.cpp:369
 msgid "Next position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:361
+#: src/app/kcoloredit.cpp:373
 msgid "First position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:365
+#: src/app/kcoloredit.cpp:377
 msgid "Last position"
 msgstr ""
 
-#: src/core/palettedocument.cpp:68
+#: src/core/palettedocument.cpp:71
 #, fuzzy
 #| msgid "File to open"
 msgid "File not found"
 msgstr "要開啟的檔案"
 
-#: src/core/palettedocument.cpp:75
+#: src/core/palettedocument.cpp:78
 #, fuzzy
 #| msgid "Could not open file for writing"
 msgid "Could not open the file"
 msgstr "無法開啟檔案供寫入"
 
-#: src/core/palettedocument.cpp:88
+#: src/core/palettedocument.cpp:92
 #, fuzzy
 #| msgid "Could not open file"
 msgid "Is not a palette file"
 msgstr "無法開啟檔案"
 
-#: src/core/palettemodel.cpp:132
+#: src/core/palettemodel.cpp:117
 msgid "Items"
 msgstr ""
 
@@ -214,14 +227,14 @@ msgstr "顯示色彩名稱(&C)"
 msgid "If is checked, views will be synchronized"
 msgstr ""
 
-#: src/itemviews/palettebriefview.cpp:215
-#: src/itemviews/palettebriefview.cpp:250
+#: src/itemviews/palettebriefview.cpp:216
+#: src/itemviews/palettebriefview.cpp:251
 #, fuzzy
 #| msgid "Name"
 msgid "Name: "
 msgstr "名稱"
 
-#: src/itemviews/palettebriefview.cpp:230
+#: src/itemviews/palettebriefview.cpp:231
 #, fuzzy
 #| msgid "Add Color"
 msgid "Comment: "
@@ -337,7 +350,7 @@ msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:125
 #: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
-#: src/widgets/colortoolwidget.cpp:100
+#: src/widgets/colortoolwidget.cpp:98
 msgid "Saturation"
 msgstr ""
 
@@ -414,35 +427,35 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:81
+#: src/widgets/colortoolwidget.cpp:79
 msgid "Brightness"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:83 src/widgets/colortoolwidget.cpp:102
+#: src/widgets/colortoolwidget.cpp:81 src/widgets/colortoolwidget.cpp:100
 msgid "Decrease"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:84 src/widgets/colortoolwidget.cpp:103
+#: src/widgets/colortoolwidget.cpp:82 src/widgets/colortoolwidget.cpp:101
 msgid "Increase"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:119
+#: src/widgets/colortoolwidget.cpp:117
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "Color selectors"
 msgstr "在游標處的顏色"
 
-#: src/widgets/colortoolwidget.cpp:121
+#: src/widgets/colortoolwidget.cpp:119
 msgid "Pick a color"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:123
+#: src/widgets/colortoolwidget.cpp:121
 #, fuzzy
 #| msgid "New &Window"
 msgid "Hide window"
 msgstr "新視窗(&W)"
 
-#: src/widgets/colortoolwidget.cpp:124
+#: src/widgets/colortoolwidget.cpp:122
 msgid "Only works if Desktop Effects is enabled"
 msgstr ""
 
@@ -504,14 +517,6 @@ msgstr ""
 
 #~ msgid "From &Screen"
 #~ msgstr "從螢幕上(&S)"
-
-#~ msgid ""
-#~ "A Document with this name already exists.\n"
-#~ "Do you want to overwrite it?"
-#~ msgstr "已有同名的檔案。要覆蓋它嗎？"
-
-#~ msgid "Overwrite"
-#~ msgstr "覆蓋"
 
 #~ msgid ""
 #~ "The current file has been modified.\n"
