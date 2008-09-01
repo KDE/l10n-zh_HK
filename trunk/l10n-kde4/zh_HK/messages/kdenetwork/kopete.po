@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-30 10:22+0200\n"
+"POT-Creation-Date: 2008-09-01 09:35+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -316,7 +316,7 @@ msgstr "覆寫檔案"
 #: libkopete/kopetetransfermanager.cpp:333 protocols/qq/qqcontact.cpp:418
 #: protocols/msn/msncontact.cpp:607 protocols/gadu/gaducontact.cpp:100
 #: protocols/oscar/oscarcontact.cpp:342
-#: protocols/jabber/jabbercontact.cpp:1039
+#: protocols/jabber/jabbercontact.cpp:1045
 #: protocols/jabber/jabbergroupmembercontact.cpp:158
 #: protocols/jabber/jabbergroupcontact.cpp:309
 msgid "Kopete File Transfer"
@@ -2280,46 +2280,64 @@ msgstr "嗯，這是個外送訊息"
 
 #: kopete/config/chatwindow/chatwindowconfig.cpp:587
 #, fuzzy
+#| msgid "Message has been displayed"
+msgid "Message that is being sent."
+msgstr "訊息已經顯示了"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:592
+#, fuzzy
+#| msgid "Server messages:"
+msgid "Delivered message."
+msgstr "伺服器訊息:"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:597
+#, fuzzy
+#| msgid "Message has been delivered"
+msgid "Message that can't be delivered."
+msgstr "訊息已經傳送了"
+
+#: kopete/config/chatwindow/chatwindowconfig.cpp:602
+#, fuzzy
 #| msgid "Here is an incoming colored message"
 msgid "Here is an incoming colored message."
 msgstr "這是彩色新進訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:593
+#: kopete/config/chatwindow/chatwindowconfig.cpp:608
 msgid "This is an internal message"
 msgstr "這是內部訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:597
+#: kopete/config/chatwindow/chatwindowconfig.cpp:612
 msgid "performed an action"
 msgstr "執行某個行動"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:602
+#: kopete/config/chatwindow/chatwindowconfig.cpp:617
 msgid "This is a highlighted message"
 msgstr "這是高亮度訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:607
+#: kopete/config/chatwindow/chatwindowconfig.cpp:622
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is an incoming file transfer request"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:614
+#: kopete/config/chatwindow/chatwindowconfig.cpp:629
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is a disabled incoming file transfer request"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:623
+#: kopete/config/chatwindow/chatwindowconfig.cpp:638
 msgctxt ""
 "This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:627
+#: kopete/config/chatwindow/chatwindowconfig.cpp:642
 msgid "Bye"
 msgstr "Bye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:703
+#: kopete/config/chatwindow/chatwindowconfig.cpp:721
 #, fuzzy
 #| msgid "Installing Emoticon Themes..."
 msgid "Configure Emoticon Themes"
@@ -15505,7 +15523,7 @@ msgstr "你想要移除舊的歷程記錄檔案嗎？"
 msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
-#: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:940
+#: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:946
 #: protocols/jabber/jabberaccount.cpp:1188
 msgid "Keep"
 msgstr "保留"
@@ -20745,27 +20763,27 @@ msgstr ""
 msgid "Message has been displayed"
 msgstr "訊息已經顯示了"
 
-#: protocols/jabber/jabbercontact.cpp:309
+#: protocols/jabber/jabbercontact.cpp:310
 msgid "Message has been delivered"
 msgstr "訊息已經傳送了"
 
-#: protocols/jabber/jabbercontact.cpp:312
+#: protocols/jabber/jabbercontact.cpp:315
 msgid "Message stored on the server, contact offline"
 msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 
-#: protocols/jabber/jabbercontact.cpp:319
+#: protocols/jabber/jabbercontact.cpp:323
 #, fuzzy, kde-format
 msgid "%1 has ended his/her participation in the chat session."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
-#: protocols/jabber/jabbercontact.cpp:357
+#: protocols/jabber/jabbercontact.cpp:363
 #: protocols/jabber/jabbergroupmembercontact.cpp:121
 #: protocols/jabber/jabbergroupcontact.cpp:170
 #, kde-format
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:938
+#: protocols/jabber/jabbercontact.cpp:944
 #, fuzzy, kde-format
 #| msgid ""
 #| "Do you also want to remove the authorization from user %1 to see your "
@@ -20773,12 +20791,12 @@ msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:939
+#: protocols/jabber/jabbercontact.cpp:945
 #: protocols/jabber/jabberaccount.cpp:1188
 msgid "Notification"
 msgstr "通知"
 
-#: protocols/jabber/jabbercontact.cpp:1110
+#: protocols/jabber/jabbercontact.cpp:1116
 #, kde-format
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
@@ -20788,7 +20806,7 @@ msgstr ""
 "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源"
 "只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1114
+#: protocols/jabber/jabbercontact.cpp:1120
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
@@ -21237,7 +21255,7 @@ msgid "You have been invited to %1"
 msgstr "你已經斷線了"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:102
-#: protocols/jabber/jabberchatsession.cpp:346
+#: protocols/jabber/jabberchatsession.cpp:347
 msgid "This message is encrypted."
 msgstr "此訊息已加密。"
 

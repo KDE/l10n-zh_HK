@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoloredit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-31 10:12+0200\n"
+"POT-Creation-Date: 2008-09-01 09:39+0200\n"
 "PO-Revision-Date: 2006-01-08 19:04+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,6 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
 
 #: src/app/main.cpp:31
 msgid "KColorEdit, great tool for editing color palettes."
@@ -42,33 +46,29 @@ msgstr ""
 msgid "Former maintainer - Created KColorEdit"
 msgstr ""
 
-#: src/app/main.cpp:41
-msgid "KColorEdit"
-msgstr "KColorEdit"
-
-#: src/app/main.cpp:46
+#: src/app/main.cpp:39
 msgid "File to open (Text file with colors and comments items)"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:152 src/dialog/palettedialog.cpp:174
+#: src/app/kcoloredit.cpp:166 src/dialog/palettedialog.cpp:175
 #, fuzzy
 #| msgid "All Files"
 msgid "All Supported Files"
 msgstr "所有檔案"
 
-#: src/app/kcoloredit.cpp:153 src/dialog/palettedialog.cpp:175
+#: src/app/kcoloredit.cpp:167 src/dialog/palettedialog.cpp:176
 #, fuzzy
 #| msgid "Load Palette"
 msgid "KDE Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:154 src/dialog/palettedialog.cpp:176
+#: src/app/kcoloredit.cpp:168 src/dialog/palettedialog.cpp:177
 #, fuzzy
 #| msgid "Load Palette"
 msgid "GIMP Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:163
+#: src/app/kcoloredit.cpp:177
 #, fuzzy, kde-format
 #| msgid ""
 #| "A Document with this name already exists.\n"
@@ -77,107 +77,107 @@ msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "已有同名的檔案。要覆蓋它嗎？"
 
-#: src/app/kcoloredit.cpp:163
+#: src/app/kcoloredit.cpp:177
 msgid "Overwrite"
 msgstr "覆蓋"
 
-#: src/app/kcoloredit.cpp:195
+#: src/app/kcoloredit.cpp:204
 msgid ""
 "This action will delete all items (colors and comments) of the current "
 "palette."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:197 src/app/kcoloredit.cpp:331
+#: src/app/kcoloredit.cpp:206 src/app/kcoloredit.cpp:340
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Clean Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:207
+#: src/app/kcoloredit.cpp:216
 msgid ""
 "This action will replace the name of all color items with names in this "
 "format #RRGGBB."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:209 src/app/kcoloredit.cpp:335
+#: src/app/kcoloredit.cpp:218 src/app/kcoloredit.cpp:344
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgid "Generate Color Names"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/app/kcoloredit.cpp:270
+#: src/app/kcoloredit.cpp:279
 msgid " [modified]"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:290
+#: src/app/kcoloredit.cpp:299
 msgid "Brief view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:297
+#: src/app/kcoloredit.cpp:306
 msgid "Detail view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:339
+#: src/app/kcoloredit.cpp:348
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgid "Complete Color Names"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/app/kcoloredit.cpp:345
+#: src/app/kcoloredit.cpp:354
 #, fuzzy
 #| msgid "Add Color"
 msgid "Append Color"
 msgstr "加增顏色"
 
-#: src/app/kcoloredit.cpp:349
+#: src/app/kcoloredit.cpp:358
 #, fuzzy
 #| msgid "Add Color"
 msgid "Append Comment"
 msgstr "加增顏色"
 
-#: src/app/kcoloredit.cpp:353
+#: src/app/kcoloredit.cpp:362
 #, fuzzy
 #| msgid "Custom Colors"
 msgid "Insert Color"
 msgstr "自訂顏色"
 
-#: src/app/kcoloredit.cpp:357
+#: src/app/kcoloredit.cpp:366
 msgid "Insert Comment"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:361
+#: src/app/kcoloredit.cpp:370
 msgid "Remove Item"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:365
+#: src/app/kcoloredit.cpp:374
 msgid "Prev position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:369
+#: src/app/kcoloredit.cpp:378
 msgid "Next position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:373
+#: src/app/kcoloredit.cpp:382
 msgid "First position"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:377
+#: src/app/kcoloredit.cpp:386
 msgid "Last position"
 msgstr ""
 
-#: src/core/palettedocument.cpp:71
+#: src/core/palettedocument.cpp:55
 #, fuzzy
 #| msgid "File to open"
 msgid "File not found"
 msgstr "要開啟的檔案"
 
-#: src/core/palettedocument.cpp:78
+#: src/core/palettedocument.cpp:62
 #, fuzzy
 #| msgid "Could not open file for writing"
 msgid "Could not open the file"
 msgstr "無法開啟檔案供寫入"
 
-#: src/core/palettedocument.cpp:92
+#: src/core/palettedocument.cpp:76
 #, fuzzy
 #| msgid "Could not open file"
 msgid "Is not a palette file"
@@ -187,23 +187,21 @@ msgstr "無法開啟檔案"
 msgid "Items"
 msgstr ""
 
-#: src/dialog/palettedialog.cpp:85
-msgid ""
-"\n"
-"[Empty]"
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
 msgstr ""
 
-#: src/dialog/palettedialog.cpp:160
+#: src/dialog/palettedialog.cpp:161
 msgid "Load Palette"
 msgstr "載入色板"
 
-#: src/dialog/palettedialog.cpp:183
+#: src/dialog/palettedialog.cpp:184
 #, fuzzy
 #| msgid "Load Palette"
 msgid "KDE Palettes"
 msgstr "載入色板"
 
-#: src/dialog/palettedialog.cpp:184
+#: src/dialog/palettedialog.cpp:185
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Search Palettes"
