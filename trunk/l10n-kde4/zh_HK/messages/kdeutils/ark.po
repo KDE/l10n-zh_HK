@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-07 09:38+0200\n"
+"POT-Creation-Date: 2008-09-11 09:43+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -206,17 +206,17 @@ msgstr "解開"
 msgid "Extract multiple archives"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:44
+#: kerfuffle/jobs.cpp:83
 msgid "Listing entries"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:110
+#: kerfuffle/jobs.cpp:128
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:114
+#: kerfuffle/jobs.cpp:132
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
@@ -230,7 +230,7 @@ msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:203
+#: kerfuffle/jobs.cpp:182
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
@@ -502,6 +502,12 @@ msgstr ""
 #, kde-format
 msgid "Could not open the archive '%1' for reading"
 msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:92
+#, fuzzy, kde-format
+#| msgid "Could not create the folder %1"
+msgid "File '%1' not found in the archive"
+msgstr "無法建立資料夾 %1"
 
 #: plugins/karchiveplugin/karchiveplugin.cpp:170
 #, kde-format
