@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-19 09:27+0200\n"
+"POT-Creation-Date: 2008-09-21 09:46+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -6854,7 +6854,7 @@ msgstr "%1%"
 msgid "Change Icon"
 msgstr "變更圖示(&I)..."
 
-#: kdeui/dialogs/kshortcutseditor.cpp:114
+#: kdeui/dialogs/kshortcutseditor.cpp:113
 #: kdeui/dialogs/kshortcutseditor.cpp:581
 msgid "Shortcuts"
 msgstr "快速鍵"
@@ -8777,6 +8777,20 @@ msgstr "預設"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "自動更正"
+
+#: kdeui/actions/kaction.cpp:79
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguouity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:83
+#, fuzzy
+#| msgid "Ambiguous \"%1\" not handled"
+msgid "Ambiguous shortcut detected"
+msgstr "含糊的 \"%1\" 沒有被處理"
 
 #: kdeui/actions/kstandardaction.cpp:104
 #, fuzzy
@@ -13477,6 +13491,28 @@ msgstr "KUnitTest ModRunner"
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr ""
 
+#: kformula/FormulaCommand.cpp:32
+#, fuzzy
+#| msgid "Comment"
+msgid "Add Elements"
+msgstr "備註"
+
+#: kformula/FormulaCommand.cpp:61
+#, fuzzy
+#| msgid "Remove Entry"
+msgid "Remove Elements"
+msgstr "移除項目"
+
+#: kformula/FormulaCommand.cpp:91
+#, fuzzy
+#| msgid "Replace Text"
+msgid "Replace Element"
+msgstr "取代文字"
+
+#: kformula/FormulaCommand.cpp:139
+msgid "Attribute Changed"
+msgstr ""
+
 #: kdeui/colors/kcolordialog.cpp:97
 msgctxt "palette name"
 msgid "* Recent Colors *"
@@ -14914,11 +14950,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr "新增項目"
 
 #, fuzzy
-#~| msgid "Remove Entry"
-#~ msgid "&Remove Entry"
-#~ msgstr "移除項目"
-
-#, fuzzy
 #~| msgctxt "QAccel"
 #~| msgid "Standby"
 #~ msgid "Standby"
@@ -15152,9 +15183,6 @@ msgstr "沒有此選單項目 '%1'。"
 #, fuzzy
 #~ msgid "start playback"
 #~ msgstr "開始取代"
-
-#~ msgid "Replace Text"
-#~ msgstr "取代文字"
 
 #, fuzzy
 #~| msgid "F&ull Screen Mode"
@@ -16894,9 +16922,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "%1, %2 not defined"
 #~ msgstr "%1, %2 未定義"
-
-#~ msgid "Ambiguous \"%1\" not handled"
-#~ msgstr "含糊的 \"%1\" 沒有被處理"
 
 #~ msgctxt "QT_LAYOUT_DIRECTION"
 #~ msgid ""
