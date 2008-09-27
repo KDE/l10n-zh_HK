@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-26 09:48+0200\n"
+"POT-Creation-Date: 2008-09-27 10:33+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16019,12 +16019,12 @@ msgid "Fetching contact vCard..."
 msgstr ""
 
 #: protocols/qq/qqcontact.cpp:136 protocols/msn/msncontact.cpp:139
-#: protocols/groupwise/gwcontact.cpp:166
+#: protocols/groupwise/gwcontact.cpp:161
 msgid "Unblock User"
 msgstr "解封使用者"
 
 #: protocols/qq/qqcontact.cpp:136 protocols/msn/msncontact.cpp:139
-#: protocols/groupwise/gwcontact.cpp:166
+#: protocols/groupwise/gwcontact.cpp:161
 msgid "Block User"
 msgstr "封鎖使用者"
 
@@ -16501,7 +16501,7 @@ msgstr "暱稱 %1 已使用。"
 msgid "Incorrect password."
 msgstr "不正確的密碼。"
 
-#: protocols/irc/libkirc/client/kircclienthandler.cpp:889
+#: protocols/irc/libkirc/client/kircclienthandler.cpp:900
 #, fuzzy
 #| msgid "Password Incorrect"
 msgid "Password Incorect"
@@ -16952,7 +16952,7 @@ msgstr ""
 "連接 MSN 伺服器時發生錯誤。\n"
 "錯誤訊息:\n"
 
-#: protocols/msn/msnsocket.cpp:569
+#: protocols/msn/msnsocket.cpp:563
 #, kde-format
 msgid ""
 "Error accessing contact list. Please try again later. You could also check "
@@ -16960,7 +16960,7 @@ msgid ""
 "problem."
 msgstr ""
 
-#: protocols/msn/msnsocket.cpp:573
+#: protocols/msn/msnsocket.cpp:567
 #, kde-format
 msgid ""
 "An internal server error occurred. Please try again later. You could also "
@@ -16968,20 +16968,20 @@ msgid ""
 "known problem."
 msgstr ""
 
-#: protocols/msn/msnsocket.cpp:577
+#: protocols/msn/msnsocket.cpp:571
 msgid ""
 "It is no longer possible to perform this operation. The MSN server does not "
 "allow it anymore."
 msgstr "現在已不能進行這種操作。 MSN 伺服器已不再容許。"
 
-#: protocols/msn/msnsocket.cpp:583
+#: protocols/msn/msnsocket.cpp:577
 #, kde-format
 msgid ""
 "The MSN server is busy. Please try again later. You could also check the <a "
 "href=\"%1\">MSN service status site</a> to see if this is a known problem."
 msgstr ""
 
-#: protocols/msn/msnsocket.cpp:593
+#: protocols/msn/msnsocket.cpp:587
 #, kde-format
 msgid ""
 "The server is not available at the moment. Please try again later. You could "
@@ -16989,7 +16989,7 @@ msgid ""
 "a known problem."
 msgstr ""
 
-#: protocols/msn/msnsocket.cpp:598
+#: protocols/msn/msnsocket.cpp:592
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unhandled MSN error code %1 \n"
@@ -17029,7 +17029,7 @@ msgstr ""
 msgid "MSN Mobile"
 msgstr ""
 
-#: protocols/msn/msncontact.cpp:640 protocols/groupwise/gwcontact.cpp:244
+#: protocols/msn/msncontact.cpp:640 protocols/groupwise/gwcontact.cpp:240
 #, kde-format
 msgid "%1|Blocked"
 msgstr "%1|已封鎖"
@@ -20458,7 +20458,7 @@ msgstr "正在連線到伺服器..."
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:272
 #: protocols/jabber/jabberaccount.cpp:444
-#: protocols/groupwise/gwaccount.cpp:257
+#: protocols/groupwise/gwaccount.cpp:256
 #, kde-format
 msgid ""
 "SSL support could not be initialized for account %1. This is most likely "
@@ -21421,80 +21421,80 @@ msgid "Please connect first."
 msgstr "請先連線。"
 
 #: protocols/jabber/jabberaccount.cpp:479
-#: protocols/groupwise/gwaccount.cpp:742
+#: protocols/groupwise/gwaccount.cpp:737
 msgid "The host name does not match the one in the certificate."
 msgstr "主機名稱和證書上的不符。"
 
 #: protocols/jabber/jabberaccount.cpp:483
-#: protocols/groupwise/gwaccount.cpp:746
+#: protocols/groupwise/gwaccount.cpp:741
 #, fuzzy
 msgid "The certificate is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:487
-#: protocols/groupwise/gwaccount.cpp:750
+#: protocols/groupwise/gwaccount.cpp:745
 msgid "No certificate was presented."
 msgstr "沒有證書。"
 
 #: protocols/jabber/jabberaccount.cpp:497
-#: protocols/groupwise/gwaccount.cpp:760
+#: protocols/groupwise/gwaccount.cpp:755
 msgid "The Certificate Authority rejected the certificate."
 msgstr "核證機關拒絕證書。"
 
 #: protocols/jabber/jabberaccount.cpp:501
-#: protocols/groupwise/gwaccount.cpp:764
+#: protocols/groupwise/gwaccount.cpp:759
 #, fuzzy
 msgid "The certificate is not trusted."
 msgstr "證書未被信任。"
 
 #: protocols/jabber/jabberaccount.cpp:505
-#: protocols/groupwise/gwaccount.cpp:768
+#: protocols/groupwise/gwaccount.cpp:763
 msgid "The signature is invalid."
 msgstr "簽署無效"
 
 #: protocols/jabber/jabberaccount.cpp:509
-#: protocols/groupwise/gwaccount.cpp:772
+#: protocols/groupwise/gwaccount.cpp:767
 msgid "The Certificate Authority is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:513
-#: protocols/groupwise/gwaccount.cpp:776
+#: protocols/groupwise/gwaccount.cpp:771
 msgid "Invalid certificate purpose."
 msgstr "無效的證書用途。"
 
 #: protocols/jabber/jabberaccount.cpp:517
-#: protocols/groupwise/gwaccount.cpp:780
+#: protocols/groupwise/gwaccount.cpp:775
 msgid "The certificate is self-signed."
 msgstr "證書是自簽署（self-signed）的。"
 
 #: protocols/jabber/jabberaccount.cpp:521
-#: protocols/groupwise/gwaccount.cpp:784
+#: protocols/groupwise/gwaccount.cpp:779
 msgid "The certificate has been revoked."
 msgstr "證書已被撤銷。"
 
 #: protocols/jabber/jabberaccount.cpp:525
-#: protocols/groupwise/gwaccount.cpp:788
+#: protocols/groupwise/gwaccount.cpp:783
 msgid "Maximum certificate chain length was exceeded."
 msgstr "超過證書串最大長度。"
 
 #: protocols/jabber/jabberaccount.cpp:529
-#: protocols/groupwise/gwaccount.cpp:792
+#: protocols/groupwise/gwaccount.cpp:787
 msgid "The certificate has expired."
 msgstr "證書已過期。"
 
 #: protocols/jabber/jabberaccount.cpp:533
-#: protocols/groupwise/gwaccount.cpp:796
+#: protocols/groupwise/gwaccount.cpp:791
 #, fuzzy
 msgid "The Certificate Authority has expired."
 msgstr "核證機關無效。"
 
 #: protocols/jabber/jabberaccount.cpp:537
-#: protocols/groupwise/gwaccount.cpp:800
+#: protocols/groupwise/gwaccount.cpp:795
 msgid "Validity is unknown."
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:548
-#: protocols/groupwise/gwaccount.cpp:811
+#: protocols/groupwise/gwaccount.cpp:806
 #, fuzzy, kde-format
 msgid ""
 "<qt><p>The identity and the certificate of server %1 could not be validated "
@@ -21503,7 +21503,7 @@ msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎
 
 #: protocols/jabber/jabberaccount.cpp:554
 #: protocols/jabber/jabberaccount.cpp:559
-#: protocols/groupwise/gwaccount.cpp:817 protocols/groupwise/gwaccount.cpp:822
+#: protocols/groupwise/gwaccount.cpp:812 protocols/groupwise/gwaccount.cpp:817
 #, kde-format
 msgid ""
 "<qt><p>The certificate of server %1 could not be validated for account %2: %"
@@ -22510,11 +22510,11 @@ msgstr "加入頻道..."
 msgid "&Manage Privacy..."
 msgstr "管理隱私(&M)..."
 
-#: protocols/groupwise/gwaccount.cpp:259
+#: protocols/groupwise/gwaccount.cpp:258
 msgid "GroupWise SSL Error"
 msgstr "GroupWise SSL 錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:374
+#: protocols/groupwise/gwaccount.cpp:371
 #, kde-format
 msgctxt "Message Sending Failed using the named local account"
 msgid ""
@@ -22523,18 +22523,18 @@ msgid ""
 "<wstephenson@novell.com> for analysis."
 msgstr ""
 
-#: protocols/groupwise/gwaccount.cpp:374
+#: protocols/groupwise/gwaccount.cpp:371
 #, fuzzy, kde-format
 #| msgid "Unable to Connect '%1'"
 msgctxt "message sending failed using the named local account"
 msgid "Unable to Send Message on Account '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:594
+#: protocols/groupwise/gwaccount.cpp:589
 msgid "Conflicting Changes Made Offline"
 msgstr "離線時作了有衝突的更改"
 
-#: protocols/groupwise/gwaccount.cpp:594
+#: protocols/groupwise/gwaccount.cpp:589
 #, fuzzy
 #| msgid ""
 #| "A change happened to your GroupWise contact list while you were offline "
@@ -22544,7 +22544,7 @@ msgid ""
 "which was impossible to reconcile."
 msgstr "當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
 
-#: protocols/groupwise/gwaccount.cpp:667
+#: protocols/groupwise/gwaccount.cpp:662
 #, kde-format
 msgctxt "Error shown when connecting failed"
 msgid ""
@@ -22555,16 +22555,16 @@ msgstr ""
 "Kopete 無法連接『%1』帳號的 GroupWise Messenger 伺服器。\n"
 "請檢查你的伺服器及連接埠設置並重試。"
 
-#: protocols/groupwise/gwaccount.cpp:667
+#: protocols/groupwise/gwaccount.cpp:662
 #, kde-format
 msgid "Unable to Connect '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:829
+#: protocols/groupwise/gwaccount.cpp:824
 msgid "GroupWise Connection Certificate Problem"
 msgstr "GroupWise 連線證書問題"
 
-#: protocols/groupwise/gwaccount.cpp:879
+#: protocols/groupwise/gwaccount.cpp:874
 #, kde-format
 msgctxt ""
 "Prefix used for automatically generated auto-reply messages when the contact "
@@ -22572,34 +22572,34 @@ msgctxt ""
 msgid "Auto reply from %1: "
 msgstr "來自 %1 的自動回應: "
 
-#: protocols/groupwise/gwaccount.cpp:885
+#: protocols/groupwise/gwaccount.cpp:880
 #, kde-format
 msgctxt "Prefix used for broadcast messages"
 msgid "Broadcast message from %1: "
 msgstr "來自 %1 的廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:891
+#: protocols/groupwise/gwaccount.cpp:886
 #, kde-format
 msgctxt "Prefix used for system broadcast messages"
 msgid "System Broadcast message from %1: "
 msgstr "來自 %1 的系統廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:1269
+#: protocols/groupwise/gwaccount.cpp:1275
 #, kde-format
 msgid ""
 "The contact %1 could not be added to the contact list, with error message: %2"
 msgstr "聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
 
-#: protocols/groupwise/gwaccount.cpp:1271
+#: protocols/groupwise/gwaccount.cpp:1277
 msgid "Error Adding Contact"
 msgstr "加入聯絡人時發生錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:1315
+#: protocols/groupwise/gwaccount.cpp:1321
 #, kde-format
 msgid "Signed in as %1 Elsewhere"
 msgstr "如同別處般以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1315
+#: protocols/groupwise/gwaccount.cpp:1321
 #, kde-format
 msgctxt "The parameter is the user's own account id for this protocol"
 msgid ""
@@ -22607,16 +22607,16 @@ msgid ""
 "%1 elsewhere"
 msgstr "你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1428
+#: protocols/groupwise/gwaccount.cpp:1434
 #, kde-format
 msgid "%1 has been invited to join this conversation."
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/groupwise/gwaccount.cpp:1454
+#: protocols/groupwise/gwaccount.cpp:1460
 msgid "Enter Auto-Reply Message"
 msgstr "輸入自動回應訊息"
 
-#: protocols/groupwise/gwaccount.cpp:1455
+#: protocols/groupwise/gwaccount.cpp:1461
 msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
