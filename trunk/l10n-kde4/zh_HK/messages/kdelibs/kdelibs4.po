@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-02 09:44+0200\n"
+"POT-Creation-Date: 2008-10-03 09:40+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3483,11 +3483,11 @@ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:667
 msgid "Please contact your system administrator."
 msgstr "請聯絡你的系統管理者。"
 
-#: kdecore/config/kconfigini.cpp:495
+#: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "設定檔 \"%1\" 是不可寫入的。\n"
@@ -6482,6 +6482,12 @@ msgstr ""
 msgid "Configure Shortcuts"
 msgstr "設定快速鍵"
 
+#: kdeui/dialogs/kshortcutsdialog.cpp:113
+#, fuzzy
+#| msgid "Defaults"
+msgid "Reset to Defaults"
+msgstr "預設值"
+
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:42
 #, fuzzy
 #| msgid "Shortcuts"
@@ -6797,8 +6803,8 @@ msgstr "你真的要重設這個應用程式的所有工具列嗎？這個動作
 msgid "Reset Toolbars"
 msgstr "重設工具列"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2948
-#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2190
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
+#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "重設"
 
@@ -10795,35 +10801,35 @@ msgstr "區域"
 msgid "Comment"
 msgstr "備註"
 
-#: kdeui/widgets/ktextedit.cpp:407 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:423 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "拼字檢查..."
 
-#: kdeui/widgets/ktextedit.cpp:410 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:426 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "自動拼字檢查"
 
-#: kdeui/widgets/ktextedit.cpp:414 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:430 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "允許跳格"
 
-#: kdeui/widgets/ktextedit.cpp:509
+#: kdeui/widgets/ktextedit.cpp:525
 #, fuzzy
 #| msgid "Suggestion List"
 msgid "Suggestions"
 msgstr "建議清單"
 
-#: kdeui/widgets/ktextedit.cpp:511
+#: kdeui/widgets/ktextedit.cpp:527
 msgid "Ignore"
 msgstr "略過"
 
-#: kdeui/widgets/ktextedit.cpp:512
+#: kdeui/widgets/ktextedit.cpp:528
 #, fuzzy
 #| msgid "<< Add to Dictionary"
 msgid "Add to Dictionary"
 msgstr "<< 加到字典中"
 
-#: kdeui/widgets/ktextedit.cpp:658
+#: kdeui/widgets/ktextedit.cpp:674
 #, fuzzy
 msgid "Nothing to spell check."
 msgstr "沒有選擇供應者。"
@@ -11551,8 +11557,8 @@ msgstr ""
 "<qt>這個表格將會提交到你的本地檔案系統上的<BR><B>%1</B><BR><BR>你真的要提交表"
 "格嗎？"
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2934 khtml/khtmlview.cpp:2976
-#: khtml/html/html_formimpl.cpp:1590 khtml/html/html_formimpl.cpp:2198
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "提交"
 
@@ -11671,39 +11677,39 @@ msgstr "跳至行數(&G)..."
 msgid "Remove from ignores..."
 msgstr ""
 
-#: khtml/khtmlview.cpp:1906
+#: khtml/khtmlview.cpp:1911
 msgid "Find stopped."
 msgstr "已停止搜尋。"
 
-#: khtml/khtmlview.cpp:1917
+#: khtml/khtmlview.cpp:1922
 msgid "Starting -- find links as you type"
 msgstr "正在開啟 -- 即時連結搜尋"
 
-#: khtml/khtmlview.cpp:1923
+#: khtml/khtmlview.cpp:1928
 msgid "Starting -- find text as you type"
 msgstr "正在開啟 -- 即時文字搜尋"
 
-#: khtml/khtmlview.cpp:1946
+#: khtml/khtmlview.cpp:1951
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "找到連結： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1956
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "找不到連結： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1959
+#: khtml/khtmlview.cpp:1964
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "找到文字： \"%1\"。"
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1969
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "找不到文字：\"%1\"。"
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2017
 msgid "Access Keys activated"
 msgstr "存取鍵已啟動"
 
@@ -11824,7 +11830,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "中止(&A)"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2121
+#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
 
@@ -11845,11 +11851,11 @@ msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Allow"
 msgstr "允許"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Do Not Allow"
 msgstr "不允許"
 
@@ -11887,7 +11893,7 @@ msgstr "插入"
 msgid "Disallow"
 msgstr "不允許"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2113
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11896,7 +11902,7 @@ msgstr ""
 "這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
 "你要允許表格被提交嗎？"
 
-#: khtml/ecma/kjs_html.cpp:2126
+#: khtml/ecma/kjs_html.cpp:2116
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -12082,7 +12088,7 @@ msgstr ""
 "Konqueror 可以把密碼存在加密的保險箱內。當保險箱解鎖之後，就可以在下一次到訪 "
 "%1 時自動填上登入資訊。你要現在儲存資訊嗎？"
 
-#: khtml/html/html_formimpl.cpp:2579
+#: khtml/html/html_formimpl.cpp:2546
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
@@ -16988,9 +16994,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "About Qt"
 #~ msgstr "關於 Qt"
-
-#~ msgid "Defaults"
-#~ msgstr "預設值"
 
 #~ msgid "< &Back"
 #~ msgstr "< 上一頁(&B)"
