@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-04 10:34+0200\n"
+"POT-Creation-Date: 2008-10-07 09:43+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -882,7 +882,7 @@ msgstr "主工具列"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:580
+#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:582
 #, fuzzy
 #| msgid "Chain:"
 msgid "Main:"
@@ -890,7 +890,7 @@ msgstr "信任鏈:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:581
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:583
 #, fuzzy
 #| msgid "Alternate"
 msgid "Alternate:"
@@ -5414,7 +5414,7 @@ msgid "Name"
 msgstr "名稱"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
-#: kdeui/dialogs/kshortcutseditor.cpp:605
+#: kdeui/dialogs/kshortcutseditor.cpp:607
 #, fuzzy
 #| msgid "Description:"
 msgid "Description"
@@ -6874,18 +6874,13 @@ msgstr "%1%"
 msgid "Change Icon"
 msgstr "變更圖示(&I)..."
 
-#: kdeui/dialogs/kshortcutseditor.cpp:114
-#: kdeui/dialogs/kshortcutseditor.cpp:601
-msgid "Shortcuts"
-msgstr "快速鍵"
-
-#: kdeui/dialogs/kshortcutseditor.cpp:504
-#: kdeui/dialogs/kshortcutseditor.cpp:520
+#: kdeui/dialogs/kshortcutseditor.cpp:506
+#: kdeui/dialogs/kshortcutseditor.cpp:522
 #: kdeui/widgets/kkeysequencewidget.cpp:152
 msgid "Key Conflict"
 msgstr "按鍵衝突"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:505
+#: kdeui/dialogs/kshortcutseditor.cpp:507
 #, fuzzy, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
@@ -6894,14 +6889,14 @@ msgstr ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:509
-#: kdeui/dialogs/kshortcutseditor.cpp:525 kdeui/shortcuts/kglobalaccel.cpp:439
+#: kdeui/dialogs/kshortcutseditor.cpp:511
+#: kdeui/dialogs/kshortcutseditor.cpp:527 kdeui/shortcuts/kglobalaccel.cpp:439
 #: kdeui/widgets/kkeysequencewidget.cpp:160
 #: kdeui/widgets/kkeysequencewidget.cpp:481
 msgid "Reassign"
 msgstr "重新指定"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:521
+#: kdeui/dialogs/kshortcutseditor.cpp:523
 #, fuzzy, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
@@ -6910,22 +6905,26 @@ msgstr ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:562
+#: kdeui/dialogs/kshortcutseditor.cpp:564
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "快速鍵"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:582
+#: kdeui/dialogs/kshortcutseditor.cpp:584
 msgid "Global:"
 msgstr ""
 
-#: kdeui/dialogs/kshortcutseditor.cpp:597
+#: kdeui/dialogs/kshortcutseditor.cpp:599
 #, fuzzy
 #| msgid "Additional Names"
 msgid "Action Name"
 msgstr "別名"
+
+#: kdeui/dialogs/kshortcutseditor.cpp:603
+msgid "Shortcuts"
+msgstr "快速鍵"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:65
 #, fuzzy
@@ -8697,21 +8696,21 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "關於 KDE(&K)"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:245
+#: kdeui/shortcuts/kcheckaccelerators.cpp:209
 #, fuzzy
 #| msgid "Dr. Klash' Accelerator Diagnosis"
 msgctxt "@title:window"
 msgid "Dr. Klash' Accelerator Diagnosis"
 msgstr "Klash 博士的的快速鍵分析"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:254
+#: kdeui/shortcuts/kcheckaccelerators.cpp:218
 #, fuzzy
 #| msgid "&Disable automatic checking"
 msgctxt "@option:check"
 msgid "Disable automatic checking"
 msgstr "關閉自動檢查功能(&D)"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:258
+#: kdeui/shortcuts/kcheckaccelerators.cpp:222
 #: kdeui/widgets/kdatepicker.cpp:708
 #, fuzzy
 #| msgid "Close"
@@ -8719,15 +8718,15 @@ msgctxt "@action:button"
 msgid "Close"
 msgstr "關閉"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:294
+#: kdeui/shortcuts/kcheckaccelerators.cpp:258
 msgid "<h2>Accelerators changed</h2>"
 msgstr "<h2>快速鍵已改變</h2>"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:300
+#: kdeui/shortcuts/kcheckaccelerators.cpp:264
 msgid "<h2>Accelerators removed</h2>"
 msgstr "<h2>快速鍵已移除</h2>"
 
-#: kdeui/shortcuts/kcheckaccelerators.cpp:305
+#: kdeui/shortcuts/kcheckaccelerators.cpp:269
 msgid "<h2>Accelerators added (just for your info)</h2>"
 msgstr "<h2>快速鍵已加入(just for your info)</h2>"
 
@@ -11722,16 +11721,16 @@ msgstr ""
 msgid "GUI for the khtml regression tester"
 msgstr ""
 
-#: khtml/xml/xml_tokenizer.cpp:320
+#: khtml/xml/xml_tokenizer.cpp:324
 msgid "the document is not in the correct file format"
 msgstr "文件的檔案格式不正確"
 
-#: khtml/xml/xml_tokenizer.cpp:326
+#: khtml/xml/xml_tokenizer.cpp:330
 #, kde-format
 msgid "fatal parsing error: %1 in line %2, column %3"
 msgstr "嚴重解析錯誤：%1，發生在第 %2 行，第 %3 列"
 
-#: khtml/xml/xml_tokenizer.cpp:485
+#: khtml/xml/xml_tokenizer.cpp:513
 msgid "XML parsing error"
 msgstr "XML 解析錯誤"
 
@@ -12561,22 +12560,22 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:405
+#: nepomuk/core/resource.cpp:411
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:407
+#: nepomuk/core/resource.cpp:413
 #, fuzzy
 msgid "Communication error"
 msgstr "組態設定"
 
-#: nepomuk/core/resource.cpp:409
+#: nepomuk/core/resource.cpp:415
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
-#: nepomuk/core/resource.cpp:411
+#: nepomuk/core/resource.cpp:417
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
