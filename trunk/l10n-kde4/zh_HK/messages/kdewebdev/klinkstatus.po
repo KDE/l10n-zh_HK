@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-25 10:31+0200\n"
+"POT-Creation-Date: 2008-10-15 10:42+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -356,6 +356,11 @@ msgstr ""
 msgid "&Follow Last Link"
 msgstr "跟隨上一次檢查的連結"
 
+#: actionmanager.cpp:171
+#, fuzzy
+msgid "Follow last Link checked (slower)"
+msgstr "跟隨上一次檢查的連結"
+
 #: actionmanager.cpp:180
 msgid "&Hide Search Panel"
 msgstr ""
@@ -366,6 +371,10 @@ msgstr ""
 
 #: actionmanager.cpp:192
 msgid "&Disable Updates on Results Table"
+msgstr ""
+
+#: actionmanager.cpp:193
+msgid "Disable Updates on Results Table (faster)"
 msgstr ""
 
 #: actionmanager.cpp:203
@@ -385,6 +394,10 @@ msgstr "搜尋"
 
 #: actionmanager.cpp:221
 msgid "Search in Background"
+msgstr ""
+
+#: actionmanager.cpp:225
+msgid "Check Links in background and update results when finished (faster)"
 msgstr ""
 
 #: actionmanager.cpp:228
@@ -435,6 +448,10 @@ msgstr "工作階段"
 #| msgid "Session"
 msgid "Next Session"
 msgstr "工作階段"
+
+#: actionmanager.cpp:294 actionmanager.cpp:297
+msgid "Change View"
+msgstr ""
 
 #. i18n: file: klinkstatus_part.rc:5
 #. i18n: ectx: Menu (file)
@@ -1392,6 +1409,14 @@ msgstr "未確認的連結"
 msgid "Configure Site check Automation"
 msgstr ""
 
+#: plugins/automation/automationdialog.cpp:65
+msgid "New..."
+msgstr ""
+
+#: plugins/automation/automationdialog.cpp:67
+msgid "Remove"
+msgstr ""
+
 #: plugins/automation/automationdialog.cpp:98
 #, fuzzy
 #| msgid "Depth:"
@@ -1444,10 +1469,6 @@ msgstr "KLinkStatus Part"
 #: klinkstatus_part.cpp:177
 msgid "(C) 2004 Paulo Moura Guedes"
 msgstr ""
-
-#, fuzzy
-#~ msgid "&Follow last Link checked"
-#~ msgstr "跟隨上一次檢查的連結"
 
 #~ msgid "Check pages recursively"
 #~ msgstr "遞迴地檢查頁面"
