@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkamera\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-06 09:45+0200\n"
+"POT-Creation-Date: 2008-10-16 10:03+0200\n"
 "PO-Revision-Date: 2006-01-08 17:54+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -31,13 +31,19 @@ msgstr "請點選這個按鈕新增照相機。"
 msgid "Test"
 msgstr "測試"
 
-#: kamera.cpp:144 kamera.cpp:150
-msgid "Click this button to remove the selected camera from the list."
+#: kamera.cpp:144
+#, fuzzy
+#| msgid "Click this button to remove the selected camera from the list."
+msgid "Click this button to test the connection to the selected camera."
 msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
 #: kamera.cpp:148
 msgid "Remove"
 msgstr ""
+
+#: kamera.cpp:150
+msgid "Click this button to remove the selected camera from the list."
+msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
 #: kamera.cpp:154
 msgid "Configure..."
@@ -57,10 +63,15 @@ msgid "Information"
 msgstr ""
 
 #: kamera.cpp:162
+#, fuzzy
+#| msgid ""
+#| "Click this button to view a summary of the current status of the selected "
+#| "camera.<br><br>The availability of this feature and the contents of the "
+#| "Configuration dialog depend on the camera model."
 msgid ""
 "Click this button to view a summary of the current status of the selected "
 "camera.<br><br>The availability of this feature and the contents of the "
-"Configuration dialog depend on the camera model."
+"Information dialog depend on the camera model."
 msgstr ""
 "點選這個按鈕來檢視所選照相機的當前狀態摘要。<br><br>有沒有這個功能，以及設定"
 "方塊內顯示的內容，會依不同照相機型號而有所不同。"
