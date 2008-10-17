@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-15 10:39+0200\n"
+"POT-Creation-Date: 2008-10-17 09:36+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -551,7 +551,7 @@ msgstr "%2 <%1>"
 msgid "Properties"
 msgstr "屬性(&P)"
 
-#: libkopete/kopeteaccount.cpp:574
+#: libkopete/kopeteaccount.cpp:576
 msgid "Edit Account"
 msgstr "編輯帳號"
 
@@ -1131,30 +1131,18 @@ msgstr "<qt>收到來自 %1<br>「%2」的訊息</qt>"
 msgid "<qt>A highlighted message arrived from %1<br />\"%2\"</qt>"
 msgstr "<qt>來自 %1<br>「%2」的加強顯示訊息到達</qt>"
 
-#: libkopete/private/kopeteviewmanager.cpp:335 kopete/infoeventwidget.cpp:206
+#: libkopete/private/kopeteviewmanager.cpp:335
 #, fuzzy
+msgctxt "@action"
 msgid "View"
 msgstr "檢視"
 
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:700
-#. i18n: ectx: property (text), item, widget (QComboBox, serverNotices_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:732
-#. i18n: ectx: property (text), item, widget (QComboBox, serverMessages_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:781
-#. i18n: ectx: property (text), item, widget (QComboBox, informationReplies_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:820
-#. i18n: ectx: property (text), item, widget (QComboBox, errorMessages_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:700
-#. i18n: ectx: property (text), item, widget (QComboBox, serverNotices_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:732
-#. i18n: ectx: property (text), item, widget (QComboBox, serverMessages_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:781
-#. i18n: ectx: property (text), item, widget (QComboBox, informationReplies_2)
-#. i18n: file: protocols/irc/ui/irceditaccount.ui:820
-#. i18n: ectx: property (text), item, widget (QComboBox, errorMessages_2)
-#: libkopete/private/kopeteviewmanager.cpp:335 rc.cpp:2347 rc.cpp:2362
-#: rc.cpp:2380 rc.cpp:2398 protocols/yahoo/yahooaccount.cpp:1111
-#: protocols/yahoo/yahooaccount.cpp:1563 protocols/yahoo/yahooaccount.cpp:1774
+#: libkopete/private/kopeteviewmanager.cpp:335
+#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
+#: protocols/yahoo/yahooaccount.cpp:1774
+#, fuzzy
+#| msgid "Ignore"
+msgctxt "@action"
 msgid "Ignore"
 msgstr "忽略"
 
@@ -1242,6 +1230,11 @@ msgstr "暱稱"
 #: libkopete/kopeteglobal.cpp:213 rc.cpp:94 rc.cpp:1025 rc.cpp:4630
 msgid "Photo"
 msgstr "照片"
+
+#: kopete/infoeventwidget.cpp:206
+#, fuzzy
+msgid "View"
+msgstr "檢視"
 
 #: kopete/kopetewindow.cpp:129
 #, fuzzy
@@ -8866,6 +8859,29 @@ msgstr "匿名視窗"
 #: rc.cpp:2344 rc.cpp:2359 rc.cpp:2377 rc.cpp:2395
 msgid "KNotify"
 msgstr "KNotify"
+
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:700
+#. i18n: ectx: property (text), item, widget (QComboBox, serverNotices_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:732
+#. i18n: ectx: property (text), item, widget (QComboBox, serverMessages_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:781
+#. i18n: ectx: property (text), item, widget (QComboBox, informationReplies_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:820
+#. i18n: ectx: property (text), item, widget (QComboBox, errorMessages_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:700
+#. i18n: ectx: property (text), item, widget (QComboBox, serverNotices_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:732
+#. i18n: ectx: property (text), item, widget (QComboBox, serverMessages_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:781
+#. i18n: ectx: property (text), item, widget (QComboBox, informationReplies_2)
+#. i18n: file: protocols/irc/ui/irceditaccount.ui:820
+#. i18n: ectx: property (text), item, widget (QComboBox, errorMessages_2)
+#: rc.cpp:2347 rc.cpp:2362 rc.cpp:2380 rc.cpp:2398
+#, fuzzy
+#| msgid "Ignore"
+msgctxt "@item:inlistbox"
+msgid "Ignore"
+msgstr "忽略"
 
 #. i18n: file: protocols/irc/ui/irceditaccount.ui:750
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_3_2)
@@ -16614,7 +16630,7 @@ msgstr "密碼錯誤"
 
 #: protocols/irc/libkirc/plugins/ctcp/kirctransfer.cpp:359
 #, fuzzy
-msgid "Acknowledge size is greater then the expected file size"
+msgid "Acknowledge size is greater than the expected file size"
 msgstr "確認的大小大於預期的檔案大小"
 
 #: protocols/irc/ircaccount.cpp:155
@@ -16729,8 +16745,7 @@ msgstr "<qt>聯絡人 %1 想將他的網絡攝影機畫面給你看，要看嗎�
 msgid "Webcam invitation - Kopete MSN Plugin"
 msgstr "網絡攝影機邀請 - Kopete MSN 插件"
 
-#: protocols/msn/webcam.cpp:97 protocols/yahoo/yahooaccount.cpp:1111
-#: protocols/yahoo/yahooaccount.cpp:1563 protocols/yahoo/yahooaccount.cpp:1774
+#: protocols/msn/webcam.cpp:97
 msgid "Accept"
 msgstr "接受"
 
@@ -20159,6 +20174,14 @@ msgid ""
 "\n"
 "Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
+
+#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
+#: protocols/yahoo/yahooaccount.cpp:1774
+#, fuzzy
+#| msgid "Accept"
+msgctxt "@action"
+msgid "Accept"
+msgstr "接受"
 
 #: protocols/yahoo/yahooaccount.cpp:1204
 #, fuzzy, kde-format
