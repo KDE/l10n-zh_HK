@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-18 10:27+0200\n"
+"POT-Creation-Date: 2008-10-19 10:14+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -364,7 +364,7 @@ msgid "Kopete Avatar Selector Widget Test"
 msgstr ""
 
 #: libkopete/tests/avatarselectortest_program.cpp:26 kopete/main.cpp:47
-#: kopete/chatwindow/krichtexteditpart.cpp:221
+#: kopete/chatwindow/krichtexteditpart.cpp:243
 msgid "Michaël Larouche"
 msgstr ""
 
@@ -1578,7 +1578,7 @@ msgstr "開發人員、 Gadu 插件維護者"
 msgid "Gustavo Pichorim Boiko"
 msgstr ""
 
-#: kopete/main.cpp:44 kopete/chatwindow/krichtexteditpart.cpp:220
+#: kopete/main.cpp:44 kopete/chatwindow/krichtexteditpart.cpp:242
 msgid "Jason Keirstead"
 msgstr ""
 
@@ -2800,66 +2800,75 @@ msgid "&Tab Placement"
 msgstr "標籤位置(&T)"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:424
-msgid "Set Default &Font..."
-msgstr "設定預設字型(&F)..."
+#, fuzzy
+#| msgid "&Set Font..."
+msgid "Set &Font..."
+msgstr "設定字型(&S)..."
 
 #: kopete/chatwindow/kopetechatwindow.cpp:428
-msgid "Set Default Text &Color..."
-msgstr "設定預設文字顏色(&C)..."
+#, fuzzy
+#| msgid "Base font color:"
+msgid "Reset Font And Color"
+msgstr "基本字型顏色:"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:432
+#: kopete/chatwindow/kopeteemailwindow.cpp:236
+msgid "Set Text &Color..."
+msgstr "設定文字顏色(&C)..."
+
+#: kopete/chatwindow/kopetechatwindow.cpp:436
 #: kopete/chatwindow/kopeteemailwindow.cpp:240
 msgid "Set &Background Color..."
 msgstr "設定背景顏色(&B)..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:436
+#: kopete/chatwindow/kopetechatwindow.cpp:440
 msgid "Previous History"
 msgstr "上一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:441
+#: kopete/chatwindow/kopetechatwindow.cpp:445
 msgid "Next History"
 msgstr "下一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:453
+#: kopete/chatwindow/kopetechatwindow.cpp:457
 msgid "Automatic Spell Checking"
 msgstr "自動拼字檢查"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:459
+#: kopete/chatwindow/kopetechatwindow.cpp:463
 msgid "Show Participants"
 msgstr ""
 
-#: kopete/chatwindow/kopetechatwindow.cpp:460
+#: kopete/chatwindow/kopetechatwindow.cpp:464
 #, fuzzy
 #| msgid "Parties"
 msgid "Participants"
 msgstr "派對"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:469
+#: kopete/chatwindow/kopetechatwindow.cpp:473
 msgid "Co&ntacts"
 msgstr "聯絡人(&N)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:492
+#: kopete/chatwindow/kopetechatwindow.cpp:496
 #: kopete/chatwindow/kopeteemailwindow.cpp:272
 msgid "Toolbar Animation"
 msgstr "工具列動畫"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:636
+#: kopete/chatwindow/kopetechatwindow.cpp:645
 #, fuzzy
 #| msgid "Close the current tab"
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "關閉目前分頁"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1062
+#: kopete/chatwindow/kopetechatwindow.cpp:1069
 msgid "More..."
 msgstr "更多..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1078
+#: kopete/chatwindow/kopetechatwindow.cpp:1085
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1081
+#: kopete/chatwindow/kopetechatwindow.cpp:1088
 msgid "Bottom"
 msgstr ""
 
@@ -2897,10 +2906,6 @@ msgstr "(0) 下一個 >>"
 msgid "&Set Font..."
 msgstr "設定字型(&S)..."
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:236
-msgid "Set Text &Color..."
-msgstr "設定文字顏色(&C)..."
-
 #: kopete/chatwindow/kopeteemailwindow.cpp:269
 #, fuzzy
 #| msgid "performed an action"
@@ -2913,7 +2918,7 @@ msgid "(%1) Next >>"
 msgstr "(%1) 下一個 >>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:458
-#: kopete/chatwindow/chatview.cpp:340
+#: kopete/chatwindow/chatview.cpp:356
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>You are about to leave the group chat session <b>%1</b>.<br>You will "
@@ -2926,7 +2931,7 @@ msgstr ""
 "qt>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:459
-#: kopete/chatwindow/chatview.cpp:341
+#: kopete/chatwindow/chatview.cpp:357
 msgid "Closing Group Chat"
 msgstr "正在關閉群組聊天"
 
@@ -2937,7 +2942,7 @@ msgid "Cl&ose Chat"
 msgstr "關閉聊天(&O)"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:465
-#: kopete/chatwindow/chatview.cpp:347
+#: kopete/chatwindow/chatview.cpp:363
 #, kde-format
 msgid ""
 "<qt>You have received a message from <b>%1</b> in the last second. Are you "
@@ -2945,19 +2950,19 @@ msgid ""
 msgstr "<qt>你在最後時刻從 <b>%1</b> 收到訊息。你確定要關閉此聊天嗎？</qt>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:466
-#: kopete/chatwindow/chatview.cpp:348
+#: kopete/chatwindow/chatview.cpp:364
 msgid "Unread Message"
 msgstr "未讀訊息"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:472
-#: kopete/chatwindow/chatview.cpp:354
+#: kopete/chatwindow/chatview.cpp:370
 msgid ""
 "You have a message send in progress, which will be aborted if this chat is "
 "closed. Are you sure you want to close this chat?"
 msgstr "你有訊息正在傳送。如你關閉聊天，它將被中止。你確定要關閉這個聊天嗎？"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:473
-#: kopete/chatwindow/chatview.cpp:355
+#: kopete/chatwindow/chatview.cpp:371
 msgid "Message in Transit"
 msgstr "正傳送的訊息"
 
@@ -2975,123 +2980,123 @@ msgstr "回覆"
 msgid "Add Smiley"
 msgstr "加入表情"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:216
+#: kopete/chatwindow/krichtexteditpart.cpp:238
 #, fuzzy
 msgid "KRichTextEditPart"
 msgstr "KopeteRichTextEditPart"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:217
+#: kopete/chatwindow/krichtexteditpart.cpp:239
 #, fuzzy
 msgid "A simple rich text editor part"
 msgstr "Kopete 的簡便豐富文本（Rich Text）編輯器"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:219
+#: kopete/chatwindow/krichtexteditpart.cpp:241
 msgid "Richard J. Moore"
 msgstr ""
 
-#: kopete/chatwindow/krichtexteditpart.cpp:228
+#: kopete/chatwindow/krichtexteditpart.cpp:250
 msgid "Enable &Rich Text"
 msgstr "啟用豐富文本（&Rich Text）"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:230
+#: kopete/chatwindow/krichtexteditpart.cpp:252
 msgid "Disable &Rich Text"
 msgstr "停用豐富文本（&Rich Text）"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:234
+#: kopete/chatwindow/krichtexteditpart.cpp:256
 msgid "Check &Spelling"
 msgstr "檢查拼字(&S)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:239
+#: kopete/chatwindow/krichtexteditpart.cpp:261
 msgid "Text &Color..."
 msgstr "文字顏色(&C)..."
 
-#: kopete/chatwindow/krichtexteditpart.cpp:244
+#: kopete/chatwindow/krichtexteditpart.cpp:266
 msgid "&Font"
 msgstr "字型(&F)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:249
+#: kopete/chatwindow/krichtexteditpart.cpp:271
 msgid "Font &Size"
 msgstr "字型大小(&S)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:254
+#: kopete/chatwindow/krichtexteditpart.cpp:276
 msgid "&Bold"
 msgstr "粗體(&B)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:259
+#: kopete/chatwindow/krichtexteditpart.cpp:281
 msgid "&Italic"
 msgstr "斜體(&I)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:265
+#: kopete/chatwindow/krichtexteditpart.cpp:287
 msgid "&Underline"
 msgstr "底線(&U)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:280
+#: kopete/chatwindow/krichtexteditpart.cpp:299
 msgid "Align &Left"
 msgstr "向左對齊(&L)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:285
+#: kopete/chatwindow/krichtexteditpart.cpp:304
 msgid "Align &Center"
 msgstr "向中對齊(&C)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:290
+#: kopete/chatwindow/krichtexteditpart.cpp:309
 msgid "Align &Right"
 msgstr "向右對齊(&R)"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:295
+#: kopete/chatwindow/krichtexteditpart.cpp:314
 msgid "&Justify"
 msgstr "向右對齊(&J)"
 
-#: kopete/chatwindow/chatview.cpp:342 kopete/chatwindow/chatview.cpp:349
-#: kopete/chatwindow/chatview.cpp:356
+#: kopete/chatwindow/chatview.cpp:358 kopete/chatwindow/chatview.cpp:365
+#: kopete/chatwindow/chatview.cpp:372
 #, fuzzy
 #| msgid "Cl&ose Chat"
 msgctxt "@action:button"
 msgid "Close Chat"
 msgstr "關閉聊天(&O)"
 
-#: kopete/chatwindow/chatview.cpp:396
+#: kopete/chatwindow/chatview.cpp:412
 #, kde-format
 msgid "One other person in the chat"
 msgid_plural "%1 other people in the chat"
 msgstr[0] "聊天中有 %1 個其他人"
 
-#: kopete/chatwindow/chatview.cpp:438
+#: kopete/chatwindow/chatview.cpp:454
 #, kde-format
 msgid "%1 is typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: kopete/chatwindow/chatview.cpp:442
+#: kopete/chatwindow/chatview.cpp:458
 #, kde-format
 msgctxt "%1 is a list of names"
 msgid "%1 are typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: kopete/chatwindow/chatview.cpp:499 kopete/chatwindow/chatview.cpp:508
+#: kopete/chatwindow/chatview.cpp:515 kopete/chatwindow/chatview.cpp:524
 #, kde-format
 msgid "%1 is now known as %2"
 msgstr "%1 現在改名為 %2"
 
-#: kopete/chatwindow/chatview.cpp:527
+#: kopete/chatwindow/chatview.cpp:543
 #, kde-format
 msgid "%1 has joined the chat."
 msgstr "%1 加入這次聊天。"
 
-#: kopete/chatwindow/chatview.cpp:566
+#: kopete/chatwindow/chatview.cpp:582
 #, kde-format
 msgid "%1 has left the chat."
 msgstr "%1 離開這次聊天。"
 
-#: kopete/chatwindow/chatview.cpp:568
+#: kopete/chatwindow/chatview.cpp:584
 #, kde-format
 msgid "%1 has left the chat (%2)."
 msgstr "%1 離開這次聊天 (%2)。"
 
-#: kopete/chatwindow/chatview.cpp:661
+#: kopete/chatwindow/chatview.cpp:677
 #, kde-format
 msgid "You are now marked as %1."
 msgstr "你現在被標示為 %1 。"
 
-#: kopete/chatwindow/chatview.cpp:666
+#: kopete/chatwindow/chatview.cpp:682
 #, kde-format
 msgid "%2 is now %1."
 msgstr "%2 現在是 %1 。"
@@ -22766,6 +22771,12 @@ msgid ""
 "Avahi Daemon is Running"
 msgstr ""
 
+#~ msgid "Set Default &Font..."
+#~ msgstr "設定預設字型(&F)..."
+
+#~ msgid "Set Default Text &Color..."
+#~ msgstr "設定預設文字顏色(&C)..."
+
 #, fuzzy
 #~ msgid "Use a message stack to store incoming messages"
 #~ msgstr "使用訊息佇列，而不是有新訊息時立即開啟新聊天視窗。"
@@ -23304,9 +23315,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "ChatWindow"
 #~ msgstr "聊天視窗"
-
-#~ msgid "Base font color:"
-#~ msgstr "基本字型顏色:"
 
 #, fuzzy
 #~ msgid "U&se custom fonts for contact list items"
