@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-20 10:10+0200\n"
+"POT-Creation-Date: 2008-10-24 09:43+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "New Group"
 msgstr "預設的資料夾"
 
-#: conf/transfersgroupwidget.cpp:128 core/kget.cpp:677 ui/contextmenu.cpp:128
+#: conf/transfersgroupwidget.cpp:128 core/kget.cpp:665 ui/contextmenu.cpp:128
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
@@ -168,8 +168,8 @@ msgstr "開啟傳輸："
 msgid "Folder and extension can not be empty."
 msgstr ""
 
-#: conf/dlgdirectories.cpp:141 core/kget.cpp:461 core/kget.cpp:852
-#: core/kget.cpp:860
+#: conf/dlgdirectories.cpp:141 core/kget.cpp:453 core/kget.cpp:837
+#: core/kget.cpp:845
 msgid "Error"
 msgstr ""
 
@@ -335,9 +335,9 @@ msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "已延遲"
 
-#: core/transfer.cpp:201 transfer-plugins/kio/transferKio.cpp:121
+#: core/transfer.cpp:201 transfer-plugins/kio/transferKio.cpp:114
 #: transfer-plugins/metalink/metalink.cpp:103
-#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:210
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:203
 #: transfer-plugins/bittorrent/bttransfer.cpp:228
 #, fuzzy
 #| msgid "Finished"
@@ -355,13 +355,13 @@ msgstr ""
 "寫入檔案時發生錯誤：\n"
 "%1"
 
-#: core/kget.cpp:183
+#: core/kget.cpp:179
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:446
+#: core/kget.cpp:438
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -372,27 +372,27 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:447
+#: core/kget.cpp:439
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:460
+#: core/kget.cpp:452
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:24
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:788 ui/newtransferdialog.cpp:219 rc.cpp:413
+#: core/kget.cpp:776 ui/newtransferdialog.cpp:219 rc.cpp:413
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:788
+#: core/kget.cpp:776
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:851
+#: core/kget.cpp:836
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -401,7 +401,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:859
+#: core/kget.cpp:844
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -413,7 +413,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:872
+#: core/kget.cpp:857
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -424,16 +424,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:873
+#: core/kget.cpp:858
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:907 core/kget.cpp:914
+#: core/kget.cpp:886 core/kget.cpp:893
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:924
+#: core/kget.cpp:903
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -446,13 +446,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:1054
+#: core/kget.cpp:1033
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1072
+#: core/kget.cpp:1051
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -463,7 +463,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1082
+#: core/kget.cpp:1061
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -483,21 +483,21 @@ msgctxt "transfer state: connecting"
 msgid "Connecting.."
 msgstr "連線數"
 
-#: transfer-plugins/kio/transferKio.cpp:132
-#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:221
+#: transfer-plugins/kio/transferKio.cpp:125
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:214
 msgid "Aborted"
 msgstr ""
 
-#: transfer-plugins/kio/transferKio.cpp:160
+#: transfer-plugins/kio/transferKio.cpp:153
 #, fuzzy
 msgid "Downloading..."
 msgstr "下載已續傳"
 
-#: transfer-plugins/kio/transferKio.cpp:174
-#: transfer-plugins/kio/transferKio.cpp:189
-#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:252
-#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:269
-#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:286
+#: transfer-plugins/kio/transferKio.cpp:167
+#: transfer-plugins/kio/transferKio.cpp:182
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:245
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:262
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:279
 #, fuzzy
 msgid "Downloading.."
 msgstr "下載已續傳"
@@ -861,12 +861,12 @@ msgctxt "transfer state: downloading"
 msgid "Downloading.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:282
+#: transfer-plugins/bittorrent/bttransfer.cpp:283
 #, fuzzy
 msgid "Analyzing torrent.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:344
+#: transfer-plugins/bittorrent/bttransfer.cpp:345
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
