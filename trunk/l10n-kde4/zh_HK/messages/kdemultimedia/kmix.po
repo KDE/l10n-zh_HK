@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:07+0200\n"
+"POT-Creation-Date: 2008-10-27 10:19+0100\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -47,32 +47,46 @@ msgstr ""
 msgid "Split"
 msgstr ""
 
-#: kmix.cpp:116
+#: kmix.cpp:117
 msgid "Hardware &Information"
 msgstr "軟件資訊(&I)"
 
-#: kmix.cpp:119 kmixdockwidget.cpp:394
+#: kmix.cpp:120 kmixdockwidget.cpp:394
 msgid "Hide Mixer Window"
 msgstr "隱藏混音器視窗"
 
-#: kmix.cpp:123
+#: kmix.cpp:124
 #, fuzzy
 #| msgid "&Channels"
 msgid "Configure &Channels..."
 msgstr "聲道(&C)"
 
-#: kmix.cpp:455
+#: kmix.cpp:128 mdwslider.cpp:111
+#, fuzzy
+msgid "Increase Volume"
+msgstr "增加『%1』的音量"
+
+#: kmix.cpp:133 mdwslider.cpp:122
+#, fuzzy
+msgid "Decrease Volume"
+msgstr "降低『%1』的音量"
+
+#: kmix.cpp:138 mdwslider.cpp:365
+msgid "Mute"
+msgstr "靜音"
+
+#: kmix.cpp:482
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2"
 msgstr ""
 
-#: kmix.cpp:464
+#: kmix.cpp:491
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: kmix.cpp:675
+#: kmix.cpp:755
 msgid "Mixer Hardware Information"
 msgstr "混音器軟件資訊"
 
@@ -132,7 +146,7 @@ msgstr "KMixCtrl"
 msgid "(c) 2000 by Stefan Schimanski"
 msgstr ""
 
-#: kmixctrl.cpp:45 main.cpp:47
+#: kmixctrl.cpp:45 main.cpp:48
 msgid "Stefan Schimanski"
 msgstr ""
 
@@ -233,15 +247,15 @@ msgstr "水平(&H)"
 msgid "&Vertical"
 msgstr "垂直(&V)"
 
-#: main.cpp:32
+#: main.cpp:33
 msgid "KMix - KDE's full featured mini mixer"
 msgstr "KMix - KDE 的全功能小型混音器"
 
-#: main.cpp:36
+#: main.cpp:37
 msgid "KMix"
 msgstr "KMix"
 
-#: main.cpp:38
+#: main.cpp:39
 #, fuzzy
 #| msgid ""
 #| "(c) 1996-2000 Christian Esken\n"
@@ -256,73 +270,73 @@ msgstr ""
 "(c) 2000-2003 Christian Esken, Stefan Schimanski\n"
 "(c) 2002-2005 Christian Esken, Helio Chissini de Castro"
 
-#: main.cpp:40
+#: main.cpp:41
 msgid "Christian Esken"
 msgstr ""
 
-#: main.cpp:40
+#: main.cpp:41
 #, fuzzy
 #| msgid "Current mixer"
 msgid "Current maintainer"
 msgstr "當前混音器"
 
-#: main.cpp:41
+#: main.cpp:42
 msgid "Helio Chissini de Castro"
 msgstr ""
 
-#: main.cpp:41
+#: main.cpp:42
 msgid "Co-maintainer, Alsa 0.9x port"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:43
 msgid "Brian Hanson"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:43
 msgid "Solaris port"
 msgstr "Solaris 移植"
 
-#: main.cpp:47
+#: main.cpp:48
 msgid "Temporary maintainer"
 msgstr ""
 
-#: main.cpp:48
+#: main.cpp:49
 msgid "Erwin Mascher"
 msgstr ""
 
-#: main.cpp:48
+#: main.cpp:49
 msgid "Improving support for emu10k1 based soundcards"
 msgstr ""
 
-#: main.cpp:49
+#: main.cpp:50
 msgid "Sebestyen Zoltan"
 msgstr ""
 
-#: main.cpp:49 main.cpp:50
+#: main.cpp:50 main.cpp:51
 msgid "*BSD fixes"
 msgstr "*BSD 修正"
 
-#: main.cpp:50
+#: main.cpp:51
 msgid "Lennart Augustsson"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:52
 msgid "Nick Lopez"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:52
 msgid "ALSA port"
 msgstr "ALSA 移植"
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "Nadeem Hasan"
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "Mute and volume preview, other fixes"
 msgstr ""
 
-#: main.cpp:57
+#: main.cpp:58
 msgid ""
 "Inhibits the unhiding of the KMix main window, if KMix is already running."
 msgstr ""
@@ -347,16 +361,6 @@ msgstr "已靜音(&M)"
 msgid "Set &Record Source"
 msgstr "設定錄音音源(&R)"
 
-#: mdwslider.cpp:111
-#, fuzzy
-msgid "Increase Volume"
-msgstr "增加『%1』的音量"
-
-#: mdwslider.cpp:122
-#, fuzzy
-msgid "Decrease Volume"
-msgstr "降低『%1』的音量"
-
 #: mdwslider.cpp:133
 #, fuzzy
 msgid "Toggle Mute"
@@ -369,10 +373,6 @@ msgstr ""
 #: mdwslider.cpp:362
 msgid "Off"
 msgstr ""
-
-#: mdwslider.cpp:365
-msgid "Mute"
-msgstr "靜音"
 
 #: mdwslider.cpp:374
 #, kde-format
