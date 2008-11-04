@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-01 10:39+0100\n"
+"POT-Creation-Date: 2008-11-04 10:14+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -20476,7 +20476,7 @@ msgid "Buzz Contact"
 msgstr "向聯絡人發出「嗶」聲"
 
 #: protocols/yahoo/yahoochatsession.cpp:66
-#: protocols/jabber/jabberchatsession.cpp:108
+#: protocols/jabber/jabberchatsession.cpp:128
 #, fuzzy
 msgid "Send File"
 msgstr "傳送檔案(&F)..."
@@ -21013,12 +21013,10 @@ msgid "Test action"
 msgstr "說明"
 
 #: protocols/jabber/jabbercontact.cpp:256
-#: protocols/jabber/jabberchatsession.cpp:78
 msgid "Jingle Audio call"
 msgstr ""
 
 #: protocols/jabber/jabbercontact.cpp:259
-#: protocols/jabber/jabberchatsession.cpp:83
 msgid "Jingle Video call"
 msgstr ""
 
@@ -21535,7 +21533,7 @@ msgid "You have been invited to %1"
 msgstr "你已經斷線了"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:102
-#: protocols/jabber/jabberchatsession.cpp:362
+#: protocols/jabber/jabberchatsession.cpp:382
 msgid "This message is encrypted."
 msgstr "此訊息已加密。"
 
@@ -22002,10 +22000,16 @@ msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
 
 #: protocols/jabber/jabberchatsession.cpp:73
+#, fuzzy
+#| msgid "Show Offline &Users"
+msgid "Show Jingle sessions"
+msgstr "顯示離線聯絡人(&U)"
+
+#: protocols/jabber/jabberchatsession.cpp:77
 msgid "Start Jingle session"
 msgstr ""
 
-#: protocols/jabber/jabberchatsession.cpp:141
+#: protocols/jabber/jabberchatsession.cpp:161
 #, kde-format
 msgctxt "a contact's online status in parenthesis."
 msgid " (%1)"
