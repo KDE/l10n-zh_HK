@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-04 10:14+0100\n"
+"POT-Creation-Date: 2008-11-11 09:56+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15785,7 +15785,7 @@ msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
 #: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:961
-#: protocols/jabber/jabberaccount.cpp:1167
+#: protocols/jabber/jabberaccount.cpp:1172
 msgid "Keep"
 msgstr "保留"
 
@@ -21070,7 +21070,7 @@ msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
 #: protocols/jabber/jabbercontact.cpp:960
-#: protocols/jabber/jabberaccount.cpp:1167
+#: protocols/jabber/jabberaccount.cpp:1172
 msgid "Notification"
 msgstr "通知"
 
@@ -21521,7 +21521,7 @@ msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
 #: protocols/jabber/jabberprotocol.cpp:481
-#: protocols/jabber/jabberaccount.cpp:1561
+#: protocols/jabber/jabberaccount.cpp:1566
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
@@ -21771,142 +21771,148 @@ msgstr "網絡問題。"
 msgid "Socket timed out."
 msgstr "插座（socket）逾時。"
 
-#: protocols/jabber/jabberaccount.cpp:857
-msgid "Sorry, something unexpected happened that I do not know more about."
+#: protocols/jabber/jabberaccount.cpp:856
+#, fuzzy
+msgid "Remote closed connection."
+msgstr "使用直接連線（DCC）(&U)"
+
+#: protocols/jabber/jabberaccount.cpp:860
+#, kde-format
+msgid "Unexpected error condition (%1)."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:861
+#: protocols/jabber/jabberaccount.cpp:864
 #, kde-format
 msgid "There was a connection error: %1"
 msgstr "連線錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:869
+#: protocols/jabber/jabberaccount.cpp:872
 msgid "Unknown host."
 msgstr "未知主機。"
 
-#: protocols/jabber/jabberaccount.cpp:873
+#: protocols/jabber/jabberaccount.cpp:876
 msgid "Could not connect to a required remote resource."
 msgstr "無法連接所需的遠端資源。"
 
-#: protocols/jabber/jabberaccount.cpp:876
+#: protocols/jabber/jabberaccount.cpp:879
 msgid ""
 "It appears we have been redirected to another server; I do not know how to "
 "handle this."
 msgstr "看來我們被重導至另一台伺服器；我不知道怎樣處理。"
 
-#: protocols/jabber/jabberaccount.cpp:879
+#: protocols/jabber/jabberaccount.cpp:882
 msgid "Unsupported protocol version."
 msgstr "不支援的協定版本。"
 
-#: protocols/jabber/jabberaccount.cpp:882
-#: protocols/jabber/jabberaccount.cpp:899
-#: protocols/jabber/jabberaccount.cpp:943
-#: protocols/jabber/jabberaccount.cpp:960
-#: protocols/jabber/jabberaccount.cpp:977
-#: protocols/jabber/jabberaccount.cpp:985
+#: protocols/jabber/jabberaccount.cpp:885
+#: protocols/jabber/jabberaccount.cpp:902
+#: protocols/jabber/jabberaccount.cpp:946
+#: protocols/jabber/jabberaccount.cpp:963
+#: protocols/jabber/jabberaccount.cpp:980
+#: protocols/jabber/jabberaccount.cpp:988
 msgid "Unknown error."
 msgstr "未知錯誤。"
 
-#: protocols/jabber/jabberaccount.cpp:886
+#: protocols/jabber/jabberaccount.cpp:889
 #, kde-format
 msgid "There was a negotiation error: %1"
 msgstr "協商錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:893
+#: protocols/jabber/jabberaccount.cpp:896
 msgid "Server rejected our request to start the TLS handshake."
 msgstr "伺服器拒絕我們開始 TLS 交握的要求。"
 
-#: protocols/jabber/jabberaccount.cpp:896
+#: protocols/jabber/jabberaccount.cpp:899
 msgid "Failed to establish a secure connection."
 msgstr "建立安全連線失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:903
+#: protocols/jabber/jabberaccount.cpp:906
 #, kde-format
 msgid "There was a Transport Layer Security (TLS) error: %1"
 msgstr "傳送層保安 (TLS) 錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:910
+#: protocols/jabber/jabberaccount.cpp:913
 msgid "Login failed with unknown reason."
 msgstr "因未知原因登入失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:913
+#: protocols/jabber/jabberaccount.cpp:916
 msgid "No appropriate authentication mechanism available."
 msgstr "沒有合適的認證機制。"
 
-#: protocols/jabber/jabberaccount.cpp:916
+#: protocols/jabber/jabberaccount.cpp:919
 msgid "Bad SASL authentication protocol."
 msgstr "不良的 SASL 認證協定。"
 
-#: protocols/jabber/jabberaccount.cpp:919
+#: protocols/jabber/jabberaccount.cpp:922
 msgid "Server failed mutual authentication."
 msgstr "伺服器雙向認證失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:922
+#: protocols/jabber/jabberaccount.cpp:925
 msgid "Encryption is required but not present."
 msgstr "需要加密但未有。"
 
-#: protocols/jabber/jabberaccount.cpp:925
+#: protocols/jabber/jabberaccount.cpp:928
 msgid "Invalid user ID."
 msgstr "無效的用戶 ID 。"
 
-#: protocols/jabber/jabberaccount.cpp:928
+#: protocols/jabber/jabberaccount.cpp:931
 msgid "Invalid mechanism."
 msgstr "無效機制。"
 
-#: protocols/jabber/jabberaccount.cpp:931
+#: protocols/jabber/jabberaccount.cpp:934
 msgid "Invalid realm."
 msgstr "無效領域。"
 
-#: protocols/jabber/jabberaccount.cpp:934
+#: protocols/jabber/jabberaccount.cpp:937
 msgid "Mechanism too weak."
 msgstr "機制太弱。"
 
-#: protocols/jabber/jabberaccount.cpp:937
+#: protocols/jabber/jabberaccount.cpp:940
 msgid "Wrong credentials supplied. (check your user ID and password)"
 msgstr "提供的憑據不正確。（檢查你的用戶 ID 及密碼）"
 
-#: protocols/jabber/jabberaccount.cpp:940
+#: protocols/jabber/jabberaccount.cpp:943
 msgid "Temporary failure, please try again later."
 msgstr "暫時失敗，請稍後再試。"
 
-#: protocols/jabber/jabberaccount.cpp:947
+#: protocols/jabber/jabberaccount.cpp:950
 #, kde-format
 msgid "There was an error authenticating with the server: %1"
 msgstr "向伺服器認證時發生錯誤： %1"
 
-#: protocols/jabber/jabberaccount.cpp:954
+#: protocols/jabber/jabberaccount.cpp:957
 msgid "Transport Layer Security (TLS) problem."
 msgstr "傳送層保安 (TLS) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:957
+#: protocols/jabber/jabberaccount.cpp:960
 msgid "Simple Authentication and Security Layer (SASL) problem."
 msgstr "簡單認證及保安層 (SASL) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:964
+#: protocols/jabber/jabberaccount.cpp:967
 #, kde-format
 msgid "There was an error in the security layer: %1"
 msgstr "於此保安層中有問題: %1"
 
-#: protocols/jabber/jabberaccount.cpp:971
+#: protocols/jabber/jabberaccount.cpp:974
 msgid "No permission to bind the resource."
 msgstr "沒有繫結資源的權限。"
 
-#: protocols/jabber/jabberaccount.cpp:974
+#: protocols/jabber/jabberaccount.cpp:977
 msgid "The resource is already in use."
 msgstr "資源已被使用。"
 
-#: protocols/jabber/jabberaccount.cpp:981
+#: protocols/jabber/jabberaccount.cpp:984
 #, kde-format
 msgid "Could not bind a resource: %1"
 msgstr "無法繫結資源: %1"
 
-#: protocols/jabber/jabberaccount.cpp:999
-#: protocols/jabber/jabberaccount.cpp:1003
+#: protocols/jabber/jabberaccount.cpp:1002
+#: protocols/jabber/jabberaccount.cpp:1006
 #, kde-format
 msgid "Connection problem with Jabber server %1"
 msgstr "和 Jabber 伺服器 %1 連線有問題"
 
-#: protocols/jabber/jabberaccount.cpp:1164
+#: protocols/jabber/jabberaccount.cpp:1169
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Jabber user %1 removed %2's subscription to them. This account will "
@@ -21920,43 +21926,43 @@ msgstr ""
 "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。"
 "要刪除該聯絡人嗎？"
 
-#: protocols/jabber/jabberaccount.cpp:1338
+#: protocols/jabber/jabberaccount.cpp:1343
 msgid "Waiting for authorization"
 msgstr "正在等待授權"
 
-#: protocols/jabber/jabberaccount.cpp:1551
+#: protocols/jabber/jabberaccount.cpp:1556
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1560
+#: protocols/jabber/jabberaccount.cpp:1565
 #, fuzzy, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1574
+#: protocols/jabber/jabberaccount.cpp:1579
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1575
-#: protocols/jabber/jabberaccount.cpp:1582
-#: protocols/jabber/jabberaccount.cpp:1592
+#: protocols/jabber/jabberaccount.cpp:1580
+#: protocols/jabber/jabberaccount.cpp:1587
+#: protocols/jabber/jabberaccount.cpp:1597
 msgid "Jabber Group Chat"
 msgstr "Jabber 群組聊天"
 
-#: protocols/jabber/jabberaccount.cpp:1581
+#: protocols/jabber/jabberaccount.cpp:1586
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1587
+#: protocols/jabber/jabberaccount.cpp:1592
 msgid "No reason given by the server"
 msgstr "伺服器未有交待原因"
 
-#: protocols/jabber/jabberaccount.cpp:1591
+#: protocols/jabber/jabberaccount.cpp:1596
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error processing your request for group chat %1. (Reason: %"
@@ -21966,7 +21972,7 @@ msgid ""
 "Code %3)"
 msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
-#: protocols/jabber/jabberaccount.cpp:1664
+#: protocols/jabber/jabberaccount.cpp:1669
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -21974,27 +21980,27 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1667
+#: protocols/jabber/jabberaccount.cpp:1672
 #, fuzzy
 msgid "Unregister"
 msgstr "註冊"
 
-#: protocols/jabber/jabberaccount.cpp:1668
+#: protocols/jabber/jabberaccount.cpp:1673
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1669
+#: protocols/jabber/jabberaccount.cpp:1674
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1713
+#: protocols/jabber/jabberaccount.cpp:1718
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:1714
+#: protocols/jabber/jabberaccount.cpp:1719
 #, fuzzy
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"

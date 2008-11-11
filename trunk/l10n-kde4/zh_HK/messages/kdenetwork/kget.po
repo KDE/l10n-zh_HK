@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-10 10:12+0100\n"
+"POT-Creation-Date: 2008-11-11 09:56+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -169,7 +169,8 @@ msgid "Folder and extension can not be empty."
 msgstr ""
 
 #: conf/dlgdirectories.cpp:141 core/kget.cpp:453 core/kget.cpp:837
-#: core/kget.cpp:845
+#: core/kget.cpp:845 transfer-plugins/bittorrent/bttransfer.cpp:328
+#: transfer-plugins/bittorrent/bttransfer.cpp:339
 msgid "Error"
 msgstr ""
 
@@ -867,7 +868,12 @@ msgstr "下載已續傳"
 msgid "Analyzing torrent.."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:345
+#: transfer-plugins/bittorrent/bttransfer.cpp:327
+#: transfer-plugins/bittorrent/bttransfer.cpp:338
+msgid "An error occured.."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:348
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
