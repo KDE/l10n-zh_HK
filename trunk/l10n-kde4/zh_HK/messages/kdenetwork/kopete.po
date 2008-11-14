@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-12 10:48+0100\n"
+"POT-Creation-Date: 2008-11-14 10:04+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -13616,13 +13616,13 @@ msgstr "網絡(&N):"
 #: rc.cpp:4933
 #, fuzzy
 #| msgid "Home Extra Address"
-msgid "Auto-detect External IP address"
+msgid "Auto-detect external IP address"
 msgstr "額外住家地址"
 
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:756
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:4936
-msgid "First port to use :"
+msgid "First port to use:"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:770
@@ -13643,13 +13643,13 @@ msgstr "媒體"
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:802
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:4946
-msgid "Microphone to use :"
+msgid "Microphone to use:"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:816
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:4949
-msgid "Audio output :"
+msgid "Audio output:"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:859
@@ -14951,8 +14951,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
 #: rc.cpp:5723
 msgid ""
-"The Bonjour Protocol Needs You To At Least Specify a Name. The Name Can be "
-"of form `Full Name@Hostname`"
+"The Bonjour protocol needs you to at least specify a name. The name can be "
+"of form 'Full Name@Hostname'"
 msgstr ""
 
 #. i18n: file: protocols/bonjour/bonjouraddui.ui:33
@@ -15298,14 +15298,14 @@ msgstr ""
 #: plugins/otr/authenticationwizard.cpp:317
 #, kde-format
 msgid ""
-"Ask a question to %1 whose answer is known only to you an her/him. If the "
-"answers don't match, you may be talking to an imposer."
+"Ask a question to %1 whose answer is known only to you and her/him. If the "
+"answers do not match, you may be talking to an imposer."
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:319
 #, kde-format
 msgid ""
-"Pick a secret known only to you and %1. If the secrets don't match, you may "
+"Pick a secret known only to you and %1. If the secrets do not match, you may "
 "be talking to an impostor. Do not send the secret through the chat window, "
 "or this authentication method could be compromised with ease."
 msgstr ""
@@ -15313,7 +15313,7 @@ msgstr ""
 #: plugins/otr/authenticationwizard.cpp:321
 #, kde-format
 msgid ""
-"Verify %1's fingerprint manualy. For example through a phonecall or signed "
+"Verify %1's fingerprint manually. For example through a phonecall or signed "
 "(and verified) email."
 msgstr ""
 
@@ -16363,7 +16363,7 @@ msgid ""
 "The nickname %1 is already in use. Please enter an alternative nickname:"
 msgstr "暱稱 %1 已使用。請輸入另一個暱稱："
 
-#: protocols/irc/ui/ircdialogs.cpp:59
+#: protocols/irc/ui/ircdialogs.cpp:59 protocols/irc/ircaccount.cpp:587
 #, fuzzy
 #| msgid "Please enter name of the channel you want to join:"
 msgid "Please enter the name of the channel you want to join:"
@@ -16393,9 +16393,12 @@ msgid "Server is Busy"
 msgstr "伺服器忙碌"
 
 #: protocols/irc/ui/networkconfigwidget.cpp:282
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Are you sure you want to delete the network <b>%1</b>?<br>Any "
+#| "accounts which use this network will have to be modified.</qt>"
 msgid ""
-"<qt>Are you sure you want to delete the network <b>%1</b>?<br>Any accounts "
+"<qt>Are you sure you want to delete the network <b>%1</b>?<br>Any account "
 "which use this network will have to be modified.</qt>"
 msgstr ""
 "<qt>確定要刪除 <b>%1</b> 網絡嗎？<br>任何使用此網絡的帳號都要修改。</qt>"
@@ -16726,12 +16729,6 @@ msgstr "網絡不能用"
 #| msgid "Join Channel..."
 msgid "Join Channel"
 msgstr "加入頻道..."
-
-#: protocols/irc/ircaccount.cpp:587
-#, fuzzy
-#| msgid "Please enter name of the channel you want to join:"
-msgid "Please enter name of the channel you want to join:"
-msgstr "請輸入要加入的頻道名稱:"
 
 #: protocols/msn/ui/msneditaccountwidget.cpp:236
 #: protocols/msn/ui/msneditaccountwidget.cpp:300
@@ -22784,9 +22781,14 @@ msgstr "離開(&A)"
 
 #: protocols/bonjour/bonjouraccount.cpp:191
 msgid ""
-"Sorry, We are unable to connect to the local mDNS server. Please Ensure "
-"Avahi Daemon is Running"
+"Sorry, we are unable to connect to the local mDNS server. Please ensure the "
+"Avahi daemon is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Please enter name of the channel you want to join:"
+#~ msgid "Please enter name of the channel you want to join:"
+#~ msgstr "請輸入要加入的頻道名稱:"
 
 #, fuzzy
 #~| msgid "Show Offline &Users"
