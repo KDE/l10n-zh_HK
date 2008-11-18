@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:53+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -864,7 +864,7 @@ msgstr "工具(&T)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:146
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:327
+#: rc.cpp:327 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "設定(&S)"
 
@@ -1782,7 +1782,7 @@ msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:791
 msgid "Step"
 msgstr "單步執行"
 
@@ -1798,8 +1798,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:797 rc.cpp:945 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
-#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
-#: kross/ui/view.cpp:309
+#: kdeui/findreplace/kreplace.cpp:353 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "停止"
 
@@ -5886,6 +5885,7 @@ msgid "No provider selected."
 msgstr "沒有選擇供應者。"
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:156
+#: knewstuff/knewstuff2/core/providerhandler.cpp:176
 #, fuzzy
 #| msgid "Latest"
 msgctxt "describes the feed of the latest posted entries"
@@ -5899,12 +5899,6 @@ msgstr "最高評分"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:168
 msgid "Most Downloads"
 msgstr "最多下載次數"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-#, fuzzy
-#| msgid "Untrusted"
-msgid "Unsorted"
-msgstr "不可信的"
 
 #: knewstuff/knewstuff2/core/security.cpp:76
 msgid ""
@@ -6533,7 +6527,7 @@ msgstr "快速鍵"
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
 #, fuzzy
 #| msgid "Curr&ent actions:"
-msgid "Current Scheme:"
+msgid "Current scheme:"
 msgstr "目前的動作(&E)："
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
@@ -6553,8 +6547,10 @@ msgid "More Actions"
 msgstr "動作"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Save As Scheme Defaults"
-msgstr ""
+#, fuzzy
+#| msgid "Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "預設值"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
 msgid "Export Scheme..."
@@ -6565,8 +6561,10 @@ msgid "Name for New Scheme"
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-msgid "Name for New Scheme:"
-msgstr ""
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "目前的動作(&E)："
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
 #, fuzzy
@@ -6575,8 +6573,9 @@ msgid "New Scheme"
 msgstr "目前的動作(&E)："
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
-msgid "The scheme with this name already exists"
-msgstr ""
+#, fuzzy
+msgid "A scheme with this name already exists."
+msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:135
 #, kde-format
@@ -6586,8 +6585,10 @@ msgid ""
 msgstr ""
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:164
-msgid "Export To Location"
-msgstr ""
+#, fuzzy
+#| msgid "Click to select a font"
+msgid "Export to Location"
+msgstr "選擇一個字型"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:173
 msgid "Could not export shortcuts scheme because the location is invalid."
@@ -6840,7 +6841,7 @@ msgid "Reset Toolbars"
 msgstr "重設工具列"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
-#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2166
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2167
 msgid "Reset"
 msgstr "重設"
 
@@ -9024,29 +9025,29 @@ msgstr "向前"
 msgid "Next Character"
 msgstr "字集"
 
-#: kdeui/widgets/kcharselect.cpp:370
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set font"
-msgstr "選擇字型"
-
-#: kdeui/widgets/kcharselect.cpp:377
-#, fuzzy
-#| msgid "Change font size?"
-msgid "Set font size"
-msgstr "變更字型大小？"
-
-#: kdeui/widgets/kcharselect.cpp:384
+#: kdeui/widgets/kcharselect.cpp:367
 #, fuzzy
 #| msgid "Select a year"
 msgid "Select a category"
 msgstr "選擇一個年份"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:370
 #, fuzzy
 #| msgid "Message string to be displayed"
 msgid "Select a block to be displayed"
 msgstr "將要顯示的訊息字串"
+
+#: kdeui/widgets/kcharselect.cpp:383
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set font"
+msgstr "選擇字型"
+
+#: kdeui/widgets/kcharselect.cpp:390
+#, fuzzy
+#| msgid "Change font size?"
+msgid "Set font size"
+msgstr "變更字型大小？"
 
 #: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
 #: kdeui/widgets/kcharselect-translation.cpp:43
@@ -11654,7 +11655,7 @@ msgstr ""
 "格嗎？"
 
 #: khtml/khtml_part.cpp:4594 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
-#: khtml/html/html_formimpl.cpp:1580 khtml/html/html_formimpl.cpp:2174
+#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:2175
 msgid "Submit"
 msgstr "提交"
 
@@ -11749,8 +11750,8 @@ msgstr ""
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
-#: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:166
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
 msgid "Continue"
 msgstr "繼續"
 
@@ -11833,80 +11834,6 @@ msgstr "XML 解析錯誤"
 #: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "基本頁面風格"
-
-#: khtml/ecma/kjs_debugwin.cpp:298 khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "JavaScript 錯誤"
-
-#: khtml/ecma/kjs_debugwin.cpp:315 khtml/ecma/debugger/errordlg.cpp:50
-msgid "&Do not show this message again"
-msgstr "不要再顯示這個訊息(&D)"
-
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "JavaScript 除錯器"
-
-#: khtml/ecma/kjs_debugwin.cpp:400
-msgid "Call stack"
-msgstr "呼叫堆疊"
-
-#: khtml/ecma/kjs_debugwin.cpp:435
-msgid "JavaScript console"
-msgstr "JavaScript console"
-
-#: khtml/ecma/kjs_debugwin.cpp:465
-msgctxt "Next breakpoint"
-msgid "&Next"
-msgstr "下一個中斷點(&N)"
-
-#: khtml/ecma/kjs_debugwin.cpp:467
-msgid "&Step"
-msgstr "單步執行(&S)"
-
-#: khtml/ecma/kjs_debugwin.cpp:472
-msgid "&Continue"
-msgstr "繼續(&C)"
-
-#: khtml/ecma/kjs_debugwin.cpp:474
-msgid "St&op"
-msgstr "停止(&O)"
-
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:160
-msgid "&Break at Next Statement"
-msgstr "在下一個敘述中斷(&B)"
-
-#: khtml/ecma/kjs_debugwin.cpp:479
-msgctxt "Next breakpoint"
-msgid "Next"
-msgstr "下一個中斷點"
-
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:572
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "%1 第 %2 行語法錯誤"
-
-#: khtml/ecma/kjs_debugwin.cpp:859
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1"
-msgstr ""
-"執行命令稿時發生錯誤。\n"
-"\n"
-"%1"
-
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:609
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"執行命令稿時發生錯誤。\n"
-"\n"
-"%1 第 %2 行：%3"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid ""
@@ -12008,17 +11935,17 @@ msgstr ""
 "<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>%"
 "1</p>你要批准提交表格嗎？</qt>"
 
-#: khtml/ecma/debugger/debugdocument.cpp:210
+#: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
 
-#: khtml/ecma/debugger/debugdocument.cpp:327
+#: khtml/ecma/debugger/debugdocument.cpp:253
 msgid "Breakpoint"
 msgstr ""
 
-#: khtml/ecma/debugger/scriptsdock.cpp:39
+#: khtml/ecma/debugger/scriptsdock.cpp:40
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "語文(&I)"
@@ -12033,65 +11960,110 @@ msgstr ""
 msgid "Reference"
 msgstr "參考錯誤"
 
-#: khtml/ecma/debugger/debugwindow.cpp:161
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "JavaScript 除錯器"
+
+#: khtml/ecma/debugger/debugwindow.cpp:186
+msgid "&Break at Next Statement"
+msgstr "在下一個敘述中斷(&B)"
+
+#: khtml/ecma/debugger/debugwindow.cpp:187
 #, fuzzy
 #| msgid "&Break at Next Statement"
 msgid "Break at Next"
 msgstr "在下一個敘述中斷(&B)"
 
-#: khtml/ecma/debugger/debugwindow.cpp:173
+#: khtml/ecma/debugger/debugwindow.cpp:199
 #, fuzzy
 msgid "Step Over"
 msgstr "單步執行"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
+#: khtml/ecma/debugger/debugwindow.cpp:206
 #, fuzzy
 msgid "Step Into"
 msgstr "單步執行"
 
-#: khtml/ecma/debugger/debugwindow.cpp:187
+#: khtml/ecma/debugger/debugwindow.cpp:213
 #, fuzzy
 msgid "Step Out"
 msgstr "單步執行"
 
-#: khtml/ecma/debugger/debugwindow.cpp:196
+#: khtml/ecma/debugger/debugwindow.cpp:219
+#, fuzzy
+#| msgid "Resources"
+msgid "Reindent Sources"
+msgstr "資源"
+
+#: khtml/ecma/debugger/debugwindow.cpp:224
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "動作"
+
+#: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:225
+#: khtml/ecma/debugger/debugwindow.cpp:266
 #, fuzzy
 #| msgid "Close Document"
 msgid "Close source"
 msgstr "關閉文件"
 
-#: khtml/ecma/debugger/debugwindow.cpp:231
+#: khtml/ecma/debugger/debugwindow.cpp:272
 #, fuzzy
 msgid "Ready"
 msgstr "重新載入"
 
-#: khtml/ecma/debugger/debugwindow.cpp:789
+#: khtml/ecma/debugger/debugwindow.cpp:615
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "%1 第 %2 行語法錯誤"
+
+#: khtml/ecma/debugger/debugwindow.cpp:650
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"執行命令稿時發生錯誤。\n"
+"\n"
+"%1 第 %2 行：%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:835
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:825
+#: khtml/ecma/debugger/debugwindow.cpp:871
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:231
+#: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
 #| msgid "Close"
 msgid "Console"
 msgstr "關閉"
 
-#: khtml/ecma/debugger/consoledock.cpp:254
+#: khtml/ecma/debugger/consoledock.cpp:243
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Enter"
 msgid "Enter"
 msgstr "Enter"
+
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "JavaScript 錯誤"
+
+#: khtml/ecma/debugger/errordlg.cpp:50
+msgid "&Do not show this message again"
+msgstr "不要再顯示這個訊息(&D)"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 #, fuzzy
@@ -12195,7 +12167,7 @@ msgstr ""
 "Konqueror 可以把密碼存在加密的保險箱內。當保險箱解鎖之後，就可以在下一次到訪 "
 "%1 時自動填上登入資訊。你要現在儲存資訊嗎？"
 
-#: khtml/html/html_formimpl.cpp:2555
+#: khtml/html/html_formimpl.cpp:2557
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
@@ -14020,6 +13992,43 @@ msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
 
 #, fuzzy
+#~| msgid "Untrusted"
+#~ msgid "Unsorted"
+#~ msgstr "不可信的"
+
+#~ msgid "Call stack"
+#~ msgstr "呼叫堆疊"
+
+#~ msgid "JavaScript console"
+#~ msgstr "JavaScript console"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "&Next"
+#~ msgstr "下一個中斷點(&N)"
+
+#~ msgid "&Step"
+#~ msgstr "單步執行(&S)"
+
+#~ msgid "&Continue"
+#~ msgstr "繼續(&C)"
+
+#~ msgid "St&op"
+#~ msgstr "停止(&O)"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "Next"
+#~ msgstr "下一個中斷點"
+
+#~ msgid ""
+#~ "An error occurred while attempting to run a script on this page.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "執行命令稿時發生錯誤。\n"
+#~ "\n"
+#~ "%1"
+
+#, fuzzy
 #~ msgid "Form"
 #~ msgstr "框架"
 
@@ -14452,11 +14461,6 @@ msgstr "沒有此選單項目 '%1'。"
 #, fuzzy
 #~| msgid "Click to select a font"
 #~ msgid "Click for Location Navigation"
-#~ msgstr "選擇一個字型"
-
-#, fuzzy
-#~| msgid "Click to select a font"
-#~ msgid "Click to Edit Location"
 #~ msgstr "選擇一個字型"
 
 #, fuzzy
@@ -15293,12 +15297,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr "無法載入這份文件。"
 
 #, fuzzy
-#~ msgid ""
-#~ "A script package with the name \"%1\" already exists. Replace this "
-#~ "package?"
-#~ msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
-
-#, fuzzy
 #~ msgid "Brightness"
 #~ msgstr "商業"
 
@@ -16055,9 +16053,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "Resource Selection"
 #~ msgstr "資源選擇"
-
-#~ msgid "Resources"
-#~ msgstr "資源"
 
 #~ msgid "Public"
 #~ msgstr "公開"
