@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:57+0100\n"
+"POT-Creation-Date: 2008-11-21 10:06+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -57,6 +57,7 @@ msgstr "聯絡人"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libkopete/ui/kopeteinfodialog.cpp:50 libkopete/ui/kopeteinfodialog.cpp:64
 #: rc.cpp:2824 rc.cpp:5320 rc.cpp:5350 rc.cpp:5842
+#: protocols/wlm/wlmchatsession.cpp:622
 #, fuzzy
 msgid "Information"
 msgstr "用戶資訊"
@@ -245,6 +246,7 @@ msgstr "離線"
 #: protocols/oscar/icq/icqstatusmanager.cpp:37
 #: protocols/oscar/icq/icqprotocol.cpp:448
 #: protocols/oscar/icq/icqprotocol.cpp:530
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:38
 #: protocols/groupwise/gwprotocol.cpp:66
 msgid "Unknown"
 msgstr "未知"
@@ -315,6 +317,7 @@ msgstr ""
 
 #: libkopete/kopetetransfermanager.cpp:513
 #: libkopete/kopetetransfermanager.cpp:562
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:35
 msgid "File Transfer"
 msgstr "檔案傳輸"
 
@@ -1085,7 +1088,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:629 kopete/kopetewindow.cpp:1208
+#: libkopete/kopetecontact.cpp:629 kopete/kopetewindow.cpp:1209
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1174,7 +1177,7 @@ msgstr "上次上線"
 msgid "Status Title"
 msgstr "狀態"
 
-#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1218
+#: libkopete/kopeteglobal.cpp:159 kopete/kopetewindow.cpp:1219
 msgid "Status Message"
 msgstr "狀態訊息"
 
@@ -1447,7 +1450,7 @@ msgstr "顯示或隱藏聯絡人清單"
 msgid "Set Away/Back"
 msgstr "設定離開/回來"
 
-#: kopete/kopetewindow.cpp:782
+#: kopete/kopetewindow.cpp:783
 msgid ""
 "<qt>Closing the main window will keep Kopete running in the system tray. Use "
 "'Quit' from the 'File' menu to quit the application.</qt>"
@@ -1455,11 +1458,11 @@ msgstr ""
 "<qt>關閉主視窗會令 Kopete 在系統匣繼續執行。使用「檔案」選單中的「離開」來離"
 "開應用程式。</qt>"
 
-#: kopete/kopetewindow.cpp:784
+#: kopete/kopetewindow.cpp:785
 msgid "Docking in System Tray"
 msgstr "停靠在系統匣"
 
-#: kopete/kopetewindow.cpp:990
+#: kopete/kopetewindow.cpp:991
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1477,7 +1480,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1205
+#: kopete/kopetewindow.cpp:1206
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
@@ -1485,7 +1488,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: kopete/kopetewindow.cpp:1253
+#: kopete/kopetewindow.cpp:1254
 #: kopete/contactlist/kopetecontactlistview.cpp:1791
 msgid "Add Contact"
 msgstr "加入聯絡人"
@@ -3533,7 +3536,7 @@ msgstr "行動電話:"
 
 #. i18n: file: kopete/config/avdevice/avdeviceconfig_videodevice.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, AVDeviceConfig_VideoDevice)
-#: rc.cpp:178
+#: rc.cpp:178 protocols/jabber/jingle/jinglecontentdialog.cpp:32
 msgid "Video"
 msgstr "視像"
 
@@ -17477,11 +17480,11 @@ msgstr ""
 msgid "%1 has started a chat with you"
 msgstr "%1 開始和你聊天"
 
-#: protocols/msn/msnchatsession.cpp:674 protocols/wlm/wlmchatsession.cpp:299
+#: protocols/msn/msnchatsession.cpp:674 protocols/wlm/wlmchatsession.cpp:316
 msgid "has sent a nudge"
 msgstr ""
 
-#: protocols/msn/msnchatsession.cpp:690 protocols/wlm/wlmchatsession.cpp:675
+#: protocols/msn/msnchatsession.cpp:690 protocols/wlm/wlmchatsession.cpp:692
 #, fuzzy
 msgid "has sent you a nudge"
 msgstr "有聯絡人發嗶聲/提示給你。"
@@ -17735,6 +17738,12 @@ msgstr "現正聆聽:"
 #: protocols/oscar/oscaraccount.cpp:797
 msgid "Buddies"
 msgstr "伙伴"
+
+#: protocols/wlm/wlmchatsession.cpp:621
+#, fuzzy
+#| msgid "Send"
+msgid "Send OIM"
+msgstr "傳送"
 
 #: protocols/gadu/gadusession.cpp:220 protocols/gadu/gadusession.cpp:233
 #: protocols/gadu/gadusession.cpp:245 protocols/gadu/gadusession.cpp:278
@@ -22309,6 +22318,20 @@ msgstr "嘗試開始聊天: %1 時發生錯誤"
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
 
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:29
+msgid "Audio"
+msgstr ""
+
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:74
+msgid "Check the contents you wanna accept : "
+msgstr ""
+
+#: protocols/jabber/jingle/jinglecontentdialog.cpp:81
+#, fuzzy, kde-format
+#| msgid "Show Offline &Users"
+msgid "New Jingle session from %1"
+msgstr "顯示離線聯絡人(&U)"
+
 #: protocols/jabber/jabberchatsession.cpp:73
 msgid "Show audio calls"
 msgstr ""
@@ -23105,11 +23128,6 @@ msgstr ""
 #~| msgid "Please enter name of the channel you want to join:"
 #~ msgid "Please enter name of the channel you want to join:"
 #~ msgstr "請輸入要加入的頻道名稱:"
-
-#, fuzzy
-#~| msgid "Show Offline &Users"
-#~ msgid "Show Jingle sessions"
-#~ msgstr "顯示離線聯絡人(&U)"
 
 #, fuzzy
 #~ msgid "Contact display-name"
