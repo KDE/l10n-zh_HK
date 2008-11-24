@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-21 10:06+0100\n"
+"POT-Creation-Date: 2008-11-24 09:52+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17696,7 +17696,7 @@ msgid "<qt>You must enter a valid WLM passport.</qt>"
 msgstr "<qt>你必須輸入有效的密碼。</qt>"
 
 #: protocols/wlm/ui/wlmeditaccountwidget.cpp:175
-#: protocols/wlm/wlmcontact.cpp:196
+#: protocols/wlm/wlmcontact.cpp:176
 #, fuzzy
 #| msgid "MSN Plugin"
 msgid "WLM Plugin"
@@ -17708,7 +17708,7 @@ msgstr "MSN 插件"
 msgid "Block Contact"
 msgstr "封鎖聯絡人(&B)"
 
-#: protocols/wlm/wlmcontact.cpp:195
+#: protocols/wlm/wlmcontact.cpp:175
 #, fuzzy
 #| msgid ""
 #| "<qt>Please go online to remove a contact from your contact list.</qt>"
@@ -17723,13 +17723,8 @@ msgstr ""
 
 #: protocols/wlm/wlmprotocol.cpp:71
 #, fuzzy
-#| msgid "Personal message:"
-msgid "Personal Message"
-msgstr "個人化訊息:"
-
-#: protocols/wlm/wlmprotocol.cpp:72
-#, fuzzy
 #| msgid "Now Listening To: "
+msgctxt "This is used in the tooltip of a contact"
 msgid "Listening To"
 msgstr "現正聆聽:"
 
@@ -22323,8 +22318,10 @@ msgid "Audio"
 msgstr ""
 
 #: protocols/jabber/jingle/jinglecontentdialog.cpp:74
-msgid "Check the contents you wanna accept : "
-msgstr ""
+#, fuzzy
+#| msgid "Choose the accounts to ignore:"
+msgid "Choose the contents you want to accept:"
+msgstr "選擇要忽略的帳號:"
 
 #: protocols/jabber/jingle/jinglecontentdialog.cpp:81
 #, fuzzy, kde-format
@@ -23114,6 +23111,11 @@ msgid ""
 "Sorry, we are unable to connect to the local mDNS server. Please ensure the "
 "Avahi daemon is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Personal message:"
+#~ msgid "Personal Message"
+#~ msgstr "個人化訊息:"
 
 #, fuzzy
 #~ msgid "&Defaults"
@@ -24116,9 +24118,6 @@ msgstr ""
 
 #~ msgid "Location of the SMPPPD"
 #~ msgstr "SMPPPD 的位置"
-
-#~ msgid "Choose the accounts to ignore:"
-#~ msgstr "選擇要忽略的帳號:"
 
 #, fuzzy
 #~ msgid "Could not find suitable place to install scripts into."
