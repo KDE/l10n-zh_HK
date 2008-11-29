@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:46+0100\n"
+"POT-Creation-Date: 2008-11-29 11:07+0100\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -621,14 +621,15 @@ msgstr "所有檔案"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: plugins/7zipplugin/7zipplugin.cpp:58
+#: plugins/7zipplugin/7zipplugin.cpp:62
 msgid "Unable to find 7zr, 7za or 7z"
 msgstr ""
 
-#: plugins/7zipplugin/7zipplugin.cpp:147 plugins/7zipplugin/7zipplugin.cpp:446
-#: plugins/rarplugin/rarplugin.cpp:171 plugins/rarplugin/rarplugin.cpp:247
-msgid "Password input cancelled by user."
-msgstr ""
+#: plugins/7zipplugin/7zipplugin.cpp:572
+#, fuzzy
+#| msgid "An error occurred while extracting the archive."
+msgid "Unknown error when extracting files"
+msgstr "解開壓縮檔時發生錯誤。"
 
 #: plugins/karchiveplugin/karchiveplugin.cpp:69
 #: plugins/karchiveplugin/karchiveplugin.cpp:82
@@ -780,6 +781,10 @@ msgstr "加入檔案到壓縮檔時發生錯誤。"
 
 #: plugins/rarplugin/rarplugin.cpp:50
 msgid "Neither rar or unrar are available in your PATH."
+msgstr ""
+
+#: plugins/rarplugin/rarplugin.cpp:171 plugins/rarplugin/rarplugin.cpp:247
+msgid "Password input cancelled by user."
 msgstr ""
 
 #: rc.cpp:1
@@ -1127,9 +1132,6 @@ msgstr "所有檔案"
 
 #~ msgid "Not enough free disc space to extract the archive."
 #~ msgstr "沒有足夠的磁碟空間來解開壓縮檔。"
-
-#~ msgid "An error occurred while extracting the archive."
-#~ msgstr "解開壓縮檔時發生錯誤。"
 
 #~ msgid "You do not have permission to access that archive."
 #~ msgstr "你沒有存取這個壓縮檔的權限。"
