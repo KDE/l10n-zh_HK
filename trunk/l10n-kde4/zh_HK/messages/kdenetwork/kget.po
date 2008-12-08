@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-27 09:45+0100\n"
+"POT-Creation-Date: 2008-12-08 10:21+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -932,7 +932,7 @@ msgid "1 day "
 msgid_plural "%1 days "
 msgstr[0] ""
 
-#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:116
+#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:123
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open file:\n"
@@ -2431,77 +2431,71 @@ msgstr "下載已續傳"
 
 #. i18n: file: conf/dlgnetwork.ui:78
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
-#. i18n: file: conf/dlgnetwork.ui:92
+#. i18n: file: conf/dlgnetwork.ui:101
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
-#: rc.cpp:20 rc.cpp:26
+#. i18n: file: conf/dlgnetwork.ui:124
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
+#: rc.cpp:20 rc.cpp:26 rc.cpp:32
 #, fuzzy
 #| msgid " %1 KB/s "
 msgid "KiB/s"
 msgstr " %1 KB/秒"
 
-#. i18n: file: conf/dlgnetwork.ui:85
+#. i18n: file: conf/dlgnetwork.ui:94
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:23
 #, fuzzy
 msgid "Global Upload-Limit:"
 msgstr "下載已續傳"
 
-#. i18n: file: conf/dlgnetwork.ui:99
+#. i18n: file: conf/dlgnetwork.ui:117
 #. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
 #: rc.cpp:29
 #, fuzzy
 msgid "Per Transfer:"
 msgstr "開啟傳輸(&T)"
 
-#. i18n: file: conf/dlgnetwork.ui:106
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
-#: rc.cpp:32
-#, fuzzy
-#| msgid "0 B/s"
-msgid "kBi/s"
-msgstr "0 B/秒"
-
-#. i18n: file: conf/dlgnetwork.ui:125
+#. i18n: file: conf/dlgnetwork.ui:140
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
 #: rc.cpp:35
 #, fuzzy
 msgid "Reconnect on error or broken connection"
 msgstr "斷線時"
 
-#. i18n: file: conf/dlgnetwork.ui:134
+#. i18n: file: conf/dlgnetwork.ui:149
 #. i18n: ectx: property (text), widget (QLabel, lb_retries_2)
 #: rc.cpp:38
 msgid "Number of retries:"
 msgstr "重試的次數："
 
-#. i18n: file: conf/dlgnetwork.ui:148
+#. i18n: file: conf/dlgnetwork.ui:163
 #. i18n: ectx: property (text), widget (QLabel, lb_after_2)
 #: rc.cpp:41
 #, fuzzy
 msgid "Retry after:"
 msgstr "在這之後重新連線："
 
-#. i18n: file: conf/dlgnetwork.ui:155
+#. i18n: file: conf/dlgnetwork.ui:170
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ReconnectDelay)
 #: rc.cpp:44
 msgid "sec"
 msgstr ""
 
-#. i18n: file: conf/dlgnetwork.ui:171
+#. i18n: file: conf/dlgnetwork.ui:189
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxCompleted)
 #: rc.cpp:47
 #, fuzzy
 msgid "After Completing Downloads"
 msgstr "完成下載後自動關閉"
 
-#. i18n: file: conf/dlgnetwork.ui:177
+#. i18n: file: conf/dlgnetwork.ui:195
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoShutdown)
 #: rc.cpp:50
 #, fuzzy
 msgid "Auto shutdown"
 msgstr "自動關閉開啟。"
 
-#. i18n: file: conf/dlgnetwork.ui:184
+#. i18n: file: conf/dlgnetwork.ui:202
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoDisconnect)
 #: rc.cpp:53
 #, fuzzy
@@ -3306,6 +3300,11 @@ msgstr ""
 #: rc.cpp:505
 msgid "&Tools"
 msgstr ""
+
+#, fuzzy
+#~| msgid "0 B/s"
+#~ msgid "kBi/s"
+#~ msgstr "0 B/秒"
 
 #, fuzzy
 #~ msgid "Form"
