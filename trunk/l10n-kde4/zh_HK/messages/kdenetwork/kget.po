@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-08 10:21+0100\n"
+"POT-Creation-Date: 2008-12-09 09:48+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -230,7 +230,7 @@ msgstr "重新開始(&S)"
 #: core/transfertreemodel.cpp:563
 #: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
 #: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
-#: rc.cpp:475
+#: rc.cpp:471
 msgid "Size"
 msgstr ""
 
@@ -385,7 +385,7 @@ msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:24
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:776 ui/newtransferdialog.cpp:219 rc.cpp:413
+#: core/kget.cpp:776 ui/newtransferdialog.cpp:219 rc.cpp:409
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
@@ -691,7 +691,7 @@ msgstr ""
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:154
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:71
-#: rc.cpp:269 rc.cpp:362
+#: rc.cpp:269 rc.cpp:358
 msgid "Chunks"
 msgstr ""
 
@@ -1656,7 +1656,7 @@ msgstr "來源："
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: ui/transferdetailsfrm.ui:43
 #. i18n: ectx: property (text), widget (QLabel, destLabel)
-#: ui/transferdetails.cpp:38 rc.cpp:392 rc.cpp:428
+#: ui/transferdetails.cpp:38 rc.cpp:388 rc.cpp:424
 msgid "Saving to:"
 msgstr ""
 
@@ -1664,7 +1664,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: ui/transferdetailsfrm.ui:113
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: ui/transferdetails.cpp:39 rc.cpp:299 rc.cpp:435
+#: ui/transferdetails.cpp:39 rc.cpp:297 rc.cpp:431
 msgid "Status:"
 msgstr ""
 
@@ -2845,7 +2845,7 @@ msgstr "限制"
 #. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
 #. i18n: file: ui/groupsettingsdialog.ui:84
 #. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
-#: rc.cpp:231 rc.cpp:240 rc.cpp:401 rc.cpp:407 rc.cpp:454 rc.cpp:460
+#: rc.cpp:231 rc.cpp:240 rc.cpp:397 rc.cpp:403 rc.cpp:450 rc.cpp:456
 msgid "KiB"
 msgstr ""
 
@@ -2930,7 +2930,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:163
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:278 rc.cpp:365
+#: rc.cpp:278 rc.cpp:361
 #, fuzzy
 msgid "Downloaded:"
 msgstr "下載已續傳"
@@ -2939,7 +2939,7 @@ msgstr "下載已續傳"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:205
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:281 rc.cpp:383
+#: rc.cpp:281 rc.cpp:379
 msgid "Excluded:"
 msgstr ""
 
@@ -2969,23 +2969,15 @@ msgstr "開啟傳輸"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: ui/newtransferwidget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:293 rc.cpp:416
+#: rc.cpp:293 rc.cpp:412
 msgid "URL:"
-msgstr ""
-
-#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:47
-#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_url)
-#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:71
-#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_status)
-#: rc.cpp:296 rc.cpp:302
-msgid "KSqueezedTextLabel"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:84
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:305 rc.cpp:338
+#: rc.cpp:301 rc.cpp:334
 #, fuzzy
 #| msgid "Speed"
 msgid "Seeders:"
@@ -2993,14 +2985,14 @@ msgstr "速度"
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:108
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:308
+#: rc.cpp:304
 #, fuzzy
 msgid "Times Downloaded:"
 msgstr "下載已續傳"
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:132
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:311
+#: rc.cpp:307
 msgid "Next Update In:"
 msgstr ""
 
@@ -3008,19 +3000,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:99
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:314 rc.cpp:350
+#: rc.cpp:310 rc.cpp:346
 msgid "Leechers:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:195
 #. i18n: ectx: property (text), widget (KPushButton, m_update_tracker)
-#: rc.cpp:317
+#: rc.cpp:313
 msgid "Update Tracker"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:218
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:320
+#: rc.cpp:316
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Available Trackers"
@@ -3028,13 +3020,13 @@ msgstr "開啟傳輸"
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:231
 #. i18n: ectx: property (text), widget (KPushButton, m_add_tracker)
-#: rc.cpp:323
+#: rc.cpp:319
 msgid "Add Tracker"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:243
 #. i18n: ectx: property (text), widget (KPushButton, m_remove_tracker)
-#: rc.cpp:326
+#: rc.cpp:322
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Remove Tracker"
@@ -3042,19 +3034,19 @@ msgstr "開啟傳輸"
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:250
 #. i18n: ectx: property (text), widget (KPushButton, m_change_tracker)
-#: rc.cpp:329
+#: rc.cpp:325
 msgid "Change Tracker"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:270
 #. i18n: ectx: property (text), widget (KPushButton, m_restore_defaults)
-#: rc.cpp:332
+#: rc.cpp:328
 msgid "Restore Defaults"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:335
+#: rc.cpp:331
 #, fuzzy
 msgid "Stats"
 msgstr "重新開始(&S)"
@@ -3075,14 +3067,14 @@ msgstr "重新開始(&S)"
 #. i18n: ectx: property (text), widget (QLabel, chunksAllLabel)
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:212
 #. i18n: ectx: property (text), widget (QLabel, chunksExcludedLabel)
-#: rc.cpp:341 rc.cpp:347 rc.cpp:353 rc.cpp:359 rc.cpp:368 rc.cpp:374
-#: rc.cpp:380 rc.cpp:386
+#: rc.cpp:337 rc.cpp:343 rc.cpp:349 rc.cpp:355 rc.cpp:364 rc.cpp:370
+#: rc.cpp:376 rc.cpp:382
 msgid "<n>"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:344
+#: rc.cpp:340
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download-Speed:"
@@ -3090,20 +3082,20 @@ msgstr "完成下載"
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:356
+#: rc.cpp:352
 msgid "Upload-Speed:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:371
+#: rc.cpp:367
 msgctxt "chunks left"
 msgid "Left:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:191
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:377
+#: rc.cpp:373
 msgctxt "all chunks"
 msgid "All:"
 msgstr ""
@@ -3112,7 +3104,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: file: ui/transferdetailsfrm.ui:50
 #. i18n: ectx: property (text), widget (QLabel, sourceLabel)
-#: rc.cpp:389 rc.cpp:431
+#: rc.cpp:385 rc.cpp:427
 #, fuzzy
 #| msgid "Source:"
 msgctxt "source-file"
@@ -3121,34 +3113,34 @@ msgstr "來源："
 
 #. i18n: file: ui/transfersettingsdialog.ui:22
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:395
+#: rc.cpp:391
 #, fuzzy
 msgid "Transfer-Settings"
 msgstr " 傳輸： %1"
 
 #. i18n: file: ui/transfersettingsdialog.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
-#: rc.cpp:398
+#: rc.cpp:394
 #, fuzzy
 msgid "Upload Limit"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/transfersettingsdialog.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
-#: rc.cpp:404
+#: rc.cpp:400
 #, fuzzy
 msgid "Download Limit"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/transfersettingsdialog.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, ratioCheck)
-#: rc.cpp:410
+#: rc.cpp:406
 msgid "Maximum Share Ratio"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:419
+#: rc.cpp:415
 #, fuzzy
 #| msgid "Destination:"
 msgid "Destination:"
@@ -3156,7 +3148,7 @@ msgstr "目的地："
 
 #. i18n: file: ui/newtransferwidget.ui:53
 #. i18n: ectx: property (text), widget (QCheckBox, defaultFolderButton)
-#: rc.cpp:422
+#: rc.cpp:418
 #, fuzzy
 #| msgid "Default folder:"
 msgid "Set as default folder"
@@ -3164,14 +3156,14 @@ msgstr "預設的資料夾:"
 
 #. i18n: file: ui/newtransferwidget.ui:60
 #. i18n: ectx: property (text), widget (QLabel, groupLabel)
-#: rc.cpp:425
+#: rc.cpp:421
 #, fuzzy
 msgid "Transfer Group:"
 msgstr "開啟傳輸(&T)"
 
 #. i18n: file: ui/transferdetailsfrm.ui:164
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:441
+#: rc.cpp:437
 #, fuzzy
 #| msgid "Rem. Time"
 msgid "Remaining Time:"
@@ -3179,13 +3171,13 @@ msgstr "剩下的時間"
 
 #. i18n: file: ui/groupsettingsdialog.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:445
+#: rc.cpp:441
 msgid "Group-Settings"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:28
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:448
+#: rc.cpp:444
 #, fuzzy
 #| msgid "Default Folder"
 msgid "Default folder:"
@@ -3193,7 +3185,7 @@ msgstr "預設的資料夾"
 
 #. i18n: file: ui/groupsettingsdialog.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
-#: rc.cpp:451
+#: rc.cpp:447
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum download speed"
@@ -3201,7 +3193,7 @@ msgstr "完成下載"
 
 #. i18n: file: ui/groupsettingsdialog.ui:68
 #. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
-#: rc.cpp:457
+#: rc.cpp:453
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum upload speed"
@@ -3209,13 +3201,13 @@ msgstr "完成下載"
 
 #. i18n: file: ui/history/transferhistory.ui:26
 #. i18n: ectx: property (text), widget (QPushButton, clearButton)
-#: rc.cpp:463
+#: rc.cpp:459
 msgid "Clear History"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:46
 #. i18n: ectx: property (title), widget (KButtonGroup, viewmodesgroup)
-#: rc.cpp:466
+#: rc.cpp:462
 #, fuzzy
 #| msgid "Offline mode"
 msgctxt "View modes"
@@ -3224,33 +3216,33 @@ msgstr "離線模式"
 
 #. i18n: file: ui/history/transferhistory.ui:99
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_2)
-#: rc.cpp:469
+#: rc.cpp:465
 msgid "Select ranges"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:115
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
-#: rc.cpp:472
+#: rc.cpp:468
 #, fuzzy
 msgid "Date"
 msgstr "重新開始(&S)"
 
 #. i18n: file: ui/history/transferhistory.ui:125
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
-#: rc.cpp:478
+#: rc.cpp:474
 msgid "Host"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:136
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_3)
-#: rc.cpp:481
+#: rc.cpp:477
 #, fuzzy
 msgid "Filter history"
 msgstr "開啟傳輸："
 
 #. i18n: file: ui/history/transferhistory.ui:165
 #. i18n: ectx: property (text), widget (KLineEdit, searchBar)
-#: rc.cpp:484
+#: rc.cpp:480
 #, fuzzy
 msgctxt "delete selected transfer"
 msgid "Delete Selected"
@@ -3258,46 +3250,46 @@ msgstr "沒有選擇檔案"
 
 #. i18n: file: ui/history/transferhistory.ui:170
 #. i18n: ectx: property (text), widget (KLineEdit, searchBar)
-#: rc.cpp:487
+#: rc.cpp:483
 #, fuzzy
 msgid "Download"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/kgetui.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:490
+#: rc.cpp:486
 #, fuzzy
 msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: file: ui/kgetui.rc:16
 #. i18n: ectx: Menu (Downloads)
-#: rc.cpp:493
+#: rc.cpp:489
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/kgetui.rc:26
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:496
+#: rc.cpp:492
 msgid "&Settings"
 msgstr ""
 
 #. i18n: file: ui/kgetui.rc:30
 #. i18n: ectx: Menu (help)
-#: rc.cpp:499
+#: rc.cpp:495
 msgid "&Help"
 msgstr ""
 
 #. i18n: file: ui/kgetui.rc:33
 #. i18n: ectx: ToolBar (kget_toolbar)
-#: rc.cpp:502
+#: rc.cpp:498
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: extensions/konqueror/kget_plug_in.rc:4
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:505
+#: rc.cpp:501
 msgid "&Tools"
 msgstr ""
 
