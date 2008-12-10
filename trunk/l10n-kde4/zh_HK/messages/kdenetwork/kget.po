@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-09 09:48+0100\n"
+"POT-Creation-Date: 2008-12-10 10:59+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -268,7 +268,7 @@ msgid "n/a"
 msgstr ""
 
 #: core/transferhandler.cpp:151
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1448
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1464
 #: ui/transferdetails.cpp:89
 msgid "Stalled"
 msgstr "因擠塞停止了"
@@ -1110,8 +1110,8 @@ msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:119
 #: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:125
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:663
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:743
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:665
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:745
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open file:\n"
@@ -1156,14 +1156,14 @@ msgid "Torrent is incomplete!"
 msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:66
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:105
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:106
 #, kde-format
 msgid "Failed to open %1 : %2"
 msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:76
 #: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:89
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:122
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:123
 #, kde-format
 msgid "Failed to create %1 : %2"
 msgstr ""
@@ -1259,7 +1259,7 @@ msgstr ""
 "%1"
 
 #: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:526
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:727
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:729
 #, kde-format
 msgid "Cannot preallocate diskspace : %1"
 msgstr ""
@@ -1332,12 +1332,12 @@ msgstr ""
 msgid "You are already downloading the torrent %1"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:689
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:690
 #, kde-format
 msgid "Cannot migrate %1 : %2"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1345
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1361
 #, kde-format
 msgid ""
 "The torrent %1 was started with a previous version of KTorrent. To make sure "
@@ -1346,61 +1346,61 @@ msgid ""
 "press cancel, we will select your home directory."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1350
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1366
 msgid "Select Folder to Save To"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1438
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1454
 #, fuzzy
 #| msgid "Not Deleted"
 msgid "Not started"
 msgstr "沒有刪除"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1440
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1456
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download completed"
 msgstr "完成下載"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1442
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1458
 msgid "Seeding completed"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1444
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1460
 #, fuzzy
 #| msgid "Scheduling"
 msgid "Seeding"
 msgstr "正在排程"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1446
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1462
 #, fuzzy
 msgid "Downloading"
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1450
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1466
 #: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
 #, fuzzy
 #| msgid "Stopped"
 msgid "Stopped"
 msgstr "已停止"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1452
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1468
 msgid "Error: "
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1454
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1470
 msgid "Allocating diskspace"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1456
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1472
 msgid "Queued"
 msgstr "已佇列"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1458
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1474
 msgid "Checking data"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1460
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1476
 msgid "Stopped. No space left on device."
 msgstr ""
 
