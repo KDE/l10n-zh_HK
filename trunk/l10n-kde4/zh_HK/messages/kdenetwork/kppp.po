@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kppp 1.114\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-20 10:59+0100\n"
+"POT-Creation-Date: 2008-12-27 11:13+0100\n"
 "PO-Revision-Date: 2006-01-08 17:13+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1164,7 +1164,7 @@ msgstr "pppd 版本:"
 msgid "pppd &timeout:"
 msgstr "pppd 逾時(&T):"
 
-#: general.cpp:80 general.cpp:400 general.cpp:496
+#: general.cpp:80 general.cpp:402 general.cpp:498
 msgid " sec"
 msgstr " 秒"
 
@@ -1371,7 +1371,7 @@ msgstr ""
 msgid "Co&nnection speed:"
 msgstr "連線速度(&N):"
 
-#: general.cpp:359
+#: general.cpp:361
 msgid ""
 "Specifies the speed your modem and the serial\n"
 "port talk to each other. You should begin with\n"
@@ -1386,11 +1386,11 @@ msgstr ""
 "大一些的數字）。如果連線有問題，\n"
 "試著調低這個值。"
 
-#: general.cpp:377
+#: general.cpp:379
 msgid "&Use lock file"
 msgstr "使用鎖定檔案(&U)"
 
-#: general.cpp:385
+#: general.cpp:387
 msgid ""
 "<p>To prevent other programs from accessing the\n"
 "modem while a connection is established, a\n"
@@ -1412,11 +1412,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 開啟"
 
-#: general.cpp:398
+#: general.cpp:400
 msgid "Modem &timeout:"
 msgstr "數據機逾時(&T):"
 
-#: general.cpp:406
+#: general.cpp:408
 msgid ""
 "This specifies how long <i>kppp</i> waits for a\n"
 "<i>CONNECT</i> response from your modem. The\n"
@@ -1426,11 +1426,11 @@ msgstr ""
 "等候數據機做出 <i>CONNECT</i> 回應。\n"
 "建議值為 30 秒。"
 
-#: general.cpp:479
+#: general.cpp:481
 msgid "&Wait for dial tone before dialing"
 msgstr "撥號前先等待撥號音(&W)"
 
-#: general.cpp:484
+#: general.cpp:486
 msgid ""
 "<p>Normally the modem waits for a dial tone\n"
 "from your phone line, indicating that it can\n"
@@ -1447,11 +1447,11 @@ msgstr ""
 "\n"
 "<b>預設：</b>： 開啟"
 
-#: general.cpp:493
+#: general.cpp:495
 msgid "B&usy wait:"
 msgstr "忙線等候(&U):"
 
-#: general.cpp:501
+#: general.cpp:503
 msgid ""
 "Specifies the number of seconds to wait before\n"
 "redial if all dialed numbers are busy. This is\n"
@@ -1469,11 +1469,11 @@ msgstr ""
 "預設值為 0 秒鐘，但除非您有需要\n"
 "否則請勿變更。"
 
-#: general.cpp:514
+#: general.cpp:516
 msgid "Modem &volume:"
 msgstr "數據機音量(&V):"
 
-#: general.cpp:529
+#: general.cpp:531
 msgid ""
 "Most modems have a speaker which makes\n"
 "a lot of noise when dialing. Here you can\n"
@@ -1490,11 +1490,11 @@ msgstr ""
 "如果此選項對數據機並無作用，\n"
 "您即必須修改數據機音量指令。"
 
-#: general.cpp:543
+#: general.cpp:545
 msgid "Modem asserts CD line"
 msgstr "數據機佔用 CD 線路"
 
-#: general.cpp:551
+#: general.cpp:553
 msgid ""
 "This controls how <i>kppp</i> detects that the modem\n"
 "is not responding. Unless you are having\n"
@@ -1508,11 +1508,11 @@ msgstr ""
 "\n"
 "<b>預設值</b>： 關閉"
 
-#: general.cpp:558
+#: general.cpp:560
 msgid "Mod&em Commands..."
 msgstr "數據機指令(&E)..."
 
-#: general.cpp:560
+#: general.cpp:562
 msgid ""
 "Allows you to change the AT command for\n"
 "your modem."
@@ -1520,11 +1520,11 @@ msgstr ""
 "可用來變更數據機的\n"
 "AT 指令。"
 
-#: general.cpp:563
+#: general.cpp:565
 msgid "&Query Modem..."
 msgstr "查詢數據機(&Q)..."
 
-#: general.cpp:565
+#: general.cpp:567
 msgid ""
 "Most modems support the ATI command set to\n"
 "find out vendor and revision of your modem.\n"
@@ -1540,11 +1540,11 @@ msgstr ""
 "資訊。此類資訊對設定數據機\n"
 "很有幫助"
 
-#: general.cpp:572
+#: general.cpp:574
 msgid "&Terminal..."
 msgstr "終端機(&T)..."
 
-#: general.cpp:574
+#: general.cpp:576
 msgid ""
 "Opens the built-in terminal program. You\n"
 "can use this if you want to play around\n"
@@ -1554,27 +1554,27 @@ msgstr ""
 "可以使用這個選項來操控數\n"
 "據機的 AT 指令集"
 
-#: general.cpp:649
+#: general.cpp:651
 msgid "&Enable throughput graph"
 msgstr "啟用流量圖(&E)"
 
-#: general.cpp:653
+#: general.cpp:655
 msgid "Graph Colors"
 msgstr "圖表顏色"
 
-#: general.cpp:658
+#: general.cpp:660
 msgid "Bac&kground:"
 msgstr "背景(&K):"
 
-#: general.cpp:663
+#: general.cpp:665
 msgid "&Text:"
 msgstr "文字(&T):"
 
-#: general.cpp:668
+#: general.cpp:670
 msgid "I&nput bytes:"
 msgstr "輸入位元組(&N):"
 
-#: general.cpp:673
+#: general.cpp:675
 msgid "O&utput bytes:"
 msgstr "輸出位元組(&U):"
 
