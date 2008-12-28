@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:12+0100\n"
+"POT-Creation-Date: 2008-12-28 09:57+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1421,7 +1421,7 @@ msgstr "搜尋(&A):"
 msgid "Quick Search Bar"
 msgstr "快速搜尋列"
 
-#. i18n: file: plugins/history/historyviewer.ui:167
+#. i18n: file: plugins/history/historyviewer.ui:149
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: kopete/kopetewindow.cpp:469 rc.cpp:1682
 msgid "Search:"
@@ -2893,7 +2893,7 @@ msgid "Bottom"
 msgstr ""
 
 #: kopete/chatwindow/chatmessagepart.cpp:269
-#: plugins/history/historydialog.cpp:169
+#: plugins/history/historydialog.cpp:166
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
@@ -6325,7 +6325,7 @@ msgstr "省/州(&S):"
 #. i18n: ectx: property (text), widget (QPushButton, m_cancelButton)
 #. i18n: file: protocols/jabber/ui/dlgcommand.ui:145
 #. i18n: ectx: property (text), widget (QPushButton, btnCancel)
-#: rc.cpp:1396 rc.cpp:2183 rc.cpp:4714 plugins/history/historydialog.cpp:471
+#: rc.cpp:1396 rc.cpp:2183 rc.cpp:4714 plugins/history/historydialog.cpp:468
 #: protocols/gadu/gaduregisteraccount.cpp:55
 #, fuzzy
 msgid "&Cancel"
@@ -6415,34 +6415,34 @@ msgctxt "verb"
 msgid "&Remove"
 msgstr "移除(&V)"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:34
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:25
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:1436
 msgid "Uploading"
 msgstr "正在上傳"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:61
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:43
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:1439
 msgid "Uplo&ad to:"
 msgstr "上傳到(&A):"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:77
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, formatHTML)
 #: rc.cpp:1442
 msgid "Formatting"
 msgstr "格式"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:98
-#. i18n: ectx: property (toolTip), widget (QRadioButton, formatHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:71
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_formatHTML)
 #: rc.cpp:1445
 msgid ""
 "HTML 4.01 Transitional using the ISO-8859-1 (aka. Latin 1) character set "
 "encoding."
 msgstr "使用 ISO-8859-1 (即 Latin 1) 字元集編碼的 HTML 4.01 Transitional 。"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:103
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, formatHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:76
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_formatHTML)
 #: rc.cpp:1448
 msgid ""
 "HTML 4.01 Transitional formatting using ISO-8859-1 (aka. Latin 1) character "
@@ -6454,20 +6454,20 @@ msgstr ""
 "\n"
 "絕大部份網頁瀏覽器開啟它此版本應沒有問題。"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:106
-#. i18n: ectx: property (text), widget (QRadioButton, formatHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:79
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_formatHTML)
 #: rc.cpp:1453
 msgid "HTML (simple loo&k)"
 msgstr "簡單的 HTML(&K)"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:116
-#. i18n: ectx: property (toolTip), widget (QRadioButton, formatXHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:89
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_formatXHTML)
 #: rc.cpp:1456
 msgid "XHTML 1.0 Strict"
 msgstr "XHTML 1.0 Strict"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:121
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, formatXHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:94
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_formatXHTML)
 #: rc.cpp:1459
 msgid ""
 "The resulting page will be formatted using the XHTML 1.0 Strict W3C "
@@ -6483,46 +6483,46 @@ msgstr ""
 "注意有些網頁瀏覽器不支援 XHTML 。你應確定你的網頁伺服器能以正確的 MIME 類型"
 "（例如 application/xhtml+xml）將資料送出。."
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:124
-#. i18n: ectx: property (text), widget (QRadioButton, formatXHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:97
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_formatXHTML)
 #: rc.cpp:1464
 msgid "XHTML (simple look)"
 msgstr "簡單的 XHTML"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:131
-#. i18n: ectx: property (toolTip), widget (QRadioButton, formatXML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:104
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_formatXML)
 #: rc.cpp:1467
 msgid "Save the output in XML format using UTF-8 character set."
 msgstr "使用 UTF-8 字元集將輸出以 XML 格式儲存"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:134
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, formatXML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:107
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_formatXML)
 #: rc.cpp:1470
 msgid "Save the output in XML format using the UTF-8 encoding."
 msgstr "使用 UTF-8 編碼將輸出以 XML 格式儲存。"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:137
-#. i18n: ectx: property (text), widget (QRadioButton, formatXML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:110
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_formatXML)
 #: rc.cpp:1473
 msgid "&XML"
 msgstr "&XML"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:144
-#. i18n: ectx: property (text), widget (QRadioButton, formatStylesheet)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:117
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_formatStylesheet)
 #: rc.cpp:1476
 msgid "XML transformation &using this XSLT sheet:"
 msgstr ""
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:193
-#. i18n: ectx: property (toolTip), widget (QCheckBox, useImagesHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:157
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useImagesHTML)
 #: rc.cpp:1479
 #, fuzzy
 #| msgid "Replaces the protocol names, such as MSN and IRC with images."
 msgid "Replaces the protocol names, such as MSN and IRC, with images."
 msgstr "將協定名稱，例如 MSN 和 IRC ，替代為圖像。"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:210
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, useImagesHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:174
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useImagesHTML)
 #: rc.cpp:1482
 #, fuzzy
 #| msgid ""
@@ -6574,32 +6574,32 @@ msgstr ""
 "images/gadu_protocol.png\n"
 "images/winpopup_protocol.png"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:213
-#. i18n: ectx: property (text), widget (QCheckBox, useImagesHTML)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:177
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useImagesHTML)
 #: rc.cpp:1499
 msgid "Repla&ce protocol text with images in (X)HTML"
 msgstr "在 (X)HTML 中將協定文字替代為圖像(&C)"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:223
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:187
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:1502
 msgid "Display Name"
 msgstr "顯示名稱"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:247
-#. i18n: ectx: property (text), widget (QRadioButton, showName)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:199
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_showName)
 #: rc.cpp:1505
 msgid "Use one of &your IM names"
 msgstr "使用你其中一個即時傳訊名稱(&Y)"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:257
-#. i18n: ectx: property (text), widget (QCheckBox, includeIMAddress)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:209
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_includeIMAddress)
 #: rc.cpp:1508
 msgid "Include &IM addresses"
 msgstr "包含即時傳訊位址(&I)"
 
-#. i18n: file: plugins/webpresence/webpresenceprefs.ui:264
-#. i18n: ectx: property (text), widget (QRadioButton, showAnotherName)
+#. i18n: file: plugins/webpresence/webpresenceprefs.ui:216
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_showAnotherName)
 #: rc.cpp:1511
 msgid "Use another &name:"
 msgstr "使用另一個名稱(&N):"
@@ -6899,33 +6899,33 @@ msgstr "開啟新聊天時，自動將你和此聯絡人之間的最後幾個訊
 msgid "Show chat history in new chats"
 msgstr "在新聊天中顯示歷程記錄"
 
-#. i18n: file: plugins/history/historyviewer.ui:45
+#. i18n: file: plugins/history/historyviewer.ui:39
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:1661
 msgid "Contact:"
 msgstr "聯絡人:"
 
-#. i18n: file: plugins/history/historyviewer.ui:62
+#. i18n: file: plugins/history/historyviewer.ui:56
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: rc.cpp:1664
 #, fuzzy
 msgid "Message Filter:"
 msgstr "重新命名過濾器"
 
-#. i18n: file: plugins/history/historyviewer.ui:82
+#. i18n: file: plugins/history/historyviewer.ui:76
 #. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
 #: rc.cpp:1667
 #, fuzzy
 msgid "All messages"
 msgstr "離開訊息"
 
-#. i18n: file: plugins/history/historyviewer.ui:87
+#. i18n: file: plugins/history/historyviewer.ui:81
 #. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
 #: rc.cpp:1670
 msgid "Only incoming"
 msgstr ""
 
-#. i18n: file: plugins/history/historyviewer.ui:92
+#. i18n: file: plugins/history/historyviewer.ui:86
 #. i18n: ectx: property (text), item, widget (QComboBox, messageFilterBox)
 #: rc.cpp:1673
 msgid "Only outgoing"
@@ -6949,16 +6949,16 @@ msgstr "日期"
 msgid "Contact"
 msgstr "聯絡人"
 
-#. i18n: file: plugins/history/historyviewer.ui:180
+#. i18n: file: plugins/history/historyviewer.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
 #: rc.cpp:1685
 #, fuzzy
 msgid "Se&arch"
 msgstr "搜尋(&A):"
 
-#. i18n: file: plugins/history/historyviewer.ui:203
+#. i18n: file: plugins/history/historyviewer.ui:179
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:1688 plugins/history/historydialog.cpp:576
+#: rc.cpp:1688 plugins/history/historydialog.cpp:573
 msgid "Ready"
 msgstr "就緒"
 
@@ -11867,8 +11867,8 @@ msgstr "根據你的搜尋準則搜尋 ICQ 電話簿"
 #. i18n: ectx: property (text), widget (KPushButton, searchButton)
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:193
 #. i18n: ectx: property (text), widget (QPushButton, m_search)
-#: rc.cpp:3828 rc.cpp:4261 rc.cpp:5502 plugins/history/historydialog.cpp:455
-#: plugins/history/historydialog.cpp:537
+#: rc.cpp:3828 rc.cpp:4261 rc.cpp:5502 plugins/history/historydialog.cpp:452
+#: plugins/history/historydialog.cpp:534
 msgid "&Search"
 msgstr "搜尋(&S)"
 
@@ -15967,7 +15967,7 @@ msgctxt "adjective decribing an instant message"
 msgid "Outbound"
 msgstr "外出用餐"
 
-#: plugins/webpresence/webpresenceplugin.cpp:210
+#: plugins/webpresence/webpresenceplugin.cpp:202
 msgid ""
 "An error occurred when uploading your presence page.\n"
 "Check the path and write permissions of the destination."
@@ -15975,7 +15975,7 @@ msgstr ""
 "上載你的 presence 頁時發生問題。\n"
 "請檢查目的地路徑及寫入權限。"
 
-#: plugins/webpresence/webpresenceplugin.cpp:220
+#: plugins/webpresence/webpresenceplugin.cpp:212
 msgid "Not yet known"
 msgstr "未知"
 
@@ -15997,26 +15997,26 @@ msgstr "－新的過濾器－"
 msgid "Preview of:"
 msgstr "預覽:"
 
-#: plugins/history/historydialog.cpp:85 plugins/history/historydialog.cpp:560
+#: plugins/history/historydialog.cpp:83 plugins/history/historydialog.cpp:557
 #, kde-format
 msgid "History for %1"
 msgstr "%1 的歷程記錄"
 
-#: plugins/history/historydialog.cpp:109
+#: plugins/history/historydialog.cpp:107
 msgid "All"
 msgstr "所有"
 
-#: plugins/history/historydialog.cpp:203
+#: plugins/history/historydialog.cpp:200
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:41
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:63
 msgid "Loading..."
 msgstr "正在載入..."
 
-#: plugins/history/historydialog.cpp:470
+#: plugins/history/historydialog.cpp:467
 msgid "Searching..."
 msgstr "正在搜尋..."
 
-#: plugins/history/historydialog.cpp:553
+#: plugins/history/historydialog.cpp:550
 #, fuzzy
 msgid "History for All Contacts"
 msgstr "%1 的歷程記錄"
@@ -17777,8 +17777,8 @@ msgid "Listening To"
 msgstr "現正聆聽:"
 
 #: protocols/wlm/wlmaccount.cpp:136 protocols/wlm/wlmaccount.cpp:138
-#: protocols/oscar/oscaraccount.cpp:279 protocols/oscar/oscaraccount.cpp:791
-#: protocols/oscar/oscaraccount.cpp:797
+#: protocols/oscar/oscaraccount.cpp:283 protocols/oscar/oscaraccount.cpp:795
+#: protocols/oscar/oscaraccount.cpp:801
 msgid "Buddies"
 msgstr "伙伴"
 
@@ -18465,7 +18465,7 @@ msgstr "手提電話:"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:305
 #: protocols/oscar/icq/icqprotocol.cpp:121
-#: protocols/oscar/oscaraccount.cpp:1096 protocols/yahoo/yahooprotocol.cpp:75
+#: protocols/oscar/oscaraccount.cpp:1100 protocols/yahoo/yahooprotocol.cpp:75
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -18477,7 +18477,7 @@ msgstr "你要連線才能新增聯絡人。"
 
 #: protocols/oscar/aim/aimprotocol.cpp:181
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
-#: protocols/oscar/oscaraccount.cpp:1096 protocols/yahoo/yahooprotocol.cpp:74
+#: protocols/oscar/oscaraccount.cpp:1100 protocols/yahoo/yahooprotocol.cpp:74
 msgid "AIM"
 msgstr "AIM"
 
@@ -19961,93 +19961,93 @@ msgstr "選擇編碼"
 msgid "Default"
 msgstr "預設值: 3185"
 
-#: protocols/oscar/oscaraccount.cpp:580
+#: protocols/oscar/oscaraccount.cpp:584
 msgid "ICQ Web Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:582
+#: protocols/oscar/oscaraccount.cpp:586
 msgid "ICQ Email Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:911 protocols/oscar/oscaraccount.cpp:928
+#: protocols/oscar/oscaraccount.cpp:915 protocols/oscar/oscaraccount.cpp:932
 #, kde-format
 msgctxt "account has been disconnected"
 msgid "%1 disconnected"
 msgstr "%1 已斷線"
 
-#: protocols/oscar/oscaraccount.cpp:952
+#: protocols/oscar/oscaraccount.cpp:956
 msgid ""
 "There was an error in the protocol handling; it was not fatal, so you will "
 "not be disconnected."
 msgstr "處理通訊協定時發生錯誤；但它不會令你斷線。"
 
-#: protocols/oscar/oscaraccount.cpp:954
+#: protocols/oscar/oscaraccount.cpp:958
 msgid ""
 "There was an error in the protocol handling; automatic reconnection "
 "occurring."
 msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
-#: protocols/oscar/oscaraccount.cpp:956
+#: protocols/oscar/oscaraccount.cpp:960
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
-#: protocols/oscar/oscaraccount.cpp:1097
+#: protocols/oscar/oscaraccount.cpp:1101
 msgctxt "ICQ user id"
 msgid "UIN"
 msgstr "UIN"
 
-#: protocols/oscar/oscaraccount.cpp:1097
+#: protocols/oscar/oscaraccount.cpp:1101
 msgctxt "AIM user id"
 msgid "screen name"
 msgstr "螢幕名稱"
 
-#: protocols/oscar/oscaraccount.cpp:1107
+#: protocols/oscar/oscaraccount.cpp:1111
 #, kde-format
 msgid ""
 "You have logged in more than once with the same %1, account %2 is now "
 "disconnected."
 msgstr "你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
 
-#: protocols/oscar/oscaraccount.cpp:1113
+#: protocols/oscar/oscaraccount.cpp:1117
 #, kde-format
 msgid ""
 "Sign on failed because either your %1 or password are invalid. Please check "
 "your settings for account %2."
 msgstr "因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
 
-#: protocols/oscar/oscaraccount.cpp:1121
+#: protocols/oscar/oscaraccount.cpp:1125
 #, kde-format
 msgid "The %1 service is temporarily unavailable. Please try again later."
 msgstr "%1 服務暫時停止。請稍後再試。"
 
-#: protocols/oscar/oscaraccount.cpp:1126
+#: protocols/oscar/oscaraccount.cpp:1130
 #, kde-format
 msgid ""
 "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr "無法以 %2 帳號登入 %1 ，因為密碼不正確。"
 
-#: protocols/oscar/oscaraccount.cpp:1131
+#: protocols/oscar/oscaraccount.cpp:1135
 #, kde-format
 msgid "Could not sign on to %1 with nonexistent account %2."
 msgstr "無法以不存在的 %2 帳號登入 %1 。"
 
-#: protocols/oscar/oscaraccount.cpp:1135
+#: protocols/oscar/oscaraccount.cpp:1139
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 expired."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已逾期。"
 
-#: protocols/oscar/oscaraccount.cpp:1139
+#: protocols/oscar/oscaraccount.cpp:1143
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 is currently suspended."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已被暫停。"
 
-#: protocols/oscar/oscaraccount.cpp:1145
+#: protocols/oscar/oscaraccount.cpp:1149
 #, kde-format
 msgid ""
 "Could not sign on to %1 as there are too many clients from the same computer."
 msgstr "無法登入 %1 ，因為已有太多客戶端來自這電腦。"
 
-#: protocols/oscar/oscaraccount.cpp:1151
+#: protocols/oscar/oscaraccount.cpp:1155
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for sending messages too quickly. "
@@ -20057,7 +20057,7 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1160
+#: protocols/oscar/oscaraccount.cpp:1164
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for reconnecting too quickly. Wait "
@@ -20067,12 +20067,12 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1172 protocols/oscar/oscaraccount.cpp:1192
+#: protocols/oscar/oscaraccount.cpp:1176 protocols/oscar/oscaraccount.cpp:1196
 #, kde-format
 msgid "Sign on to %1 with your account %2 failed."
 msgstr "以帳號 %2 登入 %1 失敗。"
 
-#: protocols/oscar/oscaraccount.cpp:1179
+#: protocols/oscar/oscaraccount.cpp:1183
 #, kde-format
 msgid ""
 "The %1 server thinks the client you are using is too old. Please report this "
@@ -20080,7 +20080,7 @@ msgid ""
 msgstr ""
 "%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
 
-#: protocols/oscar/oscaraccount.cpp:1185
+#: protocols/oscar/oscaraccount.cpp:1189
 #, fuzzy, kde-format
 #| msgid ""
 #| "Account %1 was disabled on the %2 server because of your age (less than "
