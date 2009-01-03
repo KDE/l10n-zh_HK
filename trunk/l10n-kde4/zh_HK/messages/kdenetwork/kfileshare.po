@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_sambaconf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-02 10:22+0100\n"
+"POT-Creation-Date: 2009-01-03 10:59+0100\n"
 "PO-Revision-Date: 2006-01-02 22:10+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -16,53 +16,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. i18n: file: simple/groupconfiggui.ui:44
-#. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:4
+#. i18n: file: simple/groupconfiggui.ui:34
+#. i18n: ectx: property (text), widget (QRadioButton, allUsersRadio)
+#: rc.cpp:3
 msgid "Allow all users to share folders"
 msgstr "容讓所有使用者分享資料夾"
 
-#. i18n: file: simple/groupconfiggui.ui:55
-#. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:8 simple/groupconfigdlg.cpp:345
+#. i18n: file: simple/groupconfiggui.ui:44
+#. i18n: ectx: property (text), widget (QRadioButton, groupUsersRadio)
+#: rc.cpp:7 simple/groupconfigdlg.cpp:355
 #, no-c-format, kde-format
 msgid "Only users of the '%1' group are allowed to share folders"
 msgstr "只有『%1』群組的使用者可以分享資料夾"
 
-#. i18n: file: simple/groupconfiggui.ui:68
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:12 simple/groupconfigdlg.cpp:347
+#. i18n: file: simple/groupconfiggui.ui:57
+#. i18n: ectx: property (title), widget (Q3GroupBox, usersGrpBx)
+#: rc.cpp:11 simple/groupconfigdlg.cpp:357
 #, no-c-format, kde-format
 msgid "Users of '%1' Group"
 msgstr "『%1』群組的使用者"
 
-#. i18n: file: simple/groupconfiggui.ui:104
-#. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:15
+#. i18n: file: simple/groupconfiggui.ui:85
+#. i18n: ectx: property (text), widget (KPushButton, removeBtn)
+#: rc.cpp:14
 msgid "Remove User"
 msgstr "移除使用者"
 
-#. i18n: file: simple/groupconfiggui.ui:112
-#. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:18 advanced/kcm_sambaconf/usertabimpl.cpp:280
+#. i18n: file: simple/groupconfiggui.ui:92
+#. i18n: ectx: property (text), widget (KPushButton, addBtn)
+#: rc.cpp:17 advanced/kcm_sambaconf/usertabimpl.cpp:279
 msgid "Add User"
 msgstr "新增使用者"
 
-#. i18n: file: simple/groupconfiggui.ui:120
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:21
+#. i18n: file: simple/groupconfiggui.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, writeAccessChk)
+#: rc.cpp:20
 msgid "Group members can share folders without root password"
 msgstr "群組成員毋須系統管理員（root）密碼就可以分享資料夾"
 
-#. i18n: file: simple/groupconfiggui.ui:166
-#. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:24 simple/groupconfigdlg.cpp:349
+#. i18n: file: simple/groupconfiggui.ui:138
+#. i18n: ectx: property (text), widget (KPushButton, otherGroupBtn)
+#: rc.cpp:23 simple/groupconfigdlg.cpp:359
 msgid "Change Group..."
 msgstr "更改群組..."
 
 #. i18n: file: simple/controlcenter.ui:30
 #. i18n: ectx: property (text), widget (KRichTextLabel)
-#: rc.cpp:27
+#: rc.cpp:26
 msgid ""
 "SMB and NFS servers are not installed on this machine, to enable this module "
 "the servers must be installed."
@@ -70,19 +70,19 @@ msgstr "這部機器未安裝 SMB 及 NFS 伺服器，必須安裝這些伺服�
 
 #. i18n: file: simple/controlcenter.ui:44
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:30
+#: rc.cpp:29
 msgid "Enable Local Networ&k File Sharing"
 msgstr "啟動區域網絡檔案分享(&K)"
 
 #. i18n: file: simple/controlcenter.ui:61
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:33
+#: rc.cpp:32
 msgid "Si&mple sharing"
 msgstr "簡單分享(&M)"
 
 #. i18n: file: simple/controlcenter.ui:116
 #. i18n: ectx: property (text), widget (KRichTextLabel)
-#: rc.cpp:36
+#: rc.cpp:35
 msgid ""
 "Enable simple sharing to allow users to share folders from their HOME "
 "folder, without knowing the root password."
@@ -90,13 +90,13 @@ msgstr "啟動簡單分享讓使用者在他們的家目錄分享資料夾，毋
 
 #. i18n: file: simple/controlcenter.ui:132
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:39
+#: rc.cpp:38
 msgid "Advanced sharin&g"
 msgstr "進階分享(&G)"
 
 #. i18n: file: simple/controlcenter.ui:184
 #. i18n: ectx: property (text), widget (KRichTextLabel)
-#: rc.cpp:42
+#: rc.cpp:41
 msgid ""
 "Enable advanced sharing to allow users to share any folders, as long as they "
 "have write access to the needed configuration files, or they know the root "
@@ -107,25 +107,25 @@ msgstr ""
 
 #. i18n: file: simple/controlcenter.ui:239
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:45
+#: rc.cpp:44
 msgid "Use &NFS (Linux/UNIX)"
 msgstr "使用 &NFS (Linux/UNIX)"
 
 #. i18n: file: simple/controlcenter.ui:253
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:48
+#: rc.cpp:47
 msgid "Use Sam&ba (Microsoft(R) Windows(R))"
 msgstr "使用 Sam&ba (Microsoft(R) Windows(R))"
 
 #. i18n: file: simple/controlcenter.ui:274
 #. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:51
+#: rc.cpp:50
 msgid "Allo&wed Users"
 msgstr "容許的使用者(&W)"
 
 #. i18n: file: simple/controlcenter.ui:303
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:54
+#: rc.cpp:53
 msgid "Shared Folders"
 msgstr "分享的資料夾"
 
@@ -137,31 +137,31 @@ msgstr "分享的資料夾"
 #. i18n: ectx: property (text), widget (K3ListView)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:618
 #. i18n: ectx: property (text), widget (K3ListView, shareListView)
-#: rc.cpp:57 rc.cpp:933
+#: rc.cpp:56 rc.cpp:627
 msgid "Path"
 msgstr "路徑"
 
 #. i18n: file: simple/controlcenter.ui:323
 #. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:60
+#: rc.cpp:59
 msgid "Samba"
 msgstr "Samba"
 
 #. i18n: file: simple/controlcenter.ui:334
 #. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:63
+#: rc.cpp:62
 msgid "NFS"
 msgstr "NFS"
 
 #. i18n: file: simple/controlcenter.ui:375
 #. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:66
+#: rc.cpp:65
 msgid "A&dd..."
 msgstr "新增(&D)..."
 
 #. i18n: file: simple/controlcenter.ui:386
 #. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:69
+#: rc.cpp:68
 msgid "Chang&e..."
 msgstr "更改(&E)..."
 
@@ -173,25 +173,25 @@ msgstr "更改(&E)..."
 #. i18n: ectx: property (text), widget (KPushButton)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:981
 #. i18n: ectx: property (text), widget (QPushButton, removeSambaUserBtn)
-#: rc.cpp:72 rc.cpp:1005
+#: rc.cpp:71 rc.cpp:699
 msgid "Rem&ove"
 msgstr "移除(&O)"
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:33
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:75
+#: rc.cpp:74
 msgid "Allowed &Hosts"
 msgstr "容許的主機(&H)"
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:36
 #. i18n: ectx: property (toolTip), widget (QGroupBox)
-#: rc.cpp:78
+#: rc.cpp:77
 msgid "A list of allowed hosts"
 msgstr "容許的主機列表"
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:40
 #. i18n: ectx: property (whatsThis), widget (QGroupBox)
-#: rc.cpp:81
+#: rc.cpp:80
 msgid ""
 "Here you can see a list of hosts which are allowed to access this directory "
 "via NFS.\n"
@@ -203,49 +203,49 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:57
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:85
+#: rc.cpp:84
 msgid "&Add Host..."
 msgstr "新增主機(&A)..."
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:68
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:88
+#: rc.cpp:87
 msgid "Mo&dify Host..."
 msgstr "修改主機(&D)..."
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:79
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:91
+#: rc.cpp:90
 msgid "&Remove Host"
 msgstr "移除主機(&R)"
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:102
 #. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:94
+#: rc.cpp:93
 msgid "Name/Address"
 msgstr "名稱/位址"
 
 #. i18n: file: advanced/nfs/nfsdialoggui.ui:113
 #. i18n: ectx: property (text), widget (K3ListView)
-#: rc.cpp:97
+#: rc.cpp:96
 msgid "Parameters"
 msgstr "參數"
 
 #. i18n: file: advanced/nfs/hostprops.ui:50
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:100 advanced/nfs/nfshostdlg.cpp:40
+#: rc.cpp:99 advanced/nfs/nfshostdlg.cpp:40
 msgid "Host Properties"
 msgstr "主機屬性"
 
 #. i18n: file: advanced/nfs/hostprops.ui:67
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:103
+#: rc.cpp:102
 msgid "&Name/address:"
 msgstr "名稱/位址(&N):"
 
 #. i18n: file: advanced/nfs/hostprops.ui:107
 #. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#: rc.cpp:106
+#: rc.cpp:105
 msgid ""
 "<b>Name / Address field</b>\n"
 "<p>\n"
@@ -319,13 +319,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:115
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:132
+#: rc.cpp:131
 msgid "&Public access"
 msgstr "公眾存取(&P)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:122
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:135
+#: rc.cpp:134
 msgid ""
 "<b>Public access</b>\n"
 "<p>\n"
@@ -343,7 +343,7 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:140
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:142
+#: rc.cpp:141
 msgid "Options"
 msgstr ""
 
@@ -355,13 +355,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:264
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:145 rc.cpp:2803
+#: rc.cpp:144 rc.cpp:2497
 msgid "&Writable"
 msgstr "可寫入(&W)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:166
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:148
+#: rc.cpp:147
 msgid ""
 "<b>Writable</b>\n"
 "<p>\n"
@@ -381,13 +381,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:174
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:157
+#: rc.cpp:156
 msgid "&Insecure"
 msgstr "不安全(&I)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:183
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:160
+#: rc.cpp:159
 msgid ""
 "<b>Insecure</b>\n"
 "<p>\n"
@@ -408,13 +408,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:191
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:169
+#: rc.cpp:168
 msgid "&Sync"
 msgstr "同步化(&S)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:200
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:172
+#: rc.cpp:171
 msgid ""
 "<b>Sync</b>\n"
 "<p>\n"
@@ -438,13 +438,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:211
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:181
+#: rc.cpp:180
 msgid "No w&delay"
 msgstr "不容許寫入延遲(&D)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:216
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:184
+#: rc.cpp:183
 msgid ""
 "<b>No wdelay</b>\n"
 "<p>\n"
@@ -465,13 +465,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:224
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:189
+#: rc.cpp:188
 msgid "No &hide"
 msgstr "不隱藏(&H)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:242
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:192
+#: rc.cpp:191
 msgid ""
 "<b>No hide</b>\n"
 "<p>\n"
@@ -528,13 +528,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:250
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:210
+#: rc.cpp:209
 msgid "No su&btree check"
 msgstr "不作子樹檢查(&B)"
 
 #. i18n: file: advanced/nfs/hostprops.ui:268
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:213
+#: rc.cpp:212
 msgid ""
 "<b>No subtree check</b>\n"
 "<p>\n"
@@ -596,13 +596,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:276
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:231
+#: rc.cpp:230
 msgid "Insecure loc&ks"
 msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:285
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:234
+#: rc.cpp:233
 msgid ""
 "<b>Insecure locks</b>\n"
 "<p>\n"
@@ -621,19 +621,19 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:303
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:243
+#: rc.cpp:242
 msgid "User Mapping"
 msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:323
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:246
+#: rc.cpp:245
 msgid "All s&quash"
 msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:328
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:249
+#: rc.cpp:248
 msgid ""
 "<b>All squash</b>\n"
 "<p>\n"
@@ -643,13 +643,13 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:336
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:254
+#: rc.cpp:253
 msgid "No &root squash"
 msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:346
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:257
+#: rc.cpp:256
 msgid ""
 "<b>No root squash</b>\n"
 "<p>\n"
@@ -665,7 +665,7 @@ msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:362
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:267
+#: rc.cpp:266
 msgid "Anonym. &UID:"
 msgstr ""
 
@@ -677,7 +677,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel)
 #. i18n: file: advanced/nfs/hostprops.ui:414
 #. i18n: ectx: property (whatsThis), widget (QLabel)
-#: rc.cpp:270 rc.cpp:279
+#: rc.cpp:269 rc.cpp:278
 msgid ""
 "<b>Anonym. UID/GID</b> <p> These options explicitly set the uid and gid of "
 "the anonymous account. This option is primarily useful for PC/NFS clients, "
@@ -692,19 +692,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLineEdit)
 #. i18n: file: advanced/nfs/hostprops.ui:436
 #. i18n: ectx: property (text), widget (QLineEdit)
-#: rc.cpp:273 rc.cpp:282
+#: rc.cpp:272 rc.cpp:281
 msgid "FF"
 msgstr ""
 
 #. i18n: file: advanced/nfs/hostprops.ui:408
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:276
+#: rc.cpp:275
 msgid "Anonym. &GID:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:16
 #. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:285
+#: rc.cpp:284
 msgid "Join Domain"
 msgstr ""
 
@@ -712,36 +712,32 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:240
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1094
-#. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:253
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:374
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:67
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:144
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:131
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2565
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:61
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:240
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1094
-#. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:253
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:374
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:67
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:144
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:131
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2565
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:288 rc.cpp:344 rc.cpp:551 rc.cpp:596 rc.cpp:653 rc.cpp:662
-#: rc.cpp:815 rc.cpp:2764
+#: rc.cpp:287 rc.cpp:343 rc.cpp:388 rc.cpp:445 rc.cpp:454 rc.cpp:511
+#: rc.cpp:2458
 msgid "&OK"
 msgstr ""
 
@@ -749,78 +745,74 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:257
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1108
-#. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:267
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:388
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:84
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:161
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:147
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2578
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:78
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:257
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1108
-#. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:267
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:388
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:84
 #. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:161
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:147
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2578
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:292 rc.cpp:347 rc.cpp:554 rc.cpp:599 rc.cpp:656 rc.cpp:665
-#: rc.cpp:819 rc.cpp:2767
+#: rc.cpp:291 rc.cpp:346 rc.cpp:391 rc.cpp:448 rc.cpp:457 rc.cpp:514
+#: rc.cpp:2461
 msgid "&Cancel"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:109
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:296
+#: rc.cpp:295
 msgid "&Verify:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:120
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:299
+#: rc.cpp:298
 msgid "&Password:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:131
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:302
+#: rc.cpp:301
 msgid "&Username:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:142
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:305
+#: rc.cpp:304
 msgid "Domain co&ntroller:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/joindomaindlg.ui:153
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:308
+#: rc.cpp:307
 msgid "&Domain:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:16
 #. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:311
+#: rc.cpp:310
 msgid "Select Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/userselectdlg.ui:36
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:314
+#: rc.cpp:313
 msgid "Select &Users"
 msgstr ""
 
@@ -856,8 +848,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTable)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:568
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:317 rc.cpp:671 rc.cpp:930 rc.cpp:960 rc.cpp:990 rc.cpp:1011
-#: rc.cpp:2169 rc.cpp:2304
+#: rc.cpp:316 rc.cpp:463 rc.cpp:624 rc.cpp:654 rc.cpp:684 rc.cpp:705
+#: rc.cpp:1863 rc.cpp:1998
 msgid "Name"
 msgstr ""
 
@@ -877,7 +869,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (K3ListView, unixUsersListView)
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:77
 #. i18n: ectx: property (text), widget (QTable)
-#: rc.cpp:320 rc.cpp:993 rc.cpp:1014 rc.cpp:2172
+#: rc.cpp:319 rc.cpp:687 rc.cpp:708 rc.cpp:1866
 msgid "UID"
 msgstr ""
 
@@ -893,7 +885,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QListView)
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:82
 #. i18n: ectx: property (text), widget (QTable)
-#: rc.cpp:323 rc.cpp:674 rc.cpp:2175
+#: rc.cpp:322 rc.cpp:466 rc.cpp:1869
 msgid "GID"
 msgstr ""
 
@@ -905,7 +897,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QButtonGroup)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:201
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:326 rc.cpp:677
+#: rc.cpp:325 rc.cpp:469
 msgid "Acc&ess"
 msgstr ""
 
@@ -917,7 +909,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:226
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:329 rc.cpp:680
+#: rc.cpp:328 rc.cpp:472
 msgid "&Default"
 msgstr ""
 
@@ -929,7 +921,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:248
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:332 rc.cpp:683
+#: rc.cpp:331 rc.cpp:475
 msgid "&Read access"
 msgstr ""
 
@@ -941,7 +933,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:267
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:335 rc.cpp:686
+#: rc.cpp:334 rc.cpp:478
 msgid "&Write access"
 msgstr ""
 
@@ -953,7 +945,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:286
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:338 rc.cpp:689
+#: rc.cpp:337 rc.cpp:481
 msgid "&Admin access"
 msgstr ""
 
@@ -965,606 +957,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:305
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:341 rc.cpp:692
+#: rc.cpp:340 rc.cpp:484
 msgid "&No access at all"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:37
-#. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:350
-msgid "Printer Settings"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:58
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:79
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:47
-#. i18n: ectx: attribute (title), widget (QWidget, baseTab)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:58
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:79
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:47
-#. i18n: ectx: attribute (title), widget (QWidget, baseTab)
-#: rc.cpp:353 rc.cpp:846 rc.cpp:2205
-msgid "&Base Settings"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:111
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:100
-#. i18n: ectx: property (text), widget (QLabel, directoryPixLbl)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:111
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:100
-#. i18n: ectx: property (text), widget (QLabel, directoryPixLbl)
-#: rc.cpp:356 rc.cpp:2208
-msgid "Pixmap"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:127
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:359
-msgid "Pr&inter"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:163
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:362
-msgid "Pa&th:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:174
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:365
-msgid "&Queue:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:207
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:368
-msgid "Sha&re all printers"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:223
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:371
-msgid "I&dentifier"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:240
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:154
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:240
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:154
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:374 rc.cpp:729
-msgid "&Name:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:251
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:377
-msgid "Comm&ent:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:274
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:380
-msgid "Main Properties"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:291
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:391
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:295
-#. i18n: ectx: property (text), widget (QCheckBox, availableBaseChk)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:291
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:391
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:295
-#. i18n: ectx: property (text), widget (QCheckBox, availableBaseChk)
-#: rc.cpp:383 rc.cpp:794 rc.cpp:2241
-msgid "A&vailable"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:299
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:368
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:288
-#. i18n: ectx: property (text), widget (QCheckBox, browseableBaseChk)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:299
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:368
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:288
-#. i18n: ectx: property (text), widget (QCheckBox, browseableBaseChk)
-#: rc.cpp:386 rc.cpp:788 rc.cpp:2238
-msgid "Bro&wseable"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:307
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:281
-#. i18n: ectx: property (text), widget (QCheckBox, publicBaseChk)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:307
-#. i18n: ectx: property (text), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:281
-#. i18n: ectx: property (text), widget (QCheckBox, publicBaseChk)
-#: rc.cpp:389 rc.cpp:2235
-msgid "Pub&lic"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:336
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:392
-msgid "&Printing"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:369
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:395
-msgid "Printer dri&ver:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:390
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:398
-msgid "Print&er driver location:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:406
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:401
-msgid "PostScr&ipt"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:414
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:404
-msgid "Printin&g:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:423
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:407
-msgid "sysv"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:428
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:410
-msgid "aix"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:433
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:413
-msgid "hpux"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:438
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:416
-msgid "bsd"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:443
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:419
-msgid "qnx"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:448
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:422
-msgid "plp"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:453
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:425
-msgid "lprng"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:458
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:428
-msgid "softq"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:463
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:431
-msgid "cups"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:468
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:434
-msgid "nt"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:473
-#. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:437
-msgid "os2"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:485
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:440
-msgid "Max reported print &jobs:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:496
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:443
-msgid "Ma&x print jobs:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:550
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:446
-msgid "Use c&lient driver"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:558
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:449
-msgid "De&fault devmode"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:568
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:322
-#. i18n: ectx: attribute (title), widget (QWidget, securityTab)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:568
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:322
-#. i18n: ectx: attribute (title), widget (QWidget, securityTab)
-#: rc.cpp:452 rc.cpp:2244
-msgid "&Security"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:579
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:439
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:579
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:439
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: rc.cpp:455 rc.cpp:2277
-msgid "Hosts &deny:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:585
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:593
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:623
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:654
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:219
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:249
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:413
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsDenyEdit)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:436
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel6)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:585
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:593
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:623
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:654
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:219
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:249
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:413
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsDenyEdit)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:436
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel6)
-#: rc.cpp:458 rc.cpp:461 rc.cpp:473 rc.cpp:479 rc.cpp:745 rc.cpp:754
-#: rc.cpp:2265 rc.cpp:2274
-msgid ""
-"The opposite of hosts allow - hosts listed here are NOT permitted access to "
-"services unless the specific services have their own lists to override this "
-"one. Where the lists conflict, the allow list takes precedence."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:601
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:615
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:231
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:267
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:420
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:452
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsAllowEdit)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:952
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:968
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:984
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1000
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1187
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1203
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1219
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1331
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1430
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:601
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:615
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:231
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:267
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:420
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:452
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsAllowEdit)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:952
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:968
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:984
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1000
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1187
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1203
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1219
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_3)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1331
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1430
-#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2_2)
-#: rc.cpp:464 rc.cpp:470 rc.cpp:748 rc.cpp:760 rc.cpp:2268 rc.cpp:2280
-#: rc.cpp:2383 rc.cpp:2389 rc.cpp:2395 rc.cpp:2401 rc.cpp:2434 rc.cpp:2440
-#: rc.cpp:2446 rc.cpp:2470 rc.cpp:2494
-msgid ""
-"This parameter is a comma, space, or tab delimited set of hosts which are "
-"permitted to access a service."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:609
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:467
-msgid "Hosts a&llow:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:648
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:476
-msgid "P&rinter admin:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:662
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:342
-#. i18n: ectx: property (text), widget (QLabel, guestAccountLbl)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:662
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:342
-#. i18n: ectx: property (text), widget (QLabel, guestAccountLbl)
-#: rc.cpp:482 rc.cpp:2253
-msgid "&Guest account:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:668
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:285
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:339
-#. i18n: ectx: property (whatsThis), widget (QLabel, guestAccountLbl)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:668
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:285
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:339
-#. i18n: ectx: property (whatsThis), widget (QLabel, guestAccountLbl)
-#: rc.cpp:485 rc.cpp:766 rc.cpp:2250
-msgid ""
-"This is a username which will be used for access to services which are "
-"specified as guest ok. Whatever privileges this user has will be available "
-"to any client connecting to the guest service. Typically this user will "
-"exist in the password file, but will not have a valid login. The user "
-"account \\\"ftp\\\" is often a good choice for this parameter. If a username "
-"is specified in a given service, the specified username overrides this one."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:700
-#. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:488
-msgid "Co&mmands"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:717
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:491
-msgid "Pr&int command:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:733
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:494
-msgid "lpq comma&nd:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:754
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:497
-msgid "lprm comman&d:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:775
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:500
-msgid "lp&resume:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:786
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:503
-msgid "&queuepause:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:797
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:506
-msgid "&lppause:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:818
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:509
-msgid "qu&eueresume:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:848
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:806
-#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:848
-#. i18n: ectx: attribute (title), widget (QWidget)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:806
-#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: rc.cpp:512 rc.cpp:2367
-msgid "&Advanced"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:859
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:515
-msgid "Miscella&neous"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:886
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:518
-msgid "p&reexec:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:897
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:521
-msgid "root pr&eexec:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:918
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:524
-msgid "root postexec:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:929
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:527
-msgid "poste&xec:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:959
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:530
-msgid "Tunin&g"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:984
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:533
-msgid "M&in print space:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1008
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2512
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_2_2_2_2)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1008
-#. i18n: ectx: property (text), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2512
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_2_2_2_2)
-#: rc.cpp:536 rc.cpp:1270
-msgid "kB"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1019
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:539
-msgid "&Logging"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1036
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:542
-msgid "S&tatus"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1063
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:222
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:343
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:2539
-#. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1063
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:222
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:343
-#. i18n: ectx: property (text), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:2539
-#. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
-#: rc.cpp:545 rc.cpp:590 rc.cpp:647 rc.cpp:2758
-msgid "&Help"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1066
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:225
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:346
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:2542
-#. i18n: ectx: property (shortcut), widget (QPushButton, buttonHelp)
-#. i18n: file: advanced/kcm_sambaconf/kcmprinterdlg.ui:1066
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:225
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:346
-#. i18n: ectx: property (accel), widget (QPushButton)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:2542
-#. i18n: ectx: property (shortcut), widget (QPushButton, buttonHelp)
-#: rc.cpp:548 rc.cpp:593 rc.cpp:650 rc.cpp:2761
-msgid "F1"
-msgstr ""
-
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:37
 #. i18n: ectx: property (windowTitle), widget (QDialog)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5060
@@ -1573,31 +969,31 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5060
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox7)
-#: rc.cpp:557 rc.cpp:1672
+#: rc.cpp:349 rc.cpp:1366
 msgid "Socket Options"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:560
+#: rc.cpp:352
 msgid "SO_SNDLOWAT:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:79
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:563
+#: rc.cpp:355
 msgid "IPTOS_THROUGHPUT"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:87
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:566
+#: rc.cpp:358
 msgid "SO_SNDBUF:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:95
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:569
+#: rc.cpp:361
 msgid "SO_KEEPALIVE"
 msgstr ""
 
@@ -1609,7 +1005,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5110
 #. i18n: ectx: property (text), widget (QCheckBox, SO_RCVBUFChk)
-#: rc.cpp:572 rc.cpp:1684
+#: rc.cpp:364 rc.cpp:1378
 msgid "SO_RCVBUF:"
 msgstr ""
 
@@ -1621,7 +1017,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5182
 #. i18n: ectx: property (text), widget (QCheckBox, SO_BROADCASTChk)
-#: rc.cpp:575 rc.cpp:1702
+#: rc.cpp:367 rc.cpp:1396
 msgid "SO_BROADCAST"
 msgstr ""
 
@@ -1633,49 +1029,81 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5103
 #. i18n: ectx: property (text), widget (QCheckBox, IPTOS_LOWDELAYChk)
-#: rc.cpp:578 rc.cpp:1681
+#: rc.cpp:370 rc.cpp:1375
 msgid "IPTOS_LOWDELAY"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:149
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:581
+#: rc.cpp:373
 msgid "TCP_NODELAY"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:157
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:584
+#: rc.cpp:376
 msgid "SO_RCVLOWAT:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:587
+#: rc.cpp:379
 msgid "SO_REUSEADDR"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:222
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:343
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:2539
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
+#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:222
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:343
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:2539
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
+#: rc.cpp:382 rc.cpp:439 rc.cpp:2452
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:225
+#. i18n: ectx: property (accel), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:346
+#. i18n: ectx: property (accel), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:2542
+#. i18n: ectx: property (shortcut), widget (QPushButton, buttonHelp)
+#. i18n: file: advanced/kcm_sambaconf/socketoptionsdlg.ui:225
+#. i18n: ectx: property (accel), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:346
+#. i18n: ectx: property (accel), widget (QPushButton)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:2542
+#. i18n: ectx: property (shortcut), widget (QPushButton, buttonHelp)
+#: rc.cpp:385 rc.cpp:442 rc.cpp:2455
+msgid "F1"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:16
 #. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:602
+#: rc.cpp:394
 msgid "Access Modifiers"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:34
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:605
+#: rc.cpp:397
 msgid "Access Permissions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:103
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:608
+#: rc.cpp:400
 msgid "Others"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:115
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:611
+#: rc.cpp:403
 msgid "Read"
 msgstr ""
 
@@ -1687,13 +1115,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2274
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:615 rc.cpp:2707
+#: rc.cpp:407 rc.cpp:2401
 msgid "Exec"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:151
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:618
+#: rc.cpp:410
 msgid "Write"
 msgstr ""
 
@@ -1705,7 +1133,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:603
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:627 rc.cpp:2325
+#: rc.cpp:419 rc.cpp:2019
 msgid "Owner"
 msgstr ""
 
@@ -1717,286 +1145,109 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:608
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:631 rc.cpp:2328
+#: rc.cpp:423 rc.cpp:2022
 msgid "Group"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:283
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:635
+#: rc.cpp:427
 msgid "Sticky"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:295
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:638
+#: rc.cpp:430
 msgid "Set GID"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:307
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:641
+#: rc.cpp:433
 msgid "Set UID"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/filemodedlg.ui:319
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:644
+#: rc.cpp:436
 msgid "Special"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:16
 #. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:659
+#: rc.cpp:451
 msgid "Select Groups"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:668
+#: rc.cpp:460
 msgid "Selec&t Groups"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:318
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:695
+#: rc.cpp:487
 msgid "&Kind of Group"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:343
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:698
+#: rc.cpp:490
 msgid "&UNIX group"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:368
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:701
+#: rc.cpp:493
 msgid "NI&S group"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/groupselectdlg.ui:393
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:704
+#: rc.cpp:496
 msgid "UNIX and NIS gr&oup"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:72
-#. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:708
-msgid "Not share&d"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:86
-#. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:711
-msgid "&Shared"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:103
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:714
-msgid "Bas&e Options"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:124
-#. i18n: ectx: property (toolTip), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:623
-#. i18n: ectx: property (text), widget (K3ListView, shareListView)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:744
-#. i18n: ectx: property (text), widget (K3ListView, printerListView)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:124
-#. i18n: ectx: property (toolTip), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:623
-#. i18n: ectx: property (text), widget (K3ListView, shareListView)
-#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:744
-#. i18n: ectx: property (text), widget (K3ListView, printerListView)
-#: rc.cpp:717 rc.cpp:936 rc.cpp:966
-msgid "Comment"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:127
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:184
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:127
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:184
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#: rc.cpp:720 rc.cpp:739
-msgid ""
-"This is a text field that is seen next to a share when a client queries the "
-"server, either via the network neighborhood or via net view, to list what "
-"shares are available."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:139
-#. i18n: ectx: property (toolTip), widget (QLineEdit)
-#: rc.cpp:723
-msgid "Name of the share"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:142
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:166
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:142
-#. i18n: ectx: property (whatsThis), widget (QLineEdit)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:166
-#. i18n: ectx: property (whatsThis), widget (QLabel)
-#: rc.cpp:726 rc.cpp:733
-msgid "This is the name of the share"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:178
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:736
-msgid "Commen&t:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:198
-#. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:742
-msgid "Security Options"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:243
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:751
-msgid "Hosts den&y:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:261
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:757
-msgid "&Hosts allow:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:279
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:763
-msgid "Guest &account:"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:297
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:769
-msgid "&Read only"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:300
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:772
-msgid ""
-"If this is checked, then users of a service may not create or modify files "
-"in the service's directory."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:312
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:775
-msgid "G&uests allowed"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:318
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:376
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, guestOnlyChk)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:519
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, onlyUserChk)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:318
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:376
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, guestOnlyChk)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:519
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, onlyUserChk)
-#: rc.cpp:779 rc.cpp:2256 rc.cpp:2295
-msgid ""
-"If this is checked , then no password is required to connect to the service. "
-"Privileges will be those of the guest account."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:333
-#. i18n: ectx: property (whatsThis), widget (QComboBox)
-#: rc.cpp:782
-msgid ""
-"This is a username which will be used for access this directory if guests "
-"are allowed"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:347
-#. i18n: ectx: property (title), widget (QGroupBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1970
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox9)
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:347
-#. i18n: ectx: property (title), widget (QGroupBox)
-#. i18n: file: advanced/kcm_sambaconf/share.ui:1970
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox9)
-#: rc.cpp:785 rc.cpp:2635
-msgid "Other Options"
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:371
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:791
-msgid ""
-"This controls whether this share is seen in the list of available shares in "
-"a net view and in the browse list."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:394
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:797
-msgid ""
-"Checkbox lets you \\\"turn off\\\" a service. If not checked, then ALL "
-"attempts to connect to the service will fail. Such failures are logged."
-msgstr ""
-
-#. i18n: file: advanced/kcm_sambaconf/konqinterface.ui:435
-#. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:800
-msgid "More Opt&ions"
-msgstr ""
-
 #. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:16
-#. i18n: ectx: property (windowTitle), widget (QDialog)
-#: rc.cpp:803
+#. i18n: ectx: property (windowTitle), widget (QDialog, ExpertUserDlg)
+#: rc.cpp:499
 msgid "User Settings"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:38
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:806
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:33
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12)
+#: rc.cpp:502
 msgid "&Valid users:"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:62
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:809
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:57
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12_2_2_2)
+#: rc.cpp:505
 msgid "&Admin users:"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:86
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:812
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:81
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12_2_2_2_2)
+#: rc.cpp:508
 msgid "&Invalid users:"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:202
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:823
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:186
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12_2)
+#: rc.cpp:517
 msgid "&Write list:"
 msgstr ""
 
-#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:231
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:826
+#. i18n: file: advanced/kcm_sambaconf/expertuserdlg.ui:213
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12_2_2)
+#: rc.cpp:520
 msgid "&Read list:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:72
 #. i18n: ectx: property (whatsThis), widget (QTabWidget, mainTab)
-#: rc.cpp:829
+#: rc.cpp:523
 msgid ""
 "<qt>\n"
 "Here you can edit the Samba users, stored in the smbpasswd file.\n"
@@ -2017,57 +1268,69 @@ msgid ""
 "</qt>"
 msgstr ""
 
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:79
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:47
+#. i18n: ectx: attribute (title), widget (QWidget, baseTab)
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:79
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:47
+#. i18n: ectx: attribute (title), widget (QWidget, baseTab)
+#: rc.cpp:540 rc.cpp:1899
+msgid "&Base Settings"
+msgstr ""
+
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:102
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_6)
-#: rc.cpp:849
+#: rc.cpp:543
 msgid "Samba config file:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:121
 #. i18n: ectx: property (text), widget (QPushButton, loadBtn)
-#: rc.cpp:852
+#: rc.cpp:546
 msgid "&Load"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:133
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: rc.cpp:855
+#: rc.cpp:549
 msgid "Server Identification"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:160
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_2_2)
-#: rc.cpp:858
+#: rc.cpp:552
 msgid "Wor&kgroup:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:176
 #. i18n: ectx: property (toolTip), widget (KLineEdit, workgroupEdit)
-#: rc.cpp:861
+#: rc.cpp:555
 msgid "Enter here the name of your workgroup/domain."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:200
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
-#: rc.cpp:864
+#: rc.cpp:558
 msgid "Server strin&g:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:216
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_6)
-#: rc.cpp:867
+#: rc.cpp:561
 msgid "NetBIOS name:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:235
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, securityLevelBtnGrp)
-#: rc.cpp:870
+#: rc.cpp:564
 msgid "Securit&y Level"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:276
 #. i18n: ectx: property (text), widget (QRadioButton, shareRadio)
-#: rc.cpp:873
+#: rc.cpp:567
 msgid "Share"
 msgstr ""
 
@@ -2111,14 +1374,14 @@ msgstr ""
 #. i18n: ectx: property (shortcut), widget (QCheckBox, bindInterfacesOnlyChk)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5655
 #. i18n: ectx: property (shortcut), widget (QCheckBox, unixExtensionsChk)
-#: rc.cpp:876 rc.cpp:882 rc.cpp:888 rc.cpp:897 rc.cpp:951 rc.cpp:1045
-#: rc.cpp:1051 rc.cpp:1063 rc.cpp:1084 rc.cpp:1794
+#: rc.cpp:570 rc.cpp:576 rc.cpp:582 rc.cpp:591 rc.cpp:645 rc.cpp:739
+#: rc.cpp:745 rc.cpp:757 rc.cpp:778 rc.cpp:1488
 msgid "Alt+"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:292
 #. i18n: ectx: property (text), widget (QRadioButton, userRadio)
-#: rc.cpp:879
+#: rc.cpp:573
 msgid "User"
 msgstr ""
 
@@ -2130,25 +1393,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, serverRadio)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2279
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox13_2)
-#: rc.cpp:885 rc.cpp:1225
+#: rc.cpp:579 rc.cpp:919
 msgid "Server"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:318
 #. i18n: ectx: property (text), widget (QRadioButton, domainRadio)
-#: rc.cpp:891
+#: rc.cpp:585
 msgid "Domai&n"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:328
 #. i18n: ectx: property (text), widget (QRadioButton, adsRadio)
-#: rc.cpp:894
+#: rc.cpp:588
 msgid "ADS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:349
 #. i18n: ectx: property (text), widget (QLabel, securityLevelHelpLbl)
-#: rc.cpp:900
+#: rc.cpp:594
 msgid ""
 "Use the <i>share</i> security level if you have a home network or a small "
 "office network.<br> It allows everyone to read all share names before a "
@@ -2157,56 +1420,68 @@ msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:374
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox12)
-#: rc.cpp:903
+#: rc.cpp:597
 msgid "Further Options"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:386
 #. i18n: ectx: property (text), widget (QLabel, passwordServerLabel)
-#: rc.cpp:906
+#: rc.cpp:600
 msgid "Password server address/name:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:412
 #. i18n: ectx: property (text), widget (QLabel, realmLabel)
-#: rc.cpp:909
+#: rc.cpp:603
 msgid "Real&m:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:441
 #. i18n: ectx: property (text), widget (QCheckBox, allowGuestLoginsChk)
-#: rc.cpp:912
+#: rc.cpp:606
 msgid "Allo&w guest logins"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:477
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_5)
-#: rc.cpp:915
+#: rc.cpp:609
 msgid "Guest acc&ount:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:521
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox10)
-#: rc.cpp:918
+#: rc.cpp:612
 msgid "Help"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:536
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_3)
-#: rc.cpp:921
+#: rc.cpp:615
 msgid "For detailed help about every option please look at:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:555
 #. i18n: ectx: property (text), widget (KUrlLabel, KUrlLabel1)
-#: rc.cpp:924
+#: rc.cpp:618
 msgid "man:smb.conf"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:579
 #. i18n: ectx: attribute (title), widget (QWidget, shareTab)
-#: rc.cpp:927
+#: rc.cpp:621
 msgid "&Shares"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:623
+#. i18n: ectx: property (text), widget (K3ListView, shareListView)
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:744
+#. i18n: ectx: property (text), widget (K3ListView, printerListView)
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:623
+#. i18n: ectx: property (text), widget (K3ListView, shareListView)
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:744
+#. i18n: ectx: property (text), widget (K3ListView, printerListView)
+#: rc.cpp:630 rc.cpp:660
+msgid "Comment"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:628
@@ -2217,81 +1492,81 @@ msgstr ""
 #. i18n: ectx: property (text), widget (K3ListView, shareListView)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:749
 #. i18n: ectx: property (text), widget (K3ListView, printerListView)
-#: rc.cpp:939 rc.cpp:969
+#: rc.cpp:633 rc.cpp:663
 #, fuzzy
 msgid "Properties"
 msgstr "主機屬性"
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:653
 #. i18n: ectx: property (text), widget (QPushButton, editDefaultShareBtn)
-#: rc.cpp:942
+#: rc.cpp:636
 msgid "Edit Defau&lts..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:673
 #. i18n: ectx: property (text), widget (QPushButton, addShareBtn)
-#: rc.cpp:945
+#: rc.cpp:639
 msgid "Add &New Share..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:680
 #. i18n: ectx: property (text), widget (QPushButton, editShareBtn)
-#: rc.cpp:948
+#: rc.cpp:642
 msgid "Edit Share..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:690
 #. i18n: ectx: property (text), widget (QPushButton, removeShareBtn)
-#: rc.cpp:954
+#: rc.cpp:648
 msgid "Re&move Share"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:700
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:957
+#: rc.cpp:651
 msgid "Prin&ters"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:739
 #. i18n: ectx: property (text), widget (K3ListView, printerListView)
-#: rc.cpp:963
+#: rc.cpp:657
 msgid "Printer"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:774
 #. i18n: ectx: property (text), widget (QPushButton, editDefaultPrinterBtn)
-#: rc.cpp:972
+#: rc.cpp:666
 msgid "Edit Defau&lts"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:794
 #. i18n: ectx: property (text), widget (QPushButton, addPrinterBtn)
-#: rc.cpp:975
+#: rc.cpp:669
 msgid "Add Ne&w Printer"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:801
 #. i18n: ectx: property (text), widget (QPushButton, editPrinterBtn)
-#: rc.cpp:978
+#: rc.cpp:672
 msgid "Edit Pri&nter"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:808
 #. i18n: ectx: property (text), widget (QPushButton, removePrinterBtn)
-#: rc.cpp:981
+#: rc.cpp:675
 msgid "Re&move Printer"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:818
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:984 advanced/kcm_sambaconf/printerdlgimpl.cpp:113
+#: rc.cpp:678 advanced/kcm_sambaconf/printerdlgimpl.cpp:113
 #: advanced/kcm_sambaconf/sharedlgimpl.cpp:139
 msgid "&Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:856
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox51_2)
-#: rc.cpp:987
+#: rc.cpp:681
 msgid "Sa&mba Users"
 msgstr ""
 
@@ -2307,44 +1582,44 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, clientSigningCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2337
 #. i18n: ectx: property (text), item, widget (QComboBox, serverSigningCombo)
-#: rc.cpp:996 rc.cpp:1204 rc.cpp:1240
+#: rc.cpp:690 rc.cpp:898 rc.cpp:934
 msgid "Disabled"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:899
 #. i18n: ectx: property (text), widget (K3ListView, sambaUsersListView)
-#: rc.cpp:999
+#: rc.cpp:693
 msgid "No Password"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:949
 #. i18n: ectx: property (text), widget (QPushButton, addSambaUserBtn)
-#: rc.cpp:1002
+#: rc.cpp:696
 #, fuzzy
 msgid "Add"
 msgstr "新增(&D)..."
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1006
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox52_2)
-#: rc.cpp:1008
+#: rc.cpp:702
 msgid "UNI&X Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1069
 #. i18n: ectx: property (text), widget (QPushButton, sambaUserPasswordBtn)
-#: rc.cpp:1017
+#: rc.cpp:711
 msgid "Chan&ge Password..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1079
 #. i18n: ectx: property (text), widget (QPushButton, joinADomainBtn)
-#: rc.cpp:1020
+#: rc.cpp:714
 msgid "&Join Domain"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1102
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
-#: rc.cpp:1023
+#: rc.cpp:717
 msgid "Advan&ced"
 msgstr ""
 
@@ -2356,7 +1631,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_4)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:887
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_4)
-#: rc.cpp:1026 rc.cpp:2370
+#: rc.cpp:720 rc.cpp:2064
 msgid ""
 "Here you can change advanced options of the SAMBA server.\n"
 "Only change something if you know what you are doing."
@@ -2370,7 +1645,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, advancedDumpTab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:900
 #. i18n: ectx: attribute (title), widget (QWidget, advancedDumpTabPage)
-#: rc.cpp:1030 rc.cpp:2374
+#: rc.cpp:724 rc.cpp:2068
 msgid "Advanced Dump"
 msgstr ""
 
@@ -2382,7 +1657,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:910
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1033 rc.cpp:2377 advanced/kcm_sambaconf/kcmsambaconf.cpp:320
+#: rc.cpp:727 rc.cpp:2071 advanced/kcm_sambaconf/kcmsambaconf.cpp:320
 msgid "Security"
 msgstr ""
 
@@ -2398,43 +1673,43 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox52)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox59)
-#: rc.cpp:1036 rc.cpp:1396 rc.cpp:1534
+#: rc.cpp:730 rc.cpp:1090 rc.cpp:1228
 msgid "&General"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1292
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox66)
-#: rc.cpp:1039
+#: rc.cpp:733
 msgid "PAM"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1316
 #. i18n: ectx: property (text), widget (QCheckBox, obeyPamRestrictionsChk)
-#: rc.cpp:1042
+#: rc.cpp:736
 msgid "Obey PAM restrictions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1329
 #. i18n: ectx: property (text), widget (QCheckBox, pamPasswordChangeChk)
-#: rc.cpp:1048
+#: rc.cpp:742
 msgid "PAM password change"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1342
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox67)
-#: rc.cpp:1054
+#: rc.cpp:748
 msgid "Other Switches"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1366
 #. i18n: ectx: property (text), widget (QCheckBox, allowTrustedDomainsChk)
-#: rc.cpp:1057
+#: rc.cpp:751
 msgid "A&llow trusted domains"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1373
 #. i18n: ectx: property (text), widget (QCheckBox, paranoidServerSecurityChk)
-#: rc.cpp:1060
+#: rc.cpp:754
 msgid "Paranoid server security"
 msgstr ""
 
@@ -2450,115 +1725,115 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox36_2)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1469
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox58)
-#: rc.cpp:1066 rc.cpp:1264 rc.cpp:2506
+#: rc.cpp:760 rc.cpp:958 rc.cpp:2200
 msgid "General"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1413
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2_2_2_2_2)
-#: rc.cpp:1069
+#: rc.cpp:763
 msgid "Auth methods:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1429
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2_2_2_2)
-#: rc.cpp:1072
+#: rc.cpp:766
 msgid "Root director&y:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1442
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_5_2)
-#: rc.cpp:1075
+#: rc.cpp:769
 msgid "I&nterfaces:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1464
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_5_2)
-#: rc.cpp:1078
+#: rc.cpp:772
 msgid "Map to guest:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1477
 #. i18n: ectx: property (text), widget (QCheckBox, bindInterfacesOnlyChk)
-#: rc.cpp:1081
+#: rc.cpp:775
 msgid "Bind interfaces only"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1488
 #. i18n: ectx: property (text), item, widget (QComboBox, mapToGuestCombo)
-#: rc.cpp:1087
+#: rc.cpp:781
 msgid "Never"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1493
 #. i18n: ectx: property (text), item, widget (QComboBox, mapToGuestCombo)
-#: rc.cpp:1090
+#: rc.cpp:784
 msgid "Bad User"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1498
 #. i18n: ectx: property (text), item, widget (QComboBox, mapToGuestCombo)
-#: rc.cpp:1093
+#: rc.cpp:787
 msgid "Bad Password"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1509
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_3_2)
-#: rc.cpp:1096
+#: rc.cpp:790
 msgid "Hosts e&quiv:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1548
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_7_2)
-#: rc.cpp:1099
+#: rc.cpp:793
 msgid "Algorithmic rid base:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1584
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2_3_2_2)
-#: rc.cpp:1102
+#: rc.cpp:796
 msgid "Private dir:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1608
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1105
+#: rc.cpp:799
 msgid "Pass&word"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1614
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox75)
-#: rc.cpp:1108
+#: rc.cpp:802
 msgid "Samba Passwords"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1641
 #. i18n: ectx: property (text), widget (QCheckBox, encryptPasswordsChk)
-#: rc.cpp:1111
+#: rc.cpp:805
 msgid "E&ncrypt passwords"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1654
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2_2)
-#: rc.cpp:1114
+#: rc.cpp:808
 msgid "Smb passwd file:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1677
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_3_2)
-#: rc.cpp:1117
+#: rc.cpp:811
 msgid "Passdb bac&kend:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1707
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_3)
-#: rc.cpp:1120
+#: rc.cpp:814
 msgid "Passwd chat:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1723
 #. i18n: ectx: property (text), widget (QCheckBox, passwdChatDebugChk)
-#: rc.cpp:1123
+#: rc.cpp:817
 msgid "Passwd chat debug"
 msgstr ""
 
@@ -2598,141 +1873,141 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_5_2_4_2_2_2)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5981
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_5_4_2_2_2)
-#: rc.cpp:1126 rc.cpp:1147 rc.cpp:1339 rc.cpp:1345 rc.cpp:1357 rc.cpp:1360
-#: rc.cpp:1486 rc.cpp:1492 rc.cpp:1887
+#: rc.cpp:820 rc.cpp:841 rc.cpp:1033 rc.cpp:1039 rc.cpp:1051 rc.cpp:1054
+#: rc.cpp:1180 rc.cpp:1186 rc.cpp:1581
 msgctxt "seconds"
 msgid "Sec"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1743
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_3_3)
-#: rc.cpp:1129
+#: rc.cpp:823
 msgid "Passwd chat timeout:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1766
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox74)
-#: rc.cpp:1132
+#: rc.cpp:826
 msgid "Password"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1775
 #. i18n: ectx: property (text), widget (QCheckBox, nullPasswordsChk)
-#: rc.cpp:1135
+#: rc.cpp:829
 msgid "Nu&ll passwords"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1785
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_7)
-#: rc.cpp:1138
+#: rc.cpp:832
 msgid "Password level:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1811
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_3_2)
-#: rc.cpp:1141
+#: rc.cpp:835
 msgid "Min password length:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1834
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:1144
+#: rc.cpp:838
 msgid "Machine password timeout:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1880
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox73)
-#: rc.cpp:1150
+#: rc.cpp:844
 msgid "Migration"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1904
 #. i18n: ectx: property (text), widget (QCheckBox, updateEncryptedChk)
-#: rc.cpp:1153
+#: rc.cpp:847
 msgid "Update encr&ypted"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1914
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox76)
-#: rc.cpp:1156
+#: rc.cpp:850
 msgid "UNIX Passwords"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1941
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2_3_2)
-#: rc.cpp:1159
+#: rc.cpp:853
 msgid "Passwd program:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1964
 #. i18n: ectx: property (text), widget (QCheckBox, unixPasswordSyncChk)
-#: rc.cpp:1162
+#: rc.cpp:856
 msgid "UNI&X password sync"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:1991
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1165
+#: rc.cpp:859
 msgid "Userna&me"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2018
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_2_2)
-#: rc.cpp:1168
+#: rc.cpp:862
 msgid "User&name map:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2041
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_4_2)
-#: rc.cpp:1171
+#: rc.cpp:865
 msgid "Username &level:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2067
 #. i18n: ectx: property (text), widget (QCheckBox, hideLocalUsersChk)
-#: rc.cpp:1174
+#: rc.cpp:868
 msgid "Hide local users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2077
 #. i18n: ectx: property (text), widget (QCheckBox, restrictAnonymousChk)
-#: rc.cpp:1177
+#: rc.cpp:871
 msgid "Restrict anon&ymous"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2087
 #. i18n: ectx: property (text), widget (QCheckBox, useRhostsChk)
-#: rc.cpp:1180
+#: rc.cpp:874
 msgid "Use rhosts"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2124
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1183
+#: rc.cpp:877
 msgid "Authenticati&on"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2148
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox13)
-#: rc.cpp:1186
+#: rc.cpp:880
 msgid "Client"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2172
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_2_3)
-#: rc.cpp:1189
+#: rc.cpp:883
 msgid "C&lient signing:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2188
 #. i18n: ectx: property (text), widget (QCheckBox, clientPlaintextAuthChk)
-#: rc.cpp:1192
+#: rc.cpp:886
 msgid "Client plainte&xt authentication"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2198
 #. i18n: ectx: property (text), widget (QCheckBox, clientLanmanAuthChk)
-#: rc.cpp:1195
+#: rc.cpp:889
 msgid "Client lanman authentication"
 msgstr ""
 
@@ -2768,8 +2043,8 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, caseSensitiveCombo)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2069
 #. i18n: ectx: property (text), item, widget (QComboBox, strictLockingCombo)
-#: rc.cpp:1198 rc.cpp:1213 rc.cpp:1234 rc.cpp:1249 rc.cpp:1917 rc.cpp:1962
-#: rc.cpp:2602 rc.cpp:2665
+#: rc.cpp:892 rc.cpp:907 rc.cpp:928 rc.cpp:943 rc.cpp:1611 rc.cpp:1656
+#: rc.cpp:2296 rc.cpp:2359
 msgid "Auto"
 msgstr ""
 
@@ -2781,7 +2056,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, clientSigningCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2332
 #. i18n: ectx: property (text), item, widget (QComboBox, serverSigningCombo)
-#: rc.cpp:1201 rc.cpp:1237
+#: rc.cpp:895 rc.cpp:931
 msgid "Mandatory"
 msgstr ""
 
@@ -2809,7 +2084,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, caseSensitiveCombo)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2074
 #. i18n: ectx: property (text), item, widget (QComboBox, strictLockingCombo)
-#: rc.cpp:1207 rc.cpp:1243 rc.cpp:1911 rc.cpp:2058 rc.cpp:2605 rc.cpp:2668
+#: rc.cpp:901 rc.cpp:937 rc.cpp:1605 rc.cpp:1752 rc.cpp:2299 rc.cpp:2362
 msgid "Yes"
 msgstr ""
 
@@ -2837,85 +2112,91 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, caseSensitiveCombo)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2079
 #. i18n: ectx: property (text), item, widget (QComboBox, strictLockingCombo)
-#: rc.cpp:1210 rc.cpp:1246 rc.cpp:1914 rc.cpp:2061 rc.cpp:2608 rc.cpp:2671
+#: rc.cpp:904 rc.cpp:940 rc.cpp:1608 rc.cpp:1755 rc.cpp:2302 rc.cpp:2365
 msgid "No"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2243
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_2)
-#: rc.cpp:1216
+#: rc.cpp:910
 msgid "Client channel:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2259
 #. i18n: ectx: property (text), widget (QCheckBox, clientUseSpnegoChk)
-#: rc.cpp:1219
+#: rc.cpp:913
 msgid "Client use spnego"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2269
 #. i18n: ectx: property (text), widget (QCheckBox, clientNTLMv2AuthChk)
-#: rc.cpp:1222
+#: rc.cpp:916
 msgid "Client NTLMv&2 authentication"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2303
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_2_3_3)
-#: rc.cpp:1228
+#: rc.cpp:922
 msgid "Server signing:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2319
 #. i18n: ectx: property (text), widget (QCheckBox, lanmanAuthChk)
-#: rc.cpp:1231
+#: rc.cpp:925
 msgid "Lanman authentication"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2364
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_2_5)
-#: rc.cpp:1252
+#: rc.cpp:946
 msgid "Server channel:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2380
 #. i18n: ectx: property (text), widget (QCheckBox, useSpnegoChk)
-#: rc.cpp:1255
+#: rc.cpp:949
 msgid "Use sp&nego"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2390
 #. i18n: ectx: property (text), widget (QCheckBox, ntlmAuthChk)
-#: rc.cpp:1258
+#: rc.cpp:952
 msgid "NTLM authentication"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2421
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1261 advanced/kcm_sambaconf/kcmsambaconf.cpp:323
+#: rc.cpp:955 advanced/kcm_sambaconf/kcmsambaconf.cpp:323
 msgid "Logging"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2496
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_3_2_2_2_2)
-#: rc.cpp:1267
+#: rc.cpp:961
 msgid "L&og file:"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2512
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_2_2_2_2)
+#: rc.cpp:964
+msgid "kB"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2522
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_2_2_2_2)
-#: rc.cpp:1273
+#: rc.cpp:967
 msgid "Ma&x log size:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2535
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_3_2_2_2_2)
-#: rc.cpp:1276
+#: rc.cpp:970
 msgid "S&yslog:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2567
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_2_2_2_2)
-#: rc.cpp:1279
+#: rc.cpp:973
 msgid "Log &level:"
 msgstr ""
 
@@ -2931,25 +2212,25 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox49)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5632
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox70)
-#: rc.cpp:1282 rc.cpp:1426 rc.cpp:1782
+#: rc.cpp:976 rc.cpp:1120 rc.cpp:1476
 msgid "S&witches"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2620
 #. i18n: ectx: property (text), widget (QCheckBox, syslogOnlyChk)
-#: rc.cpp:1285
+#: rc.cpp:979
 msgid "Syslog o&nly"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2627
 #. i18n: ectx: property (text), widget (QCheckBox, statusChk)
-#: rc.cpp:1288
+#: rc.cpp:982
 msgid "Status"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2643
 #. i18n: ectx: property (text), widget (QCheckBox, timestampChk)
-#: rc.cpp:1291
+#: rc.cpp:985
 msgid "Ti&mestamp"
 msgstr ""
 
@@ -2961,19 +2242,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, microsecondsChk)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4252
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: rc.cpp:1294 rc.cpp:1558
+#: rc.cpp:988 rc.cpp:1252
 msgid "microseconds"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2669
 #. i18n: ectx: property (text), widget (QCheckBox, debugPidChk)
-#: rc.cpp:1297
+#: rc.cpp:991
 msgid "Debug pid"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2676
 #. i18n: ectx: property (text), widget (QCheckBox, debugUidChk)
-#: rc.cpp:1300
+#: rc.cpp:994
 msgid "Debu&g uid"
 msgstr ""
 
@@ -2985,195 +2266,195 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1579
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1303 rc.cpp:2536 advanced/kcm_sambaconf/kcmsambaconf.cpp:326
+#: rc.cpp:997 rc.cpp:2230 advanced/kcm_sambaconf/kcmsambaconf.cpp:326
 msgid "Tuning"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2712
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox37_2)
-#: rc.cpp:1306
+#: rc.cpp:1000
 msgid "Modules"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2733
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
-#: rc.cpp:1309
+#: rc.cpp:1003
 msgid "Pre&load modules:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2752
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox44)
-#: rc.cpp:1312
+#: rc.cpp:1006
 msgid "Switches"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2773
 #. i18n: ectx: property (text), widget (QCheckBox, getwdCacheChk)
-#: rc.cpp:1315
+#: rc.cpp:1009
 msgid "&Getwd cache"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2780
 #. i18n: ectx: property (text), widget (QCheckBox, useMmapChk)
-#: rc.cpp:1318
+#: rc.cpp:1012
 msgid "Use &mmap"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2787
 #. i18n: ectx: property (text), widget (QCheckBox, kernelChangeNotifyChk)
-#: rc.cpp:1321
+#: rc.cpp:1015
 msgid "Kernel change notif&y"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2794
 #. i18n: ectx: property (text), widget (QCheckBox, hostnameLookupsChk)
-#: rc.cpp:1324
+#: rc.cpp:1018
 msgid "H&ostname lookups"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2804
 #. i18n: ectx: property (text), widget (QCheckBox, readRawChk)
-#: rc.cpp:1327
+#: rc.cpp:1021
 msgid "Read ra&w"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2817
 #. i18n: ectx: property (text), widget (QCheckBox, writeRawChk)
-#: rc.cpp:1330
+#: rc.cpp:1024
 msgid "Write raw"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2830
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox45)
-#: rc.cpp:1333
+#: rc.cpp:1027
 msgid "Times"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2854
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_5)
-#: rc.cpp:1336
+#: rc.cpp:1030
 msgid "Change notify timeout:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2877
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_4)
-#: rc.cpp:1342
+#: rc.cpp:1036
 msgid "&Keepalive:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2914
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_2_3)
-#: rc.cpp:1348
+#: rc.cpp:1042
 msgctxt "minutes"
 msgid "Min"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2924
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2_3)
-#: rc.cpp:1351
+#: rc.cpp:1045
 msgid "Deadtime:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2944
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_4)
-#: rc.cpp:1354
+#: rc.cpp:1048
 msgid "Lp&q cache time:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:2984
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_4_2)
-#: rc.cpp:1363
+#: rc.cpp:1057
 msgid "&Name cache timeout:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3007
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox46)
-#: rc.cpp:1366
+#: rc.cpp:1060
 msgid "Sizes"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3013
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_2_2_5)
-#: rc.cpp:1369
+#: rc.cpp:1063
 msgid "Max disk size:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3033
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_3_2_2_3)
-#: rc.cpp:1372
+#: rc.cpp:1066
 msgctxt "mega byte"
 msgid "MB"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3056
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_2_2_2_2_3)
-#: rc.cpp:1375
+#: rc.cpp:1069
 msgid "Read si&ze:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3076
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_2_2_3_3)
-#: rc.cpp:1378
+#: rc.cpp:1072
 msgid "Stat cache size:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3099
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4_2_7_2_2_2)
-#: rc.cpp:1381
+#: rc.cpp:1075
 msgid "Ma&x xmit:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3125
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox47)
-#: rc.cpp:1384
+#: rc.cpp:1078
 msgid "Numbers"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3131
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_2_4)
-#: rc.cpp:1387
+#: rc.cpp:1081
 msgid "Max smbd processes:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3164
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_3_2_2_2_2_4)
-#: rc.cpp:1390
+#: rc.cpp:1084
 msgid "Max open files:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3204
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1393 advanced/kcm_sambaconf/kcmsambaconf.cpp:335
+#: rc.cpp:1087 advanced/kcm_sambaconf/kcmsambaconf.cpp:335
 msgid "Printing"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3216
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3)
-#: rc.cpp:1399
+#: rc.cpp:1093
 msgid "Total print &jobs:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3252
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox51)
-#: rc.cpp:1402
+#: rc.cpp:1096
 msgid "Drivers"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3276
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_4)
-#: rc.cpp:1405
+#: rc.cpp:1099
 msgid "OS&2 driver map:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3289
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3_4)
-#: rc.cpp:1408
+#: rc.cpp:1102
 msgid "Printcap na&me:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3313
 #. i18n: ectx: property (text), widget (QLabel, printerDriverLbl)
-#: rc.cpp:1411
+#: rc.cpp:1105
 msgid "Pri&nter driver file: "
 msgstr ""
 
@@ -3185,169 +2466,169 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox50)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6988
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1414 rc.cpp:2070 advanced/kcm_sambaconf/kcmsambaconf.cpp:356
+#: rc.cpp:1108 rc.cpp:1764 advanced/kcm_sambaconf/kcmsambaconf.cpp:356
 msgid "Commands"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3356
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_2)
-#: rc.cpp:1417
+#: rc.cpp:1111
 msgid "Enumports command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3369
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_3)
-#: rc.cpp:1420
+#: rc.cpp:1114
 msgid "Addprinter command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3382
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_2)
-#: rc.cpp:1423
+#: rc.cpp:1117
 msgid "Deleteprinter command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3428
 #. i18n: ectx: property (text), widget (QCheckBox, loadPrintersChk)
-#: rc.cpp:1429
+#: rc.cpp:1123
 msgid "L&oad printers"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3435
 #. i18n: ectx: property (text), widget (QCheckBox, disableSpoolssChk)
-#: rc.cpp:1432
+#: rc.cpp:1126
 msgid "Disab&le spools"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3442
 #. i18n: ectx: property (text), widget (QCheckBox, showAddPrinterWizardChk)
-#: rc.cpp:1435
+#: rc.cpp:1129
 msgid "Show add printer wi&zard"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3469
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1438
+#: rc.cpp:1132
 msgid "Domain"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3512
 #. i18n: ectx: property (text), widget (QCheckBox, localMasterChk)
-#: rc.cpp:1441
+#: rc.cpp:1135
 msgid "L&ocal master"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3519
 #. i18n: ectx: property (text), widget (QCheckBox, domainMasterChk)
-#: rc.cpp:1444
+#: rc.cpp:1138
 msgid "Domai&n master"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3526
 #. i18n: ectx: property (text), widget (QCheckBox, domainLogonsChk)
-#: rc.cpp:1447
+#: rc.cpp:1141
 msgid "Domain lo&gons"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3539
 #. i18n: ectx: property (text), widget (QCheckBox, preferredMasterChk)
-#: rc.cpp:1450
+#: rc.cpp:1144
 msgid "Preferred &master"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3552
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:1453
+#: rc.cpp:1147
 msgid "OS &level:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3568
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_3_3)
-#: rc.cpp:1456
+#: rc.cpp:1150
 msgid "Domain admin group:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3584
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_3_4)
-#: rc.cpp:1459
+#: rc.cpp:1153
 msgid "Domain guest group:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3630
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:1462
+#: rc.cpp:1156
 msgid "WINS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3660
 #. i18n: ectx: property (text), widget (QRadioButton, noWinsSupportRadio)
-#: rc.cpp:1465
+#: rc.cpp:1159
 msgid "Deactivate &WINS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3673
 #. i18n: ectx: property (text), widget (QRadioButton, winsSupportRadio)
-#: rc.cpp:1468
+#: rc.cpp:1162
 msgid "Act as a WI&NS server"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3680
 #. i18n: ectx: property (text), widget (QRadioButton, otherWinsRadio)
-#: rc.cpp:1471
+#: rc.cpp:1165
 msgid "Use an&other WINS server"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3693
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox35)
-#: rc.cpp:1474
+#: rc.cpp:1168
 msgid "WINS Server Settin&gs"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3702
 #. i18n: ectx: property (text), widget (QCheckBox, dnsProxyChk)
-#: rc.cpp:1477
+#: rc.cpp:1171
 msgid "DNS prox&y"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3715
 #. i18n: ectx: property (text), widget (QLabel, winsHookLbl)
-#: rc.cpp:1480
+#: rc.cpp:1174
 msgid "WINS hoo&k:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3738
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4_2_4_3_2_2_2)
-#: rc.cpp:1483
+#: rc.cpp:1177
 msgid "Max WINS tt&l:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3790
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4_2_5_3_2_2_2)
-#: rc.cpp:1489
+#: rc.cpp:1183
 msgid "&Min WINS ttl:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3832
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox36)
-#: rc.cpp:1495
+#: rc.cpp:1189
 msgid "WINS Server IP or DNS Name"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3863
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox37)
-#: rc.cpp:1498
+#: rc.cpp:1192
 msgid "General Options"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3887
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3_3_2)
-#: rc.cpp:1501
+#: rc.cpp:1195
 msgid "WINS partners:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3912
 #. i18n: ectx: property (text), widget (QCheckBox, winsProxyChk)
-#: rc.cpp:1504
+#: rc.cpp:1198
 msgid "WINS pro&xy"
 msgstr ""
 
@@ -3359,49 +2640,49 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1759
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1507 rc.cpp:2581 advanced/kcm_sambaconf/kcmsambaconf.cpp:329
+#: rc.cpp:1201 rc.cpp:2275 advanced/kcm_sambaconf/kcmsambaconf.cpp:329
 msgid "Filenames"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3948
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox54)
-#: rc.cpp:1510
+#: rc.cpp:1204
 msgid "Ge&neral"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3969
 #. i18n: ectx: property (text), widget (QCheckBox, stripDotChk)
-#: rc.cpp:1513
+#: rc.cpp:1207
 msgid "Strip d&ot"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3979
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox55)
-#: rc.cpp:1516
+#: rc.cpp:1210
 msgid "&Mangling"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:3991
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_2)
-#: rc.cpp:1519
+#: rc.cpp:1213
 msgid "Mangled stac&k:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4036
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_2_2)
-#: rc.cpp:1522
+#: rc.cpp:1216
 msgid "Mangle prefi&x:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4062
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox53)
-#: rc.cpp:1525
+#: rc.cpp:1219
 msgid "Specia&l"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4083
 #. i18n: ectx: property (text), widget (QCheckBox, statCacheChk)
-#: rc.cpp:1528
+#: rc.cpp:1222
 msgid "Stat cache"
 msgstr ""
 
@@ -3413,61 +2694,61 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2034
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1531 rc.cpp:2653 advanced/kcm_sambaconf/kcmsambaconf.cpp:332
+#: rc.cpp:1225 rc.cpp:2347 advanced/kcm_sambaconf/kcmsambaconf.cpp:332
 msgid "Locking"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4137
 #. i18n: ectx: property (text), widget (QCheckBox, kernelOplocksChk)
-#: rc.cpp:1537
+#: rc.cpp:1231
 msgid "Use ker&nel oplocks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4147
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox56)
-#: rc.cpp:1540
+#: rc.cpp:1234
 msgid "Direct&ories"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4171
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2)
-#: rc.cpp:1543
+#: rc.cpp:1237
 msgid "Loc&k directory:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4187
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2)
-#: rc.cpp:1546
+#: rc.cpp:1240
 msgid "Pid director&y:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4206
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox57)
-#: rc.cpp:1549
+#: rc.cpp:1243
 msgid "Lock Spin"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4212
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:1552
+#: rc.cpp:1246
 msgid "&Lock spin count:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4232
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
-#: rc.cpp:1555
+#: rc.cpp:1249
 msgid "Lock spin ti&me:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4278
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox58)
-#: rc.cpp:1561
+#: rc.cpp:1255
 msgid "Very Advanced"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4287
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:1564
+#: rc.cpp:1258
 msgid "Oplock break &wait time:"
 msgstr ""
 
@@ -3479,79 +2760,79 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6877
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
-#: rc.cpp:1567 rc.cpp:2040
+#: rc.cpp:1261 rc.cpp:1734
 msgid "milliseconds"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4353
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1570 advanced/kcm_sambaconf/kcmsambaconf.cpp:341
+#: rc.cpp:1264 advanced/kcm_sambaconf/kcmsambaconf.cpp:341
 msgid "Charset"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4374
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox40)
-#: rc.cpp:1573
+#: rc.cpp:1267
 msgid "Samba &3.x"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4401
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_4_2_2_2_2_3)
-#: rc.cpp:1576
+#: rc.cpp:1270
 msgid "D&OS charset:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4424
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_4_2_2_2_2_2)
-#: rc.cpp:1579
+#: rc.cpp:1273
 msgid "UNI&X charset:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4447
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_4_2_2_2_2)
-#: rc.cpp:1582
+#: rc.cpp:1276
 msgid "Displa&y charset:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4467
 #. i18n: ectx: property (text), widget (QCheckBox, unicodeChk)
-#: rc.cpp:1585
+#: rc.cpp:1279
 msgid "U&nicode"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4477
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox39)
-#: rc.cpp:1588
+#: rc.cpp:1282
 msgid "Samba &2.x"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4501
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_4)
-#: rc.cpp:1591
+#: rc.cpp:1285
 msgid "Character set:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4524
 #. i18n: ectx: property (text), widget (QLabel, TextLabel12)
-#: rc.cpp:1594
+#: rc.cpp:1288
 msgid "Va&lid chars:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4550
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_4_3_2)
-#: rc.cpp:1597
+#: rc.cpp:1291
 msgid "Code page directory:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4573
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_4_2_2_2)
-#: rc.cpp:1600
+#: rc.cpp:1294
 msgid "Codin&g system:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4589
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2_3_2_2)
-#: rc.cpp:1603
+#: rc.cpp:1297
 msgid "Client code page:"
 msgstr ""
 
@@ -3563,187 +2844,187 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4927
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox63)
-#: rc.cpp:1606 rc.cpp:1651 advanced/kcm_sambaconf/kcmsambaconf.cpp:338
+#: rc.cpp:1300 rc.cpp:1345 advanced/kcm_sambaconf/kcmsambaconf.cpp:338
 msgid "Logon"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4646
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox60)
-#: rc.cpp:1609
+#: rc.cpp:1303
 msgid "Add Scripts"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4670
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2)
-#: rc.cpp:1612
+#: rc.cpp:1306
 msgid "Add user script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4686
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_5_2)
-#: rc.cpp:1615
+#: rc.cpp:1309
 msgid "Add user to group script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4699
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_5)
-#: rc.cpp:1618
+#: rc.cpp:1312
 msgid "Add gr&oup script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4718
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_6)
-#: rc.cpp:1621
+#: rc.cpp:1315
 msgid "Add machine script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4753
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox61)
-#: rc.cpp:1624
+#: rc.cpp:1318
 msgid "Delete Scripts"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4786
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_2_2)
-#: rc.cpp:1627
+#: rc.cpp:1321
 msgid "Delete group script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4799
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_2)
-#: rc.cpp:1630
+#: rc.cpp:1324
 msgid "Delete user script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4812
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_2_2_2)
-#: rc.cpp:1633
+#: rc.cpp:1327
 msgid "Delete user from group script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4828
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox64)
-#: rc.cpp:1636
+#: rc.cpp:1330
 msgid "Primary Group Script"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4849
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_5_3)
-#: rc.cpp:1639
+#: rc.cpp:1333
 msgid "Set primar&y group script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4868
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox62)
-#: rc.cpp:1642
+#: rc.cpp:1336
 msgid "Shutdown"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4892
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_3_2)
-#: rc.cpp:1645
+#: rc.cpp:1339
 msgid "Shutdo&wn script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4905
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_3_3)
-#: rc.cpp:1648
+#: rc.cpp:1342
 msgid "Abort shutdown script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4951
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2_2)
-#: rc.cpp:1654
+#: rc.cpp:1348
 msgid "Logo&n path:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4967
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_2)
-#: rc.cpp:1657
+#: rc.cpp:1351
 msgid "Logon ho&me:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4983
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_4)
-#: rc.cpp:1660
+#: rc.cpp:1354
 msgid "&Logon drive:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:4999
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_2_3)
-#: rc.cpp:1663
+#: rc.cpp:1357
 msgid "Lo&gon script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5019
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1666 advanced/kcm_sambaconf/kcmsambaconf.cpp:344
+#: rc.cpp:1360 advanced/kcm_sambaconf/kcmsambaconf.cpp:344
 msgid "Socket"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5042
 #. i18n: ectx: property (text), widget (QLabel, TextLabel15)
-#: rc.cpp:1669
+#: rc.cpp:1363
 msgid "Socket address:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5066
 #. i18n: ectx: property (text), widget (QCheckBox, TCP_NODELAYChk)
-#: rc.cpp:1675
+#: rc.cpp:1369
 msgid "TCP_NODELA&Y"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5073
 #. i18n: ectx: property (text), widget (QCheckBox, SO_SNDBUFChk)
-#: rc.cpp:1678
+#: rc.cpp:1372
 msgid "SO_S&NDBUF:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5127
 #. i18n: ectx: property (text), widget (QCheckBox, IPTOS_THROUGHPUTChk)
-#: rc.cpp:1687
+#: rc.cpp:1381
 msgid "IPTOS_THROU&GHPUT"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5134
 #. i18n: ectx: property (text), widget (QCheckBox, SO_SNDLOWATChk)
-#: rc.cpp:1690
+#: rc.cpp:1384
 msgid "SO_SNDLO&WAT:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5151
 #. i18n: ectx: property (text), widget (QCheckBox, SO_KEEPALIVEChk)
-#: rc.cpp:1693
+#: rc.cpp:1387
 msgid "SO_&KEEPALIVE"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5158
 #. i18n: ectx: property (text), widget (QCheckBox, SO_RCVLOWATChk)
-#: rc.cpp:1696
+#: rc.cpp:1390
 msgid "SO_RCV&LOWAT:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5175
 #. i18n: ectx: property (text), widget (QCheckBox, SO_REUSEADDRChk)
-#: rc.cpp:1699
+#: rc.cpp:1393
 msgid "S&O_REUSEADDR"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5209
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1705 advanced/kcm_sambaconf/kcmsambaconf.cpp:347
+#: rc.cpp:1399 advanced/kcm_sambaconf/kcmsambaconf.cpp:347
 msgid "SSL"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5215
 #. i18n: ectx: property (toolTip), widget (QCheckBox, sslChk)
-#: rc.cpp:1708
+#: rc.cpp:1402
 msgid "Enables or disables the entire SSL mode"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5220
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sslChk)
-#: rc.cpp:1711
+#: rc.cpp:1405
 msgid ""
 "This enables or disables the entire SSL mode. If it is set to no, the SSL-"
 "enabled Samba behaves exactly like the non-SSL Samba. If set to yes, it "
@@ -3756,211 +3037,211 @@ msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5223
 #. i18n: ectx: property (text), widget (QCheckBox, sslChk)
-#: rc.cpp:1716
+#: rc.cpp:1410
 msgid "E&nable SSL"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5277
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_4_2)
-#: rc.cpp:1719
+#: rc.cpp:1413
 msgid "SSL h&osts:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5310
 #. i18n: ectx: property (text), widget (QLabel, TextLabel12_2_2)
-#: rc.cpp:1722
+#: rc.cpp:1416
 msgid "SSL entrop&y bytes:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5344
 #. i18n: ectx: property (text), widget (QLabel, TextLabel14_2_2)
-#: rc.cpp:1725
+#: rc.cpp:1419
 msgid "SSL ciphers:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5357
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_7)
-#: rc.cpp:1728
+#: rc.cpp:1422
 msgid "SSL hosts resi&gn:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5388
 #. i18n: ectx: property (text), item, widget (QComboBox, sslVersionCombo)
-#: rc.cpp:1731
+#: rc.cpp:1425
 msgid "ssl2"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5393
 #. i18n: ectx: property (text), item, widget (QComboBox, sslVersionCombo)
-#: rc.cpp:1734
+#: rc.cpp:1428
 msgid "ssl3"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5398
 #. i18n: ectx: property (text), item, widget (QComboBox, sslVersionCombo)
-#: rc.cpp:1737
+#: rc.cpp:1431
 msgid "ssl2or3"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5403
 #. i18n: ectx: property (text), item, widget (QComboBox, sslVersionCombo)
-#: rc.cpp:1740
+#: rc.cpp:1434
 msgid "tls1"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5411
 #. i18n: ectx: property (text), widget (QCheckBox, sslCompatibilityChk)
-#: rc.cpp:1743
+#: rc.cpp:1437
 msgid "SSL co&mpatibility"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5433
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4)
-#: rc.cpp:1746
+#: rc.cpp:1440
 msgid "SSL CA certDir:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5449
 #. i18n: ectx: property (text), widget (QLabel, TextLabel11_2_2)
-#: rc.cpp:1749
+#: rc.cpp:1443
 msgid "SSL entropy file:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5462
 #. i18n: ectx: property (text), widget (QLabel, TextLabel10_2_2)
-#: rc.cpp:1752
+#: rc.cpp:1446
 msgid "SSL egd socket:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5475
 #. i18n: ectx: property (text), widget (QLabel, TextLabel15_2_2)
-#: rc.cpp:1755
+#: rc.cpp:1449
 msgid "SSL version:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5491
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_4_3)
-#: rc.cpp:1758
+#: rc.cpp:1452
 msgid "SSL CA certFile:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5529
 #. i18n: ectx: property (text), widget (QCheckBox, sslRequireClientcertChk)
-#: rc.cpp:1761
+#: rc.cpp:1455
 msgid "SSL require clientcert"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5536
 #. i18n: ectx: property (text), widget (QLabel, TextLabel9_2_2)
-#: rc.cpp:1764
+#: rc.cpp:1458
 msgid "SSL client key:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5549
 #. i18n: ectx: property (text), widget (QCheckBox, sslRequireServercertChk)
-#: rc.cpp:1767
+#: rc.cpp:1461
 msgid "SSL re&quire servercert"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5559
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_6_2)
-#: rc.cpp:1770
+#: rc.cpp:1464
 msgid "SS&L server cert:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5572
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_4)
-#: rc.cpp:1773
+#: rc.cpp:1467
 msgid "SSL client cert:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5591
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_5)
-#: rc.cpp:1776
+#: rc.cpp:1470
 msgid "SSL server &key:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5626
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1779
+#: rc.cpp:1473
 msgid "Protocol"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5638
 #. i18n: ectx: property (text), widget (QCheckBox, timeServerChk)
-#: rc.cpp:1785
+#: rc.cpp:1479
 msgid "Ti&me server"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5645
 #. i18n: ectx: property (text), widget (QCheckBox, largeReadWriteChk)
-#: rc.cpp:1788
+#: rc.cpp:1482
 msgid "Lar&ge readwrite"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5652
 #. i18n: ectx: property (text), widget (QCheckBox, unixExtensionsChk)
-#: rc.cpp:1791
+#: rc.cpp:1485
 msgid "UNIX extensions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5678
 #. i18n: ectx: property (text), widget (QCheckBox, readBmpxChk)
-#: rc.cpp:1797
+#: rc.cpp:1491
 msgid "Read bmpx"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5688
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox71)
-#: rc.cpp:1800
+#: rc.cpp:1494
 msgid "Protocol Versions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5694
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_6_2)
-#: rc.cpp:1803
+#: rc.cpp:1497
 msgid "A&nnounce as:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5714
 #. i18n: ectx: property (text), item, widget (QComboBox, announceAsCombo)
-#: rc.cpp:1806
+#: rc.cpp:1500
 msgid "NT"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5719
 #. i18n: ectx: property (text), item, widget (QComboBox, announceAsCombo)
-#: rc.cpp:1809
+#: rc.cpp:1503
 msgid "NT Workstation"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5724
 #. i18n: ectx: property (text), item, widget (QComboBox, announceAsCombo)
-#: rc.cpp:1812
+#: rc.cpp:1506
 msgid "win95"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5729
 #. i18n: ectx: property (text), item, widget (QComboBox, announceAsCombo)
-#: rc.cpp:1815
+#: rc.cpp:1509
 msgid "WfW"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5750
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_3_2)
-#: rc.cpp:1818
+#: rc.cpp:1512
 msgid "Announce version:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5769
 #. i18n: ectx: property (text), widget (QLineEdit, announceVersionEdit)
-#: rc.cpp:1821
+#: rc.cpp:1515
 msgid "4.2"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5776
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3_4_2)
-#: rc.cpp:1824
+#: rc.cpp:1518
 msgid "Pr&otocol:"
 msgstr ""
 
@@ -3976,7 +3257,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, maxProtocolCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5892
 #. i18n: ectx: property (text), item, widget (QComboBox, minProtocolCombo)
-#: rc.cpp:1827 rc.cpp:1845 rc.cpp:1863
+#: rc.cpp:1521 rc.cpp:1539 rc.cpp:1557
 msgid "NT1"
 msgstr ""
 
@@ -3992,7 +3273,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, maxProtocolCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5897
 #. i18n: ectx: property (text), item, widget (QComboBox, minProtocolCombo)
-#: rc.cpp:1830 rc.cpp:1848 rc.cpp:1866
+#: rc.cpp:1524 rc.cpp:1542 rc.cpp:1560
 msgid "LANMAN2"
 msgstr ""
 
@@ -4008,7 +3289,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, maxProtocolCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5902
 #. i18n: ectx: property (text), item, widget (QComboBox, minProtocolCombo)
-#: rc.cpp:1833 rc.cpp:1851 rc.cpp:1869
+#: rc.cpp:1527 rc.cpp:1545 rc.cpp:1563
 msgid "LANMAN1"
 msgstr ""
 
@@ -4024,7 +3305,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, maxProtocolCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5907
 #. i18n: ectx: property (text), item, widget (QComboBox, minProtocolCombo)
-#: rc.cpp:1836 rc.cpp:1854 rc.cpp:1872
+#: rc.cpp:1530 rc.cpp:1548 rc.cpp:1566
 msgid "CORE"
 msgstr ""
 
@@ -4040,67 +3321,67 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, maxProtocolCombo)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5912
 #. i18n: ectx: property (text), item, widget (QComboBox, minProtocolCombo)
-#: rc.cpp:1839 rc.cpp:1857 rc.cpp:1875
+#: rc.cpp:1533 rc.cpp:1551 rc.cpp:1569
 msgid "COREPLUS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5824
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3_2_2)
-#: rc.cpp:1842
+#: rc.cpp:1536
 msgid "Max protocol:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5872
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3_3_2)
-#: rc.cpp:1860
+#: rc.cpp:1554
 msgid "Min protocol:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5923
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox69)
-#: rc.cpp:1878
+#: rc.cpp:1572
 msgid "Limits"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5932
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4_4_2_2_2)
-#: rc.cpp:1881
+#: rc.cpp:1575
 msgid "Ma&x mux:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:5958
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_4_2_3_3_2_2_2)
-#: rc.cpp:1884
+#: rc.cpp:1578
 msgid "Max tt&l:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6007
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox72)
-#: rc.cpp:1890
+#: rc.cpp:1584
 msgid "Listening SMB Ports"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6028
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_4_2_2)
-#: rc.cpp:1893
+#: rc.cpp:1587
 msgid "SMB ports:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6080
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1896 advanced/kcm_sambaconf/kcmsambaconf.cpp:350
+#: rc.cpp:1590 advanced/kcm_sambaconf/kcmsambaconf.cpp:350
 msgid "Browsing"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6104
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:1899
+#: rc.cpp:1593
 msgid "LM i&nterval:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6117
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5)
-#: rc.cpp:1902
+#: rc.cpp:1596
 msgid "L&M announce:"
 msgstr ""
 
@@ -4112,169 +3393,169 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel27_2)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6356
 #. i18n: ectx: property (text), widget (QLabel, TextLabel27)
-#: rc.cpp:1905 rc.cpp:1950
+#: rc.cpp:1599 rc.cpp:1644
 msgid "Sec"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6150
 #. i18n: ectx: property (text), widget (QLabel, TextLabel14)
-#: rc.cpp:1908
+#: rc.cpp:1602
 msgid "Remote browse s&ync:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6182
 #. i18n: ectx: property (text), widget (QCheckBox, browseListChk)
-#: rc.cpp:1920
+#: rc.cpp:1614
 msgid "Bro&wse list"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6189
 #. i18n: ectx: property (text), widget (QCheckBox, enhancedBrowsingChk)
-#: rc.cpp:1923
+#: rc.cpp:1617
 msgid "Enhanced browsin&g"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6212
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
-#: rc.cpp:1926
+#: rc.cpp:1620
 msgid "Pre&load:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6242
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1929
+#: rc.cpp:1623
 msgid "Winbind"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6260
 #. i18n: ectx: property (text), widget (QLabel, TextLabel21)
-#: rc.cpp:1932
+#: rc.cpp:1626
 msgid "&Winbind/Idmap UID:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6279
 #. i18n: ectx: property (text), widget (QLabel, TextLabel21_2)
-#: rc.cpp:1935
+#: rc.cpp:1629
 msgid "Winbind/Idmap &GID:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6292
 #. i18n: ectx: property (text), widget (QLabel, TextLabel22)
-#: rc.cpp:1938
+#: rc.cpp:1632
 msgid "Template h&omedir:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6308
 #. i18n: ectx: property (text), widget (QLabel, TextLabel23)
-#: rc.cpp:1941
+#: rc.cpp:1635
 msgid "Temp&late shell:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6324
 #. i18n: ectx: property (text), widget (QLabel, TextLabel24)
-#: rc.cpp:1944
+#: rc.cpp:1638
 msgid "Winbind separator:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6340
 #. i18n: ectx: property (text), widget (QLabel, TextLabel24_2)
-#: rc.cpp:1947
+#: rc.cpp:1641
 msgid "Template primary group:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6366
 #. i18n: ectx: property (text), widget (QLabel, TextLabel25)
-#: rc.cpp:1953
+#: rc.cpp:1647
 msgid "Winbind cache ti&me:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6390
 #. i18n: ectx: property (text), item, widget (QComboBox, aclCompatibilityCombo)
-#: rc.cpp:1956
+#: rc.cpp:1650
 msgid "Windows NT 4"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6395
 #. i18n: ectx: property (text), item, widget (QComboBox, aclCompatibilityCombo)
-#: rc.cpp:1959
+#: rc.cpp:1653
 msgid "Windows 2000"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6408
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
-#: rc.cpp:1965
+#: rc.cpp:1659
 msgid "Acl compatibilit&y:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6421
 #. i18n: ectx: property (text), widget (QCheckBox, winbindEnumUsersChk)
-#: rc.cpp:1968
+#: rc.cpp:1662
 msgid "Wi&nbind enum users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6428
 #. i18n: ectx: property (text), widget (QCheckBox, winbindEnumGroupsChk)
-#: rc.cpp:1971
+#: rc.cpp:1665
 msgid "Winbind enum groups"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6435
 #. i18n: ectx: property (text), widget (QCheckBox, winbindUseDefaultDomainChk)
-#: rc.cpp:1974
+#: rc.cpp:1668
 msgid "Winbind use default domain"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6442
 #. i18n: ectx: property (text), widget (QCheckBox, winbindEnableLocalAccountsChk)
-#: rc.cpp:1977
+#: rc.cpp:1671
 msgid "Winbind enable local accounts"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6449
 #. i18n: ectx: property (text), widget (QCheckBox, winbindTrustedDomainsOnlyChk)
-#: rc.cpp:1980
+#: rc.cpp:1674
 msgid "Winbind trusted domains only"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6456
 #. i18n: ectx: property (text), widget (QCheckBox, winbindNestedGroupsChk)
-#: rc.cpp:1983
+#: rc.cpp:1677
 msgid "Winbind nested groups"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6493
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1986
+#: rc.cpp:1680
 msgid "NetBIOS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6536
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_4)
-#: rc.cpp:1989
+#: rc.cpp:1683
 msgid "NetBIOS sc&ope:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6552
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#: rc.cpp:1992
+#: rc.cpp:1686
 msgid "&NetBIOS aliases:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6565
 #. i18n: ectx: property (text), widget (QCheckBox, disableNetbiosChk)
-#: rc.cpp:1995
+#: rc.cpp:1689
 msgid "Disab&le netbios"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6572
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_4_2)
-#: rc.cpp:1998
+#: rc.cpp:1692
 msgid "Na&me resolve order:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6611
 #. i18n: ectx: property (text), widget (QLineEdit, nameResolveOrderEdit)
-#: rc.cpp:2001
+#: rc.cpp:1695
 msgid "lmhosts host wins bcast"
 msgstr ""
 
@@ -4286,163 +3567,163 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2219
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:2004 rc.cpp:2698 advanced/kcm_sambaconf/kcmsambaconf.cpp:359
+#: rc.cpp:1698 rc.cpp:2392 advanced/kcm_sambaconf/kcmsambaconf.cpp:359
 msgid "VFS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6640
 #. i18n: ectx: property (text), widget (QCheckBox, hostMsdfsChk)
-#: rc.cpp:2007
+#: rc.cpp:1701
 msgid "H&ost msdfs"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6664
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:2010 advanced/kcm_sambaconf/kcmsambaconf.cpp:365
+#: rc.cpp:1704 advanced/kcm_sambaconf/kcmsambaconf.cpp:365
 msgid "LDAP"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6673
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2)
-#: rc.cpp:2013
+#: rc.cpp:1707
 msgid "LDAP suffi&x:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6696
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2)
-#: rc.cpp:2016
+#: rc.cpp:1710
 msgid "LDAP machine suffix:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6719
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2_2)
-#: rc.cpp:2019
+#: rc.cpp:1713
 msgid "LDAP user suffix:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6742
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2_3)
-#: rc.cpp:2022
+#: rc.cpp:1716
 msgid "LDAP &group suffix:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6765
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2_4)
-#: rc.cpp:2025
+#: rc.cpp:1719
 msgid "LDAP idmap suffix:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6788
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2_5)
-#: rc.cpp:2028
+#: rc.cpp:1722
 msgid "LDAP filter:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6811
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2_2_6)
-#: rc.cpp:2031
+#: rc.cpp:1725
 msgid "LDAP ad&min dn:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6834
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_4_2)
-#: rc.cpp:2034
+#: rc.cpp:1728
 msgid "Idmap bac&kend:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6857
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_4_2_2)
-#: rc.cpp:2037
+#: rc.cpp:1731
 msgid "LDAP replication sleep:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6900
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_4)
-#: rc.cpp:2043
+#: rc.cpp:1737
 msgid "&LDAP ssl:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6914
 #. i18n: ectx: property (text), item, widget (QComboBox, ldapSslCombo)
-#: rc.cpp:2046
+#: rc.cpp:1740
 msgid "Off"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6919
 #. i18n: ectx: property (text), item, widget (QComboBox, ldapSslCombo)
-#: rc.cpp:2049
+#: rc.cpp:1743
 msgid "Start_tls"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6924
 #. i18n: ectx: property (text), item, widget (QComboBox, ldapSslCombo)
-#: rc.cpp:2052
+#: rc.cpp:1746
 msgid "On"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6932
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_5_4_2)
-#: rc.cpp:2055
+#: rc.cpp:1749
 msgid "LDAP s&ync:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6956
 #. i18n: ectx: property (text), item, widget (QComboBox, ldapSyncCombo)
-#: rc.cpp:2064
+#: rc.cpp:1758
 msgid "Only"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:6964
 #. i18n: ectx: property (text), widget (QCheckBox, ldapDeleteDnChk)
-#: rc.cpp:2067
+#: rc.cpp:1761
 msgid "LDAP delete d&n"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7012
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_5)
-#: rc.cpp:2073
+#: rc.cpp:1767
 msgid "Add share c&ommand:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7025
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
-#: rc.cpp:2076
+#: rc.cpp:1770
 msgid "Change share command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7038
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_3)
-#: rc.cpp:2079
+#: rc.cpp:1773
 msgid "De&lete share command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7051
 #. i18n: ectx: property (text), widget (QLabel, TextLabel10)
-#: rc.cpp:2082
+#: rc.cpp:1776
 msgid "Messa&ge command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7064
 #. i18n: ectx: property (text), widget (QLabel, TextLabel11)
-#: rc.cpp:2085
+#: rc.cpp:1779
 msgid "Dfree co&mmand:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7077
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_5_2)
-#: rc.cpp:2088
+#: rc.cpp:1782
 msgid "Set &quota command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7090
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_3)
-#: rc.cpp:2091
+#: rc.cpp:1785
 msgid "Get quota command:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7119
 #. i18n: ectx: property (text), widget (QLabel, TextLabel20)
-#: rc.cpp:2094
+#: rc.cpp:1788
 msgid "Pa&nic action:"
 msgstr ""
 
@@ -4454,290 +3735,424 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2375
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:2097 rc.cpp:2728 advanced/kcm_sambaconf/kcmsambaconf.cpp:353
+#: rc.cpp:1791 rc.cpp:2422 advanced/kcm_sambaconf/kcmsambaconf.cpp:353
 msgid "Misc"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7163
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox12)
-#: rc.cpp:2100
+#: rc.cpp:1794
 msgid "Miscellaneous"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7169
 #. i18n: ectx: property (text), widget (QCheckBox, CheckBox68)
-#: rc.cpp:2103
+#: rc.cpp:1797
 msgid "Hide &local users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7176
 #. i18n: ectx: property (text), widget (QLabel, TextLabel9)
-#: rc.cpp:2106
+#: rc.cpp:1800
 msgid "Default service:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7192
 #. i18n: ectx: property (text), widget (QLabel, TextLabel17)
-#: rc.cpp:2109
+#: rc.cpp:1803
 msgid "Time &offset:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7215
 #. i18n: ectx: property (text), widget (QLabel, TextLabel18)
-#: rc.cpp:2112
+#: rc.cpp:1806
 msgctxt "minurtes"
 msgid "Min"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7238
 #. i18n: ectx: property (text), widget (QLabel, TextLabel13)
-#: rc.cpp:2115
+#: rc.cpp:1809
 msgid "Remote a&nnounce:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7254
 #. i18n: ectx: property (text), widget (QLabel, TextLabel19)
-#: rc.cpp:2118
+#: rc.cpp:1812
 msgid "Source environment:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7273
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox11)
-#: rc.cpp:2121
+#: rc.cpp:1815
 msgid "NIS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7297
 #. i18n: ectx: property (text), widget (QCheckBox, nisHomedirChk)
-#: rc.cpp:2124
+#: rc.cpp:1818
 msgid "NIS homedir"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7304
 #. i18n: ectx: property (text), widget (QLabel, TextLabel16)
-#: rc.cpp:2127
+#: rc.cpp:1821
 msgid "Homedir map:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7323
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox9)
-#: rc.cpp:2130
+#: rc.cpp:1824
 msgid "UTMP"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7347
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7_3)
-#: rc.cpp:2133
+#: rc.cpp:1827
 msgid "Utmp director&y:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7363
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8_3)
-#: rc.cpp:2136
+#: rc.cpp:1830
 msgid "&Wtmp directory:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7379
 #. i18n: ectx: property (text), widget (QCheckBox, CheckBox51)
-#: rc.cpp:2139
+#: rc.cpp:1833
 msgid "Ut&mp"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7406
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:2142 advanced/kcm_sambaconf/kcmsambaconf.cpp:362
+#: rc.cpp:1836 advanced/kcm_sambaconf/kcmsambaconf.cpp:362
 msgid "Debug"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7427
 #. i18n: ectx: property (text), widget (QCheckBox, ntStatusSupportChk)
-#: rc.cpp:2145
+#: rc.cpp:1839
 msgid "&NT status support"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7437
 #. i18n: ectx: property (text), widget (QCheckBox, ntSmbSupportChk)
-#: rc.cpp:2148
+#: rc.cpp:1842
 msgid "NT S&MB support"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:7450
 #. i18n: ectx: property (text), widget (QCheckBox, ntPipeSupportChk)
-#: rc.cpp:2151
+#: rc.cpp:1845
 msgid "NT pipe supp&ort"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget)
-#: rc.cpp:2154
+#: rc.cpp:1848
 msgid "Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:27
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2157
+#: rc.cpp:1851
 msgid "All U&nspecified Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:2160
+#: rc.cpp:1854
 msgid "Allow"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:41
 #. i18n: ectx: property (text), item, widget (QComboBox)
-#: rc.cpp:2163 advanced/kcm_sambaconf/usertabimpl.cpp:223
+#: rc.cpp:1857 advanced/kcm_sambaconf/usertabimpl.cpp:222
 msgid "Reject"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:63
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2166
+#: rc.cpp:1860
 msgid "Spec&ified Users"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:87
 #. i18n: ectx: property (text), widget (QTable)
-#: rc.cpp:2178
+#: rc.cpp:1872
 msgid "Access Rights"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:125
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:2181
+#: rc.cpp:1875
 msgid "A&dd User..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:133
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:2184
+#: rc.cpp:1878
 msgid "E&xpert"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:141
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:2187
+#: rc.cpp:1881
 msgid "Add &Group..."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:149
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:2190
+#: rc.cpp:1884
 msgid "Remo&ve Selected"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:184
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2193
+#: rc.cpp:1887
 msgid "All Users Should be Forced to the Follo&wing User/Group"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:203
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2196
+#: rc.cpp:1890
 msgid "Forc&e user:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/usertab.ui:235
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2199
+#: rc.cpp:1893
 msgid "Fo&rce group:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:34
 #. i18n: ectx: property (windowTitle), widget (QDialog, KcmShareDlg)
-#: rc.cpp:2202
+#: rc.cpp:1896
 msgid "Add/Edit Share"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:100
+#. i18n: ectx: property (text), widget (QLabel, directoryPixLbl)
+#: rc.cpp:1902
+msgid "Pixmap"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, directoryGrp)
-#: rc.cpp:2211
+#: rc.cpp:1905
 msgid "D&irectory"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:157
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:2214
+#: rc.cpp:1908
 msgid "&Path:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:179
 #. i18n: ectx: property (text), widget (QCheckBox, homeChk)
-#: rc.cpp:2217
+#: rc.cpp:1911
 msgid "Share all home &directories"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:191
 #. i18n: ectx: property (title), widget (QGroupBox, identifierGrp)
-#: rc.cpp:2220
+#: rc.cpp:1914
 msgid "Iden&tifier"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:215
 #. i18n: ectx: property (text), widget (QLabel, Lbl_shareName)
-#: rc.cpp:2223
+#: rc.cpp:1917
 msgid "Na&me:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:228
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#: rc.cpp:2226
+#: rc.cpp:1920
 msgid "Comme&nt:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:250
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
-#: rc.cpp:2229
+#: rc.cpp:1923
 msgid "Main P&roperties"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:271
 #. i18n: ectx: property (text), widget (QCheckBox, readOnlyBaseChk)
-#: rc.cpp:2232
+#: rc.cpp:1926
 msgid "Read onl&y"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:281
+#. i18n: ectx: property (text), widget (QCheckBox, publicBaseChk)
+#: rc.cpp:1929
+msgid "Pub&lic"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:288
+#. i18n: ectx: property (text), widget (QCheckBox, browseableBaseChk)
+#: rc.cpp:1932
+msgid "Bro&wseable"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:295
+#. i18n: ectx: property (text), widget (QCheckBox, availableBaseChk)
+#: rc.cpp:1935
+msgid "A&vailable"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:322
+#. i18n: ectx: attribute (title), widget (QWidget, securityTab)
+#: rc.cpp:1938
+msgid "&Security"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:328
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox19)
-#: rc.cpp:2247
+#: rc.cpp:1941
 msgid "Gu&ests"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:339
+#. i18n: ectx: property (whatsThis), widget (QLabel, guestAccountLbl)
+#: rc.cpp:1944
+msgid ""
+"This is a username which will be used for access to services which are "
+"specified as guest ok. Whatever privileges this user has will be available "
+"to any client connecting to the guest service. Typically this user will "
+"exist in the password file, but will not have a valid login. The user "
+"account \\\"ftp\\\" is often a good choice for this parameter. If a username "
+"is specified in a given service, the specified username overrides this one."
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:342
+#. i18n: ectx: property (text), widget (QLabel, guestAccountLbl)
+#: rc.cpp:1947
+msgid "&Guest account:"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:376
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, guestOnlyChk)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:519
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, onlyUserChk)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:376
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, guestOnlyChk)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:519
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, onlyUserChk)
+#: rc.cpp:1950 rc.cpp:1989
+msgid ""
+"If this is checked , then no password is required to connect to the service. "
+"Privileges will be those of the guest account."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:379
 #. i18n: ectx: property (text), widget (QCheckBox, guestOnlyChk)
-#: rc.cpp:2259
+#: rc.cpp:1953
 msgid "Only allow guest connect&ions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:389
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox18)
-#: rc.cpp:2262
+#: rc.cpp:1956
 msgid "Hos&ts"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:413
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsDenyEdit)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:436
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel6)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:413
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsDenyEdit)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:436
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel6)
+#: rc.cpp:1959 rc.cpp:1968
+msgid ""
+"The opposite of hosts allow - hosts listed here are NOT permitted access to "
+"services unless the specific services have their own lists to override this "
+"one. Where the lists conflict, the allow list takes precedence."
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:420
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:452
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsAllowEdit)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:952
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:968
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:984
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1000
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1187
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1203
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1219
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1331
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1430
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:420
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:452
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostsAllowEdit)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:952
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:968
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:984
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_2_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1000
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_3_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1187
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1203
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1219
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_4_2_3)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1331
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2)
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1430
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel5_2_2_2)
+#: rc.cpp:1962 rc.cpp:1974 rc.cpp:2077 rc.cpp:2083 rc.cpp:2089 rc.cpp:2095
+#: rc.cpp:2128 rc.cpp:2134 rc.cpp:2140 rc.cpp:2164 rc.cpp:2188
+msgid ""
+"This parameter is a comma, space, or tab delimited set of hosts which are "
+"permitted to access a service."
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:423
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:2271
+#: rc.cpp:1965
 msgid "Hosts allo&w:"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:439
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:1971
+msgid "Hosts &deny:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:462
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox17)
-#: rc.cpp:2283
+#: rc.cpp:1977
 msgid "Sy&mbolic Links"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:483
 #. i18n: ectx: property (text), widget (QCheckBox, followSymlinksChk)
-#: rc.cpp:2286
+#: rc.cpp:1980
 msgid "Allow following of symbolic lin&ks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:493
 #. i18n: ectx: property (text), widget (QCheckBox, wideLinksChk)
-#: rc.cpp:2289
+#: rc.cpp:1983
 msgid ""
 "Allow following of symbolic links that &point to areas outside the directory "
 "tree"
@@ -4745,7 +4160,7 @@ msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:503
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_4_2)
-#: rc.cpp:2292
+#: rc.cpp:1986
 msgid ""
 "<qt>Validate password against the following usernames if the client cannot "
 "supply a username:</qt>"
@@ -4753,151 +4168,157 @@ msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:522
 #. i18n: ectx: property (text), widget (QCheckBox, onlyUserChk)
-#: rc.cpp:2298
+#: rc.cpp:1992
 msgid "Only allow connections with use&rnames specified in this username list"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:543
 #. i18n: ectx: attribute (title), widget (QWidget, hiddenFilesTab)
-#: rc.cpp:2301
+#: rc.cpp:1995
 msgid "Hidden &Files"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:573
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2307
+#: rc.cpp:2001
 msgid "Hidden"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:578
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2310
+#: rc.cpp:2004
 msgid "Veto"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:583
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2313
+#: rc.cpp:2007
 msgid "Veto Oplock"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:588
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2316
+#: rc.cpp:2010
 msgid "Size"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:593
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2319
+#: rc.cpp:2013
 msgid "Date"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:598
 #. i18n: ectx: property (text), widget (K3ListView, hiddenListView)
-#: rc.cpp:2322
+#: rc.cpp:2016
 msgid "Permissions"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:616
 #. i18n: ectx: property (title), widget (QGroupBox, selGrpBx)
-#: rc.cpp:2331
+#: rc.cpp:2025
 msgid "Se&lected Files"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:637
 #. i18n: ectx: property (text), widget (QCheckBox, hiddenChk)
-#: rc.cpp:2334
+#: rc.cpp:2028
 msgid "Hi&de"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:644
 #. i18n: ectx: property (text), widget (QCheckBox, vetoChk)
-#: rc.cpp:2337 advanced/kcm_sambaconf/hiddenfileview.cpp:120
+#: rc.cpp:2031 advanced/kcm_sambaconf/hiddenfileview.cpp:120
 msgid "&Veto"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:651
 #. i18n: ectx: property (text), widget (QCheckBox, vetoOplockChk)
-#: rc.cpp:2340
+#: rc.cpp:2034
 msgid "Veto oploc&k"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:661
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox13_2)
-#: rc.cpp:2343
+#: rc.cpp:2037
 msgid "&Manual Configuration"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:702
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
-#: rc.cpp:2346
+#: rc.cpp:2040
 msgid "Ve&to files:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:715
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_2)
-#: rc.cpp:2349
+#: rc.cpp:2043
 msgid "Veto oplock f&iles:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:737
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_3)
-#: rc.cpp:2352
+#: rc.cpp:2046
 msgid "Hidde&n files:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:772
 #. i18n: ectx: property (text), widget (QCheckBox, hideUnwriteableFilesChk)
-#: rc.cpp:2355
+#: rc.cpp:2049
 msgid "Hide un&writable files"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:779
 #. i18n: ectx: property (text), widget (QCheckBox, hideSpecialFilesChk)
-#: rc.cpp:2358
+#: rc.cpp:2052
 msgid "Hide s&pecial files"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:786
 #. i18n: ectx: property (text), widget (QCheckBox, hideDotFilesChk)
-#: rc.cpp:2361
+#: rc.cpp:2055
 msgid "Hide files startin&g with a dot "
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:793
 #. i18n: ectx: property (text), widget (QCheckBox, hideUnreadableChk)
-#: rc.cpp:2364
+#: rc.cpp:2058
 msgid "Hide un&readable files"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:806
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: rc.cpp:2061
+msgid "&Advanced"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:928
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox11_2)
-#: rc.cpp:2380
+#: rc.cpp:2074
 msgid "Force Modes"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:955
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_3_2_2_2_2)
-#: rc.cpp:2386
+#: rc.cpp:2080
 msgid "Forc&e directory security mode:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:971
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_3_2_3)
-#: rc.cpp:2392
+#: rc.cpp:2086
 msgid "Fo&rce security mode:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:987
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_3_2_2_3)
-#: rc.cpp:2398
+#: rc.cpp:2092
 msgid "Force director&y mode:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1003
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_3_3)
-#: rc.cpp:2404
+#: rc.cpp:2098
 msgid "Force create mo&de:"
 msgstr ""
 
@@ -4933,8 +4354,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, directorySecurityMaskBtn)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1372
 #. i18n: ectx: property (text), widget (QToolButton, createMaskBtn)
-#: rc.cpp:2407 rc.cpp:2410 rc.cpp:2425 rc.cpp:2428 rc.cpp:2452 rc.cpp:2455
-#: rc.cpp:2458 rc.cpp:2479
+#: rc.cpp:2101 rc.cpp:2104 rc.cpp:2119 rc.cpp:2122 rc.cpp:2146 rc.cpp:2149
+#: rc.cpp:2152 rc.cpp:2173
 msgid "..."
 msgstr ""
 
@@ -4974,164 +4395,164 @@ msgstr ""
 #. i18n: ectx: property (validChars), widget (KRestrictedLine, createMaskEdit)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1459
 #. i18n: ectx: property (validChars), widget (KRestrictedLine, forceUnknownAclUserEdit)
-#: rc.cpp:2413 rc.cpp:2416 rc.cpp:2419 rc.cpp:2422 rc.cpp:2461 rc.cpp:2464
-#: rc.cpp:2467 rc.cpp:2476 rc.cpp:2503
+#: rc.cpp:2107 rc.cpp:2110 rc.cpp:2113 rc.cpp:2116 rc.cpp:2155 rc.cpp:2158
+#: rc.cpp:2161 rc.cpp:2170 rc.cpp:2197
 msgid "01234567"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1163
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox10_2)
-#: rc.cpp:2431
+#: rc.cpp:2125
 msgid "Masks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1190
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_4_2_2_2)
-#: rc.cpp:2437
+#: rc.cpp:2131
 msgid "Directory security mask:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1206
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_4_3)
-#: rc.cpp:2443
+#: rc.cpp:2137
 msgid "Security &mask:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1222
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_4_2_3)
-#: rc.cpp:2449
+#: rc.cpp:2143
 msgid "Direc&tory mask:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1334
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_2)
-#: rc.cpp:2473
+#: rc.cpp:2167
 msgid "Create mas&k:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1382
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox56)
-#: rc.cpp:2482
+#: rc.cpp:2176
 msgid "ACL"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1406
 #. i18n: ectx: property (text), widget (QCheckBox, profileAclsChk)
-#: rc.cpp:2485
+#: rc.cpp:2179
 msgid "&Profile acls"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1413
 #. i18n: ectx: property (text), widget (QCheckBox, inheritAclsChk)
-#: rc.cpp:2488
+#: rc.cpp:2182
 msgid "Inherit ac&ls"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1420
 #. i18n: ectx: property (text), widget (QCheckBox, ntAclSupportChk)
-#: rc.cpp:2491
+#: rc.cpp:2185
 msgid "&NT ACL support"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1433
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_2_2)
-#: rc.cpp:2497
+#: rc.cpp:2191
 msgid "Force unkno&wn acl user:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1446
 #. i18n: ectx: property (text), widget (QCheckBox, mapAclInheritChk)
-#: rc.cpp:2500
+#: rc.cpp:2194
 msgid "Map acl &inherit"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1490
 #. i18n: ectx: property (text), widget (QCheckBox, inheritPermissionsChk)
-#: rc.cpp:2509
+#: rc.cpp:2203
 msgid "Inherit permissions from parent directory"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1497
 #. i18n: ectx: property (text), widget (QCheckBox, deleteReadonlyChk)
-#: rc.cpp:2512
+#: rc.cpp:2206
 msgid "Allow deletion of readonly files"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1507
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox57)
-#: rc.cpp:2515
+#: rc.cpp:2209
 msgid "DOS Attribute Mapping"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1528
 #. i18n: ectx: property (text), widget (QCheckBox, mapArchiveChk)
-#: rc.cpp:2518
+#: rc.cpp:2212
 msgid "Map DOS archi&ve to UNIX owner execute"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1535
 #. i18n: ectx: property (text), widget (QCheckBox, mapHiddenChk)
-#: rc.cpp:2521
+#: rc.cpp:2215
 msgid "Map DOS hidden to UNI&X world execute"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1542
 #. i18n: ectx: property (text), widget (QCheckBox, mapSystemChk)
-#: rc.cpp:2524
+#: rc.cpp:2218
 msgid "Map DOS system to UNIX &group execute"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1549
 #. i18n: ectx: property (text), widget (QCheckBox, storeDosAttributesChk)
-#: rc.cpp:2527
+#: rc.cpp:2221
 msgid "Store DOS attributes onto extended attribute"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1562
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox76)
-#: rc.cpp:2530
+#: rc.cpp:2224
 msgid "OS/2"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1568
 #. i18n: ectx: property (text), widget (QCheckBox, eaSupportChk)
-#: rc.cpp:2533
+#: rc.cpp:2227
 msgid "OS/2 style extended attributes support"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1585
 #. i18n: ectx: property (text), widget (QCheckBox, strictSyncChk)
-#: rc.cpp:2539
+#: rc.cpp:2233
 msgid "Strict s&ync"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1595
 #. i18n: ectx: property (text), widget (QCheckBox, syncAlwaysChk)
-#: rc.cpp:2542
+#: rc.cpp:2236
 msgid "Sync al&ways"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1602
 #. i18n: ectx: property (text), widget (QCheckBox, strictAllocateChk)
-#: rc.cpp:2545
+#: rc.cpp:2239
 msgid "St&rict allocate"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1609
 #. i18n: ectx: property (text), widget (QCheckBox, useSendfileChk)
-#: rc.cpp:2548
+#: rc.cpp:2242
 msgid "Use sen&dfile"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1616
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_3_4)
-#: rc.cpp:2551
+#: rc.cpp:2245
 msgid "&Maximum number of simultaneous connections:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1639
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_3_2_2)
-#: rc.cpp:2554
+#: rc.cpp:2248
 msgid "Write cache si&ze:"
 msgstr ""
 
@@ -5143,397 +4564,403 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_7)
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1695
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_7_2)
-#: rc.cpp:2557 rc.cpp:2563
+#: rc.cpp:2251 rc.cpp:2257
 msgid "bytes"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1672
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2560
+#: rc.cpp:2254
 msgid "Bloc&k size:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1705
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:2566
+#: rc.cpp:2260
 msgid "Client-side cachin&g policy:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1719
 #. i18n: ectx: property (text), item, widget (QComboBox, cscPolicyCombo)
-#: rc.cpp:2569
+#: rc.cpp:2263
 msgid "manual"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1724
 #. i18n: ectx: property (text), item, widget (QComboBox, cscPolicyCombo)
-#: rc.cpp:2572
+#: rc.cpp:2266
 msgid "documents"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1729
 #. i18n: ectx: property (text), item, widget (QComboBox, cscPolicyCombo)
-#: rc.cpp:2575
+#: rc.cpp:2269
 msgid "programs"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1734
 #. i18n: ectx: property (text), item, widget (QComboBox, cscPolicyCombo)
-#: rc.cpp:2578
+#: rc.cpp:2272
 msgid "disable"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1771
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
-#: rc.cpp:2584
+#: rc.cpp:2278
 msgid "Name Mangling"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1777
 #. i18n: ectx: property (text), widget (QCheckBox, mangledNamesChk)
-#: rc.cpp:2587
+#: rc.cpp:2281
 msgid "Enable na&me mangling"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1784
 #. i18n: ectx: property (text), widget (QCheckBox, mangleCaseChk)
-#: rc.cpp:2590
+#: rc.cpp:2284
 msgid "Man&gle case"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1791
 #. i18n: ectx: property (text), widget (QCheckBox, preserveCaseChk)
-#: rc.cpp:2593
+#: rc.cpp:2287
 msgid "Preser&ve case"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1801
 #. i18n: ectx: property (text), widget (QCheckBox, shortPreserveCaseChk)
-#: rc.cpp:2596
+#: rc.cpp:2290
 msgid "Short pr&eserve case"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1808
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2599
+#: rc.cpp:2293
 msgid "Case sensi&tive"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1837
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_3)
-#: rc.cpp:2611
+#: rc.cpp:2305
 msgid "Defau&lt case:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1857
 #. i18n: ectx: property (text), item, widget (QComboBox, defaultCaseCombo)
-#: rc.cpp:2614
+#: rc.cpp:2308
 msgid "Lower"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1862
 #. i18n: ectx: property (text), item, widget (QComboBox, defaultCaseCombo)
-#: rc.cpp:2617
+#: rc.cpp:2311
 msgid "Upper"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1876
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2_2)
-#: rc.cpp:2620
+#: rc.cpp:2314
 msgid "Mangling cha&r:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1916
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_5)
-#: rc.cpp:2623
+#: rc.cpp:2317
 msgid "Mangled ma&p:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1932
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:2626
+#: rc.cpp:2320
 msgid "Mangling method:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1946
 #. i18n: ectx: property (text), item, widget (QComboBox, manglingMethodCombo)
-#: rc.cpp:2629
+#: rc.cpp:2323
 msgid "hash"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1951
 #. i18n: ectx: property (text), item, widget (QComboBox, manglingMethodCombo)
-#: rc.cpp:2632
+#: rc.cpp:2326
 msgid "hash2"
+msgstr ""
+
+#. i18n: file: advanced/kcm_sambaconf/share.ui:1970
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox9)
+#: rc.cpp:2329
+msgid "Other Options"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1976
 #. i18n: ectx: property (text), widget (QCheckBox, hideTrailingDotChk)
-#: rc.cpp:2638
+#: rc.cpp:2332
 msgid "Hide traili&ng dot"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:1986
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox15)
-#: rc.cpp:2641
+#: rc.cpp:2335
 msgid "DOS"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2007
 #. i18n: ectx: property (text), widget (QCheckBox, dosFilemodeChk)
-#: rc.cpp:2644
+#: rc.cpp:2338
 msgid "&DOS file mode"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2014
 #. i18n: ectx: property (text), widget (QCheckBox, dosFiletimesChk)
-#: rc.cpp:2647
+#: rc.cpp:2341
 msgid "DOS f&ile times"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2021
 #. i18n: ectx: property (text), widget (QCheckBox, dosFiletimeResolutionChk)
-#: rc.cpp:2650
+#: rc.cpp:2344
 msgid "DOS file time resolution"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2040
 #. i18n: ectx: property (text), widget (QCheckBox, lockingChk)
-#: rc.cpp:2656
+#: rc.cpp:2350
 msgid "Enable lock&ing"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2050
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox47)
-#: rc.cpp:2659
+#: rc.cpp:2353
 msgid "Locki&ng"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2058
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2662
+#: rc.cpp:2356
 msgid "S&trict locking"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2102
 #. i18n: ectx: property (text), widget (QCheckBox, blockingLocksChk)
-#: rc.cpp:2674
+#: rc.cpp:2368
 msgid "Blockin&g locks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2109
 #. i18n: ectx: property (text), widget (QCheckBox, posixLockingChk)
-#: rc.cpp:2677
+#: rc.cpp:2371
 msgid "Posi&x locking"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2116
 #. i18n: ectx: property (text), widget (QCheckBox, shareModesChk)
-#: rc.cpp:2680
+#: rc.cpp:2374
 msgid "Share mo&des"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2123
 #. i18n: ectx: property (text), widget (QCheckBox, oplocksChk)
-#: rc.cpp:2683
+#: rc.cpp:2377
 msgid "Issue oppo&rtunistic locks (oplocks) "
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2130
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox59)
-#: rc.cpp:2686
+#: rc.cpp:2380
 msgid "O&plocks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2136
 #. i18n: ectx: property (text), widget (QCheckBox, level2OplocksChk)
-#: rc.cpp:2689
+#: rc.cpp:2383
 msgid "Le&vel2 oplocks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2148
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_3_3_2_2)
-#: rc.cpp:2692
+#: rc.cpp:2386
 msgid "Oplock contention li&mit:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2189
 #. i18n: ectx: property (text), widget (QCheckBox, fakeOplocksChk)
-#: rc.cpp:2695
+#: rc.cpp:2389
 msgid "Fak&e oplocks"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2225
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_6)
-#: rc.cpp:2701
+#: rc.cpp:2395
 msgid "Vfs ob&jects:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2241
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_6_2)
-#: rc.cpp:2704
+#: rc.cpp:2398
 msgid "Vfs o&ptions:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2280
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:2710
+#: rc.cpp:2404
 msgid "P&reexec:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2296
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2)
-#: rc.cpp:2713
+#: rc.cpp:2407
 msgid "Root pr&eexec:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2312
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: rc.cpp:2716
+#: rc.cpp:2410
 msgid "Pos&texec:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2328
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5_2_4)
-#: rc.cpp:2719
+#: rc.cpp:2413
 msgid "Root &postexec:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2344
 #. i18n: ectx: property (text), widget (QCheckBox, preexecCloseChk)
-#: rc.cpp:2722
+#: rc.cpp:2416
 msgid "preexec c&lose"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2351
 #. i18n: ectx: property (text), widget (QCheckBox, rootPreexecCloseChk)
-#: rc.cpp:2725
+#: rc.cpp:2419
 msgid "root pree&xec close"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2381
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2)
-#: rc.cpp:2731
+#: rc.cpp:2425
 msgid "&Volume:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2397
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_2)
-#: rc.cpp:2734
+#: rc.cpp:2428
 msgid "Fst&ype:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2413
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_3)
-#: rc.cpp:2737
+#: rc.cpp:2431
 msgid "Ma&gic script:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2429
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_2_2)
-#: rc.cpp:2740
+#: rc.cpp:2434
 msgid "Mag&ic output:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2445
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_3_2)
-#: rc.cpp:2743
+#: rc.cpp:2437
 msgid "Do &not descend:"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2461
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6_2_3_3)
-#: rc.cpp:2746
+#: rc.cpp:2440
 msgid "Msdfs pro&xy"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2477
 #. i18n: ectx: property (text), widget (QCheckBox, setDirectoryChk)
-#: rc.cpp:2749
+#: rc.cpp:2443
 msgid "Setdir command allo&wed"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2484
 #. i18n: ectx: property (text), widget (QCheckBox, fakeDirectoryCreateTimesChk)
-#: rc.cpp:2752
+#: rc.cpp:2446
 msgid "Fa&ke directory create times"
 msgstr ""
 
 #. i18n: file: advanced/kcm_sambaconf/share.ui:2491
 #. i18n: ectx: property (text), widget (QCheckBox, msdfsRootChk)
-#: rc.cpp:2755
+#: rc.cpp:2449
 msgid "Ms&dfs root"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:35
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2770
+#: rc.cpp:2464
 msgid "Folder:"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:50
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2773
+#: rc.cpp:2467
 msgid "S&hare this folder in the local network"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:92
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2776
+#: rc.cpp:2470
 msgid "Share with &NFS (Linux/UNIX)"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:103
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2779 advanced/nfs/nfsdialog.cpp:49
+#: rc.cpp:2473 advanced/nfs/nfsdialog.cpp:49
 msgid "NFS Options"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:122
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2782
+#: rc.cpp:2476
 msgid "Pu&blic"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:133
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2785
+#: rc.cpp:2479
 msgid "W&ritable"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:171
 #. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:2788
+#: rc.cpp:2482
 msgid "More NFS Op&tions"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:200
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2791
+#: rc.cpp:2485
 msgid "Share with S&amba (Microsoft(R) Windows(R))"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:211
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2794
+#: rc.cpp:2488
 msgid "Samba Options"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:230
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2797 advanced/kcm_sambaconf/usertabimpl.cpp:280
+#: rc.cpp:2491 advanced/kcm_sambaconf/usertabimpl.cpp:279
 msgid "Name:"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:253
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:2800
+#: rc.cpp:2494
 msgid "P&ublic"
 msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:302
 #. i18n: ectx: property (text), widget (KPushButton)
-#: rc.cpp:2806
+#: rc.cpp:2500
 msgid "Mor&e Samba Options"
 msgstr ""
 
@@ -5570,94 +4997,94 @@ msgstr ""
 msgid "Share Folder"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:62 simple/groupconfigdlg.cpp:275
+#: simple/groupconfigdlg.cpp:72 simple/groupconfigdlg.cpp:285
 msgid "Allowed Users"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:136
+#: simple/groupconfigdlg.cpp:146
 #, kde-format
 msgid "All users are in the %1 group already."
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:153
+#: simple/groupconfigdlg.cpp:163
 msgid "Select User"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:154
+#: simple/groupconfigdlg.cpp:164
 msgid "Select a user:"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:181
+#: simple/groupconfigdlg.cpp:191
 #, kde-format
 msgid "Could not add user '%1' to group '%2'"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:193
+#: simple/groupconfigdlg.cpp:203
 #, kde-format
 msgid "Could not remove user '%1' from group '%2'"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:208
+#: simple/groupconfigdlg.cpp:218
 msgid "You have to choose a valid group."
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:284
+#: simple/groupconfigdlg.cpp:294
 msgid "New file share group:"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:291
+#: simple/groupconfigdlg.cpp:301
 msgid "Add users from the old file share group to the new one"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:295
+#: simple/groupconfigdlg.cpp:305
 msgid "Remove users from old file share group"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:299
+#: simple/groupconfigdlg.cpp:309
 msgid "Delete the old file share group"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:352
+#: simple/groupconfigdlg.cpp:362
 msgid "Only users of a certain group are allowed to share folders"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:353
+#: simple/groupconfigdlg.cpp:363
 msgid "Choose Group..."
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:373
+#: simple/groupconfigdlg.cpp:383
 #, kde-format
 msgid "Do you really want to remove all users from group '%1'?"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:390
+#: simple/groupconfigdlg.cpp:400
 #, kde-format
 msgid "Do you really want to delete group '%1'?"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:397
+#: simple/groupconfigdlg.cpp:407
 #, kde-format
 msgid "Deleting group '%1' failed."
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:406
+#: simple/groupconfigdlg.cpp:416
 msgid "Please choose a valid group."
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:411
+#: simple/groupconfigdlg.cpp:421
 #, kde-format
 msgid "This group '%1' does not exist. Should it be created?"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:411
+#: simple/groupconfigdlg.cpp:421
 msgid "Create"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:411
+#: simple/groupconfigdlg.cpp:421
 msgid "Do Not Create"
 msgstr ""
 
-#: simple/groupconfigdlg.cpp:418
+#: simple/groupconfigdlg.cpp:428
 #, kde-format
 msgid "Creation of group '%1' failed."
 msgstr ""
@@ -5879,25 +5306,33 @@ msgstr ""
 msgid "Could Not Read File"
 msgstr ""
 
-#: advanced/kcm_sambaconf/usertabimpl.cpp:223
+#: advanced/kcm_sambaconf/usertabimpl.cpp:222
 msgid "Default"
 msgstr ""
 
-#: advanced/kcm_sambaconf/usertabimpl.cpp:223
+#: advanced/kcm_sambaconf/usertabimpl.cpp:222
 msgid "Read only"
 msgstr ""
 
-#: advanced/kcm_sambaconf/usertabimpl.cpp:223
+#: advanced/kcm_sambaconf/usertabimpl.cpp:222
 msgid "Writeable"
 msgstr ""
 
-#: advanced/kcm_sambaconf/usertabimpl.cpp:223
+#: advanced/kcm_sambaconf/usertabimpl.cpp:222
 msgid "Admin"
 msgstr ""
 
 #: advanced/kcm_sambaconf/dictmanager.cpp:64
 #, kde-format
 msgid "The option <em>%1</em> is not supported by your Samba version"
+msgstr ""
+
+#: advanced/kcm_sambaconf/joindomaindlg.ui.h:15
+msgid "Sorry"
+msgstr ""
+
+#: advanced/kcm_sambaconf/joindomaindlg.ui.h:15
+msgid "You entered two different passwords. Please try again."
 msgstr ""
 
 #: advanced/propsdlgplugin/propsdlgshareplugin.cpp:60
