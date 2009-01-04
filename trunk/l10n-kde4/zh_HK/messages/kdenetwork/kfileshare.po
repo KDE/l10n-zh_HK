@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_sambaconf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-03 10:59+0100\n"
+"POT-Creation-Date: 2009-01-04 10:29+0100\n"
 "PO-Revision-Date: 2006-01-02 22:10+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -60,42 +60,42 @@ msgstr "群組成員毋須系統管理員（root）密碼就可以分享資料�
 msgid "Change Group..."
 msgstr "更改群組..."
 
-#. i18n: file: simple/controlcenter.ui:30
-#. i18n: ectx: property (text), widget (KRichTextLabel)
+#. i18n: file: simple/controlcenter.ui:25
+#. i18n: ectx: property (text), widget (KRichTextLabel, infoLbl)
 #: rc.cpp:26
 msgid ""
 "SMB and NFS servers are not installed on this machine, to enable this module "
 "the servers must be installed."
 msgstr "這部機器未安裝 SMB 及 NFS 伺服器，必須安裝這些伺服器才能開啟這個模組。"
 
-#. i18n: file: simple/controlcenter.ui:44
-#. i18n: ectx: property (title), widget (QButtonGroup)
+#. i18n: file: simple/controlcenter.ui:38
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, shareGrp)
 #: rc.cpp:29
 msgid "Enable Local Networ&k File Sharing"
 msgstr "啟動區域網絡檔案分享(&K)"
 
-#. i18n: file: simple/controlcenter.ui:61
-#. i18n: ectx: property (text), widget (QRadioButton)
+#. i18n: file: simple/controlcenter.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, simpleRadio)
 #: rc.cpp:32
 msgid "Si&mple sharing"
 msgstr "簡單分享(&M)"
 
-#. i18n: file: simple/controlcenter.ui:116
-#. i18n: ectx: property (text), widget (KRichTextLabel)
+#. i18n: file: simple/controlcenter.ui:97
+#. i18n: ectx: property (text), widget (KRichTextLabel, textLabel1)
 #: rc.cpp:35
 msgid ""
 "Enable simple sharing to allow users to share folders from their HOME "
 "folder, without knowing the root password."
 msgstr "啟動簡單分享讓使用者在他們的家目錄分享資料夾，毋須知道系統管理員密碼。"
 
-#. i18n: file: simple/controlcenter.ui:132
-#. i18n: ectx: property (text), widget (QRadioButton)
+#. i18n: file: simple/controlcenter.ui:112
+#. i18n: ectx: property (text), widget (QRadioButton, advancedRadio)
 #: rc.cpp:38
 msgid "Advanced sharin&g"
 msgstr "進階分享(&G)"
 
-#. i18n: file: simple/controlcenter.ui:184
-#. i18n: ectx: property (text), widget (KRichTextLabel)
+#. i18n: file: simple/controlcenter.ui:156
+#. i18n: ectx: property (text), widget (KRichTextLabel, textLabel1_2)
 #: rc.cpp:41
 msgid ""
 "Enable advanced sharing to allow users to share any folders, as long as they "
@@ -105,92 +105,92 @@ msgstr ""
 "啟動進階分享讓使用者分享任何資料夾，只要他們有所需檔案的寫入權限，或他們知道"
 "系統管理員密碼。"
 
-#. i18n: file: simple/controlcenter.ui:239
-#. i18n: ectx: property (text), widget (QCheckBox)
+#. i18n: file: simple/controlcenter.ui:203
+#. i18n: ectx: property (text), widget (QCheckBox, nfsChk)
 #: rc.cpp:44
 msgid "Use &NFS (Linux/UNIX)"
 msgstr "使用 &NFS (Linux/UNIX)"
 
-#. i18n: file: simple/controlcenter.ui:253
-#. i18n: ectx: property (text), widget (QCheckBox)
+#. i18n: file: simple/controlcenter.ui:216
+#. i18n: ectx: property (text), widget (QCheckBox, sambaChk)
 #: rc.cpp:47
 msgid "Use Sam&ba (Microsoft(R) Windows(R))"
 msgstr "使用 Sam&ba (Microsoft(R) Windows(R))"
 
-#. i18n: file: simple/controlcenter.ui:274
-#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: simple/controlcenter.ui:230
+#. i18n: ectx: property (text), widget (KPushButton, allowedUsersBtn)
 #: rc.cpp:50
 msgid "Allo&wed Users"
 msgstr "容許的使用者(&W)"
 
-#. i18n: file: simple/controlcenter.ui:303
-#. i18n: ectx: property (title), widget (QGroupBox)
+#. i18n: file: simple/controlcenter.ui:258
+#. i18n: ectx: property (title), widget (Q3GroupBox, sharedFoldersGroupBox)
 #: rc.cpp:53
 msgid "Shared Folders"
 msgstr "分享的資料夾"
 
-#. i18n: file: simple/controlcenter.ui:312
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: simple/controlcenter.ui:268
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:618
 #. i18n: ectx: property (text), widget (K3ListView, shareListView)
-#. i18n: file: simple/controlcenter.ui:312
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: simple/controlcenter.ui:268
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:618
 #. i18n: ectx: property (text), widget (K3ListView, shareListView)
 #: rc.cpp:56 rc.cpp:627
 msgid "Path"
 msgstr "路徑"
 
-#. i18n: file: simple/controlcenter.ui:323
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: simple/controlcenter.ui:279
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #: rc.cpp:59
 msgid "Samba"
 msgstr "Samba"
 
-#. i18n: file: simple/controlcenter.ui:334
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: simple/controlcenter.ui:290
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #: rc.cpp:62
 msgid "NFS"
 msgstr "NFS"
 
-#. i18n: file: simple/controlcenter.ui:375
-#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: simple/controlcenter.ui:319
+#. i18n: ectx: property (text), widget (KPushButton, addShareBtn)
 #: rc.cpp:65
 msgid "A&dd..."
 msgstr "新增(&D)..."
 
-#. i18n: file: simple/controlcenter.ui:386
-#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: simple/controlcenter.ui:329
+#. i18n: ectx: property (text), widget (KPushButton, changeShareBtn)
 #: rc.cpp:68
 msgid "Chang&e..."
 msgstr "更改(&E)..."
 
-#. i18n: file: simple/controlcenter.ui:397
-#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: simple/controlcenter.ui:339
+#. i18n: ectx: property (text), widget (KPushButton, removeShareBtn)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:981
 #. i18n: ectx: property (text), widget (QPushButton, removeSambaUserBtn)
-#. i18n: file: simple/controlcenter.ui:397
-#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: simple/controlcenter.ui:339
+#. i18n: ectx: property (text), widget (KPushButton, removeShareBtn)
 #. i18n: file: advanced/kcm_sambaconf/kcminterface.ui:981
 #. i18n: ectx: property (text), widget (QPushButton, removeSambaUserBtn)
 #: rc.cpp:71 rc.cpp:699
 msgid "Rem&ove"
 msgstr "移除(&O)"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:33
-#. i18n: ectx: property (title), widget (QGroupBox)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:28
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox)
 #: rc.cpp:74
 msgid "Allowed &Hosts"
 msgstr "容許的主機(&H)"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:36
-#. i18n: ectx: property (toolTip), widget (QGroupBox)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:31
+#. i18n: ectx: property (toolTip), widget (Q3GroupBox, groupBox)
 #: rc.cpp:77
 msgid "A list of allowed hosts"
 msgstr "容許的主機列表"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:40
-#. i18n: ectx: property (whatsThis), widget (QGroupBox)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:35
+#. i18n: ectx: property (whatsThis), widget (Q3GroupBox, groupBox)
 #: rc.cpp:80
 msgid ""
 "Here you can see a list of hosts which are allowed to access this directory "
@@ -201,32 +201,32 @@ msgstr ""
 "在此您可看到容許以 NFS 存取這目錄的主機列表。\n"
 "第一欄顯示主機的名稱或位址，第二欄顯示存取參數。名稱『*』代表公眾存取。"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:57
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, addHostBtn)
 #: rc.cpp:84
 msgid "&Add Host..."
 msgstr "新增主機(&A)..."
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:68
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, modifyHostBtn)
 #: rc.cpp:87
 msgid "Mo&dify Host..."
 msgstr "修改主機(&D)..."
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:79
-#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:67
+#. i18n: ectx: property (text), widget (QPushButton, removeHostBtn)
 #: rc.cpp:90
 msgid "&Remove Host"
 msgstr "移除主機(&R)"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:102
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:97
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #: rc.cpp:93
 msgid "Name/Address"
 msgstr "名稱/位址"
 
-#. i18n: file: advanced/nfs/nfsdialoggui.ui:113
-#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: file: advanced/nfs/nfsdialoggui.ui:108
+#. i18n: ectx: property (text), widget (K3ListView, listView)
 #: rc.cpp:96
 msgid "Parameters"
 msgstr "參數"
@@ -4912,7 +4912,7 @@ msgstr ""
 
 #. i18n: file: advanced/propsdlgplugin/propertiespagegui.ui:103
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:2473 advanced/nfs/nfsdialog.cpp:49
+#: rc.cpp:2473 advanced/nfs/nfsdialog.cpp:64
 msgid "NFS Options"
 msgstr ""
 
@@ -4964,28 +4964,28 @@ msgstr ""
 msgid "Mor&e Samba Options"
 msgstr ""
 
-#: simple/fileshare.cpp:100
+#: simple/fileshare.cpp:125
 msgid "No NFS server installed on this system"
 msgstr ""
 
-#: simple/fileshare.cpp:106
+#: simple/fileshare.cpp:131
 msgid "No Samba server installed on this system"
 msgstr ""
 
-#: simple/fileshare.cpp:301
+#: simple/fileshare.cpp:326
 msgid "Could not save settings."
 msgstr ""
 
-#: simple/fileshare.cpp:302
+#: simple/fileshare.cpp:327
 #, kde-format
 msgid "Could not open file '%1' for writing: %2"
 msgstr ""
 
-#: simple/fileshare.cpp:304
+#: simple/fileshare.cpp:329
 msgid "Saving Failed"
 msgstr ""
 
-#: simple/fileshare.cpp:345
+#: simple/fileshare.cpp:370
 msgid ""
 "<h1>File Sharing</h1><p>This module can be used to enable file sharing over "
 "the network using the \"Network File System\" (NFS) or SMB in Konqueror. The "
@@ -4993,7 +4993,7 @@ msgid ""
 "network.</p>"
 msgstr ""
 
-#: simple/fileshare.cpp:364
+#: simple/fileshare.cpp:389
 msgid "Share Folder"
 msgstr ""
 
