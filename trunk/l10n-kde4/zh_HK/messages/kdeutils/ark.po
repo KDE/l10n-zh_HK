@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-04 10:29+0100\n"
+"POT-Creation-Date: 2009-01-06 10:02+0100\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -280,7 +280,7 @@ msgstr "壓縮檔已經存在"
 msgid "Extract here"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:121 part/part.cpp:293
+#: kerfuffle/extractiondialog.cpp:121 part/part.cpp:318
 msgid "Cancel"
 msgstr ""
 
@@ -303,14 +303,14 @@ msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:171
+#: kerfuffle/jobs.cpp:176
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:194
+#: kerfuffle/jobs.cpp:199
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
@@ -474,7 +474,7 @@ msgstr ""
 msgid "Operation finished."
 msgstr "開啟解壓對話視窗，完成後離開"
 
-#: part/part.cpp:165
+#: part/part.cpp:188
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -482,140 +482,140 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:167
+#: part/part.cpp:190
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:172
+#: part/part.cpp:195
 msgid "E&xtract..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:174
+#: part/part.cpp:197
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:181
+#: part/part.cpp:204
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:182
+#: part/part.cpp:205
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:188
+#: part/part.cpp:211
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:189
+#: part/part.cpp:212
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:195
+#: part/part.cpp:218
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:196
+#: part/part.cpp:219
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:218
+#: part/part.cpp:241
 #, fuzzy
 #| msgctxt "folder for opening files (used as part of a sentence)"
 #| msgid "open folder"
 msgid "Recent folders"
 msgstr "開啟資料夾"
 
-#: part/part.cpp:222
+#: part/part.cpp:245
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick extract to..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:283
+#: part/part.cpp:308
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:293
+#: part/part.cpp:318
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid "The file '%1' already exists. Would you like to open it instead?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:293
+#: part/part.cpp:318
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgid "File exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:293
+#: part/part.cpp:318
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open file"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:304
+#: part/part.cpp:329
 #, kde-format
 msgid "Error opening archive: the file '%1' was not found."
 msgstr ""
 
-#: part/part.cpp:304 part/part.cpp:335 part/part.cpp:376
+#: part/part.cpp:329 part/part.cpp:360 part/part.cpp:401
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Error opening archive"
 msgstr "開啟「壓縮檔」"
 
-#: part/part.cpp:318 part/part.cpp:321
+#: part/part.cpp:343 part/part.cpp:346
 msgid "Unable to determine archive type"
 msgstr ""
 
-#: part/part.cpp:319
+#: part/part.cpp:344
 msgid ""
 "Ark was unable to automatically determine the archive type of the filename. "
 "Please use a standard file extension (such as zip, rar or tar.gz), or "
 "manually choose one from the following mimetypes."
 msgstr ""
 
-#: part/part.cpp:322
+#: part/part.cpp:347
 msgid ""
 "Ark was unable to automatically determine the archive type of the filename. "
 "Please choose the correct one from one of the following mimetypes."
 msgstr ""
 
-#: part/part.cpp:335
+#: part/part.cpp:360
 #, kde-format
 msgid ""
 "Ark was not able to open the archive '%1'. No library capable of handling "
 "the file was found."
 msgstr ""
 
-#: part/part.cpp:376
+#: part/part.cpp:401
 #, kde-format
 msgid "Reading the archive '%1' failed with the error '%2'"
 msgstr ""
 
-#: part/part.cpp:507
+#: part/part.cpp:532
 #, fuzzy, kde-format
 #| msgid "The folder could not be created. Please check permissions."
 msgid "The folder '%1' could not be created. Please check permissions."
 msgstr "無法建立資料夾，請檢查權限。"
 
-#: part/part.cpp:649
+#: part/part.cpp:675
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:658
+#: part/part.cpp:684
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
@@ -625,7 +625,7 @@ msgstr "加入資料夾(&R)..."
 msgid "Unable to find 7zr, 7za or 7z"
 msgstr ""
 
-#: plugins/7zipplugin/7zipplugin.cpp:573 plugins/rarplugin/rarplugin.cpp:507
+#: plugins/7zipplugin/7zipplugin.cpp:573 plugins/rarplugin/rarplugin.cpp:509
 #, fuzzy
 #| msgid "An error occurred while extracting the archive."
 msgid "Unknown error when extracting files"
@@ -655,7 +655,7 @@ msgid "Could not add the directory %1 to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
 #: plugins/karchiveplugin/karchiveplugin.cpp:205
-#: plugins/libzipplugin/zipplugin.cpp:416
+#: plugins/libzipplugin/zipplugin.cpp:430
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not add the file %1 to the archive."
@@ -672,57 +672,57 @@ msgstr "加入檔案到壓縮檔時發生錯誤。"
 msgid "The archive reading failed with message: %1"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:183
+#: plugins/libarchive/libarchivehandler.cpp:175
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Couldn't open the file '%1', libarchive can't handle it."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchivehandler.cpp:224
+#: plugins/libarchive/libarchivehandler.cpp:216
 msgid ""
 "This archive contains archive entries with absolute paths, which are not yet "
 "supported by ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:436
-#: plugins/libarchive/libarchivehandler.cpp:627
+#: plugins/libarchive/libarchivehandler.cpp:424
+#: plugins/libarchive/libarchivehandler.cpp:615
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:445
-#: plugins/libarchive/libarchivehandler.cpp:636
+#: plugins/libarchive/libarchivehandler.cpp:433
+#: plugins/libarchive/libarchivehandler.cpp:624
 msgid "The source file could not be read."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:454
-#: plugins/libarchive/libarchivehandler.cpp:644
+#: plugins/libarchive/libarchivehandler.cpp:442
+#: plugins/libarchive/libarchivehandler.cpp:632
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:474
-#: plugins/libarchive/libarchivehandler.cpp:496
-#: plugins/libarchive/libarchivehandler.cpp:663
+#: plugins/libarchive/libarchivehandler.cpp:462
+#: plugins/libarchive/libarchivehandler.cpp:484
+#: plugins/libarchive/libarchivehandler.cpp:651
 #, kde-format
 msgid "Setting compression failed with the error '%1'"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:479
+#: plugins/libarchive/libarchivehandler.cpp:467
 #, kde-format
 msgid "Setting format failed with the error '%1'"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:492
-#: plugins/libarchive/libarchivehandler.cpp:659
+#: plugins/libarchive/libarchivehandler.cpp:480
+#: plugins/libarchive/libarchivehandler.cpp:647
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:503
-#: plugins/libarchive/libarchivehandler.cpp:669
+#: plugins/libarchive/libarchivehandler.cpp:491
+#: plugins/libarchive/libarchivehandler.cpp:657
 #, kde-format
 msgid "Opening the archive for writing failed with error message '%1'"
 msgstr ""
@@ -739,37 +739,37 @@ msgstr "無法建立資料夾 %1"
 msgid "An error occurred while trying to read entry #%1 of the archive"
 msgstr "嘗試建立壓縮檔時發生錯誤。"
 
-#: plugins/libzipplugin/zipplugin.cpp:218
+#: plugins/libzipplugin/zipplugin.cpp:224
 #, fuzzy
 #| msgid "Could not create the folder %1"
 msgid "Could not create path"
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libzipplugin/zipplugin.cpp:241
+#: plugins/libzipplugin/zipplugin.cpp:247
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgid "Could not write to the destination file %1, path %2"
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libzipplugin/zipplugin.cpp:285
+#: plugins/libzipplugin/zipplugin.cpp:298
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not locate file '%1' in the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libzipplugin/zipplugin.cpp:305
+#: plugins/libzipplugin/zipplugin.cpp:319
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not locate file #%1 in the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libzipplugin/zipplugin.cpp:408
+#: plugins/libzipplugin/zipplugin.cpp:422
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgid "Could not read from the input file '%1'"
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libzipplugin/zipplugin.cpp:434
+#: plugins/libzipplugin/zipplugin.cpp:448
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not find a file named %1 in the archive."
@@ -779,7 +779,7 @@ msgstr "加入檔案到壓縮檔時發生錯誤。"
 msgid "Neither rar or unrar are available in your PATH."
 msgstr ""
 
-#: plugins/rarplugin/rarplugin.cpp:214
+#: plugins/rarplugin/rarplugin.cpp:216
 msgid "Password input cancelled by user."
 msgstr ""
 
