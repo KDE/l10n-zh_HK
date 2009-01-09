@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-03 10:59+0100\n"
+"POT-Creation-Date: 2009-01-09 10:45+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -219,7 +219,7 @@ msgstr "隱形"
 #. i18n: file: kopete/config/behavior/behaviorconfig_general.ui:145
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: libkopete/kopeteonlinestatus.cpp:169 libkopete/kopetemetacontact.cpp:473
-#: libkopete/kopetestatusmanager.cpp:294 libkopete/kopeteidentity.cpp:166
+#: libkopete/kopetestatusmanager.cpp:294 libkopete/kopeteidentity.cpp:167
 #: kopete/kopetewindow.cpp:377
 #: kopete/config/status/statusconfig_manager.cpp:66 rc.cpp:304
 #: plugins/statistics/statisticscontact.cpp:262
@@ -293,7 +293,7 @@ msgid "File transfer %1 cancelled."
 msgstr "檔案傳輸取消。"
 
 #: libkopete/kopetetransfermanager.cpp:469 protocols/qq/qqcontact.cpp:418
-#: protocols/msn/msncontact.cpp:615 protocols/wlm/wlmcontact.cpp:89
+#: protocols/msn/msncontact.cpp:615 protocols/wlm/wlmcontact.cpp:141
 #: protocols/gadu/gaducontact.cpp:100 protocols/oscar/oscarcontact.cpp:350
 #: protocols/jabber/jabbercontact.cpp:1061
 #: protocols/jabber/jabbergroupmembercontact.cpp:159
@@ -769,7 +769,7 @@ msgstr "忙碌"
 msgid "Sorry, I am busy right now"
 msgstr "抱歉，我現在在忙。"
 
-#: libkopete/kopeteidentity.cpp:160
+#: libkopete/kopeteidentity.cpp:161
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -785,7 +785,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: libkopete/kopeteidentity.cpp:168
+#: libkopete/kopeteidentity.cpp:169
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -1890,8 +1890,8 @@ msgstr "一般資訊"
 msgid "Detailed Information"
 msgstr "個人資訊"
 
-#: kopete/identity/identitystatuswidget.cpp:191
-#: kopete/identity/identitystatuswidget.cpp:227
+#: kopete/identity/identitystatuswidget.cpp:205
+#: kopete/identity/identitystatuswidget.cpp:241
 #, fuzzy
 #| msgid "Add new account"
 msgctxt "Button to open account configuration widget"
@@ -16460,7 +16460,7 @@ msgid "Block User"
 msgstr "封鎖使用者"
 
 #: protocols/qq/qqcontact.cpp:143 protocols/msn/msncontact.cpp:147
-#: protocols/wlm/wlmcontact.cpp:56 protocols/gadu/gaducontact.cpp:192
+#: protocols/wlm/wlmcontact.cpp:61 protocols/gadu/gaducontact.cpp:192
 msgid "Show Profile"
 msgstr "顯示個人檔案"
 
@@ -17462,7 +17462,7 @@ msgstr ""
 msgid "MSN Mobile"
 msgstr ""
 
-#: protocols/msn/msncontact.cpp:640 protocols/wlm/wlmcontact.cpp:256
+#: protocols/msn/msncontact.cpp:640 protocols/wlm/wlmcontact.cpp:377
 #: protocols/groupwise/gwcontact.cpp:240
 #, kde-format
 msgid "%1|Blocked"
@@ -17740,19 +17740,19 @@ msgid "<qt>You must enter a valid WLM passport.</qt>"
 msgstr "<qt>你必須輸入有效的密碼。</qt>"
 
 #: protocols/wlm/ui/wlmeditaccountwidget.cpp:175
-#: protocols/wlm/wlmcontact.cpp:215
+#: protocols/wlm/wlmcontact.cpp:336
 #, fuzzy
 #| msgid "MSN Plugin"
 msgid "WLM Plugin"
 msgstr "MSN 插件"
 
-#: protocols/wlm/wlmcontact.cpp:53
+#: protocols/wlm/wlmcontact.cpp:58
 #, fuzzy
 #| msgid "&Block Contact"
 msgid "Block Contact"
 msgstr "封鎖聯絡人(&B)"
 
-#: protocols/wlm/wlmcontact.cpp:214
+#: protocols/wlm/wlmcontact.cpp:335
 #, fuzzy
 #| msgid ""
 #| "<qt>Please go online to remove a contact from your contact list.</qt>"
