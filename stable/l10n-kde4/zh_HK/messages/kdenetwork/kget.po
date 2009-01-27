@@ -1,0 +1,4048 @@
+# Chinese (Hong Kong) translation fot KGet
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# tonniewalker <tonniewalker@hotmail.com>, 2002.
+# Tse-Chun Ho <saviro.tw@yahoo.com.tw>, 2002.
+# Walter Cheuk <wwycheuk@netvigator.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KGet\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-08 10:31+0100\n"
+"PO-Revision-Date: 2006-01-03 22:09\n"
+"Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
+"Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: conf/pluginselector.cpp:26 conf/preferencesdialog.cpp:75
+msgid "Plugins"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:73
+msgid "The group name is empty"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:73
+msgid ""
+"A group can not have an empty name\n"
+"Please select a new one"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:84
+msgid "Group name already in use"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:84
+msgid ""
+"Another group with this name already exists\n"
+"Please select a different name"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:102 conf/transfersgroupwidget.cpp:107
+#, fuzzy
+msgid "New Group"
+msgstr "預設的資料夾"
+
+#: conf/transfersgroupwidget.cpp:128 core/kget.cpp:666 ui/contextmenu.cpp:132
+#, fuzzy
+msgid "My Downloads"
+msgstr "下載已續傳"
+
+#: conf/transfersgroupwidget.cpp:130
+msgid "You can not delete this group!"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:135
+#, fuzzy, kde-format
+msgid ""
+"Are you sure that you want to remove\n"
+"the group named %1?"
+msgstr "你確定要刪除這些傳輸嗎？"
+
+#. i18n: file: conf/dlgdirectories.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: conf/transfersgroupwidget.cpp:170 rc.cpp:74
+msgid "Add"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:154
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: conf/transfersgroupwidget.cpp:172 rc.cpp:80
+#, fuzzy
+#| msgid "Not Deleted"
+msgid "Delete"
+msgstr "沒有刪除"
+
+#: conf/transfersgroupwidget.cpp:175
+#, fuzzy
+msgid "Rename"
+msgstr "預設的資料夾"
+
+#: conf/transfersgroupwidget.cpp:181
+msgid "Select Icon"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:183
+msgid "Configure..."
+msgstr ""
+
+#: conf/preferencesdialog.cpp:48
+msgid "Xml"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:50
+msgid "Sqlite"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:54
+msgid "Turn off the computer"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:69
+msgid "Appearance"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:69
+msgid "Change appearance settings"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:70
+msgid "Groups"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:70
+msgid "Manage the groups"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:97
+#. i18n: ectx: property (title), widget (QGroupBox, folderGroupBox)
+#: conf/preferencesdialog.cpp:71 rc.cpp:243
+msgid "Folders"
+msgstr "資料夾"
+
+#: conf/preferencesdialog.cpp:71
+#, fuzzy
+msgid "Default Download Folders"
+msgstr "預設的資料夾"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, networkGroupBox)
+#: conf/preferencesdialog.cpp:72 rc.cpp:219
+msgid "Network"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:72
+#, fuzzy
+msgid "Network and Downloads"
+msgstr "標示部份下載的檔案"
+
+#: conf/preferencesdialog.cpp:73
+msgid "Webinterface"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:73
+msgid "Control KGet over Network or Internet"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:74
+#, fuzzy
+#| msgid "Advanced"
+msgctxt "Advanced Options"
+msgid "Advanced"
+msgstr "進階"
+
+#: conf/preferencesdialog.cpp:74
+msgid "Advanced Options"
+msgstr "進階選項"
+
+#: conf/preferencesdialog.cpp:75
+#, fuzzy
+msgid "Transfer Plugins"
+msgstr "開啟傳輸："
+
+#: conf/dlgdirectories.cpp:141
+msgid "Folder and extension can not be empty."
+msgstr ""
+
+#: conf/dlgdirectories.cpp:141 core/kget.cpp:454 core/kget.cpp:838
+#: core/kget.cpp:846 transfer-plugins/bittorrent/bttransfer.cpp:333
+#: transfer-plugins/bittorrent/bttransfer.cpp:344
+msgid "Error"
+msgstr ""
+
+#: core/transfertreemodel.cpp:294
+#, fuzzy
+#| msgid "Name"
+msgctxt "name of download"
+msgid "Name"
+msgstr "名稱"
+
+#: core/transfertreemodel.cpp:296
+#, fuzzy
+msgctxt "status of download"
+msgid "Status"
+msgstr "重新開始(&S)"
+
+#: core/transfertreemodel.cpp:298
+msgctxt "size of download"
+msgid "Size"
+msgstr ""
+
+#: core/transfertreemodel.cpp:300
+#, fuzzy
+msgctxt "progress of download"
+msgid "Progress"
+msgstr "進度對話方塊"
+
+#: core/transfertreemodel.cpp:302
+#, fuzzy
+#| msgid "Speed"
+msgctxt "speed of download"
+msgid "Speed"
+msgstr "速度"
+
+#: core/transfertreemodel.cpp:304
+#, fuzzy
+#| msgid "Rem. Time"
+msgctxt "remaining time of download"
+msgid "Remaining Time"
+msgstr "剩下的時間"
+
+#: core/transfertreemodel.cpp:559
+#, fuzzy
+#| msgid "Name"
+msgid "Name"
+msgstr "名稱"
+
+#: core/transfertreemodel.cpp:561
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+msgid "Status"
+msgstr "重新開始(&S)"
+
+#. i18n: file: ui/history/transferhistory.ui:120
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: core/transfertreemodel.cpp:563
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
+#: rc.cpp:471
+msgid "Size"
+msgstr ""
+
+#: core/transfertreemodel.cpp:565
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:193
+#, fuzzy
+msgid "Progress"
+msgstr "進度對話方塊"
+
+#: core/transfertreemodel.cpp:567
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed"
+msgstr "速度"
+
+#: core/transfertreemodel.cpp:569
+#, fuzzy
+#| msgid "Rem. Time"
+msgid "Remaining Time"
+msgstr "剩下的時間"
+
+#: core/transferhandler.cpp:143
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:27
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:28
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:29
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:30
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:31
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:32
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:33
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:34
+#: ui/transfersviewdelegate.cpp:353
+msgctxt "not available"
+msgid "n/a"
+msgstr ""
+
+#: core/transferhandler.cpp:151
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1468
+#: ui/transferdetails.cpp:89
+msgid "Stalled"
+msgstr "因擠塞停止了"
+
+#: core/transferhandler.cpp:156 core/transfergrouphandler.cpp:130
+#: ui/transferdetails.cpp:94
+#, kde-format
+msgid "%1/s"
+msgstr "%1/秒"
+
+#. i18n: file: conf/dlgadvanced.ui:40
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
+#: core/transferhandler.cpp:372 core/transferhandler.cpp:382
+#: ui/droptarget.cpp:88 rc.cpp:96
+#, fuzzy
+#| msgid "KGet"
+msgid "Quit KGet"
+msgstr "KGet"
+
+#: core/transferhandler.cpp:373
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "KGet quits now because all downloads have been completed."
+msgstr "所有下載已完成。"
+
+#: core/transferhandler.cpp:383
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid ""
+"The computer will turn off now because all downloads have been completed."
+msgstr "所有下載已完成。"
+
+#: core/transfergrouphandler.cpp:114
+#, kde-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] ""
+
+#: core/transfergrouphandler.cpp:312
+#, fuzzy
+msgctxt "start transfergroup downloads"
+msgid "Start"
+msgstr "重新開始(&S)"
+
+#: core/transfergrouphandler.cpp:318
+#, fuzzy
+msgctxt "stop transfergroup downloads"
+msgid "Stop"
+msgstr "已停止"
+
+#: core/transfer.cpp:49 core/transfer.cpp:137 core/transfer.cpp:205
+#: transfer-plugins/kio/transferKio.cpp:55
+#: transfer-plugins/metalink/metalink.cpp:53
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:62
+#: transfer-plugins/bittorrent/bttransfer.cpp:231
+#, fuzzy
+#| msgid "Stopped"
+msgctxt "transfer state: stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: core/transfer.cpp:130
+#, fuzzy
+#| msgid "Delayed"
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "已延遲"
+
+#: core/transfer.cpp:201 transfer-plugins/kio/transferKio.cpp:114
+#: transfer-plugins/metalink/metalink.cpp:103
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:206
+#: transfer-plugins/bittorrent/bttransfer.cpp:228
+#, fuzzy
+#| msgid "Finished"
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: core/linkimporter.cpp:90
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while writing file:\n"
+#| "%1"
+msgid "Error trying to get %1"
+msgstr ""
+"寫入檔案時發生錯誤：\n"
+"%1"
+
+#: core/kget.cpp:180
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Rename transfer"
+msgstr "開啟傳輸"
+
+#: core/kget.cpp:439
+#, fuzzy, kde-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"目標檔案\n"
+"%1\n"
+"已存在。\n"
+"是否要覆寫它？"
+
+#: core/kget.cpp:440
+msgid "Overwrite existing file?"
+msgstr ""
+
+#: core/kget.cpp:453
+#, kde-format
+msgid "Unable to save to: %1"
+msgstr ""
+
+#. i18n: file: ui/newtransferwidget.ui:24
+#. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
+#: core/kget.cpp:777 ui/newtransferdialog.cpp:219 rc.cpp:409
+#, fuzzy
+msgid "New Download"
+msgstr "再次下載"
+
+#: core/kget.cpp:777
+msgid "Enter URL:"
+msgstr ""
+
+#: core/kget.cpp:837
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"格式不正確的 URL:\n"
+"%1"
+
+#: core/kget.cpp:845
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL:\n"
+#| "%1"
+msgid ""
+"Malformed URL, protocol missing:\n"
+"%1"
+msgstr ""
+"格式不正確的 URL:\n"
+"%1"
+
+#: core/kget.cpp:858
+#, fuzzy, kde-format
+msgid ""
+"URL already saved:\n"
+"%1\n"
+"Download again?"
+msgstr ""
+"已經儲存 URL\n"
+"%1\n"
+"要再下載嗎？"
+
+#: core/kget.cpp:859
+#, fuzzy
+msgid "Download URL again?"
+msgstr "再次下載"
+
+#: core/kget.cpp:887 core/kget.cpp:894
+msgid "Directory is not writable"
+msgstr ""
+
+#: core/kget.cpp:904
+#, kde-format
+msgid ""
+"Destination file \n"
+"%1\n"
+"already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"目標檔案\n"
+"%1\n"
+"已存在。\n"
+"是否要覆寫它？"
+
+#: core/kget.cpp:1034
+#, kde-format
+msgid ""
+"<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
+msgstr ""
+
+#: core/kget.cpp:1052
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is a directory."
+msgstr ""
+"因為\n"
+"%1\n"
+"是個目錄，未能刪除。"
+
+#: core/kget.cpp:1062
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is not a local file."
+msgstr ""
+"因為\n"
+"%1\n"
+"不是本機檔案，未能刪除。"
+
+#: transfer-plugins/kio/transferKio.cpp:37
+#: transfer-plugins/metalink/metalink.cpp:37
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:44
+#, fuzzy
+#| msgid "Connection"
+msgctxt "transfer state: connecting"
+msgid "Connecting.."
+msgstr "連線數"
+
+#: transfer-plugins/kio/transferKio.cpp:125
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:217
+msgid "Aborted"
+msgstr ""
+
+#: transfer-plugins/kio/transferKio.cpp:153
+#, fuzzy
+msgid "Downloading..."
+msgstr "下載已續傳"
+
+#: transfer-plugins/kio/transferKio.cpp:167
+#: transfer-plugins/kio/transferKio.cpp:182
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:248
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:265
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:282
+#, fuzzy
+msgid "Downloading.."
+msgstr "下載已續傳"
+
+#: transfer-plugins/metalink/metalink.cpp:112
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr ""
+
+#: transfer-plugins/bittorrent/scandlg.cpp:81
+#, kde-format
+msgid "Error scanning data: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/scandlg.cpp:87
+#, kde-format
+msgid "Scanning data of <b>%1</b> :"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:256
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:71
+#, fuzzy
+msgid "File"
+msgstr "開啟檔案(&F)"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:64
+#, fuzzy
+msgctxt "Open file"
+msgid "Open"
+msgstr "開啟檔案(&F)"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:66
+#, fuzzy
+msgid "Download first"
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:67
+#, fuzzy
+msgid "Download normally"
+msgstr "預設的資料夾"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:68
+#, fuzzy
+msgid "Download last"
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:70
+#, fuzzy
+msgid "Do Not Download"
+msgstr "再次下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:71
+#, fuzzy
+#| msgid "Download Selected Files"
+msgid "Delete File(s)"
+msgstr "下載選擇的檔案"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:73
+#, fuzzy
+msgid "Move File"
+msgstr "開啟檔案(&F)"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:252
+msgid "You will lose all data in this file, are you sure you want to do this ?"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:253
+msgid ""
+"You will lose all data in these files, are you sure you want to do this ?"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:267
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:288
+msgid "Select a directory to move the data to."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:70
+msgctxt "Choked"
+msgid "Yes"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:70
+msgctxt "Not choked"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:71
+msgctxt "Snubbed"
+msgid "Yes"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:71
+msgctxt "Not snubbed"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:200
+#, fuzzy
+#| msgid "Address (URL)"
+msgid "IP Address"
+msgstr "位址（URL）"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:201
+msgid "Client"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:202
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:195
+#, fuzzy
+#| msgid "Speed"
+msgid "Down Speed"
+msgstr "速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:203
+#, fuzzy
+#| msgid "Speed"
+msgid "Up Speed"
+msgstr "速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:204
+#, fuzzy
+msgid "Choked"
+msgstr "停泊"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:205
+msgid "Snubbed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:206
+msgid "Availability"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:207
+msgid "DHT"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:208
+#, fuzzy
+#| msgid "Source:"
+msgid "Score"
+msgstr "來源："
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:209
+msgid "Upload Slot"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:210
+msgid "Requests"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:211
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:126
+#, fuzzy
+msgid "Downloaded"
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:212
+msgid "Uploaded"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:124
+msgid "URL"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Advanced-Details for %1"
+msgstr "預設的資料夾:"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:58
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Advanced Details for %1"
+msgstr "預設的資料夾:"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:197
+#, fuzzy
+msgid "Files"
+msgstr "開啟檔案(&F)"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:68
+msgid "Peers"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:154
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:71
+#: rc.cpp:269 rc.cpp:358
+msgid "Chunks"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:74
+#, fuzzy
+msgid "Trackers"
+msgstr "開啟傳輸(&T)"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:77
+msgid "Webseeds"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:92
+#, kde-format
+msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:109
+#, kde-format
+msgid "Cannot remove webseed %1, it is part of the torrent."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:87
+#: transfer-plugins/bittorrent/bttransfer.cpp:189
+msgid "Cannot add a tracker to a private torrent."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
+#: transfer-plugins/bittorrent/bttransfer.cpp:195
+#, fuzzy
+#| msgid "Malformed URL:\n"
+msgid "Malformed URL."
+msgstr "格式不正確的 URL:\n"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:101
+#, kde-format
+msgid "There already is a tracker named <b>%1</b> !"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:119
+msgid "Cannot remove torrent default tracker."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:223
+msgid "You cannot add trackers to a private torrent"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:55
+msgid "Kick Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:56
+msgid "Ban Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:72
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:69
+msgid "Priority"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:73
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:70
+msgid "Preview"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:75
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:72
+#, no-c-format
+msgctxt "Percent of File Downloaded"
+msgid "% Complete"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:84
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:81
+msgctxt "Download first"
+msgid "First"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:85
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:82
+msgctxt "Download last"
+msgid "Last"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:90
+#, fuzzy
+#| msgid "Normal"
+msgctxt "Download Normal (not as first or last)"
+msgid "Normal"
+msgstr "標準"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:141
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:164
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:162
+msgctxt "Preview available"
+msgid "Available"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:143
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:166
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:141
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:164
+msgctxt "Preview pending"
+msgid "Pending"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:146
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:169
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:144
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:167
+msgctxt "No preview available"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:150
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:173
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:148
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:171
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 %"
+msgstr " %1/秒 "
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:192
+#, fuzzy
+#| msgid "Count"
+msgid "Chunk"
+msgstr "記數"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:194
+msgid "Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:196
+msgid "Assigned Peers"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:87
+#, fuzzy
+#| msgid "Normal"
+msgctxt "Download normally(not as first or last)"
+msgid "Normal"
+msgstr "標準"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:139
+msgctxt "preview available"
+msgid "Available"
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:73
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "&Advanced Details"
+msgstr "進階選項"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:79
+#, fuzzy
+msgid "&Scan Files"
+msgstr "開啟檔案(&F)"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:77
+#, fuzzy
+msgid "Downloading Torrent-File.."
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:213
+#, fuzzy
+msgctxt "transfer state: downloading"
+msgid "Downloading.."
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:283
+#, fuzzy
+msgid "Analyzing torrent.."
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:332
+#: transfer-plugins/bittorrent/bttransfer.cpp:343
+msgid "An error occurred.."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:353
+#, fuzzy
+#| msgid "Scheduling"
+msgctxt "Transfer status: seeding"
+msgid "Seeding.."
+msgstr "正在排程"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:36
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Select a default Torrent-Folder"
+msgstr "預設的資料夾"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:38
+#, fuzzy
+#| msgid "Default folder:"
+msgid "Select a default Temporary-Folder"
+msgstr "預設的資料夾:"
+
+#: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:203
+msgid "Unknown client"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:258
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 GB"
+msgstr " %1/秒 "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:260
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 MB"
+msgstr " %1/秒 "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:262
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB"
+msgstr " %1 KB/秒"
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:264
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 B"
+msgstr " %1/秒 "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:270
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB/s"
+msgstr " %1 KB/秒"
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:281
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:124
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open log file %1 : %2"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:83
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Cannot write to %1 : %2"
+msgstr ""
+"無法寫入檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:97
+#, fuzzy, kde-format
+#| msgid "Copy file from: %1"
+msgid "Cannot read from %1"
+msgstr "從 %1 複製檔案"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:77
+#, kde-format
+msgid "Cannot create directory %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:94
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:111
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:127
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:143
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:204
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:221
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:240
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:256
+#, kde-format
+msgid "Cannot calculate the filesize : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:284
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:313
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:372
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:96
+#, kde-format
+msgid "Cannot open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:334
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:340
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:343
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file : %1"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:358
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:360
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file: %1"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:393
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot seek in file : %1"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:74
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:114
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:37
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Not connected"
+msgstr "保持連線"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:262
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:118
+#, fuzzy
+#| msgid "Connection Type"
+msgid "Connection closed"
+msgstr "連線類型"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:96
+#, kde-format
+msgid "Resolving proxy %1:%2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:105
+#, kde-format
+msgid "Resolving hostname %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:126
+#, kde-format
+msgid "Error: request failed: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:143
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:205
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Connected"
+msgstr "保持連線"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:149
+msgid "Error: Failed to connect to webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:212
+#, fuzzy
+#| msgid "Connection"
+msgid "Connecting"
+msgstr "連線數"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:223
+msgid "Failed to connect to webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:230
+msgid "Failed to resolve hostname of webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:293
+msgid "Error: failed to connect, server not responding"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:302
+msgid "Error: request timed out"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:323
+#, kde-format
+msgid "%1 peers"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:119
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:125
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:665
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:745
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1 : %2"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/migrate.cpp:45
+#, fuzzy, kde-format
+#| msgid ""
+#| "The specified file does not exist:\n"
+#| "%1"
+msgid "The directory %1 does not exist"
+msgstr ""
+"指定的檔案不存在：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:61
+#, kde-format
+msgid "Illegal token: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:82
+msgid "Decode error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:143
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:188
+msgid "Unexpected end of input"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:197
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
+msgid "Torrent is incomplete!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:66
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:106
+#, kde-format
+msgid "Failed to open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:76
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:89
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:123
+#, kde-format
+msgid "Failed to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:220
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:451
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open index file %1 : %2"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create file %1 : %2"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:175
+#, kde-format
+msgid "Failed to write first chunk to DND file : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:233
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Failed to write last chunk to DND file : %1"
+msgstr ""
+"無法寫入檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:122
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:245
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:432
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:499
+#, kde-format
+msgid "Cannot open %1 for writing : readonly filesystem"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:255
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file %1 : %2"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:398
+#, kde-format
+msgid "Error : Reading past the end of the file %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:403
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:449
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Failed to seek file %1 : %2"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:411
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while reading file:\n"
+#| "%1"
+msgid "Error reading from %1"
+msgstr ""
+"讀取檔案時發生錯誤：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:453
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Failed to write to file %1 : %2"
+msgstr ""
+"無法寫入檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:526
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:729
+#, kde-format
+msgid "Cannot preallocate diskspace : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:63
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:125
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:148
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:156
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:167
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:175
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:189
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:193
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:207
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:216
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:230
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:237
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:243
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:250
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:256
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:272
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:319
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:325
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:328
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:331
+msgid "Corrupted torrent!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:80
+msgid "Torrent has no announce or nodes field"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:116
+#, kde-format
+msgid " Unable to open torrent file %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:296
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:302
+msgid "Parse Error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:536
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>.<br/>The torrent is "
+"probably corrupt or is not a torrent file."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:565
+msgid ""
+"An error occurred while loading the torrent.<br/>The torrent is probably "
+"corrupt or is not a torrent file."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:574
+#, kde-format
+msgid "Unable to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:589
+#, kde-format
+msgid ""
+"You are already downloading this torrent %1, the list of trackers of both "
+"torrents has been merged."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:593
+#, kde-format
+msgid "You are already downloading the torrent %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:694
+#, kde-format
+msgid "Cannot migrate %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1365
+#, kde-format
+msgid ""
+"The torrent %1 was started with a previous version of KTorrent. To make sure "
+"this torrent still works with this version of KTorrent, we will migrate this "
+"torrent. You will be asked for a location to save the torrent to. If you "
+"press cancel, we will select your home directory."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1370
+msgid "Select Folder to Save To"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1458
+#, fuzzy
+#| msgid "Not Deleted"
+msgid "Not started"
+msgstr "沒有刪除"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1460
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download completed"
+msgstr "完成下載"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1462
+msgid "Seeding completed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1464
+#, fuzzy
+#| msgid "Scheduling"
+msgid "Seeding"
+msgstr "正在排程"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1466
+#, fuzzy
+msgid "Downloading"
+msgstr "下載已續傳"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1470
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
+#, fuzzy
+#| msgid "Stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1472
+msgid "Error: "
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1474
+msgid "Allocating diskspace"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1476
+msgid "Queued"
+msgstr "已佇列"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1478
+msgid "Checking data"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1480
+msgid "Stopped. No space left on device."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:546
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgid "OK"
+msgstr "完成"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:553
+msgid "Announcing"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:259
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:297
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1: %2"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:359
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create index file: %1"
+msgstr ""
+"無法讀取檔案：\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptrackersocket.cpp:66
+#, kde-format
+msgid "Cannot bind to udp port %1 or the 10 following ports."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:270
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:290
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:330
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:433
+msgid "Invalid response from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:283
+msgid "Invalid data from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:449
+msgid "Invalid tracker URL"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/datachecker/singledatachecker.cpp:49
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file : %1 : %2"
+msgstr ""
+"無法開啟檔案：\n"
+"%1"
+
+#: ui/tray.cpp:63
+#, fuzzy
+msgid "KGet - Download Manager"
+msgstr "下載管理員"
+
+#: ui/groupsettingsdialog.cpp:18
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Group-Settings for %1"
+msgstr "預設的資料夾:"
+
+#: ui/transfersviewdelegate.cpp:491
+#, fuzzy
+msgid "Transfer details"
+msgstr " 傳輸： %1"
+
+#: ui/transfersview.cpp:152
+msgid "Select columns"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
+#: ui/history/transferhistory.cpp:268
+msgid "Today"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
+#: ui/history/transferhistory.cpp:269
+msgid "Last week"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:53
+msgid "Last Month"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
+#: ui/history/transferhistory.cpp:271
+msgid "A long time ago"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:77
+msgid "Under 10MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:80
+msgid "Between 10MiB and 50MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:84
+msgid "Between 50MiB and 100MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:89
+msgid "More than 100MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:48
+#, fuzzy
+msgid "Transfer History"
+msgstr "開啟傳輸："
+
+#: ui/history/transferhistory.cpp:81
+#, fuzzy
+msgid "&Open File"
+msgstr "開啟檔案(&F)"
+
+#: ui/history/transferhistory.cpp:210
+msgctxt "The transfer is running"
+msgid "Running"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:212
+#, fuzzy
+#| msgid "Delayed"
+msgctxt "The transfer is delayed"
+msgid "Delayed"
+msgstr "已延遲"
+
+#: ui/history/transferhistory.cpp:214
+#, fuzzy
+#| msgid "Stopped"
+msgctxt "The transfer is stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: ui/history/transferhistory.cpp:216
+msgctxt "The transfer is aborted"
+msgid "Aborted"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:218
+#, fuzzy
+#| msgid "Finished"
+msgctxt "The transfer is finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+#| msgid "Source:"
+msgid "Source-File"
+msgstr "來源："
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+#| msgid "Destination:"
+msgid "Destination"
+msgstr "目的地："
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+#| msgid "Timer"
+msgid "Time"
+msgstr "計時器"
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+msgid "File Size"
+msgstr "開啟檔案(&F)"
+
+#: ui/history/transferhistory.cpp:257
+msgid "Less than 1MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:259
+msgid "Between 1MiB-10MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:261
+msgid "Between 10MiB-100MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:263
+msgid "Between 100MiB-1GiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:265
+msgid "More than 1GiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:270
+msgid "Last month"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:291
+#, fuzzy
+#| msgid "Finished"
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: ui/history/transferhistoryitemdelegate.cpp:41
+#, fuzzy
+msgid "Download again"
+msgstr "再次下載"
+
+#: ui/history/transferhistoryitemdelegate.cpp:46
+#, fuzzy
+msgctxt "Delete selected history-item"
+msgid "Delete selected"
+msgstr "沒有選擇檔案"
+
+#: ui/history/transferhistoryitemdelegate.cpp:51
+#, fuzzy
+msgid "Open file"
+msgstr "開啟檔案(&F)"
+
+#: ui/transfersettingsdialog.cpp:18
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Transfer-Settings for %1"
+msgstr "預設的資料夾:"
+
+#: ui/nepomukwidget.cpp:56
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Remove Tag"
+msgstr "開啟傳輸"
+
+#: ui/transferdetails.cpp:37
+#, fuzzy
+#| msgid "Source:"
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:247
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: ui/transferdetailsfrm.ui:43
+#. i18n: ectx: property (text), widget (QLabel, destLabel)
+#: ui/transferdetails.cpp:38 rc.cpp:388 rc.cpp:424
+msgid "Saving to:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:58
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: ui/transferdetailsfrm.ui:113
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: ui/transferdetails.cpp:39 rc.cpp:297 rc.cpp:431
+msgid "Status:"
+msgstr ""
+
+#: ui/transferdetails.cpp:74
+#, fuzzy, kde-format
+#| msgid "%1% of %2 - %3"
+msgid "%1 of %2"
+msgstr "%1% / %2 - %3"
+
+#: ui/droptarget.cpp:81
+#, fuzzy
+#| msgid "Sticky"
+msgctxt "fix position for droptarget"
+msgid "Sticky"
+msgstr "固定"
+
+#: ui/droptarget.cpp:205 mainwindow.cpp:871
+msgid "The dropped file is a KGet-Transferlist"
+msgstr ""
+
+#: ui/droptarget.cpp:206 mainwindow.cpp:872
+#, fuzzy
+msgid "&Download"
+msgstr "下載已續傳"
+
+#: ui/droptarget.cpp:207 mainwindow.cpp:873
+#, fuzzy
+msgid "&Load transferlist"
+msgstr "開啟傳輸："
+
+#: ui/droptarget.cpp:263
+#, fuzzy
+msgid "Show Main Window"
+msgstr "啟動時顯示主視窗"
+
+#: ui/droptarget.cpp:264
+#, fuzzy
+msgid "Hide Main Window"
+msgstr "隱藏記錄視窗(&L)"
+
+#. i18n: file: conf/dlgappearance.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox, dropTargetGroup)
+#: ui/droptarget.cpp:339 rc.cpp:141
+#, fuzzy
+#| msgid "Drop target"
+msgid "Drop Target"
+msgstr "拖放目標"
+
+#: ui/droptarget.cpp:340
+msgid "You can drag download links into the drop target."
+msgstr ""
+
+#: ui/droptarget.cpp:381
+msgid ""
+"Drop target has been hidden. If you want to show it again, go to Settings-"
+">Configure KGet->Look & Feel."
+msgstr ""
+
+#: ui/droptarget.cpp:383
+#, fuzzy
+msgid "Hiding drop target"
+msgstr "隱藏拖放目標(&T)"
+
+#: ui/viewscontainer.cpp:44
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Details for: %1"
+msgstr "預設的資料夾:"
+
+#: ui/viewscontainer.cpp:49
+#, fuzzy
+msgid "All downloads"
+msgstr "標示部份下載的檔案"
+
+#: ui/viewscontainer.cpp:54
+#, fuzzy
+msgid "Finished downloads"
+msgstr "已完成"
+
+#: ui/viewscontainer.cpp:83
+#, fuzzy
+msgid "Transfers:"
+msgstr "開啟傳輸(&T)"
+
+#: ui/viewscontainer.cpp:186
+#, fuzzy
+msgid "Downloads"
+msgstr "下載已續傳"
+
+#: ui/viewscontainer.cpp:199
+#, fuzzy
+msgid "Transfer details:"
+msgstr " 傳輸： %1"
+
+#: ui/linkview/kget_linkview.h:114
+msgctxt "filter: show all file types"
+msgid "All"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:115
+msgid "Videos"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:116
+msgid "Audio"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:117
+msgid "Archives"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:55
+#, fuzzy
+#| msgid "No Links"
+msgid "Import Links"
+msgstr "沒有連結"
+
+#: ui/linkview/kget_linkview.cpp:77
+msgid "Filter files here..."
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:82
+#, fuzzy
+#| msgid "Connection"
+msgid "Contains"
+msgstr "連線數"
+
+#: ui/linkview/kget_linkview.cpp:83
+msgid "Does not Contain"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:94
+msgid "Show:"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:106
+msgid "File with links to import:"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:107
+#, fuzzy
+#| msgid "No Links"
+msgid "Import links"
+msgstr "沒有連結"
+
+#: ui/linkview/kget_linkview.cpp:135 ui/linkview/kget_linkview.cpp:371
+msgid "Select all"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:136 ui/linkview/kget_linkview.cpp:372
+msgid "Deselect all"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:138
+#, fuzzy
+msgid "Check selected"
+msgstr "沒有選擇檔案"
+
+#: ui/linkview/kget_linkview.cpp:140
+msgid "Invert selection"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:142
+msgid "Show web content"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:143
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download checked"
+msgstr "完成下載"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:183
+#. i18n: ectx: property (text), widget (KPushButton, cancel)
+#: ui/linkview/kget_linkview.cpp:145 rc.cpp:216
+msgid "Cancel"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:219
+msgid "Auxiliar header"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:220
+#, fuzzy
+#| msgid "Local File Name"
+msgid "File Name"
+msgstr "本機檔案名稱"
+
+#: ui/linkview/kget_linkview.cpp:221
+msgid "Description"
+msgstr "說明"
+
+#: ui/linkview/kget_linkview.cpp:222
+#, fuzzy
+msgctxt "list header: type of file"
+msgid "File Type"
+msgstr "檔案類型"
+
+#: ui/linkview/kget_linkview.cpp:223
+msgid "Location (URL)"
+msgstr "地點 (URL)"
+
+#: ui/linkview/kget_linkview.cpp:278
+#, kde-format
+msgid "Links in: %1 - KGet"
+msgstr "%1 中的連結 - KGet"
+
+#: ui/linkview/kget_linkview.cpp:371
+msgid "Select all filtered"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:372
+msgid "Deselect all filtered"
+msgstr ""
+
+#: extensions/konqueror/kget_plug_in.cpp:47
+#, fuzzy
+msgid "Download Manager"
+msgstr "下載管理員"
+
+#: extensions/konqueror/kget_plug_in.cpp:54 mainwindow.cpp:299
+#, fuzzy
+#| msgid "Show Drop &Target"
+msgid "Show Drop Target"
+msgstr "顯示拖放目標(&T)"
+
+#: extensions/konqueror/kget_plug_in.cpp:61
+msgid "List All Links"
+msgstr "列出所有連結"
+
+#: extensions/konqueror/kget_plug_in.cpp:66
+#, fuzzy
+#| msgid "List All Links"
+msgid "List Selected Links"
+msgstr "列出所有連結"
+
+#: extensions/konqueror/kget_plug_in.cpp:220
+msgid "There are no links in the active frame of the current HTML page."
+msgstr "在目前網頁的頁框中沒有連結。"
+
+#: extensions/konqueror/kget_plug_in.cpp:221
+msgid "No Links"
+msgstr "沒有連結"
+
+#: extensions/webinterface/httpserver.cpp:33
+#, kde-format
+msgctxt "@info"
+msgid "Unable to start the server: %1."
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:85
+#, fuzzy, kde-format
+#| msgid "%1/s"
+msgctxt "@item speed of transfer per seconds"
+msgid "%1/s"
+msgstr "%1/秒"
+
+#: extensions/webinterface/httpserver.cpp:154
+msgctxt "@label"
+msgid "KGet Webinterface"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:155
+msgctxt "@label number"
+msgid "Nr"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:156
+#, fuzzy
+#| msgid "Local File Name"
+msgctxt "@label"
+msgid "File name"
+msgstr "本機檔案名稱"
+
+#: extensions/webinterface/httpserver.cpp:157
+#, fuzzy
+#| msgid "Finished"
+msgctxt "@label Progress of transfer"
+msgid "Finished"
+msgstr "已完成"
+
+#: extensions/webinterface/httpserver.cpp:158
+#, fuzzy
+#| msgid "Speed"
+msgctxt "@label Speed of transfer"
+msgid "Speed"
+msgstr "速度"
+
+#: extensions/webinterface/httpserver.cpp:159
+#, fuzzy
+msgctxt "@label Status of transfer"
+msgid "Status"
+msgstr "重新開始(&S)"
+
+#: extensions/webinterface/httpserver.cpp:160
+#, fuzzy
+msgctxt "@action:button start a transfer"
+msgid "Start"
+msgstr "重新開始(&S)"
+
+#: extensions/webinterface/httpserver.cpp:161
+#, fuzzy
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "已停止"
+
+#: extensions/webinterface/httpserver.cpp:162
+#, fuzzy
+#| msgid "Open Transfer"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "開啟傳輸"
+
+#: extensions/webinterface/httpserver.cpp:163
+#, fuzzy
+#| msgid "Source:"
+msgctxt "@label Download from"
+msgid "Source:"
+msgstr "來源："
+
+#: extensions/webinterface/httpserver.cpp:164
+msgctxt "@label Save download to"
+msgid "Saving to:"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:165
+msgctxt "@label Title in header"
+msgid "Webinterface"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:166
+#, fuzzy
+#| msgid "Scheduling"
+msgctxt "@action"
+msgid "Settings"
+msgstr "正在排程"
+
+#: extensions/webinterface/httpserver.cpp:167
+msgctxt "@action"
+msgid "Refresh"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:168
+msgctxt "@action"
+msgid "Enter URL: "
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:169
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgctxt "@action:button"
+msgid "OK"
+msgstr "完成"
+
+#: extensions/webinterface/httpserver.cpp:171
+#, fuzzy
+#| msgid "Download finished"
+msgctxt "@action Refresh download list every x (seconds)"
+msgid "Refresh download list every"
+msgstr "完成下載"
+
+#: extensions/webinterface/httpserver.cpp:172
+msgctxt "@action (Refresh very x )seconds"
+msgid "seconds"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:173
+#, fuzzy
+msgctxt "@action:button"
+msgid "Save Settings"
+msgstr " 傳輸： %1"
+
+#: extensions/webinterface/httpserver.cpp:174
+#, fuzzy
+msgctxt "@title"
+msgid "Downloads"
+msgstr "下載已續傳"
+
+#: extensions/webinterface/httpserver.cpp:176
+msgctxt "@label text in footer"
+msgid "KGet Webinterface | Valid XHTML 1.0 Strict &amp; CSS"
+msgstr ""
+
+#: main.cpp:113 mainwindow.cpp:85 mainwindow.cpp:436
+msgid "KGet"
+msgstr "KGet"
+
+#: main.cpp:115
+msgid "An advanced download manager for KDE"
+msgstr "KDE 先進的下載管理員"
+
+#: main.cpp:117
+msgid ""
+"(C) 2005 - 2008, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+msgstr ""
+
+#: main.cpp:121
+msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+msgstr ""
+
+#: main.cpp:123
+msgid "Dario Massarin"
+msgstr ""
+
+#: main.cpp:123
+msgid "Maintainer, Core Developer"
+msgstr ""
+
+#: main.cpp:124
+msgid "Urs Wolfer"
+msgstr ""
+
+#: main.cpp:124
+msgid "Core Developer"
+msgstr ""
+
+#: main.cpp:125
+msgid "Manolo Valdes"
+msgstr ""
+
+#: main.cpp:125
+msgid "Core Developer, Multithreaded Plugin Author"
+msgstr ""
+
+#: main.cpp:126
+msgid "Javier Goday"
+msgstr ""
+
+#: main.cpp:126
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:127
+msgid "Lukas Appelhans"
+msgstr ""
+
+#: main.cpp:127
+msgid "Developer, Torrent Plugin Author"
+msgstr ""
+
+#: main.cpp:128
+msgid "Patrick Charbonnier"
+msgstr ""
+
+#: main.cpp:128 main.cpp:129 main.cpp:130
+msgid "Former Developer"
+msgstr ""
+
+#: main.cpp:129
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:130
+msgid "Matej Koss"
+msgstr ""
+
+#: main.cpp:131
+msgid "Joris Guisson"
+msgstr ""
+
+#: main.cpp:131
+msgid "BTCore (KTorrent) Developer"
+msgstr ""
+
+#: main.cpp:132
+msgid "Mensur Zahirovic (Nookie)"
+msgstr ""
+
+#: main.cpp:132
+msgid "Design of Webinterface"
+msgstr ""
+
+#: main.cpp:137
+msgid "Start KGet with drop target"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:138
+#, fuzzy
+#| msgid "Start KGet with drop target"
+msgid "Start KGet with hidden main window"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:139
+#, fuzzy
+#| msgid "Start KGet with drop target"
+msgid "Start KGet without drop target animation"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:140
+#, fuzzy
+msgid "URL(s) to download"
+msgstr "用以下載的 URL"
+
+#: mainwindow.cpp:142
+#, fuzzy
+msgid "KGet Transfer List"
+msgstr "開啟傳輸："
+
+#: mainwindow.cpp:149
+#, fuzzy
+msgid "Export Transfers"
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:159
+msgid "&New Download..."
+msgstr ""
+
+#: mainwindow.cpp:165
+#, fuzzy
+#| msgid "&Import Transfer List..."
+msgid "&Import Transfers..."
+msgstr "匯入傳輸列表(&I)..."
+
+#: mainwindow.cpp:171
+#, fuzzy
+msgid "&Export Transfers List..."
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:177
+#, fuzzy
+msgid "&Export Transfers as Plain Text"
+msgstr "匯出傳輸列表(&E)..."
+
+#: mainwindow.cpp:183
+msgid "Delete Group"
+msgstr ""
+
+#: mainwindow.cpp:188
+#, fuzzy
+msgid "Rename Group"
+msgstr "預設的資料夾"
+
+#: mainwindow.cpp:193
+msgid "Set Icon"
+msgstr ""
+
+#: mainwindow.cpp:198
+#, fuzzy
+msgid "Auto-Paste Mode"
+msgstr "自動貼上模式(&T)"
+
+#: mainwindow.cpp:201
+#, fuzzy
+msgid ""
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
+msgstr ""
+"<b>自動貼上</b>按鈕會啟動或關閉自動貼上離線\n"
+"模式；按一下啟動，再按則停止。\n"
+"\n"
+"當啟動了這項功能， KGet 將會週期性地掃描剪貼簿上的\n"
+"URL 並且自動地貼上這些 URL 。"
+
+#: mainwindow.cpp:207
+#, fuzzy
+msgid "Use KGet as Konqueror Download Manager"
+msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
+
+#: mainwindow.cpp:225
+#, fuzzy
+msgctxt "delete selected transfer item"
+msgid "Delete Selected"
+msgstr "沒有選擇檔案"
+
+#: mainwindow.cpp:231
+msgctxt "delete all finished transfers"
+msgid "Delete all finished"
+msgstr ""
+
+#: mainwindow.cpp:236
+#, fuzzy
+#| msgid "Download finished"
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "完成下載"
+
+#: mainwindow.cpp:241
+msgid "Start / Resume All"
+msgstr ""
+
+#: mainwindow.cpp:247
+#, fuzzy
+msgid "Start / Resume Selected"
+msgstr "沒有選擇檔案"
+
+#: mainwindow.cpp:252
+msgid "Stop All"
+msgstr ""
+
+#: mainwindow.cpp:258
+#, fuzzy
+msgid "Stop Selected"
+msgstr "沒有選擇檔案"
+
+#: mainwindow.cpp:262
+msgid "Start / Resume"
+msgstr ""
+
+#: mainwindow.cpp:270
+#, fuzzy
+msgid "Stop"
+msgstr "已停止"
+
+#: mainwindow.cpp:279
+#, fuzzy
+msgid "Open Destination"
+msgstr "開啟目的地(&D)"
+
+#: mainwindow.cpp:284 mainwindow.cpp:418
+#, fuzzy
+msgid "Open File"
+msgstr "開啟檔案(&F)"
+
+#: mainwindow.cpp:289
+#, fuzzy
+msgid "Show Details"
+msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
+
+#: mainwindow.cpp:294
+#, fuzzy
+msgid "Copy URL to Clipboard"
+msgstr "複製 URL 到剪貼簿(&C)"
+
+#: mainwindow.cpp:305
+#, fuzzy
+msgid "&Transfer History..."
+msgstr "開啟傳輸："
+
+#: mainwindow.cpp:311
+#, fuzzy
+#| msgid "Default folder:"
+msgid "&Group Settings..."
+msgstr "預設的資料夾:"
+
+#: mainwindow.cpp:317
+#, fuzzy
+msgid "&Transfer Settings..."
+msgstr " 傳輸： %1"
+
+#: mainwindow.cpp:323
+#, fuzzy
+#| msgid "No Links"
+msgid "Import &Links..."
+msgstr "沒有連結"
+
+#: mainwindow.cpp:359
+#, fuzzy
+#| msgid ""
+#| "This is the first time that you have run KGet.\n"
+#| "Do you want to use KGet as Download Manager for Konqueror?"
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to enable KGet as the download manager for Konqueror?"
+msgstr ""
+"這是你第一次執行 KGet 。\n"
+"要 KGet 成為 Konqueror 的下載管理員嗎？"
+
+#: mainwindow.cpp:361
+#, fuzzy
+msgid "Konqueror Integration"
+msgstr "Konqueror 整合"
+
+#: mainwindow.cpp:361
+msgid "Enable"
+msgstr "啟用"
+
+#: mainwindow.cpp:362
+msgid "Do Not Enable"
+msgstr "不啟用"
+
+#: mainwindow.cpp:417
+msgid "All Openable Files"
+msgstr ""
+
+#: mainwindow.cpp:434
+#, kde-format
+msgctxt "window title including overall download progress in percent"
+msgid "KGet - %1%"
+msgstr ""
+
+#: mainwindow.cpp:444
+#, fuzzy
+#| msgid ""
+#| "Some transfers are still running.\n"
+#| "Are you sure you want to quit KGet?"
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+"有傳輸仍在運作。\n"
+"您確定您要關閉 KGet 嗎？"
+
+#: mainwindow.cpp:446
+msgid "Confirm Quit"
+msgstr ""
+
+#: mainwindow.cpp:501
+#, fuzzy
+msgid "Enter Group Name"
+msgstr "Tse-Chun Ho,Walter Cheuk"
+
+#: mainwindow.cpp:502
+#, fuzzy
+msgid "Group name:"
+msgstr "Tse-Chun Ho,Walter Cheuk"
+
+#: mainwindow.cpp:744
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+
+#: rc.cpp:1
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tse-Chun Ho,Walter Cheuk"
+
+#: rc.cpp:2
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
+
+#. i18n: file: conf/dlgnetwork.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_LimitDownloads)
+#: rc.cpp:5
+msgid "Limit maximum downloads per group"
+msgstr ""
+
+#. i18n: file: conf/dlgnetwork.ui:28
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum)
+#: rc.cpp:8
+#, fuzzy
+msgid "Downloads number:"
+msgstr "下載管理員"
+
+#. i18n: file: conf/dlgnetwork.ui:45
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum_2)
+#: rc.cpp:11
+msgid "Downloads from the same server:"
+msgstr ""
+
+#. i18n: file: conf/dlgnetwork.ui:62
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SpeedLimit)
+#: rc.cpp:14
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed limit"
+msgstr "速度"
+
+#. i18n: file: conf/dlgnetwork.ui:71
+#. i18n: ectx: property (text), widget (QLabel, dllimitlb)
+#: rc.cpp:17
+#, fuzzy
+msgid "Global Download-Limit:"
+msgstr "下載已續傳"
+
+#. i18n: file: conf/dlgnetwork.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
+#. i18n: file: conf/dlgnetwork.ui:101
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
+#. i18n: file: conf/dlgnetwork.ui:124
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
+#: rc.cpp:20 rc.cpp:26 rc.cpp:32
+#, fuzzy
+#| msgid " %1 KB/s "
+msgid "KiB/s"
+msgstr " %1 KB/秒"
+
+#. i18n: file: conf/dlgnetwork.ui:94
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:23
+#, fuzzy
+msgid "Global Upload-Limit:"
+msgstr "下載已續傳"
+
+#. i18n: file: conf/dlgnetwork.ui:117
+#. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
+#: rc.cpp:29
+#, fuzzy
+msgid "Per Transfer:"
+msgstr "開啟傳輸(&T)"
+
+#. i18n: file: conf/dlgnetwork.ui:140
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
+#: rc.cpp:35
+#, fuzzy
+msgid "Reconnect on error or broken connection"
+msgstr "斷線時"
+
+#. i18n: file: conf/dlgnetwork.ui:149
+#. i18n: ectx: property (text), widget (QLabel, lb_retries_2)
+#: rc.cpp:38
+msgid "Number of retries:"
+msgstr "重試的次數："
+
+#. i18n: file: conf/dlgnetwork.ui:163
+#. i18n: ectx: property (text), widget (QLabel, lb_after_2)
+#: rc.cpp:41
+#, fuzzy
+msgid "Retry after:"
+msgstr "在這之後重新連線："
+
+#. i18n: file: conf/dlgnetwork.ui:170
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ReconnectDelay)
+#: rc.cpp:44
+msgid "sec"
+msgstr ""
+
+#. i18n: file: conf/dlgnetwork.ui:189
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxCompleted)
+#: rc.cpp:47
+#, fuzzy
+msgid "After Completing Downloads"
+msgstr "完成下載後自動關閉"
+
+#. i18n: file: conf/dlgnetwork.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoShutdown)
+#: rc.cpp:50
+#, fuzzy
+msgid "Auto shutdown"
+msgstr "自動關閉開啟。"
+
+#. i18n: file: conf/dlgnetwork.ui:202
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoDisconnect)
+#: rc.cpp:53
+#, fuzzy
+msgid "Auto disconnect"
+msgstr "自動斷線開啟。"
+
+#. i18n: file: conf/dlgdirectories.ui:28
+#. i18n: ectx: property (text), widget (QRadioButton, askRadioButton)
+#: rc.cpp:56
+msgid "Ask save location for every new download"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:35
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseDefaultDirectory)
+#: rc.cpp:59
+msgid "Place new downloads inside default folder:"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:69
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableExceptions)
+#: rc.cpp:62
+msgid "Except for specific file types"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:79
+#. i18n: ectx: property (title), widget (QGroupBox, defaultFolderGroupBox)
+#: rc.cpp:65
+msgid "Specify extension and target folder:"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:104
+#. i18n: ectx: property (text), widget (QTableWidget, folderForExtensionList)
+#: rc.cpp:68
+#, fuzzy
+#| msgid "Extension"
+msgid "File-Extension"
+msgstr "延伸檔名"
+
+#. i18n: file: conf/dlgdirectories.ui:109
+#. i18n: ectx: property (text), widget (QTableWidget, folderForExtensionList)
+#: rc.cpp:71
+msgid "Default Folder"
+msgstr "預設的資料夾"
+
+#. i18n: file: conf/dlgdirectories.ui:144
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: rc.cpp:77
+msgid "Edit"
+msgstr ""
+
+#. i18n: file: conf/dlgdirectories.ui:164
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:83
+msgid ""
+"Use a regular expression for the extension. \n"
+"Examples: *.tar.gz or *movies*.zip"
+msgstr ""
+
+#. i18n: file: conf/dlgadvanced.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExpertMode)
+#: rc.cpp:87
+msgid "Disable confirmation dialogs (less verbosity)"
+msgstr ""
+
+#. i18n: file: conf/dlgadvanced.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableSystemTray)
+#: rc.cpp:90
+#, fuzzy
+msgid "Enable system tray icon"
+msgstr "使用動畫"
+
+#. i18n: file: conf/dlgadvanced.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AfterFinishActionEnabled)
+#: rc.cpp:93
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "Execute action after all downloads have been finished"
+msgstr "所有下載已完成。"
+
+#. i18n: file: conf/dlgadvanced.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:99
+#, fuzzy
+msgid "At startup:"
+msgstr "重新開始(&S)"
+
+#. i18n: file: conf/dlgadvanced.ui:56
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:102
+#, fuzzy
+msgid "Restore Download-State"
+msgstr "下載已續傳"
+
+#. i18n: file: conf/dlgadvanced.ui:61
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:105
+#, fuzzy
+msgid "Start all Downloads"
+msgstr "標示部份下載的檔案"
+
+#. i18n: file: conf/dlgadvanced.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:108
+#, fuzzy
+msgid "Stop all Downloads"
+msgstr "標示部份下載的檔案"
+
+#. i18n: file: conf/dlgadvanced.ui:76
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:111
+#, fuzzy
+msgid "History"
+msgstr "開啟傳輸："
+
+#. i18n: file: conf/dlgadvanced.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:114
+#, fuzzy
+msgid "History backend:"
+msgstr "開啟傳輸："
+
+#. i18n: file: conf/dlgadvanced.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:117
+#, fuzzy
+msgid "Integration"
+msgstr "Konqueror 整合"
+
+#. i18n: file: conf/dlgadvanced.ui:101
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KonquerorIntegration)
+#: rc.cpp:120
+#, fuzzy
+msgid "Use as download manager for Konqueror"
+msgstr "使用 KGet 為 Konqueror 的下載管理員"
+
+#. i18n: file: conf/dlgadvanced.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoPaste)
+#: rc.cpp:123
+#, fuzzy
+msgid "Monitor clipboard for files to download"
+msgstr "您未有選擇要下載的檔案。"
+
+#. i18n: file: conf/dlgadvanced.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_EnableKUIServerIntegration)
+#: rc.cpp:126
+msgid "Enable KDE global progress tracking"
+msgstr ""
+
+#. i18n: file: conf/dlgadvanced.ui:130
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportSingleTransfer)
+#: rc.cpp:129
+msgid "Show every single download "
+msgstr ""
+
+#. i18n: file: conf/dlgadvanced.ui:137
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportGlobalJob)
+#: rc.cpp:132
+msgid "Show overall progress"
+msgstr ""
+
+#. i18n: file: conf/dlgappearance.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, startupGroup)
+#: rc.cpp:135
+#, fuzzy
+msgid "Startup"
+msgstr "重新開始(&S)"
+
+#. i18n: file: conf/dlgappearance.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSplashscreen)
+#: rc.cpp:138
+msgid "Show splashscreen"
+msgstr ""
+
+#. i18n: file: conf/dlgappearance.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDropTarget)
+#: rc.cpp:144
+#, fuzzy
+msgid "Show drop target"
+msgstr "顯示拖放目標"
+
+#. i18n: file: conf/dlgappearance.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateDropTarget)
+#: rc.cpp:147
+#, fuzzy
+msgid "Enable animations"
+msgstr "使用動畫"
+
+#. i18n: file: conf/dlgappearance.ui:58
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:150
+#, fuzzy
+msgid "Transfer List"
+msgstr "開啟傳輸："
+
+#. i18n: file: conf/dlgappearance.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandableTransferDetails)
+#: rc.cpp:153
+msgid "Expandable transfer details instead of separate tabs"
+msgstr ""
+
+#. i18n: file: conf/dlgwebinterface.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_WebinterfaceEnabled)
+#: rc.cpp:156
+msgid "Enable Webinterface"
+msgstr ""
+
+#. i18n: file: conf/dlgwebinterface.ui:31
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:31
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: rc.cpp:159 rc.cpp:222
+#, fuzzy
+#| msgid "Font:"
+msgid "Port:"
+msgstr "字型:"
+
+#. i18n: file: conf/dlgwebinterface.ui:45
+#. i18n: ectx: property (text), widget (QLabel, userLabel)
+#: rc.cpp:162
+msgid "User:"
+msgstr ""
+
+#. i18n: file: conf/dlgwebinterface.ui:59
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: rc.cpp:165
+msgid "Password:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:16
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:168
+msgid "Threads"
+msgstr ""
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:171
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of threads:"
+msgstr "重試的次數："
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:45
+#. i18n: ectx: property (text), widget (QLabel, segmentSizeLabel)
+#: rc.cpp:174
+msgid "Minimal segment size:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:52
+#. i18n: ectx: property (suffix), widget (QSpinBox, minSegSizeSpinBox)
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:81
+#. i18n: ectx: property (suffix), widget (QSpinBox, saveDataSizeSpinBox)
+#: rc.cpp:177 rc.cpp:183
+#, fuzzy
+#| msgid "0 B/s"
+msgid "kBi"
+msgstr "0 B/秒"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:74
+#. i18n: ectx: property (text), widget (QLabel, saveDataLabel)
+#: rc.cpp:180
+msgid "Save data every:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox, enginesCheckBox)
+#: rc.cpp:186
+msgid "Use search engines"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:16
+#. i18n: ectx: property (text), widget (QLabel, torrent_label)
+#: rc.cpp:189
+msgid "Scanning data of torrent :"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:30
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:192
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks found :"
+msgstr "重試的次數："
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:40
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:195
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks failed :"
+msgstr "重試的次數："
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:198
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks not downloaded:"
+msgstr "重試的次數："
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:201
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks downloaded:"
+msgstr "重試的次數："
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:77
+#. i18n: ectx: property (text), widget (QLabel, chunks_found)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:102
+#. i18n: ectx: property (text), widget (QLabel, chunks_failed)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:124
+#. i18n: ectx: property (text), widget (QLabel, chunks_not_downloaded)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:137
+#. i18n: ectx: property (text), widget (QLabel, chunks_downloaded)
+#: rc.cpp:204 rc.cpp:207 rc.cpp:210 rc.cpp:213
+msgid "0"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:48
+#. i18n: ectx: property (text), widget (QLabel, uploadLimitLabel)
+#: rc.cpp:225
+#, fuzzy
+msgid "Upload Limit per Transfer:"
+msgstr "下載已續傳"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:55
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:75
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#: rc.cpp:228 rc.cpp:237
+#, fuzzy
+#| msgid "Limits"
+msgid "No Limit"
+msgstr "限制"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:58
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: file: ui/transfersettingsdialog.ui:41
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
+#. i18n: file: ui/transfersettingsdialog.ui:61
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
+#. i18n: file: ui/groupsettingsdialog.ui:58
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: file: ui/groupsettingsdialog.ui:84
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#: rc.cpp:231 rc.cpp:240 rc.cpp:397 rc.cpp:403 rc.cpp:450 rc.cpp:456
+msgid "KiB"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:68
+#. i18n: ectx: property (text), widget (QLabel, downloadLabel)
+#: rc.cpp:234
+#, fuzzy
+msgid "Download Limit per Transfer:"
+msgstr "下載已續傳"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:109
+#. i18n: ectx: property (text), widget (QLabel, torrentFolderLabel)
+#: rc.cpp:246
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default Torrent-Folder:"
+msgstr "預設的資料夾"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, tempFolderLabel)
+#: rc.cpp:249
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default temporary folder"
+msgstr "預設的資料夾"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:146
+#. i18n: ectx: property (text), widget (QCheckBox, preallocBox)
+#: rc.cpp:252
+msgid "Preallocate disk-space"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:21
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_webseed)
+#: rc.cpp:255
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+"torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:28
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#: rc.cpp:263
+msgid "Add Webseed"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, m_remove)
+#: rc.cpp:266
+#, fuzzy
+msgid "Remove Webseed"
+msgstr "續傳(&R)"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:23
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:272
+#, fuzzy
+#| msgid "Total"
+msgid "Total:"
+msgstr "總計"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:59
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:275
+msgid "Currently downloading:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:95
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:163
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:278 rc.cpp:361
+#, fuzzy
+msgid "Downloaded:"
+msgstr "下載已續傳"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:131
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:205
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:281 rc.cpp:379
+msgid "Excluded:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:167
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:284
+msgid "Left:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:203
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#: rc.cpp:287
+#, fuzzy
+#| msgid " Size: %1 "
+msgid "Size:"
+msgstr " 大小： %1 "
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:290
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Current Tracker"
+msgstr "開啟傳輸"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: ui/newtransferwidget.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:293 rc.cpp:412
+msgid "URL:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:84
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:301 rc.cpp:334
+#, fuzzy
+#| msgid "Speed"
+msgid "Seeders:"
+msgstr "速度"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:108
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:304
+#, fuzzy
+msgid "Times Downloaded:"
+msgstr "下載已續傳"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:132
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:307
+msgid "Next Update In:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:156
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:99
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:310 rc.cpp:346
+msgid "Leechers:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:195
+#. i18n: ectx: property (text), widget (KPushButton, m_update_tracker)
+#: rc.cpp:313
+msgid "Update Tracker"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:218
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:316
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Available Trackers"
+msgstr "開啟傳輸"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:231
+#. i18n: ectx: property (text), widget (KPushButton, m_add_tracker)
+#: rc.cpp:319
+msgid "Add Tracker"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:243
+#. i18n: ectx: property (text), widget (KPushButton, m_remove_tracker)
+#: rc.cpp:322
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Remove Tracker"
+msgstr "開啟傳輸"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:250
+#. i18n: ectx: property (text), widget (KPushButton, m_change_tracker)
+#: rc.cpp:325
+msgid "Change Tracker"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:270
+#. i18n: ectx: property (text), widget (KPushButton, m_restore_defaults)
+#: rc.cpp:328
+msgid "Restore Defaults"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:29
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:331
+#, fuzzy
+msgid "Stats"
+msgstr "重新開始(&S)"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:60
+#. i18n: ectx: property (text), widget (QLabel, seederLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:86
+#. i18n: ectx: property (text), widget (QLabel, dlSpeedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:112
+#. i18n: ectx: property (text), widget (QLabel, leecherLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:138
+#. i18n: ectx: property (text), widget (QLabel, ulSpeedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:170
+#. i18n: ectx: property (text), widget (QLabel, chunksDownloadedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:184
+#. i18n: ectx: property (text), widget (QLabel, chunksLeftLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:198
+#. i18n: ectx: property (text), widget (QLabel, chunksAllLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:212
+#. i18n: ectx: property (text), widget (QLabel, chunksExcludedLabel)
+#: rc.cpp:337 rc.cpp:343 rc.cpp:349 rc.cpp:355 rc.cpp:364 rc.cpp:370
+#: rc.cpp:376 rc.cpp:382
+msgid "<n>"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:340
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download-Speed:"
+msgstr "完成下載"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:352
+msgid "Upload-Speed:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:367
+msgctxt "chunks left"
+msgid "Left:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:373
+msgctxt "all chunks"
+msgid "All:"
+msgstr ""
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:240
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: file: ui/transferdetailsfrm.ui:50
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: rc.cpp:385 rc.cpp:427
+#, fuzzy
+#| msgid "Source:"
+msgctxt "source-file"
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: file: ui/transfersettingsdialog.ui:22
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:391
+#, fuzzy
+msgid "Transfer-Settings"
+msgstr " 傳輸： %1"
+
+#. i18n: file: ui/transfersettingsdialog.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
+#: rc.cpp:394
+#, fuzzy
+msgid "Upload Limit"
+msgstr "下載已續傳"
+
+#. i18n: file: ui/transfersettingsdialog.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
+#: rc.cpp:400
+#, fuzzy
+msgid "Download Limit"
+msgstr "下載已續傳"
+
+#. i18n: file: ui/transfersettingsdialog.ui:71
+#. i18n: ectx: property (text), widget (QCheckBox, ratioCheck)
+#: rc.cpp:406
+msgid "Maximum Share Ratio"
+msgstr ""
+
+#. i18n: file: ui/newtransferwidget.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:415
+#, fuzzy
+#| msgid "Destination:"
+msgid "Destination:"
+msgstr "目的地："
+
+#. i18n: file: ui/newtransferwidget.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, defaultFolderButton)
+#: rc.cpp:418
+#, fuzzy
+#| msgid "Default folder:"
+msgid "Set as default folder"
+msgstr "預設的資料夾:"
+
+#. i18n: file: ui/newtransferwidget.ui:60
+#. i18n: ectx: property (text), widget (QLabel, groupLabel)
+#: rc.cpp:421
+#, fuzzy
+msgid "Transfer Group:"
+msgstr "開啟傳輸(&T)"
+
+#. i18n: file: ui/transferdetailsfrm.ui:164
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:437
+#, fuzzy
+#| msgid "Rem. Time"
+msgid "Remaining Time:"
+msgstr "剩下的時間"
+
+#. i18n: file: ui/groupsettingsdialog.ui:19
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:441
+msgid "Group-Settings"
+msgstr ""
+
+#. i18n: file: ui/groupsettingsdialog.ui:28
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:444
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default folder:"
+msgstr "預設的資料夾"
+
+#. i18n: file: ui/groupsettingsdialog.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
+#: rc.cpp:447
+#, fuzzy
+#| msgid "Download finished"
+msgid "Maximum download speed"
+msgstr "完成下載"
+
+#. i18n: file: ui/groupsettingsdialog.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
+#: rc.cpp:453
+#, fuzzy
+#| msgid "Download finished"
+msgid "Maximum upload speed"
+msgstr "完成下載"
+
+#. i18n: file: ui/history/transferhistory.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#: rc.cpp:459
+msgid "Clear History"
+msgstr ""
+
+#. i18n: file: ui/history/transferhistory.ui:46
+#. i18n: ectx: property (title), widget (KButtonGroup, viewmodesgroup)
+#: rc.cpp:462
+#, fuzzy
+#| msgid "Offline mode"
+msgctxt "View modes"
+msgid "View Modes"
+msgstr "離線模式"
+
+#. i18n: file: ui/history/transferhistory.ui:99
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_2)
+#: rc.cpp:465
+msgid "Select ranges"
+msgstr ""
+
+#. i18n: file: ui/history/transferhistory.ui:115
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: rc.cpp:468
+#, fuzzy
+msgid "Date"
+msgstr "重新開始(&S)"
+
+#. i18n: file: ui/history/transferhistory.ui:125
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: rc.cpp:474
+msgid "Host"
+msgstr ""
+
+#. i18n: file: ui/history/transferhistory.ui:136
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_3)
+#: rc.cpp:477
+#, fuzzy
+msgid "Filter history"
+msgstr "開啟傳輸："
+
+#. i18n: file: ui/history/transferhistory.ui:165
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: rc.cpp:480
+#, fuzzy
+msgctxt "delete selected transfer"
+msgid "Delete Selected"
+msgstr "沒有選擇檔案"
+
+#. i18n: file: ui/history/transferhistory.ui:170
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: rc.cpp:483
+#, fuzzy
+msgid "Download"
+msgstr "下載已續傳"
+
+#. i18n: file: ui/kgetui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:486
+#, fuzzy
+msgid "&File"
+msgstr "開啟檔案(&F)"
+
+#. i18n: file: ui/kgetui.rc:16
+#. i18n: ectx: Menu (Downloads)
+#: rc.cpp:489
+#, fuzzy
+msgid "&Downloads"
+msgstr "下載已續傳"
+
+#. i18n: file: ui/kgetui.rc:26
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:492
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: ui/kgetui.rc:30
+#. i18n: ectx: Menu (help)
+#: rc.cpp:495
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: ui/kgetui.rc:33
+#. i18n: ectx: ToolBar (kget_toolbar)
+#: rc.cpp:498
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: extensions/konqueror/kget_plug_in.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:501
+msgid "&Tools"
+msgstr ""
+
+#, fuzzy
+#~| msgid " %1/s "
+#~ msgid "%1(%2) %3"
+#~ msgstr " %1/秒 "
+
+#, fuzzy
+#~| msgid "0 B/s"
+#~ msgid "kBi/s"
+#~ msgstr "0 B/秒"
+
+#, fuzzy
+#~ msgid "Form"
+#~ msgstr "或"
+
+#~ msgid "Not Deleted"
+#~ msgstr "沒有刪除"
+
+#, fuzzy
+#~ msgid "Konqueror Integration disabled"
+#~ msgstr "Konqueror 整合"
+
+#~ msgid "Show main window at startup"
+#~ msgstr "啟動時顯示主視窗"
+
+#, fuzzy
+#~ msgid "<speed>"
+#~ msgstr "速度"
+
+#, fuzzy
+#~| msgid "Rem. Time"
+#~ msgid "<remaining time>"
+#~ msgstr "剩下的時間"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file %1"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Error while writing file:\n"
+#~| "%1"
+#~ msgid "Error writing to %1 : %2"
+#~ msgstr ""
+#~ "寫入檔案時發生錯誤：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Error while writing file:\n"
+#~| "%1"
+#~ msgid "Error writing to %1"
+#~ msgstr ""
+#~ "寫入檔案時發生錯誤：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "List All Links"
+#~ msgid "&List Links"
+#~ msgstr "列出所有連結"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Normal"
+#~ msgctxt "Download normally(not as first or last"
+#~ msgid "Normal"
+#~ msgstr "標準"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "&Speed Limits"
+#~ msgstr "速度"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "Bittorrent-Speedlimits"
+#~ msgstr "速度"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "Speed-Limits"
+#~ msgstr "速度"
+
+#, fuzzy
+#~ msgid " of "
+#~ msgstr "%1 / %2"
+
+#, fuzzy
+#~ msgid "Download Folder"
+#~ msgstr "預設的資料夾"
+
+#, fuzzy
+#~ msgid "Hide Drop Target"
+#~ msgstr "隱藏拖放目標(&T)"
+
+#, fuzzy
+#~ msgid "Hide drop target"
+#~ msgstr "隱藏拖放目標(&T)"
+
+#, fuzzy
+#~ msgid "Extension:"
+#~ msgstr "延伸檔名"
+
+#, fuzzy
+#~ msgid "Folder:"
+#~ msgstr "資料夾"
+
+#~ msgid ""
+#~ "Already saving URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "已經在儲存 URL\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "Default Group"
+#~ msgstr "預設的資料夾"
+
+#, fuzzy
+#~ msgid "DlgAdvanced"
+#~ msgstr "進階"
+
+#, fuzzy
+#~ msgid "Delete Group."
+#~ msgstr "預設的資料夾"
+
+#, fuzzy
+#~ msgid "Hide Me"
+#~ msgstr "檔案名稱"
+
+#~ msgid ""
+#~ "Each row consists of exactly one\n"
+#~ "extension type and one folder."
+#~ msgstr "每一行由一個延伸類型和一個資料夾組成。"
+
+#~ msgid ""
+#~ "Folder does not exist:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "沒有這個資料夾：\n"
+#~ "%1"
+
+#~ msgid "&Dock"
+#~ msgstr "停泊(&D)"
+
+#~ msgid "Source Label"
+#~ msgstr "來源標籤："
+
+#~ msgid "&Keep this window open after the operation is complete."
+#~ msgstr "操作結束後保持這個視窗開啟(&K)。"
+
+#~ msgid "Log"
+#~ msgstr "記錄檔"
+
+#~ msgid "Resumed"
+#~ msgstr "已續傳"
+
+#~ msgid "Not resumed"
+#~ msgstr "未續傳"
+
+#~ msgid "Automation"
+#~ msgstr "自動化"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "Maximize"
+#~ msgstr "放到最大"
+
+#~ msgid "Minimize"
+#~ msgstr "縮到最小"
+
+#~ msgid ""
+#~ "This is a folder and not a file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "這是個目錄而不是檔案：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "You do not have read permission for the file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "您沒有權限讀取這個檔案：\n"
+#~ "%1"
+
+#~ msgid "Could only read %1 bytes of %2."
+#~ msgstr "只能讀取 %2 中的 %1 個位元組。"
+
+#~ msgid ""
+#~ "File %1 exists.\n"
+#~ "Do you want to replace it?"
+#~ msgstr ""
+#~ "檔案 %1 已存在。\n"
+#~ "是否要取代它？"
+
+#~ msgid ""
+#~ "Failed to make a backup copy of %1.\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "無法建立 %1 的備份。\n"
+#~ "仍要繼續？"
+
+#~ msgid ""
+#~ "Could not open file for writing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法開啟檔案進行寫入：\n"
+#~ "%1"
+
+#~ msgid "Could only write %1 bytes of %2."
+#~ msgstr "只能寫入 %2 中的 %1 個位元組。"
+
+#~ msgid "Welcome to KGet"
+#~ msgstr "歡迎使用 KGet"
+
+#~ msgid "Could not create valid socket"
+#~ msgstr "無法建立有效的 socket"
+
+#~ msgid "Offline"
+#~ msgstr "離線"
+
+#~ msgid "Starting offline"
+#~ msgstr "開始離線"
+
+#~ msgid "Import Text &File..."
+#~ msgstr "匯入文字檔案(&F)..."
+
+#~ msgid "&Open Individual Window"
+#~ msgstr "開啟個別視窗(&O)"
+
+#~ msgid "Move to &Beginning"
+#~ msgstr "移至開頭(&B)"
+
+#~ msgid "Move to &End"
+#~ msgstr "移至結尾(&E)"
+
+#~ msgid "&Pause"
+#~ msgstr "暫停(&P)"
+
+#~ msgid "&Queue"
+#~ msgstr "排入佇列(&Q)"
+
+#~ msgid "&Timer"
+#~ msgstr "計時器(&T)"
+
+#~ msgid "De&lay"
+#~ msgstr "延遲(&L)"
+
+#~ msgid "Use &Animation"
+#~ msgstr "使用動畫(&A)"
+
+#~ msgid "&Expert Mode"
+#~ msgstr "專家模式(&E)"
+
+#~ msgid "&Use-Last-Folder Mode"
+#~ msgstr "「使用最近資料夾」模式(&U)"
+
+#~ msgid "Auto-&Disconnect Mode"
+#~ msgstr "自動斷線模式(&D)"
+
+#~ msgid "Auto-S&hutdown Mode"
+#~ msgstr "自動關閉模式(&H)"
+
+#~ msgid "&Offline Mode"
+#~ msgstr "離線模式(&O)"
+
+#~ msgid "Show &Log Window"
+#~ msgstr "顯示記錄視窗(&L)"
+
+#~ msgid "Enable &KGet as Konqueror Download Manager"
+#~ msgstr "將 &KGet 設定為 Konqueror 的下載管理員"
+
+#~ msgid " Files: %1 "
+#~ msgstr " 檔案： %1"
+
+#~ msgid " Size: %1 KB "
+#~ msgstr " 大小: %1 KB "
+
+#~ msgid " Time: %1 "
+#~ msgstr " 時間： %1 "
+
+#~ msgid ""
+#~ "<b>Resume</b> button starts selected transfers\n"
+#~ "and sets their mode to <i>queued</i>."
+#~ msgstr ""
+#~ "<b>續傳</b>按鈕開始所選擇的檔案傳輸\n"
+#~ "並設定它們的模式至<i>已佇列</i>。"
+
+#~ msgid ""
+#~ "<b>Pause</b> button stops selected transfers\n"
+#~ "and sets their mode to <i>delayed</i>."
+#~ msgstr ""
+#~ "<b>暫停</b>按鈕停止所選擇的檔案傳輸\n"
+#~ "並設定它們的模式至 <i>已延遲</i>。"
+
+#~ msgid ""
+#~ "<b>Delete</b> button removes selected transfers\n"
+#~ "from the list."
+#~ msgstr "<b>刪除</b>按鈕從列表移除所選擇的檔案傳輸。"
+
+#~ msgid ""
+#~ "<b>Restart</b> button is a convenience button\n"
+#~ "that simply does Pause and Resume."
+#~ msgstr "<b>重新開始</b>按鈕讓您方便的暫停或恢復傳輸。"
+
+#~ msgid ""
+#~ "<b>Queued</b> button sets the mode of selected\n"
+#~ "transfers to <i>queued</i>.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已佇列</b>按鈕將所選擇的檔案傳輸模式設定為<i>已佇列</i>。\n"
+#~ "\n"
+#~ "它是個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Scheduled</b> button sets the mode of selected\n"
+#~ "transfers to <i>scheduled</i>.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已排程</b>按鈕將所選擇的檔案傳輸模式設定為<i>已排程</i>。\n"
+#~ "\n"
+#~ "它是一個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Delayed</b> button sets the mode of selected\n"
+#~ "transfers to <i>delayed</i>.This also causes the selected transfers to "
+#~ "stop.\n"
+#~ "\n"
+#~ "It is a radio button -- you can choose between\n"
+#~ "three modes."
+#~ msgstr ""
+#~ "<b>已延遲</b>按鈕將所選擇的檔案傳輸\n"
+#~ "模式設定為<i>已延遲</i>。它也會令所選擇的檔案\n"
+#~ "停止傳輸。\n"
+#~ "\n"
+#~ "它是一個單選按鈕——你可以在三種模式中選擇一種。"
+
+#~ msgid ""
+#~ "<b>Preferences</b> button opens a preferences dialog\n"
+#~ "where you can set various options.\n"
+#~ "\n"
+#~ "Some of these options can be more easily set using the toolbar."
+#~ msgstr ""
+#~ "<b>偏好設定</b>按鈕開啟偏好設定對話框，讓您設定多種選項。\n"
+#~ "\n"
+#~ "使用這工具列令您某容易些設定某些選項。"
+
+#~ msgid ""
+#~ "<b>Log window</b> button opens a log window.\n"
+#~ "The log window records all program events that occur\n"
+#~ "while KGet is running."
+#~ msgstr ""
+#~ "<b>記錄視窗</b>按鈕開啟記錄視窗。\n"
+#~ "記錄視窗記錄所有 KGet 執行時發生的程式事件。"
+
+#~ msgid ""
+#~ "<b>Paste transfer</b> button adds a URL from\n"
+#~ "the clipboard as a new transfer.\n"
+#~ "\n"
+#~ "This way you can easily copy&paste URLs between\n"
+#~ "applications."
+#~ msgstr ""
+#~ "<b>貼上傳輸</b>按鈕會自剪貼簿增加一個 URL 為新的傳輸。\n"
+#~ "\n"
+#~ "這個方法讓您在應用程式之間容易地複製和貼上 URL 。"
+
+#~ msgid ""
+#~ "<b>Expert mode</b> button toggles the expert mode\n"
+#~ "on and off.\n"
+#~ "\n"
+#~ "Expert mode is recommended for experienced users.\n"
+#~ "When set, you will not be \"bothered\" by confirmation\n"
+#~ "messages.\n"
+#~ "<b>Important!</b>\n"
+#~ "Turn it on if you are using auto-disconnect or\n"
+#~ "auto-shutdown features and you want KGet to disconnect \n"
+#~ "or shut down without asking."
+#~ msgstr ""
+#~ "<b>專家模式</b>按鈕會啟動或關閉專家模式；\n"
+#~ "按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "專家模式供熟練使用者使用。\n"
+#~ "當啟動了專家模式，您將不會被確定訊息「打擾」。\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如果您使用自動斷線或自動關閉功能，\n"
+#~ "並且您想要 KGet 斷線或關閉而不而事先詢問，請啟動它。"
+
+#~ msgid ""
+#~ "<b>Use last folder</b> button toggles the\n"
+#~ "use-last-folder feature on and off.\n"
+#~ "\n"
+#~ "When set, KGet will ignore the folder settings\n"
+#~ "and put all new added transfers into the folder\n"
+#~ "where the last transfer was put."
+#~ msgstr ""
+#~ "<b>使用最近資料夾</b>按鈕會啟動或關閉「使用最近資料夾」\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會忽略目錄設定值\n"
+#~ "並且將所有新增的傳輸檔案放置到最近一次傳輸所放置的目錄。"
+
+#~ msgid ""
+#~ "<b>Auto disconnect</b> button toggles the auto-disconnect\n"
+#~ "mode on and off.\n"
+#~ "\n"
+#~ "When set, KGet will disconnect automatically\n"
+#~ "after all queued transfers are finished.\n"
+#~ "\n"
+#~ "<b>Important!</b>\n"
+#~ "Also turn on the expert mode when you want KGet\n"
+#~ "to disconnect without asking."
+#~ msgstr ""
+#~ "<b>自動斷線</b>按鈕會啟動或關閉自動斷線\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會在所有已佇列傳輸完成後\n"
+#~ "自動斷線。\n"
+#~ "\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如您希望 KGet 斷線而不要事先詢問您，請同時啟動\n"
+#~ "專家模式。"
+
+#~ msgid ""
+#~ "<b>Auto shutdown</b> button toggles the auto-shutdown\n"
+#~ "mode on and off.\n"
+#~ "\n"
+#~ "When set, KGet will quit automatically\n"
+#~ "after all queued transfers are finished.\n"
+#~ "<b>Important!</b>\n"
+#~ "Also turn on the expert mode when you want KGet\n"
+#~ "to quit without asking."
+#~ msgstr ""
+#~ "<b>自動關閉</b>按鈕會啟動或關閉自動關閉\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會在所有已佇列\n"
+#~ "傳輸完成後自動關閉。\n"
+#~ "\n"
+#~ "<b>重要事項！</b>\n"
+#~ "如您希望 KGet 關閉而不要事先詢問您，請同時開啟\n"
+#~ "專家模式。"
+
+#~ msgid ""
+#~ "<b>Offline mode</b> button toggles the offline mode\n"
+#~ "on and off.\n"
+#~ "\n"
+#~ "When set, KGet will act as if it was not connected\n"
+#~ "to the Internet.\n"
+#~ "\n"
+#~ "You can browse offline, while still being able to add\n"
+#~ "new transfers as queued."
+#~ msgstr ""
+#~ "<b>離線模式</b>按鈕會啟動或關閉離線模式\n"
+#~ "模式；按一下啟動，再按則停止。\n"
+#~ "\n"
+#~ "當啟動了這項功能， KGet 將會扮作沒有連結到\n"
+#~ "互聯網。\n"
+#~ "\n"
+#~ "您可以離線瀏覽，並且仍然可以新增傳輸到佇列中。"
+
+#~ msgid ""
+#~ "<b>Drop target</b> button toggles the window style\n"
+#~ "between a normal window and a drop target.\n"
+#~ "\n"
+#~ "When set, the main window will be hidden and\n"
+#~ "instead a small shaped window will appear.\n"
+#~ "\n"
+#~ "You can show/hide a normal window with a simple click\n"
+#~ "on a shaped window."
+#~ msgstr ""
+#~ "<b>拖放目標</b>按鈕會於一般視窗及拖放目標兩個\n"
+#~ "視窗風格間切換。\n"
+#~ "\n"
+#~ "開啟後，主視窗將會隱藏而一個小的成形視窗將會出現。\n"
+#~ "\n"
+#~ "你可以簡單地敲擊成形視窗以顯示或隱藏一般視窗。"
+
+#~ msgid ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|所有檔案"
+
+#~ msgid "Quitting..."
+#~ msgstr "正在關閉..."
+
+#~ msgid "Question"
+#~ msgstr "問題"
+
+#~ msgid "Are you sure you want to delete this transfer?"
+#~ msgstr "你確定要刪除這筆傳輸嗎？"
+
+#~ msgid ""
+#~ "The transfer you wanted to delete completed before it could be deleted."
+#~ msgid_plural ""
+#~ "%n transfers you wanted to delete completed before they could be deleted."
+#~ msgstr[0] "%1 個您要刪除的傳輸在它們能被刪除之前已完成了。"
+
+#~ msgid "Stopping all jobs"
+#~ msgstr "正在停止所有工作"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "不要覆寫"
+
+#~ msgid "<i>%1</i> has been added."
+#~ msgstr "已新增<i>%1</i>。"
+
+#~ msgid "1 download has been added."
+#~ msgid_plural "%n downloads have been added."
+#~ msgstr[0] "已新增 %1 個下載。"
+
+#~ msgid "Starting another queued job."
+#~ msgstr "正在開始另一個已佇列工作。"
+
+#~ msgid "<i>%1</i> successfully downloaded."
+#~ msgstr "已成功下載 <i>%1</i> 。"
+
+#~ msgid "Offline mode on."
+#~ msgstr "離線模式開啟。"
+
+#~ msgid "Offline mode off."
+#~ msgstr "離線模式關閉。"
+
+#~ msgid "Expert mode on."
+#~ msgstr "專家模式開啟。"
+
+#~ msgid "Expert mode off."
+#~ msgstr "專家模式關閉。"
+
+#~ msgid "Use last folder on."
+#~ msgstr "「使用最近資料夾」開啟。"
+
+#~ msgid "Use last folder off."
+#~ msgstr "「使用最近資料夾」關閉。"
+
+#~ msgid "Auto disconnect off."
+#~ msgstr "自動斷線關閉。"
+
+#~ msgid "Auto shutdown off."
+#~ msgstr "自動關閉關閉。"
+
+#~ msgid "Auto paste on."
+#~ msgstr "自動貼上開啟。"
+
+#~ msgid "Auto paste off."
+#~ msgstr "自動貼上關閉。"
+
+#~ msgid "<b>Transfers:</b> %1 "
+#~ msgstr "<b>傳輸：</b> %1"
+
+#~ msgid "<br /><b>Files:</b> %1 "
+#~ msgstr "<br /><b>檔案：</b> %1"
+
+#~ msgid "<br /><b>Size:</b> %1 "
+#~ msgstr "<br /><b>大小：</b> %1 "
+
+#~ msgid "<br /><b>Time:</b> %1 "
+#~ msgstr "<br /><b>時間：</b> %1 "
+
+#~ msgid "<br /><b>Speed:</b> %1/s"
+#~ msgstr "<br /><b>速度：</b> %1 "
+
+#~ msgid "Do you really want to disconnect?"
+#~ msgstr "你真的要斷線嗎？"
+
+#~ msgid "Disconnect"
+#~ msgstr "斷線"
+
+#~ msgid "Disconnecting..."
+#~ msgstr "正在斷線..."
+
+#, fuzzy
+#~ msgid "We are online."
+#~ msgstr "上線了！"
+
+#, fuzzy
+#~ msgid "We are offline."
+#~ msgstr "離線了！"
+
+#~ msgid "Id"
+#~ msgstr "ID"
+
+#~ msgid "Log Window"
+#~ msgstr "記錄視窗"
+
+#~ msgid "Mixed"
+#~ msgstr "已混合"
+
+#~ msgid "Separated"
+#~ msgstr "已分離"
+
+#~ msgid "Add new transfers as:"
+#~ msgstr "新增傳輸為："
+
+#~ msgid "Iconified"
+#~ msgstr "已圖示化"
+
+#~ msgid "Advanced individual windows"
+#~ msgstr "進階個別視窗"
+
+#~ msgid "Remove files from a list after success"
+#~ msgstr "成功後從列表中移除檔案"
+
+#~ msgid "Get file sizes"
+#~ msgstr "取得檔案大小"
+
+#~ msgid "Expert mode (do not prompt for Cancel or Delete)"
+#~ msgstr "專家模式（取消或刪除皆不詢問）"
+
+#~ msgid "Show individual windows"
+#~ msgstr "顯示個別視窗"
+
+#~ msgid "Automation Options"
+#~ msgstr "自動化選項"
+
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid "Auto disconnect after completing downloads"
+#~ msgstr "完成下載後自動斷線"
+
+#, fuzzy
+#~ msgid "Autosave file list every:"
+#~ msgstr "每隔多久自動儲存檔案列表："
+
+#~ msgid "Timed disconnect"
+#~ msgstr "已設定時間的斷線"
+
+#~ msgid "Disconnect command:"
+#~ msgstr "斷線指令："
+
+#~ msgid "Auto paste from clipboard"
+#~ msgstr "從剪貼簿自動貼上"
+
+#, fuzzy
+#~ msgid "Reconnect Options"
+#~ msgstr "重新連接選項"
+
+#~ msgid "On login or timeout error"
+#~ msgstr "在登入或逾時的錯誤"
+
+#~ msgid "Timeout Options"
+#~ msgstr "逾時選項"
+
+#, fuzzy
+#~ msgid "If no data arrives in:"
+#~ msgstr "如果沒有資料在以下時間內抵達:"
+
+#, fuzzy
+#~ msgid "If server cannot resume:"
+#~ msgstr "如果伺服器不支援續傳:"
+
+#~ msgid "Permanent"
+#~ msgstr "永久"
+
+#~ msgid "Ethernet"
+#~ msgstr "乙太網絡"
+
+#~ msgid "PLIP"
+#~ msgstr "PLIP"
+
+#~ msgid "SLIP"
+#~ msgstr "SLIP"
+
+#~ msgid "PPP"
+#~ msgstr "PPP"
+
+#~ msgid "ISDN"
+#~ msgstr "ISDN"
+
+#~ msgid "Link number:"
+#~ msgstr "連結數："
+
+#~ msgid "Extension (* for all files):"
+#~ msgstr "延伸檔名（所有檔案用 * ）"
+
+#~ msgid "Limits Options"
+#~ msgstr "限制選項"
+
+#~ msgid "Maximum open connections:"
+#~ msgstr "開啟連線的最大數目:"
+
+#~ msgid "Minimum network bandwidth:"
+#~ msgstr "最小網絡頻寬:"
+
+#~ msgid "Maximum network bandwidth:"
+#~ msgstr "最大網絡頻寬:"
+
+#~ msgid " bytes/sec"
+#~ msgstr " 位元組/秒"
+
+#~ msgid "Window style:"
+#~ msgstr "視窗風格:"
+
+#~ msgid "To: %1"
+#~ msgstr "到： %1"
+
+#~ msgid "unknown"
+#~ msgstr "未知"
+
+#~ msgid "Attempt number %1"
+#~ msgstr "嘗試次數 %1"
+
+#~ msgid "Stopping"
+#~ msgstr "正在停止"
+
+#~ msgid "Pausing"
+#~ msgstr "正在暫停"
+
+#~ msgid "Queueing"
+#~ msgstr "正在佇列"
+
+#~ msgid "Delaying"
+#~ msgstr "延遲中"
+
+#~ msgid "Total size is %1 bytes"
+#~ msgstr "總大小為 %1 位元組"
+
+#~ msgid "The file size does not match."
+#~ msgstr "檔案大小不符。"
+
+#~ msgid "File Size checked"
+#~ msgstr "已檢查檔案大小"
+
+#~ msgid "checking if file is in cache...no"
+#~ msgstr "正在檢查檔案是否已在快取中……沒有"
+
+#~ msgid "S"
+#~ msgstr "S"
+
+#~ msgid "%"
+#~ msgstr "%"
