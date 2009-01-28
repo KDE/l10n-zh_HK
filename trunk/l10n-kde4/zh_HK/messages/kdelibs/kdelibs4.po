@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-17 10:28+0100\n"
+"POT-Creation-Date: 2009-01-28 09:12+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -11852,6 +11852,12 @@ msgstr ""
 msgid "GUI for the khtml regression tester"
 msgstr ""
 
+#: khtml/khtmladaptorpart.cpp:29
+#, fuzzy
+#| msgid "Relative"
+msgid "Inactive"
+msgstr "相對"
+
 #: khtml/xml/xml_tokenizer.cpp:328
 msgid "the document is not in the correct file format"
 msgstr "文件的檔案格式不正確"
@@ -12411,32 +12417,32 @@ msgstr ""
 "klauncher： 這個程式不是用來手動開啟的。\n"
 "klauncher： 它應是被 kdeinit 自動開啟的。\n"
 
-#: kinit/klauncher.cpp:533
+#: kinit/klauncher.cpp:539
 #, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInit 無法啟動‘%1’。"
 
-#: kinit/klauncher.cpp:698 kinit/klauncher.cpp:723 kinit/klauncher.cpp:738
+#: kinit/klauncher.cpp:708 kinit/klauncher.cpp:733 kinit/klauncher.cpp:748
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "找不到服務程式‘%1’。"
 
-#: kinit/klauncher.cpp:754 kinit/klauncher.cpp:790
+#: kinit/klauncher.cpp:764 kinit/klauncher.cpp:800
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "服務程式‘%1’的格式不正確。"
 
-#: kinit/klauncher.cpp:871
+#: kinit/klauncher.cpp:881
 #, kde-format
 msgid "Launching %1"
 msgstr "啟動 %1"
 
-#: kinit/klauncher.cpp:1077
+#: kinit/klauncher.cpp:1090
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "不明的協定‘%1’。\n"
 
-#: kinit/klauncher.cpp:1138
+#: kinit/klauncher.cpp:1151
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "載入‘%1’發生錯誤。\n"
@@ -12536,32 +12542,32 @@ msgstr "語文(&I)"
 msgid "Level of safety of the Ruby interpreter"
 msgstr ""
 
-#: kross/core/action.cpp:412
+#: kross/core/action.cpp:421
 #, fuzzy, kde-format
 msgid "Scriptfile \"%1\" does not exist."
 msgstr "沒有找到 %1 風格\n"
 
-#: kross/core/action.cpp:416
+#: kross/core/action.cpp:425
 #, fuzzy, kde-format
 msgid "Failed to determine interpreter for scriptfile \"%1\""
 msgstr "找不到命令稿 \"%1\"。"
 
-#: kross/core/action.cpp:420
+#: kross/core/action.cpp:429
 #, fuzzy, kde-format
 msgid "Failed to open scriptfile \"%1\""
 msgstr "找不到命令稿 \"%1\"。"
 
-#: kross/core/action.cpp:431
+#: kross/core/action.cpp:440
 #, fuzzy, kde-format
 msgid "Failed to load interpreter \"%1\""
 msgstr "無法取得 KScript Runner <b>%1</b> 的型別。"
 
-#: kross/core/action.cpp:433
+#: kross/core/action.cpp:442
 #, kde-format
 msgid "No such interpreter \"%1\""
 msgstr ""
 
-#: kross/core/action.cpp:439
+#: kross/core/action.cpp:448
 #, fuzzy, kde-format
 msgid "Failed to create script for interpreter \"%1\""
 msgstr "無法取得 KScript Runner <b>%1</b> 的型別。"
@@ -12680,22 +12686,22 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:416
+#: nepomuk/core/resource.cpp:466
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:418
+#: nepomuk/core/resource.cpp:468
 #, fuzzy
 msgid "Communication error"
 msgstr "組態設定"
 
-#: nepomuk/core/resource.cpp:420
+#: nepomuk/core/resource.cpp:470
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
-#: nepomuk/core/resource.cpp:422
+#: nepomuk/core/resource.cpp:472
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
@@ -12812,12 +12818,12 @@ msgstr "開啟用(&O)..."
 msgid "&Open"
 msgstr "開啟(&O)"
 
-#: kutils/kcmoduleloader.cpp:76
+#: kutils/kcmoduleloader.cpp:75
 #, kde-format
 msgid "The module %1 could not be found."
 msgstr "找不到模組 %1。"
 
-#: kutils/kcmoduleloader.cpp:77
+#: kutils/kcmoduleloader.cpp:76
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
@@ -12826,23 +12832,23 @@ msgid ""
 "qt>"
 msgstr "<qt><p>診斷結果：<br>找不到桌面設定檔 %1。</qt>"
 
-#: kutils/kcmoduleloader.cpp:79
+#: kutils/kcmoduleloader.cpp:78
 #, fuzzy, kde-format
 msgid "The module %1 is disabled."
 msgstr "無法載入模組 %1。"
 
-#: kutils/kcmoduleloader.cpp:80
+#: kutils/kcmoduleloader.cpp:79
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
 "or the module has been disabled by the administrator.</p></qt>"
 msgstr ""
 
-#: kutils/kcmoduleloader.cpp:133
+#: kutils/kcmoduleloader.cpp:132
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "模組 %1 不是一個有效的設定模組。"
 
-#: kutils/kcmoduleloader.cpp:134
+#: kutils/kcmoduleloader.cpp:133
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>The desktop file %1 does not specify a "
@@ -12852,11 +12858,11 @@ msgid ""
 "</qt>"
 msgstr "<qt><p>診斷結果：<br>桌面設定檔 %1 未指定一個程式庫。</qt>"
 
-#: kutils/kcmoduleloader.cpp:153
+#: kutils/kcmoduleloader.cpp:152
 msgid "There was an error loading the module."
 msgstr "載入組時發生錯誤。"
 
-#: kutils/kcmoduleloader.cpp:153
+#: kutils/kcmoduleloader.cpp:152
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
@@ -12878,7 +12884,7 @@ msgstr ""
 "問題，並嘗試移除錯誤訊息中的模組。若是不行，請聯絡你的發行商或套件供應者。</"
 "p></qt>"
 
-#: kutils/kcmoduleloader.cpp:168
+#: kutils/kcmoduleloader.cpp:167
 #, fuzzy
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
@@ -12966,14 +12972,14 @@ msgstr ""
 msgid "Print Preview"
 msgstr "預覽列印(&W)..."
 
-#: kutils/kcmoduleproxy.cpp:134
+#: kutils/kcmoduleproxy.cpp:133
 #, fuzzy
 msgid ""
 "<b>Changes in this section require root access.</b><br />On applying your "
 "changes you will have to supply your root password."
 msgstr "<b>這個部份的更改需要 root 權限。</b><br />請按\"管理員模式\"來更改。"
 
-#: kutils/kcmoduleproxy.cpp:141
+#: kutils/kcmoduleproxy.cpp:140
 #, fuzzy
 msgid ""
 "This section requires special permissions, probably for system-wide changes; "
@@ -12984,7 +12990,7 @@ msgstr ""
 "這個部份需要特別權限。它的更改很有可能是系統性的。因此，它需要 root 密碼來更"
 "改這個模組的選項。如果你不輸入密碼，模組會被關閉。"
 
-#: kutils/kcmoduleproxy.cpp:162
+#: kutils/kcmoduleproxy.cpp:161
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
