@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetworkconf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:15+0100\n"
+"POT-Creation-Date: 2009-01-27 08:26+0100\n"
 "PO-Revision-Date: 2006-01-20 00:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,7 +33,7 @@ msgstr "在進階及基本設置間切換"
 #. i18n: ectx: property (text), widget (KPushButton, kpbOk)
 #. i18n: file: kselectdistrodlg.ui:28
 #. i18n: ectx: property (text), widget (KPushButton, kpbOk)
-#: kadddevicecontainer.cpp:76 knetworkconf.cpp:146 knetworkconf.cpp:389
+#: kadddevicecontainer.cpp:76 knetworkconf.cpp:146 knetworkconf.cpp:387
 #: rc.cpp:184 rc.cpp:343 rc.cpp:353
 msgid "&OK"
 msgstr ""
@@ -113,28 +113,28 @@ msgstr "別名:"
 msgid "Add New Alias"
 msgstr "加入新別名"
 
-#: knetworkconf.cpp:237
+#: knetworkconf.cpp:235
 #, fuzzy
 msgid "Could not load network info."
 msgstr "無法載入網絡設定資訊。"
 
-#: knetworkconf.cpp:238
+#: knetworkconf.cpp:236
 msgid "Error Reading Configuration File"
 msgstr "讀入設定檔時發生錯誤"
 
-#: knetworkconf.cpp:292 knetworkconf.cpp:888
+#: knetworkconf.cpp:290 knetworkconf.cpp:887
 msgid "Enabled"
 msgstr "已啟用"
 
-#: knetworkconf.cpp:302 knetworkconf.cpp:902
+#: knetworkconf.cpp:300 knetworkconf.cpp:901
 msgid "Disabled"
 msgstr "已停用"
 
-#: knetworkconf.cpp:312 knetworkconf.cpp:474
+#: knetworkconf.cpp:310 knetworkconf.cpp:472
 msgid "Manual"
 msgstr "手動"
 
-#: knetworkconf.cpp:333
+#: knetworkconf.cpp:331
 msgid ""
 "The new configuration has not been saved.\n"
 "Do you want to apply changes before quitting?"
@@ -142,92 +142,92 @@ msgstr ""
 "新的設定未儲存。\n"
 "要在離開前套用更改嗎？"
 
-#: knetworkconf.cpp:334
+#: knetworkconf.cpp:332
 msgid "New Configuration Not Saved"
 msgstr "新的設定未儲存"
 
-#: knetworkconf.cpp:385
+#: knetworkconf.cpp:383
 msgid "Edit Server"
 msgstr "編輯伺服器"
 
-#: knetworkconf.cpp:412
+#: knetworkconf.cpp:410
 #, kde-format
 msgid "Configure Device %1"
 msgstr "設定 %1 裝置"
 
-#: knetworkconf.cpp:576
+#: knetworkconf.cpp:574
 #, fuzzy
 msgid "Could not open file '/etc/sysconfig/network' for reading."
 msgstr "無法開啟檔案『/etc/resolv.conf』供讀取。"
 
-#: knetworkconf.cpp:577 knetworkconf.cpp:595
+#: knetworkconf.cpp:575 knetworkconf.cpp:594
 msgid "Error Loading Config Files"
 msgstr "載入設定檔時發生錯誤"
 
-#: knetworkconf.cpp:594
+#: knetworkconf.cpp:593
 msgid "Could not open file '/etc/resolv.conf' for reading."
 msgstr "無法開啟檔案『/etc/resolv.conf』供讀取。"
 
-#: knetworkconf.cpp:741
+#: knetworkconf.cpp:740
 msgid "The default Gateway IP address is invalid."
 msgstr "預設閘道 IP 位址無效。"
 
-#: knetworkconf.cpp:741
+#: knetworkconf.cpp:740
 #, fuzzy
 msgid " Invalid IP Address"
 msgstr "無效的 IP 位址"
 
-#: knetworkconf.cpp:811
+#: knetworkconf.cpp:810
 #, fuzzy
 msgid "Changing device state"
 msgstr "正在更改界面狀態"
 
-#: knetworkconf.cpp:813
+#: knetworkconf.cpp:812
 #, kde-format
 msgid "Enabling interface <b>%1</b>"
 msgstr "正在啟用 <b>%1</b> 界面"
 
-#: knetworkconf.cpp:815
+#: knetworkconf.cpp:814
 #, kde-format
 msgid "Disabling interface <b>%1</b>"
 msgstr "正在停止 <b>%1</b> 界面"
 
-#: knetworkconf.cpp:849
+#: knetworkconf.cpp:848
 msgid ""
 "Could not launch backend to change network device state. You will have to do "
 "it manually."
 msgstr "無法啟動後端以更改網絡裝置狀態。你要手動進行。"
 
-#: knetworkconf.cpp:850 knetworkconfigparser.cpp:795
+#: knetworkconf.cpp:849 knetworkconfigparser.cpp:795
 #: knetworkconfigparser.cpp:989
 msgid "Error"
 msgstr ""
 
-#: knetworkconf.cpp:870
+#: knetworkconf.cpp:869
 msgid ""
 "There was an error changing the device's state. You will have to do it "
 "manually."
 msgstr "更改裝置狀態時發生錯誤。你要手動進行。"
 
-#: knetworkconf.cpp:871
+#: knetworkconf.cpp:870
 msgid "Could Not Change Device State"
 msgstr "無法更改裝置狀態"
 
 #. i18n: file: kaddknownhostdlg.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, KAddKnownHostDlg)
-#: knetworkconf.cpp:982 rc.cpp:175
+#: knetworkconf.cpp:981 rc.cpp:175
 msgid "Add New Static Host"
 msgstr "加入新的靜態主機"
 
-#: knetworkconf.cpp:1017
+#: knetworkconf.cpp:1016
 msgid "Edit Static Host"
 msgstr "編輯靜態主機"
 
-#: knetworkconf.cpp:1150
+#: knetworkconf.cpp:1149
 msgid "Could not load the selected Network Profile."
 msgstr "無法載入選取的網絡資料檔。"
 
-#: knetworkconf.cpp:1151
+#: knetworkconf.cpp:1150
 msgid "Error Reading Profile"
 msgstr "讀取資料檔時發生錯誤"
 
