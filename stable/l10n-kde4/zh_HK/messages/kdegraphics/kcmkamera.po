@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkamera\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:25+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2006-01-08 17:54+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,35 +15,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kamera.cpp:102
+#: kamera.cpp:99
 msgid "Unable to initialize the gPhoto2 libraries."
 msgstr "無法初始化 gPhoto2 程式庫。"
 
-#: kamera.cpp:138
+#: kamera.cpp:135
 msgid "Add"
 msgstr ""
 
-#: kamera.cpp:140
+#: kamera.cpp:137
 msgid "Click this button to add a new camera."
 msgstr "請點選這個按鈕新增照相機。"
 
-#: kamera.cpp:145
+#: kamera.cpp:142
 msgid "Test"
 msgstr "測試"
 
-#: kamera.cpp:147 kamera.cpp:153
-msgid "Click this button to remove the selected camera from the list."
+#: kamera.cpp:144
+#, fuzzy
+#| msgid "Click this button to remove the selected camera from the list."
+msgid "Click this button to test the connection to the selected camera."
 msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
-#: kamera.cpp:151
+#: kamera.cpp:148
 msgid "Remove"
 msgstr ""
 
-#: kamera.cpp:157
+#: kamera.cpp:150
+msgid "Click this button to remove the selected camera from the list."
+msgstr "請點選這個按鈕刪除清單上所選的照相機。"
+
+#: kamera.cpp:154
 msgid "Configure..."
 msgstr "設定..."
 
-#: kamera.cpp:159
+#: kamera.cpp:156
 msgid ""
 "Click this button to change the configuration of the selected camera."
 "<br><br>The availability of this feature and the contents of the "
@@ -52,11 +58,11 @@ msgstr ""
 "點選這個按鈕來變更所選照相機的設定。<br><br>有沒有這個功能，以及設定方塊內顯"
 "示的內容，會依不同照相機型號而有所不同。"
 
-#: kamera.cpp:163
+#: kamera.cpp:160
 msgid "Information"
 msgstr ""
 
-#: kamera.cpp:165
+#: kamera.cpp:162
 #, fuzzy
 #| msgid ""
 #| "Click this button to view a summary of the current status of the selected "
@@ -65,24 +71,24 @@ msgstr ""
 msgid ""
 "Click this button to view a summary of the current status of the selected "
 "camera.<br><br>The availability of this feature and the contents of the "
-"Configuration dialog depend on the camera model."
+"Information dialog depend on the camera model."
 msgstr ""
 "點選這個按鈕來檢視所選照相機的當前狀態摘要。<br><br>有沒有這個功能，以及設定"
 "方塊內顯示的內容，會依不同照相機型號而有所不同。"
 
-#: kamera.cpp:170
+#: kamera.cpp:167
 msgid "Cancel"
 msgstr ""
 
-#: kamera.cpp:172
+#: kamera.cpp:169
 msgid "Click this button to cancel the current camera operation."
 msgstr "請點選這個按鈕取消當前照相機的操作。"
 
-#: kamera.cpp:348
+#: kamera.cpp:347
 msgid "Camera test was successful."
 msgstr "照相機測試成功。"
 
-#: kamera.cpp:429
+#: kamera.cpp:428
 msgid ""
 "<h1>Digital Camera</h1>\n"
 "This module allows you to configure support for your digital camera.\n"
@@ -203,11 +209,6 @@ msgstr "您可以在這裡選擇您照相機所連接的序列埠。"
 #: kameradevice.cpp:349
 msgid "No further configuration is required for USB."
 msgstr "USB 不需要額外的設定。"
-
-#, fuzzy
-#~| msgid "Click this button to remove the selected camera from the list."
-#~ msgid "Click this button to test the connection to the selected camera."
-#~ msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
 #~ msgid "Parallel"
 #~ msgstr "平行"
