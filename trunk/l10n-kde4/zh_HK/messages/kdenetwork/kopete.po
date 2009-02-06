@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-04 12:05+0100\n"
+"POT-Creation-Date: 2009-02-06 11:01+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1142,8 +1142,8 @@ msgid "View"
 msgstr "檢視"
 
 #: libkopete/private/kopeteviewmanager.cpp:335
-#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
-#: protocols/yahoo/yahooaccount.cpp:1774
+#: protocols/yahoo/yahooaccount.cpp:1164 protocols/yahoo/yahooaccount.cpp:1616
+#: protocols/yahoo/yahooaccount.cpp:1827
 #, fuzzy
 #| msgid "Ignore"
 msgctxt "@action"
@@ -15484,7 +15484,7 @@ msgstr ""
 #: plugins/otr/authenticationwizard.cpp:88
 #, fuzzy
 #| msgid "Server Authentication"
-msgctxt "@info"
+msgctxt "@title"
 msgid "Select authentication method"
 msgstr "伺服器認證"
 
@@ -15505,7 +15505,7 @@ msgid "Manual fingerprint verification"
 msgstr "伺服器認證"
 
 #: plugins/otr/authenticationwizard.cpp:121
-msgctxt "@info"
+msgctxt "@title"
 msgid "Question and Answer"
 msgstr ""
 
@@ -15523,7 +15523,6 @@ msgid "Enter the answer to your question:"
 msgstr "輸入新主:"
 
 #: plugins/otr/authenticationwizard.cpp:131
-#: plugins/otr/authenticationwizard.cpp:156
 #, fuzzy, kde-format
 #| msgid "Registration failed."
 msgctxt "@info"
@@ -15541,7 +15540,7 @@ msgstr ""
 #: plugins/otr/authenticationwizard.cpp:152
 #, fuzzy
 #| msgid "&Secret"
-msgctxt "@info"
+msgctxt "@title"
 msgid "Shared Secret"
 msgstr "秘密(&S)"
 
@@ -15551,6 +15550,13 @@ msgstr "秘密(&S)"
 msgctxt "@info"
 msgid "Enter a secret passphrase known only to you and %1:"
 msgstr "請輸入同一密碼兩次。"
+
+#: plugins/otr/authenticationwizard.cpp:156
+#, fuzzy, kde-format
+#| msgid "Registration failed."
+msgctxt "@title"
+msgid "Authentication with %1"
+msgstr "註冊失敗。"
 
 #: plugins/otr/authenticationwizard.cpp:157
 #, fuzzy, kde-format
@@ -15562,7 +15568,7 @@ msgstr "請輸入同一密碼兩次。"
 #: plugins/otr/authenticationwizard.cpp:168
 #, fuzzy
 #| msgid "Server Authentication"
-msgctxt "@info"
+msgctxt "@title"
 msgid "Manual Verification"
 msgstr "伺服器認證"
 
@@ -15575,17 +15581,20 @@ msgid ""
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:178
+#, fuzzy
+msgctxt "@item:inlistbox ...verified that"
 msgid "I have not"
-msgstr ""
+msgstr "移除(&V)"
 
 #: plugins/otr/authenticationwizard.cpp:179
 #, fuzzy
+msgctxt "@item:inlistbox ...verified that"
 msgid "I have"
 msgstr "移除(&V)"
 
 #: plugins/otr/authenticationwizard.cpp:188
 #, kde-format
-msgctxt "@info"
+msgctxt "@info:label I have..."
 msgid "verified that this is in fact the correct fingerprint for %1"
 msgstr ""
 
@@ -15643,6 +15652,7 @@ msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:327
 #, fuzzy
+msgctxt "@title"
 msgid "Authenticating contact..."
 msgstr "授權狀態"
 
@@ -20621,7 +20631,7 @@ msgstr "編輯聯絡人屬性"
 msgid "&Join chat room..."
 msgstr "加入頻道..."
 
-#: protocols/yahoo/yahooaccount.cpp:714
+#: protocols/yahoo/yahooaccount.cpp:733
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not log into Yahoo service: your account has been locked.\n"
@@ -20633,18 +20643,18 @@ msgstr ""
 "無法登入 Yahoo 服務：你的帳號已被銷定。\n"
 "到訪 %1 將之重新啟動。"
 
-#: protocols/yahoo/yahooaccount.cpp:723
+#: protocols/yahoo/yahooaccount.cpp:742
 msgid ""
 "Could not log into the Yahoo service: the username specified was invalid."
 msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
 
-#: protocols/yahoo/yahooaccount.cpp:732
+#: protocols/yahoo/yahooaccount.cpp:751
 msgid ""
 "You have been logged out of the Yahoo service, possibly due to a duplicate "
 "login."
 msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
 
-#: protocols/yahoo/yahooaccount.cpp:764
+#: protocols/yahoo/yahooaccount.cpp:783
 #, kde-format
 msgid ""
 "%1 has been disconnected.\n"
@@ -20652,7 +20662,7 @@ msgid ""
 "%2 - %3"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:777
+#: protocols/yahoo/yahooaccount.cpp:796
 #, fuzzy, kde-format
 msgid ""
 "There was an error while connecting %1 to the Yahoo server.\n"
@@ -20662,7 +20672,7 @@ msgstr ""
 "連接 MSN 伺服器時發生錯誤。\n"
 "錯誤訊息:\n"
 
-#: protocols/yahoo/yahooaccount.cpp:788 protocols/yahoo/yahooaccount.cpp:791
+#: protocols/yahoo/yahooaccount.cpp:807 protocols/yahoo/yahooaccount.cpp:810
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -20670,21 +20680,21 @@ msgid ""
 "Reason: %2"
 msgstr "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:789 protocols/yahoo/yahooaccount.cpp:792
-#: protocols/yahoo/yahooaccount.cpp:1377 protocols/yahoo/yahooaccount.cpp:1571
-#: protocols/yahoo/yahooaccount.cpp:1669 protocols/yahoo/yahooaccount.cpp:1684
+#: protocols/yahoo/yahooaccount.cpp:808 protocols/yahoo/yahooaccount.cpp:811
+#: protocols/yahoo/yahooaccount.cpp:1430 protocols/yahoo/yahooaccount.cpp:1624
+#: protocols/yahoo/yahooaccount.cpp:1722 protocols/yahoo/yahooaccount.cpp:1737
 #: protocols/yahoo/yahooeditaccount.cpp:171
 msgid "Yahoo Plugin"
 msgstr "Yahoo 插件"
 
-#: protocols/yahoo/yahooaccount.cpp:813
+#: protocols/yahoo/yahooaccount.cpp:866
 #, fuzzy, kde-format
 msgid "User %1 has granted your authorization request."
 msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:825
+#: protocols/yahoo/yahooaccount.cpp:878
 #, fuzzy, kde-format
 msgid ""
 "User %1 has rejected your authorization request.\n"
@@ -20693,13 +20703,13 @@ msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:1069
+#: protocols/yahoo/yahooaccount.cpp:1122
 #, fuzzy
 msgctxt "This string is shown when the user is buzzed by a contact"
 msgid "Buzz"
 msgstr "嗶！！"
 
-#: protocols/yahoo/yahooaccount.cpp:1110
+#: protocols/yahoo/yahooaccount.cpp:1163
 #, fuzzy, kde-format
 msgid ""
 "%1 has invited you to join a conference with %2.\n"
@@ -20709,41 +20719,41 @@ msgid ""
 "Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1111 protocols/yahoo/yahooaccount.cpp:1563
-#: protocols/yahoo/yahooaccount.cpp:1774
+#: protocols/yahoo/yahooaccount.cpp:1164 protocols/yahoo/yahooaccount.cpp:1616
+#: protocols/yahoo/yahooaccount.cpp:1827
 #, fuzzy
 #| msgid "Accept"
 msgctxt "@action"
 msgid "Accept"
 msgstr "接受"
 
-#: protocols/yahoo/yahooaccount.cpp:1204
+#: protocols/yahoo/yahooaccount.cpp:1257
 #, fuzzy, kde-format
 msgid "%1 has declined to join the conference: \"%2\""
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/yahoo/yahooaccount.cpp:1520
+#: protocols/yahoo/yahooaccount.cpp:1573
 #, kde-format
 msgid "You have one unread message in your Yahoo inbox."
 msgid_plural "You have %1 unread messages in your Yahoo inbox."
 msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1532
+#: protocols/yahoo/yahooaccount.cpp:1585
 #, kde-format
 msgid "You have a message from %1 in your Yahoo inbox."
 msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1562
+#: protocols/yahoo/yahooaccount.cpp:1615
 #, kde-format
 msgid "%1 has invited you to view his/her webcam. Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1571
+#: protocols/yahoo/yahooaccount.cpp:1624
 #, fuzzy, kde-format
 msgid "Webcam for %1 is not available."
 msgstr "網絡不能用"
 
-#: protocols/yahoo/yahooaccount.cpp:1669
+#: protocols/yahoo/yahooaccount.cpp:1722
 #: protocols/yahoo/yahooeditaccount.cpp:171
 #, fuzzy
 #| msgid ""
@@ -20754,16 +20764,16 @@ msgid ""
 "buddy icon.</qt>"
 msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
 
-#: protocols/yahoo/yahooaccount.cpp:1684
+#: protocols/yahoo/yahooaccount.cpp:1737
 msgid "An error occurred when trying to change the display picture."
 msgstr "嘗試更改顯示圖片時發生錯誤。"
 
-#: protocols/yahoo/yahooaccount.cpp:1773
+#: protocols/yahoo/yahooaccount.cpp:1826
 #, fuzzy, kde-format
 msgid "%1 wants to view your webcam. Grant access?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1911
+#: protocols/yahoo/yahooaccount.cpp:1964
 #, fuzzy, kde-format
 msgid "You are now in %1 (%2)"
 msgstr "你現在被標示為 %1 。"
@@ -23312,6 +23322,12 @@ msgid ""
 "Sorry, we are unable to connect to the local mDNS server. Please ensure the "
 "Avahi daemon is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Secret"
+#~ msgctxt "@info"
+#~ msgid "Shared Secret"
+#~ msgstr "秘密(&S)"
 
 #, fuzzy
 #~ msgid "A fatal error occurred while downloading buddy icon."
