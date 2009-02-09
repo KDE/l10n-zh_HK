@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-07 11:36+0100\n"
+"POT-Creation-Date: 2009-02-09 10:16+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -366,7 +366,7 @@ msgid "Kopete Avatar Selector Widget Test"
 msgstr ""
 
 #: libkopete/tests/avatarselectortest_program.cpp:26 kopete/main.cpp:47
-#: kopete/chatwindow/krichtexteditpart.cpp:254
+#: kopete/chatwindow/chattexteditpart.cpp:528
 msgid "Michaël Larouche"
 msgstr ""
 
@@ -1368,7 +1368,7 @@ msgstr "設定狀態(&S)"
 #. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:68
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:62
 #. i18n: ectx: ToolBar (statusToolBar)
 #. i18n: file: plugins/otr/otrprefs.ui:206
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
@@ -1378,7 +1378,7 @@ msgstr "設定狀態(&S)"
 #. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:68
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:62
 #. i18n: ectx: ToolBar (statusToolBar)
 #. i18n: file: plugins/otr/otrprefs.ui:206
 #. i18n: ectx: property (text), widget (QTableWidget, tbFingerprints)
@@ -1584,7 +1584,7 @@ msgstr "開發人員、 Gadu 插件維護者"
 msgid "Gustavo Pichorim Boiko"
 msgstr ""
 
-#: kopete/main.cpp:44 kopete/chatwindow/krichtexteditpart.cpp:253
+#: kopete/main.cpp:44 kopete/chatwindow/chattexteditpart.cpp:527
 msgid "Jason Keirstead"
 msgstr ""
 
@@ -2780,139 +2780,113 @@ msgstr "聊天"
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> 現在是 %2 。</qt>"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:245
+#: kopete/chatwindow/kopetechatwindow.cpp:246
 #, fuzzy
 #| msgid "Send"
 msgctxt "@action:button"
 msgid "Send"
 msgstr "傳送"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:256
+#: kopete/chatwindow/kopetechatwindow.cpp:257
 #, fuzzy
 #| msgid "Ready."
 msgctxt "@info:status"
 msgid "Ready."
 msgstr "就緒。"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:356
+#: kopete/chatwindow/kopetechatwindow.cpp:357
 #: kopete/chatwindow/kopeteemailwindow.cpp:219
 msgid "&Send Message"
 msgstr "傳送訊息(&S)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:363
+#: kopete/chatwindow/kopetechatwindow.cpp:364
 #, fuzzy
 msgid "Send File"
 msgstr "傳送檔案(&F)..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:371
+#: kopete/chatwindow/kopetechatwindow.cpp:372
 msgid "Close All Chats"
 msgstr "關閉所有聊天"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:376
+#: kopete/chatwindow/kopetechatwindow.cpp:377
 #, fuzzy
 #| msgid "&Activate Next Tab"
 msgid "&Activate Next Active Tab"
 msgstr "換到下一個分頁(&A)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:382
+#: kopete/chatwindow/kopetechatwindow.cpp:383
 msgid "&Activate Next Tab"
 msgstr "換到下一個分頁(&A)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:388
+#: kopete/chatwindow/kopetechatwindow.cpp:389
 msgid "&Activate Previous Tab"
 msgstr "換到上一個分頁(&A)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:396
+#: kopete/chatwindow/kopetechatwindow.cpp:397
 msgid "Nic&k Completion"
 msgstr "暱稱自動完成功能(&K)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:400
+#: kopete/chatwindow/kopetechatwindow.cpp:401
 msgid "&Detach Chat"
 msgstr "分離聊天視窗(&D)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:405
+#: kopete/chatwindow/kopetechatwindow.cpp:406
 msgid "&Move Tab to Window"
 msgstr "移動分頁到視窗(&M)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:412
+#: kopete/chatwindow/kopetechatwindow.cpp:413
 msgid "&Tab Placement"
 msgstr "標籤位置(&T)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:424
-#, fuzzy
-#| msgid "&Set Font..."
-msgid "Set &Font..."
-msgstr "設定字型(&S)..."
-
-#: kopete/chatwindow/kopetechatwindow.cpp:428
-#, fuzzy
-#| msgid "Base font color:"
-msgid "Reset Font And Color"
-msgstr "基本字型顏色:"
-
-#: kopete/chatwindow/kopetechatwindow.cpp:432
-#: kopete/chatwindow/kopeteemailwindow.cpp:236
-msgid "Set Text &Color..."
-msgstr "設定文字顏色(&C)..."
-
-#: kopete/chatwindow/kopetechatwindow.cpp:436
-#: kopete/chatwindow/kopeteemailwindow.cpp:240
-msgid "Set &Background Color..."
-msgstr "設定背景顏色(&B)..."
-
-#: kopete/chatwindow/kopetechatwindow.cpp:440
-#: kopete/chatwindow/krichtexteditpart.cpp:261
-msgid "Enable &Rich Text"
-msgstr "啟用豐富文本（&Rich Text）"
-
-#: kopete/chatwindow/kopetechatwindow.cpp:444
+#: kopete/chatwindow/kopetechatwindow.cpp:426
 msgid "Previous History"
 msgstr "上一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:449
+#: kopete/chatwindow/kopetechatwindow.cpp:431
 msgid "Next History"
 msgstr "下一個歷程記錄"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:461
+#: kopete/chatwindow/kopetechatwindow.cpp:443
+#: kopete/chatwindow/kopeterichtextwidget.cpp:129
 msgid "Automatic Spell Checking"
 msgstr "自動拼字檢查"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:467
+#: kopete/chatwindow/kopetechatwindow.cpp:449
 msgid "Show Participants"
 msgstr ""
 
-#: kopete/chatwindow/kopetechatwindow.cpp:468
+#: kopete/chatwindow/kopetechatwindow.cpp:450
 #, fuzzy
 #| msgid "Parties"
 msgid "Participants"
 msgstr "派對"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:477
+#: kopete/chatwindow/kopetechatwindow.cpp:459
 msgid "Co&ntacts"
 msgstr "聯絡人(&N)"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:500
+#: kopete/chatwindow/kopetechatwindow.cpp:482
 #: kopete/chatwindow/kopeteemailwindow.cpp:272
 msgid "Toolbar Animation"
 msgstr "工具列動畫"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:678
+#: kopete/chatwindow/kopetechatwindow.cpp:645
 #, fuzzy
 #| msgid "Close the current tab"
 msgctxt "@info:tooltip"
 msgid "Close the current tab"
 msgstr "關閉目前分頁"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1111
+#: kopete/chatwindow/kopetechatwindow.cpp:1076
 msgid "More..."
 msgstr "更多..."
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1127
+#: kopete/chatwindow/kopetechatwindow.cpp:1092
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
-#: kopete/chatwindow/kopetechatwindow.cpp:1130
+#: kopete/chatwindow/kopetechatwindow.cpp:1095
 msgid "Bottom"
 msgstr ""
 
@@ -2938,6 +2912,34 @@ msgstr "儲存時發生錯誤"
 msgid "User Has Left"
 msgstr "使用者已經離開"
 
+#: kopete/chatwindow/chattexteditpart.cpp:523
+#, fuzzy
+msgid "ChatTextEditPart"
+msgstr "KopeteRichTextEditPart"
+
+#: kopete/chatwindow/chattexteditpart.cpp:524
+#, fuzzy
+msgid "A simple rich text editor part"
+msgstr "Kopete 的簡便豐富文本（Rich Text）編輯器"
+
+#: kopete/chatwindow/chattexteditpart.cpp:526
+msgid "Richard J. Moore"
+msgstr ""
+
+#: kopete/chatwindow/chattexteditpart.cpp:529
+msgid "Benson Tsai"
+msgstr ""
+
+#: kopete/chatwindow/kopeterichtextwidget.cpp:137
+msgid "Enable &Rich Text"
+msgstr "啟用豐富文本（&Rich Text）"
+
+#: kopete/chatwindow/kopeterichtextwidget.cpp:144
+#, fuzzy
+#| msgid "Base font color:"
+msgid "Reset Font And Color"
+msgstr "基本字型顏色:"
+
 #: kopete/chatwindow/kopeteemailwindow.cpp:167
 msgid "<< Prev"
 msgstr "<< 上一個"
@@ -2949,6 +2951,14 @@ msgstr "(0) 下一個 >>"
 #: kopete/chatwindow/kopeteemailwindow.cpp:232
 msgid "&Set Font..."
 msgstr "設定字型(&S)..."
+
+#: kopete/chatwindow/kopeteemailwindow.cpp:236
+msgid "Set Text &Color..."
+msgstr "設定文字顏色(&C)..."
+
+#: kopete/chatwindow/kopeteemailwindow.cpp:240
+msgid "Set &Background Color..."
+msgstr "設定背景顏色(&B)..."
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:269
 #, fuzzy
@@ -2962,7 +2972,7 @@ msgid "(%1) Next >>"
 msgstr "(%1) 下一個 >>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:458
-#: kopete/chatwindow/chatview.cpp:363
+#: kopete/chatwindow/chatview.cpp:368
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>You are about to leave the group chat session <b>%1</b>.<br>You will "
@@ -2975,7 +2985,7 @@ msgstr ""
 "qt>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:459
-#: kopete/chatwindow/chatview.cpp:364
+#: kopete/chatwindow/chatview.cpp:369
 msgid "Closing Group Chat"
 msgstr "正在關閉群組聊天"
 
@@ -2986,7 +2996,7 @@ msgid "Cl&ose Chat"
 msgstr "關閉聊天(&O)"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:465
-#: kopete/chatwindow/chatview.cpp:370
+#: kopete/chatwindow/chatview.cpp:375
 #, kde-format
 msgid ""
 "<qt>You have received a message from <b>%1</b> in the last second. Are you "
@@ -2994,19 +3004,19 @@ msgid ""
 msgstr "<qt>你在最後時刻從 <b>%1</b> 收到訊息。你確定要關閉此聊天嗎？</qt>"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:466
-#: kopete/chatwindow/chatview.cpp:371
+#: kopete/chatwindow/chatview.cpp:376
 msgid "Unread Message"
 msgstr "未讀訊息"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:472
-#: kopete/chatwindow/chatview.cpp:377
+#: kopete/chatwindow/chatview.cpp:382
 msgid ""
 "You have a message send in progress, which will be aborted if this chat is "
 "closed. Are you sure you want to close this chat?"
 msgstr "你有訊息正在傳送。如你關閉聊天，它將被中止。你確定要關閉這個聊天嗎？"
 
 #: kopete/chatwindow/kopeteemailwindow.cpp:473
-#: kopete/chatwindow/chatview.cpp:378
+#: kopete/chatwindow/chatview.cpp:383
 msgid "Message in Transit"
 msgstr "正傳送的訊息"
 
@@ -3024,119 +3034,57 @@ msgstr "回覆"
 msgid "Add Smiley"
 msgstr "加入表情"
 
-#: kopete/chatwindow/krichtexteditpart.cpp:249
-#, fuzzy
-msgid "KRichTextEditPart"
-msgstr "KopeteRichTextEditPart"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:250
-#, fuzzy
-msgid "A simple rich text editor part"
-msgstr "Kopete 的簡便豐富文本（Rich Text）編輯器"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:252
-msgid "Richard J. Moore"
-msgstr ""
-
-#: kopete/chatwindow/krichtexteditpart.cpp:263
-msgid "Disable &Rich Text"
-msgstr "停用豐富文本（&Rich Text）"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:267
-msgid "Check &Spelling"
-msgstr "檢查拼字(&S)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:272
-msgid "Text &Color..."
-msgstr "文字顏色(&C)..."
-
-#: kopete/chatwindow/krichtexteditpart.cpp:280
-msgid "&Font"
-msgstr "字型(&F)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:285
-msgid "Font &Size"
-msgstr "字型大小(&S)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:290
-msgid "&Bold"
-msgstr "粗體(&B)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:295
-msgid "&Italic"
-msgstr "斜體(&I)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:301
-msgid "&Underline"
-msgstr "底線(&U)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:313
-msgid "Align &Left"
-msgstr "向左對齊(&L)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:318
-msgid "Align &Center"
-msgstr "向中對齊(&C)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:323
-msgid "Align &Right"
-msgstr "向右對齊(&R)"
-
-#: kopete/chatwindow/krichtexteditpart.cpp:328
-msgid "&Justify"
-msgstr "向右對齊(&J)"
-
-#: kopete/chatwindow/chatview.cpp:365 kopete/chatwindow/chatview.cpp:372
-#: kopete/chatwindow/chatview.cpp:379
+#: kopete/chatwindow/chatview.cpp:370 kopete/chatwindow/chatview.cpp:377
+#: kopete/chatwindow/chatview.cpp:384
 #, fuzzy
 #| msgid "Cl&ose Chat"
 msgctxt "@action:button"
 msgid "Close Chat"
 msgstr "關閉聊天(&O)"
 
-#: kopete/chatwindow/chatview.cpp:419
+#: kopete/chatwindow/chatview.cpp:424
 #, kde-format
 msgid "One other person in the chat"
 msgid_plural "%1 other people in the chat"
 msgstr[0] "聊天中有 %1 個其他人"
 
-#: kopete/chatwindow/chatview.cpp:461
+#: kopete/chatwindow/chatview.cpp:476
 #, kde-format
 msgid "%1 is typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: kopete/chatwindow/chatview.cpp:465
+#: kopete/chatwindow/chatview.cpp:480
 #, kde-format
 msgctxt "%1 is a list of names"
 msgid "%1 are typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: kopete/chatwindow/chatview.cpp:522 kopete/chatwindow/chatview.cpp:531
+#: kopete/chatwindow/chatview.cpp:537 kopete/chatwindow/chatview.cpp:546
 #, kde-format
 msgid "%1 is now known as %2"
 msgstr "%1 現在改名為 %2"
 
-#: kopete/chatwindow/chatview.cpp:550
+#: kopete/chatwindow/chatview.cpp:565
 #, kde-format
 msgid "%1 has joined the chat."
 msgstr "%1 加入這次聊天。"
 
-#: kopete/chatwindow/chatview.cpp:595
+#: kopete/chatwindow/chatview.cpp:610
 #, kde-format
 msgid "%1 has left the chat."
 msgstr "%1 離開這次聊天。"
 
-#: kopete/chatwindow/chatview.cpp:597
+#: kopete/chatwindow/chatview.cpp:612
 #, kde-format
 msgid "%1 has left the chat (%2)."
 msgstr "%1 離開這次聊天 (%2)。"
 
-#: kopete/chatwindow/chatview.cpp:704
+#: kopete/chatwindow/chatview.cpp:719
 #, kde-format
 msgid "You are now marked as %1."
 msgstr "你現在被標示為 %1 。"
 
-#: kopete/chatwindow/chatview.cpp:709
+#: kopete/chatwindow/chatview.cpp:724
 #, kde-format
 msgid "%2 is now %1."
 msgstr "%2 現在是 %1 。"
@@ -5273,7 +5221,7 @@ msgstr "編輯..."
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:22
 #. i18n: ectx: Menu (settings)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:41
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:34
 #. i18n: ectx: Menu (settings)
 #. i18n: file: plugins/otr/otrprefs.ui:23
 #. i18n: ectx: attribute (title), widget (QWidget, settings)
@@ -5281,7 +5229,7 @@ msgstr "編輯..."
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:22
 #. i18n: ectx: Menu (settings)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:41
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:34
 #. i18n: ectx: Menu (settings)
 #. i18n: file: plugins/otr/otrprefs.ui:23
 #. i18n: ectx: attribute (title), widget (QWidget, settings)
@@ -5296,7 +5244,7 @@ msgstr "MSN 設置(&S)"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:29
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:52
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:45
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kopete/kopeteui.rc:47
 #. i18n: ectx: ToolBar (mainToolBar)
@@ -5304,7 +5252,7 @@ msgstr "MSN 設置(&S)"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:29
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:52
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:45
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:914 rc.cpp:1082 rc.cpp:1097 rc.cpp:1115
 #, fuzzy
@@ -5657,11 +5605,11 @@ msgstr "對齊方式(&A)"
 
 #. i18n: file: kopete/chatwindow/kopeterichtexteditpartfull.rc:32
 #. i18n: ectx: ToolBar (formatToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:71
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:66
 #. i18n: ectx: ToolBar (formatToolBar)
 #. i18n: file: kopete/chatwindow/kopeterichtexteditpartfull.rc:32
 #. i18n: ectx: ToolBar (formatToolBar)
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:71
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:66
 #. i18n: ectx: ToolBar (formatToolBar)
 #: rc.cpp:1085 rc.cpp:1124
 msgid "Format Toolbar"
@@ -5716,13 +5664,13 @@ msgstr "聊天(&C)"
 msgid "&Format"
 msgstr "格式(&F)"
 
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:31
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:24
 #. i18n: ectx: Menu (tabs)
 #: rc.cpp:1109
 msgid "&Tabs"
 msgstr "分頁(&T)"
 
-#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:56
+#. i18n: file: kopete/chatwindow/kopetechatwindow.rc:50
 #. i18n: ectx: ToolBar (chatToolBar)
 #: rc.cpp:1118
 #, fuzzy
@@ -23322,6 +23270,47 @@ msgid ""
 "Sorry, we are unable to connect to the local mDNS server. Please ensure the "
 "Avahi daemon is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Set Font..."
+#~ msgid "Set &Font..."
+#~ msgstr "設定字型(&S)..."
+
+#~ msgid "Disable &Rich Text"
+#~ msgstr "停用豐富文本（&Rich Text）"
+
+#~ msgid "Check &Spelling"
+#~ msgstr "檢查拼字(&S)"
+
+#~ msgid "Text &Color..."
+#~ msgstr "文字顏色(&C)..."
+
+#~ msgid "&Font"
+#~ msgstr "字型(&F)"
+
+#~ msgid "Font &Size"
+#~ msgstr "字型大小(&S)"
+
+#~ msgid "&Bold"
+#~ msgstr "粗體(&B)"
+
+#~ msgid "&Italic"
+#~ msgstr "斜體(&I)"
+
+#~ msgid "&Underline"
+#~ msgstr "底線(&U)"
+
+#~ msgid "Align &Left"
+#~ msgstr "向左對齊(&L)"
+
+#~ msgid "Align &Center"
+#~ msgstr "向中對齊(&C)"
+
+#~ msgid "Align &Right"
+#~ msgstr "向右對齊(&R)"
+
+#~ msgid "&Justify"
+#~ msgstr "向右對齊(&J)"
 
 #, fuzzy
 #~| msgid "&Secret"
