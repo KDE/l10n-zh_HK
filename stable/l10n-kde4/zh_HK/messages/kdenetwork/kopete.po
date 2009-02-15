@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-14 06:45+0100\n"
+"POT-Creation-Date: 2009-02-15 06:00+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1365,7 +1365,7 @@ msgid "&Set Status"
 msgstr "設定狀態(&S)"
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:74
-#. i18n: ectx: property (text), widget (QTreeWidget, mAccountList)
+#. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
 #. i18n: file: kopete/chatwindow/kopetechatwindow.rc:68
@@ -1375,7 +1375,7 @@ msgstr "設定狀態(&S)"
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:62
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, statusGroup_)
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:74
-#. i18n: ectx: property (text), widget (QTreeWidget, mAccountList)
+#. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #. i18n: file: kopete/chatwindow/kopeteemailwindow.rc:42
 #. i18n: ectx: ToolBar (statusToolBar)
 #. i18n: file: kopete/chatwindow/kopetechatwindow.rc:68
@@ -1933,63 +1933,63 @@ msgid ""
 "format."
 msgstr ""
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:254
+#: kopete/config/accounts/kopeteaccountconfig.cpp:257
 #, fuzzy
 #| msgid "Edit Account"
 msgid "Modify Account"
 msgstr "編輯帳號"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:306
+#: kopete/config/accounts/kopeteaccountconfig.cpp:309
 #, kde-format
 msgid "Are you sure you want to remove the account \"%1\"?"
 msgstr "確定要移除「%1」帳號嗎？"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:307
+#: kopete/config/accounts/kopeteaccountconfig.cpp:310
 msgid "Remove Account"
 msgstr "移除帳號"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:324
+#: kopete/config/accounts/kopeteaccountconfig.cpp:327
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to remove the account \"%1\"?"
 msgid "Are you sure you want to remove the identity \"%1\"?"
 msgstr "確定要移除「%1」帳號嗎？"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:325
+#: kopete/config/accounts/kopeteaccountconfig.cpp:328
 #, fuzzy
 #| msgid "Remo&ve Identity"
 msgid "Remove Identity"
 msgstr "移除身份(&V)"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:336
+#: kopete/config/accounts/kopeteaccountconfig.cpp:339
 #, kde-format
 msgid ""
 "Before removing the identity %1, the following accounts must be assigned to "
 "another identity:"
 msgstr ""
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:369
+#: kopete/config/accounts/kopeteaccountconfig.cpp:372
 msgid "Select an identity for the account:"
 msgstr ""
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:388
+#: kopete/config/accounts/kopeteaccountconfig.cpp:391
 msgid "New Identity"
 msgstr "新身份"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:410
+#: kopete/config/accounts/kopeteaccountconfig.cpp:413
 #, fuzzy, kde-format
 #| msgid "&Copy To"
 msgctxt "String used for creating first copy of a named item"
 msgid "Copy of %1"
 msgstr "複製至(&C)"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:418
+#: kopete/config/accounts/kopeteaccountconfig.cpp:421
 #, fuzzy, kde-format
 #| msgid "%1 @ %2"
 msgctxt "String used for creating second and subsequent copies of a named item"
 msgid "Copy %1 of %2"
 msgstr "%1 @ %2"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:496
+#: kopete/config/accounts/kopeteaccountconfig.cpp:499
 #, fuzzy
 #| msgid "Edit Account"
 msgid "&Add Account..."
@@ -1997,7 +1997,7 @@ msgstr "編輯帳號"
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:123
 #. i18n: ectx: property (text), widget (QPushButton, mButtonAccountModify)
-#: kopete/config/accounts/kopeteaccountconfig.cpp:504 rc.cpp:529
+#: kopete/config/accounts/kopeteaccountconfig.cpp:507 rc.cpp:529
 #, fuzzy
 #| msgid "&Modify..."
 msgid "&Modify Account..."
@@ -2005,19 +2005,19 @@ msgstr "修改(&M)..."
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:110
 #. i18n: ectx: property (text), widget (QPushButton, mButtonAccountRemove)
-#: kopete/config/accounts/kopeteaccountconfig.cpp:512 rc.cpp:520
+#: kopete/config/accounts/kopeteaccountconfig.cpp:515 rc.cpp:520
 #, fuzzy
 #| msgid "Remove Account"
 msgid "&Remove Account"
 msgstr "移除帳號"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:521
+#: kopete/config/accounts/kopeteaccountconfig.cpp:524
 #, fuzzy
 #| msgid "Cop&y Identity..."
 msgid "&Switch Identity..."
 msgstr "複製身份(&Y)..."
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:527
+#: kopete/config/accounts/kopeteaccountconfig.cpp:530
 #, fuzzy
 #| msgid "New Identity"
 msgid "Add &Identity..."
@@ -2025,7 +2025,7 @@ msgstr "新身份"
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:178
 #. i18n: ectx: property (text), widget (QPushButton, mButtonIdentityCopy)
-#: kopete/config/accounts/kopeteaccountconfig.cpp:535 rc.cpp:553
+#: kopete/config/accounts/kopeteaccountconfig.cpp:538 rc.cpp:553
 #, fuzzy
 #| msgid "Cop&y Identity..."
 msgid "&Copy Identity..."
@@ -2033,19 +2033,19 @@ msgstr "複製身份(&Y)..."
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, mButtonIdentityModify)
-#: kopete/config/accounts/kopeteaccountconfig.cpp:543 rc.cpp:571
+#: kopete/config/accounts/kopeteaccountconfig.cpp:546 rc.cpp:571
 #, fuzzy
 #| msgid "Cop&y Identity..."
 msgid "M&odify Identity..."
 msgstr "複製身份(&Y)..."
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:551
+#: kopete/config/accounts/kopeteaccountconfig.cpp:554
 #, fuzzy
 #| msgid "Remo&ve Identity"
 msgid "R&emove Identity"
 msgstr "移除身份(&V)"
 
-#: kopete/config/accounts/kopeteaccountconfig.cpp:559
+#: kopete/config/accounts/kopeteaccountconfig.cpp:562
 #, fuzzy
 msgid "Set &Default"
 msgstr "細節(&D)"
@@ -4324,7 +4324,7 @@ msgid "Check to Include in Global Connection"
 msgstr "勾選此在此連線啟用 SSL"
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:41
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, mAccountList)
+#. i18n: ectx: property (whatsThis), widget (AccountTreeWidget, mAccountList)
 #: rc.cpp:494
 msgid ""
 "This widget shows your identities and accounts in a hierarchical view. Each "
@@ -4332,7 +4332,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file: kopete/config/accounts/kopeteaccountconfigbase.ui:69
-#. i18n: ectx: property (text), widget (QTreeWidget, mAccountList)
+#. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #: rc.cpp:497
 #, fuzzy
 #| msgid "Account"
