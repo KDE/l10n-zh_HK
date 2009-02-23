@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-21 10:20+0100\n"
+"POT-Creation-Date: 2009-02-23 09:47+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2847,7 +2847,7 @@ msgid "Next History"
 msgstr "下一個歷程記錄"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:443
-#: kopete/chatwindow/kopeterichtextwidget.cpp:129
+#: kopete/chatwindow/kopeterichtextwidget.cpp:134
 msgid "Automatic Spell Checking"
 msgstr "自動拼字檢查"
 
@@ -2891,7 +2891,7 @@ msgid "Bottom"
 msgstr ""
 
 #: kopete/chatwindow/chatmessagepart.cpp:272
-#: plugins/history/historydialog.cpp:167
+#: plugins/history/historydialog.cpp:168
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
@@ -2930,11 +2930,11 @@ msgstr ""
 msgid "Benson Tsai"
 msgstr ""
 
-#: kopete/chatwindow/kopeterichtextwidget.cpp:138
+#: kopete/chatwindow/kopeterichtextwidget.cpp:143
 msgid "Enable &Rich Text"
 msgstr "啟用豐富文本（&Rich Text）"
 
-#: kopete/chatwindow/kopeterichtextwidget.cpp:146
+#: kopete/chatwindow/kopeterichtextwidget.cpp:151
 #, fuzzy
 #| msgid "Base font color:"
 msgid "Reset Font And Color"
@@ -6339,7 +6339,7 @@ msgstr "省/州(&S):"
 #. i18n: ectx: property (text), widget (QPushButton, m_cancelButton)
 #. i18n: file: protocols/jabber/ui/dlgcommand.ui:145
 #. i18n: ectx: property (text), widget (QPushButton, btnCancel)
-#: rc.cpp:1417 rc.cpp:2207 rc.cpp:4738 plugins/history/historydialog.cpp:465
+#: rc.cpp:1417 rc.cpp:2207 rc.cpp:4738 plugins/history/historydialog.cpp:466
 #: protocols/gadu/gaduregisteraccount.cpp:55
 #, fuzzy
 msgid "&Cancel"
@@ -6921,7 +6921,7 @@ msgstr "聯絡人:"
 
 #. i18n: file: plugins/history/historyviewer.ui:56
 #. i18n: ectx: property (text), widget (QPushButton, importHistory)
-#: rc.cpp:1685 plugins/history/historyimport.cpp:37
+#: rc.cpp:1685 plugins/history/historyimport.cpp:52
 #, fuzzy
 #| msgid "Next History"
 msgid "Import History"
@@ -6973,14 +6973,14 @@ msgstr "聯絡人"
 
 #. i18n: file: plugins/history/historyviewer.ui:169
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: rc.cpp:1709 plugins/history/historydialog.cpp:528
+#: rc.cpp:1709 plugins/history/historydialog.cpp:529
 #, fuzzy
 msgid "Se&arch"
 msgstr "搜尋(&A):"
 
 #. i18n: file: plugins/history/historyviewer.ui:186
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:1712 plugins/history/historydialog.cpp:564
+#: rc.cpp:1712 plugins/history/historydialog.cpp:565
 msgid "Ready"
 msgstr "就緒"
 
@@ -15998,7 +15998,7 @@ msgctxt "adjective decribing an instant message"
 msgid "Outbound"
 msgstr "外出用餐"
 
-#: plugins/webpresence/webpresenceplugin.cpp:202
+#: plugins/webpresence/webpresenceplugin.cpp:205
 msgid ""
 "An error occurred when uploading your presence page.\n"
 "Check the path and write permissions of the destination."
@@ -16006,7 +16006,7 @@ msgstr ""
 "上載你的 presence 頁時發生問題。\n"
 "請檢查目的地路徑及寫入權限。"
 
-#: plugins/webpresence/webpresenceplugin.cpp:212
+#: plugins/webpresence/webpresenceplugin.cpp:215
 msgid "Not yet known"
 msgstr "未知"
 
@@ -16028,26 +16028,26 @@ msgstr "－新的過濾器－"
 msgid "Preview of:"
 msgstr "預覽:"
 
-#: plugins/history/historydialog.cpp:85 plugins/history/historydialog.cpp:548
+#: plugins/history/historydialog.cpp:86 plugins/history/historydialog.cpp:549
 #, kde-format
 msgid "History for %1"
 msgstr "%1 的歷程記錄"
 
-#: plugins/history/historydialog.cpp:107
+#: plugins/history/historydialog.cpp:108
 msgid "All"
 msgstr "所有"
 
-#: plugins/history/historydialog.cpp:202
+#: plugins/history/historydialog.cpp:203
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:41
 #: protocols/yahoo/ui/yahoochatselectordialog.cpp:63
 msgid "Loading..."
 msgstr "正在載入..."
 
-#: plugins/history/historydialog.cpp:464
+#: plugins/history/historydialog.cpp:465
 msgid "Searching..."
 msgstr "正在搜尋..."
 
-#: plugins/history/historydialog.cpp:541
+#: plugins/history/historydialog.cpp:542
 #, fuzzy
 msgid "History for All Contacts"
 msgstr "%1 的歷程記錄"
@@ -16085,103 +16085,103 @@ msgstr "匯入並轉換"
 msgid "Do Not Import"
 msgstr "不匯入"
 
-#: plugins/history/historyimport.cpp:38
+#: plugins/history/historyimport.cpp:53
 msgid "Import listed logs"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:48
+#: plugins/history/historyimport.cpp:63
 msgid "Get history from &Pidgin"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:63
+#: plugins/history/historyimport.cpp:78
 msgid "Select log directory by hand"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:75
+#: plugins/history/historyimport.cpp:90
 #, fuzzy
 #| msgid "Previous History"
 msgid "Parsed History"
 msgstr "上一個歷程記錄"
 
-#: plugins/history/historyimport.cpp:98
+#: plugins/history/historyimport.cpp:113
 #, fuzzy
 msgid "Saving logs to disk ..."
 msgstr "正在連線到伺服器..."
 
-#: plugins/history/historyimport.cpp:98
+#: plugins/history/historyimport.cpp:113
 #, fuzzy
 #| msgid "Error While Saving"
 msgid "Abort Saving"
 msgstr "儲存時發生錯誤"
 
-#: plugins/history/historyimport.cpp:99
+#: plugins/history/historyimport.cpp:114
 #, fuzzy
 #| msgid "Searching"
 msgid "Saving"
 msgstr "正在搜尋"
 
-#: plugins/history/historyimport.cpp:246
+#: plugins/history/historyimport.cpp:261
 #, fuzzy
 #| msgid "Groups"
 msgid "Are you sure?"
 msgstr "群組"
 
-#: plugins/history/historyimport.cpp:247
+#: plugins/history/historyimport.cpp:262
 msgid ""
 "You already imported logs from pidgin. If you do it twice, each message is "
 "imported twice!\n"
 "Are you sure you want to continue?"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:256
+#: plugins/history/historyimport.cpp:271
 #, fuzzy
 #| msgid "Default Identity"
 msgid "Select log directory"
 msgstr "預設身份"
 
-#: plugins/history/historyimport.cpp:259
+#: plugins/history/historyimport.cpp:274
 #, fuzzy
 #| msgid "Parsing old history in %1"
 msgid "Parsing history from pidgin ..."
 msgstr "正在解析 %1 中的舊歷程記錄"
 
-#: plugins/history/historyimport.cpp:259
+#: plugins/history/historyimport.cpp:274
 msgid "Abort parsing"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:260
+#: plugins/history/historyimport.cpp:275
 #, fuzzy
 #| msgid "Parsing old history in %1"
 msgid "Parsing history"
 msgstr "正在解析 %1 中的舊歷程記錄"
 
-#: plugins/history/historyimport.cpp:285
+#: plugins/history/historyimport.cpp:300
 #, kde-format
 msgid "WARNING: Can't find matching account for %1 (%2)!\n"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:297
+#: plugins/history/historyimport.cpp:312
 #, kde-format
 msgid ""
 "WARNING: Can't find %1 (%2) in your contact list. Found logs will not be "
 "imported!\n"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:312
+#: plugins/history/historyimport.cpp:327
 #, kde-format
 msgid "WARNING: Can't open file %1. Skipping.\n"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:361
+#: plugins/history/historyimport.cpp:376
 msgid "Can't map nickname to account"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:362
+#: plugins/history/historyimport.cpp:377
 #, kde-format
 msgid "Did you use \"%1\" as nickname in history?"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:409
+#: plugins/history/historyimport.cpp:424
 #, kde-format
 msgid ""
 "WARNING: can't parse date \"%1\". You may want to edit the file containing "
@@ -16189,44 +16189,44 @@ msgid ""
 "15:24:30\")\n"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:535
+#: plugins/history/historyimport.cpp:550
 #, kde-format
 msgid "WARNING: XML parser error in %1 at line %2, character %3: %4"
 msgstr ""
 
-#: plugins/history/historyimport.cpp:538
+#: plugins/history/historyimport.cpp:553
 #, fuzzy, kde-format
 #| msgctxt "Translators: client name and version"
 #| msgid "%1"
 msgid "\t%1"
 msgstr "%1"
 
-#: plugins/history/converter.cpp:41
+#: plugins/history/converter.cpp:42
 #, fuzzy
 #| msgid "Would you like to remove old history files?"
 msgid "Would you like to remove the old history files?"
 msgstr "你想要移除舊的歷程記錄檔案嗎？"
 
-#: plugins/history/converter.cpp:41
+#: plugins/history/converter.cpp:42
 msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
-#: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:962
+#: plugins/history/converter.cpp:42 protocols/jabber/jabbercontact.cpp:962
 #: protocols/jabber/jabberaccount.cpp:1168
 msgid "Keep"
 msgstr "保留"
 
-#: plugins/history/converter.cpp:43
+#: plugins/history/converter.cpp:44
 msgid "History converter"
 msgstr "歷程記錄轉換器"
 
-#: plugins/history/converter.cpp:108
+#: plugins/history/converter.cpp:109
 #, fuzzy, kde-format
 #| msgid "Parsing old history in %1"
 msgid "Parsing the old history in %1"
 msgstr "正在解析 %1 中的舊歷程記錄"
 
-#: plugins/history/converter.cpp:118
+#: plugins/history/converter.cpp:119
 #, fuzzy, kde-format
 #| msgid ""
 #| "Parsing old history in %1:\n"
