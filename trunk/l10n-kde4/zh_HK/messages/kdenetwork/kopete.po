@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-28 10:15+0100\n"
+"POT-Creation-Date: 2009-03-05 10:36+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -358,9 +358,6 @@ msgid "You must provide a valid local directory"
 msgstr "你必須提供有效的本機檔案名稱"
 
 #: libkopete/tests/avatarselectortest_program.cpp:24
-msgid "KopeteAvatarSelectorWidgetTest"
-msgstr ""
-
 #: libkopete/tests/avatarselectortest_program.cpp:25
 msgid "Kopete Avatar Selector Widget Test"
 msgstr ""
@@ -2340,7 +2337,7 @@ msgstr "伺服器訊息:"
 #: kopete/config/chatwindow/chatwindowconfig.cpp:597
 #, fuzzy
 #| msgid "Message has been delivered"
-msgid "Message that can't be delivered."
+msgid "Message that cannot be delivered."
 msgstr "訊息已經傳送了"
 
 #: kopete/config/chatwindow/chatwindowconfig.cpp:602
@@ -2914,7 +2911,7 @@ msgstr "使用者已經離開"
 
 #: kopete/chatwindow/chattexteditpart.cpp:512
 #, fuzzy
-msgid "ChatTextEditPart"
+msgid "Chat Text Edit Part"
 msgstr "KopeteRichTextEditPart"
 
 #: kopete/chatwindow/chattexteditpart.cpp:513
@@ -3235,8 +3232,13 @@ msgstr "將這個聯絡人加入到我的聯絡人清單"
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:122
 #. i18n: ectx: property (toolTip), widget (KLineEdit, m_displayNameEdit)
 #: rc.cpp:53 rc.cpp:63
+#, fuzzy
+#| msgid ""
+#| "The display name of the contact.  Leave it empty to use the contact "
+#| "nickname"
 msgid ""
-"The display name of the contact.  Leave it empty to use the contact nickname"
+"The display name of the contact.  Leave it empty to use the contact's "
+"nickname."
 msgstr "這個聯絡人的顯示名稱。 保持空白以使用聯絡人的暱稱"
 
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:112
@@ -3248,9 +3250,10 @@ msgstr "這個聯絡人的顯示名稱。 保持空白以使用聯絡人的暱�
 #| "the contactlist.\n"
 #| "Leave it empty if you want to see the contact nickname as display name."
 msgid ""
-"Enter the contact display name. This is how the contact will appear in the "
-"contactlist.\n"
-"Leave it empty if you want to see the contact nickname as display name."
+"Enter the contact's display name. This is how the contact will appear in the "
+"contact list.\n"
+"Leave it empty if you want to see the contact's nickname as their display "
+"name."
 msgstr ""
 "輸入聯絡人的顯示名稱。它會顯示在聯絡人清單裡。\n"
 "如果你想看到聯絡人的暱稱作為顯示名稱，請留空。"
@@ -3274,10 +3277,16 @@ msgstr "顯示名稱:"
 #. i18n: file: libkopete/ui/contactaddednotifywidget.ui:126
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_displayNameEdit)
 #: rc.cpp:66
+#, fuzzy
+#| msgid ""
+#| "Enter the contact display name. This is how the contact will appears in "
+#| "the contactlist.\n"
+#| "Leave it empty if you want to see the contact nickname as display name."
 msgid ""
-"Enter the contact display name. This is how the contact will appears in the "
-"contactlist.\n"
-"Leave it empty if you want to see the contact nickname as display name."
+"Enter the contact's display name. This is how the contact will appears in "
+"the contact list.\n"
+"Leave it empty if you want to see the contact's nickname as their display "
+"name."
 msgstr ""
 "輸入聯絡人的顯示名稱。它會顯示在聯絡人清單裡。\n"
 "如果你想看到聯絡人的暱稱作為顯示名稱，請留空。"
@@ -3368,7 +3377,7 @@ msgstr "群組(&G)"
 #. i18n: ectx: property (text), widget (QLabel, kabcLabel)
 #: rc.cpp:121
 #, fuzzy
-msgid "Addressbook entry:"
+msgid "Address book entry:"
 msgstr "通訊錄連結:"
 
 #. i18n: file: kopete/identity/identitystatusbase.ui:73
@@ -3966,7 +3975,7 @@ msgstr "「忽略」按鈕會關閉它(&I)"
 #: rc.cpp:358
 #, fuzzy
 #| msgid "Notify only highlighted messages in group chats"
-msgid "Notify only highlighted messages in groupchats"
+msgid "Notify only highlighted messages in group chats"
 msgstr "在群組聊天中只通知加強顯示的訊息"
 
 #. i18n: file: kopete/config/behavior/behaviorconfig_events.ui:106
@@ -3977,15 +3986,15 @@ msgstr "在群組聊天中只通知加強顯示的訊息"
 #| "In very active group chats important messages can be singled out by "
 #| "excluding non-highlighted messages from notification."
 msgid ""
-"In very active groupchats important messages can be singled out by excluding "
-"non-highlighted messages from notification."
+"In very active group chats, important messages can be singled out by "
+"preventing notifications for non-highlighted messages."
 msgstr "在很活躍的群組聊天中，從通知排除非加強顯示訊息可將重要訊息突顯出來。"
 
 #. i18n: file: kopete/config/behavior/behaviorconfig_events.ui:109
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_queueOnlyHighlightedMessagesInGroupChats)
 #: rc.cpp:364
 #, fuzzy
-msgid "Exclude non-&highlighted messages in groupchats"
+msgid "Exclude non-&highlighted messages in group chats"
 msgstr "在群組聊天中不要顯示沒有加強顯示的訊息(&P)"
 
 #. i18n: file: kopete/config/behavior/behaviorconfig_events.ui:116
@@ -5503,7 +5512,7 @@ msgstr "顯示名稱來源"
 #. i18n: ectx: property (text), widget (QRadioButton, radioNameKABC)
 #: rc.cpp:1028
 #, fuzzy
-msgid "Use addressbook &name (needs addressbook link)"
+msgid "Use address book &name (needs address book link)"
 msgstr "使用通訊錄名稱（需要通訊錄連結）"
 
 #. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:148
@@ -5548,8 +5557,9 @@ msgstr "照片來源"
 #. i18n: ectx: property (text), widget (QRadioButton, radioPhotoKABC)
 #: rc.cpp:1043
 #, fuzzy
-msgid "U&se addressbook photo (needs addressbook link)"
-msgstr "使用通訊錄照片（需要通訊錄連結）"
+#| msgid "Use a&ddress book photo (needs address book link)"
+msgid "U&se address book photo (needs address book link)"
+msgstr "使用通訊錄照片（需要通訊錄連結）(&D)"
 
 #. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:305
 #. i18n: ectx: property (text), widget (QRadioButton, radioPhotoCustom)
@@ -6735,21 +6745,21 @@ msgstr "預覽:"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, restrictPreviews)
 #: rc.cpp:1595
 msgid ""
-"If checked, only the selected amount of pictures are downloaded and "
+"If checked, only the selected number of pictures are downloaded and "
 "displayed as previews.\n"
-"If not checked an unlimited number of previews are generated."
+"Otherwise, an unlimited number of previews are generated."
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, restrictPreviews)
 #: rc.cpp:1599
-msgid "&Restrict amount of previews"
+msgid "&Restrict number of previews"
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:57
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, previewAmount)
 #: rc.cpp:1602
-msgid "The maximum amount of pictures to download and preview."
+msgid "The maximum number of pictures to download and preview."
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:98
@@ -6765,8 +6775,8 @@ msgstr "正在搜尋"
 #: rc.cpp:1608
 msgid ""
 "If checked, preview images get scaled down to the width specified.\n"
-"If not checked, the images get not scaled at all and appear in their "
-"original size."
+"Otherwise, the images are not scaled at all and appear in their original "
+"size."
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:114
@@ -6781,8 +6791,8 @@ msgstr "儲存到:"
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, previewScaleWidth)
 #: rc.cpp:1615
 msgid ""
-"The width to which images should get scaled down. Smaller images will not "
-"get scaled and appear in the original size."
+"The width to which images should be scaled down. Smaller images will appear "
+"in their original size."
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:127
@@ -6802,7 +6812,7 @@ msgstr "預覽:"
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:173
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, enableLinkPreview)
 #: rc.cpp:1624
-msgid "Creates an preview picture of the link."
+msgid "Creates a preview picture of the link."
 msgstr ""
 
 #. i18n: file: plugins/urlpicpreview/urlpicpreviewprefsbase.ui:176
@@ -6821,7 +6831,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KIntNumInput, timeoutLinkPreview)
 #: rc.cpp:1633
 msgid ""
-"After the specified amount of seconds the creation of the preview is aborted "
+"After the specified number of seconds the creation of the preview is aborted "
 "automatically.\n"
 "Use 0 seconds to never abort the creation."
 msgstr ""
@@ -8730,8 +8740,8 @@ msgstr "預設字元集(&C):"
 #| "automatically connect at startup"
 msgid ""
 "If you enable this option, this account will not be connected when you press "
-"the \"Connect All\" button, nor at startup even if you have enabled automaic "
-"connection at startup"
+"the \"Connect All\" button, nor at startup even if you have enabled "
+"automatic connection at startup."
 msgstr ""
 "如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
 
@@ -11420,19 +11430,31 @@ msgstr ""
 
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:506
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
-#: rc.cpp:3684
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:594
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
+#. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:506
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:594
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
+#: rc.cpp:3684 rc.cpp:4056
 msgid ""
 "Use AOL proxy server instead of direct connections. If you are behind a "
-"router that you do not control, you'll probably want this."
+"router that you do not control, you will probably want this."
 msgstr ""
 
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:509
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
-#: rc.cpp:3687
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:597
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
+#. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:509
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:597
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
+#: rc.cpp:3687 rc.cpp:4059
 msgid ""
 "Use the AOL proxy server for things that would normally need a direct "
-"connection, like file transfers. You'll want this if there's a firewall or "
-"router that blocks connections to your computer and you cannot get "
+"connection, like file transfers. You will want this if there is a firewall "
+"or router that blocks connections to your computer and you cannot get "
 "unblocked. If a direct connection fails, a proxy connection will be tried "
 "regardless of this setting."
 msgstr ""
@@ -12254,25 +12276,6 @@ msgstr ""
 #: rc.cpp:4029
 msgid "Make my status available via &ICQ's unified messaging center"
 msgstr "將我的狀態經 &ICQ 的統一傳訊中心分享出去"
-
-#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:594
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
-#: rc.cpp:4056
-msgid ""
-"Use AOL proxy server instead of direct connections. If you're behind a "
-"router that you don't control, you'll probably want this."
-msgstr ""
-
-#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:597
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
-#: rc.cpp:4059
-msgid ""
-"Use the AOL proxy server for things that would normally need a direct "
-"connection, like file transfers. You'll want this if there's a firewall or "
-"router that blocks connections to your computer and you can't get unblocked. "
-"If a direct connection fails, a proxy connection will be tried regardless of "
-"this setting."
-msgstr ""
 
 #. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:733
 #. i18n: ectx: attribute (title), widget (QWidget, tabVisible)
@@ -14267,15 +14270,14 @@ msgstr "室:"
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, jingleCallsGui)
 #: rc.cpp:5277
 #, fuzzy
-msgid "MainWindow"
+msgid "Main Window"
 msgstr "鰥寡"
 
 #. i18n: file: protocols/jabber/jingle/jinglecallsgui.ui:50
 #. i18n: ectx: property (windowTitle), widget (QToolBar, toolBar)
 #: rc.cpp:5280
 #, fuzzy
-#| msgid "Format Toolbar"
-msgid "toolBar"
+msgid "Toolbar"
 msgstr "格式工具列"
 
 #. i18n: file: protocols/jabber/jingle/jinglecontentdialog.ui:19
@@ -15131,7 +15133,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KPushButton, deleteAcl)
 #: rc.cpp:5781
 #, fuzzy
-msgid "Delete a ACL entry"
+msgid "Delete an ACL entry"
 msgstr "刪除聯絡人(&D)"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:31
@@ -15274,7 +15276,7 @@ msgid ""
 "will appear as they come online.</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">If you "
-"expect to see a contact, but it is not appearing</p>\n"
+"expect to see a contact, but they are not appearing</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">1) Please "
 "ensure that your local mDNS server (avahi-daemon) is running properly.</p>\n"
@@ -15330,7 +15332,7 @@ msgid "<b>Unverified OTR session started.</b>"
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:263
-msgid "<b>OTR Session ended. The conversation is now insecure!</b>"
+msgid "<b>OTR Session ended. Note that the conversation is now insecure.</b>"
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:275
@@ -15364,17 +15366,18 @@ msgid "Authentication with <b>%1</b> failed. The conversation is now insecure."
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:490
-msgid "<b>Authentication successful. The conversation is now secure!</b>"
+msgid "<b>Authentication successful. The conversation is now secure.</b>"
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:498
-msgid "<b>Authentication failed. The conversation is now insecure!</b>"
+msgid ""
+"<b>Authentication failed. Note that the conversation is now insecure.</b>"
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:509
 #, fuzzy
 #| msgid "Registration failed."
-msgid "<b>Authentication error!</b>"
+msgid "<b>Authentication error.</b>"
 msgstr "註冊失敗。"
 
 #: plugins/otr/otrlchatinterface.cpp:545 plugins/otr/otrlchatinterface.cpp:560
@@ -15388,7 +15391,8 @@ msgid "Terminating OTR session."
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:744
-msgid "<b>Authentication aborted. The conversation is now insecure!</b>"
+msgid ""
+"<b>Authentication aborted. Note that the conversation is now insecure.</b>"
 msgstr ""
 
 #: plugins/otr/otrlchatinterface.cpp:755 plugins/otr/otrlchatinterface.cpp:767
@@ -15599,16 +15603,16 @@ msgstr "註冊失敗。"
 #: plugins/otr/authenticationwizard.cpp:310
 #, kde-format
 msgid ""
-"The authentication with %1 failed. To make sure you aren't talking to an "
-"imposer, try again using the manual fingerprint verification method. The "
-"conversation is now insecure."
+"The authentication with %1 failed. To make sure you are not talking to an "
+"imposter, try again using the manual fingerprint verification method. Note "
+"that the conversation is now insecure."
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:317
 #, kde-format
 msgid ""
 "Ask a question to %1 whose answer is known only to you and her/him. If the "
-"answers do not match, you may be talking to an imposer."
+"answers do not match, you may be talking to an imposter."
 msgstr ""
 
 #: plugins/otr/authenticationwizard.cpp:319
@@ -15901,7 +15905,7 @@ msgstr "預覽 Latex 圖像"
 #: plugins/latex/latexguiclient.cpp:64
 msgid ""
 "The message you are typing does not contain any LaTeX.  A LaTeX formula must "
-"surronded by two pairs of dollar signs: $$formula$$ "
+"surrounded by two pairs of dollar signs: $$formula$$ "
 msgstr ""
 
 #: plugins/latex/latexguiclient.cpp:64
@@ -16129,7 +16133,7 @@ msgstr "群組"
 #: plugins/history/historyimport.cpp:262
 msgid ""
 "You already imported logs from pidgin. If you do it twice, each message is "
-"imported twice!\n"
+"imported twice.\n"
 "Are you sure you want to continue?"
 msgstr ""
 
@@ -16157,23 +16161,24 @@ msgstr "正在解析 %1 中的舊歷程記錄"
 
 #: plugins/history/historyimport.cpp:300
 #, kde-format
-msgid "WARNING: Can't find matching account for %1 (%2)!\n"
+msgid "WARNING: Cannot find matching account for %1 (%2).\n"
 msgstr ""
 
 #: plugins/history/historyimport.cpp:312
 #, kde-format
 msgid ""
-"WARNING: Can't find %1 (%2) in your contact list. Found logs will not be "
-"imported!\n"
+"WARNING: Cannot find %1 (%2) in your contact list. Found logs will not be "
+"imported.\n"
 msgstr ""
 
 #: plugins/history/historyimport.cpp:327
-#, kde-format
-msgid "WARNING: Can't open file %1. Skipping.\n"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Cannot open file for writing"
+msgid "WARNING: Cannot open file %1. Skipping.\n"
+msgstr "無法開啟檔案寫入"
 
 #: plugins/history/historyimport.cpp:376
-msgid "Can't map nickname to account"
+msgid "Cannot map nickname to account"
 msgstr ""
 
 #: plugins/history/historyimport.cpp:377
@@ -16184,9 +16189,9 @@ msgstr ""
 #: plugins/history/historyimport.cpp:424
 #, kde-format
 msgid ""
-"WARNING: can't parse date \"%1\". You may want to edit the file containing "
-"this date manually. (example for recognized date strings: \"05/31/2008 "
-"15:24:30\")\n"
+"WARNING: Cannot parse date \"%1\". You may want to edit the file containing "
+"this date manually. (Example recognized date strings: \"05/31/2008 15:24:30"
+"\".)\n"
 msgstr ""
 
 #: plugins/history/historyimport.cpp:550
@@ -23282,6 +23287,27 @@ msgid ""
 "Avahi daemon is running."
 msgstr ""
 
+#, fuzzy
+#~ msgid "U&se addressbook photo (needs addressbook link)"
+#~ msgstr "使用通訊錄照片（需要通訊錄連結）"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you check that case, the account will not be connected when you press "
+#~| "the \"Connect All\" button, or at startup even if you selected to "
+#~| "automatically connect at startup"
+#~ msgid ""
+#~ "If you enable this option, this account will not be connected when you "
+#~ "press the \"Connect All\" button, nor at startup even if you have enabled "
+#~ "automaic connection at startup"
+#~ msgstr ""
+#~ "如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
+
+#, fuzzy
+#~| msgid "Format Toolbar"
+#~ msgid "toolBar"
+#~ msgstr "格式工具列"
+
 #~ msgid "TLS"
 #~ msgstr "TLS"
 
@@ -24469,9 +24495,6 @@ msgstr ""
 #~| msgid "Choose Account"
 #~ msgid "Choose Photo"
 #~ msgstr "選擇帳號"
-
-#~ msgid "Use a&ddress book photo (needs address book link)"
-#~ msgstr "使用通訊錄照片（需要通訊錄連結）(&D)"
 
 #~ msgid "U&se photo from contact for global photo:"
 #~ msgstr "使用來自聯絡人的照片作為通用照片(&S):"
