@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-02 10:04+0100\n"
+"POT-Creation-Date: 2009-03-08 10:18+0100\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 "未有選擇編碼器。\n"
 "請在設定內選擇編碼器。"
 
-#: encoder.cpp:71 encoderconfigimp.cpp:124 encoderconfigimp.cpp:164
+#: encoder.cpp:71 encoderconfigimp.cpp:158 encoderconfigimp.cpp:198
 msgid "No Encoder Selected"
 msgstr "未有選擇編碼器"
 
@@ -122,31 +122,43 @@ msgstr ""
 "wav 檔已經移除。\n"
 "要觀看編碼器完整的輸出嗎？"
 
-#: encoderconfigimp.cpp:90 encoderconfigimp.cpp:180
+#: encoderconfigimp.cpp:92 encoderconfigimp.cpp:137 encoderconfigimp.cpp:214
 msgid "Configure Encoder"
 msgstr "設定編碼器"
 
-#: encoderconfigimp.cpp:91 encoderconfigimp.cpp:181 kaudiocreator.cpp:374
+#: encoderconfigimp.cpp:93 encoderconfigimp.cpp:139 encoderconfigimp.cpp:215
+#: kaudiocreator.cpp:374
 msgid "Encoder Configuration"
 msgstr "編碼器設定"
 
-#: encoderconfigimp.cpp:124 encoderconfigimp.cpp:164
+#: encoderconfigimp.cpp:118
+msgid ""
+"An encoder with that name already exists, please choose a different one."
+msgstr ""
+
+#: encoderconfigimp.cpp:118
+#, fuzzy
+#| msgid "Encode File"
+msgid "Encoder exists already"
+msgstr "編碼檔案"
+
+#: encoderconfigimp.cpp:158 encoderconfigimp.cpp:198
 msgid "Please select an encoder."
 msgstr "請選擇編碼器。"
 
-#: encoderconfigimp.cpp:129
+#: encoderconfigimp.cpp:163
 msgid "At least one encoder must exist."
 msgstr "必須有至少一個編碼器。"
 
-#: encoderconfigimp.cpp:129
+#: encoderconfigimp.cpp:163
 msgid "Can Not Remove"
 msgstr "無法移除"
 
-#: encoderconfigimp.cpp:133
+#: encoderconfigimp.cpp:167
 msgid "Delete encoder?"
 msgstr "要刪除編碼器嗎？"
 
-#: encoderconfigimp.cpp:133
+#: encoderconfigimp.cpp:167
 msgid "Delete Encoder"
 msgstr "刪除編碼器"
 
