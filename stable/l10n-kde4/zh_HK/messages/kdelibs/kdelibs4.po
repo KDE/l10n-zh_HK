@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-23 06:10+0100\n"
+"POT-Creation-Date: 2009-03-24 06:20+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3518,6 +3518,14 @@ msgstr "請聯絡你的系統管理者。"
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "設定檔 \"%1\" 是不可寫入的。\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "動作不被支援"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3651,6 +3659,91 @@ msgstr "不支援 ai_socktype"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "系統錯誤"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "動作不被支援"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionRefused"
+#| msgid "connection actively refused"
+msgid "Connection refused"
+msgstr "連線被拒"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+#, fuzzy
+#| msgid "Permission denied."
+msgid "Permission denied"
+msgstr "權限拒絕。"
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "連線逾時"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:425
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Unknown error"
+msgid "Unknown error"
+msgstr "不明的錯誤"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "位址已被使用"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+#, fuzzy
+#| msgid "This file cannot be opened."
+msgid "Path cannot be used"
+msgstr "無法開啟該檔案。"
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such file."
+msgid "No such file or directory"
+msgstr "找不到此檔案。"
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+msgid "Not a directory"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+#, fuzzy
+#| msgid "Read-only"
+msgid "Read-only filesystem"
+msgstr "唯讀"
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Unknown error"
+msgid "Unknown socket error"
+msgstr "不明的錯誤"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -12702,13 +12795,6 @@ msgstr "組態設定"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
-#: nepomuk/core/resource.cpp:425
-#, fuzzy
-#| msgctxt "QFile"
-#| msgid "Unknown error"
-msgid "Unknown error"
-msgstr "不明的錯誤"
-
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
 msgstr ""
@@ -14813,11 +14899,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr "日期"
 
 #, fuzzy
-#~| msgid "Permission denied."
-#~ msgid "Permissions"
-#~ msgstr "權限拒絕。"
-
-#, fuzzy
 #~| msgid "Other"
 #~ msgid "Owner"
 #~ msgstr "其他"
@@ -15038,9 +15119,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "Try Different"
 #~ msgstr "再試一下"
-
-#~ msgid "This file cannot be opened."
-#~ msgstr "無法開啟該檔案。"
 
 #~ msgid "I do not know how to handle this type of file."
 #~ msgstr "我不知道如何處理這類型的檔案。"
@@ -16741,9 +16819,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "Resource Configuration"
 #~ msgstr "資源設定"
 
-#~ msgid "Read-only"
-#~ msgstr "唯讀"
-
 #~ msgid "%1 Resource Settings"
 #~ msgstr "%1 資源設定"
 
@@ -16911,9 +16986,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "File opened."
 #~ msgstr "檔案已開啟。"
-
-#~ msgid "No such file."
-#~ msgstr "找不到此檔案。"
 
 #~ msgid "The file \"%1\" cannot be found. Create a new one?"
 #~ msgstr "找不到檔案 \"%1\"。要建立一個新的嗎？"
