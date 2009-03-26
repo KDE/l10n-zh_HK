@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-20 10:53+0100\n"
+"POT-Creation-Date: 2009-03-26 10:49+0100\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -15,27 +15,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/addtoarchive.cpp:87
+#: app/addtoarchive.cpp:88
 msgid "No input files were given."
 msgstr ""
 
-#: app/addtoarchive.cpp:99
+#: app/addtoarchive.cpp:100
 msgid ""
 "You need to either supply a filename for the archive or a suffix (such as "
 "rar, tar.tz) with the --autofilename argument."
 msgstr ""
 
-#: app/addtoarchive.cpp:126
+#: app/addtoarchive.cpp:135
 msgid "Failed to create the new archive. Permissions might not be sufficient."
 msgstr ""
 
-#: app/batchextract.cpp:133 app/batchextract.cpp:169
+#: app/batchextract.cpp:134 app/batchextract.cpp:170
 #, fuzzy
 #| msgid "Save Archive?"
 msgid "Source archive"
 msgstr "儲存壓縮檔？"
 
-#: app/batchextract.cpp:134 app/batchextract.cpp:170
+#: app/batchextract.cpp:135 app/batchextract.cpp:171
 #, fuzzy
 #| msgid "Destination folder: "
 msgid "Destination"
@@ -225,6 +225,16 @@ msgstr ""
 msgid "Open an archive"
 msgstr "開啟「壓縮檔」"
 
+#: kerfuffle/cliinterface.cpp:414
+#, kde-format
+msgid "Failed to locate program '%1' in PATH."
+msgstr ""
+
+#: kerfuffle/cliinterface.cpp:420
+#, kde-format
+msgid "Found program '%1', but failed to initalise the process."
+msgstr ""
+
 #. i18n: file: kerfuffle/extractiondialog.ui:187
 #. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
 #: kerfuffle/extractiondialog.cpp:55 rc.cpp:76
@@ -284,33 +294,33 @@ msgstr "解開"
 msgid "Cancel"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:124
+#: kerfuffle/jobs.cpp:133
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:167
+#: kerfuffle/jobs.cpp:176
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:171
+#: kerfuffle/jobs.cpp:180
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:202
+#: kerfuffle/jobs.cpp:211
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:223
+#: kerfuffle/jobs.cpp:232
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
