@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 06:23+0100\n"
+"POT-Creation-Date: 2009-03-27 06:21+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -162,7 +162,7 @@ msgstr "預設身份"
 #: protocols/oscar/icq/icqstatusmanager.cpp:87
 #: protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/meanwhile/meanwhileprotocol.cpp:40
-#: protocols/jabber/jabbercontact.cpp:173
+#: protocols/jabber/jabbercontact.cpp:174
 #: protocols/jabber/jabberprotocol.cpp:66 protocols/winpopup/wpprotocol.cpp:54
 #: protocols/winpopup/wpaccount.cpp:171 protocols/groupwise/gwprotocol.cpp:54
 #: protocols/bonjour/bonjourprotocol.cpp:37
@@ -181,7 +181,7 @@ msgstr "上線"
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/meanwhile/meanwhileprotocol.cpp:44
-#: protocols/jabber/jabbercontact.cpp:175
+#: protocols/jabber/jabbercontact.cpp:176
 #: protocols/jabber/jabberprotocol.cpp:67 protocols/winpopup/wpprotocol.cpp:55
 #: protocols/winpopup/wpaccount.cpp:177 protocols/groupwise/gwprotocol.cpp:58
 msgid "Away"
@@ -208,7 +208,7 @@ msgstr "正在連接"
 #: protocols/gadu/gaduprotocol.cpp:79
 #: protocols/oscar/aim/aimstatusmanager.cpp:85
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
-#: protocols/yahoo/yahooprotocol.cpp:54 protocols/jabber/jabbercontact.cpp:178
+#: protocols/yahoo/yahooprotocol.cpp:54 protocols/jabber/jabbercontact.cpp:179
 #: protocols/jabber/jabberprotocol.cpp:71
 #: protocols/telepathy/telepathyprotocol.cpp:51
 msgid "Invisible"
@@ -292,9 +292,9 @@ msgstr "檔案傳輸取消。"
 #: libkopete/kopetetransfermanager.cpp:469 protocols/qq/qqcontact.cpp:418
 #: protocols/wlm/wlmcontact.cpp:141 protocols/gadu/gaducontact.cpp:100
 #: protocols/oscar/oscarcontact.cpp:350
-#: protocols/jabber/jabbercontact.cpp:1061
+#: protocols/jabber/jabbercontact.cpp:1068
 #: protocols/jabber/jabbergroupmembercontact.cpp:159
-#: protocols/jabber/jabbergroupcontact.cpp:310
+#: protocols/jabber/jabbergroupcontact.cpp:315
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
 
@@ -2074,7 +2074,7 @@ msgid "Free For Chat"
 msgstr "開放聊天"
 
 #: kopete/config/status/statusconfig_manager.cpp:60
-#: protocols/jabber/jabbercontact.cpp:176
+#: protocols/jabber/jabbercontact.cpp:177
 #: protocols/jabber/jabberprotocol.cpp:68
 #: protocols/telepathy/telepathyprotocol.cpp:53
 msgid "Extended Away"
@@ -15339,7 +15339,7 @@ msgstr "你想要移除舊的歷程記錄檔案嗎？"
 msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
-#: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:962
+#: plugins/history/converter.cpp:41 protocols/jabber/jabbercontact.cpp:969
 #: protocols/jabber/jabberaccount.cpp:1168
 msgid "Keep"
 msgstr "保留"
@@ -16465,35 +16465,35 @@ msgctxt "This is used in the tooltip of a contact"
 msgid "Listening To"
 msgstr "現正聆聽:"
 
-#: protocols/wlm/wlmaccount.cpp:80 protocols/yahoo/yahooaccount.cpp:88
+#: protocols/wlm/wlmaccount.cpp:74 protocols/yahoo/yahooaccount.cpp:88
 msgid "Open Inbo&x..."
 msgstr "開啟收件匣(&X)..."
 
-#: protocols/wlm/wlmaccount.cpp:83
+#: protocols/wlm/wlmaccount.cpp:77
 msgid "&Change Display Name..."
 msgstr "更改顯示名稱(&C)..."
 
-#: protocols/wlm/wlmaccount.cpp:89
+#: protocols/wlm/wlmaccount.cpp:83
 msgid "Open MS&N service status site..."
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:136 protocols/wlm/wlmaccount.cpp:138
-#: protocols/oscar/oscaraccount.cpp:285 protocols/oscar/oscaraccount.cpp:851
-#: protocols/oscar/oscaraccount.cpp:857
+#: protocols/wlm/wlmaccount.cpp:130 protocols/wlm/wlmaccount.cpp:132
+#: protocols/oscar/oscaraccount.cpp:289 protocols/oscar/oscaraccount.cpp:890
+#: protocols/oscar/oscaraccount.cpp:896
 msgid "Buddies"
 msgstr "伙伴"
 
-#: protocols/wlm/wlmaccount.cpp:239 protocols/wlm/wlmaccount.cpp:250
+#: protocols/wlm/wlmaccount.cpp:233 protocols/wlm/wlmaccount.cpp:244
 msgid "Change Display Name - MSN Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/wlm/wlmaccount.cpp:240
+#: protocols/wlm/wlmaccount.cpp:234
 msgid ""
 "Enter the new display name by which you want to be visible to your friends "
 "on MSN:"
 msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
 
-#: protocols/wlm/wlmaccount.cpp:248
+#: protocols/wlm/wlmaccount.cpp:242
 msgid ""
 "<qt>The display name you entered is too long. Please use a shorter name.\n"
 "Your display name has <b>not</b> been changed.</qt>"
@@ -17175,7 +17175,7 @@ msgstr "請勿打擾(&D)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:69
 #: protocols/oscar/icq/icqstatusmanager.cpp:77
-#: protocols/jabber/jabbercontact.cpp:177
+#: protocols/jabber/jabbercontact.cpp:178
 msgid "Do Not Disturb"
 msgstr "請勿打擾"
 
@@ -17213,7 +17213,7 @@ msgstr "手提電話:"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:305
 #: protocols/oscar/icq/icqprotocol.cpp:121
-#: protocols/oscar/oscaraccount.cpp:1156 protocols/yahoo/yahooprotocol.cpp:75
+#: protocols/oscar/oscaraccount.cpp:1195 protocols/yahoo/yahooprotocol.cpp:75
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -17225,7 +17225,7 @@ msgstr "你要連線才能新增聯絡人。"
 
 #: protocols/oscar/aim/aimprotocol.cpp:181
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
-#: protocols/oscar/oscaraccount.cpp:1156 protocols/yahoo/yahooprotocol.cpp:74
+#: protocols/oscar/oscaraccount.cpp:1195 protocols/yahoo/yahooprotocol.cpp:74
 msgid "AIM"
 msgstr "AIM"
 
@@ -18709,93 +18709,119 @@ msgstr "選擇編碼"
 msgid "Default"
 msgstr "預設值: 3185"
 
-#: protocols/oscar/oscaraccount.cpp:586
+#: protocols/oscar/oscaraccount.cpp:455
+#, fuzzy, kde-format
+#| msgctxt "Translators: client name and version"
+#| msgid "%1"
+msgctxt "@action:button filter-yes"
+msgid "%1"
+msgstr "%1"
+
+#: protocols/oscar/oscaraccount.cpp:456
+#, fuzzy, kde-format
+#| msgctxt "Translators: client name and version"
+#| msgid "%1"
+msgctxt "@action:button filter-no"
+msgid "%1"
+msgstr "%1"
+
+#: protocols/oscar/oscaraccount.cpp:457
+msgctxt "@action:button post-filter"
+msgid "."
+msgstr ""
+
+#: protocols/oscar/oscaraccount.cpp:460
+#, fuzzy
+msgid "Chat Room Invitation"
+msgstr "輸入邀請訊息"
+
+#: protocols/oscar/oscaraccount.cpp:625
 msgid "ICQ Web Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:588
+#: protocols/oscar/oscaraccount.cpp:627
 msgid "ICQ Email Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:971 protocols/oscar/oscaraccount.cpp:988
+#: protocols/oscar/oscaraccount.cpp:1010 protocols/oscar/oscaraccount.cpp:1027
 #, kde-format
 msgctxt "account has been disconnected"
 msgid "%1 disconnected"
 msgstr "%1 已斷線"
 
-#: protocols/oscar/oscaraccount.cpp:1012
+#: protocols/oscar/oscaraccount.cpp:1051
 msgid ""
 "There was an error in the protocol handling; it was not fatal, so you will "
 "not be disconnected."
 msgstr "處理通訊協定時發生錯誤；但它不會令你斷線。"
 
-#: protocols/oscar/oscaraccount.cpp:1014
+#: protocols/oscar/oscaraccount.cpp:1053
 msgid ""
 "There was an error in the protocol handling; automatic reconnection "
 "occurring."
 msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
-#: protocols/oscar/oscaraccount.cpp:1016
+#: protocols/oscar/oscaraccount.cpp:1055
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
-#: protocols/oscar/oscaraccount.cpp:1157
+#: protocols/oscar/oscaraccount.cpp:1196
 msgctxt "ICQ user id"
 msgid "UIN"
 msgstr "UIN"
 
-#: protocols/oscar/oscaraccount.cpp:1157
+#: protocols/oscar/oscaraccount.cpp:1196
 msgctxt "AIM user id"
 msgid "screen name"
 msgstr "螢幕名稱"
 
-#: protocols/oscar/oscaraccount.cpp:1167
+#: protocols/oscar/oscaraccount.cpp:1206
 #, kde-format
 msgid ""
 "You have logged in more than once with the same %1, account %2 is now "
 "disconnected."
 msgstr "你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
 
-#: protocols/oscar/oscaraccount.cpp:1173
+#: protocols/oscar/oscaraccount.cpp:1212
 #, kde-format
 msgid ""
 "Sign on failed because either your %1 or password are invalid. Please check "
 "your settings for account %2."
 msgstr "因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
 
-#: protocols/oscar/oscaraccount.cpp:1181
+#: protocols/oscar/oscaraccount.cpp:1220
 #, kde-format
 msgid "The %1 service is temporarily unavailable. Please try again later."
 msgstr "%1 服務暫時停止。請稍後再試。"
 
-#: protocols/oscar/oscaraccount.cpp:1186
+#: protocols/oscar/oscaraccount.cpp:1225
 #, kde-format
 msgid ""
 "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr "無法以 %2 帳號登入 %1 ，因為密碼不正確。"
 
-#: protocols/oscar/oscaraccount.cpp:1191
+#: protocols/oscar/oscaraccount.cpp:1230
 #, kde-format
 msgid "Could not sign on to %1 with nonexistent account %2."
 msgstr "無法以不存在的 %2 帳號登入 %1 。"
 
-#: protocols/oscar/oscaraccount.cpp:1195
+#: protocols/oscar/oscaraccount.cpp:1234
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 expired."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已逾期。"
 
-#: protocols/oscar/oscaraccount.cpp:1199
+#: protocols/oscar/oscaraccount.cpp:1238
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 is currently suspended."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已被暫停。"
 
-#: protocols/oscar/oscaraccount.cpp:1205
+#: protocols/oscar/oscaraccount.cpp:1244
 #, kde-format
 msgid ""
 "Could not sign on to %1 as there are too many clients from the same computer."
 msgstr "無法登入 %1 ，因為已有太多客戶端來自這電腦。"
 
-#: protocols/oscar/oscaraccount.cpp:1211
+#: protocols/oscar/oscaraccount.cpp:1250
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for sending messages too quickly. "
@@ -18805,7 +18831,7 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1220
+#: protocols/oscar/oscaraccount.cpp:1259
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for reconnecting too quickly. Wait "
@@ -18815,12 +18841,12 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1232 protocols/oscar/oscaraccount.cpp:1252
+#: protocols/oscar/oscaraccount.cpp:1271 protocols/oscar/oscaraccount.cpp:1291
 #, kde-format
 msgid "Sign on to %1 with your account %2 failed."
 msgstr "以帳號 %2 登入 %1 失敗。"
 
-#: protocols/oscar/oscaraccount.cpp:1239
+#: protocols/oscar/oscaraccount.cpp:1278
 #, kde-format
 msgid ""
 "The %1 server thinks the client you are using is too old. Please report this "
@@ -18828,7 +18854,7 @@ msgid ""
 msgstr ""
 "%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
 
-#: protocols/oscar/oscaraccount.cpp:1245
+#: protocols/oscar/oscaraccount.cpp:1284
 #, fuzzy, kde-format
 #| msgid ""
 #| "Account %1 was disabled on the %2 server because of your age (less than "
@@ -20069,60 +20095,60 @@ msgstr "連接至 Jabber 網絡並重試。"
 msgid "An error occurred while loading instructions from the gateway."
 msgstr "傳送檔案時發生錯誤: %1"
 
-#: protocols/jabber/jabbercontact.cpp:139
+#: protocols/jabber/jabbercontact.cpp:140
 msgid "Authorization"
 msgstr "授權"
 
-#: protocols/jabber/jabbercontact.cpp:145
+#: protocols/jabber/jabbercontact.cpp:146
 msgid "(Re)send Authorization To"
 msgstr "（重新）發出授權至"
 
-#: protocols/jabber/jabbercontact.cpp:152
+#: protocols/jabber/jabbercontact.cpp:153
 msgid "(Re)request Authorization From"
 msgstr "（重新）要求授權，從"
 
-#: protocols/jabber/jabbercontact.cpp:159
+#: protocols/jabber/jabbercontact.cpp:160
 msgid "Remove Authorization From"
 msgstr "移除授權表格"
 
-#: protocols/jabber/jabbercontact.cpp:164
+#: protocols/jabber/jabbercontact.cpp:165
 msgid "Set Availability"
 msgstr "設定可用度"
 
-#: protocols/jabber/jabbercontact.cpp:174
+#: protocols/jabber/jabbercontact.cpp:175
 msgid "Free to Chat"
 msgstr "我有空聊天"
 
-#: protocols/jabber/jabbercontact.cpp:182
+#: protocols/jabber/jabbercontact.cpp:183
 msgid "Select Resource"
 msgstr "選擇資源"
 
-#: protocols/jabber/jabbercontact.cpp:199
+#: protocols/jabber/jabbercontact.cpp:200
 msgid "Automatic (best/default resource)"
 msgstr "自動（最佳/預設資源）"
 
-#: protocols/jabber/jabbercontact.cpp:252
+#: protocols/jabber/jabbercontact.cpp:253
 #, fuzzy
 #| msgid "Description"
 msgid "Test action"
 msgstr "說明"
 
-#: protocols/jabber/jabbercontact.cpp:256
+#: protocols/jabber/jabbercontact.cpp:257
 #, fuzzy
 #| msgid "Start a cha&t"
 msgid "Jingle Audio call"
 msgstr "開始聊天(&T)"
 
-#: protocols/jabber/jabbercontact.cpp:259
+#: protocols/jabber/jabbercontact.cpp:260
 msgid "Jingle Video call"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:299
+#: protocols/jabber/jabbercontact.cpp:300
 #, kde-format
 msgid "The original message is : <i>\" %1 \"</i><br />"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:300
+#: protocols/jabber/jabbercontact.cpp:301
 #, kde-format
 msgid ""
 "<qt><i>%1</i> has invited you to join the conference <b>%2</b><br />%3<br /"
@@ -20130,35 +20156,35 @@ msgid ""
 "ok<br />If you want to decline, press cancel</qt>"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:306
+#: protocols/jabber/jabbercontact.cpp:307
 msgid "Invited to a conference - Jabber Plugin"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:323
+#: protocols/jabber/jabbercontact.cpp:324
 msgid "Message has been displayed"
 msgstr "訊息已經顯示了"
 
-#: protocols/jabber/jabbercontact.cpp:326
+#: protocols/jabber/jabbercontact.cpp:327
 msgid "Message has been delivered"
 msgstr "訊息已經傳送了"
 
-#: protocols/jabber/jabbercontact.cpp:332
+#: protocols/jabber/jabbercontact.cpp:333
 msgid "Message stored on the server, contact offline"
 msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 
-#: protocols/jabber/jabbercontact.cpp:340
+#: protocols/jabber/jabbercontact.cpp:341
 #, fuzzy, kde-format
 msgid "%1 has ended his/her participation in the chat session."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
-#: protocols/jabber/jabbercontact.cpp:379
+#: protocols/jabber/jabbercontact.cpp:380
 #: protocols/jabber/jabbergroupmembercontact.cpp:121
-#: protocols/jabber/jabbergroupcontact.cpp:170
+#: protocols/jabber/jabbergroupcontact.cpp:171
 #, kde-format
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:960
+#: protocols/jabber/jabbercontact.cpp:967
 #, fuzzy, kde-format
 #| msgid ""
 #| "Do you also want to remove the authorization from user %1 to see your "
@@ -20166,12 +20192,12 @@ msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:961
+#: protocols/jabber/jabbercontact.cpp:968
 #: protocols/jabber/jabberaccount.cpp:1168
 msgid "Notification"
 msgstr "通知"
 
-#: protocols/jabber/jabbercontact.cpp:1132
+#: protocols/jabber/jabbercontact.cpp:1139
 #, kde-format
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
@@ -20181,7 +20207,7 @@ msgstr ""
 "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源"
 "只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1136
+#: protocols/jabber/jabbercontact.cpp:1143
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
@@ -21165,17 +21191,17 @@ msgstr "時間戳記"
 msgid "Downloading of Jabber contact photo failed!"
 msgstr "下載顯示圖像失敗"
 
-#: protocols/jabber/jabbergroupcontact.cpp:119
+#: protocols/jabber/jabbergroupcontact.cpp:120
 #, fuzzy
 msgid "Change nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabbergroupcontact.cpp:367
+#: protocols/jabber/jabbergroupcontact.cpp:372
 #, fuzzy
 msgid "Change nickname - Jabber Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/jabber/jabbergroupcontact.cpp:368
+#: protocols/jabber/jabbergroupcontact.cpp:373
 #, fuzzy, kde-format
 msgid "Please enter the new nickname you want to have in the room <i>%1</i>"
 msgstr "請輸入這個過濾器的新名字:"
@@ -23759,10 +23785,6 @@ msgstr ""
 
 #~ msgid "Mobile AIM Client"
 #~ msgstr "流動 AIM 客戶端"
-
-#~ msgctxt "Translators: client name and version"
-#~ msgid "%1"
-#~ msgstr "%1"
 
 #~ msgid "Trillian user"
 #~ msgstr "Trillian 用戶"
