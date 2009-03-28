@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-26 10:46+0100\n"
+"POT-Creation-Date: 2009-03-28 11:05+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -6080,6 +6080,13 @@ msgstr ""
 msgid " %1/s "
 msgstr "(%1/s)"
 
+#: kdeui/jobs/kwidgetjobtracker.cpp:273 kdeui/jobs/kwidgetjobtracker.cpp:281
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "%1 is the label, we add a ':' to it"
+msgid "%1:"
+msgstr "%1%"
+
 #: kdeui/jobs/kwidgetjobtracker.cpp:328
 #, kde-format
 msgid "%2 of %3 complete"
@@ -6141,7 +6148,7 @@ msgstr "%1 (連結)"
 msgid "&Resume"
 msgstr "重設"
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:428 kdeui/jobs/kwidgetjobtracker.cpp:478
+#: kdeui/jobs/kwidgetjobtracker.cpp:428 kdeui/jobs/kwidgetjobtracker.cpp:501
 #, fuzzy
 msgid "&Pause"
 msgstr "Pause"
@@ -6158,35 +6165,43 @@ msgctxt "The destination url of a job"
 msgid "Destination:"
 msgstr "描述："
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:506
+#: kdeui/jobs/kwidgetjobtracker.cpp:486 kdeui/jobs/kwidgetjobtracker.cpp:662
+msgid "Click this to expand the dialog, to show details"
+msgstr ""
+
+#: kdeui/jobs/kwidgetjobtracker.cpp:521
 msgid "&Keep this window open after transfer is complete"
 msgstr ""
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:515
+#: kdeui/jobs/kwidgetjobtracker.cpp:530
 #, fuzzy
 msgid "Open &File"
 msgstr "開啟檔案"
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:522
+#: kdeui/jobs/kwidgetjobtracker.cpp:537
 #, fuzzy
 msgid "Open &Destination"
 msgstr "方向"
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:538
+#: kdeui/jobs/kwidgetjobtracker.cpp:553
 msgid "Progress Dialog"
 msgstr ""
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:551
+#: kdeui/jobs/kwidgetjobtracker.cpp:566
 #, kde-format
 msgid "%1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
 
-#: kdeui/jobs/kwidgetjobtracker.cpp:552
+#: kdeui/jobs/kwidgetjobtracker.cpp:567
 #, fuzzy, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "新檔案。"
+
+#: kdeui/jobs/kwidgetjobtracker.cpp:655
+msgid "Click this to collapse the dialog, to hide details"
+msgstr ""
 
 #: kdeui/util/kundostack.cpp:48
 #, fuzzy
@@ -11070,41 +11085,41 @@ msgstr "區域"
 msgid "Comment"
 msgstr "備註"
 
-#: kdeui/widgets/ktextedit.cpp:436 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:440 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "拼字檢查..."
 
-#: kdeui/widgets/ktextedit.cpp:439 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:443 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "自動拼字檢查"
 
-#: kdeui/widgets/ktextedit.cpp:443 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:447 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "允許跳格"
 
-#: kdeui/widgets/ktextedit.cpp:542 kdeui/widgets/ktextedit.cpp:553
+#: kdeui/widgets/ktextedit.cpp:546 kdeui/widgets/ktextedit.cpp:557
 #, fuzzy, kde-format
 #| msgid "Suggestion List"
 msgid "Suggestions for %1"
 msgstr "建議清單"
 
-#: kdeui/widgets/ktextedit.cpp:544
+#: kdeui/widgets/ktextedit.cpp:548
 msgid "Ignore"
 msgstr "略過"
 
-#: kdeui/widgets/ktextedit.cpp:545
+#: kdeui/widgets/ktextedit.cpp:549
 #, fuzzy
 #| msgid "<< Add to Dictionary"
 msgid "Add to Dictionary"
 msgstr "<< 加到字典中"
 
-#: kdeui/widgets/ktextedit.cpp:547 kdeui/widgets/ktextedit.cpp:549
+#: kdeui/widgets/ktextedit.cpp:551 kdeui/widgets/ktextedit.cpp:553
 #, fuzzy, kde-format
 #| msgid "Suggestion List"
 msgid "No suggestions for %1"
 msgstr "建議清單"
 
-#: kdeui/widgets/ktextedit.cpp:697
+#: kdeui/widgets/ktextedit.cpp:701
 #, fuzzy
 msgid "Nothing to spell check."
 msgstr "沒有選擇供應者。"
