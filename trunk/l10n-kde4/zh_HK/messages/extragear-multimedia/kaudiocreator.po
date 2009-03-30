@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-29 11:44+0200\n"
+"POT-Creation-Date: 2009-03-30 10:52+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -64,8 +64,8 @@ msgstr ""
 "未有選擇編碼器。\n"
 "請在設定內選擇編碼器。"
 
-#: encoder.cpp:74 encoderconfigimp.cpp:144 encoderconfigimp.cpp:185
-#: encoderconfigimp.cpp:226
+#: encoder.cpp:74 encoderconfigimp.cpp:149 encoderconfigimp.cpp:189
+#: encoderconfigimp.cpp:230
 msgid "No Encoder Selected"
 msgstr "未有選擇編碼器"
 
@@ -123,43 +123,53 @@ msgstr ""
 "wav 檔已經移除。\n"
 "要觀看編碼器完整的輸出嗎？"
 
-#: encoderconfigimp.cpp:121
+#: encoderconfigimp.cpp:100
+msgid "The default encoder has to accept wav as input."
+msgstr ""
+
+#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+msgid "Not Allowed"
+msgstr ""
+
+#: encoderconfigimp.cpp:127
 #, fuzzy
 #| msgid "Encoder"
 msgid "Add Encoder"
 msgstr "編碼器"
 
-#: encoderconfigimp.cpp:144 encoderconfigimp.cpp:185 encoderconfigimp.cpp:226
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
 msgid "Please select an encoder."
 msgstr "請選擇編碼器。"
 
-#: encoderconfigimp.cpp:168
+#: encoderconfigimp.cpp:172
 #, fuzzy
 #| msgid "Encoder"
 msgid "Copy Encoder"
 msgstr "編碼器"
 
-#: encoderconfigimp.cpp:190
-msgid "At least one encoder must exist."
-msgstr "必須有至少一個編碼器。"
-
-#: encoderconfigimp.cpp:190
-msgid "Can Not Remove"
-msgstr "無法移除"
-
 #: encoderconfigimp.cpp:194
+msgid "WAV is not allowed to be removed."
+msgstr ""
+
+#: encoderconfigimp.cpp:198
 msgid "Delete encoder?"
 msgstr "要刪除編碼器嗎？"
 
-#: encoderconfigimp.cpp:194
+#: encoderconfigimp.cpp:198
 msgid "Delete Encoder"
 msgstr "刪除編碼器"
 
-#: encoderconfigimp.cpp:241
+#: encoderconfigimp.cpp:235
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+
+#: encoderconfigimp.cpp:250
 msgid "Configure Encoder"
 msgstr "設定編碼器"
 
-#: encoderconfigimp.cpp:373 kaudiocreator.cpp:379
+#: encoderconfigimp.cpp:384 kaudiocreator.cpp:393
 msgid "Encoder Configuration"
 msgstr "編碼器設定"
 
@@ -243,7 +253,7 @@ msgstr "進行 &CDDB 查詢"
 msgid "Searching"
 msgstr ""
 
-#: kaudiocreator.cpp:199
+#: kaudiocreator.cpp:199 kaudiocreator.cpp:232
 msgid "WAV"
 msgstr ""
 
@@ -261,79 +271,79 @@ msgstr ""
 msgid "FLAC Best"
 msgstr "FLAC"
 
-#: kaudiocreator.cpp:270
+#: kaudiocreator.cpp:284
 msgid "CD Inserted"
 msgstr "已插入 CD"
 
-#: kaudiocreator.cpp:272
+#: kaudiocreator.cpp:286
 msgid "No Audio CD detected"
 msgstr "偵測不到音樂 CD"
 
-#: kaudiocreator.cpp:279
+#: kaudiocreator.cpp:293
 #, fuzzy, kde-format
 #| msgid "Delete encoder?"
 msgid "Default encoder: %1"
 msgstr "要刪除編碼器嗎？"
 
-#: kaudiocreator.cpp:284
+#: kaudiocreator.cpp:298
 msgid "Idle."
 msgstr "閒置。"
 
-#: kaudiocreator.cpp:293
+#: kaudiocreator.cpp:307
 #, kde-format
 msgid "Ripping (%1 active, %2 queued)"
 msgstr "正在擷取 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:297
+#: kaudiocreator.cpp:311
 #, kde-format
 msgid "Encoding (%1 active, %2 queued)"
 msgstr "正在編碼 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:315
+#: kaudiocreator.cpp:329
 msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
 msgstr "在佇列中尚有未完成的工作。真的要離開嗎？"
 
-#: kaudiocreator.cpp:315
+#: kaudiocreator.cpp:329
 msgid "Unfinished Jobs in Queue"
 msgstr "佇列中未完成的工作"
 
 #. i18n: file: general.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
-#: kaudiocreator.cpp:356 rc.cpp:196
+#: kaudiocreator.cpp:370 rc.cpp:196
 msgid "General"
 msgstr "一般"
 
-#: kaudiocreator.cpp:357
+#: kaudiocreator.cpp:371
 msgid "General Configuration"
 msgstr "一般設定"
 
-#: kaudiocreator.cpp:359
+#: kaudiocreator.cpp:373
 msgid "CD"
 msgstr "CD"
 
-#: kaudiocreator.cpp:360
+#: kaudiocreator.cpp:374
 msgid "CD Configuration"
 msgstr "CD 設定"
 
-#: kaudiocreator.cpp:370
+#: kaudiocreator.cpp:384
 msgid "CDDB"
 msgstr "CDDB"
 
-#: kaudiocreator.cpp:370
+#: kaudiocreator.cpp:384
 msgid "CDDB Configuration"
 msgstr "CDDB 設定"
 
-#: kaudiocreator.cpp:376
+#: kaudiocreator.cpp:390
 msgid "Ripper"
 msgstr "擷取器"
 
-#: kaudiocreator.cpp:376
+#: kaudiocreator.cpp:390
 msgid "Ripper Configuration"
 msgstr "擷取器設定"
 
 #. i18n: file: encodefile.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#: kaudiocreator.cpp:379 rc.cpp:33
+#: kaudiocreator.cpp:393 rc.cpp:33
 msgid "Encoder"
 msgstr "編碼器"
 
@@ -1424,6 +1434,12 @@ msgstr "範例: %1"
 #: job.h:32
 msgid "Other"
 msgstr "其他"
+
+#~ msgid "At least one encoder must exist."
+#~ msgstr "必須有至少一個編碼器。"
+
+#~ msgid "Can Not Remove"
+#~ msgstr "無法移除"
 
 #, fuzzy
 #~| msgid "Encode File"
