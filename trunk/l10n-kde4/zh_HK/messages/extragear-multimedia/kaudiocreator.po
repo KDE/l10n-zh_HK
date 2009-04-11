@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:18+0200\n"
+"POT-Creation-Date: 2009-04-11 12:00+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,32 +33,32 @@ msgstr ""
 
 #. i18n: file: encodefile.ui:256
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, trackStart)
-#: encodefileimp.cpp:61 encodefileimp.cpp:231 encodefileimp.cpp:243
-#: encodefileimp.cpp:259 encodefileimp.cpp:266 encodefileimp.cpp:283
-#: encodefileimp.cpp:290 rc.cpp:93
+#: encodefileimp.cpp:61 encodefileimp.cpp:233 encodefileimp.cpp:245
+#: encodefileimp.cpp:261 encodefileimp.cpp:268 encodefileimp.cpp:285
+#: encodefileimp.cpp:292 rc.cpp:93
 msgid "empty"
 msgstr ""
 
-#: encodefileimp.cpp:205 encodefileimp.cpp:247 encodefileimp.cpp:271
+#: encodefileimp.cpp:207 encodefileimp.cpp:249 encodefileimp.cpp:273
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "track_%1"
 msgstr "音軌"
 
-#: encodefileimp.cpp:209 encodefileimp.cpp:213 encodefileimp.cpp:224
-#: encodefileimp.cpp:248 encodefileimp.cpp:249 encodefileimp.cpp:272
-#: encodefileimp.cpp:273
+#: encodefileimp.cpp:211 encodefileimp.cpp:215 encodefileimp.cpp:226
+#: encodefileimp.cpp:250 encodefileimp.cpp:251 encodefileimp.cpp:274
+#: encodefileimp.cpp:275
 msgid "unknown"
 msgstr ""
 
-#: encodefileimp.cpp:458 tracksimp.cpp:411
+#: encodefileimp.cpp:460 tracksimp.cpp:438
 #, kde-format
 msgid ""
 "%1 Job(s) have been started.  You can watch their progress in the jobs "
 "section."
 msgstr "%1 工作已經開始。  你可以在工作欄內看到進度。"
 
-#: encodefileimp.cpp:460 tracksimp.cpp:413
+#: encodefileimp.cpp:462 tracksimp.cpp:440
 msgid "Jobs have started"
 msgstr "工作已經開始"
 
@@ -223,7 +223,7 @@ msgstr "退出 CD (&E)"
 msgid "&Configure KAudioCreator..."
 msgstr "設定 KAudio&Creator..."
 
-#. i18n: file: tracks.ui:161
+#. i18n: file: tracks.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, selectAllTracksButton)
 #: kaudiocreator.cpp:111 rc.cpp:465
 msgid "Select &All Tracks"
@@ -399,7 +399,7 @@ msgstr "標題"
 
 #. i18n: file: encodefile.ui:40
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#. i18n: file: tracks.ui:135
+#. i18n: file: tracks.ui:123
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
 #: rc.cpp:12 rc.cpp:462
 msgid "Title"
@@ -439,7 +439,7 @@ msgstr "風格:"
 
 #. i18n: file: encodefile.ui:65
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#. i18n: file: tracks.ui:125
+#. i18n: file: tracks.ui:113
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
 #: rc.cpp:27 rc.cpp:456
 msgid "Track"
@@ -497,7 +497,9 @@ msgstr "選擇所有音軌(&A)"
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: file: infodialog.ui:103
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:51 rc.cpp:287 rc.cpp:293
+#. i18n: file: tracks.ui:171
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:51 rc.cpp:287 rc.cpp:293 rc.cpp:474
 msgid "Artist:"
 msgstr "藝人:"
 
@@ -529,7 +531,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
 #. i18n: file: infodialog.ui:116
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: rc.cpp:60 rc.cpp:296
+#. i18n: file: tracks.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:60 rc.cpp:296 rc.cpp:480
 msgid "Album:"
 msgstr "專輯:"
 
@@ -559,7 +563,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #. i18n: file: infodialog.ui:152
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:78 rc.cpp:302
+#. i18n: file: tracks.ui:201
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:78 rc.cpp:302 rc.cpp:483
 msgid "Genre:"
 msgstr "風格:"
 
@@ -587,7 +593,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7)
 #. i18n: file: infodialog.ui:139
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7)
-#: rc.cpp:99 rc.cpp:299
+#. i18n: file: tracks.ui:181
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:99 rc.cpp:299 rc.cpp:477
 msgid "Year:"
 msgstr "年份:"
 
@@ -828,7 +836,7 @@ msgstr "編碼器輸出"
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #. i18n: file: wizard.ui:270
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:217 rc.cpp:314 rc.cpp:524
+#: rc.cpp:217 rc.cpp:314 rc.cpp:539
 msgid "&OK"
 msgstr ""
 
@@ -970,7 +978,7 @@ msgstr "下一音軌(&N)"
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: file: wizard.ui:283
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:317 rc.cpp:527
+#: rc.cpp:317 rc.cpp:542
 msgid "&Cancel"
 msgstr ""
 
@@ -1210,51 +1218,57 @@ msgstr "指定暫存目錄"
 msgid "Tracks"
 msgstr "音軌"
 
-#. i18n: file: tracks.ui:39
+#. i18n: file: tracks.ui:27
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:444
 msgid "Device:"
 msgstr "裝置:"
 
-#. i18n: file: tracks.ui:59
+#. i18n: file: tracks.ui:47
 #. i18n: ectx: property (text), item, widget (KComboBox, deviceCombo)
 #: rc.cpp:447
 msgid "/dev/cdrom"
 msgstr "/dev/cdrom"
 
-#. i18n: file: tracks.ui:91
-#. i18n: ectx: property (text), widget (QLabel, albumName)
+#. i18n: file: tracks.ui:79
+#. i18n: ectx: property (text), widget (QLabel, albumInfoLabel)
 #: rc.cpp:450
 msgid "Unknown Artist - Unknown Album"
 msgstr "不明的藝人 - 不明的專輯"
 
-#. i18n: file: tracks.ui:120
+#. i18n: file: tracks.ui:108
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
-#: rc.cpp:453 tracksimp.cpp:380
+#: rc.cpp:453 tracksimp.cpp:407
 msgid "Rip"
 msgstr "擷取"
 
-#. i18n: file: tracks.ui:130
+#. i18n: file: tracks.ui:118
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
 #: rc.cpp:459
 msgid "Length"
 msgstr "長度"
 
-#. i18n: file: tracks.ui:168
+#. i18n: file: tracks.ui:156
 #. i18n: ectx: property (text), widget (QPushButton, deselectAllTracksButton)
 #: rc.cpp:468
 msgid "&Deselect All Tracks"
 msgstr "取消選擇所有音軌(&D)"
 
+#. i18n: file: tracks.ui:165
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:471
+msgid "Album properties"
+msgstr ""
+
 #. i18n: file: wizard.ui:19
 #. i18n: ectx: property (windowTitle), widget (QDialog, fileWizard)
-#: rc.cpp:471
+#: rc.cpp:486
 msgid "File Location Wizard"
 msgstr "檔案位置精靈"
 
 #. i18n: file: wizard.ui:46
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8)
-#: rc.cpp:475
+#: rc.cpp:490
 #, fuzzy, no-c-format
 #| msgid ""
 #| "When files have finished being processed, they are saved based upon the "
@@ -1280,103 +1294,103 @@ msgstr ""
 
 #. i18n: file: wizard.ui:95
 #. i18n: ectx: property (text), widget (QLabel, TextLabel9)
-#: rc.cpp:478
+#: rc.cpp:493
 msgid "&File location:"
 msgstr "檔案位置(&F):"
 
 #. i18n: file: wizard.ui:108
 #. i18n: ectx: property (text), widget (QLineEdit, fileFormat)
-#: rc.cpp:482
+#: rc.cpp:497
 #, no-c-format
 msgid "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
 msgstr "~/%{延伸檔名}/%{藝人}/%{專輯}/%{藝人} - %{專輯}.m3u"
 
 #. i18n: file: wizard.ui:117
 #. i18n: ectx: property (text), widget (QLabel, exampleLabel)
-#: rc.cpp:485
+#: rc.cpp:500
 msgid "Example: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 msgstr "範例: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 
 #. i18n: file: wizard.ui:141
 #. i18n: ectx: property (text), widget (QPushButton, artistButton)
-#: rc.cpp:488
+#: rc.cpp:503
 msgid "&Artist"
 msgstr "藝人(&A)"
 
 #. i18n: file: wizard.ui:148
 #. i18n: ectx: property (text), widget (QPushButton, homeDirButton)
-#: rc.cpp:491
+#: rc.cpp:506
 msgid "&Home Folder"
 msgstr "家資料夾(&H)"
 
 #. i18n: file: wizard.ui:155
 #. i18n: ectx: property (text), widget (QPushButton, trackNumberButton)
-#: rc.cpp:494
+#: rc.cpp:509
 msgid "&Track Number"
 msgstr "音軌編號(&T)"
 
 #. i18n: file: wizard.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, extensionButton)
-#: rc.cpp:497
+#: rc.cpp:512
 msgid "&Extension"
 msgstr "延伸檔名(&E)"
 
 #. i18n: file: wizard.ui:169
 #. i18n: ectx: property (text), widget (QPushButton, trackTitleButton)
-#: rc.cpp:500
+#: rc.cpp:515
 msgid "Track T&itle"
 msgstr "音軌標題(&T)"
 
 #. i18n: file: wizard.ui:176
 #. i18n: ectx: property (text), widget (QPushButton, trackCommentButton)
-#: rc.cpp:503
+#: rc.cpp:518
 msgid "T&rack Comment"
 msgstr "音軌註解(&R)"
 
 #. i18n: file: wizard.ui:183
 #. i18n: ectx: property (text), widget (QPushButton, genreButton)
-#: rc.cpp:506
+#: rc.cpp:521
 msgid "&Genre"
 msgstr "風格(&G)"
 
 #. i18n: file: wizard.ui:190
 #. i18n: ectx: property (text), widget (QPushButton, yearButton)
-#: rc.cpp:509
+#: rc.cpp:524
 msgid "&Year"
 msgstr "年份(&Y)"
 
 #. i18n: file: wizard.ui:197
 #. i18n: ectx: property (text), widget (QPushButton, albumButton)
-#: rc.cpp:512
+#: rc.cpp:527
 msgid "Al&bum"
 msgstr "專輯(&B)"
 
 #. i18n: file: wizard.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, trackArtistButton)
-#: rc.cpp:515
+#: rc.cpp:530
 msgid "Trac&k Artist"
 msgstr "音軌藝人(&K)"
 
 #. i18n: file: wizard.ui:211
 #. i18n: ectx: property (text), widget (QPushButton, commentButton)
-#: rc.cpp:518
+#: rc.cpp:533
 msgid "Co&mment"
 msgstr "註解(&M)"
 
 #. i18n: file: wizard.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, artistInitialButton)
-#: rc.cpp:521
+#: rc.cpp:536
 #, fuzzy
 #| msgid "Artist - Title"
 msgid "Arti&st's Initial"
 msgstr "藝人 - 標題"
 
-#: rc.cpp:528
+#: rc.cpp:543
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: rc.cpp:529
+#: rc.cpp:544
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
@@ -1386,18 +1400,13 @@ msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 msgid "Ripping: %1 - %2"
 msgstr "正在擷取: %1 - %2"
 
-#: tracksimp.cpp:88
+#: tracksimp.cpp:96
 #, fuzzy
 #| msgid "No Encoder Selected"
 msgid "none detected"
 msgstr "未有選擇編碼器"
 
-#: tracksimp.cpp:112
-#, fuzzy
-msgid "No disc"
-msgstr "沒有碟片"
-
-#: tracksimp.cpp:199
+#: tracksimp.cpp:204
 #, kde-format
 msgid ""
 "CDROM read or access error (or no audio disk in drive).\n"
@@ -1408,56 +1417,56 @@ msgstr ""
 "請確定你對以下裝置的有存取權限:\n"
 "%1"
 
-#: tracksimp.cpp:202
+#: tracksimp.cpp:207
 msgid "Error"
 msgstr ""
 
-#: tracksimp.cpp:211
+#: tracksimp.cpp:216
 msgid "Please insert a disk."
 msgstr "請插入光碟。"
 
-#: tracksimp.cpp:212 tracksimp.cpp:236
+#: tracksimp.cpp:217 tracksimp.cpp:241
 msgid "CDDB Failed"
 msgstr "CDDB 失敗"
 
-#: tracksimp.cpp:236
+#: tracksimp.cpp:241
 msgid "Unable to retrieve CDDB information."
 msgstr "無法取得 CDDB 資訊。"
 
-#: tracksimp.cpp:256
+#: tracksimp.cpp:261
 msgid "Select CDDB entry"
 msgstr "選擇 CDDB 項目"
 
-#: tracksimp.cpp:257
+#: tracksimp.cpp:262
 msgid "Select a CDDB entry:"
 msgstr "選擇 CDDB 項目:"
 
-#: tracksimp.cpp:298
+#: tracksimp.cpp:325
 msgid "CD Editor"
 msgstr "CD 編輯器"
 
-#: tracksimp.cpp:353
+#: tracksimp.cpp:380
 msgid "No tracks have been selected.  Would you like to rip the entire CD?"
 msgstr ""
 
-#: tracksimp.cpp:354
+#: tracksimp.cpp:381
 msgid "No Tracks Selected"
 msgstr "未有選擇音軌"
 
-#: tracksimp.cpp:354
+#: tracksimp.cpp:381
 #, fuzzy
 msgid "Rip CD"
 msgstr "擷取"
 
-#: tracksimp.cpp:364
+#: tracksimp.cpp:391
 msgid "Could not find audiocd:/ protocol. Please install the audiocd ioslave"
 msgstr ""
 
-#: tracksimp.cpp:365
+#: tracksimp.cpp:392
 msgid "Protocol Not Found"
 msgstr ""
 
-#: tracksimp.cpp:380
+#: tracksimp.cpp:407
 #, kde-format
 msgid ""
 "Part of the album is not set: %1.\n"
@@ -1468,13 +1477,18 @@ msgstr ""
 "（要改變專輯資訊，點選「編輯資訊」按鈕。）\n"
 "你還是要擷取所選的音軌嗎？"
 
-#: tracksimp.cpp:380
+#: tracksimp.cpp:407
 msgid "Album Information Incomplete"
 msgstr "專輯資訊不完整"
 
-#: tracksimp.cpp:457
+#: tracksimp.cpp:537
 msgid " - "
 msgstr ""
+
+#: tracksimp.cpp:539
+#, fuzzy
+msgid "No disc"
+msgstr "沒有碟片"
 
 #: wizard.cpp:126
 #, kde-format
