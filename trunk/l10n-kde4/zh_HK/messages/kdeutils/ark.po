@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-21 11:27+0200\n"
+"POT-Creation-Date: 2009-04-22 11:30+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -198,6 +198,12 @@ msgstr ""
 #| msgid "Open 'archive'"
 msgid "Open an archive"
 msgstr "開啟「壓縮檔」"
+
+#: kerfuffle/adddialog.cpp:54
+#, fuzzy
+#| msgid "Simple Compressed Archive"
+msgid "Compress to archive"
+msgstr "簡單壓縮檔"
 
 #: kerfuffle/addtoarchive.cpp:91
 msgid "No input files were given."
@@ -701,27 +707,27 @@ msgid ""
 msgstr ""
 
 #: plugins/libarchive/libarchivehandler.cpp:439
-#: plugins/libarchive/libarchivehandler.cpp:626
+#: plugins/libarchive/libarchivehandler.cpp:629
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
 #: plugins/libarchive/libarchivehandler.cpp:448
-#: plugins/libarchive/libarchivehandler.cpp:635
+#: plugins/libarchive/libarchivehandler.cpp:638
 msgid "The source file could not be read."
 msgstr ""
 
 #: plugins/libarchive/libarchivehandler.cpp:457
-#: plugins/libarchive/libarchivehandler.cpp:643
+#: plugins/libarchive/libarchivehandler.cpp:646
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
 #: plugins/libarchive/libarchivehandler.cpp:477
-#: plugins/libarchive/libarchivehandler.cpp:499
-#: plugins/libarchive/libarchivehandler.cpp:662
+#: plugins/libarchive/libarchivehandler.cpp:502
+#: plugins/libarchive/libarchivehandler.cpp:668
 #, kde-format
 msgid "Setting compression failed with the error '%1'"
 msgstr ""
@@ -731,17 +737,29 @@ msgstr ""
 msgid "Setting format failed with the error '%1'"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:495
-#: plugins/libarchive/libarchivehandler.cpp:658
+#: plugins/libarchive/libarchivehandler.cpp:498
+#: plugins/libarchive/libarchivehandler.cpp:664
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:506
-#: plugins/libarchive/libarchivehandler.cpp:668
+#: plugins/libarchive/libarchivehandler.cpp:509
+#: plugins/libarchive/libarchivehandler.cpp:674
 #, kde-format
 msgid "Opening the archive for writing failed with error message '%1'"
 msgstr ""
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:69
+#, fuzzy, kde-format
+#| msgid "Folder to extract to"
+msgid "Ark could not extract %1."
+msgstr "資料夾解壓至"
+
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:78
+#, fuzzy, kde-format
+#| msgid "Last folders used for extraction"
+msgid "Ark could not open %1 for extraction."
+msgstr "上次用作解壓縮的資料夾"
 
 #: plugins/libzipplugin/zipplugin.cpp:75
 #, fuzzy, kde-format
@@ -1323,9 +1341,6 @@ msgstr "解壓後開啟目的地資料夾"
 #~ "解壓時，它的檔名會以壓縮檔的名稱為基礎。\n"
 #~ "如果你加入更多的檔案，程式將會提示你，它會轉換成可以含有多個檔案的壓縮檔。"
 
-#~ msgid "Simple Compressed Archive"
-#~ msgstr "簡單壓縮檔"
-
 #~ msgid "Trouble writing to the archive..."
 #~ msgstr "寫入壓縮檔時發生錯誤..."
 
@@ -1370,9 +1385,6 @@ msgstr "解壓後開啟目的地資料夾"
 #~ "與「--extract-to」一起使用。\n"
 #~ "使用時，「壓縮檔」會解壓至某「資料夾」的子資料夾中\n"
 #~ "而其名稱則為沒有伸延的壓縮檔名稱。"
-
-#~ msgid "Folder to extract to"
-#~ msgstr "資料夾解壓至"
 
 #~ msgid "Files to be added"
 #~ msgstr "要加入的檔案"
@@ -1420,9 +1432,6 @@ msgstr "解壓後開啟目的地資料夾"
 
 #~ msgid "&Recursively add subfolders (Zip, Rar)"
 #~ msgstr "遞迴地加入子資料夾 (Zip, &Rar)"
-
-#~ msgid "Last folders used for extraction"
-#~ msgstr "上次用作解壓縮的資料夾"
 
 #~ msgid "Replace old files only with newer files"
 #~ msgstr "以較新的檔案取代舊有的檔案"
