@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-05 11:22+0200\n"
+"POT-Creation-Date: 2009-05-06 12:10+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,6 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: app/extractHereDndPlugin.cpp:47 kerfuffle/extractiondialog.cpp:121
+#, fuzzy
+#| msgid "Extract"
+msgid "Extract here"
+msgstr "解開"
 
 #: app/main.cpp:38
 msgid "Ark"
@@ -202,7 +208,7 @@ msgstr "開啟「壓縮檔」"
 #: kerfuffle/adddialog.cpp:54
 #, fuzzy
 #| msgid "Simple Compressed Archive"
-msgid "Compress to archive"
+msgid "Compress to Archive"
 msgstr "簡單壓縮檔"
 
 #: kerfuffle/addtoarchive.cpp:91
@@ -302,43 +308,43 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 msgid "Folder exists"
 msgstr "壓縮檔已經存在"
 
-#: kerfuffle/extractiondialog.cpp:121
-#, fuzzy
-#| msgid "Extract"
-msgid "Extract here"
-msgstr "解開"
-
-#: kerfuffle/extractiondialog.cpp:121 part/part.cpp:321
+#: kerfuffle/extractiondialog.cpp:121 part/part.cpp:321 part/part.cpp:747
 msgid "Cancel"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:138
+#: kerfuffle/jobs.cpp:110
+#, fuzzy
+#| msgid "An error occurred while opening the archive %1."
+msgid "Sorry, an error occured while performing the operation."
+msgstr "開啟壓縮檔 %1 時發生錯誤。"
+
+#: kerfuffle/jobs.cpp:141
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:186
+#: kerfuffle/jobs.cpp:189
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:190
+#: kerfuffle/jobs.cpp:193
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:225
+#: kerfuffle/jobs.cpp:228
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:246
+#: kerfuffle/jobs.cpp:249
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
@@ -515,8 +521,10 @@ msgid "Click to preview the selected file"
 msgstr ""
 
 #: part/part.cpp:198
-msgid "E&xtract..."
-msgstr "解開(&X)..."
+#, fuzzy
+#| msgid "Extract"
+msgid "E&xtract"
+msgstr "解開"
 
 #: part/part.cpp:200
 msgid ""
@@ -564,7 +572,7 @@ msgstr "開啟資料夾"
 #: part/part.cpp:248
 #, fuzzy
 #| msgid "E&xtract..."
-msgid "Quick extract to..."
+msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
 #: part/part.cpp:311
@@ -582,13 +590,13 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 #: part/part.cpp:321
 #, fuzzy
 #| msgid "Archive Already Exists"
-msgid "File exists"
+msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
 #: part/part.cpp:321
 #, fuzzy
 #| msgid "Open with:"
-msgid "Open file"
+msgid "Open File"
 msgstr "以其它程式開啟："
 
 #: part/part.cpp:330
@@ -599,11 +607,11 @@ msgstr ""
 #: part/part.cpp:330 part/part.cpp:374 part/part.cpp:415
 #, fuzzy
 #| msgid "Open 'archive'"
-msgid "Error opening archive"
+msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
 
 #: part/part.cpp:360
-msgid "Unable to determine archive type"
+msgid "Unable to Determine Archive Type"
 msgstr ""
 
 #: part/part.cpp:361
@@ -642,6 +650,16 @@ msgstr "所有檔案"
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
+
+#: part/part.cpp:747
+msgid "Deleting these files is not undoable. Are you sure you want to do this?"
+msgstr ""
+
+#: part/part.cpp:747
+#, fuzzy
+#| msgid "Selected files only"
+msgid "Delete files"
+msgstr "只解開已選的檔案"
 
 #: plugins/7zipplugin/7zipplugin.cpp:60
 msgid "Unable to find 7zr, 7za or 7z"
@@ -1043,6 +1061,9 @@ msgstr "所有檔案"
 msgid "Open destination folder after extraction"
 msgstr "解壓後開啟目的地資料夾"
 
+#~ msgid "E&xtract..."
+#~ msgstr "解開(&X)..."
+
 #, fuzzy
 #~| msgid "An error occurred while adding the files to the archive."
 #~ msgid "Couldn't open the file '%1', libarchive can't handle it."
@@ -1195,9 +1216,6 @@ msgstr "解壓後開啟目的地資料夾"
 
 #~ msgid "Saving..."
 #~ msgstr "儲存中..."
-
-#~ msgid "An error occurred while opening the archive %1."
-#~ msgstr "開啟壓縮檔 %1 時發生錯誤。"
 
 #~ msgid ""
 #~ "The following files will not be extracted\n"
