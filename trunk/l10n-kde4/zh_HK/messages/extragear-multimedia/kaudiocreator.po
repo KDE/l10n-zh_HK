@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-04 12:09+0200\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,34 +33,89 @@ msgstr ""
 
 #. i18n: file: encodefile.ui:256
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, trackStart)
-#: encodefileimp.cpp:61 encodefileimp.cpp:233 encodefileimp.cpp:245
-#: encodefileimp.cpp:261 encodefileimp.cpp:268 encodefileimp.cpp:285
-#: encodefileimp.cpp:292 rc.cpp:93
+#: encodefileimp.cpp:61 encodefileimp.cpp:245 encodefileimp.cpp:257
+#: encodefileimp.cpp:273 encodefileimp.cpp:280 encodefileimp.cpp:297
+#: encodefileimp.cpp:304 rc.cpp:93
 msgid "empty"
 msgstr ""
 
-#: encodefileimp.cpp:207 encodefileimp.cpp:249 encodefileimp.cpp:273
+#: encodefileimp.cpp:219 encodefileimp.cpp:261 encodefileimp.cpp:285
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "track_%1"
 msgstr "音軌"
 
-#: encodefileimp.cpp:211 encodefileimp.cpp:215 encodefileimp.cpp:226
-#: encodefileimp.cpp:250 encodefileimp.cpp:251 encodefileimp.cpp:274
-#: encodefileimp.cpp:275
+#: encodefileimp.cpp:223 encodefileimp.cpp:227 encodefileimp.cpp:238
+#: encodefileimp.cpp:262 encodefileimp.cpp:263 encodefileimp.cpp:286
+#: encodefileimp.cpp:287
 msgid "unknown"
 msgstr ""
 
-#: encodefileimp.cpp:460 tracksimp.cpp:439
+#: encodefileimp.cpp:472 tracksimp.cpp:439
 #, kde-format
 msgid ""
 "%1 Job(s) have been started.  You can watch their progress in the jobs "
 "section."
 msgstr "%1 工作已經開始。  你可以在工作欄內看到進度。"
 
-#: encodefileimp.cpp:462 tracksimp.cpp:441
+#: encodefileimp.cpp:474 tracksimp.cpp:441
 msgid "Jobs have started"
 msgstr "工作已經開始"
+
+#: encoderconfigimp.cpp:100
+msgid "The default encoder has to accept wav as input."
+msgstr ""
+
+#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+msgid "Not Allowed"
+msgstr ""
+
+#: encoderconfigimp.cpp:127
+#, fuzzy
+#| msgid "Encoder"
+msgid "Add Encoder"
+msgstr "編碼器"
+
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+msgid "Please select an encoder."
+msgstr "請選擇編碼器。"
+
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#: encoder.cpp:74
+msgid "No Encoder Selected"
+msgstr "未有選擇編碼器"
+
+#: encoderconfigimp.cpp:172
+#, fuzzy
+#| msgid "Encoder"
+msgid "Copy Encoder"
+msgstr "編碼器"
+
+#: encoderconfigimp.cpp:194
+msgid "WAV is not allowed to be removed."
+msgstr ""
+
+#: encoderconfigimp.cpp:198
+msgid "Delete encoder?"
+msgstr "要刪除編碼器嗎？"
+
+#: encoderconfigimp.cpp:198
+msgid "Delete Encoder"
+msgstr "刪除編碼器"
+
+#: encoderconfigimp.cpp:235
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+
+#: encoderconfigimp.cpp:250
+msgid "Configure Encoder"
+msgstr "設定編碼器"
+
+#: encoderconfigimp.cpp:384 kaudiocreator.cpp:391
+msgid "Encoder Configuration"
+msgstr "編碼器設定"
 
 #: encoder.cpp:74
 msgid ""
@@ -69,11 +124,6 @@ msgid ""
 msgstr ""
 "未有選擇編碼器。\n"
 "請在設定內選擇編碼器。"
-
-#: encoder.cpp:74 encoderconfigimp.cpp:149 encoderconfigimp.cpp:189
-#: encoderconfigimp.cpp:230
-msgid "No Encoder Selected"
-msgstr "未有選擇編碼器"
 
 #: encoder.cpp:158
 #, kde-format
@@ -129,56 +179,6 @@ msgstr ""
 "wav 檔已經移除。\n"
 "要觀看編碼器完整的輸出嗎？"
 
-#: encoderconfigimp.cpp:100
-msgid "The default encoder has to accept wav as input."
-msgstr ""
-
-#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
-msgid "Not Allowed"
-msgstr ""
-
-#: encoderconfigimp.cpp:127
-#, fuzzy
-#| msgid "Encoder"
-msgid "Add Encoder"
-msgstr "編碼器"
-
-#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
-msgid "Please select an encoder."
-msgstr "請選擇編碼器。"
-
-#: encoderconfigimp.cpp:172
-#, fuzzy
-#| msgid "Encoder"
-msgid "Copy Encoder"
-msgstr "編碼器"
-
-#: encoderconfigimp.cpp:194
-msgid "WAV is not allowed to be removed."
-msgstr ""
-
-#: encoderconfigimp.cpp:198
-msgid "Delete encoder?"
-msgstr "要刪除編碼器嗎？"
-
-#: encoderconfigimp.cpp:198
-msgid "Delete Encoder"
-msgstr "刪除編碼器"
-
-#: encoderconfigimp.cpp:235
-msgid ""
-"WAV is not allowed to be changed.\n"
-"You can copy it to adjust it to your needs."
-msgstr ""
-
-#: encoderconfigimp.cpp:250
-msgid "Configure Encoder"
-msgstr "設定編碼器"
-
-#: encoderconfigimp.cpp:384 kaudiocreator.cpp:393
-msgid "Encoder Configuration"
-msgstr "編碼器設定"
-
 #: general.cpp:51
 #, kde-format
 msgid ""
@@ -222,141 +222,141 @@ msgstr "&CD 音軌"
 msgid "&Jobs"
 msgstr "工作(&J)"
 
-#: kaudiocreator.cpp:103
+#: kaudiocreator.cpp:101
 msgid "&Eject CD"
 msgstr "退出 CD (&E)"
 
-#: kaudiocreator.cpp:107
+#: kaudiocreator.cpp:105
 msgid "&Configure KAudioCreator..."
 msgstr "設定 KAudio&Creator..."
 
 #. i18n: file: tracks.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, selectAllTracksButton)
-#: kaudiocreator.cpp:111 rc.cpp:481
+#: kaudiocreator.cpp:109 rc.cpp:481
 msgid "Select &All Tracks"
 msgstr "選擇所有音軌(&A)"
 
-#: kaudiocreator.cpp:116
+#: kaudiocreator.cpp:114
 msgid "Deselect &All Tracks"
 msgstr "取消選擇所有音軌(&A)"
 
-#: kaudiocreator.cpp:123 kaudiocreator.cpp:133
+#: kaudiocreator.cpp:121 kaudiocreator.cpp:131
 msgid "Rip &Selection"
 msgstr "擷取選擇的音軌(&S)"
 
-#: kaudiocreator.cpp:141
+#: kaudiocreator.cpp:139
 msgid "Remove &Completed Jobs"
 msgstr "移除已完成的工作(&C)"
 
-#: kaudiocreator.cpp:145
+#: kaudiocreator.cpp:143
 msgid "&Edit Album..."
 msgstr "編輯專輯(&E)..."
 
-#: kaudiocreator.cpp:151
+#: kaudiocreator.cpp:149
 #, fuzzy
 #| msgid "Encode File"
 msgid "Encode &Files from disk"
 msgstr "編碼檔案"
 
-#: kaudiocreator.cpp:155
+#: kaudiocreator.cpp:153
 msgid "&CDDB Lookup"
 msgstr "進行 &CDDB 查詢"
 
-#: kaudiocreator.cpp:176
+#: kaudiocreator.cpp:174
 msgid "Searching"
 msgstr ""
 
-#: kaudiocreator.cpp:199 kaudiocreator.cpp:232
+#: kaudiocreator.cpp:197 kaudiocreator.cpp:230
 msgid "WAV"
 msgstr ""
 
-#: kaudiocreator.cpp:206
+#: kaudiocreator.cpp:204
 msgid "Ogg Default"
 msgstr ""
 
-#: kaudiocreator.cpp:213
+#: kaudiocreator.cpp:211
 msgid "MP3 Lame Standard"
 msgstr ""
 
-#: kaudiocreator.cpp:220
+#: kaudiocreator.cpp:218
 #, fuzzy
 #| msgid "FLAC"
 msgid "FLAC Best"
 msgstr "FLAC"
 
-#: kaudiocreator.cpp:284
+#: kaudiocreator.cpp:282
 msgid "CD Inserted"
 msgstr "已插入 CD"
 
-#: kaudiocreator.cpp:286
+#: kaudiocreator.cpp:284
 msgid "No Audio CD detected"
 msgstr "偵測不到音樂 CD"
 
-#: kaudiocreator.cpp:293
+#: kaudiocreator.cpp:291
 #, fuzzy, kde-format
 #| msgid "Delete encoder?"
 msgid "Default encoder: %1"
 msgstr "要刪除編碼器嗎？"
 
-#: kaudiocreator.cpp:298
+#: kaudiocreator.cpp:296
 msgid "Idle."
 msgstr "閒置。"
 
-#: kaudiocreator.cpp:307
+#: kaudiocreator.cpp:305
 #, kde-format
 msgid "Ripping (%1 active, %2 queued)"
 msgstr "正在擷取 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:311
+#: kaudiocreator.cpp:309
 #, kde-format
 msgid "Encoding (%1 active, %2 queued)"
 msgstr "正在編碼 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:329
+#: kaudiocreator.cpp:327
 msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
 msgstr "在佇列中尚有未完成的工作。真的要離開嗎？"
 
-#: kaudiocreator.cpp:329
+#: kaudiocreator.cpp:327
 msgid "Unfinished Jobs in Queue"
 msgstr "佇列中未完成的工作"
 
 #. i18n: file: general.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
-#: kaudiocreator.cpp:370 rc.cpp:220
+#: kaudiocreator.cpp:368 rc.cpp:220
 msgid "General"
 msgstr "一般"
 
-#: kaudiocreator.cpp:371
+#: kaudiocreator.cpp:369
 msgid "General Configuration"
 msgstr "一般設定"
 
-#: kaudiocreator.cpp:373
+#: kaudiocreator.cpp:371
 msgid "CD"
 msgstr "CD"
 
-#: kaudiocreator.cpp:374
+#: kaudiocreator.cpp:372
 msgid "CD Configuration"
 msgstr "CD 設定"
 
-#: kaudiocreator.cpp:384
+#: kaudiocreator.cpp:382
 msgid "CDDB"
 msgstr "CDDB"
 
-#: kaudiocreator.cpp:384
+#: kaudiocreator.cpp:382
 msgid "CDDB Configuration"
 msgstr "CDDB 設定"
 
-#: kaudiocreator.cpp:390
+#: kaudiocreator.cpp:388
 msgid "Ripper"
 msgstr "擷取器"
 
-#: kaudiocreator.cpp:390
+#: kaudiocreator.cpp:388
 msgid "Ripper Configuration"
 msgstr "擷取器設定"
 
 #. i18n: file: encodefile.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#: kaudiocreator.cpp:393 rc.cpp:33
+#: kaudiocreator.cpp:391 rc.cpp:33
 msgid "Encoder"
 msgstr "編碼器"
 
@@ -827,7 +827,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkOutput)
 #. i18n: file: kaudiocreator_encoders.kcfg:32
 #. i18n: ectx: label, entry (checkOutput), group ($(encoder))
-#: rc.cpp:211 rc.cpp:430
+#: rc.cpp:211 rc.cpp:373
 msgid "Check output files"
 msgstr ""
 
@@ -857,7 +857,7 @@ msgstr "完成後自動移除工作(&A)"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptIfIncompleteInfo)
 #. i18n: file: kaudiocreator.kcfg:22
 #. i18n: ectx: label, entry (promptIfIncompleteInfo), group (CD)
-#: rc.cpp:226 rc.cpp:369
+#: rc.cpp:226 rc.cpp:385
 msgid "Prompt if information is not complete"
 msgstr "資訊不完整提示"
 
@@ -1061,21 +1061,45 @@ msgstr "移除所有工作"
 msgid "Remove Selected Jobs"
 msgstr "移除選擇的工作"
 
+#. i18n: file: kaudiocreator_encoders.kcfg:12
+#. i18n: ectx: label, entry (encoderName), group ($(encoder))
+#: rc.cpp:360
+msgid "Name of the encoder"
+msgstr "編碼器名稱"
+
+#. i18n: file: kaudiocreator_encoders.kcfg:16
+#. i18n: ectx: label, entry (commandLine), group ($(encoder))
+#: rc.cpp:363
+msgid "Command line to invoke encoder"
+msgstr "叫出編碼器的指令列"
+
+#. i18n: file: kaudiocreator_encoders.kcfg:20
+#. i18n: ectx: label, entry (extension), group ($(encoder))
+#: rc.cpp:366
+msgid "File extension"
+msgstr "檔案延伸檔名"
+
+#. i18n: file: kaudiocreator_encoders.kcfg:24
+#. i18n: ectx: label, entry (inputTypes), group ($(encoder))
+#: rc.cpp:369
+msgid "Input Types"
+msgstr ""
+
 #. i18n: file: kaudiocreator.kcfg:10
 #. i18n: ectx: label, entry (performCDDBauto), group (CD)
-#: rc.cpp:360
+#: rc.cpp:376
 msgid "Perform automatic CDDB lookups."
 msgstr "進行自動的 CDDB 查詢。"
 
 #. i18n: file: kaudiocreator.kcfg:14
 #. i18n: ectx: label, entry (autoRip), group (CD)
-#: rc.cpp:363
+#: rc.cpp:379
 msgid "Automatically rip all tracks upon a successful CDDB retrieval"
 msgstr "取得 CDDB 資訊後自動擷取所有音軌"
 
 #. i18n: file: kaudiocreator.kcfg:18
 #. i18n: ectx: label, entry (lastUsedDevice), group (CD)
-#: rc.cpp:366
+#: rc.cpp:382
 #, fuzzy
 #| msgid "CD device"
 msgid "Last used CD device"
@@ -1083,25 +1107,25 @@ msgstr "CD 裝置"
 
 #. i18n: file: kaudiocreator.kcfg:28
 #. i18n: ectx: label, entry (removeCompletedJobs), group (General)
-#: rc.cpp:372
+#: rc.cpp:388
 msgid "Automatically remove jobs when finished"
 msgstr "完成後自動移除工作"
 
 #. i18n: file: kaudiocreator.kcfg:32
 #. i18n: ectx: label, entry (replaceInput), group (General)
-#: rc.cpp:375
+#: rc.cpp:391
 msgid "Regexp to match file names with"
 msgstr "用於配對檔案名稱的正規表示式（Regexp）:"
 
 #. i18n: file: kaudiocreator.kcfg:35
 #. i18n: ectx: label, entry (replaceOutput), group (General)
-#: rc.cpp:378
+#: rc.cpp:394
 msgid "String used to replace the parts that match the selection regexp"
 msgstr "用來替代符合選擇正規表示式部份的字串"
 
 #. i18n: file: kaudiocreator.kcfg:61
 #. i18n: ectx: label, entry (defaultEncoder), group (Encoder)
-#: rc.cpp:381
+#: rc.cpp:397
 #, fuzzy
 #| msgid "Current encoder:"
 msgid "Current default encoder"
@@ -1109,93 +1133,69 @@ msgstr "當前編碼器:"
 
 #. i18n: file: kaudiocreator.kcfg:65
 #. i18n: ectx: label, entry (inputTypesList), group (Encoder)
-#: rc.cpp:384
+#: rc.cpp:400
 msgid "List of available input types"
 msgstr ""
 
 #. i18n: file: kaudiocreator.kcfg:68
 #. i18n: ectx: label, entry (numberOfCpus), group (Encoder)
-#: rc.cpp:387
+#: rc.cpp:403
 msgid "Number of files to encode at a time"
 msgstr "同一時間編碼的 wav 檔案數目"
 
 #. i18n: file: kaudiocreator.kcfg:72
 #. i18n: ectx: label, entry (fileFormat), group (Encoder)
-#: rc.cpp:390
+#: rc.cpp:406
 msgid "Location pattern for encoded files"
 msgstr "編碼檔案的位置樣式"
 
 #. i18n: file: kaudiocreator.kcfg:76
 #. i18n: ectx: label, entry (NiceLevel), group (Encoder)
-#: rc.cpp:393
+#: rc.cpp:409
 msgid "Encoder priority"
 msgstr "編碼器優先權"
 
 #. i18n: file: kaudiocreator.kcfg:82
 #. i18n: ectx: label, entry (FullDecoderDebug), group (Encoder)
-#: rc.cpp:396
+#: rc.cpp:412
 msgid "Enable full decoder debugging"
 msgstr "啟用完整解碼器偵錯"
 
 #. i18n: file: kaudiocreator.kcfg:88
 #. i18n: ectx: label, entry (maxWavFiles), group (Ripper)
-#: rc.cpp:399
+#: rc.cpp:415
 msgid "Number of tracks to rip at a time"
 msgstr "同一時間擷取音軌的數目"
 
 #. i18n: file: kaudiocreator.kcfg:92
 #. i18n: ectx: label, entry (beepAfterRip), group (Ripper)
-#: rc.cpp:402
+#: rc.cpp:418
 msgid "Beep after rip"
 msgstr "擷取後發出「嗶」聲"
 
 #. i18n: file: kaudiocreator.kcfg:96
 #. i18n: ectx: label, entry (autoEjectAfterRip), group (Ripper)
-#: rc.cpp:405
+#: rc.cpp:421
 msgid "Eject CD after last track is ripped"
 msgstr "完成擷取後退出 CD"
 
 #. i18n: file: kaudiocreator.kcfg:100
 #. i18n: ectx: label, entry (autoEjectDelay), group (Ripper)
-#: rc.cpp:408
+#: rc.cpp:424
 msgid "Auto-eject delay"
 msgstr "自動退出延遲"
 
 #. i18n: file: kaudiocreator.kcfg:104
 #. i18n: ectx: label, entry (enableTempDir), group (Ripper)
-#: rc.cpp:411
+#: rc.cpp:427
 msgid "Specify temporary directory"
 msgstr "指定暫存目錄"
 
 #. i18n: file: kaudiocreator.kcfg:108
 #. i18n: ectx: label, entry (tempDir), group (Ripper)
-#: rc.cpp:414
+#: rc.cpp:430
 msgid "Location of temporary directory to use"
 msgstr "要使用的暫存目錄位置"
-
-#. i18n: file: kaudiocreator_encoders.kcfg:12
-#. i18n: ectx: label, entry (encoderName), group ($(encoder))
-#: rc.cpp:417
-msgid "Name of the encoder"
-msgstr "編碼器名稱"
-
-#. i18n: file: kaudiocreator_encoders.kcfg:16
-#. i18n: ectx: label, entry (commandLine), group ($(encoder))
-#: rc.cpp:420
-msgid "Command line to invoke encoder"
-msgstr "叫出編碼器的指令列"
-
-#. i18n: file: kaudiocreator_encoders.kcfg:20
-#. i18n: ectx: label, entry (extension), group ($(encoder))
-#: rc.cpp:423
-msgid "File extension"
-msgstr "檔案延伸檔名"
-
-#. i18n: file: kaudiocreator_encoders.kcfg:24
-#. i18n: ectx: label, entry (inputTypes), group ($(encoder))
-#: rc.cpp:426
-msgid "Input Types"
-msgstr ""
 
 #. i18n: file: kaudiocreatorui.rc:15
 #. i18n: ectx: Menu (file)

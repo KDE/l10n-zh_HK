@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdat 1.54\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:11+0200\n"
+"POT-Creation-Date: 2009-05-11 12:52+0200\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -777,6 +777,28 @@ msgstr "KDat: 儲存記錄"
 msgid "&Overwrite"
 msgstr "覆蓋(&O)"
 
+#: main.cpp:40
+msgid "tar-based DAT archiver for KDE"
+msgstr "KDE 的，以 tar 為基礎的 DAT 封存工具"
+
+#: main.cpp:47
+msgid "KDat"
+msgstr "KDat"
+
+#: main.cpp:49
+msgid "(c) 1999-2000, Sean Vyain; 2001-2002 Lawrence Widman"
+msgstr ""
+
+#: main.cpp:58
+#, fuzzy
+#| msgid "Can't allocate memory in kdat"
+msgid "Cannot allocate memory in kdat"
+msgstr "無法在 kdat 中配置記憶體"
+
+#: main.cpp:75
+msgid "Lawrence Widman"
+msgstr ""
+
 #: Node.cpp:1194 Node.cpp:1264
 msgid "<no tape>"
 msgstr "<沒有磁帶>"
@@ -793,6 +815,238 @@ msgstr "備份設定檔"
 #, fuzzy
 msgid "Options"
 msgstr "Tar 選項"
+
+#. i18n: file: OptionsDlgWidget.ui:17
+#. i18n: ectx: property (windowTitle), widget (QWidget)
+#: rc.cpp:3
+msgid "Options Widget"
+msgstr "選項配件"
+
+#. i18n: file: OptionsDlgWidget.ui:53
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
+#: rc.cpp:6
+msgid ""
+"This setting determines the capacity that KDat assumes your backup tapes to "
+"be.  This is used when formatting the tapes."
+msgstr "此設置決定 KDat 假設你用作備份的磁帶的容量。用來格式化磁帶。"
+
+#. i18n: file: OptionsDlgWidget.ui:67
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
+#: rc.cpp:9
+msgid ""
+"Tape drives read and write data in individual blocks.  This setting controls "
+"the size of each block, and should be set to your tape drive's block size.  "
+"For floppy tape drives this should be set to <b>10240</b> bytes."
+msgstr ""
+"磁帶機在個別的區塊中讀寫資料。 此設置控制每個區塊的大小，應設為你磁帶機的區塊"
+"大小。 軟磁帶機應設為 <b>10240</b> 個組元組。"
+
+#. i18n: file: OptionsDlgWidget.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:12
+msgid "MB"
+msgstr "MB"
+
+#. i18n: file: OptionsDlgWidget.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: rc.cpp:15
+msgid "GB"
+msgstr "GB"
+
+#. i18n: file: OptionsDlgWidget.ui:88
+#. i18n: ectx: property (whatsThis), item, widget (KComboBox)
+#: rc.cpp:19
+msgid ""
+"This option chooses whether the default tape size to the left is in "
+"megabytes (MB) or gigabytes (GB)."
+msgstr "此選項選擇左邊的預設磁帶大小是百萬位元組 (MB) 還是十億位元組 (GB) 。"
+
+#. i18n: file: OptionsDlgWidget.ui:96
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:22
+msgid "bytes"
+msgstr "位元組"
+
+#. i18n: file: OptionsDlgWidget.ui:104
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:25
+msgid "Tape block size:"
+msgstr "磁帶區塊大小:"
+
+#. i18n: file: OptionsDlgWidget.ui:115
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:28
+msgid "Default tape size:"
+msgstr "預設磁帶大小:"
+
+#. i18n: file: OptionsDlgWidget.ui:136
+#. i18n: ectx: property (text), widget (KPushButton)
+#. i18n: file: OptionsDlgWidget.ui:166
+#. i18n: ectx: property (text), widget (KPushButton)
+#: rc.cpp:31 rc.cpp:43 VerifyOptDlg.cpp:62
+msgid "..."
+msgstr "..."
+
+#. i18n: file: OptionsDlgWidget.ui:139
+#. i18n: ectx: property (toolTip), widget (KPushButton)
+#: rc.cpp:34
+msgid "Browse for the tar command."
+msgstr "瀏覽以取得 tar 指令。"
+
+#. i18n: file: OptionsDlgWidget.ui:147
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:37
+msgid ""
+"The location in the filesystem of the <em>non-rewinding</em> tape device.  "
+"The default is <b>/dev/tape</b>."
+msgstr "<em>不回捲</em>磁帶機在檔案系統中的位置。 預設是 <b>/dev/tape</b> 。"
+
+#. i18n: file: OptionsDlgWidget.ui:155
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:40
+msgid "Tar command:"
+msgstr "Tar 指令:"
+
+#. i18n: file: OptionsDlgWidget.ui:169
+#. i18n: ectx: property (toolTip), widget (KPushButton)
+#: rc.cpp:46
+msgid "Browse for the tape device."
+msgstr "瀏覽以取得磁帶機。"
+
+#. i18n: file: OptionsDlgWidget.ui:177
+#. i18n: ectx: property (whatsThis), widget (KLineEdit)
+#: rc.cpp:49
+msgid ""
+"This setting controls the command that KDat uses to perform the tape "
+"backup.  The full path should be given.  The default is <b>tar</b>."
+msgstr ""
+"此設置控制 KDat 用作進行磁帶備份的指令。 要提供完整路徑。 預設是 <b>tar</"
+"b> 。"
+
+#. i18n: file: OptionsDlgWidget.ui:185
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:52
+msgid "Tape device:"
+msgstr "磁帶裝置:"
+
+#. i18n: file: OptionsDlgWidget.ui:198
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:55
+msgid "Tape Drive Options"
+msgstr "磁帶機選項"
+
+#. i18n: file: OptionsDlgWidget.ui:209
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:58
+msgid "Load tape on mount"
+msgstr "掛載磁帶時載入磁帶"
+
+#. i18n: file: OptionsDlgWidget.ui:212
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:61
+msgid "<qt>Issue an <tt>mtload</tt> command prior to mounting the tape.</qt>"
+msgstr "<qt>掛載磁帶之前發出 <tt>mtload</tt> 指令。</qt>"
+
+#. i18n: file: OptionsDlgWidget.ui:217
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:64
+msgid ""
+"This command issues an <tt>mtload</tt> command to the tape device before "
+"trying to mount it.\n"
+"\n"
+"This is required by some tape drives."
+msgstr ""
+"此命令於嘗試掛載磁帶前發出 <tt>mtload</tt> 指令。\n"
+"\n"
+"某些磁帶機需要它。"
+
+#. i18n: file: OptionsDlgWidget.ui:225
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:69
+msgid "Lock tape drive on mount"
+msgstr "掛載磁帶時鎖住磁帶"
+
+#. i18n: file: OptionsDlgWidget.ui:228
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:72
+msgid "Disable the eject button after mounting the tape."
+msgstr "掛載磁帶後使「退出」按鈕失效。"
+
+#. i18n: file: OptionsDlgWidget.ui:233
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:75
+msgid ""
+"This option makes KDat try to disable the eject button on the tape drive "
+"after the tape has been mounted.\n"
+"\n"
+"This doesn't work for all tape drives."
+msgstr ""
+"此選項令 KDat 於掛載磁帶後嘗試使磁帶機的「退出」按鈕失效。\n"
+"\n"
+"對某些磁帶機沒有效。"
+
+#. i18n: file: OptionsDlgWidget.ui:241
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:80
+msgid "Eject tape on unmount"
+msgstr "卸載磁帶時退出磁帶"
+
+#. i18n: file: OptionsDlgWidget.ui:244
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:83
+#, fuzzy
+#| msgid ""
+#| "Try to eject the tape after it is unmounted.  Don't use this for ftape."
+msgid ""
+"Try to eject the tape after it is unmounted.  Do not use this for ftape."
+msgstr "卸載磁帶後嘗試退出磁帶。 不要用於 ftape 。"
+
+#. i18n: file: OptionsDlgWidget.ui:249
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:86
+msgid ""
+"Try to eject the tape after it has been unmounted.\n"
+"\n"
+"This option should not be used for floppy-tape drives."
+msgstr ""
+"卸載磁帶後嘗試退出磁帶。\n"
+"\n"
+"此選項不要用於 floppy-tape 磁帶機。"
+
+#. i18n: file: OptionsDlgWidget.ui:257
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:91
+msgid "Variable block size"
+msgstr "可變區塊大小"
+
+#. i18n: file: OptionsDlgWidget.ui:260
+#. i18n: ectx: property (toolTip), widget (QCheckBox)
+#: rc.cpp:94
+msgid "Enable variable-block size support in the tape drive."
+msgstr "啟用磁帶機的可變區塊大小支援。"
+
+#. i18n: file: OptionsDlgWidget.ui:265
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:97
+msgid ""
+"Some tape drives support different sizes of the data block.  With this "
+"option, KDat will attempt to enable that support.\n"
+"\n"
+"You must still specify the block size."
+msgstr ""
+"某些磁帶機支援不同大小的資料區塊。 使用此選項， KDat 會試著啟此支援。\n"
+"\n"
+"你仍然必須指定區塊大小。"
+
+#: rc.cpp:100
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jing-Jong Shyue,Walter Cheuk"
+
+#: rc.cpp:101
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyue@sonoma.com.tw,wwycheuk@netvigator.com"
 
 #: Tape.cpp:44
 msgid "New Tape"
@@ -1070,14 +1324,6 @@ msgstr "回存至資料夾:"
 msgid "Verify in folder:"
 msgstr "檢驗資料夾:"
 
-#. i18n: file: OptionsDlgWidget.ui:136
-#. i18n: ectx: property (text), widget (KPushButton)
-#. i18n: file: OptionsDlgWidget.ui:166
-#. i18n: ectx: property (text), widget (KPushButton)
-#: VerifyOptDlg.cpp:62 rc.cpp:31 rc.cpp:43
-msgid "..."
-msgstr "..."
-
 #: VerifyOptDlg.cpp:67
 msgid "Restore files:"
 msgstr "回存檔案:"
@@ -1085,252 +1331,6 @@ msgstr "回存檔案:"
 #: VerifyOptDlg.cpp:69
 msgid "Verify files:"
 msgstr "檢驗檔案:"
-
-#: main.cpp:40
-msgid "tar-based DAT archiver for KDE"
-msgstr "KDE 的，以 tar 為基礎的 DAT 封存工具"
-
-#: main.cpp:47
-msgid "KDat"
-msgstr "KDat"
-
-#: main.cpp:49
-msgid "(c) 1999-2000, Sean Vyain; 2001-2002 Lawrence Widman"
-msgstr ""
-
-#: main.cpp:58
-#, fuzzy
-#| msgid "Can't allocate memory in kdat"
-msgid "Cannot allocate memory in kdat"
-msgstr "無法在 kdat 中配置記憶體"
-
-#: main.cpp:75
-msgid "Lawrence Widman"
-msgstr ""
-
-#. i18n: file: OptionsDlgWidget.ui:17
-#. i18n: ectx: property (windowTitle), widget (QWidget)
-#: rc.cpp:3
-msgid "Options Widget"
-msgstr "選項配件"
-
-#. i18n: file: OptionsDlgWidget.ui:53
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
-#: rc.cpp:6
-msgid ""
-"This setting determines the capacity that KDat assumes your backup tapes to "
-"be.  This is used when formatting the tapes."
-msgstr "此設置決定 KDat 假設你用作備份的磁帶的容量。用來格式化磁帶。"
-
-#. i18n: file: OptionsDlgWidget.ui:67
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox)
-#: rc.cpp:9
-msgid ""
-"Tape drives read and write data in individual blocks.  This setting controls "
-"the size of each block, and should be set to your tape drive's block size.  "
-"For floppy tape drives this should be set to <b>10240</b> bytes."
-msgstr ""
-"磁帶機在個別的區塊中讀寫資料。 此設置控制每個區塊的大小，應設為你磁帶機的區塊"
-"大小。 軟磁帶機應設為 <b>10240</b> 個組元組。"
-
-#. i18n: file: OptionsDlgWidget.ui:73
-#. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:12
-msgid "MB"
-msgstr "MB"
-
-#. i18n: file: OptionsDlgWidget.ui:78
-#. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:15
-msgid "GB"
-msgstr "GB"
-
-#. i18n: file: OptionsDlgWidget.ui:88
-#. i18n: ectx: property (whatsThis), item, widget (KComboBox)
-#: rc.cpp:19
-msgid ""
-"This option chooses whether the default tape size to the left is in "
-"megabytes (MB) or gigabytes (GB)."
-msgstr "此選項選擇左邊的預設磁帶大小是百萬位元組 (MB) 還是十億位元組 (GB) 。"
-
-#. i18n: file: OptionsDlgWidget.ui:96
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:22
-msgid "bytes"
-msgstr "位元組"
-
-#. i18n: file: OptionsDlgWidget.ui:104
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:25
-msgid "Tape block size:"
-msgstr "磁帶區塊大小:"
-
-#. i18n: file: OptionsDlgWidget.ui:115
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:28
-msgid "Default tape size:"
-msgstr "預設磁帶大小:"
-
-#. i18n: file: OptionsDlgWidget.ui:139
-#. i18n: ectx: property (toolTip), widget (KPushButton)
-#: rc.cpp:34
-msgid "Browse for the tar command."
-msgstr "瀏覽以取得 tar 指令。"
-
-#. i18n: file: OptionsDlgWidget.ui:147
-#. i18n: ectx: property (whatsThis), widget (KLineEdit)
-#: rc.cpp:37
-msgid ""
-"The location in the filesystem of the <em>non-rewinding</em> tape device.  "
-"The default is <b>/dev/tape</b>."
-msgstr "<em>不回捲</em>磁帶機在檔案系統中的位置。 預設是 <b>/dev/tape</b> 。"
-
-#. i18n: file: OptionsDlgWidget.ui:155
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:40
-msgid "Tar command:"
-msgstr "Tar 指令:"
-
-#. i18n: file: OptionsDlgWidget.ui:169
-#. i18n: ectx: property (toolTip), widget (KPushButton)
-#: rc.cpp:46
-msgid "Browse for the tape device."
-msgstr "瀏覽以取得磁帶機。"
-
-#. i18n: file: OptionsDlgWidget.ui:177
-#. i18n: ectx: property (whatsThis), widget (KLineEdit)
-#: rc.cpp:49
-msgid ""
-"This setting controls the command that KDat uses to perform the tape "
-"backup.  The full path should be given.  The default is <b>tar</b>."
-msgstr ""
-"此設置控制 KDat 用作進行磁帶備份的指令。 要提供完整路徑。 預設是 <b>tar</"
-"b> 。"
-
-#. i18n: file: OptionsDlgWidget.ui:185
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:52
-msgid "Tape device:"
-msgstr "磁帶裝置:"
-
-#. i18n: file: OptionsDlgWidget.ui:198
-#. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:55
-msgid "Tape Drive Options"
-msgstr "磁帶機選項"
-
-#. i18n: file: OptionsDlgWidget.ui:209
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:58
-msgid "Load tape on mount"
-msgstr "掛載磁帶時載入磁帶"
-
-#. i18n: file: OptionsDlgWidget.ui:212
-#. i18n: ectx: property (toolTip), widget (QCheckBox)
-#: rc.cpp:61
-msgid "<qt>Issue an <tt>mtload</tt> command prior to mounting the tape.</qt>"
-msgstr "<qt>掛載磁帶之前發出 <tt>mtload</tt> 指令。</qt>"
-
-#. i18n: file: OptionsDlgWidget.ui:217
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:64
-msgid ""
-"This command issues an <tt>mtload</tt> command to the tape device before "
-"trying to mount it.\n"
-"\n"
-"This is required by some tape drives."
-msgstr ""
-"此命令於嘗試掛載磁帶前發出 <tt>mtload</tt> 指令。\n"
-"\n"
-"某些磁帶機需要它。"
-
-#. i18n: file: OptionsDlgWidget.ui:225
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:69
-msgid "Lock tape drive on mount"
-msgstr "掛載磁帶時鎖住磁帶"
-
-#. i18n: file: OptionsDlgWidget.ui:228
-#. i18n: ectx: property (toolTip), widget (QCheckBox)
-#: rc.cpp:72
-msgid "Disable the eject button after mounting the tape."
-msgstr "掛載磁帶後使「退出」按鈕失效。"
-
-#. i18n: file: OptionsDlgWidget.ui:233
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:75
-msgid ""
-"This option makes KDat try to disable the eject button on the tape drive "
-"after the tape has been mounted.\n"
-"\n"
-"This doesn't work for all tape drives."
-msgstr ""
-"此選項令 KDat 於掛載磁帶後嘗試使磁帶機的「退出」按鈕失效。\n"
-"\n"
-"對某些磁帶機沒有效。"
-
-#. i18n: file: OptionsDlgWidget.ui:241
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:80
-msgid "Eject tape on unmount"
-msgstr "卸載磁帶時退出磁帶"
-
-#. i18n: file: OptionsDlgWidget.ui:244
-#. i18n: ectx: property (toolTip), widget (QCheckBox)
-#: rc.cpp:83
-#, fuzzy
-#| msgid ""
-#| "Try to eject the tape after it is unmounted.  Don't use this for ftape."
-msgid ""
-"Try to eject the tape after it is unmounted.  Do not use this for ftape."
-msgstr "卸載磁帶後嘗試退出磁帶。 不要用於 ftape 。"
-
-#. i18n: file: OptionsDlgWidget.ui:249
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:86
-msgid ""
-"Try to eject the tape after it has been unmounted.\n"
-"\n"
-"This option should not be used for floppy-tape drives."
-msgstr ""
-"卸載磁帶後嘗試退出磁帶。\n"
-"\n"
-"此選項不要用於 floppy-tape 磁帶機。"
-
-#. i18n: file: OptionsDlgWidget.ui:257
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:91
-msgid "Variable block size"
-msgstr "可變區塊大小"
-
-#. i18n: file: OptionsDlgWidget.ui:260
-#. i18n: ectx: property (toolTip), widget (QCheckBox)
-#: rc.cpp:94
-msgid "Enable variable-block size support in the tape drive."
-msgstr "啟用磁帶機的可變區塊大小支援。"
-
-#. i18n: file: OptionsDlgWidget.ui:265
-#. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:97
-msgid ""
-"Some tape drives support different sizes of the data block.  With this "
-"option, KDat will attempt to enable that support.\n"
-"\n"
-"You must still specify the block size."
-msgstr ""
-"某些磁帶機支援不同大小的資料區塊。 使用此選項， KDat 會試著啟此支援。\n"
-"\n"
-"你仍然必須指定區塊大小。"
-
-#: rc.cpp:100
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Jing-Jong Shyue,Walter Cheuk"
-
-#: rc.cpp:101
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "shyue@sonoma.com.tw,wwycheuk@netvigator.com"
 
 #: OptionsDlgWidget.ui.h:26
 msgid "Only local files are supported"

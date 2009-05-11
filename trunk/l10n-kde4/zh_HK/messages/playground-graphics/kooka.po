@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-17 10:55+0100\n"
+"POT-Creation-Date: 2009-05-11 13:00+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -13,6 +13,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: imgprintdialog.cpp:59
+msgid "Image Printing"
+msgstr "圖像列印"
+
+#: imgprintdialog.cpp:64 imgprintdialog.cpp:117
+msgid "Image Print Size"
+msgstr "圖像列印大小"
+
+#: imgprintdialog.cpp:68
+msgid "Scale to same size as on screen"
+msgstr "縮放至和螢幕上一樣大小"
+
+#: imgprintdialog.cpp:70
+msgid "Screen scaling. That prints according to the screen resolution."
+msgstr "螢幕縮放。會根據螢幕解像度列印。"
+
+#: imgprintdialog.cpp:74
+msgid "Original size (calculate from scan resolution)"
+msgstr "原來大小（計算自掃描解像度）"
+
+#: imgprintdialog.cpp:77
+msgid ""
+"Calculates the print size from the scan resolution. Enter the scan "
+"resolution in the dialog field below."
+msgstr ""
+
+#: imgprintdialog.cpp:81
+msgid "Scale image to custom dimension"
+msgstr ""
+
+#: imgprintdialog.cpp:83
+msgid ""
+"Set the print size yourself in the dialog below. The image is centered on "
+"the paper."
+msgstr ""
+
+#: imgprintdialog.cpp:87
+msgid "Scale image to fit to page"
+msgstr ""
+
+#: imgprintdialog.cpp:88
+msgid ""
+"Printout uses maximum space on the selected pager. Aspect ratio is "
+"maintained."
+msgstr ""
+
+#: imgprintdialog.cpp:98
+msgid "Resolutions"
+msgstr "解像度"
+
+#: imgprintdialog.cpp:102
+msgid "Generate low resolution PostScript (fast draft print)"
+msgstr ""
+
+#: imgprintdialog.cpp:109
+msgid "Scan resolution (dpi) "
+msgstr "掃描解像度 (dpi) "
+
+#: imgprintdialog.cpp:111
+msgid " dpi"
+msgstr " dpi"
+
+#: imgprintdialog.cpp:121
+msgid "Image width:"
+msgstr "圖像闊度:"
+
+#: imgprintdialog.cpp:122 imgprintdialog.cpp:126
+msgid " mm"
+msgstr " 毫米"
+
+#: imgprintdialog.cpp:125
+msgid "Image height:"
+msgstr "圖像高度:"
+
+#: imgprintdialog.cpp:129
+msgid "Maintain aspect ratio"
+msgstr "保持長闊比例"
+
+#: imgprintdialog.cpp:174
+#, kde-format
+msgid "Screen resolution: %1 dpi"
+msgstr ""
+
+#: imgprintdialog.cpp:218
+msgid "Please specify a scan resolution larger than 0"
+msgstr ""
+
+#: imgprintdialog.cpp:223
+msgid ""
+"For custom printing, a valid size should be specified.\n"
+"At least one dimension is zero."
+msgstr ""
 
 #: img_saver.cpp:71
 msgid "Kooka Save Assistant"
@@ -166,99 +259,6 @@ msgstr "目前未支援圖像的格式更改。"
 #: img_saver.cpp:803 img_saver.cpp:896
 msgid "Wrong Extension Found"
 msgstr "找到錯誤的延伸檔名"
-
-#: imgprintdialog.cpp:59
-msgid "Image Printing"
-msgstr "圖像列印"
-
-#: imgprintdialog.cpp:64 imgprintdialog.cpp:117
-msgid "Image Print Size"
-msgstr "圖像列印大小"
-
-#: imgprintdialog.cpp:68
-msgid "Scale to same size as on screen"
-msgstr "縮放至和螢幕上一樣大小"
-
-#: imgprintdialog.cpp:70
-msgid "Screen scaling. That prints according to the screen resolution."
-msgstr "螢幕縮放。會根據螢幕解像度列印。"
-
-#: imgprintdialog.cpp:74
-msgid "Original size (calculate from scan resolution)"
-msgstr "原來大小（計算自掃描解像度）"
-
-#: imgprintdialog.cpp:77
-msgid ""
-"Calculates the print size from the scan resolution. Enter the scan "
-"resolution in the dialog field below."
-msgstr ""
-
-#: imgprintdialog.cpp:81
-msgid "Scale image to custom dimension"
-msgstr ""
-
-#: imgprintdialog.cpp:83
-msgid ""
-"Set the print size yourself in the dialog below. The image is centered on "
-"the paper."
-msgstr ""
-
-#: imgprintdialog.cpp:87
-msgid "Scale image to fit to page"
-msgstr ""
-
-#: imgprintdialog.cpp:88
-msgid ""
-"Printout uses maximum space on the selected pager. Aspect ratio is "
-"maintained."
-msgstr ""
-
-#: imgprintdialog.cpp:98
-msgid "Resolutions"
-msgstr "解像度"
-
-#: imgprintdialog.cpp:102
-msgid "Generate low resolution PostScript (fast draft print)"
-msgstr ""
-
-#: imgprintdialog.cpp:109
-msgid "Scan resolution (dpi) "
-msgstr "掃描解像度 (dpi) "
-
-#: imgprintdialog.cpp:111
-msgid " dpi"
-msgstr " dpi"
-
-#: imgprintdialog.cpp:121
-msgid "Image width:"
-msgstr "圖像闊度:"
-
-#: imgprintdialog.cpp:122 imgprintdialog.cpp:126
-msgid " mm"
-msgstr " 毫米"
-
-#: imgprintdialog.cpp:125
-msgid "Image height:"
-msgstr "圖像高度:"
-
-#: imgprintdialog.cpp:129
-msgid "Maintain aspect ratio"
-msgstr "保持長闊比例"
-
-#: imgprintdialog.cpp:174
-#, kde-format
-msgid "Screen resolution: %1 dpi"
-msgstr ""
-
-#: imgprintdialog.cpp:218
-msgid "Please specify a scan resolution larger than 0"
-msgstr ""
-
-#: imgprintdialog.cpp:223
-msgid ""
-"For custom printing, a valid size should be specified.\n"
-"At least one dimension is zero."
-msgstr ""
 
 #: kocrbase.cpp:81 kookapref.cpp:89
 msgid "Optical Character Recognition"

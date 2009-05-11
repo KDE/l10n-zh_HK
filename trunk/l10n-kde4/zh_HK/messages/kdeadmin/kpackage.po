@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage 1.74\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-01 10:35+0100\n"
+"POT-Creation-Date: 2009-05-11 12:52+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -74,6 +74,23 @@ msgstr "--找不到任何東西--"
 msgid "Incorrect URL type"
 msgstr "不正確的 URL 類型"
 
+#: kpackage.cpp:118
+msgid "Management Mode"
+msgstr "管理模式"
+
+#: kpackage.cpp:157
+msgid "Select Package"
+msgstr "選擇套件"
+
+#: kpackage.cpp:253
+#, kde-format
+msgid "Malformed URL: %1"
+msgstr "格式錯誤的 URL： %1"
+
+#: kpackage.cpp:299
+msgid "Open location:"
+msgstr "開啟位置:"
+
 #: kpConfig.cpp:16
 #, fuzzy
 #| msgid "su command"
@@ -91,48 +108,6 @@ msgstr "執行特許的指令，使用"
 #| msgid "&Misc"
 msgid "Misc"
 msgstr "雜項(&M)"
-
-#: kpPty.cpp:157
-msgid ""
-"The action you requested uses ssh. Please enter the password or pass "
-"phrase.\n"
-msgstr "你要求的行動使用 ssh 。請輸入密碼或 pass phrase 。\n"
-
-#: kpPty.cpp:160
-msgid ""
-"The action you requested needs root privileges. Please enter root's "
-"password.\n"
-msgstr "你要求的行動需要系統管理員（root）權限。請輸入系統管理員的密碼。\n"
-
-#: kpPty.cpp:163
-#, fuzzy
-#| msgid ""
-#| "The action you requested needs root privileges. Please enter your SUDO "
-#| "password.\n"
-msgid ""
-"The action you requested needs root privileges. Please enter your password.\n"
-msgstr "你要求的行動需要系統管理員（root）權限。請輸入你的 SUDO 密碼。\n"
-
-#: kpPty.cpp:181
-msgid "Login Problem: Please login manually"
-msgstr "登入問題：請手動登入"
-
-#: kpackage.cpp:118
-msgid "Management Mode"
-msgstr "管理模式"
-
-#: kpackage.cpp:157
-msgid "Select Package"
-msgstr "選擇套件"
-
-#: kpackage.cpp:253
-#, kde-format
-msgid "Malformed URL: %1"
-msgstr "格式錯誤的 URL： %1"
-
-#: kpackage.cpp:299
-msgid "Open location:"
-msgstr "開啟位置:"
 
 #: kpkg.cpp:105
 #, fuzzy
@@ -219,6 +194,31 @@ msgstr "版本"
 #: kplview.cpp:68
 msgid "Old Version"
 msgstr "舊版本"
+
+#: kpPty.cpp:157
+msgid ""
+"The action you requested uses ssh. Please enter the password or pass "
+"phrase.\n"
+msgstr "你要求的行動使用 ssh 。請輸入密碼或 pass phrase 。\n"
+
+#: kpPty.cpp:160
+msgid ""
+"The action you requested needs root privileges. Please enter root's "
+"password.\n"
+msgstr "你要求的行動需要系統管理員（root）權限。請輸入系統管理員的密碼。\n"
+
+#: kpPty.cpp:163
+#, fuzzy
+#| msgid ""
+#| "The action you requested needs root privileges. Please enter your SUDO "
+#| "password.\n"
+msgid ""
+"The action you requested needs root privileges. Please enter your password.\n"
+msgstr "你要求的行動需要系統管理員（root）權限。請輸入你的 SUDO 密碼。\n"
+
+#: kpPty.cpp:181
+msgid "Login Problem: Please login manually"
+msgstr "登入問題：請手動登入"
 
 #: main.cpp:50
 msgid "KDE Package installer"
@@ -665,17 +665,9 @@ msgstr ""
 msgid "ssh"
 msgstr ""
 
-#. i18n: file: Misc.ui:22
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Verify)
-#: rc.cpp:18
-#, fuzzy
-#| msgid "Verify file list"
-msgid "Verify List of Files"
-msgstr "檢驗檔案清單"
-
 #. i18n: file: kpackageSettings.kcfg:8
 #. i18n: ectx: label, entry, group (kpackage)
-#: rc.cpp:21
+#: rc.cpp:18
 #, fuzzy
 #| msgid "Execute Privileged Commands Using"
 msgid "The way to execute priviliged commands."
@@ -683,7 +675,7 @@ msgstr "執行特許的指令，使用"
 
 #. i18n: file: kpackageSettings.kcfg:18
 #. i18n: ectx: label, entry, group (kpackage)
-#: rc.cpp:24
+#: rc.cpp:21
 #, fuzzy
 #| msgid "Verify file list"
 msgid "Verify file list."
@@ -691,28 +683,36 @@ msgstr "檢驗檔案清單"
 
 #. i18n: file: kpackageui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:27
+#: rc.cpp:24
 #, fuzzy
 msgid "&File"
 msgstr " 檔案"
 
 #. i18n: file: kpackageui.rc:17
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:30
+#: rc.cpp:27
 msgid "&Edit"
 msgstr ""
 
 #. i18n: file: kpackageui.rc:25
 #. i18n: ectx: Menu (packages)
-#: rc.cpp:33
+#: rc.cpp:30
 msgid "&Packages"
 msgstr "套件(&P)"
 
 #. i18n: file: kpackageui.rc:42
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:36
+#: rc.cpp:33
 msgid "&Settings"
 msgstr ""
+
+#. i18n: file: Misc.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Verify)
+#: rc.cpp:36
+#, fuzzy
+#| msgid "Verify file list"
+msgid "Verify List of Files"
+msgstr "檢驗檔案清單"
 
 #: rc.cpp:37
 msgctxt "NAME OF TRANSLATORS"
