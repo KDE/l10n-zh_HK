@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysv\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:08+0200\n"
+"POT-Creation-Date: 2009-05-11 07:07+0200\n"
 "PO-Revision-Date: 2006-01-12 20:03+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -58,6 +58,67 @@ msgstr "在 <cmd>%2</cmd> 建立 <cmd>%1</cmd> <error>失敗</error>: \"%3\"<br/
 #, kde-format
 msgid "FAILED to create %1 in %2: \"%3\"\n"
 msgstr "未能在 %2 建立 %1: \"%3\"\n"
+
+#: kauthicon.cpp:99
+#, fuzzy
+msgid "Editing disabled"
+msgstr "編輯已啟動"
+
+#: kauthicon.cpp:100 RunlevelAuthIcon.cpp:46
+msgid "Editing enabled"
+msgstr "編輯已啟動"
+
+#: ksv_core.cpp:42
+msgid "No description available."
+msgstr "沒有可用的說明。"
+
+#: ksv_core.cpp:162
+msgid " log files"
+msgstr " 記錄檔案"
+
+#: ksv_core.cpp:170
+msgid "Saved Init Configurations"
+msgstr "已儲存啟動設定"
+
+#: ksvdraglist.cpp:339
+msgid "No."
+msgstr "不。"
+
+#: ksvdraglist.cpp:343
+msgid "Name"
+msgstr "名稱"
+
+#: ksvdraglist.cpp:355 ksvdraglist.cpp:359 ksvdraglist.cpp:362
+msgid "Drag Menu"
+msgstr "拖曳選單"
+
+#: main.cpp:66
+msgid "SysV-Init Editor"
+msgstr "Sys-V 啟動編輯器"
+
+#: main.cpp:67
+msgid "Editor for Sys-V like init configurations"
+msgstr "用於 Sys-V 類啟動設定的編輯器"
+
+#: main.cpp:69
+msgid "Copyright (c) 1997-2000, Peter Putzer."
+msgstr ""
+
+#: main.cpp:70
+msgid ""
+"Similar to Red Hat's\"tksysv\", but SysV-Init Editor allows\n"
+"drag-and-drop, as well as keyboard use."
+msgstr ""
+"與 RedHat 公司的「tksysv」相似，但 Sys-V 啟動編輯器\n"
+"允許拖放操作，同時也可以使用鍵盤。"
+
+#: main.cpp:73
+msgid "Peter Putzer"
+msgstr ""
+
+#: main.cpp:73
+msgid "Main developer"
+msgstr "主要開發者"
 
 #. i18n: file: ksysvui.rc:73
 #. i18n: ectx: Menu (item_menu)
@@ -382,265 +443,6 @@ msgstr "指向服務(&P):"
 #: Properties.cpp:154
 msgid "&Sorting number:"
 msgstr "排序編號(&S):"
-
-#: RunlevelAuthIcon.cpp:45
-msgid "Editing disabled - please check your permissions"
-msgstr "編輯被關閉 - 請檢查您的權限"
-
-#: RunlevelAuthIcon.cpp:46 kauthicon.cpp:100
-msgid "Editing enabled"
-msgstr "編輯已啟動"
-
-#: TopWidget.cpp:123
-msgid "Start Service"
-msgstr "啟動服務"
-
-#: TopWidget.cpp:124
-msgid "&Choose which service to start:"
-msgstr "選擇要啟動的服務(&C):"
-
-#: TopWidget.cpp:126
-msgid "Stop Service"
-msgstr "停止服務"
-
-#: TopWidget.cpp:127
-msgid "&Choose which service to stop:"
-msgstr "選擇要停止的服務(&C):"
-
-#: TopWidget.cpp:129
-msgid "Restart Service"
-msgstr "重新啟動服務"
-
-#: TopWidget.cpp:130
-msgid "&Choose which service to restart:"
-msgstr "選擇要重新啟動的服務(&C):"
-
-#: TopWidget.cpp:132
-msgid "Edit Service"
-msgstr "編輯服務"
-
-#: TopWidget.cpp:133
-msgid "&Choose which service to edit:"
-msgstr "選擇要編輯的服務(&C):"
-
-#: TopWidget.cpp:220
-msgid "Re&vert Configuration"
-msgstr "復原設定(&V)"
-
-#: TopWidget.cpp:223
-#, fuzzy
-msgid "&Open..."
-msgstr "開啟(&O)"
-
-#: TopWidget.cpp:226
-msgid "&Save Configuration"
-msgstr "儲存設定(&S)"
-
-#: TopWidget.cpp:231
-msgid "Save &Log..."
-msgstr "儲存記錄(&L)..."
-
-#: TopWidget.cpp:239
-msgid "&Print Log..."
-msgstr "列印記錄(&P)..."
-
-#: TopWidget.cpp:255
-msgid "P&roperties"
-msgstr "屬性(&R)"
-
-#: TopWidget.cpp:259
-msgid "&Open"
-msgstr "開啟(&O)"
-
-#: TopWidget.cpp:263
-msgid "Open &With"
-msgstr "以此開啟(&W)"
-
-#: TopWidget.cpp:272
-msgid "Show &Log"
-msgstr "顯示記錄(&L)"
-
-#: TopWidget.cpp:275
-msgid "Hide &Log"
-msgstr "隱藏記錄(&L)"
-
-#: TopWidget.cpp:278
-msgid "&Start Service..."
-msgstr "啟動服務(&S)..."
-
-#: TopWidget.cpp:282
-msgid "&Stop Service..."
-msgstr "停止服務(&S)..."
-
-#: TopWidget.cpp:286
-msgid "&Restart Service..."
-msgstr "重新啟動服務(&R)..."
-
-#: TopWidget.cpp:290
-msgid "&Edit Service..."
-msgstr "編輯服務(&E)..."
-
-#: TopWidget.cpp:304
-msgid "There are unsaved changes. Are you sure you want to quit?"
-msgstr "有未儲存的更改。確定要離開嗎？"
-
-#: TopWidget.cpp:305
-msgid "Quit"
-msgstr ""
-
-#: TopWidget.cpp:318
-msgid "Do you really want to revert all unsaved changes?"
-msgstr "確定要復原所有未儲存的更改嗎？"
-
-#: TopWidget.cpp:319
-msgid "Revert Configuration"
-msgstr "復原設定"
-
-#: TopWidget.cpp:320
-msgid "&Revert"
-msgstr "復原(&R)"
-
-#: TopWidget.cpp:331
-msgid ""
-"You're about to save the changes made to your init configuration. Wrong "
-"settings can make your system hang on startup.\n"
-"Do you wish to continue?"
-msgstr ""
-"你現在要儲存對啟動設定的更改。錯誤的設置可以造成你的系統無法正常啟動。\n"
-"要繼續嗎？"
-
-#: TopWidget.cpp:335
-msgid "Save Configuration"
-msgstr "儲存設定"
-
-#: TopWidget.cpp:403
-msgid ""
-"<p>Click on the checkboxes to <strong>show</strong> or <strong>hide</strong> "
-"runlevels.</p> <p>The list of currently visible runlevels is saved when you "
-"use the <strong>Save Options command</strong>.</p>"
-msgstr ""
-"<p>在方塊中點選以<strong>顯示</strong>或<strong>隱藏</strong>執行等級。</"
-"p><p>目前可見的執行等級清單會在您使用<strong>儲存選項指令</strong>時被儲存。"
-"</p>"
-
-#: TopWidget.cpp:407
-msgid "Show only the selected runlevels"
-msgstr "只顯示選擇的執行等級"
-
-#: TopWidget.cpp:409
-msgid "Show runlevels:"
-msgstr "顯示執行等級:"
-
-#: TopWidget.cpp:427
-#, fuzzy, kde-format
-msgid ""
-"<p>If the lock is closed <img src=\"user|ksysv_locked\"/>, you don't have "
-"the right <strong>permissions</strong> to edit the init configuration.</"
-"p><p>Either restart %1 as root (or another more privileged user), or ask "
-"your sysadmin to install %2 <em>suid</em> or <em>sgid</em>.</p><p>The latter "
-"way is <strong>not</strong> recommended though, due to security issues.</p>"
-msgstr ""
-"<p>如鎖定被關閉<img src=\"user|ksysv_locked\"/>，表示你沒有編輯啟動設定的正確"
-"<strong>權限</strong>。</p><p>你可以 root（或一個擁有比較多權限的使用者）重新"
-"啟動 %1 ，或要求你的系統管理者以 <em>suid</em> 或 <em>sgid</em> 安裝 %1 。</"
-"p><p>但因為保安的理由，<strong>不建議</strong>後者。</p>"
-
-#: TopWidget.cpp:571
-msgid " Changed"
-msgstr " 已改變"
-
-#: TopWidget.cpp:775
-msgid "<h1>KDE Sys-V Init Editor Log</h1>"
-msgstr "<h1>KDE Sys-V 啟動編輯器記錄</h1>"
-
-#: TopWidget.cpp:785
-#, kde-format
-msgid "<h3>Printed on %1</h3><br/><br/>"
-msgstr "<h3>已在 %1 列印</h3><br/><br/>"
-
-#: TopWidget.cpp:838
-msgid ""
-"<p>Unable to generate a valid sorting number for this position. This means "
-"that there was no number available between the two adjacent services, and "
-"the service did not fit in lexically.</p><p>Please adjust the sorting "
-"numbers manually via the <strong>Properties dialog box</strong>.</p>"
-msgstr ""
-"<p>無法為這個位置產生有效的排序編號。這表示在前後相鄰的服務中沒有可用的編號，"
-"且服務名稱無法符合名稱順序。</p><p>請使用<strong>屬性對話方塊</strong>手動調"
-"整排序編號。</p>"
-
-#: TopWidget.cpp:845
-msgid "Unable to Generate Sorting Number"
-msgstr "無法產生排序編號"
-
-#: TopWidget.cpp:849
-msgid "Unable to generate sorting number. Please change manually."
-msgstr "無法產生排序編號。請手動更改。"
-
-#: TopWidget.cpp:1063
-msgid "Configuration package saved successfully."
-msgstr "設定套件儲存成功。"
-
-#: TopWidget.cpp:1093
-msgid "Configuration package loaded successfully."
-msgstr "設定套件載入成功。"
-
-#: kauthicon.cpp:99
-#, fuzzy
-msgid "Editing disabled"
-msgstr "編輯已啟動"
-
-#: ksv_core.cpp:42
-msgid "No description available."
-msgstr "沒有可用的說明。"
-
-#: ksv_core.cpp:162
-msgid " log files"
-msgstr " 記錄檔案"
-
-#: ksv_core.cpp:170
-msgid "Saved Init Configurations"
-msgstr "已儲存啟動設定"
-
-#: ksvdraglist.cpp:339
-msgid "No."
-msgstr "不。"
-
-#: ksvdraglist.cpp:343
-msgid "Name"
-msgstr "名稱"
-
-#: ksvdraglist.cpp:355 ksvdraglist.cpp:359 ksvdraglist.cpp:362
-msgid "Drag Menu"
-msgstr "拖曳選單"
-
-#: main.cpp:66
-msgid "SysV-Init Editor"
-msgstr "Sys-V 啟動編輯器"
-
-#: main.cpp:67
-msgid "Editor for Sys-V like init configurations"
-msgstr "用於 Sys-V 類啟動設定的編輯器"
-
-#: main.cpp:69
-msgid "Copyright (c) 1997-2000, Peter Putzer."
-msgstr ""
-
-#: main.cpp:70
-msgid ""
-"Similar to Red Hat's\"tksysv\", but SysV-Init Editor allows\n"
-"drag-and-drop, as well as keyboard use."
-msgstr ""
-"與 RedHat 公司的「tksysv」相似，但 Sys-V 啟動編輯器\n"
-"允許拖放操作，同時也可以使用鍵盤。"
-
-#: main.cpp:73
-msgid "Peter Putzer"
-msgstr ""
-
-#: main.cpp:73
-msgid "Main developer"
-msgstr "主要開發者"
 
 #. i18n: file: configwizard.ui:23
 #. i18n: ectx: property, widget
@@ -1046,6 +848,204 @@ msgstr "Jing-Jong Shyue,Yuan-Chen Cheng,Walter Cheuk"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "shyue@sonoma.com.tw,ycheng@slat.org,wwycheuk@netvigator.com"
+
+#: RunlevelAuthIcon.cpp:45
+msgid "Editing disabled - please check your permissions"
+msgstr "編輯被關閉 - 請檢查您的權限"
+
+#: TopWidget.cpp:123
+msgid "Start Service"
+msgstr "啟動服務"
+
+#: TopWidget.cpp:124
+msgid "&Choose which service to start:"
+msgstr "選擇要啟動的服務(&C):"
+
+#: TopWidget.cpp:126
+msgid "Stop Service"
+msgstr "停止服務"
+
+#: TopWidget.cpp:127
+msgid "&Choose which service to stop:"
+msgstr "選擇要停止的服務(&C):"
+
+#: TopWidget.cpp:129
+msgid "Restart Service"
+msgstr "重新啟動服務"
+
+#: TopWidget.cpp:130
+msgid "&Choose which service to restart:"
+msgstr "選擇要重新啟動的服務(&C):"
+
+#: TopWidget.cpp:132
+msgid "Edit Service"
+msgstr "編輯服務"
+
+#: TopWidget.cpp:133
+msgid "&Choose which service to edit:"
+msgstr "選擇要編輯的服務(&C):"
+
+#: TopWidget.cpp:220
+msgid "Re&vert Configuration"
+msgstr "復原設定(&V)"
+
+#: TopWidget.cpp:223
+#, fuzzy
+msgid "&Open..."
+msgstr "開啟(&O)"
+
+#: TopWidget.cpp:226
+msgid "&Save Configuration"
+msgstr "儲存設定(&S)"
+
+#: TopWidget.cpp:231
+msgid "Save &Log..."
+msgstr "儲存記錄(&L)..."
+
+#: TopWidget.cpp:239
+msgid "&Print Log..."
+msgstr "列印記錄(&P)..."
+
+#: TopWidget.cpp:255
+msgid "P&roperties"
+msgstr "屬性(&R)"
+
+#: TopWidget.cpp:259
+msgid "&Open"
+msgstr "開啟(&O)"
+
+#: TopWidget.cpp:263
+msgid "Open &With"
+msgstr "以此開啟(&W)"
+
+#: TopWidget.cpp:272
+msgid "Show &Log"
+msgstr "顯示記錄(&L)"
+
+#: TopWidget.cpp:275
+msgid "Hide &Log"
+msgstr "隱藏記錄(&L)"
+
+#: TopWidget.cpp:278
+msgid "&Start Service..."
+msgstr "啟動服務(&S)..."
+
+#: TopWidget.cpp:282
+msgid "&Stop Service..."
+msgstr "停止服務(&S)..."
+
+#: TopWidget.cpp:286
+msgid "&Restart Service..."
+msgstr "重新啟動服務(&R)..."
+
+#: TopWidget.cpp:290
+msgid "&Edit Service..."
+msgstr "編輯服務(&E)..."
+
+#: TopWidget.cpp:304
+msgid "There are unsaved changes. Are you sure you want to quit?"
+msgstr "有未儲存的更改。確定要離開嗎？"
+
+#: TopWidget.cpp:305
+msgid "Quit"
+msgstr ""
+
+#: TopWidget.cpp:318
+msgid "Do you really want to revert all unsaved changes?"
+msgstr "確定要復原所有未儲存的更改嗎？"
+
+#: TopWidget.cpp:319
+msgid "Revert Configuration"
+msgstr "復原設定"
+
+#: TopWidget.cpp:320
+msgid "&Revert"
+msgstr "復原(&R)"
+
+#: TopWidget.cpp:331
+msgid ""
+"You're about to save the changes made to your init configuration. Wrong "
+"settings can make your system hang on startup.\n"
+"Do you wish to continue?"
+msgstr ""
+"你現在要儲存對啟動設定的更改。錯誤的設置可以造成你的系統無法正常啟動。\n"
+"要繼續嗎？"
+
+#: TopWidget.cpp:335
+msgid "Save Configuration"
+msgstr "儲存設定"
+
+#: TopWidget.cpp:403
+msgid ""
+"<p>Click on the checkboxes to <strong>show</strong> or <strong>hide</strong> "
+"runlevels.</p> <p>The list of currently visible runlevels is saved when you "
+"use the <strong>Save Options command</strong>.</p>"
+msgstr ""
+"<p>在方塊中點選以<strong>顯示</strong>或<strong>隱藏</strong>執行等級。</"
+"p><p>目前可見的執行等級清單會在您使用<strong>儲存選項指令</strong>時被儲存。"
+"</p>"
+
+#: TopWidget.cpp:407
+msgid "Show only the selected runlevels"
+msgstr "只顯示選擇的執行等級"
+
+#: TopWidget.cpp:409
+msgid "Show runlevels:"
+msgstr "顯示執行等級:"
+
+#: TopWidget.cpp:427
+#, fuzzy, kde-format
+msgid ""
+"<p>If the lock is closed <img src=\"user|ksysv_locked\"/>, you don't have "
+"the right <strong>permissions</strong> to edit the init configuration.</"
+"p><p>Either restart %1 as root (or another more privileged user), or ask "
+"your sysadmin to install %2 <em>suid</em> or <em>sgid</em>.</p><p>The latter "
+"way is <strong>not</strong> recommended though, due to security issues.</p>"
+msgstr ""
+"<p>如鎖定被關閉<img src=\"user|ksysv_locked\"/>，表示你沒有編輯啟動設定的正確"
+"<strong>權限</strong>。</p><p>你可以 root（或一個擁有比較多權限的使用者）重新"
+"啟動 %1 ，或要求你的系統管理者以 <em>suid</em> 或 <em>sgid</em> 安裝 %1 。</"
+"p><p>但因為保安的理由，<strong>不建議</strong>後者。</p>"
+
+#: TopWidget.cpp:571
+msgid " Changed"
+msgstr " 已改變"
+
+#: TopWidget.cpp:775
+msgid "<h1>KDE Sys-V Init Editor Log</h1>"
+msgstr "<h1>KDE Sys-V 啟動編輯器記錄</h1>"
+
+#: TopWidget.cpp:785
+#, kde-format
+msgid "<h3>Printed on %1</h3><br/><br/>"
+msgstr "<h3>已在 %1 列印</h3><br/><br/>"
+
+#: TopWidget.cpp:838
+msgid ""
+"<p>Unable to generate a valid sorting number for this position. This means "
+"that there was no number available between the two adjacent services, and "
+"the service did not fit in lexically.</p><p>Please adjust the sorting "
+"numbers manually via the <strong>Properties dialog box</strong>.</p>"
+msgstr ""
+"<p>無法為這個位置產生有效的排序編號。這表示在前後相鄰的服務中沒有可用的編號，"
+"且服務名稱無法符合名稱順序。</p><p>請使用<strong>屬性對話方塊</strong>手動調"
+"整排序編號。</p>"
+
+#: TopWidget.cpp:845
+msgid "Unable to Generate Sorting Number"
+msgstr "無法產生排序編號"
+
+#: TopWidget.cpp:849
+msgid "Unable to generate sorting number. Please change manually."
+msgstr "無法產生排序編號。請手動更改。"
+
+#: TopWidget.cpp:1063
+msgid "Configuration package saved successfully."
+msgstr "設定套件儲存成功。"
+
+#: TopWidget.cpp:1093
+msgid "Configuration package loaded successfully."
+msgstr "設定套件載入成功。"
 
 #: trash.cpp:60 trash.cpp:61
 msgid "Drag here to remove services"
