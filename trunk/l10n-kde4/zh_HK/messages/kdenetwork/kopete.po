@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-16 11:51+0200\n"
+"POT-Creation-Date: 2009-05-20 12:02+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -18574,8 +18574,8 @@ msgid "Open MS&N service status site..."
 msgstr ""
 
 #: protocols/wlm/wlmaccount.cpp:131 protocols/wlm/wlmaccount.cpp:133
-#: protocols/oscar/oscaraccount.cpp:289 protocols/oscar/oscaraccount.cpp:897
-#: protocols/oscar/oscaraccount.cpp:903
+#: protocols/oscar/oscaraccount.cpp:292 protocols/oscar/oscaraccount.cpp:888
+#: protocols/oscar/oscaraccount.cpp:894
 msgid "Buddies"
 msgstr "伙伴"
 
@@ -19307,7 +19307,7 @@ msgstr "手提電話:"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:305
 #: protocols/oscar/icq/icqprotocol.cpp:121
-#: protocols/oscar/oscaraccount.cpp:1200 protocols/yahoo/yahooprotocol.cpp:75
+#: protocols/oscar/oscaraccount.cpp:1191 protocols/yahoo/yahooprotocol.cpp:75
 msgid "ICQ"
 msgstr "ICQ"
 
@@ -19319,7 +19319,7 @@ msgstr "你要連線才能新增聯絡人。"
 
 #: protocols/oscar/aim/aimprotocol.cpp:181
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
-#: protocols/oscar/oscaraccount.cpp:1200 protocols/yahoo/yahooprotocol.cpp:74
+#: protocols/oscar/oscaraccount.cpp:1191 protocols/yahoo/yahooprotocol.cpp:74
 msgid "AIM"
 msgstr "AIM"
 
@@ -20734,7 +20734,7 @@ msgstr "允許授權(&G)"
 msgid "Set Status..."
 msgstr "設定狀態(&S)"
 
-#: protocols/oscar/icq/icqaccount.cpp:351
+#: protocols/oscar/icq/icqaccount.cpp:350
 #, fuzzy, kde-format
 msgid "User %1 is reading your status message"
 msgstr "在你的狀態訊息中顯示（自動）(&Y)"
@@ -20804,7 +20804,7 @@ msgstr "選擇編碼"
 msgid "Default"
 msgstr "預設值: 3185"
 
-#: protocols/oscar/oscaraccount.cpp:455
+#: protocols/oscar/oscaraccount.cpp:458
 #, fuzzy, kde-format
 #| msgctxt "Translators: client name and version"
 #| msgid "%1"
@@ -20812,7 +20812,7 @@ msgctxt "@action:button filter-yes"
 msgid "%1"
 msgstr "%1"
 
-#: protocols/oscar/oscaraccount.cpp:456
+#: protocols/oscar/oscaraccount.cpp:459
 #, fuzzy, kde-format
 #| msgctxt "Translators: client name and version"
 #| msgid "%1"
@@ -20820,103 +20820,103 @@ msgctxt "@action:button filter-no"
 msgid "%1"
 msgstr "%1"
 
-#: protocols/oscar/oscaraccount.cpp:457
+#: protocols/oscar/oscaraccount.cpp:460
 msgctxt "@action:button post-filter"
 msgid "."
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:460
+#: protocols/oscar/oscaraccount.cpp:463
 #, fuzzy
 msgid "Chat Room Invitation"
 msgstr "輸入邀請訊息"
 
-#: protocols/oscar/oscaraccount.cpp:625
+#: protocols/oscar/oscaraccount.cpp:628
 msgid "ICQ Web Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:627
+#: protocols/oscar/oscaraccount.cpp:630
 msgid "ICQ Email Express"
 msgstr ""
 
-#: protocols/oscar/oscaraccount.cpp:1015 protocols/oscar/oscaraccount.cpp:1032
+#: protocols/oscar/oscaraccount.cpp:1006 protocols/oscar/oscaraccount.cpp:1023
 #, kde-format
 msgctxt "account has been disconnected"
 msgid "%1 disconnected"
 msgstr "%1 已斷線"
 
-#: protocols/oscar/oscaraccount.cpp:1056
+#: protocols/oscar/oscaraccount.cpp:1047
 msgid ""
 "There was an error in the protocol handling; it was not fatal, so you will "
 "not be disconnected."
 msgstr "處理通訊協定時發生錯誤；但它不會令你斷線。"
 
-#: protocols/oscar/oscaraccount.cpp:1058
+#: protocols/oscar/oscaraccount.cpp:1049
 msgid ""
 "There was an error in the protocol handling; automatic reconnection "
 "occurring."
 msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
-#: protocols/oscar/oscaraccount.cpp:1060
+#: protocols/oscar/oscaraccount.cpp:1051
 msgid "OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
-#: protocols/oscar/oscaraccount.cpp:1201
+#: protocols/oscar/oscaraccount.cpp:1192
 msgctxt "ICQ user id"
 msgid "UIN"
 msgstr "UIN"
 
-#: protocols/oscar/oscaraccount.cpp:1201
+#: protocols/oscar/oscaraccount.cpp:1192
 msgctxt "AIM user id"
 msgid "screen name"
 msgstr "螢幕名稱"
 
-#: protocols/oscar/oscaraccount.cpp:1211
+#: protocols/oscar/oscaraccount.cpp:1202
 #, kde-format
 msgid ""
 "You have logged in more than once with the same %1, account %2 is now "
 "disconnected."
 msgstr "你以同一 %1 登入超過一次，帳號 %2 現已中斷連線。"
 
-#: protocols/oscar/oscaraccount.cpp:1217
+#: protocols/oscar/oscaraccount.cpp:1208
 #, kde-format
 msgid ""
 "Sign on failed because either your %1 or password are invalid. Please check "
 "your settings for account %2."
 msgstr "因為你的 %1 或密碼無效，登入失敗。請檢查你 %2 帳號的設置。"
 
-#: protocols/oscar/oscaraccount.cpp:1225
+#: protocols/oscar/oscaraccount.cpp:1216
 #, kde-format
 msgid "The %1 service is temporarily unavailable. Please try again later."
 msgstr "%1 服務暫時停止。請稍後再試。"
 
-#: protocols/oscar/oscaraccount.cpp:1230
+#: protocols/oscar/oscaraccount.cpp:1221
 #, kde-format
 msgid ""
 "Could not sign on to %1 with account %2 because the password was incorrect."
 msgstr "無法以 %2 帳號登入 %1 ，因為密碼不正確。"
 
-#: protocols/oscar/oscaraccount.cpp:1235
+#: protocols/oscar/oscaraccount.cpp:1226
 #, kde-format
 msgid "Could not sign on to %1 with nonexistent account %2."
 msgstr "無法以不存在的 %2 帳號登入 %1 。"
 
-#: protocols/oscar/oscaraccount.cpp:1239
+#: protocols/oscar/oscaraccount.cpp:1230
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 expired."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已逾期。"
 
-#: protocols/oscar/oscaraccount.cpp:1243
+#: protocols/oscar/oscaraccount.cpp:1234
 #, kde-format
 msgid "Sign on to %1 failed because your account %2 is currently suspended."
 msgstr "無法登入 %1 ，因為你的 %2 帳號已被暫停。"
 
-#: protocols/oscar/oscaraccount.cpp:1249
+#: protocols/oscar/oscaraccount.cpp:1240
 #, kde-format
 msgid ""
 "Could not sign on to %1 as there are too many clients from the same computer."
 msgstr "無法登入 %1 ，因為已有太多客戶端來自這電腦。"
 
-#: protocols/oscar/oscaraccount.cpp:1255
+#: protocols/oscar/oscaraccount.cpp:1246
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for sending messages too quickly. "
@@ -20926,7 +20926,7 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為傳送訊息過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1264
+#: protocols/oscar/oscaraccount.cpp:1255
 #, kde-format
 msgid ""
 "Account %1 was blocked on the %2 server for reconnecting too quickly. Wait "
@@ -20936,12 +20936,12 @@ msgstr ""
 "在 %2 伺服器上的 %1 帳號因為重新連接過快而被封鎖。請待十分鐘後重試。如你現在"
 "還繼續嘗試，你可能要等待更長時間。"
 
-#: protocols/oscar/oscaraccount.cpp:1276 protocols/oscar/oscaraccount.cpp:1296
+#: protocols/oscar/oscaraccount.cpp:1267 protocols/oscar/oscaraccount.cpp:1287
 #, kde-format
 msgid "Sign on to %1 with your account %2 failed."
 msgstr "以帳號 %2 登入 %1 失敗。"
 
-#: protocols/oscar/oscaraccount.cpp:1283
+#: protocols/oscar/oscaraccount.cpp:1274
 #, kde-format
 msgid ""
 "The %1 server thinks the client you are using is too old. Please report this "
@@ -20949,7 +20949,7 @@ msgid ""
 msgstr ""
 "%1 伺服器認為你正在使用的客戶端太舊。請回報此問題至 http://bugs.kde.org"
 
-#: protocols/oscar/oscaraccount.cpp:1289
+#: protocols/oscar/oscaraccount.cpp:1280
 #, fuzzy, kde-format
 #| msgid ""
 #| "Account %1 was disabled on the %2 server because of your age (less than "
