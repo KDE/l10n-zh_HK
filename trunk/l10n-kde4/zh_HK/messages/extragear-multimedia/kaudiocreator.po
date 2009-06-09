@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-22 11:25+0200\n"
+"POT-Creation-Date: 2009-06-09 11:40+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -70,7 +70,7 @@ msgstr "工作已經開始"
 msgid "The default encoder has to accept wav as input."
 msgstr ""
 
-#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:193 encoderconfigimp.cpp:234
 msgid "Not Allowed"
 msgstr ""
 
@@ -80,11 +80,11 @@ msgstr ""
 msgid "Add Encoder"
 msgstr "編碼器"
 
-#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:188 encoderconfigimp.cpp:229
 msgid "Please select an encoder."
 msgstr "請選擇編碼器。"
 
-#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:188 encoderconfigimp.cpp:229
 #: encoder.cpp:74
 msgid "No Encoder Selected"
 msgstr "未有選擇編碼器"
@@ -95,29 +95,29 @@ msgstr "未有選擇編碼器"
 msgid "Copy Encoder"
 msgstr "編碼器"
 
-#: encoderconfigimp.cpp:194
+#: encoderconfigimp.cpp:193
 msgid "WAV is not allowed to be removed."
 msgstr ""
 
-#: encoderconfigimp.cpp:198
+#: encoderconfigimp.cpp:197
 msgid "Delete encoder?"
 msgstr "要刪除編碼器嗎？"
 
-#: encoderconfigimp.cpp:198
+#: encoderconfigimp.cpp:197
 msgid "Delete Encoder"
 msgstr "刪除編碼器"
 
-#: encoderconfigimp.cpp:235
+#: encoderconfigimp.cpp:234
 msgid ""
 "WAV is not allowed to be changed.\n"
 "You can copy it to adjust it to your needs."
 msgstr ""
 
-#: encoderconfigimp.cpp:250
+#: encoderconfigimp.cpp:249
 msgid "Configure Encoder"
 msgstr "設定編碼器"
 
-#: encoderconfigimp.cpp:384 kaudiocreator.cpp:400
+#: encoderconfigimp.cpp:383 kaudiocreator.cpp:391
 msgid "Encoder Configuration"
 msgstr "編碼器設定"
 
@@ -210,7 +210,7 @@ msgstr "保留"
 
 #. i18n: file: jobque.ui:28
 #. i18n: ectx: property (text), widget (QLabel, queLabel)
-#: jobqueimp.cpp:198 jobqueimp.cpp:257 rc.cpp:339
+#: jobqueimp.cpp:198 jobqueimp.cpp:257 rc.cpp:357
 msgid "No jobs are in the queue"
 msgstr "佇列中沒有工作"
 
@@ -236,7 +236,7 @@ msgstr "設定 KAudio&Creator..."
 
 #. i18n: file: tracks.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, selectAllTracksButton)
-#: kaudiocreator.cpp:111 rc.cpp:481
+#: kaudiocreator.cpp:111 rc.cpp:499
 msgid "Select &All Tracks"
 msgstr "選擇所有音軌(&A)"
 
@@ -244,7 +244,13 @@ msgstr "選擇所有音軌(&A)"
 msgid "Deselect &All Tracks"
 msgstr "取消選擇所有音軌(&A)"
 
-#: kaudiocreator.cpp:123 kaudiocreator.cpp:133
+#: kaudiocreator.cpp:123
+#, fuzzy
+#| msgid "Rip"
+msgid "&Rip"
+msgstr "擷取"
+
+#: kaudiocreator.cpp:133
 msgid "Rip &Selection"
 msgstr "擷取選擇的音軌(&S)"
 
@@ -276,97 +282,97 @@ msgstr "進行 &CDDB 查詢"
 msgid "Searching"
 msgstr ""
 
-#: kaudiocreator.cpp:205 kaudiocreator.cpp:238
+#: kaudiocreator.cpp:205 kaudiocreator.cpp:241
 msgid "WAV"
 msgstr ""
 
-#: kaudiocreator.cpp:212
+#: kaudiocreator.cpp:213
 msgid "Ogg Default"
 msgstr ""
 
-#: kaudiocreator.cpp:219
+#: kaudiocreator.cpp:221
 msgid "MP3 Lame Standard"
 msgstr ""
 
-#: kaudiocreator.cpp:226
+#: kaudiocreator.cpp:229
 #, fuzzy
 #| msgid "FLAC"
 msgid "FLAC Best"
 msgstr "FLAC"
 
-#: kaudiocreator.cpp:290
+#: kaudiocreator.cpp:281
 msgid "CD Inserted"
 msgstr "已插入 CD"
 
-#: kaudiocreator.cpp:292
+#: kaudiocreator.cpp:283
 msgid "No Audio CD detected"
 msgstr "偵測不到音樂 CD"
 
-#: kaudiocreator.cpp:299
+#: kaudiocreator.cpp:290
 #, fuzzy, kde-format
 #| msgid "Delete encoder?"
 msgid "Default encoder: %1"
 msgstr "要刪除編碼器嗎？"
 
-#: kaudiocreator.cpp:304
+#: kaudiocreator.cpp:295
 msgid "Idle."
 msgstr "閒置。"
 
-#: kaudiocreator.cpp:313
+#: kaudiocreator.cpp:304
 #, kde-format
 msgid "Ripping (%1 active, %2 queued)"
 msgstr "正在擷取 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:317
+#: kaudiocreator.cpp:308
 #, kde-format
 msgid "Encoding (%1 active, %2 queued)"
 msgstr "正在編碼 (%1 個進行中， %2 已排程)"
 
-#: kaudiocreator.cpp:335
+#: kaudiocreator.cpp:326
 msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
 msgstr "在佇列中尚有未完成的工作。真的要離開嗎？"
 
-#: kaudiocreator.cpp:335
+#: kaudiocreator.cpp:326
 msgid "Unfinished Jobs in Queue"
 msgstr "佇列中未完成的工作"
 
 #. i18n: file: general.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
-#: kaudiocreator.cpp:377 rc.cpp:220
+#: kaudiocreator.cpp:368 rc.cpp:238
 msgid "General"
 msgstr "一般"
 
-#: kaudiocreator.cpp:378
+#: kaudiocreator.cpp:369
 msgid "General Configuration"
 msgstr "一般設定"
 
-#: kaudiocreator.cpp:380
+#: kaudiocreator.cpp:371
 msgid "CD"
 msgstr "CD"
 
-#: kaudiocreator.cpp:381
+#: kaudiocreator.cpp:372
 msgid "CD Configuration"
 msgstr "CD 設定"
 
-#: kaudiocreator.cpp:391
+#: kaudiocreator.cpp:382
 msgid "CDDB"
 msgstr "CDDB"
 
-#: kaudiocreator.cpp:391
+#: kaudiocreator.cpp:382
 msgid "CDDB Configuration"
 msgstr "CDDB 設定"
 
-#: kaudiocreator.cpp:397
+#: kaudiocreator.cpp:388
 msgid "Ripper"
 msgstr "擷取器"
 
-#: kaudiocreator.cpp:397
+#: kaudiocreator.cpp:388
 msgid "Ripper Configuration"
 msgstr "擷取器設定"
 
 #. i18n: file: encodefile.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#: kaudiocreator.cpp:400 rc.cpp:33
+#: kaudiocreator.cpp:391 rc.cpp:33
 msgid "Encoder"
 msgstr "編碼器"
 
@@ -418,7 +424,7 @@ msgstr "標題"
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
 #. i18n: file: tracks.ui:123
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
-#: rc.cpp:12 rc.cpp:478
+#: rc.cpp:12 rc.cpp:496
 msgid "Title"
 msgstr "標題"
 
@@ -434,7 +440,7 @@ msgstr "藝人:"
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
 #. i18n: file: infodialog.ui:91
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:18 rc.cpp:309
+#: rc.cpp:18 rc.cpp:327
 msgid "Album"
 msgstr "專輯"
 
@@ -458,7 +464,7 @@ msgstr "風格:"
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
 #. i18n: file: tracks.ui:113
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
-#: rc.cpp:27 rc.cpp:472
+#: rc.cpp:27 rc.cpp:490
 msgid "Track"
 msgstr "音軌"
 
@@ -516,7 +522,7 @@ msgstr "選擇所有音軌(&A)"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #. i18n: file: tracks.ui:171
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:51 rc.cpp:306 rc.cpp:312 rc.cpp:490
+#: rc.cpp:51 rc.cpp:324 rc.cpp:330 rc.cpp:508
 msgid "Artist:"
 msgstr "藝人:"
 
@@ -550,7 +556,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
 #. i18n: file: tracks.ui:191
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:60 rc.cpp:315 rc.cpp:496
+#: rc.cpp:60 rc.cpp:333 rc.cpp:514
 msgid "Album:"
 msgstr "專輯:"
 
@@ -566,7 +572,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: infodialog.ui:168
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:69 rc.cpp:300 rc.cpp:324
+#: rc.cpp:69 rc.cpp:318 rc.cpp:342
 msgid "Comment:"
 msgstr "註解:"
 
@@ -582,7 +588,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #. i18n: file: tracks.ui:201
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:78 rc.cpp:321 rc.cpp:499
+#: rc.cpp:78 rc.cpp:339 rc.cpp:517
 msgid "Genre:"
 msgstr "風格:"
 
@@ -612,7 +618,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7)
 #. i18n: file: tracks.ui:181
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:99 rc.cpp:318 rc.cpp:493
+#: rc.cpp:99 rc.cpp:336 rc.cpp:511
 msgid "Year:"
 msgstr "年份:"
 
@@ -787,63 +793,89 @@ msgid "Command line:"
 msgstr "指令列:"
 
 #. i18n: file: encoderedit.ui:55
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_commandLine)
+#. i18n: file: encoderedit.ui:58
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_commandLine)
+#. i18n: file: encoderedit.ui:81
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_extension)
+#: rc.cpp:189 rc.cpp:192 rc.cpp:205
+#, fuzzy
+#| msgid "Command line to invoke encoder"
+msgid "The commandline for the encoder."
+msgstr "叫出編碼器的指令列"
+
+#. i18n: file: encoderedit.ui:61
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_commandLine)
-#: rc.cpp:190
+#: rc.cpp:196
 #, no-c-format
 msgid "app.exe %f %o"
 msgstr "app.exe %f %o"
 
-#. i18n: file: encoderedit.ui:62
+#. i18n: file: encoderedit.ui:68
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:193
+#: rc.cpp:199
 msgid "Extension:"
 msgstr "延伸檔名:"
 
-#. i18n: file: encoderedit.ui:72
+#. i18n: file: encoderedit.ui:78
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extension)
+#: rc.cpp:202
+msgid "The extension for output files."
+msgstr ""
+
+#. i18n: file: encoderedit.ui:84
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_extension)
-#: rc.cpp:196
+#: rc.cpp:208
 msgid "ext"
 msgstr ""
 
-#. i18n: file: encoderedit.ui:79
+#. i18n: file: encoderedit.ui:91
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:199
+#: rc.cpp:211
 #, fuzzy
 #| msgid "Input:"
 msgid "Input types:"
 msgstr "輸入:"
 
-#. i18n: file: encoderedit.ui:89
+#. i18n: file: encoderedit.ui:98
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_inputTypes)
+#. i18n: file: encoderedit.ui:101
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_inputTypes)
+#: rc.cpp:214 rc.cpp:217
+msgid "A comma separated list of supported input types."
+msgstr ""
+
+#. i18n: file: encoderedit.ui:108
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:202
+#: rc.cpp:220
 msgid "Percent length"
 msgstr ""
 
-#. i18n: file: encoderedit.ui:116
+#. i18n: file: encoderedit.ui:135
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkOutput)
-#: rc.cpp:205
+#: rc.cpp:223
 msgid "Check if output files should be checked for existence."
 msgstr ""
 
-#. i18n: file: encoderedit.ui:119
+#. i18n: file: encoderedit.ui:138
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_checkOutput)
-#: rc.cpp:208
+#: rc.cpp:226
 msgid ""
 "Check if output files should be checked for existence, if the files are "
 "placed by the encoder itself, not kaudiocreator leave this unchecked."
 msgstr ""
 
-#. i18n: file: encoderedit.ui:122
+#. i18n: file: encoderedit.ui:141
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkOutput)
 #. i18n: file: kaudiocreator_encoders.kcfg:32
 #. i18n: ectx: label, entry (checkOutput), group ($(encoder))
-#: rc.cpp:211 rc.cpp:373
+#: rc.cpp:229 rc.cpp:391
 msgid "Check output files"
 msgstr ""
 
 #. i18n: file: encoderoutput.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, EncoderOutput)
-#: rc.cpp:214
+#: rc.cpp:232
 msgid "Encoder Output"
 msgstr "編碼器輸出"
 
@@ -853,13 +885,13 @@ msgstr "編碼器輸出"
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #. i18n: file: wizard.ui:270
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:217 rc.cpp:333 rc.cpp:555
+#: rc.cpp:235 rc.cpp:351 rc.cpp:573
 msgid "&OK"
 msgstr ""
 
 #. i18n: file: general.ui:19
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeCompletedJobs)
-#: rc.cpp:223
+#: rc.cpp:241
 msgid "&Automatically remove jobs when finished"
 msgstr "完成後自動移除工作(&A)"
 
@@ -867,19 +899,19 @@ msgstr "完成後自動移除工作(&A)"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptIfIncompleteInfo)
 #. i18n: file: kaudiocreator.kcfg:22
 #. i18n: ectx: label, entry (promptIfIncompleteInfo), group (CD)
-#: rc.cpp:226 rc.cpp:385
+#: rc.cpp:244 rc.cpp:403
 msgid "Prompt if information is not complete"
 msgstr "資訊不完整提示"
 
 #. i18n: file: general.ui:33
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:229
+#: rc.cpp:247
 msgid "File Regular Expression Replacement"
 msgstr "檔案正規式替代"
 
 #. i18n: file: general.ui:40
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:232
+#: rc.cpp:250
 msgid ""
 "Regular expression used on all file names. For example using selection \" \" "
 "and replace with \"_\" would replace all the spaces with underlines.\n"
@@ -889,25 +921,25 @@ msgstr ""
 
 #. i18n: file: general.ui:55
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:236
+#: rc.cpp:254
 msgid "Selection:"
 msgstr "選擇:"
 
 #. i18n: file: general.ui:68
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:239
+#: rc.cpp:257
 msgid "Replace with:"
 msgstr "以此取代:"
 
 #. i18n: file: general.ui:86
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:242
+#: rc.cpp:260
 msgid "Example"
 msgstr "範例"
 
 #. i18n: file: general.ui:92
 #. i18n: ectx: property (text), widget (QLabel, inputlabel)
-#: rc.cpp:245
+#: rc.cpp:263
 msgid "Input:"
 msgstr "輸入:"
 
@@ -915,25 +947,25 @@ msgstr "輸入:"
 #. i18n: ectx: property (text), widget (QLineEdit, example)
 #. i18n: file: general.ui:119
 #. i18n: ectx: property (text), widget (QLabel, exampleOutput)
-#: rc.cpp:248 rc.cpp:254
+#: rc.cpp:266 rc.cpp:272
 msgid "Cool artist - example audio file.wav"
 msgstr ""
 
 #. i18n: file: general.ui:109
 #. i18n: ectx: property (text), widget (QLabel, outputLabel)
-#: rc.cpp:251
+#: rc.cpp:269
 msgid "Output:"
 msgstr "輸出:"
 
 #. i18n: file: general.ui:132
 #. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_fat32compatible)
-#: rc.cpp:257
+#: rc.cpp:275
 msgid "Check if you want FAT32-incompatible characters to be replaced."
 msgstr ""
 
 #. i18n: file: general.ui:135
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_fat32compatible)
-#: rc.cpp:261
+#: rc.cpp:279
 #, no-c-format
 msgid ""
 "Check if you want FAT32-incompatible characters to be replaced. Of course "
@@ -943,13 +975,13 @@ msgstr ""
 
 #. i18n: file: general.ui:138
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_fat32compatible)
-#: rc.cpp:264
+#: rc.cpp:282
 msgid "Use FAT32-compatible Filenames"
 msgstr ""
 
 #. i18n: file: general.ui:149
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:267
+#: rc.cpp:285
 msgid "Replace incompatible characters with:"
 msgstr ""
 
@@ -957,73 +989,73 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_replaceFatIncompatible)
 #. i18n: file: general.ui:159
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_replaceFatIncompatible)
-#: rc.cpp:270 rc.cpp:273
+#: rc.cpp:288 rc.cpp:291
 msgid "Replace FAT32-incompatible characters with that text."
 msgstr ""
 
 #. i18n: file: general.ui:171
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_seperateMultiArtist)
-#: rc.cpp:276
+#: rc.cpp:294
 msgid "Automatically Separate Multi-Artist CDDB Entries"
 msgstr "自動分開多藝人的 CDDB 項目"
 
 #. i18n: file: general.ui:183
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
-#: rc.cpp:279
+#: rc.cpp:297
 msgid "Format"
 msgstr "格式"
 
 #. i18n: file: general.ui:189
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_format_titleArtist)
-#: rc.cpp:282
+#: rc.cpp:300
 msgid "Title - Artist"
 msgstr "標題 - 藝人"
 
 #. i18n: file: general.ui:196
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_format_artistTitle)
-#: rc.cpp:285
+#: rc.cpp:303
 msgid "Artist - Title"
 msgstr "藝人 - 標題"
 
 #. i18n: file: general.ui:214
 #. i18n: ectx: property (text), widget (QLabel, delimiterLabel)
-#: rc.cpp:288
+#: rc.cpp:306
 msgid "Delimiter:"
 msgstr "分隔字元:"
 
 #. i18n: file: general.ui:224
 #. i18n: ectx: property (text), widget (QLabel, genArtistLabel)
-#: rc.cpp:291
+#: rc.cpp:309
 msgid "Generic artist:"
 msgstr "一般藝人:"
 
 #. i18n: file: infodialog.ui:16
 #. i18n: ectx: property (windowTitle), widget (QDialog, AlbumEditor)
-#: rc.cpp:294
+#: rc.cpp:312
 msgid "Album Editor"
 msgstr "專輯編輯器"
 
 #. i18n: file: infodialog.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:297
+#: rc.cpp:315
 msgid "Current Track"
 msgstr "當前音軌"
 
 #. i18n: file: infodialog.ui:56
 #. i18n: ectx: property (text), widget (QLabel, trackLabel)
-#: rc.cpp:303
+#: rc.cpp:321
 msgid "Title:"
 msgstr "標題:"
 
 #. i18n: file: infodialog.ui:208
 #. i18n: ectx: property (text), widget (QPushButton, buttonPrevious)
-#: rc.cpp:327
+#: rc.cpp:345
 msgid "&Previous Track"
 msgstr "前一音軌(&P)"
 
 #. i18n: file: infodialog.ui:215
 #. i18n: ectx: property (text), widget (QPushButton, buttonNext)
-#: rc.cpp:330
+#: rc.cpp:348
 msgid "&Next Track"
 msgstr "下一音軌(&N)"
 
@@ -1031,85 +1063,85 @@ msgstr "下一音軌(&N)"
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: file: wizard.ui:283
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:336 rc.cpp:558
+#: rc.cpp:354 rc.cpp:576
 msgid "&Cancel"
 msgstr ""
 
 #. i18n: file: jobque.ui:54
 #. i18n: ectx: property (text), widget (QTreeWidget, todoQue)
-#: rc.cpp:342
+#: rc.cpp:360
 msgid "Job"
 msgstr "工作"
 
 #. i18n: file: jobque.ui:59
 #. i18n: ectx: property (text), widget (QTreeWidget, todoQue)
-#: rc.cpp:345
+#: rc.cpp:363
 msgid "Progress"
 msgstr "進度"
 
 #. i18n: file: jobque.ui:64
 #. i18n: ectx: property (text), widget (QTreeWidget, todoQue)
-#: rc.cpp:348
+#: rc.cpp:366
 msgid "Description"
 msgstr "說明"
 
 #. i18n: file: jobque.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, removeDoneJobs)
-#: rc.cpp:351
+#: rc.cpp:369
 msgid "Remove Completed Jobs"
 msgstr "移除已完成的工作"
 
 #. i18n: file: jobque.ui:97
 #. i18n: ectx: property (text), widget (QPushButton, removeAll)
-#: rc.cpp:354
+#: rc.cpp:372
 msgid "Remove All Jobs"
 msgstr "移除所有工作"
 
 #. i18n: file: jobque.ui:104
 #. i18n: ectx: property (text), widget (QPushButton, removeSelected)
-#: rc.cpp:357
+#: rc.cpp:375
 msgid "Remove Selected Jobs"
 msgstr "移除選擇的工作"
 
 #. i18n: file: kaudiocreator_encoders.kcfg:12
 #. i18n: ectx: label, entry (encoderName), group ($(encoder))
-#: rc.cpp:360
+#: rc.cpp:378
 msgid "Name of the encoder"
 msgstr "編碼器名稱"
 
 #. i18n: file: kaudiocreator_encoders.kcfg:16
 #. i18n: ectx: label, entry (commandLine), group ($(encoder))
-#: rc.cpp:363
+#: rc.cpp:381
 msgid "Command line to invoke encoder"
 msgstr "叫出編碼器的指令列"
 
 #. i18n: file: kaudiocreator_encoders.kcfg:20
 #. i18n: ectx: label, entry (extension), group ($(encoder))
-#: rc.cpp:366
+#: rc.cpp:384
 msgid "File extension"
 msgstr "檔案延伸檔名"
 
 #. i18n: file: kaudiocreator_encoders.kcfg:24
 #. i18n: ectx: label, entry (inputTypes), group ($(encoder))
-#: rc.cpp:369
+#: rc.cpp:387
 msgid "Input Types"
 msgstr ""
 
 #. i18n: file: kaudiocreator.kcfg:10
 #. i18n: ectx: label, entry (performCDDBauto), group (CD)
-#: rc.cpp:376
+#: rc.cpp:394
 msgid "Perform automatic CDDB lookups."
 msgstr "進行自動的 CDDB 查詢。"
 
 #. i18n: file: kaudiocreator.kcfg:14
 #. i18n: ectx: label, entry (autoRip), group (CD)
-#: rc.cpp:379
+#: rc.cpp:397
 msgid "Automatically rip all tracks upon a successful CDDB retrieval"
 msgstr "取得 CDDB 資訊後自動擷取所有音軌"
 
 #. i18n: file: kaudiocreator.kcfg:18
 #. i18n: ectx: label, entry (lastUsedDevice), group (CD)
-#: rc.cpp:382
+#: rc.cpp:400
 #, fuzzy
 #| msgid "CD device"
 msgid "Last used CD device"
@@ -1117,25 +1149,25 @@ msgstr "CD 裝置"
 
 #. i18n: file: kaudiocreator.kcfg:28
 #. i18n: ectx: label, entry (removeCompletedJobs), group (General)
-#: rc.cpp:388
+#: rc.cpp:406
 msgid "Automatically remove jobs when finished"
 msgstr "完成後自動移除工作"
 
 #. i18n: file: kaudiocreator.kcfg:32
 #. i18n: ectx: label, entry (replaceInput), group (General)
-#: rc.cpp:391
+#: rc.cpp:409
 msgid "Regexp to match file names with"
 msgstr "用於配對檔案名稱的正規表示式（Regexp）:"
 
 #. i18n: file: kaudiocreator.kcfg:35
 #. i18n: ectx: label, entry (replaceOutput), group (General)
-#: rc.cpp:394
+#: rc.cpp:412
 msgid "String used to replace the parts that match the selection regexp"
 msgstr "用來替代符合選擇正規表示式部份的字串"
 
 #. i18n: file: kaudiocreator.kcfg:61
 #. i18n: ectx: label, entry (defaultEncoder), group (Encoder)
-#: rc.cpp:397
+#: rc.cpp:415
 #, fuzzy
 #| msgid "Current encoder:"
 msgid "Current default encoder"
@@ -1143,109 +1175,109 @@ msgstr "當前編碼器:"
 
 #. i18n: file: kaudiocreator.kcfg:65
 #. i18n: ectx: label, entry (inputTypesList), group (Encoder)
-#: rc.cpp:400
+#: rc.cpp:418
 msgid "List of available input types"
 msgstr ""
 
 #. i18n: file: kaudiocreator.kcfg:68
 #. i18n: ectx: label, entry (numberOfCpus), group (Encoder)
-#: rc.cpp:403
+#: rc.cpp:421
 msgid "Number of files to encode at a time"
 msgstr "同一時間編碼的 wav 檔案數目"
 
 #. i18n: file: kaudiocreator.kcfg:72
 #. i18n: ectx: label, entry (fileFormat), group (Encoder)
-#: rc.cpp:406
+#: rc.cpp:424
 msgid "Location pattern for encoded files"
 msgstr "編碼檔案的位置樣式"
 
 #. i18n: file: kaudiocreator.kcfg:76
 #. i18n: ectx: label, entry (NiceLevel), group (Encoder)
-#: rc.cpp:409
+#: rc.cpp:427
 msgid "Encoder priority"
 msgstr "編碼器優先權"
 
 #. i18n: file: kaudiocreator.kcfg:82
 #. i18n: ectx: label, entry (FullDecoderDebug), group (Encoder)
-#: rc.cpp:412
+#: rc.cpp:430
 msgid "Enable full decoder debugging"
 msgstr "啟用完整解碼器偵錯"
 
 #. i18n: file: kaudiocreator.kcfg:88
 #. i18n: ectx: label, entry (maxWavFiles), group (Ripper)
-#: rc.cpp:415
+#: rc.cpp:433
 msgid "Number of tracks to rip at a time"
 msgstr "同一時間擷取音軌的數目"
 
 #. i18n: file: kaudiocreator.kcfg:92
 #. i18n: ectx: label, entry (beepAfterRip), group (Ripper)
-#: rc.cpp:418
+#: rc.cpp:436
 msgid "Beep after rip"
 msgstr "擷取後發出「嗶」聲"
 
 #. i18n: file: kaudiocreator.kcfg:96
 #. i18n: ectx: label, entry (autoEjectAfterRip), group (Ripper)
-#: rc.cpp:421
+#: rc.cpp:439
 msgid "Eject CD after last track is ripped"
 msgstr "完成擷取後退出 CD"
 
 #. i18n: file: kaudiocreator.kcfg:100
 #. i18n: ectx: label, entry (autoEjectDelay), group (Ripper)
-#: rc.cpp:424
+#: rc.cpp:442
 msgid "Auto-eject delay"
 msgstr "自動退出延遲"
 
 #. i18n: file: kaudiocreator.kcfg:104
 #. i18n: ectx: label, entry (enableTempDir), group (Ripper)
-#: rc.cpp:427
+#: rc.cpp:445
 msgid "Specify temporary directory"
 msgstr "指定暫存目錄"
 
 #. i18n: file: kaudiocreator.kcfg:108
 #. i18n: ectx: label, entry (tempDir), group (Ripper)
-#: rc.cpp:430
+#: rc.cpp:448
 msgid "Location of temporary directory to use"
 msgstr "要使用的暫存目錄位置"
 
-#. i18n: file: kaudiocreatorui.rc:16
+#. i18n: file: kaudiocreatorui.rc:18
 #. i18n: ectx: Menu (file)
-#: rc.cpp:433
+#: rc.cpp:451
 msgid "&Program"
 msgstr "程式(&P)"
 
 #. i18n: file: ripconfig.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_beepAfterRip)
-#: rc.cpp:436
+#: rc.cpp:454
 msgid "&Beep after each rip is done"
 msgstr "每次擷取完畢後發出「嗶」聲(&B)"
 
 #. i18n: file: ripconfig.ui:40
 #. i18n: ectx: property (text), widget (QLabel, TextLabel14)
-#: rc.cpp:439
+#: rc.cpp:457
 msgid "&Number of tracks to rip at a time:"
 msgstr "同一時間擷取的音軌數目(&N):"
 
 #. i18n: file: ripconfig.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoEjectAfterRip)
-#: rc.cpp:442
+#: rc.cpp:460
 msgid "&Auto-eject CD after last track is ripped"
 msgstr "擷取完成後自動退出 CD (&A)"
 
 #. i18n: file: ripconfig.ui:92
 #. i18n: ectx: property (text), widget (QLabel, autoEjectLabel)
-#: rc.cpp:445
+#: rc.cpp:463
 msgid "Auto-&eject delay:"
 msgstr "自動退出延遲(&E):"
 
 #. i18n: file: ripconfig.ui:108
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoEjectDelay)
-#: rc.cpp:448
+#: rc.cpp:466
 msgid " seconds"
 msgstr " 秒"
 
 #. i18n: file: ripconfig.ui:120
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableTempDir)
-#: rc.cpp:451
+#: rc.cpp:469
 #, fuzzy
 #| msgid "Default Temporary Directory"
 msgid "Use custom temporary directory"
@@ -1253,7 +1285,7 @@ msgstr "預設暫存目錄"
 
 #. i18n: file: ripconfig.ui:132
 #. i18n: ectx: property (text), widget (QLabel, temporaryDirectoryLabel)
-#: rc.cpp:454
+#: rc.cpp:472
 #, fuzzy
 #| msgid "Specify temporary directory"
 msgid "Temporary directory:"
@@ -1261,61 +1293,61 @@ msgstr "指定暫存目錄"
 
 #. i18n: file: tracks.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, Tracks)
-#: rc.cpp:457
+#: rc.cpp:475
 msgid "Tracks"
 msgstr "音軌"
 
 #. i18n: file: tracks.ui:27
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:460
+#: rc.cpp:478
 msgid "Device:"
 msgstr "裝置:"
 
 #. i18n: file: tracks.ui:47
 #. i18n: ectx: property (text), item, widget (KComboBox, deviceCombo)
-#: rc.cpp:463
+#: rc.cpp:481
 msgid "/dev/cdrom"
 msgstr "/dev/cdrom"
 
 #. i18n: file: tracks.ui:79
 #. i18n: ectx: property (text), widget (QLabel, albumInfoLabel)
-#: rc.cpp:466
+#: rc.cpp:484
 msgid "Unknown Artist - Unknown Album"
 msgstr "不明的藝人 - 不明的專輯"
 
 #. i18n: file: tracks.ui:108
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
-#: rc.cpp:469 tracksimp.cpp:408
+#: rc.cpp:487 tracksimp.cpp:408
 msgid "Rip"
 msgstr "擷取"
 
 #. i18n: file: tracks.ui:118
 #. i18n: ectx: property (text), widget (QTreeWidget, trackListing)
-#: rc.cpp:475
+#: rc.cpp:493
 msgid "Length"
 msgstr "長度"
 
 #. i18n: file: tracks.ui:156
 #. i18n: ectx: property (text), widget (QPushButton, deselectAllTracksButton)
-#: rc.cpp:484
+#: rc.cpp:502
 msgid "&Deselect All Tracks"
 msgstr "取消選擇所有音軌(&D)"
 
 #. i18n: file: tracks.ui:165
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:487
+#: rc.cpp:505
 msgid "Album properties"
 msgstr ""
 
 #. i18n: file: wizard.ui:19
 #. i18n: ectx: property (windowTitle), widget (QDialog, fileWizard)
-#: rc.cpp:502
+#: rc.cpp:520
 msgid "File Location Wizard"
 msgstr "檔案位置精靈"
 
 #. i18n: file: wizard.ui:46
 #. i18n: ectx: property (text), widget (QLabel, TextLabel8)
-#: rc.cpp:506
+#: rc.cpp:524
 #, fuzzy, no-c-format
 #| msgid ""
 #| "When files have finished being processed, they are saved based upon the "
@@ -1341,103 +1373,103 @@ msgstr ""
 
 #. i18n: file: wizard.ui:95
 #. i18n: ectx: property (text), widget (QLabel, TextLabel9)
-#: rc.cpp:509
+#: rc.cpp:527
 msgid "&File location:"
 msgstr "檔案位置(&F):"
 
 #. i18n: file: wizard.ui:108
 #. i18n: ectx: property (text), widget (QLineEdit, fileFormat)
-#: rc.cpp:513
+#: rc.cpp:531
 #, no-c-format
 msgid "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
 msgstr "~/%{延伸檔名}/%{藝人}/%{專輯}/%{藝人} - %{專輯}.m3u"
 
 #. i18n: file: wizard.ui:117
 #. i18n: ectx: property (text), widget (QLabel, exampleLabel)
-#: rc.cpp:516
+#: rc.cpp:534
 msgid "Example: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 msgstr "範例: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
 
 #. i18n: file: wizard.ui:141
 #. i18n: ectx: property (text), widget (QPushButton, artistButton)
-#: rc.cpp:519
+#: rc.cpp:537
 msgid "&Artist"
 msgstr "藝人(&A)"
 
 #. i18n: file: wizard.ui:148
 #. i18n: ectx: property (text), widget (QPushButton, homeDirButton)
-#: rc.cpp:522
+#: rc.cpp:540
 msgid "&Home Folder"
 msgstr "家資料夾(&H)"
 
 #. i18n: file: wizard.ui:155
 #. i18n: ectx: property (text), widget (QPushButton, trackNumberButton)
-#: rc.cpp:525
+#: rc.cpp:543
 msgid "&Track Number"
 msgstr "音軌編號(&T)"
 
 #. i18n: file: wizard.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, extensionButton)
-#: rc.cpp:528
+#: rc.cpp:546
 msgid "&Extension"
 msgstr "延伸檔名(&E)"
 
 #. i18n: file: wizard.ui:169
 #. i18n: ectx: property (text), widget (QPushButton, trackTitleButton)
-#: rc.cpp:531
+#: rc.cpp:549
 msgid "Track T&itle"
 msgstr "音軌標題(&T)"
 
 #. i18n: file: wizard.ui:176
 #. i18n: ectx: property (text), widget (QPushButton, trackCommentButton)
-#: rc.cpp:534
+#: rc.cpp:552
 msgid "T&rack Comment"
 msgstr "音軌註解(&R)"
 
 #. i18n: file: wizard.ui:183
 #. i18n: ectx: property (text), widget (QPushButton, genreButton)
-#: rc.cpp:537
+#: rc.cpp:555
 msgid "&Genre"
 msgstr "風格(&G)"
 
 #. i18n: file: wizard.ui:190
 #. i18n: ectx: property (text), widget (QPushButton, yearButton)
-#: rc.cpp:540
+#: rc.cpp:558
 msgid "&Year"
 msgstr "年份(&Y)"
 
 #. i18n: file: wizard.ui:197
 #. i18n: ectx: property (text), widget (QPushButton, albumButton)
-#: rc.cpp:543
+#: rc.cpp:561
 msgid "Al&bum"
 msgstr "專輯(&B)"
 
 #. i18n: file: wizard.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, trackArtistButton)
-#: rc.cpp:546
+#: rc.cpp:564
 msgid "Trac&k Artist"
 msgstr "音軌藝人(&K)"
 
 #. i18n: file: wizard.ui:211
 #. i18n: ectx: property (text), widget (QPushButton, commentButton)
-#: rc.cpp:549
+#: rc.cpp:567
 msgid "Co&mment"
 msgstr "註解(&M)"
 
 #. i18n: file: wizard.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, artistInitialButton)
-#: rc.cpp:552
+#: rc.cpp:570
 #, fuzzy
 #| msgid "Artist - Title"
 msgid "Arti&st's Initial"
 msgstr "藝人 - 標題"
 
-#: rc.cpp:559
+#: rc.cpp:577
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: rc.cpp:560
+#: rc.cpp:578
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
