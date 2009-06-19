@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscd 1.40\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-05 11:23+0200\n"
+"POT-Creation-Date: 2009-06-19 11:32+0200\n"
 "PO-Revision-Date: 2006-01-14 17:18+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -404,6 +404,16 @@ msgstr "標題"
 msgid "Length"
 msgstr ""
 
+#: gui/closebutton.cpp:36
+msgid "close"
+msgstr ""
+
+#: gui/ejectbutton.cpp:36
+#, fuzzy
+#| msgid "Eject"
+msgid "eject"
+msgstr "退出"
+
 #: gui/kscdwindow.cpp:357
 #, fuzzy
 #| msgid "Loop tracks."
@@ -423,6 +433,26 @@ msgctxt "This action allow the user to listen a random track"
 msgid "random"
 msgstr "隨機選曲"
 
+#: gui/loopbutton.cpp:36
+#, fuzzy
+#| msgid "Loop"
+msgid "loop"
+msgstr "循環播放"
+
+#: gui/minimizebutton.cpp:36
+msgid "minimize"
+msgstr ""
+
+#: gui/mutebutton.cpp:36
+msgid "mute"
+msgstr ""
+
+#: gui/nextbutton.cpp:36
+#, fuzzy
+#| msgid "Next"
+msgid "next"
+msgstr "下一首"
+
 #: gui/panel.cpp:57
 msgid "WELCOME!"
 msgstr ""
@@ -441,6 +471,41 @@ msgstr "退出"
 #, kde-format
 msgid "%1 %2 : %3 %4"
 msgstr ""
+
+#: gui/playbutton.cpp:36
+#, fuzzy
+#| msgid "Play"
+msgid "play"
+msgstr "播放"
+
+#: gui/previousbutton.cpp:36
+#, fuzzy
+#| msgid "Previous"
+msgid "previous"
+msgstr "上一首"
+
+#: gui/randombutton.cpp:36
+#, fuzzy
+#| msgid "Random"
+msgid "random"
+msgstr "隨機選曲"
+
+#: gui/stopbutton.cpp:36
+#, fuzzy
+msgid "stop"
+msgstr "已停止"
+
+#: gui/tracklistbutton.cpp:36
+#, fuzzy
+#| msgid "Track list"
+msgid "tracklist"
+msgstr "曲目"
+
+#: gui/volumebutton.cpp:37
+#, fuzzy
+#| msgid "Volume control"
+msgid "volume"
+msgstr "音量控制"
 
 #~ msgid "Unknown"
 #~ msgstr "不詳"
@@ -519,9 +584,6 @@ msgstr ""
 #~ "最少要輸入一首歌曲的名稱。\n"
 #~ "請修正後重新再試。"
 
-#~ msgid "Loop"
-#~ msgstr "循環播放"
-
 #~ msgid "Increase Volume"
 #~ msgstr "增加音量"
 
@@ -570,9 +632,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Error"
 #~ msgstr "音樂 CD 錯誤"
-
-#~ msgid "Play"
-#~ msgstr "播放"
 
 #~ msgid "Pause"
 #~ msgstr "暫停"
