@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-24 12:17+0200\n"
+"POT-Creation-Date: 2009-06-25 14:50+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -156,8 +156,8 @@ msgstr "預設身份"
 #: kopete/config/status/statusconfig_manager.cpp:54 rc.cpp:547
 #: plugins/statistics/statisticscontact.cpp:260
 #: plugins/statistics/statisticsdialog.cpp:372
-#: plugins/statistics/statisticsdialog.cpp:661 protocols/qq/qqprotocol.cpp:35
-#: protocols/sms/smsprotocol.cpp:37 protocols/wlm/wlmprotocol.cpp:43
+#: plugins/statistics/statisticsdialog.cpp:661 protocols/qq/qqprotocol.cpp:36
+#: protocols/sms/smsprotocol.cpp:38 protocols/wlm/wlmprotocol.cpp:43
 #: protocols/gadu/gaduprotocol.cpp:82 protocols/gadu/gaduprotocol.cpp:86
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:87
@@ -165,8 +165,8 @@ msgstr "預設身份"
 #: protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/meanwhile/meanwhileprotocol.cpp:40
 #: protocols/jabber/jabbercontact.cpp:174
-#: protocols/jabber/jabberprotocol.cpp:66 protocols/winpopup/wpprotocol.cpp:54
-#: protocols/winpopup/wpaccount.cpp:171 protocols/groupwise/gwprotocol.cpp:54
+#: protocols/jabber/jabberprotocol.cpp:66 protocols/winpopup/wpprotocol.cpp:55
+#: protocols/winpopup/wpaccount.cpp:172 protocols/groupwise/gwprotocol.cpp:54
 #: protocols/bonjour/bonjourprotocol.cpp:37
 msgid "Online"
 msgstr "上線"
@@ -178,22 +178,22 @@ msgstr "上線"
 #: kopete/config/status/statusconfig_manager.cpp:58 rc.cpp:550
 #: plugins/statistics/statisticscontact.cpp:261
 #: plugins/statistics/statisticsdialog.cpp:374
-#: plugins/statistics/statisticsdialog.cpp:663 protocols/qq/qqprotocol.cpp:37
+#: plugins/statistics/statisticsdialog.cpp:663 protocols/qq/qqprotocol.cpp:38
 #: protocols/wlm/wlmprotocol.cpp:46
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
 #: protocols/skype/skypeprotocol.cpp:61 protocols/skype/skypeaccount.cpp:903
 #: protocols/meanwhile/meanwhileprotocol.cpp:44
 #: protocols/jabber/jabbercontact.cpp:176
-#: protocols/jabber/jabberprotocol.cpp:67 protocols/winpopup/wpprotocol.cpp:55
-#: protocols/winpopup/wpaccount.cpp:177 protocols/groupwise/gwprotocol.cpp:58
+#: protocols/jabber/jabberprotocol.cpp:67 protocols/winpopup/wpprotocol.cpp:56
+#: protocols/winpopup/wpaccount.cpp:178 protocols/groupwise/gwprotocol.cpp:58
 msgid "Away"
 msgstr "離開"
 
-#: libkopete/kopeteonlinestatus.cpp:163 protocols/sms/smsprotocol.cpp:39
+#: libkopete/kopeteonlinestatus.cpp:163 protocols/sms/smsprotocol.cpp:40
 #: protocols/wlm/wlmprotocol.cpp:71 protocols/gadu/gaduprotocol.cpp:89
 #: protocols/skype/skypeprotocol.cpp:65
-#: protocols/skype/skypecalldialog.cpp:201
+#: protocols/skype/skypecalldialog.cpp:202
 #: protocols/yahoo/yahooprotocol.cpp:57 protocols/jabber/jabberprotocol.cpp:72
 #: protocols/groupwise/gwprotocol.cpp:70
 msgid "Connecting"
@@ -227,15 +227,15 @@ msgstr "隱形"
 #: kopete/config/status/statusconfig_manager.cpp:66 rc.cpp:544
 #: plugins/statistics/statisticscontact.cpp:262
 #: plugins/statistics/statisticsdialog.cpp:376
-#: plugins/statistics/statisticsdialog.cpp:665 protocols/qq/qqprotocol.cpp:39
-#: protocols/sms/smsprotocol.cpp:38 protocols/wlm/wlmprotocol.cpp:62
+#: plugins/statistics/statisticsdialog.cpp:665 protocols/qq/qqprotocol.cpp:40
+#: protocols/sms/smsprotocol.cpp:39 protocols/wlm/wlmprotocol.cpp:62
 #: protocols/gadu/gaduprotocol.cpp:57 protocols/gadu/gaduprotocol.cpp:63
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75
 #: protocols/skype/skypeprotocol.cpp:58 protocols/skype/skypeaccount.cpp:899
 #: protocols/yahoo/yahooprotocol.cpp:43
 #: protocols/meanwhile/meanwhileprotocol.cpp:35
-#: protocols/jabber/jabberprotocol.cpp:70 protocols/winpopup/wpprotocol.cpp:56
+#: protocols/jabber/jabberprotocol.cpp:70 protocols/winpopup/wpprotocol.cpp:57
 #: protocols/groupwise/gwprotocol.cpp:52
 #: protocols/bonjour/bonjourprotocol.cpp:42
 msgid "Offline"
@@ -549,7 +549,7 @@ msgid "%2 <%1>"
 msgstr "%2 <%1>"
 
 #: libkopete/kopeteaccount.cpp:404 protocols/skype/skypeaccount.cpp:937
-#: protocols/winpopup/wpaccount.cpp:186
+#: protocols/winpopup/wpaccount.cpp:187
 #, fuzzy
 msgid "Properties"
 msgstr "屬性(&P)"
@@ -1200,13 +1200,13 @@ msgstr "狀態訊息"
 
 #: libkopete/kopeteglobal.cpp:165
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:63
-#: protocols/groupwise/ui/gwsearch.cpp:99
+#: protocols/groupwise/ui/gwsearch.cpp:98
 msgid "First Name"
 msgstr "名"
 
 #: libkopete/kopeteglobal.cpp:171
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:64
-#: protocols/groupwise/ui/gwsearch.cpp:102
+#: protocols/groupwise/ui/gwsearch.cpp:101
 msgid "Last Name"
 msgstr "姓"
 
@@ -1227,7 +1227,7 @@ msgid "Work Mobile Phone"
 msgstr "工作流動電話"
 
 #: libkopete/kopeteglobal.cpp:201
-#: protocols/groupwise/ui/gwcontactproperties.cpp:116
+#: protocols/groupwise/ui/gwcontactproperties.cpp:115
 msgid "Email Address"
 msgstr "電子郵件地址"
 
@@ -1336,7 +1336,7 @@ msgstr "加入(&A)"
 msgid "&Export Contacts..."
 msgstr "匯出聯絡人(&E)..."
 
-#: kopete/kopetewindow.cpp:406 protocols/qq/qqprotocol.cpp:37
+#: kopete/kopetewindow.cpp:406 protocols/qq/qqprotocol.cpp:38
 #: protocols/wlm/wlmprotocol.cpp:46
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
@@ -1393,7 +1393,7 @@ msgstr "設定狀態(&S)"
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:62
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, statusGroup_)
 #: kopete/kopetewindow.cpp:424 rc.cpp:752 rc.cpp:928 rc.cpp:1438 rc.cpp:1459
-#: rc.cpp:1540 rc.cpp:3428 protocols/groupwise/ui/gwsearch.cpp:96
+#: rc.cpp:1540 rc.cpp:3428 protocols/groupwise/ui/gwsearch.cpp:95
 msgid "Status"
 msgstr "狀態"
 
@@ -2166,7 +2166,7 @@ msgstr "進階(&V)"
 
 #: kopete/config/status/statusmodel.cpp:122
 #: protocols/yahoo/yahooprotocol.cpp:65
-#: protocols/groupwise/ui/gwcontactproperties.cpp:114
+#: protocols/groupwise/ui/gwcontactproperties.cpp:113
 msgid "Title"
 msgstr "頭銜"
 
@@ -2480,7 +2480,7 @@ msgstr "名稱"
 #. i18n: file: protocols/jabber/ui/dlgjabberchooseserver.ui:74
 #. i18n: ectx: property (text), widget (QTableWidget, listServers)
 #: kopete/addaccountwizard/addaccountwizard.cpp:74 rc.cpp:5201
-#: protocols/sms/smseditaccountwidget.cpp:137
+#: protocols/sms/smseditaccountwidget.cpp:138
 #: protocols/oscar/icq/xtrazstatusmodel.cpp:129
 msgid "Description"
 msgstr "說明"
@@ -5963,7 +5963,7 @@ msgstr "12"
 
 #. i18n: file: kopete/addaccountwizard/addaccountwizardpage2.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, AddAccountWizardPage2)
-#: rc.cpp:1163 protocols/skype/skypecalldialog.cpp:154
+#: rc.cpp:1163 protocols/skype/skypecalldialog.cpp:155
 msgid "Finished"
 msgstr "已完成"
 
@@ -8547,7 +8547,7 @@ msgstr "女性"
 
 #. i18n: file: protocols/qq/ui/qqvcard.ui:228
 #. i18n: ectx: property (text), item, widget (QComboBox, cbGender)
-#: rc.cpp:2362 protocols/winpopup/wpuserinfo.cpp:38
+#: rc.cpp:2362 protocols/winpopup/wpuserinfo.cpp:39
 msgid "N/A"
 msgstr "不適用"
 
@@ -8560,7 +8560,7 @@ msgstr "省/州:"
 
 #. i18n: file: protocols/qq/ui/qqvcard.ui:325
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:2371 protocols/qq/qqprotocol.cpp:45
+#: rc.cpp:2371 protocols/qq/qqprotocol.cpp:46
 #, fuzzy
 msgid "Home Address"
 msgstr "住家地址(&H)"
@@ -11142,7 +11142,7 @@ msgstr "將你的狀態設為上線，代表任何想和你聊天的人都可看
 
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:112
 #. i18n: ectx: property (text), widget (QRadioButton, onlineButton_)
-#: rc.cpp:3437 protocols/qq/qqprotocol.cpp:35 protocols/wlm/wlmprotocol.cpp:43
+#: rc.cpp:3437 protocols/qq/qqprotocol.cpp:36 protocols/wlm/wlmprotocol.cpp:43
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:87
 #: protocols/bonjour/bonjourprotocol.cpp:37
@@ -11202,7 +11202,7 @@ msgstr "以以下的說明將狀態設為中斷。"
 
 #. i18n: file: protocols/gadu/ui/gaduawayui.ui:151
 #. i18n: ectx: property (text), widget (QRadioButton, offlineButton_)
-#: rc.cpp:3464 protocols/qq/qqprotocol.cpp:39 protocols/wlm/wlmprotocol.cpp:62
+#: rc.cpp:3464 protocols/qq/qqprotocol.cpp:40 protocols/wlm/wlmprotocol.cpp:62
 #: protocols/gadu/gaduprotocol.cpp:58
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75
@@ -17410,7 +17410,7 @@ msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
 #: plugins/history/converter.cpp:42 protocols/jabber/jabbercontact.cpp:969
-#: protocols/jabber/jabberaccount.cpp:1168
+#: protocols/jabber/jabberaccount.cpp:1166
 msgid "Keep"
 msgstr "保留"
 
@@ -17791,11 +17791,11 @@ msgstr "正在連線到伺服器..."
 msgid "Fetching contact vCard..."
 msgstr ""
 
-#: protocols/qq/qqcontact.cpp:136 protocols/groupwise/gwcontact.cpp:161
+#: protocols/qq/qqcontact.cpp:136 protocols/groupwise/gwcontact.cpp:160
 msgid "Unblock User"
 msgstr "解封使用者"
 
-#: protocols/qq/qqcontact.cpp:136 protocols/groupwise/gwcontact.cpp:161
+#: protocols/qq/qqcontact.cpp:136 protocols/groupwise/gwcontact.cpp:160
 msgid "Block User"
 msgstr "封鎖使用者"
 
@@ -17812,92 +17812,92 @@ msgstr "觀看聯絡人的網絡攝影機影像"
 msgid "Send Webcam"
 msgstr "傳送網絡攝影機影像"
 
-#: protocols/qq/qqprotocol.cpp:42
+#: protocols/qq/qqprotocol.cpp:43
 #, fuzzy
 msgid "Country"
 msgstr "國家:"
 
-#: protocols/qq/qqprotocol.cpp:43 protocols/qq/qqprotocol.cpp:44
+#: protocols/qq/qqprotocol.cpp:44 protocols/qq/qqprotocol.cpp:45
 #, fuzzy
 msgid "State"
 msgstr "省/州:"
 
-#: protocols/qq/qqprotocol.cpp:46
+#: protocols/qq/qqprotocol.cpp:47
 msgid "Zipcode"
 msgstr ""
 
-#: protocols/qq/qqprotocol.cpp:47
+#: protocols/qq/qqprotocol.cpp:48
 msgid "Age"
 msgstr "年齡"
 
-#: protocols/qq/qqchatsession.cpp:66 protocols/wlm/wlmchatsession.cpp:105
+#: protocols/qq/qqchatsession.cpp:67 protocols/wlm/wlmchatsession.cpp:105
 #: protocols/skype/skypechatsession.cpp:123
 #: protocols/skype/skypechatsession.cpp:161
-#: protocols/groupwise/gwmessagemanager.cpp:78
+#: protocols/groupwise/gwmessagemanager.cpp:77
 msgid "&Invite"
 msgstr "邀請(&I)"
 
-#: protocols/qq/qqchatsession.cpp:71 protocols/qq/qqchatsession.cpp:496
-#: protocols/groupwise/gwmessagemanager.cpp:82
-#: protocols/groupwise/gwmessagemanager.cpp:518
+#: protocols/qq/qqchatsession.cpp:72 protocols/qq/qqchatsession.cpp:497
+#: protocols/groupwise/gwmessagemanager.cpp:81
+#: protocols/groupwise/gwmessagemanager.cpp:517
 msgid "Security Status"
 msgstr "安全狀態"
 
-#: protocols/qq/qqchatsession.cpp:73
-#: protocols/groupwise/gwmessagemanager.cpp:84
+#: protocols/qq/qqchatsession.cpp:74
+#: protocols/groupwise/gwmessagemanager.cpp:83
 msgid "Conversation is secure"
 msgstr "對話是安全的"
 
-#: protocols/qq/qqchatsession.cpp:77 protocols/qq/qqchatsession.cpp:503
-#: protocols/groupwise/gwmessagemanager.cpp:86
-#: protocols/groupwise/gwmessagemanager.cpp:525
+#: protocols/qq/qqchatsession.cpp:78 protocols/qq/qqchatsession.cpp:504
+#: protocols/groupwise/gwmessagemanager.cpp:85
+#: protocols/groupwise/gwmessagemanager.cpp:524
 msgid "Archiving Status"
 msgstr "正在封存狀態"
 
-#: protocols/qq/qqchatsession.cpp:176
-#: protocols/groupwise/gwmessagemanager.cpp:211
+#: protocols/qq/qqchatsession.cpp:177
+#: protocols/groupwise/gwmessagemanager.cpp:210
 #, kde-format
 msgid "An error occurred when trying to start a chat: %1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/qq/qqchatsession.cpp:205
-#: protocols/groupwise/gwmessagemanager.cpp:239
+#: protocols/qq/qqchatsession.cpp:206
+#: protocols/groupwise/gwmessagemanager.cpp:238
 msgid ""
 "Your message could not be sent. You cannot send messages while your status "
 "is Appear Offline. "
 msgstr "你的訊息無法送出。當你表現為離線時無法傳送訊息。"
 
-#: protocols/qq/qqchatsession.cpp:299
-#: protocols/groupwise/gwmessagemanager.cpp:329
+#: protocols/qq/qqchatsession.cpp:300
+#: protocols/groupwise/gwmessagemanager.cpp:328
 msgid "&Other..."
 msgstr "其他(&O)..."
 
-#: protocols/qq/qqchatsession.cpp:321
-#: protocols/groupwise/gwmessagemanager.cpp:351
-#: protocols/groupwise/gwmessagemanager.cpp:399
+#: protocols/qq/qqchatsession.cpp:322
+#: protocols/groupwise/gwmessagemanager.cpp:350
+#: protocols/groupwise/gwmessagemanager.cpp:398
 msgid "Enter Invitation Message"
 msgstr "輸入邀請訊息"
 
-#: protocols/qq/qqchatsession.cpp:322
-#: protocols/groupwise/gwmessagemanager.cpp:352
-#: protocols/groupwise/gwmessagemanager.cpp:400
+#: protocols/qq/qqchatsession.cpp:323
+#: protocols/groupwise/gwmessagemanager.cpp:351
+#: protocols/groupwise/gwmessagemanager.cpp:399
 msgid "Enter the reason for the invitation, or leave blank for no reason:"
 msgstr "輸入邀請的理由，或留空代表沒有理由:"
 
-#: protocols/qq/qqchatsession.cpp:347
-#: protocols/groupwise/gwmessagemanager.cpp:376
+#: protocols/qq/qqchatsession.cpp:348
+#: protocols/groupwise/gwmessagemanager.cpp:375
 msgid "Search for Contact to Invite"
 msgstr "搜尋要邀請的聯絡人"
 
-#: protocols/qq/qqchatsession.cpp:386
-#: protocols/groupwise/gwmessagemanager.cpp:412
+#: protocols/qq/qqchatsession.cpp:387
+#: protocols/groupwise/gwmessagemanager.cpp:411
 msgctxt ""
 "label attached to contacts who have been invited but are yet to join a chat"
 msgid "(pending)"
 msgstr "(正在等待處理)"
 
-#: protocols/qq/qqchatsession.cpp:433
-#: protocols/groupwise/gwmessagemanager.cpp:460
+#: protocols/qq/qqchatsession.cpp:434
+#: protocols/groupwise/gwmessagemanager.cpp:459
 msgid ""
 "All the other participants have left, and other invitations are still "
 "pending. Your messages will not be delivered until someone else joins the "
@@ -17906,29 +17906,29 @@ msgstr ""
 "所有其他參與者都已離開，及其他邀請正在等待處理。直至有人加入這個聊天，你的訊"
 "息才會遞送。"
 
-#: protocols/qq/qqchatsession.cpp:460
-#: protocols/groupwise/gwmessagemanager.cpp:486
+#: protocols/qq/qqchatsession.cpp:461
+#: protocols/groupwise/gwmessagemanager.cpp:485
 #, kde-format
 msgid "%1 has rejected an invitation to join this conversation."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
-#: protocols/qq/qqchatsession.cpp:483
-#: protocols/groupwise/gwmessagemanager.cpp:505
+#: protocols/qq/qqchatsession.cpp:484
+#: protocols/groupwise/gwmessagemanager.cpp:504
 msgid "Conversation is being administratively logged"
 msgstr "對話正被管理員記錄下來"
 
-#: protocols/qq/qqchatsession.cpp:488
-#: protocols/groupwise/gwmessagemanager.cpp:510
+#: protocols/qq/qqchatsession.cpp:489
+#: protocols/groupwise/gwmessagemanager.cpp:509
 msgid "Conversation is not being administratively logged"
 msgstr "對話未有被管理員記錄下來"
 
-#: protocols/qq/qqchatsession.cpp:496
-#: protocols/groupwise/gwmessagemanager.cpp:518
+#: protocols/qq/qqchatsession.cpp:497
+#: protocols/groupwise/gwmessagemanager.cpp:517
 msgid "This conversation is secured with SSL security."
 msgstr "此對話以 SSL 安全機制保密。"
 
-#: protocols/qq/qqchatsession.cpp:503
-#: protocols/groupwise/gwmessagemanager.cpp:525
+#: protocols/qq/qqchatsession.cpp:504
+#: protocols/groupwise/gwmessagemanager.cpp:524
 msgid "This conversation is being logged administratively."
 msgstr "此對話正被管理員記錄下來。"
 
@@ -18286,7 +18286,7 @@ msgstr "不正確的密碼。"
 msgid "Password Incorect"
 msgstr "密碼錯誤"
 
-#: protocols/irc/libkirc/plugins/ctcp/kirctransfer.cpp:359
+#: protocols/irc/libkirc/plugins/ctcp/kirctransfer.cpp:358
 #, fuzzy
 msgid "Acknowledge size is greater than the expected file size"
 msgstr "確認的大小大於預期的檔案大小"
@@ -18364,8 +18364,8 @@ msgstr "載入服務時發生錯誤"
 msgid "Something went wrong while sending the message."
 msgstr "傳送訊息時發生問題。"
 
-#: protocols/sms/smscontact.cpp:59 protocols/sms/services/smssend.cpp:58
-#: protocols/sms/services/smsclient.cpp:67
+#: protocols/sms/smscontact.cpp:59 protocols/sms/services/smssend.cpp:59
+#: protocols/sms/services/smsclient.cpp:68
 #: protocols/sms/services/smssendprovider.cpp:217
 #: protocols/sms/services/smssendprovider.cpp:225
 msgid "Could Not Send Message"
@@ -18375,30 +18375,30 @@ msgstr "無法傳送訊息"
 msgid "&Contact Settings"
 msgstr "聯絡人設置(&C)"
 
-#: protocols/sms/smsuserpreferences.cpp:30
+#: protocols/sms/smsuserpreferences.cpp:31
 msgid "User Preferences"
 msgstr "用戶偏好設定"
 
-#: protocols/sms/smsaccount.cpp:87
+#: protocols/sms/smsaccount.cpp:88
 #, kde-format
 msgid ""
 "This message is longer than the maximum length (%1). Should it be divided to "
 "%2 messages?"
 msgstr "訊息超過最大長度 (%1)。要將它分為 %2 個訊息嗎？"
 
-#: protocols/sms/smsaccount.cpp:88
+#: protocols/sms/smsaccount.cpp:89
 msgid "Message Too Long"
 msgstr "訊息過長"
 
-#: protocols/sms/smsaccount.cpp:88
+#: protocols/sms/smsaccount.cpp:89
 msgid "Divide"
 msgstr "分開"
 
-#: protocols/sms/smsaccount.cpp:88
+#: protocols/sms/smsaccount.cpp:89
 msgid "Do Not Divide"
 msgstr "不分開"
 
-#: protocols/sms/smsaccount.cpp:152
+#: protocols/sms/smsaccount.cpp:153
 msgid "Message too long."
 msgstr "訊息過長。"
 
@@ -18410,25 +18410,25 @@ msgid ""
 msgstr ""
 "<qt>SMSClient 是經數據機傳送 SMS 的程式。可在 <a href=\"%1\">%1</a> 找到</qt>"
 
-#: protocols/sms/services/smssend.cpp:58
+#: protocols/sms/services/smssend.cpp:59
 msgid "No provider configured."
 msgstr "未設定提供者。"
 
-#: protocols/sms/services/smssend.cpp:65
+#: protocols/sms/services/smssend.cpp:66
 msgid ""
 "No prefix set for SMSSend, please change it in the configuration dialog."
 msgstr "未設定 SMSend 的前置字元，請在設定方塊更改。"
 
-#: protocols/sms/services/smssend.cpp:65
+#: protocols/sms/services/smssend.cpp:66
 msgid "No Prefix"
 msgstr "沒有前置字元"
 
-#: protocols/sms/services/smssend.cpp:185
+#: protocols/sms/services/smssend.cpp:186
 #, kde-format
 msgid "%1 Settings"
 msgstr "%1 設置"
 
-#: protocols/sms/services/smssend.cpp:242
+#: protocols/sms/services/smssend.cpp:243
 #, kde-format
 msgid ""
 "<qt>SMSSend is a program for sending SMS through gateways on the web. It can "
@@ -18436,11 +18436,11 @@ msgid ""
 msgstr ""
 "<qt>SMSSend 是經網絡閘道傳送 SMS 的程式。可在 <a href=\"%1\">%2</a> 找到</qt>"
 
-#: protocols/sms/services/smsclient.cpp:67
+#: protocols/sms/services/smsclient.cpp:68
 msgid "No provider configured"
 msgstr "未設定提供者"
 
-#: protocols/sms/services/smsclient.cpp:180
+#: protocols/sms/services/smsclient.cpp:181
 #, kde-format
 msgid ""
 "<qt>SMSClient is a program for sending SMS with the modem. The program can "
@@ -18493,7 +18493,7 @@ msgid ""
 "contact will appear again when you reconnect.</qt>"
 msgstr "<qt>請上線以從你的聯絡人清單移除聯絡人。</qt>"
 
-#: protocols/wlm/wlmcontact.cpp:381 protocols/groupwise/gwcontact.cpp:240
+#: protocols/wlm/wlmcontact.cpp:381 protocols/groupwise/gwcontact.cpp:239
 #, kde-format
 msgid "%1|Blocked"
 msgstr "%1|已封鎖"
@@ -19205,7 +19205,7 @@ msgstr "加入頻道..."
 
 #: protocols/oscar/aim/aimaccount.cpp:236
 #: protocols/oscar/icq/icqaccount.cpp:137
-#: protocols/jabber/jabberaccount.cpp:207
+#: protocols/jabber/jabberaccount.cpp:205
 msgid "Edit User Info..."
 msgstr "編輯用戶資訊..."
 
@@ -19334,7 +19334,7 @@ msgstr "加入 AIM 聊天室"
 
 #: protocols/oscar/aim/aimjoinchat.cpp:35
 #: protocols/jabber/ui/dlgjabberchatroomslist.cpp:29
-#: protocols/jabber/ui/dlgjabberchatjoin.cpp:37
+#: protocols/jabber/ui/dlgjabberchatjoin.cpp:36
 msgid "Join"
 msgstr "加入"
 
@@ -21033,11 +21033,11 @@ msgstr ""
 msgid "Details for User %1"
 msgstr "警告 %1 用戶嗎？"
 
-#: protocols/skype/skypeeditaccount.cpp:107
+#: protocols/skype/skypeeditaccount.cpp:106
 msgid "You can have only one skype account"
 msgstr ""
 
-#: protocols/skype/skypeeditaccount.cpp:107
+#: protocols/skype/skypeeditaccount.cpp:106
 #: protocols/skype/skypeaddcontact.cpp:74
 #: protocols/skype/skypeaddcontact.cpp:79
 #: protocols/skype/skypeaddcontact.cpp:84
@@ -21098,80 +21098,80 @@ msgstr "選取聯絡人"
 msgid "Call"
 msgstr "手提電話:"
 
-#: protocols/skype/skypecalldialog.cpp:96
+#: protocols/skype/skypecalldialog.cpp:97
 #, kde-format
 msgid "Call with %1"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:124
+#: protocols/skype/skypecalldialog.cpp:125
 #, fuzzy
 msgid "Canceled"
 msgstr "頻道"
 
-#: protocols/skype/skypecalldialog.cpp:131
+#: protocols/skype/skypecalldialog.cpp:132
 #, fuzzy
 #| msgid "Server is Busy"
 msgid "Other person is busy"
 msgstr "伺服器忙碌"
 
-#: protocols/skype/skypecalldialog.cpp:138
+#: protocols/skype/skypecalldialog.cpp:139
 #, fuzzy
 #| msgid "Refuse"
 msgid "Refused"
 msgstr "拒絕"
 
-#: protocols/skype/skypecalldialog.cpp:145
+#: protocols/skype/skypecalldialog.cpp:146
 msgid "Call Back"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:146
+#: protocols/skype/skypecalldialog.cpp:147
 #, fuzzy
 #| msgid "Message"
 msgid "Missed"
 msgstr "訊息"
 
-#: protocols/skype/skypecalldialog.cpp:159
+#: protocols/skype/skypecalldialog.cpp:160
 #, fuzzy
 #| msgid "&Resume"
 msgid "Resume"
 msgstr "恢復(&R)"
 
-#: protocols/skype/skypecalldialog.cpp:162
+#: protocols/skype/skypecalldialog.cpp:163
 msgid "On hold (local)"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:168
+#: protocols/skype/skypecalldialog.cpp:169
 msgid "On hold (remote)"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:174
+#: protocols/skype/skypecalldialog.cpp:175
 msgid "On hold"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:178
+#: protocols/skype/skypecalldialog.cpp:179
 #, fuzzy
 #| msgid "&Bold"
 msgid "Hold"
 msgstr "粗體(&B)"
 
-#: protocols/skype/skypecalldialog.cpp:181
+#: protocols/skype/skypecalldialog.cpp:182
 #, fuzzy
 #| msgid "Interests"
 msgid "In progress"
 msgstr "喜好"
 
-#: protocols/skype/skypecalldialog.cpp:187
+#: protocols/skype/skypecalldialog.cpp:188
 #, fuzzy
 #| msgid "Religion"
 msgid "Ringing"
 msgstr "宗教"
 
-#: protocols/skype/skypecalldialog.cpp:195
+#: protocols/skype/skypecalldialog.cpp:196
 #, fuzzy
 msgid "Failed"
 msgstr "職銜(&T)"
 
-#: protocols/skype/skypecalldialog.cpp:207
+#: protocols/skype/skypecalldialog.cpp:208
 msgctxt ""
 "Early media means the media played before the call is established. For "
 "example it can be a calling tone or a waiting message such as all operators "
@@ -21179,29 +21179,29 @@ msgctxt ""
 msgid "Early media (waiting for operator...)"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:211
+#: protocols/skype/skypecalldialog.cpp:212
 msgid "Unplaced (please wait...)"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:258
+#: protocols/skype/skypecalldialog.cpp:259
 #, fuzzy, kde-format
 #| msgctxt "a contact's online status in parenthesis."
 #| msgid " (%1)"
 msgid "Failed (%1)"
 msgstr " (%1)"
 
-#: protocols/skype/skypecalldialog.cpp:278
+#: protocols/skype/skypecalldialog.cpp:279
 #, kde-format
 msgid ""
 "%1 active\n"
 "%2 total"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:287
+#: protocols/skype/skypecalldialog.cpp:288
 msgid "€"
 msgstr ""
 
-#: protocols/skype/skypecalldialog.cpp:290
+#: protocols/skype/skypecalldialog.cpp:291
 msgid "Skypeout inactive"
 msgstr ""
 
@@ -22027,7 +22027,7 @@ msgstr "額外屬性:"
 
 #: protocols/yahoo/yahooeditaccount.cpp:105
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:148
-#: protocols/winpopup/wpeditaccount.cpp:101
+#: protocols/winpopup/wpeditaccount.cpp:102
 msgid "<qt>You must enter a valid screen name.</qt>"
 msgstr "<qt>你必須輸入有效的螢幕名稱。</qt>"
 
@@ -22121,9 +22121,9 @@ msgstr "無法取得搜尋表格。"
 #: protocols/jabber/ui/dlgsearch.cpp:73
 #: protocols/jabber/ui/dlgjabberchatroomslist.cpp:94
 #: protocols/jabber/ui/dlgregister.cpp:73
-#: protocols/jabber/ui/dlgjabberchatjoin.cpp:144
+#: protocols/jabber/ui/dlgjabberchatjoin.cpp:143
 #: protocols/jabber/ui/dlgjabberregister.cpp:53
-#: protocols/jabber/jabberaccount.cpp:271
+#: protocols/jabber/jabberaccount.cpp:269
 msgid "Jabber Error"
 msgstr "Jabber 錯誤"
 
@@ -22188,7 +22188,7 @@ msgid "Connecting to server..."
 msgstr "正在連線到伺服器..."
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:271
-#: protocols/groupwise/gwaccount.cpp:256
+#: protocols/groupwise/gwaccount.cpp:255
 #, kde-format
 msgid ""
 "SSL support could not be initialized for account %1. This is most likely "
@@ -22197,7 +22197,7 @@ msgstr ""
 "無法初始化帳號 %1 的 SSL 支援。最有可能是因為你的系統上沒安裝 QCA TLS 插件。"
 
 #: protocols/jabber/ui/jabberregisteraccount.cpp:273
-#: protocols/jabber/jabberaccount.cpp:439
+#: protocols/jabber/jabberaccount.cpp:437
 msgid "Jabber SSL Error"
 msgstr "Jabber SSL 錯誤"
 
@@ -22236,7 +22236,7 @@ msgid "List Chatrooms"
 msgstr ""
 
 #: protocols/jabber/ui/dlgjabberchatroomslist.cpp:94
-#: protocols/jabber/ui/dlgjabberchatjoin.cpp:144
+#: protocols/jabber/ui/dlgjabberchatjoin.cpp:143
 #, fuzzy
 msgid "Unable to retrieve the list of chat rooms."
 msgstr "無法取得服務清單。"
@@ -22330,7 +22330,7 @@ msgid "Invalid Jabber ID"
 msgstr "無效的 Jabber ID"
 
 #: protocols/jabber/ui/dlgxmppconsole.cpp:28
-#: protocols/jabber/jabberaccount.cpp:200
+#: protocols/jabber/jabberaccount.cpp:198
 msgid "XML Console"
 msgstr ""
 
@@ -22436,7 +22436,7 @@ msgstr ""
 msgid "Execute command"
 msgstr "移除指令"
 
-#: protocols/jabber/ui/dlgjabberchatjoin.cpp:35
+#: protocols/jabber/ui/dlgjabberchatjoin.cpp:34
 msgid "Join Jabber Groupchat"
 msgstr "加入 Jabber 群組聊天"
 
@@ -22632,7 +22632,7 @@ msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
 #: protocols/jabber/jabbercontact.cpp:968
-#: protocols/jabber/jabberaccount.cpp:1168
+#: protocols/jabber/jabberaccount.cpp:1166
 msgid "Notification"
 msgstr "通知"
 
@@ -23083,7 +23083,7 @@ msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
 #: protocols/jabber/jabberprotocol.cpp:486
-#: protocols/jabber/jabberaccount.cpp:1562
+#: protocols/jabber/jabberaccount.cpp:1560
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
@@ -23099,7 +23099,7 @@ msgstr "你已經斷線了"
 msgid "This message is encrypted."
 msgstr "此訊息已加密。"
 
-#: protocols/jabber/jabberaccount.cpp:162
+#: protocols/jabber/jabberaccount.cpp:160
 #, fuzzy
 #| msgid ""
 #| "Could not bind Jabber file transfer manager to local port. Please check "
@@ -23113,29 +23113,29 @@ msgstr ""
 "無法將 Jabber 檔案傳輸管理員繫結至本機連接埠。請檢查該檔案傳輸連接埠是否已"
 "用，或在帳號設置中選擇另一個連接埠。"
 
-#: protocols/jabber/jabberaccount.cpp:163
+#: protocols/jabber/jabberaccount.cpp:161
 msgid "Failed to start Jabber File Transfer Manager"
 msgstr "無法啟動 Jabber 檔案傳輸管理員"
 
-#: protocols/jabber/jabberaccount.cpp:179
+#: protocols/jabber/jabberaccount.cpp:177
 msgid "Join Groupchat..."
 msgstr "加入群組聊天..."
 
-#: protocols/jabber/jabberaccount.cpp:193
+#: protocols/jabber/jabberaccount.cpp:191
 msgid "Services..."
 msgstr "服務..."
 
-#: protocols/jabber/jabberaccount.cpp:212
+#: protocols/jabber/jabberaccount.cpp:210
 #, fuzzy
 #| msgid "&Set Font..."
 msgid "Set Mood"
 msgstr "設定字型(&S)..."
 
-#: protocols/jabber/jabberaccount.cpp:271
+#: protocols/jabber/jabberaccount.cpp:269
 msgid "Please connect first."
 msgstr "請先連線。"
 
-#: protocols/jabber/jabberaccount.cpp:437
+#: protocols/jabber/jabberaccount.cpp:435
 #, fuzzy, kde-format
 #| msgid ""
 #| "SSL support could not be initialized for account %1. This is most likely "
@@ -23146,329 +23146,329 @@ msgid ""
 msgstr ""
 "無法初始化帳號 %1 的 SSL 支援。最有可能是因為你的系統上沒安裝 QCA TLS 插件。"
 
-#: protocols/jabber/jabberaccount.cpp:472
-#: protocols/groupwise/gwaccount.cpp:735
+#: protocols/jabber/jabberaccount.cpp:470
+#: protocols/groupwise/gwaccount.cpp:734
 msgid "The host name does not match the one in the certificate."
 msgstr "主機名稱和證書上的不符。"
 
-#: protocols/jabber/jabberaccount.cpp:476
-#: protocols/groupwise/gwaccount.cpp:739
+#: protocols/jabber/jabberaccount.cpp:474
+#: protocols/groupwise/gwaccount.cpp:738
 #, fuzzy
 msgid "The certificate is invalid."
 msgstr "核證機關無效。"
 
-#: protocols/jabber/jabberaccount.cpp:480
-#: protocols/groupwise/gwaccount.cpp:743
+#: protocols/jabber/jabberaccount.cpp:478
+#: protocols/groupwise/gwaccount.cpp:742
 msgid "No certificate was presented."
 msgstr "沒有證書。"
 
-#: protocols/jabber/jabberaccount.cpp:490
-#: protocols/groupwise/gwaccount.cpp:753
+#: protocols/jabber/jabberaccount.cpp:488
+#: protocols/groupwise/gwaccount.cpp:752
 msgid "The Certificate Authority rejected the certificate."
 msgstr "核證機關拒絕證書。"
 
-#: protocols/jabber/jabberaccount.cpp:494
-#: protocols/groupwise/gwaccount.cpp:757
+#: protocols/jabber/jabberaccount.cpp:492
+#: protocols/groupwise/gwaccount.cpp:756
 #, fuzzy
 msgid "The certificate is not trusted."
 msgstr "證書未被信任。"
 
-#: protocols/jabber/jabberaccount.cpp:498
-#: protocols/groupwise/gwaccount.cpp:761
+#: protocols/jabber/jabberaccount.cpp:496
+#: protocols/groupwise/gwaccount.cpp:760
 msgid "The signature is invalid."
 msgstr "簽署無效"
 
-#: protocols/jabber/jabberaccount.cpp:502
-#: protocols/groupwise/gwaccount.cpp:765
+#: protocols/jabber/jabberaccount.cpp:500
+#: protocols/groupwise/gwaccount.cpp:764
 msgid "The Certificate Authority is invalid."
 msgstr "核證機關無效。"
 
-#: protocols/jabber/jabberaccount.cpp:506
-#: protocols/groupwise/gwaccount.cpp:769
+#: protocols/jabber/jabberaccount.cpp:504
+#: protocols/groupwise/gwaccount.cpp:768
 msgid "Invalid certificate purpose."
 msgstr "無效的證書用途。"
 
-#: protocols/jabber/jabberaccount.cpp:510
-#: protocols/groupwise/gwaccount.cpp:773
+#: protocols/jabber/jabberaccount.cpp:508
+#: protocols/groupwise/gwaccount.cpp:772
 msgid "The certificate is self-signed."
 msgstr "證書是自簽署（self-signed）的。"
 
-#: protocols/jabber/jabberaccount.cpp:514
-#: protocols/groupwise/gwaccount.cpp:777
+#: protocols/jabber/jabberaccount.cpp:512
+#: protocols/groupwise/gwaccount.cpp:776
 msgid "The certificate has been revoked."
 msgstr "證書已被撤銷。"
 
-#: protocols/jabber/jabberaccount.cpp:518
-#: protocols/groupwise/gwaccount.cpp:781
+#: protocols/jabber/jabberaccount.cpp:516
+#: protocols/groupwise/gwaccount.cpp:780
 msgid "Maximum certificate chain length was exceeded."
 msgstr "超過證書串最大長度。"
 
-#: protocols/jabber/jabberaccount.cpp:522
-#: protocols/groupwise/gwaccount.cpp:785
+#: protocols/jabber/jabberaccount.cpp:520
+#: protocols/groupwise/gwaccount.cpp:784
 msgid "The certificate has expired."
 msgstr "證書已過期。"
 
-#: protocols/jabber/jabberaccount.cpp:526
-#: protocols/groupwise/gwaccount.cpp:789
+#: protocols/jabber/jabberaccount.cpp:524
+#: protocols/groupwise/gwaccount.cpp:788
 #, fuzzy
 msgid "The Certificate Authority has expired."
 msgstr "核證機關無效。"
 
-#: protocols/jabber/jabberaccount.cpp:530
-#: protocols/groupwise/gwaccount.cpp:793
+#: protocols/jabber/jabberaccount.cpp:528
+#: protocols/groupwise/gwaccount.cpp:792
 msgid "Validity is unknown."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:541
-#: protocols/groupwise/gwaccount.cpp:804
+#: protocols/jabber/jabberaccount.cpp:539
+#: protocols/groupwise/gwaccount.cpp:803
 #, fuzzy, kde-format
 msgid ""
 "<qt><p>The identity and the certificate of server %1 could not be validated "
 "for account %2:</p><p>%3</p><p>%4</p><p>Do you want to continue?</p></qt>"
 msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎？</p></qt>"
 
-#: protocols/jabber/jabberaccount.cpp:547
-#: protocols/jabber/jabberaccount.cpp:552
-#: protocols/groupwise/gwaccount.cpp:810 protocols/groupwise/gwaccount.cpp:815
+#: protocols/jabber/jabberaccount.cpp:545
+#: protocols/jabber/jabberaccount.cpp:550
+#: protocols/groupwise/gwaccount.cpp:809 protocols/groupwise/gwaccount.cpp:814
 #, kde-format
 msgid ""
 "<qt><p>The certificate of server %1 could not be validated for account %2: %"
 "3</p><p>Do you want to continue?</p></qt>"
 msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎？</p></qt>"
 
-#: protocols/jabber/jabberaccount.cpp:559
+#: protocols/jabber/jabberaccount.cpp:557
 msgid "Jabber Connection Certificate Problem"
 msgstr "Jabber 連線證書問題"
 
-#: protocols/jabber/jabberaccount.cpp:593
+#: protocols/jabber/jabberaccount.cpp:591
 msgid ""
 "An encrypted connection with the Jabber server could not be established."
 msgstr "無法建立和 Jabber 伺服器建立加密連線。"
 
-#: protocols/jabber/jabberaccount.cpp:594
+#: protocols/jabber/jabberaccount.cpp:592
 msgid "Jabber Connection Error"
 msgstr "Jabber 連線錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:785
+#: protocols/jabber/jabberaccount.cpp:783
 msgid "Malformed packet received."
 msgstr "收到格式錯誤的封包。"
 
-#: protocols/jabber/jabberaccount.cpp:790
+#: protocols/jabber/jabberaccount.cpp:788
 msgid "There was an unrecoverable error in the protocol."
 msgstr "協定中有無法復原的錯誤。"
 
-#: protocols/jabber/jabberaccount.cpp:797
+#: protocols/jabber/jabberaccount.cpp:795
 #, fuzzy
 msgid "Generic stream error."
 msgstr "伺服器內部問題。"
 
-#: protocols/jabber/jabberaccount.cpp:801
+#: protocols/jabber/jabberaccount.cpp:799
 msgid "There was a conflict in the information received."
 msgstr "收到的資訊有衝突。"
 
-#: protocols/jabber/jabberaccount.cpp:804
+#: protocols/jabber/jabberaccount.cpp:802
 msgid "The stream timed out."
 msgstr "串流逾時。"
 
-#: protocols/jabber/jabberaccount.cpp:807
+#: protocols/jabber/jabberaccount.cpp:805
 msgid "Internal server error."
 msgstr "伺服器內部問題。"
 
-#: protocols/jabber/jabberaccount.cpp:810
+#: protocols/jabber/jabberaccount.cpp:808
 msgid "Stream packet received from an invalid address."
 msgstr "串流封包接收自無效的位址。"
 
-#: protocols/jabber/jabberaccount.cpp:813
+#: protocols/jabber/jabberaccount.cpp:811
 msgid "Malformed stream packet received."
 msgstr "收到格式錯誤的串流。"
 
-#: protocols/jabber/jabberaccount.cpp:817
+#: protocols/jabber/jabberaccount.cpp:815
 msgid "Policy violation in the protocol stream."
 msgstr "協定串流違反政策。"
 
-#: protocols/jabber/jabberaccount.cpp:821
+#: protocols/jabber/jabberaccount.cpp:819
 msgid "Resource constraint."
 msgstr "資源限制。"
 
-#: protocols/jabber/jabberaccount.cpp:825
+#: protocols/jabber/jabberaccount.cpp:823
 msgid "System shutdown."
 msgstr "系統關閉。"
 
-#: protocols/jabber/jabberaccount.cpp:828
+#: protocols/jabber/jabberaccount.cpp:826
 msgid "Unknown reason."
 msgstr "未知原因。"
 
-#: protocols/jabber/jabberaccount.cpp:832
+#: protocols/jabber/jabberaccount.cpp:830
 #, kde-format
 msgid "There was an error in the protocol stream: %1"
 msgstr "協定串流中有錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:840
+#: protocols/jabber/jabberaccount.cpp:838
 msgid "Host not found."
 msgstr "找不到主機。"
 
-#: protocols/jabber/jabberaccount.cpp:843
+#: protocols/jabber/jabberaccount.cpp:841
 msgid "Address is already in use."
 msgstr "位址已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:846
+#: protocols/jabber/jabberaccount.cpp:844
 msgid "Connection refused."
 msgstr "連線被拒。"
 
-#: protocols/jabber/jabberaccount.cpp:849
+#: protocols/jabber/jabberaccount.cpp:847
 msgid "Connection attempt already in progress."
 msgstr "連線已在進行。"
 
-#: protocols/jabber/jabberaccount.cpp:852
+#: protocols/jabber/jabberaccount.cpp:850
 msgid "Network failure."
 msgstr "網絡問題。"
 
-#: protocols/jabber/jabberaccount.cpp:855
+#: protocols/jabber/jabberaccount.cpp:853
 msgid "Socket timed out."
 msgstr "插座（socket）逾時。"
 
-#: protocols/jabber/jabberaccount.cpp:858
+#: protocols/jabber/jabberaccount.cpp:856
 #, fuzzy
 msgid "Remote closed connection."
 msgstr "使用直接連線（DCC）(&U)"
 
-#: protocols/jabber/jabberaccount.cpp:862
+#: protocols/jabber/jabberaccount.cpp:860
 #, kde-format
 msgid "Unexpected error condition (%1)."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:866
+#: protocols/jabber/jabberaccount.cpp:864
 #, kde-format
 msgid "There was a connection error: %1"
 msgstr "連線錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:874
+#: protocols/jabber/jabberaccount.cpp:872
 msgid "Unknown host."
 msgstr "未知主機。"
 
-#: protocols/jabber/jabberaccount.cpp:878
+#: protocols/jabber/jabberaccount.cpp:876
 msgid "Could not connect to a required remote resource."
 msgstr "無法連接所需的遠端資源。"
 
-#: protocols/jabber/jabberaccount.cpp:881
+#: protocols/jabber/jabberaccount.cpp:879
 msgid ""
 "It appears we have been redirected to another server; I do not know how to "
 "handle this."
 msgstr "看來我們被重導至另一台伺服器；我不知道怎樣處理。"
 
-#: protocols/jabber/jabberaccount.cpp:884
+#: protocols/jabber/jabberaccount.cpp:882
 msgid "Unsupported protocol version."
 msgstr "不支援的協定版本。"
 
-#: protocols/jabber/jabberaccount.cpp:887
-#: protocols/jabber/jabberaccount.cpp:904
-#: protocols/jabber/jabberaccount.cpp:948
-#: protocols/jabber/jabberaccount.cpp:965
-#: protocols/jabber/jabberaccount.cpp:982
-#: protocols/jabber/jabberaccount.cpp:990
+#: protocols/jabber/jabberaccount.cpp:885
+#: protocols/jabber/jabberaccount.cpp:902
+#: protocols/jabber/jabberaccount.cpp:946
+#: protocols/jabber/jabberaccount.cpp:963
+#: protocols/jabber/jabberaccount.cpp:980
+#: protocols/jabber/jabberaccount.cpp:988
 msgid "Unknown error."
 msgstr "未知錯誤。"
 
-#: protocols/jabber/jabberaccount.cpp:891
+#: protocols/jabber/jabberaccount.cpp:889
 #, kde-format
 msgid "There was a negotiation error: %1"
 msgstr "協商錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:898
+#: protocols/jabber/jabberaccount.cpp:896
 msgid "Server rejected our request to start the TLS handshake."
 msgstr "伺服器拒絕我們開始 TLS 交握的要求。"
 
-#: protocols/jabber/jabberaccount.cpp:901
+#: protocols/jabber/jabberaccount.cpp:899
 msgid "Failed to establish a secure connection."
 msgstr "建立安全連線失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:908
+#: protocols/jabber/jabberaccount.cpp:906
 #, kde-format
 msgid "There was a Transport Layer Security (TLS) error: %1"
 msgstr "傳送層保安 (TLS) 錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:915
+#: protocols/jabber/jabberaccount.cpp:913
 msgid "Login failed with unknown reason."
 msgstr "因未知原因登入失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:918
+#: protocols/jabber/jabberaccount.cpp:916
 msgid "No appropriate authentication mechanism available."
 msgstr "沒有合適的認證機制。"
 
-#: protocols/jabber/jabberaccount.cpp:921
+#: protocols/jabber/jabberaccount.cpp:919
 msgid "Bad SASL authentication protocol."
 msgstr "不良的 SASL 認證協定。"
 
-#: protocols/jabber/jabberaccount.cpp:924
+#: protocols/jabber/jabberaccount.cpp:922
 msgid "Server failed mutual authentication."
 msgstr "伺服器雙向認證失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:927
+#: protocols/jabber/jabberaccount.cpp:925
 msgid "Encryption is required but not present."
 msgstr "需要加密但未有。"
 
-#: protocols/jabber/jabberaccount.cpp:930
+#: protocols/jabber/jabberaccount.cpp:928
 msgid "Invalid user ID."
 msgstr "無效的用戶 ID 。"
 
-#: protocols/jabber/jabberaccount.cpp:933
+#: protocols/jabber/jabberaccount.cpp:931
 msgid "Invalid mechanism."
 msgstr "無效機制。"
 
-#: protocols/jabber/jabberaccount.cpp:936
+#: protocols/jabber/jabberaccount.cpp:934
 msgid "Invalid realm."
 msgstr "無效領域。"
 
-#: protocols/jabber/jabberaccount.cpp:939
+#: protocols/jabber/jabberaccount.cpp:937
 msgid "Mechanism too weak."
 msgstr "機制太弱。"
 
-#: protocols/jabber/jabberaccount.cpp:942
+#: protocols/jabber/jabberaccount.cpp:940
 msgid "Wrong credentials supplied. (check your user ID and password)"
 msgstr "提供的憑據不正確。（檢查你的用戶 ID 及密碼）"
 
-#: protocols/jabber/jabberaccount.cpp:945
+#: protocols/jabber/jabberaccount.cpp:943
 msgid "Temporary failure, please try again later."
 msgstr "暫時失敗，請稍後再試。"
 
-#: protocols/jabber/jabberaccount.cpp:952
+#: protocols/jabber/jabberaccount.cpp:950
 #, kde-format
 msgid "There was an error authenticating with the server: %1"
 msgstr "向伺服器認證時發生錯誤： %1"
 
-#: protocols/jabber/jabberaccount.cpp:959
+#: protocols/jabber/jabberaccount.cpp:957
 msgid "Transport Layer Security (TLS) problem."
 msgstr "傳送層保安 (TLS) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:962
+#: protocols/jabber/jabberaccount.cpp:960
 msgid "Simple Authentication and Security Layer (SASL) problem."
 msgstr "簡單認證及保安層 (SASL) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:969
+#: protocols/jabber/jabberaccount.cpp:967
 #, kde-format
 msgid "There was an error in the security layer: %1"
 msgstr "於此保安層中有問題: %1"
 
-#: protocols/jabber/jabberaccount.cpp:976
+#: protocols/jabber/jabberaccount.cpp:974
 msgid "No permission to bind the resource."
 msgstr "沒有繫結資源的權限。"
 
-#: protocols/jabber/jabberaccount.cpp:979
+#: protocols/jabber/jabberaccount.cpp:977
 msgid "The resource is already in use."
 msgstr "資源已被使用。"
 
-#: protocols/jabber/jabberaccount.cpp:986
+#: protocols/jabber/jabberaccount.cpp:984
 #, kde-format
 msgid "Could not bind a resource: %1"
 msgstr "無法繫結資源: %1"
 
-#: protocols/jabber/jabberaccount.cpp:996
-#: protocols/jabber/jabberaccount.cpp:1000
+#: protocols/jabber/jabberaccount.cpp:994
+#: protocols/jabber/jabberaccount.cpp:998
 #, kde-format
 msgid "Connection problem with Jabber server %1"
 msgstr "和 Jabber 伺服器 %1 連線有問題"
 
-#: protocols/jabber/jabberaccount.cpp:1165
+#: protocols/jabber/jabberaccount.cpp:1163
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Jabber user %1 removed %2's subscription to them. This account will "
@@ -23482,43 +23482,43 @@ msgstr ""
 "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。"
 "要刪除該聯絡人嗎？"
 
-#: protocols/jabber/jabberaccount.cpp:1339
+#: protocols/jabber/jabberaccount.cpp:1337
 msgid "Waiting for authorization"
 msgstr "正在等待授權"
 
-#: protocols/jabber/jabberaccount.cpp:1552
+#: protocols/jabber/jabberaccount.cpp:1550
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1561
+#: protocols/jabber/jabberaccount.cpp:1559
 #, fuzzy, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1575
+#: protocols/jabber/jabberaccount.cpp:1573
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1576
-#: protocols/jabber/jabberaccount.cpp:1583
-#: protocols/jabber/jabberaccount.cpp:1593
+#: protocols/jabber/jabberaccount.cpp:1574
+#: protocols/jabber/jabberaccount.cpp:1581
+#: protocols/jabber/jabberaccount.cpp:1591
 msgid "Jabber Group Chat"
 msgstr "Jabber 群組聊天"
 
-#: protocols/jabber/jabberaccount.cpp:1582
+#: protocols/jabber/jabberaccount.cpp:1580
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1588
+#: protocols/jabber/jabberaccount.cpp:1586
 msgid "No reason given by the server"
 msgstr "伺服器未有交待原因"
 
-#: protocols/jabber/jabberaccount.cpp:1592
+#: protocols/jabber/jabberaccount.cpp:1590
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error processing your request for group chat %1. (Reason: %"
@@ -23528,7 +23528,7 @@ msgid ""
 "Code %3)"
 msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
-#: protocols/jabber/jabberaccount.cpp:1665
+#: protocols/jabber/jabberaccount.cpp:1663
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -23536,27 +23536,27 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1668
+#: protocols/jabber/jabberaccount.cpp:1666
 #, fuzzy
 msgid "Unregister"
 msgstr "註冊"
 
-#: protocols/jabber/jabberaccount.cpp:1669
+#: protocols/jabber/jabberaccount.cpp:1667
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1670
+#: protocols/jabber/jabberaccount.cpp:1668
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1714
+#: protocols/jabber/jabberaccount.cpp:1712
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:1715
+#: protocols/jabber/jabberaccount.cpp:1713
 #, fuzzy
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
@@ -23637,19 +23637,19 @@ msgstr "更改顯示名稱 - MSN 插件"
 msgid "Please enter the new nickname you want to have in the room <i>%1</i>"
 msgstr "請輸入這個過濾器的新名字:"
 
-#: protocols/winpopup/wpuserinfo.cpp:44
+#: protocols/winpopup/wpuserinfo.cpp:45
 #, kde-format
 msgid "User Info for %1"
 msgstr "%1 的用戶資訊"
 
-#: protocols/winpopup/wpeditaccount.cpp:101
-#: protocols/winpopup/wpeditaccount.cpp:107
-#: protocols/winpopup/wpaddcontact.cpp:98
-#: protocols/winpopup/wpaddcontact.cpp:105
+#: protocols/winpopup/wpeditaccount.cpp:102
+#: protocols/winpopup/wpeditaccount.cpp:108
+#: protocols/winpopup/wpaddcontact.cpp:100
+#: protocols/winpopup/wpaddcontact.cpp:107
 msgid "WinPopup"
 msgstr "WinPopup"
 
-#: protocols/winpopup/wpeditaccount.cpp:107
+#: protocols/winpopup/wpeditaccount.cpp:108
 msgid "<qt>You must enter a valid smbclient path.</qt>"
 msgstr "<qt>你必須輸入有效的 smbclient 路徑。</qt>"
 
@@ -23718,52 +23718,52 @@ msgstr ""
 msgid "Still cannot remove it; please fix it manually."
 msgstr "依然無法移除；請手動修正。"
 
-#: protocols/winpopup/wpprotocol.cpp:145
+#: protocols/winpopup/wpprotocol.cpp:146
 #, fuzzy
 #| msgid "The Samba configuration file is modified."
 msgid "The Samba configuration file has been modified."
 msgstr "Samba 設定檔已修改。"
 
-#: protocols/winpopup/wpprotocol.cpp:145
+#: protocols/winpopup/wpprotocol.cpp:146
 #, fuzzy
 #| msgid "Configuration Succeeded"
 msgid "Configuration Successful"
 msgstr "設定成功"
 
-#: protocols/winpopup/wpprotocol.cpp:147
+#: protocols/winpopup/wpprotocol.cpp:148
 msgid "Updating the Samba configuration file failed."
 msgstr "更新 Samba 設定檔失敗。"
 
-#: protocols/winpopup/wpprotocol.cpp:147
+#: protocols/winpopup/wpprotocol.cpp:148
 msgid "Configuration Failed"
 msgstr "設定失敗"
 
-#: protocols/winpopup/wpaddcontact.cpp:98
+#: protocols/winpopup/wpaddcontact.cpp:100
 msgid "<qt>You must enter a valid hostname.</qt>"
 msgstr "<qt>你必須輸入有效的主機名稱。</qt>"
 
-#: protocols/winpopup/wpaddcontact.cpp:105
+#: protocols/winpopup/wpaddcontact.cpp:107
 #, fuzzy
 #| msgid "<qt>LOCALHOST is not allowed as contact.</qt>"
 msgid "<qt>LOCALHOST is not allowed as a contact.</qt>"
 msgstr "<qt>LOCALHOST 不容許用作聯絡人。</qt>"
 
-#: protocols/winpopup/wpaccount.cpp:167
+#: protocols/winpopup/wpaccount.cpp:168
 #, kde-format
 msgid "WinPopup (%1)"
 msgstr "WinPopup (%1)"
 
-#: protocols/groupwise/ui/gweditaccountwidget.cpp:105
+#: protocols/groupwise/ui/gweditaccountwidget.cpp:104
 msgid ""
 "The changes you just made will take effect next time you log in with "
 "GroupWise."
 msgstr "你剛作的更改會於你下次登入 GroupWise 時生效。"
 
-#: protocols/groupwise/ui/gweditaccountwidget.cpp:106
+#: protocols/groupwise/ui/gweditaccountwidget.cpp:105
 msgid "GroupWise Settings Changed While Signed In"
 msgstr "登入後 GroupWise 設置曾被更改"
 
-#: protocols/groupwise/ui/gwreceiveinvitationdialog.cpp:40
+#: protocols/groupwise/ui/gwreceiveinvitationdialog.cpp:39
 msgid "Invitation to Conversation"
 msgstr "邀請作對話"
 
@@ -23800,56 +23800,56 @@ msgstr "『%1』未登入"
 msgid "Connect to GroupWise Messenger and try again."
 msgstr "連接 GroupWise Messenger 及重試。"
 
-#: protocols/groupwise/ui/gwchatsearchdialog.cpp:44
+#: protocols/groupwise/ui/gwchatsearchdialog.cpp:43
 #, fuzzy
 msgid "Search Chatrooms"
 msgstr "搜尋頻道(&S)"
 
-#: protocols/groupwise/ui/gwchatsearchdialog.cpp:71
+#: protocols/groupwise/ui/gwchatsearchdialog.cpp:70
 msgid "Updating chatroom list..."
 msgstr ""
 
-#: protocols/groupwise/ui/gwchatpropsdialog.cpp:36
-#: protocols/groupwise/ui/gwchatpropsdialog.cpp:49
+#: protocols/groupwise/ui/gwchatpropsdialog.cpp:35
+#: protocols/groupwise/ui/gwchatpropsdialog.cpp:48
 #, fuzzy
 msgid "Chatroom properties"
 msgstr "聯絡人屬性"
 
-#: protocols/groupwise/ui/gwsearch.cpp:105
+#: protocols/groupwise/ui/gwsearch.cpp:104
 msgid "User ID"
 msgstr "用戶 ID"
 
-#: protocols/groupwise/ui/gwsearch.cpp:329
+#: protocols/groupwise/ui/gwsearch.cpp:328
 msgid "Searching"
 msgstr "正在搜尋"
 
-#: protocols/groupwise/ui/gwsearch.cpp:392
+#: protocols/groupwise/ui/gwsearch.cpp:391
 #, kde-format
 msgid "1 matching user found"
 msgid_plural "%1 matching users found"
 msgstr[0] "找到 %1 個符合用戶"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:82
+#: protocols/groupwise/ui/gwcontactproperties.cpp:81
 msgid "Contact Properties"
 msgstr "聯絡人屬性"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:104
+#: protocols/groupwise/ui/gwcontactproperties.cpp:103
 msgid "Telephone Number"
 msgstr "電話號碼"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:106
+#: protocols/groupwise/ui/gwcontactproperties.cpp:105
 msgid "Department"
 msgstr "部門"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:108
+#: protocols/groupwise/ui/gwcontactproperties.cpp:107
 msgid "Location"
 msgstr "地點"
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:110
+#: protocols/groupwise/ui/gwcontactproperties.cpp:109
 msgid "Mailstop"
 msgstr ""
 
-#: protocols/groupwise/ui/gwcontactproperties.cpp:112
+#: protocols/groupwise/ui/gwcontactproperties.cpp:111
 msgid "Personal Title"
 msgstr "個人頭銜"
 
@@ -24083,24 +24083,24 @@ msgstr "自動回應訊息"
 msgid "Common Name"
 msgstr "共用名稱"
 
-#: protocols/groupwise/gwaccount.cpp:84
+#: protocols/groupwise/gwaccount.cpp:83
 msgid "&Set Auto-Reply..."
 msgstr "設定自動回應(&S)..."
 
-#: protocols/groupwise/gwaccount.cpp:87
+#: protocols/groupwise/gwaccount.cpp:86
 #, fuzzy
 msgid "&Join Channel..."
 msgstr "加入頻道..."
 
-#: protocols/groupwise/gwaccount.cpp:90
+#: protocols/groupwise/gwaccount.cpp:89
 msgid "&Manage Privacy..."
 msgstr "管理隱私(&M)..."
 
-#: protocols/groupwise/gwaccount.cpp:258
+#: protocols/groupwise/gwaccount.cpp:257
 msgid "GroupWise SSL Error"
 msgstr "GroupWise SSL 錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:371
+#: protocols/groupwise/gwaccount.cpp:370
 #, kde-format
 msgctxt "Message Sending Failed using the named local account"
 msgid ""
@@ -24109,18 +24109,18 @@ msgid ""
 "<wstephenson@novell.com> for analysis."
 msgstr ""
 
-#: protocols/groupwise/gwaccount.cpp:371
+#: protocols/groupwise/gwaccount.cpp:370
 #, fuzzy, kde-format
 #| msgid "Unable to Connect '%1'"
 msgctxt "message sending failed using the named local account"
 msgid "Unable to Send Message on Account '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:587
+#: protocols/groupwise/gwaccount.cpp:586
 msgid "Conflicting Changes Made Offline"
 msgstr "離線時作了有衝突的更改"
 
-#: protocols/groupwise/gwaccount.cpp:587
+#: protocols/groupwise/gwaccount.cpp:586
 #, fuzzy
 #| msgid ""
 #| "A change happened to your GroupWise contact list while you were offline "
@@ -24130,7 +24130,7 @@ msgid ""
 "which was impossible to reconcile."
 msgstr "當你離線時 GroupWise 聯絡人清單被更改，現在無法協調。"
 
-#: protocols/groupwise/gwaccount.cpp:660
+#: protocols/groupwise/gwaccount.cpp:659
 #, kde-format
 msgctxt "Error shown when connecting failed"
 msgid ""
@@ -24141,16 +24141,16 @@ msgstr ""
 "Kopete 無法連接『%1』帳號的 GroupWise Messenger 伺服器。\n"
 "請檢查你的伺服器及連接埠設置並重試。"
 
-#: protocols/groupwise/gwaccount.cpp:660
+#: protocols/groupwise/gwaccount.cpp:659
 #, kde-format
 msgid "Unable to Connect '%1'"
 msgstr "無法連接『%1』"
 
-#: protocols/groupwise/gwaccount.cpp:822
+#: protocols/groupwise/gwaccount.cpp:821
 msgid "GroupWise Connection Certificate Problem"
 msgstr "GroupWise 連線證書問題"
 
-#: protocols/groupwise/gwaccount.cpp:872
+#: protocols/groupwise/gwaccount.cpp:871
 #, kde-format
 msgctxt ""
 "Prefix used for automatically generated auto-reply messages when the contact "
@@ -24158,34 +24158,34 @@ msgctxt ""
 msgid "Auto reply from %1: "
 msgstr "來自 %1 的自動回應: "
 
-#: protocols/groupwise/gwaccount.cpp:878
+#: protocols/groupwise/gwaccount.cpp:877
 #, kde-format
 msgctxt "Prefix used for broadcast messages"
 msgid "Broadcast message from %1: "
 msgstr "來自 %1 的廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:884
+#: protocols/groupwise/gwaccount.cpp:883
 #, kde-format
 msgctxt "Prefix used for system broadcast messages"
 msgid "System Broadcast message from %1: "
 msgstr "來自 %1 的系統廣播訊息: "
 
-#: protocols/groupwise/gwaccount.cpp:1273
+#: protocols/groupwise/gwaccount.cpp:1272
 #, kde-format
 msgid ""
 "The contact %1 could not be added to the contact list, with error message: %2"
 msgstr "聯絡人 %1 無法加到聯絡人清單，錯誤訊息是: %2"
 
-#: protocols/groupwise/gwaccount.cpp:1275
+#: protocols/groupwise/gwaccount.cpp:1274
 msgid "Error Adding Contact"
 msgstr "加入聯絡人時發生錯誤"
 
-#: protocols/groupwise/gwaccount.cpp:1319
+#: protocols/groupwise/gwaccount.cpp:1318
 #, kde-format
 msgid "Signed in as %1 Elsewhere"
 msgstr "如同別處般以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1319
+#: protocols/groupwise/gwaccount.cpp:1318
 #, kde-format
 msgctxt "The parameter is the user's own account id for this protocol"
 msgid ""
@@ -24193,16 +24193,16 @@ msgid ""
 "%1 elsewhere"
 msgstr "你已被 GroupWise Messenger 中斷連線，因為你在別處以 %1 簽入"
 
-#: protocols/groupwise/gwaccount.cpp:1432
+#: protocols/groupwise/gwaccount.cpp:1431
 #, kde-format
 msgid "%1 has been invited to join this conversation."
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/groupwise/gwaccount.cpp:1458
+#: protocols/groupwise/gwaccount.cpp:1457
 msgid "Enter Auto-Reply Message"
 msgstr "輸入自動回應訊息"
 
-#: protocols/groupwise/gwaccount.cpp:1459
+#: protocols/groupwise/gwaccount.cpp:1458
 msgid ""
 "Please enter an Auto-Reply message that will be shown to users who message "
 "you while Away or Busy"
