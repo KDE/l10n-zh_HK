@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:15+0200\n"
+"POT-Creation-Date: 2009-07-05 11:43+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -31,21 +31,25 @@ msgstr "當前混音器"
 msgid "Select the channel representing the master volume:"
 msgstr "選取代表主音量的聲道:"
 
-#: dialogviewconfiguration.cpp:42 kmixprefdlg.cpp:41
+#: dialogviewconfiguration.cpp:152 kmixprefdlg.cpp:41
 msgid "Configure"
 msgstr ""
 
-#: dialogviewconfiguration.cpp:58
+#: dialogviewconfiguration.cpp:167
 msgid "Configuration of the channels."
 msgstr ""
 
-#: dialogviewconfiguration.cpp:73
-msgid "Show/Hide"
-msgstr ""
+#: dialogviewconfiguration.cpp:228
+#, fuzzy
+#| msgid "Available mixers:"
+msgid "Available channels"
+msgstr "可用的混音器:"
 
-#: dialogviewconfiguration.cpp:75
-msgid "Split"
-msgstr ""
+#: dialogviewconfiguration.cpp:232
+#, fuzzy
+#| msgid "Select Channel"
+msgid "Visible channels"
+msgstr "選取聲道"
 
 #: kmixapplet.cpp:94
 msgid "Configure - Mixer Applet"
@@ -91,46 +95,50 @@ msgstr "可用的混音器:"
 msgid "Invalid mixer entered."
 msgstr "輸入了無效的混音器。"
 
-#: kmix.cpp:119
+#: kmix.cpp:120
 msgid "Hardware &Information"
 msgstr "軟件資訊(&I)"
 
-#: kmix.cpp:122 kmixdockwidget.cpp:382
+#: kmix.cpp:123 kmixdockwidget.cpp:380
 msgid "Hide Mixer Window"
 msgstr "隱藏混音器視窗"
 
-#: kmix.cpp:126
+#: kmix.cpp:127
 #, fuzzy
 #| msgid "&Channels"
 msgid "Configure &Channels..."
 msgstr "聲道(&C)"
 
-#: kmix.cpp:130 mdwslider.cpp:111
+#: kmix.cpp:130 kmixdockwidget.cpp:103
+msgid "Select Master Channel..."
+msgstr "選取主聲道..."
+
+#: kmix.cpp:134 mdwslider.cpp:111
 #, fuzzy
 msgid "Increase Volume"
 msgstr "增加『%1』的音量"
 
-#: kmix.cpp:135 mdwslider.cpp:122
+#: kmix.cpp:139 mdwslider.cpp:122
 #, fuzzy
 msgid "Decrease Volume"
 msgstr "降低『%1』的音量"
 
-#: kmix.cpp:140 mdwslider.cpp:365
+#: kmix.cpp:144 mdwslider.cpp:365
 msgid "Mute"
 msgstr "靜音"
 
-#: kmix.cpp:493
+#: kmix.cpp:503
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
 
-#: kmix.cpp:502
+#: kmix.cpp:512
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: kmix.cpp:777
+#: kmix.cpp:789
 msgid "Mixer Hardware Information"
 msgstr "混音器軟件資訊"
 
@@ -162,24 +170,20 @@ msgstr "回復到預設音量"
 msgid "M&ute"
 msgstr "靜音(&U)"
 
-#: kmixdockwidget.cpp:104
-msgid "Select Master Channel..."
-msgstr "選取主聲道..."
-
-#: kmixdockwidget.cpp:193
+#: kmixdockwidget.cpp:191
 msgid "Mixer cannot be found"
 msgstr "找不到混音器"
 
-#: kmixdockwidget.cpp:213
+#: kmixdockwidget.cpp:211
 #, kde-format
 msgid "Volume at %1%"
 msgstr "在 %1% 的音量"
 
-#: kmixdockwidget.cpp:215
+#: kmixdockwidget.cpp:213
 msgid " (Muted)"
 msgstr "（已靜音）"
 
-#: kmixdockwidget.cpp:386
+#: kmixdockwidget.cpp:384
 msgid "Show Mixer Window"
 msgstr "顯示混音器視窗"
 
@@ -453,6 +457,35 @@ msgstr ""
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr "kmix: 不詳的錯誤。請匯報你如何做成這個錯誤。"
 
+#: mixer_oss4.cpp:349 mixer_oss.cpp:230
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
+msgstr ""
+"kmix: 你沒有足夠權限存取混音器裝置。\n"
+"用 root 身份執行『chmod a+rw /dev/mixer*』令你可存取這個裝置。 "
+
+#: mixer_oss4.cpp:353
+#, fuzzy
+#| msgid ""
+#| "kmix: Mixer cannot be found.\n"
+#| "Please check that the soundcard is installed and the\n"
+#| "soundcard driver is loaded.\n"
+#| "On Linux you might need to use 'insmod' to load the driver.\n"
+#| "Use 'soundon' when using commercial OSS."
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"kmix: 無法找到混音器。\n"
+"請確定音效卡已經安裝及音效卡的\n"
+"驅動程式亦已載入。\n"
+"在 Linux 系統下可能需要執行『insmod』以載入驅動程式。\n"
+"當使用商業版的 OSS 時，執行『soundon』。"
+
 #: mixer_oss.cpp:58
 msgid "Volume"
 msgstr "音量"
@@ -565,14 +598,6 @@ msgstr "3D-center"
 msgid "unused"
 msgstr "未使用"
 
-#: mixer_oss.cpp:230
-msgid ""
-"kmix: You do not have permission to access the mixer device.\n"
-"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
-msgstr ""
-"kmix: 你沒有足夠權限存取混音器裝置。\n"
-"用 root 身份執行『chmod a+rw /dev/mixer*』令你可存取這個裝置。 "
-
 #: mixer_oss.cpp:234
 msgid ""
 "kmix: Mixer cannot be found.\n"
@@ -619,11 +644,11 @@ msgstr ""
 "kmix: 你沒有足夠權限存取混音器裝置。\n"
 "請向系統管理員要求修正以存取這個裝置 /dev/audioctl 。"
 
-#: mixertoolbox.cpp:198
+#: mixertoolbox.cpp:199
 msgid "Sound drivers supported:"
 msgstr "支援的音效驅動程式:"
 
-#: mixertoolbox.cpp:199
+#: mixertoolbox.cpp:200
 msgid "Sound drivers used:"
 msgstr "已使用的音效驅動程式:"
 
@@ -688,7 +713,7 @@ msgstr "小聲(&T):"
 msgid "&File"
 msgstr "小聲(&U):"
 
-#. i18n: file: kmixui.rc:19
+#. i18n: file: kmixui.rc:20
 #. i18n: ectx: Menu (help)
 #: rc.cpp:33
 #, fuzzy
@@ -709,11 +734,11 @@ msgstr "trmetal@yahoo.com.hk,wwycheuk@netvigator.com"
 msgid "&Channels"
 msgstr "聲道(&C)"
 
-#: viewbase.cpp:146
+#: viewbase.cpp:182
 msgid "Device Settings"
 msgstr "裝置設置"
 
-#: viewdockareapopup.cpp:112
+#: viewdockareapopup.cpp:115
 msgid "Mixer"
 msgstr "混音器"
 
@@ -740,9 +765,6 @@ msgstr "混音器"
 
 #~ msgid "Toggle Mute of Master Channel"
 #~ msgstr "切換主聲道靜音狀態"
-
-#~ msgid "Select Channel"
-#~ msgstr "選取聲道"
 
 #~ msgid "The change of orientation will be adopted on the next start of KMix."
 #~ msgstr "方向更改將在下次啟動 KMix 時應用。"
