@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-17 12:01+0200\n"
+"POT-Creation-Date: 2009-07-19 11:37+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -188,22 +188,22 @@ msgstr ""
 msgid "Create a subfolder under the destination directory and extract here."
 msgstr ""
 
-#: app/mainwindow.cpp:125
+#: app/mainwindow.cpp:126
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:148
+#: app/mainwindow.cpp:149
 #, fuzzy
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "開啟(&O)"
 
-#: app/mainwindow.cpp:149
+#: app/mainwindow.cpp:150
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 
-#: app/mainwindow.cpp:150
+#: app/mainwindow.cpp:151
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Open an archive"
@@ -328,7 +328,7 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 msgid "Folder exists"
 msgstr "壓縮檔已經存在"
 
-#: kerfuffle/extractiondialog.cpp:107 part/part.cpp:317 part/part.cpp:714
+#: kerfuffle/extractiondialog.cpp:107 part/part.cpp:318 part/part.cpp:705
 msgid "Cancel"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Operation finished."
 msgstr "開啟解壓對話視窗，完成後離開"
 
-#: part/part.cpp:195
+#: part/part.cpp:196
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -536,146 +536,146 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:197
+#: part/part.cpp:198
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:202
+#: part/part.cpp:203
 #, fuzzy
 #| msgid "Extract"
 msgid "E&xtract"
 msgstr "解開"
 
-#: part/part.cpp:204
+#: part/part.cpp:205
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:211
+#: part/part.cpp:212
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:212
+#: part/part.cpp:213
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:218
+#: part/part.cpp:219
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:219
+#: part/part.cpp:220
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:225
+#: part/part.cpp:226
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:226
+#: part/part.cpp:227
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:247
+#: part/part.cpp:248
 #, fuzzy
 #| msgctxt "folder for opening files (used as part of a sentence)"
 #| msgid "open folder"
 msgid "Recent folders"
 msgstr "開啟資料夾"
 
-#: part/part.cpp:251
+#: part/part.cpp:252
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:308
+#: part/part.cpp:309
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:317
+#: part/part.cpp:318
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid "The file '%1' already exists. Would you like to open it instead?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:317
+#: part/part.cpp:318
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:317
+#: part/part.cpp:318
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:324
+#: part/part.cpp:325
 #, kde-format
 msgid "Error opening archive: the file '%1' was not found."
 msgstr ""
 
-#: part/part.cpp:324 part/part.cpp:368 part/part.cpp:409
+#: part/part.cpp:325 part/part.cpp:369 part/part.cpp:400
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
 
-#: part/part.cpp:354
+#: part/part.cpp:355
 msgid "Unable to Determine Archive Type"
 msgstr ""
 
-#: part/part.cpp:355
+#: part/part.cpp:356
 msgid ""
 "Ark was unable to determine the archive type of the filename.\n"
 "\n"
 "Please choose the correct archive type below."
 msgstr ""
 
-#: part/part.cpp:368
+#: part/part.cpp:369
 #, kde-format
 msgid ""
 "Ark was not able to open the archive '%1'. No library capable of handling "
 "the file was found."
 msgstr ""
 
-#: part/part.cpp:409
+#: part/part.cpp:400
 #, kde-format
 msgid "Reading the archive '%1' failed with the error '%2'"
 msgstr ""
 
-#: part/part.cpp:537
+#: part/part.cpp:528
 #, fuzzy, kde-format
 #| msgid "The folder could not be created. Please check permissions."
 msgid "The folder '%1' could not be created. Please check permissions."
 msgstr "無法建立資料夾，請檢查權限。"
 
-#: part/part.cpp:679
+#: part/part.cpp:670
 #, fuzzy
 #| msgid "All Files"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:687
+#: part/part.cpp:678
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:714
+#: part/part.cpp:705
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:714
+#: part/part.cpp:705
 #, fuzzy
 #| msgid "Selected files only"
 msgid "Delete files"
