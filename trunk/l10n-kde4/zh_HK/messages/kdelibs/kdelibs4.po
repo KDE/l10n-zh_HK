@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-15 13:03+0200\n"
+"POT-Creation-Date: 2009-07-20 11:32+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -7399,7 +7399,7 @@ msgstr ""
 #: kdeui/shortcuts/kglobalaccel.cpp:540
 #: kdeui/widgets/kkeysequencewidget.cpp:179
 #: kdeui/widgets/kkeysequencewidget.cpp:261
-#: kdeui/widgets/kkeysequencewidget.cpp:641
+#: kdeui/widgets/kkeysequencewidget.cpp:653
 msgid "Reassign"
 msgstr "重新指定"
 
@@ -7762,7 +7762,7 @@ msgstr "預設"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:675
+#: kdeui/widgets/kkeysequencewidget.cpp:687
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
@@ -11177,11 +11177,24 @@ msgstr ""
 " '%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "請選擇其他唯一的按鍵組合。"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:635
+#: kdeui/widgets/kkeysequencewidget.cpp:506
+#, fuzzy
+#| msgid "Shortcut"
+msgid "Reserved Shortcut"
+msgstr "快速鍵"
+
+#: kdeui/widgets/kkeysequencewidget.cpp:507
+msgid ""
+"The F12 key is reserved on Windows and it can't be used for a global "
+"shortcut.\n"
+"Please choose another one"
+msgstr ""
+
+#: kdeui/widgets/kkeysequencewidget.cpp:647
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快速鍵定義衝突"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:636
+#: kdeui/widgets/kkeysequencewidget.cpp:648
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -11191,18 +11204,18 @@ msgstr ""
 "'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:668
+#: kdeui/widgets/kkeysequencewidget.cpp:680
 #, fuzzy
 #| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "輸入檔案"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:718
+#: kdeui/widgets/kkeysequencewidget.cpp:730
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:719
+#: kdeui/widgets/kkeysequencewidget.cpp:731
 #, fuzzy
 #| msgid "Untrusted"
 msgid "Unsupported Key"
