@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-30 06:23+0200\n"
+"POT-Creation-Date: 2009-08-01 06:15+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1734,7 +1734,7 @@ msgstr "視窗"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:764 kparts/browserrun.cpp:304
+#: rc.cpp:764 kparts/browserrun.cpp:312
 msgid "Execute"
 msgstr "執行"
 
@@ -11474,7 +11474,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3719 khtml/khtml_part.cpp:3929
-#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:453
+#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:461
 msgid "Save As"
 msgstr "另存新檔"
 
@@ -11742,13 +11742,13 @@ msgstr "覆寫檔案嗎？"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:424
+#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:432
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "找不到下載管理程式 (%1)，請檢查你的安裝是否正確，包含 PATH 路徑有設定正確。"
 
-#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:425
+#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:433
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -12402,10 +12402,15 @@ msgid "Basic Page Style"
 msgstr "基本頁面風格"
 
 #: khtml/ecma/kjs_binding.cpp:184
+#, fuzzy
+#| msgid ""
+#| "A script on this page is causing KHTML to freeze. If it continues to run, "
+#| "other applications may become less responsive.\n"
+#| "Do you want to abort the script?"
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
 "other applications may become less responsive.\n"
-"Do you want to abort the script?"
+"Do you want to stop the script?"
 msgstr ""
 "此頁面上的命令稿導致 KHTML 凍結。如果繼續執行的話，其他應用程式的回應程度會受"
 "到影響。\n"
@@ -12416,8 +12421,9 @@ msgid "JavaScript"
 msgstr "JavaScript"
 
 #: khtml/ecma/kjs_binding.cpp:184
-msgid "&Abort"
-msgstr "中止(&A)"
+#, fuzzy
+msgid "&Stop Script"
+msgstr "語文(&I)"
 
 #: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2118
 msgid "Confirmation: JavaScript Popup"
@@ -13076,9 +13082,9 @@ msgstr ""
 
 #: kross/modules/form.cpp:303
 #, fuzzy
-#| msgid "Abort"
-msgid "Abort?"
-msgstr "中止"
+#| msgid "Cancel"
+msgid "Cancel?"
+msgstr "取消"
 
 #: solid/examples/minibrowser/main.cpp:232
 msgid "Solid Browser"
@@ -13366,17 +13372,17 @@ msgstr ""
 msgid "Close Document"
 msgstr "關閉文件"
 
-#: kparts/browserrun.cpp:303
+#: kparts/browserrun.cpp:311
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you really want to execute '%1'?"
 msgstr "你真的要執行‘%1’？"
 
-#: kparts/browserrun.cpp:304
+#: kparts/browserrun.cpp:312
 msgid "Execute File?"
 msgstr "執行檔案嗎？"
 
-#: kparts/browserrun.cpp:322
+#: kparts/browserrun.cpp:330
 #, kde-format
 msgid ""
 "Open '%2'?\n"
@@ -13385,7 +13391,7 @@ msgstr ""
 "開啟 '%2'？\n"
 "類別：%1"
 
-#: kparts/browserrun.cpp:324
+#: kparts/browserrun.cpp:332
 #, kde-format
 msgid ""
 "Open '%3'?\n"
@@ -13396,18 +13402,18 @@ msgstr ""
 "名稱： %2\n"
 "類別：%1"
 
-#: kparts/browserrun.cpp:340
+#: kparts/browserrun.cpp:348
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "開啟用 '%1'(&O)"
 
-#: kparts/browserrun.cpp:342
+#: kparts/browserrun.cpp:350
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "開啟用(&O)..."
 
-#: kparts/browserrun.cpp:387
+#: kparts/browserrun.cpp:395
 msgid "&Open"
 msgstr "開啟(&O)"
 
@@ -14612,6 +14618,14 @@ msgstr "每日小祕訣(&D)"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
+
+#~ msgid "&Abort"
+#~ msgstr "中止(&A)"
+
+#, fuzzy
+#~| msgid "Abort"
+#~ msgid "Abort?"
+#~ msgstr "中止"
 
 #, fuzzy
 #~| msgid "Download New %1"
