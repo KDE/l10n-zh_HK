@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoloredit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-22 10:27+0100\n"
+"POT-Creation-Date: 2009-08-11 06:52+0200\n"
 "PO-Revision-Date: 2006-01-08 19:04+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -50,12 +50,12 @@ msgstr ""
 msgid "File to open (Text file with colors and comments items)"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:109 src/app/kcoloredit.cpp:242
-#: src/app/kcoloredit.cpp:252
+#: src/app/kcoloredit.cpp:115 src/app/kcoloredit.cpp:203
+#: src/app/kcoloredit.cpp:213
 msgid "Untitled"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:112
+#: src/app/kcoloredit.cpp:118
 #, fuzzy, kde-format
 #| msgid ""
 #| "The current file has been modified.\n"
@@ -65,11 +65,11 @@ msgid ""
 "Do you want to save your changes or discard them?"
 msgstr "目前使用的檔案已經被修改過，請問您要儲存嗎？"
 
-#: src/app/kcoloredit.cpp:114
+#: src/app/kcoloredit.cpp:120
 msgid "Close Document"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:150
+#: src/app/kcoloredit.cpp:156
 #, fuzzy, kde-format
 #| msgid ""
 #| "A Document with this name already exists.\n"
@@ -78,47 +78,47 @@ msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "已有同名的檔案。要覆蓋它嗎？"
 
-#: src/app/kcoloredit.cpp:150
+#: src/app/kcoloredit.cpp:156
 msgid "Overwrite"
 msgstr "覆蓋"
 
-#: src/app/kcoloredit.cpp:166
+#: src/app/kcoloredit.cpp:172
 msgid ""
 "This action will delete all items (colors and comments) of the current "
 "palette."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:168 src/app/kcoloredit.cpp:336
+#: src/app/kcoloredit.cpp:174 src/app/kcoloredit.cpp:299
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Clean Palette"
 msgstr "載入色板"
 
-#: src/app/kcoloredit.cpp:178
+#: src/app/kcoloredit.cpp:184
 msgid ""
 "This action will replace the name of all color items with names in this "
 "format #RRGGBB."
 msgstr ""
 
-#: src/app/kcoloredit.cpp:180 src/app/kcoloredit.cpp:340
+#: src/app/kcoloredit.cpp:186 src/app/kcoloredit.cpp:303
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgid "Generate Color Names"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/app/kcoloredit.cpp:244
+#: src/app/kcoloredit.cpp:205
 msgid "[modified]"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:292
-msgid "Brief view"
+#: src/app/kcoloredit.cpp:255
+msgid "Quick view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:298
+#: src/app/kcoloredit.cpp:261
 msgid "Detail view"
 msgstr ""
 
-#: src/app/kcoloredit.cpp:344
+#: src/app/kcoloredit.cpp:307
 #, fuzzy
 #| msgid "Hide &Color Names"
 msgctxt ""
@@ -126,48 +126,6 @@ msgctxt ""
 "a palette"
 msgid "Complete Color Names"
 msgstr "隱藏色彩名稱(&C)"
-
-#: src/app/kcoloredit.cpp:356
-#, fuzzy
-#| msgid "Add Color"
-msgid "Append Color"
-msgstr "加增顏色"
-
-#: src/app/kcoloredit.cpp:360
-#, fuzzy
-#| msgid "Add Color"
-msgid "Append Comment"
-msgstr "加增顏色"
-
-#: src/app/kcoloredit.cpp:364
-#, fuzzy
-#| msgid "Custom Colors"
-msgid "Insert Color"
-msgstr "自訂顏色"
-
-#: src/app/kcoloredit.cpp:368
-msgid "Insert Comment"
-msgstr ""
-
-#: src/app/kcoloredit.cpp:372
-msgid "Remove Item"
-msgstr ""
-
-#: src/app/kcoloredit.cpp:376
-msgid "Prev position"
-msgstr ""
-
-#: src/app/kcoloredit.cpp:380
-msgid "Next position"
-msgstr ""
-
-#: src/app/kcoloredit.cpp:384
-msgid "First position"
-msgstr ""
-
-#: src/app/kcoloredit.cpp:388
-msgid "Last position"
-msgstr ""
 
 #: src/core/palettedocument.cpp:57
 #, fuzzy
@@ -230,7 +188,7 @@ msgid "Search Palettes"
 msgstr "載入色板"
 
 #: src/itemviews/palettebriefview.cpp:39
-msgid "Quick navigation"
+msgid "Use mouse"
 msgstr ""
 
 #: src/itemviews/palettebriefview.cpp:41
@@ -247,77 +205,111 @@ msgstr "顯示色彩名稱(&C)"
 msgid "If checked, views will be synchronized"
 msgstr ""
 
-#: src/itemviews/palettedetailview.cpp:56
-#: src/itemviews/palettedetailview.cpp:198
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:54
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Insert Color"
+msgstr "自訂顏色"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
 msgid "Add description"
 msgstr ""
 
-#: src/itemviews/palettedetailview.cpp:61
+#: src/itemviews/palettedetailview.cpp:167
 #, fuzzy
 #| msgid "Load Palette"
 msgid "Palette Name:"
 msgstr "載入色板"
 
-#: src/itemviews/palettedetailview.cpp:66
+#: src/itemviews/palettedetailview.cpp:172
 msgid " for this palette"
 msgstr ""
 
-#: src/itemviews/palettedetailview.cpp:196
+#: src/itemviews/palettedetailview.cpp:312
 msgid "Edit description"
 msgstr ""
 
-#: src/widgets/kcoloreditwidget.cpp:41
-#, fuzzy
-#| msgid "Color at Cursor"
-msgid "Color tool:"
-msgstr "在游標處的顏色"
+#: src/widgets/kcoloreditwidget.cpp:40
+msgid "Tool:"
+msgstr ""
 
-#: src/widgets/kcoloreditwidget.cpp:44
+#: src/widgets/kcoloreditwidget.cpp:43
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "KDE selector"
 msgstr "在游標處的顏色"
 
-#: src/widgets/kcoloreditwidget.cpp:48
+#: src/widgets/kcoloreditwidget.cpp:47
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "GTK selector"
 msgstr "在游標處的顏色"
 
-#: src/widgets/kcoloreditwidget.cpp:52
+#: src/widgets/kcoloreditwidget.cpp:51
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "Gradient selector"
 msgstr "在游標處的顏色"
 
-#: src/widgets/kcoloreditwidget.cpp:56
+#: src/widgets/kcoloreditwidget.cpp:55
 msgctxt "Set of extra tools apart of color selectors"
 msgid "Extras"
 msgstr ""
 
-#: src/widgets/kcoloreditwidget.cpp:66
-msgid "Color information:"
+#: src/widgets/kcoloreditwidget.cpp:63
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
 msgstr ""
 
-#: src/widgets/kcoloreditwidget.cpp:79
-msgid "Color scheme:"
+#: src/widgets/kcoloreditwidget.cpp:80
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfovisual.cpp:54
+msgid "Selected"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
 #, fuzzy
 #| msgid "Add Color"
 msgid "Complement"
 msgstr "加增顏色"
 
-#: src/widgets/colorinfo/colorinfovisual.cpp:82
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
 msgid "Triadic"
 msgstr ""
 
-#: src/widgets/colorinfo/colorinfovisual.cpp:113
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
 msgid "Tetradic"
 msgstr ""
 
-#: src/widgets/colorinfo/colorinfovisual.cpp:145
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
 msgid "Analogous"
 msgstr ""
 
@@ -326,7 +318,7 @@ msgid "Copy color values to clipboard"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:105
-msgid "RGB Model"
+msgid "RGB"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:106
@@ -347,7 +339,7 @@ msgid "Blue"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:124
-msgid "HSV Model"
+msgid "HSV"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:125
@@ -357,7 +349,7 @@ msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:125
 #: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
-#: src/widgets/colortoolwidget.cpp:98
+#: src/widgets/colortoolwidget.cpp:101
 msgid "Saturation"
 msgstr ""
 
@@ -369,7 +361,7 @@ msgid "Value"
 msgstr "變數"
 
 #: src/widgets/colorinfo/colorinfotext.cpp:144
-msgid "CMYK Model"
+msgid "CMY"
 msgstr ""
 
 #: src/widgets/colorinfo/colorinfotext.cpp:145
@@ -414,14 +406,14 @@ msgstr ""
 msgid "Generate a random color"
 msgstr "隱藏色彩名稱(&C)"
 
-#: src/widgets/colorwidget.cpp:47
+#: src/widgets/colorwidget.cpp:48
 #, fuzzy
 #| msgid "Add Color"
 msgid "Append color"
 msgstr "加增顏色"
 
-#: src/widgets/colorwidget.cpp:52
-msgid "Copy color name to clipboard"
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
 msgstr ""
 
 #: src/widgets/palettedescriptionwidget.cpp:128
@@ -438,29 +430,43 @@ msgstr ""
 msgid "Brightness"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:81 src/widgets/colortoolwidget.cpp:100
-msgid "Decrease"
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:82 src/widgets/colortoolwidget.cpp:101
-msgid "Increase"
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:117
+#: src/widgets/colortoolwidget.cpp:123
 #, fuzzy
 #| msgid "Color at Cursor"
 msgid "Color selectors"
 msgstr "在游標處的顏色"
 
-#: src/widgets/colortoolwidget.cpp:119
+#: src/widgets/colortoolwidget.cpp:125
 msgid "Pick a color"
 msgstr ""
 
-#: src/widgets/colortoolwidget.cpp:128
+#: src/widgets/colortoolwidget.cpp:134
 #, fuzzy
 #| msgid "New &Window"
 msgid "Hide window"
 msgstr "新視窗(&W)"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -480,11 +486,20 @@ msgstr "hcy@outpost.twbbs.org,wwycheuk@netvigator.com"
 msgid "Palette"
 msgstr "載入色板"
 
-#. i18n: file: desktop/kcoloreditui.rc:17
-#. i18n: ectx: ToolBar (palette-toolbar)
-#: rc.cpp:8
-msgid "Palette Toolbar"
-msgstr ""
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Color"
+#~ msgstr "加增顏色"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Comment"
+#~ msgstr "加增顏色"
+
+#, fuzzy
+#~| msgid "Color at Cursor"
+#~ msgid "Color tool:"
+#~ msgstr "在游標處的顏色"
 
 #, fuzzy
 #~| msgid "Name"
