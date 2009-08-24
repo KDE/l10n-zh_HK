@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-22 06:54+0200\n"
+"POT-Creation-Date: 2009-08-24 06:51+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -146,51 +146,51 @@ msgstr "進階選項"
 msgid "Transfer Plugins"
 msgstr "開啟傳輸："
 
-#: core/transfertreemodel.cpp:313
+#: core/transfertreemodel.cpp:319
 #, fuzzy
 #| msgid "Name"
 msgctxt "name of download"
 msgid "Name"
 msgstr "名稱"
 
-#: core/transfertreemodel.cpp:315
+#: core/transfertreemodel.cpp:321
 #, fuzzy
 msgctxt "status of download"
 msgid "Status"
 msgstr "重新開始(&S)"
 
-#: core/transfertreemodel.cpp:317
+#: core/transfertreemodel.cpp:323
 msgctxt "size of download"
 msgid "Size"
 msgstr ""
 
-#: core/transfertreemodel.cpp:319
+#: core/transfertreemodel.cpp:325
 #, fuzzy
 msgctxt "progress of download"
 msgid "Progress"
 msgstr "進度對話方塊"
 
-#: core/transfertreemodel.cpp:321
+#: core/transfertreemodel.cpp:327
 #, fuzzy
 #| msgid "Speed"
 msgctxt "speed of download"
 msgid "Speed"
 msgstr "速度"
 
-#: core/transfertreemodel.cpp:323
+#: core/transfertreemodel.cpp:329
 #, fuzzy
 #| msgid "Rem. Time"
 msgctxt "remaining time of download"
 msgid "Remaining Time"
 msgstr "剩下的時間"
 
-#: core/transfertreemodel.cpp:592
+#: core/transfertreemodel.cpp:598
 #, fuzzy
 #| msgid "Name"
 msgid "Name"
 msgstr "名稱"
 
-#: core/transfertreemodel.cpp:594
+#: core/transfertreemodel.cpp:600
 #: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
 #: ui/history/transferhistory.cpp:247
 #, fuzzy
@@ -199,33 +199,33 @@ msgstr "重新開始(&S)"
 
 #. i18n: file: ui/history/transferhistory.ui:120
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
-#: core/transfertreemodel.cpp:596
+#: core/transfertreemodel.cpp:602
 #: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:377
 #: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:70
 #: rc.cpp:557
 msgid "Size"
 msgstr ""
 
-#: core/transfertreemodel.cpp:598
+#: core/transfertreemodel.cpp:604
 #: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:211
 #, fuzzy
 msgid "Progress"
 msgstr "進度對話方塊"
 
-#: core/transfertreemodel.cpp:600
+#: core/transfertreemodel.cpp:606
 #: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
 #, fuzzy
 #| msgid "Speed"
 msgid "Speed"
 msgstr "速度"
 
-#: core/transfertreemodel.cpp:602
+#: core/transfertreemodel.cpp:608
 #, fuzzy
 #| msgid "Rem. Time"
 msgid "Remaining Time"
 msgstr "剩下的時間"
 
-#: core/transferhandler.cpp:148
+#: core/transferhandler.cpp:130
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:27
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:28
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:29
@@ -234,58 +234,37 @@ msgstr "剩下的時間"
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:32
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:33
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:34
-#: ui/transfersviewdelegate.cpp:353
+#: ui/transfersviewdelegate.cpp:352
 msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:156
+#: core/transferhandler.cpp:138
 #: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1489
 #: ui/transferdetails.cpp:103
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
-#: core/transferhandler.cpp:161 core/transfergrouphandler.cpp:130
+#: core/transferhandler.cpp:143 core/transfergrouphandler.cpp:113
 #: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:263
 #: ui/transferdetails.cpp:108
 #, kde-format
 msgid "%1/s"
 msgstr "%1/秒"
 
-#. i18n: file: conf/dlgadvanced.ui:40
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: core/transferhandler.cpp:402 core/transferhandler.cpp:412
-#: ui/droptarget.cpp:94 rc.cpp:65
-#, fuzzy
-#| msgid "KGet"
-msgid "Quit KGet"
-msgstr "KGet"
-
-#: core/transferhandler.cpp:403
-#, fuzzy
-#| msgid "All the downloads are finished."
-msgid "KGet is now closing, as all downloads have completed."
-msgstr "所有下載已完成。"
-
-#: core/transferhandler.cpp:413
-#, fuzzy
-#| msgid "All the downloads are finished."
-msgid "The computer will now turn off, as all downloads have completed."
-msgstr "所有下載已完成。"
-
-#: core/transfergrouphandler.cpp:114
+#: core/transfergrouphandler.cpp:97
 #, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] ""
 
-#: core/transfergrouphandler.cpp:312
+#: core/transfergrouphandler.cpp:181
 #, fuzzy
 msgctxt "start transfergroup downloads"
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: core/transfergrouphandler.cpp:318
+#: core/transfergrouphandler.cpp:187
 #, fuzzy
 msgctxt "stop transfergroup downloads"
 msgid "Stop"
@@ -331,13 +310,13 @@ msgstr ""
 "寫入檔案時發生錯誤：\n"
 "%1"
 
-#: core/kget.cpp:235
+#: core/kget.cpp:209
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:510
+#: core/kget.cpp:481
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -348,42 +327,42 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:511
+#: core/kget.cpp:482
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:524
+#: core/kget.cpp:495
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:525 core/kget.cpp:906 core/kget.cpp:914
+#: core/kget.cpp:496 core/kget.cpp:836 core/kget.cpp:844
 #: transfer-plugins/bittorrent/bttransfer.cpp:333
 #: transfer-plugins/bittorrent/bttransfer.cpp:344
 msgid "Error"
 msgstr ""
 
-#: core/kget.cpp:734 ui/contextmenu.cpp:139
+#: core/kget.cpp:704 ui/contextmenu.cpp:139
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:846 ui/newtransferdialog.cpp:238 rc.cpp:472
+#: core/kget.cpp:776 ui/newtransferdialog.cpp:238 rc.cpp:472
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:846
+#: core/kget.cpp:776
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:879
+#: core/kget.cpp:809
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:905
+#: core/kget.cpp:835
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -392,7 +371,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:913
+#: core/kget.cpp:843
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -404,7 +383,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:926
+#: core/kget.cpp:856
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -415,16 +394,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:927
+#: core/kget.cpp:857
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:955 core/kget.cpp:962
+#: core/kget.cpp:885 core/kget.cpp:892
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:972
+#: core/kget.cpp:902
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -437,18 +416,18 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:973
+#: core/kget.cpp:903
 #, fuzzy
 msgid "Overwrite destination"
 msgstr "開啟目的地(&D)"
 
-#: core/kget.cpp:1101
+#: core/kget.cpp:1031
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1119
+#: core/kget.cpp:1049
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -459,7 +438,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1129
+#: core/kget.cpp:1059
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -469,6 +448,26 @@ msgstr ""
 "因為\n"
 "%1\n"
 "不是本機檔案，未能刪除。"
+
+#. i18n: file: conf/dlgadvanced.ui:40
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
+#: core/kget.cpp:1248 core/kget.cpp:1258 ui/droptarget.cpp:94 rc.cpp:65
+#, fuzzy
+#| msgid "KGet"
+msgid "Quit KGet"
+msgstr "KGet"
+
+#: core/kget.cpp:1249
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "KGet is now closing, as all downloads have completed."
+msgstr "所有下載已完成。"
+
+#: core/kget.cpp:1259
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "The computer will now turn off, as all downloads have completed."
+msgstr "所有下載已完成。"
 
 #: transfer-plugins/kio/transferKio.cpp:38
 #: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:46
@@ -1661,7 +1660,7 @@ msgid "Rename Group..."
 msgid_plural "Rename Groups..."
 msgstr[0] "預設的資料夾"
 
-#: ui/transfersviewdelegate.cpp:496
+#: ui/transfersviewdelegate.cpp:493
 #, fuzzy
 msgid "Transfer Details"
 msgstr " 傳輸： %1"
