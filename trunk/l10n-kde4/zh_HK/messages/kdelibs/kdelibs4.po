@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -7286,7 +7286,7 @@ msgstr "不要再顯示這個訊息"
 msgid "About %1"
 msgstr "關於 %1"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "設定"
 
@@ -9537,6 +9537,16 @@ msgstr "工具列"
 #| msgid "New hostname"
 msgid "without name"
 msgstr "新的主機名稱"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Could not create the new configuration file."
+msgid "You are not allowed to save the configuration"
+msgstr "無法建立新的設定檔。"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -12750,8 +12760,11 @@ msgid "Send Confirmation"
 msgstr "傳送確定"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "傳送檔案(&S)"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "傳送檔案(&S)"
 
 #: khtml/html/html_formimpl.cpp:2619
 #, fuzzy
@@ -13632,25 +13645,7 @@ msgstr ""
 msgid "Print Preview"
 msgstr "預覽列印(&W)..."
 
-#: kutils/kcmoduleproxy.cpp:131
-#, fuzzy
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr "<b>這個部份的更改需要 root 權限。</b><br />請按\"管理員模式\"來更改。"
-
-#: kutils/kcmoduleproxy.cpp:138
-#, fuzzy
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"這個部份需要特別權限。它的更改很有可能是系統性的。因此，它需要 root 密碼來更"
-"改這個模組的選項。如果你不輸入密碼，模組會被關閉。"
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -14679,6 +14674,23 @@ msgstr "每日小祕訣(&D)"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>這個部份的更改需要 root 權限。</b><br />請按\"管理員模式\"來更改。"
+
+#, fuzzy
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "這個部份需要特別權限。它的更改很有可能是系統性的。因此，它需要 root 密碼來"
+#~ "更改這個模組的選項。如果你不輸入密碼，模組會被關閉。"
 
 #~ msgid "&Abort"
 #~ msgstr "中止(&A)"
@@ -17721,9 +17733,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr ""
 #~ "無法讀取 kab 的設定範本檔。\n"
 #~ "無法設定 kab。"
-
-#~ msgid "Could not create the new configuration file."
-#~ msgstr "無法建立新的設定檔。"
 
 #~ msgid ""
 #~ "Cannot load kab's local configuration file.\n"
