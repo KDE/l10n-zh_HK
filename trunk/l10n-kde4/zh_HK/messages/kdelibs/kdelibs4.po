@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:09+0200\n"
+"POT-Creation-Date: 2009-09-16 06:54+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3713,11 +3713,11 @@ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:676
+#: kdecore/config/kconfig.cpp:681
 msgid "Please contact your system administrator."
 msgstr "請聯絡你的系統管理者。"
 
-#: kdecore/config/kconfigini.cpp:511
+#: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "設定檔 \"%1\" 是不可寫入的。\n"
@@ -4252,7 +4252,18 @@ msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "找不到‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:897
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; %3 application name, other %n "
+"version strings"
+msgid ""
+"Qt: %1\n"
+"KDE: %2\n"
+"%3: %4\n"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:922
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -4262,86 +4273,86 @@ msgstr ""
 "%1 的作者是：\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:919
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:932
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:928
+#: kdecore/kernel/kcmdlineargs.cpp:934
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "請回報問題到 %1。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:953
+#: kdecore/kernel/kcmdlineargs.cpp:959
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "未預料到的參數‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1070
+#: kdecore/kernel/kcmdlineargs.cpp:1076
 msgid "Use --help to get a list of available command line options."
 msgstr "使用 --help 以取得可用指令行選項的清單。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1093
+#: kdecore/kernel/kcmdlineargs.cpp:1099
 msgid "[options] "
 msgstr "[選項] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1100
+#: kdecore/kernel/kcmdlineargs.cpp:1106
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-選項]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1121
+#: kdecore/kernel/kcmdlineargs.cpp:1127
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "用法：%1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1124
+#: kdecore/kernel/kcmdlineargs.cpp:1130
 #, fuzzy
 msgid ""
 "\n"
 "Generic options:\n"
 msgstr "一般選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1126
+#: kdecore/kernel/kcmdlineargs.cpp:1132
 msgid "Show help about options"
 msgstr "顯示關於選項的說明"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1134
+#: kdecore/kernel/kcmdlineargs.cpp:1140
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "顯示 %1 相關的選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1147
 msgid "Show all options"
 msgstr "顯示所有選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1148
 msgid "Show author information"
 msgstr "顯示作者資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1149
 msgid "Show version information"
 msgstr "顯示版本資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1144
+#: kdecore/kernel/kcmdlineargs.cpp:1150
 msgid "Show license information"
 msgstr "顯示版權資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1145
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 msgid "End of options"
 msgstr "選項結尾"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1166
+#: kdecore/kernel/kcmdlineargs.cpp:1172
 #, fuzzy, kde-format
 msgid ""
 "\n"
 "%1 options:\n"
 msgstr "%1 個選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1168
+#: kdecore/kernel/kcmdlineargs.cpp:1174
 msgid ""
 "\n"
 "Options:\n"
@@ -4349,7 +4360,7 @@ msgstr ""
 "\n"
 "選項：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1226
+#: kdecore/kernel/kcmdlineargs.cpp:1232
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4357,15 +4368,15 @@ msgstr ""
 "\n"
 "參數：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1582
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1583
+#: kdecore/kernel/kcmdlineargs.cpp:1589
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:252
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -4376,11 +4387,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:253
+#: kdecore/kernel/ktoolinvocation_x11.cpp:254
 msgid "Could not Launch Mail Client"
 msgstr "無法執行電子郵件客戶程式。"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:307
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
+#: kdecore/kernel/ktoolinvocation_x11.cpp:325
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -4391,11 +4403,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:308
+#: kdecore/kernel/ktoolinvocation_x11.cpp:300
+#: kdecore/kernel/ktoolinvocation_x11.cpp:326
 msgid "Could not Launch Browser"
 msgstr "無法執行網頁瀏覽器"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:347
+#: kdecore/kernel/ktoolinvocation_x11.cpp:365
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -4410,7 +4423,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:348
+#: kdecore/kernel/ktoolinvocation_x11.cpp:366
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -7455,9 +7468,9 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:571
 #: kdeui/dialogs/kshortcutseditor.cpp:587 kdeui/shortcuts/kglobalaccel.cpp:501
 #: kdeui/shortcuts/kglobalaccel.cpp:540
-#: kdeui/widgets/kkeysequencewidget.cpp:180
-#: kdeui/widgets/kkeysequencewidget.cpp:262
-#: kdeui/widgets/kkeysequencewidget.cpp:656
+#: kdeui/widgets/kkeysequencewidget.cpp:179
+#: kdeui/widgets/kkeysequencewidget.cpp:261
+#: kdeui/widgets/kkeysequencewidget.cpp:655
 msgid "Reassign"
 msgstr "重新指定"
 
@@ -7820,7 +7833,7 @@ msgstr "預設"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:690
+#: kdeui/widgets/kkeysequencewidget.cpp:689
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
@@ -8734,27 +8747,27 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "與系統的全域快速鍵定義衝突"
 
-#: kdeui/shortcuts/kgesture.cpp:519
+#: kdeui/shortcuts/kgesture.cpp:517
 msgctxt "left mouse button"
 msgid "left button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:522
+#: kdeui/shortcuts/kgesture.cpp:520
 msgctxt "middle mouse button"
 msgid "middle button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:525
+#: kdeui/shortcuts/kgesture.cpp:523
 msgctxt "right mouse button"
 msgid "right button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:528
+#: kdeui/shortcuts/kgesture.cpp:526
 msgctxt "a nonexistent value of mouse button"
 msgid "invalid button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:542
+#: kdeui/shortcuts/kgesture.cpp:540
 #, kde-format
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
@@ -9457,41 +9470,41 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 msgid "Desktop %1"
 msgstr "桌面 %1"
 
-#: kdeui/sonnet/dialog.cpp:102 kdeui/sonnet/dialog.cpp:218
-#: kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:225
+#: kdeui/sonnet/dialog.cpp:444
 #, fuzzy
 #| msgid "Check Spelling"
 msgctxt "@title:window"
 msgid "Check Spelling"
 msgstr "拼字檢查"
 
-#: kdeui/sonnet/dialog.cpp:104
+#: kdeui/sonnet/dialog.cpp:105
 #, fuzzy
 #| msgid "&Finished"
 msgctxt "@action:button"
 msgid "&Finished"
 msgstr "完成(&F)"
 
-#: kdeui/sonnet/dialog.cpp:219
+#: kdeui/sonnet/dialog.cpp:226
 #, fuzzy
 #| msgid "Spell Checker"
 msgctxt "progress label"
 msgid "Spell checking in progress..."
 msgstr "拼字檢查程式"
 
-#: kdeui/sonnet/dialog.cpp:240
+#: kdeui/sonnet/dialog.cpp:247
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check stopped."
 msgstr "拼字檢查程式"
 
-#: kdeui/sonnet/dialog.cpp:251
+#: kdeui/sonnet/dialog.cpp:258
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check canceled."
 msgstr "拼字檢查程式"
 
-#: kdeui/sonnet/dialog.cpp:426 kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:440 kdeui/sonnet/dialog.cpp:444
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check complete."
@@ -11201,35 +11214,35 @@ msgstr "無法識別"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:167
+#: kdeui/widgets/kkeysequencewidget.cpp:166
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:174
+#: kdeui/widgets/kkeysequencewidget.cpp:173
 #, kde-format
 msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:178
+#: kdeui/widgets/kkeysequencewidget.cpp:177
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
 msgstr "與系統的全域快速鍵定義衝突"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:247
+#: kdeui/widgets/kkeysequencewidget.cpp:246
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut Conflict(s)"
 msgstr "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:251
+#: kdeui/widgets/kkeysequencewidget.cpp:250
 #, fuzzy, kde-format
 #| msgid "Content information: %1\n"
 msgid "Shortcut(s) '%1' for action '%2'\n"
 msgstr "內容資訊:：%1\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:256
+#: kdeui/widgets/kkeysequencewidget.cpp:255
 #, fuzzy, kde-format
 msgid ""
 "The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
@@ -11239,13 +11252,13 @@ msgstr ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:270
+#: kdeui/widgets/kkeysequencewidget.cpp:269
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:271
+#: kdeui/widgets/kkeysequencewidget.cpp:270
 #, fuzzy, kde-format
 #| msgid ""
 #| "The '%1' key combination has already been allocated to the \"%2\" "
@@ -11258,30 +11271,30 @@ msgstr ""
 " '%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "請選擇其他唯一的按鍵組合。"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:302
+#: kdeui/widgets/kkeysequencewidget.cpp:301
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:509
+#: kdeui/widgets/kkeysequencewidget.cpp:508
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Reserved Shortcut"
 msgstr "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:510
+#: kdeui/widgets/kkeysequencewidget.cpp:509
 msgid ""
 "The F12 key is reserved on Windows and it can't be used for a global "
 "shortcut.\n"
 "Please choose another one"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:650
+#: kdeui/widgets/kkeysequencewidget.cpp:649
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快速鍵定義衝突"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:651
+#: kdeui/widgets/kkeysequencewidget.cpp:650
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -11291,18 +11304,18 @@ msgstr ""
 "'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:683
+#: kdeui/widgets/kkeysequencewidget.cpp:682
 #, fuzzy
 #| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "輸入檔案"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:733
+#: kdeui/widgets/kkeysequencewidget.cpp:732
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:734
+#: kdeui/widgets/kkeysequencewidget.cpp:733
 #, fuzzy
 #| msgid "Untrusted"
 msgid "Unsupported Key"
