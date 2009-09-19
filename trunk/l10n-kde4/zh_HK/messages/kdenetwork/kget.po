@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:13+0200\n"
+"POT-Creation-Date: 2009-09-19 06:04+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -244,8 +244,8 @@ msgstr ""
 
 #: core/datasourcefactory.cpp:635 core/kget.cpp:528 core/kget.cpp:884
 #: core/kget.cpp:892 transfer-plugins/metalink/metalink.cpp:193
-#: transfer-plugins/bittorrent/bttransfer.cpp:422
-#: transfer-plugins/bittorrent/bttransfer.cpp:433
+#: transfer-plugins/bittorrent/bttransfer.cpp:494
+#: transfer-plugins/bittorrent/bttransfer.cpp:505
 #: ui/metalinkcreator/metalinkcreator.cpp:274
 #: ui/metalinkcreator/metalinkcreator.cpp:293
 msgid "Error"
@@ -276,7 +276,7 @@ msgstr "已延遲"
 
 #: core/transfer.cpp:30 core/transfer.cpp:240 core/transfer.cpp:265
 #: transfer-plugins/mms/mmsTransfer.cpp:52
-#: transfer-plugins/bittorrent/bttransfer.cpp:316
+#: transfer-plugins/bittorrent/bttransfer.cpp:321
 #: transfer-plugins/contentfetch/contentfetch.cpp:64
 #, fuzzy
 #| msgid "Stopped"
@@ -289,14 +289,14 @@ msgctxt "transfer state: aborted"
 msgid "Aborted"
 msgstr ""
 
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:313
+#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:317
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:136
+#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:139
 #, fuzzy
 msgctxt "changing the destination of the file"
 msgid "Changing destination"
@@ -567,8 +567,8 @@ msgid "Download failed, no working urls were found."
 msgstr ""
 
 #: transfer-plugins/metalink/metalink.cpp:194
-#: transfer-plugins/bittorrent/bttransfer.cpp:421
-#: transfer-plugins/bittorrent/bttransfer.cpp:432
+#: transfer-plugins/bittorrent/bttransfer.cpp:493
+#: transfer-plugins/bittorrent/bttransfer.cpp:504
 msgid "An error occurred...."
 msgstr ""
 
@@ -919,12 +919,12 @@ msgid "Cannot remove webseed %1, it is part of the torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:87
-#: transfer-plugins/bittorrent/bttransfer.cpp:270
+#: transfer-plugins/bittorrent/bttransfer.cpp:273
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
-#: transfer-plugins/bittorrent/bttransfer.cpp:276
+#: transfer-plugins/bittorrent/bttransfer.cpp:279
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -1082,24 +1082,24 @@ msgstr "進階選項"
 msgid "&Scan Files"
 msgstr "開啟檔案(&F)"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:108
+#: transfer-plugins/bittorrent/bttransfer.cpp:111
 #, fuzzy
 msgid "Downloading Torrent File...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:153
-#: transfer-plugins/bittorrent/bttransfer.cpp:294
+#: transfer-plugins/bittorrent/bttransfer.cpp:156
+#: transfer-plugins/bittorrent/bttransfer.cpp:297
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:368
+#: transfer-plugins/bittorrent/bttransfer.cpp:440
 #, fuzzy
 msgid "Analyzing torrent...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:442
+#: transfer-plugins/bittorrent/bttransfer.cpp:514
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
