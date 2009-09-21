@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-19 06:04+0200\n"
+"POT-Creation-Date: 2009-09-21 06:01+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -174,7 +174,7 @@ msgstr "剩下的時間"
 
 #: core/filemodel.cpp:237
 #, fuzzy
-msgctxt "file in a filsystem"
+msgctxt "file in a filesystem"
 msgid "File"
 msgstr "開啟檔案(&F)"
 
@@ -236,14 +236,14 @@ msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "已停止"
 
-#: core/datasourcefactory.cpp:635
+#: core/datasourcefactory.cpp:636
 #, kde-format
 msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/datasourcefactory.cpp:635 core/kget.cpp:528 core/kget.cpp:884
-#: core/kget.cpp:892 transfer-plugins/metalink/metalink.cpp:193
+#: core/datasourcefactory.cpp:636 core/kget.cpp:529 core/kget.cpp:878
+#: core/kget.cpp:886 transfer-plugins/metalink/metalink.cpp:193
 #: transfer-plugins/bittorrent/bttransfer.cpp:494
 #: transfer-plugins/bittorrent/bttransfer.cpp:505
 #: ui/metalinkcreator/metalinkcreator.cpp:274
@@ -338,13 +338,13 @@ msgstr "你確定要刪除這些傳輸嗎？"
 msgid "Remove groups"
 msgstr "預設的資料夾"
 
-#: core/kget.cpp:236
+#: core/kget.cpp:237
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Rename transfer"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:513
+#: core/kget.cpp:514
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -355,36 +355,36 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:514
+#: core/kget.cpp:515
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:527 ui/metalinkcreator/metalinkcreator.cpp:293
+#: core/kget.cpp:528 ui/metalinkcreator/metalinkcreator.cpp:293
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:749 ui/contextmenu.cpp:135
+#: core/kget.cpp:747 ui/contextmenu.cpp:135
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:824 ui/newtransferdialog.cpp:254 rc.cpp:520
+#: core/kget.cpp:817 ui/newtransferdialog.cpp:254 rc.cpp:520
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:824
+#: core/kget.cpp:817
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:857
+#: core/kget.cpp:849
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:883
+#: core/kget.cpp:877
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -393,7 +393,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:891
+#: core/kget.cpp:885
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -405,7 +405,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:904
+#: core/kget.cpp:898
 #, fuzzy, kde-format
 msgid ""
 "URL already saved:\n"
@@ -416,16 +416,16 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:905
+#: core/kget.cpp:899
 #, fuzzy
 msgid "Download URL again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:933 core/kget.cpp:940
+#: core/kget.cpp:927 core/kget.cpp:934
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:950
+#: core/kget.cpp:944
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -438,18 +438,18 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:951
+#: core/kget.cpp:945
 #, fuzzy
 msgid "Overwrite destination"
 msgstr "開啟目的地(&D)"
 
-#: core/kget.cpp:1079
+#: core/kget.cpp:1076
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1097
+#: core/kget.cpp:1094
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -460,7 +460,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1107
+#: core/kget.cpp:1104
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -1071,13 +1071,13 @@ msgctxt "preview available"
 msgid "Available"
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransferfactory.cpp:73
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:74
 #, fuzzy
 #| msgid "Advanced Options"
 msgid "&Advanced Details"
 msgstr "進階選項"
 
-#: transfer-plugins/bittorrent/bttransferfactory.cpp:79
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:80
 #, fuzzy
 msgid "&Scan Files"
 msgstr "開啟檔案(&F)"
@@ -2741,7 +2741,7 @@ msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:499
+#: mainwindow.cpp:497
 #, fuzzy
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -2753,33 +2753,33 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:501
+#: mainwindow.cpp:499
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:559
+#: mainwindow.cpp:557
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:560
+#: mainwindow.cpp:558
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:628
+#: mainwindow.cpp:626
 #, fuzzy
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] "你確定要刪除這筆傳輸嗎？"
 
-#: mainwindow.cpp:630
+#: mainwindow.cpp:628
 #, fuzzy
 msgid "Confirm transfer delete"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:824
+#: mainwindow.cpp:822
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
@@ -3603,13 +3603,13 @@ msgid "Filename:"
 msgstr "本機檔案名稱"
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
-#. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
 #: rc.cpp:412
 msgid "Use Normalized Name"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
-#. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
 #: rc.cpp:415
 msgid "Use Literal Name"
 msgstr ""
@@ -3621,13 +3621,13 @@ msgid "Quality:"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
-#. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
 #: rc.cpp:421
 msgid "Best Quality (.mp4)"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
-#. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
 #: rc.cpp:424
 msgid "Normal Quality (.flv)"
 msgstr ""
@@ -4600,61 +4600,66 @@ msgstr ""
 msgid "&Tools"
 msgstr ""
 
-#. i18n: file: conf/kget.kcfg:28
+#. i18n: file: conf/kget.kcfg:31
 #. i18n: ectx: label, entry (ShowSplashscreen), group (Appearance)
 #: rc.cpp:985
 msgid "Sets to show the splashscreen while KGet is loading"
 msgstr ""
 
-#. i18n: file: conf/kget.kcfg:164
+#. i18n: file: conf/kget.kcfg:167
 #. i18n: ectx: label, entry (ColumnWidths), group (Geometry)
 #: rc.cpp:988
 msgid "The width of the columns in the main view"
 msgstr ""
 
-#. i18n: file: conf/kget.kcfg:167
+#. i18n: file: conf/kget.kcfg:170
 #. i18n: ectx: label, entry (HistoryColumnWidths), group (Geometry)
 #: rc.cpp:991
 msgid "The width of the columns in the history view"
 msgstr ""
 
-#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:7
+#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:9
 #. i18n: ectx: label, entry (SearchStrings), group (ChecksumSearch)
-#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:10
+#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:12
 #. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
 #: rc.cpp:994 rc.cpp:1003
 msgid "List of the available search engines"
 msgstr ""
 
-#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:11
+#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
 #. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
-#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:15
+#. i18n: file: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
 #. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
-#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:14
+#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:16
 #. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
-#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:11
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
 #. i18n: ectx: label, entry (PathList), group (UserScripts)
 #: rc.cpp:997 rc.cpp:1000 rc.cpp:1006 rc.cpp:1012
 msgid "Urls list of the available search engines"
 msgstr ""
 
-#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:7
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
 #. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
 #: rc.cpp:1009
 msgid "List of the Regexp to match input Url"
 msgstr ""
 
-#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:19
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
 #. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
 #: rc.cpp:1015
 msgid "List of descriptions for user scripts"
 msgstr ""
 
-#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:23
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
 #. i18n: ectx: label, entry (EnableList), group (UserScripts)
 #: rc.cpp:1018
 msgid "List of whether the script is enabled"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "file in a filsystem"
+#~ msgid "File"
+#~ msgstr "開啟檔案(&F)"
 
 #, fuzzy
 #~ msgid "Are you sure that you want to remove all selected groups?"
