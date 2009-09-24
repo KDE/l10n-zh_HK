@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-23 07:16+0200\n"
+"POT-Creation-Date: 2009-09-24 06:18+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -242,8 +242,8 @@ msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/datasourcefactory.cpp:636 core/kget.cpp:529 core/kget.cpp:878
-#: core/kget.cpp:886 transfer-plugins/metalink/metalink.cpp:193
+#: core/datasourcefactory.cpp:636 core/kget.cpp:554 core/kget.cpp:902
+#: core/kget.cpp:911 transfer-plugins/metalink/metalink.cpp:193
 #: transfer-plugins/bittorrent/bttransfer.cpp:494
 #: transfer-plugins/bittorrent/bttransfer.cpp:505
 #: ui/metalinkcreator/metalinkcreator.cpp:287
@@ -274,7 +274,7 @@ msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "已延遲"
 
-#: core/transfer.cpp:30 core/transfer.cpp:240 core/transfer.cpp:265
+#: core/transfer.cpp:30 core/transfer.cpp:234 core/transfer.cpp:259
 #: transfer-plugins/mms/mmsTransfer.cpp:52
 #: transfer-plugins/bittorrent/bttransfer.cpp:321
 #: transfer-plugins/contentfetch/contentfetch.cpp:64
@@ -338,13 +338,35 @@ msgstr "你確定要刪除這些傳輸嗎？"
 msgid "Remove groups"
 msgstr "預設的資料夾"
 
-#: core/kget.cpp:237
-#, fuzzy
-#| msgid "Open Transfer"
-msgid "Rename transfer"
-msgstr "開啟傳輸"
+#: core/kget.cpp:241
+msgid ""
+"You have already downloaded that file from another location\n"
+"\n"
+"Download and delete the previous one?"
+msgstr ""
 
-#: core/kget.cpp:514
+#: core/kget.cpp:242
+#, fuzzy
+msgid "File already downloaded. Download anyway?"
+msgstr ""
+"已經儲存 URL\n"
+"%1\n"
+"要再下載嗎？"
+
+#: core/kget.cpp:251
+msgid "You are already downloading the same file"
+msgstr ""
+
+#: core/kget.cpp:255
+#, fuzzy
+msgid "File already exists"
+msgstr ""
+"目標檔案\n"
+"%1\n"
+"已存在。\n"
+"是否要覆寫它？"
+
+#: core/kget.cpp:539
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -355,36 +377,36 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:515
+#: core/kget.cpp:540
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:528 ui/metalinkcreator/metalinkcreator.cpp:306
+#: core/kget.cpp:553 ui/metalinkcreator/metalinkcreator.cpp:306
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:747 ui/contextmenu.cpp:135
+#: core/kget.cpp:772 ui/contextmenu.cpp:135
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:817 ui/newtransferdialog.cpp:254 rc.cpp:520
+#: core/kget.cpp:842 ui/newtransferdialog.cpp:254 rc.cpp:520
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:817
+#: core/kget.cpp:842
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:849
+#: core/kget.cpp:874
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:877
+#: core/kget.cpp:901
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -393,7 +415,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:885
+#: core/kget.cpp:910
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -405,27 +427,41 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:898
-#, fuzzy, kde-format
+#: core/kget.cpp:922
+#, kde-format
 msgid ""
-"URL already saved:\n"
+"You have already completed a download from the location: \n"
+"\n"
 "%1\n"
-"Download again?"
+"\n"
+"Download it again?"
 msgstr ""
-"已經儲存 URL\n"
-"%1\n"
-"要再下載嗎？"
 
-#: core/kget.cpp:899
+#: core/kget.cpp:923
 #, fuzzy
-msgid "Download URL again?"
+msgid "Download it again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:927 core/kget.cpp:934
+#: core/kget.cpp:935
+#, kde-format
+msgid ""
+"You have a download in progress from the location: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete it and download again?"
+msgstr ""
+
+#: core/kget.cpp:936
+#, fuzzy
+msgid "Delete it and download again?"
+msgstr "再次下載"
+
+#: core/kget.cpp:959 core/kget.cpp:966
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:944
+#: core/kget.cpp:976
 #, kde-format
 msgid ""
 "Destination file \n"
@@ -438,18 +474,18 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:945
+#: core/kget.cpp:977
 #, fuzzy
 msgid "Overwrite destination"
 msgstr "開啟目的地(&D)"
 
-#: core/kget.cpp:1076
+#: core/kget.cpp:1108
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1094
+#: core/kget.cpp:1126
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -460,7 +496,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1104
+#: core/kget.cpp:1136
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -473,19 +509,19 @@ msgstr ""
 
 #. i18n: file: conf/dlgadvanced.ui:40
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: core/kget.cpp:1295 core/kget.cpp:1305 ui/droptarget.cpp:94 rc.cpp:65
+#: core/kget.cpp:1327 core/kget.cpp:1337 ui/droptarget.cpp:94 rc.cpp:65
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: core/kget.cpp:1296
+#: core/kget.cpp:1328
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1306
+#: core/kget.cpp:1338
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
@@ -4655,6 +4691,15 @@ msgstr ""
 #: rc.cpp:1018
 msgid "List of whether the script is enabled"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Open Transfer"
+#~ msgid "Rename transfer"
+#~ msgstr "開啟傳輸"
+
+#, fuzzy
+#~ msgid "Download URL again?"
+#~ msgstr "再次下載"
 
 #, fuzzy
 #~ msgctxt "file in a filsystem"
