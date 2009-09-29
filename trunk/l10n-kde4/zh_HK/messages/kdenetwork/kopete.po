@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-24 06:18+0200\n"
+"POT-Creation-Date: 2009-09-29 06:10+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16766,7 +16766,7 @@ msgstr ""
 msgid "<b>Authentication error.</b>"
 msgstr "註冊失敗。"
 
-#: plugins/otr/otrlchatinterface.cpp:545 plugins/otr/otrlchatinterface.cpp:560
+#: plugins/otr/otrlchatinterface.cpp:560
 #, fuzzy
 #| msgid "Connection Error"
 msgid "Encryption error"
@@ -17082,19 +17082,24 @@ msgctxt "@item:inmenu Never encrypt messages"
 msgid "Ne&ver"
 msgstr "從不"
 
-#: plugins/otr/otrplugin.cpp:181
+#: plugins/otr/otrplugin.cpp:164
+#, fuzzy
+msgid "An error occured while encrypting the message."
+msgstr "傳送檔案時發生錯誤: %1"
+
+#: plugins/otr/otrplugin.cpp:191
 #, fuzzy
 msgctxt "@info:status"
 msgid "Your policy settings do not allow encrypted sessions to this contact."
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
-#: plugins/otr/otrplugin.cpp:190
+#: plugins/otr/otrplugin.cpp:200
 #, kde-format
 msgctxt "@info:status"
 msgid "Attempting to refresh the OTR session with <b>%1</b>..."
 msgstr ""
 
-#: plugins/otr/otrplugin.cpp:192
+#: plugins/otr/otrplugin.cpp:202
 #, kde-format
 msgctxt "@info:status"
 msgid "Attempting to start a private OTR session with <b>%1</b>..."
@@ -17614,7 +17619,7 @@ msgid "History Converter"
 msgstr "歷程記錄轉換器"
 
 #: plugins/history/converter.cpp:42 protocols/jabber/jabbercontact.cpp:979
-#: protocols/jabber/jabberaccount.cpp:1166
+#: protocols/jabber/jabberaccount.cpp:1168
 msgid "Keep"
 msgstr "保留"
 
@@ -21151,9 +21156,11 @@ msgid "ICQ Email Express"
 msgstr ""
 
 #: protocols/oscar/oscaraccount.cpp:1006 protocols/oscar/oscaraccount.cpp:1023
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "account has been disconnected"
+#| msgid "%1 disconnected"
 msgctxt "account has been disconnected"
-msgid "%1 disconnected"
+msgid "Kopete: %1 disconnected"
 msgstr "%1 已斷線"
 
 #: protocols/oscar/oscaraccount.cpp:1047
@@ -21169,7 +21176,9 @@ msgid ""
 msgstr "處理通訊協定時發生錯誤；發生自動重連線。"
 
 #: protocols/oscar/oscaraccount.cpp:1051
-msgid "OSCAR Protocol error"
+#, fuzzy
+#| msgid "OSCAR Protocol error"
+msgid "Kopete: OSCAR Protocol error"
 msgstr "OSCAR 通訊協定錯誤"
 
 #: protocols/oscar/oscaraccount.cpp:1192
@@ -23018,7 +23027,7 @@ msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
 #: protocols/jabber/jabbercontact.cpp:978
-#: protocols/jabber/jabberaccount.cpp:1166
+#: protocols/jabber/jabberaccount.cpp:1168
 msgid "Notification"
 msgstr "通知"
 
@@ -23469,7 +23478,7 @@ msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
 #: protocols/jabber/jabberprotocol.cpp:486
-#: protocols/jabber/jabberaccount.cpp:1560
+#: protocols/jabber/jabberaccount.cpp:1562
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
@@ -23849,12 +23858,13 @@ msgid "Could not bind a resource: %1"
 msgstr "無法繫結資源: %1"
 
 #: protocols/jabber/jabberaccount.cpp:994
-#: protocols/jabber/jabberaccount.cpp:998
-#, kde-format
-msgid "Connection problem with Jabber server %1"
+#: protocols/jabber/jabberaccount.cpp:999
+#, fuzzy, kde-format
+#| msgid "Connection problem with Jabber server %1"
+msgid "Kopete: Connection problem with Jabber server %1"
 msgstr "和 Jabber 伺服器 %1 連線有問題"
 
-#: protocols/jabber/jabberaccount.cpp:1163
+#: protocols/jabber/jabberaccount.cpp:1165
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Jabber user %1 removed %2's subscription to them. This account will "
@@ -23868,43 +23878,43 @@ msgstr ""
 "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。"
 "要刪除該聯絡人嗎？"
 
-#: protocols/jabber/jabberaccount.cpp:1337
+#: protocols/jabber/jabberaccount.cpp:1339
 msgid "Waiting for authorization"
 msgstr "正在等待授權"
 
-#: protocols/jabber/jabberaccount.cpp:1550
+#: protocols/jabber/jabberaccount.cpp:1552
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1559
+#: protocols/jabber/jabberaccount.cpp:1561
 #, fuzzy, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1573
+#: protocols/jabber/jabberaccount.cpp:1575
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1574
-#: protocols/jabber/jabberaccount.cpp:1581
-#: protocols/jabber/jabberaccount.cpp:1591
+#: protocols/jabber/jabberaccount.cpp:1576
+#: protocols/jabber/jabberaccount.cpp:1583
+#: protocols/jabber/jabberaccount.cpp:1593
 msgid "Jabber Group Chat"
 msgstr "Jabber 群組聊天"
 
-#: protocols/jabber/jabberaccount.cpp:1580
+#: protocols/jabber/jabberaccount.cpp:1582
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1586
+#: protocols/jabber/jabberaccount.cpp:1588
 msgid "No reason given by the server"
 msgstr "伺服器未有交待原因"
 
-#: protocols/jabber/jabberaccount.cpp:1590
+#: protocols/jabber/jabberaccount.cpp:1592
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error processing your request for group chat %1. (Reason: %"
@@ -23914,7 +23924,7 @@ msgid ""
 "Code %3)"
 msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
-#: protocols/jabber/jabberaccount.cpp:1663
+#: protocols/jabber/jabberaccount.cpp:1665
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -23922,27 +23932,27 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1666
+#: protocols/jabber/jabberaccount.cpp:1668
 #, fuzzy
 msgid "Unregister"
 msgstr "註冊"
 
-#: protocols/jabber/jabberaccount.cpp:1667
+#: protocols/jabber/jabberaccount.cpp:1669
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1668
+#: protocols/jabber/jabberaccount.cpp:1670
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1712
+#: protocols/jabber/jabberaccount.cpp:1714
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:1713
+#: protocols/jabber/jabberaccount.cpp:1715
 #, fuzzy
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
@@ -24508,7 +24518,9 @@ msgid "Unable to Send Message on Account '%1'"
 msgstr "無法連接『%1』"
 
 #: protocols/groupwise/gwaccount.cpp:586
-msgid "Conflicting Changes Made Offline"
+#, fuzzy
+#| msgid "Conflicting Changes Made Offline"
+msgid "Kopete: Conflicting Changes Made Offline"
 msgstr "離線時作了有衝突的更改"
 
 #: protocols/groupwise/gwaccount.cpp:586
@@ -24572,8 +24584,9 @@ msgid "Error Adding Contact"
 msgstr "加入聯絡人時發生錯誤"
 
 #: protocols/groupwise/gwaccount.cpp:1318
-#, kde-format
-msgid "Signed in as %1 Elsewhere"
+#, fuzzy, kde-format
+#| msgid "Signed in as %1 Elsewhere"
+msgid "Kopete: Signed in as %1 Elsewhere"
 msgstr "如同別處般以 %1 簽入"
 
 #: protocols/groupwise/gwaccount.cpp:1318
