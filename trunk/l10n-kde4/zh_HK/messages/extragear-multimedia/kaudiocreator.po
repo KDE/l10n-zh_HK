@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-08 06:17+0200\n"
+"POT-Creation-Date: 2009-10-11 06:32+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -17,50 +17,50 @@ msgstr ""
 "X-Generator: KBabel 0.9.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: encodefileimp.cpp:59
+#: encodefileimp.cpp:60
 #, fuzzy
 #| msgid "Encode File"
 msgid "Encode Files"
 msgstr "編碼檔案"
 
-#: encodefileimp.cpp:61
+#: encodefileimp.cpp:62
 msgid "Fit Columns to Content"
 msgstr ""
 
-#: encodefileimp.cpp:63
+#: encodefileimp.cpp:64
 msgid "&Add to queue"
 msgstr ""
 
-#: encodefileimp.cpp:64
+#: encodefileimp.cpp:65
 msgid "&Add to queue and close"
 msgstr ""
 
 #. i18n: file: encodefile.ui:218
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, trackStart)
-#: encodefileimp.cpp:67 rc.cpp:66
+#: encodefileimp.cpp:68 rc.cpp:66
 msgid "empty"
 msgstr ""
 
-#: encodefileimp.cpp:235 encodefileimp.cpp:264 encodefileimp.cpp:275
+#: encodefileimp.cpp:236 encodefileimp.cpp:265 encodefileimp.cpp:276
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "track_%1"
 msgstr "音軌"
 
-#: encodefileimp.cpp:239 encodefileimp.cpp:243 encodefileimp.cpp:251
-#: encodefileimp.cpp:265 encodefileimp.cpp:266 encodefileimp.cpp:276
-#: encodefileimp.cpp:277
+#: encodefileimp.cpp:240 encodefileimp.cpp:244 encodefileimp.cpp:252
+#: encodefileimp.cpp:266 encodefileimp.cpp:267 encodefileimp.cpp:277
+#: encodefileimp.cpp:278
 msgid "unknown"
 msgstr ""
 
-#: encodefileimp.cpp:414 tracksimp.cpp:480
+#: encodefileimp.cpp:415 tracksimp.cpp:474
 #, kde-format
 msgid ""
 "%1 Job(s) have been started.  You can watch their progress in the jobs "
 "section."
 msgstr "%1 工作已經開始。  你可以在工作欄內看到進度。"
 
-#: encodefileimp.cpp:416 tracksimp.cpp:482
+#: encodefileimp.cpp:417 tracksimp.cpp:476
 msgid "Jobs have started"
 msgstr "工作已經開始"
 
@@ -70,11 +70,11 @@ msgstr "工作已經開始"
 msgid "File"
 msgstr "標題"
 
-#: encodefilemodel.cpp:29 tracksimp.cpp:55 tracksimp.cpp:551
+#: encodefilemodel.cpp:29 tracksimp.cpp:49 tracksimp.cpp:545
 msgid "Title"
 msgstr "標題"
 
-#: encodefilemodel.cpp:29 tracksimp.cpp:55 tracksimp.cpp:551
+#: encodefilemodel.cpp:29 tracksimp.cpp:49 tracksimp.cpp:545
 #, fuzzy
 #| msgid "Artist:"
 msgid "Artist"
@@ -86,7 +86,7 @@ msgstr "藝人:"
 msgid "Album"
 msgstr "專輯"
 
-#: encodefilemodel.cpp:30 tracksimp.cpp:55 tracksimp.cpp:551
+#: encodefilemodel.cpp:30 tracksimp.cpp:49 tracksimp.cpp:545
 #, fuzzy
 #| msgid "Comment:"
 msgid "Comment"
@@ -98,7 +98,7 @@ msgstr "註解:"
 msgid "Genre"
 msgstr "風格:"
 
-#: encodefilemodel.cpp:31 tracksimp.cpp:55 tracksimp.cpp:551
+#: encodefilemodel.cpp:31 tracksimp.cpp:49 tracksimp.cpp:545
 msgid "Track"
 msgstr "音軌"
 
@@ -131,7 +131,7 @@ msgid "Please select an encoder."
 msgstr "請選擇編碼器。"
 
 #: encoderconfigimp.cpp:150 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
-#: encoder.cpp:75
+#: encoder.cpp:76
 msgid "No Encoder Selected"
 msgstr "未有選擇編碼器"
 
@@ -167,7 +167,7 @@ msgstr "設定編碼器"
 msgid "Encoder Configuration"
 msgstr "編碼器設定"
 
-#: encoder.cpp:75
+#: encoder.cpp:76
 msgid ""
 "No encoder has been selected.\n"
 "Please select an encoder in the configuration."
@@ -175,24 +175,24 @@ msgstr ""
 "未有選擇編碼器。\n"
 "請在設定內選擇編碼器。"
 
-#: encoder.cpp:159
+#: encoder.cpp:160
 #, kde-format
 msgid "Encoding (%1): %2 - %3"
 msgstr "正在編碼 (%1): %2 - %3"
 
-#: encoder.cpp:198
+#: encoder.cpp:199
 msgid "File Already Exists"
 msgstr "已有此檔案"
 
-#: encoder.cpp:219
+#: encoder.cpp:220
 msgid "Cannot place file, unable to make directories."
 msgstr "無法放置檔案，無法建立目錄。"
 
-#: encoder.cpp:219 encoder.cpp:325 encoder.cpp:330 encoder.cpp:348
+#: encoder.cpp:220 encoder.cpp:326 encoder.cpp:331 encoder.cpp:349
 msgid "Encoding Failed"
 msgstr "編碼失敗"
 
-#: encoder.cpp:325
+#: encoder.cpp:326
 #, kde-format
 msgid ""
 "The selected encoder was not found.\n"
@@ -201,7 +201,7 @@ msgstr ""
 "找不到選擇的編碼器。\n"
 "wav 檔已經移除。指令是： %1"
 
-#: encoder.cpp:330
+#: encoder.cpp:331
 msgid ""
 "The encoder exited with a error.  Please check that the file was created.\n"
 "Do you want to see the full encoder output?"
@@ -209,15 +209,15 @@ msgstr ""
 "編碼器發生錯誤，並已關閉。請檢查檔案是否已建立。\n"
 "要觀看編碼器完整的輸出嗎？"
 
-#: encoder.cpp:330 encoder.cpp:348
+#: encoder.cpp:331 encoder.cpp:349
 msgid "Show Output"
 msgstr "顯示輸出"
 
-#: encoder.cpp:330 encoder.cpp:348
+#: encoder.cpp:331 encoder.cpp:349
 msgid "Skip Output"
 msgstr "跳過輸出"
 
-#: encoder.cpp:348
+#: encoder.cpp:349
 msgid ""
 "The encoded file was not created.\n"
 "Please check the encoder options.\n"
@@ -236,43 +236,55 @@ msgid ""
 "Copying to FAT32 might not work as expected."
 msgstr ""
 
-#: jobqueimp.cpp:59
+#: jobdelegate.cpp:45
+msgid "Queued"
+msgstr ""
+
+#: jobdelegate.cpp:47 tracksimp.cpp:213
+msgid "Error"
+msgstr ""
+
+#: jobdelegate.cpp:49 jobqueimp.cpp:155 jobqueimp.cpp:252
+msgid "Done"
+msgstr ""
+
+#: jobqueimp.cpp:53
 msgid "Job"
 msgstr "工作"
 
-#: jobqueimp.cpp:59
+#: jobqueimp.cpp:53
 msgid "Progress"
 msgstr "進度"
 
-#: jobqueimp.cpp:59
+#: jobqueimp.cpp:53
 msgid "Description"
 msgstr "說明"
 
-#: jobqueimp.cpp:119 jobqueimp.cpp:212 jobqueimp.cpp:276
+#: jobqueimp.cpp:114 jobqueimp.cpp:202 jobqueimp.cpp:267
 #, kde-format
 msgid "Number of jobs in the queue: %1"
 msgstr "在佇列中的工作數目： %1"
 
-#: jobqueimp.cpp:192
+#: jobqueimp.cpp:182
 #, kde-format
 msgid "KAudioCreator has not finished %1. Remove anyway?"
 msgstr "KAudioCreator 未完成 %1 。要移除嗎？"
 
-#: jobqueimp.cpp:192 jobqueimp.cpp:247
+#: jobqueimp.cpp:182 jobqueimp.cpp:237
 msgid "Unfinished Job in Queue"
 msgstr "佇列中未完成的工作"
 
-#: jobqueimp.cpp:192 jobqueimp.cpp:247
+#: jobqueimp.cpp:182 jobqueimp.cpp:237
 msgid "Keep"
 msgstr "保留"
 
 #. i18n: file: jobque.ui:17
 #. i18n: ectx: property (text), widget (QLabel, queLabel)
-#: jobqueimp.cpp:208 jobqueimp.cpp:272 rc.cpp:331
+#: jobqueimp.cpp:198 jobqueimp.cpp:263 rc.cpp:331
 msgid "No jobs are in the queue"
 msgstr "佇列中沒有工作"
 
-#: jobqueimp.cpp:247
+#: jobqueimp.cpp:237
 msgid "KAudioCreator has not finished all of the jobs. Remove them anyway?"
 msgstr "KAudioCreator 未完成所有工作。要全部移除嗎？"
 
@@ -1459,26 +1471,26 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: ripper.cpp:140
+#: ripper.cpp:141
 #, kde-format
 msgid "Ripping: %1 - %2"
 msgstr "正在擷取: %1 - %2"
 
-#: tracksimp.cpp:55 tracksimp.cpp:451 tracksimp.cpp:551
+#: tracksimp.cpp:49 tracksimp.cpp:445 tracksimp.cpp:545
 msgid "Rip"
 msgstr "擷取"
 
-#: tracksimp.cpp:55 tracksimp.cpp:551
+#: tracksimp.cpp:49 tracksimp.cpp:545
 msgid "Length"
 msgstr "長度"
 
-#: tracksimp.cpp:109
+#: tracksimp.cpp:103
 #, fuzzy
 #| msgid "No Encoder Selected"
 msgid "none detected"
 msgstr "未有選擇編碼器"
 
-#: tracksimp.cpp:216
+#: tracksimp.cpp:210
 #, kde-format
 msgid ""
 "CDROM read or access error (or no audio disk in drive).\n"
@@ -1489,56 +1501,52 @@ msgstr ""
 "請確定你對以下裝置的有存取權限:\n"
 "%1"
 
-#: tracksimp.cpp:219
-msgid "Error"
-msgstr ""
-
-#: tracksimp.cpp:229
+#: tracksimp.cpp:223
 msgid "Please insert a disk."
 msgstr "請插入光碟。"
 
-#: tracksimp.cpp:230 tracksimp.cpp:256
+#: tracksimp.cpp:224 tracksimp.cpp:250
 msgid "CDDB Failed"
 msgstr "CDDB 失敗"
 
-#: tracksimp.cpp:256
+#: tracksimp.cpp:250
 msgid "Unable to retrieve CDDB information."
 msgstr "無法取得 CDDB 資訊。"
 
-#: tracksimp.cpp:276
+#: tracksimp.cpp:270
 msgid "Select CDDB entry"
 msgstr "選擇 CDDB 項目"
 
-#: tracksimp.cpp:277
+#: tracksimp.cpp:271
 msgid "Select a CDDB entry:"
 msgstr "選擇 CDDB 項目:"
 
-#: tracksimp.cpp:362
+#: tracksimp.cpp:356
 msgid "CD Editor"
 msgstr "CD 編輯器"
 
-#: tracksimp.cpp:425
+#: tracksimp.cpp:419
 msgid "No tracks have been selected.  Would you like to rip the entire CD?"
 msgstr ""
 
-#: tracksimp.cpp:426
+#: tracksimp.cpp:420
 msgid "No Tracks Selected"
 msgstr "未有選擇音軌"
 
-#: tracksimp.cpp:426
+#: tracksimp.cpp:420
 #, fuzzy
 msgid "Rip CD"
 msgstr "擷取"
 
-#: tracksimp.cpp:435
+#: tracksimp.cpp:429
 msgid "Could not find audiocd:/ protocol. Please install the audiocd ioslave"
 msgstr ""
 
-#: tracksimp.cpp:436
+#: tracksimp.cpp:430
 msgid "Protocol Not Found"
 msgstr ""
 
-#: tracksimp.cpp:451
+#: tracksimp.cpp:445
 #, kde-format
 msgid ""
 "Part of the album is not set: %1.\n"
@@ -1549,15 +1557,15 @@ msgstr ""
 "（要改變專輯資訊，點選「編輯資訊」按鈕。）\n"
 "你還是要擷取所選的音軌嗎？"
 
-#: tracksimp.cpp:451
+#: tracksimp.cpp:445
 msgid "Album Information Incomplete"
 msgstr "專輯資訊不完整"
 
-#: tracksimp.cpp:606
+#: tracksimp.cpp:600
 msgid " - "
 msgstr ""
 
-#: tracksimp.cpp:608
+#: tracksimp.cpp:602
 #, fuzzy
 msgid "No disc"
 msgstr "沒有碟片"
@@ -1567,7 +1575,7 @@ msgstr "沒有碟片"
 msgid "Example: %1"
 msgstr "範例: %1"
 
-#: job.h:41
+#: job.h:35
 msgid "Other"
 msgstr "其他"
 
