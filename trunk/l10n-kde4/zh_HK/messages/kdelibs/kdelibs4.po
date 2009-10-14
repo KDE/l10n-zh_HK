@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-12 06:27+0200\n"
+"POT-Creation-Date: 2009-10-14 06:36+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2084,8 +2084,8 @@ msgid ""
 "indent:0px;\">(do not know yet)</p></body></html>"
 msgstr ""
 
-#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:835
-#: kdeui/dialogs/kmessagebox.cpp:868 khtml/rendering/render_form.cpp:750
+#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:830
+#: kdeui/dialogs/kmessagebox.cpp:862 khtml/rendering/render_form.cpp:750
 msgid "Error"
 msgstr "錯誤"
 
@@ -7248,34 +7248,34 @@ msgstr ""
 msgid "Details"
 msgstr "詳細資料"
 
-#: kdeui/dialogs/kmessagebox.cpp:457 kdeui/dialogs/kmessagebox.cpp:519
+#: kdeui/dialogs/kmessagebox.cpp:457 kdeui/dialogs/kmessagebox.cpp:518
 msgid "Question"
 msgstr "問題"
 
-#: kdeui/dialogs/kmessagebox.cpp:475 kdeui/dialogs/kmessagebox.cpp:538
-#: kdeui/dialogs/kmessagebox.cpp:626 kdeui/dialogs/kmessagebox.cpp:707
-#: kdeui/dialogs/kmessagebox.cpp:795
+#: kdeui/dialogs/kmessagebox.cpp:474 kdeui/dialogs/kmessagebox.cpp:536
+#: kdeui/dialogs/kmessagebox.cpp:623 kdeui/dialogs/kmessagebox.cpp:703
+#: kdeui/dialogs/kmessagebox.cpp:790
 msgid "Do not ask again"
 msgstr "不再提問"
 
-#: kdeui/dialogs/kmessagebox.cpp:608 kdeui/dialogs/kmessagebox.cpp:689
-#: kdeui/dialogs/kmessagebox.cpp:777
+#: kdeui/dialogs/kmessagebox.cpp:606 kdeui/dialogs/kmessagebox.cpp:686
+#: kdeui/dialogs/kmessagebox.cpp:773
 msgid "Warning"
 msgstr "警告"
 
-#: kdeui/dialogs/kmessagebox.cpp:914 kdeui/dialogs/kmessagebox.cpp:945
+#: kdeui/dialogs/kmessagebox.cpp:907 kdeui/dialogs/kmessagebox.cpp:937
 msgid "Sorry"
 msgstr "抱歉"
 
-#: kdeui/dialogs/kmessagebox.cpp:991
+#: kdeui/dialogs/kmessagebox.cpp:982
 msgid "Information"
 msgstr "資料"
 
-#: kdeui/dialogs/kmessagebox.cpp:1009
+#: kdeui/dialogs/kmessagebox.cpp:999
 msgid "Do not show this message again"
 msgstr "不要再顯示這個訊息"
 
-#: kdeui/dialogs/kmessagebox.cpp:1054
+#: kdeui/dialogs/kmessagebox.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:87
 #: kdeui/widgets/khelpmenu.cpp:264 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
@@ -11606,7 +11606,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:95 khtml/khtml_part.cpp:3728 khtml/khtml_part.cpp:3938
-#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:455
+#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:395
 msgid "Save As"
 msgstr "另存新檔"
 
@@ -11874,13 +11874,13 @@ msgstr "覆寫檔案嗎？"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:426
+#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:366
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "找不到下載管理程式 (%1)，請檢查你的安裝是否正確，包含 PATH 路徑有設定正確。"
 
-#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:427
+#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:367
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -13490,6 +13490,76 @@ msgstr "網絡搜尋"
 msgid "&Search"
 msgstr "搜尋(&S)"
 
+#: kparts/browseropenorsavequestion.cpp:91
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "名稱："
+
+#: kparts/browseropenorsavequestion.cpp:92
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr ""
+
+#: kparts/browseropenorsavequestion.cpp:102
+#, fuzzy, kde-format
+#| msgid "Redo: %1"
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "重做：%1"
+
+#: kparts/browseropenorsavequestion.cpp:109
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "@label:checkbox"
+msgid "Do not ask again for files of this type"
+msgstr "不要再顯示這個訊息"
+
+#: kparts/browseropenorsavequestion.cpp:142
+#: kparts/browseropenorsavequestion.cpp:212
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "開啟用 '%1'(&O)"
+
+#: kparts/browseropenorsavequestion.cpp:188
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "開啟用 '%1'(&O)"
+
+#: kparts/browseropenorsavequestion.cpp:199
+#: kparts/browseropenorsavequestion.cpp:277
+#, fuzzy, kde-format
+#| msgid "Open '%1'"
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "開啟 '%1'"
+
+#: kparts/browseropenorsavequestion.cpp:207
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "開啟用(&O)..."
+
+#: kparts/browseropenorsavequestion.cpp:218
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "開啟用(&O)..."
+
+#: kparts/browseropenorsavequestion.cpp:274
+#, fuzzy
+#| msgid "&Open"
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "開啟(&O)"
+
 #: kparts/part.cpp:757
 msgid "Untitled"
 msgstr "未命名"
@@ -13516,41 +13586,6 @@ msgstr "你真的要執行‘%1’？"
 #: kparts/browserrun.cpp:311
 msgid "Execute File?"
 msgstr "執行檔案嗎？"
-
-#: kparts/browserrun.cpp:329
-#, kde-format
-msgid ""
-"Open '%2'?\n"
-"Type: %1"
-msgstr ""
-"開啟 '%2'？\n"
-"類別：%1"
-
-#: kparts/browserrun.cpp:331
-#, kde-format
-msgid ""
-"Open '%3'?\n"
-"Name: %2\n"
-"Type: %1"
-msgstr ""
-"開啟 '%3'？'\n"
-"名稱： %2\n"
-"類別：%1"
-
-#: kparts/browserrun.cpp:343
-#, kde-format
-msgid "&Open with '%1'"
-msgstr "開啟用 '%1'(&O)"
-
-#: kparts/browserrun.cpp:345
-#, fuzzy
-#| msgid "&Open With..."
-msgid "&Open with..."
-msgstr "開啟用(&O)..."
-
-#: kparts/browserrun.cpp:389
-msgid "&Open"
-msgstr "開啟(&O)"
 
 #: kutils/kcmoduleloader.cpp:75
 #, kde-format
@@ -14736,6 +14771,22 @@ msgstr "每日小祕訣(&D)"
 msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
 
+#~ msgid ""
+#~ "Open '%2'?\n"
+#~ "Type: %1"
+#~ msgstr ""
+#~ "開啟 '%2'？\n"
+#~ "類別：%1"
+
+#~ msgid ""
+#~ "Open '%3'?\n"
+#~ "Name: %2\n"
+#~ "Type: %1"
+#~ msgstr ""
+#~ "開啟 '%3'？'\n"
+#~ "名稱： %2\n"
+#~ "類別：%1"
+
 #, fuzzy
 #~ msgid ""
 #~ "<b>Changes in this section require root access.</b><br />On applying your "
@@ -15351,13 +15402,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "Meta"
 #~ msgstr "Meta"
-
-#, fuzzy
-#~| msgid "Name:"
-#~ msgid ""
-#~ "Name:\n"
-#~ "%1"
-#~ msgstr "名稱："
 
 #, fuzzy
 #~ msgid ""
