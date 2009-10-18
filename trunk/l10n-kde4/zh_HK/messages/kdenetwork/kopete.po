@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 06:18+0200\n"
+"POT-Creation-Date: 2009-10-18 06:22+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -61,7 +61,7 @@ msgstr "聯絡人"
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libkopete/ui/kopeteinfodialog.cpp:49 libkopete/ui/kopeteinfodialog.cpp:63
-#: rc.cpp:2982 rc.cpp:5909 rc.cpp:5939 rc.cpp:6410
+#: rc.cpp:2982 rc.cpp:5912 rc.cpp:5942 rc.cpp:6413
 #, fuzzy
 msgid "Information"
 msgstr "用戶資訊"
@@ -106,22 +106,28 @@ msgid "&Create Group..."
 msgstr "建立群組(&C)..."
 
 #: libkopete/ui/kopetestdaction.cpp:113
+#, fuzzy
+#| msgid "User Profile"
+msgid "Visible when offline"
+msgstr "用戶資料檔"
+
+#: libkopete/ui/kopetestdaction.cpp:118
 msgid "Cha&nge Meta Contact..."
 msgstr "更改超聯絡人...(&N)"
 
-#: libkopete/ui/kopetestdaction.cpp:118
+#: libkopete/ui/kopetestdaction.cpp:123
 msgid "&Delete Contact"
 msgstr "刪除聯絡人(&D)"
 
-#: libkopete/ui/kopetestdaction.cpp:126
+#: libkopete/ui/kopetestdaction.cpp:131
 msgid "Change A&lias..."
 msgstr "更改別名(&L)..."
 
-#: libkopete/ui/kopetestdaction.cpp:131
+#: libkopete/ui/kopetestdaction.cpp:136
 msgid "&Block Contact"
 msgstr "封鎖聯絡人(&B)"
 
-#: libkopete/ui/kopetestdaction.cpp:136
+#: libkopete/ui/kopetestdaction.cpp:141
 msgid "Un&block Contact"
 msgstr "解封聯絡人(&B)"
 
@@ -167,7 +173,7 @@ msgstr "預設身份"
 #: protocols/gadu/gaduprotocol.cpp:82 protocols/gadu/gaduprotocol.cpp:86
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:87
-#: protocols/skype/skypeprotocol.cpp:59 protocols/skype/skypeaccount.cpp:899
+#: protocols/skype/skypeprotocol.cpp:77 protocols/skype/skypeaccount.cpp:896
 #: protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/meanwhile/meanwhileprotocol.cpp:40
 #: protocols/jabber/jabbercontact.cpp:175
@@ -190,7 +196,7 @@ msgstr "上線"
 #: protocols/wlm/wlmprotocol.cpp:46
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83
-#: protocols/skype/skypeprotocol.cpp:61 protocols/skype/skypeaccount.cpp:907
+#: protocols/skype/skypeprotocol.cpp:79 protocols/skype/skypeaccount.cpp:904
 #: protocols/meanwhile/meanwhileprotocol.cpp:44
 #: protocols/jabber/jabbercontact.cpp:177
 #: protocols/jabber/jabberprotocol.cpp:67 protocols/winpopup/wpprotocol.cpp:56
@@ -200,7 +206,7 @@ msgstr "離開"
 
 #: libkopete/kopeteonlinestatus.cpp:164 protocols/sms/smsprotocol.cpp:40
 #: protocols/wlm/wlmprotocol.cpp:71 protocols/gadu/gaduprotocol.cpp:89
-#: protocols/skype/skypeprotocol.cpp:65
+#: protocols/skype/skypeprotocol.cpp:83
 #: protocols/skype/skypecalldialog.cpp:101
 #: protocols/skype/skypecalldialog.cpp:211
 #: protocols/yahoo/yahooprotocol.cpp:57 protocols/jabber/jabberprotocol.cpp:72
@@ -222,7 +228,7 @@ msgstr "正在連接"
 #: protocols/gadu/gaduprotocol.cpp:79
 #: protocols/oscar/aim/aimstatusmanager.cpp:85
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
-#: protocols/skype/skypeprotocol.cpp:64 protocols/skype/skypeaccount.cpp:919
+#: protocols/skype/skypeprotocol.cpp:82 protocols/skype/skypeaccount.cpp:916
 #: protocols/yahoo/yahooprotocol.cpp:54 protocols/jabber/jabbercontact.cpp:180
 #: protocols/jabber/jabberprotocol.cpp:71
 msgid "Invisible"
@@ -241,7 +247,7 @@ msgstr "隱形"
 #: protocols/gadu/gaduprotocol.cpp:57 protocols/gadu/gaduprotocol.cpp:63
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75
-#: protocols/skype/skypeprotocol.cpp:58 protocols/skype/skypeaccount.cpp:903
+#: protocols/skype/skypeprotocol.cpp:76 protocols/skype/skypeaccount.cpp:900
 #: protocols/yahoo/yahooprotocol.cpp:43
 #: protocols/meanwhile/meanwhileprotocol.cpp:35
 #: protocols/jabber/jabberprotocol.cpp:70 protocols/winpopup/wpprotocol.cpp:57
@@ -256,7 +262,7 @@ msgstr "離線"
 #: protocols/oscar/icq/icqstatusmanager.cpp:37
 #: protocols/oscar/icq/icqprotocol.cpp:450
 #: protocols/oscar/icq/icqprotocol.cpp:532
-#: protocols/skype/libskype/skype.cpp:389
+#: protocols/skype/libskype/skype.cpp:395
 #: protocols/jabber/jingle/jinglecontentdialog.cpp:38
 #: protocols/groupwise/gwprotocol.cpp:66
 msgid "Unknown"
@@ -558,7 +564,7 @@ msgid "%2 <%1>"
 msgstr "%2 <%1>"
 
 #: libkopete/kopeteaccount.cpp:404 protocols/gadu/gaduaccount.cpp:387
-#: protocols/skype/skypeaccount.cpp:941 protocols/winpopup/wpaccount.cpp:187
+#: protocols/skype/skypeaccount.cpp:938 protocols/winpopup/wpaccount.cpp:187
 #, fuzzy
 msgid "Properties"
 msgstr "屬性(&P)"
@@ -629,7 +635,7 @@ msgstr "你已經斷線了"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:242
 #. i18n: ectx: property (text), widget (KPushButton, pb_add)
-#: libkopete/kopeteaddedinfoevent.cpp:124 rc.cpp:5774
+#: libkopete/kopeteaddedinfoevent.cpp:124 rc.cpp:5777
 #, fuzzy
 #| msgid "&Add..."
 msgid "Add..."
@@ -751,7 +757,7 @@ msgstr ""
 "戶上線。"
 
 #: libkopete/kopetemetacontact.cpp:325 libkopete/kopetemetacontact.cpp:343
-#: libkopete/kopetemetacontact.cpp:420 libkopete/kopetecontact.cpp:420
+#: libkopete/kopetemetacontact.cpp:420 libkopete/kopetecontact.cpp:429
 msgid "User is Not Reachable"
 msgstr "用戶現在聯絡不上"
 
@@ -771,14 +777,14 @@ msgstr "忙碌"
 msgid "Status not available"
 msgstr "無法取得狀態"
 
-#: libkopete/kopetemetacontact.cpp:1308 libkopete/kopetemetacontact.cpp:1312
+#: libkopete/kopetemetacontact.cpp:1320 libkopete/kopetemetacontact.cpp:1324
 #, fuzzy
 #| msgid "Chat"
 msgctxt "@action"
 msgid "Chat"
 msgstr "聊天"
 
-#: libkopete/kopetemetacontact.cpp:1321
+#: libkopete/kopetemetacontact.cpp:1333
 #, kde-format
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> 現在是 %2 。</qt>"
@@ -968,19 +974,19 @@ msgstr "不在你的聯絡人清單"
 msgid "&Add to Your Contact List"
 msgstr "加入你的聯絡人清單(&A)"
 
-#: libkopete/kopetecontact.cpp:302
+#: libkopete/kopetecontact.cpp:311
 msgid "Move Contact"
 msgstr "移動聯絡人"
 
-#: libkopete/kopetecontact.cpp:310
+#: libkopete/kopetecontact.cpp:319
 msgid "Select the meta contact to which you want to move this contact:"
 msgstr "選擇要移動此聯絡人至到的超聯絡人:"
 
-#: libkopete/kopetecontact.cpp:313
+#: libkopete/kopetecontact.cpp:322
 msgid "Create a new metacontact for this contact"
 msgstr "為此聯絡人建立超聯絡人"
 
-#: libkopete/kopetecontact.cpp:314
+#: libkopete/kopetecontact.cpp:323
 msgid ""
 "If you select this option, a new metacontact will be created in the top-"
 "level group with the name of this contact and the contact will be moved to "
@@ -989,20 +995,20 @@ msgstr ""
 "如選擇此選項，在頂層群組會建立和此聯絡人同名的新超聯絡人，此聯絡人會移往該"
 "處。"
 
-#: libkopete/kopetecontact.cpp:419
+#: libkopete/kopetecontact.cpp:428
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that "
 "supports offline sending, or wait until this user comes online."
 msgstr ""
 "此用戶現在聯絡不上。請以支援離線傳送的通訊協定再試，或等待這用戶再上線。"
 
-#: libkopete/kopetecontact.cpp:427
+#: libkopete/kopetecontact.cpp:436
 #, kde-format
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "你確定要從聯絡人清單移除聯絡人『%1』嗎？"
 
-#: libkopete/kopetecontact.cpp:428
+#: libkopete/kopetecontact.cpp:437
 #: kopete/contactlist/kopetecontactlistview.cpp:816
 msgid "Remove Contact"
 msgstr "移除聯絡人"
@@ -1055,18 +1061,18 @@ msgstr "移除聯絡人"
 #. i18n: ectx: property (text), widget (QPushButton, ignoreRemove)
 #. i18n: file: protocols/jabber/ui/privacy.ui:249
 #. i18n: ectx: property (text), widget (KPushButton, pb_remove)
-#: libkopete/kopetecontact.cpp:428
+#: libkopete/kopetecontact.cpp:437
 #: kopete/contactlist/kopetecontactlistview.cpp:397
 #: kopete/contactlist/kopetecontactlistview.cpp:412
 #: kopete/contactlist/kopetecontactlistview.cpp:837 rc.cpp:904 rc.cpp:1009
 #: rc.cpp:1954 rc.cpp:2230 rc.cpp:2251 rc.cpp:3937 rc.cpp:3949 rc.cpp:4072
-#: rc.cpp:4285 rc.cpp:4294 rc.cpp:4309 rc.cpp:5777
+#: rc.cpp:4285 rc.cpp:4294 rc.cpp:4309 rc.cpp:5780
 #: protocols/jabber/jabberprotocol.cpp:463
 #, fuzzy
 msgid "Remove"
 msgstr "移除(&V)"
 
-#: libkopete/kopetecontact.cpp:570
+#: libkopete/kopetecontact.cpp:578
 #, fuzzy, kde-format
 msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
 msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
@@ -1074,7 +1080,7 @@ msgstr ""
 "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
 "<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:577
+#: libkopete/kopetecontact.cpp:585
 #, fuzzy, kde-format
 msgctxt ""
 "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
@@ -1083,7 +1089,7 @@ msgstr ""
 "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
 "<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:595
+#: libkopete/kopetecontact.cpp:603
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Full Name:</b>&nbsp;FORMATTED NAME"
 #| msgid "<br><b>Full Name:</b>&nbsp;<nobr>%1</nobr>"
@@ -1093,7 +1099,7 @@ msgstr ""
 "<br><b>全名:</b>&nbsp;格式化名稱\n"
 "<br><b>全名:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:604
+#: libkopete/kopetecontact.cpp:612
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Idle:</b>&nbsp;FORMATTED IDLE TIME"
 #| msgid "<br><b>Idle:</b>&nbsp;<nobr>%1</nobr>"
@@ -1103,7 +1109,7 @@ msgstr ""
 "<br><b>閒置:</b>&nbsp;格式化閒置時間\n"
 "<br><b>閒置:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:613
+#: libkopete/kopetecontact.cpp:621
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Home Page:</b>&nbsp;FORMATTED URL"
 #| msgid "<br><b>Home Page:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
@@ -1113,7 +1119,7 @@ msgstr ""
 "<br><b>主網頁:</b>&nbsp;格式化 URL\n"
 "<br><b>主網頁:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 
-#: libkopete/kopetecontact.cpp:623
+#: libkopete/kopetecontact.cpp:631
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
@@ -1121,7 +1127,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:632 kopete/kopetewindow.cpp:1241
+#: libkopete/kopetecontact.cpp:640 kopete/kopetewindow.cpp:1241
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -1129,7 +1135,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:669
+#: libkopete/kopetecontact.cpp:677
 #, fuzzy, kde-format
 #| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
 #| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
@@ -1139,25 +1145,25 @@ msgstr ""
 "<br><b>屬性標籤:</b>&nbsp;屬性值\n"
 "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:692
+#: libkopete/kopetecontact.cpp:700
 #, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 %1"
 
-#: libkopete/kopetecontact.cpp:728
+#: libkopete/kopetecontact.cpp:736
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr "%4日 %3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:736
+#: libkopete/kopetecontact.cpp:744
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr "%3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:744
+#: libkopete/kopetecontact.cpp:752
 #, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
@@ -1262,6 +1268,12 @@ msgstr "電子郵件地址"
 msgid "Nick Name"
 msgstr "暱稱"
 
+#: libkopete/kopeteglobal.cpp:213
+#, fuzzy
+#| msgid "User Profile"
+msgid "Shown even if offline"
+msgstr "用戶資料檔"
+
 #. i18n: file: libkopete/ui/addressbookselectorwidget_base.ui:95
 #. i18n: ectx: property (text), widget (K3ListView, addresseeListView)
 #. i18n: file: kopete/contactlist/kopetemetalvipropswidget.ui:250
@@ -1274,7 +1286,7 @@ msgstr "暱稱"
 #. i18n: ectx: property (text), widget (QLabel, photoLabel)
 #. i18n: file: protocols/jabber/ui/dlgvcard.ui:146
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: libkopete/kopeteglobal.cpp:213 rc.cpp:97 rc.cpp:1324 rc.cpp:5335
+#: libkopete/kopeteglobal.cpp:219 rc.cpp:97 rc.cpp:1324 rc.cpp:5335
 msgid "Photo"
 msgstr "照片"
 
@@ -1563,7 +1575,7 @@ msgstr ""
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:126
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_lastName)
 #: kopete/main.cpp:38 kopete/main.cpp:43 kopete/main.cpp:44 kopete/main.cpp:54
-#: kopete/main.cpp:56 rc.cpp:6407
+#: kopete/main.cpp:56 rc.cpp:6410
 msgid "Developer"
 msgstr "開發人員"
 
@@ -4288,7 +4300,7 @@ msgstr "暱稱:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:91
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:403 rc.cpp:1246 rc.cpp:4908 rc.cpp:6161 rc.cpp:6392
+#: rc.cpp:403 rc.cpp:1246 rc.cpp:4908 rc.cpp:6164 rc.cpp:6395
 msgid "First name:"
 msgstr "名:"
 
@@ -4312,7 +4324,7 @@ msgstr "名:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel11)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:119
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:406 rc.cpp:1261 rc.cpp:4902 rc.cpp:6170 rc.cpp:6404
+#: rc.cpp:406 rc.cpp:1261 rc.cpp:4902 rc.cpp:6173 rc.cpp:6407
 msgid "Last name:"
 msgstr "名:"
 
@@ -6173,7 +6185,7 @@ msgstr "職銜(&T)"
 #. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
 #: rc.cpp:1198 rc.cpp:1486 rc.cpp:1660 rc.cpp:2080 rc.cpp:2158 rc.cpp:2191
-#: rc.cpp:2308 rc.cpp:4821 rc.cpp:6131
+#: rc.cpp:2308 rc.cpp:4821 rc.cpp:6134
 #, fuzzy
 msgid "&Edit"
 msgstr "編輯..."
@@ -6334,7 +6346,7 @@ msgstr "電子郵件:"
 #. i18n: ectx: property (text), widget (QLabel, lblDisplayName)
 #. i18n: file: protocols/groupwise/ui/gwcustomstatusedit.ui:87
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1270 rc.cpp:6143
+#: rc.cpp:1270 rc.cpp:6146
 msgid "&Name:"
 msgstr "名稱(&N):"
 
@@ -6487,7 +6499,7 @@ msgstr "將照片和通訊錄同步化(&Y)"
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:133
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:1342 rc.cpp:6344
+#: rc.cpp:1342 rc.cpp:6347
 msgid "Ad&vanced"
 msgstr "進階(&V)"
 
@@ -6615,8 +6627,8 @@ msgstr "格式工具列"
 #. i18n: ectx: Menu (file)
 #. i18n: file: protocols/groupwise/gwchatui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:1429 rc.cpp:1444 rc.cpp:2622 rc.cpp:3285 rc.cpp:5124 rc.cpp:5819
-#: rc.cpp:6347
+#: rc.cpp:1429 rc.cpp:1444 rc.cpp:2622 rc.cpp:3285 rc.cpp:5124 rc.cpp:5822
+#: rc.cpp:6350
 msgid "&Chat"
 msgstr "聊天(&C)"
 
@@ -7159,7 +7171,7 @@ msgstr "加入(&A)..."
 #. i18n: ectx: property (text), widget (QPushButton, m_btnRemove)
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:163
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: rc.cpp:1705 rc.cpp:2194 rc.cpp:2634 rc.cpp:6134 rc.cpp:6314
+#: rc.cpp:1705 rc.cpp:2194 rc.cpp:2634 rc.cpp:6137 rc.cpp:6317
 #, fuzzy
 msgid "&Remove"
 msgstr "移除(&V)"
@@ -7784,7 +7796,7 @@ msgstr "正規運算式"
 #. i18n: ectx: property (text), widget (QPushButton, m_editregexp)
 #. i18n: file: protocols/jabber/ui/privacy.ui:270
 #. i18n: ectx: property (text), widget (KPushButton, pb_edit)
-#: rc.cpp:1969 rc.cpp:5786 protocols/gadu/gaducontact.cpp:198
+#: rc.cpp:1969 rc.cpp:5789 protocols/gadu/gaducontact.cpp:198
 msgid "Edit..."
 msgstr "編輯..."
 
@@ -8185,7 +8197,7 @@ msgstr "搜尋"
 #. i18n: ectx: property (text), widget (KPushButton, searchButton)
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:193
 #. i18n: ectx: property (text), widget (QPushButton, m_search)
-#: rc.cpp:2149 rc.cpp:4045 rc.cpp:4478 rc.cpp:6041
+#: rc.cpp:2149 rc.cpp:4045 rc.cpp:4478 rc.cpp:6044
 #: plugins/history/historydialog.cpp:529
 msgid "&Search"
 msgstr "搜尋(&S)"
@@ -8265,7 +8277,7 @@ msgstr "取代清單"
 #. i18n: ectx: property (text), widget (QPushButton, m_add)
 #. i18n: file: protocols/groupwise/ui/gwcustomstatus.ui:37
 #. i18n: ectx: property (text), widget (QPushButton, m_btnAdd)
-#: rc.cpp:2188 rc.cpp:6128 plugins/alias/aliaspreferences.cpp:316
+#: rc.cpp:2188 rc.cpp:6131 plugins/alias/aliaspreferences.cpp:316
 #: protocols/oscar/oscarlistnonservercontacts.cpp:38
 msgid "&Add"
 msgstr "加入(&A)"
@@ -8513,7 +8525,7 @@ msgstr ""
 #. i18n: file: protocols/groupwise/gwaddui.ui:58
 #. i18n: ectx: property (whatsThis), widget (QLineEdit)
 #: rc.cpp:2311 rc.cpp:2314 rc.cpp:2320 rc.cpp:2323 rc.cpp:3227 rc.cpp:3230
-#: rc.cpp:3236 rc.cpp:3239 rc.cpp:6353 rc.cpp:6356 rc.cpp:6359 rc.cpp:6362
+#: rc.cpp:3236 rc.cpp:3239 rc.cpp:6356 rc.cpp:6359 rc.cpp:6362 rc.cpp:6365
 msgid "The account name of the account you would like to add."
 msgstr "你要新增的帳號的帳號名稱。"
 
@@ -8532,7 +8544,7 @@ msgstr "聯絡人名稱(&M):"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: file: protocols/groupwise/gwaddui.ui:68
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:2326 rc.cpp:6365
+#: rc.cpp:2326 rc.cpp:6368
 msgid "Contact Type"
 msgstr "聯絡類型"
 
@@ -8552,7 +8564,7 @@ msgstr "聯絡類型"
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
 #. i18n: file: protocols/groupwise/gwaddui.ui:88
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
-#: rc.cpp:2329 rc.cpp:2332 rc.cpp:6371 rc.cpp:6374
+#: rc.cpp:2329 rc.cpp:2332 rc.cpp:6374 rc.cpp:6377
 msgid ""
 "Hey look!  Only one option.  Could you please make this a dropdown and add "
 "Null?"
@@ -8566,7 +8578,7 @@ msgstr "看！ 只有一個選項。 可以將它變成下接清單及加入空�
 #. i18n: ectx: property (text), widget (QRadioButton, m_rbEcho)
 #. i18n: file: protocols/groupwise/gwaddui.ui:79
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:2335 rc.cpp:6368
+#: rc.cpp:2335 rc.cpp:6371
 msgid "&Echo"
 msgstr "回音(&E)"
 
@@ -9140,8 +9152,8 @@ msgstr "基本設定(&B)"
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:56
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:2506 rc.cpp:2694 rc.cpp:2943 rc.cpp:3114 rc.cpp:3537 rc.cpp:3787
-#: rc.cpp:4598 rc.cpp:5034 rc.cpp:5163 rc.cpp:5476 rc.cpp:5882 rc.cpp:6068
-#: rc.cpp:6383
+#: rc.cpp:4598 rc.cpp:5034 rc.cpp:5163 rc.cpp:5476 rc.cpp:5885 rc.cpp:6071
+#: rc.cpp:6386
 msgid "Account Information"
 msgstr "帳號資訊"
 
@@ -9237,7 +9249,7 @@ msgstr ""
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:134
 #. i18n: ectx: property (text), widget (QCheckBox, autoConnect)
 #: rc.cpp:2527 rc.cpp:2751 rc.cpp:3135 rc.cpp:3558 rc.cpp:3808 rc.cpp:4131
-#: rc.cpp:5055 rc.cpp:5184 rc.cpp:5497 rc.cpp:6089
+#: rc.cpp:5055 rc.cpp:5184 rc.cpp:5497 rc.cpp:6092
 msgid "E&xclude from connect all"
 msgstr "從全部連線中排除(&X)"
 
@@ -9665,7 +9677,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, buttonDown)
 #. i18n: file: protocols/jabber/ui/privacy.ui:263
 #. i18n: ectx: property (text), widget (KPushButton, pb_down)
-#: rc.cpp:2649 rc.cpp:4078 rc.cpp:4435 rc.cpp:5783
+#: rc.cpp:2649 rc.cpp:4078 rc.cpp:4435 rc.cpp:5786
 msgid "Down"
 msgstr "下"
 
@@ -9697,7 +9709,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, buttonUp)
 #. i18n: file: protocols/jabber/ui/privacy.ui:256
 #. i18n: ectx: property (text), widget (KPushButton, pb_up)
-#: rc.cpp:2658 rc.cpp:4075 rc.cpp:4432 rc.cpp:5780
+#: rc.cpp:2658 rc.cpp:4075 rc.cpp:4432 rc.cpp:5783
 msgid "Up"
 msgstr "上"
 
@@ -9783,8 +9795,8 @@ msgstr "移除(&V)"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:35
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:2691 rc.cpp:2940 rc.cpp:3111 rc.cpp:3534 rc.cpp:5160 rc.cpp:6065
-#: rc.cpp:6380
+#: rc.cpp:2691 rc.cpp:2940 rc.cpp:3111 rc.cpp:3534 rc.cpp:5160 rc.cpp:6068
+#: rc.cpp:6383
 msgid "B&asic Setup"
 msgstr "基本設定(&A)"
 
@@ -10330,7 +10342,7 @@ msgstr "帳號偏好設定 - SMS"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: protocols/groupwise/gwaddui.ui:38
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2946 rc.cpp:6350
+#: rc.cpp:2946 rc.cpp:6353
 msgid "&Account name:"
 msgstr "帳號名稱(&A):"
 
@@ -10686,8 +10698,8 @@ msgstr "帳號偏好設定 - ICQ"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, userId)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:119
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, userId)
-#: rc.cpp:3117 rc.cpp:3120 rc.cpp:3126 rc.cpp:3129 rc.cpp:6071 rc.cpp:6074
-#: rc.cpp:6080 rc.cpp:6083
+#: rc.cpp:3117 rc.cpp:3120 rc.cpp:3126 rc.cpp:3129 rc.cpp:6074 rc.cpp:6077
+#: rc.cpp:6083 rc.cpp:6086
 msgid "The account name of your account."
 msgstr "你的帳號的帳號名稱。"
 
@@ -10859,7 +10871,7 @@ msgstr "<i>(舉例: joe@hotmail.com)</i>"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:3245 rc.cpp:6398
+#: rc.cpp:3245 rc.cpp:6401
 msgid "Email address:"
 msgstr "電子郵件地址:"
 
@@ -11285,7 +11297,7 @@ msgstr "離線，當你設為「只讓朋友連接」時(&J)"
 #. i18n: ectx: property (text), widget (Q3ListView, groups)
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:129
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_type)
-#: rc.cpp:3462 rc.cpp:5732 protocols/jabber/ui/privacyruledlg.cpp:60
+#: rc.cpp:3462 rc.cpp:5735 protocols/jabber/ui/privacyruledlg.cpp:60
 #: protocols/jabber/ui/privacyruledlg.cpp:103
 msgid "Group"
 msgstr "群組"
@@ -11767,17 +11779,13 @@ msgstr "使用指定資料搜尋:"
 
 #. i18n: file: protocols/gadu/ui/gadusearch.ui:140
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3a)
-#. i18n: file: protocols/skype/ui/skypedetailsbase.ui:131
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: protocols/gadu/ui/gadusearch.ui:140
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3a)
-#. i18n: file: protocols/skype/ui/skypedetailsbase.ui:131
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:16
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:3706 rc.cpp:4809 rc.cpp:5792
+#: rc.cpp:3706 rc.cpp:5795
 msgid "Nick:"
 msgstr "暱稱:"
 
@@ -11990,7 +11998,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelServer)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:186
 #. i18n: ectx: property (text), widget (QLabel, labelServer)
-#: rc.cpp:3826 rc.cpp:5088 rc.cpp:5199 rc.cpp:5551 rc.cpp:6098
+#: rc.cpp:3826 rc.cpp:5088 rc.cpp:5199 rc.cpp:5551 rc.cpp:6101
 msgid "Ser&ver:"
 msgstr "伺服器(&V):"
 
@@ -12046,7 +12054,7 @@ msgstr "你要連接的 AIM 伺服器連接埠。 通常是 5190 。"
 #. i18n: ectx: property (text), widget (QLabel, labelPort)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:236
 #. i18n: ectx: property (text), widget (QLabel, labelPort)
-#: rc.cpp:3844 rc.cpp:4177 rc.cpp:5214 rc.cpp:5566 rc.cpp:6113
+#: rc.cpp:3844 rc.cpp:4177 rc.cpp:5214 rc.cpp:5566 rc.cpp:6116
 msgid "Po&rt:"
 msgstr "連接埠(&R):"
 
@@ -12414,7 +12422,7 @@ msgstr "公司位置資訊"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3964 rc.cpp:4508 rc.cpp:4992 rc.cpp:6386
+#: rc.cpp:3964 rc.cpp:4508 rc.cpp:4992 rc.cpp:6389
 msgid "Name:"
 msgstr "名稱:"
 
@@ -13270,7 +13278,7 @@ msgstr "圖示"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:233
 #. i18n: ectx: property (text), widget (QLabel, textLabel11)
-#: rc.cpp:4441 rc.cpp:6248
+#: rc.cpp:4441 rc.cpp:6251
 msgid "Description:"
 msgstr "說明:"
 
@@ -13432,7 +13440,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:78
 #. i18n: ectx: property (text), widget (QLabel, textLabel14)
-#: rc.cpp:4532 rc.cpp:6152
+#: rc.cpp:4532 rc.cpp:6155
 msgid "Status:"
 msgstr "狀態:"
 
@@ -13771,7 +13779,7 @@ msgstr "版本(&V)"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton5)
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:221
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:4682 rc.cpp:5924
+#: rc.cpp:4682 rc.cpp:5927
 msgid "S&ystem"
 msgstr "系統(&Y)"
 
@@ -14048,6 +14056,14 @@ msgstr "已封鎖"
 msgid "Is authorized:"
 msgstr "授權"
 
+#. i18n: file: protocols/skype/ui/skypedetailsbase.ui:131
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:4809
+#, fuzzy
+#| msgid "Display Name"
+msgid "Display Name:"
+msgstr "顯示名稱"
+
 #. i18n: file: protocols/skype/ui/skypedetailsbase.ui:184
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: rc.cpp:4818
@@ -14233,7 +14249,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, txtInvMsg)
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:105
 #. i18n: ectx: property (text), widget (QLabel, message)
-#: rc.cpp:4947 rc.cpp:6194
+#: rc.cpp:4947 rc.cpp:6197
 #, fuzzy
 msgid "Invitation Message"
 msgstr "輸入邀請訊息"
@@ -14537,7 +14553,7 @@ msgstr "你要新增的 MSN 聯絡人用戶 ID 。"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:103
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:5136 rc.cpp:6077
+#: rc.cpp:5136 rc.cpp:6080
 msgid "&User ID:"
 msgstr "用戶 ID (&U):"
 
@@ -14761,7 +14777,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblServer)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5284 rc.cpp:5296 rc.cpp:5795
+#: rc.cpp:5284 rc.cpp:5296 rc.cpp:5798
 msgid "Server:"
 msgstr "伺服器:"
 
@@ -14773,7 +14789,7 @@ msgstr "伺服器:"
 #. i18n: ectx: property (text), widget (QPushButton, pbQuery)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, pbQuery)
-#: rc.cpp:5287 rc.cpp:5798
+#: rc.cpp:5287 rc.cpp:5801
 #, fuzzy
 msgid "&Query"
 msgstr "查詢伺服器(&Q)"
@@ -14786,7 +14802,7 @@ msgstr "查詢伺服器(&Q)"
 #. i18n: ectx: property (text), widget (QTableWidget, tblChatRoomsList)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:57
 #. i18n: ectx: property (text), widget (QTreeWidget, tblChatRoomsList)
-#: rc.cpp:5290 rc.cpp:5801
+#: rc.cpp:5290 rc.cpp:5804
 #, fuzzy
 msgid "Chatroom Name"
 msgstr "共用名稱"
@@ -14799,7 +14815,7 @@ msgstr "共用名稱"
 #. i18n: ectx: property (text), widget (QTableWidget, tblChatRoomsList)
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:62
 #. i18n: ectx: property (text), widget (QTreeWidget, tblChatRoomsList)
-#: rc.cpp:5293 rc.cpp:5804
+#: rc.cpp:5293 rc.cpp:5807
 #, fuzzy
 msgid "Chatroom Description"
 msgstr "說明"
@@ -14825,7 +14841,7 @@ msgstr "查詢伺服器(&Q)"
 #. i18n: ectx: property (text), widget (QTreeWidget, trServices)
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:124
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_type)
-#: rc.cpp:5308 rc.cpp:5729 protocols/jabber/ui/dlgsearch.cpp:183
+#: rc.cpp:5308 rc.cpp:5732 protocols/jabber/ui/dlgsearch.cpp:183
 #: protocols/jabber/ui/privacyruledlg.cpp:57
 #: protocols/jabber/ui/privacyruledlg.cpp:100
 msgid "JID"
@@ -15162,7 +15178,7 @@ msgstr "容許普通文本密碼認證(&X)"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelServer)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:208
 #. i18n: ectx: property (toolTip), widget (QLineEdit, server)
-#: rc.cpp:5545 rc.cpp:5554 rc.cpp:6092 rc.cpp:6101
+#: rc.cpp:5545 rc.cpp:5554 rc.cpp:6095 rc.cpp:6104
 msgid "The IP address or hostname of the server you would like to connect to."
 msgstr "你要連接的伺服器 IP 位址或主機名稱。"
 
@@ -15196,7 +15212,7 @@ msgstr "你要連接的伺服器 IP 位址或主機名稱（例如 jabber.org）
 #. i18n: ectx: property (toolTip), widget (QLabel, labelPort)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:258
 #. i18n: ectx: property (toolTip), widget (QSpinBox, port)
-#: rc.cpp:5560 rc.cpp:5569 rc.cpp:6107 rc.cpp:6116
+#: rc.cpp:5560 rc.cpp:5569 rc.cpp:6110 rc.cpp:6119
 msgid "The port on the server that you would like to connect to."
 msgstr "你要連接的伺服器連接埠。"
 
@@ -15216,7 +15232,7 @@ msgstr "你要連接的伺服器連接埠。"
 #. i18n: ectx: property (whatsThis), widget (QLabel, labelPort)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:261
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, port)
-#: rc.cpp:5563 rc.cpp:5572 rc.cpp:6110 rc.cpp:6119
+#: rc.cpp:5563 rc.cpp:5572 rc.cpp:6113 rc.cpp:6122
 msgid ""
 "The port on the server that you would like to connect to (default is 5222)."
 msgstr "你要連接的伺服器連接埠。 預設是 5222 。"
@@ -15527,21 +15543,27 @@ msgstr "必定傳送輸入通知(&T)"
 msgid "Privacy Lists"
 msgstr "隱私選項"
 
+#. i18n: file: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1039
+#. i18n: ectx: property (text), widget (QCheckBox, oldEncrypted)
+#: rc.cpp:5705
+msgid "Use old inline PGP format for signed and encrypted messages"
+msgstr ""
+
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrivacyRule)
-#: rc.cpp:5705
+#: rc.cpp:5708
 msgid "Edit Privacy Rule"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5708
+#: rc.cpp:5711
 msgid "Then:"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:79
 #. i18n: ectx: property (text), widget (QCheckBox, ck_messages)
-#: rc.cpp:5711
+#: rc.cpp:5714
 #, fuzzy
 #| msgid "Message"
 msgid "Messages"
@@ -15549,14 +15571,14 @@ msgstr "訊息"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, ck_queries)
-#: rc.cpp:5714
+#: rc.cpp:5717
 #, fuzzy
 msgid "Queries"
 msgstr "派對"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:93
 #. i18n: ectx: property (text), widget (QCheckBox, ck_presenceOut)
-#: rc.cpp:5717
+#: rc.cpp:5720
 #, fuzzy
 #| msgid "Outgoing Messages"
 msgid "Outgoing presence"
@@ -15564,7 +15586,7 @@ msgstr "外送訊息"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:100
 #. i18n: ectx: property (text), widget (QCheckBox, ck_presenceIn)
-#: rc.cpp:5720
+#: rc.cpp:5723
 #, fuzzy
 #| msgid "Incoming Messages"
 msgid "Incoming presence"
@@ -15572,20 +15594,20 @@ msgstr "內送訊息"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:110
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_action)
-#: rc.cpp:5723 protocols/jabber/ui/privacyruledlg.cpp:73
+#: rc.cpp:5726 protocols/jabber/ui/privacyruledlg.cpp:73
 #: protocols/jabber/ui/privacyruledlg.cpp:113
 msgid "Deny"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:115
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_action)
-#: rc.cpp:5726 protocols/jabber/ui/privacyruledlg.cpp:70
+#: rc.cpp:5729 protocols/jabber/ui/privacyruledlg.cpp:70
 msgid "Allow"
 msgstr "允許"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:134
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_type)
-#: rc.cpp:5735 protocols/jabber/ui/privacyruledlg.cpp:41
+#: rc.cpp:5738 protocols/jabber/ui/privacyruledlg.cpp:41
 #: protocols/jabber/ui/privacyruledlg.cpp:88
 #: protocols/jabber/ui/privacyruledlg.cpp:133
 #: protocols/jabber/jabberprotocol.cpp:83
@@ -15594,45 +15616,45 @@ msgstr "訂閱"
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:139
 #. i18n: ectx: property (text), item, widget (KComboBox, cb_type)
-#: rc.cpp:5738 protocols/jabber/ui/privacyruledlg.cpp:63
+#: rc.cpp:5741 protocols/jabber/ui/privacyruledlg.cpp:63
 #: protocols/jabber/ui/privacyruledlg.cpp:144
 msgid "*"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacyrule.ui:147
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5741
+#: rc.cpp:5744
 msgid "If:"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/dlgsearch.ui:38
 #. i18n: ectx: property (title), widget (QGroupBox, dynamicForm)
-#: rc.cpp:5744
+#: rc.cpp:5747
 msgid "Search For"
 msgstr "搜尋"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, gb_settings)
-#: rc.cpp:5747
+#: rc.cpp:5750
 #, fuzzy
 msgid "Settings"
 msgstr "MSN 設置(&S)"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5750
+#: rc.cpp:5753
 msgid "Default list (all sessions):"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:96
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5753
+#: rc.cpp:5756
 msgid "Active list (current session):"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:113
 #. i18n: ectx: property (title), widget (QGroupBox, gb_listSettings)
-#: rc.cpp:5756
+#: rc.cpp:5759
 #, fuzzy
 #| msgid "Tooltip Editor"
 msgid "List Editor"
@@ -15640,14 +15662,14 @@ msgstr "工具提示編輯器"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:151
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:5759
+#: rc.cpp:5762
 #, fuzzy
 msgid "List:"
 msgstr "名:"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:178
 #. i18n: ectx: property (text), widget (KPushButton, pb_newList)
-#: rc.cpp:5762
+#: rc.cpp:5765
 #, fuzzy
 #| msgid "New Host"
 msgid "New List..."
@@ -15655,7 +15677,7 @@ msgstr "新主機"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:185
 #. i18n: ectx: property (text), widget (KPushButton, pb_deleteList)
-#: rc.cpp:5765
+#: rc.cpp:5768
 #, fuzzy
 #| msgid "&Delete Host"
 msgid "Delete List"
@@ -15663,13 +15685,13 @@ msgstr "刪除主機(&D)"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:194
 #. i18n: ectx: property (text), widget (QCheckBox, ck_autoActivate)
-#: rc.cpp:5768
+#: rc.cpp:5771
 msgid "Automatically activate this list on connect"
 msgstr ""
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:201
 #. i18n: ectx: property (title), widget (QGroupBox, gb_rules)
-#: rc.cpp:5771
+#: rc.cpp:5774
 #, fuzzy
 #| msgid "Register"
 msgid "Rules"
@@ -15677,7 +15699,7 @@ msgstr "註冊"
 
 #. i18n: file: protocols/jabber/ui/privacy.ui:290
 #. i18n: ectx: property (text), widget (KPushButton, pb_apply)
-#: rc.cpp:5789
+#: rc.cpp:5792
 #, fuzzy
 #| msgid "Reply"
 msgid "Apply"
@@ -15685,27 +15707,27 @@ msgstr "回覆"
 
 #. i18n: file: protocols/jabber/ui/dlgchatjoin.ui:70
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5807
+#: rc.cpp:5810
 msgid "Room:"
 msgstr "室:"
 
 #. i18n: file: protocols/jabber/jingle/jinglecallsgui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, jingleCallsGui)
-#: rc.cpp:5810
+#: rc.cpp:5813
 #, fuzzy
 msgid "Main Window"
 msgstr "鰥寡"
 
 #. i18n: file: protocols/jabber/jingle/jinglecallsgui.ui:50
 #. i18n: ectx: property (windowTitle), widget (QToolBar, toolBar)
-#: rc.cpp:5813
+#: rc.cpp:5816
 #, fuzzy
 msgid "Toolbar"
 msgstr "格式工具列"
 
 #. i18n: file: protocols/jabber/jingle/jinglecontentdialog.ui:19
 #. i18n: ectx: property (windowTitle), widget (QDialog, jingleContentDialog)
-#: rc.cpp:5816
+#: rc.cpp:5819
 #, fuzzy
 #| msgid "Away Dialog"
 msgid "Dialog"
@@ -15719,7 +15741,7 @@ msgstr "離開對話盒"
 #. i18n: ectx: property (toolTip), widget (QLabel, lblComputerName)
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:25
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblComputerName)
-#: rc.cpp:5822 rc.cpp:5825
+#: rc.cpp:5825 rc.cpp:5828
 #, fuzzy
 #| msgid "The software the contact's computer is running."
 msgid "The host name of this contact's computer."
@@ -15727,20 +15749,20 @@ msgstr "聯絡人的電腦正在運行的軟件。"
 
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:28
 #. i18n: ectx: property (text), widget (QLabel, lblComputerName)
-#: rc.cpp:5828
+#: rc.cpp:5831
 msgid "&Computer name:"
 msgstr "電腦名稱(&C):"
 
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:44
 #. i18n: ectx: property (text), widget (QLabel, sComputerName)
-#: rc.cpp:5831
+#: rc.cpp:5834
 #, fuzzy
 msgid "Computer Name"
 msgstr "電腦名稱(&C):"
 
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:5834
+#: rc.cpp:5837
 msgid "Comment:"
 msgstr "註解:"
 
@@ -15760,7 +15782,7 @@ msgstr "註解:"
 #. i18n: ectx: property (text), widget (QLabel, sOS)
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:151
 #. i18n: ectx: property (text), widget (QLabel, sServer)
-#: rc.cpp:5837 rc.cpp:5849 rc.cpp:5861 rc.cpp:5873
+#: rc.cpp:5840 rc.cpp:5852 rc.cpp:5864 rc.cpp:5876
 msgid "Looking"
 msgstr "正在觀望"
 
@@ -15772,7 +15794,7 @@ msgstr "正在觀望"
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel2)
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:74
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
-#: rc.cpp:5840 rc.cpp:5843
+#: rc.cpp:5843 rc.cpp:5846
 #, fuzzy
 #| msgid "The workgroup or domain the contact's computer is on."
 msgid "The workgroup or domain containing this contact's computer."
@@ -15786,7 +15808,7 @@ msgstr "聯絡人的電腦所在的工作群組或網域。"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:96
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
-#: rc.cpp:5846 rc.cpp:5963
+#: rc.cpp:5849 rc.cpp:5966
 msgid "&Workgroup/domain:"
 msgstr "工作群組/網域(&W):"
 
@@ -15798,7 +15820,7 @@ msgstr "工作群組/網域(&W):"
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel3)
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:103
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
-#: rc.cpp:5852 rc.cpp:5855
+#: rc.cpp:5855 rc.cpp:5858
 #, fuzzy
 #| msgid "The operating system the contact's computer is running."
 msgid "The operating system running on this contact's computer."
@@ -15806,7 +15828,7 @@ msgstr "聯絡人的電腦正在運行的作業系統。"
 
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:106
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:5858
+#: rc.cpp:5861
 msgid "Operating s&ystem:"
 msgstr "作業系統(&Y):"
 
@@ -15818,7 +15840,7 @@ msgstr "作業系統(&Y):"
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:132
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
-#: rc.cpp:5864 rc.cpp:5867
+#: rc.cpp:5867 rc.cpp:5870
 #, fuzzy
 #| msgid "The software the contact's computer is running."
 msgid "The software running on this contact's computer."
@@ -15826,19 +15848,19 @@ msgstr "聯絡人的電腦正在運行的軟件。"
 
 #. i18n: file: protocols/winpopup/ui/wpuserinfowidget.ui:135
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:5870
+#: rc.cpp:5873
 msgid "Ser&ver software:"
 msgstr "伺服器軟件(&V):"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, WPEditAccountBase)
-#: rc.cpp:5876
+#: rc.cpp:5879
 msgid "Account Preferences - WinPopup"
 msgstr "帳號偏好設定 - WinPopup"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:34
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:5879
+#: rc.cpp:5882
 #, fuzzy
 msgid "Basi&c Setup"
 msgstr "基本設定(&S)"
@@ -15851,7 +15873,7 @@ msgstr "基本設定(&S)"
 #. i18n: ectx: property (toolTip), widget (QLabel, label1)
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:82
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mHostName)
-#: rc.cpp:5885 rc.cpp:5894
+#: rc.cpp:5888 rc.cpp:5897
 #, fuzzy
 #| msgid "The hostname you would like to use to send WinPopup messages as."
 msgid "The hostname under which you want to send WinPopup messages."
@@ -15865,7 +15887,7 @@ msgstr "傳送 WinPopup 訊息時聲稱的主機名稱。"
 #. i18n: ectx: property (whatsThis), widget (QLabel, label1)
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:85
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mHostName)
-#: rc.cpp:5888 rc.cpp:5897
+#: rc.cpp:5891 rc.cpp:5900
 #, fuzzy
 #| msgid ""
 #| "The hostname you would like to use to send WinPopup messages as.  Note "
@@ -15881,7 +15903,7 @@ msgstr ""
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:72
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: rc.cpp:5891
+#: rc.cpp:5894
 msgid "Hos&tname:"
 msgstr "主機名稱(&T):"
 
@@ -15893,19 +15915,19 @@ msgstr "主機名稱(&T):"
 #. i18n: ectx: property (toolTip), widget (KPushButton, doInstallSamba)
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:95
 #. i18n: ectx: property (whatsThis), widget (KPushButton, doInstallSamba)
-#: rc.cpp:5900 rc.cpp:5903
+#: rc.cpp:5903 rc.cpp:5906
 msgid "Install support into Samba to enable this service."
 msgstr "安裝進 Samba 以啟動此服務。"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:98
 #. i18n: ectx: property (text), widget (KPushButton, doInstallSamba)
-#: rc.cpp:5906
+#: rc.cpp:5909
 msgid "I&nstall Into Samba"
 msgstr "安裝進 Samba (&N)"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:138
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
-#: rc.cpp:5912
+#: rc.cpp:5915
 msgid ""
 "To receive WinPopup messages sent from other machines, the hostname above "
 "must be set to this machine's hostname."
@@ -15915,13 +15937,13 @@ msgstr ""
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:162
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:5915
+#: rc.cpp:5918
 msgid "The samba server must be configured and running."
 msgstr ""
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5919
+#: rc.cpp:5922
 #, no-c-format
 msgid ""
 "\"Install into Samba\" is a simple method to create the directory for the "
@@ -15934,37 +15956,37 @@ msgstr ""
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:233
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:5927
+#: rc.cpp:5930
 msgid "Protocol Preferences"
 msgstr "通訊協定偏好選項"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:281
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:5930
+#: rc.cpp:5933
 msgid "second(s)"
 msgstr "秒"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:303
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:5933
+#: rc.cpp:5936
 msgid "Host check frequency:"
 msgstr "主機檢查頻率:"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:313
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:5936
+#: rc.cpp:5939
 msgid "Path to 'smbclient' executable:"
 msgstr "『smbclient』執行檔的路徑:"
 
 #. i18n: file: protocols/winpopup/ui/wpeditaccountbase.ui:337
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:5942
+#: rc.cpp:5945
 msgid "<i>These options apply to all WinPopup accounts.</i>"
 msgstr "<i>這些選項會套用至所有 WinPopup 帳號。</i>"
 
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:30
 #. i18n: ectx: property (windowTitle), widget (QWidget, WPAddContactBase)
-#: rc.cpp:5945
+#: rc.cpp:5948
 #, fuzzy
 #| msgid "Add Contact"
 msgid "Add WinPopup Contact"
@@ -15986,7 +16008,7 @@ msgstr "加入聯絡人"
 #. i18n: ectx: property (toolTip), widget (KComboBox, mHostName)
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:137
 #. i18n: ectx: property (whatsThis), widget (KComboBox, mHostName)
-#: rc.cpp:5948 rc.cpp:5951 rc.cpp:5966 rc.cpp:5969
+#: rc.cpp:5951 rc.cpp:5954 rc.cpp:5969 rc.cpp:5972
 #, fuzzy
 #| msgid "The hostname you would like to use to send WinPopup messages as."
 msgid "The hostname to which you want to send WinPopup messages."
@@ -15994,7 +16016,7 @@ msgstr "傳送 WinPopup 訊息時聲稱的主機名稱。"
 
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:77
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
-#: rc.cpp:5954
+#: rc.cpp:5957
 msgid "Com&puter hostname:"
 msgstr "電腦主機名稱(&P):"
 
@@ -16006,7 +16028,7 @@ msgstr "電腦主機名稱(&P):"
 #. i18n: ectx: property (toolTip), widget (QLabel, TextLabel1_2)
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:93
 #. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1_2)
-#: rc.cpp:5957 rc.cpp:5960
+#: rc.cpp:5960 rc.cpp:5963
 #, fuzzy
 #| msgid ""
 #| "The workgroup or domain the computer is on that you would like to use to "
@@ -16024,7 +16046,7 @@ msgstr "你要傳送 WinPopup 訊息給它的電腦的工作群組或網域。"
 #. i18n: ectx: property (toolTip), widget (KComboBox, mHostGroup)
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:153
 #. i18n: ectx: property (whatsThis), widget (KComboBox, mHostGroup)
-#: rc.cpp:5972 rc.cpp:5975
+#: rc.cpp:5975 rc.cpp:5978
 #, fuzzy
 #| msgid ""
 #| "The workgroup or domain the computer is on that you would like to use to "
@@ -16036,7 +16058,7 @@ msgstr "你要傳送 WinPopup 訊息給它的電腦的工作群組或網域。"
 
 #. i18n: file: protocols/winpopup/ui/wpaddcontactbase.ui:177
 #. i18n: ectx: property (text), widget (QPushButton, mRefresh)
-#: rc.cpp:5978 protocols/jabber/ui/dlgahclist.cpp:39
+#: rc.cpp:5981 protocols/jabber/ui/dlgahclist.cpp:39
 #, fuzzy
 #| msgid "&Refresh"
 msgid "Refresh"
@@ -16044,37 +16066,37 @@ msgstr "刷新(&R)"
 
 #. i18n: file: protocols/groupwise/ui/gwchatsearch.ui:74
 #. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
-#: rc.cpp:5981
+#: rc.cpp:5984
 msgid "&Refresh"
 msgstr "刷新(&R)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseContactSearchWidget)
-#: rc.cpp:5984
+#: rc.cpp:5987
 msgid "Search GroupWise Messenger"
 msgstr "搜尋 GroupWise Messenger"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:30
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:5987
+#: rc.cpp:5990
 msgid "&First name"
 msgstr "名(&F)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:43
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:5990
+#: rc.cpp:5993
 msgid "&User ID"
 msgstr "用戶 ID (&U)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:56
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:5993
+#: rc.cpp:5996
 msgid "&Title"
 msgstr "職銜(&T)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:75
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:5996
+#: rc.cpp:5999
 msgid "&Department"
 msgstr "部門(&D)"
 
@@ -16098,7 +16120,7 @@ msgstr "部門(&D)"
 #. i18n: ectx: property (text), item, widget (QComboBox, m_deptOperation)
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:204
 #. i18n: ectx: property (text), item, widget (QComboBox, m_titleOperation)
-#: rc.cpp:5999 rc.cpp:6008 rc.cpp:6017 rc.cpp:6032 rc.cpp:6044
+#: rc.cpp:6002 rc.cpp:6011 rc.cpp:6020 rc.cpp:6035 rc.cpp:6047
 msgid "contains"
 msgstr "包含"
 
@@ -16122,7 +16144,7 @@ msgstr "包含"
 #. i18n: ectx: property (text), item, widget (QComboBox, m_deptOperation)
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:209
 #. i18n: ectx: property (text), item, widget (QComboBox, m_titleOperation)
-#: rc.cpp:6002 rc.cpp:6011 rc.cpp:6020 rc.cpp:6035 rc.cpp:6047
+#: rc.cpp:6005 rc.cpp:6014 rc.cpp:6023 rc.cpp:6038 rc.cpp:6050
 msgid "begins with"
 msgstr "以此開首:"
 
@@ -16146,49 +16168,49 @@ msgstr "以此開首:"
 #. i18n: ectx: property (text), item, widget (QComboBox, m_deptOperation)
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:214
 #. i18n: ectx: property (text), item, widget (QComboBox, m_titleOperation)
-#: rc.cpp:6005 rc.cpp:6014 rc.cpp:6023 rc.cpp:6038 rc.cpp:6050
+#: rc.cpp:6008 rc.cpp:6017 rc.cpp:6026 rc.cpp:6041 rc.cpp:6053
 msgid "equals"
 msgstr "相等於"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:148
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:6026
+#: rc.cpp:6029
 msgid "Last &name"
 msgstr "姓(&N)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:161
 #. i18n: ectx: property (text), widget (QPushButton, m_clear)
-#: rc.cpp:6029
+#: rc.cpp:6032
 msgid "Cl&ear"
 msgstr "清除(&E)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:237
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
-#: rc.cpp:6053
+#: rc.cpp:6056
 msgid "&Results:"
 msgstr "結果(&R):"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:276
 #. i18n: ectx: property (text), widget (QPushButton, m_details)
-#: rc.cpp:6056
+#: rc.cpp:6059
 msgid "Detai&ls"
 msgstr "詳細資料(&L)"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactsearch.ui:303
 #. i18n: ectx: property (text), widget (QLabel, m_matchCount)
-#: rc.cpp:6059
+#: rc.cpp:6062
 msgid "0 matching users found"
 msgstr "找不到相符的用戶"
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseAccountPreferences)
-#: rc.cpp:6062
+#: rc.cpp:6065
 msgid "Account Preferences - Groupwise"
 msgstr "帳號偏好設定 - Groupwise"
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:131
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, autoConnect)
-#: rc.cpp:6086
+#: rc.cpp:6089
 msgid ""
 "Check to disable automatic connection.  If checked, you may connect to this "
 "account manually using the icon in the bottom of the main Kopete window"
@@ -16203,7 +16225,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, labelServer)
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:211
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, server)
-#: rc.cpp:6095 rc.cpp:6104
+#: rc.cpp:6098 rc.cpp:6107
 msgid ""
 "The IP address or hostname of the server you would like to connect to (for "
 "example im.yourcorp.com)."
@@ -16211,7 +16233,7 @@ msgstr "你要連接的伺服器 IP 位址或主機名稱（例如 im.yourcorp.c
 
 #. i18n: file: protocols/groupwise/ui/gwaccountpreferences.ui:286
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: rc.cpp:6122
+#: rc.cpp:6125
 msgid "Advanced &Options"
 msgstr "進階選項(&O)"
 
@@ -16223,25 +16245,25 @@ msgstr "進階選項(&O)"
 #. i18n: ectx: property (text), widget (QCheckBox, alwaysAccept)
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:163
 #. i18n: ectx: property (text), widget (QCheckBox, cbDontShowAgain)
-#: rc.cpp:6125 rc.cpp:6200
+#: rc.cpp:6128 rc.cpp:6203
 msgid "A&lways accept invitations"
 msgstr "必定接受邀請(&L)"
 
 #. i18n: file: protocols/groupwise/ui/gwcustomstatusedit.ui:61
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:6137
+#: rc.cpp:6140
 msgid "&Status:"
 msgstr "狀態(&S):"
 
 #. i18n: file: protocols/groupwise/ui/gwcustomstatusedit.ui:74
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:6140
+#: rc.cpp:6143
 msgid "Awa&y message:"
 msgstr "離開訊息(&Y):"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:22
 #. i18n: ectx: property (text), widget (QLabel, userId)
-#: rc.cpp:6146
+#: rc.cpp:6149
 msgid "USER_ID"
 msgstr ""
 
@@ -16257,25 +16279,25 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLineEdit, displayName)
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:134
 #. i18n: ectx: property (toolTip), widget (QLineEdit, firstName)
-#: rc.cpp:6149 rc.cpp:6155 rc.cpp:6167
+#: rc.cpp:6152 rc.cpp:6158 rc.cpp:6170
 msgid "Change the display name used for this contact"
 msgstr "更改用於此聯絡人的顯示名稱"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:101
 #. i18n: ectx: property (text), widget (QLabel, status)
-#: rc.cpp:6158
+#: rc.cpp:6161
 msgid "USER_STATUS"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:121
 #. i18n: ectx: property (text), widget (QLabel, lbldisplayName)
-#: rc.cpp:6164
+#: rc.cpp:6167
 msgid "&Display name:"
 msgstr "顯示名稱(&D):"
 
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:172
 #. i18n: ectx: property (text), widget (QLabel, textLabel15)
-#: rc.cpp:6173
+#: rc.cpp:6176
 msgid "Additional properties:"
 msgstr "額外屬性:"
 
@@ -16287,7 +16309,7 @@ msgstr "額外屬性:"
 #. i18n: ectx: property (text), widget (QTreeWidget, propsView)
 #. i18n: file: protocols/groupwise/ui/gwcontactprops.ui:200
 #. i18n: ectx: property (text), widget (QTreeWidget, propsView)
-#: rc.cpp:6176 rc.cpp:6179
+#: rc.cpp:6179 rc.cpp:6182
 #, fuzzy
 #| msgid "New Group"
 msgid "New Column"
@@ -16295,39 +16317,39 @@ msgstr "新群組"
 
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:6182
+#: rc.cpp:6185
 msgid "<p align=\"right\">From:</p>"
 msgstr "<p align=\"right\">來自:</p>"
 
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:61
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:6185
+#: rc.cpp:6188
 msgid "<p align=\"right\">Sent:</p>"
 msgstr "<p align=\"right\">已送:</p>"
 
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:77
 #. i18n: ectx: property (text), widget (QLabel, dateTime)
-#: rc.cpp:6188
+#: rc.cpp:6191
 #, fuzzy
 msgid "Invitation Date"
 msgstr "輸入邀請訊息"
 
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:87
 #. i18n: ectx: property (text), widget (QLabel, contactName)
-#: rc.cpp:6191
+#: rc.cpp:6194
 #, fuzzy
 msgid "Contact Name"
 msgstr "聯絡人名稱(&M):"
 
 #. i18n: file: protocols/groupwise/ui/gwshowinvitation.ui:135
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:6197
+#: rc.cpp:6200
 msgid "Would you like to join the conversation?"
 msgstr "你要加入對話嗎？"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupWiseChatProps)
-#: rc.cpp:6203
+#: rc.cpp:6206
 #, fuzzy
 #| msgid "Contact Properties"
 msgid "GroupWise Chat Properties"
@@ -16335,138 +16357,138 @@ msgstr "聯絡人屬性"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:34
 #. i18n: ectx: property (text), widget (QLabel, displayName)
-#: rc.cpp:6206
+#: rc.cpp:6209
 msgid "DISPLAY NAME"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:64
 #. i18n: ectx: property (toolTip), widget (QLineEdit, creator)
-#: rc.cpp:6209
+#: rc.cpp:6212
 #, fuzzy
 msgid "The user who created the chatroom"
 msgstr "用戶 %1 已在聊天中。"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
-#: rc.cpp:6212
+#: rc.cpp:6215
 #, fuzzy
 msgid "Query:"
 msgstr "色彩:"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:90
 #. i18n: ectx: property (text), widget (QLabel, lblTopic)
-#: rc.cpp:6215
+#: rc.cpp:6218
 #, fuzzy
 msgid "Topic:"
 msgstr "主題"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:103
 #. i18n: ectx: property (toolTip), widget (QLineEdit, disclaimer)
-#: rc.cpp:6218
+#: rc.cpp:6221
 msgid "A disclaimer for users entering the chatroom"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:116
 #. i18n: ectx: property (text), widget (QLabel, m__2_2)
-#: rc.cpp:6221
+#: rc.cpp:6224
 #, fuzzy
 msgid "Owner:"
 msgstr "性別:"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:129
 #. i18n: ectx: property (toolTip), widget (QLineEdit, topic)
-#: rc.cpp:6224
+#: rc.cpp:6227
 msgid "The current topic of the discussion"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:142
 #. i18n: ectx: property (toolTip), widget (QLineEdit, query)
-#: rc.cpp:6227
+#: rc.cpp:6230
 msgid "UNKNOWN"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:155
 #. i18n: ectx: property (text), widget (QLabel, textLabel11_2_2)
-#: rc.cpp:6230
+#: rc.cpp:6233
 #, fuzzy
 msgid "Maximum users:"
 msgstr "聊天視窗中的最大行數(&M):"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:168
 #. i18n: ectx: property (text), widget (QLabel, m__2_2_2)
-#: rc.cpp:6233
+#: rc.cpp:6236
 #, fuzzy
 msgid "Created on:"
 msgstr "建立項目"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:181
 #. i18n: ectx: property (text), widget (QLabel, lbl_displayName_2)
-#: rc.cpp:6236
+#: rc.cpp:6239
 #, fuzzy
 msgid "Disclaimer:"
 msgstr "顯示名稱:"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:194
 #. i18n: ectx: property (toolTip), widget (QLineEdit, description)
-#: rc.cpp:6239
+#: rc.cpp:6242
 msgid "General description of the chatroom"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:207
 #. i18n: ectx: property (toolTip), widget (QLineEdit, maxUsers)
-#: rc.cpp:6242
+#: rc.cpp:6245
 msgid "Maximum number of simultaneous users allowed in the chatroom"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:220
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
-#: rc.cpp:6245
+#: rc.cpp:6248
 #, fuzzy
 msgid "Creator:"
 msgstr "建立項目"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:246
 #. i18n: ectx: property (toolTip), widget (QLineEdit, createdOn)
-#: rc.cpp:6251
+#: rc.cpp:6254
 msgid "Date and time the chatroom was created"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:265
 #. i18n: ectx: property (toolTip), widget (QCheckBox, archive)
-#: rc.cpp:6254
+#: rc.cpp:6257
 msgid "Indicates if the chatroom is being archived on the server"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:268
 #. i18n: ectx: property (text), widget (QCheckBox, archive)
-#: rc.cpp:6257
+#: rc.cpp:6260
 msgid "Archived"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:278
 #. i18n: ectx: property (toolTip), widget (QLineEdit, owner)
-#: rc.cpp:6260
+#: rc.cpp:6263
 #, fuzzy
 msgid "The user who owns this chatroom"
 msgstr "用戶 %1 已在聊天中。"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:306
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
-#: rc.cpp:6263
+#: rc.cpp:6266
 #, fuzzy
 msgid "Default Access"
 msgstr "預設訊息"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:327
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkRead)
-#: rc.cpp:6266
+#: rc.cpp:6269
 #, fuzzy
 msgid "General permission to read messages in the chatroom"
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:330
 #. i18n: ectx: property (text), widget (QCheckBox, chkRead)
-#: rc.cpp:6269
+#: rc.cpp:6272
 #, fuzzy
 #| msgid "Read Message"
 msgid "Read message"
@@ -16474,27 +16496,27 @@ msgstr "閱讀訊息"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:340
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkWrite)
-#: rc.cpp:6272
+#: rc.cpp:6275
 #, fuzzy
 msgid "General permission to write messages in the chatroom"
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:343
 #. i18n: ectx: property (text), widget (QCheckBox, chkWrite)
-#: rc.cpp:6275
+#: rc.cpp:6278
 #, fuzzy
 msgid "Write message"
 msgstr "未讀訊息"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:353
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkModify)
-#: rc.cpp:6278
+#: rc.cpp:6281
 msgid "General permission to modify the chatroom's access control list"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:356
 #. i18n: ectx: property (text), widget (QCheckBox, chkModify)
-#: rc.cpp:6281
+#: rc.cpp:6284
 #, fuzzy
 #| msgid "Edit Account"
 msgid "Modify access"
@@ -16502,38 +16524,38 @@ msgstr "編輯帳號"
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:369
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:6284
+#: rc.cpp:6287
 msgid "Access Control List"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:382
 #. i18n: ectx: property (toolTip), widget (K3ListBox, acl)
-#: rc.cpp:6287
+#: rc.cpp:6290
 msgid "Access permissions for specific users"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:406
 #. i18n: ectx: property (toolTip), widget (KPushButton, addAcl)
-#: rc.cpp:6290
+#: rc.cpp:6293
 msgid "Add a new ACL entry"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:413
 #. i18n: ectx: property (toolTip), widget (KPushButton, editAcl)
-#: rc.cpp:6293
+#: rc.cpp:6296
 msgid "Edit an existing ACL entry"
 msgstr ""
 
 #. i18n: file: protocols/groupwise/ui/gwchatprops.ui:420
 #. i18n: ectx: property (toolTip), widget (KPushButton, deleteAcl)
-#: rc.cpp:6296
+#: rc.cpp:6299
 #, fuzzy
 msgid "Delete an ACL entry"
 msgstr "刪除聯絡人(&D)"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:31
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:6299
+#: rc.cpp:6302
 #, fuzzy
 #| msgid "Who can see my online status and send me messages:"
 msgid "Users who can see my online status and send me messages:"
@@ -16541,86 +16563,86 @@ msgstr "誰可看見我的上線狀態及傳訊息給我:"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:75
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:6302
+#: rc.cpp:6305
 msgid "A&llowed"
 msgstr "允許(&L)"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, btnBlock)
-#: rc.cpp:6305
+#: rc.cpp:6308
 msgid "&Block >>"
 msgstr "封鎖 >> (&B)"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:133
 #. i18n: ectx: property (text), widget (QPushButton, btnAllow)
-#: rc.cpp:6308
+#: rc.cpp:6311
 msgid "<< Allo&w"
 msgstr "<< 允許(&W)"
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:156
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: rc.cpp:6311
+#: rc.cpp:6314
 msgid "A&dd..."
 msgstr "加入(&D)..."
 
 #. i18n: file: protocols/groupwise/ui/gwprivacy.ui:205
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:6317
+#: rc.cpp:6320
 msgid "Bloc&ked"
 msgstr "已封鎖(&K)"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:38
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:6320
+#: rc.cpp:6323
 msgid "&Basic"
 msgstr "基本(&B)"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, bg_addMethod)
-#: rc.cpp:6323
+#: rc.cpp:6326
 msgid "Add Using"
 msgstr "以此加入"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:86
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_userName)
-#: rc.cpp:6326
+#: rc.cpp:6329
 msgid "A full or partial name. Asterisks are ignored"
 msgstr "全名或部份名稱。星號將被忽略"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:89
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_userName)
-#: rc.cpp:6329
+#: rc.cpp:6332
 msgid "Type some or all of the contact's name.  Matches will be shown below"
 msgstr "鍵入聯絡人的部份或全部名稱。 符合的會在下面顯示"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:96
 #. i18n: ectx: property (text), widget (QRadioButton, rb_userId)
-#: rc.cpp:6332
+#: rc.cpp:6335
 msgid "User &ID:"
 msgstr "用戶 &ID:"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:109
 #. i18n: ectx: property (text), widget (QRadioButton, rb_userName)
-#: rc.cpp:6335
+#: rc.cpp:6338
 msgid "Userna&me:"
 msgstr "用戶名稱(&M):"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:119
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_userId)
-#: rc.cpp:6338
+#: rc.cpp:6341
 msgid "A correct User ID"
 msgstr "正確的用戶 ID"
 
 #. i18n: file: protocols/groupwise/ui/gwaddui.ui:122
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_userId)
-#: rc.cpp:6341
+#: rc.cpp:6344
 msgid ""
 "Use this field to add a contact if you already know the user's exact User ID"
 msgstr "如你已知道用戶的準確用戶 ID ，使用此欄位新增該用戶"
 
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, BonjourAccountPreferences)
-#: rc.cpp:6377
+#: rc.cpp:6380
 #, fuzzy
 #| msgid "Account Preferences - Yahoo"
 msgid "Account Preferences - Bonjour"
@@ -16628,25 +16650,25 @@ msgstr "帳號偏好設定 - Yahoo"
 
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:84
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_username)
-#: rc.cpp:6389
+#: rc.cpp:6392
 msgid "kde-devel"
 msgstr ""
 
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:98
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_firstName)
-#: rc.cpp:6395
+#: rc.cpp:6398
 msgid "KDE"
 msgstr ""
 
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:112
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_emailAddress)
-#: rc.cpp:6401
+#: rc.cpp:6404
 msgid "kde@example.com"
 msgstr ""
 
 #. i18n: file: protocols/bonjour/bonjouraccountpreferences.ui:163
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
-#: rc.cpp:6413
+#: rc.cpp:6416
 msgid ""
 "The Bonjour protocol needs you to at least specify a name. The name can be "
 "of form 'Full Name@Hostname'"
@@ -16654,7 +16676,7 @@ msgstr ""
 
 #. i18n: file: protocols/bonjour/bonjouraddui.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6416
+#: rc.cpp:6419
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -19612,7 +19634,7 @@ msgstr "請勿打擾(&D)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:69
 #: protocols/oscar/icq/icqstatusmanager.cpp:77
-#: protocols/skype/skypeprotocol.cpp:63 protocols/skype/skypeaccount.cpp:915
+#: protocols/skype/skypeprotocol.cpp:81 protocols/skype/skypeaccount.cpp:912
 #: protocols/jabber/jabbercontact.cpp:179
 msgid "Do Not Disturb"
 msgstr "請勿打擾"
@@ -19634,7 +19656,7 @@ msgstr "沒空(&V)"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:73
 #: protocols/oscar/icq/icqstatusmanager.cpp:81
-#: protocols/skype/skypeprotocol.cpp:62 protocols/skype/skypeaccount.cpp:911
+#: protocols/skype/skypeprotocol.cpp:80 protocols/skype/skypeaccount.cpp:908
 msgid "Not Available"
 msgstr "沒空"
 
@@ -21444,10 +21466,10 @@ msgstr "<qt>你必須輸入有效的螢幕名稱。</qt>"
 #: protocols/skype/skypeeditaccount.cpp:215
 #: protocols/skype/skypeeditaccount.cpp:232
 #: protocols/skype/skypeeditaccount.cpp:240
-#: protocols/skype/skypeaccount.cpp:1014 protocols/skype/skypeaccount.cpp:1033
-#: protocols/skype/skypeaccount.cpp:1038 protocols/skype/skypeaccount.cpp:1046
-#: protocols/skype/skypeaccount.cpp:1057 protocols/skype/skypeaccount.cpp:1062
-#: protocols/skype/skypeaccount.cpp:1070
+#: protocols/skype/skypeaccount.cpp:1046 protocols/skype/skypeaccount.cpp:1059
+#: protocols/skype/skypeaccount.cpp:1078 protocols/skype/skypeaccount.cpp:1083
+#: protocols/skype/skypeaccount.cpp:1091 protocols/skype/skypeaccount.cpp:1102
+#: protocols/skype/skypeaccount.cpp:1107 protocols/skype/skypeaccount.cpp:1115
 #: protocols/skype/libskype/skype.cpp:280
 #, fuzzy
 #| msgid "For protocols:"
@@ -21487,30 +21509,30 @@ msgstr "移除授權表格"
 msgid "Block contact"
 msgstr "封鎖聯絡人(&B)"
 
-#: protocols/skype/skypeprotocol.cpp:60 protocols/skype/skypeaccount.cpp:923
+#: protocols/skype/skypeprotocol.cpp:78 protocols/skype/skypeaccount.cpp:920
 #, fuzzy
 msgid "Skype Me"
 msgstr "太空"
 
-#: protocols/skype/skypeprotocol.cpp:66
+#: protocols/skype/skypeprotocol.cpp:84
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Not in Skype list"
 msgstr "不在你的聯絡人清單"
 
-#: protocols/skype/skypeprotocol.cpp:67
+#: protocols/skype/skypeprotocol.cpp:85
 #, fuzzy
 #| msgid "Not at home"
 msgid "Not authorized"
 msgstr "不在家"
 
-#: protocols/skype/skypeprotocol.cpp:68
+#: protocols/skype/skypeprotocol.cpp:86
 #, fuzzy
 #| msgid "Select Contact"
 msgid "SkypeOut contact"
 msgstr "選取聯絡人"
 
-#: protocols/skype/skypeprotocol.cpp:87
+#: protocols/skype/skypeprotocol.cpp:105
 #: protocols/skype/skypechatsession.cpp:112
 #: protocols/skype/skypechatsession.cpp:153
 #, fuzzy
@@ -21649,30 +21671,34 @@ msgstr "已有主機使用此名稱"
 msgid "You cannot add yourself as a contact."
 msgstr "你不能將自己加到自己的聯絡人清單上。"
 
-#: protocols/skype/skypeaccount.cpp:895
+#: protocols/skype/skypeaccount.cpp:892
 #, fuzzy, kde-format
 msgid "Skype (%1)"
 msgstr "太空"
 
-#: protocols/skype/skypeaccount.cpp:929
+#: protocols/skype/skypeaccount.cpp:926
 #, fuzzy
 msgid "Make Test Call"
 msgstr "超聯絡人"
 
-#: protocols/skype/skypeaccount.cpp:1014 protocols/skype/skypeaccount.cpp:1033
-#: protocols/skype/skypeaccount.cpp:1038 protocols/skype/skypeaccount.cpp:1070
+#: protocols/skype/skypeaccount.cpp:1046
+msgid "This is not implemented yet"
+msgstr ""
+
+#: protocols/skype/skypeaccount.cpp:1059 protocols/skype/skypeaccount.cpp:1078
+#: protocols/skype/skypeaccount.cpp:1083 protocols/skype/skypeaccount.cpp:1115
 msgid "Unknown action from SkypeActionHandler"
 msgstr ""
 
-#: protocols/skype/skypeaccount.cpp:1046
+#: protocols/skype/skypeaccount.cpp:1091
 msgid "Add contact from SkypeActionHandler is not supported yet"
 msgstr ""
 
-#: protocols/skype/skypeaccount.cpp:1057
+#: protocols/skype/skypeaccount.cpp:1102
 msgid "Send voicemail from SkypeActionHandler is not supported yet"
 msgstr ""
 
-#: protocols/skype/skypeaccount.cpp:1062
+#: protocols/skype/skypeaccount.cpp:1107
 #, fuzzy
 msgid "Contact is not on contact list"
 msgstr "無法開啟檔案寫入"
@@ -21681,96 +21707,96 @@ msgstr "無法開啟檔案寫入"
 msgid "This version of Skype is too old, consider upgrading"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:391
+#: protocols/skype/libskype/skype.cpp:397
 #: protocols/groupwise/libgroupwise/gwerror.cpp:41
 #, fuzzy
 #| msgid "Host not found."
 msgid "User not found"
 msgstr "找不到主機。"
 
-#: protocols/skype/libskype/skype.cpp:393
+#: protocols/skype/libskype/skype.cpp:399
 msgid "Does not have multi-user chat capability"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:395
+#: protocols/skype/libskype/skype.cpp:401
 #, fuzzy
 #| msgid "connected"
 msgid "Chat denied"
 msgstr "已連接"
 
-#: protocols/skype/libskype/skype.cpp:461
+#: protocols/skype/libskype/skype.cpp:478
 #: protocols/yahoo/libkyahoo/sendfiletask.cpp:103
 #, fuzzy
 #| msgid "Unknown error."
 msgid "Unknown error"
 msgstr "未知錯誤。"
 
-#: protocols/skype/libskype/skype.cpp:464
+#: protocols/skype/libskype/skype.cpp:481
 #, fuzzy
 #| msgid "error"
 msgid "Misc error"
 msgstr "錯誤"
 
-#: protocols/skype/libskype/skype.cpp:467
+#: protocols/skype/libskype/skype.cpp:484
 #, fuzzy
 #| msgid "The channel \"%1\" does not exist"
 msgid "User or phone number does not exist"
 msgstr "頻道「%1」不存在"
 
-#: protocols/skype/libskype/skype.cpp:470
+#: protocols/skype/libskype/skype.cpp:487
 #, fuzzy
 #| msgid "User Profile"
 msgid "User is offline"
 msgstr "用戶資料檔"
 
-#: protocols/skype/libskype/skype.cpp:473
+#: protocols/skype/libskype/skype.cpp:490
 #, fuzzy
 #| msgid "Host not found."
 msgid "No proxy found"
 msgstr "找不到主機。"
 
-#: protocols/skype/libskype/skype.cpp:476
+#: protocols/skype/libskype/skype.cpp:493
 #, fuzzy
 msgid "Session terminated"
 msgstr "註冊狀態: %1"
 
-#: protocols/skype/libskype/skype.cpp:479
+#: protocols/skype/libskype/skype.cpp:496
 msgid "No common codec found"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:482
+#: protocols/skype/libskype/skype.cpp:499
 msgid "Sound I/O error"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:485
+#: protocols/skype/libskype/skype.cpp:502
 msgid "Problem with remote sound device"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:488
+#: protocols/skype/libskype/skype.cpp:505
 msgid "Call blocked by recipient"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:491
+#: protocols/skype/libskype/skype.cpp:508
 msgid "Recipient not a friend"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:494
+#: protocols/skype/libskype/skype.cpp:511
 msgid "User not authorized by recipient"
 msgstr ""
 
-#: protocols/skype/libskype/skype.cpp:497
+#: protocols/skype/libskype/skype.cpp:514
 #, fuzzy
 #| msgid "Connecting error."
 msgid "Sound recording error"
 msgstr "正在連接錯誤。"
 
-#: protocols/skype/libskype/skype.cpp:765
+#: protocols/skype/libskype/skype.cpp:786
 #, fuzzy
 #| msgid "This protocol does not currently support adding accounts."
 msgid "This version of Skype does not support adding users to chat."
 msgstr "此通訊協定尚未支援新增帳號。"
 
-#: protocols/skype/libskype/skype.cpp:765
+#: protocols/skype/libskype/skype.cpp:786
 #, fuzzy
 #| msgid "Protocol"
 msgid "Skype Protocol"
@@ -22740,16 +22766,16 @@ msgstr ""
 "伺服器拒絕註冊表格。\n"
 "原因：「%1」"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:245
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:246
 msgid ""
 "The changes you just made will take effect next time you log in with Jabber."
 msgstr "你所做的變更將在下次登入 Jabber 時生效。"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:246
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:247
 msgid "Jabber Changes During Online Jabber Session"
 msgstr "Jabber 在上線 Jabber 工作階段時更改"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:309
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:311
 msgid ""
 "The Jabber ID you have chosen is invalid. Please make sure it is in the form "
 "user@server.com, like an email address."
@@ -22757,7 +22783,7 @@ msgstr ""
 "你選擇的 Jabber ID 無效。請確定依照 user@server.com 的格式，它有點像電子信箱"
 "地址。"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:311
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:313
 msgid "Invalid Jabber ID"
 msgstr "無效的 Jabber ID"
 
@@ -23527,7 +23553,6 @@ msgid "You have been invited to %1"
 msgstr "你已經斷線了"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:102
-#: protocols/jabber/jabberchatsession.cpp:374
 msgid "This message is encrypted."
 msgstr "此訊息已加密。"
 
