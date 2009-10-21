@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-23 01:25+0200\n"
+"POT-Creation-Date: 2009-10-21 01:28+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -236,7 +236,7 @@ msgid "n/a"
 msgstr ""
 
 #: core/transferhandler.cpp:151
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1489
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:78
 #: ui/transferdetails.cpp:89
 msgid "Stalled"
 msgstr "因擠塞停止了"
@@ -1011,6 +1011,24 @@ msgstr "預設的資料夾"
 msgid "Select a default temporary folder"
 msgstr "預設的資料夾:"
 
+#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:58
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgid "OK"
+msgstr "完成"
+
+#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:59
+msgid "Announcing"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:60
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:82
+#, fuzzy, kde-format
+#| msgid "To: %1"
+msgid "Error: %1"
+msgstr "到： %1"
+
 #: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:203
 msgid "Unknown client"
 msgstr ""
@@ -1152,14 +1170,14 @@ msgstr ""
 msgid "Not connected"
 msgstr "保持連線"
 
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:298
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:503
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:301
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:515
 #, fuzzy
 #| msgid "No Links"
 msgid "Not in use"
 msgstr "沒有連結"
 
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:316
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:319
 #: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:125
 #, fuzzy
 #| msgid "Connection Type"
@@ -1215,10 +1233,10 @@ msgid "Error: request timed out"
 msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:391
-msgid "Redirected without a new location !"
+msgid "Redirected without a new location."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:379
+#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:385
 #, kde-format
 msgid "1 peer"
 msgid_plural "%1 peers"
@@ -1255,16 +1273,16 @@ msgid "Cannot convert %1 to an int"
 msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
-msgid "Torrent is incomplete!"
+msgid "Torrent is incomplete."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:71
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:72
 #: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:106
 #, kde-format
 msgid "Failed to open %1 : %2"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:82
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:83
 #: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:133
 #, kde-format
 msgid "Failed to create %1 : %2"
@@ -1361,13 +1379,13 @@ msgstr ""
 "%1"
 
 #: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:523
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:840
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:794
 #, kde-format
 msgid "Cannot preallocate diskspace : %1"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:776
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:856
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:738
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:802
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open file:\n"
@@ -1378,151 +1396,112 @@ msgstr ""
 "%1"
 
 #: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:83
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:145
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:168
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:176
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:183
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:187
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:195
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:211
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:215
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:229
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:238
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:252
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:259
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:265
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:272
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:278
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:310
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:358
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:364
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:367
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:370
-msgid "Corrupted torrent!"
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:154
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:182
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:189
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:197
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:201
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:222
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:293
+msgid "Corrupted torrent."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:136
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:145
 #, kde-format
 msgid " Unable to open torrent file %1 : %2"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:335
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:341
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:275
 msgid "Parse Error"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:533
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:469
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
 "torrent is probably corrupt or is not a valid torrent file."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:563
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:498
 #, kde-format
 msgid ""
 "An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
 "is probably corrupt or is not a valid torrent file."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:573
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:508
 #, kde-format
 msgid "Unable to create %1 : %2"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:588
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:523
 #, kde-format
 msgid ""
 "You are already downloading this torrent %1, the list of trackers of both "
 "torrents has been merged."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:592
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:527
 #, kde-format
 msgid "You are already downloading the torrent %1"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:691
-#, kde-format
-msgid "Cannot migrate %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1387
-#, kde-format
-msgid ""
-"The torrent %1 was started with a previous version of KTorrent. To make sure "
-"this torrent still works with this version of KTorrent, we will migrate this "
-"torrent. You will be asked for a location to save the torrent to. If you "
-"press cancel, we will select your home directory."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1392
-msgid "Select Folder to Save To"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1479
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:68
 #, fuzzy
 #| msgid "Not Deleted"
 msgid "Not started"
 msgstr "沒有刪除"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1481
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:70
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download completed"
 msgstr "完成下載"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1483
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:72
 msgid "Seeding completed"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1485
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:74
 #, fuzzy
 #| msgid "Scheduling"
+msgctxt "Status of a torrent file"
 msgid "Seeding"
 msgstr "正在排程"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1487
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:76
 #, fuzzy
 msgid "Downloading"
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1491
-#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:80
 #, fuzzy
 #| msgid "Stopped"
 msgid "Stopped"
 msgstr "已停止"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1493
-msgid "Error: "
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1495
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:84
 msgid "Allocating diskspace"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1497
-msgid "Queued"
-msgstr "已佇列"
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:86
+#, fuzzy
+#| msgid "Queueing"
+msgid "Queued for seeding"
+msgstr "正在佇列"
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1499
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:86
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Queued for downloading"
+msgstr "重試的次數："
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:88
 msgid "Checking data"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1501
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:90
 msgid "Stopped. No space left on device."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:546
-#, fuzzy
-#| msgctxt "OK as in 'finished'"
-#| msgid "OK"
-msgid "OK"
-msgstr "完成"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:553
-msgid "Announcing"
 msgstr ""
 
 #: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
@@ -1547,7 +1526,11 @@ msgstr ""
 "無法讀取檔案：\n"
 "%1"
 
-#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:307
+#: transfer-plugins/bittorrent/libbtcore/tracker/httpannouncejob.cpp:119
+msgid "Redirect without a redirect location"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:317
 #, kde-format
 msgid "Unable to resolve hostname %1"
 msgstr ""
@@ -1557,18 +1540,18 @@ msgstr ""
 msgid "Cannot bind to udp port %1 or the 10 following ports."
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:273
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:293
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:333
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:269
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:289
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:329
 #: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:443
 msgid "Invalid response from tracker"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:286
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:282
 msgid "Invalid data from tracker"
 msgstr ""
 
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:459
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:460
 msgid "Invalid tracker URL"
 msgstr ""
 
@@ -3806,6 +3789,9 @@ msgstr ""
 msgid "List of whether the script is enabled"
 msgstr ""
 
+#~ msgid "Queued"
+#~ msgstr "已佇列"
+
 #, fuzzy
 #~| msgid ""
 #~| "Could not read file:\n"
@@ -4611,9 +4597,6 @@ msgstr ""
 #~ msgid "Window style:"
 #~ msgstr "視窗風格:"
 
-#~ msgid "To: %1"
-#~ msgstr "到： %1"
-
 #~ msgid "unknown"
 #~ msgstr "未知"
 
@@ -4625,9 +4608,6 @@ msgstr ""
 
 #~ msgid "Pausing"
 #~ msgstr "正在暫停"
-
-#~ msgid "Queueing"
-#~ msgstr "正在佇列"
 
 #~ msgid "Delaying"
 #~ msgstr "延遲中"
