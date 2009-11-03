@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-02 06:59+0100\n"
+"POT-Creation-Date: 2009-11-03 06:12+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -527,16 +527,16 @@ msgstr ""
 msgid "More Information..."
 msgstr "更多資訊..."
 
-#: libkopete/kopeteaccount.cpp:168
+#: libkopete/kopeteaccount.cpp:169
 msgid "You have been disconnected"
 msgstr "你已經斷線了"
 
-#: libkopete/kopeteaccount.cpp:168
+#: libkopete/kopeteaccount.cpp:169
 #, kde-format
 msgid "You have connected from another client or computer to the account '%1'"
 msgstr "你已從另一客戶端或電腦連接至『%1』帳號"
 
-#: libkopete/kopeteaccount.cpp:168
+#: libkopete/kopeteaccount.cpp:169
 msgid ""
 "Most proprietary Instant Messaging services do not allow you to connect from "
 "more than one location. Check that nobody is using your account without your "
@@ -546,29 +546,29 @@ msgstr ""
 "絕大部份專屬即時傳訊服務不容許從多於一處地點連接。請檢查有沒有人未獲你授權而"
 "使用你的帳號。如你而要同時從多個地點連接，請使用 Jabber 通訊協定。"
 
-#: libkopete/kopeteaccount.cpp:294 libkopete/kopeteaccount.cpp:360
+#: libkopete/kopeteaccount.cpp:297 libkopete/kopeteaccount.cpp:371
 #, kde-format
 msgid ""
 "You are not allowed to add yourself to the contact list. The addition of \"%1"
 "\" to account \"%2\" will not take place."
 msgstr "不能將自己加到聯絡人清單。新增「%1」到「%2」帳號的行動不會進行。"
 
-#: libkopete/kopeteaccount.cpp:294 libkopete/kopeteaccount.cpp:360
+#: libkopete/kopeteaccount.cpp:297 libkopete/kopeteaccount.cpp:371
 msgid "Error Creating Contact"
 msgstr "建立聯絡人時發生錯誤"
 
-#: libkopete/kopeteaccount.cpp:413 protocols/jabber/jabbertransport.cpp:136
+#: libkopete/kopeteaccount.cpp:431 protocols/jabber/jabbertransport.cpp:136
 #, kde-format
 msgid "%2 <%1>"
 msgstr "%2 <%1>"
 
-#: libkopete/kopeteaccount.cpp:419 protocols/gadu/gaduaccount.cpp:387
+#: libkopete/kopeteaccount.cpp:437 protocols/gadu/gaduaccount.cpp:387
 #: protocols/skype/skypeaccount.cpp:943 protocols/winpopup/wpaccount.cpp:187
 #, fuzzy
 msgid "Properties"
 msgstr "屬性(&P)"
 
-#: libkopete/kopeteaccount.cpp:585
+#: libkopete/kopeteaccount.cpp:606
 msgid "Edit Account"
 msgstr "編輯帳號"
 
@@ -721,7 +721,7 @@ msgstr "未連接"
 
 #: libkopete/kabcpersistence.cpp:380 protocols/oscar/aim/aimprotocol.cpp:156
 #: protocols/oscar/icq/icqprotocol.cpp:100
-#: protocols/jabber/jabberprotocol.cpp:390
+#: protocols/jabber/jabberprotocol.cpp:391
 msgid "Choose Account"
 msgstr "選擇帳號"
 
@@ -1067,7 +1067,7 @@ msgstr "移除聯絡人"
 #: kopete/contactlist/kopetecontactlistview.cpp:837 rc.cpp:904 rc.cpp:1009
 #: rc.cpp:1954 rc.cpp:2230 rc.cpp:2251 rc.cpp:3937 rc.cpp:3949 rc.cpp:4072
 #: rc.cpp:4285 rc.cpp:4294 rc.cpp:4309 rc.cpp:5783
-#: protocols/jabber/jabberprotocol.cpp:463
+#: protocols/jabber/jabberprotocol.cpp:464
 #, fuzzy
 msgid "Remove"
 msgstr "移除(&V)"
@@ -1366,7 +1366,7 @@ msgstr "加入聯絡人(&A)"
 #: rc.cpp:4426 rc.cpp:4944 protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:50
 #: protocols/oscar/icq/icqprotocol.cpp:131
-#: protocols/jabber/jabberprotocol.cpp:446
+#: protocols/jabber/jabberprotocol.cpp:447
 #, fuzzy
 msgid "Add"
 msgstr "加入(&A)"
@@ -19698,14 +19698,14 @@ msgid "AIM"
 msgstr "AIM"
 
 #: protocols/oscar/aim/aimprotocol.cpp:186
-#: protocols/jabber/jabberprotocol.cpp:445
+#: protocols/jabber/jabberprotocol.cpp:446
 #, kde-format
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/icqprotocol.cpp:131
-#: protocols/jabber/jabberprotocol.cpp:446
+#: protocols/jabber/jabberprotocol.cpp:447
 msgid "Do Not Add"
 msgstr "不要加入"
 
@@ -23523,33 +23523,33 @@ msgstr "住家國家"
 msgid "Fax"
 msgstr "傳真"
 
-#: protocols/jabber/jabberprotocol.cpp:396
+#: protocols/jabber/jabberprotocol.cpp:397
 #, fuzzy, kde-format
 msgid "Choose an account to handle the URL %1"
 msgstr "選擇要忽略的帳號:"
 
-#: protocols/jabber/jabberprotocol.cpp:462
+#: protocols/jabber/jabberprotocol.cpp:463
 #, fuzzy, kde-format
 msgid "Do you want to remove '%1' from your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/jabber/jabberprotocol.cpp:463
+#: protocols/jabber/jabberprotocol.cpp:464
 #, fuzzy
 msgid "Do Not Remove"
 msgstr "不使用"
 
-#: protocols/jabber/jabberprotocol.cpp:485
+#: protocols/jabber/jabberprotocol.cpp:486
 #, fuzzy, kde-format
 msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
-#: protocols/jabber/jabberprotocol.cpp:486
+#: protocols/jabber/jabberprotocol.cpp:487
 #: protocols/jabber/jabberaccount.cpp:1558
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabberprotocol.cpp:508
+#: protocols/jabber/jabberprotocol.cpp:509
 #: protocols/jabber/jabbergroupchatmanager.cpp:149
 #, fuzzy, kde-format
 msgid "You have been invited to %1"
