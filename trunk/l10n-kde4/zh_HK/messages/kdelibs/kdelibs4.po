@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-05 06:16+0100\n"
+"POT-Creation-Date: 2009-11-07 06:18+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -4043,7 +4043,22 @@ msgstr "Adar I"
 msgid "Adar II"
 msgstr "Adar II"
 
-#: kdecore/date/kcalendarsystem.cpp:92
+#: kdecore/date/kcalendarsystem.cpp:104
+#, fuzzy
+#| msgid "Copy"
+msgctxt "@item Calendar system"
+msgid "Coptic"
+msgstr "複製"
+
+#: kdecore/date/kcalendarsystem.cpp:108
+#, fuzzy
+#| msgctxt "QFont"
+#| msgid "Ethiopic"
+msgctxt "@item Calendar system"
+msgid "Ethiopian"
+msgstr "衣索比亞"
+
+#: kdecore/date/kcalendarsystem.cpp:112
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
@@ -4051,7 +4066,7 @@ msgctxt "@item Calendar system"
 msgid "Gregorian"
 msgstr "喬治亞文"
 
-#: kdecore/date/kcalendarsystem.cpp:96
+#: kdecore/date/kcalendarsystem.cpp:116
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
@@ -4059,31 +4074,31 @@ msgctxt "@item Calendar system"
 msgid "Gregorian (Proleptic)"
 msgstr "喬治亞文"
 
-#: kdecore/date/kcalendarsystem.cpp:100
+#: kdecore/date/kcalendarsystem.cpp:120
 #, fuzzy
 #| msgid "Hebrew"
 msgctxt "@item Calendar system"
 msgid "Hebrew"
 msgstr "希伯來文"
 
-#: kdecore/date/kcalendarsystem.cpp:104
+#: kdecore/date/kcalendarsystem.cpp:124
 msgctxt "@item Calendar system"
 msgid "Hijri"
 msgstr ""
 
-#: kdecore/date/kcalendarsystem.cpp:108
+#: kdecore/date/kcalendarsystem.cpp:128
 #, fuzzy
 #| msgid "International"
 msgctxt "@item Calendar system"
 msgid "Indian National"
 msgstr "國際"
 
-#: kdecore/date/kcalendarsystem.cpp:112
+#: kdecore/date/kcalendarsystem.cpp:132
 msgctxt "@item Calendar system"
 msgid "Jalali"
 msgstr ""
 
-#: kdecore/date/kcalendarsystem.cpp:116
+#: kdecore/date/kcalendarsystem.cpp:136
 #, fuzzy
 #| msgctxt "January"
 #| msgid "Jan"
@@ -4091,24 +4106,472 @@ msgctxt "@item Calendar system"
 msgid "Julian"
 msgstr "一月"
 
-#: kdecore/date/kcalendarsystem.cpp:119
+#: kdecore/date/kcalendarsystem.cpp:139
 #, fuzzy
 #| msgid "invalid flags"
 msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "錯誤的旗號"
 
-#: kdecore/date/kcalendarsystem.cpp:709 kdecore/localization/klocale.cpp:2135
+#: kdecore/date/kcalendarsystem.cpp:729 kdecore/localization/klocale.cpp:2135
 #, fuzzy
 #| msgid "Monday"
 msgid "Today"
 msgstr "星期一"
 
-#: kdecore/date/kcalendarsystem.cpp:711 kdecore/localization/klocale.cpp:2138
+#: kdecore/date/kcalendarsystem.cpp:731 kdecore/localization/klocale.cpp:2138
 #, fuzzy
 #| msgid "Tuesday"
 msgid "Yesterday"
 msgstr "星期二"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:271
+#, fuzzy
+#| msgid "Kho"
+msgctxt "Coptic month 1 - ShortNamePossessive"
+msgid "of Tho"
+msgstr "Kho"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:273
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Coptic month 2 - ShortNamePossessive"
+msgid "of Pao"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:275
+#, fuzzy
+#| msgid "Shvat"
+msgctxt "Coptic month 3 - ShortNamePossessive"
+msgid "of Hat"
+msgstr "Shvat"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:277
+#, fuzzy
+#| msgid "Nisan"
+msgctxt "Coptic month 4 - ShortNamePossessive"
+msgid "of Kia"
+msgstr "Nisan"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:279
+#, fuzzy
+#| msgctxt "of February"
+#| msgid "of Feb"
+msgctxt "Coptic month 5 - ShortNamePossessive"
+msgid "of Tob"
+msgstr "二月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:281
+#, fuzzy
+#| msgid "of March"
+msgctxt "Coptic month 6 - ShortNamePossessive"
+msgid "of Mes"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:283
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Coptic month 7 - ShortNamePossessive"
+msgid "of Par"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:285
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Coptic month 8 - ShortNamePossessive"
+msgid "of Pam"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:287
+#, fuzzy
+#| msgid "of March"
+msgctxt "Coptic month 9 - ShortNamePossessive"
+msgid "of Pas"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:289
+#, fuzzy
+#| msgctxt "of January"
+#| msgid "of Jan"
+msgctxt "Coptic month 10 - ShortNamePossessive"
+msgid "of Pan"
+msgstr "一月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:291
+#, fuzzy
+#| msgctxt "of February"
+#| msgid "of Feb"
+msgctxt "Coptic month 11 - ShortNamePossessive"
+msgid "of Epe"
+msgstr "二月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:293
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Coptic month 12 - ShortNamePossessive"
+msgid "of Meo"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:295
+#, fuzzy
+#| msgid "Kho"
+msgctxt "Coptic month 13 - ShortNamePossessive"
+msgid "of Kou"
+msgstr "Kho"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:304
+#, fuzzy
+#| msgid "Kho"
+msgctxt "Coptic month 1 - LongNamePossessive"
+msgid "of Thoout"
+msgstr "Kho"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:306
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Coptic month 2 - LongNamePossessive"
+msgid "of Paope"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:308
+#, fuzzy
+#| msgid "of Hijjah"
+msgctxt "Coptic month 3 - LongNamePossessive"
+msgid "of Hathor"
+msgstr "of Hijjah"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:310
+#, fuzzy
+#| msgid "Kho"
+msgctxt "Coptic month 4 - LongNamePossessive"
+msgid "of Kiahk"
+msgstr "Kho"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:312
+#, fuzzy
+#| msgid "of October"
+msgctxt "Coptic month 5 - LongNamePossessive"
+msgid "of Tobe"
+msgstr "十月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:314
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Coptic month 6 - LongNamePossessive"
+msgid "of Meshir"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:316
+msgctxt "Coptic month 7 - LongNamePossessive"
+msgid "of Paremhotep"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:318
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Coptic month 8 - LongNamePossessive"
+msgid "of Parmoute"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:320
+#, fuzzy
+#| msgid "of March"
+msgctxt "Coptic month 9 - LongNamePossessive"
+msgid "of Pashons"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:322
+#, fuzzy
+#| msgctxt "of January"
+#| msgid "of Jan"
+msgctxt "Coptic month 10 - LongNamePossessive"
+msgid "of Paone"
+msgstr "一月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:324
+#, fuzzy
+#| msgctxt "of September"
+#| msgid "of Sep"
+msgctxt "Coptic month 11 - LongNamePossessive"
+msgid "of Epep"
+msgstr "九月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:326
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Coptic month 12 - LongNamePossessive"
+msgid "of Mesore"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:328
+msgctxt "Coptic month 13 - LongNamePossessive"
+msgid "of Kouji nabot"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:337
+#, fuzzy
+#| msgid "Thl"
+msgctxt "Coptic month 1 - ShortName"
+msgid "Tho"
+msgstr "Thl"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:339
+#, fuzzy
+msgctxt "Coptic month 2 - ShortName"
+msgid "Pao"
+msgstr "Pause"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:341
+#, fuzzy
+#| msgctxt "Saturday"
+#| msgid "Sat"
+msgctxt "Coptic month 3 - ShortName"
+msgid "Hat"
+msgstr "週六"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:343
+#, fuzzy
+#| msgid "Kha"
+msgctxt "Coptic month 4 - ShortName"
+msgid "Kia"
+msgstr "Kha"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:345
+#, fuzzy
+#| msgid "Jom"
+msgctxt "Coptic month 5 - ShortName"
+msgid "Tob"
+msgstr "Jom"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:347
+#, fuzzy
+#| msgid "Yes"
+msgctxt "Coptic month 6 - ShortName"
+msgid "Mes"
+msgstr "是"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:349
+#, fuzzy
+#| msgid "Parcel"
+msgctxt "Coptic month 7 - ShortName"
+msgid "Par"
+msgstr "包裹"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:351
+#, fuzzy
+#| msgid "am"
+msgctxt "Coptic month 8 - ShortName"
+msgid "Pam"
+msgstr "am"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:353
+#, fuzzy
+#| msgid "Pager"
+msgctxt "Coptic month 9 - ShortName"
+msgid "Pas"
+msgstr "傳呼機"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:355
+#, fuzzy
+#| msgctxt "toolbar position string"
+#| msgid "Floating"
+msgctxt "Coptic month 10 - ShortName"
+msgid "Pan"
+msgstr "分割成獨立選單"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:357
+#, fuzzy
+#| msgid "Escape"
+msgctxt "Coptic month 11 - ShortName"
+msgid "Epe"
+msgstr "Escape"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:359
+#, fuzzy
+#| msgctxt "Monday"
+#| msgid "Mon"
+msgctxt "Coptic month 12 - ShortName"
+msgid "Meo"
+msgstr "週一"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:361
+#, fuzzy
+#| msgid "Kho"
+msgctxt "Coptic month 13 - ShortName"
+msgid "Kou"
+msgstr "Kho"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:370
+#, fuzzy
+#| msgctxt "Thursday"
+#| msgid "Thu"
+msgctxt "Coptic month 1 - LongName"
+msgid "Thoout"
+msgstr "週四"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:372
+#, fuzzy
+#| msgid "Property"
+msgctxt "Coptic month 2 - LongName"
+msgid "Paope"
+msgstr "內容"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:374
+#, fuzzy
+#| msgid "Author"
+msgctxt "Coptic month 3 - LongName"
+msgid "Hathor"
+msgstr "作者"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:376
+msgctxt "Coptic month 4 - LongName"
+msgid "Kiahk"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:378
+#, fuzzy
+#| msgid "Table:"
+msgctxt "Coptic month 5 - LongName"
+msgid "Tobe"
+msgstr "表格："
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:380
+#, fuzzy
+#| msgid "Mehr"
+msgctxt "Coptic month 6 - LongName"
+msgid "Meshir"
+msgstr "Mehr"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:382
+#, fuzzy
+#| msgid "Parameter"
+msgctxt "Coptic month 7 - LongName"
+msgid "Paremhotep"
+msgstr "參數"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:384
+#, fuzzy
+#| msgid "Parameter"
+msgctxt "Coptic month 8 - LongName"
+msgid "Parmoute"
+msgstr "參數"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:386
+#, fuzzy
+msgctxt "Coptic month 9 - LongName"
+msgid "Pashons"
+msgstr "Pause"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:388
+#, fuzzy
+#| msgid "None"
+msgctxt "Coptic month 10 - LongName"
+msgid "Paone"
+msgstr "無"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:390
+#, fuzzy
+#| msgid "Escape"
+msgctxt "Coptic month 11 - LongName"
+msgid "Epep"
+msgstr "Escape"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:392
+#, fuzzy
+#| msgid "Restore"
+msgctxt "Coptic month 12 - LongName"
+msgid "Mesore"
+msgstr "還原"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:394
+msgctxt "Coptic month 13 - LongName"
+msgid "Kouji nabot"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:411
+#, fuzzy
+#| msgid "Pager"
+msgctxt "Coptic weekday 1 - ShortDayName"
+msgid "Pes"
+msgstr "傳呼機"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:412
+#, fuzzy
+msgctxt "Coptic weekday 2 - ShortDayName"
+msgid "Psh"
+msgstr "Pause"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:413
+msgctxt "Coptic weekday 3 - ShortDayName"
+msgid "Pef"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:414
+msgctxt "Coptic weekday 4 - ShortDayName"
+msgid "Pti"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:415
+msgctxt "Coptic weekday 5 - ShortDayName"
+msgid "Pso"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:416
+#, fuzzy
+#| msgid "Postal"
+msgctxt "Coptic weekday 6 - ShortDayName"
+msgid "Psa"
+msgstr "郵局"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:417
+msgctxt "Coptic weekday 7 - ShortDayName"
+msgid "Tky"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:423
+#, fuzzy
+#| msgid "Personal"
+msgctxt "Coptic weekday 1 - LongDayName"
+msgid "Pesnau"
+msgstr "個人的"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:424
+#, fuzzy
+#| msgid "Comment"
+msgctxt "Coptic weekday 2 - LongDayName"
+msgid "Pshoment"
+msgstr "備註"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:425
+msgctxt "Coptic weekday 3 - LongDayName"
+msgid "Peftoou"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:426
+#, fuzzy
+#| msgid "Position"
+msgctxt "Coptic weekday 4 - LongDayName"
+msgid "Ptiou"
+msgstr "位置"
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:427
+msgctxt "Coptic weekday 5 - LongDayName"
+msgid "Psoou"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:428
+msgctxt "Coptic weekday 6 - LongDayName"
+msgid "Psabbaton"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemcoptic.cpp:429
+msgctxt "Coptic weekday 7 - LongDayName"
+msgid "Tkyriakē"
+msgstr ""
 
 #: kdecore/date/kdatetime.cpp:1500 kdecore/date/kdatetime.cpp:1510
 #: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:1925
@@ -4120,6 +4583,471 @@ msgstr "am"
 #: kdecore/localization/klocale.cpp:2082
 msgid "pm"
 msgstr "pm"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:193
+#, fuzzy
+#| msgid "of March"
+msgctxt "Ethiopian month 1 - ShortNamePossessive"
+msgid "of Mes"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:195
+#, fuzzy
+#| msgid "Tevet"
+msgctxt "Ethiopian month 2 - ShortNamePossessive"
+msgid "of Teq"
+msgstr "Tevet"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:197
+#, fuzzy
+#| msgctxt "of February"
+#| msgid "of Feb"
+msgctxt "Ethiopian month 3 - ShortNamePossessive"
+msgid "of Hed"
+msgstr "二月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:199
+#, fuzzy
+#| msgid "of March"
+msgctxt "Ethiopian month 4 - ShortNamePossessive"
+msgid "of Tah"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:201
+#, fuzzy
+#| msgid "Tir"
+msgctxt "Ethiopian month 5 - ShortNamePossessive"
+msgid "of Ter"
+msgstr "Tir"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:203
+#, fuzzy
+#| msgctxt "of January"
+#| msgid "of Jan"
+msgctxt "Ethiopian month 6 - ShortNamePossessive"
+msgid "of Yak"
+msgstr "一月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:205
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Ethiopian month 7 - ShortNamePossessive"
+msgid "of Mag"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:207
+#, fuzzy
+#| msgctxt "of May short"
+#| msgid "of May"
+msgctxt "Ethiopian month 8 - ShortNamePossessive"
+msgid "of Miy"
+msgstr "五月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:209
+#, fuzzy
+#| msgctxt "of January"
+#| msgid "of Jan"
+msgctxt "Ethiopian month 9 - ShortNamePossessive"
+msgid "of Gen"
+msgstr "一月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:211
+#, fuzzy
+#| msgctxt "of September"
+#| msgid "of Sep"
+msgctxt "Ethiopian month 10 - ShortNamePossessive"
+msgid "of Sen"
+msgstr "九月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:213
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Ethiopian month 11 - ShortNamePossessive"
+msgid "of Ham"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:215
+#, fuzzy
+#| msgid "of March"
+msgctxt "Ethiopian month 12 - ShortNamePossessive"
+msgid "of Neh"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:217
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Ethiopian month 13 - ShortNamePossessive"
+msgid "of Pag"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:226
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Ethiopian month 1 - LongNamePossessive"
+msgid "of Meskerem"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:228
+#, fuzzy
+#| msgid "Tevet"
+msgctxt "Ethiopian month 2 - LongNamePossessive"
+msgid "of Tequemt"
+msgstr "Tevet"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:230
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Ethiopian month 3 - LongNamePossessive"
+msgid "of Hedar"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:232
+#, fuzzy
+#| msgid "Bahman"
+msgctxt "Ethiopian month 4 - LongNamePossessive"
+msgid "of Tahsas"
+msgstr "Bahman"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:234
+#, fuzzy
+#| msgid "Tir"
+msgctxt "Ethiopian month 5 - LongNamePossessive"
+msgid "of Ter"
+msgstr "Tir"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:236
+#, fuzzy
+#| msgctxt "of March"
+#| msgid "of Mar"
+msgctxt "Ethiopian month 6 - LongNamePossessive"
+msgid "of Yakatit"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:238
+#, fuzzy
+#| msgid "of Rajab"
+msgctxt "Ethiopian month 7 - LongNamePossessive"
+msgid "of Magabit"
+msgstr "of Rajab"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:240
+#, fuzzy
+#| msgctxt "of May short"
+#| msgid "of May"
+msgctxt "Ethiopian month 8 - LongNamePossessive"
+msgid "of Miyazya"
+msgstr "五月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:242
+#, fuzzy
+#| msgctxt "of February"
+#| msgid "of Feb"
+msgctxt "Ethiopian month 9 - LongNamePossessive"
+msgid "of Genbot"
+msgstr "二月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:244
+#, fuzzy
+#| msgctxt "of September"
+#| msgid "of Sep"
+msgctxt "Ethiopian month 10 - LongNamePossessive"
+msgid "of Sene"
+msgstr "九月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:246
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Ethiopian month 11 - LongNamePossessive"
+msgid "of Hamle"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:248
+#, fuzzy
+#| msgid "of Sha`ban"
+msgctxt "Ethiopian month 12 - LongNamePossessive"
+msgid "of Nehase"
+msgstr "of Sha`ban"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:250
+#, fuzzy
+#| msgid "Tamuz"
+msgctxt "Ethiopian month 13 - LongNamePossessive"
+msgid "of Pagumen"
+msgstr "Tamuz"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:259
+#, fuzzy
+#| msgid "Yes"
+msgctxt "Ethiopian month 1 - ShortName"
+msgid "Mes"
+msgstr "是"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:261
+#, fuzzy
+#| msgctxt "Tuesday"
+#| msgid "Tue"
+msgctxt "Ethiopian month 2 - ShortName"
+msgid "Teq"
+msgstr "週二"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:263
+#, fuzzy
+#| msgctxt "Wednesday"
+#| msgid "Wed"
+msgctxt "Ethiopian month 3 - ShortName"
+msgid "Hed"
+msgstr "週三"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:265
+#, fuzzy
+#| msgid "Trash"
+msgctxt "Ethiopian month 4 - ShortName"
+msgid "Tah"
+msgstr "垃圾桶"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:267
+#, fuzzy
+#| msgctxt "Tuesday"
+#| msgid "Tue"
+msgctxt "Ethiopian month 5 - ShortName"
+msgid "Ter"
+msgstr "週二"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:269
+msgctxt "Ethiopian month 6 - ShortName"
+msgid "Yak"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:271
+#, fuzzy
+#| msgctxt "March"
+#| msgid "Mar"
+msgctxt "Ethiopian month 7 - ShortName"
+msgid "Mag"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:273
+#, fuzzy
+#| msgid "Modify"
+msgctxt "Ethiopian month 8 - ShortName"
+msgid "Miy"
+msgstr "修改"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:275
+#, fuzzy
+msgctxt "Ethiopian month 9 - ShortName"
+msgid "Gen"
+msgstr "希臘文"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:277
+#, fuzzy
+#| msgid "&Send"
+msgctxt "Ethiopian month 10 - ShortName"
+msgid "Sen"
+msgstr "送出(&S)"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:279
+#, fuzzy
+#| msgid "am"
+msgctxt "Ethiopian month 11 - ShortName"
+msgid "Ham"
+msgstr "am"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:281
+#, fuzzy
+#| msgid "Meh"
+msgctxt "Ethiopian month 12 - ShortName"
+msgid "Neh"
+msgstr "Meh"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:283
+#, fuzzy
+#| msgid "Pager"
+msgctxt "Ethiopian month 13 - ShortName"
+msgid "Pag"
+msgstr "傳呼機"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:292
+msgctxt "Ethiopian month 1 - LongName"
+msgid "Meskerem"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:294
+#, fuzzy
+#| msgid "Tevet"
+msgctxt "Ethiopian month 2 - LongName"
+msgid "Tequemt"
+msgstr "Tevet"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:296
+#, fuzzy
+#| msgid "Adar"
+msgctxt "Ethiopian month 3 - LongName"
+msgid "Hedar"
+msgstr "Adar"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:298
+#, fuzzy
+#| msgid "Task"
+msgctxt "Ethiopian month 4 - LongName"
+msgid "Tahsas"
+msgstr "工作"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:300
+#, fuzzy
+#| msgctxt "Tuesday"
+#| msgid "Tue"
+msgctxt "Ethiopian month 5 - LongName"
+msgid "Ter"
+msgstr "週二"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:302
+msgctxt "Ethiopian month 6 - LongName"
+msgid "Yakatit"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:304
+msgctxt "Ethiopian month 7 - LongName"
+msgid "Magabit"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:306
+msgctxt "Ethiopian month 8 - LongName"
+msgid "Miyazya"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:308
+msgctxt "Ethiopian month 9 - LongName"
+msgid "Genbot"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:310
+#, fuzzy
+#| msgid "&Send"
+msgctxt "Ethiopian month 10 - LongName"
+msgid "Sene"
+msgstr "送出(&S)"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:312
+#, fuzzy
+#| msgid "Sample"
+msgctxt "Ethiopian month 11 - LongName"
+msgid "Hamle"
+msgstr "範例"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:314
+#, fuzzy
+#| msgid "Name"
+msgctxt "Ethiopian month 12 - LongName"
+msgid "Nehase"
+msgstr "名稱"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:316
+#, fuzzy
+#| msgid "Pager"
+msgctxt "Ethiopian month 13 - LongName"
+msgid "Pagumen"
+msgstr "傳呼機"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:332
+#, fuzzy
+#| msgctxt "September"
+#| msgid "Sep"
+msgctxt "Ethiopian weekday 1 - ShortDayName"
+msgid "Seg"
+msgstr "九月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:333
+#, fuzzy
+#| msgctxt "March"
+#| msgid "Mar"
+msgctxt "Ethiopian weekday 2 - ShortDayName"
+msgid "Mak"
+msgstr "三月"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:334
+#, fuzzy
+#| msgid "Jom"
+msgctxt "Ethiopian weekday 3 - ShortDayName"
+msgid "Rob"
+msgstr "Jom"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:335
+#, fuzzy
+#| msgid "am"
+msgctxt "Ethiopian weekday 4 - ShortDayName"
+msgid "Ham"
+msgstr "am"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:336
+#, fuzzy
+#| msgid "Arb"
+msgctxt "Ethiopian weekday 5 - ShortDayName"
+msgid "Arb"
+msgstr "Arb"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:337
+#, fuzzy
+#| msgctxt "Wednesday"
+#| msgid "Wed"
+msgctxt "Ethiopian weekday 6 - ShortDayName"
+msgid "Qed"
+msgstr "週三"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:338
+#, fuzzy
+#| msgctxt "Thursday"
+#| msgid "Thu"
+msgctxt "Ethiopian weekday 7 - ShortDayName"
+msgid "Ehu"
+msgstr "週四"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:344
+#, fuzzy
+#| msgid "&Send"
+msgctxt "Ethiopian weekday 1 - LongDayName"
+msgid "Segno"
+msgstr "送出(&S)"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:345
+msgctxt "Ethiopian weekday 2 - LongDayName"
+msgid "Maksegno"
+msgstr ""
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:346
+#, fuzzy
+#| msgid "Jom"
+msgctxt "Ethiopian weekday 3 - LongDayName"
+msgid "Rob"
+msgstr "Jom"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:347
+#, fuzzy
+msgctxt "Ethiopian weekday 4 - LongDayName"
+msgid "Hamus"
+msgstr "Pause"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:348
+#, fuzzy
+#| msgid "Arb"
+msgctxt "Ethiopian weekday 5 - LongDayName"
+msgid "Arb"
+msgstr "Arb"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:349
+#, fuzzy
+#| msgid "Name"
+msgctxt "Ethiopian weekday 6 - LongDayName"
+msgid "Qedame"
+msgstr "名稱"
+
+#: kdecore/date/kcalendarsystemethiopian.cpp:350
+msgctxt "Ethiopian weekday 7 - LongDayName"
+msgid "Ehud"
+msgstr ""
 
 #: kdecore/util/klibloader.cpp:98
 #, fuzzy, kde-format
@@ -4684,9 +5612,13 @@ msgid "sets the application GUI style"
 msgstr "設定應用程式的圖形介面風格。"
 
 #: kdecore/kernel/kcmdlineargs.cpp:322
+#, fuzzy
+#| msgid ""
+#| "sets the client geometry of the main widget - see man X for the argument "
+#| "format"
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
-"format"
+"format (usually WidthxHeight+XPos+YPos)"
 msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
 
 #: kdecore/kernel/kcmdlineargs.cpp:440
@@ -15583,9 +16515,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "&Options"
 #~ msgstr "選項(&O)"
 
-#~ msgid "None"
-#~ msgstr "無"
-
 #, fuzzy
 #~| msgid "Untrusted"
 #~ msgid "Unsorted"
@@ -15845,11 +16774,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~| msgid "NoCARoot"
 #~ msgid "Root"
 #~ msgstr "NoCARoot"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgid "Trash"
-#~ msgstr "垃圾桶"
 
 #, fuzzy
 #~| msgid "&Remove"
@@ -16600,12 +17524,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr "背景顏色(&B)"
 
 #, fuzzy
-#~| msgctxt "toolbar position string"
-#~| msgid "Floating"
-#~ msgid "Plain"
-#~ msgstr "分割成獨立選單"
-
-#, fuzzy
 #~| msgid "Japanese"
 #~ msgid "Scanlines"
 #~ msgstr "日文"
@@ -17107,9 +18025,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "Get hot new stuff:"
 #~ msgstr "取得熱門禮物："
 
-#~ msgid "Table:"
-#~ msgstr "表格："
-
 #~ msgid ""
 #~ "The currently set shortcut or the shortcut you are entering will show up "
 #~ "here."
@@ -17235,9 +18150,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "&Configure"
 #~ msgstr "設定(&C)"
 
-#~ msgid "Modify"
-#~ msgstr "修改"
-
 #~ msgid "&Modify"
 #~ msgstr "修改(&M)"
 
@@ -17351,9 +18263,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "&Reload"
 #~ msgstr "重新載入(&R)"
-
-#~ msgid "Restore"
-#~ msgstr "還原"
 
 #~ msgid "&Update"
 #~ msgstr "更新(&U)"
@@ -17574,9 +18483,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "Frequent"
 #~ msgstr "常用"
 
-#~ msgid "Personal"
-#~ msgstr "個人的"
-
 #~ msgid "Organization"
 #~ msgstr "組織"
 
@@ -17796,12 +18702,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "Domestic"
 #~ msgstr "國內"
-
-#~ msgid "Postal"
-#~ msgstr "郵局"
-
-#~ msgid "Parcel"
-#~ msgstr "包裹"
 
 #~ msgctxt "Home Address"
 #~ msgid "Home"
@@ -18292,9 +19192,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "Headline"
 #~ msgstr "大標題"
 
-#~ msgid "Position"
-#~ msgstr "位置"
-
 #~ msgid "Department"
 #~ msgstr "部門"
 
@@ -18559,9 +19456,6 @@ msgstr "沒有此選單項目 '%1'。"
 
 #~ msgid "Effects"
 #~ msgstr "效果"
-
-#~ msgid "Sample"
-#~ msgstr "範例"
 
 #~ msgid "Apply"
 #~ msgstr "套用"
