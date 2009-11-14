@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-13 06:07+0100\n"
+"POT-Creation-Date: 2009-11-14 06:11+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -434,31 +434,31 @@ msgstr ""
 "在這裏你可以看到按鍵連結的清單，也就是左邊顯示的動作 (例如「複製」) 和右邊顯"
 "示的按鍵或組合鍵 (例如 Ctrl-V) 之間的關聯。"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:30
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:164
 msgid "Action"
 msgstr "動作"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:35
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:167
 msgid "Shortcut"
 msgstr "快速鍵"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:40
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:43
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:170
 msgid "Alternate"
 msgstr "備選"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:45
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:48
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:173
 msgid "Global"
 msgstr ""
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:50
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:53
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:176
 #, fuzzy
@@ -466,13 +466,13 @@ msgstr ""
 msgid "Global Alternate"
 msgstr "備選"
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:55
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:58
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:179
 msgid "Mouse Button Gesture"
 msgstr ""
 
-#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:60
+#. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:63
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: rc.cpp:182
 msgid "Mouse Shape Gesture"
@@ -2500,6 +2500,23 @@ msgstr ""
 #, fuzzy
 msgid "Error during rename."
 msgstr "開啟檔案時發生錯誤。"
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:101
+#, kde-format
+msgid "DBus Backend error: connection to helper failed. %1"
+msgstr ""
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:125
+#, kde-format
+msgid ""
+"DBus Backend error: could not contact the helper. Connection error: %1. "
+"Message error: %2"
+msgstr ""
+
+#: kdecore/auth/backends/dbus/DBusHelperProxy.cpp:135
+#, kde-format
+msgid "DBus Backend error: received corrupt data from helper %1 %2"
+msgstr ""
 
 #: kdecore/date/kcalendarsystemjulian.cpp:206
 #: kdecore/date/kcalendarsystemgregorian.cpp:198
