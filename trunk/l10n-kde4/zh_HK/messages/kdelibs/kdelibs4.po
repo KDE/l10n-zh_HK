@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-22 06:11+0100\n"
+"POT-Creation-Date: 2009-11-23 06:13+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -597,7 +597,11 @@ msgstr "預設語言："
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:49
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
-#: rc.cpp:272 rc.cpp:284
+#. i18n: file: kde3support/kdeui/k3spellui.ui:33
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: file: kde3support/kdeui/k3spellui.ui:49
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
+#: rc.cpp:272 rc.cpp:284 rc.cpp:901 rc.cpp:913
 #, fuzzy
 #| msgid ""
 #| "<qt><p>This word was considered to be an \"unknown word\" because it does "
@@ -725,11 +729,21 @@ msgstr "... 內文中有<b>拼字錯誤</b>的詞語 ..."
 #. i18n: file: kde3support/kdeui/k3spellui.ui:98
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
 #: rc.cpp:312 rc.cpp:941
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "<p>The unknown word was detected and considered unknown because it is not "
+#| "included in the dictionary.<br>\n"
+#| "Click here if you consider that the unknown word is not misspelled and "
+#| "you want to avoid wrongly detecting it again in the future. If you want "
+#| "to let it remain as is, but not add it to the dictionary, then click "
+#| "<b>Ignore</b> or <b>Ignore All</b> instead.</p>\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
 "included in the dictionary.<br>\n"
-"Click here if you consider that the unknown word is not misspelled and you "
+"Click here if you consider the unknown word not to be misspelled, and you "
 "want to avoid wrongly detecting it again in the future. If you want to let "
 "it remain as is, but not add it to the dictionary, then click <b>Ignore</b> "
 "or <b>Ignore All</b> instead.</p>\n"
@@ -1080,7 +1094,7 @@ msgstr "Pause"
 #: rc.cpp:459 rc.cpp:462
 msgid ""
 "You may select a file where the log content is stored, before the regression "
-"testing started."
+"testing is started."
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:150
@@ -1969,34 +1983,6 @@ msgstr "貼上選擇"
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr ""
 
-#. i18n: file: kde3support/kdeui/k3spellui.ui:33
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
-#. i18n: file: kde3support/kdeui/k3spellui.ui:49
-#. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
-#: rc.cpp:901 rc.cpp:913
-msgid ""
-"<qt><p>This word was considered to be an \"unknown word\" because it does "
-"not match any entry in the dictionary currently in use. It may also be a "
-"word in a foreign language.</p>\n"
-"<p>If the word is not misspelled, you may add it to the dictionary by "
-"clicking <b>Add to Dictionary</b>. If you don't want to add the unknown word "
-"to the dictionary, but you want to leave it unchanged, click <b>Ignore</b> "
-"or <b>Ignore All</b>.</p>\n"
-"<p>However, if the word is misspelled, you can try to find the correct "
-"replacement in the list below. If you cannot find a replacement there, you "
-"may type it in the text box below, and click <b>Replace</b> or <b>Replace "
-"All</b>.</p>\n"
-"</qt>"
-msgstr ""
-"<qt><p>由於在使用中的字典內找不到這個詞語，它被當成一個\"未知詞語\"。它也有可"
-"能是一個外語。</p>\n"
-"<p>如果它真的沒有拼錯字，你可以按<b>加到字典中</b>來把它加入字典裏。如果你不"
-"希望這樣做，但仍想這個詞語保持原狀，你可以按<b>略過</b>或<b>全部略過</b>。</"
-"p>\n"
-"<p>然而，要是它拼錯了，試在下面的相近詞語中找出一個正確的。找不到的話，你也可"
-"自行輸入一個，然後按<b>取代</b>或<b>全部取代</b>來更正它。</p>\n"
-"</qt>"
-
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobsBase)
 #: rc.cpp:1022
@@ -2561,260 +2547,260 @@ msgid "DBus Backend error: received corrupt data from helper %1 %2"
 msgstr ""
 
 #: kdecore/date/kcalendarsystemjulian.cpp:206
-#: kdecore/date/kcalendarsystemgregorian.cpp:198
+#: kdecore/date/kcalendarsystemgregorian.cpp:200
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:239
 msgctxt "of January"
 msgid "of Jan"
 msgstr "一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:208
-#: kdecore/date/kcalendarsystemgregorian.cpp:200
+#: kdecore/date/kcalendarsystemgregorian.cpp:202
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:241
 msgctxt "of February"
 msgid "of Feb"
 msgstr "二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:210
-#: kdecore/date/kcalendarsystemgregorian.cpp:202
+#: kdecore/date/kcalendarsystemgregorian.cpp:204
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:243
 msgctxt "of March"
 msgid "of Mar"
 msgstr "三月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:212
-#: kdecore/date/kcalendarsystemgregorian.cpp:204
+#: kdecore/date/kcalendarsystemgregorian.cpp:206
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:245
 msgctxt "of April"
 msgid "of Apr"
 msgstr "四月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:214
-#: kdecore/date/kcalendarsystemgregorian.cpp:206
+#: kdecore/date/kcalendarsystemgregorian.cpp:208
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:247
 msgctxt "of May short"
 msgid "of May"
 msgstr "五月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:216
-#: kdecore/date/kcalendarsystemgregorian.cpp:208
+#: kdecore/date/kcalendarsystemgregorian.cpp:210
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:249
 msgctxt "of June"
 msgid "of Jun"
 msgstr "六月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:218
-#: kdecore/date/kcalendarsystemgregorian.cpp:210
+#: kdecore/date/kcalendarsystemgregorian.cpp:212
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:251
 msgctxt "of July"
 msgid "of Jul"
 msgstr "七月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:220
-#: kdecore/date/kcalendarsystemgregorian.cpp:212
+#: kdecore/date/kcalendarsystemgregorian.cpp:214
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:253
 msgctxt "of August"
 msgid "of Aug"
 msgstr "八月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:222
-#: kdecore/date/kcalendarsystemgregorian.cpp:214
+#: kdecore/date/kcalendarsystemgregorian.cpp:216
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:255
 msgctxt "of September"
 msgid "of Sep"
 msgstr "九月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:224
-#: kdecore/date/kcalendarsystemgregorian.cpp:216
+#: kdecore/date/kcalendarsystemgregorian.cpp:218
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:257
 msgctxt "of October"
 msgid "of Oct"
 msgstr "十月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:226
-#: kdecore/date/kcalendarsystemgregorian.cpp:218
+#: kdecore/date/kcalendarsystemgregorian.cpp:220
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:259
 msgctxt "of November"
 msgid "of Nov"
 msgstr "十一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:228
-#: kdecore/date/kcalendarsystemgregorian.cpp:220
+#: kdecore/date/kcalendarsystemgregorian.cpp:222
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:261
 msgctxt "of December"
 msgid "of Dec"
 msgstr "十二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:237
-#: kdecore/date/kcalendarsystemgregorian.cpp:229
+#: kdecore/date/kcalendarsystemgregorian.cpp:231
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:270
 msgid "of January"
 msgstr "一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:239
-#: kdecore/date/kcalendarsystemgregorian.cpp:231
+#: kdecore/date/kcalendarsystemgregorian.cpp:233
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:272
 msgid "of February"
 msgstr "二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:241
-#: kdecore/date/kcalendarsystemgregorian.cpp:233
+#: kdecore/date/kcalendarsystemgregorian.cpp:235
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:274
 msgid "of March"
 msgstr "三月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:243
-#: kdecore/date/kcalendarsystemgregorian.cpp:235
+#: kdecore/date/kcalendarsystemgregorian.cpp:237
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:276
 msgid "of April"
 msgstr "四月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:245
-#: kdecore/date/kcalendarsystemgregorian.cpp:237
+#: kdecore/date/kcalendarsystemgregorian.cpp:239
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:278
 msgctxt "of May long"
 msgid "of May"
 msgstr "五月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:247
-#: kdecore/date/kcalendarsystemgregorian.cpp:239
+#: kdecore/date/kcalendarsystemgregorian.cpp:241
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:280
 msgid "of June"
 msgstr "六月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:249
-#: kdecore/date/kcalendarsystemgregorian.cpp:241
+#: kdecore/date/kcalendarsystemgregorian.cpp:243
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:282
 msgid "of July"
 msgstr "七月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:251
-#: kdecore/date/kcalendarsystemgregorian.cpp:243
+#: kdecore/date/kcalendarsystemgregorian.cpp:245
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:284
 msgid "of August"
 msgstr "八月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:253
-#: kdecore/date/kcalendarsystemgregorian.cpp:245
+#: kdecore/date/kcalendarsystemgregorian.cpp:247
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:286
 msgid "of September"
 msgstr "九月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:255
-#: kdecore/date/kcalendarsystemgregorian.cpp:247
+#: kdecore/date/kcalendarsystemgregorian.cpp:249
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:288
 msgid "of October"
 msgstr "十月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:257
-#: kdecore/date/kcalendarsystemgregorian.cpp:249
+#: kdecore/date/kcalendarsystemgregorian.cpp:251
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:290
 msgid "of November"
 msgstr "十一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:259
-#: kdecore/date/kcalendarsystemgregorian.cpp:251
+#: kdecore/date/kcalendarsystemgregorian.cpp:253
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:292
 msgid "of December"
 msgstr "十二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:268
-#: kdecore/date/kcalendarsystemgregorian.cpp:260
+#: kdecore/date/kcalendarsystemgregorian.cpp:262
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:301
 msgctxt "January"
 msgid "Jan"
 msgstr "一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:270
-#: kdecore/date/kcalendarsystemgregorian.cpp:262
+#: kdecore/date/kcalendarsystemgregorian.cpp:264
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:303
 msgctxt "February"
 msgid "Feb"
 msgstr "二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:272
-#: kdecore/date/kcalendarsystemgregorian.cpp:264
+#: kdecore/date/kcalendarsystemgregorian.cpp:266
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:305
 msgctxt "March"
 msgid "Mar"
 msgstr "三月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:274
-#: kdecore/date/kcalendarsystemgregorian.cpp:266
+#: kdecore/date/kcalendarsystemgregorian.cpp:268
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:307
 msgctxt "April"
 msgid "Apr"
 msgstr "四月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:276
-#: kdecore/date/kcalendarsystemgregorian.cpp:268
+#: kdecore/date/kcalendarsystemgregorian.cpp:270
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:309
 msgctxt "May short"
 msgid "May"
 msgstr "五月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:278
-#: kdecore/date/kcalendarsystemgregorian.cpp:270
+#: kdecore/date/kcalendarsystemgregorian.cpp:272
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:311
 msgctxt "June"
 msgid "Jun"
 msgstr "六月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:280
-#: kdecore/date/kcalendarsystemgregorian.cpp:272
+#: kdecore/date/kcalendarsystemgregorian.cpp:274
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:313
 msgctxt "July"
 msgid "Jul"
 msgstr "七月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:282
-#: kdecore/date/kcalendarsystemgregorian.cpp:274
+#: kdecore/date/kcalendarsystemgregorian.cpp:276
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:315
 msgctxt "August"
 msgid "Aug"
 msgstr "八月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:284
-#: kdecore/date/kcalendarsystemgregorian.cpp:276
+#: kdecore/date/kcalendarsystemgregorian.cpp:278
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:317
 msgctxt "September"
 msgid "Sep"
 msgstr "九月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:286
-#: kdecore/date/kcalendarsystemgregorian.cpp:278
+#: kdecore/date/kcalendarsystemgregorian.cpp:280
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:319
 msgctxt "October"
 msgid "Oct"
 msgstr "十月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:288
-#: kdecore/date/kcalendarsystemgregorian.cpp:280
+#: kdecore/date/kcalendarsystemgregorian.cpp:282
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:321
 msgctxt "November"
 msgid "Nov"
 msgstr "十一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:290
-#: kdecore/date/kcalendarsystemgregorian.cpp:282
+#: kdecore/date/kcalendarsystemgregorian.cpp:284
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:323
 msgctxt "December"
 msgid "Dec"
 msgstr "十二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:299
-#: kdecore/date/kcalendarsystemgregorian.cpp:291
+#: kdecore/date/kcalendarsystemgregorian.cpp:293
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:332
 msgid "January"
 msgstr "一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:301
-#: kdecore/date/kcalendarsystemgregorian.cpp:293
+#: kdecore/date/kcalendarsystemgregorian.cpp:295
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:334
 msgid "February"
 msgstr "二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:303
-#: kdecore/date/kcalendarsystemgregorian.cpp:295
+#: kdecore/date/kcalendarsystemgregorian.cpp:297
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:336
 #, fuzzy
 #| msgid "March"
@@ -2823,32 +2809,32 @@ msgid "March"
 msgstr "三月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:305
-#: kdecore/date/kcalendarsystemgregorian.cpp:297
+#: kdecore/date/kcalendarsystemgregorian.cpp:299
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:338
 msgid "April"
 msgstr "四月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:307
-#: kdecore/date/kcalendarsystemgregorian.cpp:299
+#: kdecore/date/kcalendarsystemgregorian.cpp:301
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:340
 msgctxt "May long"
 msgid "May"
 msgstr "五月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:309
-#: kdecore/date/kcalendarsystemgregorian.cpp:301
+#: kdecore/date/kcalendarsystemgregorian.cpp:303
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:342
 msgid "June"
 msgstr "六月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:311
-#: kdecore/date/kcalendarsystemgregorian.cpp:303
+#: kdecore/date/kcalendarsystemgregorian.cpp:305
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:344
 msgid "July"
 msgstr "七月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:313
-#: kdecore/date/kcalendarsystemgregorian.cpp:305
+#: kdecore/date/kcalendarsystemgregorian.cpp:307
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:346
 #, fuzzy
 #| msgid "August"
@@ -2857,31 +2843,31 @@ msgid "August"
 msgstr "八月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:315
-#: kdecore/date/kcalendarsystemgregorian.cpp:307
+#: kdecore/date/kcalendarsystemgregorian.cpp:309
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:348
 msgid "September"
 msgstr "九月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:317
-#: kdecore/date/kcalendarsystemgregorian.cpp:309
+#: kdecore/date/kcalendarsystemgregorian.cpp:311
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:350
 msgid "October"
 msgstr "十月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:319
-#: kdecore/date/kcalendarsystemgregorian.cpp:311
+#: kdecore/date/kcalendarsystemgregorian.cpp:313
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:352
 msgid "November"
 msgstr "十一月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:321
-#: kdecore/date/kcalendarsystemgregorian.cpp:313
+#: kdecore/date/kcalendarsystemgregorian.cpp:315
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:354
 msgid "December"
 msgstr "十二月"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:337
-#: kdecore/date/kcalendarsystemgregorian.cpp:329
+#: kdecore/date/kcalendarsystemgregorian.cpp:331
 #: kdecore/date/kcalendarsystemhebrew.cpp:838
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:370
 msgctxt "Monday"
@@ -2889,7 +2875,7 @@ msgid "Mon"
 msgstr "週一"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:338
-#: kdecore/date/kcalendarsystemgregorian.cpp:330
+#: kdecore/date/kcalendarsystemgregorian.cpp:332
 #: kdecore/date/kcalendarsystemhebrew.cpp:839
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:371
 msgctxt "Tuesday"
@@ -2897,7 +2883,7 @@ msgid "Tue"
 msgstr "週二"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:339
-#: kdecore/date/kcalendarsystemgregorian.cpp:331
+#: kdecore/date/kcalendarsystemgregorian.cpp:333
 #: kdecore/date/kcalendarsystemhebrew.cpp:840
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:372
 msgctxt "Wednesday"
@@ -2905,7 +2891,7 @@ msgid "Wed"
 msgstr "週三"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:340
-#: kdecore/date/kcalendarsystemgregorian.cpp:332
+#: kdecore/date/kcalendarsystemgregorian.cpp:334
 #: kdecore/date/kcalendarsystemhebrew.cpp:841
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:373
 msgctxt "Thursday"
@@ -2913,7 +2899,7 @@ msgid "Thu"
 msgstr "週四"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:341
-#: kdecore/date/kcalendarsystemgregorian.cpp:333
+#: kdecore/date/kcalendarsystemgregorian.cpp:335
 #: kdecore/date/kcalendarsystemhebrew.cpp:842
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:374
 msgctxt "Friday"
@@ -2921,7 +2907,7 @@ msgid "Fri"
 msgstr "週五"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:342
-#: kdecore/date/kcalendarsystemgregorian.cpp:334
+#: kdecore/date/kcalendarsystemgregorian.cpp:336
 #: kdecore/date/kcalendarsystemhebrew.cpp:843
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:375
 msgctxt "Saturday"
@@ -2929,7 +2915,7 @@ msgid "Sat"
 msgstr "週六"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:343
-#: kdecore/date/kcalendarsystemgregorian.cpp:335
+#: kdecore/date/kcalendarsystemgregorian.cpp:337
 #: kdecore/date/kcalendarsystemhebrew.cpp:844
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:376
 msgctxt "Sunday"
@@ -2937,49 +2923,49 @@ msgid "Sun"
 msgstr "週日"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:349
-#: kdecore/date/kcalendarsystemgregorian.cpp:341
+#: kdecore/date/kcalendarsystemgregorian.cpp:343
 #: kdecore/date/kcalendarsystemhebrew.cpp:850
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:382
 msgid "Monday"
 msgstr "星期一"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:350
-#: kdecore/date/kcalendarsystemgregorian.cpp:342
+#: kdecore/date/kcalendarsystemgregorian.cpp:344
 #: kdecore/date/kcalendarsystemhebrew.cpp:851
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:383
 msgid "Tuesday"
 msgstr "星期二"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:351
-#: kdecore/date/kcalendarsystemgregorian.cpp:343
+#: kdecore/date/kcalendarsystemgregorian.cpp:345
 #: kdecore/date/kcalendarsystemhebrew.cpp:852
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:384
 msgid "Wednesday"
 msgstr "星期三"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:352
-#: kdecore/date/kcalendarsystemgregorian.cpp:344
+#: kdecore/date/kcalendarsystemgregorian.cpp:346
 #: kdecore/date/kcalendarsystemhebrew.cpp:853
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:385
 msgid "Thursday"
 msgstr "星期四"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:353
-#: kdecore/date/kcalendarsystemgregorian.cpp:345
+#: kdecore/date/kcalendarsystemgregorian.cpp:347
 #: kdecore/date/kcalendarsystemhebrew.cpp:854
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:386
 msgid "Friday"
 msgstr "星期五"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:354
-#: kdecore/date/kcalendarsystemgregorian.cpp:346
+#: kdecore/date/kcalendarsystemgregorian.cpp:348
 #: kdecore/date/kcalendarsystemhebrew.cpp:855
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:387
 msgid "Saturday"
 msgstr "星期六"
 
 #: kdecore/date/kcalendarsystemjulian.cpp:355
-#: kdecore/date/kcalendarsystemgregorian.cpp:347
+#: kdecore/date/kcalendarsystemgregorian.cpp:349
 #: kdecore/date/kcalendarsystemhebrew.cpp:856
 #: kdecore/date/kcalendarsystemgregorianproleptic.cpp:388
 msgid "Sunday"
@@ -4102,14 +4088,14 @@ msgstr "Adar I"
 msgid "Adar II"
 msgstr "Adar II"
 
-#: kdecore/date/kcalendarsystem.cpp:104
+#: kdecore/date/kcalendarsystem.cpp:105
 #, fuzzy
 #| msgid "Copy"
 msgctxt "@item Calendar system"
 msgid "Coptic"
 msgstr "複製"
 
-#: kdecore/date/kcalendarsystem.cpp:108
+#: kdecore/date/kcalendarsystem.cpp:109
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Ethiopic"
@@ -4117,7 +4103,7 @@ msgctxt "@item Calendar system"
 msgid "Ethiopian"
 msgstr "衣索比亞"
 
-#: kdecore/date/kcalendarsystem.cpp:112
+#: kdecore/date/kcalendarsystem.cpp:113
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
@@ -4125,7 +4111,7 @@ msgctxt "@item Calendar system"
 msgid "Gregorian"
 msgstr "喬治亞文"
 
-#: kdecore/date/kcalendarsystem.cpp:116
+#: kdecore/date/kcalendarsystem.cpp:117
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Georgian"
@@ -4133,31 +4119,31 @@ msgctxt "@item Calendar system"
 msgid "Gregorian (Proleptic)"
 msgstr "喬治亞文"
 
-#: kdecore/date/kcalendarsystem.cpp:120
+#: kdecore/date/kcalendarsystem.cpp:121
 #, fuzzy
 #| msgid "Hebrew"
 msgctxt "@item Calendar system"
 msgid "Hebrew"
 msgstr "希伯來文"
 
-#: kdecore/date/kcalendarsystem.cpp:124
+#: kdecore/date/kcalendarsystem.cpp:125
 msgctxt "@item Calendar system"
 msgid "Hijri"
 msgstr ""
 
-#: kdecore/date/kcalendarsystem.cpp:128
+#: kdecore/date/kcalendarsystem.cpp:129
 #, fuzzy
 #| msgid "International"
 msgctxt "@item Calendar system"
 msgid "Indian National"
 msgstr "國際"
 
-#: kdecore/date/kcalendarsystem.cpp:132
+#: kdecore/date/kcalendarsystem.cpp:133
 msgctxt "@item Calendar system"
 msgid "Jalali"
 msgstr ""
 
-#: kdecore/date/kcalendarsystem.cpp:136
+#: kdecore/date/kcalendarsystem.cpp:137
 #, fuzzy
 #| msgctxt "January"
 #| msgid "Jan"
@@ -4165,20 +4151,20 @@ msgctxt "@item Calendar system"
 msgid "Julian"
 msgstr "一月"
 
-#: kdecore/date/kcalendarsystem.cpp:139
+#: kdecore/date/kcalendarsystem.cpp:140
 #, fuzzy
 #| msgid "invalid flags"
 msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "錯誤的旗號"
 
-#: kdecore/date/kcalendarsystem.cpp:729 kdecore/localization/klocale.cpp:2131
+#: kdecore/date/kcalendarsystem.cpp:898 kdecore/localization/klocale.cpp:2131
 #, fuzzy
 #| msgid "Monday"
 msgid "Today"
 msgstr "星期一"
 
-#: kdecore/date/kcalendarsystem.cpp:731 kdecore/localization/klocale.cpp:2134
+#: kdecore/date/kcalendarsystem.cpp:900 kdecore/localization/klocale.cpp:2134
 #, fuzzy
 #| msgid "Tuesday"
 msgid "Yesterday"
@@ -7545,7 +7531,7 @@ msgstr "重做：%1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
 #: knewstuff/knewstuff3/downloaddialog.cpp:229
-msgid "Timeout. Check Internet connection!"
+msgid "Timeout. Check Internet connection."
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
@@ -7812,21 +7798,20 @@ msgid "<p>Downloads: %1</p>\n"
 msgstr "下載"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating: %1"
 msgstr "評分"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:273
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:272
 #, fuzzy
 #| msgid "Preview URL:"
 msgid "No Preview"
 msgstr "預覽 URL："
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:283
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:282
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Loading Preview"
@@ -8010,6 +7995,12 @@ msgstr "安裝"
 #| msgid "Update"
 msgid "Updating"
 msgstr "更新"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:232
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgid "Rating: %1%"
+msgstr "評分"
 
 #: knewstuff/knewstuff3/core/installation.cpp:484
 #, fuzzy
@@ -9091,9 +9082,9 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:571
 #: kdeui/dialogs/kshortcutseditor.cpp:587 kdeui/shortcuts/kglobalaccel.cpp:501
 #: kdeui/shortcuts/kglobalaccel.cpp:540
-#: kdeui/widgets/kkeysequencewidget.cpp:179
-#: kdeui/widgets/kkeysequencewidget.cpp:261
-#: kdeui/widgets/kkeysequencewidget.cpp:655
+#: kdeui/widgets/kkeysequencewidget.cpp:184
+#: kdeui/widgets/kkeysequencewidget.cpp:273
+#: kdeui/widgets/kkeysequencewidget.cpp:667
 msgid "Reassign"
 msgstr "重新指定"
 
@@ -9332,7 +9323,9 @@ msgid ""
 msgstr "這個應用程式的版本──請確定在你提交問題報告之前沒有新的版本"
 
 #: kdeui/dialogs/kbugreport.cpp:202
-msgid "no version set (programmer error!)"
+#, fuzzy
+#| msgid "no version set (programmer error!)"
+msgid "no version set (programmer error)"
 msgstr "沒有設定版本 (程式設計者的錯誤！)"
 
 #: kdeui/dialogs/kbugreport.cpp:213
@@ -9411,14 +9404,23 @@ msgid ""
 msgstr "你必須指定主題與描述才能發出問題報告。"
 
 #: kdeui/dialogs/kbugreport.cpp:422
+#, fuzzy
+#| msgid ""
+#| "<p>You chose the severity <b>Critical</b>. Please note that this severity "
+#| "is intended only for bugs that</p><ul><li>break unrelated software on the "
+#| "system (or the whole system)</li><li>cause serious data loss</"
+#| "li><li>introduce a security hole on the system where the affected package "
+#| "is installed</li></ul>\n"
+#| "<p>Does the bug you are reporting cause any of the above damage? If it "
+#| "does not, please select a lower severity. Thank you!</p>"
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
-"intended only for bugs that</p><ul><li>break unrelated software on the "
+"intended only for bugs that:</p><ul><li>break unrelated software on the "
 "system (or the whole system)</li><li>cause serious data loss</"
 "li><li>introduce a security hole on the system where the affected package is "
 "installed</li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
-"not, please select a lower severity. Thank you!</p>"
+"not, please select a lower severity. Thank you.</p>"
 msgstr ""
 "<p>你選擇了 <b>危險的 (Critical)</b> 嚴重性。請注意此嚴重性只適用於以下錯誤："
 "</p><ul><li>使系統中不相關的軟件 (甚或整個系統) 出現問題</li><li>導致嚴重的資"
@@ -9427,14 +9429,23 @@ msgstr ""
 "謝謝！</p>"
 
 #: kdeui/dialogs/kbugreport.cpp:433
+#, fuzzy
+#| msgid ""
+#| "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
+#| "intended only for bugs that</p><ul><li>make the package in question "
+#| "unusable or mostly so</li><li>cause data loss</li><li>introduce a "
+#| "security hole allowing access to the accounts of users who use the "
+#| "affected package</li></ul>\n"
+#| "<p>Does the bug you are reporting cause any of the above damage? If it "
+#| "does not, please select a lower severity. Thank you!</p>"
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
-"intended only for bugs that</p><ul><li>make the package in question unusable "
-"or mostly so</li><li>cause data loss</li><li>introduce a security hole "
-"allowing access to the accounts of users who use the affected package</li></"
-"ul>\n"
+"intended only for bugs that:</p><ul><li>make the package in question "
+"unusable or mostly so</li><li>cause data loss</li><li>introduce a security "
+"hole allowing access to the accounts of users who use the affected package</"
+"li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
-"not, please select a lower severity. Thank you!</p>"
+"not, please select a lower severity. Thank you.</p>"
 msgstr ""
 "<p>你選擇了 <b>嚴重的 (Grave)</b> 嚴重性。請注意此嚴重性只適用於以下錯誤：</"
 "p><ul><li>讓此套件幾乎或完全不能使用</li><li>導致資料流失</li><li>在使用此套"
@@ -9443,9 +9454,14 @@ msgstr ""
 "謝謝！</p>"
 
 #: kdeui/dialogs/kbugreport.cpp:447
+#, fuzzy
+#| msgid ""
+#| "Unable to send the bug report.\n"
+#| "Please submit a bug report manually...\n"
+#| "See http://bugs.kde.org/ for instructions."
 msgid ""
 "Unable to send the bug report.\n"
-"Please submit a bug report manually...\n"
+"Please submit a bug report manually....\n"
 "See http://bugs.kde.org/ for instructions."
 msgstr ""
 "無法傳送此問題報告。\n"
@@ -9476,7 +9492,7 @@ msgstr "預設"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:689
+#: kdeui/widgets/kkeysequencewidget.cpp:701
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
@@ -13031,46 +13047,60 @@ msgstr "複製文字(&C)"
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:173
+#: kdeui/widgets/kkeysequencewidget.cpp:176
 #, kde-format
-msgid "The shortcut '%1' conflicts with the following key combinations:\n"
-msgstr ""
+msgctxt ""
+"%1 is the number of conflicts (hidden), %2 is the key sequence of the "
+"shortcut that is problematic"
+msgid "The shortcut '%2' conflicts with the following key combination:\n"
+msgid_plural ""
+"The shortcut '%2' conflicts with the following key combinations:\n"
+msgstr[0] ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:177
+#: kdeui/widgets/kkeysequencewidget.cpp:182
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
-msgid "Conflict With Registered Global Shortcut(s)"
-msgstr "與系統的全域快速鍵定義衝突"
+msgctxt "%1 is the number of shortcuts with which there is a conflict"
+msgid "Conflict with Registered Global Shortcut"
+msgid_plural "Conflict with Registered Global Shortcuts"
+msgstr[0] "與系統的全域快速鍵定義衝突"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:246
+#: kdeui/widgets/kkeysequencewidget.cpp:254
 #, fuzzy
 #| msgid "Shortcut"
-msgid "Shortcut Conflict(s)"
-msgstr "快速鍵"
+msgctxt "%1 is the number of conflicts"
+msgid "Shortcut Conflict"
+msgid_plural "Shortcut Conflicts"
+msgstr[0] "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:250
+#: kdeui/widgets/kkeysequencewidget.cpp:258
 #, fuzzy, kde-format
 #| msgid "Content information: %1\n"
-msgid "Shortcut(s) '%1' for action '%2'\n"
+msgid "Shortcut '%1' for action '%2'\n"
 msgstr "內容資訊:：%1\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:255
+#: kdeui/widgets/kkeysequencewidget.cpp:263
 #, fuzzy, kde-format
+msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 msgid ""
-"The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
+"The \"%2\" shortcut is ambiguous with the following shortcut.\n"
+"Do you want to assign an empty shortcut to this action?\n"
+"%3"
+msgid_plural ""
+"The \"%2\" shortcut is ambiguous with the following shortcuts.\n"
 "Do you want to assign an empty shortcut to these actions?\n"
-"%2"
-msgstr ""
+"%3"
+msgstr[0] ""
 "'%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:269
+#: kdeui/widgets/kkeysequencewidget.cpp:281
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:270
+#: kdeui/widgets/kkeysequencewidget.cpp:282
 #, fuzzy, kde-format
 #| msgid ""
 #| "The '%1' key combination has already been allocated to the \"%2\" "
@@ -13083,30 +13113,30 @@ msgstr ""
 " '%1' 按鍵組合已配置給 \"%2\" 動作了。\n"
 "請選擇其他唯一的按鍵組合。"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:301
+#: kdeui/widgets/kkeysequencewidget.cpp:313
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:508
+#: kdeui/widgets/kkeysequencewidget.cpp:520
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Reserved Shortcut"
 msgstr "快速鍵"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:509
+#: kdeui/widgets/kkeysequencewidget.cpp:521
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
 "shortcut.\n"
 "Please choose another one."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:649
+#: kdeui/widgets/kkeysequencewidget.cpp:661
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快速鍵定義衝突"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:650
+#: kdeui/widgets/kkeysequencewidget.cpp:662
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -13116,18 +13146,18 @@ msgstr ""
 "'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:682
+#: kdeui/widgets/kkeysequencewidget.cpp:694
 #, fuzzy
 #| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "輸入檔案"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:732
+#: kdeui/widgets/kkeysequencewidget.cpp:744
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:733
+#: kdeui/widgets/kkeysequencewidget.cpp:745
 #, fuzzy
 #| msgid "Untrusted"
 msgid "Unsupported Key"
@@ -13154,7 +13184,9 @@ msgid "Clear &History"
 msgstr "清除歷史紀錄(&H)"
 
 #: kdeui/widgets/khistorycombobox.cpp:317
-msgid "No further item in the history."
+#, fuzzy
+#| msgid "No further item in the history."
+msgid "No further items in the history."
 msgstr "在歷史紀錄中沒有更多項目。"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
@@ -13722,6 +13754,17 @@ msgstr ""
 "含標頭。</p></qt>"
 
 #: khtml/khtml_printsettings.cpp:56
+#, fuzzy
+#| msgid ""
+#| "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
+#| "enabled, the printout of the HTML document will be black and white only, "
+#| "and all colored background will be converted into white. Printout will be "
+#| "faster and use less ink or toner.</p><p>If this checkbox is disabled, the "
+#| "printout of the HTML document will happen in the original color settings "
+#| "as you see in your application. This may result in areas of full-page "
+#| "color (or grayscale, if you use a black+white printer). Printout will "
+#| "possibly happen slower and will certainly use much more toner or ink.</p> "
+#| "</qt>"
 msgid ""
 "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
 "enabled, the printout of the HTML document will be black and white only, and "
@@ -13730,7 +13773,7 @@ msgid ""
 "of the HTML document will happen in the original color settings as you see "
 "in your application. This may result in areas of full-page color (or "
 "grayscale, if you use a black+white printer). Printout will possibly happen "
-"slower and will certainly use much more toner or ink.</p> </qt>"
+"more slowly and will probably use more toner or ink.</p> </qt>"
 msgstr ""
 "<qt><p><strong>'便於列印模式'</strong></p><p>如果開啟這個選項，文件將會以黑白"
 "色彩列印。所有背景都會列印成白色。這樣可以使列印速度加快，並節省一些油墨或調"
@@ -13995,9 +14038,11 @@ msgid "%1 (Link)"
 msgstr "%1 (連結)"
 
 #: khtml/khtml_part.cpp:3596
-#, kde-format
-msgid "%2 (%1 bytes)"
-msgstr "%2 (%1 位元組)"
+#, fuzzy, kde-format
+#| msgid "%2 (%1 bytes)"
+msgid "%2 (%1 byte)"
+msgid_plural "%2 (%1 bytes)"
+msgstr[0] "%2 (%1 位元組)"
 
 #: khtml/khtml_part.cpp:3600
 #, kde-format
@@ -15157,10 +15202,6 @@ msgstr "Test"
 #| msgid "Configure &Notifications..."
 msgid "Changing annotations"
 msgstr "設定通知(&N)..."
-
-#: nepomuk/core/test/tagcloudtest.cpp:30
-msgid "tagcloudtest"
-msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:45 nepomuk/rcgen/rcgen.cpp:47
 msgid "Nepomuk Resource Class Generator"
@@ -16558,6 +16599,39 @@ msgstr "每日小祕訣(&D)"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "沒有此選單項目 '%1'。"
+
+#~ msgid ""
+#~ "<qt><p>This word was considered to be an \"unknown word\" because it does "
+#~ "not match any entry in the dictionary currently in use. It may also be a "
+#~ "word in a foreign language.</p>\n"
+#~ "<p>If the word is not misspelled, you may add it to the dictionary by "
+#~ "clicking <b>Add to Dictionary</b>. If you don't want to add the unknown "
+#~ "word to the dictionary, but you want to leave it unchanged, click "
+#~ "<b>Ignore</b> or <b>Ignore All</b>.</p>\n"
+#~ "<p>However, if the word is misspelled, you can try to find the correct "
+#~ "replacement in the list below. If you cannot find a replacement there, "
+#~ "you may type it in the text box below, and click <b>Replace</b> or "
+#~ "<b>Replace All</b>.</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt><p>由於在使用中的字典內找不到這個詞語，它被當成一個\"未知詞語\"。它也"
+#~ "有可能是一個外語。</p>\n"
+#~ "<p>如果它真的沒有拼錯字，你可以按<b>加到字典中</b>來把它加入字典裏。如果你"
+#~ "不希望這樣做，但仍想這個詞語保持原狀，你可以按<b>略過</b>或<b>全部略過</"
+#~ "b>。</p>\n"
+#~ "<p>然而，要是它拼錯了，試在下面的相近詞語中找出一個正確的。找不到的話，你"
+#~ "也可自行輸入一個，然後按<b>取代</b>或<b>全部取代</b>來更正它。</p>\n"
+#~ "</qt>"
+
+#, fuzzy
+#~| msgid "Conflict with Global Shortcut"
+#~ msgid "Conflict With Registered Global Shortcut(s)"
+#~ msgstr "與系統的全域快速鍵定義衝突"
+
+#, fuzzy
+#~| msgid "Shortcut"
+#~ msgid "Shortcut Conflict(s)"
+#~ msgstr "快速鍵"
 
 #, fuzzy
 #~ msgid "Unlock Toolbar Positions"

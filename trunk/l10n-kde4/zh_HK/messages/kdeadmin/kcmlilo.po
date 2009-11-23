@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlilo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:52+0200\n"
+"POT-Creation-Date: 2009-11-23 06:17+0100\n"
 "PO-Revision-Date: 2006-01-11 23:33+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -139,11 +139,17 @@ msgid "Mount root filesystem &read-only"
 msgstr "以唯讀方式掛載根檔案系統(&R)"
 
 #: kde/Details.cpp:79 qt/Details.cpp:77
+#, fuzzy
+#| msgid ""
+#| "Mount the root filesystem for this kernel read-only. Since the init "
+#| "scripts normally take care of remounting the root filesystem in read-"
+#| "write mode after running some checks, this should always be turned on."
+#| "<br>Don't turn this off unless you know what you're doing."
 msgid ""
 "Mount the root filesystem for this kernel read-only. Since the init scripts "
 "normally take care of remounting the root filesystem in read-write mode "
-"after running some checks, this should always be turned on.<br>Don't turn "
-"this off unless you know what you're doing."
+"after running some checks, this should always be turned on.<br>Do not turn "
+"this off unless you know what you are doing."
 msgstr ""
 "啟動這個核心時要以唯讀方式掛載的檔案系統。一般而言， init 命令稿會在一些檢查"
 "之後，將根檔案系統重新掛載為讀寫模式，這應該要被開啟。<br>不要關閉這個功能除"
@@ -201,12 +207,19 @@ msgid "Require &password:"
 msgstr "需要密碼(&P):"
 
 #: kde/Details.cpp:97 qt/Details.cpp:98
+#, fuzzy
+#| msgid ""
+#| "Enter the password required for bootup (if any) here. If <i>restricted</"
+#| "i> above is checked, the password is required for additional parameters "
+#| "only.<br><b>WARNING:</b> The password is stored in clear text in /etc/"
+#| "lilo.conf. You'll want to make sure nobody untrusted can read this file. "
+#| "Also, you probably don't want to use your normal/root password here."
 msgid ""
 "Enter the password required for bootup (if any) here. If <i>restricted</i> "
 "above is checked, the password is required for additional parameters only."
 "<br><b>WARNING:</b> The password is stored in clear text in /etc/lilo.conf. "
-"You'll want to make sure nobody untrusted can read this file. Also, you "
-"probably don't want to use your normal/root password here."
+"Make sure that nobody untrusted can read this file. Also, you probably do "
+"not want to use your normal/root password here."
 msgstr ""
 "在這邊輸入開機時需要的密碼（如果有的話）。如果使用了上面的 <i>限制參數</i> 功"
 "能，必須要使用這個密碼才能變更參數。<br><b>警告：</b> 這個密碼是以未編碼的方"
@@ -279,12 +292,19 @@ msgid "Use &linear mode"
 msgstr "使用線性模式(&L)"
 
 #: kde-qt-common/general.cpp:73
+#, fuzzy
+#| msgid ""
+#| "Check this box if you want to use the linear mode.<br>Linear mode tells "
+#| "the boot loader the location of kernels in linear addressing rather than "
+#| "sector/head/cylinder.<br>linear mode is required for some SCSI drives, "
+#| "and shouldn't hurt unless you're planning to create a boot disk to be "
+#| "used with a different computer.<br>See the lilo.conf man page for details."
 msgid ""
 "Check this box if you want to use the linear mode.<br>Linear mode tells the "
 "boot loader the location of kernels in linear addressing rather than sector/"
-"head/cylinder.<br>linear mode is required for some SCSI drives, and "
-"shouldn't hurt unless you're planning to create a boot disk to be used with "
-"a different computer.<br>See the lilo.conf man page for details."
+"head/cylinder.<br>Linear mode is required for some SCSI drives, and should "
+"not cause problems unless you are planning to create a boot disk to be used "
+"with a different computer.<br>See the lilo.conf man page for details."
 msgstr ""
 "如果您要使用線性模式，核取此方塊。<br>線性模式會使啟動載入器以線性位置載入核"
 "心而不用 CHS 方式。<br>對有些 SCSI 磁碟而言，線性模式是必須的。除非您要建立在"
@@ -332,14 +352,24 @@ msgstr ""
 "希望在每個核心有不同的設定，請到 <i>作業系統</i> 分頁並選擇 <i>詳細資料</i>。"
 
 #: kde-qt-common/general.cpp:97
+#, fuzzy
+#| msgid ""
+#| "Enter the password required for bootup (if any) here. If <i>restricted</"
+#| "i> above is checked, the password is required for additional parameters "
+#| "only.<br><b>WARNING:</b> The password is stored in clear text in /etc/"
+#| "lilo.conf. You'll want to make sure nobody untrusted can read this file. "
+#| "Also, you probably don't want to use your normal/root password here."
+#| "<br>This sets a default for all Linux kernels you want to boot. If you "
+#| "need a per-kernel setting, go to the <i>Operating systems</i> tab and "
+#| "select <i>Details</i>."
 msgid ""
 "Enter the password required for bootup (if any) here. If <i>restricted</i> "
-"above is checked, the password is required for additional parameters only."
+"is checked above, the password is only required for additional parameters."
 "<br><b>WARNING:</b> The password is stored in clear text in /etc/lilo.conf. "
-"You'll want to make sure nobody untrusted can read this file. Also, you "
-"probably don't want to use your normal/root password here.<br>This sets a "
-"default for all Linux kernels you want to boot. If you need a per-kernel "
-"setting, go to the <i>Operating systems</i> tab and select <i>Details</i>."
+"Make sure that nobody untrusted can read this file. Also, you probably do "
+"not want to use your normal/root password here.<br>This sets a default for "
+"all Linux kernels you want to boot. If you need a per-kernel setting, go to "
+"the <i>Operating systems</i> tab and select <i>Details</i>."
 msgstr ""
 "在這邊輸入開機時需要的密碼。如果使用了上面的 <i>限制參數</i> 功能，必須要使用"
 "這個密碼才能變更參數。<br><b>警告：</b> 這個密碼是以未編碼的方式存在 /etc/"
@@ -418,9 +448,14 @@ msgid "&Initial ramdisk:"
 msgstr "初始記憶體磁碟(&I):"
 
 #: kde-qt-common/images.cpp:73 kde-qt-common/images.cpp:195
+#, fuzzy
+#| msgid ""
+#| "If you want to use an initial ramdisk (initrd) for this kernel, enter its "
+#| "filename here. Leave this field blank if you don't intend to use an "
+#| "initial ramdisk for this kernel."
 msgid ""
 "If you want to use an initial ramdisk (initrd) for this kernel, enter its "
-"filename here. Leave this field blank if you don't intend to use an initial "
+"filename here. Leave this field blank if you do not intend to use an initial "
 "ramdisk for this kernel."
 msgstr ""
 "如果您希望在這個核心上使用初始記憶體磁碟 (initrd)，請在這邊輸入檔案名稱。否則"
@@ -443,7 +478,9 @@ msgid "Set &Default"
 msgstr "設為預設值(&D)"
 
 #: kde-qt-common/images.cpp:84
-msgid "Boot this kernel/OS if the user doesn't make a different choice"
+#, fuzzy
+#| msgid "Boot this kernel/OS if the user doesn't make a different choice"
+msgid "Boot this kernel/OS if the user does not make a different choice"
 msgstr "如果使用者沒有另外指定，啟動這個核心/作業系統。"
 
 #: kde-qt-common/images.cpp:86
@@ -469,7 +506,9 @@ msgid "&Check Configuration"
 msgstr "檢查組態設定(&C):"
 
 #: kde-qt-common/images.cpp:94
-msgid "Run LILO in test mode to see if the configuration is ok"
+#, fuzzy
+#| msgid "Run LILO in test mode to see if the configuration is ok"
+msgid "Run LILO in test mode to see if the configuration is okay."
 msgstr "以測試模式執行 LILO 以確定組態檔是正確的"
 
 #: kde-qt-common/images.cpp:95
@@ -497,19 +536,27 @@ msgid "Remove entry from the boot menu"
 msgstr "從開機選單移除項目"
 
 #: kde-qt-common/images.cpp:182
-msgid "Configuration ok. LILO said:\n"
+#, fuzzy
+#| msgid "Configuration ok. LILO said:\n"
+msgid "Configuration okay. LILO reported:\n"
 msgstr "設定正確。 LILO 說：\n"
 
 #: kde-qt-common/images.cpp:183
-msgid "Configuration OK"
+#, fuzzy
+#| msgid "Configuration OK"
+msgid "Configuration Okay"
 msgstr "設定正確"
 
 #: kde-qt-common/images.cpp:185
-msgid "Configuration NOT ok. LILO said:\n"
+#, fuzzy
+#| msgid "Configuration NOT ok. LILO said:\n"
+msgid "Configuration NOT okay. LILO reported:\n"
 msgstr "設定*不*正確。 LILO 說：\n"
 
 #: kde-qt-common/images.cpp:186
-msgid "Configuration NOT ok"
+#, fuzzy
+#| msgid "Configuration NOT ok"
+msgid "Configuration NOT Okay"
 msgstr "設定*不*正確"
 
 #: kde-qt-common/images.cpp:192
@@ -521,12 +568,19 @@ msgid "Boot from dis&k:"
 msgstr "從磁碟開機(&K):"
 
 #: kde-qt-common/images.cpp:220
+#, fuzzy
+#| msgid ""
+#| "Enter the partition containing the operating system you'd like to boot "
+#| "here."
 msgid ""
-"Enter the partition containing the operating system you'd like to boot here."
+"Enter here the partition containing the operating system you would like to "
+"boot."
 msgstr "在這邊輸入包含您希望啟動之作業系統的分割區。"
 
 #: kde-qt-common/images.cpp:221
-msgid "Enter the label (name) of the operating system here."
+#, fuzzy
+#| msgid "Enter the label (name) of the operating system here."
+msgid "Enter here the label (name) of the operating system."
 msgstr "在這邊輸入作業系統的標籤（名稱）。"
 
 #: kde-qt-common/images.cpp:302
@@ -555,9 +609,16 @@ msgid "&Operating systems"
 msgstr "作業系統(&O)"
 
 #: qt/Details.cpp:81
+#, fuzzy
+#| msgid ""
+#| "This turns off some sanity checks while writing the configuration. This "
+#| "shouldn't be used under \"normal\" circumstances, but it's useful, for "
+#| "example, for installing the possibility to boot from a floppy disk "
+#| "without having a floppy in the drive every time you run lilo.<br>This "
+#| "sets the <i>unsafe</i> keyword in lilo.conf."
 msgid ""
 "This turns off some sanity checks while writing the configuration. This "
-"shouldn't be used under \"normal\" circumstances, but it's useful, for "
+"should not be used under \"normal\" circumstances, but it is useful, for "
 "example, for installing the possibility to boot from a floppy disk without "
 "having a floppy in the drive every time you run lilo.<br>This sets the "
 "<i>unsafe</i> keyword in lilo.conf."
