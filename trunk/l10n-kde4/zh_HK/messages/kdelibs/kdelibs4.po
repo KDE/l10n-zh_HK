@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-27 06:02+0100\n"
+"POT-Creation-Date: 2009-11-28 06:12+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -117,7 +117,7 @@ msgstr "冒號"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
 #: rc.cpp:26 rc.cpp:98 knewstuff/knewstuff2/ui/uploaddialog.cpp:58
-#: knewstuff/knewstuff3/uploaddialog.cpp:113
+#: knewstuff/knewstuff3/uploaddialog.cpp:120
 msgid "Share Hot New Stuff"
 msgstr "分享熱門禮物"
 
@@ -314,7 +314,7 @@ msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, uploadGroup)
-#: rc.cpp:113
+#: rc.cpp:113 knewstuff/knewstuff3/uploaddialog.cpp:297
 #, fuzzy
 #| msgid "&Upload"
 msgid "Upload"
@@ -342,8 +342,8 @@ msgstr "描述："
 msgid "Set a price for this item"
 msgstr "永不對這個網站(&V)"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:239
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:242
+#. i18n: ectx: property (text), widget (QLabel, priceLabel)
 #: rc.cpp:143
 #, fuzzy
 msgid "Price:"
@@ -2470,7 +2470,7 @@ msgstr "重新載入"
 msgid "Do Not Reload"
 msgstr "不重新載入"
 
-#: kded/kbuildsycoca.cpp:856
+#: kded/kbuildsycoca.cpp:857
 msgid "Configuration information reloaded successfully."
 msgstr "重新載入設定成功。"
 
@@ -7660,14 +7660,14 @@ msgid "Payload"
 msgstr "已載入網頁。"
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
-#: knewstuff/knewstuff3/uploaddialog.cpp:121
+#: knewstuff/knewstuff3/uploaddialog.cpp:128
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:92
-#: knewstuff/knewstuff3/uploaddialog.cpp:199
+#: knewstuff/knewstuff3/uploaddialog.cpp:216
 msgid "Please put in a name."
 msgstr "請輸入一個名稱。"
 
@@ -8077,67 +8077,84 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來簽署檔案。請確定<i>gpg</i>已安裝，否則將無法對資源進"
 "行簽署。</p>"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:95
+#: knewstuff/knewstuff3/uploaddialog.cpp:102
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgctxt "Label showing the file name of a file that is about to be uploaded"
 msgid "Uploading: %1"
 msgstr "評分"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:117
+#: knewstuff/knewstuff3/uploaddialog.cpp:124
 #, fuzzy
 #| msgid "&Upload"
 msgid "Upload..."
 msgstr "上傳(&U)"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:125
+#: knewstuff/knewstuff3/uploaddialog.cpp:132
 #, fuzzy
 #| msgid "Show version information"
 msgid "Fetching provider information..."
 msgstr "顯示版本資訊"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:194
+#: knewstuff/knewstuff3/uploaddialog.cpp:211
 #, fuzzy
 #| msgid "The requested operation could not be completed"
 msgid "Provider could not be initialized."
 msgstr "要求的作業無法完成"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:206
+#: knewstuff/knewstuff3/uploaddialog.cpp:223
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:239
+#: knewstuff/knewstuff3/uploaddialog.cpp:264
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:239
-#: knewstuff/knewstuff3/uploaddialog.cpp:244
+#: knewstuff/knewstuff3/uploaddialog.cpp:264
+#: knewstuff/knewstuff3/uploaddialog.cpp:269
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Uploading Failed"
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:244
+#: knewstuff/knewstuff3/uploaddialog.cpp:269
 #, fuzzy
 #| msgid "Authentication"
 msgid "Authentication error."
 msgstr "驗證"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:250
+#: knewstuff/knewstuff3/uploaddialog.cpp:275
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview and content..."
 msgstr "預覽列印(&W)..."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:258
+#: knewstuff/knewstuff3/uploaddialog.cpp:284
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:262
+#: knewstuff/knewstuff3/uploaddialog.cpp:288
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview image and content..."
 msgstr "預覽列印(&W)..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:297
+#, fuzzy, kde-format
+msgid "File not found: %1"
+msgstr "沒有找到 %1 風格\n"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:321
+#, fuzzy
+#| msgid "Contents"
+msgid "Content Added"
+msgstr "內容"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:321
+#, fuzzy
+#| msgid "File reloaded."
+msgid "File Uploaded"
+msgstr "檔案已重新載入。"
 
 #: knewstuff/knewstuff3/downloaddialog.cpp:163
 #, fuzzy
@@ -15456,101 +15473,101 @@ msgstr "Test"
 msgid "Changing annotations"
 msgstr "設定通知(&N)..."
 
-#: nepomuk/rcgen/rcgen.cpp:45 nepomuk/rcgen/rcgen.cpp:47
+#: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:49
+#: nepomuk/rcgen/rcgen.cpp:53
 msgid "(c) 2006-2009, Sebastian Trüg"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:56
 msgid "Sebastian Trüg"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:56
 #, fuzzy
 msgid "Maintainer"
 msgstr "視窗"
 
-#: nepomuk/rcgen/rcgen.cpp:53
+#: nepomuk/rcgen/rcgen.cpp:57
 #, fuzzy
 #| msgid "(c) 2003 Tobias Koenig"
 msgid "Tobias Koenig"
 msgstr "(c) 2003 Tobias Koenig"
 
-#: nepomuk/rcgen/rcgen.cpp:53
+#: nepomuk/rcgen/rcgen.cpp:57
 msgid "Major cleanup - Personal hero of maintainer"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:60
+#: nepomuk/rcgen/rcgen.cpp:64
 msgid "Verbose output debugging mode."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:61
+#: nepomuk/rcgen/rcgen.cpp:65
 msgid ""
 "Generate simple and fast wrapper classes not based on Nepomuk::Resource "
 "which do not provide any data integrity checking"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:62
+#: nepomuk/rcgen/rcgen.cpp:66
 msgid "Actually generate the code."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:63
+#: nepomuk/rcgen/rcgen.cpp:67
 msgid "List all includes (deprecated)."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:64
+#: nepomuk/rcgen/rcgen.cpp:68
 msgid ""
 "List all header files that will be generated via the --writeall command."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:65
+#: nepomuk/rcgen/rcgen.cpp:69
 msgid ""
 "List all source files that will be generated via the --writeall command."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:66
+#: nepomuk/rcgen/rcgen.cpp:70
 msgid ""
 "The ontology files containing the ontologies to be generated, a space "
 "separated list (deprecated: use arguments instead.)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:67
+#: nepomuk/rcgen/rcgen.cpp:71
 msgid "Include path prefix (deprecated)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:68
+#: nepomuk/rcgen/rcgen.cpp:72
 #, fuzzy
 #| msgid "Directory to generate files in"
 msgid "Specify the target folder to store generated files into."
 msgstr "生成的檔案要放置的目錄"
 
-#: nepomuk/rcgen/rcgen.cpp:72
+#: nepomuk/rcgen/rcgen.cpp:76
 msgid "Templates to be used (deprecated)."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:73
+#: nepomuk/rcgen/rcgen.cpp:77
 msgid ""
 "Optionally specify the classes to be generated. Use option multiple times "
 "(defaults to all classes)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:74
+#: nepomuk/rcgen/rcgen.cpp:78
 msgid ""
 "Serialization used in the ontology files. Will default to primitive file "
 "extension detection."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:75
+#: nepomuk/rcgen/rcgen.cpp:79
 msgid ""
 "Set the used visibility in case the classes are to be used in public API. "
 "<visibility-name> will be used to construct the export macro name and the "
 "export header. By default classes will not be exported."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:76
+#: nepomuk/rcgen/rcgen.cpp:80
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
@@ -18762,9 +18779,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgid "Save a file"
 #~ msgstr "儲存檔案"
 
-#~ msgid "Contents"
-#~ msgstr "內容"
-
 #~ msgid "A&bout"
 #~ msgstr "關於(&B)"
 
@@ -19836,9 +19850,6 @@ msgstr "沒有此選單項目 '%1'。"
 #~ msgstr ""
 #~ "重大錯誤:\n"
 #~ "在本地目錄中的權限被變更！"
-
-#~ msgid "File reloaded."
-#~ msgstr "檔案已重新載入。"
 
 #~ msgid ""
 #~ "The currently loaded file \"%1\" cannot be reloaded. kab may close or "
