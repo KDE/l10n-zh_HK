@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:18+0100\n"
+"POT-Creation-Date: 2009-12-12 06:12+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -9926,11 +9926,15 @@ msgstr "預設字元集(&C):"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, autoConnect)
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:232
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mAutoLogon)
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:131
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAutoLogin)
 #. i18n: file: protocols/irc/ui/irceditaccount.ui:339
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, autoConnect)
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:232
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mAutoLogon)
-#: rc.cpp:2748 rc.cpp:3805
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:131
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAutoLogin)
+#: rc.cpp:2748 rc.cpp:3805 rc.cpp:4128
 #, fuzzy
 #| msgid ""
 #| "If you check that case, the account will not be connected when you press "
@@ -12797,21 +12801,6 @@ msgstr "你 ICQ 帳號的用戶 ID 。 這應該是數字格式（沒有小數�
 #: rc.cpp:4119
 msgid "IC&Q UIN:"
 msgstr "IC&Q UIN:"
-
-#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:131
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAutoLogin)
-#: rc.cpp:4128
-#, fuzzy
-#| msgid ""
-#| "If you check that case, the account will not be connected when you press "
-#| "the \"Connect All\" button, or at startup even if you selected to "
-#| "automatically connect at startup"
-msgid ""
-"If you enable this option, this account will not be connected when you press "
-"the \"Connect All\" button, nor at startup even if you have enabled automaic "
-"connection at startup."
-msgstr ""
-"如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
 
 #. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:178
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
@@ -24834,6 +24823,18 @@ msgid ""
 "Unable to connect to the local mDNS server. Please ensure the Avahi daemon "
 "is running."
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "If you check that case, the account will not be connected when you press "
+#~| "the \"Connect All\" button, or at startup even if you selected to "
+#~| "automatically connect at startup"
+#~ msgid ""
+#~ "If you enable this option, this account will not be connected when you "
+#~ "press the \"Connect All\" button, nor at startup even if you have enabled "
+#~ "automaic connection at startup."
+#~ msgstr ""
+#~ "如你勾選這個，當你按下「全部連線」，或選擇啟動時自動連線，此帳號都不會連線"
 
 #, fuzzy
 #~ msgid "Contact is not on contact list"
