@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-15 06:02+0100\n"
+"POT-Creation-Date: 2009-12-16 06:27+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5161,7 +5161,7 @@ msgstr "不要填上"
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
 #: knewstuff/knewstuff3/downloaddialog.cpp:82
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:139
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:153
 #: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:68
 #, fuzzy
 #| msgid "Get Hot New Stuff"
@@ -5169,7 +5169,7 @@ msgid "Get Hot New Stuff"
 msgstr "取得熱門禮物"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:191
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:214
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
@@ -5196,14 +5196,14 @@ msgid "View Comments"
 msgstr "備註"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
-#: knewstuff/knewstuff3/core/engine.cpp:410
+#: knewstuff/knewstuff3/core/engine.cpp:426
 #, fuzzy, kde-format
 #| msgid "Redo: %1"
 msgid "Re: %1"
 msgstr "重做：%1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:67
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:68
 msgid "Timeout. Check Internet connection."
 msgstr ""
 
@@ -5215,21 +5215,21 @@ msgstr "無法建立檔案來上傳。"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:111
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:125
 #, fuzzy, kde-format
 #| msgid "<Merge %1>"
 msgid "Server: %1"
 msgstr "<合併 %1>"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:112
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:126
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "<br />Provider: %1"
 msgstr "隱藏 %1"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:113
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:127
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgid "<br />Version: %1"
@@ -5238,20 +5238,20 @@ msgstr "版本："
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:117
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:131
 #, fuzzy
 #| msgid "Show version information"
 msgid "Provider information"
 msgstr "顯示版本資訊"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:128
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:142
 #, fuzzy, kde-format
 msgid "Could not install %1"
 msgstr "找不到服務程式‘%1’。"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:129
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:143
 #, fuzzy
 #| msgid "Get Hot New Stuff"
 msgid "Get Hot New Stuff!"
@@ -5631,13 +5631,13 @@ msgstr "內容"
 msgid "File Uploaded"
 msgstr "檔案已重新載入。"
 
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:183
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:197
 #, fuzzy
 #| msgid "Hot New Stuff Providers"
 msgid "All Providers"
 msgstr "熱門禮物的供應者"
 
-#: knewstuff/knewstuff3/downloaddialog_p.cpp:187
+#: knewstuff/knewstuff3/downloaddialog_p.cpp:204
 #, fuzzy
 #| msgid "Categories"
 msgid "All Categories"
@@ -5713,23 +5713,23 @@ msgstr "取代已有項目"
 msgid "Download File:"
 msgstr "下載"
 
-#: knewstuff/knewstuff3/core/engine.cpp:235
+#: knewstuff/knewstuff3/core/engine.cpp:245
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/engine.cpp:272
+#: knewstuff/knewstuff3/core/engine.cpp:282
 #, fuzzy, kde-format
 #| msgid "Loading resource '%1' failed!"
 msgid "Loading of providers from file: %1 failed"
 msgstr "載入資源 '%1' 時發生錯誤！"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:313
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:314
 #, fuzzy
 msgid "Could not get account balance."
 msgstr "無法載入這份文件。"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:325
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:326
 #, kde-format
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -5738,7 +5738,7 @@ msgid ""
 "Do you want to buy it?"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:336
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:337
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -5746,26 +5746,26 @@ msgid ""
 "Price: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:349
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:350
 #, fuzzy
 msgid "Could not get download link."
 msgstr "無法建立新的檔案。"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:382
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:383
 msgid "Your vote was successful."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:384
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:385
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Voting failed."
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:400
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:401
 msgid "You are now a fan."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:402
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:403
 #, fuzzy
 msgid "Could not make you a fan."
 msgstr "無法建立新的檔案。"
