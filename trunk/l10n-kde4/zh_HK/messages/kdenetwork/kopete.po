@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-27 06:07+0100\n"
+"POT-Creation-Date: 2009-12-28 06:27+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -313,8 +313,8 @@ msgstr "檔案傳輸取消。"
 #: protocols/wlm/wlmcontact.cpp:180 protocols/gadu/gaducontact.cpp:100
 #: protocols/oscar/oscarcontact.cpp:356
 #: protocols/jabber/jabbercontact.cpp:1094
-#: protocols/jabber/jabbergroupmembercontact.cpp:159
-#: protocols/jabber/jabbergroupcontact.cpp:325
+#: protocols/jabber/jabbergroupmembercontact.cpp:258
+#: protocols/jabber/jabbergroupcontact.cpp:328
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
 
@@ -1527,7 +1527,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;%1"
 
 #: kopete/kopetewindow.cpp:1316
-#: kopete/contactlist/kopetecontactlistview.cpp:954
+#: kopete/contactlist/kopetecontactlistview.cpp:959
 msgid "Add Contact"
 msgstr "加入聯絡人"
 
@@ -2741,13 +2741,13 @@ msgstr "加入聯絡人到群組(&A)"
 msgid "Make Meta Contact"
 msgstr "超聯絡人"
 
-#: kopete/contactlist/kopetecontactlistview.cpp:1032
+#: kopete/contactlist/kopetecontactlistview.cpp:1037
 #, kde-format
 msgctxt "Translators: format: '<nickname> (<online status>)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kopete/contactlist/kopetecontactlistview.cpp:1060
+#: kopete/contactlist/kopetecontactlistview.cpp:1065
 #, kde-format
 msgctxt "Translators: format: '<displayName> (<id>)'"
 msgid "%2 <%1>"
@@ -23041,26 +23041,26 @@ msgstr "無法取得伺服器清單。"
 msgid "Could not parse the server list."
 msgstr "無法解析伺服器清單。"
 
-#: protocols/jabber/ui/dlgahcommand.cpp:38
+#: protocols/jabber/ui/dlgahcommand.cpp:41
 #, fuzzy
 #| msgid "Connecting"
 msgid "Command executing"
 msgstr "正在連接"
 
-#: protocols/jabber/ui/dlgahcommand.cpp:46
-#: protocols/jabber/ui/dlgahcommand.cpp:54
+#: protocols/jabber/ui/dlgahcommand.cpp:49
+#: protocols/jabber/ui/dlgahcommand.cpp:57
 #, fuzzy
 #| msgid "Finished"
 msgid "Finish"
 msgstr "已完成"
 
-#: protocols/jabber/ui/dlgahcommand.cpp:52
+#: protocols/jabber/ui/dlgahcommand.cpp:55
 #, fuzzy
 #| msgid "Text"
 msgid "Next"
 msgstr "文字"
 
-#: protocols/jabber/ui/dlgahcommand.cpp:53
+#: protocols/jabber/ui/dlgahcommand.cpp:56
 #, fuzzy
 #| msgid "Previous History"
 msgid "Previous"
@@ -23155,8 +23155,8 @@ msgid "%1 has ended his/her participation in the chat session."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
 #: protocols/jabber/jabbercontact.cpp:400
-#: protocols/jabber/jabbergroupmembercontact.cpp:121
-#: protocols/jabber/jabbergroupcontact.cpp:181
+#: protocols/jabber/jabbergroupmembercontact.cpp:196
+#: protocols/jabber/jabbergroupcontact.cpp:182
 #, kde-format
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
@@ -23665,7 +23665,7 @@ msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
 
 #: protocols/jabber/jabberprotocol.cpp:487
-#: protocols/jabber/jabberaccount.cpp:1585
+#: protocols/jabber/jabberaccount.cpp:1591
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
@@ -24064,43 +24064,43 @@ msgstr ""
 "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。"
 "要刪除該聯絡人嗎？"
 
-#: protocols/jabber/jabberaccount.cpp:1362
+#: protocols/jabber/jabberaccount.cpp:1364
 msgid "Waiting for authorization"
 msgstr "正在等待授權"
 
-#: protocols/jabber/jabberaccount.cpp:1575
+#: protocols/jabber/jabberaccount.cpp:1581
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1584
+#: protocols/jabber/jabberaccount.cpp:1590
 #, fuzzy, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1598
+#: protocols/jabber/jabberaccount.cpp:1604
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1599
-#: protocols/jabber/jabberaccount.cpp:1606
-#: protocols/jabber/jabberaccount.cpp:1616
+#: protocols/jabber/jabberaccount.cpp:1605
+#: protocols/jabber/jabberaccount.cpp:1612
+#: protocols/jabber/jabberaccount.cpp:1622
 msgid "Jabber Group Chat"
 msgstr "Jabber 群組聊天"
 
-#: protocols/jabber/jabberaccount.cpp:1605
+#: protocols/jabber/jabberaccount.cpp:1611
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1611
+#: protocols/jabber/jabberaccount.cpp:1617
 msgid "No reason given by the server"
 msgstr "伺服器未有交待原因"
 
-#: protocols/jabber/jabberaccount.cpp:1615
+#: protocols/jabber/jabberaccount.cpp:1621
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error processing your request for group chat %1. (Reason: %"
@@ -24110,7 +24110,7 @@ msgid ""
 "Code %3)"
 msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
-#: protocols/jabber/jabberaccount.cpp:1688
+#: protocols/jabber/jabberaccount.cpp:1694
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -24118,27 +24118,27 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1691
+#: protocols/jabber/jabberaccount.cpp:1697
 #, fuzzy
 msgid "Unregister"
 msgstr "註冊"
 
-#: protocols/jabber/jabberaccount.cpp:1692
+#: protocols/jabber/jabberaccount.cpp:1698
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1693
+#: protocols/jabber/jabberaccount.cpp:1699
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1737
+#: protocols/jabber/jabberaccount.cpp:1743
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:1738
+#: protocols/jabber/jabberaccount.cpp:1744
 #, fuzzy
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
@@ -24204,17 +24204,17 @@ msgstr "時間戳記"
 msgid "Failed to download Jabber contact photo."
 msgstr "下載顯示圖像失敗"
 
-#: protocols/jabber/jabbergroupcontact.cpp:130
+#: protocols/jabber/jabbergroupcontact.cpp:131
 #, fuzzy
 msgid "Change nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabbergroupcontact.cpp:389
+#: protocols/jabber/jabbergroupcontact.cpp:392
 #, fuzzy
 msgid "Change nickname - Jabber Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/jabber/jabbergroupcontact.cpp:390
+#: protocols/jabber/jabbergroupcontact.cpp:393
 #, fuzzy, kde-format
 msgid "Please enter the new nickname you want to have in the room <i>%1</i>"
 msgstr "請輸入這個過濾器的新名字:"
