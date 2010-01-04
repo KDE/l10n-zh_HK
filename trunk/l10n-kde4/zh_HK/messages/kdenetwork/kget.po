@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-03 06:13+0100\n"
+"POT-Creation-Date: 2010-01-04 06:02+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -263,16 +263,16 @@ msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "已停止"
 
-#: core/datasourcefactory.cpp:634
+#: core/datasourcefactory.cpp:641
 #, kde-format
 msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/datasourcefactory.cpp:634 core/kget.cpp:526 core/kget.cpp:904
-#: core/kget.cpp:913 transfer-plugins/metalink/metalink.cpp:204
-#: transfer-plugins/bittorrent/bttransfer.cpp:492
-#: transfer-plugins/bittorrent/bttransfer.cpp:503
+#: core/datasourcefactory.cpp:641 core/kget.cpp:526 core/kget.cpp:905
+#: core/kget.cpp:914 transfer-plugins/metalink/metalink.cpp:204
+#: transfer-plugins/bittorrent/bttransfer.cpp:506
+#: transfer-plugins/bittorrent/bttransfer.cpp:517
 #: ui/metalinkcreator/metalinkcreator.cpp:300
 #: ui/metalinkcreator/metalinkcreator.cpp:317
 msgid "Error"
@@ -339,7 +339,7 @@ msgstr "已延遲"
 #: core/transfer.cpp:30 core/transfer.cpp:230 core/transfer.cpp:255
 #: transfer-plugins/mms/mmsTransfer.cpp:52
 #: transfer-plugins/mmsclient/mmsTransfer.cpp:48
-#: transfer-plugins/bittorrent/bttransfer.cpp:319
+#: transfer-plugins/bittorrent/bttransfer.cpp:333
 #: transfer-plugins/contentfetch/contentfetch.cpp:69
 #, fuzzy
 #| msgid "Stopped"
@@ -352,14 +352,14 @@ msgctxt "transfer state: aborted"
 msgid "Aborted"
 msgstr ""
 
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:315
+#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:329
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:161
+#: core/transfer.cpp:30 transfer-plugins/bittorrent/bttransfer.cpp:175
 #, fuzzy
 msgctxt "changing the destination of the file"
 msgid "Changing destination"
@@ -421,35 +421,35 @@ msgstr ""
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:750 ui/contextmenu.cpp:135
+#: core/kget.cpp:751 ui/contextmenu.cpp:135
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
-#: core/kget.cpp:794
+#: core/kget.cpp:795
 msgid "Unable to continue: KGet cannot download using this protocol."
 msgstr ""
 
-#: core/kget.cpp:795
+#: core/kget.cpp:796
 msgid "Protocol unsupported"
 msgstr ""
 
 #. i18n: file: ui/newtransferwidget.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
-#: core/kget.cpp:847 ui/newtransferdialog.cpp:256 rc.cpp:541
+#: core/kget.cpp:848 ui/newtransferdialog.cpp:256 rc.cpp:541
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:847
+#: core/kget.cpp:848
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:880
+#: core/kget.cpp:881
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:903
+#: core/kget.cpp:904
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -458,7 +458,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:912
+#: core/kget.cpp:913
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -470,7 +470,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:924
+#: core/kget.cpp:925
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -480,12 +480,12 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:925
+#: core/kget.cpp:926
 #, fuzzy
 msgid "Download it again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:937
+#: core/kget.cpp:938
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -495,23 +495,23 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:938
+#: core/kget.cpp:939
 #, fuzzy
 msgid "Delete it and download again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:961 core/kget.cpp:968
+#: core/kget.cpp:962 core/kget.cpp:969
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:996
+#: core/kget.cpp:997
 msgid ""
 "You have already downloaded that file from another location.\n"
 "\n"
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/kget.cpp:997
+#: core/kget.cpp:998
 #, fuzzy
 msgid "File already downloaded. Download anyway?"
 msgstr ""
@@ -519,11 +519,11 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:1006
+#: core/kget.cpp:1007
 msgid "You are already downloading the same file"
 msgstr ""
 
-#: core/kget.cpp:1010 core/kget.cpp:1013
+#: core/kget.cpp:1011 core/kget.cpp:1014
 #, fuzzy
 msgid "File already exists"
 msgstr ""
@@ -532,13 +532,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:1113
+#: core/kget.cpp:1114
 #, kde-format
 msgid ""
 "<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
 msgstr ""
 
-#: core/kget.cpp:1131
+#: core/kget.cpp:1132
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -549,7 +549,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1141
+#: core/kget.cpp:1142
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -562,19 +562,19 @@ msgstr ""
 
 #. i18n: file: conf/dlgadvanced.ui:40
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: core/kget.cpp:1353 core/kget.cpp:1363 ui/droptarget.cpp:94 rc.cpp:65
+#: core/kget.cpp:1354 core/kget.cpp:1364 ui/droptarget.cpp:94 rc.cpp:65
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: core/kget.cpp:1354
+#: core/kget.cpp:1355
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1364
+#: core/kget.cpp:1365
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
@@ -612,28 +612,28 @@ msgctxt "transfer state: running"
 msgid "Running...."
 msgstr "連線數"
 
-#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:41
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:42
 msgid "Add item"
 msgstr ""
 
-#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:69
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:70
 #, kde-format
 msgid "%1 would become %2"
 msgstr ""
 
-#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:191
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:192
 #, fuzzy
 #| msgid "Connection"
 msgctxt "the string that is used to modify an url"
 msgid "Change string"
 msgstr "連線數"
 
-#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:192
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:193
 msgctxt "the mode defines how the url should be changed"
 msgid "Change mode"
 msgstr ""
 
-#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:193
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:194
 msgctxt "the type of the checksum e.g. md5"
 msgid "Checksum type"
 msgstr ""
@@ -663,8 +663,8 @@ msgid "Download failed, no working URLs were found."
 msgstr ""
 
 #: transfer-plugins/metalink/metalink.cpp:205
-#: transfer-plugins/bittorrent/bttransfer.cpp:491
-#: transfer-plugins/bittorrent/bttransfer.cpp:502
+#: transfer-plugins/bittorrent/bttransfer.cpp:505
+#: transfer-plugins/bittorrent/bttransfer.cpp:516
 msgid "An error occurred...."
 msgstr ""
 
@@ -696,12 +696,10 @@ msgstr "本機檔案名稱"
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
 #. i18n: file: ui/newtransferwidget.ui:34
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: ui/metalinkcreator/commondata.ui:167
-#. i18n: ectx: property (text), widget (QLabel, label_23)
-#. i18n: file: ui/metalinkcreator/commondata.ui:237
+#. i18n: file: ui/metalinkcreator/commondata.ui:170
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:29 rc.cpp:221 rc.cpp:544
-#: rc.cpp:689 rc.cpp:707
+#: rc.cpp:692
 msgid "URL:"
 msgstr ""
 
@@ -725,7 +723,7 @@ msgstr "開啟檔案(&F)"
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
 #: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:377
 #: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:70
-#: rc.cpp:852
+#: rc.cpp:837
 msgid "Size"
 msgstr ""
 
@@ -1053,7 +1051,7 @@ msgid "Enter the URL of the tracker:"
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
-#: transfer-plugins/bittorrent/bttransfer.cpp:277
+#: transfer-plugins/bittorrent/bttransfer.cpp:291
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -1203,28 +1201,28 @@ msgstr "進階選項"
 msgid "&Scan Files"
 msgstr "開啟檔案(&F)"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:133
+#: transfer-plugins/bittorrent/bttransfer.cpp:147
 #, fuzzy
 msgid "Downloading Torrent File...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:178
-#: transfer-plugins/bittorrent/bttransfer.cpp:295
+#: transfer-plugins/bittorrent/bttransfer.cpp:192
+#: transfer-plugins/bittorrent/bttransfer.cpp:309
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:271
+#: transfer-plugins/bittorrent/bttransfer.cpp:285
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:438
+#: transfer-plugins/bittorrent/bttransfer.cpp:452
 #, fuzzy
 msgid "Analyzing torrent...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:512
+#: transfer-plugins/bittorrent/bttransfer.cpp:526
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
@@ -2031,11 +2029,11 @@ msgid "Rename Group..."
 msgid_plural "Rename Groups..."
 msgstr[0] "預設的資料夾"
 
-#: ui/transfersview.cpp:150
+#: ui/transfersview.cpp:149
 msgid "Select columns"
 msgstr ""
 
-#: ui/transfersview.cpp:302
+#: ui/transfersview.cpp:310
 #, fuzzy
 msgid "Transfer Details"
 msgstr " 傳輸： %1"
@@ -2055,34 +2053,34 @@ msgstr "預設的資料夾"
 msgid "&Rename"
 msgstr "預設的資料夾"
 
-#: ui/verificationdialog.cpp:35
+#: ui/verificationdialog.cpp:36
 msgid "Add checksum"
 msgstr ""
 
-#: ui/verificationdialog.cpp:48 ui/mirror/mirrorsettings.cpp:64
+#: ui/verificationdialog.cpp:49 ui/mirror/mirrorsettings.cpp:64
 msgctxt "Adds the item and reopens the dialog to add a further item"
 msgid "Add more"
 msgstr ""
 
-#: ui/verificationdialog.cpp:80
+#: ui/verificationdialog.cpp:81
 #, fuzzy, kde-format
 #| msgid "<i>%1</i> successfully downloaded."
 msgid "%1 %2 has been successfully added."
 msgstr "已成功下載 <i>%1</i> 。"
 
-#: ui/verificationdialog.cpp:98
+#: ui/verificationdialog.cpp:100
 #, fuzzy, kde-format
 #| msgid "Default folder:"
 msgid "Transfer Verification for %1"
 msgstr "預設的資料夾:"
 
-#: ui/verificationdialog.cpp:188
+#: ui/verificationdialog.cpp:192
 #, fuzzy, kde-format
 #| msgid "<i>%1</i> successfully downloaded."
 msgid "%1 was successfully verified."
 msgstr "已成功下載 <i>%1</i> 。"
 
-#: ui/verificationdialog.cpp:189
+#: ui/verificationdialog.cpp:193
 msgid "Verification successful"
 msgstr ""
 
@@ -2093,7 +2091,7 @@ msgid "Import dropped files"
 msgstr "匯入文字檔案(&F)..."
 
 #: ui/metalinkcreator/dragdlg.cpp:90 ui/metalinkcreator/filedlg.cpp:61
-#: ui/metalinkcreator/filedlg.cpp:165
+#: ui/metalinkcreator/filedlg.cpp:167
 msgctxt "comma, to seperate members of a list"
 msgid ","
 msgstr ""
@@ -2130,29 +2128,29 @@ msgctxt "file as in file on hard drive"
 msgid "Enter at least one file."
 msgstr ""
 
-#: ui/metalinkcreator/filedlg.cpp:103
+#: ui/metalinkcreator/filedlg.cpp:105
 #, fuzzy
 #| msgid "Scheduling"
 msgid "File Properties"
 msgstr "正在排程"
 
-#: ui/metalinkcreator/filedlg.cpp:115
+#: ui/metalinkcreator/filedlg.cpp:117
 #, fuzzy
 #| msgid "Ethernet"
 msgid "Enter a filename."
 msgstr "乙太網絡"
 
-#: ui/metalinkcreator/filedlg.cpp:118
+#: ui/metalinkcreator/filedlg.cpp:120
 msgid "The filename exists already, choose a different one."
 msgstr ""
 
-#: ui/metalinkcreator/filedlg.cpp:121
+#: ui/metalinkcreator/filedlg.cpp:123
 #, fuzzy
 #| msgid "Ethernet"
 msgid "Enter at least one URL."
 msgstr "乙太網絡"
 
-#: ui/metalinkcreator/filedlg.cpp:125
+#: ui/metalinkcreator/filedlg.cpp:127
 msgid "Required data entered; also consider entering additional information."
 msgstr ""
 
@@ -2166,36 +2164,36 @@ msgstr ""
 msgid "%1 has been successfully added."
 msgstr "已成功下載 <i>%1</i> 。"
 
-#: ui/mirror/mirrorsettings.cpp:165
+#: ui/mirror/mirrorsettings.cpp:167
 msgid "Modify the used mirrors."
 msgstr ""
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:82
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, preference)
-#: ui/mirror/mirrormodel.cpp:193 ui/mirror/mirrormodel.cpp:211 rc.cpp:777
+#: ui/mirror/mirrormodel.cpp:209 ui/mirror/mirrormodel.cpp:227 rc.cpp:762
 msgid "not specified"
 msgstr ""
 
-#: ui/mirror/mirrormodel.cpp:367
+#: ui/mirror/mirrormodel.cpp:383
 msgctxt "Mirror as in server, in url"
 msgid "Mirror"
 msgstr ""
 
-#: ui/mirror/mirrormodel.cpp:370
+#: ui/mirror/mirrormodel.cpp:386
 #, fuzzy
 #| msgid "Font:"
 msgctxt "The priority of the mirror"
 msgid "Priority"
 msgstr "字型:"
 
-#: ui/mirror/mirrormodel.cpp:375
+#: ui/mirror/mirrormodel.cpp:391
 #, fuzzy
 #| msgid "Connection"
 msgctxt "Number of paralell connections to the mirror"
 msgid "Connections"
 msgstr "連線數"
 
-#: ui/mirror/mirrormodel.cpp:377
+#: ui/mirror/mirrormodel.cpp:393
 #, fuzzy
 #| msgid "Location (URL)"
 msgctxt "Location = country"
@@ -2376,17 +2374,17 @@ msgctxt "fix position for droptarget"
 msgid "Sticky"
 msgstr "固定"
 
-#: ui/droptarget.cpp:221 mainwindow.cpp:969
+#: ui/droptarget.cpp:221 mainwindow.cpp:970
 #, fuzzy
 msgid "The dropped file is a KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: ui/droptarget.cpp:222 mainwindow.cpp:970
+#: ui/droptarget.cpp:222 mainwindow.cpp:971
 #, fuzzy
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: ui/droptarget.cpp:223 mainwindow.cpp:971
+#: ui/droptarget.cpp:223 mainwindow.cpp:972
 #, fuzzy
 msgid "&Load transfer list"
 msgstr "開啟傳輸："
@@ -2531,7 +2529,7 @@ msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:227
 #. i18n: ectx: property (text), widget (KPushButton, selectAll)
-#: ui/linkview/kget_linkview.cpp:271 rc.cpp:953
+#: ui/linkview/kget_linkview.cpp:271 rc.cpp:938
 msgid "&Select All"
 msgstr ""
 
@@ -2541,7 +2539,7 @@ msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:217
 #. i18n: ectx: property (text), widget (KPushButton, deselectAll)
-#: ui/linkview/kget_linkview.cpp:272 rc.cpp:950
+#: ui/linkview/kget_linkview.cpp:272 rc.cpp:935
 msgid "D&eselect All"
 msgstr ""
 
@@ -2950,7 +2948,7 @@ msgstr "開啟目的地(&D)"
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:305
+#: mainwindow.cpp:304
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
@@ -3068,7 +3066,7 @@ msgstr[0] "你確定要刪除這筆傳輸嗎？"
 msgid "Confirm transfer delete"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:848
+#: mainwindow.cpp:849
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
@@ -3349,7 +3347,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, VerificationPreferences)
 #. i18n: file: ui/signaturedlg.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, SignatureDlg)
-#: rc.cpp:128 rc.cpp:870
+#: rc.cpp:128 rc.cpp:855
 #, fuzzy
 msgid "Form"
 msgstr "或"
@@ -3398,7 +3396,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, signature)
 #. i18n: file: ui/signaturedlg.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, sigGroup)
-#: rc.cpp:149 rc.cpp:538 rc.cpp:873
+#: rc.cpp:149 rc.cpp:538 rc.cpp:858
 msgid "Signature"
 msgstr ""
 
@@ -4041,19 +4039,19 @@ msgstr ""
 msgid "Configure...."
 msgstr ""
 
-#. i18n: file: ui/verificationdialog.ui:36
+#. i18n: file: ui/verificationdialog.ui:39
 #. i18n: ectx: property (toolTip), widget (KPushButton, verify)
 #: rc.cpp:487
 msgid "Verify the finished download with the selected checksum."
 msgstr ""
 
-#. i18n: file: ui/verificationdialog.ui:39
+#. i18n: file: ui/verificationdialog.ui:42
 #. i18n: ectx: property (text), widget (KPushButton, verify)
 #: rc.cpp:490
 msgid "&Verify"
 msgstr ""
 
-#. i18n: file: ui/verificationdialog.ui:65
+#. i18n: file: ui/verificationdialog.ui:68
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:493
 msgid "Verifying:"
@@ -4095,7 +4093,7 @@ msgstr "沒有連結"
 #. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
 #. i18n: file: ui/groupsettingsdialog.ui:117
 #. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
-#: rc.cpp:505 rc.cpp:511 rc.cpp:801 rc.cpp:807
+#: rc.cpp:505 rc.cpp:511 rc.cpp:786 rc.cpp:792
 #, fuzzy
 #| msgid " %1 KB/s "
 msgid " KiB"
@@ -4286,7 +4284,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: ui/signaturedlg.ui:47
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:629 rc.cpp:879
+#: rc.cpp:629 rc.cpp:864
 #, fuzzy
 #| msgid "Description"
 msgid "Verification:"
@@ -4390,62 +4388,38 @@ msgid "Copyright:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/commondata.ui:141
-#. i18n: ectx: property (text), widget (QLabel, label_22)
+#. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:680
-msgid "License:"
+msgid "Publisher:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/commondata.ui:150
-#. i18n: ectx: property (text), widget (QLabel, label_19)
-#. i18n: file: ui/metalinkcreator/commondata.ui:217
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:683 rc.cpp:698
+#: rc.cpp:683
 #, fuzzy
 #| msgid "Name"
 msgid "Name:"
 msgstr "名稱"
 
 #. i18n: file: ui/metalinkcreator/commondata.ui:157
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, lic_name)
-#: rc.cpp:686
-#, fuzzy
-#| msgid "Number of retries:"
-msgid "Name of the license"
-msgstr "重試的次數："
-
-#. i18n: file: ui/metalinkcreator/commondata.ui:174
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, lic_url)
-#: rc.cpp:692
-#, fuzzy
-#| msgid "Number of retries:"
-msgid "URL to the license"
-msgstr "重試的次數："
-
-#. i18n: file: ui/metalinkcreator/commondata.ui:208
-#. i18n: ectx: property (text), widget (QLabel, label_20)
-#: rc.cpp:695
-msgid "Publisher:"
-msgstr ""
-
-#. i18n: file: ui/metalinkcreator/commondata.ui:224
 #. i18n: ectx: property (toolTip), widget (KLineEdit, pub_name)
-#. i18n: file: ui/metalinkcreator/commondata.ui:244
+#. i18n: file: ui/metalinkcreator/commondata.ui:177
 #. i18n: ectx: property (toolTip), widget (KLineEdit, pub_url)
-#: rc.cpp:701 rc.cpp:710
+#: rc.cpp:686 rc.cpp:695
 msgid "publisher"
 msgstr ""
 
-#. i18n: file: ui/metalinkcreator/commondata.ui:227
+#. i18n: file: ui/metalinkcreator/commondata.ui:160
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, pub_name)
-#: rc.cpp:704
+#: rc.cpp:689
 #, fuzzy
 #| msgid "Number of retries:"
 msgid "Name of the publisher"
 msgstr "重試的次數："
 
-#. i18n: file: ui/metalinkcreator/commondata.ui:247
+#. i18n: file: ui/metalinkcreator/commondata.ui:180
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, pub_url)
-#: rc.cpp:713
+#: rc.cpp:698
 #, fuzzy
 #| msgid "Number of retries:"
 msgid "URL to the publisher"
@@ -4453,7 +4427,7 @@ msgstr "重試的次數："
 
 #. i18n: file: ui/metalinkcreator/introduction.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:716
+#: rc.cpp:701
 msgid ""
 "This assistant allows you to create metalinks from scratch or base them on "
 "existing metalinks. A lot of the fields are optional or recommended, so "
@@ -4463,51 +4437,51 @@ msgstr ""
 
 #. i18n: file: ui/metalinkcreator/introduction.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:719
+#: rc.cpp:704
 msgid "Save created Metalink at:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/introduction.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, createButton)
-#: rc.cpp:722
+#: rc.cpp:707
 msgid "Create new Metalink"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/introduction.ui:88
 #. i18n: ectx: property (text), widget (QRadioButton, loadButton)
-#: rc.cpp:725
+#: rc.cpp:710
 msgid "Load existing Metalink:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/introduction.ui:98
 #. i18n: ectx: property (filter), widget (KUrlRequester, load)
-#: rc.cpp:728
+#: rc.cpp:713
 #, fuzzy
 msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
 msgstr "開啟檔案(&F)"
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, Seite)
-#: rc.cpp:731
+#: rc.cpp:716
 msgctxt "General options."
 msgid "General"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:27
 #. i18n: ectx: property (text), widget (QCheckBox, partialChecksums)
-#: rc.cpp:734
+#: rc.cpp:719
 msgid "Create partial checksums"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:40
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:737
+#: rc.cpp:722
 msgid "General URL:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:66
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:740
+#: rc.cpp:725
 msgid ""
 "Automatically create checksums for the selected types. Keep in mind that "
 "this might take a while."
@@ -4515,7 +4489,7 @@ msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:92
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:743
+#: rc.cpp:728
 msgid ""
 "Enter URLs here if all the dropped files are on that server and in the same "
 "directory. For each dropped file the URL would consist of the entered part "
@@ -4524,44 +4498,44 @@ msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:102
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:746
+#: rc.cpp:731
 msgid "Types of the checksums:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:115
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:749
+#: rc.cpp:734
 msgid "Create checksums:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:132
 #. i18n: ectx: attribute (title), widget (QWidget, Seite_2)
-#: rc.cpp:752
+#: rc.cpp:737
 msgctxt "These entries are optional."
 msgid "Optional"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:144
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:755
+#: rc.cpp:740
 msgid "Optional data:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/dragdlg.ui:169
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:758
+#: rc.cpp:743
 msgid "Enter information that all chosen files share."
 msgstr ""
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:29
 #. i18n: ectx: property (text), widget (QLabel, labelMirror)
-#: rc.cpp:762
+#: rc.cpp:747
 msgid "Mirror:"
 msgstr ""
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:36
 #. i18n: ectx: property (text), widget (QLabel, labelConnections)
-#: rc.cpp:765
+#: rc.cpp:750
 #, fuzzy
 #| msgid "Number of retries:"
 msgid "Number of connections:"
@@ -4569,7 +4543,7 @@ msgstr "重試的次數："
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:43
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, url)
-#: rc.cpp:768
+#: rc.cpp:753
 #, fuzzy
 #| msgid "Ethernet"
 msgid "Enter a URL"
@@ -4577,19 +4551,19 @@ msgstr "乙太網絡"
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:63
 #. i18n: ectx: property (text), widget (QLabel, labelPreference)
-#: rc.cpp:771
+#: rc.cpp:756
 msgid "Preference:"
 msgstr ""
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:70
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, preference)
-#: rc.cpp:774
+#: rc.cpp:759
 msgid "Optional: The preference of the mirror, 1 lowest 100 highest."
 msgstr ""
 
 #. i18n: file: ui/mirror/mirroradddlg.ui:89
 #. i18n: ectx: property (text), widget (QLabel, labelLocation)
-#: rc.cpp:780
+#: rc.cpp:765
 #, fuzzy
 #| msgid "Location (URL)"
 msgid "Location:"
@@ -4597,7 +4571,7 @@ msgstr "地點 (URL)"
 
 #. i18n: file: ui/groupsettingsdialog.ui:32
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:783
+#: rc.cpp:768
 #, fuzzy
 #| msgid "Default folder:"
 msgid "Group Settings"
@@ -4605,7 +4579,7 @@ msgstr "預設的資料夾:"
 
 #. i18n: file: ui/groupsettingsdialog.ui:44
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:786
+#: rc.cpp:771
 #, fuzzy
 #| msgid "Default Folder"
 msgid "Default folder:"
@@ -4613,25 +4587,25 @@ msgstr "預設的資料夾"
 
 #. i18n: file: ui/groupsettingsdialog.ui:58
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
-#: rc.cpp:789
+#: rc.cpp:774
 msgid "Moves all transfers with the regular expression to this group"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:792
+#: rc.cpp:777
 msgid "Regular expression:"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:68
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, regExpEdit)
-#: rc.cpp:795
+#: rc.cpp:780
 msgid "*movies*"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
-#: rc.cpp:798
+#: rc.cpp:783
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum download speed:"
@@ -4639,7 +4613,7 @@ msgstr "完成下載"
 
 #. i18n: file: ui/groupsettingsdialog.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
-#: rc.cpp:804
+#: rc.cpp:789
 #, fuzzy
 #| msgid "Download finished"
 msgid "Maximum upload speed:"
@@ -4649,19 +4623,19 @@ msgstr "完成下載"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: ui/grouptagssettingsdialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:810 rc.cpp:822
+#: rc.cpp:795 rc.cpp:807
 msgid "Used tags:"
 msgstr ""
 
 #. i18n: file: ui/groupsettingsdialog.ui:166
 #. i18n: ectx: property (text), widget (QPushButton, tagButton)
-#: rc.cpp:813
+#: rc.cpp:798
 msgid "Modify Tags..."
 msgstr ""
 
 #. i18n: file: ui/grouptagssettingsdialog.ui:25
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:816
+#: rc.cpp:801
 #, fuzzy
 #| msgid "Scheduling"
 msgid "Tag Settings"
@@ -4669,7 +4643,7 @@ msgstr "正在排程"
 
 #. i18n: file: ui/grouptagssettingsdialog.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:819
+#: rc.cpp:804
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Available tags:"
@@ -4677,7 +4651,7 @@ msgstr "開啟傳輸"
 
 #. i18n: file: ui/grouptagssettingsdialog.ui:64
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, newTagsEdit)
-#: rc.cpp:825
+#: rc.cpp:810
 #, fuzzy
 #| msgid "Ethernet"
 msgid "Enter a new Tag"
@@ -4685,20 +4659,20 @@ msgstr "乙太網絡"
 
 #. i18n: file: ui/verificationadddlg.ui:17
 #. i18n: ectx: property (text), widget (QLabel, successLabel)
-#: rc.cpp:828
+#: rc.cpp:813
 msgid "TextLabel"
 msgstr ""
 
 #. i18n: file: ui/verificationadddlg.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:831
+#: rc.cpp:816
 msgctxt "hash type as in md5t, sha1 etc."
 msgid "Hash type:"
 msgstr ""
 
 #. i18n: file: ui/verificationadddlg.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:834
+#: rc.cpp:819
 #, fuzzy
 #| msgid "Font:"
 msgctxt "hash as a hash of type md5, sha1 etc."
@@ -4707,19 +4681,19 @@ msgstr "字型:"
 
 #. i18n: file: ui/verificationadddlg.ui:43
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, newHash)
-#: rc.cpp:837
+#: rc.cpp:822
 msgid "Enter a hash key"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:26
 #. i18n: ectx: property (text), widget (QPushButton, clearButton)
-#: rc.cpp:840
+#: rc.cpp:825
 msgid "Clear History"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:46
 #. i18n: ectx: property (title), widget (KButtonGroup, viewmodesgroup)
-#: rc.cpp:843
+#: rc.cpp:828
 #, fuzzy
 #| msgid "Offline mode"
 msgctxt "View modes"
@@ -4728,33 +4702,33 @@ msgstr "離線模式"
 
 #. i18n: file: ui/history/transferhistory.ui:99
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_2)
-#: rc.cpp:846
+#: rc.cpp:831
 msgid "Select Ranges"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:115
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
-#: rc.cpp:849
+#: rc.cpp:834
 #, fuzzy
 msgid "Date"
 msgstr "重新開始(&S)"
 
 #. i18n: file: ui/history/transferhistory.ui:125
 #. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
-#: rc.cpp:855
+#: rc.cpp:840
 msgid "Host"
 msgstr ""
 
 #. i18n: file: ui/history/transferhistory.ui:136
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_3)
-#: rc.cpp:858
+#: rc.cpp:843
 #, fuzzy
 msgid "Filter History"
 msgstr "開啟傳輸："
 
 #. i18n: file: ui/history/transferhistory.ui:165
 #. i18n: ectx: property (text), widget (KLineEdit, searchBar)
-#: rc.cpp:861
+#: rc.cpp:846
 #, fuzzy
 msgctxt "delete selected transfer"
 msgid "Delete Selected"
@@ -4762,14 +4736,14 @@ msgstr "沒有選擇檔案"
 
 #. i18n: file: ui/history/transferhistory.ui:170
 #. i18n: ectx: property (text), widget (KLineEdit, searchBar)
-#: rc.cpp:864
+#: rc.cpp:849
 #, fuzzy
 msgid "Download"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/nepomukwidget.ui:32
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, lineEdit)
-#: rc.cpp:867
+#: rc.cpp:852
 #, fuzzy
 #| msgid "Ethernet"
 msgid "Enter a new tag"
@@ -4777,37 +4751,37 @@ msgstr "乙太網絡"
 
 #. i18n: file: ui/signaturedlg.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:876
+#: rc.cpp:861
 msgid "PGP signature:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:83
 #. i18n: ectx: property (title), widget (QGroupBox, keyGroup)
-#: rc.cpp:882
+#: rc.cpp:867
 msgid "Key"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:95
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:885
+#: rc.cpp:870
 msgid "Issuer:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:888
+#: rc.cpp:873
 msgid "E-Mail:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:891
+#: rc.cpp:876
 msgid "Comment:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:149
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:894
+#: rc.cpp:879
 #, fuzzy
 #| msgid "Destination:"
 msgid "Creation:"
@@ -4815,7 +4789,7 @@ msgstr "目的地："
 
 #. i18n: file: ui/signaturedlg.ui:166
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:897
+#: rc.cpp:882
 #, fuzzy
 #| msgid "Destination:"
 msgid "Expiration:"
@@ -4823,31 +4797,31 @@ msgstr "目的地："
 
 #. i18n: file: ui/signaturedlg.ui:194
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:900
+#: rc.cpp:885
 msgid "Trust:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:222
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:903
+#: rc.cpp:888
 msgid "Fingerprint:"
 msgstr ""
 
 #. i18n: file: ui/signaturedlg.ui:257
 #. i18n: ectx: property (text), widget (KPushButton, verify)
-#: rc.cpp:906
+#: rc.cpp:891
 msgid "Verify"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:909
+#: rc.cpp:894
 msgid "&File with links to import:"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:35
 #. i18n: ectx: property (text), widget (KPushButton, importLinks)
-#: rc.cpp:912
+#: rc.cpp:897
 #, fuzzy
 #| msgid "No Links"
 msgid "&Import Links"
@@ -4855,56 +4829,56 @@ msgstr "沒有連結"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:49
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:915
+#: rc.cpp:900
 msgid "Show:"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:56
 #. i18n: ectx: property (text), widget (KPushButton, showAll)
-#: rc.cpp:918
+#: rc.cpp:903
 msgctxt "filter: show all file types"
 msgid "&All"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:75
 #. i18n: ectx: property (text), widget (KPushButton, showVideos)
-#: rc.cpp:922
+#: rc.cpp:907
 msgid "&Videos"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:91
 #. i18n: ectx: property (text), widget (KPushButton, showImages)
-#: rc.cpp:926
+#: rc.cpp:911
 msgid "Ima&ges"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:107
 #. i18n: ectx: property (text), widget (KPushButton, showAudio)
-#: rc.cpp:930
+#: rc.cpp:915
 msgid "A&udio"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:123
 #. i18n: ectx: property (text), widget (KPushButton, showArchives)
-#: rc.cpp:934
+#: rc.cpp:919
 msgid "A&rchives"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:145
 #. i18n: ectx: property (toolTip), widget (KLineEdit, textFilter)
-#: rc.cpp:938
+#: rc.cpp:923
 msgid "You can use wildcards for filtering."
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:148
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, textFilter)
-#: rc.cpp:941
+#: rc.cpp:926
 msgid "Filter files here...."
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:159
 #. i18n: ectx: property (text), item, widget (KComboBox, filterMode)
-#: rc.cpp:944
+#: rc.cpp:929
 #, fuzzy
 #| msgid "Connection"
 msgid "Contains"
@@ -4912,20 +4886,20 @@ msgstr "連線數"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:164
 #. i18n: ectx: property (text), item, widget (KComboBox, filterMode)
-#: rc.cpp:947
+#: rc.cpp:932
 #, fuzzy
 msgid "Does Not Contain"
 msgstr "再次下載"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:237
 #. i18n: ectx: property (text), widget (KPushButton, invertSelection)
-#: rc.cpp:956
+#: rc.cpp:941
 msgid "Inver&t Selection"
 msgstr ""
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:247
 #. i18n: ectx: property (text), widget (KPushButton, checkSelected)
-#: rc.cpp:959
+#: rc.cpp:944
 #, fuzzy
 msgctxt "Check as in mark, not as in verify"
 msgid "Chec&k Selected"
@@ -4933,63 +4907,63 @@ msgstr "沒有選擇檔案"
 
 #. i18n: file: ui/linkview/importlinkdialog.ui:254
 #. i18n: ectx: property (text), widget (QCheckBox, showWebContent)
-#: rc.cpp:962
+#: rc.cpp:947
 msgid "Show &web content"
 msgstr ""
 
 #. i18n: file: ui/kgetui.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:965
+#: rc.cpp:950
 #, fuzzy
 msgid "&File"
 msgstr "開啟檔案(&F)"
 
 #. i18n: file: ui/kgetui.rc:17
 #. i18n: ectx: Menu (Downloads)
-#: rc.cpp:968
+#: rc.cpp:953
 #, fuzzy
 msgid "&Downloads"
 msgstr "下載已續傳"
 
 #. i18n: file: ui/kgetui.rc:29
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:971
+#: rc.cpp:956
 msgid "&Settings"
 msgstr ""
 
 #. i18n: file: ui/kgetui.rc:33
 #. i18n: ectx: Menu (help)
-#: rc.cpp:974
+#: rc.cpp:959
 msgid "&Help"
 msgstr ""
 
 #. i18n: file: ui/kgetui.rc:36
 #. i18n: ectx: ToolBar (kget_toolbar)
-#: rc.cpp:977
+#: rc.cpp:962
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: extensions/konqueror/kget_plug_in.rc:4
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:980
+#: rc.cpp:965
 msgid "&Tools"
 msgstr ""
 
 #. i18n: file: conf/kget.kcfg:34
 #. i18n: ectx: label, entry (ShowSplashscreen), group (Appearance)
-#: rc.cpp:983
+#: rc.cpp:968
 msgid "Sets to show the splashscreen while KGet is loading"
 msgstr ""
 
 #. i18n: file: conf/kget.kcfg:170
 #. i18n: ectx: label, entry (ColumnWidths), group (Geometry)
-#: rc.cpp:986
+#: rc.cpp:971
 msgid "The width of the columns in the main view"
 msgstr ""
 
 #. i18n: file: conf/kget.kcfg:173
 #. i18n: ectx: label, entry (HistoryColumnWidths), group (Geometry)
-#: rc.cpp:989
+#: rc.cpp:974
 msgid "The width of the columns in the history view"
 msgstr ""
 
@@ -4997,7 +4971,7 @@ msgstr ""
 #. i18n: ectx: label, entry (SearchStrings), group (ChecksumSearch)
 #. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:12
 #. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
-#: rc.cpp:992 rc.cpp:1001
+#: rc.cpp:977 rc.cpp:986
 msgid "List of the available search engines"
 msgstr ""
 
@@ -5009,27 +4983,37 @@ msgstr ""
 #. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
 #. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
 #. i18n: ectx: label, entry (PathList), group (UserScripts)
-#: rc.cpp:995 rc.cpp:998 rc.cpp:1004 rc.cpp:1010
+#: rc.cpp:980 rc.cpp:983 rc.cpp:989 rc.cpp:995
 msgid "List of the available search engine URLs"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
 #. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
-#: rc.cpp:1007
+#: rc.cpp:992
 msgid "List of the Regexp to match input URL"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
 #. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
-#: rc.cpp:1013
+#: rc.cpp:998
 msgid "List of descriptions for user scripts"
 msgstr ""
 
 #. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
 #. i18n: ectx: label, entry (EnableList), group (UserScripts)
-#: rc.cpp:1016
+#: rc.cpp:1001
 msgid "List of whether the script is enabled"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Number of retries:"
+#~ msgid "Name of the license"
+#~ msgstr "重試的次數："
+
+#, fuzzy
+#~| msgid "Number of retries:"
+#~ msgid "URL to the license"
+#~ msgstr "重試的次數："
 
 #, fuzzy
 #~| msgid "Delayed"
