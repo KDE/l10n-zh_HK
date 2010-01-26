@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-27 06:14+0100\n"
+"POT-Creation-Date: 2010-01-26 06:20+0100\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -53,14 +53,14 @@ msgstr "音軌"
 msgid "unknown"
 msgstr ""
 
-#: encodefileimp.cpp:415 tracksimp.cpp:479
+#: encodefileimp.cpp:415 tracksimp.cpp:521
 #, kde-format
 msgid ""
 "%1 Job(s) have been started.  You can watch their progress in the jobs "
 "section."
 msgstr "%1 工作已經開始。  你可以在工作欄內看到進度。"
 
-#: encodefileimp.cpp:417 tracksimp.cpp:481
+#: encodefileimp.cpp:417 tracksimp.cpp:523
 msgid "Jobs have started"
 msgstr "工作已經開始"
 
@@ -70,11 +70,11 @@ msgstr "工作已經開始"
 msgid "File"
 msgstr "標題"
 
-#: encodefilemodel.cpp:29 tracksimp.cpp:49 tracksimp.cpp:550
+#: encodefilemodel.cpp:29 tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 msgid "Title"
 msgstr "標題"
 
-#: encodefilemodel.cpp:29 tracksimp.cpp:49 tracksimp.cpp:550
+#: encodefilemodel.cpp:29 tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 #, fuzzy
 #| msgid "Artist:"
 msgid "Artist"
@@ -87,7 +87,7 @@ msgctxt "@title:column"
 msgid "Album"
 msgstr "專輯"
 
-#: encodefilemodel.cpp:30 tracksimp.cpp:49 tracksimp.cpp:550
+#: encodefilemodel.cpp:30 tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 #, fuzzy
 #| msgid "Comment:"
 msgid "Comment"
@@ -99,7 +99,7 @@ msgstr "註解:"
 msgid "Genre"
 msgstr "風格:"
 
-#: encodefilemodel.cpp:31 tracksimp.cpp:49 tracksimp.cpp:550
+#: encodefilemodel.cpp:31 tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 msgid "Track"
 msgstr "音軌"
 
@@ -248,7 +248,7 @@ msgstr ""
 msgid "Running"
 msgstr ""
 
-#: jobdelegate.cpp:51 tracksimp.cpp:213
+#: jobdelegate.cpp:51
 msgid "Error"
 msgstr ""
 
@@ -1498,80 +1498,81 @@ msgstr "正在擷取: %1 - %2"
 msgid "Track %1.wav"
 msgstr "音軌"
 
-#: tracksimp.cpp:49 tracksimp.cpp:550
+#: tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 #, fuzzy
 #| msgid "Rip"
 msgctxt "@title:column"
 msgid "Rip"
 msgstr "擷取"
 
-#: tracksimp.cpp:49 tracksimp.cpp:550
+#: tracksimp.cpp:50 tracksimp.cpp:182 tracksimp.cpp:592
 msgid "Length"
 msgstr "長度"
 
-#: tracksimp.cpp:103
+#: tracksimp.cpp:116
 #, fuzzy
 #| msgid "No Encoder Selected"
 msgid "none detected"
 msgstr "未有選擇編碼器"
 
-#: tracksimp.cpp:210
-#, kde-format
-msgid ""
-"CDROM read or access error (or no audio disk in drive).\n"
-"Please make sure you have access permissions to:\n"
-"%1"
-msgstr ""
-"讀取或存取 CDROM 時發生錯誤（或光碟機中沒有音樂光碟）。\n"
-"請確定你對以下裝置的有存取權限:\n"
-"%1"
+#: tracksimp.cpp:178
+#, fuzzy
+#| msgid "Unknown Artist - Unknown Album"
+msgid "Unknown Artist"
+msgstr "不明的藝人 - 不明的專輯"
 
-#: tracksimp.cpp:223
+#: tracksimp.cpp:178
+#, fuzzy
+#| msgid "Unknown Artist - Unknown Album"
+msgid "Unknown Album"
+msgstr "不明的藝人 - 不明的專輯"
+
+#: tracksimp.cpp:268
 msgid "Please insert a disk."
 msgstr "請插入光碟。"
 
-#: tracksimp.cpp:224 tracksimp.cpp:250
+#: tracksimp.cpp:269 tracksimp.cpp:295
 msgid "CDDB Failed"
 msgstr "CDDB 失敗"
 
-#: tracksimp.cpp:250
+#: tracksimp.cpp:295
 msgid "Unable to retrieve CDDB information."
 msgstr "無法取得 CDDB 資訊。"
 
-#: tracksimp.cpp:270
+#: tracksimp.cpp:316
 msgid "Select CDDB entry"
 msgstr "選擇 CDDB 項目"
 
-#: tracksimp.cpp:271
+#: tracksimp.cpp:317
 msgid "Select a CDDB entry:"
 msgstr "選擇 CDDB 項目:"
 
-#: tracksimp.cpp:361
+#: tracksimp.cpp:407
 msgid "CD Editor"
 msgstr "CD 編輯器"
 
-#: tracksimp.cpp:424
+#: tracksimp.cpp:466
 msgid "No tracks have been selected.  Would you like to rip the entire CD?"
 msgstr ""
 
-#: tracksimp.cpp:425
+#: tracksimp.cpp:467
 msgid "No Tracks Selected"
 msgstr "未有選擇音軌"
 
-#: tracksimp.cpp:425
+#: tracksimp.cpp:467
 #, fuzzy
 msgid "Rip CD"
 msgstr "擷取"
 
-#: tracksimp.cpp:434
+#: tracksimp.cpp:476
 msgid "Could not find audiocd:/ protocol. Please install the audiocd ioslave"
 msgstr ""
 
-#: tracksimp.cpp:435
+#: tracksimp.cpp:477
 msgid "Protocol Not Found"
 msgstr ""
 
-#: tracksimp.cpp:450
+#: tracksimp.cpp:492
 #, kde-format
 msgid ""
 "Part of the album is not set: %1.\n"
@@ -1582,19 +1583,19 @@ msgstr ""
 "（要改變專輯資訊，點選「編輯資訊」按鈕。）\n"
 "你還是要擷取所選的音軌嗎？"
 
-#: tracksimp.cpp:450
+#: tracksimp.cpp:492
 msgid "Album Information Incomplete"
 msgstr "專輯資訊不完整"
 
-#: tracksimp.cpp:450
+#: tracksimp.cpp:492
 msgid "Rip"
 msgstr "擷取"
 
-#: tracksimp.cpp:605
+#: tracksimp.cpp:647
 msgid " - "
 msgstr ""
 
-#: tracksimp.cpp:607
+#: tracksimp.cpp:649
 #, fuzzy
 msgid "No disc"
 msgstr "沒有碟片"
@@ -1607,6 +1608,15 @@ msgstr "範例: %1"
 #: job.h:35
 msgid "Other"
 msgstr "其他"
+
+#~ msgid ""
+#~ "CDROM read or access error (or no audio disk in drive).\n"
+#~ "Please make sure you have access permissions to:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "讀取或存取 CDROM 時發生錯誤（或光碟機中沒有音樂光碟）。\n"
+#~ "請確定你對以下裝置的有存取權限:\n"
+#~ "%1"
 
 #~ msgid "Number of tracks to rip at a time"
 #~ msgstr "同一時間擷取音軌的數目"
