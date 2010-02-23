@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-22 06:19+0000\n"
+"POT-Creation-Date: 2010-02-23 06:25+0000\n"
 "PO-Revision-Date: 2005-12-24 08:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -154,7 +154,7 @@ msgctxt "Comment"
 msgid "Select an icon and use it as a KIcon in your source-code"
 msgstr ""
 
-#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:7
+#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:8
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "TeX File"
@@ -162,7 +162,7 @@ msgctxt "Name"
 msgid "IconInserter"
 msgstr "TeX 檔案"
 
-#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:11
+#: kate/plugins/kte_iconinserter/ktexteditor_iconinserter.desktop:15
 msgctxt "GenericName"
 msgid "Insert Code for KIcon-Creation"
 msgstr ""
@@ -1165,14 +1165,17 @@ msgid "Storage backend for KConfig"
 msgstr ""
 
 #: kdecore/network/kssld/kssld.desktop:8
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PKCS#12 Certificate Bundle"
 msgctxt "Name"
-msgid "KSSL Daemon Module"
-msgstr "KSSL 伺服程式模組"
+msgid "SSL Certificate Policy"
+msgstr "PKCS#12 認證"
 
 #: kdecore/network/kssld/kssld.desktop:98
 msgctxt "Comment"
-msgid "KSSL daemon module for KDED"
-msgstr "KDED 使用的 SSL 伺服程式模組"
+msgid "Provides SSL Certificate Policy to applications"
+msgstr ""
 
 #: kdecore/services/kplugininfo.desktop:4
 msgctxt "Name"
@@ -1436,9 +1439,12 @@ msgid "Enhanced Browsing Plugin"
 msgstr "增強功能的瀏覽外掛程式"
 
 #: kio/misc/kpac/proxyscout.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Automatic proxy configuration"
 msgctxt "Name"
-msgid "Proxy Scout"
-msgstr ""
+msgid "Network Proxy Configuration"
+msgstr "自動代理伺服器組態"
 
 #: kio/misc/kpac/proxyscout.desktop:91
 msgctxt "Comment"
@@ -1513,13 +1519,16 @@ msgid "Cleans up old entries from the HTTP cache"
 msgstr "從 HTTP 快取中清除舊的項目"
 
 #: kioslave/http/kcookiejar/kcookiejar.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Cookie Jar Module"
 msgctxt "Name"
-msgid "KDED Cookie Jar Module"
+msgid "Cookie Jar"
 msgstr "KDED Cookie Jar 模組"
 
 #: kioslave/http/kcookiejar/kcookiejar.desktop:90
 msgctxt "Comment"
-msgid "Keeps track of all cookies in the system"
+msgid "Stores network cookies"
 msgstr ""
 
 #: kio/tests/dummymeta.desktop:3
@@ -1749,6 +1758,14 @@ msgstr "HSpell"
 msgctxt "Name"
 msgid "Hunspell"
 msgstr "HSpell"
+
+#~ msgctxt "Name"
+#~ msgid "KSSL Daemon Module"
+#~ msgstr "KSSL 伺服程式模組"
+
+#~ msgctxt "Comment"
+#~ msgid "KSSL daemon module for KDED"
+#~ msgstr "KDED 使用的 SSL 伺服程式模組"
 
 #, fuzzy
 #~| msgctxt "Description"
@@ -2723,10 +2740,6 @@ msgstr "HSpell"
 #~ msgctxt "Comment"
 #~ msgid "PHP Script"
 #~ msgstr "PHP Script"
-
-#~ msgctxt "Comment"
-#~ msgid "PKCS#12 Certificate Bundle"
-#~ msgstr "PKCS#12 認證"
 
 #~ msgctxt "Comment"
 #~ msgid "Pathetic Writer Document"
