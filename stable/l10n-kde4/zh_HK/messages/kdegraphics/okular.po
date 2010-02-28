@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 01:27+0100\n"
+"POT-Creation-Date: 2010-02-26 20:28+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16,23 +16,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: conf/dlgperformance.cpp:43
-msgid ""
-"Keeps used memory as low as possible. Do not reuse anything. (For systems "
-"with low memory.)"
+#: conf/dlgpresentation.cpp:28
+#, fuzzy
+#| msgid "Current mantainer"
+msgctxt "@label:listbox The current screen, for the presentation mode"
+msgid "Current Screen"
+msgstr "目前維護者"
+
+#: conf/dlgpresentation.cpp:29
+msgctxt "@label:listbox The default screen for the presentation mode"
+msgid "Default Screen"
 msgstr ""
 
-#: conf/dlgperformance.cpp:46
-msgid ""
-"A good compromise between memory usage and speed gain. Preload next page and "
-"boost searches. (For systems with 256MB of memory, typically.)"
-msgstr ""
+#: conf/dlgpresentation.cpp:33
+#, fuzzy, kde-format
+#| msgid "Creator"
+msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "建立者"
 
-#: conf/dlgperformance.cpp:49
-msgid ""
-"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
-"with more than 512MB of memory.)"
-msgstr ""
+#: conf/dlgpresentation.cpp:48
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
 
 #: conf/dlgeditor.cpp:28
 msgctxt "Text editor"
@@ -115,7 +121,7 @@ msgstr "表現模式選項"
 
 #. i18n: file: conf/dlgidentitybase.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: conf/preferencesdialog.cpp:42 rc.cpp:215
+#: conf/preferencesdialog.cpp:42 rc.cpp:122
 msgid "Identity"
 msgstr ""
 
@@ -125,7 +131,7 @@ msgstr ""
 
 #. i18n: file: conf/dlgeditorbase.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: conf/preferencesdialog.cpp:44 rc.cpp:224
+#: conf/preferencesdialog.cpp:44 rc.cpp:68
 msgid "Editor"
 msgstr ""
 
@@ -135,29 +141,23 @@ msgstr ""
 msgid "Editor Options"
 msgstr "過濾器選項"
 
-#: conf/dlgpresentation.cpp:28
-#, fuzzy
-#| msgid "Current mantainer"
-msgctxt "@label:listbox The current screen, for the presentation mode"
-msgid "Current Screen"
-msgstr "目前維護者"
-
-#: conf/dlgpresentation.cpp:29
-msgctxt "@label:listbox The default screen for the presentation mode"
-msgid "Default Screen"
+#: conf/dlgperformance.cpp:43
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
 msgstr ""
 
-#: conf/dlgpresentation.cpp:33
-#, fuzzy, kde-format
-#| msgid "Creator"
-msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
-msgid "Screen %1"
-msgstr "建立者"
+#: conf/dlgperformance.cpp:46
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 256MB of memory, typically.)"
+msgstr ""
 
-#: conf/dlgpresentation.cpp:48
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] ""
+#: conf/dlgperformance.cpp:49
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 512MB of memory.)"
+msgstr ""
 
 #: core/action.cpp:91
 #, fuzzy, kde-format
@@ -242,6 +242,12 @@ msgstr ""
 #: core/action.cpp:429
 msgid "Play movie..."
 msgstr ""
+
+#: core/sourcereference.cpp:91
+#, fuzzy, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "標題"
 
 #: core/document.cpp:163
 #, kde-format
@@ -380,6 +386,17 @@ msgstr "頁："
 msgid "Page Size"
 msgstr "頁："
 
+#: core/chooseenginedialog.cpp:22
+msgid "Backend Selection"
+msgstr ""
+
+#: core/chooseenginedialog.cpp:33
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+
 #: core/generator.cpp:552
 msgid "Plain &Text..."
 msgstr ""
@@ -400,55 +417,6 @@ msgstr "目前維護者"
 #: core/generator.cpp:564
 msgctxt "This is the document format"
 msgid "HTML"
-msgstr ""
-
-#: core/sourcereference.cpp:91
-#, fuzzy, kde-format
-msgctxt "'source' is a source file"
-msgid "Source: %1"
-msgstr "標題"
-
-#: core/chooseenginedialog.cpp:22
-msgid "Backend Selection"
-msgstr ""
-
-#: core/chooseenginedialog.cpp:33
-#, kde-format
-msgid ""
-"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
-"><br />Please select which one to use:</qt>"
-msgstr ""
-
-#: ui/toolaction.cpp:21
-#, fuzzy
-#| msgid "&Select Tool"
-msgid "Selection Tools"
-msgstr "選取工具(&S)"
-
-#: ui/toolaction.cpp:71 ui/toolaction.cpp:83
-msgid ""
-"Click to use the current selection tool\n"
-"Click and hold to choose another selection tool"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:159
-msgid "Text of the new note:"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:161
-msgid "New Text Note"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:700
-msgid "Please insert your name or initials:"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:701
-msgid "You must set this name:"
-msgstr ""
-
-#: ui/pageviewannotator.cpp:702
-msgid "Annotations author"
 msgstr ""
 
 #: ui/findbar.cpp:36 ui/presentationsearchbar.cpp:64
@@ -502,375 +470,6 @@ msgstr "區分大小寫"
 
 #: ui/findbar.cpp:68
 msgid "From current page"
-msgstr ""
-
-#: ui/presentationwidget.cpp:142
-#, fuzzy, kde-format
-#| msgid "Presentation"
-msgctxt "[document title/filename] – Presentation"
-msgid "%1 – Presentation"
-msgstr "表現"
-
-#: ui/presentationwidget.cpp:184
-msgid "Switch Screen"
-msgstr ""
-
-#: ui/presentationwidget.cpp:191
-#, fuzzy, kde-format
-#| msgid "Creator"
-msgctxt "%1 is the screen number (0, 1, ...)"
-msgid "Screen %1"
-msgstr "建立者"
-
-#: ui/presentationwidget.cpp:198
-#, fuzzy
-msgid "Exit Presentation Mode"
-msgstr "表現模式選項"
-
-#: ui/presentationwidget.cpp:318
-#, kde-format
-msgid "Title: %1"
-msgstr "標題：%1"
-
-#: ui/presentationwidget.cpp:320 ui/guiutils.cpp:156
-#, kde-format
-msgid "Author: %1"
-msgstr "作者：%1"
-
-#: ui/presentationwidget.cpp:322
-#, kde-format
-msgid "Pages: %1"
-msgstr "頁：%1"
-
-#: ui/presentationwidget.cpp:323
-msgid "Click to begin"
-msgstr "單擊開始"
-
-#: ui/presentationwidget.cpp:1277
-msgid ""
-"There are two ways of exiting presentation mode, you can press either ESC "
-"key or click with the quit button that appears when placing the mouse in the "
-"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
-msgstr ""
-"離開簡報模式有兩個方法：按 ESC 鍵、或將滑鼠移至右上角，當「離開」按鈕出現時按"
-"下。當然你亦可將視窗循環展示（預設是 Alt+TAB）。"
-
-#: ui/presentationwidget.cpp:1399
-#, fuzzy
-#| msgid "Presentation"
-msgctxt ""
-"Reason for inhibiting the screensaver activation, when the presentation mode "
-"is active"
-msgid "Giving a presentation"
-msgstr "表現"
-
-#: ui/thumbnaillist.cpp:870
-msgid "Show bookmarked pages only"
-msgstr "只顯示標有書籤的頁面"
-
-#: ui/annotationmodel.cpp:297 part.cpp:1731
-#, kde-format
-msgid "Page %1"
-msgstr "頁 %1"
-
-#: ui/minibar.cpp:87
-msgctxt "Layouted like: '5 [pages] of 10'"
-msgid "of"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:58
-msgid "&Appearance"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:61
-msgid "&Color:"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:69
-msgid "&Opacity:"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:74
-msgctxt "Suffix for the opacity level, eg '80 %'"
-msgid " %"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:91
-#, fuzzy
-#| msgid "General"
-msgid "&General"
-msgstr "一般"
-
-#. i18n: file: conf/dlgidentitybase.ui:55
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/annotationpropertiesdialog.cpp:94 rc.cpp:218
-#, fuzzy
-#| msgid "Author"
-msgid "&Author:"
-msgstr "作者"
-
-#: ui/annotationpropertiesdialog.cpp:102
-#, fuzzy, kde-format
-#| msgid "Creator"
-msgid "Created: %1"
-msgstr "建立者"
-
-#: ui/annotationpropertiesdialog.cpp:107 ui/annotationpropertiesdialog.cpp:211
-#, kde-format
-msgid "Modified: %1"
-msgstr ""
-
-#: ui/annotationpropertiesdialog.cpp:152
-#, fuzzy
-msgid "Note Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:154
-#, fuzzy
-msgid "Inline Note Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:157
-#, fuzzy
-msgid "Line Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:160
-#, fuzzy
-msgid "Geometry Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:163
-#, fuzzy
-msgid "Highlight Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:166
-#, fuzzy
-msgid "Stamp Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:169
-#, fuzzy
-msgid "Ink Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:172
-#, fuzzy
-msgid "Caret Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:175
-#, fuzzy
-msgid "File Attachment Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:178
-#, fuzzy
-msgid "Sound Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:181
-#, fuzzy
-msgid "Movie Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpropertiesdialog.cpp:184
-#, fuzzy
-#| msgid "%1 Properties"
-msgid "Annotation Properties"
-msgstr "%1 屬性"
-
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:20
-#: ui/guiutils.cpp:72 ui/annotationwidgets.cpp:218 rc.cpp:308
-msgid "Note"
-msgstr ""
-
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:27
-#: ui/guiutils.cpp:74 rc.cpp:311
-msgid "Inline Note"
-msgstr ""
-
-#: ui/guiutils.cpp:77
-msgid "Line"
-msgstr ""
-
-#: ui/guiutils.cpp:80
-msgid "Geometry"
-msgstr ""
-
-#: ui/guiutils.cpp:83 ui/annotationwidgets.cpp:397
-msgid "Highlight"
-msgstr ""
-
-#. i18n: tag tool attribute name
-#. i18n: file: ui/data/tools.xml:62
-#: ui/guiutils.cpp:86 rc.cpp:326
-msgid "Stamp"
-msgstr ""
-
-#: ui/guiutils.cpp:89
-msgid "Ink"
-msgstr ""
-
-#: ui/guiutils.cpp:92
-#, fuzzy
-#| msgid "Creator"
-msgid "Caret"
-msgstr "建立者"
-
-#: ui/guiutils.cpp:95
-msgid "File Attachment"
-msgstr ""
-
-#: ui/guiutils.cpp:98
-msgid "Sound"
-msgstr ""
-
-#: ui/guiutils.cpp:101
-msgid "Movie"
-msgstr ""
-
-#: ui/guiutils.cpp:113
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown author"
-msgid "Unknown"
-msgstr "未知"
-
-#: ui/guiutils.cpp:202 ui/propertiesdialog.cpp:261
-#, kde-format
-msgid "Where do you want to save %1?"
-msgstr ""
-
-#: ui/guiutils.cpp:211 ui/propertiesdialog.cpp:274
-#, kde-format
-msgid "Could not open \"%1\" for writing. File was not saved."
-msgstr ""
-
-#: ui/presentationsearchbar.cpp:78
-msgid "Find Next"
-msgstr ""
-
-#: ui/side_reviews.cpp:61
-msgid ""
-"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
-"or select <i>Tools -&gt; Review</i> from the menu.</div>"
-msgstr ""
-
-#: ui/side_reviews.cpp:128
-#, fuzzy
-#| msgid "Go to Page"
-msgid "Group by Page"
-msgstr "跳至頁"
-
-#: ui/side_reviews.cpp:133
-#, fuzzy
-#| msgid "Go to Page"
-msgid "Group by Author"
-msgstr "跳至頁"
-
-#: ui/side_reviews.cpp:141
-#, fuzzy
-#| msgid "Show bookmarked pages only"
-msgid "Show reviews for current page only"
-msgstr "只顯示標有書籤的頁面"
-
-#: ui/ktreeviewsearchline.cpp:461
-#, fuzzy
-#| msgid "Filter Options"
-msgid "Search Options"
-msgstr "過濾器選項"
-
-#: ui/ktreeviewsearchline.cpp:462
-#, fuzzy
-#| msgid "Case Sensitive"
-msgctxt "Enable case sensitive search in the side navigation panels"
-msgid "Case Sensitive"
-msgstr "區分大小寫"
-
-#: ui/ktreeviewsearchline.cpp:465
-msgctxt "Enable regular expression search in the side navigation panels"
-msgid "Regular Expression"
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:471
-msgid "Search Columns"
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:473
-msgid "All Visible Columns"
-msgstr ""
-
-#: ui/ktreeviewsearchline.cpp:630
-msgid "S&earch:"
-msgstr ""
-
-#: ui/searchwidget.cpp:40
-msgid "Enter at least 3 letters to filter pages"
-msgstr "要輸入至少三個字母才能過濾頁面"
-
-#: ui/searchwidget.cpp:50
-msgid "Case Sensitive"
-msgstr "區分大小寫"
-
-#: ui/searchwidget.cpp:52
-msgid "Match Phrase"
-msgstr "配對片語"
-
-#: ui/searchwidget.cpp:53
-msgid "Match All Words"
-msgstr "配對所有字"
-
-#: ui/searchwidget.cpp:54
-msgid "Match Any Word"
-msgstr "配對任何字"
-
-#: ui/searchwidget.cpp:73
-msgid "Filter Options"
-msgstr "過濾器選項"
-
-#: ui/sidebar.cpp:659 ui/annotationwidgets.cpp:268 shell/main.cpp:39
-#: part.cpp:149
-msgid "Okular"
-msgstr ""
-
-#: ui/sidebar.cpp:660
-#, fuzzy
-#| msgid "Speak Text"
-msgid "Show Text"
-msgstr "讀出文字"
-
-#: ui/sidebar.cpp:676
-msgid "Small Icons"
-msgstr ""
-
-#: ui/sidebar.cpp:677
-msgid "Normal Icons"
-msgstr ""
-
-#: ui/sidebar.cpp:678
-#, fuzzy
-#| msgid "Icon"
-msgid "Large Icons"
-msgstr "圖示"
-
-#: ui/videowidget.cpp:115
-msgctxt "start the movie playback"
-msgid "Play"
-msgstr ""
-
-#: ui/videowidget.cpp:120
-#, fuzzy
-msgctxt "pause the movie playback"
-msgid "Pause"
-msgstr "頁："
-
-#: ui/videowidget.cpp:185
-msgctxt "stop the movie playback"
-msgid "Stop"
 msgstr ""
 
 #: ui/pageview.cpp:343
@@ -1113,14 +712,93 @@ msgstr "在要複製的文字/圖形四周畫一四方形。"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageviewutils.cpp:380
-msgid "Close this message"
+#: ui/videowidget.cpp:115
+msgctxt "start the movie playback"
+msgid "Play"
 msgstr ""
 
-#: ui/tts.cpp:52
-#, kde-format
-msgid "Starting KTTSD Failed: %1"
-msgstr "啟動 KTTSD 失敗: %1"
+#: ui/videowidget.cpp:120
+#, fuzzy
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "頁："
+
+#: ui/videowidget.cpp:185
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr ""
+
+#: ui/toolaction.cpp:21
+#, fuzzy
+#| msgid "&Select Tool"
+msgid "Selection Tools"
+msgstr "選取工具(&S)"
+
+#: ui/toolaction.cpp:71 ui/toolaction.cpp:83
+msgid ""
+"Click to use the current selection tool\n"
+"Click and hold to choose another selection tool"
+msgstr ""
+
+#: ui/thumbnaillist.cpp:870
+msgid "Show bookmarked pages only"
+msgstr "只顯示標有書籤的頁面"
+
+#: ui/embeddedfilesdialog.cpp:35
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/embeddedfilesdialog.cpp:40
+#, fuzzy
+#| msgid "Embedded"
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "內嵌的"
+
+#: ui/embeddedfilesdialog.cpp:48
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名稱"
+
+#: ui/embeddedfilesdialog.cpp:49
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:50
+#, fuzzy
+msgctxt "@title:column"
+msgid "Size"
+msgstr "標題"
+
+#: ui/embeddedfilesdialog.cpp:51
+#, fuzzy
+#| msgid "Creator"
+msgctxt "@title:column"
+msgid "Created"
+msgstr "建立者"
+
+#: ui/embeddedfilesdialog.cpp:52
+msgctxt "@title:column"
+msgid "Modified"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:68 ui/annotationwidgets.cpp:518
+msgctxt "Not available size"
+msgid "N/A"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:106
+#, fuzzy
+#| msgid "Save to File..."
+msgctxt "@action:inmenu"
+msgid "&Save As..."
+msgstr "儲存至檔案..."
 
 #: ui/fileprinterpreview.cpp:114
 msgid "Could not load print preview part"
@@ -1129,6 +807,224 @@ msgstr ""
 #: ui/fileprinterpreview.cpp:129
 msgid "Print Preview"
 msgstr ""
+
+#: ui/side_reviews.cpp:61
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Review</i> from the menu.</div>"
+msgstr ""
+
+#: ui/side_reviews.cpp:128
+#, fuzzy
+#| msgid "Go to Page"
+msgid "Group by Page"
+msgstr "跳至頁"
+
+#: ui/side_reviews.cpp:133
+#, fuzzy
+#| msgid "Go to Page"
+msgid "Group by Author"
+msgstr "跳至頁"
+
+#: ui/side_reviews.cpp:141
+#, fuzzy
+#| msgid "Show bookmarked pages only"
+msgid "Show reviews for current page only"
+msgstr "只顯示標有書籤的頁面"
+
+#: ui/formwidgets.cpp:350 shell/shell.cpp:242
+msgid "*|All Files"
+msgstr ""
+
+#: ui/bookmarklist.cpp:131
+#, fuzzy
+#| msgid "Current mantainer"
+msgid "Current document only"
+msgstr "目前維護者"
+
+#: ui/bookmarklist.cpp:211
+msgid "Go to This Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:212
+msgid "Rename Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:213 part.cpp:1270 part.cpp:1733
+msgid "Remove Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:295 ui/bookmarklist.cpp:375
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+
+#: ui/annotationmodel.cpp:297 part.cpp:1731
+#, kde-format
+msgid "Page %1"
+msgstr "頁 %1"
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:20
+#: ui/guiutils.cpp:72 ui/annotationwidgets.cpp:218 rc.cpp:308
+msgid "Note"
+msgstr ""
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:27
+#: ui/guiutils.cpp:74 rc.cpp:311
+msgid "Inline Note"
+msgstr ""
+
+#: ui/guiutils.cpp:77
+msgid "Line"
+msgstr ""
+
+#: ui/guiutils.cpp:80
+msgid "Geometry"
+msgstr ""
+
+#: ui/guiutils.cpp:83 ui/annotationwidgets.cpp:397
+msgid "Highlight"
+msgstr ""
+
+#. i18n: tag tool attribute name
+#. i18n: file: ui/data/tools.xml:62
+#: ui/guiutils.cpp:86 rc.cpp:326
+msgid "Stamp"
+msgstr ""
+
+#: ui/guiutils.cpp:89
+msgid "Ink"
+msgstr ""
+
+#: ui/guiutils.cpp:92
+#, fuzzy
+#| msgid "Creator"
+msgid "Caret"
+msgstr "建立者"
+
+#: ui/guiutils.cpp:95
+msgid "File Attachment"
+msgstr ""
+
+#: ui/guiutils.cpp:98
+msgid "Sound"
+msgstr ""
+
+#: ui/guiutils.cpp:101
+msgid "Movie"
+msgstr ""
+
+#: ui/guiutils.cpp:113
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/guiutils.cpp:156 ui/presentationwidget.cpp:320
+#, kde-format
+msgid "Author: %1"
+msgstr "作者：%1"
+
+#: ui/guiutils.cpp:202 ui/propertiesdialog.cpp:261
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr ""
+
+#: ui/guiutils.cpp:211 ui/propertiesdialog.cpp:274
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr ""
+
+#: ui/sidebar.cpp:659 ui/annotationwidgets.cpp:268 shell/main.cpp:39
+#: part.cpp:149
+msgid "Okular"
+msgstr ""
+
+#: ui/sidebar.cpp:660
+#, fuzzy
+#| msgid "Speak Text"
+msgid "Show Text"
+msgstr "讀出文字"
+
+#: ui/sidebar.cpp:676
+msgid "Small Icons"
+msgstr ""
+
+#: ui/sidebar.cpp:677
+msgid "Normal Icons"
+msgstr ""
+
+#: ui/sidebar.cpp:678
+#, fuzzy
+#| msgid "Icon"
+msgid "Large Icons"
+msgstr "圖示"
+
+#: ui/pageviewutils.cpp:380
+msgid "Close this message"
+msgstr ""
+
+#: ui/minibar.cpp:87
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:159
+msgid "Text of the new note:"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:161
+msgid "New Text Note"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:700
+msgid "Please insert your name or initials:"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:701
+msgid "You must set this name:"
+msgstr ""
+
+#: ui/pageviewannotator.cpp:702
+msgid "Annotations author"
+msgstr ""
+
+#: ui/annotationpopup.cpp:49
+#, fuzzy, kde-format
+#| msgid "Presentation"
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "表現"
+
+#: ui/annotationpopup.cpp:50
+msgid "&Open Pop-up Note"
+msgstr ""
+
+#: ui/annotationpopup.cpp:52
+msgid "&Delete"
+msgstr ""
+
+#: ui/annotationpopup.cpp:58 ui/propertiesdialog.cpp:49 part.cpp:521
+msgid "&Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpopup.cpp:65
+#, fuzzy, kde-format
+#| msgid "Save to File..."
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'..."
+msgstr "儲存至檔案..."
 
 #: ui/annotationwidgets.cpp:208
 msgid "Icon"
@@ -1323,11 +1219,6 @@ msgctxt "'File' as normal file, that can be opened, saved, etc.."
 msgid "File"
 msgstr "標題"
 
-#: ui/annotationwidgets.cpp:518 ui/embeddedfilesdialog.cpp:68
-msgctxt "Not available size"
-msgid "N/A"
-msgstr ""
-
 #: ui/annotationwidgets.cpp:519
 msgid "No description available."
 msgstr ""
@@ -1363,103 +1254,175 @@ msgctxt "Symbol for caret annotations"
 msgid "P"
 msgstr ""
 
-#: ui/bookmarklist.cpp:131
+#: ui/ktreeviewsearchline.cpp:461
 #, fuzzy
-#| msgid "Current mantainer"
-msgid "Current document only"
-msgstr "目前維護者"
+#| msgid "Filter Options"
+msgid "Search Options"
+msgstr "過濾器選項"
 
-#: ui/bookmarklist.cpp:211
-msgid "Go to This Bookmark"
+#: ui/ktreeviewsearchline.cpp:462
+#, fuzzy
+#| msgid "Case Sensitive"
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "區分大小寫"
+
+#: ui/ktreeviewsearchline.cpp:465
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
 msgstr ""
 
-#: ui/bookmarklist.cpp:212
-msgid "Rename Bookmark"
+#: ui/ktreeviewsearchline.cpp:471
+msgid "Search Columns"
 msgstr ""
 
-#: ui/bookmarklist.cpp:213 part.cpp:1270 part.cpp:1733
-msgid "Remove Bookmark"
+#: ui/ktreeviewsearchline.cpp:473
+msgid "All Visible Columns"
 msgstr ""
 
-#: ui/bookmarklist.cpp:295 ui/bookmarklist.cpp:375
-#, kde-format
-msgctxt "%1 is the file name"
-msgid ""
-"%1\n"
-"\n"
-"One bookmark"
-msgid_plural ""
-"%1\n"
-"\n"
-"%2 bookmarks"
-msgstr[0] ""
-
-#: ui/embeddedfilesdialog.cpp:35
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "未知"
-
-#: ui/embeddedfilesdialog.cpp:40
-#, fuzzy
-#| msgid "Embedded"
-msgctxt "@title:window"
-msgid "Embedded Files"
-msgstr "內嵌的"
-
-#: ui/embeddedfilesdialog.cpp:48
-#, fuzzy
-#| msgid "Name"
-msgctxt "@title:column"
-msgid "Name"
-msgstr "名稱"
-
-#: ui/embeddedfilesdialog.cpp:49
-msgctxt "@title:column"
-msgid "Description"
+#: ui/ktreeviewsearchline.cpp:630
+msgid "S&earch:"
 msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:50
-#, fuzzy
-msgctxt "@title:column"
-msgid "Size"
-msgstr "標題"
-
-#: ui/embeddedfilesdialog.cpp:51
-#, fuzzy
-#| msgid "Creator"
-msgctxt "@title:column"
-msgid "Created"
-msgstr "建立者"
-
-#: ui/embeddedfilesdialog.cpp:52
-msgctxt "@title:column"
-msgid "Modified"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:106
-#, fuzzy
-#| msgid "Save to File..."
-msgctxt "@action:inmenu"
-msgid "&Save As..."
-msgstr "儲存至檔案..."
 
 #: ui/annotwindow.cpp:48
 msgid "Close this note"
 msgstr ""
 
-#: ui/formwidgets.cpp:350 shell/shell.cpp:242
-msgid "*|All Files"
+#: ui/annotationpropertiesdialog.cpp:58
+msgid "&Appearance"
 msgstr ""
+
+#: ui/annotationpropertiesdialog.cpp:61
+msgid "&Color:"
+msgstr ""
+
+#: ui/annotationpropertiesdialog.cpp:69
+msgid "&Opacity:"
+msgstr ""
+
+#: ui/annotationpropertiesdialog.cpp:74
+msgctxt "Suffix for the opacity level, eg '80 %'"
+msgid " %"
+msgstr ""
+
+#: ui/annotationpropertiesdialog.cpp:91
+#, fuzzy
+#| msgid "General"
+msgid "&General"
+msgstr "一般"
+
+#. i18n: file: conf/dlgidentitybase.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/annotationpropertiesdialog.cpp:94 rc.cpp:125
+#, fuzzy
+#| msgid "Author"
+msgid "&Author:"
+msgstr "作者"
+
+#: ui/annotationpropertiesdialog.cpp:102
+#, fuzzy, kde-format
+#| msgid "Creator"
+msgid "Created: %1"
+msgstr "建立者"
+
+#: ui/annotationpropertiesdialog.cpp:107 ui/annotationpropertiesdialog.cpp:211
+#, kde-format
+msgid "Modified: %1"
+msgstr ""
+
+#: ui/annotationpropertiesdialog.cpp:152
+#, fuzzy
+msgid "Note Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:154
+#, fuzzy
+msgid "Inline Note Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:157
+#, fuzzy
+msgid "Line Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:160
+#, fuzzy
+msgid "Geometry Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:163
+#, fuzzy
+msgid "Highlight Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:166
+#, fuzzy
+msgid "Stamp Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:169
+#, fuzzy
+msgid "Ink Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:172
+#, fuzzy
+msgid "Caret Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:175
+#, fuzzy
+msgid "File Attachment Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:178
+#, fuzzy
+msgid "Sound Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:181
+#, fuzzy
+msgid "Movie Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpropertiesdialog.cpp:184
+#, fuzzy
+#| msgid "%1 Properties"
+msgid "Annotation Properties"
+msgstr "%1 屬性"
+
+#: ui/searchwidget.cpp:40
+msgid "Enter at least 3 letters to filter pages"
+msgstr "要輸入至少三個字母才能過濾頁面"
+
+#: ui/searchwidget.cpp:50
+msgid "Case Sensitive"
+msgstr "區分大小寫"
+
+#: ui/searchwidget.cpp:52
+msgid "Match Phrase"
+msgstr "配對片語"
+
+#: ui/searchwidget.cpp:53
+msgid "Match All Words"
+msgstr "配對所有字"
+
+#: ui/searchwidget.cpp:54
+msgid "Match Any Word"
+msgstr "配對任何字"
+
+#: ui/searchwidget.cpp:73
+msgid "Filter Options"
+msgstr "過濾器選項"
+
+#: ui/tts.cpp:52
+#, kde-format
+msgid "Starting KTTSD Failed: %1"
+msgstr "啟動 KTTSD 失敗: %1"
 
 #: ui/propertiesdialog.cpp:44
 msgid "Unknown File"
 msgstr "未知檔案"
-
-#: ui/propertiesdialog.cpp:49 ui/annotationpopup.cpp:58 part.cpp:521
-msgid "&Properties"
-msgstr "屬性(&P)"
 
 #: ui/propertiesdialog.cpp:58
 msgid "No document opened."
@@ -1641,27 +1604,64 @@ msgstr "類型"
 msgid "File"
 msgstr "標題"
 
-#: ui/annotationpopup.cpp:49
+#: ui/presentationsearchbar.cpp:78
+msgid "Find Next"
+msgstr ""
+
+#: ui/presentationwidget.cpp:142
 #, fuzzy, kde-format
 #| msgid "Presentation"
-msgid "Annotation"
-msgid_plural "%1 Annotations"
-msgstr[0] "表現"
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "表現"
 
-#: ui/annotationpopup.cpp:50
-msgid "&Open Pop-up Note"
+#: ui/presentationwidget.cpp:184
+msgid "Switch Screen"
 msgstr ""
 
-#: ui/annotationpopup.cpp:52
-msgid "&Delete"
-msgstr ""
-
-#: ui/annotationpopup.cpp:65
+#: ui/presentationwidget.cpp:191
 #, fuzzy, kde-format
-#| msgid "Save to File..."
-msgctxt "%1 is the name of the file to save"
-msgid "&Save '%1'..."
-msgstr "儲存至檔案..."
+#| msgid "Creator"
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "建立者"
+
+#: ui/presentationwidget.cpp:198
+#, fuzzy
+msgid "Exit Presentation Mode"
+msgstr "表現模式選項"
+
+#: ui/presentationwidget.cpp:318
+#, kde-format
+msgid "Title: %1"
+msgstr "標題：%1"
+
+#: ui/presentationwidget.cpp:322
+#, kde-format
+msgid "Pages: %1"
+msgstr "頁：%1"
+
+#: ui/presentationwidget.cpp:323
+msgid "Click to begin"
+msgstr "單擊開始"
+
+#: ui/presentationwidget.cpp:1277
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"離開簡報模式有兩個方法：按 ESC 鍵、或將滑鼠移至右上角，當「離開」按鈕出現時按"
+"下。當然你亦可將視窗循環展示（預設是 Alt+TAB）。"
+
+#: ui/presentationwidget.cpp:1399
+#, fuzzy
+#| msgid "Presentation"
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "表現"
 
 #: shell/main.cpp:45
 msgid "Page of the document to be shown"
@@ -2118,319 +2118,15 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "edt1023@info.sayya.org,wwycheuk@netvigator.com"
 
-#. i18n: file: conf/dlgaccessibilitybase.ui:28
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightImages)
-#: rc.cpp:68
-msgid "Draw border around &Images"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:35
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightLinks)
-#: rc.cpp:71
-msgid "Draw border around &Links"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:45
-#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChangeColors)
-#: rc.cpp:74
-msgid "Change &colors"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:63
-#. i18n: ectx: property (text), widget (QLabel, warn)
-#: rc.cpp:77
-msgid "Warning: these options can badly affect drawing speed."
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:78
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:80
-msgid "Color mode:"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:89
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: rc.cpp:83
-msgid "Invert Colors"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:94
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: rc.cpp:86
-msgid "Change Paper Color"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:99
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: rc.cpp:89
-msgid "Change Dark & Light Colors"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:104
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: rc.cpp:92
-msgid "Convert to Black & White"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:165
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:95
-msgid "Paper color:"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:218
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:98
-msgid "Dark color:"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:250
-#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: rc.cpp:101
-msgid "Light color:"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:291
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:104
-msgid "Threshold:"
-msgstr ""
-
-#. i18n: file: conf/dlgaccessibilitybase.ui:323
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:107
-msgid "Contrast:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:110
-msgid "Navigation"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:39
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesAdvance)
-#: rc.cpp:113
-msgid "Advance every:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:49
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_SlidesAdvanceTime)
-#: rc.cpp:116
-msgid " sec."
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:61
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesLoop)
-#: rc.cpp:119
-msgid "Loop after last page"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:71
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: file: conf/dlggeneralbase.ui:28
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:122 rc.cpp:236
-msgid "Appearance"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:79
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:125
-msgid "Background color:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:92
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:128
-msgid "Pencil color:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:105
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:131
-msgid "Mouse cursor:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:116
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: rc.cpp:134
-msgid "Hidden After Delay"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:121
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: rc.cpp:137
-msgid "Always Visible"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:126
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: rc.cpp:140
-msgid "Always Hidden"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:136
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowProgress)
-#: rc.cpp:143
-msgid "Show &progress indicator"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:143
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowSummary)
-#: rc.cpp:146
-msgid "Show s&ummary page"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:153
-#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SlidesTransitionsEnabled)
-#: rc.cpp:149
-msgid "Enable transitions"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:165
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:152
-msgid "Default transition:"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:176
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:155
-msgid "Blinds Vertical"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:181
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:158
-msgid "Blinds Horizontal"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:186
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:161
-msgid "Box In"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:191
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:164
-msgid "Box Out"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:196
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:167
-msgid "Dissolve"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:201
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:170
-msgid "Glitter Down"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:206
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:173
-msgid "Glitter Right"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:211
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:176
-msgid "Glitter Right-Down"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:216
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:179
-msgid "Random Transition"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:221
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:182
-msgid "Replace"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:226
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:185
-msgid "Split Horizontal In"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:231
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:188
-msgid "Split Horizontal Out"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:236
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:191
-msgid "Split Vertical In"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:241
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:194
-msgid "Split Vertical Out"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:246
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:197
-msgid "Wipe Down"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:251
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:200
-msgid "Wipe Right"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:256
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:203
-msgid "Wipe Left"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:261
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: rc.cpp:206
-msgid "Wipe Up"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:272
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:209
-msgid "Placement"
-msgstr ""
-
-#. i18n: file: conf/dlgpresentationbase.ui:278
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:212
-msgid "Screen:"
-msgstr ""
-
-#. i18n: file: conf/dlgidentitybase.ui:71
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:221
-msgid ""
-"<b>Note</b>: the information here is used only for comments and reviews. "
-"Information inserted here will not be transmitted without your knowledge."
-msgstr ""
-
 #. i18n: file: conf/dlgeditorbase.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:227
+#: rc.cpp:71
 msgid "Editor:"
 msgstr ""
 
 #. i18n: file: conf/dlgeditorbase.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ExternalEditor)
-#: rc.cpp:230
+#: rc.cpp:74
 msgctxt "@info:whatsthis"
 msgid ""
 "Choose the editor you want to launch when Okular wants to open a source file."
@@ -2438,44 +2134,390 @@ msgstr ""
 
 #. i18n: file: conf/dlgeditorbase.ui:70
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:233
+#: rc.cpp:77
 #, fuzzy
 msgid "Command:"
 msgstr "連續(&C)"
 
+#. i18n: file: conf/dlgaccessibilitybase.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightImages)
+#: rc.cpp:80
+msgid "Draw border around &Images"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightLinks)
+#: rc.cpp:83
+msgid "Draw border around &Links"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChangeColors)
+#: rc.cpp:86
+msgid "Change &colors"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:63
+#. i18n: ectx: property (text), widget (QLabel, warn)
+#: rc.cpp:89
+msgid "Warning: these options can badly affect drawing speed."
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:78
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:92
+msgid "Color mode:"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:89
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: rc.cpp:95
+msgid "Invert Colors"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:94
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: rc.cpp:98
+msgid "Change Paper Color"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:99
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: rc.cpp:101
+msgid "Change Dark & Light Colors"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:104
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: rc.cpp:104
+msgid "Convert to Black & White"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:107
+msgid "Paper color:"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:218
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:110
+msgid "Dark color:"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:250
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: rc.cpp:113
+msgid "Light color:"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:291
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:116
+msgid "Threshold:"
+msgstr ""
+
+#. i18n: file: conf/dlgaccessibilitybase.ui:323
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:119
+msgid "Contrast:"
+msgstr ""
+
+#. i18n: file: conf/dlgidentitybase.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:128
+msgid ""
+"<b>Note</b>: the information here is used only for comments and reviews. "
+"Information inserted here will not be transmitted without your knowledge."
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:131
+msgid "CPU Usage"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableCompositing)
+#: rc.cpp:134
+msgid "Enable &transparency effects"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableThreading)
+#: rc.cpp:137
+msgid "Enable &background generation"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:109
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_MemoryLevel)
+#: rc.cpp:140
+msgid "Memory Usage"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:137
+#. i18n: ectx: property (text), widget (QRadioButton, lowRadio)
+#: rc.cpp:143
+msgid "&Low"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, normalRadio)
+#: rc.cpp:146
+msgid "&Normal (default)"
+msgstr ""
+
+#. i18n: file: conf/dlgperformancebase.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, aggressiveRadio)
+#: rc.cpp:149
+msgid "&Aggressive"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:152
+msgid "Navigation"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesAdvance)
+#: rc.cpp:155
+msgid "Advance every:"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:49
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_SlidesAdvanceTime)
+#: rc.cpp:158
+msgid " sec."
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:61
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesLoop)
+#: rc.cpp:161
+msgid "Loop after last page"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:71
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: conf/dlggeneralbase.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:164 rc.cpp:257
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:79
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:167
+msgid "Background color:"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:92
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:170
+msgid "Pencil color:"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:105
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:173
+msgid "Mouse cursor:"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:116
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: rc.cpp:176
+msgid "Hidden After Delay"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: rc.cpp:179
+msgid "Always Visible"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:126
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: rc.cpp:182
+msgid "Always Hidden"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowProgress)
+#: rc.cpp:185
+msgid "Show &progress indicator"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowSummary)
+#: rc.cpp:188
+msgid "Show s&ummary page"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:153
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SlidesTransitionsEnabled)
+#: rc.cpp:191
+msgid "Enable transitions"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:194
+msgid "Default transition:"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:176
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:197
+msgid "Blinds Vertical"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:200
+msgid "Blinds Horizontal"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:186
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:203
+msgid "Box In"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:191
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:206
+msgid "Box Out"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:196
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:209
+msgid "Dissolve"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:201
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:212
+msgid "Glitter Down"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:206
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:215
+msgid "Glitter Right"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:211
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:218
+msgid "Glitter Right-Down"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:216
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:221
+msgid "Random Transition"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:221
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:224
+msgid "Replace"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:226
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:227
+msgid "Split Horizontal In"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:231
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:230
+msgid "Split Horizontal Out"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:236
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:233
+msgid "Split Vertical In"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:241
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:236
+msgid "Split Vertical Out"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:246
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:239
+msgid "Wipe Down"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:251
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:242
+msgid "Wipe Right"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:256
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:245
+msgid "Wipe Left"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:261
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: rc.cpp:248
+msgid "Wipe Up"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:272
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:251
+msgid "Placement"
+msgstr ""
+
+#. i18n: file: conf/dlgpresentationbase.ui:278
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:254
+msgid "Screen:"
+msgstr ""
+
 #. i18n: file: conf/dlggeneralbase.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowScrollBars)
-#: rc.cpp:239
+#: rc.cpp:260
 msgid "Show scroll&bars"
 msgstr "顯示捲軸(&B)"
 
 #. i18n: file: conf/dlggeneralbase.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncThumbnailsViewport)
-#: rc.cpp:242
+#: rc.cpp:263
 msgid "Link the &thumbnails with the page"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOSD)
-#: rc.cpp:245
+#: rc.cpp:266
 msgid "Show &hints and info messages"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:140
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:248
+#: rc.cpp:269
 msgid "Program Features"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:178
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObeyDRM)
-#: rc.cpp:251
+#: rc.cpp:272
 msgid "&Obey DRM limitations"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:185
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_WatchFile)
-#: rc.cpp:254
+#: rc.cpp:275
 #, fuzzy
 #| msgid "No document opened."
 msgid "&Reload document on file change"
@@ -2483,13 +2525,13 @@ msgstr "未有開啟文件。"
 
 #. i18n: file: conf/dlggeneralbase.ui:192
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChooseGenerators)
-#: rc.cpp:257
+#: rc.cpp:278
 msgid "Show backend selection dialog"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:249
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:260
+#: rc.cpp:281
 #, fuzzy
 #| msgid "Filter Options"
 msgid "View Options"
@@ -2497,56 +2539,14 @@ msgstr "過濾器選項"
 
 #. i18n: file: conf/dlggeneralbase.ui:255
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CenterFirstPageInRow)
-#: rc.cpp:263
+#: rc.cpp:284
 msgid "Center &first page"
 msgstr ""
 
 #. i18n: file: conf/dlggeneralbase.ui:270
 #. i18n: ectx: property (text), widget (QLabel, columnLabel)
-#: rc.cpp:266
-msgid "Overview columns:"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:22
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:269
-msgid "CPU Usage"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:50
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableCompositing)
-#: rc.cpp:272
-msgid "Enable &transparency effects"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:57
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableThreading)
-#: rc.cpp:275
-msgid "Enable &background generation"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:109
-#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_MemoryLevel)
-#: rc.cpp:278
-msgid "Memory Usage"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:137
-#. i18n: ectx: property (text), widget (QRadioButton, lowRadio)
-#: rc.cpp:281
-msgid "&Low"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:144
-#. i18n: ectx: property (text), widget (QRadioButton, normalRadio)
-#: rc.cpp:284
-msgid "&Normal (default)"
-msgstr ""
-
-#. i18n: file: conf/dlgperformancebase.ui:151
-#. i18n: ectx: property (text), widget (QRadioButton, aggressiveRadio)
 #: rc.cpp:287
-msgid "&Aggressive"
+msgid "Overview columns:"
 msgstr ""
 
 #. i18n: file: ui/data/tools.xml:21
