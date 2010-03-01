@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-26 20:28+0100\n"
+"POT-Creation-Date: 2010-03-01 01:14+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -506,7 +506,14 @@ msgstr "因擠塞停止了"
 msgid "Downloading...."
 msgstr "下載已續傳"
 
-#: core/transfer.cpp:244 core/transfer.cpp:269
+#: core/transfer.cpp:38
+#, fuzzy
+#| msgid "Delayed"
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "已延遲"
+
+#: core/transfer.cpp:39 core/transfer.cpp:244 core/transfer.cpp:269
 #: transfer-plugins/contentfetch/contentfetch.cpp:69
 #: transfer-plugins/mmsclient/mmsTransfer.cpp:48
 #: transfer-plugins/bittorrent/bttransfer.cpp:326
@@ -516,6 +523,25 @@ msgstr "下載已續傳"
 msgctxt "transfer state: stopped"
 msgid "Stopped"
 msgstr "已停止"
+
+#: core/transfer.cpp:40
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr ""
+
+#: core/transfer.cpp:41 transfer-plugins/bittorrent/bttransfer.cpp:240
+#: transfer-plugins/bittorrent/bttransfer.cpp:322
+#, fuzzy
+#| msgid "Finished"
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: core/transfer.cpp:43 transfer-plugins/bittorrent/bttransfer.cpp:179
+#, fuzzy
+msgctxt "changing the destination of the file"
+msgid "Changing destination"
+msgstr "開啟目的地(&D)"
 
 #: core/transfertreemodel.cpp:544
 #, fuzzy
@@ -1209,26 +1235,12 @@ msgstr "開啟檔案(&F)"
 msgid "Downloading Torrent File...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:179
-#, fuzzy
-msgctxt "changing the destination of the file"
-msgid "Changing destination"
-msgstr "開啟目的地(&D)"
-
 #: transfer-plugins/bittorrent/bttransfer.cpp:196
 #: transfer-plugins/bittorrent/bttransfer.cpp:301
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading...."
 msgstr "下載已續傳"
-
-#: transfer-plugins/bittorrent/bttransfer.cpp:240
-#: transfer-plugins/bittorrent/bttransfer.cpp:322
-#, fuzzy
-#| msgid "Finished"
-msgctxt "transfer state: finished"
-msgid "Finished"
-msgstr "已完成"
 
 #: transfer-plugins/bittorrent/bttransfer.cpp:274
 msgid "Cannot add a tracker to a private torrent."
@@ -4995,12 +5007,6 @@ msgstr ""
 #: rc.cpp:992
 msgid "List of whether the script is enabled"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Delayed"
-#~ msgctxt "transfer state: delayed"
-#~ msgid "Delayed"
-#~ msgstr "已延遲"
 
 #, fuzzy
 #~| msgid "Number of retries:"
