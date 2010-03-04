@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-02 04:20+0100\n"
+"POT-Creation-Date: 2010-03-04 04:12+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -120,7 +120,6 @@ msgid_plural "%1 Items"
 msgstr[0] ""
 
 #: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:148
-#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:263
 #: ui/transferdetails.cpp:100
 #, kde-format
 msgid "%1/s"
@@ -352,7 +351,6 @@ msgid ""
 msgstr ""
 
 #: core/kget.cpp:1250
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:71
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download completed"
@@ -545,9 +543,7 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:143
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:79
-#: ui/transferdetails.cpp:95
+#: core/transferhandler.cpp:143 ui/transferdetails.cpp:95
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
@@ -871,7 +867,6 @@ msgid "Availability"
 msgstr ""
 
 #: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:314
-#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:36
 msgid "DHT"
 msgstr ""
 
@@ -1331,561 +1326,6 @@ msgstr "預設的資料夾"
 #| msgid "Default folder:"
 msgid "Select a default temporary folder"
 msgstr "預設的資料夾:"
-
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:61
-#, kde-format
-msgid "Illegal token: %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:82
-msgid "Decode error"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:143
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:188
-msgid "Unexpected end of input"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:163
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:197
-#, kde-format
-msgid "Cannot convert %1 to an int"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
-msgid "Torrent is incomplete."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:94
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:318
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:347
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:406
-#, kde-format
-msgid "Cannot open %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:120
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:243
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:429
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:496
-#, kde-format
-msgid "Cannot open %1 for writing : readonly filesystem"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:253
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Cannot expand file %1 : %2"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:395
-#, kde-format
-msgid "Error : Reading past the end of the file %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:400
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:446
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Failed to seek file %1 : %2"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:408
-#, fuzzy, kde-format
-#| msgid ""
-#| "Error while reading file:\n"
-#| "%1"
-msgid "Error reading from %1"
-msgstr ""
-"讀取檔案時發生錯誤：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:450
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not write to file:\n"
-#| "%1"
-msgid "Failed to write to file %1 : %2"
-msgstr ""
-"無法寫入檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:523
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:795
-#, kde-format
-msgid "Cannot preallocate diskspace : %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:209
-#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:324
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot open index file %1 : %2"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:72
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:107
-#, kde-format
-msgid "Failed to open %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:83
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:134
-#, kde-format
-msgid "Failed to create %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:89
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Cannot create file %1 : %2"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:137
-#, kde-format
-msgid "Failed to write first chunk to DND file : %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:155
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not write to file:\n"
-#| "%1"
-msgid "Failed to write last chunk to DND file : %1"
-msgstr ""
-"無法寫入檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:739
-#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:803
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot open file %1 : %2"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:58
-#, fuzzy
-#| msgctxt "OK as in 'finished'"
-#| msgid "OK"
-msgid "OK"
-msgstr "完成"
-
-#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:59
-msgid "Announcing"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/interfaces/trackerinterface.cpp:60
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:83
-#, fuzzy, kde-format
-#| msgid "To: %1"
-msgid "Error: %1"
-msgstr "到： %1"
-
-#: transfer-plugins/bittorrent/libbtcore/migrate/migrate.cpp:45
-#, fuzzy, kde-format
-#| msgid ""
-#| "The specified file does not exist:\n"
-#| "%1"
-msgid "The directory %1 does not exist"
-msgstr ""
-"指定的檔案不存在：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/httpannouncejob.cpp:119
-msgid "Redirect without a redirect location"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:299
-#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:309
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:559
-#, kde-format
-msgid "Timeout contacting tracker %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:331
-#, kde-format
-msgid "Unable to resolve hostname %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:282
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:302
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:342
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:461
-msgid "Invalid response from tracker"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:295
-msgid "Invalid data from tracker"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:478
-msgid "Invalid tracker URL"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/tracker/udptrackersocket.cpp:66
-#, kde-format
-msgid "Cannot bind to udp port %1 or the 10 following ports."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:203
-msgid "Unknown client"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:468
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
-"torrent is probably corrupt or is not a valid torrent file."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:497
-#, kde-format
-msgid ""
-"An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
-"is probably corrupt or is not a valid torrent file."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:507
-#, kde-format
-msgid "Unable to create %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:522
-#, kde-format
-msgid ""
-"You are already downloading this torrent %1, the list of trackers of both "
-"torrents has been merged."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:526
-#, kde-format
-msgid "You are already downloading the torrent %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:69
-#, fuzzy
-#| msgid "Not Deleted"
-msgid "Not started"
-msgstr "沒有刪除"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:73
-msgid "Seeding completed"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:75
-#, fuzzy
-#| msgid "Scheduling"
-msgctxt "Status of a torrent file"
-msgid "Seeding"
-msgstr "正在排程"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:77
-#, fuzzy
-msgid "Downloading"
-msgstr "下載已續傳"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:81
-#, fuzzy
-#| msgid "Stopped"
-msgid "Stopped"
-msgstr "已停止"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:85
-msgid "Allocating diskspace"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:87
-#, fuzzy
-#| msgid "Queueing"
-msgid "Queued for seeding"
-msgstr "正在佇列"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:87
-#, fuzzy
-#| msgid "Number of retries:"
-msgid "Queued for downloading"
-msgstr "重試的次數："
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:89
-msgid "Checking data"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentstats.cpp:91
-msgid "Stopped. No space left on device."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:259
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:297
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot open file %1: %2"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:359
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Cannot create index file: %1"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:83
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:154
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:182
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:189
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:197
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:201
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:222
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:293
-msgid "Corrupted torrent."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:145
-#, kde-format
-msgid " Unable to open torrent file %1 : %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:275
-msgid "Parse Error"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/datachecker/singledatachecker.cpp:49
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot open file : %1 : %2"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:37
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:49
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:92
-#, fuzzy
-#| msgid "Stay Connected"
-msgid "Not connected"
-msgstr "保持連線"
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:103
-#, kde-format
-msgid "Resolving proxy %1:%2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:112
-#, kde-format
-msgid "Resolving hostname %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:125
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:319
-#, fuzzy
-#| msgid "Connection Type"
-msgid "Connection closed"
-msgstr "連線類型"
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:132
-#, kde-format
-msgid "Error: request failed: %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:149
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:213
-#, fuzzy
-#| msgid "Stay Connected"
-msgid "Connected"
-msgstr "保持連線"
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:155
-msgid "Error: Failed to connect to webseed"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:220
-#, fuzzy
-#| msgid "Connection"
-msgid "Connecting"
-msgstr "連線數"
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:231
-msgid "Failed to connect to webseed"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:238
-msgid "Failed to resolve hostname of webseed"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:318
-msgid "Error: failed to connect, server not responding"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:327
-msgid "Error: request timed out"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:391
-msgid "Redirected without a new location."
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:391
-#, kde-format
-msgid "1 peer"
-msgid_plural "%1 peers"
-msgstr[0] ""
-
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:301
-#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:515
-#, fuzzy
-#| msgid "No Links"
-msgid "Not in use"
-msgstr "沒有連結"
-
-#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:83
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not write to file:\n"
-#| "%1"
-msgid "Cannot write to %1 : %2"
-msgstr ""
-"無法寫入檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:97
-#, fuzzy, kde-format
-#| msgid "Copy file from: %1"
-msgid "Cannot read from %1"
-msgstr "從 %1 複製檔案"
-
-#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:115
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot open log file %1 : %2"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:88
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Cannot create directory %1"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:129
-#, kde-format
-msgid "Cannot symlink %1 to %2: %3"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:146
-#, kde-format
-msgid "Cannot move %1 to %2: %3"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:162
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:178
-#, kde-format
-msgid "Cannot copy %1 to %2: %3"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:239
-#, kde-format
-msgid "Cannot delete %1: %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:256
-#, kde-format
-msgid "Cannot create %1: %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:274
-#, kde-format
-msgid "Cannot calculate the filesize of %1: %2"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:290
-#, kde-format
-msgid "Cannot calculate the filesize : %1"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:368
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:374
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:377
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:392
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:394
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not read file:\n"
-#| "%1"
-msgid "Cannot expand file: %1"
-msgstr ""
-"無法讀取檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:427
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open file:\n"
-#| "%1"
-msgid "Cannot seek in file : %1"
-msgstr ""
-"無法開啟檔案：\n"
-"%1"
-
-#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:274
-#, kde-format
-msgid "1 day "
-msgid_plural "%1 days "
-msgstr[0] ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:33
-msgid "General"
-msgstr ""
-
-#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:34
-#, fuzzy
-#| msgid "Connection"
-msgid "Connections"
-msgstr "連線數"
-
-#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:35
-#, fuzzy
-msgid "Tracker"
-msgstr "開啟傳輸(&T)"
-
-#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:37
-msgid "Disk Input/Output"
-msgstr ""
 
 #: ui/metalinkcreator/dragdlg.cpp:67
 #, fuzzy
@@ -5009,6 +4449,239 @@ msgstr ""
 #: rc.cpp:989
 msgid "List of whether the script is enabled"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file %1 : %2"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Failed to seek file %1 : %2"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Error while reading file:\n"
+#~| "%1"
+#~ msgid "Error reading from %1"
+#~ msgstr ""
+#~ "讀取檔案時發生錯誤：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not write to file:\n"
+#~| "%1"
+#~ msgid "Failed to write to file %1 : %2"
+#~ msgstr ""
+#~ "無法寫入檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot open index file %1 : %2"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot create file %1 : %2"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not write to file:\n"
+#~| "%1"
+#~ msgid "Failed to write last chunk to DND file : %1"
+#~ msgstr ""
+#~ "無法寫入檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot open file %1 : %2"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgctxt "OK as in 'finished'"
+#~| msgid "OK"
+#~ msgid "OK"
+#~ msgstr "完成"
+
+#, fuzzy
+#~| msgid "To: %1"
+#~ msgid "Error: %1"
+#~ msgstr "到： %1"
+
+#, fuzzy
+#~| msgid ""
+#~| "The specified file does not exist:\n"
+#~| "%1"
+#~ msgid "The directory %1 does not exist"
+#~ msgstr ""
+#~ "指定的檔案不存在：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Not Deleted"
+#~ msgid "Not started"
+#~ msgstr "沒有刪除"
+
+#, fuzzy
+#~| msgid "Scheduling"
+#~ msgctxt "Status of a torrent file"
+#~ msgid "Seeding"
+#~ msgstr "正在排程"
+
+#, fuzzy
+#~ msgid "Downloading"
+#~ msgstr "下載已續傳"
+
+#, fuzzy
+#~| msgid "Stopped"
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#, fuzzy
+#~| msgid "Queueing"
+#~ msgid "Queued for seeding"
+#~ msgstr "正在佇列"
+
+#, fuzzy
+#~| msgid "Number of retries:"
+#~ msgid "Queued for downloading"
+#~ msgstr "重試的次數："
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot create index file: %1"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Stay Connected"
+#~ msgid "Not connected"
+#~ msgstr "保持連線"
+
+#, fuzzy
+#~| msgid "Connection Type"
+#~ msgid "Connection closed"
+#~ msgstr "連線類型"
+
+#, fuzzy
+#~| msgid "Stay Connected"
+#~ msgid "Connected"
+#~ msgstr "保持連線"
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgid "Connecting"
+#~ msgstr "連線數"
+
+#, fuzzy
+#~| msgid "No Links"
+#~ msgid "Not in use"
+#~ msgstr "沒有連結"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not write to file:\n"
+#~| "%1"
+#~ msgid "Cannot write to %1 : %2"
+#~ msgstr ""
+#~ "無法寫入檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Copy file from: %1"
+#~ msgid "Cannot read from %1"
+#~ msgstr "從 %1 複製檔案"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot open log file %1 : %2"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot create directory %1"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file: %1"
+#~ msgstr ""
+#~ "無法讀取檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open file:\n"
+#~| "%1"
+#~ msgid "Cannot seek in file : %1"
+#~ msgstr ""
+#~ "無法開啟檔案：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgid "Connections"
+#~ msgstr "連線數"
+
+#, fuzzy
+#~ msgid "Tracker"
+#~ msgstr "開啟傳輸(&T)"
 
 #, fuzzy
 #~| msgid "Not Deleted"
