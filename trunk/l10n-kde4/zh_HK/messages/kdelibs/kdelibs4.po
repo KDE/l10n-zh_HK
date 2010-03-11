@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-10 04:47+0100\n"
+"POT-Creation-Date: 2010-03-11 04:15+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -633,7 +633,7 @@ msgstr "每日小祕訣"
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: rc.cpp:270 rc.cpp:423 knewstuff/knewstuff3/uploaddialog.cpp:148
+#: rc.cpp:270 rc.cpp:423 knewstuff/knewstuff3/uploaddialog.cpp:185
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:58
 msgid "Share Hot New Stuff"
 msgstr "分享熱門禮物"
@@ -3058,54 +3058,54 @@ msgstr "可內嵌的 HTML 元件"
 msgid "Select Components"
 msgstr "選擇元件"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:70
+#: knewstuff/knewstuff3/uploaddialog.cpp:158
 #, fuzzy
 #| msgid "Save Login Information"
-msgid "Could not save login information."
+msgid "Could not verify login, please try again."
 msgstr "儲存登入資訊"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:70
-#: knewstuff/knewstuff3/uploaddialog.cpp:305
+#: knewstuff/knewstuff3/uploaddialog.cpp:158
+#: knewstuff/knewstuff3/uploaddialog.cpp:328
 #: khtml/rendering/render_form.cpp:811 kjs/object.cpp:585
 #: kdeui/dialogs/kmessagebox.cpp:830 kdeui/dialogs/kmessagebox.cpp:860
 msgid "Error"
 msgstr "錯誤"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:153
+#: knewstuff/knewstuff3/uploaddialog.cpp:190
 #: kdeui/dialogs/kassistantdialog.cpp:94
 #, fuzzy
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "Next"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:155
+#: knewstuff/knewstuff3/uploaddialog.cpp:192
 #: kdeui/dialogs/kassistantdialog.cpp:95
 #, fuzzy
 msgid "Finish"
 msgstr "完成(&F)"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:175
+#: knewstuff/knewstuff3/uploaddialog.cpp:213
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:242
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:265
+#: knewstuff/knewstuff3/uploaddialog.cpp:451
 #, fuzzy, kde-format
 msgid "File not found: %1"
 msgstr "沒有找到 %1 風格\n"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:242
-#: knewstuff/knewstuff3/uploaddialog.cpp:349
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:265
+#: knewstuff/knewstuff3/uploaddialog.cpp:376
+#: knewstuff/knewstuff3/uploaddialog.cpp:451
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Upload Failed"
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:302
+#: knewstuff/knewstuff3/uploaddialog.cpp:325
 #, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
@@ -3115,52 +3115,58 @@ msgid_plural ""
 "to upload: %2"
 msgstr[0] ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:349
+#: knewstuff/knewstuff3/uploaddialog.cpp:376
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:353
+#: knewstuff/knewstuff3/uploaddialog.cpp:380
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:392
+#: knewstuff/knewstuff3/uploaddialog.cpp:419
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:392
-#: knewstuff/knewstuff3/uploaddialog.cpp:397
+#: knewstuff/knewstuff3/uploaddialog.cpp:419
+#: knewstuff/knewstuff3/uploaddialog.cpp:424
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Uploading Failed"
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:397
+#: knewstuff/knewstuff3/uploaddialog.cpp:424
 #, fuzzy
 #| msgid "Authentication"
 msgid "Authentication error."
 msgstr "驗證"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:402
+#: knewstuff/knewstuff3/uploaddialog.cpp:429
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview and content..."
 msgstr "預覽列印(&W)..."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:411
+#: knewstuff/knewstuff3/uploaddialog.cpp:438
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:415
+#: knewstuff/knewstuff3/uploaddialog.cpp:442
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview image and content..."
 msgstr "預覽列印(&W)..."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:449
+#: knewstuff/knewstuff3/uploaddialog.cpp:476
 #, fuzzy
 #| msgid "Successfully uploaded new stuff."
-msgid "Content successfully uploaded."
+msgid "Content file successfully uploaded."
+msgstr "成功上傳熱門禮物。"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:484
+#, fuzzy
+#| msgid "Successfully uploaded new stuff."
+msgid "Preview image successfully uploaded."
 msgstr "成功上傳熱門禮物。"
 
 #: knewstuff/knewstuff3/downloaddialog_p.cpp:68
