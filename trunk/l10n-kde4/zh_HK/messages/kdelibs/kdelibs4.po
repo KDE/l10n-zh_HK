@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-12 04:24+0100\n"
+"POT-Creation-Date: 2010-03-13 04:21+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbQuit)
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:183
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:5 rc.cpp:35 rc.cpp:53 rc.cpp:826
+#: rc.cpp:5 rc.cpp:35 rc.cpp:53 rc.cpp:820
 msgid "Quit"
 msgstr "離開"
 
@@ -126,7 +126,7 @@ msgstr "開始(&S)"
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:227
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:32 rc.cpp:850 kross/ui/view.cpp:308
+#: rc.cpp:32 rc.cpp:844 kross/ui/view.cpp:308
 #: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kstandardguiitem.cpp:281
 #: kdeui/util/kkeyserver_x11.cpp:103
 msgid "Stop"
@@ -633,7 +633,7 @@ msgstr "每日小祕訣"
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: rc.cpp:270 rc.cpp:423 knewstuff/knewstuff3/uploaddialog.cpp:185
+#: rc.cpp:270 rc.cpp:417 knewstuff/knewstuff3/uploaddialog.cpp:256
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:58
 msgid "Share Hot New Stuff"
 msgstr "分享熱門禮物"
@@ -644,7 +644,7 @@ msgstr "分享熱門禮物"
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:106
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: rc.cpp:273 rc.cpp:856 rc.cpp:976
+#: rc.cpp:273 rc.cpp:850 rc.cpp:970
 msgid "Password:"
 msgstr "密碼："
 
@@ -652,7 +652,7 @@ msgstr "密碼："
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, userNameLabel)
-#: rc.cpp:276 rc.cpp:967
+#: rc.cpp:276 rc.cpp:961
 #, fuzzy
 msgid "Username:"
 msgstr "使用者："
@@ -661,7 +661,7 @@ msgstr "使用者："
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
-#: rc.cpp:279 rc.cpp:363
+#: rc.cpp:279 rc.cpp:357
 #, fuzzy
 #| msgid "Hide %1"
 msgid "Provider:"
@@ -676,7 +676,7 @@ msgid "File to upload:"
 msgstr "檔案已重新載入。"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:118
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#. i18n: ectx: property (text), widget (QRadioButton, radioNewUpload)
 #: rc.cpp:285
 #, fuzzy
 #| msgid "&Upload"
@@ -684,191 +684,179 @@ msgid "New Upload"
 msgstr "上傳(&U)"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:131
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:258
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
-#: rc.cpp:288 rc.cpp:417 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:218
+#: rc.cpp:288 rc.cpp:411 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:218
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
 msgid "Update"
 msgstr "更新"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:142
-#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
-#: rc.cpp:291
-msgid "My last upload"
-msgstr ""
-
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:147
-#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
-#: rc.cpp:294
-msgid "zoopahcoolstuff"
-msgstr ""
-
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:166
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:156
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:86
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: rc.cpp:297 rc.cpp:441
+#: rc.cpp:291 rc.cpp:435
 msgid "GPL"
 msgstr "GPL"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:171
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:161
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:91
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: rc.cpp:300 rc.cpp:444
+#: rc.cpp:294 rc.cpp:438
 msgid "LGPL"
 msgstr "LGPL"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:176
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:166
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:96
 #. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
-#: rc.cpp:303 rc.cpp:447
+#: rc.cpp:297 rc.cpp:441
 msgid "BSD"
 msgstr "BSD"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:184
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:174
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:306 khtml/khtml_part.cpp:1899
+#: rc.cpp:300 khtml/khtml_part.cpp:1899
 msgid "Description:"
 msgstr "描述："
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:200
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:190
 #. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
-#: rc.cpp:309
+#: rc.cpp:303
 #, fuzzy
 #| msgid "Change"
 msgid "Changelog:"
 msgstr "變更"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:210
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:200
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:312 rc.cpp:435 kdeui/dialogs/kbugreport.cpp:196
+#: rc.cpp:306 rc.cpp:429 kdeui/dialogs/kbugreport.cpp:196
 msgid "Version:"
 msgstr "版本："
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:223
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:213
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:72
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:315 rc.cpp:438
+#: rc.cpp:309 rc.cpp:432
 msgid "License:"
 msgstr "許可證："
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:236
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:226
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:318
+#: rc.cpp:312
 msgid "Please fill out the information about your upload in English."
 msgstr ""
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:252
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:242
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: khtml/htmlpageinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:321 rc.cpp:507
+#: rc.cpp:315 rc.cpp:501
 msgid "Title:"
 msgstr "標題："
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:274
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:264
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:63
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: rc.cpp:324 rc.cpp:366
+#: rc.cpp:318 rc.cpp:360
 #, fuzzy
 #| msgid "Categories"
 msgid "Category:"
 msgstr "分類"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:287
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:277
 #. i18n: ectx: property (toolTip), widget (KLineEdit, mNameEdit)
-#: rc.cpp:327
+#: rc.cpp:321
 msgid "Name of the file as it will appear on the website"
 msgstr ""
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:290
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:280
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mNameEdit)
-#: rc.cpp:330
+#: rc.cpp:324
 msgid ""
 "This should clearly describe the file content. It can be the same text as "
 "the title of the kvtml file."
 msgstr ""
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:304
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:294
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:333
+#: rc.cpp:327
 #, fuzzy
 #| msgid "Preview URL:"
 msgid "Preview"
 msgstr "預覽 URL："
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:313
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:303
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:336
+#: rc.cpp:330
 #, fuzzy
 #| msgid "Preview image: %1\n"
 msgid "Preview Image:"
 msgstr "預覽影像：%1\n"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:354
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:344
 #. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
-#: rc.cpp:339
+#: rc.cpp:333
 #, fuzzy
 #| msgid "Ne&ver for This Site"
 msgid "Set a price for this item"
 msgstr "永不對這個網站(&V)"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:364
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:354
 #. i18n: ectx: property (title), widget (QGroupBox, priceGroupBox)
-#: rc.cpp:342
+#: rc.cpp:336
 #, fuzzy
 msgid "Price"
 msgstr "資源"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:373
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:363
 #. i18n: ectx: property (text), widget (QLabel, priceLabel)
-#: rc.cpp:345
+#: rc.cpp:339
 #, fuzzy
 msgid "Price:"
 msgstr "資源"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:393
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:383
 #. i18n: ectx: property (text), widget (QLabel, priceCurrency)
-#: rc.cpp:348
+#: rc.cpp:342
 #, fuzzy
 #| msgid "BSD"
 msgid "USD"
 msgstr "BSD"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:400
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:390
 #. i18n: ectx: property (text), widget (QLabel, priceReasonLabel)
-#: rc.cpp:351
+#: rc.cpp:345
 msgid "Reason for price:"
 msgstr ""
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:416
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:406
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:354
+#: rc.cpp:348
 msgid ""
 "I ensure that this content does not violate any existing copyright, law or "
 "trademark. I agree that my IP address is logged. Distributing content where "
 "you don't have the permission from the copyright holder is illegal!"
 msgstr ""
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:426
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:416
 #. i18n: ectx: property (text), widget (QCheckBox, copyrightCheckBox)
-#: rc.cpp:357
+#: rc.cpp:351
 #, fuzzy
 #| msgid "Ignore"
 msgid "I agree"
 msgstr "略過"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:483
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:473
 #. i18n: ectx: property (text), widget (QPushButton, uploadButton)
-#: rc.cpp:360
+#: rc.cpp:354
 #, fuzzy
 #| msgid "Start replace"
 msgid "Start Upload"
@@ -876,7 +864,7 @@ msgstr "開始取代"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:82
 #. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
-#: rc.cpp:369
+#: rc.cpp:363
 #, fuzzy
 #| msgid "New List"
 msgid "Newest"
@@ -884,7 +872,7 @@ msgstr "新清單"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:92
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: rc.cpp:372
+#: rc.cpp:366
 #, fuzzy
 #| msgid "Rating"
 msgid "Rating"
@@ -892,13 +880,13 @@ msgstr "評分"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:99
 #. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
-#: rc.cpp:375 knewstuff/knewstuff2/core/providerhandler.cpp:166
+#: rc.cpp:369 knewstuff/knewstuff2/core/providerhandler.cpp:166
 msgid "Most Downloads"
 msgstr "最多下載次數"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:106
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: rc.cpp:378
+#: rc.cpp:372
 #, fuzzy
 #| msgid "Install"
 msgid "Installed"
@@ -906,13 +894,13 @@ msgstr "安裝"
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:164
 #. i18n: ectx: property (text), widget (QLabel, orderLabel)
-#: rc.cpp:381
+#: rc.cpp:375
 msgid "Order by:"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/downloaddialog.ui:174
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:384
+#: rc.cpp:378
 #, fuzzy
 #| msgid "S&earch:"
 msgid "Search:"
@@ -922,13 +910,13 @@ msgstr "搜尋(&S)："
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_searchEdit)
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:93
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, m_searchEdit)
-#: rc.cpp:387 rc.cpp:477
+#: rc.cpp:381 rc.cpp:471
 msgid "Enter search phrase here"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:61
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:390 knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
+#: rc.cpp:384 knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
 #: kdeui/dialogs/kshortcutseditor.cpp:667
 #, fuzzy
 #| msgid "Description:"
@@ -939,19 +927,19 @@ msgstr "描述："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:393 rc.cpp:426
+#: rc.cpp:387 rc.cpp:420
 msgid "Author:"
 msgstr "作者："
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:90
 #. i18n: ectx: property (text), widget (QLabel, homepageLabel)
-#: rc.cpp:396
+#: rc.cpp:390
 msgid "<a href=\"http://opendesktop.org\">Visit Homepage</a>"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:122
 #. i18n: ectx: property (title), widget (QGroupBox, previewSmallGroup)
-#: rc.cpp:399
+#: rc.cpp:393
 #, fuzzy
 #| msgid "Preview URL:"
 msgid "Previews"
@@ -959,7 +947,7 @@ msgstr "預覽 URL："
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:181
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:402
+#: rc.cpp:396
 #, fuzzy
 #| msgid "Comment"
 msgid "Community"
@@ -967,19 +955,19 @@ msgstr "備註"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:202
 #. i18n: ectx: property (text), widget (QPushButton, voteGoodButton)
-#: rc.cpp:405
+#: rc.cpp:399
 msgid "I like this"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:209
 #. i18n: ectx: property (text), widget (QPushButton, voteBadButton)
-#: rc.cpp:408
+#: rc.cpp:402
 msgid "I do not like this"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, becomeFanButton)
-#: rc.cpp:411
+#: rc.cpp:405
 #, fuzzy
 #| msgid "Home Fax"
 msgid "Become a Fan"
@@ -987,7 +975,7 @@ msgstr "家用傳真"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:248
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: rc.cpp:414 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:238
+#: rc.cpp:408 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:238
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:65
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:144
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:149
@@ -1001,7 +989,7 @@ msgstr "安裝"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:268
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
-#: rc.cpp:420 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:213
+#: rc.cpp:414 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:213
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
@@ -1014,7 +1002,7 @@ msgstr "安裝"
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:429
+#: rc.cpp:423
 #, fuzzy
 #| msgid "Email Address"
 msgid "Email address:"
@@ -1022,56 +1010,56 @@ msgstr "電子郵件地址"
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:432 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1184
+#: rc.cpp:426 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1184
 msgid "Name:"
 msgstr "名稱："
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:104
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:450
+#: rc.cpp:444
 msgid "Preview URL:"
 msgstr "預覽 URL："
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:117
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:453
+#: rc.cpp:447
 msgid "Language:"
 msgstr "語言："
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:133
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:456
+#: rc.cpp:450
 msgid "In which language did you describe the above?"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:140
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:459
+#: rc.cpp:453
 msgid "Please describe your upload."
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:147
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:462
+#: rc.cpp:456
 msgid "Summary:"
 msgstr "摘要："
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:157
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:465
+#: rc.cpp:459
 msgid "Please give some information about yourself."
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:468
+#: rc.cpp:462
 #, fuzzy
 msgid "&Source:"
 msgstr "資源"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:40
 #. i18n: ectx: property (text), widget (QLabel, m_providerLinkLabel)
-#: rc.cpp:471
+#: rc.cpp:465
 #, fuzzy
 #| msgid "??"
 msgid "?"
@@ -1079,13 +1067,13 @@ msgstr "??"
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:64
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:474
+#: rc.cpp:468
 msgid "&Order by:"
 msgstr ""
 
 #. i18n: file: knewstuff/knewstuff2/ui/DownloadDialog.ui:142
 #. i18n: ectx: property (text), widget (QToolButton, m_collaborationButton)
-#: rc.cpp:480
+#: rc.cpp:474
 #, fuzzy
 msgid "Collaborate"
 msgstr "冒號"
@@ -1096,19 +1084,19 @@ msgstr "冒號"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:61
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:483 rc.cpp:594 rc.cpp:988
+#: rc.cpp:477 rc.cpp:588 rc.cpp:982
 msgid "&Edit"
 msgstr "編輯(&E)"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:486
+#: rc.cpp:480
 msgid "JavaScript Errors"
 msgstr "JavaScript 錯誤"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:17
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:489
+#: rc.cpp:483
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1124,27 +1112,27 @@ msgstr ""
 
 #. i18n: file: khtml/kjserrordlgbase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, _close)
-#: rc.cpp:492 kdeui/util/kstandardguiitem.cpp:184
+#: rc.cpp:486 kdeui/util/kstandardguiitem.cpp:184
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "關閉(&C)"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: rc.cpp:495 kdeui/util/kstandardguiitem.cpp:171
+#: rc.cpp:489 kdeui/util/kstandardguiitem.cpp:171
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "清除(&L)"
 
 #. i18n: file: khtml/htmlpageinfo.ui:21
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: rc.cpp:498
+#: rc.cpp:492
 msgid "Document Information"
 msgstr "文件資訊"
 
 #. i18n: file: khtml/htmlpageinfo.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:501
+#: rc.cpp:495
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:group Document information"
@@ -1153,31 +1141,31 @@ msgstr "一般"
 
 #. i18n: file: khtml/htmlpageinfo.ui:92
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: rc.cpp:504
+#: rc.cpp:498
 msgid "URL:"
 msgstr "URL："
 
 #. i18n: file: khtml/htmlpageinfo.ui:160
 #. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: rc.cpp:510
+#: rc.cpp:504
 msgid "Last modified:"
 msgstr "修改日期："
 
 #. i18n: file: khtml/htmlpageinfo.ui:176
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: rc.cpp:513
+#: rc.cpp:507
 msgid "Document encoding:"
 msgstr "文件編碼："
 
 #. i18n: file: khtml/htmlpageinfo.ui:204
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:516
+#: rc.cpp:510
 msgid "HTTP Headers"
 msgstr "HTTP 標頭"
 
 #. i18n: file: khtml/htmlpageinfo.ui:241
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: rc.cpp:519
+#: rc.cpp:513
 msgid "Property"
 msgstr "內容"
 
@@ -1185,14 +1173,14 @@ msgstr "內容"
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#: rc.cpp:522 rc.cpp:889 khtml/ecma/debugger/localvariabledock.cpp:52
+#: rc.cpp:516 rc.cpp:883 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:139
 msgid "Value"
 msgstr "值"
 
 #. i18n: file: khtml/test_regression_gui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: rc.cpp:525
+#: rc.cpp:519
 msgid "KHTML Regression Testing Utility"
 msgstr ""
 
@@ -1200,13 +1188,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #. i18n: file: kjsembed/examples/calc/calc.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, zero)
-#: rc.cpp:528 rc.cpp:766
+#: rc.cpp:522 rc.cpp:760
 msgid "0"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:56
 #. i18n: ectx: attribute (title), widget (QWidget, firstTab)
-#: rc.cpp:531
+#: rc.cpp:525
 msgid "Regression testing output"
 msgstr ""
 
@@ -1214,13 +1202,13 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseContinueButton)
 #. i18n: file: khtml/test_regression_gui.ui:114
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:534 rc.cpp:537
+#: rc.cpp:528 rc.cpp:531
 msgid "Pause/Continue regression testing process"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:120
 #. i18n: ectx: property (text), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:540 khtml/test_regression_gui_window.cpp:571
+#: rc.cpp:534 khtml/test_regression_gui_window.cpp:571
 #: khtml/rendering/media_controls.cpp:50
 #, fuzzy
 msgid "Pause"
@@ -1230,7 +1218,7 @@ msgstr "Pause"
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveLogButton)
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
-#: rc.cpp:543 rc.cpp:546
+#: rc.cpp:537 rc.cpp:540
 msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing is started."
@@ -1238,90 +1226,90 @@ msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
-#: rc.cpp:549
+#: rc.cpp:543
 #, fuzzy
 msgid "Output to File..."
 msgstr "輸出檔案"
 
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:552
+#: rc.cpp:546
 msgid "Regression Testing Status"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:182
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
-#: rc.cpp:555
+#: rc.cpp:549
 msgid "View HTML Output"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:203
 #. i18n: ectx: property (title), widget (QMenu, menuSettings)
-#: rc.cpp:558
+#: rc.cpp:552
 #, fuzzy
 msgid "Settings"
 msgstr "設定(&S)"
 
 #. i18n: file: khtml/test_regression_gui.ui:212
 #. i18n: ectx: property (title), widget (QMenu, menuMain)
-#: rc.cpp:561
+#: rc.cpp:555
 #, fuzzy
 msgid "Tests"
 msgstr "Test"
 
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:564
+#: rc.cpp:558
 msgid "Only Run JS Tests"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:567
+#: rc.cpp:561
 msgid "Only Run HTML Tests"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:570
+#: rc.cpp:564
 msgid "Do Not Suppress Debug Output"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:262
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:573 khtml/test_regression.cpp:630
+#: rc.cpp:567 khtml/test_regression.cpp:630
 msgid "Do not use Xvfb"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:576
+#: rc.cpp:570
 #, fuzzy
 msgid "Run Tests..."
 msgstr "重新命名清單..."
 
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:579
+#: rc.cpp:573
 #, fuzzy
 msgid "Run Single Test..."
 msgstr "重新命名清單..."
 
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:582
+#: rc.cpp:576
 msgid "Specify tests Directory..."
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:585
+#: rc.cpp:579
 msgid "Specify khtml Directory..."
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:588
+#: rc.cpp:582
 msgid "Specify Output Directory..."
 msgstr ""
 
@@ -1329,7 +1317,7 @@ msgstr ""
 #. i18n: ectx: Menu (file)
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:591 rc.cpp:982
+#: rc.cpp:585 rc.cpp:976
 msgid "&File"
 msgstr "檔案(&F)"
 
@@ -1337,13 +1325,13 @@ msgstr "檔案(&F)"
 #. i18n: ectx: Menu (view)
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:101
 #. i18n: ectx: Menu (view)
-#: rc.cpp:597 rc.cpp:994
+#: rc.cpp:591 rc.cpp:988
 msgid "&View"
 msgstr "檢視(&V)"
 
 #. i18n: file: khtml/khtml_browser.rc:35
 #. i18n: ectx: ToolBar (htmlToolBar)
-#: rc.cpp:600
+#: rc.cpp:594
 #, fuzzy
 #| msgid "Main Toolbar"
 msgid "HTML Toolbar"
@@ -1351,7 +1339,7 @@ msgstr "主工具列"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:603
+#: rc.cpp:597
 #, fuzzy
 #| msgid "Find:"
 msgid "F&ind:"
@@ -1359,19 +1347,19 @@ msgstr "尋找："
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
-#: rc.cpp:606
+#: rc.cpp:600
 msgid "&Next"
 msgstr "下一頁(&N)"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
-#: rc.cpp:609 kdeui/dialogs/ktip.cpp:305
+#: rc.cpp:603 kdeui/dialogs/ktip.cpp:305
 msgid "&Previous"
 msgstr "上一頁(&P)"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
-#: rc.cpp:612
+#: rc.cpp:606
 #, fuzzy
 #| msgid "Options"
 msgid "Opt&ions"
@@ -1379,7 +1367,7 @@ msgstr "選項"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:39
 #. i18n: ectx: property (text), widget (QLabel, m_label)
-#: rc.cpp:615 khtml/ui/passwordbar/storepassbar.cpp:59
+#: rc.cpp:609 khtml/ui/passwordbar/storepassbar.cpp:59
 #, fuzzy
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you want to store this password?"
@@ -1387,7 +1375,7 @@ msgstr "你真的要執行‘%1’？"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:62
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
-#: rc.cpp:618
+#: rc.cpp:612
 #, fuzzy
 #| msgid "Store"
 msgid "&Store"
@@ -1395,7 +1383,7 @@ msgstr "儲存"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:72
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
-#: rc.cpp:621
+#: rc.cpp:615
 #, fuzzy
 #| msgid "Ne&ver for This Site"
 msgid "Ne&ver store for this site"
@@ -1403,7 +1391,7 @@ msgstr "永不對這個網站(&V)"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:82
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
-#: rc.cpp:624
+#: rc.cpp:618
 #, fuzzy
 #| msgid "Do not show this message again"
 msgid "Do &not store this time"
@@ -1417,7 +1405,7 @@ msgstr "不要再顯示這個訊息"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:49
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
-#: rc.cpp:627 rc.cpp:639 rc.cpp:1033 rc.cpp:1045
+#: rc.cpp:621 rc.cpp:633 rc.cpp:1027 rc.cpp:1039
 #, fuzzy
 #| msgid ""
 #| "<qt><p>This word was considered to be an \"unknown word\" because it does "
@@ -1459,7 +1447,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:36
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:633 rc.cpp:1039
+#: rc.cpp:627 rc.cpp:1033
 msgid "Unknown word:"
 msgstr "未知的文字："
 
@@ -1467,7 +1455,7 @@ msgstr "未知的文字："
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:43
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
-#: rc.cpp:636 rc.cpp:1042
+#: rc.cpp:630 rc.cpp:1036
 msgid "Unknown word"
 msgstr "未知的詞語"
 
@@ -1475,7 +1463,7 @@ msgstr "未知的詞語"
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:52
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
-#: rc.cpp:645 rc.cpp:1051
+#: rc.cpp:639 rc.cpp:1045
 msgid "<b>misspelled</b>"
 msgstr "<b>拼字錯誤</b>"
 
@@ -1487,7 +1475,7 @@ msgstr "<b>拼字錯誤</b>"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:176
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_language)
-#: rc.cpp:648 rc.cpp:743 rc.cpp:1054 rc.cpp:1112
+#: rc.cpp:642 rc.cpp:737 rc.cpp:1048 rc.cpp:1106
 msgid ""
 "<qt>\n"
 "<p>Select the language of the document you are proofing here.</p>\n"
@@ -1501,7 +1489,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:653 rc.cpp:1059
+#: rc.cpp:647 rc.cpp:1053
 msgid "&Language:"
 msgstr "語言(&L)："
 
@@ -1509,7 +1497,7 @@ msgstr "語言(&L)："
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:74
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
-#: rc.cpp:656 rc.cpp:1062
+#: rc.cpp:650 rc.cpp:1056
 msgid "Text excerpt showing the unknown word in its context."
 msgstr "內文中拼錯的詞語附近的文字"
 
@@ -1517,7 +1505,7 @@ msgstr "內文中拼錯的詞語附近的文字"
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:79
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
-#: rc.cpp:659 rc.cpp:1065
+#: rc.cpp:653 rc.cpp:1059
 msgid ""
 "<qt>\n"
 "<p>Here you can see a text excerpt showing the unknown word in its context. "
@@ -1536,7 +1524,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
-#: rc.cpp:664 rc.cpp:1070
+#: rc.cpp:658 rc.cpp:1064
 msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr "... 內文中有<b>拼字錯誤</b>的詞語 ..."
 
@@ -1544,7 +1532,7 @@ msgstr "... 內文中有<b>拼字錯誤</b>的詞語 ..."
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:98
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
-#: rc.cpp:667 rc.cpp:1073
+#: rc.cpp:661 rc.cpp:1067
 #, fuzzy
 #| msgid ""
 #| "<qt>\n"
@@ -1575,7 +1563,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:101
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
-#: rc.cpp:673 rc.cpp:1079
+#: rc.cpp:667 rc.cpp:1073
 msgid "<< Add to Dictionary"
 msgstr "<< 加到字典中"
 
@@ -1583,7 +1571,7 @@ msgstr "<< 加到字典中"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:212
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:676 rc.cpp:1128
+#: rc.cpp:670 rc.cpp:1122
 msgid ""
 "<qt>\n"
 "<p>Click here to replace all occurrences of the unknown text with the text "
@@ -1598,7 +1586,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:215
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:681 rc.cpp:1133
+#: rc.cpp:675 rc.cpp:1127
 msgid "R&eplace All"
 msgstr "全部取代(&E)"
 
@@ -1606,7 +1594,7 @@ msgstr "全部取代(&E)"
 #. i18n: ectx: property (toolTip), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:124
 #. i18n: ectx: property (toolTip), widget (QListView, m_suggestions)
-#: rc.cpp:684 rc.cpp:1082
+#: rc.cpp:678 rc.cpp:1076
 msgid "Suggestion List"
 msgstr "建議清單"
 
@@ -1614,7 +1602,7 @@ msgstr "建議清單"
 #. i18n: ectx: property (whatsThis), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:130
 #. i18n: ectx: property (whatsThis), widget (QListView, m_suggestions)
-#: rc.cpp:687 rc.cpp:1085
+#: rc.cpp:681 rc.cpp:1079
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should check if the correction for "
@@ -1636,7 +1624,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (Q3ListView, m_suggestions)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:137
 #. i18n: ectx: property (text), widget (QListView, m_suggestions)
-#: rc.cpp:693 rc.cpp:1091
+#: rc.cpp:687 rc.cpp:1085
 msgid "Suggested Words"
 msgstr "建議詞語"
 
@@ -1644,7 +1632,7 @@ msgstr "建議詞語"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:200
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:696 rc.cpp:1120
+#: rc.cpp:690 rc.cpp:1114
 msgid ""
 "<qt>\n"
 "<p>Click here to replace this occurrence of the unknown text with the text "
@@ -1659,7 +1647,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:203
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:701 rc.cpp:1125 kdeui/findreplace/kfinddialog.cpp:198
+#: rc.cpp:695 rc.cpp:1119 kdeui/findreplace/kfinddialog.cpp:198
 msgid "&Replace"
 msgstr "取代(&R)"
 
@@ -1671,7 +1659,7 @@ msgstr "取代(&R)"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:164
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_replacement)
-#: rc.cpp:704 rc.cpp:731 rc.cpp:1094 rc.cpp:1103
+#: rc.cpp:698 rc.cpp:725 rc.cpp:1088 rc.cpp:1097
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should type the correction for "
@@ -1692,7 +1680,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:151
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:710 rc.cpp:1100
+#: rc.cpp:704 rc.cpp:1094
 msgid "Replace &with:"
 msgstr "取代為(&W)："
 
@@ -1700,7 +1688,7 @@ msgstr "取代為(&W)："
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:225
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
-#: rc.cpp:713 rc.cpp:1136
+#: rc.cpp:707 rc.cpp:1130
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
@@ -1719,7 +1707,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:228
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: rc.cpp:719 rc.cpp:1142
+#: rc.cpp:713 rc.cpp:1136
 msgid "&Ignore"
 msgstr "略過(&I)"
 
@@ -1729,7 +1717,7 @@ msgstr "略過(&I)"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:251
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_autoCorrect)
-#: rc.cpp:722 rc.cpp:1145 rc.cpp:1154
+#: rc.cpp:716 rc.cpp:1139 rc.cpp:1148
 msgid ""
 "<qt>\n"
 "<p>Click here to let all occurrences of the unknown word remain as they are."
@@ -1749,7 +1737,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:241
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
-#: rc.cpp:728 rc.cpp:1151
+#: rc.cpp:722 rc.cpp:1145
 msgid "I&gnore All"
 msgstr "全部略過(&G)"
 
@@ -1757,7 +1745,7 @@ msgstr "全部略過(&G)"
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
-#: rc.cpp:737 rc.cpp:1117
+#: rc.cpp:731 rc.cpp:1111
 msgid "S&uggest"
 msgstr "建議(&U)"
 
@@ -1765,19 +1753,19 @@ msgstr "建議(&U)"
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
 #. i18n: file: kdeui/sonnet/sonnetui.ui:171
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
-#: rc.cpp:740 rc.cpp:1109
+#: rc.cpp:734 rc.cpp:1103
 msgid "Language Selection"
 msgstr "語言選擇"
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, calc)
-#: rc.cpp:748
+#: rc.cpp:742
 msgid "JS Calculator"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, plus)
-#: rc.cpp:751
+#: rc.cpp:745
 #, fuzzy
 #| msgid "+"
 msgctxt "addition"
@@ -1786,27 +1774,27 @@ msgstr "+"
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:47
 #. i18n: ectx: property (text), widget (QPushButton, all_clear)
-#: rc.cpp:754
+#: rc.cpp:748
 msgid "AC"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:54
 #. i18n: ectx: property (text), widget (QPushButton, minus)
-#: rc.cpp:757
+#: rc.cpp:751
 msgctxt "subtraction"
 msgid "-"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:61
 #. i18n: ectx: property (text), widget (QPushButton, equals)
-#: rc.cpp:760
+#: rc.cpp:754
 msgctxt "evaluation"
 msgid "="
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:68
 #. i18n: ectx: property (text), widget (QPushButton, clear)
-#: rc.cpp:763
+#: rc.cpp:757
 msgid "CL"
 msgstr ""
 
@@ -1814,7 +1802,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, four)
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:56
 #. i18n: ectx: property (text), widget (QRadioButton, fourUpRadioButton)
-#: rc.cpp:769 rc.cpp:910
+#: rc.cpp:763 rc.cpp:904
 msgid "4"
 msgstr ""
 
@@ -1822,25 +1810,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, two)
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:42
 #. i18n: ectx: property (text), widget (QRadioButton, twoUpRadioButton)
-#: rc.cpp:772 rc.cpp:904
+#: rc.cpp:766 rc.cpp:898
 msgid "2"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, five)
-#: rc.cpp:775
+#: rc.cpp:769
 msgid "5"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:103
 #. i18n: ectx: property (text), widget (QPushButton, three)
-#: rc.cpp:778
+#: rc.cpp:772
 msgid "3"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:110
 #. i18n: ectx: property (text), widget (QPushButton, seven)
-#: rc.cpp:781
+#: rc.cpp:775
 msgid "7"
 msgstr ""
 
@@ -1848,13 +1836,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, six)
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:35
 #. i18n: ectx: property (text), widget (QRadioButton, sixUpRadioButton)
-#: rc.cpp:784 rc.cpp:901
+#: rc.cpp:778 rc.cpp:895
 msgid "6"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:124
 #. i18n: ectx: property (text), widget (QPushButton, eight)
-#: rc.cpp:787
+#: rc.cpp:781
 msgid "8"
 msgstr ""
 
@@ -1862,7 +1850,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, nine)
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:49
 #. i18n: ectx: property (text), widget (QRadioButton, nineUpRadioButton)
-#: rc.cpp:790 rc.cpp:907
+#: rc.cpp:784 rc.cpp:901
 msgid "9"
 msgstr ""
 
@@ -1870,7 +1858,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, one)
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:25
 #. i18n: ectx: property (text), widget (QRadioButton, oneUpRadioButton)
-#: rc.cpp:793 rc.cpp:898
+#: rc.cpp:787 rc.cpp:892
 msgid "1"
 msgstr ""
 
@@ -1878,131 +1866,131 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, jsConsole)
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, KJSConsole)
-#: rc.cpp:796 rc.cpp:802
+#: rc.cpp:790 rc.cpp:796
 #, fuzzy
 msgid "MainWindow"
 msgstr "視窗"
 
 #. i18n: file: kjsembed/examples/docviewer/docviewer.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:799
+#: rc.cpp:793
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:805 kparts/browserrun.cpp:329
+#: rc.cpp:799 kparts/browserrun.cpp:329
 msgid "Execute"
 msgstr "執行"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:125
 #. i18n: ectx: property (title), widget (QMenu, menuFile)
-#: rc.cpp:808
+#: rc.cpp:802
 msgid "File"
 msgstr "檔案"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:164
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:811
+#: rc.cpp:805
 #, fuzzy
 msgid "Open Script"
 msgstr "語文(&I)"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:167
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:814
+#: rc.cpp:808
 #, fuzzy
 msgid "Open a script..."
 msgstr "開啟用(&O)..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:170
 #. i18n: ectx: property (shortcut), widget (QStatusBar, statusBar)
-#: rc.cpp:817
+#: rc.cpp:811
 #, fuzzy
 msgid "Ctrl+O"
 msgstr "Ctrl"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:175
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:820
+#: rc.cpp:814
 #, fuzzy
 msgid "Close Script"
 msgstr "語文(&I)"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:178
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:823
+#: rc.cpp:817
 #, fuzzy
 msgid "Close script..."
 msgstr "安全性..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:186
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:829
+#: rc.cpp:823
 #, fuzzy
 msgid "Quit application..."
 msgstr "結束應用程式"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:194
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:832 kross/ui/view.cpp:301
+#: rc.cpp:826 kross/ui/view.cpp:301
 #, fuzzy
 msgid "Run"
 msgstr "Runic"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:197
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:835
+#: rc.cpp:829
 msgid "Run script..."
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:205
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:838
+#: rc.cpp:832
 #, fuzzy
 msgid "Run To..."
 msgstr "移至(&G)..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:208
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:841
+#: rc.cpp:835
 msgid "Run to breakpoint..."
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:216
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:844
+#: rc.cpp:838
 msgid "Step"
 msgstr "單步執行"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:847
+#: rc.cpp:841
 msgid "Step to next line..."
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:230
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:853
+#: rc.cpp:847
 #, fuzzy
 msgid "Step execution..."
 msgstr "貼上選擇"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:54
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:859 kde3support/kdeui/k3passworddialog.cpp:389
+#: rc.cpp:853 kde3support/kdeui/k3passworddialog.cpp:389
 msgid "&Verify:"
 msgstr "確認(&V)："
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, labelStrengthMeter)
-#: rc.cpp:862 kde3support/kdeui/k3passworddialog.cpp:410
+#: rc.cpp:856 kde3support/kdeui/k3passworddialog.cpp:410
 msgid "Password strength meter:"
 msgstr "密碼安全測量器："
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:104
 #. i18n: ectx: property (text), widget (KTitleWidget, labelMatch)
-#: rc.cpp:865 kde3support/kdeui/k3passworddialog.cpp:432
+#: rc.cpp:859 kde3support/kdeui/k3passworddialog.cpp:432
 #: kde3support/kdeui/k3passworddialog.cpp:625
 #: kdeui/dialogs/knewpassworddialog.cpp:177
 msgid "Passwords do not match"
@@ -2010,7 +1998,7 @@ msgstr "密碼不同"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsJobWidget)
-#: rc.cpp:868
+#: rc.cpp:862
 #, fuzzy
 #| msgid "Jom"
 msgid "Job"
@@ -2018,7 +2006,7 @@ msgstr "Jom"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, jobControlGroupBox)
-#: rc.cpp:871
+#: rc.cpp:865
 #, fuzzy
 #| msgid "Ctrl"
 msgid "Job Control"
@@ -2026,7 +2014,7 @@ msgstr "Ctrl"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, jobHoldLabel)
-#: rc.cpp:874
+#: rc.cpp:868
 #, fuzzy
 #| msgid "Key used for signing:"
 msgid "Scheduled printing:"
@@ -2034,7 +2022,7 @@ msgstr "用作簽署的密鑰："
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, jobBillingLabel)
-#: rc.cpp:877
+#: rc.cpp:871
 #, fuzzy
 #| msgid "Information"
 msgid "Billing information:"
@@ -2042,13 +2030,13 @@ msgstr "資料"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, jobPriorityLabel)
-#: rc.cpp:880
+#: rc.cpp:874
 msgid "Job priority:"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:94
 #. i18n: ectx: property (title), widget (QGroupBox, jobOptionsGroupBox)
-#: rc.cpp:883
+#: rc.cpp:877
 #, fuzzy
 #| msgid "Options"
 msgid "Job Options"
@@ -2056,7 +2044,7 @@ msgstr "選項"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:117
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#: rc.cpp:886
+#: rc.cpp:880
 #, fuzzy
 #| msgid "Options"
 msgid "Option"
@@ -2064,7 +2052,7 @@ msgstr "選項"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsPagesWidget)
-#: rc.cpp:892
+#: rc.cpp:886
 #, fuzzy
 #| msgid "Pager"
 msgid "Pages"
@@ -2072,13 +2060,13 @@ msgstr "傳呼機"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:19
 #. i18n: ectx: property (title), widget (KButtonGroup, pagesPerSheetButtonGroup)
-#: rc.cpp:895
+#: rc.cpp:889
 msgid "Pages Per Sheet"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:63
 #. i18n: ectx: property (text), widget (QRadioButton, sixteenUpRadioButton)
-#: rc.cpp:913
+#: rc.cpp:907
 #, fuzzy
 #| msgid "%1%"
 msgid "16"
@@ -2086,13 +2074,13 @@ msgstr "%1%"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, bannerPagesGroupBox)
-#: rc.cpp:916
+#: rc.cpp:910
 msgid "Banner Pages"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, startBannerLabel)
-#: rc.cpp:919
+#: rc.cpp:913
 #, fuzzy
 msgctxt "Banner page at start"
 msgid "Start"
@@ -2100,7 +2088,7 @@ msgstr "開始(&S)"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:105
 #. i18n: ectx: property (text), widget (QLabel, endBannerLabel)
-#: rc.cpp:922
+#: rc.cpp:916
 #, fuzzy
 #| msgid "End"
 msgctxt "Banner page at end"
@@ -2109,7 +2097,7 @@ msgstr "結尾"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:131
 #. i18n: ectx: property (title), widget (QGroupBox, pageLabelGroupBox)
-#: rc.cpp:925
+#: rc.cpp:919
 #, fuzzy
 #| msgid "Page loaded."
 msgid "Page Label"
@@ -2117,7 +2105,7 @@ msgstr "已載入網頁。"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:156
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:928
+#: rc.cpp:922
 #, fuzzy
 #| msgid "Border"
 msgid "Page Border"
@@ -2125,7 +2113,7 @@ msgstr "邊界"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:181
 #. i18n: ectx: property (title), widget (QGroupBox, mirrorPagesGroupBox)
-#: rc.cpp:931
+#: rc.cpp:925
 #, fuzzy
 #| msgid "&First Page"
 msgid "Mirror Pages"
@@ -2133,13 +2121,13 @@ msgstr "第一頁(&F)"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox, mirrorPagesCheckBox)
-#: rc.cpp:934
+#: rc.cpp:928
 msgid "Mirror pages along vertical axis"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:16
 #. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
-#: rc.cpp:937
+#: rc.cpp:931
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
@@ -2148,7 +2136,7 @@ msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:23
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
-#: rc.cpp:940
+#: rc.cpp:934
 msgid ""
 "Here you can see a list of key bindings, i.e. associations between actions "
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
@@ -2159,31 +2147,31 @@ msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:943
+#: rc.cpp:937
 msgid "Action"
 msgstr "動作"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:946
+#: rc.cpp:940
 msgid "Shortcut"
 msgstr "快速鍵"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:43
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:949
+#: rc.cpp:943
 msgid "Alternate"
 msgstr "備選"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:48
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:952
+#: rc.cpp:946
 msgid "Global"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:53
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:955
+#: rc.cpp:949
 #, fuzzy
 #| msgid "Alternate"
 msgid "Global Alternate"
@@ -2191,31 +2179,31 @@ msgstr "備選"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:58
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:958
+#: rc.cpp:952
 msgid "Mouse Button Gesture"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:63
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:961
+#: rc.cpp:955
 msgid "Mouse Shape Gesture"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:31
 #. i18n: ectx: property (text), widget (QLabel, prompt)
-#: rc.cpp:964
+#: rc.cpp:958
 msgid "Supply a username and password below."
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, anonymousCheckBox)
-#: rc.cpp:970
+#: rc.cpp:964
 msgid "Anonymous"
 msgstr "暱名"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:93
 #. i18n: ectx: property (text), widget (QLabel, domainLabel)
-#: rc.cpp:973
+#: rc.cpp:967
 #, fuzzy
 #| msgid "Chain:"
 msgid "Domain:"
@@ -2223,7 +2211,7 @@ msgstr "信任鏈:"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, keepCheckBox)
-#: rc.cpp:979
+#: rc.cpp:973
 #, fuzzy
 #| msgid "&Keep password"
 msgid "Remember password"
@@ -2231,13 +2219,13 @@ msgstr "保存密碼(&K)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:34
 #. i18n: ectx: Menu (game)
-#: rc.cpp:985
+#: rc.cpp:979
 msgid "&Game"
 msgstr "遊戲(&G)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:84
 #. i18n: ectx: Menu (move)
-#: rc.cpp:991
+#: rc.cpp:985
 #, fuzzy
 #| msgid "&Move"
 msgctxt "@title:menu Game move"
@@ -2246,55 +2234,55 @@ msgstr "移動(&M)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:117
 #. i18n: ectx: Menu (go)
-#: rc.cpp:997
+#: rc.cpp:991
 msgid "&Go"
 msgstr "跳至(&G)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:138
 #. i18n: ectx: Menu (bookmarks)
-#: rc.cpp:1000
+#: rc.cpp:994
 msgid "&Bookmarks"
 msgstr "書籤(&B)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:144
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:1003
+#: rc.cpp:997
 msgid "&Tools"
 msgstr "工具(&T)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:148
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:1006 khtml/ecma/debugger/debugwindow.cpp:240
+#: rc.cpp:1000 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "設定(&S)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:1009 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:1003 kdeui/widgets/khelpmenu.cpp:148
 msgid "&Help"
 msgstr "說明(&H)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:194
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:1012
+#: rc.cpp:1006
 msgid "Main Toolbar"
 msgstr "主工具列"
 
 #. i18n: file: kdeui/sonnet/configui.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:1015 kdeui/findreplace/kfinddialog.cpp:123
+#: rc.cpp:1009 kdeui/findreplace/kfinddialog.cpp:123
 msgid "Options"
 msgstr "選項"
 
 #. i18n: file: kdeui/sonnet/configui.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, m_bgSpellCB)
-#: rc.cpp:1018
+#: rc.cpp:1012
 msgid "Enable &background spellchecking"
 msgstr "啟動背景拼字檢查(&B)"
 
 #. i18n: file: kdeui/sonnet/configui.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkerEnabledByDefaultCB)
-#: rc.cpp:1021
+#: rc.cpp:1015
 #, fuzzy
 #| msgid "As-you-type spell checking enabled."
 msgid "&Automatic spell checking enabled by default"
@@ -2302,31 +2290,31 @@ msgstr "即時拼字檢察啟動"
 
 #. i18n: file: kdeui/sonnet/configui.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipUpperCB)
-#: rc.cpp:1024
+#: rc.cpp:1018
 msgid "Skip all &uppercase words"
 msgstr "跳過所有大寫詞語(&U)"
 
 #. i18n: file: kdeui/sonnet/configui.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipRunTogetherCB)
-#: rc.cpp:1027
+#: rc.cpp:1021
 msgid "S&kip run-together words"
 msgstr "跳過所有連在一起的詞語(&K)"
 
 #. i18n: file: kdeui/sonnet/configui.ui:69
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1030
+#: rc.cpp:1024
 msgid "Default language:"
 msgstr "預設語言："
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:254
 #. i18n: ectx: property (text), widget (QPushButton, m_autoCorrect)
-#: rc.cpp:1160
+#: rc.cpp:1154
 msgid "Autocorrect"
 msgstr "自動更正"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:1163 kdeui/dialogs/kshortcutseditor.cpp:642
+#: rc.cpp:1157 kdeui/dialogs/kshortcutseditor.cpp:642
 #, fuzzy
 #| msgid "Chain:"
 msgid "Main:"
@@ -2334,7 +2322,7 @@ msgstr "信任鏈:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:1166 kdeui/dialogs/kshortcutseditor.cpp:643
+#: rc.cpp:1160 kdeui/dialogs/kshortcutseditor.cpp:643
 #, fuzzy
 #| msgid "Alternate"
 msgid "Alternate:"
@@ -2342,13 +2330,13 @@ msgstr "備選"
 
 #. i18n: file: dnssd/kcm_kdnssd.kcfg:9
 #. i18n: ectx: label, entry, group (browsing)
-#: rc.cpp:1169
+#: rc.cpp:1163
 msgid "Additional domains for browsing"
 msgstr ""
 
 #. i18n: file: dnssd/kcm_kdnssd.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (browsing)
-#: rc.cpp:1172
+#: rc.cpp:1166
 msgid "List of 'wide-area' (non link-local) domains that should be browsed."
 msgstr ""
 
@@ -3058,54 +3046,54 @@ msgstr "可內嵌的 HTML 元件"
 msgid "Select Components"
 msgstr "選擇元件"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:158
+#: knewstuff/knewstuff3/uploaddialog.cpp:174
 #, fuzzy
 #| msgid "Save Login Information"
 msgid "Could not verify login, please try again."
 msgstr "儲存登入資訊"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:158
-#: knewstuff/knewstuff3/uploaddialog.cpp:328
+#: knewstuff/knewstuff3/uploaddialog.cpp:174
+#: knewstuff/knewstuff3/uploaddialog.cpp:425
 #: khtml/rendering/render_form.cpp:811 kjs/object.cpp:585
 #: kdeui/dialogs/kmessagebox.cpp:830 kdeui/dialogs/kmessagebox.cpp:860
 msgid "Error"
 msgstr "錯誤"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:190
+#: knewstuff/knewstuff3/uploaddialog.cpp:261
 #: kdeui/dialogs/kassistantdialog.cpp:94
 #, fuzzy
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "Next"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:192
+#: knewstuff/knewstuff3/uploaddialog.cpp:263
 #: kdeui/dialogs/kassistantdialog.cpp:95
 #, fuzzy
 msgid "Finish"
 msgstr "完成(&F)"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:213
+#: knewstuff/knewstuff3/uploaddialog.cpp:284
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:265
-#: knewstuff/knewstuff3/uploaddialog.cpp:451
+#: knewstuff/knewstuff3/uploaddialog.cpp:336
+#: knewstuff/knewstuff3/uploaddialog.cpp:552
 #, fuzzy, kde-format
 msgid "File not found: %1"
 msgstr "沒有找到 %1 風格\n"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:265
-#: knewstuff/knewstuff3/uploaddialog.cpp:376
-#: knewstuff/knewstuff3/uploaddialog.cpp:451
+#: knewstuff/knewstuff3/uploaddialog.cpp:336
+#: knewstuff/knewstuff3/uploaddialog.cpp:473
+#: knewstuff/knewstuff3/uploaddialog.cpp:552
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Upload Failed"
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:325
+#: knewstuff/knewstuff3/uploaddialog.cpp:422
 #, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
@@ -3115,55 +3103,49 @@ msgid_plural ""
 "to upload: %2"
 msgstr[0] ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:376
+#: knewstuff/knewstuff3/uploaddialog.cpp:473
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:380
+#: knewstuff/knewstuff3/uploaddialog.cpp:477
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:419
+#: knewstuff/knewstuff3/uploaddialog.cpp:522
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:419
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:522
+#: knewstuff/knewstuff3/uploaddialog.cpp:527
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Uploading Failed"
 msgstr "上傳檔案"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:424
+#: knewstuff/knewstuff3/uploaddialog.cpp:527
 #, fuzzy
 #| msgid "Authentication"
 msgid "Authentication error."
 msgstr "驗證"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:429
-#, fuzzy
-#| msgid "Print Previe&w..."
-msgid "Uploading preview and content..."
-msgstr "預覽列印(&W)..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:438
+#: knewstuff/knewstuff3/uploaddialog.cpp:539
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:442
+#: knewstuff/knewstuff3/uploaddialog.cpp:543
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview image and content..."
 msgstr "預覽列印(&W)..."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:476
+#: knewstuff/knewstuff3/uploaddialog.cpp:577
 #, fuzzy
 #| msgid "Successfully uploaded new stuff."
 msgid "Content file successfully uploaded."
 msgstr "成功上傳熱門禮物。"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:484
+#: knewstuff/knewstuff3/uploaddialog.cpp:585
 #, fuzzy
 #| msgid "Successfully uploaded new stuff."
 msgid "Preview image successfully uploaded."
@@ -13393,24 +13375,24 @@ msgid "Minimize"
 msgstr "縮到最小"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:351
-#: kdeui/notifications/kstatusnotifieritem.cpp:772
+#: kdeui/notifications/kstatusnotifieritem.cpp:353
+#: kdeui/notifications/kstatusnotifieritem.cpp:780
 msgid "&Minimize"
 msgstr "縮到最小(&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:770
+#: kdeui/notifications/kstatusnotifieritem.cpp:778
 msgid "&Restore"
 msgstr "還原(&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:780
+#: kdeui/notifications/kstatusnotifieritem.cpp:788
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:783
+#: kdeui/notifications/kstatusnotifieritem.cpp:791
 msgid "Confirm Quit From System Tray"
 msgstr "確定要離開系統列"
 
@@ -14420,6 +14402,11 @@ msgstr "這是什麼？(&T)"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "每日小祕訣(&D)"
+
+#, fuzzy
+#~| msgid "Print Previe&w..."
+#~ msgid "Uploading preview and content..."
+#~ msgstr "預覽列印(&W)..."
 
 #, fuzzy
 #~| msgid "Upload Files"
