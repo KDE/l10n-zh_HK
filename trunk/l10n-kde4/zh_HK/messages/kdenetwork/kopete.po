@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-15 04:27+0100\n"
+"POT-Creation-Date: 2010-03-16 04:37+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1723,7 +1723,7 @@ msgstr "開啟收件匣(&X)..."
 #: protocols/wlm/wlmaccount.cpp:1160 protocols/wlm/wlmaccount.cpp:1175
 #: protocols/yahoo/yahooaccount.cpp:1167 protocols/yahoo/yahooaccount.cpp:1610
 #: protocols/yahoo/yahooaccount.cpp:1821
-#: libkopete/private/kopeteviewmanager.cpp:391
+#: libkopete/private/kopeteviewmanager.cpp:393
 #, fuzzy
 #| msgid "Ignore"
 msgctxt "@action"
@@ -4981,6 +4981,7 @@ msgstr "訂閱"
 #: protocols/jabber/ui/privacyruledlg.cpp:43
 #: protocols/jabber/ui/privacyruledlg.cpp:94
 #: protocols/jabber/ui/privacyruledlg.cpp:135
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:115
 msgid "Both"
 msgstr ""
 
@@ -10135,11 +10136,13 @@ msgid "More..."
 msgstr "更多..."
 
 #: kopete/chatwindow/kopetechatwindow.cpp:1129
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:113
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:1132
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:114
 msgid "Bottom"
 msgstr ""
 
@@ -11092,10 +11095,12 @@ msgid "Background Color"
 msgstr "背景顏色:"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:33
+msgctxt "Target Size (KB) [NOTE: KB = kilobyte]"
 msgid "Target KB"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:34
+msgctxt "General Purpose In/Out"
 msgid "GPIO"
 msgstr ""
 
@@ -11112,12 +11117,14 @@ msgid "Framerate"
 msgstr "名"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:37
+msgctxt "USB Isochronous Interface"
 msgid "USB Alternate"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:38
 #, fuzzy
 #| msgid "Brightness:"
+msgctxt "[NOTE: selection of combinations of light sources]"
 msgid "Lights"
 msgstr "亮度:"
 
@@ -11128,53 +11135,64 @@ msgid "Reset Camera"
 msgstr "註冊"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:40
+msgctxt "Chroma Auto Gain Control"
 msgid "chroma agc"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:41
 #, fuzzy
+msgctxt "Combfilter"
 msgid "combfilter"
 msgstr "手提電話:"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:42
+msgctxt "Automute"
 msgid "automute"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:44
 #, fuzzy
 #| msgid "Registration failed."
+msgctxt "Luminance Decimation Filter"
 msgid "luma decimation filter"
 msgstr "註冊失敗。"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:45
+msgctxt "Analog/Digital Conversion Crush [NOTE: aGc is a typo ! => aDc]"
 msgid "agc crush"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:46
+msgctxt "Video Cassette Recorder Hack [NOTE: improves sync on poor VCR tapes]"
 msgid "vcr hack"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:47
+msgctxt "Whitecrush Upper"
 msgid "whitecrush upper"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:48
+msgctxt "Whitecrush Lower"
 msgid "whitecrush lower"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:49
 #, fuzzy
 #| msgid "Saturation:"
+msgctxt "U-V Gain Ratio [NOTE: NOT Ultra Violet !]"
 msgid "uv ratio"
 msgstr "飽和度:"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:50
+msgctxt "Full Luminance Range"
 msgid "full luma range"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:51
 #, fuzzy
 #| msgid "Looking"
+msgctxt "Luminance Coring Level"
 msgid "coring"
 msgstr "正在觀望"
 
@@ -11185,40 +11203,49 @@ msgid "Invert"
 msgstr "互聯網"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:53
+msgctxt "Y Offset Odd Field"
 msgid "y offset odd field"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:54
+msgctxt "Y Offset Even Field"
 msgid "y offset even field"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:55
 #, fuzzy
+msgctxt "Green Balance"
 msgid "green balance"
 msgstr "頻道"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:66
+msgctxt "Digital/Analog Converter Magnitude"
 msgid "DAC magnitude"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:69
 #, fuzzy
+msgctxt "Band Filter"
 msgid "band filter"
 msgstr "重新命名過濾器"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:71
+msgctxt "RGB Gamma"
 msgid "rgb gamma"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:72
+msgctxt "Reset Level"
 msgid "reset level"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:73
+msgctxt "Pixel Bias Voltage"
 msgid "pixel bias voltage"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:74
+msgctxt "Noise Suppression (Smoothing)"
 msgid "Noise suppression (smoothing)"
 msgstr ""
 
@@ -11237,6 +11264,7 @@ msgid "Infrared"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:78
+msgctxt "Black/White"
 msgid "B/W"
 msgstr ""
 
@@ -11286,13 +11314,13 @@ msgid "Luminance Bandpass Weight"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:88
-msgid "HF Luminance Coring"
+msgid "High Frequency Luminance Coring"
 msgstr ""
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:89
 #, fuzzy
 #| msgid "Connection closed"
-msgid "Force Colour"
+msgid "Force Color ON"
 msgstr "連線關閉"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:90
@@ -11303,7 +11331,7 @@ msgstr "財務及公司管理"
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:91
 #, fuzzy
 #| msgid "Remove Contact"
-msgid "VTR Time Constant"
+msgid "Video Tape Recorder Time Constant"
 msgstr "移除聯絡人"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:92
@@ -11339,12 +11367,15 @@ msgstr "聯絡人設置(&C)"
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:97
 #, fuzzy
 #| msgid "Colors"
+msgctxt "Color Mode"
 msgid "Colour mode"
 msgstr "顏色"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:98
+#, fuzzy
+msgctxt "Auto Contour"
 msgid "Auto contour"
-msgstr ""
+msgstr "國家:"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:99
 #, fuzzy
@@ -11354,20 +11385,25 @@ msgstr "國家:"
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:100
 #, fuzzy
 #| msgid "Nic&k Completion"
+msgctxt "Backlight Compensation"
 msgid "Backlight compensation"
 msgstr "暱稱自動完成功能(&K)"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:101
-msgid "Flickerless"
-msgstr ""
+#, fuzzy
+#| msgid "Description"
+msgid "Flicker Suppression"
+msgstr "說明"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:102
 #, fuzzy
 #| msgid "Description"
+msgctxt "Noise Reduction"
 msgid "Noise reduction"
 msgstr "說明"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:106
+msgctxt "Off [NOTE: disable flicker compensation]"
 msgid "NoFliker"
 msgstr ""
 
@@ -11376,6 +11412,12 @@ msgstr ""
 #| msgid "Automatic Spell Checking"
 msgid "Automatic"
 msgstr "自動拼字檢查"
+
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:112
+#, fuzzy
+#| msgid "Offline"
+msgid "Off"
+msgstr "離線"
 
 #: libkopete/contactlist/xmlcontactstorage.cpp:131
 msgid "Could not find contactlist.xml in Kopete application data."
@@ -11403,17 +11445,17 @@ msgid "+ %1 more message"
 msgid_plural "+ %1 more messages"
 msgstr[0] "%1 正在輸入訊息"
 
-#: libkopete/private/kopeteviewmanager.cpp:364
+#: libkopete/private/kopeteviewmanager.cpp:366
 #, fuzzy, kde-format
 msgid "Incoming message from %1<br />\"%2\""
 msgstr "<qt>收到來自 %1<br>「%2」的訊息</qt>"
 
-#: libkopete/private/kopeteviewmanager.cpp:372
+#: libkopete/private/kopeteviewmanager.cpp:374
 #, fuzzy, kde-format
 msgid "A highlighted message arrived from %1<br />\"%2\""
 msgstr "<qt>來自 %1<br>「%2」的加強顯示訊息到達</qt>"
 
-#: libkopete/private/kopeteviewmanager.cpp:390
+#: libkopete/private/kopeteviewmanager.cpp:392
 #, fuzzy
 msgctxt "@action"
 msgid "View"
