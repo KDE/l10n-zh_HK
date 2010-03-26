@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-25 04:18+0100\n"
+"POT-Creation-Date: 2010-03-26 04:36+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2440,7 +2440,7 @@ msgstr ""
 
 #: kross/test/main.cpp:149 kross/console/main.cpp:102 kross/qts/main.cpp:63
 #: kde3support/kdeui/k3aboutdialog.cpp:184 kded/kbuildsycoca.cpp:621
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Author"
 msgstr "作者"
 
@@ -2605,11 +2605,11 @@ msgid "(c) 2001, Waldo Bastian"
 msgstr ""
 
 #: kconf_update/kconf_update.cpp:963 khtml/khtml_global.cpp:213
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Waldo Bastian"
 msgstr ""
 
-#: nepomuk/query/queryparser.cpp:342
+#: nepomuk/query/queryparser.cpp:360
 #, fuzzy
 #| msgid "Esfand"
 msgctxt ""
@@ -2620,7 +2620,7 @@ msgctxt ""
 msgid "and"
 msgstr "Esfand"
 
-#: nepomuk/query/queryparser.cpp:351
+#: nepomuk/query/queryparser.cpp:369
 #, fuzzy
 #| msgid "Mor"
 msgctxt ""
@@ -3293,34 +3293,50 @@ msgstr "熱門禮物的供應者"
 msgid "All Categories"
 msgstr "分類"
 
-#: knewstuff/knewstuff3/core/installation.cpp:151
+#: knewstuff/knewstuff3/core/installation.cpp:154
 #, fuzzy
 #| msgid "invalid flags"
 msgid "Invalid item."
 msgstr "錯誤的旗號"
 
-#: knewstuff/knewstuff3/core/installation.cpp:158
+#: knewstuff/knewstuff3/core/installation.cpp:161
 #, kde-format
 msgid "Download of item failed: no download url for \"%1\""
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:193
+#: knewstuff/knewstuff3/core/installation.cpp:196
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:260
+#: knewstuff/knewstuff3/core/installation.cpp:204
+msgid ""
+"The downloaded file is a html file. This indicates a link to a website "
+"instead of the actual download. Would you like to open the site with a "
+"browser instead?"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:204
+#, fuzzy
+msgid "Possibly bad download link"
+msgstr "無法建立新的檔案。"
+
+#: knewstuff/knewstuff3/core/installation.cpp:207
+msgid "Downloaded file was a HTML file. Opened in browser."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:279
 #, fuzzy, kde-format
 msgid "Could not install \"%1\": file not found."
 msgstr "找不到服務程式‘%1’。"
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 #, fuzzy
 #| msgid "Override existing entries"
 msgid "Overwrite existing file?"
 msgstr "取代已有項目"
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 #, fuzzy
 #| msgid "Download"
 msgid "Download File:"
@@ -8917,15 +8933,15 @@ msgstr "網絡搜尋"
 msgid "&Search"
 msgstr "搜尋(&S)"
 
-#: kded/kded.cpp:858
+#: kded/kded.cpp:862
 msgid "KDE Daemon"
 msgstr "KDE 常駐程式"
 
-#: kded/kded.cpp:860
+#: kded/kded.cpp:864
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "KDE 常駐程式 - 有需要時可更新 Sycoca 資料庫。"
 
-#: kded/kded.cpp:863
+#: kded/kded.cpp:867
 msgid "Check Sycoca database only once"
 msgstr "只檢查 Sycoca 資料庫一次"
 
@@ -8972,34 +8988,6 @@ msgstr "僅執行產生選單的測試。"
 #: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "追蹤選單 id 為偵錯之用"
-
-#: kded/khostname.cpp:72
-msgid "Error: HOME environment variable not set.\n"
-msgstr "錯誤: 沒有設定 HOME 環境變數。\n"
-
-#: kded/khostname.cpp:82
-msgid "Error: DISPLAY environment variable not set.\n"
-msgstr "錯誤: 沒有設定 DISPLAY 環境變數。\n"
-
-#: kded/khostname.cpp:217
-msgid "KDontChangeTheHostName"
-msgstr "KDontChangeTheHostName"
-
-#: kded/khostname.cpp:218
-msgid "Informs KDE about a change in hostname"
-msgstr "通知 KDE 主機名稱的改變。"
-
-#: kded/khostname.cpp:219
-msgid "(c) 2001 Waldo Bastian"
-msgstr ""
-
-#: kded/khostname.cpp:223
-msgid "Old hostname"
-msgstr "舊的主機名稱"
-
-#: kded/khostname.cpp:224
-msgid "New hostname"
-msgstr "新的主機名稱"
 
 #: kpty/kptydevice.cpp:306
 #, fuzzy
@@ -13522,24 +13510,24 @@ msgid "Minimize"
 msgstr "縮到最小"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:353
-#: kdeui/notifications/kstatusnotifieritem.cpp:780
+#: kdeui/notifications/kstatusnotifieritem.cpp:355
+#: kdeui/notifications/kstatusnotifieritem.cpp:781
 msgid "&Minimize"
 msgstr "縮到最小(&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:778
+#: kdeui/notifications/kstatusnotifieritem.cpp:779
 msgid "&Restore"
 msgstr "還原(&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:788
+#: kdeui/notifications/kstatusnotifieritem.cpp:789
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:791
+#: kdeui/notifications/kstatusnotifieritem.cpp:792
 msgid "Confirm Quit From System Tray"
 msgstr "確定要離開系統列"
 
@@ -14550,6 +14538,24 @@ msgstr "這是什麼？(&T)"
 msgid "Tip of the &Day"
 msgstr "每日小祕訣(&D)"
 
+#~ msgid "Error: HOME environment variable not set.\n"
+#~ msgstr "錯誤: 沒有設定 HOME 環境變數。\n"
+
+#~ msgid "Error: DISPLAY environment variable not set.\n"
+#~ msgstr "錯誤: 沒有設定 DISPLAY 環境變數。\n"
+
+#~ msgid "KDontChangeTheHostName"
+#~ msgstr "KDontChangeTheHostName"
+
+#~ msgid "Informs KDE about a change in hostname"
+#~ msgstr "通知 KDE 主機名稱的改變。"
+
+#~ msgid "Old hostname"
+#~ msgstr "舊的主機名稱"
+
+#~ msgid "New hostname"
+#~ msgstr "新的主機名稱"
+
 #, fuzzy
 #~| msgid "Description:"
 #~ msgid "description"
@@ -14563,10 +14569,6 @@ msgstr "每日小祕訣(&D)"
 #, fuzzy
 #~ msgid "Could not get account balance."
 #~ msgstr "無法載入這份文件。"
-
-#, fuzzy
-#~ msgid "Could not get download link."
-#~ msgstr "無法建立新的檔案。"
 
 #, fuzzy
 #~| msgid "Upload Files"
