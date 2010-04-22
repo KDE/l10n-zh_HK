@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-20 05:04+0200\n"
+"POT-Creation-Date: 2010-04-22 00:31+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2663,31 +2663,83 @@ msgstr "不明的錯誤"
 msgid "Changing annotations"
 msgstr "設定通知(&N)..."
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:201
-msgid "Create New Tag..."
+#: nepomuk/core/ui/kedittagsdialog.cpp:48
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "變更圖示(&I)..."
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:49
+#, fuzzy
+#| msgid "Pager"
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "傳呼機"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
-#, fuzzy
-#| msgid "New Game"
-msgid "New Tag"
-msgstr "開始新遊戲"
+#: nepomuk/core/ui/kedittagsdialog.cpp:71
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
+#: nepomuk/core/ui/kedittagsdialog.cpp:93
 #, fuzzy
-#| msgid "Please select type of the new resource:"
-msgid "Please insert the name of the new tag:"
-msgstr "請選取新資源的類型："
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "刪除"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
+#: nepomuk/core/ui/kedittagsdialog.cpp:205
 #, kde-format
-msgid "The tag %1 already exists"
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
+#: nepomuk/core/ui/kedittagsdialog.cpp:207
 #, fuzzy
-msgid "Tag Exists"
-msgstr "Test"
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "刪除"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "刪除"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:209
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#: nepomuk/core/ui/tagwidget.cpp:60
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "顯示所有選項"
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "新增(&A)..."
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "變更圖示(&I)..."
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -7547,7 +7599,7 @@ msgstr[0] "傳送檔案(&S)"
 msgid "Key Generator"
 msgstr "一般"
 
-#: khtml/html/html_objectimpl.cpp:604
+#: khtml/html/html_objectimpl.cpp:605
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -7556,15 +7608,15 @@ msgstr ""
 "找不到‘%1’的外掛程式。\n"
 "你想到 %2 下載該外掛程式嗎？"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Missing Plugin"
 msgstr "遺失外掛程式"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Download"
 msgstr "下載"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Do Not Download"
 msgstr "不下載"
 
@@ -11339,7 +11391,7 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "自動更正"
 
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:858
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:587
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
@@ -14598,9 +14650,18 @@ msgid "Tip of the &Day"
 msgstr "每日小祕訣(&D)"
 
 #, fuzzy
-#~| msgid "Change &Icon..."
-#~ msgid "Change..."
-#~ msgstr "變更圖示(&I)..."
+#~| msgid "New Game"
+#~ msgid "New Tag"
+#~ msgstr "開始新遊戲"
+
+#, fuzzy
+#~| msgid "Please select type of the new resource:"
+#~ msgid "Please insert the name of the new tag:"
+#~ msgstr "請選取新資源的類型："
+
+#, fuzzy
+#~ msgid "Tag Exists"
+#~ msgstr "Test"
 
 #, fuzzy
 #~| msgid "Homepage"
