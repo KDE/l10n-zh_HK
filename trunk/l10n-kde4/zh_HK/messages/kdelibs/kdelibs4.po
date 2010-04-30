@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-29 04:51+0200\n"
+"POT-Creation-Date: 2010-04-30 04:43+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -8096,11 +8096,11 @@ msgstr "復原(&U)：%1"
 msgid "&Redo: %1"
 msgstr "重做(&R)：%1"
 
-#: kde3support/kdeui/k3spell.cpp:1231
+#: kde3support/kdeui/k3spell.cpp:1290
 msgid "You have to restart the dialog for changes to take effect"
 msgstr "你必須重新啟動對話盒來使設定生效"
 
-#: kde3support/kdeui/k3spell.cpp:1467
+#: kde3support/kdeui/k3spell.cpp:1526
 msgid "Spell Checker"
 msgstr "拼字檢查程式"
 
@@ -8176,243 +8176,249 @@ msgstr[0] "密碼最少要有 %1 個字元"
 msgid "Passwords match"
 msgstr "密碼相同"
 
-#: kde3support/kdeui/k3sconfig.cpp:109
+#: kde3support/kdeui/k3sconfig.cpp:110
 #, fuzzy
 msgctxt "@option:check"
 msgid "Do Spellchecking"
 msgstr "拼字檢查程式"
 
-#: kde3support/kdeui/k3sconfig.cpp:113
+#: kde3support/kdeui/k3sconfig.cpp:114
 #, fuzzy
 #| msgid "Create &root/affix combinations not in dictionary"
 msgctxt "@option:check"
 msgid "Create &root/affix combinations not in dictionary"
 msgstr "建立字典中所沒有的字根/字尾組合(&R)"
 
-#: kde3support/kdeui/k3sconfig.cpp:120
+#: kde3support/kdeui/k3sconfig.cpp:121
 #, fuzzy
 #| msgid "Consider run-together &words as spelling errors"
 msgctxt "@option:check"
 msgid "Consider run-together &words as spelling errors"
 msgstr "將連在一起的詞語也視為拼字錯誤(&W)"
 
-#: kde3support/kdeui/k3sconfig.cpp:132
+#: kde3support/kdeui/k3sconfig.cpp:133
 #, fuzzy
 #| msgid "&Dictionary:"
 msgctxt "@label:listbox"
 msgid "&Dictionary:"
 msgstr "字典(&D)："
 
-#: kde3support/kdeui/k3sconfig.cpp:159
+#: kde3support/kdeui/k3sconfig.cpp:160
 #, fuzzy
 #| msgid "&Encoding:"
 msgctxt "@label:listbox"
 msgid "&Encoding:"
 msgstr "編碼(&E)："
 
-#: kde3support/kdeui/k3sconfig.cpp:166
+#: kde3support/kdeui/k3sconfig.cpp:167
 msgctxt "@item:inlistbox Spell checker"
 msgid "International <application>Ispell</application>"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:167
+#: kde3support/kdeui/k3sconfig.cpp:168
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Aspell</application>"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:168
+#: kde3support/kdeui/k3sconfig.cpp:169
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Hspell</application>"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:169
+#: kde3support/kdeui/k3sconfig.cpp:170
 msgctxt "@item:inlistbox Spell checker"
 msgid "<application>Zemberek</application>"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:174
+#: kde3support/kdeui/k3sconfig.cpp:171
+msgctxt "@item:inlistbox Spell checker"
+msgid "<application>Hunspell</application>"
+msgstr ""
+
+#: kde3support/kdeui/k3sconfig.cpp:176
 #, fuzzy
 #| msgid "&Client:"
 msgctxt "@label:listbox"
 msgid "&Client:"
 msgstr "客戶端(&C)："
 
-#: kde3support/kdeui/k3sconfig.cpp:256 kde3support/kdeui/k3sconfig.cpp:416
-#: kde3support/kdeui/k3sconfig.cpp:680
+#: kde3support/kdeui/k3sconfig.cpp:258 kde3support/kdeui/k3sconfig.cpp:420
+#: kde3support/kdeui/k3sconfig.cpp:743
 #, fuzzy
 #| msgid "Hebrew"
 msgctxt "@item Spelling dictionary"
 msgid "Hebrew"
 msgstr "希伯來文"
 
-#: kde3support/kdeui/k3sconfig.cpp:261 kde3support/kdeui/k3sconfig.cpp:421
-#: kde3support/kdeui/k3sconfig.cpp:685
+#: kde3support/kdeui/k3sconfig.cpp:263 kde3support/kdeui/k3sconfig.cpp:425
+#: kde3support/kdeui/k3sconfig.cpp:748
 #, fuzzy
 #| msgid "Turkish"
 msgctxt "@item Spelling dictionary"
 msgid "Turkish"
 msgstr "土耳其文"
 
-#: kde3support/kdeui/k3sconfig.cpp:314
+#: kde3support/kdeui/k3sconfig.cpp:318
 #, fuzzy
 #| msgid "English"
 msgctxt "@item Spelling dictionary"
 msgid "English"
 msgstr "英文"
 
-#: kde3support/kdeui/k3sconfig.cpp:317
+#: kde3support/kdeui/k3sconfig.cpp:321
 #, fuzzy
 #| msgid "Spanish"
 msgctxt "@item Spelling dictionary"
 msgid "Spanish"
 msgstr "西班牙文"
 
-#: kde3support/kdeui/k3sconfig.cpp:320
+#: kde3support/kdeui/k3sconfig.cpp:324
 #, fuzzy
 #| msgid "Danish"
 msgctxt "@item Spelling dictionary"
 msgid "Danish"
 msgstr "丹麥文"
 
-#: kde3support/kdeui/k3sconfig.cpp:323
+#: kde3support/kdeui/k3sconfig.cpp:327
 #, fuzzy
 #| msgid "German"
 msgctxt "@item Spelling dictionary"
 msgid "German"
 msgstr "德文"
 
-#: kde3support/kdeui/k3sconfig.cpp:326
+#: kde3support/kdeui/k3sconfig.cpp:330
 #, fuzzy
 #| msgid "German (new spelling)"
 msgctxt "@item Spelling dictionary"
 msgid "German (new spelling)"
 msgstr "德文（新拼法）"
 
-#: kde3support/kdeui/k3sconfig.cpp:329
+#: kde3support/kdeui/k3sconfig.cpp:333
 #, fuzzy
 #| msgid "Brazilian Portuguese"
 msgctxt "@item Spelling dictionary"
 msgid "Brazilian Portuguese"
 msgstr "巴西葡萄牙文"
 
-#: kde3support/kdeui/k3sconfig.cpp:332
+#: kde3support/kdeui/k3sconfig.cpp:336
 #, fuzzy
 #| msgid "Portuguese"
 msgctxt "@item Spelling dictionary"
 msgid "Portuguese"
 msgstr "葡萄牙文"
 
-#: kde3support/kdeui/k3sconfig.cpp:335
+#: kde3support/kdeui/k3sconfig.cpp:339
 #, fuzzy
 #| msgid "Esperanto"
 msgctxt "@item Spelling dictionary"
 msgid "Esperanto"
 msgstr "世界語"
 
-#: kde3support/kdeui/k3sconfig.cpp:338
+#: kde3support/kdeui/k3sconfig.cpp:342
 #, fuzzy
 #| msgid "Norwegian"
 msgctxt "@item Spelling dictionary"
 msgid "Norwegian"
 msgstr "挪威語"
 
-#: kde3support/kdeui/k3sconfig.cpp:341
+#: kde3support/kdeui/k3sconfig.cpp:345
 #, fuzzy
 #| msgid "Polish"
 msgctxt "@item Spelling dictionary"
 msgid "Polish"
 msgstr "波蘭語"
 
-#: kde3support/kdeui/k3sconfig.cpp:344
+#: kde3support/kdeui/k3sconfig.cpp:348
 #, fuzzy
 #| msgid "Russian"
 msgctxt "@item Spelling dictionary"
 msgid "Russian"
 msgstr "俄語"
 
-#: kde3support/kdeui/k3sconfig.cpp:347
+#: kde3support/kdeui/k3sconfig.cpp:351
 #, fuzzy
 #| msgid "Slovenian"
 msgctxt "@item Spelling dictionary"
 msgid "Slovenian"
 msgstr "斯洛法尼亞語"
 
-#: kde3support/kdeui/k3sconfig.cpp:350
+#: kde3support/kdeui/k3sconfig.cpp:354
 #, fuzzy
 #| msgid "Slovak"
 msgctxt "@item Spelling dictionary"
 msgid "Slovak"
 msgstr "斯洛伐克語"
 
-#: kde3support/kdeui/k3sconfig.cpp:353
+#: kde3support/kdeui/k3sconfig.cpp:357
 #, fuzzy
 #| msgid "Czech"
 msgctxt "@item Spelling dictionary"
 msgid "Czech"
 msgstr "捷克文"
 
-#: kde3support/kdeui/k3sconfig.cpp:356
+#: kde3support/kdeui/k3sconfig.cpp:360
 #, fuzzy
 #| msgid "Swedish"
 msgctxt "@item Spelling dictionary"
 msgid "Swedish"
 msgstr "瑞典語"
 
-#: kde3support/kdeui/k3sconfig.cpp:359
+#: kde3support/kdeui/k3sconfig.cpp:363
 #, fuzzy
 #| msgid "Swiss German"
 msgctxt "@item Spelling dictionary"
 msgid "Swiss German"
 msgstr "瑞士德文"
 
-#: kde3support/kdeui/k3sconfig.cpp:362
+#: kde3support/kdeui/k3sconfig.cpp:366
 #, fuzzy
 #| msgid "Ukrainian"
 msgctxt "@item Spelling dictionary"
 msgid "Ukrainian"
 msgstr "烏克蘭文"
 
-#: kde3support/kdeui/k3sconfig.cpp:365
+#: kde3support/kdeui/k3sconfig.cpp:369
 #, fuzzy
 #| msgid "Lithuanian"
 msgctxt "@item Spelling dictionary"
 msgid "Lithuanian"
 msgstr "立陶宛文"
 
-#: kde3support/kdeui/k3sconfig.cpp:368
+#: kde3support/kdeui/k3sconfig.cpp:372
 #, fuzzy
 #| msgid "French"
 msgctxt "@item Spelling dictionary"
 msgid "French"
 msgstr "法文"
 
-#: kde3support/kdeui/k3sconfig.cpp:371
+#: kde3support/kdeui/k3sconfig.cpp:375
 #, fuzzy
 #| msgid "Belarusian"
 msgctxt "@item Spelling dictionary"
 msgid "Belarusian"
 msgstr "白俄羅斯語"
 
-#: kde3support/kdeui/k3sconfig.cpp:374
+#: kde3support/kdeui/k3sconfig.cpp:378
 #, fuzzy
 #| msgid "Hungarian"
 msgctxt "@item Spelling dictionary"
 msgid "Hungarian"
 msgstr "匈牙利文"
 
-#: kde3support/kdeui/k3sconfig.cpp:378
+#: kde3support/kdeui/k3sconfig.cpp:382
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "@item Spelling dictionary"
 msgid "Unknown"
 msgstr "無法識別"
 
-#: kde3support/kdeui/k3sconfig.cpp:462 kde3support/kdeui/k3sconfig.cpp:618
+#: kde3support/kdeui/k3sconfig.cpp:468 kde3support/kdeui/k3sconfig.cpp:681
 msgctxt "@item Spelling dictionary"
 msgid "<application>ISpell</application> Default"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:510 kde3support/kdeui/k3sconfig.cpp:666
+#: kde3support/kdeui/k3sconfig.cpp:516 kde3support/kdeui/k3sconfig.cpp:658
+#: kde3support/kdeui/k3sconfig.cpp:729 kde3support/kdeui/k3sconfig.cpp:872
 #, fuzzy, kde-format
 #| msgctxt "default spelling dictionary"
 #| msgid "Default - %1 [%2]"
@@ -8420,18 +8426,23 @@ msgctxt "@item Spelling dictionary: %1 dictionary name, %2 file name"
 msgid "Default - %1 [%2]"
 msgstr "預設 - %1 [%2]"
 
-#: kde3support/kdeui/k3sconfig.cpp:531 kde3support/kdeui/k3sconfig.cpp:693
+#: kde3support/kdeui/k3sconfig.cpp:537 kde3support/kdeui/k3sconfig.cpp:755
 msgctxt "@item Spelling dictionary"
 msgid "<application>ASpell</application> Default"
 msgstr ""
 
-#: kde3support/kdeui/k3sconfig.cpp:596 kde3support/kdeui/k3sconfig.cpp:758
+#: kde3support/kdeui/k3sconfig.cpp:602 kde3support/kdeui/k3sconfig.cpp:820
 #, fuzzy, kde-format
 #| msgctxt "default spelling dictionary"
 #| msgid "Default - %1"
 msgctxt "@item Spelling dictionary: %1 dictionary name"
 msgid "Default - %1"
 msgstr "預設值 - %1"
+
+#: kde3support/kdeui/k3sconfig.cpp:621 kde3support/kdeui/k3sconfig.cpp:835
+msgctxt "@item Spelling dictionary"
+msgid "<application>Hunspell</application> Default"
+msgstr ""
 
 #: kde3support/kdeui/k3aboutdialog.cpp:185
 msgid "Email"
@@ -13025,62 +13036,62 @@ msgstr "選擇一個年份"
 msgid "Select the current day"
 msgstr "選擇一個日期"
 
-#: kdeui/widgets/klineedit.cpp:262
+#: kdeui/widgets/klineedit.cpp:276
 #, fuzzy
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "清除快速鍵"
 
-#: kdeui/widgets/klineedit.cpp:1130
+#: kdeui/widgets/klineedit.cpp:1144
 #, fuzzy
 #| msgid "Text Completion"
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "文字完成"
 
-#: kdeui/widgets/klineedit.cpp:1137
+#: kdeui/widgets/klineedit.cpp:1151
 #, fuzzy
 #| msgid "None"
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "無"
 
-#: kdeui/widgets/klineedit.cpp:1138
+#: kdeui/widgets/klineedit.cpp:1152
 #, fuzzy
 #| msgid "Manual"
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "手動"
 
-#: kdeui/widgets/klineedit.cpp:1139
+#: kdeui/widgets/klineedit.cpp:1153
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "自動"
 
-#: kdeui/widgets/klineedit.cpp:1140
+#: kdeui/widgets/klineedit.cpp:1154
 #, fuzzy
 #| msgid "Dropdown List"
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "下拉清單"
 
-#: kdeui/widgets/klineedit.cpp:1141
+#: kdeui/widgets/klineedit.cpp:1155
 #, fuzzy
 #| msgid "Short Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "短暫自動化"
 
-#: kdeui/widgets/klineedit.cpp:1142
+#: kdeui/widgets/klineedit.cpp:1156
 #, fuzzy
 #| msgid "Dropdown List && Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "下拉清單 && 短暫自動化"
 
-#: kdeui/widgets/klineedit.cpp:1173
+#: kdeui/widgets/klineedit.cpp:1187
 #, fuzzy
 #| msgid "Default"
 msgctxt "@item:inmenu Text Completion"
@@ -13625,24 +13636,24 @@ msgid "Minimize"
 msgstr "縮到最小"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:389
-#: kdeui/notifications/kstatusnotifieritem.cpp:815
+#: kdeui/notifications/kstatusnotifieritem.cpp:395
+#: kdeui/notifications/kstatusnotifieritem.cpp:831
 msgid "&Minimize"
 msgstr "縮到最小(&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:813
+#: kdeui/notifications/kstatusnotifieritem.cpp:829
 msgid "&Restore"
 msgstr "還原(&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:823
+#: kdeui/notifications/kstatusnotifieritem.cpp:839
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>你確定要離開 '<b>%1</b>' 嗎?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:826
+#: kdeui/notifications/kstatusnotifieritem.cpp:842
 msgid "Confirm Quit From System Tray"
 msgstr "確定要離開系統列"
 
