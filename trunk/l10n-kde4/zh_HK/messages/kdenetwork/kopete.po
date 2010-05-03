@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-11 05:13+0200\n"
+"POT-Creation-Date: 2010-05-03 04:54+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -302,7 +302,7 @@ msgstr "刪除主機(&D)"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: plugins/statistics/statisticscontact.cpp:264
 #: plugins/statistics/statisticsdialog.cpp:380
-#: plugins/statistics/statisticsdialog.cpp:673
+#: plugins/statistics/statisticsdialog.cpp:675
 #: protocols/wlm/wlmprotocol.cpp:43 protocols/yahoo/yahooprotocol.cpp:44
 #: protocols/gadu/gaduprotocol.cpp:82 protocols/gadu/gaduprotocol.cpp:86
 #: protocols/qq/qqprotocol.cpp:36 protocols/winpopup/wpaccount.cpp:172
@@ -326,8 +326,8 @@ msgstr "上線"
 #: plugins/statistics/statisticscontact.cpp:265
 #: plugins/statistics/statisticsdialog.cpp:382
 #: plugins/statistics/statisticsdialog.cpp:384
-#: plugins/statistics/statisticsdialog.cpp:675
 #: plugins/statistics/statisticsdialog.cpp:677
+#: plugins/statistics/statisticsdialog.cpp:679
 #: protocols/wlm/wlmprotocol.cpp:46 protocols/qq/qqprotocol.cpp:38
 #: protocols/winpopup/wpaccount.cpp:178 protocols/winpopup/wpprotocol.cpp:56
 #: protocols/groupwise/gwprotocol.cpp:58
@@ -347,7 +347,7 @@ msgstr "離開"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: plugins/statistics/statisticscontact.cpp:266
 #: plugins/statistics/statisticsdialog.cpp:386
-#: plugins/statistics/statisticsdialog.cpp:679
+#: plugins/statistics/statisticsdialog.cpp:681
 #: protocols/wlm/wlmprotocol.cpp:62 protocols/yahoo/yahooprotocol.cpp:43
 #: protocols/gadu/gaduprotocol.cpp:57 protocols/gadu/gaduprotocol.cpp:63
 #: protocols/qq/qqprotocol.cpp:40 protocols/winpopup/wpprotocol.cpp:57
@@ -518,27 +518,31 @@ msgid ""
 msgstr "<b title=\"我看到 %1 的總離線時間\">總離線時間 :</b> %2 小時"
 
 #: plugins/statistics/statisticsdialog.cpp:429
-#: plugins/statistics/statisticsdialog.cpp:520
-#: plugins/statistics/statisticsdialog.cpp:538
+#: plugins/statistics/statisticsdialog.cpp:522
+#: plugins/statistics/statisticsdialog.cpp:540
 msgid "General information"
 msgstr "一般資訊"
 
 #: plugins/statistics/statisticsdialog.cpp:435
-#, kde-format
-msgid "<b>Average message length :</b> %1 characters<br>"
-msgstr "<b>平均訊息長度 :</b> %1 個字元<br>"
+#, fuzzy, kde-format
+#| msgid "<b>Average message length :</b> %1 characters<br>"
+msgid "<b>Average message length :</b> %1 character<br>"
+msgid_plural "<b>Average message length :</b> %1 characters<br>"
+msgstr[0] "<b>平均訊息長度 :</b> %1 個字元<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:436
-#, kde-format
-msgid "<b>Time between two messages : </b> %1 second(s)"
-msgstr "<b>訊息的時間間隔 : </b> %1 秒"
+#: plugins/statistics/statisticsdialog.cpp:437
+#, fuzzy, kde-format
+#| msgid "<b>Time between two messages : </b> %1 second(s)"
+msgid "<b>Time between two messages : </b> %1 second"
+msgid_plural "<b>Time between two messages : </b> %1 seconds"
+msgstr[0] "<b>訊息的時間間隔 : </b> %1 秒"
 
-#: plugins/statistics/statisticsdialog.cpp:440
+#: plugins/statistics/statisticsdialog.cpp:442
 #, kde-format
 msgid "<b title=\"The last time you talked with %1\">Last talk :</b> %2<br>"
 msgstr "<b title=\"你最後和 %1 交談的時間\">最後交談：</b> %2<br>"
 
-#: plugins/statistics/statisticsdialog.cpp:441
+#: plugins/statistics/statisticsdialog.cpp:443
 #, fuzzy, kde-format
 #| msgid ""
 #| "<b title=\"The last time I have seen %1 online or away\">Last time "
@@ -548,16 +552,16 @@ msgid ""
 msgstr ""
 "<b title=\"我最後看到 %1 上線或離開的時間\">聯絡人的最後出現時間：</b> %2"
 
-#: plugins/statistics/statisticsdialog.cpp:451
+#: plugins/statistics/statisticsdialog.cpp:453
 msgid "Current status"
 msgstr "目前狀態"
 
-#: plugins/statistics/statisticsdialog.cpp:452
+#: plugins/statistics/statisticsdialog.cpp:454
 #, kde-format
 msgid "Is <b>%1</b> since <b>%2</b>"
 msgstr "自 <b>%2</b> 成為 <b>%1</b>"
 
-#: plugins/statistics/statisticsdialog.cpp:464
+#: plugins/statistics/statisticsdialog.cpp:466
 #, kde-format
 msgctxt ""
 "TRANSLATOR: please reverse 'left' and 'right' as appropriate for your "
@@ -567,43 +571,43 @@ msgid ""
 "hour, encompassing one day. %1 is on the left, and %2 is on the right."
 msgstr ""
 
-#: plugins/statistics/statisticsdialog.cpp:490
+#: plugins/statistics/statisticsdialog.cpp:492
 #, fuzzy, kde-format
 #| msgid ""
 #| "Between %1:00 and %2:00, I was able to see %3 status %4% of the hour."
 msgid "Between %1 and %2, %3 was visible for %4% of the hour."
 msgstr "在 %1 點到 %2 點之間，我有 %4% 的機會看到 %3 的狀態。"
 
-#: plugins/statistics/statisticsdialog.cpp:502
+#: plugins/statistics/statisticsdialog.cpp:504
 msgid "Online time"
 msgstr "上線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:504
+#: plugins/statistics/statisticsdialog.cpp:506
 msgid "Away time"
 msgstr "離開時間"
 
-#: plugins/statistics/statisticsdialog.cpp:506
+#: plugins/statistics/statisticsdialog.cpp:508
 msgid "Offline time"
 msgstr "離線時間"
 
-#: plugins/statistics/statisticsdialog.cpp:510
+#: plugins/statistics/statisticsdialog.cpp:512
 msgid "online"
 msgstr "上線"
 
-#: plugins/statistics/statisticsdialog.cpp:513
+#: plugins/statistics/statisticsdialog.cpp:515
 msgid "away"
 msgstr "離開"
 
-#: plugins/statistics/statisticsdialog.cpp:516
+#: plugins/statistics/statisticsdialog.cpp:518
 msgid "offline"
 msgstr "離線"
 
-#: plugins/statistics/statisticsdialog.cpp:565
+#: plugins/statistics/statisticsdialog.cpp:567
 #, fuzzy, kde-format
 msgid "Between %1 and %2, %3 was %4% %5."
 msgstr "在 %1 點到 %2 點之間，我看到 %3 %4% %5 。"
 
-#: plugins/statistics/statisticsdialog.cpp:659
+#: plugins/statistics/statisticsdialog.cpp:661
 #, fuzzy, kde-format
 #| msgid ""
 #| "<div class=\"statgroup\" title=\"Contact status history for today"
