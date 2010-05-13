@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-12 04:57+0200\n"
+"POT-Creation-Date: 2010-05-13 04:50+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -97,11 +97,11 @@ msgctxt "adjective decribing an instant message"
 msgid "Outbound"
 msgstr "外出用餐"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:134
+#: plugins/nowlistening/nowlisteningplugin.cpp:136
 msgid "USAGE: /media - Displays information on current song"
 msgstr "用法： /media - 顯示當前歌曲的資訊"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:173
+#: plugins/nowlistening/nowlisteningplugin.cpp:175
 msgctxt ""
 "Message from Kopete user to another user; used when sending media "
 "information even though there are no songs playing or no media players "
@@ -112,22 +112,22 @@ msgid ""
 msgstr ""
 "聽著 Kopete - 如我以支援的媒體播放器聆聽什麼的話，它會告訴你我在聽什麼。"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:447
+#: plugins/nowlistening/nowlisteningplugin.cpp:449
 #: plugins/nowlistening/nlquodlibet.cpp:69
 msgid "Unknown track"
 msgstr "未知的音軌"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:456
+#: plugins/nowlistening/nowlisteningplugin.cpp:458
 #: plugins/nowlistening/nlquodlibet.cpp:67
 msgid "Unknown artist"
 msgstr "未知的歌手"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:463
+#: plugins/nowlistening/nowlisteningplugin.cpp:465
 #: plugins/nowlistening/nlquodlibet.cpp:68
 msgid "Unknown album"
 msgstr "未知的專輯"
 
-#: plugins/nowlistening/nowlisteningplugin.cpp:470
+#: plugins/nowlistening/nowlisteningplugin.cpp:472
 msgid "Unknown player"
 msgstr "未知的播放程式"
 
@@ -11553,21 +11553,35 @@ msgid ""
 "is correct.</qt>"
 msgstr "<qt>無法下載所要求檔案；<br>請檢查位址 %1 是否正確。</qt>"
 
-#: libkopete/kopetechatsession.cpp:287
+#: libkopete/kopetechatsession.cpp:289
 msgid "Outgoing Message Sent"
 msgstr "已發出訊息"
 
-#: libkopete/kopetechatsession.cpp:303
+#: libkopete/kopetechatsession.cpp:305
 msgid "A contact sent you a buzz/nudge."
 msgstr "有聯絡人發嗶聲/提示給你。"
 
-#: libkopete/kopetechatsession.cpp:597
+#: libkopete/kopetechatsession.cpp:549
+#, fuzzy, kde-format
+#| msgid "%1 is typing a message"
+msgid "User <i>%1</i> is typing a message"
+msgstr "%1 正在輸入訊息"
+
+#: libkopete/kopetechatsession.cpp:551 libkopete/kopetemetacontact.cpp:1339
+#: libkopete/kopetemetacontact.cpp:1343
+#, fuzzy
+#| msgid "Chat"
+msgctxt "@action"
+msgid "Chat"
+msgstr "聊天"
+
+#: libkopete/kopetechatsession.cpp:628
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
 msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
-#: libkopete/kopetechatsession.cpp:598
+#: libkopete/kopetechatsession.cpp:629
 msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
@@ -12077,13 +12091,6 @@ msgid ""
 msgstr ""
 "這個用戶現在聯絡不上。請確定你已連線並使用支援離線傳送的通訊協定，或等待此用"
 "戶上線。"
-
-#: libkopete/kopetemetacontact.cpp:1339 libkopete/kopetemetacontact.cpp:1343
-#, fuzzy
-#| msgid "Chat"
-msgctxt "@action"
-msgid "Chat"
-msgstr "聊天"
 
 #: libkopete/kopetemetacontact.cpp:1352
 #, kde-format
