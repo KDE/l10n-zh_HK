@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quanta\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-31 05:12+0200\n"
+"POT-Creation-Date: 2010-06-04 05:17+0200\n"
 "PO-Revision-Date: 2006-02-26 06:03+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -38,7 +38,7 @@ msgstr "另存為範本..."
 #. i18n: ectx: Menu (edit)
 #. i18n: file: quantaui.rc:31
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:9 rc.cpp:1816 rc.cpp:1849 quanta_init.cpp:2167
+#: rc.cpp:9 rc.cpp:1816 rc.cpp:1849 UNPORTED/quanta_init.cpp:2167
 #, fuzzy
 msgid "&Edit"
 msgstr "編輯(&E)..."
@@ -1157,8 +1157,8 @@ msgstr "類型(&Y)："
 #. i18n: ectx: property (text), item, widget (QComboBox)
 #. i18n: tag action attribute tooltip
 #. i18n: file: extrafiles2:1327
-#: rc.cpp:361 rc.cpp:1705 rc.cpp:3837 rc.cpp:4152 quantadoc.cpp:75
-#: quantadoc.cpp:650
+#: rc.cpp:361 rc.cpp:1705 rc.cpp:3837 rc.cpp:4152 UNPORTED/quantadoc.cpp:75
+#: UNPORTED/quantadoc.cpp:650
 msgid "Tag"
 msgstr "標籤"
 
@@ -1614,7 +1614,7 @@ msgstr "以捐獻支持 Quanta"
 
 #. i18n: file: quantacore/dialogs/dtdselectdialog.ui:28
 #. i18n: ectx: property (windowTitle), widget (QWidget, DTDSelectDialog)
-#: rc.cpp:511 quanta.cpp:2945 quanta.cpp:3088
+#: rc.cpp:511 UNPORTED/quanta.cpp:2945 UNPORTED/quanta.cpp:3088
 msgid "DTD Selector"
 msgstr "DTD 選擇器"
 
@@ -3858,7 +3858,8 @@ msgstr "工具"
 #. i18n: ectx: Menu (tags)
 #. i18n: file: quantacore/kdevquantacore.rc:35
 #. i18n: ectx: Menu (tags)
-#: rc.cpp:1795 rc.cpp:1828 quanta.cpp:1074 quanta_init.cpp:228
+#: rc.cpp:1795 rc.cpp:1828 UNPORTED/quanta.cpp:1074
+#: UNPORTED/quanta_init.cpp:228
 msgid "&Tags"
 msgstr "標籤(&T)"
 
@@ -3995,7 +3996,7 @@ msgstr "檢驗(&V)"
 #. i18n: file: data/scripts/xmlval.kmdr:88
 #. i18n: file: data/scripts/xsltproc.kmdr:79
 #: rc.cpp:1939 rc.cpp:1948 rc.cpp:2070 rc.cpp:2353 rc.cpp:2384
-#: kmdi/qextmdi/kdockwidget_compat.cpp:413
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:413
 #, fuzzy
 msgid "Close"
 msgstr "關閉(&E)"
@@ -5410,7 +5411,7 @@ msgstr "輸出檔案名稱："
 #. i18n: file: scripts/xmlval.kmdr:416
 #. i18n: file: scripts/checkxml.kmdr:90
 #. i18n: file: scripts/xmlval.kmdr:416
-#: rc.cpp:2397 rc.cpp:3184 quanta_init.cpp:2168
+#: rc.cpp:2397 rc.cpp:3184 UNPORTED/quanta_init.cpp:2168
 msgid "&Validate"
 msgstr "檢驗(&V)"
 
@@ -7623,7 +7624,7 @@ msgid "complexType"
 msgstr ""
 
 #. i18n: file: extrafiles:504
-#: rc.cpp:3547 quanta_init.cpp:399 quanta_init.cpp:400
+#: rc.cpp:3547 UNPORTED/quanta_init.cpp:399 UNPORTED/quanta_init.cpp:400
 msgid "Documentation"
 msgstr "文件"
 
@@ -10291,129 +10292,12 @@ msgid ""
 "</p>\n"
 msgstr ""
 
-#: document.cpp:334
-#, kde-format
-msgid "<qt>Cannot download <b>%1</b>.</qt>"
-msgstr "<qt>無法下載 <b>%1</b>。</qt>"
-
-#: document.cpp:347
-#, kde-format
-msgid "<qt>Cannot open <b>%1</b> for reading.</qt>"
-msgstr "<qt>無法開啟 <b>%1</b> 作讀取。</qt>"
-
-#: document.cpp:514
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</"
-#| "qt>"
-msgid ""
-"<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</qt>"
-msgstr "<qt>檔案 <b>%1</b> 已經存在。<br>您要覆寫它嗎</qt>"
-
-#: document.cpp:2234
-msgid "Change Tag & Attribute Case"
-msgstr "改變標籤 & 標籤屬性的大小寫"
-
-#: document.cpp:2253
-#, fuzzy
-#| msgid "Working..."
-msgid "Working..."
-msgstr "工作中..."
-
-#: document.cpp:2254
-msgid ""
-"Changing tag and attribute case. This may take some time, depending on the "
-"document complexity."
-msgstr "正在轉換標籤和標籤屬性的大小寫。所需的時間取決於文件的複雜程度。"
-
-#: kmdi/qextmdi/kdockwidget_compat.cpp:420
-msgid "Freeze the window geometry"
-msgstr ""
-
-#: kmdi/qextmdi/kdockwidget_compat.cpp:427
-msgid "Dock this window"
-msgstr ""
-
-#: kmdi/qextmdi/kdockwidget_compat.cpp:434
-msgid "Detach"
-msgstr "Detach"
-
-#: kmdi/qextmdi/kdockwidget_compat.cpp:3054
-#, kde-format
-msgid "Hide %1"
-msgstr "隱藏 %1"
-
-#: kmdi/qextmdi/kdockwidget_compat.cpp:3060 kmdi/qextmdi/kmdiguiclient.cpp:215
-#, kde-format
-msgid "Show %1"
-msgstr "顯示 %1"
-
-#: kmdi/qextmdi/kmdidockcontainer.cpp:187
-msgid "Switch between overlap and side by side mode"
-msgstr ""
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:122
-#, fuzzy
-#| msgid "Next Tool View"
-msgid "Tool &Views"
-msgstr "下一個工具檢視"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:123
-msgid "MDI Mode"
-msgstr "多重文件模式"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:125
-msgid "&Toplevel Mode"
-msgstr "最上層模式(&T)"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:125
-msgid "C&hildframe Mode"
-msgstr "子頁面模式(&H)"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:125
-msgid "Ta&b Page Mode"
-msgstr "標籤頁模式 (&B)"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:125
-#, fuzzy
-#| msgid "I&DEAl Mode"
-msgid "I&DEAL Mode"
-msgstr "I&DEAl 模式"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:131
-msgid "Tool &Docks"
-msgstr "工具 Docks(&D)"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:132
-msgid "Switch Top Dock"
-msgstr "切換到上方的 Dock"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:134
-msgid "Switch Left Dock"
-msgstr "切換到左邊的 Dock"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:136
-msgid "Switch Right Dock"
-msgstr "切換到右邊的 Dock"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:138
-msgid "Switch Bottom Dock"
-msgstr "切換到下方的 Dock"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:141
-msgid "Previous Tool View"
-msgstr "上一個工具檢視"
-
-#: kmdi/qextmdi/kmdiguiclient.cpp:143
-msgid "Next Tool View"
-msgstr "下一個工具檢視"
-
 #: lib/basetreeview.cpp:380
 msgid "Quanta File Info"
 msgstr "Quanta 檔案資訊"
 
-#: lib/basetreeview.cpp:383 main.cpp:63
-#: plugins/templatestree/templatestreeview.cpp:592 src/main.cpp:95
+#: lib/basetreeview.cpp:383 plugins/templatestree/templatestreeview.cpp:592
+#: src/main.cpp:95 UNPORTED/main.cpp:63
 msgid "Quanta"
 msgstr "Quanta"
 
@@ -10505,7 +10389,7 @@ msgstr "建立檔案時發生錯誤"
 msgid "*|All Files"
 msgstr "*|所有檔案"
 
-#: lib/helper.cpp:36 quantacommon.cpp:582
+#: lib/helper.cpp:36 UNPORTED/quantacommon.cpp:582
 msgid ""
 "The file type is not recognized.   Opening binary files may confuse Quanta.\n"
 " Are you sure you want to open this file?"
@@ -10513,7 +10397,7 @@ msgstr ""
 "無法適別檔案類型。   如果檔案類型是二進制的，有可能會混淆 Quanta 的。\n"
 " 您真的要開啟這檔案?"
 
-#: lib/helper.cpp:38 quantacommon.cpp:584
+#: lib/helper.cpp:38 UNPORTED/quantacommon.cpp:584
 msgid "Unknown Type"
 msgstr "未知的類型"
 
@@ -10609,138 +10493,6 @@ msgstr "<qt>篩選動作 <b>%1</b> 似乎已當掉了。<br>您要終止它嗎?<
 msgid "Action Not Responding"
 msgstr "動作不回應"
 
-#: main.cpp:40 src/main.cpp:86
-msgid "Quanta Plus Web Development Environment"
-msgstr "Quanta Plus 網頁開發環境"
-
-#: main.cpp:44
-#, fuzzy
-msgid ""
-"Our goal is to be nothing less than the best possible tool for\n"
-" working with tagging and scripting languages.\n"
-"\n"
-"Quanta Plus is not in any way affiliated with any commercial\n"
-" versions of Quanta. \n"
-"\n"
-"We hope you enjoy Quanta Plus.\n"
-"\n"
-msgstr ""
-"我們的目標是成為標籤及指令語言工具的王者。\n"
-"\n"
-"Quanta Plus 與所有 Quanta 商業版本之間沒有任何關聯。\n"
-"\n"
-"希望您可以盡情享受 Quanta Plus。\n"
-"\n"
-
-#: main.cpp:53
-#, fuzzy
-msgid "File to open"
-msgstr "要開啟的檔案"
-
-#: main.cpp:54
-#, fuzzy
-#| msgid "Whether we start as a one-instance application"
-msgid "Whether we start as a one-instance application."
-msgstr "是否以單一實體啟動 Quanta"
-
-#: main.cpp:55
-#, fuzzy
-#| msgid "Do not show the nice logo during startup"
-msgid "Do not show the nice logo during startup."
-msgstr "啟動時不要顯示那個好看的標誌"
-
-#: main.cpp:72
-#, fuzzy
-#| msgid "Project Lead - public liaison"
-msgid "Project Lead - public liason"
-msgstr "專案主管 - 外界聯繫"
-
-#: main.cpp:73 src/main.cpp:100
-msgid "Program Lead - bug squisher"
-msgstr "程式主管 - 除蟲工人"
-
-#: main.cpp:74 main.cpp:75
-msgid "Inactive - left for commercial version"
-msgstr "不活躍 - 開發商業版本而離開了"
-
-#: main.cpp:78
-msgid "Coding and tag dialog definition documentation and more"
-msgstr ""
-
-#: main.cpp:82
-#, fuzzy
-#| msgid "Various fixes, table editor maintainer"
-msgid "Various fixes, scripting dialog system"
-msgstr "各種修補，表格編輯器的維護人員"
-
-#: main.cpp:86
-#, fuzzy
-#| msgid ""
-#| "Original documentation, many cool parsing scripts to automate \n"
-#| "development"
-msgid ""
-"Documentation, many cool parsing scripts to automate \n"
-"development"
-msgstr "以前的文件，寫了很多解析指令稿加快效率"
-
-#: main.cpp:90
-msgid ""
-"Various fixes, foundational code for the old DTD parsing and other \n"
-"DTD related work"
-msgstr "各樣修補，貢獻了以前的 DTD 解析器及其他 DTD 相關工作"
-
-#: main.cpp:94
-msgid "Tree based upload dialog"
-msgstr "樹狀表示的上傳對話框"
-
-#: main.cpp:98
-msgid "Addition and maintenance of DTDs"
-msgstr "加入和維護 DTD"
-
-#: main.cpp:102
-msgid "Visual Page Layout part, new undo/redo system"
-msgstr "VPL，新的復原/重做系統"
-
-#: main.cpp:106
-msgid "Frame wizard, CSS wizard"
-msgstr "框架精靈，CSS 精靈"
-
-#: main.cpp:110
-msgid "Crash recovery"
-msgstr "當機回復"
-
-#: main.cpp:114
-#, fuzzy
-#| msgid "Improvements to the treeview code; code review and cleanup"
-msgid "Cleanup of the treeview code, code review"
-msgstr "改進樹狀檢視的代碼；代碼簡化"
-
-#: main.cpp:118
-msgid "Original CSS editor"
-msgstr "原本的 CSS 編輯器"
-
-#: main.cpp:122
-msgid "Cool splash screen for many version releases of Quanta"
-msgstr "Quanta 很多版本中又棒又酷的啟動畫面"
-
-#: main.cpp:126
-msgid "Danish translation"
-msgstr "翻譯成丹麥文"
-
-#: main.cpp:130
-#, fuzzy
-#| msgid "Part of a code for the old PHP4 Debugger"
-msgid "Part of a code for PHP4 Debugger"
-msgstr "舊版 PHP4 除錯器的一部分代碼"
-
-#: main.cpp:134
-msgid "XSLT tags, XSLT debugger"
-msgstr ""
-
-#: main.cpp:138
-msgid "Splash screen and icon for 3.2"
-msgstr "3.2 版的啟動畫面及圖示"
-
 #: parser/dtd.cpp:127 parser/dtdparser.cpp:74
 #: quantacore/parsers/dtd/dtdparser.cpp:79
 #, kde-format
@@ -10767,7 +10519,8 @@ msgstr "DTD 中找不到任何元素。"
 msgid "%1 block"
 msgstr "%1 區塊"
 
-#: plugins/createproject/createquantaprojectpart.cpp:91 quanta_init.cpp:1984
+#: plugins/createproject/createquantaprojectpart.cpp:91
+#: UNPORTED/quanta_init.cpp:1984
 msgid "&New Project..."
 msgstr "新的專案(&N)..."
 
@@ -10892,7 +10645,7 @@ msgid "Project Manager"
 msgstr "專案名稱(&N)："
 
 #: plugins/project/quantaproject/quantaprojectpart.cpp:112
-#: quanta_init.cpp:2029
+#: UNPORTED/quanta_init.cpp:2029
 msgid "&Insert Files..."
 msgstr "插入檔案(&I)..."
 
@@ -10977,7 +10730,7 @@ msgstr "未知的標籤"
 msgid "Tag Properties: "
 msgstr "標籤屬性："
 
-#: plugins/tagdialogs/tagdialogspart.cpp:102 quanta_init.cpp:1676
+#: plugins/tagdialogs/tagdialogspart.cpp:102 UNPORTED/quanta_init.cpp:1676
 msgid "&Edit Current Tag..."
 msgstr "編輯目前的標籤(&E)..."
 
@@ -11331,10 +11084,11 @@ msgid "Add Action to Toolbar"
 msgstr "加入動作到工具列中"
 
 #: plugins/usertoolbars/actionconfigdialog.cpp:917
-#: plugins/usertoolbars/usertoolbarspart.cpp:701 quanta.cpp:2499
-#: quanta.cpp:2503 quanta.cpp:2635 quanta.cpp:2639 quanta.cpp:2668
-#: quanta.cpp:2672 quanta.cpp:2740 quanta.cpp:2744
+#: plugins/usertoolbars/usertoolbarspart.cpp:701
 #: toolbar/actionconfigdialog.cpp:821 toolbar/actionconfigdialog.cpp:825
+#: UNPORTED/quanta.cpp:2499 UNPORTED/quanta.cpp:2503 UNPORTED/quanta.cpp:2635
+#: UNPORTED/quanta.cpp:2639 UNPORTED/quanta.cpp:2668 UNPORTED/quanta.cpp:2672
+#: UNPORTED/quanta.cpp:2740 UNPORTED/quanta.cpp:2744
 msgid "Please select a toolbar:"
 msgstr "請選擇一個工具列："
 
@@ -11360,9 +11114,9 @@ msgstr "新的工具列..."
 
 #: plugins/usertoolbars/toolbartabwidget.cpp:43
 #: plugins/usertoolbars/usertoolbar.cpp:158
-#: plugins/usertoolbars/usertoolbarspart.cpp:712 quanta.cpp:2634
-#: quanta.cpp:2638 toolbar/toolbartabwidget.cpp:41
-#: toolbar/toolbartabwidget.cpp:196
+#: plugins/usertoolbars/usertoolbarspart.cpp:712
+#: toolbar/toolbartabwidget.cpp:41 toolbar/toolbartabwidget.cpp:196
+#: UNPORTED/quanta.cpp:2634 UNPORTED/quanta.cpp:2638
 msgid "Remove Toolbar"
 msgstr "移除工具列"
 
@@ -11411,23 +11165,23 @@ msgstr "編輯動作 - %1"
 msgid "<qt>Are you sure you want to remove the <b>%1</b> action?</qt>"
 msgstr "<qt>您真的要移除 <b>%1</b> 動作嗎?</qt>"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:202 quanta_init.cpp:2064
+#: plugins/usertoolbars/usertoolbarspart.cpp:202 UNPORTED/quanta_init.cpp:2064
 msgid "Load &Project Toolbar"
 msgstr "載入專案工具列(&P)"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:206 quanta_init.cpp:2067
+#: plugins/usertoolbars/usertoolbarspart.cpp:206 UNPORTED/quanta_init.cpp:2067
 msgid "Load &Global Toolbar..."
 msgstr "載入全域工具列(&G)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:209 quanta_init.cpp:2068
+#: plugins/usertoolbars/usertoolbarspart.cpp:209 UNPORTED/quanta_init.cpp:2068
 msgid "Load &Local Toolbar..."
 msgstr "載入本地工具列(&L)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:212 quanta_init.cpp:2069
+#: plugins/usertoolbars/usertoolbarspart.cpp:212 UNPORTED/quanta_init.cpp:2069
 msgid "Save as &Local Toolbar..."
 msgstr "另存為本地工具列(&L)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:215 quanta_init.cpp:2070
+#: plugins/usertoolbars/usertoolbarspart.cpp:215 UNPORTED/quanta_init.cpp:2070
 msgid "Save as &Project Toolbar..."
 msgstr "另存為專案工具列(&P)..."
 
@@ -11435,11 +11189,11 @@ msgstr "另存為專案工具列(&P)..."
 msgid "&New User Toolbar..."
 msgstr "新的使用者工具列(&N)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:221 quanta_init.cpp:2072
+#: plugins/usertoolbars/usertoolbarspart.cpp:221 UNPORTED/quanta_init.cpp:2072
 msgid "&Remove User Toolbar..."
 msgstr "移除使用者工具列(&R)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:224 quanta_init.cpp:2073
+#: plugins/usertoolbars/usertoolbarspart.cpp:224 UNPORTED/quanta_init.cpp:2073
 msgid "Re&name User Toolbar..."
 msgstr "重新命名使用者工具列(&N)..."
 
@@ -11455,7 +11209,7 @@ msgstr "上傳的工具列(&U)..."
 msgid "&Download Toolbar..."
 msgstr "下載工具列(&D)..."
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:236 quanta_init.cpp:2055
+#: plugins/usertoolbars/usertoolbarspart.cpp:236 UNPORTED/quanta_init.cpp:2055
 msgid "Configure &Actions..."
 msgstr "設定動作(&A)..."
 
@@ -11478,12 +11232,12 @@ msgstr ""
 #: plugins/usertoolbars/usertoolbarspart.cpp:584
 #: plugins/usertoolbars/usertoolbarspart.cpp:587
 #: plugins/usertoolbars/usertoolbarspart.cpp:731
-#: plugins/usertoolbars/usertoolbarspart.cpp:1029 quanta.cpp:2498
-#: quanta.cpp:2502 quanta.cpp:3331 quanta.cpp:3336
+#: plugins/usertoolbars/usertoolbarspart.cpp:1029 UNPORTED/quanta.cpp:2498
+#: UNPORTED/quanta.cpp:2502 UNPORTED/quanta.cpp:3331 UNPORTED/quanta.cpp:3336
 msgid "Save Toolbar"
 msgstr "儲存工具列"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:587 quanta.cpp:3335
+#: plugins/usertoolbars/usertoolbarspart.cpp:587 UNPORTED/quanta.cpp:3335
 #, kde-format
 msgid ""
 "<qt>The toolbar <b>%1</b> was modified. Do you want to save it before it is "
@@ -11512,30 +11266,31 @@ msgstr ""
 msgid "Toolbar Saving Error"
 msgstr "工具列儲存錯誤"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:906 quanta.cpp:2580
+#: plugins/usertoolbars/usertoolbarspart.cpp:906 UNPORTED/quanta.cpp:2580
 msgid "New Toolbar"
 msgstr "新的工具列"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:906 quanta.cpp:2579
+#: plugins/usertoolbars/usertoolbarspart.cpp:906 UNPORTED/quanta.cpp:2579
 msgid "Enter toolbar name:"
 msgstr "請輸入工具列名稱："
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:906 quanta.cpp:2579
+#: plugins/usertoolbars/usertoolbarspart.cpp:906 UNPORTED/quanta.cpp:2579
 #, kde-format
 msgid "User_%1"
 msgstr "User_%1"
 
 #: plugins/usertoolbars/usertoolbarspart.cpp:962
-#: plugins/usertoolbars/usertoolbarspart.cpp:974 quanta.cpp:2739
-#: quanta.cpp:2743 quanta.cpp:2758 toolbar/toolbartabwidget.cpp:197
+#: plugins/usertoolbars/usertoolbarspart.cpp:974
+#: toolbar/toolbartabwidget.cpp:197 UNPORTED/quanta.cpp:2739
+#: UNPORTED/quanta.cpp:2743 UNPORTED/quanta.cpp:2758
 msgid "Rename Toolbar"
 msgstr "重新命名工具列"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:974 quanta.cpp:2757
+#: plugins/usertoolbars/usertoolbarspart.cpp:974 UNPORTED/quanta.cpp:2757
 msgid "Enter the new name:"
 msgstr "請輸入新的名稱："
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:1053 quanta.cpp:2693
+#: plugins/usertoolbars/usertoolbarspart.cpp:1053 UNPORTED/quanta.cpp:2693
 msgid "Send toolbar in email"
 msgstr "以 Email 傳送工具列"
 
@@ -11553,8 +11308,8 @@ msgstr ""
 "\n"
 "Have fun.\n"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:1059 quanta.cpp:2699
-#: quanta.cpp:3620
+#: plugins/usertoolbars/usertoolbarspart.cpp:1059 UNPORTED/quanta.cpp:2699
+#: UNPORTED/quanta.cpp:3620
 msgid "Content:"
 msgstr "內容："
 
@@ -11563,8 +11318,8 @@ msgstr "內容："
 msgid "KDevelop/Quanta Plus toolbar"
 msgstr "Quanta Plus 工具列"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:1070 quanta.cpp:2712
-#: quanta.cpp:3634
+#: plugins/usertoolbars/usertoolbarspart.cpp:1070 UNPORTED/quanta.cpp:2712
+#: UNPORTED/quanta.cpp:3634
 msgid ""
 "No destination address was specified.\n"
 " Sending is aborted."
@@ -11572,881 +11327,10 @@ msgstr ""
 "沒有指定要傳送的地址。\n"
 " 傳送已中止。"
 
-#: plugins/usertoolbars/usertoolbarspart.cpp:1070 quanta.cpp:2712
-#: quanta.cpp:3634
+#: plugins/usertoolbars/usertoolbarspart.cpp:1070 UNPORTED/quanta.cpp:2712
+#: UNPORTED/quanta.cpp:3634
 msgid "Error Sending Email"
 msgstr "傳送郵件時發生錯誤"
-
-#: quanta.cpp:168
-msgid "Highlight &Mode"
-msgstr ""
-
-#: quanta.cpp:183 quanta.cpp:191
-msgid "Open File"
-msgstr "開啟檔案"
-
-#: quanta.cpp:227
-#, kde-format
-msgid ""
-"The file %1 does not exist.\n"
-" Do you want to remove it from the list?"
-msgstr ""
-"檔案 %1 不存在。\n"
-" 您要從清單移除它嗎？"
-
-#: quanta.cpp:314 quanta.cpp:321
-msgid "Save File"
-msgstr "儲存檔案"
-
-#: quanta.cpp:330
-#, kde-format
-msgid "<qt>Do you want to add the<br><b>%1</b><br>file to project?</qt>"
-msgstr "<qt>您要把<br><b>%1</b><br>檔案加入到專案中嗎？</qt>"
-
-#: quanta.cpp:382
-#, fuzzy, kde-format
-#| msgid ""
-#| "You must save the templates in the following folder: \n"
-#| "\n"
-#| "%1"
-msgid ""
-"You must save the templates in the following directory: \n"
-"\n"
-"%1"
-msgstr ""
-"您需要把範本儲存到下面的目錄裏：\n"
-"\n"
-"%1"
-
-#: quanta.cpp:680
-msgid "<center><h3>The current document is empty...</h3></center>"
-msgstr "<center><h3>目前的文件是空白的...</h3></center>"
-
-#: quanta.cpp:788
-msgid " OVR "
-msgstr " 覆寫 "
-
-#: quanta.cpp:788
-msgid " INS "
-msgstr " 插入 "
-
-#: quanta.cpp:792 quanta.cpp:1476
-msgid " R/O "
-msgstr " 唯讀 "
-
-#: quanta.cpp:847 quanta.cpp:858 quantadoc.cpp:700
-msgid "[modified]"
-msgstr "[已修改]"
-
-#: quanta.cpp:1073 quanta_init.cpp:2160
-msgid "Plu&gins"
-msgstr "外掛程式(&G)"
-
-#: quanta.cpp:1099
-msgid "Configure Quanta"
-msgstr "設定 Quanta"
-
-#: quanta.cpp:1104
-msgid "Tag Style"
-msgstr "標籤風格"
-
-#: quanta.cpp:1117
-#, fuzzy
-msgid "Environment"
-msgstr "環境"
-
-#: quanta.cpp:1156
-msgid "Layout"
-msgstr ""
-
-#: quanta.cpp:1164
-msgid "VPL View"
-msgstr "VPL 預覽"
-
-#: quanta.cpp:1168
-msgid "Parser"
-msgstr "解析器"
-
-#: quanta.cpp:1195
-msgid "Abbreviations"
-msgstr "縮寫"
-
-#: quanta.cpp:1218
-#, fuzzy
-#| msgid "PHP4 debugger"
-msgid "PHP Debug"
-msgstr "PHP4 除錯器"
-
-#: quanta.cpp:1225
-#, fuzzy
-#| msgid "Scrolling"
-msgid "Spelling"
-msgstr "捲動"
-
-#: quanta.cpp:1474 quanta.cpp:1501
-#, kde-format
-msgid "Line: %1 Col: %2"
-msgstr "行: %1 字: %2"
-
-#: quanta.cpp:1607 quanta.cpp:1657 quanta.cpp:1750
-msgid ""
-"Switch to the Structure Tree in order to turn on the error recognition.\n"
-msgstr ""
-
-#: quanta.cpp:2057
-#, kde-format
-msgid "Open File: %1"
-msgstr "開啟檔案：%1"
-
-#: quanta.cpp:2061 quanta_init.cpp:2088
-msgid "Open File: none"
-msgstr "開啟檔案： 無"
-
-#: quanta.cpp:2189
-#, fuzzy
-#| msgid ""
-#| "Cannot load the toolbars from the archive.\n"
-#| "Check that the filenames inside the archives begin with the archive name."
-msgid ""
-"Cannot load the toolbars from the archive.\n"
-"Check that the filenames inside the archives begin with the archive name!"
-msgstr ""
-"無法從壓縮包中載入工具列。\n"
-"請確定壓縮包內的檔案名稱與壓縮包前檔名(不包括它本身的副檔名)一樣。"
-
-#: quanta.cpp:2540
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>You must save the toolbars to the following folder: <br><br><b>%1</"
-#| "b></qt>"
-msgid ""
-"<qt>You must save the toolbars in the following directory: <br><br><b>%1</"
-"b></qt>"
-msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
-
-#: quanta.cpp:2555
-#, fuzzy, kde-format
-msgid ""
-"<qt>An error happened while saving the <b>%1</b> toolbar.<br>Check that you "
-"have write permissions for<br><b>%2</b></qt>"
-msgstr ""
-"<qt>建立範本檔案時發生錯誤。<br>請確定您對 <i>%1</i> 擁有寫入權限。</qt>"
-
-#: quanta.cpp:2667 quanta.cpp:2671
-msgid "Send Toolbar"
-msgstr "傳送工具列"
-
-#: quanta.cpp:2695
-#, fuzzy
-msgid ""
-"Hi,\n"
-" This is a Quanta Plus [http://quanta.sourceforge.net] toolbar.\n"
-"\n"
-"Have fun.\n"
-msgstr ""
-"您好，\n"
-"　這個是一個 Quanta Plus [http://quanta.sourceforge.net] 範本。\n"
-"\n"
-"Have fun.\n"
-
-#: quanta.cpp:2707
-#, fuzzy
-msgid "Quanta Plus toolbar"
-msgstr "Quanta Plus 工具列"
-
-#: quanta.cpp:3019
-msgid "This DTD is not known for Quanta. Choose a DTD or create a new one."
-msgstr "Quanta 不認識這個 DTD。請選擇一個已知的 DTD 或建立一個新的。"
-
-#: quanta.cpp:3077
-#, kde-format
-msgid "\"%1\" is used for \"%2\".\n"
-msgstr "\"%2\" 正在使用 \"%1\"。\n"
-
-#: quanta.cpp:3123 quantacore/quantacorepart.cpp:428
-msgid "Change the current DTD."
-msgstr "更換目前的 DTD。"
-
-#: quanta.cpp:3330
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Toolbar <b>%1</b> is new and unsaved. Do you want to save it before "
-#| "it is removed?</qt>"
-msgid ""
-"<qt>Toolbar <b>%1/<b> is new and unsaved. Do you want to save it before it "
-"is removed?</qt>"
-msgstr ""
-"<qt>工具列<b>%1</b>是新的而且未被儲存。您要在它被移除之前儲存它嗎?</qt>"
-
-#: quanta.cpp:3568 quanta.cpp:3572
-msgid "Send DTD"
-msgstr "傳送 DTD"
-
-#: quanta.cpp:3569 quanta.cpp:3573
-msgid "Please select a DTD:"
-msgstr "請選擇一個 DTD："
-
-#: quanta.cpp:3614
-#, fuzzy
-#| msgid "Send DTEP in Email"
-msgid "Send DTD in email"
-msgstr "以 Email 傳送 DTEP"
-
-#: quanta.cpp:3616
-#, fuzzy
-msgid ""
-"Hi,\n"
-" This is a Quanta Plus [http://quanta.sourceforge.net] DTD definition "
-"tarball.\n"
-"\n"
-"Have fun.\n"
-msgstr ""
-"您好,\n"
-"　這個是一個 Quanta Plus [http://quanta.sourceforge.net] DTEP 定義的"
-"tarball.\n"
-"\n"
-"Have fun.\n"
-
-#: quanta.cpp:3629
-msgid "Quanta Plus DTD"
-msgstr "Quanta Plus DTD"
-
-#: quanta.cpp:3653
-msgid "The Document Properties Dialog is only for HTML and XHTML."
-msgstr "文件屬性對話櫂只能被 HTML 及 XHTML 使用。"
-
-#: quanta.cpp:3767
-#, fuzzy, kde-format
-#| msgid "<qt>Do you really want to delete the <b>%1</b> group?</qt>"
-msgid "<qt>Do you really want to delete the file <b>%1</b> ?</qt>"
-msgstr "<qt>您真的要刪除 <b>%1</b> 組別?</qt>"
-
-#: quanta.cpp:3769 quanta_init.cpp:2090
-msgid "Delete File"
-msgstr "刪除檔案"
-
-#: quanta.cpp:4058 quanta.cpp:4090 quantacore/dtds.cpp:885
-#: quantacore/dtds.cpp:917
-#, kde-format
-msgid "<qt>Do you want to replace the existing <b>%1</b> DTD?</qt>"
-msgstr "<qt>您要取代目前的 <b>%1</b> DTD 嗎?</qt>"
-
-#: quanta.cpp:4067 quanta.cpp:4111
-#, kde-format
-msgid "<qt>Use the newly loaded <b>%1</b> DTD for the current document?</qt>"
-msgstr "<qt>要對目前的文件使用剛載入的 <b>%1</b> DTD 嗎?</qt>"
-
-#: quanta.cpp:4067 quanta.cpp:4111
-msgid "Change DTD"
-msgstr "更改 DTD"
-
-#: quanta.cpp:4081
-#, fuzzy
-#| msgid "Select DTEP Directory"
-msgid "Select A DTEP Directory"
-msgstr "選擇 DTEP 目錄"
-
-#: quanta.cpp:4097
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Cannot read the DTEP from <b>%1</b>. Check that the folder contains a "
-#| "valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
-msgid ""
-"<qt>Cannot read the DTEP from <b>%1</b>. Check that the directory contains a "
-"valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
-msgstr ""
-"<qt>無法從 <b>%1</b> 讀取 DTEP。請檢查該目錄包含一個有效的 DTEP "
-"(<i>description.rc 及 *.tag 檔案</i>)。</qt>"
-
-#: quanta.cpp:4097
-#, fuzzy
-#| msgid "Error Loading DTEP"
-msgid "Error loading DTEP"
-msgstr "載入 DTEP 時發生錯誤"
-
-#: quanta.cpp:4101 quantacore/dtds.cpp:928
-#, fuzzy, kde-format
-msgid "<qt>Autoload the <b>%1</b> DTD in the feature?</qt>"
-msgstr "<qt>以後自動載入 <b>%1</b> DTD 嗎?</qt>"
-
-#: quanta.cpp:4163
-msgid ""
-"The file must be saved before external preview.\n"
-"Do you want to save and preview?"
-msgstr ""
-"這個檔案在外部預覽前要先被儲存。\n"
-"您要儲存它來繼續預覽嗎?"
-
-#: quanta.cpp:4165
-msgid "Save Before Preview"
-msgstr "預覽前儲存"
-
-#: quanta.cpp:4166
-#, fuzzy
-msgid "&Yes"
-msgstr "使用者"
-
-#: quanta.cpp:4166
-#, fuzzy
-#| msgid "&None"
-msgid "&No"
-msgstr "無(&N)"
-
-#: quanta_init.cpp:116
-#, fuzzy
-#| msgid ""
-#| "You may have forgotten to run \"make install\", or your KDEDIR, KDEDIRS "
-#| "or PATH are not set correctly."
-msgid ""
-"Quanta data files were not found.\n"
-"You might forgot to run \"make install\",or your KDEDIR, KDEDIRS or PATH is "
-"not set correctly.!"
-msgstr ""
-"您可能忘記了執行 \"make install\"，或環境變數 KDEDIR, KDEDIRS 或 PATH 不正"
-"確。"
-
-#: quanta_init.cpp:292
-msgid "Line: 00000 Col: 000"
-msgstr "行: 00000 字: 000"
-
-#: quanta_init.cpp:381
-#, fuzzy
-#| msgid "CSS Editor"
-msgid "Editor"
-msgstr "CSS 編輯器"
-
-#: quanta_init.cpp:382 quanta_init.cpp:383
-#, fuzzy
-#| msgid "Message Window"
-msgid "Message output"
-msgstr "訊息視窗"
-
-#: quanta_init.cpp:384 quanta_init.cpp:385
-msgid "Problem reporter"
-msgstr ""
-
-#: quanta_init.cpp:387 quanta_init.cpp:388
-#, fuzzy
-#| msgid "Attribute Editor"
-msgid "Attribute tree view"
-msgstr "標籤屬性編輯器"
-
-#: quanta_init.cpp:389 quanta_init.cpp:390
-#, fuzzy
-#| msgid "Files Tree"
-msgid "Files tree view"
-msgstr "檔案樹狀"
-
-#: quanta_init.cpp:391 quanta_init.cpp:392
-#, fuzzy
-msgid "Project tree view"
-msgstr "專案已開啟"
-
-#: quanta_init.cpp:393 quanta_init.cpp:394
-#, fuzzy
-msgid "Templates tree view"
-msgstr "範本"
-
-#: quanta_init.cpp:395 quanta_init.cpp:396
-#, fuzzy
-#| msgid "Script Action"
-msgid "Scripts tree view"
-msgstr "指令稿動作"
-
-#: quanta_init.cpp:397 quanta_init.cpp:398
-#, fuzzy
-msgid "Structure view (DOM tree)"
-msgstr "結構結束:"
-
-#: quanta_init.cpp:469
-#, fuzzy
-#| msgid "Message Window..."
-msgid "Message Window...\n"
-msgstr "訊息視窗..."
-
-#: quanta_init.cpp:813
-#, kde-format
-msgid "Can't bind port %1, PHP3 debugger disabled"
-msgstr ""
-
-#: quanta_init.cpp:815
-#, fuzzy, kde-format
-#| msgid "Unable to listen on port %1"
-msgid "PHP3 debugger listens at port %1"
-msgstr "無法監聽連接埠 %1"
-
-#: quanta_init.cpp:1076
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
-#| "line %3, column %4.</i></qt>"
-msgid ""
-"<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
-"line %3, column %4.</i></qt>"
-msgstr ""
-"<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
-
-#: quanta_init.cpp:1077 quantacore/dtds.cpp:661
-msgid "Invalid Tag File"
-msgstr "無效的標籤檔案"
-
-#: quanta_init.cpp:1679
-msgid "E&xpand Abbreviation"
-msgstr "展開縮寫(&X)"
-
-#: quanta_init.cpp:1692
-#, fuzzy
-msgid "Paste"
-msgstr "暫停(&P)"
-
-#: quanta_init.cpp:1699
-#, fuzzy
-#| msgid "Replace Selection"
-msgid "Toggle &Block Selection"
-msgstr "取代選擇區域"
-
-#: quanta_init.cpp:1701
-#, fuzzy
-#| msgid "Overwrite"
-msgid "Overwrite Mode"
-msgstr "覆寫"
-
-#: quanta_init.cpp:1709
-#, fuzzy
-msgid "&Indent"
-msgstr "反向選擇(&I)"
-
-#: quanta_init.cpp:1711
-msgid "Unindent"
-msgstr ""
-
-#: quanta_init.cpp:1713
-#, fuzzy
-#| msgid "Apply Source Indentation"
-msgid "Cl&ean Indentation"
-msgstr "執行原始碼縮排"
-
-#: quanta_init.cpp:1716
-#, fuzzy
-#| msgid "Comment"
-msgid "Co&mment"
-msgstr "註解"
-
-#: quanta_init.cpp:1718
-#, fuzzy
-#| msgid "Comment"
-msgid "Unc&omment"
-msgstr "註解"
-
-#: quanta_init.cpp:1721
-msgid "Apply &Word Wrap"
-msgstr ""
-
-#: quanta_init.cpp:1731
-#, fuzzy
-#| msgid "Clear &Bookmark"
-msgid "Toggle &Bookmark"
-msgstr "清除標記(&B)"
-
-#: quanta_init.cpp:1733
-#, fuzzy
-#| msgid "Clear &Bookmark"
-msgid "&Clear Bookmarks"
-msgstr "清除標記(&B)"
-
-#: quanta_init.cpp:1737
-msgid "Show &Icon Border"
-msgstr ""
-
-#: quanta_init.cpp:1739
-msgid "Show &Line Numbers"
-msgstr ""
-
-#: quanta_init.cpp:1743
-msgid "Ti&p of the Day"
-msgstr "每日小提示(&P)"
-
-#: quanta_init.cpp:1748
-msgid "&Dynamic Word Wrap"
-msgstr ""
-
-#: quanta_init.cpp:1751
-#, fuzzy
-#| msgid "Configure..."
-msgid "Configure &Editor..."
-msgstr "設定..."
-
-#: quanta_init.cpp:1755
-msgid "End of &Line"
-msgstr ""
-
-#: quanta_init.cpp:1760
-msgid "&Unix"
-msgstr ""
-
-#: quanta_init.cpp:1761
-#, fuzzy
-#| msgid "&Window"
-msgid "&Windows/DOS"
-msgstr "視窗(&W)"
-
-#: quanta_init.cpp:1762
-#, fuzzy
-#| msgid "&Main"
-msgid "&Macintosh"
-msgstr "主要(&M)"
-
-#: quanta_init.cpp:1771
-msgid "Close Other Tabs"
-msgstr "關閉其他分頁"
-
-#: quanta_init.cpp:1774
-#, fuzzy
-#| msgid "Open / Open Recent"
-msgid "Open &Recent"
-msgstr "開啟 / 開啟最近的"
-
-#: quanta_init.cpp:1782
-msgid "Open / Open Recent"
-msgstr "開啟 / 開啟最近的"
-
-#: quanta_init.cpp:1785
-msgid "Close All"
-msgstr "關閉全部"
-
-#: quanta_init.cpp:1793
-msgid "Save All..."
-msgstr "儲存全部..."
-
-#: quanta_init.cpp:1796
-#, fuzzy
-msgid "Reloa&d"
-msgstr "重新載入(&D)"
-
-#: quanta_init.cpp:1801
-msgid "Save as Local Template..."
-msgstr "另存為本地範本..."
-
-#: quanta_init.cpp:1804
-msgid "Save as Project Template..."
-msgstr "另存為專案範本..."
-
-#: quanta_init.cpp:1808
-msgid "Save Selection to Local Template File..."
-msgstr "另存選擇區域到一個本地範本檔案..."
-
-#: quanta_init.cpp:1811
-msgid "Save Selection to Project Template File..."
-msgstr "另存選擇項目至專案範本檔案..."
-
-#: quanta_init.cpp:1819
-#, fuzzy
-msgid "&List Opened Files..."
-msgstr "開啟檔案"
-
-#: quanta_init.cpp:1831
-msgid "Find in Files..."
-msgstr "於檔案中找尋"
-
-#: quanta_init.cpp:1838
-#, fuzzy
-#| msgid "&Context Help..."
-msgid "Context &Help..."
-msgstr "系絡求助(&C)..."
-
-#: quanta_init.cpp:1842 quantacore/quantacorepart.cpp:122
-msgid "&Quanta Homepage"
-msgstr "&Quanta 主頁"
-
-#: quanta_init.cpp:1846 quantacore/quantacorepart.cpp:126
-msgid "&User Mailing List"
-msgstr "用戶求助郵件列表(&U)"
-
-#: quanta_init.cpp:1850
-msgid "Make &Donation"
-msgstr "捐獻(&D)"
-
-#: quanta_init.cpp:1854
-msgid "Tag &Attributes..."
-msgstr "標籤的屬性(&A)..."
-
-#: quanta_init.cpp:1858
-#, fuzzy
-msgid "&Change the DTD..."
-msgstr "更換 DTD (&C)..."
-
-#: quanta_init.cpp:1862
-msgid "&Load && Convert DTD..."
-msgstr "載入 && 轉換 DTD(&L)..."
-
-#: quanta_init.cpp:1866
-msgid "Load DTD &Package (DTEP)..."
-msgstr "載入 DTD 套件(DTE&P)..."
-
-#: quanta_init.cpp:1870
-#, fuzzy
-#| msgid "Send DTD Package (DTEP) in E&mail..."
-msgid "Send DTD Package (DTEP) in E-&Mail"
-msgstr "以電子郵件傳送 DTD 套件(&M)..."
-
-#: quanta_init.cpp:1875
-msgid "&Document Properties"
-msgstr "文件屬性(&D)"
-
-#: quanta_init.cpp:1880
-msgid "&Convert Tag && Attribute Case..."
-msgstr "轉換標籤 && 標籤屬性的大小寫(&C)..."
-
-#: quanta_init.cpp:1887
-#, fuzzy
-#| msgid "Files Tree"
-msgid "Show Files Tree"
-msgstr "檔案樹狀"
-
-#: quanta_init.cpp:1891
-#, fuzzy
-msgid "Show Project Tree"
-msgstr "專案已開啟"
-
-#: quanta_init.cpp:1895
-#, fuzzy
-msgid "Show Templates Tree"
-msgstr "範本"
-
-#: quanta_init.cpp:1899
-#, fuzzy
-#| msgid "Show Groups For"
-msgid "Show Scripts Tree"
-msgstr "對此顯示組別"
-
-#: quanta_init.cpp:1903
-#, fuzzy
-msgid "Show Structure Tree"
-msgstr "結構結束:"
-
-#: quanta_init.cpp:1907
-#, fuzzy
-#| msgid "Attribute case:"
-msgid "Show Attribute Tree"
-msgstr "標籤屬性的大小寫："
-
-#: quanta_init.cpp:1911
-#, fuzzy
-#| msgid "Documentation"
-msgid "Show Documentation Tree"
-msgstr "文件"
-
-#: quanta_init.cpp:1916
-#, fuzzy
-#| msgid "Show &Log Messages"
-msgid "Show &Messages"
-msgstr "顯示記錄訊息(&L)"
-
-#: quanta_init.cpp:1920
-msgid "Show &Problem Reporter"
-msgstr ""
-
-#: quanta_init.cpp:1927
-#, fuzzy
-#| msgid "VPL && So&urce Editors"
-msgid "&Source Editor"
-msgstr "VPL && 代碼編輯器(&U)"
-
-#: quanta_init.cpp:1933
-msgid "&VPL Editor"
-msgstr "&VPL 編輯器"
-
-#: quanta_init.cpp:1939
-msgid "VPL && So&urce Editors"
-msgstr "VPL && 代碼編輯器(&U)"
-
-#: quanta_init.cpp:1953
-#, fuzzy
-#| msgid "&Preview"
-msgid "Pr&eview"
-msgstr "預覽(&P)"
-
-#: quanta_init.cpp:1957
-msgid "Preview Without Frames"
-msgstr "預覽(不要使用框架)"
-
-#: quanta_init.cpp:1961
-msgid "&Reload Preview"
-msgstr "重新載入預覽(&R)"
-
-#: quanta_init.cpp:1966
-msgid "View with &Konqueror"
-msgstr "使用 &Konqueror 預覽"
-
-#: quanta_init.cpp:1970
-msgid "View with L&ynx"
-msgstr "使用 L&ynx 預覽"
-
-#: quanta_init.cpp:1974
-msgid "&Previous File"
-msgstr "上一個檔案(&P)"
-
-#: quanta_init.cpp:1978
-msgid "&Next File"
-msgstr "下一個檔案(&N)"
-
-#: quanta_init.cpp:1988
-msgid "&Open Project..."
-msgstr "開啟專案(&O)..."
-
-#: quanta_init.cpp:1992
-#, fuzzy
-#| msgid "Open Recent Project"
-msgid "Op&en Recent Project"
-msgstr "開啟以往的專案"
-
-#: quanta_init.cpp:2000
-msgid "Open Recent Project"
-msgstr "開啟以往的專案"
-
-#: quanta_init.cpp:2004
-#, fuzzy
-#| msgid "Open/Open recent project"
-msgid "Open / Open Recent Project"
-msgstr "開啟/開啟以往的專案"
-
-#: quanta_init.cpp:2008
-msgid "&Close Project"
-msgstr "關閉專案(&C)..."
-
-#: quanta_init.cpp:2013
-msgid "Open Project &View..."
-msgstr "開啟專案檢視(&V)..."
-
-#: quanta_init.cpp:2017
-msgid "&Save Project View"
-msgstr "儲存專案檢視(&S)"
-
-#: quanta_init.cpp:2020
-msgid "Save Project View &As..."
-msgstr "另存專案檢視為(&A)..."
-
-#: quanta_init.cpp:2023
-#, fuzzy
-#| msgid "&Delete Project View"
-msgid "&Delete Project View..."
-msgstr "刪除專案檢視(&D)"
-
-#: quanta_init.cpp:2033
-#, fuzzy
-#| msgid "&Insert in Project..."
-msgid "Insert &Directory..."
-msgstr " 在專案中插入(&I)..."
-
-#: quanta_init.cpp:2037
-#, fuzzy
-#| msgid "&Rescan Project Folder..."
-msgid "&Rescan Project Folder"
-msgstr "重新掃描專案目錄(&R)..."
-
-#: quanta_init.cpp:2041
-#, fuzzy
-#| msgid "&Upload Project..."
-msgid "&Upload Project"
-msgstr "上傳專案(&U)..."
-
-#: quanta_init.cpp:2045
-#, fuzzy
-#| msgid "Project Options"
-msgid "&Project Options"
-msgstr "專案選項"
-
-#: quanta_init.cpp:2071
-#, fuzzy
-#| msgid "&New User Toolbar..."
-msgid "&Add User Toolbar..."
-msgstr "新的使用者工具列(&N)..."
-
-#: quanta_init.cpp:2074
-#, fuzzy
-#| msgid "Send Toolbar in E&mail..."
-msgid "Send Toolbar in E-&Mail..."
-msgstr "以電子郵件傳送工具列(&M)..."
-
-#: quanta_init.cpp:2076
-msgid "Show DTD Toolbar"
-msgstr "顯示 DTD 工具列"
-
-#: quanta_init.cpp:2080
-msgid "Complete Text"
-msgstr "完整文字"
-
-#: quanta_init.cpp:2082
-#, fuzzy
-msgid "Completion Hints"
-msgstr "補完提示"
-
-#: quanta_init.cpp:2089
-msgid "Upload..."
-msgstr "上傳..."
-
-#: quanta_init.cpp:2092
-msgid "Upload Opened Project Files..."
-msgstr "上傳已開啟的專案檔案..."
-
-#: quanta_init.cpp:2210
-#, fuzzy
-#| msgid ""
-#| "<qt>The following plugins seems to be invalid:<b>%1</b>.<br><br>Do you "
-#| "want to edit the plugins?</qt>"
-msgid ""
-"You have plugins installed that aren't currently valid. Do you want to edit "
-"the plugins?"
-msgstr ""
-"<qt>下列的外掛程式似乎無效：<b>%1</b>。<br><br>您要編輯外掛程式嗎？</qt>"
-
-#: quanta_init.cpp:2210
-msgid "Invalid Plugins"
-msgstr "無效的外掛程式"
-
-#: quanta_init.cpp:2218
-msgid "All plugins validated successfully."
-msgstr "所有外掛程式已成功驗證。"
-
-#: quanta_init.cpp:2284
-#, fuzzy
-#| msgid "&Restore"
-msgid "Restore File"
-msgstr "還原(&R)"
-
-#: quanta_init.cpp:2286
-#, kde-format
-msgid ""
-"<qt>A backup copy of a file was found:<br><br>Original file: <b>%1</"
-"b><br>Original file size: <b>%2</b><br>Original file last modified on: <b>%"
-"3</b><br><br>Backup file size: <b>%4</b><br>Backup created on: <b>%5</"
-"b><br><br></qt>"
-msgstr ""
-"<qt>找到檔案的備份：<br><br>原始檔案：<b>%1</b><br>原始檔案大小：<b>%2</"
-"b><br>原始檔案修改日期：<b>%3</b><br><br>備份檔案大小：<b>%4</b><br>備份檔案"
-"建立日期：<b>%5</b><br><br></qt>"
-
-#: quanta_init.cpp:2296
-msgid "&Restore the file from backup"
-msgstr "從備份回復檔案(&R)"
-
-#: quanta_init.cpp:2297
-msgid "Do &not restore the file from backup"
-msgstr "不要從備份回復檔案(&N)"
-
-#: quantacommon.cpp:403
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Cannot create folder<br><b>%1</b>.<br>Check that you have write "
-#| "permission in the parent folder or that the connection to<br><b>%2</"
-#| "b><br> is valid.</qt>"
-msgid ""
-"<qt>Can't create directory<br><b>%1</b>.<br>Check that you have write "
-"permission in the parent directory or that the connection to<br><b>%2</"
-"b><br> is valid!</qt>"
-msgstr ""
-"<qt>無法建立目錄<br><b>%1</b>。<br>請確定您對它的母目錄擁有寫入權限，或者到"
-"<br><b>%2</b><br>的連線是有效的。</qt>"
 
 #: quantacore/dialogs/dtepeditdlg.cpp:211
 #, fuzzy, kde-format
@@ -12499,6 +11383,16 @@ msgid ""
 msgstr ""
 "<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
 
+#: quantacore/dtds.cpp:661 UNPORTED/quanta_init.cpp:1077
+msgid "Invalid Tag File"
+msgstr "無效的標籤檔案"
+
+#: quantacore/dtds.cpp:885 quantacore/dtds.cpp:917 UNPORTED/quanta.cpp:4058
+#: UNPORTED/quanta.cpp:4090
+#, kde-format
+msgid "<qt>Do you want to replace the existing <b>%1</b> DTD?</qt>"
+msgstr "<qt>您要取代目前的 <b>%1</b> DTD 嗎?</qt>"
+
 #: quantacore/dtds.cpp:924
 #, kde-format
 msgid ""
@@ -12511,6 +11405,11 @@ msgstr ""
 #: quantacore/dtds.cpp:924
 msgid "Error Loading DTEP"
 msgstr "載入 DTEP 時發生錯誤"
+
+#: quantacore/dtds.cpp:928 UNPORTED/quanta.cpp:4101
+#, fuzzy, kde-format
+msgid "<qt>Autoload the <b>%1</b> DTD in the feature?</qt>"
+msgstr "<qt>以後自動載入 <b>%1</b> DTD 嗎?</qt>"
 
 #: quantacore/parsers/dombuilder.cpp:182
 #, fuzzy
@@ -12558,6 +11457,14 @@ msgstr ""
 "<qt>無法建立目錄<br><b>%1</b>。<br>請確定您對它的母目錄擁有寫入權限，或者到"
 "<br><b>%2</b><br>的連線是有效的。</qt>"
 
+#: quantacore/quantacorepart.cpp:122 UNPORTED/quanta_init.cpp:1842
+msgid "&Quanta Homepage"
+msgstr "&Quanta 主頁"
+
+#: quantacore/quantacorepart.cpp:126 UNPORTED/quanta_init.cpp:1846
+msgid "&User Mailing List"
+msgstr "用戶求助郵件列表(&U)"
+
 #: quantacore/quantacorepart.cpp:130
 msgid "Insert &Tag"
 msgstr "插入標籤(&T)"
@@ -12572,101 +11479,9 @@ msgstr "更換 DTD (&C)..."
 msgid "DTEP Selector"
 msgstr "DTD 選擇器"
 
-#: quantadoc.cpp:230
-#, fuzzy, kde-format
-#| msgid "<qt>Cannot download <b>%1</b>.</qt>"
-msgid "<qt>Cannot open document <b>%1</b>.</qt>"
-msgstr "<qt>無法下載 <b>%1</b>。</qt>"
-
-#: quantadoc.cpp:248
-#, kde-format
-msgid ""
-"<qt>Saving of the document <b>%1</b>failed.<br>Maybe you should try to save "
-"in another directory.</qt>"
-msgstr ""
-
-#: quantadoc.cpp:422
-#, kde-format
-msgid ""
-"The file \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"檔案 \"%1\" 已經被修改了，\n"
-"你要儲存它嗎?"
-
-#: quantadoc.cpp:423
-#, fuzzy
-#| msgid "W&arnings"
-msgid "Warning"
-msgstr "警告(&A)"
-
-#: quantadoc.cpp:502 quantadoc.cpp:505
-#, kde-format
-msgid "Untitled%1"
-msgstr "無標題%1"
-
-#: quantadoc.cpp:556
-#, kde-format
-msgid "Attributes of <%1>"
-msgstr "<%1>的屬性"
-
-#: quantadoc.cpp:603
-#, kde-format
-msgid "Unknown tag: %1"
-msgstr "未知的標籤 : %1"
-
-#: quantaview.cpp:144
-msgid ""
-"If you see this Quanta has encountered a problem and may crash. Please "
-"report this to the developers."
-msgstr ""
-
-#: quantaview.cpp:353
-msgid "Table Editor..."
-msgstr "表格編輯器..."
-
-#: quantaview.cpp:357
-msgid "Quick List..."
-msgstr "快速列表..."
-
-#: quantaview.cpp:361
-msgid "Color..."
-msgstr "顏色..."
-
-#: quantaview.cpp:366
-msgid "Email..."
-msgstr "電子郵件..."
-
-#: quantaview.cpp:370
-msgid "Misc. Tag..."
-msgstr "其他標籤..."
-
-#: quantaview.cpp:374
-msgid "Frame Wizard..."
-msgstr "框架精靈..."
-
-#: quantaview.cpp:378
-msgid "Paste &HTML Quoted"
-msgstr "貼上 HTML 的引用(&H)"
-
-#: quantaview.cpp:382
-msgid "Paste &URL Encoded"
-msgstr "貼上 URL 的編碼(&U)"
-
-#: quantaview.cpp:386
-msgid "Insert CSS..."
-msgstr "插入 CSS..."
-
-#: quantaview.cpp:392
-msgid "Insert Special Character"
-msgstr "插入特殊字元"
-
-#: quantaview.cpp:568 quantaview.cpp:634
-#, fuzzy, kde-format
-#| msgid "The VPL Mode does not support the current DTD, at the moment: %1"
-msgid ""
-"Sorry, for the moment, the VPL Mode doesn't support the current DTD : %1"
-msgstr "VPL 模式現在尚未支援目前的 DTD: %1"
+#: quantacore/quantacorepart.cpp:428 UNPORTED/quanta.cpp:3123
+msgid "Change the current DTD."
+msgstr "更換目前的 DTD。"
 
 #: src/kdevquantaextension.cpp:39
 #, fuzzy
@@ -12678,6 +11493,10 @@ msgstr "模式"
 #| msgid "Upload Project Files"
 msgid "KDevelop4 Project Files"
 msgstr "上傳專案檔案"
+
+#: src/main.cpp:86 UNPORTED/main.cpp:40
+msgid "Quanta Plus Web Development Environment"
+msgstr "Quanta Plus 網頁開發環境"
 
 #: src/main.cpp:89
 #, fuzzy
@@ -12714,6 +11533,10 @@ msgstr "專案主管 - 外界聯繫"
 #: src/main.cpp:100
 msgid "Andras Mantia"
 msgstr ""
+
+#: src/main.cpp:100 UNPORTED/main.cpp:73
+msgid "Program Lead - bug squisher"
+msgstr "程式主管 - 除蟲工人"
 
 #: src/main.cpp:101
 msgid "Jens Herden"
@@ -12854,6 +11677,1188 @@ msgstr "編輯工具列(&E)"
 #| msgid "&Edit Toolbar"
 msgid "Edit Toolbar"
 msgstr "編輯工具列(&E)"
+
+#: UNPORTED/document.cpp:334
+#, kde-format
+msgid "<qt>Cannot download <b>%1</b>.</qt>"
+msgstr "<qt>無法下載 <b>%1</b>。</qt>"
+
+#: UNPORTED/document.cpp:347
+#, kde-format
+msgid "<qt>Cannot open <b>%1</b> for reading.</qt>"
+msgstr "<qt>無法開啟 <b>%1</b> 作讀取。</qt>"
+
+#: UNPORTED/document.cpp:514
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</"
+#| "qt>"
+msgid ""
+"<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</qt>"
+msgstr "<qt>檔案 <b>%1</b> 已經存在。<br>您要覆寫它嗎</qt>"
+
+#: UNPORTED/document.cpp:2234
+msgid "Change Tag & Attribute Case"
+msgstr "改變標籤 & 標籤屬性的大小寫"
+
+#: UNPORTED/document.cpp:2253
+#, fuzzy
+#| msgid "Working..."
+msgid "Working..."
+msgstr "工作中..."
+
+#: UNPORTED/document.cpp:2254
+msgid ""
+"Changing tag and attribute case. This may take some time, depending on the "
+"document complexity."
+msgstr "正在轉換標籤和標籤屬性的大小寫。所需的時間取決於文件的複雜程度。"
+
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:420
+msgid "Freeze the window geometry"
+msgstr ""
+
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:427
+msgid "Dock this window"
+msgstr ""
+
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:434
+msgid "Detach"
+msgstr "Detach"
+
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:3054
+#, kde-format
+msgid "Hide %1"
+msgstr "隱藏 %1"
+
+#: UNPORTED/kmdi/qextmdi/kdockwidget_compat.cpp:3060
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:215
+#, kde-format
+msgid "Show %1"
+msgstr "顯示 %1"
+
+#: UNPORTED/kmdi/qextmdi/kmdidockcontainer.cpp:187
+msgid "Switch between overlap and side by side mode"
+msgstr ""
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:122
+#, fuzzy
+#| msgid "Next Tool View"
+msgid "Tool &Views"
+msgstr "下一個工具檢視"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:123
+msgid "MDI Mode"
+msgstr "多重文件模式"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:125
+msgid "&Toplevel Mode"
+msgstr "最上層模式(&T)"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:125
+msgid "C&hildframe Mode"
+msgstr "子頁面模式(&H)"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:125
+msgid "Ta&b Page Mode"
+msgstr "標籤頁模式 (&B)"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:125
+#, fuzzy
+#| msgid "I&DEAl Mode"
+msgid "I&DEAL Mode"
+msgstr "I&DEAl 模式"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:131
+msgid "Tool &Docks"
+msgstr "工具 Docks(&D)"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:132
+msgid "Switch Top Dock"
+msgstr "切換到上方的 Dock"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:134
+msgid "Switch Left Dock"
+msgstr "切換到左邊的 Dock"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:136
+msgid "Switch Right Dock"
+msgstr "切換到右邊的 Dock"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:138
+msgid "Switch Bottom Dock"
+msgstr "切換到下方的 Dock"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:141
+msgid "Previous Tool View"
+msgstr "上一個工具檢視"
+
+#: UNPORTED/kmdi/qextmdi/kmdiguiclient.cpp:143
+msgid "Next Tool View"
+msgstr "下一個工具檢視"
+
+#: UNPORTED/main.cpp:44
+#, fuzzy
+msgid ""
+"Our goal is to be nothing less than the best possible tool for\n"
+" working with tagging and scripting languages.\n"
+"\n"
+"Quanta Plus is not in any way affiliated with any commercial\n"
+" versions of Quanta. \n"
+"\n"
+"We hope you enjoy Quanta Plus.\n"
+"\n"
+msgstr ""
+"我們的目標是成為標籤及指令語言工具的王者。\n"
+"\n"
+"Quanta Plus 與所有 Quanta 商業版本之間沒有任何關聯。\n"
+"\n"
+"希望您可以盡情享受 Quanta Plus。\n"
+"\n"
+
+#: UNPORTED/main.cpp:53
+#, fuzzy
+msgid "File to open"
+msgstr "要開啟的檔案"
+
+#: UNPORTED/main.cpp:54
+#, fuzzy
+#| msgid "Whether we start as a one-instance application"
+msgid "Whether we start as a one-instance application."
+msgstr "是否以單一實體啟動 Quanta"
+
+#: UNPORTED/main.cpp:55
+#, fuzzy
+#| msgid "Do not show the nice logo during startup"
+msgid "Do not show the nice logo during startup."
+msgstr "啟動時不要顯示那個好看的標誌"
+
+#: UNPORTED/main.cpp:72
+#, fuzzy
+#| msgid "Project Lead - public liaison"
+msgid "Project Lead - public liason"
+msgstr "專案主管 - 外界聯繫"
+
+#: UNPORTED/main.cpp:74 UNPORTED/main.cpp:75
+msgid "Inactive - left for commercial version"
+msgstr "不活躍 - 開發商業版本而離開了"
+
+#: UNPORTED/main.cpp:78
+msgid "Coding and tag dialog definition documentation and more"
+msgstr ""
+
+#: UNPORTED/main.cpp:82
+#, fuzzy
+#| msgid "Various fixes, table editor maintainer"
+msgid "Various fixes, scripting dialog system"
+msgstr "各種修補，表格編輯器的維護人員"
+
+#: UNPORTED/main.cpp:86
+#, fuzzy
+#| msgid ""
+#| "Original documentation, many cool parsing scripts to automate \n"
+#| "development"
+msgid ""
+"Documentation, many cool parsing scripts to automate \n"
+"development"
+msgstr "以前的文件，寫了很多解析指令稿加快效率"
+
+#: UNPORTED/main.cpp:90
+msgid ""
+"Various fixes, foundational code for the old DTD parsing and other \n"
+"DTD related work"
+msgstr "各樣修補，貢獻了以前的 DTD 解析器及其他 DTD 相關工作"
+
+#: UNPORTED/main.cpp:94
+msgid "Tree based upload dialog"
+msgstr "樹狀表示的上傳對話框"
+
+#: UNPORTED/main.cpp:98
+msgid "Addition and maintenance of DTDs"
+msgstr "加入和維護 DTD"
+
+#: UNPORTED/main.cpp:102
+msgid "Visual Page Layout part, new undo/redo system"
+msgstr "VPL，新的復原/重做系統"
+
+#: UNPORTED/main.cpp:106
+msgid "Frame wizard, CSS wizard"
+msgstr "框架精靈，CSS 精靈"
+
+#: UNPORTED/main.cpp:110
+msgid "Crash recovery"
+msgstr "當機回復"
+
+#: UNPORTED/main.cpp:114
+#, fuzzy
+#| msgid "Improvements to the treeview code; code review and cleanup"
+msgid "Cleanup of the treeview code, code review"
+msgstr "改進樹狀檢視的代碼；代碼簡化"
+
+#: UNPORTED/main.cpp:118
+msgid "Original CSS editor"
+msgstr "原本的 CSS 編輯器"
+
+#: UNPORTED/main.cpp:122
+msgid "Cool splash screen for many version releases of Quanta"
+msgstr "Quanta 很多版本中又棒又酷的啟動畫面"
+
+#: UNPORTED/main.cpp:126
+msgid "Danish translation"
+msgstr "翻譯成丹麥文"
+
+#: UNPORTED/main.cpp:130
+#, fuzzy
+#| msgid "Part of a code for the old PHP4 Debugger"
+msgid "Part of a code for PHP4 Debugger"
+msgstr "舊版 PHP4 除錯器的一部分代碼"
+
+#: UNPORTED/main.cpp:134
+msgid "XSLT tags, XSLT debugger"
+msgstr ""
+
+#: UNPORTED/main.cpp:138
+msgid "Splash screen and icon for 3.2"
+msgstr "3.2 版的啟動畫面及圖示"
+
+#: UNPORTED/quanta.cpp:168
+msgid "Highlight &Mode"
+msgstr ""
+
+#: UNPORTED/quanta.cpp:183 UNPORTED/quanta.cpp:191
+msgid "Open File"
+msgstr "開啟檔案"
+
+#: UNPORTED/quanta.cpp:227
+#, kde-format
+msgid ""
+"The file %1 does not exist.\n"
+" Do you want to remove it from the list?"
+msgstr ""
+"檔案 %1 不存在。\n"
+" 您要從清單移除它嗎？"
+
+#: UNPORTED/quanta.cpp:314 UNPORTED/quanta.cpp:321
+msgid "Save File"
+msgstr "儲存檔案"
+
+#: UNPORTED/quanta.cpp:330
+#, kde-format
+msgid "<qt>Do you want to add the<br><b>%1</b><br>file to project?</qt>"
+msgstr "<qt>您要把<br><b>%1</b><br>檔案加入到專案中嗎？</qt>"
+
+#: UNPORTED/quanta.cpp:382
+#, fuzzy, kde-format
+#| msgid ""
+#| "You must save the templates in the following folder: \n"
+#| "\n"
+#| "%1"
+msgid ""
+"You must save the templates in the following directory: \n"
+"\n"
+"%1"
+msgstr ""
+"您需要把範本儲存到下面的目錄裏：\n"
+"\n"
+"%1"
+
+#: UNPORTED/quanta.cpp:680
+msgid "<center><h3>The current document is empty...</h3></center>"
+msgstr "<center><h3>目前的文件是空白的...</h3></center>"
+
+#: UNPORTED/quanta.cpp:788
+msgid " OVR "
+msgstr " 覆寫 "
+
+#: UNPORTED/quanta.cpp:788
+msgid " INS "
+msgstr " 插入 "
+
+#: UNPORTED/quanta.cpp:792 UNPORTED/quanta.cpp:1476
+msgid " R/O "
+msgstr " 唯讀 "
+
+#: UNPORTED/quanta.cpp:847 UNPORTED/quanta.cpp:858 UNPORTED/quantadoc.cpp:700
+msgid "[modified]"
+msgstr "[已修改]"
+
+#: UNPORTED/quanta.cpp:1073 UNPORTED/quanta_init.cpp:2160
+msgid "Plu&gins"
+msgstr "外掛程式(&G)"
+
+#: UNPORTED/quanta.cpp:1099
+msgid "Configure Quanta"
+msgstr "設定 Quanta"
+
+#: UNPORTED/quanta.cpp:1104
+msgid "Tag Style"
+msgstr "標籤風格"
+
+#: UNPORTED/quanta.cpp:1117
+#, fuzzy
+msgid "Environment"
+msgstr "環境"
+
+#: UNPORTED/quanta.cpp:1156
+msgid "Layout"
+msgstr ""
+
+#: UNPORTED/quanta.cpp:1164
+msgid "VPL View"
+msgstr "VPL 預覽"
+
+#: UNPORTED/quanta.cpp:1168
+msgid "Parser"
+msgstr "解析器"
+
+#: UNPORTED/quanta.cpp:1195
+msgid "Abbreviations"
+msgstr "縮寫"
+
+#: UNPORTED/quanta.cpp:1218
+#, fuzzy
+#| msgid "PHP4 debugger"
+msgid "PHP Debug"
+msgstr "PHP4 除錯器"
+
+#: UNPORTED/quanta.cpp:1225
+#, fuzzy
+#| msgid "Scrolling"
+msgid "Spelling"
+msgstr "捲動"
+
+#: UNPORTED/quanta.cpp:1474 UNPORTED/quanta.cpp:1501
+#, kde-format
+msgid "Line: %1 Col: %2"
+msgstr "行: %1 字: %2"
+
+#: UNPORTED/quanta.cpp:1607 UNPORTED/quanta.cpp:1657 UNPORTED/quanta.cpp:1750
+msgid ""
+"Switch to the Structure Tree in order to turn on the error recognition.\n"
+msgstr ""
+
+#: UNPORTED/quanta.cpp:2057
+#, kde-format
+msgid "Open File: %1"
+msgstr "開啟檔案：%1"
+
+#: UNPORTED/quanta.cpp:2061 UNPORTED/quanta_init.cpp:2088
+msgid "Open File: none"
+msgstr "開啟檔案： 無"
+
+#: UNPORTED/quanta.cpp:2189
+#, fuzzy
+#| msgid ""
+#| "Cannot load the toolbars from the archive.\n"
+#| "Check that the filenames inside the archives begin with the archive name."
+msgid ""
+"Cannot load the toolbars from the archive.\n"
+"Check that the filenames inside the archives begin with the archive name!"
+msgstr ""
+"無法從壓縮包中載入工具列。\n"
+"請確定壓縮包內的檔案名稱與壓縮包前檔名(不包括它本身的副檔名)一樣。"
+
+#: UNPORTED/quanta.cpp:2540
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>You must save the toolbars to the following folder: <br><br><b>%1</"
+#| "b></qt>"
+msgid ""
+"<qt>You must save the toolbars in the following directory: <br><br><b>%1</"
+"b></qt>"
+msgstr "<qt>您一定要把工具列儲存至以下的目錄：<br><br><b>%1</b></qt>"
+
+#: UNPORTED/quanta.cpp:2555
+#, fuzzy, kde-format
+msgid ""
+"<qt>An error happened while saving the <b>%1</b> toolbar.<br>Check that you "
+"have write permissions for<br><b>%2</b></qt>"
+msgstr ""
+"<qt>建立範本檔案時發生錯誤。<br>請確定您對 <i>%1</i> 擁有寫入權限。</qt>"
+
+#: UNPORTED/quanta.cpp:2667 UNPORTED/quanta.cpp:2671
+msgid "Send Toolbar"
+msgstr "傳送工具列"
+
+#: UNPORTED/quanta.cpp:2695
+#, fuzzy
+msgid ""
+"Hi,\n"
+" This is a Quanta Plus [http://quanta.sourceforge.net] toolbar.\n"
+"\n"
+"Have fun.\n"
+msgstr ""
+"您好，\n"
+"　這個是一個 Quanta Plus [http://quanta.sourceforge.net] 範本。\n"
+"\n"
+"Have fun.\n"
+
+#: UNPORTED/quanta.cpp:2707
+#, fuzzy
+msgid "Quanta Plus toolbar"
+msgstr "Quanta Plus 工具列"
+
+#: UNPORTED/quanta.cpp:3019
+msgid "This DTD is not known for Quanta. Choose a DTD or create a new one."
+msgstr "Quanta 不認識這個 DTD。請選擇一個已知的 DTD 或建立一個新的。"
+
+#: UNPORTED/quanta.cpp:3077
+#, kde-format
+msgid "\"%1\" is used for \"%2\".\n"
+msgstr "\"%2\" 正在使用 \"%1\"。\n"
+
+#: UNPORTED/quanta.cpp:3330
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Toolbar <b>%1</b> is new and unsaved. Do you want to save it before "
+#| "it is removed?</qt>"
+msgid ""
+"<qt>Toolbar <b>%1/<b> is new and unsaved. Do you want to save it before it "
+"is removed?</qt>"
+msgstr ""
+"<qt>工具列<b>%1</b>是新的而且未被儲存。您要在它被移除之前儲存它嗎?</qt>"
+
+#: UNPORTED/quanta.cpp:3568 UNPORTED/quanta.cpp:3572
+msgid "Send DTD"
+msgstr "傳送 DTD"
+
+#: UNPORTED/quanta.cpp:3569 UNPORTED/quanta.cpp:3573
+msgid "Please select a DTD:"
+msgstr "請選擇一個 DTD："
+
+#: UNPORTED/quanta.cpp:3614
+#, fuzzy
+#| msgid "Send DTEP in Email"
+msgid "Send DTD in email"
+msgstr "以 Email 傳送 DTEP"
+
+#: UNPORTED/quanta.cpp:3616
+#, fuzzy
+msgid ""
+"Hi,\n"
+" This is a Quanta Plus [http://quanta.sourceforge.net] DTD definition "
+"tarball.\n"
+"\n"
+"Have fun.\n"
+msgstr ""
+"您好,\n"
+"　這個是一個 Quanta Plus [http://quanta.sourceforge.net] DTEP 定義的"
+"tarball.\n"
+"\n"
+"Have fun.\n"
+
+#: UNPORTED/quanta.cpp:3629
+msgid "Quanta Plus DTD"
+msgstr "Quanta Plus DTD"
+
+#: UNPORTED/quanta.cpp:3653
+msgid "The Document Properties Dialog is only for HTML and XHTML."
+msgstr "文件屬性對話櫂只能被 HTML 及 XHTML 使用。"
+
+#: UNPORTED/quanta.cpp:3767
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to delete the <b>%1</b> group?</qt>"
+msgid "<qt>Do you really want to delete the file <b>%1</b> ?</qt>"
+msgstr "<qt>您真的要刪除 <b>%1</b> 組別?</qt>"
+
+#: UNPORTED/quanta.cpp:3769 UNPORTED/quanta_init.cpp:2090
+msgid "Delete File"
+msgstr "刪除檔案"
+
+#: UNPORTED/quanta.cpp:4067 UNPORTED/quanta.cpp:4111
+#, kde-format
+msgid "<qt>Use the newly loaded <b>%1</b> DTD for the current document?</qt>"
+msgstr "<qt>要對目前的文件使用剛載入的 <b>%1</b> DTD 嗎?</qt>"
+
+#: UNPORTED/quanta.cpp:4067 UNPORTED/quanta.cpp:4111
+msgid "Change DTD"
+msgstr "更改 DTD"
+
+#: UNPORTED/quanta.cpp:4081
+#, fuzzy
+#| msgid "Select DTEP Directory"
+msgid "Select A DTEP Directory"
+msgstr "選擇 DTEP 目錄"
+
+#: UNPORTED/quanta.cpp:4097
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Cannot read the DTEP from <b>%1</b>. Check that the folder contains a "
+#| "valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
+msgid ""
+"<qt>Cannot read the DTEP from <b>%1</b>. Check that the directory contains a "
+"valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
+msgstr ""
+"<qt>無法從 <b>%1</b> 讀取 DTEP。請檢查該目錄包含一個有效的 DTEP "
+"(<i>description.rc 及 *.tag 檔案</i>)。</qt>"
+
+#: UNPORTED/quanta.cpp:4097
+#, fuzzy
+#| msgid "Error Loading DTEP"
+msgid "Error loading DTEP"
+msgstr "載入 DTEP 時發生錯誤"
+
+#: UNPORTED/quanta.cpp:4163
+msgid ""
+"The file must be saved before external preview.\n"
+"Do you want to save and preview?"
+msgstr ""
+"這個檔案在外部預覽前要先被儲存。\n"
+"您要儲存它來繼續預覽嗎?"
+
+#: UNPORTED/quanta.cpp:4165
+msgid "Save Before Preview"
+msgstr "預覽前儲存"
+
+#: UNPORTED/quanta.cpp:4166
+#, fuzzy
+msgid "&Yes"
+msgstr "使用者"
+
+#: UNPORTED/quanta.cpp:4166
+#, fuzzy
+#| msgid "&None"
+msgid "&No"
+msgstr "無(&N)"
+
+#: UNPORTED/quanta_init.cpp:116
+#, fuzzy
+#| msgid ""
+#| "You may have forgotten to run \"make install\", or your KDEDIR, KDEDIRS "
+#| "or PATH are not set correctly."
+msgid ""
+"Quanta data files were not found.\n"
+"You might forgot to run \"make install\",or your KDEDIR, KDEDIRS or PATH is "
+"not set correctly.!"
+msgstr ""
+"您可能忘記了執行 \"make install\"，或環境變數 KDEDIR, KDEDIRS 或 PATH 不正"
+"確。"
+
+#: UNPORTED/quanta_init.cpp:292
+msgid "Line: 00000 Col: 000"
+msgstr "行: 00000 字: 000"
+
+#: UNPORTED/quanta_init.cpp:381
+#, fuzzy
+#| msgid "CSS Editor"
+msgid "Editor"
+msgstr "CSS 編輯器"
+
+#: UNPORTED/quanta_init.cpp:382 UNPORTED/quanta_init.cpp:383
+#, fuzzy
+#| msgid "Message Window"
+msgid "Message output"
+msgstr "訊息視窗"
+
+#: UNPORTED/quanta_init.cpp:384 UNPORTED/quanta_init.cpp:385
+msgid "Problem reporter"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:387 UNPORTED/quanta_init.cpp:388
+#, fuzzy
+#| msgid "Attribute Editor"
+msgid "Attribute tree view"
+msgstr "標籤屬性編輯器"
+
+#: UNPORTED/quanta_init.cpp:389 UNPORTED/quanta_init.cpp:390
+#, fuzzy
+#| msgid "Files Tree"
+msgid "Files tree view"
+msgstr "檔案樹狀"
+
+#: UNPORTED/quanta_init.cpp:391 UNPORTED/quanta_init.cpp:392
+#, fuzzy
+msgid "Project tree view"
+msgstr "專案已開啟"
+
+#: UNPORTED/quanta_init.cpp:393 UNPORTED/quanta_init.cpp:394
+#, fuzzy
+msgid "Templates tree view"
+msgstr "範本"
+
+#: UNPORTED/quanta_init.cpp:395 UNPORTED/quanta_init.cpp:396
+#, fuzzy
+#| msgid "Script Action"
+msgid "Scripts tree view"
+msgstr "指令稿動作"
+
+#: UNPORTED/quanta_init.cpp:397 UNPORTED/quanta_init.cpp:398
+#, fuzzy
+msgid "Structure view (DOM tree)"
+msgstr "結構結束:"
+
+#: UNPORTED/quanta_init.cpp:469
+#, fuzzy
+#| msgid "Message Window..."
+msgid "Message Window...\n"
+msgstr "訊息視窗..."
+
+#: UNPORTED/quanta_init.cpp:813
+#, kde-format
+msgid "Can't bind port %1, PHP3 debugger disabled"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:815
+#, fuzzy, kde-format
+#| msgid "Unable to listen on port %1"
+msgid "PHP3 debugger listens at port %1"
+msgstr "無法監聽連接埠 %1"
+
+#: UNPORTED/quanta_init.cpp:1076
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
+#| "line %3, column %4.</i></qt>"
+msgid ""
+"<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
+"line %3, column %4.</i></qt>"
+msgstr ""
+"<qt>DTD 標籤檔案 %1 無效。<br>錯誤訊息為：<i>%2 於行 %3，字 %4。</i></qt>"
+
+#: UNPORTED/quanta_init.cpp:1679
+msgid "E&xpand Abbreviation"
+msgstr "展開縮寫(&X)"
+
+#: UNPORTED/quanta_init.cpp:1692
+#, fuzzy
+msgid "Paste"
+msgstr "暫停(&P)"
+
+#: UNPORTED/quanta_init.cpp:1699
+#, fuzzy
+#| msgid "Replace Selection"
+msgid "Toggle &Block Selection"
+msgstr "取代選擇區域"
+
+#: UNPORTED/quanta_init.cpp:1701
+#, fuzzy
+#| msgid "Overwrite"
+msgid "Overwrite Mode"
+msgstr "覆寫"
+
+#: UNPORTED/quanta_init.cpp:1709
+#, fuzzy
+msgid "&Indent"
+msgstr "反向選擇(&I)"
+
+#: UNPORTED/quanta_init.cpp:1711
+msgid "Unindent"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1713
+#, fuzzy
+#| msgid "Apply Source Indentation"
+msgid "Cl&ean Indentation"
+msgstr "執行原始碼縮排"
+
+#: UNPORTED/quanta_init.cpp:1716
+#, fuzzy
+#| msgid "Comment"
+msgid "Co&mment"
+msgstr "註解"
+
+#: UNPORTED/quanta_init.cpp:1718
+#, fuzzy
+#| msgid "Comment"
+msgid "Unc&omment"
+msgstr "註解"
+
+#: UNPORTED/quanta_init.cpp:1721
+msgid "Apply &Word Wrap"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1731
+#, fuzzy
+#| msgid "Clear &Bookmark"
+msgid "Toggle &Bookmark"
+msgstr "清除標記(&B)"
+
+#: UNPORTED/quanta_init.cpp:1733
+#, fuzzy
+#| msgid "Clear &Bookmark"
+msgid "&Clear Bookmarks"
+msgstr "清除標記(&B)"
+
+#: UNPORTED/quanta_init.cpp:1737
+msgid "Show &Icon Border"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1739
+msgid "Show &Line Numbers"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1743
+msgid "Ti&p of the Day"
+msgstr "每日小提示(&P)"
+
+#: UNPORTED/quanta_init.cpp:1748
+msgid "&Dynamic Word Wrap"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1751
+#, fuzzy
+#| msgid "Configure..."
+msgid "Configure &Editor..."
+msgstr "設定..."
+
+#: UNPORTED/quanta_init.cpp:1755
+msgid "End of &Line"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1760
+msgid "&Unix"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1761
+#, fuzzy
+#| msgid "&Window"
+msgid "&Windows/DOS"
+msgstr "視窗(&W)"
+
+#: UNPORTED/quanta_init.cpp:1762
+#, fuzzy
+#| msgid "&Main"
+msgid "&Macintosh"
+msgstr "主要(&M)"
+
+#: UNPORTED/quanta_init.cpp:1771
+msgid "Close Other Tabs"
+msgstr "關閉其他分頁"
+
+#: UNPORTED/quanta_init.cpp:1774
+#, fuzzy
+#| msgid "Open / Open Recent"
+msgid "Open &Recent"
+msgstr "開啟 / 開啟最近的"
+
+#: UNPORTED/quanta_init.cpp:1782
+msgid "Open / Open Recent"
+msgstr "開啟 / 開啟最近的"
+
+#: UNPORTED/quanta_init.cpp:1785
+msgid "Close All"
+msgstr "關閉全部"
+
+#: UNPORTED/quanta_init.cpp:1793
+msgid "Save All..."
+msgstr "儲存全部..."
+
+#: UNPORTED/quanta_init.cpp:1796
+#, fuzzy
+msgid "Reloa&d"
+msgstr "重新載入(&D)"
+
+#: UNPORTED/quanta_init.cpp:1801
+msgid "Save as Local Template..."
+msgstr "另存為本地範本..."
+
+#: UNPORTED/quanta_init.cpp:1804
+msgid "Save as Project Template..."
+msgstr "另存為專案範本..."
+
+#: UNPORTED/quanta_init.cpp:1808
+msgid "Save Selection to Local Template File..."
+msgstr "另存選擇區域到一個本地範本檔案..."
+
+#: UNPORTED/quanta_init.cpp:1811
+msgid "Save Selection to Project Template File..."
+msgstr "另存選擇項目至專案範本檔案..."
+
+#: UNPORTED/quanta_init.cpp:1819
+#, fuzzy
+msgid "&List Opened Files..."
+msgstr "開啟檔案"
+
+#: UNPORTED/quanta_init.cpp:1831
+msgid "Find in Files..."
+msgstr "於檔案中找尋"
+
+#: UNPORTED/quanta_init.cpp:1838
+#, fuzzy
+#| msgid "&Context Help..."
+msgid "Context &Help..."
+msgstr "系絡求助(&C)..."
+
+#: UNPORTED/quanta_init.cpp:1850
+msgid "Make &Donation"
+msgstr "捐獻(&D)"
+
+#: UNPORTED/quanta_init.cpp:1854
+msgid "Tag &Attributes..."
+msgstr "標籤的屬性(&A)..."
+
+#: UNPORTED/quanta_init.cpp:1858
+#, fuzzy
+msgid "&Change the DTD..."
+msgstr "更換 DTD (&C)..."
+
+#: UNPORTED/quanta_init.cpp:1862
+msgid "&Load && Convert DTD..."
+msgstr "載入 && 轉換 DTD(&L)..."
+
+#: UNPORTED/quanta_init.cpp:1866
+msgid "Load DTD &Package (DTEP)..."
+msgstr "載入 DTD 套件(DTE&P)..."
+
+#: UNPORTED/quanta_init.cpp:1870
+#, fuzzy
+#| msgid "Send DTD Package (DTEP) in E&mail..."
+msgid "Send DTD Package (DTEP) in E-&Mail"
+msgstr "以電子郵件傳送 DTD 套件(&M)..."
+
+#: UNPORTED/quanta_init.cpp:1875
+msgid "&Document Properties"
+msgstr "文件屬性(&D)"
+
+#: UNPORTED/quanta_init.cpp:1880
+msgid "&Convert Tag && Attribute Case..."
+msgstr "轉換標籤 && 標籤屬性的大小寫(&C)..."
+
+#: UNPORTED/quanta_init.cpp:1887
+#, fuzzy
+#| msgid "Files Tree"
+msgid "Show Files Tree"
+msgstr "檔案樹狀"
+
+#: UNPORTED/quanta_init.cpp:1891
+#, fuzzy
+msgid "Show Project Tree"
+msgstr "專案已開啟"
+
+#: UNPORTED/quanta_init.cpp:1895
+#, fuzzy
+msgid "Show Templates Tree"
+msgstr "範本"
+
+#: UNPORTED/quanta_init.cpp:1899
+#, fuzzy
+#| msgid "Show Groups For"
+msgid "Show Scripts Tree"
+msgstr "對此顯示組別"
+
+#: UNPORTED/quanta_init.cpp:1903
+#, fuzzy
+msgid "Show Structure Tree"
+msgstr "結構結束:"
+
+#: UNPORTED/quanta_init.cpp:1907
+#, fuzzy
+#| msgid "Attribute case:"
+msgid "Show Attribute Tree"
+msgstr "標籤屬性的大小寫："
+
+#: UNPORTED/quanta_init.cpp:1911
+#, fuzzy
+#| msgid "Documentation"
+msgid "Show Documentation Tree"
+msgstr "文件"
+
+#: UNPORTED/quanta_init.cpp:1916
+#, fuzzy
+#| msgid "Show &Log Messages"
+msgid "Show &Messages"
+msgstr "顯示記錄訊息(&L)"
+
+#: UNPORTED/quanta_init.cpp:1920
+msgid "Show &Problem Reporter"
+msgstr ""
+
+#: UNPORTED/quanta_init.cpp:1927
+#, fuzzy
+#| msgid "VPL && So&urce Editors"
+msgid "&Source Editor"
+msgstr "VPL && 代碼編輯器(&U)"
+
+#: UNPORTED/quanta_init.cpp:1933
+msgid "&VPL Editor"
+msgstr "&VPL 編輯器"
+
+#: UNPORTED/quanta_init.cpp:1939
+msgid "VPL && So&urce Editors"
+msgstr "VPL && 代碼編輯器(&U)"
+
+#: UNPORTED/quanta_init.cpp:1953
+#, fuzzy
+#| msgid "&Preview"
+msgid "Pr&eview"
+msgstr "預覽(&P)"
+
+#: UNPORTED/quanta_init.cpp:1957
+msgid "Preview Without Frames"
+msgstr "預覽(不要使用框架)"
+
+#: UNPORTED/quanta_init.cpp:1961
+msgid "&Reload Preview"
+msgstr "重新載入預覽(&R)"
+
+#: UNPORTED/quanta_init.cpp:1966
+msgid "View with &Konqueror"
+msgstr "使用 &Konqueror 預覽"
+
+#: UNPORTED/quanta_init.cpp:1970
+msgid "View with L&ynx"
+msgstr "使用 L&ynx 預覽"
+
+#: UNPORTED/quanta_init.cpp:1974
+msgid "&Previous File"
+msgstr "上一個檔案(&P)"
+
+#: UNPORTED/quanta_init.cpp:1978
+msgid "&Next File"
+msgstr "下一個檔案(&N)"
+
+#: UNPORTED/quanta_init.cpp:1988
+msgid "&Open Project..."
+msgstr "開啟專案(&O)..."
+
+#: UNPORTED/quanta_init.cpp:1992
+#, fuzzy
+#| msgid "Open Recent Project"
+msgid "Op&en Recent Project"
+msgstr "開啟以往的專案"
+
+#: UNPORTED/quanta_init.cpp:2000
+msgid "Open Recent Project"
+msgstr "開啟以往的專案"
+
+#: UNPORTED/quanta_init.cpp:2004
+#, fuzzy
+#| msgid "Open/Open recent project"
+msgid "Open / Open Recent Project"
+msgstr "開啟/開啟以往的專案"
+
+#: UNPORTED/quanta_init.cpp:2008
+msgid "&Close Project"
+msgstr "關閉專案(&C)..."
+
+#: UNPORTED/quanta_init.cpp:2013
+msgid "Open Project &View..."
+msgstr "開啟專案檢視(&V)..."
+
+#: UNPORTED/quanta_init.cpp:2017
+msgid "&Save Project View"
+msgstr "儲存專案檢視(&S)"
+
+#: UNPORTED/quanta_init.cpp:2020
+msgid "Save Project View &As..."
+msgstr "另存專案檢視為(&A)..."
+
+#: UNPORTED/quanta_init.cpp:2023
+#, fuzzy
+#| msgid "&Delete Project View"
+msgid "&Delete Project View..."
+msgstr "刪除專案檢視(&D)"
+
+#: UNPORTED/quanta_init.cpp:2033
+#, fuzzy
+#| msgid "&Insert in Project..."
+msgid "Insert &Directory..."
+msgstr " 在專案中插入(&I)..."
+
+#: UNPORTED/quanta_init.cpp:2037
+#, fuzzy
+#| msgid "&Rescan Project Folder..."
+msgid "&Rescan Project Folder"
+msgstr "重新掃描專案目錄(&R)..."
+
+#: UNPORTED/quanta_init.cpp:2041
+#, fuzzy
+#| msgid "&Upload Project..."
+msgid "&Upload Project"
+msgstr "上傳專案(&U)..."
+
+#: UNPORTED/quanta_init.cpp:2045
+#, fuzzy
+#| msgid "Project Options"
+msgid "&Project Options"
+msgstr "專案選項"
+
+#: UNPORTED/quanta_init.cpp:2071
+#, fuzzy
+#| msgid "&New User Toolbar..."
+msgid "&Add User Toolbar..."
+msgstr "新的使用者工具列(&N)..."
+
+#: UNPORTED/quanta_init.cpp:2074
+#, fuzzy
+#| msgid "Send Toolbar in E&mail..."
+msgid "Send Toolbar in E-&Mail..."
+msgstr "以電子郵件傳送工具列(&M)..."
+
+#: UNPORTED/quanta_init.cpp:2076
+msgid "Show DTD Toolbar"
+msgstr "顯示 DTD 工具列"
+
+#: UNPORTED/quanta_init.cpp:2080
+msgid "Complete Text"
+msgstr "完整文字"
+
+#: UNPORTED/quanta_init.cpp:2082
+#, fuzzy
+msgid "Completion Hints"
+msgstr "補完提示"
+
+#: UNPORTED/quanta_init.cpp:2089
+msgid "Upload..."
+msgstr "上傳..."
+
+#: UNPORTED/quanta_init.cpp:2092
+msgid "Upload Opened Project Files..."
+msgstr "上傳已開啟的專案檔案..."
+
+#: UNPORTED/quanta_init.cpp:2210
+#, fuzzy
+#| msgid ""
+#| "<qt>The following plugins seems to be invalid:<b>%1</b>.<br><br>Do you "
+#| "want to edit the plugins?</qt>"
+msgid ""
+"You have plugins installed that aren't currently valid. Do you want to edit "
+"the plugins?"
+msgstr ""
+"<qt>下列的外掛程式似乎無效：<b>%1</b>。<br><br>您要編輯外掛程式嗎？</qt>"
+
+#: UNPORTED/quanta_init.cpp:2210
+msgid "Invalid Plugins"
+msgstr "無效的外掛程式"
+
+#: UNPORTED/quanta_init.cpp:2218
+msgid "All plugins validated successfully."
+msgstr "所有外掛程式已成功驗證。"
+
+#: UNPORTED/quanta_init.cpp:2284
+#, fuzzy
+#| msgid "&Restore"
+msgid "Restore File"
+msgstr "還原(&R)"
+
+#: UNPORTED/quanta_init.cpp:2286
+#, kde-format
+msgid ""
+"<qt>A backup copy of a file was found:<br><br>Original file: <b>%1</"
+"b><br>Original file size: <b>%2</b><br>Original file last modified on: <b>%"
+"3</b><br><br>Backup file size: <b>%4</b><br>Backup created on: <b>%5</"
+"b><br><br></qt>"
+msgstr ""
+"<qt>找到檔案的備份：<br><br>原始檔案：<b>%1</b><br>原始檔案大小：<b>%2</"
+"b><br>原始檔案修改日期：<b>%3</b><br><br>備份檔案大小：<b>%4</b><br>備份檔案"
+"建立日期：<b>%5</b><br><br></qt>"
+
+#: UNPORTED/quanta_init.cpp:2296
+msgid "&Restore the file from backup"
+msgstr "從備份回復檔案(&R)"
+
+#: UNPORTED/quanta_init.cpp:2297
+msgid "Do &not restore the file from backup"
+msgstr "不要從備份回復檔案(&N)"
+
+#: UNPORTED/quantacommon.cpp:403
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Cannot create folder<br><b>%1</b>.<br>Check that you have write "
+#| "permission in the parent folder or that the connection to<br><b>%2</"
+#| "b><br> is valid.</qt>"
+msgid ""
+"<qt>Can't create directory<br><b>%1</b>.<br>Check that you have write "
+"permission in the parent directory or that the connection to<br><b>%2</"
+"b><br> is valid!</qt>"
+msgstr ""
+"<qt>無法建立目錄<br><b>%1</b>。<br>請確定您對它的母目錄擁有寫入權限，或者到"
+"<br><b>%2</b><br>的連線是有效的。</qt>"
+
+#: UNPORTED/quantadoc.cpp:230
+#, fuzzy, kde-format
+#| msgid "<qt>Cannot download <b>%1</b>.</qt>"
+msgid "<qt>Cannot open document <b>%1</b>.</qt>"
+msgstr "<qt>無法下載 <b>%1</b>。</qt>"
+
+#: UNPORTED/quantadoc.cpp:248
+#, kde-format
+msgid ""
+"<qt>Saving of the document <b>%1</b>failed.<br>Maybe you should try to save "
+"in another directory.</qt>"
+msgstr ""
+
+#: UNPORTED/quantadoc.cpp:422
+#, kde-format
+msgid ""
+"The file \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"檔案 \"%1\" 已經被修改了，\n"
+"你要儲存它嗎?"
+
+#: UNPORTED/quantadoc.cpp:423
+#, fuzzy
+#| msgid "W&arnings"
+msgid "Warning"
+msgstr "警告(&A)"
+
+#: UNPORTED/quantadoc.cpp:502 UNPORTED/quantadoc.cpp:505
+#, kde-format
+msgid "Untitled%1"
+msgstr "無標題%1"
+
+#: UNPORTED/quantadoc.cpp:556
+#, kde-format
+msgid "Attributes of <%1>"
+msgstr "<%1>的屬性"
+
+#: UNPORTED/quantadoc.cpp:603
+#, kde-format
+msgid "Unknown tag: %1"
+msgstr "未知的標籤 : %1"
+
+#: UNPORTED/quantaview.cpp:144
+msgid ""
+"If you see this Quanta has encountered a problem and may crash. Please "
+"report this to the developers."
+msgstr ""
+
+#: UNPORTED/quantaview.cpp:353
+msgid "Table Editor..."
+msgstr "表格編輯器..."
+
+#: UNPORTED/quantaview.cpp:357
+msgid "Quick List..."
+msgstr "快速列表..."
+
+#: UNPORTED/quantaview.cpp:361
+msgid "Color..."
+msgstr "顏色..."
+
+#: UNPORTED/quantaview.cpp:366
+msgid "Email..."
+msgstr "電子郵件..."
+
+#: UNPORTED/quantaview.cpp:370
+msgid "Misc. Tag..."
+msgstr "其他標籤..."
+
+#: UNPORTED/quantaview.cpp:374
+msgid "Frame Wizard..."
+msgstr "框架精靈..."
+
+#: UNPORTED/quantaview.cpp:378
+msgid "Paste &HTML Quoted"
+msgstr "貼上 HTML 的引用(&H)"
+
+#: UNPORTED/quantaview.cpp:382
+msgid "Paste &URL Encoded"
+msgstr "貼上 URL 的編碼(&U)"
+
+#: UNPORTED/quantaview.cpp:386
+msgid "Insert CSS..."
+msgstr "插入 CSS..."
+
+#: UNPORTED/quantaview.cpp:392
+msgid "Insert Special Character"
+msgstr "插入特殊字元"
+
+#: UNPORTED/quantaview.cpp:568 UNPORTED/quantaview.cpp:634
+#, fuzzy, kde-format
+#| msgid "The VPL Mode does not support the current DTD, at the moment: %1"
+msgid ""
+"Sorry, for the moment, the VPL Mode doesn't support the current DTD : %1"
+msgstr "VPL 模式現在尚未支援目前的 DTD: %1"
 
 #: tagdialogs/tableeditor.ui.h:49
 msgid "&Edit Cell Properties"
