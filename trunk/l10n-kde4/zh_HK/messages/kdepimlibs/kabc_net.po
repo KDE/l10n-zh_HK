@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kabc_net \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:55+0200\n"
+"POT-Creation-Date: 2010-06-07 04:50+0200\n"
 "PO-Revision-Date: 2006-01-12 18:37+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,9 +33,10 @@ msgstr "無法下載檔案「%1」。"
 msgid "Unable to open file '%1'."
 msgstr "無法開啟檔案「%1」。"
 
-#: resourcenet.cpp:159 resourcenet.cpp:367
-#, kde-format
-msgid "Problems during parsing file '%1'."
+#: resourcenet.cpp:159
+#, fuzzy, kde-format
+#| msgid "Problems during parsing file '%1'."
+msgid "Problems parsing file '%1'."
 msgstr "分析檔案「%1」的內容時出現問題。"
 
 #: resourcenet.cpp:248 resourcenet.cpp:281
@@ -51,6 +52,11 @@ msgstr "無法下載檔案「%1」。"
 #: resourcenet.cpp:358
 msgid "Download failed, could not create temporary file"
 msgstr ""
+
+#: resourcenet.cpp:367
+#, kde-format
+msgid "Problems during parsing file '%1'."
+msgstr "分析檔案「%1」的內容時出現問題。"
 
 #~ msgid "Download failed in some way!"
 #~ msgstr "因某些原因而不能下載！"
