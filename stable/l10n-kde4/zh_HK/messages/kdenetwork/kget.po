@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-18 04:51+0200\n"
+"POT-Creation-Date: 2010-06-29 02:44+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -1822,15 +1822,6 @@ msgstr ""
 msgid "Information:"
 msgstr "Konqueror 整合"
 
-#: ui/transfersview.cpp:125
-msgid "Select columns"
-msgstr ""
-
-#: ui/transfersview.cpp:305
-#, fuzzy
-msgid "Transfer Details"
-msgstr " 傳輸： %1"
-
 #: ui/verificationdialog.cpp:37
 msgid "Add checksum"
 msgstr ""
@@ -1856,6 +1847,15 @@ msgstr "已成功下載 <i>%1</i> 。"
 #: ui/verificationdialog.cpp:215
 msgid "Verification successful"
 msgstr ""
+
+#: ui/transfersview.cpp:125
+msgid "Select columns"
+msgstr ""
+
+#: ui/transfersview.cpp:305
+#, fuzzy
+msgid "Transfer Details"
+msgstr " 傳輸： %1"
 
 #: ui/renamefile.cpp:32
 #, fuzzy
@@ -3617,80 +3617,45 @@ msgstr "說明"
 msgid "Optional"
 msgstr ""
 
-#. i18n: file: ui/metalinkcreator/introduction.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:541
-msgid ""
-"This assistant allows you to create metalinks from scratch or base them on "
-"existing metalinks. A lot of the fields are optional or recommended, so "
-"enter them if desired. The minimum is a save location, at least one file and "
-"one URL."
-msgstr ""
-
-#. i18n: file: ui/metalinkcreator/introduction.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:544
-msgid "Save created Metalink at:"
-msgstr ""
-
-#. i18n: file: ui/metalinkcreator/introduction.ui:78
-#. i18n: ectx: property (text), widget (QRadioButton, createButton)
-#: rc.cpp:547
-msgid "Create new Metalink"
-msgstr ""
-
-#. i18n: file: ui/metalinkcreator/introduction.ui:88
-#. i18n: ectx: property (text), widget (QRadioButton, loadButton)
-#: rc.cpp:550
-msgid "Load existing Metalink:"
-msgstr ""
-
-#. i18n: file: ui/metalinkcreator/introduction.ui:98
-#. i18n: ectx: property (filter), widget (KUrlRequester, load)
-#: rc.cpp:553
-#, fuzzy
-msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
-msgstr "開啟檔案(&F)"
-
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:556
+#: rc.cpp:541
 msgid "General information:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:559
+#: rc.cpp:544
 msgid "Here you can enter optional general information on the metalink."
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:562
+#: rc.cpp:547
 msgid "Origin:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:68
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, origin)
-#: rc.cpp:565
+#: rc.cpp:550
 msgid "Web URL to the metalink"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:75
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDynamic)
-#: rc.cpp:568
+#: rc.cpp:553
 msgid "Dynamic means that updated metalinks can be found at \"Origin\"."
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:78
 #. i18n: ectx: property (text), widget (QLabel, labelDynamic)
-#: rc.cpp:571
+#: rc.cpp:556
 msgid "Dynamic:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:110
 #. i18n: ectx: property (title), widget (QGroupBox, publishedGroupBox)
-#: rc.cpp:574
+#: rc.cpp:559
 msgid "Metalink published"
 msgstr ""
 
@@ -3698,7 +3663,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_30)
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:223
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: rc.cpp:577 rc.cpp:595
+#: rc.cpp:562 rc.cpp:580
 #, fuzzy
 #| msgid "Rem. Time"
 msgid "Date and time:"
@@ -3708,7 +3673,7 @@ msgstr "剩下的時間"
 #. i18n: ectx: property (text), widget (QCheckBox, use_publishedtimeoffset)
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:213
 #. i18n: ectx: property (text), widget (QCheckBox, use_updatedtimeoffset)
-#: rc.cpp:580 rc.cpp:592
+#: rc.cpp:565 rc.cpp:577
 msgid "Timezone offset:"
 msgstr ""
 
@@ -3716,15 +3681,50 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:206
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:583 rc.cpp:589
+#: rc.cpp:568 rc.cpp:574
 msgid "Negative offset:"
 msgstr ""
 
 #. i18n: file: ui/metalinkcreator/generalwidget.ui:178
 #. i18n: ectx: property (title), widget (QGroupBox, updatedGroupBox)
-#: rc.cpp:586
+#: rc.cpp:571
 msgid "Metalink updated"
 msgstr ""
+
+#. i18n: file: ui/metalinkcreator/introduction.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:583
+msgid ""
+"This assistant allows you to create metalinks from scratch or base them on "
+"existing metalinks. A lot of the fields are optional or recommended, so "
+"enter them if desired. The minimum is a save location, at least one file and "
+"one URL."
+msgstr ""
+
+#. i18n: file: ui/metalinkcreator/introduction.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:586
+msgid "Save created Metalink at:"
+msgstr ""
+
+#. i18n: file: ui/metalinkcreator/introduction.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, createButton)
+#: rc.cpp:589
+msgid "Create new Metalink"
+msgstr ""
+
+#. i18n: file: ui/metalinkcreator/introduction.ui:88
+#. i18n: ectx: property (text), widget (QRadioButton, loadButton)
+#: rc.cpp:592
+msgid "Load existing Metalink:"
+msgstr ""
+
+#. i18n: file: ui/metalinkcreator/introduction.ui:98
+#. i18n: ectx: property (filter), widget (KUrlRequester, load)
+#: rc.cpp:595
+#, fuzzy
+msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
+msgstr "開啟檔案(&F)"
 
 #. i18n: file: ui/metalinkcreator/commondata.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
