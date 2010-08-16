@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-26 01:27+0200\n"
+"POT-Creation-Date: 2010-08-16 01:28+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -308,7 +308,7 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 msgid "Folder exists"
 msgstr "壓縮檔已經存在"
 
-#: kerfuffle/extractiondialog.cpp:108 part/part.cpp:343 part/part.cpp:728
+#: kerfuffle/extractiondialog.cpp:108 part/part.cpp:342 part/part.cpp:727
 msgid "Cancel"
 msgstr ""
 
@@ -519,18 +519,12 @@ msgstr ""
 msgid "<b>Password protected:</b> Yes<br/>"
 msgstr ""
 
-#: part/jobtracker.cpp:107
-#, fuzzy
-#| msgid "Open extract dialog, quit when finished"
-msgid "Operation finished."
-msgstr "開啟解壓對話視窗，完成後離開"
-
-#: part/part.cpp:211
+#: part/part.cpp:210
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr ""
 
-#: part/part.cpp:220
+#: part/part.cpp:219
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -538,176 +532,176 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:222
+#: part/part.cpp:221
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:227
+#: part/part.cpp:226
 #, fuzzy
 #| msgid "Extract"
 msgid "E&xtract"
 msgstr "解開"
 
-#: part/part.cpp:229
+#: part/part.cpp:228
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:236
+#: part/part.cpp:235
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:237
+#: part/part.cpp:236
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:243
+#: part/part.cpp:242
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:244
+#: part/part.cpp:243
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:250
+#: part/part.cpp:249
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:252
+#: part/part.cpp:251
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:273
+#: part/part.cpp:272
 #, fuzzy
 #| msgctxt "folder for opening files (used as part of a sentence)"
 #| msgid "open folder"
 msgid "Recent folders"
 msgstr "開啟資料夾"
 
-#: part/part.cpp:277
+#: part/part.cpp:276
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:334
+#: part/part.cpp:333
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:343
+#: part/part.cpp:342
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid "The file '%1' already exists. Would you like to open it instead?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:343
+#: part/part.cpp:342
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:343
+#: part/part.cpp:342
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:350
+#: part/part.cpp:349
 #, kde-format
 msgid "Error opening archive: the file '%1' was not found."
 msgstr ""
 
-#: part/part.cpp:350 part/part.cpp:394 part/part.cpp:430
+#: part/part.cpp:349 part/part.cpp:393 part/part.cpp:429
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
 
-#: part/part.cpp:380
+#: part/part.cpp:379
 msgctxt "@title:window"
 msgid "Unable to Determine Archive Type"
 msgstr ""
 
-#: part/part.cpp:381
+#: part/part.cpp:380
 msgid ""
 "Ark was unable to determine the archive type of the filename.\n"
 "\n"
 "Please choose the correct archive type below."
 msgstr ""
 
-#: part/part.cpp:394
+#: part/part.cpp:393
 #, kde-format
 msgid ""
 "Ark was not able to open the archive '%1'. No library capable of handling "
 "the file was found."
 msgstr ""
 
-#: part/part.cpp:430
+#: part/part.cpp:429
 #, kde-format
 msgid "Reading the archive '%1' failed with the error '%2'"
 msgstr ""
 
-#: part/part.cpp:693
+#: part/part.cpp:692
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:701
+#: part/part.cpp:700
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:728
+#: part/part.cpp:727
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:728
+#: part/part.cpp:727
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "只解開已選的檔案"
 
-#: part/part.cpp:728
+#: part/part.cpp:727
 #, fuzzy
 #| msgid "Selected files only"
 msgid "Delete files"
 msgstr "只解開已選的檔案"
 
-#: part/part.cpp:769
+#: part/part.cpp:768
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
 "A file named <b>%1</b> already exists. Are you sure you want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:771
+#: part/part.cpp:770
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: part/part.cpp:783
+#: part/part.cpp:782
 #, kde-format
 msgid ""
 "The file <b>%1</b> cannot be copied to the specified location. The archive "
 "does not exist anymore."
 msgstr ""
 
-#: part/part.cpp:795
+#: part/part.cpp:794
 #, kde-format
 msgid ""
 "The archive could not be saved as <b>%1</b>. Try to save it in another "
@@ -743,63 +737,63 @@ msgstr "加入檔案到壓縮檔時發生錯誤。"
 msgid "Could not add the file %1 to the archive."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchivehandler.cpp:87
+#: plugins/libarchive/libarchivehandler.cpp:99
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Could not open the file '%1', libarchive cannot handle it."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchivehandler.cpp:107
+#: plugins/libarchive/libarchivehandler.cpp:122
 #, kde-format
 msgid "The archive reading failed with message: %1"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:145
+#: plugins/libarchive/libarchivehandler.cpp:160
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Unable to open the file '%1', libarchive cannot handle it."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchivehandler.cpp:198
+#: plugins/libarchive/libarchivehandler.cpp:214
 msgid ""
 "This archive contains archive entries with absolute paths, which are not yet "
 "supported by ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:339
-#: plugins/libarchive/libarchivehandler.cpp:540
+#: plugins/libarchive/libarchivehandler.cpp:345
+#: plugins/libarchive/libarchivehandler.cpp:515
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:347
-#: plugins/libarchive/libarchivehandler.cpp:548
+#: plugins/libarchive/libarchivehandler.cpp:358
+#: plugins/libarchive/libarchivehandler.cpp:528
 msgid "The source file could not be read."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:356
-#: plugins/libarchive/libarchivehandler.cpp:556
+#: plugins/libarchive/libarchivehandler.cpp:365
+#: plugins/libarchive/libarchivehandler.cpp:534
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:389
-#: plugins/libarchive/libarchivehandler.cpp:426
-#: plugins/libarchive/libarchivehandler.cpp:594
+#: plugins/libarchive/libarchivehandler.cpp:399
+#: plugins/libarchive/libarchivehandler.cpp:431
+#: plugins/libarchive/libarchivehandler.cpp:568
 #, kde-format
 msgid "Setting compression failed with the error '%1'"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:417
-#: plugins/libarchive/libarchivehandler.cpp:585
+#: plugins/libarchive/libarchivehandler.cpp:426
+#: plugins/libarchive/libarchivehandler.cpp:563
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:437
-#: plugins/libarchive/libarchivehandler.cpp:604
+#: plugins/libarchive/libarchivehandler.cpp:438
+#: plugins/libarchive/libarchivehandler.cpp:574
 #, kde-format
 msgid "Opening the archive for writing failed with error message '%1'"
 msgstr ""
@@ -1028,6 +1022,11 @@ msgstr "解壓後開啟目的地資料夾"
 #: rc.cpp:88
 msgid "Preserve paths when extracting"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Open extract dialog, quit when finished"
+#~ msgid "Operation finished."
+#~ msgstr "開啟解壓對話視窗，完成後離開"
 
 #, fuzzy
 #~| msgid "Folder to extract to"
