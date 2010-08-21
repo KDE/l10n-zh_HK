@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-20 05:40+0200\n"
+"POT-Creation-Date: 2010-08-21 05:48+0200\n"
 "PO-Revision-Date: 2006-01-20 00:09+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -179,7 +179,7 @@ msgstr ""
 "未有選擇編碼器。\n"
 "請在設定內選擇編碼器。"
 
-#: encoder.cpp:160
+#: encoder.cpp:161
 #, kde-format
 msgid "Encoding (%1): %2 - %3"
 msgstr "正在編碼 (%1): %2 - %3"
@@ -252,47 +252,47 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: jobdelegate.cpp:53 jobqueimp.cpp:122 jobqueimp.cpp:217
+#: jobdelegate.cpp:53 jobqueimp.cpp:119 jobqueimp.cpp:212
 msgid "Done"
 msgstr ""
 
-#: jobqueimp.cpp:53
+#: jobqueimp.cpp:51
 msgid "Job"
 msgstr "工作"
 
-#: jobqueimp.cpp:53
+#: jobqueimp.cpp:51
 msgid "Progress"
 msgstr "進度"
 
-#: jobqueimp.cpp:53
+#: jobqueimp.cpp:51
 msgid "Description"
 msgstr "說明"
 
-#: jobqueimp.cpp:87 jobqueimp.cpp:167 jobqueimp.cpp:228
+#: jobqueimp.cpp:84 jobqueimp.cpp:162 jobqueimp.cpp:223
 #, kde-format
 msgid "Number of jobs in the queue: %1"
 msgstr "在佇列中的工作數目： %1"
 
-#: jobqueimp.cpp:149
+#: jobqueimp.cpp:145
 #, kde-format
 msgid "KAudioCreator has not finished %1. Remove anyway?"
 msgstr "KAudioCreator 未完成 %1 。要移除嗎？"
 
-#: jobqueimp.cpp:149 jobqueimp.cpp:202
+#: jobqueimp.cpp:145 jobqueimp.cpp:197
 msgid "Unfinished Job in Queue"
 msgstr "佇列中未完成的工作"
 
-#: jobqueimp.cpp:149 jobqueimp.cpp:202
+#: jobqueimp.cpp:145 jobqueimp.cpp:197
 msgid "Keep"
 msgstr "保留"
 
 #. i18n: file: jobque.ui:17
 #. i18n: ectx: property (text), widget (QLabel, queLabel)
-#: jobqueimp.cpp:164 jobqueimp.cpp:225 rc.cpp:331
+#: jobqueimp.cpp:159 jobqueimp.cpp:220 rc.cpp:331
 msgid "No jobs are in the queue"
 msgstr "佇列中沒有工作"
 
-#: jobqueimp.cpp:202
+#: jobqueimp.cpp:197
 msgid "KAudioCreator has not finished all of the jobs. Remove them anyway?"
 msgstr "KAudioCreator 未完成所有工作。要全部移除嗎？"
 
@@ -1507,12 +1507,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: ripper.cpp:139
+#: ripper.cpp:140
 #, kde-format
 msgid "Ripping: %1 - %2"
 msgstr "正在擷取: %1 - %2"
 
-#: ripper.cpp:187 ripper.cpp:192
+#: ripper.cpp:176
+msgid ""
+"The custom temporary directory was not found.\n"
+"The standard temporary directory will be used instead."
+msgstr ""
+
+#: ripper.cpp:176
+#, fuzzy
+#| msgid "Specify temporary directory"
+msgid "Temporary directory not found."
+msgstr "指定暫存目錄"
+
+#: ripper.cpp:193 ripper.cpp:198
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "Track %1"
