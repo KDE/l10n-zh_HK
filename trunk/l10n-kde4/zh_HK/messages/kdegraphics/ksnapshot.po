@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-22 04:53+0200\n"
+"POT-Creation-Date: 2010-08-22 05:45+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -185,9 +185,19 @@ msgstr ""
 msgid "\"Open With\" function"
 msgstr ""
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "薛景中,李爵樺,Walter Cheuk"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shyue@sonoma.com.tw,kenduest@i18n.linux.org.tw,wwycheuk@netvigator.com"
+
 #. i18n: file: ksnapshotwidget.ui:33
 #. i18n: ectx: property (whatsThis), widget (KSnapshotPreview, lblImage)
-#: rc.cpp:3
+#: rc.cpp:5
 msgid ""
 "This is a preview of the current snapshot.\n"
 "\n"
@@ -204,13 +214,13 @@ msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:55
 #. i18n: ectx: property (whatsThis), widget (KPushButton, btnNew)
-#: rc.cpp:10
+#: rc.cpp:12
 msgid "Click this button to take a new snapshot."
 msgstr "按下這按鈕擷取新的快照。"
 
 #. i18n: file: ksnapshotwidget.ui:58
 #. i18n: ectx: property (text), widget (KPushButton, btnNew)
-#: rc.cpp:13
+#: rc.cpp:15
 #, fuzzy
 #| msgid "&New Snapshot"
 msgid "Take a &New Snapshot"
@@ -218,13 +228,13 @@ msgstr "新的快照(&N)"
 
 #. i18n: file: ksnapshotwidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:16
+#: rc.cpp:18
 msgid "Cap&ture mode:"
 msgstr "擷取模式(&T):"
 
 #. i18n: file: ksnapshotwidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
-#: rc.cpp:19
+#: rc.cpp:21
 msgid ""
 "<qt>Using this menu, you can select from the five following snapshot modes:\n"
 "<p>\n"
@@ -244,31 +254,31 @@ msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:119
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: rc.cpp:29
+#: rc.cpp:31
 msgid "Full Screen"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:124
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: rc.cpp:32
+#: rc.cpp:34
 msgid "Window Under Cursor"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:129
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: rc.cpp:35
+#: rc.cpp:37
 msgid "Region"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:134
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: rc.cpp:38
+#: rc.cpp:40
 msgid "Section of Window"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:139
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: rc.cpp:41
+#: rc.cpp:43
 #, fuzzy
 #| msgid "Print Screenshot"
 msgid "Current Screen"
@@ -276,19 +286,19 @@ msgstr "列印快照"
 
 #. i18n: file: ksnapshotwidget.ui:147
 #. i18n: ectx: property (text), widget (QLabel, lblDelay)
-#: rc.cpp:44
+#: rc.cpp:46
 msgid "Snapshot &delay:"
 msgstr "抓圖延遲(&D)："
 
 #. i18n: file: ksnapshotwidget.ui:166
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, spinDelay)
-#: rc.cpp:47
+#: rc.cpp:49
 msgid "Snapshot delay in seconds"
 msgstr "抓圖延遲時間 (秒)"
 
 #. i18n: file: ksnapshotwidget.ui:176
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, spinDelay)
-#: rc.cpp:50
+#: rc.cpp:52
 msgid ""
 "<qt><p>\n"
 "This is the number of seconds to wait after clicking the <i>New Snapshot</i> "
@@ -305,44 +315,34 @@ msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:179
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spinDelay)
-#: rc.cpp:60
+#: rc.cpp:62
 msgid "No delay"
 msgstr "不延遲"
 
 #. i18n: file: ksnapshotwidget.ui:182
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, spinDelay)
-#: rc.cpp:63
+#: rc.cpp:65
 msgid " "
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:189
 #. i18n: ectx: property (text), widget (QLabel, lblIncludeDecorations)
-#: rc.cpp:66
+#: rc.cpp:68
 msgid "Include &window decorations:"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:202
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIncludeDecorations)
-#: rc.cpp:69
+#: rc.cpp:71
 msgid ""
 "When enabled, snapshot of a window will also include the window decorations"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:215
 #. i18n: ectx: property (text), widget (QLabel, lblIncludePointer)
-#: rc.cpp:72
+#: rc.cpp:74
 msgid "Include mouse &pointer:"
 msgstr ""
-
-#: rc.cpp:73
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "薛景中,李爵樺,Walter Cheuk"
-
-#: rc.cpp:74
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "shyue@sonoma.com.tw,kenduest@i18n.linux.org.tw,wwycheuk@netvigator.com"
 
 #: regiongrabber.cpp:116
 msgid ""

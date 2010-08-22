@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-01 05:09+0200\n"
+"POT-Creation-Date: 2010-08-22 05:46+0200\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -405,79 +405,67 @@ msgstr "遠端桌面(&D):"
 msgid "Filter"
 msgstr ""
 
-#. i18n: file: krdcui.rc:8
-#. i18n: ectx: Menu (session)
-#: rc.cpp:3 rc.cpp:572
-msgid "&Session"
-msgstr ""
-
-#. i18n: file: krdcui.rc:22
-#. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
-#: rc.cpp:6 rc.cpp:575
-msgid "Remote View Toolbar"
-msgstr ""
-
-#: rc.cpp:7
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Walter Cheuk"
 
-#: rc.cpp:8
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wwycheuk@netvigator.com"
 
 #. i18n: file: config/general.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberSessions)
-#: rc.cpp:11
+#: rc.cpp:5
 msgid "Remember open sessions for next startup"
 msgstr ""
 
 #. i18n: file: config/general.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberHistory)
-#: rc.cpp:14
+#: rc.cpp:8
 msgid "Remember connection history"
 msgstr ""
 
 #. i18n: file: config/general.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_NormalUrlInputLine)
-#: rc.cpp:17
+#: rc.cpp:11
 msgid "Use normal inputline for address input"
 msgstr ""
 
 #. i18n: file: config/general.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_WalletSupport)
-#: rc.cpp:20
+#: rc.cpp:14
 msgid "Remember passwords (KWallet)"
 msgstr ""
 
 #. i18n: file: config/general.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SystemTrayIcon)
-#: rc.cpp:23
+#: rc.cpp:17
 msgid "Enable system tray icon"
 msgstr ""
 
 #. i18n: file: config/general.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatusBar)
-#: rc.cpp:26
+#: rc.cpp:20
 msgid "Show status bar"
 msgstr ""
 
 #. i18n: file: config/general.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAspectRatio)
-#: rc.cpp:29
+#: rc.cpp:23
 msgid "Keep aspect ratio when scaling"
 msgstr ""
 
 #. i18n: file: config/general.ui:68
 #. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
-#: rc.cpp:32
+#: rc.cpp:26
 msgid "Background color of empty place:"
 msgstr ""
 
 #. i18n: file: config/general.ui:100
 #. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
-#: rc.cpp:35
+#: rc.cpp:29
 #, fuzzy
 #| msgid "Connection"
 msgid "When Connecting"
@@ -485,7 +473,7 @@ msgstr "連線"
 
 #. i18n: file: config/general.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPreferencesForNewConnections)
-#: rc.cpp:38
+#: rc.cpp:32
 #, fuzzy
 #| msgid "Do not &show the preferences dialog on new connections"
 msgid "Show the preferences dialog for new connections"
@@ -493,7 +481,7 @@ msgstr "新的連線不要顯示偏好設定對話盒(&S)"
 
 #. i18n: file: config/general.ui:113
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResizeOnConnect)
-#: rc.cpp:41
+#: rc.cpp:35
 msgid ""
 "This option will resize the window to fit the connection size.  If it is too "
 "big, it will maximize the window."
@@ -501,13 +489,13 @@ msgstr ""
 
 #. i18n: file: config/general.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResizeOnConnect)
-#: rc.cpp:44
+#: rc.cpp:38
 msgid "Resize to fit"
 msgstr ""
 
 #. i18n: file: config/general.ui:123
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FullscreenOnConnect)
-#: rc.cpp:47
+#: rc.cpp:41
 msgid ""
 "This option switches to fullscreen only if the connection resolution is the "
 "same as the current screen resolution"
@@ -515,7 +503,7 @@ msgstr ""
 
 #. i18n: file: config/general.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FullscreenOnConnect)
-#: rc.cpp:50
+#: rc.cpp:44
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Switch to Fullscreen if appropriate"
@@ -523,7 +511,7 @@ msgstr "以全螢幕模式開啟"
 
 #. i18n: file: config/general.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox, tabGroupBox)
-#: rc.cpp:53
+#: rc.cpp:47
 #, fuzzy
 #| msgid "Settings"
 msgid "Tab Settings"
@@ -531,49 +519,49 @@ msgstr "設置"
 
 #. i18n: file: config/general.ui:142
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
-#: rc.cpp:56
+#: rc.cpp:50
 msgid "Always show tab bar"
 msgstr ""
 
 #. i18n: file: config/general.ui:149
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabCloseButton)
-#: rc.cpp:59
+#: rc.cpp:53
 msgid "Show close button on tabs"
 msgstr ""
 
 #. i18n: file: config/general.ui:156
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabMiddleClick)
-#: rc.cpp:62
+#: rc.cpp:56
 msgid "Middle-click on a tab closes it"
 msgstr ""
 
 #. i18n: file: config/general.ui:165
 #. i18n: ectx: property (text), widget (QLabel, tabOrientationLabel)
-#: rc.cpp:65
+#: rc.cpp:59
 msgid "Tab position:"
 msgstr ""
 
 #. i18n: file: config/general.ui:173
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
-#: rc.cpp:68
+#: rc.cpp:62
 msgid "Top"
 msgstr ""
 
 #. i18n: file: config/general.ui:178
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
-#: rc.cpp:71
+#: rc.cpp:65
 msgid "Bottom"
 msgstr ""
 
 #. i18n: file: config/general.ui:183
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
-#: rc.cpp:74
+#: rc.cpp:68
 msgid "Left"
 msgstr ""
 
 #. i18n: file: config/general.ui:188
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
-#: rc.cpp:77
+#: rc.cpp:71
 #, fuzzy
 #| msgid "High"
 msgid "Right"
@@ -585,7 +573,7 @@ msgstr "高"
 #. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
 #. i18n: file: vnc/vncpreferences.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, vncGroupBox)
-#: rc.cpp:80 rc.cpp:305 rc.cpp:515
+#: rc.cpp:74 rc.cpp:299 rc.cpp:509
 msgid "Connection"
 msgstr "連線"
 
@@ -593,7 +581,7 @@ msgstr "連線"
 #. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
 #. i18n: file: rdp/rdppreferences.ui:25
 #. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
-#: rc.cpp:83 rc.cpp:308
+#: rc.cpp:77 rc.cpp:302
 msgid "Desktop &resolution:"
 msgstr "桌面解像度(&R):"
 
@@ -603,7 +591,7 @@ msgstr "桌面解像度(&R):"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:86
 #. i18n: ectx: property (whatsThis), widget (KComboBox, resolutionComboBox)
-#: rc.cpp:86 rc.cpp:311 rc.cpp:536
+#: rc.cpp:80 rc.cpp:305 rc.cpp:530
 msgid ""
 "Here you can specify the resolution of the remote desktop. This resolution "
 "determines the size of the desktop that will be presented to you."
@@ -615,7 +603,7 @@ msgstr "你可在此指定遠端桌面的解像度。此解像度決定顯示予
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:93
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:89 rc.cpp:314 rc.cpp:539
+#: rc.cpp:83 rc.cpp:308 rc.cpp:533
 #, fuzzy
 msgid "Minimal (640x480)"
 msgstr "小 (640x480)"
@@ -626,7 +614,7 @@ msgstr "小 (640x480)"
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:98
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:92 rc.cpp:317 rc.cpp:542
+#: rc.cpp:86 rc.cpp:311 rc.cpp:536
 #, fuzzy
 msgid "Small (800x600)"
 msgstr "小 (640x480)"
@@ -637,7 +625,7 @@ msgstr "小 (640x480)"
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:103
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:95 rc.cpp:320 rc.cpp:545
+#: rc.cpp:89 rc.cpp:314 rc.cpp:539
 #, fuzzy
 msgid "Normal (1024x768)"
 msgstr "大 (1024x768)"
@@ -648,7 +636,7 @@ msgstr "大 (1024x768)"
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:108
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:98 rc.cpp:323 rc.cpp:548
+#: rc.cpp:92 rc.cpp:317 rc.cpp:542
 msgid "Large (1280x1024)"
 msgstr ""
 
@@ -658,7 +646,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:113
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:101 rc.cpp:326 rc.cpp:551
+#: rc.cpp:95 rc.cpp:320 rc.cpp:545
 msgid "Very Large (1600x1200)"
 msgstr ""
 
@@ -668,7 +656,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:118
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:104 rc.cpp:329 rc.cpp:554
+#: rc.cpp:98 rc.cpp:323 rc.cpp:548
 msgid "Current Screen Resolution"
 msgstr ""
 
@@ -678,7 +666,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
 #. i18n: file: vnc/vncpreferences.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
-#: rc.cpp:107 rc.cpp:332 rc.cpp:557
+#: rc.cpp:101 rc.cpp:326 rc.cpp:551
 #, fuzzy
 #| msgid "Custom (...)"
 msgid "Custom Resolution (...)"
@@ -690,7 +678,7 @@ msgstr "自訂 (...)"
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
 #. i18n: file: vnc/vncpreferences.ui:136
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
-#: rc.cpp:110 rc.cpp:335 rc.cpp:560
+#: rc.cpp:104 rc.cpp:329 rc.cpp:554
 msgid "&Width:"
 msgstr "寬度(&W):"
 
@@ -700,7 +688,7 @@ msgstr "寬度(&W):"
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Width)
 #. i18n: file: vnc/vncpreferences.ui:152
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingWidth)
-#: rc.cpp:113 rc.cpp:338 rc.cpp:563
+#: rc.cpp:107 rc.cpp:332 rc.cpp:557
 msgid ""
 "This is the width of the remote desktop. You can only change this value "
 "manually if you select Custom as desktop resolution above."
@@ -712,7 +700,7 @@ msgstr "這是遠端桌面的寬度。只有以上的桌面解像度為自訂時
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
 #. i18n: file: vnc/vncpreferences.ui:168
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
-#: rc.cpp:116 rc.cpp:341 rc.cpp:566
+#: rc.cpp:110 rc.cpp:335 rc.cpp:560
 msgid "H&eight:"
 msgstr "高度(&E):"
 
@@ -722,7 +710,7 @@ msgstr "高度(&E):"
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Height)
 #. i18n: file: vnc/vncpreferences.ui:184
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingHeight)
-#: rc.cpp:119 rc.cpp:344 rc.cpp:569
+#: rc.cpp:113 rc.cpp:338 rc.cpp:563
 msgid ""
 "This is the height of the remote desktop. You can only change this value "
 "manually if you select Custom as desktop resolution above."
@@ -730,7 +718,7 @@ msgstr "這是遠端桌面的高度。只有以上的桌面解像度為自訂時
 
 #. i18n: file: nx/nxpreferences.ui:168
 #. i18n: ectx: property (text), widget (QLabel, desktopTypeLabel)
-#: rc.cpp:122
+#: rc.cpp:116
 #, fuzzy
 #| msgid "Desktop &resolution:"
 msgid "Desktop &type:"
@@ -738,31 +726,31 @@ msgstr "桌面解像度(&R):"
 
 #. i18n: file: nx/nxpreferences.ui:184
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_NxDesktopType)
-#: rc.cpp:125
+#: rc.cpp:119
 msgid "Here you can specify the desktop environment of the remote desktop."
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:188
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
-#: rc.cpp:128
+#: rc.cpp:122
 msgid "KDE"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:193
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
-#: rc.cpp:131
+#: rc.cpp:125
 msgid "Gnome"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:198
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
-#: rc.cpp:134
+#: rc.cpp:128
 msgid "CDE"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:203
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
-#: rc.cpp:137
+#: rc.cpp:131
 msgid "XDM"
 msgstr ""
 
@@ -770,7 +758,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, layoutLabel)
 #. i18n: file: rdp/rdppreferences.ui:198
 #. i18n: ectx: property (text), widget (QLabel, layoutLabel)
-#: rc.cpp:140 rc.cpp:359
+#: rc.cpp:134 rc.cpp:353
 msgid "&Keyboard layout:"
 msgstr "鍵盤布局(&K):"
 
@@ -778,7 +766,7 @@ msgstr "鍵盤布局(&K):"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:214
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:143 rc.cpp:362
+#: rc.cpp:137 rc.cpp:356
 msgid ""
 "Use this to specify your keyboard layout. This layout setting is used to "
 "send the correct keyboard codes to the server."
@@ -788,7 +776,7 @@ msgstr "以此指定你的鍵盤布局。此布局設置用於傳送正確的鍵
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:221
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:146 rc.cpp:365
+#: rc.cpp:140 rc.cpp:359
 msgid "Arabic (ar)"
 msgstr "阿拉伯文 (ar)"
 
@@ -796,7 +784,7 @@ msgstr "阿拉伯文 (ar)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:226
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:149 rc.cpp:368
+#: rc.cpp:143 rc.cpp:362
 msgid "Czech (cs)"
 msgstr ""
 
@@ -804,7 +792,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:231
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:152 rc.cpp:371
+#: rc.cpp:146 rc.cpp:365
 msgid "Danish (da)"
 msgstr "丹麥文 (da)"
 
@@ -812,7 +800,7 @@ msgstr "丹麥文 (da)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:236
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:155 rc.cpp:374
+#: rc.cpp:149 rc.cpp:368
 msgid "German (de)"
 msgstr "德文 (de)"
 
@@ -820,7 +808,7 @@ msgstr "德文 (de)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:241
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:158 rc.cpp:377
+#: rc.cpp:152 rc.cpp:371
 #, fuzzy
 msgid "Swiss German (de-ch)"
 msgstr "德文 (de)"
@@ -829,7 +817,7 @@ msgstr "德文 (de)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:246
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:161 rc.cpp:380
+#: rc.cpp:155 rc.cpp:374
 msgid "American Dvorak (en-dv)"
 msgstr ""
 
@@ -837,7 +825,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:251
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:164 rc.cpp:383
+#: rc.cpp:158 rc.cpp:377
 msgid "British English (en-gb)"
 msgstr "英式英文 (en-gb)"
 
@@ -845,7 +833,7 @@ msgstr "英式英文 (en-gb)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:256
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:167 rc.cpp:386
+#: rc.cpp:161 rc.cpp:380
 msgid "US English (en-us)"
 msgstr "美式英文 (en-us)"
 
@@ -853,7 +841,7 @@ msgstr "美式英文 (en-us)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:261
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:170 rc.cpp:389
+#: rc.cpp:164 rc.cpp:383
 msgid "Spanish (es)"
 msgstr "西班牙文 (es)"
 
@@ -861,7 +849,7 @@ msgstr "西班牙文 (es)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:266
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:173 rc.cpp:392
+#: rc.cpp:167 rc.cpp:386
 #, fuzzy
 msgid "Estonian (et)"
 msgstr "意大利文 (it)"
@@ -870,7 +858,7 @@ msgstr "意大利文 (it)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:271
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:176 rc.cpp:395
+#: rc.cpp:170 rc.cpp:389
 msgid "Finnish (fi)"
 msgstr "芬蘭文 (fi)"
 
@@ -878,7 +866,7 @@ msgstr "芬蘭文 (fi)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:276
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:179 rc.cpp:398
+#: rc.cpp:173 rc.cpp:392
 #, fuzzy
 #| msgid "French (fr)"
 msgid "Faroese (fo)"
@@ -888,7 +876,7 @@ msgstr "法文 (fr)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:281
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:182 rc.cpp:401
+#: rc.cpp:176 rc.cpp:395
 msgid "French (fr)"
 msgstr "法文 (fr)"
 
@@ -896,7 +884,7 @@ msgstr "法文 (fr)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:286
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:185 rc.cpp:404
+#: rc.cpp:179 rc.cpp:398
 #, fuzzy
 msgid "Belgian (fr-be)"
 msgstr "比利時文 (fr-be)"
@@ -905,7 +893,7 @@ msgstr "比利時文 (fr-be)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:291
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:188 rc.cpp:407
+#: rc.cpp:182 rc.cpp:401
 #, fuzzy
 msgid "French Canadian (fr-ca)"
 msgstr "法文 (fr)"
@@ -914,7 +902,7 @@ msgstr "法文 (fr)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:296
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:191 rc.cpp:410
+#: rc.cpp:185 rc.cpp:404
 #, fuzzy
 msgid "Swiss French (fr-ch)"
 msgstr "法文 (fr)"
@@ -923,7 +911,7 @@ msgstr "法文 (fr)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:301
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:194 rc.cpp:413
+#: rc.cpp:188 rc.cpp:407
 msgid "Hebrew (he)"
 msgstr ""
 
@@ -931,7 +919,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:306
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:197 rc.cpp:416
+#: rc.cpp:191 rc.cpp:410
 #, fuzzy
 msgid "Croatian (hr)"
 msgstr "巴西文 (pt-br)"
@@ -940,7 +928,7 @@ msgstr "巴西文 (pt-br)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:311
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:200 rc.cpp:419
+#: rc.cpp:194 rc.cpp:413
 msgid "Hungarian (hu)"
 msgstr "匈牙利文 (hu)"
 
@@ -948,7 +936,7 @@ msgstr "匈牙利文 (hu)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:316
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:203 rc.cpp:422
+#: rc.cpp:197 rc.cpp:416
 #, fuzzy
 msgid "Icelandic (is)"
 msgstr "意大利文 (it)"
@@ -957,7 +945,7 @@ msgstr "意大利文 (it)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:321
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:206 rc.cpp:425
+#: rc.cpp:200 rc.cpp:419
 msgid "Italian (it)"
 msgstr "意大利文 (it)"
 
@@ -965,7 +953,7 @@ msgstr "意大利文 (it)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:326
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:209 rc.cpp:428
+#: rc.cpp:203 rc.cpp:422
 msgid "Japanese (ja)"
 msgstr "日文 (ja)"
 
@@ -973,7 +961,7 @@ msgstr "日文 (ja)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:331
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:212 rc.cpp:431
+#: rc.cpp:206 rc.cpp:425
 #, fuzzy
 #| msgid "Norwegian (no)"
 msgid "Korean (ko)"
@@ -983,7 +971,7 @@ msgstr "挪威文 (no)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:336
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:215 rc.cpp:434
+#: rc.cpp:209 rc.cpp:428
 msgid "Lithuanian (lt)"
 msgstr ""
 
@@ -991,7 +979,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:341
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:218 rc.cpp:437
+#: rc.cpp:212 rc.cpp:431
 msgid "Latvian (lv)"
 msgstr ""
 
@@ -999,7 +987,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:346
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:221 rc.cpp:440
+#: rc.cpp:215 rc.cpp:434
 msgid "Macedonian (mk)"
 msgstr ""
 
@@ -1007,7 +995,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:351
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:224 rc.cpp:443
+#: rc.cpp:218 rc.cpp:437
 msgid "Dutch (nl)"
 msgstr ""
 
@@ -1015,7 +1003,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:356
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:227 rc.cpp:446
+#: rc.cpp:221 rc.cpp:440
 #, fuzzy
 msgid "Belgian Dutch (nl-be)"
 msgstr "比利時文 (fr-be)"
@@ -1024,7 +1012,7 @@ msgstr "比利時文 (fr-be)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:361
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:230 rc.cpp:449
+#: rc.cpp:224 rc.cpp:443
 msgid "Norwegian (no)"
 msgstr "挪威文 (no)"
 
@@ -1032,7 +1020,7 @@ msgstr "挪威文 (no)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:366
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:233 rc.cpp:452
+#: rc.cpp:227 rc.cpp:446
 msgid "Polish (pl)"
 msgstr "波蘭文 (pl)"
 
@@ -1040,7 +1028,7 @@ msgstr "波蘭文 (pl)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:371
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:236 rc.cpp:455
+#: rc.cpp:230 rc.cpp:449
 msgid "Portuguese (pt)"
 msgstr "葡萄牙文 (pt)"
 
@@ -1048,7 +1036,7 @@ msgstr "葡萄牙文 (pt)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:376
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:239 rc.cpp:458
+#: rc.cpp:233 rc.cpp:452
 msgid "Brazilian (pt-br)"
 msgstr "巴西文 (pt-br)"
 
@@ -1056,7 +1044,7 @@ msgstr "巴西文 (pt-br)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:381
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:242 rc.cpp:461
+#: rc.cpp:236 rc.cpp:455
 msgid "Russian (ru)"
 msgstr "俄文 (ru)"
 
@@ -1064,7 +1052,7 @@ msgstr "俄文 (ru)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:386
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:245 rc.cpp:464
+#: rc.cpp:239 rc.cpp:458
 msgid "Slovenian (sl)"
 msgstr ""
 
@@ -1072,7 +1060,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:391
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:248 rc.cpp:467
+#: rc.cpp:242 rc.cpp:461
 msgid "Swedish (sv)"
 msgstr "瑞典文 (sv)"
 
@@ -1080,7 +1068,7 @@ msgstr "瑞典文 (sv)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:396
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:251 rc.cpp:470
+#: rc.cpp:245 rc.cpp:464
 msgid "Thai (th)"
 msgstr "泰文 (th)"
 
@@ -1088,20 +1076,20 @@ msgstr "泰文 (th)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: file: rdp/rdppreferences.ui:401
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
-#: rc.cpp:254 rc.cpp:473
+#: rc.cpp:248 rc.cpp:467
 msgid "Turkish (tr)"
 msgstr "土耳其文 (tr)"
 
 #. i18n: file: nx/nxpreferences.ui:422
 #. i18n: ectx: property (text), widget (QLabel, labelPrivateKey)
-#: rc.cpp:257
+#: rc.cpp:251
 msgctxt "label for soundsettings in preferences dialog"
 msgid "Private key:"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:431
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, checkboxDefaultPrivateKey)
-#: rc.cpp:260
+#: rc.cpp:254
 msgid ""
 "The authentication on the NX server requires a private key. By default, it "
 "is the NoMachine DSA key. Use this box to choose the default key, or "
@@ -1110,19 +1098,19 @@ msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:434
 #. i18n: ectx: property (text), widget (QCheckBox, checkboxDefaultPrivateKey)
-#: rc.cpp:263
+#: rc.cpp:257
 msgid "NoMachine Key"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:449
 #. i18n: ectx: property (title), widget (QGroupBox, groupboxPrivateKey)
-#: rc.cpp:266
+#: rc.cpp:260
 msgid "Private Key Management"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:461
 #. i18n: ectx: property (whatsThis), widget (KTextEdit, kcfg_NxPrivateKey)
-#: rc.cpp:269
+#: rc.cpp:263
 msgid ""
 "Use this textbox to edit the private key for the authentication on the NX "
 "server."
@@ -1130,43 +1118,43 @@ msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:476
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:272
+#: rc.cpp:266
 msgid "Private DSA Key :"
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:486
 #. i18n: ectx: property (whatsThis), widget (QPushButton, buttonImportPrivateKey)
-#: rc.cpp:275
+#: rc.cpp:269
 msgid "Use this button to import the private key from a file."
 msgstr ""
 
 #. i18n: file: nx/nxpreferences.ui:489
 #. i18n: ectx: property (text), widget (QPushButton, buttonImportPrivateKey)
-#: rc.cpp:278
+#: rc.cpp:272
 msgid "Import ..."
 msgstr ""
 
 #. i18n: file: nx/nxresumesessions.ui:23
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:281
+#: rc.cpp:275
 msgid "Display"
 msgstr ""
 
 #. i18n: file: nx/nxresumesessions.ui:28
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:284
+#: rc.cpp:278
 msgid "Type"
 msgstr "類型"
 
 #. i18n: file: nx/nxresumesessions.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:287
+#: rc.cpp:281
 msgid "Session ID"
 msgstr ""
 
 #. i18n: file: nx/nxresumesessions.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:290
+#: rc.cpp:284
 #, fuzzy
 #| msgid "Color &depth:"
 msgid "Colour Depth"
@@ -1174,7 +1162,7 @@ msgstr "色彩深度(&D):"
 
 #. i18n: file: nx/nxresumesessions.ui:43
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:293
+#: rc.cpp:287
 #, fuzzy
 #| msgid "Desktop &resolution:"
 msgid "Resolution"
@@ -1182,74 +1170,74 @@ msgstr "桌面解像度(&R):"
 
 #. i18n: file: nx/nxresumesessions.ui:48
 #. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
-#: rc.cpp:296
+#: rc.cpp:290
 msgid "Session Name"
 msgstr ""
 
 #. i18n: file: nx/nxresumesessions.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, buttonNew)
-#: rc.cpp:299
+#: rc.cpp:293
 msgid "&New"
 msgstr ""
 
 #. i18n: file: nx/nxresumesessions.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, buttonResume)
-#: rc.cpp:302
+#: rc.cpp:296
 msgid "&Resume"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:163
 #. i18n: ectx: property (text), widget (QLabel, colorDepthLabel)
-#: rc.cpp:347
+#: rc.cpp:341
 msgid "Color &depth:"
 msgstr "色彩深度(&D):"
 
 #. i18n: file: rdp/rdppreferences.ui:180
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
-#: rc.cpp:350
+#: rc.cpp:344
 msgid "Low Color (8 Bit)"
 msgstr "低彩 (8 位元)"
 
 #. i18n: file: rdp/rdppreferences.ui:185
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
-#: rc.cpp:353
+#: rc.cpp:347
 msgid "High Color (16 Bit)"
 msgstr "高彩 (16 位元)"
 
 #. i18n: file: rdp/rdppreferences.ui:190
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
-#: rc.cpp:356
+#: rc.cpp:350
 msgid "True Color (24 Bit)"
 msgstr "真彩 (24 位元)"
 
 #. i18n: file: rdp/rdppreferences.ui:409
 #. i18n: ectx: property (text), widget (QLabel, soundLabel)
-#: rc.cpp:476
+#: rc.cpp:470
 msgctxt "label for soundsettings in preferences dialog"
 msgid "Sound:"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:420
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
-#: rc.cpp:479
+#: rc.cpp:473
 msgid "On This Computer"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:425
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
-#: rc.cpp:482
+#: rc.cpp:476
 msgid "On Remote Computer"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:430
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
-#: rc.cpp:485
+#: rc.cpp:479
 msgid "Disable Sound"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:441
 #. i18n: ectx: property (title), widget (QGroupBox, expertGroupBox)
-#: rc.cpp:488
+#: rc.cpp:482
 #, fuzzy
 #| msgid "Advanced options"
 msgid "Expert Options"
@@ -1257,19 +1245,19 @@ msgstr "進階選項"
 
 #. i18n: file: rdp/rdppreferences.ui:447
 #. i18n: ectx: property (text), widget (QLabel, consoleLabel)
-#: rc.cpp:491
+#: rc.cpp:485
 msgid "Console login:"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:457
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Console)
-#: rc.cpp:494
+#: rc.cpp:488
 msgid "Attach to Windows Server console"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:464
 #. i18n: ectx: property (text), widget (QLabel, extraOptionsLabel)
-#: rc.cpp:497
+#: rc.cpp:491
 #, fuzzy
 #| msgid "Advanced options"
 msgid "Extra options:"
@@ -1277,37 +1265,37 @@ msgstr "進階選項"
 
 #. i18n: file: rdp/rdppreferences.ui:480
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_ExtraOptions)
-#: rc.cpp:500
+#: rc.cpp:494
 msgid "Here you can enter additional rdesktop options."
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:493
 #. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
-#: rc.cpp:503
+#: rc.cpp:497
 msgid "Login"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:501
 #. i18n: ectx: property (text), widget (QLabel, defaultUserLabel)
-#: rc.cpp:506
+#: rc.cpp:500
 msgid "Default user name:"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:508
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, kcfg_DefaultRdpUserName)
-#: rc.cpp:509
+#: rc.cpp:503
 msgid "No default user name"
 msgstr ""
 
 #. i18n: file: rdp/rdppreferences.ui:520
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RecognizeLdapLogins)
-#: rc.cpp:512
+#: rc.cpp:506
 msgid "Automatically recognize \"LDAP\"-Logins and share passwords"
 msgstr ""
 
 #. i18n: file: vnc/vncpreferences.ui:23
 #. i18n: ectx: property (text), widget (QLabel, connectionLabel)
-#: rc.cpp:518
+#: rc.cpp:512
 #, fuzzy
 #| msgid "Connection &type:"
 msgid "Connection type:"
@@ -1315,7 +1303,7 @@ msgstr "連線類型(&T):"
 
 #. i18n: file: vnc/vncpreferences.ui:39
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Quality)
-#: rc.cpp:521
+#: rc.cpp:515
 msgid ""
 "Use this to specify the performance of your connection. Note that you should "
 "select the speed of the weakest link - even if you have a high speed "
@@ -1331,33 +1319,45 @@ msgstr ""
 
 #. i18n: file: vnc/vncpreferences.ui:43
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
-#: rc.cpp:524
+#: rc.cpp:518
 msgid "High Quality (LAN, direct connection)"
 msgstr "高質素（區域網絡、直接連線）"
 
 #. i18n: file: vnc/vncpreferences.ui:48
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
-#: rc.cpp:527
+#: rc.cpp:521
 msgid "Medium Quality (DSL, Cable, fast Internet)"
 msgstr "中等質素（DSL、有線、高速互聯網）"
 
 #. i18n: file: vnc/vncpreferences.ui:53
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
-#: rc.cpp:530
+#: rc.cpp:524
 msgid "Low Quality (Modem, ISDN, slow Internet)"
 msgstr "低質素（數據機、ISDN、慢速互聯網）"
 
 #. i18n: file: vnc/vncpreferences.ui:63
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Scaling)
-#: rc.cpp:533
+#: rc.cpp:527
 #, fuzzy
 #| msgid "Scale view"
 msgid "Scale to Size:"
 msgstr "縮放檢視"
 
+#. i18n: file: krdcui.rc:8
+#. i18n: ectx: Menu (session)
+#: rc.cpp:566
+msgid "&Session"
+msgstr ""
+
+#. i18n: file: krdcui.rc:22
+#. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
+#: rc.cpp:569
+msgid "Remote View Toolbar"
+msgstr ""
+
 #. i18n: file: core/krdc.kcfg:13
 #. i18n: ectx: label, entry (OpenSessions), group (General)
-#: rc.cpp:578
+#: rc.cpp:572
 msgid "Sessions"
 msgstr ""
 
