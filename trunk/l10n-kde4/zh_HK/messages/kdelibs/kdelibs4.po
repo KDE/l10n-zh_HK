@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-25 05:07+0200\n"
+"POT-Creation-Date: 2010-08-26 05:55+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3035,7 +3035,25 @@ msgstr[0] ""
 msgid "Search Plugins"
 msgstr "搜尋欄"
 
-#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
+#: kutils/kcmultidialog.cpp:59
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save your changes or discard them?"
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"此文件 \"%1\" 已被修改過了。\n"
+"你要儲存嗎？"
+
+#: kutils/kcmultidialog.cpp:61
+#, fuzzy
+#| msgid "Apply settings"
+msgid "Apply Settings"
+msgstr "套用設定"
+
+#: kutils/kcmultidialog.cpp:217 kdeui/dialogs/kconfigdialog.cpp:69
 msgid "Configure"
 msgstr "設定"
 
@@ -4495,11 +4513,11 @@ msgstr ""
 "\n"
 "參數：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1589
+#: kdecore/kernel/kcmdlineargs.cpp:1587
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1590
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "KDE-tempfile"
 msgstr ""
 
@@ -9223,7 +9241,7 @@ msgstr ""
 msgid "Internally added if launched from Finder"
 msgstr ""
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:827
 #, fuzzy, kde-format
 #| msgid "The style %1 was not found\n"
 msgid "The style '%1' was not found"
@@ -19449,9 +19467,6 @@ msgstr "每日小祕訣(&D)"
 #~ "當按下 <b>[套用]</b> 後，設定會被程式使用，\n"
 #~ "但是對話方塊不會關閉。\n"
 #~ "可以使用 <b>[套用]</b> 來試驗不同設定。"
-
-#~ msgid "Apply settings"
-#~ msgstr "套用設定"
 
 #~ msgctxt "min toolbar"
 #~ msgid "Flat"
