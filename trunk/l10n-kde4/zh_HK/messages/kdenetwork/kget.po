@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:14+0200\n"
+"POT-Creation-Date: 2010-09-22 06:07+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -149,7 +149,7 @@ msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] ""
 
-#: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:148
+#: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:150
 #: ui/transferdetails.cpp:100
 #, kde-format
 msgid "%1/s"
@@ -412,60 +412,81 @@ msgstr ""
 msgid "Download started"
 msgstr "下載已續傳"
 
-#: core/kget.cpp:1374
+#: core/kget.cpp:1331 core/datasourcefactory.cpp:269
+#: core/datasourcefactory.cpp:595 transfer-plugins/metalink/metalink.cpp:201
+#: ui/metalinkcreator/metalinkcreator.cpp:156
+#: ui/metalinkcreator/metalinkcreator.cpp:173
+msgid "Error"
+msgstr ""
+
+#: core/kget.cpp:1331
+#, kde-format
+msgid ""
+"<p>There has been an error in the following transfer:</p><p style=\"font-"
+"size: small;\">\\%1</p><p>The error message is:</p><p style=\"font-size: "
+"small;\">\\%2</p>"
+msgstr ""
+
+#: core/kget.cpp:1336
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Resolve"
+msgstr "開啟傳輸"
+
+#: core/kget.cpp:1384
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1378
+#: core/kget.cpp:1388
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1378
+#: core/kget.cpp:1388
 #, fuzzy
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "自動關閉開啟。"
 
-#: core/kget.cpp:1381
+#: core/kget.cpp:1391
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1381
+#: core/kget.cpp:1391
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1394
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1394
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "正在排程"
 
-#: core/kget.cpp:1392
+#: core/kget.cpp:1402
 #, fuzzy
 #| msgid "Font:"
 msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr "字型:"
 
-#: core/kget.cpp:1402
+#: core/kget.cpp:1412
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1403
+#: core/kget.cpp:1413
 #, fuzzy
 #| msgid "Download finished"
 msgid "Downloads completed"
@@ -555,22 +576,13 @@ msgstr ""
 msgid "Filesize is larger than maximum file size supported by VFAT."
 msgstr ""
 
-#: core/datasourcefactory.cpp:269 core/datasourcefactory.cpp:595
-#: transfer-plugins/metalink/metalink.cpp:201
-#: transfer-plugins/bittorrent/bttransfer.cpp:469
-#: transfer-plugins/bittorrent/bttransfer.cpp:480
-#: ui/metalinkcreator/metalinkcreator.cpp:156
-#: ui/metalinkcreator/metalinkcreator.cpp:173
-msgid "Error"
-msgstr ""
-
 #: core/datasourcefactory.cpp:595
 #, kde-format
 msgctxt "A mirror is removed when the file has the wrong download size"
 msgid "%1 removed as it did report a wrong file size."
 msgstr ""
 
-#: core/transferhandler.cpp:135
+#: core/transferhandler.cpp:137
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:27
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:28
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:29
@@ -592,7 +604,7 @@ msgctxt "not available"
 msgid "n/a"
 msgstr ""
 
-#: core/transferhandler.cpp:143 ui/transferdetails.cpp:95
+#: core/transferhandler.cpp:145 ui/transferdetails.cpp:95
 msgid "Stalled"
 msgstr "因擠塞停止了"
 
@@ -1350,18 +1362,25 @@ msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
 #: transfer-plugins/bittorrent/bttransfer.cpp:406
-#: transfer-plugins/bittorrent/bttransfer.cpp:422
-#: transfer-plugins/bittorrent/bttransfer.cpp:468
-#: transfer-plugins/bittorrent/bttransfer.cpp:479
-msgid "An error occurred...."
+#, fuzzy
+#| msgid ""
+#| "Folder does not exist:\n"
+#| "%1"
+msgid "Torrent file does not exist"
 msgstr ""
+"沒有這個資料夾：\n"
+"%1"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:410
+#: transfer-plugins/bittorrent/bttransfer.cpp:411
 #, fuzzy
 msgid "Analyzing torrent...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:489
+#: transfer-plugins/bittorrent/bttransfer.cpp:423
+msgid "Cannot initialize port..."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:492
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
@@ -5126,13 +5145,6 @@ msgstr ""
 #~ "Each row consists of exactly one\n"
 #~ "extension type and one folder."
 #~ msgstr "每一行由一個延伸類型和一個資料夾組成。"
-
-#~ msgid ""
-#~ "Folder does not exist:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "沒有這個資料夾：\n"
-#~ "%1"
 
 #~ msgid "&Dock"
 #~ msgstr "停泊(&D)"
