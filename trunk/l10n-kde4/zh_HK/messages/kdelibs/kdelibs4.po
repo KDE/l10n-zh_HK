@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-10-31 05:13+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2866,12 +2866,24 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "變更圖示(&I)..."
 
-#: nepomuk/utils/resourcemodel.cpp:113
+#: nepomuk/utils/resourcemodel.cpp:149
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Miscellaneous Symbols"
 msgid "Miscellaneous"
 msgstr "其他符號"
+
+#: nepomuk/utils/resourcemodel.cpp:175
+#, fuzzy
+#| msgid "Valid Resource"
+msgid "Resource"
+msgstr "有效資源"
+
+#: nepomuk/utils/resourcemodel.cpp:177
+#, fuzzy
+#| msgid "Resource Selection"
+msgid "Resource Type"
+msgstr "資源選擇"
 
 #: nepomuk/utils/searchwidget.cpp:99
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
@@ -6993,15 +7005,15 @@ msgstr "Test"
 msgid "a basic web browser using the KHTML library"
 msgstr ""
 
-#: khtml/khtml_settings.cpp:238
+#: khtml/khtml_settings.cpp:235
 msgid "Accept"
 msgstr "接受"
 
-#: khtml/khtml_settings.cpp:239
+#: khtml/khtml_settings.cpp:236
 msgid "Reject"
 msgstr "拒絕"
 
-#: khtml/khtml_settings.cpp:919
+#: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "過濾器錯誤"
 
@@ -17853,11 +17865,6 @@ msgstr "pm"
 #~ msgstr "最新"
 
 #, fuzzy
-#~| msgid "Valid Resource"
-#~ msgid "Tag Resource"
-#~ msgstr "有效資源"
-
-#, fuzzy
 #~| msgid "Please select type of the new resource:"
 #~ msgid "Please select the file to open."
 #~ msgstr "請選取新資源的類型："
@@ -19206,9 +19213,6 @@ msgstr "pm"
 
 #~ msgid "Saving resource '%1' failed!"
 #~ msgstr "儲存資源 '%1' 時發生錯誤！"
-
-#~ msgid "Resource Selection"
-#~ msgstr "資源選擇"
 
 #~ msgid "Public"
 #~ msgstr "公開"
