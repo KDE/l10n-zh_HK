@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-18 06:15+0200\n"
+"POT-Creation-Date: 2010-11-03 06:25+0100\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -47,9 +47,11 @@ msgstr ""
 msgid "There was an error during extraction."
 msgstr ""
 
-#: app/extractHereDndPlugin.cpp:68 kerfuffle/extractiondialog.cpp:108
+#: app/extractHereDndPlugin.cpp:64
 #, fuzzy
 #| msgid "Extract"
+msgctxt ""
+"@action:inmenu Context menu shown when an archive is being drag'n'dropped"
 msgid "Extract here"
 msgstr "解開"
 
@@ -310,6 +312,12 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 #| msgid "Archive Already Exists"
 msgid "Folder exists"
 msgstr "壓縮檔已經存在"
+
+#: kerfuffle/extractiondialog.cpp:108
+#, fuzzy
+#| msgid "Extract"
+msgid "Extract here"
+msgstr "解開"
 
 #: kerfuffle/extractiondialog.cpp:108
 msgid "Cancel"
