@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:14+0200\n"
+"POT-Creation-Date: 2010-11-09 07:02+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -43,7 +43,7 @@ msgid ""
 "or double click. Press Esc to quit."
 msgstr ""
 
-#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:228
+#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:239
 msgid "snapshot"
 msgstr "快照"
 
@@ -63,55 +63,69 @@ msgstr "KSbaoshot"
 msgid "(c) 2007, Montel Laurent"
 msgstr ""
 
-#: ksnapshot.cpp:98
+#: kipiaction.cpp:49 main.cpp:38
+msgid "KSnapshot"
+msgstr "KSbaoshot"
+
+#: ksnapshot.cpp:103
 msgid "Copy"
 msgstr ""
 
-#: ksnapshot.cpp:99
-msgid "Open With..."
+#: ksnapshot.cpp:104
+msgid "Send To..."
 msgstr ""
 
-#: ksnapshot.cpp:128
+#: ksnapshot.cpp:133
 #, fuzzy
 #| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " 秒"
 
-#: ksnapshot.cpp:237
+#: ksnapshot.cpp:248
 msgid "Quick Save Snapshot &As..."
 msgstr "快速儲存快照為(&A)..."
 
-#: ksnapshot.cpp:238
+#: ksnapshot.cpp:249
 msgid ""
 "Save the snapshot to the file specified by the user without showing the file "
 "dialog."
 msgstr ""
 
-#: ksnapshot.cpp:240
+#: ksnapshot.cpp:251
 msgid "Save Snapshot &As..."
 msgstr "儲存快照為(&A)..."
 
-#: ksnapshot.cpp:241
+#: ksnapshot.cpp:252
 msgid "Save the snapshot to the file specified by the user."
 msgstr "將快照儲存至用戶指定的檔案。"
 
-#: ksnapshot.cpp:304
+#: ksnapshot.cpp:315
 #, fuzzy
 msgid "Save As"
 msgstr "儲存為(&S)..."
 
-#: ksnapshot.cpp:481
+#: ksnapshot.cpp:506
 msgid "Other Application..."
 msgstr ""
 
-#: ksnapshot.cpp:589
+#: ksnapshot.cpp:614
 msgid "The screen has been successfully grabbed."
 msgstr "這個螢幕已經成功的擷取."
 
-#: ksnapshot.cpp:762
+#: ksnapshot.cpp:787
 #, kde-format
 msgid "Preview of the snapshot image (%1 x %2)"
+msgstr ""
+
+#: ksnapshotjobtracker.cpp:60
+msgctxt "Used to join urls"
+msgid ", "
+msgstr ""
+
+#: ksnapshotjobtracker.cpp:60
+#, kde-format
+msgid "Done: %1"
 msgstr ""
 
 #: ksnapshotobject.cpp:112
@@ -153,10 +167,6 @@ msgstr ""
 #: main.cpp:34
 msgid "KDE Screenshot Utility"
 msgstr "KDE 畫面擷取工具"
-
-#: main.cpp:38
-msgid "KSnapshot"
-msgstr "KSbaoshot"
 
 #: main.cpp:40
 msgid ""
@@ -285,13 +295,13 @@ msgstr ""
 #. i18n: file: ksnapshotwidget.ui:129
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:37
-msgid "Region"
+msgid "Rectangular Region"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:134
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
 #: rc.cpp:40
-msgid "Free Region"
+msgid "Freehand Region"
 msgstr ""
 
 #. i18n: file: ksnapshotwidget.ui:139
