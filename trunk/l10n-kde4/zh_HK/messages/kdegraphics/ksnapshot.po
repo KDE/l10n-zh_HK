@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-09 07:02+0100\n"
+"POT-Creation-Date: 2010-11-10 06:13+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -43,7 +43,7 @@ msgid ""
 "or double click. Press Esc to quit."
 msgstr ""
 
-#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:239
+#: kbackgroundsnapshot.cpp:91 ksnapshot.cpp:235
 msgid "snapshot"
 msgstr "快照"
 
@@ -63,69 +63,62 @@ msgstr "KSbaoshot"
 msgid "(c) 2007, Montel Laurent"
 msgstr ""
 
-#: kipiaction.cpp:49 main.cpp:38
-msgid "KSnapshot"
-msgstr "KSbaoshot"
+#: kipiimagecollectionselector.cpp:52
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] ""
 
-#: ksnapshot.cpp:103
+#: ksnapshot.cpp:101
 msgid "Copy"
 msgstr ""
 
-#: ksnapshot.cpp:104
+#: ksnapshot.cpp:102
 msgid "Send To..."
 msgstr ""
 
-#: ksnapshot.cpp:133
+#: ksnapshot.cpp:131
 #, fuzzy
 #| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " 秒"
 
-#: ksnapshot.cpp:248
+#: ksnapshot.cpp:244
 msgid "Quick Save Snapshot &As..."
 msgstr "快速儲存快照為(&A)..."
 
-#: ksnapshot.cpp:249
+#: ksnapshot.cpp:245
 msgid ""
 "Save the snapshot to the file specified by the user without showing the file "
 "dialog."
 msgstr ""
 
-#: ksnapshot.cpp:251
+#: ksnapshot.cpp:247
 msgid "Save Snapshot &As..."
 msgstr "儲存快照為(&A)..."
 
-#: ksnapshot.cpp:252
+#: ksnapshot.cpp:248
 msgid "Save the snapshot to the file specified by the user."
 msgstr "將快照儲存至用戶指定的檔案。"
 
-#: ksnapshot.cpp:315
+#: ksnapshot.cpp:309
 #, fuzzy
 msgid "Save As"
 msgstr "儲存為(&S)..."
 
-#: ksnapshot.cpp:506
+#: ksnapshot.cpp:525
 msgid "Other Application..."
 msgstr ""
 
-#: ksnapshot.cpp:614
+#: ksnapshot.cpp:633
 msgid "The screen has been successfully grabbed."
 msgstr "這個螢幕已經成功的擷取."
 
-#: ksnapshot.cpp:787
+#: ksnapshot.cpp:806
 #, kde-format
 msgid "Preview of the snapshot image (%1 x %2)"
-msgstr ""
-
-#: ksnapshotjobtracker.cpp:60
-msgctxt "Used to join urls"
-msgid ", "
-msgstr ""
-
-#: ksnapshotjobtracker.cpp:60
-#, kde-format
-msgid "Done: %1"
 msgstr ""
 
 #: ksnapshotobject.cpp:112
@@ -167,6 +160,10 @@ msgstr ""
 #: main.cpp:34
 msgid "KDE Screenshot Utility"
 msgstr "KDE 畫面擷取工具"
+
+#: main.cpp:38
+msgid "KSnapshot"
+msgstr "KSbaoshot"
 
 #: main.cpp:40
 msgid ""
@@ -210,7 +207,7 @@ msgid "Pau Garcia i Quiles"
 msgstr ""
 
 #: main.cpp:48
-msgid "Free region grabbing"
+msgid "Free region grabbing, KIPI plugins support"
 msgstr ""
 
 #: rc.cpp:1
