@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-14 06:33+0100\n"
+"POT-Creation-Date: 2010-11-17 06:21+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -276,7 +276,7 @@ msgstr ""
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:1013 core/urlchecker.cpp:295
+#: core/kget.cpp:1013 core/urlchecker.cpp:320
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -285,7 +285,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:1020 core/urlchecker.cpp:297
+#: core/kget.cpp:1020 core/urlchecker.cpp:322
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -297,7 +297,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:1031 core/urlchecker.cpp:353
+#: core/kget.cpp:1031 core/urlchecker.cpp:378
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -307,12 +307,12 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:1032 core/urlchecker.cpp:564
+#: core/kget.cpp:1032 core/urlchecker.cpp:589
 #, fuzzy
 msgid "Download it again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:1044 core/urlchecker.cpp:355
+#: core/kget.cpp:1044 core/urlchecker.cpp:380
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -322,7 +322,7 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:1045 core/urlchecker.cpp:561
+#: core/kget.cpp:1045 core/urlchecker.cpp:586
 #, fuzzy
 msgid "Delete it and download again?"
 msgstr "再次下載"
@@ -338,7 +338,7 @@ msgid ""
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/kget.cpp:1104 core/urlchecker.cpp:573
+#: core/kget.cpp:1104 core/urlchecker.cpp:598
 #, fuzzy
 msgid "File already downloaded. Download anyway?"
 msgstr ""
@@ -350,8 +350,8 @@ msgstr ""
 msgid "You are already downloading the same file"
 msgstr ""
 
-#: core/kget.cpp:1117 core/kget.cpp:1120 core/urlchecker.cpp:576
-#: core/urlchecker.cpp:677 transfer-plugins/metalink/metalink.cpp:735
+#: core/kget.cpp:1117 core/kget.cpp:1120 core/urlchecker.cpp:601
+#: core/urlchecker.cpp:702 transfer-plugins/metalink/metalink.cpp:735
 #, fuzzy
 msgid "File already exists"
 msgstr ""
@@ -690,42 +690,42 @@ msgctxt "remaining time of download"
 msgid "Remaining Time"
 msgstr "剩下的時間"
 
-#: core/urlchecker.cpp:229 core/urlchecker.cpp:269
+#: core/urlchecker.cpp:254 core/urlchecker.cpp:294
 msgid "No download directory specified."
 msgstr ""
 
-#: core/urlchecker.cpp:231
+#: core/urlchecker.cpp:256
 msgid "Invalid download directory specified."
 msgstr ""
 
-#: core/urlchecker.cpp:233
+#: core/urlchecker.cpp:258
 msgid "Download directory is not writeable."
 msgstr ""
 
-#: core/urlchecker.cpp:241 core/urlchecker.cpp:281
+#: core/urlchecker.cpp:266 core/urlchecker.cpp:306
 #, fuzzy
 #| msgid "Destination:"
 msgid "No download destination specified."
 msgstr "目的地："
 
-#: core/urlchecker.cpp:243
+#: core/urlchecker.cpp:268
 #, fuzzy
 #| msgid "Destination:"
 msgid "Invalid download destination specified."
 msgstr "目的地："
 
-#: core/urlchecker.cpp:245
+#: core/urlchecker.cpp:270
 #, fuzzy
 #| msgid "Destination:"
 msgid "Download destination is not writeable."
 msgstr "目的地："
 
-#: core/urlchecker.cpp:253 core/urlchecker.cpp:293 core/urlchecker.cpp:383
-#: core/urlchecker.cpp:397
+#: core/urlchecker.cpp:278 core/urlchecker.cpp:318 core/urlchecker.cpp:408
+#: core/urlchecker.cpp:422
 msgid "No URL specified."
 msgstr ""
 
-#: core/urlchecker.cpp:255
+#: core/urlchecker.cpp:280
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
 #: transfer-plugins/bittorrent/bttransfer.cpp:256
 #, fuzzy
@@ -733,7 +733,7 @@ msgstr ""
 msgid "Malformed URL."
 msgstr "格式不正確的 URL:\n"
 
-#: core/urlchecker.cpp:257
+#: core/urlchecker.cpp:282
 #, fuzzy
 #| msgid ""
 #| "Malformed URL:\n"
@@ -743,7 +743,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:259
+#: core/urlchecker.cpp:284
 #, fuzzy
 #| msgid ""
 #| "Malformed URL:\n"
@@ -753,21 +753,21 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:271
+#: core/urlchecker.cpp:296
 #, kde-format
 msgid ""
 "Invalid download directory specified:\n"
 "%1"
 msgstr ""
 
-#: core/urlchecker.cpp:273
+#: core/urlchecker.cpp:298
 #, kde-format
 msgid ""
 "Download directory is not writeable:\n"
 "%1"
 msgstr ""
 
-#: core/urlchecker.cpp:283
+#: core/urlchecker.cpp:308
 #, fuzzy, kde-format
 #| msgid "Destination:"
 msgid ""
@@ -775,7 +775,7 @@ msgid ""
 "%1"
 msgstr "目的地："
 
-#: core/urlchecker.cpp:285
+#: core/urlchecker.cpp:310
 #, fuzzy, kde-format
 #| msgid "Destination:"
 msgid ""
@@ -783,7 +783,7 @@ msgid ""
 "%1"
 msgstr "目的地："
 
-#: core/urlchecker.cpp:299
+#: core/urlchecker.cpp:324
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -795,7 +795,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:315 core/urlchecker.cpp:327
+#: core/urlchecker.cpp:340 core/urlchecker.cpp:352
 #, fuzzy
 msgid "File already exists. Overwrite it?"
 msgstr ""
@@ -804,30 +804,30 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/urlchecker.cpp:317 core/urlchecker.cpp:343
+#: core/urlchecker.cpp:342 core/urlchecker.cpp:368
 msgid ""
 "You have already downloaded that file from another location.\n"
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/urlchecker.cpp:319 core/urlchecker.cpp:345
+#: core/urlchecker.cpp:344 core/urlchecker.cpp:370
 msgid ""
 "You are already downloading that file from another location.\n"
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/urlchecker.cpp:329
+#: core/urlchecker.cpp:354
 msgid ""
 "You have already completed a download from that location. Download it again?"
 msgstr ""
 
-#: core/urlchecker.cpp:331
+#: core/urlchecker.cpp:356
 msgid ""
 "You have a download in progress from that location.\n"
 "Delete it and download again?"
 msgstr ""
 
-#: core/urlchecker.cpp:341
+#: core/urlchecker.cpp:366
 #, fuzzy, kde-format
 msgid ""
 "File already exists:\n"
@@ -839,13 +839,13 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/urlchecker.cpp:385
+#: core/urlchecker.cpp:410
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URLs."
 msgstr "格式不正確的 URL:\n"
 
-#: core/urlchecker.cpp:387
+#: core/urlchecker.cpp:412
 #, fuzzy
 #| msgid ""
 #| "Malformed URL:\n"
@@ -855,7 +855,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:389
+#: core/urlchecker.cpp:414
 #, fuzzy
 #| msgid ""
 #| "Malformed URL:\n"
@@ -865,7 +865,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:399
+#: core/urlchecker.cpp:424
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -877,7 +877,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:401
+#: core/urlchecker.cpp:426
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -889,7 +889,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:403
+#: core/urlchecker.cpp:428
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -901,14 +901,14 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/urlchecker.cpp:405
+#: core/urlchecker.cpp:430
 #, kde-format
 msgid ""
 "Destinations are not writable:\n"
 "%1"
 msgstr ""
 
-#: core/urlchecker.cpp:429
+#: core/urlchecker.cpp:454
 #, fuzzy
 msgid "Files exist already. Overwrite them?"
 msgstr ""
@@ -917,31 +917,31 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/urlchecker.cpp:431
+#: core/urlchecker.cpp:456
 msgid ""
 "You have already completed downloads at those destinations. Download them "
 "again?"
 msgstr ""
 
-#: core/urlchecker.cpp:433
+#: core/urlchecker.cpp:458
 msgid ""
 "You have downloads in progress to these destinations.\n"
 "Delete them and download again?"
 msgstr ""
 
-#: core/urlchecker.cpp:441
+#: core/urlchecker.cpp:466
 msgid ""
 "You have already completed downloads from these locations. Download them "
 "again?"
 msgstr ""
 
-#: core/urlchecker.cpp:443
+#: core/urlchecker.cpp:468
 msgid ""
 "You have downloads in progress from these locations.\n"
 "Delete them and download again?"
 msgstr ""
 
-#: core/urlchecker.cpp:452
+#: core/urlchecker.cpp:477
 #, kde-format
 msgid ""
 "Files exist already:\n"
@@ -949,7 +949,7 @@ msgid ""
 "Overwrite them?"
 msgstr ""
 
-#: core/urlchecker.cpp:454
+#: core/urlchecker.cpp:479
 #, kde-format
 msgid ""
 "You have already completed downloads at those destinations: \n"
@@ -959,7 +959,7 @@ msgid ""
 " Download them again?"
 msgstr ""
 
-#: core/urlchecker.cpp:456
+#: core/urlchecker.cpp:481
 #, kde-format
 msgid ""
 "You have downloads in progress to these destinations: \n"
@@ -969,7 +969,7 @@ msgid ""
 "Delete them and download again?"
 msgstr ""
 
-#: core/urlchecker.cpp:464
+#: core/urlchecker.cpp:489
 #, kde-format
 msgid ""
 "You have already completed downloads from these locations: \n"
@@ -979,7 +979,7 @@ msgid ""
 "Download them again?"
 msgstr ""
 
-#: core/urlchecker.cpp:466
+#: core/urlchecker.cpp:491
 #, kde-format
 msgid ""
 "You have downloads in progress from these locations: \n"
@@ -989,16 +989,16 @@ msgid ""
 "Delete them and download again?"
 msgstr ""
 
-#: core/urlchecker.cpp:586
+#: core/urlchecker.cpp:611
 msgid "Question"
 msgstr "問題"
 
-#: core/urlchecker.cpp:588
+#: core/urlchecker.cpp:613
 msgctxt "on a question"
 msgid "Yes all"
 msgstr ""
 
-#: core/urlchecker.cpp:589
+#: core/urlchecker.cpp:614
 #, fuzzy
 #| msgid "Normal"
 msgctxt "on a question"
