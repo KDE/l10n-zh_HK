@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-19 02:17+0100\n"
+"POT-Creation-Date: 2010-12-26 02:58+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -460,6 +460,48 @@ msgctxt "This is the document format"
 msgid "HTML"
 msgstr ""
 
+#: ui/bookmarklist.cpp:111
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+
+#: ui/bookmarklist.cpp:156
+#, fuzzy
+#| msgid "Current mantainer"
+msgid "Current document only"
+msgstr "目前維護者"
+
+#: ui/bookmarklist.cpp:246
+msgid "Go to This Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:247
+msgid "Rename Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:248 part.cpp:1353 part.cpp:1826
+msgid "Remove Bookmark"
+msgstr ""
+
+#: ui/bookmarklist.cpp:273
+#, fuzzy
+#| msgid "Current mantainer"
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "目前維護者"
+
+#: ui/bookmarklist.cpp:274
+msgid "Remove Bookmarks"
+msgstr ""
+
 #: ui/findbar.cpp:35 ui/presentationsearchbar.cpp:64
 msgid "Close"
 msgstr ""
@@ -808,62 +850,6 @@ msgstr ""
 msgid "Show bookmarked pages only"
 msgstr "只顯示標有書籤的頁面"
 
-#: ui/embeddedfilesdialog.cpp:35
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "未知"
-
-#: ui/embeddedfilesdialog.cpp:40
-#, fuzzy
-#| msgid "Embedded"
-msgctxt "@title:window"
-msgid "Embedded Files"
-msgstr "內嵌的"
-
-#: ui/embeddedfilesdialog.cpp:49
-#, fuzzy
-#| msgid "Name"
-msgctxt "@title:column"
-msgid "Name"
-msgstr "名稱"
-
-#: ui/embeddedfilesdialog.cpp:50
-msgctxt "@title:column"
-msgid "Description"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:51
-#, fuzzy
-msgctxt "@title:column"
-msgid "Size"
-msgstr "標題"
-
-#: ui/embeddedfilesdialog.cpp:52
-#, fuzzy
-#| msgid "Creator"
-msgctxt "@title:column"
-msgid "Created"
-msgstr "建立者"
-
-#: ui/embeddedfilesdialog.cpp:53
-msgctxt "@title:column"
-msgid "Modified"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:69 ui/annotationwidgets.cpp:518
-msgctxt "Not available size"
-msgid "N/A"
-msgstr ""
-
-#: ui/embeddedfilesdialog.cpp:114
-#, fuzzy
-#| msgid "Save to File..."
-msgctxt "@action:inmenu"
-msgid "&Save As..."
-msgstr "儲存至檔案..."
-
 #: ui/fileprinterpreview.cpp:114
 msgid "Could not load print preview part"
 msgstr ""
@@ -898,48 +884,6 @@ msgstr "只顯示標有書籤的頁面"
 
 #: ui/formwidgets.cpp:350 shell/shell.cpp:256
 msgid "*|All Files"
-msgstr ""
-
-#: ui/bookmarklist.cpp:111
-#, kde-format
-msgctxt "%1 is the file name"
-msgid ""
-"%1\n"
-"\n"
-"One bookmark"
-msgid_plural ""
-"%1\n"
-"\n"
-"%2 bookmarks"
-msgstr[0] ""
-
-#: ui/bookmarklist.cpp:156
-#, fuzzy
-#| msgid "Current mantainer"
-msgid "Current document only"
-msgstr "目前維護者"
-
-#: ui/bookmarklist.cpp:246
-msgid "Go to This Bookmark"
-msgstr ""
-
-#: ui/bookmarklist.cpp:247
-msgid "Rename Bookmark"
-msgstr ""
-
-#: ui/bookmarklist.cpp:248 part.cpp:1353 part.cpp:1826
-msgid "Remove Bookmark"
-msgstr ""
-
-#: ui/bookmarklist.cpp:273
-#, fuzzy
-#| msgid "Current mantainer"
-msgctxt "Opens the selected document"
-msgid "Open Document"
-msgstr "目前維護者"
-
-#: ui/bookmarklist.cpp:274
-msgid "Remove Bookmarks"
 msgstr ""
 
 #: ui/annotationmodel.cpp:297 part.cpp:1824
@@ -1045,10 +989,6 @@ msgstr ""
 #| msgid "Icon"
 msgid "Large Icons"
 msgstr "圖示"
-
-#: ui/pageviewutils.cpp:410
-msgid "Close this message"
-msgstr ""
 
 #: ui/minibar.cpp:87
 msgctxt "Layouted like: '5 [pages] of 10'"
@@ -1282,6 +1222,11 @@ msgctxt "'File' as normal file, that can be opened, saved, etc.."
 msgid "File"
 msgstr "標題"
 
+#: ui/annotationwidgets.cpp:518 ui/embeddedfilesdialog.cpp:69
+msgctxt "Not available size"
+msgid "N/A"
+msgstr ""
+
 #: ui/annotationwidgets.cpp:519
 msgid "No description available."
 msgstr ""
@@ -1345,10 +1290,6 @@ msgstr ""
 
 #: ui/ktreeviewsearchline.cpp:630
 msgid "S&earch:"
-msgstr ""
-
-#: ui/annotwindow.cpp:48
-msgid "Close this note"
 msgstr ""
 
 #: ui/annotationpropertiesdialog.cpp:58
@@ -1453,6 +1394,10 @@ msgstr "屬性(&P)"
 #| msgid "%1 Properties"
 msgid "Annotation Properties"
 msgstr "%1 屬性"
+
+#: ui/annotwindow.cpp:48
+msgid "Close this note"
+msgstr ""
 
 #: ui/searchwidget.cpp:40
 msgid "Enter at least 3 letters to filter pages"
@@ -1654,6 +1599,57 @@ msgstr "標題"
 msgid "Find Next"
 msgstr ""
 
+#: ui/embeddedfilesdialog.cpp:35
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/embeddedfilesdialog.cpp:40
+#, fuzzy
+#| msgid "Embedded"
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "內嵌的"
+
+#: ui/embeddedfilesdialog.cpp:49
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名稱"
+
+#: ui/embeddedfilesdialog.cpp:50
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:51
+#, fuzzy
+msgctxt "@title:column"
+msgid "Size"
+msgstr "標題"
+
+#: ui/embeddedfilesdialog.cpp:52
+#, fuzzy
+#| msgid "Creator"
+msgctxt "@title:column"
+msgid "Created"
+msgstr "建立者"
+
+#: ui/embeddedfilesdialog.cpp:53
+msgctxt "@title:column"
+msgid "Modified"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:114
+#, fuzzy
+#| msgid "Save to File..."
+msgctxt "@action:inmenu"
+msgid "&Save As..."
+msgstr "儲存至檔案..."
+
 #: ui/presentationwidget.cpp:142
 #, fuzzy, kde-format
 #| msgid "Presentation"
@@ -1708,6 +1704,10 @@ msgctxt ""
 "is active"
 msgid "Giving a presentation"
 msgstr "表現"
+
+#: ui/pageviewutils.cpp:410
+msgid "Close this message"
+msgstr ""
 
 #: shell/main.cpp:45
 msgid "Page of the document to be shown"
