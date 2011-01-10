@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-05 02:24+0100\n"
+"POT-Creation-Date: 2011-01-10 02:26+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5252,7 +5252,7 @@ msgstr "訂閱"
 #: protocols/jabber/ui/privacyruledlg.cpp:43
 #: protocols/jabber/ui/privacyruledlg.cpp:94
 #: protocols/jabber/ui/privacyruledlg.cpp:135
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:149
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:160
 msgid "Both"
 msgstr ""
 
@@ -10399,13 +10399,13 @@ msgid "More..."
 msgstr "更多..."
 
 #: kopete/chatwindow/kopetechatwindow.cpp:1129
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:147
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:158
 #, fuzzy
 msgid "Top"
 msgstr "主題"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:1132
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:148
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:159
 msgid "Bottom"
 msgstr ""
 
@@ -11120,6 +11120,7 @@ msgid "Flicker Reduction"
 msgstr "說明"
 
 #: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:38
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:153
 #, fuzzy
 #| msgid "First Name"
 msgid "Framerate"
@@ -11415,22 +11416,54 @@ msgstr "說明"
 msgid "Noise reduction"
 msgstr "說明"
 
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:136
+msgid "Compression Target"
+msgstr ""
+
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:137
+#, fuzzy
+#| msgid "Colors"
+msgid "Color Filter"
+msgstr "顏色"
+
+#. i18n: Transaction Time (msec)
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:139
+#, fuzzy
+#| msgid "Translation service:"
+msgid "Transaction time (msec)"
+msgstr "翻譯服務:"
+
+#. i18n: "Buffers per Transaction"
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:141
+msgid "Buffers per transaction"
+msgstr ""
+
 #. i18n: off / disable flicker compensation
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:140
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:146
 msgid "NoFliker"
 msgstr ""
 
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:141
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:147
 #, fuzzy
 #| msgid "Automatic Spell Checking"
 msgid "Automatic"
 msgstr "自動拼字檢查"
 
-#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:146
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:152
+#, fuzzy
+#| msgid "City"
+msgid "Quality"
+msgstr "城市"
+
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:157
 #, fuzzy
 #| msgid "Offline"
 msgid "Off"
 msgstr "離線"
+
+#: libkopete/avdevice/dummy-V4L2apiCustomStrings.cpp:163
+msgid "On"
+msgstr ""
 
 #: libkopete/avdevice/videodevice.cpp:128
 #: libkopete/avdevice/videodevice.cpp:3020
@@ -11630,6 +11663,20 @@ msgstr "省/州:"
 #| msgid "Background color:"
 msgid "Background color"
 msgstr "背景顏色:"
+
+#: libkopete/avdevice/videodevice.cpp:3062
+#, fuzzy
+#| msgid "Automatic Spell Checking"
+msgid "Chroma Gain"
+msgstr "自動拼字檢查"
+
+#: libkopete/avdevice/videodevice.cpp:3065
+msgid "Illuminator 1"
+msgstr ""
+
+#: libkopete/avdevice/videodevice.cpp:3066
+msgid "Illuminator 2"
+msgstr ""
 
 #: libkopete/contactlist/xmlcontactstorage.cpp:131
 msgid "Could not find contactlist.xml in Kopete application data."
