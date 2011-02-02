@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-26 02:50+0100\n"
+"POT-Creation-Date: 2011-02-02 03:12+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1992,8 +1992,8 @@ msgid "Open Inbox"
 msgstr "開啟收件匣(&X)..."
 
 #: protocols/wlm/wlmaccount.cpp:1159 protocols/wlm/wlmaccount.cpp:1174
-#: protocols/yahoo/yahooaccount.cpp:1167 protocols/yahoo/yahooaccount.cpp:1610
-#: protocols/yahoo/yahooaccount.cpp:1821
+#: protocols/yahoo/yahooaccount.cpp:1170 protocols/yahoo/yahooaccount.cpp:1613
+#: protocols/yahoo/yahooaccount.cpp:1824
 #: libkopete/private/kopeteviewmanager.cpp:410
 #, fuzzy
 #| msgid "Ignore"
@@ -2231,7 +2231,7 @@ msgstr "無法連接伺服器。"
 msgid "An error occurred while sending the file."
 msgstr "傳送檔案時發生錯誤: %1"
 
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:208
+#: protocols/yahoo/libkyahoo/webcamtask.cpp:206
 #, fuzzy, kde-format
 msgid ""
 "Webcam connection to the user %1 could not be established.\n"
@@ -2239,12 +2239,12 @@ msgid ""
 "Please relogin and try again."
 msgstr "無法建立和 Jabber 伺服器建立加密連線。"
 
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:545
+#: protocols/yahoo/libkyahoo/webcamtask.cpp:523
 #, fuzzy
 msgid "An error occurred closing the webcam session. "
 msgstr "傳送檔案時發生錯誤: %1"
 
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:545
+#: protocols/yahoo/libkyahoo/webcamtask.cpp:523
 #, fuzzy
 msgid "You tried to close a connection that did not exist."
 msgstr "你要連線才能新增聯絡人。"
@@ -2610,7 +2610,7 @@ msgid "<qt>You must enter a valid password.</qt>"
 msgstr "<qt>你必須輸入有效的密碼。</qt>"
 
 #: protocols/yahoo/yahooeditaccount.cpp:171
-#: protocols/yahoo/yahooaccount.cpp:1716
+#: protocols/yahoo/yahooaccount.cpp:1719
 #, fuzzy
 #| msgid ""
 #| "<qt>The selected buddy icon could not be opened. <br>Please set a new "
@@ -2621,9 +2621,9 @@ msgid ""
 msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
 
 #: protocols/yahoo/yahooeditaccount.cpp:171
-#: protocols/yahoo/yahooaccount.cpp:811 protocols/yahoo/yahooaccount.cpp:814
-#: protocols/yahoo/yahooaccount.cpp:1432 protocols/yahoo/yahooaccount.cpp:1618
-#: protocols/yahoo/yahooaccount.cpp:1716 protocols/yahoo/yahooaccount.cpp:1731
+#: protocols/yahoo/yahooaccount.cpp:814 protocols/yahoo/yahooaccount.cpp:817
+#: protocols/yahoo/yahooaccount.cpp:1435 protocols/yahoo/yahooaccount.cpp:1621
+#: protocols/yahoo/yahooaccount.cpp:1719 protocols/yahoo/yahooaccount.cpp:1734
 msgid "Yahoo Plugin"
 msgstr "Yahoo 插件"
 
@@ -2703,17 +2703,6 @@ msgstr "隱形設置"
 msgid "Buzz"
 msgstr "嗶！！"
 
-#: protocols/yahoo/yahoocontact.cpp:635 protocols/yahoo/yahoocontact.cpp:690
-#, fuzzy, kde-format
-msgid ""
-"Unable to find the Jasper image conversion program.\n"
-"Jasper is required to render Yahoo webcam images.\n"
-"Please see %1 for further information."
-msgstr ""
-"找不到 Jasper 影像轉換程式。\n"
-"需要 jasper 來合成 Yahoo 網絡攝影機的影像。\n"
-"請前往 %1"
-
 #: protocols/yahoo/yahooaccount.cpp:91
 #, fuzzy
 #| msgid "Open &Addressbook..."
@@ -2753,7 +2742,17 @@ msgid ""
 "login."
 msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
 
-#: protocols/yahoo/yahooaccount.cpp:786
+#: protocols/yahoo/yahooaccount.cpp:772
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not log into the Yahoo service: the username specified was invalid."
+msgctxt "@info"
+msgid ""
+"Could not log into the Yahoo service. Error code: <message><numid>%1</"
+"numid></message>."
+msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
+
+#: protocols/yahoo/yahooaccount.cpp:789
 #, kde-format
 msgid ""
 "%1 has been disconnected.\n"
@@ -2761,7 +2760,7 @@ msgid ""
 "%2 - %3"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:799
+#: protocols/yahoo/yahooaccount.cpp:802
 #, fuzzy, kde-format
 msgid ""
 "There was an error while connecting %1 to the Yahoo server.\n"
@@ -2771,7 +2770,7 @@ msgstr ""
 "連接 MSN 伺服器時發生錯誤。\n"
 "錯誤訊息:\n"
 
-#: protocols/yahoo/yahooaccount.cpp:810 protocols/yahoo/yahooaccount.cpp:813
+#: protocols/yahoo/yahooaccount.cpp:813 protocols/yahoo/yahooaccount.cpp:816
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -2779,14 +2778,14 @@ msgid ""
 "Reason: %2"
 msgstr "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:869
+#: protocols/yahoo/yahooaccount.cpp:872
 #, fuzzy, kde-format
 msgid "User %1 has granted your authorization request."
 msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:881
+#: protocols/yahoo/yahooaccount.cpp:884
 #, fuzzy, kde-format
 msgid ""
 "User %1 has rejected your authorization request.\n"
@@ -2795,13 +2794,13 @@ msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:1125
+#: protocols/yahoo/yahooaccount.cpp:1128
 #, fuzzy
 msgctxt "This string is shown when the user is buzzed by a contact"
 msgid "Buzz"
 msgstr "嗶！！"
 
-#: protocols/yahoo/yahooaccount.cpp:1166
+#: protocols/yahoo/yahooaccount.cpp:1169
 #, fuzzy, kde-format
 msgid ""
 "%1 has invited you to join a conference with %2.\n"
@@ -2811,20 +2810,20 @@ msgid ""
 "Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1167 protocols/yahoo/yahooaccount.cpp:1610
-#: protocols/yahoo/yahooaccount.cpp:1821
+#: protocols/yahoo/yahooaccount.cpp:1170 protocols/yahoo/yahooaccount.cpp:1613
+#: protocols/yahoo/yahooaccount.cpp:1824
 #, fuzzy
 #| msgid "Accept"
 msgctxt "@action"
 msgid "Accept"
 msgstr "接受"
 
-#: protocols/yahoo/yahooaccount.cpp:1259
+#: protocols/yahoo/yahooaccount.cpp:1262
 #, fuzzy, kde-format
 msgid "%1 has declined to join the conference: \"%2\""
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/yahoo/yahooaccount.cpp:1571
+#: protocols/yahoo/yahooaccount.cpp:1574
 #, fuzzy, kde-format
 #| msgid "You have one unread message in your Yahoo inbox."
 #| msgid_plural "You have %1 unread messages in your Yahoo inbox."
@@ -2832,32 +2831,32 @@ msgid "You have one unread message in your Yahoo inbox."
 msgid_plural "You have %1 unread messages in your Yahoo inbox."
 msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1580
+#: protocols/yahoo/yahooaccount.cpp:1583
 #, fuzzy, kde-format
 #| msgid "You have a message from %1 in your Yahoo inbox."
 msgid "%1 has a message from %2 in your Yahoo inbox. <br><br>Subject: %3"
 msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1609
+#: protocols/yahoo/yahooaccount.cpp:1612
 #, kde-format
 msgid "%1 has invited you to view his/her webcam. Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1618
+#: protocols/yahoo/yahooaccount.cpp:1621
 #, fuzzy, kde-format
 msgid "Webcam for %1 is not available."
 msgstr "網絡不能用"
 
-#: protocols/yahoo/yahooaccount.cpp:1731
+#: protocols/yahoo/yahooaccount.cpp:1734
 msgid "An error occurred when trying to change the display picture."
 msgstr "嘗試更改顯示圖片時發生錯誤。"
 
-#: protocols/yahoo/yahooaccount.cpp:1820
+#: protocols/yahoo/yahooaccount.cpp:1823
 #, fuzzy, kde-format
 msgid "%1 wants to view your webcam. Grant access?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1958
+#: protocols/yahoo/yahooaccount.cpp:1961
 #, fuzzy, kde-format
 msgid "You are now in %1 (%2)"
 msgstr "你現在被標示為 %1 。"
@@ -25752,6 +25751,16 @@ msgstr ""
 #: rc.cpp:6516
 msgid "Protocol's status menu type."
 msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to find the Jasper image conversion program.\n"
+#~ "Jasper is required to render Yahoo webcam images.\n"
+#~ "Please see %1 for further information."
+#~ msgstr ""
+#~ "找不到 Jasper 影像轉換程式。\n"
+#~ "需要 jasper 來合成 Yahoo 網絡攝影機的影像。\n"
+#~ "請前往 %1"
 
 #, fuzzy
 #~| msgid "Set password to new"
