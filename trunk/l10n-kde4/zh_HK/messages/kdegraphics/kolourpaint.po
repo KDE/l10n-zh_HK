@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-08 02:39+0100\n"
+"POT-Creation-Date: 2011-02-09 02:45+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -173,9 +173,9 @@ msgstr "文字：建立盒子"
 
 #: tools/selection/kpAbstractSelectionTool.cpp:261
 #: tools/selection/kpAbstractSelectionTool.cpp:519
-#: tools/polygonal/kpToolPolygonalBase.cpp:432
+#: tools/polygonal/kpToolPolygonalBase.cpp:437
 #: tools/flow/kpToolFlowBase.cpp:302
-#: tools/rectangular/kpToolRectangularBase.cpp:357
+#: tools/rectangular/kpToolRectangularBase.cpp:356
 #: tools/kpToolFloodFill.cpp:144 tools/kpToolColorPicker.cpp:112
 #: tools/kpToolZoom.cpp:207
 msgid "Let go of all the mouse buttons."
@@ -199,7 +199,7 @@ msgid "Draws lines"
 msgstr "繪畫線條"
 
 #: tools/polygonal/kpToolLine.cpp:75
-#: tools/rectangular/kpToolRectangularBase.cpp:121
+#: tools/rectangular/kpToolRectangularBase.cpp:120
 msgid "Drag to draw."
 msgstr "拖曳以繪畫。"
 
@@ -1408,27 +1408,6 @@ msgstr "要扭曲圖像嗎？"
 msgid "Sk&ew Image"
 msgstr "扭曲圖像(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:54
-msgid "Flip Selection"
-msgstr "反轉選取區域"
-
-#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:54
-msgid "Flip Image"
-msgstr "反轉圖像"
-
-#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:56
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
-msgid "Direction"
-msgstr "方向"
-
-#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:59
-msgid "&Vertical (upside-down)"
-msgstr "垂直（上下倒轉）(&V)"
-
-#: dialogs/imagelib/transforms/kpTransformFlipDialog.cpp:60
-msgid "&Horizontal"
-msgstr "水平(&H)"
-
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
 msgid "Rotate Selection"
 msgstr "旋轉選取區域"
@@ -1442,6 +1421,10 @@ msgstr "旋轉圖像"
 #| msgid "After Rotate:"
 msgid "After rotate:"
 msgstr "旋轉之後:"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
+msgid "Direction"
+msgstr "方向"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
 msgid "Cou&nterclockwise"
@@ -2395,6 +2378,18 @@ msgstr "選取工具 RMB 選單"
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid "Flip Selection"
+#~ msgstr "反轉選取區域"
+
+#~ msgid "Flip Image"
+#~ msgstr "反轉圖像"
+
+#~ msgid "&Vertical (upside-down)"
+#~ msgstr "垂直（上下倒轉）(&V)"
+
+#~ msgid "&Horizontal"
+#~ msgstr "水平(&H)"
 
 #, fuzzy
 #~| msgid "Could not open \"%1\" - out of graphics memory."
