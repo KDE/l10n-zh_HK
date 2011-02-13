@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-09 02:45+0100\n"
+"POT-Creation-Date: 2011-02-13 15:29+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -11363,6 +11363,242 @@ msgstr ""
 msgid "Tobias Anton"
 msgstr ""
 
+#: khtml/khtml_printsettings.cpp:31
+msgid ""
+"<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
+"images contained in the HTML page will be printed. Printing may take longer "
+"and use more ink or toner.</p><p>If this checkbox is disabled, only the text "
+"of the HTML page will be printed, without the included images. Printing will "
+"be faster and use less ink or toner.</p> </qt>"
+msgstr ""
+"<qt><p><strong>'列印影像'</strong></p><p>如果開啟這個選項，HTML 中的影像就會"
+"被列印出來。但它會花更多時間，並會使用更多油墨或調色劑。</p><p>如果不開啟的"
+"話，那只會把 HTML 的文字列印出來。它會快一些，也可節省一些油墨或調色劑。</"
+"p></qt>"
+
+#: khtml/khtml_printsettings.cpp:43
+msgid ""
+"<qt><p><strong>'Print header'</strong></p><p>If this checkbox is enabled, "
+"the printout of the HTML document will contain a header line at the top of "
+"each page. This header contains the current date, the location URL of the "
+"printed page and the page number.</p><p>If this checkbox is disabled, the "
+"printout of the HTML document will not contain such a header line.</p> </qt>"
+msgstr ""
+"<qt><p><strong>'列印標頭'</strong></p><p>如果開啟這個選項，列印本會連標頭一起"
+"出來。標頭包含了目前的日期、URL 和頁數。</p><p>如果不開啟的話，列印本將不會包"
+"含標頭。</p></qt>"
+
+#: khtml/khtml_printsettings.cpp:56
+#, fuzzy
+#| msgid ""
+#| "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
+#| "enabled, the printout of the HTML document will be black and white only, "
+#| "and all colored background will be converted into white. Printout will be "
+#| "faster and use less ink or toner.</p><p>If this checkbox is disabled, the "
+#| "printout of the HTML document will happen in the original color settings "
+#| "as you see in your application. This may result in areas of full-page "
+#| "color (or grayscale, if you use a black+white printer). Printout will "
+#| "possibly happen slower and will certainly use much more toner or ink.</p> "
+#| "</qt>"
+msgid ""
+"<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
+"enabled, the printout of the HTML document will be black and white only, and "
+"all colored background will be converted into white. Printout will be faster "
+"and use less ink or toner.</p><p>If this checkbox is disabled, the printout "
+"of the HTML document will happen in the original color settings as you see "
+"in your application. This may result in areas of full-page color (or "
+"grayscale, if you use a black+white printer). Printout will possibly happen "
+"more slowly and will probably use more toner or ink.</p> </qt>"
+msgstr ""
+"<qt><p><strong>'便於列印模式'</strong></p><p>如果開啟這個選項，文件將會以黑白"
+"色彩列印。所有背景都會列印成白色。這樣可以使列印速度加快，並節省一些油墨或調"
+"色劑。</p><p>如果不開啟的話，文件將會以原貌列印。這樣會使全頁以彩色列印(若使"
+"用黑白列印機，則是灰階)，減慢列印速度，並使用更多油墨或調色劑。</p></qt>"
+
+#: khtml/khtml_printsettings.cpp:71
+msgid "HTML Settings"
+msgstr "HTML 設定"
+
+#: khtml/khtml_printsettings.cpp:73
+msgid "Printer friendly mode (black text, no background)"
+msgstr "便於列印模式 (黑色文字，不列印背景)"
+
+#: khtml/khtml_printsettings.cpp:76
+msgid "Print images"
+msgstr "列印影像"
+
+#: khtml/khtml_printsettings.cpp:79
+msgid "Print header"
+msgstr "列印標頭"
+
+#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
+#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:419
+msgid "Save As"
+msgstr "另存新檔"
+
+#: khtml/khtmladaptorpart.cpp:29
+#, fuzzy
+#| msgid "Relative"
+msgid "Inactive"
+msgstr "相對"
+
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 像素)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 像素"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 像素)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "圖像 - %1x%2 像素"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "完成。"
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "存取鍵已啟動"
+
+#: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
+#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+msgid "Submit"
+msgstr "提交"
+
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr ""
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr ""
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr ""
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+#, fuzzy
+#| msgid "Regular e&xpression"
+msgid "TestRegression"
+msgstr "正規表示式(&X)"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr ""
+
+#: khtml/test_regression_gui_main.cpp:34
+msgid "TestRegressionGui"
+msgstr ""
+
+#: khtml/test_regression_gui_main.cpp:35
+msgid "GUI for the khtml regression tester"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:76
+#, fuzzy
+msgid "Available Tests: 0"
+msgstr "可用的地址："
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "繼續"
+
+#: khtml/test_regression_gui_window.cpp:632
+#, fuzzy
+msgid "Cannot find testregression executable."
+msgstr "找不到可執行檔‘%1’。"
+
+#: khtml/test_regression_gui_window.cpp:1102
+#, fuzzy
+msgid "Run test..."
+msgstr "重新命名清單..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+#, fuzzy
+msgid "Add to ignores..."
+msgstr "跳至行數(&G)..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr ""
+
+#: khtml/testkhtml.cpp:39
+#, fuzzy
+#| msgid "URL to open"
+msgid "URL to open"
+msgstr "要開啟的 URL"
+
+#: khtml/testkhtml.cpp:41
+#, fuzzy
+#| msgid "Test"
+msgid "Testkhtml"
+msgstr "Test"
+
+#: khtml/testkhtml.cpp:42
+msgid "a basic web browser using the KHTML library"
+msgstr ""
+
 #: khtml/khtml_part.cpp:251
 msgid "View Do&cument Source"
 msgstr "檢視文件原始碼(&C)"
@@ -11638,11 +11874,6 @@ msgstr " - 副本："
 msgid " - BCC: "
 msgstr " - 密件副本："
 
-#: khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:419
-msgid "Save As"
-msgstr "另存新檔"
-
 #: khtml/khtml_part.cpp:3715
 #, fuzzy, kde-format
 #| msgid ""
@@ -11759,11 +11990,6 @@ msgstr ""
 "<qt>這個表格將會提交到你的本地檔案系統上的<BR><B>%1</B><BR><BR>你真的要提交表"
 "格嗎？"
 
-#: khtml/khtml_part.cpp:4761 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
-msgid "Submit"
-msgstr "提交"
-
 #: khtml/khtml_part.cpp:4814
 msgid ""
 "This site attempted to attach a file from your computer in the form "
@@ -11846,74 +12072,6 @@ msgstr "顯示已擋下視窗的提示(&N)"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "設定 &JavaScript 新視窗規則..."
 
-#: khtml/khtml_printsettings.cpp:31
-msgid ""
-"<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
-"images contained in the HTML page will be printed. Printing may take longer "
-"and use more ink or toner.</p><p>If this checkbox is disabled, only the text "
-"of the HTML page will be printed, without the included images. Printing will "
-"be faster and use less ink or toner.</p> </qt>"
-msgstr ""
-"<qt><p><strong>'列印影像'</strong></p><p>如果開啟這個選項，HTML 中的影像就會"
-"被列印出來。但它會花更多時間，並會使用更多油墨或調色劑。</p><p>如果不開啟的"
-"話，那只會把 HTML 的文字列印出來。它會快一些，也可節省一些油墨或調色劑。</"
-"p></qt>"
-
-#: khtml/khtml_printsettings.cpp:43
-msgid ""
-"<qt><p><strong>'Print header'</strong></p><p>If this checkbox is enabled, "
-"the printout of the HTML document will contain a header line at the top of "
-"each page. This header contains the current date, the location URL of the "
-"printed page and the page number.</p><p>If this checkbox is disabled, the "
-"printout of the HTML document will not contain such a header line.</p> </qt>"
-msgstr ""
-"<qt><p><strong>'列印標頭'</strong></p><p>如果開啟這個選項，列印本會連標頭一起"
-"出來。標頭包含了目前的日期、URL 和頁數。</p><p>如果不開啟的話，列印本將不會包"
-"含標頭。</p></qt>"
-
-#: khtml/khtml_printsettings.cpp:56
-#, fuzzy
-#| msgid ""
-#| "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
-#| "enabled, the printout of the HTML document will be black and white only, "
-#| "and all colored background will be converted into white. Printout will be "
-#| "faster and use less ink or toner.</p><p>If this checkbox is disabled, the "
-#| "printout of the HTML document will happen in the original color settings "
-#| "as you see in your application. This may result in areas of full-page "
-#| "color (or grayscale, if you use a black+white printer). Printout will "
-#| "possibly happen slower and will certainly use much more toner or ink.</p> "
-#| "</qt>"
-msgid ""
-"<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
-"enabled, the printout of the HTML document will be black and white only, and "
-"all colored background will be converted into white. Printout will be faster "
-"and use less ink or toner.</p><p>If this checkbox is disabled, the printout "
-"of the HTML document will happen in the original color settings as you see "
-"in your application. This may result in areas of full-page color (or "
-"grayscale, if you use a black+white printer). Printout will possibly happen "
-"more slowly and will probably use more toner or ink.</p> </qt>"
-msgstr ""
-"<qt><p><strong>'便於列印模式'</strong></p><p>如果開啟這個選項，文件將會以黑白"
-"色彩列印。所有背景都會列印成白色。這樣可以使列印速度加快，並節省一些油墨或調"
-"色劑。</p><p>如果不開啟的話，文件將會以原貌列印。這樣會使全頁以彩色列印(若使"
-"用黑白列印機，則是灰階)，減慢列印速度，並使用更多油墨或調色劑。</p></qt>"
-
-#: khtml/khtml_printsettings.cpp:71
-msgid "HTML Settings"
-msgstr "HTML 設定"
-
-#: khtml/khtml_printsettings.cpp:73
-msgid "Printer friendly mode (black text, no background)"
-msgstr "便於列印模式 (黑色文字，不列印背景)"
-
-#: khtml/khtml_printsettings.cpp:76
-msgid "Print images"
-msgstr "列印影像"
-
-#: khtml/khtml_printsettings.cpp:79
-msgid "Print header"
-msgstr "列印標頭"
-
 #: khtml/khtml_settings.cpp:235
 msgid "Accept"
 msgstr "接受"
@@ -11925,164 +12083,6 @@ msgstr "拒絕"
 #: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "過濾器錯誤"
-
-#: khtml/khtmladaptorpart.cpp:29
-#, fuzzy
-#| msgid "Relative"
-msgid "Inactive"
-msgstr "相對"
-
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 像素)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 像素"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 像素)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "圖像 - %1x%2 像素"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "完成。"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "存取鍵已啟動"
-
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr ""
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr ""
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr ""
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-#, fuzzy
-#| msgid "Regular e&xpression"
-msgid "TestRegression"
-msgstr "正規表示式(&X)"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr ""
-
-#: khtml/test_regression_gui_main.cpp:34
-msgid "TestRegressionGui"
-msgstr ""
-
-#: khtml/test_regression_gui_main.cpp:35
-msgid "GUI for the khtml regression tester"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:76
-#, fuzzy
-msgid "Available Tests: 0"
-msgstr "可用的地址："
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "繼續"
-
-#: khtml/test_regression_gui_window.cpp:632
-#, fuzzy
-msgid "Cannot find testregression executable."
-msgstr "找不到可執行檔‘%1’。"
-
-#: khtml/test_regression_gui_window.cpp:1102
-#, fuzzy
-msgid "Run test..."
-msgstr "重新命名清單..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-#, fuzzy
-msgid "Add to ignores..."
-msgstr "跳至行數(&G)..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
-msgstr ""
-
-#: khtml/testkhtml.cpp:39
-#, fuzzy
-#| msgid "URL to open"
-msgid "URL to open"
-msgstr "要開啟的 URL"
-
-#: khtml/testkhtml.cpp:41
-#, fuzzy
-#| msgid "Test"
-msgid "Testkhtml"
-msgstr "Test"
-
-#: khtml/testkhtml.cpp:42
-msgid "a basic web browser using the KHTML library"
-msgstr ""
 
 #: khtml/ecma/kjs_binding.cpp:185
 #, fuzzy
@@ -12189,23 +12189,6 @@ msgstr "插入"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "不允許"
-
-#: khtml/ecma/debugger/callstackdock.cpp:37
-#, fuzzy
-#| msgid "Call stack"
-msgid "Call Stack"
-msgstr "呼叫堆疊"
-
-#: khtml/ecma/debugger/callstackdock.cpp:41
-#, fuzzy
-msgid "Call"
-msgstr "安裝"
-
-#: khtml/ecma/debugger/callstackdock.cpp:41
-#, fuzzy
-#| msgid "Line up"
-msgid "Line"
-msgstr "對齊"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
@@ -12336,6 +12319,23 @@ msgstr "參考錯誤"
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "語文(&I)"
+
+#: khtml/ecma/debugger/callstackdock.cpp:37
+#, fuzzy
+#| msgid "Call stack"
+msgid "Call Stack"
+msgstr "呼叫堆疊"
+
+#: khtml/ecma/debugger/callstackdock.cpp:41
+#, fuzzy
+msgid "Call"
+msgstr "安裝"
+
+#: khtml/ecma/debugger/callstackdock.cpp:41
+#, fuzzy
+#| msgid "Line up"
+msgid "Line"
+msgstr "對齊"
 
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
