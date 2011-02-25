@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-21 03:42+0100\n"
+"POT-Creation-Date: 2011-02-25 03:31+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -846,52 +846,52 @@ msgstr "無法儲存圖像 - 上載失敗。"
 msgid "..."
 msgstr "..."
 
-#: imagelib/transforms/kpTransformAutoCrop.cpp:389
-msgid "Remove Internal B&order"
-msgstr "移除內部邊界(&O)"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:391
-msgid "Remove Internal Border"
-msgstr "移除內部邊界"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:396
-msgid "Autocr&op"
-msgstr "自動截取(&O)"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:398
-msgid "Autocrop"
-msgstr "自動截取"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:625
-msgid ""
-"KolourPaint cannot remove the selection's internal border as it could not be "
-"located."
-msgstr "KolourPaint 無法找到選取區域的內部邊界，所以無法移除。"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:627
-msgid "Cannot Remove Internal Border"
-msgstr "無法移除內部邊界"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:633
-msgid ""
-"KolourPaint cannot automatically crop the image as its border could not be "
-"located."
-msgstr "KolourPaint 無法找到圖像的邊界，所以自動截取。"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:635
-msgid "Cannot Autocrop"
-msgstr "無法自動截取"
-
 #: imagelib/transforms/kpTransformCrop.cpp:71
 #: imagelib/transforms/kpTransformCrop.cpp:73
 msgid "Set as Image"
 msgstr "設為圖像"
 
 #: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:248
-#: mainWindow/kpMainWindow_Edit.cpp:366 mainWindow/kpMainWindow_Image.cpp:314
+#: mainWindow/kpMainWindow_Image.cpp:314 mainWindow/kpMainWindow_Edit.cpp:367
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 msgid "Selection: Create"
 msgstr "選取：建立"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:386
+msgid "Remove Internal B&order"
+msgstr "移除內部邊界(&O)"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:388
+msgid "Remove Internal Border"
+msgstr "移除內部邊界"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:393
+msgid "Autocr&op"
+msgstr "自動截取(&O)"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:395
+msgid "Autocrop"
+msgstr "自動截取"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:622
+msgid ""
+"KolourPaint cannot remove the selection's internal border as it could not be "
+"located."
+msgstr "KolourPaint 無法找到選取區域的內部邊界，所以無法移除。"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:624
+msgid "Cannot Remove Internal Border"
+msgstr "無法移除內部邊界"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:630
+msgid ""
+"KolourPaint cannot automatically crop the image as its border could not be "
+"located."
+msgstr "KolourPaint 無法找到圖像的邊界，所以自動截取。"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:632
+msgid "Cannot Autocrop"
+msgstr "無法自動截取"
 
 #: kolourpaint.cpp:49
 #, fuzzy
@@ -990,19 +990,6 @@ msgstr "要開啟的圖像檔案"
 #: kpThumbnail.cpp:126
 msgid "Thumbnail"
 msgstr "縮圖"
-
-#: kpViewScrollableContainer.cpp:159 kpViewScrollableContainer.cpp:845
-#: kpViewScrollableContainer.cpp:849 kpViewScrollableContainer.cpp:853
-msgid "Left drag the handle to resize the image."
-msgstr "以滑鼠左鍵拖曳更改圖像大小。"
-
-#: kpViewScrollableContainer.cpp:197
-msgid "Resize Image: Let go of all the mouse buttons."
-msgstr "更改圖像大小：放開所有滑鼠鍵。"
-
-#: kpViewScrollableContainer.cpp:230
-msgid "Resize Image: Right click to cancel."
-msgstr "更改圖像大小：按右鍵取消。"
 
 #: layers/selections/text/kpTextSelection.cpp:136
 #: tools/selection/text/kpToolText.cpp:59
@@ -1211,69 +1198,6 @@ msgstr ""
 #| msgid "Invert Colors"
 msgid "Save Color Palette As"
 msgstr "反白色彩"
-
-#: mainWindow/kpMainWindow_Edit.cpp:97
-msgid "Paste in &New Window"
-msgstr "貼上至新視窗(&N)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:104
-msgid "&Delete Selection"
-msgstr "刪除所選(&D)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:112
-msgid "C&opy to File..."
-msgstr "複製至檔案(&O)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:116
-msgid "Paste &From File..."
-msgstr "從檔案貼上(&F)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:365 mainWindow/kpMainWindow_Edit.cpp:440
-#: mainWindow/kpMainWindow_Image.cpp:316
-#: tools/selection/text/kpToolText.cpp:93
-msgid "Text: Create Box"
-msgstr "文字：建立盒子"
-
-#: mainWindow/kpMainWindow_Edit.cpp:446
-msgid "Text: Paste"
-msgstr "文字：貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:630
-msgid ""
-"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
-"unexpectedly disappeared.</p><p>This usually occurs if the application which "
-"was responsible for the clipboard contents has been closed.</p></qt>"
-msgstr ""
-"<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
-"是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
-
-#: mainWindow/kpMainWindow_Edit.cpp:636
-msgid "Cannot Paste"
-msgstr "無法貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:729
-msgid "Text: Delete Box"
-msgstr "文字：刪除盒子"
-
-#: mainWindow/kpMainWindow_Edit.cpp:730
-msgid "Selection: Delete"
-msgstr "選取：刪除"
-
-#: mainWindow/kpMainWindow_Edit.cpp:801
-msgid "Text: Finish"
-msgstr "文字：完成"
-
-#: mainWindow/kpMainWindow_Edit.cpp:802
-msgid "Selection: Deselect"
-msgstr "選取：反選取"
-
-#: mainWindow/kpMainWindow_Edit.cpp:881
-msgid "Copy to File"
-msgstr "複製至檔案"
-
-#: mainWindow/kpMainWindow_Edit.cpp:929
-msgid "Paste From File"
-msgstr "從檔案貼上"
 
 #: mainWindow/kpMainWindow_File.cpp:100
 msgid "E&xport..."
@@ -1507,6 +1431,11 @@ msgctxt ""
 msgid "Select&ion"
 msgstr "選取(&I)"
 
+#: mainWindow/kpMainWindow_Image.cpp:316 mainWindow/kpMainWindow_Edit.cpp:366
+#: mainWindow/kpMainWindow_Edit.cpp:441 tools/selection/text/kpToolText.cpp:93
+msgid "Text: Create Box"
+msgstr "文字：建立盒子"
+
 #: mainWindow/kpMainWindow_Settings.cpp:69
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
@@ -1535,7 +1464,7 @@ msgid "%1bpp"
 msgstr "%1bpp"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:279
-#: mainWindow/kpMainWindow_View_Zoom.cpp:90
+#: mainWindow/kpMainWindow_View_Zoom.cpp:91
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
@@ -1565,6 +1494,75 @@ msgstr "加底線"
 #: mainWindow/kpMainWindow_Text.cpp:89
 msgid "Strike Through"
 msgstr "中間劃線"
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:69
+msgid "Show T&humbnail"
+msgstr "顯示縮圖(&H)"
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:80
+msgid "Zoo&med Thumbnail Mode"
+msgstr "放大縮圖模式(&M)"
+
+#: mainWindow/kpMainWindow_View_Thumbnail.cpp:90
+msgid "Enable Thumbnail &Rectangle"
+msgstr "啟用縮圖矩形(&R)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:98
+msgid "Paste in &New Window"
+msgstr "貼上至新視窗(&N)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:105
+msgid "&Delete Selection"
+msgstr "刪除所選(&D)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:113
+msgid "C&opy to File..."
+msgstr "複製至檔案(&O)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:117
+msgid "Paste &From File..."
+msgstr "從檔案貼上(&F)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:447
+msgid "Text: Paste"
+msgstr "文字：貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:631
+msgid ""
+"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
+"unexpectedly disappeared.</p><p>This usually occurs if the application which "
+"was responsible for the clipboard contents has been closed.</p></qt>"
+msgstr ""
+"<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
+"是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
+
+#: mainWindow/kpMainWindow_Edit.cpp:637
+msgid "Cannot Paste"
+msgstr "無法貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:730
+msgid "Text: Delete Box"
+msgstr "文字：刪除盒子"
+
+#: mainWindow/kpMainWindow_Edit.cpp:731
+msgid "Selection: Delete"
+msgstr "選取：刪除"
+
+#: mainWindow/kpMainWindow_Edit.cpp:802
+msgid "Text: Finish"
+msgstr "文字：完成"
+
+#: mainWindow/kpMainWindow_Edit.cpp:803
+msgid "Selection: Deselect"
+msgstr "選取：反選取"
+
+#: mainWindow/kpMainWindow_Edit.cpp:882
+msgid "Copy to File"
+msgstr "複製至檔案"
+
+#: mainWindow/kpMainWindow_Edit.cpp:930
+msgid "Paste From File"
+msgstr "從檔案貼上"
 
 #: mainWindow/kpMainWindow_Tools.cpp:132
 msgid "Previous Tool Option (Group #1)"
@@ -1612,23 +1610,11 @@ msgstr ""
 msgid "Show &Grid"
 msgstr "顯示格線(&G)"
 
-#: mainWindow/kpMainWindow_View_Thumbnail.cpp:69
-msgid "Show T&humbnail"
-msgstr "顯示縮圖(&H)"
-
-#: mainWindow/kpMainWindow_View_Thumbnail.cpp:80
-msgid "Zoo&med Thumbnail Mode"
-msgstr "放大縮圖模式(&M)"
-
-#: mainWindow/kpMainWindow_View_Thumbnail.cpp:90
-msgid "Enable Thumbnail &Rectangle"
-msgstr "啟用縮圖矩形(&R)"
-
-#: mainWindow/kpMainWindow_View_Zoom.cpp:111
+#: mainWindow/kpMainWindow_View_Zoom.cpp:113
 msgid "&Zoom"
 msgstr ""
 
-#: mainWindow/kpMainWindow_View_Zoom.cpp:191
+#: mainWindow/kpMainWindow_View_Zoom.cpp:194
 #, kde-format
 msgid ""
 "Setting the zoom level to a value that is not a multiple of 100% results in "
@@ -1638,7 +1624,7 @@ msgstr ""
 "將縮放等級設為不是 100% 的倍數會產生圖像不精確的情況。\n"
 "確定要將縮放等級設至 %1% 嗎？"
 
-#: mainWindow/kpMainWindow_View_Zoom.cpp:196
+#: mainWindow/kpMainWindow_View_Zoom.cpp:199
 #, kde-format
 msgid "Set Zoom Level to %1%"
 msgstr "將縮放等級設至 %1%"
@@ -1651,7 +1637,7 @@ msgstr "刷子"
 msgid "Draw using brushes of different shapes and sizes"
 msgstr "使用不同形狀及大小的刷子繪畫"
 
-#: tools/flow/kpToolBrush.cpp:47 tools/flow/kpToolPen.cpp:72
+#: tools/flow/kpToolBrush.cpp:47 tools/flow/kpToolPen.cpp:70
 msgid "Click to draw dots or drag to draw strokes."
 msgstr "單擊畫點或拖曳作筆劃。"
 
@@ -1683,28 +1669,28 @@ msgstr "單擊或拖曳擦走。"
 #: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:207
 #: tools/polygonal/kpToolPolygonalBase.cpp:437
 #: tools/rectangular/kpToolRectangularBase.cpp:356
-#: tools/selection/kpAbstractSelectionTool.cpp:261
-#: tools/selection/kpAbstractSelectionTool.cpp:519
+#: tools/selection/kpAbstractSelectionTool.cpp:260
+#: tools/selection/kpAbstractSelectionTool.cpp:518
 msgid "Let go of all the mouse buttons."
 msgstr "放開所有滑鼠鍵。"
 
-#: tools/flow/kpToolPen.cpp:52
+#: tools/flow/kpToolPen.cpp:50
 msgid "Pen"
 msgstr "筆"
 
-#: tools/flow/kpToolPen.cpp:52
+#: tools/flow/kpToolPen.cpp:50
 msgid "Draws dots and freehand strokes"
 msgstr "繪畫點或徒手筆劃"
 
-#: tools/flow/kpToolSpraycan.cpp:63
+#: tools/flow/kpToolSpraycan.cpp:61
 msgid "Spraycan"
 msgstr "噴潻罐"
 
-#: tools/flow/kpToolSpraycan.cpp:63
+#: tools/flow/kpToolSpraycan.cpp:61
 msgid "Sprays graffiti"
 msgstr "噴塗鴉"
 
-#: tools/flow/kpToolSpraycan.cpp:77
+#: tools/flow/kpToolSpraycan.cpp:75
 msgid "Click or drag to spray graffiti."
 msgstr "點擊或拖曳噴塗鴉。"
 
@@ -1995,15 +1981,15 @@ msgstr "文字：加底線"
 msgid "Text: Strike Through"
 msgstr "文字：中間劃線"
 
-#: views/kpUnzoomedThumbnailView.cpp:83
-#, fuzzy
-msgid "Unzoomed Mode - Thumbnail"
-msgstr "放大縮圖模式(&M)"
-
 #: views/kpZoomedThumbnailView.cpp:66
 #, fuzzy, kde-format
 msgid "%1% - Thumbnail"
 msgstr "縮圖"
+
+#: views/kpUnzoomedThumbnailView.cpp:88
+#, fuzzy
+msgid "Unzoomed Mode - Thumbnail"
+msgstr "放大縮圖模式(&M)"
 
 #: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:72
 msgid ""
@@ -2198,17 +2184,6 @@ msgstr "減少至"
 msgid "&Granularity:"
 msgstr ""
 
-#: widgets/kpColorCells.cpp:196
-msgid ""
-"<qt><p>To select the foreground color that tools use to draw, left-click on "
-"a filled-in color cell. To select the background color, right-click instead."
-"</p><p>To change the color of a color cell itself, double-click on it.</"
-"p><p>You can also swap the color of a filled-in cell with any other cell "
-"using drag and drop. Also, if you hold down the <b>Ctrl</b> key, the "
-"destination cell's color will be overwritten, instead of being swapped with "
-"the color of the source cell.</p></qt>"
-msgstr ""
-
 #: widgets/kpDocumentSaveOptionsWidget.cpp:93
 msgid "Convert &to:"
 msgstr "轉換至(&T):"
@@ -2319,6 +2294,30 @@ msgstr "以前景顏色填滿"
 #: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:43
 msgid "Opaque"
 msgstr "不透明"
+
+#: widgets/kpColorCells.cpp:196
+msgid ""
+"<qt><p>To select the foreground color that tools use to draw, left-click on "
+"a filled-in color cell. To select the background color, right-click instead."
+"</p><p>To change the color of a color cell itself, double-click on it.</"
+"p><p>You can also swap the color of a filled-in cell with any other cell "
+"using drag and drop. Also, if you hold down the <b>Ctrl</b> key, the "
+"destination cell's color will be overwritten, instead of being swapped with "
+"the color of the source cell.</p></qt>"
+msgstr ""
+
+#: kpViewScrollableContainer.cpp:160 kpViewScrollableContainer.cpp:826
+#: kpViewScrollableContainer.cpp:830 kpViewScrollableContainer.cpp:834
+msgid "Left drag the handle to resize the image."
+msgstr "以滑鼠左鍵拖曳更改圖像大小。"
+
+#: kpViewScrollableContainer.cpp:198
+msgid "Resize Image: Let go of all the mouse buttons."
+msgstr "更改圖像大小：放開所有滑鼠鍵。"
+
+#: kpViewScrollableContainer.cpp:231
+msgid "Resize Image: Right click to cancel."
+msgstr "更改圖像大小：按右鍵取消。"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
