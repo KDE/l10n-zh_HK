@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-20 03:35+0100\n"
+"POT-Creation-Date: 2011-03-03 03:40+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1910,7 +1910,7 @@ msgstr "下載並顯示自訂表情符號(&D)"
 #: protocols/qq/qqcontact.cpp:418 protocols/jabber/jabbergroupcontact.cpp:328
 #: protocols/jabber/jabbercontact.cpp:1094
 #: protocols/jabber/jabbergroupmembercontact.cpp:258
-#: protocols/oscar/oscarcontact.cpp:361
+#: protocols/oscar/oscarcontact.cpp:363
 #: libkopete/kopetetransfermanager.cpp:488
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
@@ -7907,7 +7907,7 @@ msgstr "不理會(&I)"
 msgid "Select Encoding..."
 msgstr "選擇編碼..."
 
-#: protocols/oscar/icq/icqcontact.cpp:266 protocols/oscar/oscarcontact.cpp:419
+#: protocols/oscar/icq/icqcontact.cpp:266 protocols/oscar/oscarcontact.cpp:421
 msgid "Request Authorization"
 msgstr "要求授權"
 
@@ -7915,7 +7915,7 @@ msgstr "要求授權"
 msgid "Reason for requesting authorization:"
 msgstr "要求授權的理由:"
 
-#: protocols/oscar/icq/icqcontact.cpp:268 protocols/oscar/oscarcontact.cpp:420
+#: protocols/oscar/icq/icqcontact.cpp:268 protocols/oscar/oscarcontact.cpp:422
 #, fuzzy
 #| msgid ""
 #| "&Require authorization before someone can add you to their contact list"
@@ -8107,7 +8107,7 @@ msgstr "傳送伙伴清單"
 msgid "File transfers"
 msgstr "檔案傳輸"
 
-#: protocols/oscar/oscarcontact.cpp:415
+#: protocols/oscar/oscarcontact.cpp:417
 #, kde-format
 msgid ""
 "The user %1 requires authorization before being added to a contact list. Do "
@@ -11696,7 +11696,7 @@ msgstr "無法連接伺服器"
 msgid "(Unnamed Group)"
 msgstr "(未命名群組)"
 
-#: libkopete/private/kopeteactivenotification.cpp:44
+#: libkopete/private/kopeteactivenotification.cpp:54
 #, fuzzy, kde-format
 #| msgctxt "%1 is a list of names"
 #| msgid "%1 are typing a message"
@@ -11835,21 +11835,21 @@ msgid ""
 "is correct.</qt>"
 msgstr "<qt>無法下載所要求檔案；<br>請檢查位址 %1 是否正確。</qt>"
 
-#: libkopete/kopetechatsession.cpp:289
+#: libkopete/kopetechatsession.cpp:291
 msgid "Outgoing Message Sent"
 msgstr "已發出訊息"
 
-#: libkopete/kopetechatsession.cpp:305
+#: libkopete/kopetechatsession.cpp:307
 msgid "A contact sent you a buzz/nudge."
 msgstr "有聯絡人發嗶聲/提示給你。"
 
-#: libkopete/kopetechatsession.cpp:549
+#: libkopete/kopetechatsession.cpp:565
 #, fuzzy, kde-format
 #| msgid "%1 is typing a message"
 msgid "User <i>%1</i> is typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: libkopete/kopetechatsession.cpp:551 libkopete/kopetemetacontact.cpp:1339
+#: libkopete/kopetechatsession.cpp:568 libkopete/kopetemetacontact.cpp:1339
 #: libkopete/kopetemetacontact.cpp:1343
 #, fuzzy
 #| msgid "Chat"
@@ -11857,13 +11857,13 @@ msgctxt "@action"
 msgid "Chat"
 msgstr "聊天"
 
-#: libkopete/kopetechatsession.cpp:628
+#: libkopete/kopetechatsession.cpp:655
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
 msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
-#: libkopete/kopetechatsession.cpp:629
+#: libkopete/kopetechatsession.cpp:656
 msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
@@ -20197,18 +20197,28 @@ msgstr "你要連接的 AIM 伺服器 IP 位址或主機遮罩。"
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:356
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtServerAddress)
 #: rc.cpp:3529 rc.cpp:3538
+#, fuzzy
+#| msgid ""
+#| "The IP address or hostmask of the ICQ server you wish to connect to.  "
+#| "Normally you will want the default (login.icq.com)."
 msgid ""
 "The IP address or hostmask of the AIM server you wish to connect to.  "
-"Normally you will want the default (login.oscar.aol.com)."
+"Normally you will want the default (login.icq.com)."
 msgstr ""
-"你要連接的 AIM 伺服器 IP 位址或主機遮罩。 通常使用預設即可（login.oscar.aol."
+"你要連接的 ICQ 伺服器的 IP 位址或主機遮罩。 通常使用預設即可（login.icq."
 "com）。"
 
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:359
 #. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
-#: rc.cpp:3541
-msgid "login.oscar.aol.com"
-msgstr "login.oscar.aol.com"
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:377
+#. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
+#. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:359
+#. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
+#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:377
+#. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
+#: rc.cpp:3541 rc.cpp:4079
+msgid "login.icq.com"
+msgstr "login.icq.com"
 
 #. i18n: file: protocols/oscar/aim/ui/aimeditaccountui.ui:369
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPort)
@@ -21207,12 +21217,6 @@ msgid ""
 "The port on the ICQ server that you would like to connect to.  Normally this "
 "is 5190."
 msgstr "你要連接的 ICQ 伺服器連接埠。 通常是 5190 。"
-
-#. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:377
-#. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
-#: rc.cpp:4079
-msgid "login.icq.com"
-msgstr "login.icq.com"
 
 #. i18n: file: protocols/oscar/icq/ui/icqeditaccountui.ui:442
 #. i18n: ectx: property (toolTip), widget (QLabel, lblProxyServer)
@@ -25751,6 +25755,16 @@ msgstr ""
 #: rc.cpp:6516
 msgid "Protocol's status menu type."
 msgstr ""
+
+#~ msgid ""
+#~ "The IP address or hostmask of the AIM server you wish to connect to.  "
+#~ "Normally you will want the default (login.oscar.aol.com)."
+#~ msgstr ""
+#~ "你要連接的 AIM 伺服器 IP 位址或主機遮罩。 通常使用預設即可（login.oscar."
+#~ "aol.com）。"
+
+#~ msgid "login.oscar.aol.com"
+#~ msgstr "login.oscar.aol.com"
 
 #, fuzzy
 #~ msgid ""
