@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:40+0100\n"
+"POT-Creation-Date: 2011-03-06 03:41+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -579,7 +579,7 @@ msgstr "刪除主機(&D)"
 #: protocols/skype/skypeprotocol.cpp:81 protocols/skype/skypeaccount.cpp:926
 #: protocols/bonjour/bonjourprotocol.cpp:37
 #: kopete/config/status/statusconfig_manager.cpp:54
-#: libkopete/kopetestatusmanager.cpp:273 libkopete/kopeteonlinestatus.cpp:158
+#: libkopete/kopetestatusmanager.cpp:277 libkopete/kopeteonlinestatus.cpp:158
 #: libkopete/kopetemetacontact.cpp:496 rc.cpp:5766
 msgid "Online"
 msgstr "上線"
@@ -604,7 +604,7 @@ msgstr "上線"
 #: protocols/meanwhile/meanwhileprotocol.cpp:44
 #: protocols/skype/skypeprotocol.cpp:83 protocols/skype/skypeaccount.cpp:934
 #: kopete/config/status/statusconfig_manager.cpp:58
-#: libkopete/kopetestatusmanager.cpp:278 libkopete/kopeteonlinestatus.cpp:161
+#: libkopete/kopetestatusmanager.cpp:282 libkopete/kopeteonlinestatus.cpp:161
 #: libkopete/kopetemetacontact.cpp:498 rc.cpp:5769 rc.cpp:6511
 msgid "Away"
 msgstr "離開"
@@ -626,7 +626,7 @@ msgstr "離開"
 #: protocols/bonjour/bonjourprotocol.cpp:42
 #: kopete/config/status/statusconfig_manager.cpp:68
 #: kopete/kopetewindow.cpp:386 libkopete/kopeteidentity.cpp:167
-#: libkopete/kopetestatusmanager.cpp:295 libkopete/kopeteonlinestatus.cpp:170
+#: libkopete/kopetestatusmanager.cpp:299 libkopete/kopeteonlinestatus.cpp:170
 #: libkopete/kopetemetacontact.cpp:502 rc.cpp:5763
 msgid "Offline"
 msgstr "離線"
@@ -640,7 +640,7 @@ msgstr "離線"
 #: protocols/groupwise/gwprotocol.cpp:56
 #: protocols/meanwhile/meanwhileprotocol.cpp:49
 #: kopete/config/status/statusconfig_manager.cpp:62
-#: libkopete/kopetestatusmanager.cpp:284 libkopete/kopetemetacontact.cpp:500
+#: libkopete/kopetestatusmanager.cpp:288 libkopete/kopetemetacontact.cpp:500
 #: rc.cpp:5772
 msgid "Busy"
 msgstr "忙碌"
@@ -985,7 +985,7 @@ msgid "All"
 msgstr "所有"
 
 #: plugins/history/historydialog.cpp:169
-#: kopete/chatwindow/chatmessagepart.cpp:280
+#: kopete/chatwindow/chatmessagepart.cpp:282
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
@@ -2074,7 +2074,7 @@ msgstr "外出用餐(&L)"
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/skype/skypeprotocol.cpp:86 protocols/skype/skypeaccount.cpp:946
 #: kopete/config/status/statusconfig_manager.cpp:66
-#: libkopete/kopetestatusmanager.cpp:290 libkopete/kopeteonlinestatus.cpp:167
+#: libkopete/kopetestatusmanager.cpp:294 libkopete/kopeteonlinestatus.cpp:167
 #: rc.cpp:3649 rc.cpp:5775
 msgid "Invisible"
 msgstr "隱形"
@@ -10260,35 +10260,35 @@ msgstr "你現在被標示為 %1 。"
 msgid "%2 is now %1."
 msgstr "%2 現在是 %1 。"
 
-#: kopete/chatwindow/chatmessagepart.cpp:316
+#: kopete/chatwindow/chatmessagepart.cpp:318
 msgid "Save Conversation"
 msgstr "儲存對話"
 
-#: kopete/chatwindow/chatmessagepart.cpp:358
+#: kopete/chatwindow/chatmessagepart.cpp:360
 #, kde-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟 <b>%1</b> 以寫入。</qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:359
+#: kopete/chatwindow/chatmessagepart.cpp:361
 msgid "Error While Saving"
 msgstr "儲存時發生錯誤"
 
-#: kopete/chatwindow/chatmessagepart.cpp:795
+#: kopete/chatwindow/chatmessagepart.cpp:806
 msgid "User Has Left"
 msgstr "使用者已經離開"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1377
+#: kopete/chatwindow/chatmessagepart.cpp:1388
 #, fuzzy
 #| msgid "The signature is invalid."
 msgid "Chat style could not be found, or is invalid."
 msgstr "簽署無效"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1434
+#: kopete/chatwindow/chatmessagepart.cpp:1445
 #, fuzzy
 msgid "Save File as"
 msgstr "傳送檔案(&F)..."
 
-#: kopete/chatwindow/chatmessagepart.cpp:1434
+#: kopete/chatwindow/chatmessagepart.cpp:1445
 msgid "Wav file (*.wav)"
 msgstr ""
 
@@ -12000,19 +12000,19 @@ msgid "%2m %1s"
 msgstr "%2分 %1秒"
 
 #. i18n: file: libkopete/kopetebehaviorsettings.kcfg:173
-#: libkopete/kopetestatusmanager.cpp:279 rc.cpp:6513
+#: libkopete/kopetestatusmanager.cpp:283 rc.cpp:6513
 msgid "I am gone right now, but I will be back later"
 msgstr "我現在離開，但稍後回來"
 
-#: libkopete/kopetestatusmanager.cpp:285
+#: libkopete/kopetestatusmanager.cpp:289
 msgid "Sorry, I am busy right now"
 msgstr "抱歉，我現在在忙。"
 
-#: libkopete/kopetestatusmanager.cpp:344
+#: libkopete/kopetestatusmanager.cpp:348
 msgid "Going Online - Kopete"
 msgstr ""
 
-#: libkopete/kopetestatusmanager.cpp:352
+#: libkopete/kopetestatusmanager.cpp:356
 msgid "Do You Want to Change Status to Available?"
 msgstr ""
 

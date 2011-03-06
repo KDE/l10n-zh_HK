@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-25 03:31+0100\n"
+"POT-Creation-Date: 2011-03-06 03:36+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -356,6 +356,8 @@ msgstr "原來的："
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:242
+#: mainWindow/kpMainWindow_StatusBar.cpp:86
+#: mainWindow/kpMainWindow_StatusBar.cpp:230
 #, kde-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
@@ -366,7 +368,7 @@ msgid "Preview"
 msgstr "預覽"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:173
-#: dialogs/kpColorSimilarityDialog.cpp:59
+#: dialogs/kpColorSimilarityDialog.cpp:58
 msgid "&Update"
 msgstr ""
 
@@ -446,7 +448,7 @@ msgstr "百份比(&P):"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:319
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:326
-#: dialogs/kpColorSimilarityDialog.cpp:80
+#: dialogs/kpColorSimilarityDialog.cpp:79
 msgid "%"
 msgstr "%"
 
@@ -484,12 +486,12 @@ msgstr ""
 "用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
-#: mainWindow/kpMainWindow_Tools.cpp:681
+#: mainWindow/kpMainWindow_Tools.cpp:677
 msgid "Resize Image?"
 msgstr "要更改圖像大小嗎？"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
-#: mainWindow/kpMainWindow_Tools.cpp:682
+#: mainWindow/kpMainWindow_Tools.cpp:678
 msgid "R&esize Image"
 msgstr "更改圖像大小(&E)"
 
@@ -715,24 +717,6 @@ msgstr "要扭曲圖像嗎？"
 msgid "Sk&ew Image"
 msgstr "扭曲圖像(&E)"
 
-#: dialogs/kpColorSimilarityDialog.cpp:47
-msgid "Color Similarity"
-msgstr "顏色相似性"
-
-#: dialogs/kpColorSimilarityDialog.cpp:73
-#, fuzzy
-#| msgid "RGB Color Cube Distance"
-msgid "&RGB Color Cube Distance"
-msgstr "RGB 顏色立方體距離"
-
-#: dialogs/kpColorSimilarityDialog.cpp:81
-msgid "Exact Match"
-msgstr "完全符合"
-
-#: dialogs/kpColorSimilarityDialog.cpp:86
-msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
-msgstr ""
-
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:62
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:68
 msgid "Save Preview"
@@ -743,6 +727,24 @@ msgstr "儲存預覽"
 msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
 msgstr[0] "%1 位元組 (約為 %2%)"
+
+#: dialogs/kpColorSimilarityDialog.cpp:47
+msgid "Color Similarity"
+msgstr "顏色相似性"
+
+#: dialogs/kpColorSimilarityDialog.cpp:72
+#, fuzzy
+#| msgid "RGB Color Cube Distance"
+msgid "&RGB Color Cube Distance"
+msgstr "RGB 顏色立方體距離"
+
+#: dialogs/kpColorSimilarityDialog.cpp:80
+msgid "Exact Match"
+msgstr "完全符合"
+
+#: dialogs/kpColorSimilarityDialog.cpp:85
+msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
+msgstr ""
 
 #: document/kpDocument_Open.cpp:107
 #, kde-format
@@ -841,10 +843,6 @@ msgstr "覆寫"
 #: document/kpDocument_Save.cpp:471
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
-
-#: generic/widgets/kpSqueezedTextLabel.cpp:118
-msgid "..."
-msgstr "..."
 
 #: imagelib/transforms/kpTransformCrop.cpp:71
 #: imagelib/transforms/kpTransformCrop.cpp:73
@@ -1039,7 +1037,7 @@ msgstr ""
 "要覆寫它嗎？"
 
 #: lgpl/generic/kpUrlFormatter.cpp:40 lgpl/generic/kpUrlFormatter.cpp:51
-#: widgets/toolbars/kpColorToolBar.cpp:264
+#: widgets/toolbars/kpColorToolBar.cpp:268
 msgid "Untitled"
 msgstr ""
 
@@ -1440,35 +1438,6 @@ msgstr "文字：建立盒子"
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
 
-#: mainWindow/kpMainWindow_StatusBar.cpp:146
-#, kde-format
-msgid "%1,%2"
-msgstr "%1,%2"
-
-#: mainWindow/kpMainWindow_StatusBar.cpp:153
-#, kde-format
-msgid "%1,%2 - %3,%4"
-msgstr "%1,%2 - %3,%4"
-
-#: mainWindow/kpMainWindow_StatusBar.cpp:194
-#: mainWindow/kpMainWindow_StatusBar.cpp:225
-#: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:115
-#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:92
-#, kde-format
-msgid "%1x%2"
-msgstr "%1x%2"
-
-#: mainWindow/kpMainWindow_StatusBar.cpp:253
-#, kde-format
-msgid "%1bpp"
-msgstr "%1bpp"
-
-#: mainWindow/kpMainWindow_StatusBar.cpp:279
-#: mainWindow/kpMainWindow_View_Zoom.cpp:91
-#, kde-format
-msgid "%1%"
-msgstr "%1%"
-
 #: mainWindow/kpMainWindow_Text.cpp:60
 msgid "Font Family"
 msgstr "字型家族"
@@ -1564,51 +1533,15 @@ msgstr "複製至檔案"
 msgid "Paste From File"
 msgstr "從檔案貼上"
 
-#: mainWindow/kpMainWindow_Tools.cpp:132
-msgid "Previous Tool Option (Group #1)"
-msgstr "前一個工具選項（第一組）"
-
-#: mainWindow/kpMainWindow_Tools.cpp:138
-msgid "Next Tool Option (Group #1)"
-msgstr "下一個工具選項（第一組）"
-
-#: mainWindow/kpMainWindow_Tools.cpp:144
-msgid "Previous Tool Option (Group #2)"
-msgstr "前一個工具選項（第二組）"
-
-#: mainWindow/kpMainWindow_Tools.cpp:150
-msgid "Next Tool Option (Group #2)"
-msgstr "下一個工具選項（第二組）"
-
-#: mainWindow/kpMainWindow_Tools.cpp:162
-#, fuzzy
-#| msgid "Opaque"
-msgid "&Draw Opaque"
-msgstr "不透明"
-
-#: mainWindow/kpMainWindow_Tools.cpp:167
-#, fuzzy
-#| msgid "Color Similarity"
-msgid "Draw With Color Similarity..."
-msgstr "顏色相似性"
-
-#: mainWindow/kpMainWindow_Tools.cpp:177
-msgid "Tool Box"
-msgstr "工具盒"
-
-#: mainWindow/kpMainWindow_Tools.cpp:671
-#, kde-format
-msgid ""
-"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to resize the image?</p></qt>"
-msgstr ""
-"<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
-"應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
-
 #: mainWindow/kpMainWindow_View.cpp:76
 msgid "Show &Grid"
 msgstr "顯示格線(&G)"
+
+#: mainWindow/kpMainWindow_View_Zoom.cpp:91
+#: mainWindow/kpMainWindow_StatusBar.cpp:284
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
 
 #: mainWindow/kpMainWindow_View_Zoom.cpp:113
 msgid "&Zoom"
@@ -1628,6 +1561,70 @@ msgstr ""
 #, kde-format
 msgid "Set Zoom Level to %1%"
 msgstr "將縮放等級設至 %1%"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:149
+#, kde-format
+msgid "%1,%2"
+msgstr "%1,%2"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:156
+#, kde-format
+msgid "%1,%2 - %3,%4"
+msgstr "%1,%2 - %3,%4"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:199
+#: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:115
+#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:92
+#, kde-format
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: mainWindow/kpMainWindow_StatusBar.cpp:258
+#, kde-format
+msgid "%1bpp"
+msgstr "%1bpp"
+
+#: mainWindow/kpMainWindow_Tools.cpp:135
+msgid "Previous Tool Option (Group #1)"
+msgstr "前一個工具選項（第一組）"
+
+#: mainWindow/kpMainWindow_Tools.cpp:141
+msgid "Next Tool Option (Group #1)"
+msgstr "下一個工具選項（第一組）"
+
+#: mainWindow/kpMainWindow_Tools.cpp:147
+msgid "Previous Tool Option (Group #2)"
+msgstr "前一個工具選項（第二組）"
+
+#: mainWindow/kpMainWindow_Tools.cpp:153
+msgid "Next Tool Option (Group #2)"
+msgstr "下一個工具選項（第二組）"
+
+#: mainWindow/kpMainWindow_Tools.cpp:165
+#, fuzzy
+#| msgid "Opaque"
+msgid "&Draw Opaque"
+msgstr "不透明"
+
+#: mainWindow/kpMainWindow_Tools.cpp:170
+#, fuzzy
+#| msgid "Color Similarity"
+msgid "Draw With Color Similarity..."
+msgstr "顏色相似性"
+
+#: mainWindow/kpMainWindow_Tools.cpp:180
+msgid "Tool Box"
+msgstr "工具盒"
+
+#: mainWindow/kpMainWindow_Tools.cpp:667
+#, kde-format
+msgid ""
+"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to resize the image?</p></qt>"
+msgstr ""
+"<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
+"應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
 
 #: tools/flow/kpToolBrush.cpp:35
 msgid "Brush"
@@ -1693,12 +1690,6 @@ msgstr "噴塗鴉"
 #: tools/flow/kpToolSpraycan.cpp:75
 msgid "Click or drag to spray graffiti."
 msgstr "點擊或拖曳噴塗鴉。"
-
-#: tools/kpTool.cpp:149
-#, kde-format
-msgctxt "<Tool Name> (<Single Accel Key>)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
 
 #: tools/kpToolColorPicker.cpp:47
 msgid "Lets you select a color from the image"
@@ -1981,6 +1972,12 @@ msgstr "文字：加底線"
 msgid "Text: Strike Through"
 msgstr "文字：中間劃線"
 
+#: tools/kpTool.cpp:155
+#, kde-format
+msgctxt "<Tool Name> (<Single Accel Key>)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
 #: views/kpZoomedThumbnailView.cpp:66
 #, fuzzy, kde-format
 msgid "%1% - Thumbnail"
@@ -2041,12 +2038,12 @@ msgid ""
 "decrease this setting.</p></qt>"
 msgstr ""
 
-#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:224
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:226
 #, kde-format
 msgid "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
 msgstr ""
 
-#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:231
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:233
 msgid ""
 "<p>Color Similarity: Exact Match</p><p align=\"center\">Click to configure.</"
 "p>"
@@ -2235,25 +2232,6 @@ msgstr ""
 msgid "Transparent"
 msgstr "透明"
 
-#: widgets/toolbars/kpColorToolBar.cpp:260
-#, fuzzy
-#| msgid "KolourPaint"
-msgid "KolourPaint Defaults"
-msgstr "KolourPaint"
-
-#: widgets/toolbars/kpColorToolBar.cpp:273
-#, fuzzy, kde-format
-#| msgid "Colors"
-msgctxt "Colors: name_or_url_of_color_palette"
-msgid "Colors: %1"
-msgstr "色彩"
-
-#: widgets/toolbars/kpColorToolBar.cpp:280
-#, kde-format
-msgctxt "Colors: name_or_url_of_color_palette [modified]"
-msgid "Colors: %1 [modified]"
-msgstr ""
-
 #: widgets/toolbars/options/kpToolWidgetBrush.cpp:204
 msgid "1x1"
 msgstr "1x1"
@@ -2294,6 +2272,25 @@ msgstr "以前景顏色填滿"
 #: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:43
 msgid "Opaque"
 msgstr "不透明"
+
+#: widgets/toolbars/kpColorToolBar.cpp:264
+#, fuzzy
+#| msgid "KolourPaint"
+msgid "KolourPaint Defaults"
+msgstr "KolourPaint"
+
+#: widgets/toolbars/kpColorToolBar.cpp:277
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgctxt "Colors: name_or_url_of_color_palette"
+msgid "Colors: %1"
+msgstr "色彩"
+
+#: widgets/toolbars/kpColorToolBar.cpp:284
+#, kde-format
+msgctxt "Colors: name_or_url_of_color_palette [modified]"
+msgid "Colors: %1 [modified]"
+msgstr ""
 
 #: widgets/kpColorCells.cpp:196
 msgid ""
@@ -2376,6 +2373,9 @@ msgstr "選取工具 RMB 選單"
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid "..."
+#~ msgstr "..."
 
 #~ msgid "Flip Selection"
 #~ msgstr "反轉選取區域"
