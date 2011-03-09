@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-27 03:39+0100\n"
+"POT-Creation-Date: 2011-03-09 03:41+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1272,7 +1272,7 @@ msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:655 kparts/browserrun.cpp:329
+#: rc.cpp:655 kparts/browserrun.cpp:336
 msgid "Execute"
 msgstr "執行"
 
@@ -11309,13 +11309,13 @@ msgstr "名為“%1”的檔案已經存在。你確定要覆寫它嗎？"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:390
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "找不到下載管理程式 (%1)，請檢查你的安裝是否正確，包含 PATH 路徑有設定正確。"
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:391
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -11440,7 +11440,7 @@ msgid "Print header"
 msgstr "列印標頭"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:419
+#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "另存新檔"
 
@@ -13877,16 +13877,6 @@ msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
 
-#: kparts/browserrun.cpp:328
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
-msgid "Do you really want to execute '%1'?"
-msgstr "你真的要執行‘%1’？"
-
-#: kparts/browserrun.cpp:329
-msgid "Execute File?"
-msgstr "執行檔案嗎？"
-
 #: kparts/part.cpp:817
 msgid "Untitled"
 msgstr "未命名"
@@ -13903,6 +13893,16 @@ msgstr ""
 #: kparts/part.cpp:825
 msgid "Close Document"
 msgstr "關閉文件"
+
+#: kparts/browserrun.cpp:335
+#, fuzzy, kde-format
+#| msgid "Do you really want to execute '%1'? "
+msgid "Do you really want to execute '%1'?"
+msgstr "你真的要執行‘%1’？"
+
+#: kparts/browserrun.cpp:336
+msgid "Execute File?"
+msgstr "執行檔案嗎？"
 
 #: kpty/kptydevice.cpp:322
 #, fuzzy
