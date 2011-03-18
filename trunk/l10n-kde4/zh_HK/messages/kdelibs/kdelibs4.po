@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:43+0100\n"
+"POT-Creation-Date: 2011-03-18 03:37+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5376,6 +5376,34 @@ msgstr "動作不被支援"
 msgid "Timed out trying to connect to remote host"
 msgstr ""
 
+#: kdecore/network/netsupp.cpp:892
+msgid "address family for nodename not supported"
+msgstr "節點的位址群組不支援"
+
+#: kdecore/network/netsupp.cpp:894
+msgid "invalid value for 'ai_flags'"
+msgstr "‘ai_flags’的值錯誤"
+
+#: kdecore/network/netsupp.cpp:896
+msgid "'ai_family' not supported"
+msgstr "‘ai_family’不支援"
+
+#: kdecore/network/netsupp.cpp:898
+msgid "no address associated with nodename"
+msgstr "此節點相關位址不存在"
+
+#: kdecore/network/netsupp.cpp:900
+msgid "servname not supported for ai_socktype"
+msgstr "ai_socktype 不支援的服務名稱 (servname)"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "'ai_socktype' not supported"
+msgstr "不支援 ai_socktype"
+
+#: kdecore/network/netsupp.cpp:902
+msgid "system error"
+msgstr "系統錯誤"
+
 #: kdecore/network/ktcpsocket.cpp:152
 #, fuzzy
 #| msgid "no error"
@@ -5457,34 +5485,6 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "不明的錯誤"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "節點的位址群組不支援"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "‘ai_flags’的值錯誤"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "‘ai_family’不支援"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "此節點相關位址不存在"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "ai_socktype 不支援的服務名稱 (servname)"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "不支援 ai_socktype"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "系統錯誤"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, fuzzy, kde-format
