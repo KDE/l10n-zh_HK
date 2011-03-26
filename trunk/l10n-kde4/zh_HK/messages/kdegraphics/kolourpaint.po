@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-06 03:36+0100\n"
+"POT-Creation-Date: 2011-03-26 03:41+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -222,7 +222,7 @@ msgid "Soften & Sharpen"
 msgstr "柔化及銳化"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:651
+#: mainWindow/kpMainWindow_File.cpp:639
 msgid "Document Properties"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_Colors.cpp:347
 #: mainWindow/kpMainWindow_Colors.cpp:360
 #: mainWindow/kpMainWindow_Colors.cpp:369
-#: mainWindow/kpMainWindow_File.cpp:1013 mainWindow/kpMainWindow_File.cpp:1023
+#: mainWindow/kpMainWindow_File.cpp:1001 mainWindow/kpMainWindow_File.cpp:1011
 #, fuzzy
 msgid "&Reload"
 msgstr "重新載入(&D)"
@@ -1196,118 +1196,6 @@ msgstr ""
 #| msgid "Invert Colors"
 msgid "Save Color Palette As"
 msgstr "反白色彩"
-
-#: mainWindow/kpMainWindow_File.cpp:100
-msgid "E&xport..."
-msgstr "匯出(&X)..."
-
-#: mainWindow/kpMainWindow_File.cpp:105
-#, fuzzy
-msgid "Scan..."
-msgstr "..."
-
-#: mainWindow/kpMainWindow_File.cpp:110
-msgid "Properties"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:116
-msgid "Reloa&d"
-msgstr "重新載入(&D)"
-
-#: mainWindow/kpMainWindow_File.cpp:128
-msgid "Set as Wa&llpaper (Centered)"
-msgstr "設為牆紙（置中）(&L)"
-
-#: mainWindow/kpMainWindow_File.cpp:131
-msgid "Set as Wallpaper (&Tiled)"
-msgstr "設為牆紙（排列）(&T)"
-
-#: mainWindow/kpMainWindow_File.cpp:459
-msgid "Open Image"
-msgstr "開啟圖像"
-
-#: mainWindow/kpMainWindow_File.cpp:532
-msgid "Scanning support is not installed."
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:533
-msgid "No Scanning Support"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:894
-msgid "Save Image As"
-msgstr "儲存圖像為"
-
-#: mainWindow/kpMainWindow_File.cpp:943
-#, fuzzy
-msgid "Export"
-msgstr "匯出(&X)..."
-
-#: mainWindow/kpMainWindow_File.cpp:1008
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Reloading will lose all changes since you last saved it.\n"
-"Are you sure?"
-msgstr ""
-"「%1」文件已修改。\n"
-"重新載入會失去上次儲存之後的所有更改。\n"
-"確定嗎？"
-
-#: mainWindow/kpMainWindow_File.cpp:1018
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Reloading will lose all changes.\n"
-"Are you sure?"
-msgstr ""
-"「%1」文件已修改。\n"
-"重新載入會失去所有更改。\n"
-"確定嗎？"
-
-#: mainWindow/kpMainWindow_File.cpp:1260
-#, fuzzy
-#| msgid "Entire Image"
-msgid "Print Image"
-msgstr "整個圖像"
-
-#: mainWindow/kpMainWindow_File.cpp:1345
-msgid ""
-"You must save this image before sending it.\n"
-"Do you want to save it?"
-msgstr ""
-"傳送此圖像之前必須先儲存。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_File.cpp:1388
-msgid ""
-"Before this image can be set as the wallpaper, you must save it as a local "
-"file.\n"
-"Do you want to save it?"
-msgstr ""
-"要將此圖像設為牆紙之前，必須要將它儲存為本地檔案。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_File.cpp:1394
-msgid ""
-"Before this image can be set as the wallpaper, you must save it.\n"
-"Do you want to save it?"
-msgstr ""
-"要將此圖像設為牆紙之前，必須先儲存它。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_File.cpp:1468
-msgid "Could not change wallpaper."
-msgstr "無法更改牆紙。"
-
-#: mainWindow/kpMainWindow_File.cpp:1503
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"「%1」文件已修改。\n"
-"要儲存嗎？"
 
 #: mainWindow/kpMainWindow_Help.cpp:62
 msgid "Acquiring &Screenshots"
@@ -1625,6 +1513,89 @@ msgid ""
 msgstr ""
 "<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
 "應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
+
+#: mainWindow/kpMainWindow_File.cpp:98
+msgid "E&xport..."
+msgstr "匯出(&X)..."
+
+#: mainWindow/kpMainWindow_File.cpp:103
+#, fuzzy
+msgid "Scan..."
+msgstr "..."
+
+#: mainWindow/kpMainWindow_File.cpp:108
+msgid "Properties"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:114
+msgid "Reloa&d"
+msgstr "重新載入(&D)"
+
+#: mainWindow/kpMainWindow_File.cpp:447
+msgid "Open Image"
+msgstr "開啟圖像"
+
+#: mainWindow/kpMainWindow_File.cpp:520
+msgid "Scanning support is not installed."
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:521
+msgid "No Scanning Support"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:882
+msgid "Save Image As"
+msgstr "儲存圖像為"
+
+#: mainWindow/kpMainWindow_File.cpp:931
+#, fuzzy
+msgid "Export"
+msgstr "匯出(&X)..."
+
+#: mainWindow/kpMainWindow_File.cpp:996
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes since you last saved it.\n"
+"Are you sure?"
+msgstr ""
+"「%1」文件已修改。\n"
+"重新載入會失去上次儲存之後的所有更改。\n"
+"確定嗎？"
+
+#: mainWindow/kpMainWindow_File.cpp:1006
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+"「%1」文件已修改。\n"
+"重新載入會失去所有更改。\n"
+"確定嗎？"
+
+#: mainWindow/kpMainWindow_File.cpp:1248
+#, fuzzy
+#| msgid "Entire Image"
+msgid "Print Image"
+msgstr "整個圖像"
+
+#: mainWindow/kpMainWindow_File.cpp:1337
+msgid ""
+"You must save this image before sending it.\n"
+"Do you want to save it?"
+msgstr ""
+"傳送此圖像之前必須先儲存。\n"
+"要儲存嗎？"
+
+#: mainWindow/kpMainWindow_File.cpp:1378
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"「%1」文件已修改。\n"
+"要儲存嗎？"
 
 #: tools/flow/kpToolBrush.cpp:35
 msgid "Brush"
@@ -2373,6 +2344,30 @@ msgstr "選取工具 RMB 選單"
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid "Set as Wa&llpaper (Centered)"
+#~ msgstr "設為牆紙（置中）(&L)"
+
+#~ msgid "Set as Wallpaper (&Tiled)"
+#~ msgstr "設為牆紙（排列）(&T)"
+
+#~ msgid ""
+#~ "Before this image can be set as the wallpaper, you must save it as a "
+#~ "local file.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "要將此圖像設為牆紙之前，必須要將它儲存為本地檔案。\n"
+#~ "要儲存嗎？"
+
+#~ msgid ""
+#~ "Before this image can be set as the wallpaper, you must save it.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "要將此圖像設為牆紙之前，必須先儲存它。\n"
+#~ "要儲存嗎？"
+
+#~ msgid "Could not change wallpaper."
+#~ msgstr "無法更改牆紙。"
 
 #~ msgid "..."
 #~ msgstr "..."
