@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-26 03:41+0100\n"
+"POT-Creation-Date: 2011-03-27 04:45+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -222,7 +222,7 @@ msgid "Soften & Sharpen"
 msgstr "柔化及銳化"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:639
+#: mainWindow/kpMainWindow_File.cpp:711
 msgid "Document Properties"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_Colors.cpp:347
 #: mainWindow/kpMainWindow_Colors.cpp:360
 #: mainWindow/kpMainWindow_Colors.cpp:369
-#: mainWindow/kpMainWindow_File.cpp:1001 mainWindow/kpMainWindow_File.cpp:1011
+#: mainWindow/kpMainWindow_File.cpp:1073 mainWindow/kpMainWindow_File.cpp:1083
 #, fuzzy
 msgid "&Reload"
 msgstr "重新載入(&D)"
@@ -1196,50 +1196,6 @@ msgstr ""
 #| msgid "Invert Colors"
 msgid "Save Color Palette As"
 msgstr "反白色彩"
-
-#: mainWindow/kpMainWindow_Help.cpp:62
-msgid "Acquiring &Screenshots"
-msgstr "正在取得螢幕截圖(&S)"
-
-#: mainWindow/kpMainWindow_Help.cpp:134
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be "
-#| "placed into the clipboard and you will be able to paste it in KolourPaint."
-#| "</p><p>You may configure the <b>Desktop Screenshot</b> shortcut in the "
-#| "KDE Control Center module <a href=\"configure kde shortcuts\">Keyboard "
-#| "Shortcuts</a>.</p><p>Alternatively, you may try the application <a href="
-#| "\"run ksnapshot\">KSnapshot</a>.</p>"
-msgid ""
-"<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be placed "
-"into the clipboard and you will be able to paste it in KolourPaint.</"
-"p><p>You may configure the <b>Desktop Screenshot</b> shortcut in the KDE "
-"System Settings module <a href=\"configure kde shortcuts\">Keyboard "
-"Shortcuts</a>.</p><p>Alternatively, you may try the application <a href="
-"\"run ksnapshot\">KSnapshot</a>.</p>"
-msgstr ""
-"<p>要取得螢幕截圖，按下<b>%1</b>。截圖會放在剪貼簿中，你可將它貼上至 "
-"KolourPaint 。</p><p>你可在 KDE 控制中心模組<a href=\"configure kde shortcuts"
-"\">鍵盤捷徑</a>中設定<b>桌面截圖</b>捷徑。</p><p>又或嘗試 <a href=\"run "
-"ksnapshot\">KSnapshot</a> 應用程式。</p>"
-
-#: mainWindow/kpMainWindow_Help.cpp:157
-#, kde-format
-msgid ""
-"<p>You do not appear to be running KDE.</p><p>Once you have loaded KDE:"
-"<br><blockquote>To acquire a screenshot, press <b>%1</b>.  The screenshot "
-"will be placed into the clipboard and you will be able to paste it in "
-"KolourPaint.</blockquote></p><p>Alternatively, you may try the application "
-"<a href=\"run ksnapshot\">KSnapshot</a>.</p>"
-msgstr ""
-"<p>你看來沒有運行 KDE 。</p><p>在你載入 KDE 之後：<br><blockquote>要取得螢幕"
-"截圖，按下 <b>%1</b> 。截圖會放在剪貼簿中，你可將它貼上至 KolourPaint 。</"
-"blockquote></p><p>又或嘗試 <a href=\"run ksnapshot\">KSnapshot</a> 應用程式。"
-"</a></p>"
-
-#: mainWindow/kpMainWindow_Help.cpp:186
-msgid "Acquiring Screenshots"
-msgstr "正在取得螢幕截圖"
 
 #: mainWindow/kpMainWindow_Image.cpp:119
 msgid "R&esize / Scale..."
@@ -1514,45 +1470,70 @@ msgstr ""
 "<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
 "應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
 
-#: mainWindow/kpMainWindow_File.cpp:98
+#: mainWindow/kpMainWindow_File.cpp:104
 msgid "E&xport..."
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:103
+#: mainWindow/kpMainWindow_File.cpp:109
 #, fuzzy
 msgid "Scan..."
 msgstr "..."
 
-#: mainWindow/kpMainWindow_File.cpp:108
+#: mainWindow/kpMainWindow_File.cpp:114
+#, fuzzy
+#| msgid "Acquiring Screenshots"
+msgid "Acquire Screenshot"
+msgstr "正在取得螢幕截圖"
+
+#: mainWindow/kpMainWindow_File.cpp:118
 msgid "Properties"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:114
+#: mainWindow/kpMainWindow_File.cpp:124
 msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
-#: mainWindow/kpMainWindow_File.cpp:447
+#: mainWindow/kpMainWindow_File.cpp:464
 msgid "Open Image"
 msgstr "開啟圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:520
+#: mainWindow/kpMainWindow_File.cpp:537
 msgid "Scanning support is not installed."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:521
+#: mainWindow/kpMainWindow_File.cpp:538
 msgid "No Scanning Support"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:882
+#: mainWindow/kpMainWindow_File.cpp:652
+msgid "Snapshot Delay"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:655
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] ""
+
+#: mainWindow/kpMainWindow_File.cpp:656
+msgid "No delay"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:658
+#, fuzzy
+#| msgid "Paste in &New Window"
+msgid "Hide Main Window"
+msgstr "貼上至新視窗(&N)"
+
+#: mainWindow/kpMainWindow_File.cpp:954
 msgid "Save Image As"
 msgstr "儲存圖像為"
 
-#: mainWindow/kpMainWindow_File.cpp:931
+#: mainWindow/kpMainWindow_File.cpp:1003
 #, fuzzy
 msgid "Export"
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:996
+#: mainWindow/kpMainWindow_File.cpp:1068
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1563,7 +1544,7 @@ msgstr ""
 "重新載入會失去上次儲存之後的所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1006
+#: mainWindow/kpMainWindow_File.cpp:1078
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1574,13 +1555,13 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1248
+#: mainWindow/kpMainWindow_File.cpp:1320
 #, fuzzy
 #| msgid "Entire Image"
 msgid "Print Image"
 msgstr "整個圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:1337
+#: mainWindow/kpMainWindow_File.cpp:1409
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
@@ -1588,7 +1569,7 @@ msgstr ""
 "傳送此圖像之前必須先儲存。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1378
+#: mainWindow/kpMainWindow_File.cpp:1450
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2297,22 +2278,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wwycheuk@netvigator.com"
 
-#. i18n: file: kolourpaintui.rc:38
+#. i18n: file: kolourpaintui.rc:39
 #. i18n: ectx: Menu (view)
 #: rc.cpp:5
 #, fuzzy
 msgid "&View"
 msgstr "預覽(&P)"
 
-#. i18n: file: kolourpaintui.rc:73
+#. i18n: file: kolourpaintui.rc:74
 #. i18n: ectx: Menu (image)
-#. i18n: file: kolourpaintui.rc:211
+#. i18n: file: kolourpaintui.rc:208
 #. i18n: ectx: Menu (image)
 #: rc.cpp:8 rc.cpp:26
 msgid "&Image"
 msgstr "圖像(&I)"
 
-#. i18n: file: kolourpaintui.rc:100
+#. i18n: file: kolourpaintui.rc:101
 #. i18n: ectx: Menu (colors)
 #: rc.cpp:11
 #, fuzzy
@@ -2320,30 +2301,66 @@ msgstr "圖像(&I)"
 msgid "&Colors"
 msgstr "色彩"
 
-#. i18n: file: kolourpaintui.rc:151
+#. i18n: file: kolourpaintui.rc:148
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:14
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "文字工具列"
 
-#. i18n: file: kolourpaintui.rc:166
+#. i18n: file: kolourpaintui.rc:163
 #. i18n: ectx: ToolBar (textToolBar)
 #: rc.cpp:17
 msgid "Text Toolbar"
 msgstr "文字工具列"
 
-#. i18n: file: kolourpaintui.rc:176
+#. i18n: file: kolourpaintui.rc:173
 #. i18n: ectx: Menu (selectionToolRMBMenu)
 #: rc.cpp:20
 msgid "Selection Tool RMB Menu"
 msgstr "選取工具 RMB 選單"
 
-#. i18n: file: kolourpaintui.rc:178
+#. i18n: file: kolourpaintui.rc:175
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid "Acquiring &Screenshots"
+#~ msgstr "正在取得螢幕截圖(&S)"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be "
+#~| "placed into the clipboard and you will be able to paste it in "
+#~| "KolourPaint.</p><p>You may configure the <b>Desktop Screenshot</b> "
+#~| "shortcut in the KDE Control Center module <a href=\"configure kde "
+#~| "shortcuts\">Keyboard Shortcuts</a>.</p><p>Alternatively, you may try the "
+#~| "application <a href=\"run ksnapshot\">KSnapshot</a>.</p>"
+#~ msgid ""
+#~ "<p>To acquire a screenshot, press <b>%1</b>.  The screenshot will be "
+#~ "placed into the clipboard and you will be able to paste it in KolourPaint."
+#~ "</p><p>You may configure the <b>Desktop Screenshot</b> shortcut in the "
+#~ "KDE System Settings module <a href=\"configure kde shortcuts\">Keyboard "
+#~ "Shortcuts</a>.</p><p>Alternatively, you may try the application <a href="
+#~ "\"run ksnapshot\">KSnapshot</a>.</p>"
+#~ msgstr ""
+#~ "<p>要取得螢幕截圖，按下<b>%1</b>。截圖會放在剪貼簿中，你可將它貼上至 "
+#~ "KolourPaint 。</p><p>你可在 KDE 控制中心模組<a href=\"configure kde "
+#~ "shortcuts\">鍵盤捷徑</a>中設定<b>桌面截圖</b>捷徑。</p><p>又或嘗試 <a "
+#~ "href=\"run ksnapshot\">KSnapshot</a> 應用程式。</p>"
+
+#~ msgid ""
+#~ "<p>You do not appear to be running KDE.</p><p>Once you have loaded KDE:"
+#~ "<br><blockquote>To acquire a screenshot, press <b>%1</b>.  The screenshot "
+#~ "will be placed into the clipboard and you will be able to paste it in "
+#~ "KolourPaint.</blockquote></p><p>Alternatively, you may try the "
+#~ "application <a href=\"run ksnapshot\">KSnapshot</a>.</p>"
+#~ msgstr ""
+#~ "<p>你看來沒有運行 KDE 。</p><p>在你載入 KDE 之後：<br><blockquote>要取得螢"
+#~ "幕截圖，按下 <b>%1</b> 。截圖會放在剪貼簿中，你可將它貼上至 KolourPaint 。"
+#~ "</blockquote></p><p>又或嘗試 <a href=\"run ksnapshot\">KSnapshot</a> 應用"
+#~ "程式。</a></p>"
 
 #~ msgid "Set as Wa&llpaper (Centered)"
 #~ msgstr "設為牆紙（置中）(&L)"
