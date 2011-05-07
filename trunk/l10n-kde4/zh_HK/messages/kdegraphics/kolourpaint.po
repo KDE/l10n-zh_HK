@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-23 03:56+0200\n"
+"POT-Creation-Date: 2011-05-07 04:02+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -202,10 +202,16 @@ msgid "Flood Fill"
 msgstr "填滿"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:91
+#, fuzzy
+#| msgid "More Image Effects (Selection)"
+msgctxt "@title:window"
 msgid "More Image Effects (Selection)"
 msgstr "更多圖像效果（選取區域）"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:93
+#, fuzzy
+#| msgid "More Image Effects"
+msgctxt "@title:window"
 msgid "More Image Effects"
 msgstr "更多圖像效果"
 
@@ -221,8 +227,426 @@ msgstr "減少顏色"
 msgid "Soften & Sharpen"
 msgstr "柔化及銳化"
 
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:131
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:292
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:133
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:299
+msgid "Original:"
+msgstr "原來的："
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:242
+#: mainWindow/kpMainWindow_StatusBar.cpp:86
+#: mainWindow/kpMainWindow_StatusBar.cpp:230
+#, kde-format
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:166
+#: dialogs/kpColorSimilarityDialog.cpp:53
+msgid "Preview"
+msgstr "預覽"
+
+#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:173
+#: dialogs/kpColorSimilarityDialog.cpp:58
+msgid "&Update"
+msgstr ""
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:102
+#, fuzzy
+#| msgid "Resize / Scale"
+msgctxt "@title:window"
+msgid "Resize / Scale"
+msgstr "更改大小 / 縮放"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:165
+msgid "Ac&t on:"
+msgstr "作用在(&T):"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:171
+msgid "Entire Image"
+msgstr "整個圖像"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:174
+#: layers/selections/image/kpAbstractImageSelection.cpp:202
+msgid "Selection"
+msgstr "選取"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:177
+msgid "Text Box"
+msgstr "文字盒"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:215
+msgid "Operation"
+msgstr "操作"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:217
+msgid ""
+"<qt><ul><li><b>Resize</b>: The size of the picture will be increased by "
+"creating new areas to the right and/or bottom (filled in with the background "
+"color) or decreased by cutting it at the right and/or bottom.</"
+"li><li><b>Scale</b>: The picture will be expanded by duplicating pixels or "
+"squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is the same "
+"as <i>Scale</i> except that it blends neighboring pixels to produce a "
+"smoother looking picture.</li></ul></qt>"
+msgstr ""
+"<qt><ul><li><b>更改大小</b>：圖片會以在右及/或下邊建立新區域（以背景顏色填"
+"滿）的方式增大，或以在右及/或下邊移走區域的方式縮小。</li><li><b>縮放</b>：圖"
+"片會以重覆像素的方式擴大，或以減少像素的方式縮小。</li><li><b>平滑縮放</b>："
+"和<i>縮放</i>相同，分別是它會混合相鄰的像素，產生平滑的圖片。</li></ul></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:238
+msgid "&Resize"
+msgstr "更改大小(&R)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:243
+msgid "&Scale"
+msgstr "縮放(&S)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:248
+msgid "S&mooth Scale"
+msgstr "平滑縮放(&M)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:294
+msgid "Width:"
+msgstr "闊度:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:296
+msgid "Height:"
+msgstr "高度:"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:303
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:310
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:320
+msgid "x"
+msgstr "x"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:308
+msgid "&New:"
+msgstr "新增(&N):"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:313
+msgid "&Percent:"
+msgstr "百份比(&P):"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:319
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:326
+#: dialogs/kpColorSimilarityDialog.cpp:79
+msgid "%"
+msgstr "%"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:328
+msgid "Keep &aspect ratio"
+msgstr "保持長闊比例(&A)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:695
+#, kde-format
+msgid ""
+"<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to resize the text box?</p></"
+"qt>"
+msgstr ""
+"<qt><p>更改文字盒大小至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
+"應用程式產生資源問題。</p><p>確定要更改文字盒的大小嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:703
+#, fuzzy
+#| msgid "Resize Text Box?"
+msgctxt "@title:window"
+msgid "Resize Text Box?"
+msgstr "要更改文字盒大小嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:704
+msgid "R&esize Text Box"
+msgstr "更改文字盒大小(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:709
+#, kde-format
+msgid ""
+"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to resize the image?</p></qt>"
+msgstr ""
+"<qt><p>更改圖像大小至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
+"用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
+#: mainWindow/kpMainWindow_Tools.cpp:670
+#, fuzzy
+#| msgid "Resize Image?"
+msgctxt "@title:window"
+msgid "Resize Image?"
+msgstr "要更改圖像大小嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
+#: mainWindow/kpMainWindow_Tools.cpp:671
+msgid "R&esize Image"
+msgstr "更改圖像大小(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:727
+#, kde-format
+msgid ""
+"<qt><p>Scaling the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure you want to scale the image?</p></qt>"
+msgstr ""
+"<qt><p>縮放圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
+"式產生資源問題。</p><p>確定要縮放圖像嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:735
+#, fuzzy
+#| msgid "Scale Image?"
+msgctxt "@title:window"
+msgid "Scale Image?"
+msgstr "要縮放圖像嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:736
+msgid "Scal&e Image"
+msgstr "縮放圖像(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:741
+#, kde-format
+msgid ""
+"<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to scale the selection?</p></"
+"qt>"
+msgstr ""
+"<qt><p>縮放選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
+"用程式產生資源問題。</p><p>確定要縮放選取區域嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
+#, fuzzy
+#| msgid "Scale Selection?"
+msgctxt "@title:window"
+msgid "Scale Selection?"
+msgstr "要縮放選取區域嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:750
+msgid "Scal&e Selection"
+msgstr "縮放選取區域(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:759
+#, kde-format
+msgid ""
+"<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to smooth scale the image?</"
+"p></qt>"
+msgstr ""
+"<qt><p>平滑縮放圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
+"用程式產生資源問題。</p><p>確定要平滑縮放圖像嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:767
+#, fuzzy
+#| msgid "Smooth Scale Image?"
+msgctxt "@title:window"
+msgid "Smooth Scale Image?"
+msgstr "要平滑縮放圖像嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:768
+msgid "Smooth Scal&e Image"
+msgstr "平滑縮放圖像(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:773
+#, kde-format
+msgid ""
+"<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
+"of memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure you want to smooth scale the selection?"
+"</p></qt>"
+msgstr ""
+"<qt><p>平滑縮放選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其"
+"他應用程式產生資源問題。</p><p>確定要平滑縮放選取區域嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:781
+#, fuzzy
+#| msgid "Smooth Scale Selection?"
+msgctxt "@title:window"
+msgid "Smooth Scale Selection?"
+msgstr "要平滑縮放選取區域嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:782
+msgid "Smooth Scal&e Selection"
+msgstr "平滑縮放選取區域(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
+#, fuzzy
+#| msgid "Rotate Selection"
+msgctxt "@title:window"
+msgid "Rotate Selection"
+msgstr "旋轉選取區域"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
+#, fuzzy
+#| msgid "Rotate Image"
+msgctxt "@title:window"
+msgid "Rotate Image"
+msgstr "旋轉圖像"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:71
+#, fuzzy
+#| msgid "After Rotate:"
+msgid "After rotate:"
+msgstr "旋轉之後:"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
+msgid "Direction"
+msgstr "方向"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
+msgid "Cou&nterclockwise"
+msgstr "逆時針方向(&N)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:111
+msgid "C&lockwise"
+msgstr "順時針方向(&L)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:136
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:101
+msgid "Angle"
+msgstr "角度"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:140
+msgid "90 &degrees"
+msgstr "90 度(&D)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:141
+msgid "180 d&egrees"
+msgstr "180 度(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:142
+msgid "270 de&grees"
+msgstr "270 度(&G)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:144
+msgid "C&ustom:"
+msgstr "自訂(&U):"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:148
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:113
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:124
+msgid "degrees"
+msgstr "度"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:271
+#, kde-format
+msgid ""
+"<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure want to rotate the selection?</p></qt>"
+msgstr ""
+"<qt><p>旋轉選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
+"用程式產生資源問題。</p><p>確定要旋轉選取區域嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:279
+#, fuzzy
+#| msgid "Rotate Selection?"
+msgctxt "@title:window"
+msgid "Rotate Selection?"
+msgstr "要旋轉選取區域嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:280
+msgid "Rotat&e Selection"
+msgstr "旋轉選取區域(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:286
+#, kde-format
+msgid ""
+"<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to rotate the image?</p></qt>"
+msgstr ""
+"<qt><p>旋轉圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
+"式產生資源問題。</p><p>確定要旋轉圖像嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:294
+#, fuzzy
+#| msgid "Rotate Image?"
+msgctxt "@title:window"
+msgid "Rotate Image?"
+msgstr "要旋轉圖像嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:295
+msgid "Rotat&e Image"
+msgstr "旋轉圖像(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
+#, fuzzy
+#| msgid "Skew Selection"
+msgctxt "@title:window"
+msgid "Skew Selection"
+msgstr "扭曲選取區域"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
+#, fuzzy
+#| msgid "Skew Image"
+msgctxt "@title:window"
+msgid "Skew Image"
+msgstr "扭曲圖像"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:71
+#, fuzzy
+#| msgid "After Skew:"
+msgid "After skew:"
+msgstr "扭曲之後:"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:108
+msgid "&Horizontal:"
+msgstr "水平(&H):"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:119
+msgid "&Vertical:"
+msgstr "垂直(&V):"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:252
+#, kde-format
+msgid ""
+"<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
+"memory. This can reduce system responsiveness and cause other application "
+"resource problems.</p><p>Are you sure want to skew the selection?</p></qt>"
+msgstr ""
+"<qt><p>扭曲選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
+"用程式產生資源問題。</p><p>確定要扭曲選取區域嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:260
+#, fuzzy
+#| msgid "Skew Selection?"
+msgctxt "@title:window"
+msgid "Skew Selection?"
+msgstr "要扭曲選取區域嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:261
+msgid "Sk&ew Selection"
+msgstr "扭曲選取區域(&E)"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:267
+#, kde-format
+msgid ""
+"<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
+"This can reduce system responsiveness and cause other application resource "
+"problems.</p><p>Are you sure want to skew the image?</p></qt>"
+msgstr ""
+"<qt><p>扭曲圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
+"式產生資源問題。</p><p>確定要扭曲圖像嗎？</p></qt>"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:275
+#, fuzzy
+#| msgid "Skew Image?"
+msgctxt "@title:window"
+msgid "Skew Image?"
+msgstr "要扭曲圖像嗎？"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:276
+msgid "Sk&ew Image"
+msgstr "扭曲圖像(&E)"
+
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:711
+msgctxt "@title:window"
 msgid "Document Properties"
 msgstr ""
 
@@ -341,394 +765,14 @@ msgstr ""
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:831
 #, fuzzy
 #| msgid "Text: Finish"
+msgctxt "@title:window"
 msgid "Invalid Text Fields"
 msgstr "文字：完成"
 
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:131
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:292
-msgid "Dimensions"
-msgstr "尺寸"
-
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:133
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:299
-msgid "Original:"
-msgstr "原來的："
-
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:242
-#: mainWindow/kpMainWindow_StatusBar.cpp:86
-#: mainWindow/kpMainWindow_StatusBar.cpp:230
-#, kde-format
-msgid "%1 x %2"
-msgstr "%1 x %2"
-
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:166
-#: dialogs/kpColorSimilarityDialog.cpp:53
-msgid "Preview"
-msgstr "預覽"
-
-#: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:173
-#: dialogs/kpColorSimilarityDialog.cpp:58
-msgid "&Update"
-msgstr ""
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:102
-msgid "Resize / Scale"
-msgstr "更改大小 / 縮放"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:165
-msgid "Ac&t on:"
-msgstr "作用在(&T):"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:171
-msgid "Entire Image"
-msgstr "整個圖像"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:174
-#: layers/selections/image/kpAbstractImageSelection.cpp:202
-msgid "Selection"
-msgstr "選取"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:177
-msgid "Text Box"
-msgstr "文字盒"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:215
-msgid "Operation"
-msgstr "操作"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:217
-msgid ""
-"<qt><ul><li><b>Resize</b>: The size of the picture will be increased by "
-"creating new areas to the right and/or bottom (filled in with the background "
-"color) or decreased by cutting it at the right and/or bottom.</"
-"li><li><b>Scale</b>: The picture will be expanded by duplicating pixels or "
-"squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is the same "
-"as <i>Scale</i> except that it blends neighboring pixels to produce a "
-"smoother looking picture.</li></ul></qt>"
-msgstr ""
-"<qt><ul><li><b>更改大小</b>：圖片會以在右及/或下邊建立新區域（以背景顏色填"
-"滿）的方式增大，或以在右及/或下邊移走區域的方式縮小。</li><li><b>縮放</b>：圖"
-"片會以重覆像素的方式擴大，或以減少像素的方式縮小。</li><li><b>平滑縮放</b>："
-"和<i>縮放</i>相同，分別是它會混合相鄰的像素，產生平滑的圖片。</li></ul></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:238
-msgid "&Resize"
-msgstr "更改大小(&R)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:243
-msgid "&Scale"
-msgstr "縮放(&S)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:248
-msgid "S&mooth Scale"
-msgstr "平滑縮放(&M)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:294
-msgid "Width:"
-msgstr "闊度:"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:296
-msgid "Height:"
-msgstr "高度:"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:303
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:310
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:320
-msgid "x"
-msgstr "x"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:308
-msgid "&New:"
-msgstr "新增(&N):"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:313
-msgid "&Percent:"
-msgstr "百份比(&P):"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:319
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:326
-#: dialogs/kpColorSimilarityDialog.cpp:79
-msgid "%"
-msgstr "%"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:328
-msgid "Keep &aspect ratio"
-msgstr "保持長闊比例(&A)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:695
-#, kde-format
-msgid ""
-"<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
-"memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to resize the text box?</p></"
-"qt>"
-msgstr ""
-"<qt><p>更改文字盒大小至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
-"應用程式產生資源問題。</p><p>確定要更改文字盒的大小嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:703
-msgid "Resize Text Box?"
-msgstr "要更改文字盒大小嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:704
-msgid "R&esize Text Box"
-msgstr "更改文字盒大小(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:709
-#, kde-format
-msgid ""
-"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure you want to resize the image?</p></qt>"
-msgstr ""
-"<qt><p>更改圖像大小至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
-"用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
-#: mainWindow/kpMainWindow_Tools.cpp:670
-msgid "Resize Image?"
-msgstr "要更改圖像大小嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
-#: mainWindow/kpMainWindow_Tools.cpp:671
-msgid "R&esize Image"
-msgstr "更改圖像大小(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:727
-#, kde-format
-msgid ""
-"<qt><p>Scaling the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure you want to scale the image?</p></qt>"
-msgstr ""
-"<qt><p>縮放圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
-"式產生資源問題。</p><p>確定要縮放圖像嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:735
-msgid "Scale Image?"
-msgstr "要縮放圖像嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:736
-msgid "Scal&e Image"
-msgstr "縮放圖像(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:741
-#, kde-format
-msgid ""
-"<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
-"memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to scale the selection?</p></"
-"qt>"
-msgstr ""
-"<qt><p>縮放選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
-"用程式產生資源問題。</p><p>確定要縮放選取區域嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
-msgid "Scale Selection?"
-msgstr "要縮放選取區域嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:750
-msgid "Scal&e Selection"
-msgstr "縮放選取區域(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:759
-#, kde-format
-msgid ""
-"<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
-"memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to smooth scale the image?</"
-"p></qt>"
-msgstr ""
-"<qt><p>平滑縮放圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
-"用程式產生資源問題。</p><p>確定要平滑縮放圖像嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:767
-msgid "Smooth Scale Image?"
-msgstr "要平滑縮放圖像嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:768
-msgid "Smooth Scal&e Image"
-msgstr "平滑縮放圖像(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:773
-#, kde-format
-msgid ""
-"<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
-"of memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to smooth scale the selection?"
-"</p></qt>"
-msgstr ""
-"<qt><p>平滑縮放選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其"
-"他應用程式產生資源問題。</p><p>確定要平滑縮放選取區域嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:781
-msgid "Smooth Scale Selection?"
-msgstr "要平滑縮放選取區域嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:782
-msgid "Smooth Scal&e Selection"
-msgstr "平滑縮放選取區域(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
-msgid "Rotate Selection"
-msgstr "旋轉選取區域"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:70
-msgid "Rotate Image"
-msgstr "旋轉圖像"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:71
-#, fuzzy
-#| msgid "After Rotate:"
-msgid "After rotate:"
-msgstr "旋轉之後:"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
-msgid "Direction"
-msgstr "方向"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
-msgid "Cou&nterclockwise"
-msgstr "逆時針方向(&N)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:111
-msgid "C&lockwise"
-msgstr "順時針方向(&L)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:136
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:101
-msgid "Angle"
-msgstr "角度"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:140
-msgid "90 &degrees"
-msgstr "90 度(&D)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:141
-msgid "180 d&egrees"
-msgstr "180 度(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:142
-msgid "270 de&grees"
-msgstr "270 度(&G)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:144
-msgid "C&ustom:"
-msgstr "自訂(&U):"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:148
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:113
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:124
-msgid "degrees"
-msgstr "度"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:271
-#, kde-format
-msgid ""
-"<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
-"memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure want to rotate the selection?</p></qt>"
-msgstr ""
-"<qt><p>旋轉選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
-"用程式產生資源問題。</p><p>確定要旋轉選取區域嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:279
-msgid "Rotate Selection?"
-msgstr "要旋轉選取區域嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:280
-msgid "Rotat&e Selection"
-msgstr "旋轉選取區域(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:286
-#, kde-format
-msgid ""
-"<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to rotate the image?</p></qt>"
-msgstr ""
-"<qt><p>旋轉圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
-"式產生資源問題。</p><p>確定要旋轉圖像嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:294
-msgid "Rotate Image?"
-msgstr "要旋轉圖像嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:295
-msgid "Rotat&e Image"
-msgstr "旋轉圖像(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
-msgid "Skew Selection"
-msgstr "扭曲選取區域"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:70
-msgid "Skew Image"
-msgstr "扭曲圖像"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:71
-#, fuzzy
-#| msgid "After Skew:"
-msgid "After skew:"
-msgstr "扭曲之後:"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:108
-msgid "&Horizontal:"
-msgstr "水平(&H):"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:119
-msgid "&Vertical:"
-msgstr "垂直(&V):"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:252
-#, kde-format
-msgid ""
-"<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
-"memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure want to skew the selection?</p></qt>"
-msgstr ""
-"<qt><p>扭曲選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
-"用程式產生資源問題。</p><p>確定要扭曲選取區域嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:260
-msgid "Skew Selection?"
-msgstr "要扭曲選取區域嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:261
-msgid "Sk&ew Selection"
-msgstr "扭曲選取區域(&E)"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:267
-#, kde-format
-msgid ""
-"<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to skew the image?</p></qt>"
-msgstr ""
-"<qt><p>扭曲圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
-"式產生資源問題。</p><p>確定要扭曲圖像嗎？</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:275
-msgid "Skew Image?"
-msgstr "要扭曲圖像嗎？"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:276
-msgid "Sk&ew Image"
-msgstr "扭曲圖像(&E)"
-
-#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:62
-#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:68
-msgid "Save Preview"
-msgstr "儲存預覽"
-
-#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:140
-#, fuzzy, kde-format
-msgid "1 byte (approx. %2%)"
-msgid_plural "%1 bytes (approx. %2%)"
-msgstr[0] "%1 位元組 (約為 %2%)"
-
 #: dialogs/kpColorSimilarityDialog.cpp:47
+#, fuzzy
+#| msgid "Color Similarity"
+msgctxt "@title:window"
 msgid "Color Similarity"
 msgstr "顏色相似性"
 
@@ -745,6 +789,23 @@ msgstr "完全符合"
 #: dialogs/kpColorSimilarityDialog.cpp:85
 msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
 msgstr ""
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:62
+msgid "Save Preview"
+msgstr "儲存預覽"
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:68
+#, fuzzy
+#| msgid "Save Preview"
+msgctxt "@title:window"
+msgid "Save Preview"
+msgstr "儲存預覽"
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:140
+#, fuzzy, kde-format
+msgid "1 byte (approx. %2%)"
+msgid_plural "%1 bytes (approx. %2%)"
+msgstr[0] "%1 位元組 (約為 %2%)"
 
 #: document/kpDocument_Open.cpp:107
 #, kde-format
@@ -783,6 +844,9 @@ msgstr ""
 "Mime 類型: %2"
 
 #: document/kpDocument_Save.cpp:95
+#, fuzzy
+#| msgid "Internal Error"
+msgctxt "@title:window"
 msgid "Internal Error"
 msgstr "內部錯誤"
 
@@ -797,6 +861,9 @@ msgstr ""
 "儲存嗎？</p></qt>"
 
 #: document/kpDocument_Save.cpp:136
+#, fuzzy
+#| msgid "Lossy File Format"
+msgctxt "@title:window"
 msgid "Lossy File Format"
 msgstr "有損性檔案格式"
 
@@ -815,6 +882,9 @@ msgstr ""
 "p><p>你確定要以這個色彩深度儲存嗎？</p></qt>"
 
 #: document/kpDocument_Save.cpp:155
+#, fuzzy
+#| msgid "Low Color Depth"
+msgctxt "@title:window"
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
@@ -878,6 +948,9 @@ msgid ""
 msgstr "KolourPaint 無法找到選取區域的內部邊界，所以無法移除。"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:624
+#, fuzzy
+#| msgid "Cannot Remove Internal Border"
+msgctxt "@title:window"
 msgid "Cannot Remove Internal Border"
 msgstr "無法移除內部邊界"
 
@@ -888,6 +961,9 @@ msgid ""
 msgstr "KolourPaint 無法找到圖像的邊界，所以自動截取。"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:632
+#, fuzzy
+#| msgid "Cannot Autocrop"
+msgctxt "@title:window"
 msgid "Cannot Autocrop"
 msgstr "無法自動截取"
 
@@ -985,10 +1061,6 @@ msgstr ""
 msgid "Image file to open"
 msgstr "要開啟的圖像檔案"
 
-#: kpThumbnail.cpp:126
-msgid "Thumbnail"
-msgstr "縮圖"
-
 #: layers/selections/text/kpTextSelection.cpp:136
 #: tools/selection/text/kpToolText.cpp:59
 msgid "Text"
@@ -1040,162 +1112,6 @@ msgstr ""
 #: widgets/toolbars/kpColorToolBar.cpp:268
 msgid "Untitled"
 msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:59
-#, fuzzy
-#| msgid "KolourPaint"
-msgid "Use KolourPaint Defaults"
-msgstr "KolourPaint"
-
-#: mainWindow/kpMainWindow_Colors.cpp:64
-msgctxt "@item:inmenu colors"
-msgid "Use KDE's"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:73
-#, fuzzy
-#| msgid "&Flip..."
-msgctxt "@item:inmenu colors"
-msgid "&Open..."
-msgstr "反轉(&F)..."
-
-#: mainWindow/kpMainWindow_Colors.cpp:78
-#, fuzzy
-#| msgid "Reloa&d"
-msgctxt "@item:inmenu colors"
-msgid "Reloa&d"
-msgstr "重新載入(&D)"
-
-#: mainWindow/kpMainWindow_Colors.cpp:84
-#, fuzzy
-#| msgid "&Scale"
-msgctxt "@item:inmenu colors"
-msgid "&Save"
-msgstr "縮放(&S)"
-
-#: mainWindow/kpMainWindow_Colors.cpp:89
-#, fuzzy
-#| msgid "Save Image As"
-msgctxt "@item:inmenu colors"
-msgid "Save &As..."
-msgstr "儲存圖像為"
-
-#: mainWindow/kpMainWindow_Colors.cpp:95
-msgctxt "@item:inmenu colors"
-msgid "Add Row"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:100
-#, fuzzy
-#| msgid "&Delete Selection"
-msgctxt "@item:inmenu colors"
-msgid "Delete Last Row"
-msgstr "刪除所選(&D)"
-
-#: mainWindow/kpMainWindow_Colors.cpp:111
-msgid "Color Box"
-msgstr "顏色盒"
-
-#: mainWindow/kpMainWindow_Colors.cpp:187
-#, fuzzy, kde-format
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Do you want to save it?"
-msgid ""
-"The color palette \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"「%1」文件已修改。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:199
-#, fuzzy, kde-format
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Do you want to save it?"
-msgid ""
-"The KDE color palette \"%1\" has been modified.\n"
-"Do you want to save it to a file?"
-msgstr ""
-"「%1」文件已修改。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:208
-#, fuzzy
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Do you want to save it?"
-msgid ""
-"The default color palette has been modified.\n"
-"Do you want to save it to a file?"
-msgstr ""
-"「%1」文件已修改。\n"
-"要儲存嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:317
-#, fuzzy
-#| msgid "Colors"
-msgid "Open Color Palette"
-msgstr "色彩"
-
-#: mainWindow/kpMainWindow_Colors.cpp:342
-#, fuzzy, kde-format
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Reloading will lose all changes since you last saved it.\n"
-#| "Are you sure?"
-msgid ""
-"The color palette \"%1\" has been modified.\n"
-"Reloading will lose all changes since you last saved it.\n"
-"Are you sure?"
-msgstr ""
-"「%1」文件已修改。\n"
-"重新載入會失去上次儲存之後的所有更改。\n"
-"確定嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:347
-#: mainWindow/kpMainWindow_Colors.cpp:360
-#: mainWindow/kpMainWindow_Colors.cpp:369
-#: mainWindow/kpMainWindow_File.cpp:1073 mainWindow/kpMainWindow_File.cpp:1083
-#, fuzzy
-msgid "&Reload"
-msgstr "重新載入(&D)"
-
-#: mainWindow/kpMainWindow_Colors.cpp:355
-#, fuzzy, kde-format
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Reloading will lose all changes.\n"
-#| "Are you sure?"
-msgid ""
-"The KDE color palette \"%1\" has been modified.\n"
-"Reloading will lose all changes.\n"
-"Are you sure?"
-msgstr ""
-"「%1」文件已修改。\n"
-"重新載入會失去所有更改。\n"
-"確定嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:365
-#, fuzzy
-#| msgid ""
-#| "The document \"%1\" has been modified.\n"
-#| "Reloading will lose all changes.\n"
-#| "Are you sure?"
-msgid ""
-"The default color palette has been modified.\n"
-"Reloading will lose all changes.\n"
-"Are you sure?"
-msgstr ""
-"「%1」文件已修改。\n"
-"重新載入會失去所有更改。\n"
-"確定嗎？"
-
-#: mainWindow/kpMainWindow_Colors.cpp:418
-#, fuzzy
-#| msgid "Invert Colors"
-msgid "Save Color Palette As"
-msgstr "反白色彩"
 
 #: mainWindow/kpMainWindow_Image.cpp:119
 msgid "R&esize / Scale..."
@@ -1316,63 +1232,6 @@ msgstr "放大縮圖模式(&M)"
 msgid "Enable Thumbnail &Rectangle"
 msgstr "啟用縮圖矩形(&R)"
 
-#: mainWindow/kpMainWindow_Edit.cpp:98
-msgid "Paste in &New Window"
-msgstr "貼上至新視窗(&N)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:105
-msgid "&Delete Selection"
-msgstr "刪除所選(&D)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:113
-msgid "C&opy to File..."
-msgstr "複製至檔案(&O)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:117
-msgid "Paste &From File..."
-msgstr "從檔案貼上(&F)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:447
-msgid "Text: Paste"
-msgstr "文字：貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:631
-msgid ""
-"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
-"unexpectedly disappeared.</p><p>This usually occurs if the application which "
-"was responsible for the clipboard contents has been closed.</p></qt>"
-msgstr ""
-"<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
-"是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
-
-#: mainWindow/kpMainWindow_Edit.cpp:637
-msgid "Cannot Paste"
-msgstr "無法貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:730
-msgid "Text: Delete Box"
-msgstr "文字：刪除盒子"
-
-#: mainWindow/kpMainWindow_Edit.cpp:731
-msgid "Selection: Delete"
-msgstr "選取：刪除"
-
-#: mainWindow/kpMainWindow_Edit.cpp:802
-msgid "Text: Finish"
-msgstr "文字：完成"
-
-#: mainWindow/kpMainWindow_Edit.cpp:803
-msgid "Selection: Deselect"
-msgstr "選取：反選取"
-
-#: mainWindow/kpMainWindow_Edit.cpp:882
-msgid "Copy to File"
-msgstr "複製至檔案"
-
-#: mainWindow/kpMainWindow_Edit.cpp:930
-msgid "Paste From File"
-msgstr "從檔案貼上"
-
 #: mainWindow/kpMainWindow_View.cpp:76
 msgid "Show &Grid"
 msgstr "顯示格線(&G)"
@@ -1424,6 +1283,230 @@ msgstr "%1x%2"
 msgid "%1bpp"
 msgstr "%1bpp"
 
+#: mainWindow/kpMainWindow_Settings.cpp:67
+msgid "Show &Path"
+msgstr "顯示路徑(&P)"
+
+#: mainWindow/kpMainWindow_Colors.cpp:59
+#, fuzzy
+#| msgid "KolourPaint"
+msgid "Use KolourPaint Defaults"
+msgstr "KolourPaint"
+
+#: mainWindow/kpMainWindow_Colors.cpp:64
+msgctxt "@item:inmenu colors"
+msgid "Use KDE's"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:73
+#, fuzzy
+#| msgid "&Flip..."
+msgctxt "@item:inmenu colors"
+msgid "&Open..."
+msgstr "反轉(&F)..."
+
+#: mainWindow/kpMainWindow_Colors.cpp:78
+#, fuzzy
+#| msgid "Reloa&d"
+msgctxt "@item:inmenu colors"
+msgid "Reloa&d"
+msgstr "重新載入(&D)"
+
+#: mainWindow/kpMainWindow_Colors.cpp:84
+#, fuzzy
+#| msgid "&Scale"
+msgctxt "@item:inmenu colors"
+msgid "&Save"
+msgstr "縮放(&S)"
+
+#: mainWindow/kpMainWindow_Colors.cpp:89
+#, fuzzy
+#| msgid "Save Image As"
+msgctxt "@item:inmenu colors"
+msgid "Save &As..."
+msgstr "儲存圖像為"
+
+#: mainWindow/kpMainWindow_Colors.cpp:95
+msgctxt "@item:inmenu colors"
+msgid "Add Row"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Colors.cpp:100
+#, fuzzy
+#| msgid "&Delete Selection"
+msgctxt "@item:inmenu colors"
+msgid "Delete Last Row"
+msgstr "刪除所選(&D)"
+
+#: mainWindow/kpMainWindow_Colors.cpp:111
+msgid "Color Box"
+msgstr "顏色盒"
+
+#: mainWindow/kpMainWindow_Colors.cpp:187
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The color palette \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"「%1」文件已修改。\n"
+"要儲存嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:199
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The KDE color palette \"%1\" has been modified.\n"
+"Do you want to save it to a file?"
+msgstr ""
+"「%1」文件已修改。\n"
+"要儲存嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:208
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The default color palette has been modified.\n"
+"Do you want to save it to a file?"
+msgstr ""
+"「%1」文件已修改。\n"
+"要儲存嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:317
+#, fuzzy
+#| msgid "Colors"
+msgctxt "@title:window"
+msgid "Open Color Palette"
+msgstr "色彩"
+
+#: mainWindow/kpMainWindow_Colors.cpp:342
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Reloading will lose all changes since you last saved it.\n"
+#| "Are you sure?"
+msgid ""
+"The color palette \"%1\" has been modified.\n"
+"Reloading will lose all changes since you last saved it.\n"
+"Are you sure?"
+msgstr ""
+"「%1」文件已修改。\n"
+"重新載入會失去上次儲存之後的所有更改。\n"
+"確定嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:347
+#: mainWindow/kpMainWindow_Colors.cpp:360
+#: mainWindow/kpMainWindow_Colors.cpp:369
+#: mainWindow/kpMainWindow_File.cpp:1073 mainWindow/kpMainWindow_File.cpp:1083
+#, fuzzy
+msgid "&Reload"
+msgstr "重新載入(&D)"
+
+#: mainWindow/kpMainWindow_Colors.cpp:355
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Reloading will lose all changes.\n"
+#| "Are you sure?"
+msgid ""
+"The KDE color palette \"%1\" has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+"「%1」文件已修改。\n"
+"重新載入會失去所有更改。\n"
+"確定嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:365
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Reloading will lose all changes.\n"
+#| "Are you sure?"
+msgid ""
+"The default color palette has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+"「%1」文件已修改。\n"
+"重新載入會失去所有更改。\n"
+"確定嗎？"
+
+#: mainWindow/kpMainWindow_Colors.cpp:418
+#, fuzzy
+#| msgid "Invert Colors"
+msgid "Save Color Palette As"
+msgstr "反白色彩"
+
+#: mainWindow/kpMainWindow_Edit.cpp:98
+msgid "Paste in &New Window"
+msgstr "貼上至新視窗(&N)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:105
+msgid "&Delete Selection"
+msgstr "刪除所選(&D)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:113
+msgid "C&opy to File..."
+msgstr "複製至檔案(&O)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:117
+msgid "Paste &From File..."
+msgstr "從檔案貼上(&F)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:447
+msgid "Text: Paste"
+msgstr "文字：貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:631
+msgid ""
+"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
+"unexpectedly disappeared.</p><p>This usually occurs if the application which "
+"was responsible for the clipboard contents has been closed.</p></qt>"
+msgstr ""
+"<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
+"是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
+
+#: mainWindow/kpMainWindow_Edit.cpp:637
+msgid "Cannot Paste"
+msgstr "無法貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:730
+msgid "Text: Delete Box"
+msgstr "文字：刪除盒子"
+
+#: mainWindow/kpMainWindow_Edit.cpp:731
+msgid "Selection: Delete"
+msgstr "選取：刪除"
+
+#: mainWindow/kpMainWindow_Edit.cpp:802
+msgid "Text: Finish"
+msgstr "文字：完成"
+
+#: mainWindow/kpMainWindow_Edit.cpp:803
+msgid "Selection: Deselect"
+msgstr "選取：反選取"
+
+#: mainWindow/kpMainWindow_Edit.cpp:882
+#, fuzzy
+#| msgid "Copy to File"
+msgctxt "@title:window"
+msgid "Copy to File"
+msgstr "複製至檔案"
+
+#: mainWindow/kpMainWindow_Edit.cpp:930
+#, fuzzy
+#| msgid "Paste From File"
+msgctxt "@title:window"
+msgid "Paste From File"
+msgstr "從檔案貼上"
+
 #: mainWindow/kpMainWindow_File.cpp:104
 msgid "E&xport..."
 msgstr "匯出(&X)..."
@@ -1448,6 +1531,9 @@ msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
 #: mainWindow/kpMainWindow_File.cpp:464
+#, fuzzy
+#| msgid "Open Image"
+msgctxt "@title:window"
 msgid "Open Image"
 msgstr "開啟圖像"
 
@@ -1478,12 +1564,20 @@ msgstr ""
 msgid "Hide Main Window"
 msgstr "貼上至新視窗(&N)"
 
+#: mainWindow/kpMainWindow_File.cpp:711
+msgid "Document Properties"
+msgstr ""
+
 #: mainWindow/kpMainWindow_File.cpp:954
+#, fuzzy
+#| msgid "Save Image As"
+msgctxt "@title:window"
 msgid "Save Image As"
 msgstr "儲存圖像為"
 
 #: mainWindow/kpMainWindow_File.cpp:1003
 #, fuzzy
+msgctxt "@title:window"
 msgid "Export"
 msgstr "匯出(&X)..."
 
@@ -1512,6 +1606,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_File.cpp:1320
 #, fuzzy
 #| msgid "Entire Image"
+msgctxt "@title:window"
 msgid "Print Image"
 msgstr "整個圖像"
 
@@ -1531,10 +1626,6 @@ msgid ""
 msgstr ""
 "「%1」文件已修改。\n"
 "要儲存嗎？"
-
-#: mainWindow/kpMainWindow_Settings.cpp:67
-msgid "Show &Path"
-msgstr "顯示路徑(&P)"
 
 #: mainWindow/kpMainWindow_Tools.cpp:136
 msgid "Previous Tool Option (Group #1)"
@@ -2165,20 +2256,6 @@ msgstr "256 色（抖震(Dithered)）"
 msgid "24-bit Color"
 msgstr "24 位元色"
 
-#: widgets/kpPrintDialogPage.cpp:60
-#, fuzzy
-#| msgid "Image file to open"
-msgid "I&mage Position"
-msgstr "要開啟的圖像檔案"
-
-#: widgets/kpPrintDialogPage.cpp:65
-msgid "&Center of the page"
-msgstr ""
-
-#: widgets/kpPrintDialogPage.cpp:67
-msgid "Top-&left of the page"
-msgstr ""
-
 #: widgets/kpTransparentColorCell.cpp:65
 #: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:45
 msgid "Transparent"
@@ -2255,6 +2332,21 @@ msgid ""
 "the color of the source cell.</p></qt>"
 msgstr ""
 
+#: widgets/kpPrintDialogPage.cpp:60
+#, fuzzy
+#| msgid "Image file to open"
+msgctxt "@title:tab"
+msgid "I&mage Position"
+msgstr "要開啟的圖像檔案"
+
+#: widgets/kpPrintDialogPage.cpp:65
+msgid "&Center of the page"
+msgstr ""
+
+#: widgets/kpPrintDialogPage.cpp:67
+msgid "Top-&left of the page"
+msgstr ""
+
 #: kpViewScrollableContainer.cpp:160 kpViewScrollableContainer.cpp:826
 #: kpViewScrollableContainer.cpp:830 kpViewScrollableContainer.cpp:834
 msgid "Left drag the handle to resize the image."
@@ -2267,6 +2359,13 @@ msgstr "更改圖像大小：放開所有滑鼠鍵。"
 #: kpViewScrollableContainer.cpp:231
 msgid "Resize Image: Right click to cancel."
 msgstr "更改圖像大小：按右鍵取消。"
+
+#: kpThumbnail.cpp:126
+#, fuzzy
+#| msgid "Thumbnail"
+msgctxt "@title:window"
+msgid "Thumbnail"
+msgstr "縮圖"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
