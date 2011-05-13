@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:26+0200\n"
+"POT-Creation-Date: 2011-05-13 04:13+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5791,20 +5791,6 @@ msgstr "KDE 常駐程式 - 有需要時可更新 Sycoca 資料庫。"
 msgid "Check Sycoca database only once"
 msgstr "只檢查 Sycoca 資料庫一次"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-#, fuzzy
-#| msgid "Ambiguous \"%1\" not handled"
-msgid "Ambiguous shortcut detected"
-msgstr "含糊的 \"%1\" 沒有被處理"
-
 #: kdeui/actions/kcodecaction.cpp:91
 #, fuzzy
 #| msgid "Default"
@@ -5901,6 +5887,20 @@ msgstr "離開全螢幕模式(&U)"
 #| msgid "Exit F&ull Screen Mode"
 msgid "Exit Full Screen"
 msgstr "離開全螢幕模式(&U)"
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+#, fuzzy
+#| msgid "Ambiguous \"%1\" not handled"
+msgid "Ambiguous shortcut detected"
+msgstr "含糊的 \"%1\" 沒有被處理"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
@@ -11117,6 +11117,154 @@ msgstr "%1%"
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1%"
+
+#: kdeui/widgets/kdatecombobox.cpp:79
+msgid "The entered date is before the minimum allowed date."
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:80
+msgid "The entered date is after the maximum allowed date."
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:82 kdeui/widgets/kdatecombobox.cpp:123
+msgctxt "@option tomorrow"
+msgid "Tomorrow"
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:83 kdeui/widgets/kdatecombobox.cpp:122
+#, fuzzy
+#| msgid "Monday"
+msgctxt "@option today"
+msgid "Today"
+msgstr "星期一"
+
+#: kdeui/widgets/kdatecombobox.cpp:84
+#, fuzzy
+#| msgid "Tuesday"
+msgctxt "@option yesterday"
+msgid "Yesterday"
+msgstr "星期二"
+
+#: kdeui/widgets/kdatecombobox.cpp:85
+#, fuzzy
+#| msgid "Next year"
+msgctxt "@option next week"
+msgid "Next week"
+msgstr "下一年"
+
+#: kdeui/widgets/kdatecombobox.cpp:86
+#, fuzzy
+#| msgid "Last Name"
+msgctxt "@option last week"
+msgid "Last week"
+msgstr "姓"
+
+#: kdeui/widgets/kdatecombobox.cpp:87 kdeui/widgets/kdatecombobox.cpp:125
+#, fuzzy
+#| msgid "Next month"
+msgctxt "@option next month"
+msgid "Next Month"
+msgstr "下一個月"
+
+#: kdeui/widgets/kdatecombobox.cpp:88
+#, fuzzy
+#| msgid "Next month"
+msgctxt "@option last month"
+msgid "Last Month"
+msgstr "下一個月"
+
+#: kdeui/widgets/kdatecombobox.cpp:89
+#, fuzzy
+#| msgid "Next year"
+msgctxt "@option next year"
+msgid "Next Year"
+msgstr "下一年"
+
+#: kdeui/widgets/kdatecombobox.cpp:90
+#, fuzzy
+#| msgid "Last Name"
+msgctxt "@option last year"
+msgid "Last Year"
+msgstr "姓"
+
+#: kdeui/widgets/kdatecombobox.cpp:91
+#, kde-format
+msgctxt "@info"
+msgid "Date cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:92
+#, kde-format
+msgctxt "@info"
+msgid "Date cannot be later than %1"
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:93
+#, fuzzy
+#| msgid "Monday"
+msgctxt "@info/plain"
+msgid "today"
+msgstr "星期一"
+
+#: kdeui/widgets/kdatecombobox.cpp:94
+msgid "The date you entered is invalid"
+msgstr ""
+
+#: kdeui/widgets/kdatecombobox.cpp:124
+#, fuzzy
+#| msgid "Next year"
+msgctxt "@option next week"
+msgid "Next Week"
+msgstr "下一年"
+
+#: kdeui/widgets/kdatecombobox.cpp:127
+#, fuzzy
+#| msgid "Dates"
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "日期"
+
+#: kdeui/widgets/kdatetimeedit.cpp:83
+msgid "The entered date and time is before the minimum allowed date and time."
+msgstr ""
+
+#: kdeui/widgets/kdatetimeedit.cpp:84
+msgid "The entered date and time is after the maximum allowed date and time."
+msgstr ""
+
+#: kdeui/widgets/kdatetimeedit.cpp:155
+msgid "UTC"
+msgstr ""
+
+#: kdeui/widgets/kdatetimeedit.cpp:156
+#, fuzzy
+#| msgid "Rating"
+msgid "Floating"
+msgstr "評分"
+
+#: kdeui/widgets/ktimecombobox.cpp:69
+msgid "The entered time is before the minimum allowed time."
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:70
+msgid "The entered time is after the maximum allowed time."
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:72
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:73
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:74
+msgid "The time you entered is invalid"
+msgstr ""
 
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
@@ -18102,11 +18250,6 @@ msgstr "pm"
 
 #~ msgid "Size"
 #~ msgstr "大小"
-
-#, fuzzy
-#~| msgid "Dates"
-#~ msgid "Date"
-#~ msgstr "日期"
 
 #, fuzzy
 #~| msgid "Other"

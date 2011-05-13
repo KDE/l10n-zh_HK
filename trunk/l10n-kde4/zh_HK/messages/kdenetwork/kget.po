@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:27+0200\n"
+"POT-Creation-Date: 2011-05-13 04:14+0200\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -2599,58 +2599,66 @@ msgid "Developer"
 msgstr ""
 
 #: main.cpp:139
-msgid "Patrick Charbonnier"
+msgid "Ernesto Rodriguez Ortiz"
 msgstr ""
 
-#: main.cpp:139 main.cpp:140 main.cpp:141
-msgid "Former Developer"
+#: main.cpp:139
+msgid "Mms Plugin Author"
 msgstr ""
 
 #: main.cpp:140
-msgid "Carsten Pfeiffer"
+msgid "Patrick Charbonnier"
+msgstr ""
+
+#: main.cpp:140 main.cpp:141 main.cpp:142
+msgid "Former Developer"
 msgstr ""
 
 #: main.cpp:141
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:142
 msgid "Matej Koss"
 msgstr ""
 
-#: main.cpp:142
+#: main.cpp:143
 msgid "Joris Guisson"
 msgstr ""
 
-#: main.cpp:142
+#: main.cpp:143
 msgid "BTCore (KTorrent) Developer"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:144
 msgid "Mensur Zahirovic (Nookie)"
 msgstr ""
 
-#: main.cpp:143
+#: main.cpp:144
 msgid "Design of Web Interface"
 msgstr ""
 
-#: main.cpp:148
-msgid "Start KGet with drop target"
-msgstr "使用拖放目標模式啟動 KGet"
-
 #: main.cpp:149
-#, fuzzy
-#| msgid "Start KGet with drop target"
-msgid "Start KGet with hidden main window"
+msgid "Start KGet with drop target"
 msgstr "使用拖放目標模式啟動 KGet"
 
 #: main.cpp:150
 #, fuzzy
 #| msgid "Start KGet with drop target"
+msgid "Start KGet with hidden main window"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:151
+#, fuzzy
+#| msgid "Start KGet with drop target"
 msgid "Start KGet without drop target animation"
 msgstr "使用拖放目標模式啟動 KGet"
 
-#: main.cpp:152
+#: main.cpp:153
 msgid "Execute Unit Testing"
 msgstr ""
 
-#: main.cpp:154
+#: main.cpp:155
 #, fuzzy
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
@@ -3832,9 +3840,7 @@ msgstr ""
 
 #. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:240
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: file: ui/transferdetailsfrm.ui:51
-#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
-#: rc.cpp:463 rc.cpp:793
+#: rc.cpp:463
 #, fuzzy
 #| msgid "Source:"
 msgctxt "source-file"
@@ -4473,6 +4479,15 @@ msgstr "字型:"
 #: rc.cpp:787
 msgid "Enter a hash key"
 msgstr ""
+
+#. i18n: file: ui/transferdetailsfrm.ui:51
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: rc.cpp:793
+#, fuzzy
+#| msgid "Source:"
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "來源："
 
 #. i18n: file: ui/transferdetailsfrm.ui:114
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
@@ -5255,12 +5270,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "KGet - Download Manager"
 #~ msgstr "下載管理員"
-
-#, fuzzy
-#~| msgid "Source:"
-#~ msgctxt "@label transfer source"
-#~ msgid "Source:"
-#~ msgstr "來源："
 
 #, fuzzy
 #~| msgid "0 B/s"
