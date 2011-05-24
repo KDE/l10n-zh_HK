@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-22 04:12+0200\n"
+"POT-Creation-Date: 2011-05-24 04:18+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -7475,6 +7475,63 @@ msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
 msgstr "%1 - [%2]"
 
+#. i18n: A shorter version of the alphabet test phrase translated in
+#. another message. It is displayed in the dropdown list of font previews
+#. (the font selection combo box), so keep it under the length equivalent
+#. to 60 or so proportional Latin characters.
+#: kdeui/fonts/kfontcombobox.cpp:49
+#, fuzzy
+#| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgctxt "short"
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr "The Quick Brown Fox 跳過那隻懶狗"
+
+#. i18n: Integer which indicates the script you used in the sample text
+#. for font previews in your language. For the possible values, see
+#. http://doc.trolltech.com/qfontdatabase.html#WritingSystem-enum
+#. If the sample text contains several scripts, their IDs can be given
+#. as a comma-separated list (e.g. for Japanese it is "1,27").
+#: kdeui/fonts/kfontcombobox.cpp:120
+#, fuzzy
+#| msgid "%1%"
+msgctxt "Numeric IDs of scripts for font previews"
+msgid "1"
+msgstr "%1%"
+
+#: kdeui/fonts/kfontdialog.cpp:75
+msgid "Select Font"
+msgstr "選擇字型"
+
+#: kdeui/fonts/kfontrequester.cpp:110
+msgid "Choose..."
+msgstr "選擇..."
+
+#: kdeui/fonts/kfontrequester.cpp:215
+msgid "Click to select a font"
+msgstr "選擇一個字型"
+
+#: kdeui/fonts/kfontrequester.cpp:222
+msgid "Preview of the selected font"
+msgstr "預覽所選擇的字型"
+
+#: kdeui/fonts/kfontrequester.cpp:223
+msgid ""
+"This is a preview of the selected font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr "這些是選擇字型的預覽。你可以按\"選擇...\"來預覽其他字型。"
+
+#: kdeui/fonts/kfontrequester.cpp:228
+#, kde-format
+msgid "Preview of the \"%1\" font"
+msgstr "預覽 \"%1\" 字型"
+
+#: kdeui/fonts/kfontrequester.cpp:229
+#, kde-format
+msgid ""
+"This is a preview of the \"%1\" font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr "這些是\"%1\"字型的預覽。你可以按\"選擇...\"來預覽其他字型。"
+
 #: kdeui/fonts/kfontchooser.cpp:162
 #, fuzzy
 #| msgid "Here you can choose the font to be used."
@@ -7673,63 +7730,6 @@ msgstr "實際字型"
 msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
-
-#. i18n: A shorter version of the alphabet test phrase translated in
-#. another message. It is displayed in the dropdown list of font previews
-#. (the font selection combo box), so keep it under the length equivalent
-#. to 60 or so proportional Latin characters.
-#: kdeui/fonts/kfontcombobox.cpp:49
-#, fuzzy
-#| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
-msgctxt "short"
-msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
-msgstr "The Quick Brown Fox 跳過那隻懶狗"
-
-#. i18n: Integer which indicates the script you used in the sample text
-#. for font previews in your language. For the possible values, see
-#. http://doc.trolltech.com/qfontdatabase.html#WritingSystem-enum
-#. If the sample text contains several scripts, their IDs can be given
-#. as a comma-separated list (e.g. for Japanese it is "1,27").
-#: kdeui/fonts/kfontcombobox.cpp:120
-#, fuzzy
-#| msgid "%1%"
-msgctxt "Numeric IDs of scripts for font previews"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/fonts/kfontdialog.cpp:75
-msgid "Select Font"
-msgstr "選擇字型"
-
-#: kdeui/fonts/kfontrequester.cpp:110
-msgid "Choose..."
-msgstr "選擇..."
-
-#: kdeui/fonts/kfontrequester.cpp:215
-msgid "Click to select a font"
-msgstr "選擇一個字型"
-
-#: kdeui/fonts/kfontrequester.cpp:222
-msgid "Preview of the selected font"
-msgstr "預覽所選擇的字型"
-
-#: kdeui/fonts/kfontrequester.cpp:223
-msgid ""
-"This is a preview of the selected font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr "這些是選擇字型的預覽。你可以按\"選擇...\"來預覽其他字型。"
-
-#: kdeui/fonts/kfontrequester.cpp:228
-#, kde-format
-msgid "Preview of the \"%1\" font"
-msgstr "預覽 \"%1\" 字型"
-
-#: kdeui/fonts/kfontrequester.cpp:229
-#, kde-format
-msgid ""
-"This is a preview of the \"%1\" font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr "這些是\"%1\"字型的預覽。你可以按\"選擇...\"來預覽其他字型。"
 
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #: nepomuk/utils/searchwidget.cpp:128
