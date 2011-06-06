@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-05 04:46+0200\n"
+"POT-Creation-Date: 2011-06-06 04:40+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: formatdialog.cpp:126
 msgid ""
-"<b>Truevision Targa</b> can store full colour images with an alpha channel, "
+"<b>Truevision Targa</b> can store full color images with an alpha channel, "
 "and is used extensively by animation and video applications.<p>This format "
 "is not recommended, use an open format instead."
 msgstr ""
@@ -111,7 +111,7 @@ msgid ""
 "<b>Tagged Image File Format</b> is a versatile and extensible file format "
 "widely supported by imaging and publishing applications. It supports indexed "
 "and true color images with alpha transparency.<p>Because there are many "
-"variations, there may sometimes be compatibility problems.Unless required "
+"variations, there may sometimes be compatibility problems. Unless required "
 "for use with other applications, use an open format instead."
 msgstr ""
 
@@ -126,7 +126,7 @@ msgstr ""
 #: formatdialog.cpp:159
 msgid ""
 "This is the <b>Silicon Graphics</b> native image file format, supporting 24 "
-"bit true colour images with optional lossless compression.<p>Unless "
+"bit true color images with optional lossless compression.<p>Unless "
 "specifically required, use an open format instead."
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 #| " is not writeable;\n"
 #| "please check the permissions."
 msgid ""
-"<qt>The directory<br><filename>%1</filename><br> is not writeable, please "
+"<qt>The directory<br><filename>%1</filename><br> is not writable, please "
 "check the permissions."
 msgstr ""
 "目錄\n"
@@ -730,7 +730,7 @@ msgid ""
 "configured correctly.<p>If the scanner cannot be auto-detected by SANE (this "
 "includes some network scanners), you need to specify the device to use.  Use "
 "the \"Add Scan Device\" option to enter the backend name and parameters, or "
-"see that dialogue for more information."
+"see that dialog for more information."
 msgstr ""
 
 #: kookaview.cpp:622
@@ -743,51 +743,46 @@ msgstr ""
 msgid "No selection"
 msgstr "字型類型選擇"
 
-#: kookaview.cpp:684
-msgid "folder"
-msgstr ""
-
-#: kookaview.cpp:684
-#, fuzzy
-#| msgid "Image"
-msgid "image"
-msgstr "圖像"
-
-#: kookaview.cpp:683
+#: kookaview.cpp:685
 #, kde-format
-msgid "Gallery %1 %2"
+msgid "Gallery folder %1"
 msgstr ""
 
-#: kookaview.cpp:721
+#: kookaview.cpp:685
+#, kde-format
+msgid "Gallery image %1"
+msgstr ""
+
+#: kookaview.cpp:723
 #, kde-format
 msgid "Print %1"
 msgstr ""
 
-#: kookaview.cpp:744
+#: kookaview.cpp:746
 msgid "Starting OCR on selection"
 msgstr ""
 
-#: kookaview.cpp:752
+#: kookaview.cpp:754
 msgid "Starting OCR on the image"
 msgstr ""
 
-#: kookaview.cpp:769
+#: kookaview.cpp:771
 msgid "OCR finished"
 msgstr ""
 
-#: kookaview.cpp:776
+#: kookaview.cpp:778
 msgid "OCR has not been performed yet, or the engine has been changed."
 msgstr ""
 
-#: kookaview.cpp:777
+#: kookaview.cpp:779
 msgid "OCR Spell Check not possible"
 msgstr ""
 
-#: kookaview.cpp:782
+#: kookaview.cpp:784
 msgid "OCR Spell Check"
 msgstr ""
 
-#: kookaview.cpp:895
+#: kookaview.cpp:897
 #, kde-format
 msgid ""
 "<qt><p>There was a problem during preview or scanning.<br>Check that the "
@@ -796,53 +791,53 @@ msgid ""
 "error: <b>%2</b><br>SANE reported error: <b>%1</b>"
 msgstr ""
 
-#: kookaview.cpp:939
+#: kookaview.cpp:941
 msgid "Create new image from selection"
 msgstr ""
 
-#: kookaview.cpp:964
+#: kookaview.cpp:966
 msgid "Rotate image 90 degrees"
 msgstr ""
 
-#: kookaview.cpp:971
+#: kookaview.cpp:973
 msgid "Rotate image -90 degrees"
 msgstr ""
 
-#: kookaview.cpp:1001
+#: kookaview.cpp:1003
 msgid "Mirroring image vertically"
 msgstr ""
 
-#: kookaview.cpp:1006
+#: kookaview.cpp:1008
 msgid "Mirroring image horizontally"
 msgstr ""
 
-#: kookaview.cpp:1011
+#: kookaview.cpp:1013
 msgid "Mirroring image both directions"
 msgstr ""
 
-#: kookaview.cpp:1054
+#: kookaview.cpp:1056
 #, kde-format
 msgid "Loaded image %1"
 msgstr ""
 
-#: kookaview.cpp:1055
+#: kookaview.cpp:1057
 msgid "Unloaded image"
 msgstr ""
 
-#: kookaview.cpp:1073
+#: kookaview.cpp:1075
 #, kde-format
 msgid "Loading %1"
 msgstr ""
 
-#: kookaview.cpp:1081
+#: kookaview.cpp:1083
 msgid "Updating image"
 msgstr ""
 
-#: kookaview.cpp:1087
+#: kookaview.cpp:1089
 msgid "Cannot update image, it is read only"
 msgstr ""
 
-#: kookaview.cpp:1265
+#: kookaview.cpp:1267
 msgid "Other..."
 msgstr ""
 
@@ -1034,7 +1029,7 @@ msgstr ""
 #: ocrbasedialog.cpp:297
 msgid ""
 "Custom spell settings above do not affect this spelling check, use the "
-"language setting in the dialogue to change the dictionary language."
+"language setting in the dialog to change the dictionary language."
 msgstr ""
 
 #: ocrbasedialog.cpp:317
@@ -1211,10 +1206,10 @@ msgstr "英國、美國"
 msgid "European Countries"
 msgstr "歐洲國家"
 
-#: ocrkadmosdialog.cpp:235
+#: ocrkadmosdialog.cpp:235 ocrkadmosdialog.cpp:312
 msgid ""
 "The classifier files for KADMOS could not be found.\n"
-"OCR with KADMOS will not be possible!\n"
+"OCR with KADMOS will not be possible.\n"
 "\n"
 "Change the OCR engine in the preferences dialog."
 msgstr ""
@@ -1259,14 +1254,6 @@ msgstr ""
 msgid "Enable automatic scaling"
 msgstr ""
 
-#: ocrkadmosdialog.cpp:312
-msgid ""
-"The classifier files for KADMOS could not be found.\n"
-"OCR with KADMOS will not be possible.\n"
-"\n"
-"Change the OCR engine in the preferences dialog."
-msgstr ""
-
 #: ocrkadmosdialog.cpp:404
 #, kde-format
 msgid "Classifier file %1 does not exist"
@@ -1277,28 +1264,38 @@ msgstr ""
 msgid "Classifier file %1 is not readable"
 msgstr ""
 
-#: ocrkadmosengine.cpp:71
-msgid ""
-"<qt><p><b>Kadmos</b> is a commercial OCR/ICR library produced by "
-"reRecognition&nbsp;AG. <p>This version of Kooka is configured to use the "
-"Kadmos engine.This version of Kooka is not configured for Kadmos.  The "
-"Kadmos libraries need to be installed, and Kooka needs to be rebuilt with "
-"the '--with-kadmos' option.<p>See <a href=\"http://www.rerecognition.com"
-"\">www.rerecognition.com</a> for more information on Kadmos."
+#: ocrkadmosengine.cpp:79
+msgid "This version of Kooka is configured to use the Kadmos engine."
 msgstr ""
 
-#: ocrkadmosengine.cpp:98
+#: ocrkadmosengine.cpp:81
+msgid ""
+"This version of Kooka is not configured for Kadmos.  The Kadmos libraries "
+"need to be installed, and Kooka needs to be rebuilt with the '--with-kadmos' "
+"option."
+msgstr ""
+
+#: ocrkadmosengine.cpp:72
+#, kde-format
+msgctxt "%1 is one of the two following messages"
+msgid ""
+"<qt><p><b>Kadmos</b> is a commercial OCR/ICR library produced by "
+"reRecognition&nbsp;AG.</p><p>%1</p><p>See <a href=\"http://www.rerecognition."
+"com\">www.rerecognition.com</a> for more information on Kadmos.</p></qt>"
+msgstr ""
+
+#: ocrkadmosengine.cpp:99
 #, kde-format
 msgid ""
 "The classifier file necessary for OCR cannot be loaded: %1;\n"
 "OCR with the KADMOS engine is not possible."
 msgstr ""
 
-#: ocrkadmosengine.cpp:100
+#: ocrkadmosengine.cpp:101
 msgid "KADMOS Installation Problem"
 msgstr ""
 
-#: ocrkadmosengine.cpp:112
+#: ocrkadmosengine.cpp:113
 #, kde-format
 msgid ""
 "The KADMOS OCR system could not be started:\n"
@@ -1306,7 +1303,7 @@ msgid ""
 "Please check the configuration."
 msgstr ""
 
-#: ocrkadmosengine.cpp:116
+#: ocrkadmosengine.cpp:117
 msgid "KADMOS Failure"
 msgstr ""
 
@@ -1491,11 +1488,11 @@ msgid ""
 msgstr ""
 
 #: prefspages.cpp:129
-msgid "Show the scanner selection dialogue"
+msgid "Show the scanner selection dialog"
 msgstr ""
 
 #: prefspages.cpp:130
-msgid "Check this to show the scanner selection dialogue on startup."
+msgid "Check this to show the scanner selection dialog on startup."
 msgstr ""
 
 #: prefspages.cpp:135
@@ -1597,11 +1594,20 @@ msgid "Unknown engine %1."
 msgstr "未知圖像類型"
 
 #: prefspages.cpp:459
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The directory\n"
+#| "%1\n"
+#| " is not writeable;\n"
+#| "please check the permissions."
 msgid ""
 "<qt>The path <filename>%1</filename> is not a valid binary.\n"
-"Please check the path and and install the program if necessary."
+"Please check the path and install the program if necessary."
 msgstr ""
+"目錄\n"
+"%1\n"
+"無法寫入；\n"
+"請檢查權限。"
 
 #: prefspages.cpp:462
 msgid "OCR Engine Not Found"
@@ -1788,14 +1794,14 @@ msgstr ""
 #, kde-format
 msgid ""
 "<qt>Do you really want to permanently delete the folder<br><filename>%1</"
-"filename><br>and all of its contents? It cannot be restored!"
+"filename><br>and all of its contents? It cannot be restored."
 msgstr ""
 
 #: scangallery.cpp:1099
 #, kde-format
 msgid ""
 "<qt>Do you really want to permanently delete the image<br><filename>%1</"
-"filename>?<br>It cannot be restored!"
+"filename>?<br>It cannot be restored."
 msgstr ""
 
 #: scangallery.cpp:1106
@@ -1917,6 +1923,11 @@ msgstr ""
 #: thumbview.cpp:414
 msgid "Tiny"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "image"
+#~ msgstr "圖像"
 
 #~ msgid "Select the image sub-format"
 #~ msgstr "選擇圖像子格式"
