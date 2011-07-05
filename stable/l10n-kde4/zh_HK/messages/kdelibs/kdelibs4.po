@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-21 04:32+0200\n"
+"POT-Creation-Date: 2011-07-05 05:12+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3428,64 +3428,38 @@ msgstr ""
 "等) 和管理者 (包括 shyue, kenduest lee, seventeen, jouston, acelan 等人)，沒"
 "有他們以往的辛勞工作，就沒有現在的繁體中文翻譯。</p></blockquote>"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
 #, kde-format
 msgid ""
-"Could not launch the mail client:\n"
-"\n"
-"%1"
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
 msgstr ""
-"無法執行電子郵件客戶程式：\n"
-"\n"
-"%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
-msgid "Could not launch Mail Client"
-msgstr "無法執行電子郵件客戶程式。"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:349
-#: kdecore/kernel/ktoolinvocation_x11.cpp:369
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"無法執行網頁瀏覽器：\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:350
-#: kdecore/kernel/ktoolinvocation_x11.cpp:370
-#, fuzzy
-#| msgid "Could not Launch Browser"
-msgid "Could not launch Browser"
-msgstr "無法執行網頁瀏覽器"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:409
+#: kdecore/kernel/ktoolinvocation.cpp:123
 #, fuzzy, kde-format
-#| msgid ""
-#| "Could not launch the mail client:\n"
-#| "\n"
-#| "%1"
 msgid ""
-"Could not launch the terminal client:\n"
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr "無法透過 DCOP 呼叫 KLauncher。\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
 "\n"
 "%1"
 msgstr ""
-"無法執行電子郵件客戶程式：\n"
+"無法執行輔助中心：\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:410
-#, fuzzy
-#| msgid "Could not Launch Mail Client"
-msgid "Could not launch Terminal Client"
-msgstr "無法執行電子郵件客戶程式。"
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "無法執行輔助中心"
 
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
@@ -3649,7 +3623,7 @@ msgstr "應用程式："
 msgid "Qt"
 msgstr "離開"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4812
+#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4811
 msgid "KDE"
 msgstr "KDE"
 
@@ -3789,230 +3763,212 @@ msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
+"Could not launch the mail client:\n"
+"\n"
+"%1"
 msgstr ""
+"無法執行電子郵件客戶程式：\n"
+"\n"
+"%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:123
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+#, fuzzy
+#| msgid "Could not Launch Mail Client"
+msgid "Could not launch Mail Client"
+msgstr "無法執行電子郵件客戶程式。"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:379
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"無法執行網頁瀏覽器：\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:380
+#, fuzzy
+#| msgid "Could not Launch Browser"
+msgid "Could not launch Browser"
+msgstr "無法執行網頁瀏覽器"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:419
 #, fuzzy, kde-format
+#| msgid ""
+#| "Could not launch the mail client:\n"
+#| "\n"
+#| "%1"
 msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr "無法透過 DCOP 呼叫 KLauncher。\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
+"Could not launch the terminal client:\n"
 "\n"
 "%1"
 msgstr ""
-"無法執行輔助中心：\n"
+"無法執行電子郵件客戶程式：\n"
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "無法執行輔助中心"
-
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/kernel/ktoolinvocation_x11.cpp:420
 #, fuzzy
-#| msgid "Western European"
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "西歐語系"
+#| msgid "Could not Launch Mail Client"
+msgid "Could not launch Terminal Client"
+msgstr "無法執行電子郵件客戶程式。"
 
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:285
-#, fuzzy
-#| msgid "Central European"
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "中歐語系"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:282
-#, fuzzy
-#| msgid "Baltic"
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "波羅的海語系"
-
-#: kdecore/localization/kcharsets.cpp:167
-#, fuzzy
-#| msgid "South-Eastern Europe"
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "西歐語系"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:300
-#, fuzzy
-#| msgid "Turkish"
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "土耳其文"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:288
-#, fuzzy
-#| msgid "Cyrillic"
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "斯拉夫文"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingdetector.cpp:1235
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:306
-#, fuzzy
-#| msgid "Chinese Traditional"
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "繁體中文"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingdetector.cpp:1238
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:309
-#, fuzzy
-#| msgid "Chinese Simplified"
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "簡體中文"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingdetector.cpp:1241
-#: kdecore/localization/kencodingprober.cpp:312
-#, fuzzy
-#| msgid "Korean"
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "韓文"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:297
-#, fuzzy
-#| msgid "Japanese"
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "日文"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:291
-#, fuzzy
-#| msgid "Greek"
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "希臘文"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-#: kdecore/localization/kencodingprober.cpp:262
-#: kdecore/localization/kencodingprober.cpp:279
-#, fuzzy
-#| msgid "Arabic"
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "阿拉伯文"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:294
-#, fuzzy
-#| msgid "Hebrew"
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "希伯來文"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingdetector.cpp:1244
-#: kdecore/localization/kencodingprober.cpp:315
-#, fuzzy
-#| msgid "Thai"
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "泰文"
-
-#: kdecore/localization/kcharsets.cpp:206
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 #: kdecore/localization/kencodingprober.cpp:240
 #: kdecore/localization/kencodingprober.cpp:318
+#: kdecore/localization/kcharsets.cpp:206
 #, fuzzy
 #| msgid "Unicode"
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "Unicode"
 
-#: kdecore/localization/kcharsets.cpp:212
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
+#: kdecore/localization/kcharsets.cpp:173
 #, fuzzy
-#| msgid "Northern Saami"
+#| msgid "Cyrillic"
 msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "北部沙米文"
+msgid "Cyrillic"
+msgstr "斯拉夫文"
 
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:619
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/localization/kcharsets.cpp:155
 #, fuzzy
-#| msgid "Other"
+#| msgid "Western European"
 msgctxt "@item Text character set"
-msgid "Other"
-msgstr "其他"
+msgid "Western European"
+msgstr "西歐語系"
 
-#: kdecore/localization/kcharsets.cpp:629
-#, fuzzy, kde-format
-#| msgctxt "Descriptive Encoding Name"
-#| msgid "%1 ( %2 )"
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
+#: kdecore/localization/kcharsets.cpp:161
+#, fuzzy
+#| msgid "Central European"
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "中歐語系"
 
-#: kdecore/localization/kcharsets.cpp:632
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "設定編碼(&E)..."
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
+#: kdecore/localization/kcharsets.cpp:192
+#, fuzzy
+#| msgid "Greek"
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "希臘文"
 
-#: kdecore/localization/kcharsets.cpp:658
-#, fuzzy, kde-format
-#| msgctxt "Descriptive Encoding Name"
-#| msgid "%1 ( %2 )"
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
+#: kdecore/localization/kcharsets.cpp:198
+#, fuzzy
+#| msgid "Hebrew"
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "希伯來文"
+
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
+#: kdecore/localization/kcharsets.cpp:170
+#, fuzzy
+#| msgid "Turkish"
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "土耳其文"
+
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
+#: kdecore/localization/kcharsets.cpp:188
+#, fuzzy
+#| msgid "Japanese"
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "日文"
+
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
+#: kdecore/localization/kcharsets.cpp:164
+#, fuzzy
+#| msgid "Baltic"
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "波羅的海語系"
+
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
+#: kdecore/localization/kcharsets.cpp:195
+#, fuzzy
+#| msgid "Arabic"
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "阿拉伯文"
+
+#: kdecore/localization/kencodingdetector.cpp:1235
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
+#: kdecore/localization/kcharsets.cpp:179
+#, fuzzy
+#| msgid "Chinese Traditional"
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "繁體中文"
+
+#: kdecore/localization/kencodingdetector.cpp:1238
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
+#: kdecore/localization/kcharsets.cpp:182
+#, fuzzy
+#| msgid "Chinese Simplified"
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "簡體中文"
+
+#: kdecore/localization/kencodingdetector.cpp:1241
+#: kdecore/localization/kencodingprober.cpp:312
+#: kdecore/localization/kcharsets.cpp:186
+#, fuzzy
+#| msgid "Korean"
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "韓文"
+
+#: kdecore/localization/kencodingdetector.cpp:1244
+#: kdecore/localization/kencodingprober.cpp:315
+#: kdecore/localization/kcharsets.cpp:203
+#, fuzzy
+#| msgid "Thai"
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "泰文"
 
 #: kdecore/localization/kencodingprober.cpp:236
 #: kdecore/localization/kencodingprober.cpp:273
@@ -4716,6 +4672,50 @@ msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
 
+#: kdecore/localization/kcharsets.cpp:167
+#, fuzzy
+#| msgid "South-Eastern Europe"
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "西歐語系"
+
+#: kdecore/localization/kcharsets.cpp:212
+#, fuzzy
+#| msgid "Northern Saami"
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "北部沙米文"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:619
+#, fuzzy
+#| msgid "Other"
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "其他"
+
+#: kdecore/localization/kcharsets.cpp:629
+#, fuzzy, kde-format
+#| msgctxt "Descriptive Encoding Name"
+#| msgid "%1 ( %2 )"
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:632
+#, fuzzy, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "設定編碼(&E)..."
+
+#: kdecore/localization/kcharsets.cpp:658
+#, fuzzy, kde-format
+#| msgctxt "Descriptive Encoding Name"
+#| msgid "%1 ( %2 )"
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
 #: kdecore/localization/klocale_kde.cpp:1093
 #, fuzzy
 #| msgid "Arabic"
@@ -5412,6 +5412,14 @@ msgstr "不支援 ai_socktype"
 msgid "system error"
 msgstr "系統錯誤"
 
+#: kdecore/network/k3socks.cpp:137
+msgid "NEC SOCKS client"
+msgstr "NEC SOCKS 客戶端"
+
+#: kdecore/network/k3socks.cpp:172
+msgid "Dante SOCKS client"
+msgstr "Dante SOCKS 客戶端"
+
 #: kdecore/network/ktcpsocket.cpp:152
 #, fuzzy
 #| msgid "no error"
@@ -5493,14 +5501,6 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "不明的錯誤"
-
-#: kdecore/network/k3socks.cpp:137
-msgid "NEC SOCKS client"
-msgstr "NEC SOCKS 客戶端"
-
-#: kdecore/network/k3socks.cpp:172
-msgid "Dante SOCKS client"
-msgstr "Dante SOCKS 客戶端"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, fuzzy, kde-format
@@ -8564,6 +8564,12 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "關於 KDE(&K)"
 
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "資源設定"
+
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 #, fuzzy
@@ -8603,12 +8609,6 @@ msgstr "拼字檢查程式"
 #| msgid "Spell Checker"
 msgid "Spell check complete."
 msgstr "拼字檢查程式"
-
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "資源設定"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10635,85 +10635,6 @@ msgstr "不可信的"
 msgid "without name"
 msgstr "新的主機名稱"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-#, fuzzy
-#| msgid "%1%"
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/widgets/klineedit.cpp:295
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "清除快速鍵"
-
-#: kdeui/widgets/klineedit.cpp:1212
-#, fuzzy
-#| msgid "Text Completion"
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "文字完成"
-
-#: kdeui/widgets/klineedit.cpp:1219
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "無"
-
-#: kdeui/widgets/klineedit.cpp:1220
-#, fuzzy
-#| msgid "Manual"
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "手動"
-
-#: kdeui/widgets/klineedit.cpp:1221
-#, fuzzy
-#| msgid "Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "自動"
-
-#: kdeui/widgets/klineedit.cpp:1222
-#, fuzzy
-#| msgid "Dropdown List"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "下拉清單"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-#| msgid "Short Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-#| msgid "Dropdown List && Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "下拉清單 && 短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1255
-#, fuzzy
-#| msgid "Default"
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "預設"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "圖像操作"
@@ -10961,6 +10882,40 @@ msgstr "語文(&I)"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
 
+#: kdeui/widgets/ktimecombobox.cpp:259
+msgctxt "@info"
+msgid "The time you entered is invalid"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:269
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+#, fuzzy
+#| msgid "%1%"
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
+
 #: kdeui/widgets/ktextedit.cpp:526
 #, fuzzy
 #| msgid "Please enter &name:"
@@ -11009,6 +10964,68 @@ msgstr "區域"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "備註"
+
+#: kdeui/widgets/klineedit.cpp:295
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "清除快速鍵"
+
+#: kdeui/widgets/klineedit.cpp:1212
+#, fuzzy
+#| msgid "Text Completion"
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "文字完成"
+
+#: kdeui/widgets/klineedit.cpp:1219
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "無"
+
+#: kdeui/widgets/klineedit.cpp:1220
+#, fuzzy
+#| msgid "Manual"
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "手動"
+
+#: kdeui/widgets/klineedit.cpp:1221
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "自動"
+
+#: kdeui/widgets/klineedit.cpp:1222
+#, fuzzy
+#| msgid "Dropdown List"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "下拉清單"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+#| msgid "Short Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+#| msgid "Dropdown List && Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "下拉清單 && 短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1255
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "預設"
 
 #: kdeui/widgets/ktoolbar.cpp:291
 #, fuzzy
@@ -11225,26 +11242,9 @@ msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:259
-msgctxt "@info"
-msgid "The time you entered is invalid"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:262
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be earlier than %1"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:269
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be later than %1"
-msgstr ""
-
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:597
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:856
 #, kde-format
 msgid "Desktop %1"
@@ -11581,7 +11581,7 @@ msgid "Print header"
 msgstr "列印標頭"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3708 khtml/khtml_part.cpp:3937
-#: khtml/khtml_part.cpp:4359 kparts/browserrun.cpp:426
+#: khtml/khtml_part.cpp:4358 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "另存新檔"
 
@@ -11637,127 +11637,6 @@ msgstr "Test"
 
 #: khtml/testkhtml.cpp:42
 msgid "a basic web browser using the KHTML library"
-msgstr ""
-
-#: khtml/khtml_settings.cpp:235
-msgid "Accept"
-msgstr "接受"
-
-#: khtml/khtml_settings.cpp:236
-msgid "Reject"
-msgstr "拒絕"
-
-#: khtml/khtml_settings.cpp:916
-msgid "Filter error"
-msgstr "過濾器錯誤"
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "存取鍵已啟動"
-
-#: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4759
-#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
-msgid "Submit"
-msgstr "提交"
-
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr ""
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr ""
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr ""
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-#, fuzzy
-#| msgid "Regular e&xpression"
-msgid "TestRegression"
-msgstr "正規表示式(&X)"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:76
-#, fuzzy
-msgid "Available Tests: 0"
-msgstr "可用的地址："
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "繼續"
-
-#: khtml/test_regression_gui_window.cpp:632
-#, fuzzy
-msgid "Cannot find testregression executable."
-msgstr "找不到可執行檔‘%1’。"
-
-#: khtml/test_regression_gui_window.cpp:1102
-#, fuzzy
-msgid "Run test..."
-msgstr "重新命名清單..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-#, fuzzy
-msgid "Add to ignores..."
-msgstr "跳至行數(&G)..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
 msgstr ""
 
 #: khtml/khtml_part.cpp:251
@@ -12098,7 +11977,7 @@ msgstr "在框架中尋找(&F)..."
 msgid "&Find..."
 msgstr "尋找(&F)..."
 
-#: khtml/khtml_part.cpp:4700
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -12109,16 +11988,16 @@ msgstr ""
 "能可以截獲並檢視這些資料。\n"
 "你確定要繼續嗎？"
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4712
-#: khtml/khtml_part.cpp:4736
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4711
+#: khtml/khtml_part.cpp:4735
 msgid "Network Transmission"
 msgstr "網絡傳輸"
 
-#: khtml/khtml_part.cpp:4703 khtml/khtml_part.cpp:4713
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4712
 msgid "&Send Unencrypted"
 msgstr "傳送未加密資料(&S)"
 
-#: khtml/khtml_part.cpp:4710
+#: khtml/khtml_part.cpp:4709
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -12127,7 +12006,7 @@ msgstr ""
 "警告：你的資料將未經加密就在網絡上傳輸。\n"
 "你確定要繼續嗎？"
 
-#: khtml/khtml_part.cpp:4734
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -12135,11 +12014,11 @@ msgstr ""
 "此網站正試圖使用 e-mail 的方式送回資料。\n"
 "你允許此行為嗎？"
 
-#: khtml/khtml_part.cpp:4737
+#: khtml/khtml_part.cpp:4736
 msgid "&Send Email"
 msgstr "傳送 &Email"
 
-#: khtml/khtml_part.cpp:4758
+#: khtml/khtml_part.cpp:4757
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
@@ -12151,7 +12030,12 @@ msgstr ""
 "<qt>這個表格將會提交到你的本地檔案系統上的<BR><B>%1</B><BR><BR>你真的要提交表"
 "格嗎？"
 
-#: khtml/khtml_part.cpp:4812
+#: khtml/khtml_part.cpp:4758 khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
+msgid "Submit"
+msgstr "提交"
+
+#: khtml/khtml_part.cpp:4811
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -12159,56 +12043,56 @@ msgstr ""
 "這個網站的表格提交時試圖在你的電腦附加一個檔案。為了保護你，這個附件已經被移"
 "除。"
 
-#: khtml/khtml_part.cpp:5883
+#: khtml/khtml_part.cpp:5882
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6795
+#: khtml/khtml_part.cpp:6794
 msgid "Security Warning"
 msgstr "安全警告"
 
-#: khtml/khtml_part.cpp:6804
+#: khtml/khtml_part.cpp:6803
 #, fuzzy, kde-format
 #| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>此不可信賴的網頁對<BR><B>%1</B>的存取<BR>已被禁止了。"
 
-#: khtml/khtml_part.cpp:6805 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6804 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "安全警報"
 
-#: khtml/khtml_part.cpp:7153
+#: khtml/khtml_part.cpp:7152
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "保險箱(Wallet) '%1' 已被開啟，並且正被表格資料和密碼使用。"
 
-#: khtml/khtml_part.cpp:7213
+#: khtml/khtml_part.cpp:7212
 msgid "&Close Wallet"
 msgstr "關閉保險箱(Wallet)(&C)"
 
-#: khtml/khtml_part.cpp:7216
+#: khtml/khtml_part.cpp:7215
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7221
+#: khtml/khtml_part.cpp:7220
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7326
+#: khtml/khtml_part.cpp:7325
 msgid "JavaScript &Debugger"
 msgstr "JavaScript 除錯器(&D)"
 
-#: khtml/khtml_part.cpp:7358
+#: khtml/khtml_part.cpp:7357
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "已禁止此網站使用 Javascript 開啟一個新的瀏覽器視窗。"
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid "Popup Window Blocked"
 msgstr "彈出式視窗已擋下"
 
-#: khtml/khtml_part.cpp:7364
+#: khtml/khtml_part.cpp:7363
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -12217,7 +12101,7 @@ msgstr ""
 "這個網頁試圖開啟一個彈出式視窗，但已被擋下。\n"
 "你可以在這個圖示按一下，來控制本項功能或者開啟被擋的視窗。"
 
-#: khtml/khtml_part.cpp:7377
+#: khtml/khtml_part.cpp:7376
 #, fuzzy, kde-format
 #| msgid "&Show Blocked Popup Window"
 #| msgid_plural "Show %1 Blocked Popup Windows"
@@ -12225,13 +12109,129 @@ msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "顯示 %1 個被擋的彈出式視窗"
 
-#: khtml/khtml_part.cpp:7378
+#: khtml/khtml_part.cpp:7377
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "顯示已擋下視窗的提示(&N)"
 
-#: khtml/khtml_part.cpp:7380
+#: khtml/khtml_part.cpp:7379
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "設定 &JavaScript 新視窗規則..."
+
+#: khtml/khtml_settings.cpp:235
+msgid "Accept"
+msgstr "接受"
+
+#: khtml/khtml_settings.cpp:236
+msgid "Reject"
+msgstr "拒絕"
+
+#: khtml/khtml_settings.cpp:916
+msgid "Filter error"
+msgstr "過濾器錯誤"
+
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "存取鍵已啟動"
+
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr ""
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr ""
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr ""
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+#, fuzzy
+#| msgid "Regular e&xpression"
+msgid "TestRegression"
+msgstr "正規表示式(&X)"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:76
+#, fuzzy
+msgid "Available Tests: 0"
+msgstr "可用的地址："
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "繼續"
+
+#: khtml/test_regression_gui_window.cpp:632
+#, fuzzy
+msgid "Cannot find testregression executable."
+msgstr "找不到可執行檔‘%1’。"
+
+#: khtml/test_regression_gui_window.cpp:1102
+#, fuzzy
+msgid "Run test..."
+msgstr "重新命名清單..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+#, fuzzy
+msgid "Add to ignores..."
+msgstr "跳至行數(&G)..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr ""
 
 #: khtml/ecma/kjs_binding.cpp:185
 #, fuzzy
@@ -12257,11 +12257,11 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "語文(&I)"
 
-#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
 
-#: khtml/ecma/kjs_html.cpp:2163
+#: khtml/ecma/kjs_html.cpp:2164
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -12270,7 +12270,7 @@ msgstr ""
 "這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
 "你要允許表格被提交嗎？"
 
-#: khtml/ecma/kjs_html.cpp:2166
+#: khtml/ecma/kjs_html.cpp:2167
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -12280,11 +12280,11 @@ msgstr ""
 "<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>%"
 "1</p>你要批准提交表格嗎？</qt>"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Allow"
 msgstr "允許"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
 msgid "Do Not Allow"
 msgstr "不允許"
 
@@ -12313,29 +12313,29 @@ msgstr "關閉視窗？"
 msgid "Confirmation Required"
 msgstr "需要確認"
 
-#: khtml/ecma/kjs_window.cpp:2868
+#: khtml/ecma/kjs_window.cpp:2875
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "你要把 \"%1\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2871
+#: khtml/ecma/kjs_window.cpp:2878
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "你要把 \"%1\"，標題 \"%2\" 的位罝加入書籤嗎？"
 
-#: khtml/ecma/kjs_window.cpp:2879
+#: khtml/ecma/kjs_window.cpp:2886
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "javaScript 嘗試加入書籤"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Insert"
 msgstr "插入"
 
-#: khtml/ecma/kjs_window.cpp:2883
+#: khtml/ecma/kjs_window.cpp:2890
 msgid "Disallow"
 msgstr "不允許"
 
@@ -14413,6 +14413,19 @@ msgstr "組態設定"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
+#: nepomuk/query/query.cpp:696
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:702
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
+
 #: nepomuk/query/queryparser.cpp:461
 #, fuzzy
 #| msgid "Esfand"
@@ -14434,19 +14447,6 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "Mor"
-
-#: nepomuk/query/query.cpp:696
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:702
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"

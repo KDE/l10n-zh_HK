@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-17 04:17+0200\n"
+"POT-Creation-Date: 2011-07-05 05:16+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -246,6 +246,10 @@ msgstr "選取聲道"
 msgid "Mixer"
 msgstr "混音器"
 
+#: core/mixdevice.cpp:112 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
+msgid "unknown"
+msgstr "不詳"
+
 #: core/mixertoolbox.cpp:204
 msgid "Sound drivers supported:"
 msgstr "支援的音效驅動程式:"
@@ -253,10 +257,6 @@ msgstr "支援的音效驅動程式:"
 #: core/mixertoolbox.cpp:205
 msgid "Sound drivers used:"
 msgstr "已使用的音效驅動程式:"
-
-#: core/mixdevice.cpp:112 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
-msgid "unknown"
-msgstr "不詳"
 
 #: apps/main.cpp:33
 msgid "KMix - KDE's full featured mini mixer"
@@ -690,6 +690,27 @@ msgstr ""
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr "kmix: 不詳的錯誤。請匯報你如何做成這個錯誤。"
 
+#: backends/mixer_oss4.cpp:495
+#, fuzzy
+#| msgid ""
+#| "kmix: Mixer cannot be found.\n"
+#| "Please check that the soundcard is installed and the\n"
+#| "soundcard driver is loaded.\n"
+#| "On Linux you might need to use 'insmod' to load the driver.\n"
+#| "Use 'soundon' when using commercial OSS."
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"kmix: 無法找到混音器。\n"
+"請確定音效卡已經安裝及音效卡的\n"
+"驅動程式亦已載入。\n"
+"在 Linux 系統下可能需要執行『insmod』以載入驅動程式。\n"
+"當使用商業版的 OSS 時，執行『soundon』。"
+
 #: backends/mixer_pulse.cpp:318 backends/mixer_pulse.cpp:377
 msgid "Unknown Application"
 msgstr ""
@@ -713,27 +734,6 @@ msgstr ""
 #: backends/mixer_pulse.cpp:985
 msgid "Capture Streams"
 msgstr ""
-
-#: backends/mixer_oss4.cpp:495
-#, fuzzy
-#| msgid ""
-#| "kmix: Mixer cannot be found.\n"
-#| "Please check that the soundcard is installed and the\n"
-#| "soundcard driver is loaded.\n"
-#| "On Linux you might need to use 'insmod' to load the driver.\n"
-#| "Use 'soundon' when using commercial OSS."
-msgid ""
-"kmix: Mixer cannot be found.\n"
-"Please check that the soundcard is installed and the\n"
-"soundcard driver is loaded.\n"
-"On Linux you might need to use 'insmod' to load the driver.\n"
-"Use 'soundon' when using OSS4 from 4front."
-msgstr ""
-"kmix: 無法找到混音器。\n"
-"請確定音效卡已經安裝及音效卡的\n"
-"驅動程式亦已載入。\n"
-"在 Linux 系統下可能需要執行『insmod』以載入驅動程式。\n"
-"當使用商業版的 OSS 時，執行『soundon』。"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
