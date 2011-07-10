@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-09 14:32+0200\n"
+"POT-Creation-Date: 2011-07-10 14:27+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -10418,6 +10418,85 @@ msgstr ""
 msgid "You are not allowed to save the configuration"
 msgstr "無法建立新的設定檔。"
 
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+#, fuzzy
+#| msgid "%1%"
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
+
+#: kdeui/widgets/klineedit.cpp:295
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "清除快速鍵"
+
+#: kdeui/widgets/klineedit.cpp:1212
+#, fuzzy
+#| msgid "Text Completion"
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "文字完成"
+
+#: kdeui/widgets/klineedit.cpp:1219
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "無"
+
+#: kdeui/widgets/klineedit.cpp:1220
+#, fuzzy
+#| msgid "Manual"
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "手動"
+
+#: kdeui/widgets/klineedit.cpp:1221
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "自動"
+
+#: kdeui/widgets/klineedit.cpp:1222
+#, fuzzy
+#| msgid "Dropdown List"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "下拉清單"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+#| msgid "Short Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+#| msgid "Dropdown List && Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "下拉清單 && 短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1255
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "預設"
+
 #: kdeui/widgets/kdatepicker.cpp:174
 #, kde-format
 msgid "Week %1"
@@ -10899,23 +10978,6 @@ msgctxt "@info"
 msgid "Time cannot be later than %1"
 msgstr ""
 
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
-#, fuzzy
-#| msgid "%1%"
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "%1%"
-
 #: kdeui/widgets/ktextedit.cpp:526
 #, fuzzy
 #| msgid "Please enter &name:"
@@ -10964,68 +11026,6 @@ msgstr "區域"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "備註"
-
-#: kdeui/widgets/klineedit.cpp:295
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "清除快速鍵"
-
-#: kdeui/widgets/klineedit.cpp:1212
-#, fuzzy
-#| msgid "Text Completion"
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "文字完成"
-
-#: kdeui/widgets/klineedit.cpp:1219
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "無"
-
-#: kdeui/widgets/klineedit.cpp:1220
-#, fuzzy
-#| msgid "Manual"
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "手動"
-
-#: kdeui/widgets/klineedit.cpp:1221
-#, fuzzy
-#| msgid "Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "自動"
-
-#: kdeui/widgets/klineedit.cpp:1222
-#, fuzzy
-#| msgid "Dropdown List"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "下拉清單"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-#| msgid "Short Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-#| msgid "Dropdown List && Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "下拉清單 && 短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1255
-#, fuzzy
-#| msgid "Default"
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "預設"
 
 #: kdeui/widgets/ktoolbar.cpp:291
 #, fuzzy
