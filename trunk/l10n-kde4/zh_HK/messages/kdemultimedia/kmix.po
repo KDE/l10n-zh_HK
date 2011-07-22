@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-13 04:17+0200\n"
+"POT-Creation-Date: 2011-07-22 04:18+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "&Channels"
 msgstr "聲道(&C)"
 
-#: gui/viewbase.cpp:178
+#: gui/viewbase.cpp:186
 msgid "Device Settings"
 msgstr "裝置設置"
 
@@ -43,71 +43,75 @@ msgstr "選取代表主音量的聲道:"
 msgid "No sound card is installed or currently plugged in."
 msgstr ""
 
-#: gui/mdwslider.cpp:87
+#: gui/mdwslider.cpp:90
 msgid "&Split Channels"
 msgstr "分開聲道(&S)"
 
-#: gui/mdwslider.cpp:93 gui/mdwenum.cpp:60
+#: gui/mdwslider.cpp:96 gui/mdwenum.cpp:60
 msgid "&Hide"
 msgstr "隱藏(&H)"
 
-#: gui/mdwslider.cpp:99
+#: gui/mdwslider.cpp:102
 msgid "&Muted"
 msgstr "已靜音(&M)"
 
-#: gui/mdwslider.cpp:105
+#: gui/mdwslider.cpp:108
 msgid "Set &Record Source"
 msgstr "設定錄音音源(&R)"
 
-#: gui/mdwslider.cpp:110
+#: gui/mdwslider.cpp:113
 #, fuzzy
 #| msgid "M&ute"
 msgid "Mo&ve"
 msgstr "靜音(&U)"
 
-#: gui/mdwslider.cpp:115 gui/mdwenum.cpp:63
+#: gui/mdwslider.cpp:118 gui/mdwenum.cpp:63
 msgid "C&onfigure Shortcuts..."
 msgstr "設定捷徑(&O)..."
 
-#: gui/mdwslider.cpp:130 apps/kmix.cpp:176
+#: gui/mdwslider.cpp:133 apps/kmix.cpp:176
 #, fuzzy
 msgid "Increase Volume"
 msgstr "增加『%1』的音量"
 
-#: gui/mdwslider.cpp:144 apps/kmix.cpp:181
+#: gui/mdwslider.cpp:147 apps/kmix.cpp:181
 #, fuzzy
 msgid "Decrease Volume"
 msgstr "降低『%1』的音量"
 
-#: gui/mdwslider.cpp:158
+#: gui/mdwslider.cpp:161
 #, fuzzy
 msgid "Toggle Mute"
 msgstr "切換『%1』的靜音狀態"
 
-#: gui/mdwslider.cpp:341 gui/mdwslider.cpp:394 gui/mdwslider.cpp:493
+#: gui/mdwslider.cpp:348 gui/mdwslider.cpp:399
 msgid "capture"
 msgstr ""
 
-#: gui/mdwslider.cpp:345 gui/mdwslider.cpp:399
+#: gui/mdwslider.cpp:352 gui/mdwslider.cpp:404
 #, kde-format
 msgid "Capture/Uncapture %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:367 gui/mdwslider.cpp:452
+#: gui/mdwslider.cpp:374 gui/mdwslider.cpp:459
 #, kde-format
 msgid "Mute/Unmute %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:547
+#: gui/mdwslider.cpp:577 gui/mdwslider.cpp:583
+msgid "Capture"
+msgstr ""
+
+#: gui/mdwslider.cpp:630
 #, kde-format
 msgid "%1 (capture)"
 msgstr ""
 
-#: gui/mdwslider.cpp:1078
+#: gui/mdwslider.cpp:1156
 msgid "Automatic According to Category"
 msgstr ""
 
-#: gui/kmixerwidget.cpp:75
+#: gui/kmixerwidget.cpp:72
 msgid "Invalid mixer"
 msgstr "無效的混音器"
 
@@ -203,24 +207,30 @@ msgstr "水平(&H)"
 msgid "&Vertical"
 msgstr "垂直(&V)"
 
-#: gui/kmixdockwidget.cpp:120
+#: gui/kmixdockwidget.cpp:67
+#, fuzzy
+#| msgid "Volume"
+msgid "Volume Control"
+msgstr "音量"
+
+#: gui/kmixdockwidget.cpp:133
 msgid "M&ute"
 msgstr "靜音(&U)"
 
-#: gui/kmixdockwidget.cpp:128 apps/kmix.cpp:164
+#: gui/kmixdockwidget.cpp:141 apps/kmix.cpp:164
 msgid "Select Master Channel..."
 msgstr "選取主聲道..."
 
-#: gui/kmixdockwidget.cpp:206
+#: gui/kmixdockwidget.cpp:219
 msgid "Mixer cannot be found"
 msgstr "找不到混音器"
 
-#: gui/kmixdockwidget.cpp:226
+#: gui/kmixdockwidget.cpp:239
 #, kde-format
 msgid "Volume at %1%"
 msgstr "在 %1% 的音量"
 
-#: gui/kmixdockwidget.cpp:228
+#: gui/kmixdockwidget.cpp:241
 msgid " (Muted)"
 msgstr "（已靜音）"
 
@@ -242,19 +252,19 @@ msgstr "可用的混音器:"
 msgid "Visible channels"
 msgstr "選取聲道"
 
-#: gui/viewdockareapopup.cpp:131
+#: gui/viewdockareapopup.cpp:147
 msgid "Mixer"
 msgstr "混音器"
 
-#: core/mixertoolbox.cpp:204
+#: core/mixertoolbox.cpp:222
 msgid "Sound drivers supported:"
 msgstr "支援的音效驅動程式:"
 
-#: core/mixertoolbox.cpp:205
+#: core/mixertoolbox.cpp:223
 msgid "Sound drivers used:"
 msgstr "已使用的音效驅動程式:"
 
-#: core/mixdevice.cpp:112 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
+#: core/mixdevice.cpp:122 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
 msgid "unknown"
 msgstr "不詳"
 
@@ -396,34 +406,34 @@ msgstr "聲道(&C)"
 msgid "Mute"
 msgstr "靜音"
 
-#: apps/kmix.cpp:678
+#: apps/kmix.cpp:676
 msgid "Cannot add view - GUIProfile is invalid."
 msgstr ""
 
-#: apps/kmix.cpp:684
+#: apps/kmix.cpp:682
 msgid "View already exists. Cannot add View."
 msgstr ""
 
-#: apps/kmix.cpp:820 apps/kmixd.cpp:310
+#: apps/kmix.cpp:818 apps/kmixd.cpp:311
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
 
-#: apps/kmix.cpp:830 apps/kmixd.cpp:320
+#: apps/kmix.cpp:828 apps/kmixd.cpp:321
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: apps/kmix.cpp:1101
+#: apps/kmix.cpp:1099
 msgid "Mixer Hardware Information"
 msgstr "混音器軟件資訊"
 
-#: apps/kmix.cpp:1115
+#: apps/kmix.cpp:1113
 msgid "The helper application is either not installed or not working."
 msgstr ""
 
-#: apps/kmix.cpp:1130
+#: apps/kmix.cpp:1128
 msgid "Error"
 msgstr ""
 
@@ -559,7 +569,7 @@ msgstr "3D-center"
 msgid "unused"
 msgstr "未使用"
 
-#: backends/mixer_oss.cpp:230 backends/mixer_oss4.cpp:491
+#: backends/mixer_oss.cpp:230 backends/mixer_oss4.cpp:494
 msgid ""
 "kmix: You do not have permission to access the mixer device.\n"
 "Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
@@ -613,7 +623,7 @@ msgstr ""
 "kmix: 你沒有足夠權限存取混音器裝置。\n"
 "請向系統管理員要求修正以存取這個裝置 /dev/audioctl 。"
 
-#: backends/mixer_alsa9.cpp:875
+#: backends/mixer_alsa9.cpp:869
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
 "Please verify if all alsa devices are properly created."
@@ -621,7 +631,7 @@ msgstr ""
 "你沒有足夠權限存取 alsa 混音器裝置。\n"
 "請查看所有的 alsa 裝置是否已正確的建立。"
 
-#: backends/mixer_alsa9.cpp:879
+#: backends/mixer_alsa9.cpp:873
 msgid ""
 "Alsa mixer cannot be found.\n"
 "Please check that the soundcard is installed and the\n"
@@ -698,23 +708,23 @@ msgstr ""
 msgid "Event Sounds"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:980
+#: backends/mixer_pulse.cpp:989
 msgid "Playback Devices"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:986
+#: backends/mixer_pulse.cpp:995
 msgid "Capture Devices"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:992
+#: backends/mixer_pulse.cpp:1001
 msgid "Playback Streams"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:1000
+#: backends/mixer_pulse.cpp:1009
 msgid "Capture Streams"
 msgstr ""
 
-#: backends/mixer_oss4.cpp:495
+#: backends/mixer_oss4.cpp:498
 #, fuzzy
 #| msgid ""
 #| "kmix: Mixer cannot be found.\n"
