@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-07 11:40+0200\n"
+"POT-Creation-Date: 2011-08-09 18:27+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2513,7 +2513,7 @@ msgstr "(無可用標誌)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1042 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
 #, kde-format
 msgid "About %1"
 msgstr "關於 %1"
@@ -6396,88 +6396,6 @@ msgstr "尋找文字"
 msgid "Link URL:"
 msgstr "URL："
 
-#. i18n: Filter for the Yes-button text in standard message dialogs,
-#. after the message caption/text have been translated.
-#: kdeui/dialogs/kmessagebox.cpp:52
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@action:button filter-yes"
-msgid "%1"
-msgstr "%1%"
-
-#. i18n: Filter for the No-button text in standard message dialogs,
-#. after the message caption/text have been translated.
-#: kdeui/dialogs/kmessagebox.cpp:58
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@action:button filter-no"
-msgid "%1"
-msgstr "%1%"
-
-#. i18n: Filter for the Continue-button text in standard message dialogs,
-#. after the message caption/text have been translated.
-#: kdeui/dialogs/kmessagebox.cpp:64
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@action:button filter-continue"
-msgid "%1"
-msgstr "%1%"
-
-#. i18n: Filter for the Cancel-button text in standard message dialogs,
-#. after the message caption/text have been translated.
-#: kdeui/dialogs/kmessagebox.cpp:70
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@action:button filter-cancel"
-msgid "%1"
-msgstr "%1%"
-
-#. i18n: Called after the button texts in standard message dialogs
-#. have been filtered by the messages above. Not visible to user.
-#: kdeui/dialogs/kmessagebox.cpp:75
-msgctxt "@action:button post-filter"
-msgid "."
-msgstr ""
-
-#: kdeui/dialogs/kmessagebox.cpp:271
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:275
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:170
-msgid "Details"
-msgstr "詳細資料"
-
-#: kdeui/dialogs/kmessagebox.cpp:461 kdeui/dialogs/kmessagebox.cpp:522
-msgid "Question"
-msgstr "問題"
-
-#: kdeui/dialogs/kmessagebox.cpp:478 kdeui/dialogs/kmessagebox.cpp:540
-#: kdeui/dialogs/kmessagebox.cpp:627 kdeui/dialogs/kmessagebox.cpp:707
-#: kdeui/dialogs/kmessagebox.cpp:794
-msgid "Do not ask again"
-msgstr "不再提問"
-
-#: kdeui/dialogs/kmessagebox.cpp:610 kdeui/dialogs/kmessagebox.cpp:690
-#: kdeui/dialogs/kmessagebox.cpp:777
-msgid "Warning"
-msgstr "警告"
-
-#: kdeui/dialogs/kmessagebox.cpp:834 kdeui/dialogs/kmessagebox.cpp:864
-#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:553
-#: knewstuff/knewstuff3/uploaddialog.cpp:528
-msgid "Error"
-msgstr "錯誤"
-
-#: kdeui/dialogs/kmessagebox.cpp:908 kdeui/dialogs/kmessagebox.cpp:937
-msgid "Sorry"
-msgstr "抱歉"
-
-#: kdeui/dialogs/kmessagebox.cpp:981
-msgid "Information"
-msgstr "資料"
-
-#: kdeui/dialogs/kmessagebox.cpp:997
-msgid "Do not show this message again"
-msgstr "不要再顯示這個訊息"
-
 #: kdeui/dialogs/kpassworddialog.cpp:70
 #, fuzzy
 msgid "Password"
@@ -7095,6 +7013,88 @@ msgstr "詳細資料(&D)"
 #: kdeui/dialogs/kdialog.cpp:986
 msgid "Get help..."
 msgstr "取得說明..."
+
+#. i18n: Filter for the Yes-button text in standard message dialogs,
+#. after the message caption/text have been translated.
+#: kdeui/dialogs/kmessagebox.cpp:52
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:button filter-yes"
+msgid "%1"
+msgstr "%1%"
+
+#. i18n: Filter for the No-button text in standard message dialogs,
+#. after the message caption/text have been translated.
+#: kdeui/dialogs/kmessagebox.cpp:58
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:button filter-no"
+msgid "%1"
+msgstr "%1%"
+
+#. i18n: Filter for the Continue-button text in standard message dialogs,
+#. after the message caption/text have been translated.
+#: kdeui/dialogs/kmessagebox.cpp:64
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:button filter-continue"
+msgid "%1"
+msgstr "%1%"
+
+#. i18n: Filter for the Cancel-button text in standard message dialogs,
+#. after the message caption/text have been translated.
+#: kdeui/dialogs/kmessagebox.cpp:70
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:button filter-cancel"
+msgid "%1"
+msgstr "%1%"
+
+#. i18n: Called after the button texts in standard message dialogs
+#. have been filtered by the messages above. Not visible to user.
+#: kdeui/dialogs/kmessagebox.cpp:75
+msgctxt "@action:button post-filter"
+msgid "."
+msgstr ""
+
+#: kdeui/dialogs/kmessagebox.cpp:278
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:275
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:170
+msgid "Details"
+msgstr "詳細資料"
+
+#: kdeui/dialogs/kmessagebox.cpp:468 kdeui/dialogs/kmessagebox.cpp:529
+msgid "Question"
+msgstr "問題"
+
+#: kdeui/dialogs/kmessagebox.cpp:485 kdeui/dialogs/kmessagebox.cpp:547
+#: kdeui/dialogs/kmessagebox.cpp:634 kdeui/dialogs/kmessagebox.cpp:714
+#: kdeui/dialogs/kmessagebox.cpp:801
+msgid "Do not ask again"
+msgstr "不再提問"
+
+#: kdeui/dialogs/kmessagebox.cpp:617 kdeui/dialogs/kmessagebox.cpp:697
+#: kdeui/dialogs/kmessagebox.cpp:784
+msgid "Warning"
+msgstr "警告"
+
+#: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
+#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:553
+#: knewstuff/knewstuff3/uploaddialog.cpp:528
+msgid "Error"
+msgstr "錯誤"
+
+#: kdeui/dialogs/kmessagebox.cpp:915 kdeui/dialogs/kmessagebox.cpp:944
+msgid "Sorry"
+msgstr "抱歉"
+
+#: kdeui/dialogs/kmessagebox.cpp:988
+msgid "Information"
+msgstr "資料"
+
+#: kdeui/dialogs/kmessagebox.cpp:1004
+msgid "Do not show this message again"
+msgstr "不要再顯示這個訊息"
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
