@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:36+0200\n"
+"POT-Creation-Date: 2011-08-21 03:53+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -906,59 +906,15 @@ msgstr "動作(&A)"
 msgid "&Settings"
 msgstr "設定"
 
-#. i18n: file: part/infopanel.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
-#: rc.cpp:17
-msgid "Information Panel"
-msgstr ""
-
-#. i18n: file: part/infopanel.ui:58
-#. i18n: ectx: property (text), widget (QLabel, additionalInfo)
-#: rc.cpp:20
-msgid "Unknown file type"
-msgstr ""
-
-#. i18n: file: part/infopanel.ui:75
-#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
-#: rc.cpp:23
-msgid "Metadata Label"
-msgstr ""
-
-#. i18n: file: part/infopanel.ui:95
-#. i18n: ectx: property (text), widget (QLabel, actionsLabel)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "&Action"
-msgid "ActionsLabel"
-msgstr "動作(&A)"
-
-#. i18n: file: part/jobtracker.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
-#: rc.cpp:29
-msgid "Job Tracker"
-msgstr ""
-
-#. i18n: file: part/jobtracker.ui:43
-#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
-#: rc.cpp:32
-msgid "<b>Job Description</b>"
-msgstr ""
-
-#. i18n: file: part/jobtracker.ui:62
-#. i18n: ectx: property (text), widget (QLabel, informationLabel)
-#: rc.cpp:35
-msgid "Some Information about the job"
-msgstr ""
-
 #. i18n: file: kerfuffle/adddialog.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
-#: rc.cpp:38
+#: rc.cpp:17
 msgid "Files/Folders to Compress"
 msgstr ""
 
 #. i18n: file: kerfuffle/adddialog.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, groupExtraOptions)
-#: rc.cpp:41
+#: rc.cpp:20
 #, fuzzy
 #| msgid "Extraction Settings"
 msgid "Extra Compression Options"
@@ -966,7 +922,7 @@ msgstr "解壓設定"
 
 #. i18n: file: kerfuffle/adddialog.ui:99
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:44
+#: rc.cpp:23
 msgid ""
 "Easter egg for the developers:\n"
 "This is where future versions will have extra compression options for the "
@@ -975,7 +931,7 @@ msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExtractionDialog)
-#: rc.cpp:48
+#: rc.cpp:27
 #, fuzzy
 #| msgid "Extraction"
 msgid "Extraction Dialog"
@@ -983,7 +939,7 @@ msgstr "解壓"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:69
 #. i18n: ectx: property (text), widget (QLabel, extractAllLabel)
-#: rc.cpp:51
+#: rc.cpp:30
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extract All Files"
@@ -991,7 +947,7 @@ msgstr "解開所有檔案"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:78
 #. i18n: ectx: property (title), widget (QGroupBox, singleFolderGroup)
-#: rc.cpp:54
+#: rc.cpp:33
 #, fuzzy
 #| msgid "Extract all files"
 msgid "&Extraction into subfolder:"
@@ -999,13 +955,13 @@ msgstr "解開所有檔案"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:112
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:57
+#: rc.cpp:36
 msgid "Options"
 msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:131
 #. i18n: ectx: property (text), widget (QCheckBox, openFolderCheckBox)
-#: rc.cpp:60
+#: rc.cpp:39
 #, fuzzy
 #| msgid "Open destination folder after extraction"
 msgid "Open &destination folder after extraction"
@@ -1013,7 +969,7 @@ msgstr "解壓後開啟目的地資料夾"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:138
 #. i18n: ectx: property (text), widget (QCheckBox, closeAfterExtraction)
-#: rc.cpp:63
+#: rc.cpp:42
 #, fuzzy
 #| msgid "Open destination folder after extraction"
 msgid "Close &Ark after extraction"
@@ -1021,19 +977,19 @@ msgstr "解壓後開啟目的地資料夾"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:145
 #. i18n: ectx: property (text), widget (QCheckBox, preservePaths)
-#: rc.cpp:66
+#: rc.cpp:45
 msgid "&Preserve paths when extracting"
 msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:152
 #. i18n: ectx: property (text), widget (QCheckBox, autoSubfolders)
-#: rc.cpp:69
+#: rc.cpp:48
 msgid "&Automatically create subfolders"
 msgstr ""
 
 #. i18n: file: kerfuffle/extractiondialog.ui:168
 #. i18n: ectx: property (title), widget (QGroupBox, filesToExtractGroupBox)
-#: rc.cpp:72
+#: rc.cpp:51
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@title:group"
@@ -1042,7 +998,7 @@ msgstr "解開"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:186
 #. i18n: ectx: property (text), widget (QRadioButton, selectedFilesButton)
-#: rc.cpp:75
+#: rc.cpp:54
 #, fuzzy
 #| msgid "Selected files only"
 msgid "&Selected files only"
@@ -1050,11 +1006,55 @@ msgstr "只解開已選的檔案"
 
 #. i18n: file: kerfuffle/extractiondialog.ui:202
 #. i18n: ectx: property (text), widget (QRadioButton, allFilesButton)
-#: rc.cpp:78
+#: rc.cpp:57
 #, fuzzy
 #| msgid "All files"
 msgid "All &files"
 msgstr "所有檔案"
+
+#. i18n: file: part/infopanel.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
+#: rc.cpp:60
+msgid "Information Panel"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:58
+#. i18n: ectx: property (text), widget (QLabel, additionalInfo)
+#: rc.cpp:63
+msgid "Unknown file type"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:75
+#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
+#: rc.cpp:66
+msgid "Metadata Label"
+msgstr ""
+
+#. i18n: file: part/infopanel.ui:95
+#. i18n: ectx: property (text), widget (QLabel, actionsLabel)
+#: rc.cpp:69
+#, fuzzy
+#| msgid "&Action"
+msgid "ActionsLabel"
+msgstr "動作(&A)"
+
+#. i18n: file: part/jobtracker.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
+#: rc.cpp:72
+msgid "Job Tracker"
+msgstr ""
+
+#. i18n: file: part/jobtracker.ui:43
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: rc.cpp:75
+msgid "<b>Job Description</b>"
+msgstr ""
+
+#. i18n: file: part/jobtracker.ui:62
+#. i18n: ectx: property (text), widget (QLabel, informationLabel)
+#: rc.cpp:78
+msgid "Some Information about the job"
+msgstr ""
 
 #. i18n: file: kerfuffle/ark.kcfg:9
 #. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
