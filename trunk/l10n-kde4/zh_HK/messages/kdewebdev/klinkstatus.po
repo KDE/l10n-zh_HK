@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klinkstatus\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:37+0200\n"
+"POT-Creation-Date: 2011-08-24 03:56+0200\n"
 "PO-Revision-Date: 2006-02-26 05:54+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -117,6 +117,26 @@ msgstr ""
 #| msgid "Input"
 msgid "Login Input"
 msgstr "輸入"
+
+#. i18n: file: plugins/automation/automationconfigpageui.ui:116
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/resultview.cpp:31 rc.cpp:38
+msgid "URL"
+msgstr "URL"
+
+#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:47
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/resultview.cpp:32 rc.cpp:62
+msgid "Status"
+msgstr "狀態"
+
+#: ui/resultview.cpp:33
+msgid "Markup"
+msgstr ""
+
+#: ui/resultview.cpp:34
+msgid "Label"
+msgstr "標記"
 
 #: ui/resultview.cpp:146
 msgid "Javascript not supported"
@@ -642,12 +662,6 @@ msgstr ""
 msgid "Search Options"
 msgstr "搜尋"
 
-#. i18n: file: plugins/automation/automationconfigpageui.ui:116
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:38
-msgid "URL"
-msgstr "URL"
-
 #. i18n: file: plugins/automation/automationconfigpageui.ui:126
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:41
@@ -705,12 +719,6 @@ msgstr "不要檢查正規表示式："
 #| msgid "A Link Checker"
 msgid "Links Checked"
 msgstr "連結檢查器"
-
-#. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:47
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:62
-msgid "Status"
-msgstr "狀態"
 
 #. i18n: file: plugins/scripting/scripts/examples/statistics/statisticsui.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1488,6 +1496,20 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr ""
 
+#. i18n: tag script attribute text
+#. i18n: file: plugins/scripting/scripts/scripts.rc:6
+#: rc.cpp:469
+#, fuzzy
+#| msgid "Status"
+msgid "Statistics"
+msgstr "狀態"
+
+#. i18n: tag script attribute comment
+#. i18n: file: plugins/scripting/scripts/scripts.rc:6
+#: rc.cpp:472
+msgid "Statistics Script"
+msgstr ""
+
 #~ msgid "Check pages recursively"
 #~ msgstr "遞迴地檢查頁面"
 
@@ -1510,9 +1532,6 @@ msgstr ""
 
 #~ msgid "Close Tab"
 #~ msgstr "關閉分頁"
-
-#~ msgid "Label"
-#~ msgstr "標記"
 
 #~ msgid "<qt>File <b>%1</b> cannot be opened. Might be a DCOP problem.</qt>"
 #~ msgstr "<qt>無法開啟檔案 <b>%1</b>。可能是 DCOP 錯誤。</qt>"
