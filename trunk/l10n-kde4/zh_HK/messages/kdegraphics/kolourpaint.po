@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-03 03:42+0200\n"
+"POT-Creation-Date: 2011-09-23 04:08+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -921,7 +921,7 @@ msgid "Set as Image"
 msgstr "設為圖像"
 
 #: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:248
-#: mainWindow/kpMainWindow_Edit.cpp:367 mainWindow/kpMainWindow_Image.cpp:314
+#: mainWindow/kpMainWindow_Image.cpp:314 mainWindow/kpMainWindow_Edit.cpp:367
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:81
 msgid "Selection: Create"
 msgstr "選取：建立"
@@ -1480,75 +1480,6 @@ msgstr ""
 msgid "Set Zoom Level to %1%"
 msgstr "將縮放等級設至 %1%"
 
-#: mainWindow/kpMainWindow_Edit.cpp:98
-msgid "Paste in &New Window"
-msgstr "貼上至新視窗(&N)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:105
-msgid "&Delete Selection"
-msgstr "刪除所選(&D)"
-
-#: mainWindow/kpMainWindow_Edit.cpp:113
-msgid "C&opy to File..."
-msgstr "複製至檔案(&O)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:117
-msgid "Paste &From File..."
-msgstr "從檔案貼上(&F)..."
-
-#: mainWindow/kpMainWindow_Edit.cpp:366 mainWindow/kpMainWindow_Edit.cpp:441
-#: mainWindow/kpMainWindow_Image.cpp:316
-#: tools/selection/text/kpToolText.cpp:93
-msgid "Text: Create Box"
-msgstr "文字：建立盒子"
-
-#: mainWindow/kpMainWindow_Edit.cpp:447
-msgid "Text: Paste"
-msgstr "文字：貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:631
-msgid ""
-"<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
-"unexpectedly disappeared.</p><p>This usually occurs if the application which "
-"was responsible for the clipboard contents has been closed.</p></qt>"
-msgstr ""
-"<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>可能"
-"是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
-
-#: mainWindow/kpMainWindow_Edit.cpp:637
-msgid "Cannot Paste"
-msgstr "無法貼上"
-
-#: mainWindow/kpMainWindow_Edit.cpp:730
-msgid "Text: Delete Box"
-msgstr "文字：刪除盒子"
-
-#: mainWindow/kpMainWindow_Edit.cpp:731
-msgid "Selection: Delete"
-msgstr "選取：刪除"
-
-#: mainWindow/kpMainWindow_Edit.cpp:802
-msgid "Text: Finish"
-msgstr "文字：完成"
-
-#: mainWindow/kpMainWindow_Edit.cpp:803
-msgid "Selection: Deselect"
-msgstr "選取：反選取"
-
-#: mainWindow/kpMainWindow_Edit.cpp:882
-#, fuzzy
-#| msgid "Copy to File"
-msgctxt "@title:window"
-msgid "Copy to File"
-msgstr "複製至檔案"
-
-#: mainWindow/kpMainWindow_Edit.cpp:930
-#, fuzzy
-#| msgid "Paste From File"
-msgctxt "@title:window"
-msgid "Paste From File"
-msgstr "從檔案貼上"
-
 #: mainWindow/kpMainWindow_Image.cpp:119
 msgid "R&esize / Scale..."
 msgstr "更改大小 / 縮放(&E)..."
@@ -1625,6 +1556,11 @@ msgctxt ""
 msgid "Select&ion"
 msgstr "選取(&I)"
 
+#: mainWindow/kpMainWindow_Image.cpp:316 mainWindow/kpMainWindow_Edit.cpp:366
+#: mainWindow/kpMainWindow_Edit.cpp:440 tools/selection/text/kpToolText.cpp:93
+msgid "Text: Create Box"
+msgstr "文字：建立盒子"
+
 #: mainWindow/kpMainWindow_Settings.cpp:67
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
@@ -1670,6 +1606,66 @@ msgid ""
 msgstr ""
 "<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
 "應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
+
+#: mainWindow/kpMainWindow_Edit.cpp:98
+msgid "Paste in &New Window"
+msgstr "貼上至新視窗(&N)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:105
+msgid "&Delete Selection"
+msgstr "刪除所選(&D)"
+
+#: mainWindow/kpMainWindow_Edit.cpp:113
+msgid "C&opy to File..."
+msgstr "複製至檔案(&O)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:117
+msgid "Paste &From File..."
+msgstr "從檔案貼上(&F)..."
+
+#: mainWindow/kpMainWindow_Edit.cpp:446
+msgid "Text: Paste"
+msgstr "文字：貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:617
+msgid ""
+"<qt>KolourPaint cannot paste the contents of the clipboard as it has an "
+"unknown format.</qt>"
+msgstr ""
+
+#: mainWindow/kpMainWindow_Edit.cpp:619
+msgid "Cannot Paste"
+msgstr "無法貼上"
+
+#: mainWindow/kpMainWindow_Edit.cpp:698
+msgid "Text: Delete Box"
+msgstr "文字：刪除盒子"
+
+#: mainWindow/kpMainWindow_Edit.cpp:699
+msgid "Selection: Delete"
+msgstr "選取：刪除"
+
+#: mainWindow/kpMainWindow_Edit.cpp:770
+msgid "Text: Finish"
+msgstr "文字：完成"
+
+#: mainWindow/kpMainWindow_Edit.cpp:771
+msgid "Selection: Deselect"
+msgstr "選取：反選取"
+
+#: mainWindow/kpMainWindow_Edit.cpp:850
+#, fuzzy
+#| msgid "Copy to File"
+msgctxt "@title:window"
+msgid "Copy to File"
+msgstr "複製至檔案"
+
+#: mainWindow/kpMainWindow_Edit.cpp:898
+#, fuzzy
+#| msgid "Paste From File"
+msgctxt "@title:window"
+msgid "Paste From File"
+msgstr "從檔案貼上"
 
 #: tools/flow/kpToolBrush.cpp:35
 msgid "Brush"
@@ -2425,6 +2421,14 @@ msgstr "選取工具 RMB 選單"
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid ""
+#~ "<qt><p>KolourPaint cannot paste the contents of the clipboard as the data "
+#~ "unexpectedly disappeared.</p><p>This usually occurs if the application "
+#~ "which was responsible for the clipboard contents has been closed.</p></qt>"
+#~ msgstr ""
+#~ "<qt><p>剪貼簿內的資料不預期地消失， KolourPaint 無法貼上該等內容。</p><p>"
+#~ "可能是因為剪貼簿內容的來源應用程式關閉了。</p></qt>"
 
 #~ msgid "Acquiring &Screenshots"
 #~ msgstr "正在取得螢幕截圖(&S)"
