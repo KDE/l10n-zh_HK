@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-10 03:56+0200\n"
+"POT-Creation-Date: 2011-11-11 04:33+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -56,15 +56,15 @@ msgstr ""
 msgid "Nepomuk"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:60 mainwindow.cpp:361
+#: conf/preferencesdialog.cpp:60 mainwindow.cpp:367
 msgid "Turn Off Computer"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:61 mainwindow.cpp:366
+#: conf/preferencesdialog.cpp:61 mainwindow.cpp:372
 msgid "Hibernate Computer"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:62 mainwindow.cpp:371
+#: conf/preferencesdialog.cpp:62 mainwindow.cpp:377
 msgid "Suspend Computer"
 msgstr ""
 
@@ -165,8 +165,8 @@ msgstr ""
 msgid "Syntax"
 msgstr ""
 
-#: core/kget.h:367 ui/tray.cpp:41 main.cpp:104 mainwindow.cpp:92
-#: mainwindow.cpp:515
+#: core/kget.h:371 ui/tray.cpp:41 main.cpp:104 mainwindow.cpp:92
+#: mainwindow.cpp:521
 msgid "KGet"
 msgstr "KGet"
 
@@ -280,12 +280,12 @@ msgstr ""
 msgid "<p>The following transfers have been added to the download list:</p>"
 msgstr ""
 
-#: core/kget.cpp:489 core/kget.cpp:848
+#: core/kget.cpp:496 core/kget.cpp:855
 #, fuzzy
 msgid "My Downloads"
 msgstr "下載已續傳"
 
-#: core/kget.cpp:584
+#: core/kget.cpp:591
 #, fuzzy, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -296,16 +296,16 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:585
+#: core/kget.cpp:592
 msgid "Overwrite existing file?"
 msgstr ""
 
-#: core/kget.cpp:598 ui/metalinkcreator/metalinkcreator.cpp:178
+#: core/kget.cpp:605 ui/metalinkcreator/metalinkcreator.cpp:178
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr ""
 
-#: core/kget.cpp:912
+#: core/kget.cpp:919
 msgid ""
 "<p>The following URL cannot be downloaded, its protocol is not supported by "
 "KGet:</p>"
@@ -314,24 +314,24 @@ msgid_plural ""
 "supported by KGet:</p>"
 msgstr[0] ""
 
-#: core/kget.cpp:922
+#: core/kget.cpp:929
 msgid "Protocol unsupported"
 msgstr ""
 
-#: core/kget.cpp:976 ui/newtransferdialog.cpp:50
+#: core/kget.cpp:983 ui/newtransferdialog.cpp:50
 #, fuzzy
 msgid "New Download"
 msgstr "再次下載"
 
-#: core/kget.cpp:976
+#: core/kget.cpp:983
 msgid "Enter URL:"
 msgstr ""
 
-#: core/kget.cpp:1013
+#: core/kget.cpp:1020
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:1026 core/urlchecker.cpp:362
+#: core/kget.cpp:1033 core/urlchecker.cpp:362
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -340,7 +340,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:1033 core/urlchecker.cpp:364
+#: core/kget.cpp:1040 core/urlchecker.cpp:364
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -352,7 +352,7 @@ msgstr ""
 "格式不正確的 URL:\n"
 "%1"
 
-#: core/kget.cpp:1044 core/urlchecker.cpp:420
+#: core/kget.cpp:1051 core/urlchecker.cpp:420
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -362,12 +362,12 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:1045 core/urlchecker.cpp:636
+#: core/kget.cpp:1052 core/urlchecker.cpp:636
 #, fuzzy
 msgid "Download it again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:1057 core/urlchecker.cpp:422
+#: core/kget.cpp:1064 core/urlchecker.cpp:422
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -377,23 +377,23 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:1058 core/urlchecker.cpp:633
+#: core/kget.cpp:1065 core/urlchecker.cpp:633
 #, fuzzy
 msgid "Delete it and download again?"
 msgstr "再次下載"
 
-#: core/kget.cpp:1081 core/kget.cpp:1088
+#: core/kget.cpp:1088 core/kget.cpp:1095
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:1116
+#: core/kget.cpp:1123
 msgid ""
 "You have already downloaded that file from another location.\n"
 "\n"
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/kget.cpp:1117 core/urlchecker.cpp:645
+#: core/kget.cpp:1124 core/urlchecker.cpp:645
 #, fuzzy
 msgid "File already downloaded. Download anyway?"
 msgstr ""
@@ -401,11 +401,11 @@ msgstr ""
 "%1\n"
 "要再下載嗎？"
 
-#: core/kget.cpp:1126
+#: core/kget.cpp:1133
 msgid "You are already downloading the same file"
 msgstr ""
 
-#: core/kget.cpp:1130 core/kget.cpp:1133 core/urlchecker.cpp:648
+#: core/kget.cpp:1137 core/kget.cpp:1140 core/urlchecker.cpp:648
 #: core/urlchecker.cpp:744 transfer-plugins/metalink/metalink.cpp:738
 #, fuzzy
 msgid "File already exists"
@@ -415,20 +415,20 @@ msgstr ""
 "已存在。\n"
 "是否要覆寫它？"
 
-#: core/kget.cpp:1234
+#: core/kget.cpp:1241
 msgid "Internet connection established, resuming transfers."
 msgstr ""
 
-#: core/kget.cpp:1239
+#: core/kget.cpp:1246
 msgid "No internet connection, stopping transfers."
 msgstr ""
 
-#: core/kget.cpp:1253
+#: core/kget.cpp:1260
 #, kde-format
 msgid "Plugin loader could not load the plugin: %1."
 msgstr ""
 
-#: core/kget.cpp:1271
+#: core/kget.cpp:1278
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -439,7 +439,7 @@ msgstr ""
 "%1\n"
 "是個目錄，未能刪除。"
 
-#: core/kget.cpp:1281
+#: core/kget.cpp:1288
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -450,39 +450,39 @@ msgstr ""
 "%1\n"
 "不是本機檔案，未能刪除。"
 
-#: core/kget.cpp:1389
+#: core/kget.cpp:1396
 #, kde-format
 msgid ""
 "<p>The following file has finished downloading:</p><p style=\"font-size: "
 "small;\">\\%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1390
+#: core/kget.cpp:1397
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download completed"
 msgstr "完成下載"
 
-#: core/kget.cpp:1393
+#: core/kget.cpp:1400
 #, kde-format
 msgid ""
 "<p>The following transfer has been started:</p><p style=\"font-size: small;"
 "\">\\%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1394
+#: core/kget.cpp:1401
 #, fuzzy
 msgid "Download started"
 msgstr "下載已續傳"
 
-#: core/kget.cpp:1396 core/datasourcefactory.cpp:287
+#: core/kget.cpp:1403 core/datasourcefactory.cpp:287
 #: core/datasourcefactory.cpp:614 transfer-plugins/metalink/metalink.cpp:202
 #: ui/metalinkcreator/metalinkcreator.cpp:161
 #: ui/metalinkcreator/metalinkcreator.cpp:178
 msgid "Error"
 msgstr ""
 
-#: core/kget.cpp:1396
+#: core/kget.cpp:1403
 #, kde-format
 msgid ""
 "<p>There has been an error in the following transfer:</p><p style=\"font-"
@@ -490,66 +490,66 @@ msgid ""
 "small;\">\\%2</p>"
 msgstr ""
 
-#: core/kget.cpp:1401
+#: core/kget.cpp:1408
 #, fuzzy
 #| msgid "Open Transfer"
 msgid "Resolve"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:1453
+#: core/kget.cpp:1460
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1457
+#: core/kget.cpp:1464
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1457
+#: core/kget.cpp:1464
 #, fuzzy
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "自動關閉開啟。"
 
-#: core/kget.cpp:1460
+#: core/kget.cpp:1467
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1460
+#: core/kget.cpp:1467
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1463
+#: core/kget.cpp:1470
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1463
+#: core/kget.cpp:1470
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "正在排程"
 
-#: core/kget.cpp:1471
+#: core/kget.cpp:1478
 #, fuzzy
 #| msgid "Font:"
 msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr "字型:"
 
-#: core/kget.cpp:1481
+#: core/kget.cpp:1488
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1482
+#: core/kget.cpp:1489
 #, fuzzy
 #| msgid "Download finished"
 msgid "Downloads completed"
@@ -655,7 +655,7 @@ msgstr "已延遲"
 
 #: core/transfer.cpp:39 core/transfer.cpp:252 core/transfer.cpp:271
 #: transfer-plugins/contentfetch/contentfetch.cpp:69
-#: transfer-plugins/bittorrent/bttransfer.cpp:303
+#: transfer-plugins/bittorrent/bttransfer.cpp:304
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:85
 #, fuzzy
 #| msgid "Stopped"
@@ -670,15 +670,15 @@ msgctxt "transfer state: aborted"
 msgid "Aborted"
 msgstr "字型:"
 
-#: core/transfer.cpp:41 transfer-plugins/bittorrent/bttransfer.cpp:221
-#: transfer-plugins/bittorrent/bttransfer.cpp:299
+#: core/transfer.cpp:41 transfer-plugins/bittorrent/bttransfer.cpp:222
+#: transfer-plugins/bittorrent/bttransfer.cpp:300
 #, fuzzy
 #| msgid "Finished"
 msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/transfer.cpp:43 transfer-plugins/bittorrent/bttransfer.cpp:165
+#: core/transfer.cpp:43 transfer-plugins/bittorrent/bttransfer.cpp:166
 #, fuzzy
 msgctxt "changing the destination of the file"
 msgid "Changing destination"
@@ -767,7 +767,7 @@ msgstr ""
 
 #: core/urlchecker.cpp:322
 #: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
-#: transfer-plugins/bittorrent/bttransfer.cpp:261
+#: transfer-plugins/bittorrent/bttransfer.cpp:262
 #, fuzzy
 #| msgid "Malformed URL:\n"
 msgid "Malformed URL."
@@ -1679,23 +1679,23 @@ msgstr "進階選項"
 msgid "&Scan Files"
 msgstr "開啟檔案(&F)"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:137
+#: transfer-plugins/bittorrent/bttransfer.cpp:138
 #, fuzzy
 msgid "Downloading Torrent File...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:179
-#: transfer-plugins/bittorrent/bttransfer.cpp:282
+#: transfer-plugins/bittorrent/bttransfer.cpp:180
+#: transfer-plugins/bittorrent/bttransfer.cpp:283
 #, fuzzy
 msgctxt "transfer state: downloading"
 msgid "Downloading...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:256
+#: transfer-plugins/bittorrent/bttransfer.cpp:257
 msgid "Cannot add a tracker to a private torrent."
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:417
+#: transfer-plugins/bittorrent/bttransfer.cpp:418
 #, fuzzy
 #| msgid ""
 #| "Folder does not exist:\n"
@@ -1705,16 +1705,16 @@ msgstr ""
 "沒有這個資料夾：\n"
 "%1"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:422
+#: transfer-plugins/bittorrent/bttransfer.cpp:423
 #, fuzzy
 msgid "Analyzing torrent...."
 msgstr "下載已續傳"
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:434
+#: transfer-plugins/bittorrent/bttransfer.cpp:435
 msgid "Cannot initialize port..."
 msgstr ""
 
-#: transfer-plugins/bittorrent/bttransfer.cpp:503
+#: transfer-plugins/bittorrent/bttransfer.cpp:504
 #, fuzzy
 #| msgid "Scheduling"
 msgctxt "Transfer status: seeding"
@@ -2352,23 +2352,23 @@ msgstr "固定"
 
 #. i18n: file: conf/dlgadvanced.ui:34
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: ui/droptarget.cpp:91 mainwindow.cpp:355 rc.cpp:107
+#: ui/droptarget.cpp:91 mainwindow.cpp:361 rc.cpp:107
 #, fuzzy
 #| msgid "KGet"
 msgid "Quit KGet"
 msgstr "KGet"
 
-#: ui/droptarget.cpp:224 mainwindow.cpp:1185
+#: ui/droptarget.cpp:224 mainwindow.cpp:1213
 #, fuzzy
 msgid "The dropped file is a KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: ui/droptarget.cpp:225 mainwindow.cpp:1186
+#: ui/droptarget.cpp:225 mainwindow.cpp:1214
 #, fuzzy
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: ui/droptarget.cpp:226 mainwindow.cpp:1187
+#: ui/droptarget.cpp:226 mainwindow.cpp:1215
 #, fuzzy
 msgid "&Load transfer list"
 msgstr "開啟傳輸："
@@ -2857,122 +2857,132 @@ msgstr ""
 
 #: mainwindow.cpp:257
 #, fuzzy
+msgctxt "delete selected transfer item and files"
+msgid "Remove Selected and Delete Files"
+msgstr "續傳(&R)"
+
+#: mainwindow.cpp:259
+msgid "Removes selected transfer and deletes files from disk in any case"
+msgstr ""
+
+#: mainwindow.cpp:263
+#, fuzzy
 #| msgid "Download finished"
 msgctxt "redownload selected transfer item"
 msgid "Redownload Selected"
 msgstr "完成下載"
 
-#: mainwindow.cpp:262
+#: mainwindow.cpp:268
 #, fuzzy
 msgid "Start All"
 msgstr "重新開始(&S)"
 
-#: mainwindow.cpp:265
+#: mainwindow.cpp:271
 #, fuzzy
 msgid "Starts / resumes all transfers"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:269
+#: mainwindow.cpp:275
 #, fuzzy
 msgid "Start Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:271
+#: mainwindow.cpp:277
 #, fuzzy
 msgid "Starts / resumes selected transfer"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:275
+#: mainwindow.cpp:281
 #, fuzzy
 #| msgid "&Pause"
 msgid "Pause All"
 msgstr "暫停(&P)"
 
-#: mainwindow.cpp:278
+#: mainwindow.cpp:284
 #, fuzzy
 msgid "Pauses all transfers"
 msgstr "開啟傳輸(&T)"
 
-#: mainwindow.cpp:282
+#: mainwindow.cpp:288
 #, fuzzy
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:284
+#: mainwindow.cpp:290
 msgid "Pauses selected transfer"
 msgstr ""
 
-#: mainwindow.cpp:287
+#: mainwindow.cpp:293
 #, fuzzy
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: mainwindow.cpp:295
+#: mainwindow.cpp:301
 #, fuzzy
 #| msgid "&Pause"
 msgid "Pause"
 msgstr "暫停(&P)"
 
-#: mainwindow.cpp:304
+#: mainwindow.cpp:310
 #, fuzzy
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:309 mainwindow.cpp:497
+#: mainwindow.cpp:315 mainwindow.cpp:503
 #, fuzzy
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:313
+#: mainwindow.cpp:319
 #, fuzzy
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:318
+#: mainwindow.cpp:324
 #, fuzzy
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:323
+#: mainwindow.cpp:329
 #, fuzzy
 msgid "&Transfer History"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:329
+#: mainwindow.cpp:335
 #, fuzzy
 #| msgid "Default folder:"
 msgid "&Group Settings"
 msgstr "預設的資料夾:"
 
-#: mainwindow.cpp:335
+#: mainwindow.cpp:341
 #, fuzzy
 msgid "&Transfer Settings"
 msgstr " 傳輸： %1"
 
-#: mainwindow.cpp:341
+#: mainwindow.cpp:347
 #, fuzzy
 #| msgid "No Links"
 msgid "Import &Links..."
 msgstr "沒有連結"
 
-#: mainwindow.cpp:347
+#: mainwindow.cpp:353
 msgid "After downloads finished action"
 msgstr ""
 
-#: mainwindow.cpp:349
+#: mainwindow.cpp:355
 #, fuzzy
 #| msgid "All the downloads are finished."
 msgid ""
 "Choose an action that is executed after all downloads have been finished."
 msgstr "所有下載已完成。"
 
-#: mainwindow.cpp:351
+#: mainwindow.cpp:357
 #, fuzzy
 #| msgid "Location (URL)"
 msgid "No Action"
 msgstr "地點 (URL)"
 
-#: mainwindow.cpp:426
+#: mainwindow.cpp:432
 #, fuzzy
 #| msgid ""
 #| "This is the first time that you have run KGet.\n"
@@ -2984,30 +2994,30 @@ msgstr ""
 "這是你第一次執行 KGet 。\n"
 "要 KGet 成為 Konqueror 的下載管理員嗎？"
 
-#: mainwindow.cpp:428
+#: mainwindow.cpp:434
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror 整合"
 
-#: mainwindow.cpp:428
+#: mainwindow.cpp:434
 msgid "Enable"
 msgstr "啟用"
 
-#: mainwindow.cpp:429
+#: mainwindow.cpp:435
 msgid "Do Not Enable"
 msgstr "不啟用"
 
-#: mainwindow.cpp:496
+#: mainwindow.cpp:502
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:513
+#: mainwindow.cpp:519
 #, kde-format
 msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:563
+#: mainwindow.cpp:569
 #, fuzzy
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -3019,48 +3029,56 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:565
+#: mainwindow.cpp:571
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:592
+#: mainwindow.cpp:598
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:592
+#: mainwindow.cpp:598
 #, fuzzy
 msgid "Text File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:594
+#: mainwindow.cpp:600
 #, fuzzy
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:626
+#: mainwindow.cpp:632
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:627
+#: mainwindow.cpp:633
 #, fuzzy
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:714
+#: mainwindow.cpp:720
 #, fuzzy
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] "你確定要刪除這筆傳輸嗎？"
 
-#: mainwindow.cpp:716
+#: mainwindow.cpp:722 mainwindow.cpp:748
 #, fuzzy
 msgid "Confirm transfer delete"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:1064
+#: mainwindow.cpp:746
+#, fuzzy
+#| msgid "Are you sure you want to delete this transfer?"
+msgid "Are you sure you want to delete the selected transfer including files?"
+msgid_plural ""
+"Are you sure you want to delete the selected transfers including files?"
+msgstr[0] "你確定要刪除這筆傳輸嗎？"
+
+#: mainwindow.cpp:1092
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
