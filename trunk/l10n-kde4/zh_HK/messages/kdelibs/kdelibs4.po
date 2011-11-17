@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 05:27+0100\n"
+"POT-Creation-Date: 2011-11-17 04:04+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2871,15 +2871,15 @@ msgstr "漸進式檢察"
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "有太多拼字錯誤，即時拼字檢察要停止。"
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:493
 msgid "Check Spelling..."
 msgstr "拼字檢查..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:496
 msgid "Auto Spell Check"
 msgstr "自動拼字檢查"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:500
 msgid "Allow Tabulations"
 msgstr "允許跳格"
 
@@ -10735,6 +10735,37 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "預設"
 
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+#| msgid "Please enter &name:"
+msgid "Speak Text"
+msgstr "請輸入名稱(&N)："
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestion List"
+msgid "No suggestions for %1"
+msgstr "建議清單"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "略過"
+
+#: kdeui/widgets/ktextedit.cpp:643
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgid "Add to Dictionary"
+msgstr "<< 加到字典中"
+
+#: kdeui/widgets/ktextedit.cpp:788
+#, fuzzy
+msgid "Nothing to spell check."
+msgstr "沒有選擇供應者。"
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "圖像操作"
@@ -10981,37 +11012,6 @@ msgstr "語文(&I)"
 #| msgid "&Copy Text"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
-
-#: kdeui/widgets/ktextedit.cpp:526
-#, fuzzy
-#| msgid "Please enter &name:"
-msgid "Speak Text"
-msgstr "請輸入名稱(&N)："
-
-#: kdeui/widgets/ktextedit.cpp:541
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:630
-#, fuzzy, kde-format
-#| msgid "Suggestion List"
-msgid "No suggestions for %1"
-msgstr "建議清單"
-
-#: kdeui/widgets/ktextedit.cpp:641
-msgid "Ignore"
-msgstr "略過"
-
-#: kdeui/widgets/ktextedit.cpp:642
-#, fuzzy
-#| msgid "<< Add to Dictionary"
-msgid "Add to Dictionary"
-msgstr "<< 加到字典中"
-
-#: kdeui/widgets/ktextedit.cpp:787
-#, fuzzy
-msgid "Nothing to spell check."
-msgstr "沒有選擇供應者。"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 #, fuzzy
@@ -11293,10 +11293,6 @@ msgstr "工具列"
 msgid "No text"
 msgstr "沒有文字！"
 
-#: kdewebkit/kwebpage.cpp:126 khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "覆寫檔案嗎？"
-
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
 msgstr "從 ini 風格的描述檔案建立 Qt 部件外掛模組。"
@@ -11466,6 +11462,10 @@ msgstr ""
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "名為“%1”的檔案已經存在。你確定要覆寫它嗎？"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "覆寫檔案嗎？"
 
 #: khtml/khtml_ext.cpp:879
 msgid "Overwrite"
@@ -15041,7 +15041,7 @@ msgstr "-未命名-"
 msgid "No service matching the requirements was found"
 msgstr ""
 
-#: kdecore/services/kservice.h:553
+#: kdecore/services/kservice.h:555
 #, kde-format
 msgid "The service '%1' does not provide an interface '%2' with keyword '%3'"
 msgstr ""
