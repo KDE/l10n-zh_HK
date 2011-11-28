@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2011-11-24 04:38+0100\n"
+"POT-Creation-Date: 2011-11-28 04:04+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: KDE <kde-i18n-doc@kde.org>\n"
 "Language-Team: KDE <kde-i18n-doc@kde.org>\n"
@@ -1631,8 +1631,8 @@ msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr ""
 
-#: corelib/io/qiodevice.cpp:1629 corelib/plugin/qlibrary.cpp:1233
-#: corelib/plugin/qpluginloader.cpp:367
+#: corelib/io/qiodevice.cpp:1629 corelib/plugin/qpluginloader.cpp:367
+#: corelib/plugin/qlibrary.cpp:1233
 #: corelib/statemachine/qstatemachine.cpp:1046
 #: network/kernel/qhostinfo_unix.cpp:300 network/kernel/qhostinfo_win.cpp:209
 #: network/kernel/qhostinfo_win.cpp:236
@@ -1916,14 +1916,33 @@ msgstr ""
 msgid "'%1' is an invalid ELF object (%2)"
 msgstr ""
 
+#: corelib/plugin/qlibrary_unix.cpp:244 corelib/plugin/qlibrary_win.cpp:87
+#, qt-format
+msgid "Cannot load library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:109
+#, qt-format
+msgid "Cannot unload library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:295 corelib/plugin/qlibrary_win.cpp:124
+#, qt-format
+msgid "Cannot resolve symbol \"%1\" in %2: %3"
+msgstr ""
+
+#: corelib/plugin/qpluginloader.cpp:254
+msgid "The plugin was not loaded."
+msgstr ""
+
+#: corelib/plugin/qpluginloader.cpp:343 corelib/plugin/qlibrary.cpp:679
+#: corelib/plugin/qlibrary.cpp:825
+msgid "The shared library was not found."
+msgstr ""
+
 #: corelib/plugin/qlibrary.cpp:402
 #, qt-format
 msgid "Plugin verification data mismatch in '%1'"
-msgstr ""
-
-#: corelib/plugin/qlibrary.cpp:679 corelib/plugin/qlibrary.cpp:825
-#: corelib/plugin/qpluginloader.cpp:343
-msgid "The shared library was not found."
 msgstr ""
 
 #: corelib/plugin/qlibrary.cpp:827
@@ -1948,25 +1967,6 @@ msgstr ""
 msgid ""
 "The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
 "libraries.)"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:244 corelib/plugin/qlibrary_win.cpp:87
-#, qt-format
-msgid "Cannot load library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:109
-#, qt-format
-msgid "Cannot unload library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:295 corelib/plugin/qlibrary_win.cpp:124
-#, qt-format
-msgid "Cannot resolve symbol \"%1\" in %2: %3"
-msgstr ""
-
-#: corelib/plugin/qpluginloader.cpp:254
-msgid "The plugin was not loaded."
 msgstr ""
 
 #: corelib/statemachine/qstatemachine.cpp:1028
@@ -6534,10 +6534,6 @@ msgstr ""
 msgid "Could not reset to read data"
 msgstr ""
 
-#: plugins/inputmethods/imsw-multi/qmultiinputcontext.cpp:88
-msgid "Select IM"
-msgstr ""
-
 #: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:95
 msgid "Multiple input method switcher"
 msgstr ""
@@ -6545,6 +6541,10 @@ msgstr ""
 #: plugins/inputmethods/imsw-multi/qmultiinputcontextplugin.cpp:102
 msgid ""
 "Multiple input method switcher that uses the context menu of the text widgets"
+msgstr ""
+
+#: plugins/inputmethods/imsw-multi/qmultiinputcontext.cpp:88
+msgid "Select IM"
 msgstr ""
 
 #: plugins/qmltooling/qmldbg_inspector/editor/liveselectiontool.cpp:143
