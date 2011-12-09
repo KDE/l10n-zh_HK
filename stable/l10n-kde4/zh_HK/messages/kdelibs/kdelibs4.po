@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-07 10:55+0100\n"
+"POT-Creation-Date: 2011-12-09 11:08+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -883,7 +883,7 @@ msgstr "設定(&S)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "說明(&H)"
 
@@ -2513,7 +2513,7 @@ msgstr "(無可用標誌)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "關於 %1"
@@ -10579,33 +10579,6 @@ msgstr "向上移動(&U)"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "%1 手冊(&H)"
-
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "這是什麼(&T)"
-
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "報告問題(&R)..."
-
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-#, fuzzy
-msgid "Switch Application &Language..."
-msgstr "結束應用程式"
-
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "關於 %1(&A)"
-
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "關於 KDE(&K)"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "清除歷史紀錄(&H)"
@@ -15225,6 +15198,11 @@ msgstr "設定工具列(&B)..."
 msgid "Configure &Notifications..."
 msgstr "設定通知(&N)..."
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 手冊(&H)"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "這是什麼？(&T)"
@@ -15232,6 +15210,24 @@ msgstr "這是什麼？(&T)"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "每日小祕訣(&D)"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "報告問題(&R)..."
+
+#: kdeui/actions/kstandardaction_p.h:115
+#, fuzzy
+msgid "Switch Application &Language..."
+msgstr "結束應用程式"
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "關於 %1(&A)"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "關於 KDE(&K)"
 
 #: kross/qts/values_p.h:69
 #, fuzzy, kde-format
@@ -15246,6 +15242,9 @@ msgstr "am"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "pm"
+
+#~ msgid "What's &This"
+#~ msgstr "這是什麼(&T)"
 
 #, fuzzy
 #~| msgid "Cannot create backup file (permission denied)."
