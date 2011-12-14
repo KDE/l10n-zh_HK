@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-12 03:46+0100\n"
+"POT-Creation-Date: 2011-12-14 03:48+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -637,6 +637,59 @@ msgstr ""
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
 
+#: ui/videowidget.cpp:115
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr ""
+
+#: ui/videowidget.cpp:120
+#, fuzzy
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "頁："
+
+#: ui/videowidget.cpp:185
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr ""
+
+#: ui/annotwindow.cpp:51
+msgid "Close this note"
+msgstr ""
+
+#: ui/annotwindow.cpp:93 ui/findbar.cpp:64
+#, fuzzy
+#| msgid "Filter Options"
+msgid "Options"
+msgstr "過濾器選項"
+
+#: ui/annotwindow.cpp:104
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+
+#: ui/annotwindow.cpp:312
+msgid "Cannot find latex executable."
+msgstr ""
+
+#: ui/annotwindow.cpp:312 ui/annotwindow.cpp:317 ui/annotwindow.cpp:322
+#: ui/annotwindow.cpp:327
+msgid "LaTeX rendering failed"
+msgstr ""
+
+#: ui/annotwindow.cpp:317
+msgid "Cannot find dvipng executable."
+msgstr ""
+
+#: ui/annotwindow.cpp:322
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr ""
+
+#: ui/annotwindow.cpp:327
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr ""
+
 #: ui/pageview.cpp:401
 msgid "Zoom"
 msgstr ""
@@ -891,25 +944,25 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "設定 KPDF..."
 
-#: ui/pageview.cpp:4038
+#: ui/pageview.cpp:4043
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:4141
+#: ui/pageview.cpp:4146
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:4153
+#: ui/pageview.cpp:4158
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4165
+#: ui/pageview.cpp:4170
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:4178
+#: ui/pageview.cpp:4183
 #, fuzzy
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid ""
@@ -917,49 +970,12 @@ msgid ""
 "Esc to clear."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4211
+#: ui/pageview.cpp:4216
 msgid "Annotations author"
 msgstr ""
 
-#: ui/pageview.cpp:4212
+#: ui/pageview.cpp:4217
 msgid "Please insert your name or initials:"
-msgstr ""
-
-#: ui/annotwindow.cpp:51
-msgid "Close this note"
-msgstr ""
-
-#: ui/annotwindow.cpp:93 ui/findbar.cpp:64
-#, fuzzy
-#| msgid "Filter Options"
-msgid "Options"
-msgstr "過濾器選項"
-
-#: ui/annotwindow.cpp:104
-msgid ""
-"This annotation may contain LaTeX code.\n"
-"Click here to render."
-msgstr ""
-
-#: ui/annotwindow.cpp:312
-msgid "Cannot find latex executable."
-msgstr ""
-
-#: ui/annotwindow.cpp:312 ui/annotwindow.cpp:317 ui/annotwindow.cpp:322
-#: ui/annotwindow.cpp:327
-msgid "LaTeX rendering failed"
-msgstr ""
-
-#: ui/annotwindow.cpp:317
-msgid "Cannot find dvipng executable."
-msgstr ""
-
-#: ui/annotwindow.cpp:322
-msgid "A problem occurred during the execution of the 'latex' command."
-msgstr ""
-
-#: ui/annotwindow.cpp:327
-msgid "A problem occurred during the execution of the 'dvipng' command."
 msgstr ""
 
 #: ui/annotationpropertiesdialog.cpp:58
@@ -1743,22 +1759,6 @@ msgstr ""
 #| msgid "Starting KTTSD Failed: %1"
 msgid "Starting Jovie Text-to-Speech service Failed: %1"
 msgstr "啟動 KTTSD 失敗: %1"
-
-#: ui/videowidget.cpp:115
-msgctxt "start the movie playback"
-msgid "Play"
-msgstr ""
-
-#: ui/videowidget.cpp:120
-#, fuzzy
-msgctxt "pause the movie playback"
-msgid "Pause"
-msgstr "頁："
-
-#: ui/videowidget.cpp:185
-msgctxt "stop the movie playback"
-msgid "Stop"
-msgstr ""
 
 #: ui/minibar.cpp:76
 msgctxt "Layouted like: '5 [pages] of 10'"
