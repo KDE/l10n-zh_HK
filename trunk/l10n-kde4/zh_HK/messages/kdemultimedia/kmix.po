@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-14 03:49+0100\n"
+"POT-Creation-Date: 2011-12-21 04:42+0100\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -257,6 +257,10 @@ msgstr "選取聲道"
 msgid "Mixer"
 msgstr "混音器"
 
+#: core/mixdevice.cpp:122 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
+msgid "unknown"
+msgstr "不詳"
+
 #: core/mixertoolbox.cpp:222
 msgid "Sound drivers supported:"
 msgstr "支援的音效驅動程式:"
@@ -264,10 +268,6 @@ msgstr "支援的音效驅動程式:"
 #: core/mixertoolbox.cpp:223
 msgid "Sound drivers used:"
 msgstr "已使用的音效驅動程式:"
-
-#: core/mixdevice.cpp:122 backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68
-msgid "unknown"
-msgstr "不詳"
 
 #: apps/main.cpp:33
 msgid "KMix - KDE's full featured mini mixer"
