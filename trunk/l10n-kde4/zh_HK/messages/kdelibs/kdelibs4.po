@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 04:41+0100\n"
+"POT-Creation-Date: 2011-12-22 04:42+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14649,95 +14649,6 @@ msgctxt ""
 msgid "More..."
 msgstr "更多..."
 
-#: nepomuk/utils/facet.cpp:132 nepomuk/utils/typefacet.cpp:64
-#, fuzzy
-msgctxt "@option:check A filter on file type"
-msgid "Documents"
-msgstr "增強音量"
-
-#: nepomuk/utils/facet.cpp:136 nepomuk/utils/typefacet.cpp:68
-msgctxt "@option:check A filter on file type - audio files"
-msgid "Audio"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:139 nepomuk/utils/typefacet.cpp:70
-#, fuzzy
-#| msgid "Video"
-msgctxt "@option:check A filter on file type - media video"
-msgid "Video"
-msgstr "視訊"
-
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:73
-#, fuzzy
-#| msgid "Pager"
-msgctxt "@option:check A filter on file type"
-msgid "Images"
-msgstr "傳呼機"
-
-#: nepomuk/utils/facet.cpp:179
-#, fuzzy
-#| msgid "no error"
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "No priority"
-msgstr "沒有錯誤"
-
-#: nepomuk/utils/facet.cpp:180
-#, fuzzy
-#| msgid "Last modified:"
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Last modified"
-msgstr "修改日期："
-
-#: nepomuk/utils/facet.cpp:181
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Most important"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:182
-#, fuzzy
-#| msgid "File opened."
-msgctxt ""
-"@option:radio A filter on prioritizing/sorting a selection of resources"
-msgid "Never opened"
-msgstr "檔案已開啟。"
-
-#: nepomuk/utils/facet.cpp:192
-#, fuzzy
-#| msgid "Rating"
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "Any Rating"
-msgstr "評分"
-
-#: nepomuk/utils/facet.cpp:193
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "1 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:194
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "2 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:195
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "3 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:196
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "4 or more"
-msgstr ""
-
-#: nepomuk/utils/facet.cpp:197
-#, fuzzy
-#| msgid "Rating"
-msgctxt "@option:radio A filter on the rating of a resource"
-msgid "Max Rating"
-msgstr "評分"
-
 #: nepomuk/utils/resourcemodel.cpp:149
 #, fuzzy
 #| msgctxt "QFont"
@@ -14841,6 +14752,31 @@ msgstr "自訂..."
 msgid "Enter Search Terms..."
 msgstr "網絡搜尋"
 
+#: nepomuk/utils/typefacet.cpp:64 nepomuk/utils/facet.cpp:132
+#, fuzzy
+msgctxt "@option:check A filter on file type"
+msgid "Documents"
+msgstr "增強音量"
+
+#: nepomuk/utils/typefacet.cpp:68 nepomuk/utils/facet.cpp:136
+msgctxt "@option:check A filter on file type - audio files"
+msgid "Audio"
+msgstr ""
+
+#: nepomuk/utils/typefacet.cpp:70 nepomuk/utils/facet.cpp:138
+#, fuzzy
+#| msgid "Video"
+msgctxt "@option:check A filter on file type - media video"
+msgid "Video"
+msgstr "視訊"
+
+#: nepomuk/utils/typefacet.cpp:73 nepomuk/utils/facet.cpp:141
+#, fuzzy
+#| msgid "Pager"
+msgctxt "@option:check A filter on file type"
+msgid "Images"
+msgstr "傳呼機"
+
 #: nepomuk/utils/typefacet.cpp:80
 #, fuzzy
 #| msgid "&Contents"
@@ -14882,6 +14818,70 @@ msgstr "檔案"
 msgctxt "@option:check Do filter on type - show everything but files"
 msgid "Other"
 msgstr "其他"
+
+#: nepomuk/utils/facet.cpp:177
+#, fuzzy
+#| msgid "no error"
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "No priority"
+msgstr "沒有錯誤"
+
+#: nepomuk/utils/facet.cpp:178
+#, fuzzy
+#| msgid "Last modified:"
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Last modified"
+msgstr "修改日期："
+
+#: nepomuk/utils/facet.cpp:179
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Most important"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:180
+#, fuzzy
+#| msgid "File opened."
+msgctxt ""
+"@option:radio A filter on prioritizing/sorting a selection of resources"
+msgid "Never opened"
+msgstr "檔案已開啟。"
+
+#: nepomuk/utils/facet.cpp:190
+#, fuzzy
+#| msgid "Rating"
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "Any Rating"
+msgstr "評分"
+
+#: nepomuk/utils/facet.cpp:191
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "1 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:192
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "2 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:193
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "3 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:194
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "4 or more"
+msgstr ""
+
+#: nepomuk/utils/facet.cpp:195
+#, fuzzy
+#| msgid "Rating"
+msgctxt "@option:radio A filter on the rating of a resource"
+msgid "Max Rating"
+msgstr "評分"
 
 #: kdeui/colors/kcolorcombo.cpp:352
 #, fuzzy
