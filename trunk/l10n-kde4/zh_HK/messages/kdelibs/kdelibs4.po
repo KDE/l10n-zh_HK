@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:18+0100\n"
+"POT-Creation-Date: 2012-01-29 03:03+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5323,7 +5323,7 @@ msgid "Connection timed out"
 msgstr "連線逾時"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:539
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
@@ -5899,8 +5899,8 @@ msgstr "顯示狀態列(&A)"
 #| "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
 #| "the window used for status information."
 msgid ""
-"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-"bottom of the window used for status information."
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -7646,22 +7646,14 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "在此選擇要使用的字型樣式。"
 
-#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
-#: kdeui/fonts/kfontchooser.cpp:640
-#, fuzzy
-#| msgid "Regular"
-msgctxt "@item font"
-msgid "Regular"
-msgstr "標準"
-
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
 #, fuzzy
 #| msgid "Italic"
 msgctxt "@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -7732,7 +7724,7 @@ msgstr "實際字型"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:625
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font style"
@@ -10500,85 +10492,6 @@ msgstr "向上移動(&U)"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-#, fuzzy
-#| msgid "%1%"
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/widgets/klineedit.cpp:296
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "清除快速鍵"
-
-#: kdeui/widgets/klineedit.cpp:1216
-#, fuzzy
-#| msgid "Text Completion"
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "文字完成"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "無"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-#| msgid "Manual"
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "手動"
-
-#: kdeui/widgets/klineedit.cpp:1225
-#, fuzzy
-#| msgid "Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "自動"
-
-#: kdeui/widgets/klineedit.cpp:1226
-#, fuzzy
-#| msgid "Dropdown List"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "下拉清單"
-
-#: kdeui/widgets/klineedit.cpp:1227
-#, fuzzy
-#| msgid "Short Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1228
-#, fuzzy
-#| msgid "Dropdown List && Automatic"
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "下拉清單 && 短暫自動化"
-
-#: kdeui/widgets/klineedit.cpp:1259
-#, fuzzy
-#| msgid "Default"
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "預設"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "清除歷史紀錄(&H)"
@@ -10715,6 +10628,23 @@ msgstr "不可信的"
 #| msgid "New hostname"
 msgid "without name"
 msgstr "新的主機名稱"
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+#, fuzzy
+#| msgid "%1%"
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
 
 #: kdeui/widgets/ktextedit.cpp:527
 #, fuzzy
@@ -10993,6 +10923,68 @@ msgstr "語文(&I)"
 #| msgid "&Copy Text"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
+
+#: kdeui/widgets/klineedit.cpp:296
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "清除快速鍵"
+
+#: kdeui/widgets/klineedit.cpp:1213
+#, fuzzy
+#| msgid "Text Completion"
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "文字完成"
+
+#: kdeui/widgets/klineedit.cpp:1220
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "無"
+
+#: kdeui/widgets/klineedit.cpp:1221
+#, fuzzy
+#| msgid "Manual"
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "手動"
+
+#: kdeui/widgets/klineedit.cpp:1222
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "自動"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+#| msgid "Dropdown List"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "下拉清單"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+#| msgid "Short Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1225
+#, fuzzy
+#| msgid "Dropdown List && Automatic"
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "下拉清單 && 短暫自動化"
+
+#: kdeui/widgets/klineedit.cpp:1256
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "預設"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 #, fuzzy
@@ -14401,16 +14393,16 @@ msgstr "選擇元件"
 msgid "Enable component"
 msgstr "可內嵌的 HTML 元件"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:533
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:535
 #, fuzzy
 msgid "Communication error"
 msgstr "組態設定"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:537
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid type in Database"
@@ -15243,6 +15235,12 @@ msgstr "am"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "pm"
+
+#, fuzzy
+#~| msgid "Regular"
+#~ msgctxt "@item font"
+#~ msgid "Regular"
+#~ msgstr "標準"
 
 #~ msgid "What's &This"
 #~ msgstr "這是什麼(&T)"
