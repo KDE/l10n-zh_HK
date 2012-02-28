@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 11:23+0100\n"
+"POT-Creation-Date: 2012-02-28 17:39+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -8572,12 +8572,6 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "與系統的全域快速鍵定義衝突"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "資源設定"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 #, fuzzy
@@ -8617,6 +8611,12 @@ msgstr "拼字檢查程式"
 #| msgid "Spell Checker"
 msgid "Spell check complete."
 msgstr "拼字檢查程式"
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "資源設定"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10706,6 +10706,37 @@ msgstr "不可信的"
 msgid "without name"
 msgstr "新的主機名稱"
 
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+#| msgid "Please enter &name:"
+msgid "Speak Text"
+msgstr "請輸入名稱(&N)："
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestion List"
+msgid "No suggestions for %1"
+msgstr "建議清單"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "略過"
+
+#: kdeui/widgets/ktextedit.cpp:643
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgid "Add to Dictionary"
+msgstr "<< 加到字典中"
+
+#: kdeui/widgets/ktextedit.cpp:788
+#, fuzzy
+msgid "Nothing to spell check."
+msgstr "沒有選擇供應者。"
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "圖像操作"
@@ -10952,37 +10983,6 @@ msgstr "語文(&I)"
 #| msgid "&Copy Text"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
-
-#: kdeui/widgets/ktextedit.cpp:527
-#, fuzzy
-#| msgid "Please enter &name:"
-msgid "Speak Text"
-msgstr "請輸入名稱(&N)："
-
-#: kdeui/widgets/ktextedit.cpp:542
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:631
-#, fuzzy, kde-format
-#| msgid "Suggestion List"
-msgid "No suggestions for %1"
-msgstr "建議清單"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Ignore"
-msgstr "略過"
-
-#: kdeui/widgets/ktextedit.cpp:643
-#, fuzzy
-#| msgid "<< Add to Dictionary"
-msgid "Add to Dictionary"
-msgstr "<< 加到字典中"
-
-#: kdeui/widgets/ktextedit.cpp:788
-#, fuzzy
-msgid "Nothing to spell check."
-msgstr "沒有選擇供應者。"
 
 #: kdeui/widgets/ktimecombobox.cpp:259
 msgctxt "@info"
