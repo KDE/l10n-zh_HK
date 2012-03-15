@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-05 04:29+0100\n"
+"POT-Creation-Date: 2012-03-15 04:23+0100\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5773,7 +5773,7 @@ msgstr "要新增『%1』到你的聯絡人清單嗎？"
 #: kopete/contactlist/kopetecontactlistview.cpp:401
 #: kopete/contactlist/kopetecontactlistview.cpp:416
 #: kopete/contactlist/kopetecontactlistview.cpp:858
-#: libkopete/kopetecontact.cpp:454 rc.cpp:709 rc.cpp:775 rc.cpp:796
+#: libkopete/kopetecontact.cpp:460 rc.cpp:709 rc.cpp:775 rc.cpp:796
 #: rc.cpp:2896 rc.cpp:2995 rc.cpp:3648 rc.cpp:3660 rc.cpp:3887 rc.cpp:4186
 #: rc.cpp:4195 rc.cpp:4210 rc.cpp:5515 rc.cpp:5843
 #, fuzzy
@@ -9476,7 +9476,7 @@ msgid "Rename Contact"
 msgstr "重新命名聯絡人"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:837
-#: libkopete/kopetecontact.cpp:454
+#: libkopete/kopetecontact.cpp:460
 msgid "Remove Contact"
 msgstr "移除聯絡人"
 
@@ -11063,7 +11063,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: kopete/kopetewindow.cpp:1339 libkopete/kopetecontact.cpp:657
+#: kopete/kopetewindow.cpp:1339 libkopete/kopetecontact.cpp:663
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -11149,7 +11149,7 @@ msgstr "檢視歷程記錄(&H)..."
 msgid "&Create Group..."
 msgstr "建立群組(&C)..."
 
-#: libkopete/ui/kopetestdaction.cpp:113 libkopete/kopetecontact.cpp:287
+#: libkopete/ui/kopetestdaction.cpp:113 libkopete/kopetecontact.cpp:293
 #, fuzzy
 #| msgid "User Profile"
 msgid "Visible when offline"
@@ -11932,13 +11932,13 @@ msgstr "已發出訊息"
 msgid "A contact sent you a buzz/nudge."
 msgstr "有聯絡人發嗶聲/提示給你。"
 
-#: libkopete/kopetechatsession.cpp:563
+#: libkopete/kopetechatsession.cpp:567
 #, fuzzy, kde-format
 #| msgid "%1 is typing a message"
 msgid "User <i>%1</i> is typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: libkopete/kopetechatsession.cpp:566 libkopete/kopetemetacontact.cpp:1342
+#: libkopete/kopetechatsession.cpp:570 libkopete/kopetemetacontact.cpp:1342
 #: libkopete/kopetemetacontact.cpp:1346
 #, fuzzy
 #| msgid "Chat"
@@ -11946,33 +11946,33 @@ msgctxt "@action"
 msgid "Chat"
 msgstr "聊天"
 
-#: libkopete/kopetechatsession.cpp:653
+#: libkopete/kopetechatsession.cpp:657
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
 msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
-#: libkopete/kopetechatsession.cpp:654
+#: libkopete/kopetechatsession.cpp:658
 msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
-#: libkopete/kopetecontact.cpp:243
+#: libkopete/kopetecontact.cpp:249
 msgid "&Add to Your Contact List"
 msgstr "加入你的聯絡人清單(&A)"
 
-#: libkopete/kopetecontact.cpp:318
+#: libkopete/kopetecontact.cpp:324
 msgid "Move Contact"
 msgstr "移動聯絡人"
 
-#: libkopete/kopetecontact.cpp:326
+#: libkopete/kopetecontact.cpp:332
 msgid "Select the meta contact to which you want to move this contact:"
 msgstr "選擇要移動此聯絡人至到的超聯絡人:"
 
-#: libkopete/kopetecontact.cpp:329
+#: libkopete/kopetecontact.cpp:335
 msgid "Create a new metacontact for this contact"
 msgstr "為此聯絡人建立超聯絡人"
 
-#: libkopete/kopetecontact.cpp:330
+#: libkopete/kopetecontact.cpp:336
 msgid ""
 "If you select this option, a new metacontact will be created in the top-"
 "level group with the name of this contact and the contact will be moved to "
@@ -11981,25 +11981,25 @@ msgstr ""
 "如選擇此選項，在頂層群組會建立和此聯絡人同名的新超聯絡人，此聯絡人會移往該"
 "處。"
 
-#: libkopete/kopetecontact.cpp:445
+#: libkopete/kopetecontact.cpp:451
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that "
 "supports offline sending, or wait until this user comes online."
 msgstr ""
 "此用戶現在聯絡不上。請以支援離線傳送的通訊協定再試，或等待這用戶再上線。"
 
-#: libkopete/kopetecontact.cpp:446 libkopete/kopetemetacontact.cpp:332
+#: libkopete/kopetecontact.cpp:452 libkopete/kopetemetacontact.cpp:332
 #: libkopete/kopetemetacontact.cpp:350 libkopete/kopetemetacontact.cpp:427
 msgid "User is Not Reachable"
 msgstr "用戶現在聯絡不上"
 
-#: libkopete/kopetecontact.cpp:453
+#: libkopete/kopetecontact.cpp:459
 #, kde-format
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "你確定要從聯絡人清單移除聯絡人『%1』嗎？"
 
-#: libkopete/kopetecontact.cpp:595
+#: libkopete/kopetecontact.cpp:601
 #, fuzzy, kde-format
 msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
 msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
@@ -12007,7 +12007,7 @@ msgstr ""
 "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
 "<b><nobr>%3</nobr></b><br><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:602
+#: libkopete/kopetecontact.cpp:608
 #, fuzzy, kde-format
 msgctxt ""
 "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
@@ -12016,7 +12016,7 @@ msgstr ""
 "<br><img src=\"%2\">&nbsp;聯絡人狀態\n"
 "<nobr><b>%4</b> (%3)</nobr><br><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:620
+#: libkopete/kopetecontact.cpp:626
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Full Name:</b>&nbsp;FORMATTED NAME"
 #| msgid "<br><b>Full Name:</b>&nbsp;<nobr>%1</nobr>"
@@ -12026,7 +12026,7 @@ msgstr ""
 "<br><b>全名:</b>&nbsp;格式化名稱\n"
 "<br><b>全名:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:629
+#: libkopete/kopetecontact.cpp:635
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Idle:</b>&nbsp;FORMATTED IDLE TIME"
 #| msgid "<br><b>Idle:</b>&nbsp;<nobr>%1</nobr>"
@@ -12036,7 +12036,7 @@ msgstr ""
 "<br><b>閒置:</b>&nbsp;格式化閒置時間\n"
 "<br><b>閒置:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:638
+#: libkopete/kopetecontact.cpp:644
 #, fuzzy, kde-format
 #| msgctxt "<br><b>Home Page:</b>&nbsp;FORMATTED URL"
 #| msgid "<br><b>Home Page:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
@@ -12046,7 +12046,7 @@ msgstr ""
 "<br><b>主網頁:</b>&nbsp;格式化 URL\n"
 "<br><b>主網頁:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 
-#: libkopete/kopetecontact.cpp:648
+#: libkopete/kopetecontact.cpp:654
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
@@ -12054,7 +12054,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:694
+#: libkopete/kopetecontact.cpp:700
 #, fuzzy, kde-format
 #| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
 #| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
@@ -12064,25 +12064,25 @@ msgstr ""
 "<br><b>屬性標籤:</b>&nbsp;屬性值\n"
 "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:717
+#: libkopete/kopetecontact.cpp:723
 #, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 %1"
 
-#: libkopete/kopetecontact.cpp:753
+#: libkopete/kopetecontact.cpp:759
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr "%4日 %3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:761
+#: libkopete/kopetecontact.cpp:767
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr "%3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:769
+#: libkopete/kopetecontact.cpp:775
 #, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
