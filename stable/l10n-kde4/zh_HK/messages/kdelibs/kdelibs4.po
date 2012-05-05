@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-01 19:10+0200\n"
+"POT-Creation-Date: 2012-05-05 12:43+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -12255,36 +12255,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "語文(&I)"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
-"你要允許表格被提交嗎？"
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
-"%1</p>你要批准提交表格嗎？</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "允許"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -12302,6 +12275,14 @@ msgid ""
 msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "允許"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -12337,6 +12318,25 @@ msgstr "插入"
 msgid "Disallow"
 msgstr "不允許"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
+"你要允許表格被提交嗎？"
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
+"%1</p>你要批准提交表格嗎？</qt>"
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
 #| msgid "Close"
@@ -12357,16 +12357,6 @@ msgstr "JavaScript 錯誤"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "不要再顯示這個訊息(&D)"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr ""
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-#, fuzzy
-#| msgid "Reference error"
-msgid "Reference"
-msgstr "參考錯誤"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 #, fuzzy
@@ -12483,6 +12473,16 @@ msgstr ""
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "語文(&I)"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr ""
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+#, fuzzy
+#| msgid "Reference error"
+msgid "Reference"
+msgstr "參考錯誤"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
