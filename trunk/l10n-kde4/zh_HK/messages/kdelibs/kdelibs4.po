@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-19 04:42+0200\n"
+"POT-Creation-Date: 2012-05-10 04:26+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3429,308 +3429,6 @@ msgstr ""
 "等) 和管理者 (包括 shyue, kenduest lee, seventeen, jouston, acelan 等人)，沒"
 "有他們以往的辛勞工作，就沒有現在的繁體中文翻譯。</p></blockquote>"
 
-#: kdecore/kernel/kcmdlineargs.cpp:273
-msgid "Use the X-server display 'displayname'"
-msgstr "使用 X-Server 顯示器‘displayname’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:275
-msgid "Use the QWS display 'displayname'"
-msgstr "使用 QWS 顯示器‘displayname’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:278
-msgid "Restore the application for the given 'sessionId'"
-msgstr "還原應用程式給指定的‘sessionId’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:279
-msgid ""
-"Causes the application to install a private color\n"
-"map on an 8-bit display"
-msgstr ""
-"導致此應用程式在 8-bit 顯示下\n"
-"安裝自己才能使用的色彩轉換表"
-
-#: kdecore/kernel/kcmdlineargs.cpp:280
-msgid ""
-"Limits the number of colors allocated in the color\n"
-"cube on an 8-bit display, if the application is\n"
-"using the QApplication::ManyColor color\n"
-"specification"
-msgstr ""
-"如果應用程式使用 QApplication::ManyColor 的色彩規格，\n"
-"限制在 8-bit 顯示上使用的色數。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:281
-msgid "tells Qt to never grab the mouse or the keyboard"
-msgstr "通知 Qt 不要爭奪滑鼠或鍵盤。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:282
-msgid ""
-"running under a debugger can cause an implicit\n"
-"-nograb, use -dograb to override"
-msgstr ""
-"在除錯器下執行可能會使其自動加上 -nograb，\n"
-"請用 -dograb 來覆蓋其效用。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:283
-msgid "switches to synchronous mode for debugging"
-msgstr "切換到同步模式以便除錯。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:285
-msgid "defines the application font"
-msgstr "定義應用程式字型。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:287
-msgid ""
-"sets the default background color and an\n"
-"application palette (light and dark shades are\n"
-"calculated)"
-msgstr ""
-"設定預設背景顏色和應用程式調色盤\n"
-"(明暗會自動計算)。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:289
-msgid "sets the default foreground color"
-msgstr "設定預設前景顏色。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:291
-msgid "sets the default button color"
-msgstr "設定預設按鈕顏色。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:292
-msgid "sets the application name"
-msgstr "設定應用程式名稱。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:293
-msgid "sets the application title (caption)"
-msgstr "設定應用程式標題 (說明標題)。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:295
-msgid ""
-"forces the application to use a TrueColor visual on\n"
-"an 8-bit display"
-msgstr "強制此應用程式在 8-bit 顯示時使用全彩 (TrueColor) 視覺效果。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:296
-msgid ""
-"sets XIM (X Input Method) input style. Possible\n"
-"values are onthespot, overthespot, offthespot and\n"
-"root"
-msgstr ""
-"設定 XIM (X Input Method) 輸入風格。可設的值為\n"
-"onthespot, overthespot, offthespot 和 root。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:297
-msgid "set XIM server"
-msgstr "設定 XIM 伺服器。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:298
-msgid "disable XIM"
-msgstr "停用 XIM。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:301
-msgid "forces the application to run as QWS Server"
-msgstr "強制應用程式作為 QWS 伺服器運作。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:303
-msgid "mirrors the whole layout of widgets"
-msgstr "複製整個視窗部件的配置樣式。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:304
-msgid "applies the Qt stylesheet to the application widgets"
-msgstr ""
-
-#: kdecore/kernel/kcmdlineargs.cpp:305
-msgid ""
-"use a different graphics system instead of the default one, options are "
-"raster and opengl (experimental)"
-msgstr ""
-
-#: kdecore/kernel/kcmdlineargs.cpp:307
-msgid "Use 'caption' as name in the titlebar"
-msgstr "使用「說明標題」作為標題列上的名稱。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:308
-msgid "Use 'icon' as the application icon"
-msgstr "使用「圖示」作為應用程式圖示。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:309
-msgid "Use alternative configuration file"
-msgstr "使用替代設定檔。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:310
-msgid "Disable crash handler, to get core dumps"
-msgstr "停用當機控制程式以取得核心傾印 (core dumps)。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:312
-msgid "Waits for a WM_NET compatible windowmanager"
-msgstr "等待 WM_NET 相容的視窗管理員。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:314
-msgid "sets the application GUI style"
-msgstr "設定應用程式的圖形介面風格。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:315
-#, fuzzy
-#| msgid ""
-#| "sets the client geometry of the main widget - see man X for the argument "
-#| "format"
-msgid ""
-"sets the client geometry of the main widget - see man X for the argument "
-"format (usually WidthxHeight+XPos+YPos)"
-msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:433
-#, fuzzy
-#| msgid "Application: "
-msgid "KDE Application"
-msgstr "應用程式："
-
-#: kdecore/kernel/kcmdlineargs.cpp:492
-#, fuzzy
-#| msgid "Quit"
-msgid "Qt"
-msgstr "離開"
-
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4819
-msgid "KDE"
-msgstr "KDE"
-
-#: kdecore/kernel/kcmdlineargs.cpp:798 kdecore/kernel/kcmdlineargs.cpp:814
-#, kde-format
-msgid "Unknown option '%1'."
-msgstr "不明的選項 ‘%1’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:822
-#, fuzzy, kde-format
-#| msgid "'%1' missing."
-msgctxt "@info:shell %1 is cmdoption name"
-msgid "'%1' missing."
-msgstr "找不到‘%1’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:888
-#, kde-format
-msgctxt ""
-"@info:shell message on appcmd --version; do not translate 'Development "
-"Platform'%3 application name, other %n version strings"
-msgid ""
-"Qt: %1\n"
-"KDE Development Platform: %2\n"
-"%3: %4\n"
-msgstr ""
-
-#: kdecore/kernel/kcmdlineargs.cpp:913
-#, kde-format
-msgctxt "the 2nd argument is a list of name+address, one on each line"
-msgid ""
-"%1 was written by\n"
-"%2"
-msgstr ""
-"%1 的作者是：\n"
-"%2"
-
-#: kdecore/kernel/kcmdlineargs.cpp:916
-msgid "This application was written by somebody who wants to remain anonymous."
-msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:923
-msgid "Please use http://bugs.kde.org to report bugs.\n"
-msgstr "請使用 http://bugs.kde.org 報告問題。\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:925
-#, kde-format
-msgid "Please report bugs to %1.\n"
-msgstr "請回報問題到 %1。\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:962
-#, kde-format
-msgid "Unexpected argument '%1'."
-msgstr "未預料到的參數‘%1’。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1086
-msgid "Use --help to get a list of available command line options."
-msgstr "使用 --help 以取得可用指令行選項的清單。"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1109
-msgid "[options] "
-msgstr "[選項] "
-
-#: kdecore/kernel/kcmdlineargs.cpp:1116
-#, kde-format
-msgid "[%1-options]"
-msgstr "[%1-選項]"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1137
-#, kde-format
-msgid "Usage: %1 %2\n"
-msgstr "用法：%1 %2\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1140
-#, fuzzy
-msgid ""
-"\n"
-"Generic options:\n"
-msgstr "一般選項"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1142
-msgid "Show help about options"
-msgstr "顯示關於選項的說明"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1150
-#, kde-format
-msgid "Show %1 specific options"
-msgstr "顯示 %1 相關的選項"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1157
-msgid "Show all options"
-msgstr "顯示所有選項"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1158
-msgid "Show author information"
-msgstr "顯示作者資訊"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1159
-msgid "Show version information"
-msgstr "顯示版本資訊"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1160
-msgid "Show license information"
-msgstr "顯示版權資訊"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1161
-msgid "End of options"
-msgstr "選項結尾"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1182
-#, fuzzy, kde-format
-msgid ""
-"\n"
-"%1 options:\n"
-msgstr "%1 個選項"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1184
-msgid ""
-"\n"
-"Options:\n"
-msgstr ""
-"\n"
-"選項：\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1242
-msgid ""
-"\n"
-"Arguments:\n"
-msgstr ""
-"\n"
-"參數：\n"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1596
-msgid "The files/URLs opened by the application will be deleted after use"
-msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
-
-#: kdecore/kernel/kcmdlineargs.cpp:1597
-msgid "KDE-tempfile"
-msgstr ""
-
 #: kdecore/kernel/ktoolinvocation.cpp:79
 msgid "Function must be called from the main thread."
 msgstr ""
@@ -3822,6 +3520,312 @@ msgstr ""
 #| msgid "Could not Launch Mail Client"
 msgid "Could not launch Terminal Client"
 msgstr "無法執行電子郵件客戶程式。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:273
+msgid "Use the X-server display 'displayname'"
+msgstr "使用 X-Server 顯示器‘displayname’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:275
+msgid "Use the QWS display 'displayname'"
+msgstr "使用 QWS 顯示器‘displayname’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:278
+msgid "Restore the application for the given 'sessionId'"
+msgstr "還原應用程式給指定的‘sessionId’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:279
+msgid ""
+"Causes the application to install a private color\n"
+"map on an 8-bit display"
+msgstr ""
+"導致此應用程式在 8-bit 顯示下\n"
+"安裝自己才能使用的色彩轉換表"
+
+#: kdecore/kernel/kcmdlineargs.cpp:280
+msgid ""
+"Limits the number of colors allocated in the color\n"
+"cube on an 8-bit display, if the application is\n"
+"using the QApplication::ManyColor color\n"
+"specification"
+msgstr ""
+"如果應用程式使用 QApplication::ManyColor 的色彩規格，\n"
+"限制在 8-bit 顯示上使用的色數。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:281
+msgid "tells Qt to never grab the mouse or the keyboard"
+msgstr "通知 Qt 不要爭奪滑鼠或鍵盤。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:282
+msgid ""
+"running under a debugger can cause an implicit\n"
+"-nograb, use -dograb to override"
+msgstr ""
+"在除錯器下執行可能會使其自動加上 -nograb，\n"
+"請用 -dograb 來覆蓋其效用。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:283
+msgid "switches to synchronous mode for debugging"
+msgstr "切換到同步模式以便除錯。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:285
+msgid "defines the application font"
+msgstr "定義應用程式字型。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:287
+msgid ""
+"sets the default background color and an\n"
+"application palette (light and dark shades are\n"
+"calculated)"
+msgstr ""
+"設定預設背景顏色和應用程式調色盤\n"
+"(明暗會自動計算)。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:289
+msgid "sets the default foreground color"
+msgstr "設定預設前景顏色。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:291
+msgid "sets the default button color"
+msgstr "設定預設按鈕顏色。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:292
+msgid "sets the application name"
+msgstr "設定應用程式名稱。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:293
+msgid "sets the application title (caption)"
+msgstr "設定應用程式標題 (說明標題)。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:294
+msgid "load the testability framework"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:296
+msgid ""
+"forces the application to use a TrueColor visual on\n"
+"an 8-bit display"
+msgstr "強制此應用程式在 8-bit 顯示時使用全彩 (TrueColor) 視覺效果。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:297
+msgid ""
+"sets XIM (X Input Method) input style. Possible\n"
+"values are onthespot, overthespot, offthespot and\n"
+"root"
+msgstr ""
+"設定 XIM (X Input Method) 輸入風格。可設的值為\n"
+"onthespot, overthespot, offthespot 和 root。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:298
+msgid "set XIM server"
+msgstr "設定 XIM 伺服器。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:299
+msgid "disable XIM"
+msgstr "停用 XIM。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:302
+msgid "forces the application to run as QWS Server"
+msgstr "強制應用程式作為 QWS 伺服器運作。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:304
+msgid "mirrors the whole layout of widgets"
+msgstr "複製整個視窗部件的配置樣式。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:305
+msgid "applies the Qt stylesheet to the application widgets"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:306
+msgid ""
+"use a different graphics system instead of the default one, options are "
+"raster and opengl (experimental)"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:308
+msgid "Use 'caption' as name in the titlebar"
+msgstr "使用「說明標題」作為標題列上的名稱。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:309
+msgid "Use 'icon' as the application icon"
+msgstr "使用「圖示」作為應用程式圖示。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:310
+msgid "Use alternative configuration file"
+msgstr "使用替代設定檔。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:311
+msgid "Disable crash handler, to get core dumps"
+msgstr "停用當機控制程式以取得核心傾印 (core dumps)。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:313
+msgid "Waits for a WM_NET compatible windowmanager"
+msgstr "等待 WM_NET 相容的視窗管理員。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:315
+msgid "sets the application GUI style"
+msgstr "設定應用程式的圖形介面風格。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:316
+#, fuzzy
+#| msgid ""
+#| "sets the client geometry of the main widget - see man X for the argument "
+#| "format"
+msgid ""
+"sets the client geometry of the main widget - see man X for the argument "
+"format (usually WidthxHeight+XPos+YPos)"
+msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:434
+#, fuzzy
+#| msgid "Application: "
+msgid "KDE Application"
+msgstr "應用程式："
+
+#: kdecore/kernel/kcmdlineargs.cpp:493
+#, fuzzy
+#| msgid "Quit"
+msgid "Qt"
+msgstr "離開"
+
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4819
+msgid "KDE"
+msgstr "KDE"
+
+#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
+#, kde-format
+msgid "Unknown option '%1'."
+msgstr "不明的選項 ‘%1’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:823
+#, fuzzy, kde-format
+#| msgid "'%1' missing."
+msgctxt "@info:shell %1 is cmdoption name"
+msgid "'%1' missing."
+msgstr "找不到‘%1’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:889
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; do not translate 'Development "
+"Platform'%3 application name, other %n version strings"
+msgid ""
+"Qt: %1\n"
+"KDE Development Platform: %2\n"
+"%3: %4\n"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:914
+#, kde-format
+msgctxt "the 2nd argument is a list of name+address, one on each line"
+msgid ""
+"%1 was written by\n"
+"%2"
+msgstr ""
+"%1 的作者是：\n"
+"%2"
+
+#: kdecore/kernel/kcmdlineargs.cpp:917
+msgid "This application was written by somebody who wants to remain anonymous."
+msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:924
+msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgstr "請使用 http://bugs.kde.org 報告問題。\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:926
+#, kde-format
+msgid "Please report bugs to %1.\n"
+msgstr "請回報問題到 %1。\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:963
+#, kde-format
+msgid "Unexpected argument '%1'."
+msgstr "未預料到的參數‘%1’。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1087
+msgid "Use --help to get a list of available command line options."
+msgstr "使用 --help 以取得可用指令行選項的清單。"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1110
+msgid "[options] "
+msgstr "[選項] "
+
+#: kdecore/kernel/kcmdlineargs.cpp:1117
+#, kde-format
+msgid "[%1-options]"
+msgstr "[%1-選項]"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1138
+#, kde-format
+msgid "Usage: %1 %2\n"
+msgstr "用法：%1 %2\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1141
+#, fuzzy
+msgid ""
+"\n"
+"Generic options:\n"
+msgstr "一般選項"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1143
+msgid "Show help about options"
+msgstr "顯示關於選項的說明"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1151
+#, kde-format
+msgid "Show %1 specific options"
+msgstr "顯示 %1 相關的選項"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1158
+msgid "Show all options"
+msgstr "顯示所有選項"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1159
+msgid "Show author information"
+msgstr "顯示作者資訊"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1160
+msgid "Show version information"
+msgstr "顯示版本資訊"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1161
+msgid "Show license information"
+msgstr "顯示版權資訊"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1162
+msgid "End of options"
+msgstr "選項結尾"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1183
+#, fuzzy, kde-format
+msgid ""
+"\n"
+"%1 options:\n"
+msgstr "%1 個選項"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1185
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"選項：\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1243
+msgid ""
+"\n"
+"Arguments:\n"
+msgstr ""
+"\n"
+"參數：\n"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1597
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
+
+#: kdecore/kernel/kcmdlineargs.cpp:1598
+msgid "KDE-tempfile"
+msgstr ""
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
@@ -6093,7 +6097,7 @@ msgstr "其他貢獻者："
 msgid "Visit contributor's homepage"
 msgstr "首頁"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:126
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:127
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
 msgctxt "Action to send an email to a contributor"
@@ -6102,8 +6106,8 @@ msgid ""
 "%1"
 msgstr "其他貢獻者："
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:131
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:168
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:133
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:170
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6111,15 +6115,15 @@ msgid ""
 "%1"
 msgstr "首頁"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:138
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:172
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:140
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:174
 #, kde-format
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
 msgstr ""
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:160
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:162
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6127,7 +6131,7 @@ msgid ""
 "%1"
 msgstr "首頁"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:164
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:166
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid ""
@@ -6135,7 +6139,7 @@ msgid ""
 "%1"
 msgstr "首頁"
 
-#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:266
+#: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:268
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Contributor name in about dialog."
@@ -6897,7 +6901,7 @@ msgid "Warning"
 msgstr "警告"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:810 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:818 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "錯誤"
@@ -10590,7 +10594,7 @@ msgstr "向上移動(&U)"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:933
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:941
 msgid "Clear &History"
 msgstr "清除歷史紀錄(&H)"
 
@@ -11302,15 +11306,7 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: khtml/khtml_settings.cpp:238 kparts/htmlextension.cpp:117
-msgid "Accept"
-msgstr "接受"
-
-#: khtml/khtml_settings.cpp:239 kparts/htmlextension.cpp:119
-msgid "Reject"
-msgstr "拒絕"
-
-#: khtml/khtml_settings.cpp:923
+#: khtml/khtml_settings.cpp:888
 msgid "Filter error"
 msgstr "過濾器錯誤"
 
@@ -12251,36 +12247,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "語文(&I)"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
-"你要允許表格被提交嗎？"
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
-"%1</p>你要批准提交表格嗎？</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "允許"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -12298,6 +12267,14 @@ msgid ""
 msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "允許"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -12333,6 +12310,25 @@ msgstr "插入"
 msgid "Disallow"
 msgstr "不允許"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
+"你要允許表格被提交嗎？"
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
+"%1</p>你要批准提交表格嗎？</qt>"
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
 #| msgid "Close"
@@ -12353,16 +12349,6 @@ msgstr "JavaScript 錯誤"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "不要再顯示這個訊息(&D)"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr ""
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-#, fuzzy
-#| msgid "Reference error"
-msgid "Reference"
-msgstr "參考錯誤"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 #, fuzzy
@@ -12479,6 +12465,16 @@ msgstr ""
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "語文(&I)"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr ""
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+#, fuzzy
+#| msgid "Reference error"
+msgid "Reference"
+msgstr "參考錯誤"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
@@ -12649,34 +12645,34 @@ msgstr "找不到給 %1 用的處理器項目!"
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:789
+#: khtml/rendering/render_form.cpp:797
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "快速鍵"
 
-#: khtml/rendering/render_form.cpp:810
+#: khtml/rendering/render_form.cpp:818
 #, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
 msgid "%1 is already assigned to %2"
 msgstr "Socket 早已被建立"
 
-#: khtml/rendering/render_form.cpp:855
+#: khtml/rendering/render_form.cpp:863
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:857
+#: khtml/rendering/render_form.cpp:865
 msgid "New search provider"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:862
+#: khtml/rendering/render_form.cpp:870
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "快速鍵"
 
-#: khtml/rendering/render_form.cpp:948
+#: khtml/rendering/render_form.cpp:956
 #, fuzzy
 #| msgid "Clear shortcut"
 msgid "Create Web Shortcut"
@@ -14040,6 +14036,14 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "關閉文件"
+
+#: kparts/htmlextension.cpp:117
+msgid "Accept"
+msgstr "接受"
+
+#: kparts/htmlextension.cpp:119
+msgid "Reject"
+msgstr "拒絕"
 
 #: kpty/kptydevice.cpp:322
 #, fuzzy
