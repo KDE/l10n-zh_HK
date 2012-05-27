@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-18 12:28+0200\n"
+"POT-Creation-Date: 2012-05-27 12:31+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -325,7 +325,7 @@ msgstr ""
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr "kmix: 不詳的錯誤。請匯報你如何做成這個錯誤。"
 
-#: backends/mixer_mpris2.cpp:49 backends/mixer_pulse.cpp:1034
+#: backends/mixer_mpris2.cpp:49 backends/mixer_pulse.cpp:1027
 #: gui/viewsliders.cpp:96 gui/viewsliders.cpp:102
 msgid "Playback Streams"
 msgstr ""
@@ -468,32 +468,6 @@ msgstr ""
 "在 Linux 系統下可能需要執行『insmod』以載入驅動程式。\n"
 "當使用商業版的 OSS 時，執行『soundon』。"
 
-#: backends/mixer_pulse.cpp:337 backends/mixer_pulse.cpp:396
-msgid "Unknown Application"
-msgstr ""
-
-#: backends/mixer_pulse.cpp:444 backends/mixer_pulse.cpp:480
-msgid "Event Sounds"
-msgstr ""
-
-#: backends/mixer_pulse.cpp:1022 gui/viewsliders.cpp:100
-msgid "Playback Devices"
-msgstr ""
-
-#: backends/mixer_pulse.cpp:1028 gui/viewsliders.cpp:98
-msgid "Capture Devices"
-msgstr ""
-
-#: backends/mixer_pulse.cpp:1042 gui/viewsliders.cpp:94
-msgid "Capture Streams"
-msgstr ""
-
-#: backends/mixer_pulse.cpp:1142
-#, fuzzy
-#| msgid "Volume"
-msgid "Volume Control Feedback Sound"
-msgstr "音量"
-
 #: backends/mixer_sun.cpp:68
 msgid "Master Volume"
 msgstr "主音量"
@@ -546,6 +520,32 @@ msgstr ""
 "驅動程式亦已載入。\n"
 "在 Linux 系統下可能需要執行『insmod』以載入驅動程式。\n"
 "當使用商業版的 OSS 時，執行『soundon』。"
+
+#: backends/mixer_pulse.cpp:330 backends/mixer_pulse.cpp:389
+msgid "Unknown Application"
+msgstr ""
+
+#: backends/mixer_pulse.cpp:437 backends/mixer_pulse.cpp:473
+msgid "Event Sounds"
+msgstr ""
+
+#: backends/mixer_pulse.cpp:1015 gui/viewsliders.cpp:100
+msgid "Playback Devices"
+msgstr ""
+
+#: backends/mixer_pulse.cpp:1021 gui/viewsliders.cpp:98
+msgid "Capture Devices"
+msgstr ""
+
+#: backends/mixer_pulse.cpp:1035 gui/viewsliders.cpp:94
+msgid "Capture Streams"
+msgstr ""
+
+#: backends/mixer_pulse.cpp:1135
+#, fuzzy
+#| msgid "Volume"
+msgid "Volume Control Feedback Sound"
+msgstr "音量"
 
 #: core/mixertoolbox.cpp:222
 msgid "Sound drivers supported:"
