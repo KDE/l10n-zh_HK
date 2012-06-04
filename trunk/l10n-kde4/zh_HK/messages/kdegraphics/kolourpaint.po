@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-14 05:00+0200\n"
+"POT-Creation-Date: 2012-06-04 04:15+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -691,7 +691,7 @@ msgid ""
 "the image so that it is the same size as it is displayed on the screen, set "
 "the image's DPI values to be the same as the screen's.</p><p>If either DPI "
 "value is <b>Unspecified</b>, the image will also be printed to be the same "
-"size as on the screen.</p><p>Not all image formats support DPI values.  If "
+"size as on the screen.</p><p>Not all image formats support DPI values. If "
 "the format you save in does not support them, they will not be saved.</p></"
 "qt>"
 msgstr ""
@@ -737,7 +737,7 @@ msgid ""
 "probably a comment area that you can freely write any text in.</"
 "p><p>However, this is format-specific so the fields could theoretically be "
 "computer-interpreted data - that you should not modify - but this is "
-"unlikely.</p><p>Not all image formats support <b>Text Fields</b>.  If the "
+"unlikely.</p><p>Not all image formats support <b>Text Fields</b>. If the "
 "format you save in does not support them, they will not be saved.</p></qt>"
 msgstr ""
 
@@ -2028,6 +2028,17 @@ msgstr "縮圖"
 msgid "Unzoomed Mode - Thumbnail"
 msgstr "放大縮圖模式(&M)"
 
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:226
+#, kde-format
+msgid "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
+msgstr ""
+
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:233
+msgid ""
+"<p>Color Similarity: Exact Match</p><p align=\"center\">Click to configure.</"
+"p>"
+msgstr ""
+
 #: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:72
 msgid ""
 "<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of different "
@@ -2045,7 +2056,7 @@ msgid ""
 "<i>similar</i> - but not identical - colored pixels, a higher setting is "
 "more likely to crop the whole border.</li></ul><p>Higher settings mean that "
 "operations consider an increased range of colors to be sufficiently "
-"<i>similar</i> so as to be the same.  Therefore, you should increase the "
+"<i>similar</i> so as to be the same. Therefore, you should increase the "
 "setting if the above operations are not affecting pixels whose colors you "
 "consider to be similar enough.</p><p>However, if they are having too much of "
 "an effect and are changing pixels whose colors you do not consider to be "
@@ -2070,23 +2081,12 @@ msgid ""
 "<i>similar</i> - but not identical - colored pixels, a higher setting is "
 "more likely to crop the whole border.</li></ul><p>Higher settings mean that "
 "operations consider an increased range of colors to be sufficiently "
-"<i>similar</i> so as to be the same.  Therefore, you should increase the "
+"<i>similar</i> so as to be the same. Therefore, you should increase the "
 "setting if the above operations are not affecting pixels whose colors you "
 "consider to be similar enough.</p><p>However, if they are having too much of "
 "an effect and are changing pixels whose colors you do not consider to be "
 "similar (e.g. if <b>Flood Fill</b> is changing too many pixels), you should "
 "decrease this setting.</p></qt>"
-msgstr ""
-
-#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:226
-#, kde-format
-msgid "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
-msgstr ""
-
-#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:233
-msgid ""
-"<p>Color Similarity: Exact Match</p><p align=\"center\">Click to configure.</"
-"p>"
 msgstr ""
 
 #: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:66
