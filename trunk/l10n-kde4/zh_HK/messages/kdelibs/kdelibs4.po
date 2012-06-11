@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 04:26+0200\n"
+"POT-Creation-Date: 2012-06-11 04:48+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -877,7 +877,7 @@ msgstr "工具(&T)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:148
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:442 khtml/ecma/debugger/debugwindow.cpp:240
+#: rc.cpp:442 khtml/ecma/debugger/debugwindow.cpp:243
 msgid "&Settings"
 msgstr "設定(&S)"
 
@@ -2814,7 +2814,7 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr ""
 
-#: kde3support/kdeui/k3wizard.cpp:48
+#: kde3support/kdeui/k3wizard.cpp:48 kdeui/actions/kstandardaction_p.h:90
 msgid "&Back"
 msgstr "上一步(&B)"
 
@@ -5810,31 +5810,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "自動更正"
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:55
-#: kdeui/actions/ktogglefullscreenaction.cpp:85
-#: kdeui/actions/kstandardaction_p.h:101
-msgid "F&ull Screen Mode"
-msgstr "全螢幕模式(&U)"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:51
-#: kdeui/actions/ktogglefullscreenaction.cpp:58
-#: kdeui/actions/ktogglefullscreenaction.cpp:86
-#, fuzzy
-#| msgid "Full Screen Mode"
-msgid "Full Screen"
-msgstr "全螢幕模式"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:81
-msgid "Exit F&ull Screen Mode"
-msgstr "離開全螢幕模式(&U)"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
-#, fuzzy
-#| msgid "Exit F&ull Screen Mode"
-msgid "Exit Full Screen"
-msgstr "離開全螢幕模式(&U)"
-
 #: kdeui/actions/kaction.cpp:122
 #, kde-format
 msgid ""
@@ -5883,21 +5858,21 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: kdeui/actions/kstandardaction.cpp:516 kdeui/actions/kstandardaction_p.h:98
+#: kdeui/actions/kstandardaction.cpp:521 kdeui/actions/kstandardaction_p.h:98
 msgid "Show &Menubar"
 msgstr "顯示選單列(&M)"
 
-#: kdeui/actions/kstandardaction.cpp:522
+#: kdeui/actions/kstandardaction.cpp:527
 #, fuzzy
 #| msgid "Show Menubar<p>Shows the menubar again after it has been hidden"
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "顯示選單列<p>隱藏選單列後再次顯示它"
 
-#: kdeui/actions/kstandardaction.cpp:539 kdeui/actions/kstandardaction_p.h:100
+#: kdeui/actions/kstandardaction.cpp:544 kdeui/actions/kstandardaction_p.h:100
 msgid "Show St&atusbar"
 msgstr "顯示狀態列(&A)"
 
-#: kdeui/actions/kstandardaction.cpp:542
+#: kdeui/actions/kstandardaction.cpp:547
 #, fuzzy
 #| msgid ""
 #| "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
@@ -5906,6 +5881,46 @@ msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
 "window used for status information.</p>"
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:48
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "Exit F&ull Screen Mode"
+msgstr "離開全螢幕模式(&U)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:49
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@action:intoolbar"
+msgid "Exit Full Screen"
+msgstr "離開全螢幕模式(&U)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:50
+#, fuzzy
+#| msgid "Exit F&ull Screen Mode"
+msgctxt "@info:tooltip"
+msgid "Exit full screen mode"
+msgstr "離開全螢幕模式(&U)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:53
+#, fuzzy
+#| msgid "F&ull Screen Mode"
+msgctxt "@action:inmenu"
+msgid "F&ull Screen Mode"
+msgstr "全螢幕模式(&U)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:54
+#, fuzzy
+#| msgid "Full Screen Mode"
+msgctxt "@action:intoolbar"
+msgid "Full Screen"
+msgstr "全螢幕模式"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+msgctxt "@info:tooltip"
+msgid "Display the window in full screen"
+msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
@@ -6146,6 +6161,82 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1%"
 
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Shortcut Schemes"
+msgstr "快速鍵"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Current scheme:"
+msgstr "目前的動作(&E)："
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
+#, fuzzy
+#| msgid "New List..."
+msgid "New..."
+msgstr "新清單..."
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
+msgid "Delete"
+msgstr "刪除"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
+#, fuzzy
+#| msgid "Action"
+msgid "More Actions"
+msgstr "動作"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
+#, fuzzy
+#| msgid "Defaults"
+msgid "Save as Scheme Defaults"
+msgstr "預設值"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
+msgid "Export Scheme..."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
+msgid "Name for New Scheme"
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "Name for new scheme:"
+msgstr "目前的動作(&E)："
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
+#, fuzzy
+#| msgid "Curr&ent actions:"
+msgid "New Scheme"
+msgstr "目前的動作(&E)："
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
+#, fuzzy
+msgid "A scheme with this name already exists."
+msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
+#, kde-format
+msgid ""
+"Do you really want to delete the scheme %1?\n"
+"Note that this will not remove any system wide shortcut schemes."
+msgstr ""
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
+#, fuzzy
+#| msgid "Click to select a font"
+msgid "Export to Location"
+msgstr "選擇一個字型"
+
+#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
+msgid "Could not export shortcuts scheme because the location is invalid."
+msgstr ""
+
 #: kdeui/dialogs/kswitchlanguagedialog_p.cpp:98
 #, fuzzy
 #| msgid "sets the application name"
@@ -6371,82 +6462,6 @@ msgstr "選擇圖片的一份區域"
 #: kdeui/dialogs/kpixmapregionselectordialog.cpp:68
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr "請按下並拖曳圖片來選擇一份區域："
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:41
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shortcut Schemes"
-msgstr "快速鍵"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:59
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "Current scheme:"
-msgstr "目前的動作(&E)："
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:69
-#, fuzzy
-#| msgid "New List..."
-msgid "New..."
-msgstr "新清單..."
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:72
-msgid "Delete"
-msgstr "刪除"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:75
-#, fuzzy
-#| msgid "Action"
-msgid "More Actions"
-msgstr "動作"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:79
-#, fuzzy
-#| msgid "Defaults"
-msgid "Save as Scheme Defaults"
-msgstr "預設值"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Export Scheme..."
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:98
-msgid "Name for New Scheme"
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "Name for new scheme:"
-msgstr "目前的動作(&E)："
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-#, fuzzy
-#| msgid "Curr&ent actions:"
-msgid "New Scheme"
-msgstr "目前的動作(&E)："
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:105
-#, fuzzy
-msgid "A scheme with this name already exists."
-msgstr "這個認證證書項目名稱已經存在，你要置換掉嗎？"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:133
-#, kde-format
-msgid ""
-"Do you really want to delete the scheme %1?\n"
-"Note that this will not remove any system wide shortcut schemes."
-msgstr ""
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:162
-#, fuzzy
-#| msgid "Click to select a font"
-msgid "Export to Location"
-msgstr "選擇一個字型"
-
-#: kdeui/dialogs/kshortcutschemeseditor.cpp:171
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:67
 msgid ""
@@ -6901,7 +6916,7 @@ msgid "Warning"
 msgstr "警告"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:818 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:872 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "錯誤"
@@ -8898,7 +8913,7 @@ msgstr "開啟檔案"
 msgid "&Quit"
 msgstr "離開(&Q)"
 
-#: kdeui/util/kstandardguiitem.cpp:255
+#: kdeui/util/kstandardguiitem.cpp:255 kdeui/actions/kstandardaction_p.h:53
 msgid "Quit application"
 msgstr "結束應用程式"
 
@@ -10594,7 +10609,7 @@ msgstr "向上移動(&U)"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:941
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:995
 msgid "Clear &History"
 msgstr "清除歷史紀錄(&H)"
 
@@ -11927,30 +11942,6 @@ msgstr ""
 msgid "GUI for the khtml regression tester"
 msgstr ""
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 像素)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 像素"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 像素)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "圖像 - %1x%2 像素"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "完成。"
-
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."
 msgstr ""
@@ -12009,6 +12000,30 @@ msgstr "正規表示式(&X)"
 msgid "Regression tester for khtml"
 msgstr ""
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 像素)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 像素"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 像素)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "圖像 - %1x%2 像素"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "完成。"
+
 #: khtml/test_regression_gui_window.cpp:76
 #, fuzzy
 msgid "Available Tests: 0"
@@ -12028,7 +12043,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
+#: khtml/ecma/debugger/debugwindow.cpp:195
 msgid "Continue"
 msgstr "繼續"
 
@@ -12377,90 +12392,6 @@ msgstr ""
 msgid "Breakpoint"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "JavaScript 除錯器"
-
-#: khtml/ecma/debugger/debugwindow.cpp:186
-msgid "&Break at Next Statement"
-msgstr "在下一個敘述中斷(&B)"
-
-#: khtml/ecma/debugger/debugwindow.cpp:187
-#, fuzzy
-#| msgid "&Break at Next Statement"
-msgid "Break at Next"
-msgstr "在下一個敘述中斷(&B)"
-
-#: khtml/ecma/debugger/debugwindow.cpp:199
-#, fuzzy
-msgid "Step Over"
-msgstr "單步執行"
-
-#: khtml/ecma/debugger/debugwindow.cpp:206
-#, fuzzy
-msgid "Step Into"
-msgstr "單步執行"
-
-#: khtml/ecma/debugger/debugwindow.cpp:213
-#, fuzzy
-msgid "Step Out"
-msgstr "單步執行"
-
-#: khtml/ecma/debugger/debugwindow.cpp:219
-#, fuzzy
-#| msgid "Resources"
-msgid "Reindent Sources"
-msgstr "資源"
-
-#: khtml/ecma/debugger/debugwindow.cpp:224
-#, fuzzy
-#| msgid "Action"
-msgid "Report Exceptions"
-msgstr "動作"
-
-#: khtml/ecma/debugger/debugwindow.cpp:232
-msgid "&Debug"
-msgstr ""
-
-#: khtml/ecma/debugger/debugwindow.cpp:266
-#, fuzzy
-#| msgid "Close Document"
-msgid "Close source"
-msgstr "關閉文件"
-
-#: khtml/ecma/debugger/debugwindow.cpp:272
-#, fuzzy
-msgid "Ready"
-msgstr "重新載入"
-
-#: khtml/ecma/debugger/debugwindow.cpp:621
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "%1 第 %2 行語法錯誤"
-
-#: khtml/ecma/debugger/debugwindow.cpp:658
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"執行命令稿時發生錯誤。\n"
-"\n"
-"%1 第 %2 行：%3"
-
-#: khtml/ecma/debugger/debugwindow.cpp:853
-msgid ""
-"Do not know where to evaluate the expression. Please pause a script or open "
-"a source file."
-msgstr ""
-
-#: khtml/ecma/debugger/debugwindow.cpp:889
-#, kde-format
-msgid "Evaluation threw an exception %1"
-msgstr ""
-
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 #, fuzzy
 msgid "Loaded Scripts"
@@ -12475,6 +12406,90 @@ msgstr ""
 #| msgid "Reference error"
 msgid "Reference"
 msgstr "參考錯誤"
+
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "JavaScript 除錯器"
+
+#: khtml/ecma/debugger/debugwindow.cpp:189
+msgid "&Break at Next Statement"
+msgstr "在下一個敘述中斷(&B)"
+
+#: khtml/ecma/debugger/debugwindow.cpp:190
+#, fuzzy
+#| msgid "&Break at Next Statement"
+msgid "Break at Next"
+msgstr "在下一個敘述中斷(&B)"
+
+#: khtml/ecma/debugger/debugwindow.cpp:202
+#, fuzzy
+msgid "Step Over"
+msgstr "單步執行"
+
+#: khtml/ecma/debugger/debugwindow.cpp:209
+#, fuzzy
+msgid "Step Into"
+msgstr "單步執行"
+
+#: khtml/ecma/debugger/debugwindow.cpp:216
+#, fuzzy
+msgid "Step Out"
+msgstr "單步執行"
+
+#: khtml/ecma/debugger/debugwindow.cpp:222
+#, fuzzy
+#| msgid "Resources"
+msgid "Reindent Sources"
+msgstr "資源"
+
+#: khtml/ecma/debugger/debugwindow.cpp:227
+#, fuzzy
+#| msgid "Action"
+msgid "Report Exceptions"
+msgstr "動作"
+
+#: khtml/ecma/debugger/debugwindow.cpp:235
+msgid "&Debug"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:269
+#, fuzzy
+#| msgid "Close Document"
+msgid "Close source"
+msgstr "關閉文件"
+
+#: khtml/ecma/debugger/debugwindow.cpp:275
+#, fuzzy
+msgid "Ready"
+msgstr "重新載入"
+
+#: khtml/ecma/debugger/debugwindow.cpp:624
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "%1 第 %2 行語法錯誤"
+
+#: khtml/ecma/debugger/debugwindow.cpp:661
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"執行命令稿時發生錯誤。\n"
+"\n"
+"%1 第 %2 行：%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:856
+msgid ""
+"Do not know where to evaluate the expression. Please pause a script or open "
+"a source file."
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:892
+#, kde-format
+msgid "Evaluation threw an exception %1"
+msgstr ""
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "
@@ -12645,34 +12660,34 @@ msgstr "找不到給 %1 用的處理器項目!"
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:797
+#: khtml/rendering/render_form.cpp:851
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "快速鍵"
 
-#: khtml/rendering/render_form.cpp:818
+#: khtml/rendering/render_form.cpp:872
 #, fuzzy, kde-format
 #| msgctxt "Socket error code AlreadyCreated"
 #| msgid "socket is already created"
 msgid "%1 is already assigned to %2"
 msgstr "Socket 早已被建立"
 
-#: khtml/rendering/render_form.cpp:863
+#: khtml/rendering/render_form.cpp:917
 msgid "Search &provider name:"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:865
+#: khtml/rendering/render_form.cpp:919
 msgid "New search provider"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:870
+#: khtml/rendering/render_form.cpp:924
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "快速鍵"
 
-#: khtml/rendering/render_form.cpp:956
+#: khtml/rendering/render_form.cpp:1010
 #, fuzzy
 #| msgid "Clear shortcut"
 msgid "Create Web Shortcut"
@@ -13661,7 +13676,7 @@ msgstr "上傳檔案"
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
 msgid ""
-"This items costs %1 %2.\n"
+"This item costs %1 %2.\n"
 "Do you want to buy it?"
 msgstr ""
 
@@ -14413,19 +14428,6 @@ msgstr "組態設定"
 msgid "Invalid type in Database"
 msgstr "無效的 reference base"
 
-#: nepomuk/query/query.cpp:696
-#, kde-format
-msgctxt ""
-"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-"user entered."
-msgid "Query Results from '%1'"
-msgstr ""
-
-#: nepomuk/query/query.cpp:702
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
-msgid "Query Results"
-msgstr ""
-
 #: nepomuk/query/queryparser.cpp:544
 #, fuzzy
 #| msgid "Esfand"
@@ -14447,6 +14449,19 @@ msgctxt ""
 "keyword."
 msgid "or"
 msgstr "Mor"
+
+#: nepomuk/query/query.cpp:687
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr ""
+
+#: nepomuk/query/query.cpp:693
+msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing."
+msgid "Query Results"
+msgstr ""
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -15014,6 +15029,12 @@ msgstr "-預設-"
 msgid "-unnamed-"
 msgstr "-未命名-"
 
+#: interfaces/terminal/example/main.cc:32
+#, fuzzy
+#| msgid "Test"
+msgid "TETest"
+msgstr "Test"
+
 #: kdecore/services/kmimetypetrader.h:136
 #: kdecore/services/kmimetypetrader.h:169
 #: kdecore/services/kservicetypetrader.h:192
@@ -15033,13 +15054,54 @@ msgstr ""
 msgid "&New"
 msgstr "開新檔案(&N)"
 
+#: kdeui/actions/kstandardaction_p.h:43
+#, fuzzy
+#| msgid "Clear shortcut"
+msgid "Create new document"
+msgstr "清除快速鍵"
+
+#: kdeui/actions/kstandardaction_p.h:44
+msgid "Open an existing document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:45
 msgid "Open &Recent"
 msgstr "開啟最近的(&R)"
 
+#: kdeui/actions/kstandardaction_p.h:45
+msgid "Open a document which was recently opened"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:46
+#, fuzzy
+#| msgid "Close Document"
+msgid "Save document"
+msgstr "關閉文件"
+
+#: kdeui/actions/kstandardaction_p.h:47
+msgid "Save document under a new name"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:48
 msgid "Re&vert"
 msgstr "恢復(&V)"
+
+#: kdeui/actions/kstandardaction_p.h:48
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:49
+#, fuzzy
+#| msgid "Close Document"
+msgid "Close document"
+msgstr "關閉文件"
+
+#: kdeui/actions/kstandardaction_p.h:50
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Print Screen"
+msgid "Print document"
+msgstr "PrintScreen"
 
 #: kdeui/actions/kstandardaction_p.h:51
 #, fuzzy
@@ -15047,25 +15109,57 @@ msgstr "恢復(&V)"
 msgid "Print Previe&w"
 msgstr "預覽列印(&W)..."
 
+#: kdeui/actions/kstandardaction_p.h:51
+msgid "Show a print preview of document"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:52
 msgid "&Mail..."
 msgstr "郵寄(&M)..."
+
+#: kdeui/actions/kstandardaction_p.h:52
+msgid "Send document by mail"
+msgstr ""
+
+#: kdeui/actions/kstandardaction_p.h:55
+msgid "Undo last action"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:56
 msgid "Re&do"
 msgstr "重做(&D)"
 
+#: kdeui/actions/kstandardaction_p.h:56
+#, fuzzy
+#| msgid "HTML documentation"
+msgid "Redo last undone action"
+msgstr "HTML 文件"
+
 #: kdeui/actions/kstandardaction_p.h:57
 msgid "Cu&t"
 msgstr "剪下(&T)"
+
+#: kdeui/actions/kstandardaction_p.h:57
+msgid "Cut selection to clipboard"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:58
 msgid "&Copy"
 msgstr "複製(&C)"
 
+#: kdeui/actions/kstandardaction_p.h:58
+msgid "Copy selection to clipboard"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
 msgid "&Paste"
 msgstr "貼上(&P)"
+
+#: kdeui/actions/kstandardaction_p.h:59 kdeui/actions/kstandardaction_p.h:60
+#, fuzzy
+#| msgid "Upload Info"
+msgid "Paste clipboard content"
+msgstr "上傳資訊"
 
 #: kdeui/actions/kstandardaction_p.h:62
 msgid "Select &All"
@@ -15091,17 +15185,33 @@ msgstr "取代(&R)..."
 msgid "&Actual Size"
 msgstr "實際大小(&A)"
 
+#: kdeui/actions/kstandardaction_p.h:69
+msgid "View document at its actual size"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:70
 msgid "&Fit to Page"
 msgstr "調整成適合頁面大小(&F)"
+
+#: kdeui/actions/kstandardaction_p.h:70
+msgid "Zoom to fit page in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:71
 msgid "Fit to Page &Width"
 msgstr "調整成適合頁面寬度(&W)"
 
+#: kdeui/actions/kstandardaction_p.h:71
+msgid "Zoom to fit page width in window"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:72
 msgid "Fit to Page &Height"
 msgstr "調整成適合頁面高度(&H)"
+
+#: kdeui/actions/kstandardaction_p.h:72
+msgid "Zoom to fit page height in window"
+msgstr ""
 
 #: kdeui/actions/kstandardaction_p.h:73
 msgid "Zoom &In"
@@ -15115,21 +15225,49 @@ msgstr "縮小(&O)"
 msgid "&Zoom..."
 msgstr "縮放(&Z)..."
 
+#: kdeui/actions/kstandardaction_p.h:75
+#, fuzzy
+#| msgid "Select a week"
+msgid "Select zoom level"
+msgstr "選擇一個星期"
+
 #: kdeui/actions/kstandardaction_p.h:76
 msgid "&Redisplay"
+msgstr "重新顯示(&R)"
+
+#: kdeui/actions/kstandardaction_p.h:76
+#, fuzzy
+#| msgid "&Redisplay"
+msgid "Redisplay document"
 msgstr "重新顯示(&R)"
 
 #: kdeui/actions/kstandardaction_p.h:78
 msgid "&Up"
 msgstr "向上(&U)"
 
+#: kdeui/actions/kstandardaction_p.h:78
+msgid "Go up"
+msgstr ""
+
 #: kdeui/actions/kstandardaction_p.h:83
 msgid "&Previous Page"
+msgstr "前一頁(&P)"
+
+#: kdeui/actions/kstandardaction_p.h:83
+#, fuzzy
+#| msgid "&Previous Page"
+msgid "Go to previous page"
 msgstr "前一頁(&P)"
 
 #: kdeui/actions/kstandardaction_p.h:84
 msgid "&Next Page"
 msgstr "下一頁(&N)"
+
+#: kdeui/actions/kstandardaction_p.h:84
+#, fuzzy
+#| msgid "Go to Line"
+msgid "Go to next page"
+msgstr "跳至行數"
 
 #: kdeui/actions/kstandardaction_p.h:85
 msgid "&Go To..."
@@ -15147,17 +15285,40 @@ msgstr "跳至行數(&G)..."
 msgid "&First Page"
 msgstr "第一頁(&F)"
 
+#: kdeui/actions/kstandardaction_p.h:88
+#, fuzzy
+#| msgid "Go to Line"
+msgid "Go to first page"
+msgstr "跳至行數"
+
 #: kdeui/actions/kstandardaction_p.h:89
 msgid "&Last Page"
 msgstr "最後一頁(&L)"
 
+#: kdeui/actions/kstandardaction_p.h:89
+#, fuzzy
+#| msgid "&Go to Page..."
+msgid "Go to last page"
+msgstr "移至頁面(&G)..."
+
 #: kdeui/actions/kstandardaction_p.h:90
-msgid "&Back in the Document"
-msgstr ""
+#, fuzzy
+#| msgid "Go back one step"
+msgid "Go back in document"
+msgstr "返回上一個步驟"
 
 #: kdeui/actions/kstandardaction_p.h:91
-msgid "&Forward in the Document"
-msgstr ""
+#, fuzzy
+#| msgctxt "go forward"
+#| msgid "&Forward"
+msgid "&Forward"
+msgstr "往前(&F)"
+
+#: kdeui/actions/kstandardaction_p.h:91
+#, fuzzy
+#| msgid "Go forward one step"
+msgid "Go forward in document"
+msgstr "前進到下一個步驟"
 
 #: kdeui/actions/kstandardaction_p.h:93
 msgid "&Add Bookmark"
@@ -15171,9 +15332,37 @@ msgstr "編輯書籤(&E)..."
 msgid "&Spelling..."
 msgstr "拼字檢查(&S)..."
 
+#: kdeui/actions/kstandardaction_p.h:96
+#, fuzzy
+#| msgid "Check Spelling"
+msgid "Check spelling in document"
+msgstr "拼字檢查"
+
+#: kdeui/actions/kstandardaction_p.h:98
+#, fuzzy
+#| msgid "Show &Menubar"
+msgid "Show or hide menubar"
+msgstr "顯示選單列(&M)"
+
 #: kdeui/actions/kstandardaction_p.h:99
 msgid "Show &Toolbar"
 msgstr "顯示工具列(&T)"
+
+#: kdeui/actions/kstandardaction_p.h:99
+#, fuzzy
+#| msgid "Show &Toolbar"
+msgid "Show or hide toolbar"
+msgstr "顯示工具列(&T)"
+
+#: kdeui/actions/kstandardaction_p.h:100
+#, fuzzy
+#| msgid "Show St&atusbar"
+msgid "Show or hide statusbar"
+msgstr "顯示狀態列(&A)"
+
+#: kdeui/actions/kstandardaction_p.h:101
+msgid "F&ull Screen Mode"
+msgstr "全螢幕模式(&U)"
 
 #: kdeui/actions/kstandardaction_p.h:102
 msgid "&Save Settings"
@@ -15274,11 +15463,6 @@ msgstr "pm"
 #~ msgstr "隱藏選單列(&M)"
 
 #, fuzzy
-#~| msgid "Show St&atusbar"
-#~ msgid "Show Statusbar"
-#~ msgstr "顯示狀態列(&A)"
-
-#, fuzzy
 #~| msgid "Hide St&atusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "隱藏狀態列(&A)"
@@ -15301,11 +15485,6 @@ msgstr "pm"
 #~ msgid "Media"
 #~ msgstr "Meta"
 
-#, fuzzy
-#~| msgid "Show &Toolbar"
-#~ msgid "Show Toolbar"
-#~ msgstr "顯示工具列(&T)"
-
 #~ msgid "Hide Toolbar"
 #~ msgstr "隱藏工具列"
 
@@ -15321,11 +15500,6 @@ msgstr "pm"
 #~| msgid "KIOTest"
 #~ msgid "KrossTest"
 #~ msgstr "KIOTest"
-
-#, fuzzy
-#~| msgid "Test"
-#~ msgid "TETest"
-#~ msgstr "Test"
 
 #~ msgid "Find stopped."
 #~ msgstr "已停止搜尋。"
