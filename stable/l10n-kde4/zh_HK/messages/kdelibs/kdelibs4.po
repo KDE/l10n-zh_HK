@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5330,54 +5330,6 @@ msgstr "不明的錯誤"
 msgid "Operation not supported"
 msgstr "動作不被支援"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "沒有錯誤"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "節點的位址群組不支援"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "網域名稱查詢暫時性錯誤"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "‘ai_flags’的值錯誤"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "網域名稱查詢無法回復的錯誤"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "‘ai_family’不支援"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "記憶體配置錯誤"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "此節點相關位址不存在"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "未知的主機名稱或服務"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "ai_socktype 不支援的服務名稱 (servname)"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "不支援 ai_socktype"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "系統錯誤"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "NEC SOCKS 客戶端"
@@ -5391,13 +5343,33 @@ msgstr "Dante SOCKS 客戶端"
 msgid "Timed out trying to connect to remote host"
 msgstr ""
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "沒有錯誤"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr "這個主機名稱不支援要求的族類"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "網域名稱查詢暫時性錯誤"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "網域名稱查詢無法回復的錯誤"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "錯誤的旗號"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "記憶體配置錯誤"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "未知的主機名稱或服務"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5506,6 +5478,34 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "不明的錯誤"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "節點的位址群組不支援"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "‘ai_flags’的值錯誤"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "‘ai_family’不支援"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "此節點相關位址不存在"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "ai_socktype 不支援的服務名稱 (servname)"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "不支援 ai_socktype"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "系統錯誤"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, fuzzy, kde-format
@@ -5810,20 +5810,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "自動更正"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-#, fuzzy
-#| msgid "Ambiguous \"%1\" not handled"
-msgid "Ambiguous shortcut detected"
-msgstr "含糊的 \"%1\" 沒有被處理"
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 #, fuzzy
 msgid "No Entries"
@@ -5921,6 +5907,20 @@ msgstr "全螢幕模式"
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+#, fuzzy
+#| msgid "Ambiguous \"%1\" not handled"
+msgid "Ambiguous shortcut detected"
+msgstr "含糊的 \"%1\" 沒有被處理"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
