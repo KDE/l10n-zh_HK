@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-24 12:03+0200\n"
+"POT-Creation-Date: 2012-06-25 12:35+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -11448,30 +11448,6 @@ msgstr "另存新檔"
 msgid "Inactive"
 msgstr "相對"
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 像素)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 像素"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 像素)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "圖像 - %1x%2 像素"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "完成。"
-
 #: khtml/khtml_part.cpp:252
 msgid "View Do&cument Source"
 msgstr "檢視文件原始碼(&C)"
@@ -11962,6 +11938,30 @@ msgstr "顯示已擋下視窗的提示(&N)"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "設定 &JavaScript 新視窗規則..."
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 像素)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 像素"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 像素)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "圖像 - %1x%2 像素"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "完成。"
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr ""
@@ -12270,36 +12270,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "語文(&I)"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_window.cpp:1660 khtml/ecma/kjs_html.cpp:2166
 msgid "Confirmation: JavaScript Popup"
 msgstr "確認：Javascript 彈出視窗"
-
-#: khtml/ecma/kjs_html.cpp:2168
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
-"你要允許表格被提交嗎？"
-
-#: khtml/ecma/kjs_html.cpp:2171
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
-"%1</p>你要批准提交表格嗎？</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Allow"
-msgstr "允許"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Do Not Allow"
-msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1663
 msgid ""
@@ -12317,6 +12290,14 @@ msgid ""
 msgstr ""
 "此網站試圖使用 Javascript 在一個新的瀏覽器視窗開啟<p>%1</p>。\n"
 "你允許這個動作嗎？"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Allow"
+msgstr "允許"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Do Not Allow"
+msgstr "不允許"
 
 #: khtml/ecma/kjs_window.cpp:1981
 msgid "Close window?"
@@ -12351,6 +12332,25 @@ msgstr "插入"
 #: khtml/ecma/kjs_window.cpp:2899
 msgid "Disallow"
 msgstr "不允許"
+
+#: khtml/ecma/kjs_html.cpp:2168
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"這個網站正在提交表格。這樣會使得 JavaScript 開啟一個新的瀏覽器視窗。\n"
+"你要允許表格被提交嗎？"
+
+#: khtml/ecma/kjs_html.cpp:2171
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>這個網站準備提交表格，它會透過 JavaScript 開啟一個新的瀏覽器視窗顯示<p>"
+"%1</p>你要批准提交表格嗎？</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
