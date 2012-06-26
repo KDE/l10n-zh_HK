@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-07 04:07+0100\n"
+"POT-Creation-Date: 2012-06-26 10:49+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -707,7 +707,7 @@ msgstr ""
 msgid "Scan"
 msgstr ""
 
-#: kookaview.cpp:323 kookaview.cpp:604 kookaview.cpp:620 scangallery.cpp:127
+#: kookaview.cpp:323 kookaview.cpp:604 kookaview.cpp:620 scangallery.cpp:128
 msgid "Gallery"
 msgstr ""
 
@@ -1187,12 +1187,21 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: ocrgocrengine.cpp:73
+#: ocrgocrengine.cpp:84
 msgid ""
 "<qt><p><b>GOCR</b> (sometimes known as <b>JOCR</b>) is an open source OCR "
 "engine, originally started by Joerg&nbsp;Schulenburg and now with a team of "
 "active developers. <p>See <a href=\"http://jocr.sourceforge.net\">jocr."
 "sourceforge.net</a> for more information on GOCR."
+msgstr ""
+
+#: ocrgocrengine.cpp:197
+#, kde-format
+msgid "<qt>Cannot read GOCR result file <filename>%1</filename><br/>%2"
+msgstr ""
+
+#: ocrgocrengine.cpp:199
+msgid "GOCR Result File Error"
 msgstr ""
 
 #: ocrkadmosdialog.cpp:60 ocrkadmosdialog.cpp:190
@@ -1701,145 +1710,145 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#: scangallery.cpp:169
+#: scangallery.cpp:170
 msgid "Kooka Gallery"
 msgstr ""
 
-#: scangallery.cpp:362
+#: scangallery.cpp:363
 msgid "empty"
 msgstr ""
 
-#: scangallery.cpp:365
+#: scangallery.cpp:366
 #, kde-format
 msgid "one image"
 msgid_plural "%1 images"
 msgstr[0] ""
 
-#: scangallery.cpp:366
+#: scangallery.cpp:367
 #, fuzzy, kde-format
 #| msgid "Enter filename:"
 msgid "one file"
 msgid_plural "%1 files"
 msgstr[0] "輸入檔案名稱:"
 
-#: scangallery.cpp:372
+#: scangallery.cpp:373
 #, kde-format
 msgid "one file, "
 msgid_plural "%1 files, "
 msgstr[0] ""
 
-#: scangallery.cpp:373
+#: scangallery.cpp:374
 #, fuzzy, kde-format
 #| msgid "Unknown image type"
 msgid "one image, "
 msgid_plural "%1 images, "
 msgstr[0] "未知圖像類型"
 
-#: scangallery.cpp:375
+#: scangallery.cpp:376
 #, kde-format
 msgid "1 folder"
 msgid_plural "%1 folders"
 msgstr[0] ""
 
-#: scangallery.cpp:414
+#: scangallery.cpp:415
 #, kde-format
 msgid " %1 x %2"
 msgstr ""
 
-#: scangallery.cpp:561
+#: scangallery.cpp:562
 msgid ""
 "You entered a file extension that differs from the existing one. That is not "
 "yet possible. Converting 'on the fly' is planned for a future release.\n"
 "Kooka corrects the extension."
 msgstr ""
 
-#: scangallery.cpp:563
+#: scangallery.cpp:564
 msgid "On the Fly Conversion"
 msgstr ""
 
-#: scangallery.cpp:658
+#: scangallery.cpp:659
 #, fuzzy
 #| msgid "Available image formats:"
 msgid "Not a valid image format"
 msgstr "可用的圖像格式:"
 
-#: scangallery.cpp:695
+#: scangallery.cpp:696
 #, kde-format
 msgid "Sub-image %1"
 msgstr ""
 
-#: scangallery.cpp:722
+#: scangallery.cpp:723
 #, kde-format
 msgid "<qt><p>Unable to load the image<br><filename>%2</filename><br><br>%1"
 msgstr ""
 
-#: scangallery.cpp:729
+#: scangallery.cpp:730
 msgid "Image Load Error"
 msgstr ""
 
-#: scangallery.cpp:817
+#: scangallery.cpp:818
 #, kde-format
 msgid "<qt>Unable to update the image<br><filename>%2</filename><br><br>%1"
 msgstr ""
 
-#: scangallery.cpp:824
+#: scangallery.cpp:825
 msgid "Save Error"
 msgstr ""
 
-#: scangallery.cpp:850
+#: scangallery.cpp:851
 msgid "Incoming/"
 msgstr ""
 
-#: scangallery.cpp:892
+#: scangallery.cpp:893
 #, kde-format
 msgid "<qt>Could not save the image<br><filename>%2</filename><br><br>%1"
 msgstr ""
 
-#: scangallery.cpp:895
+#: scangallery.cpp:896
 msgid "Image Save Error"
 msgstr ""
 
-#: scangallery.cpp:975
+#: scangallery.cpp:976
 msgid "All Files"
 msgstr ""
 
-#: scangallery.cpp:1001
+#: scangallery.cpp:1002
 msgid "Import Image File to Gallery"
 msgstr ""
 
-#: scangallery.cpp:1122
+#: scangallery.cpp:1123
 #, kde-format
 msgid ""
 "<qt>Do you really want to permanently delete the folder<br><filename>%1</"
 "filename><br>and all of its contents? It cannot be restored."
 msgstr ""
 
-#: scangallery.cpp:1129
+#: scangallery.cpp:1130
 #, kde-format
 msgid ""
 "<qt>Do you really want to permanently delete the image<br><filename>%1</"
 "filename>?<br>It cannot be restored."
 msgstr ""
 
-#: scangallery.cpp:1136
+#: scangallery.cpp:1137
 msgid "Delete Gallery Item"
 msgstr ""
 
-#: scangallery.cpp:1146
+#: scangallery.cpp:1147
 #, kde-format
 msgid ""
 "<qt>Could not delete the image or folder<br><filename>%2</filename><br><br>%1"
 msgstr ""
 
-#: scangallery.cpp:1149
+#: scangallery.cpp:1150
 msgid "File Delete Error"
 msgstr ""
 
-#: scangallery.cpp:1181
+#: scangallery.cpp:1182
 msgid "New Folder"
 msgstr ""
 
-#: scangallery.cpp:1182
+#: scangallery.cpp:1183
 msgid "Name for the new folder:"
 msgstr ""
 
