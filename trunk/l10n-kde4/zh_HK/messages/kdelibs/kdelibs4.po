@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 07:39+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -10535,6 +10535,59 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "預設"
 
+#: kdeui/widgets/kdatepicker.cpp:174
+#, kde-format
+msgid "Week %1"
+msgstr "第 %1 週"
+
+#: kdeui/widgets/kdatepicker.cpp:278
+msgid "Next year"
+msgstr "下一年"
+
+#: kdeui/widgets/kdatepicker.cpp:279
+msgid "Previous year"
+msgstr "前一年"
+
+#: kdeui/widgets/kdatepicker.cpp:280
+msgid "Next month"
+msgstr "下一個月"
+
+#: kdeui/widgets/kdatepicker.cpp:281
+msgid "Previous month"
+msgstr "上一個月"
+
+#: kdeui/widgets/kdatepicker.cpp:282
+msgid "Select a week"
+msgstr "選擇一個星期"
+
+#: kdeui/widgets/kdatepicker.cpp:283
+msgid "Select a month"
+msgstr "選擇一個月份"
+
+#: kdeui/widgets/kdatepicker.cpp:284
+msgid "Select a year"
+msgstr "選擇一個年份"
+
+#: kdeui/widgets/kdatepicker.cpp:285
+msgid "Select the current day"
+msgstr "選擇一個日期"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "新增(&A)"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "向上移動(&U)"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "向下移動(&D)"
+
 #: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
 #| msgid "Show help"
@@ -10629,72 +10682,19 @@ msgstr "大型 (%1x%2)"
 msgid "Lock Toolbar Positions"
 msgstr "工具列"
 
-#: kdeui/widgets/ktoolbar.cpp:1321
+#: kdeui/widgets/ktoolbar.cpp:1326
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/widgets/ktoolbar.cpp:1322
+#: kdeui/widgets/ktoolbar.cpp:1327
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1%"
-
-#: kdeui/widgets/kdatepicker.cpp:174
-#, kde-format
-msgid "Week %1"
-msgstr "第 %1 週"
-
-#: kdeui/widgets/kdatepicker.cpp:278
-msgid "Next year"
-msgstr "下一年"
-
-#: kdeui/widgets/kdatepicker.cpp:279
-msgid "Previous year"
-msgstr "前一年"
-
-#: kdeui/widgets/kdatepicker.cpp:280
-msgid "Next month"
-msgstr "下一個月"
-
-#: kdeui/widgets/kdatepicker.cpp:281
-msgid "Previous month"
-msgstr "上一個月"
-
-#: kdeui/widgets/kdatepicker.cpp:282
-msgid "Select a week"
-msgstr "選擇一個星期"
-
-#: kdeui/widgets/kdatepicker.cpp:283
-msgid "Select a month"
-msgstr "選擇一個月份"
-
-#: kdeui/widgets/kdatepicker.cpp:284
-msgid "Select a year"
-msgstr "選擇一個年份"
-
-#: kdeui/widgets/kdatepicker.cpp:285
-msgid "Select the current day"
-msgstr "選擇一個日期"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "新增(&A)"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "移除(&R)"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "向上移動(&U)"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "向下移動(&D)"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -12664,10 +12664,6 @@ msgstr ""
 msgid "No handler found for %1."
 msgstr "找不到給 %1 用的處理器項目!"
 
-#: khtml/rendering/media_controls.cpp:47
-msgid "Play"
-msgstr ""
-
 #: khtml/rendering/render_form.cpp:849
 #, fuzzy
 #| msgid "Shortcut"
@@ -12700,6 +12696,10 @@ msgstr "快速鍵"
 #| msgid "Clear shortcut"
 msgid "Create Web Shortcut"
 msgstr "清除快速鍵"
+
+#: khtml/rendering/media_controls.cpp:47
+msgid "Play"
+msgstr ""
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:58
 #, fuzzy
