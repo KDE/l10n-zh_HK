@@ -4,12 +4,11 @@
 #
 # Yun Liu <yun.liu@savoirfairelinux.com>, 2008.
 #
-#: src/widgets/calltreeitem.cpp:342
 msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-01 06:03+0200\n"
+"POT-Creation-Date: 2012-08-02 04:55+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -18,45 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: src/actionsetaccountfirst.cpp:28
-msgid "Default account"
-msgstr "默認帳戶"
-
-#: src/callview.cpp:223
-msgid "Please enter a transfer number and press enter, press escape to cancel"
-msgstr ""
-
-#: src/callview.cpp:225 src/lib/sflphone_const.h:43
-#: src/widgets/calltreeitem.cpp:233 src/widgets/historytreeitem.cpp:190
-#: src/widgets/contactitemwidget.cpp:107
-msgid "Transfer"
-msgstr "轉接"
-
-#: src/callview.cpp:410 src/widgets/bookmarkdock.cpp:130
-#: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:580
-#: src/widgets/historytreeitem.cpp:623
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown peer"
-msgid "Unknown"
-msgstr "未知"
-
-#: src/callview.cpp:561
-msgid "You call have been transferred to "
-msgstr ""
-
-#: src/conf/dlgvideo.cpp:52 src/conf/dlgvideo.cpp:118
-msgid "Stop preview"
-msgstr ""
-
-#. i18n: file: src/conf/dlgvideobase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
-#: src/conf/dlgvideo.cpp:114 rc.cpp:153
-#, fuzzy
-#| msgid "_Start hidden"
-msgid "Start preview"
-msgstr "啟動時隱藏(S)"
 
 #: src/conf/configurationdialog.cpp:56
 #, fuzzy
@@ -97,6 +57,28 @@ msgctxt "User interterface settings"
 msgid "Display"
 msgstr "顯示"
 
+#: src/conf/dlgaccounts.cpp:516
+#, fuzzy
+#| msgid "Add a new account"
+msgid "New account"
+msgstr "增加新帳戶"
+
+#: src/conf/dlgaccounts.cpp:516
+msgid "Enter new account's alias"
+msgstr ""
+
+#: src/conf/dlgvideo.cpp:54 src/conf/dlgvideo.cpp:145
+msgid "Stop preview"
+msgstr ""
+
+#. i18n: file: src/conf/dlgvideobase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:141 rc.cpp:474
+#, fuzzy
+#| msgid "_Start hidden"
+msgid "Start preview"
+msgstr "啟動時隱藏(S)"
+
 #: src/klib/dataengine/sflphonengine.cpp:282
 #, fuzzy
 #| msgid "Current account"
@@ -104,10 +86,12 @@ msgid "Current_account"
 msgstr "當前帳戶"
 
 #: src/klib/helperfunctions.cpp:45 src/widgets/contactitemwidget.cpp:248
-msgid " numbers"
-msgstr ""
+#, kde-format
+msgid "%1 number"
+msgid_plural "%1 numbers"
+msgstr[0] ""
 
-#: src/klib/helperfunctions.cpp:79 src/sflphoneview.cpp:606
+#: src/klib/helperfunctions.cpp:79 src/sflphoneview.cpp:600
 msgid "No registered accounts"
 msgstr "沒有已註冊帳戶"
 
@@ -122,6 +106,12 @@ msgstr "放電話"
 #: src/lib/sflphone_const.h:42
 msgid "Hold on"
 msgstr "呼叫保持"
+
+#: src/lib/sflphone_const.h:43 src/widgets/historytreeitem.cpp:190
+#: src/widgets/calltreeitem.cpp:233 src/widgets/contactitemwidget.cpp:107
+#: src/callview.cpp:223
+msgid "Transfer"
+msgstr "轉接"
 
 #: src/lib/sflphone_const.h:44
 msgid "Record"
@@ -147,60 +137,6 @@ msgstr "回叫"
 msgid "Voicemail"
 msgstr "語音郵件"
 
-#: src/main.cpp:66
-msgid "SFLphone KDE Client"
-msgstr "SFLphone KDE客戶端"
-
-#: src/main.cpp:70
-#, fuzzy
-#| msgid "(C) 2009 Savoir-faire Linux"
-msgid "(C) 2009-2012 Savoir-faire Linux"
-msgstr "(C) 2009 Savoir-faire Linux"
-
-#: src/main.cpp:75
-msgid "Jérémy Quentin"
-msgstr "Jérémy Quentin"
-
-#: src/main.cpp:76
-msgid "Emmanuel Lepage Vallee"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:60
-#, kde-format
-msgid "You currently have <numid>%1</numid> calls"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:62
-#, kde-format
-msgid "Call from %1, number %2"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:88
-#, kde-format
-msgid "The current call is %1"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:90
-#, kde-format
-msgid ",Your peer is %1"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:92
-#, kde-format
-msgid ", the peer phone number is %1 "
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:94
-#, fuzzy, kde-format
-#| msgid "Edit phone number"
-msgid ", the phone number is %1 "
-msgstr "編輯電話號碼"
-
-#: src/sflphoneaccessibility.cpp:98
-#, kde-format
-msgid " and you have been talking since %1 seconds"
-msgstr ""
-
 #: src/widgets/bookmarkdock.cpp:79 src/widgets/historydock.cpp:120
 #: src/widgets/contactdock.cpp:144
 msgid "Filter"
@@ -218,29 +154,18 @@ msgstr ""
 msgid "Bookmark"
 msgstr "鉤鍵"
 
+#: src/widgets/bookmarkdock.cpp:130 src/widgets/bookmarkdock.cpp:131
+#: src/widgets/historytreeitem.cpp:580 src/widgets/historytreeitem.cpp:623
+#: src/callview.cpp:408
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown peer"
+msgid "Unknown"
+msgstr "未知"
+
 #: src/widgets/bookmarkdock.cpp:185 src/widgets/bookmarkdock.cpp:192
 msgid "Popular"
 msgstr ""
-
-#: src/widgets/calltreeitem.cpp:197
-msgid "<b>Conference</b>"
-msgstr ""
-
-#: src/widgets/calltreeitem.cpp:214
-msgid "Transfer to : "
-msgstr "轉給:"
-
-#: src/widgets/calltreeitem.cpp:228
-#, fuzzy
-#| msgid "Preferences"
-msgid "Conference"
-msgstr "屬性"
-
-#: src/widgets/calltreeitem.cpp:338
-#, fuzzy
-#| msgid "Unknown"
-msgid "<b>Unknown</b>"
-msgstr "未知"
 
 #: src/widgets/historydock.cpp:94
 msgid "Sort by:"
@@ -271,7 +196,7 @@ msgctxt "Sort by date"
 msgid "Date"
 msgstr ""
 
-#: src/widgets/historydock.cpp:124
+#: src/widgets/historydock.cpp:124 src/widgets/contactdock.cpp:129
 #, fuzzy
 #| msgid "Name"
 msgctxt "Sort by Name"
@@ -292,12 +217,65 @@ msgstr ""
 msgid "History"
 msgstr "歷史"
 
-#: src/widgets/contactdock.cpp:129
+#: src/widgets/historytreeitem.cpp:103 src/widgets/contactitemwidget.cpp:68
 #, fuzzy
-#| msgid "Name"
-msgctxt "Sort by name"
-msgid "Name"
-msgstr "名稱"
+#| msgid "Call back"
+msgid "Call Again"
+msgstr "回叫"
+
+#: src/widgets/historytreeitem.cpp:107
+msgid "Add Number to Contact"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:112
+msgid "Add Contact"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:116 src/widgets/contactitemwidget.cpp:78
+msgid "Copy"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:120 src/widgets/contactitemwidget.cpp:83
+#, fuzzy
+#| msgid "_Email"
+msgid "Send Email"
+msgstr "郵件(E)"
+
+#: src/widgets/historytreeitem.cpp:131
+msgid "Remove bookmark"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:336
+msgid "Are you sure you want to delete this recording?"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:336
+#, fuzzy
+#| msgid "Recordings"
+msgid "Delete recording"
+msgstr "記錄"
+
+#: src/widgets/calltreeitem.cpp:197
+msgid "<b>Conference</b>"
+msgstr ""
+
+#: src/widgets/calltreeitem.cpp:214
+#, fuzzy
+#| msgid "Transfer to : "
+msgid "Transfer to:"
+msgstr "轉給:"
+
+#: src/widgets/calltreeitem.cpp:228
+#, fuzzy
+#| msgid "Preferences"
+msgid "Conference"
+msgstr "屬性"
+
+#: src/widgets/calltreeitem.cpp:338
+#, fuzzy
+#| msgid "Unknown"
+msgid "<b>Unknown</b>"
+msgstr "未知"
 
 #: src/widgets/contactdock.cpp:129
 msgctxt "Sort by Organisation"
@@ -344,44 +322,6 @@ msgstr "未知"
 msgid "TODO"
 msgstr ""
 
-#: src/widgets/historytreeitem.cpp:103 src/widgets/contactitemwidget.cpp:68
-#, fuzzy
-#| msgid "Call back"
-msgid "Call Again"
-msgstr "回叫"
-
-#: src/widgets/historytreeitem.cpp:107
-msgid "Add Number to Contact"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:112
-msgid "Add Contact"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:116 src/widgets/contactitemwidget.cpp:78
-msgid "Copy"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:120 src/widgets/contactitemwidget.cpp:83
-#, fuzzy
-#| msgid "_Email"
-msgid "Send Email"
-msgstr "郵件(E)"
-
-#: src/widgets/historytreeitem.cpp:131
-msgid "Remove bookmark"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:336
-msgid "Are you sure you want to delete this recording?"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:336
-#, fuzzy
-#| msgid "Recordings"
-msgid "Delete recording"
-msgstr "記錄"
-
 #: src/widgets/contactitemwidget.cpp:73
 #, fuzzy
 #| msgid "Edit phone"
@@ -394,13 +334,13 @@ msgstr "編輯電話"
 msgid "Add Phone Number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:353
+#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:347
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Select phone number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:353
+#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:347
 msgid ""
 "This contact has many phone numbers, please select the one you wish to call"
 msgstr ""
@@ -415,180 +355,236 @@ msgstr "編輯電話號碼"
 msgid "New number:"
 msgstr ""
 
-#: src/accountwizard.cpp:187 src/accountwizard.cpp:349 src/sflphone.cpp:277
+#: src/accountwizard.cpp:187 src/accountwizard.cpp:348 src/sflphone.cpp:277
 msgid "Account creation wizard"
 msgstr "帳戶創建向導"
 
-#: src/accountwizard.cpp:243 src/accountwizard.cpp:265
-#: src/accountwizard.cpp:280 src/accountwizard.cpp:695
+#: src/accountwizard.cpp:243 src/accountwizard.cpp:264
+#: src/accountwizard.cpp:279 src/accountwizard.cpp:694
 msgid "This assistant is now finished."
 msgstr "配置完成."
 
 #: src/accountwizard.cpp:260
-msgid "Creation of account has failed for the reason"
+#, kde-format
+msgid ""
+"Creation of account has failed for the reason:\n"
+"%1"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:219
-#. i18n: ectx: property (text), widget (QLabel, label1_alias)
-#: src/accountwizard.cpp:321 src/accountwizard.cpp:509
-#: src/accountwizard.cpp:590 rc.cpp:213
-msgid "Alias"
+#: src/accountwizard.cpp:320
+#, fuzzy, kde-format
+#| msgid "Alias"
+msgid "Alias: %1"
 msgstr "別稱"
 
-#: src/accountwizard.cpp:322 src/accountwizard.cpp:510
-#: src/accountwizard.cpp:591
-msgid "Server"
+#: src/accountwizard.cpp:321
+#, fuzzy, kde-format
+#| msgid "Server"
+msgid "Server: %1"
 msgstr "伺服器"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:793
-#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
-#: src/accountwizard.cpp:323 src/accountwizard.cpp:511
-#: src/accountwizard.cpp:592 rc.cpp:360
-msgid "Password"
+#: src/accountwizard.cpp:322
+#, fuzzy, kde-format
+#| msgid "Password"
+msgid "Password: %1"
 msgstr "密碼"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:245
-#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
-#: src/accountwizard.cpp:324 rc.cpp:216
-msgid "Protocol"
+#: src/accountwizard.cpp:323
+#, fuzzy, kde-format
+#| msgid "Protocol"
+msgid "Protocol: %1"
 msgstr "協議"
 
-#: src/accountwizard.cpp:325 src/accountwizard.cpp:512
-#: src/accountwizard.cpp:593
-msgid "Voicemail number"
+#: src/accountwizard.cpp:324
+#, fuzzy, kde-format
+#| msgid "Voicemail number"
+msgid "Voicemail number: %1"
 msgstr "語音郵箱"
 
-#: src/accountwizard.cpp:326
-#, fuzzy
+#: src/accountwizard.cpp:325
+#, fuzzy, kde-format
 #| msgid "Username"
 msgctxt "SIP Account username"
-msgid "Username"
+msgid "Username: %1"
 msgstr "使用者名稱"
 
-#: src/accountwizard.cpp:350
-msgid "Welcome to the Account creation wizard of SFLphone!"
+#: src/accountwizard.cpp:349
+#, fuzzy
+#| msgid "Welcome to the Account creation wizard of SFLphone!"
+msgid "Welcome to the Account creation wizard of SFLphone"
 msgstr "歡迎使用SFLphone帳戶創建嚮導!"
 
-#: src/accountwizard.cpp:352
+#: src/accountwizard.cpp:351
 msgid "This installation wizard will help you configure an account."
 msgstr "安裝向導將幫助您配置帳戶"
 
-#: src/accountwizard.cpp:380
+#: src/accountwizard.cpp:379
 msgid "Account"
 msgstr "帳戶"
 
-#: src/accountwizard.cpp:381
+#: src/accountwizard.cpp:380
 msgid "Please select one of the following options"
 msgstr "請選擇以下選項中的一個"
 
-#: src/accountwizard.cpp:383
+#: src/accountwizard.cpp:382
 msgid "Create a free SIP/IAX2 account on sflphone.org"
 msgstr "在sflphone.org上創建免費的SIP/IAX2帳戶"
 
-#: src/accountwizard.cpp:384
+#: src/accountwizard.cpp:383
 msgid "Register an existing SIP or IAX2 account"
 msgstr "註冊已存在的SIP或IAX2帳戶"
 
-#: src/accountwizard.cpp:421
+#: src/accountwizard.cpp:420
 msgid "VoIP Protocols"
 msgstr "VoIP協議"
 
-#: src/accountwizard.cpp:422
+#: src/accountwizard.cpp:421
 msgid "Select an account type"
 msgstr "選擇帳戶類型"
 
-#: src/accountwizard.cpp:424
+#: src/accountwizard.cpp:423
 msgid "SIP (Session Initiation Protocol)"
 msgstr "SIP(會話初始化協議)"
 
-#: src/accountwizard.cpp:425
+#: src/accountwizard.cpp:424
 msgid "IAX2 (InterAsterix Exchange)"
 msgstr "IAX2(Asterisk內部交換協議)"
 
-#: src/accountwizard.cpp:462
+#: src/accountwizard.cpp:461
 msgid "Optional email address"
 msgstr "可選郵件地址"
 
-#: src/accountwizard.cpp:463
+#: src/accountwizard.cpp:462
 msgid "This email address will be used to send your voicemail messages."
 msgstr "這個郵件地址將被用來發送您的語音"
 
-#: src/accountwizard.cpp:465
+#: src/accountwizard.cpp:464
 msgid "Email address"
 msgstr "郵件地址"
 
-#: src/accountwizard.cpp:467 src/accountwizard.cpp:513
+#: src/accountwizard.cpp:466 src/accountwizard.cpp:512
 msgid "Secure with ZRTP"
 msgstr ""
 
-#: src/accountwizard.cpp:506
+#: src/accountwizard.cpp:505
 msgid "SIP account settings"
 msgstr "SIP帳戶配置"
 
-#: src/accountwizard.cpp:507 src/accountwizard.cpp:588
+#: src/accountwizard.cpp:506 src/accountwizard.cpp:587
 msgid "Please fill the following information"
 msgstr "請填寫如下信息"
 
-#: src/accountwizard.cpp:514 src/accountwizard.cpp:594
+#. i18n: file: src/conf/dlgaccountsbase.ui:219
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/accountwizard.cpp:508 src/accountwizard.cpp:589 rc.cpp:71
+msgid "Alias"
+msgstr "別稱"
+
+#: src/accountwizard.cpp:509 src/accountwizard.cpp:590
+msgid "Server"
+msgstr "伺服器"
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:800
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
+#: src/accountwizard.cpp:510 src/accountwizard.cpp:591 rc.cpp:224
+msgid "Password"
+msgstr "密碼"
+
+#: src/accountwizard.cpp:511 src/accountwizard.cpp:592
+msgid "Voicemail number"
+msgstr "語音郵箱"
+
+#: src/accountwizard.cpp:513 src/accountwizard.cpp:593
 #, fuzzy
 #| msgid "Username"
 msgctxt "SIP Account Username"
 msgid "Username"
 msgstr "使用者名稱"
 
-#: src/accountwizard.cpp:523
+#: src/accountwizard.cpp:522
 msgid "Anything, used only locally"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:285
+#. i18n: file: src/conf/dlgaccountsbase.ui:288
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
-#: src/accountwizard.cpp:524 rc.cpp:228
+#: src/accountwizard.cpp:523 rc.cpp:89
 msgid "Example: sip.sflphone.org or 192.168.0.2"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:305
+#. i18n: file: src/conf/dlgaccountsbase.ui:308
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
-#: src/accountwizard.cpp:525 rc.cpp:234
+#: src/accountwizard.cpp:524 rc.cpp:95
 msgid "Usually your extension number"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:325
+#. i18n: file: src/conf/dlgaccountsbase.ui:328
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
-#: src/accountwizard.cpp:526 rc.cpp:240
+#: src/accountwizard.cpp:525 rc.cpp:101
 msgid "SIP password, ask your network administrator"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:342
+#. i18n: file: src/conf/dlgaccountsbase.ui:345
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
-#: src/accountwizard.cpp:527 rc.cpp:246
+#: src/accountwizard.cpp:526 rc.cpp:107
 msgid "Usually the same as the username"
 msgstr ""
 
-#: src/accountwizard.cpp:587
+#: src/accountwizard.cpp:586
 msgid "IAX2 account settings"
 msgstr "IAX2帳戶配置"
 
-#: src/accountwizard.cpp:654
+#: src/accountwizard.cpp:653
 msgid "Network Address Translation (NAT)"
 msgstr "网络地址解析(NAT)"
 
-#: src/accountwizard.cpp:655
+#: src/accountwizard.cpp:654
 msgid "You should probably enable this if you are behind a firewall."
 msgstr "如果你使用網路防火牆，你很有可能需要設定該項."
 
-#: src/accountwizard.cpp:657
+#: src/accountwizard.cpp:656
 msgid "Enable STUN"
 msgstr "啟用STUN"
 
-#: src/accountwizard.cpp:658
+#: src/accountwizard.cpp:657
 msgid "Stun Server"
 msgstr "STUN伺服器"
 
-#: src/accountwizard.cpp:696
+#: src/accountwizard.cpp:695
 msgid ""
 "After checking the settings you chose, click \"Finish\" to create the "
 "account."
 msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
+
+#: src/actionsetaccountfirst.cpp:28
+msgid "Default account"
+msgstr "默認帳戶"
+
+#: src/callview.cpp:221
+msgid "Please enter a transfer number and press Enter, press Escape to cancel"
+msgstr ""
+
+#: src/callview.cpp:559
+#, kde-format
+msgid "You call have been transferred to %1"
+msgstr ""
+
+#: src/main.cpp:67
+msgid "SFLphone KDE Client"
+msgstr "SFLphone KDE客戶端"
+
+#: src/main.cpp:71
+#, fuzzy
+#| msgid "(C) 2009 Savoir-faire Linux"
+msgid "(C) 2009-2012 Savoir-faire Linux"
+msgstr "(C) 2009 Savoir-faire Linux"
+
+#: src/main.cpp:76
+msgid "Jérémy Quentin"
+msgstr "Jérémy Quentin"
+
+#: src/main.cpp:77
+msgid "Emmanuel Lepage Vallee"
+msgstr ""
 
 #: src/sflphone.cpp:148
 #, fuzzy
@@ -603,7 +599,7 @@ msgstr "SFLphone"
 #: src/sflphone.cpp:227
 #, fuzzy
 #| msgid "Current account"
-msgid "Current account: "
+msgid "Current account:"
 msgstr "當前帳戶"
 
 #: src/sflphone.cpp:268 src/sflphone.cpp:282
@@ -654,8 +650,55 @@ msgstr "有新來電"
 msgid "New call from: \n"
 msgstr "新電話"
 
-#: src/sflphoneview.cpp:609
-msgid "Using account"
+#: src/sflphoneaccessibility.cpp:33
+msgid "List all current calls"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:41
+msgid "Get current call details"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:60
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] ""
+
+#: src/sflphoneaccessibility.cpp:62
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:88
+#, kde-format
+msgid "The current call is %1"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:90
+#, kde-format
+msgid ",Your peer is %1"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:92
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:94
+#, fuzzy, kde-format
+#| msgid "Edit phone number"
+msgid ", the phone number is %1 "
+msgstr "編輯電話號碼"
+
+#: src/sflphoneaccessibility.cpp:98
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr ""
+
+#: src/sflphoneview.cpp:603
+#, fuzzy, kde-format
+#| msgid "Using account"
+msgid "Using account '%1' (%2)"
 msgstr "使用賬戶"
 
 #: rc.cpp:1
@@ -690,293 +733,9 @@ msgstr "查看(V)"
 msgid "Settings"
 msgstr "ALSA 配置"
 
-#. i18n: file: src/conf/dlgaddressbookbase.ui:20
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableAddressBook)
-#: rc.cpp:14
-msgid "Enable address book"
-msgstr "啟用地址簿"
-
-#. i18n: file: src/conf/dlgaddressbookbase.ui:27
-#. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
-#: rc.cpp:17
-msgid "Use contact from the following phone number category:"
-msgstr ""
-
-#. i18n: file: src/conf/dlgaddressbookbase.ui:47
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:20
-msgid "Contact list details"
-msgstr ""
-
-#. i18n: file: src/conf/dlgaddressbookbase.ui:53
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
-#: rc.cpp:23
-msgid "Display organisation"
-msgstr ""
-
-#. i18n: file: src/conf/dlgaddressbookbase.ui:60
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "Optional email address"
-msgid "Display e-mail address"
-msgstr "可選郵件地址"
-
-#. i18n: file: src/conf/dlgaddressbookbase.ui:67
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowPhoneNumber)
-#: rc.cpp:29
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Always display phone number"
-msgstr "編輯電話號碼"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:32
-#. i18n: ectx: property (text), widget (QLabel, label_interface)
-#: rc.cpp:32
-msgid "Sound manager"
-msgstr "聲音管理器"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:43
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
-#: rc.cpp:35
-msgid "ALSA"
-msgstr "ALSA"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:48
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
-#: rc.cpp:38
-msgid "PulseAudio"
-msgstr "PulseAudio"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:75
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
-#: rc.cpp:41
-msgid "ALSA settings"
-msgstr "ALSA 配置"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:90
-#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
-#: rc.cpp:44
-msgid "ALSA plugin"
-msgstr "ALSA插件"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:107
-#. i18n: ectx: property (text), widget (QLabel, label2_in)
-#: rc.cpp:47
-msgid "Input"
-msgstr "輸入"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:124
-#. i18n: ectx: property (text), widget (QLabel, label3_out)
-#: rc.cpp:50
-msgid "Output"
-msgstr "輸出"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:154
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
-#: rc.cpp:53
-msgid "PulseAudio settings"
-msgstr "PulseAudio 配置"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:163
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
-#: rc.cpp:56
-msgid "Mute other applications during a call"
-msgstr "當有來電時靜音其它應用程序"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:183
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
-#. i18n: file: src/conf/dlggeneralbase.ui:110
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2_connection_2)
-#: rc.cpp:59 rc.cpp:98
-#, fuzzy
-#| msgid "Recordings"
-msgid "Recording"
-msgstr "記錄"
-
-#. i18n: file: src/conf/dlgaudiobase.ui:189
-#. i18n: ectx: property (text), widget (QLabel, label_destinationFolderd)
-#: rc.cpp:62
-msgid "Destination folder"
-msgstr "目標文件夾"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:26
-#. i18n: ectx: property (text), widget (QLabel, label1_notifications)
-#: rc.cpp:65
-msgid "Enable notifications"
-msgstr "啟動提示"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:45
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
-#. i18n: file: src/conf/dlgdisplaybase.ui:100
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
-#: rc.cpp:68 rc.cpp:80
-msgid "On incoming calls"
-msgstr "有新來電"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:55
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
-#: rc.cpp:71
-msgid "On messages"
-msgstr "有新消息"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:71
-#. i18n: ectx: property (text), widget (QLabel, label2_displayMainWindow)
-#: rc.cpp:74
-msgid "Show main window"
-msgstr "顯示主窗口"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:90
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
-#: rc.cpp:77
-msgid "On start"
-msgstr "正在啟動"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:26
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
-#: rc.cpp:83
-msgid "Call history"
-msgstr "呼叫記錄"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:38
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHistory)
-#: rc.cpp:86
-#, fuzzy
-msgid "Keep my history for at least"
-msgstr "保存呼叫記錄數至少"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:64
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:89
-#, fuzzy
-msgctxt "Keep my history for at least *** days"
-msgid "days"
-msgstr "天"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:87
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
-#: rc.cpp:92
-msgid "Display incoming, outgoing and missed for history items"
-msgstr ""
-
-#. i18n: file: src/conf/dlggeneralbase.ui:94
-#. i18n: ectx: property (text), widget (QToolButton, toolButton_historyClear)
-#: rc.cpp:95
-msgid "Clear history"
-msgstr "清空曆史記錄"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:131
-#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
-#: rc.cpp:101
-#, fuzzy
-#| msgid "Record a call"
-msgid "Always record calls"
-msgstr "記錄通話"
-
-#. i18n: file: src/conf/dlggeneralbase.ui:154
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:104
-msgid "Visible call details"
-msgstr ""
-
-#. i18n: file: src/conf/dlggeneralbase.ui:165
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
-#: rc.cpp:107
-msgid "Minimum item height"
-msgstr ""
-
-#. i18n: file: src/conf/dlghooksbase.ui:20
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
-#: rc.cpp:110
-msgid "URL Argument"
-msgstr "URL參數"
-
-#. i18n: file: src/conf/dlghooksbase.ui:26
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:113
-msgid "Custom commands on incoming calls with URL"
-msgstr "定制對帶有URL的來電的處理"
-
-#. i18n: file: src/conf/dlghooksbase.ui:63
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
-#: rc.cpp:116
-msgid "Trigger on specific SIP header"
-msgstr "激活指定的SIP頭"
-
-#. i18n: file: src/conf/dlghooksbase.ui:83
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
-#: rc.cpp:119
-msgid "Trigger on IAX2 URL"
-msgstr "激活IAX2 URL"
-
-#. i18n: file: src/conf/dlghooksbase.ui:105
-#. i18n: ectx: property (text), widget (QLabel, label_command)
-#: rc.cpp:122
-msgid "Command to run"
-msgstr "要運行的命令"
-
-#. i18n: file: src/conf/dlghooksbase.ui:128
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:126
-#, no-c-format
-msgid "%s will be replaced with the passed URL."
-msgstr "傳輸的URL會被替換成%s."
-
-#. i18n: file: src/conf/dlghooksbase.ui:138
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
-#: rc.cpp:129
-msgid "Phone number rewriting"
-msgstr "重設電話號碼"
-
-#. i18n: file: src/conf/dlghooksbase.ui:159
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
-#: rc.cpp:132
-msgid "Prefix dialed numbers with"
-msgstr "號碼前綴"
-
-#. i18n: file: src/conf/dlgvideobase.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
-#: rc.cpp:135
-#, fuzzy
-#| msgid "Audio Settings"
-msgid "Video settings"
-msgstr "音訊配置"
-
-#. i18n: file: src/conf/dlgvideobase.ui:28
-#. i18n: ectx: property (text), widget (QLabel, m_pDeviceL)
-#: rc.cpp:138
-msgid "Device:"
-msgstr ""
-
-#. i18n: file: src/conf/dlgvideobase.ui:47
-#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
-#: rc.cpp:141
-#, fuzzy
-#| msgid "ALSA configuration"
-msgid "Device configuration"
-msgstr "ALSA 配置"
-
-#. i18n: file: src/conf/dlgvideobase.ui:58
-#. i18n: ectx: property (text), widget (QLabel, m_pChannelL)
-#: rc.cpp:144
-msgid "Channel"
-msgstr ""
-
-#. i18n: file: src/conf/dlgvideobase.ui:75
-#. i18n: ectx: property (text), widget (QLabel, m_pResolutionL)
-#: rc.cpp:147
-msgid "Resolution"
-msgstr ""
-
-#. i18n: file: src/conf/dlgvideobase.ui:92
-#. i18n: ectx: property (text), widget (QLabel, m_pRateL)
-#: rc.cpp:150
-msgid "Rate"
-msgstr ""
-
 #. i18n: file: src/conf/dlgaccessibility.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
-#: rc.cpp:156
+#: rc.cpp:14
 #, fuzzy
 #| msgid "Account settings"
 msgid "Accessibility settings"
@@ -984,49 +743,49 @@ msgstr "帳戶設置"
 
 #. i18n: file: src/conf/dlgaccessibility.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
-#: rc.cpp:159
-msgid "Text to speech"
+#: rc.cpp:17
+msgid "Text to Speech"
 msgstr ""
 
 #. i18n: file: src/conf/dlgaccessibility.ui:26
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableVoiceFeedback)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:197
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:200
 #. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:211
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:214
 #. i18n: ectx: label, entry (displayContactDock), group (main)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:215
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:218
 #. i18n: ectx: label, entry (displayHistoryDock), group (main)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:219
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:222
 #. i18n: ectx: label, entry (displayBookmarkDock), group (main)
-#: rc.cpp:162 rc.cpp:603 rc.cpp:612 rc.cpp:615 rc.cpp:618
+#: rc.cpp:20 rc.cpp:612 rc.cpp:621 rc.cpp:624 rc.cpp:627
 msgid "Enable audio feedback from common actions"
 msgstr ""
 
 #. i18n: file: src/conf/dlgaccessibility.ui:33
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:201
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:204
 #. i18n: ectx: label, entry (enableReadLabel), group (main)
-#: rc.cpp:165 rc.cpp:606
+#: rc.cpp:23 rc.cpp:615
 msgid "Automatically read label when an overlay is being displayed"
 msgstr ""
 
 #. i18n: file: src/conf/dlgaccessibility.ui:40
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:205
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:208
 #. i18n: ectx: label, entry (enableReadDetails), group (main)
-#: rc.cpp:168 rc.cpp:609
+#: rc.cpp:26 rc.cpp:618
 msgid "Automatically read the call details when it is selected"
 msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:77
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
-#: rc.cpp:171
+#: rc.cpp:29
 msgid "Add a new account"
 msgstr "增加新帳戶"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:80
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountAdd)
-#: rc.cpp:174
+#: rc.cpp:32
 msgid ""
 "This button enables you to initialize a new account. You will then be able "
 "to edit it using the form on the right."
@@ -1035,7 +794,7 @@ msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:83
 #. i18n: ectx: property (text), widget (QToolButton, button_accountAdd)
-#: rc.cpp:177
+#: rc.cpp:35
 #, fuzzy
 #| msgid "Add"
 msgctxt "Add new account"
@@ -1044,9 +803,9 @@ msgstr "添加"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:93
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_accountUp)
-#. i18n: file: src/conf/dlgaccountsbase.ui:603
+#. i18n: file: src/conf/dlgaccountsbase.ui:610
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecUp)
-#: rc.cpp:180 rc.cpp:309
+#: rc.cpp:38 rc.cpp:173
 msgid "Get this account up"
 msgstr "把該賬戶向上移動"
 
@@ -1054,11 +813,11 @@ msgstr "把該賬戶向上移動"
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountUp)
 #. i18n: file: src/conf/dlgaccountsbase.ui:112
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountDown)
-#. i18n: file: src/conf/dlgaccountsbase.ui:606
+#. i18n: file: src/conf/dlgaccountsbase.ui:613
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecUp)
-#. i18n: file: src/conf/dlgaccountsbase.ui:659
+#. i18n: file: src/conf/dlgaccountsbase.ui:666
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecDown)
-#: rc.cpp:183 rc.cpp:192 rc.cpp:312 rc.cpp:330
+#: rc.cpp:41 rc.cpp:50 rc.cpp:176 rc.cpp:194
 msgid ""
 "By default, when you place a call, sflphone will use the first account in "
 "this list which is \"registered\". Change the order of the accounts using "
@@ -1070,7 +829,7 @@ msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:99
 #. i18n: ectx: property (text), widget (QToolButton, button_accountUp)
-#: rc.cpp:186
+#: rc.cpp:44
 #, fuzzy
 #| msgid "Up"
 msgctxt "Move account up"
@@ -1079,15 +838,15 @@ msgstr "上"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:109
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_accountDown)
-#. i18n: file: src/conf/dlgaccountsbase.ui:656
+#. i18n: file: src/conf/dlgaccountsbase.ui:663
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecDown)
-#: rc.cpp:189 rc.cpp:327
+#: rc.cpp:47 rc.cpp:191
 msgid "Get this account down"
 msgstr "將該賬戶向下移動"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:115
 #. i18n: ectx: property (text), widget (QToolButton, button_accountDown)
-#: rc.cpp:195
+#: rc.cpp:53
 #, fuzzy
 #| msgid "Down"
 msgctxt "Move account down"
@@ -1096,7 +855,7 @@ msgstr "下"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:143
 #. i18n: ectx: property (whatsThis), widget (QListView, listView_accountList)
-#: rc.cpp:198
+#: rc.cpp:56
 msgid ""
 "By default, when you place a call, sflphone will use the first account in "
 "this list which is \"registered\". Change the order of the accounts using "
@@ -1111,13 +870,13 @@ msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:159
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_accountRemove)
-#: rc.cpp:201
+#: rc.cpp:59
 msgid "Remove the selected account"
 msgstr "刪除所選賬戶"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:162
 #. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountRemove)
-#: rc.cpp:204
+#: rc.cpp:62
 msgid ""
 "This button will remove the selected account in the list below. Be sure you "
 "really don't need it anymore. If you think you might use it again later, "
@@ -1128,7 +887,7 @@ msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:168
 #. i18n: ectx: property (text), widget (QToolButton, button_accountRemove)
-#: rc.cpp:207
+#: rc.cpp:65
 #, fuzzy
 #| msgid "Remove"
 msgctxt "Remove selected account"
@@ -1137,301 +896,321 @@ msgstr "刪除"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:210
 #. i18n: ectx: attribute (title), widget (QWidget, tab_basic)
-#: rc.cpp:210
+#: rc.cpp:68
 msgctxt "Basic settings"
 msgid "Basic"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:256
+#. i18n: file: src/conf/dlgaccountsbase.ui:241
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit1_alias)
+#: rc.cpp:74
+msgid "Anything, used only to select the account"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:248
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: rc.cpp:77
+msgid "Protocol"
+msgstr "協議"
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:259
 #. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
-#: rc.cpp:219
+#: rc.cpp:80
 msgid "SIP"
 msgstr "SIP"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:261
+#. i18n: file: src/conf/dlgaccountsbase.ui:264
 #. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
-#: rc.cpp:222
+#: rc.cpp:83
 msgid "IAX"
 msgstr "IAX"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:269
+#. i18n: file: src/conf/dlgaccountsbase.ui:272
 #. i18n: ectx: property (text), widget (QLabel, label3_server)
-#: rc.cpp:225
+#: rc.cpp:86
 #, fuzzy
 #| msgid "Server"
 msgctxt "SIP server"
 msgid "Server"
 msgstr "伺服器"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:295
+#. i18n: file: src/conf/dlgaccountsbase.ui:298
 #. i18n: ectx: property (text), widget (QLabel, label4_user)
-#: rc.cpp:231
+#: rc.cpp:92
 #, fuzzy
 #| msgid "Username"
 msgctxt "Account username"
 msgid "Username"
 msgstr "使用者名稱"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:312
+#. i18n: file: src/conf/dlgaccountsbase.ui:315
 #. i18n: ectx: property (text), widget (QLabel, label5_password)
-#: rc.cpp:237
+#: rc.cpp:98
 #, fuzzy
 #| msgid "Password"
 msgctxt "Account password"
 msgid "Password"
 msgstr "密碼"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:332
+#. i18n: file: src/conf/dlgaccountsbase.ui:335
 #. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
-#: rc.cpp:243
+#: rc.cpp:104
 #, fuzzy
 #| msgid "Voicemail"
 msgctxt "Account voice mail address"
 msgid "Voicemail"
 msgstr "語音郵件"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:349
+#. i18n: file: src/conf/dlgaccountsbase.ui:352
 #. i18n: ectx: property (text), widget (QLabel, label7_state)
-#: rc.cpp:249
+#: rc.cpp:110
 msgid "Status"
 msgstr "狀態"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:375
+#. i18n: file: src/conf/dlgaccountsbase.ui:378
 #. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultAccount)
-#: rc.cpp:252
+#: rc.cpp:113
 msgid "Default account for contact with only extensions as phone number"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:383
+#. i18n: file: src/conf/dlgaccountsbase.ui:386
 #. i18n: ectx: attribute (title), widget (QWidget, tab_advanced)
-#: rc.cpp:255
+#: rc.cpp:116
 msgctxt "Advanced settings"
 msgid "Advanced"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:389
+#. i18n: file: src/conf/dlgaccountsbase.ui:392
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:258
+#: rc.cpp:119
 #, fuzzy
 msgid "Registration"
 msgstr "已註冊"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:415
+#. i18n: file: src/conf/dlgaccountsbase.ui:418
 #. i18n: ectx: property (text), widget (QLabel, label_regExpire)
-#: rc.cpp:261
+#: rc.cpp:122
 #, fuzzy
 msgid "Registration expire"
 msgstr "已註冊"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:428
+#. i18n: file: src/conf/dlgaccountsbase.ui:431
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:264
+#: rc.cpp:125
 #, fuzzy
 #| msgid "Network unreachable"
 msgid "Network Interface"
 msgstr "網路連線失敗"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:434
+#. i18n: file: src/conf/dlgaccountsbase.ui:437
 #. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
-#: rc.cpp:267
+#: rc.cpp:128
 #, fuzzy
 #| msgid "Email address"
 msgid "Local address"
 msgstr "郵件地址"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:444
+#. i18n: file: src/conf/dlgaccountsbase.ui:447
 #. i18n: ectx: property (text), widget (QLabel, label_ni_local_port)
-#: rc.cpp:270
+#: rc.cpp:131
 msgid "Local port"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:474
+#. i18n: file: src/conf/dlgaccountsbase.ui:477
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#. i18n: file: src/conf/dlgaccountsbase.ui:494
+#. i18n: file: src/conf/dlgaccountsbase.ui:497
 #. i18n: ectx: property (text), widget (QLabel, label_published_address)
-#: rc.cpp:273 rc.cpp:282
+#: rc.cpp:134 rc.cpp:143
 #, fuzzy
 #| msgid "Enable address book"
 msgid "Published address"
 msgstr "啟用地址簿"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:480
+#. i18n: file: src/conf/dlgaccountsbase.ui:483
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_same_as_local)
-#: rc.cpp:276
+#: rc.cpp:137
 #, fuzzy
 #| msgid "Search Parameters"
 msgid "Same as local parameters"
 msgstr "搜尋相關參數"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:487
+#. i18n: file: src/conf/dlgaccountsbase.ui:490
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_custom)
-#: rc.cpp:279
+#: rc.cpp:140
 msgid "Set published address and port"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:501
+#. i18n: file: src/conf/dlgaccountsbase.ui:504
 #. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
-#: rc.cpp:285
+#: rc.cpp:146
 msgid "Published port"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:534
+#. i18n: file: src/conf/dlgaccountsbase.ui:518
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, lineEdit_pa_published_address)
+#: rc.cpp:149
+msgid "IP address or hostname"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:541
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:288
+#: rc.cpp:152
 msgid "Stun"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:540
+#. i18n: file: src/conf/dlgaccountsbase.ui:547
 #. i18n: ectx: property (text), widget (QLabel, label_commonSettings)
-#: rc.cpp:291
+#: rc.cpp:155
 msgid "Stun parameters will be applied on each SIP account created."
 msgstr "STUN參數將應用於每一個註冊的SIP帳戶"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:550
+#. i18n: file: src/conf/dlgaccountsbase.ui:557
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
-#: rc.cpp:294
+#: rc.cpp:158
 msgid "Enable Stun"
 msgstr "啟用STUN"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:560
+#. i18n: file: src/conf/dlgaccountsbase.ui:567
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, line_stun)
-#: rc.cpp:297
-msgid "choose Stun server (example : stunserver.org)"
+#: rc.cpp:161
+#, fuzzy
+#| msgid "choose Stun server (example : stunserver.org)"
+msgid "Choose Stun server (example: stunserver.org)"
 msgstr "選擇STUN服務器(例如:stunserver.org)"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:584
+#. i18n: file: src/conf/dlgaccountsbase.ui:591
 #. i18n: ectx: attribute (title), widget (QWidget, tab_codec)
-#: rc.cpp:300
+#: rc.cpp:164
 msgid "Codecs"
 msgstr "編碼"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:590
+#. i18n: file: src/conf/dlgaccountsbase.ui:597
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: rc.cpp:303
+#: rc.cpp:167
 #, fuzzy
 #| msgid "Audio Files"
 msgid "Audio codecs"
 msgstr "音訊檔案"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:596
+#. i18n: file: src/conf/dlgaccountsbase.ui:603
 #. i18n: ectx: property (text), widget (QLabel, label_frequency)
-#: rc.cpp:306
+#: rc.cpp:170
 msgid "Sample rate:"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:609
+#. i18n: file: src/conf/dlgaccountsbase.ui:616
 #. i18n: ectx: property (text), widget (QToolButton, button_audiocodecUp)
-#: rc.cpp:315
+#: rc.cpp:179
 #, fuzzy
 #| msgid "Up"
 msgctxt "Move audio codec up"
 msgid "Up"
 msgstr "上"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:619
+#. i18n: file: src/conf/dlgaccountsbase.ui:626
 #. i18n: ectx: property (text), widget (QLabel, label_bitrate_value)
-#. i18n: file: src/conf/dlgaccountsbase.ui:639
+#. i18n: file: src/conf/dlgaccountsbase.ui:646
 #. i18n: ectx: property (text), widget (QLabel, label_frequency_value)
-#: rc.cpp:318 rc.cpp:321
+#: rc.cpp:182 rc.cpp:185
 msgid "-"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:649
+#. i18n: file: src/conf/dlgaccountsbase.ui:656
 #. i18n: ectx: property (text), widget (QLabel, label_bitrate)
-#. i18n: file: src/conf/dlgaccountsbase.ui:707
+#. i18n: file: src/conf/dlgaccountsbase.ui:714
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:324 rc.cpp:339
+#: rc.cpp:188 rc.cpp:203
 #, fuzzy
 #| msgid "Bitrate"
 msgid "Bitrate:"
 msgstr "比率"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:662
+#. i18n: file: src/conf/dlgaccountsbase.ui:669
 #. i18n: ectx: property (text), widget (QToolButton, button_audiocodecDown)
-#: rc.cpp:333
+#: rc.cpp:197
 #, fuzzy
 #| msgid "Down"
 msgctxt "Move audio codec down"
 msgid "Down"
 msgstr "下"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:675
+#. i18n: file: src/conf/dlgaccountsbase.ui:682
 #. i18n: ectx: property (title), widget (QGroupBox, m_pVideoCodecGB)
-#: rc.cpp:336
+#: rc.cpp:200
 msgid "Video codecs"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:714
+#. i18n: file: src/conf/dlgaccountsbase.ui:721
 #. i18n: ectx: property (text), widget (QToolButton, m_pVCodecDownPB)
-#: rc.cpp:342
+#: rc.cpp:206
 #, fuzzy
 #| msgid "Down"
 msgctxt "Move video codec down"
 msgid "Down"
 msgstr "下"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:721
+#. i18n: file: src/conf/dlgaccountsbase.ui:728
 #. i18n: ectx: property (text), widget (QToolButton, m_pVCodecUpPB)
-#: rc.cpp:345
+#: rc.cpp:209
 #, fuzzy
 #| msgid "Up"
 msgctxt "Move video codec up"
 msgid "Up"
 msgstr "上"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:748
+#. i18n: file: src/conf/dlgaccountsbase.ui:755
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:348
+#: rc.cpp:212
 msgid "Credential"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:773
+#. i18n: file: src/conf/dlgaccountsbase.ui:780
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
-#: rc.cpp:351
+#: rc.cpp:215
 msgid "Details"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:779
+#. i18n: file: src/conf/dlgaccountsbase.ui:786
 #. i18n: ectx: property (text), widget (QLabel, label_credential_realm)
-#: rc.cpp:354
+#: rc.cpp:218
 msgid "Realm"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:786
+#. i18n: file: src/conf/dlgaccountsbase.ui:793
 #. i18n: ectx: property (text), widget (QLabel, labe_credential_auth)
-#: rc.cpp:357
+#: rc.cpp:221
 #, fuzzy
 #| msgid "_Host name"
 msgid "Auth. name"
 msgstr "主机名稱(H)"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:846
+#. i18n: file: src/conf/dlgaccountsbase.ui:853
 #. i18n: ectx: property (text), widget (QToolButton, button_add_credential)
-#: rc.cpp:363
+#: rc.cpp:227
 #, fuzzy
 #| msgid "Add"
 msgctxt "Add new credential"
 msgid "Add"
 msgstr "添加"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:853
+#. i18n: file: src/conf/dlgaccountsbase.ui:860
 #. i18n: ectx: property (text), widget (QToolButton, button_remove_credential)
-#: rc.cpp:366
+#: rc.cpp:230
 #, fuzzy
 #| msgid "Remove"
 msgctxt "Remove selected credential"
 msgid "Remove"
 msgstr "刪除"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:871
+#. i18n: file: src/conf/dlgaccountsbase.ui:878
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:369
+#: rc.cpp:233
 msgid "Security"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:898
+#. i18n: file: src/conf/dlgaccountsbase.ui:905
 #. i18n: ectx: property (text), widget (QLabel, label_tls_info)
-#: rc.cpp:372
+#: rc.cpp:236
 msgid ""
 "TLS transport can be used along with UDP for those calls that would require "
 "secure sip transactions (aka SIPS). You can configure a different TLS "
@@ -1439,263 +1218,555 @@ msgid ""
 "port, different one from each other."
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:914
+#. i18n: file: src/conf/dlgaccountsbase.ui:921
 #. i18n: ectx: property (title), widget (QGroupBox, group_security_tls)
-#: rc.cpp:375
+#: rc.cpp:239
 #, fuzzy
 #| msgid "Enable STUN"
 msgid "Enable TLS"
 msgstr "啟用STUN"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:926
+#. i18n: file: src/conf/dlgaccountsbase.ui:933
 #. i18n: ectx: property (text), widget (QLabel, label_tls_listener)
-#: rc.cpp:378
+#: rc.cpp:242
 msgid "Global TLS listener*"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:953
+#. i18n: file: src/conf/dlgaccountsbase.ui:960
 #. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
-#: rc.cpp:381
+#: rc.cpp:245
 msgid "Authority certificate list"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:963
+#. i18n: file: src/conf/dlgaccountsbase.ui:970
 #. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
-#: rc.cpp:384
+#: rc.cpp:248
 msgid "Public endpoint certificate"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:973
+#. i18n: file: src/conf/dlgaccountsbase.ui:980
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
-#: rc.cpp:387
+#: rc.cpp:251
 msgid "Private key"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:983
+#. i18n: file: src/conf/dlgaccountsbase.ui:990
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
-#: rc.cpp:390
+#: rc.cpp:254
 msgid "Private key password"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:993
+#. i18n: file: src/conf/dlgaccountsbase.ui:1000
 #. i18n: ectx: property (text), widget (QLabel, label_tls_method)
-#: rc.cpp:393
+#: rc.cpp:257
 #, fuzzy
 #| msgid "_SIP protocol"
 msgid "TLS protocol method"
 msgstr "SIP 協議(S)"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1001
+#. i18n: file: src/conf/dlgaccountsbase.ui:1008
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_tls_method)
-#: rc.cpp:396
+#: rc.cpp:260
 #, fuzzy
 #| msgid "Default account"
 msgctxt "Default TLS method"
 msgid "Default"
 msgstr "默認帳戶"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1006
+#. i18n: file: src/conf/dlgaccountsbase.ui:1013
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_tls_method)
-#: rc.cpp:399
+#: rc.cpp:263
 msgid "TLSv1"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1011
+#. i18n: file: src/conf/dlgaccountsbase.ui:1018
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_tls_method)
-#: rc.cpp:402
+#: rc.cpp:266
 msgid "SSLv2"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1016
+#. i18n: file: src/conf/dlgaccountsbase.ui:1023
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_tls_method)
-#: rc.cpp:405
+#: rc.cpp:269
 msgid "SSLv3"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1021
+#. i18n: file: src/conf/dlgaccountsbase.ui:1028
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_tls_method)
-#: rc.cpp:408
+#: rc.cpp:272
 msgid "SSLv23"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1042
+#. i18n: file: src/conf/dlgaccountsbase.ui:1049
 #. i18n: ectx: property (text), widget (QLabel, label_tls_cipher)
-#: rc.cpp:411
+#: rc.cpp:275
 msgid "TLS cipher list"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1052
+#. i18n: file: src/conf/dlgaccountsbase.ui:1059
 #. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
-#: rc.cpp:414
+#: rc.cpp:278
 msgid "Outgoing TLS server name"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1062
+#. i18n: file: src/conf/dlgaccountsbase.ui:1069
 #. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
-#: rc.cpp:417
+#: rc.cpp:281
 msgid "Negotiation timeout (s:ms)"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1085
+#. i18n: file: src/conf/dlgaccountsbase.ui:1092
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_incoming)
-#: rc.cpp:420
+#: rc.cpp:284
 msgid "Verify incoming certificates (server side)"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1092
+#. i18n: file: src/conf/dlgaccountsbase.ui:1099
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_answer)
-#: rc.cpp:423
+#: rc.cpp:287
 msgid "Verify answer certificates (client side)"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1099
+#. i18n: file: src/conf/dlgaccountsbase.ui:1106
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_requier_cert)
-#: rc.cpp:426
+#: rc.cpp:290
 msgid "Require a certificate for incoming TLS connections"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1106
+#. i18n: file: src/conf/dlgaccountsbase.ui:1113
 #. i18n: ectx: property (text), widget (QLabel, label_tls_details)
-#: rc.cpp:429
+#: rc.cpp:293
 msgid "*Apply to all accounts"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1173
+#. i18n: file: src/conf/dlgaccountsbase.ui:1180
 #. i18n: ectx: property (text), widget (QLabel, label_timeout2)
-#: rc.cpp:432
+#: rc.cpp:296
 msgid "<center>:</center>"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1183
+#. i18n: file: src/conf/dlgaccountsbase.ui:1190
 #. i18n: ectx: property (title), widget (QGroupBox, groupbox_STRP_keyexchange)
-#: rc.cpp:435
+#: rc.cpp:299
 msgid "SRTP key exchange"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1196
+#. i18n: file: src/conf/dlgaccountsbase.ui:1203
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_security_STRP)
-#: rc.cpp:438
+#: rc.cpp:302
 #, fuzzy
 #| msgid "_Enabled"
 msgctxt "Disabled security"
 msgid "Disabled"
 msgstr "啟用(E)"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1201
+#. i18n: file: src/conf/dlgaccountsbase.ui:1208
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_security_STRP)
-#: rc.cpp:441
+#: rc.cpp:305
 msgid "ZRTP"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1206
+#. i18n: file: src/conf/dlgaccountsbase.ui:1213
 #. i18n: ectx: property (text), item, widget (KComboBox, combo_security_STRP)
-#: rc.cpp:444
+#: rc.cpp:308
 msgid "SDES"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1214
+#. i18n: file: src/conf/dlgaccountsbase.ui:1221
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZTRP_send_hello)
-#: rc.cpp:447
+#: rc.cpp:311
 msgid "Send Hello Hash in SDP"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1221
+#. i18n: file: src/conf/dlgaccountsbase.ui:1228
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_warn_supported)
-#: rc.cpp:450
+#: rc.cpp:314
 msgid "Ask user to confirm SAS"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1228
+#. i18n: file: src/conf/dlgaccountsbase.ui:1235
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_Ask_user)
-#: rc.cpp:453
+#: rc.cpp:317
 msgid "Warn if ZRTP is not supported"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1235
+#. i18n: file: src/conf/dlgaccountsbase.ui:1242
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_display_SAS)
-#: rc.cpp:456
+#: rc.cpp:320
 msgid "Display SAS once for hold events"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1242
+#. i18n: file: src/conf/dlgaccountsbase.ui:1249
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_SDES_fallback_rtp)
-#: rc.cpp:459
+#: rc.cpp:323
 msgid "Fallback on RTP on SDES failure"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1257
+#. i18n: file: src/conf/dlgaccountsbase.ui:1264
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#. i18n: file: src/conf/dlgaccountsbase.ui:1263
+#. i18n: file: src/conf/dlgaccountsbase.ui:1270
 #. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
-#: rc.cpp:462 rc.cpp:465
+#. i18n: file: src/conf/dlgaudiobase.ui:141
+#. i18n: ectx: property (text), widget (QLabel, kcfg_alsaRingtoneDeviceL)
+#: rc.cpp:326 rc.cpp:329 rc.cpp:374
 #, fuzzy
 #| msgid "Ringtones"
 msgid "Ringtone"
 msgstr "鈴聲"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:1275
+#. i18n: file: src/conf/dlgaccountsbase.ui:1282
 #. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomFileCK)
-#: rc.cpp:468
+#: rc.cpp:332
 msgid "Use custom file"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:20
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableAddressBook)
+#: rc.cpp:335
+msgid "Enable address book"
+msgstr "啟用地址簿"
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:27
+#. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
+#: rc.cpp:338
+msgid "Use contact from the following phone number category:"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:47
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:341
+msgid "Contact list details"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:53
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
+#: rc.cpp:344
+msgid "Display organisation"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
+#: rc.cpp:347
+#, fuzzy
+#| msgid "Optional email address"
+msgid "Display e-mail address"
+msgstr "可選郵件地址"
+
+#. i18n: file: src/conf/dlgaddressbookbase.ui:67
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowPhoneNumber)
+#: rc.cpp:350
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Always display phone number"
+msgstr "編輯電話號碼"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_interface)
+#: rc.cpp:353
+msgid "Sound manager"
+msgstr "聲音管理器"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:43
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
+#: rc.cpp:356
+msgid "ALSA"
+msgstr "ALSA"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:48
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
+#: rc.cpp:359
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:75
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
+#: rc.cpp:362
+#, fuzzy
+#| msgid "ALSA settings"
+msgid "ALSA Settings"
+msgstr "ALSA 配置"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:90
+#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
+#: rc.cpp:365
+msgid "ALSA plugin"
+msgstr "ALSA插件"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:107
+#. i18n: ectx: property (text), widget (QLabel, label2_in)
+#: rc.cpp:368
+msgid "Input"
+msgstr "輸入"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:124
+#. i18n: ectx: property (text), widget (QLabel, label3_out)
+#: rc.cpp:371
+msgid "Output"
+msgstr "輸出"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:164
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
+#: rc.cpp:377
+#, fuzzy
+#| msgid "PulseAudio settings"
+msgid "PulseAudio Settings"
+msgstr "PulseAudio 配置"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:173
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
+#: rc.cpp:380
+msgid "Mute other applications during a call"
+msgstr "當有來電時靜音其它應用程序"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:193
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: rc.cpp:383
+#, fuzzy
+#| msgid "Recordings"
+msgid "Recording"
+msgstr "記錄"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:205
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, KUrlRequester_destinationFolder)
+#: rc.cpp:386
+msgid "Destination folder"
+msgstr "目標文件夾"
+
+#. i18n: file: src/conf/dlgaudiobase.ui:212
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
+#: rc.cpp:389
+#, fuzzy
+#| msgid "Record a call"
+msgid "Always record calls"
+msgstr "記錄通話"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label1_notifications)
+#: rc.cpp:392
+msgid "Enable notifications"
+msgstr "啟動提示"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
+#. i18n: file: src/conf/dlgdisplaybase.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#: rc.cpp:395 rc.cpp:407
+msgid "On incoming calls"
+msgstr "有新來電"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
+#: rc.cpp:398
+msgid "On messages"
+msgstr "有新消息"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label2_displayMainWindow)
+#: rc.cpp:401
+msgid "Show main window"
+msgstr "顯示主窗口"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:90
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: rc.cpp:404
+msgid "On start"
+msgstr "正在啟動"
+
+#. i18n: file: src/conf/dlggeneralbase.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
+#: rc.cpp:410
+#, fuzzy
+#| msgid "Calls History"
+msgid "Call History"
+msgstr "打電話歷史"
+
+#. i18n: file: src/conf/dlggeneralbase.ui:38
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHistory)
+#: rc.cpp:413
+#, fuzzy
+msgid "Keep my history for at least"
+msgstr "保存呼叫記錄數至少"
+
+#. i18n: file: src/conf/dlggeneralbase.ui:64
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:416
+#, fuzzy
+msgctxt "Keep my history for at least *** days"
+msgid "days"
+msgstr "天"
+
+#. i18n: file: src/conf/dlggeneralbase.ui:87
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
+#: rc.cpp:419
+msgid "Display incoming, outgoing and missed for history items"
+msgstr ""
+
+#. i18n: file: src/conf/dlggeneralbase.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
+#: rc.cpp:422
+#, fuzzy
+#| msgid "Clear history"
+msgid "Clear History"
+msgstr "清空曆史記錄"
+
+#. i18n: file: src/conf/dlggeneralbase.ui:121
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:425
+msgid "Visible Call Details"
+msgstr ""
+
+#. i18n: file: src/conf/dlggeneralbase.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
+#: rc.cpp:428
+msgid "Minimum item height"
+msgstr ""
+
+#. i18n: file: src/conf/dlghooksbase.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
+#: rc.cpp:431
+msgid "URL Argument"
+msgstr "URL參數"
+
+#. i18n: file: src/conf/dlghooksbase.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:434
+msgid "Custom commands on incoming calls with URL"
+msgstr "定制對帶有URL的來電的處理"
+
+#. i18n: file: src/conf/dlghooksbase.ui:63
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
+#: rc.cpp:437
+msgid "Trigger on specific SIP header"
+msgstr "激活指定的SIP頭"
+
+#. i18n: file: src/conf/dlghooksbase.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
+#: rc.cpp:440
+msgid "Trigger on IAX2 URL"
+msgstr "激活IAX2 URL"
+
+#. i18n: file: src/conf/dlghooksbase.ui:105
+#. i18n: ectx: property (text), widget (QLabel, label_command)
+#: rc.cpp:443
+msgid "Command to run"
+msgstr "要運行的命令"
+
+#. i18n: file: src/conf/dlghooksbase.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:447
+#, no-c-format
+msgid "%s will be replaced with the passed URL."
+msgstr "傳輸的URL會被替換成%s."
+
+#. i18n: file: src/conf/dlghooksbase.ui:138
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
+#: rc.cpp:450
+msgid "Phone Number Rewriting"
+msgstr "重設電話號碼"
+
+#. i18n: file: src/conf/dlghooksbase.ui:159
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
+#: rc.cpp:453
+msgid "Prefix dialed numbers with"
+msgstr "號碼前綴"
+
+#. i18n: file: src/conf/dlgvideobase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
+#: rc.cpp:456
+#, fuzzy
+#| msgid "Audio Settings"
+msgid "Video settings"
+msgstr "音訊配置"
+
+#. i18n: file: src/conf/dlgvideobase.ui:28
+#. i18n: ectx: property (text), widget (QLabel, m_pDeviceL)
+#: rc.cpp:459
+msgid "Device:"
+msgstr ""
+
+#. i18n: file: src/conf/dlgvideobase.ui:47
+#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
+#: rc.cpp:462
+#, fuzzy
+#| msgid "ALSA configuration"
+msgid "Device Configuration"
+msgstr "ALSA 配置"
+
+#. i18n: file: src/conf/dlgvideobase.ui:58
+#. i18n: ectx: property (text), widget (QLabel, m_pChannelL)
+#: rc.cpp:465
+msgid "Channel"
+msgstr ""
+
+#. i18n: file: src/conf/dlgvideobase.ui:75
+#. i18n: ectx: property (text), widget (QLabel, m_pResolutionL)
+#: rc.cpp:468
+msgid "Resolution"
+msgstr ""
+
+#. i18n: file: src/conf/dlgvideobase.ui:92
+#. i18n: ectx: property (text), widget (QLabel, m_pRateL)
+#: rc.cpp:471
+msgid "Rate"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:12
 #. i18n: ectx: label, entry (enableHistory), group (main)
-#: rc.cpp:471
+#: rc.cpp:477
 msgid "Defines whether sflphone should keep a history of calls."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:15
 #. i18n: ectx: label, entry (historyMax), group (main)
-#: rc.cpp:474
+#: rc.cpp:480
 msgid "Defines the number of days the history has to be kept."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:21
 #. i18n: ectx: label, entry (displayCallIcon), group (main)
-#: rc.cpp:477
+#: rc.cpp:483
 msgid "Should CallIcon be visible by default for calls"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:25
 #. i18n: ectx: label, entry (displayCallPeer), group (main)
-#: rc.cpp:480
+#: rc.cpp:486
 msgid "Should CallPeer be visible by default for calls"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:29
 #. i18n: ectx: label, entry (displayCallNumber), group (main)
-#: rc.cpp:483
+#: rc.cpp:489
 msgid "Should CallNumber be visible by default for calls"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:33
 #. i18n: ectx: label, entry (displayCallSecure), group (main)
-#: rc.cpp:486
+#: rc.cpp:492
 msgid "Should CallSecure be visible by default for calls"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:37
 #. i18n: ectx: label, entry (displayCallCodec), group (main)
-#: rc.cpp:489
+#: rc.cpp:495
 msgid "Should CallCodec be visible by default for calls"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:41
 #. i18n: ectx: label, entry (displayCallOrganisation), group (main)
-#: rc.cpp:492
+#: rc.cpp:498
 msgid "If a contact is present, display the organisation"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:45
 #. i18n: ectx: label, entry (displayCallDepartment), group (main)
-#: rc.cpp:495
+#: rc.cpp:501
 msgid "If a contact is present, display the department"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:49
 #. i18n: ectx: label, entry (displayCallEmail), group (main)
-#: rc.cpp:498
+#: rc.cpp:504
 msgid "If a contact is present, display the e-mail"
 msgstr ""
 
@@ -1703,62 +1774,62 @@ msgstr ""
 #. i18n: ectx: label, entry (limitMinimumRowHeight), group (main)
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:57
 #. i18n: ectx: label, entry (minimumRowHeight), group (main)
-#: rc.cpp:501 rc.cpp:504
+#: rc.cpp:507 rc.cpp:510
 msgid "The minimum number of pixel for a call item"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:61
 #. i18n: ectx: label, entry (displayHistoryStatus), group (main)
-#: rc.cpp:507
+#: rc.cpp:513
 msgid "Display incoming, outgoing or missed"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:68
 #. i18n: ectx: label, entry (notifOnCalls), group (main)
-#: rc.cpp:510
+#: rc.cpp:516
 msgid "Defines whether user should be notified when receiving a call."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:72
 #. i18n: ectx: label, entry (notifOnMessages), group (main)
-#: rc.cpp:513
+#: rc.cpp:519
 msgid "Defines whether user should be notified when receiving a message."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:76
 #. i18n: ectx: label, entry (displayOnStart), group (main)
-#: rc.cpp:516
+#: rc.cpp:522
 msgid "Defines whether the main window should be displayed on start."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:80
 #. i18n: ectx: label, entry (displayOnCalls), group (main)
-#: rc.cpp:519
+#: rc.cpp:525
 msgid ""
 "Defines whether the main window should be displayed when receiving a message."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:84
 #. i18n: ectx: label, entry (displayDialpad), group (main)
-#: rc.cpp:522
+#: rc.cpp:528
 msgid "Defines whether the dialpad is being shown by default"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:88
 #. i18n: ectx: label, entry (displayMessageBox), group (main)
-#: rc.cpp:525
+#: rc.cpp:531
 msgid "Defines whether the text message box is visible"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:92
 #. i18n: ectx: label, entry (displayVolume), group (main)
-#: rc.cpp:528
+#: rc.cpp:534
 msgid "Defines whether the volume widgets are visible by default"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:96
 #. i18n: ectx: label, entry (displayMenu), group (main)
-#: rc.cpp:531
+#: rc.cpp:537
 msgid ""
 "Defines whether the main menu is visible by default, it can be restored with "
 "\"Ctrl+m\""
@@ -1766,13 +1837,13 @@ msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:99
 #. i18n: ectx: label, entry (displayDataRange), group (main)
-#: rc.cpp:534
+#: rc.cpp:540
 msgid "Defines whether call history is restricted to a specific date range"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:103
 #. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
-#: rc.cpp:537
+#: rc.cpp:543
 msgid ""
 "Defines whether or not to display the 10 most popular phone number as "
 "bookmark automagically"
@@ -1780,130 +1851,136 @@ msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:106
 #. i18n: ectx: label, entry (historySortMode), group (main)
-#: rc.cpp:540
+#: rc.cpp:546
 msgid "Define sorting order for history list"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:109
 #. i18n: ectx: label, entry (contactSortMode), group (main)
-#: rc.cpp:543
+#: rc.cpp:549
 msgid "Define sorting order for contact list"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:112
 #. i18n: ectx: label, entry (displayContactCallHistory), group (main)
-#: rc.cpp:546
+#: rc.cpp:552
 msgid "Defines if the individual contact history list is visible"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:119
 #. i18n: ectx: label, entry (interface), group (main)
-#: rc.cpp:549
+#: rc.cpp:555
 msgid "Defines the Stun server to use."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:126
 #. i18n: ectx: label, entry (alsaPlugin), group (main)
-#: rc.cpp:552
+#: rc.cpp:558
 msgid "Defines which ALSA plugin to use."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:129
 #. i18n: ectx: label, entry (alsaInputDevice), group (main)
-#: rc.cpp:555
+#: rc.cpp:561
 msgid "Defines which ALSA Input device to use."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:132
 #. i18n: ectx: label, entry (alsaOutputDevice), group (main)
-#: rc.cpp:558
+#: rc.cpp:564
 msgid "Defines which ALSA Output device to use."
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:135
+#. i18n: ectx: label, entry (alsaRingtoneDevice), group (main)
+#: rc.cpp:567
+msgid "Defines which ALSA Ringtone device to use."
+msgstr ""
+
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:138
 #. i18n: ectx: label, entry (pulseAudioVolumeAlter), group (main)
-#: rc.cpp:561
+#: rc.cpp:570
 #, fuzzy
 #| msgid "Mute other applications during a call"
 msgid "Defines whether pulse audio can mute other applications during a call."
 msgstr "當有來電時靜音其它應用程序"
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:141
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:144
 #. i18n: ectx: label, entry (enableAddressBook), group (main)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:145
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:148
 #. i18n: ectx: label, entry (phoneTypeList), group (main)
-#: rc.cpp:564 rc.cpp:567
+#: rc.cpp:573 rc.cpp:576
 msgid "Defines whether the search in KDE Address Book is enabled"
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:150
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:153
 #. i18n: ectx: label, entry (displayOrganisation), group (main)
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:155
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:158
 #. i18n: ectx: label, entry (displayEmail), group (main)
-#: rc.cpp:570 rc.cpp:573
+#: rc.cpp:579 rc.cpp:582
 msgid "Defines whether to display the organisation of the contact list item"
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:160
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:163
 #. i18n: ectx: label, entry (alwaysShowPhoneNumber), group (main)
-#: rc.cpp:576
+#: rc.cpp:585
 msgid ""
 "Defines if the contact tree should be expanded by default to show all numbers"
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:165
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:168
 #. i18n: ectx: label, entry (defaultAccountId), group (main)
-#: rc.cpp:579
+#: rc.cpp:588
 msgid ""
 "Default account used for contact lookup if only partial (only extension) "
 "contacts info is available"
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:171
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:174
 #. i18n: ectx: label, entry (bookmarkList), group (main)
-#: rc.cpp:582
+#: rc.cpp:591
 msgid "List of bookmarked clients"
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:177
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:180
 #. i18n: ectx: label, entry (enableHooksSIP), group (main)
-#: rc.cpp:585
+#: rc.cpp:594
 msgid "Defines whether to enable hooks for SIP accounts."
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:180
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:183
 #. i18n: ectx: label, entry (enableHooksIAX), group (main)
-#: rc.cpp:588
+#: rc.cpp:597
 msgid "Defines whether to enable hooks for IAX accounts."
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:183
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:186
 #. i18n: ectx: label, entry (hooksSIPHeader), group (main)
-#: rc.cpp:591
+#: rc.cpp:600
 msgid "Defines which header to catch for SIP accounts hooks."
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:186
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:189
 #. i18n: ectx: label, entry (hooksCommand), group (main)
-#: rc.cpp:594
+#: rc.cpp:603
 msgid "Defines which command to execute."
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:189
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:192
 #. i18n: ectx: label, entry (addPrefix), group (main)
-#: rc.cpp:597
+#: rc.cpp:606
 msgid "Defines whether to add a prefix for outgoing calls."
 msgstr ""
 
-#. i18n: file: src/klib/sflphone-client-kde.kcfg:192
+#. i18n: file: src/klib/sflphone-client-kde.kcfg:195
 #. i18n: ectx: label, entry (prepend), group (main)
-#: rc.cpp:600
+#: rc.cpp:609
 msgid "Defines the prefix to add."
 msgstr ""
 
 #. i18n: file: src/ui/SFLPhoneView_base.ui:45
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSendMessageLE)
-#: rc.cpp:621
+#: rc.cpp:630
 #, fuzzy
 #| msgid "On messages"
 msgid "Send text message"
@@ -1911,21 +1988,33 @@ msgstr "有新消息"
 
 #. i18n: file: src/ui/SFLPhoneView_base.ui:55
 #. i18n: ectx: property (text), widget (QToolButton, m_pSendMessagePB)
-#: rc.cpp:624
+#: rc.cpp:633
 msgid "Send"
 msgstr ""
 
 #. i18n: file: src/ui/SFLPhoneView_base.ui:97
 #. i18n: ectx: property (toolTip), widget (QSlider, slider_recVol)
-#: rc.cpp:627
+#: rc.cpp:636
 msgid "Mic volume"
 msgstr "話筒音量"
 
 #. i18n: file: src/ui/SFLPhoneView_base.ui:147
 #. i18n: ectx: property (toolTip), widget (QSlider, slider_sndVol)
-#: rc.cpp:630
+#: rc.cpp:639
 msgid "Speakers volume"
 msgstr "揚聲器音量"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "Sort by name"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Call history"
+#~ msgstr "呼叫記錄"
+
+#~ msgid "Phone number rewriting"
+#~ msgstr "重設電話號碼"
 
 #~ msgid "Registered"
 #~ msgstr "已註冊"
@@ -2272,9 +2361,6 @@ msgstr "揚聲器音量"
 #~ msgid "Hide SFLphone window on _startup"
 #~ msgstr "在啟動時隱藏SFLphone主窗口"
 
-#~ msgid "Calls History"
-#~ msgstr "打電話歷史"
-
 #, fuzzy
 #~ msgid "_Keep my history for at least"
 #~ msgstr "保留歷史記錄至少(K)"
@@ -2512,9 +2598,6 @@ msgstr "揚聲器音量"
 
 #~ msgid "Command to _run: "
 #~ msgstr "運行命令(C):"
-
-#~ msgid "Phone Number Rewriting"
-#~ msgstr "重設電話號碼"
 
 #~ msgid "_Prefix dialed numbers with:"
 #~ msgstr "號碼前綴:"
