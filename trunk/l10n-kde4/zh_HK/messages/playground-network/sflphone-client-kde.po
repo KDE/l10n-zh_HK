@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-03 06:22+0200\n"
+"POT-Creation-Date: 2012-08-04 04:52+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -631,6 +631,12 @@ msgstr ""
 msgid "Your call have been transferred to %1"
 msgstr ""
 
+#: src/sflphoneview.cpp:603
+#, fuzzy, kde-format
+#| msgid "Using account"
+msgid "Using account '%1' (%2)"
+msgstr "使用賬戶"
+
 #: src/sflphone.cpp:149
 #, fuzzy
 #| msgid "_Call"
@@ -695,25 +701,13 @@ msgstr "配置SFLphone"
 msgid "New incoming call"
 msgstr "有新來電"
 
-#: src/sflphone.cpp:542
-#, fuzzy, kde-format
-#| msgid "New call"
-msgid "New call from:%1\n"
-msgstr "新電話"
-
-#: src/sflphone.cpp:544
+#: src/sflphone.cpp:542 src/sflphone.cpp:544
 #, fuzzy, kde-format
 #| msgid "New call"
 msgid ""
 "New call from:\n"
 "%1"
 msgstr "新電話"
-
-#: src/sflphoneview.cpp:603
-#, fuzzy, kde-format
-#| msgid "Using account"
-msgid "Using account '%1' (%2)"
-msgstr "使用賬戶"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1621,84 +1615,9 @@ msgstr "啟用地址簿"
 msgid "Use contact from the following phone number category:"
 msgstr ""
 
-#. i18n: file: src/conf/dlgdisplaybase.ui:26
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:429
-#, fuzzy
-msgid "Display Main Window"
-msgstr "顯示"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:35
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
-#: rc.cpp:432
-msgid "On start"
-msgstr "正在啟動"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:45
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
-#. i18n: file: src/conf/dlgdisplaybase.ui:74
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
-#: rc.cpp:435 rc.cpp:441
-msgid "On incoming calls"
-msgstr "有新來電"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:65
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:438
-#, fuzzy
-#| msgid "Desktop Notifications"
-msgid "Notifications"
-msgstr "桌面提示"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:84
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
-#: rc.cpp:444
-msgid "On messages"
-msgstr "有新消息"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:94
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:447
-msgid "Visible Call Details"
-msgstr ""
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:105
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
-#: rc.cpp:450
-msgid "Minimum item height"
-msgstr ""
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:137
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:453
-msgid "Visible Contact Details"
-msgstr ""
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:143
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
-#: rc.cpp:456
-msgid "Display organisation"
-msgstr ""
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:150
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
-#: rc.cpp:459
-#, fuzzy
-#| msgid "Optional email address"
-msgid "Display e-mail address"
-msgstr "可選郵件地址"
-
-#. i18n: file: src/conf/dlgdisplaybase.ui:157
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowPhoneNumber)
-#: rc.cpp:462
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Always display phone number"
-msgstr "編輯電話號碼"
-
 #. i18n: file: src/conf/dlggeneralbase.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
-#: rc.cpp:465
+#: rc.cpp:429
 #, fuzzy
 #| msgid "Calls History"
 msgid "Call History"
@@ -1706,14 +1625,14 @@ msgstr "打電話歷史"
 
 #. i18n: file: src/conf/dlggeneralbase.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHistory)
-#: rc.cpp:468
+#: rc.cpp:432
 #, fuzzy
 msgid "Keep my history for at least"
 msgstr "保存呼叫記錄數至少"
 
 #. i18n: file: src/conf/dlggeneralbase.ui:64
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:471
+#: rc.cpp:435
 #, fuzzy
 msgctxt "Keep my history for at least *** days"
 msgid "days"
@@ -1721,17 +1640,92 @@ msgstr "天"
 
 #. i18n: file: src/conf/dlggeneralbase.ui:87
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
-#: rc.cpp:474
+#: rc.cpp:438
 msgid "Display incoming, outgoing and missed for history items"
 msgstr ""
 
 #. i18n: file: src/conf/dlggeneralbase.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
-#: rc.cpp:477
+#: rc.cpp:441
 #, fuzzy
 #| msgid "Clear history"
 msgid "Clear History"
 msgstr "清空曆史記錄"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:444
+#, fuzzy
+msgid "Display Main Window"
+msgstr "顯示"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: rc.cpp:447
+msgid "On start"
+msgstr "正在啟動"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#. i18n: file: src/conf/dlgdisplaybase.ui:74
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
+#: rc.cpp:450 rc.cpp:456
+msgid "On incoming calls"
+msgstr "有新來電"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:65
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:453
+#, fuzzy
+#| msgid "Desktop Notifications"
+msgid "Notifications"
+msgstr "桌面提示"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:84
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
+#: rc.cpp:459
+msgid "On messages"
+msgstr "有新消息"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:94
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:462
+msgid "Visible Call Details"
+msgstr ""
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
+#: rc.cpp:465
+msgid "Minimum item height"
+msgstr ""
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:137
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:468
+msgid "Visible Contact Details"
+msgstr ""
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
+#: rc.cpp:471
+msgid "Display organisation"
+msgstr ""
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:150
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
+#: rc.cpp:474
+#, fuzzy
+#| msgid "Optional email address"
+msgid "Display email address"
+msgstr "可選郵件地址"
+
+#. i18n: file: src/conf/dlgdisplaybase.ui:157
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowPhoneNumber)
+#: rc.cpp:477
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Always display phone number"
+msgstr "編輯電話號碼"
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:12
 #. i18n: ectx: label, entry (enableHistory), group (main)
@@ -1790,7 +1784,7 @@ msgstr ""
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:49
 #. i18n: ectx: label, entry (displayCallEmail), group (main)
 #: rc.cpp:507
-msgid "If a contact is present, display the e-mail"
+msgid "If a contact is present, display the email"
 msgstr ""
 
 #. i18n: file: src/klib/sflphone-client-kde.kcfg:53
@@ -2026,6 +2020,11 @@ msgstr "話筒音量"
 #: rc.cpp:642
 msgid "Speakers volume"
 msgstr "揚聲器音量"
+
+#, fuzzy
+#~| msgid "New call"
+#~ msgid "New call from:%1\n"
+#~ msgstr "新電話"
 
 #, fuzzy
 #~| msgid "General"
