@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-27 04:24+0200\n"
+"POT-Creation-Date: 2012-08-07 08:17+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -764,69 +764,6 @@ msgctxt ""
 msgid "Giving a presentation"
 msgstr "表現"
 
-#: ui/toolaction.cpp:21
-#, fuzzy
-#| msgid "&Select Tool"
-msgid "Selection Tools"
-msgstr "選取工具(&S)"
-
-#: ui/toolaction.cpp:73 ui/toolaction.cpp:85
-msgid ""
-"Click to use the current selection tool\n"
-"Click and hold to choose another selection tool"
-msgstr ""
-
-#: ui/annotationpopup.cpp:49
-#, fuzzy, kde-format
-#| msgid "Presentation"
-msgid "Annotation"
-msgid_plural "%1 Annotations"
-msgstr[0] "表現"
-
-#: ui/annotationpopup.cpp:50
-msgid "&Open Pop-up Note"
-msgstr ""
-
-#: ui/annotationpopup.cpp:52
-msgid "&Delete"
-msgstr ""
-
-#: ui/annotationpopup.cpp:62 ui/propertiesdialog.cpp:49 part.cpp:655
-msgid "&Properties"
-msgstr "屬性(&P)"
-
-#: ui/annotationpopup.cpp:69
-#, fuzzy, kde-format
-#| msgid "Save to File..."
-msgctxt "%1 is the name of the file to save"
-msgid "&Save '%1'..."
-msgstr "儲存至檔案..."
-
-#: ui/sidebar.cpp:675 ui/annotationwidgets.cpp:268 shell/main.cpp:42
-#: part.cpp:156
-msgid "Okular"
-msgstr ""
-
-#: ui/sidebar.cpp:676
-#, fuzzy
-#| msgid "Speak Text"
-msgid "Show Text"
-msgstr "讀出文字"
-
-#: ui/sidebar.cpp:692
-msgid "Small Icons"
-msgstr ""
-
-#: ui/sidebar.cpp:693
-msgid "Normal Icons"
-msgstr ""
-
-#: ui/sidebar.cpp:694
-#, fuzzy
-#| msgid "Icon"
-msgid "Large Icons"
-msgstr "圖示"
-
 #: ui/pageview.cpp:406
 msgid "Zoom"
 msgstr ""
@@ -993,56 +930,56 @@ msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
 msgstr[0] "已載入一份 %1 頁的文件。"
 
-#: ui/pageview.cpp:2280
+#: ui/pageview.cpp:2292
 msgid "Follow This Link"
 msgstr ""
 
-#: ui/pageview.cpp:2283
+#: ui/pageview.cpp:2295
 msgid "Copy Link Address"
 msgstr ""
 
-#: ui/pageview.cpp:2424
+#: ui/pageview.cpp:2436
 #, kde-format
 msgid "Text (1 character)"
 msgid_plural "Text (%1 characters)"
 msgstr[0] "文字（%1 個字元）"
 
-#: ui/pageview.cpp:2425 ui/pageview.cpp:2440
+#: ui/pageview.cpp:2437 ui/pageview.cpp:2452
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
-#: ui/pageview.cpp:2430 ui/pageview.cpp:2581 ui/pageview.cpp:2687
+#: ui/pageview.cpp:2442 ui/pageview.cpp:2593 ui/pageview.cpp:2699
 msgid "Copy forbidden by DRM"
 msgstr ""
 
-#: ui/pageview.cpp:2433 ui/pageview.cpp:2683
+#: ui/pageview.cpp:2445 ui/pageview.cpp:2695
 msgid "Speak Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:2439
+#: ui/pageview.cpp:2451
 #, kde-format
 msgid "Image (%1 by %2 pixels)"
 msgstr "圖像 (%1 X %2 像素)"
 
-#: ui/pageview.cpp:2441
+#: ui/pageview.cpp:2453
 msgid "Save to File..."
 msgstr "儲存至檔案..."
 
-#: ui/pageview.cpp:2463
+#: ui/pageview.cpp:2475
 #, kde-format
 msgid "Image [%1x%2] copied to clipboard."
 msgstr "圖像 [%1x%2] 已複製至剪貼簿。"
 
-#: ui/pageview.cpp:2471
+#: ui/pageview.cpp:2483
 msgid "File not saved."
 msgstr "檔案未儲存。"
 
-#: ui/pageview.cpp:2481
+#: ui/pageview.cpp:2493
 #, kde-format
 msgid "Image [%1x%2] saved to %3 file."
 msgstr "圖像 [%1x%2] 已儲存至 %3 檔案。"
 
-#: ui/pageview.cpp:2680
+#: ui/pageview.cpp:2692
 #, fuzzy
 #| msgid "Speak Text"
 msgid "Copy Text"
@@ -1050,56 +987,56 @@ msgstr "讀出文字"
 
 #. i18n: file: conf/dlggeneralbase.ui:287
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: ui/pageview.cpp:3474 part.cpp:2244 rc.cpp:290
+#: ui/pageview.cpp:3486 part.cpp:2244 rc.cpp:290
 msgid "Fit Width"
 msgstr "符合闊度"
 
 #. i18n: file: conf/dlggeneralbase.ui:292
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: ui/pageview.cpp:3474 rc.cpp:293
+#: ui/pageview.cpp:3486 rc.cpp:293
 msgid "Fit Page"
 msgstr "符合頁面"
 
-#: ui/pageview.cpp:3609
+#: ui/pageview.cpp:3621
 msgid "Hide Forms"
 msgstr ""
 
-#: ui/pageview.cpp:3613
+#: ui/pageview.cpp:3625
 #, fuzzy
 #| msgid "Show scroll&bars"
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:3662
+#: ui/pageview.cpp:3674
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: ui/pageview.cpp:3677
+#: ui/pageview.cpp:3689
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Web Shortcuts..."
 msgstr "設定 KPDF..."
 
-#: ui/pageview.cpp:4123
+#: ui/pageview.cpp:4135
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:4227
+#: ui/pageview.cpp:4239
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:4240
+#: ui/pageview.cpp:4252
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4253
+#: ui/pageview.cpp:4265
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:4267
+#: ui/pageview.cpp:4279
 #, fuzzy
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid ""
@@ -1107,13 +1044,76 @@ msgid ""
 "Esc to clear."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4301
+#: ui/pageview.cpp:4313
 msgid "Annotations author"
 msgstr ""
 
-#: ui/pageview.cpp:4302
+#: ui/pageview.cpp:4314
 msgid "Please insert your name or initials:"
 msgstr ""
+
+#: ui/toolaction.cpp:21
+#, fuzzy
+#| msgid "&Select Tool"
+msgid "Selection Tools"
+msgstr "選取工具(&S)"
+
+#: ui/toolaction.cpp:73 ui/toolaction.cpp:85
+msgid ""
+"Click to use the current selection tool\n"
+"Click and hold to choose another selection tool"
+msgstr ""
+
+#: ui/annotationpopup.cpp:49
+#, fuzzy, kde-format
+#| msgid "Presentation"
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "表現"
+
+#: ui/annotationpopup.cpp:50
+msgid "&Open Pop-up Note"
+msgstr ""
+
+#: ui/annotationpopup.cpp:52
+msgid "&Delete"
+msgstr ""
+
+#: ui/annotationpopup.cpp:62 ui/propertiesdialog.cpp:49 part.cpp:655
+msgid "&Properties"
+msgstr "屬性(&P)"
+
+#: ui/annotationpopup.cpp:69
+#, fuzzy, kde-format
+#| msgid "Save to File..."
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'..."
+msgstr "儲存至檔案..."
+
+#: ui/sidebar.cpp:675 ui/annotationwidgets.cpp:268 shell/main.cpp:42
+#: part.cpp:156
+msgid "Okular"
+msgstr ""
+
+#: ui/sidebar.cpp:676
+#, fuzzy
+#| msgid "Speak Text"
+msgid "Show Text"
+msgstr "讀出文字"
+
+#: ui/sidebar.cpp:692
+msgid "Small Icons"
+msgstr ""
+
+#: ui/sidebar.cpp:693
+msgid "Normal Icons"
+msgstr ""
+
+#: ui/sidebar.cpp:694
+#, fuzzy
+#| msgid "Icon"
+msgid "Large Icons"
+msgstr "圖示"
 
 #: ui/thumbnaillist.cpp:1015
 msgid "Show bookmarked pages only"
@@ -2206,25 +2206,25 @@ msgstr ""
 msgid "Go to the place you were before"
 msgstr ""
 
-#: part.cpp:2568
+#: part.cpp:2569
 msgid "Go to the place you were after"
 msgstr ""
 
-#: part.cpp:2592
+#: part.cpp:2594
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not create temporary file "
 "<nobr><strong>%1</strong></nobr>.</qt>"
 msgstr ""
 
-#: part.cpp:2610
+#: part.cpp:2612
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
 "strong></nobr> for uncompression. The file will not be loaded.</qt>"
 msgstr ""
 
-#: part.cpp:2613
+#: part.cpp:2615
 msgid ""
 "<qt>This error typically occurs if you do not have enough permissions to "
 "read the file. You can check ownership and permissions if you right-click on "
@@ -2232,20 +2232,20 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: part.cpp:2637
+#: part.cpp:2639
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
 "%1</strong></nobr>. The file will not be loaded.</qt>"
 msgstr ""
 
-#: part.cpp:2640
+#: part.cpp:2642
 msgid ""
 "<qt>This error typically occurs if the file is corrupt. If you want to be "
 "sure, try to decompress the file manually using command-line tools.</qt>"
 msgstr ""
 
-#: part.cpp:2669
+#: part.cpp:2671
 msgid "No Bookmarks"
 msgstr ""
 
