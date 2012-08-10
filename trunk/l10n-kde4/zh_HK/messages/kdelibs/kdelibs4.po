@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 08:18+0200\n"
+"POT-Creation-Date: 2012-08-10 05:03+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5273,7 +5273,7 @@ msgid "Connection timed out"
 msgstr "連線逾時"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:560
 #, fuzzy
 #| msgctxt "QFile"
 #| msgid "Unknown error"
@@ -5922,43 +5922,6 @@ msgid ""
 "window used for status information.</p>"
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
-#, fuzzy
-msgid ""
-"<qt>No information available.<br />The supplied KAboutData object does not "
-"exist.</qt>"
-msgstr ""
-"抱歉，沒有資訊可獲得。\n"
-"提供的 KAboutData 物件不存在。"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
-#, kde-format
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgstr ""
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
-#, kde-format
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Development Platform %3</html>"
-msgstr ""
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid "License: %1"
-msgstr "許可證："
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:312
-#, fuzzy
-#| msgid "&License Agreement"
-msgid "License Agreement"
-msgstr "授權宣告(&L)"
-
 #: kdeui/dialogs/klinkdialog.cpp:49
 #, fuzzy
 #| msgid "Save Link As"
@@ -6503,6 +6466,43 @@ msgstr "啟動時顯示小秘訣(&S)"
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "下一頁(&N)"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
+#, fuzzy
+msgid ""
+"<qt>No information available.<br />The supplied KAboutData object does not "
+"exist.</qt>"
+msgstr ""
+"抱歉，沒有資訊可獲得。\n"
+"提供的 KAboutData 物件不存在。"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
+#, kde-format
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr ""
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
+#, kde-format
+msgctxt ""
+"Program name, version and KDE platform version; do not translate "
+"'Development Platform'"
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+"Development Platform %3</html>"
+msgstr ""
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
+#, fuzzy, kde-format
+#| msgid "License:"
+msgid "License: %1"
+msgstr "許可證："
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:315
+#, fuzzy
+#| msgid "&License Agreement"
+msgid "License Agreement"
+msgstr "授權宣告(&L)"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, fuzzy, kde-format
@@ -10448,6 +10448,117 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "開始取代"
 
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "顯示說明"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "工具列選單"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+#, fuzzy
+#| msgid "Orientation"
+msgctxt "Toolbar orientation"
+msgid "Orientation"
+msgstr "方向"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "頂端"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "左邊"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "右邊"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "底部"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "文字位置"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "只用圖示"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "只用文字"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "文字在圖示旁"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "文字在圖示下"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "圖示大小"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+#, fuzzy
+#| msgid "Default"
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "預設"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "小型 (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "中型 (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "大型 (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "大型 (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+msgid "Lock Toolbar Positions"
+msgstr "工具列"
+
+#: kdeui/widgets/ktoolbar.cpp:1326
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1%"
+
+#: kdeui/widgets/ktoolbar.cpp:1327
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1%"
+
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
@@ -10769,116 +10880,6 @@ msgstr "順時針方向旋轉(&R)"
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:205
 msgid "Rotate &Counterclockwise"
 msgstr "逆時針方向旋轉(&C)"
-
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "顯示說明"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "工具列選單"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-#, fuzzy
-#| msgid "Orientation"
-msgid "Orientation"
-msgstr "方向"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "頂端"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "左邊"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "右邊"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "底部"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "文字位置"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "只用圖示"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "只用文字"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "文字在圖示旁"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "文字在圖示下"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "圖示大小"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-#, fuzzy
-#| msgid "Default"
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "預設"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "小型 (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "中型 (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "大型 (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "大型 (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-#, fuzzy
-msgid "Lock Toolbar Positions"
-msgstr "工具列"
-
-#: kdeui/widgets/ktoolbar.cpp:1326
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/widgets/ktoolbar.cpp:1327
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1%"
 
 #: kdeui/widgets/krichtextwidget.cpp:232
 #, fuzzy
@@ -14415,16 +14416,16 @@ msgstr "選擇元件"
 msgid "Enable component"
 msgstr "可內嵌的 HTML 元件"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:554
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:556
 #, fuzzy
 msgid "Communication error"
 msgstr "組態設定"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:558
 #, fuzzy
 #| msgid "Invalid reference base"
 msgid "Invalid type in Database"
