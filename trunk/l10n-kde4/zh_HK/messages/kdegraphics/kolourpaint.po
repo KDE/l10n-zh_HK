@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-04 04:15+0200\n"
+"POT-Creation-Date: 2012-08-12 04:23+0200\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1272,7 +1272,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_Colors.cpp:347
 #: mainWindow/kpMainWindow_Colors.cpp:360
 #: mainWindow/kpMainWindow_Colors.cpp:369
-#: mainWindow/kpMainWindow_File.cpp:1064 mainWindow/kpMainWindow_File.cpp:1074
+#: mainWindow/kpMainWindow_File.cpp:1062 mainWindow/kpMainWindow_File.cpp:1072
 #, fuzzy
 msgid "&Reload"
 msgstr "重新載入(&D)"
@@ -1577,51 +1577,54 @@ msgctxt "@title:window"
 msgid "Open Image"
 msgstr "開啟圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:536
-msgid "Scanning support is not installed."
+#: mainWindow/kpMainWindow_File.cpp:533
+msgid ""
+"No plugin was found which provides the scanner dialog.\n"
+"This usually means that the package providing the ksaneplugin is not "
+"installed."
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:537
+#: mainWindow/kpMainWindow_File.cpp:535
 msgid "No Scanning Support"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:651
+#: mainWindow/kpMainWindow_File.cpp:649
 msgid "Snapshot Delay"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:654
+#: mainWindow/kpMainWindow_File.cpp:652
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 
-#: mainWindow/kpMainWindow_File.cpp:655
+#: mainWindow/kpMainWindow_File.cpp:653
 msgid "No delay"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:657
+#: mainWindow/kpMainWindow_File.cpp:655
 #, fuzzy
 #| msgid "Paste in &New Window"
 msgid "Hide Main Window"
 msgstr "貼上至新視窗(&N)"
 
-#: mainWindow/kpMainWindow_File.cpp:710
+#: mainWindow/kpMainWindow_File.cpp:708
 msgid "Document Properties"
 msgstr ""
 
-#: mainWindow/kpMainWindow_File.cpp:945
+#: mainWindow/kpMainWindow_File.cpp:943
 #, fuzzy
 #| msgid "Save Image As"
 msgctxt "@title:window"
 msgid "Save Image As"
 msgstr "儲存圖像為"
 
-#: mainWindow/kpMainWindow_File.cpp:994
+#: mainWindow/kpMainWindow_File.cpp:992
 #, fuzzy
 msgctxt "@title:window"
 msgid "Export"
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:1059
+#: mainWindow/kpMainWindow_File.cpp:1057
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1632,7 +1635,7 @@ msgstr ""
 "重新載入會失去上次儲存之後的所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1069
+#: mainWindow/kpMainWindow_File.cpp:1067
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1643,14 +1646,14 @@ msgstr ""
 "重新載入會失去所有更改。\n"
 "確定嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1311
+#: mainWindow/kpMainWindow_File.cpp:1309
 #, fuzzy
 #| msgid "Entire Image"
 msgctxt "@title:window"
 msgid "Print Image"
 msgstr "整個圖像"
 
-#: mainWindow/kpMainWindow_File.cpp:1400
+#: mainWindow/kpMainWindow_File.cpp:1398
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
@@ -1658,7 +1661,7 @@ msgstr ""
 "傳送此圖像之前必須先儲存。\n"
 "要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1441
+#: mainWindow/kpMainWindow_File.cpp:1439
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
