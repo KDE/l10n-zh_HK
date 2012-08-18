@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KImageMapEditor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-24 03:56+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2006-02-26 05:42+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -55,14 +55,18 @@ msgstr "圖片(&I)"
 msgid "Path"
 msgstr "路徑"
 
+#: imageslistview.cpp:60 kimagemapeditor.cpp:103 kimagemapeditor.cpp:136
+#: kimeshell.cpp:180
+msgid "Images"
+msgstr "圖片"
+
+#: imageslistview.cpp:61
+msgid "Usemap"
+msgstr "Usemap"
+
 #: kimagemapeditor.cpp:102 kimagemapeditor.cpp:135 mapslistview.cpp:33
 msgid "Maps"
 msgstr "地圖"
-
-#: kimagemapeditor.cpp:103 kimagemapeditor.cpp:136 kimeshell.cpp:180
-#: imageslistview.cpp:60
-msgid "Images"
-msgstr "圖片"
 
 #: kimagemapeditor.cpp:243 mapslistview.cpp:162
 msgid "unnamed"
@@ -449,13 +453,13 @@ msgstr "請選擇要開啟的檔案"
 msgid "HTML File"
 msgstr "HTML 檔案"
 
+#: kimagemapeditor.cpp:1677 kimedialogs.cpp:494 kimeshell.cpp:182
+msgid "All Files"
+msgstr "所有檔案"
+
 #: kimagemapeditor.cpp:1677
 msgid "Text File"
 msgstr "文字檔案"
-
-#: kimagemapeditor.cpp:1677 kimeshell.cpp:182 kimedialogs.cpp:494
-msgid "All Files"
-msgstr "所有檔案"
 
 #: kimagemapeditor.cpp:1688
 #, fuzzy, kde-format
@@ -468,12 +472,12 @@ msgid ""
 msgstr "<qt>檔案 <em>%1</em> 已經存在。<br>您要覆寫它嗎?</qt>"
 
 #: kimagemapeditor.cpp:1689
-msgid "Overwrite File?"
-msgstr "覆寫檔案?"
-
-#: kimagemapeditor.cpp:1689
 msgid "Overwrite"
 msgstr "覆寫"
+
+#: kimagemapeditor.cpp:1689
+msgid "Overwrite File?"
+msgstr "覆寫檔案?"
 
 #: kimagemapeditor.cpp:1693
 #, kde-format
@@ -527,6 +531,30 @@ msgstr "輸入 Usemap"
 msgid "Enter the usemap value:"
 msgstr "請輸入 Usemap 值："
 
+#: kimearea.cpp:147
+msgid "noname"
+msgstr "noname"
+
+#: kimearea.cpp:1406
+msgid "Number of Areas"
+msgstr "區域總數"
+
+#: kimearea.h:231 kimedialogs.cpp:417
+msgid "Rectangle"
+msgstr "長方形"
+
+#: kimearea.h:254 kimedialogs.cpp:418
+msgid "Circle"
+msgstr "圓形"
+
+#: kimearea.h:280 kimedialogs.cpp:419
+msgid "Polygon"
+msgstr "多邊形"
+
+#: kimearea.h:304 kimedialogs.cpp:450
+msgid "Default"
+msgstr ""
+
 #: kimecommands.cpp:26
 #, kde-format
 msgid "Cut %1"
@@ -566,110 +594,6 @@ msgstr "為 %1 移除點"
 #, kde-format
 msgid "Create %1"
 msgstr "建立 %1"
-
-#: kimearea.h:231 kimedialogs.cpp:417
-msgid "Rectangle"
-msgstr "長方形"
-
-#: kimearea.h:254 kimedialogs.cpp:418
-msgid "Circle"
-msgstr "圓形"
-
-#: kimearea.h:280 kimedialogs.cpp:419
-msgid "Polygon"
-msgstr "多邊形"
-
-#: kimearea.h:304 kimedialogs.cpp:450
-msgid "Default"
-msgstr ""
-
-#: main.cpp:36
-msgid "(c) 2001-2007 Jan Schaefer"
-msgstr ""
-
-#: main.cpp:37
-msgid "Jan Schaefer"
-msgstr ""
-
-#: main.cpp:38
-msgid "Joerg Jaspert"
-msgstr ""
-
-#: main.cpp:38
-msgid "For helping me with the Makefiles, and creating the Debian package"
-msgstr "幫助我寫好 Makefiles，又做了 Debian 套件"
-
-#: main.cpp:39
-msgid "Aaron Seigo and Michael"
-msgstr ""
-
-#: main.cpp:39
-msgid "For helping me fixing --enable-final mode"
-msgstr "幫助我修正 --enable-final 模式"
-
-#: main.cpp:40
-msgid "Antonio Crevillen"
-msgstr ""
-
-#: main.cpp:40
-msgid "For the Spanish translation"
-msgstr "翻譯成西班牙文"
-
-#: main.cpp:41
-msgid "Fabrice Mous"
-msgstr ""
-
-#: main.cpp:41
-msgid "For the Dutch translation"
-msgstr "翻譯成荷蘭文"
-
-#: main.cpp:42
-msgid "Germain Chazot"
-msgstr ""
-
-#: main.cpp:42
-msgid "For the French translation"
-msgstr "翻譯成法文"
-
-#: main.cpp:47
-msgid "Write HTML-Code to stdout on exit"
-msgstr "結束時把 HTML 碼傳至標準輸出"
-
-#: main.cpp:48
-msgid "File to open"
-msgstr "要開啟的檔案"
-
-#: kimeshell.cpp:179
-msgid "Web Files"
-msgstr "網站檔案"
-
-#: kimeshell.cpp:181
-msgid "HTML Files"
-msgstr "HTML 檔案"
-
-#: kimeshell.cpp:182
-msgid "PNG Images"
-msgstr "PNG 圖片"
-
-#: kimeshell.cpp:182
-msgid "JPEG Images"
-msgstr "JPEG 圖片"
-
-#: kimeshell.cpp:182
-msgid "GIF Images"
-msgstr "GIF 圖片"
-
-#: kimeshell.cpp:183
-msgid "Choose Picture to Open"
-msgstr "請選擇要開啟的圖片"
-
-#: kimearea.cpp:147
-msgid "noname"
-msgstr "noname"
-
-#: kimearea.cpp:1406
-msgid "Number of Areas"
-msgstr "區域總數"
 
 #: kimedialogs.cpp:85
 msgid "Top &X:"
@@ -808,9 +732,85 @@ msgstr "取消復原次數上限(&R)："
 msgid "&Start with last used document"
 msgstr "啟動時開啟上一次使用的文件(&S)"
 
-#: imageslistview.cpp:61
-msgid "Usemap"
-msgstr "Usemap"
+#: kimeshell.cpp:179
+msgid "Web Files"
+msgstr "網站檔案"
+
+#: kimeshell.cpp:181
+msgid "HTML Files"
+msgstr "HTML 檔案"
+
+#: kimeshell.cpp:182
+msgid "GIF Images"
+msgstr "GIF 圖片"
+
+#: kimeshell.cpp:182
+msgid "JPEG Images"
+msgstr "JPEG 圖片"
+
+#: kimeshell.cpp:182
+msgid "PNG Images"
+msgstr "PNG 圖片"
+
+#: kimeshell.cpp:183
+msgid "Choose Picture to Open"
+msgstr "請選擇要開啟的圖片"
+
+#: main.cpp:36
+msgid "(c) 2001-2007 Jan Schaefer"
+msgstr ""
+
+#: main.cpp:37
+msgid "Jan Schaefer"
+msgstr ""
+
+#: main.cpp:38
+msgid "For helping me with the Makefiles, and creating the Debian package"
+msgstr "幫助我寫好 Makefiles，又做了 Debian 套件"
+
+#: main.cpp:38
+msgid "Joerg Jaspert"
+msgstr ""
+
+#: main.cpp:39
+msgid "Aaron Seigo and Michael"
+msgstr ""
+
+#: main.cpp:39
+msgid "For helping me fixing --enable-final mode"
+msgstr "幫助我修正 --enable-final 模式"
+
+#: main.cpp:40
+msgid "Antonio Crevillen"
+msgstr ""
+
+#: main.cpp:40
+msgid "For the Spanish translation"
+msgstr "翻譯成西班牙文"
+
+#: main.cpp:41
+msgid "Fabrice Mous"
+msgstr ""
+
+#: main.cpp:41
+msgid "For the Dutch translation"
+msgstr "翻譯成荷蘭文"
+
+#: main.cpp:42
+msgid "For the French translation"
+msgstr "翻譯成法文"
+
+#: main.cpp:42
+msgid "Germain Chazot"
+msgstr ""
+
+#: main.cpp:47
+msgid "Write HTML-Code to stdout on exit"
+msgstr "結束時把 HTML 碼傳至標準輸出"
+
+#: main.cpp:48
+msgid "File to open"
+msgstr "要開啟的檔案"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
