@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:37+0200\n"
+"POT-Creation-Date: 2012-08-19 06:01+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -17,6 +17,707 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/conf/dlgvideo.cpp:54 src/conf/dlgvideo.cpp:145
+msgid "Stop preview"
+msgstr ""
+
+#. i18n: file: src/conf/dlgvideobase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:141 rc.cpp:72
+#, fuzzy
+#| msgid "_Start hidden"
+msgid "Start preview"
+msgstr "啟動時隱藏(S)"
+
+#: src/conf/configurationdialog.cpp:55
+msgid "Accounts"
+msgstr "帳戶"
+
+#: src/conf/configurationdialog.cpp:56
+#, fuzzy
+msgctxt "User interterface settings"
+msgid "Display"
+msgstr "顯示"
+
+#: src/conf/configurationdialog.cpp:57
+#, fuzzy
+#| msgid "History"
+msgctxt "History settings"
+msgid "History"
+msgstr "歷史"
+
+#: src/conf/configurationdialog.cpp:58
+#, fuzzy
+msgid "Audio"
+msgstr "音頻"
+
+#: src/conf/configurationdialog.cpp:59
+msgid "Address Book"
+msgstr "地址簿"
+
+#: src/conf/configurationdialog.cpp:60
+msgid "Hooks"
+msgstr "鉤鍵"
+
+#: src/conf/configurationdialog.cpp:61
+msgid "Accessibility"
+msgstr ""
+
+#: src/conf/configurationdialog.cpp:63 src/widgets/videodock.cpp:31
+msgctxt "Video conversation"
+msgid "Video"
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:537
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "New account%1"
+msgstr "增加新帳戶"
+
+#: src/conf/dlggeneral.cpp:83
+msgid "Are you sure you want to clear history?"
+msgstr ""
+
+#: src/conf/dlggeneral.cpp:83
+#, fuzzy
+#| msgid "Clear _history"
+msgid "Clear history"
+msgstr "清空曆史記錄(C)"
+
+#: src/klib/dataengine/sflphoneengine.cpp:282
+#, fuzzy
+#| msgid "Current account"
+msgid "Current_account"
+msgstr "當前帳戶"
+
+#: src/klib/helperfunctions.cpp:45 src/widgets/contactitemwidget.cpp:248
+#, kde-format
+msgid "%1 number"
+msgid_plural "%1 numbers"
+msgstr[0] ""
+
+#: src/klib/helperfunctions.cpp:79 src/sflphoneview.cpp:600
+msgid "No registered accounts"
+msgstr "沒有已註冊帳戶"
+
+#: src/lib/sflphone_const.h:40
+msgid "New call"
+msgstr "新電話"
+
+#: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
+msgid "Hang up"
+msgstr "放電話"
+
+#: src/lib/sflphone_const.h:42
+msgid "Hold on"
+msgstr "呼叫保持"
+
+#: src/lib/sflphone_const.h:43 src/widgets/historytreeitem.cpp:190
+#: src/widgets/contactitemwidget.cpp:107 src/widgets/calltreeitem.cpp:244
+#: src/callview.cpp:233
+msgid "Transfer"
+msgstr "轉接"
+
+#: src/lib/sflphone_const.h:44
+msgid "Record"
+msgstr "記錄"
+
+#: src/lib/sflphone_const.h:45
+msgid "Pick up"
+msgstr "接電話"
+
+#: src/lib/sflphone_const.h:47
+msgid "Hold off"
+msgstr "恢復通話"
+
+#: src/lib/sflphone_const.h:48
+msgid "Give up transfer"
+msgstr "取消轉接"
+
+#: src/lib/sflphone_const.h:49
+msgid "Call back"
+msgstr "回叫"
+
+#: src/lib/sflphone_const.h:50
+msgid "Voicemail"
+msgstr "語音郵件"
+
+#: src/widgets/bookmarkdock.cpp:79 src/widgets/historydock.cpp:120
+#: src/widgets/contactdock.cpp:144
+msgid "Filter"
+msgstr ""
+
+#: src/widgets/bookmarkdock.cpp:85
+msgid "Show most called contacts"
+msgstr ""
+
+#: src/widgets/bookmarkdock.cpp:96 src/widgets/bookmarkdock.cpp:97
+#: src/widgets/historytreeitem.cpp:125 src/widgets/historytreeitem.cpp:127
+#: src/widgets/contactitemwidget.cpp:95 src/sflphone.cpp:599
+#, fuzzy
+#| msgid "Books"
+msgid "Bookmark"
+msgstr "鉤鍵"
+
+#: src/widgets/bookmarkdock.cpp:130 src/widgets/bookmarkdock.cpp:131
+#: src/widgets/historytreeitem.cpp:580 src/widgets/historytreeitem.cpp:623
+#: src/callview.cpp:418
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown peer"
+msgid "Unknown"
+msgstr "未知"
+
+#: src/widgets/bookmarkdock.cpp:185 src/widgets/bookmarkdock.cpp:192
+msgid "Popular"
+msgstr ""
+
+#: src/widgets/historydock.cpp:94
+msgid "Sort by:"
+msgstr ""
+
+#: src/widgets/historydock.cpp:95
+msgid "From:"
+msgstr ""
+
+#: src/widgets/historydock.cpp:96
+msgctxt "To date:"
+msgid "To:"
+msgstr ""
+
+#: src/widgets/historydock.cpp:99
+#, fuzzy
+msgid "Display all"
+msgstr "顯示"
+
+#: src/widgets/historydock.cpp:111 src/sflphoneview.cpp:120
+#, fuzzy
+#| msgid "_Call"
+msgid "Calls"
+msgstr "電話"
+
+#: src/widgets/historydock.cpp:124
+msgctxt "Sort by date"
+msgid "Date"
+msgstr ""
+
+#: src/widgets/historydock.cpp:124 src/widgets/contactdock.cpp:129
+#, fuzzy
+#| msgid "Name"
+msgctxt "Sort by Name"
+msgid "Name"
+msgstr "名稱"
+
+#: src/widgets/historydock.cpp:124
+msgctxt "Sort by Popularity"
+msgid "Popularity"
+msgstr ""
+
+#: src/widgets/historydock.cpp:124
+msgctxt "Sort by Length"
+msgid "Length"
+msgstr ""
+
+#: src/widgets/historydock.cpp:143 src/sflphone.cpp:605
+msgid "History"
+msgstr "歷史"
+
+#: src/widgets/historytreeitem.cpp:103 src/widgets/contactitemwidget.cpp:68
+#, fuzzy
+#| msgid "Call back"
+msgid "Call Again"
+msgstr "回叫"
+
+#: src/widgets/historytreeitem.cpp:107
+msgid "Add Number to Contact"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:112
+msgid "Add Contact"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:116 src/widgets/contactitemwidget.cpp:78
+msgid "Copy"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:120 src/widgets/contactitemwidget.cpp:83
+#, fuzzy
+#| msgid "_Email"
+msgid "Send Email"
+msgstr "郵件(E)"
+
+#: src/widgets/historytreeitem.cpp:131
+msgid "Remove bookmark"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:336
+msgid "Are you sure you want to delete this recording?"
+msgstr ""
+
+#: src/widgets/historytreeitem.cpp:336
+#, fuzzy
+#| msgid "Recordings"
+msgid "Delete recording"
+msgstr "記錄"
+
+#: src/widgets/contactdock.cpp:129
+msgctxt "Sort by Organisation"
+msgid "Organisation"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:129
+msgctxt "Sort by Recently used"
+msgid "Recently used"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:129
+msgctxt "Sort by Group"
+msgid "Group"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:129
+msgctxt "Sort by Department"
+msgid "Department"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:136
+msgid "Contacts"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:148 src/sflphone.cpp:307
+#, fuzzy
+#| msgid "Clear history"
+msgid "Display history"
+msgstr "清空曆史記錄"
+
+#: src/widgets/contactdock.cpp:176 src/sflphone.cpp:602
+msgid "Contact"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:229 src/widgets/contactdock.cpp:241
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Unknown category"
+msgid "Unknown"
+msgstr "未知"
+
+#: src/widgets/contactdock.cpp:238
+msgid "TODO"
+msgstr ""
+
+#: src/widgets/contactitemwidget.cpp:73
+#, fuzzy
+#| msgid "Edit phone"
+msgid "Edit contact"
+msgstr "編輯電話"
+
+#: src/widgets/contactitemwidget.cpp:89
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Add Phone Number"
+msgstr "編輯電話號碼"
+
+#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:347
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Select phone number"
+msgstr "編輯電話號碼"
+
+#: src/widgets/contactitemwidget.cpp:328 src/sflphoneview.cpp:347
+msgid ""
+"This contact has many phone numbers, please select the one you wish to call"
+msgstr ""
+
+#: src/widgets/contactitemwidget.cpp:435
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Enter a new number"
+msgstr "編輯電話號碼"
+
+#: src/widgets/contactitemwidget.cpp:435
+msgid "New number:"
+msgstr ""
+
+#: src/widgets/calltreeitem.cpp:208
+msgid "<b>Conference</b>"
+msgstr ""
+
+#: src/widgets/calltreeitem.cpp:225
+#, fuzzy
+#| msgid "Transfer to : "
+msgid "Transfer to:"
+msgstr "轉給:"
+
+#: src/widgets/calltreeitem.cpp:239
+#, fuzzy
+#| msgid "Preferences"
+msgid "Conference"
+msgstr "屬性"
+
+#: src/widgets/calltreeitem.cpp:350
+#, fuzzy
+#| msgid "Unknown"
+msgid "<b>Unknown</b>"
+msgstr "未知"
+
+#: src/actionsetaccountfirst.cpp:28
+msgid "Default account"
+msgstr "默認帳戶"
+
+#: src/sflphoneaccessibility.cpp:33
+msgid "List all current calls"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:41
+msgid "Get current call details"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:60
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] ""
+
+#: src/sflphoneaccessibility.cpp:62
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:88
+#, kde-format
+msgid "The current call is %1"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:90
+#, kde-format
+msgid ",Your peer is %1"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:92
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:94
+#, fuzzy, kde-format
+#| msgid "Edit phone number"
+msgid ", the phone number is %1 "
+msgstr "編輯電話號碼"
+
+#: src/sflphoneaccessibility.cpp:98
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr ""
+
+#: src/accountwizard.cpp:187 src/accountwizard.cpp:348 src/sflphone.cpp:309
+msgid "Account creation wizard"
+msgstr "帳戶創建向導"
+
+#: src/accountwizard.cpp:243 src/accountwizard.cpp:264
+#: src/accountwizard.cpp:279 src/accountwizard.cpp:694
+msgid "This assistant is now finished."
+msgstr "配置完成."
+
+#: src/accountwizard.cpp:260
+#, kde-format
+msgid ""
+"Creation of account has failed for the reason:\n"
+"%1"
+msgstr ""
+
+#: src/accountwizard.cpp:320
+#, fuzzy, kde-format
+#| msgid "Alias"
+msgid "Alias: %1"
+msgstr "別稱"
+
+#: src/accountwizard.cpp:321
+#, fuzzy, kde-format
+#| msgid "Server"
+msgid "Server: %1"
+msgstr "伺服器"
+
+#: src/accountwizard.cpp:322
+#, fuzzy, kde-format
+#| msgid "Password"
+msgid "Password: %1"
+msgstr "密碼"
+
+#: src/accountwizard.cpp:323
+#, fuzzy, kde-format
+#| msgid "Protocol"
+msgid "Protocol: %1"
+msgstr "協議"
+
+#: src/accountwizard.cpp:324
+#, fuzzy, kde-format
+#| msgid "Voicemail number"
+msgid "Voicemail number: %1"
+msgstr "語音郵箱"
+
+#: src/accountwizard.cpp:325
+#, fuzzy, kde-format
+#| msgid "Username"
+msgctxt "SIP Account username"
+msgid "Username: %1"
+msgstr "使用者名稱"
+
+#: src/accountwizard.cpp:349
+#, fuzzy
+#| msgid "Welcome to the Account creation wizard of SFLphone!"
+msgid "Welcome to the Account creation wizard of SFLphone"
+msgstr "歡迎使用SFLphone帳戶創建嚮導!"
+
+#: src/accountwizard.cpp:351
+msgid "This installation wizard will help you configure an account."
+msgstr "安裝向導將幫助您配置帳戶"
+
+#: src/accountwizard.cpp:379
+msgid "Account"
+msgstr "帳戶"
+
+#: src/accountwizard.cpp:380
+msgid "Please select one of the following options"
+msgstr "請選擇以下選項中的一個"
+
+#: src/accountwizard.cpp:382
+msgid "Create a free SIP/IAX2 account on sflphone.org"
+msgstr "在sflphone.org上創建免費的SIP/IAX2帳戶"
+
+#: src/accountwizard.cpp:383
+msgid "Register an existing SIP or IAX2 account"
+msgstr "註冊已存在的SIP或IAX2帳戶"
+
+#: src/accountwizard.cpp:420
+msgid "VoIP Protocols"
+msgstr "VoIP協議"
+
+#: src/accountwizard.cpp:421
+msgid "Select an account type"
+msgstr "選擇帳戶類型"
+
+#: src/accountwizard.cpp:423
+msgid "SIP (Session Initiation Protocol)"
+msgstr "SIP(會話初始化協議)"
+
+#: src/accountwizard.cpp:424
+msgid "IAX2 (InterAsterix Exchange)"
+msgstr "IAX2(Asterisk內部交換協議)"
+
+#: src/accountwizard.cpp:461
+msgid "Optional email address"
+msgstr "可選郵件地址"
+
+#: src/accountwizard.cpp:462
+msgid "This email address will be used to send your voicemail messages."
+msgstr "這個郵件地址將被用來發送您的語音"
+
+#: src/accountwizard.cpp:464
+msgid "Email address"
+msgstr "郵件地址"
+
+#: src/accountwizard.cpp:466 src/accountwizard.cpp:512
+msgid "Secure with ZRTP"
+msgstr ""
+
+#: src/accountwizard.cpp:505
+msgid "SIP account settings"
+msgstr "SIP帳戶配置"
+
+#: src/accountwizard.cpp:506 src/accountwizard.cpp:587
+msgid "Please fill the following information"
+msgstr "請填寫如下信息"
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:219
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/accountwizard.cpp:508 src/accountwizard.cpp:589 rc.cpp:213
+msgid "Alias"
+msgstr "別稱"
+
+#: src/accountwizard.cpp:509 src/accountwizard.cpp:590
+msgid "Server"
+msgstr "伺服器"
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:889
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
+#: src/accountwizard.cpp:510 src/accountwizard.cpp:591 rc.cpp:387
+msgid "Password"
+msgstr "密碼"
+
+#: src/accountwizard.cpp:511 src/accountwizard.cpp:592
+msgid "Voicemail number"
+msgstr "語音郵箱"
+
+#: src/accountwizard.cpp:513 src/accountwizard.cpp:593
+#, fuzzy
+#| msgid "Username"
+msgctxt "SIP Account Username"
+msgid "Username"
+msgstr "使用者名稱"
+
+#: src/accountwizard.cpp:522
+msgid "Anything, used only locally"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:288
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
+#: src/accountwizard.cpp:523 rc.cpp:231
+msgid "Example: sip.sflphone.org or 192.168.0.2"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:308
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
+#: src/accountwizard.cpp:524 rc.cpp:237
+msgid "Usually your extension number"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:328
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
+#: src/accountwizard.cpp:525 rc.cpp:243
+msgid "SIP password, ask your network administrator"
+msgstr ""
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:345
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
+#: src/accountwizard.cpp:526 rc.cpp:249
+msgid "Usually the same as the username"
+msgstr ""
+
+#: src/accountwizard.cpp:586
+msgid "IAX2 account settings"
+msgstr "IAX2帳戶配置"
+
+#: src/accountwizard.cpp:653
+msgid "Network Address Translation (NAT)"
+msgstr "网络地址解析(NAT)"
+
+#: src/accountwizard.cpp:654
+msgid "You should probably enable this if you are behind a firewall."
+msgstr "如果你使用網路防火牆，你很有可能需要設定該項."
+
+#. i18n: file: src/conf/dlgaccountsbase.ui:564
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
+#: src/accountwizard.cpp:656 rc.cpp:303
+msgid "Enable STUN"
+msgstr "啟用STUN"
+
+#: src/accountwizard.cpp:657
+#, fuzzy
+#| msgid "_STUN Server"
+msgid "STUN Server"
+msgstr "STUN伺服器(S)"
+
+#: src/accountwizard.cpp:695
+msgid ""
+"After checking the settings you chose, click \"Finish\" to create the "
+"account."
+msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
+
+#: src/sflphoneview.cpp:603
+#, fuzzy, kde-format
+#| msgid "Using account"
+msgid "Using account '%1' (%2)"
+msgstr "使用賬戶"
+
+#: src/callview.cpp:231
+msgid "Please enter a transfer number and press Enter, press Escape to cancel"
+msgstr ""
+
+#: src/callview.cpp:573
+#, kde-format
+msgid "Your call have been transferred to %1"
+msgstr ""
+
+#: src/sflphone.cpp:143 src/sflphone.cpp:206 src/sflphone.cpp:596
+#, fuzzy
+#| msgid "_Call"
+msgid "Call"
+msgstr "電話"
+
+#: src/sflphone.cpp:215
+msgid "SFLphone"
+msgstr "SFLphone"
+
+#: src/sflphone.cpp:248
+#, fuzzy
+#| msgid "Current account"
+msgid "Current account:"
+msgstr "當前帳戶"
+
+#: src/sflphone.cpp:260
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually"
+msgstr ""
+
+#: src/sflphone.cpp:300 src/sflphone.cpp:314
+msgid "Configure SFLphone"
+msgstr "配置SFLphone"
+
+#: src/sflphone.cpp:302
+msgid "Display dialpad"
+msgstr "顯示撥號鍵盤"
+
+#: src/sflphone.cpp:303
+msgid "Display text message box"
+msgstr ""
+
+#: src/sflphone.cpp:304
+msgid "Display volume controls"
+msgstr "顯示音量控制"
+
+#: src/sflphone.cpp:305
+msgid "Paste"
+msgstr ""
+
+#: src/sflphone.cpp:306
+#, fuzzy
+msgid "Display Contact"
+msgstr "顯示"
+
+#: src/sflphone.cpp:308
+#, fuzzy
+msgid "Display bookmark"
+msgstr "顯示"
+
+#: src/sflphone.cpp:335
+#, fuzzy
+#| msgid "Configure SFLphone"
+msgid "Configure Shortcut"
+msgstr "配置SFLphone"
+
+#: src/sflphone.cpp:569 src/sflphone.cpp:571
+#, fuzzy
+#| msgid "On incoming calls"
+msgid "New incoming call"
+msgstr "有新來電"
+
+#: src/sflphone.cpp:569 src/sflphone.cpp:571
+#, fuzzy, kde-format
+#| msgid "New call"
+msgid ""
+"New call from:\n"
+"%1"
+msgstr "新電話"
+
+#: src/main.cpp:67
+msgid "SFLphone KDE Client"
+msgstr "SFLphone KDE客戶端"
+
+#: src/main.cpp:71
+#, fuzzy
+#| msgid "(C) 2009 Savoir-faire Linux"
+msgid "(C) 2009-2012 Savoir-faire Linux"
+msgstr "(C) 2009 Savoir-faire Linux"
+
+#: src/main.cpp:76
+msgid "Jérémy Quentin"
+msgstr "Jérémy Quentin"
+
+#: src/main.cpp:77
+msgid "Emmanuel Lepage Vallee"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -182,14 +883,6 @@ msgstr ""
 #: rc.cpp:69
 msgid "Rate"
 msgstr ""
-
-#. i18n: file: src/conf/dlgvideobase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
-#: rc.cpp:72 src/conf/dlgvideo.cpp:141
-#, fuzzy
-#| msgid "_Start hidden"
-msgid "Start preview"
-msgstr "啟動時隱藏(S)"
 
 #. i18n: file: src/conf/dlgaddressbookbase.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableAddressBook)
@@ -531,12 +1224,6 @@ msgctxt "Basic settings"
 msgid "Basic"
 msgstr ""
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:219
-#. i18n: ectx: property (text), widget (QLabel, label1_alias)
-#: rc.cpp:213 src/accountwizard.cpp:508 src/accountwizard.cpp:589
-msgid "Alias"
-msgstr "別稱"
-
 #. i18n: file: src/conf/dlgaccountsbase.ui:241
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, edit1_alias)
 #: rc.cpp:216
@@ -570,12 +1257,6 @@ msgctxt "SIP server"
 msgid "Server"
 msgstr "伺服器"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:288
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
-#: rc.cpp:231 src/accountwizard.cpp:523
-msgid "Example: sip.sflphone.org or 192.168.0.2"
-msgstr ""
-
 #. i18n: file: src/conf/dlgaccountsbase.ui:298
 #. i18n: ectx: property (text), widget (QLabel, label4_user)
 #: rc.cpp:234
@@ -584,12 +1265,6 @@ msgstr ""
 msgctxt "Account username"
 msgid "Username"
 msgstr "使用者名稱"
-
-#. i18n: file: src/conf/dlgaccountsbase.ui:308
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
-#: rc.cpp:237 src/accountwizard.cpp:524
-msgid "Usually your extension number"
-msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:315
 #. i18n: ectx: property (text), widget (QLabel, label5_password)
@@ -600,12 +1275,6 @@ msgctxt "Account password"
 msgid "Password"
 msgstr "密碼"
 
-#. i18n: file: src/conf/dlgaccountsbase.ui:328
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
-#: rc.cpp:243 src/accountwizard.cpp:525
-msgid "SIP password, ask your network administrator"
-msgstr ""
-
 #. i18n: file: src/conf/dlgaccountsbase.ui:335
 #. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
 #: rc.cpp:246
@@ -614,12 +1283,6 @@ msgstr ""
 msgctxt "Account voice mail address"
 msgid "Voicemail"
 msgstr "語音郵件"
-
-#. i18n: file: src/conf/dlgaccountsbase.ui:345
-#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
-#: rc.cpp:249 src/accountwizard.cpp:526
-msgid "Usually the same as the username"
-msgstr ""
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:352
 #. i18n: ectx: property (text), widget (QLabel, label7_state)
@@ -731,12 +1394,6 @@ msgstr ""
 #| msgid "Stun parameters will be applied on each SIP account created."
 msgid "STUN parameters will be applied on each SIP account created."
 msgstr "STUN參數將應用於每一個註冊的SIP帳戶"
-
-#. i18n: file: src/conf/dlgaccountsbase.ui:564
-#. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
-#: rc.cpp:303 src/accountwizard.cpp:656
-msgid "Enable STUN"
-msgstr "啟用STUN"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:574
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, line_stun)
@@ -897,12 +1554,6 @@ msgstr ""
 #| msgid "_Host name"
 msgid "Auth. name"
 msgstr "主机名稱(H)"
-
-#. i18n: file: src/conf/dlgaccountsbase.ui:889
-#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
-#: rc.cpp:387 src/accountwizard.cpp:510 src/accountwizard.cpp:591
-msgid "Password"
-msgstr "密碼"
 
 #. i18n: file: src/conf/dlgaccountsbase.ui:943
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
@@ -1403,657 +2054,6 @@ msgstr "話筒音量"
 #: rc.cpp:654
 msgid "Speakers volume"
 msgstr "揚聲器音量"
-
-#: src/accountwizard.cpp:187 src/accountwizard.cpp:348 src/sflphone.cpp:309
-msgid "Account creation wizard"
-msgstr "帳戶創建向導"
-
-#: src/accountwizard.cpp:243 src/accountwizard.cpp:264
-#: src/accountwizard.cpp:279 src/accountwizard.cpp:694
-msgid "This assistant is now finished."
-msgstr "配置完成."
-
-#: src/accountwizard.cpp:260
-#, kde-format
-msgid ""
-"Creation of account has failed for the reason:\n"
-"%1"
-msgstr ""
-
-#: src/accountwizard.cpp:320
-#, fuzzy, kde-format
-#| msgid "Alias"
-msgid "Alias: %1"
-msgstr "別稱"
-
-#: src/accountwizard.cpp:321
-#, fuzzy, kde-format
-#| msgid "Server"
-msgid "Server: %1"
-msgstr "伺服器"
-
-#: src/accountwizard.cpp:322
-#, fuzzy, kde-format
-#| msgid "Password"
-msgid "Password: %1"
-msgstr "密碼"
-
-#: src/accountwizard.cpp:323
-#, fuzzy, kde-format
-#| msgid "Protocol"
-msgid "Protocol: %1"
-msgstr "協議"
-
-#: src/accountwizard.cpp:324
-#, fuzzy, kde-format
-#| msgid "Voicemail number"
-msgid "Voicemail number: %1"
-msgstr "語音郵箱"
-
-#: src/accountwizard.cpp:325
-#, fuzzy, kde-format
-#| msgid "Username"
-msgctxt "SIP Account username"
-msgid "Username: %1"
-msgstr "使用者名稱"
-
-#: src/accountwizard.cpp:349
-#, fuzzy
-#| msgid "Welcome to the Account creation wizard of SFLphone!"
-msgid "Welcome to the Account creation wizard of SFLphone"
-msgstr "歡迎使用SFLphone帳戶創建嚮導!"
-
-#: src/accountwizard.cpp:351
-msgid "This installation wizard will help you configure an account."
-msgstr "安裝向導將幫助您配置帳戶"
-
-#: src/accountwizard.cpp:379
-msgid "Account"
-msgstr "帳戶"
-
-#: src/accountwizard.cpp:380
-msgid "Please select one of the following options"
-msgstr "請選擇以下選項中的一個"
-
-#: src/accountwizard.cpp:382
-msgid "Create a free SIP/IAX2 account on sflphone.org"
-msgstr "在sflphone.org上創建免費的SIP/IAX2帳戶"
-
-#: src/accountwizard.cpp:383
-msgid "Register an existing SIP or IAX2 account"
-msgstr "註冊已存在的SIP或IAX2帳戶"
-
-#: src/accountwizard.cpp:420
-msgid "VoIP Protocols"
-msgstr "VoIP協議"
-
-#: src/accountwizard.cpp:421
-msgid "Select an account type"
-msgstr "選擇帳戶類型"
-
-#: src/accountwizard.cpp:423
-msgid "SIP (Session Initiation Protocol)"
-msgstr "SIP(會話初始化協議)"
-
-#: src/accountwizard.cpp:424
-msgid "IAX2 (InterAsterix Exchange)"
-msgstr "IAX2(Asterisk內部交換協議)"
-
-#: src/accountwizard.cpp:461
-msgid "Optional email address"
-msgstr "可選郵件地址"
-
-#: src/accountwizard.cpp:462
-msgid "This email address will be used to send your voicemail messages."
-msgstr "這個郵件地址將被用來發送您的語音"
-
-#: src/accountwizard.cpp:464
-msgid "Email address"
-msgstr "郵件地址"
-
-#: src/accountwizard.cpp:466 src/accountwizard.cpp:512
-msgid "Secure with ZRTP"
-msgstr ""
-
-#: src/accountwizard.cpp:505
-msgid "SIP account settings"
-msgstr "SIP帳戶配置"
-
-#: src/accountwizard.cpp:506 src/accountwizard.cpp:587
-msgid "Please fill the following information"
-msgstr "請填寫如下信息"
-
-#: src/accountwizard.cpp:509 src/accountwizard.cpp:590
-msgid "Server"
-msgstr "伺服器"
-
-#: src/accountwizard.cpp:511 src/accountwizard.cpp:592
-msgid "Voicemail number"
-msgstr "語音郵箱"
-
-#: src/accountwizard.cpp:513 src/accountwizard.cpp:593
-#, fuzzy
-#| msgid "Username"
-msgctxt "SIP Account Username"
-msgid "Username"
-msgstr "使用者名稱"
-
-#: src/accountwizard.cpp:522
-msgid "Anything, used only locally"
-msgstr ""
-
-#: src/accountwizard.cpp:586
-msgid "IAX2 account settings"
-msgstr "IAX2帳戶配置"
-
-#: src/accountwizard.cpp:653
-msgid "Network Address Translation (NAT)"
-msgstr "网络地址解析(NAT)"
-
-#: src/accountwizard.cpp:654
-msgid "You should probably enable this if you are behind a firewall."
-msgstr "如果你使用網路防火牆，你很有可能需要設定該項."
-
-#: src/accountwizard.cpp:657
-#, fuzzy
-#| msgid "_STUN Server"
-msgid "STUN Server"
-msgstr "STUN伺服器(S)"
-
-#: src/accountwizard.cpp:695
-msgid ""
-"After checking the settings you chose, click \"Finish\" to create the "
-"account."
-msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
-
-#: src/actionsetaccountfirst.cpp:28
-msgid "Default account"
-msgstr "默認帳戶"
-
-#: src/callview.cpp:231
-msgid "Please enter a transfer number and press Enter, press Escape to cancel"
-msgstr ""
-
-#: src/callview.cpp:233 src/lib/sflphone_const.h:43
-#: src/widgets/calltreeitem.cpp:244 src/widgets/contactitemwidget.cpp:107
-#: src/widgets/historytreeitem.cpp:190
-msgid "Transfer"
-msgstr "轉接"
-
-#: src/callview.cpp:418 src/widgets/bookmarkdock.cpp:130
-#: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:580
-#: src/widgets/historytreeitem.cpp:623
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown peer"
-msgid "Unknown"
-msgstr "未知"
-
-#: src/callview.cpp:573
-#, kde-format
-msgid "Your call have been transferred to %1"
-msgstr ""
-
-#: src/conf/configurationdialog.cpp:55
-msgid "Accounts"
-msgstr "帳戶"
-
-#: src/conf/configurationdialog.cpp:56
-#, fuzzy
-msgctxt "User interterface settings"
-msgid "Display"
-msgstr "顯示"
-
-#: src/conf/configurationdialog.cpp:57
-#, fuzzy
-#| msgid "History"
-msgctxt "History settings"
-msgid "History"
-msgstr "歷史"
-
-#: src/conf/configurationdialog.cpp:58
-#, fuzzy
-msgid "Audio"
-msgstr "音頻"
-
-#: src/conf/configurationdialog.cpp:59
-msgid "Address Book"
-msgstr "地址簿"
-
-#: src/conf/configurationdialog.cpp:60
-msgid "Hooks"
-msgstr "鉤鍵"
-
-#: src/conf/configurationdialog.cpp:61
-msgid "Accessibility"
-msgstr ""
-
-#: src/conf/configurationdialog.cpp:63 src/widgets/videodock.cpp:31
-msgctxt "Video conversation"
-msgid "Video"
-msgstr ""
-
-#: src/conf/dlgaccounts.cpp:537
-#, fuzzy, kde-format
-#| msgid "Add a new account"
-msgid "New account%1"
-msgstr "增加新帳戶"
-
-#: src/conf/dlggeneral.cpp:83
-msgid "Are you sure you want to clear history?"
-msgstr ""
-
-#: src/conf/dlggeneral.cpp:83
-#, fuzzy
-#| msgid "Clear _history"
-msgid "Clear history"
-msgstr "清空曆史記錄(C)"
-
-#: src/conf/dlgvideo.cpp:54 src/conf/dlgvideo.cpp:145
-msgid "Stop preview"
-msgstr ""
-
-#: src/klib/dataengine/sflphoneengine.cpp:282
-#, fuzzy
-#| msgid "Current account"
-msgid "Current_account"
-msgstr "當前帳戶"
-
-#: src/klib/helperfunctions.cpp:45 src/widgets/contactitemwidget.cpp:248
-#, kde-format
-msgid "%1 number"
-msgid_plural "%1 numbers"
-msgstr[0] ""
-
-#: src/klib/helperfunctions.cpp:79 src/sflphoneview.cpp:600
-msgid "No registered accounts"
-msgstr "沒有已註冊帳戶"
-
-#: src/lib/sflphone_const.h:40
-msgid "New call"
-msgstr "新電話"
-
-#: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
-msgid "Hang up"
-msgstr "放電話"
-
-#: src/lib/sflphone_const.h:42
-msgid "Hold on"
-msgstr "呼叫保持"
-
-#: src/lib/sflphone_const.h:44
-msgid "Record"
-msgstr "記錄"
-
-#: src/lib/sflphone_const.h:45
-msgid "Pick up"
-msgstr "接電話"
-
-#: src/lib/sflphone_const.h:47
-msgid "Hold off"
-msgstr "恢復通話"
-
-#: src/lib/sflphone_const.h:48
-msgid "Give up transfer"
-msgstr "取消轉接"
-
-#: src/lib/sflphone_const.h:49
-msgid "Call back"
-msgstr "回叫"
-
-#: src/lib/sflphone_const.h:50
-msgid "Voicemail"
-msgstr "語音郵件"
-
-#: src/main.cpp:67
-msgid "SFLphone KDE Client"
-msgstr "SFLphone KDE客戶端"
-
-#: src/main.cpp:71
-#, fuzzy
-#| msgid "(C) 2009 Savoir-faire Linux"
-msgid "(C) 2009-2012 Savoir-faire Linux"
-msgstr "(C) 2009 Savoir-faire Linux"
-
-#: src/main.cpp:76
-msgid "Jérémy Quentin"
-msgstr "Jérémy Quentin"
-
-#: src/main.cpp:77
-msgid "Emmanuel Lepage Vallee"
-msgstr ""
-
-#: src/sflphone.cpp:143 src/sflphone.cpp:206 src/sflphone.cpp:596
-#, fuzzy
-#| msgid "_Call"
-msgid "Call"
-msgstr "電話"
-
-#: src/sflphone.cpp:215
-msgid "SFLphone"
-msgstr "SFLphone"
-
-#: src/sflphone.cpp:248
-#, fuzzy
-#| msgid "Current account"
-msgid "Current account:"
-msgstr "當前帳戶"
-
-#: src/sflphone.cpp:260
-msgid ""
-"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
-"installed correctly or launch it manually"
-msgstr ""
-
-#: src/sflphone.cpp:300 src/sflphone.cpp:314
-msgid "Configure SFLphone"
-msgstr "配置SFLphone"
-
-#: src/sflphone.cpp:302
-msgid "Display dialpad"
-msgstr "顯示撥號鍵盤"
-
-#: src/sflphone.cpp:303
-msgid "Display text message box"
-msgstr ""
-
-#: src/sflphone.cpp:304
-msgid "Display volume controls"
-msgstr "顯示音量控制"
-
-#: src/sflphone.cpp:305
-msgid "Paste"
-msgstr ""
-
-#: src/sflphone.cpp:306
-#, fuzzy
-msgid "Display Contact"
-msgstr "顯示"
-
-#: src/sflphone.cpp:307 src/widgets/contactdock.cpp:148
-#, fuzzy
-#| msgid "Clear history"
-msgid "Display history"
-msgstr "清空曆史記錄"
-
-#: src/sflphone.cpp:308
-#, fuzzy
-msgid "Display bookmark"
-msgstr "顯示"
-
-#: src/sflphone.cpp:335
-#, fuzzy
-#| msgid "Configure SFLphone"
-msgid "Configure Shortcut"
-msgstr "配置SFLphone"
-
-#: src/sflphone.cpp:569 src/sflphone.cpp:571
-#, fuzzy, kde-format
-#| msgid "New call"
-msgid ""
-"New call from:\n"
-"%1"
-msgstr "新電話"
-
-#: src/sflphone.cpp:569 src/sflphone.cpp:571
-#, fuzzy
-#| msgid "On incoming calls"
-msgid "New incoming call"
-msgstr "有新來電"
-
-#: src/sflphone.cpp:599 src/widgets/bookmarkdock.cpp:96
-#: src/widgets/bookmarkdock.cpp:97 src/widgets/contactitemwidget.cpp:95
-#: src/widgets/historytreeitem.cpp:125 src/widgets/historytreeitem.cpp:127
-#, fuzzy
-#| msgid "Books"
-msgid "Bookmark"
-msgstr "鉤鍵"
-
-#: src/sflphone.cpp:602 src/widgets/contactdock.cpp:176
-msgid "Contact"
-msgstr ""
-
-#: src/sflphone.cpp:605 src/widgets/historydock.cpp:143
-msgid "History"
-msgstr "歷史"
-
-#: src/sflphoneaccessibility.cpp:33
-msgid "List all current calls"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:41
-msgid "Get current call details"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:60
-#, kde-format
-msgid "You currently have <numid>%1</numid> call"
-msgid_plural "You currently have <numid>%1</numid> calls"
-msgstr[0] ""
-
-#: src/sflphoneaccessibility.cpp:62
-#, kde-format
-msgid "Call from %1, number %2"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:88
-#, kde-format
-msgid "The current call is %1"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:90
-#, kde-format
-msgid ",Your peer is %1"
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:92
-#, kde-format
-msgid ", the peer phone number is %1 "
-msgstr ""
-
-#: src/sflphoneaccessibility.cpp:94
-#, fuzzy, kde-format
-#| msgid "Edit phone number"
-msgid ", the phone number is %1 "
-msgstr "編輯電話號碼"
-
-#: src/sflphoneaccessibility.cpp:98
-#, kde-format
-msgid " and you have been talking since %1 seconds"
-msgstr ""
-
-#: src/sflphoneview.cpp:120 src/widgets/historydock.cpp:111
-#, fuzzy
-#| msgid "_Call"
-msgid "Calls"
-msgstr "電話"
-
-#: src/sflphoneview.cpp:347 src/widgets/contactitemwidget.cpp:328
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Select phone number"
-msgstr "編輯電話號碼"
-
-#: src/sflphoneview.cpp:347 src/widgets/contactitemwidget.cpp:328
-msgid ""
-"This contact has many phone numbers, please select the one you wish to call"
-msgstr ""
-
-#: src/sflphoneview.cpp:603
-#, fuzzy, kde-format
-#| msgid "Using account"
-msgid "Using account '%1' (%2)"
-msgstr "使用賬戶"
-
-#: src/widgets/bookmarkdock.cpp:79 src/widgets/contactdock.cpp:144
-#: src/widgets/historydock.cpp:120
-msgid "Filter"
-msgstr ""
-
-#: src/widgets/bookmarkdock.cpp:85
-msgid "Show most called contacts"
-msgstr ""
-
-#: src/widgets/bookmarkdock.cpp:185 src/widgets/bookmarkdock.cpp:192
-msgid "Popular"
-msgstr ""
-
-#: src/widgets/calltreeitem.cpp:208
-msgid "<b>Conference</b>"
-msgstr ""
-
-#: src/widgets/calltreeitem.cpp:225
-#, fuzzy
-#| msgid "Transfer to : "
-msgid "Transfer to:"
-msgstr "轉給:"
-
-#: src/widgets/calltreeitem.cpp:239
-#, fuzzy
-#| msgid "Preferences"
-msgid "Conference"
-msgstr "屬性"
-
-#: src/widgets/calltreeitem.cpp:350
-#, fuzzy
-#| msgid "Unknown"
-msgid "<b>Unknown</b>"
-msgstr "未知"
-
-#: src/widgets/contactdock.cpp:129
-msgctxt "Sort by Department"
-msgid "Department"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:129
-msgctxt "Sort by Group"
-msgid "Group"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:129 src/widgets/historydock.cpp:124
-#, fuzzy
-#| msgid "Name"
-msgctxt "Sort by Name"
-msgid "Name"
-msgstr "名稱"
-
-#: src/widgets/contactdock.cpp:129
-msgctxt "Sort by Organisation"
-msgid "Organisation"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:129
-msgctxt "Sort by Recently used"
-msgid "Recently used"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:136
-msgid "Contacts"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:229 src/widgets/contactdock.cpp:241
-#, fuzzy
-#| msgid "Unknown"
-msgctxt "Unknown category"
-msgid "Unknown"
-msgstr "未知"
-
-#: src/widgets/contactdock.cpp:238
-msgid "TODO"
-msgstr ""
-
-#: src/widgets/contactitemwidget.cpp:68 src/widgets/historytreeitem.cpp:103
-#, fuzzy
-#| msgid "Call back"
-msgid "Call Again"
-msgstr "回叫"
-
-#: src/widgets/contactitemwidget.cpp:73
-#, fuzzy
-#| msgid "Edit phone"
-msgid "Edit contact"
-msgstr "編輯電話"
-
-#: src/widgets/contactitemwidget.cpp:78 src/widgets/historytreeitem.cpp:116
-msgid "Copy"
-msgstr ""
-
-#: src/widgets/contactitemwidget.cpp:83 src/widgets/historytreeitem.cpp:120
-#, fuzzy
-#| msgid "_Email"
-msgid "Send Email"
-msgstr "郵件(E)"
-
-#: src/widgets/contactitemwidget.cpp:89
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Add Phone Number"
-msgstr "編輯電話號碼"
-
-#: src/widgets/contactitemwidget.cpp:435
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Enter a new number"
-msgstr "編輯電話號碼"
-
-#: src/widgets/contactitemwidget.cpp:435
-msgid "New number:"
-msgstr ""
-
-#: src/widgets/historydock.cpp:94
-msgid "Sort by:"
-msgstr ""
-
-#: src/widgets/historydock.cpp:95
-msgid "From:"
-msgstr ""
-
-#: src/widgets/historydock.cpp:96
-msgctxt "To date:"
-msgid "To:"
-msgstr ""
-
-#: src/widgets/historydock.cpp:99
-#, fuzzy
-msgid "Display all"
-msgstr "顯示"
-
-#: src/widgets/historydock.cpp:124
-msgctxt "Sort by date"
-msgid "Date"
-msgstr ""
-
-#: src/widgets/historydock.cpp:124
-msgctxt "Sort by Length"
-msgid "Length"
-msgstr ""
-
-#: src/widgets/historydock.cpp:124
-msgctxt "Sort by Popularity"
-msgid "Popularity"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:107
-msgid "Add Number to Contact"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:112
-msgid "Add Contact"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:131
-msgid "Remove bookmark"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:336
-msgid "Are you sure you want to delete this recording?"
-msgstr ""
-
-#: src/widgets/historytreeitem.cpp:336
-#, fuzzy
-#| msgid "Recordings"
-msgid "Delete recording"
-msgstr "記錄"
 
 #, fuzzy
 #~| msgid "New call"

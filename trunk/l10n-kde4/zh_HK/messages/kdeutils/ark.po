@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:25+0200\n"
+"POT-Creation-Date: 2012-08-19 05:48+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -298,14 +298,13 @@ msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:109
-msgid "Cancel"
-msgstr ""
-
-#: kerfuffle/extractiondialog.cpp:109
-#, fuzzy
-#| msgid "Extract"
-msgid "Extract here"
-msgstr "解開"
+#, fuzzy, kde-format
+#| msgid "Archive already exists. Do you wish to overwrite it?"
+msgctxt "@info"
+msgid ""
+"The folder <filename>%1</filename> already exists. Are you sure you want to "
+"extract here?"
+msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
 #: kerfuffle/extractiondialog.cpp:109
 #, fuzzy
@@ -314,17 +313,18 @@ msgid "Folder exists"
 msgstr "壓縮檔已經存在"
 
 #: kerfuffle/extractiondialog.cpp:109
+#, fuzzy
+#| msgid "Extract"
+msgid "Extract here"
+msgstr "解開"
+
+#: kerfuffle/extractiondialog.cpp:109
 msgid "Retry"
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:109
-#, fuzzy, kde-format
-#| msgid "Archive already exists. Do you wish to overwrite it?"
-msgctxt "@info"
-msgid ""
-"The folder <filename>%1</filename> already exists. Are you sure you want to "
-"extract here?"
-msgstr "壓縮檔已經存在。你是否要覆寫它？"
+msgid "Cancel"
+msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:119 kerfuffle/extractiondialog.cpp:125
 #, fuzzy, kde-format
@@ -641,6 +641,15 @@ msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
 #: part/part.cpp:384
+#, fuzzy, kde-format
+#| msgid "Archive already exists. Do you wish to overwrite it?"
+msgctxt "@info"
+msgid ""
+"The archive <filename>%1</filename> already exists. Would you like to open "
+"it instead?"
+msgstr "壓縮檔已經存在。你是否要覆寫它？"
+
+#: part/part.cpp:384
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
@@ -653,14 +662,11 @@ msgstr "壓縮檔已經存在"
 msgid "Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:384
-#, fuzzy, kde-format
-#| msgid "Archive already exists. Do you wish to overwrite it?"
+#: part/part.cpp:392
+#, kde-format
 msgctxt "@info"
-msgid ""
-"The archive <filename>%1</filename> already exists. Would you like to open "
-"it instead?"
-msgstr "壓縮檔已經存在。你是否要覆寫它？"
+msgid "The archive <filename>%1</filename> was not found."
+msgstr ""
 
 #: part/part.cpp:392 part/part.cpp:444 part/part.cpp:480
 #, fuzzy
@@ -668,12 +674,6 @@ msgstr "壓縮檔已經存在。你是否要覆寫它？"
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
-
-#: part/part.cpp:392
-#, kde-format
-msgctxt "@info"
-msgid "The archive <filename>%1</filename> was not found."
-msgstr ""
 
 #: part/part.cpp:424
 #, fuzzy
