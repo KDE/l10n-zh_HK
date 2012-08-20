@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KImageMapEditor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:49+0200\n"
+"POT-Creation-Date: 2012-08-20 05:27+0200\n"
 "PO-Revision-Date: 2006-02-26 05:42+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -14,6 +14,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stanley Wong"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stanley18fan0k@yahoo.com.hk"
 
 #: arealistview.cpp:41 kimagemapeditor.cpp:101 kimagemapeditor.cpp:134
 msgid "Areas"
@@ -55,14 +63,18 @@ msgstr "圖片(&I)"
 msgid "Path"
 msgstr "路徑"
 
+#: imageslistview.cpp:60 kimagemapeditor.cpp:103 kimagemapeditor.cpp:136
+#: kimeshell.cpp:180
+msgid "Images"
+msgstr "圖片"
+
+#: imageslistview.cpp:61
+msgid "Usemap"
+msgstr "Usemap"
+
 #: kimagemapeditor.cpp:102 kimagemapeditor.cpp:135 mapslistview.cpp:33
 msgid "Maps"
 msgstr "地圖"
-
-#: kimagemapeditor.cpp:103 kimagemapeditor.cpp:136 kimeshell.cpp:180
-#: imageslistview.cpp:60
-msgid "Images"
-msgstr "圖片"
 
 #: kimagemapeditor.cpp:243 mapslistview.cpp:162
 msgid "unnamed"
@@ -226,9 +238,8 @@ msgstr "預覽(&P)"
 msgid "Show a preview"
 msgstr "顯示預覽"
 
-#. i18n: file: kimagemapeditorpartui.rc:61
 #. i18n: ectx: Menu (images)
-#: kimagemapeditor.cpp:573 rc.cpp:17
+#: kimagemapeditor.cpp:573 kimagemapeditorpartui.rc:61
 msgid "&Image"
 msgstr "圖片(&I)"
 
@@ -453,7 +464,7 @@ msgstr "HTML 檔案"
 msgid "Text File"
 msgstr "文字檔案"
 
-#: kimagemapeditor.cpp:1677 kimeshell.cpp:182 kimedialogs.cpp:494
+#: kimagemapeditor.cpp:1677 kimedialogs.cpp:494 kimeshell.cpp:182
 msgid "All Files"
 msgstr "所有檔案"
 
@@ -527,6 +538,73 @@ msgstr "輸入 Usemap"
 msgid "Enter the usemap value:"
 msgstr "請輸入 Usemap 值："
 
+#. i18n: ectx: Menu (edit)
+#: kimagemapeditorpartui.rc:14
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: kimagemapeditorpartui.rc:31
+#, fuzzy
+msgid "&View"
+msgstr "預覽(&P)"
+
+#. i18n: ectx: Menu (tools)
+#: kimagemapeditorpartui.rc:40
+msgid "&Tools"
+msgstr ""
+
+#. i18n: ectx: Menu (map)
+#: kimagemapeditorpartui.rc:50
+msgid "&Map"
+msgstr "地圖(&M)"
+
+#. i18n: ectx: Menu (settings)
+#: kimagemapeditorpartui.rc:66
+#, fuzzy
+msgid "&Settings"
+msgstr "選取(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kimagemapeditorpartui.rc:77 kimagemapeditorui.rc:15
+msgid "KImageMapEditor Main Toolbar"
+msgstr "KImageMapEditor 主工具列"
+
+#. i18n: ectx: ToolBar (kImageMapEditorPartDrawToolBar)
+#: kimagemapeditorpartui.rc:96
+msgid "KImageMapEditor Draw Toolbar"
+msgstr "KImageMapEditor 繪圖工具列"
+
+#. i18n: ectx: Menu (file)
+#: kimagemapeditorui.rc:4
+#, fuzzy
+msgid "&File"
+msgstr "圓形(&C)"
+
+#: kimearea.cpp:147
+msgid "noname"
+msgstr "noname"
+
+#: kimearea.cpp:1406
+msgid "Number of Areas"
+msgstr "區域總數"
+
+#: kimearea.h:231 kimedialogs.cpp:417
+msgid "Rectangle"
+msgstr "長方形"
+
+#: kimearea.h:254 kimedialogs.cpp:418
+msgid "Circle"
+msgstr "圓形"
+
+#: kimearea.h:280 kimedialogs.cpp:419
+msgid "Polygon"
+msgstr "多邊形"
+
+#: kimearea.h:304 kimedialogs.cpp:450
+msgid "Default"
+msgstr ""
+
 #: kimecommands.cpp:26
 #, kde-format
 msgid "Cut %1"
@@ -566,110 +644,6 @@ msgstr "為 %1 移除點"
 #, kde-format
 msgid "Create %1"
 msgstr "建立 %1"
-
-#: kimearea.h:231 kimedialogs.cpp:417
-msgid "Rectangle"
-msgstr "長方形"
-
-#: kimearea.h:254 kimedialogs.cpp:418
-msgid "Circle"
-msgstr "圓形"
-
-#: kimearea.h:280 kimedialogs.cpp:419
-msgid "Polygon"
-msgstr "多邊形"
-
-#: kimearea.h:304 kimedialogs.cpp:450
-msgid "Default"
-msgstr ""
-
-#: main.cpp:36
-msgid "(c) 2001-2007 Jan Schaefer"
-msgstr ""
-
-#: main.cpp:37
-msgid "Jan Schaefer"
-msgstr ""
-
-#: main.cpp:38
-msgid "Joerg Jaspert"
-msgstr ""
-
-#: main.cpp:38
-msgid "For helping me with the Makefiles, and creating the Debian package"
-msgstr "幫助我寫好 Makefiles，又做了 Debian 套件"
-
-#: main.cpp:39
-msgid "Aaron Seigo and Michael"
-msgstr ""
-
-#: main.cpp:39
-msgid "For helping me fixing --enable-final mode"
-msgstr "幫助我修正 --enable-final 模式"
-
-#: main.cpp:40
-msgid "Antonio Crevillen"
-msgstr ""
-
-#: main.cpp:40
-msgid "For the Spanish translation"
-msgstr "翻譯成西班牙文"
-
-#: main.cpp:41
-msgid "Fabrice Mous"
-msgstr ""
-
-#: main.cpp:41
-msgid "For the Dutch translation"
-msgstr "翻譯成荷蘭文"
-
-#: main.cpp:42
-msgid "Germain Chazot"
-msgstr ""
-
-#: main.cpp:42
-msgid "For the French translation"
-msgstr "翻譯成法文"
-
-#: main.cpp:47
-msgid "Write HTML-Code to stdout on exit"
-msgstr "結束時把 HTML 碼傳至標準輸出"
-
-#: main.cpp:48
-msgid "File to open"
-msgstr "要開啟的檔案"
-
-#: kimeshell.cpp:179
-msgid "Web Files"
-msgstr "網站檔案"
-
-#: kimeshell.cpp:181
-msgid "HTML Files"
-msgstr "HTML 檔案"
-
-#: kimeshell.cpp:182
-msgid "PNG Images"
-msgstr "PNG 圖片"
-
-#: kimeshell.cpp:182
-msgid "JPEG Images"
-msgstr "JPEG 圖片"
-
-#: kimeshell.cpp:182
-msgid "GIF Images"
-msgstr "GIF 圖片"
-
-#: kimeshell.cpp:183
-msgid "Choose Picture to Open"
-msgstr "請選擇要開啟的圖片"
-
-#: kimearea.cpp:147
-msgid "noname"
-msgstr "noname"
-
-#: kimearea.cpp:1406
-msgid "Number of Areas"
-msgstr "區域總數"
 
 #: kimedialogs.cpp:85
 msgid "Top &X:"
@@ -808,72 +782,85 @@ msgstr "取消復原次數上限(&R)："
 msgid "&Start with last used document"
 msgstr "啟動時開啟上一次使用的文件(&S)"
 
-#: imageslistview.cpp:61
-msgid "Usemap"
-msgstr "Usemap"
+#: kimeshell.cpp:179
+msgid "Web Files"
+msgstr "網站檔案"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Stanley Wong"
+#: kimeshell.cpp:181
+msgid "HTML Files"
+msgstr "HTML 檔案"
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "stanley18fan0k@yahoo.com.hk"
+#: kimeshell.cpp:182
+msgid "PNG Images"
+msgstr "PNG 圖片"
 
-#. i18n: file: kimagemapeditorpartui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:5
-msgid "&Edit"
+#: kimeshell.cpp:182
+msgid "JPEG Images"
+msgstr "JPEG 圖片"
+
+#: kimeshell.cpp:182
+msgid "GIF Images"
+msgstr "GIF 圖片"
+
+#: kimeshell.cpp:183
+msgid "Choose Picture to Open"
+msgstr "請選擇要開啟的圖片"
+
+#: main.cpp:36
+msgid "(c) 2001-2007 Jan Schaefer"
 msgstr ""
 
-#. i18n: file: kimagemapeditorpartui.rc:31
-#. i18n: ectx: Menu (view)
-#: rc.cpp:8
-#, fuzzy
-msgid "&View"
-msgstr "預覽(&P)"
-
-#. i18n: file: kimagemapeditorpartui.rc:40
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:11
-msgid "&Tools"
+#: main.cpp:37
+msgid "Jan Schaefer"
 msgstr ""
 
-#. i18n: file: kimagemapeditorpartui.rc:50
-#. i18n: ectx: Menu (map)
-#: rc.cpp:14
-msgid "&Map"
-msgstr "地圖(&M)"
+#: main.cpp:38
+msgid "Joerg Jaspert"
+msgstr ""
 
-#. i18n: file: kimagemapeditorpartui.rc:66
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:20
-#, fuzzy
-msgid "&Settings"
-msgstr "選取(&S)"
+#: main.cpp:38
+msgid "For helping me with the Makefiles, and creating the Debian package"
+msgstr "幫助我寫好 Makefiles，又做了 Debian 套件"
 
-#. i18n: file: kimagemapeditorpartui.rc:77
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: kimagemapeditorui.rc:15
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:23 rc.cpp:32
-msgid "KImageMapEditor Main Toolbar"
-msgstr "KImageMapEditor 主工具列"
+#: main.cpp:39
+msgid "Aaron Seigo and Michael"
+msgstr ""
 
-#. i18n: file: kimagemapeditorpartui.rc:96
-#. i18n: ectx: ToolBar (kImageMapEditorPartDrawToolBar)
-#: rc.cpp:26
-msgid "KImageMapEditor Draw Toolbar"
-msgstr "KImageMapEditor 繪圖工具列"
+#: main.cpp:39
+msgid "For helping me fixing --enable-final mode"
+msgstr "幫助我修正 --enable-final 模式"
 
-#. i18n: file: kimagemapeditorui.rc:4
-#. i18n: ectx: Menu (file)
-#: rc.cpp:29
-#, fuzzy
-msgid "&File"
-msgstr "圓形(&C)"
+#: main.cpp:40
+msgid "Antonio Crevillen"
+msgstr ""
+
+#: main.cpp:40
+msgid "For the Spanish translation"
+msgstr "翻譯成西班牙文"
+
+#: main.cpp:41
+msgid "Fabrice Mous"
+msgstr ""
+
+#: main.cpp:41
+msgid "For the Dutch translation"
+msgstr "翻譯成荷蘭文"
+
+#: main.cpp:42
+msgid "Germain Chazot"
+msgstr ""
+
+#: main.cpp:42
+msgid "For the French translation"
+msgstr "翻譯成法文"
+
+#: main.cpp:47
+msgid "Write HTML-Code to stdout on exit"
+msgstr "結束時把 HTML 碼傳至標準輸出"
+
+#: main.cpp:48
+msgid "File to open"
+msgstr "要開啟的檔案"
 
 #~ msgid ""
 #~ "<h3>Area List</h3>The area list shows you all areas of the map.<br>The "
