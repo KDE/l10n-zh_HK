@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:05+0200\n"
+"POT-Creation-Date: 2012-08-25 06:25+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -520,50 +520,50 @@ msgstr "你必須輸入密碼才能解開檔案："
 msgid "Incorrect password, please try again."
 msgstr ""
 
-#: part/archivemodel.cpp:386
+#: part/archivemodel.cpp:390
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:388
+#: part/archivemodel.cpp:392
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
 
-#: part/archivemodel.cpp:390
+#: part/archivemodel.cpp:394
 #, fuzzy
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
 msgid "Compressed"
 msgstr "已壓縮檔案"
 
-#: part/archivemodel.cpp:392
+#: part/archivemodel.cpp:396
 msgctxt "Compression rate of file"
 msgid "Rate"
 msgstr ""
 
-#: part/archivemodel.cpp:394
+#: part/archivemodel.cpp:398
 #, fuzzy
 #| msgid " Owner "
 msgctxt "File's owner username"
 msgid "Owner"
 msgstr " 擁有者 "
 
-#: part/archivemodel.cpp:396
+#: part/archivemodel.cpp:400
 #, fuzzy
 #| msgid " Group "
 msgctxt "File's group"
 msgid "Group"
 msgstr " 群組 "
 
-#: part/archivemodel.cpp:398
+#: part/archivemodel.cpp:402
 msgctxt "File permissions"
 msgid "Mode"
 msgstr ""
 
-#: part/archivemodel.cpp:400
+#: part/archivemodel.cpp:404
 #, fuzzy
 #| msgctxt "acronym for Cyclic Redundancy Check"
 #| msgid " CRC "
@@ -571,31 +571,31 @@ msgctxt "CRC hash code"
 msgid "CRC"
 msgstr " CRC "
 
-#: part/archivemodel.cpp:402
+#: part/archivemodel.cpp:406
 #, fuzzy
 #| msgid " Method "
 msgctxt "Compression method"
 msgid "Method"
 msgstr " 壓縮法 "
 
-#: part/archivemodel.cpp:405
+#: part/archivemodel.cpp:409
 #, fuzzy
 #| msgid " Version "
 msgctxt "File version"
 msgid "Version"
 msgstr " 版本 "
 
-#: part/archivemodel.cpp:407
+#: part/archivemodel.cpp:411
 msgctxt "Timestamp"
 msgid "Date"
 msgstr ""
 
-#: part/archivemodel.cpp:409
+#: part/archivemodel.cpp:413
 msgctxt "File comment"
 msgid "Comment"
 msgstr ""
 
-#: part/archivemodel.cpp:411
+#: part/archivemodel.cpp:415
 msgctxt "Unnamed column"
 msgid "??"
 msgstr ""
@@ -992,7 +992,7 @@ msgid "Could not add the file <filename>%1</filename> to the archive."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
 #: plugins/libarchive/libarchivehandler.cpp:102
-#: plugins/libarchive/libarchivehandler.cpp:159
+#: plugins/libarchive/libarchivehandler.cpp:161
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1008,34 +1008,34 @@ msgid ""
 "The archive reading failed with the following error: <message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:217
+#: plugins/libarchive/libarchivehandler.cpp:219
 msgid ""
 "This archive contains archive entries with absolute paths, which are not yet "
 "supported by ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:345
-#: plugins/libarchive/libarchivehandler.cpp:523
+#: plugins/libarchive/libarchivehandler.cpp:347
+#: plugins/libarchive/libarchivehandler.cpp:525
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:358
-#: plugins/libarchive/libarchivehandler.cpp:536
+#: plugins/libarchive/libarchivehandler.cpp:360
+#: plugins/libarchive/libarchivehandler.cpp:538
 msgid "The source file could not be read."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:365
-#: plugins/libarchive/libarchivehandler.cpp:542
+#: plugins/libarchive/libarchivehandler.cpp:367
+#: plugins/libarchive/libarchivehandler.cpp:544
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchivehandler.cpp:399
-#: plugins/libarchive/libarchivehandler.cpp:431
-#: plugins/libarchive/libarchivehandler.cpp:576
+#: plugins/libarchive/libarchivehandler.cpp:401
+#: plugins/libarchive/libarchivehandler.cpp:433
+#: plugins/libarchive/libarchivehandler.cpp:578
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1043,14 +1043,14 @@ msgid ""
 "message>"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:426
-#: plugins/libarchive/libarchivehandler.cpp:571
+#: plugins/libarchive/libarchivehandler.cpp:428
+#: plugins/libarchive/libarchivehandler.cpp:573
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:438
-#: plugins/libarchive/libarchivehandler.cpp:582
+#: plugins/libarchive/libarchivehandler.cpp:440
+#: plugins/libarchive/libarchivehandler.cpp:584
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1058,7 +1058,7 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:761
+#: plugins/libarchive/libarchivehandler.cpp:763
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
