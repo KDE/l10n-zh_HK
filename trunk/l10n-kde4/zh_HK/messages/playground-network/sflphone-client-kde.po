@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-14 04:55+0200\n"
+"POT-Creation-Date: 2012-09-15 05:08+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -248,17 +248,17 @@ msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
 msgid "Default account"
 msgstr "默認帳戶"
 
-#: src/callview.cpp:243
+#: src/callview.cpp:276
 msgid "Please enter a transfer number and press Enter, press Escape to cancel"
 msgstr ""
 
-#: src/callview.cpp:245 src/lib/sflphone_const.h:43
+#: src/callview.cpp:278 src/lib/sflphone_const.h:43
 #: src/widgets/calltreeitem.cpp:294 src/widgets/contactitemwidget.cpp:107
 #: src/widgets/historytreeitem.cpp:190
 msgid "Transfer"
 msgstr "轉接"
 
-#: src/callview.cpp:430 src/widgets/bookmarkdock.cpp:130
+#: src/callview.cpp:463 src/widgets/bookmarkdock.cpp:130
 #: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:580
 #: src/widgets/historytreeitem.cpp:623
 #, fuzzy
@@ -267,7 +267,7 @@ msgctxt "Unknown peer"
 msgid "Unknown"
 msgstr "未知"
 
-#: src/callview.cpp:585
+#: src/callview.cpp:618
 #, kde-format
 msgid "Your call have been transferred to %1"
 msgstr ""
@@ -1640,8 +1640,12 @@ msgstr ""
 
 #: src/sflphoneapplication.cpp:106
 msgid ""
-"An unknown error occurred. SFLPhone KDE will now restart. If the problem "
-"persist, please report a bug."
+"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
+"persist, please report a bug.\n"
+"\n"
+"      Caused known to cause this message include trying to open SFLPhone KDE "
+"while the SFLPhone daemon is exiting. If so, waiting 15 second and      "
+"trying again will solve the issue."
 msgstr ""
 
 #: src/sflphoneview.cpp:120 src/widgets/historydock.cpp:111
