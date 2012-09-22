@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-21 05:01+0200\n"
+"POT-Creation-Date: 2012-09-22 04:53+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -372,12 +372,12 @@ msgid "100%"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:348 part.cpp:2247 ui/pageview.cpp:3457
+#: conf/dlggeneralbase.ui:348 part.cpp:2247 ui/pageview.cpp:3481
 msgid "Fit Width"
 msgstr "符合闊度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:353 ui/pageview.cpp:3457
+#: conf/dlggeneralbase.ui:353 ui/pageview.cpp:3481
 msgid "Fit Page"
 msgstr "符合頁面"
 
@@ -2239,24 +2239,36 @@ msgstr ""
 msgid "Movie"
 msgstr ""
 
-#: ui/guiutils.cpp:112
+#: ui/guiutils.cpp:103
+#, fuzzy
+#| msgid "Creator"
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "建立者"
+
+#: ui/guiutils.cpp:106
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr ""
+
+#: ui/guiutils.cpp:118
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown author"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/guiutils.cpp:155 ui/presentationwidget.cpp:337
+#: ui/guiutils.cpp:161 ui/presentationwidget.cpp:337
 #, kde-format
 msgid "Author: %1"
 msgstr "作者：%1"
 
-#: ui/guiutils.cpp:206 ui/propertiesdialog.cpp:219
+#: ui/guiutils.cpp:212 ui/propertiesdialog.cpp:219
 #, kde-format
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/guiutils.cpp:215 ui/propertiesdialog.cpp:232
+#: ui/guiutils.cpp:221 ui/propertiesdialog.cpp:232
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
@@ -2474,101 +2486,101 @@ msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
 msgstr[0] "已載入一份 %1 頁的文件。"
 
-#: ui/pageview.cpp:2263
+#: ui/pageview.cpp:2287
 msgid "Follow This Link"
 msgstr ""
 
-#: ui/pageview.cpp:2266
+#: ui/pageview.cpp:2290
 msgid "Copy Link Address"
 msgstr ""
 
-#: ui/pageview.cpp:2407
+#: ui/pageview.cpp:2431
 #, kde-format
 msgid "Text (1 character)"
 msgid_plural "Text (%1 characters)"
 msgstr[0] "文字（%1 個字元）"
 
-#: ui/pageview.cpp:2408 ui/pageview.cpp:2423
+#: ui/pageview.cpp:2432 ui/pageview.cpp:2447
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
-#: ui/pageview.cpp:2413 ui/pageview.cpp:2564 ui/pageview.cpp:2670
+#: ui/pageview.cpp:2437 ui/pageview.cpp:2588 ui/pageview.cpp:2694
 msgid "Copy forbidden by DRM"
 msgstr ""
 
-#: ui/pageview.cpp:2416 ui/pageview.cpp:2666
+#: ui/pageview.cpp:2440 ui/pageview.cpp:2690
 msgid "Speak Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:2422
+#: ui/pageview.cpp:2446
 #, kde-format
 msgid "Image (%1 by %2 pixels)"
 msgstr "圖像 (%1 X %2 像素)"
 
-#: ui/pageview.cpp:2424
+#: ui/pageview.cpp:2448
 msgid "Save to File..."
 msgstr "儲存至檔案..."
 
-#: ui/pageview.cpp:2446
+#: ui/pageview.cpp:2470
 #, kde-format
 msgid "Image [%1x%2] copied to clipboard."
 msgstr "圖像 [%1x%2] 已複製至剪貼簿。"
 
-#: ui/pageview.cpp:2454
+#: ui/pageview.cpp:2478
 msgid "File not saved."
 msgstr "檔案未儲存。"
 
-#: ui/pageview.cpp:2464
+#: ui/pageview.cpp:2488
 #, kde-format
 msgid "Image [%1x%2] saved to %3 file."
 msgstr "圖像 [%1x%2] 已儲存至 %3 檔案。"
 
-#: ui/pageview.cpp:2663
+#: ui/pageview.cpp:2687
 #, fuzzy
 #| msgid "Speak Text"
 msgid "Copy Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:3589
+#: ui/pageview.cpp:3613
 msgid "Hide Forms"
 msgstr ""
 
-#: ui/pageview.cpp:3593
+#: ui/pageview.cpp:3617
 #, fuzzy
 #| msgid "Show scroll&bars"
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:3642
+#: ui/pageview.cpp:3666
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: ui/pageview.cpp:3657
+#: ui/pageview.cpp:3681
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Web Shortcuts..."
 msgstr "設定 KPDF..."
 
-#: ui/pageview.cpp:4104
+#: ui/pageview.cpp:4128
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:4203
+#: ui/pageview.cpp:4227
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:4219
+#: ui/pageview.cpp:4243
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4235
+#: ui/pageview.cpp:4259
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:4252
+#: ui/pageview.cpp:4276
 #, fuzzy
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid ""
@@ -2576,11 +2588,11 @@ msgid ""
 "Esc to clear."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4289
+#: ui/pageview.cpp:4313
 msgid "Annotations author"
 msgstr ""
 
-#: ui/pageview.cpp:4290
+#: ui/pageview.cpp:4314
 msgid "Please insert your name or initials:"
 msgstr ""
 
@@ -2637,7 +2649,7 @@ msgstr "頁：%1"
 msgid "Click to begin"
 msgstr "單擊開始"
 
-#: ui/presentationwidget.cpp:1350
+#: ui/presentationwidget.cpp:1378
 msgid ""
 "There are two ways of exiting presentation mode, you can press either ESC "
 "key or click with the quit button that appears when placing the mouse in the "
@@ -2646,7 +2658,7 @@ msgstr ""
 "離開簡報模式有兩個方法：按 ESC 鍵、或將滑鼠移至右上角，當「離開」按鈕出現時按"
 "下。當然你亦可將視窗循環展示（預設是 Alt+TAB）。"
 
-#: ui/presentationwidget.cpp:1470
+#: ui/presentationwidget.cpp:1498
 #, fuzzy
 #| msgid "Presentation"
 msgctxt ""
@@ -2922,7 +2934,7 @@ msgctxt "pause the movie playback"
 msgid "Pause"
 msgstr "頁："
 
-#: ui/videowidget.cpp:252
+#: ui/videowidget.cpp:251
 msgctxt "stop the movie playback"
 msgid "Stop"
 msgstr ""
