@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-23 12:51+0200\n"
+"POT-Creation-Date: 2012-09-25 21:18+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1601,31 +1601,38 @@ msgid ""
 "raster and opengl (experimental)"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:308
+#: kdecore/kernel/kcmdlineargs.cpp:307
+msgid ""
+"QML JS debugger information. Application must be\n"
+"built with -DQT_DECLARATIVE_DEBUG for the debugger to be\n"
+"enabled"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:309
 msgid "Use 'caption' as name in the titlebar"
 msgstr "使用「說明標題」作為標題列上的名稱。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:309
+#: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use 'icon' as the application icon"
 msgstr "使用「圖示」作為應用程式圖示。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Use alternative configuration file"
 msgstr "使用替代設定檔。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:311
+#: kdecore/kernel/kcmdlineargs.cpp:312
 msgid "Disable crash handler, to get core dumps"
 msgstr "停用當機控制程式以取得核心傾印 (core dumps)。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:313
+#: kdecore/kernel/kcmdlineargs.cpp:314
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "等待 WM_NET 相容的視窗管理員。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:316
 msgid "sets the application GUI style"
 msgstr "設定應用程式的圖形介面風格。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:316
+#: kdecore/kernel/kcmdlineargs.cpp:317
 #, fuzzy
 #| msgid ""
 #| "sets the client geometry of the main widget - see man X for the argument "
@@ -1635,35 +1642,35 @@ msgid ""
 "format (usually WidthxHeight+XPos+YPos)"
 msgstr "設定主視窗部件的客戶區大小和位置 - 請參考 man X 取得參數的格式。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:434
+#: kdecore/kernel/kcmdlineargs.cpp:435
 #, fuzzy
 #| msgid "Application: "
 msgid "KDE Application"
 msgstr "應用程式："
 
-#: kdecore/kernel/kcmdlineargs.cpp:493
+#: kdecore/kernel/kcmdlineargs.cpp:494
 #, fuzzy
 #| msgid "Quit"
 msgid "Qt"
 msgstr "離開"
 
-#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4833
+#: kdecore/kernel/kcmdlineargs.cpp:497 khtml/khtml_part.cpp:4833
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
+#: kdecore/kernel/kcmdlineargs.cpp:800 kdecore/kernel/kcmdlineargs.cpp:816
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "不明的選項 ‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:823
+#: kdecore/kernel/kcmdlineargs.cpp:824
 #, fuzzy, kde-format
 #| msgid "'%1' missing."
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "找不到‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:889
+#: kdecore/kernel/kcmdlineargs.cpp:890
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; do not translate 'Development "
@@ -1674,7 +1681,7 @@ msgid ""
 "%3: %4\n"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:914
+#: kdecore/kernel/kcmdlineargs.cpp:915
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -1684,86 +1691,86 @@ msgstr ""
 "%1 的作者是：\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:917
+#: kdecore/kernel/kcmdlineargs.cpp:918
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:924
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:927
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "請回報問題到 %1。\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:963
+#: kdecore/kernel/kcmdlineargs.cpp:964
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "未預料到的參數‘%1’。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1087
+#: kdecore/kernel/kcmdlineargs.cpp:1088
 msgid "Use --help to get a list of available command line options."
 msgstr "使用 --help 以取得可用指令行選項的清單。"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1110
+#: kdecore/kernel/kcmdlineargs.cpp:1111
 msgid "[options] "
 msgstr "[選項] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1117
+#: kdecore/kernel/kcmdlineargs.cpp:1118
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-選項]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1138
+#: kdecore/kernel/kcmdlineargs.cpp:1139
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "用法：%1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1142
 #, fuzzy
 msgid ""
 "\n"
 "Generic options:\n"
 msgstr "一般選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1144
 msgid "Show help about options"
 msgstr "顯示關於選項的說明"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1151
+#: kdecore/kernel/kcmdlineargs.cpp:1152
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "顯示 %1 相關的選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1158
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid "Show all options"
 msgstr "顯示所有選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1159
+#: kdecore/kernel/kcmdlineargs.cpp:1160
 msgid "Show author information"
 msgstr "顯示作者資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1160
+#: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid "Show version information"
 msgstr "顯示版本資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1162
 msgid "Show license information"
 msgstr "顯示版權資訊"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1162
+#: kdecore/kernel/kcmdlineargs.cpp:1163
 msgid "End of options"
 msgstr "選項結尾"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1183
+#: kdecore/kernel/kcmdlineargs.cpp:1184
 #, fuzzy, kde-format
 msgid ""
 "\n"
 "%1 options:\n"
 msgstr "%1 個選項"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1185
+#: kdecore/kernel/kcmdlineargs.cpp:1186
 msgid ""
 "\n"
 "Options:\n"
@@ -1771,7 +1778,7 @@ msgstr ""
 "\n"
 "選項：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1243
+#: kdecore/kernel/kcmdlineargs.cpp:1244
 msgid ""
 "\n"
 "Arguments:\n"
@@ -1779,11 +1786,11 @@ msgstr ""
 "\n"
 "參數：\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1597
+#: kdecore/kernel/kcmdlineargs.cpp:1606
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1598
+#: kdecore/kernel/kcmdlineargs.cpp:1607
 msgid "KDE-tempfile"
 msgstr ""
 
