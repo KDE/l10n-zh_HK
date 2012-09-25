@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-22 04:53+0200\n"
+"POT-Creation-Date: 2012-09-25 06:55+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -829,7 +829,7 @@ msgid ""
 "Archive"
 msgstr ""
 
-#: core/document.cpp:1199
+#: core/document.cpp:1198
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -837,12 +837,7 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1269
-#, kde-format
-msgid "No matches found for '%1'."
-msgstr "找不到符合『%1』的。"
-
-#: core/document.cpp:1312
+#: core/document.cpp:1198
 #, fuzzy
 #| msgid ""
 #| "End of document reached.\n"
@@ -854,143 +849,148 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1739
+#: core/document.cpp:1271
+#, kde-format
+msgid "No matches found for '%1'."
+msgstr "找不到符合『%1』的。"
+
+#: core/document.cpp:1678
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:2887
+#: core/document.cpp:2826
 msgid "Search in progress..."
 msgstr ""
 
-#: core/document.cpp:2889
+#: core/document.cpp:2828
 #, kde-format
 msgid "Searching for %1"
 msgstr ""
 
-#: core/document.cpp:3206 core/document.cpp:3214
+#: core/document.cpp:3136 core/document.cpp:3144
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:3227
+#: core/document.cpp:3157
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3443
+#: core/document.cpp:3373
 #, fuzzy
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:3445
+#: core/document.cpp:3375
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:3447
+#: core/document.cpp:3377
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:3449
+#: core/document.cpp:3379
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:3451
+#: core/document.cpp:3381
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:3453
+#: core/document.cpp:3383
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:3455
+#: core/document.cpp:3385
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:3457
+#: core/document.cpp:3387
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:3459
+#: core/document.cpp:3389
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4292
+#: core/document.cpp:4222
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:4295
+#: core/document.cpp:4225
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:4298
+#: core/document.cpp:4228
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:4301
+#: core/document.cpp:4231
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:4304
+#: core/document.cpp:4234
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:4307
+#: core/document.cpp:4237
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:4310
+#: core/document.cpp:4240
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:4313
+#: core/document.cpp:4243
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:4316
+#: core/document.cpp:4246
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:4319
+#: core/document.cpp:4249
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:4322
+#: core/document.cpp:4252
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:4325
+#: core/document.cpp:4255
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:4328
+#: core/document.cpp:4258
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:4331
+#: core/document.cpp:4261
 #, fuzzy
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:4334
+#: core/document.cpp:4264
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:4337
+#: core/document.cpp:4267
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
