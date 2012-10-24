@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-17 10:57+0200\n"
+"POT-Creation-Date: 2012-10-24 04:26+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -705,88 +705,105 @@ msgstr ""
 msgid "Editor Options"
 msgstr "過濾器選項"
 
-#: core/action.cpp:105
+#: core/action.cpp:106
 #, fuzzy, kde-format
 #| msgid "Go to Page"
 msgid "Go to page %1"
 msgstr "跳至頁"
 
-#: core/action.cpp:106
+#: core/action.cpp:107
 msgid "Open external file"
 msgstr ""
 
-#: core/action.cpp:164
+#: core/action.cpp:165
 #, kde-format
 msgid "Execute '%1'..."
 msgstr ""
 
-#: core/action.cpp:263
+#: core/action.cpp:264
 #, fuzzy
 #| msgid "Fit Page"
 msgid "First Page"
 msgstr "符合頁面"
 
-#: core/action.cpp:265 ui/presentationwidget.cpp:158
+#: core/action.cpp:266 ui/presentationwidget.cpp:158
 msgid "Previous Page"
 msgstr ""
 
-#: core/action.cpp:267 ui/presentationwidget.cpp:174
+#: core/action.cpp:268 ui/presentationwidget.cpp:174
 #, fuzzy
 msgid "Next Page"
 msgstr "符合頁面"
 
-#: core/action.cpp:269
+#: core/action.cpp:270
 #, fuzzy
 #| msgid "Fit Page"
 msgid "Last Page"
 msgstr "符合頁面"
 
-#: core/action.cpp:271
+#: core/action.cpp:272
 msgid "Back"
 msgstr ""
 
-#: core/action.cpp:273
+#: core/action.cpp:274
 #, fuzzy
 #| msgid "Format"
 msgid "Forward"
 msgstr "格式"
 
-#: core/action.cpp:275
+#: core/action.cpp:276
 msgid "Quit"
 msgstr ""
 
-#: core/action.cpp:277
+#: core/action.cpp:278
 #, fuzzy
 #| msgid "Presentation"
 msgid "Start Presentation"
 msgstr "表現"
 
-#: core/action.cpp:279
+#: core/action.cpp:280
 #, fuzzy
 #| msgid "Presentation"
 msgid "End Presentation"
 msgstr "表現"
 
-#: core/action.cpp:281
+#: core/action.cpp:282
 msgid "Find..."
 msgstr ""
 
-#: core/action.cpp:283
+#: core/action.cpp:284
 #, fuzzy
 #| msgid "Go to Page"
 msgid "Go To Page..."
 msgstr "跳至頁"
 
-#: core/action.cpp:330
+#: core/action.cpp:331
 msgid "Play sound..."
 msgstr ""
 
-#: core/action.cpp:397
+#: core/action.cpp:398 core/action.cpp:511
 msgid "JavaScript Script"
 msgstr ""
 
-#: core/action.cpp:445
+#: core/action.cpp:446
 msgid "Play movie..."
+msgstr ""
+
+#: core/action.cpp:516
+msgid "Play movie"
+msgstr ""
+
+#: core/action.cpp:518
+msgid "Stop movie"
+msgstr ""
+
+#: core/action.cpp:520
+#, fuzzy
+msgid "Pause movie"
+msgstr "頁："
+
+#: core/action.cpp:522
+msgid "Resume movie"
 msgstr ""
 
 #: core/chooseenginedialog.cpp:22
@@ -874,118 +891,118 @@ msgstr ""
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3374
+#: core/document.cpp:3387
 #, fuzzy
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:3376
+#: core/document.cpp:3389
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:3378
+#: core/document.cpp:3391
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:3380
+#: core/document.cpp:3393
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:3382
+#: core/document.cpp:3395
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:3384
+#: core/document.cpp:3397
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:3386
+#: core/document.cpp:3399
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:3388
+#: core/document.cpp:3401
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:3390
+#: core/document.cpp:3403
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4223
+#: core/document.cpp:4236
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:4226
+#: core/document.cpp:4239
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:4229
+#: core/document.cpp:4242
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:4232
+#: core/document.cpp:4245
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:4235
+#: core/document.cpp:4248
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:4238
+#: core/document.cpp:4251
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:4241
+#: core/document.cpp:4254
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:4244
+#: core/document.cpp:4257
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:4247
+#: core/document.cpp:4260
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:4250
+#: core/document.cpp:4263
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:4253
+#: core/document.cpp:4266
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:4256
+#: core/document.cpp:4269
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:4259
+#: core/document.cpp:4272
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:4262
+#: core/document.cpp:4275
 #, fuzzy
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:4265
+#: core/document.cpp:4278
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:4268
+#: core/document.cpp:4281
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
@@ -1722,7 +1739,7 @@ msgid "New Paragraph"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#: ui/annotationwidgets.cpp:218 ui/data/tools.xml:20 ui/guiutils.cpp:71
+#: ui/annotationwidgets.cpp:218 ui/data/tools.xml:20 ui/guiutils.cpp:72
 #: ui/pageviewannotator.cpp:199
 msgid "Note"
 msgstr ""
@@ -1840,7 +1857,7 @@ msgstr "標題"
 msgid "Type:"
 msgstr "類型"
 
-#: ui/annotationwidgets.cpp:397 ui/guiutils.cpp:82
+#: ui/annotationwidgets.cpp:397 ui/guiutils.cpp:83
 msgid "Highlight"
 msgstr ""
 
@@ -2018,7 +2035,7 @@ msgid "Text Annotation"
 msgstr "表現"
 
 #. i18n: tag tool attribute name
-#: ui/data/tools.xml:27 ui/guiutils.cpp:73 ui/pageviewannotator.cpp:182
+#: ui/data/tools.xml:27 ui/guiutils.cpp:74 ui/pageviewannotator.cpp:182
 msgid "Inline Note"
 msgstr ""
 
@@ -2069,7 +2086,7 @@ msgid "Draw a polygon (click on the first point to close it)"
 msgstr ""
 
 #. i18n: tag tool attribute name
-#: ui/data/tools.xml:62 ui/guiutils.cpp:85
+#: ui/data/tools.xml:62 ui/guiutils.cpp:86
 msgid "Stamp"
 msgstr ""
 
@@ -2204,66 +2221,66 @@ msgstr "區分大小寫"
 msgid "From current page"
 msgstr ""
 
-#: ui/guiutils.cpp:76
+#: ui/guiutils.cpp:77
 msgid "Line"
 msgstr ""
 
-#: ui/guiutils.cpp:79
+#: ui/guiutils.cpp:80
 msgid "Geometry"
 msgstr ""
 
-#: ui/guiutils.cpp:88
+#: ui/guiutils.cpp:89
 msgid "Ink"
 msgstr ""
 
-#: ui/guiutils.cpp:91
+#: ui/guiutils.cpp:92
 #, fuzzy
 #| msgid "Creator"
 msgid "Caret"
 msgstr "建立者"
 
-#: ui/guiutils.cpp:94
+#: ui/guiutils.cpp:95
 msgid "File Attachment"
 msgstr ""
 
-#: ui/guiutils.cpp:97
+#: ui/guiutils.cpp:98
 msgid "Sound"
 msgstr ""
 
-#: ui/guiutils.cpp:100
+#: ui/guiutils.cpp:101
 msgid "Movie"
 msgstr ""
 
-#: ui/guiutils.cpp:103
+#: ui/guiutils.cpp:104
 #, fuzzy
 #| msgid "Creator"
 msgctxt "Caption for a screen annotation"
 msgid "Screen"
 msgstr "建立者"
 
-#: ui/guiutils.cpp:106
+#: ui/guiutils.cpp:107
 msgctxt "Caption for a widget annotation"
 msgid "Widget"
 msgstr ""
 
-#: ui/guiutils.cpp:118
+#: ui/guiutils.cpp:119
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown author"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/guiutils.cpp:161 ui/presentationwidget.cpp:337
+#: ui/guiutils.cpp:162 ui/presentationwidget.cpp:337
 #, kde-format
 msgid "Author: %1"
 msgstr "作者：%1"
 
-#: ui/guiutils.cpp:212 ui/propertiesdialog.cpp:219
+#: ui/guiutils.cpp:213 ui/propertiesdialog.cpp:219
 #, kde-format
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/guiutils.cpp:221 ui/propertiesdialog.cpp:232
+#: ui/guiutils.cpp:222 ui/propertiesdialog.cpp:232
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
@@ -2953,10 +2970,6 @@ msgstr ""
 #~ msgstr "%1:"
 
 #~ msgid "Pages:"
-#~ msgstr "頁："
-
-#, fuzzy
-#~ msgid "Pause"
 #~ msgstr "頁："
 
 #, fuzzy
