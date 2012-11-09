@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-08 07:50+0100\n"
+"POT-Creation-Date: 2012-11-09 08:23+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1014,15 +1014,15 @@ msgstr "漸進式檢察"
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "有太多拼字錯誤，即時拼字檢察要停止。"
 
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:546
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:491
 msgid "Check Spelling..."
 msgstr "拼字檢查..."
 
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:549
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:494
 msgid "Auto Spell Check"
 msgstr "自動拼字檢查"
 
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:554
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:498
 msgid "Allow Tabulations"
 msgstr "允許跳格"
 
@@ -3961,8 +3961,8 @@ msgstr "顯示狀態列(&A)"
 #| "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
 #| "the window used for status information."
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information.</p>"
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
 
 #: kdeui/actions/kstandardaction_p.h:43
@@ -6516,14 +6516,22 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "在此選擇要使用的字型樣式。"
 
-#: kdeui/fonts/kfontchooser.cpp:299 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:298 kdeui/fonts/kfontchooser.cpp:629
+#: kdeui/fonts/kfontchooser.cpp:647
+#, fuzzy
+#| msgid "Regular"
+msgctxt "@item font"
+msgid "Regular"
+msgstr "標準"
+
+#: kdeui/fonts/kfontchooser.cpp:299 kdeui/fonts/kfontchooser.cpp:651
 #, fuzzy
 #| msgid "Italic"
 msgctxt "@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kdeui/fonts/kfontchooser.cpp:300 kdeui/fonts/kfontchooser.cpp:646
+#: kdeui/fonts/kfontchooser.cpp:300 kdeui/fonts/kfontchooser.cpp:652
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -6594,7 +6602,7 @@ msgstr "實際字型"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:636
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Font style"
@@ -9703,7 +9711,7 @@ msgstr "新的主機名稱"
 #. (e.g. "Enter search pattern").
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:82
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
 #, fuzzy
 #| msgid "%1%"
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
@@ -9716,56 +9724,56 @@ msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
 msgstr "清除快速鍵"
 
-#: kdeui/widgets/klineedit.cpp:1213
+#: kdeui/widgets/klineedit.cpp:1216
 #, fuzzy
 #| msgid "Text Completion"
 msgctxt "@title:menu"
 msgid "Text Completion"
 msgstr "文字完成"
 
-#: kdeui/widgets/klineedit.cpp:1220
+#: kdeui/widgets/klineedit.cpp:1223
 #, fuzzy
 #| msgid "None"
 msgctxt "@item:inmenu Text Completion"
 msgid "None"
 msgstr "無"
 
-#: kdeui/widgets/klineedit.cpp:1221
+#: kdeui/widgets/klineedit.cpp:1224
 #, fuzzy
 #| msgid "Manual"
 msgctxt "@item:inmenu Text Completion"
 msgid "Manual"
 msgstr "手動"
 
-#: kdeui/widgets/klineedit.cpp:1222
+#: kdeui/widgets/klineedit.cpp:1225
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Automatic"
 msgstr "自動"
 
-#: kdeui/widgets/klineedit.cpp:1223
+#: kdeui/widgets/klineedit.cpp:1226
 #, fuzzy
 #| msgid "Dropdown List"
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List"
 msgstr "下拉清單"
 
-#: kdeui/widgets/klineedit.cpp:1224
+#: kdeui/widgets/klineedit.cpp:1227
 #, fuzzy
 #| msgid "Short Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Short Automatic"
 msgstr "短暫自動化"
 
-#: kdeui/widgets/klineedit.cpp:1225
+#: kdeui/widgets/klineedit.cpp:1228
 #, fuzzy
 #| msgid "Dropdown List && Automatic"
 msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "下拉清單 && 短暫自動化"
 
-#: kdeui/widgets/klineedit.cpp:1256
+#: kdeui/widgets/klineedit.cpp:1259
 #, fuzzy
 #| msgid "Default"
 msgctxt "@item:inmenu Text Completion"
@@ -9965,59 +9973,49 @@ msgctxt "@item:inmenu uppercase abc lists"
 msgid "ABC"
 msgstr "跳格"
 
-#: kdeui/widgets/krichtextwidget.cpp:415
-msgctxt "@item:inmenu lower case roman numerals"
-msgid "i ii iii"
-msgstr ""
-
-#: kdeui/widgets/krichtextwidget.cpp:416
-msgctxt "@item:inmenu upper case roman numerals"
-msgid "I II III"
-msgstr ""
-
-#: kdeui/widgets/krichtextwidget.cpp:433
+#: kdeui/widgets/krichtextwidget.cpp:430
 msgctxt "@action"
 msgid "Increase Indent"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:446
+#: kdeui/widgets/krichtextwidget.cpp:443
 msgctxt "@action"
 msgid "Decrease Indent"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:459
+#: kdeui/widgets/krichtextwidget.cpp:456
 msgctxt "@action"
 msgid "Insert Rule Line"
 msgstr ""
 
-#: kdeui/widgets/krichtextwidget.cpp:470
+#: kdeui/widgets/krichtextwidget.cpp:467
 #, fuzzy
 #| msgid "Line up"
 msgctxt "@action"
 msgid "Link"
 msgstr "對齊"
 
-#: kdeui/widgets/krichtextwidget.cpp:481
+#: kdeui/widgets/krichtextwidget.cpp:478
 #, fuzzy
 #| msgid "Formatted Name"
 msgctxt "@action"
 msgid "Format Painter"
 msgstr "正式名稱"
 
-#: kdeui/widgets/krichtextwidget.cpp:492
+#: kdeui/widgets/krichtextwidget.cpp:489
 #, fuzzy
 #| msgid "Find Text"
 msgctxt "@action"
 msgid "To Plain Text"
 msgstr "尋找文字"
 
-#: kdeui/widgets/krichtextwidget.cpp:503
+#: kdeui/widgets/krichtextwidget.cpp:500
 #, fuzzy
 msgctxt "@action"
 msgid "Subscript"
 msgstr "語文(&I)"
 
-#: kdeui/widgets/krichtextwidget.cpp:510
+#: kdeui/widgets/krichtextwidget.cpp:507
 #, fuzzy
 msgctxt "@action"
 msgid "Superscript"
@@ -10029,36 +10027,36 @@ msgstr "語文(&I)"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
 
-#: kdeui/widgets/ktextedit.cpp:161
-#, fuzzy
-msgid "Nothing to spell check."
-msgstr "沒有選擇供應者。"
-
-#: kdeui/widgets/ktextedit.cpp:582
+#: kdeui/widgets/ktextedit.cpp:525
 #, fuzzy
 #| msgid "Please enter &name:"
 msgid "Speak Text"
 msgstr "請輸入名稱(&N)："
 
-#: kdeui/widgets/ktextedit.cpp:597
+#: kdeui/widgets/ktextedit.cpp:540
 msgid "Starting Jovie Text-to-Speech Service Failed"
 msgstr ""
 
-#: kdeui/widgets/ktextedit.cpp:686
+#: kdeui/widgets/ktextedit.cpp:629
 #, fuzzy, kde-format
 #| msgid "Suggestion List"
 msgid "No suggestions for %1"
 msgstr "建議清單"
 
-#: kdeui/widgets/ktextedit.cpp:698
+#: kdeui/widgets/ktextedit.cpp:640
 msgid "Ignore"
 msgstr "略過"
 
-#: kdeui/widgets/ktextedit.cpp:699
+#: kdeui/widgets/ktextedit.cpp:641
 #, fuzzy
 #| msgid "<< Add to Dictionary"
 msgid "Add to Dictionary"
 msgstr "<< 加到字典中"
+
+#: kdeui/widgets/ktextedit.cpp:786
+#, fuzzy
+msgid "Nothing to spell check."
+msgstr "沒有選擇供應者。"
 
 #: kdeui/widgets/ktimecombobox.cpp:259
 msgctxt "@info"
@@ -13883,11 +13881,11 @@ msgstr "接受"
 msgid "Reject"
 msgstr "拒絕"
 
-#: kparts/part.cpp:816
+#: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "未命名"
 
-#: kparts/part.cpp:822
+#: kparts/part.cpp:821
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -13896,7 +13894,7 @@ msgstr ""
 "此文件 \"%1\" 已被修改過了。\n"
 "你要儲存嗎？"
 
-#: kparts/part.cpp:824
+#: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "關閉文件"
 
@@ -15090,12 +15088,6 @@ msgstr "取消"
 #, fuzzy
 msgid "Suspend"
 msgstr "聲音"
-
-#, fuzzy
-#~| msgid "Regular"
-#~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "標準"
 
 #~ msgid "What's &This"
 #~ msgstr "這是什麼(&T)"
