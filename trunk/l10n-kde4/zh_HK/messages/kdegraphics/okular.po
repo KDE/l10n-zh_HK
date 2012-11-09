@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-04 02:49+0100\n"
+"POT-Creation-Date: 2012-11-09 03:17+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -372,12 +372,12 @@ msgid "100%"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:348 part.cpp:2269 ui/pageview.cpp:3566
+#: conf/dlggeneralbase.ui:348 part.cpp:2269 ui/pageview.cpp:3585
 msgid "Fit Width"
 msgstr "符合闊度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:353 ui/pageview.cpp:3566
+#: conf/dlggeneralbase.ui:353 ui/pageview.cpp:3585
 msgid "Fit Page"
 msgstr "符合頁面"
 
@@ -817,31 +817,31 @@ msgid ""
 "><br />Please select which one to use:</qt>"
 msgstr ""
 
-#: core/document.cpp:169
+#: core/document.cpp:171
 #, kde-format
 msgid "%1 x %2 in"
 msgstr ""
 
-#: core/document.cpp:173
+#: core/document.cpp:175
 #, kde-format
 msgid "%1 x %2 mm"
 msgstr ""
 
-#: core/document.cpp:869
+#: core/document.cpp:922
 msgid ""
 "Your annotation changes will not be saved automatically. Use File -> Save "
 "As...\n"
 "or your changes will be lost once the document is closed"
 msgstr ""
 
-#: core/document.cpp:874
+#: core/document.cpp:927
 msgid ""
 "Your annotations are saved internally by Okular.\n"
 "You can export the annotated document using File -> Export As -> Document "
 "Archive"
 msgstr ""
 
-#: core/document.cpp:1199
+#: core/document.cpp:1378
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -849,7 +849,7 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1199
+#: core/document.cpp:1378
 #, fuzzy
 #| msgid ""
 #| "End of document reached.\n"
@@ -861,171 +861,171 @@ msgstr ""
 "已到達文件結尾。\n"
 "要從開始部份繼續嗎？"
 
-#: core/document.cpp:1276
+#: core/document.cpp:1455
 #, kde-format
 msgid "No matches found for '%1'."
 msgstr "找不到符合『%1』的。"
 
-#: core/document.cpp:1683
+#: core/document.cpp:1862
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:2827
+#: core/document.cpp:3006
 msgid "Search in progress..."
 msgstr ""
 
-#: core/document.cpp:2829
+#: core/document.cpp:3008
 #, kde-format
 msgid "Searching for %1"
 msgstr ""
 
-#: core/document.cpp:3137 core/document.cpp:3145
+#: core/document.cpp:3316 core/document.cpp:3324
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:3158
+#: core/document.cpp:3337
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3387
+#: core/document.cpp:3566
 #, fuzzy
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:3389
+#: core/document.cpp:3568
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:3391
+#: core/document.cpp:3570
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:3393
+#: core/document.cpp:3572
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:3395
+#: core/document.cpp:3574
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:3397
+#: core/document.cpp:3576
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:3399
+#: core/document.cpp:3578
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:3401
+#: core/document.cpp:3580
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:3403
+#: core/document.cpp:3582
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4236
+#: core/document.cpp:4421
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:4239
+#: core/document.cpp:4424
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:4242
+#: core/document.cpp:4427
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:4245
+#: core/document.cpp:4430
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:4248
+#: core/document.cpp:4433
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:4251
+#: core/document.cpp:4436
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:4254
+#: core/document.cpp:4439
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:4257
+#: core/document.cpp:4442
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:4260
+#: core/document.cpp:4445
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:4263
+#: core/document.cpp:4448
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:4266
+#: core/document.cpp:4451
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:4269
+#: core/document.cpp:4454
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:4272
+#: core/document.cpp:4457
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:4275
+#: core/document.cpp:4460
 #, fuzzy
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:4278
+#: core/document.cpp:4463
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:4281
+#: core/document.cpp:4466
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
 msgstr "頁："
 
-#: core/generator.cpp:569
+#: core/generator.cpp:599
 msgid "Plain &Text..."
 msgstr ""
 
-#: core/generator.cpp:572
+#: core/generator.cpp:602
 #, fuzzy
 #| msgid "KPDF"
 msgid "PDF"
 msgstr "KPDF"
 
-#: core/generator.cpp:577
+#: core/generator.cpp:607
 #, fuzzy
 #| msgid "Current mantainer"
 msgctxt "This is the document format"
 msgid "OpenDocument Text"
 msgstr "目前維護者"
 
-#: core/generator.cpp:581
+#: core/generator.cpp:611
 msgctxt "This is the document format"
 msgid "HTML"
 msgstr ""
@@ -2324,179 +2324,179 @@ msgctxt "Layouted like: '5 [pages] of 10'"
 msgid "of"
 msgstr ""
 
-#: ui/pageview.cpp:412
+#: ui/pageview.cpp:413
 msgid "Zoom"
 msgstr ""
 
-#: ui/pageview.cpp:432
+#: ui/pageview.cpp:433
 msgid "Rotate &Right"
 msgstr ""
 
-#: ui/pageview.cpp:433
+#: ui/pageview.cpp:434
 msgctxt "Rotate right"
 msgid "Right"
 msgstr ""
 
-#: ui/pageview.cpp:437
+#: ui/pageview.cpp:438
 msgid "Rotate &Left"
 msgstr ""
 
-#: ui/pageview.cpp:438
+#: ui/pageview.cpp:439
 msgctxt "Rotate left"
 msgid "Left"
 msgstr ""
 
-#: ui/pageview.cpp:442
+#: ui/pageview.cpp:443
 msgid "Original Orientation"
 msgstr ""
 
-#: ui/pageview.cpp:447
+#: ui/pageview.cpp:448
 #, fuzzy
 #| msgid "&Page:"
 msgid "&Page Size"
 msgstr "頁(&P)："
 
-#: ui/pageview.cpp:454
+#: ui/pageview.cpp:455
 msgid "&Trim Margins"
 msgstr ""
 
-#: ui/pageview.cpp:459
+#: ui/pageview.cpp:460
 #, fuzzy
 #| msgid "Fit Width"
 msgid "Fit &Width"
 msgstr "符合闊度"
 
-#: ui/pageview.cpp:463
+#: ui/pageview.cpp:464
 #, fuzzy
 #| msgid "Fit Page"
 msgid "Fit &Page"
 msgstr "符合頁面"
 
-#: ui/pageview.cpp:468
+#: ui/pageview.cpp:469
 msgid "&View Mode"
 msgstr ""
 
-#: ui/pageview.cpp:481
+#: ui/pageview.cpp:482
 #, fuzzy
 msgid "Single Page"
 msgstr "標題"
 
-#: ui/pageview.cpp:482
+#: ui/pageview.cpp:483
 #, fuzzy
 #| msgid "Fit Page"
 msgid "Facing Pages"
 msgstr "符合頁面"
 
-#: ui/pageview.cpp:483
+#: ui/pageview.cpp:484
 msgid "Facing Pages (Center First Page)"
 msgstr ""
 
-#: ui/pageview.cpp:484
+#: ui/pageview.cpp:485
 msgid "Overview"
 msgstr ""
 
-#: ui/pageview.cpp:496
+#: ui/pageview.cpp:497
 msgid "&Continuous"
 msgstr "連續(&C)"
 
-#: ui/pageview.cpp:504
+#: ui/pageview.cpp:505
 msgid "&Browse Tool"
 msgstr "瀏覽工具(&B)"
 
-#: ui/pageview.cpp:507
+#: ui/pageview.cpp:508
 #, fuzzy
 #| msgid "&Browse Tool"
 msgctxt "Browse Tool"
 msgid "Browse"
 msgstr "瀏覽工具(&B)"
 
-#: ui/pageview.cpp:513
+#: ui/pageview.cpp:514
 msgid "&Zoom Tool"
 msgstr "縮放工具(&Z)"
 
-#: ui/pageview.cpp:516
+#: ui/pageview.cpp:517
 msgctxt "Zoom Tool"
 msgid "Zoom"
 msgstr ""
 
-#: ui/pageview.cpp:532
+#: ui/pageview.cpp:533
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "&Selection Tool"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:535
+#: ui/pageview.cpp:536
 #, fuzzy
 #| msgid "&Select Tool"
 msgctxt "Select Tool"
 msgid "Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:541
+#: ui/pageview.cpp:542
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "&Text Selection Tool"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:544
+#: ui/pageview.cpp:545
 #, fuzzy
 #| msgid "&Select Tool"
 msgctxt "Text Selection Tool"
 msgid "Text Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:550
+#: ui/pageview.cpp:551
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "T&able Selection Tool"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:553
+#: ui/pageview.cpp:554
 #, fuzzy
 #| msgid "&Select Tool"
 msgctxt "Table Selection Tool"
 msgid "Table Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:559
+#: ui/pageview.cpp:560
 msgid "&Review"
 msgstr ""
 
-#: ui/pageview.cpp:572
+#: ui/pageview.cpp:573
 #, fuzzy
 #| msgid "Current mantainer"
 msgid "Speak Whole Document"
 msgstr "目前維護者"
 
-#: ui/pageview.cpp:577
+#: ui/pageview.cpp:578
 msgid "Speak Current Page"
 msgstr ""
 
-#: ui/pageview.cpp:582
+#: ui/pageview.cpp:583
 msgid "Stop Speaking"
 msgstr ""
 
-#: ui/pageview.cpp:588
+#: ui/pageview.cpp:589
 msgid "Scroll Up"
 msgstr "向上捲"
 
-#: ui/pageview.cpp:594
+#: ui/pageview.cpp:595
 msgid "Scroll Down"
 msgstr "向下捲"
 
-#: ui/pageview.cpp:600
+#: ui/pageview.cpp:601
 #, fuzzy
 #| msgid "Scroll Up"
 msgid "Scroll Page Up"
 msgstr "向上捲"
 
-#: ui/pageview.cpp:606
+#: ui/pageview.cpp:607
 #, fuzzy
 #| msgid "Scroll Down"
 msgid "Scroll Page Down"
 msgstr "向下捲"
 
-#: ui/pageview.cpp:919
+#: ui/pageview.cpp:920
 #, kde-format
 msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
@@ -2557,46 +2557,46 @@ msgstr "圖像 [%1x%2] 已儲存至 %3 檔案。"
 msgid "Copy Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:3707
+#: ui/pageview.cpp:3745
 msgid "Hide Forms"
 msgstr ""
 
-#: ui/pageview.cpp:3711
+#: ui/pageview.cpp:3749
 #, fuzzy
 #| msgid "Show scroll&bars"
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:3760
+#: ui/pageview.cpp:3798
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: ui/pageview.cpp:3775
+#: ui/pageview.cpp:3813
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Web Shortcuts..."
 msgstr "設定 KPDF..."
 
-#: ui/pageview.cpp:4221
+#: ui/pageview.cpp:4375
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:4320
+#: ui/pageview.cpp:4474
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:4336
+#: ui/pageview.cpp:4490
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4352
+#: ui/pageview.cpp:4506
 #, fuzzy
 #| msgid "&Select Tool"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:4369
+#: ui/pageview.cpp:4523
 #, fuzzy
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid ""
@@ -2604,11 +2604,11 @@ msgid ""
 "Esc to clear."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:4406
+#: ui/pageview.cpp:4560
 msgid "Annotations author"
 msgstr ""
 
-#: ui/pageview.cpp:4407
+#: ui/pageview.cpp:4561
 msgid "Please insert your name or initials:"
 msgstr ""
 
