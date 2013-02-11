@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KFileReplace\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:27+0200\n"
 "PO-Revision-Date: 2006-02-26 05:45+0800\n"
 "Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -28,6 +28,69 @@ msgstr "stanley18fan0k@yahoo.com.hk"
 #, kde-format
 msgid " Line:%3,Col:%4 - \"%1\" -> \"%2\""
 msgstr " 第%3行第%4字 - \"%1\" -> \"%2\""
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: kaddstringdlgs.ui:16
+msgid "Insert Searching/Replacing Strings"
+msgstr "插入搜尋/取代的字串"
+
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: kaddstringdlgs.ui:38
+msgid "Choose String Adding Mode"
+msgstr "選擇字串加入的模式"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kaddstringdlgs.ui:52
+msgid "Search and replace mode"
+msgstr "搜尋 + 取代模式"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kaddstringdlgs.ui:63
+msgid "Search only mode"
+msgstr "僅搜尋模式"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kaddstringdlgs.ui:106
+msgid "Search for:"
+msgstr "尋找："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kaddstringdlgs.ui:135
+msgid "Replace with:"
+msgstr "取代為："
+
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kaddstringdlgs.ui:270 kaddstringdlgs.ui:311 kfilereplaceviewwdg.ui:306
+#: kfilereplaceviewwdg.ui:361
+msgid "Search For"
+msgstr "尋找"
+
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kaddstringdlgs.ui:322 kfilereplaceviewwdg.ui:317
+msgid "Replace With"
+msgstr "取代為"
+
+#. i18n: ectx: Menu (help)
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: ectx: property (text), widget (KPushButton)
+#: kaddstringdlgs.ui:365 kfilereplacepartui.rc:47 knewprojectdlgs.ui:64
+#: koptionsdlgs.ui:271
+msgid "&Help"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: kaddstringdlgs.ui:398 koptionsdlgs.ui:304
+msgid "&OK"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: ectx: property (text), widget (KPushButton)
+#: kaddstringdlgs.ui:406 knewprojectdlgs.ui:128 koptionsdlgs.ui:312
+#, fuzzy
+msgid "&Cancel"
+msgstr "進階(&A)"
 
 #: kfilereplace.cpp:51
 #, fuzzy
@@ -431,6 +494,44 @@ msgid ""
 "<qt>Access denied in the main folder of the project:<br /><b>%1</b></qt>"
 msgstr "<qt>專案的主目錄存取被拒：<br><b>%1</b></qt>"
 
+#. i18n: ectx: Menu (kfilerepace)
+#: kfilereplacepartui.rc:4 kfilereplaceui.rc:7
+msgid "Search/&Replace"
+msgstr "搜尋/取代(&R)"
+
+#. i18n: ectx: Menu (strings)
+#: kfilereplacepartui.rc:11
+msgid "&Strings"
+msgstr "字串(&S)"
+
+#. i18n: ectx: Menu (results)
+#: kfilereplacepartui.rc:24
+msgid "&Results"
+msgstr "結果(&R)"
+
+#. i18n: ectx: Menu (options)
+#: kfilereplacepartui.rc:36
+#, fuzzy
+msgid "&Options"
+msgstr "字串(&S)"
+
+#. i18n: ectx: Menu (settings)
+#: kfilereplacepartui.rc:44
+#, fuzzy
+msgid "&Settings"
+msgstr "字串(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kfilereplacepartui.rc:55
+msgid "KFileReplace Main Toolbar"
+msgstr "KFileReplace 主工具列"
+
+#. i18n: ectx: Menu (file)
+#: kfilereplaceui.rc:4
+#, fuzzy
+msgid "&File"
+msgstr "過濾器："
+
 #: kfilereplaceview.cpp:123
 #, kde-format
 msgid ""
@@ -466,6 +567,83 @@ msgstr "無法儲存檔案 %1。"
 msgid "Open &With..."
 msgstr "以其它方式開啟(&W)..."
 
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: kfilereplaceviewwdg.ui:58 kfilereplaceviewwdg.ui:181 knewprojectdlgs.ui:423
+#: knewprojectdlgs.ui:495 report.cpp:116
+msgid "Name"
+msgstr "名稱"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:69 kfilereplaceviewwdg.ui:192 report.cpp:117
+msgid "Folder"
+msgstr "資料夾"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:80 report.cpp:124
+msgid "Old Size"
+msgstr "以往大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:91 report.cpp:125
+msgid "New Size"
+msgstr "新大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:102 report.cpp:56
+msgid "Replaced Strings"
+msgstr "被取代的字串"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:113 kfilereplaceviewwdg.ui:225 report.cpp:128
+msgid "Owner User"
+msgstr "擁有者用戶"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:124 kfilereplaceviewwdg.ui:236 report.cpp:129
+msgid "Owner Group"
+msgstr "擁有者群組"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:203 report.cpp:120
+msgid "Size"
+msgstr "大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:214
+msgid "Found Strings"
+msgstr "找到字串"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:427
+msgid "Green means ready"
+msgstr "綠色代表準備好"
+
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: kfilereplaceviewwdg.ui:430
+msgid "Ready"
+msgstr "準備好"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:454
+msgid "Yellow means wait while sorting list"
+msgstr "黃色表示正在進行列表排序"
+
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: kfilereplaceviewwdg.ui:457
+msgid "Please wait while sorting list"
+msgstr "正在進行列表排序，請稍候"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:478
+msgid "Red means scanning files"
+msgstr "紅色代表掃描檔案中"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kfilereplaceviewwdg.ui:513
+msgid "Scanned files:"
+msgstr "已掃描的檔案："
+
 #: knewprojectdlg.cpp:97
 msgid "Project Directory"
 msgstr "專案目錄"
@@ -481,6 +659,267 @@ msgstr "<b>擁有者</b>的頁面中有一些空格未填上。"
 #: knewprojectdlg.cpp:137
 msgid "The minimum size is greater than the maximum size."
 msgstr "大小的下限比上限更大。"
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: knewprojectdlgs.ui:16
+msgid "Search & Replace in Files"
+msgstr "在檔案中進行搜尋及取代"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: knewprojectdlgs.ui:89
+msgid "Search Now"
+msgstr "立即搜尋"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: knewprojectdlgs.ui:103
+msgid "Search Later"
+msgstr "稍後搜尋"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: knewprojectdlgs.ui:142
+msgid "&General"
+msgstr "一般(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:153
+msgid "Startup Folder Options"
+msgstr "啟動目錄選項"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:164
+msgid "Filter:"
+msgstr "過濾器："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:175
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox)
+#: knewprojectdlgs.ui:209
+msgid "Insert a search path here. You can use the search path button."
+msgstr "請在這裏輸入搜尋路徑。您可以使用搜尋路徑的按鈕。"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:256
+msgid "&Include subfolders"
+msgstr "包括子目錄(&I)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:269
+msgid "Search/Replace Strings"
+msgstr "搜尋/取代字串"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:290
+msgid "Search:"
+msgstr "搜尋："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:298
+msgid "Replace:"
+msgstr "取代："
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:308 koptionsdlgs.ui:45
+msgid "General Options"
+msgstr "一般選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:322
+msgid "Enable &regular expressions"
+msgstr "作為正規表示式處理(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:330
+msgid "Do &backup copy instead of overwrite"
+msgstr "建立副本而非覆寫(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:338
+msgid "&Case sensitive"
+msgstr "區分大小寫(&C)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:346
+msgid "Enable co&mmands in the replace string"
+msgstr "在取代字串中允許使用命令(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:354 koptionsdlgs.ui:67
+msgid "Backup copy suffix:"
+msgstr "副本檔名延伸文字："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:383 koptionsdlgs.ui:132
+msgid "Encoding of the files:"
+msgstr "檔案的編碼："
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: knewprojectdlgs.ui:395 koptionsdlgs.ui:157
+msgid "&Advanced"
+msgstr "進階(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:406
+msgid "Ownership Filtering"
+msgstr "檔案擁有權過濾"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:417
+msgid "User: "
+msgstr "使用者："
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:428 knewprojectdlgs.ui:500
+msgid "ID (Number)"
+msgstr "ID (數字)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:447 knewprojectdlgs.ui:471
+msgid "Equals To"
+msgstr "等於"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:452 knewprojectdlgs.ui:476
+msgid "Is Not"
+msgstr "並非"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:521
+msgid "Group:"
+msgstr "群組："
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:547
+msgid "Access Date Filtering"
+msgstr "存取日期過濾"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:574
+msgid "Dates valid for:"
+msgstr "對於這些日期是有效的："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:582
+msgid "Accessed after:"
+msgstr "在這之前存取過："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:590
+msgid "Accessed before: "
+msgstr "在這之後存取過："
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:606
+msgid "Last Writing Access"
+msgstr "上一次寫入"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:611
+msgid "Last Reading Access"
+msgstr "上一次讀取"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:716
+msgid "Size Filtering"
+msgstr "大小過濾"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:743
+msgid "Minimum si&ze:"
+msgstr "大小下限(&Z)："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:751
+msgid "Maximum size:"
+msgstr "大小上限："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:801 knewprojectdlgs.ui:809
+msgid "KB"
+msgstr "KB"
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: koptionsdlgs.ui:16
+#, fuzzy
+msgid "Options"
+msgstr "一般選項"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: koptionsdlgs.ui:34
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:56
+msgid "Enable commands in replace strings"
+msgstr "取代字串中允許使用命令"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:83
+msgid "Notif&y on errors"
+msgstr "有錯誤時提示(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:91
+msgid "Case sensitive"
+msgstr "區分大小寫"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:102
+msgid "Recursive (search/replace in all sub folders)"
+msgstr "遞迴 (在所有子目錄中搜尋/取代)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:116
+msgid "Enable regular e&xpressions"
+msgstr "作為正規表示式處理(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:124
+msgid "Do &backup copy"
+msgstr "建立副本(&B)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: koptionsdlgs.ui:168
+msgid "Advanced Options"
+msgstr "進階選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:179
+msgid "Ignore hidden files and folders"
+msgstr "忽略隱藏的檔案及資料夾"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:187
+msgid "Follow s&ymbolic links"
+msgstr "跟隨符號連結(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:195
+msgid "When searching, stop on first string found (faster but no details)"
+msgstr "搜尋時，找到第一個符合的字串就停止(會快一些，但沒有詳細資料)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:206
+msgid "Do not show file if no strings are found or replaced"
+msgstr "找不到/沒有取代到字串的話，不要顯示該檔案"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:242
+msgid "Show confirmation dialog"
+msgstr "顯示確認對話盒"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:255
+msgid "Confirm before replace each string"
+msgstr "取代字串之前先確認一下"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: koptionsdlgs.ui:296
+msgid "&Default Values"
+msgstr "預設值(&D)"
 
 #: main.cpp:25
 msgid "Batch search and replace tool"
@@ -510,10 +949,6 @@ msgstr "開始的目錄"
 msgid "<qt>Cannot open the file <b>%1</b>.</qt>"
 msgstr "<qt>無法開啟檔案 <b>%1</b>。</qt>"
 
-#: report.cpp:56
-msgid "Replaced Strings"
-msgstr "被取代的字串"
-
 #: report.cpp:57
 msgid "Replace with"
 msgstr "取代為"
@@ -541,34 +976,6 @@ msgstr "搜尋"
 #: report.cpp:113
 msgid "Results Table"
 msgstr "結果表格"
-
-#: report.cpp:116
-msgid "Name"
-msgstr "名稱"
-
-#: report.cpp:117
-msgid "Folder"
-msgstr "資料夾"
-
-#: report.cpp:120
-msgid "Size"
-msgstr "大小"
-
-#: report.cpp:124
-msgid "Old Size"
-msgstr "以往大小"
-
-#: report.cpp:125
-msgid "New Size"
-msgstr "新大小"
-
-#: report.cpp:128
-msgid "Owner User"
-msgstr "擁有者用戶"
-
-#: report.cpp:129
-msgid "Owner Group"
-msgstr "擁有者群組"
 
 #: report.cpp:203
 msgid "Created by"
@@ -735,236 +1142,6 @@ msgstr "沒有字串可以進行搜尋及取代。"
 #, fuzzy
 msgid "Insert here the string that KFR will use to replace the search string."
 msgstr "沒有字串可以進行搜尋及取代。"
-
-#~ msgid "Insert Searching/Replacing Strings"
-#~ msgstr "插入搜尋/取代的字串"
-
-#~ msgid "Choose String Adding Mode"
-#~ msgstr "選擇字串加入的模式"
-
-#~ msgid "Search and replace mode"
-#~ msgstr "搜尋 + 取代模式"
-
-#~ msgid "Search only mode"
-#~ msgstr "僅搜尋模式"
-
-#~ msgid "Search for:"
-#~ msgstr "尋找："
-
-#~ msgid "Replace with:"
-#~ msgstr "取代為："
-
-#~ msgid "Search For"
-#~ msgstr "尋找"
-
-#~ msgid "Replace With"
-#~ msgstr "取代為"
-
-#, fuzzy
-#~ msgid "&Cancel"
-#~ msgstr "進階(&A)"
-
-#~ msgid "Search/&Replace"
-#~ msgstr "搜尋/取代(&R)"
-
-#~ msgid "&Strings"
-#~ msgstr "字串(&S)"
-
-#~ msgid "&Results"
-#~ msgstr "結果(&R)"
-
-#, fuzzy
-#~ msgid "&Options"
-#~ msgstr "字串(&S)"
-
-#, fuzzy
-#~ msgid "&Settings"
-#~ msgstr "字串(&S)"
-
-#~ msgid "KFileReplace Main Toolbar"
-#~ msgstr "KFileReplace 主工具列"
-
-#, fuzzy
-#~ msgid "&File"
-#~ msgstr "過濾器："
-
-#~ msgid "Found Strings"
-#~ msgstr "找到字串"
-
-#~ msgid "Green means ready"
-#~ msgstr "綠色代表準備好"
-
-#~ msgid "Ready"
-#~ msgstr "準備好"
-
-#~ msgid "Yellow means wait while sorting list"
-#~ msgstr "黃色表示正在進行列表排序"
-
-#~ msgid "Please wait while sorting list"
-#~ msgstr "正在進行列表排序，請稍候"
-
-#~ msgid "Red means scanning files"
-#~ msgstr "紅色代表掃描檔案中"
-
-#~ msgid "Scanned files:"
-#~ msgstr "已掃描的檔案："
-
-#~ msgid "Search & Replace in Files"
-#~ msgstr "在檔案中進行搜尋及取代"
-
-#~ msgid "Search Now"
-#~ msgstr "立即搜尋"
-
-#~ msgid "Search Later"
-#~ msgstr "稍後搜尋"
-
-#~ msgid "&General"
-#~ msgstr "一般(&G)"
-
-#~ msgid "Startup Folder Options"
-#~ msgstr "啟動目錄選項"
-
-#~ msgid "Filter:"
-#~ msgstr "過濾器："
-
-#~ msgid "Location:"
-#~ msgstr "位置："
-
-#~ msgid "Insert a search path here. You can use the search path button."
-#~ msgstr "請在這裏輸入搜尋路徑。您可以使用搜尋路徑的按鈕。"
-
-#~ msgid "&Include subfolders"
-#~ msgstr "包括子目錄(&I)"
-
-#~ msgid "Search/Replace Strings"
-#~ msgstr "搜尋/取代字串"
-
-#~ msgid "Search:"
-#~ msgstr "搜尋："
-
-#~ msgid "Replace:"
-#~ msgstr "取代："
-
-#~ msgid "General Options"
-#~ msgstr "一般選項"
-
-#~ msgid "Enable &regular expressions"
-#~ msgstr "作為正規表示式處理(&R)"
-
-#~ msgid "Do &backup copy instead of overwrite"
-#~ msgstr "建立副本而非覆寫(&B)"
-
-#~ msgid "&Case sensitive"
-#~ msgstr "區分大小寫(&C)"
-
-#~ msgid "Enable co&mmands in the replace string"
-#~ msgstr "在取代字串中允許使用命令(&M)"
-
-#~ msgid "Backup copy suffix:"
-#~ msgstr "副本檔名延伸文字："
-
-#~ msgid "Encoding of the files:"
-#~ msgstr "檔案的編碼："
-
-#~ msgid "&Advanced"
-#~ msgstr "進階(&A)"
-
-#~ msgid "Ownership Filtering"
-#~ msgstr "檔案擁有權過濾"
-
-#~ msgid "User: "
-#~ msgstr "使用者："
-
-#~ msgid "ID (Number)"
-#~ msgstr "ID (數字)"
-
-#~ msgid "Equals To"
-#~ msgstr "等於"
-
-#~ msgid "Is Not"
-#~ msgstr "並非"
-
-#~ msgid "Group:"
-#~ msgstr "群組："
-
-#~ msgid "Access Date Filtering"
-#~ msgstr "存取日期過濾"
-
-#~ msgid "Dates valid for:"
-#~ msgstr "對於這些日期是有效的："
-
-#~ msgid "Accessed after:"
-#~ msgstr "在這之前存取過："
-
-#~ msgid "Accessed before: "
-#~ msgstr "在這之後存取過："
-
-#~ msgid "Last Writing Access"
-#~ msgstr "上一次寫入"
-
-#~ msgid "Last Reading Access"
-#~ msgstr "上一次讀取"
-
-#~ msgid "Size Filtering"
-#~ msgstr "大小過濾"
-
-#~ msgid "Minimum si&ze:"
-#~ msgstr "大小下限(&Z)："
-
-#~ msgid "Maximum size:"
-#~ msgstr "大小上限："
-
-#~ msgid "KB"
-#~ msgstr "KB"
-
-#, fuzzy
-#~ msgid "Options"
-#~ msgstr "一般選項"
-
-#~ msgid "General"
-#~ msgstr "一般"
-
-#~ msgid "Enable commands in replace strings"
-#~ msgstr "取代字串中允許使用命令"
-
-#~ msgid "Notif&y on errors"
-#~ msgstr "有錯誤時提示(&Y)"
-
-#~ msgid "Case sensitive"
-#~ msgstr "區分大小寫"
-
-#~ msgid "Recursive (search/replace in all sub folders)"
-#~ msgstr "遞迴 (在所有子目錄中搜尋/取代)"
-
-#~ msgid "Enable regular e&xpressions"
-#~ msgstr "作為正規表示式處理(&X)"
-
-#~ msgid "Do &backup copy"
-#~ msgstr "建立副本(&B)"
-
-#~ msgid "Advanced Options"
-#~ msgstr "進階選項"
-
-#~ msgid "Ignore hidden files and folders"
-#~ msgstr "忽略隱藏的檔案及資料夾"
-
-#~ msgid "Follow s&ymbolic links"
-#~ msgstr "跟隨符號連結(&Y)"
-
-#~ msgid "When searching, stop on first string found (faster but no details)"
-#~ msgstr "搜尋時，找到第一個符合的字串就停止(會快一些，但沒有詳細資料)"
-
-#~ msgid "Do not show file if no strings are found or replaced"
-#~ msgstr "找不到/沒有取代到字串的話，不要顯示該檔案"
-
-#~ msgid "Show confirmation dialog"
-#~ msgstr "顯示確認對話盒"
-
-#~ msgid "Confirm before replace each string"
-#~ msgstr "取代字串之前先確認一下"
-
-#~ msgid "&Default Values"
-#~ msgstr "預設值(&D)"
 
 #~ msgid "%1 KB"
 #~ msgstr "%1 KB"

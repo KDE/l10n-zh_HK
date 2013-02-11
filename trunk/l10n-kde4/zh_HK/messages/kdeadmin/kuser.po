@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser 1.29\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:38+0100\n"
+"POT-Creation-Date: 2012-08-20 03:21+0200\n"
 "PO-Revision-Date: 2006-01-20 00:07+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -31,7 +31,9 @@ msgstr "shyue@sonoma.com.tw,pesder.liao@msa.hinet.net,wwycheuk@netvigator.com"
 msgid "New Account Options"
 msgstr "新帳號選項"
 
-#: ku_adduser.cpp:53
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createHomeDir)
+#. i18n: ectx: label, entry (createHomeDir), group (connection-$(connection))
+#: ku_adduser.cpp:53 ku_generalsettings.ui:127 kuser.kcfg:55
 msgid "Create home folder"
 msgstr "建立家資料夾"
 
@@ -108,7 +110,8 @@ msgstr "一般"
 msgid "General Settings"
 msgstr "一般設置"
 
-#: ku_configdlg.cpp:75
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: ku_configdlg.cpp:75 ku_generalsettings.ui:41
 msgid "Files"
 msgstr ""
 
@@ -120,11 +123,13 @@ msgstr "檔案來源設置"
 msgid "Settings"
 msgstr "設置"
 
-#: ku_configdlg.cpp:110 ku_edituser.cpp:271
+#. i18n: ectx: property (windowTitle), widget (QWidget, KU_LdapSamba)
+#: ku_configdlg.cpp:110 ku_edituser.cpp:271 ku_ldapsamba.ui:21
 msgid "Samba"
 msgstr "Samba"
 
-#: ku_configdlg.cpp:112
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: ku_configdlg.cpp:112 ku_generalsettings.ui:46
 msgid "LDAP"
 msgstr "LDAP"
 
@@ -271,7 +276,12 @@ msgstr "不更改"
 msgid " days"
 msgstr " 天"
 
-#: ku_edituser.cpp:82 ku_edituser.cpp:260
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_smax)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_sinact)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_swarn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_sneverexpire)
+#: ku_edituser.cpp:82 ku_edituser.cpp:260 ku_passwordpolicy.ui:77
+#: ku_passwordpolicy.ui:90 ku_passwordpolicy.ui:116 ku_passwordpolicy.ui:159
 msgid "Never"
 msgstr "永不"
 
@@ -391,7 +401,8 @@ msgstr "登入程序檔:"
 msgid "Profile path:"
 msgstr "Profile 路徑:"
 
-#: ku_edituser.cpp:293
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2_2)
+#: ku_edituser.cpp:293 ku_ldapsamba.ui:74
 msgid "Home drive:"
 msgstr "家磁碟機:"
 
@@ -403,7 +414,8 @@ msgstr "家路徑:"
 msgid "User workstations:"
 msgstr "用戶工作站:"
 
-#: ku_edituser.cpp:308
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ku_edituser.cpp:308 ku_ldapsamba.ui:157
 msgid "Domain name:"
 msgstr "網域名稱:"
 
@@ -486,6 +498,85 @@ msgstr "新增 Shell (&A)"
 msgid "Do &Not Add"
 msgstr "不要加入(&N)"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ku_filessettings.ui:30
+#, fuzzy
+msgid "User/group database locations"
+msgstr "用戶/群組資料庫來源:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_md5shadow)
+#: ku_filessettings.ui:42
+msgid "MD5 shadow passwords"
+msgstr "MD5 shadow 密碼"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_3)
+#: ku_filessettings.ui:52
+msgid "Shadow group file:"
+msgstr "Shadow 群組檔案:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_3)
+#: ku_filessettings.ui:65
+msgid "Shadow password file:"
+msgstr "Shadow 密碼檔案:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
+#: ku_filessettings.ui:78
+msgid "Group file:"
+msgstr "群組檔案:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: ku_filessettings.ui:88
+msgid "Password file:"
+msgstr "密碼檔案:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ku_generalsettings.ui:30
+msgid "Source of user/group database:"
+msgstr "用戶/群組資料庫來源:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_source)
+#: ku_generalsettings.ui:51
+msgid "System"
+msgstr "系統"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ku_generalsettings.ui:72
+msgid "First normal GID:"
+msgstr "第一個正常的 GID:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_2_2)
+#: ku_generalsettings.ui:82 ku_ldapsamba.ui:103
+msgid "Home path template:"
+msgstr "家路徑樣板:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: ku_generalsettings.ui:92
+msgid "Shell:"
+msgstr "Shell:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
+#: ku_generalsettings.ui:109
+msgid "First normal UID:"
+msgstr "第一個正常的 UID:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_copySkel)
+#. i18n: ectx: label, entry (copySkel), group (connection-$(connection))
+#: ku_generalsettings.ui:137 kuser.kcfg:60
+msgid "Copy skeleton to home folder"
+msgstr "複製檔案架構至家資料夾"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_userPrivateGroup)
+#. i18n: ectx: label, entry (userPrivateGroup), group (connection-$(connection))
+#: ku_generalsettings.ui:152 kuser.kcfg:65
+msgid "User private groups"
+msgstr "用戶私人群組"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: ku_generalsettings.ui:159
+msgid "Default group:"
+msgstr "預設群組:"
+
 #: ku_groupfiles.cpp:74
 msgid "Groups file name not set, please check 'Settings/Files'"
 msgstr ""
@@ -549,6 +640,159 @@ msgstr "說明"
 #: ku_groupmodel.cpp:78
 msgid "Unknown"
 msgstr "未知"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapsam)
+#: ku_ldapsamba.ui:36
+msgid "Manage Samba user accounts/groups"
+msgstr "管理 Samba 用戶帳號/群組"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
+#: ku_ldapsamba.ui:61
+msgid "Default login script:"
+msgstr "預設登入程序檔:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#: ku_ldapsamba.ui:87
+msgid "Profile path template:"
+msgstr "Profile 路徑樣板:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_lanmanhash)
+#. i18n: ectx: label, entry (lanmanhash), group (connection-$(connection))
+#: ku_ldapsamba.ui:139 kuser.kcfg:304
+msgid "Store LanManager hashed password"
+msgstr "儲存 LanManager 的已雜湊（hashed）密碼"
+
+#. i18n: ectx: property (text), widget (KPushButton, domQuery)
+#: ku_ldapsamba.ui:177
+msgid "&Query Server"
+msgstr "查詢伺服器(&Q)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ku_ldapsamba.ui:189
+msgid "Domain SID (you can obtain with 'net getlocalsid domain_name'):"
+msgstr "網域 SID（你可以『net getlocalsid domain_name』獲得）:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: ku_ldapsamba.ui:217
+msgid "Algorithmic RID base:"
+msgstr "算法 RID 基礎:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapgrouprdn)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: ku_ldapsettings.ui:34 ku_ldapsettings.ui:165
+msgid "cn"
+msgstr "cn"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapgrouprdn)
+#: ku_ldapsettings.ui:39
+msgid "gidNumber"
+msgstr "gidNumber"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:51
+msgid "Plain Text"
+msgstr "純文字"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:56
+msgid "CRYPT"
+msgstr "CRYPT"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:61
+msgid "MD5"
+msgstr "MD5"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:66
+msgid "SMD5"
+msgstr "SMD5"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:71
+msgid "SHA"
+msgstr "SHA"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldappasswordhash)
+#: ku_ldapsettings.ui:76
+msgid "SSHA"
+msgstr "SSHA"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ku_ldapsettings.ui:84
+msgid "User base:"
+msgstr "用戶基礎:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: ku_ldapsettings.ui:94
+msgid "Group filter:"
+msgstr "群組過濾器:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: ku_ldapsettings.ui:104
+msgid "Structural objectclass:"
+msgstr "結構性物件類別（Structural objectclass）:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: ku_ldapsettings.ui:114
+msgid "User filter:"
+msgstr "用戶過濾器:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapstructural)
+#: ku_ldapsettings.ui:131
+msgid "account"
+msgstr "帳號"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapstructural)
+#: ku_ldapsettings.ui:136
+msgid "inetOrgPerson"
+msgstr "inetOrgPerson"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ku_ldapsettings.ui:144
+msgid "Group RDN prefix:"
+msgstr "群組 RDN 前置字元:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: ku_ldapsettings.ui:155
+msgid "uid"
+msgstr "uid"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ldapuserrdn)
+#: ku_ldapsettings.ui:160
+msgid "uidNumber"
+msgstr "uidNumber"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ku_ldapsettings.ui:173
+msgid "Group base:"
+msgstr "群組基礎:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ku_ldapsettings.ui:183
+msgid "User RDN prefix:"
+msgstr "用戶 RDN 前置字元:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: ku_ldapsettings.ui:193
+msgid "Password hash:"
+msgstr "密碼雜湊（hash）:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapshadow)
+#: ku_ldapsettings.ui:205
+msgid "Manage shadowAccount objectclass"
+msgstr "管理 shadowAccount objectclass"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapcnfullname)
+#. i18n: ectx: label, entry (ldapcnfullname), group (connection-$(connection))
+#: ku_ldapsettings.ui:212 kuser.kcfg:225
+msgid "Store the user's full name in the cn attribute"
+msgstr "在 cn 屬性中儲存用戶的全名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ldapgecos)
+#: ku_ldapsettings.ui:219
+msgid "Update the gecos attribute"
+msgstr "更新 gecos 屬性"
 
 #: ku_main.cpp:37
 msgid "KDE User Editor"
@@ -741,6 +985,31 @@ msgstr "無法開啟要讀取的檔案 %1 。"
 #, kde-format
 msgid "Cannot open file %1 for writing."
 msgstr "無法開啟要寫入的檔案 %1 。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: ku_passwordpolicy.ui:38
+msgid "Time before password expires to issue an expire warning:"
+msgstr "密碼到期之前多久發出到期警告:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ku_passwordpolicy.ui:51
+msgid "Time when password expires after last password change:"
+msgstr "最後一次密碼更改之後密碼要多久才到期:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: ku_passwordpolicy.ui:64
+msgid "Time when account will be disabled after expiration of password:"
+msgstr "密碼到期後多久帳號才停用:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ku_passwordpolicy.ui:103
+msgid "Time before password may not be changed after last password change:"
+msgstr "最後一次密碼更改後密碼多久不可變更:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ku_passwordpolicy.ui:149
+msgid "Account will expire on:"
+msgstr "帳號將於此時間到期:"
 
 #: ku_pwdlg.cpp:33
 msgid "Enter Password"
@@ -1036,428 +1305,579 @@ msgstr "Samba 家磁碟機"
 msgid "Samba Home Path"
 msgstr "Samba 家路徑"
 
+#. i18n: ectx: label, entry (connection), group (general)
+#: kuser.kcfg:16
+msgid "Default connection"
+msgstr "預設連線"
+
+#. i18n: ectx: label, entry (showsys), group (general)
+#: kuser.kcfg:20
+msgid "Show system users"
+msgstr "顯示系統用戶"
+
+#. i18n: ectx: label, entry (source), group (connection-$(connection))
+#: kuser.kcfg:26
+msgid "The source of the user and group database"
+msgstr "用戶及群組資料庫的來源"
+
+#. i18n: ectx: whatsthis, entry (source), group (connection-$(connection))
+#: kuser.kcfg:27
+msgid ""
+"This option allows you to select where the user/group data stored. Currently "
+"three storage backends are supported. <BR><B>Files</B> stores user/group "
+"data in traditional /etc/passwd and /etc/group flat files. <BR><B>LDAP</B> "
+"stores data in a directory server using the posixAccount and posixGroup "
+"object classes; this backend allows the management of Samba users/groups via "
+"the sambaSamAccount object class.<BR><B>System</B> provides a read-only "
+"access to all users and groups which your installation knows about."
+msgstr ""
+"此選項讓你選擇在哪裡儲存用戶/群組資料。目前支援三種儲存後端。<BR><B>檔案</B>"
+"將用戶/群組資料儲存在傳統的 /etc/passwd 及 /etc/group 檔案。<BR><B>LDAP</B>將"
+"資料儲存在目錄伺服器的 posixAccount 及 posixGroup 物件類別中；此後端容許從 "
+"sambaSamAccount 物件類別管理 Samba 的用戶/群組。<BR><B>系統</B>提供你的套件安"
+"裝認識的所有用戶和群組的唯讀存取。"
+
+#. i18n: ectx: label, entry (shell), group (connection-$(connection))
+#: kuser.kcfg:36
+msgid "Shell"
+msgstr "Shell"
+
+#. i18n: ectx: whatsthis, entry (shell), group (connection-$(connection))
+#: kuser.kcfg:37
+msgid ""
+"This option allows you to select the shell which will be the default for new "
+"users."
+msgstr "此選項讓你選取新用戶的預設 shell 。"
+
+#. i18n: ectx: label, entry (homepath), group (connection-$(connection))
+#: kuser.kcfg:40
+msgid "Home path template"
+msgstr "家路徑樣板"
+
+#. i18n: ectx: whatsthis, entry (homepath), group (connection-$(connection))
+#: kuser.kcfg:41
+#, no-c-format
+msgid ""
+"This option specifies the UNIX home path template for new users. The '%U' "
+"macro will replaced with the actual user name."
+msgstr "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
+
+#. i18n: ectx: label, entry (firstUID), group (connection-$(connection))
+#: kuser.kcfg:45
+msgid "First UID"
+msgstr "第一個 UID"
+
+#. i18n: ectx: whatsthis, entry (firstUID), group (connection-$(connection))
+#: kuser.kcfg:46
+msgid ""
+"This options specifies the first user ID where searching for an available "
+"UID starts."
+msgstr "此選項指定當搜尋可用 UID 時開始的第一個用戶 ID 。"
+
+#. i18n: ectx: label, entry (firstGID), group (connection-$(connection))
+#: kuser.kcfg:50
+msgid "First GID"
+msgstr "第一個 GID"
+
+#. i18n: ectx: whatsthis, entry (firstGID), group (connection-$(connection))
+#: kuser.kcfg:51
+msgid ""
+"This options specifies the first group ID where searching for an available "
+"GID starts."
+msgstr "此選項指定當搜尋可用 GID 時開始的第一個群組 ID 。"
+
+#. i18n: ectx: whatsthis, entry (createHomeDir), group (connection-$(connection))
+#: kuser.kcfg:56
+msgid ""
+"If this option is checked then a home directory will created for the new "
+"user."
+msgstr "如勾選此選項，會為新用戶建立家目錄。"
+
+#. i18n: ectx: whatsthis, entry (copySkel), group (connection-$(connection))
+#: kuser.kcfg:61
+msgid ""
+"If this option is checked then the contents of the skeleton folder will "
+"copied to the new user's home directory"
+msgstr "如勾選此選項，檔案架構資料夾的內容會複製至新用戶的家目錄。"
+
+#. i18n: ectx: whatsthis, entry (userPrivateGroup), group (connection-$(connection))
+#: kuser.kcfg:66
+msgid ""
+"If this option is enabled, new user creation will create a private group "
+"named as the user, and the primary group of the user will assigned to this "
+"private group."
+msgstr ""
+"如啟用此選項，建立新用戶時會同時建立和用戶同名的私人群組，而該用戶的主要群組"
+"會指派至此私人群組。"
+
+#. i18n: ectx: label, entry (defaultgroup), group (connection-$(connection))
+#: kuser.kcfg:70
+msgid "Default primary group"
+msgstr "預設主要群組"
+
+#. i18n: ectx: whatsthis, entry (defaultgroup), group (connection-$(connection))
+#: kuser.kcfg:71
+msgid ""
+"This is the default primary group which will be assigned to a newly created "
+"user."
+msgstr "這是會指派至新建立的用戶的預設主要群組。"
+
+#. i18n: ectx: label, entry (smin), group (connection-$(connection))
+#: kuser.kcfg:76
+msgid "smin"
+msgstr "smin"
+
+#. i18n: ectx: label, entry (smax), group (connection-$(connection))
+#: kuser.kcfg:80
+msgid "smax"
+msgstr "smax"
+
+#. i18n: ectx: label, entry (swarn), group (connection-$(connection))
+#: kuser.kcfg:84
+msgid "swarn"
+msgstr "swarn"
+
+#. i18n: ectx: label, entry (sinact), group (connection-$(connection))
+#: kuser.kcfg:88
+msgid "sinact"
+msgstr "sinact"
+
+#. i18n: ectx: label, entry (sexpire), group (connection-$(connection))
+#: kuser.kcfg:92
+msgid "sexpire"
+msgstr "sexpire"
+
+#. i18n: ectx: whatsthis, entry (sexpire), group (connection-$(connection))
+#: kuser.kcfg:93
+msgid "This setting is for specifying a date when user accounts will expire."
+msgstr "此設置指定用戶帳號到期的日子。"
+
+#. i18n: ectx: label, entry (sneverexpire), group (connection-$(connection))
+#: kuser.kcfg:97
+msgid "sneverexpire"
+msgstr "sneverexpire"
+
+#. i18n: ectx: whatsthis, entry (sneverexpire), group (connection-$(connection))
+#: kuser.kcfg:98
+msgid "Check this if you want to user accounts never expire."
+msgstr "如你希望用戶帳號不會到期，勾選此項目。"
+
+#. i18n: ectx: label, entry (passwdsrc), group (connection-$(connection))
+#: kuser.kcfg:103
+msgid "Password file"
+msgstr "密碼檔案"
+
+#. i18n: ectx: whatsthis, entry (passwdsrc), group (connection-$(connection))
+#: kuser.kcfg:104
+msgid "This specifies the users database file (usually /etc/passwd)."
+msgstr "此處指定用戶資料庫的檔案（通常是 /etc/passwd）。"
+
+#. i18n: ectx: label, entry (groupsrc), group (connection-$(connection))
+#: kuser.kcfg:108
+msgid "Group file"
+msgstr "群組檔案"
+
+#. i18n: ectx: whatsthis, entry (groupsrc), group (connection-$(connection))
+#: kuser.kcfg:109
+msgid "This specifies the groups database file (usually /etc/group)."
+msgstr "此處指定群組資料庫的檔案（通常是 /etc/group）。"
+
+#. i18n: ectx: label, entry (md5shadow), group (connection-$(connection))
+#: kuser.kcfg:113
+msgid "MD5 Shadow passwords"
+msgstr "MD5 Shadow 密碼"
+
+#. i18n: ectx: whatsthis, entry (md5shadow), group (connection-$(connection))
+#: kuser.kcfg:114
+msgid ""
+"Check this if you want the passwords in the shadow file MD5 hashed. Leave "
+"this unchecked if DES encryption should be used."
+msgstr ""
+"如你希望在 shadow 檔案中的密碼以 MD5 進行雜湊（hash），勾選此項。如使用 DES "
+"加密，不要選。"
+
+#. i18n: ectx: label, entry (shadowsrc), group (connection-$(connection))
+#: kuser.kcfg:117
+msgid "Shadow password file"
+msgstr "Shadow 密碼檔案"
+
+#. i18n: ectx: whatsthis, entry (shadowsrc), group (connection-$(connection))
+#: kuser.kcfg:118
+msgid ""
+"Specifies the shadow password file (usually /etc/shadow). Leave this empty "
+"if your system does not use a shadow password file."
+msgstr ""
+"指定 shadow 密碼的檔案（通常是 /etc/shadow）。如你的系統不使用 shadow 密碼檔"
+"案，保持空白。"
+
+#. i18n: ectx: label, entry (gshadowsrc), group (connection-$(connection))
+#: kuser.kcfg:122
+msgid "Group shadow file"
+msgstr "群組 Shadow 檔案"
+
+#. i18n: ectx: whatsthis, entry (gshadowsrc), group (connection-$(connection))
+#: kuser.kcfg:123
+msgid ""
+"Specifies the shadow group file (usually /etc/gshadow). Leave this empty if "
+"your system does not use a shadow group file."
+msgstr ""
+"指定 shadow 群組的檔案（通常是 /etc/gshadow）。如你的系統不使用 shadow 群組檔"
+"案，保持空白。"
+
+#. i18n: ectx: label, entry (ldapuser), group (connection-$(connection))
+#: kuser.kcfg:128
+msgid "LDAP User"
+msgstr "LDAP 用戶"
+
+#. i18n: ectx: label, entry (ldappassword), group (connection-$(connection))
+#: kuser.kcfg:131
+msgid "LDAP Password"
+msgstr "LDAP 密碼"
+
+#. i18n: ectx: label, entry (ldaprealm), group (connection-$(connection))
+#: kuser.kcfg:134
+msgid "LDAP SASL Realm"
+msgstr "LDAP SASL 領域"
+
+#. i18n: ectx: label, entry (ldapbinddn), group (connection-$(connection))
+#: kuser.kcfg:137
 #, fuzzy
-#~ msgid "User/group database locations"
-#~ msgstr "用戶/群組資料庫來源:"
-
-#~ msgid "MD5 shadow passwords"
-#~ msgstr "MD5 shadow 密碼"
-
-#~ msgid "Shadow group file:"
-#~ msgstr "Shadow 群組檔案:"
-
-#~ msgid "Shadow password file:"
-#~ msgstr "Shadow 密碼檔案:"
-
-#~ msgid "Group file:"
-#~ msgstr "群組檔案:"
-
-#~ msgid "Password file:"
-#~ msgstr "密碼檔案:"
-
-#~ msgid "Source of user/group database:"
-#~ msgstr "用戶/群組資料庫來源:"
-
-#~ msgid "System"
-#~ msgstr "系統"
-
-#~ msgid "First normal GID:"
-#~ msgstr "第一個正常的 GID:"
-
-#~ msgid "Home path template:"
-#~ msgstr "家路徑樣板:"
-
-#~ msgid "Shell:"
-#~ msgstr "Shell:"
-
-#~ msgid "First normal UID:"
-#~ msgstr "第一個正常的 UID:"
-
-#~ msgid "Copy skeleton to home folder"
-#~ msgstr "複製檔案架構至家資料夾"
-
-#~ msgid "User private groups"
-#~ msgstr "用戶私人群組"
-
-#~ msgid "Default group:"
-#~ msgstr "預設群組:"
-
-#~ msgid "Manage Samba user accounts/groups"
-#~ msgstr "管理 Samba 用戶帳號/群組"
-
-#~ msgid "Default login script:"
-#~ msgstr "預設登入程序檔:"
-
-#~ msgid "Profile path template:"
-#~ msgstr "Profile 路徑樣板:"
-
-#~ msgid "Store LanManager hashed password"
-#~ msgstr "儲存 LanManager 的已雜湊（hashed）密碼"
-
-#~ msgid "&Query Server"
-#~ msgstr "查詢伺服器(&Q)"
-
-#~ msgid "Domain SID (you can obtain with 'net getlocalsid domain_name'):"
-#~ msgstr "網域 SID（你可以『net getlocalsid domain_name』獲得）:"
-
-#~ msgid "Algorithmic RID base:"
-#~ msgstr "算法 RID 基礎:"
-
-#~ msgid "cn"
-#~ msgstr "cn"
-
-#~ msgid "gidNumber"
-#~ msgstr "gidNumber"
-
-#~ msgid "Plain Text"
-#~ msgstr "純文字"
-
-#~ msgid "CRYPT"
-#~ msgstr "CRYPT"
-
-#~ msgid "MD5"
-#~ msgstr "MD5"
-
-#~ msgid "SMD5"
-#~ msgstr "SMD5"
-
-#~ msgid "SHA"
-#~ msgstr "SHA"
-
-#~ msgid "SSHA"
-#~ msgstr "SSHA"
-
-#~ msgid "User base:"
-#~ msgstr "用戶基礎:"
-
-#~ msgid "Group filter:"
-#~ msgstr "群組過濾器:"
-
-#~ msgid "Structural objectclass:"
-#~ msgstr "結構性物件類別（Structural objectclass）:"
-
-#~ msgid "User filter:"
-#~ msgstr "用戶過濾器:"
-
-#~ msgid "account"
-#~ msgstr "帳號"
-
-#~ msgid "inetOrgPerson"
-#~ msgstr "inetOrgPerson"
-
-#~ msgid "Group RDN prefix:"
-#~ msgstr "群組 RDN 前置字元:"
-
-#~ msgid "uid"
-#~ msgstr "uid"
-
-#~ msgid "uidNumber"
-#~ msgstr "uidNumber"
-
-#~ msgid "Group base:"
-#~ msgstr "群組基礎:"
-
-#~ msgid "User RDN prefix:"
-#~ msgstr "用戶 RDN 前置字元:"
-
-#~ msgid "Password hash:"
-#~ msgstr "密碼雜湊（hash）:"
-
-#~ msgid "Manage shadowAccount objectclass"
-#~ msgstr "管理 shadowAccount objectclass"
-
-#~ msgid "Store the user's full name in the cn attribute"
-#~ msgstr "在 cn 屬性中儲存用戶的全名"
-
-#~ msgid "Update the gecos attribute"
-#~ msgstr "更新 gecos 屬性"
-
-#~ msgid "Time before password expires to issue an expire warning:"
-#~ msgstr "密碼到期之前多久發出到期警告:"
-
-#~ msgid "Time when password expires after last password change:"
-#~ msgstr "最後一次密碼更改之後密碼要多久才到期:"
-
-#~ msgid "Time when account will be disabled after expiration of password:"
-#~ msgstr "密碼到期後多久帳號才停用:"
-
-#~ msgid "Time before password may not be changed after last password change:"
-#~ msgstr "最後一次密碼更改後密碼多久不可變更:"
-
-#~ msgid "Account will expire on:"
-#~ msgstr "帳號將於此時間到期:"
-
-#~ msgid "Default connection"
-#~ msgstr "預設連線"
-
-#~ msgid "Show system users"
-#~ msgstr "顯示系統用戶"
-
-#~ msgid "The source of the user and group database"
-#~ msgstr "用戶及群組資料庫的來源"
-
-#~ msgid ""
-#~ "This option allows you to select where the user/group data stored. "
-#~ "Currently three storage backends are supported. <BR><B>Files</B> stores "
-#~ "user/group data in traditional /etc/passwd and /etc/group flat files. "
-#~ "<BR><B>LDAP</B> stores data in a directory server using the posixAccount "
-#~ "and posixGroup object classes; this backend allows the management of "
-#~ "Samba users/groups via the sambaSamAccount object class.<BR><B>System</B> "
-#~ "provides a read-only access to all users and groups which your "
-#~ "installation knows about."
-#~ msgstr ""
-#~ "此選項讓你選擇在哪裡儲存用戶/群組資料。目前支援三種儲存後端。<BR><B>檔案</"
-#~ "B>將用戶/群組資料儲存在傳統的 /etc/passwd 及 /etc/group 檔案。"
-#~ "<BR><B>LDAP</B>將資料儲存在目錄伺服器的 posixAccount 及 posixGroup 物件類"
-#~ "別中；此後端容許從 sambaSamAccount 物件類別管理 Samba 的用戶/群組。<BR><B>"
-#~ "系統</B>提供你的套件安裝認識的所有用戶和群組的唯讀存取。"
-
-#~ msgid "Shell"
-#~ msgstr "Shell"
-
-#~ msgid ""
-#~ "This option allows you to select the shell which will be the default for "
-#~ "new users."
-#~ msgstr "此選項讓你選取新用戶的預設 shell 。"
-
-#~ msgid "Home path template"
-#~ msgstr "家路徑樣板"
-
-#~ msgid ""
-#~ "This option specifies the UNIX home path template for new users. The '%U' "
-#~ "macro will replaced with the actual user name."
-#~ msgstr ""
-#~ "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
-
-#~ msgid "First UID"
-#~ msgstr "第一個 UID"
-
-#~ msgid ""
-#~ "This options specifies the first user ID where searching for an available "
-#~ "UID starts."
-#~ msgstr "此選項指定當搜尋可用 UID 時開始的第一個用戶 ID 。"
-
-#~ msgid "First GID"
-#~ msgstr "第一個 GID"
-
-#~ msgid ""
-#~ "This options specifies the first group ID where searching for an "
-#~ "available GID starts."
-#~ msgstr "此選項指定當搜尋可用 GID 時開始的第一個群組 ID 。"
-
-#~ msgid ""
-#~ "If this option is checked then a home directory will created for the new "
-#~ "user."
-#~ msgstr "如勾選此選項，會為新用戶建立家目錄。"
-
-#~ msgid ""
-#~ "If this option is checked then the contents of the skeleton folder will "
-#~ "copied to the new user's home directory"
-#~ msgstr "如勾選此選項，檔案架構資料夾的內容會複製至新用戶的家目錄。"
-
-#~ msgid ""
-#~ "If this option is enabled, new user creation will create a private group "
-#~ "named as the user, and the primary group of the user will assigned to "
-#~ "this private group."
-#~ msgstr ""
-#~ "如啟用此選項，建立新用戶時會同時建立和用戶同名的私人群組，而該用戶的主要群"
-#~ "組會指派至此私人群組。"
-
-#~ msgid "Default primary group"
-#~ msgstr "預設主要群組"
-
-#~ msgid ""
-#~ "This is the default primary group which will be assigned to a newly "
-#~ "created user."
-#~ msgstr "這是會指派至新建立的用戶的預設主要群組。"
-
-#~ msgid "smin"
-#~ msgstr "smin"
-
-#~ msgid "smax"
-#~ msgstr "smax"
-
-#~ msgid "swarn"
-#~ msgstr "swarn"
-
-#~ msgid "sinact"
-#~ msgstr "sinact"
-
-#~ msgid "sexpire"
-#~ msgstr "sexpire"
-
-#~ msgid ""
-#~ "This setting is for specifying a date when user accounts will expire."
-#~ msgstr "此設置指定用戶帳號到期的日子。"
-
-#~ msgid "sneverexpire"
-#~ msgstr "sneverexpire"
-
-#~ msgid "Check this if you want to user accounts never expire."
-#~ msgstr "如你希望用戶帳號不會到期，勾選此項目。"
-
-#~ msgid "Password file"
-#~ msgstr "密碼檔案"
-
-#~ msgid "This specifies the users database file (usually /etc/passwd)."
-#~ msgstr "此處指定用戶資料庫的檔案（通常是 /etc/passwd）。"
-
-#~ msgid "Group file"
-#~ msgstr "群組檔案"
-
-#~ msgid "This specifies the groups database file (usually /etc/group)."
-#~ msgstr "此處指定群組資料庫的檔案（通常是 /etc/group）。"
-
-#~ msgid "MD5 Shadow passwords"
-#~ msgstr "MD5 Shadow 密碼"
-
-#~ msgid ""
-#~ "Check this if you want the passwords in the shadow file MD5 hashed. Leave "
-#~ "this unchecked if DES encryption should be used."
-#~ msgstr ""
-#~ "如你希望在 shadow 檔案中的密碼以 MD5 進行雜湊（hash），勾選此項。如使用 "
-#~ "DES 加密，不要選。"
-
-#~ msgid "Shadow password file"
-#~ msgstr "Shadow 密碼檔案"
-
-#~ msgid ""
-#~ "Specifies the shadow password file (usually /etc/shadow). Leave this "
-#~ "empty if your system does not use a shadow password file."
-#~ msgstr ""
-#~ "指定 shadow 密碼的檔案（通常是 /etc/shadow）。如你的系統不使用 shadow 密碼"
-#~ "檔案，保持空白。"
-
-#~ msgid "Group shadow file"
-#~ msgstr "群組 Shadow 檔案"
-
-#~ msgid ""
-#~ "Specifies the shadow group file (usually /etc/gshadow). Leave this empty "
-#~ "if your system does not use a shadow group file."
-#~ msgstr ""
-#~ "指定 shadow 群組的檔案（通常是 /etc/gshadow）。如你的系統不使用 shadow 群"
-#~ "組檔案，保持空白。"
-
-#~ msgid "LDAP User"
-#~ msgstr "LDAP 用戶"
-
-#~ msgid "LDAP Password"
-#~ msgstr "LDAP 密碼"
-
-#~ msgid "LDAP SASL Realm"
-#~ msgstr "LDAP SASL 領域"
-
-#~ msgid "LDAP Host"
-#~ msgstr "LDAP 主機"
-
-#~ msgid "LDAP Port"
-#~ msgstr "LDAP 連接埠"
-
-#~ msgid "LDAP version"
-#~ msgstr "LDAP 版本"
-
-#~ msgid "LDAP Size limit"
-#~ msgstr "LDAP 大小限制"
-
-#~ msgid "LDAP Time limit"
-#~ msgstr "LDAP 時間限制"
-
-#~ msgid "LDAP Base DN"
-#~ msgstr "LDAP 基礎 DN"
-
-#~ msgid "LDAP Filter"
-#~ msgstr "LDAP 過濾器"
-
-#~ msgid "LDAP no encryption"
-#~ msgstr "LDAP 不用加密"
-
-#~ msgid "LDAP TLS"
-#~ msgstr "LDAP TLS"
-
-#~ msgid "LDAP SSL"
-#~ msgstr "LDAP SSL"
-
-#~ msgid "LDAP Anonymous"
-#~ msgstr "LDAP 匿名"
-
-#~ msgid "LDAP Simple auth"
-#~ msgstr "LDAP 簡單認證"
-
-#~ msgid "LDAP SASL auth"
-#~ msgstr "LDAP SASL 認證"
-
-#~ msgid "LDAP SASL mechanism"
-#~ msgstr "LDAP SASL 機制"
-
-#~ msgid ""
-#~ "This specifies where to store users' entries relative to the LDAP base DN."
-#~ msgstr "此處指定用戶項目相對 LDAP 基礎 DN 的儲存位置。"
-
-#~ msgid "LDAP User filter"
-#~ msgstr "LDAP 用戶過濾器"
-
-#~ msgid "This specifies the filter used for user entries."
-#~ msgstr "此處指定用於用戶項目的過濾器。"
-
-#~ msgid ""
-#~ "This specifies where to store groups' entries relative to the LDAP base "
-#~ "DN."
-#~ msgstr "此處指定群組項目相對 LDAP 基礎 DN 的儲存位置。"
-
-#~ msgid "LDAP Group filter"
-#~ msgstr "LDAP 群組過濾器"
-
-#~ msgid "This specifies the filter used for group entries."
-#~ msgstr "此處指定用於群組項目的過濾器。"
-
-#~ msgid "LDAP User RDN prefix"
-#~ msgstr "LDAP 用戶 RDN 前置字元"
-
-#~ msgid "This specifies what prefix will used for user entries."
-#~ msgstr "此處指定用於用戶項目的前置字元。"
-
-#~ msgid "Update the gecos field"
-#~ msgstr "更新 gecos 欄位"
-
-#~ msgid "LDAP Group RDN prefix"
-#~ msgstr "LDAP 群組 RDN 前置字元"
-
-#~ msgid "This specifies what prefix will used for group entries."
-#~ msgstr "此處指定用於群組項目的前置字元。"
-
-#~ msgid "LDAP Password hash method"
-#~ msgstr "LDAP 密碼雜湊（hash）方法"
-
-#~ msgid "Enable samba account management"
-#~ msgstr "啟用 samba 帳號管理"
-
-#~ msgid "Samba domain name"
-#~ msgstr "Samba 網域名稱"
-
-#~ msgid "Samba domain SID"
-#~ msgstr "Samba 網域 SID"
-
-#~ msgid "Algorithmic RID base"
-#~ msgstr "算法 RID 基礎"
-
-#~ msgid "Samba home drive"
-#~ msgstr "Samba 家磁碟機"
-
-#~ msgid "Samba profile path template"
-#~ msgstr "Samba profile 路徑樣板"
-
-#~ msgid "Samba home path template"
-#~ msgstr "Samba 家路徑樣板"
-
-#~ msgid "&User"
-#~ msgstr "用戶(&U)"
-
-#~ msgid "&Group"
-#~ msgstr "群組(&G)"
-
+#| msgid "LDAP Base DN"
+msgid "LDAP Bind DN"
+msgstr "LDAP 基礎 DN"
+
+#. i18n: ectx: label, entry (ldaphost), group (connection-$(connection))
+#: kuser.kcfg:140
+msgid "LDAP Host"
+msgstr "LDAP 主機"
+
+#. i18n: ectx: label, entry (ldapport), group (connection-$(connection))
+#: kuser.kcfg:143
+msgid "LDAP Port"
+msgstr "LDAP 連接埠"
+
+#. i18n: ectx: label, entry (ldapver), group (connection-$(connection))
+#: kuser.kcfg:147
+msgid "LDAP version"
+msgstr "LDAP 版本"
+
+#. i18n: ectx: label, entry (ldapsizelimit), group (connection-$(connection))
+#: kuser.kcfg:151
+msgid "LDAP Size limit"
+msgstr "LDAP 大小限制"
+
+#. i18n: ectx: label, entry (ldaptimelimit), group (connection-$(connection))
+#. i18n: ectx: label, entry (ldappagesize), group (connection-$(connection))
+#: kuser.kcfg:155 kuser.kcfg:159
+msgid "LDAP Time limit"
+msgstr "LDAP 時間限制"
+
+#. i18n: ectx: label, entry (ldapdn), group (connection-$(connection))
+#: kuser.kcfg:163
+msgid "LDAP Base DN"
+msgstr "LDAP 基礎 DN"
+
+#. i18n: ectx: label, entry (ldapfilter), group (connection-$(connection))
+#: kuser.kcfg:166
+msgid "LDAP Filter"
+msgstr "LDAP 過濾器"
+
+#. i18n: ectx: label, entry (ldapnosec), group (connection-$(connection))
+#: kuser.kcfg:169
+msgid "LDAP no encryption"
+msgstr "LDAP 不用加密"
+
+#. i18n: ectx: label, entry (ldaptls), group (connection-$(connection))
+#: kuser.kcfg:173
+msgid "LDAP TLS"
+msgstr "LDAP TLS"
+
+#. i18n: ectx: label, entry (ldapssl), group (connection-$(connection))
+#: kuser.kcfg:177
+msgid "LDAP SSL"
+msgstr "LDAP SSL"
+
+#. i18n: ectx: label, entry (ldapanon), group (connection-$(connection))
+#: kuser.kcfg:181
+msgid "LDAP Anonymous"
+msgstr "LDAP 匿名"
+
+#. i18n: ectx: label, entry (ldapsimple), group (connection-$(connection))
+#: kuser.kcfg:185
+msgid "LDAP Simple auth"
+msgstr "LDAP 簡單認證"
+
+#. i18n: ectx: label, entry (ldapsasl), group (connection-$(connection))
+#: kuser.kcfg:189
+msgid "LDAP SASL auth"
+msgstr "LDAP SASL 認證"
+
+#. i18n: ectx: label, entry (ldapsaslmech), group (connection-$(connection))
+#: kuser.kcfg:193
+msgid "LDAP SASL mechanism"
+msgstr "LDAP SASL 機制"
+
+#. i18n: ectx: label, entry (ldapuserbase), group (connection-$(connection))
+#: kuser.kcfg:197
 #, fuzzy
-#~ msgid "&Settings"
-#~ msgstr "設置"
+#| msgid "LDAP User filter"
+msgid "LDAP User container"
+msgstr "LDAP 用戶過濾器"
+
+#. i18n: ectx: whatsthis, entry (ldapuserbase), group (connection-$(connection))
+#: kuser.kcfg:198
+msgid ""
+"This specifies where to store users' entries relative to the LDAP base DN."
+msgstr "此處指定用戶項目相對 LDAP 基礎 DN 的儲存位置。"
+
+#. i18n: ectx: label, entry (ldapuserfilter), group (connection-$(connection))
+#: kuser.kcfg:202
+msgid "LDAP User filter"
+msgstr "LDAP 用戶過濾器"
+
+#. i18n: ectx: whatsthis, entry (ldapuserfilter), group (connection-$(connection))
+#: kuser.kcfg:203
+msgid "This specifies the filter used for user entries."
+msgstr "此處指定用於用戶項目的過濾器。"
+
+#. i18n: ectx: label, entry (ldapgroupbase), group (connection-$(connection))
+#: kuser.kcfg:206
+#, fuzzy
+#| msgid "LDAP Group filter"
+msgid "LDAP Group container"
+msgstr "LDAP 群組過濾器"
+
+#. i18n: ectx: whatsthis, entry (ldapgroupbase), group (connection-$(connection))
+#: kuser.kcfg:207
+msgid ""
+"This specifies where to store groups' entries relative to the LDAP base DN."
+msgstr "此處指定群組項目相對 LDAP 基礎 DN 的儲存位置。"
+
+#. i18n: ectx: label, entry (ldapgroupfilter), group (connection-$(connection))
+#: kuser.kcfg:211
+msgid "LDAP Group filter"
+msgstr "LDAP 群組過濾器"
+
+#. i18n: ectx: whatsthis, entry (ldapgroupfilter), group (connection-$(connection))
+#: kuser.kcfg:212
+msgid "This specifies the filter used for group entries."
+msgstr "此處指定用於群組項目的過濾器。"
+
+#. i18n: ectx: label, entry (ldapuserrdn), group (connection-$(connection))
+#: kuser.kcfg:215
+msgid "LDAP User RDN prefix"
+msgstr "LDAP 用戶 RDN 前置字元"
+
+#. i18n: ectx: whatsthis, entry (ldapuserrdn), group (connection-$(connection))
+#: kuser.kcfg:216
+msgid "This specifies what prefix will used for user entries."
+msgstr "此處指定用於用戶項目的前置字元。"
+
+#. i18n: ectx: whatsthis, entry (ldapcnfullname), group (connection-$(connection))
+#: kuser.kcfg:226
+#, fuzzy
+#| msgid "Store the user's full name in the cn attribute"
+msgid ""
+"Check this if the user's full name should be stored in the cn (Canonical "
+"Name) attribute."
+msgstr "在 cn 屬性中儲存用戶的全名"
+
+#. i18n: ectx: label, entry (ldapgecos), group (connection-$(connection))
+#: kuser.kcfg:230
+msgid "Update the gecos field"
+msgstr "更新 gecos 欄位"
+
+#. i18n: ectx: whatsthis, entry (ldapgecos), group (connection-$(connection))
+#: kuser.kcfg:231
+msgid "Check this if the gecos attribute should be updated."
+msgstr ""
+
+#. i18n: ectx: label, entry (ldapshadow), group (connection-$(connection))
+#: kuser.kcfg:235
+#, fuzzy
+#| msgid "Manage shadowAccount objectclass"
+msgid "Manage LDAP shadowAccount objectclass"
+msgstr "管理 shadowAccount objectclass"
+
+#. i18n: ectx: whatsthis, entry (ldapshadow), group (connection-$(connection))
+#: kuser.kcfg:236
+msgid ""
+"Check this if the shadowAccount object should be used in the users' entries. "
+"It allows to enforce password change/expiration policies."
+msgstr ""
+
+#. i18n: ectx: label, entry (ldapstructural), group (connection-$(connection))
+#: kuser.kcfg:240
+#, fuzzy
+#| msgid "Structural objectclass:"
+msgid "LDAP Structural objectclass"
+msgstr "結構性物件類別（Structural objectclass）:"
+
+#. i18n: ectx: whatsthis, entry (ldapstructural), group (connection-$(connection))
+#: kuser.kcfg:241
+msgid ""
+"This option allows to specify the structural objectclass used with users' "
+"entries. If you want to use these entries not just for authentication, but "
+"for an address book, too, then choose inetOrgPerson."
+msgstr ""
+
+#. i18n: ectx: label, entry (ldapgrouprdn), group (connection-$(connection))
+#: kuser.kcfg:249
+msgid "LDAP Group RDN prefix"
+msgstr "LDAP 群組 RDN 前置字元"
+
+#. i18n: ectx: whatsthis, entry (ldapgrouprdn), group (connection-$(connection))
+#: kuser.kcfg:250
+msgid "This specifies what prefix will used for group entries."
+msgstr "此處指定用於群組項目的前置字元。"
+
+#. i18n: ectx: label, entry (ldappasswordhash), group (connection-$(connection))
+#: kuser.kcfg:258
+msgid "LDAP Password hash method"
+msgstr "LDAP 密碼雜湊（hash）方法"
+
+#. i18n: ectx: whatsthis, entry (ldappasswordhash), group (connection-$(connection))
+#: kuser.kcfg:259
+msgid "This specifies the password hashing method. The most secure is SSHA."
+msgstr ""
+
+#. i18n: ectx: label, entry (ldapsam), group (connection-$(connection))
+#: kuser.kcfg:271
+msgid "Enable samba account management"
+msgstr "啟用 samba 帳號管理"
+
+#. i18n: ectx: whatsthis, entry (ldapsam), group (connection-$(connection))
+#: kuser.kcfg:272
+msgid ""
+"Check this if you want to use the user/group entries in a Samba domain. "
+"KUser will create sambaSamAccount objectclass for each entry which is usable "
+"with the ldapsam passdb backend with Samba version greater than 3.0."
+msgstr ""
+
+#. i18n: ectx: label, entry (samdomain), group (connection-$(connection))
+#: kuser.kcfg:275
+msgid "Samba domain name"
+msgstr "Samba 網域名稱"
+
+#. i18n: ectx: whatsthis, entry (samdomain), group (connection-$(connection))
+#: kuser.kcfg:276
+#, fuzzy
+#| msgid "This specifies the filter used for user entries."
+msgid "This specifies the samba domain name."
+msgstr "此處指定用於用戶項目的過濾器。"
+
+#. i18n: ectx: label, entry (samdomsid), group (connection-$(connection))
+#: kuser.kcfg:279
+msgid "Samba domain SID"
+msgstr "Samba 網域 SID"
+
+#. i18n: ectx: whatsthis, entry (samdomsid), group (connection-$(connection))
+#: kuser.kcfg:280
+msgid ""
+"This specifies the domain Security IDentifier. It is unique in a single "
+"domain. You can query the value of the domain SID with 'net getlocalsid "
+"domain_name'."
+msgstr ""
+
+#. i18n: ectx: label, entry (samridbase), group (connection-$(connection))
+#: kuser.kcfg:283
+msgid "Algorithmic RID base"
+msgstr "算法 RID 基礎"
+
+#. i18n: ectx: whatsthis, entry (samridbase), group (connection-$(connection))
+#: kuser.kcfg:284
+msgid ""
+"This value is an offset for the algorithmic mapping from uids and gids to "
+"rids. The default (and minimum) value is 1000, it must be even, and the LDAP "
+"database and smb.conf must store the same values."
+msgstr ""
+
+#. i18n: ectx: label, entry (samloginscript), group (connection-$(connection))
+#: kuser.kcfg:288
+#, fuzzy
+#| msgid "Samba Login Script"
+msgid "Samba login script"
+msgstr "Samba 登入程序檔"
+
+#. i18n: ectx: whatsthis, entry (samloginscript), group (connection-$(connection))
+#: kuser.kcfg:289
+msgid ""
+"This specifies a name of a login script (in the `Netlogon` share) which will "
+"be executed as the user logs in to a Windows machine."
+msgstr ""
+
+#. i18n: ectx: label, entry (samhomedrive), group (connection-$(connection))
+#: kuser.kcfg:292
+msgid "Samba home drive"
+msgstr "Samba 家磁碟機"
+
+#. i18n: ectx: whatsthis, entry (samhomedrive), group (connection-$(connection))
+#: kuser.kcfg:293
+msgid ""
+"Specifies a drive letter where the user's home directory will automatically "
+"mapped when he/she logs into a Windows machine."
+msgstr ""
+
+#. i18n: ectx: label, entry (samprofilepath), group (connection-$(connection))
+#: kuser.kcfg:296
+msgid "Samba profile path template"
+msgstr "Samba profile 路徑樣板"
+
+#. i18n: ectx: whatsthis, entry (samprofilepath), group (connection-$(connection))
+#: kuser.kcfg:297
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This option specifies the UNIX home path template for new users. The '%U' "
+#| "macro will replaced with the actual user name."
+msgid ""
+"This specifies the location of the roaming profile of the user. The '%U' "
+"macro will be replaced with the actual user name."
+msgstr "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
+
+#. i18n: ectx: label, entry (samhomepath), group (connection-$(connection))
+#: kuser.kcfg:300
+msgid "Samba home path template"
+msgstr "Samba 家路徑樣板"
+
+#. i18n: ectx: whatsthis, entry (samhomepath), group (connection-$(connection))
+#: kuser.kcfg:301
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This option specifies the UNIX home path template for new users. The '%U' "
+#| "macro will replaced with the actual user name."
+msgid ""
+"This specifies the location of the home directory of the user. This field is "
+"meaningful only for Windows machines. The '%U' macro will be replaced with "
+"the actual user name."
+msgstr "此選項指定新用戶的 UNIX 家路徑樣板。『%U』巨集會以實際的用戶名稱代替。"
+
+#. i18n: ectx: whatsthis, entry (lanmanhash), group (connection-$(connection))
+#: kuser.kcfg:305
+msgid ""
+"Store the LanManager hashed password in the sambaLMPassword attribute. Check "
+"this if you have older clients (Win9x series and before) on your network."
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: kuserui.rc:4
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (user)
+#: kuserui.rc:8
+msgid "&User"
+msgstr "用戶(&U)"
+
+#. i18n: ectx: Menu (group)
+#: kuserui.rc:14
+msgid "&Group"
+msgstr "群組(&G)"
+
+#. i18n: ectx: Menu (settings)
+#: kuserui.rc:19
+#, fuzzy
+msgid "&Settings"
+msgstr "設置"
 
 #~ msgid "Hide System Users/Groups"
 #~ msgstr "隱藏系統用戶/群組"
