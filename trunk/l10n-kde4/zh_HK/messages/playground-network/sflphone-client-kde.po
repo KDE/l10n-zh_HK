@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 17:55+0100\n"
+"POT-Creation-Date: 2013-02-12 14:22+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -47,7 +47,7 @@ msgstr "查看(V)"
 msgid "Settings"
 msgstr "ALSA 配置"
 
-#: src/accountwizard.cpp:187 src/accountwizard.cpp:349 src/sflphone.cpp:363
+#: src/accountwizard.cpp:187 src/accountwizard.cpp:349 src/sflphone.cpp:352
 msgid "Account creation wizard"
 msgstr "帳戶創建向導"
 
@@ -256,26 +256,26 @@ msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
 msgid "Default account"
 msgstr "默認帳戶"
 
-#: src/callview.cpp:281
+#: src/callview.cpp:80
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Enter transfer number"
 msgstr "編輯電話號碼"
 
-#: src/callview.cpp:289
+#: src/callview.cpp:88
 msgid "Please enter a transfer number and press Enter, press Escape to cancel"
 msgstr ""
 
-#: src/callview.cpp:482 src/widgets/bookmarkdock.cpp:130
-#: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:581
-#: src/widgets/historytreeitem.cpp:624
+#: src/callview.cpp:281 src/widgets/bookmarkdock.cpp:130
+#: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:579
+#: src/widgets/historytreeitem.cpp:622
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown peer"
 msgid "Unknown"
 msgstr "未知"
 
-#: src/callview.cpp:654
+#: src/callview.cpp:444
 #, kde-format
 msgid "Your call have been transferred to %1"
 msgstr ""
@@ -1326,6 +1326,27 @@ msgstr "已註冊"
 msgid "Rate"
 msgstr ""
 
+#: src/errormessage.cpp:21
+msgid ""
+"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
+"persist, please report a bug.\n"
+"\n"
+"It is known that this message can be caused by trying to open SFLPhone KDE "
+"while the SFLPhone daemon is exiting. If so, waiting 15 seconds and trying "
+"again will solve the issue."
+msgstr ""
+
+#: src/errormessage.cpp:26
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually. \n"
+"\n"
+"Check in your distribution repository if the sflphone daemon (sometime "
+"called \"sflphone-common\") is available.\n"
+"Help for building SFLPhone daemon from source are present at https://"
+"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+msgstr ""
+
 #: src/klib/dataengine/sflphoneengine.cpp:282
 #, fuzzy
 #| msgid "Current account"
@@ -1338,7 +1359,7 @@ msgid "%1 number"
 msgid_plural "%1 numbers"
 msgstr[0] ""
 
-#: src/klib/helperfunctions.cpp:80 src/sflphoneview.cpp:680
+#: src/klib/helperfunctions.cpp:80 src/sflphoneview.cpp:679
 msgid "No registered accounts"
 msgstr "沒有已註冊帳戶"
 
@@ -1586,7 +1607,7 @@ msgid "New call"
 msgstr "新電話"
 
 #: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
-#: src/sflphone.cpp:109
+#: src/sflphone.cpp:110
 msgid "Hang up"
 msgstr "放電話"
 
@@ -1594,13 +1615,13 @@ msgstr "放電話"
 msgid "Hold on"
 msgstr "呼叫保持"
 
-#: src/lib/sflphone_const.h:43 src/sflphone.cpp:104
+#: src/lib/sflphone_const.h:43 src/sflphone.cpp:105
 #: src/widgets/calltreeitem.cpp:299 src/widgets/contactitemwidget.cpp:107
 #: src/widgets/historytreeitem.cpp:190
 msgid "Transfer"
 msgstr "轉接"
 
-#: src/lib/sflphone_const.h:44 src/sflphone.cpp:105
+#: src/lib/sflphone_const.h:44 src/sflphone.cpp:106
 msgid "Record"
 msgstr "記錄"
 
@@ -1624,125 +1645,125 @@ msgstr "回叫"
 msgid "Voicemail"
 msgstr "語音郵件"
 
-#: src/main.cpp:67
+#: src/main.cpp:59
 msgid "SFLphone KDE Client"
 msgstr "SFLphone KDE客戶端"
 
-#: src/main.cpp:71
+#: src/main.cpp:63
 #, fuzzy
 #| msgid "(C) 2009 Savoir-faire Linux"
-msgid "(C) 2009-2012 Savoir-faire Linux"
+msgid "(C) 2009-2013 Savoir-faire Linux"
 msgstr "(C) 2009 Savoir-faire Linux"
 
-#: src/main.cpp:76
+#: src/main.cpp:68
+msgid "Emmanuel Lepage Vallée"
+msgstr ""
+
+#: src/main.cpp:69
 msgid "Jérémy Quentin"
 msgstr "Jérémy Quentin"
 
-#: src/main.cpp:77
-msgid "Emmanuel Lepage Vallee"
-msgstr ""
-
-#: src/sflphone.cpp:106
+#: src/sflphone.cpp:107
 #, fuzzy
 #| msgid "Hold on"
 msgid "Hold"
 msgstr "呼叫保持"
 
-#: src/sflphone.cpp:107
+#: src/sflphone.cpp:108
 msgid "Refuse"
 msgstr "拒絕"
 
-#: src/sflphone.cpp:108 src/sflphoneview.cpp:938
+#: src/sflphone.cpp:109 src/sflphoneview.cpp:938
 msgid "Mute"
 msgstr ""
 
-#: src/sflphone.cpp:110
+#: src/sflphone.cpp:111
 msgid "Unhold"
 msgstr ""
 
-#: src/sflphone.cpp:111
+#: src/sflphone.cpp:112
 #, fuzzy
 #| msgid "Pick up"
 msgid "Pickup"
 msgstr "接電話"
 
-#: src/sflphone.cpp:184 src/sflphone.cpp:239 src/sflphone.cpp:665
+#: src/sflphone.cpp:181 src/sflphone.cpp:236 src/sflphone.cpp:653
 #, fuzzy
 #| msgid "_Call"
 msgid "Call"
 msgstr "電話"
 
-#: src/sflphone.cpp:248
+#: src/sflphone.cpp:245
 msgid "SFLphone"
 msgstr "SFLphone"
 
-#: src/sflphone.cpp:290
+#: src/sflphone.cpp:287
 #, fuzzy
 #| msgid "Current account"
 msgid "Current account:"
 msgstr "當前帳戶"
 
-#: src/sflphone.cpp:317
+#: src/sflphone.cpp:306
 msgid ""
 "The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
 "installed correctly or launch it manually"
 msgstr ""
 
-#: src/sflphone.cpp:353 src/sflphone.cpp:368
+#: src/sflphone.cpp:342 src/sflphone.cpp:356
 msgid "Configure SFLphone"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:355
+#: src/sflphone.cpp:344
 msgid "Display dialpad"
 msgstr "顯示撥號鍵盤"
 
-#: src/sflphone.cpp:356
+#: src/sflphone.cpp:345
 msgid "Display text message box"
 msgstr ""
 
-#: src/sflphone.cpp:357
+#: src/sflphone.cpp:346
 msgid "Display volume controls"
 msgstr "顯示音量控制"
 
-#: src/sflphone.cpp:358
+#: src/sflphone.cpp:347
 msgid "Paste"
 msgstr ""
 
-#: src/sflphone.cpp:359
+#: src/sflphone.cpp:348
 #, fuzzy
 msgid "Display Contact"
 msgstr "顯示"
 
-#: src/sflphone.cpp:360 src/widgets/contactdock.cpp:148
+#: src/sflphone.cpp:349 src/widgets/contactdock.cpp:148
 #, fuzzy
 #| msgid "Clear history"
 msgid "Display history"
 msgstr "清空曆史記錄"
 
-#: src/sflphone.cpp:361
+#: src/sflphone.cpp:350
 #, fuzzy
 msgid "Display bookmark"
 msgstr "顯示"
 
-#: src/sflphone.cpp:362
+#: src/sflphone.cpp:351
 #, fuzzy
 #| msgid "Configure SFLphone"
 msgid "Configure Toolbars"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:389
+#: src/sflphone.cpp:377
 #, fuzzy
 #| msgid "Configure SFLphone"
 msgid "Configure Shortcut"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:630 src/sflphone.cpp:632
+#: src/sflphone.cpp:618 src/sflphone.cpp:620
 #, fuzzy
 #| msgid "On incoming calls"
 msgid "New incoming call"
 msgstr "有新來電"
 
-#: src/sflphone.cpp:630 src/sflphone.cpp:632
+#: src/sflphone.cpp:618 src/sflphone.cpp:620
 #, fuzzy, kde-format
 #| msgid "New call"
 msgid ""
@@ -1750,7 +1771,7 @@ msgid ""
 "%1"
 msgstr "新電話"
 
-#: src/sflphone.cpp:668 src/widgets/bookmarkdock.cpp:96
+#: src/sflphone.cpp:656 src/widgets/bookmarkdock.cpp:96
 #: src/widgets/bookmarkdock.cpp:97 src/widgets/contactitemwidget.cpp:95
 #: src/widgets/historytreeitem.cpp:125 src/widgets/historytreeitem.cpp:127
 #, fuzzy
@@ -1758,24 +1779,13 @@ msgstr "新電話"
 msgid "Bookmark"
 msgstr "鉤鍵"
 
-#: src/sflphone.cpp:671 src/widgets/contactdock.cpp:176
+#: src/sflphone.cpp:659 src/widgets/contactdock.cpp:176
 msgid "Contact"
 msgstr ""
 
-#: src/sflphone.cpp:674 src/widgets/historydock.cpp:143
+#: src/sflphone.cpp:662 src/widgets/historydock.cpp:143
 msgid "History"
 msgstr "歷史"
-
-#: src/sflphone.cpp:714
-msgid ""
-"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
-"installed correctly or launch it manually. \n"
-"\n"
-"Check in your distribution repository if the sflphone daemon (sometime "
-"called \"sflphone-common\") is available.\n"
-"Help for building SFLPhone daemon from source are present at https://"
-"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
-msgstr ""
 
 #: src/sflphoneaccessibility.cpp:33
 msgid "List all current calls"
@@ -1822,14 +1832,8 @@ msgstr "編輯電話號碼"
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/sflphoneapplication.cpp:106
-msgid ""
-"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
-"persist, please report a bug.\n"
-"\n"
-"It is known that this message can be caused by trying to open SFLPhone KDE "
-"while the SFLPhone daemon is exiting. If so, waiting 15 seconds and trying "
-"again will solve the issue."
+#: src/sflphonecmd.cpp:27
+msgid "Place a call to a given number"
 msgstr ""
 
 #: src/sflphoneview.cpp:124 src/widgets/historydock.cpp:111
@@ -1838,18 +1842,18 @@ msgstr ""
 msgid "Calls"
 msgstr "電話"
 
-#: src/sflphoneview.cpp:379 src/widgets/contactitemwidget.cpp:328
+#: src/sflphoneview.cpp:378 src/widgets/contactitemwidget.cpp:328
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Select phone number"
 msgstr "編輯電話號碼"
 
-#: src/sflphoneview.cpp:379 src/widgets/contactitemwidget.cpp:328
+#: src/sflphoneview.cpp:378 src/widgets/contactitemwidget.cpp:328
 msgid ""
 "This contact has many phone numbers, please select the one you wish to call"
 msgstr ""
 
-#: src/sflphoneview.cpp:683
+#: src/sflphoneview.cpp:682
 #, fuzzy, kde-format
 #| msgid "Using account"
 msgid "Using account '%1' (%2)"
@@ -2041,11 +2045,11 @@ msgstr ""
 msgid "Remove bookmark"
 msgstr ""
 
-#: src/widgets/historytreeitem.cpp:336
+#: src/widgets/historytreeitem.cpp:337
 msgid "Are you sure you want to delete this recording?"
 msgstr ""
 
-#: src/widgets/historytreeitem.cpp:336
+#: src/widgets/historytreeitem.cpp:337
 #, fuzzy
 #| msgid "Recordings"
 msgid "Delete recording"
@@ -2068,13 +2072,13 @@ msgid ""
 "Use thasdasde dialpad below or sasdasdtart typing a number. "
 msgstr ""
 
-#: src/widgets/tips/tipcollection.cpp:73
+#: src/widgets/tips/tipcollection.cpp:76
 #, fuzzy
 #| msgid "Call back"
 msgid "Call ended"
 msgstr "回叫"
 
-#: src/widgets/tips/tipcollection.cpp:82
+#: src/widgets/tips/tipcollection.cpp:86
 msgid "Peer is busy"
 msgstr ""
 
