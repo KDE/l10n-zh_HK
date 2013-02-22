@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-12 14:22+0100\n"
+"POT-Creation-Date: 2013-02-22 13:08+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1364,10 +1364,12 @@ msgid "No registered accounts"
 msgstr "沒有已註冊帳戶"
 
 #: src/klib/macromodel.cpp:135 src/klib/macromodel.cpp:158
+msgctxt "Other category"
 msgid "Other"
 msgstr ""
 
 #: src/klib/macromodel.cpp:157
+msgctxt "New macro"
 msgid "New"
 msgstr ""
 
@@ -1607,7 +1609,7 @@ msgid "New call"
 msgstr "新電話"
 
 #: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
-#: src/sflphone.cpp:110
+#: src/sflphone.cpp:109
 msgid "Hang up"
 msgstr "放電話"
 
@@ -1673,19 +1675,20 @@ msgstr "呼叫保持"
 msgid "Refuse"
 msgstr "拒絕"
 
-#: src/sflphone.cpp:109 src/sflphoneview.cpp:938
-msgid "Mute"
-msgstr ""
-
-#: src/sflphone.cpp:111
+#: src/sflphone.cpp:110
 msgid "Unhold"
 msgstr ""
 
-#: src/sflphone.cpp:112
+#: src/sflphone.cpp:111
 #, fuzzy
 #| msgid "Pick up"
 msgid "Pickup"
 msgstr "接電話"
+
+#: src/sflphone.cpp:112 src/sflphoneview.cpp:938
+msgctxt "Mute the current audio device"
+msgid "Mute"
+msgstr ""
 
 #: src/sflphone.cpp:181 src/sflphone.cpp:236 src/sflphone.cpp:653
 #, fuzzy
@@ -1832,8 +1835,17 @@ msgstr "編輯電話號碼"
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/sflphonecmd.cpp:27
+#: src/sflphonecmd.cpp:47
 msgid "Place a call to a given number"
+msgstr ""
+
+#: src/sflphonecmd.cpp:48
+msgid ""
+"Send a text to &lt;number&gt;, une --message to set the content, then hangup"
+msgstr ""
+
+#: src/sflphonecmd.cpp:49
+msgid "Used in comination with --send-text"
 msgstr ""
 
 #: src/sflphoneview.cpp:124 src/widgets/historydock.cpp:111
@@ -1860,6 +1872,7 @@ msgid "Using account '%1' (%2)"
 msgstr "使用賬戶"
 
 #: src/sflphoneview.cpp:944
+msgctxt "Unmute the current audio device"
 msgid "Unmute"
 msgstr ""
 
