@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-13 03:30+0200\n"
+"POT-Creation-Date: 2013-05-20 03:40+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1121,8 +1121,8 @@ msgid "Insufficient permissions in target directory."
 msgstr ""
 
 #: kdecore/io/ksavefile.cpp:129
-#, fuzzy
-msgid "Unable to open temporary file."
+#, fuzzy, kde-format
+msgid "Unable to open temporary file. Error was: %1."
 msgstr "無法開啟鎖定檔"
 
 #: kdecore/io/ksavefile.cpp:237
@@ -3575,7 +3575,7 @@ msgstr "不支援 ai_socktype"
 msgid "system error"
 msgstr "系統錯誤"
 
-#: kdecore/services/kmimetyperepository.cpp:611
+#: kdecore/services/kmimetyperepository.cpp:612
 #, fuzzy, kde-format
 msgid "Could not find mime type <resource>%2</resource>"
 msgid_plural ""
@@ -3583,7 +3583,7 @@ msgid_plural ""
 "<resource>%2</resource>"
 msgstr[0] "找不到服務程式‘%1’。"
 
-#: kdecore/services/kmimetyperepository.cpp:629
+#: kdecore/services/kmimetyperepository.cpp:630
 msgid ""
 "No mime types installed. Check that shared-mime-info is installed, and that "
 "XDG_DATA_DIRS is not set, or includes /usr/share."
