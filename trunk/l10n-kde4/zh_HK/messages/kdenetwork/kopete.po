@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:51+0000\n"
+"POT-Creation-Date: 2013-05-22 01:32+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1375,9 +1375,9 @@ msgstr "名:"
 #: protocols/jabber/ui/privacy.ui:249
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:784
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:856
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:777
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:814
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:858
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:780
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:817
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:861
 #: protocols/oscar/icq/ui/icqotherinfowidget.ui:76
 #, fuzzy
 msgid "Remove"
@@ -2171,7 +2171,7 @@ msgstr "離線"
 #: plugins/statistics/statisticsdialog.cpp:673
 #: protocols/bonjour/bonjourprotocol.cpp:37 protocols/gadu/gaduprotocol.cpp:82
 #: protocols/gadu/gaduprotocol.cpp:86 protocols/groupwise/gwprotocol.cpp:54
-#: protocols/jabber/jabbercontact.cpp:191
+#: protocols/jabber/jabbercontact.cpp:193
 #: protocols/jabber/jabberprotocol.cpp:66
 #: protocols/meanwhile/meanwhileprotocol.cpp:40
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
@@ -2194,7 +2194,7 @@ msgstr "上線"
 #: plugins/statistics/statisticsdialog.cpp:675
 #: plugins/statistics/statisticsdialog.cpp:677
 #: protocols/groupwise/gwprotocol.cpp:58
-#: protocols/jabber/jabbercontact.cpp:193
+#: protocols/jabber/jabbercontact.cpp:195
 #: protocols/jabber/jabberprotocol.cpp:67
 #: protocols/meanwhile/meanwhileprotocol.cpp:44
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
@@ -2224,7 +2224,7 @@ msgstr "忙碌"
 #: kopete/config/status/statusconfig_manager.cpp:66
 #: libkopete/kopeteonlinestatus.cpp:167 libkopete/kopetestatusmanager.cpp:294
 #: protocols/gadu/gaduprotocol.cpp:74 protocols/gadu/gaduprotocol.cpp:79
-#: protocols/jabber/jabbercontact.cpp:196
+#: protocols/jabber/jabbercontact.cpp:198
 #: protocols/jabber/jabberprotocol.cpp:71
 #: protocols/oscar/aim/aimstatusmanager.cpp:85
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:812
@@ -2746,7 +2746,7 @@ msgid "Free For Chat"
 msgstr "開放聊天"
 
 #: kopete/config/status/statusconfig_manager.cpp:60
-#: protocols/jabber/jabbercontact.cpp:194
+#: protocols/jabber/jabbercontact.cpp:196
 #: protocols/jabber/jabberprotocol.cpp:68
 msgid "Extended Away"
 msgstr "離開（進階）"
@@ -2793,9 +2793,9 @@ msgstr "新群組"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:777
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:863
 #: protocols/oscar/icq/icqprotocol.cpp:131
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:784
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:821
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:865
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:787
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:824
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:868
 #: protocols/oscar/icq/ui/icqotherinfowidget.ui:69
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:50
 #: protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui:22
@@ -5638,7 +5638,7 @@ msgstr ""
 "<br><b>離開訊息:</b>&nbsp;格式化離開訊息\n"
 "<br><b>離開訊息:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:701
+#: libkopete/kopetecontact.cpp:706
 #, fuzzy, kde-format
 #| msgctxt "<br><b>PROPERTY LABEL:</b>&nbsp;PROPERTY VALUE"
 #| msgid "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
@@ -5648,25 +5648,25 @@ msgstr ""
 "<br><b>屬性標籤:</b>&nbsp;屬性值\n"
 "<br><nobr><b>%2:</b></nobr>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:724
+#: libkopete/kopetecontact.cpp:729
 #, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 %1"
 
-#: libkopete/kopetecontact.cpp:760
+#: libkopete/kopetecontact.cpp:765
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr "%4日 %3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:768
+#: libkopete/kopetecontact.cpp:773
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr "%3時 %2分 %1秒"
 
-#: libkopete/kopetecontact.cpp:776
+#: libkopete/kopetecontact.cpp:781
 #, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
@@ -5945,9 +5945,9 @@ msgid "File transfer %1 cancelled."
 msgstr "檔案傳輸取消。"
 
 #: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:100
-#: protocols/jabber/jabbercontact.cpp:1088
+#: protocols/jabber/jabbercontact.cpp:1105
 #: protocols/jabber/jabbergroupcontact.cpp:328
-#: protocols/jabber/jabbergroupmembercontact.cpp:256
+#: protocols/jabber/jabbergroupmembercontact.cpp:278
 #: protocols/oscar/oscarcontact.cpp:363 protocols/qq/qqcontact.cpp:418
 #: protocols/wlm/wlmcontact.cpp:176
 msgid "Kopete File Transfer"
@@ -6828,8 +6828,8 @@ msgstr "升起視窗"
 msgid "Configure Notifications..."
 msgstr "設定插件..."
 
-#: plugins/history/converter.cpp:42 protocols/jabber/jabberaccount.cpp:1179
-#: protocols/jabber/jabbercontact.cpp:989
+#: plugins/history/converter.cpp:42 protocols/jabber/jabberaccount.cpp:1186
+#: protocols/jabber/jabbercontact.cpp:1006
 msgid "Keep"
 msgstr "保留"
 
@@ -11182,80 +11182,80 @@ msgid "Unable to Connect '%1'"
 msgstr "無法連接『%1』"
 
 #: protocols/groupwise/gwaccount.cpp:734
-#: protocols/jabber/jabberaccount.cpp:476
+#: protocols/jabber/jabberaccount.cpp:483
 msgid "The host name does not match the one in the certificate."
 msgstr "主機名稱和證書上的不符。"
 
 #: protocols/groupwise/gwaccount.cpp:738
-#: protocols/jabber/jabberaccount.cpp:480
+#: protocols/jabber/jabberaccount.cpp:487
 #, fuzzy
 msgid "The certificate is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/groupwise/gwaccount.cpp:742
-#: protocols/jabber/jabberaccount.cpp:484
+#: protocols/jabber/jabberaccount.cpp:491
 msgid "No certificate was presented."
 msgstr "沒有證書。"
 
 #: protocols/groupwise/gwaccount.cpp:752
-#: protocols/jabber/jabberaccount.cpp:494
+#: protocols/jabber/jabberaccount.cpp:501
 msgid "The Certificate Authority rejected the certificate."
 msgstr "核證機關拒絕證書。"
 
 #: protocols/groupwise/gwaccount.cpp:756
-#: protocols/jabber/jabberaccount.cpp:498
+#: protocols/jabber/jabberaccount.cpp:505
 #, fuzzy
 msgid "The certificate is not trusted."
 msgstr "證書未被信任。"
 
 #: protocols/groupwise/gwaccount.cpp:760
-#: protocols/jabber/jabberaccount.cpp:502
+#: protocols/jabber/jabberaccount.cpp:509
 msgid "The signature is invalid."
 msgstr "簽署無效"
 
 #: protocols/groupwise/gwaccount.cpp:764
-#: protocols/jabber/jabberaccount.cpp:506
+#: protocols/jabber/jabberaccount.cpp:513
 msgid "The Certificate Authority is invalid."
 msgstr "核證機關無效。"
 
 #: protocols/groupwise/gwaccount.cpp:768
-#: protocols/jabber/jabberaccount.cpp:510
+#: protocols/jabber/jabberaccount.cpp:517
 msgid "Invalid certificate purpose."
 msgstr "無效的證書用途。"
 
 #: protocols/groupwise/gwaccount.cpp:772
-#: protocols/jabber/jabberaccount.cpp:514
+#: protocols/jabber/jabberaccount.cpp:521
 msgid "The certificate is self-signed."
 msgstr "證書是自簽署（self-signed）的。"
 
 #: protocols/groupwise/gwaccount.cpp:776
-#: protocols/jabber/jabberaccount.cpp:518
+#: protocols/jabber/jabberaccount.cpp:525
 msgid "The certificate has been revoked."
 msgstr "證書已被撤銷。"
 
 #: protocols/groupwise/gwaccount.cpp:780
-#: protocols/jabber/jabberaccount.cpp:522
+#: protocols/jabber/jabberaccount.cpp:529
 msgid "Maximum certificate chain length was exceeded."
 msgstr "超過證書串最大長度。"
 
 #: protocols/groupwise/gwaccount.cpp:784
-#: protocols/jabber/jabberaccount.cpp:526
+#: protocols/jabber/jabberaccount.cpp:533
 msgid "The certificate has expired."
 msgstr "證書已過期。"
 
 #: protocols/groupwise/gwaccount.cpp:788
-#: protocols/jabber/jabberaccount.cpp:530
+#: protocols/jabber/jabberaccount.cpp:537
 #, fuzzy
 msgid "The Certificate Authority has expired."
 msgstr "核證機關無效。"
 
 #: protocols/groupwise/gwaccount.cpp:792
-#: protocols/jabber/jabberaccount.cpp:534
+#: protocols/jabber/jabberaccount.cpp:541
 msgid "Validity is unknown."
 msgstr ""
 
 #: protocols/groupwise/gwaccount.cpp:803
-#: protocols/jabber/jabberaccount.cpp:545
+#: protocols/jabber/jabberaccount.cpp:552
 #, fuzzy, kde-format
 msgid ""
 "<qt><p>The identity and the certificate of server %1 could not be validated "
@@ -11263,8 +11263,8 @@ msgid ""
 msgstr "<qt><p>%1 伺服器的證書無法驗證帳號 %2: %3</p><p>要繼續嗎？</p></qt>"
 
 #: protocols/groupwise/gwaccount.cpp:809 protocols/groupwise/gwaccount.cpp:814
-#: protocols/jabber/jabberaccount.cpp:551
-#: protocols/jabber/jabberaccount.cpp:556
+#: protocols/jabber/jabberaccount.cpp:558
+#: protocols/jabber/jabberaccount.cpp:563
 #, kde-format
 msgid ""
 "<qt><p>The certificate of server %1 could not be validated for account %2: "
@@ -11829,8 +11829,8 @@ msgstr "你要連接的伺服器連接埠。 預設是 5222 。"
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:422
 #: protocols/meanwhile/ui/meanwhileeditaccount.ui:158
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:375
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:365
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:486
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:368
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:489
 msgid "Po&rt:"
 msgstr "連接埠(&R):"
 
@@ -13365,7 +13365,7 @@ msgstr "Jabber 錯誤"
 msgid "Please connect first."
 msgstr "請先連線。"
 
-#: protocols/jabber/jabberaccount.cpp:436
+#: protocols/jabber/jabberaccount.cpp:443
 #, fuzzy, kde-format
 #| msgid ""
 #| "SSL support could not be initialized for account %1. This is most likely "
@@ -13376,244 +13376,244 @@ msgid ""
 msgstr ""
 "無法初始化帳號 %1 的 SSL 支援。最有可能是因為你的系統上沒安裝 QCA TLS 插件。"
 
-#: protocols/jabber/jabberaccount.cpp:438
+#: protocols/jabber/jabberaccount.cpp:445
 #: protocols/jabber/ui/jabberregisteraccount.cpp:273
 msgid "Jabber SSL Error"
 msgstr "Jabber SSL 錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:563
+#: protocols/jabber/jabberaccount.cpp:570
 msgid "Jabber Connection Certificate Problem"
 msgstr "Jabber 連線證書問題"
 
-#: protocols/jabber/jabberaccount.cpp:597
+#: protocols/jabber/jabberaccount.cpp:604
 msgid ""
 "An encrypted connection with the Jabber server could not be established."
 msgstr "無法建立和 Jabber 伺服器建立加密連線。"
 
-#: protocols/jabber/jabberaccount.cpp:598
+#: protocols/jabber/jabberaccount.cpp:605
 msgid "Jabber Connection Error"
 msgstr "Jabber 連線錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:803
+#: protocols/jabber/jabberaccount.cpp:810
 msgid "Malformed packet received."
 msgstr "收到格式錯誤的封包。"
 
-#: protocols/jabber/jabberaccount.cpp:808
+#: protocols/jabber/jabberaccount.cpp:815
 msgid "There was an unrecoverable error in the protocol."
 msgstr "協定中有無法復原的錯誤。"
 
-#: protocols/jabber/jabberaccount.cpp:815
+#: protocols/jabber/jabberaccount.cpp:822
 #, fuzzy
 msgid "Generic stream error."
 msgstr "伺服器內部問題。"
 
-#: protocols/jabber/jabberaccount.cpp:819
+#: protocols/jabber/jabberaccount.cpp:826
 msgid "There was a conflict in the information received."
 msgstr "收到的資訊有衝突。"
 
-#: protocols/jabber/jabberaccount.cpp:822
+#: protocols/jabber/jabberaccount.cpp:829
 msgid "The stream timed out."
 msgstr "串流逾時。"
 
-#: protocols/jabber/jabberaccount.cpp:825
+#: protocols/jabber/jabberaccount.cpp:832
 msgid "Internal server error."
 msgstr "伺服器內部問題。"
 
-#: protocols/jabber/jabberaccount.cpp:828
+#: protocols/jabber/jabberaccount.cpp:835
 msgid "Stream packet received from an invalid address."
 msgstr "串流封包接收自無效的位址。"
 
-#: protocols/jabber/jabberaccount.cpp:831
+#: protocols/jabber/jabberaccount.cpp:838
 msgid "Malformed stream packet received."
 msgstr "收到格式錯誤的串流。"
 
-#: protocols/jabber/jabberaccount.cpp:835
+#: protocols/jabber/jabberaccount.cpp:842
 msgid "Policy violation in the protocol stream."
 msgstr "協定串流違反政策。"
 
-#: protocols/jabber/jabberaccount.cpp:839
+#: protocols/jabber/jabberaccount.cpp:846
 msgid "Resource constraint."
 msgstr "資源限制。"
 
-#: protocols/jabber/jabberaccount.cpp:843
+#: protocols/jabber/jabberaccount.cpp:850
 msgid "System shutdown."
 msgstr "系統關閉。"
 
-#: protocols/jabber/jabberaccount.cpp:846
+#: protocols/jabber/jabberaccount.cpp:853
 msgid "Unknown reason."
 msgstr "未知原因。"
 
-#: protocols/jabber/jabberaccount.cpp:850
+#: protocols/jabber/jabberaccount.cpp:857
 #, kde-format
 msgid "There was an error in the protocol stream: %1"
 msgstr "協定串流中有錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:858
+#: protocols/jabber/jabberaccount.cpp:865
 msgid "Host not found."
 msgstr "找不到主機。"
 
-#: protocols/jabber/jabberaccount.cpp:861
+#: protocols/jabber/jabberaccount.cpp:868
 msgid "Address is already in use."
 msgstr "位址已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:864
+#: protocols/jabber/jabberaccount.cpp:871
 msgid "Connection refused."
 msgstr "連線被拒。"
 
-#: protocols/jabber/jabberaccount.cpp:867
+#: protocols/jabber/jabberaccount.cpp:874
 msgid "Connection attempt already in progress."
 msgstr "連線已在進行。"
 
-#: protocols/jabber/jabberaccount.cpp:870
+#: protocols/jabber/jabberaccount.cpp:877
 msgid "Network failure."
 msgstr "網絡問題。"
 
-#: protocols/jabber/jabberaccount.cpp:873
+#: protocols/jabber/jabberaccount.cpp:880
 msgid "Socket timed out."
 msgstr "插座（socket）逾時。"
 
-#: protocols/jabber/jabberaccount.cpp:876
+#: protocols/jabber/jabberaccount.cpp:883
 #, fuzzy
 msgid "Remote closed connection."
 msgstr "使用直接連線（DCC）(&U)"
 
-#: protocols/jabber/jabberaccount.cpp:880
+#: protocols/jabber/jabberaccount.cpp:887
 #, kde-format
 msgid "Unexpected error condition (%1)."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:884
+#: protocols/jabber/jabberaccount.cpp:891
 #, kde-format
 msgid "There was a connection error: %1"
 msgstr "連線錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:892
+#: protocols/jabber/jabberaccount.cpp:899
 msgid "Unknown host."
 msgstr "未知主機。"
 
-#: protocols/jabber/jabberaccount.cpp:896
+#: protocols/jabber/jabberaccount.cpp:903
 msgid "Could not connect to a required remote resource."
 msgstr "無法連接所需的遠端資源。"
 
-#: protocols/jabber/jabberaccount.cpp:899
+#: protocols/jabber/jabberaccount.cpp:906
 msgid ""
 "It appears we have been redirected to another server; I do not know how to "
 "handle this."
 msgstr "看來我們被重導至另一台伺服器；我不知道怎樣處理。"
 
-#: protocols/jabber/jabberaccount.cpp:902
+#: protocols/jabber/jabberaccount.cpp:909
 msgid "Unsupported protocol version."
 msgstr "不支援的協定版本。"
 
-#: protocols/jabber/jabberaccount.cpp:905
-#: protocols/jabber/jabberaccount.cpp:922
-#: protocols/jabber/jabberaccount.cpp:966
-#: protocols/jabber/jabberaccount.cpp:983
-#: protocols/jabber/jabberaccount.cpp:1000
-#: protocols/jabber/jabberaccount.cpp:1008
+#: protocols/jabber/jabberaccount.cpp:912
+#: protocols/jabber/jabberaccount.cpp:929
+#: protocols/jabber/jabberaccount.cpp:973
+#: protocols/jabber/jabberaccount.cpp:990
+#: protocols/jabber/jabberaccount.cpp:1007
+#: protocols/jabber/jabberaccount.cpp:1015
 msgid "Unknown error."
 msgstr "未知錯誤。"
 
-#: protocols/jabber/jabberaccount.cpp:909
+#: protocols/jabber/jabberaccount.cpp:916
 #, kde-format
 msgid "There was a negotiation error: %1"
 msgstr "協商錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:916
+#: protocols/jabber/jabberaccount.cpp:923
 msgid "Server rejected our request to start the TLS handshake."
 msgstr "伺服器拒絕我們開始 TLS 交握的要求。"
 
-#: protocols/jabber/jabberaccount.cpp:919
+#: protocols/jabber/jabberaccount.cpp:926
 msgid "Failed to establish a secure connection."
 msgstr "建立安全連線失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:926
+#: protocols/jabber/jabberaccount.cpp:933
 #, kde-format
 msgid "There was a Transport Layer Security (TLS) error: %1"
 msgstr "傳送層保安 (TLS) 錯誤: %1"
 
-#: protocols/jabber/jabberaccount.cpp:933
+#: protocols/jabber/jabberaccount.cpp:940
 msgid "Login failed with unknown reason."
 msgstr "因未知原因登入失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:936
+#: protocols/jabber/jabberaccount.cpp:943
 msgid "No appropriate authentication mechanism available."
 msgstr "沒有合適的認證機制。"
 
-#: protocols/jabber/jabberaccount.cpp:939
+#: protocols/jabber/jabberaccount.cpp:946
 msgid "Bad SASL authentication protocol."
 msgstr "不良的 SASL 認證協定。"
 
-#: protocols/jabber/jabberaccount.cpp:942
+#: protocols/jabber/jabberaccount.cpp:949
 msgid "Server failed mutual authentication."
 msgstr "伺服器雙向認證失敗。"
 
-#: protocols/jabber/jabberaccount.cpp:945
+#: protocols/jabber/jabberaccount.cpp:952
 msgid "Encryption is required but not present."
 msgstr "需要加密但未有。"
 
-#: protocols/jabber/jabberaccount.cpp:948
+#: protocols/jabber/jabberaccount.cpp:955
 msgid "Invalid user ID."
 msgstr "無效的用戶 ID 。"
 
-#: protocols/jabber/jabberaccount.cpp:951
+#: protocols/jabber/jabberaccount.cpp:958
 msgid "Invalid mechanism."
 msgstr "無效機制。"
 
-#: protocols/jabber/jabberaccount.cpp:954
+#: protocols/jabber/jabberaccount.cpp:961
 msgid "Invalid realm."
 msgstr "無效領域。"
 
-#: protocols/jabber/jabberaccount.cpp:957
+#: protocols/jabber/jabberaccount.cpp:964
 msgid "Mechanism too weak."
 msgstr "機制太弱。"
 
-#: protocols/jabber/jabberaccount.cpp:960
+#: protocols/jabber/jabberaccount.cpp:967
 msgid "Wrong credentials supplied. (check your user ID and password)"
 msgstr "提供的憑據不正確。（檢查你的用戶 ID 及密碼）"
 
-#: protocols/jabber/jabberaccount.cpp:963
+#: protocols/jabber/jabberaccount.cpp:970
 msgid "Temporary failure, please try again later."
 msgstr "暫時失敗，請稍後再試。"
 
-#: protocols/jabber/jabberaccount.cpp:970
+#: protocols/jabber/jabberaccount.cpp:977
 #, kde-format
 msgid "There was an error authenticating with the server: %1"
 msgstr "向伺服器認證時發生錯誤： %1"
 
-#: protocols/jabber/jabberaccount.cpp:977
+#: protocols/jabber/jabberaccount.cpp:984
 msgid "Transport Layer Security (TLS) problem."
 msgstr "傳送層保安 (TLS) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:980
+#: protocols/jabber/jabberaccount.cpp:987
 msgid "Simple Authentication and Security Layer (SASL) problem."
 msgstr "簡單認證及保安層 (SASL) 問題。"
 
-#: protocols/jabber/jabberaccount.cpp:987
+#: protocols/jabber/jabberaccount.cpp:994
 #, kde-format
 msgid "There was an error in the security layer: %1"
 msgstr "於此保安層中有問題: %1"
 
-#: protocols/jabber/jabberaccount.cpp:994
+#: protocols/jabber/jabberaccount.cpp:1001
 msgid "No permission to bind the resource."
 msgstr "沒有繫結資源的權限。"
 
-#: protocols/jabber/jabberaccount.cpp:997
+#: protocols/jabber/jabberaccount.cpp:1004
 msgid "The resource is already in use."
 msgstr "資源已被使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1004
+#: protocols/jabber/jabberaccount.cpp:1011
 #, kde-format
 msgid "Could not bind a resource: %1"
 msgstr "無法繫結資源: %1"
 
-#: protocols/jabber/jabberaccount.cpp:1017
+#: protocols/jabber/jabberaccount.cpp:1024
 #, fuzzy, kde-format
 #| msgid "Connection problem with Jabber server %1"
 msgid "Kopete: Connection problem with Jabber server %1"
 msgstr "和 Jabber 伺服器 %1 連線有問題"
 
-#: protocols/jabber/jabberaccount.cpp:1176
+#: protocols/jabber/jabberaccount.cpp:1183
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Jabber user %1 removed %2's subscription to them. This account will "
@@ -13627,54 +13627,54 @@ msgstr ""
 "Jabber 用戶 %1 已移除 %2 向他的訂閱。此帳號將無法再檢視他們的上線/離線狀態。"
 "要刪除該聯絡人嗎？"
 
-#: protocols/jabber/jabberaccount.cpp:1179
-#: protocols/jabber/jabbercontact.cpp:988
+#: protocols/jabber/jabberaccount.cpp:1186
+#: protocols/jabber/jabbercontact.cpp:1005
 msgid "Notification"
 msgstr "通知"
 
-#: protocols/jabber/jabberaccount.cpp:1352
+#: protocols/jabber/jabberaccount.cpp:1359
 msgid "Waiting for authorization"
 msgstr "正在等待授權"
 
-#: protocols/jabber/jabberaccount.cpp:1569
+#: protocols/jabber/jabberaccount.cpp:1576
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1578
+#: protocols/jabber/jabberaccount.cpp:1585
 #, fuzzy, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
-#: protocols/jabber/jabberaccount.cpp:1579
+#: protocols/jabber/jabberaccount.cpp:1586
 #: protocols/jabber/jabberprotocol.cpp:487
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabberaccount.cpp:1592
+#: protocols/jabber/jabberaccount.cpp:1599
 #, fuzzy, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1593
 #: protocols/jabber/jabberaccount.cpp:1600
-#: protocols/jabber/jabberaccount.cpp:1610
+#: protocols/jabber/jabberaccount.cpp:1607
+#: protocols/jabber/jabberaccount.cpp:1617
 msgid "Jabber Group Chat"
 msgstr "Jabber 群組聊天"
 
-#: protocols/jabber/jabberaccount.cpp:1599
+#: protocols/jabber/jabberaccount.cpp:1606
 #, fuzzy, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
 "reached"
 msgstr "<qt>你不能加入 %1 ，因為你已被封鎖。</qt>"
 
-#: protocols/jabber/jabberaccount.cpp:1605
+#: protocols/jabber/jabberaccount.cpp:1612
 msgid "No reason given by the server"
 msgstr "伺服器未有交待原因"
 
-#: protocols/jabber/jabberaccount.cpp:1609
+#: protocols/jabber/jabberaccount.cpp:1616
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error processing your request for group chat %1. (Reason: "
@@ -13684,7 +13684,7 @@ msgid ""
 "Code %3)"
 msgstr "群組聊天 %1 處理你的要求時發生錯誤。（理由: %2 ，代號 %3）"
 
-#: protocols/jabber/jabberaccount.cpp:1682
+#: protocols/jabber/jabberaccount.cpp:1689
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -13692,27 +13692,27 @@ msgid ""
 "and you will never be able to connect to this account with any client"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1685
+#: protocols/jabber/jabberaccount.cpp:1692
 #, fuzzy
 msgid "Unregister"
 msgstr "註冊"
 
-#: protocols/jabber/jabberaccount.cpp:1686
+#: protocols/jabber/jabberaccount.cpp:1693
 msgid "Remove and Unregister"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1687
+#: protocols/jabber/jabberaccount.cpp:1694
 msgid "Remove only from Kopete"
 msgstr ""
 
-#: protocols/jabber/jabberaccount.cpp:1731
+#: protocols/jabber/jabberaccount.cpp:1738
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
 "%1"
 msgstr "嘗試開始聊天: %1 時發生錯誤"
 
-#: protocols/jabber/jabberaccount.cpp:1732
+#: protocols/jabber/jabberaccount.cpp:1739
 #, fuzzy
 msgid "Jabber Account Unregistration"
 msgstr "Jabber 帳號註冊"
@@ -13742,16 +13742,69 @@ msgstr "你可看見其他人的狀態。"
 msgid "Client"
 msgstr "客戶端"
 
+#: protocols/jabber/jabberbasecontact.cpp:283
+#, fuzzy
+#| msgid "&Set Font..."
+msgid "User Mood"
+msgstr "設定字型(&S)..."
+
+#: protocols/jabber/jabberbasecontact.cpp:285
+#: protocols/oscar/icq/icqcontact.cpp:481
+msgid "Groupchat"
+msgstr "群組聊天"
+
+#: protocols/jabber/jabberbasecontact.cpp:287
+#: protocols/oscar/oscarcontact.cpp:250
+msgid "Rich text messages"
+msgstr "豐富文本（Rich text）訊息"
+
+#: protocols/jabber/jabberbasecontact.cpp:289
+msgid "Data Forms"
+msgstr ""
+
+#: protocols/jabber/jabberbasecontact.cpp:291
+msgid "OpenPGP"
+msgstr ""
+
 #: protocols/jabber/jabberbasecontact.cpp:293
+#, fuzzy
+#| msgid "Message"
+msgid "Message Events"
+msgstr "訊息"
+
+#: protocols/jabber/jabberbasecontact.cpp:295
+#, fuzzy
+#| msgid "Messaging Preferences"
+msgid "Message Delivery Receipts"
+msgstr "傳訊偏好設定"
+
+#: protocols/jabber/jabberbasecontact.cpp:297
+#: protocols/oscar/oscarcontact.cpp:260
+msgid "File transfers"
+msgstr "檔案傳輸"
+
+#: protocols/jabber/jabberbasecontact.cpp:299
+#, fuzzy
+#| msgid "Services..."
+msgid "Service Discovery"
+msgstr "服務..."
+
+#: protocols/jabber/jabberbasecontact.cpp:306
+#, fuzzy
+#| msgid "Client Features"
+msgid "Supported Features"
+msgstr "客戶端功能"
+
+#: protocols/jabber/jabberbasecontact.cpp:311
 msgid "Timestamp"
 msgstr "時間戳記"
 
-#: protocols/jabber/jabberbasecontact.cpp:300
+#: protocols/jabber/jabberbasecontact.cpp:318
 #: protocols/oscar/icq/xtrazstatusmodel.cpp:131
 msgid "Message"
 msgstr "訊息"
 
-#: protocols/jabber/jabberbasecontact.cpp:663
+#: protocols/jabber/jabberbasecontact.cpp:681
 #, fuzzy
 msgid "Failed to download Jabber contact photo."
 msgstr "下載顯示圖像失敗"
@@ -13785,72 +13838,72 @@ msgid " (%1)"
 msgstr " (%1)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3_2)
-#: protocols/jabber/jabbercontact.cpp:141
+#: protocols/jabber/jabbercontact.cpp:143
 #: protocols/skype/ui/skypeeditaccountbase.ui:319
 msgid "Authorization"
 msgstr "授權"
 
-#: protocols/jabber/jabbercontact.cpp:147 protocols/skype/skypecontact.cpp:106
+#: protocols/jabber/jabbercontact.cpp:149 protocols/skype/skypecontact.cpp:106
 msgid "(Re)send Authorization To"
 msgstr "（重新）發出授權至"
 
-#: protocols/jabber/jabbercontact.cpp:154
+#: protocols/jabber/jabbercontact.cpp:156
 msgid "(Re)request Authorization From"
 msgstr "（重新）要求授權，從"
 
-#: protocols/jabber/jabbercontact.cpp:161 protocols/skype/skypecontact.cpp:111
+#: protocols/jabber/jabbercontact.cpp:163 protocols/skype/skypecontact.cpp:111
 msgid "Remove Authorization From"
 msgstr "移除授權表格"
 
-#: protocols/jabber/jabbercontact.cpp:173
+#: protocols/jabber/jabbercontact.cpp:175
 #, fuzzy
 #| msgid "Gadu contact"
 msgid "Call Google Talk contact"
 msgstr "Gadu 聯絡人"
 
-#: protocols/jabber/jabbercontact.cpp:182
+#: protocols/jabber/jabbercontact.cpp:184
 msgid "Set Availability"
 msgstr "設定可用度"
 
-#: protocols/jabber/jabbercontact.cpp:192
+#: protocols/jabber/jabbercontact.cpp:194
 msgid "Free to Chat"
 msgstr "我有空聊天"
 
-#: protocols/jabber/jabbercontact.cpp:195
+#: protocols/jabber/jabbercontact.cpp:197
 #: protocols/oscar/aim/aimstatusmanager.cpp:69
 #: protocols/oscar/icq/icqstatusmanager.cpp:77
 #: protocols/skype/skypeaccount.cpp:942 protocols/skype/skypeprotocol.cpp:85
 msgid "Do Not Disturb"
 msgstr "請勿打擾"
 
-#: protocols/jabber/jabbercontact.cpp:200
+#: protocols/jabber/jabbercontact.cpp:202
 msgid "Select Resource"
 msgstr "選擇資源"
 
-#: protocols/jabber/jabbercontact.cpp:217
+#: protocols/jabber/jabbercontact.cpp:219
 msgid "Automatic (best/default resource)"
 msgstr "自動（最佳/預設資源）"
 
-#: protocols/jabber/jabbercontact.cpp:272
+#: protocols/jabber/jabbercontact.cpp:274
 #, fuzzy
 #| msgid "Description"
 msgid "Test action"
 msgstr "說明"
 
-#: protocols/jabber/jabbercontact.cpp:276
+#: protocols/jabber/jabbercontact.cpp:278
 msgid "Jingle Audio call"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:279
+#: protocols/jabber/jabbercontact.cpp:281
 msgid "Jingle Video call"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:319
+#: protocols/jabber/jabbercontact.cpp:321
 #, kde-format
 msgid "The original message is : <i>\" %1 \"</i><br />"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:320
+#: protocols/jabber/jabbercontact.cpp:322
 #, kde-format
 msgid ""
 "<qt><i>%1</i> has invited you to join the conference <b>%2</b><br />%3<br /"
@@ -13858,35 +13911,36 @@ msgid ""
 "OK.<br />If you want to decline, press Cancel.</qt>"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:326
+#: protocols/jabber/jabbercontact.cpp:328
 msgid "Invited to a conference - Jabber Plugin"
 msgstr ""
 
-#: protocols/jabber/jabbercontact.cpp:343
+#: protocols/jabber/jabbercontact.cpp:345
 msgid "Message has been displayed"
 msgstr "訊息已經顯示了"
 
-#: protocols/jabber/jabbercontact.cpp:346
+#: protocols/jabber/jabbercontact.cpp:348
+#: protocols/jabber/jabbercontact.cpp:374
 msgid "Message has been delivered"
 msgstr "訊息已經傳送了"
 
-#: protocols/jabber/jabbercontact.cpp:352
+#: protocols/jabber/jabbercontact.cpp:354
 msgid "Message stored on the server, contact offline"
 msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 
-#: protocols/jabber/jabbercontact.cpp:360
+#: protocols/jabber/jabbercontact.cpp:362
 #, fuzzy, kde-format
 msgid "%1 has ended his/her participation in the chat session."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
-#: protocols/jabber/jabbercontact.cpp:400
+#: protocols/jabber/jabbercontact.cpp:417
 #: protocols/jabber/jabbergroupcontact.cpp:182
-#: protocols/jabber/jabbergroupmembercontact.cpp:194
+#: protocols/jabber/jabbergroupmembercontact.cpp:211
 #, kde-format
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:987
+#: protocols/jabber/jabbercontact.cpp:1004
 #, fuzzy, kde-format
 #| msgid ""
 #| "Do you also want to remove the authorization from user %1 to see your "
@@ -13894,7 +13948,7 @@ msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:1159
+#: protocols/jabber/jabbercontact.cpp:1176
 #, kde-format
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
@@ -13904,7 +13958,7 @@ msgstr ""
 "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源"
 "只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1163
+#: protocols/jabber/jabbercontact.cpp:1180
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
@@ -14789,26 +14843,25 @@ msgid "Co&nnection"
 msgstr "連線(&N)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbUseSSL)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:309
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:131
-msgid "Check this box to enable SSL encrypted communication with the server."
-msgstr "勾選這裡啟用和伺服器的 SSL 加密通訊。"
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseSSL)
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:309
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:312
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:131
 #: protocols/jabber/ui/dlgjabberregisteraccount.ui:134
+#, fuzzy
+#| msgid ""
+#| "Check this box to enable SSL encrypted communication with the server."
 msgid ""
-"Check this box to enable SSL encrypted communication with the server.  Note "
-"that this is not end-to-end encryption, but rather encrypted communication "
-"with the server."
-msgstr ""
-"勾選這裡啟用和伺服器的 SSL 加密通訊。 注意這不是用戶端至用戶端的加密，而是和"
-"伺服器的加密通訊。"
+"Check this box to enable legacy SSL encrypted communication with the server. "
+"This is needed only for old servers."
+msgstr "勾選這裡啟用和伺服器的 SSL 加密通訊。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseSSL)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:315
 #: protocols/jabber/ui/dlgjabberregisteraccount.ui:137
-msgid "Use protocol encr&yption (SSL)"
+#, fuzzy
+#| msgid "Use protocol encr&yption (SSL)"
+msgid "Use legacy SSL encr&yption"
 msgstr "使用通訊協定加密（SSL）(&Y)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbAllowPlainTextPassword)
@@ -14820,7 +14873,7 @@ msgstr "容許普通文本密碼認證(&X)"
 #. i18n: ectx: property (text), widget (QCheckBox, cbCustomServer)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:332
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:288
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:306
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:309
 #: protocols/qq/ui/qqeditaccountui.ui:329
 #: protocols/wlm/ui/wlmaccountpreferences.ui:279
 msgid "&Override default server information"
@@ -15557,16 +15610,16 @@ msgstr "無法取得伺服器清單。"
 msgid "Could not parse the server list."
 msgstr "無法解析伺服器清單。"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:276
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:278
 msgid ""
 "The changes you just made will take effect next time you log in with Jabber."
 msgstr "你所做的變更將在下次登入 Jabber 時生效。"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:277
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:279
 msgid "Jabber Changes During Online Jabber Session"
 msgstr "Jabber 在上線 Jabber 工作階段時更改"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:356
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:358
 msgid ""
 "The Jabber ID you have chosen is invalid. Please make sure it is in the form "
 "user@server.com, like an email address."
@@ -15574,17 +15627,17 @@ msgstr ""
 "你選擇的 Jabber ID 無效。請確定依照 user@server.com 的格式，它有點像電子信箱"
 "地址。"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:358
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:360
 msgid "Invalid Jabber ID"
 msgstr "無效的 Jabber ID"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:366
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:369
 msgid ""
 "Google Talk libjingle support is only for GTalk/Gmail account, which connect "
 "to server talk.google.com."
 msgstr ""
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:366
+#: protocols/jabber/ui/jabbereditaccountwidget.cpp:369
 #, fuzzy
 #| msgid "Invalid realm."
 msgid "Invalid Google Talk"
@@ -16342,14 +16395,14 @@ msgstr "字句選項"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:450
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:561
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:564
 #, fuzzy
 msgid "The ports to use for direct connections."
 msgstr "勾選此在此連線啟用 SSL"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:453
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:564
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:567
 msgid ""
 "The ports to use when listening for direct connections. These must not be "
 "blocked by a firewall or router."
@@ -16357,39 +16410,39 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:456
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:567
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:570
 #, fuzzy
 msgid "Po&rt range:"
 msgstr "連接埠(&R):"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbxFirstPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:466
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:577
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:580
 msgid "The start of the port range."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbxFirstPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:469
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:580
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:583
 #, fuzzy
 msgid "The start of the port range. Normally this is 5190."
 msgstr "你要連接的 AIM 伺服器連接埠。 通常是 5190 。"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbxLastPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:485
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:596
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:599
 msgid "The end of the port range."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbxLastPort)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:488
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:599
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:602
 msgid "The end of the port range. Normally this is 5199."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFileProxy)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:506
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:617
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:620
 msgid ""
 "Use AOL proxy server instead of direct connections. If you are behind a "
 "router that you do not control, you will probably want this."
@@ -16397,7 +16450,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkFileProxy)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:509
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:620
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:623
 msgid ""
 "Use the AOL proxy server for things that would normally need a direct "
 "connection, like file transfers. You will want this if there is a firewall "
@@ -16408,7 +16461,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFileProxy)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:512
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:623
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:626
 #, fuzzy
 msgid "&Use proxy instead"
 msgstr "用戶定義"
@@ -16417,8 +16470,8 @@ msgstr "用戶定義"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbxTimeout)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:536
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:552
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:638
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:654
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:641
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:657
 #, fuzzy
 msgid "Timeout for direct connections."
 msgstr "使用直接連線（DCC）(&U)"
@@ -16427,8 +16480,8 @@ msgstr "使用直接連線（DCC）(&U)"
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbxTimeout)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:539
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:555
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:641
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:657
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:644
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:660
 msgid ""
 "The number of seconds to wait for a connection to succeed before trying a "
 "different method."
@@ -16436,13 +16489,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblTimeout)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:542
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:644
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:647
 msgid "T&imeout (secs):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:596
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:689
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:692
 msgid "Default to the following &encoding for messages:"
 msgstr "訊息預設使用以下編碼(&E):"
 
@@ -16493,7 +16546,7 @@ msgstr "隱形"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:770
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:753
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:756
 #, fuzzy
 msgid "Always visible:"
 msgstr "必定對他隱形(&I)"
@@ -16503,16 +16556,16 @@ msgstr "必定對他隱形(&I)"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:791
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:870
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:760
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:838
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:892
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:763
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:841
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:895
 #, fuzzy
 msgid "Contact to add:"
 msgstr "聯絡人:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:836
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:831
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:834
 #, fuzzy
 msgid "Always invisible:"
 msgstr "必定對他隱形(&I)"
@@ -16638,10 +16691,6 @@ msgstr "豐富文本（RTF）訊息"
 #: protocols/oscar/icq/icqcontact.cpp:479 protocols/oscar/oscarcontact.cpp:256
 msgid "DirectIM/IMImage"
 msgstr "直接即時傳訊/即時傳訊影像"
-
-#: protocols/oscar/icq/icqcontact.cpp:481
-msgid "Groupchat"
-msgstr "群組聊天"
 
 #: protocols/oscar/icq/icqcontact.cpp:552
 msgid ""
@@ -18011,7 +18060,7 @@ msgstr "將我的狀態經 &ICQ 的統一傳訊中心分享出去"
 #. i18n: ectx: property (text), widget (QCheckBox, edtServerEncrypted)
 #. i18n: ectx: property (text), widget (QCheckBox, edtProxyServerEncrypted)
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:299
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:427
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:430
 #, fuzzy
 #| msgid "Use protocol encr&yption (SSL)"
 msgid "Use SSL encryption"
@@ -18019,18 +18068,22 @@ msgstr "使用通訊協定加密（SSL）(&Y)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblServer)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, edtServerAddress)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:340
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:378
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:343
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:381
 msgid "The IP address or hostmask of the ICQ server you wish to connect to."
 msgstr "你要連接的 ICQ 伺服器的 IP 位址或主機遮罩。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblServer)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtServerAddress)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:343
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:381
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:346
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:384
+#, fuzzy
+#| msgid ""
+#| "The IP address or hostmask of the ICQ server you wish to connect to.  "
+#| "Normally you will want the default (login.icq.com)."
 msgid ""
 "The IP address or hostmask of the ICQ server you wish to connect to.  "
-"Normally you will want the default (login.icq.com)."
+"Normally you will want the default (slogin.icq.com or login.icq.com)."
 msgstr ""
 "你要連接的 ICQ 伺服器的 IP 位址或主機遮罩。 通常使用預設即可（login.icq."
 "com）。"
@@ -18038,8 +18091,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelServer)
 #. i18n: ectx: property (text), widget (QLabel, lblServer)
 #. i18n: ectx: property (text), widget (QLabel, lblProxyServer)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:346
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:467
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:349
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:470
 #: protocols/qq/ui/qqeditaccountui.ui:376
 #: protocols/wlm/ui/wlmaccountpreferences.ui:309
 msgid "Ser&ver /"
@@ -18047,35 +18100,41 @@ msgstr "伺服器(&V) /"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblServerPort)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, edtServerPort)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:359
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:394
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:362
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:397
 msgid "The port on the ICQ server that you would like to connect to."
 msgstr "你要連接的 ICQ 伺服器連接埠。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblServerPort)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, edtServerPort)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:362
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:397
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:365
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:400
+#, fuzzy
+#| msgid ""
+#| "The port on the ICQ server that you would like to connect to.  Normally "
+#| "this is 5190."
 msgid ""
 "The port on the ICQ server that you would like to connect to.  Normally this "
-"is 5190."
+"is 443 or 5190."
 msgstr "你要連接的 ICQ 伺服器連接埠。 通常是 5190 。"
 
 #. i18n: ectx: property (text), widget (QLineEdit, edtServerAddress)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:384
-msgid "login.icq.com"
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:387
+#, fuzzy
+#| msgid "login.icq.com"
+msgid "slogin.icq.com"
 msgstr "login.icq.com"
 
 #. i18n: ectx: property (text), widget (QCheckBox, optionEnableProxy)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:415
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:418
 #: protocols/wlm/ui/wlmaccountpreferences.ui:380
 msgid "Enable Proxy"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblProxyServer)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, edtProxyServerAddress)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:461
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:499
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:464
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:502
 #, fuzzy
 #| msgid ""
 #| "The IP address or hostmask of the Yahoo server you wish to connect to."
@@ -18086,23 +18145,26 @@ msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblProxyServer)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtProxyServerAddress)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:464
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:502
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:467
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:505
+#, fuzzy
+#| msgid ""
+#| "The IP address or hostmask of the Yahoo server you wish to connect to."
 msgid ""
 "The IP address or hostmask of the proxy server you wish to use for "
 "connecting to an ICQ server. The proxy server must support a CONNECT command "
-"and allow connections to the ICQ server port (normally 5190)."
-msgstr ""
+"and allow connections to the ICQ server port (normally 443 or 5190)."
+msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblProxyServerPort)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, edtProxyServerPort)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:480
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:515
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:483
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:518
 msgid "The port that the proxy server listens to."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblProxyServerPort)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:483
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:486
 #, fuzzy
 #| msgid ""
 #| "The port on the AIM server that you would like to connect to.  Normally "
@@ -18113,27 +18175,27 @@ msgid ""
 msgstr "你要連接的 AIM 伺服器連接埠。 通常是 5190 。"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, edtProxyServerPort)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:518
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:521
 msgid ""
 "The port that the proxy server listens to. Normally this will be 3128, 8080, "
 "or 443 (https)."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:541
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:544
 #, fuzzy
 msgid "Peer Connection Options"
 msgstr "字句選項"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabVisible)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:738
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:741
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Visible"
 msgstr "隱形"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabInvisible)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:792
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:795
 #, fuzzy
 #| msgid "Invisible"
 msgctxt "@title:tab"
@@ -18141,7 +18203,7 @@ msgid "Invisible"
 msgstr "隱形"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabIgnore)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:846
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:849
 #, fuzzy
 #| msgid "Ignore"
 msgctxt "@title:tab"
@@ -18149,7 +18211,7 @@ msgid "Ignore"
 msgstr "忽略"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:885
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:888
 #, fuzzy
 msgid "Ignore:"
 msgstr "忽略"
@@ -18848,10 +18910,6 @@ msgstr "%1 帳號已在 %2 伺服器上被停用，因為你的年紀太小（13
 msgid "Buddy icons"
 msgstr "伙伴圖示"
 
-#: protocols/oscar/oscarcontact.cpp:250
-msgid "Rich text messages"
-msgstr "豐富文本（Rich text）訊息"
-
 #: protocols/oscar/oscarcontact.cpp:252
 msgid "Group chat"
 msgstr "群組聊天"
@@ -18863,10 +18921,6 @@ msgstr "話音聊天"
 #: protocols/oscar/oscarcontact.cpp:258
 msgid "Send buddy list"
 msgstr "傳送伙伴清單"
-
-#: protocols/oscar/oscarcontact.cpp:260
-msgid "File transfers"
-msgstr "檔案傳輸"
 
 #: protocols/oscar/oscarcontact.cpp:417
 #, kde-format
@@ -22446,6 +22500,17 @@ msgstr "額外屬性:"
 #, fuzzy
 msgid "Account Verification - Yahoo"
 msgstr "帳號偏好設定 - Yahoo"
+
+#~ msgid ""
+#~ "Check this box to enable SSL encrypted communication with the server.  "
+#~ "Note that this is not end-to-end encryption, but rather encrypted "
+#~ "communication with the server."
+#~ msgstr ""
+#~ "勾選這裡啟用和伺服器的 SSL 加密通訊。 注意這不是用戶端至用戶端的加密，而是"
+#~ "和伺服器的加密通訊。"
+
+#~ msgid "Use protocol encr&yption (SSL)"
+#~ msgstr "使用通訊協定加密（SSL）(&Y)"
 
 #~ msgid "(Unnamed Group)"
 #~ msgstr "(未命名群組)"
