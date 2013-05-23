@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: head\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 01:31+0000\n"
+"POT-Creation-Date: 2013-05-23 01:30+0000\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -172,11 +172,19 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KSnapshotPreview, lblImage)
 #: ksnapshotwidget.ui:33
+#, fuzzy
+#| msgid ""
+#| "This is a preview of the current snapshot.\n"
+#| "\n"
+#| "The image can be dragged to another application or document to copy the "
+#| "full screenshot there. Try it with the Konqueror file manager.\n"
+#| "\n"
+#| "You can also copy the image to the clipboard by pressing Ctrl+C."
 msgid ""
 "This is a preview of the current snapshot.\n"
 "\n"
 "The image can be dragged to another application or document to copy the full "
-"screenshot there. Try it with the Konqueror file manager.\n"
+"screenshot there. Try it with the file manager.\n"
 "\n"
 "You can also copy the image to the clipboard by pressing Ctrl+C."
 msgstr ""
@@ -204,16 +212,20 @@ msgid "Cap&ture mode:"
 msgstr "擷取模式(&T):"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:115
+#: ksnapshotwidget.ui:116
 msgid ""
 "<qt>Using this menu, you can select from the five following snapshot modes:\n"
 "<p>\n"
 "<b>Full Screen</b> - captures the entire desktop.<br/>\n"
 "<b>Window Under Cursor</b> - captures only the window (or menu) that is "
 "under the mouse cursor when the snapshot is taken.<br/>\n"
-"<b>Region</b> - captures only the region of the desktop that you specify. "
-"When taking a new snapshot in this mode you will be able to select any area "
-"of the screen by clicking and dragging the mouse.<br/>\n"
+"<b>Rectangular Region</b> - captures only the rectangular region of the "
+"desktop that you specify. When taking a new snapshot in this mode you will "
+"be able to select any area of the screen by clicking and dragging the mouse."
+"<br/>\n"
+"<b>Freehand Region</b> - captures arbitrary shapes that you specify. When "
+"taking a new snapshot in this mode you will be able to select any shape by "
+"dragging the mouse.<br/>\n"
 "<b>Section of Window</b> - captures only a section of the window. When "
 "taking a new snapshot in this mode you will be able to select any child "
 "window by moving the mouse over it.<br/>\n"
@@ -223,51 +235,51 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:119
+#: ksnapshotwidget.ui:120
 #, fuzzy
 #| msgid "Print Screenshot"
 msgid "Full Screen"
 msgstr "列印快照"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:124
+#: ksnapshotwidget.ui:125
 msgid "Window Under Cursor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:129
+#: ksnapshotwidget.ui:130
 msgid "Rectangular Region"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:134
+#: ksnapshotwidget.ui:135
 msgid "Freehand Region"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:139
+#: ksnapshotwidget.ui:140
 msgid "Section of Window"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
-#: ksnapshotwidget.ui:144
+#: ksnapshotwidget.ui:145
 #, fuzzy
 #| msgid "Print Screenshot"
 msgid "Current Screen"
 msgstr "列印快照"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDelay)
-#: ksnapshotwidget.ui:152
+#: ksnapshotwidget.ui:153
 msgid "Snapshot &delay:"
 msgstr "抓圖延遲(&D)："
 
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, spinDelay)
-#: ksnapshotwidget.ui:171
+#: ksnapshotwidget.ui:172
 msgid "Snapshot delay in seconds"
 msgstr "抓圖延遲時間 (秒)"
 
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, spinDelay)
-#: ksnapshotwidget.ui:181
+#: ksnapshotwidget.ui:182
 msgid ""
 "<qt><p>\n"
 "This is the number of seconds to wait after clicking the <i>New Snapshot</i> "
@@ -283,23 +295,23 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, spinDelay)
-#: ksnapshotwidget.ui:184
+#: ksnapshotwidget.ui:185
 msgid "No delay"
 msgstr "不延遲"
 
 #. i18n: ectx: property (text), widget (QLabel, lblIncludeDecorations)
-#: ksnapshotwidget.ui:194
+#: ksnapshotwidget.ui:195
 msgid "Include &window decorations:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIncludeDecorations)
-#: ksnapshotwidget.ui:207
+#: ksnapshotwidget.ui:208
 msgid ""
 "When enabled, snapshot of a window will also include the window decorations"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblIncludePointer)
-#: ksnapshotwidget.ui:220
+#: ksnapshotwidget.ui:221
 msgid "Include mouse &pointer:"
 msgstr ""
 
