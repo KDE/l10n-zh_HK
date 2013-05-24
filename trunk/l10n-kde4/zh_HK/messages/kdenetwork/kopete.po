@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 01:32+0000\n"
+"POT-Creation-Date: 2013-05-24 01:33+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5945,9 +5945,9 @@ msgid "File transfer %1 cancelled."
 msgstr "檔案傳輸取消。"
 
 #: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:100
-#: protocols/jabber/jabbercontact.cpp:1105
-#: protocols/jabber/jabbergroupcontact.cpp:328
-#: protocols/jabber/jabbergroupmembercontact.cpp:278
+#: protocols/jabber/jabbercontact.cpp:1120
+#: protocols/jabber/jabbergroupcontact.cpp:338
+#: protocols/jabber/jabbergroupmembercontact.cpp:284
 #: protocols/oscar/oscarcontact.cpp:363 protocols/qq/qqcontact.cpp:418
 #: protocols/wlm/wlmcontact.cpp:176
 msgid "Kopete File Transfer"
@@ -6829,7 +6829,7 @@ msgid "Configure Notifications..."
 msgstr "設定插件..."
 
 #: plugins/history/converter.cpp:42 protocols/jabber/jabberaccount.cpp:1186
-#: protocols/jabber/jabbercontact.cpp:1006
+#: protocols/jabber/jabbercontact.cpp:1021
 msgid "Keep"
 msgstr "保留"
 
@@ -11395,6 +11395,7 @@ msgid "%1|Blocked"
 msgstr "%1|已封鎖"
 
 #: protocols/groupwise/gwmessagemanager.cpp:77
+#: protocols/jabber/jabbergroupchatmanager.cpp:43
 #: protocols/qq/qqchatsession.cpp:67 protocols/skype/skypechatsession.cpp:125
 #: protocols/skype/skypechatsession.cpp:163
 #: protocols/wlm/wlmchatsession.cpp:123
@@ -13628,7 +13629,7 @@ msgstr ""
 "要刪除該聯絡人嗎？"
 
 #: protocols/jabber/jabberaccount.cpp:1186
-#: protocols/jabber/jabbercontact.cpp:1005
+#: protocols/jabber/jabbercontact.cpp:1020
 msgid "Notification"
 msgstr "通知"
 
@@ -13933,14 +13934,14 @@ msgstr "由於聯絡人離線，訊息儲存在伺服器上。"
 msgid "%1 has ended his/her participation in the chat session."
 msgstr "%1 已拒絕加入此對話的邀請。"
 
-#: protocols/jabber/jabbercontact.cpp:417
+#: protocols/jabber/jabbercontact.cpp:421
 #: protocols/jabber/jabbergroupcontact.cpp:182
 #: protocols/jabber/jabbergroupmembercontact.cpp:211
 #, kde-format
 msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
 msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 
-#: protocols/jabber/jabbercontact.cpp:1004
+#: protocols/jabber/jabbercontact.cpp:1019
 #, fuzzy, kde-format
 #| msgid ""
 #| "Do you also want to remove the authorization from user %1 to see your "
@@ -13948,7 +13949,7 @@ msgstr "你的訊息無法傳送：「%1」，原因：「%2」"
 msgid "Do you also want to remove user %1's authorization to see your status?"
 msgstr "要移除 %1 用戶看到你狀態的授權嗎？"
 
-#: protocols/jabber/jabbercontact.cpp:1176
+#: protocols/jabber/jabbercontact.cpp:1191
 #, kde-format
 msgid ""
 "You have preselected a resource for contact %1, but you still have open chat "
@@ -13958,11 +13959,11 @@ msgstr ""
 "你已預先選取聯絡人 %1 的資源，但你仍有開啟此聯絡人的聊天視窗。預先選取的資源"
 "只套用於新開啟的聊天視窗。"
 
-#: protocols/jabber/jabbercontact.cpp:1180
+#: protocols/jabber/jabbercontact.cpp:1195
 msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
-#: protocols/jabber/jabbergroupchatmanager.cpp:149
+#: protocols/jabber/jabbergroupchatmanager.cpp:179
 #: protocols/jabber/jabberprotocol.cpp:509
 #, fuzzy, kde-format
 msgid "You have been invited to %1"
@@ -13973,12 +13974,12 @@ msgstr "你已經斷線了"
 msgid "Change nickname"
 msgstr "你的暱稱:"
 
-#: protocols/jabber/jabbergroupcontact.cpp:392
+#: protocols/jabber/jabbergroupcontact.cpp:402
 #, fuzzy
 msgid "Change nickname - Jabber Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/jabber/jabbergroupcontact.cpp:393
+#: protocols/jabber/jabbergroupcontact.cpp:403
 #, fuzzy, kde-format
 msgid "Please enter the new nickname you want to have in the room <i>%1</i>"
 msgstr "請輸入這個過濾器的新名字:"
