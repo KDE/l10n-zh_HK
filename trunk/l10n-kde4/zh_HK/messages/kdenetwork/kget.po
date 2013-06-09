@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-07 01:35+0000\n"
+"POT-Creation-Date: 2013-06-09 01:37+0000\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -474,6 +474,8 @@ msgstr "速度"
 
 #: core/datasourcefactory.cpp:279 core/datasourcefactory.cpp:624
 #: core/kget.cpp:1393 transfer-plugins/metalink/metalink.cpp:202
+#: transfer-plugins/metalink/metalinkhttp.cpp:224
+#: transfer-plugins/metalink/metalinkxml.cpp:199
 #: ui/metalinkcreator/metalinkcreator.cpp:161
 #: ui/metalinkcreator/metalinkcreator.cpp:178
 msgid "Error"
@@ -699,7 +701,8 @@ msgid "You are already downloading the same file"
 msgstr ""
 
 #: core/kget.cpp:1123 core/kget.cpp:1126 core/urlchecker.cpp:648
-#: core/urlchecker.cpp:744 transfer-plugins/metalink/metalink.cpp:720
+#: core/urlchecker.cpp:744 transfer-plugins/metalink/abstractmetalink.cpp:483
+#: transfer-plugins/metalink/metalink.cpp:720
 #, fuzzy
 msgid "File already exists"
 msgstr ""
@@ -1487,7 +1490,7 @@ msgstr "KDE 先進的下載管理員"
 
 #: main.cpp:108
 msgid ""
-"(C) 2005 - 2011, The KGet developers\n"
+"(C) 2005 - 2012, The KGet developers\n"
 "(C) 2001 - 2002, Patrick Charbonnier\n"
 "(C) 2002, Carsten Pfeiffer\n"
 "(C) 1998 - 2000, Matej Koss"
@@ -1538,66 +1541,74 @@ msgid "Developer"
 msgstr ""
 
 #: main.cpp:120
-msgid "Ernesto Rodriguez Ortiz"
+msgid "Aish Raj Dahal"
 msgstr ""
 
 #: main.cpp:120
-msgid "Mms Plugin Author"
+msgid "Google Summer of Code Student"
 msgstr ""
 
 #: main.cpp:121
-msgid "Patrick Charbonnier"
+msgid "Ernesto Rodriguez Ortiz"
 msgstr ""
 
-#: main.cpp:121 main.cpp:122 main.cpp:123
-msgid "Former Developer"
+#: main.cpp:121
+msgid "Mms Plugin Author"
 msgstr ""
 
 #: main.cpp:122
-msgid "Carsten Pfeiffer"
+msgid "Patrick Charbonnier"
+msgstr ""
+
+#: main.cpp:122 main.cpp:123 main.cpp:124
+msgid "Former Developer"
 msgstr ""
 
 #: main.cpp:123
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:124
 msgid "Matej Koss"
 msgstr ""
 
-#: main.cpp:124
+#: main.cpp:125
 msgid "Joris Guisson"
 msgstr ""
 
-#: main.cpp:124
+#: main.cpp:125
 msgid "BTCore (KTorrent) Developer"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:126
 msgid "Mensur Zahirovic (Nookie)"
 msgstr ""
 
-#: main.cpp:125
+#: main.cpp:126
 msgid "Design of Web Interface"
 msgstr ""
 
-#: main.cpp:130
-msgid "Start KGet with drop target"
-msgstr "使用拖放目標模式啟動 KGet"
-
 #: main.cpp:131
-#, fuzzy
-#| msgid "Start KGet with drop target"
-msgid "Start KGet with hidden main window"
+msgid "Start KGet with drop target"
 msgstr "使用拖放目標模式啟動 KGet"
 
 #: main.cpp:132
 #, fuzzy
 #| msgid "Start KGet with drop target"
+msgid "Start KGet with hidden main window"
+msgstr "使用拖放目標模式啟動 KGet"
+
+#: main.cpp:133
+#, fuzzy
+#| msgid "Start KGet with drop target"
 msgid "Start KGet without drop target animation"
 msgstr "使用拖放目標模式啟動 KGet"
 
-#: main.cpp:134
+#: main.cpp:135
 msgid "Execute Unit Testing"
 msgstr ""
 
-#: main.cpp:136
+#: main.cpp:137
 #, fuzzy
 msgid "URL(s) to download"
 msgstr "用以下載的 URL"
@@ -3123,6 +3134,13 @@ msgstr ""
 msgid "Verification failed."
 msgstr ""
 
+#: transfer-plugins/metalink/abstractmetalink.cpp:219
+#: transfer-plugins/metalink/metalink.cpp:493
+msgid ""
+"The download could not be verified, do you want to repair (if repairing does "
+"not work the download would be restarted) it?"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: transfer-plugins/metalink/dlgmetalink.ui:22
 #, fuzzy
@@ -3159,29 +3177,32 @@ msgid "File Selection"
 msgstr "正在排程"
 
 #: transfer-plugins/metalink/metalink.cpp:83
+#: transfer-plugins/metalink/metalinkxml.cpp:79
 #, fuzzy
 msgid "Downloading Metalink File...."
 msgstr "下載已續傳"
 
 #: transfer-plugins/metalink/metalink.cpp:117
+#: transfer-plugins/metalink/metalinkxml.cpp:113
 msgid ""
 "A newer version of this Metalink might exist, do you want to download it?"
 msgstr ""
 
 #: transfer-plugins/metalink/metalink.cpp:118
+#: transfer-plugins/metalink/metalinkxml.cpp:114
 #, fuzzy
 #| msgid "Download finished"
 msgid "Redownload Metalink"
 msgstr "完成下載"
 
 #: transfer-plugins/metalink/metalink.cpp:202
+#: transfer-plugins/metalink/metalinkhttp.cpp:224
+#: transfer-plugins/metalink/metalinkxml.cpp:199
 msgid "Download failed, no working URLs were found."
 msgstr ""
 
-#: transfer-plugins/metalink/metalink.cpp:493
-msgid ""
-"The download could not be verified, do you want to repair (if repairing does "
-"not work the download would be restarted) it?"
+#: transfer-plugins/metalink/metalinkhttp.cpp:143
+msgid "The download could not be verified, try to repair it?"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, engineNameLabel)
