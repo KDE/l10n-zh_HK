@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-08 01:35+0000\n"
+"POT-Creation-Date: 2013-06-10 01:36+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2144,7 +2144,7 @@ msgstr ""
 #: kopete/config/behavior/behaviorconfig_general.ui:122
 #: kopete/config/status/statusconfig_manager.cpp:68
 #: kopete/kopetewindow.cpp:395 libkopete/kopeteaccountmanager.cpp:168
-#: libkopete/kopeteidentity.cpp:167 libkopete/kopetemetacontact.cpp:502
+#: libkopete/kopeteidentity.cpp:170 libkopete/kopetemetacontact.cpp:502
 #: libkopete/kopeteonlinestatus.cpp:170 libkopete/kopetestatusmanager.cpp:302
 #: plugins/statistics/statisticscontact.cpp:271
 #: plugins/statistics/statisticsdialog.cpp:386
@@ -4919,7 +4919,7 @@ msgstr "建立聯絡人時發生錯誤"
 msgid "%2 <%1>"
 msgstr "%2 <%1>"
 
-#: libkopete/kopeteaccount.cpp:485 protocols/gadu/gaduaccount.cpp:387
+#: libkopete/kopeteaccount.cpp:485 protocols/gadu/gaduaccount.cpp:388
 #: protocols/skype/skypeaccount.cpp:968 protocols/winpopup/wpaccount.cpp:187
 #, fuzzy
 msgid "Properties"
@@ -5743,7 +5743,7 @@ msgstr "不在你的聯絡人清單"
 msgid "Offline Users"
 msgstr "顯示離線聯絡人(&U)"
 
-#: libkopete/kopeteidentity.cpp:161
+#: libkopete/kopeteidentity.cpp:164
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -5759,7 +5759,7 @@ msgstr ""
 "<br/>\n"
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: libkopete/kopeteidentity.cpp:169
+#: libkopete/kopeteidentity.cpp:172
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -6101,8 +6101,8 @@ msgstr "檢視"
 
 #: libkopete/private/kopeteviewmanager.cpp:418
 #: protocols/wlm/wlmaccount.cpp:1162 protocols/wlm/wlmaccount.cpp:1181
-#: protocols/yahoo/yahooaccount.cpp:1186 protocols/yahoo/yahooaccount.cpp:1632
-#: protocols/yahoo/yahooaccount.cpp:1843
+#: protocols/yahoo/yahooaccount.cpp:1187 protocols/yahoo/yahooaccount.cpp:1633
+#: protocols/yahoo/yahooaccount.cpp:1844
 #, fuzzy
 msgctxt "@action"
 msgid "Close"
@@ -6424,7 +6424,7 @@ msgid "Un&block Contact"
 msgstr "解封聯絡人(&B)"
 
 #: libkopete/ui/metacontactselectorwidget.cpp:216
-#: protocols/gadu/gaduaccount.cpp:369
+#: protocols/gadu/gaduaccount.cpp:370
 msgid "Contacts"
 msgstr "聯絡人"
 
@@ -6735,11 +6735,11 @@ msgstr "備註(&N)"
 msgid "-New filter-"
 msgstr "－新的過濾器－"
 
-#: plugins/highlight/highlightpreferences.cpp:198
+#: plugins/highlight/highlightpreferences.cpp:199
 msgid "Rename Filter"
 msgstr "重新命名過濾器"
 
-#: plugins/highlight/highlightpreferences.cpp:198
+#: plugins/highlight/highlightpreferences.cpp:199
 msgid "Please enter the new name for the filter:"
 msgstr "請輸入這個過濾器的新名字:"
 
@@ -8529,12 +8529,12 @@ msgstr ""
 msgid "A message from %1 was dropped, because it contained blacklisted words."
 msgstr ""
 
-#: plugins/privacy/privacypreferences.cpp:164
+#: plugins/privacy/privacypreferences.cpp:165
 #, fuzzy
 msgid "Add Contact to Whitelist"
 msgstr "新增聯絡人到伺服器清單"
 
-#: plugins/privacy/privacypreferences.cpp:190
+#: plugins/privacy/privacypreferences.cpp:191
 #, fuzzy
 msgid "Add Contact to Blacklist"
 msgstr "新增聯絡人到伺服器清單"
@@ -9801,128 +9801,128 @@ msgstr "離開(&A)"
 msgid "O&ffline"
 msgstr "離線(&F)"
 
-#: protocols/gadu/gaduaccount.cpp:203
+#: protocols/gadu/gaduaccount.cpp:204
 msgid "&Search for Friends"
 msgstr "搜尋朋友(&S)"
 
-#: protocols/gadu/gaduaccount.cpp:206
+#: protocols/gadu/gaduaccount.cpp:207
 msgid "Export Contacts to Server"
 msgstr "將聯絡人匯出至伺服器"
 
-#: protocols/gadu/gaduaccount.cpp:210
+#: protocols/gadu/gaduaccount.cpp:211
 #, fuzzy
 #| msgid "Export Contacts to Server"
 msgid "Import Contacts from Server"
 msgstr "將聯絡人匯出至伺服器"
 
-#: protocols/gadu/gaduaccount.cpp:214
+#: protocols/gadu/gaduaccount.cpp:215
 #, fuzzy
 #| msgid "Export Contacts to Server"
 msgid "Delete Contacts from Server"
 msgstr "將聯絡人匯出至伺服器"
 
-#: protocols/gadu/gaduaccount.cpp:218
+#: protocols/gadu/gaduaccount.cpp:219
 msgid "Export Contacts to File..."
 msgstr "將聯絡人匯出至檔案..."
 
-#: protocols/gadu/gaduaccount.cpp:222
+#: protocols/gadu/gaduaccount.cpp:223
 #, fuzzy
 #| msgid "Import Contacts From File..."
 msgid "Import Contacts from File..."
 msgstr "從檔案匯入聯絡人..."
 
-#: protocols/gadu/gaduaccount.cpp:226
+#: protocols/gadu/gaduaccount.cpp:227
 msgid "Only for Friends"
 msgstr "只讓朋友連接"
 
-#: protocols/gadu/gaduaccount.cpp:288
+#: protocols/gadu/gaduaccount.cpp:289
 #, kde-format
 msgid "%1 <%2> "
 msgstr "%1 <%2> "
 
-#: protocols/gadu/gaduaccount.cpp:329
+#: protocols/gadu/gaduaccount.cpp:330
 msgid "Go O&nline"
 msgstr "上線(&N)"
 
-#: protocols/gadu/gaduaccount.cpp:336
+#: protocols/gadu/gaduaccount.cpp:337
 msgid "Set &Busy"
 msgstr "設為忙碌(&B)"
 
-#: protocols/gadu/gaduaccount.cpp:343
+#: protocols/gadu/gaduaccount.cpp:344
 msgid "Set &Invisible"
 msgstr "設為隱形(&I)"
 
-#: protocols/gadu/gaduaccount.cpp:350
+#: protocols/gadu/gaduaccount.cpp:351
 msgid "Go &Offline"
 msgstr "離線(&O)"
 
-#: protocols/gadu/gaduaccount.cpp:355
+#: protocols/gadu/gaduaccount.cpp:356
 msgid "Set &Description..."
 msgstr "設定說明(&D)..."
 
-#: protocols/gadu/gaduaccount.cpp:379
+#: protocols/gadu/gaduaccount.cpp:380
 #, fuzzy
 #| msgid "Export Contacts to Server"
 msgid "Export Contacts on change"
 msgstr "將聯絡人匯出至伺服器"
 
-#: protocols/gadu/gaduaccount.cpp:775
+#: protocols/gadu/gaduaccount.cpp:776
 msgid "connection using SSL was not possible, retrying without."
 msgstr "不能使用 SSL 連線，試著不要使用。"
 
-#: protocols/gadu/gaduaccount.cpp:803
+#: protocols/gadu/gaduaccount.cpp:804
 #, kde-format
 msgid "unable to connect to the Gadu-Gadu server(\"%1\")."
 msgstr "無法連接 Gadu-Gadu 伺服器（「%1」）。"
 
-#: protocols/gadu/gaduaccount.cpp:804 protocols/gadu/gaducommands.cpp:326
+#: protocols/gadu/gaduaccount.cpp:805 protocols/gadu/gaducommands.cpp:326
 #: protocols/gadu/gaducommands.cpp:334 protocols/gadu/gaducommands.cpp:382
 msgid "Connection Error"
 msgstr "連線錯誤"
 
-#: protocols/gadu/gaduaccount.cpp:942
+#: protocols/gadu/gaduaccount.cpp:943
 #, fuzzy
 #| msgid "Import Contacts From File..."
 msgid "Imported contacts list is empty."
 msgstr "從檔案匯入聯絡人..."
 
-#: protocols/gadu/gaduaccount.cpp:989
+#: protocols/gadu/gaduaccount.cpp:990
 #, fuzzy
 #| msgid "Contact Notes"
 msgid "Contacts imported."
 msgstr "聯絡人備註"
 
-#: protocols/gadu/gaduaccount.cpp:998
+#: protocols/gadu/gaduaccount.cpp:999
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts exported."
 msgstr "聯絡人已匯出至伺服器。"
 
-#: protocols/gadu/gaduaccount.cpp:1004
+#: protocols/gadu/gaduaccount.cpp:1005
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts deleted from the server."
 msgstr "聯絡人已匯出至伺服器。"
 
-#: protocols/gadu/gaduaccount.cpp:1041
+#: protocols/gadu/gaduaccount.cpp:1042
 #, kde-format
 msgid "Save Contacts List for Account %1 As"
 msgstr "將帳號 %1 的聯絡人清單儲存為"
 
-#: protocols/gadu/gaduaccount.cpp:1049
+#: protocols/gadu/gaduaccount.cpp:1050
 msgid "Unable to create temporary file."
 msgstr "無法建立暫存檔。"
 
-#: protocols/gadu/gaduaccount.cpp:1049 protocols/gadu/gaduaccount.cpp:1063
+#: protocols/gadu/gaduaccount.cpp:1050 protocols/gadu/gaduaccount.cpp:1064
 msgid "Save Contacts List Failed"
 msgstr "儲存聯絡人清單失敗"
 
-#: protocols/gadu/gaduaccount.cpp:1087
+#: protocols/gadu/gaduaccount.cpp:1088
 #, kde-format
 msgid "Load Contacts List for Account %1 As"
 msgstr "將帳號 %1 的聯絡人清單載入為"
 
-#: protocols/gadu/gaduaccount.cpp:1107 protocols/gadu/gaduaccount.cpp:1113
+#: protocols/gadu/gaduaccount.cpp:1108 protocols/gadu/gaduaccount.cpp:1114
 msgid "Contacts List Load Has Failed"
 msgstr "聯絡人清單載入失敗"
 
@@ -10194,12 +10194,12 @@ msgid "Please enter a valid E-Mail Address."
 msgstr "請輸入有效的電子郵地址。"
 
 #: protocols/gadu/gaduregisteraccount.cpp:108
-#: protocols/jabber/ui/jabberregisteraccount.cpp:158
+#: protocols/jabber/ui/jabberregisteraccount.cpp:163
 msgid "Please enter the same password twice."
 msgstr "請輸入同一密碼兩次。"
 
 #: protocols/gadu/gaduregisteraccount.cpp:115
-#: protocols/jabber/ui/jabberregisteraccount.cpp:165
+#: protocols/jabber/ui/jabberregisteraccount.cpp:170
 msgid "Password entries do not match."
 msgstr "兩個密碼不同。"
 
@@ -11108,7 +11108,7 @@ msgid "&Manage Privacy..."
 msgstr "管理隱私(&M)..."
 
 #: protocols/groupwise/gwaccount.cpp:255
-#: protocols/jabber/ui/jabberregisteraccount.cpp:271
+#: protocols/jabber/ui/jabberregisteraccount.cpp:294
 #, kde-format
 msgid ""
 "SSL support could not be initialized for account %1. This is most likely "
@@ -13330,7 +13330,7 @@ msgid "XML Console"
 msgstr ""
 
 #: protocols/jabber/jabberaccount.cpp:251
-#: protocols/oscar/aim/aimaccount.cpp:241
+#: protocols/oscar/aim/aimaccount.cpp:243
 #: protocols/oscar/icq/icqaccount.cpp:138
 msgid "Edit User Info..."
 msgstr "編輯用戶資訊..."
@@ -13365,7 +13365,7 @@ msgstr ""
 "無法初始化帳號 %1 的 SSL 支援。最有可能是因為你的系統上沒安裝 QCA TLS 插件。"
 
 #: protocols/jabber/jabberaccount.cpp:456
-#: protocols/jabber/ui/jabberregisteraccount.cpp:273
+#: protocols/jabber/ui/jabberregisteraccount.cpp:296
 msgid "Jabber SSL Error"
 msgstr "Jabber SSL 錯誤"
 
@@ -14835,8 +14835,8 @@ msgstr "連線(&N)"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseSSL)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:309
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:312
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:131
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:134
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:267
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:270
 #, fuzzy
 #| msgid ""
 #| "Check this box to enable SSL encrypted communication with the server."
@@ -14847,7 +14847,7 @@ msgstr "勾選這裡啟用和伺服器的 SSL 加密通訊。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseSSL)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:315
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:137
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:273
 #, fuzzy
 #| msgid "Use protocol encr&yption (SSL)"
 msgid "Use legacy SSL encr&yption"
@@ -14860,7 +14860,9 @@ msgstr "容許普通文本密碼認證(&X)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, optionOverrideServer)
 #. i18n: ectx: property (text), widget (QCheckBox, cbCustomServer)
+#. i18n: ectx: property (text), widget (QCheckBox, cbOverrideHost)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:332
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:289
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:288
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:309
 #: protocols/qq/ui/qqeditaccountui.ui:329
@@ -15213,39 +15215,41 @@ msgstr ""
 "原因：「%1」"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgJabberRegisterAccount)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:19
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:20
 msgid "Register Account - Jabber"
 msgstr "註冊帳號 - Jabber"
 
-#. i18n: ectx: property (text), widget (QLabel, lblJID)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:43
-msgid "Desired Jabber &ID:"
-msgstr "想要的 Jabber &ID:"
-
 #. i18n: ectx: property (text), widget (KPushButton, btnChooseServer)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:93
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:47
 msgid "C&hoose..."
 msgstr "選擇(&H)..."
 
+#. i18n: ectx: property (text), widget (QLabel, lblJID)
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:127
+msgid "Desired Jabber &ID:"
+msgstr "想要的 Jabber &ID:"
+
 #. i18n: ectx: property (text), widget (QLabel, lblPassword)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:102
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:137
 msgid "Pass&word:"
 msgstr "密碼(&W):"
 
-#. i18n: ectx: property (text), widget (QLabel, lblPort)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:163
-msgid "&Port:"
-msgstr "連接埠(&P):"
-
 #. i18n: ectx: property (text), widget (QLabel, lblPasswordVerify)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:176
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:173
 msgid "&Repeat password:"
 msgstr "重覆密碼(&R):"
 
+#. i18n: ectx: property (text), widget (QLabel, lblPort)
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:222
+msgid "&Port:"
+msgstr "連接埠(&P):"
+
 #. i18n: ectx: property (text), widget (QLabel, lblServer)
-#: protocols/jabber/ui/dlgjabberregisteraccount.ui:209
-msgid "Jabber &server:"
-msgstr "Jabber 伺服器(&S):"
+#: protocols/jabber/ui/dlgjabberregisteraccount.ui:251
+#, fuzzy
+#| msgid "Server:"
+msgid "&Server:"
+msgstr "伺服器:"
 
 #: protocols/jabber/ui/dlgjabberservices.cpp:46
 #, fuzzy
@@ -15636,15 +15640,19 @@ msgstr "無效領域。"
 msgid "Register New Jabber Account"
 msgstr "註冊新的 Jabber 帳號"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:134
-msgid "Please enter a server name, or click Choose."
-msgstr "請輸入伺服器名稱，或是按一下選擇。"
+#: protocols/jabber/ui/jabberregisteraccount.cpp:144
+#, fuzzy
+#| msgid "Please enter your away reason:"
+msgid "Please enter a server name."
+msgstr "請輸入你的離開理由:"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:145
-msgid "Please enter a valid Jabber ID."
+#: protocols/jabber/ui/jabberregisteraccount.cpp:150
+#, fuzzy
+#| msgid "Please enter a valid Jabber ID."
+msgid "Please enter a valid Jabber ID or click Choose."
 msgstr "請輸入有效的 Jabber ID 。"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:197
+#: protocols/jabber/ui/jabberregisteraccount.cpp:202
 #, kde-format
 msgid ""
 "Unless you know what you are doing, your JID should be of the form "
@@ -15653,27 +15661,27 @@ msgstr ""
 "除非你知道在自己在做什麼，不然你的 JID 的格式應該是「用戶名稱@server.com」。"
 "以你的情況舉例就是「用戶名稱@%1」。"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:252
+#: protocols/jabber/ui/jabberregisteraccount.cpp:270
 msgid "Connecting to server..."
 msgstr "正在連線到伺服器..."
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:320
+#: protocols/jabber/ui/jabberregisteraccount.cpp:343
 msgid "Protocol error."
 msgstr "通訊協定錯誤"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:333
+#: protocols/jabber/ui/jabberregisteraccount.cpp:356
 msgid "Connected successfully, registering new account..."
 msgstr "已成功連線，正在註冊新帳號..."
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:348
+#: protocols/jabber/ui/jabberregisteraccount.cpp:371
 msgid "Registration successful."
 msgstr "註冊成功。"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:382
+#: protocols/jabber/ui/jabberregisteraccount.cpp:407
 msgid "Registration failed."
 msgstr "註冊失敗。"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:384
+#: protocols/jabber/ui/jabberregisteraccount.cpp:409
 #, fuzzy
 #| msgid ""
 #| "Unable to create account on the server. The Jabber ID is probably already "
@@ -15683,7 +15691,7 @@ msgid ""
 "in use."
 msgstr "無法在伺服器上建立帳號。該 Jabber ID 可能已經有人使用了。"
 
-#: protocols/jabber/ui/jabberregisteraccount.cpp:385
+#: protocols/jabber/ui/jabberregisteraccount.cpp:410
 msgid "Jabber Account Registration"
 msgstr "Jabber 帳號註冊"
 
@@ -16069,7 +16077,7 @@ msgstr "將伺服器及連接埠值回復至預設值。"
 msgid "Restore &Defaults"
 msgstr "細節(&D)"
 
-#: protocols/oscar/aim/aimaccount.cpp:223
+#: protocols/oscar/aim/aimaccount.cpp:225
 msgid ""
 "Visit the Kopete website at <a href=\"http://kopete.kde.org\">http://kopete."
 "kde.org</a>"
@@ -16077,30 +16085,30 @@ msgstr ""
 "請參觀 Kopete 的網站: <a href=\"http://kopete.kde.org\">http://kopete.kde."
 "org</a>"
 
-#: protocols/oscar/aim/aimaccount.cpp:238
+#: protocols/oscar/aim/aimaccount.cpp:240
 #, fuzzy
 msgid "Join Chat..."
 msgstr "加入頻道..."
 
-#: protocols/oscar/aim/aimaccount.cpp:244
+#: protocols/oscar/aim/aimaccount.cpp:246
 #: protocols/oscar/icq/icqaccount.cpp:141
 msgid "In&visible"
 msgstr "隱形(&V)"
 
-#: protocols/oscar/aim/aimaccount.cpp:386
+#: protocols/oscar/aim/aimaccount.cpp:388
 msgid "Editing your user info is not possible because you are not connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimaccount.cpp:388
+#: protocols/oscar/aim/aimaccount.cpp:390
 #, fuzzy
 msgid "Unable to edit user info"
 msgstr "無法取得搜尋表格。"
 
-#: protocols/oscar/aim/aimaccount.cpp:409
+#: protocols/oscar/aim/aimaccount.cpp:412
 msgid "Joining an AIM chat room is not possible because you are not connected."
 msgstr ""
 
-#: protocols/oscar/aim/aimaccount.cpp:411
+#: protocols/oscar/aim/aimaccount.cpp:414
 #, fuzzy
 msgid "Unable to Join AIM Chat Room"
 msgstr "加入 AIM 聊天室"
@@ -16219,7 +16227,7 @@ msgstr "手提電話:"
 
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/icqprotocol.cpp:121
-#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:325
+#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:326
 #: protocols/oscar/oscaraccount.cpp:1238 protocols/yahoo/yahooprotocol.cpp:76
 msgid "ICQ"
 msgstr "ICQ"
@@ -18205,7 +18213,7 @@ msgstr "忽略"
 msgid "Ignore:"
 msgstr "忽略"
 
-#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:325
+#: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:326
 #, fuzzy
 msgid "<qt>You must enter a valid ICQ No.</qt>"
 msgstr "<qt>你必須輸入有效的密碼。</qt>"
@@ -21330,7 +21338,7 @@ msgstr ""
 msgid "I am on &the contact list of this contact"
 msgstr "我在這個聯絡人的聯絡人清單上(&T)"
 
-#: protocols/wlm/wlmaccount.cpp:76 protocols/yahoo/yahooaccount.cpp:90
+#: protocols/wlm/wlmaccount.cpp:76 protocols/yahoo/yahooaccount.cpp:91
 msgid "Open Inbo&x..."
 msgstr "開啟收件匣(&X)..."
 
@@ -22047,23 +22055,23 @@ msgid "1 viewer"
 msgid_plural "%1 viewers"
 msgstr[0] ""
 
-#: protocols/yahoo/yahooaccount.cpp:93
+#: protocols/yahoo/yahooaccount.cpp:94
 #, fuzzy
 #| msgid "Open &Addressbook..."
 msgid "Open &Address book..."
 msgstr "開啟通訊錄(&A)..."
 
-#: protocols/yahoo/yahooaccount.cpp:96
+#: protocols/yahoo/yahooaccount.cpp:97
 #, fuzzy
 msgid "&Edit my contact details..."
 msgstr "編輯聯絡人屬性"
 
-#: protocols/yahoo/yahooaccount.cpp:99
+#: protocols/yahoo/yahooaccount.cpp:100
 #, fuzzy
 msgid "&Join chat room..."
 msgstr "加入頻道..."
 
-#: protocols/yahoo/yahooaccount.cpp:738
+#: protocols/yahoo/yahooaccount.cpp:739
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not log into Yahoo service: your account has been locked.\n"
@@ -22075,18 +22083,18 @@ msgstr ""
 "無法登入 Yahoo 服務：你的帳號已被銷定。\n"
 "到訪 %1 將之重新啟動。"
 
-#: protocols/yahoo/yahooaccount.cpp:747
+#: protocols/yahoo/yahooaccount.cpp:748
 msgid ""
 "Could not log into the Yahoo service: the username specified was invalid."
 msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
 
-#: protocols/yahoo/yahooaccount.cpp:756
+#: protocols/yahoo/yahooaccount.cpp:757
 msgid ""
 "You have been logged out of the Yahoo service, possibly due to a duplicate "
 "login."
 msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
 
-#: protocols/yahoo/yahooaccount.cpp:774
+#: protocols/yahoo/yahooaccount.cpp:775
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not log into the Yahoo service: the username specified was invalid."
@@ -22096,7 +22104,7 @@ msgid ""
 "numid></message>."
 msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
 
-#: protocols/yahoo/yahooaccount.cpp:794
+#: protocols/yahoo/yahooaccount.cpp:795
 #, kde-format
 msgid ""
 "%1 has been disconnected.\n"
@@ -22104,7 +22112,7 @@ msgid ""
 "%2 - %3"
 msgstr ""
 
-#: protocols/yahoo/yahooaccount.cpp:810
+#: protocols/yahoo/yahooaccount.cpp:811
 #, fuzzy, kde-format
 msgid ""
 "There was an error while connecting %1 to the Yahoo server.\n"
@@ -22114,7 +22122,7 @@ msgstr ""
 "連接 MSN 伺服器時發生錯誤。\n"
 "錯誤訊息:\n"
 
-#: protocols/yahoo/yahooaccount.cpp:821 protocols/yahoo/yahooaccount.cpp:824
+#: protocols/yahoo/yahooaccount.cpp:822 protocols/yahoo/yahooaccount.cpp:825
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -22122,21 +22130,21 @@ msgid ""
 "Reason: %2"
 msgstr "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:822 protocols/yahoo/yahooaccount.cpp:825
-#: protocols/yahoo/yahooaccount.cpp:1451 protocols/yahoo/yahooaccount.cpp:1640
-#: protocols/yahoo/yahooaccount.cpp:1738 protocols/yahoo/yahooaccount.cpp:1753
+#: protocols/yahoo/yahooaccount.cpp:823 protocols/yahoo/yahooaccount.cpp:826
+#: protocols/yahoo/yahooaccount.cpp:1452 protocols/yahoo/yahooaccount.cpp:1641
+#: protocols/yahoo/yahooaccount.cpp:1739 protocols/yahoo/yahooaccount.cpp:1754
 #: protocols/yahoo/yahooeditaccount.cpp:171
 msgid "Yahoo Plugin"
 msgstr "Yahoo 插件"
 
-#: protocols/yahoo/yahooaccount.cpp:884
+#: protocols/yahoo/yahooaccount.cpp:885
 #, fuzzy, kde-format
 msgid "User %1 has granted your authorization request."
 msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:900
+#: protocols/yahoo/yahooaccount.cpp:901
 #, fuzzy, kde-format
 msgid ""
 "User %1 has rejected your authorization request.\n"
@@ -22145,13 +22153,13 @@ msgstr ""
 "用戶 %1 已允許你的授權要求。\n"
 "理由: %2"
 
-#: protocols/yahoo/yahooaccount.cpp:1144
+#: protocols/yahoo/yahooaccount.cpp:1145
 #, fuzzy
 msgctxt "This string is shown when the user is buzzed by a contact"
 msgid "Buzz"
 msgstr "嗶！！"
 
-#: protocols/yahoo/yahooaccount.cpp:1185
+#: protocols/yahoo/yahooaccount.cpp:1186
 #, fuzzy, kde-format
 msgid ""
 "%1 has invited you to join a conference with %2.\n"
@@ -22161,20 +22169,20 @@ msgid ""
 "Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1186 protocols/yahoo/yahooaccount.cpp:1632
-#: protocols/yahoo/yahooaccount.cpp:1843
+#: protocols/yahoo/yahooaccount.cpp:1187 protocols/yahoo/yahooaccount.cpp:1633
+#: protocols/yahoo/yahooaccount.cpp:1844
 #, fuzzy
 #| msgid "Accept"
 msgctxt "@action"
 msgid "Accept"
 msgstr "接受"
 
-#: protocols/yahoo/yahooaccount.cpp:1278
+#: protocols/yahoo/yahooaccount.cpp:1279
 #, fuzzy, kde-format
 msgid "%1 has declined to join the conference: \"%2\""
 msgstr "%1 已被邀請加入此對話。"
 
-#: protocols/yahoo/yahooaccount.cpp:1593
+#: protocols/yahoo/yahooaccount.cpp:1594
 #, fuzzy, kde-format
 #| msgid "You have one unread message in your Yahoo inbox."
 #| msgid_plural "You have %1 unread messages in your Yahoo inbox."
@@ -22182,23 +22190,23 @@ msgid "You have one unread message in your Yahoo inbox."
 msgid_plural "You have %1 unread messages in your Yahoo inbox."
 msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1602
+#: protocols/yahoo/yahooaccount.cpp:1603
 #, fuzzy, kde-format
 #| msgid "You have a message from %1 in your Yahoo inbox."
 msgid "%1 has a message from %2 in your Yahoo inbox. <br><br>Subject: %3"
 msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
 
-#: protocols/yahoo/yahooaccount.cpp:1631
+#: protocols/yahoo/yahooaccount.cpp:1632
 #, kde-format
 msgid "%1 has invited you to view his/her webcam. Accept?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1640
+#: protocols/yahoo/yahooaccount.cpp:1641
 #, fuzzy, kde-format
 msgid "Webcam for %1 is not available."
 msgstr "網絡不能用"
 
-#: protocols/yahoo/yahooaccount.cpp:1738
+#: protocols/yahoo/yahooaccount.cpp:1739
 #: protocols/yahoo/yahooeditaccount.cpp:171
 #, fuzzy
 #| msgid ""
@@ -22209,16 +22217,16 @@ msgid ""
 "buddy icon.</qt>"
 msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
 
-#: protocols/yahoo/yahooaccount.cpp:1753
+#: protocols/yahoo/yahooaccount.cpp:1754
 msgid "An error occurred when trying to change the display picture."
 msgstr "嘗試更改顯示圖片時發生錯誤。"
 
-#: protocols/yahoo/yahooaccount.cpp:1842
+#: protocols/yahoo/yahooaccount.cpp:1843
 #, fuzzy, kde-format
 msgid "%1 wants to view your webcam. Grant access?"
 msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
 
-#: protocols/yahoo/yahooaccount.cpp:1980
+#: protocols/yahoo/yahooaccount.cpp:1981
 #, fuzzy, kde-format
 msgid "You are now in %1 (%2)"
 msgstr "你現在被標示為 %1 。"
@@ -22246,7 +22254,7 @@ msgid "Request Webcam"
 msgstr "要求使用網絡攝影機"
 
 #: protocols/yahoo/yahoochatsession.cpp:74
-#: protocols/yahoo/yahoocontact.cpp:415
+#: protocols/yahoo/yahoocontact.cpp:416
 msgid "Invite to view your Webcam"
 msgstr ""
 
@@ -22259,37 +22267,37 @@ msgstr "Yahoo 顯示圖片"
 msgid "&Invite others"
 msgstr "邀請(&I)"
 
-#: protocols/yahoo/yahoocontact.cpp:120
+#: protocols/yahoo/yahoocontact.cpp:121
 #, kde-format
 msgid "%1|Stealthed"
 msgstr ""
 
-#: protocols/yahoo/yahoocontact.cpp:403
+#: protocols/yahoo/yahoocontact.cpp:404
 msgid "View &Webcam"
 msgstr "觀看網絡攝影機(&W)"
 
-#: protocols/yahoo/yahoocontact.cpp:427
+#: protocols/yahoo/yahoocontact.cpp:428
 msgid "&Buzz Contact"
 msgstr "向聯絡人發出嗶聲(&B)"
 
-#: protocols/yahoo/yahoocontact.cpp:439
+#: protocols/yahoo/yahoocontact.cpp:440
 msgid "&Stealth Setting"
 msgstr "隱形設置(&S)"
 
-#: protocols/yahoo/yahoocontact.cpp:451
+#: protocols/yahoo/yahoocontact.cpp:452
 #, fuzzy
 msgid "&Invite to Conference"
 msgstr "邀請作對話"
 
-#: protocols/yahoo/yahoocontact.cpp:463
+#: protocols/yahoo/yahoocontact.cpp:464
 msgid "&View Yahoo Profile"
 msgstr "檢視 Yahoo 資料檔(&V)"
 
-#: protocols/yahoo/yahoocontact.cpp:515
+#: protocols/yahoo/yahoocontact.cpp:516
 msgid "Stealth Setting"
 msgstr "隱形設置"
 
-#: protocols/yahoo/yahoocontact.cpp:576
+#: protocols/yahoo/yahoocontact.cpp:577
 #, fuzzy
 msgid "Buzz"
 msgstr "嗶！！"
@@ -22487,6 +22495,12 @@ msgstr "額外屬性:"
 #, fuzzy
 msgid "Account Verification - Yahoo"
 msgstr "帳號偏好設定 - Yahoo"
+
+#~ msgid "Jabber &server:"
+#~ msgstr "Jabber 伺服器(&S):"
+
+#~ msgid "Please enter a server name, or click Choose."
+#~ msgstr "請輸入伺服器名稱，或是按一下選擇。"
 
 #, fuzzy
 #~| msgid "Chat History"
