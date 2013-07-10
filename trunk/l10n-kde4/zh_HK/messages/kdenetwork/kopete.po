@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-22 01:37+0000\n"
+"POT-Creation-Date: 2013-07-10 07:42+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -170,41 +170,41 @@ msgstr "如勾選這個，當你按下<i>完成</i>時將立刻連接該帳號�
 msgid "Co&nnect now"
 msgstr "現在就連線(&N)"
 
-#: kopete/chatwindow/chatmessagepart.cpp:282
+#: kopete/chatwindow/chatmessagepart.cpp:277
 #: plugins/history/historydialog.cpp:170
 #: plugins/history2/history2dialog.cpp:175
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
-#: kopete/chatwindow/chatmessagepart.cpp:318
+#: kopete/chatwindow/chatmessagepart.cpp:313
 msgid "Save Conversation"
 msgstr "儲存對話"
 
-#: kopete/chatwindow/chatmessagepart.cpp:368
+#: kopete/chatwindow/chatmessagepart.cpp:363
 #, kde-format
 msgid "<qt>Could not open <b>%1</b> for writing.</qt>"
 msgstr "<qt>無法開啟 <b>%1</b> 以寫入。</qt>"
 
-#: kopete/chatwindow/chatmessagepart.cpp:369
+#: kopete/chatwindow/chatmessagepart.cpp:364
 msgid "Error While Saving"
 msgstr "儲存時發生錯誤"
 
-#: kopete/chatwindow/chatmessagepart.cpp:814
+#: kopete/chatwindow/chatmessagepart.cpp:797
 msgid "User Has Left"
 msgstr "使用者已經離開"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1396
+#: kopete/chatwindow/chatmessagepart.cpp:1380
 #, fuzzy
 #| msgid "The signature is invalid."
 msgid "Chat style could not be found, or is invalid."
 msgstr "簽署無效"
 
-#: kopete/chatwindow/chatmessagepart.cpp:1453
+#: kopete/chatwindow/chatmessagepart.cpp:1437
 #, fuzzy
 msgid "Save File as"
 msgstr "傳送檔案(&F)..."
 
-#: kopete/chatwindow/chatmessagepart.cpp:1453
+#: kopete/chatwindow/chatmessagepart.cpp:1437
 msgid "Wav file (*.wav)"
 msgstr ""
 
@@ -625,52 +625,38 @@ msgstr "這是高亮度訊息"
 #. i18n: ectx: label, entry, group (Appearance)
 #: kopete/chatwindow/kopetechatwindowsettings.kcfg:61
 #: libkopete/kopeteappearancesettings.kcfg:47
-msgid "Disable custom text color set by users."
-msgstr ""
-
-#. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:66
-#: libkopete/kopeteappearancesettings.kcfg:52
-#, fuzzy
-#| msgid "Change the background color to:"
-msgid "Disable custom background color set by users."
-msgstr "將背景顏色改成:"
-
-#. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:71
-#: libkopete/kopeteappearancesettings.kcfg:57
 #, fuzzy
 #| msgid "Disable &Rich Text"
-msgid "Disable rich text set by users."
+msgid "Disable custom formatting set by users."
 msgstr "停用豐富文本（&Rich Text）"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:78
-#: libkopete/kopeteappearancesettings.kcfg:64
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:68
+#: libkopete/kopeteappearancesettings.kcfg:54
 #, fuzzy
 #| msgid "Set Text &Color..."
 msgid "Chat text color."
 msgstr "設定文字顏色(&C)..."
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:83
-#: libkopete/kopeteappearancesettings.kcfg:69
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:73
+#: libkopete/kopeteappearancesettings.kcfg:59
 #, fuzzy
 #| msgid "Change the background color to:"
 msgid "Chat background color."
 msgstr "將背景顏色改成:"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:88
-#: libkopete/kopeteappearancesettings.kcfg:74
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:78
+#: libkopete/kopeteappearancesettings.kcfg:64
 #, fuzzy
 #| msgid "Link color:"
 msgid "Chat link color."
 msgstr "連結顏色:"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: kopete/chatwindow/kopetechatwindowsettings.kcfg:93
-#: libkopete/kopeteappearancesettings.kcfg:84
+#: kopete/chatwindow/kopetechatwindowsettings.kcfg:83
+#: libkopete/kopeteappearancesettings.kcfg:74
 #, fuzzy
 #| msgid "Host not found."
 msgid "Chat font."
@@ -1219,7 +1205,7 @@ msgstr "小字型:"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: kopete/config/appearance/appearanceconfig_colors.ui:78
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:89
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:92
 #: plugins/texteffect/texteffectprefs.ui:63
 msgid "Colors"
 msgstr "顏色"
@@ -2243,71 +2229,71 @@ msgstr "樣式"
 msgid "&Emoticons"
 msgstr "表情符號(&E)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:352
+#: kopete/config/chatwindow/chatwindowconfig.cpp:351
 msgid "(No Variant)"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:409
+#: kopete/config/chatwindow/chatwindowconfig.cpp:408
 #, fuzzy
 msgid "Choose Chat Window Style to Install"
 msgstr "從互聯網取得新的聊天視窗樣式"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:420
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
 msgid ""
 "The specified archive cannot be opened.\n"
 "Make sure that the archive is a valid ZIP or TAR archive."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:420
+#: kopete/config/chatwindow/chatwindowconfig.cpp:419
 msgid "Cannot Open Archive"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:425
+#: kopete/config/chatwindow/chatwindowconfig.cpp:424
 #, fuzzy
 msgid "Could not find a suitable place to install the chat window style."
 msgstr "找不到安裝表情符號的合適地方。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:425
+#: kopete/config/chatwindow/chatwindowconfig.cpp:424
 #, fuzzy
 msgid "Cannot Find Styles Directory"
 msgstr "建立目錄"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:429
+#: kopete/config/chatwindow/chatwindowconfig.cpp:428
 msgid "The specified archive does not contain a valid chat window style."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:429
+#: kopete/config/chatwindow/chatwindowconfig.cpp:428
 msgid "Invalid Style"
 msgstr "無效的樣式"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:433
+#: kopete/config/chatwindow/chatwindowconfig.cpp:432
 #, fuzzy
 msgid "The chat window style was successfully installed."
 msgstr "檔案已成功傳送。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:433
+#: kopete/config/chatwindow/chatwindowconfig.cpp:432
 #, fuzzy
 msgid "Install Successful"
 msgstr "註冊成功。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:439
+#: kopete/config/chatwindow/chatwindowconfig.cpp:438
 #, fuzzy
 msgid ""
 "An unknown error occurred while trying to install the chat window style."
 msgstr "嘗試驗證證書時發生未知錯誤。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:439
+#: kopete/config/chatwindow/chatwindowconfig.cpp:438
 #, fuzzy
 msgid "Unknown Error"
 msgstr "未知錯誤。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:474
+#: kopete/config/chatwindow/chatwindowconfig.cpp:473
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "The Chat Window Style <resource>%1</resource> was successfully deleted."
 msgstr "檔案已成功傳送。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:479
+#: kopete/config/chatwindow/chatwindowconfig.cpp:478
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2315,13 +2301,13 @@ msgid ""
 "Window Style. Your account might not have permission to remove it."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:512
+#: kopete/config/chatwindow/chatwindowconfig.cpp:511
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Chat Window Style <resource>%1</resource> installation"
 msgstr "檔案已成功傳送。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:517
+#: kopete/config/chatwindow/chatwindowconfig.cpp:516
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2329,7 +2315,7 @@ msgid ""
 "Make sure that the archive is a valid ZIP or TAR archive."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:522
+#: kopete/config/chatwindow/chatwindowconfig.cpp:521
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -2337,7 +2323,7 @@ msgid ""
 "%1</resource>."
 msgstr "找不到安裝表情符號的合適地方。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:526
+#: kopete/config/chatwindow/chatwindowconfig.cpp:525
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2345,7 +2331,7 @@ msgid ""
 "Window Style."
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:536
+#: kopete/config/chatwindow/chatwindowconfig.cpp:535
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -2353,122 +2339,122 @@ msgid ""
 "<resource>%1</resource>."
 msgstr "嘗試驗證證書時發生未知錯誤。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:545
+#: kopete/config/chatwindow/chatwindowconfig.cpp:544
 #, fuzzy, kde-format
 msgid "One Chat Window Style package has been installed."
 msgid_plural "%1 Chat Window Style packages have been installed."
 msgstr[0] "檔案已成功傳送。"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:557
+#: kopete/config/chatwindow/chatwindowconfig.cpp:556
 msgctxt "This is the myself preview contact id"
 msgid "myself@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:558
+#: kopete/config/chatwindow/chatwindowconfig.cpp:557
 msgctxt "This is the myself preview contact nickname"
 msgid "Myself"
 msgstr ""
 
 # 菜市場名XD
-#: kopete/config/chatwindow/chatwindowconfig.cpp:562
+#: kopete/config/chatwindow/chatwindowconfig.cpp:561
 msgid "Jack"
 msgstr "雅婷"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:565
+#: kopete/config/chatwindow/chatwindowconfig.cpp:564
 msgctxt "This is the other preview contact id"
 msgid "jack@preview"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:566
+#: kopete/config/chatwindow/chatwindowconfig.cpp:565
 msgctxt "This is the other preview contact nickname"
 msgid "Jack"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:574
+#: kopete/config/chatwindow/chatwindowconfig.cpp:573
 #, fuzzy
 #| msgid "Preview:"
 msgctxt "preview of a chat session"
 msgid "Preview Session"
 msgstr "預覽:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:580
+#: kopete/config/chatwindow/chatwindowconfig.cpp:579
 msgid "Hello, this is an incoming message :-)"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:584
+#: kopete/config/chatwindow/chatwindowconfig.cpp:583
 #, fuzzy
 msgid "Hello, this is an incoming consecutive message."
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:588
+#: kopete/config/chatwindow/chatwindowconfig.cpp:587
 msgid "Ok, this is an outgoing message"
 msgstr "嗯，這是個外送訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:592
+#: kopete/config/chatwindow/chatwindowconfig.cpp:591
 #, fuzzy
 msgid "Ok, an outgoing consecutive message."
 msgstr "嗯，這是個外送訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:596
+#: kopete/config/chatwindow/chatwindowconfig.cpp:595
 #, fuzzy
 #| msgid "Message has been displayed"
 msgid "Message that is being sent."
 msgstr "訊息已經顯示了"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:601
+#: kopete/config/chatwindow/chatwindowconfig.cpp:600
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Delivered message."
 msgstr "伺服器訊息:"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:606
+#: kopete/config/chatwindow/chatwindowconfig.cpp:605
 #, fuzzy
 #| msgid "Message has been delivered"
 msgid "Message that cannot be delivered."
 msgstr "訊息已經傳送了"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:611
+#: kopete/config/chatwindow/chatwindowconfig.cpp:610
 #, fuzzy
 #| msgid "Here is an incoming colored message"
 msgid "Here is an incoming colored message."
 msgstr "這是彩色新進訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:617
+#: kopete/config/chatwindow/chatwindowconfig.cpp:616
 msgid "This is an internal message"
 msgstr "這是內部訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:621
+#: kopete/config/chatwindow/chatwindowconfig.cpp:620
 msgid "performed an action"
 msgstr "執行某個行動"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:626
+#: kopete/config/chatwindow/chatwindowconfig.cpp:625
 msgid "This is a highlighted message"
 msgstr "這是高亮度訊息"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:631
+#: kopete/config/chatwindow/chatwindowconfig.cpp:630
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is an incoming file transfer request"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:638
+#: kopete/config/chatwindow/chatwindowconfig.cpp:637
 #, fuzzy
 #| msgid "Hello, this is an incoming message :-)"
 msgid "Hello, this is a disabled incoming file transfer request"
 msgstr "嗨，這是個新進訊息 :-)"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:647
+#: kopete/config/chatwindow/chatwindowconfig.cpp:646
 msgctxt ""
 "This special UTF-8 string is to test if the style supports Right-to-Left "
 "language display."
 msgid "הודעות טקסט"
 msgstr ""
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:651
+#: kopete/config/chatwindow/chatwindowconfig.cpp:650
 msgid "Bye"
 msgstr "Bye"
 
-#: kopete/config/chatwindow/chatwindowconfig.cpp:730
+#: kopete/config/chatwindow/chatwindowconfig.cpp:729
 #, fuzzy
 #| msgid "Installing Emoticon Themes..."
 msgid "Configure Emoticon Themes"
@@ -2483,10 +2469,8 @@ msgstr "字型(&F)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel3_2)
 #. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_chatFont)
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel3)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:30
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:73
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:99
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:76
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -2504,109 +2488,135 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:33
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:102
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:104
 #, fuzzy
 #| msgid "Base font:"
 msgid "Base &font:"
 msgstr "基本字型:"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton)
 #: kopete/config/chatwindow/chatwindowconfig_colors.ui:43
+msgid "Use normal screen font"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:46
 #, fuzzy
 #| msgid "Use custom &icons"
 msgid "Use system font"
 msgstr "使用自訂圖示(&I)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:50
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:53
 #, fuzzy
 #| msgid "Use custom &icons"
 msgid "Use custom font:"
 msgstr "使用自訂圖示(&I)"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatTextColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:112
-#, fuzzy
-#| msgid "Enable events for acti&ve chat windows"
-msgid "Base font color for the chat window"
-msgstr "在當前聊天視窗中啟用事件(&V)"
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatTextColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:98
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:101
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:114
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:117
+msgid "The color of normal text"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:122
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:127
 #, fuzzy
 #| msgid "Highlight foreground:"
 msgid "&Highlight foreground:"
 msgstr "加強顯示前景:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_highlightForegroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:132
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_highlightForegroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:137
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:140
 #, fuzzy
 #| msgid "This is a highlighted message"
 msgid "Foreground color for highlighted messages"
 msgstr "這是高亮度訊息"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:142
-#, fuzzy
-#| msgid "Background color:"
-msgid "&Background color:"
-msgstr "背景顏色:"
-
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel2_2)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2_2)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatBackgroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:152
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatBackgroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:150
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:153
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:166
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:169
 #, fuzzy
 #| msgid "Color of history messages in the chat window"
 msgid "Color for the background of the chat window"
 msgstr "聊天視窗中歷程記錄訊息的顏色"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:169
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:156
 #, fuzzy
-#| msgid "Highlight background:"
-msgid "Highlight bac&kground:"
-msgstr "加強顯示背景:"
+#| msgid "Background color:"
+msgid "&Background color:"
+msgstr "背景顏色:"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_highlightBackgroundColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:179
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_highlightBackgroundColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:186
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:189
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:202
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:205
 #, fuzzy
 #| msgid "This is a highlighted message"
 msgid "Background color for highlighted messages"
 msgstr "這是高亮度訊息"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:192
+#, fuzzy
+#| msgid "Highlight background:"
+msgid "Highlight bac&kground:"
+msgstr "加強顯示背景:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatLinkColor)
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_chatLinkColor)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:215
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:218
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:231
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:234
+msgid "Color used for links in chats"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:189
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:221
 #, fuzzy
 #| msgid "Link color:"
 msgid "&Link color:"
 msgstr "連結顏色:"
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_chatLinkColor)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:199
-msgid "Color used for links in chats"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:219
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:254
 msgid "Formatting Overrides"
 msgstr "覆蓋格式"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatBgOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:225
-#, fuzzy
-#| msgid "Do not show user specified &background color"
-msgid "Do not show user specified back&ground color"
-msgstr "不要顯示用戶指定的背景顏色(&B)"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_chatFmtOverride)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_chatFmtOverride)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:260
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:263
+msgid ""
+"Disregard the colors (background and foreground), and font (size and "
+"typeface) of incoming messages"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatFgOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:232
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatFmtOverride)
+#: kopete/config/chatwindow/chatwindowconfig_colors.ui:266
 #, fuzzy
-msgid "&Do not show user specified foreground color"
-msgstr "不要顯示用戶指定的前景顏色(&F)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_chatRtfOverride)
-#: kopete/config/chatwindow/chatwindowconfig_colors.ui:239
-msgid "Do not show user specified &rich text"
-msgstr "不要顯示用戶指定的豐富文本（Rich Text）(&R)"
+msgid "Ignore peer's formatting"
+msgstr "喜好資訊"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useEmoticons)
 #: kopete/config/chatwindow/chatwindowconfig_emoticons.ui:22
@@ -4976,175 +4986,175 @@ msgid "Enable emoticon support in Kopete."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:79
+#: libkopete/kopeteappearancesettings.kcfg:69
 #, fuzzy
 #| msgid "Enable events for acti&ve chat windows"
 msgid "Whether using the system font for the chat window."
 msgstr "在當前聊天視窗中啟用事件(&V)"
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:91
+#: libkopete/kopeteappearancesettings.kcfg:81
 msgid "Color used to identify idle contacts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:96
+#: libkopete/kopeteappearancesettings.kcfg:86
 msgid "Whether to use a different color for idle contacts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Appearance)
-#: libkopete/kopeteappearancesettings.kcfg:103
+#: libkopete/kopeteappearancesettings.kcfg:93
 msgid "Contact properties that contact tooltip will show."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:111
-#: libkopete/kopeteappearancesettings.kcfg:120
+#: libkopete/kopeteappearancesettings.kcfg:101
+#: libkopete/kopeteappearancesettings.kcfg:110
 #, fuzzy
 #| msgid "Contact Encoding"
 msgid "Contact list group sorting"
 msgstr "聯絡人編碼"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:130
+#: libkopete/kopeteappearancesettings.kcfg:120
 msgid ""
 "Contact list icon display mode. Either the protocol icon or the contact "
 "photo."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:139
+#: libkopete/kopeteappearancesettings.kcfg:129
 #, fuzzy
 msgid "Enable borders on the contact's photo."
 msgstr "下載顯示圖像失敗"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:144
+#: libkopete/kopeteappearancesettings.kcfg:134
 #, fuzzy
 #| msgid "Buddy icons"
 msgid "Round contact photo corners."
 msgstr "伙伴圖示"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:149
+#: libkopete/kopeteappearancesettings.kcfg:139
 #, fuzzy
 msgid "Show contact list as a tree view."
 msgstr "無法連接伺服器"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:154
+#: libkopete/kopeteappearancesettings.kcfg:144
 msgid "Indent contacts if you do not show tree lines."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:159
+#: libkopete/kopeteappearancesettings.kcfg:149
 #, fuzzy
 #| msgid "&Hide vertical scrollbar"
 msgid "Hide the vertical scroll bar."
 msgstr "隱藏垂直捲軸(&H)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:164
+#: libkopete/kopeteappearancesettings.kcfg:154
 #, fuzzy
 #| msgid "Arrange metacontacts by &group"
 msgid "Group contacts by group."
 msgstr "依群組排列超聯絡人(&G)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:169
+#: libkopete/kopeteappearancesettings.kcfg:159
 #, fuzzy
 msgid "Use custom fonts for contact list."
 msgstr "聯絡人清單項目使用自訂字型"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:174
+#: libkopete/kopeteappearancesettings.kcfg:164
 #, fuzzy
 msgid "Automatically resize the main window."
 msgstr "自動"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:179
+#: libkopete/kopeteappearancesettings.kcfg:169
 msgid "Corner at which to anchor main window when auto-resizing."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:197
+#: libkopete/kopeteappearancesettings.kcfg:187
 #, fuzzy
 #| msgid "Not in your contact list"
 msgid "Normal font for contact list"
 msgstr "不在你的聯絡人清單"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:202
+#: libkopete/kopeteappearancesettings.kcfg:192
 #, fuzzy
 msgid "Small font for contact list (for status message)"
 msgstr "聯絡人清單項目使用自訂字型"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:207
+#: libkopete/kopeteappearancesettings.kcfg:197
 msgid "Color for group name."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:212
+#: libkopete/kopeteappearancesettings.kcfg:202
 #, fuzzy
 msgid "Animate contact list on contact list changes."
 msgstr "聯絡人清單項目有更改時使用動畫(&A)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:217
+#: libkopete/kopeteappearancesettings.kcfg:207
 #, fuzzy
 msgid "Fade-in/Fade-out on contact status changes."
 msgstr "無法開啟檔案寫入"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:222
+#: libkopete/kopeteappearancesettings.kcfg:212
 #, fuzzy
 msgid "Fold-in/Fold-out on contact status changes."
 msgstr "無法開啟檔案寫入"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:227
+#: libkopete/kopeteappearancesettings.kcfg:217
 #, fuzzy
 #| msgid "A&uto-hide contact list"
 msgid "Auto-hide contact list after a while."
 msgstr "自動隱藏聯絡人清單(&U)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:232
+#: libkopete/kopeteappearancesettings.kcfg:222
 #, fuzzy
 #| msgid "Auto-hide vertical &scrollbar"
 msgid "Auto-hide vertical scrollbar in contact list after a while."
 msgstr "自動隱藏垂直捲軸(&S)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:237
+#: libkopete/kopeteappearancesettings.kcfg:227
 #, fuzzy
 #| msgid "A&uto-hide contact list"
 msgid "Auto-hide timeout"
 msgstr "自動隱藏聯絡人清單(&U)"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:244
+#: libkopete/kopeteappearancesettings.kcfg:234
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show offline users in contact list."
 msgstr "顯示或隱藏聯絡人清單"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:249
+#: libkopete/kopeteappearancesettings.kcfg:239
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show empty groups in contact list."
 msgstr "顯示或隱藏聯絡人清單"
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:254
+#: libkopete/kopeteappearancesettings.kcfg:244
 msgid "Show identities in status bar instead of accounts."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (ContactList)
-#: libkopete/kopeteappearancesettings.kcfg:258
+#: libkopete/kopeteappearancesettings.kcfg:248
 #, fuzzy
 #| msgid "Show or hide the contact list"
 msgid "Show offline users in a separate group."
@@ -7372,7 +7382,7 @@ msgstr "沒有 Latex 方程式"
 msgid "<b>Preview of the LaTeX message :</b> <br />%1"
 msgstr "<b>latex 訊息的預覽 :</b> <br />%1"
 
-#: plugins/latex/latexplugin.cpp:96
+#: plugins/latex/latexplugin.cpp:95
 #, fuzzy
 #| msgid ""
 #| "I cannot find the Magick convert program.\n"
@@ -22495,6 +22505,28 @@ msgstr "額外屬性:"
 #, fuzzy
 msgid "Account Verification - Yahoo"
 msgstr "帳號偏好設定 - Yahoo"
+
+#, fuzzy
+#~| msgid "Change the background color to:"
+#~ msgid "Disable custom background color set by users."
+#~ msgstr "將背景顏色改成:"
+
+#, fuzzy
+#~| msgid "Enable events for acti&ve chat windows"
+#~ msgid "Base font color for the chat window"
+#~ msgstr "在當前聊天視窗中啟用事件(&V)"
+
+#, fuzzy
+#~| msgid "Do not show user specified &background color"
+#~ msgid "Do not show user specified back&ground color"
+#~ msgstr "不要顯示用戶指定的背景顏色(&B)"
+
+#, fuzzy
+#~ msgid "&Do not show user specified foreground color"
+#~ msgstr "不要顯示用戶指定的前景顏色(&F)"
+
+#~ msgid "Do not show user specified &rich text"
+#~ msgstr "不要顯示用戶指定的豐富文本（Rich Text）(&R)"
 
 #~ msgid "Jabber &server:"
 #~ msgstr "Jabber 伺服器(&S):"
