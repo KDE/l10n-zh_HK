@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-10 07:42+0000\n"
+"POT-Creation-Date: 2013-07-17 01:42+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -3603,7 +3603,8 @@ msgstr "職銜(&T)"
 #. i18n: ectx: property (text), widget (QPushButton, m_btnEdit)
 #. i18n: ectx: property (text), widget (QPushButton, m_edit)
 #: kopete/kopeteui.rc:17 plugins/autoreplace/autoreplaceprefs.ui:137
-#: plugins/contactnotes/contactnotesui.rc:5 plugins/history/historyui.rc:5
+#: plugins/contactnotes/contactnotesui.rc:5
+#: plugins/cryptography/cryptographyui.rc:5 plugins/history/historyui.rc:5
 #: plugins/history2/history2ui.rc:5 plugins/otr/otrui.rc:5
 #: plugins/statistics/statisticsui.rc:5 plugins/translator/translatorui.rc:5
 #: protocols/groupwise/ui/gwcustomstatus.ui:44 protocols/skype/skypeui.rc:5
@@ -6741,6 +6742,296 @@ msgstr "%1 的備註:"
 msgid "&Notes"
 msgstr "備註(&N)"
 
+#. i18n: ectx: Menu (tools)
+#: plugins/cryptography/cryptographychatui.rc:5
+#: plugins/history/historychatui.rc:5 plugins/history2/history2chatui.rc:5
+#: plugins/latex/latexchatui.rc:5 plugins/nowlistening/nowlisteningchatui.rc:5
+#: plugins/otr/otrchatui.rc:4 plugins/translator/translatorchatui.rc:5
+#: protocols/skype/skypechatui.rc:5
+#, fuzzy
+msgid "&Tools"
+msgstr "顏色(&C)"
+
+#. i18n: ectx: ToolBar (cryptographyToolBar)
+#: plugins/cryptography/cryptographychatui.rc:12
+#, fuzzy
+#| msgid "Cryptography"
+msgid "Cryptography Toolbar"
+msgstr "加密學"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:56
+msgid "Cryptography"
+msgstr "加密學"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:81
+#, fuzzy
+#| msgid "Encrypt Messages"
+msgctxt "@action toggle action"
+msgid "Encrypt Messages"
+msgstr "將訊息加密"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:83
+#, fuzzy
+#| msgid "&Send Message"
+msgctxt "@action toggle action"
+msgid "Sign Messages"
+msgstr "傳送訊息(&S)"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:85
+#, fuzzy
+#| msgid "Export Contacts to Address Book"
+msgctxt "@action toggle action"
+msgid "Export Contacts' Keys to Address Book"
+msgstr "匯出聯絡人到通訊錄"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:109
+msgctxt "@info"
+msgid ""
+"You have not selected a private key for yourself, so signing is not "
+"possible. Please select a private key in the Cryptography preferences dialog."
+msgstr ""
+
+#: plugins/cryptography/cryptographyguiclient.cpp:110
+#, fuzzy
+#| msgid "Private Key List"
+msgid "No Private Key"
+msgstr "私人密碼匙清單"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:164
+msgctxt "@info"
+msgid ""
+"This protocol may not work with messages that are encrypted. This is because "
+"encrypted messages are very long, and the server or peer may reject them due "
+"to their length. To avoid being signed off or your account being warned or "
+"temporarily suspended, turn off encryption."
+msgstr ""
+
+#: plugins/cryptography/cryptographyguiclient.cpp:165
+#, fuzzy
+#| msgid "Unsupported protocol version."
+msgid "Cryptography Unsupported Protocol"
+msgstr "不支援的協定版本。"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:172
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"You need to select a public key for %2 to send encrypted messages to that "
+"contact."
+msgid_plural ""
+"You need to select a public key for the following meta-contacts to send "
+"encrypted messages to them:\n"
+"%2"
+msgstr[0] "聊天視窗中歷程記錄訊息的顏色"
+
+#: plugins/cryptography/cryptographyguiclient.cpp:174
+msgid "Missing public key"
+msgid_plural "Missing public keys"
+msgstr[0] ""
+
+#: plugins/cryptography/cryptographyplugin.cpp:92
+#, fuzzy
+#| msgid "Select Public Key"
+msgctxt "@action"
+msgid "&Select Public Key..."
+msgstr "選取公共密碼匙"
+
+#: plugins/cryptography/cryptographyplugin.cpp:98
+#, fuzzy
+#| msgid "Export to Address Book"
+msgctxt "@action"
+msgid "&Export Public Keys To Address Book..."
+msgstr "匯出到通訊錄"
+
+#: plugins/cryptography/cryptographyplugin.cpp:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This protocol %1 may not work with messages that are encrypted. This is "
+"because encrypted messages are very long, and the server or peer may reject "
+"them due to their length. To avoid being signed off or your account being "
+"warned or temporarily suspended, turn off encryption."
+msgstr ""
+
+#: plugins/cryptography/cryptographyplugin.cpp:383
+#, fuzzy, kde-format
+#| msgid "Unsupported protocol version."
+msgid "Cryptography Unsupported Protocol %1"
+msgstr "不支援的協定版本。"
+
+#: plugins/cryptography/cryptographyplugin.cpp:419
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Cryptography plugin has found an encryption key for %1 (%2) in your KDE "
+"address book. Do you want to use key %3 as this contact's public key? "
+msgstr ""
+
+#: plugins/cryptography/cryptographyplugin.cpp:420
+#, fuzzy
+#| msgid "Select Public Key"
+msgid "Public Key Found"
+msgstr "選取公共密碼匙"
+
+#: plugins/cryptography/cryptographyplugin.cpp:431
+#, fuzzy
+#| msgid "Select Public Key"
+msgid "Public Keys Found"
+msgstr "選取公共密碼匙"
+
+#: plugins/cryptography/cryptographyplugin.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Cryptography plugin has found multiple encryption keys for %1 (%2) in your "
+"KDE address book. To use one of these keys, select it and choose OK."
+msgstr ""
+
+#: plugins/cryptography/cryptographypreferences.cpp:43
+#, fuzzy
+#| msgid "Private Key List"
+msgid "Private Key: "
+msgstr "私人密碼匙清單"
+
+#: plugins/cryptography/cryptographypreferences.cpp:46
+#, fuzzy
+#| msgid ""
+#| "Select the contact you want to communicate with via Instant Messaging"
+msgctxt "@label:chooser"
+msgid "Select the key you want to use to sign and encrypt messages"
+msgstr "選取你要以即時傳訊溝通的聯絡人"
+
+#: plugins/cryptography/cryptographypreferences.cpp:47
+#, fuzzy
+#| msgid ""
+#| "Select the contact you want to communicate with via Instant Messaging"
+msgid "Select the key you want to use to sign and encrypt messages"
+msgstr "選取你要以即時傳訊溝通的聯絡人"
+
+#: plugins/cryptography/cryptographypreferences.cpp:48
+#, fuzzy
+#| msgid "Enter passphrase for <b>%1</b>:"
+msgctxt "@info:tooltip"
+msgid "The private key used for decryption and signing"
+msgstr "輸入 <b>%1</b> 的 passphrase:"
+
+#: plugins/cryptography/cryptographypreferences.cpp:49
+msgctxt "@info:whatsthis"
+msgid ""
+"View and change the private key used for signing and encrypting messages "
+"using the Cryptography plugin"
+msgstr ""
+
+#: plugins/cryptography/cryptographypreferences.cpp:51
+msgctxt "@info"
+msgid ""
+"<para>Before you can sign messages or receive encrypted ones, you must "
+"select a private key for yourself.</para><para>Before you can send encrypted "
+"messages to someone, you must select their public key by right-clicking on "
+"their name in your contact list and choosing \"Select Public Key\".</para>"
+msgstr ""
+
+#: plugins/cryptography/cryptographypreferences.cpp:54
+msgid "Sign messages in clearsign mode"
+msgstr ""
+
+#: plugins/cryptography/cryptographyselectuserkey.cpp:40
+msgid "Select Contact's Public Key"
+msgstr "選取聯絡人的公共密碼匙"
+
+#: plugins/cryptography/cryptographyselectuserkey.cpp:49
+#, fuzzy
+#| msgid ""
+#| "Select the contact you want to communicate with via Instant Messaging"
+msgctxt "@label:chooser"
+msgid "Select the key you want to use encrypt messages to the recipient"
+msgstr "選取你要以即時傳訊溝通的聯絡人"
+
+#: plugins/cryptography/cryptographyselectuserkey.cpp:50
+#, fuzzy
+#| msgid "Select public key for %1"
+msgid "Select public key"
+msgstr "選取 %1 的公共密碼匙"
+
+#: plugins/cryptography/cryptographyselectuserkey.cpp:53
+#, fuzzy, kde-format
+#| msgid "Select public key for %1"
+msgctxt "@label:chooser"
+msgid "Select public key for %1"
+msgstr "選取 %1 的公共密碼匙"
+
+#. i18n: ectx: label, entry, group (Cryptography Plugin)
+#: plugins/cryptography/cryptographysettings.kcfg:12
+msgid "User's private key fingerprint."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Cryptography Plugin)
+#: plugins/cryptography/cryptographysettings.kcfg:16
+msgid "Sign messages in clearsign mode."
+msgstr ""
+
+#: plugins/cryptography/exportkeys.cpp:40
+#, fuzzy
+#| msgid "Select Public Key"
+msgid "Export Public Keys"
+msgstr "選取公共密碼匙"
+
+#: plugins/cryptography/exportkeys.cpp:42
+#, fuzzy
+msgctxt "@action:button"
+msgid "Export"
+msgstr "連接埠(&R):"
+
+#: plugins/cryptography/exportkeys.cpp:42
+#, fuzzy
+#| msgid "Export to Address Book"
+msgctxt "@info:tooltip"
+msgid "Export checked keys to address book"
+msgstr "匯出到通訊錄"
+
+#: plugins/cryptography/exportkeys.cpp:75
+#, fuzzy
+#| msgid "No Contacts with Photo Support"
+msgctxt "@item:inlistbox"
+msgid "&lt;No metacontacts with keys to export&gt;"
+msgstr "沒有聯絡人有照片支援"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/cryptography/exportkeysbase.ui:17
+msgid ""
+"Cryptography plugin will export keys for the chosen metacontacts. If no "
+"address book entry has been linked to each metacontact, one will be created."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KListWidget, keyList)
+#: plugins/cryptography/exportkeysbase.ui:27
+#, fuzzy
+#| msgid "Select Contacts to Export"
+msgid "Select Keys to Export"
+msgstr "選取要匯出的聯絡人"
+
+#. i18n: ectx: property (whatsThis), widget (KListWidget, keyList)
+#: plugins/cryptography/exportkeysbase.ui:30
+msgid ""
+"Check the box next to the name and key of each user that you want to export "
+"to the address book."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KListWidget, keyList)
+#: plugins/cryptography/kabckeyselectorbase.ui:27
+#, fuzzy
+#| msgid "Select Resource"
+msgid "Select Keys to Use"
+msgstr "選擇資源"
+
+#. i18n: ectx: property (whatsThis), widget (KListWidget, keyList)
+#: plugins/cryptography/kabckeyselectorbase.ui:30
+#, fuzzy
+#| msgid ""
+#| "Select the contact you want to communicate with via Instant Messaging"
+msgid "Select the key you want to use for to encrypt to the metacontact"
+msgstr "選取你要以即時傳訊溝通的聯絡人"
+
 #: plugins/highlight/highlightconfig.cpp:71
 msgid "-New filter-"
 msgstr "－新的過濾器－"
@@ -6874,15 +7165,6 @@ msgid ""
 msgstr ""
 "正在解析 %1 中的舊歷程記錄：\n"
 "%2"
-
-#. i18n: ectx: Menu (tools)
-#: plugins/history/historychatui.rc:5 plugins/history2/history2chatui.rc:5
-#: plugins/latex/latexchatui.rc:5 plugins/nowlistening/nowlisteningchatui.rc:5
-#: plugins/otr/otrchatui.rc:4 plugins/translator/translatorchatui.rc:5
-#: protocols/skype/skypechatui.rc:5
-#, fuzzy
-msgid "&Tools"
-msgstr "顏色(&C)"
 
 #. i18n: ectx: label, entry (Auto_chatwindow), group (History Plugin)
 #. i18n: ectx: label, entry (Auto_chatwindow), group (History2 Plugin)
@@ -22849,10 +23131,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ msgstr "簽署無效"
 
 #, fuzzy
-#~ msgid "You do not have permission to send a message to this contact."
-#~ msgstr "聊天視窗中歷程記錄訊息的顏色"
-
-#, fuzzy
 #~ msgid "Message is too long."
 #~ msgstr "訊息過長。"
 
@@ -24357,11 +24635,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ msgid "Export Contacts"
 #~ msgstr "匯出聯絡人"
 
-#, fuzzy
-#~| msgid "Cryptography"
-#~ msgid "Cryptography Toolbar"
-#~ msgstr "加密學"
-
 #~ msgid "Cache Passphrase"
 #~ msgstr "快取 Passphrase"
 
@@ -24378,23 +24651,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ msgid "Until Kopete closes (Dangerous)"
 #~ msgstr "直到 Kopete 關閉為止"
 
-#~ msgid "Select Contact's Public Key"
-#~ msgstr "選取聯絡人的公共密碼匙"
-
-#~ msgid "Select public key for %1"
-#~ msgstr "選取 %1 的公共密碼匙"
-
-#, fuzzy
-#~| msgid ""
-#~| "Select the contact you want to communicate with via Instant Messaging"
-#~ msgid "Select the key you want to use to decrypt and sign messages"
-#~ msgstr "選取你要以即時傳訊溝通的聯絡人"
-
-#, fuzzy
-#~| msgid "Enter passphrase for <b>%1</b>:"
-#~ msgid "The private key used for decryption and signing"
-#~ msgstr "輸入 <b>%1</b> 的 passphrase:"
-
 #, fuzzy
 #~| msgid "Do not ask for the passphrase"
 #~ msgid "Ask for passphrase on Kopete startup (Recommended)"
@@ -24406,44 +24662,9 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ msgstr "不要詢問 Passphrase"
 
 #, fuzzy
-#~| msgid "Select Public Key"
-#~ msgid "Export Public Keys"
-#~ msgstr "選取公共密碼匙"
-
-#, fuzzy
-#~| msgid "Export to Address Book"
-#~ msgid "Export checked keys to address book"
-#~ msgstr "匯出到通訊錄"
-
-#, fuzzy
-#~| msgid "No Contacts with Photo Support"
-#~ msgid "<No meta-contacts with keys to export>"
-#~ msgstr "沒有聯絡人有照片支援"
-
-#, fuzzy
-#~| msgid "Select Public Key"
-#~ msgid "&Select Public Key..."
-#~ msgstr "選取公共密碼匙"
-
-#, fuzzy
-#~| msgid "Export to Address Book"
-#~ msgid "&Export Public Keys To Address Book..."
-#~ msgstr "匯出到通訊錄"
-
-#, fuzzy
 #~| msgid "Enter passphrase for <b>%1</b>:"
 #~ msgid "Enter password for GPG encryption and signing key"
 #~ msgstr "輸入 <b>%1</b> 的 passphrase:"
-
-#, fuzzy
-#~| msgid "Unsupported protocol version."
-#~ msgid "Cryptography Unsupported Protocol"
-#~ msgstr "不支援的協定版本。"
-
-#, fuzzy
-#~| msgid "Select Public Key"
-#~ msgid "Public Key Found"
-#~ msgstr "選取公共密碼匙"
 
 #, fuzzy
 #~| msgid "Enter passphrase for <b>%1</b>:"
@@ -24451,19 +24672,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ "Enter passphrase for secret key %1:\n"
 #~ "You have %2 tries left."
 #~ msgstr "輸入 <b>%1</b> 的 passphrase:"
-
-#~ msgid "Cryptography"
-#~ msgstr "加密學"
-
-#, fuzzy
-#~| msgid "&Send Message"
-#~ msgid "Sign Messages"
-#~ msgstr "傳送訊息(&S)"
-
-#, fuzzy
-#~| msgid "Export Contacts to Address Book"
-#~ msgid "Export Contacts' Keys to Address Book"
-#~ msgstr "匯出聯絡人到通訊錄"
 
 #, fuzzy
 #~| msgid "Rename Identity"
@@ -25227,9 +25435,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #~ "<h2>恭喜</h2> \n"
 #~ "<p>你已完成設定帳號。請按下「完成」按鈕。</p>\n"
 #~ "\n"
-
-#~ msgid "Select Contacts to Export"
-#~ msgstr "選取要匯出的聯絡人"
 
 #~ msgid "On &event:"
 #~ msgstr "當發生事件(&E):"

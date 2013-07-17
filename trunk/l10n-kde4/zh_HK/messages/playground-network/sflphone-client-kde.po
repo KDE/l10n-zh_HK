@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-14 01:53+0000\n"
+"POT-Creation-Date: 2013-07-17 01:50+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1311,7 +1311,7 @@ msgstr[0] "編輯電話號碼"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
 #: src/delegates/contactdelegate.cpp:110 src/delegates/historydelegate.cpp:250
-#: src/delegates/historydelegate.cpp:251 src/lib/sflphone_const.h:43
+#: src/delegates/historydelegate.cpp:251 src/lib/sflphone_const.h:37
 #: src/sflphone.cpp:116 src/widgets/ui/transfer.ui:105
 msgid "Transfer"
 msgstr "轉接"
@@ -1600,40 +1600,36 @@ msgstr "當有來電時靜音其它應用程序"
 msgid "Defines the prefix to add."
 msgstr ""
 
-#: src/lib/sflphone_const.h:40
+#: src/lib/sflphone_const.h:34
 msgid "New call"
 msgstr "新電話"
 
-#: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
+#: src/lib/sflphone_const.h:35 src/lib/sflphone_const.h:40
 #: src/sflphone.cpp:120
 msgid "Hang up"
 msgstr "放電話"
 
-#: src/lib/sflphone_const.h:42
+#: src/lib/sflphone_const.h:36
 msgid "Hold on"
 msgstr "呼叫保持"
 
-#: src/lib/sflphone_const.h:44 src/sflphone.cpp:117
+#: src/lib/sflphone_const.h:38 src/sflphone.cpp:117
 msgid "Record"
 msgstr "記錄"
 
-#: src/lib/sflphone_const.h:45
+#: src/lib/sflphone_const.h:39
 msgid "Pick up"
 msgstr "接電話"
 
-#: src/lib/sflphone_const.h:47
+#: src/lib/sflphone_const.h:41
 msgid "Hold off"
 msgstr "恢復通話"
 
-#: src/lib/sflphone_const.h:48
+#: src/lib/sflphone_const.h:42
 msgid "Give up transfer"
 msgstr "取消轉接"
 
-#: src/lib/sflphone_const.h:49
-msgid "Call back"
-msgstr "回叫"
-
-#: src/lib/sflphone_const.h:50
+#: src/lib/sflphone_const.h:43
 msgid "Voicemail"
 msgstr "語音郵件"
 
@@ -2104,6 +2100,9 @@ msgstr "編輯電話號碼"
 #| msgid "Transfer to : "
 msgid "Transfer to existing calls:"
 msgstr "轉給:"
+
+#~ msgid "Call back"
+#~ msgstr "回叫"
 
 #, fuzzy
 #~| msgid "Edit phone number"
