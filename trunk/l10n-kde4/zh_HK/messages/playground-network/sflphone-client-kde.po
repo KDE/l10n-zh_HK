@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-18 01:55+0000\n"
+"POT-Creation-Date: 2013-09-19 01:48+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -47,7 +47,7 @@ msgstr "查看(V)"
 msgid "Settings"
 msgstr "ALSA 配置"
 
-#: src/accountwizard.cpp:185 src/accountwizard.cpp:347 src/sflphone.cpp:390
+#: src/accountwizard.cpp:185 src/accountwizard.cpp:347 src/sflphone.cpp:439
 msgid "Account creation wizard"
 msgstr "帳戶創建向導"
 
@@ -1038,13 +1038,8 @@ msgstr "鈴聲"
 msgid "Use custom file"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableAddressBook)
-#: src/conf/dlgaddressbookbase.ui:20
-msgid "Enable address book"
-msgstr "啟用地址簿"
-
 #. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
-#: src/conf/dlgaddressbookbase.ui:27
+#: src/conf/dlgaddressbookbase.ui:20
 msgid "Use contact from the following phone number category:"
 msgstr ""
 
@@ -1321,13 +1316,13 @@ msgid "Rate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
-#: src/delegates/contactdelegate.cpp:177 src/delegates/historydelegate.cpp:273
-#: src/delegates/historydelegate.cpp:274 src/lib/sflphone_const.h:34
-#: src/sflphone.cpp:119 src/widgets/ui/transfer.ui:105
+#: src/delegates/contactdelegate.cpp:177 src/delegates/historydelegate.cpp:272
+#: src/delegates/historydelegate.cpp:273 src/lib/sflphone_const.h:34
+#: src/sflphone.cpp:168 src/widgets/ui/transfer.ui:105
 msgid "Transfer"
 msgstr "轉接"
 
-#: src/delegates/historydelegate.cpp:272
+#: src/delegates/historydelegate.cpp:271
 #, fuzzy
 #| msgid "Preferences"
 msgid "Conference"
@@ -1610,7 +1605,7 @@ msgid "New call"
 msgstr "新電話"
 
 #: src/lib/sflphone_const.h:32 src/lib/sflphone_const.h:37
-#: src/sflphone.cpp:123
+#: src/sflphone.cpp:172
 msgid "Hang up"
 msgstr "放電話"
 
@@ -1618,7 +1613,7 @@ msgstr "放電話"
 msgid "Hold on"
 msgstr "呼叫保持"
 
-#: src/lib/sflphone_const.h:35 src/sflphone.cpp:120
+#: src/lib/sflphone_const.h:35 src/sflphone.cpp:169
 msgid "Record"
 msgstr "記錄"
 
@@ -1656,114 +1651,114 @@ msgstr ""
 msgid "Jérémy Quentin"
 msgstr "Jérémy Quentin"
 
-#: src/sflphone.cpp:121
+#: src/sflphone.cpp:170
 #, fuzzy
 #| msgid "Hold on"
 msgid "Hold"
 msgstr "呼叫保持"
 
-#: src/sflphone.cpp:122
+#: src/sflphone.cpp:171
 msgid "Refuse"
 msgstr "拒絕"
 
-#: src/sflphone.cpp:124
+#: src/sflphone.cpp:173
 msgid "Unhold"
 msgstr ""
 
-#: src/sflphone.cpp:125
+#: src/sflphone.cpp:174
 #, fuzzy
 #| msgid "Pick up"
 msgid "Pickup"
 msgstr "接電話"
 
-#: src/sflphone.cpp:126 src/sflphoneview.cpp:1167
+#: src/sflphone.cpp:175 src/sflphoneview.cpp:1167
 msgctxt "Mute the current audio device"
 msgid "Mute"
 msgstr ""
 
-#: src/sflphone.cpp:127
+#: src/sflphone.cpp:176
 #, fuzzy
 #| msgid "_Dialpad"
 msgid "Dial"
 msgstr "撥號面板"
 
-#: src/sflphone.cpp:142 src/sflphone.cpp:195 src/sflphone.cpp:677
+#: src/sflphone.cpp:191 src/sflphone.cpp:244 src/sflphone.cpp:726
 #, fuzzy
 #| msgid "_Call"
 msgid "Call"
 msgstr "電話"
 
-#: src/sflphone.cpp:204
+#: src/sflphone.cpp:253
 msgid "SFLphone"
 msgstr "SFLphone"
 
-#: src/sflphone.cpp:272
+#: src/sflphone.cpp:321
 #, fuzzy
 #| msgid "Account"
 msgid "Account:"
 msgstr "帳戶"
 
-#: src/sflphone.cpp:290
+#: src/sflphone.cpp:339
 msgid ""
 "The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
 "installed correctly or launch it manually"
 msgstr ""
 
-#: src/sflphone.cpp:380 src/sflphone.cpp:394
+#: src/sflphone.cpp:429 src/sflphone.cpp:443
 msgid "Configure SFLphone"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:382
+#: src/sflphone.cpp:431
 msgid "Display dialpad"
 msgstr "顯示撥號鍵盤"
 
-#: src/sflphone.cpp:383
+#: src/sflphone.cpp:432
 msgid "Display text message box"
 msgstr ""
 
-#: src/sflphone.cpp:384
+#: src/sflphone.cpp:433
 msgid "Display volume controls"
 msgstr "顯示音量控制"
 
-#: src/sflphone.cpp:385
+#: src/sflphone.cpp:434
 msgid "Paste"
 msgstr ""
 
-#: src/sflphone.cpp:386
+#: src/sflphone.cpp:435
 #, fuzzy
 msgid "Display Contact"
 msgstr "顯示"
 
-#: src/sflphone.cpp:387 src/widgets/contactdock.cpp:100
+#: src/sflphone.cpp:436 src/widgets/contactdock.cpp:100
 #, fuzzy
 #| msgid "Clear history"
 msgid "Display history"
 msgstr "清空曆史記錄"
 
-#: src/sflphone.cpp:388
+#: src/sflphone.cpp:437
 #, fuzzy
 msgid "Display bookmark"
 msgstr "顯示"
 
-#: src/sflphone.cpp:389
+#: src/sflphone.cpp:438
 #, fuzzy
 #| msgid "Configure SFLphone"
 msgid "Configure Toolbars"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:415
+#: src/sflphone.cpp:464
 #, fuzzy
 #| msgid "Configure SFLphone"
 msgid "Configure Shortcut"
 msgstr "配置SFLphone"
 
-#: src/sflphone.cpp:641 src/sflphone.cpp:643
+#: src/sflphone.cpp:690 src/sflphone.cpp:692
 #, fuzzy
 #| msgid "On incoming calls"
 msgid "New incoming call"
 msgstr "有新來電"
 
-#: src/sflphone.cpp:641 src/sflphone.cpp:643
+#: src/sflphone.cpp:690 src/sflphone.cpp:692
 #, fuzzy, kde-format
 #| msgid "New call"
 msgid ""
@@ -1771,19 +1766,19 @@ msgid ""
 "%1"
 msgstr "新電話"
 
-#: src/sflphone.cpp:680 src/widgets/bookmarkdock.cpp:87
-#: src/widgets/contactdock.cpp:280 src/widgets/historydock.cpp:342
-#: src/widgets/historydock.cpp:344
+#: src/sflphone.cpp:729 src/widgets/bookmarkdock.cpp:87
+#: src/widgets/contactdock.cpp:281 src/widgets/historydock.cpp:343
+#: src/widgets/historydock.cpp:345
 #, fuzzy
 #| msgid "Books"
 msgid "Bookmark"
 msgstr "鉤鍵"
 
-#: src/sflphone.cpp:683 src/widgets/contactdock.cpp:147
+#: src/sflphone.cpp:732 src/widgets/contactdock.cpp:148
 msgid "Contact"
 msgstr ""
 
-#: src/sflphone.cpp:686 src/widgets/historydock.cpp:143
+#: src/sflphone.cpp:735 src/widgets/historydock.cpp:144
 msgid "History"
 msgstr "歷史"
 
@@ -1892,7 +1887,7 @@ msgstr "揚聲器音量"
 
 #. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
 #: src/widgets/bookmarkdock.cpp:75 src/widgets/contactdock.cpp:96
-#: src/widgets/historydock.cpp:123 src/widgets/ui/contactdock.ui:90
+#: src/widgets/historydock.cpp:124 src/widgets/ui/contactdock.ui:90
 #: src/widgets/ui/dockbase.ui:90
 msgid "Filter"
 msgstr ""
@@ -1901,7 +1896,7 @@ msgstr ""
 msgid "Show most called contacts"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:89 src/widgets/historydock.cpp:127
+#: src/widgets/contactdock.cpp:89 src/widgets/historydock.cpp:128
 #, fuzzy
 #| msgid "Name"
 msgctxt "Sort by Name"
@@ -1928,41 +1923,41 @@ msgctxt "Sort by Department"
 msgid "Department"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:253 src/widgets/historydock.cpp:320
+#: src/widgets/contactdock.cpp:254 src/widgets/historydock.cpp:321
 #, fuzzy
 #| msgid "Call back"
 msgid "Call Again"
 msgstr "回叫"
 
-#: src/widgets/contactdock.cpp:258
+#: src/widgets/contactdock.cpp:259
 #, fuzzy
 #| msgid "Edit phone"
 msgid "Edit contact"
 msgstr "編輯電話"
 
-#: src/widgets/contactdock.cpp:263 src/widgets/historydock.cpp:333
+#: src/widgets/contactdock.cpp:264 src/widgets/historydock.cpp:334
 msgid "Copy"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:268 src/widgets/historydock.cpp:337
+#: src/widgets/contactdock.cpp:269 src/widgets/historydock.cpp:338
 #, fuzzy
 #| msgid "_Email"
 msgid "Send Email"
 msgstr "郵件(E)"
 
-#: src/widgets/contactdock.cpp:274
+#: src/widgets/contactdock.cpp:275
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Add Phone Number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/contactdock.cpp:379
+#: src/widgets/contactdock.cpp:380
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Enter a new number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/contactdock.cpp:379
+#: src/widgets/contactdock.cpp:380
 msgid "New number:"
 msgstr ""
 
@@ -1980,30 +1975,30 @@ msgstr ""
 msgid "Display all"
 msgstr "顯示"
 
-#: src/widgets/historydock.cpp:127
+#: src/widgets/historydock.cpp:128
 msgctxt "Sort by date"
 msgid "Date"
 msgstr ""
 
-#: src/widgets/historydock.cpp:127
+#: src/widgets/historydock.cpp:128
 msgctxt "Sort by Popularity"
 msgid "Popularity"
 msgstr ""
 
-#: src/widgets/historydock.cpp:127
+#: src/widgets/historydock.cpp:128
 msgctxt "Sort by Length"
 msgid "Length"
 msgstr ""
 
-#: src/widgets/historydock.cpp:324
+#: src/widgets/historydock.cpp:325
 msgid "Add Number to Contact"
 msgstr ""
 
-#: src/widgets/historydock.cpp:329
+#: src/widgets/historydock.cpp:330
 msgid "Add Contact"
 msgstr ""
 
-#: src/widgets/historydock.cpp:348
+#: src/widgets/historydock.cpp:349
 msgid "Remove bookmark"
 msgstr ""
 
@@ -2122,6 +2117,9 @@ msgstr "編輯電話號碼"
 #| msgid "Transfer to : "
 msgid "Transfer to existing calls:"
 msgstr "轉給:"
+
+#~ msgid "Enable address book"
+#~ msgstr "啟用地址簿"
 
 #, fuzzy
 #~| msgid "Edit phone number"
