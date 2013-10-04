@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-03 01:50+0000\n"
+"POT-Creation-Date: 2013-10-04 01:57+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -252,10 +252,6 @@ msgid ""
 "account. This may take a while to complete."
 msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
 
-#: src/actionsetaccountfirst.cpp:28
-msgid "Default account"
-msgstr "默認帳戶"
-
 #: src/conf/configurationdialog.cpp:59
 msgid "Accounts"
 msgstr "帳戶"
@@ -300,7 +296,7 @@ msgctxt "SIP Presence"
 msgid "Presence"
 msgstr ""
 
-#: src/conf/dlgaccessibility.cpp:40
+#: src/conf/dlgaccessibility.cpp:45
 msgid ""
 "This page allows to create macros that can then be called using keyboard "
 "shortcuts or added to the toolbar. To create one, assign a name and a "
@@ -379,59 +375,66 @@ msgstr "刪除"
 msgid "Add"
 msgstr "添加"
 
-#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
-#: src/conf/dlgaccessibility.ui:153
-msgid "Info"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, m_pNameL)
-#: src/conf/dlgaccessibility.ui:171
+#: src/conf/dlgaccessibility.ui:188
 #, fuzzy
 #| msgid "Name"
 msgid "Name*"
 msgstr "名稱"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
-#: src/conf/dlgaccessibility.ui:178
+#: src/conf/dlgaccessibility.ui:195
 msgid "Identifier for this macro (toolbar text)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
-#: src/conf/dlgaccessibility.ui:191
+#: src/conf/dlgaccessibility.ui:208
 msgid "Category*"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
-#: src/conf/dlgaccessibility.ui:208
+#: src/conf/dlgaccessibility.ui:225
 #, fuzzy
 #| msgid "Frequency"
 msgid "Sequence*"
 msgstr "顰律"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
-#: src/conf/dlgaccessibility.ui:215
+#: src/conf/dlgaccessibility.ui:232
 msgid "The key sequence to be executed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
-#: src/conf/dlgaccessibility.ui:228
+#: src/conf/dlgaccessibility.ui:245
 msgid "Delay"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
-#: src/conf/dlgaccessibility.ui:235
+#: src/conf/dlgaccessibility.ui:252
 msgid "ms"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
-#: src/conf/dlgaccessibility.ui:251
+#: src/conf/dlgaccessibility.ui:268
 #, fuzzy
 msgid "Description"
 msgstr "已註冊"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
-#: src/conf/dlgaccessibility.ui:258
+#: src/conf/dlgaccessibility.ui:275
 msgid "A description for this macro"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccessibility.ui:306
+#, fuzzy
+#| msgid "Configure SFLphone"
+msgid "Shortcut"
+msgstr "配置SFLphone"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccessibility.ui:339
+msgid "Info"
 msgstr ""
 
 #: src/conf/dlgaccounts.cpp:569
@@ -1324,7 +1327,7 @@ msgid "%1 number"
 msgid_plural "%1 numbers"
 msgstr[0] ""
 
-#: src/klib/helperfunctions.cpp:81 src/sflphoneview.cpp:914
+#: src/klib/helperfunctions.cpp:81 src/sflphoneview.cpp:933
 msgid "No registered accounts"
 msgstr "沒有已註冊帳戶"
 
@@ -1657,7 +1660,7 @@ msgstr ""
 msgid "Pickup"
 msgstr "接電話"
 
-#: src/sflphone.cpp:179 src/sflphoneview.cpp:1148
+#: src/sflphone.cpp:179 src/sflphoneview.cpp:1167
 msgctxt "Mute the current audio device"
 msgid "Mute"
 msgstr ""
@@ -1860,13 +1863,13 @@ msgstr ""
 msgid "Call %1"
 msgstr "電話"
 
-#: src/sflphoneview.cpp:917
+#: src/sflphoneview.cpp:936
 #, fuzzy, kde-format
 #| msgid "Using account"
 msgid "Using account '%1' (%2)"
 msgstr "使用賬戶"
 
-#: src/sflphoneview.cpp:1154
+#: src/sflphoneview.cpp:1173
 msgctxt "Unmute the current audio device"
 msgid "Unmute"
 msgstr ""
@@ -1893,7 +1896,7 @@ msgstr "話筒音量"
 msgid "Speakers volume"
 msgstr "揚聲器音量"
 
-#: src/widgets/autocompletion.cpp:46
+#: src/widgets/autocompletion.cpp:47
 msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
 msgstr ""
 
@@ -2138,6 +2141,9 @@ msgstr "編輯電話號碼"
 #| msgid "Transfer to : "
 msgid "Transfer to existing calls:"
 msgstr "轉給:"
+
+#~ msgid "Default account"
+#~ msgstr "默認帳戶"
 
 #, fuzzy
 #~| msgid "Default account"
