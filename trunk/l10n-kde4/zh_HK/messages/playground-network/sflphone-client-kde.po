@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-19 01:43+0000\n"
+"POT-Creation-Date: 2013-10-22 01:39+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -254,8 +254,8 @@ msgid ""
 msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
-#: src/actioncollection.cpp:82 src/delegates/contactdelegate.cpp:180
-#: src/delegates/historydelegate.cpp:272 src/delegates/historydelegate.cpp:273
+#: src/actioncollection.cpp:82 src/delegates/contactdelegate.cpp:160
+#: src/delegates/historydelegate.cpp:253 src/delegates/historydelegate.cpp:254
 #: src/lib/sflphone_const.h:28 src/widgets/ui/transfer.ui:105
 msgid "Transfer"
 msgstr "轉接"
@@ -289,7 +289,7 @@ msgstr ""
 msgid "Pickup"
 msgstr "接電話"
 
-#: src/actioncollection.cpp:89 src/sflphoneview.cpp:488
+#: src/actioncollection.cpp:89 src/sflphoneview.cpp:572
 msgctxt "Mute the current audio device"
 msgid "Mute"
 msgstr ""
@@ -347,7 +347,7 @@ msgstr ""
 msgid "Display Contact"
 msgstr "顯示"
 
-#: src/actioncollection.cpp:165 src/widgets/contactdock.cpp:101
+#: src/actioncollection.cpp:165 src/widgets/contactdock.cpp:102
 #, fuzzy
 #| msgid "Clear history"
 msgid "Display history"
@@ -1434,7 +1434,7 @@ msgstr "已註冊"
 msgid "Rate"
 msgstr ""
 
-#: src/delegates/historydelegate.cpp:271
+#: src/delegates/historydelegate.cpp:252
 #, fuzzy
 #| msgid "Preferences"
 msgid "Conference"
@@ -1461,27 +1461,27 @@ msgid ""
 "projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
 msgstr ""
 
-#: src/eventmanager.cpp:183 src/eventmanager.cpp:200
+#: src/eventmanager.cpp:190 src/eventmanager.cpp:207
 #: src/widgets/tips/removeconferencetip.cpp:29
 msgid "Remove the call from the conference, the call will be put on hold"
 msgstr ""
 
-#: src/eventmanager.cpp:186 src/eventmanager.cpp:191 src/eventmanager.cpp:195
-#: src/eventmanager.cpp:203 src/eventmanager.cpp:208 src/eventmanager.cpp:212
+#: src/eventmanager.cpp:193 src/eventmanager.cpp:198 src/eventmanager.cpp:202
+#: src/eventmanager.cpp:210 src/eventmanager.cpp:215 src/eventmanager.cpp:219
 #, fuzzy, kde-format
 #| msgid "_Call"
 msgid "Call %1"
 msgstr "電話"
 
-#: src/eventmanager.cpp:471
+#: src/eventmanager.cpp:480
 msgid "Missed"
 msgstr ""
 
-#: src/eventmanager.cpp:473
+#: src/eventmanager.cpp:482
 msgid "Cancelled"
 msgstr ""
 
-#: src/eventmanager.cpp:476 src/widgets/tips/tipcollection.cpp:120
+#: src/eventmanager.cpp:485 src/widgets/tips/tipcollection.cpp:120
 #, fuzzy
 #| msgid "Call back"
 msgid "Call ended"
@@ -1840,14 +1840,14 @@ msgid ""
 msgstr "新電話"
 
 #: src/sflphone.cpp:535 src/widgets/bookmarkdock.cpp:90
-#: src/widgets/contactdock.cpp:282 src/widgets/historydock.cpp:344
+#: src/widgets/contactdock.cpp:248 src/widgets/historydock.cpp:344
 #: src/widgets/historydock.cpp:346
 #, fuzzy
 #| msgid "Books"
 msgid "Bookmark"
 msgstr "鉤鍵"
 
-#: src/sflphone.cpp:538 src/widgets/contactdock.cpp:149
+#: src/sflphone.cpp:538 src/widgets/contactdock.cpp:144
 msgid "Contact"
 msgstr ""
 
@@ -1913,7 +1913,7 @@ msgstr ""
 msgid "Used in combination with --send-text"
 msgstr ""
 
-#: src/sflphoneview.cpp:494
+#: src/sflphoneview.cpp:578
 msgctxt "Unmute the current audio device"
 msgid "Unmute"
 msgstr ""
@@ -1945,7 +1945,7 @@ msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
-#: src/widgets/bookmarkdock.cpp:78 src/widgets/contactdock.cpp:97
+#: src/widgets/bookmarkdock.cpp:78 src/widgets/contactdock.cpp:98
 #: src/widgets/historydock.cpp:125 src/widgets/ui/contactdock.ui:90
 #: src/widgets/ui/dockbase.ui:90
 msgid "Filter"
@@ -1955,32 +1955,32 @@ msgstr ""
 msgid "Show most called contacts"
 msgstr ""
 
-#: src/widgets/bookmarkdock.cpp:144 src/widgets/contactdock.cpp:255
+#: src/widgets/bookmarkdock.cpp:144 src/widgets/contactdock.cpp:221
 #: src/widgets/historydock.cpp:322
 #, fuzzy
 #| msgid "Call back"
 msgid "Call Again"
 msgstr "回叫"
 
-#: src/widgets/bookmarkdock.cpp:148 src/widgets/contactdock.cpp:260
+#: src/widgets/bookmarkdock.cpp:148 src/widgets/contactdock.cpp:226
 #, fuzzy
 #| msgid "Edit phone"
 msgid "Edit contact"
 msgstr "編輯電話"
 
-#: src/widgets/bookmarkdock.cpp:152 src/widgets/contactdock.cpp:265
+#: src/widgets/bookmarkdock.cpp:152 src/widgets/contactdock.cpp:231
 #: src/widgets/historydock.cpp:335
 msgid "Copy"
 msgstr ""
 
-#: src/widgets/bookmarkdock.cpp:156 src/widgets/contactdock.cpp:270
+#: src/widgets/bookmarkdock.cpp:156 src/widgets/contactdock.cpp:236
 #: src/widgets/historydock.cpp:339
 #, fuzzy
 #| msgid "_Email"
 msgid "Send Email"
 msgstr "郵件(E)"
 
-#: src/widgets/bookmarkdock.cpp:161 src/widgets/contactdock.cpp:276
+#: src/widgets/bookmarkdock.cpp:161 src/widgets/contactdock.cpp:242
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Add Phone Number"
@@ -1992,40 +1992,40 @@ msgstr "編輯電話號碼"
 msgid "Remove Bookmark"
 msgstr "鉤鍵"
 
-#: src/widgets/contactdock.cpp:90 src/widgets/historydock.cpp:129
+#: src/widgets/contactdock.cpp:91 src/widgets/historydock.cpp:129
 #, fuzzy
 #| msgid "Name"
 msgctxt "Sort by Name"
 msgid "Name"
 msgstr "名稱"
 
-#: src/widgets/contactdock.cpp:90
+#: src/widgets/contactdock.cpp:91
 msgctxt "Sort by Organisation"
 msgid "Organisation"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:90
+#: src/widgets/contactdock.cpp:91
 msgctxt "Sort by Recently used"
 msgid "Recently used"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:90
+#: src/widgets/contactdock.cpp:91
 msgctxt "Sort by Group"
 msgid "Group"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:90
+#: src/widgets/contactdock.cpp:91
 msgctxt "Sort by Department"
 msgid "Department"
 msgstr ""
 
-#: src/widgets/contactdock.cpp:381
+#: src/widgets/contactdock.cpp:347
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Enter a new number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/contactdock.cpp:381
+#: src/widgets/contactdock.cpp:347
 msgid "New number:"
 msgstr ""
 
@@ -2076,13 +2076,13 @@ msgstr ""
 msgid "Remove bookmark"
 msgstr ""
 
-#: src/widgets/kphonenumberselector.cpp:49
+#: src/widgets/kphonenumberselector.cpp:48
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Select phone number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/kphonenumberselector.cpp:49
+#: src/widgets/kphonenumberselector.cpp:48
 msgid ""
 "This contact has many phone numbers, please select the one you wish to call"
 msgstr ""
