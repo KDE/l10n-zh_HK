@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-23 01:39+0000\n"
+"POT-Creation-Date: 2013-10-24 01:39+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1152,7 +1152,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
 #. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
 #: src/conf/dlgaccountsbase.ui:1416 src/conf/dlgaccountsbase.ui:1422
-#: src/conf/dlgaudiobase.ui:141
+#: src/conf/dlgaudiobase.ui:130
 #, fuzzy
 #| msgid "Ringtones"
 msgid "Ringtone"
@@ -1173,68 +1173,72 @@ msgstr ""
 msgid "Sound manager"
 msgstr "聲音管理器"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
-#: src/conf/dlgaudiobase.ui:43
-msgid "ALSA"
-msgstr "ALSA"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_interface)
-#: src/conf/dlgaudiobase.ui:48
-msgid "PulseAudio"
-msgstr "PulseAudio"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
-#: src/conf/dlgaudiobase.ui:75
+#: src/conf/dlgaudiobase.ui:64
 #, fuzzy
 #| msgid "ALSA settings"
 msgid "ALSA Settings"
 msgstr "ALSA 配置"
 
 #. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
-#: src/conf/dlgaudiobase.ui:90
+#: src/conf/dlgaudiobase.ui:79
 msgid "ALSA plugin"
 msgstr "ALSA插件"
 
 #. i18n: ectx: property (text), widget (QLabel, label2_in)
-#: src/conf/dlgaudiobase.ui:107
+#: src/conf/dlgaudiobase.ui:96
 msgid "Input"
 msgstr "輸入"
 
 #. i18n: ectx: property (text), widget (QLabel, label3_out)
-#: src/conf/dlgaudiobase.ui:124
+#: src/conf/dlgaudiobase.ui:113
 msgid "Output"
 msgstr "輸出"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
-#: src/conf/dlgaudiobase.ui:164
+#: src/conf/dlgaudiobase.ui:153
 #, fuzzy
 #| msgid "PulseAudio settings"
 msgid "PulseAudio Settings"
 msgstr "PulseAudio 配置"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
-#: src/conf/dlgaudiobase.ui:173
+#: src/conf/dlgaudiobase.ui:162
 msgid "Mute other applications during a call"
 msgstr "當有來電時靜音其它應用程序"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
-#: src/conf/dlgaudiobase.ui:193
+#: src/conf/dlgaudiobase.ui:182
 #, fuzzy
 #| msgid "Recordings"
 msgid "Recording"
 msgstr "記錄"
 
 #. i18n: ectx: property (clickMessage), widget (KUrlRequester, KUrlRequester_destinationFolder)
-#: src/conf/dlgaudiobase.ui:205
+#: src/conf/dlgaudiobase.ui:194
 msgid "Destination folder"
 msgstr "目標文件夾"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
-#: src/conf/dlgaudiobase.ui:212
+#: src/conf/dlgaudiobase.ui:201
 #, fuzzy
 #| msgid "Record a call"
 msgid "Always record calls"
 msgstr "記錄通話"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaudiobase.ui:211
+#, fuzzy
+#| msgid "PulseAudio settings"
+msgid "Audio settings"
+msgstr "PulseAudio 配置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: src/conf/dlgaudiobase.ui:217
+#, fuzzy
+#| msgid "Noise reduction"
+msgid "Enable noise reduction"
+msgstr "降噪"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/dlgdisplaybase.ui:26
@@ -1461,27 +1465,27 @@ msgid ""
 "projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
 msgstr ""
 
-#: src/eventmanager.cpp:190 src/eventmanager.cpp:207
+#: src/eventmanager.cpp:192 src/eventmanager.cpp:209
 #: src/widgets/tips/removeconferencetip.cpp:29
 msgid "Remove the call from the conference, the call will be put on hold"
 msgstr ""
 
-#: src/eventmanager.cpp:193 src/eventmanager.cpp:198 src/eventmanager.cpp:202
-#: src/eventmanager.cpp:210 src/eventmanager.cpp:215 src/eventmanager.cpp:219
+#: src/eventmanager.cpp:195 src/eventmanager.cpp:200 src/eventmanager.cpp:204
+#: src/eventmanager.cpp:212 src/eventmanager.cpp:217 src/eventmanager.cpp:221
 #, fuzzy, kde-format
 #| msgid "_Call"
 msgid "Call %1"
 msgstr "電話"
 
-#: src/eventmanager.cpp:480
+#: src/eventmanager.cpp:482
 msgid "Missed"
 msgstr ""
 
-#: src/eventmanager.cpp:482
+#: src/eventmanager.cpp:484
 msgid "Cancelled"
 msgstr ""
 
-#: src/eventmanager.cpp:485 src/widgets/tips/tipcollection.cpp:120
+#: src/eventmanager.cpp:487 src/widgets/tips/tipcollection.cpp:120
 #, fuzzy
 #| msgid "Call back"
 msgid "Call ended"
@@ -2185,6 +2189,12 @@ msgstr "編輯電話號碼"
 #| msgid "Transfer to : "
 msgid "Transfer to existing calls:"
 msgstr "轉給:"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "PulseAudio"
+#~ msgstr "PulseAudio"
 
 #, fuzzy
 #~| msgid "Using account"
@@ -2943,9 +2953,6 @@ msgstr "轉給:"
 
 #~ msgid "%s account- %s"
 #~ msgstr "%s 帳戶- %s"
-
-#~ msgid "Noise reduction"
-#~ msgstr "降噪"
 
 #~ msgid "_Destination folder"
 #~ msgstr "目標文件夾(D)"
