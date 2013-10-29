@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-19 01:43+0000\n"
+"POT-Creation-Date: 2013-10-29 01:31+0000\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1453,31 +1453,55 @@ msgctxt "Header of the connections list, where this entry comes from"
 msgid "Source"
 msgstr ""
 
-#: vnc/vncclientthread.cpp:207
+#: vnc/vncclientthread.cpp:252
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "VNC authentication type is not supported."
 msgstr "認證失敗"
 
-#: vnc/vncclientthread.cpp:229
+#: vnc/vncclientthread.cpp:275
 msgid "Server not found."
 msgstr ""
 
-#: vnc/vncclientthread.cpp:233
+#: vnc/vncclientthread.cpp:289
 #, fuzzy
 #| msgid "Authentication failed. Connection aborted."
 msgid "VNC authentication failed because of too many authentication tries."
 msgstr "認證失敗。連線中止。"
 
-#: vnc/vncclientthread.cpp:236 vnc/vncclientthread.cpp:285
+#: vnc/vncclientthread.cpp:292 vnc/vncclientthread.cpp:360
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "VNC authentication failed."
 msgstr "認證失敗"
 
-#: vnc/vncclientthread.cpp:239
+#: vnc/vncclientthread.cpp:295
 msgid "VNC server closed connection."
 msgstr ""
+
+#: vnc/vncclientthread.cpp:301
+#, fuzzy, kde-format
+#| msgid "Connect"
+msgid "Disconnected: %1."
+msgstr "連接"
+
+#: vnc/vncclientthread.cpp:488
+#, fuzzy
+#| msgid "Connection"
+msgid "Reconnecting."
+msgstr "連線"
+
+#: vnc/vncclientthread.cpp:556
+#, fuzzy
+#| msgid "Connect"
+msgid "Reconnected."
+msgstr "連接"
+
+#: vnc/vncclientthread.cpp:558
+#, fuzzy
+#| msgid "Connection"
+msgid "Connected."
+msgstr "連線"
 
 #. i18n: ectx: property (text), widget (QLabel, connectionLabel)
 #: vnc/vncpreferences.ui:23
