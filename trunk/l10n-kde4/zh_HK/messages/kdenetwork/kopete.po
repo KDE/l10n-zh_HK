@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 01:31+0000\n"
+"POT-Creation-Date: 2013-11-04 01:35+0000\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1362,7 +1362,7 @@ msgstr "名:"
 #: kopete/contactlist/kopetecontactlistview.cpp:863
 #: libkopete/kopetecontact.cpp:467 plugins/highlight/highlightprefsbase.ui:66
 #: plugins/privacy/privacydialog.ui:92 plugins/privacy/privacydialog.ui:176
-#: protocols/jabber/jabberprotocol.cpp:469
+#: protocols/jabber/jabberprotocol.cpp:468
 #: protocols/jabber/ui/dlgjabberbookmarkeditor.ui:52
 #: protocols/jabber/ui/privacy.ui:249
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:784
@@ -2804,7 +2804,7 @@ msgstr "新群組"
 #: kopete/config/status/statusconfig_manager.ui:46 kopete/kopetewindow.cpp:387
 #: plugins/highlight/highlightprefsbase.ui:56
 #: plugins/privacy/privacydialog.ui:116 plugins/privacy/privacydialog.ui:183
-#: protocols/jabber/jabberprotocol.cpp:452
+#: protocols/jabber/jabberprotocol.cpp:451
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:777
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:863
@@ -3258,7 +3258,7 @@ msgctxt "Translators: format: '<nickname> (<online status>)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kopete/contactlist/kopetecontactlistview.cpp:1095
+#: kopete/contactlist/kopetecontactlistview.cpp:1094
 #, kde-format
 msgctxt "Translators: format: '<displayName> (<id>)'"
 msgid "%2 <%1>"
@@ -4874,7 +4874,7 @@ msgstr ""
 msgid "Not Connected"
 msgstr "未連接"
 
-#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:388
+#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:387
 #: protocols/oscar/aim/aimprotocol.cpp:156
 #: protocols/oscar/icq/icqprotocol.cpp:98
 msgid "Choose Account"
@@ -5408,35 +5408,35 @@ msgstr "你的帳號的帳號名稱。"
 msgid "Show close button for each tab."
 msgstr "在聊天視窗中顯示事件(&S)"
 
-#: libkopete/kopetechatsession.cpp:291
+#: libkopete/kopetechatsession.cpp:290
 msgid "Outgoing Message Sent"
 msgstr "已發出訊息"
 
-#: libkopete/kopetechatsession.cpp:308
+#: libkopete/kopetechatsession.cpp:307
 msgid "A contact sent you a buzz/nudge."
 msgstr "有聯絡人發嗶聲/提示給你。"
 
-#: libkopete/kopetechatsession.cpp:565
+#: libkopete/kopetechatsession.cpp:564
 #, fuzzy, kde-format
 #| msgid "%1 is typing a message"
 msgid "User <i>%1</i> is typing a message"
 msgstr "%1 正在輸入訊息"
 
-#: libkopete/kopetechatsession.cpp:568 libkopete/kopetemetacontact.cpp:1343
-#: libkopete/kopetemetacontact.cpp:1347
+#: libkopete/kopetechatsession.cpp:567 libkopete/kopetemetacontact.cpp:1340
+#: libkopete/kopetemetacontact.cpp:1344
 #, fuzzy
 #| msgid "Chat"
 msgctxt "@action"
 msgid "Chat"
 msgstr "聊天"
 
-#: libkopete/kopetechatsession.cpp:655
+#: libkopete/kopetechatsession.cpp:654
 msgid ""
 "<qt>An error has occurred while creating a new chat window. The chat window "
 "has not been created.</qt>"
 msgstr "<qt>建立新聊天視窗時發生錯誤。該聊天視窗還未建立。</qt>"
 
-#: libkopete/kopetechatsession.cpp:656
+#: libkopete/kopetechatsession.cpp:655
 msgid "Error While Creating Chat Window"
 msgstr "建立聊天視窗時發生錯誤"
 
@@ -5817,7 +5817,7 @@ msgstr ""
 msgid "Status not available"
 msgstr "無法取得狀態"
 
-#: libkopete/kopetemetacontact.cpp:1356
+#: libkopete/kopetemetacontact.cpp:1353
 #, kde-format
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> 現在是 %2 。</qt>"
@@ -5961,12 +5961,12 @@ msgstr "Kopete 檔案傳輸"
 msgid "File transfer %1 cancelled."
 msgstr "檔案傳輸取消。"
 
-#: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:100
+#: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:98
 #: protocols/jabber/jabbercontact.cpp:1114
 #: protocols/jabber/jabbergroupcontact.cpp:336
 #: protocols/jabber/jabbergroupmembercontact.cpp:278
 #: protocols/oscar/oscarcontact.cpp:366 protocols/qq/qqcontact.cpp:418
-#: protocols/wlm/wlmcontact.cpp:177
+#: protocols/wlm/wlmcontact.cpp:175
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
 
@@ -6117,7 +6117,7 @@ msgid "View"
 msgstr "檢視"
 
 #: libkopete/private/kopeteviewmanager.cpp:418
-#: protocols/wlm/wlmaccount.cpp:1162 protocols/wlm/wlmaccount.cpp:1181
+#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
 #: protocols/yahoo/yahooaccount.cpp:1187 protocols/yahoo/yahooaccount.cpp:1633
 #: protocols/yahoo/yahooaccount.cpp:1844
 #, fuzzy
@@ -7080,7 +7080,7 @@ msgstr "正規運算式"
 #. i18n: ectx: property (text), widget (KPushButton, pb_edit)
 #. i18n: ectx: property (text), widget (QPushButton, m_editregexp)
 #: plugins/highlight/highlightprefsbase.ui:166
-#: protocols/gadu/gaducontact.cpp:198 protocols/jabber/ui/privacy.ui:270
+#: protocols/gadu/gaducontact.cpp:196 protocols/jabber/ui/privacy.ui:270
 msgid "Edit..."
 msgstr "編輯..."
 
@@ -10230,63 +10230,63 @@ msgstr "設定說明(&D)..."
 msgid "Export Contacts on change"
 msgstr "將聯絡人匯出至伺服器"
 
-#: protocols/gadu/gaduaccount.cpp:775
+#: protocols/gadu/gaduaccount.cpp:774
 msgid "connection using SSL was not possible, retrying without."
 msgstr "不能使用 SSL 連線，試著不要使用。"
 
-#: protocols/gadu/gaduaccount.cpp:803
+#: protocols/gadu/gaduaccount.cpp:802
 #, kde-format
 msgid "unable to connect to the Gadu-Gadu server(\"%1\")."
 msgstr "無法連接 Gadu-Gadu 伺服器（「%1」）。"
 
-#: protocols/gadu/gaduaccount.cpp:804 protocols/gadu/gaducommands.cpp:325
+#: protocols/gadu/gaduaccount.cpp:803 protocols/gadu/gaducommands.cpp:325
 #: protocols/gadu/gaducommands.cpp:333 protocols/gadu/gaducommands.cpp:381
 msgid "Connection Error"
 msgstr "連線錯誤"
 
-#: protocols/gadu/gaduaccount.cpp:942
+#: protocols/gadu/gaduaccount.cpp:941
 #, fuzzy
 #| msgid "Import Contacts From File..."
 msgid "Imported contacts list is empty."
 msgstr "從檔案匯入聯絡人..."
 
-#: protocols/gadu/gaduaccount.cpp:989
+#: protocols/gadu/gaduaccount.cpp:988
 #, fuzzy
 #| msgid "Contact Notes"
 msgid "Contacts imported."
 msgstr "聯絡人備註"
 
-#: protocols/gadu/gaduaccount.cpp:998
+#: protocols/gadu/gaduaccount.cpp:997
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts exported."
 msgstr "聯絡人已匯出至伺服器。"
 
-#: protocols/gadu/gaduaccount.cpp:1004
+#: protocols/gadu/gaduaccount.cpp:1003
 #, fuzzy
 #| msgid "Contacts exported to the server."
 msgid "Contacts deleted from the server."
 msgstr "聯絡人已匯出至伺服器。"
 
-#: protocols/gadu/gaduaccount.cpp:1041
+#: protocols/gadu/gaduaccount.cpp:1040
 #, kde-format
 msgid "Save Contacts List for Account %1 As"
 msgstr "將帳號 %1 的聯絡人清單儲存為"
 
-#: protocols/gadu/gaduaccount.cpp:1049
+#: protocols/gadu/gaduaccount.cpp:1048
 msgid "Unable to create temporary file."
 msgstr "無法建立暫存檔。"
 
-#: protocols/gadu/gaduaccount.cpp:1049 protocols/gadu/gaduaccount.cpp:1063
+#: protocols/gadu/gaduaccount.cpp:1048 protocols/gadu/gaduaccount.cpp:1062
 msgid "Save Contacts List Failed"
 msgstr "儲存聯絡人清單失敗"
 
-#: protocols/gadu/gaduaccount.cpp:1087
+#: protocols/gadu/gaduaccount.cpp:1086
 #, kde-format
 msgid "Load Contacts List for Account %1 As"
 msgstr "將帳號 %1 的聯絡人清單載入為"
 
-#: protocols/gadu/gaduaccount.cpp:1107 protocols/gadu/gaduaccount.cpp:1113
+#: protocols/gadu/gaduaccount.cpp:1106 protocols/gadu/gaduaccount.cpp:1112
 msgid "Contacts List Load Has Failed"
 msgstr "聯絡人清單載入失敗"
 
@@ -10401,12 +10401,12 @@ msgstr "已更改密碼"
 msgid "Your password has been changed."
 msgstr "你的密碼已更改。"
 
-#: protocols/gadu/gaducontact.cpp:192 protocols/qq/qqcontact.cpp:143
-#: protocols/wlm/wlmcontact.cpp:63
+#: protocols/gadu/gaducontact.cpp:190 protocols/qq/qqcontact.cpp:143
+#: protocols/wlm/wlmcontact.cpp:61
 msgid "Show Profile"
 msgstr "顯示個人檔案"
 
-#: protocols/gadu/gaducontact.cpp:243
+#: protocols/gadu/gaducontact.cpp:241
 #, fuzzy
 #| msgid ""
 #| "<qt>Please go online to remove a contact from your contact list.</qt>"
@@ -10414,7 +10414,7 @@ msgid ""
 "<qt>You need to go online to remove a contact from your contact list.</qt>"
 msgstr "<qt>請上線以從你的聯絡人清單移除聯絡人。</qt>"
 
-#: protocols/gadu/gaducontact.cpp:244
+#: protocols/gadu/gaducontact.cpp:242
 msgid "Gadu-Gadu Plugin"
 msgstr "Gadu-Gadu 插件程式"
 
@@ -13999,7 +13999,7 @@ msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "暱稱 %1 已使用。"
 
 #: protocols/jabber/jabberaccount.cpp:1661
-#: protocols/jabber/jabberprotocol.cpp:493
+#: protocols/jabber/jabberprotocol.cpp:492
 #, fuzzy
 msgid "Provide your nickname"
 msgstr "你的暱稱:"
@@ -14315,7 +14315,7 @@ msgid "Jabber Resource Selector"
 msgstr "Jabber 資源選取器"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:175
-#: protocols/jabber/jabberprotocol.cpp:515
+#: protocols/jabber/jabberprotocol.cpp:514
 #, fuzzy, kde-format
 msgid "You have been invited to %1"
 msgstr "你已經斷線了"
@@ -14463,34 +14463,34 @@ msgstr "傳真"
 msgid "About"
 msgstr "已中止"
 
-#: protocols/jabber/jabberprotocol.cpp:394
+#: protocols/jabber/jabberprotocol.cpp:393
 #, fuzzy, kde-format
 msgid "Choose an account to handle the URL %1"
 msgstr "選擇要忽略的帳號:"
 
-#: protocols/jabber/jabberprotocol.cpp:451
+#: protocols/jabber/jabberprotocol.cpp:450
 #: protocols/oscar/aim/aimprotocol.cpp:186
 #, kde-format
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/jabber/jabberprotocol.cpp:452
+#: protocols/jabber/jabberprotocol.cpp:451
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #: protocols/oscar/icq/icqprotocol.cpp:129
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: protocols/jabber/jabberprotocol.cpp:468
+#: protocols/jabber/jabberprotocol.cpp:467
 #, fuzzy, kde-format
 msgid "Do you want to remove '%1' from your contact list?"
 msgstr "要新增『%1』到你的聯絡人清單嗎？"
 
-#: protocols/jabber/jabberprotocol.cpp:469
+#: protocols/jabber/jabberprotocol.cpp:468
 #, fuzzy
 msgid "Do Not Remove"
 msgstr "不使用"
 
-#: protocols/jabber/jabberprotocol.cpp:492
+#: protocols/jabber/jabberprotocol.cpp:491
 #, fuzzy, kde-format
 msgid "Please enter your nickname for the room %1"
 msgstr "請輸入新群組的名稱:"
@@ -20857,7 +20857,7 @@ msgstr "SMSClient 設置"
 #: protocols/sms/services/smssend.cpp:59
 #: protocols/sms/services/smssendprovider.cpp:217
 #: protocols/sms/services/smssendprovider.cpp:225
-#: protocols/sms/smscontact.cpp:59
+#: protocols/sms/smscontact.cpp:58
 msgid "Could Not Send Message"
 msgstr "無法傳送訊息"
 
@@ -20970,13 +20970,13 @@ msgstr "不分開"
 msgid "Message too long."
 msgstr "訊息過長。"
 
-#: protocols/sms/smscontact.cpp:58
+#: protocols/sms/smscontact.cpp:57
 #, fuzzy
 #| msgid "Something went wrong when sending message."
 msgid "Something went wrong while sending the message."
 msgstr "傳送訊息時發生問題。"
 
-#: protocols/sms/smscontact.cpp:130
+#: protocols/sms/smscontact.cpp:129
 msgid "&Contact Settings"
 msgstr "聯絡人設置(&C)"
 
@@ -21662,7 +21662,7 @@ msgid "<i>(for example: joe@hotmail.com)</i>"
 msgstr "<i>(舉例: joe@hotmail.com)</i>"
 
 #: protocols/wlm/ui/wlmeditaccountwidget.cpp:212
-#: protocols/wlm/wlmcontact.cpp:387
+#: protocols/wlm/wlmcontact.cpp:385
 #, fuzzy
 #| msgid "MSN Plugin"
 msgid "WLM Plugin"
@@ -21702,33 +21702,33 @@ msgstr ""
 msgid "I am on &the contact list of this contact"
 msgstr "我在這個聯絡人的聯絡人清單上(&T)"
 
-#: protocols/wlm/wlmaccount.cpp:76 protocols/yahoo/yahooaccount.cpp:91
+#: protocols/wlm/wlmaccount.cpp:75 protocols/yahoo/yahooaccount.cpp:91
 msgid "Open Inbo&x..."
 msgstr "開啟收件匣(&X)..."
 
-#: protocols/wlm/wlmaccount.cpp:79
+#: protocols/wlm/wlmaccount.cpp:78
 msgid "&Change Display Name..."
 msgstr "更改顯示名稱(&C)..."
 
-#: protocols/wlm/wlmaccount.cpp:85
+#: protocols/wlm/wlmaccount.cpp:84
 msgid "Open MS&N service status site..."
 msgstr ""
 
-#: protocols/wlm/wlmaccount.cpp:141 protocols/wlm/wlmaccount.cpp:143
+#: protocols/wlm/wlmaccount.cpp:140 protocols/wlm/wlmaccount.cpp:142
 msgid "Buddies"
 msgstr "伙伴"
 
-#: protocols/wlm/wlmaccount.cpp:244 protocols/wlm/wlmaccount.cpp:255
+#: protocols/wlm/wlmaccount.cpp:243 protocols/wlm/wlmaccount.cpp:254
 msgid "Change Display Name - MSN Plugin"
 msgstr "更改顯示名稱 - MSN 插件"
 
-#: protocols/wlm/wlmaccount.cpp:245
+#: protocols/wlm/wlmaccount.cpp:244
 msgid ""
 "Enter the new display name by which you want to be visible to your friends "
 "on MSN:"
 msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
 
-#: protocols/wlm/wlmaccount.cpp:253
+#: protocols/wlm/wlmaccount.cpp:252
 msgid ""
 "<qt>The display name you entered is too long. Please use a shorter name.\n"
 "Your display name has <b>not</b> been changed.</qt>"
@@ -21736,7 +21736,7 @@ msgstr ""
 "<qt>你輸入的顯示名稱太長。請使用較短的名稱。\n"
 "你的顯示名稱<b>並未</b>更改。</qt>"
 
-#: protocols/wlm/wlmaccount.cpp:1160
+#: protocols/wlm/wlmaccount.cpp:1159
 #, fuzzy, kde-format
 #| msgid "You have one unread message in your Yahoo inbox."
 #| msgid_plural "You have %1 unread messages in your Yahoo inbox."
@@ -21744,14 +21744,14 @@ msgid "You have one unread message in your Hotmail inbox."
 msgid_plural "You have %1 unread messages in your Hotmail inbox."
 msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
 
-#: protocols/wlm/wlmaccount.cpp:1162 protocols/wlm/wlmaccount.cpp:1181
+#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
 #, fuzzy
 #| msgid "Open Inbo&x..."
 msgctxt "@action"
 msgid "Open Inbox"
 msgstr "開啟收件匣(&X)..."
 
-#: protocols/wlm/wlmaccount.cpp:1180
+#: protocols/wlm/wlmaccount.cpp:1179
 #, fuzzy, kde-format
 #| msgid "You have a message from %1 in your Yahoo inbox."
 msgid "New message from %1 in your Hotmail inbox.<p>Subject: %2"
@@ -21814,24 +21814,24 @@ msgstr "傳送"
 msgid "Select the pen's color"
 msgstr ""
 
-#: protocols/wlm/wlmcontact.cpp:60
+#: protocols/wlm/wlmcontact.cpp:58
 #, fuzzy
 #| msgid "&Block Contact"
 msgid "Block Contact"
 msgstr "封鎖聯絡人(&B)"
 
-#: protocols/wlm/wlmcontact.cpp:66
+#: protocols/wlm/wlmcontact.cpp:64
 #, fuzzy
 msgid "Update Photo"
 msgstr "Jabber ID"
 
-#: protocols/wlm/wlmcontact.cpp:70
+#: protocols/wlm/wlmcontact.cpp:68
 #, fuzzy
 #| msgid "&Download and show custom emoticons"
 msgid "&Block custom emoticons"
 msgstr "下載並顯示自訂表情符號(&D)"
 
-#: protocols/wlm/wlmcontact.cpp:386
+#: protocols/wlm/wlmcontact.cpp:384
 #, fuzzy
 #| msgid ""
 #| "<qt>Please go online to remove a contact from your contact list.</qt>"
@@ -21840,19 +21840,19 @@ msgid ""
 "contact will appear again when you reconnect.</qt>"
 msgstr "<qt>請上線以從你的聯絡人清單移除聯絡人。</qt>"
 
-#: protocols/wlm/wlmcontact.cpp:430
+#: protocols/wlm/wlmcontact.cpp:428
 #, fuzzy
 #| msgid "The contact XXX added you in his contactlist"
 msgid "This contact does not have you in his/her list"
 msgstr "聯絡人 XXX 已經將你加到他的聯絡人清單"
 
-#: protocols/wlm/wlmcontact.cpp:437
+#: protocols/wlm/wlmcontact.cpp:435
 #, fuzzy
 #| msgid "user blocked you"
 msgid "This contact is blocked"
 msgstr "用戶將你封鎖了"
 
-#: protocols/wlm/wlmcontact.cpp:439
+#: protocols/wlm/wlmcontact.cpp:437
 msgid "This contact does not have you in his/her list and is blocked"
 msgstr ""
 
