@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-02 01:39+0000\n"
+"POT-Creation-Date: 2013-11-05 08:29+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -489,81 +489,81 @@ msgstr ""
 msgid "Macro"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, m_pRemoveTB)
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
 #. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
-#: src/conf/dlgaccessibility.ui:103 src/conf/dlgpresence.ui:66
+#: src/conf/dlgaccessibility.ui:112 src/conf/dlgpresence.ui:66
 #, fuzzy
 #| msgid "Remove"
 msgid "Remove"
 msgstr "刪除"
 
-#. i18n: ectx: property (text), widget (QToolButton, m_pAddTB)
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgaccessibility.ui:110 src/conf/dlgpresence.ui:59
+#: src/conf/dlgaccessibility.ui:126 src/conf/dlgpresence.ui:59
 #, fuzzy
 #| msgid "Add"
 msgid "Add"
 msgstr "添加"
 
 #. i18n: ectx: property (text), widget (QLabel, m_pNameL)
-#: src/conf/dlgaccessibility.ui:188
+#: src/conf/dlgaccessibility.ui:210
 #, fuzzy
 #| msgid "Name"
 msgid "Name*"
 msgstr "名稱"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
-#: src/conf/dlgaccessibility.ui:195
+#: src/conf/dlgaccessibility.ui:217
 msgid "Identifier for this macro (toolbar text)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
-#: src/conf/dlgaccessibility.ui:208
+#: src/conf/dlgaccessibility.ui:230
 msgid "Category*"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
-#: src/conf/dlgaccessibility.ui:225
+#: src/conf/dlgaccessibility.ui:247
 #, fuzzy
 #| msgid "Frequency"
 msgid "Sequence*"
 msgstr "顰律"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
-#: src/conf/dlgaccessibility.ui:232
+#: src/conf/dlgaccessibility.ui:254
 msgid "The key sequence to be executed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
-#: src/conf/dlgaccessibility.ui:245
+#: src/conf/dlgaccessibility.ui:267
 msgid "Delay"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
-#: src/conf/dlgaccessibility.ui:252
+#: src/conf/dlgaccessibility.ui:274
 msgid "ms"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
-#: src/conf/dlgaccessibility.ui:268
+#: src/conf/dlgaccessibility.ui:290
 #, fuzzy
 msgid "Description"
 msgstr "已註冊"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
-#: src/conf/dlgaccessibility.ui:275
+#: src/conf/dlgaccessibility.ui:297
 msgid "A description for this macro"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlgaccessibility.ui:306
+#: src/conf/dlgaccessibility.ui:328
 #, fuzzy
 #| msgid "Configure SFLphone"
 msgid "Shortcut"
 msgstr "配置SFLphone"
 
 #. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
-#: src/conf/dlgaccessibility.ui:339
+#: src/conf/dlgaccessibility.ui:361
 msgid "Info"
 msgstr ""
 
@@ -1519,16 +1519,16 @@ msgstr[0] ""
 msgid "No registered accounts"
 msgstr "沒有已註冊帳戶"
 
-#: src/klib/macromodel.cpp:94 src/klib/macromodel.cpp:287
+#: src/klib/macromodel.cpp:94 src/klib/macromodel.cpp:295
 msgctxt "Other category"
 msgid "Other"
 msgstr ""
 
-#: src/klib/macromodel.cpp:182
+#: src/klib/macromodel.cpp:190
 msgid "Macros"
 msgstr ""
 
-#: src/klib/macromodel.cpp:286
+#: src/klib/macromodel.cpp:294
 msgctxt "New macro"
 msgid "New"
 msgstr ""
