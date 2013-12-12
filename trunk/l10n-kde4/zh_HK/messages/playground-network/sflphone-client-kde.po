@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-11 01:41+0000\n"
+"POT-Creation-Date: 2013-12-12 01:41+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -289,7 +289,7 @@ msgstr ""
 msgid "Pickup"
 msgstr "接電話"
 
-#: src/actioncollection.cpp:90 src/sflphoneview.cpp:698
+#: src/actioncollection.cpp:90 src/sflphoneview.cpp:761
 msgctxt "Mute the current audio device"
 msgid "Mute"
 msgstr ""
@@ -467,8 +467,8 @@ msgstr ""
 #. i18n: ectx: label, entry (displayHistoryDock), group (main)
 #. i18n: ectx: label, entry (displayBookmarkDock), group (main)
 #: src/conf/dlgaccessibility.ui:52 src/klib/sflphone-client-kde.kcfg:216
-#: src/klib/sflphone-client-kde.kcfg:250 src/klib/sflphone-client-kde.kcfg:254
-#: src/klib/sflphone-client-kde.kcfg:258
+#: src/klib/sflphone-client-kde.kcfg:254 src/klib/sflphone-client-kde.kcfg:258
+#: src/klib/sflphone-client-kde.kcfg:262
 msgid "Enable audio feedback from common actions"
 msgstr ""
 
@@ -1313,11 +1313,11 @@ msgstr ""
 msgid "Minimum item height"
 msgstr ""
 
-#: src/conf/dlggeneral.cpp:86
+#: src/conf/dlggeneral.cpp:87
 msgid "Are you sure you want to clear history?"
 msgstr ""
 
-#: src/conf/dlggeneral.cpp:86
+#: src/conf/dlggeneral.cpp:87
 #, fuzzy
 #| msgid "Clear _history"
 msgid "Clear history"
@@ -1418,12 +1418,12 @@ msgstr "重設電話號碼"
 msgid "Prefix dialed numbers with"
 msgstr "號碼前綴"
 
-#: src/conf/dlgpresence.cpp:49
+#: src/conf/dlgpresence.cpp:51
 msgid ""
-"In this table, it is possible to manage different presence states.    The "
+"In this table, it is possible to manage different presence states. The "
 "\"Message\" and \"Present\" values will be exported to the server for every "
-"accounts that support it.    The other fields are designed to make presence "
-"status management easier. Please note that some SIP registrar    have "
+"accounts that support it. The other fields are designed to make presence "
+"status management easier. Please note that some SIP registrar have "
 "incomplete presence status (publishing) support."
 msgstr ""
 
@@ -1437,6 +1437,11 @@ msgstr "下"
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
 #: src/conf/dlgpresence.ui:61
 msgid "Move Up"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:90
+msgid "Track bookmarked number presence"
 msgstr ""
 
 #: src/conf/dlgvideo.cpp:55 src/conf/dlgvideo.cpp:146
@@ -1825,6 +1830,11 @@ msgstr ""
 msgid "Track bookmarked contacts presence"
 msgstr ""
 
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:249
+msgid "List of presence status"
+msgstr ""
+
 #: src/lib/sflphone_const.h:25
 msgid "New call"
 msgstr "新電話"
@@ -1983,7 +1993,7 @@ msgstr ""
 msgid "Used in combination with --send-text"
 msgstr ""
 
-#: src/sflphoneview.cpp:704
+#: src/sflphoneview.cpp:767
 msgctxt "Unmute the current audio device"
 msgid "Unmute"
 msgstr ""
