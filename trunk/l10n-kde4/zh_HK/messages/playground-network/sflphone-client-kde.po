@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-17 01:41+0000\n"
+"POT-Creation-Date: 2013-12-18 01:44+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -255,7 +255,7 @@ msgstr "當您檢查完選定的設置,請點擊\"結束\"來創建帳戶"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
 #: src/actioncollection.cpp:84 src/delegates/contactdelegate.cpp:178
-#: src/delegates/historydelegate.cpp:274 src/delegates/historydelegate.cpp:275
+#: src/delegates/historydelegate.cpp:272 src/delegates/historydelegate.cpp:273
 #: src/lib/sflphone_const.h:31 src/widgets/ui/transfer.ui:105
 msgid "Transfer"
 msgstr "轉接"
@@ -1279,6 +1279,11 @@ msgstr "降噪"
 msgid "Enable dial tone"
 msgstr "啟動鈴聲"
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCPlayDTMFCk)
+#: src/conf/dlgaudiobase.ui:231
+msgid "Mute DTMF"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/dlgdisplaybase.ui:26
 #, fuzzy
@@ -1495,7 +1500,7 @@ msgstr "已註冊"
 msgid "Rate"
 msgstr ""
 
-#: src/delegates/historydelegate.cpp:273
+#: src/delegates/historydelegate.cpp:271
 #, fuzzy
 #| msgid "Preferences"
 msgid "Conference"
