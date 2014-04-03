@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:55+0000\n"
+"POT-Creation-Date: 2014-04-03 01:40+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -114,7 +114,7 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: kstandardaction.cpp:514
+#: kstandardaction.cpp:514 kstandardaction_p.h:96
 msgid "Show &Menubar"
 msgstr "顯示選單列(&M)"
 
@@ -124,7 +124,7 @@ msgstr "顯示選單列(&M)"
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "顯示選單列<p>隱藏選單列後再次顯示它"
 
-#: kstandardaction.cpp:538
+#: kstandardaction.cpp:538 kstandardaction_p.h:98
 msgid "Show St&atusbar"
 msgstr "顯示狀態列(&A)"
 
@@ -137,6 +137,426 @@ msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
 "window used for status information.</p>"
 msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資料。"
+
+#: kstandardaction_p.h:41
+msgid "&New"
+msgstr "開新檔案(&N)"
+
+#: kstandardaction_p.h:41
+#, fuzzy
+#| msgid "Clear shortcut"
+msgid "Create new document"
+msgstr "清除快速鍵"
+
+#: kstandardaction_p.h:42
+msgid "&Open..."
+msgstr "開啟(&O)..."
+
+#: kstandardaction_p.h:42
+#, fuzzy
+#| msgid "Go back one step"
+msgid "Open an existing document"
+msgstr "返回上一個步驟"
+
+#: kstandardaction_p.h:43
+msgid "Open &Recent"
+msgstr "開啟最近的(&R)"
+
+#: kstandardaction_p.h:43
+msgid "Open a document which was recently opened"
+msgstr ""
+
+#: kstandardaction_p.h:44
+msgid "&Save"
+msgstr "儲存(&S)"
+
+#: kstandardaction_p.h:44
+#, fuzzy
+#| msgid "Close Document"
+msgid "Save document"
+msgstr "關閉文件"
+
+#: kstandardaction_p.h:45
+msgid "Save &As..."
+msgstr "另存新檔(&A)..."
+
+#: kstandardaction_p.h:45
+#, fuzzy
+#| msgid "Close Document"
+msgid "Save document under a new name"
+msgstr "關閉文件"
+
+#: kstandardaction_p.h:46
+msgid "Re&vert"
+msgstr "恢復(&V)"
+
+#: kstandardaction_p.h:46
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#: kstandardaction_p.h:47
+msgid "&Close"
+msgstr "關閉(&C)"
+
+#: kstandardaction_p.h:47
+#, fuzzy
+#| msgid "Close Document"
+msgid "Close document"
+msgstr "關閉文件"
+
+#: kstandardaction_p.h:48
+msgid "&Print..."
+msgstr "列印(&P)..."
+
+#: kstandardaction_p.h:48
+#, fuzzy
+#| msgctxt "QAccel"
+#| msgid "Print Screen"
+msgid "Print document"
+msgstr "PrintScreen"
+
+#: kstandardaction_p.h:49
+#, fuzzy
+#| msgid "Print Previe&w..."
+msgid "Print Previe&w"
+msgstr "預覽列印(&W)..."
+
+#: kstandardaction_p.h:49
+msgid "Show a print preview of document"
+msgstr ""
+
+#: kstandardaction_p.h:50
+msgid "&Mail..."
+msgstr "郵寄(&M)..."
+
+#: kstandardaction_p.h:50
+#, fuzzy
+#| msgid "Close Document"
+msgid "Send document by mail"
+msgstr "關閉文件"
+
+#: kstandardaction_p.h:51
+msgid "&Quit"
+msgstr "離開(&Q)"
+
+#: kstandardaction_p.h:51
+msgid "Quit application"
+msgstr "結束應用程式"
+
+#: kstandardaction_p.h:53
+msgid "&Undo"
+msgstr "復原(&U)"
+
+#: kstandardaction_p.h:53
+#, fuzzy
+#| msgid "HTML documentation"
+msgid "Undo last action"
+msgstr "HTML 文件"
+
+#: kstandardaction_p.h:54
+msgid "Re&do"
+msgstr "重做(&D)"
+
+#: kstandardaction_p.h:54
+#, fuzzy
+#| msgid "HTML documentation"
+msgid "Redo last undone action"
+msgstr "HTML 文件"
+
+#: kstandardaction_p.h:55
+msgid "Cu&t"
+msgstr "剪下(&T)"
+
+#: kstandardaction_p.h:55
+msgid "Cut selection to clipboard"
+msgstr ""
+
+#: kstandardaction_p.h:56
+msgid "&Copy"
+msgstr "複製(&C)"
+
+#: kstandardaction_p.h:56
+msgid "Copy selection to clipboard"
+msgstr ""
+
+#: kstandardaction_p.h:57 kstandardaction_p.h:58
+msgid "&Paste"
+msgstr "貼上(&P)"
+
+#: kstandardaction_p.h:57 kstandardaction_p.h:58
+#, fuzzy
+#| msgid "Upload Info"
+msgid "Paste clipboard content"
+msgstr "上傳資訊"
+
+#: kstandardaction_p.h:59
+msgid "C&lear"
+msgstr "清除(&L)"
+
+#: kstandardaction_p.h:60
+msgid "Select &All"
+msgstr "全選(&A)"
+
+#: kstandardaction_p.h:61
+msgid "Dese&lect"
+msgstr "取消選擇(&L)"
+
+#: kstandardaction_p.h:62
+msgid "&Find..."
+msgstr "尋找(&F)..."
+
+#: kstandardaction_p.h:63
+msgid "Find &Next"
+msgstr "尋找下一個(&N)"
+
+#: kstandardaction_p.h:64
+msgid "Find Pre&vious"
+msgstr "尋找上一個(&V)"
+
+#: kstandardaction_p.h:65
+msgid "&Replace..."
+msgstr "取代(&R)..."
+
+#: kstandardaction_p.h:67
+msgid "&Actual Size"
+msgstr "實際大小(&A)"
+
+#: kstandardaction_p.h:67
+msgid "View document at its actual size"
+msgstr ""
+
+#: kstandardaction_p.h:68
+msgid "&Fit to Page"
+msgstr "調整成適合頁面大小(&F)"
+
+#: kstandardaction_p.h:68
+#, fuzzy
+#| msgid "Go to Line"
+msgid "Zoom to fit page in window"
+msgstr "跳至行數"
+
+#: kstandardaction_p.h:69
+msgid "Fit to Page &Width"
+msgstr "調整成適合頁面寬度(&W)"
+
+#: kstandardaction_p.h:69
+msgid "Zoom to fit page width in window"
+msgstr ""
+
+#: kstandardaction_p.h:70
+msgid "Fit to Page &Height"
+msgstr "調整成適合頁面高度(&H)"
+
+#: kstandardaction_p.h:70
+msgid "Zoom to fit page height in window"
+msgstr ""
+
+#: kstandardaction_p.h:71
+msgid "Zoom &In"
+msgstr "放大(&I)"
+
+#: kstandardaction_p.h:72
+msgid "Zoom &Out"
+msgstr "縮小(&O)"
+
+#: kstandardaction_p.h:73
+msgid "&Zoom..."
+msgstr "縮放(&Z)..."
+
+#: kstandardaction_p.h:73
+#, fuzzy
+#| msgid "Select a week"
+msgid "Select zoom level"
+msgstr "選擇一個星期"
+
+#: kstandardaction_p.h:74
+msgid "&Redisplay"
+msgstr "重新顯示(&R)"
+
+#: kstandardaction_p.h:74
+#, fuzzy
+#| msgid "&Redisplay"
+msgid "Redisplay document"
+msgstr "重新顯示(&R)"
+
+#: kstandardaction_p.h:76
+msgid "&Up"
+msgstr "向上(&U)"
+
+#: kstandardaction_p.h:76
+msgid "Go up"
+msgstr ""
+
+#: kstandardaction_p.h:81
+msgid "&Previous Page"
+msgstr "前一頁(&P)"
+
+#: kstandardaction_p.h:81
+#, fuzzy
+#| msgid "&Previous Page"
+msgid "Go to previous page"
+msgstr "前一頁(&P)"
+
+#: kstandardaction_p.h:82
+msgid "&Next Page"
+msgstr "下一頁(&N)"
+
+#: kstandardaction_p.h:82
+#, fuzzy
+#| msgid "Go to Line"
+msgid "Go to next page"
+msgstr "跳至行數"
+
+#: kstandardaction_p.h:83
+msgid "&Go To..."
+msgstr "移至(&G)..."
+
+#: kstandardaction_p.h:84
+msgid "&Go to Page..."
+msgstr "移至頁面(&G)..."
+
+#: kstandardaction_p.h:85
+msgid "&Go to Line..."
+msgstr "跳至行數(&G)..."
+
+#: kstandardaction_p.h:86
+msgid "&First Page"
+msgstr "第一頁(&F)"
+
+#: kstandardaction_p.h:86
+#, fuzzy
+#| msgid "Go to Line"
+msgid "Go to first page"
+msgstr "跳至行數"
+
+#: kstandardaction_p.h:87
+msgid "&Last Page"
+msgstr "最後一頁(&L)"
+
+#: kstandardaction_p.h:87
+#, fuzzy
+#| msgid "&Go to Page..."
+msgid "Go to last page"
+msgstr "移至頁面(&G)..."
+
+#: kstandardaction_p.h:88
+msgid "&Back"
+msgstr "上一步(&B)"
+
+#: kstandardaction_p.h:88
+#, fuzzy
+#| msgid "Go back one step"
+msgid "Go back in document"
+msgstr "返回上一個步驟"
+
+#: kstandardaction_p.h:89
+#, fuzzy
+#| msgctxt "go forward"
+#| msgid "&Forward"
+msgid "&Forward"
+msgstr "往前(&F)"
+
+#: kstandardaction_p.h:89
+#, fuzzy
+#| msgid "Go forward one step"
+msgid "Go forward in document"
+msgstr "前進到下一個步驟"
+
+#: kstandardaction_p.h:91
+msgid "&Add Bookmark"
+msgstr "加入書籤(&A)"
+
+#: kstandardaction_p.h:92
+msgid "&Edit Bookmarks..."
+msgstr "編輯書籤(&E)..."
+
+#: kstandardaction_p.h:94
+msgid "&Spelling..."
+msgstr "拼字檢查(&S)..."
+
+#: kstandardaction_p.h:94
+#, fuzzy
+#| msgid "Check Spelling"
+msgid "Check spelling in document"
+msgstr "拼字檢查"
+
+#: kstandardaction_p.h:96
+#, fuzzy
+#| msgid "Show &Menubar"
+msgid "Show or hide menubar"
+msgstr "顯示選單列(&M)"
+
+#: kstandardaction_p.h:97
+msgid "Show &Toolbar"
+msgstr "顯示工具列(&T)"
+
+#: kstandardaction_p.h:97
+#, fuzzy
+#| msgid "Show &Toolbar"
+msgid "Show or hide toolbar"
+msgstr "顯示工具列(&T)"
+
+#: kstandardaction_p.h:98
+#, fuzzy
+#| msgid "Show St&atusbar"
+msgid "Show or hide statusbar"
+msgstr "顯示狀態列(&A)"
+
+#: kstandardaction_p.h:99
+msgid "F&ull Screen Mode"
+msgstr "全螢幕模式(&U)"
+
+#: kstandardaction_p.h:100
+msgid "&Save Settings"
+msgstr "儲存設定(&S)"
+
+#: kstandardaction_p.h:101
+msgid "Configure S&hortcuts..."
+msgstr "設定快速鍵(&H)..."
+
+#: kstandardaction_p.h:102
+#, kde-format
+msgid "&Configure %1..."
+msgstr "設定 %1(&C)..."
+
+#: kstandardaction_p.h:103
+msgid "Configure Tool&bars..."
+msgstr "設定工具列(&B)..."
+
+#: kstandardaction_p.h:104
+msgid "Configure &Notifications..."
+msgstr "設定通知(&N)..."
+
+#: kstandardaction_p.h:109
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 手冊(&H)"
+
+#: kstandardaction_p.h:110
+msgid "What's &This?"
+msgstr "這是什麼？(&T)"
+
+#: kstandardaction_p.h:111
+msgid "Tip of the &Day"
+msgstr "每日小祕訣(&D)"
+
+#: kstandardaction_p.h:112
+msgid "&Report Bug..."
+msgstr "報告問題(&R)..."
+
+#: kstandardaction_p.h:113
+#, fuzzy
+msgid "Switch Application &Language..."
+msgstr "結束應用程式"
+
+#: kstandardaction_p.h:114
+#, kde-format
+msgid "&About %1"
+msgstr "關於 %1(&A)"
+
+#: kstandardaction_p.h:115
+msgid "About &KDE"
+msgstr "關於 KDE(&K)"
 
 #~ msgid "Name"
 #~ msgstr "名稱"
@@ -263,9 +683,6 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 
 #~ msgid "Redo: %1"
 #~ msgstr "重做：%1"
-
-#~ msgid "&Undo"
-#~ msgstr "復原(&U)"
 
 #~ msgid "&Redo"
 #~ msgstr "重做(&R)"
@@ -817,9 +1234,6 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 
 #~ msgid "Spell Checking"
 #~ msgstr "拼字檢查程式"
-
-#~ msgid "&Back"
-#~ msgstr "上一步(&B)"
 
 #~ msgctxt "Opposite to Back"
 #~ msgid "&Next"
@@ -2564,274 +2978,6 @@ msgstr "顯示狀態列<p>顯示狀態列，它會在視窗底部顯示狀態資
 #~| msgid "Ambiguous \"%1\" not handled"
 #~ msgid "Ambiguous shortcut detected"
 #~ msgstr "含糊的 \"%1\" 沒有被處理"
-
-#~ msgid "&New"
-#~ msgstr "開新檔案(&N)"
-
-#, fuzzy
-#~| msgid "Clear shortcut"
-#~ msgid "Create new document"
-#~ msgstr "清除快速鍵"
-
-#~ msgid "&Open..."
-#~ msgstr "開啟(&O)..."
-
-#~ msgid "Open &Recent"
-#~ msgstr "開啟最近的(&R)"
-
-#~ msgid "&Save"
-#~ msgstr "儲存(&S)"
-
-#, fuzzy
-#~| msgid "Close Document"
-#~ msgid "Save document"
-#~ msgstr "關閉文件"
-
-#~ msgid "Save &As..."
-#~ msgstr "另存新檔(&A)..."
-
-#~ msgid "Re&vert"
-#~ msgstr "恢復(&V)"
-
-#~ msgid "&Close"
-#~ msgstr "關閉(&C)"
-
-#, fuzzy
-#~| msgid "Close Document"
-#~ msgid "Close document"
-#~ msgstr "關閉文件"
-
-#~ msgid "&Print..."
-#~ msgstr "列印(&P)..."
-
-#, fuzzy
-#~| msgctxt "QAccel"
-#~| msgid "Print Screen"
-#~ msgid "Print document"
-#~ msgstr "PrintScreen"
-
-#, fuzzy
-#~| msgid "Print Previe&w..."
-#~ msgid "Print Previe&w"
-#~ msgstr "預覽列印(&W)..."
-
-#~ msgid "&Mail..."
-#~ msgstr "郵寄(&M)..."
-
-#~ msgid "&Quit"
-#~ msgstr "離開(&Q)"
-
-#~ msgid "Quit application"
-#~ msgstr "結束應用程式"
-
-#~ msgid "Re&do"
-#~ msgstr "重做(&D)"
-
-#, fuzzy
-#~| msgid "HTML documentation"
-#~ msgid "Redo last undone action"
-#~ msgstr "HTML 文件"
-
-#~ msgid "Cu&t"
-#~ msgstr "剪下(&T)"
-
-#~ msgid "&Copy"
-#~ msgstr "複製(&C)"
-
-#~ msgid "&Paste"
-#~ msgstr "貼上(&P)"
-
-#, fuzzy
-#~| msgid "Upload Info"
-#~ msgid "Paste clipboard content"
-#~ msgstr "上傳資訊"
-
-#~ msgid "C&lear"
-#~ msgstr "清除(&L)"
-
-#~ msgid "Select &All"
-#~ msgstr "全選(&A)"
-
-#~ msgid "Dese&lect"
-#~ msgstr "取消選擇(&L)"
-
-#~ msgid "&Find..."
-#~ msgstr "尋找(&F)..."
-
-#~ msgid "Find &Next"
-#~ msgstr "尋找下一個(&N)"
-
-#~ msgid "Find Pre&vious"
-#~ msgstr "尋找上一個(&V)"
-
-#~ msgid "&Replace..."
-#~ msgstr "取代(&R)..."
-
-#~ msgid "&Actual Size"
-#~ msgstr "實際大小(&A)"
-
-#~ msgid "&Fit to Page"
-#~ msgstr "調整成適合頁面大小(&F)"
-
-#~ msgid "Fit to Page &Width"
-#~ msgstr "調整成適合頁面寬度(&W)"
-
-#~ msgid "Fit to Page &Height"
-#~ msgstr "調整成適合頁面高度(&H)"
-
-#~ msgid "Zoom &In"
-#~ msgstr "放大(&I)"
-
-#~ msgid "Zoom &Out"
-#~ msgstr "縮小(&O)"
-
-#~ msgid "&Zoom..."
-#~ msgstr "縮放(&Z)..."
-
-#, fuzzy
-#~| msgid "Select a week"
-#~ msgid "Select zoom level"
-#~ msgstr "選擇一個星期"
-
-#~ msgid "&Redisplay"
-#~ msgstr "重新顯示(&R)"
-
-#, fuzzy
-#~| msgid "&Redisplay"
-#~ msgid "Redisplay document"
-#~ msgstr "重新顯示(&R)"
-
-#~ msgid "&Up"
-#~ msgstr "向上(&U)"
-
-#~ msgid "&Previous Page"
-#~ msgstr "前一頁(&P)"
-
-#, fuzzy
-#~| msgid "&Previous Page"
-#~ msgid "Go to previous page"
-#~ msgstr "前一頁(&P)"
-
-#~ msgid "&Next Page"
-#~ msgstr "下一頁(&N)"
-
-#, fuzzy
-#~| msgid "Go to Line"
-#~ msgid "Go to next page"
-#~ msgstr "跳至行數"
-
-#~ msgid "&Go To..."
-#~ msgstr "移至(&G)..."
-
-#~ msgid "&Go to Page..."
-#~ msgstr "移至頁面(&G)..."
-
-#~ msgid "&Go to Line..."
-#~ msgstr "跳至行數(&G)..."
-
-#~ msgid "&First Page"
-#~ msgstr "第一頁(&F)"
-
-#, fuzzy
-#~| msgid "Go to Line"
-#~ msgid "Go to first page"
-#~ msgstr "跳至行數"
-
-#~ msgid "&Last Page"
-#~ msgstr "最後一頁(&L)"
-
-#, fuzzy
-#~| msgid "&Go to Page..."
-#~ msgid "Go to last page"
-#~ msgstr "移至頁面(&G)..."
-
-#, fuzzy
-#~| msgid "Go back one step"
-#~ msgid "Go back in document"
-#~ msgstr "返回上一個步驟"
-
-#, fuzzy
-#~| msgctxt "go forward"
-#~| msgid "&Forward"
-#~ msgid "&Forward"
-#~ msgstr "往前(&F)"
-
-#, fuzzy
-#~| msgid "Go forward one step"
-#~ msgid "Go forward in document"
-#~ msgstr "前進到下一個步驟"
-
-#~ msgid "&Add Bookmark"
-#~ msgstr "加入書籤(&A)"
-
-#~ msgid "&Edit Bookmarks..."
-#~ msgstr "編輯書籤(&E)..."
-
-#~ msgid "&Spelling..."
-#~ msgstr "拼字檢查(&S)..."
-
-#, fuzzy
-#~| msgid "Check Spelling"
-#~ msgid "Check spelling in document"
-#~ msgstr "拼字檢查"
-
-#, fuzzy
-#~| msgid "Show &Menubar"
-#~ msgid "Show or hide menubar"
-#~ msgstr "顯示選單列(&M)"
-
-#~ msgid "Show &Toolbar"
-#~ msgstr "顯示工具列(&T)"
-
-#, fuzzy
-#~| msgid "Show &Toolbar"
-#~ msgid "Show or hide toolbar"
-#~ msgstr "顯示工具列(&T)"
-
-#, fuzzy
-#~| msgid "Show St&atusbar"
-#~ msgid "Show or hide statusbar"
-#~ msgstr "顯示狀態列(&A)"
-
-#~ msgid "F&ull Screen Mode"
-#~ msgstr "全螢幕模式(&U)"
-
-#~ msgid "&Save Settings"
-#~ msgstr "儲存設定(&S)"
-
-#~ msgid "Configure S&hortcuts..."
-#~ msgstr "設定快速鍵(&H)..."
-
-#~ msgid "&Configure %1..."
-#~ msgstr "設定 %1(&C)..."
-
-#~ msgid "Configure Tool&bars..."
-#~ msgstr "設定工具列(&B)..."
-
-#~ msgid "Configure &Notifications..."
-#~ msgstr "設定通知(&N)..."
-
-#~ msgid "%1 &Handbook"
-#~ msgstr "%1 手冊(&H)"
-
-#~ msgid "What's &This?"
-#~ msgstr "這是什麼？(&T)"
-
-#~ msgid "Tip of the &Day"
-#~ msgstr "每日小祕訣(&D)"
-
-#~ msgid "&Report Bug..."
-#~ msgstr "報告問題(&R)..."
-
-#, fuzzy
-#~ msgid "Switch Application &Language..."
-#~ msgstr "結束應用程式"
-
-#~ msgid "&About %1"
-#~ msgstr "關於 %1(&A)"
-
-#~ msgid "About &KDE"
-#~ msgstr "關於 KDE(&K)"
 
 #, fuzzy
 #~| msgid "Exit F&ull Screen Mode"
