@@ -212,6 +212,20 @@ msgstr ""
 "%1 的作者是：\n"
 "%2"
 
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:51
+#, fuzzy, qt-format
+#| msgid "Content information: %1\n"
+msgctxt "KPluginLoader|"
+msgid "Could not find plugin '%1' for application '%2'"
+msgstr "內容資訊:：%1\n"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:222
+#, fuzzy, qt-format
+#| msgid "The library %1 does not offer an %2 function."
+msgctxt "KPluginLoader|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "函數庫 %1 不提供 %2 這個功能。"
+
 #. MetricBinaryDialect size in bytes
 #: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:88
 #, fuzzy, qt-format
@@ -2800,11 +2814,6 @@ msgstr "%1 %2"
 #, fuzzy
 #~ msgid "KLibLoader: Unknown error"
 #~ msgstr "不明的錯誤"
-
-#, fuzzy
-#~| msgid "Content information: %1\n"
-#~ msgid "Could not find plugin '%1' for application '%2'"
-#~ msgstr "內容資訊:：%1\n"
 
 #, fuzzy
 #~| msgid "The library %1 does not offer a KDE compatible factory."
@@ -12863,9 +12872,6 @@ msgstr "%1 %2"
 #~| msgid "Preview not available."
 #~ msgid "No preview available."
 #~ msgstr "無法提供預覽功能。"
-
-#~ msgid "The library %1 does not offer an %2 function."
-#~ msgstr "函數庫 %1 不提供 %2 這個功能。"
 
 #~ msgid "The library %1 does not offer a KDE compatible factory."
 #~ msgstr "函數庫 %1 不提供 KDE 相容的樣版。"
