@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-10 01:45+0000\n"
+"POT-Creation-Date: 2014-05-11 01:50+0000\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -404,7 +404,7 @@ msgid "100%"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:355 part.cpp:2415 ui/pageview.cpp:3749
+#: conf/dlggeneralbase.ui:355 part.cpp:2423 ui/pageview.cpp:3749
 msgid "Fit Width"
 msgstr "符合闊度"
 
@@ -1271,26 +1271,6 @@ msgid ""
 "Archive"
 msgstr ""
 
-#: core/document.cpp:1664
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"已到達文件結尾。\n"
-"要從開始部份繼續嗎？"
-
-#: core/document.cpp:1664
-#, fuzzy
-#| msgid ""
-#| "End of document reached.\n"
-#| "Continue from the beginning?"
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the bottom?"
-msgstr ""
-"已到達文件結尾。\n"
-"要從開始部份繼續嗎？"
-
 #: core/document.cpp:2189
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
@@ -1303,133 +1283,133 @@ msgctxt "remove a collection of annotations from the page"
 msgid "remove annotations"
 msgstr "表現"
 
-#: core/document.cpp:3644 core/document.cpp:3652
+#: core/document.cpp:3636 core/document.cpp:3644
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:3665
+#: core/document.cpp:3657
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:3894
+#: core/document.cpp:3886
 #, fuzzy
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:3896
+#: core/document.cpp:3888
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:3898
+#: core/document.cpp:3890
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:3900
+#: core/document.cpp:3892
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:3902
+#: core/document.cpp:3894
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:3904
+#: core/document.cpp:3896
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:3906
+#: core/document.cpp:3898
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:3908
+#: core/document.cpp:3900
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:3910
+#: core/document.cpp:3902
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:3912
+#: core/document.cpp:3904
 msgid "The page print size is invalid"
 msgstr ""
 
-#: core/document.cpp:4751
+#: core/document.cpp:4746
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:4754
+#: core/document.cpp:4749
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:4757
+#: core/document.cpp:4752
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:4760
+#: core/document.cpp:4755
 #, fuzzy
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:4763
+#: core/document.cpp:4758
 #, fuzzy
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:4766
+#: core/document.cpp:4761
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:4769
+#: core/document.cpp:4764
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:4772
+#: core/document.cpp:4767
 #, fuzzy
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:4775
+#: core/document.cpp:4770
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:4778
+#: core/document.cpp:4773
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:4781
+#: core/document.cpp:4776
 #, fuzzy
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:4784
+#: core/document.cpp:4779
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:4787
+#: core/document.cpp:4782
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:4790
+#: core/document.cpp:4785
 #, fuzzy
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:4793
+#: core/document.cpp:4788
 #, fuzzy
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:4796
+#: core/document.cpp:4791
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Size"
@@ -1499,24 +1479,24 @@ msgctxt "Edit the state of a group of form buttons"
 msgid "edit form button states"
 msgstr ""
 
-#: core/generator.cpp:621
+#: core/generator.cpp:629
 msgid "Plain &Text..."
 msgstr ""
 
-#: core/generator.cpp:624
+#: core/generator.cpp:632
 #, fuzzy
 #| msgid "KPDF"
 msgid "PDF"
 msgstr "KPDF"
 
-#: core/generator.cpp:629
+#: core/generator.cpp:637
 #, fuzzy
 #| msgid "Current mantainer"
 msgctxt "This is the document format"
 msgid "OpenDocument Text"
 msgstr "目前維護者"
 
-#: core/generator.cpp:633
+#: core/generator.cpp:641
 msgctxt "This is the document format"
 msgid "HTML"
 msgstr ""
@@ -1565,407 +1545,407 @@ msgstr ""
 msgid "Viewer Toolbar"
 msgstr ""
 
-#: part.cpp:159 shell/main.cpp:121 ui/annotationwidgets.cpp:333
+#: part.cpp:158 shell/main.cpp:121 ui/annotationwidgets.cpp:333
 #: ui/sidebar.cpp:705
 msgid "Okular"
 msgstr ""
 
-#: part.cpp:380
+#: part.cpp:379
 #, fuzzy
 msgid "Contents"
 msgstr "連續(&C)"
 
-#: part.cpp:390
+#: part.cpp:389
 msgid "Thumbnails"
 msgstr "縮圖"
 
-#: part.cpp:395
+#: part.cpp:394
 msgid "Reviews"
 msgstr ""
 
-#: part.cpp:400
+#: part.cpp:399
 msgid "Bookmarks"
 msgstr ""
 
-#: part.cpp:434
+#: part.cpp:433
 msgid ""
 "This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
 "here to see them</a> or go to File -> Embedded Files."
 msgstr ""
 
-#: part.cpp:574
+#: part.cpp:581
 msgctxt "Previous page"
 msgid "Previous"
 msgstr ""
 
-#: part.cpp:575
+#: part.cpp:582
 #, fuzzy
 #| msgid "Show bookmarked pages only"
 msgid "Go back to the Previous Page"
 msgstr "只顯示標有書籤的頁面"
 
-#: part.cpp:576
+#: part.cpp:583
 msgid "Moves to the previous page of the document"
 msgstr "移至文件前頁"
 
-#: part.cpp:586
+#: part.cpp:593
 #, fuzzy
 msgctxt "Next page"
 msgid "Next"
 msgstr "符合頁面"
 
-#: part.cpp:587
+#: part.cpp:594
 msgid "Advance to the Next Page"
 msgstr ""
 
-#: part.cpp:588
+#: part.cpp:595
 msgid "Moves to the next page of the document"
 msgstr "移至文件次頁"
 
-#: part.cpp:599
+#: part.cpp:606
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "Beginning of the document"
 msgstr "正在重新載入文件..."
 
-#: part.cpp:600
+#: part.cpp:607
 #, fuzzy
 #| msgid "Moves to the next page of the document"
 msgid "Moves to the beginning of the document"
 msgstr "移至文件次頁"
 
-#: part.cpp:604
+#: part.cpp:611
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "End of the document"
 msgstr "正在重新載入文件..."
 
-#: part.cpp:605
+#: part.cpp:612
 #, fuzzy
 #| msgid "Moves to the next page of the document"
 msgid "Moves to the end of the document"
 msgstr "移至文件次頁"
 
-#: part.cpp:616 part.cpp:2027 ui/bookmarklist.cpp:249 ui/bookmarklist.cpp:276
+#: part.cpp:623 part.cpp:2035 ui/bookmarklist.cpp:249 ui/bookmarklist.cpp:276
 msgid "Rename Bookmark"
 msgstr ""
 
-#: part.cpp:618
+#: part.cpp:625
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "Rename the current bookmark"
 msgstr "正在重新載入文件..."
 
-#: part.cpp:622
+#: part.cpp:629
 msgid "Previous Bookmark"
 msgstr ""
 
-#: part.cpp:624
+#: part.cpp:631
 #, fuzzy
 #| msgid "Show bookmarked pages only"
 msgid "Go to the previous bookmark"
 msgstr "只顯示標有書籤的頁面"
 
-#: part.cpp:628
+#: part.cpp:635
 msgid "Next Bookmark"
 msgstr ""
 
-#: part.cpp:630
+#: part.cpp:637
 #, fuzzy
 #| msgid "Show bookmarked pages only"
 msgid "Go to the next bookmark"
 msgstr "只顯示標有書籤的頁面"
 
-#: part.cpp:656
+#: part.cpp:663
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Okular..."
 msgstr "設定 KPDF..."
 
-#: part.cpp:661
+#: part.cpp:668
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Viewer..."
 msgstr "設定 KPDF..."
 
-#: part.cpp:668
+#: part.cpp:675
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Viewer Backends..."
 msgstr "設定 KPDF..."
 
-#: part.cpp:672
+#: part.cpp:679
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Backends..."
 msgstr "設定 KPDF..."
 
-#: part.cpp:685 ui/annotationpopup.cpp:77 ui/annotationpopup.cpp:109
+#: part.cpp:692 ui/annotationpopup.cpp:77 ui/annotationpopup.cpp:109
 #: ui/propertiesdialog.cpp:50
 msgid "&Properties"
 msgstr "屬性(&P)"
 
-#: part.cpp:699
+#: part.cpp:706
 msgid "About Backend"
 msgstr ""
 
-#: part.cpp:704
+#: part.cpp:711
 msgid "Reloa&d"
 msgstr ""
 
-#: part.cpp:706
+#: part.cpp:713
 #, fuzzy
 #| msgid "Reloading the document..."
 msgid "Reload the current document from disk."
 msgstr "正在重新載入文件..."
 
-#: part.cpp:712
+#: part.cpp:719
 msgid "Close &Find Bar"
 msgstr ""
 
-#: part.cpp:716
+#: part.cpp:723
 #, fuzzy
 #| msgid "Pages"
 msgid "Page Number"
 msgstr "頁："
 
-#: part.cpp:749
+#: part.cpp:756
 #, fuzzy
 #| msgid "Save to File..."
 msgid "Save &Copy As..."
 msgstr "儲存至檔案..."
 
-#: part.cpp:758
+#: part.cpp:765
 msgid "Show &Navigation Panel"
 msgstr "顯示導覽面版(&N)"
 
-#: part.cpp:766
+#: part.cpp:773
 msgid "Show &Page Bar"
 msgstr ""
 
-#: part.cpp:772
+#: part.cpp:779
 #, fuzzy
 #| msgid "Embedded"
 msgid "&Embedded Files"
 msgstr "內嵌的"
 
-#: part.cpp:778
+#: part.cpp:785
 msgid "E&xport As"
 msgstr ""
 
-#: part.cpp:788
+#: part.cpp:795
 #, fuzzy
 #| msgid "Document to open"
 msgctxt "A document format, Okular-specific"
 msgid "Document Archive"
 msgstr "要開啟的文件"
 
-#: part.cpp:794
+#: part.cpp:801
 msgid "P&resentation"
 msgstr "表現(&R)"
 
-#: part.cpp:801
+#: part.cpp:808
 msgid "&Import PostScript as PDF..."
 msgstr ""
 
-#: part.cpp:806
+#: part.cpp:813
 msgid "&Get Books From Internet..."
 msgstr ""
 
-#: part.cpp:813
+#: part.cpp:820
 msgid "Switch Blackscreen Mode"
 msgstr ""
 
-#: part.cpp:819
+#: part.cpp:826
 msgid "Toggle Drawing Mode"
 msgstr ""
 
-#: part.cpp:824
+#: part.cpp:831
 msgid "Erase Drawings"
 msgstr ""
 
-#: part.cpp:829
+#: part.cpp:836
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Annotations..."
 msgstr "設定 KPDF..."
 
-#: part.cpp:834
+#: part.cpp:841
 #, fuzzy
 #| msgid "Presentation"
 msgid "Play/Pause Presentation"
 msgstr "表現"
 
-#: part.cpp:979
+#: part.cpp:987
 #, kde-format
 msgid "Could not open '%1'. File does not exist"
 msgstr ""
 
-#: part.cpp:1028
+#: part.cpp:1036
 #, kde-format
 msgid "The loading of %1 has been canceled."
 msgstr ""
 
-#: part.cpp:1044
+#: part.cpp:1052
 #, kde-format
 msgid "Could not open %1. Reason: %2"
 msgstr ""
 
-#: part.cpp:1075
+#: part.cpp:1083
 #, fuzzy
 #| msgid "Configure KPDF..."
 msgid "Configure Viewer Backends"
 msgstr "設定 KPDF..."
 
-#: part.cpp:1079
+#: part.cpp:1087
 msgid "Configure Backends"
 msgstr ""
 
-#: part.cpp:1177
+#: part.cpp:1185
 msgid ""
 "The program \"ps2pdf\" was not found, so Okular can not import PS files "
 "using it."
 msgstr ""
 
-#: part.cpp:1177
+#: part.cpp:1185
 msgid "ps2pdf not found"
 msgstr ""
 
-#: part.cpp:1196
+#: part.cpp:1204
 msgid "Importing PS file as PDF (this may take a while)..."
 msgstr ""
 
-#: part.cpp:1291
+#: part.cpp:1299
 #, fuzzy
 #| msgid "Please insert the password to read the document:"
 msgid "Please enter the password to read the document:"
 msgstr "請輸入密碼以閱讀文件:"
 
-#: part.cpp:1293
+#: part.cpp:1301
 msgid "Incorrect password. Try again:"
 msgstr "密碼不正確。請再試:"
 
-#: part.cpp:1298
+#: part.cpp:1306
 #, fuzzy
 #| msgid "Document to open"
 msgid "Document Password"
 msgstr "要開啟的文件"
 
-#: part.cpp:1347
+#: part.cpp:1355
 msgid "This document has XFA forms, which are currently <b>unsupported</b>."
 msgstr ""
 
-#: part.cpp:1355
+#: part.cpp:1363
 msgid ""
 "This document has forms. Click on the button to interact with them, or use "
 "View -> Show Forms."
 msgstr ""
 
-#: part.cpp:1423
+#: part.cpp:1431
 msgid ""
 "The document requested to be launched in presentation mode.\n"
 "Do you want to allow it?"
 msgstr ""
 
-#: part.cpp:1425
+#: part.cpp:1433
 #, fuzzy
 msgid "Presentation Mode"
 msgstr "表現模式選項"
 
-#: part.cpp:1426
+#: part.cpp:1434
 msgid "Allow"
 msgstr ""
 
-#: part.cpp:1426
+#: part.cpp:1434
 #, fuzzy
 msgid "Allow the presentation mode"
 msgstr "表現模式選項"
 
-#: part.cpp:1427
+#: part.cpp:1435
 msgid "Do Not Allow"
 msgstr ""
 
-#: part.cpp:1427
+#: part.cpp:1435
 #, fuzzy
 #| msgid "Options for Presentation Mode"
 msgid "Do not allow the presentation mode"
 msgstr "表現模式選項"
 
-#: part.cpp:1487
+#: part.cpp:1495
 #, fuzzy, kde-format
 #| msgid "Could not open %1"
 msgid "Could not open %1"
 msgstr "無法開啟 %1"
 
-#: part.cpp:1499
+#: part.cpp:1507
 msgid "Do you want to save your annotation changes or discard them?"
 msgstr ""
 
-#: part.cpp:1500
+#: part.cpp:1508
 #, fuzzy
 #| msgid "Current mantainer"
 msgid "Close Document"
 msgstr "目前維護者"
 
-#: part.cpp:1606
+#: part.cpp:1614
 msgid ""
 "This link points to a close document action that does not work when using "
 "the embedded viewer."
 msgstr ""
 
-#: part.cpp:1612
+#: part.cpp:1620
 msgid ""
 "This link points to a quit application action that does not work when using "
 "the embedded viewer."
 msgstr ""
 
-#: part.cpp:1708 part.cpp:1727
+#: part.cpp:1716 part.cpp:1735
 msgid "Reloading the document..."
 msgstr "正在重新載入文件..."
 
-#: part.cpp:1856 part.cpp:2411 ui/bookmarklist.cpp:250
+#: part.cpp:1864 part.cpp:2419 ui/bookmarklist.cpp:250
 msgid "Remove Bookmark"
 msgstr ""
 
-#: part.cpp:1915
+#: part.cpp:1923
 msgid "Go to Page"
 msgstr "跳至頁"
 
-#: part.cpp:1930
+#: part.cpp:1938
 msgid "&Page:"
 msgstr "頁(&P)："
 
-#: part.cpp:2027
+#: part.cpp:2035
 msgid "Enter the new name of the bookmark:"
 msgstr ""
 
-#: part.cpp:2065
+#: part.cpp:2073
 msgid "Rename this Bookmark"
 msgstr ""
 
-#: part.cpp:2164
+#: part.cpp:2172
 msgid ""
 "Your annotations will not be exported.\n"
 "You can export the annotated document using File -> Export As -> Document "
 "Archive"
 msgstr ""
 
-#: part.cpp:2185
+#: part.cpp:2193
 msgid "Could not open the temporary file for saving."
 msgstr ""
 
-#: part.cpp:2203 part.cpp:2215 part.cpp:2263 part.cpp:2587
+#: part.cpp:2211 part.cpp:2223 part.cpp:2271 part.cpp:2595
 #, kde-format
 msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr ""
 
-#: part.cpp:2207
+#: part.cpp:2215
 #, fuzzy, kde-format
 #| msgid "File not saved."
 msgid "File could not be saved in '%1'. %2"
 msgstr "檔案未儲存。"
 
-#: part.cpp:2248
+#: part.cpp:2256
 #, kde-format
 msgid ""
 "Okular cannot copy %1 to the specified location.\n"
@@ -1973,58 +1953,58 @@ msgid ""
 "The document does not exist anymore."
 msgstr ""
 
-#: part.cpp:2408 ui/annotationmodel.cpp:305
+#: part.cpp:2416 ui/annotationmodel.cpp:305
 #, kde-format
 msgid "Page %1"
 msgstr "頁 %1"
 
-#: part.cpp:2413
+#: part.cpp:2421
 msgid "Add Bookmark"
 msgstr ""
 
-#: part.cpp:2430
+#: part.cpp:2438
 msgid "Tools"
 msgstr ""
 
-#: part.cpp:2687
+#: part.cpp:2695
 msgid "Printing this document is not allowed."
 msgstr ""
 
-#: part.cpp:2696
+#: part.cpp:2704
 msgid ""
 "Could not print the document. Unknown error. Please report to bugs.kde.org"
 msgstr ""
 
-#: part.cpp:2700
+#: part.cpp:2708
 #, kde-format
 msgid ""
 "Could not print the document. Detailed error is \"%1\". Please report to "
 "bugs.kde.org"
 msgstr ""
 
-#: part.cpp:2755
+#: part.cpp:2807
 msgid "Go to the place you were before"
 msgstr ""
 
-#: part.cpp:2759
+#: part.cpp:2811
 msgid "Go to the place you were after"
 msgstr ""
 
-#: part.cpp:2785
+#: part.cpp:2837
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not create temporary file "
 "<nobr><strong>%1</strong></nobr>.</qt>"
 msgstr ""
 
-#: part.cpp:2803
+#: part.cpp:2855
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
 "strong></nobr> for uncompression. The file will not be loaded.</qt>"
 msgstr ""
 
-#: part.cpp:2806
+#: part.cpp:2858
 msgid ""
 "<qt>This error typically occurs if you do not have enough permissions to "
 "read the file. You can check ownership and permissions if you right-click on "
@@ -2032,20 +2012,20 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: part.cpp:2830
+#: part.cpp:2882
 #, kde-format
 msgid ""
 "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
 "%1</strong></nobr>. The file will not be loaded.</qt>"
 msgstr ""
 
-#: part.cpp:2833
+#: part.cpp:2885
 msgid ""
 "<qt>This error typically occurs if the file is corrupt. If you want to be "
 "sure, try to decompress the file manually using command-line tools.</qt>"
 msgstr ""
 
-#: part.cpp:2862
+#: part.cpp:2914
 msgid "No Bookmarks"
 msgstr ""
 
@@ -3441,6 +3421,26 @@ msgstr "類型"
 #, fuzzy
 msgid "File"
 msgstr "標題"
+
+#: ui/searchlineedit.cpp:257
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+"已到達文件結尾。\n"
+"要從開始部份繼續嗎？"
+
+#: ui/searchlineedit.cpp:257
+#, fuzzy
+#| msgid ""
+#| "End of document reached.\n"
+#| "Continue from the beginning?"
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the bottom?"
+msgstr ""
+"已到達文件結尾。\n"
+"要從開始部份繼續嗎？"
 
 #: ui/searchwidget.cpp:40
 msgid "Enter at least 3 letters to filter pages"
