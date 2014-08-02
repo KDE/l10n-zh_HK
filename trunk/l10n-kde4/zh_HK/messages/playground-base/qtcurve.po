@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QtCurve-KDE4 1.8.3\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-28 01:54+0000\n"
+"POT-Creation-Date: 2014-08-02 01:56+0000\n"
 "PO-Revision-Date: 2011-01-03 14:20+0800\n"
 "Last-Translator: 綠色聖光 <lishaohui.qd@163.com>\n"
 "Language-Team: 綠色聖光 <lishaohui.qd@163.com>\n"
@@ -1012,10 +1012,16 @@ msgid "Sorry, failed to load file."
 msgstr "抱歉，匯入檔案失敗。"
 
 #: qt4/config/qtcurveconfig.cpp:2779
+#, fuzzy
+#| msgid ""
+#| "<p>In which format would you like to export the QtCurve settings?"
+#| "<ul><li><i>QtCurve settings file</i> - a file to be imported via this "
+#| "config dialog.</li><li><i>Standalone theme</i> - a style that user's can  "
+#| "select from the KDE style panel.</li></ul></p>"
 msgid ""
 "<p>In which format would you like to export the QtCurve settings?"
 "<ul><li><i>QtCurve settings file</i> - a file to be imported via this config "
-"dialog.</li><li><i>Standalone theme</i> - a style that user's can  select "
+"dialog.</li><li><i>Standalone theme</i> - a style that user's can select "
 "from the KDE style panel.</li></ul></p>"
 msgstr ""
 "<p>您要把QtCurve的設定匯出爲哪種格式？<ul><li><i>QtCurve設定檔案</i>——可以通"
@@ -1154,11 +1160,17 @@ msgstr "背景圖片："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, bgndImage)
 #: qt4/config/qtcurveconfigbase.ui:285
+#, fuzzy
+#| msgid ""
+#| "<p>This adds a background image to the top-right of dialogs and windows.\n"
+#| "            <ul><li>None - No image.</li><li>Bordered rings - 'Air' like "
+#| "rings with borders.</li><li>Plain rings - 'Air' like rings, but without "
+#| "any border.</li><li>Square rings - 3 simple rounded sqaures.</li></ul></p>"
 msgid ""
 "<p>This adds a background image to the top-right of dialogs and windows.\n"
 "            <ul><li>None - No image.</li><li>Bordered rings - 'Air' like "
 "rings with borders.</li><li>Plain rings - 'Air' like rings, but without any "
-"border.</li><li>Square rings - 3 simple rounded sqaures.</li></ul></p>"
+"border.</li><li>Square rings - 3 simple rounded squares.</li></ul></p>"
 msgstr ""
 "<p>這會在對話窗和窗口的右上方添加一張背景圖片。\n"
 "<ul><li>無——不添加背景圖片。</li><li>框環——帶邊框的“大氣”樣式的環。</li><li>"
@@ -1249,10 +1261,17 @@ msgstr "使用“V”型箭頭"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, stdSidebarButtons)
 #: qt4/config/qtcurveconfigbase.ui:396
+#, fuzzy
+#| msgid ""
+#| "<p>Select this to have the sidebar buttons in konqueror, kate, kaffeine, "
+#| "ktorrent, etc., drawn as per normal buttons - otherwise they will be "
+#| "drawn in a more flat style with the active tab colored with the highlght "
+#| "color.</p>"
 msgid ""
 "<p>Select this to have the sidebar buttons in konqueror, kate, kaffeine, "
 "ktorrent, etc., drawn as per normal buttons - otherwise they will be drawn "
-"in a more flat style with the active tab colored with the highlght color.</p>"
+"in a more flat style with the active tab colored with the highlight color.</"
+"p>"
 msgstr ""
 "<p>勾選該項會將konqueror，kate，kaffeine，ktorrent等程式的側邊欄按鈕繪制成普"
 "通按鈕的樣式；否則會繪制成一個更平坦的用高亮色著色的激活標簽樣式。</p>"
@@ -1413,8 +1432,11 @@ msgstr "窗口："
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, bgndOpacity)
 #: qt4/config/qtcurveconfigbase.ui:582
+#, fuzzy
+#| msgid ""
+#| "<p>Sets the opacity of window backgrounds when using deskop effects.</p>"
 msgid ""
-"<p>Sets the opacity of window backgrounds when using deskop effects.</p>"
+"<p>Sets the opacity of window backgrounds when using desktop effects.</p>"
 msgstr "<p>設置使用“桌面效果”時，窗口背景的透明度。</p>"
 
 #. i18n: ectx: property (suffix), widget (KIntNumInput, bgndOpacity)
@@ -1453,8 +1475,11 @@ msgstr "對話窗："
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, dlgOpacity)
 #: qt4/config/qtcurveconfigbase.ui:599
+#, fuzzy
+#| msgid ""
+#| "<p>Sets the opacity of dialog backgrounds when using deskop effects.</p>"
 msgid ""
-"<p>Sets the opacity of dialog backgrounds when using deskop effects.</p>"
+"<p>Sets the opacity of dialog backgrounds when using desktop effects.</p>"
 msgstr "<p>設置使用“桌面效果”時，對話窗背景的透明度。</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_yy)
@@ -1464,7 +1489,9 @@ msgstr "彈出選單："
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, menuBgndOpacity)
 #: qt4/config/qtcurveconfigbase.ui:616
-msgid "<p>Sets the opacity of popup menus when using deskop effects.</p>"
+#, fuzzy
+#| msgid "<p>Sets the opacity of popup menus when using deskop effects.</p>"
+msgid "<p>Sets the opacity of popup menus when using desktop effects.</p>"
 msgstr "<p>設置使用“桌面效果”時，彈出選單的透明度。</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_100)
@@ -1659,8 +1686,12 @@ msgstr "滑鼠滑過背景高亮："
 
 #. i18n: ectx: property (toolTip), widget (KIntNumInput, splitterHighlight)
 #: qt4/config/qtcurveconfigbase.ui:885
+#, fuzzy
+#| msgid ""
+#| "<p>Defines by how much the theme should brighen (or darken) the "
+#| "background of the splitter when the mouse hovers over.</p>"
 msgid ""
-"<p>Defines by how much the theme should brighen (or darken) the background "
+"<p>Defines by how much the theme should brighten (or darken) the background "
 "of the splitter when the mouse hovers over.</p>"
 msgstr "<p>定義當滑鼠滑過分隔線時，其背景該被暗化或亮化的程度。</p>"
 
@@ -1777,10 +1808,18 @@ msgstr "滾動條按鈕："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, scrollbarType)
 #: qt4/config/qtcurveconfigbase.ui:1030
+#, fuzzy
+#| msgid ""
+#| "<p>This controls the position, and number, of buttons on a scrollbar.\n"
+#| "            <ul><li>KDE - 1 button at the top/left, and two at the bottom/"
+#| "right</li><li>Windows - 1 botton at each end</li><li>Platinum - no "
+#| "buttons at the top/left, two at bottom/right</li><li>Next - two buttons "
+#| "at the top/left, none at bottom/right</li><li>None - no buttons, only the "
+#| "slider</li></ul></p>"
 msgid ""
 "<p>This controls the position, and number, of buttons on a scrollbar.\n"
 "            <ul><li>KDE - 1 button at the top/left, and two at the bottom/"
-"right</li><li>Windows - 1 botton at each end</li><li>Platinum - no buttons "
+"right</li><li>Windows - 1 button at each end</li><li>Platinum - no buttons "
 "at the top/left, two at bottom/right</li><li>Next - two buttons at the top/"
 "left, none at bottom/right</li><li>None - no buttons, only the slider</li></"
 "ul></p>"
@@ -1859,8 +1898,12 @@ msgstr "<p>定義進度條進度部分的條紋樣式。</p>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, animatedProgress)
 #: qt4/config/qtcurveconfigbase.ui:1133
+#, fuzzy
+#| msgid ""
+#| "<p>Determines if the sripes on progressbars should be aninmated, or not.</"
+#| "p>"
 msgid ""
-"<p>Determines if the sripes on progressbars should be aninmated, or not.</p>"
+"<p>Determines if the stripes on progressbars should be animated, or not.</p>"
 msgstr "<p>決定進度條的條紋是否是動態的。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, animatedProgress)
@@ -2297,10 +2340,15 @@ msgstr "與頂部標簽相同"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, invertBotTab)
 #: qt4/config/qtcurveconfigbase.ui:1787
+#, fuzzy
+#| msgid ""
+#| "<p>If enabled, tabs on the bottom will use the an inverted gradient to "
+#| "tabs on the top. i.e. if the top tabs shades from light to the background "
+#| "color, then  bottom tabs will go from the background color to dark."
 msgid ""
 "<p>If enabled, tabs on the bottom will use the an inverted gradient to tabs "
 "on the top. i.e. if the top tabs shades from light to the background color, "
-"then  bottom tabs will go from the background color to dark."
+"then bottom tabs will go from the background color to dark."
 msgstr ""
 "<p>如果啓用該項，底部標簽會使用與頂部標簽相反的漸變效果。例如，如果頂部標簽是"
 "從亮色漸變到背景色，那麽底部標簽會從背景色漸變到暗色。"
@@ -3156,9 +3204,13 @@ msgstr "菜單條紋："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, menuStripe)
 #: qt4/config/qtcurveconfigbase.ui:3268
+#, fuzzy
+#| msgid ""
+#| "<p>Defines the coloration of the menu-stripe that will be drawn on the "
+#| "left of poup menus - but only if this option is not set to 'none'."
 msgid ""
 "<p>Defines the coloration of the menu-stripe that will be drawn on the left "
-"of poup menus - but only if this option is not set to 'none'."
+"of popup menus - but only if this option is not set to 'none'."
 msgstr "<p>當“菜單條紋”不是設置爲“無”時，用以定義彈出選單左端條紋的顔色。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, menuStripeAppearance)
@@ -3309,9 +3361,13 @@ msgstr "<p>定義停靠窗口“標題”部分的背景漸變效果。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dwtRoundTopOnly)
 #: qt4/config/qtcurveconfigbase.ui:3549
+#, fuzzy
+#| msgid ""
+#| "<p>If enabled, only the top (for horizontal dock windows), or left (for "
+#| "vertial dock windows) will be rounded."
 msgid ""
 "<p>If enabled, only the top (for horizontal dock windows), or left (for "
-"vertial dock windows) will be rounded."
+"vertical dock windows) will be rounded."
 msgstr "<p>如果啓用該項，僅水平停靠窗口的頂端或垂直停靠窗口的左端會被圓滑。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dwtRoundTopOnly)
@@ -3419,9 +3475,14 @@ msgstr "對話窗按鈕："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gtkButtonOrder)
 #: qt4/config/qtcurveconfigbase.ui:3640
+#, fuzzy
+#| msgid ""
+#| "<p>If enabled, dialogs will use the 'Cancel / OK' button order as used in "
+#| "the GNOME ond OSX desktops, otherwise the 'OK / Cancel' order will be "
+#| "used."
 msgid ""
 "<p>If enabled, dialogs will use the 'Cancel / OK' button order as used in "
-"the GNOME ond OSX desktops, otherwise the 'OK / Cancel' order will be used."
+"the GNOME and OSX desktops, otherwise the 'OK / Cancel' order will be used."
 msgstr ""
 "<p>如果啓用該項，對話窗將使用GNOME和OSX桌面的“取消/好”的按鈕布局；否則，將使"
 "用“好/取消”的按鈕布局。"
@@ -3472,9 +3533,13 @@ msgstr "Gtk圖標："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mapKdeIcons)
 #: qt4/config/qtcurveconfigbase.ui:3678
+#, fuzzy
+#| msgid ""
+#| "<p>Enable this option so that QtCurve can attempt to map from the KDE "
+#| "icon names to their Gtk equivalant for Gtk applications."
 msgid ""
 "<p>Enable this option so that QtCurve can attempt to map from the KDE icon "
-"names to their Gtk equivalant for Gtk applications."
+"names to their Gtk equivalent for Gtk applications."
 msgstr ""
 "<p>啓用該項設置以便QtCurve可以試圖根據KDE圖標的名稱爲Gtk程式使用相同的圖標。"
 
@@ -3550,10 +3615,16 @@ msgstr "選單不透明（并且屏蔽Gtk2程式的α通道）："
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, noMenuBgndOpacityApps)
 #: qt4/config/qtcurveconfigbase.ui:3783
+#, fuzzy
+#| msgid ""
+#| "<p>Comma separated list of names of applications which should not use the "
+#| "menu opacity setting.<p><i>For Gtk2, this option also disables using an "
+#| "allpha-channel to smoothly round tooltips and popup menus.</i></p><p>Use "
+#| "<i>gtk</i> to disable for all Gtk2 applications.</p>"
 msgid ""
 "<p>Comma separated list of names of applications which should not use the "
 "menu opacity setting.<p><i>For Gtk2, this option also disables using an "
-"allpha-channel to smoothly round tooltips and popup menus.</i></p><p>Use "
+"alpha-channel to smoothly round tooltips and popup menus.</i></p><p>Use "
 "<i>gtk</i> to disable for all Gtk2 applications.</p>"
 msgstr ""
 "<p>請用英文逗號將不設置菜單透明的應用程式名隔開。</p><p><i>對于Gtk2程式，該項"
@@ -3705,6 +3776,25 @@ msgstr "α值（%）"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, gradBorder)
 #: qt4/config/qtcurveconfigbase.ui:3990
+#, fuzzy
+#| msgid ""
+#| "<p>Defines the inner border used when drawing buttons, etc, with this "
+#| "gradient.</p>\n"
+#| "<ul>\n"
+#| "<li><i>No border</i> - no inner border is drawn, and the gradient will "
+#| "extend to the outer edges.</li>\n"
+#| "<li><i>Light border</i> - A 'light' line is drawn around all edges.</li>\n"
+#| "<li><i>3D border (light only)</i> - A 'light' line is drawn around the "
+#| "top and left edges.</li>\n"
+#| "<li><i>3D border (light only)</i> - A 'light' line is drawn around the "
+#| "top and left edges, and a darker one around the bottom and right edges.</"
+#| "li>\n"
+#| "<li><i>Shine</i> - A shaine is added the top (or left) when this gradient "
+#| "is drawn on buttons or scrollbars.</li>\n"
+#| "</ul>\n"
+#| "<p><i>Note: This setting is not used when drawing the preview below.</i></"
+#| "p>\n"
+#| "\n"
 msgid ""
 "<p>Defines the inner border used when drawing buttons, etc, with this "
 "gradient.</p>\n"
@@ -3716,7 +3806,7 @@ msgid ""
 "and left edges.</li>\n"
 "<li><i>3D border (light only)</i> - A 'light' line is drawn around the top "
 "and left edges, and a darker one around the bottom and right edges.</li>\n"
-"<li><i>Shine</i> - A shaine is added the top (or left) when this gradient is "
+"<li><i>Shine</i> - A shine is added the top (or left) when this gradient is "
 "drawn on buttons or scrollbars.</li>\n"
 "</ul>\n"
 "<p><i>Note: This setting is not used when drawing the preview below.</i></"
