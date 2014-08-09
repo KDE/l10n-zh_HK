@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-23 01:58+0000\n"
+"POT-Creation-Date: 2014-08-09 02:01+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -2292,59 +2292,69 @@ msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
-#: src/widgets/bookmarkdock.cpp:84 src/widgets/contactdock.cpp:108
+#: src/widgets/bookmarkdock.cpp:91 src/widgets/contactdock.cpp:108
 #: src/widgets/historydock.cpp:178 src/widgets/ui/contactdock.ui:90
 #: src/widgets/ui/dockbase.ui:90
 msgid "Filter"
 msgstr ""
 
-#: src/widgets/bookmarkdock.cpp:90
+#: src/widgets/bookmarkdock.cpp:97
 msgid "Show most called contacts"
 msgstr ""
 
-#: src/widgets/bookmarkdock.cpp:96
+#: src/widgets/bookmarkdock.cpp:103
 #, fuzzy
 #| msgid "Books"
 msgctxt "Bookmark dock"
 msgid "Bookmark"
 msgstr "鉤鍵"
 
-#: src/widgets/bookmarkdock.cpp:151 src/widgets/contactdock.cpp:237
+#: src/widgets/bookmarkdock.cpp:158 src/widgets/contactdock.cpp:237
 #: src/widgets/historydock.cpp:324
 #, fuzzy
 #| msgid "Call back"
 msgid "Call Again"
 msgstr "回叫"
 
-#: src/widgets/bookmarkdock.cpp:155 src/widgets/contactdock.cpp:242
+#: src/widgets/bookmarkdock.cpp:162 src/widgets/contactdock.cpp:242
 #, fuzzy
 #| msgid "Edit phone"
 msgid "Edit contact"
 msgstr "編輯電話"
 
-#: src/widgets/bookmarkdock.cpp:159 src/widgets/contactdock.cpp:247
+#: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:247
 #: src/widgets/historydock.cpp:337
 msgid "Copy"
 msgstr ""
 
-#: src/widgets/bookmarkdock.cpp:163 src/widgets/contactdock.cpp:252
+#: src/widgets/bookmarkdock.cpp:170 src/widgets/contactdock.cpp:252
 #: src/widgets/historydock.cpp:341
 #, fuzzy
 #| msgid "_Email"
 msgid "Send Email"
 msgstr "郵件(E)"
 
-#: src/widgets/bookmarkdock.cpp:168 src/widgets/contactdock.cpp:258
+#: src/widgets/bookmarkdock.cpp:175 src/widgets/contactdock.cpp:258
 #, fuzzy
 #| msgid "Edit phone number"
 msgid "Add Phone Number"
 msgstr "編輯電話號碼"
 
-#: src/widgets/bookmarkdock.cpp:173
+#: src/widgets/bookmarkdock.cpp:180
 #, fuzzy
 #| msgid "Books"
 msgid "Remove Bookmark"
 msgstr "鉤鍵"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Enter a new number"
+msgstr "編輯電話號碼"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "New number:"
+msgstr ""
 
 #: src/widgets/contactdock.cpp:101 src/widgets/historydock.cpp:182
 #, fuzzy
@@ -2381,16 +2391,6 @@ msgstr "顯示"
 
 #: src/widgets/contactdock.cpp:269
 msgid "Delete"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:372
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Enter a new number"
-msgstr "編輯電話號碼"
-
-#: src/widgets/contactdock.cpp:372
-msgid "New number:"
 msgstr ""
 
 #: src/widgets/contactdock.cpp:392
