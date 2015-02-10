@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-31 08:03+0000\n"
+"POT-Creation-Date: 2015-02-10 09:59+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -73,6 +73,13 @@ msgstr "預設"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "自動更正"
+
+#: kconfigdialog.cpp:45
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "設定"
 
 #: klanguagebutton.cpp:194
 #, fuzzy
@@ -557,6 +564,41 @@ msgstr "關於 %1(&A)"
 #: kstandardaction_p.h:115
 msgid "About &KDE"
 msgstr "關於 KDE(&K)"
+
+#: ktipdialog.cpp:239
+#, fuzzy
+#| msgid "Tip of the Day"
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr "每日小祕訣"
+
+#: ktipdialog.cpp:255
+#, fuzzy
+#| msgid "Did you know...?\n"
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr "你知道嗎...？\n"
+
+#: ktipdialog.cpp:307
+#, fuzzy
+#| msgid "&Show tips on startup"
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr "啟動時顯示小秘訣(&S)"
+
+#: ktipdialog.cpp:312
+#, fuzzy
+#| msgid "&Previous"
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr "上一頁(&P)"
+
+#: ktipdialog.cpp:317
+#, fuzzy
+#| msgid "&Next"
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr "下一頁(&N)"
 
 #~ msgid "Name"
 #~ msgstr "名稱"
@@ -3513,9 +3555,6 @@ msgstr "關於 KDE(&K)"
 #~ msgid "Close Message"
 #~ msgstr "關閉訊息"
 
-#~ msgid "Configure"
-#~ msgstr "設定"
-
 #, fuzzy
 #~| msgid "Jom"
 #~ msgid "Job"
@@ -4064,18 +4103,6 @@ msgstr "關於 KDE(&K)"
 
 #~ msgid "Remove"
 #~ msgstr "移除"
-
-#~ msgid "Tip of the Day"
-#~ msgstr "每日小祕訣"
-
-#~ msgid "Did you know...?\n"
-#~ msgstr "你知道嗎...？\n"
-
-#~ msgid "&Show tips on startup"
-#~ msgstr "啟動時顯示小秘訣(&S)"
-
-#~ msgid "&Previous"
-#~ msgstr "上一頁(&P)"
 
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
@@ -8036,9 +8063,6 @@ msgstr "關於 KDE(&K)"
 #~| msgid "Find:"
 #~ msgid "F&ind:"
 #~ msgstr "尋找："
-
-#~ msgid "&Next"
-#~ msgstr "下一頁(&N)"
 
 #, fuzzy
 #~| msgid "Options"
