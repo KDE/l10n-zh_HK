@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-01 08:37+0000\n"
+"POT-Creation-Date: 2015-04-02 08:57+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -45,7 +45,7 @@ msgstr "查看(V)"
 
 #. i18n: ectx: Menu (Settings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: data/ring-kdeui.rc:30 src/conf/dlgdht.ui:196
+#: data/ring-kdeui.rc:30 src/conf/dlgdht.ui:193
 #, fuzzy
 #| msgid "ALSA settings"
 msgid "Settings"
@@ -340,7 +340,7 @@ msgstr "刪除"
 #. i18n: ectx: property (text), widget (QPushButton, btn_add_field)
 #. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgaccessibility.ui:126 src/conf/dlgdht.ui:176
+#: src/conf/dlgaccessibility.ui:126 src/conf/dlgdht.ui:173
 #: src/conf/dlgpresence.ui:71 src/conf/dlgprofiles.ui:226
 #, fuzzy
 #| msgid "Add"
@@ -457,7 +457,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_message)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/conf/dlgaccounts.cpp:689 src/conf/dlgaccountsbase.ui:461
-#: src/conf/dlgdht.ui:242
+#: src/conf/dlgdht.ui:239
 msgid "Fields marked with \"*\" are compulsory and required"
 msgstr ""
 
@@ -651,7 +651,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pAutoAnswer)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
-#: src/conf/dlgaccountsbase.ui:374 src/conf/dlgdht.ui:212
+#: src/conf/dlgaccountsbase.ui:374 src/conf/dlgdht.ui:209
 msgid "Auto answer"
 msgstr ""
 
@@ -674,10 +674,10 @@ msgstr "狀態"
 #. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
 #. i18n: ectx: property (text), widget (QToolButton, m_pPlayPause)
 #. i18n: ectx: property (text), widget (QToolButton, m_pStop)
-#: src/conf/dlgaccountsbase.ui:419 src/conf/dlgdht.ui:95
-#: src/conf/dlgdht.ui:102 src/conf/dlgdht.ui:109 src/conf/dlgdht.ui:116
-#: src/widgets/ui/player.ui:64 src/widgets/ui/player.ui:71
-#: src/widgets/ui/playeroverlay.ui:54 src/widgets/ui/playeroverlay.ui:77
+#: src/conf/dlgaccountsbase.ui:419 src/conf/dlgdht.ui:92 src/conf/dlgdht.ui:99
+#: src/conf/dlgdht.ui:106 src/conf/dlgdht.ui:113 src/widgets/ui/player.ui:64
+#: src/widgets/ui/player.ui:71 src/widgets/ui/playeroverlay.ui:54
+#: src/widgets/ui/playeroverlay.ui:77
 msgid "..."
 msgstr ""
 
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCa)
 #: src/conf/dlgaccountsbase.ui:1550
-msgid "View the cerificate authority"
+msgid "View the certificate authority"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCert)
@@ -1245,65 +1245,56 @@ msgstr "啟動鈴聲"
 msgid "Mute DTMF"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, DlgDht)
-#. i18n: ectx: property (windowTitle), widget (QWidget, DlgFallbackPerson)
-#. i18n: ectx: property (windowTitle), widget (QWidget, Welcome)
-#. i18n: ectx: property (windowTitle), widget (QWidget, Share)
-#: src/conf/dlgdht.ui:14 src/conf/dlgfallbackperson.ui:14
-#: src/widgets/ui/share.ui:14 src/widgets/ui/welcome.ui:14
-msgid "Form"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/conf/dlgdht.ui:20
+#: src/conf/dlgdht.ui:17
 #, fuzzy
 msgid "Display name*"
 msgstr "顯示"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pAlias)
-#: src/conf/dlgdht.ui:27
+#: src/conf/dlgdht.ui:24
 msgid "The name you send to your peer"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/conf/dlgdht.ui:38
+#: src/conf/dlgdht.ui:35
 msgid "Peers lookup"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/dlgdht.ui:48
+#: src/conf/dlgdht.ui:45
 msgid "Bootstrap"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
-#: src/conf/dlgdht.ui:60
+#: src/conf/dlgdht.ui:57
 msgid "Automatically add nodes"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/conf/dlgdht.ui:126 src/conf/dlgdht.ui:184
+#: src/conf/dlgdht.ui:123 src/conf/dlgdht.ui:181
 msgid "Blacklist"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlgdht.ui:141
+#: src/conf/dlgdht.ui:138
 msgid "Peers"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/dlgdht.ui:151
+#: src/conf/dlgdht.ui:148
 msgid "Known peers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
-#: src/conf/dlgdht.ui:205
+#: src/conf/dlgdht.ui:202
 msgid "Only allow incoming calls from known peers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlgdht.ui:228
-msgid "For your firends to be able to call you, send them your hash:"
+#: src/conf/dlgdht.ui:225
+msgid "For your friends to be able to call you, send them your hash:"
 msgstr ""
 
 #: src/conf/dlgdisplay.cpp:36
@@ -1401,10 +1392,10 @@ msgid "Minimum item height"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlgfallbackperson.ui:20
+#: src/conf/dlgfallbackperson.ui:17
 msgid ""
 "<html><head/><body><p>Akonadi 2, the version compatible with the KDE "
-"frameworks 5 is not released yet. Therefore, at thsi point, Ring-KDE cannot "
+"frameworks 5 is not released yet. Therefore, at this point, Ring-KDE cannot "
 "be integrated with KAddressBook.</p><p>However, it is possible to integrate "
 "the <span style=\" font-weight:600;\">KDE4</span> version KAddressbook with "
 "Ring-KDE. To do this:</p><p>(1) Open <span style=\" font-weight:600;"
@@ -1618,7 +1609,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_email)
 #. i18n: ectx: property (text), widget (QPushButton, m_pEmail)
-#: src/conf/dlgprofiles.ui:194 src/widgets/ui/share.ui:65
+#: src/conf/dlgprofiles.ui:194 src/widgets/ui/share.ui:62
 #, fuzzy
 #| msgid "_Email"
 msgid "Email"
@@ -2328,7 +2319,7 @@ msgstr "編輯電話"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pCopy)
 #: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:252
-#: src/widgets/historydock.cpp:340 src/widgets/ui/share.ui:75
+#: src/widgets/historydock.cpp:340 src/widgets/ui/share.ui:72
 msgid "Copy"
 msgstr ""
 
@@ -2591,30 +2582,30 @@ msgid "Screen:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/widgets/ui/share.ui:38
+#: src/widgets/ui/share.ui:35
 msgid "Share"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/widgets/ui/share.ui:48
+#: src/widgets/ui/share.ui:45
 msgid ""
 "This is your hash. You can share it with your friends so they can call you:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pPrint)
-#: src/widgets/ui/share.ui:85
+#: src/widgets/ui/share.ui:82
 msgid "Print"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pConf)
-#: src/widgets/ui/share.ui:111
+#: src/widgets/ui/share.ui:108
 #, fuzzy
 #| msgid "Configured Accounts"
 msgid "Configure other accounts"
 msgstr "已配置帳戶"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pOk)
-#: src/widgets/ui/share.ui:137
+#: src/widgets/ui/share.ui:134
 msgid "Start using Ring-KDE"
 msgstr ""
 
@@ -2668,12 +2659,12 @@ msgid "Device"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/widgets/ui/welcome.ui:67
+#: src/widgets/ui/welcome.ui:64
 msgid "Welcome! To starting using Ring-KDE, please tell us who you are:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pNext)
-#: src/widgets/ui/welcome.ui:83
+#: src/widgets/ui/welcome.ui:80
 msgid "Next"
 msgstr ""
 
