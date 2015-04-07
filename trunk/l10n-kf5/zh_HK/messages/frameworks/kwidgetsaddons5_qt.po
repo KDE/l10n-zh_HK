@@ -36,6 +36,26 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Qt-Contexts: true\n"
 
+#. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:32
+#, fuzzy
+msgctxt "FontHelpers|@item Font name"
+msgid "Sans Serif"
+msgstr "確認(&V)："
+
+#. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:35
+#, fuzzy
+msgctxt "FontHelpers|@item Font name"
+msgid "Serif"
+msgstr "確認(&V)："
+
+#. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:38
+msgctxt "FontHelpers|@item Font name"
+msgid "Monospace"
+msgstr ""
+
 #: fonthelpers.cpp:81
 #, fuzzy, qt-format
 #| msgid "%1%"
@@ -2214,6 +2234,76 @@ msgctxt "KLed|Accessible name of a Led whose state is off"
 msgid "LED off"
 msgstr ""
 
+#. Called after the button texts in standard message dialogs have been filtered by the messages above. Not visible to user.
+#: kmessagebox.cpp:77
+msgctxt "KMessageBox|@action:button post-filter"
+msgid "."
+msgstr ""
+
+#: kmessagebox.cpp:180 kmessagebox.cpp:816 kmessagebox.cpp:865
+#, fuzzy
+#| msgid "&Details"
+msgctxt "KMessageBox|"
+msgid "&Details"
+msgstr "詳細資料(&D)"
+
+#: kmessagebox.cpp:317
+#, fuzzy
+#| msgid "Details"
+msgctxt "KMessageBox|"
+msgid "Details"
+msgstr "詳細資料"
+
+#: kmessagebox.cpp:480 kmessagebox.cpp:534
+#, fuzzy
+#| msgid "Question"
+msgctxt "KMessageBox|"
+msgid "Question"
+msgstr "問題"
+
+#: kmessagebox.cpp:492 kmessagebox.cpp:548 kmessagebox.cpp:619
+#: kmessagebox.cpp:682 kmessagebox.cpp:751
+#, fuzzy
+#| msgid "Do not ask again"
+msgctxt "KMessageBox|"
+msgid "Do not ask again"
+msgstr "不再提問"
+
+#: kmessagebox.cpp:607 kmessagebox.cpp:670 kmessagebox.cpp:738
+#, fuzzy
+#| msgid "Warning"
+msgctxt "KMessageBox|"
+msgid "Warning"
+msgstr "警告"
+
+#: kmessagebox.cpp:790 kmessagebox.cpp:811
+#, fuzzy
+#| msgid "Error"
+msgctxt "KMessageBox|"
+msgid "Error"
+msgstr "錯誤"
+
+#: kmessagebox.cpp:839 kmessagebox.cpp:860 kmessagebox.cpp:1123
+#, fuzzy
+#| msgid "Sorry"
+msgctxt "KMessageBox|"
+msgid "Sorry"
+msgstr "抱歉"
+
+#: kmessagebox.cpp:899
+#, fuzzy
+#| msgid "Information"
+msgctxt "KMessageBox|"
+msgid "Information"
+msgstr "資料"
+
+#: kmessagebox.cpp:910
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "KMessageBox|"
+msgid "Do not show this message again"
+msgstr "不要再顯示這個訊息"
+
 #: kmessagewidget.cpp:90
 #, fuzzy
 #| msgid "&Close"
@@ -2227,6 +2317,40 @@ msgstr "關閉(&C)"
 msgctxt "KMessageWidget|"
 msgid "Close message"
 msgstr "關閉訊息"
+
+#: kmimetypechooser.cpp:89
+#, fuzzy
+#| msgid "Mime types"
+msgctxt "KMimeTypeChooser|"
+msgid "Mime Type"
+msgstr "Mime 類型"
+
+#: kmimetypechooser.cpp:92
+#, fuzzy
+#| msgid "Comment"
+msgctxt "KMimeTypeChooser|"
+msgid "Comment"
+msgstr "備註"
+
+#: kmimetypechooser.cpp:95
+#, fuzzy
+#| msgctxt "QFont"
+#| msgid "Braille"
+msgctxt "KMimeTypeChooser|"
+msgid "Patterns"
+msgstr "布拉耶點字法"
+
+#: kmimetypechooser.cpp:108
+#, fuzzy
+#| msgid "&Edit..."
+msgctxt "KMimeTypeChooser|"
+msgid "&Edit..."
+msgstr "編輯(&E)..."
+
+#: kmimetypechooser.cpp:118
+msgctxt "KMimeTypeChooser|"
+msgid "Click this button to display the familiar KDE mime type editor."
+msgstr ""
 
 #: knewpassworddialog.cpp:73
 #, fuzzy
@@ -3606,9 +3730,6 @@ msgstr ""
 
 #~ msgid "Translation files for KLocale"
 #~ msgstr "KLocale 的翻譯檔案"
-
-#~ msgid "Mime types"
-#~ msgstr "Mime 類型"
 
 #~ msgid "Loadable modules"
 #~ msgstr "可載入的模組"
@@ -5795,9 +5916,6 @@ msgstr ""
 #~ msgid "modified"
 #~ msgstr "已修改"
 
-#~ msgid "&Details"
-#~ msgstr "詳細資料(&D)"
-
 #~ msgid "Get help..."
 #~ msgstr "取得說明..."
 
@@ -5915,30 +6033,6 @@ msgstr ""
 #~ msgctxt "@action:button filter-cancel"
 #~ msgid "%1"
 #~ msgstr "%1%"
-
-#~ msgid "Details"
-#~ msgstr "詳細資料"
-
-#~ msgid "Question"
-#~ msgstr "問題"
-
-#~ msgid "Do not ask again"
-#~ msgstr "不再提問"
-
-#~ msgid "Warning"
-#~ msgstr "警告"
-
-#~ msgid "Error"
-#~ msgstr "錯誤"
-
-#~ msgid "Sorry"
-#~ msgstr "抱歉"
-
-#~ msgid "Information"
-#~ msgstr "資料"
-
-#~ msgid "Do not show this message again"
-#~ msgstr "不要再顯示這個訊息"
 
 #, fuzzy
 #~ msgid "Default:"
@@ -6158,9 +6252,6 @@ msgstr ""
 #~ msgid "Regular e&xpression"
 #~ msgstr "正規表示式(&X)"
 
-#~ msgid "&Edit..."
-#~ msgstr "編輯(&E)..."
-
 #~ msgid "Replace With"
 #~ msgstr "取代為"
 
@@ -6374,11 +6465,6 @@ msgstr ""
 #~ msgstr ""
 #~ "\n"
 #~ "請更正。"
-
-#, fuzzy
-#~ msgctxt "@item Font name"
-#~ msgid "Serif"
-#~ msgstr "確認(&V)："
 
 #, fuzzy
 #~ msgctxt "@item Font name"
@@ -7434,9 +7520,6 @@ msgstr ""
 #~ msgctxt "Time zone"
 #~ msgid "Region"
 #~ msgstr "區域"
-
-#~ msgid "Comment"
-#~ msgstr "備註"
 
 #, fuzzy
 #~ msgctxt "@title:menu"
