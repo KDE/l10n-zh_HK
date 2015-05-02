@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-01 08:54+0000\n"
+"POT-Creation-Date: 2015-05-02 09:40+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -36,8 +36,8 @@ msgstr "桌面提示"
 #. i18n: ectx: Menu (View)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCa)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCert)
-#: data/ring-kdeui.rc:20 src/conf/dlgaccountsbase.ui:1595
-#: src/conf/dlgaccountsbase.ui:1609
+#: data/ring-kdeui.rc:20 src/conf/dlgaccountsbase.ui:1598
+#: src/conf/dlgaccountsbase.ui:1612
 #, fuzzy
 #| msgid "_View"
 msgid "View"
@@ -45,7 +45,7 @@ msgstr "查看(V)"
 
 #. i18n: ectx: Menu (Settings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: data/ring-kdeui.rc:31 src/conf/dlgdht.ui:200
+#: data/ring-kdeui.rc:31 src/conf/dlgdht.ui:208
 #, fuzzy
 #| msgid "ALSA settings"
 msgid "Settings"
@@ -87,7 +87,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
 #: src/actioncollection.cpp:95 src/delegates/contactdelegate.cpp:190
-#: src/delegates/historydelegate.cpp:285 src/delegates/historydelegate.cpp:286
+#: src/delegates/historydelegate.cpp:283 src/delegates/historydelegate.cpp:284
 #: src/view.cpp:82 src/widgets/ui/transfer.ui:105
 msgid "Transfer"
 msgstr "轉接"
@@ -346,7 +346,7 @@ msgstr "刪除"
 #. i18n: ectx: property (text), widget (QPushButton, btn_add_field)
 #. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgaccessibility.ui:129 src/conf/dlgdht.ui:180
+#: src/conf/dlgaccessibility.ui:129 src/conf/dlgdht.ui:188
 #: src/conf/dlgpresence.ui:71 src/conf/dlgprofiles.ui:226
 #, fuzzy
 #| msgid "Add"
@@ -415,150 +415,60 @@ msgstr "配置SFLphone"
 msgid "Info"
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:105
+#: src/conf/dlgaccounts.cpp:108
 msgid ""
 "To add an account, press the \"Add\" button below. Use the ⬆ up and ⬇ down "
 "button to change the default account priority."
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:113
+#: src/conf/dlgaccounts.cpp:116
 msgid "Usually called \"ca.crt\" or \"cacert.pem\""
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:114
+#: src/conf/dlgaccounts.cpp:117
 msgid "A .pem or .crt"
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:115
+#: src/conf/dlgaccounts.cpp:118
 msgid "A .key file"
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:645
+#: src/conf/dlgaccounts.cpp:663
 #, fuzzy
 #| msgid "Add a new account"
 msgid "New account"
 msgstr "增加新帳戶"
 
-#: src/conf/dlgaccounts.cpp:645
+#: src/conf/dlgaccounts.cpp:663
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account%1"
 msgstr "增加新帳戶"
 
-#: src/conf/dlgaccounts.cpp:658
+#: src/conf/dlgaccounts.cpp:681
 #, kde-format
 msgid "Are you sure you want to remove %1?"
 msgstr ""
 
-#: src/conf/dlgaccounts.cpp:658
+#: src/conf/dlgaccounts.cpp:681
 #, fuzzy
 #| msgid "Remove the selected account"
 msgid "Remove account"
 msgstr "刪除所選賬戶"
 
-#: src/conf/dlgaccounts.cpp:699
+#: src/conf/dlgaccounts.cpp:723
 msgid "Warning, caps lock is turned on!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_message)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/conf/dlgaccounts.cpp:703 src/conf/dlgaccountsbase.ui:454
-#: src/conf/dlgdht.ui:246
+#: src/conf/dlgaccounts.cpp:727 src/conf/dlgaccountsbase.ui:457
+#: src/conf/dlgdht.ui:257
 msgid "Fields marked with \"*\" are compulsory and required"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_accountUp)
-#: src/conf/dlgaccountsbase.ui:79
-msgid "Get this account up"
-msgstr "把該賬戶向上移動"
-
-#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_accountUp)
-#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountDown)
-#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_audiocodecUp)
-#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_audiocodecDown)
-#: src/conf/dlgaccountsbase.ui:82 src/conf/dlgaccountsbase.ui:98
-#: src/conf/dlgaccountsbase.ui:910 src/conf/dlgaccountsbase.ui:926
-#, fuzzy
-#| msgid ""
-#| "By default, when you place a call, sflphone will use the first account in "
-#| "this list which is \"registered\". Change the order of the accounts using "
-#| "the \"Up\" and \"Down\" arrows."
-msgid ""
-"By default, when you place a call, Ring will use the first account in this "
-"list which is \"registered\". Change the order of the accounts using the \"Up"
-"\" and \"Down\" arrows."
-msgstr ""
-"在默認情況下，當你打電話時，sflphone會使用列表當中第一個已註冊的帳戶。使用箭"
-"頭\"上\"和\"下\"可以改變賬戶的順序。選擇賬戶名稱左邊的方框可以啟用帳戶，取消"
-"選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。"
-
-#. i18n: ectx: property (text), widget (LeftToolButton, button_accountUp)
-#: src/conf/dlgaccountsbase.ui:85
-#, fuzzy
-#| msgid "Up"
-msgctxt "Move account up"
-msgid "Up"
-msgstr "上"
-
-#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountDown)
-#: src/conf/dlgaccountsbase.ui:95
-msgid "Get this account down"
-msgstr "將該賬戶向下移動"
-
-#. i18n: ectx: property (text), widget (CenterToolButton, button_accountDown)
-#: src/conf/dlgaccountsbase.ui:101
-#, fuzzy
-#| msgid "Down"
-msgctxt "Move account down"
-msgid "Down"
-msgstr "下"
-
-#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountAdd)
-#: src/conf/dlgaccountsbase.ui:123
-msgid "Add a new account"
-msgstr "增加新帳戶"
-
-#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountAdd)
-#: src/conf/dlgaccountsbase.ui:126
-msgid ""
-"This button enables you to initialize a new account. You will then be able "
-"to edit it using the form on the right."
-msgstr ""
-"通過該按鈕可以創建一個新賬戶。添加該賬戶之後你還可以通過編輯按鈕來修改設置。"
-
-#. i18n: ectx: property (text), widget (CenterToolButton, button_accountAdd)
-#: src/conf/dlgaccountsbase.ui:129
-#, fuzzy
-#| msgid "Add"
-msgctxt "Add new account"
-msgid "Add"
-msgstr "添加"
-
-#. i18n: ectx: property (toolTip), widget (RightToolButton, button_accountRemove)
-#: src/conf/dlgaccountsbase.ui:145
-msgid "Remove the selected account"
-msgstr "刪除所選賬戶"
-
-#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_accountRemove)
-#: src/conf/dlgaccountsbase.ui:148
-msgid ""
-"This button will remove the selected account in the list below. Be sure you "
-"really don't need it anymore. If you think you might use it again later, "
-"just uncheck it."
-msgstr ""
-"該按鈕會刪除列表中被選定的賬戶。請確認你的操作。如果你希望繼續使用某個賬戶，"
-"請取消對該賬戶的選擇"
-
-#. i18n: ectx: property (text), widget (RightToolButton, button_accountRemove)
-#: src/conf/dlgaccountsbase.ui:154
-#, fuzzy
-#| msgid "Remove"
-msgctxt "Remove selected account"
-msgid "Remove"
-msgstr "刪除"
-
 #. i18n: ectx: property (whatsThis), widget (CategorizedTreeView, treeView_accountList)
-#: src/conf/dlgaccountsbase.ui:187
+#: src/conf/dlgaccountsbase.ui:95
 #, fuzzy
 #| msgid ""
 #| "By default, when you place a call, sflphone will use the first account in "
@@ -578,31 +488,121 @@ msgstr ""
 "選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。點擊\"編輯\"按鈕"
 "可以改變賬戶的設置。"
 
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:122
+msgid "Get this account up"
+msgstr "把該賬戶向上移動"
+
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_accountUp)
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountDown)
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:125 src/conf/dlgaccountsbase.ui:141
+#: src/conf/dlgaccountsbase.ui:913 src/conf/dlgaccountsbase.ui:929
+#, fuzzy
+#| msgid ""
+#| "By default, when you place a call, sflphone will use the first account in "
+#| "this list which is \"registered\". Change the order of the accounts using "
+#| "the \"Up\" and \"Down\" arrows."
+msgid ""
+"By default, when you place a call, Ring will use the first account in this "
+"list which is \"registered\". Change the order of the accounts using the \"Up"
+"\" and \"Down\" arrows."
+msgstr ""
+"在默認情況下，當你打電話時，sflphone會使用列表當中第一個已註冊的帳戶。使用箭"
+"頭\"上\"和\"下\"可以改變賬戶的順序。選擇賬戶名稱左邊的方框可以啟用帳戶，取消"
+"選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:128
+#, fuzzy
+#| msgid "Up"
+msgctxt "Move account up"
+msgid "Up"
+msgstr "上"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:138
+msgid "Get this account down"
+msgstr "將該賬戶向下移動"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:144
+#, fuzzy
+#| msgid "Down"
+msgctxt "Move account down"
+msgid "Down"
+msgstr "下"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:160
+msgid "Remove the selected account"
+msgstr "刪除所選賬戶"
+
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:163
+msgid ""
+"This button will remove the selected account in the list below. Be sure you "
+"really don't need it anymore. If you think you might use it again later, "
+"just uncheck it."
+msgstr ""
+"該按鈕會刪除列表中被選定的賬戶。請確認你的操作。如果你希望繼續使用某個賬戶，"
+"請取消對該賬戶的選擇"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:169
+#, fuzzy
+#| msgid "Remove"
+msgctxt "Remove selected account"
+msgid "Remove"
+msgstr "刪除"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:206
+msgid "Add a new account"
+msgstr "增加新帳戶"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:209
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
+msgstr ""
+"通過該按鈕可以創建一個新賬戶。添加該賬戶之後你還可以通過編輯按鈕來修改設置。"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:212
+#, fuzzy
+#| msgid "Add"
+msgctxt "Add new account"
+msgid "Add"
+msgstr "添加"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_basic)
-#: src/conf/dlgaccountsbase.ui:241
+#: src/conf/dlgaccountsbase.ui:244
 msgctxt "Basic settings"
 msgid "Basic"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label1_alias)
-#: src/conf/dlgaccountsbase.ui:252
+#: src/conf/dlgaccountsbase.ui:255
 #, fuzzy
 #| msgid "Alias"
 msgid "Alias*"
 msgstr "別稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit1_alias)
-#: src/conf/dlgaccountsbase.ui:274
+#: src/conf/dlgaccountsbase.ui:277
 msgid "Anything, used only to select the account"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label2_protocol)
-#: src/conf/dlgaccountsbase.ui:281
+#: src/conf/dlgaccountsbase.ui:284
 msgid "Protocol"
 msgstr "協議"
 
 #. i18n: ectx: property (text), widget (QLabel, label3_server)
-#: src/conf/dlgaccountsbase.ui:294
+#: src/conf/dlgaccountsbase.ui:297
 #, fuzzy
 #| msgid "Server"
 msgctxt "SIP server"
@@ -610,12 +610,12 @@ msgid "Server*"
 msgstr "伺服器"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit3_server)
-#: src/conf/dlgaccountsbase.ui:310
+#: src/conf/dlgaccountsbase.ui:313
 msgid "Example: sip.Ring.org or 192.168.0.2"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label4_user)
-#: src/conf/dlgaccountsbase.ui:320
+#: src/conf/dlgaccountsbase.ui:323
 #, fuzzy
 #| msgid "Username"
 msgctxt "Account username"
@@ -624,12 +624,12 @@ msgstr "使用者名稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit4_user)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_auth)
-#: src/conf/dlgaccountsbase.ui:330 src/conf/dlgaccountsbase.ui:1159
+#: src/conf/dlgaccountsbase.ui:333 src/conf/dlgaccountsbase.ui:1162
 msgid "Usually your extension number"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label5_password)
-#: src/conf/dlgaccountsbase.ui:337
+#: src/conf/dlgaccountsbase.ui:340
 #, fuzzy
 #| msgid "Password"
 msgctxt "Account password"
@@ -638,12 +638,12 @@ msgstr "密碼"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit5_password)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_password)
-#: src/conf/dlgaccountsbase.ui:350 src/conf/dlgaccountsbase.ui:1175
+#: src/conf/dlgaccountsbase.ui:353 src/conf/dlgaccountsbase.ui:1178
 msgid "SIP password, ask your network administrator"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
-#: src/conf/dlgaccountsbase.ui:357
+#: src/conf/dlgaccountsbase.ui:360
 #, fuzzy
 #| msgid "Voicemail"
 msgctxt "Account voice mail address"
@@ -651,243 +651,243 @@ msgid "Voicemail"
 msgstr "語音郵件"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit6_mailbox)
-#: src/conf/dlgaccountsbase.ui:367
+#: src/conf/dlgaccountsbase.ui:370
 msgid "Usually the same as the username"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pAutoAnswer)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_3)
-#: src/conf/dlgaccountsbase.ui:374 src/conf/dlgdht.ui:216
+#: src/conf/dlgaccountsbase.ui:377 src/conf/dlgdht.ui:224
 msgid "Auto answer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pPresenceCK)
-#: src/conf/dlgaccountsbase.ui:384
+#: src/conf/dlgaccountsbase.ui:387
 msgid "Enable presence support"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, statusButton)
-#: src/conf/dlgaccountsbase.ui:412
+#: src/conf/dlgaccountsbase.ui:415
 #, fuzzy
 #| msgid "Display photo if available"
 msgid "Display availability log"
 msgstr "如果可以則顯示聯繫人照片"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/conf/dlgaccountsbase.ui:465
+#: src/conf/dlgaccountsbase.ui:468
 msgid "RING"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_advanced)
-#: src/conf/dlgaccountsbase.ui:475
+#: src/conf/dlgaccountsbase.ui:478
 msgctxt "Advanced settings"
 msgid "Advanced"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlgaccountsbase.ui:481
+#: src/conf/dlgaccountsbase.ui:484
 #, fuzzy
 msgid "Registration"
 msgstr "已註冊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_regExpire)
-#: src/conf/dlgaccountsbase.ui:487
+#: src/conf/dlgaccountsbase.ui:490
 #, fuzzy
 msgid "Registration expire"
 msgstr "已註冊"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinbox_regExpire)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinbox_tls_timeout_sec)
-#: src/conf/dlgaccountsbase.ui:499 src/conf/dlgaccountsbase.ui:1649
+#: src/conf/dlgaccountsbase.ui:502 src/conf/dlgaccountsbase.ui:1652
 msgid " seconds"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomUserAgent)
-#: src/conf/dlgaccountsbase.ui:524
+#: src/conf/dlgaccountsbase.ui:527
 #, fuzzy
 #| msgid "_User name"
 msgid "Use custom user agent"
 msgstr "使用者名稱(U)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: src/conf/dlgaccountsbase.ui:543
+#: src/conf/dlgaccountsbase.ui:546
 #, fuzzy
 #| msgid "Desktop Notifications"
 msgid "Negotiation"
 msgstr "桌面提示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pProxyCK)
-#: src/conf/dlgaccountsbase.ui:549
+#: src/conf/dlgaccountsbase.ui:552
 msgid "Use a proxy"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pProxyLE)
-#: src/conf/dlgaccountsbase.ui:559
+#: src/conf/dlgaccountsbase.ui:562
 msgid "SIP proxy server (if none, leave blank)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
-#: src/conf/dlgaccountsbase.ui:566
+#: src/conf/dlgaccountsbase.ui:569
 #, fuzzy
 #| msgid "_STUN server"
 msgid "STUN server"
 msgstr "STUN伺服器(S)"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, line_stun)
-#: src/conf/dlgaccountsbase.ui:576
+#: src/conf/dlgaccountsbase.ui:579
 #, fuzzy
 #| msgid "choose Stun server (example : stunserver.org)"
 msgid "Choose STUN server (example: stunserver.org)"
 msgstr "選擇STUN服務器(例如:stunserver.org)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_turn)
-#: src/conf/dlgaccountsbase.ui:583
+#: src/conf/dlgaccountsbase.ui:586
 #, fuzzy
 #| msgid "_STUN server"
 msgid "TURN server"
 msgstr "STUN伺服器(S)"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, line_turn)
-#: src/conf/dlgaccountsbase.ui:593
+#: src/conf/dlgaccountsbase.ui:596
 #, fuzzy
 #| msgid "choose Stun server (example : stunserver.org)"
 msgid "Choose TURN server (example: turnserver.org)"
 msgstr "選擇STUN服務器(例如:stunserver.org)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pEnableUPnP)
-#: src/conf/dlgaccountsbase.ui:600
+#: src/conf/dlgaccountsbase.ui:603
 #, fuzzy
 #| msgid "Enable STUN"
 msgid "Enable UPnP"
 msgstr "啟用STUN"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: src/conf/dlgaccountsbase.ui:613
+#: src/conf/dlgaccountsbase.ui:616
 msgid "DTMF"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverRTP)
-#: src/conf/dlgaccountsbase.ui:622
+#: src/conf/dlgaccountsbase.ui:625
 msgid "Over RTP"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverSIP)
-#: src/conf/dlgaccountsbase.ui:629
+#: src/conf/dlgaccountsbase.ui:632
 msgid "Over SIP"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/dlgaccountsbase.ui:653
+#: src/conf/dlgaccountsbase.ui:656
 msgid "Network"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/conf/dlgaccountsbase.ui:659
+#: src/conf/dlgaccountsbase.ui:662
 #, fuzzy
 #| msgid "Network unreachable"
 msgid "Network Interface"
 msgstr "網路連線失敗"
 
 #. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
-#: src/conf/dlgaccountsbase.ui:681
+#: src/conf/dlgaccountsbase.ui:684
 #, fuzzy
 #| msgid "Email address"
 msgid "Local address"
 msgstr "郵件地址"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
-#: src/conf/dlgaccountsbase.ui:688
+#: src/conf/dlgaccountsbase.ui:691
 msgid "Use custom port"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/conf/dlgaccountsbase.ui:698
+#: src/conf/dlgaccountsbase.ui:701
 #, fuzzy
 #| msgid "Enable address book"
 msgid "Fallback Published address"
 msgstr "啟用地址簿"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_same_as_local)
-#: src/conf/dlgaccountsbase.ui:704
+#: src/conf/dlgaccountsbase.ui:707
 #, fuzzy
 #| msgid "Search Parameters"
 msgid "Same as local parameters"
 msgstr "搜尋相關參數"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_custom)
-#: src/conf/dlgaccountsbase.ui:711
+#: src/conf/dlgaccountsbase.ui:714
 #, fuzzy
 #| msgid "Enable address book"
 msgid "Set published address and port"
 msgstr "啟用地址簿"
 
 #. i18n: ectx: property (text), widget (QLabel, label_published_address)
-#: src/conf/dlgaccountsbase.ui:718
+#: src/conf/dlgaccountsbase.ui:721
 #, fuzzy
 #| msgid "Enable address book"
 msgid "Published address"
 msgstr "啟用地址簿"
 
 #. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
-#: src/conf/dlgaccountsbase.ui:725
+#: src/conf/dlgaccountsbase.ui:728
 #, fuzzy
 #| msgid "Enable address book"
 msgid "Published port"
 msgstr "啟用地址簿"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lineEdit_pa_published_address)
-#: src/conf/dlgaccountsbase.ui:739
+#: src/conf/dlgaccountsbase.ui:742
 msgid "IP address or hostname"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: src/conf/dlgaccountsbase.ui:762
+#: src/conf/dlgaccountsbase.ui:765
 #, fuzzy
 #| msgid "SIP account configuration"
 msgid "Fallback RTP configuration"
 msgstr "SIP帳戶配置"
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
-#: src/conf/dlgaccountsbase.ui:775
+#: src/conf/dlgaccountsbase.ui:778
 msgid "Minimum audio port"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
 #. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
-#: src/conf/dlgaccountsbase.ui:816 src/conf/dlgaccountsbase.ui:830
+#: src/conf/dlgaccountsbase.ui:819 src/conf/dlgaccountsbase.ui:833
 msgid "Minimum video port"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
-#: src/conf/dlgaccountsbase.ui:823
+#: src/conf/dlgaccountsbase.ui:826
 #, fuzzy
 #| msgid "Maximum results"
 msgid "Maximum audio port"
 msgstr "結果最大值"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: src/conf/dlgaccountsbase.ui:840
+#: src/conf/dlgaccountsbase.ui:843
 msgid "DHT"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/conf/dlgaccountsbase.ui:846
+#: src/conf/dlgaccountsbase.ui:849
 msgid "Port"
 msgstr "端口"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_codec)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: src/conf/dlgaccountsbase.ui:890 src/conf/dlgaccountsbase.ui:896
+#: src/conf/dlgaccountsbase.ui:893 src/conf/dlgaccountsbase.ui:899
 msgid "Codecs"
 msgstr "編碼"
 
 #. i18n: ectx: property (toolTip), widget (LeftToolButton, button_audiocodecUp)
-#: src/conf/dlgaccountsbase.ui:907
+#: src/conf/dlgaccountsbase.ui:910
 msgid "Increase codec priority"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (LeftToolButton, button_audiocodecUp)
-#: src/conf/dlgaccountsbase.ui:913
+#: src/conf/dlgaccountsbase.ui:916
 #, fuzzy
 #| msgid "Up"
 msgctxt "Move audio codec up"
@@ -895,12 +895,12 @@ msgid "Up"
 msgstr "上"
 
 #. i18n: ectx: property (toolTip), widget (RightToolButton, button_audiocodecDown)
-#: src/conf/dlgaccountsbase.ui:923
+#: src/conf/dlgaccountsbase.ui:926
 msgid "Decrease codec priority"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (RightToolButton, button_audiocodecDown)
-#: src/conf/dlgaccountsbase.ui:929
+#: src/conf/dlgaccountsbase.ui:932
 #, fuzzy
 #| msgid "Down"
 msgctxt "Move audio codec down"
@@ -909,34 +909,34 @@ msgstr "下"
 
 #. i18n: ectx: property (text), widget (QLabel, label_bitrate_value)
 #. i18n: ectx: property (text), widget (QLabel, label_frequency_value)
-#: src/conf/dlgaccountsbase.ui:941 src/conf/dlgaccountsbase.ui:955
+#: src/conf/dlgaccountsbase.ui:944 src/conf/dlgaccountsbase.ui:958
 msgid "-"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_bitrate)
-#: src/conf/dlgaccountsbase.ui:948
+#: src/conf/dlgaccountsbase.ui:951
 #, fuzzy
 #| msgid "Bitrate"
 msgid "Bitrate:"
 msgstr "比率"
 
 #. i18n: ectx: property (text), widget (QLabel, label_frequency)
-#: src/conf/dlgaccountsbase.ui:991
+#: src/conf/dlgaccountsbase.ui:994
 msgid "Sample rate:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pEnableVideo)
-#: src/conf/dlgaccountsbase.ui:998
+#: src/conf/dlgaccountsbase.ui:1001
 msgid "Enable video when supported"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_credentials)
-#: src/conf/dlgaccountsbase.ui:1022
+#: src/conf/dlgaccountsbase.ui:1025
 msgid "Credential"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
-#: src/conf/dlgaccountsbase.ui:1053
+#: src/conf/dlgaccountsbase.ui:1056
 msgid ""
 "This tab help manage accounts with multiple credentials. If you have "
 "multiple accounts. Do not use this feature, just create multiple accounts in "
@@ -945,7 +945,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (LeftToolButton, button_add_credential)
-#: src/conf/dlgaccountsbase.ui:1097
+#: src/conf/dlgaccountsbase.ui:1100
 #, fuzzy
 #| msgid "Add"
 msgctxt "Add new credential"
@@ -953,7 +953,7 @@ msgid "Add"
 msgstr "添加"
 
 #. i18n: ectx: property (text), widget (RightToolButton, button_remove_credential)
-#: src/conf/dlgaccountsbase.ui:1104
+#: src/conf/dlgaccountsbase.ui:1107
 #, fuzzy
 #| msgid "Remove"
 msgctxt "Remove selected credential"
@@ -961,99 +961,99 @@ msgid "Remove"
 msgstr "刪除"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
-#: src/conf/dlgaccountsbase.ui:1119
+#: src/conf/dlgaccountsbase.ui:1122
 msgid "Details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_credential_realm)
-#: src/conf/dlgaccountsbase.ui:1125
+#: src/conf/dlgaccountsbase.ui:1128
 msgid "Realm"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labe_credential_auth)
-#: src/conf/dlgaccountsbase.ui:1132
+#: src/conf/dlgaccountsbase.ui:1135
 #, fuzzy
 #| msgid "_Host name"
 msgid "Auth. name"
 msgstr "主机名稱(H)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_credential_password)
-#: src/conf/dlgaccountsbase.ui:1139
+#: src/conf/dlgaccountsbase.ui:1142
 msgid "Password"
 msgstr "密碼"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_realm)
-#: src/conf/dlgaccountsbase.ui:1149
+#: src/conf/dlgaccountsbase.ui:1152
 msgid "Usually *"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_security)
-#: src/conf/dlgaccountsbase.ui:1202
+#: src/conf/dlgaccountsbase.ui:1205
 msgid "Security"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupbox_STRP_keyexchange)
-#: src/conf/dlgaccountsbase.ui:1265
+#: src/conf/dlgaccountsbase.ui:1268
 msgid "Encrypt media streams (SRTP)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZTRP_send_hello)
-#: src/conf/dlgaccountsbase.ui:1287
+#: src/conf/dlgaccountsbase.ui:1290
 msgid "Send Hello Hash in SDP"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_warn_supported)
-#: src/conf/dlgaccountsbase.ui:1297
+#: src/conf/dlgaccountsbase.ui:1300
 msgid "Ask user to confirm SAS"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_Ask_user)
-#: src/conf/dlgaccountsbase.ui:1307
+#: src/conf/dlgaccountsbase.ui:1310
 msgid "Warn if ZRTP is not supported"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_display_SAS)
-#: src/conf/dlgaccountsbase.ui:1317
+#: src/conf/dlgaccountsbase.ui:1320
 msgid "Display SAS once for hold events"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkbox_SDES_fallback_rtp)
-#: src/conf/dlgaccountsbase.ui:1324
+#: src/conf/dlgaccountsbase.ui:1327
 msgid "Fallback on RTP on SDES failure"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_security_tls)
-#: src/conf/dlgaccountsbase.ui:1340
+#: src/conf/dlgaccountsbase.ui:1343
 msgid "Encrypt negotiation (TLS)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
-#: src/conf/dlgaccountsbase.ui:1352
+#: src/conf/dlgaccountsbase.ui:1355
 msgid "Public endpoint certificate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
-#: src/conf/dlgaccountsbase.ui:1372
+#: src/conf/dlgaccountsbase.ui:1375
 msgid "Authority certificate list"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_incoming)
-#: src/conf/dlgaccountsbase.ui:1382
+#: src/conf/dlgaccountsbase.ui:1385
 msgid "Verify incoming certificates (server side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
-#: src/conf/dlgaccountsbase.ui:1389
+#: src/conf/dlgaccountsbase.ui:1392
 msgid "Private key"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
-#: src/conf/dlgaccountsbase.ui:1399
+#: src/conf/dlgaccountsbase.ui:1402
 msgid "Negotiation timeout"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
-#: src/conf/dlgaccountsbase.ui:1451
+#: src/conf/dlgaccountsbase.ui:1454
 msgid ""
 "A good security practice is to move the certificates to a common directory. "
 "SELinux recommend ~/.cert for this. Do you wish to move the certificate "
@@ -1061,84 +1061,84 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
-#: src/conf/dlgaccountsbase.ui:1465
+#: src/conf/dlgaccountsbase.ui:1468
 msgid "Move to ~/.cert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
 #. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
-#: src/conf/dlgaccountsbase.ui:1472 src/conf/dlgaccountsbase.ui:1550
+#: src/conf/dlgaccountsbase.ui:1475 src/conf/dlgaccountsbase.ui:1553
 msgid "No thanks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
-#: src/conf/dlgaccountsbase.ui:1529
+#: src/conf/dlgaccountsbase.ui:1532
 msgid ""
 "Your certification access is too permissive. Certificates should only be "
 "readable by the owner."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
-#: src/conf/dlgaccountsbase.ui:1543
+#: src/conf/dlgaccountsbase.ui:1546
 msgid "Fix the permissions"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_tls_private_key_password)
-#: src/conf/dlgaccountsbase.ui:1578
+#: src/conf/dlgaccountsbase.ui:1581
 msgid "Only necessary if the key have a password"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_tls_outgoing)
-#: src/conf/dlgaccountsbase.ui:1585
+#: src/conf/dlgaccountsbase.ui:1588
 msgid "Usually the SIP server hostname"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCa)
-#: src/conf/dlgaccountsbase.ui:1592
+#: src/conf/dlgaccountsbase.ui:1595
 msgid "View the certificate authority"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCert)
-#: src/conf/dlgaccountsbase.ui:1606
+#: src/conf/dlgaccountsbase.ui:1609
 msgid "View the certificate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
-#: src/conf/dlgaccountsbase.ui:1620
+#: src/conf/dlgaccountsbase.ui:1623
 msgid "Private key password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_requier_cert)
-#: src/conf/dlgaccountsbase.ui:1630
+#: src/conf/dlgaccountsbase.ui:1633
 msgid "Require a certificate for incoming TLS connections"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
-#: src/conf/dlgaccountsbase.ui:1662
+#: src/conf/dlgaccountsbase.ui:1665
 msgid "Outgoing TLS server name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, check_tls_answer)
-#: src/conf/dlgaccountsbase.ui:1669
+#: src/conf/dlgaccountsbase.ui:1672
 msgid "Verify answer certificates (client side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_method)
-#: src/conf/dlgaccountsbase.ui:1698
+#: src/conf/dlgaccountsbase.ui:1701
 #, fuzzy
 #| msgid "_SIP protocol"
 msgid "TLS protocol method"
 msgstr "SIP 協議(S)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultCiphers)
-#: src/conf/dlgaccountsbase.ui:1705
+#: src/conf/dlgaccountsbase.ui:1708
 msgid "Use default ciphers"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_ringtone)
 #. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
 #. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
-#: src/conf/dlgaccountsbase.ui:1724 src/conf/dlgaccountsbase.ui:1730
+#: src/conf/dlgaccountsbase.ui:1727 src/conf/dlgaccountsbase.ui:1733
 #: src/conf/dlgaudiobase.ui:130
 #, fuzzy
 #| msgid "Ringtones"
@@ -1146,7 +1146,7 @@ msgid "Ringtone"
 msgstr "鈴聲"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomFileCK)
-#: src/conf/dlgaccountsbase.ui:1739
+#: src/conf/dlgaccountsbase.ui:1742
 msgid "Use custom file"
 msgstr ""
 
@@ -1299,36 +1299,41 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
 #. i18n: ectx: property (text), widget (QToolButton, m_pPlayPause)
 #. i18n: ectx: property (text), widget (QToolButton, m_pStop)
-#: src/conf/dlgdht.ui:92 src/conf/dlgdht.ui:102 src/conf/dlgdht.ui:112
-#: src/conf/dlgdht.ui:122 src/widgets/ui/player.ui:64
+#: src/conf/dlgdht.ui:92 src/conf/dlgdht.ui:104 src/conf/dlgdht.ui:116
+#: src/conf/dlgdht.ui:128 src/widgets/ui/player.ui:64
 #: src/widgets/ui/player.ui:71 src/widgets/ui/playeroverlay.ui:54
 #: src/widgets/ui/playeroverlay.ui:77
 msgid "..."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlgdht.ui:145
+#: src/conf/dlgdht.ui:153
 msgid "Peers"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/dlgdht.ui:155
+#: src/conf/dlgdht.ui:163
 msgid "Known peers"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/conf/dlgdht.ui:188
+#: src/conf/dlgdht.ui:196
 msgid "Blacklist"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
-#: src/conf/dlgdht.ui:209
+#: src/conf/dlgdht.ui:217
 msgid "Only allow incoming calls from known peers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlgdht.ui:232
+#: src/conf/dlgdht.ui:240
 msgid "For your friends to be able to call you, send them your hash:"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pHash)
+#: src/conf/dlgdht.ui:250
+msgid "Your hash will be generated once the account is saved"
 msgstr ""
 
 #: src/conf/dlgdisplay.cpp:36
@@ -1672,12 +1677,12 @@ msgstr ""
 msgid "First name..."
 msgstr ""
 
-#: src/conf/dlgvideo.cpp:49 src/conf/dlgvideo.cpp:83
+#: src/conf/dlgvideo.cpp:50 src/conf/dlgvideo.cpp:84
 msgid "Stop preview"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
-#: src/conf/dlgvideo.cpp:86 src/conf/dlgvideobase.ui:58
+#: src/conf/dlgvideo.cpp:87 src/conf/dlgvideobase.ui:58
 #, fuzzy
 #| msgid "_Start hidden"
 msgid "Start preview"
@@ -1697,7 +1702,7 @@ msgstr "音訊配置"
 msgid "Device Configuration"
 msgstr "ALSA 配置"
 
-#: src/delegates/historydelegate.cpp:284
+#: src/delegates/historydelegate.cpp:282
 #, fuzzy
 #| msgid "Preferences"
 msgid "Conference"
