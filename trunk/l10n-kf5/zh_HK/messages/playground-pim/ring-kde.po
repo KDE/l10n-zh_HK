@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-25 09:09+0000\n"
+"POT-Creation-Date: 2015-07-11 09:16+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -36,8 +36,8 @@ msgstr "桌面提示"
 #. i18n: ectx: Menu (View)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCa)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCert)
-#: data/ring-kdeui.rc:20 src/conf/account/accountpages/security.ui:407
-#: src/conf/account/accountpages/security.ui:421
+#: data/ring-kdeui.rc:20 src/conf/account/accountpages/security.ui:419
+#: src/conf/account/accountpages/security.ui:433
 #, fuzzy
 #| msgid "_View"
 msgid "View"
@@ -378,104 +378,126 @@ msgid "Registration"
 msgstr "已註冊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_regExpire)
-#: src/conf/account/accountpages/advanced.ui:29
+#: src/conf/account/accountpages/advanced.ui:28
 #, fuzzy
 msgid "Registration expire"
 msgstr "已註冊"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_registrationExpire)
 #. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_tlsNegotiationTimeoutSec)
-#: src/conf/account/accountpages/advanced.ui:39
-#: src/conf/account/accountpages/security.ui:461
+#: src/conf/account/accountpages/advanced.ui:38
+#: src/conf/account/accountpages/security.ui:473
 msgid " seconds"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasCustomUserAgent)
-#: src/conf/account/accountpages/advanced.ui:49
+#: src/conf/account/accountpages/advanced.ui:48
 #, fuzzy
 #| msgid "_User name"
 msgid "Use custom user agent"
 msgstr "使用者名稱(U)"
 
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromUnknown)
+#: src/conf/account/accountpages/advanced.ui:64
+msgid "Allow calls from unknown peers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromHistory)
+#: src/conf/account/accountpages/advanced.ui:74
+msgid "Allow calls if that person has been contacted in the past"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromContact)
+#: src/conf/account/accountpages/advanced.ui:84
+msgid "Allow calls from your contacts"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: src/conf/account/accountpages/advanced.ui:66
+#: src/conf/account/accountpages/advanced.ui:94
 #, fuzzy
 #| msgid "Desktop Notifications"
 msgid "Negotiation"
 msgstr "桌面提示"
 
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasProxy)
+#: src/conf/account/accountpages/advanced.ui:103
+msgid "Use a proxy"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_proxy)
+#: src/conf/account/accountpages/advanced.ui:113
+msgid "SIP proxy server (if none, leave blank)"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_sipStunEnabled)
-#: src/conf/account/accountpages/advanced.ui:72
+#: src/conf/account/accountpages/advanced.ui:120
 #, fuzzy
 #| msgid "E_nable STUN"
 msgid "Enable STUN"
 msgstr "啟用STUN(n)"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_sipStunServer)
-#: src/conf/account/accountpages/advanced.ui:82
+#: src/conf/account/accountpages/advanced.ui:130
 #, fuzzy
 #| msgid "choose Stun server (example : stunserver.org)"
 msgid "Choose STUN server (example: stunserver.org)"
 msgstr "選擇STUN服務器(例如:stunserver.org)"
 
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasProxy)
-#: src/conf/account/accountpages/advanced.ui:89
-msgid "Use a proxy"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_proxy)
-#: src/conf/account/accountpages/advanced.ui:99
-msgid "SIP proxy server (if none, leave blank)"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_turnServer)
-#: src/conf/account/accountpages/advanced.ui:109
-#, fuzzy
-#| msgid "choose Stun server (example : stunserver.org)"
-msgid "Choose TURN server (example: turnserver.org)"
-msgstr "選擇STUN服務器(例如:stunserver.org)"
-
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_turnEnabled)
-#: src/conf/account/accountpages/advanced.ui:116
+#: src/conf/account/accountpages/advanced.ui:137
 #, fuzzy
 #| msgid "_STUN server"
 msgid "TURN server"
 msgstr "STUN伺服器(S)"
 
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_turnServer)
+#: src/conf/account/accountpages/advanced.ui:147
+#, fuzzy
+#| msgid "choose Stun server (example : stunserver.org)"
+msgid "Choose TURN server (example: turnserver.org)"
+msgstr "選擇STUN服務器(例如:stunserver.org)"
+
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_upnpEnabled)
-#: src/conf/account/accountpages/advanced.ui:123
+#: src/conf/account/accountpages/advanced.ui:154
 #, fuzzy
 #| msgid "Enable STUN"
 msgid "Enable UPnP"
 msgstr "啟用STUN"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/conf/account/accountpages/advanced.ui:136
+#: src/conf/account/accountpages/advanced.ui:167
 msgid "Feature"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_presenceEnabled)
-#: src/conf/account/accountpages/advanced.ui:145
+#: src/conf/account/accountpages/advanced.ui:176
 msgid "Enable presence support"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_isVideoEnabled)
-#: src/conf/account/accountpages/advanced.ui:152
+#: src/conf/account/accountpages/advanced.ui:183
 msgid "Enable video when supported"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasActiveCallLimit)
+#: src/conf/account/accountpages/advanced.ui:190
+#, fuzzy
+#| msgid "Edit the phone number before making a call"
+msgid "Limit the number of concurrent incmoing calls"
+msgstr "撥出電話前編輯電話號碼"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: src/conf/account/accountpages/advanced.ui:162
+#: src/conf/account/accountpages/advanced.ui:223
 msgid "DTMF"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, auto_2)
-#: src/conf/account/accountpages/advanced.ui:168
+#: src/conf/account/accountpages/advanced.ui:229
 msgid "Over RTP"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, lrcfg_dTMFType)
-#: src/conf/account/accountpages/advanced.ui:175
+#: src/conf/account/accountpages/advanced.ui:236
 msgid "Over SIP"
 msgstr ""
 
@@ -902,33 +924,32 @@ msgstr ""
 msgid "Encrypt negotiation (TLS)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
-#: src/conf/account/accountpages/security.ui:164
-msgid "Public endpoint certificate"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
-#: src/conf/account/accountpages/security.ui:184
+#: src/conf/account/accountpages/security.ui:167
 msgid "Authority certificate list"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
-#: src/conf/account/accountpages/security.ui:194
-msgid "Verify incoming certificates (server side)"
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/conf/account/accountpages/security.ui:219
+msgid ""
+"Your certificates access are too permissive. Certificates should only be "
+"readable by the owner."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
-#: src/conf/account/accountpages/security.ui:201
-msgid "Private key"
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/conf/account/accountpages/security.ui:233
+msgid "Fix the permissions"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
-#: src/conf/account/accountpages/security.ui:211
-msgid "Negotiation timeout"
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#: src/conf/account/accountpages/security.ui:243
+#: src/conf/account/accountpages/security.ui:327
+msgid "No thanks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
-#: src/conf/account/accountpages/security.ui:263
+#: src/conf/account/accountpages/security.ui:303
 msgid ""
 "A good security practice is to move the certificates to a common directory. "
 "SELinux recommend ~/.cert for this. Do you wish to move the certificate "
@@ -936,79 +957,97 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
-#: src/conf/account/accountpages/security.ui:277
+#: src/conf/account/accountpages/security.ui:317
 msgid "Move to ~/.cert"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
-#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
-#: src/conf/account/accountpages/security.ui:284
-#: src/conf/account/accountpages/security.ui:362
-msgid "No thanks"
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/conf/account/accountpages/security.ui:345
+msgid "Negotiation timeout"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
-#: src/conf/account/accountpages/security.ui:341
-msgid ""
-"Your certification access is too permissive. Certificates should only be "
-"readable by the owner."
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
+#: src/conf/account/accountpages/security.ui:352
+msgid "Verify incoming certificates (server side)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
-#: src/conf/account/accountpages/security.ui:355
-msgid "Fix the permissions"
+#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
+#: src/conf/account/accountpages/security.ui:359
+msgid "Public endpoint certificate"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsPassword)
-#: src/conf/account/accountpages/security.ui:390
+#: src/conf/account/accountpages/security.ui:395
 msgid "Only necessary if the key have a password"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/conf/account/accountpages/security.ui:402
+msgid "Private key"
+msgstr ""
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsServerName)
-#: src/conf/account/accountpages/security.ui:397
+#: src/conf/account/accountpages/security.ui:409
 msgid "Usually the SIP server hostname"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCa)
-#: src/conf/account/accountpages/security.ui:404
+#: src/conf/account/accountpages/security.ui:416
 msgid "View the certificate authority"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCert)
-#: src/conf/account/accountpages/security.ui:418
+#: src/conf/account/accountpages/security.ui:430
 msgid "View the certificate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
-#: src/conf/account/accountpages/security.ui:432
+#: src/conf/account/accountpages/security.ui:444
 msgid "Private key password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsRequireClientCertificate)
-#: src/conf/account/accountpages/security.ui:442
+#: src/conf/account/accountpages/security.ui:454
 msgid "Require a certificate for incoming TLS connections"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
-#: src/conf/account/accountpages/security.ui:474
+#: src/conf/account/accountpages/security.ui:486
 msgid "Outgoing TLS server name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyClient)
-#: src/conf/account/accountpages/security.ui:481
+#: src/conf/account/accountpages/security.ui:493
 msgid "Verify answer certificates (client side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_method)
-#: src/conf/account/accountpages/security.ui:510
+#: src/conf/account/accountpages/security.ui:522
 #, fuzzy
 #| msgid "_SIP protocol"
 msgid "TLS protocol method"
 msgstr "SIP 協議(S)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultCiphers)
-#: src/conf/account/accountpages/security.ui:517
+#: src/conf/account/accountpages/security.ui:529
 msgid "Use default ciphers"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/account/accountpages/security.ui:543
+msgid "Allowed certificates"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/conf/account/accountpages/security.ui:553
+#, fuzzy
+#| msgid "Bad authentification"
+msgid "Banned certificates"
+msgstr "認證錯誤"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/conf/account/accountpages/security.ui:563
+msgid "Known certificates"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
@@ -1048,25 +1087,25 @@ msgstr ""
 msgid "Ringtones"
 msgstr "鈴聲"
 
-#: src/conf/account/widgets/securityprogress.cpp:277
+#: src/conf/account/widgets/securityprogress.cpp:275
 #, kde-format
 msgid "%1 tip"
 msgid_plural "%1 tips"
 msgstr[0] ""
 
-#: src/conf/account/widgets/securityprogress.cpp:278
+#: src/conf/account/widgets/securityprogress.cpp:276
 #, kde-format
 msgid "%1 warning"
 msgid_plural "%1 warnings"
 msgstr[0] ""
 
-#: src/conf/account/widgets/securityprogress.cpp:279
+#: src/conf/account/widgets/securityprogress.cpp:277
 #, kde-format
 msgid "%1 issue"
 msgid_plural "%1 issues"
 msgstr[0] ""
 
-#: src/conf/account/widgets/securityprogress.cpp:280
+#: src/conf/account/widgets/securityprogress.cpp:278
 #, fuzzy, kde-format
 #| msgid "Error"
 msgid "%1 error"
@@ -3238,9 +3277,6 @@ msgstr ""
 #~ msgid "_Call back"
 #~ msgstr "回叫(C)"
 
-#~ msgid "Edit the phone number before making a call"
-#~ msgstr "撥出電話前編輯電話號碼"
-
 #~ msgid "%s account : %s"
 #~ msgstr "%s 帳戶 : %s"
 
@@ -3448,9 +3484,6 @@ msgstr ""
 
 #~ msgid "%s - %s"
 #~ msgstr "%s - %s"
-
-#~ msgid "Bad authentification"
-#~ msgstr "認證錯誤"
 
 #~ msgid "%d voice mails"
 #~ msgstr "%d 個語音郵件"
