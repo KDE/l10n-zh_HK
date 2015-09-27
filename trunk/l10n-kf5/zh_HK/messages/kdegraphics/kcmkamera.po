@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkamera\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-26 01:29+0000\n"
+"POT-Creation-Date: 2015-09-27 08:17+0000\n"
 "PO-Revision-Date: 2006-01-08 17:54+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kamera.cpp:89
+#: kamera.cpp:87
 msgid "Unable to initialize the gPhoto2 libraries."
 msgstr "無法初始化 gPhoto2 程式庫。"
 
-#: kamera.cpp:130
+#: kamera.cpp:129
 msgid "Add"
 msgstr ""
 
-#: kamera.cpp:132
+#: kamera.cpp:131
 msgid "Click this button to add a new camera."
 msgstr "請點選這個按鈕新增照相機。"
 
@@ -38,19 +38,19 @@ msgstr "測試"
 msgid "Click this button to test the connection to the selected camera."
 msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
-#: kamera.cpp:143
+#: kamera.cpp:144
 msgid "Remove"
 msgstr ""
 
-#: kamera.cpp:145
+#: kamera.cpp:146
 msgid "Click this button to remove the selected camera from the list."
 msgstr "請點選這個按鈕刪除清單上所選的照相機。"
 
-#: kamera.cpp:149
+#: kamera.cpp:151
 msgid "Configure..."
 msgstr "設定..."
 
-#: kamera.cpp:151
+#: kamera.cpp:153
 msgid ""
 "Click this button to change the configuration of the selected camera."
 "<br><br>The availability of this feature and the contents of the "
@@ -59,11 +59,11 @@ msgstr ""
 "點選這個按鈕來變更所選照相機的設定。<br><br>有沒有這個功能，以及設定方塊內顯"
 "示的內容，會依不同照相機型號而有所不同。"
 
-#: kamera.cpp:155
+#: kamera.cpp:158
 msgid "Information"
 msgstr ""
 
-#: kamera.cpp:157
+#: kamera.cpp:160
 #, fuzzy
 #| msgid ""
 #| "Click this button to view a summary of the current status of the selected "
@@ -77,19 +77,19 @@ msgstr ""
 "點選這個按鈕來檢視所選照相機的當前狀態摘要。<br><br>有沒有這個功能，以及設定"
 "方塊內顯示的內容，會依不同照相機型號而有所不同。"
 
-#: kamera.cpp:162
+#: kamera.cpp:166
 msgid "Cancel"
 msgstr ""
 
-#: kamera.cpp:164
+#: kamera.cpp:168
 msgid "Click this button to cancel the current camera operation."
 msgstr "請點選這個按鈕取消當前照相機的操作。"
 
-#: kamera.cpp:346
+#: kamera.cpp:358
 msgid "Camera test was successful."
 msgstr "照相機測試成功。"
 
-#: kamera.cpp:428
+#: kamera.cpp:441
 #, fuzzy
 #| msgid ""
 #| "<h1>Digital Camera</h1>\n"
@@ -121,36 +121,36 @@ msgstr ""
 "要從數碼相機檢視及下載圖像，請在 Konqueror 或其他 KDE 程式上連結\n"
 "<a href=\"camera:/\">camera:/</a> 。"
 
-#: kameraconfigdialog.cpp:223
+#: kameraconfigdialog.cpp:248
 msgid "Button (not supported by KControl)"
 msgstr "按鈕（KControl 不支援）"
 
-#: kameraconfigdialog.cpp:231
+#: kameraconfigdialog.cpp:256
 msgid "Date (not supported by KControl)"
 msgstr "日期（KControl 不支援）"
 
-#: kameradevice.cpp:80
+#: kameradevice.cpp:93
 #, fuzzy
 #| msgid "Could not allocate memory for abilities list."
 msgid "Could not allocate memory for the abilities list."
 msgstr "無法分配用於功能清單的記憶體。"
 
-#: kameradevice.cpp:84
+#: kameradevice.cpp:97
 msgid "Could not load ability list."
 msgstr "無法載入功能清單。"
 
-#: kameradevice.cpp:89 kameradevice.cpp:478 kameradevice.cpp:492
+#: kameradevice.cpp:103 kameradevice.cpp:518 kameradevice.cpp:534
 #, kde-format
 msgid ""
 "Description of abilities for camera %1 is not available. Configuration "
 "options may be incorrect."
 msgstr "無法取得 %1 照相機的功能說明。設定選項可能不正確。"
 
-#: kameradevice.cpp:112
+#: kameradevice.cpp:127
 msgid "Could not access driver. Check your gPhoto2 installation."
 msgstr "無法存取驅動程式。請檢查您的 gPhoto2 軟件安裝是否正確。"
 
-#: kameradevice.cpp:132
+#: kameradevice.cpp:147
 msgid ""
 "Unable to initialize camera. Check your port settings and camera "
 "connectivity and try again."
@@ -158,82 +158,83 @@ msgstr ""
 "無法對照相機進行初始化的動作。請檢查您的通訊埠設置，以及照相機是否已連接妥"
 "當，然後再試。"
 
-#: kameradevice.cpp:156
+#: kameradevice.cpp:171
 msgid "No camera summary information is available.\n"
 msgstr "無法取得照相機的摘要資訊。\n"
 
-#: kameradevice.cpp:169 kameradevice.cpp:179
+#: kameradevice.cpp:185 kameradevice.cpp:196
 msgid "Camera configuration failed."
 msgstr "照相機設定失敗。"
 
-#: kameradevice.cpp:214 kameradevice.cpp:324
+#: kameradevice.cpp:234 kameradevice.cpp:341
 msgid "Serial"
 msgstr "序列"
 
-#: kameradevice.cpp:215 kameradevice.cpp:327
+#: kameradevice.cpp:235 kameradevice.cpp:346
 msgid "USB"
 msgstr "USB"
 
-#: kameradevice.cpp:216
+#: kameradevice.cpp:236
 msgid "Unknown port"
 msgstr "未知的連接埠"
 
-#: kameradevice.cpp:277
+#: kameradevice.cpp:299
 msgid "Select Camera Device"
 msgstr "選取照相機裝置"
 
-#: kameradevice.cpp:300
+#: kameradevice.cpp:319
 #, fuzzy
 #| msgid "Supported Cameras"
 msgctxt "@title:column"
 msgid "Supported Cameras"
 msgstr "支援的照相機"
 
-#: kameradevice.cpp:315 kameradevice.cpp:336
+#: kameradevice.cpp:335 kameradevice.cpp:360
 msgid "Port"
 msgstr "連接埠"
 
-#: kameradevice.cpp:319
-msgid "Port Settings"
-msgstr "連接埠設置"
-
-#: kameradevice.cpp:326
+#: kameradevice.cpp:343
 #, fuzzy
 #| msgid ""
 #| "If this option is checked, the camera would have to be connected one of "
 #| "the serial ports (known as COM in Microsoft Windows) in your computer."
 msgid ""
-"If this option is checked, the camera has to be connected to one of the "
-"computer's serial ports (known as COM ports in Microsoft Windows.)"
+"If this option is checked, the camera has         to be connected to one of "
+"the computer's serial ports (known as COM         ports in Microsoft "
+"Windows.)"
 msgstr ""
 "若是這個項目開啟了，那照相機應該連結到您電機的序列埠上（Windows 說法就是 COM "
 "位置上）。"
 
-#: kameradevice.cpp:329
+#: kameradevice.cpp:348
 #, fuzzy
 #| msgid ""
 #| "If this option is checked, the camera would have to be connected to one "
 #| "of the USB slots in your computer or USB hub."
 msgid ""
-"If this option is checked, the camera has to be connected to one of the "
-"computer's USB ports, or to a USB hub."
+"If this option is checked, the camera has to         be connected to one of "
+"the computer's USB ports, or to a USB hub."
 msgstr "若是這個項目開啟了，那照相機應該連結到您電腦的 USB 埠或 USB 集線器上。"
 
-#: kameradevice.cpp:346
+#: kameradevice.cpp:351
+msgid "Port Settings"
+msgstr "連接埠設置"
+
+#: kameradevice.cpp:371
 msgid "No port type selected."
 msgstr "未有選擇連接埠的類型。"
 
-#: kameradevice.cpp:355
+#: kameradevice.cpp:379
 msgid "Port:"
 msgstr "連接埠:"
 
-#: kameradevice.cpp:358
+#: kameradevice.cpp:382
 #, fuzzy
 #| msgid "Here you should choose the serial port you connect the camera to."
-msgid "Specify here the serial port to which you connect the camera."
+msgid "Specify here the serial port to         which you connect the camera."
 msgstr "您可以在這裡選擇您照相機所連接的序列埠。"
 
-#: kameradevice.cpp:365
+#: kameradevice.cpp:390
 #, fuzzy
 #| msgid "No further configuration is required for USB."
 msgid "No further configuration is required for USB cameras."
