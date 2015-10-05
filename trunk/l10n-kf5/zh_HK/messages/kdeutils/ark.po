@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-04 08:40+0000\n"
+"POT-Creation-Date: 2015-10-05 08:12+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -634,13 +634,13 @@ msgstr ""
 msgid " megabytes"
 msgstr ""
 
-#: kerfuffle/queries.cpp:93
+#: kerfuffle/queries.cpp:94
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgid "File already exists"
 msgstr "壓縮檔已經存在"
 
-#: kerfuffle/queries.cpp:176
+#: kerfuffle/queries.cpp:177
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -649,9 +649,24 @@ msgid ""
 "password to extract the file."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: kerfuffle/queries.cpp:180
+#: kerfuffle/queries.cpp:181
 msgid "Incorrect password, please try again."
 msgstr ""
+
+#: kerfuffle/queries.cpp:216
+msgctxt "@info"
+msgid ""
+"Corrupt archive detected. Do you want Ark to attempt loading the archive?<nl/"
+"><nl/>Some files may be missing or damaged, and the archive will be opened "
+"read-only."
+msgstr ""
+
+#: kerfuffle/queries.cpp:219
+#, fuzzy
+#| msgid "Save Archive?"
+msgctxt "@title:window"
+msgid "Corrupt archive"
+msgstr "儲存壓縮檔？"
 
 #: part/archivemodel.cpp:396
 msgctxt "Name of a file inside an archive"
