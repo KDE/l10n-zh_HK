@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-16 08:23+0000\n"
+"POT-Creation-Date: 2015-10-20 10:17+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -334,13 +334,18 @@ msgstr ""
 msgid "Whether to show the information panel."
 msgstr ""
 
-#. i18n: ectx: label, entry (limitPreviewFileSize), group (Preview)
+#. i18n: ectx: label, entry (defaultOpenAction), group (Preview)
 #: kerfuffle/ark.kcfg:33
+msgid "Default action when opening archive entries."
+msgstr ""
+
+#. i18n: ectx: label, entry (limitPreviewFileSize), group (Preview)
+#: kerfuffle/ark.kcfg:41
 msgid "Whether to limit the preview according to file size."
 msgstr ""
 
 #. i18n: ectx: label, entry (previewFileSizeLimit), group (Preview)
-#: kerfuffle/ark.kcfg:37
+#: kerfuffle/ark.kcfg:45
 msgid "Preview file size limit in megabytes."
 msgstr ""
 
@@ -624,13 +629,30 @@ msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/previewsettings.ui:20
+msgid "When clicking a file in an archive or pressing the Return key:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, Preview)
+#: kerfuffle/previewsettings.ui:51
+msgid "Pre&view the file with internal previewer"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, Open)
+#: kerfuffle/previewsettings.ui:61
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgid "Ope&n the file with associated application"
+msgstr "你確定要刪除選擇的項目嗎？"
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitPreviewFileSize)
-#: kerfuffle/previewsettings.ui:26
+#: kerfuffle/previewsettings.ui:83
 msgid "Disable preview for files larger than:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_previewFileSizeLimit)
-#: kerfuffle/previewsettings.ui:36
+#: kerfuffle/previewsettings.ui:93
 msgid " megabytes"
 msgstr ""
 
