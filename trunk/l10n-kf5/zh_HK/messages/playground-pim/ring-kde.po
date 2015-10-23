@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-08 09:05+0000\n"
+"POT-Creation-Date: 2015-10-23 08:12+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -207,7 +207,7 @@ msgstr "顯示"
 msgid "Configure Toolbars"
 msgstr "配置SFLphone"
 
-#: src/actioncollection.cpp:183 src/widgets/historydock.cpp:261
+#: src/actioncollection.cpp:183 src/menu/call.cpp:86
 #, fuzzy
 #| msgid "Add a new account"
 msgid "Add new contact"
@@ -219,7 +219,7 @@ msgstr "增加新帳戶"
 msgid "Configure Shortcut"
 msgstr "配置SFLphone"
 
-#: src/canvasobjectmanager.cpp:227 src/mainwindow.cpp:193
+#: src/canvasobjectmanager.cpp:227 src/mainwindow.cpp:194
 #, fuzzy
 #| msgid "Ringtones"
 msgid "Ring"
@@ -284,7 +284,7 @@ msgctxt "Add new account"
 msgid "Add"
 msgstr "添加"
 
-#. i18n: ectx: property (whatsThis), widget (QTreeView, m_pAccountList)
+#. i18n: ectx: property (whatsThis), widget (CategorizedTree, m_pAccountList)
 #: src/conf/account/accountdlg.ui:121
 #, fuzzy
 #| msgid ""
@@ -1220,6 +1220,7 @@ msgstr "鈴聲"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_8)
 #: src/conf/account/accountpages/tabs.ui:91
+#: src/conf/account/model/extendedprotocolmodel.cpp:42
 msgid "Profile"
 msgstr ""
 
@@ -1346,7 +1347,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
 #. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
 #: src/conf/dlgaccessibility.ui:115 src/conf/dlgpresence.ui:81
-#: src/widgets/historydock.cpp:240
+#: src/menu/call.cpp:65
 #, fuzzy
 #| msgid "Remove"
 msgid "Remove"
@@ -1794,6 +1795,46 @@ msgstr "ALSA 配置"
 #| msgid "Preferences"
 msgid "Conference"
 msgstr "屬性"
+
+#: src/dock.cpp:81
+#, fuzzy
+msgctxt "Contact tab"
+msgid "Contact"
+msgstr "顯示"
+
+#: src/dock.cpp:117
+#, fuzzy
+#| msgid "History"
+msgctxt "History tab"
+msgid "History"
+msgstr "歷史"
+
+#: src/dock.cpp:145
+#, fuzzy
+#| msgid "Books"
+msgctxt "Bookmark tab"
+msgid "Bookmark"
+msgstr "鉤鍵"
+
+#: src/dock.cpp:226 src/mainwindow.cpp:515
+#, fuzzy
+#| msgid "_Call"
+msgid "Call"
+msgstr "電話"
+
+#: src/dock.cpp:229 src/menu/call.cpp:69 src/menu/person.cpp:78
+#, fuzzy
+#| msgid "Books"
+msgid "Bookmark"
+msgstr "鉤鍵"
+
+#: src/dock.cpp:232
+msgid "Contact"
+msgstr ""
+
+#: src/dock.cpp:235
+msgid "History"
+msgstr "歷史"
 
 #: src/errormessage.cpp:22
 msgid ""
@@ -2301,58 +2342,98 @@ msgstr ""
 msgid "Preferred"
 msgstr ""
 
-#: src/mainwindow.cpp:208
+#: src/mainwindow.cpp:209
 #, fuzzy
 #| msgid "_Call"
 msgctxt "Call tab"
 msgid "Call"
 msgstr "電話"
 
-#: src/mainwindow.cpp:326
+#: src/mainwindow.cpp:295
 msgctxt "The presence state is \"Online\""
 msgid "Online"
 msgstr ""
 
-#: src/mainwindow.cpp:336
+#: src/mainwindow.cpp:305
 msgid "Your Ring ID:"
 msgstr ""
 
-#: src/mainwindow.cpp:343
+#: src/mainwindow.cpp:312
 msgid "None"
 msgstr ""
 
-#: src/mainwindow.cpp:356
+#: src/mainwindow.cpp:325
 #, fuzzy
 #| msgid "Account"
 msgid "Account:"
 msgstr "帳戶"
 
-#: src/mainwindow.cpp:373
+#: src/mainwindow.cpp:342
 msgid ""
 "The Ring daemon (dring) is not available. Please be sure it is installed "
 "correctly or launch it manually"
 msgstr ""
 
-#: src/mainwindow.cpp:527 src/mainwindow.cpp:597
+#: src/menu/call.cpp:52 src/menu/contactmethod.cpp:44 src/menu/person.cpp:50
 #, fuzzy
-#| msgid "_Call"
-msgid "Call"
-msgstr "電話"
+#| msgid "Call back"
+msgid "Call Again"
+msgstr "回叫"
 
-#: src/mainwindow.cpp:530 src/widgets/contactdock.cpp:236
-#: src/widgets/historydock.cpp:244 src/widgets/historydock.cpp:246
-#, fuzzy
-#| msgid "Books"
-msgid "Bookmark"
-msgstr "鉤鍵"
-
-#: src/mainwindow.cpp:533
-msgid "Contact"
+#. i18n: ectx: property (text), widget (QPushButton, m_pCopy)
+#: src/menu/call.cpp:56 src/menu/contactmethod.cpp:52 src/menu/person.cpp:61
+#: src/widgets/ui/share.ui:72
+msgid "Copy"
 msgstr ""
 
-#: src/mainwindow.cpp:536
-msgid "History"
-msgstr "歷史"
+#: src/menu/call.cpp:60 src/menu/contactmethod.cpp:56 src/menu/person.cpp:66
+#, fuzzy
+#| msgid "_Email"
+msgid "Send Email"
+msgstr "郵件(E)"
+
+#: src/menu/contactmethod.cpp:48 src/menu/person.cpp:55
+#, fuzzy
+#| msgid "Edit phone"
+msgid "Edit contact"
+msgstr "編輯電話"
+
+#: src/menu/contactmethod.cpp:61 src/menu/person.cpp:72
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Add Phone Number"
+msgstr "編輯電話號碼"
+
+#: src/menu/contactmethod.cpp:66
+#, fuzzy
+#| msgid "Books"
+msgid "Remove Bookmark"
+msgstr "鉤鍵"
+
+#: src/menu/contactmethod.cpp:172 src/menu/person.cpp:165
+#, fuzzy
+#| msgid "Edit phone number"
+msgid "Enter a new number"
+msgstr "編輯電話號碼"
+
+#: src/menu/contactmethod.cpp:172 src/menu/person.cpp:165
+msgid "New number:"
+msgstr ""
+
+#: src/menu/person.cpp:83
+msgid "Delete"
+msgstr ""
+
+#: src/menu/person.cpp:185
+#, kde-format
+msgid "Are you sure you want to permanently delete %1?"
+msgstr ""
+
+#: src/menu/person.cpp:186
+#, fuzzy
+#| msgid "Edit phone"
+msgid "Delete contact"
+msgstr "編輯電話"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pSendMessageLE)
 #: src/ui/View_base.ui:69
@@ -2376,105 +2457,8 @@ msgstr "話筒音量"
 msgid "Speakers volume"
 msgstr "揚聲器音量"
 
-#: src/widgets/autocompletion.cpp:119
+#: src/widgets/autocompletion.cpp:47
 msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
-#: src/widgets/bookmarkdock.cpp:88 src/widgets/ui/contactdock.ui:20
-#: src/widgets/ui/dockbase.ui:56
-msgid "Filter"
-msgstr ""
-
-#: src/widgets/bookmarkdock.cpp:94
-msgid "Show most called contacts"
-msgstr ""
-
-#: src/widgets/bookmarkdock.cpp:99
-#, fuzzy
-#| msgid "Books"
-msgctxt "Bookmark dock"
-msgid "Bookmark"
-msgstr "鉤鍵"
-
-#: src/widgets/bookmarkdock.cpp:154 src/widgets/contactdock.cpp:208
-#: src/widgets/historydock.cpp:227
-#, fuzzy
-#| msgid "Call back"
-msgid "Call Again"
-msgstr "回叫"
-
-#: src/widgets/bookmarkdock.cpp:158 src/widgets/contactdock.cpp:213
-#, fuzzy
-#| msgid "Edit phone"
-msgid "Edit contact"
-msgstr "編輯電話"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_pCopy)
-#: src/widgets/bookmarkdock.cpp:162 src/widgets/contactdock.cpp:219
-#: src/widgets/historydock.cpp:231 src/widgets/ui/share.ui:72
-msgid "Copy"
-msgstr ""
-
-#: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:224
-#: src/widgets/historydock.cpp:235
-#, fuzzy
-#| msgid "_Email"
-msgid "Send Email"
-msgstr "郵件(E)"
-
-#: src/widgets/bookmarkdock.cpp:171 src/widgets/contactdock.cpp:230
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Add Phone Number"
-msgstr "編輯電話號碼"
-
-#: src/widgets/bookmarkdock.cpp:176
-#, fuzzy
-#| msgid "Books"
-msgid "Remove Bookmark"
-msgstr "鉤鍵"
-
-#: src/widgets/bookmarkdock.cpp:290 src/widgets/contactdock.cpp:353
-#, fuzzy
-#| msgid "Edit phone number"
-msgid "Enter a new number"
-msgstr "編輯電話號碼"
-
-#: src/widgets/bookmarkdock.cpp:290 src/widgets/contactdock.cpp:353
-msgid "New number:"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:118
-#, fuzzy
-msgctxt "Contact tab"
-msgid "Contact"
-msgstr "顯示"
-
-#: src/widgets/contactdock.cpp:241
-msgid "Delete"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:373
-#, kde-format
-msgid "Are you sure you want to permanently delete %1?"
-msgstr ""
-
-#: src/widgets/contactdock.cpp:374
-#, fuzzy
-#| msgid "Edit phone"
-msgid "Delete contact"
-msgstr "編輯電話"
-
-#: src/widgets/historydock.cpp:152
-#, fuzzy
-#| msgid "History"
-msgctxt "History tab"
-msgid "History"
-msgstr "歷史"
-
-#: src/widgets/historydock.cpp:250
-msgid "Remove bookmark"
 msgstr ""
 
 #: src/widgets/kphonenumberselector.cpp:47
@@ -2526,9 +2510,13 @@ msgid "An account went down"
 msgstr "將該賬戶向下移動"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ContactDock)
-#. i18n: ectx: property (windowTitle), widget (QWidget, DockBase)
-#: src/widgets/ui/contactdock.ui:14 src/widgets/ui/dockbase.ui:14
+#: src/widgets/ui/contactdock.ui:14
 msgid "Dock"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
+#: src/widgets/ui/contactdock.ui:63
+msgid "Filter"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pElapsed)
@@ -2674,9 +2662,15 @@ msgstr ""
 msgid "Device:"
 msgstr ""
 
-#: src/widgets/videodock.cpp:257
+#: src/widgets/videodock.cpp:254
 msgid "Full screen video"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Books"
+#~ msgctxt "Bookmark dock"
+#~ msgid "Bookmark"
+#~ msgstr "鉤鍵"
 
 #, fuzzy
 #~| msgid "Add a new account"
