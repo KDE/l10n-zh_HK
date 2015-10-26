@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-20 10:17+0000\n"
+"POT-Creation-Date: 2015-10-26 08:07+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -191,7 +191,14 @@ msgid ""
 "Destination folder to extract to. Defaults to current path if not specified."
 msgstr ""
 
-#: app/main.cpp:140
+#. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
+#: app/main.cpp:140 kerfuffle/ark.kcfg:9
+#, fuzzy
+#| msgid "Open destination folder after extraction"
+msgid "Open destination folder after extraction."
+msgstr "解壓後開啟目的地資料夾"
+
+#: app/main.cpp:143
 #, fuzzy
 #| msgid ""
 #| "Ask for the name of the archive to add 'files' to. Quit when finished."
@@ -200,7 +207,7 @@ msgid ""
 "when finished."
 msgstr "詢問要加入「檔案」的壓縮檔的名稱。完成後離開。"
 
-#: app/main.cpp:143
+#: app/main.cpp:146
 #, fuzzy
 #| msgid ""
 #| "Ask for the name of the archive to add 'files' to. Quit when finished."
@@ -209,30 +216,30 @@ msgid ""
 "Quit when finished."
 msgstr "詢問要加入「檔案」的壓縮檔的名稱。完成後離開。"
 
-#: app/main.cpp:147
+#: app/main.cpp:150
 msgid ""
 "Change the current dir to the first entry and add all other entries relative "
 "to this one."
 msgstr ""
 
-#: app/main.cpp:150
+#: app/main.cpp:153
 msgid ""
 "Automatically choose a filename, with the selected suffix (for example rar, "
 "tar.gz, zip or any other supported types)"
 msgstr ""
 
-#: app/main.cpp:154
+#: app/main.cpp:157
 msgid ""
 "Use the batch interface instead of the usual dialog. This option is implied "
 "if more than one url is specified."
 msgstr ""
 
-#: app/main.cpp:157
+#: app/main.cpp:160
 msgid ""
 "The destination argument will be set to the path of the first file supplied."
 msgstr ""
 
-#: app/main.cpp:160
+#: app/main.cpp:163
 msgid ""
 "Archive contents will be read, and if detected to not be a single folder "
 "archive, a subfolder with the name of the archive will be created."
@@ -304,13 +311,6 @@ msgstr ""
 #: kerfuffle/addtoarchive.cpp:186
 msgid "It is not possible to create archives of this type."
 msgstr ""
-
-#. i18n: ectx: label, entry (openDestinationFolderAfterExtraction), group (Extraction)
-#: kerfuffle/ark.kcfg:9
-#, fuzzy
-#| msgid "Open destination folder after extraction"
-msgid "Open destination folder after extraction."
-msgstr "解壓後開啟目的地資料夾"
 
 #. i18n: ectx: label, entry (closeAfterExtraction), group (Extraction)
 #: kerfuffle/ark.kcfg:13
@@ -1042,7 +1042,7 @@ msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:439 part/part.cpp:495 part/part.cpp:557
+#: part/part.cpp:439 part/part.cpp:458 part/part.cpp:465 part/part.cpp:530
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "@title:window"
@@ -1058,55 +1058,39 @@ msgid ""
 "possible to read from it."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:477
-#, fuzzy
-#| msgid "All Valid Archives\n"
-msgctxt "@title:window"
-msgid "Invalid Archive Type"
-msgstr "所有支援的壓縮檔\n"
-
-#: part/part.cpp:478
-msgctxt "@info"
-msgid ""
-"Ark cannot create archives of the type you have chosen.<br />Please choose "
-"another archive type below."
-msgstr ""
-
-#: part/part.cpp:481
-msgctxt "@title:window"
-msgid "Unable to Determine Archive Type"
-msgstr ""
-
-#: part/part.cpp:482
-msgctxt "@info"
-msgid ""
-"Ark was unable to determine the archive type of the filename.<br />Please "
-"choose the correct archive type below."
-msgstr ""
-
-#: part/part.cpp:495
+#: part/part.cpp:455
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
 msgid ""
-"Ark was not able to open the archive <filename>%1</filename>. No plugin "
-"capable of handling the file was found."
+"Ark was not able to open <filename>%1</filename>. No suitable plugin found."
+"<nl/><nl/>Ark does not seem to support this file type."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:538
+#: part/part.cpp:462
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgctxt "@info"
+msgid ""
+"Ark was not able to open <filename>%1</filename>. Failed to load a suitable "
+"plugin.<nl/><nl/>Make sure any executables needed to handle the archive type "
+"are installed."
+msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#: part/part.cpp:511
 #, fuzzy
 #| msgid "Extract Settings"
 msgid "Extraction settings"
 msgstr "解壓設定"
 
-#: part/part.cpp:539
+#: part/part.cpp:512
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
 msgid "Preview settings"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:554
+#: part/part.cpp:527
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1114,11 +1098,11 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:619
+#: part/part.cpp:592
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:731
+#: part/part.cpp:704
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1126,45 +1110,45 @@ msgid ""
 "archive?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:733
+#: part/part.cpp:706
 #, fuzzy
 #| msgid "Files to be added"
 msgid "File modified"
 msgstr "要加入的檔案"
 
-#: part/part.cpp:992
+#: part/part.cpp:965
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:999
+#: part/part.cpp:972
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:1024
+#: part/part.cpp:997
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1025
+#: part/part.cpp:998
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "只解開已選的檔案"
 
-#: part/part.cpp:1057
+#: part/part.cpp:1030
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1064
+#: part/part.cpp:1037
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1173,7 +1157,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1078
+#: part/part.cpp:1051
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1182,7 +1166,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1092
+#: part/part.cpp:1065
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
@@ -1343,6 +1327,12 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "上次用作解壓縮的資料夾"
+
+#, fuzzy
+#~| msgid "All Valid Archives\n"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Archive Type"
+#~ msgstr "所有支援的壓縮檔\n"
 
 #, fuzzy
 #~| msgid "Open destination folder after extraction"
