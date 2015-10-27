@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-26 08:07+0000\n"
+"POT-Creation-Date: 2015-10-27 10:06+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -787,27 +787,27 @@ msgstr "動作(&A)"
 msgid "&Settings"
 msgstr "設定"
 
-#: part/arkviewer.cpp:77
+#: part/arkviewer.cpp:76
 msgid "Closing preview"
 msgstr ""
 
-#: part/arkviewer.cpp:78
+#: part/arkviewer.cpp:77
 msgid "Please wait while the preview is being closed..."
 msgstr ""
 
-#: part/arkviewer.cpp:136
+#: part/arkviewer.cpp:135
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
+#: part/arkviewer.cpp:136 part/arkviewer.cpp:148
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr ""
 
-#: part/arkviewer.cpp:138 part/arkviewer.cpp:150
+#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -815,13 +815,13 @@ msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "檢視(&V)"
 
-#: part/arkviewer.cpp:148
+#: part/arkviewer.cpp:147
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:176
+#: part/arkviewer.cpp:175
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
@@ -905,44 +905,48 @@ msgstr ""
 msgid "Some Information about the job"
 msgstr ""
 
-#: part/part.cpp:164
+#: part/part.cpp:110
+msgid "Comment"
+msgstr ""
+
+#: part/part.cpp:183
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:239
+#: part/part.cpp:258
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr ""
 
-#: part/part.cpp:248
+#: part/part.cpp:267
 #, fuzzy
 #| msgid "Open with:"
 msgctxt "open a file with external program"
 msgid "&Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:250
+#: part/part.cpp:269
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to open the selected file with the associated application"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:255
+#: part/part.cpp:274
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "open a file with external program"
 msgid "Open File &With..."
 msgstr "以其它程式開啟(&O)..."
 
-#: part/part.cpp:257
+#: part/part.cpp:276
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to open the selected file with an external program"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:262
+#: part/part.cpp:281
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -950,71 +954,71 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:264
+#: part/part.cpp:283
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:270
+#: part/part.cpp:289
 #, fuzzy
 #| msgid "Extract"
 msgid "E&xtract"
 msgstr "解開"
 
-#: part/part.cpp:272
+#: part/part.cpp:291
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:279
+#: part/part.cpp:298
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:280
+#: part/part.cpp:299
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:286
+#: part/part.cpp:305
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:287
+#: part/part.cpp:306
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:293
+#: part/part.cpp:312
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:295
+#: part/part.cpp:314
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:348
+#: part/part.cpp:367
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:355
+#: part/part.cpp:374
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:424
+#: part/part.cpp:443
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:431
+#: part/part.cpp:450
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1023,33 +1027,33 @@ msgid ""
 "it instead?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:431
+#: part/part.cpp:450
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:431
+#: part/part.cpp:450
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:439
+#: part/part.cpp:458
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:439 part/part.cpp:458 part/part.cpp:465 part/part.cpp:530
+#: part/part.cpp:458 part/part.cpp:477 part/part.cpp:484 part/part.cpp:549
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
 
-#: part/part.cpp:444
+#: part/part.cpp:463
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1058,7 +1062,7 @@ msgid ""
 "possible to read from it."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:455
+#: part/part.cpp:474
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1067,7 +1071,7 @@ msgid ""
 "<nl/><nl/>Ark does not seem to support this file type."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:462
+#: part/part.cpp:481
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1077,20 +1081,20 @@ msgid ""
 "are installed."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:511
+#: part/part.cpp:530
 #, fuzzy
 #| msgid "Extract Settings"
 msgid "Extraction settings"
 msgstr "解壓設定"
 
-#: part/part.cpp:512
+#: part/part.cpp:531
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
 msgid "Preview settings"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:527
+#: part/part.cpp:546
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1098,11 +1102,11 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:592
+#: part/part.cpp:625
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:704
+#: part/part.cpp:737
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1110,45 +1114,45 @@ msgid ""
 "archive?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:706
+#: part/part.cpp:739
 #, fuzzy
 #| msgid "Files to be added"
 msgid "File modified"
 msgstr "要加入的檔案"
 
-#: part/part.cpp:965
+#: part/part.cpp:998
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:972
+#: part/part.cpp:1005
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:997
+#: part/part.cpp:1030
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:998
+#: part/part.cpp:1031
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "只解開已選的檔案"
 
-#: part/part.cpp:1030
+#: part/part.cpp:1063
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1037
+#: part/part.cpp:1070
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1157,7 +1161,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1051
+#: part/part.cpp:1084
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1166,7 +1170,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1065
+#: part/part.cpp:1098
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
