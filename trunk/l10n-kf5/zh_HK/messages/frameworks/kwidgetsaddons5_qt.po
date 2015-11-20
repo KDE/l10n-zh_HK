@@ -2351,36 +2351,7 @@ msgctxt "KMimeTypeChooser|"
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr ""
 
-#: knewpassworddialog.cpp:73
-#, fuzzy
-#| msgid ""
-#| "The password strength meter gives an indication of the security of the "
-#| "password you have entered.  To improve the strength of the password, "
-#| "try:\n"
-#| " - using a longer password;\n"
-#| " - using a mixture of upper- and lower-case letters;\n"
-#| " - using numbers or symbols, such as #, as well as letters."
-msgctxt "KNewPasswordDialog|"
-msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols, such as #, as well as letters."
-msgstr ""
-"密碼安全測量器會指出你輸入的密碼的安全程度。要加強密碼的安全性，你可以：\n"
-" - 使用更長的密碼；\n"
-" - 混合使用大寫和小寫字母；\n"
-" - 混合數字或符號，如：#。"
-
-#: knewpassworddialog.cpp:161
-#, fuzzy
-#| msgid "Password is empty"
-msgctxt "KNewPasswordDialog|"
-msgid "Password is empty"
-msgstr "密碼是空白的"
-
-#: knewpassworddialog.cpp:167
+#: knewpassworddialog.cpp:76
 #, fuzzy, qt-format
 #| msgid "Password must be at least 1 character long"
 #| msgid_plural "Password must be at least %1 characters long"
@@ -2389,35 +2360,35 @@ msgid "Password must be at least %n character(s) long"
 msgid_plural "Password must be at least %n character(s) long"
 msgstr[0] "密碼最少要有 %1 個字元"
 
-#: knewpassworddialog.cpp:170
+#: knewpassworddialog.cpp:81
 #, fuzzy
-#| msgid "Passwords match"
+#| msgid "Password is empty"
 msgctxt "KNewPasswordDialog|"
-msgid "Passwords match"
-msgstr "密碼相同"
+msgid "Password is empty"
+msgstr "密碼是空白的"
 
-#: knewpassworddialog.cpp:171 knewpassworddialog.ui:112
+#: knewpassworddialog.cpp:86 knewpassworddialog.ui:53
 #, fuzzy
 #| msgid "Passwords do not match"
 msgctxt "KNewPasswordDialog|"
 msgid "Passwords do not match"
 msgstr "密碼不同"
 
-#: knewpassworddialog.cpp:226
+#: knewpassworddialog.cpp:92
 #, fuzzy
-#| msgid "You entered two different passwords. Please try again."
+#| msgid "Passwords match"
 msgctxt "KNewPasswordDialog|"
-msgid "You entered two different passwords. Please try again."
-msgstr "你輸入了兩個不同的密碼。請重新輸入。"
+msgid "Passwords match"
+msgstr "密碼相同"
 
-#: knewpassworddialog.cpp:236
+#: knewpassworddialog.cpp:139
 #, fuzzy
 #| msgid "Low Password Strength"
 msgctxt "KNewPasswordDialog|"
 msgid "Low Password Strength"
 msgstr "密碼不夠安全"
 
-#: knewpassworddialog.cpp:237
+#: knewpassworddialog.cpp:140
 #, fuzzy
 #| msgid ""
 #| "The password you have entered has a low strength. To improve the strength "
@@ -2441,27 +2412,6 @@ msgstr ""
 " - 使用更長的密碼；\n"
 " - 混合使用大寫和小寫字母；\n"
 " - 混合數字或符號，如：#。"
-
-#: knewpassworddialog.ui:52
-#, fuzzy
-#| msgid "Password:"
-msgctxt "KNewPasswordDialog|"
-msgid "Password:"
-msgstr "密碼："
-
-#: knewpassworddialog.ui:62
-#, fuzzy
-#| msgid "&Verify:"
-msgctxt "KNewPasswordDialog|"
-msgid "&Verify:"
-msgstr "確認(&V)："
-
-#: knewpassworddialog.ui:90
-#, fuzzy
-#| msgid "Password strength meter:"
-msgctxt "KNewPasswordDialog|"
-msgid "Password strength meter:"
-msgstr "密碼安全測量器："
 
 #: knewpasswordwidget.cpp:65
 #, fuzzy
@@ -3080,6 +3030,52 @@ msgstr "全螢幕模式"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "The password strength meter gives an indication of the security of the "
+#~| "password you have entered.  To improve the strength of the password, "
+#~| "try:\n"
+#~| " - using a longer password;\n"
+#~| " - using a mixture of upper- and lower-case letters;\n"
+#~| " - using numbers or symbols, such as #, as well as letters."
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid ""
+#~ "The password strength meter gives an indication of the security of the "
+#~ "password you have entered.  To improve the strength of the password, "
+#~ "try:\n"
+#~ " - using a longer password;\n"
+#~ " - using a mixture of upper- and lower-case letters;\n"
+#~ " - using numbers or symbols, such as #, as well as letters."
+#~ msgstr ""
+#~ "密碼安全測量器會指出你輸入的密碼的安全程度。要加強密碼的安全性，你可以：\n"
+#~ " - 使用更長的密碼；\n"
+#~ " - 混合使用大寫和小寫字母；\n"
+#~ " - 混合數字或符號，如：#。"
+
+#, fuzzy
+#~| msgid "You entered two different passwords. Please try again."
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "You entered two different passwords. Please try again."
+#~ msgstr "你輸入了兩個不同的密碼。請重新輸入。"
+
+#, fuzzy
+#~| msgid "Password:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#, fuzzy
+#~| msgid "&Verify:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "&Verify:"
+#~ msgstr "確認(&V)："
+
+#, fuzzy
+#~| msgid "Password strength meter:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "Password strength meter:"
+#~ msgstr "密碼安全測量器："
 
 #, fuzzy
 #~ msgctxt "KSharSelect|KCharselect unicode block name"
