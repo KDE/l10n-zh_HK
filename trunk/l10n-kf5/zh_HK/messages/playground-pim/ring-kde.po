@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-10 08:23+0000\n"
+"POT-Creation-Date: 2016-01-30 07:44+0000\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -275,12 +275,6 @@ msgstr ""
 #: src/actioncollection.cpp:372
 msgid "Cancel"
 msgstr ""
-
-#: src/canvasobjectmanager.cpp:227 src/mainwindow.cpp:208
-#, fuzzy
-#| msgid "Ringtones"
-msgid "Ring"
-msgstr "鈴聲"
 
 #: src/cmd.cpp:63
 msgid "Place a call to a given number"
@@ -1626,7 +1620,7 @@ msgid "Display Peer Name"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
-#: src/conf/dlgdisplay.cpp:46 src/conf/dlgdisplaybase.ui:124
+#: src/conf/dlgdisplay.cpp:46 src/conf/dlgdisplaybase.ui:121
 #, fuzzy
 msgid "Display organisation"
 msgstr "顯示"
@@ -1681,38 +1675,33 @@ msgstr "有新消息"
 msgid "Visible contacts Details"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_hideUnreachable)
-#: src/conf/dlgdisplaybase.ui:107
-msgid "Hide a contact when there is no enabled account that can reach him/her"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideUnreachable)
 #. i18n: ectx: label, entry (hideUnreachable), group (main)
-#: src/conf/dlgdisplaybase.ui:110 src/klib/ring-kde.kcfg:217
+#: src/conf/dlgdisplaybase.ui:107 src/klib/ring-kde.kcfg:217
 #, fuzzy
 #| msgid "Host unreachable"
 msgid "Hide unreachable contacts"
 msgstr "伺服器連線失敗"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hidePersonWithoutPhone)
-#: src/conf/dlgdisplaybase.ui:117
+#: src/conf/dlgdisplaybase.ui:114
 msgid "Hide contacts without phone numbers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
-#: src/conf/dlgdisplaybase.ui:131
+#: src/conf/dlgdisplaybase.ui:128
 #, fuzzy
 #| msgid "Optional email address"
 msgid "Display email address"
 msgstr "可選郵件地址"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/conf/dlgdisplaybase.ui:141
+#: src/conf/dlgdisplaybase.ui:138
 msgid "Visible Call Details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
-#: src/conf/dlgdisplaybase.ui:152
+#: src/conf/dlgdisplaybase.ui:149
 msgid "Minimum item height"
 msgstr ""
 
@@ -2464,6 +2453,12 @@ msgstr ""
 #: src/mainwindow.cpp:123
 msgid "Preferred"
 msgstr ""
+
+#: src/mainwindow.cpp:208
+#, fuzzy
+#| msgid "Ringtones"
+msgid "Ring"
+msgstr "鈴聲"
 
 #: src/mainwindow.cpp:223
 #, fuzzy
