@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-27 07:33+0000\n"
+"POT-Creation-Date: 2016-02-28 07:29+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -390,38 +390,38 @@ msgstr ""
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:148
+#: kerfuffle/createdialog.cpp:161
 msgid "The chosen password does not match the given verification password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:151
+#: kerfuffle/createdialog.cpp:164
 #, fuzzy
 #| msgid "The password was incorrect. "
 msgid "The password cannot be empty."
 msgstr "密碼錯誤。"
 
-#: kerfuffle/createdialog.cpp:180
-#, fuzzy
-#| msgid "An error occurred while adding the files to the archive."
-msgid "Please select a filename for the archive."
-msgstr "加入檔案到壓縮檔時發生錯誤。"
-
-#: kerfuffle/createdialog.cpp:180
-#, fuzzy
-#| msgid "0 files selected"
-msgid "No file selected"
-msgstr "已選取 0 個檔案"
-
-#: kerfuffle/createdialog.cpp:207
+#: kerfuffle/createdialog.cpp:181
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:219
+#: kerfuffle/createdialog.cpp:194
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr ""
+
+#: kerfuffle/createdialog.cpp:220
+#, fuzzy
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Please select a filename for the archive."
+msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#: kerfuffle/createdialog.cpp:220
+#, fuzzy
+#| msgid "0 files selected"
+msgid "No file selected"
+msgstr "已選取 0 個檔案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, encryptCheckBox)
 #: kerfuffle/createdialog.ui:29
@@ -438,30 +438,30 @@ msgstr ""
 msgid "Ask for password before showing the list of files in the archive"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:62
+#: kerfuffle/extractiondialog.cpp:60
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@title:window"
 msgid "Extract"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:76
+#: kerfuffle/extractiondialog.cpp:74
 #, fuzzy
 #| msgid "Extract"
 msgid "Extract"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:117
+#: kerfuffle/extractiondialog.cpp:115
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extract multiple archives"
 msgstr "解開所有檔案"
 
-#: kerfuffle/extractiondialog.cpp:124
+#: kerfuffle/extractiondialog.cpp:122
 msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -470,41 +470,41 @@ msgid ""
 "extract here?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgid "Folder exists"
 msgstr "壓縮檔已經存在"
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 #, fuzzy
 #| msgid "Extract"
 msgid "Extract here"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 msgid "Retry"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 msgid "Cancel"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:143 kerfuffle/extractiondialog.cpp:149
+#: kerfuffle/extractiondialog.cpp:141 kerfuffle/extractiondialog.cpp:147
 #, fuzzy, kde-format
 #| msgid "The folder could not be created. Please check permissions."
 msgctxt "@info"
 msgid "The folder <filename>%1</filename> could not be created."
 msgstr "無法建立資料夾，請檢查權限。"
 
-#: kerfuffle/extractiondialog.cpp:144
+#: kerfuffle/extractiondialog.cpp:142
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
 msgid "<filename>%1</filename> already exists, but is not a folder."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: kerfuffle/extractiondialog.cpp:150
+#: kerfuffle/extractiondialog.cpp:148
 msgid "Please check your permissions to create it."
 msgstr ""
 
@@ -836,27 +836,27 @@ msgstr "資料夾(&F)"
 msgid "&Settings"
 msgstr "設定"
 
-#: part/arkviewer.cpp:76
+#: part/arkviewer.cpp:74
 msgid "Closing preview"
 msgstr ""
 
-#: part/arkviewer.cpp:77
+#: part/arkviewer.cpp:75
 msgid "Please wait while the preview is being closed..."
 msgstr ""
 
-#: part/arkviewer.cpp:135
+#: part/arkviewer.cpp:133
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:136 part/arkviewer.cpp:148
+#: part/arkviewer.cpp:134 part/arkviewer.cpp:146
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr ""
 
-#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
+#: part/arkviewer.cpp:135 part/arkviewer.cpp:147
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -864,13 +864,13 @@ msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "檢視(&V)"
 
-#: part/arkviewer.cpp:147
+#: part/arkviewer.cpp:145
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:174
+#: part/arkviewer.cpp:172
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
