@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-15 02:01+0000\n"
+"POT-Creation-Date: 2016-03-07 08:36+0000\n"
 "PO-Revision-Date: 2006-01-08 15:06+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -23,7 +23,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wwycheuk@netvigator.com"
 
-#: bookmarkmanager.cpp:53
+#: bookmarkmanager.cpp:56
 msgid "History"
 msgstr ""
 
@@ -151,51 +151,51 @@ msgstr ""
 msgid "Right"
 msgstr "高"
 
-#: config/hostpreferenceslist.cpp:49
+#: config/hostpreferenceslist.cpp:47
 msgid "Configure..."
 msgstr ""
 
-#: config/hostpreferenceslist.cpp:55
+#: config/hostpreferenceslist.cpp:53
 msgid "Remove"
 msgstr ""
 
-#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:669
+#: config/hostpreferenceslist.cpp:117 mainwindow.cpp:640
 msgid "The selected host cannot be handled."
 msgstr ""
 
-#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:327 mainwindow.cpp:670
+#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:296 mainwindow.cpp:641
 msgid "Unusable URL"
 msgstr ""
 
-#: config/preferencesdialog.cpp:43
+#: config/preferencesdialog.cpp:42
 msgctxt "General Config"
 msgid "General"
 msgstr ""
 
-#: config/preferencesdialog.cpp:43
+#: config/preferencesdialog.cpp:42
 #, fuzzy
 #| msgid "&Host Profiles"
 msgid "General Configuration"
 msgstr "主機資料檔(&H)"
 
-#: config/preferencesdialog.cpp:48
+#: config/preferencesdialog.cpp:47
 #, fuzzy
 #| msgid "Host"
 msgid "Hosts"
 msgstr "主機"
 
-#: config/preferencesdialog.cpp:48 core/hostpreferences.cpp:181
-#: core/hostpreferences.cpp:187
+#: config/preferencesdialog.cpp:47 core/hostpreferences.cpp:182
+#: core/hostpreferences.cpp:186
 #, fuzzy
 #| msgid "&Host Profiles"
 msgid "Host Configuration"
 msgstr "主機資料檔(&H)"
 
-#: config/preferencesdialog.cpp:53 config/preferencesdialog.cpp:55
+#: config/preferencesdialog.cpp:52 config/preferencesdialog.cpp:54
 msgid "Plugins"
 msgstr ""
 
-#: config/preferencesdialog.cpp:55
+#: config/preferencesdialog.cpp:54
 #, fuzzy
 #| msgid "&Host Profiles"
 msgid "Plugin Configuration"
@@ -235,7 +235,7 @@ msgid "A year ago"
 msgid_plural "%1 years ago"
 msgstr[0] ""
 
-#: core/hostpreferences.cpp:190
+#: core/hostpreferences.cpp:189
 msgid ""
 "Note that settings might only apply when you connect next time to this host."
 msgstr ""
@@ -251,60 +251,26 @@ msgid "Remember password (KWallet)"
 msgstr ""
 
 #. i18n: ectx: label, entry (OpenSessions), group (General)
-#: core/krdc.kcfg:15
+#: core/krdc.kcfg:16
 msgid "Sessions"
 msgstr ""
 
-#: konsole/konsoleviewfactory.cpp:68
+#: konsole/konsoleviewfactory.cpp:66
 #, fuzzy
 #| msgid "Connection"
 msgid "New Konsole Connection..."
 msgstr "連線"
 
-#: konsole/konsoleviewfactory.cpp:73
+#: konsole/konsoleviewfactory.cpp:71
 #, fuzzy
 #| msgid "Remote desktop connection"
 msgid "KRDC Konsole Connection"
 msgstr "遠端桌面連線"
 
-#: konsole/konsoleviewfactory.cpp:78
+#: konsole/konsoleviewfactory.cpp:76
 msgid ""
 "<html>Enter the address here. Port is optional.<br /><i>Example: "
 "konsoleserver (host)</i></html>"
-msgstr ""
-
-#: krdc_approver/approver.cpp:86
-msgid "Invitation to view remote desktop"
-msgstr ""
-
-#: krdc_approver/approver.cpp:87
-#, kde-format
-msgid "%1 wants to share his/her desktop with you"
-msgstr ""
-
-#: krdc_approver/approver.cpp:88
-msgid "Accept"
-msgstr ""
-
-#: krdc_approver/approver.cpp:88
-msgid "Reject"
-msgstr ""
-
-#: krdc_approver/main.cpp:38 main.cpp:39
-msgid "KRDC"
-msgstr ""
-
-#: krdc_approver/main.cpp:39
-msgid "Approver for KRDC"
-msgstr ""
-
-#: krdc_approver/main.cpp:40
-msgid "(C) 2009, Abner Silva"
-msgstr ""
-
-#: krdc_approver/main.cpp:42
-msgctxt "@info:credit"
-msgid "Abner Silva"
 msgstr ""
 
 #. i18n: ectx: Menu (session)
@@ -317,15 +283,19 @@ msgstr ""
 msgid "Remote View Toolbar"
 msgstr ""
 
-#: main.cpp:40 systemtrayicon.cpp:41
+#: main.cpp:74
+msgid "KRDC"
+msgstr ""
+
+#: main.cpp:75 systemtrayicon.cpp:41
 #, fuzzy
 #| msgid "Remote Desktop Connection"
 msgid "KDE Remote Desktop Client"
 msgstr "遠端桌面連線"
 
-#: main.cpp:41
+#: main.cpp:77
 msgid ""
-"(c) 2007-2013, Urs Wolfer\n"
+"(c) 2007-2016, Urs Wolfer\n"
 "(c) 2001-2003, Tim Jansen\n"
 "(c) 2002-2003, Arend van Beelen jr.\n"
 "(c) 2000-2002, Const Kaplinsky\n"
@@ -335,153 +305,153 @@ msgid ""
 "(c) 2009, Collabora Ltd"
 msgstr ""
 
-#: main.cpp:50
+#: main.cpp:86
 msgid "Urs Wolfer"
 msgstr ""
 
-#: main.cpp:50
+#: main.cpp:86
 msgid "Developer, Maintainer"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:87
 msgid "Tony Murray"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:87
 msgid "Developer"
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:88
 msgid "Tim Jansen"
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:88
 msgid "Former Developer"
 msgstr ""
 
-#: main.cpp:53
+#: main.cpp:89
 msgid "Arend van Beelen jr."
 msgstr ""
 
-#: main.cpp:53
+#: main.cpp:89
 #, fuzzy
 #| msgid "RDP backend"
 msgid "Initial RDP backend"
 msgstr "RDP 後端"
 
-#: main.cpp:54
+#: main.cpp:90
 msgid "Brad Hards"
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:90
 msgid "Google Summer of Code 2007 KRDC project mentor"
 msgstr ""
 
-#: main.cpp:56
+#: main.cpp:92
 msgid "LibVNCServer / LibVNCClient developers"
 msgstr ""
 
-#: main.cpp:56
+#: main.cpp:92
 msgid "VNC client library"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:94
 msgid "Abner Silva"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:94
 msgid "Telepathy Tubes Integration"
 msgstr ""
 
-#: main.cpp:63
+#: main.cpp:111
 msgid ""
 "Start KRDC with the provided URL in fullscreen mode (works only with one URL)"
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:112
 msgid "URLs to connect after startup"
 msgstr ""
 
-#: mainwindow.cpp:131
+#: mainwindow.cpp:123
 #, fuzzy
 #| msgid "Remote Desktop Connection"
 msgid "KDE Remote Desktop Client started"
 msgstr "遠端桌面連線"
 
-#: mainwindow.cpp:136 mainwindow.cpp:149 mainwindow.cpp:1056
-#: mainwindow.cpp:1160
+#: mainwindow.cpp:128 mainwindow.cpp:141 mainwindow.cpp:1023
+#: mainwindow.cpp:1127
 #, fuzzy
 #| msgid "Connection"
 msgid "New Connection"
 msgstr "連線"
 
-#: mainwindow.cpp:154
+#: mainwindow.cpp:146
 msgid "Copy Screenshot to Clipboard"
 msgstr ""
 
-#: mainwindow.cpp:155
+#: mainwindow.cpp:147
 msgid "Screenshot"
 msgstr ""
 
-#: mainwindow.cpp:160 mainwindow.cpp:509
+#: mainwindow.cpp:152 mainwindow.cpp:478
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Switch to Full Screen Mode"
 msgstr "以全螢幕模式開啟"
 
-#: mainwindow.cpp:161 mainwindow.cpp:510
+#: mainwindow.cpp:153 mainwindow.cpp:479
 #, fuzzy
 #| msgid "Fullscreen"
 msgid "Full Screen"
 msgstr "全螢幕"
 
-#: mainwindow.cpp:168
+#: mainwindow.cpp:160
 #, fuzzy
 #| msgid "View Only"
 msgid "View Only"
 msgstr "只檢視"
 
-#: mainwindow.cpp:173
+#: mainwindow.cpp:165
 #, fuzzy
 #| msgid "Connect"
 msgid "Disconnect"
 msgstr "連接"
 
-#: mainwindow.cpp:181
+#: mainwindow.cpp:173
 #, fuzzy
 #| msgid "Always Show Local Cursor"
 msgid "Show Local Cursor"
 msgstr "必定顯示本機游標"
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:174
 #, fuzzy
 #| msgid "Always Show Local Cursor"
 msgid "Local Cursor"
 msgstr "必定顯示本機游標"
 
-#: mainwindow.cpp:188
+#: mainwindow.cpp:180
 msgid "Grab All Possible Keys"
 msgstr ""
 
-#: mainwindow.cpp:189
+#: mainwindow.cpp:181
 msgid "Grab Keys"
 msgstr ""
 
-#: mainwindow.cpp:195
+#: mainwindow.cpp:187
 #, fuzzy
 #| msgid "This option scales the remote screen to fit your window size."
 msgid "Scale Remote Screen to Fit Window Size"
 msgstr "此選項將遠端螢幕縮放至切合您的視窗大小。"
 
-#: mainwindow.cpp:196
+#: mainwindow.cpp:188
 msgid "Scale"
 msgstr "縮放"
 
-#: mainwindow.cpp:206
+#: mainwindow.cpp:198
 msgid "Bookmarks"
 msgstr ""
 
-#: mainwindow.cpp:302
+#: mainwindow.cpp:271
 #, fuzzy
 #| msgid "The entered host does not have the required form."
 msgid ""
@@ -489,40 +459,40 @@ msgid ""
 " Syntax: [username@]host[:port]"
 msgstr "輸入的主機沒有所需的表格。"
 
-#: mainwindow.cpp:303
+#: mainwindow.cpp:272
 #, fuzzy
 #| msgid "Malformed URL or Host"
 msgid "Malformed URL"
 msgstr "格式不正確的 URL 或主機"
 
-#: mainwindow.cpp:326
+#: mainwindow.cpp:295
 msgid "The entered address cannot be handled."
 msgstr ""
 
-#: mainwindow.cpp:435
+#: mainwindow.cpp:404
 #, fuzzy, kde-format
 #| msgid "Connection"
 msgid "Connecting to %1"
 msgstr "連線"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:408
 #, fuzzy, kde-format
 #| msgid "Authenticating..."
 msgid "Authenticating at %1"
 msgstr "正在進行認證..."
 
-#: mainwindow.cpp:443
+#: mainwindow.cpp:412
 #, kde-format
 msgid "Preparing connection to %1"
 msgstr ""
 
-#: mainwindow.cpp:447
+#: mainwindow.cpp:416
 #, fuzzy, kde-format
 #| msgid "Connection"
 msgid "Connected to %1"
 msgstr "連線"
 
-#: mainwindow.cpp:518
+#: mainwindow.cpp:487
 #, fuzzy
 #| msgid "Remote Desktop Connection"
 msgctxt ""
@@ -530,129 +500,129 @@ msgctxt ""
 msgid "KDE Remote Desktop Client (Full Screen)"
 msgstr "遠端桌面連線"
 
-#: mainwindow.cpp:546
+#: mainwindow.cpp:515
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Switch to Window Mode"
 msgstr "以全螢幕模式開啟"
 
-#: mainwindow.cpp:547
+#: mainwindow.cpp:516
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Window Mode"
 msgstr "以全螢幕模式開啟"
 
-#: mainwindow.cpp:691
+#: mainwindow.cpp:661
 #, fuzzy
 #| msgid "Connection"
 msgid "Connect"
 msgstr "連線"
 
-#: mainwindow.cpp:692
+#: mainwindow.cpp:662
 #, fuzzy
 #| msgid "Name"
 msgid "Rename"
 msgstr "名稱"
 
-#: mainwindow.cpp:693
+#: mainwindow.cpp:663
 #, fuzzy
 #| msgid "Settings"
 msgid "Settings"
 msgstr "設置"
 
-#: mainwindow.cpp:694
+#: mainwindow.cpp:664
 msgid "Delete"
 msgstr ""
 
-#: mainwindow.cpp:697 remotedesktopsmodel.cpp:119
+#: mainwindow.cpp:667 remotedesktopsmodel.cpp:122
 msgctxt "Where each displayed link comes from"
 msgid "Bookmarks"
 msgstr ""
 
-#: mainwindow.cpp:698 remotedesktopsmodel.cpp:121
+#: mainwindow.cpp:668 remotedesktopsmodel.cpp:124
 msgctxt "Where each displayed link comes from"
 msgid "History"
 msgstr ""
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:680
 #, kde-format
 msgid "Rename %1"
 msgstr ""
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:680
 #, kde-format
 msgid "Rename %1 to"
 msgstr ""
 
-#: mainwindow.cpp:718
+#: mainwindow.cpp:688
 #, kde-format
 msgid "Are you sure you want to delete %1?"
 msgstr ""
 
-#: mainwindow.cpp:718
+#: mainwindow.cpp:688
 #, kde-format
 msgid "Delete %1"
 msgstr ""
 
-#: mainwindow.cpp:739
+#: mainwindow.cpp:710
 msgid "Add Bookmark"
 msgstr ""
 
-#: mainwindow.cpp:740
+#: mainwindow.cpp:711
 msgid "Close Tab"
 msgstr ""
 
-#: mainwindow.cpp:821
+#: mainwindow.cpp:792
 msgid "Minimize Full Screen Window"
 msgstr ""
 
-#: mainwindow.cpp:836
+#: mainwindow.cpp:807
 msgid "Stick Toolbar"
 msgstr ""
 
-#: mainwindow.cpp:950
+#: mainwindow.cpp:917
 msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgstr ""
 
-#: mainwindow.cpp:951
+#: mainwindow.cpp:918
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:1072
+#: mainwindow.cpp:1039
 msgid ""
 "<h1>KDE Remote Desktop Client</h1><br />Enter or select the address of the "
 "desktop you would like to connect to."
 msgstr ""
 
-#: mainwindow.cpp:1090
+#: mainwindow.cpp:1057
 #, fuzzy
 #| msgid "Connect"
 msgid "Connect to:"
 msgstr "連接"
 
-#: mainwindow.cpp:1094
+#: mainwindow.cpp:1061
 msgid "Type here to connect to an address and filter the list."
 msgstr ""
 
-#: mainwindow.cpp:1102
+#: mainwindow.cpp:1069
 msgid ""
 "Type an IP or DNS Name here. Clear the line to get a list of connection "
 "methods."
 msgstr ""
 
-#: mainwindow.cpp:1105
+#: mainwindow.cpp:1072
 #, fuzzy
 #| msgid "Address"
 msgid "Goto Address"
 msgstr "位址"
 
-#: mainwindow.cpp:1196
+#: mainwindow.cpp:1163
 #, fuzzy
 #| msgid "Remote &desktop:"
 msgid "Remote Desktops"
 msgstr "遠端桌面(&D):"
 
-#: mainwindow.cpp:1227
+#: mainwindow.cpp:1194
 msgid "Filter"
 msgstr ""
 
@@ -1131,16 +1101,16 @@ msgstr ""
 msgid "&Resume"
 msgstr ""
 
-#: nx/nxview.cpp:125 rdp/rdpview.cpp:117
+#: nx/nxview.cpp:125 rdp/rdpview.cpp:119
 #, fuzzy
 msgid "Enter Username"
 msgstr "輸入特別鍵。"
 
-#: nx/nxview.cpp:126 rdp/rdpview.cpp:118
+#: nx/nxview.cpp:126 rdp/rdpview.cpp:120
 msgid "Please enter the username you would like to use for login."
 msgstr ""
 
-#: nx/nxview.cpp:140 rdp/rdpview.cpp:138 vnc/vncview.cpp:290
+#: nx/nxview.cpp:140 rdp/rdpview.cpp:140 vnc/vncview.cpp:291
 msgid "Access to the system requires a password."
 msgstr "存取系統需要密碼。"
 
@@ -1360,7 +1330,7 @@ msgstr ""
 msgid "Default user name:"
 msgstr ""
 
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, kcfg_DefaultRdpUserName)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_DefaultRdpUserName)
 #: rdp/rdppreferences.ui:638
 msgid "No default user name"
 msgstr ""
@@ -1370,48 +1340,48 @@ msgstr ""
 msgid "Automatically recognize \"LDAP\"-Logins and share passwords"
 msgstr ""
 
-#: rdp/rdpview.cpp:423
+#: rdp/rdpview.cpp:422
 #, fuzzy
 #| msgid "Could not start rdesktop; make sure rdesktop is properly installed."
 msgid "Could not start \"xfreerdp\"; make sure xfreerdp is properly installed."
 msgstr "無法啟動 rdesktop；請確定 rdesktop 已正確安裝。"
 
-#: rdp/rdpview.cpp:424 rdp/rdpview.cpp:449 rdp/rdpview.cpp:454
+#: rdp/rdpview.cpp:423 rdp/rdpview.cpp:448 rdp/rdpview.cpp:453
 msgid "RDP Failure"
 msgstr ""
 
-#: rdp/rdpview.cpp:447
+#: rdp/rdpview.cpp:446
 msgid ""
 "The version of \"xfreerdp\" you are using is too old.\n"
 "xfreerdp 1.0.2 or greater is required."
 msgstr ""
 
-#: rdp/rdpview.cpp:453
+#: rdp/rdpview.cpp:452
 #, fuzzy
 #| msgid "Connection failed. No server running at the given address and port."
 msgid "Connection failed. You might have passed a wrong address or username."
 msgstr "連線失敗。指定的位址及連接埠沒有找到伺服器。"
 
-#: rdp/rdpview.cpp:470
+#: rdp/rdpview.cpp:468
 msgid "Name or service not known."
 msgstr ""
 
-#: rdp/rdpview.cpp:471 rdp/rdpview.cpp:478 rdp/rdpview.cpp:484
-#: rdp/rdpview.cpp:493
+#: rdp/rdpview.cpp:469 rdp/rdpview.cpp:476 rdp/rdpview.cpp:482
+#: rdp/rdpview.cpp:491
 msgid "Connection Failure"
 msgstr "連線失敗"
 
-#: rdp/rdpview.cpp:477
+#: rdp/rdpview.cpp:475
 msgid "Connection attempt to host failed."
 msgstr "連線至主機失敗。"
 
-#: rdp/rdpview.cpp:483
+#: rdp/rdpview.cpp:481
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "Authentication failure, check credentials."
 msgstr "認證失敗"
 
-#: rdp/rdpview.cpp:492
+#: rdp/rdpview.cpp:490
 #, fuzzy
 #| msgid "Connection attempt to host failed."
 msgid ""
@@ -1419,23 +1389,23 @@ msgid ""
 "failure."
 msgstr "連線至主機失敗。"
 
-#: rdp/rdpviewfactory.cpp:38
+#: rdp/rdpviewfactory.cpp:39
 msgid "Connect to a Windows Remote Desktop (RDP)"
 msgstr ""
 
-#: rdp/rdpviewfactory.cpp:69
+#: rdp/rdpviewfactory.cpp:70
 #, fuzzy
 #| msgid "Connection"
 msgid "New RDP Connection..."
 msgstr "連線"
 
-#: rdp/rdpviewfactory.cpp:79
+#: rdp/rdpviewfactory.cpp:80
 msgid ""
 "<html>Enter the address here. Port is optional.<br /><i>Example: "
 "rdpserver:3389 (host:port)</i></html>"
 msgstr ""
 
-#: rdp/rdpviewfactory.cpp:86
+#: rdp/rdpviewfactory.cpp:87
 #, fuzzy
 #| msgid "Could not start rdesktop; make sure rdesktop is properly installed."
 msgid ""
@@ -1443,36 +1413,36 @@ msgid ""
 "properly installed if you need RDP support."
 msgstr "無法啟動 rdesktop；請確定 rdesktop 已正確安裝。"
 
-#: remotedesktopsmodel.cpp:123
+#: remotedesktopsmodel.cpp:126
 msgctxt "Where each displayed link comes from"
 msgid "Zeroconf"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:125
+#: remotedesktopsmodel.cpp:128
 msgctxt "Where each displayed link comes from"
 msgid "None"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:140
+#: remotedesktopsmodel.cpp:143
 #, kde-format
 msgctxt "Remove the selected url from the bookarks menu"
 msgid "Remove the bookmark for %1."
 msgstr ""
 
-#: remotedesktopsmodel.cpp:142
+#: remotedesktopsmodel.cpp:145
 #, kde-format
 msgctxt "Add the selected url to the bookmarks menu"
 msgid "Bookmark %1."
 msgstr ""
 
-#: remotedesktopsmodel.cpp:181
+#: remotedesktopsmodel.cpp:184
 #, fuzzy
 #| msgid "Remote &desktop:"
 msgctxt "Header of the connections list, title/url for remote connection"
 msgid "Remote Desktop"
 msgstr "遠端桌面(&D):"
 
-#: remotedesktopsmodel.cpp:183
+#: remotedesktopsmodel.cpp:186
 #, fuzzy
 #| msgid "Connection"
 msgctxt ""
@@ -1480,68 +1450,68 @@ msgctxt ""
 msgid "Last Connected"
 msgstr "連線"
 
-#: remotedesktopsmodel.cpp:185
+#: remotedesktopsmodel.cpp:188
 msgctxt ""
 "Header of the connections list, the number of times this connection has been "
 "visited"
 msgid "Visits"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:187
+#: remotedesktopsmodel.cpp:190
 msgctxt "Header of the connections list, the time when this entry was created"
 msgid "Created"
 msgstr ""
 
-#: remotedesktopsmodel.cpp:189
+#: remotedesktopsmodel.cpp:192
 msgctxt "Header of the connections list, where this entry comes from"
 msgid "Source"
 msgstr ""
 
-#: vnc/vncclientthread.cpp:255
+#: vnc/vncclientthread.cpp:256
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "VNC authentication type is not supported."
 msgstr "認證失敗"
 
-#: vnc/vncclientthread.cpp:279
+#: vnc/vncclientthread.cpp:280
 msgid "Server not found."
 msgstr ""
 
-#: vnc/vncclientthread.cpp:296 vnc/vncclientthread.cpp:370
+#: vnc/vncclientthread.cpp:297 vnc/vncclientthread.cpp:371
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "VNC authentication failed."
 msgstr "認證失敗"
 
-#: vnc/vncclientthread.cpp:301
+#: vnc/vncclientthread.cpp:302
 #, fuzzy
 #| msgid "Authentication failed. Connection aborted."
 msgid "VNC authentication failed because of too many authentication tries."
 msgstr "認證失敗。連線中止。"
 
-#: vnc/vncclientthread.cpp:305
+#: vnc/vncclientthread.cpp:306
 msgid "VNC server closed connection."
 msgstr ""
 
-#: vnc/vncclientthread.cpp:312
+#: vnc/vncclientthread.cpp:313
 #, fuzzy, kde-format
 #| msgid "Connect"
 msgid "Disconnected: %1."
 msgstr "連接"
 
-#: vnc/vncclientthread.cpp:498
+#: vnc/vncclientthread.cpp:499
 #, fuzzy
 #| msgid "Connection"
 msgid "Reconnecting."
 msgstr "連線"
 
-#: vnc/vncclientthread.cpp:566
+#: vnc/vncclientthread.cpp:567
 #, fuzzy
 #| msgid "Connect"
 msgid "Reconnected."
 msgstr "連接"
 
-#: vnc/vncclientthread.cpp:568
+#: vnc/vncclientthread.cpp:569
 #, fuzzy
 #| msgid "Connection"
 msgid "Connected."
@@ -1591,27 +1561,27 @@ msgstr "低質素（數據機、ISDN、慢速互聯網）"
 msgid "Scale to Size:"
 msgstr "縮放檢視"
 
-#: vnc/vncview.cpp:291
+#: vnc/vncview.cpp:292
 #, fuzzy
 #| msgid "Authentication Failure"
 msgid "Authentication failed. Please try again."
 msgstr "認證失敗"
 
-#: vnc/vncview.cpp:316 vnc/vncview.cpp:318
+#: vnc/vncview.cpp:317 vnc/vncview.cpp:319
 msgid "VNC failure"
 msgstr ""
 
-#: vnc/vncviewfactory.cpp:64
+#: vnc/vncviewfactory.cpp:65
 #, fuzzy
 #| msgid "Connection"
 msgid "New VNC Connection..."
 msgstr "連線"
 
-#: vnc/vncviewfactory.cpp:69
+#: vnc/vncviewfactory.cpp:70
 msgid "Connect to a VNC Remote Desktop"
 msgstr ""
 
-#: vnc/vncviewfactory.cpp:74
+#: vnc/vncviewfactory.cpp:75
 msgid ""
 "<html>Enter the address here.<br /><i>Example: vncserver:1 (host:port / "
 "screen)</i></html>"
