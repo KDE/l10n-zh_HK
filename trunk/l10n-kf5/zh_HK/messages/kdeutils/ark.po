@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-09 07:21+0000\n"
+"POT-Creation-Date: 2016-03-10 07:50+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -32,7 +32,7 @@ msgid "&Archive"
 msgstr "開啟「壓縮檔」"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/arkui.rc:24
+#: app/arkui.rc:26
 msgid "Main Toolbar"
 msgstr ""
 
@@ -682,6 +682,144 @@ msgstr ""
 msgid " megabytes"
 msgstr ""
 
+#: kerfuffle/propertiesdialog.cpp:56
+#, fuzzy, kde-format
+#| msgid "Create folder %1?"
+msgctxt "@title:window"
+msgid "Properties for %1"
+msgstr "建立資料夾 %1？"
+
+#: kerfuffle/propertiesdialog.cpp:62 kerfuffle/propertiesdialog.cpp:63
+#: kerfuffle/propertiesdialog.cpp:64
+msgid "yes"
+msgstr ""
+
+#: kerfuffle/propertiesdialog.cpp:62 kerfuffle/propertiesdialog.cpp:63
+#: kerfuffle/propertiesdialog.cpp:64
+msgid "no"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/propertiesdialog.ui:37
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Archive name:"
+msgstr "開啟「壓縮檔」"
+
+#. i18n: ectx: property (text), widget (QLabel, lblArchiveName)
+#: kerfuffle/propertiesdialog.ui:44
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "lblArchiveNamed"
+msgstr "開啟「壓縮檔」"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kerfuffle/propertiesdialog.ui:51
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Archive type:"
+msgstr "開啟「壓縮檔」"
+
+#. i18n: ectx: property (text), widget (QLabel, lblArchiveType)
+#: kerfuffle/propertiesdialog.ui:58
+#, fuzzy
+#| msgid "All Valid Archives\n"
+msgid "lblArchiveType"
+msgstr "所有支援的壓縮檔\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: kerfuffle/propertiesdialog.ui:65
+msgid "Opened read-only:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblReadOnly)
+#: kerfuffle/propertiesdialog.ui:72
+msgid "lblReadOnly"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kerfuffle/propertiesdialog.ui:79
+msgid "Password-protected:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPasswordProtected)
+#: kerfuffle/propertiesdialog.ui:86
+msgid "lblPasswordProtected"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kerfuffle/propertiesdialog.ui:93
+msgid "Has comment:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblHasComment)
+#: kerfuffle/propertiesdialog.ui:100
+msgid "lblHasComment"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kerfuffle/propertiesdialog.ui:107
+msgid "Number of files:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblNumberOfFiles)
+#: kerfuffle/propertiesdialog.ui:114
+msgid "lblNumberOfFiles"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kerfuffle/propertiesdialog.ui:121
+msgid "Unpacked size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblUnpackedSize)
+#: kerfuffle/propertiesdialog.ui:128
+msgid "lblUnpackedSize"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kerfuffle/propertiesdialog.ui:135
+msgid "Packed size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPackedSize)
+#: kerfuffle/propertiesdialog.ui:142
+msgid "lblPackedSize"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: kerfuffle/propertiesdialog.ui:149
+#, fuzzy
+#| msgid "Simple Compressed Archive"
+msgid "Compression ratio:"
+msgstr "簡單壓縮檔"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCompressionRatio)
+#: kerfuffle/propertiesdialog.ui:156
+#, fuzzy
+#| msgid "Compressing..."
+msgid "lblCompressionRatio"
+msgstr "壓縮中..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kerfuffle/propertiesdialog.ui:163
+msgid "Last modified:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblLastModified)
+#: kerfuffle/propertiesdialog.ui:170
+#, fuzzy
+#| msgid "Files to be added"
+msgid "lblModified"
+msgstr "要加入的檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, lblIcon)
+#: kerfuffle/propertiesdialog.ui:179
+#, fuzzy
+#| msgid "Icons"
+msgid "lblIcon"
+msgstr "圖示"
+
 #: kerfuffle/queries.cpp:96
 #, fuzzy
 #| msgid "Archive Already Exists"
@@ -824,13 +962,13 @@ msgid "??"
 msgstr ""
 
 #. i18n: ectx: Menu (ark_file)
-#: part/ark_part.rc:13
+#: part/ark_part.rc:14
 #, fuzzy
 msgid "&File"
 msgstr "資料夾(&F)"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:21
+#: part/ark_part.rc:22
 #, fuzzy
 msgid "&Settings"
 msgstr "設定"
@@ -953,55 +1091,55 @@ msgstr ""
 msgid "Some Information about the job"
 msgstr ""
 
-#: part/part.cpp:110
+#: part/part.cpp:111
 msgid "Comment"
 msgstr ""
 
-#: part/part.cpp:185
+#: part/part.cpp:186
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:229
+#: part/part.cpp:230
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr ""
 
-#: part/part.cpp:286
+#: part/part.cpp:287
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr ""
 
-#: part/part.cpp:295
+#: part/part.cpp:296
 #, fuzzy
 #| msgid "&Open"
 msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "開啟(&O)"
 
-#: part/part.cpp:297
+#: part/part.cpp:298
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:302
+#: part/part.cpp:303
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "以其它程式開啟(&O)..."
 
-#: part/part.cpp:304
+#: part/part.cpp:305
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:309
+#: part/part.cpp:310
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1009,99 +1147,111 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:311
+#: part/part.cpp:312
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:317 part/part.cpp:324
+#: part/part.cpp:318 part/part.cpp:325
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "E&xtract"
 msgstr "解開"
 
-#: part/part.cpp:319
+#: part/part.cpp:320
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract all "
 "the files in the archive"
 msgstr ""
 
-#: part/part.cpp:326
+#: part/part.cpp:327
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract the "
 "selected files"
 msgstr ""
 
-#: part/part.cpp:331
+#: part/part.cpp:332
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:intoolbar"
 msgid "E&xtract"
 msgstr "解開"
 
-#: part/part.cpp:333
+#: part/part.cpp:334
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:340
+#: part/part.cpp:341
 msgid "Add &File..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:341
+#: part/part.cpp:342
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:347
+#: part/part.cpp:348
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgid "Add Fo&lder..."
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:348
+#: part/part.cpp:349
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add a folder to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:354
+#: part/part.cpp:355
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:356
+#: part/part.cpp:357
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:430
+#: part/part.cpp:363
+msgctxt "@action:inmenu"
+msgid "&Properties"
+msgstr ""
+
+#: part/part.cpp:365
+#, fuzzy
+#| msgid "An error occurred while adding the files to the archive."
+msgctxt "@info:tooltip"
+msgid "Click to see properties for archive"
+msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#: part/part.cpp:441
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:444
+#: part/part.cpp:455
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:515
+#: part/part.cpp:526
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:522
+#: part/part.cpp:533
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1110,33 +1260,33 @@ msgid ""
 "it instead?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:522
+#: part/part.cpp:533
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:522
+#: part/part.cpp:533
 #, fuzzy
 #| msgid "Open with:"
 msgid "Open File"
 msgstr "以其它程式開啟："
 
-#: part/part.cpp:530
+#: part/part.cpp:541
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:530 part/part.cpp:549 part/part.cpp:556 part/part.cpp:626
+#: part/part.cpp:541 part/part.cpp:560 part/part.cpp:567 part/part.cpp:637
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "開啟「壓縮檔」"
 
-#: part/part.cpp:535
+#: part/part.cpp:546
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1145,7 +1295,7 @@ msgid ""
 "possible to read from it."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:546
+#: part/part.cpp:557
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1154,7 +1304,7 @@ msgid ""
 "<nl/><nl/>Ark does not seem to support this file type."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:553
+#: part/part.cpp:564
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1164,20 +1314,20 @@ msgid ""
 "are installed."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:607
+#: part/part.cpp:618
 #, fuzzy
 #| msgid "Extract Settings"
 msgid "Extraction settings"
 msgstr "解壓設定"
 
-#: part/part.cpp:608
+#: part/part.cpp:619
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
 msgid "Preview settings"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:623
+#: part/part.cpp:634
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1185,23 +1335,23 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:667
+#: part/part.cpp:678
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr "壓縮檔 %1 不存在。"
 
-#: part/part.cpp:673
+#: part/part.cpp:683
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:718
+#: part/part.cpp:728
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:830
+#: part/part.cpp:840
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1209,46 +1359,46 @@ msgid ""
 "archive?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:832
+#: part/part.cpp:842
 #, fuzzy
 #| msgid "Files to be added"
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr "要加入的檔案"
 
-#: part/part.cpp:1100
+#: part/part.cpp:1110
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:1107
+#: part/part.cpp:1117
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:1132
+#: part/part.cpp:1142
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1133
+#: part/part.cpp:1143
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "只解開已選的檔案"
 
-#: part/part.cpp:1165
+#: part/part.cpp:1182
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1172
+#: part/part.cpp:1189
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1257,7 +1407,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1186
+#: part/part.cpp:1203
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1266,7 +1416,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1200
+#: part/part.cpp:1217
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
@@ -1483,12 +1633,6 @@ msgstr "上次用作解壓縮的資料夾"
 #~ msgstr "解壓設定"
 
 #, fuzzy
-#~| msgid "All Valid Archives\n"
-#~ msgctxt "@title:window"
-#~ msgid "Invalid Archive Type"
-#~ msgstr "所有支援的壓縮檔\n"
-
-#, fuzzy
 #~| msgid "Open destination folder after extraction"
 #~ msgid "Options for batch extraction:"
 #~ msgstr "解壓後開啟目的地資料夾"
@@ -1534,9 +1678,6 @@ msgstr "上次用作解壓縮的資料夾"
 #~| msgid "Folder to extract to"
 #~ msgid "Could not extract '%1'"
 #~ msgstr "資料夾解壓至"
-
-#~ msgid "Create folder %1?"
-#~ msgstr "建立資料夾 %1？"
 
 #~ msgid "Missing Folder"
 #~ msgstr "未指定資料夾"
@@ -1919,9 +2060,6 @@ msgstr "上次用作解壓縮的資料夾"
 
 #~ msgid "Select Archive to Add Files To"
 #~ msgstr "選擇要加入檔案的壓縮檔"
-
-#~ msgid "Compressing..."
-#~ msgstr "壓縮中..."
 
 #~ msgid "Please Wait"
 #~ msgstr "請稍候"
