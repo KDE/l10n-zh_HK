@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-15 01:51+0000\n"
+"POT-Creation-Date: 2016-03-23 01:50+0000\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -2490,7 +2490,7 @@ msgctxt "'File' as normal file, that can be opened, saved, etc.."
 msgid "File"
 msgstr "標題"
 
-#: ui/annotationwidgets.cpp:673 ui/embeddedfilesdialog.cpp:69
+#: ui/annotationwidgets.cpp:673 ui/embeddedfilesdialog.cpp:75
 msgctxt "Not available size"
 msgid "N/A"
 msgstr ""
@@ -2601,56 +2601,66 @@ msgstr "目前維護者"
 msgid "Remove Bookmarks"
 msgstr ""
 
-#: ui/embeddedfilesdialog.cpp:35
+#: ui/embeddedfilesdialog.cpp:39
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/embeddedfilesdialog.cpp:40
+#: ui/embeddedfilesdialog.cpp:44
 #, fuzzy
 #| msgid "Embedded"
 msgctxt "@title:window"
 msgid "Embedded Files"
 msgstr "內嵌的"
 
-#: ui/embeddedfilesdialog.cpp:49
+#: ui/embeddedfilesdialog.cpp:48
+msgctxt "@action:button"
+msgid "View"
+msgstr ""
+
+#: ui/embeddedfilesdialog.cpp:55
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "名稱"
 
-#: ui/embeddedfilesdialog.cpp:50
+#: ui/embeddedfilesdialog.cpp:56
 msgctxt "@title:column"
 msgid "Description"
 msgstr ""
 
-#: ui/embeddedfilesdialog.cpp:51
+#: ui/embeddedfilesdialog.cpp:57
 #, fuzzy
 msgctxt "@title:column"
 msgid "Size"
 msgstr "標題"
 
-#: ui/embeddedfilesdialog.cpp:52
+#: ui/embeddedfilesdialog.cpp:58
 #, fuzzy
 #| msgid "Creator"
 msgctxt "@title:column"
 msgid "Created"
 msgstr "建立者"
 
-#: ui/embeddedfilesdialog.cpp:53
+#: ui/embeddedfilesdialog.cpp:59
 msgctxt "@title:column"
 msgid "Modified"
 msgstr ""
 
-#: ui/embeddedfilesdialog.cpp:114
+#: ui/embeddedfilesdialog.cpp:140
 #, fuzzy
 #| msgid "Save to File..."
 msgctxt "@action:inmenu"
 msgid "&Save As..."
 msgstr "儲存至檔案..."
+
+#: ui/embeddedfilesdialog.cpp:141
+msgctxt "@action:inmenu"
+msgid "&View..."
+msgstr ""
 
 #: ui/fileprinterpreview.cpp:119
 msgid "Could not load print preview part"
@@ -2762,7 +2772,7 @@ msgstr "作者：%1"
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/guiutils.cpp:213 ui/propertiesdialog.cpp:237
+#: ui/guiutils.cpp:216 ui/propertiesdialog.cpp:237
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
