@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-26 07:49+0000\n"
+"POT-Creation-Date: 2016-03-30 07:32+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1448,14 +1448,14 @@ msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "資料夾解壓至"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:71
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:288
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:300
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:84
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:301
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:313
 msgid "The source file could not be read."
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "資料夾解壓至"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:101
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:317
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:329
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
@@ -1475,7 +1475,7 @@ msgstr "壓縮檔 %1 不存在。"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:143
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:183
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:347
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:359
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1484,13 +1484,21 @@ msgid ""
 msgstr ""
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:177
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:342
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:354
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:191
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:354
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:194
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Setting the compression level failed with the following error:<nl/><message>"
+"%1</message>"
+msgstr ""
+
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:203
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:366
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1498,8 +1506,8 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:258
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:385
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:270
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:397
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1507,14 +1515,14 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:311
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:323
 #, fuzzy
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:443
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:455
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
