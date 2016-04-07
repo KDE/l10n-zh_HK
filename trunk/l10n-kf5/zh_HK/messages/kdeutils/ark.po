@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-31 07:59+0000\n"
+"POT-Creation-Date: 2016-04-07 08:08+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -271,7 +271,7 @@ msgstr "開啟「壓縮檔」"
 #: app/mainwindow.cpp:298
 #, fuzzy
 #| msgid "Create New Archive"
-msgid "Create a new Archive"
+msgid "Create New Archive"
 msgstr "建立新的壓縮檔"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
@@ -285,25 +285,25 @@ msgstr ""
 msgid "Compress to Archive"
 msgstr "簡單壓縮檔"
 
-#: kerfuffle/addtoarchive.cpp:140
+#: kerfuffle/addtoarchive.cpp:137
 msgid "No input files were given."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:151
+#: kerfuffle/addtoarchive.cpp:148
 msgid ""
 "You need to either supply a filename for the archive or a suffix (such as "
 "rar, tar.gz) with the <command>--autofilename</command> argument."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:182
+#: kerfuffle/addtoarchive.cpp:179
 msgid "Failed to create the new archive. No suitable plugin found."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:187
+#: kerfuffle/addtoarchive.cpp:184
 msgid "Failed to create the new archive. Could not load a suitable plugin."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:192
+#: kerfuffle/addtoarchive.cpp:189
 msgid "It is not possible to create archives of this type."
 msgstr ""
 
@@ -376,69 +376,82 @@ msgid "Failed to locate program <filename>%2</filename> on disk."
 msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "資料夾解壓至"
 
-#: kerfuffle/cliinterface.cpp:903
+#: kerfuffle/cliinterface.cpp:898
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:911
+#: kerfuffle/cliinterface.cpp:906
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:918 kerfuffle/cliinterface.cpp:960
+#: kerfuffle/cliinterface.cpp:913 kerfuffle/cliinterface.cpp:955
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:953
+#: kerfuffle/cliinterface.cpp:948
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:165
-msgid "The chosen password does not match the given verification password."
-msgstr ""
-
-#: kerfuffle/createdialog.cpp:168
-#, fuzzy
-#| msgid "The password was incorrect. "
-msgid "The password cannot be empty."
-msgstr "密碼錯誤。"
-
-#: kerfuffle/createdialog.cpp:187
+#: kerfuffle/createdialog.cpp:133
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:200
+#: kerfuffle/createdialog.cpp:141
+#, kde-format
+msgid "Automatically add .%1"
+msgstr ""
+
+#: kerfuffle/createdialog.cpp:205
+msgid "The chosen password does not match the given verification password."
+msgstr ""
+
+#: kerfuffle/createdialog.cpp:227
 #, kde-format
 msgid "Protection of the list of files is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:226
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/createdialog.ui:28
 #, fuzzy
-#| msgid "An error occurred while adding the files to the archive."
-msgid "Please select a filename for the archive."
-msgstr "加入檔案到壓縮檔時發生錯誤。"
+#| msgid "&Folders"
+msgid "Folder:"
+msgstr "資料夾(&F)"
 
-#: kerfuffle/createdialog.cpp:226
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kerfuffle/createdialog.ui:45
 #, fuzzy
-#| msgid "0 files selected"
-msgid "No file selected"
-msgstr "已選取 0 個檔案"
+#| msgid " Filename "
+msgid "Filename:"
+msgstr " 檔案名稱 "
 
-#. i18n: ectx: property (text), widget (QCheckBox, encryptCheckBox)
-#: kerfuffle/createdialog.ui:29
-msgid "Protect the archive with a password"
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filenameLineEdit)
+#: kerfuffle/createdialog.ui:52
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Type archive name..."
+msgstr "開啟「壓縮檔」"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kerfuffle/createdialog.ui:59
+msgid "Type:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupEncryptionOptions)
-#: kerfuffle/createdialog.ui:45
-msgid "Password options"
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kerfuffle/createdialog.ui:86
+msgid "Extension:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (KCollapsibleGroupBox, collapsibleEncryption)
+#: kerfuffle/createdialog.ui:104
+msgid "Password Protection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, encryptHeaderCheckBox)
-#: kerfuffle/createdialog.ui:57
+#: kerfuffle/createdialog.ui:126
 msgid "Ask for password before showing the list of files in the archive"
 msgstr ""
 
@@ -615,40 +628,40 @@ msgstr ""
 msgid "Extract to a subfolder if the archive has more than one top-level entry"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:202
+#: kerfuffle/jobs.cpp:210
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:281
+#: kerfuffle/jobs.cpp:289
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:283
+#: kerfuffle/jobs.cpp:291
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:289
+#: kerfuffle/jobs.cpp:297
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:344
+#: kerfuffle/jobs.cpp:352
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:367
+#: kerfuffle/jobs.cpp:375
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
@@ -1551,6 +1564,21 @@ msgid ""
 msgstr "上次用作解壓縮的資料夾"
 
 #, fuzzy
+#~| msgid "The password was incorrect. "
+#~ msgid "The password cannot be empty."
+#~ msgstr "密碼錯誤。"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgid "Please select a filename for the archive."
+#~ msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#, fuzzy
+#~| msgid "0 files selected"
+#~ msgid "No file selected"
+#~ msgstr "已選取 0 個檔案"
+
+#, fuzzy
 #~| msgid "Open with:"
 #~ msgid "Open File"
 #~ msgstr "以其它程式開啟："
@@ -2215,9 +2243,6 @@ msgstr "上次用作解壓縮的資料夾"
 #~ msgid "Trouble writing to the tempfile..."
 #~ msgstr "寫入暫存檔失敗..."
 
-#~ msgid " Filename "
-#~ msgstr " 檔案名稱 "
-
 #~ msgid " Permissions "
 #~ msgstr " 權限 "
 
@@ -2256,9 +2281,6 @@ msgstr "上次用作解壓縮的資料夾"
 
 #~ msgid "&Extracting"
 #~ msgstr "解壓(&E)"
-
-#~ msgid "&Folders"
-#~ msgstr "資料夾(&F)"
 
 #~ msgid "Add Settings"
 #~ msgstr "加入設定"
