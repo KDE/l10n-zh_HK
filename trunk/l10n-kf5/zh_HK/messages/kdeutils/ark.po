@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-18 08:19+0000\n"
+"POT-Creation-Date: 2016-04-24 07:40+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -245,30 +245,30 @@ msgid ""
 "archive, a subfolder with the name of the archive will be created."
 msgstr ""
 
-#: app/mainwindow.cpp:148
+#: app/mainwindow.cpp:149
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:176
+#: app/mainwindow.cpp:177
 #, fuzzy
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "開啟(&O)"
 
-#: app/mainwindow.cpp:177
+#: app/mainwindow.cpp:178
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Open an archive"
 msgstr "開啟「壓縮檔」"
 
-#: app/mainwindow.cpp:225
+#: app/mainwindow.cpp:226
 #, fuzzy
 #| msgid "Open 'archive'"
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "開啟「壓縮檔」"
 
-#: app/mainwindow.cpp:298
+#: app/mainwindow.cpp:311
 #, fuzzy
 #| msgid "Create New Archive"
 msgid "Create New Archive"
@@ -651,40 +651,40 @@ msgstr ""
 msgid "Extract to a subfolder if the archive has more than one top-level entry"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:211
+#: kerfuffle/jobs.cpp:209
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:290
+#: kerfuffle/jobs.cpp:288
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:292
+#: kerfuffle/jobs.cpp:290
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:298
+#: kerfuffle/jobs.cpp:296
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:353
+#: kerfuffle/jobs.cpp:351
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:407
+#: kerfuffle/jobs.cpp:405
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
@@ -979,27 +979,32 @@ msgstr "資料夾(&F)"
 msgid "&Settings"
 msgstr "設定"
 
-#: part/arkviewer.cpp:74
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/ark_part.rc:27
+msgid "Main Toolbar"
+msgstr ""
+
+#: part/arkviewer.cpp:76
 msgid "Closing preview"
 msgstr ""
 
-#: part/arkviewer.cpp:75
+#: part/arkviewer.cpp:77
 msgid "Please wait while the preview is being closed..."
 msgstr ""
 
-#: part/arkviewer.cpp:133
+#: part/arkviewer.cpp:135
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:134 part/arkviewer.cpp:146
+#: part/arkviewer.cpp:136 part/arkviewer.cpp:148
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr ""
 
-#: part/arkviewer.cpp:135 part/arkviewer.cpp:147
+#: part/arkviewer.cpp:137 part/arkviewer.cpp:149
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1007,13 +1012,13 @@ msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "檢視(&V)"
 
-#: part/arkviewer.cpp:145
+#: part/arkviewer.cpp:147
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:172
+#: part/arkviewer.cpp:174
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
@@ -1484,14 +1489,14 @@ msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "資料夾解壓至"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:63
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:293
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:317
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:76
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:306
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:330
 msgid "The source file could not be read."
 msgstr ""
 
@@ -1503,15 +1508,15 @@ msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "資料夾解壓至"
 
 #: plugins/libarchive/readwritelibarchiveplugin.cpp:93
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:322
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:346
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:135
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:188
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:352
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:139
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:195
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1519,7 +1524,7 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:146
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:150
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1527,14 +1532,14 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:182
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:347
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:187
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:371
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:196
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:359
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:203
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:383
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1542,8 +1547,8 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:263
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:390
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:284
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:417
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1551,14 +1556,14 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:316
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:340
 #, fuzzy
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:441
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:470
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
