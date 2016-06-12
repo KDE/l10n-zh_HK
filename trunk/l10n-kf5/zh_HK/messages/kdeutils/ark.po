@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-10 07:41+0000\n"
+"POT-Creation-Date: 2016-06-12 07:42+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -719,7 +719,7 @@ msgstr "正在建立壓縮檔...."
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:290
+#: kerfuffle/jobs.cpp:290 kerfuffle/jobs.cpp:373
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
@@ -733,27 +733,27 @@ msgid ""
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:351
+#: kerfuffle/jobs.cpp:433
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:405
+#: kerfuffle/jobs.cpp:487
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: kerfuffle/jobs.cpp:428
+#: kerfuffle/jobs.cpp:510
 #, fuzzy
 #| msgid "Adding folder..."
 msgid "Adding comment"
 msgstr "加入資料夾..."
 
-#: kerfuffle/jobs.cpp:453
+#: kerfuffle/jobs.cpp:535
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Testing archive"
@@ -1483,7 +1483,7 @@ msgstr ""
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:965
+#: part/part.cpp:958
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1491,35 +1491,35 @@ msgid ""
 "archive?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:967
+#: part/part.cpp:960
 #, fuzzy
 #| msgid "Files to be added"
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr "要加入的檔案"
 
-#: part/part.cpp:1240
+#: part/part.cpp:1233
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:1247
+#: part/part.cpp:1240
 #, fuzzy
 #| msgid "Add Folde&r..."
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "加入資料夾(&R)..."
 
-#: part/part.cpp:1274
+#: part/part.cpp:1267
 msgctxt "@info"
 msgid "Deleting this file is not undoable. Are you sure you want to do this?"
 msgid_plural ""
 "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr[0] ""
 
-#: part/part.cpp:1277
+#: part/part.cpp:1270
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
@@ -1527,14 +1527,14 @@ msgid "Delete File"
 msgid_plural "Delete Files"
 msgstr[0] "只解開已選的檔案"
 
-#: part/part.cpp:1316
+#: part/part.cpp:1309
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1323
+#: part/part.cpp:1316
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1543,7 +1543,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1337
+#: part/part.cpp:1330
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1552,7 +1552,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1351
+#: part/part.cpp:1344
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
