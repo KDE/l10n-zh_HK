@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-10 07:28+0000\n"
+"POT-Creation-Date: 2016-07-11 08:14+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -798,20 +798,36 @@ msgid "yes"
 msgstr ""
 
 #: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
-#: kerfuffle/propertiesdialog.cpp:79
+#: kerfuffle/propertiesdialog.cpp:80
 msgid "no"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:82
+#: kerfuffle/propertiesdialog.cpp:68
+#, fuzzy, kde-format
+#| msgid "%1 file  %2"
+#| msgid_plural "%1 files  %2"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 檔案 %2"
+
+#: kerfuffle/propertiesdialog.cpp:69
+#, fuzzy, kde-format
+#| msgctxt "folder for adding files (used as part of a sentence)"
+#| msgid "add folder"
+msgid ", %1 folder"
+msgid_plural ", %1 folders"
+msgstr[0] "加入資料夾"
+
+#: kerfuffle/propertiesdialog.cpp:83
 msgid "yes (excluding the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:85
+#: kerfuffle/propertiesdialog.cpp:86
 msgid "yes (including the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:102 kerfuffle/propertiesdialog.cpp:103
-#: kerfuffle/propertiesdialog.cpp:104
+#: kerfuffle/propertiesdialog.cpp:103 kerfuffle/propertiesdialog.cpp:104
+#: kerfuffle/propertiesdialog.cpp:105
 #, fuzzy
 #| msgid "Saving..."
 msgid "Calculating..."
@@ -825,73 +841,73 @@ msgid "Archive name:"
 msgstr "開啟「壓縮檔」"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: kerfuffle/propertiesdialog.ui:44
+#: kerfuffle/propertiesdialog.ui:51
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Archive type:"
 msgstr "開啟「壓縮檔」"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: kerfuffle/propertiesdialog.ui:58
+#: kerfuffle/propertiesdialog.ui:65
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Mime-type:"
 msgstr "開啟「壓縮檔」"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: kerfuffle/propertiesdialog.ui:72
+#: kerfuffle/propertiesdialog.ui:79
 msgid "Opened read-only:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kerfuffle/propertiesdialog.ui:86
+#: kerfuffle/propertiesdialog.ui:93
 msgid "Password-protected:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: kerfuffle/propertiesdialog.ui:100
+#: kerfuffle/propertiesdialog.ui:107
 msgid "Has comment:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kerfuffle/propertiesdialog.ui:114
-msgid "Number of files:"
+#: kerfuffle/propertiesdialog.ui:121
+msgid "Number of entries:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kerfuffle/propertiesdialog.ui:128
+#: kerfuffle/propertiesdialog.ui:135
 msgid "Unpacked size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: kerfuffle/propertiesdialog.ui:142
+#: kerfuffle/propertiesdialog.ui:149
 msgid "Packed size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: kerfuffle/propertiesdialog.ui:156
+#: kerfuffle/propertiesdialog.ui:163
 #, fuzzy
 #| msgid "Simple Compressed Archive"
 msgid "Compression ratio:"
 msgstr "簡單壓縮檔"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: kerfuffle/propertiesdialog.ui:170
+#: kerfuffle/propertiesdialog.ui:177
 msgid "Last modified:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: kerfuffle/propertiesdialog.ui:184
+#: kerfuffle/propertiesdialog.ui:191
 msgid "MD5 hash:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: kerfuffle/propertiesdialog.ui:204
+#: kerfuffle/propertiesdialog.ui:211
 msgid "SHA-1 hash:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: kerfuffle/propertiesdialog.ui:221
+#: kerfuffle/propertiesdialog.ui:228
 msgid "SHA-256 hash:"
 msgstr ""
 
@@ -956,50 +972,50 @@ msgstr ""
 msgid "Don't ask again."
 msgstr ""
 
-#: part/archivemodel.cpp:393
+#: part/archivemodel.cpp:396
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:395
+#: part/archivemodel.cpp:398
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
 
-#: part/archivemodel.cpp:397
+#: part/archivemodel.cpp:400
 #, fuzzy
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
 msgid "Compressed"
 msgstr "已壓縮檔案"
 
-#: part/archivemodel.cpp:399
+#: part/archivemodel.cpp:402
 msgctxt "Compression rate of file"
 msgid "Rate"
 msgstr ""
 
-#: part/archivemodel.cpp:401
+#: part/archivemodel.cpp:404
 #, fuzzy
 #| msgid " Owner "
 msgctxt "File's owner username"
 msgid "Owner"
 msgstr " 擁有者 "
 
-#: part/archivemodel.cpp:403
+#: part/archivemodel.cpp:406
 #, fuzzy
 #| msgid " Group "
 msgctxt "File's group"
 msgid "Group"
 msgstr " 群組 "
 
-#: part/archivemodel.cpp:405
+#: part/archivemodel.cpp:408
 msgctxt "File permissions"
 msgid "Mode"
 msgstr ""
 
-#: part/archivemodel.cpp:407
+#: part/archivemodel.cpp:410
 #, fuzzy
 #| msgctxt "acronym for Cyclic Redundancy Check"
 #| msgid " CRC "
@@ -1007,31 +1023,31 @@ msgctxt "CRC hash code"
 msgid "CRC"
 msgstr " CRC "
 
-#: part/archivemodel.cpp:409
+#: part/archivemodel.cpp:412
 #, fuzzy
 #| msgid " Method "
 msgctxt "Compression method"
 msgid "Method"
 msgstr " 壓縮法 "
 
-#: part/archivemodel.cpp:412
+#: part/archivemodel.cpp:415
 #, fuzzy
 #| msgid " Version "
 msgctxt "File version"
 msgid "Version"
 msgstr " 版本 "
 
-#: part/archivemodel.cpp:414
+#: part/archivemodel.cpp:417
 msgctxt "Timestamp"
 msgid "Date"
 msgstr ""
 
-#: part/archivemodel.cpp:416
+#: part/archivemodel.cpp:419
 msgctxt "File comment"
 msgid "Comment"
 msgstr ""
 
-#: part/archivemodel.cpp:418
+#: part/archivemodel.cpp:421
 msgctxt "Unnamed column"
 msgid "??"
 msgstr ""
@@ -1528,14 +1544,14 @@ msgid "Delete File"
 msgid_plural "Delete Files"
 msgstr[0] "只解開已選的檔案"
 
-#: part/part.cpp:1330
+#: part/part.cpp:1334
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1337
+#: part/part.cpp:1341
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1544,7 +1560,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1351
+#: part/part.cpp:1355
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1553,7 +1569,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1365
+#: part/part.cpp:1369
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
@@ -2045,10 +2061,6 @@ msgstr "上次用作解壓縮的資料夾"
 #~ msgid "&Search:"
 #~ msgstr "搜尋(&S)："
 
-#~ msgid "%1 file  %2"
-#~ msgid_plural "%1 files  %2"
-#~ msgstr[0] "%1 檔案 %2"
-
 #~ msgid ""
 #~ "Please save your archive in the same format as the original.\n"
 #~ "Hint: Use one of the suggested extensions."
@@ -2412,10 +2424,6 @@ msgstr "上次用作解壓縮的資料夾"
 #~ msgctxt "folder for extracting files (used as part of a sentence)"
 #~ msgid "extract folder"
 #~ msgstr "解開資料夾"
-
-#~ msgctxt "folder for adding files (used as part of a sentence)"
-#~ msgid "add folder"
-#~ msgstr "加入資料夾"
 
 #~ msgid "Settings"
 #~ msgstr "設定"
