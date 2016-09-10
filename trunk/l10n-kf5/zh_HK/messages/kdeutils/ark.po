@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-12 07:24+0000\n"
+"POT-Creation-Date: 2016-09-10 07:43+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -348,25 +348,25 @@ msgstr ""
 msgid "Compress to Archive"
 msgstr "簡單壓縮檔"
 
-#: kerfuffle/addtoarchive.cpp:138
+#: kerfuffle/addtoarchive.cpp:140
 msgid "No input files were given."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:149
+#: kerfuffle/addtoarchive.cpp:151
 msgid ""
 "You need to either supply a filename for the archive or a suffix (such as "
 "rar, tar.gz) with the <command>--autofilename</command> argument."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:180
+#: kerfuffle/addtoarchive.cpp:182
 msgid "Failed to create the new archive. No suitable plugin found."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:185
+#: kerfuffle/addtoarchive.cpp:187
 msgid "Failed to create the new archive. Could not load a suitable plugin."
 msgstr ""
 
-#: kerfuffle/addtoarchive.cpp:190
+#: kerfuffle/addtoarchive.cpp:192
 msgid "It is not possible to create archives of this type."
 msgstr ""
 
@@ -413,7 +413,7 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:249
+#: kerfuffle/cliinterface.cpp:321
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
@@ -421,17 +421,17 @@ msgid "Failed to locate program <filename>%2</filename> on disk."
 msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "資料夾解壓至"
 
-#: kerfuffle/cliinterface.cpp:351
+#: kerfuffle/cliinterface.cpp:432
 msgid "Extraction failed. Make sure that enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:354
+#: kerfuffle/cliinterface.cpp:435
 msgid ""
 "Extraction failed. Make sure you provided the correct password and that "
 "enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:365 kerfuffle/cliinterface.cpp:380
+#: kerfuffle/cliinterface.cpp:446 kerfuffle/cliinterface.cpp:461
 #, fuzzy
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -439,26 +439,26 @@ msgid "Could not move the extracted file to the destination directory."
 msgid_plural "Could not move the extracted files to the destination directory."
 msgstr[0] "無法建立資料夾 %1"
 
-#: kerfuffle/cliinterface.cpp:1029
+#: kerfuffle/cliinterface.cpp:1249
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1036
+#: kerfuffle/cliinterface.cpp:1256
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1042 kerfuffle/cliinterface.cpp:1081
-#: plugins/cliunarchiverplugin/cliplugin.cpp:156
+#: kerfuffle/cliinterface.cpp:1262 kerfuffle/cliinterface.cpp:1301
+#: plugins/cliunarchiverplugin/cliplugin.cpp:154
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1075
+#: kerfuffle/cliinterface.cpp:1295
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1105
+#: kerfuffle/cliinterface.cpp:1325
 msgid "Ark does not currently support testing this archive."
 msgstr ""
 
@@ -621,7 +621,7 @@ msgstr "解開"
 msgid "Retry"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:135
+#: kerfuffle/extractiondialog.cpp:135 part/overwritedialog.cpp:37
 msgid "Cancel"
 msgstr ""
 
@@ -752,53 +752,67 @@ msgstr ""
 msgid "Extract to a subfolder if the archive has more than one top-level entry"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:210
+#: kerfuffle/jobs.cpp:215
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:289
+#: kerfuffle/jobs.cpp:294
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:291 kerfuffle/jobs.cpp:378
+#: kerfuffle/jobs.cpp:296 kerfuffle/jobs.cpp:384
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:297
+#: kerfuffle/jobs.cpp:302
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:453
+#: kerfuffle/jobs.cpp:459
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:499
+#: kerfuffle/jobs.cpp:511
+#, fuzzy, kde-format
+#| msgid "Adding files..."
+msgid "Moving a file"
+msgid_plural "Moving %1 files"
+msgstr[0] "加入檔案中..."
+
+#: kerfuffle/jobs.cpp:548
+#, fuzzy, kde-format
+#| msgid "Adding files..."
+msgid "Copying a file"
+msgid_plural "Copying %1 files"
+msgstr[0] "加入檔案中..."
+
+#: kerfuffle/jobs.cpp:579
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: kerfuffle/jobs.cpp:522
+#: kerfuffle/jobs.cpp:602
 #, fuzzy
 #| msgid "Adding folder..."
 msgid "Adding comment"
 msgstr "加入資料夾..."
 
-#: kerfuffle/jobs.cpp:547
+#: kerfuffle/jobs.cpp:627
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Testing archive"
@@ -1022,50 +1036,50 @@ msgstr ""
 msgid "Don't ask again."
 msgstr ""
 
-#: part/archivemodel.cpp:396
+#: part/archivemodel.cpp:264
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:398
+#: part/archivemodel.cpp:266
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
 
-#: part/archivemodel.cpp:400
+#: part/archivemodel.cpp:268
 #, fuzzy
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
 msgid "Compressed"
 msgstr "已壓縮檔案"
 
-#: part/archivemodel.cpp:402
+#: part/archivemodel.cpp:270
 msgctxt "Compression rate of file"
 msgid "Rate"
 msgstr ""
 
-#: part/archivemodel.cpp:404
+#: part/archivemodel.cpp:272
 #, fuzzy
 #| msgid " Owner "
 msgctxt "File's owner username"
 msgid "Owner"
 msgstr " 擁有者 "
 
-#: part/archivemodel.cpp:406
+#: part/archivemodel.cpp:274
 #, fuzzy
 #| msgid " Group "
 msgctxt "File's group"
 msgid "Group"
 msgstr " 群組 "
 
-#: part/archivemodel.cpp:408
+#: part/archivemodel.cpp:276
 msgctxt "File permissions"
 msgid "Mode"
 msgstr ""
 
-#: part/archivemodel.cpp:410
+#: part/archivemodel.cpp:278
 #, fuzzy
 #| msgctxt "acronym for Cyclic Redundancy Check"
 #| msgid " CRC "
@@ -1073,36 +1087,36 @@ msgctxt "CRC hash code"
 msgid "CRC"
 msgstr " CRC "
 
-#: part/archivemodel.cpp:412
+#: part/archivemodel.cpp:280
 #, fuzzy
 #| msgid " Method "
 msgctxt "Compression method"
 msgid "Method"
 msgstr " 壓縮法 "
 
-#: part/archivemodel.cpp:415
+#: part/archivemodel.cpp:283
 #, fuzzy
 #| msgid " Version "
 msgctxt "File version"
 msgid "Version"
 msgstr " 版本 "
 
-#: part/archivemodel.cpp:417
+#: part/archivemodel.cpp:285
 msgctxt "Timestamp"
 msgid "Date"
 msgstr ""
 
-#: part/archivemodel.cpp:419
+#: part/archivemodel.cpp:287
 msgctxt "File comment"
 msgid "Comment"
 msgstr ""
 
-#: part/archivemodel.cpp:421
+#: part/archivemodel.cpp:289
 msgctxt "Unnamed column"
 msgid "??"
 msgstr ""
 
-#: part/archivemodel.cpp:597
+#: part/archivemodel.cpp:466
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Adding files is not supported for this archive."
@@ -1115,13 +1129,13 @@ msgid "&File"
 msgstr "資料夾(&F)"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:23
+#: part/ark_part.rc:28
 #, fuzzy
 msgid "&Settings"
 msgstr "設定"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: part/ark_part.rc:28
+#: part/ark_part.rc:33
 msgid "Main Toolbar"
 msgstr ""
 
@@ -1163,46 +1177,46 @@ msgstr ""
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/infopanel.cpp:70
+#: part/infopanel.cpp:65
 msgid "No archive loaded"
 msgstr ""
 
-#: part/infopanel.cpp:118
+#: part/infopanel.cpp:113
 msgid "Symbolic Link"
 msgstr ""
 
-#: part/infopanel.cpp:123
+#: part/infopanel.cpp:118
 msgid "Unknown size"
 msgstr ""
 
-#: part/infopanel.cpp:144
+#: part/infopanel.cpp:139
 #, fuzzy, kde-format
 #| msgid "0 files selected"
 msgid "One file selected"
 msgid_plural "%1 files selected"
 msgstr[0] "已選取 0 個檔案"
 
-#: part/infopanel.cpp:182
+#: part/infopanel.cpp:177
 #, kde-format
 msgid "<b>Type:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:186
+#: part/infopanel.cpp:181
 #, kde-format
 msgid "<b>Owner:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:193
+#: part/infopanel.cpp:188
 #, kde-format
 msgid "<b>Group:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:200
+#: part/infopanel.cpp:195
 #, kde-format
 msgid "<b>Target:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:207
+#: part/infopanel.cpp:202
 msgid "<b>Password protected:</b> Yes"
 msgstr ""
 
@@ -1231,63 +1245,79 @@ msgstr ""
 msgid "Some Information about the job"
 msgstr ""
 
-#: part/part.cpp:114
+#: part/overwritedialog.cpp:36
+msgid "OK"
+msgstr ""
+
+#: part/overwritedialog.cpp:48
+msgid ""
+"Files with the following paths already exist. Remove them if you really want "
+"to overwrite."
+msgstr ""
+
+#: part/overwritedialog.cpp:52
+msgid ""
+"Files with the following paths already exist. Do you want to continue "
+"overwriting them?"
+msgstr ""
+
+#: part/part.cpp:116
 msgid "Comment"
 msgstr ""
 
-#: part/part.cpp:124
+#: part/part.cpp:126
 msgid "Comment has been modified."
 msgstr ""
 
-#: part/part.cpp:129
+#: part/part.cpp:131
 msgid "Save"
 msgstr ""
 
-#: part/part.cpp:221
+#: part/part.cpp:226
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:265
+#: part/part.cpp:270
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr ""
 
-#: part/part.cpp:322
+#: part/part.cpp:327
 msgctxt "@action:inmenu"
 msgid "Show Information Panel"
 msgstr ""
 
-#: part/part.cpp:331
+#: part/part.cpp:336
 #, fuzzy
 #| msgid "&Open"
 msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "開啟(&O)"
 
-#: part/part.cpp:333
+#: part/part.cpp:338
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:338
+#: part/part.cpp:343
 #, fuzzy
 #| msgid "&Open With..."
 msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "以其它程式開啟(&O)..."
 
-#: part/part.cpp:340
+#: part/part.cpp:345
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:345
+#: part/part.cpp:350
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1295,95 +1325,144 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:347
+#: part/part.cpp:352
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:353
+#: part/part.cpp:358
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "E&xtract All"
 msgstr "解開"
 
-#: part/part.cpp:355
+#: part/part.cpp:360
 msgid ""
 "Click to open an extraction dialog, where you can choose how to extract all "
 "the files in the archive"
 msgstr ""
 
-#: part/part.cpp:361
+#: part/part.cpp:365
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "&Extract"
 msgstr "解開"
 
-#: part/part.cpp:364
+#: part/part.cpp:368
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:370
+#: part/part.cpp:373
 #, fuzzy
 #| msgid "Add &File..."
-msgid "Add &Files..."
+msgid "Add &Files to..."
 msgstr "加入檔案(&F)..."
 
-#: part/part.cpp:371 part/part.cpp:434
+#: part/part.cpp:374 part/part.cpp:462
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:378
+#: part/part.cpp:380
+#, fuzzy
+#| msgid " Filename "
+msgid "&Rename"
+msgstr " 檔案名稱 "
+
+#: part/part.cpp:382
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgctxt "@info:tooltip"
+msgid "Click to rename the selected file"
+msgstr "你確定要刪除選擇的項目嗎？"
+
+#: part/part.cpp:387
 msgid "De&lete"
 msgstr "刪除(&E)"
 
-#: part/part.cpp:380
+#: part/part.cpp:389
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr "你確定要刪除選擇的項目嗎？"
 
-#: part/part.cpp:386
+#: part/part.cpp:394
+msgctxt "@action:inmenu"
+msgid "C&ut"
+msgstr ""
+
+#: part/part.cpp:396
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgctxt "@info:tooltip"
+msgid "Click to cut the selected files"
+msgstr "你確定要刪除選擇的項目嗎？"
+
+#: part/part.cpp:401
+msgctxt "@action:inmenu"
+msgid "C&opy"
+msgstr ""
+
+#: part/part.cpp:403
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgctxt "@info:tooltip"
+msgid "Click to copy the selected files"
+msgstr "你確定要刪除選擇的項目嗎？"
+
+#: part/part.cpp:408
+msgctxt "@action:inmenu"
+msgid "Pa&ste"
+msgstr ""
+
+#: part/part.cpp:410
+#, fuzzy
+#| msgid "An error occurred while adding the files to the archive."
+msgctxt "@info:tooltip"
+msgid "Click to paste the files here"
+msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#: part/part.cpp:415
 msgctxt "@action:inmenu"
 msgid "&Properties"
 msgstr ""
 
-#: part/part.cpp:388
+#: part/part.cpp:417
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to see properties for archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:395
+#: part/part.cpp:423
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to add or edit comment"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:400
+#: part/part.cpp:428
 msgctxt "@action:inmenu"
 msgid "&Test Integrity"
 msgstr ""
 
-#: part/part.cpp:402 part/part.cpp:435
+#: part/part.cpp:430 part/part.cpp:463
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info:tooltip"
 msgid "Click to test the archive for integrity"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:429
+#: part/part.cpp:457
 msgctxt "@info:tooltip"
 msgid ""
 "Adding files to existing password-protected archives with no header-"
@@ -1391,56 +1470,56 @@ msgid ""
 "a new archive if you want to add files."
 msgstr ""
 
-#: part/part.cpp:432
+#: part/part.cpp:460
 msgctxt "@info:tooltip"
 msgid ""
 "Testing password-protected archives with no header-encryption is currently "
 "not supported."
 msgstr ""
 
-#: part/part.cpp:483
+#: part/part.cpp:525
 #, fuzzy
 #| msgid "Adding folder..."
 msgctxt "@action:inmenu mutually exclusive with Add &Comment"
 msgid "Edit &Comment"
 msgstr "加入資料夾..."
 
-#: part/part.cpp:484 part/part.cpp:492
+#: part/part.cpp:526 part/part.cpp:534
 #, fuzzy
 #| msgid "Adding folder..."
 msgctxt "@action:inmenu mutually exclusive with Edit &Comment"
 msgid "Add &Comment"
 msgstr "加入資料夾..."
 
-#: part/part.cpp:542
+#: part/part.cpp:584
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive passed the integrity test."
 msgstr "壓縮檔 %1 不存在。"
 
-#: part/part.cpp:542 part/part.cpp:544
+#: part/part.cpp:584 part/part.cpp:586
 msgid "Test Results"
 msgstr ""
 
-#: part/part.cpp:544
+#: part/part.cpp:586
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive failed the integrity test."
 msgstr "壓縮檔 %1 不存在。"
 
-#: part/part.cpp:565
+#: part/part.cpp:607
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:579
+#: part/part.cpp:621
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "解開(&X)..."
 
-#: part/part.cpp:654
+#: part/part.cpp:696
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1449,7 +1528,7 @@ msgid ""
 "<nl/>Ark does not seem to support this file type."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:661
+#: part/part.cpp:703
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
@@ -1459,14 +1538,14 @@ msgid ""
 "installed."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: part/part.cpp:715
+#: part/part.cpp:757
 #, fuzzy
 #| msgid "Extract Settings"
 msgctxt "@title:tab"
 msgid "Extraction Settings"
 msgstr "解壓設定"
 
-#: part/part.cpp:716
+#: part/part.cpp:758
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1474,13 +1553,13 @@ msgctxt "@title:tab"
 msgid "Preview Settings"
 msgstr "檢視(&V)"
 
-#: part/part.cpp:729
+#: part/part.cpp:771
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:738
+#: part/part.cpp:780
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -1489,7 +1568,7 @@ msgid ""
 "permission."
 msgstr "無法建立資料夾 %1"
 
-#: part/part.cpp:744
+#: part/part.cpp:786
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1498,13 +1577,13 @@ msgid ""
 "file."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:747
+#: part/part.cpp:789
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:752
+#: part/part.cpp:794
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1513,7 +1592,7 @@ msgid ""
 "possible to read from it."
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:765
+#: part/part.cpp:807
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1522,21 +1601,21 @@ msgid ""
 "it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:767
+#: part/part.cpp:809
 #, fuzzy
 #| msgid "Archive Already Exists"
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "壓縮檔已經存在"
 
-#: part/part.cpp:768
+#: part/part.cpp:810
 #, fuzzy
 #| msgid "Overwrite"
 msgctxt "@action:button"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: part/part.cpp:789
+#: part/part.cpp:833
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1544,23 +1623,23 @@ msgid ""
 "<nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:831
+#: part/part.cpp:879
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr "壓縮檔 %1 不存在。"
 
-#: part/part.cpp:836
+#: part/part.cpp:884
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:891
+#: part/part.cpp:939
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:997
+#: part/part.cpp:1044
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgid ""
@@ -1568,28 +1647,59 @@ msgid ""
 "archive?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:999
+#: part/part.cpp:1046
 #, fuzzy
 #| msgid "Files to be added"
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr "要加入的檔案"
 
-#: part/part.cpp:1275
+#: part/part.cpp:1350
 #, fuzzy
 #| msgid "All Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "所有檔案"
 
-#: part/part.cpp:1323
+#: part/part.cpp:1355
+#, fuzzy, kde-format
+#| msgid "All Files"
+msgctxt "@title:window"
+msgid "Add Files to %1"
+msgstr "所有檔案"
+
+#: part/part.cpp:1430
+msgid "Invalid filename"
+msgstr ""
+
+#: part/part.cpp:1431
+msgid "Filename can't contain slashes and can't be equal to \".\" or \"..\""
+msgstr ""
+
+#: part/part.cpp:1471
+msgid "Moving a folder into itself"
+msgstr ""
+
+#: part/part.cpp:1472
+msgid "Folders can't be moved into themselves."
+msgstr ""
+
+#: part/part.cpp:1504
+msgid "Pasting entries with the same name"
+msgstr ""
+
+#: part/part.cpp:1505
+msgid "Entries with the same names can't be pasted to the same destination."
+msgstr ""
+
+#: part/part.cpp:1605
 msgctxt "@info"
 msgid "Deleting this file is not undoable. Are you sure you want to do this?"
 msgid_plural ""
 "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr[0] ""
 
-#: part/part.cpp:1326
+#: part/part.cpp:1608
 #, fuzzy
 #| msgid "Selected files only"
 msgctxt "@title:window"
@@ -1597,14 +1707,14 @@ msgid "Delete File"
 msgid_plural "Delete Files"
 msgstr[0] "只解開已選的檔案"
 
-#: part/part.cpp:1369
+#: part/part.cpp:1651
 #, fuzzy
 #| msgid "Save Archive As"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "另存壓縮檔為"
 
-#: part/part.cpp:1376
+#: part/part.cpp:1658
 #, fuzzy, kde-format
 #| msgid "Archive already exists. Do you wish to overwrite it?"
 msgctxt "@info"
@@ -1613,7 +1723,7 @@ msgid ""
 "want to overwrite it?"
 msgstr "壓縮檔已經存在。你是否要覆寫它？"
 
-#: part/part.cpp:1390
+#: part/part.cpp:1672
 #, fuzzy, kde-format
 #| msgid "You must enter a password to extract the file:"
 msgctxt "@info"
@@ -1622,7 +1732,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr "你必須輸入密碼才能解開檔案："
 
-#: part/part.cpp:1404
+#: part/part.cpp:1686
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
@@ -1631,25 +1741,37 @@ msgid ""
 "another location."
 msgstr "上次用作解壓縮的資料夾"
 
-#: plugins/cliunarchiverplugin/cliplugin.cpp:208
+#: plugins/cliunarchiverplugin/cliplugin.cpp:206
 msgid "Wrong password."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:78
-#, fuzzy
-#| msgid "An error occurred while adding the files to the archive."
-msgctxt "@info"
-msgid "Could not open the archive."
-msgstr "加入檔案到壓縮檔時發生錯誤。"
-
-#: plugins/libarchive/libarchiveplugin.cpp:112
+#: plugins/libarchive/libarchiveplugin.cpp:90
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchiveplugin.cpp:179
+#: plugins/libarchive/libarchiveplugin.cpp:229
+msgid ""
+"This archive contains archive entries with absolute paths, which are not "
+"supported by Ark."
+msgstr ""
+
+#: plugins/libarchive/libarchiveplugin.cpp:358
+#, fuzzy, kde-format
+#| msgid "Folder to extract to"
+msgctxt "@info"
+msgid "Extraction failed at:<nl/><filename>%1</filename>"
+msgstr "資料夾解壓至"
+
+#: plugins/libarchive/libarchiveplugin.cpp:399
+#, fuzzy
+#| msgid "The archive %1 does not exist."
+msgid "The archive reader could not be initialized."
+msgstr "壓縮檔 %1 不存在。"
+
+#: plugins/libarchive/libarchiveplugin.cpp:412
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -1658,71 +1780,20 @@ msgid ""
 "have sufficient permissions."
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libarchive/libarchiveplugin.cpp:251
-msgid ""
-"This archive contains archive entries with absolute paths, which are not "
-"supported by Ark."
-msgstr ""
-
-#: plugins/libarchive/libarchiveplugin.cpp:379
-#, fuzzy, kde-format
-#| msgid "Folder to extract to"
-msgctxt "@info"
-msgid "Extraction failed at:<nl/><filename>%1</filename>"
-msgstr "資料夾解壓至"
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:63
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:327
-#, fuzzy
-#| msgid "The archive %1 does not exist."
-msgid "The archive reader could not be initialized."
-msgstr "壓縮檔 %1 不存在。"
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:76
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:340
-msgid "The source file could not be read."
-msgstr ""
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:87
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:233
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:93
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:356
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:239
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:144
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:193
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:407
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Setting the compression method failed with the following error:<nl/><message>"
-"%1</message>"
-msgstr ""
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:185
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:400
-#, kde-format
-msgid "The compression type '%1' is not supported by Ark."
-msgstr ""
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:205
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Setting the compression level failed with the following error:<nl/><message>"
-"%1</message>"
-msgstr ""
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:213
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:414
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:258
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1730,8 +1801,29 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:294
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:448
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:305
+#, kde-format
+msgid "The compression type '%1' is not supported by Ark."
+msgstr ""
+
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:313
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:366
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Setting the compression method failed with the following error:<nl/><message>"
+"%1</message>"
+msgstr ""
+
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:377
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Setting the compression level failed with the following error:<nl/><message>"
+"%1</message>"
+msgstr ""
+
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:481
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1739,40 +1831,45 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:350
-#, fuzzy
-#| msgid "Folder to extract to"
-msgctxt "@info"
-msgid "Failed to create a temporary file."
-msgstr "資料夾解壓至"
-
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:501
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:523
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
 msgstr ""
 
-#: plugins/libsinglefileplugin/singlefileplugin.cpp:70
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:68
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Ark could not extract <filename>%1</filename>."
 msgstr "資料夾解壓至"
 
-#: plugins/libsinglefileplugin/singlefileplugin.cpp:78
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:76
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
 msgid "Ark could not open <filename>%1</filename> for extraction."
 msgstr "上次用作解壓縮的資料夾"
 
-#: plugins/libsinglefileplugin/singlefileplugin.cpp:92
+#: plugins/libsinglefileplugin/singlefileplugin.cpp:90
 #, fuzzy, kde-format
 #| msgid "Last folders used for extraction"
 msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "上次用作解壓縮的資料夾"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgctxt "@info"
+#~ msgid "Could not open the archive."
+#~ msgstr "加入檔案到壓縮檔時發生錯誤。"
+
+#, fuzzy
+#~| msgid "Folder to extract to"
+#~ msgctxt "@info"
+#~ msgid "Failed to create a temporary file."
+#~ msgstr "資料夾解壓至"
 
 #, fuzzy
 #~| msgid "Add Folde&r..."
