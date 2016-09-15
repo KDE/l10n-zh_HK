@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-14 07:06+0000\n"
+"POT-Creation-Date: 2016-09-15 07:28+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -752,67 +752,67 @@ msgstr ""
 msgid "Extract to a subfolder if the archive has more than one top-level entry"
 msgstr ""
 
-#: kerfuffle/jobs.cpp:191
+#: kerfuffle/jobs.cpp:196
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Loading archive..."
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:270
+#: kerfuffle/jobs.cpp:275
 #, fuzzy
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:272 kerfuffle/jobs.cpp:360
+#: kerfuffle/jobs.cpp:277 kerfuffle/jobs.cpp:365
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:278
+#: kerfuffle/jobs.cpp:283
 #, kde-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:435
+#: kerfuffle/jobs.cpp:440
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Adding a file"
 msgid_plural "Adding %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:487
+#: kerfuffle/jobs.cpp:492
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Moving a file"
 msgid_plural "Moving %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:524
+#: kerfuffle/jobs.cpp:529
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Copying a file"
 msgid_plural "Copying %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:555
+#: kerfuffle/jobs.cpp:560
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: kerfuffle/jobs.cpp:578
+#: kerfuffle/jobs.cpp:583
 #, fuzzy
 #| msgid "Adding folder..."
 msgid "Adding comment"
 msgstr "加入資料夾..."
 
-#: kerfuffle/jobs.cpp:603
+#: kerfuffle/jobs.cpp:608
 #, fuzzy
 #| msgid "Creating archive..."
 msgid "Testing archive"
@@ -1745,33 +1745,33 @@ msgstr "上次用作解壓縮的資料夾"
 msgid "Wrong password."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:90
+#: plugins/libarchive/libarchiveplugin.cpp:89
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: plugins/libarchive/libarchiveplugin.cpp:229
+#: plugins/libarchive/libarchiveplugin.cpp:227
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:358
+#: plugins/libarchive/libarchiveplugin.cpp:356
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/libarchiveplugin.cpp:399
+#: plugins/libarchive/libarchiveplugin.cpp:395
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchiveplugin.cpp:412
+#: plugins/libarchive/libarchiveplugin.cpp:408
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -1780,20 +1780,20 @@ msgid ""
 "have sufficient permissions."
 msgstr "無法建立資料夾 %1"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:233
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:232
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:239
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:238
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive writer could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:258
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:257
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1801,13 +1801,13 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:305
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:304
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:313
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:366
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:312
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:365
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1815,7 +1815,7 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:377
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1823,7 +1823,7 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:482
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:481
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1831,7 +1831,7 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:524
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:523
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
