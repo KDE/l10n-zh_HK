@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-20 07:58+0000\n"
+"POT-Creation-Date: 2016-09-28 07:09+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1139,27 +1139,27 @@ msgstr "設定"
 msgid "Main Toolbar"
 msgstr ""
 
-#: part/arkviewer.cpp:63
+#: part/arkviewer.cpp:67
 msgid "Closing preview"
 msgstr ""
 
-#: part/arkviewer.cpp:64
+#: part/arkviewer.cpp:68
 msgid "Please wait while the preview is being closed..."
 msgstr ""
 
-#: part/arkviewer.cpp:122
+#: part/arkviewer.cpp:126
 #, kde-format
 msgid ""
 "The internal viewer cannot preview this type of file<nl/>(%1).<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:123 part/arkviewer.cpp:135
+#: part/arkviewer.cpp:127 part/arkviewer.cpp:139
 msgctxt "@title:window"
 msgid "Cannot Preview File"
 msgstr ""
 
-#: part/arkviewer.cpp:124 part/arkviewer.cpp:136
+#: part/arkviewer.cpp:128 part/arkviewer.cpp:140
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -1167,13 +1167,13 @@ msgctxt "@action:button"
 msgid "Preview as Text"
 msgstr "檢視(&V)"
 
-#: part/arkviewer.cpp:134
+#: part/arkviewer.cpp:138
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
 msgstr ""
 
-#: part/arkviewer.cpp:161
+#: part/arkviewer.cpp:165
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
@@ -1745,33 +1745,26 @@ msgstr "上次用作解壓縮的資料夾"
 msgid "Wrong password."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:89
-#, fuzzy
-#| msgid "An error occurred while adding the files to the archive."
-msgctxt "@info"
-msgid "Could not read until the end of the archive"
-msgstr "加入檔案到壓縮檔時發生錯誤。"
-
-#: plugins/libarchive/libarchiveplugin.cpp:227
+#: plugins/libarchive/libarchiveplugin.cpp:225
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:356
+#: plugins/libarchive/libarchiveplugin.cpp:354
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/libarchiveplugin.cpp:395
+#: plugins/libarchive/libarchiveplugin.cpp:393
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchiveplugin.cpp:408
+#: plugins/libarchive/libarchiveplugin.cpp:406
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -1858,6 +1851,12 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "上次用作解壓縮的資料夾"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgctxt "@info"
+#~ msgid "Could not read until the end of the archive"
+#~ msgstr "加入檔案到壓縮檔時發生錯誤。"
 
 #, fuzzy
 #~| msgid "An error occurred while adding the files to the archive."
