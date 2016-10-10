@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-09 07:18+0000\n"
+"POT-Creation-Date: 2016-10-10 07:22+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -446,7 +446,7 @@ msgstr ""
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1325
+#: kerfuffle/cliinterface.cpp:1324
 msgid "Ark does not currently support testing this archive."
 msgstr ""
 
@@ -857,21 +857,21 @@ msgctxt "@title:window"
 msgid "Properties for %1"
 msgstr "建立資料夾 %1？"
 
-#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:68
+#: kerfuffle/propertiesdialog.cpp:67 kerfuffle/propertiesdialog.cpp:69
 msgid "yes"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
-#: kerfuffle/propertiesdialog.cpp:68 kerfuffle/propertiesdialog.cpp:81
+#: kerfuffle/propertiesdialog.cpp:67 kerfuffle/propertiesdialog.cpp:68
+#: kerfuffle/propertiesdialog.cpp:69 kerfuffle/propertiesdialog.cpp:82
 msgid "no"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:67
+#: kerfuffle/propertiesdialog.cpp:68
 #, kde-format
 msgid "yes (%1 volumes)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:69
+#: kerfuffle/propertiesdialog.cpp:70
 #, fuzzy, kde-format
 #| msgid "%1 file  %2"
 #| msgid_plural "%1 files  %2"
@@ -879,7 +879,7 @@ msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 檔案 %2"
 
-#: kerfuffle/propertiesdialog.cpp:70
+#: kerfuffle/propertiesdialog.cpp:71
 #, fuzzy, kde-format
 #| msgctxt "folder for adding files (used as part of a sentence)"
 #| msgid "add folder"
@@ -887,16 +887,16 @@ msgid ", %1 folder"
 msgid_plural ", %1 folders"
 msgstr[0] "加入資料夾"
 
-#: kerfuffle/propertiesdialog.cpp:84
+#: kerfuffle/propertiesdialog.cpp:85
 msgid "yes (excluding the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:87
+#: kerfuffle/propertiesdialog.cpp:88
 msgid "yes (including the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:104 kerfuffle/propertiesdialog.cpp:105
-#: kerfuffle/propertiesdialog.cpp:106
+#: kerfuffle/propertiesdialog.cpp:105 kerfuffle/propertiesdialog.cpp:106
+#: kerfuffle/propertiesdialog.cpp:107
 #, fuzzy
 #| msgid "Saving..."
 msgid "Calculating..."
@@ -984,6 +984,13 @@ msgstr ""
 #: kerfuffle/propertiesdialog.ui:245
 msgid "Multi-volume:"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: kerfuffle/propertiesdialog.ui:259
+#, fuzzy
+#| msgid "Simple Compressed Archive"
+msgid "Compression method(s):"
+msgstr "簡單壓縮檔"
 
 #: kerfuffle/queries.cpp:96
 #, fuzzy
@@ -1727,30 +1734,44 @@ msgid ""
 "another location."
 msgstr "上次用作解壓縮的資料夾"
 
+#: plugins/clirarplugin/cliplugin.cpp:319
+#, kde-format
+msgid ""
+"Your unrar executable is version %1, which is too old to handle this "
+"archive. Please update to a more recent version."
+msgstr ""
+
+#: plugins/clirarplugin/cliplugin.cpp:326
+#, kde-format
+msgid ""
+"Unrar reported a non-RAR archive. The installed unrar version (%1) is old. "
+"Try updating your unrar."
+msgstr ""
+
 #: plugins/cliunarchiverplugin/cliplugin.cpp:206
 msgid "Wrong password."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:240
+#: plugins/libarchive/libarchiveplugin.cpp:244
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:368
+#: plugins/libarchive/libarchiveplugin.cpp:372
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "資料夾解壓至"
 
-#: plugins/libarchive/libarchiveplugin.cpp:407
+#: plugins/libarchive/libarchiveplugin.cpp:411
 #, fuzzy
 #| msgid "The archive %1 does not exist."
 msgid "The archive reader could not be initialized."
 msgstr "壓縮檔 %1 不存在。"
 
-#: plugins/libarchive/libarchiveplugin.cpp:420
+#: plugins/libarchive/libarchiveplugin.cpp:424
 #, fuzzy, kde-format
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
