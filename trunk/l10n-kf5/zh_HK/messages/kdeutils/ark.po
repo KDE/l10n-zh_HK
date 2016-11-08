@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-06 07:20+0000\n"
+"POT-Creation-Date: 2016-11-08 07:38+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -401,24 +401,24 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:289
+#: kerfuffle/cliinterface.cpp:282
 #, fuzzy, kde-format
 #| msgid "Folder to extract to"
 msgctxt "@info"
 msgid "Failed to locate program <filename>%2</filename> on disk."
 msgstr "資料夾解壓至"
 
-#: kerfuffle/cliinterface.cpp:403
+#: kerfuffle/cliinterface.cpp:396
 msgid "Extraction failed. Make sure that enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:406
+#: kerfuffle/cliinterface.cpp:399
 msgid ""
 "Extraction failed. Make sure you provided the correct password and that "
 "enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:417 kerfuffle/cliinterface.cpp:432
+#: kerfuffle/cliinterface.cpp:410 kerfuffle/cliinterface.cpp:425
 #, fuzzy
 #| msgid "Could not create the folder %1"
 msgctxt "@info"
@@ -426,26 +426,26 @@ msgid "Could not move the extracted file to the destination directory."
 msgid_plural "Could not move the extracted files to the destination directory."
 msgstr[0] "無法建立資料夾 %1"
 
-#: kerfuffle/cliinterface.cpp:888
+#: kerfuffle/cliinterface.cpp:881
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:895
+#: kerfuffle/cliinterface.cpp:888
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:901 kerfuffle/cliinterface.cpp:939
+#: kerfuffle/cliinterface.cpp:894 kerfuffle/cliinterface.cpp:932
 #: plugins/cliunarchiverplugin/cliplugin.cpp:134
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:933
+#: kerfuffle/cliinterface.cpp:926
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:962
+#: kerfuffle/cliinterface.cpp:955
 msgid "Ark does not currently support testing this archive."
 msgstr ""
 
@@ -1047,67 +1047,67 @@ msgctxt "@action:button"
 msgid "Don't Open"
 msgstr ""
 
-#: kerfuffle/queries.cpp:241
+#: kerfuffle/queries.cpp:230
+msgid "Don't ask again."
+msgstr ""
+
+#: kerfuffle/queries.cpp:242
 #, fuzzy
 #| msgid "Open destination folder after extraction"
 msgid "Error during extraction"
 msgstr "解壓後開啟目的地資料夾"
 
-#: kerfuffle/queries.cpp:242
+#: kerfuffle/queries.cpp:243
 #, kde-format
 msgid ""
 "Extraction of the entry:<nl/>    <filename>%1</filename><nl/>failed with the "
 "error message:<nl/>    %2<nl/><nl/>Do you want to continue extraction?<nl/>"
 msgstr ""
 
-#: kerfuffle/queries.cpp:248
-msgid "Don't ask again."
-msgstr ""
-
-#: part/archivemodel.cpp:195
+#: part/archivemodel.cpp:196
 msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
-#: part/archivemodel.cpp:197
+#: part/archivemodel.cpp:198
 #, fuzzy
 #| msgid " Size "
 msgctxt "Uncompressed size of a file inside an archive"
 msgid "Size"
 msgstr " 大小 "
 
-#: part/archivemodel.cpp:199
+#: part/archivemodel.cpp:200
 #, fuzzy
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
 msgid "Compressed"
 msgstr "已壓縮檔案"
 
-#: part/archivemodel.cpp:201
+#: part/archivemodel.cpp:202
 msgctxt "Compression rate of file"
 msgid "Rate"
 msgstr ""
 
-#: part/archivemodel.cpp:203
+#: part/archivemodel.cpp:204
 #, fuzzy
 #| msgid " Owner "
 msgctxt "File's owner username"
 msgid "Owner"
 msgstr " 擁有者 "
 
-#: part/archivemodel.cpp:205
+#: part/archivemodel.cpp:206
 #, fuzzy
 #| msgid " Group "
 msgctxt "File's group"
 msgid "Group"
 msgstr " 群組 "
 
-#: part/archivemodel.cpp:207
+#: part/archivemodel.cpp:208
 msgctxt "File permissions"
 msgid "Mode"
 msgstr ""
 
-#: part/archivemodel.cpp:209
+#: part/archivemodel.cpp:210
 #, fuzzy
 #| msgctxt "acronym for Cyclic Redundancy Check"
 #| msgid " CRC "
@@ -1115,31 +1115,31 @@ msgctxt "CRC hash code"
 msgid "CRC"
 msgstr " CRC "
 
-#: part/archivemodel.cpp:211
+#: part/archivemodel.cpp:212
 #, fuzzy
 #| msgid " Method "
 msgctxt "Compression method"
 msgid "Method"
 msgstr " 壓縮法 "
 
-#: part/archivemodel.cpp:214
+#: part/archivemodel.cpp:215
 #, fuzzy
 #| msgid " Version "
 msgctxt "File version"
 msgid "Version"
 msgstr " 版本 "
 
-#: part/archivemodel.cpp:216
+#: part/archivemodel.cpp:217
 msgctxt "Timestamp"
 msgid "Date"
 msgstr ""
 
-#: part/archivemodel.cpp:218
+#: part/archivemodel.cpp:219
 msgctxt "Unnamed column"
 msgid "??"
 msgstr ""
 
-#: part/archivemodel.cpp:425
+#: part/archivemodel.cpp:426
 #, fuzzy
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Adding files is not supported for this archive."
@@ -1200,46 +1200,46 @@ msgstr ""
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/infopanel.cpp:65
+#: part/infopanel.cpp:66
 msgid "No archive loaded"
 msgstr ""
 
-#: part/infopanel.cpp:113
+#: part/infopanel.cpp:114
 msgid "Symbolic Link"
 msgstr ""
 
-#: part/infopanel.cpp:118
+#: part/infopanel.cpp:119
 msgid "Unknown size"
 msgstr ""
 
-#: part/infopanel.cpp:139
+#: part/infopanel.cpp:140
 #, fuzzy, kde-format
 #| msgid "0 files selected"
 msgid "One file selected"
 msgid_plural "%1 files selected"
 msgstr[0] "已選取 0 個檔案"
 
-#: part/infopanel.cpp:177
+#: part/infopanel.cpp:178
 #, kde-format
 msgid "<b>Type:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:181
+#: part/infopanel.cpp:182
 #, kde-format
 msgid "<b>Owner:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:188
+#: part/infopanel.cpp:189
 #, kde-format
 msgid "<b>Group:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:195
+#: part/infopanel.cpp:196
 #, kde-format
 msgid "<b>Target:</b> %1"
 msgstr ""
 
-#: part/infopanel.cpp:202
+#: part/infopanel.cpp:203
 msgid "<b>Password protected:</b> Yes"
 msgstr ""
 
@@ -1834,7 +1834,7 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:486
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:491
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1842,7 +1842,7 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:528
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:533
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
