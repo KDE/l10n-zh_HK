@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:15+0100\n"
+"POT-Creation-Date: 2016-11-28 02:52+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -897,17 +897,12 @@ msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
 msgstr[0] "%1 位元組 (約為 %2%)"
 
-#: document/kpDocument_Open.cpp:107
+#: document/kpDocument_Open.cpp:105
 #, kde-format
 msgid "Could not open \"%1\"."
 msgstr "無法開啟「%1」。"
 
-#: document/kpDocument_Open.cpp:146
-#, kde-format
-msgid "Could not open \"%1\" - unknown mimetype."
-msgstr "無法開啟「%1」 - 未知的 mime 類型。"
-
-#: document/kpDocument_Open.cpp:175
+#: document/kpDocument_Open.cpp:135
 #, kde-format
 msgid ""
 "Could not open \"%1\" - unsupported image format.\n"
@@ -942,7 +937,7 @@ msgctxt "@title:window"
 msgid "Internal Error"
 msgstr "內部錯誤"
 
-#: document/kpDocument_Save.cpp:127
+#: document/kpDocument_Save.cpp:129
 #, kde-format
 msgid ""
 "<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
@@ -952,14 +947,14 @@ msgstr ""
 "<qt><p><b>%1</b>格式可能無法保存圖像所有的顏色資訊。</p><p>你確定要以這種格式"
 "儲存嗎？</p></qt>"
 
-#: document/kpDocument_Save.cpp:134
+#: document/kpDocument_Save.cpp:136
 #, fuzzy, kde-format
 #| msgid "Lossy File Format"
 msgctxt "@title:window"
 msgid "Lossy File Format"
 msgstr "有損性檔案格式"
 
-#: document/kpDocument_Save.cpp:143
+#: document/kpDocument_Save.cpp:145
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>Saving the image at the low color depth of %1-bit may result in "
@@ -973,24 +968,24 @@ msgstr ""
 "<qt><p>以 %1 位元的低色彩深度儲存圖像會令顏色資訊喪失。透明資料亦會被移除。</"
 "p><p>你確定要以這個色彩深度儲存嗎？</p></qt>"
 
-#: document/kpDocument_Save.cpp:153
+#: document/kpDocument_Save.cpp:155
 #, fuzzy, kde-format
 #| msgid "Low Color Depth"
 msgctxt "@title:window"
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
-#: document/kpDocument_Save.cpp:291
+#: document/kpDocument_Save.cpp:293
 #, kde-format
 msgid "Could not save image - unable to create temporary file."
 msgstr "無法儲存圖像 - 無法建立暫存檔。"
 
-#: document/kpDocument_Save.cpp:300
+#: document/kpDocument_Save.cpp:302
 #, kde-format
 msgid "Could not save as \"%1\"."
 msgstr "無法儲存為「%1」。"
 
-#: document/kpDocument_Save.cpp:332
+#: document/kpDocument_Save.cpp:334
 #, kde-format
 msgid ""
 "A document called \"%1\" already exists.\n"
@@ -999,12 +994,12 @@ msgstr ""
 "已有稱為「%1」的文件。\n"
 "要覆寫它嗎？"
 
-#: document/kpDocument_Save.cpp:336 lgpl/generic/kpColorCollection.cpp:299
+#: document/kpDocument_Save.cpp:338 lgpl/generic/kpColorCollection.cpp:299
 #, kde-format
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: document/kpDocument_Save.cpp:469
+#: document/kpDocument_Save.cpp:471
 #, kde-format
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
@@ -2745,6 +2740,9 @@ msgstr "以前景顏色填滿"
 #, kde-format
 msgid "Opaque"
 msgstr "不透明"
+
+#~ msgid "Could not open \"%1\" - unknown mimetype."
+#~ msgstr "無法開啟「%1」 - 未知的 mime 類型。"
 
 #~ msgid "Save Preview"
 #~ msgstr "儲存預覽"
