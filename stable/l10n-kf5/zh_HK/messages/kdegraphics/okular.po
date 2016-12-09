@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 22:48+0100\n"
+"POT-Creation-Date: 2016-12-09 04:31+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -369,20 +369,20 @@ msgid "Right to left reading direction"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: conf/dlggeneralbase.ui:319
+#: conf/dlggeneralbase.ui:316
 #, fuzzy, kde-format
 #| msgid "Filter Options"
 msgid "View Options"
 msgstr "過濾器選項"
 
 #. i18n: ectx: property (text), widget (QLabel, columnLabel)
-#: conf/dlggeneralbase.ui:325
+#: conf/dlggeneralbase.ui:322
 #, kde-format
 msgid "Overview &columns:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, scrollOverlapLabel)
-#: conf/dlggeneralbase.ui:348
+#: conf/dlggeneralbase.ui:345
 #, kde-format
 msgid ""
 "Defines how much of the current viewing area will still be visible when "
@@ -390,20 +390,20 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scrollOverlapLabel)
-#: conf/dlggeneralbase.ui:351
+#: conf/dlggeneralbase.ui:348
 #, kde-format
 msgid "&Page Up/Down overlap:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ScrollOverlap)
-#: conf/dlggeneralbase.ui:364
+#: conf/dlggeneralbase.ui:361
 #, no-c-format, kde-format
 msgid "%"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:378 conf/dlggeneralbase.ui:399
+#: conf/dlggeneralbase.ui:375 conf/dlggeneralbase.ui:396
 #, kde-format
 msgid ""
 "Defines the default zoom mode for files which were never opened before.\n"
@@ -412,7 +412,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:382 conf/dlggeneralbase.ui:403
+#: conf/dlggeneralbase.ui:379 conf/dlggeneralbase.ui:400
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -421,31 +421,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: conf/dlggeneralbase.ui:385
+#: conf/dlggeneralbase.ui:382
 #, kde-format
 msgid "&Default Zoom:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:407
+#: conf/dlggeneralbase.ui:404
 #, no-c-format, kde-format
 msgid "100%"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:412 part.cpp:2528 ui/pageview.cpp:3971
+#: conf/dlggeneralbase.ui:409 part.cpp:2528 ui/pageview.cpp:3971
 #, kde-format
 msgid "Fit Width"
 msgstr "符合闊度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:417 ui/pageview.cpp:3971
+#: conf/dlggeneralbase.ui:414 ui/pageview.cpp:3971
 #, kde-format
 msgid "Fit Page"
 msgstr "符合頁面"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:422 ui/pageview.cpp:3971
+#: conf/dlggeneralbase.ui:419 ui/pageview.cpp:3971
 #, kde-format
 msgid "Auto Fit"
 msgstr ""
@@ -1154,165 +1154,165 @@ msgid ""
 "Archive"
 msgstr ""
 
-#: core/document.cpp:2317
+#: core/document.cpp:2319
 #, kde-format
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:3270
+#: core/document.cpp:3307
 #, fuzzy, kde-format
 #| msgid "Presentation"
 msgctxt "remove a collection of annotations from the page"
 msgid "remove annotations"
 msgstr "表現"
 
-#: core/document.cpp:3843 core/document.cpp:3851
+#: core/document.cpp:3880 core/document.cpp:3888
 #, kde-format
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:3864
+#: core/document.cpp:3901
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:4108
+#: core/document.cpp:4145
 #, fuzzy, kde-format
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:4110
+#: core/document.cpp:4147
 #, kde-format
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:4112
+#: core/document.cpp:4149
 #, kde-format
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:4114
+#: core/document.cpp:4151
 #, kde-format
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:4116
+#: core/document.cpp:4153
 #, kde-format
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:4118
+#: core/document.cpp:4155
 #, kde-format
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:4120
+#: core/document.cpp:4157
 #, kde-format
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:4122
+#: core/document.cpp:4159
 #, kde-format
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:4124
+#: core/document.cpp:4161
 #, kde-format
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4126
+#: core/document.cpp:4163
 #, kde-format
 msgid "The page print size is invalid"
 msgstr ""
 
-#: core/document.cpp:5014
+#: core/document.cpp:5051
 #, kde-format
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:5017
+#: core/document.cpp:5054
 #, kde-format
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:5020
+#: core/document.cpp:5057
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:5023
+#: core/document.cpp:5060
 #, fuzzy, kde-format
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:5026
+#: core/document.cpp:5063
 #, fuzzy, kde-format
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:5029
+#: core/document.cpp:5066
 #, kde-format
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:5032
+#: core/document.cpp:5069
 #, kde-format
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:5035
+#: core/document.cpp:5072
 #, fuzzy, kde-format
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:5038
+#: core/document.cpp:5075
 #, kde-format
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:5041
+#: core/document.cpp:5078
 #, kde-format
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:5044
+#: core/document.cpp:5081
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:5047
+#: core/document.cpp:5084
 #, kde-format
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:5050
+#: core/document.cpp:5087
 #, kde-format
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:5053
+#: core/document.cpp:5090
 #, fuzzy, kde-format
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:5056
+#: core/document.cpp:5093
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:5059
+#: core/document.cpp:5096
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "Page Size"
