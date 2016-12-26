@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-17 03:46+0100\n"
+"POT-Creation-Date: 2016-12-26 03:47+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1431,16 +1431,16 @@ msgstr "刪除所選賬戶"
 msgid "Enter the password"
 msgstr ""
 
-#: src/conf/account/dlgaccount.cpp:183
-#, fuzzy, kde-format
-#| msgid "Add a new account"
-msgid "New account"
-msgstr "增加新帳戶"
-
-#: src/conf/account/dlgaccount.cpp:183
+#: src/conf/account/dlgaccount.cpp:184
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account%1"
+msgstr "增加新帳戶"
+
+#: src/conf/account/dlgaccount.cpp:185
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "New account"
 msgstr "增加新帳戶"
 
 #: src/conf/account/model/extendedprotocolmodel.cpp:50
@@ -2985,7 +2985,7 @@ msgid "Create your account"
 msgstr "當前帳戶"
 
 #. i18n: ectx: property (text), widget (QLabel, searchingStateLabel)
-#: src/widgets/ui/accountcreator.ui:167 src/widgets/wizard.cpp:155
+#: src/widgets/ui/accountcreator.ui:167 src/widgets/wizard.cpp:158
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Searching..."
@@ -3103,26 +3103,26 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pCopy)
-#: src/widgets/ui/share.ui:72
+#: src/widgets/ui/share.ui:73
 #, kde-format
 msgid "Copy"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pPrint)
-#: src/widgets/ui/share.ui:82
+#: src/widgets/ui/share.ui:84
 #, kde-format
 msgid "Print"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pConf)
-#: src/widgets/ui/share.ui:108
+#: src/widgets/ui/share.ui:111
 #, fuzzy, kde-format
 #| msgid "Configured Accounts"
 msgid "Configure other accounts"
 msgstr "已配置帳戶"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pOk)
-#: src/widgets/ui/share.ui:134
+#: src/widgets/ui/share.ui:138
 #, kde-format
 msgid "Start using Ring-KDE"
 msgstr ""
@@ -3202,27 +3202,32 @@ msgstr ""
 msgid "Full screen video"
 msgstr ""
 
-#: src/widgets/wizard.cpp:240
+#: src/widgets/wizard.cpp:243
 #, kde-format
 msgid "Username is available"
 msgstr ""
 
-#: src/widgets/wizard.cpp:244
+#: src/widgets/wizard.cpp:247
 #, kde-format
 msgid "Username not available"
 msgstr ""
 
-#: src/widgets/wizard.cpp:246
+#: src/widgets/wizard.cpp:249
 #, fuzzy, kde-format
 #| msgid "Stun server invalid"
 msgid "Username is invalid"
 msgstr "Stun伺服器無效"
 
-#: src/widgets/wizard.cpp:248
+#: src/widgets/wizard.cpp:251
 #, fuzzy, kde-format
 #| msgid "Network unreachable"
 msgid "Network error"
 msgstr "網路連線失敗"
+
+#: src/widgets/wizard.cpp:399
+#, kde-format
+msgid "Your account has been created, but we could not register your username."
+msgstr ""
 
 #, fuzzy
 #~| msgid "Default account"
