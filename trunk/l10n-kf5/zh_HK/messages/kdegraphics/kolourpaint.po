@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-05 02:48+0100\n"
+"POT-Creation-Date: 2017-01-27 03:56+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -561,6 +561,7 @@ msgid "R&esize Text Box"
 msgstr "更改文字盒大小(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:723
+#: mainWindow/kpMainWindow_Tools.cpp:640
 #, kde-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
@@ -744,11 +745,17 @@ msgid "degrees"
 msgstr "度"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:267
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
+#| "memory. This can reduce system responsiveness and cause other application "
+#| "resource problems.</p><p>Are you sure want to rotate the selection?</p></"
+#| "qt>"
 msgid ""
 "<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure want to rotate the selection?</p></qt>"
+"resource problems.</p><p>Are you sure you want to rotate the selection?</p></"
+"qt>"
 msgstr ""
 "<qt><p>旋轉選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
 "用程式產生資源問題。</p><p>確定要旋轉選取區域嗎？</p></qt>"
@@ -766,11 +773,15 @@ msgid "Rotat&e Selection"
 msgstr "旋轉選取區域(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:282
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>Rotating the image to %1x%2 may take a substantial amount of "
+#| "memory. This can reduce system responsiveness and cause other application "
+#| "resource problems.</p><p>Are you sure want to rotate the image?</p></qt>"
 msgid ""
 "<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to rotate the image?</p></qt>"
+"problems.</p><p>Are you sure you want to rotate the image?</p></qt>"
 msgstr ""
 "<qt><p>旋轉圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
 "式產生資源問題。</p><p>確定要旋轉圖像嗎？</p></qt>"
@@ -818,11 +829,16 @@ msgid "&Vertical:"
 msgstr "垂直(&V):"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:250
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
+#| "memory. This can reduce system responsiveness and cause other application "
+#| "resource problems.</p><p>Are you sure want to skew the selection?</p></qt>"
 msgid ""
 "<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure want to skew the selection?</p></qt>"
+"resource problems.</p><p>Are you sure you want to skew the selection?</p></"
+"qt>"
 msgstr ""
 "<qt><p>扭曲選取區域至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應"
 "用程式產生資源問題。</p><p>確定要扭曲選取區域嗎？</p></qt>"
@@ -840,11 +856,15 @@ msgid "Sk&ew Selection"
 msgstr "扭曲選取區域(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:265
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>Skewing the image to %1x%2 may take a substantial amount of "
+#| "memory. This can reduce system responsiveness and cause other application "
+#| "resource problems.</p><p>Are you sure want to skew the image?</p></qt>"
 msgid ""
 "<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to skew the image?</p></qt>"
+"problems.</p><p>Are you sure you want to skew the image?</p></qt>"
 msgstr ""
 "<qt><p>扭曲圖像至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他應用程"
 "式產生資源問題。</p><p>確定要扭曲圖像嗎？</p></qt>"
@@ -1863,16 +1883,6 @@ msgstr "顏色相似性"
 msgid "Tool Box"
 msgstr "工具盒"
 
-#: mainWindow/kpMainWindow_Tools.cpp:640
-#, kde-format
-msgid ""
-"<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
-"This can reduce system responsiveness and cause other application resource "
-"problems.</p><p>Are you sure want to resize the image?</p></qt>"
-msgstr ""
-"<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其他"
-"應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
-
 #: mainWindow/kpMainWindow_View.cpp:72
 #, kde-format
 msgid "Show &Grid"
@@ -2735,6 +2745,14 @@ msgstr "以前景顏色填滿"
 #, kde-format
 msgid "Opaque"
 msgstr "不透明"
+
+#~ msgid ""
+#~ "<qt><p>Resizing the image to %1x%2 may take a substantial amount of "
+#~ "memory. This can reduce system responsiveness and cause other application "
+#~ "resource problems.</p><p>Are you sure want to resize the image?</p></qt>"
+#~ msgstr ""
+#~ "<qt><p>將圖像大小更改至 %1x%2 會使用大量記憶體。這可能令系統反應緩慢及令其"
+#~ "他應用程式產生資源問題。</p><p>確定要更改圖像大小嗎？</p></qt>"
 
 #~ msgid "Overwrite"
 #~ msgstr "覆寫"
