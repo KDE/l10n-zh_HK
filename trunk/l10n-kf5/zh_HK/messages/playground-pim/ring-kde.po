@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-29 12:56+0100\n"
+"POT-Creation-Date: 2017-03-22 02:53+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -38,8 +38,8 @@ msgstr "桌面提示"
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCa)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCert)
 #. i18n: ectx: Menu (View)
-#: data/ring-kdeui.rc:20 src/conf/account/accountpages/security.ui:424
-#: src/conf/account/accountpages/security.ui:438
+#: data/ring-kdeui.rc:20 src/conf/account/accountpages/security.ui:398
+#: src/conf/account/accountpages/security.ui:412
 #, fuzzy, kde-format
 #| msgid "_View"
 msgid "View"
@@ -495,7 +495,7 @@ msgstr "已註冊"
 #. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_registrationExpire)
 #. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_tlsNegotiationTimeoutSec)
 #: src/conf/account/accountpages/advanced.ui:35
-#: src/conf/account/accountpages/security.ui:478
+#: src/conf/account/accountpages/security.ui:452
 #, kde-format
 msgid " seconds"
 msgstr ""
@@ -623,38 +623,57 @@ msgid "Over SIP"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label1_alias)
-#: src/conf/account/accountpages/basic.ui:17
+#: src/conf/account/accountpages/basic.ui:19
 #, fuzzy, kde-format
 #| msgid "Alias"
 msgid "Alias*"
 msgstr "別稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_alias)
-#: src/conf/account/accountpages/basic.ui:39
+#: src/conf/account/accountpages/basic.ui:41
 #, kde-format
 msgid "Anything, used only to select the account"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label2_protocol)
-#: src/conf/account/accountpages/basic.ui:46
+#: src/conf/account/accountpages/basic.ui:48
 #, kde-format
 msgid "Protocol"
 msgstr "協議"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/account/accountpages/basic.ui:59
+#: src/conf/account/accountpages/basic.ui:78
 #, fuzzy, kde-format
-msgid "Display Name*"
+msgid "&Display Name*"
 msgstr "顯示"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_displayName)
-#: src/conf/account/accountpages/basic.ui:66
+#: src/conf/account/accountpages/basic.ui:88
 #, kde-format
 msgid "The name as seen by the peer"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lrcfg_registeredNameBuddy2)
+#: src/conf/account/accountpages/basic.ui:95
+#, fuzzy, kde-format
+#| msgid "Registered"
+msgid "Re&gistered Name*"
+msgstr "已註冊"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_registeredName)
+#: src/conf/account/accountpages/basic.ui:107
+#, kde-format
+msgid "The name seen by your peers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lrcfg_registeredNameBuddy)
+#: src/conf/account/accountpages/basic.ui:114
+#, kde-format
+msgid "A"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label3_server)
-#: src/conf/account/accountpages/basic.ui:73
+#: src/conf/account/accountpages/basic.ui:123
 #, fuzzy, kde-format
 #| msgid "Server"
 msgctxt "SIP server"
@@ -662,29 +681,29 @@ msgid "Server*"
 msgstr "伺服器"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_hostname)
-#: src/conf/account/accountpages/basic.ui:89
+#: src/conf/account/accountpages/basic.ui:139
 #, kde-format
-msgid "Example: sip.sflphone.org or 192.168.0.2"
+msgid "Example: sip.sring.cx or 192.168.0.2"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label4_user)
-#: src/conf/account/accountpages/basic.ui:99
+#: src/conf/account/accountpages/basic.ui:149
 #, fuzzy, kde-format
 #| msgid "Username"
 msgctxt "Account username"
-msgid "Username*"
+msgid "&Username*"
 msgstr "使用者名稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_auth_2)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_username)
-#: src/conf/account/accountpages/basic.ui:109
+#: src/conf/account/accountpages/basic.ui:159
 #: src/conf/account/accountpages/credentials.ui:149
 #, kde-format
 msgid "Usually your extension number"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label5_password)
-#: src/conf/account/accountpages/basic.ui:116
+#: src/conf/account/accountpages/basic.ui:166
 #, fuzzy, kde-format
 #| msgid "Password"
 msgctxt "Account password"
@@ -693,14 +712,14 @@ msgstr "密碼"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_password_2)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_password)
-#: src/conf/account/accountpages/basic.ui:129
+#: src/conf/account/accountpages/basic.ui:179
 #: src/conf/account/accountpages/credentials.ui:165
 #, kde-format
 msgid "SIP password, ask your network administrator"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
-#: src/conf/account/accountpages/basic.ui:136
+#: src/conf/account/accountpages/basic.ui:186
 #, fuzzy, kde-format
 #| msgid "Voicemail"
 msgctxt "Account voice mail address"
@@ -708,33 +727,33 @@ msgid "Voicemail"
 msgstr "語音郵件"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_mailbox)
-#: src/conf/account/accountpages/basic.ui:146
+#: src/conf/account/accountpages/basic.ui:196
 #, kde-format
 msgid "Usually the same as the username"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasCustomBootstrap)
-#: src/conf/account/accountpages/basic.ui:153
+#: src/conf/account/accountpages/basic.ui:205
 #, fuzzy, kde-format
 #| msgid "_User name"
 msgid "Use custom bootstrap nodes"
 msgstr "使用者名稱(U)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_autoAnswer)
-#: src/conf/account/accountpages/basic.ui:167
+#: src/conf/account/accountpages/basic.ui:219
 #: src/conf/account/accountpages/dlgdht.ui:166
 #, kde-format
 msgid "Auto answer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label7_state)
-#: src/conf/account/accountpages/basic.ui:174
+#: src/conf/account/accountpages/basic.ui:226
 #, kde-format
 msgid "Status"
 msgstr "狀態"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_pDisplayLog)
-#: src/conf/account/accountpages/basic.ui:202
+#: src/conf/account/accountpages/basic.ui:254
 #, fuzzy, kde-format
 #| msgid "Display photo if available"
 msgid "Availability log"
@@ -1210,53 +1229,29 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, lrcfg_srtpEnabled)
 #: src/conf/account/accountpages/security.ui:74
 #, kde-format
-msgid "Encrypt media streams (SRTP)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_zrtpHelloHash)
-#: src/conf/account/accountpages/security.ui:96
-#, kde-format
-msgid "Send Hello Hash in SDP"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_zrtpDisplaySas)
-#: src/conf/account/accountpages/security.ui:106
-#, kde-format
-msgid "Ask user to confirm SAS"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_zrtpNotSuppWarning)
-#: src/conf/account/accountpages/security.ui:116
-#, kde-format
-msgid "Warn if ZRTP is not supported"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_displaySasOnce)
-#: src/conf/account/accountpages/security.ui:126
-#, kde-format
-msgid "Display SAS once for hold events"
+msgid "Encr&ypt media streams (SRTP)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_srtpRtpFallback)
-#: src/conf/account/accountpages/security.ui:133
+#: src/conf/account/accountpages/security.ui:93
 #, kde-format
 msgid "Fallback on RTP on SDES failure"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, lrcfg_tlsEnabled)
-#: src/conf/account/accountpages/security.ui:149
+#: src/conf/account/accountpages/security.ui:109
 #, kde-format
-msgid "Encrypt negotiation (TLS)"
+msgid "Encrypt negotiation (&TLS)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
-#: src/conf/account/accountpages/security.ui:164
+#: src/conf/account/accountpages/security.ui:124
 #, kde-format
 msgid "Authority certificate list"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
-#: src/conf/account/accountpages/security.ui:216
+#: src/conf/account/accountpages/security.ui:185
 #, kde-format
 msgid ""
 "Your certificates access are too permissive. Certificates should only be "
@@ -1264,21 +1259,21 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
-#: src/conf/account/accountpages/security.ui:230
+#: src/conf/account/accountpages/security.ui:199
 #, kde-format
 msgid "Fix the permissions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
 #. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
-#: src/conf/account/accountpages/security.ui:242
-#: src/conf/account/accountpages/security.ui:330
+#: src/conf/account/accountpages/security.ui:210
+#: src/conf/account/accountpages/security.ui:305
 #, kde-format
 msgid "No thanks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
-#: src/conf/account/accountpages/security.ui:304
+#: src/conf/account/accountpages/security.ui:280
 #, kde-format
 msgid ""
 "A good security practice is to move the certificates to a common directory. "
@@ -1287,111 +1282,111 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
-#: src/conf/account/accountpages/security.ui:318
+#: src/conf/account/accountpages/security.ui:294
 #, kde-format
 msgid "Move to ~/.cert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
-#: src/conf/account/accountpages/security.ui:350
+#: src/conf/account/accountpages/security.ui:324
 #, kde-format
 msgid "Negotiation timeout"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
-#: src/conf/account/accountpages/security.ui:357
+#: src/conf/account/accountpages/security.ui:331
 #, kde-format
 msgid "Verify incoming certificates (server side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
-#: src/conf/account/accountpages/security.ui:364
+#: src/conf/account/accountpages/security.ui:338
 #, kde-format
 msgid "Public endpoint certificate"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsPassword)
-#: src/conf/account/accountpages/security.ui:400
+#: src/conf/account/accountpages/security.ui:374
 #, kde-format
 msgid "Only necessary if the key have a password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
-#: src/conf/account/accountpages/security.ui:407
+#: src/conf/account/accountpages/security.ui:381
 #, kde-format
 msgid "Private key"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsServerName)
-#: src/conf/account/accountpages/security.ui:414
+#: src/conf/account/accountpages/security.ui:388
 #, kde-format
 msgid "Usually the SIP server hostname"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCa)
-#: src/conf/account/accountpages/security.ui:421
+#: src/conf/account/accountpages/security.ui:395
 #, kde-format
 msgid "View the certificate authority"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCert)
-#: src/conf/account/accountpages/security.ui:435
+#: src/conf/account/accountpages/security.ui:409
 #, kde-format
 msgid "View the certificate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
-#: src/conf/account/accountpages/security.ui:449
+#: src/conf/account/accountpages/security.ui:423
 #, kde-format
 msgid "Private key password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsRequireClientCertificate)
-#: src/conf/account/accountpages/security.ui:459
+#: src/conf/account/accountpages/security.ui:433
 #, kde-format
 msgid "Require a certificate for incoming TLS connections"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
-#: src/conf/account/accountpages/security.ui:491
+#: src/conf/account/accountpages/security.ui:465
 #, kde-format
 msgid "Outgoing TLS server name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyClient)
-#: src/conf/account/accountpages/security.ui:498
+#: src/conf/account/accountpages/security.ui:472
 #, kde-format
 msgid "Verify answer certificates (client side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_method)
-#: src/conf/account/accountpages/security.ui:527
+#: src/conf/account/accountpages/security.ui:501
 #, fuzzy, kde-format
 #| msgid "_SIP protocol"
 msgid "TLS protocol method"
 msgstr "SIP 協議(S)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultCiphers)
-#: src/conf/account/accountpages/security.ui:534
+#: src/conf/account/accountpages/security.ui:508
 #, kde-format
 msgid "Use default ciphers"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/account/accountpages/security.ui:548
+#: src/conf/account/accountpages/security.ui:522
 #, kde-format
 msgid "Allowed certificates"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/conf/account/accountpages/security.ui:558
+#: src/conf/account/accountpages/security.ui:532
 #, fuzzy, kde-format
 #| msgid "Bad authentification"
 msgid "Banned certificates"
 msgstr "認證錯誤"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/account/accountpages/security.ui:568
+#: src/conf/account/accountpages/security.ui:542
 #, kde-format
 msgid "Known certificates"
 msgstr ""
@@ -2250,63 +2245,63 @@ msgstr "回叫"
 msgid "%1 is not unregistered"
 msgstr "未註冊"
 
-#: src/implementation.cpp:134
+#: src/implementation.cpp:135
 #, kde-format
 msgid "Online"
 msgstr ""
 
-#: src/implementation.cpp:135
+#: src/implementation.cpp:136
 #, kde-format
 msgid "I am available"
 msgstr ""
 
-#: src/implementation.cpp:140
+#: src/implementation.cpp:141
 #, kde-format
 msgid "Away"
 msgstr ""
 
-#: src/implementation.cpp:141
+#: src/implementation.cpp:142
 #, kde-format
 msgid "I am away"
 msgstr ""
 
-#: src/implementation.cpp:145
+#: src/implementation.cpp:146
 #, kde-format
 msgid "Busy"
 msgstr ""
 
-#: src/implementation.cpp:146
+#: src/implementation.cpp:147
 #, kde-format
 msgid "I am busy"
 msgstr ""
 
-#: src/implementation.cpp:150
+#: src/implementation.cpp:151
 #, kde-format
 msgid "DND"
 msgstr ""
 
-#: src/implementation.cpp:151
+#: src/implementation.cpp:152
 #, kde-format
 msgid "Please do not disturb me"
 msgstr ""
 
-#: src/implementation.cpp:250
+#: src/implementation.cpp:251
 #, kde-format
 msgid "Are you sure you want to permanently delete %1?"
 msgstr ""
 
-#: src/implementation.cpp:251
+#: src/implementation.cpp:252
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete contact"
 msgstr "編輯電話"
 
-#: src/implementation.cpp:261
+#: src/implementation.cpp:262
 #, kde-format
 msgid "Are you sure you wish to remove this call?"
 msgstr ""
 
-#: src/implementation.cpp:261
+#: src/implementation.cpp:262
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete call"
@@ -3651,9 +3646,6 @@ msgstr ""
 
 #~ msgid "Phone number rewriting"
 #~ msgstr "重設電話號碼"
-
-#~ msgid "Registered"
-#~ msgstr "已註冊"
 
 #~ msgid "Trying..."
 #~ msgstr "正在連接..."
