@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-02 03:54+0100\n"
+"POT-Creation-Date: 2017-04-19 02:47+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -157,7 +157,7 @@ msgid_plural "Loading %1 previews"
 msgstr[0] "預覽列印(&W)..."
 
 #: core/engine.cpp:586 ui/itemsgridviewdelegate.cpp:335
-#: ui/itemsviewdelegate.cpp:131
+#: ui/itemsviewdelegate.cpp:132
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installing"
@@ -420,14 +420,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #: downloadwidget.ui:566 ui/itemsgridviewdelegate.cpp:330
-#: ui/itemsviewdelegate.cpp:126 uploaddialog.ui:171
+#: ui/itemsviewdelegate.cpp:127 uploaddialog.ui:171
 #, kde-format
 msgid "Update"
 msgstr "更新"
 
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
 #: downloadwidget.ui:576 ui/itemsgridviewdelegate.cpp:326
-#: ui/itemsviewdelegate.cpp:122
+#: ui/itemsviewdelegate.cpp:123
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Uninstall"
@@ -442,8 +442,8 @@ msgstr "家用傳真"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
 #: downloadwidget.ui:590 ui/itemsgridviewdelegate.cpp:345
-#: ui/itemsgridviewdelegate.cpp:355 ui/itemsviewdelegate.cpp:141
-#: ui/itemsviewdelegate.cpp:151
+#: ui/itemsgridviewdelegate.cpp:355 ui/itemsviewdelegate.cpp:142
+#: ui/itemsviewdelegate.cpp:152
 #, kde-format
 msgid "Install"
 msgstr "安裝"
@@ -635,63 +635,70 @@ msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
 msgstr "在新視窗開啟(&W)"
 
-#: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:272
+#: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:279
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating: %1%"
 msgstr "評分"
 
 #: ui/itemsgridviewdelegate.cpp:152 ui/itemsgridviewdelegate.cpp:154
-#: ui/itemsgridviewdelegate.cpp:156 ui/itemsviewdelegate.cpp:232
-#: ui/itemsviewdelegate.cpp:234 ui/itemsviewdelegate.cpp:236
+#: ui/itemsgridviewdelegate.cpp:156 ui/itemsviewdelegate.cpp:239
+#: ui/itemsviewdelegate.cpp:241 ui/itemsviewdelegate.cpp:243
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<b>錯誤</b>：%1：%2<br>"
 
-#: ui/itemsgridviewdelegate.cpp:179 ui/itemsviewdelegate.cpp:250
+#: ui/itemsgridviewdelegate.cpp:179 ui/itemsviewdelegate.cpp:257
 #, kde-format
 msgctxt "fan as in supporter"
 msgid "1 fan"
 msgid_plural "%1 fans"
 msgstr[0] ""
 
-#: ui/itemsgridviewdelegate.cpp:182 ui/itemsviewdelegate.cpp:253
+#: ui/itemsgridviewdelegate.cpp:182 ui/itemsviewdelegate.cpp:260
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "1 download"
 msgid_plural "%1 downloads"
 msgstr[0] "下載"
 
-#: ui/itemsgridviewdelegate.cpp:248 ui/itemsviewdelegate.cpp:323
+#: ui/itemsgridviewdelegate.cpp:248 ui/itemsviewdelegate.cpp:330
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgid "Loading Preview"
 msgstr "預覽列印(&W)..."
 
-#: ui/itemsgridviewdelegate.cpp:275 ui/itemsviewdelegate.cpp:183
+#: ui/itemsgridviewdelegate.cpp:275 ui/itemsviewdelegate.cpp:184
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: ui/itemsgridviewdelegate.cpp:340 ui/itemsviewdelegate.cpp:136
+#: ui/itemsgridviewdelegate.cpp:340 ui/itemsviewdelegate.cpp:137
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Updating"
 msgstr "更新"
 
-#: ui/itemsgridviewdelegate.cpp:350 ui/itemsviewdelegate.cpp:146
+#: ui/itemsgridviewdelegate.cpp:350 ui/itemsviewdelegate.cpp:147
 #, fuzzy, kde-format
 #| msgid "Installation"
 msgid "Install Again"
 msgstr "安裝"
 
-#: ui/itemsviewdelegate.cpp:171
+#: ui/itemsviewdelegate.cpp:172
 #, fuzzy, kde-format
 #| msgid "Unshade"
 msgid "Use"
 msgstr "展開"
+
+#: ui/itemsviewdelegate.cpp:228
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "Show the size of the file in a list"
+msgid "<p>Size: %1</p>"
+msgstr "下載"
 
 #: uploaddialog.cpp:65
 #, fuzzy, kde-format
@@ -9158,11 +9165,6 @@ msgstr "開始取代"
 #~| msgid "Most Downloads"
 #~ msgid "<p>No Downloads</p>"
 #~ msgstr "最多下載次數"
-
-#, fuzzy
-#~| msgid "Downloads"
-#~ msgid "<p>Downloads: %1</p>\n"
-#~ msgstr "下載"
 
 #, fuzzy
 #~| msgid "Rating"
