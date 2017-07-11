@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QtCurve-KDE4 1.8.3\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-11 03:10+0200\n"
+"POT-Creation-Date: 2017-07-11 03:18+0200\n"
 "PO-Revision-Date: 2011-01-03 14:20+0800\n"
 "Last-Translator: 綠色聖光 <lishaohui.qd@163.com>\n"
 "Language-Team: 綠色聖光 <lishaohui.qd@163.com>\n"
@@ -1182,9 +1182,11 @@ msgid "Sorry, failed to save preset"
 msgstr "抱歉，儲存預設失敗..."
 
 #: qt4/config/qtcurveconfig.cpp:2611 qt5/config/qtcurveconfig.cpp:2577
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>You cannot use the name \"%1\".</p><p>Please enter a different name:<p>"
 msgid ""
-"<p>You cannot use the name \"%1\".</p><p>Please enter a different name:<p>"
+"<p>You cannot use the name \"%1\".</p><p>Please enter a different name:</p>"
 msgstr "<p>您不能使用“%1”這個名字。</p><p>請再換一個試試：<p>"
 
 #: qt4/config/qtcurveconfig.cpp:2620 qt5/config/qtcurveconfig.cpp:2586
@@ -1194,7 +1196,7 @@ msgstr "<p>您不能使用“%1”這個名字。</p><p>請再換一個試試：
 #| "a new name:<p>"
 msgid ""
 "<p>A system defined preset named \"%1\" already exists.</p><p>Please enter a "
-"new name:<p>"
+"new name:</p>"
 msgstr "<p>一個名爲“%1”的系統預設已經存在。</p><p>請換一個新名字：<p>"
 
 #: qt4/config/qtcurveconfig.cpp:2627 qt5/config/qtcurveconfig.cpp:2593
@@ -1204,12 +1206,13 @@ msgstr "<p>一個名爲“%1”的系統預設已經存在。</p><p>請換一個
 #| "this?<p>"
 msgid ""
 "<p>A preset named \"%1\" already exists.</p><p>Do you wish to overwrite this?"
-"<p>"
+"</p>"
 msgstr "<p>一個名爲“%1”的預設已經存在。</p><p>您確定要覆蓋它嗎？<p>"
 
 #: qt4/config/qtcurveconfig.cpp:2633 qt5/config/qtcurveconfig.cpp:2599
-#, kde-format
-msgid "<p>Please enter a new name:<p>"
+#, fuzzy, kde-format
+#| msgid "<p>Please enter a new name:<p>"
+msgid "<p>Please enter a new name:</p>"
 msgstr "<p>請輸入一個新名字：<p>"
 
 #: qt4/config/qtcurveconfig.cpp:2651 qt5/config/qtcurveconfig.cpp:2617
@@ -1414,10 +1417,14 @@ msgstr "背景外觀："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, bgndAppearance)
 #: qt4/config/qtcurveconfigbase.ui:252 qt5/config/qtcurveconfigbase.ui:261
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Sets a gradient to be used as the background for windows and dialogs.</"
+#| "p><p><b>NOTE</b> This is an experimental option, and will (probably) have "
+#| "a detrimental effect on performance.</p>"
 msgid ""
 "<p>Sets a gradient to be used as the background for windows and dialogs.</"
-"p><p><b>NOTE</b> This is an experimental option, and will (probably) have a "
+"p><p><b>NOTE:</b> This is an experimental option, and will (probably) have a "
 "detrimental effect on performance.</p>"
 msgstr ""
 "<p>爲窗口和對話窗的背景設置一個漸變效果。</p><p><b>注意：</b>這是一個試驗性的"
@@ -1875,7 +1882,7 @@ msgid ""
 "certain applications (mainly Gtk2 ones) to crash. If you have an application "
 "that crashes, use the \"Applications\" page to disable opacity settings for "
 "that application.</i></p>\n"
-"<p><b>NOTE:</b><i><b>DON'T</b> use opacity settings when using the compiz "
+"<p><b>NOTE:</b> <i><b>DON'T</b> use opacity settings when using the compiz "
 "window manager.</i></p>"
 msgstr ""
 "<p><b>注意：</b><i>透明度設置是<b>試驗性的</b>可能會導致某些程式（主要是Gtk2"
@@ -4294,11 +4301,16 @@ msgstr "使用Gtk按鈕布局"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, reorderGtkButtons)
 #: qt4/config/qtcurveconfigbase.ui:3690 qt5/config/qtcurveconfigbase.ui:3754
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>If this is enabled and 'Use Gtk button order' is not, QtCurve will "
+#| "attempt to manually set the order of buttons in Gtk dialogs.</"
+#| "p><p><b>NOTE<b> This is experimental, and may produce unexpected results!"
+#| "</p>"
 msgid ""
 "<p>If this is enabled and 'Use Gtk button order' is not, QtCurve will "
-"attempt to manually set the order of buttons in Gtk dialogs.</"
-"p><p><b>NOTE<b> This is experimental, and may produce unexpected results!</p>"
+"attempt to manually set the order of buttons in Gtk dialogs.</p><p><b>NOTE:</"
+"b> This is experimental, and may produce unexpected results!</p>"
 msgstr ""
 "<p>如果啓用該項，且未啓用“使用Gtk按鈕布局”，QtCurve將試圖手動設定Gtk對話窗的"
 "按鈕布局。</p><p><b>注意：<b>這只是試驗性的，可能會導致出乎意料的後果。</p>"
@@ -4389,7 +4401,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "<p>Sets the base value used for determining drop shadow sizes.</p><p>X11 "
-"only."
+"only.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_81)
@@ -4459,7 +4471,7 @@ msgstr "選單不透明（并且屏蔽Gtk2程式的α通道）："
 #| "<i>gtk</i> to disable for all Gtk2 applications.</p>"
 msgid ""
 "<p>Comma separated list of names of applications which should not use the "
-"menu opacity setting.<p><i>For Gtk2, this option also disables using an "
+"menu opacity setting.</p><p><i>For Gtk2, this option also disables using an "
 "alpha-channel to smoothly round tooltips and popup menus.</i></p><p>Use "
 "<i>gtk</i> to disable for all Gtk2 applications.</p>"
 msgstr ""
@@ -4676,8 +4688,9 @@ msgid ""
 "<li><i>Light border</i> - A 'light' line is drawn around all edges.</li>\n"
 "<li><i>3D border (light only)</i> - A 'light' line is drawn around the top "
 "and left edges.</li>\n"
-"<li><i>3D border (light only)</i> - A 'light' line is drawn around the top "
-"and left edges, and a darker one around the bottom and right edges.</li>\n"
+"<li><i>3D border (dark and light)</i> - A 'light' line is drawn around the "
+"top and left edges, and a darker one around the bottom and right edges.</"
+"li>\n"
 "<li><i>Shine</i> - A shine is added to the top (or left) edge when this "
 "gradient is drawn on buttons or scrollbars.</li>\n"
 "</ul>\n"
@@ -4833,13 +4846,19 @@ msgstr "光亮："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4b)
 #: qt4/config/qtcurveconfigbase.ui:4427 qt5/config/qtcurveconfigbase.ui:4491
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. "
+#| "By default QtCurve tries to lighten (or darken) the parent's background "
+#| "to achieve this - if no parent can be found, then white/black is used "
+#| "with an alpha value set. This behaviour maybe overridden, and alpha "
+#| "values always used, by checking the option above.</p>"
 msgid ""
-"<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+"<p><i>QtCurve uses dark/light borders to create etch and shadow effects. By "
 "default QtCurve tries to lighten (or darken) the parent's background to "
 "achieve this - if no parent can be found, then white/black is used with an "
 "alpha value set. This behaviour maybe overridden, and alpha values always "
-"used, by checking the option above.</p>"
+"used, by checking the option above.</i></p>"
 msgstr ""
 "<i><p>QtCurve使用“深暗/光亮”邊框來實現蝕刻和陰影效果。默認情況下，QtCurve會試"
 "圖通過亮化（或暗化）父窗口來實現它——如果沒有父窗口，則會使用帶有α值的白色或黑"
@@ -5391,9 +5410,15 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, noteLabel)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:182
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:182
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p><b>NOTE:</b><i>This window decoration uses the QtCurve widget style, "
+#| "and shares its configuration. Only the settings that are exclusively used "
+#| "by the window decoration are shown here. To alter settings such as the "
+#| "titlebar gradient, or text alignment, please set the appropriate options "
+#| "in the widget style.</i></p>"
 msgid ""
-"<p><b>NOTE:</b><i>This window decoration uses the QtCurve widget style, and "
+"<p><b>NOTE:</b> <i>This window decoration uses the QtCurve widget style, and "
 "shares its configuration. Only the settings that are exclusively used by the "
 "window decoration are shown here. To alter settings such as the titlebar "
 "gradient, or text alignment, please set the appropriate options in the "
@@ -5463,9 +5488,13 @@ msgstr "忽略透明度設置"
 #. i18n: ectx: property (text), widget (QLabel, noteLabel_2)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:316
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:316
-#, no-c-format, kde-format
+#, fuzzy, no-c-format, kde-format
+#| msgid ""
+#| "<p><b>NOTE:</b><i>If you set the above values to 100%, then the window "
+#| "titlebar (and border) opacity will be controlled by the style's window "
+#| "and dialog background opacity settings.</i></p>"
 msgid ""
-"<p><b>NOTE:</b><i>If you set the above values to 100%, then the window "
+"<p><b>NOTE:</b> <i>If you set the above values to 100%, then the window "
 "titlebar (and border) opacity will be controlled by the style's window and "
 "dialog background opacity settings.</i></p>"
 msgstr ""
