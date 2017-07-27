@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 08:00+0000\n"
+"POT-Creation-Date: 2017-07-27 01:38+0000\n"
 "PO-Revision-Date: 2005-12-24 08:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,6 +33,29 @@ msgstr "瀏覽器視圖"
 msgctxt "Comment"
 msgid "KDE Component"
 msgstr "KDE 元件"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application"
+msgctxt "Name"
+msgid "KParts Application"
+msgstr "應用程式"
+
+#: templates/kpartsapp/kpartsapp.kdevtemplate:4
+msgctxt "Comment"
+msgid "Generate an application built on the KParts framwork. using CMake."
+msgstr ""
+
+#: templates/kpartsapp/src/part/%{APPNAMELC}part.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}Part"
+msgstr ""
+
+#: templates/kpartsapp/src/shell/%{APPNAMELC}.desktop:3
+msgctxt "Name"
+msgid "%{APPNAME}"
+msgstr ""
 
 #~ msgctxt "Name"
 #~ msgid "Notepad (example)"
@@ -886,10 +909,6 @@ msgstr "KDE 元件"
 #~ msgctxt "Name"
 #~ msgid "Embeddable Component for multipart/mixed"
 #~ msgstr "multipart/mixed 的可嵌入元件"
-
-#~ msgctxt "Name"
-#~ msgid "Application"
-#~ msgstr "應用程式"
 
 #, fuzzy
 #~ msgctxt "Name"
