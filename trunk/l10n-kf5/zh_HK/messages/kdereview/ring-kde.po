@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-22 02:53+0100\n"
+"POT-Creation-Date: 2017-08-02 07:03+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -38,7 +38,7 @@ msgstr "桌面提示"
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCa)
 #. i18n: ectx: property (text), widget (QToolButton, m_pViewCert)
 #. i18n: ectx: Menu (View)
-#: data/ring-kdeui.rc:20 src/conf/account/accountpages/security.ui:398
+#: data/ring-kdeui.rc:21 src/conf/account/accountpages/security.ui:398
 #: src/conf/account/accountpages/security.ui:412
 #, fuzzy, kde-format
 #| msgid "_View"
@@ -106,39 +106,34 @@ msgstr "編輯電話號碼"
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/actioncollection.cpp:86
+#: src/actioncollection.cpp:87
 #, kde-format
 msgid "Accept"
 msgstr "接受"
 
-#: src/actioncollection.cpp:87
+#: src/actioncollection.cpp:88
 #, fuzzy, kde-format
 #| msgid "Hold on"
 msgid "Hold"
 msgstr "呼叫保持"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
-#: src/actioncollection.cpp:88 src/delegates/contactdelegate.cpp:190
-#: src/delegates/historydelegate.cpp:315 src/delegates/historydelegate.cpp:316
+#: src/actioncollection.cpp:89 src/delegates/contactdelegate.cpp:186
+#: src/delegates/historydelegate.cpp:279 src/delegates/historydelegate.cpp:280
 #: src/widgets/ui/transfer.ui:105
 #, kde-format
 msgid "Transfer"
 msgstr "轉接"
 
-#: src/actioncollection.cpp:89
+#: src/actioncollection.cpp:90
 #, kde-format
 msgid "Record"
 msgstr "記錄"
 
-#: src/actioncollection.cpp:90 src/notification.cpp:92
+#: src/actioncollection.cpp:91 src/notification.cpp:93
 #, kde-format
 msgid "Hang up"
 msgstr "放電話"
-
-#: src/actioncollection.cpp:91
-#, kde-format
-msgid "Mailbox"
-msgstr "語音郵件"
 
 #: src/actioncollection.cpp:109
 #, kde-format
@@ -188,99 +183,111 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
-#: src/actioncollection.cpp:134
+#: src/actioncollection.cpp:135
 #, fuzzy, kde-format
 #| msgid "Configure SFLphone"
 msgid "Configure Ring-KDE"
 msgstr "配置SFLphone"
 
-#: src/actioncollection.cpp:140
+#: src/actioncollection.cpp:142
 #, kde-format
 msgid "Display dialpad"
 msgstr "顯示撥號鍵盤"
 
-#: src/actioncollection.cpp:141
+#: src/actioncollection.cpp:143
 #, kde-format
 msgid "Display volume controls"
 msgstr "顯示音量控制"
 
-#: src/actioncollection.cpp:142
+#: src/actioncollection.cpp:144
 #, fuzzy, kde-format
 msgid "Display account selector"
 msgstr "顯示"
 
-#: src/actioncollection.cpp:143
+#: src/actioncollection.cpp:145
 #, kde-format
 msgid "Raise Ring-KDE window"
 msgstr ""
 
-#: src/actioncollection.cpp:144
+#: src/actioncollection.cpp:146
 #, fuzzy, kde-format
 #| msgid "Search history"
 msgid "Search history"
 msgstr "搜尋歷史記錄"
 
-#: src/actioncollection.cpp:145
+#: src/actioncollection.cpp:147
 #, fuzzy, kde-format
 #| msgid "Search all"
 msgid "Search call"
 msgstr "查詢所有"
 
-#: src/actioncollection.cpp:146
+#: src/actioncollection.cpp:148
 #, kde-format
 msgid "Search contact"
 msgstr "搜尋聯繫人(S)"
 
-#: src/actioncollection.cpp:147
+#: src/actioncollection.cpp:149
 #, fuzzy, kde-format
 msgid "Search bookmark"
 msgstr "顯示"
 
-#: src/actioncollection.cpp:149
+#: src/actioncollection.cpp:150
 #, kde-format
-msgid "Display text message box"
+msgid "Show the phone directory"
 msgstr ""
 
-#: src/actioncollection.cpp:150
+#: src/actioncollection.cpp:152
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "New account wizard"
+msgstr "增加新帳戶"
+
+#: src/actioncollection.cpp:153
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "New contact"
+msgstr "增加新帳戶"
+
+#: src/actioncollection.cpp:154
 #, kde-format
 msgid "Paste"
 msgstr ""
 
-#: src/actioncollection.cpp:151
+#: src/actioncollection.cpp:155
 #, fuzzy, kde-format
 msgid "Display Person"
 msgstr "顯示"
 
-#: src/actioncollection.cpp:152
+#: src/actioncollection.cpp:156
 #, fuzzy, kde-format
 #| msgid "Clear history"
 msgid "Display history"
 msgstr "清空曆史記錄"
 
-#: src/actioncollection.cpp:153
+#: src/actioncollection.cpp:157
 #, fuzzy, kde-format
 msgid "Display bookmark"
 msgstr "顯示"
 
-#: src/actioncollection.cpp:154
+#: src/actioncollection.cpp:158
 #, fuzzy, kde-format
 #| msgid "Configure SFLphone"
 msgid "Configure Toolbars"
 msgstr "配置SFLphone"
 
-#: src/actioncollection.cpp:155
+#: src/actioncollection.cpp:159
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "Add new contact"
 msgstr "增加新帳戶"
 
-#: src/actioncollection.cpp:156
+#: src/actioncollection.cpp:160
 #, fuzzy, kde-format
 #| msgid "Configure SFLphone"
 msgid "Configure Shortcut"
 msgstr "配置SFLphone"
 
-#: src/actioncollection.cpp:157
+#: src/actioncollection.cpp:161
 #, fuzzy, kde-format
 #| msgid "Desktop Notifications"
 msgid "Configure Notifications"
@@ -305,6 +312,16 @@ msgstr ""
 #: src/cmd.cpp:65
 #, kde-format
 msgid "Start in the system tray"
+msgstr ""
+
+#: src/cmd.cpp:66
+#, kde-format
+msgid "Start with the phone interface"
+msgstr ""
+
+#: src/cmd.cpp:67
+#, kde-format
+msgid "Start with the timeline interface"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
@@ -422,7 +439,7 @@ msgid "Remove"
 msgstr "刪除"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_8)
-#: src/conf/account/accountpages/account.cpp:81
+#: src/conf/account/accountpages/account.cpp:90
 #: src/conf/account/accountpages/tabs.ui:91
 #: src/conf/account/model/extendedprotocolmodel.cpp:48
 #, kde-format
@@ -431,7 +448,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
 #. i18n: ectx: property (title), widget (QGroupBox, lrcfg_ringtoneEnabled)
-#: src/conf/account/accountpages/account.cpp:85
+#: src/conf/account/accountpages/account.cpp:94
 #: src/conf/account/accountpages/ringtone.ui:27 src/conf/dlgaudiobase.ui:130
 #, fuzzy, kde-format
 #| msgid "Ringtones"
@@ -439,42 +456,42 @@ msgid "Ringtone"
 msgstr "鈴聲"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: src/conf/account/accountpages/account.cpp:86
+#: src/conf/account/accountpages/account.cpp:95
 #: src/conf/account/accountpages/tabs.ui:71
 #, kde-format
 msgid "Security"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_7)
-#: src/conf/account/accountpages/account.cpp:87
+#: src/conf/account/accountpages/account.cpp:96
 #: src/conf/account/accountpages/tabs.ui:61
 #, kde-format
 msgid "Credentials"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/conf/account/accountpages/account.cpp:88
+#: src/conf/account/accountpages/account.cpp:97
 #: src/conf/account/accountpages/tabs.ui:51
 #, kde-format
 msgid "Codecs"
 msgstr "編碼"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/account/accountpages/account.cpp:89
+#: src/conf/account/accountpages/account.cpp:98
 #: src/conf/account/accountpages/tabs.ui:41
 #, kde-format
 msgid "Network"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/conf/account/accountpages/account.cpp:90
+#: src/conf/account/accountpages/account.cpp:99
 #: src/conf/account/accountpages/tabs.ui:31
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/account/accountpages/account.cpp:91
+#: src/conf/account/accountpages/account.cpp:100
 #: src/conf/account/accountpages/tabs.ui:21
 #, kde-format
 msgid "Basic"
@@ -489,7 +506,7 @@ msgstr "已註冊"
 #. i18n: ectx: property (text), widget (QLabel, label_regExpire)
 #: src/conf/account/accountpages/advanced.ui:25
 #, fuzzy, kde-format
-msgid "Registration expire"
+msgid "Re&gistration expire"
 msgstr "已註冊"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_registrationExpire)
@@ -604,7 +621,7 @@ msgstr ""
 msgid "Limit the number of concurrent incoming calls"
 msgstr "撥出電話前編輯電話號碼"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pDTMF_GB)
 #: src/conf/account/accountpages/advanced.ui:220
 #, kde-format
 msgid "DTMF"
@@ -613,7 +630,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, auto_2)
 #: src/conf/account/accountpages/advanced.ui:226
 #, kde-format
-msgid "Over RTP"
+msgid "Over R&TP"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, lrcfg_dTMFType)
@@ -718,42 +735,28 @@ msgstr "密碼"
 msgid "SIP password, ask your network administrator"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
-#: src/conf/account/accountpages/basic.ui:186
-#, fuzzy, kde-format
-#| msgid "Voicemail"
-msgctxt "Account voice mail address"
-msgid "Voicemail"
-msgstr "語音郵件"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_mailbox)
-#: src/conf/account/accountpages/basic.ui:196
-#, kde-format
-msgid "Usually the same as the username"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasCustomBootstrap)
-#: src/conf/account/accountpages/basic.ui:205
+#: src/conf/account/accountpages/basic.ui:188
 #, fuzzy, kde-format
 #| msgid "_User name"
 msgid "Use custom bootstrap nodes"
 msgstr "使用者名稱(U)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_autoAnswer)
-#: src/conf/account/accountpages/basic.ui:219
+#: src/conf/account/accountpages/basic.ui:202
 #: src/conf/account/accountpages/dlgdht.ui:166
 #, kde-format
 msgid "Auto answer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label7_state)
-#: src/conf/account/accountpages/basic.ui:226
+#: src/conf/account/accountpages/basic.ui:209
 #, kde-format
 msgid "Status"
 msgstr "狀態"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_pDisplayLog)
-#: src/conf/account/accountpages/basic.ui:254
+#: src/conf/account/accountpages/basic.ui:237
 #, fuzzy, kde-format
 #| msgid "Display photo if available"
 msgid "Availability log"
@@ -956,166 +959,6 @@ msgstr ""
 msgid "Fields marked with \"*\" are compulsory and required"
 msgstr ""
 
-#: src/conf/account/accountpages/dlgprofiles.cpp:159
-#, kde-format
-msgid "Open Image"
-msgstr ""
-
-#: src/conf/account/accountpages/dlgprofiles.cpp:159
-#, kde-format
-msgid "Image Files (*.png *.jpg *.gif)"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, DlgProfiles)
-#. i18n: ectx: property (windowTitle), widget (QDialog, PersonSelector)
-#. i18n: ectx: property (windowTitle), widget (QDialog, ContactMethodSelector)
-#: src/conf/account/accountpages/dlgprofiles.ui:14
-#: src/widgets/ui/contactmethodselector.ui:14
-#: src/widgets/ui/personselector.ui:14
-#, fuzzy, kde-format
-#| msgid "_Dialpad"
-msgid "Dialog"
-msgstr "撥號面板"
-
-#. i18n: ectx: property (text), widget (QPushButton, select_photo_button)
-#: src/conf/account/accountpages/dlgprofiles.ui:20
-#, kde-format
-msgid "Select..."
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_address_1)
-#: src/conf/account/accountpages/dlgprofiles.ui:77
-#, fuzzy, kde-format
-#| msgid "Edit phone number"
-msgid "Street, number..."
-msgstr "編輯電話號碼"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_city)
-#: src/conf/account/accountpages/dlgprofiles.ui:84
-#, kde-format
-msgid "City..."
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_state)
-#: src/conf/account/accountpages/dlgprofiles.ui:91
-#, kde-format
-msgid "State..."
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cb_address_type)
-#: src/conf/account/accountpages/dlgprofiles.ui:99
-#, kde-format
-msgid "WORK"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cb_address_type)
-#: src/conf/account/accountpages/dlgprofiles.ui:104
-#, kde-format
-msgid "HOME"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cb_address_type)
-#: src/conf/account/accountpages/dlgprofiles.ui:109
-#, kde-format
-msgid "OTHER"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_postal_code)
-#: src/conf/account/accountpages/dlgprofiles.ui:117
-#, kde-format
-msgid "ZIP..."
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_country)
-#: src/conf/account/accountpages/dlgprofiles.ui:124
-#, kde-format
-msgid "Country..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_adress)
-#: src/conf/account/accountpages/dlgprofiles.ui:131
-#, fuzzy, kde-format
-#| msgid "Address Book"
-msgid "Address"
-msgstr "地址簿"
-
-#. i18n: ectx: property (text), widget (QLabel, label_name)
-#: src/conf/account/accountpages/dlgprofiles.ui:173
-#, fuzzy, kde-format
-#| msgid "Name"
-msgid "Name"
-msgstr "名稱"
-
-#. i18n: ectx: property (text), widget (QLabel, label_lname)
-#: src/conf/account/accountpages/dlgprofiles.ui:180
-#, fuzzy, kde-format
-#| msgid "Name"
-msgid "Last Name"
-msgstr "名稱"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_lname)
-#: src/conf/account/accountpages/dlgprofiles.ui:187
-#, kde-format
-msgid "Family name..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_email)
-#. i18n: ectx: property (text), widget (QPushButton, m_pEmail)
-#: src/conf/account/accountpages/dlgprofiles.ui:194 src/widgets/ui/share.ui:62
-#, fuzzy, kde-format
-#| msgid "_Email"
-msgid "Email"
-msgstr "郵件(E)"
-
-#. i18n: ectx: property (text), widget (QLabel, label_cell)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/conf/account/accountpages/dlgprofiles.ui:204
-#: src/widgets/ui/contactmethodselector.ui:45
-#, fuzzy, kde-format
-#| msgid "Edit phone number"
-msgid "Phone number"
-msgstr "編輯電話號碼"
-
-#. i18n: ectx: property (text), widget (QLabel, label_organization)
-#: src/conf/account/accountpages/dlgprofiles.ui:214
-#, fuzzy, kde-format
-msgid "Organization"
-msgstr "顯示"
-
-#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#. i18n: ectx: property (text), widget (QPushButton, btn_add_field)
-#. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
-#: src/conf/account/accountpages/dlgprofiles.ui:226
-#: src/conf/dlgaccessibility.ui:129 src/conf/dlgpresence.ui:71
-#, fuzzy, kde-format
-#| msgid "Add"
-msgid "Add"
-msgstr "添加"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_custom_field)
-#: src/conf/account/accountpages/dlgprofiles.ui:236
-#, kde-format
-msgid "Custom field..."
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_name)
-#: src/conf/account/accountpages/dlgprofiles.ui:245
-#, kde-format
-msgid "First name..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/account/accountpages/dlgprofiles.ui:252
-#, kde-format
-msgid "Formatted name"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_formattedName)
-#: src/conf/account/accountpages/dlgprofiles.ui:259
-#, kde-format
-msgid "A pseudonym or a full name"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/account/accountpages/network.ui:17
 #, fuzzy, kde-format
@@ -1137,7 +980,7 @@ msgstr "郵件地址"
 msgid "Local port"
 msgstr "郵件地址"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pPublishedGB)
 #. i18n: ectx: property (text), widget (QLabel, label_published_address)
 #: src/conf/account/accountpages/network.ui:57
 #: src/conf/account/accountpages/network.ui:80
@@ -1150,14 +993,14 @@ msgstr "啟用地址簿"
 #: src/conf/account/accountpages/network.ui:63
 #, fuzzy, kde-format
 #| msgid "Search Parameters"
-msgid "Same as local parameters"
+msgid "Same as &local parameters"
 msgstr "搜尋相關參數"
 
 #. i18n: ectx: property (text), widget (QRadioButton, auto_2)
 #: src/conf/account/accountpages/network.ui:73
 #, fuzzy, kde-format
 #| msgid "Enable address book"
-msgid "Set published address and port"
+msgid "Set p&ublished address and port"
 msgstr "啟用地址簿"
 
 #. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
@@ -1173,7 +1016,7 @@ msgstr "啟用地址簿"
 msgid "IP address or hostname"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pPortGroup)
 #: src/conf/account/accountpages/network.ui:130
 #, fuzzy, kde-format
 #| msgid "SIP account configuration"
@@ -1398,41 +1241,41 @@ msgstr ""
 msgid "Ringtones"
 msgstr "鈴聲"
 
-#: src/conf/account/dlgaccount.cpp:111
+#: src/conf/account/dlgaccount.cpp:117 src/conf/account/dlgaccount.cpp:137
 #, kde-format
 msgid "Are you sure you want to remove %1?"
 msgstr ""
 
-#: src/conf/account/dlgaccount.cpp:115
+#: src/conf/account/dlgaccount.cpp:120
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove profile"
 msgstr "刪除"
 
-#: src/conf/account/dlgaccount.cpp:132
+#: src/conf/account/dlgaccount.cpp:140
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Remove account"
 msgstr "刪除所選賬戶"
 
-#: src/conf/account/dlgaccount.cpp:167
+#: src/conf/account/dlgaccount.cpp:175
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Import accounts"
 msgstr "刪除所選賬戶"
 
-#: src/conf/account/dlgaccount.cpp:171
+#: src/conf/account/dlgaccount.cpp:179
 #, kde-format
 msgid "Enter the password"
 msgstr ""
 
-#: src/conf/account/dlgaccount.cpp:184
+#: src/conf/account/dlgaccount.cpp:193
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account%1"
 msgstr "增加新帳戶"
 
-#: src/conf/account/dlgaccount.cpp:185
+#: src/conf/account/dlgaccount.cpp:194
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account"
@@ -1443,7 +1286,7 @@ msgstr "增加新帳戶"
 msgid "Import"
 msgstr ""
 
-#: src/conf/account/widgets/securityprogress.cpp:65 src/mainwindow.cpp:333
+#: src/conf/account/widgets/securityprogress.cpp:65 src/phonewindow.cpp:228
 #, kde-format
 msgid "None"
 msgstr ""
@@ -1499,50 +1342,36 @@ msgid "%1 error"
 msgid_plural "%1 errors"
 msgstr[0] "註冊失敗"
 
-#: src/conf/configurationdialog.cpp:115
+#: src/conf/configurationdialog.cpp:116
 #, kde-format
 msgid "Accounts"
 msgstr "帳戶"
 
-#: src/conf/configurationdialog.cpp:125
+#: src/conf/configurationdialog.cpp:126
 #, fuzzy, kde-format
 msgctxt "User interterface settings"
 msgid "Display"
 msgstr "顯示"
 
-#: src/conf/configurationdialog.cpp:134
+#: src/conf/configurationdialog.cpp:135
 #, fuzzy, kde-format
 msgid "Audio"
 msgstr "音頻"
 
-#: src/conf/configurationdialog.cpp:143
+#: src/conf/configurationdialog.cpp:144
 #, kde-format
 msgid "Personal data"
 msgstr ""
 
-#: src/conf/configurationdialog.cpp:152
-#, kde-format
-msgid "Hooks"
-msgstr "鉤鍵"
-
-#: src/conf/configurationdialog.cpp:161
+#: src/conf/configurationdialog.cpp:153
 #, kde-format
 msgid "Accessibility"
 msgstr ""
 
-#: src/conf/configurationdialog.cpp:171 src/widgets/videodock.cpp:130
+#: src/conf/configurationdialog.cpp:163 src/widgets/videodock.cpp:132
 #, kde-format
 msgctxt "Video conversation"
 msgid "Video"
-msgstr ""
-
-#: src/conf/dlgaccessibility.cpp:49
-#, kde-format
-msgid ""
-"This page allows to create macros that can then be called using keyboard "
-"shortcuts or added to the toolbar. To create one, assign a name and a "
-"character sequence. The sequence can be numeric or any character than can be "
-"interpreted as one (ex: \"A\" would be interpreted as 2)"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
@@ -1552,26 +1381,8 @@ msgstr ""
 msgid "Accessibility settings"
 msgstr "帳戶設置"
 
-#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enableAutoCompletion)
-#: src/conf/dlgaccessibility.ui:20
-#, kde-format
-msgid "Auto completion"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteMergeNumbers)
-#: src/conf/dlgaccessibility.ui:29
-#, kde-format
-msgid "Merge numbers from different accounts"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteUseAccount)
-#: src/conf/dlgaccessibility.ui:36
-#, kde-format
-msgid "Call number using their original accounts"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
-#: src/conf/dlgaccessibility.ui:49
+#: src/conf/dlgaccessibility.ui:23
 #, kde-format
 msgid "Text to Speech"
 msgstr ""
@@ -1581,140 +1392,31 @@ msgstr ""
 #. i18n: ectx: label, entry (displayContactDock), group (main)
 #. i18n: ectx: label, entry (displayHistoryDock), group (main)
 #. i18n: ectx: label, entry (displayBookmarkDock), group (main)
-#: src/conf/dlgaccessibility.ui:55 src/klib/ring-kde.kcfg:267
-#: src/klib/ring-kde.kcfg:308 src/klib/ring-kde.kcfg:312
-#: src/klib/ring-kde.kcfg:316
+#: src/conf/dlgaccessibility.ui:29 src/klib/ring-kde.kcfg:192
+#: src/klib/ring-kde.kcfg:233 src/klib/ring-kde.kcfg:237
+#: src/klib/ring-kde.kcfg:241
 #, kde-format
 msgid "Enable audio feedback from common actions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
 #. i18n: ectx: label, entry (enableReadLabel), group (main)
-#: src/conf/dlgaccessibility.ui:62 src/klib/ring-kde.kcfg:271
+#: src/conf/dlgaccessibility.ui:36 src/klib/ring-kde.kcfg:196
 #, kde-format
 msgid "Automatically read label when an overlay is being displayed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
 #. i18n: ectx: label, entry (enableReadDetails), group (main)
-#: src/conf/dlgaccessibility.ui:69 src/klib/ring-kde.kcfg:275
+#: src/conf/dlgaccessibility.ui:43 src/klib/ring-kde.kcfg:200
 #, kde-format
 msgid "Automatically read the call details when it is selected"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlgaccessibility.ui:85
-#, kde-format
-msgid "Macro"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
-#. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
-#: src/conf/dlgaccessibility.ui:115 src/conf/dlgpresence.ui:81
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgid "Remove"
-msgstr "刪除"
-
-#. i18n: ectx: property (text), widget (QLabel, m_pNameL)
-#: src/conf/dlgaccessibility.ui:213
-#, fuzzy, kde-format
-#| msgid "Name"
-msgid "Name*"
-msgstr "名稱"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pNameLE)
-#: src/conf/dlgaccessibility.ui:220
-#, kde-format
-msgid "Identifier for this macro (toolbar text)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
-#: src/conf/dlgaccessibility.ui:233
-#, kde-format
-msgid "Category*"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
-#: src/conf/dlgaccessibility.ui:250
-#, fuzzy, kde-format
-#| msgid "Frequency"
-msgid "Sequence*"
-msgstr "顰律"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pSequenceLE)
-#: src/conf/dlgaccessibility.ui:257
-#, kde-format
-msgid "The key sequence to be executed"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
-#: src/conf/dlgaccessibility.ui:270
-#, kde-format
-msgid "Delay"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
-#: src/conf/dlgaccessibility.ui:277
-#, kde-format
-msgid "ms"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
-#: src/conf/dlgaccessibility.ui:293
-#, fuzzy, kde-format
-msgid "Description"
-msgstr "已註冊"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pDescriptionLE)
-#: src/conf/dlgaccessibility.ui:300
-#, kde-format
-msgid "A description for this macro"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlgaccessibility.ui:331
-#, fuzzy, kde-format
-#| msgid "Configure SFLphone"
-msgid "Shortcut"
-msgstr "配置SFLphone"
-
-#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
-#: src/conf/dlgaccessibility.ui:364
-#, kde-format
-msgid "Info"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayAllCollections)
 #: src/conf/dlgaddressbookbase.ui:68
 #, fuzzy, kde-format
 msgid "Display all"
-msgstr "顯示"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_pAddCollection)
-#: src/conf/dlgaddressbookbase.ui:91
-#, fuzzy, kde-format
-#| msgid "Connection"
-msgid "Add collection"
-msgstr "連接"
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_pTabConfig)
-#: src/conf/dlgaddressbookbase.ui:107
-#, fuzzy, kde-format
-#| msgid "SIP account configuration"
-msgid "Configuration"
-msgstr "SIP帳戶配置"
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_pTabExtent)
-#: src/conf/dlgaddressbookbase.ui:141
-#, kde-format
-msgid "Extensions"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_pTabContent)
-#: src/conf/dlgaddressbookbase.ui:151
-#, fuzzy, kde-format
-msgid "Content"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QLabel, label_interface)
@@ -1808,44 +1510,6 @@ msgstr "目標文件夾"
 msgid "Always record calls"
 msgstr "記錄通話"
 
-#: src/conf/dlgdisplay.cpp:42
-#, fuzzy, kde-format
-msgid "Display Icon"
-msgstr "顯示"
-
-#: src/conf/dlgdisplay.cpp:43
-#, fuzzy, kde-format
-#| msgid "Clear history"
-msgid "Display Security"
-msgstr "清空曆史記錄"
-
-#: src/conf/dlgdisplay.cpp:44
-#, fuzzy, kde-format
-msgid "Display Call Number"
-msgstr "顯示"
-
-#: src/conf/dlgdisplay.cpp:45
-#, fuzzy, kde-format
-msgid "Display Peer Name"
-msgstr "顯示"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
-#: src/conf/dlgdisplay.cpp:46 src/conf/dlgdisplaybase.ui:121
-#, fuzzy, kde-format
-msgid "Display organisation"
-msgstr "顯示"
-
-#: src/conf/dlgdisplay.cpp:47
-#, fuzzy, kde-format
-#| msgid "Display dialpad"
-msgid "Display department"
-msgstr "顯示撥號鍵盤"
-
-#: src/conf/dlgdisplay.cpp:48
-#, fuzzy, kde-format
-msgid "Display e-mail"
-msgstr "顯示"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/dlgdisplaybase.ui:26
 #, fuzzy, kde-format
@@ -1859,8 +1523,7 @@ msgid "On start"
 msgstr "正在啟動"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
-#: src/conf/dlgdisplaybase.ui:45 src/conf/dlgdisplaybase.ui:81
+#: src/conf/dlgdisplaybase.ui:45
 #, kde-format
 msgid "On incoming calls"
 msgstr "有新來電"
@@ -1871,56 +1534,24 @@ msgstr "有新來電"
 msgid "On boot (auto start)"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlgdisplaybase.ui:72
-#, fuzzy, kde-format
-#| msgid "Desktop Notifications"
-msgid "Notifications"
-msgstr "桌面提示"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
-#: src/conf/dlgdisplaybase.ui:91
-#, kde-format
-msgid "On messages"
-msgstr "有新消息"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: src/conf/dlgdisplaybase.ui:101
+#: src/conf/dlgdisplaybase.ui:72
 #, kde-format
 msgid "Visible contacts Details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideUnreachable)
 #. i18n: ectx: label, entry (hideUnreachable), group (main)
-#: src/conf/dlgdisplaybase.ui:107 src/klib/ring-kde.kcfg:217
+#: src/conf/dlgdisplaybase.ui:78 src/klib/ring-kde.kcfg:160
 #, fuzzy, kde-format
 #| msgid "Host unreachable"
 msgid "Hide unreachable contacts"
 msgstr "伺服器連線失敗"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hidePersonWithoutPhone)
-#: src/conf/dlgdisplaybase.ui:114
+#: src/conf/dlgdisplaybase.ui:85
 #, kde-format
 msgid "Hide contacts without phone numbers"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
-#: src/conf/dlgdisplaybase.ui:128
-#, fuzzy, kde-format
-#| msgid "Optional email address"
-msgid "Display email address"
-msgstr "可選郵件地址"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/conf/dlgdisplaybase.ui:138
-#, kde-format
-msgid "Visible Call Details"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
-#: src/conf/dlgdisplaybase.ui:149
-#, kde-format
-msgid "Minimum item height"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2008,55 +1639,7 @@ msgstr "有新來電"
 msgid "Those settings only take effect after restarting Ring-KDE"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
-#: src/conf/dlghooksbase.ui:20
-#, kde-format
-msgid "URL Argument"
-msgstr "URL參數"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlghooksbase.ui:26
-#, kde-format
-msgid "Custom commands on incoming calls with URL"
-msgstr "定制對帶有URL的來電的處理"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
-#: src/conf/dlghooksbase.ui:63
-#, kde-format
-msgid "Trigger on specific SIP header"
-msgstr "激活指定的SIP頭"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
-#: src/conf/dlghooksbase.ui:83
-#, kde-format
-msgid "Trigger on IAX2 URL"
-msgstr "激活IAX2 URL"
-
-#. i18n: ectx: property (text), widget (QLabel, label_command)
-#: src/conf/dlghooksbase.ui:105
-#, kde-format
-msgid "Command to run"
-msgstr "要運行的命令"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/conf/dlghooksbase.ui:128
-#, no-c-format, kde-format
-msgid "%s will be replaced with the passed URL."
-msgstr "傳輸的URL會被替換成%s."
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
-#: src/conf/dlghooksbase.ui:138
-#, kde-format
-msgid "Phone Number Rewriting"
-msgstr "重設電話號碼"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
-#: src/conf/dlghooksbase.ui:159
-#, kde-format
-msgid "Prefix dialed numbers with"
-msgstr "號碼前綴"
-
-#: src/conf/dlgpresence.cpp:55
+#: src/conf/dlgpresence.cpp:51
 #, kde-format
 msgid ""
 "In this table, it is possible to manage different presence states. The "
@@ -2074,24 +1657,38 @@ msgid "Move Down"
 msgstr "下"
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
-#: src/conf/dlgpresence.ui:61
+#: src/conf/dlgpresence.ui:64
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
+#: src/conf/dlgpresence.ui:77
+#, fuzzy, kde-format
+#| msgid "Add"
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
 #: src/conf/dlgpresence.ui:90
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgid "Remove"
+msgstr "刪除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:102
 #, kde-format
 msgid "Track bookmarked number presence"
 msgstr ""
 
-#: src/conf/dlgvideo.cpp:51 src/conf/dlgvideo.cpp:90
+#: src/conf/dlgvideo.cpp:46 src/conf/dlgvideo.cpp:85
 #, kde-format
 msgid "Stop preview"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
-#: src/conf/dlgvideo.cpp:93 src/conf/dlgvideobase.ui:58
+#: src/conf/dlgvideo.cpp:88 src/conf/dlgvideobase.ui:36
 #, fuzzy, kde-format
 #| msgid "_Start hidden"
 msgid "Start preview"
@@ -2104,18 +1701,28 @@ msgstr "啟動時隱藏(S)"
 msgid "Video settings"
 msgstr "音訊配置"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
-#: src/conf/dlgvideobase.ui:23
-#, fuzzy, kde-format
-#| msgid "ALSA configuration"
-msgid "Device Configuration"
-msgstr "ALSA 配置"
-
-#: src/configurator/audiorecordingconfigurator.cpp:39
+#: src/configurator/audiorecordingconfigurator.cpp:40
+#: src/configurator/bookmarkconfigurator.cpp:37
+#: src/configurator/peerprofileconfigurator.cpp:53
 #, fuzzy, kde-format
 #| msgid "IAX2 account configuration"
-msgid "Audio recording configurator"
+msgid "Peer profile configurator"
 msgstr "IAX2帳戶配置"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PeerProfile)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Bookmark)
+#. i18n: ectx: property (windowTitle), widget (QWidget, Recording)
+#: src/configurator/bookmark.ui:14 src/configurator/peerprofile.ui:14
+#: src/configurator/recording.ui:14
+#, kde-format
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: src/configurator/bookmark.ui:20
+#, kde-format
+msgid "Clear"
+msgstr ""
 
 #: src/configurator/fallbackpersonconfigurator.cpp:35
 #, fuzzy, kde-format
@@ -2128,58 +1735,164 @@ msgstr "SIP帳戶配置"
 msgid "Local history configurator"
 msgstr ""
 
-#: src/delegates/historydelegate.cpp:314
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configurator/peerprofile.ui:20
+#, kde-format
+msgid ""
+"This entry holds all the contact information sent to you by your peers "
+"during calls or contact requests. If a contact already exists for a person, "
+"the options below will help merge entries."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/configurator/peerprofile.ui:30
+#, kde-format
+msgid "Mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pNewContact)
+#: src/configurator/peerprofile.ui:36
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Create a new contact"
+msgstr "當前帳戶"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pIgnore)
+#: src/configurator/peerprofile.ui:43
+#, kde-format
+msgid "Ignore the new contact informations"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAddMissing)
+#: src/configurator/peerprofile.ui:50
+#, kde-format
+msgid "Onl&y add the missing information fields"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAlwaysAsk)
+#: src/configurator/peerprofile.ui:57
+#, fuzzy, kde-format
+#| msgid "Record a call"
+msgid "Always as&k"
+msgstr "記錄通話"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pCustom)
+#: src/configurator/peerprofile.ui:64
+#, kde-format
+msgid "Overwrite some fields"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/configurator/peerprofile.ui:77
+#, kde-format
+msgid "Contact fields to overwrite"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_formattedName)
+#: src/configurator/peerprofile.ui:83
+#, kde-format
+msgid "Formatted name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_nickname)
+#: src/configurator/peerprofile.ui:90
+#, kde-format
+msgid "Nickname"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_primaryName)
+#: src/configurator/peerprofile.ui:97
+#, fuzzy, kde-format
+msgid "Primary name"
+msgstr "顯示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_lastName)
+#: src/configurator/peerprofile.ui:104
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Last name"
+msgstr "名稱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_email)
+#: src/configurator/peerprofile.ui:111
+#, fuzzy, kde-format
+#| msgid "Mailbox"
+msgid "eMail"
+msgstr "語音郵件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_org)
+#: src/configurator/peerprofile.ui:118
+#, fuzzy, kde-format
+msgid "Organization"
+msgstr "顯示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
+#: src/configurator/peerprofile.ui:125
+#, fuzzy, kde-format
+#| msgid "Address Book"
+msgid "Addresses"
+msgstr "地址簿"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
+#: src/configurator/peerprofile.ui:132
+#, fuzzy, kde-format
+#| msgid "Edit phone number"
+msgid "Phone numbers"
+msgstr "編輯電話號碼"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configurator/recording.ui:39
+#, kde-format
+msgid "Lenght:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, delete_2)
+#: src/configurator/recording.ui:68
+#, fuzzy, kde-format
+#| msgid "Edit phone"
+msgid "Delete"
+msgstr "編輯電話"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configurator/recording.ui:80
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Last updated:"
+msgstr "名稱"
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, lineEdit)
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
+#: src/configurator/recording.ui:94 src/widgets/ui/contactmethodselector.ui:29
+#: src/widgets/ui/personselector.ui:36
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#: src/delegates/historydelegate.cpp:278
 #, fuzzy, kde-format
 #| msgid "Preferences"
 msgid "Conference"
 msgstr "屬性"
 
-#: src/dock.cpp:83
+#: src/dock.cpp:84 src/timelinewindow.cpp:88
 #, fuzzy, kde-format
 msgctxt "Contact tab"
 msgid "Contact"
 msgstr "顯示"
 
-#: src/dock.cpp:118
+#: src/dock.cpp:119
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "History tab"
 msgid "History"
 msgstr "歷史"
 
-#: src/dock.cpp:193
+#: src/dock.cpp:194
 #, fuzzy, kde-format
 #| msgid "Books"
 msgctxt "Bookmark tab"
 msgid "Bookmark"
 msgstr "鉤鍵"
-
-#: src/dock.cpp:286 src/mainwindow.cpp:533
-#, fuzzy, kde-format
-#| msgid "_Call"
-msgid "Call"
-msgstr "電話"
-
-#: src/dock.cpp:289
-#, fuzzy, kde-format
-#| msgid "Books"
-msgid "Bookmark"
-msgstr "鉤鍵"
-
-#: src/dock.cpp:292 src/klib/akonadibackend.cpp:271
-#, kde-format
-msgid "Contact"
-msgstr ""
-
-#: src/dock.cpp:295
-#, kde-format
-msgid "History"
-msgstr "歷史"
-
-#: src/dock.cpp:298 src/mainwindow.cpp:120
-#, kde-format
-msgid "Video"
-msgstr ""
 
 #: src/errormessage.cpp:22
 #, kde-format
@@ -2204,104 +1917,136 @@ msgid ""
 "savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
 msgstr ""
 
-#: src/eventmanager.cpp:212 src/eventmanager.cpp:232
+#: src/eventmanager.cpp:213 src/eventmanager.cpp:233
 #: src/widgets/tips/removeconferencetip.cpp:30
 #, kde-format
 msgid "Remove the call from the conference, the call will be put on hold"
 msgstr ""
 
-#: src/eventmanager.cpp:217 src/eventmanager.cpp:237
+#: src/eventmanager.cpp:218 src/eventmanager.cpp:238
 #, fuzzy, kde-format
 #| msgid "_Call"
 msgid "Call %1 using %2"
 msgstr "電話"
 
-#: src/eventmanager.cpp:223 src/eventmanager.cpp:227 src/eventmanager.cpp:243
-#: src/eventmanager.cpp:247
+#: src/eventmanager.cpp:224 src/eventmanager.cpp:228 src/eventmanager.cpp:244
+#: src/eventmanager.cpp:248
 #, fuzzy, kde-format
 #| msgid "_Call"
 msgid "Call %1"
 msgstr "電話"
 
-#: src/eventmanager.cpp:528
+#: src/eventmanager.cpp:519
 #, kde-format
 msgid "Missed"
 msgstr ""
 
-#: src/eventmanager.cpp:530
+#: src/eventmanager.cpp:521
 #, kde-format
 msgid "Cancelled"
 msgstr ""
 
-#: src/eventmanager.cpp:533 src/widgets/tips/tipcollection.cpp:128
+#: src/eventmanager.cpp:524 src/widgets/tips/tipcollection.cpp:128
 #, fuzzy, kde-format
 #| msgid "Call back"
 msgid "Call ended"
 msgstr "回叫"
 
-#: src/eventmanager.cpp:608
+#: src/eventmanager.cpp:590
 #, fuzzy, kde-format
 #| msgid "Not Registered"
 msgid "%1 is not unregistered"
 msgstr "未註冊"
 
-#: src/implementation.cpp:135
+#: src/fancymainwindow.cpp:127 src/phonewindow.cpp:415
+#, fuzzy, kde-format
+#| msgid "_Call"
+msgid "Call"
+msgstr "電話"
+
+#: src/fancymainwindow.cpp:133
+#, fuzzy, kde-format
+#| msgid "Books"
+msgid "Bookmark"
+msgstr "鉤鍵"
+
+#: src/fancymainwindow.cpp:139 src/klib/akonadibackend.cpp:271
 #, kde-format
-msgid "Online"
+msgid "Contact"
 msgstr ""
 
-#: src/implementation.cpp:136
+#: src/fancymainwindow.cpp:145
 #, kde-format
-msgid "I am available"
+msgid "History"
+msgstr "歷史"
+
+#: src/fancymainwindow.cpp:151 src/ringapplication.cpp:191
+#, kde-format
+msgid "Video"
 msgstr ""
 
-#: src/implementation.cpp:141
+#: src/fancymainwindow.cpp:154
 #, kde-format
-msgid "Away"
+msgid "Timeline"
 msgstr ""
 
 #: src/implementation.cpp:142
 #, kde-format
+msgid "Online"
+msgstr ""
+
+#: src/implementation.cpp:143
+#, kde-format
+msgid "I am available"
+msgstr ""
+
+#: src/implementation.cpp:148
+#, kde-format
+msgid "Away"
+msgstr ""
+
+#: src/implementation.cpp:149
+#, kde-format
 msgid "I am away"
 msgstr ""
 
-#: src/implementation.cpp:146
+#: src/implementation.cpp:153
 #, kde-format
 msgid "Busy"
 msgstr ""
 
-#: src/implementation.cpp:147
+#: src/implementation.cpp:154
 #, kde-format
 msgid "I am busy"
 msgstr ""
 
-#: src/implementation.cpp:151
+#: src/implementation.cpp:158
 #, kde-format
 msgid "DND"
 msgstr ""
 
-#: src/implementation.cpp:152
+#: src/implementation.cpp:159
 #, kde-format
 msgid "Please do not disturb me"
 msgstr ""
 
-#: src/implementation.cpp:251
+#: src/implementation.cpp:270
 #, kde-format
 msgid "Are you sure you want to permanently delete %1?"
 msgstr ""
 
-#: src/implementation.cpp:252
+#: src/implementation.cpp:271
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete contact"
 msgstr "編輯電話"
 
-#: src/implementation.cpp:262
+#: src/implementation.cpp:281
 #, kde-format
 msgid "Are you sure you wish to remove this call?"
 msgstr ""
 
-#: src/implementation.cpp:262
+#: src/implementation.cpp:281
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete call"
@@ -2332,70 +2077,28 @@ msgstr "當有來電時靜音其它應用程序"
 msgid "Defines the number of days the history has to be kept."
 msgstr ""
 
-#. i18n: ectx: label, entry (displayCallIcon), group (main)
-#: src/klib/ring-kde.kcfg:29
-#, kde-format
-msgid "Should CallIcon be visible by default for calls"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallPeer), group (main)
-#: src/klib/ring-kde.kcfg:33
-#, kde-format
-msgid "Should CallPeer be visible by default for calls"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallNumber), group (main)
-#: src/klib/ring-kde.kcfg:37
-#, kde-format
-msgid "Should CallNumber be visible by default for calls"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallSecure), group (main)
-#: src/klib/ring-kde.kcfg:41
-#, kde-format
-msgid "Should CallSecure be visible by default for calls"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallOrganisation), group (main)
-#: src/klib/ring-kde.kcfg:45
-#, kde-format
-msgid "If a contact is present, display the organisation"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallDepartment), group (main)
-#: src/klib/ring-kde.kcfg:49
-#, kde-format
-msgid "If a contact is present, display the department"
-msgstr ""
-
-#. i18n: ectx: label, entry (displayCallEmail), group (main)
-#: src/klib/ring-kde.kcfg:53
-#, kde-format
-msgid "If a contact is present, display the email"
-msgstr ""
-
-#. i18n: ectx: label, entry (limitMinimumRowHeight), group (main)
-#. i18n: ectx: label, entry (minimumRowHeight), group (main)
-#: src/klib/ring-kde.kcfg:57 src/klib/ring-kde.kcfg:61
-#, kde-format
-msgid "The minimum number of pixel for a call item"
-msgstr ""
-
 #. i18n: ectx: label, entry (displayHistoryStatus), group (main)
-#: src/klib/ring-kde.kcfg:65
+#: src/klib/ring-kde.kcfg:29
 #, kde-format
 msgid "Display incoming, outgoing or missed"
 msgstr ""
 
+#. i18n: ectx: label, entry (showSplash), group (main)
+#: src/klib/ring-kde.kcfg:36
+#, fuzzy, kde-format
+#| msgid "Display dialpad"
+msgid "Display the splashscreen."
+msgstr "顯示撥號鍵盤"
+
 #. i18n: ectx: label, entry (notifOnCalls), group (main)
-#: src/klib/ring-kde.kcfg:72
+#: src/klib/ring-kde.kcfg:40
 #, fuzzy, kde-format
 #| msgid "Mute other applications during a call"
 msgid "Defines whether user should be notified when receiving a call."
 msgstr "當有來電時靜音其它應用程序"
 
 #. i18n: ectx: label, entry (notifOnMessages), group (main)
-#: src/klib/ring-kde.kcfg:76
+#: src/klib/ring-kde.kcfg:44
 #, kde-format
 msgid "Defines whether user should be notified when receiving a message."
 msgstr ""
@@ -2403,46 +2106,54 @@ msgstr ""
 #. i18n: ectx: label, entry (displayOnStart), group (main)
 #. i18n: ectx: label, entry (autoStart), group (main)
 #. i18n: ectx: label, entry (autoStartOverride), group (main)
-#: src/klib/ring-kde.kcfg:80 src/klib/ring-kde.kcfg:84
-#: src/klib/ring-kde.kcfg:88
+#: src/klib/ring-kde.kcfg:48 src/klib/ring-kde.kcfg:52
+#: src/klib/ring-kde.kcfg:56
 #, kde-format
 msgid "Defines whether the main window should be displayed on start."
 msgstr ""
 
 #. i18n: ectx: label, entry (displayOnCalls), group (main)
-#: src/klib/ring-kde.kcfg:92
+#: src/klib/ring-kde.kcfg:60
 #, kde-format
 msgid ""
 "Defines whether the main window should be displayed when receiving a message."
 msgstr ""
 
+#. i18n: ectx: label, entry (displayOnNewCalls), group (main)
+#: src/klib/ring-kde.kcfg:64
+#, fuzzy, kde-format
+#| msgid "Mute other applications during a call"
+msgid ""
+"Defines whether the main window should be displayed when a call is created"
+msgstr "當有來電時靜音其它應用程序"
+
 #. i18n: ectx: label, entry (displayDialpad), group (main)
-#: src/klib/ring-kde.kcfg:96
+#: src/klib/ring-kde.kcfg:68
 #, kde-format
 msgid "Defines whether the dialpad is being shown by default"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayAccountBox), group (main)
-#: src/klib/ring-kde.kcfg:100
+#: src/klib/ring-kde.kcfg:72
 #, kde-format
 msgid ""
 "Defines whether the statusbar account combobox is being shown by default"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayMessageBox), group (main)
-#: src/klib/ring-kde.kcfg:104
+#: src/klib/ring-kde.kcfg:76
 #, kde-format
 msgid "Defines whether the text message box is visible"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayVolume), group (main)
-#: src/klib/ring-kde.kcfg:108
+#: src/klib/ring-kde.kcfg:80
 #, kde-format
 msgid "Defines whether the volume widgets are visible by default"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayMenu), group (main)
-#: src/klib/ring-kde.kcfg:112
+#: src/klib/ring-kde.kcfg:84
 #, kde-format
 msgid ""
 "Defines whether the main menu is visible by default, it can be restored with "
@@ -2450,13 +2161,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (displayDataRange), group (main)
-#: src/klib/ring-kde.kcfg:115
+#: src/klib/ring-kde.kcfg:87
 #, kde-format
 msgid "Defines whether call history is restricted to a specific date range"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
-#: src/klib/ring-kde.kcfg:119
+#: src/klib/ring-kde.kcfg:91
 #, kde-format
 msgid ""
 "Defines whether or not to display the 10 most popular phone number as "
@@ -2464,121 +2175,92 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (historySortMode), group (main)
-#: src/klib/ring-kde.kcfg:122
+#: src/klib/ring-kde.kcfg:94
 #, kde-format
 msgid "Define sorting order for history list"
 msgstr ""
 
 #. i18n: ectx: label, entry (contactSortMode), group (main)
-#: src/klib/ring-kde.kcfg:125
+#: src/klib/ring-kde.kcfg:97
 #, kde-format
 msgid "Define sorting order for contact list"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayPersonCallHistory), group (main)
-#: src/klib/ring-kde.kcfg:128
+#: src/klib/ring-kde.kcfg:100
 #, kde-format
 msgid "Defines if the individual contact history list is visible"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompletionHeight), group (main)
-#: src/klib/ring-kde.kcfg:132
+#: src/klib/ring-kde.kcfg:104
 #, kde-format
 msgid "The auto completion popup height"
 msgstr ""
 
 #. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
 #. i18n: ectx: label, entry (displayVideoPreview), group (main)
-#: src/klib/ring-kde.kcfg:138 src/klib/ring-kde.kcfg:142
+#: src/klib/ring-kde.kcfg:110 src/klib/ring-kde.kcfg:114
 #, kde-format
 msgid "Enforce video aspect ratio or allow stretching"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
-#: src/klib/ring-kde.kcfg:146
+#: src/klib/ring-kde.kcfg:118
 #, kde-format
 msgid "Save main window space by hiding the dialpad when the video is docked"
 msgstr ""
 
-#. i18n: ectx: label, entry (interface), group (main)
-#: src/klib/ring-kde.kcfg:154
+#. i18n: ectx: label, entry (recentStreamedFiles), group (main)
+#: src/klib/ring-kde.kcfg:122
 #, kde-format
-msgid "Defines the audio output to use."
+msgid "Files recently streamed"
 msgstr ""
-
-#. i18n: ectx: label, entry (alsaPlugin), group (main)
-#: src/klib/ring-kde.kcfg:161
-#, kde-format
-msgid "Defines which ALSA plugin to use."
-msgstr ""
-
-#. i18n: ectx: label, entry (alsaInputDevice), group (main)
-#: src/klib/ring-kde.kcfg:164
-#, kde-format
-msgid "Defines which ALSA Input device to use."
-msgstr ""
-
-#. i18n: ectx: label, entry (alsaOutputDevice), group (main)
-#: src/klib/ring-kde.kcfg:167
-#, kde-format
-msgid "Defines which ALSA Output device to use."
-msgstr ""
-
-#. i18n: ectx: label, entry (alsaRingtoneDevice), group (main)
-#: src/klib/ring-kde.kcfg:170
-#, kde-format
-msgid "Defines which ALSA Ringtone device to use."
-msgstr ""
-
-#. i18n: ectx: label, entry (pulseAudioVolumeAlter), group (main)
-#: src/klib/ring-kde.kcfg:173
-#, fuzzy, kde-format
-#| msgid "Mute other applications during a call"
-msgid "Defines whether pulse audio can mute other applications during a call."
-msgstr "當有來電時靜音其它應用程序"
 
 #. i18n: ectx: label, entry (enableRoomTone), group (main)
-#: src/klib/ring-kde.kcfg:176
+#: src/klib/ring-kde.kcfg:129
 #, kde-format
 msgid "Enable or disables the \"buzzzzz\" sound"
 msgstr ""
 
-#. i18n: ectx: label, entry (enableAddressBook), group (main)
-#. i18n: ectx: label, entry (phoneTypeList), group (main)
-#: src/klib/ring-kde.kcfg:184 src/klib/ring-kde.kcfg:197
-#, kde-format
-msgid "Defines whether the search in KDE Address Book is enabled"
-msgstr ""
-
 #. i18n: ectx: label, entry (displayAllCollections), group (main)
-#: src/klib/ring-kde.kcfg:188
+#: src/klib/ring-kde.kcfg:136
 #, kde-format
 msgid "Display non manageable collections"
 msgstr ""
 
 #. i18n: ectx: label, entry (disabledCollectionList), group (main)
-#: src/klib/ring-kde.kcfg:193
+#: src/klib/ring-kde.kcfg:141
 #, kde-format
 msgid "List of disabled address book collections"
 msgstr ""
 
-#. i18n: ectx: label, entry (displayOrganisation), group (main)
-#. i18n: ectx: label, entry (displayEmail), group (main)
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/klib/ring-kde.kcfg:145
+#, kde-format
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr ""
+
 #. i18n: ectx: label, entry (hidePersonWithoutPhone), group (main)
-#: src/klib/ring-kde.kcfg:202 src/klib/ring-kde.kcfg:207
-#: src/klib/ring-kde.kcfg:212
+#: src/klib/ring-kde.kcfg:150
 #, kde-format
 msgid "Defines whether to display the organisation of the contact list item"
 msgstr ""
 
+#. i18n: ectx: label, entry (defaultPeerProfileMode), group (main)
+#: src/klib/ring-kde.kcfg:155
+#, kde-format
+msgid "Defines how peer profiles are merged with existing contacts"
+msgstr ""
+
 #. i18n: ectx: tooltip, entry (hideUnreachable), group (main)
-#: src/klib/ring-kde.kcfg:218
+#: src/klib/ring-kde.kcfg:161
 #, kde-format
 msgid "Hide a contact if there is no enabled accounts that can reach him/her"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultAccountId), group (main)
-#: src/klib/ring-kde.kcfg:223
+#: src/klib/ring-kde.kcfg:166
 #, kde-format
 msgid ""
 "Default account used for contact lookup if only partial (only extension) "
@@ -2586,50 +2268,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (bookmarkList), group (main)
-#: src/klib/ring-kde.kcfg:244
+#: src/klib/ring-kde.kcfg:187
 #, kde-format
 msgid "List of bookmarked clients"
 msgstr ""
 
-#. i18n: ectx: label, entry (enableHooksSIP), group (main)
-#: src/klib/ring-kde.kcfg:250
-#, kde-format
-msgid "Defines whether to enable hooks for SIP accounts."
-msgstr ""
-
-#. i18n: ectx: label, entry (hooksSIPHeader), group (main)
-#: src/klib/ring-kde.kcfg:253
-#, kde-format
-msgid "Defines which header to catch for SIP accounts hooks."
-msgstr ""
-
-#. i18n: ectx: label, entry (hooksCommand), group (main)
-#: src/klib/ring-kde.kcfg:256
-#, kde-format
-msgid "Defines which command to execute."
-msgstr ""
-
-#. i18n: ectx: label, entry (addPrefix), group (main)
-#: src/klib/ring-kde.kcfg:259
-#, fuzzy, kde-format
-#| msgid "Mute other applications during a call"
-msgid "Defines whether to add a prefix for outgoing calls."
-msgstr "當有來電時靜音其它應用程序"
-
-#. i18n: ectx: label, entry (prepend), group (main)
-#: src/klib/ring-kde.kcfg:262
-#, kde-format
-msgid "Defines the prefix to add."
-msgstr ""
-
 #. i18n: ectx: label, entry (enableAutoCompletion), group (main)
-#: src/klib/ring-kde.kcfg:281
+#: src/klib/ring-kde.kcfg:206
 #, kde-format
 msgid "Enable auto completion widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
-#: src/klib/ring-kde.kcfg:285
+#: src/klib/ring-kde.kcfg:210
 #, kde-format
 msgid ""
 "If there is multiple instance of the same number, merge them and use the "
@@ -2637,182 +2288,76 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
-#: src/klib/ring-kde.kcfg:289
+#: src/klib/ring-kde.kcfg:214
 #, kde-format
 msgid ""
 "Call numbers back with their original account instead of the default one"
 msgstr ""
 
 #. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
-#: src/klib/ring-kde.kcfg:295
+#: src/klib/ring-kde.kcfg:220
 #, kde-format
 msgid "Track bookmarked contacts presence"
 msgstr ""
 
 #. i18n: ectx: label, entry (presenceStatusList), group (main)
-#: src/klib/ring-kde.kcfg:300
+#: src/klib/ring-kde.kcfg:225
 #, kde-format
 msgid "List of presence status"
 msgstr ""
 
 #. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
-#: src/klib/ring-kde.kcfg:303
+#: src/klib/ring-kde.kcfg:228
 #, kde-format
 msgid "List of item collections automatically tracked"
 msgstr ""
 
-#: src/main.cpp:47
+#. i18n: ectx: label, entry (displayRecentDock), group (main)
+#: src/klib/ring-kde.kcfg:245
+#, kde-format
+msgid "Display the recently used contacts"
+msgstr ""
+
+#: src/main.cpp:50
 #, kde-format
 msgid "ring-kde"
 msgstr ""
 
-#: src/main.cpp:49
+#: src/main.cpp:52
 #, kde-format
 msgid "RING, a secured and distributed communication software"
 msgstr ""
 
-#: src/main.cpp:51
+#: src/main.cpp:54
 #, fuzzy, kde-format
 #| msgid "(C) 2009 Savoir-faire Linux"
-msgid "(C) 2004-2015 Savoir-faire Linux"
+msgid ""
+"(C) 2004-2015 Savoir-faire Linux\n"
+"2016-2017 Emmanuel Lepage Vallee"
 msgstr "(C) 2009 Savoir-faire Linux"
 
-#: src/main.cpp:58
+#: src/main.cpp:61
 #, kde-format
 msgid "Emmanuel Lepage-Vallée"
 msgstr ""
 
-#: src/main.cpp:59
+#: src/main.cpp:62
 #, kde-format
 msgid "Alexandre Lision"
 msgstr ""
 
-#: src/main.cpp:60
+#: src/main.cpp:63
 #, kde-format
 msgid "Based on the SFLphone teamworks"
 msgstr ""
 
-#: src/mainwindow.cpp:113
-#, kde-format
-msgid "Home"
-msgstr "家庭電話"
-
-#: src/mainwindow.cpp:114
-#, kde-format
-msgid "Work"
-msgstr "單位電話"
-
-#: src/mainwindow.cpp:115
-#, kde-format
-msgid "Msg"
-msgstr ""
-
-#: src/mainwindow.cpp:116
-#, kde-format
-msgid "Pref"
-msgstr ""
-
-#: src/mainwindow.cpp:117
-#, fuzzy, kde-format
-#| msgid "Voicemail"
-msgid "Voice"
-msgstr "語音郵件"
-
-#: src/mainwindow.cpp:118
-#, kde-format
-msgid "Fax"
-msgstr ""
-
-#: src/mainwindow.cpp:119
-#, kde-format
-msgid "Cell"
-msgstr ""
-
-#: src/mainwindow.cpp:121
-#, kde-format
-msgid "Bbs"
-msgstr ""
-
-#: src/mainwindow.cpp:122
-#, kde-format
-msgid "Modem"
-msgstr ""
-
-#: src/mainwindow.cpp:123
-#, kde-format
-msgid "Car"
-msgstr ""
-
-#: src/mainwindow.cpp:124
-#, kde-format
-msgid "Isdn"
-msgstr ""
-
-#: src/mainwindow.cpp:125
-#, kde-format
-msgid "Pcs"
-msgstr ""
-
-#: src/mainwindow.cpp:126
-#, kde-format
-msgid "Pager"
-msgstr ""
-
-#: src/mainwindow.cpp:127
-#, kde-format
-msgid "Preferred"
-msgstr ""
-
-#: src/mainwindow.cpp:183
-#, fuzzy, kde-format
-#| msgid "Bad authentification"
-msgid "System root certificates"
-msgstr "認證錯誤"
-
-#: src/mainwindow.cpp:213
-#, fuzzy, kde-format
-#| msgid "Ringtones"
-msgid "Ring"
-msgstr "鈴聲"
-
-#: src/mainwindow.cpp:228
-#, fuzzy, kde-format
-#| msgid "_Call"
-msgctxt "Call tab"
-msgid "Call"
-msgstr "電話"
-
-#: src/mainwindow.cpp:316
-#, kde-format
-msgctxt "The presence state is \"Online\""
-msgid "Online"
-msgstr ""
-
-#: src/mainwindow.cpp:326
-#, kde-format
-msgid "Your Ring ID:"
-msgstr ""
-
-#: src/mainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgid "Account"
-msgid "Account:"
-msgstr "帳戶"
-
-#: src/mainwindow.cpp:368
-#, kde-format
-msgid ""
-"The Ring daemon (dring) is not available. Please be sure it is installed "
-"correctly or launch it manually"
-msgstr ""
-
-#: src/notification.cpp:82
+#: src/notification.cpp:83
 #, fuzzy, kde-format
 #| msgid "On incoming calls"
 msgid "New incoming call"
 msgstr "有新來電"
 
-#: src/notification.cpp:84
+#: src/notification.cpp:85
 #, fuzzy, kde-format
 #| msgid "New call"
 msgid ""
@@ -2820,63 +2365,170 @@ msgid ""
 "<i>(%2)</i>"
 msgstr "新電話"
 
-#: src/notification.cpp:91
+#: src/notification.cpp:92
 #, kde-format
 msgid "Answer"
 msgstr ""
 
-#: src/notification.cpp:142
+#: src/notification.cpp:143
 #, kde-format
 msgid "Message from %1"
 msgstr ""
 
-#: src/notification.cpp:183
+#: src/notification.cpp:184
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "Add %1 to contacts?"
 msgstr "增加新帳戶"
 
-#: src/notification.cpp:185
+#: src/notification.cpp:186
 #, kde-format
 msgid "Do you wish to add %1 to your addressbook?"
 msgstr ""
 
-#: src/notification.cpp:189
+#: src/notification.cpp:190
 #, kde-format
 msgid "Yes"
 msgstr ""
 
-#: src/notification.cpp:190
+#: src/notification.cpp:191
 #, kde-format
 msgid "No"
 msgstr ""
 
-#: src/notification.cpp:191
+#: src/notification.cpp:192
 #, kde-format
 msgid "Do not ask again"
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_pSendMessageLE)
-#: src/ui/View_base.ui:69
+#: src/phonewindow.cpp:98
 #, fuzzy, kde-format
-#| msgid "On messages"
-msgid "Send text message"
-msgstr "有新消息"
+#| msgid "Ringtones"
+msgid "Ring"
+msgstr "鈴聲"
 
-#. i18n: ectx: property (text), widget (QToolButton, m_pSendMessagePB)
-#: src/ui/View_base.ui:79
+#: src/phonewindow.cpp:114
+#, fuzzy, kde-format
+#| msgid "_Call"
+msgctxt "Call tab"
+msgid "Call"
+msgstr "電話"
+
+#: src/phonewindow.cpp:211
 #, kde-format
-msgid "Send"
+msgctxt "The presence state is \"Online\""
+msgid "Online"
+msgstr ""
+
+#: src/phonewindow.cpp:221
+#, kde-format
+msgid "Your Ring ID:"
+msgstr ""
+
+#: src/phonewindow.cpp:241
+#, fuzzy, kde-format
+#| msgid "Account"
+msgid "Account:"
+msgstr "帳戶"
+
+#: src/ringapplication.cpp:184
+#, kde-format
+msgid "Home"
+msgstr "家庭電話"
+
+#: src/ringapplication.cpp:185
+#, kde-format
+msgid "Work"
+msgstr "單位電話"
+
+#: src/ringapplication.cpp:186
+#, kde-format
+msgid "Msg"
+msgstr ""
+
+#: src/ringapplication.cpp:187
+#, kde-format
+msgid "Pref"
+msgstr ""
+
+#: src/ringapplication.cpp:188
+#, fuzzy, kde-format
+#| msgid "Voicemail"
+msgid "Voice"
+msgstr "語音郵件"
+
+#: src/ringapplication.cpp:189
+#, kde-format
+msgid "Fax"
+msgstr ""
+
+#: src/ringapplication.cpp:190
+#, kde-format
+msgid "Cell"
+msgstr ""
+
+#: src/ringapplication.cpp:192
+#, kde-format
+msgid "Bbs"
+msgstr ""
+
+#: src/ringapplication.cpp:193
+#, kde-format
+msgid "Modem"
+msgstr ""
+
+#: src/ringapplication.cpp:194
+#, kde-format
+msgid "Car"
+msgstr ""
+
+#: src/ringapplication.cpp:195
+#, kde-format
+msgid "Isdn"
+msgstr ""
+
+#: src/ringapplication.cpp:196
+#, kde-format
+msgid "Pcs"
+msgstr ""
+
+#: src/ringapplication.cpp:197
+#, kde-format
+msgid "Pager"
+msgstr ""
+
+#: src/ringapplication.cpp:198
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: src/ringapplication.cpp:240
+#, fuzzy, kde-format
+#| msgid "Bad authentification"
+msgid "System root certificates"
+msgstr "認證錯誤"
+
+#: src/timelinewindow.cpp:74
+#, fuzzy, kde-format
+#| msgid "Edit phone"
+msgctxt "View contact tab"
+msgid "View contact"
+msgstr "編輯電話"
+
+#: src/timelinewindow.cpp:80
+#, kde-format
+msgctxt "Bookmark tab"
+msgid "Timeline"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, slider_recVol)
-#: src/ui/View_base.ui:124
+#: src/ui/View_base.ui:92
 #, kde-format
 msgid "Mic volume"
 msgstr "話筒音量"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, slider_sndVol)
-#: src/ui/View_base.ui:174
+#: src/ui/View_base.ui:142
 #, kde-format
 msgid "Speakers volume"
 msgstr "揚聲器音量"
@@ -2980,7 +2632,7 @@ msgid "Create your account"
 msgstr "當前帳戶"
 
 #. i18n: ectx: property (text), widget (QLabel, searchingStateLabel)
-#: src/widgets/ui/accountcreator.ui:167 src/widgets/wizard.cpp:158
+#: src/widgets/ui/accountcreator.ui:167
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Searching..."
@@ -2998,18 +2650,21 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, DirectoryView)
+#. i18n: ectx: property (windowTitle), widget (QDialog, PersonSelector)
+#. i18n: ectx: property (windowTitle), widget (QDialog, ContactMethodSelector)
+#: src/widgets/ui/contactmethodselector.ui:14
+#: src/widgets/ui/directoryview.ui:14 src/widgets/ui/personselector.ui:14
+#, fuzzy, kde-format
+#| msgid "_Dialpad"
+msgid "Dialog"
+msgstr "撥號面板"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/widgets/ui/contactmethodselector.ui:20
 #, kde-format
 msgid "Existing"
 msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
-#: src/widgets/ui/contactmethodselector.ui:29
-#: src/widgets/ui/personselector.ui:36
-#, kde-format
-msgid "Search"
-msgstr "搜尋"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/widgets/ui/contactmethodselector.ui:39
@@ -3017,11 +2672,28 @@ msgstr "搜尋"
 msgid "New"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/contactmethodselector.ui:45
+#, fuzzy, kde-format
+#| msgid "Edit phone number"
+msgid "Phone number"
+msgstr "編輯電話號碼"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/widgets/ui/contactmethodselector.ui:55
 #, kde-format
 msgid "Account"
 msgstr "帳戶"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/directoryview.ui:53
+#, kde-format
+msgid ""
+"This dialog is an overview of Ring-KDE phonebook. Some elements may exist "
+"multiple time if they are associated with multiple account or contacts. The "
+"elements present in this table come from the history, contacts and other "
+"sources."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pElapsed)
 #. i18n: ectx: property (text), widget (QLabel, m_pLeft)
@@ -3043,7 +2715,7 @@ msgid "Absent"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pCustomMessageCK)
-#: src/widgets/ui/presence.ui:34 src/widgets/videodock.cpp:109
+#: src/widgets/ui/presence.ui:34 src/widgets/videodock.cpp:111
 #, kde-format
 msgid "Custom"
 msgstr ""
@@ -3096,6 +2768,13 @@ msgstr ""
 msgid ""
 "This is your hash. You can share it with your friends so they can call you:"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pEmail)
+#: src/widgets/ui/share.ui:62
+#, fuzzy, kde-format
+#| msgid "_Email"
+msgid "Email"
+msgstr "郵件(E)"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pCopy)
 #: src/widgets/ui/share.ui:73
@@ -3192,37 +2871,155 @@ msgstr ""
 msgid "Device:"
 msgstr ""
 
-#: src/widgets/videodock.cpp:274
+#: src/widgets/videodock.cpp:290
 #, kde-format
 msgid "Full screen video"
 msgstr ""
 
-#: src/widgets/wizard.cpp:243
-#, kde-format
-msgid "Username is available"
-msgstr ""
+#, fuzzy
+#~| msgid "Voicemail"
+#~ msgctxt "Account voice mail address"
+#~ msgid "Voicemail"
+#~ msgstr "語音郵件"
 
-#: src/widgets/wizard.cpp:247
-#, kde-format
-msgid "Username not available"
-msgstr ""
+#, fuzzy
+#~| msgid "Edit phone number"
+#~ msgid "Street, number..."
+#~ msgstr "編輯電話號碼"
 
-#: src/widgets/wizard.cpp:249
-#, fuzzy, kde-format
-#| msgid "Stun server invalid"
-msgid "Username is invalid"
-msgstr "Stun伺服器無效"
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name"
+#~ msgstr "名稱"
 
-#: src/widgets/wizard.cpp:251
-#, fuzzy, kde-format
-#| msgid "Network unreachable"
-msgid "Network error"
-msgstr "網路連線失敗"
+#~ msgid "Hooks"
+#~ msgstr "鉤鍵"
 
-#: src/widgets/wizard.cpp:399
-#, kde-format
-msgid "Your account has been created, but we could not register your username."
-msgstr ""
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name*"
+#~ msgstr "名稱"
+
+#, fuzzy
+#~| msgid "Frequency"
+#~ msgid "Sequence*"
+#~ msgstr "顰律"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "已註冊"
+
+#, fuzzy
+#~| msgid "Configure SFLphone"
+#~ msgid "Shortcut"
+#~ msgstr "配置SFLphone"
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgid "Add collection"
+#~ msgstr "連接"
+
+#, fuzzy
+#~| msgid "SIP account configuration"
+#~ msgid "Configuration"
+#~ msgstr "SIP帳戶配置"
+
+#, fuzzy
+#~ msgid "Content"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~ msgid "Display Icon"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~| msgid "Clear history"
+#~ msgid "Display Security"
+#~ msgstr "清空曆史記錄"
+
+#, fuzzy
+#~ msgid "Display Call Number"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~ msgid "Display Peer Name"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~ msgid "Display organisation"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~ msgid "Display e-mail"
+#~ msgstr "顯示"
+
+#, fuzzy
+#~| msgid "Desktop Notifications"
+#~ msgid "Notifications"
+#~ msgstr "桌面提示"
+
+#~ msgid "On messages"
+#~ msgstr "有新消息"
+
+#, fuzzy
+#~| msgid "Optional email address"
+#~ msgid "Display email address"
+#~ msgstr "可選郵件地址"
+
+#~ msgid "URL Argument"
+#~ msgstr "URL參數"
+
+#~ msgid "Custom commands on incoming calls with URL"
+#~ msgstr "定制對帶有URL的來電的處理"
+
+#~ msgid "Trigger on specific SIP header"
+#~ msgstr "激活指定的SIP頭"
+
+#~ msgid "Trigger on IAX2 URL"
+#~ msgstr "激活IAX2 URL"
+
+#~ msgid "Command to run"
+#~ msgstr "要運行的命令"
+
+#~ msgid "%s will be replaced with the passed URL."
+#~ msgstr "傳輸的URL會被替換成%s."
+
+#~ msgid "Phone Number Rewriting"
+#~ msgstr "重設電話號碼"
+
+#~ msgid "Prefix dialed numbers with"
+#~ msgstr "號碼前綴"
+
+#, fuzzy
+#~| msgid "ALSA configuration"
+#~ msgid "Device Configuration"
+#~ msgstr "ALSA 配置"
+
+#, fuzzy
+#~| msgid "Mute other applications during a call"
+#~ msgid ""
+#~ "Defines whether pulse audio can mute other applications during a call."
+#~ msgstr "當有來電時靜音其它應用程序"
+
+#, fuzzy
+#~| msgid "Mute other applications during a call"
+#~ msgid "Defines whether to add a prefix for outgoing calls."
+#~ msgstr "當有來電時靜音其它應用程序"
+
+#, fuzzy
+#~| msgid "On messages"
+#~ msgid "Send text message"
+#~ msgstr "有新消息"
+
+#, fuzzy
+#~| msgid "Stun server invalid"
+#~ msgid "Username is invalid"
+#~ msgstr "Stun伺服器無效"
+
+#, fuzzy
+#~| msgid "Network unreachable"
+#~ msgid "Network error"
+#~ msgstr "網路連線失敗"
 
 #, fuzzy
 #~| msgid "Default account"
@@ -3248,11 +3045,6 @@ msgstr ""
 #~| msgid "_Email"
 #~ msgid "Send Email"
 #~ msgstr "郵件(E)"
-
-#, fuzzy
-#~| msgid "Edit phone"
-#~ msgid "Edit contact"
-#~ msgstr "編輯電話"
 
 #, fuzzy
 #~| msgid "Edit phone number"
