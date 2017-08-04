@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-02 07:03+0200\n"
+"POT-Creation-Date: 2017-08-04 03:18+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1709,17 +1709,8 @@ msgstr "音訊配置"
 msgid "Peer profile configurator"
 msgstr "IAX2帳戶配置"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, PeerProfile)
-#. i18n: ectx: property (windowTitle), widget (QWidget, Bookmark)
-#. i18n: ectx: property (windowTitle), widget (QWidget, Recording)
-#: src/configurator/bookmark.ui:14 src/configurator/peerprofile.ui:14
-#: src/configurator/recording.ui:14
-#, kde-format
-msgid "Form"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#: src/configurator/bookmark.ui:20
+#: src/configurator/bookmark.ui:17
 #, kde-format
 msgid "Clear"
 msgstr ""
@@ -1736,7 +1727,7 @@ msgid "Local history configurator"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configurator/peerprofile.ui:20
+#: src/configurator/peerprofile.ui:17
 #, kde-format
 msgid ""
 "This entry holds all the contact information sent to you by your peers "
@@ -1745,116 +1736,116 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/configurator/peerprofile.ui:30
+#: src/configurator/peerprofile.ui:27
 #, kde-format
 msgid "Mode"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pNewContact)
-#: src/configurator/peerprofile.ui:36
+#: src/configurator/peerprofile.ui:33
 #, fuzzy, kde-format
 #| msgid "Current account"
 msgid "Create a new contact"
 msgstr "當前帳戶"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pIgnore)
-#: src/configurator/peerprofile.ui:43
+#: src/configurator/peerprofile.ui:40
 #, kde-format
 msgid "Ignore the new contact informations"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pAddMissing)
-#: src/configurator/peerprofile.ui:50
+#: src/configurator/peerprofile.ui:47
 #, kde-format
 msgid "Onl&y add the missing information fields"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pAlwaysAsk)
-#: src/configurator/peerprofile.ui:57
+#: src/configurator/peerprofile.ui:54
 #, fuzzy, kde-format
 #| msgid "Record a call"
 msgid "Always as&k"
 msgstr "記錄通話"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pCustom)
-#: src/configurator/peerprofile.ui:64
+#: src/configurator/peerprofile.ui:61
 #, kde-format
 msgid "Overwrite some fields"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configurator/peerprofile.ui:77
+#: src/configurator/peerprofile.ui:74
 #, kde-format
 msgid "Contact fields to overwrite"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_formattedName)
-#: src/configurator/peerprofile.ui:83
+#: src/configurator/peerprofile.ui:80
 #, kde-format
 msgid "Formatted name"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_nickname)
-#: src/configurator/peerprofile.ui:90
+#: src/configurator/peerprofile.ui:87
 #, kde-format
 msgid "Nickname"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_primaryName)
-#: src/configurator/peerprofile.ui:97
+#: src/configurator/peerprofile.ui:94
 #, fuzzy, kde-format
 msgid "Primary name"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_lastName)
-#: src/configurator/peerprofile.ui:104
+#: src/configurator/peerprofile.ui:101
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Last name"
 msgstr "名稱"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_email)
-#: src/configurator/peerprofile.ui:111
+#: src/configurator/peerprofile.ui:108
 #, fuzzy, kde-format
 #| msgid "Mailbox"
 msgid "eMail"
 msgstr "語音郵件"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_org)
-#: src/configurator/peerprofile.ui:118
+#: src/configurator/peerprofile.ui:115
 #, fuzzy, kde-format
 msgid "Organization"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:125
+#: src/configurator/peerprofile.ui:122
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:132
+#: src/configurator/peerprofile.ui:129
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
 msgstr "編輯電話號碼"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/configurator/recording.ui:39
+#: src/configurator/recording.ui:36
 #, kde-format
-msgid "Lenght:"
+msgid "Length:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/configurator/recording.ui:68
+#: src/configurator/recording.ui:65
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete"
 msgstr "編輯電話"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/configurator/recording.ui:80
+#: src/configurator/recording.ui:77
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Last updated:"
@@ -1862,7 +1853,7 @@ msgstr "名稱"
 
 #. i18n: ectx: property (placeholderText), widget (FilterLineEdit, lineEdit)
 #. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
-#: src/configurator/recording.ui:94 src/widgets/ui/contactmethodselector.ui:29
+#: src/configurator/recording.ui:91 src/widgets/ui/contactmethodselector.ui:29
 #: src/widgets/ui/personselector.ui:36
 #, kde-format
 msgid "Search"
@@ -2690,8 +2681,8 @@ msgstr "帳戶"
 #, kde-format
 msgid ""
 "This dialog is an overview of Ring-KDE phonebook. Some elements may exist "
-"multiple time if they are associated with multiple account or contacts. The "
-"elements present in this table come from the history, contacts and other "
+"multiple times if they are associated with multiple accounts or contacts. "
+"The elements present in this table come from the history, contacts and other "
 "sources."
 msgstr ""
 
