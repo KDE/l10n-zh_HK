@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-24 03:20+0200\n"
+"POT-Creation-Date: 2017-08-29 03:07+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -293,6 +293,62 @@ msgstr "配置SFLphone"
 msgid "Configure Notifications"
 msgstr "桌面提示"
 
+#: src/callview/qml/callbackground.qml:32
+#, kde-format
+msgid "[No video]"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/callview/qml/devicesetting.qml:34
+#: src/widgets/ui/videodevicesetting.ui:77
+#, kde-format
+msgid "Device"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/callview/qml/devicesetting.qml:44
+#: src/widgets/ui/videodevicesetting.ui:40
+#, kde-format
+msgid "Channel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/callview/qml/devicesetting.qml:54
+#: src/widgets/ui/videodevicesetting.ui:67
+#, fuzzy, kde-format
+msgid "Resolution"
+msgstr "已註冊"
+
+#: src/callview/qml/devicesetting.qml:64
+#, kde-format
+msgid "Frame rate"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:31
+#, kde-format
+msgid "Screen"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:41
+#, kde-format
+msgid "X offset"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:52
+#, kde-format
+msgid "Y offset"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:63
+#, kde-format
+msgid "Width"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:74
+#, kde-format
+msgid "Height"
+msgstr ""
+
 #: src/cmd.cpp:62
 #, kde-format
 msgid "Place a call to a given number"
@@ -480,6 +536,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:99 src/conf/accountpages/tabs.ui:31
+#: src/timeline/qml/contactinfo.qml:188
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -491,7 +548,7 @@ msgid "Basic"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/accountpages/advanced.ui:17
+#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:437
 #, fuzzy, kde-format
 msgid "Registration"
 msgstr "已註冊"
@@ -846,6 +903,7 @@ msgstr "刪除"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
 #: src/conf/accountpages/credentials.ui:109
+#: src/timeline/qml/contactinfo.qml:208
 #, kde-format
 msgid "Details"
 msgstr ""
@@ -1586,7 +1644,7 @@ msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgpresence.ui:77
+#: src/conf/dlgpresence.ui:77 src/timeline/qml/phonenumbers.qml:167
 #, fuzzy, kde-format
 #| msgid "Add"
 msgid "Add"
@@ -1741,14 +1799,14 @@ msgid "Organization"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:122
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:216
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:213
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -1873,6 +1931,7 @@ msgid "%1 is not unregistered"
 msgstr "未註冊"
 
 #: src/fancymainwindow.cpp:128 src/phonewindow.cpp:415
+#: src/timeline/qml/contactheader.qml:151
 #, fuzzy, kde-format
 #| msgid "_Call"
 msgid "Call"
@@ -1895,6 +1954,7 @@ msgid "History"
 msgstr "歷史"
 
 #: src/fancymainwindow.cpp:152 src/ringapplication.cpp:203
+#: src/timeline/qml/contactheader.qml:161
 #, kde-format
 msgid "Video"
 msgstr ""
@@ -2442,6 +2502,110 @@ msgstr ""
 msgid "System root certificates"
 msgstr "認證錯誤"
 
+#: src/timeline/qml/chatbox.qml:171
+#, kde-format
+msgid "Write a message and press enter..."
+msgstr ""
+
+#: src/timeline/qml/contactheader.qml:170
+#, kde-format
+msgid "Screen sharing"
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:78
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:81
+#, kde-format
+msgid "<b>Last contacted on:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:85
+#, kde-format
+msgid "<b>Called:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:90
+#, kde-format
+msgid "<b>Texted:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:220
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Statistics"
+msgstr "狀態"
+
+#: src/timeline/qml/contactinfo.qml:252
+#, fuzzy, kde-format
+#| msgid "Format: name.server:port"
+msgid "Formatted name:"
+msgstr "格式：name.server:port"
+
+#: src/timeline/qml/contactinfo.qml:263
+#, fuzzy, kde-format
+msgid "Primary name:"
+msgstr "顯示"
+
+#: src/timeline/qml/contactinfo.qml:274
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Last name:"
+msgstr "名稱"
+
+#: src/timeline/qml/contactinfo.qml:285
+#, fuzzy, kde-format
+#| msgid "_Email"
+msgid "Email:"
+msgstr "郵件(E)"
+
+#: src/timeline/qml/contactinfo.qml:296
+#, fuzzy, kde-format
+msgid "Organization:"
+msgstr "顯示"
+
+#: src/timeline/qml/contactinfo.qml:388
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/timeline/qml/peerstimeline.qml:88
+#, kde-format
+msgid "Find someone"
+msgstr ""
+
+#: src/timeline/qml/peerstimeline.qml:139
+#, kde-format
+msgid ""
+"To begin using Ring-KDE, enter an username in the box above and press enter "
+"or add new contacts"
+msgstr ""
+
+#: src/timeline/qml/viewcontact.qml:147
+#, fuzzy, kde-format
+#| msgid "SIP account configuration"
+msgid "Information"
+msgstr "SIP帳戶配置"
+
+#: src/timeline/qml/viewcontact.qml:150
+#, fuzzy, kde-format
+msgid "Audio/Video"
+msgstr "音頻"
+
+#: src/timeline/qml/viewcontact.qml:153
+#, kde-format
+msgid "Chat/Timeline"
+msgstr ""
+
+#: src/timeline/qml/viewcontact.qml:156
+#, fuzzy, kde-format
+#| msgctxt "Config section"
+#| msgid "Recordings"
+msgid "Calls/Recordings"
+msgstr "記錄"
+
 #: src/timelinewindow.cpp:74
 #, fuzzy, kde-format
 #| msgid "Edit phone"
@@ -2822,31 +2986,13 @@ msgid "Rate"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/widgets/ui/videodevicesetting.ui:40
-#, kde-format
-msgid "Channel"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/widgets/ui/videodevicesetting.ui:67
-#, fuzzy, kde-format
-msgid "Resolution"
-msgstr "已註冊"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/widgets/ui/videodevicesetting.ui:77
-#, kde-format
-msgid "Device"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/widgets/ui/welcome.ui:64
 #, kde-format
 msgid "Welcome! To starting using Ring-KDE, please tell us who you are:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pNext)
-#: src/widgets/ui/welcome.ui:80
+#: src/widgets/ui/welcome.ui:80 src/wizard/qml/ButtonBar.qml:71
 #, kde-format
 msgid "Next"
 msgstr ""
@@ -2859,6 +3005,264 @@ msgstr ""
 #: src/widgets/videodock.cpp:290
 #, kde-format
 msgid "Full screen video"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:43
+#, kde-format
+msgid "Back"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:61
+#, kde-format
+msgid "Please fill the required fields"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:78
+#, kde-format
+msgid "Skip"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:120
+#, kde-format
+msgid "Please wait"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:77
+#, kde-format
+msgid "Register public username (experimental)*"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:90
+#, fuzzy, kde-format
+#| msgid "Edit phone number"
+msgid "Enter an username"
+msgstr "編輯電話號碼"
+
+#: src/wizard/qml/CreateRing.qml:160 src/wizard/qml/CreateRing.qml:383
+#, kde-format
+msgid "Please enter an username"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:180
+#, kde-format
+msgid "Enter an archive password"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:203
+#, kde-format
+msgid "Repeat the new password"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:221
+#, kde-format
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:256
+#, kde-format
+msgid ""
+"(*) registered usernames can be reached by their username-string instead of "
+"their generated ring-id number only."
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:284
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Creating account"
+msgstr "當前帳戶"
+
+#: src/wizard/qml/CreateRing.qml:311 src/wizard/qml/ImportRing.qml:157
+#, kde-format
+msgid "Timeout"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:379
+#, fuzzy, kde-format
+#| msgid "Stun server invalid"
+msgid "The username is available"
+msgstr "Stun伺服器無效"
+
+#: src/wizard/qml/CreateRing.qml:388
+#, fuzzy, kde-format
+#| msgid "Stun server invalid"
+msgid "The username is not available"
+msgstr "Stun伺服器無效"
+
+#: src/wizard/qml/CreateRing.qml:411
+#, kde-format
+msgid "Success"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:416
+#, fuzzy, kde-format
+#| msgid "Password"
+msgid "Password mismatch"
+msgstr "密碼"
+
+#: src/wizard/qml/CreateRing.qml:419
+#, fuzzy, kde-format
+#| msgid "Invalid"
+msgid "Invalid name"
+msgstr "無效"
+
+#: src/wizard/qml/CreateRing.qml:422
+#, kde-format
+msgid "Already taken"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:425
+#, fuzzy, kde-format
+#| msgid "Network unreachable"
+msgid "Network error"
+msgstr "網路連線失敗"
+
+#: src/wizard/qml/CreateRing.qml:442
+#, fuzzy, kde-format
+#| msgctxt "account state"
+#| msgid "Not Registered"
+msgid "Can't register"
+msgstr "未註冊"
+
+#: src/wizard/qml/frontpage.qml:26
+#, kde-format
+msgid "Hello World"
+msgstr ""
+
+#: src/wizard/qml/frontpage.qml:38
+#, kde-format
+msgid "Second page"
+msgstr ""
+
+#: src/wizard/qml/frontpage.qml:48
+#, kde-format
+msgid "First"
+msgstr ""
+
+#: src/wizard/qml/frontpage.qml:51
+#, kde-format
+msgid "Second"
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:60
+#, kde-format
+msgid "Link this device"
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:79
+#, kde-format
+msgid "Enter your main Ring account password"
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:95
+#, kde-format
+msgid ""
+"Enter the PIN number form another configured Ring account. Use the \"Export "
+"account on Ring\" feature to obtain a PIN."
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:130
+#, fuzzy, kde-format
+#| msgid "Remove the selected account"
+msgid "Importing account"
+msgstr "刪除所選賬戶"
+
+#: src/wizard/qml/ImportRing.qml:181
+#, kde-format
+msgid "Importing failed"
+msgstr ""
+
+#: src/wizard/qml/main.qml:25
+#, kde-format
+msgid "Ring-KDE wizard"
+msgstr ""
+
+#: src/wizard/qml/main.qml:226 src/wizard/qml/Page1Form.ui.qml:79
+#, fuzzy, kde-format
+#| msgid "Remove the selected account"
+msgid "Import a SIP account"
+msgstr "刪除所選賬戶"
+
+#: src/wizard/qml/Page1Form.ui.qml:47
+#, kde-format
+msgid ""
+"Welcome to Ring-KDE. Before you can contact your friend, you have to have an "
+"account. Don't worry, creating one is easy and doesn't require sharing any "
+"personal information. If you are in an office or your phone service provider "
+"offers a SIP account, you can also configure Ring-KDE to take your \"real\" "
+"phone calls"
+msgstr ""
+
+#: src/wizard/qml/Page1Form.ui.qml:57
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Create a new GNU Ring account"
+msgstr "當前帳戶"
+
+#: src/wizard/qml/Page1Form.ui.qml:64
+#, fuzzy, kde-format
+#| msgid "Remove the selected account"
+msgid "Import an existing account"
+msgstr "刪除所選賬戶"
+
+#: src/wizard/qml/Page1Form.ui.qml:71
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Use an anonymous account"
+msgstr "當前帳戶"
+
+#: src/wizard/qml/Page1Form.ui.qml:87
+#, kde-format
+msgid "Use on local network"
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:103
+#, kde-format
+msgid ""
+"Ring-KDE allows you to communicate privately with your friends. It uses peer "
+"to peer technologies popularised by BitTorrent to create a decentralized "
+"network of users. There is no central server and all communications are end-"
+"to-end encrypted. "
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:120
+#, kde-format
+msgid ""
+"Ring-KDE stores all data locally using standard formats such as JSON, vCard, "
+"MIME, PCM/WAV, INI ans X-509. No data is ever uploaded to external servers."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:137
+#, kde-format
+msgid ""
+"Ring-KDE supports your office phone account. Answers, transfer and record "
+"your phone calls directly from KDE"
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:154
+#, kde-format
+msgid ""
+"Ring is based on open standards and is can interoperate with other SIP "
+"compliant systems."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:171
+#, kde-format
+msgid ""
+"Ring offers an user friendly DBus API to automate all aspects of the "
+"application."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:188
+#, kde-format
+msgid ""
+"Ring-KDE can call real phone numbers. Cheap credits are available from "
+"thousand of providers worldwide. Use your favorite search engine to locate a "
+"local SIP phone provider."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:198
+#, kde-format
+msgid "Press anywhere to begin"
 msgstr ""
 
 #, fuzzy
@@ -2903,11 +3307,6 @@ msgstr ""
 #~| msgid "Connection"
 #~ msgid "Add collection"
 #~ msgstr "連接"
-
-#, fuzzy
-#~| msgid "SIP account configuration"
-#~ msgid "Configuration"
-#~ msgstr "SIP帳戶配置"
 
 #, fuzzy
 #~ msgid "Content"
@@ -2995,16 +3394,6 @@ msgstr ""
 #~| msgid "On messages"
 #~ msgid "Send text message"
 #~ msgstr "有新消息"
-
-#, fuzzy
-#~| msgid "Stun server invalid"
-#~ msgid "Username is invalid"
-#~ msgstr "Stun伺服器無效"
-
-#, fuzzy
-#~| msgid "Network unreachable"
-#~ msgid "Network error"
-#~ msgstr "網路連線失敗"
 
 #, fuzzy
 #~| msgid "Default account"
@@ -3356,11 +3745,6 @@ msgstr ""
 #~ msgstr "回叫"
 
 #, fuzzy
-#~| msgid "Edit phone number"
-#~ msgid "Enter transfer number"
-#~ msgstr "編輯電話號碼"
-
-#, fuzzy
 #~| msgid "Unknown"
 #~ msgctxt "Unknown peer"
 #~ msgid "Unknown"
@@ -3433,9 +3817,6 @@ msgstr ""
 
 #~ msgid "Stun configuration error"
 #~ msgstr "Stun配置有誤"
-
-#~ msgid "Invalid"
-#~ msgstr "無效"
 
 #~ msgid "Codec"
 #~ msgstr "編碼"
@@ -3755,10 +4136,6 @@ msgstr ""
 #~ msgstr "已註冊"
 
 #~ msgctxt "account state"
-#~ msgid "Not Registered"
-#~ msgstr "未註冊"
-
-#~ msgctxt "account state"
 #~ msgid "Trying..."
 #~ msgstr "正在連接..."
 
@@ -3793,10 +4170,6 @@ msgstr ""
 #~ msgctxt "Config section"
 #~ msgid "Address Book"
 #~ msgstr "地址簿"
-
-#~ msgctxt "Config section"
-#~ msgid "Recordings"
-#~ msgstr "記錄"
 
 #~ msgctxt "Config section"
 #~ msgid "Hooks"
@@ -3904,9 +4277,6 @@ msgstr ""
 
 #~ msgid "Enable it if you are behind a firewall"
 #~ msgstr "當使用防火牆時，需要設定此項"
-
-#~ msgid "Format: name.server:port"
-#~ msgstr "格式：name.server:port"
 
 #~ msgid "Port:"
 #~ msgstr "端口:"
