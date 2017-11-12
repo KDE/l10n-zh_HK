@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-11-11 03:15+0100\n"
+"POT-Creation-Date: 2017-11-12 03:10+0100\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -53,7 +53,7 @@ msgid "Execute action after all downloads have been finished:"
 msgstr "所有下載已完成。"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: conf/dlgadvanced.ui:34 mainwindow.cpp:366 ui/droptarget.cpp:91
+#: conf/dlgadvanced.ui:34 mainwindow.cpp:365 ui/droptarget.cpp:91
 #, fuzzy, kde-format
 #| msgid "KGet"
 msgid "Quit KGet"
@@ -348,17 +348,17 @@ msgstr ""
 msgid "Sqlite"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:59 mainwindow.cpp:372
+#: conf/preferencesdialog.cpp:59 mainwindow.cpp:371
 #, kde-format
 msgid "Turn Off Computer"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:60 mainwindow.cpp:377
+#: conf/preferencesdialog.cpp:60 mainwindow.cpp:376
 #, kde-format
 msgid "Hibernate Computer"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:61 mainwindow.cpp:382
+#: conf/preferencesdialog.cpp:61 mainwindow.cpp:381
 #, kde-format
 msgid "Suspend Computer"
 msgstr ""
@@ -892,7 +892,7 @@ msgstr ""
 msgid "Downloads completed"
 msgstr "完成下載"
 
-#: core/kget.h:361 main.cpp:111 mainwindow.cpp:96 mainwindow.cpp:526
+#: core/kget.h:361 main.cpp:111 mainwindow.cpp:96 mainwindow.cpp:525
 #: ui/tray.cpp:45
 #, kde-format
 msgid "KGet"
@@ -1737,69 +1737,69 @@ msgstr "用以下載的 URL"
 msgid "&New Download..."
 msgstr ""
 
-#: mainwindow.cpp:156
+#: mainwindow.cpp:155
 #, fuzzy, kde-format
 #| msgid "&Import Transfer List..."
 msgid "&Import Transfers..."
 msgstr "匯入傳輸列表(&I)..."
 
-#: mainwindow.cpp:163
+#: mainwindow.cpp:162
 #, fuzzy, kde-format
 msgid "&Export Transfers List..."
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:170
+#: mainwindow.cpp:169
 #, kde-format
 msgid "&Create a Metalink..."
 msgstr ""
 
-#: mainwindow.cpp:176
+#: mainwindow.cpp:175
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgid "Top Priority"
 msgstr "字型:"
 
-#: mainwindow.cpp:183
+#: mainwindow.cpp:182
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgid "Least Priority"
 msgstr "字型:"
 
-#: mainwindow.cpp:190
+#: mainwindow.cpp:189
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgid "Increase Priority"
 msgstr "字型:"
 
-#: mainwindow.cpp:197
+#: mainwindow.cpp:196
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgid "Decrease Priority"
 msgstr "字型:"
 
-#: mainwindow.cpp:205 ui/contextmenu.cpp:116
+#: mainwindow.cpp:204 ui/contextmenu.cpp:116
 #, kde-format
 msgid "Delete Group"
 msgid_plural "Delete Groups"
 msgstr[0] ""
 
-#: mainwindow.cpp:211 ui/contextmenu.cpp:120
+#: mainwindow.cpp:210 ui/contextmenu.cpp:120
 #, fuzzy, kde-format
 msgid "Rename Group..."
 msgid_plural "Rename Groups..."
 msgstr[0] "預設的資料夾"
 
-#: mainwindow.cpp:216
+#: mainwindow.cpp:215
 #, kde-format
 msgid "Set Icon..."
 msgstr ""
 
-#: mainwindow.cpp:222
+#: mainwindow.cpp:221
 #, fuzzy, kde-format
 msgid "Auto-Paste Mode"
 msgstr "自動貼上模式(&T)"
 
-#: mainwindow.cpp:225
+#: mainwindow.cpp:224
 #, fuzzy, kde-format
 msgid ""
 "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
@@ -1812,124 +1812,124 @@ msgstr ""
 "當啟動了這項功能， KGet 將會週期性地掃描剪貼簿上的\n"
 "URL 並且自動地貼上這些 URL 。"
 
-#: mainwindow.cpp:231
+#: mainwindow.cpp:230
 #, fuzzy, kde-format
 msgid "Use KGet as Konqueror Download Manager"
 msgstr "取消 &KGet 作為 Konqueror 的下載管理員"
 
-#: mainwindow.cpp:249
+#: mainwindow.cpp:248
 #, fuzzy, kde-format
 msgctxt "delete selected transfer item"
 msgid "Remove Selected"
 msgstr "續傳(&R)"
 
-#: mainwindow.cpp:256
+#: mainwindow.cpp:255
 #, fuzzy, kde-format
 #| msgid "Download Selected Files"
 msgctxt "delete all finished transfers"
 msgid "Remove All Finished"
 msgstr "下載選擇的檔案"
 
-#: mainwindow.cpp:262
+#: mainwindow.cpp:261
 #, fuzzy, kde-format
 msgctxt "delete selected transfer item and files"
 msgid "Remove Selected and Delete Files"
 msgstr "續傳(&R)"
 
-#: mainwindow.cpp:268
+#: mainwindow.cpp:267
 #, fuzzy, kde-format
 #| msgid "Download finished"
 msgctxt "redownload selected transfer item"
 msgid "Redownload Selected"
 msgstr "完成下載"
 
-#: mainwindow.cpp:273
+#: mainwindow.cpp:272
 #, fuzzy, kde-format
 msgid "Start All"
 msgstr "重新開始(&S)"
 
-#: mainwindow.cpp:280
+#: mainwindow.cpp:279
 #, fuzzy, kde-format
 msgid "Start Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:286
+#: mainwindow.cpp:285
 #, fuzzy, kde-format
 #| msgid "&Pause"
 msgid "Pause All"
 msgstr "暫停(&P)"
 
-#: mainwindow.cpp:293
+#: mainwindow.cpp:292
 #, fuzzy, kde-format
 msgid "Stop Selected"
 msgstr "沒有選擇檔案"
 
-#: mainwindow.cpp:298
+#: mainwindow.cpp:297
 #, fuzzy, kde-format
 msgid "Start"
 msgstr "重新開始(&S)"
 
-#: mainwindow.cpp:306
+#: mainwindow.cpp:305
 #, fuzzy, kde-format
 #| msgid "&Pause"
 msgid "Pause"
 msgstr "暫停(&P)"
 
-#: mainwindow.cpp:315
+#: mainwindow.cpp:314
 #, fuzzy, kde-format
 msgid "Open Destination"
 msgstr "開啟目的地(&D)"
 
-#: mainwindow.cpp:320 mainwindow.cpp:508
+#: mainwindow.cpp:319 mainwindow.cpp:507
 #, fuzzy, kde-format
 msgid "Open File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:324
+#: mainwindow.cpp:323
 #, fuzzy, kde-format
 msgid "Show Details"
 msgstr "saviro.tw@yahoo.com.tw,wwycheuk@netvigator.com"
 
-#: mainwindow.cpp:329
+#: mainwindow.cpp:328
 #, fuzzy, kde-format
 msgid "Copy URL to Clipboard"
 msgstr "複製 URL 到剪貼簿(&C)"
 
-#: mainwindow.cpp:334
+#: mainwindow.cpp:333
 #, fuzzy, kde-format
 msgid "&Transfer History"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:340
+#: mainwindow.cpp:339
 #, fuzzy, kde-format
 #| msgid "Default folder:"
 msgid "&Group Settings"
 msgstr "預設的資料夾:"
 
-#: mainwindow.cpp:346
+#: mainwindow.cpp:345
 #, fuzzy, kde-format
 msgid "&Transfer Settings"
 msgstr " 傳輸： %1"
 
-#: mainwindow.cpp:352
+#: mainwindow.cpp:351
 #, fuzzy, kde-format
 #| msgid "No Links"
 msgid "Import &Links..."
 msgstr "沒有連結"
 
-#: mainwindow.cpp:358
+#: mainwindow.cpp:357
 #, kde-format
 msgid "After downloads finished action"
 msgstr ""
 
 #. i18n("Choose an action that is executed after all downloads have been finished."));
-#: mainwindow.cpp:362
+#: mainwindow.cpp:361
 #, fuzzy, kde-format
 #| msgid "Location (URL)"
 msgid "No Action"
 msgstr "地點 (URL)"
 
-#: mainwindow.cpp:437
+#: mainwindow.cpp:436
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first time that you have run KGet.\n"
@@ -1941,33 +1941,33 @@ msgstr ""
 "這是你第一次執行 KGet 。\n"
 "要 KGet 成為 Konqueror 的下載管理員嗎？"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:438
 #, fuzzy, kde-format
 msgid "Konqueror Integration"
 msgstr "Konqueror 整合"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:438
 #, kde-format
 msgid "Enable"
 msgstr "啟用"
 
-#: mainwindow.cpp:440
+#: mainwindow.cpp:439
 #, kde-format
 msgid "Do Not Enable"
 msgstr "不啟用"
 
-#: mainwindow.cpp:507
+#: mainwindow.cpp:506
 #, kde-format
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:524
+#: mainwindow.cpp:523
 #, kde-format
 msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:574
+#: mainwindow.cpp:573
 #, fuzzy, kde-format
 #| msgid ""
 #| "Some transfers are still running.\n"
@@ -1979,49 +1979,49 @@ msgstr ""
 "有傳輸仍在運作。\n"
 "您確定您要關閉 KGet 嗎？"
 
-#: mainwindow.cpp:576
+#: mainwindow.cpp:575
 #, kde-format
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:603
+#: mainwindow.cpp:602
 #, fuzzy, kde-format
 msgid "KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:603
+#: mainwindow.cpp:602
 #, fuzzy, kde-format
 msgid "Text File"
 msgstr "開啟檔案(&F)"
 
-#: mainwindow.cpp:605
+#: mainwindow.cpp:604
 #, fuzzy, kde-format
 msgid "Export Transfers"
 msgstr "匯出傳輸列表(&E)..."
 
-#: mainwindow.cpp:636
+#: mainwindow.cpp:635
 #, fuzzy, kde-format
 msgid "Enter Group Name"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:637
+#: mainwindow.cpp:636
 #, fuzzy, kde-format
 msgid "Group name:"
 msgstr "Tse-Chun Ho,Walter Cheuk"
 
-#: mainwindow.cpp:724
+#: mainwindow.cpp:723
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] "你確定要刪除這筆傳輸嗎？"
 
-#: mainwindow.cpp:726 mainwindow.cpp:755
+#: mainwindow.cpp:725 mainwindow.cpp:754
 #, fuzzy, kde-format
 msgid "Confirm transfer delete"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:753
+#: mainwindow.cpp:752
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this transfer?"
 msgid "Are you sure you want to delete the selected transfer including files?"
@@ -2029,7 +2029,7 @@ msgid_plural ""
 "Are you sure you want to delete the selected transfers including files?"
 msgstr[0] "你確定要刪除這筆傳輸嗎？"
 
-#: mainwindow.cpp:1084
+#: mainwindow.cpp:1083
 #, kde-format
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
@@ -2037,17 +2037,17 @@ msgid ""
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:1203 ui/droptarget.cpp:220
+#: mainwindow.cpp:1202 ui/droptarget.cpp:220
 #, fuzzy, kde-format
 msgid "The dropped file is a KGet Transfer List"
 msgstr "開啟傳輸："
 
-#: mainwindow.cpp:1204 ui/droptarget.cpp:221
+#: mainwindow.cpp:1203 ui/droptarget.cpp:221
 #, fuzzy, kde-format
 msgid "&Download"
 msgstr "下載已續傳"
 
-#: mainwindow.cpp:1205 ui/droptarget.cpp:222
+#: mainwindow.cpp:1204 ui/droptarget.cpp:222
 #, fuzzy, kde-format
 msgid "&Load transfer list"
 msgstr "開啟傳輸："
