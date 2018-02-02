@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-30 03:09+0100\n"
+"POT-Creation-Date: 2018-02-02 03:29+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -547,7 +547,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:104 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:199
+#: src/timeline/qml/contactinfo.qml:194
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -559,7 +559,7 @@ msgid "Basic"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:437
+#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:425
 #, fuzzy, kde-format
 msgid "Registration"
 msgstr "已註冊"
@@ -914,7 +914,7 @@ msgstr "刪除"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
 #: src/conf/accountpages/credentials.ui:109
-#: src/timeline/qml/contactinfo.qml:220
+#: src/timeline/qml/contactinfo.qml:219
 #, kde-format
 msgid "Details"
 msgstr ""
@@ -1581,7 +1581,7 @@ msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgpresence.ui:77 src/timeline/qml/phonenumbers.qml:142
+#: src/conf/dlgpresence.ui:77
 #, fuzzy, kde-format
 #| msgid "Add"
 msgid "Add"
@@ -1762,14 +1762,14 @@ msgid "Organization"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:228
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:225
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:225
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:222
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -1782,7 +1782,7 @@ msgid "Length:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/configurator/recording.ui:65 src/timeline/qml/phonenumbers.qml:57
+#: src/configurator/recording.ui:65 src/timeline/qml/phonenumbers.qml:155
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete"
@@ -1801,7 +1801,8 @@ msgstr "名稱"
 msgid "Search"
 msgstr "搜尋"
 
-#: src/contactview/qml/contactlist.qml:60 src/timeline/qml/peerstimeline.qml:91
+#: src/contactview/qml/contactlist.qml:60
+#: src/timeline/qml/peerstimeline.qml:102
 #, kde-format
 msgid "Find someone"
 msgstr ""
@@ -1847,7 +1848,45 @@ msgstr ""
 msgid "Ring-KDE is experiencing a network issue, please try later"
 msgstr ""
 
-#: src/dialview/qml/addcall.qml:89
+#: src/contactview/qml/vcardform.qml:94
+#, fuzzy, kde-format
+#| msgid "Format: name.server:port"
+msgid "Formatted name:"
+msgstr "格式：name.server:port"
+
+#: src/contactview/qml/vcardform.qml:106
+#, fuzzy, kde-format
+msgid "Primary name:"
+msgstr "顯示"
+
+#: src/contactview/qml/vcardform.qml:118
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Last name:"
+msgstr "名稱"
+
+#: src/contactview/qml/vcardform.qml:130
+#, fuzzy, kde-format
+#| msgid "_Email"
+msgid "Email:"
+msgstr "郵件(E)"
+
+#: src/contactview/qml/vcardform.qml:143
+#, fuzzy, kde-format
+msgid "Organization:"
+msgstr "顯示"
+
+#: src/contactview/qml/vcardform.qml:160
+#, kde-format
+msgid "Add a field"
+msgstr ""
+
+#: src/desktopview/qml/desktopwindow.qml:74
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: src/dialview/qml/addcall.qml:27
 #, fuzzy, kde-format
 #| msgid "Current account"
 msgid "Create a call"
@@ -2389,7 +2428,7 @@ msgstr ""
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:254 src/timeline/qml/contactheader.qml:251
+#: src/ringapplication.cpp:254 src/timeline/qml/mediabuttons.qml:120
 #, kde-format
 msgid "Video"
 msgstr ""
@@ -2440,84 +2479,56 @@ msgstr "認證錯誤"
 msgid "Write a message and press enter..."
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:112
+#: src/timeline/qml/contactheader.qml:116
 #, kde-format
 msgid ""
 "Add\n"
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:204 src/timeline/qml/phonenumbers.qml:62
-#, fuzzy, kde-format
-#| msgid "_Call"
-msgid "Call"
-msgstr "電話"
-
-#: src/timeline/qml/contactheader.qml:297
-#, kde-format
-msgid "Screen sharing"
-msgstr ""
-
-#: src/timeline/qml/contactheader.qml:333
-#, kde-format
-msgid "Chat"
-msgstr ""
-
-#: src/timeline/qml/contactinfo.qml:89
+#: src/timeline/qml/contactinfo.qml:83
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:92
+#: src/timeline/qml/contactinfo.qml:86
 #, kde-format
 msgid "<b>Last contacted on:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:96
+#: src/timeline/qml/contactinfo.qml:90
 #, kde-format
 msgid "<b>Called:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:101
+#: src/timeline/qml/contactinfo.qml:95
 #, kde-format
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:232
+#: src/timeline/qml/contactinfo.qml:229
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:265
+#: src/timeline/qml/mediabuttons.qml:73 src/timeline/qml/phonenumbers.qml:169
 #, fuzzy, kde-format
-#| msgid "Format: name.server:port"
-msgid "Formatted name:"
-msgstr "格式：name.server:port"
+#| msgid "_Call"
+msgid "Call"
+msgstr "電話"
 
-#: src/timeline/qml/contactinfo.qml:276
-#, fuzzy, kde-format
-msgid "Primary name:"
-msgstr "顯示"
+#: src/timeline/qml/mediabuttons.qml:166
+#, kde-format
+msgid "Screen sharing"
+msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:287
-#, fuzzy, kde-format
-#| msgid "Name"
-msgid "Last name:"
-msgstr "名稱"
+#: src/timeline/qml/mediabuttons.qml:202
+#, kde-format
+msgid "Chat"
+msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:298
-#, fuzzy, kde-format
-#| msgid "_Email"
-msgid "Email:"
-msgstr "郵件(E)"
-
-#: src/timeline/qml/contactinfo.qml:309
-#, fuzzy, kde-format
-msgid "Organization:"
-msgstr "顯示"
-
-#: src/timeline/qml/peerstimeline.qml:147
+#: src/timeline/qml/peerstimeline.qml:158
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter "
@@ -2525,49 +2536,70 @@ msgid ""
 msgstr ""
 
 #: src/timeline/qml/phonenumbers.qml:68
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:91
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:116
+#, kde-format
+msgid "Add a phone number or GNU Ring identity"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:162
+#, fuzzy, kde-format
+#| msgid "_Edit"
+msgid "Edit"
+msgstr "編輯(E)"
+
+#: src/timeline/qml/phonenumbers.qml:175
 #, fuzzy, kde-format
 #| msgid "New call"
 msgid "Video call"
 msgstr "新電話"
 
-#: src/timeline/qml/phonenumbers.qml:74
+#: src/timeline/qml/phonenumbers.qml:181
 #, fuzzy, kde-format
 #| msgid "Main screen"
 msgid "Share screen"
 msgstr "主屏幕"
 
-#: src/timeline/qml/phonenumbers.qml:107
+#: src/timeline/qml/phonenumbers.qml:233
 #, kde-format
 msgid "Never used"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:108
+#: src/timeline/qml/phonenumbers.qml:234
 #, kde-format
 msgid "Used "
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:108
+#: src/timeline/qml/phonenumbers.qml:234
 #, kde-format
 msgid " time (Last used on: "
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:164
+#: src/timeline/qml/viewcontact.qml:137
 #, fuzzy, kde-format
 #| msgid "SIP account configuration"
 msgid "Information"
 msgstr "SIP帳戶配置"
 
-#: src/timeline/qml/viewcontact.qml:167
+#: src/timeline/qml/viewcontact.qml:140
 #, fuzzy, kde-format
 msgid "Audio/Video"
 msgstr "音頻"
 
-#: src/timeline/qml/viewcontact.qml:170
+#: src/timeline/qml/viewcontact.qml:143
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:173
+#: src/timeline/qml/viewcontact.qml:146
 #, fuzzy, kde-format
 #| msgctxt "Config section"
 #| msgid "Recordings"
@@ -2716,171 +2748,161 @@ msgstr ""
 msgid "..."
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:43
+#: src/wizard/qml/ButtonBar.qml:48
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:61
+#: src/wizard/qml/ButtonBar.qml:66
 #, kde-format
 msgid "Please fill the required fields"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:71
+#: src/wizard/qml/ButtonBar.qml:76
 #, kde-format
 msgid "Next"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:78
+#: src/wizard/qml/ButtonBar.qml:83
 #, kde-format
 msgid "Skip"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:120
+#: src/wizard/qml/ButtonBar.qml:125
 #, kde-format
 msgid "Please wait"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:77
+#: src/wizard/qml/CreateRing.qml:81
 #, kde-format
 msgid "Register public username (experimental)*"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:90
+#: src/wizard/qml/CreateRing.qml:94
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Enter an username"
 msgstr "編輯電話號碼"
 
-#: src/wizard/qml/CreateRing.qml:160 src/wizard/qml/CreateRing.qml:383
+#: src/wizard/qml/CreateRing.qml:153
 #, kde-format
 msgid "Please enter an username"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:180
+#: src/wizard/qml/CreateRing.qml:170
 #, kde-format
 msgid "Enter an archive password"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:203
+#: src/wizard/qml/CreateRing.qml:186
 #, kde-format
 msgid "Repeat the new password"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:221
+#: src/wizard/qml/CreateRing.qml:201
 #, kde-format
 msgid "Passwords don't match"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:256
+#: src/wizard/qml/CreateRing.qml:236
 #, kde-format
 msgid ""
 "(*) registered usernames can be reached by their username-string instead of "
 "their generated ring-id number only."
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:284
+#: src/wizard/qml/CreateRing.qml:266
 #, fuzzy, kde-format
 #| msgid "Current account"
 msgid "Creating account"
 msgstr "當前帳戶"
 
-#: src/wizard/qml/CreateRing.qml:311 src/wizard/qml/ImportRing.qml:157
+#: src/wizard/qml/CreateRing.qml:293 src/wizard/qml/ImportRing.qml:160
 #, kde-format
 msgid "Timeout"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:379
+#: src/wizard/qml/CreateRing.qml:361
 #, fuzzy, kde-format
 #| msgid "Stun server invalid"
 msgid "The username is available"
 msgstr "Stun伺服器無效"
 
-#: src/wizard/qml/CreateRing.qml:388
+#: src/wizard/qml/CreateRing.qml:365
+#, kde-format
+msgid "Please enter an username (3 character minimum)"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:370
+#, kde-format
+msgid "The registered name lookup failed, ignoring"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:374
 #, fuzzy, kde-format
 #| msgid "Stun server invalid"
 msgid "The username is not available"
 msgstr "Stun伺服器無效"
 
-#: src/wizard/qml/CreateRing.qml:411
+#: src/wizard/qml/CreateRing.qml:397
 #, kde-format
 msgid "Success"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:416
+#: src/wizard/qml/CreateRing.qml:402
 #, fuzzy, kde-format
 #| msgid "Password"
 msgid "Password mismatch"
 msgstr "密碼"
 
-#: src/wizard/qml/CreateRing.qml:419
+#: src/wizard/qml/CreateRing.qml:405
 #, fuzzy, kde-format
 #| msgid "Invalid"
 msgid "Invalid name"
 msgstr "無效"
 
-#: src/wizard/qml/CreateRing.qml:422
+#: src/wizard/qml/CreateRing.qml:408
 #, kde-format
 msgid "Already taken"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:425
+#: src/wizard/qml/CreateRing.qml:411
 #, fuzzy, kde-format
 #| msgid "Network unreachable"
 msgid "Network error"
 msgstr "網路連線失敗"
 
-#: src/wizard/qml/CreateRing.qml:442
+#: src/wizard/qml/CreateRing.qml:430
 #, fuzzy, kde-format
 #| msgctxt "account state"
 #| msgid "Not Registered"
 msgid "Can't register"
 msgstr "未註冊"
 
-#: src/wizard/qml/frontpage.qml:26
-#, kde-format
-msgid "Hello World"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:38
-#, kde-format
-msgid "Second page"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:48
-#, kde-format
-msgid "First"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:51
-#, kde-format
-msgid "Second"
-msgstr ""
-
-#: src/wizard/qml/ImportRing.qml:60
+#: src/wizard/qml/ImportRing.qml:63
 #, kde-format
 msgid "Link this device"
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:79
+#: src/wizard/qml/ImportRing.qml:82
 #, kde-format
 msgid "Enter your main Ring account password"
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:95
+#: src/wizard/qml/ImportRing.qml:98
 #, kde-format
 msgid ""
 "Enter the PIN number from another configured Ring account. Use the \"Export "
 "account on Ring\" feature to obtain a PIN."
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:130
+#: src/wizard/qml/ImportRing.qml:133
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Importing account"
 msgstr "刪除所選賬戶"
 
-#: src/wizard/qml/ImportRing.qml:181
+#: src/wizard/qml/ImportRing.qml:184
 #, kde-format
 msgid "Importing failed"
 msgstr ""
@@ -2913,7 +2935,7 @@ msgstr "刪除所選賬戶"
 msgid "Use an anonymous account"
 msgstr "當前帳戶"
 
-#: src/wizard/qml/Page1Form.ui.qml:79 src/wizard/qml/wizard.qml:218
+#: src/wizard/qml/Page1Form.ui.qml:79 src/wizard/qml/wizard.qml:217
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Import a SIP account"
@@ -3788,9 +3810,6 @@ msgstr ""
 
 #~ msgid "_Accounts"
 #~ msgstr "帳戶(A)"
-
-#~ msgid "_Edit"
-#~ msgstr "編輯(E)"
 
 #~ msgid "_Volume controls"
 #~ msgstr "音量控制(V)"
