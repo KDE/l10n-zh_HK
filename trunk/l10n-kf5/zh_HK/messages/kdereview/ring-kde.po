@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-13 03:25+0100\n"
+"POT-Creation-Date: 2018-02-16 03:20+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -104,6 +104,40 @@ msgstr "編輯電話號碼"
 #, kde-format
 msgid " and you have been talking since %1 seconds"
 msgstr ""
+
+#: src/accountview/qml/accountlist.qml:175
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Status logs"
+msgstr "狀態"
+
+#: src/accountview/qml/accountlist.qml:182
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/accountview/qml/accountlist.qml:189 src/conf/dlgpresence.ui:90
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgid "Remove"
+msgstr "刪除"
+
+#: src/accountview/qml/accountlist.qml:196
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:214 src/conf/configurationdialog.cpp:116
+#, kde-format
+msgid "Accounts"
+msgstr "帳戶"
+
+#: src/accountview/qml/accountlist.qml:223
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Add an account"
+msgstr "增加新帳戶"
 
 #: src/actioncollection.cpp:85
 #, kde-format
@@ -1230,11 +1264,6 @@ msgstr "鈴聲"
 msgid "Wizard"
 msgstr ""
 
-#: src/conf/configurationdialog.cpp:116
-#, kde-format
-msgid "Accounts"
-msgstr "帳戶"
-
 #: src/conf/configurationdialog.cpp:126
 #, fuzzy, kde-format
 msgctxt "User interterface settings"
@@ -1586,13 +1615,6 @@ msgstr ""
 #| msgid "Add"
 msgid "Add"
 msgstr "添加"
-
-#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
-#: src/conf/dlgpresence.ui:90
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgid "Remove"
-msgstr "刪除"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
 #: src/conf/dlgpresence.ui:102
@@ -2399,83 +2421,83 @@ msgstr ""
 msgid "Image Files (*.png *.jpg *.gif)"
 msgstr ""
 
-#: src/ringapplication.cpp:247
+#: src/ringapplication.cpp:249
 #, kde-format
 msgid "Home"
 msgstr "家庭電話"
 
-#: src/ringapplication.cpp:248
+#: src/ringapplication.cpp:250
 #, kde-format
 msgid "Work"
 msgstr "單位電話"
 
-#: src/ringapplication.cpp:249
+#: src/ringapplication.cpp:251
 #, kde-format
 msgid "Msg"
 msgstr ""
 
-#: src/ringapplication.cpp:250
+#: src/ringapplication.cpp:252
 #, kde-format
 msgid "Pref"
 msgstr ""
 
-#: src/ringapplication.cpp:251
+#: src/ringapplication.cpp:253
 #, fuzzy, kde-format
 #| msgid "Voicemail"
 msgid "Voice"
 msgstr "語音郵件"
 
-#: src/ringapplication.cpp:252
+#: src/ringapplication.cpp:254
 #, kde-format
 msgid "Fax"
 msgstr ""
 
-#: src/ringapplication.cpp:253
+#: src/ringapplication.cpp:255
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:254 src/timeline/qml/mediabuttons.qml:121
+#: src/ringapplication.cpp:256 src/timeline/qml/mediabuttons.qml:121
 #, kde-format
 msgid "Video"
 msgstr ""
 
-#: src/ringapplication.cpp:255
+#: src/ringapplication.cpp:257
 #, kde-format
 msgid "Bbs"
 msgstr ""
 
-#: src/ringapplication.cpp:256
+#: src/ringapplication.cpp:258
 #, kde-format
 msgid "Modem"
 msgstr ""
 
-#: src/ringapplication.cpp:257
+#: src/ringapplication.cpp:259
 #, kde-format
 msgid "Car"
 msgstr ""
 
-#: src/ringapplication.cpp:258
+#: src/ringapplication.cpp:260
 #, kde-format
 msgid "Isdn"
 msgstr ""
 
-#: src/ringapplication.cpp:259
+#: src/ringapplication.cpp:261
 #, kde-format
 msgid "Pcs"
 msgstr ""
 
-#: src/ringapplication.cpp:260
+#: src/ringapplication.cpp:262
 #, kde-format
 msgid "Pager"
 msgstr ""
 
-#: src/ringapplication.cpp:261
+#: src/ringapplication.cpp:263
 #, kde-format
 msgid "Preferred"
 msgstr ""
 
-#: src/ringapplication.cpp:305
+#: src/ringapplication.cpp:309
 #, fuzzy, kde-format
 #| msgid "Bad authentification"
 msgid "System root certificates"
