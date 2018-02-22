@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-20 03:21+0100\n"
+"POT-Creation-Date: 2018-02-22 03:22+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -1709,7 +1709,7 @@ msgid "Display the most popular contacts as bookmarks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#: src/configurator/bookmark.ui:24
+#: src/configurator/bookmark.ui:24 src/photoselector/qml/editor.qml:197
 #, kde-format
 msgid "Clear"
 msgstr ""
@@ -1818,7 +1818,7 @@ msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
 #: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:178
-#: src/timeline/qml/contactinfo.qml:433
+#: src/timeline/qml/contactinfo.qml:434
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
@@ -1826,7 +1826,7 @@ msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
 #: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:175
-#: src/timeline/qml/contactinfo.qml:422
+#: src/timeline/qml/contactinfo.qml:423
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -2021,46 +2021,6 @@ msgstr "回叫"
 #| msgid "Not Registered"
 msgid "%1 is not unregistered"
 msgstr "未註冊"
-
-#: src/implementation.cpp:138
-#, kde-format
-msgid "Online"
-msgstr ""
-
-#: src/implementation.cpp:139
-#, kde-format
-msgid "I am available"
-msgstr ""
-
-#: src/implementation.cpp:144
-#, kde-format
-msgid "Away"
-msgstr ""
-
-#: src/implementation.cpp:145
-#, kde-format
-msgid "I am away"
-msgstr ""
-
-#: src/implementation.cpp:149
-#, kde-format
-msgid "Busy"
-msgstr ""
-
-#: src/implementation.cpp:150
-#, kde-format
-msgid "I am busy"
-msgstr ""
-
-#: src/implementation.cpp:154
-#, kde-format
-msgid "DND"
-msgstr ""
-
-#: src/implementation.cpp:155
-#, kde-format
-msgid "Please do not disturb me"
-msgstr ""
 
 #: src/implementation.cpp:267
 #, kde-format
@@ -2448,6 +2408,16 @@ msgstr ""
 msgid "Either select a file or take a selfie"
 msgstr ""
 
+#: src/photoselector/qml/editor.qml:170
+#, kde-format
+msgid "From file"
+msgstr ""
+
+#: src/photoselector/qml/editor.qml:179
+#, kde-format
+msgid "From camera"
+msgstr ""
+
 #: src/ringapplication.cpp:249
 #, kde-format
 msgid "Home"
@@ -2562,24 +2532,24 @@ msgstr ""
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:182 src/timeline/qml/contactinfo.qml:380
+#: src/timeline/qml/contactinfo.qml:182 src/timeline/qml/contactinfo.qml:381
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:393
+#: src/timeline/qml/contactinfo.qml:394
 #, fuzzy, kde-format
 #| msgid "Clear _history"
 msgid "View history"
 msgstr "清空曆史記錄(C)"
 
-#: src/timeline/qml/contactinfo.qml:403
+#: src/timeline/qml/contactinfo.qml:404
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:411
+#: src/timeline/qml/contactinfo.qml:412
 #, fuzzy, kde-format
 msgid "Contact details"
 msgstr "顯示"
