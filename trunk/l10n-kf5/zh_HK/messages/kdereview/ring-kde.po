@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-19 03:35+0200\n"
+"POT-Creation-Date: 2018-04-20 03:35+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -158,81 +158,86 @@ msgstr "帳戶"
 msgid "Add an account"
 msgstr "增加新帳戶"
 
-#: src/actioncollection.cpp:85
+#: src/actioncollection.cpp:86 src/timeline/qml/searchoverlay.qml:120
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: src/actioncollection.cpp:88
 #, kde-format
 msgid "Accept"
 msgstr "接受"
 
-#: src/actioncollection.cpp:86
+#: src/actioncollection.cpp:89
 #, fuzzy, kde-format
 #| msgid "Hold on"
 msgid "Hold"
 msgstr "呼叫保持"
 
-#: src/actioncollection.cpp:87
+#: src/actioncollection.cpp:90
 #, kde-format
 msgid "Transfer"
 msgstr "轉接"
 
-#: src/actioncollection.cpp:88
+#: src/actioncollection.cpp:91
 #, kde-format
 msgid "Record"
 msgstr "記錄"
 
-#: src/actioncollection.cpp:89 src/notification.cpp:91
+#: src/actioncollection.cpp:92 src/notification.cpp:91
 #, kde-format
 msgid "Hang up"
 msgstr "放電話"
 
-#: src/actioncollection.cpp:107
+#: src/actioncollection.cpp:110
 #, kde-format
 msgctxt "Mute the current audio capture device"
 msgid "Mute"
 msgstr ""
 
-#: src/actioncollection.cpp:108
+#: src/actioncollection.cpp:111
 #, kde-format
 msgctxt "Mute the current audio playback device"
 msgid "Mute Playback"
 msgstr ""
 
-#: src/actioncollection.cpp:111
+#: src/actioncollection.cpp:114
 #, kde-format
 msgid "Rotate left"
 msgstr ""
 
-#: src/actioncollection.cpp:112
+#: src/actioncollection.cpp:115
 #, kde-format
 msgid "Rotate right"
 msgstr ""
 
-#: src/actioncollection.cpp:113 src/actioncollection.cpp:114
+#: src/actioncollection.cpp:116 src/actioncollection.cpp:117
 #, kde-format
 msgid "Flip"
 msgstr ""
 
-#: src/actioncollection.cpp:115
+#: src/actioncollection.cpp:118
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: src/actioncollection.cpp:116
+#: src/actioncollection.cpp:119
 #, fuzzy, kde-format
 #| msgid "_Start hidden"
 msgid "Preview"
 msgstr "啟動時隱藏(S)"
 
-#: src/actioncollection.cpp:117
+#: src/actioncollection.cpp:120
 #, kde-format
 msgid "Keep aspect ratio"
 msgstr ""
 
-#: src/actioncollection.cpp:118
+#: src/actioncollection.cpp:121
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
 
-#: src/actioncollection.cpp:163
+#: src/actioncollection.cpp:164
 #, fuzzy, kde-format
 #| msgid "Configure SFLphone"
 msgid "Configure Ring-KDE"
@@ -2579,11 +2584,10 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-#: src/timeline/qml/peerstimeline.qml:108
+#: src/timeline/qml/peerstimeline.qml:95
 #, kde-format
 msgid ""
-"To begin using Ring-KDE, enter an username in the box above and press enter "
-"or add new contacts"
+"To begin using Ring-KDE, enter an username in the box above and press enter"
 msgstr ""
 
 #: src/timeline/qml/phonenumbers.qml:69
@@ -2639,14 +2643,14 @@ msgstr ""
 msgid "Find someone"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:111
+#: src/timeline/qml/searchoverlay.qml:112
 #, kde-format
 msgid "Scan a QR Code"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:119
+#: src/timeline/qml/searchoverlay.qml:260
 #, kde-format
-msgid "Close"
+msgid "Cannot select this person because it was not found"
 msgstr ""
 
 #: src/timeline/qml/viewcontact.qml:140
