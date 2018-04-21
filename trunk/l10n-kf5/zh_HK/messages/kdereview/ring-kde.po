@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-20 03:35+0200\n"
+"POT-Creation-Date: 2018-04-21 03:38+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -2505,6 +2505,24 @@ msgstr ""
 msgid "System root certificates"
 msgstr "認證錯誤"
 
+#: src/timeline/qml/accountdisabled.qml:54
+#, kde-format
+msgid ""
+"All accounts are currently disabled. Please click on an account below to "
+"enable it:"
+msgstr ""
+
+#: src/timeline/qml/accounterror.qml:53
+#, kde-format
+msgid "All accounts are currently unavailable, check your internet connection"
+msgstr ""
+
+#: src/timeline/qml/accounterror.qml:73
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Reload all accounts now"
+msgstr "當前帳戶"
+
 #: src/timeline/qml/chatbox.qml:179
 #, kde-format
 msgid "Write a message and press enter..."
@@ -2584,7 +2602,19 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-#: src/timeline/qml/peerstimeline.qml:95
+#: src/timeline/qml/noaccount.qml:53
+#, kde-format
+msgid "There is no accounts, click on the button below to create one"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, createAccountButton)
+#: src/timeline/qml/noaccount.qml:73 src/widgets/ui/accountcreator.ui:86
+#, fuzzy, kde-format
+#| msgid "Current account"
+msgid "Create an account"
+msgstr "當前帳戶"
+
+#: src/timeline/qml/peerstimeline.qml:121
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter"
@@ -2773,13 +2803,6 @@ msgstr ""
 #, kde-format
 msgid "Choose your username:"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, createAccountButton)
-#: src/widgets/ui/accountcreator.ui:86
-#, fuzzy, kde-format
-#| msgid "Current account"
-msgid "Create an account"
-msgstr "當前帳戶"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: src/widgets/ui/accountcreator.ui:122
