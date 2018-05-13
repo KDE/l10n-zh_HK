@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-19 03:23+0100\n"
+"POT-Creation-Date: 2018-05-13 06:14+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -573,7 +573,7 @@ msgstr ""
 #: kopete/chatwindow/kopetechatwindow.rc:5
 #: kopete/chatwindow/kopeteemailwindow.rc:5 protocols/groupwise/gwchatui.rc:5
 #: protocols/jabber/jabberchatui.rc:5 protocols/qq/qqchatui.rc:5
-#: protocols/wlm/wlmchatui.rc:5 protocols/yahoo/yahooconferenceui.rc:5
+#: protocols/yahoo/yahooconferenceui.rc:5
 #, kde-format
 msgid "&Chat"
 msgstr "聊天(&C)"
@@ -810,11 +810,9 @@ msgstr "(%1) 下一個 >>"
 msgid "Cl&ose Chat"
 msgstr "關閉聊天(&O)"
 
-#. i18n: ectx: property (text), widget (QPushButton, send_btn)
 #: kopete/chatwindow/kopeteemailwindow.cpp:506
 #: kopete/chatwindow/kopeteemailwindow.cpp:524
 #: protocols/jabber/ui/dlgxmppconsole.cpp:43
-#: protocols/wlm/ui/wlmchatsessioninkpopup.ui:43
 #, kde-format
 msgid "Send"
 msgstr "傳送"
@@ -2170,10 +2168,8 @@ msgstr "有新訊息時升起視窗(&R)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, BehaviorConfig_General)
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: kopete/config/behavior/behaviorconfig_general.ui:14
 #: plugins/statistics/statisticsdialog.cpp:66 protocols/qq/ui/qqvcard.ui:42
-#: protocols/wlm/ui/wlmaccountpreferences.ui:547
 #, kde-format
 msgid "General"
 msgstr "一般"
@@ -2355,7 +2351,7 @@ msgstr ""
 #: protocols/oscar/icq/icqstatusmanager.cpp:75 protocols/qq/qqprotocol.cpp:41
 #: protocols/skype/skypeaccount.cpp:929 protocols/skype/skypeprotocol.cpp:76
 #: protocols/sms/smsprotocol.cpp:40 protocols/winpopup/wpprotocol.cpp:59
-#: protocols/wlm/wlmprotocol.cpp:62 protocols/yahoo/yahooprotocol.cpp:45
+#: protocols/yahoo/yahooprotocol.cpp:45
 #, kde-format
 msgid "Offline"
 msgstr "離線"
@@ -2377,8 +2373,7 @@ msgstr "離線"
 #: protocols/oscar/icq/icqstatusmanager.cpp:87 protocols/qq/qqprotocol.cpp:37
 #: protocols/skype/skypeaccount.cpp:925 protocols/skype/skypeprotocol.cpp:77
 #: protocols/sms/smsprotocol.cpp:39 protocols/winpopup/wpaccount.cpp:170
-#: protocols/winpopup/wpprotocol.cpp:57 protocols/wlm/wlmprotocol.cpp:43
-#: protocols/yahoo/yahooprotocol.cpp:46
+#: protocols/winpopup/wpprotocol.cpp:57 protocols/yahoo/yahooprotocol.cpp:46
 #, kde-format
 msgid "Online"
 msgstr "上線"
@@ -2399,7 +2394,6 @@ msgstr "上線"
 #: protocols/oscar/icq/icqstatusmanager.cpp:83 protocols/qq/qqprotocol.cpp:39
 #: protocols/skype/skypeaccount.cpp:933 protocols/skype/skypeprotocol.cpp:79
 #: protocols/winpopup/wpaccount.cpp:176 protocols/winpopup/wpprotocol.cpp:58
-#: protocols/wlm/wlmprotocol.cpp:46
 #, kde-format
 msgid "Away"
 msgstr "離開"
@@ -2414,7 +2408,7 @@ msgstr "離開"
 #: protocols/gadu/gaduprotocol.cpp:69 protocols/gadu/gaduprotocol.cpp:74
 #: protocols/groupwise/gwprotocol.cpp:55
 #: protocols/meanwhile/meanwhileprotocol.cpp:49
-#: protocols/wlm/wlmprotocol.cpp:48 protocols/yahoo/yahooprotocol.cpp:48
+#: protocols/yahoo/yahooprotocol.cpp:48
 #, kde-format
 msgid "Busy"
 msgstr "忙碌"
@@ -2431,7 +2425,7 @@ msgstr "忙碌"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:812
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/skype/skypeaccount.cpp:945 protocols/skype/skypeprotocol.cpp:82
-#: protocols/wlm/wlmprotocol.cpp:59 protocols/yahoo/yahooprotocol.cpp:57
+#: protocols/yahoo/yahooprotocol.cpp:57
 #, kde-format
 msgid "Invisible"
 msgstr "隱形"
@@ -2974,7 +2968,7 @@ msgstr "離開（進階）"
 #: kopete/config/status/statusconfig_manager.cpp:68
 #: protocols/groupwise/gwprotocol.cpp:59
 #: protocols/meanwhile/meanwhileprotocol.cpp:54
-#: protocols/wlm/wlmprotocol.cpp:66 protocols/yahoo/yahooprotocol.cpp:59
+#: protocols/yahoo/yahooprotocol.cpp:59
 #, kde-format
 msgid "Idle"
 msgstr "閒置"
@@ -3966,21 +3960,19 @@ msgstr "匯出聯絡人(&E)..."
 #: kopete/kopetewindow.cpp:435 protocols/groupwise/gwprotocol.cpp:57
 #: protocols/oscar/aim/aimstatusmanager.cpp:75
 #: protocols/oscar/icq/icqstatusmanager.cpp:83 protocols/qq/qqprotocol.cpp:39
-#: protocols/wlm/wlmprotocol.cpp:46
 #, kde-format
 msgid "&Away"
 msgstr "離開(&A)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, awayButton_)
 #: kopete/kopetewindow.cpp:439 protocols/gadu/ui/gaduawayui.ui:84
-#: protocols/groupwise/gwprotocol.cpp:55 protocols/wlm/wlmprotocol.cpp:48
+#: protocols/groupwise/gwprotocol.cpp:55
 #, kde-format
 msgid "&Busy"
 msgstr "忙碌(&B)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, invisibleButton_)
 #: kopete/kopetewindow.cpp:443 protocols/gadu/ui/gaduawayui.ui:100
-#: protocols/wlm/wlmprotocol.cpp:60
 #, kde-format
 msgid "&Invisible"
 msgstr "隱形(&I)"
@@ -5008,9 +5000,7 @@ msgstr "亮度:"
 msgid "Hue"
 msgstr "色彩:"
 
-#. i18n: ectx: property (text), widget (QPushButton, color_btn)
 #: libkopete/avdevice/videodevice.cpp:131
-#: protocols/wlm/ui/wlmchatsessioninkpopup.ui:57
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Color"
@@ -5333,7 +5323,6 @@ msgstr ""
 #: protocols/gadu/gadusession.cpp:225 protocols/gadu/gadusession.cpp:236
 #: protocols/gadu/gadusession.cpp:270 protocols/gadu/gadusession.cpp:283
 #: protocols/gadu/gadusession.cpp:302 protocols/skype/skypeaddcontact.cpp:68
-#: protocols/wlm/ui/wlmaddcontactpage.cpp:58
 #, kde-format
 msgid "Not Connected"
 msgstr "未連接"
@@ -6360,7 +6349,7 @@ msgstr ""
 "這個用戶現在聯絡不上。請確定你已連線並使用支援離線傳送的通訊協定，或等待此用"
 "戶上線。"
 
-#: libkopete/kopetemetacontact.cpp:483 protocols/wlm/wlmprotocol.cpp:69
+#: libkopete/kopetemetacontact.cpp:483
 #, kde-format
 msgid "Status not available"
 msgstr "無法取得狀態"
@@ -6388,8 +6377,7 @@ msgstr "<qt>無法下載所要求檔案；<br>請檢查位址 %1 是否正確。
 #: libkopete/kopeteonlinestatus.cpp:167 protocols/gadu/gaduprotocol.cpp:96
 #: protocols/groupwise/gwprotocol.cpp:69 protocols/jabber/jabberprotocol.cpp:74
 #: protocols/skype/skypecalldialog.cpp:215 protocols/skype/skypeprotocol.cpp:83
-#: protocols/sms/smsprotocol.cpp:41 protocols/wlm/wlmprotocol.cpp:71
-#: protocols/yahoo/yahooprotocol.cpp:60
+#: protocols/sms/smsprotocol.cpp:41 protocols/yahoo/yahooprotocol.cpp:60
 #, kde-format
 msgid "Connecting"
 msgstr "正在連接"
@@ -6522,7 +6510,6 @@ msgstr "檔案傳輸取消。"
 #: protocols/jabber/jabbergroupcontact.cpp:355
 #: protocols/jabber/jabbergroupmembercontact.cpp:300
 #: protocols/oscar/oscarcontact.cpp:364 protocols/qq/qqcontact.cpp:412
-#: protocols/wlm/wlmcontact.cpp:174
 #, kde-format
 msgid "Kopete File Transfer"
 msgstr "Kopete 檔案傳輸"
@@ -6680,7 +6667,6 @@ msgid "View"
 msgstr "檢視"
 
 #: libkopete/private/kopeteviewmanager.cpp:384
-#: protocols/wlm/wlmaccount.cpp:1158 protocols/wlm/wlmaccount.cpp:1177
 #: protocols/yahoo/yahooaccount.cpp:1190 protocols/yahoo/yahooaccount.cpp:1636
 #: protocols/yahoo/yahooaccount.cpp:1847
 #, fuzzy, kde-format
@@ -6710,14 +6696,12 @@ msgstr "通訊錄關聯"
 msgid "The KDE Address Book entry associated with this Kopete Contact"
 msgstr "關聯到此 Kopete 聯絡人的 KDE 通訊錄項目"
 
-#. i18n: ectx: property (text), widget (QPushButton, clear_btn)
 #. i18n: ectx: property (text), widget (QPushButton, btnClearBlackList)
 #. i18n: ectx: property (text), widget (QPushButton, btnClearWhiteList)
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnClear)
 #: libkopete/ui/addressbooklinkwidget_base.ui:43
 #: plugins/privacy/privacydialog.ui:85 plugins/privacy/privacydialog.ui:190
 #: protocols/jabber/ui/dlgxmppconsole.cpp:42
-#: protocols/wlm/ui/wlmchatsessioninkpopup.ui:50
 #, fuzzy, kde-format
 msgid "Clear"
 msgstr "清除(&L)"
@@ -6882,9 +6866,8 @@ msgstr ""
 "輸入聯絡人的顯示名稱。它會顯示在聯絡人清單裡。\n"
 "如果你想看到聯絡人的暱稱作為顯示名稱，請留空。"
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: libkopete/ui/contactaddednotifywidget.ui:113 protocols/wlm/ui/wlminfo.ui:45
+#: libkopete/ui/contactaddednotifywidget.ui:113
 #, kde-format
 msgid "Display name:"
 msgstr "顯示名稱:"
@@ -6956,10 +6939,8 @@ msgstr ""
 msgid "Remember password"
 msgstr "記住密碼"
 
-#. i18n: ectx: property (text), widget (QLabel, m_labelProxyPassword)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libkopete/ui/kopetepasswordwidgetbase.ui:60
-#: protocols/wlm/ui/wlmaccountpreferences.ui:508
 #, kde-format
 msgid "Password:"
 msgstr "密碼:"
@@ -7273,8 +7254,6 @@ msgstr "刪除別名"
 #. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
 #: plugins/alias/aliaspreferences.cpp:427
 #: protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui:29
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:109
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:112
 #, fuzzy, kde-format
 msgid "Delete"
 msgstr "刪除主機(&D)"
@@ -9666,11 +9645,9 @@ msgstr "新增聯絡人到伺服器清單"
 msgid "Add Contact to Blacklist"
 msgstr "新增聯絡人到伺服器清單"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. i18n: ectx: Menu (privacyMenu)
 #: plugins/privacy/privacyui.rc:5 plugins/privacy/privacyui.rc:12
 #: plugins/privacy/privacyui.rc:18
-#: protocols/wlm/ui/wlmaccountpreferences.ui:152
 #, kde-format
 msgid "Privacy"
 msgstr "隱私"
@@ -10906,7 +10883,6 @@ msgstr "帳號偏好設定 - Yahoo"
 #: protocols/groupwise/ui/gwaccountpreferences.ui:39
 #: protocols/meanwhile/ui/meanwhileeditaccount.ui:35
 #: protocols/sms/ui/smsactprefs.ui:60
-#: protocols/wlm/ui/wlmaccountpreferences.ui:27
 #, kde-format
 msgid "B&asic Setup"
 msgstr "基本設定(&A)"
@@ -10928,7 +10904,6 @@ msgstr "基本設定(&A)"
 #: protocols/skype/ui/skypeeditaccountbase.ui:27
 #: protocols/sms/ui/smsactprefs.ui:71
 #: protocols/winpopup/ui/wpeditaccountbase.ui:46
-#: protocols/wlm/ui/wlmaccountpreferences.ui:33
 #: protocols/yahoo/ui/yahooeditaccountbase.ui:65
 #, kde-format
 msgid "Account Information"
@@ -10957,9 +10932,7 @@ msgid "KDE"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
 #: protocols/bonjour/bonjouraccountpreferences.ui:105
-#: protocols/wlm/ui/wlminfo.ui:25
 #, kde-format
 msgid "Email address:"
 msgstr "電子郵件地址:"
@@ -11014,7 +10987,6 @@ msgstr ""
 #: protocols/bonjour/bonjourprotocol.cpp:38 protocols/gadu/ui/gaduawayui.ui:68
 #: protocols/oscar/aim/aimstatusmanager.cpp:79
 #: protocols/oscar/icq/icqstatusmanager.cpp:87 protocols/qq/qqprotocol.cpp:37
-#: protocols/wlm/wlmprotocol.cpp:43
 #, kde-format
 msgid "O&nline"
 msgstr "上線(&N)"
@@ -11038,7 +11010,6 @@ msgstr "離開(&A)"
 #: protocols/gadu/ui/gaduawayui.ui:116 protocols/groupwise/gwprotocol.cpp:51
 #: protocols/oscar/aim/aimstatusmanager.cpp:67
 #: protocols/oscar/icq/icqstatusmanager.cpp:75 protocols/qq/qqprotocol.cpp:41
-#: protocols/wlm/wlmprotocol.cpp:62
 #, kde-format
 msgid "O&ffline"
 msgstr "離線(&F)"
@@ -11314,7 +11285,6 @@ msgid "Your password has been changed."
 msgstr "你的密碼已更改。"
 
 #: protocols/gadu/gaducontact.cpp:193 protocols/qq/qqcontact.cpp:144
-#: protocols/wlm/wlmcontact.cpp:61
 #, kde-format
 msgid "Show Profile"
 msgstr "顯示個人檔案"
@@ -11979,7 +11949,6 @@ msgstr ""
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:235
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:99
 #: protocols/qq/ui/qqeditaccountui.ui:178
-#: protocols/wlm/ui/wlmaccountpreferences.ui:78
 #: protocols/yahoo/ui/yahooeditaccountbase.ui:137
 #, kde-format
 msgid "E&xclude from connect all"
@@ -11993,7 +11962,6 @@ msgstr "從全部連線中排除(&X)"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:78
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:109
 #: protocols/qq/ui/qqeditaccountui.ui:215
-#: protocols/wlm/ui/wlmaccountpreferences.ui:91
 #: protocols/yahoo/ui/yahooeditaccountbase.ui:147
 #, kde-format
 msgid "Registration"
@@ -12035,7 +12003,6 @@ msgstr "在此網絡註冊新帳號。"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:128
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:147
 #: protocols/qq/ui/qqeditaccountui.ui:260
-#: protocols/wlm/ui/wlmaccountpreferences.ui:128
 #, kde-format
 msgid "Re&gister New Account"
 msgstr "註冊新帳號(&G)"
@@ -12328,7 +12295,6 @@ msgstr "本地  &IP 位址 /"
 #. i18n: ectx: property (text), widget (QLabel, labelPort)
 #: protocols/gadu/ui/gadueditaccountui.ui:766
 #: protocols/qq/ui/qqeditaccountui.ui:389
-#: protocols/wlm/ui/wlmaccountpreferences.ui:322
 #, kde-format
 msgid "po&rt:"
 msgstr "連接埠(&R):"
@@ -12746,8 +12712,6 @@ msgstr "帳號名稱(&A):"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_uniqueName)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_uniqueName)
-#. i18n: ectx: property (toolTip), widget (KLineEdit, m_uniqueName)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_uniqueName)
 #. i18n: ectx: property (toolTip), widget (QLabel)
 #. i18n: ectx: property (whatsThis), widget (QLabel)
 #. i18n: ectx: property (toolTip), widget (QLineEdit)
@@ -12756,8 +12720,6 @@ msgstr "帳號名稱(&A):"
 #: protocols/groupwise/gwaddui.ui:55 protocols/groupwise/gwaddui.ui:58
 #: protocols/qq/ui/qqaddui.ui:30 protocols/qq/ui/qqaddui.ui:33
 #: protocols/qq/ui/qqaddui.ui:46 protocols/qq/ui/qqaddui.ui:49
-#: protocols/wlm/ui/wlmaddui.ui:17 protocols/wlm/ui/wlmaddui.ui:20
-#: protocols/wlm/ui/wlmaddui.ui:36 protocols/wlm/ui/wlmaddui.ui:39
 #, kde-format
 msgid "The account name of the account you would like to add."
 msgstr "你要新增的帳號的帳號名稱。"
@@ -12807,7 +12769,6 @@ msgstr "%1|已封鎖"
 #: protocols/jabber/jabbergroupchatmanager.cpp:42
 #: protocols/qq/qqchatsession.cpp:69 protocols/skype/skypechatsession.cpp:125
 #: protocols/skype/skypechatsession.cpp:163
-#: protocols/wlm/wlmchatsession.cpp:124
 #, kde-format
 msgid "&Invite"
 msgstr "邀請(&I)"
@@ -13189,10 +13150,6 @@ msgstr "已中斷連線"
 msgid "Account Preferences - Groupwise"
 msgstr "帳號偏好設定 - Groupwise"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, accountLabel)
-#. i18n: ectx: property (whatsThis), widget (QLabel, accountLabel)
-#. i18n: ectx: property (toolTip), widget (KLineEdit, m_passport)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_passport)
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, userId)
@@ -13201,10 +13158,6 @@ msgstr "帳號偏好設定 - Groupwise"
 #: protocols/groupwise/ui/gwaccountpreferences.ui:89
 #: protocols/groupwise/ui/gwaccountpreferences.ui:105
 #: protocols/groupwise/ui/gwaccountpreferences.ui:108
-#: protocols/wlm/ui/wlmaccountpreferences.ui:41
-#: protocols/wlm/ui/wlmaccountpreferences.ui:44
-#: protocols/wlm/ui/wlmaccountpreferences.ui:60
-#: protocols/wlm/ui/wlmaccountpreferences.ui:63
 #, kde-format
 msgid "The account name of your account."
 msgstr "你的帳號的帳號名稱。"
@@ -13311,7 +13264,6 @@ msgstr "必定接受邀請(&L)"
 #: protocols/groupwise/ui/gwaddcontactpage.cpp:65
 #: protocols/jabber/ui/jabberaddcontactpage.cpp:67
 #: protocols/oscar/aim/aimprotocol.cpp:180
-#: protocols/wlm/ui/wlmaddcontactpage.cpp:57
 #, kde-format
 msgid "You need to be connected to be able to add contacts."
 msgstr "你要連線才能新增聯絡人。"
@@ -15707,9 +15659,7 @@ msgid ""
 msgstr "如你已有 Jabber 帳號並想更改密碼，你可使用此按鈕輸入新密碼。"
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:285
-#: protocols/wlm/ui/wlmaccountpreferences.ui:267
 #, kde-format
 msgid "Co&nnection"
 msgstr "連線(&N)"
@@ -15750,7 +15700,6 @@ msgstr "容許普通文本密碼認證(&X)"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:288
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:309
 #: protocols/qq/ui/qqeditaccountui.ui:329
-#: protocols/wlm/ui/wlmaccountpreferences.ui:279
 #, kde-format
 msgid "&Override default server information"
 msgstr "蓋過預設伺服器資訊(&O)"
@@ -16520,16 +16469,13 @@ msgid "Phone &Numbers"
 msgstr "電話號碼(&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #: protocols/jabber/ui/dlgvcard.ui:493 protocols/qq/ui/qqvcard.ui:462
-#: protocols/wlm/ui/wlminfo.ui:95
 #, kde-format
 msgid "Home:"
 msgstr "住家:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: protocols/jabber/ui/dlgvcard.ui:503 protocols/wlm/ui/wlminfo.ui:81
+#: protocols/jabber/ui/dlgvcard.ui:503
 #, kde-format
 msgid "Work:"
 msgstr "工作:"
@@ -19419,7 +19365,6 @@ msgstr ""
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:349
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:470
 #: protocols/qq/ui/qqeditaccountui.ui:376
-#: protocols/wlm/ui/wlmaccountpreferences.ui:309
 #, kde-format
 msgid "Ser&ver /"
 msgstr "伺服器(&V) /"
@@ -20526,7 +20471,6 @@ msgstr "IC&Q UIN:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_autologin)
 #: protocols/qq/ui/qqeditaccountui.ui:175
-#: protocols/wlm/ui/wlmaccountpreferences.ui:75
 #, kde-format
 msgid ""
 "If you check this checkbox, the account will not be connected when you press "
@@ -20556,16 +20500,10 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, m_serverPort)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_serverName)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_serverName)
-#. i18n: ectx: property (toolTip), widget (KLineEdit, m_serverName)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_serverName)
 #: protocols/qq/ui/qqeditaccountui.ui:420
 #: protocols/qq/ui/qqeditaccountui.ui:423
 #: protocols/qq/ui/qqeditaccountui.ui:448
 #: protocols/qq/ui/qqeditaccountui.ui:451
-#: protocols/wlm/ui/wlmaccountpreferences.ui:343
-#: protocols/wlm/ui/wlmaccountpreferences.ui:346
-#: protocols/wlm/ui/wlmaccountpreferences.ui:359
-#: protocols/wlm/ui/wlmaccountpreferences.ui:362
 #, kde-format
 msgid ""
 "Only modify these values if you want to use a special IM proxy server, like "
@@ -22765,434 +22703,6 @@ msgstr "設定失敗"
 msgid "User Info for %1"
 msgstr "%1 的用戶資訊"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WlmAccountPreferences)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:14
-#, fuzzy, kde-format
-msgid "Account Preferences - Wlm"
-msgstr "帳號偏好設定 - ICQ"
-
-#. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:47
-#, fuzzy, kde-format
-#| msgid "&MSN Passport ID:"
-msgid "WLM passport:"
-msgstr "&MSN Passport ID:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:115
-#, kde-format
-msgid ""
-"To connect to the Microsoft network, you will need a Microsoft Passport."
-"<br><br>If you do not currently have a Passport, please click the button to "
-"create one."
-msgstr ""
-"要連線到 Microsoft 網絡，你需要 Microsoft Passport。<br><br>如果你還沒有 "
-"Passport，請按一下按鈕來建立。"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:166
-#, fuzzy, kde-format
-#| msgid "Bloc&ked contacts:"
-msgid "Blocked contacts:"
-msgstr "封鎖的聯絡人(&K):"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:213
-#, fuzzy, kde-format
-#| msgid "Allo&wed contacts:"
-msgid "Allowed contacts:"
-msgstr "允許的聯絡人(&W):"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:238
-#, kde-format
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
-"italic;\">Italics</span> contacts are not on your contact list.</p></body></"
-"html>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_warning)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:256
-#, kde-format
-msgid "WARNING: You need to be connected to modify this page"
-msgstr "警告：你要連線才能修改此頁"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:273
-#, kde-format
-msgid "Connection Preferences (for advanced users)"
-msgstr "連線偏好設定（供進階用戶使用）"
-
-#. i18n: ectx: property (text), widget (KLineEdit, m_serverName)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:349
-#, kde-format
-msgid "messenger.hotmail.com"
-msgstr "messenger.hotmail.com"
-
-#. i18n: ectx: property (text), widget (QCheckBox, optionEnableProxy)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:380
-#, kde-format
-msgid "Enable Proxy"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_labelProxyHost)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:410
-#, fuzzy, kde-format
-#| msgid "&Host:"
-msgid "Host /"
-msgstr "主機(&H):"
-
-#. i18n: ectx: property (text), widget (QLabel, m_labelProxyPort)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:420
-#, fuzzy, kde-format
-#| msgid "po&rt:"
-msgid "port:"
-msgstr "連接埠(&R):"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioProxyHttp)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:468
-#, kde-format
-msgid "HTTP"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioProxySocks5)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:481
-#, fuzzy, kde-format
-#| msgid "Blocked"
-msgid "Socks5"
-msgstr "已封鎖"
-
-#. i18n: ectx: property (text), widget (QLabel, m_labelProxyUsername)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:491
-#, fuzzy, kde-format
-#| msgid "&Username:"
-msgid "Username:"
-msgstr "用戶名稱(&U):"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:553
-#, fuzzy, kde-format
-#| msgid "General Plugins"
-msgid "General Options"
-msgstr "一般插件"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_doNotSendEmoticons)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:559
-#, fuzzy, kde-format
-#| msgid "Check to set custom icons for this contact"
-msgid "Do not send custom emoticons to other contacts"
-msgstr "打勾以自訂此聯絡人的圖示"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_doNotRequestEmoticons)
-#: protocols/wlm/ui/wlmaccountpreferences.ui:566
-#, fuzzy, kde-format
-#| msgid "Check to set custom icons for this contact"
-msgid "Do not show custom emoticons from other contacts"
-msgstr "打勾以自訂此聯絡人的圖示"
-
-#: protocols/wlm/ui/wlmaddcontactpage.cpp:67
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:212
-#, fuzzy, kde-format
-#| msgid "<qt>You must enter a valid password.</qt>"
-msgid "<qt>You must enter a valid WLM passport.</qt>"
-msgstr "<qt>你必須輸入有效的密碼。</qt>"
-
-#: protocols/wlm/ui/wlmaddcontactpage.cpp:67
-#, kde-format
-msgid "MSN Plugin"
-msgstr "MSN 插件"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: protocols/wlm/ui/wlmaddui.ui:23
-#, fuzzy, kde-format
-#| msgid "&MSN Passport ID:"
-msgid "&WLM passport:"
-msgstr "&MSN Passport ID:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/wlm/ui/wlmaddui.ui:46
-#, kde-format
-msgid "<i>(for example: joe@hotmail.com)</i>"
-msgstr "<i>(舉例: joe@hotmail.com)</i>"
-
-#: protocols/wlm/ui/wlmeditaccountwidget.cpp:212
-#: protocols/wlm/wlmcontact.cpp:384
-#, fuzzy, kde-format
-#| msgid "MSN Plugin"
-msgid "WLM Plugin"
-msgstr "MSN 插件"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: protocols/wlm/ui/wlminfo.ui:59
-#, kde-format
-msgid "Personal message:"
-msgstr "個人化訊息:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: protocols/wlm/ui/wlminfo.ui:75
-#, kde-format
-msgid "Phones"
-msgstr "電話"
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
-#: protocols/wlm/ui/wlminfo.ui:109
-#, kde-format
-msgid "Mobile:"
-msgstr "手提電話:"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_reversed)
-#: protocols/wlm/ui/wlminfo.ui:126
-#, kde-format
-msgid "Show whether you are on the contact list of this user"
-msgstr "顯示你是否在這個用戶的聯絡人清單上"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_reversed)
-#: protocols/wlm/ui/wlminfo.ui:130
-#, kde-format
-msgid ""
-"If this box is checked, you are on this user's contact list.\n"
-"If not, the user has not added you to their list, or has removed you."
-msgstr ""
-"如勾選，你是在此用戶的聯絡人清單上。\n"
-"如否，此用戶未將你加入清單，或已將你移除了。"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_reversed)
-#: protocols/wlm/ui/wlminfo.ui:133
-#, kde-format
-msgid "I am on &the contact list of this contact"
-msgstr "我在這個聯絡人的聯絡人清單上(&T)"
-
-#: protocols/wlm/wlmaccount.cpp:75 protocols/yahoo/yahooaccount.cpp:95
-#, kde-format
-msgid "Open Inbo&x..."
-msgstr "開啟收件匣(&X)..."
-
-#: protocols/wlm/wlmaccount.cpp:78
-#, kde-format
-msgid "&Change Display Name..."
-msgstr "更改顯示名稱(&C)..."
-
-#. i18n("&Start Chat..."), this);
-#. QObject::connect(m_startChatAction, SIGNAL(triggered(bool)), this, SLOT(slotStartChat()));
-#: protocols/wlm/wlmaccount.cpp:84
-#, kde-format
-msgid "Open MS&N service status site..."
-msgstr ""
-
-#: protocols/wlm/wlmaccount.cpp:140 protocols/wlm/wlmaccount.cpp:142
-#, kde-format
-msgid "Buddies"
-msgstr "伙伴"
-
-#: protocols/wlm/wlmaccount.cpp:243 protocols/wlm/wlmaccount.cpp:254
-#, kde-format
-msgid "Change Display Name - MSN Plugin"
-msgstr "更改顯示名稱 - MSN 插件"
-
-#: protocols/wlm/wlmaccount.cpp:244
-#, kde-format
-msgid ""
-"Enter the new display name by which you want to be visible to your friends "
-"on MSN:"
-msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
-
-#: protocols/wlm/wlmaccount.cpp:252
-#, kde-format
-msgid ""
-"<qt>The display name you entered is too long. Please use a shorter name.\n"
-"Your display name has <b>not</b> been changed.</qt>"
-msgstr ""
-"<qt>你輸入的顯示名稱太長。請使用較短的名稱。\n"
-"你的顯示名稱<b>並未</b>更改。</qt>"
-
-#: protocols/wlm/wlmaccount.cpp:1156
-#, fuzzy, kde-format
-#| msgid "You have one unread message in your Yahoo inbox."
-#| msgid_plural "You have %1 unread messages in your Yahoo inbox."
-msgid "You have one unread message in your Hotmail inbox."
-msgid_plural "You have %1 unread messages in your Hotmail inbox."
-msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
-
-#: protocols/wlm/wlmaccount.cpp:1158 protocols/wlm/wlmaccount.cpp:1177
-#, fuzzy, kde-format
-#| msgid "Open Inbo&x..."
-msgctxt "@action"
-msgid "Open Inbox"
-msgstr "開啟收件匣(&X)..."
-
-#: protocols/wlm/wlmaccount.cpp:1176
-#, fuzzy, kde-format
-#| msgid "You have a message from %1 in your Yahoo inbox."
-msgid "New message from %1 in your Hotmail inbox.<p>Subject: %2"
-msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
-
-#: protocols/wlm/wlmchatsession.cpp:118
-#, kde-format
-msgid "Send Nudge"
-msgstr "傳送提示"
-
-#: protocols/wlm/wlmchatsession.cpp:147
-#, fuzzy, kde-format
-#| msgid "Send &File..."
-msgid "Send &Voice"
-msgstr "傳送檔案(&F)..."
-
-#: protocols/wlm/wlmchatsession.cpp:154
-#, kde-format
-msgid "Sound card not detected"
-msgstr ""
-
-#: protocols/wlm/wlmchatsession.cpp:162
-#, fuzzy, kde-format
-#| msgid "Connecting error."
-msgid "Stop &recording"
-msgstr "正在連接錯誤。"
-
-#: protocols/wlm/wlmchatsession.cpp:291
-#, kde-format
-msgid "The other contact needs to be online to receive voice clips."
-msgstr ""
-
-#: protocols/wlm/wlmchatsession.cpp:303
-#, fuzzy, kde-format
-#| msgid "You cannot see each others' status."
-msgid "You cannot send voice clips in invisible status"
-msgstr "你無法看到其他人的狀態。"
-
-#: protocols/wlm/wlmchatsession.cpp:350
-#, kde-format
-msgid "The maximum recording time is 15 seconds"
-msgstr ""
-
-#: protocols/wlm/wlmchatsession.cpp:394
-#, kde-format
-msgid "The voice clip must be longer"
-msgstr ""
-
-#: protocols/wlm/wlmchatsession.cpp:704
-#, kde-format
-msgid "has sent a nudge"
-msgstr ""
-
-#: protocols/wlm/wlmchatsession.cpp:1127
-#, fuzzy, kde-format
-msgid "has sent you a nudge"
-msgstr "有聯絡人發嗶聲/提示給你。"
-
-#: protocols/wlm/wlmchatsessioninkaction.cpp:56
-#, fuzzy, kde-format
-#| msgid "Send"
-msgid "Send Ink"
-msgstr "傳送"
-
-#: protocols/wlm/wlmchatsessioninkarea.cpp:55
-#, kde-format
-msgid "Select the pen's color"
-msgstr ""
-
-#: protocols/wlm/wlmcontact.cpp:58
-#, fuzzy, kde-format
-#| msgid "&Block Contact"
-msgid "Block Contact"
-msgstr "封鎖聯絡人(&B)"
-
-#: protocols/wlm/wlmcontact.cpp:64
-#, fuzzy, kde-format
-msgid "Update Photo"
-msgstr "Jabber ID"
-
-#: protocols/wlm/wlmcontact.cpp:68
-#, fuzzy, kde-format
-#| msgid "&Download and show custom emoticons"
-msgid "&Block custom emoticons"
-msgstr "下載並顯示自訂表情符號(&D)"
-
-#: protocols/wlm/wlmcontact.cpp:383
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Please go online to remove a contact from your contact list.</qt>"
-msgid ""
-"<qt>You need to go online to remove a contact from your contact list. This "
-"contact will appear again when you reconnect.</qt>"
-msgstr "<qt>請上線以從你的聯絡人清單移除聯絡人。</qt>"
-
-#: protocols/wlm/wlmcontact.cpp:427
-#, fuzzy, kde-format
-#| msgid "The contact XXX added you in his contactlist"
-msgid "This contact does not have you in his/her list"
-msgstr "聯絡人 XXX 已經將你加到他的聯絡人清單"
-
-#: protocols/wlm/wlmcontact.cpp:434
-#, fuzzy, kde-format
-#| msgid "user blocked you"
-msgid "This contact is blocked"
-msgstr "用戶將你封鎖了"
-
-#: protocols/wlm/wlmcontact.cpp:436
-#, kde-format
-msgid "This contact does not have you in his/her list and is blocked"
-msgstr ""
-
-#: protocols/wlm/wlmprotocol.cpp:32
-#, kde-format
-msgid "WLM"
-msgstr ""
-
-#: protocols/wlm/wlmprotocol.cpp:50
-#, kde-format
-msgid "Be Right Back"
-msgstr "馬上回來"
-
-#: protocols/wlm/wlmprotocol.cpp:51
-#, kde-format
-msgid "Be &Right Back"
-msgstr "馬上回來(&R)"
-
-#: protocols/wlm/wlmprotocol.cpp:53
-#, kde-format
-msgid "On the Phone"
-msgstr "電話中"
-
-#: protocols/wlm/wlmprotocol.cpp:54
-#, kde-format
-msgid "On The &Phone"
-msgstr "電話中(&P)"
-
-#: protocols/wlm/wlmprotocol.cpp:56
-#, kde-format
-msgid "Out to Lunch"
-msgstr "外出用餐"
-
-#: protocols/wlm/wlmprotocol.cpp:57
-#, kde-format
-msgid "Out To &Lunch"
-msgstr "外出用餐(&L)"
-
-#: protocols/wlm/wlmprotocol.cpp:66
-#, kde-format
-msgid "&Idle"
-msgstr "閒置(&I)"
-
-#: protocols/wlm/wlmprotocol.cpp:72
-#, fuzzy, kde-format
-#| msgid "Now Listening To: "
-msgctxt "This is used in the tooltip of a contact"
-msgid "Listening To"
-msgstr "現正聆聽:"
-
-#: protocols/wlm/wlmtransfermanager.cpp:113
-#: protocols/wlm/wlmtransfermanager.cpp:246
-#: protocols/wlm/wlmtransfermanager.cpp:252
-#, fuzzy, kde-format
-#| msgid "File transfer canceled."
-msgid "File transfer cancelled."
-msgstr "檔案傳輸取消。"
-
 #: protocols/yahoo/libkyahoo/modifyyabtask.cpp:95
 #: protocols/yahoo/libkyahoo/modifyyabtask.cpp:123
 #, fuzzy, kde-format
@@ -23727,6 +23237,11 @@ msgid "1 viewer"
 msgid_plural "%1 viewers"
 msgstr[0] ""
 
+#: protocols/yahoo/yahooaccount.cpp:95
+#, kde-format
+msgid "Open Inbo&x..."
+msgstr "開啟收件匣(&X)..."
+
 #: protocols/yahoo/yahooaccount.cpp:98
 #, fuzzy, kde-format
 #| msgid "Open &Addressbook..."
@@ -24204,6 +23719,250 @@ msgstr "額外屬性:"
 #, fuzzy, kde-format
 msgid "Account Verification - Yahoo"
 msgstr "帳號偏好設定 - Yahoo"
+
+#, fuzzy
+#~ msgid "Account Preferences - Wlm"
+#~ msgstr "帳號偏好設定 - ICQ"
+
+#, fuzzy
+#~| msgid "&MSN Passport ID:"
+#~ msgid "WLM passport:"
+#~ msgstr "&MSN Passport ID:"
+
+#~ msgid ""
+#~ "To connect to the Microsoft network, you will need a Microsoft Passport."
+#~ "<br><br>If you do not currently have a Passport, please click the button "
+#~ "to create one."
+#~ msgstr ""
+#~ "要連線到 Microsoft 網絡，你需要 Microsoft Passport。<br><br>如果你還沒有 "
+#~ "Passport，請按一下按鈕來建立。"
+
+#, fuzzy
+#~| msgid "Bloc&ked contacts:"
+#~ msgid "Blocked contacts:"
+#~ msgstr "封鎖的聯絡人(&K):"
+
+#, fuzzy
+#~| msgid "Allo&wed contacts:"
+#~ msgid "Allowed contacts:"
+#~ msgstr "允許的聯絡人(&W):"
+
+#~ msgid "WARNING: You need to be connected to modify this page"
+#~ msgstr "警告：你要連線才能修改此頁"
+
+#~ msgid "Connection Preferences (for advanced users)"
+#~ msgstr "連線偏好設定（供進階用戶使用）"
+
+#~ msgid "messenger.hotmail.com"
+#~ msgstr "messenger.hotmail.com"
+
+#, fuzzy
+#~| msgid "&Host:"
+#~ msgid "Host /"
+#~ msgstr "主機(&H):"
+
+#, fuzzy
+#~| msgid "po&rt:"
+#~ msgid "port:"
+#~ msgstr "連接埠(&R):"
+
+#, fuzzy
+#~| msgid "Blocked"
+#~ msgid "Socks5"
+#~ msgstr "已封鎖"
+
+#, fuzzy
+#~| msgid "&Username:"
+#~ msgid "Username:"
+#~ msgstr "用戶名稱(&U):"
+
+#, fuzzy
+#~| msgid "General Plugins"
+#~ msgid "General Options"
+#~ msgstr "一般插件"
+
+#, fuzzy
+#~| msgid "Check to set custom icons for this contact"
+#~ msgid "Do not send custom emoticons to other contacts"
+#~ msgstr "打勾以自訂此聯絡人的圖示"
+
+#, fuzzy
+#~| msgid "Check to set custom icons for this contact"
+#~ msgid "Do not show custom emoticons from other contacts"
+#~ msgstr "打勾以自訂此聯絡人的圖示"
+
+#, fuzzy
+#~| msgid "<qt>You must enter a valid password.</qt>"
+#~ msgid "<qt>You must enter a valid WLM passport.</qt>"
+#~ msgstr "<qt>你必須輸入有效的密碼。</qt>"
+
+#~ msgid "MSN Plugin"
+#~ msgstr "MSN 插件"
+
+#, fuzzy
+#~| msgid "&MSN Passport ID:"
+#~ msgid "&WLM passport:"
+#~ msgstr "&MSN Passport ID:"
+
+#~ msgid "<i>(for example: joe@hotmail.com)</i>"
+#~ msgstr "<i>(舉例: joe@hotmail.com)</i>"
+
+#, fuzzy
+#~| msgid "MSN Plugin"
+#~ msgid "WLM Plugin"
+#~ msgstr "MSN 插件"
+
+#~ msgid "Personal message:"
+#~ msgstr "個人化訊息:"
+
+#~ msgid "Phones"
+#~ msgstr "電話"
+
+#~ msgid "Mobile:"
+#~ msgstr "手提電話:"
+
+#~ msgid "Show whether you are on the contact list of this user"
+#~ msgstr "顯示你是否在這個用戶的聯絡人清單上"
+
+#~ msgid ""
+#~ "If this box is checked, you are on this user's contact list.\n"
+#~ "If not, the user has not added you to their list, or has removed you."
+#~ msgstr ""
+#~ "如勾選，你是在此用戶的聯絡人清單上。\n"
+#~ "如否，此用戶未將你加入清單，或已將你移除了。"
+
+#~ msgid "I am on &the contact list of this contact"
+#~ msgstr "我在這個聯絡人的聯絡人清單上(&T)"
+
+#~ msgid "&Change Display Name..."
+#~ msgstr "更改顯示名稱(&C)..."
+
+#~ msgid "Buddies"
+#~ msgstr "伙伴"
+
+#~ msgid "Change Display Name - MSN Plugin"
+#~ msgstr "更改顯示名稱 - MSN 插件"
+
+#~ msgid ""
+#~ "Enter the new display name by which you want to be visible to your "
+#~ "friends on MSN:"
+#~ msgstr "輸入你要在 MSN 上顯示給朋友的新顯示名稱:"
+
+#~ msgid ""
+#~ "<qt>The display name you entered is too long. Please use a shorter name.\n"
+#~ "Your display name has <b>not</b> been changed.</qt>"
+#~ msgstr ""
+#~ "<qt>你輸入的顯示名稱太長。請使用較短的名稱。\n"
+#~ "你的顯示名稱<b>並未</b>更改。</qt>"
+
+#, fuzzy
+#~| msgid "You have one unread message in your Yahoo inbox."
+#~| msgid_plural "You have %1 unread messages in your Yahoo inbox."
+#~ msgid "You have one unread message in your Hotmail inbox."
+#~ msgid_plural "You have %1 unread messages in your Hotmail inbox."
+#~ msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
+
+#, fuzzy
+#~| msgid "Open Inbo&x..."
+#~ msgctxt "@action"
+#~ msgid "Open Inbox"
+#~ msgstr "開啟收件匣(&X)..."
+
+#, fuzzy
+#~| msgid "You have a message from %1 in your Yahoo inbox."
+#~ msgid "New message from %1 in your Hotmail inbox.<p>Subject: %2"
+#~ msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
+
+#~ msgid "Send Nudge"
+#~ msgstr "傳送提示"
+
+#, fuzzy
+#~| msgid "Send &File..."
+#~ msgid "Send &Voice"
+#~ msgstr "傳送檔案(&F)..."
+
+#, fuzzy
+#~| msgid "Connecting error."
+#~ msgid "Stop &recording"
+#~ msgstr "正在連接錯誤。"
+
+#, fuzzy
+#~| msgid "You cannot see each others' status."
+#~ msgid "You cannot send voice clips in invisible status"
+#~ msgstr "你無法看到其他人的狀態。"
+
+#, fuzzy
+#~ msgid "has sent you a nudge"
+#~ msgstr "有聯絡人發嗶聲/提示給你。"
+
+#, fuzzy
+#~| msgid "Send"
+#~ msgid "Send Ink"
+#~ msgstr "傳送"
+
+#, fuzzy
+#~| msgid "&Block Contact"
+#~ msgid "Block Contact"
+#~ msgstr "封鎖聯絡人(&B)"
+
+#, fuzzy
+#~ msgid "Update Photo"
+#~ msgstr "Jabber ID"
+
+#, fuzzy
+#~| msgid "&Download and show custom emoticons"
+#~ msgid "&Block custom emoticons"
+#~ msgstr "下載並顯示自訂表情符號(&D)"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>Please go online to remove a contact from your contact list.</qt>"
+#~ msgid ""
+#~ "<qt>You need to go online to remove a contact from your contact list. "
+#~ "This contact will appear again when you reconnect.</qt>"
+#~ msgstr "<qt>請上線以從你的聯絡人清單移除聯絡人。</qt>"
+
+#, fuzzy
+#~| msgid "The contact XXX added you in his contactlist"
+#~ msgid "This contact does not have you in his/her list"
+#~ msgstr "聯絡人 XXX 已經將你加到他的聯絡人清單"
+
+#, fuzzy
+#~| msgid "user blocked you"
+#~ msgid "This contact is blocked"
+#~ msgstr "用戶將你封鎖了"
+
+#~ msgid "Be Right Back"
+#~ msgstr "馬上回來"
+
+#~ msgid "Be &Right Back"
+#~ msgstr "馬上回來(&R)"
+
+#~ msgid "On the Phone"
+#~ msgstr "電話中"
+
+#~ msgid "On The &Phone"
+#~ msgstr "電話中(&P)"
+
+#~ msgid "Out to Lunch"
+#~ msgstr "外出用餐"
+
+#~ msgid "Out To &Lunch"
+#~ msgstr "外出用餐(&L)"
+
+#~ msgid "&Idle"
+#~ msgstr "閒置(&I)"
+
+#, fuzzy
+#~| msgid "Now Listening To: "
+#~ msgctxt "This is used in the tooltip of a contact"
+#~ msgid "Listening To"
+#~ msgstr "現正聆聽:"
+
+#, fuzzy
+#~| msgid "File transfer canceled."
+#~ msgid "File transfer cancelled."
+#~ msgstr "檔案傳輸取消。"
 
 #, fuzzy
 #~ msgctxt "@title:window"
