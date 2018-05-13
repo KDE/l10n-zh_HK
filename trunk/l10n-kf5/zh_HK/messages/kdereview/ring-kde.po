@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-12 03:39+0200\n"
+"POT-Creation-Date: 2018-05-13 03:33+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -46,7 +46,7 @@ msgid "View"
 msgstr "查看(V)"
 
 #. i18n: ectx: Menu (Settings)
-#: data/ring-kdeui.rc:31
+#: data/ring-kdeui.rc:31 src/desktopview/qml/desktopwindow.qml:104
 #, fuzzy, kde-format
 #| msgid "ALSA settings"
 msgid "Settings"
@@ -105,54 +105,54 @@ msgstr "編輯電話號碼"
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:179
+#: src/accountview/qml/accountlist.qml:181
 #, fuzzy, kde-format
 #| msgid "Current account"
 msgid "Delete an account"
 msgstr "當前帳戶"
 
-#: src/accountview/qml/accountlist.qml:182
+#: src/accountview/qml/accountlist.qml:184
 #, kde-format
 msgid "<center>Are you sure you want to delete the account called "
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:183
+#: src/accountview/qml/accountlist.qml:185
 #, kde-format
 msgid ""
 ". <br><br> This cannot be undone and you will lose the account "
 "<b>permanently</b></center>"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:209
+#: src/accountview/qml/accountlist.qml:211
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Status logs"
 msgstr "狀態"
 
-#: src/accountview/qml/accountlist.qml:216
+#: src/accountview/qml/accountlist.qml:218
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/accountview/qml/accountlist.qml:223 src/configurator/recording.ui:65
+#: src/accountview/qml/accountlist.qml:225 src/configurator/recording.ui:65
 #: src/timeline/qml/phonenumbers.qml:191
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete"
 msgstr "編輯電話"
 
-#: src/accountview/qml/accountlist.qml:234
+#: src/accountview/qml/accountlist.qml:236
 #, kde-format
 msgid "Reload"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:252 src/conf/configurationdialog.cpp:116
+#: src/accountview/qml/accountlist.qml:254 src/conf/configurationdialog.cpp:116
 #, kde-format
 msgid "Accounts"
 msgstr "帳戶"
 
-#: src/accountview/qml/accountlist.qml:261
+#: src/accountview/qml/accountlist.qml:263
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "Add an account"
@@ -1860,7 +1860,7 @@ msgid "Organization"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:418
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:422
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
@@ -1868,7 +1868,7 @@ msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
 #: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:157
-#: src/timeline/qml/contactinfo.qml:406
+#: src/timeline/qml/contactinfo.qml:410
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -1921,7 +1921,7 @@ msgstr "郵件(E)"
 msgid "Add a field"
 msgstr ""
 
-#: src/desktopview/qml/desktopwindow.qml:75
+#: src/desktopview/qml/desktopwindow.qml:140
 #, kde-format
 msgid "Hide"
 msgstr ""
@@ -2553,24 +2553,24 @@ msgstr ""
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:164 src/timeline/qml/contactinfo.qml:362
+#: src/timeline/qml/contactinfo.qml:164 src/timeline/qml/contactinfo.qml:366
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:376
+#: src/timeline/qml/contactinfo.qml:380
 #, fuzzy, kde-format
 #| msgid "Clear _history"
 msgid "View history"
 msgstr "清空曆史記錄(C)"
 
-#: src/timeline/qml/contactinfo.qml:386
+#: src/timeline/qml/contactinfo.qml:390
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:394
+#: src/timeline/qml/contactinfo.qml:398
 #, fuzzy, kde-format
 msgid "Contact details"
 msgstr "顯示"
@@ -2657,24 +2657,24 @@ msgstr ""
 msgid "Cannot select this person because it was not found"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:146
+#: src/timeline/qml/viewcontact.qml:144
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:149
+#: src/timeline/qml/viewcontact.qml:147
 #, fuzzy, kde-format
 msgid "Audio/Video"
 msgstr "音頻"
 
-#: src/timeline/qml/viewcontact.qml:152
+#: src/timeline/qml/viewcontact.qml:150
 #, fuzzy, kde-format
 #| msgctxt "Config section"
 #| msgid "Recordings"
 msgid "Calls/Recordings"
 msgstr "記錄"
 
-#: src/timeline/qml/viewcontact.qml:155
+#: src/timeline/qml/viewcontact.qml:153
 #, fuzzy, kde-format
 #| msgid "SIP account configuration"
 msgid "Information"
