@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-19 04:03+0200\n"
+"POT-Creation-Date: 2018-05-20 03:35+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -163,7 +163,7 @@ msgstr "增加新帳戶"
 msgid "Close"
 msgstr ""
 
-#: src/actioncollection.cpp:88
+#: src/actioncollection.cpp:88 src/timeline/qml/pendingrequests.qml:56
 #, kde-format
 msgid "Accept"
 msgstr "接受"
@@ -636,7 +636,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:103 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:129
+#: src/timeline/qml/contactinfo.qml:130
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -1866,8 +1866,8 @@ msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:154
-#: src/timeline/qml/contactinfo.qml:411
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:155
+#: src/timeline/qml/contactinfo.qml:415
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -2531,45 +2531,45 @@ msgid ""
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:82
+#: src/timeline/qml/contactinfo.qml:83
 #: src/timeline/qml/peerstimelinecategories.qml:25
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:85
+#: src/timeline/qml/contactinfo.qml:86
 #, kde-format
 msgid "<b>Last contacted on:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:92
+#: src/timeline/qml/contactinfo.qml:93
 #, kde-format
 msgid "<b>Called:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:100
+#: src/timeline/qml/contactinfo.qml:101
 #, kde-format
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:360
+#: src/timeline/qml/contactinfo.qml:364
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:377
+#: src/timeline/qml/contactinfo.qml:381
 #, fuzzy, kde-format
 #| msgid "Clear _history"
 msgid "View history"
 msgstr "清空曆史記錄(C)"
 
-#: src/timeline/qml/contactinfo.qml:387
+#: src/timeline/qml/contactinfo.qml:391
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:396
+#: src/timeline/qml/contactinfo.qml:400
 #, fuzzy, kde-format
 msgid "Contact details"
 msgstr "顯示"
@@ -2602,10 +2602,20 @@ msgstr ""
 msgid "Create an account"
 msgstr "當前帳戶"
 
-#: src/timeline/qml/peerstimeline.qml:115
+#: src/timeline/qml/peerstimeline.qml:131
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter"
+msgstr ""
+
+#: src/timeline/qml/pendingrequests.qml:62
+#, kde-format
+msgid "Decline"
+msgstr ""
+
+#: src/timeline/qml/pendingrequests.qml:68
+#, kde-format
+msgid "Block"
 msgstr ""
 
 #: src/timeline/qml/phonenumbers.qml:92
@@ -2678,6 +2688,17 @@ msgstr "記錄"
 #| msgid "SIP account configuration"
 msgid "Information"
 msgstr "SIP帳戶配置"
+
+#: src/timeline/qml/viewcontactrequests.qml:57
+#, kde-format
+msgid "You have pending contact requests:"
+msgstr ""
+
+#: src/timeline/qml/viewcontactrequests.qml:77
+#, fuzzy, kde-format
+#| msgid "Edit phone"
+msgid "View all contact requests"
+msgstr "編輯電話"
 
 #: src/widgets/fileselector.cpp:35
 #, kde-format
@@ -3110,12 +3131,6 @@ msgstr ""
 #~| msgid "Account"
 #~ msgid "Account:"
 #~ msgstr "帳戶"
-
-#, fuzzy
-#~| msgid "Edit phone"
-#~ msgctxt "View contact tab"
-#~ msgid "View contact"
-#~ msgstr "編輯電話"
 
 #~ msgid "Mic volume"
 #~ msgstr "話筒音量"
