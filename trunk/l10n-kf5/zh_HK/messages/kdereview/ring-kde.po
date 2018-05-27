@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-26 03:39+0200\n"
+"POT-Creation-Date: 2018-05-27 03:35+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -46,7 +46,7 @@ msgid "View"
 msgstr "查看(V)"
 
 #. i18n: ectx: Menu (Settings)
-#: data/ring-kdeui.rc:31 src/desktopview/qml/desktopwindow.qml:115
+#: data/ring-kdeui.rc:31 src/desktopview/qml/desktopwindow.qml:117
 #, fuzzy, kde-format
 #| msgid "ALSA settings"
 msgid "Settings"
@@ -158,9 +158,9 @@ msgstr "帳戶"
 msgid "Add an account"
 msgstr "增加新帳戶"
 
-#: src/actioncollection.cpp:86 src/dialview/qml/calldelegateitem.qml:57
+#: src/actioncollection.cpp:86 src/dialview/qml/calldelegateitem.qml:59
 #: src/timeline/qml/pendingrequests.qml:124
-#: src/timeline/qml/searchoverlay.qml:120
+#: src/timeline/qml/searchoverlay.qml:145
 #, kde-format
 msgid "Close"
 msgstr ""
@@ -1946,7 +1946,7 @@ msgstr "郵件(E)"
 msgid "Add a field"
 msgstr ""
 
-#: src/desktopview/qml/desktopwindow.qml:151
+#: src/desktopview/qml/desktopwindow.qml:153
 #, kde-format
 msgid "Hide"
 msgstr ""
@@ -2687,14 +2687,31 @@ msgstr "主屏幕"
 msgid "Find someone"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:112
+#: src/timeline/qml/searchoverlay.qml:137
 #, kde-format
 msgid "Scan a QR Code"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:261
+#: src/timeline/qml/searchoverlay.qml:287
 #, kde-format
 msgid "Cannot select this person because it was not found"
+msgstr ""
+
+#: src/timeline/qml/searchtip.qml:75
+#, kde-format
+msgid "Got it"
+msgstr ""
+
+#: src/timeline/qml/searchtip.qml:87
+#, kde-format
+msgid ""
+"The search results come from 4 different sources. It first look in the <b "
+"style=\"color:#be3411;\">history</b>, the <b style=\"color:#cfa02a;"
+"\">bookmarks</b> and the <b style=\"color:#14883b;\">contacts</b>. If there "
+"is no perfect match it then query the <b style=\"color:#2c53bd;\">registered "
+"name database.</b>. The source of the result is indicated using a colored "
+"circle on the left side of the result. Note that accessing the registered "
+"name database requires sending the search string to the server."
 msgstr ""
 
 #: src/timeline/qml/sendrequest.qml:47
@@ -2702,24 +2719,24 @@ msgstr ""
 msgid "Send a friend request first"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:154
+#: src/timeline/qml/viewcontact.qml:135
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:157
+#: src/timeline/qml/viewcontact.qml:138
 #, fuzzy, kde-format
 msgid "Audio/Video"
 msgstr "音頻"
 
-#: src/timeline/qml/viewcontact.qml:160
+#: src/timeline/qml/viewcontact.qml:141
 #, fuzzy, kde-format
 #| msgctxt "Config section"
 #| msgid "Recordings"
 msgid "Calls/Recordings"
 msgstr "記錄"
 
-#: src/timeline/qml/viewcontact.qml:163
+#: src/timeline/qml/viewcontact.qml:144
 #, fuzzy, kde-format
 #| msgid "SIP account configuration"
 msgid "Information"
