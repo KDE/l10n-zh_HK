@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-03 03:35+0200\n"
+"POT-Creation-Date: 2018-06-06 03:41+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -2575,7 +2575,7 @@ msgstr "當前帳戶"
 msgid "Write a message and press enter..."
 msgstr ""
 
-#: src/timeline/qml/chatview.qml:66
+#: src/timeline/qml/chatview.qml:66 src/timeline/qml/recordinghistory.qml:43
 #, kde-format
 msgid ""
 "There is nothing yet, enter a message below or place a call using the "
@@ -2693,6 +2693,18 @@ msgstr "新電話"
 #| msgid "Main screen"
 msgid "Share screen"
 msgstr "主屏幕"
+
+#: src/timeline/qml/recordinghistory.qml:135
+#, fuzzy, kde-format
+#| msgid "On messages"
+msgid " incoming messages"
+msgstr "有新消息"
+
+#: src/timeline/qml/recordinghistory.qml:147
+#, fuzzy, kde-format
+#| msgid "On messages"
+msgid " outgoing messages"
+msgstr "有新消息"
 
 #: src/timeline/qml/searchbox.qml:121
 #, kde-format
@@ -3317,9 +3329,6 @@ msgstr ""
 #~| msgid "Desktop Notifications"
 #~ msgid "Notifications"
 #~ msgstr "桌面提示"
-
-#~ msgid "On messages"
-#~ msgstr "有新消息"
 
 #, fuzzy
 #~| msgid "Optional email address"
