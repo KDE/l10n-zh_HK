@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-07 03:44+0200\n"
+"POT-Creation-Date: 2018-06-09 03:38+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -158,7 +158,7 @@ msgstr "帳戶"
 msgid "Add an account"
 msgstr "增加新帳戶"
 
-#: src/actioncollection.cpp:86 src/dialview/qml/calldelegateitem.qml:59
+#: src/actioncollection.cpp:86 src/dialview/qml/calldelegateitem.qml:64
 #: src/timeline/qml/pendingrequests.qml:124
 #: src/timeline/qml/searchoverlay.qml:159
 #, kde-format
@@ -380,17 +380,17 @@ msgstr ""
 msgid "This contact has multiple phone numbers, please select one below."
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:143 src/timeline/qml/phonenumbers.qml:281
+#: src/callview/qml/cmselector.qml:143 src/timeline/qml/phonenumbers.qml:286
 #, kde-format
 msgid "Never used"
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:144 src/timeline/qml/phonenumbers.qml:282
+#: src/callview/qml/cmselector.qml:144 src/timeline/qml/phonenumbers.qml:287
 #, kde-format
 msgid "Used "
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:144 src/timeline/qml/phonenumbers.qml:282
+#: src/callview/qml/cmselector.qml:144 src/timeline/qml/phonenumbers.qml:287
 #, kde-format
 msgid " time (Last used on: "
 msgstr ""
@@ -414,6 +414,13 @@ msgstr "已註冊"
 #, kde-format
 msgid "Frame rate"
 msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: src/callview/qml/recordingicon.qml:53 src/conf/dlgaudiorecording.ui:23
+#, fuzzy, kde-format
+#| msgid "Recordings"
+msgid "Recording"
+msgstr "記錄"
 
 #: src/callview/qml/screensharing.qml:31
 #, kde-format
@@ -663,7 +670,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:103 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:113
+#: src/timeline/qml/contactinfo.qml:114
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -1528,13 +1535,6 @@ msgstr "啟動鈴聲"
 msgid "Mute DTMF"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
-#: src/conf/dlgaudiorecording.ui:23
-#, fuzzy, kde-format
-#| msgid "Recordings"
-msgid "Recording"
-msgstr "記錄"
-
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, KUrlRequester_destinationFolder)
 #: src/conf/dlgaudiorecording.ui:35
 #, kde-format
@@ -1893,8 +1893,8 @@ msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:138
-#: src/timeline/qml/contactinfo.qml:370
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:139
+#: src/timeline/qml/contactinfo.qml:371
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -1973,11 +1973,6 @@ msgstr "名稱"
 #| msgid "_Email"
 msgid "Email:"
 msgstr "郵件(E)"
-
-#: src/contactview/qml/vcardform.qml:156
-#, kde-format
-msgid "Add a field"
-msgstr ""
 
 #: src/desktopview/qml/desktopwindow.qml:169
 #, kde-format
@@ -2470,83 +2465,83 @@ msgstr ""
 msgid "From camera"
 msgstr ""
 
-#: src/ringapplication.cpp:261
+#: src/ringapplication.cpp:262
 #, kde-format
 msgid "Home"
 msgstr "家庭電話"
 
-#: src/ringapplication.cpp:262
+#: src/ringapplication.cpp:263
 #, kde-format
 msgid "Work"
 msgstr "單位電話"
 
-#: src/ringapplication.cpp:263
+#: src/ringapplication.cpp:264
 #, kde-format
 msgid "Msg"
 msgstr ""
 
-#: src/ringapplication.cpp:264
+#: src/ringapplication.cpp:265
 #, kde-format
 msgid "Pref"
 msgstr ""
 
-#: src/ringapplication.cpp:265
+#: src/ringapplication.cpp:266
 #, fuzzy, kde-format
 #| msgid "Voicemail"
 msgid "Voice"
 msgstr "語音郵件"
 
-#: src/ringapplication.cpp:266
+#: src/ringapplication.cpp:267
 #, kde-format
 msgid "Fax"
 msgstr ""
 
-#: src/ringapplication.cpp:267
+#: src/ringapplication.cpp:268
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:268 src/timeline/qml/mediabuttons.qml:184
+#: src/ringapplication.cpp:269 src/timeline/qml/mediabuttons.qml:184
 #, kde-format
 msgid "Video"
 msgstr ""
 
-#: src/ringapplication.cpp:269
+#: src/ringapplication.cpp:270
 #, kde-format
 msgid "Bbs"
 msgstr ""
 
-#: src/ringapplication.cpp:270
+#: src/ringapplication.cpp:271
 #, kde-format
 msgid "Modem"
 msgstr ""
 
-#: src/ringapplication.cpp:271
+#: src/ringapplication.cpp:272
 #, kde-format
 msgid "Car"
 msgstr ""
 
-#: src/ringapplication.cpp:272
+#: src/ringapplication.cpp:273
 #, kde-format
 msgid "Isdn"
 msgstr ""
 
-#: src/ringapplication.cpp:273
+#: src/ringapplication.cpp:274
 #, kde-format
 msgid "Pcs"
 msgstr ""
 
-#: src/ringapplication.cpp:274
+#: src/ringapplication.cpp:275
 #, kde-format
 msgid "Pager"
 msgstr ""
 
-#: src/ringapplication.cpp:275
+#: src/ringapplication.cpp:276
 #, kde-format
 msgid "Preferred"
 msgstr ""
 
-#: src/ringapplication.cpp:335
+#: src/ringapplication.cpp:336
 #, fuzzy, kde-format
 #| msgid "Bad authentification"
 msgid "System root certificates"
@@ -2569,6 +2564,11 @@ msgstr ""
 #| msgid "Current account"
 msgid "Reload all accounts now"
 msgstr "當前帳戶"
+
+#: src/timeline/qml/audioplayer.qml:86
+#, kde-format
+msgid "Click to play"
+msgstr ""
 
 #: src/timeline/qml/chatbox.qml:191
 #, kde-format
@@ -2595,24 +2595,24 @@ msgid ""
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:319
+#: src/timeline/qml/contactinfo.qml:320
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:336
+#: src/timeline/qml/contactinfo.qml:337
 #, fuzzy, kde-format
 #| msgid "Clear _history"
 msgid "View history"
 msgstr "清空曆史記錄(C)"
 
-#: src/timeline/qml/contactinfo.qml:346
+#: src/timeline/qml/contactinfo.qml:347
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:355
+#: src/timeline/qml/contactinfo.qml:356
 #, fuzzy, kde-format
 msgid "Contact details"
 msgstr "顯示"
@@ -2694,13 +2694,13 @@ msgstr "新電話"
 msgid "Share screen"
 msgstr "主屏幕"
 
-#: src/timeline/qml/recordinghistory.qml:135
+#: src/timeline/qml/recordinghistory.qml:137
 #, fuzzy, kde-format
 #| msgid "On messages"
 msgid " incoming messages"
 msgstr "有新消息"
 
-#: src/timeline/qml/recordinghistory.qml:147
+#: src/timeline/qml/recordinghistory.qml:149
 #, fuzzy, kde-format
 #| msgid "On messages"
 msgid " outgoing messages"
