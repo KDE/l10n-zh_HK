@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-13 03:46+0200\n"
+"POT-Creation-Date: 2018-06-14 03:40+0200\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -160,7 +160,7 @@ msgstr "增加新帳戶"
 
 #: src/actioncollection.cpp:86 src/dialview/qml/calldelegateitem.qml:64
 #: src/timeline/qml/pendingrequests.qml:124
-#: src/timeline/qml/searchoverlay.qml:159
+#: src/timeline/qml/searchoverlay.qml:160
 #, kde-format
 msgid "Close"
 msgstr ""
@@ -670,7 +670,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:103 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:114
+#: src/timeline/qml/contactinfo.qml:116
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -1397,23 +1397,23 @@ msgstr ""
 #. i18n: ectx: label, entry (displayContactDock), group (main)
 #. i18n: ectx: label, entry (displayHistoryDock), group (main)
 #. i18n: ectx: label, entry (displayBookmarkDock), group (main)
-#: src/conf/dlgaccessibility.ui:29 src/klib/ring-kde.kcfg:193
-#: src/klib/ring-kde.kcfg:234 src/klib/ring-kde.kcfg:238
-#: src/klib/ring-kde.kcfg:242
+#: src/conf/dlgaccessibility.ui:29 src/klib/ring-kde.kcfg:196
+#: src/klib/ring-kde.kcfg:237 src/klib/ring-kde.kcfg:241
+#: src/klib/ring-kde.kcfg:245
 #, kde-format
 msgid "Enable audio feedback from common actions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
 #. i18n: ectx: label, entry (enableReadLabel), group (main)
-#: src/conf/dlgaccessibility.ui:36 src/klib/ring-kde.kcfg:197
+#: src/conf/dlgaccessibility.ui:36 src/klib/ring-kde.kcfg:200
 #, kde-format
 msgid "Automatically read label when an overlay is being displayed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
 #. i18n: ectx: label, entry (enableReadDetails), group (main)
-#: src/conf/dlgaccessibility.ui:43 src/klib/ring-kde.kcfg:201
+#: src/conf/dlgaccessibility.ui:43 src/klib/ring-kde.kcfg:204
 #, kde-format
 msgid "Automatically read the call details when it is selected"
 msgstr ""
@@ -1580,7 +1580,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideUnreachable)
 #. i18n: ectx: label, entry (hideUnreachable), group (main)
-#: src/conf/dlgdisplaybase.ui:78 src/klib/ring-kde.kcfg:161
+#: src/conf/dlgdisplaybase.ui:78 src/klib/ring-kde.kcfg:164
 #, fuzzy, kde-format
 #| msgid "Host unreachable"
 msgid "Hide unreachable contacts"
@@ -1893,8 +1893,8 @@ msgid "Addresses"
 msgstr "地址簿"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:139
-#: src/timeline/qml/contactinfo.qml:371
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:141
+#: src/timeline/qml/contactinfo.qml:373
 #, fuzzy, kde-format
 #| msgid "Edit phone number"
 msgid "Phone numbers"
@@ -1951,24 +1951,24 @@ msgstr ""
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/contactview/qml/vcardform.qml:90
+#: src/contactview/qml/vcardform.qml:105
 #, fuzzy, kde-format
 #| msgid "Format: name.server:port"
 msgid "Formatted name:"
 msgstr "格式：name.server:port"
 
-#: src/contactview/qml/vcardform.qml:102
+#: src/contactview/qml/vcardform.qml:117
 #, fuzzy, kde-format
 msgid "Primary name:"
 msgstr "顯示"
 
-#: src/contactview/qml/vcardform.qml:114
+#: src/contactview/qml/vcardform.qml:129
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Last name:"
 msgstr "名稱"
 
-#: src/contactview/qml/vcardform.qml:126
+#: src/contactview/qml/vcardform.qml:141
 #, fuzzy, kde-format
 #| msgid "_Email"
 msgid "Email:"
@@ -2208,92 +2208,92 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (historySortMode), group (main)
-#: src/klib/ring-kde.kcfg:95
+#: src/klib/ring-kde.kcfg:98
 #, kde-format
 msgid "Define sorting order for history list"
 msgstr ""
 
 #. i18n: ectx: label, entry (contactSortMode), group (main)
-#: src/klib/ring-kde.kcfg:98
+#: src/klib/ring-kde.kcfg:101
 #, kde-format
 msgid "Define sorting order for contact list"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayPersonCallHistory), group (main)
-#: src/klib/ring-kde.kcfg:101
+#: src/klib/ring-kde.kcfg:104
 #, kde-format
 msgid "Defines if the individual contact history list is visible"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompletionHeight), group (main)
-#: src/klib/ring-kde.kcfg:105
+#: src/klib/ring-kde.kcfg:108
 #, kde-format
 msgid "The auto completion popup height"
 msgstr ""
 
 #. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
 #. i18n: ectx: label, entry (displayVideoPreview), group (main)
-#: src/klib/ring-kde.kcfg:111 src/klib/ring-kde.kcfg:115
+#: src/klib/ring-kde.kcfg:114 src/klib/ring-kde.kcfg:118
 #, kde-format
 msgid "Enforce video aspect ratio or allow stretching"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
-#: src/klib/ring-kde.kcfg:119
+#: src/klib/ring-kde.kcfg:122
 #, kde-format
 msgid "Save main window space by hiding the dialpad when the video is docked"
 msgstr ""
 
 #. i18n: ectx: label, entry (recentStreamedFiles), group (main)
-#: src/klib/ring-kde.kcfg:123
+#: src/klib/ring-kde.kcfg:126
 #, kde-format
 msgid "Files recently streamed"
 msgstr ""
 
 #. i18n: ectx: label, entry (enableRoomTone), group (main)
-#: src/klib/ring-kde.kcfg:130
+#: src/klib/ring-kde.kcfg:133
 #, kde-format
 msgid "Enable or disables the \"buzzzzz\" sound"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayAllCollections), group (main)
-#: src/klib/ring-kde.kcfg:137
+#: src/klib/ring-kde.kcfg:140
 #, kde-format
 msgid "Display non manageable collections"
 msgstr ""
 
 #. i18n: ectx: label, entry (disabledCollectionList), group (main)
-#: src/klib/ring-kde.kcfg:142
+#: src/klib/ring-kde.kcfg:145
 #, kde-format
 msgid "List of disabled address book collections"
 msgstr ""
 
 #. i18n: ectx: label, entry (phoneTypeList), group (main)
-#: src/klib/ring-kde.kcfg:146
+#: src/klib/ring-kde.kcfg:149
 #, kde-format
 msgid "Defines whether the search in KDE Address Book is enabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (hidePersonWithoutPhone), group (main)
-#: src/klib/ring-kde.kcfg:151
+#: src/klib/ring-kde.kcfg:154
 #, kde-format
 msgid "Defines whether to display the organisation of the contact list item"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultPeerProfileMode), group (main)
-#: src/klib/ring-kde.kcfg:156
+#: src/klib/ring-kde.kcfg:159
 #, kde-format
 msgid "Defines how peer profiles are merged with existing contacts"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (hideUnreachable), group (main)
-#: src/klib/ring-kde.kcfg:162
+#: src/klib/ring-kde.kcfg:165
 #, kde-format
 msgid "Hide a contact if there is no enabled accounts that can reach him/her"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultAccountId), group (main)
-#: src/klib/ring-kde.kcfg:167
+#: src/klib/ring-kde.kcfg:170
 #, kde-format
 msgid ""
 "Default account used for contact lookup if only partial (only extension) "
@@ -2301,19 +2301,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (bookmarkList), group (main)
-#: src/klib/ring-kde.kcfg:188
+#: src/klib/ring-kde.kcfg:191
 #, kde-format
 msgid "List of bookmarked clients"
 msgstr ""
 
 #. i18n: ectx: label, entry (enableAutoCompletion), group (main)
-#: src/klib/ring-kde.kcfg:207
+#: src/klib/ring-kde.kcfg:210
 #, kde-format
 msgid "Enable auto completion widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
-#: src/klib/ring-kde.kcfg:211
+#: src/klib/ring-kde.kcfg:214
 #, kde-format
 msgid ""
 "If there is multiple instance of the same number, merge them and use the "
@@ -2321,33 +2321,33 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
-#: src/klib/ring-kde.kcfg:215
+#: src/klib/ring-kde.kcfg:218
 #, kde-format
 msgid ""
 "Call numbers back with their original account instead of the default one"
 msgstr ""
 
 #. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
-#: src/klib/ring-kde.kcfg:221
+#: src/klib/ring-kde.kcfg:224
 #, kde-format
 msgid "Track bookmarked contacts presence"
 msgstr ""
 
 #. i18n: ectx: label, entry (presenceStatusList), group (main)
-#: src/klib/ring-kde.kcfg:226
+#: src/klib/ring-kde.kcfg:229
 #, kde-format
 msgid "List of presence status"
 msgstr ""
 
 #. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
-#: src/klib/ring-kde.kcfg:229
+#: src/klib/ring-kde.kcfg:232
 #, kde-format
 msgid "List of item collections automatically tracked"
 msgstr ""
 
 #. i18n: ectx: label, entry (displayRecentDock), group (main)
 #. i18n: ectx: label, entry (displayDialDock), group (main)
-#: src/klib/ring-kde.kcfg:246 src/klib/ring-kde.kcfg:250
+#: src/klib/ring-kde.kcfg:249 src/klib/ring-kde.kcfg:253
 #, kde-format
 msgid "Display the recently used contacts"
 msgstr ""
@@ -2595,24 +2595,24 @@ msgid ""
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:320
+#: src/timeline/qml/contactinfo.qml:322
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "狀態"
 
-#: src/timeline/qml/contactinfo.qml:337
+#: src/timeline/qml/contactinfo.qml:339
 #, fuzzy, kde-format
 #| msgid "Clear _history"
 msgid "View history"
 msgstr "清空曆史記錄(C)"
 
-#: src/timeline/qml/contactinfo.qml:347
+#: src/timeline/qml/contactinfo.qml:349
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:356
+#: src/timeline/qml/contactinfo.qml:358
 #, fuzzy, kde-format
 msgid "Contact details"
 msgstr "顯示"
@@ -2721,9 +2721,14 @@ msgstr ""
 msgid "Scan a QR Code"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:301
+#: src/timeline/qml/searchoverlay.qml:302
 #, kde-format
 msgid "Cannot select this person because it was not found"
+msgstr ""
+
+#: src/timeline/qml/searchoverlay.qml:325
+#, kde-format
+msgid "Hide and do not show again"
 msgstr ""
 
 #: src/timeline/qml/searchtip.qml:76
