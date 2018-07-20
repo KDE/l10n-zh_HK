@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kopete CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-13 03:33+0200\n"
+"POT-Creation-Date: 2018-07-20 06:08+0200\n"
 "PO-Revision-Date: 2006-01-08 17:34+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -109,11 +109,7 @@ msgstr ""
 "<p>請從下列清單中選取即時傳訊服務。</p>"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, protocolListView)
-#. i18n: ectx: property (text), widget (QTreeWidget, treeCategories)
-#. i18n: ectx: property (text), widget (QTreeWidget, treeRooms)
 #: kopete/addaccountwizard/addaccountwizardpage1.ui:52
-#: protocols/yahoo/ui/yahoochatselectorwidgetbase.ui:46
-#: protocols/yahoo/ui/yahoochatselectorwidgetbase.ui:61
 #, fuzzy, kde-format
 msgid "1"
 msgstr "12"
@@ -245,9 +241,6 @@ msgstr ""
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:550
 #: protocols/oscar/liboscar/userdetails.cpp:599
 #: protocols/qq/qqchatsession.cpp:47 protocols/qq/qqchatsession.cpp:54
-#: protocols/yahoo/yahoochatchatsession.cpp:38
-#: protocols/yahoo/yahoochatsession.cpp:53
-#: protocols/yahoo/yahooconferencemessagemanager.cpp:45
 #, kde-format
 msgid "Kopete"
 msgstr "Kopete"
@@ -573,7 +566,6 @@ msgstr ""
 #: kopete/chatwindow/kopetechatwindow.rc:5
 #: kopete/chatwindow/kopeteemailwindow.rc:5 protocols/groupwise/gwchatui.rc:5
 #: protocols/jabber/jabberchatui.rc:5 protocols/qq/qqchatui.rc:5
-#: protocols/yahoo/yahooconferenceui.rc:5
 #, kde-format
 msgid "&Chat"
 msgstr "聊天(&C)"
@@ -2351,7 +2343,6 @@ msgstr ""
 #: protocols/oscar/icq/icqstatusmanager.cpp:75 protocols/qq/qqprotocol.cpp:41
 #: protocols/skype/skypeaccount.cpp:929 protocols/skype/skypeprotocol.cpp:76
 #: protocols/sms/smsprotocol.cpp:40 protocols/winpopup/wpprotocol.cpp:59
-#: protocols/yahoo/yahooprotocol.cpp:45
 #, kde-format
 msgid "Offline"
 msgstr "離線"
@@ -2373,7 +2364,7 @@ msgstr "離線"
 #: protocols/oscar/icq/icqstatusmanager.cpp:87 protocols/qq/qqprotocol.cpp:37
 #: protocols/skype/skypeaccount.cpp:925 protocols/skype/skypeprotocol.cpp:77
 #: protocols/sms/smsprotocol.cpp:39 protocols/winpopup/wpaccount.cpp:170
-#: protocols/winpopup/wpprotocol.cpp:57 protocols/yahoo/yahooprotocol.cpp:46
+#: protocols/winpopup/wpprotocol.cpp:57
 #, kde-format
 msgid "Online"
 msgstr "上線"
@@ -2408,7 +2399,6 @@ msgstr "離開"
 #: protocols/gadu/gaduprotocol.cpp:69 protocols/gadu/gaduprotocol.cpp:74
 #: protocols/groupwise/gwprotocol.cpp:55
 #: protocols/meanwhile/meanwhileprotocol.cpp:49
-#: protocols/yahoo/yahooprotocol.cpp:48
 #, kde-format
 msgid "Busy"
 msgstr "忙碌"
@@ -2425,7 +2415,6 @@ msgstr "忙碌"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:812
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/skype/skypeaccount.cpp:945 protocols/skype/skypeprotocol.cpp:82
-#: protocols/yahoo/yahooprotocol.cpp:57
 #, kde-format
 msgid "Invisible"
 msgstr "隱形"
@@ -2968,7 +2957,6 @@ msgstr "離開（進階）"
 #: kopete/config/status/statusconfig_manager.cpp:68
 #: protocols/groupwise/gwprotocol.cpp:59
 #: protocols/meanwhile/meanwhileprotocol.cpp:54
-#: protocols/yahoo/yahooprotocol.cpp:59
 #, kde-format
 msgid "Idle"
 msgstr "閒置"
@@ -2992,7 +2980,6 @@ msgid "New Group"
 msgstr "新群組"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbAddStatus)
-#. i18n: ectx: property (text), widget (QPushButton, btnCustomAdd)
 #. i18n: ectx: property (text), widget (QPushButton, buttonAdd)
 #. i18n: ectx: property (text), widget (QPushButton, addEmailButton)
 #. i18n: ectx: property (text), widget (QPushButton, visibleAdd)
@@ -3015,7 +3002,6 @@ msgstr "新群組"
 #: protocols/oscar/icq/ui/icqotherinfowidget.ui:69
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:49
 #: protocols/oscar/icq/ui/xtrazicqstatuseditorui.ui:22
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:173
 #, fuzzy, kde-format
 msgid "Add"
 msgstr "加入(&A)"
@@ -3035,7 +3021,6 @@ msgstr "建立項目"
 
 #: kopete/config/status/statusmodel.cpp:128
 #: protocols/groupwise/ui/gwcontactproperties.cpp:123
-#: protocols/yahoo/yahooprotocol.cpp:68
 #, kde-format
 msgid "Title"
 msgstr "頭銜"
@@ -3256,13 +3241,11 @@ msgstr "和通訊錄合併"
 #. i18n: ectx: property (text), widget (QLabel, firstNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, mLblFirstName)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
 #: kopete/contactlist/kopeteaddrbookexportui.ui:37
 #: kopete/identity/identitygeneral.ui:165
 #: protocols/bonjour/bonjouraccountpreferences.ui:91
 #: protocols/groupwise/ui/gwcontactprops.ui:111
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:480
 #, kde-format
 msgid "First name:"
 msgstr "名:"
@@ -3300,13 +3283,11 @@ msgstr "URL:"
 #. i18n: ectx: property (text), widget (QLabel, lastNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, mLblLastName)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, LastNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel11)
 #: kopete/contactlist/kopeteaddrbookexportui.ui:105
 #: kopete/identity/identitygeneral.ui:184
 #: protocols/bonjour/bonjouraccountpreferences.ui:119
 #: protocols/groupwise/ui/gwcontactprops.ui:147
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:417
 #, kde-format
 msgid "Last name:"
 msgstr "名:"
@@ -3851,7 +3832,6 @@ msgstr "個人資訊"
 #. i18n: ectx: property (windowTitle), widget (QWidget, IdentityGeneral)
 #: kopete/identity/identitygeneral.ui:13
 #: protocols/oscar/icq/ui/icquserinfowidget.cpp:110
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:58
 #, kde-format
 msgid "General Info"
 msgstr "一般資訊"
@@ -3977,10 +3957,8 @@ msgstr "忙碌(&B)"
 msgid "&Invisible"
 msgstr "隱形(&I)"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioOnline)
 #: kopete/kopetewindow.cpp:447 protocols/gadu/gaduprotocol.cpp:88
 #: protocols/gadu/gaduprotocol.cpp:93
-#: protocols/yahoo/ui/yahoostealthsetting.ui:40
 #, kde-format
 msgid "&Online"
 msgstr "上線(&O)"
@@ -6377,7 +6355,7 @@ msgstr "<qt>無法下載所要求檔案；<br>請檢查位址 %1 是否正確。
 #: libkopete/kopeteonlinestatus.cpp:167 protocols/gadu/gaduprotocol.cpp:96
 #: protocols/groupwise/gwprotocol.cpp:69 protocols/jabber/jabberprotocol.cpp:74
 #: protocols/skype/skypecalldialog.cpp:215 protocols/skype/skypeprotocol.cpp:83
-#: protocols/sms/smsprotocol.cpp:41 protocols/yahoo/yahooprotocol.cpp:60
+#: protocols/sms/smsprotocol.cpp:41
 #, kde-format
 msgid "Connecting"
 msgstr "正在連接"
@@ -6667,8 +6645,6 @@ msgid "View"
 msgstr "檢視"
 
 #: libkopete/private/kopeteviewmanager.cpp:384
-#: protocols/yahoo/yahooaccount.cpp:1190 protocols/yahoo/yahooaccount.cpp:1636
-#: protocols/yahoo/yahooaccount.cpp:1847
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Close"
@@ -7873,8 +7849,6 @@ msgid "All"
 msgstr "所有"
 
 #: plugins/history/historydialog.cpp:216
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:42
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:64
 #, kde-format
 msgid "Loading..."
 msgstr "正在載入..."
@@ -10891,7 +10865,6 @@ msgstr "基本設定(&A)"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox53)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#. i18n: ectx: property (title), widget (QGroupBox, mAccountInfo)
 #. i18n: ectx: property (title), widget (QGroupBox, m_accountInfo)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox55)
 #: protocols/bonjour/bonjouraccountpreferences.ui:56
@@ -10904,7 +10877,6 @@ msgstr "基本設定(&A)"
 #: protocols/skype/ui/skypeeditaccountbase.ui:27
 #: protocols/sms/ui/smsactprefs.ui:71
 #: protocols/winpopup/ui/wpeditaccountbase.ui:46
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:65
 #, kde-format
 msgid "Account Information"
 msgstr "帳號資訊"
@@ -10914,7 +10886,6 @@ msgstr "帳號資訊"
 #: protocols/bonjour/bonjouraccountpreferences.ui:77
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:34
 #: protocols/skype/ui/skypecalldialogbase.ui:39
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:121
 #, kde-format
 msgid "Name:"
 msgstr "名稱:"
@@ -11949,20 +11920,18 @@ msgstr ""
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:235
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:99
 #: protocols/qq/ui/qqeditaccountui.ui:178
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:137
 #, kde-format
 msgid "E&xclude from connect all"
 msgstr "從全部連線中排除(&X)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, registrationGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: protocols/gadu/ui/gadueditaccountui.ui:147
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:119
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:78
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:109
 #: protocols/qq/ui/qqeditaccountui.ui:215
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:147
 #, kde-format
 msgid "Registration"
 msgstr "註冊"
@@ -11981,16 +11950,12 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, registerNew)
 #. i18n: ectx: property (whatsThis), widget (QPushButton, registerNew)
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonRegister)
-#. i18n: ectx: property (whatsThis), widget (QPushButton, buttonRegister)
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnRegister)
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRegister)
 #: protocols/gadu/ui/gadueditaccountui.ui:191
 #: protocols/gadu/ui/gadueditaccountui.ui:194
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:157
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:160
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:212
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:215
 #, kde-format
 msgid "Register a new account on this network."
 msgstr "在此網絡註冊新帳號。"
@@ -12025,7 +11990,6 @@ msgstr "帳號偏好設定(&C)"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:267
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:287
 #: protocols/qq/ui/qqeditaccountui.ui:308
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:279
 #, kde-format
 msgid "Connection Preferences"
 msgstr "連線偏好設定"
@@ -12232,7 +12196,7 @@ msgstr "出生年份:"
 #: protocols/jabber/ui/dlgvcard.ui:375
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:273
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:68
-#: protocols/qq/ui/qqvcard.ui:406 protocols/yahoo/ui/yahooworkinfowidget.ui:128
+#: protocols/qq/ui/qqvcard.ui:406
 #, kde-format
 msgid "City:"
 msgstr "城市:"
@@ -13139,7 +13103,6 @@ msgstr ""
 
 #: protocols/groupwise/libgroupwise/task.cpp:171
 #: protocols/oscar/liboscar/tasks/task.cpp:161
-#: protocols/yahoo/libkyahoo/task.cpp:171
 #, kde-format
 msgid "Disconnected"
 msgstr "已中斷連線"
@@ -13205,7 +13168,6 @@ msgstr "你要連接的伺服器 IP 位址或主機名稱（例如 im.yourcorp.c
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:381
 #: protocols/meanwhile/ui/meanwhileeditaccount.ui:125
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:340
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:352
 #, kde-format
 msgid "Ser&ver:"
 msgstr "伺服器(&V):"
@@ -13862,10 +13824,8 @@ msgstr "輸入邀請訊息"
 msgid "Contact Name"
 msgstr "聯絡人名稱(&M):"
 
-#. i18n: ectx: property (text), widget (QLabel, txtInvMsg)
 #. i18n: ectx: property (text), widget (QLabel, message)
 #: protocols/groupwise/ui/gwshowinvitation.ui:105
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:233
 #, fuzzy, kde-format
 msgid "Invitation Message"
 msgstr "輸入邀請訊息"
@@ -14675,7 +14635,6 @@ msgstr "Jabber ID"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: protocols/jabber/jabberprotocol.cpp:91
 #: protocols/oscar/icq/ui/icqgeneralinfo.ui:206
-#: protocols/yahoo/yahooprotocol.cpp:99
 #, kde-format
 msgid "Birthday"
 msgstr "生日"
@@ -14725,7 +14684,7 @@ msgstr "額外工作地址"
 msgid "Work PO Box"
 msgstr "工作郵政信箱"
 
-#: protocols/jabber/jabberprotocol.cpp:101 protocols/yahoo/yahooprotocol.cpp:93
+#: protocols/jabber/jabberprotocol.cpp:101
 #, kde-format
 msgid "Work City"
 msgstr "工作城市"
@@ -14735,7 +14694,7 @@ msgstr "工作城市"
 msgid "Work Postal Code"
 msgstr "工作郵遞區號"
 
-#: protocols/jabber/jabberprotocol.cpp:103 protocols/yahoo/yahooprotocol.cpp:96
+#: protocols/jabber/jabberprotocol.cpp:103
 #, kde-format
 msgid "Work Country"
 msgstr "工作國家"
@@ -15569,13 +15528,12 @@ msgid "Account Preferences - Jabber"
 msgstr "帳號偏好設定 - Jabber"
 
 #. i18n: ectx: attribute (title), widget (QWidget, basicSetupTab)
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_connection)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:39
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:41
 #: protocols/qq/ui/qqeditaccountui.ui:42
 #: protocols/skype/ui/skypeeditaccountbase.ui:21
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:44
 #, kde-format
 msgid "&Basic Setup"
 msgstr "基本設定(&B)"
@@ -15614,7 +15572,6 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoConnect)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:106
 #: protocols/meanwhile/ui/meanwhileeditaccount.ui:83
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:134
 #, fuzzy, kde-format
 #| msgid ""
 #| "Check to disable automatic connection.  If checked, you may connect to "
@@ -16351,15 +16308,12 @@ msgstr "Jabber ID:"
 #: protocols/jabber/ui/dlgvcard.ui:76
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:150
 #: protocols/qq/ui/qqvcard.ui:621 protocols/skype/ui/skypedetailsbase.ui:171
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:177
 #, kde-format
 msgid "Homepage:"
 msgstr "首頁:"
 
-#. i18n: ectx: property (text), widget (QLabel, birthdayLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblBirthday)
 #: protocols/jabber/ui/dlgvcard.ui:110
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:490
 #, kde-format
 msgid "Birthday:"
 msgstr "生日:"
@@ -16417,7 +16371,7 @@ msgstr "郵遞區號:"
 #: protocols/jabber/ui/dlgvcard.ui:295 protocols/jabber/ui/dlgvcard.ui:395
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:307
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:137
-#: protocols/qq/ui/qqvcard.ui:386 protocols/yahoo/ui/yahooworkinfowidget.ui:91
+#: protocols/qq/ui/qqvcard.ui:386
 #, kde-format
 msgid "Country:"
 msgstr "國家:"
@@ -16903,7 +16857,6 @@ msgstr "Meanwhile 插件: 來自伺服器的訊息"
 
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:147
 #: protocols/winpopup/wpeditaccount.cpp:108
-#: protocols/yahoo/yahooeditaccount.cpp:110
 #, kde-format
 msgid "<qt>You must enter a valid screen name.</qt>"
 msgstr "<qt>你必須輸入有效的螢幕名稱。</qt>"
@@ -17191,7 +17144,7 @@ msgstr "加入 AIM 聊天室"
 
 #: protocols/oscar/aim/aimprotocol.cpp:181
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
-#: protocols/oscar/oscaraccount.cpp:1227 protocols/yahoo/yahooprotocol.cpp:77
+#: protocols/oscar/oscaraccount.cpp:1227
 #, kde-format
 msgid "AIM"
 msgstr "AIM"
@@ -17266,7 +17219,7 @@ msgstr "手提電話:"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/icqprotocol.cpp:128
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:326
-#: protocols/oscar/oscaraccount.cpp:1227 protocols/yahoo/yahooprotocol.cpp:78
+#: protocols/oscar/oscaraccount.cpp:1227
 #, kde-format
 msgid "ICQ"
 msgstr "ICQ"
@@ -19503,7 +19456,6 @@ msgstr "<qt>你必須輸入有效的密碼。</qt>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: protocols/oscar/icq/ui/icqgeneralinfo.ui:28
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:384
 #, kde-format
 msgid "Personal Information"
 msgstr "個人資訊"
@@ -19526,7 +19478,6 @@ msgstr "&IP:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: protocols/oscar/icq/ui/icqgeneralinfo.ui:71
 #: protocols/oscar/icq/ui/icqsearchbase.ui:41
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:533
 #, kde-format
 msgid "&Nickname:"
 msgstr "暱稱(&N):"
@@ -19621,65 +19572,56 @@ msgstr "位置及聯絡資訊"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:55
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:289
 #, kde-format
 msgid "&Address:"
 msgstr "地址(&A):"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:78
 #: protocols/oscar/icq/ui/icqsearchbase.ui:106
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:338
 #, kde-format
 msgid "&City:"
 msgstr "城市(&C)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:101
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:279
 #, kde-format
 msgid "&State:"
 msgstr "省/州(&S):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:124
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:348
 #, kde-format
 msgid "&Zip:"
 msgstr "郵遞區號(&Z):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:150
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:299
 #, kde-format
 msgid "Countr&y:"
 msgstr "國家(&Y):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:163
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:156
 #, kde-format
 msgid "&Phone:"
 msgstr "電話(&P):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:183
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:212
 #, kde-format
 msgid "Ce&ll:"
 msgstr "手提電話(&L):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:206
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:133
 #, kde-format
 msgid "Fa&x:"
 msgstr "傳真(&X):"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel10_2)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:223
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:202
 #, kde-format
 msgid "&Homepage:"
 msgstr "首頁(&H):"
@@ -19695,7 +19637,7 @@ msgstr "來自"
 #. i18n: ectx: property (text), widget (QLabel, lblState)
 #: protocols/oscar/icq/ui/icqhomeinfowidget.ui:290
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:91
-#: protocols/qq/ui/qqvcard.ui:399 protocols/yahoo/ui/yahooworkinfowidget.ui:78
+#: protocols/qq/ui/qqvcard.ui:399
 #, kde-format
 msgid "State:"
 msgstr "省/州:"
@@ -19742,10 +19684,8 @@ msgstr ""
 msgid "ICQ Whitepages Search"
 msgstr "ICQ 電話簿搜尋"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #: protocols/oscar/icq/ui/icqsearchbase.ui:67
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:67
 #, kde-format
 msgid "&Email:"
 msgstr "電子郵件(&E):"
@@ -19899,19 +19839,16 @@ msgid "Home Information"
 msgstr "更多資訊..."
 
 #: protocols/oscar/icq/ui/icquserinfowidget.cpp:124
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:65
 #, kde-format
 msgid "Work Info"
 msgstr "工作資訊"
 
 #: protocols/oscar/icq/ui/icquserinfowidget.cpp:125
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:66
 #, kde-format
 msgid "Work Information"
 msgstr "工作資訊"
 
 #: protocols/oscar/icq/ui/icquserinfowidget.cpp:131
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:72
 #, kde-format
 msgid "Other Info"
 msgstr "其他資訊"
@@ -19973,28 +19910,24 @@ msgstr "更多..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:28
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:47
 #, kde-format
 msgid "Company Location Information"
 msgstr "公司位置資訊"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:51
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:114
 #, kde-format
 msgid "Address:"
 msgstr "地址:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:114
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:71
 #, kde-format
 msgid "Zip:"
 msgstr "郵遞區號:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:170
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:190
 #, kde-format
 msgid "Personal Work Information"
 msgstr "個人工作資訊"
@@ -20009,7 +19942,6 @@ msgstr "飽和度:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
 #: protocols/oscar/icq/ui/icqworkinfowidget.ui:248
-#: protocols/yahoo/ui/yahooworkinfowidget.ui:227
 #, kde-format
 msgid "Phone:"
 msgstr "電話:"
@@ -20872,13 +20804,11 @@ msgid "Introduction:"
 msgstr "介紹"
 
 #: protocols/qq/ui/qqwebcamdialog.cpp:35
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:33
 #, kde-format
 msgid "Webcam for %1"
 msgstr "%1 的網絡攝影機影像"
 
 #: protocols/qq/ui/qqwebcamdialog.cpp:52
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:50
 #, kde-format
 msgid "No webcam image received"
 msgstr "未收到網絡攝影機影像"
@@ -20913,7 +20843,6 @@ msgid "Chat denied"
 msgstr "已連接"
 
 #: protocols/skype/libskype/skype.cpp:488
-#: protocols/yahoo/libkyahoo/sendfiletask.cpp:110
 #, fuzzy, kde-format
 #| msgid "Unknown error."
 msgid "Unknown error"
@@ -22703,1022 +22632,640 @@ msgstr "設定失敗"
 msgid "User Info for %1"
 msgstr "%1 的用戶資訊"
 
-#: protocols/yahoo/libkyahoo/modifyyabtask.cpp:95
-#: protocols/yahoo/libkyahoo/modifyyabtask.cpp:123
-#, fuzzy, kde-format
-msgid "An error occurred while saving the address book entry."
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/modifyyabtask.cpp:180
-#, fuzzy, kde-format
-msgid ""
-"The Yahoo Address Book entry could not be saved:\n"
-"%1 - %2"
-msgstr "找不到 Yahoo 通訊錄項目"
-
-#: protocols/yahoo/libkyahoo/modifyyabtask.cpp:187
-#, fuzzy, kde-format
-msgid ""
-"The Yahoo Address Book entry could not be created:\n"
-"%1 - %2"
-msgstr "找不到 Yahoo 通訊錄項目"
-
-#: protocols/yahoo/libkyahoo/modifyyabtask.cpp:194
-#, fuzzy, kde-format
-msgid ""
-"The Yahoo Address Book entry could not be deleted:\n"
-"%1 - %2"
-msgstr "找不到 Yahoo 通訊錄項目"
-
-#: protocols/yahoo/libkyahoo/picturenotifiertask.cpp:151
-#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:80
-#, fuzzy, kde-format
-msgid "The picture was not successfully uploaded"
-msgstr "檔案已成功傳送。"
-
-#: protocols/yahoo/libkyahoo/receivefiletask.cpp:55
-#: protocols/yahoo/libkyahoo/receivefiletask.cpp:213
-#, fuzzy, kde-format
-msgid "Could not open file for writing."
-msgstr "無法開啟檔案寫入"
-
-#: protocols/yahoo/libkyahoo/receivefiletask.cpp:155
-#: protocols/yahoo/libkyahoo/receivefiletask.cpp:181
-#, fuzzy, kde-format
-msgid "An error occurred while downloading the file."
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/sendfiletask.cpp:152
-#, fuzzy, kde-format
-#| msgid "Unable to connect to server."
-msgid "Unable to connect to file transfer server"
-msgstr "無法連接伺服器。"
-
-#: protocols/yahoo/libkyahoo/sendfiletask.cpp:216
-#, fuzzy, kde-format
-msgid "An error occurred while sending the file."
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/sendmessagetask.cpp:44
-#, fuzzy, kde-format
-msgid "An error occurred while sending the message"
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/sendmessagetask.cpp:44
-#, fuzzy, kde-format
-msgid "The message is empty."
-msgstr "此訊息已加密。"
-
-#: protocols/yahoo/libkyahoo/sendpicturetask.cpp:109
-#, fuzzy, kde-format
-msgid "Error opening file: %1"
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/statusnotifiertask.cpp:104
-#, fuzzy, kde-format
-msgid "An unknown error has occurred."
-msgstr "發生未知的錯誤"
-
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:205
-#, fuzzy, kde-format
-msgid ""
-"Webcam connection to the user %1 could not be established.\n"
-"\n"
-"Please relogin and try again."
-msgstr "無法建立和 Jabber 伺服器建立加密連線。"
-
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:522
-#, fuzzy, kde-format
-msgid "An error occurred closing the webcam session. "
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/webcamtask.cpp:522
-#, fuzzy, kde-format
-msgid "You tried to close a connection that did not exist."
-msgstr "你要連線才能新增聯絡人。"
-
-#: protocols/yahoo/libkyahoo/yabtask.cpp:120
-#, fuzzy, kde-format
-msgid "Could not retrieve server side address book for user info."
-msgstr "無法取得伺服器清單。"
-
-#: protocols/yahoo/libkyahoo/yahoobuddyiconloader.cpp:84
-#, fuzzy, kde-format
-msgid "An error occurred while downloading a buddy icon (%1)"
-msgstr "傳送檔案時發生錯誤: %1"
-
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:261
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:265
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:269
-#, fuzzy, kde-format
-#| msgid "Could Not Add Contact"
-msgid "Could not join chat"
-msgstr "未能新增聯絡人"
-
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:262
-#, kde-format
-msgid "The room is full. Please choose another one."
-msgstr ""
-
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:266
-#, fuzzy, kde-format
-msgid "Invalid user."
-msgstr "無效的用戶 ID 。"
-
-#: protocols/yahoo/libkyahoo/yahoochattask.cpp:270
-#, fuzzy, kde-format
-msgid "An unknown error occurred while joining the chat room."
-msgstr "嘗試驗證證書時發生未知錯誤。"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, YahooAddContactBase)
-#: protocols/yahoo/ui/yahooadd.ui:13
-#, kde-format
-msgid "Add Yahoo Contact"
-msgstr "新增 Yahoo 聯絡人"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
-#. i18n: ectx: property (toolTip), widget (QLineEdit, contactID)
-#: protocols/yahoo/ui/yahooadd.ui:33 protocols/yahoo/ui/yahooadd.ui:49
-#, kde-format
-msgid "The account name of the Yahoo account you would like to add."
-msgstr "你要新增的 Yahoo 帳號的帳號名稱"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, contactID)
-#: protocols/yahoo/ui/yahooadd.ui:36 protocols/yahoo/ui/yahooadd.ui:52
-#, kde-format
-msgid ""
-"The account name of the Yahoo account you would like to add.  This should be "
-"in the form of an alphanumeric string (no spaces)."
-msgstr "你要新增的 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
-
-#. i18n: ectx: property (text), widget (QLabel, label1)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: protocols/yahoo/ui/yahooadd.ui:39
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:109
-#, kde-format
-msgid "&Yahoo username:"
-msgstr "&Yahoo 用戶名稱:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: protocols/yahoo/ui/yahooadd.ui:61
-#, kde-format
-msgid "<i>(for example: joe8752)</i>"
-msgstr "<i>(舉例: joe8752)</i>"
-
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:30
-#, kde-format
-msgid "Choose a chat room..."
-msgstr ""
-
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:87
-#, fuzzy, kde-format
-msgid "Yahoo Chat rooms"
-msgstr "搜尋頻道(&S)"
-
-#: protocols/yahoo/ui/yahoochatselectordialog.cpp:158
-#, kde-format
-msgid "Users: %1 Webcams: %2 Voices: %3"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, YahooChatSelectorWidgetBase)
-#: protocols/yahoo/ui/yahoochatselectorwidgetbase.ui:13
-#, fuzzy, kde-format
-msgid "Choose Chat Room"
-msgstr "搜尋頻道(&S)"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: protocols/yahoo/ui/yahoochatselectorwidgetbase.ui:25
-#, fuzzy, kde-format
-msgid "Chat rooms:"
-msgstr "聊天"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: protocols/yahoo/ui/yahoochatselectorwidgetbase.ui:32
-#, fuzzy, kde-format
-msgid "Categories:"
-msgstr "建立項目"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, YahooEditAccountBase)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:13
-#, kde-format
-msgid "Account Preferences - Yahoo"
-msgstr "帳號偏好設定 - Yahoo"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label1)
-#. i18n: ectx: property (toolTip), widget (QLineEdit, mScreenName)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:103
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:119
-#, kde-format
-msgid "The account name of your Yahoo account."
-msgstr "你 Yahoo 帳號的帳號名稱。"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, label1)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, mScreenName)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:106
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:122
-#, kde-format
-msgid ""
-"The account name of your Yahoo account.  This should be in the form of an "
-"alphanumeric string (no spaces)."
-msgstr "你 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:183
-#, kde-format
-msgid ""
-"To connect to the Yahoo network, you will need a Yahoo account.<br><br>If "
-"you do not currently have a Yahoo account, please click the button to create "
-"one."
-msgstr ""
-"要連接 Yahoo 網絡，你需要 Yahoo 帳號。<br><br>如你未有 Yahoo 帳號，請按下按鈕"
-"建立。"
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonRegister)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:218
-#, kde-format
-msgid "Register &New Account"
-msgstr "註冊新帳號(&N)"
-
-#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:258
-#, fuzzy, kde-format
-msgid "Accoun&t Preferences"
-msgstr "帳號偏好設定"
-
-#. i18n: ectx: property (text), widget (QCheckBox, optionOverrideServer)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:300
-#, kde-format
-msgid "O&verride default server information"
-msgstr "蓋過預設伺服器資訊(&V)"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblServer)
-#. i18n: ectx: property (toolTip), widget (QLineEdit, editServerAddress)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:346
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:365
-#, kde-format
-msgid "The IP address or hostmask of the Yahoo server you wish to connect to."
-msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, lblServer)
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, editServerAddress)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:349
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:368
-#, kde-format
-msgid ""
-"The IP address or hostmask of the Yahoo server you wish to connect to.  "
-"Normally you will want the default (scs.msg.yahoo.com)."
-msgstr ""
-"你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。 通常使用預設即可（scs.msg.yahoo."
-"com）。"
-
-#. i18n: ectx: property (text), widget (QLineEdit, editServerAddress)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:371
-#, kde-format
-msgid "scs.msg.yahoo.com"
-msgstr "scs.msg.yahoo.com"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblPort)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:381
-#, kde-format
-msgid "The port on the Yahoo server that you would like to connect to."
-msgstr "你要連接的 Yahoo 伺服器連接埠。"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, lblPort)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, sbxServerPort)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:384
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:403
-#, kde-format
-msgid ""
-"The port on the Yahoo server that you would like to connect to.  Normally "
-"this is 5050, but Yahoo also allows port 80 in case you are behind a "
-"firewall."
-msgstr ""
-"你要連接的 Yahoo 伺服器連接埠。 通常是 5050 ，但為防止你在防火牆之後， Yahoo "
-"亦容許使用連接埠 80 。"
-
-#. i18n: ectx: property (text), widget (QLabel, lblPort)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:387
-#, kde-format
-msgid "P&ort:"
-msgstr "連接埠(&O):"
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbxServerPort)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:400
-#, kde-format
-msgid "The port on the Yahoo server that you would like to connect  to."
-msgstr "你要連接的 Yahoo 伺服器連接埠。"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:424
-#, kde-format
-msgid "Buddy Icon"
-msgstr "伙伴圖示"
-
-#. i18n: ectx: property (text), widget (QCheckBox, optionSendBuddyIcon)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:465
-#, kde-format
-msgid "Se&nd buddy icon to other users"
-msgstr "傳送伙伴圖示給其他用戶(&N)"
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonSelectPicture)
-#: protocols/yahoo/ui/yahooeditaccountbase.ui:508
-#, kde-format
-msgid "Select Picture..."
-msgstr "選取圖片..."
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:38
-#, kde-format
-msgid "Contact Information"
-msgstr "聯絡資訊"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_3)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:50
-#, fuzzy, kde-format
-msgid "Email &3:"
-msgstr "電子郵件:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:90
-#, kde-format
-msgid "Pager:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:123
-#, fuzzy, kde-format
-msgid "Email &2:"
-msgstr "電子郵件:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:166
-#, fuzzy, kde-format
-msgid "Additional:"
-msgstr "額外屬性:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:251
-#, fuzzy, kde-format
-msgid "Location Information"
-msgstr "公司位置資訊"
-
-#. i18n: ectx: property (text), widget (QLabel, birthdayLabel_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:457
-#, kde-format
-msgid "Anniversary:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:513
-#, kde-format
-msgid "Yahoo ID:"
-msgstr "Yahoo ID:"
-
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel_2_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:523
-#, fuzzy, kde-format
-msgid "Second name:"
-msgstr "螢幕名稱:"
-
-#. i18n: ectx: property (text), widget (QLabel, yahooIdLabel_2)
-#: protocols/yahoo/ui/yahoogeneralinfowidget.ui:543
-#, fuzzy, kde-format
-msgctxt "Person's name suffix or prefix"
-msgid "Title:"
-msgstr "頭銜"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, YahooInviteListBase)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:13
-#, fuzzy, kde-format
-msgid "Invite Friends to Conference"
-msgstr "邀請作對話"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:37
-#, kde-format
-msgid "Conference Members"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btn_Add)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:94
-#, fuzzy, kde-format
-msgid "Add >>"
-msgstr "加入 &ID"
-
-#. i18n: ectx: property (text), widget (QPushButton, btn_Remove)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:101
-#, fuzzy, kde-format
-msgid "<< Remove"
-msgstr "移除(&V)"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:143
-#, fuzzy, kde-format
-msgid "Chat Invitation List"
-msgstr "輸入邀請訊息"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/yahoo/ui/yahooinvitelistbase.ui:201
-#, kde-format
-msgid "Friend List"
-msgstr ""
-
-#: protocols/yahoo/ui/yahooinvitelistimpl.cpp:30
-#, fuzzy, kde-format
-msgid "Invite"
-msgstr "邀請(&I)"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: protocols/yahoo/ui/yahoootherinfowidget.ui:60
-#, fuzzy, kde-format
-msgid "Note 4:"
-msgstr "備註(&N)"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: protocols/yahoo/ui/yahoootherinfowidget.ui:74
-#, fuzzy, kde-format
-msgid "Note 3:"
-msgstr "備註(&N)"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: protocols/yahoo/ui/yahoootherinfowidget.ui:88
-#, fuzzy, kde-format
-msgid "Note 2:"
-msgstr "備註(&N)"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/yahoo/ui/yahoootherinfowidget.ui:102
-#, fuzzy, kde-format
-msgid "Note 1:"
-msgstr "%1 的備註:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel13)
-#: protocols/yahoo/ui/yahoootherinfowidget.ui:109
-#, fuzzy, kde-format
-msgid "Contact comments:"
-msgstr "聯絡人備註:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: protocols/yahoo/ui/yahoostealthsetting.ui:28
-#, kde-format
-msgid "Show Me As"
-msgstr "將我顯示為"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioOffline)
-#: protocols/yahoo/ui/yahoostealthsetting.ui:53
-#, fuzzy, kde-format
-msgid "Off&line"
-msgstr "離線"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioPermOffline)
-#: protocols/yahoo/ui/yahoostealthsetting.ui:63
-#, fuzzy, kde-format
-msgid "Perma&nently offline"
-msgstr "永久離線(&M)"
-
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:46
-#, fuzzy, kde-format
-msgid "Yahoo User Information"
-msgstr "用戶資訊"
-
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:59
-#, fuzzy, kde-format
-msgid "General Yahoo Information"
-msgstr "一般 ICQ 資訊"
-
-#: protocols/yahoo/ui/yahoouserinfodialog.cpp:73
-#, fuzzy, kde-format
-msgid "Other Yahoo Information"
-msgstr "其他 ICQ 資訊"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: protocols/yahoo/ui/yahooverifyaccountbase.ui:28
-#, kde-format
-msgid ""
-"Your Account has to be verified due to too many failed login attempts.<br>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/yahoo/ui/yahooverifyaccountbase.ui:43
-#, fuzzy, kde-format
-msgid "Please enter the characters shown in the picture:"
-msgstr "請輸入這個過濾器的新名字:"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:85
-#, kde-format
-msgid "%1 has stopped broadcasting"
-msgstr "%1 已停止廣播"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:87
-#, fuzzy, kde-format
-msgid "%1 has cancelled viewing permission"
-msgstr "%1 已取消觀看許可"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:89
-#, kde-format
-msgid "%1 has declined permission to view webcam"
-msgstr "%1 已拒絕容許觀看網絡攝影機"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:91
-#, kde-format
-msgid "%1 does not have his/her webcam online"
-msgstr "%1 沒有將網絡攝影機上線"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:93
-#, fuzzy, kde-format
-#| msgid "Unable to view the webcam of %1 for an unknown reason"
-msgid "Unable to view %1's webcam for an unknown reason"
-msgstr "因為未知原因，無法觀看 %1 的網絡攝影機"
-
-#: protocols/yahoo/ui/yahoowebcamdialog.cpp:102
-#, kde-format
-msgid "1 viewer"
-msgid_plural "%1 viewers"
-msgstr[0] ""
-
-#: protocols/yahoo/yahooaccount.cpp:95
-#, kde-format
-msgid "Open Inbo&x..."
-msgstr "開啟收件匣(&X)..."
-
-#: protocols/yahoo/yahooaccount.cpp:98
-#, fuzzy, kde-format
-#| msgid "Open &Addressbook..."
-msgid "Open &Address book..."
-msgstr "開啟通訊錄(&A)..."
-
-#: protocols/yahoo/yahooaccount.cpp:101
-#, fuzzy, kde-format
-msgid "&Edit my contact details..."
-msgstr "編輯聯絡人屬性"
-
-#: protocols/yahoo/yahooaccount.cpp:104
-#, fuzzy, kde-format
-msgid "&Join chat room..."
-msgstr "加入頻道..."
-
-#: protocols/yahoo/yahooaccount.cpp:742
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not log into Yahoo service: your account has been locked.\n"
-#| "Visit %1 to reactivate it."
-msgid ""
-"Could not log into the Yahoo service: your account has been locked.\n"
-"Visit %1 to reactivate it."
-msgstr ""
-"無法登入 Yahoo 服務：你的帳號已被銷定。\n"
-"到訪 %1 將之重新啟動。"
-
-#: protocols/yahoo/yahooaccount.cpp:751
-#, kde-format
-msgid ""
-"Could not log into the Yahoo service: the username specified was invalid."
-msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
-
-#: protocols/yahoo/yahooaccount.cpp:760
-#, kde-format
-msgid ""
-"You have been logged out of the Yahoo service, possibly due to a duplicate "
-"login."
-msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
-
-#: protocols/yahoo/yahooaccount.cpp:778
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not log into the Yahoo service: the username specified was invalid."
-msgctxt "@info"
-msgid ""
-"Could not log into the Yahoo service. Error code: <message><numid>%1</"
-"numid></message>."
-msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
-
-#: protocols/yahoo/yahooaccount.cpp:798
-#, kde-format
-msgid ""
-"%1 has been disconnected.\n"
-"Error message:\n"
-"%2 - %3"
-msgstr ""
-
-#: protocols/yahoo/yahooaccount.cpp:814
-#, fuzzy, kde-format
-msgid ""
-"There was an error while connecting %1 to the Yahoo server.\n"
-"Error message:\n"
-"%2 - %3"
-msgstr ""
-"連接 MSN 伺服器時發生錯誤。\n"
-"錯誤訊息:\n"
-
-#: protocols/yahoo/yahooaccount.cpp:825 protocols/yahoo/yahooaccount.cpp:828
-#, fuzzy, kde-format
-msgid ""
-"%1\n"
-"\n"
-"Reason: %2"
-msgstr "理由: %2"
-
-#: protocols/yahoo/yahooaccount.cpp:826 protocols/yahoo/yahooaccount.cpp:829
-#: protocols/yahoo/yahooaccount.cpp:1455 protocols/yahoo/yahooaccount.cpp:1644
-#: protocols/yahoo/yahooaccount.cpp:1742 protocols/yahoo/yahooaccount.cpp:1757
-#: protocols/yahoo/yahooeditaccount.cpp:176
-#, kde-format
-msgid "Yahoo Plugin"
-msgstr "Yahoo 插件"
-
-#: protocols/yahoo/yahooaccount.cpp:888
-#, fuzzy, kde-format
-msgid "User %1 has granted your authorization request."
-msgstr ""
-"用戶 %1 已允許你的授權要求。\n"
-"理由: %2"
-
-#: protocols/yahoo/yahooaccount.cpp:904
-#, fuzzy, kde-format
-msgid ""
-"User %1 has rejected your authorization request.\n"
-"%2"
-msgstr ""
-"用戶 %1 已允許你的授權要求。\n"
-"理由: %2"
-
-#: protocols/yahoo/yahooaccount.cpp:1148
-#, fuzzy, kde-format
-msgctxt "This string is shown when the user is buzzed by a contact"
-msgid "Buzz"
-msgstr "嗶！！"
-
-#: protocols/yahoo/yahooaccount.cpp:1189
-#, fuzzy, kde-format
-msgid ""
-"%1 has invited you to join a conference with %2.\n"
-"\n"
-"His/her message: %3\n"
-"\n"
-"Accept?"
-msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
-
-#: protocols/yahoo/yahooaccount.cpp:1190 protocols/yahoo/yahooaccount.cpp:1636
-#: protocols/yahoo/yahooaccount.cpp:1847
-#, fuzzy, kde-format
-#| msgid "Accept"
-msgctxt "@action"
-msgid "Accept"
-msgstr "接受"
-
-#: protocols/yahoo/yahooaccount.cpp:1282
-#, fuzzy, kde-format
-msgid "%1 has declined to join the conference: \"%2\""
-msgstr "%1 已被邀請加入此對話。"
-
-#: protocols/yahoo/yahooaccount.cpp:1597
-#, fuzzy, kde-format
-#| msgid "You have one unread message in your Yahoo inbox."
-#| msgid_plural "You have %1 unread messages in your Yahoo inbox."
-msgid "You have one unread message in your Yahoo inbox."
-msgid_plural "You have %1 unread messages in your Yahoo inbox."
-msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
-
-#: protocols/yahoo/yahooaccount.cpp:1606
-#, fuzzy, kde-format
-#| msgid "You have a message from %1 in your Yahoo inbox."
-msgid "%1 has a message from %2 in your Yahoo inbox. <br><br>Subject: %3"
-msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
-
-#: protocols/yahoo/yahooaccount.cpp:1635
-#, kde-format
-msgid "%1 has invited you to view his/her webcam. Accept?"
-msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
-
-#: protocols/yahoo/yahooaccount.cpp:1644
-#, fuzzy, kde-format
-msgid "Webcam for %1 is not available."
-msgstr "網絡不能用"
-
-#: protocols/yahoo/yahooaccount.cpp:1742
-#: protocols/yahoo/yahooeditaccount.cpp:176
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The selected buddy icon could not be opened. <br>Please set a new "
-#| "buddy icon.</qt>"
-msgid ""
-"<qt>The selected buddy icon could not be opened. <br />Please set a new "
-"buddy icon.</qt>"
-msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
-
-#: protocols/yahoo/yahooaccount.cpp:1757
-#, kde-format
-msgid "An error occurred when trying to change the display picture."
-msgstr "嘗試更改顯示圖片時發生錯誤。"
-
-#: protocols/yahoo/yahooaccount.cpp:1846
-#, fuzzy, kde-format
-msgid "%1 wants to view your webcam. Grant access?"
-msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
-
-#: protocols/yahoo/yahooaccount.cpp:1983
-#, fuzzy, kde-format
-msgid "You are now in %1 (%2)"
-msgstr "你現在被標示為 %1 。"
-
-#: protocols/yahoo/yahoochatchatsession.cpp:44
-#, fuzzy, kde-format
-msgid "Yahoo Chat: "
-msgstr "Yahoo ID:"
-
-#: protocols/yahoo/yahoochatchatsession.cpp:65
-#, fuzzy, kde-format
-msgid "Yahoo Chat: %1"
-msgstr "Yahoo ID:"
-
-#: protocols/yahoo/yahoochatsession.cpp:59
-#, kde-format
-msgid "Buzz Contact"
-msgstr "向聯絡人發出「嗶」聲"
-
-#: protocols/yahoo/yahoochatsession.cpp:64
-#, kde-format
-msgid "Show User Info"
-msgstr "顯示用戶資訊"
-
-#: protocols/yahoo/yahoochatsession.cpp:68
-#, kde-format
-msgid "Request Webcam"
-msgstr "要求使用網絡攝影機"
-
-#: protocols/yahoo/yahoochatsession.cpp:72 protocols/yahoo/yahoocontact.cpp:414
-#, kde-format
-msgid "Invite to view your Webcam"
-msgstr ""
-
-#: protocols/yahoo/yahoochatsession.cpp:80
-#, kde-format
-msgid "Yahoo Display Picture"
-msgstr "Yahoo 顯示圖片"
-
-#: protocols/yahoo/yahooconferencemessagemanager.cpp:53
-#, fuzzy, kde-format
-msgid "&Invite others"
-msgstr "邀請(&I)"
-
-#: protocols/yahoo/yahoocontact.cpp:122
-#, kde-format
-msgid "%1|Stealthed"
-msgstr ""
-
-#: protocols/yahoo/yahoocontact.cpp:402
-#, kde-format
-msgid "View &Webcam"
-msgstr "觀看網絡攝影機(&W)"
-
-#: protocols/yahoo/yahoocontact.cpp:426
-#, kde-format
-msgid "&Buzz Contact"
-msgstr "向聯絡人發出嗶聲(&B)"
-
-#: protocols/yahoo/yahoocontact.cpp:438
-#, kde-format
-msgid "&Stealth Setting"
-msgstr "隱形設置(&S)"
-
-#: protocols/yahoo/yahoocontact.cpp:450
-#, fuzzy, kde-format
-msgid "&Invite to Conference"
-msgstr "邀請作對話"
-
-#: protocols/yahoo/yahoocontact.cpp:462
-#, kde-format
-msgid "&View Yahoo Profile"
-msgstr "檢視 Yahoo 資料檔(&V)"
-
-#: protocols/yahoo/yahoocontact.cpp:514
-#, kde-format
-msgid "Stealth Setting"
-msgstr "隱形設置"
-
-#: protocols/yahoo/yahoocontact.cpp:574
-#, fuzzy, kde-format
-msgid "Buzz"
-msgstr "嗶！！"
-
-#: protocols/yahoo/yahooeditaccount.cpp:110
-#: protocols/yahoo/yahooeditaccount.cpp:115
-#, kde-format
-msgid "Yahoo"
-msgstr "Yahoo"
-
-#: protocols/yahoo/yahooeditaccount.cpp:115
-#, kde-format
-msgid "<qt>You must enter a valid password.</qt>"
-msgstr "<qt>你必須輸入有效的密碼。</qt>"
-
-#: protocols/yahoo/yahooprotocol.cpp:47
-#, kde-format
-msgid "Be right back"
-msgstr "馬上回來"
-
-#: protocols/yahoo/yahooprotocol.cpp:49
-#, kde-format
-msgid "Not at home"
-msgstr "不在家"
-
-#: protocols/yahoo/yahooprotocol.cpp:50
-#, kde-format
-msgid "Not at my desk"
-msgstr "不在座位"
-
-#: protocols/yahoo/yahooprotocol.cpp:51
-#, kde-format
-msgid "Not in the office"
-msgstr "不在辦公室"
-
-#: protocols/yahoo/yahooprotocol.cpp:52
-#, kde-format
-msgid "On the phone"
-msgstr "電話中"
-
-#: protocols/yahoo/yahooprotocol.cpp:53
-#, kde-format
-msgid "On vacation"
-msgstr "渡假去了"
-
-#: protocols/yahoo/yahooprotocol.cpp:54
-#, kde-format
-msgid "Out to lunch"
-msgstr "外出用餐"
-
-#: protocols/yahoo/yahooprotocol.cpp:55
-#, kde-format
-msgid "Stepped out"
-msgstr "已外出"
-
-#: protocols/yahoo/yahooprotocol.cpp:56
-#, kde-format
-msgid "I'm On SMS"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:58
-#, kde-format
-msgid "Custom"
-msgstr "自訂"
-
-#: protocols/yahoo/yahooprotocol.cpp:61
-#, kde-format
-msgid "Buddy Icon Checksum"
-msgstr "伙伴圖示檢驗值"
-
-#: protocols/yahoo/yahooprotocol.cpp:62
-#, fuzzy, kde-format
-#| msgid "Buddy Icon Expire"
-msgid "Buddy Icon Expires"
-msgstr "伙伴圖示過期"
-
-#: protocols/yahoo/yahooprotocol.cpp:63
-#, fuzzy, kde-format
-#| msgid "Buddy Icon Remote Url"
-msgid "Buddy Icon Remote URL"
-msgstr "伙伴圖示遠端 URL"
-
-#: protocols/yahoo/yahooprotocol.cpp:71
-#, kde-format
-msgid "YAB Id"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:72
-#, fuzzy, kde-format
-msgid "Pager number"
-msgstr "用戶號碼:"
-
-#: protocols/yahoo/yahooprotocol.cpp:73
-#, fuzzy, kde-format
-msgid "Fax number"
-msgstr "用戶號碼:"
-
-#: protocols/yahoo/yahooprotocol.cpp:74
-#, fuzzy, kde-format
-msgid "Additional number"
-msgstr "額外屬性:"
-
-#: protocols/yahoo/yahooprotocol.cpp:75 protocols/yahoo/yahooprotocol.cpp:76
-#, kde-format
-msgid "Alternative email 1"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:79
-#, kde-format
-msgid "MSN"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:80
-#, kde-format
-msgid "GoogleTalk"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:81
-#, fuzzy, kde-format
-msgid "Skype"
-msgstr "太空"
-
-#: protocols/yahoo/yahooprotocol.cpp:82
-#, kde-format
-msgid "IRC"
-msgstr "IRC"
-
-#: protocols/yahoo/yahooprotocol.cpp:83
-#, kde-format
-msgid "QQ"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:84
-#, fuzzy, kde-format
-msgid "Private Address"
-msgstr "IP 位址"
-
-#: protocols/yahoo/yahooprotocol.cpp:85
-#, fuzzy, kde-format
-msgid "Private City"
-msgstr "私人密碼匙清單"
-
-#: protocols/yahoo/yahooprotocol.cpp:86
-#, fuzzy, kde-format
-msgid "Private State"
-msgstr "私人電話"
-
-#: protocols/yahoo/yahooprotocol.cpp:87
-#, fuzzy, kde-format
-msgid "Private ZIP"
-msgstr "私人電話"
-
-#: protocols/yahoo/yahooprotocol.cpp:88
-#, fuzzy, kde-format
-msgid "Private Country"
-msgstr "私人電話"
-
-#: protocols/yahoo/yahooprotocol.cpp:90
-#, fuzzy, kde-format
-msgid "Private URL"
-msgstr "私人密碼匙清單"
-
-#: protocols/yahoo/yahooprotocol.cpp:91
-#, fuzzy, kde-format
-msgid "Corporation"
-msgstr "確認"
-
-#: protocols/yahoo/yahooprotocol.cpp:92
-#, fuzzy, kde-format
-msgid "Work Address"
-msgstr "工作地址(&W)"
-
-#: protocols/yahoo/yahooprotocol.cpp:94
-#, fuzzy, kde-format
-msgid "Work State"
-msgstr "工作地址"
-
-#: protocols/yahoo/yahooprotocol.cpp:95
-#, fuzzy, kde-format
-msgid "Work ZIP"
-msgstr "工作資訊"
-
-#: protocols/yahoo/yahooprotocol.cpp:98
-#, fuzzy, kde-format
-msgid "Work URL"
-msgstr "工作:"
-
-#: protocols/yahoo/yahooprotocol.cpp:100
-#, kde-format
-msgid "Anniversary"
-msgstr ""
-
-#: protocols/yahoo/yahooprotocol.cpp:101
-#, fuzzy, kde-format
-msgid "Notes"
-msgstr "備註(&N)"
-
-#: protocols/yahoo/yahooprotocol.cpp:102
-#, fuzzy, kde-format
-msgid "Additional 1"
-msgstr "額外屬性:"
-
-#: protocols/yahoo/yahooprotocol.cpp:103
-#, fuzzy, kde-format
-msgid "Additional 2"
-msgstr "額外屬性:"
-
-#: protocols/yahoo/yahooprotocol.cpp:104
-#, fuzzy, kde-format
-msgid "Additional 3"
-msgstr "額外屬性:"
-
-#: protocols/yahoo/yahooprotocol.cpp:105
-#, fuzzy, kde-format
-msgid "Additional 4"
-msgstr "額外屬性:"
-
-#: protocols/yahoo/yahooverifyaccount.cpp:44
-#, fuzzy, kde-format
-msgid "Account Verification - Yahoo"
-msgstr "帳號偏好設定 - Yahoo"
+#, fuzzy
+#~ msgid "An error occurred while saving the address book entry."
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Yahoo Address Book entry could not be saved:\n"
+#~ "%1 - %2"
+#~ msgstr "找不到 Yahoo 通訊錄項目"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Yahoo Address Book entry could not be created:\n"
+#~ "%1 - %2"
+#~ msgstr "找不到 Yahoo 通訊錄項目"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Yahoo Address Book entry could not be deleted:\n"
+#~ "%1 - %2"
+#~ msgstr "找不到 Yahoo 通訊錄項目"
+
+#, fuzzy
+#~ msgid "The picture was not successfully uploaded"
+#~ msgstr "檔案已成功傳送。"
+
+#, fuzzy
+#~ msgid "Could not open file for writing."
+#~ msgstr "無法開啟檔案寫入"
+
+#, fuzzy
+#~ msgid "An error occurred while downloading the file."
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~| msgid "Unable to connect to server."
+#~ msgid "Unable to connect to file transfer server"
+#~ msgstr "無法連接伺服器。"
+
+#, fuzzy
+#~ msgid "An error occurred while sending the file."
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~ msgid "An error occurred while sending the message"
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~ msgid "The message is empty."
+#~ msgstr "此訊息已加密。"
+
+#, fuzzy
+#~ msgid "Error opening file: %1"
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~ msgid "An unknown error has occurred."
+#~ msgstr "發生未知的錯誤"
+
+#, fuzzy
+#~ msgid ""
+#~ "Webcam connection to the user %1 could not be established.\n"
+#~ "\n"
+#~ "Please relogin and try again."
+#~ msgstr "無法建立和 Jabber 伺服器建立加密連線。"
+
+#, fuzzy
+#~ msgid "An error occurred closing the webcam session. "
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~ msgid "You tried to close a connection that did not exist."
+#~ msgstr "你要連線才能新增聯絡人。"
+
+#, fuzzy
+#~ msgid "Could not retrieve server side address book for user info."
+#~ msgstr "無法取得伺服器清單。"
+
+#, fuzzy
+#~ msgid "An error occurred while downloading a buddy icon (%1)"
+#~ msgstr "傳送檔案時發生錯誤: %1"
+
+#, fuzzy
+#~| msgid "Could Not Add Contact"
+#~ msgid "Could not join chat"
+#~ msgstr "未能新增聯絡人"
+
+#, fuzzy
+#~ msgid "Invalid user."
+#~ msgstr "無效的用戶 ID 。"
+
+#, fuzzy
+#~ msgid "An unknown error occurred while joining the chat room."
+#~ msgstr "嘗試驗證證書時發生未知錯誤。"
+
+#~ msgid "Add Yahoo Contact"
+#~ msgstr "新增 Yahoo 聯絡人"
+
+#~ msgid "The account name of the Yahoo account you would like to add."
+#~ msgstr "你要新增的 Yahoo 帳號的帳號名稱"
+
+#~ msgid ""
+#~ "The account name of the Yahoo account you would like to add.  This should "
+#~ "be in the form of an alphanumeric string (no spaces)."
+#~ msgstr ""
+#~ "你要新增的 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
+
+#~ msgid "&Yahoo username:"
+#~ msgstr "&Yahoo 用戶名稱:"
+
+#~ msgid "<i>(for example: joe8752)</i>"
+#~ msgstr "<i>(舉例: joe8752)</i>"
+
+#, fuzzy
+#~ msgid "Yahoo Chat rooms"
+#~ msgstr "搜尋頻道(&S)"
+
+#, fuzzy
+#~ msgid "Choose Chat Room"
+#~ msgstr "搜尋頻道(&S)"
+
+#, fuzzy
+#~ msgid "Chat rooms:"
+#~ msgstr "聊天"
+
+#, fuzzy
+#~ msgid "Categories:"
+#~ msgstr "建立項目"
+
+#~ msgid "Account Preferences - Yahoo"
+#~ msgstr "帳號偏好設定 - Yahoo"
+
+#~ msgid "The account name of your Yahoo account."
+#~ msgstr "你 Yahoo 帳號的帳號名稱。"
+
+#~ msgid ""
+#~ "The account name of your Yahoo account.  This should be in the form of an "
+#~ "alphanumeric string (no spaces)."
+#~ msgstr "你 Yahoo 帳號的帳號名稱。 這應該是字母及數字字串（沒有空格）。"
+
+#~ msgid ""
+#~ "To connect to the Yahoo network, you will need a Yahoo account.<br><br>If "
+#~ "you do not currently have a Yahoo account, please click the button to "
+#~ "create one."
+#~ msgstr ""
+#~ "要連接 Yahoo 網絡，你需要 Yahoo 帳號。<br><br>如你未有 Yahoo 帳號，請按下"
+#~ "按鈕建立。"
+
+#~ msgid "Register &New Account"
+#~ msgstr "註冊新帳號(&N)"
+
+#, fuzzy
+#~ msgid "Accoun&t Preferences"
+#~ msgstr "帳號偏好設定"
+
+#~ msgid "O&verride default server information"
+#~ msgstr "蓋過預設伺服器資訊(&V)"
+
+#~ msgid ""
+#~ "The IP address or hostmask of the Yahoo server you wish to connect to."
+#~ msgstr "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。"
+
+#~ msgid ""
+#~ "The IP address or hostmask of the Yahoo server you wish to connect to.  "
+#~ "Normally you will want the default (scs.msg.yahoo.com)."
+#~ msgstr ""
+#~ "你要連接的 Yahoo 伺服器 IP 位址或主機遮罩。 通常使用預設即可（scs.msg."
+#~ "yahoo.com）。"
+
+#~ msgid "scs.msg.yahoo.com"
+#~ msgstr "scs.msg.yahoo.com"
+
+#~ msgid "The port on the Yahoo server that you would like to connect to."
+#~ msgstr "你要連接的 Yahoo 伺服器連接埠。"
+
+#~ msgid ""
+#~ "The port on the Yahoo server that you would like to connect to.  Normally "
+#~ "this is 5050, but Yahoo also allows port 80 in case you are behind a "
+#~ "firewall."
+#~ msgstr ""
+#~ "你要連接的 Yahoo 伺服器連接埠。 通常是 5050 ，但為防止你在防火牆之後， "
+#~ "Yahoo 亦容許使用連接埠 80 。"
+
+#~ msgid "P&ort:"
+#~ msgstr "連接埠(&O):"
+
+#~ msgid "The port on the Yahoo server that you would like to connect  to."
+#~ msgstr "你要連接的 Yahoo 伺服器連接埠。"
+
+#~ msgid "Buddy Icon"
+#~ msgstr "伙伴圖示"
+
+#~ msgid "Se&nd buddy icon to other users"
+#~ msgstr "傳送伙伴圖示給其他用戶(&N)"
+
+#~ msgid "Select Picture..."
+#~ msgstr "選取圖片..."
+
+#~ msgid "Contact Information"
+#~ msgstr "聯絡資訊"
+
+#, fuzzy
+#~ msgid "Email &3:"
+#~ msgstr "電子郵件:"
+
+#, fuzzy
+#~ msgid "Email &2:"
+#~ msgstr "電子郵件:"
+
+#, fuzzy
+#~ msgid "Additional:"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Location Information"
+#~ msgstr "公司位置資訊"
+
+#~ msgid "Yahoo ID:"
+#~ msgstr "Yahoo ID:"
+
+#, fuzzy
+#~ msgid "Second name:"
+#~ msgstr "螢幕名稱:"
+
+#, fuzzy
+#~ msgctxt "Person's name suffix or prefix"
+#~ msgid "Title:"
+#~ msgstr "頭銜"
+
+#, fuzzy
+#~ msgid "Invite Friends to Conference"
+#~ msgstr "邀請作對話"
+
+#, fuzzy
+#~ msgid "Add >>"
+#~ msgstr "加入 &ID"
+
+#, fuzzy
+#~ msgid "<< Remove"
+#~ msgstr "移除(&V)"
+
+#, fuzzy
+#~ msgid "Chat Invitation List"
+#~ msgstr "輸入邀請訊息"
+
+#, fuzzy
+#~ msgid "Invite"
+#~ msgstr "邀請(&I)"
+
+#, fuzzy
+#~ msgid "Note 4:"
+#~ msgstr "備註(&N)"
+
+#, fuzzy
+#~ msgid "Note 3:"
+#~ msgstr "備註(&N)"
+
+#, fuzzy
+#~ msgid "Note 2:"
+#~ msgstr "備註(&N)"
+
+#, fuzzy
+#~ msgid "Note 1:"
+#~ msgstr "%1 的備註:"
+
+#, fuzzy
+#~ msgid "Contact comments:"
+#~ msgstr "聯絡人備註:"
+
+#~ msgid "Show Me As"
+#~ msgstr "將我顯示為"
+
+#, fuzzy
+#~ msgid "Off&line"
+#~ msgstr "離線"
+
+#, fuzzy
+#~ msgid "Perma&nently offline"
+#~ msgstr "永久離線(&M)"
+
+#, fuzzy
+#~ msgid "Yahoo User Information"
+#~ msgstr "用戶資訊"
+
+#, fuzzy
+#~ msgid "General Yahoo Information"
+#~ msgstr "一般 ICQ 資訊"
+
+#, fuzzy
+#~ msgid "Other Yahoo Information"
+#~ msgstr "其他 ICQ 資訊"
+
+#, fuzzy
+#~ msgid "Please enter the characters shown in the picture:"
+#~ msgstr "請輸入這個過濾器的新名字:"
+
+#~ msgid "%1 has stopped broadcasting"
+#~ msgstr "%1 已停止廣播"
+
+#, fuzzy
+#~ msgid "%1 has cancelled viewing permission"
+#~ msgstr "%1 已取消觀看許可"
+
+#~ msgid "%1 has declined permission to view webcam"
+#~ msgstr "%1 已拒絕容許觀看網絡攝影機"
+
+#~ msgid "%1 does not have his/her webcam online"
+#~ msgstr "%1 沒有將網絡攝影機上線"
+
+#, fuzzy
+#~| msgid "Unable to view the webcam of %1 for an unknown reason"
+#~ msgid "Unable to view %1's webcam for an unknown reason"
+#~ msgstr "因為未知原因，無法觀看 %1 的網絡攝影機"
+
+#~ msgid "Open Inbo&x..."
+#~ msgstr "開啟收件匣(&X)..."
+
+#, fuzzy
+#~| msgid "Open &Addressbook..."
+#~ msgid "Open &Address book..."
+#~ msgstr "開啟通訊錄(&A)..."
+
+#, fuzzy
+#~ msgid "&Edit my contact details..."
+#~ msgstr "編輯聯絡人屬性"
+
+#, fuzzy
+#~ msgid "&Join chat room..."
+#~ msgstr "加入頻道..."
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not log into Yahoo service: your account has been locked.\n"
+#~| "Visit %1 to reactivate it."
+#~ msgid ""
+#~ "Could not log into the Yahoo service: your account has been locked.\n"
+#~ "Visit %1 to reactivate it."
+#~ msgstr ""
+#~ "無法登入 Yahoo 服務：你的帳號已被銷定。\n"
+#~ "到訪 %1 將之重新啟動。"
+
+#~ msgid ""
+#~ "Could not log into the Yahoo service: the username specified was invalid."
+#~ msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
+
+#~ msgid ""
+#~ "You have been logged out of the Yahoo service, possibly due to a "
+#~ "duplicate login."
+#~ msgstr "你已被 Yahoo 服務登出，可能是因為你重覆登入。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not log into the Yahoo service: the username specified was invalid."
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Could not log into the Yahoo service. Error code: <message><numid>%1</"
+#~ "numid></message>."
+#~ msgstr "無法登入 Yahoo 服務：指定的用戶名稱無效。"
+
+#, fuzzy
+#~ msgid ""
+#~ "There was an error while connecting %1 to the Yahoo server.\n"
+#~ "Error message:\n"
+#~ "%2 - %3"
+#~ msgstr ""
+#~ "連接 MSN 伺服器時發生錯誤。\n"
+#~ "錯誤訊息:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "%1\n"
+#~ "\n"
+#~ "Reason: %2"
+#~ msgstr "理由: %2"
+
+#~ msgid "Yahoo Plugin"
+#~ msgstr "Yahoo 插件"
+
+#, fuzzy
+#~ msgid "User %1 has granted your authorization request."
+#~ msgstr ""
+#~ "用戶 %1 已允許你的授權要求。\n"
+#~ "理由: %2"
+
+#, fuzzy
+#~ msgid ""
+#~ "User %1 has rejected your authorization request.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "用戶 %1 已允許你的授權要求。\n"
+#~ "理由: %2"
+
+#, fuzzy
+#~ msgctxt "This string is shown when the user is buzzed by a contact"
+#~ msgid "Buzz"
+#~ msgstr "嗶！！"
+
+#, fuzzy
+#~ msgid ""
+#~ "%1 has invited you to join a conference with %2.\n"
+#~ "\n"
+#~ "His/her message: %3\n"
+#~ "\n"
+#~ "Accept?"
+#~ msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
+
+#, fuzzy
+#~| msgid "Accept"
+#~ msgctxt "@action"
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#, fuzzy
+#~ msgid "%1 has declined to join the conference: \"%2\""
+#~ msgstr "%1 已被邀請加入此對話。"
+
+#, fuzzy
+#~| msgid "You have one unread message in your Yahoo inbox."
+#~| msgid_plural "You have %1 unread messages in your Yahoo inbox."
+#~ msgid "You have one unread message in your Yahoo inbox."
+#~ msgid_plural "You have %1 unread messages in your Yahoo inbox."
+#~ msgstr[0] "你在 Yahoo 收件匣有 %1 個未讀訊息。"
+
+#, fuzzy
+#~| msgid "You have a message from %1 in your Yahoo inbox."
+#~ msgid "%1 has a message from %2 in your Yahoo inbox. <br><br>Subject: %3"
+#~ msgstr "你的 Yahoo 收件匣有來自 %1 的訊息。"
+
+#~ msgid "%1 has invited you to view his/her webcam. Accept?"
+#~ msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
+
+#, fuzzy
+#~ msgid "Webcam for %1 is not available."
+#~ msgstr "網絡不能用"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>The selected buddy icon could not be opened. <br>Please set a new "
+#~| "buddy icon.</qt>"
+#~ msgid ""
+#~ "<qt>The selected buddy icon could not be opened. <br />Please set a new "
+#~ "buddy icon.</qt>"
+#~ msgstr "<qt>選取的伙伴圖示無法開啟。<br>請設定新的伙伴圖示。</qt>"
+
+#~ msgid "An error occurred when trying to change the display picture."
+#~ msgstr "嘗試更改顯示圖片時發生錯誤。"
+
+#, fuzzy
+#~ msgid "%1 wants to view your webcam. Grant access?"
+#~ msgstr "%1 邀請你觀看他的網絡攝影機。要接受嗎？"
+
+#, fuzzy
+#~ msgid "You are now in %1 (%2)"
+#~ msgstr "你現在被標示為 %1 。"
+
+#, fuzzy
+#~ msgid "Yahoo Chat: "
+#~ msgstr "Yahoo ID:"
+
+#, fuzzy
+#~ msgid "Yahoo Chat: %1"
+#~ msgstr "Yahoo ID:"
+
+#~ msgid "Buzz Contact"
+#~ msgstr "向聯絡人發出「嗶」聲"
+
+#~ msgid "Show User Info"
+#~ msgstr "顯示用戶資訊"
+
+#~ msgid "Request Webcam"
+#~ msgstr "要求使用網絡攝影機"
+
+#~ msgid "Yahoo Display Picture"
+#~ msgstr "Yahoo 顯示圖片"
+
+#, fuzzy
+#~ msgid "&Invite others"
+#~ msgstr "邀請(&I)"
+
+#~ msgid "View &Webcam"
+#~ msgstr "觀看網絡攝影機(&W)"
+
+#~ msgid "&Buzz Contact"
+#~ msgstr "向聯絡人發出嗶聲(&B)"
+
+#~ msgid "&Stealth Setting"
+#~ msgstr "隱形設置(&S)"
+
+#, fuzzy
+#~ msgid "&Invite to Conference"
+#~ msgstr "邀請作對話"
+
+#~ msgid "&View Yahoo Profile"
+#~ msgstr "檢視 Yahoo 資料檔(&V)"
+
+#~ msgid "Stealth Setting"
+#~ msgstr "隱形設置"
+
+#, fuzzy
+#~ msgid "Buzz"
+#~ msgstr "嗶！！"
+
+#~ msgid "Yahoo"
+#~ msgstr "Yahoo"
+
+#~ msgid "<qt>You must enter a valid password.</qt>"
+#~ msgstr "<qt>你必須輸入有效的密碼。</qt>"
+
+#~ msgid "Be right back"
+#~ msgstr "馬上回來"
+
+#~ msgid "Not at home"
+#~ msgstr "不在家"
+
+#~ msgid "Not at my desk"
+#~ msgstr "不在座位"
+
+#~ msgid "Not in the office"
+#~ msgstr "不在辦公室"
+
+#~ msgid "On the phone"
+#~ msgstr "電話中"
+
+#~ msgid "On vacation"
+#~ msgstr "渡假去了"
+
+#~ msgid "Out to lunch"
+#~ msgstr "外出用餐"
+
+#~ msgid "Stepped out"
+#~ msgstr "已外出"
+
+#~ msgid "Custom"
+#~ msgstr "自訂"
+
+#~ msgid "Buddy Icon Checksum"
+#~ msgstr "伙伴圖示檢驗值"
+
+#, fuzzy
+#~| msgid "Buddy Icon Expire"
+#~ msgid "Buddy Icon Expires"
+#~ msgstr "伙伴圖示過期"
+
+#, fuzzy
+#~| msgid "Buddy Icon Remote Url"
+#~ msgid "Buddy Icon Remote URL"
+#~ msgstr "伙伴圖示遠端 URL"
+
+#, fuzzy
+#~ msgid "Pager number"
+#~ msgstr "用戶號碼:"
+
+#, fuzzy
+#~ msgid "Fax number"
+#~ msgstr "用戶號碼:"
+
+#, fuzzy
+#~ msgid "Additional number"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Skype"
+#~ msgstr "太空"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#, fuzzy
+#~ msgid "Private Address"
+#~ msgstr "IP 位址"
+
+#, fuzzy
+#~ msgid "Private City"
+#~ msgstr "私人密碼匙清單"
+
+#, fuzzy
+#~ msgid "Private State"
+#~ msgstr "私人電話"
+
+#, fuzzy
+#~ msgid "Private ZIP"
+#~ msgstr "私人電話"
+
+#, fuzzy
+#~ msgid "Private Country"
+#~ msgstr "私人電話"
+
+#, fuzzy
+#~ msgid "Private URL"
+#~ msgstr "私人密碼匙清單"
+
+#, fuzzy
+#~ msgid "Corporation"
+#~ msgstr "確認"
+
+#, fuzzy
+#~ msgid "Work Address"
+#~ msgstr "工作地址(&W)"
+
+#, fuzzy
+#~ msgid "Work State"
+#~ msgstr "工作地址"
+
+#, fuzzy
+#~ msgid "Work ZIP"
+#~ msgstr "工作資訊"
+
+#, fuzzy
+#~ msgid "Work URL"
+#~ msgstr "工作:"
+
+#, fuzzy
+#~ msgid "Notes"
+#~ msgstr "備註(&N)"
+
+#, fuzzy
+#~ msgid "Additional 1"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Additional 2"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Additional 3"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Additional 4"
+#~ msgstr "額外屬性:"
+
+#, fuzzy
+#~ msgid "Account Verification - Yahoo"
+#~ msgstr "帳號偏好設定 - Yahoo"
 
 #, fuzzy
 #~ msgid "Account Preferences - Wlm"
