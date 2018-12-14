@@ -4,11 +4,15 @@
 #
 # Yun Liu <yun.liu@savoirfairelinux.com>, 2008.
 #
+#: src/accountview/qml/pages/security.qml:77
+#: src/accountview/qml/pages/security.qml:154
+#: src/accountview/qml/pages/security.qml:162
+#, kde-format
 msgid ""
 msgstr ""
 "Project-Id-Version: SFLphone 0.9.2\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-12-05 03:03+0100\n"
+"POT-Creation-Date: 2018-12-14 03:06+0100\n"
 "PO-Revision-Date: 2008-10-28 14:15\n"
 "Last-Translator: Yun Liu <yun.liu@savoirfairelinux.com>\n"
 "Language-Team: SavoirFaireLinux Inc <sflphoneteam@savoirfairelinux.com>\n"
@@ -46,7 +50,7 @@ msgid "View"
 msgstr "查看(V)"
 
 #. i18n: ectx: Menu (Settings)
-#: data/ring-kdeui.rc:31 src/desktopview/qml/desktopwindow.qml:133
+#: data/ring-kdeui.rc:31 src/desktopview/qml/desktopwindow.qml:135
 #, fuzzy, kde-format
 #| msgid "ALSA settings"
 msgid "Settings"
@@ -105,67 +109,601 @@ msgstr "編輯電話號碼"
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:187
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/accountview/qml/accountdialog.qml:68
+#: src/conf/accountpages/account.cpp:111 src/conf/accountpages/tabs.ui:21
+#, kde-format
+msgid "Basic"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/accountview/qml/accountdialog.qml:71
+#: src/conf/accountpages/account.cpp:110 src/conf/accountpages/tabs.ui:31
+#: src/timeline/qml/contactinfo.qml:116
+#, kde-format
+msgid "Advanced"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/accountview/qml/accountdialog.qml:74
+#: src/conf/accountpages/account.cpp:109 src/conf/accountpages/tabs.ui:41
+#, kde-format
+msgid "Network"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_9)
+#: src/accountview/qml/accountdialog.qml:77
+#: src/conf/accountpages/account.cpp:108 src/conf/accountpages/tabs.ui:51
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: src/accountview/qml/accountdialog.qml:80
+#: src/conf/accountpages/account.cpp:107 src/conf/accountpages/tabs.ui:61
+#, kde-format
+msgid "Codecs"
+msgstr "編碼"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
+#: src/accountview/qml/accountdialog.qml:83
+#: src/conf/accountpages/account.cpp:106 src/conf/accountpages/tabs.ui:71
+#, kde-format
+msgid "Credentials"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: src/accountview/qml/accountdialog.qml:86
+#: src/conf/accountpages/account.cpp:105 src/conf/accountpages/tabs.ui:81
+#, kde-format
+msgid "Security"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_6)
+#: src/accountview/qml/accountdialog.qml:89 src/conf/accountpages/tabs.ui:91
+#, fuzzy, kde-format
+#| msgid "Ringtones"
+msgid "Ringtones"
+msgstr "鈴聲"
+
+#: src/accountview/qml/accountlist.qml:190
 #, fuzzy, kde-format
 #| msgid "Current account"
 msgid "Delete an account"
 msgstr "當前帳戶"
 
-#: src/accountview/qml/accountlist.qml:190
+#: src/accountview/qml/accountlist.qml:193
 #, kde-format
 msgid "<center>Are you sure you want to delete the account called "
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:191
+#: src/accountview/qml/accountlist.qml:194
 #, kde-format
 msgid ""
 ". <br><br> This cannot be undone and you will lose the account "
 "<b>permanently</b></center>"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:217
+#: src/accountview/qml/accountlist.qml:220
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Status logs"
 msgstr "狀態"
 
-#: src/accountview/qml/accountlist.qml:224
+#: src/accountview/qml/accountlist.qml:227
 #: src/callview/qml/screensharing.qml:97
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/accountview/qml/accountlist.qml:231 src/configurator/recording.ui:65
+#: src/accountview/qml/accountlist.qml:234 src/configurator/recording.ui:65
 #: src/timeline/qml/phonenumbers.qml:197
 #, fuzzy, kde-format
 #| msgid "Edit phone"
 msgid "Delete"
 msgstr "編輯電話"
 
-#: src/accountview/qml/accountlist.qml:242
+#: src/accountview/qml/accountlist.qml:245
 #, kde-format
 msgid "Reload"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:260 src/conf/configurationdialog.cpp:116
+#: src/accountview/qml/accountlist.qml:263 src/conf/configurationdialog.cpp:116
 #, kde-format
 msgid "Accounts"
 msgstr "帳戶"
 
-#: src/accountview/qml/accountlist.qml:277
+#: src/accountview/qml/accountlist.qml:280 src/conf/qml/accounts.qml:156
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "Add an account"
 msgstr "增加新帳戶"
 
-#: src/actioncollection.cpp:86 src/conf/qml/devices.qml:349
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/accountview/qml/accounts.qml:136 src/accountview/qml/credentials.qml:88
+#: src/accountview/qml/pages/credentials.qml:87 src/conf/dlgpresence.ui:90
+#: src/conf/qml/accounts.qml:137
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgid "Remove"
+msgstr "刪除"
+
+#: src/accountview/qml/credentials.qml:45
+#: src/accountview/qml/pages/credentials.qml:44
+#, kde-format
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"Ring-KDE. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+
+#: src/accountview/qml/credentials.qml:97
+#: src/accountview/qml/pages/credentials.qml:96
+#: src/timeline/qml/phonenumbers.qml:211
+#, fuzzy, kde-format
+#| msgid "_Edit"
+msgid "Edit"
+msgstr "編輯(E)"
+
+#: src/accountview/qml/credentials.qml:102
+#: src/accountview/qml/pages/credentials.qml:101
+#, fuzzy, kde-format
+#| msgid "Down"
+msgid "Move up"
+msgstr "下"
+
+#: src/accountview/qml/credentials.qml:107
+#: src/accountview/qml/pages/credentials.qml:106
+#, fuzzy, kde-format
+#| msgid "Down"
+msgid "Move down"
+msgstr "下"
+
+#: src/accountview/qml/devices.qml:127
+#: src/accountview/qml/pages/devices.qml:125
+#, kde-format
+msgid "Enter your account password to confirm:"
+msgstr ""
+
+#: src/accountview/qml/devices.qml:134
+#: src/accountview/qml/pages/devices.qml:132
+#, kde-format
+msgid "Enter your Ring account password"
+msgstr ""
+
+#: src/accountview/qml/devices.qml:193
+#: src/accountview/qml/pages/devices.qml:191
+#, kde-format
+msgid "Enter a name for this device"
+msgstr ""
+
+#: src/accountview/qml/devices.qml:234
+#: src/accountview/qml/pages/devices.qml:232
+#, fuzzy, kde-format
+#| msgid "There is one call in progress."
+msgid "Revokation in progress"
+msgstr "有一個電話正在處理中."
+
+#: src/accountview/qml/devices.qml:317
+#: src/accountview/qml/pages/devices.qml:315
+#, kde-format
+msgid "Link another device to the account"
+msgstr ""
+
+#: src/accountview/qml/devices.qml:331
+#: src/accountview/qml/pages/devices.qml:329
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Your pin is:"
+msgstr "Yun Liu"
+
+#: src/accountview/qml/devices.qml:345
+#: src/accountview/qml/pages/devices.qml:343
+#, kde-format
+msgid ""
+"To complete the process, you need to open Ring on the new device. Create a "
+"new account with \"Link this device to an account\". Your pin is valid for "
+"10 minutes."
+msgstr ""
+
+#: src/accountview/qml/devices.qml:349
+#: src/accountview/qml/pages/devices.qml:347 src/actioncollection.cpp:86
 #: src/dialview/qml/calldelegateitem.qml:64
 #: src/timeline/qml/pendingrequests.qml:124
 #: src/timeline/qml/searchoverlay.qml:137
 #, kde-format
 msgid "Close"
 msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/accountview/qml/pages/advanced.qml:31
+#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:431
+#, fuzzy, kde-format
+msgid "Registration"
+msgstr "已註冊"
+
+#: src/accountview/qml/pages/advanced.qml:36
+#, fuzzy, kde-format
+msgid "Registration expire"
+msgstr "已註冊"
+
+#: src/accountview/qml/pages/advanced.qml:44
+#, fuzzy, kde-format
+#| msgid "Username"
+msgid "Useragent"
+msgstr "使用者名稱"
+
+#: src/accountview/qml/pages/advanced.qml:57
+#, fuzzy, kde-format
+#| msgid "Incoming call"
+msgid "Incoming calls"
+msgstr "來電"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromUnknown)
+#: src/accountview/qml/pages/advanced.qml:62
+#: src/conf/accountpages/advanced.ui:61
+#, kde-format
+msgid "Allow calls from unknown peers"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:70
+#, kde-format
+msgid "Allow calls from previously called peers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromContact)
+#: src/accountview/qml/pages/advanced.qml:78
+#: src/conf/accountpages/advanced.ui:81
+#, kde-format
+msgid "Allow calls from your contacts"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/accountview/qml/pages/advanced.qml:86
+#: src/conf/accountpages/advanced.ui:91
+#, fuzzy, kde-format
+#| msgid "Desktop Notifications"
+msgid "Negotiation"
+msgstr "桌面提示"
+
+#: src/accountview/qml/pages/advanced.qml:91
+#, kde-format
+msgid "Proxy server URL"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:104
+#, fuzzy, kde-format
+#| msgid "_STUN server"
+msgid "STUN server URL"
+msgstr "STUN伺服器(S)"
+
+#: src/accountview/qml/pages/advanced.qml:117
+#, fuzzy, kde-format
+#| msgid "_STUN server"
+msgid "TURN server URL"
+msgstr "STUN伺服器(S)"
+
+#: src/accountview/qml/pages/advanced.qml:130
+#, kde-format
+msgid "Features"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:135
+#, kde-format
+msgid "Enable Plug and Play (UPnP)"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:143
+#, fuzzy, kde-format
+#| msgid "Noise reduction"
+msgid "Enable presence broadcasting"
+msgstr "降噪"
+
+#: src/accountview/qml/pages/advanced.qml:151
+#, fuzzy, kde-format
+#| msgid "New call"
+msgid "Enable video calls"
+msgstr "新電話"
+
+#: src/accountview/qml/pages/advanced.qml:159
+#, kde-format
+msgid "Concurrent call limit"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:170
+#, kde-format
+msgid "DTMF type"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:174
+#, kde-format
+msgid "DTMF over SIP"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:179
+#, kde-format
+msgid "DTMF over RTP"
+msgstr ""
+
+#: src/accountview/qml/pages/basic.qml:39
+#, kde-format
+msgid "Alias"
+msgstr "別稱"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
+#. i18n: ectx: property (text), widget (QLabel, label_profile)
+#: src/accountview/qml/pages/basic.qml:48 src/conf/accountpages/account.cpp:100
+#: src/conf/accountpages/basic.ui:186 src/conf/accountpages/tabs.ui:101
+#: src/model/extendedprotocolmodel.cpp:48
+#, kde-format
+msgid "Profile"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: src/accountview/qml/pages/basic.qml:58 src/conf/accountpages/basic.ui:48
+#, kde-format
+msgid "Protocol"
+msgstr "協議"
+
+#: src/accountview/qml/pages/basic.qml:69
+#, fuzzy, kde-format
+#| msgid "Registered"
+msgid "Registered name"
+msgstr "已註冊"
+
+#: src/accountview/qml/pages/basic.qml:79
+#, fuzzy, kde-format
+msgid "Display name"
+msgstr "顯示"
+
+#: src/accountview/qml/pages/basic.qml:85
+#, fuzzy, kde-format
+#| msgid "Username"
+msgid "Username"
+msgstr "使用者名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password_2)
+#: src/accountview/qml/pages/basic.qml:94
+#: src/accountview/qml/pages/credentials.qml:175
+#: src/conf/accountpages/credentials.ui:43
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#: src/accountview/qml/pages/basic.qml:104
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Hostname"
+msgstr "名稱"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
+#: src/accountview/qml/pages/credentials.qml:147
+#: src/conf/accountpages/credentials.ui:23
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_realm_2)
+#: src/accountview/qml/pages/credentials.qml:163
+#: src/conf/accountpages/credentials.ui:29
+#, kde-format
+msgid "Realm"
+msgstr ""
+
+#: src/accountview/qml/pages/credentials.qml:169
+#, fuzzy, kde-format
+#| msgid "Username"
+msgid "User (auth) name"
+msgstr "使用者名稱"
+
+#: src/accountview/qml/pages/network.qml:37
+#, fuzzy, kde-format
+#| msgid "Network unreachable"
+msgid "Network interface"
+msgstr "網路連線失敗"
+
+#: src/accountview/qml/pages/network.qml:42
+#, fuzzy, kde-format
+#| msgid "Email address"
+msgid "localPort"
+msgstr "郵件地址"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pPublishedGB)
+#. i18n: ectx: property (text), widget (QLabel, label_published_address)
+#: src/accountview/qml/pages/network.qml:52
+#: src/accountview/qml/pages/network.qml:81 src/conf/accountpages/network.ui:57
+#: src/conf/accountpages/network.ui:80
+#, fuzzy, kde-format
+#| msgid "Enable address book"
+msgid "Published address"
+msgstr "啟用地址簿"
+
+#: src/accountview/qml/pages/network.qml:57
+#, fuzzy, kde-format
+#| msgid "Search Parameters"
+msgid "Same as the local parameters"
+msgstr "搜尋相關參數"
+
+#: src/accountview/qml/pages/network.qml:66
+#, fuzzy, kde-format
+#| msgid "_User name"
+msgid "Use custom values"
+msgstr "使用者名稱(U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
+#: src/accountview/qml/pages/network.qml:70 src/conf/accountpages/network.ui:87
+#, fuzzy, kde-format
+#| msgid "Enable address book"
+msgid "Published port"
+msgstr "啟用地址簿"
+
+#: src/accountview/qml/pages/network.qml:91
+#, fuzzy, kde-format
+#| msgid "SIP account configuration"
+msgid "RTP configuration (not recommended)"
+msgstr "SIP帳戶配置"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
+#: src/accountview/qml/pages/network.qml:96
+#: src/conf/accountpages/network.ui:156
+#, kde-format
+msgid "Minimum audio port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
+#: src/accountview/qml/pages/network.qml:106
+#: src/conf/accountpages/network.ui:191
+#, fuzzy, kde-format
+#| msgid "Maximum results"
+msgid "Maximum audio port"
+msgstr "結果最大值"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
+#: src/accountview/qml/pages/network.qml:116
+#: src/conf/accountpages/network.ui:184
+#, kde-format
+msgid "Minimum video port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
+#: src/accountview/qml/pages/network.qml:126
+#: src/conf/accountpages/network.ui:198
+#, fuzzy, kde-format
+#| msgid "Maximum results"
+msgid "Maximum video port"
+msgstr "結果最大值"
+
+#: src/accountview/qml/pages/security.qml:48
+#, fuzzy, kde-format
+#| msgid "Bad authentification"
+msgid "TLS Certificates"
+msgstr "認證錯誤"
+
+#: src/accountview/qml/pages/security.qml:53
+#, fuzzy, kde-format
+#| msgid "Bad authentification"
+msgid "Authority certificate(s)"
+msgstr "認證錯誤"
+
+#: src/accountview/qml/pages/security.qml:61
+#, fuzzy, kde-format
+#| msgid "Bad authentification"
+msgid "Endpoint certificate"
+msgstr "認證錯誤"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/accountview/qml/pages/security.qml:69
+#: src/conf/accountpages/security.ui:375
+#, kde-format
+msgid "Private key"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/accountview/qml/pages/security.qml:88
+#: src/conf/accountpages/security.ui:182
+#, kde-format
+msgid ""
+"Your certificates access are too permissive. Certificates should only be "
+"readable by the owner."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/accountview/qml/pages/security.qml:91
+#: src/conf/accountpages/security.ui:196
+#, kde-format
+msgid "Fix the permissions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#: src/accountview/qml/pages/security.qml:97
+#: src/accountview/qml/pages/security.qml:117
+#: src/conf/accountpages/security.ui:207 src/conf/accountpages/security.ui:302
+#, kde-format
+msgid "No thanks"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:108
+#, kde-format
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommends ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
+#: src/accountview/qml/pages/security.qml:111
+#: src/conf/accountpages/security.ui:291
+#, kde-format
+msgid "Move to ~/.cert"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:125
+#, kde-format
+msgid "Faulty servers workarounds"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:130
+#, kde-format
+msgid "Encrypt media streams (SRTP)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_srtpRtpFallback)
+#: src/accountview/qml/pages/security.qml:138
+#: src/conf/accountpages/security.ui:93
+#, kde-format
+msgid "Fallback on RTP on SDES failure"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:146
+#, kde-format
+msgid "Encrypt negotiation (TLS)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsRequireClientCertificate)
+#: src/accountview/qml/pages/security.qml:170
+#: src/conf/accountpages/security.ui:427
+#, kde-format
+msgid "Require a certificate for incoming TLS connections"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/accountview/qml/pages/security.qml:178
+#: src/conf/accountpages/security.ui:318
+#, kde-format
+msgid "Negotiation timeout"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
+#: src/accountview/qml/pages/security.qml:186
+#: src/conf/accountpages/security.ui:325
+#, kde-format
+msgid "Verify incoming certificates (server side)"
+msgstr ""
+
+#: src/accountview/qml/securitylevel.qml:186
+#, kde-format
+msgid " tips"
+msgstr ""
+
+#: src/accountview/qml/securitylevel.qml:197
+#, kde-format
+msgid " warnings"
+msgstr ""
+
+#: src/accountview/qml/securitylevel.qml:208
+#, kde-format
+msgid " issues"
+msgstr ""
+
+#: src/accountview/qml/securitylevel.qml:219
+#, fuzzy, kde-format
+#| msgid "Error"
+msgid " errors"
+msgstr "註冊失敗"
 
 #: src/actioncollection.cpp:88 src/timeline/qml/pendingrequests.qml:57
 #, kde-format
@@ -372,6 +910,12 @@ msgstr "配置SFLphone"
 msgid "Configure Notifications"
 msgstr "桌面提示"
 
+#: src/actioncollection.cpp:195
+#, fuzzy, kde-format
+#| msgid "Configured Accounts"
+msgid "Configure Accounts"
+msgstr "已配置帳戶"
+
 #: src/callview/qml/callbackground.qml:34
 #, kde-format
 msgid "[No video]"
@@ -536,31 +1080,8 @@ msgstr ""
 msgid "Start with the timeline interface"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
-#: src/conf/accountdlg.ui:75
-#, kde-format
-msgid "Add a new account"
-msgstr "增加新帳戶"
-
-#. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountAdd)
-#: src/conf/accountdlg.ui:78
-#, kde-format
-msgid ""
-"This button enables you to initialize a new account. You will then be able "
-"to edit it using the form on the right."
-msgstr ""
-"通過該按鈕可以創建一個新賬戶。添加該賬戶之後你還可以通過編輯按鈕來修改設置。"
-
-#. i18n: ectx: property (text), widget (QToolButton, button_accountAdd)
-#: src/conf/accountdlg.ui:81
-#, fuzzy, kde-format
-#| msgid "Add"
-msgctxt "Add new account"
-msgid "Add"
-msgstr "添加"
-
 #. i18n: ectx: property (whatsThis), widget (CategorizedTree, m_pAccountList)
-#: src/conf/accountdlg.ui:120
+#: src/conf/accountdlg.ui:88
 #, fuzzy, kde-format
 #| msgid ""
 #| "By default, when you place a call, sflphone will use the first account in "
@@ -581,14 +1102,14 @@ msgstr ""
 "可以改變賬戶的設置。"
 
 #. i18n: ectx: property (toolTip), widget (LeftToolButton, m_pMoveUp)
-#: src/conf/accountdlg.ui:160
+#: src/conf/accountdlg.ui:115
 #, kde-format
 msgid "Get this account up"
 msgstr "把該賬戶向上移動"
 
 #. i18n: ectx: property (whatsThis), widget (LeftToolButton, m_pMoveUp)
 #. i18n: ectx: property (whatsThis), widget (CenterToolButton, m_pMoveDown)
-#: src/conf/accountdlg.ui:163 src/conf/accountdlg.ui:184
+#: src/conf/accountdlg.ui:118 src/conf/accountdlg.ui:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "By default, when you place a call, sflphone will use the first account in "
@@ -604,7 +1125,7 @@ msgstr ""
 "選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。"
 
 #. i18n: ectx: property (text), widget (LeftToolButton, m_pMoveUp)
-#: src/conf/accountdlg.ui:166
+#: src/conf/accountdlg.ui:121
 #, fuzzy, kde-format
 #| msgid "Up"
 msgctxt "Move account up"
@@ -612,13 +1133,13 @@ msgid "Up"
 msgstr "上"
 
 #. i18n: ectx: property (toolTip), widget (CenterToolButton, m_pMoveDown)
-#: src/conf/accountdlg.ui:181
+#: src/conf/accountdlg.ui:135
 #, kde-format
 msgid "Get this account down"
 msgstr "將該賬戶向下移動"
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pMoveDown)
-#: src/conf/accountdlg.ui:187
+#: src/conf/accountdlg.ui:141
 #, fuzzy, kde-format
 #| msgid "Down"
 msgctxt "Move account down"
@@ -626,13 +1147,13 @@ msgid "Down"
 msgstr "下"
 
 #. i18n: ectx: property (toolTip), widget (RightToolButton, m_pRemove)
-#: src/conf/accountdlg.ui:208
+#: src/conf/accountdlg.ui:161
 #, kde-format
 msgid "Remove the selected account"
 msgstr "刪除所選賬戶"
 
 #. i18n: ectx: property (whatsThis), widget (RightToolButton, m_pRemove)
-#: src/conf/accountdlg.ui:211
+#: src/conf/accountdlg.ui:164
 #, kde-format
 msgid ""
 "This button will remove the selected account in the list below. Be sure you "
@@ -643,20 +1164,35 @@ msgstr ""
 "請取消對該賬戶的選擇"
 
 #. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
-#: src/conf/accountdlg.ui:217
+#: src/conf/accountdlg.ui:170
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "Remove selected account"
 msgid "Remove"
 msgstr "刪除"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
-#. i18n: ectx: property (text), widget (QLabel, label_profile)
-#: src/conf/accountpages/account.cpp:100 src/conf/accountpages/basic.ui:186
-#: src/conf/accountpages/tabs.ui:101 src/model/extendedprotocolmodel.cpp:48
+#. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:201
 #, kde-format
-msgid "Profile"
+msgid "Add a new account"
+msgstr "增加新帳戶"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:204
+#, kde-format
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
 msgstr ""
+"通過該按鈕可以創建一個新賬戶。添加該賬戶之後你還可以通過編輯按鈕來修改設置。"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:207
+#, fuzzy, kde-format
+#| msgid "Add"
+msgctxt "Add new account"
+msgid "Add"
+msgstr "添加"
 
 #. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
 #. i18n: ectx: property (title), widget (QGroupBox, lrcfg_ringtoneEnabled)
@@ -666,55 +1202,6 @@ msgstr ""
 #| msgid "Ringtones"
 msgid "Ringtone"
 msgstr "鈴聲"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: src/conf/accountpages/account.cpp:105 src/conf/accountpages/tabs.ui:81
-#, kde-format
-msgid "Security"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
-#: src/conf/accountpages/account.cpp:106 src/conf/accountpages/tabs.ui:71
-#, kde-format
-msgid "Credentials"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/conf/accountpages/account.cpp:107 src/conf/accountpages/tabs.ui:61
-#, kde-format
-msgid "Codecs"
-msgstr "編碼"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_9)
-#: src/conf/accountpages/account.cpp:108 src/conf/accountpages/tabs.ui:51
-#, kde-format
-msgid "Devices"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/conf/accountpages/account.cpp:109 src/conf/accountpages/tabs.ui:41
-#, kde-format
-msgid "Network"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/conf/accountpages/account.cpp:110 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:116
-#, kde-format
-msgid "Advanced"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/conf/accountpages/account.cpp:111 src/conf/accountpages/tabs.ui:21
-#, kde-format
-msgid "Basic"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:431
-#, fuzzy, kde-format
-msgid "Registration"
-msgstr "已註冊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_regExpire)
 #: src/conf/accountpages/advanced.ui:25
@@ -736,30 +1223,11 @@ msgstr ""
 msgid "Use custom user agent"
 msgstr "使用者名稱(U)"
 
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromUnknown)
-#: src/conf/accountpages/advanced.ui:61
-#, kde-format
-msgid "Allow calls from unknown peers"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromHistory)
 #: src/conf/accountpages/advanced.ui:71
 #, kde-format
 msgid "Allow calls if that person has been contacted in the past"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromContact)
-#: src/conf/accountpages/advanced.ui:81
-#, kde-format
-msgid "Allow calls from your contacts"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: src/conf/accountpages/advanced.ui:91
-#, fuzzy, kde-format
-#| msgid "Desktop Notifications"
-msgid "Negotiation"
-msgstr "桌面提示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasProxy)
 #: src/conf/accountpages/advanced.ui:100
@@ -864,12 +1332,6 @@ msgstr "別稱"
 msgid "Anything, used only to select the account"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
-#: src/conf/accountpages/basic.ui:48
-#, kde-format
-msgid "Protocol"
-msgstr "協議"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/conf/accountpages/basic.ui:78
 #, fuzzy, kde-format
@@ -925,7 +1387,7 @@ msgstr "使用者名稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_auth_2)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_username)
-#: src/conf/accountpages/basic.ui:159 src/conf/accountpages/credentials.ui:149
+#: src/conf/accountpages/basic.ui:159 src/conf/accountpages/credentials.ui:63
 #, kde-format
 msgid "Usually your extension number"
 msgstr ""
@@ -940,7 +1402,7 @@ msgstr "密碼"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_password_2)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_password)
-#: src/conf/accountpages/basic.ui:179 src/conf/accountpages/credentials.ui:165
+#: src/conf/accountpages/basic.ui:179 src/conf/accountpages/credentials.ui:79
 #, kde-format
 msgid "SIP password, ask your network administrator"
 msgstr ""
@@ -971,66 +1433,8 @@ msgstr ""
 msgid "Status"
 msgstr "狀態"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecUp)
-#: src/conf/accountpages/codecs.ui:22
-#, kde-format
-msgid "Increase codec priority"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecUp)
-#. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecDown)
-#: src/conf/accountpages/codecs.ui:25 src/conf/accountpages/codecs.ui:44
-#, fuzzy, kde-format
-#| msgid ""
-#| "By default, when you place a call, sflphone will use the first account in "
-#| "this list which is \"registered\". Change the order of the accounts using "
-#| "the \"Up\" and \"Down\" arrows."
-msgid ""
-"By default, when you place a call, sflphone will use the first account in "
-"this list which is \"registered\". Change the order of the accounts using "
-"the \"Up\" and \"Down\" arrows."
-msgstr ""
-"在默認情況下，當你打電話時，sflphone會使用列表當中第一個已註冊的帳戶。使用箭"
-"頭\"上\"和\"下\"可以改變賬戶的順序。選擇賬戶名稱左邊的方框可以啟用帳戶，取消"
-"選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。"
-
-#. i18n: ectx: property (text), widget (QToolButton, button_audiocodecUp)
-#: src/conf/accountpages/codecs.ui:28
-#, fuzzy, kde-format
-#| msgid "Up"
-msgctxt "Move audio codec up"
-msgid "Up"
-msgstr "上"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecDown)
-#: src/conf/accountpages/codecs.ui:41
-#, kde-format
-msgid "Decrease codec priority"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, button_audiocodecDown)
-#: src/conf/accountpages/codecs.ui:47
-#, fuzzy, kde-format
-#| msgid "Down"
-msgctxt "Move audio codec down"
-msgid "Down"
-msgstr "下"
-
-#. i18n: ectx: property (text), widget (QLabel, label_bitrate)
-#: src/conf/accountpages/codecs.ui:62
-#, fuzzy, kde-format
-#| msgid "Bitrate"
-msgid "Bitrate:"
-msgstr "比率"
-
-#. i18n: ectx: property (text), widget (QLabel, label_frequency)
-#: src/conf/accountpages/codecs.ui:69
-#, kde-format
-msgid "Sample rate:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/accountpages/codecs.ui:76
+#: src/conf/accountpages/codecs.ui:17
 #, kde-format
 msgid ""
 "Move the codecs up and down to alter the priority. Ring recommend Opus for "
@@ -1038,18 +1442,21 @@ msgid ""
 "supported audio codec and H263 the most supported video codec."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
-#: src/conf/accountpages/credentials.ui:42
+#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth_2)
+#: src/conf/accountpages/credentials.ui:36
+#, fuzzy, kde-format
+#| msgid "_Host name"
+msgid "Auth. name"
+msgstr "主机名稱(H)"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_realm_2)
+#: src/conf/accountpages/credentials.ui:53
 #, kde-format
-msgid ""
-"This tab help manage accounts with multiple credentials. If you have "
-"multiple accounts. Do not use this feature, just create multiple accounts in "
-"Ring-KDE. Nor use this dialog if you only have one set of credentials. In "
-"that case, the \"Basic\" tab will provide everything you need."
+msgid "Usually *"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, button_add_credential)
-#: src/conf/accountpages/credentials.ui:79
+#: src/conf/accountpages/credentials.ui:151
 #, fuzzy, kde-format
 #| msgid "Add"
 msgctxt "Add new credential"
@@ -1057,43 +1464,12 @@ msgid "Add"
 msgstr "添加"
 
 #. i18n: ectx: property (text), widget (QToolButton, button_remove_credential)
-#: src/conf/accountpages/credentials.ui:90
+#: src/conf/accountpages/credentials.ui:162
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "Remove selected credential"
 msgid "Remove"
 msgstr "刪除"
-
-#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
-#: src/conf/accountpages/credentials.ui:109
-#, kde-format
-msgid "Details"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_credential_realm_2)
-#: src/conf/accountpages/credentials.ui:115
-#, kde-format
-msgid "Realm"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth_2)
-#: src/conf/accountpages/credentials.ui:122
-#, fuzzy, kde-format
-#| msgid "_Host name"
-msgid "Auth. name"
-msgstr "主机名稱(H)"
-
-#. i18n: ectx: property (text), widget (QLabel, label_credential_password_2)
-#: src/conf/accountpages/credentials.ui:129
-#, kde-format
-msgid "Password"
-msgstr "密碼"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_realm_2)
-#: src/conf/accountpages/credentials.ui:139
-#, kde-format
-msgid "Usually *"
-msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/accountpages/network.ui:17
@@ -1116,14 +1492,6 @@ msgstr "郵件地址"
 msgid "Local port"
 msgstr "郵件地址"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_pPublishedGB)
-#. i18n: ectx: property (text), widget (QLabel, label_published_address)
-#: src/conf/accountpages/network.ui:57 src/conf/accountpages/network.ui:80
-#, fuzzy, kde-format
-#| msgid "Enable address book"
-msgid "Published address"
-msgstr "啟用地址簿"
-
 #. i18n: ectx: property (text), widget (QRadioButton, lrcfg_publishedSameAsLocal)
 #: src/conf/accountpages/network.ui:63
 #, fuzzy, kde-format
@@ -1138,13 +1506,6 @@ msgstr "搜尋相關參數"
 msgid "Set p&ublished address and port"
 msgstr "啟用地址簿"
 
-#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
-#: src/conf/accountpages/network.ui:87
-#, fuzzy, kde-format
-#| msgid "Enable address book"
-msgid "Published port"
-msgstr "啟用地址簿"
-
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_publishedAddress)
 #: src/conf/accountpages/network.ui:107
 #, kde-format
@@ -1157,32 +1518,6 @@ msgstr ""
 #| msgid "SIP account configuration"
 msgid "RTP configuration"
 msgstr "SIP帳戶配置"
-
-#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
-#: src/conf/accountpages/network.ui:156
-#, kde-format
-msgid "Minimum audio port"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
-#: src/conf/accountpages/network.ui:184
-#, kde-format
-msgid "Minimum video port"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
-#: src/conf/accountpages/network.ui:191
-#, fuzzy, kde-format
-#| msgid "Maximum results"
-msgid "Maximum audio port"
-msgstr "結果最大值"
-
-#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
-#: src/conf/accountpages/network.ui:198
-#, fuzzy, kde-format
-#| msgid "Maximum results"
-msgid "Maximum video port"
-msgstr "結果最大值"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/conf/accountpages/network.ui:205
@@ -1210,12 +1545,6 @@ msgstr ""
 msgid "Encr&ypt media streams (SRTP)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_srtpRtpFallback)
-#: src/conf/accountpages/security.ui:93
-#, kde-format
-msgid "Fallback on RTP on SDES failure"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, lrcfg_tlsEnabled)
 #: src/conf/accountpages/security.ui:109
 #, kde-format
@@ -1228,27 +1557,6 @@ msgstr ""
 msgid "Authority certificate list"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
-#: src/conf/accountpages/security.ui:182
-#, kde-format
-msgid ""
-"Your certificates access are too permissive. Certificates should only be "
-"readable by the owner."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
-#: src/conf/accountpages/security.ui:196
-#, kde-format
-msgid "Fix the permissions"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
-#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
-#: src/conf/accountpages/security.ui:207 src/conf/accountpages/security.ui:302
-#, kde-format
-msgid "No thanks"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
 #: src/conf/accountpages/security.ui:277
 #, kde-format
@@ -1256,24 +1564,6 @@ msgid ""
 "A good security practice is to move the certificates to a common directory. "
 "SELinux recommend ~/.cert for this. Do you wish to move the certificate "
 "there?"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
-#: src/conf/accountpages/security.ui:291
-#, kde-format
-msgid "Move to ~/.cert"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
-#: src/conf/accountpages/security.ui:318
-#, kde-format
-msgid "Negotiation timeout"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
-#: src/conf/accountpages/security.ui:325
-#, kde-format
-msgid "Verify incoming certificates (server side)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
@@ -1286,12 +1576,6 @@ msgstr ""
 #: src/conf/accountpages/security.ui:368
 #, kde-format
 msgid "Only necessary if the key have a password"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
-#: src/conf/accountpages/security.ui:375
-#, kde-format
-msgid "Private key"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsServerName)
@@ -1316,12 +1600,6 @@ msgstr ""
 #: src/conf/accountpages/security.ui:417
 #, kde-format
 msgid "Private key password"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsRequireClientCertificate)
-#: src/conf/accountpages/security.ui:427
-#, kde-format
-msgid "Require a certificate for incoming TLS connections"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
@@ -1367,13 +1645,6 @@ msgstr "認證錯誤"
 #, kde-format
 msgid "Known certificates"
 msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_6)
-#: src/conf/accountpages/tabs.ui:91
-#, fuzzy, kde-format
-#| msgid "Ringtones"
-msgid "Ringtones"
-msgstr "鈴聲"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_10)
 #: src/conf/accountpages/tabs.ui:111
@@ -1447,41 +1718,41 @@ msgstr ""
 msgid "Automatically read the call details when it is selected"
 msgstr ""
 
-#: src/conf/dlgaccount.cpp:117 src/conf/dlgaccount.cpp:137
+#: src/conf/dlgaccount.cpp:124 src/conf/dlgaccount.cpp:144
 #, kde-format
 msgid "Are you sure you want to remove %1?"
 msgstr ""
 
-#: src/conf/dlgaccount.cpp:120
+#: src/conf/dlgaccount.cpp:127
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove profile"
 msgstr "刪除"
 
-#: src/conf/dlgaccount.cpp:140
+#: src/conf/dlgaccount.cpp:147
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Remove account"
 msgstr "刪除所選賬戶"
 
-#: src/conf/dlgaccount.cpp:175
+#: src/conf/dlgaccount.cpp:182
 #, fuzzy, kde-format
 #| msgid "Remove the selected account"
 msgid "Import accounts"
 msgstr "刪除所選賬戶"
 
-#: src/conf/dlgaccount.cpp:179
+#: src/conf/dlgaccount.cpp:186
 #, kde-format
 msgid "Enter the password"
 msgstr ""
 
-#: src/conf/dlgaccount.cpp:193
+#: src/conf/dlgaccount.cpp:200
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account%1"
 msgstr "增加新帳戶"
 
-#: src/conf/dlgaccount.cpp:194
+#: src/conf/dlgaccount.cpp:201
 #, fuzzy, kde-format
 #| msgid "Add a new account"
 msgid "New account"
@@ -1734,13 +2005,6 @@ msgstr ""
 msgid "Add"
 msgstr "添加"
 
-#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
-#: src/conf/dlgpresence.ui:90
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgid "Remove"
-msgstr "刪除"
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
 #: src/conf/dlgpresence.ui:102
 #, kde-format
@@ -1765,47 +2029,6 @@ msgstr "啟動時隱藏(S)"
 #| msgid "Audio Settings"
 msgid "Video settings"
 msgstr "音訊配置"
-
-#: src/conf/qml/devices.qml:127
-#, kde-format
-msgid "Enter your account password to confirm:"
-msgstr ""
-
-#: src/conf/qml/devices.qml:134
-#, kde-format
-msgid "Enter your Ring account password"
-msgstr ""
-
-#: src/conf/qml/devices.qml:193
-#, kde-format
-msgid "Enter a name for this device"
-msgstr ""
-
-#: src/conf/qml/devices.qml:234
-#, fuzzy, kde-format
-#| msgid "There is one call in progress."
-msgid "Revokation in progress"
-msgstr "有一個電話正在處理中."
-
-#: src/conf/qml/devices.qml:317
-#, kde-format
-msgid "Link another device to the account"
-msgstr ""
-
-#: src/conf/qml/devices.qml:331
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "Your pin is:"
-msgstr "Yun Liu"
-
-#: src/conf/qml/devices.qml:345
-#, kde-format
-msgid ""
-"To complete the process, you need to open Ring on the new device. Create a "
-"new account with \"Link this device to an account\". Your pin is valid for "
-"10 minutes."
-msgstr ""
 
 #: src/configurator/audiorecordingconfigurator.cpp:40
 #: src/configurator/bookmarkconfigurator.cpp:42
@@ -2001,24 +2224,24 @@ msgstr ""
 msgid "Formatted name:"
 msgstr "格式：name.server:port"
 
-#: src/contactview/qml/vcardform.qml:117
+#: src/contactview/qml/vcardform.qml:118
 #, fuzzy, kde-format
 msgid "Primary name:"
 msgstr "顯示"
 
-#: src/contactview/qml/vcardform.qml:129
+#: src/contactview/qml/vcardform.qml:130
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Last name:"
 msgstr "名稱"
 
-#: src/contactview/qml/vcardform.qml:141
+#: src/contactview/qml/vcardform.qml:142
 #, fuzzy, kde-format
 #| msgid "_Email"
 msgid "Email:"
 msgstr "郵件(E)"
 
-#: src/desktopview/qml/desktopwindow.qml:169
+#: src/desktopview/qml/desktopwindow.qml:171
 #, kde-format
 msgid "Hide"
 msgstr ""
@@ -2402,17 +2625,17 @@ msgstr ""
 msgid "Display the recently used contacts"
 msgstr ""
 
-#: src/main.cpp:57
+#: src/main.cpp:71
 #, kde-format
 msgid "ring-kde"
 msgstr ""
 
-#: src/main.cpp:59
+#: src/main.cpp:73
 #, kde-format
 msgid "RING, a secured and distributed communication software"
 msgstr ""
 
-#: src/main.cpp:61
+#: src/main.cpp:75
 #, fuzzy, kde-format
 #| msgid "(C) 2009 Savoir-faire Linux"
 msgid ""
@@ -2420,17 +2643,17 @@ msgid ""
 "2016-2017 Emmanuel Lepage Vallee"
 msgstr "(C) 2009 Savoir-faire Linux"
 
-#: src/main.cpp:69
+#: src/main.cpp:83
 #, kde-format
 msgid "Emmanuel Lepage-Vallée"
 msgstr ""
 
-#: src/main.cpp:70
+#: src/main.cpp:84
 #, kde-format
 msgid "Alexandre Lision"
 msgstr ""
 
-#: src/main.cpp:71
+#: src/main.cpp:85
 #, kde-format
 msgid "Based on the SFLphone teamworks"
 msgstr ""
@@ -2515,83 +2738,83 @@ msgstr ""
 msgid "From camera"
 msgstr ""
 
-#: src/ringapplication.cpp:263
+#: src/ringapplication.cpp:267
 #, kde-format
 msgid "Home"
 msgstr "家庭電話"
 
-#: src/ringapplication.cpp:264
+#: src/ringapplication.cpp:268
 #, kde-format
 msgid "Work"
 msgstr "單位電話"
 
-#: src/ringapplication.cpp:265
+#: src/ringapplication.cpp:269
 #, kde-format
 msgid "Msg"
 msgstr ""
 
-#: src/ringapplication.cpp:266
+#: src/ringapplication.cpp:270
 #, kde-format
 msgid "Pref"
 msgstr ""
 
-#: src/ringapplication.cpp:267
+#: src/ringapplication.cpp:271
 #, fuzzy, kde-format
 #| msgid "Voicemail"
 msgid "Voice"
 msgstr "語音郵件"
 
-#: src/ringapplication.cpp:268
+#: src/ringapplication.cpp:272
 #, kde-format
 msgid "Fax"
 msgstr ""
 
-#: src/ringapplication.cpp:269
+#: src/ringapplication.cpp:273
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:270 src/timeline/qml/mediabuttons.qml:318
+#: src/ringapplication.cpp:274 src/timeline/qml/mediabuttons.qml:318
 #, kde-format
 msgid "Video"
 msgstr ""
 
-#: src/ringapplication.cpp:271
+#: src/ringapplication.cpp:275
 #, kde-format
 msgid "Bbs"
 msgstr ""
 
-#: src/ringapplication.cpp:272
+#: src/ringapplication.cpp:276
 #, kde-format
 msgid "Modem"
 msgstr ""
 
-#: src/ringapplication.cpp:273
+#: src/ringapplication.cpp:277
 #, kde-format
 msgid "Car"
 msgstr ""
 
-#: src/ringapplication.cpp:274
+#: src/ringapplication.cpp:278
 #, kde-format
 msgid "Isdn"
 msgstr ""
 
-#: src/ringapplication.cpp:275
+#: src/ringapplication.cpp:279
 #, kde-format
 msgid "Pcs"
 msgstr ""
 
-#: src/ringapplication.cpp:276
+#: src/ringapplication.cpp:280
 #, kde-format
 msgid "Pager"
 msgstr ""
 
-#: src/ringapplication.cpp:277
+#: src/ringapplication.cpp:281
 #, kde-format
 msgid "Preferred"
 msgstr ""
 
-#: src/ringapplication.cpp:335
+#: src/ringapplication.cpp:339
 #, fuzzy, kde-format
 #| msgid "Bad authentification"
 msgid "System root certificates"
@@ -2735,12 +2958,6 @@ msgstr ""
 #, kde-format
 msgid "Add a phone number or GNU Ring identity"
 msgstr ""
-
-#: src/timeline/qml/phonenumbers.qml:211
-#, fuzzy, kde-format
-#| msgid "_Edit"
-msgid "Edit"
-msgstr "編輯(E)"
 
 #: src/timeline/qml/phonenumbers.qml:224
 #, fuzzy, kde-format
@@ -3232,6 +3449,37 @@ msgid "Press anywhere to begin"
 msgstr ""
 
 #, fuzzy
+#~| msgid ""
+#~| "By default, when you place a call, sflphone will use the first account "
+#~| "in this list which is \"registered\". Change the order of the accounts "
+#~| "using the \"Up\" and \"Down\" arrows."
+#~ msgid ""
+#~ "By default, when you place a call, sflphone will use the first account in "
+#~ "this list which is \"registered\". Change the order of the accounts using "
+#~ "the \"Up\" and \"Down\" arrows."
+#~ msgstr ""
+#~ "在默認情況下，當你打電話時，sflphone會使用列表當中第一個已註冊的帳戶。使用"
+#~ "箭頭\"上\"和\"下\"可以改變賬戶的順序。選擇賬戶名稱左邊的方框可以啟用帳戶，"
+#~ "取消選擇則會禁用該賬戶。通過\"加\"\"減\"按鈕可以添加或刪除賬戶。"
+
+#, fuzzy
+#~| msgid "Up"
+#~ msgctxt "Move audio codec up"
+#~ msgid "Up"
+#~ msgstr "上"
+
+#, fuzzy
+#~| msgid "Down"
+#~ msgctxt "Move audio codec down"
+#~ msgid "Down"
+#~ msgstr "下"
+
+#, fuzzy
+#~| msgid "Bitrate"
+#~ msgid "Bitrate:"
+#~ msgstr "比率"
+
+#, fuzzy
 #~ msgid "Organization:"
 #~ msgstr "顯示"
 
@@ -3301,11 +3549,6 @@ msgstr ""
 #~| msgid "_Email"
 #~ msgid "Email"
 #~ msgstr "郵件(E)"
-
-#, fuzzy
-#~| msgid "Configured Accounts"
-#~ msgid "Configure other accounts"
-#~ msgstr "已配置帳戶"
 
 #, fuzzy
 #~| msgid "Transfer to : "
@@ -3492,11 +3735,6 @@ msgstr ""
 #~ msgstr "鉤鍵"
 
 #, fuzzy
-#~| msgid "_STUN server"
-#~ msgid "STUN server"
-#~ msgstr "STUN伺服器(S)"
-
-#, fuzzy
 #~| msgid "Enable address book"
 #~ msgid "Fallback Published address"
 #~ msgstr "啟用地址簿"
@@ -3598,20 +3836,11 @@ msgstr ""
 #~ msgid "Please fill the following information"
 #~ msgstr "請填寫如下信息"
 
-#~ msgid "Alias"
-#~ msgstr "別稱"
-
 #~ msgid "Server"
 #~ msgstr "伺服器"
 
 #~ msgid "Voicemail number"
 #~ msgstr "語音郵箱"
-
-#, fuzzy
-#~| msgid "Username"
-#~ msgctxt "SIP Account Username"
-#~ msgid "Username"
-#~ msgstr "使用者名稱"
 
 #~ msgid "IAX2 account settings"
 #~ msgstr "IAX2帳戶配置"
@@ -3868,9 +4097,6 @@ msgstr ""
 
 #~ msgid "Address book"
 #~ msgstr "地址簿"
-
-#~ msgid "Incoming call"
-#~ msgstr "來電"
 
 #~ msgid "You have an incoming call from"
 #~ msgstr "您有一個電話,來自於"
