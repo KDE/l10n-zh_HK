@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:05+0200\n"
+"POT-Creation-Date: 2019-01-10 03:03+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -210,7 +210,7 @@ msgstr "參考錯誤"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:150
+#: java/kjavaappletviewer.cpp:148
 #, kde-format
 msgid "Value"
 msgstr "值"
@@ -670,32 +670,32 @@ msgstr "是(&Y)"
 msgid "&Grant All"
 msgstr "全部允許(&R)"
 
-#: java/kjavaappletviewer.cpp:59
+#: java/kjavaappletviewer.cpp:57
 #, kde-format
 msgid "KDE Java Applet Plugin"
 msgstr "KDE Java Applet Plugin"
 
-#: java/kjavaappletviewer.cpp:141
+#: java/kjavaappletviewer.cpp:139
 #, kde-format
 msgid "Applet Parameters"
 msgstr "Applet 參數"
 
-#: java/kjavaappletviewer.cpp:149
+#: java/kjavaappletviewer.cpp:147
 #, kde-format
 msgid "Parameter"
 msgstr "參數"
 
-#: java/kjavaappletviewer.cpp:153
+#: java/kjavaappletviewer.cpp:151
 #, kde-format
 msgid "Class"
 msgstr "類別"
 
-#: java/kjavaappletviewer.cpp:159
+#: java/kjavaappletviewer.cpp:157
 #, kde-format
 msgid "Base URL"
 msgstr "Base URL"
 
-#: java/kjavaappletviewer.cpp:165
+#: java/kjavaappletviewer.cpp:163
 #, kde-format
 msgid "Archives"
 msgstr "套件包"
@@ -1269,20 +1269,20 @@ msgstr "   <a href=\"%1\">[內容]</a>"
 #: khtml_part.cpp:4019
 #, fuzzy, kde-format
 #| msgid "Turkish"
-msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
+msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
 msgstr "土耳其文"
 
 #: khtml_part.cpp:4022
 #, fuzzy, kde-format
 #| msgid "&Use as Standard"
-msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
+msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
 msgstr "用為標準(&U)"
 
 #: khtml_part.cpp:4026
 #, fuzzy, kde-format
-msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
+msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
 msgstr "開始(&S)"
 
@@ -1591,15 +1591,23 @@ msgstr "JavaScript 錯誤"
 
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
 #: kjserrordlgbase.ui:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This dialog provides you with notification and details of scripting "
+#| "errors that occur on web pages.  In many cases it is due to an error in "
+#| "the web site as designed by its author.  In other cases it is the result "
+#| "of a programming error in Konqueror.  If you suspect the former, please "
+#| "contact the webmaster of the site in question.  Conversely if you suspect "
+#| "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
+#| "A test case which illustrates the problem will be appreciated."
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
 "site as designed by its author.  In other cases it is the result of a "
 "programming error in Konqueror.  If you suspect the former, please contact "
 "the webmaster of the site in question.  Conversely if you suspect an error "
-"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
-"which illustrates the problem will be appreciated."
+"in Konqueror, please file a bug report at https://bugs.kde.org/.  A test "
+"case which illustrates the problem will be appreciated."
 msgstr ""
 "這個對話框會告訴你網頁上 Javascript 錯誤的詳細資料。這些錯誤大部份是網頁作者"
 "所犯的。如果不是，那就是 Konqueror 的程式碼有問題了。前者可以透過聯絡網站管理"
@@ -1625,7 +1633,7 @@ msgstr "multipart/mixed 的可內嵌元件"
 msgid "Copyright 2001-2011, David Faure <faure@kde.org>"
 msgstr ""
 
-#: kmultipart/kmultipart.cpp:336
+#: kmultipart/kmultipart.cpp:335
 #, fuzzy, kde-format
 msgid "No handler found for %1."
 msgstr "找不到給 %1 用的處理器項目!"
