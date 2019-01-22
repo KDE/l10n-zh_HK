@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-12 03:06+0100\n"
+"POT-Creation-Date: 2019-01-22 03:11+0100\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1578,7 +1578,7 @@ msgstr "正在重新載入文件..."
 msgid "Moves to the end of the document"
 msgstr "移至文件次頁"
 
-#: part.cpp:702 part.cpp:2373 ui/bookmarklist.cpp:249 ui/bookmarklist.cpp:276
+#: part.cpp:702 part.cpp:2373 ui/bookmarklist.cpp:250 ui/bookmarklist.cpp:277
 #, kde-format
 msgid "Rename Bookmark"
 msgstr ""
@@ -1929,7 +1929,7 @@ msgstr ""
 msgid "Reloading the document..."
 msgstr "正在重新載入文件..."
 
-#: part.cpp:2177 part.cpp:3079 ui/bookmarklist.cpp:250
+#: part.cpp:2177 part.cpp:3079 ui/bookmarklist.cpp:251
 #, kde-format
 msgid "Remove Bookmark"
 msgstr ""
@@ -2878,25 +2878,31 @@ msgid_plural ""
 "%2 bookmarks"
 msgstr[0] ""
 
-#: ui/bookmarklist.cpp:155
+#: ui/bookmarklist.cpp:127 ui/searchwidget.cpp:40 ui/side_reviews.cpp:120
+#: ui/toc.cpp:38
+#, kde-format
+msgid "Search..."
+msgstr ""
+
+#: ui/bookmarklist.cpp:156
 #, fuzzy, kde-format
 #| msgid "Current mantainer"
 msgid "Current document only"
 msgstr "目前維護者"
 
-#: ui/bookmarklist.cpp:248
+#: ui/bookmarklist.cpp:249
 #, kde-format
 msgid "Go to This Bookmark"
 msgstr ""
 
-#: ui/bookmarklist.cpp:275
+#: ui/bookmarklist.cpp:276
 #, fuzzy, kde-format
 #| msgid "Current mantainer"
 msgctxt "Opens the selected document"
 msgid "Open Document"
 msgstr "目前維護者"
 
-#: ui/bookmarklist.cpp:277
+#: ui/bookmarklist.cpp:278
 #, kde-format
 msgid "Remove Bookmarks"
 msgstr ""
@@ -4170,32 +4176,32 @@ msgstr "無法開啟 %1"
 msgid "Could not view revision."
 msgstr ""
 
-#: ui/searchwidget.cpp:40
+#: ui/searchwidget.cpp:41
 #, kde-format
 msgid "Enter at least 3 letters to filter pages"
 msgstr "要輸入至少三個字母才能過濾頁面"
 
-#: ui/searchwidget.cpp:50
+#: ui/searchwidget.cpp:51
 #, kde-format
 msgid "Case Sensitive"
 msgstr "區分大小寫"
 
-#: ui/searchwidget.cpp:52
+#: ui/searchwidget.cpp:53
 #, kde-format
 msgid "Match Phrase"
 msgstr "配對片語"
 
-#: ui/searchwidget.cpp:53
+#: ui/searchwidget.cpp:54
 #, kde-format
 msgid "Match All Words"
 msgstr "配對所有字"
 
-#: ui/searchwidget.cpp:54
+#: ui/searchwidget.cpp:55
 #, kde-format
 msgid "Match Any Word"
 msgstr "配對任何字"
 
-#: ui/searchwidget.cpp:73
+#: ui/searchwidget.cpp:74
 #, kde-format
 msgid "Filter Options"
 msgstr "過濾器選項"
@@ -4207,19 +4213,19 @@ msgid ""
 "or select <i>Tools -&gt; Review</i> from the menu.</div>"
 msgstr ""
 
-#: ui/side_reviews.cpp:130
+#: ui/side_reviews.cpp:131
 #, fuzzy, kde-format
 #| msgid "Go to Page"
 msgid "Group by Page"
 msgstr "跳至頁"
 
-#: ui/side_reviews.cpp:135
+#: ui/side_reviews.cpp:136
 #, fuzzy, kde-format
 #| msgid "Go to Page"
 msgid "Group by Author"
 msgstr "跳至頁"
 
-#: ui/side_reviews.cpp:143
+#: ui/side_reviews.cpp:144
 #, fuzzy, kde-format
 #| msgid "Show bookmarked pages only"
 msgid "Show reviews for current page only"
