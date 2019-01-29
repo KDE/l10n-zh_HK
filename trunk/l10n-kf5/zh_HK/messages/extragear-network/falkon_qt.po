@@ -354,7 +354,7 @@ msgctxt "BrowserWindow|"
 msgid "There are still open tabs"
 msgstr "仍有開啟的分頁"
 
-#: lib/app/mainapplication.cpp:1058
+#: lib/app/mainapplication.cpp:1069
 #, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid ""
@@ -366,7 +366,7 @@ msgid ""
 "default browser?"
 msgstr "QupZilla並非你的預設瀏覽器。是否要QupZilla成為預設瀏覽器？"
 
-#: lib/app/mainapplication.cpp:1059
+#: lib/app/mainapplication.cpp:1070
 #, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid "Always perform this check when starting QupZilla."
@@ -374,27 +374,27 @@ msgctxt "MainApplication|"
 msgid "Always perform this check when starting Falkon."
 msgstr "每次啟動QupZilla均進行確認"
 
-#: lib/app/mainapplication.cpp:1061
+#: lib/app/mainapplication.cpp:1072
 msgctxt "MainApplication|"
 msgid "Default Browser"
 msgstr "預設瀏覽器"
 
-#: lib/app/mainapplication.cpp:1182
+#: lib/app/mainapplication.cpp:1193
 msgctxt "MainApplication|"
 msgid "Open new tab"
 msgstr ""
 
-#: lib/app/mainapplication.cpp:1183
+#: lib/app/mainapplication.cpp:1194
 msgctxt "MainApplication|"
 msgid "Open new window"
 msgstr ""
 
-#: lib/app/mainapplication.cpp:1184
+#: lib/app/mainapplication.cpp:1195
 msgctxt "MainApplication|"
 msgid "Open new private window"
 msgstr ""
 
-#: lib/app/mainapplication.cpp:1199
+#: lib/app/mainapplication.cpp:1210
 #, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid ""
@@ -3354,42 +3354,59 @@ msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
 
 #: lib/other/siteinfowidget.cpp:42
+#, qt-format
+msgctxt "SiteInfoWidget|"
+msgid "<b>Site %1<b/>"
+msgstr ""
+
+#: lib/other/siteinfowidget.cpp:45
 msgctxt "SiteInfoWidget|"
 msgid "Your connection to this site is <b>secured</b>."
 msgstr "與這個網站的連接<b>安全</b>。"
 
-#: lib/other/siteinfowidget.cpp:46
+#: lib/other/siteinfowidget.cpp:49
 msgctxt "SiteInfoWidget|"
 msgid "Your connection to this site is <b>unsecured</b>."
 msgstr "與這個網站的連接<b>不安全</b>。"
 
-#: lib/other/siteinfowidget.cpp:61 lib/other/siteinfowidget.cpp:80
+#: lib/other/siteinfowidget.cpp:64 lib/other/siteinfowidget.cpp:83
 #, qt-format
 msgctxt "SiteInfoWidget|"
 msgid "This is your <b>%1</b> visit of this site."
 msgstr "你<b>%1</b>次到訪這個網站。"
 
-#: lib/other/siteinfowidget.cpp:65
+#: lib/other/siteinfowidget.cpp:68
 msgctxt "SiteInfoWidget|"
 msgid "You have <b>never</b> visited this site before."
 msgstr "你未到訪過這個網站。"
 
-#: lib/other/siteinfowidget.cpp:72
+#: lib/other/siteinfowidget.cpp:75
 msgctxt "SiteInfoWidget|"
 msgid "first"
 msgstr "首"
 
-#: lib/other/siteinfowidget.cpp:75
+#: lib/other/siteinfowidget.cpp:78
 msgctxt "SiteInfoWidget|"
 msgid "second"
 msgstr "第二"
 
-#: lib/other/siteinfowidget.cpp:78
+#: lib/other/siteinfowidget.cpp:81
 msgctxt "SiteInfoWidget|"
 msgid "third"
 msgstr "第三"
 
-#: lib/other/siteinfowidget.ui:90
+#: lib/other/siteinfowidget.cpp:106
+#, qt-format
+msgctxt "SiteInfoWidget|"
+msgid "Register as <b>%1</b> links handler"
+msgstr ""
+
+#: lib/other/siteinfowidget.cpp:107
+msgctxt "SiteInfoWidget|"
+msgid "Register"
+msgstr ""
+
+#: lib/other/siteinfowidget.ui:71
 msgctxt "SiteInfoWidget|"
 msgid "More..."
 msgstr "更多…"
@@ -5521,7 +5538,7 @@ msgctxt "jsAlert|"
 msgid "Prevent this page from creating additional dialogs"
 msgstr "防止這個頁面建立更多話匣"
 
-#: lib/webengine/webpage.cpp:323
+#: lib/webengine/webpage.cpp:336
 #, fuzzy, qt-format
 #| msgctxt "WebPage|"
 #| msgid ""
@@ -5536,53 +5553,53 @@ msgstr ""
 "QupZilla無法處理<b>%1:</b>連結。是否要QupZilla使用系統程式嘗試開啟以下連結？"
 "<ul><li>%2</li></ul>"
 
-#: lib/webengine/webpage.cpp:328
+#: lib/webengine/webpage.cpp:341
 msgctxt "WebPage|"
 msgid "Remember my choice for this protocol"
 msgstr "記住我對這個協定的選擇"
 
-#: lib/webengine/webpage.cpp:329
+#: lib/webengine/webpage.cpp:342
 msgctxt "WebPage|"
 msgid "External Protocol Request"
 msgstr "外部協定請求"
 
-#: lib/webengine/webpage.cpp:409 lib/webengine/webpage.cpp:410
+#: lib/webengine/webpage.cpp:422 lib/webengine/webpage.cpp:423
 msgctxt "WebPage|"
 msgid "Failed loading page"
 msgstr "載入頁面失敗"
 
-#: lib/webengine/webpage.cpp:411
+#: lib/webengine/webpage.cpp:424
 msgctxt "WebPage|"
 msgid "Something went wrong while loading this page."
 msgstr "載入頁面時發生錯誤"
 
-#: lib/webengine/webpage.cpp:412
+#: lib/webengine/webpage.cpp:425
 msgctxt "WebPage|"
 msgid ""
 "Try reloading the page or closing some tabs to make more memory available."
 msgstr "重新載入頁面或關閉部份分頁以釋放更多記億體。"
 
-#: lib/webengine/webpage.cpp:413
+#: lib/webengine/webpage.cpp:426
 msgctxt "WebPage|"
 msgid "Reload page"
 msgstr "重新載入頁面"
 
-#: lib/webengine/webpage.cpp:471
+#: lib/webengine/webpage.cpp:484
 msgctxt "WebPage|"
 msgid "Choose file..."
 msgstr "選取檔案…"
 
-#: lib/webengine/webpage.cpp:475
+#: lib/webengine/webpage.cpp:488
 msgctxt "WebPage|"
 msgid "Choose files..."
 msgstr "選取檔案…"
 
-#: lib/webengine/webpage.cpp:595
+#: lib/webengine/webpage.cpp:624
 msgctxt "WebPage|"
 msgid "JavaScript alert"
 msgstr "JavaScript警告"
 
-#: lib/webengine/webpage.cpp:604
+#: lib/webengine/webpage.cpp:633
 msgctxt "WebPage|"
 msgid "Prevent this page from creating additional dialogs"
 msgstr "防止這個頁面建立更多話匣"
