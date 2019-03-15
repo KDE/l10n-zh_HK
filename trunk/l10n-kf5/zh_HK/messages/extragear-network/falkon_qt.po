@@ -928,12 +928,12 @@ msgctxt "BookmarksExporter|"
 msgid "Cannot open file for writing!"
 msgstr "無法開啟供寫入的檔案。"
 
-#: lib/bookmarks/bookmarksicon.cpp:37 lib/bookmarks/bookmarksicon.cpp:105
+#: lib/bookmarks/bookmarksicon.cpp:37 lib/bookmarks/bookmarksicon.cpp:108
 msgctxt "BookmarksIcon|"
 msgid "Bookmark this Page"
 msgstr "本頁加入到書籤"
 
-#: lib/bookmarks/bookmarksicon.cpp:97
+#: lib/bookmarks/bookmarksicon.cpp:100
 msgctxt "BookmarksIcon|"
 msgid "Edit this bookmark"
 msgstr "編輯這個書籤"
@@ -3187,6 +3187,32 @@ msgctxt "LicenseViewer|"
 msgid "License Viewer"
 msgstr "授權檢視器"
 
+#: lib/other/protocolhandlerdialog.ui:14
+msgctxt "ProtocolHandlerDialog|"
+msgid "Manage protocol handlers"
+msgstr ""
+
+#: lib/other/protocolhandlerdialog.ui:40
+msgctxt "ProtocolHandlerDialog|"
+msgid "Protocol"
+msgstr ""
+
+#: lib/other/protocolhandlerdialog.ui:45
+#, fuzzy
+#| msgctxt "UserAgentDialog|"
+#| msgid "Site"
+msgctxt "ProtocolHandlerDialog|"
+msgid "Site"
+msgstr "網站"
+
+#: lib/other/protocolhandlerdialog.ui:68
+#, fuzzy
+#| msgctxt "CookieManager|"
+#| msgid "Remove"
+msgctxt "ProtocolHandlerDialog|"
+msgid "Remove"
+msgstr "移除"
+
 #: lib/other/registerqappassociation.cpp:110
 msgctxt "RegisterQAppAssociation|"
 msgid "Warning!"
@@ -3746,82 +3772,82 @@ msgctxt "PluginsManager|"
 msgid "Cannot load extension!"
 msgstr "無法載入延伸套件。"
 
-#: lib/preferences/preferences.cpp:158 lib/preferences/preferences.cpp:597
+#: lib/preferences/preferences.cpp:159 lib/preferences/preferences.cpp:599
 msgctxt "Preferences|"
 msgid "Default"
 msgstr "預設"
 
-#: lib/preferences/preferences.cpp:162
+#: lib/preferences/preferences.cpp:163
 msgctxt "Preferences|"
 msgid "Set as default"
 msgstr "設定為預設"
 
-#: lib/preferences/preferences.cpp:540
+#: lib/preferences/preferences.cpp:542
 msgctxt "Preferences|"
 msgid "Choose executable location..."
 msgstr "選取執行程式位置…"
 
-#: lib/preferences/preferences.cpp:583
+#: lib/preferences/preferences.cpp:585
 msgctxt "Preferences|"
 msgid "OSD Notification"
 msgstr "畫面顯示通知"
 
-#: lib/preferences/preferences.cpp:584
+#: lib/preferences/preferences.cpp:586
 msgctxt "Preferences|"
 msgid "Drag it on the screen to place it where you want."
 msgstr "可拖放更改「畫面顯示通知」於螢幕上的位置。"
 
-#: lib/preferences/preferences.cpp:633
+#: lib/preferences/preferences.cpp:635
 msgctxt "Preferences|"
 msgid "Choose download location..."
 msgstr "選取下載位置…"
 
-#: lib/preferences/preferences.cpp:647
+#: lib/preferences/preferences.cpp:649
 msgctxt "Preferences|"
 msgid "Choose stylesheet location..."
 msgstr "選取樣式表位置…"
 
-#: lib/preferences/preferences.cpp:658
+#: lib/preferences/preferences.cpp:660
 msgctxt "Preferences|"
 msgid "Deleted"
 msgstr "已刪除"
 
-#: lib/preferences/preferences.cpp:748
+#: lib/preferences/preferences.cpp:756
 msgctxt "Preferences|"
 msgid "Choose cache path..."
 msgstr "選取網頁留駐路徑…"
 
-#: lib/preferences/preferences.cpp:779
+#: lib/preferences/preferences.cpp:787
 msgctxt "Preferences|"
 msgid "New Profile"
 msgstr "新設定檔"
 
-#: lib/preferences/preferences.cpp:779
+#: lib/preferences/preferences.cpp:787
 msgctxt "Preferences|"
 msgid "Enter the new profile's name:"
 msgstr "新設定檔名稱："
 
-#: lib/preferences/preferences.cpp:789 lib/preferences/preferences.cpp:794
+#: lib/preferences/preferences.cpp:797 lib/preferences/preferences.cpp:802
 msgctxt "Preferences|"
 msgid "Error!"
 msgstr "錯誤"
 
-#: lib/preferences/preferences.cpp:789
+#: lib/preferences/preferences.cpp:797
 msgctxt "Preferences|"
 msgid "This profile already exists!"
 msgstr "存在同名設定檔。"
 
-#: lib/preferences/preferences.cpp:794
+#: lib/preferences/preferences.cpp:802
 msgctxt "Preferences|"
 msgid "Cannot create profile directory!"
 msgstr "無法建立設定檔目錄。"
 
-#: lib/preferences/preferences.cpp:805
+#: lib/preferences/preferences.cpp:813
 msgctxt "Preferences|"
 msgid "Confirmation"
 msgstr "確認"
 
-#: lib/preferences/preferences.cpp:806
+#: lib/preferences/preferences.cpp:814
 #, qt-format
 msgctxt "Preferences|"
 msgid ""
@@ -3829,12 +3855,12 @@ msgid ""
 "cannot be undone!"
 msgstr "永遠刪除設定檔「%1」，確定？（動作無法逆轉）"
 
-#: lib/preferences/preferences.cpp:821 lib/preferences/preferences.ui:227
+#: lib/preferences/preferences.cpp:829 lib/preferences/preferences.ui:227
 msgctxt "Preferences|"
 msgid "Note: You cannot delete active profile."
 msgstr "注意：無法刪除使用中設定檔。"
 
-#: lib/preferences/preferences.cpp:1076
+#: lib/preferences/preferences.cpp:1084
 msgctxt "Preferences|"
 msgid "Select Color"
 msgstr "選取色彩"
@@ -4235,7 +4261,7 @@ msgstr "選取色彩"
 
 #: lib/preferences/preferences.ui:945 lib/preferences/preferences.ui:1244
 #: lib/preferences/preferences.ui:1778 lib/preferences/preferences.ui:1875
-#: lib/preferences/preferences.ui:2469
+#: lib/preferences/preferences.ui:2445
 msgctxt "Preferences|"
 msgid "..."
 msgstr "…"
@@ -4723,45 +4749,61 @@ msgctxt "Preferences|"
 msgid "No languages found"
 msgstr ""
 
-#: lib/preferences/preferences.ui:2445
+#: lib/preferences/preferences.ui:2452
 msgctxt "Preferences|"
 msgid "<b>Manage search engines</b>"
 msgstr "<b>管理搜尋器</b>"
 
-#: lib/preferences/preferences.ui:2452
+#: lib/preferences/preferences.ui:2459
 msgctxt "Preferences|"
 msgid "<b>User Style Sheet</b>"
 msgstr "<b>用戶樣式表</b>"
 
-#: lib/preferences/preferences.ui:2459
-msgctxt "Preferences|"
-msgid "Style Sheet automatically loaded with all websites: "
-msgstr "全部網站均載入的樣式表："
-
-#: lib/preferences/preferences.ui:2489
-msgctxt "Preferences|"
-msgid "<b>Preferred language for web sites</b>"
-msgstr "<b>首選的網站語言</b>"
-
-#: lib/preferences/preferences.ui:2509
-msgctxt "Preferences|"
-msgid "<b>Change browser identification</b>"
-msgstr "<b>更改瀏覽器識別名稱</b>"
-
-#: lib/preferences/preferences.ui:2534
-msgctxt "Preferences|"
-msgid "User Agent Manager"
-msgstr "用戶代理程式管理員"
-
-#: lib/preferences/preferences.ui:2574
+#: lib/preferences/preferences.ui:2484
 msgctxt "Preferences|"
 msgid "Languages"
 msgstr "語言"
 
-#: lib/preferences/preferences.ui:2614
+#: lib/preferences/preferences.ui:2506
+msgctxt "Preferences|"
+msgid "<b>Change browser identification</b>"
+msgstr "<b>更改瀏覽器識別名稱</b>"
+
+#: lib/preferences/preferences.ui:2531
+#, fuzzy
+#| msgctxt "Preferences|"
+#| msgid "Cookies Manager"
+msgctxt "Preferences|"
+msgid "Protocol Handlers Manager"
+msgstr "Cookie管理員"
+
+#: lib/preferences/preferences.ui:2571
 msgctxt "Preferences|"
 msgid "Search Engines Manager"
 msgstr "搜尋器管理員"
+
+#: lib/preferences/preferences.ui:2619
+msgctxt "Preferences|"
+msgid "Style Sheet automatically loaded with all websites: "
+msgstr "全部網站均載入的樣式表："
+
+#: lib/preferences/preferences.ui:2629
+msgctxt "Preferences|"
+msgid "<b>Preferred language for web sites</b>"
+msgstr "<b>首選的網站語言</b>"
+
+#: lib/preferences/preferences.ui:2654
+msgctxt "Preferences|"
+msgid "User Agent Manager"
+msgstr "用戶代理程式管理員"
+
+#: lib/preferences/preferences.ui:2676
+#, fuzzy
+#| msgctxt "Preferences|"
+#| msgid "<b>Manage search engines</b>"
+msgctxt "Preferences|"
+msgid "<b>Manage protocol handlers</b>"
+msgstr "<b>管理搜尋器</b>"
 
 #: lib/preferences/thememanager.ui:51
 msgctxt "ThemeManager|"
@@ -5811,22 +5853,43 @@ msgctxt "WebView|"
 msgid "S&top"
 msgstr "停止（&T）"
 
-#: lib/webtab/searchtoolbar.cpp:135
+#: lib/webtab/searchtoolbar.cpp:133
 msgctxt "SearchToolBar|"
 msgid "No results found."
 msgstr "無搜尋結果。"
 
-#: lib/webtab/searchtoolbar.ui:36
+#: lib/webtab/searchtoolbar.ui:48
+#, fuzzy
+#| msgctxt "PopupWindow|"
+#| msgid "Find"
 msgctxt "SearchToolbar|"
-msgid "Search: "
-msgstr "搜尋："
+msgid "Find..."
+msgstr "尋找"
 
-#: lib/webtab/searchtoolbar.ui:55
+#: lib/webtab/searchtoolbar.ui:58
 msgctxt "SearchToolbar|"
-msgid "Search..."
-msgstr "搜尋…"
+msgid "Find the next match for the current search phrase"
+msgstr ""
 
-#: lib/webtab/searchtoolbar.ui:88
+#: lib/webtab/searchtoolbar.ui:61
+#, fuzzy
+#| msgctxt "BookmarksImportDialog|"
+#| msgid "Next >"
+msgctxt "SearchToolbar|"
+msgid "&Next"
+msgstr "下一步>"
+
+#: lib/webtab/searchtoolbar.ui:74
+msgctxt "SearchToolbar|"
+msgid "Find the previous match for the current search phrase"
+msgstr ""
+
+#: lib/webtab/searchtoolbar.ui:77
+msgctxt "SearchToolbar|"
+msgid "&Previous"
+msgstr ""
+
+#: lib/webtab/searchtoolbar.ui:90
 msgctxt "SearchToolbar|"
 msgid "&Match Case"
 msgstr "符合大小楷（&M）"
@@ -5841,6 +5904,14 @@ msgstr "檢測元素"
 msgctxt "WebTab|"
 msgid "%1 - Falkon"
 msgstr ""
+
+#~ msgctxt "SearchToolbar|"
+#~ msgid "Search: "
+#~ msgstr "搜尋："
+
+#~ msgctxt "SearchToolbar|"
+#~ msgid "Search..."
+#~ msgstr "搜尋…"
 
 #, fuzzy
 #~| msgctxt "MainMenu|"
