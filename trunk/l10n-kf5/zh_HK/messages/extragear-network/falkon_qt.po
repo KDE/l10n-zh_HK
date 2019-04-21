@@ -1106,13 +1106,13 @@ msgid "Open in new private window"
 msgstr "新私密視窗中開啟"
 
 #: lib/bookmarks/bookmarksmanager.cpp:110
-#: lib/bookmarks/bookmarksmanager.cpp:171
+#: lib/bookmarks/bookmarksmanager.cpp:177
 msgctxt "BookmarksManager|"
 msgid "New Bookmark"
 msgstr "新書籤"
 
 #: lib/bookmarks/bookmarksmanager.cpp:111
-#: lib/bookmarks/bookmarksmanager.cpp:179
+#: lib/bookmarks/bookmarksmanager.cpp:185
 msgctxt "BookmarksManager|"
 msgid "New Folder"
 msgstr "新資料夾"
@@ -3781,18 +3781,24 @@ msgctxt "JsOptions|"
 msgid "Paste from clipboard"
 msgstr "存取剪貼簿"
 
-#: lib/preferences/pluginslist.ui:56
+#: lib/preferences/pluginslist.ui:44
 msgctxt "PluginsList|"
 msgid "Settings"
 msgstr "設定"
 
-#: lib/preferences/pluginslist.ui:79
+#: lib/preferences/pluginslist.ui:54
 #, fuzzy
 #| msgctxt "CookieManager|"
 #| msgid "Remove"
 msgctxt "PluginsList|"
 msgid "Remove"
 msgstr "移除"
+
+#: lib/preferences/pluginslist.ui:74
+msgctxt "PluginsList|"
+msgid ""
+"<a href=\"https://store.kde.org/browse/cat/571/\">Get more extensions...</a>"
+msgstr ""
 
 #: lib/preferences/pluginsmanager.cpp:197
 msgctxt "PluginsManager|"
@@ -3803,6 +3809,22 @@ msgstr "錯誤"
 msgctxt "PluginsManager|"
 msgid "Cannot load extension!"
 msgstr "無法載入延伸套件。"
+
+#: lib/preferences/pluginsmanager.cpp:236
+#, fuzzy
+#| msgctxt "CookieManager|"
+#| msgid "Confirmation"
+msgctxt "PluginsManager|"
+msgid "Confirmation"
+msgstr "確認"
+
+#: lib/preferences/pluginsmanager.cpp:237
+#, fuzzy, qt-format
+#| msgctxt "QupZillaSchemeReply|"
+#| msgid "Are you sure you want to remove this speed dial?"
+msgctxt "PluginsManager|"
+msgid "Are you sure you want to remove '%1'?"
+msgstr "移除這個快速連接，確定？"
 
 #: lib/preferences/preferences.cpp:159 lib/preferences/preferences.cpp:599
 msgctxt "Preferences|"
@@ -4837,6 +4859,22 @@ msgctxt "Preferences|"
 msgid "<b>Manage protocol handlers</b>"
 msgstr "<b>管理搜尋器</b>"
 
+#: lib/preferences/thememanager.cpp:99
+#, fuzzy
+#| msgctxt "CookieManager|"
+#| msgid "Confirmation"
+msgctxt "ThemeManager|"
+msgid "Confirmation"
+msgstr "確認"
+
+#: lib/preferences/thememanager.cpp:100
+#, fuzzy, qt-format
+#| msgctxt "QupZillaSchemeReply|"
+#| msgid "Are you sure you want to remove this speed dial?"
+msgctxt "ThemeManager|"
+msgid "Are you sure you want to remove '%1'?"
+msgstr "移除這個快速連接，確定？"
+
 #: lib/preferences/thememanager.ui:51
 msgctxt "ThemeManager|"
 msgid "<b>Name:</b>"
@@ -4856,6 +4894,20 @@ msgstr "<b>描述：</b>"
 msgctxt "ThemeManager|"
 msgid "License"
 msgstr "授權"
+
+#: lib/preferences/thememanager.ui:155
+#, fuzzy
+#| msgctxt "CookieManager|"
+#| msgid "Remove"
+msgctxt "ThemeManager|"
+msgid "Remove"
+msgstr "移除"
+
+#: lib/preferences/thememanager.ui:175
+msgctxt "ThemeManager|"
+msgid ""
+"<a href=\"https://store.kde.org/browse/cat/572/\">Get more themes...</a>"
+msgstr ""
 
 #: lib/preferences/useragentdialog.cpp:99
 msgctxt "UserAgentDialog|"
