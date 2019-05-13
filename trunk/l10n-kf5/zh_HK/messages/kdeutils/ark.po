@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-05 03:34+0200\n"
+"POT-Creation-Date: 2019-05-13 03:19+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -33,19 +33,19 @@ msgstr "wmtuen@gmail.com"
 msgid "&Archive"
 msgstr "開啟「壓縮檔」"
 
-#: app/batchextract.cpp:122 app/batchextract.cpp:176
+#: app/batchextract.cpp:122 app/batchextract.cpp:184
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting Files"
 msgstr "解開所有檔案"
 
-#: app/batchextract.cpp:123 app/batchextract.cpp:177
+#: app/batchextract.cpp:123 app/batchextract.cpp:185
 #, fuzzy, kde-format
 #| msgid "Save Archive?"
 msgid "Source archive"
 msgstr "儲存壓縮檔？"
 
-#: app/batchextract.cpp:124 app/batchextract.cpp:178
+#: app/batchextract.cpp:124 app/batchextract.cpp:186
 #, fuzzy, kde-format
 #| msgid "Destination folder: "
 msgid "Destination"
@@ -61,10 +61,39 @@ msgstr ""
 "下列的檔案將不會被解開\n"
 "因為檔案已經存在："
 
-#: app/batchextract.cpp:155
-#, kde-format
-msgid "There was an error during extraction."
-msgstr ""
+#: app/batchextract.cpp:156
+#, fuzzy, kde-kuit-format
+#| msgid "Last folders used for extraction"
+msgctxt "@info"
+msgid ""
+"There was an error while extracting <filename>%1</filename>. Any further "
+"archive will not be extracted."
+msgstr "上次用作解壓縮的資料夾"
+
+#: app/batchextract.cpp:157
+#, fuzzy, kde-kuit-format
+#| msgid "Last folders used for extraction"
+msgctxt "@info"
+msgid ""
+"There was an error while extracting <filename>%1</filename>:<nl/><message>"
+"%2</message><nl/>Any further archive will not be extracted."
+msgstr "上次用作解壓縮的資料夾"
+
+#: app/batchextract.cpp:161
+#, fuzzy, kde-kuit-format
+#| msgid "Last folders used for extraction"
+msgctxt "@info"
+msgid "There was an error while extracting <filename>%1</filename>."
+msgstr "上次用作解壓縮的資料夾"
+
+#: app/batchextract.cpp:162
+#, fuzzy, kde-kuit-format
+#| msgid "Last folders used for extraction"
+msgctxt "@info"
+msgid ""
+"There was an error while extracting <filename>%1</filename>:<nl/><message>"
+"%2</message>"
+msgstr "上次用作解壓縮的資料夾"
 
 #: app/compressfileitemaction.cpp:67
 #, kde-format
