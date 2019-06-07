@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-03 03:10+0200\n"
+"POT-Creation-Date: 2019-06-07 03:10+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -444,19 +444,19 @@ msgid "100%"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:436 part.cpp:3101 ui/pageview.cpp:4070
+#: conf/dlggeneralbase.ui:436 part.cpp:3101 ui/pageview.cpp:4064
 #, kde-format
 msgid "Fit Width"
 msgstr "符合闊度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:441 ui/pageview.cpp:4070
+#: conf/dlggeneralbase.ui:441 ui/pageview.cpp:4064
 #, kde-format
 msgid "Fit Page"
 msgstr "符合頁面"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: conf/dlggeneralbase.ui:446 ui/pageview.cpp:4070
+#: conf/dlggeneralbase.ui:446 ui/pageview.cpp:4064
 #, kde-format
 msgid "Auto Fit"
 msgstr ""
@@ -3637,270 +3637,232 @@ msgid "&Continuous"
 msgstr "連續(&C)"
 
 #: ui/pageview.cpp:594
-#, kde-format
-msgid "&Browse Tool"
-msgstr "瀏覽工具(&B)"
-
-#: ui/pageview.cpp:597
 #, fuzzy, kde-format
 #| msgid "&Browse Tool"
-msgctxt "Browse Tool"
-msgid "Browse"
+msgid "&Browse"
 msgstr "瀏覽工具(&B)"
 
-#: ui/pageview.cpp:603
-#, kde-format
-msgid "&Zoom Tool"
+#: ui/pageview.cpp:602
+#, fuzzy, kde-format
+#| msgid "&Zoom Tool"
+msgid "&Zoom"
 msgstr "縮放工具(&Z)"
 
-#: ui/pageview.cpp:606
-#, kde-format
-msgctxt "Zoom Tool"
-msgid "Zoom"
-msgstr ""
-
-#: ui/pageview.cpp:612
+#: ui/pageview.cpp:610
 #, kde-format
 msgid "&Toggle Change Colors"
 msgstr ""
 
-#: ui/pageview.cpp:626
+#: ui/pageview.cpp:624
 #, fuzzy, kde-format
 #| msgid "&Select Tool"
-msgid "&Selection Tool"
+msgid "Area &Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:629
+#: ui/pageview.cpp:633
 #, fuzzy, kde-format
 #| msgid "&Select Tool"
-msgctxt "Select Tool"
-msgid "Selection"
+msgid "&Text Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:636
+#: ui/pageview.cpp:641
 #, fuzzy, kde-format
 #| msgid "&Select Tool"
-msgid "&Text Selection Tool"
+msgid "T&able Selection"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:639
-#, fuzzy, kde-format
-#| msgid "&Select Tool"
-msgctxt "Text Selection Tool"
-msgid "Text Selection"
-msgstr "選取工具(&S)"
-
-#: ui/pageview.cpp:645
-#, fuzzy, kde-format
-#| msgid "&Select Tool"
-msgid "T&able Selection Tool"
-msgstr "選取工具(&S)"
-
-#: ui/pageview.cpp:648
-#, fuzzy, kde-format
-#| msgid "&Select Tool"
-msgctxt "Table Selection Tool"
-msgid "Table Selection"
-msgstr "選取工具(&S)"
-
-#: ui/pageview.cpp:654
+#: ui/pageview.cpp:649
 #, kde-format
 msgid "&Magnifier"
 msgstr ""
 
 #: ui/pageview.cpp:657
 #, kde-format
-msgctxt "Magnifier Tool"
-msgid "Magnifier"
-msgstr ""
-
-#: ui/pageview.cpp:663
-#, kde-format
 msgid "&Review"
 msgstr ""
 
-#: ui/pageview.cpp:677
+#: ui/pageview.cpp:671
 #, fuzzy, kde-format
 #| msgid "Current mantainer"
 msgid "Speak Whole Document"
 msgstr "目前維護者"
 
-#: ui/pageview.cpp:682
+#: ui/pageview.cpp:676
 #, kde-format
 msgid "Speak Current Page"
 msgstr ""
 
-#: ui/pageview.cpp:687
+#: ui/pageview.cpp:681
 #, kde-format
 msgid "Stop Speaking"
 msgstr ""
 
-#: ui/pageview.cpp:698
+#: ui/pageview.cpp:692
 #, kde-format
 msgid "Scroll Up"
 msgstr "向上捲"
 
-#: ui/pageview.cpp:704
+#: ui/pageview.cpp:698
 #, kde-format
 msgid "Scroll Down"
 msgstr "向下捲"
 
-#: ui/pageview.cpp:710
+#: ui/pageview.cpp:704
 #, fuzzy, kde-format
 #| msgid "Scroll Up"
 msgid "Scroll Page Up"
 msgstr "向上捲"
 
-#: ui/pageview.cpp:716
+#: ui/pageview.cpp:710
 #, fuzzy, kde-format
 #| msgid "Scroll Down"
 msgid "Scroll Page Down"
 msgstr "向下捲"
 
-#: ui/pageview.cpp:1139
+#: ui/pageview.cpp:1133
 #, kde-format
 msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
 msgstr[0] "已載入一份 %1 頁的文件。"
 
-#: ui/pageview.cpp:2788
+#: ui/pageview.cpp:2782
 #, kde-format
 msgid "Text (1 character)"
 msgid_plural "Text (%1 characters)"
 msgstr[0] "文字（%1 個字元）"
 
-#: ui/pageview.cpp:2789 ui/pageview.cpp:2807
+#: ui/pageview.cpp:2783 ui/pageview.cpp:2801
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
-#: ui/pageview.cpp:2795 ui/pageview.cpp:2954 ui/pageview.cpp:3082
+#: ui/pageview.cpp:2789 ui/pageview.cpp:2948 ui/pageview.cpp:3076
 #, kde-format
 msgid "Copy forbidden by DRM"
 msgstr ""
 
-#: ui/pageview.cpp:2799 ui/pageview.cpp:3077
+#: ui/pageview.cpp:2793 ui/pageview.cpp:3071
 #, kde-format
 msgid "Speak Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:2806
+#: ui/pageview.cpp:2800
 #, kde-format
 msgid "Image (%1 by %2 pixels)"
 msgstr "圖像 (%1 X %2 像素)"
 
-#: ui/pageview.cpp:2808
+#: ui/pageview.cpp:2802
 #, kde-format
 msgid "Save to File..."
 msgstr "儲存至檔案..."
 
-#: ui/pageview.cpp:2830
+#: ui/pageview.cpp:2824
 #, kde-format
 msgid "Image [%1x%2] copied to clipboard."
 msgstr "圖像 [%1x%2] 已複製至剪貼簿。"
 
-#: ui/pageview.cpp:2835
+#: ui/pageview.cpp:2829
 #, fuzzy, kde-format
 #| msgid "Save to File..."
 msgid "Save file"
 msgstr "儲存至檔案..."
 
-#: ui/pageview.cpp:2835
+#: ui/pageview.cpp:2829
 #, kde-format
 msgid "Images (*.png *.jpeg)"
 msgstr ""
 
-#: ui/pageview.cpp:2837
+#: ui/pageview.cpp:2831
 #, kde-format
 msgid "File not saved."
 msgstr "檔案未儲存。"
 
-#: ui/pageview.cpp:2848
+#: ui/pageview.cpp:2842
 #, kde-format
 msgid "Image [%1x%2] saved to %3 file."
 msgstr "圖像 [%1x%2] 已儲存至 %3 檔案。"
 
-#: ui/pageview.cpp:3073
+#: ui/pageview.cpp:3067
 #, fuzzy, kde-format
 #| msgid "Speak Text"
 msgid "Copy Text"
 msgstr "讀出文字"
 
-#: ui/pageview.cpp:3096
+#: ui/pageview.cpp:3090
 #, fuzzy, kde-format
 #| msgid "Go to Page"
 msgid "Go to '%1'"
 msgstr "跳至頁"
 
-#: ui/pageview.cpp:4318
+#: ui/pageview.cpp:4312
 #, kde-format
 msgid "Hide Forms"
 msgstr ""
 
-#: ui/pageview.cpp:4322
+#: ui/pageview.cpp:4316
 #, fuzzy, kde-format
 #| msgid "Show scroll&bars"
 msgid "Show Forms"
 msgstr "顯示捲軸(&B)"
 
-#: ui/pageview.cpp:4377
+#: ui/pageview.cpp:4371
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: ui/pageview.cpp:4392
+#: ui/pageview.cpp:4386
 #, fuzzy, kde-format
 #| msgid "Configure KPDF..."
 msgid "Configure Web Shortcuts..."
 msgstr "設定 KPDF..."
 
-#: ui/pageview.cpp:4413
+#: ui/pageview.cpp:4407
 #, kde-format
 msgid "Follow This Link"
 msgstr ""
 
-#: ui/pageview.cpp:4416
+#: ui/pageview.cpp:4410
 #, kde-format
 msgid "Play this Sound"
 msgstr ""
 
-#: ui/pageview.cpp:4418
+#: ui/pageview.cpp:4412
 #, kde-format
 msgid "Stop Sound"
 msgstr ""
 
-#: ui/pageview.cpp:4428
+#: ui/pageview.cpp:4422
 #, kde-format
 msgid "Copy Link Address"
 msgstr ""
 
-#: ui/pageview.cpp:4933
+#: ui/pageview.cpp:4927
 #, kde-format
 msgid "Welcome"
 msgstr "歡迎"
 
-#: ui/pageview.cpp:5040
+#: ui/pageview.cpp:5034
 #, kde-format
 msgid "Select zooming area. Right-click to zoom out."
 msgstr "選取縮放區域。右擊放大。"
 
-#: ui/pageview.cpp:5056
+#: ui/pageview.cpp:5050
 #, kde-format
 msgid "Click to see the magnified view."
 msgstr ""
 
-#: ui/pageview.cpp:5068
+#: ui/pageview.cpp:5062
 #, kde-format
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:5085
+#: ui/pageview.cpp:5079
 #, fuzzy, kde-format
 #| msgid "&Select Tool"
 msgid "Select text"
 msgstr "選取工具(&S)"
 
-#: ui/pageview.cpp:5103
+#: ui/pageview.cpp:5097
 #, fuzzy, kde-format
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid ""
@@ -3908,17 +3870,17 @@ msgid ""
 "Esc to clear."
 msgstr "在要複製的文字/圖形四周畫一四方形。"
 
-#: ui/pageview.cpp:5140
+#: ui/pageview.cpp:5134
 #, kde-format
 msgid "Annotations author"
 msgstr ""
 
-#: ui/pageview.cpp:5141
+#: ui/pageview.cpp:5135
 #, kde-format
 msgid "Please insert your name or initials:"
 msgstr ""
 
-#: ui/pageview.cpp:5312
+#: ui/pageview.cpp:5306
 #, fuzzy, kde-format
 #| msgid "Draw a rectangle around the text/graphics to copy."
 msgid "Draw a rectangle around the page area you wish to keep visible"
@@ -4707,7 +4669,7 @@ msgstr "選取工具(&S)"
 #, kde-format
 msgid ""
 "Click to use the current selection tool\n"
-"Click and hold to choose another selection tool"
+"Click on the arrow to choose another selection tool"
 msgstr ""
 
 #: ui/videowidget.cpp:142
@@ -4727,6 +4689,30 @@ msgstr "頁："
 msgctxt "stop the movie playback"
 msgid "Stop"
 msgstr ""
+
+#~ msgid "&Browse Tool"
+#~ msgstr "瀏覽工具(&B)"
+
+#, fuzzy
+#~| msgid "&Select Tool"
+#~ msgid "&Selection Tool"
+#~ msgstr "選取工具(&S)"
+
+#, fuzzy
+#~| msgid "&Select Tool"
+#~ msgctxt "Select Tool"
+#~ msgid "Selection"
+#~ msgstr "選取工具(&S)"
+
+#, fuzzy
+#~| msgid "&Select Tool"
+#~ msgid "&Text Selection Tool"
+#~ msgstr "選取工具(&S)"
+
+#, fuzzy
+#~| msgid "&Select Tool"
+#~ msgid "T&able Selection Tool"
+#~ msgstr "選取工具(&S)"
 
 #, fuzzy
 #~| msgid "Reloading the document..."
