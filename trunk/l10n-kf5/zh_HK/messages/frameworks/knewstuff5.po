@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-22 02:54+0200\n"
+"POT-Creation-Date: 2019-08-15 02:38+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -163,8 +163,8 @@ msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "預覽列印(&W)..."
 
-#: core/engine.cpp:664 ui/itemsgridviewdelegate.cpp:343
-#: ui/itemsviewdelegate.cpp:134
+#: core/engine.cpp:664 ui/itemsgridviewdelegate.cpp:342
+#: ui/itemsviewdelegate.cpp:133
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installing"
@@ -221,7 +221,7 @@ msgstr "取代已有項目"
 msgid "Download File"
 msgstr "下載"
 
-#: core/security.cpp:84
+#: core/security.cpp:83
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
@@ -231,7 +231,7 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來取得可用的密鑰。請確定<i>gpg</i>已安裝，否則將無法對"
 "下載的資源進行檢驗。</qt>"
 
-#: core/security.cpp:208
+#: core/security.cpp:207
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br><i>%2&lt;%3&gt;"
@@ -243,7 +243,7 @@ msgstr ""
 "<qt>請輸入密鑰<b>0x%1</b>的密碼短語。這個密鑰是屬於<br><i>%2&lt;%3&gt;</i>"
 "的：</qt>"
 
-#: core/security.cpp:286
+#: core/security.cpp:285
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
@@ -253,17 +253,17 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來檢驗檔案。請確定<i>gpg</i>已安裝，否則將無法對下載的"
 "資源進行檢驗。</qt>"
 
-#: core/security.cpp:341
+#: core/security.cpp:340
 #, kde-format
 msgid "Key used for signing:"
 msgstr "用作簽署的密鑰："
 
-#: core/security.cpp:342
+#: core/security.cpp:341
 #, kde-format
 msgid "Select Signing Key"
 msgstr "選擇用作簽署的密鑰"
 
-#: core/security.cpp:377
+#: core/security.cpp:376
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
@@ -272,77 +272,77 @@ msgstr ""
 "<qt>無法開啟<i>gpg</i>來簽署檔案。請確定<i>gpg</i>已安裝，否則將無法對資源進"
 "行簽署。</qt>"
 
-#: downloaddialog.cpp:83 downloadwidget.cpp:223
+#: downloaddialog.cpp:79 downloadwidget.cpp:222
 #, fuzzy, kde-format
 #| msgid "Get Hot New Stuff"
 msgid "Get Hot New Stuff"
 msgstr "取得熱門禮物"
 
-#: downloaddialog.cpp:101
+#: downloaddialog.cpp:97
 #, kde-format
 msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
 msgstr ""
 
-#: downloadwidget.cpp:132
+#: downloadwidget.cpp:131
 #, kde-format
 msgid "Timeout. Check Internet connection."
 msgstr ""
 
-#: downloadwidget.cpp:195
+#: downloadwidget.cpp:194
 #, fuzzy, kde-format
 #| msgid "<Merge %1>"
 msgid "Server: %1"
 msgstr "<合併 %1>"
 
-#: downloadwidget.cpp:196
+#: downloadwidget.cpp:195
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "<br />Provider: %1"
 msgstr "隱藏 %1"
 
-#: downloadwidget.cpp:197
+#: downloadwidget.cpp:196
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgid "<br />Version: %1"
 msgstr "版本："
 
-#: downloadwidget.cpp:201
+#: downloadwidget.cpp:200
 #, fuzzy, kde-format
 #| msgid "Show version information"
 msgid "Provider information"
 msgstr "顯示版本資訊"
 
-#: downloadwidget.cpp:212
+#: downloadwidget.cpp:211
 #, fuzzy, kde-format
 msgid "Could not install %1"
 msgstr "找不到服務程式‘%1’。"
 
-#: downloadwidget.cpp:213
+#: downloadwidget.cpp:212
 #, fuzzy, kde-format
 #| msgid "Get Hot New Stuff"
 msgid "Get Hot New Stuff!"
 msgstr "取得熱門禮物"
 
-#: downloadwidget.cpp:268
+#: downloadwidget.cpp:267
 #, fuzzy, kde-format
 #| msgid "Icon Size"
 msgid "Icons view mode"
 msgstr "圖示大小"
 
-#: downloadwidget.cpp:270
+#: downloadwidget.cpp:269
 #, fuzzy, kde-format
 #| msgid "Details"
 msgid "Details view mode"
 msgstr "詳細資料"
 
-#: downloadwidget.cpp:285
+#: downloadwidget.cpp:284
 #, fuzzy, kde-format
 #| msgid "Hot New Stuff Providers"
 msgid "All Providers"
 msgstr "熱門禮物的供應者"
 
-#: downloadwidget.cpp:292
+#: downloadwidget.cpp:291
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "All Categories"
@@ -426,15 +426,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
-#: downloadwidget.ui:566 ui/itemsgridviewdelegate.cpp:338
-#: ui/itemsviewdelegate.cpp:129 uploaddialog.ui:171
+#: downloadwidget.ui:566 ui/itemsgridviewdelegate.cpp:337
+#: ui/itemsviewdelegate.cpp:128 uploaddialog.ui:171
 #, kde-format
 msgid "Update"
 msgstr "更新"
 
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
-#: downloadwidget.ui:576 ui/itemsgridviewdelegate.cpp:334
-#: ui/itemsviewdelegate.cpp:125
+#: downloadwidget.ui:576 ui/itemsgridviewdelegate.cpp:333
+#: ui/itemsviewdelegate.cpp:124
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Uninstall"
@@ -448,28 +448,28 @@ msgid "Become a Fan"
 msgstr "家用傳真"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: downloadwidget.ui:590 ui/itemsgridviewdelegate.cpp:353
-#: ui/itemsgridviewdelegate.cpp:363 ui/itemsviewdelegate.cpp:144
-#: ui/itemsviewdelegate.cpp:154
+#: downloadwidget.ui:590 ui/itemsgridviewdelegate.cpp:352
+#: ui/itemsgridviewdelegate.cpp:362 ui/itemsviewdelegate.cpp:143
+#: ui/itemsviewdelegate.cpp:153
 #, kde-format
 msgid "Install"
 msgstr "安裝"
 
-#: kmoretools/kmoretools.cpp:571
+#: kmoretools/kmoretools.cpp:570
 #, fuzzy, kde-format
 #| msgid "Install"
 msgctxt "@action:inmenu"
 msgid "Not installed:"
 msgstr "安裝"
 
-#: kmoretools/kmoretools.cpp:671
+#: kmoretools/kmoretools.cpp:670
 #, fuzzy, kde-format
 #| msgid "More..."
 msgctxt "@action:inmenu"
 msgid "More"
 msgstr "更多..."
 
-#: kmoretools/kmoretools.cpp:709
+#: kmoretools/kmoretools.cpp:708
 #, fuzzy, kde-format
 #| msgid "Confi&gure..."
 msgctxt "@action:inmenu"
@@ -497,31 +497,31 @@ msgctxt "@action:inmenu"
 msgid "No further information available."
 msgstr "沒有描述"
 
-#: kmoretools/kmoretoolsconfigdialog_p.cpp:187
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:186
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure menu"
 msgstr "設定"
 
-#: kmoretools/kmoretoolsconfigdialog_p.cpp:189
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:188
 #, fuzzy, kde-format
 #| msgid "&Configure %1..."
 msgid "Configure menu - %1"
 msgstr "設定 %1(&C)..."
 
-#: kmoretools/kmoretoolsmenufactory.cpp:186
+#: kmoretools/kmoretoolsmenufactory.cpp:185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "$GenericName - current folder"
 msgstr ""
 
-#: kmoretools/kmoretoolsmenufactory.cpp:194
+#: kmoretools/kmoretoolsmenufactory.cpp:193
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "$GenericName - current device"
 msgstr ""
 
-#: kmoretools/kmoretoolsmenufactory.cpp:209
+#: kmoretools/kmoretoolsmenufactory.cpp:208
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "$GenericName - all devices"
@@ -649,174 +649,174 @@ msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
 msgstr "在新視窗開啟(&W)"
 
-#: ui/itemsgridviewdelegate.cpp:102 ui/itemsviewdelegate.cpp:282
+#: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:281
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating: %1%"
 msgstr "評分"
 
-#: ui/itemsgridviewdelegate.cpp:139
+#: ui/itemsgridviewdelegate.cpp:138
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgctxt "Show the size of the file in a list"
 msgid "<br />Size: %1"
 msgstr "隱藏 %1"
 
-#: ui/itemsgridviewdelegate.cpp:160 ui/itemsgridviewdelegate.cpp:162
-#: ui/itemsgridviewdelegate.cpp:164 ui/itemsviewdelegate.cpp:242
-#: ui/itemsviewdelegate.cpp:244 ui/itemsviewdelegate.cpp:246
+#: ui/itemsgridviewdelegate.cpp:159 ui/itemsgridviewdelegate.cpp:161
+#: ui/itemsgridviewdelegate.cpp:163 ui/itemsviewdelegate.cpp:241
+#: ui/itemsviewdelegate.cpp:243 ui/itemsviewdelegate.cpp:245
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<b>錯誤</b>：%1：%2<br>"
 
-#: ui/itemsgridviewdelegate.cpp:187 ui/itemsviewdelegate.cpp:260
+#: ui/itemsgridviewdelegate.cpp:186 ui/itemsviewdelegate.cpp:259
 #, kde-format
 msgctxt "fan as in supporter"
 msgid "1 fan"
 msgid_plural "%1 fans"
 msgstr[0] ""
 
-#: ui/itemsgridviewdelegate.cpp:190 ui/itemsviewdelegate.cpp:263
+#: ui/itemsgridviewdelegate.cpp:189 ui/itemsviewdelegate.cpp:262
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "1 download"
 msgid_plural "%1 downloads"
 msgstr[0] "下載"
 
-#: ui/itemsgridviewdelegate.cpp:256 ui/itemsviewdelegate.cpp:336
+#: ui/itemsgridviewdelegate.cpp:255 ui/itemsviewdelegate.cpp:335
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgid "Loading Preview"
 msgstr "預覽列印(&W)..."
 
-#: ui/itemsgridviewdelegate.cpp:283 ui/itemsviewdelegate.cpp:187
+#: ui/itemsgridviewdelegate.cpp:282 ui/itemsviewdelegate.cpp:186
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: ui/itemsgridviewdelegate.cpp:348 ui/itemsviewdelegate.cpp:139
+#: ui/itemsgridviewdelegate.cpp:347 ui/itemsviewdelegate.cpp:138
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Updating"
 msgstr "更新"
 
-#: ui/itemsgridviewdelegate.cpp:358 ui/itemsviewdelegate.cpp:149
+#: ui/itemsgridviewdelegate.cpp:357 ui/itemsviewdelegate.cpp:148
 #, fuzzy, kde-format
 #| msgid "Installation"
 msgid "Install Again"
 msgstr "安裝"
 
-#: ui/itemsviewdelegate.cpp:175
+#: ui/itemsviewdelegate.cpp:174
 #, fuzzy, kde-format
 #| msgid "Unshade"
 msgid "Use"
 msgstr "展開"
 
-#: ui/itemsviewdelegate.cpp:231
+#: ui/itemsviewdelegate.cpp:230
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "Show the size of the file in a list"
 msgid "<p>Size: %1</p>"
 msgstr "下載"
 
-#: uploaddialog.cpp:66
+#: uploaddialog.cpp:63
 #, fuzzy, kde-format
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "Next"
 
-#: uploaddialog.cpp:71
+#: uploaddialog.cpp:68
 #, fuzzy, kde-format
 msgid "Finish"
 msgstr "完成(&F)"
 
-#: uploaddialog.cpp:183
+#: uploaddialog.cpp:180
 #, fuzzy, kde-format
 #| msgid "Show version information"
 msgid "Fetching provider information..."
 msgstr "顯示版本資訊"
 
-#: uploaddialog.cpp:190
+#: uploaddialog.cpp:187
 #, kde-format
 msgid "Fetching license data from server..."
 msgstr ""
 
-#: uploaddialog.cpp:197
+#: uploaddialog.cpp:194
 #, kde-format
 msgid "Fetching content data from server..."
 msgstr ""
 
-#: uploaddialog.cpp:272
+#: uploaddialog.cpp:269
 #, fuzzy, kde-format
 #| msgid "Show version information"
 msgid "Could not fetch provider information."
 msgstr "顯示版本資訊"
 
-#: uploaddialog.cpp:296
+#: uploaddialog.cpp:293
 #, kde-format
 msgid "Register a new account"
 msgstr ""
 
-#: uploaddialog.cpp:320
+#: uploaddialog.cpp:317
 #, fuzzy, kde-format
 #| msgid "Check Spelling..."
 msgid "Checking login..."
 msgstr "拼字檢查..."
 
-#: uploaddialog.cpp:342
+#: uploaddialog.cpp:339
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgid "Fetching your previously updated content..."
 msgstr "預覽列印(&W)..."
 
-#: uploaddialog.cpp:345
+#: uploaddialog.cpp:342
 #, fuzzy, kde-format
 #| msgid "Save Login Information"
 msgid "Could not verify login, please try again."
 msgstr "儲存登入資訊"
 
-#: uploaddialog.cpp:364
+#: uploaddialog.cpp:361
 #, kde-format
 msgid "Fetching your previously updated content finished."
 msgstr ""
 
-#: uploaddialog.cpp:382
+#: uploaddialog.cpp:379
 #, kde-format
 msgid "Fetching content data from server finished."
 msgstr ""
 
-#: uploaddialog.cpp:405 uploaddialog.cpp:845
+#: uploaddialog.cpp:402 uploaddialog.cpp:842
 #, kde-format
 msgctxt "A link to the website where the get hot new stuff upload can be seen"
 msgid "Visit website"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
-#: uploaddialog.cpp:451 uploaddialog.ui:14
+#: uploaddialog.cpp:448 uploaddialog.ui:14
 #, kde-format
 msgid "Share Hot New Stuff"
 msgstr "分享熱門禮物"
 
-#: uploaddialog.cpp:474
+#: uploaddialog.cpp:471
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr ""
 
-#: uploaddialog.cpp:494 uploaddialog.cpp:770
+#: uploaddialog.cpp:491 uploaddialog.cpp:767
 #, fuzzy, kde-format
 msgid "File not found: %1"
 msgstr "沒有找到 %1 風格\n"
 
-#: uploaddialog.cpp:494 uploaddialog.cpp:621 uploaddialog.cpp:770
+#: uploaddialog.cpp:491 uploaddialog.cpp:618 uploaddialog.cpp:767
 #, fuzzy, kde-format
 #| msgid "Upload Files"
 msgid "Upload Failed"
 msgstr "上傳檔案"
 
-#: uploaddialog.cpp:574
+#: uploaddialog.cpp:571
 #, kde-format
 msgid ""
 "The server does not recognize the category %2 to which you are trying to "
@@ -826,40 +826,40 @@ msgid_plural ""
 "to upload: %2"
 msgstr[0] ""
 
-#: uploaddialog.cpp:577
+#: uploaddialog.cpp:574
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: uploaddialog.cpp:621
+#: uploaddialog.cpp:618
 #, kde-format
 msgid "The selected category \"%1\" is invalid."
 msgstr ""
 
-#: uploaddialog.cpp:670 uploaddialog.cpp:685 uploaddialog.cpp:699
+#: uploaddialog.cpp:667 uploaddialog.cpp:682 uploaddialog.cpp:696
 #, fuzzy, kde-format
 #| msgid "Select Region of Image"
 msgid "Select preview image"
 msgstr "選擇圖片的一份區域"
 
-#: uploaddialog.cpp:714
+#: uploaddialog.cpp:711
 #, kde-format
 msgid "There was a network error."
 msgstr ""
 
-#: uploaddialog.cpp:714 uploaddialog.cpp:719
+#: uploaddialog.cpp:711 uploaddialog.cpp:716
 #, fuzzy, kde-format
 #| msgid "Upload Files"
 msgid "Uploading Failed"
 msgstr "上傳檔案"
 
-#: uploaddialog.cpp:719
+#: uploaddialog.cpp:716
 #, fuzzy, kde-format
 #| msgid "Authentication"
 msgid "Authentication error."
 msgstr "驗證"
 
-#: uploaddialog.cpp:729
+#: uploaddialog.cpp:726
 #, fuzzy, kde-format
 #| msgid "Upload Files"
 msgid "Upload failed: %1"
