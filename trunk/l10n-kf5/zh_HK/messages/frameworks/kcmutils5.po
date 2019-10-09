@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-20 02:46+0200\n"
+"POT-Creation-Date: 2019-10-09 02:43+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -78,12 +78,18 @@ msgid ""
 "or the module has been disabled by the administrator.</p></qt>"
 msgstr ""
 
-#: kcmoduleloader.cpp:139
+#: kcmoduleloader.cpp:106
+#, fuzzy, kde-format
+#| msgid "Error opening file."
+msgid "Error loading QML file."
+msgstr "開啟檔案時發生錯誤。"
+
+#: kcmoduleloader.cpp:143
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "模組 %1 不是一個有效的設定模組。"
 
-#: kcmoduleloader.cpp:140
+#: kcmoduleloader.cpp:144
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>The desktop file %1 does not specify a "
@@ -93,7 +99,7 @@ msgid ""
 "qt>"
 msgstr "<qt><p>診斷結果：<br>桌面設定檔 %1 未指定一個程式庫。</qt>"
 
-#: kcmoduleloader.cpp:155
+#: kcmoduleloader.cpp:159
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
@@ -12160,9 +12166,6 @@ msgstr "可內嵌的 HTML 元件"
 
 #~ msgid "Already open."
 #~ msgstr "已開啟。"
-
-#~ msgid "Error opening file."
-#~ msgstr "開啟檔案時發生錯誤。"
 
 #~ msgid "Not a wallet file."
 #~ msgstr "不是一個保險箱檔案。"
