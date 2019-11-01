@@ -1327,71 +1327,82 @@ msgstr "刪除電腦上全部Cookie，確定？"
 #: lib/cookies/cookiemanager.cpp:153 lib/cookies/cookiemanager.cpp:154
 #: lib/cookies/cookiemanager.cpp:155 lib/cookies/cookiemanager.cpp:156
 #: lib/cookies/cookiemanager.cpp:157 lib/cookies/cookiemanager.cpp:158
-#: lib/cookies/cookiemanager.ui:151 lib/cookies/cookiemanager.ui:161
-#: lib/cookies/cookiemanager.ui:171 lib/cookies/cookiemanager.ui:181
-#: lib/cookies/cookiemanager.ui:191 lib/cookies/cookiemanager.ui:201
+#: lib/cookies/cookiemanager.ui:154 lib/cookies/cookiemanager.ui:164
+#: lib/cookies/cookiemanager.ui:174 lib/cookies/cookiemanager.ui:184
+#: lib/cookies/cookiemanager.ui:194 lib/cookies/cookiemanager.ui:204
 msgctxt "CookieManager|"
 msgid "<cookie not selected>"
 msgstr "（未選取Cookie）"
 
-#: lib/cookies/cookiemanager.cpp:160 lib/cookies/cookiemanager.ui:242
+#: lib/cookies/cookiemanager.cpp:160 lib/cookies/cookiemanager.cpp:170
+#: lib/cookies/cookiemanager.ui:245
 msgctxt "CookieManager|"
 msgid "Remove cookies"
 msgstr "移除Cookie"
 
-#: lib/cookies/cookiemanager.cpp:170
+#: lib/cookies/cookiemanager.cpp:163 lib/cookies/cookiemanager.cpp:164
+#: lib/cookies/cookiemanager.cpp:165 lib/cookies/cookiemanager.cpp:166
+#: lib/cookies/cookiemanager.cpp:167 lib/cookies/cookiemanager.cpp:168
+#, fuzzy
+#| msgctxt "CookieManager|"
+#| msgid "<cookie not selected>"
+msgctxt "CookieManager|"
+msgid "<multiple cookies selected>"
+msgstr "（未選取Cookie）"
+
+#: lib/cookies/cookiemanager.cpp:180
 msgctxt "CookieManager|"
 msgid "Secure only"
 msgstr "僅顯示安全的"
 
-#: lib/cookies/cookiemanager.cpp:170
+#: lib/cookies/cookiemanager.cpp:180
 msgctxt "CookieManager|"
 msgid "All connections"
 msgstr "全部連接"
 
-#: lib/cookies/cookiemanager.cpp:171
+#: lib/cookies/cookiemanager.cpp:181
 msgctxt "CookieManager|"
 msgid "Session cookie"
 msgstr "工作階段Cookie"
 
-#: lib/cookies/cookiemanager.cpp:173
+#: lib/cookies/cookiemanager.cpp:183
 msgctxt "CookieManager|"
 msgid "Remove cookie"
 msgstr "移除Cookie"
 
-#: lib/cookies/cookiemanager.cpp:178 lib/cookies/cookiemanager.cpp:201
-#: lib/cookies/cookiemanager.ui:123
+#: lib/cookies/cookiemanager.cpp:188 lib/cookies/cookiemanager.cpp:211
+#: lib/cookies/cookiemanager.ui:126
 msgctxt "CookieManager|"
 msgid "Server:"
 msgstr "伺服器："
 
-#: lib/cookies/cookiemanager.cpp:178
+#: lib/cookies/cookiemanager.cpp:188
 msgctxt "CookieManager|"
 msgid "Add to whitelist"
 msgstr "加入到白名單"
 
-#: lib/cookies/cookiemanager.cpp:185
+#: lib/cookies/cookiemanager.cpp:195
 msgctxt "CookieManager|"
 msgid "Already blacklisted!"
 msgstr "已於黑名單。"
 
-#: lib/cookies/cookiemanager.cpp:185
+#: lib/cookies/cookiemanager.cpp:195
 #, qt-format
 msgctxt "CookieManager|"
 msgid "The server \"%1\" is already in blacklist, please remove it first."
 msgstr "伺服器「%1」現於黑名單，請先移除。"
 
-#: lib/cookies/cookiemanager.cpp:201
+#: lib/cookies/cookiemanager.cpp:211
 msgctxt "CookieManager|"
 msgid "Add to blacklist"
 msgstr "加入到黑名單"
 
-#: lib/cookies/cookiemanager.cpp:212
+#: lib/cookies/cookiemanager.cpp:222
 msgctxt "CookieManager|"
 msgid "Already whitelisted!"
 msgstr "已於白名單。"
 
-#: lib/cookies/cookiemanager.cpp:212
+#: lib/cookies/cookiemanager.cpp:222
 #, qt-format
 msgctxt "CookieManager|"
 msgid "The server \"%1\" is already in whitelist, please remove it first."
@@ -1417,109 +1428,109 @@ msgctxt "CookieManager|"
 msgid "These cookies are stored on your computer:"
 msgstr "留駐於電腦的Cookie："
 
-#: lib/cookies/cookiemanager.ui:63
+#: lib/cookies/cookiemanager.ui:66
 msgctxt "CookieManager|"
 msgid "Server"
 msgstr "伺服器"
 
-#: lib/cookies/cookiemanager.ui:68
+#: lib/cookies/cookiemanager.ui:71
 msgctxt "CookieManager|"
 msgid "Cookie name"
 msgstr "Cookie名"
 
-#: lib/cookies/cookiemanager.ui:106
+#: lib/cookies/cookiemanager.ui:109
 msgctxt "CookieManager|"
 msgid "Name:"
 msgstr "名稱："
 
-#: lib/cookies/cookiemanager.ui:116
+#: lib/cookies/cookiemanager.ui:119
 msgctxt "CookieManager|"
 msgid "Value:"
 msgstr "值："
 
-#: lib/cookies/cookiemanager.ui:130
+#: lib/cookies/cookiemanager.ui:133
 msgctxt "CookieManager|"
 msgid "Path:"
 msgstr "路徑："
 
-#: lib/cookies/cookiemanager.ui:137
+#: lib/cookies/cookiemanager.ui:140
 msgctxt "CookieManager|"
 msgid "Secure:"
 msgstr "安全："
 
-#: lib/cookies/cookiemanager.ui:144
+#: lib/cookies/cookiemanager.ui:147
 msgctxt "CookieManager|"
 msgid "Expiration:"
 msgstr "到期："
 
-#: lib/cookies/cookiemanager.ui:235
+#: lib/cookies/cookiemanager.ui:238
 msgctxt "CookieManager|"
 msgid "Remove all cookies"
 msgstr "移除全部Cookie"
 
-#: lib/cookies/cookiemanager.ui:266
+#: lib/cookies/cookiemanager.ui:269
 msgctxt "CookieManager|"
 msgid "Cookie Filtering"
 msgstr "過濾Cookie"
 
-#: lib/cookies/cookiemanager.ui:272
+#: lib/cookies/cookiemanager.ui:275
 msgctxt "CookieManager|"
 msgid "<b>Cookie whitelist</b>"
 msgstr "<b>Cookie白名單</b>"
 
-#: lib/cookies/cookiemanager.ui:279
+#: lib/cookies/cookiemanager.ui:282
 msgctxt "CookieManager|"
 msgid ""
 "Cookies from these servers will ALWAYS be accepted (even if you have "
 "disabled saving cookies)"
 msgstr "總是接受來自這些伺服器的Cookie（即使不容許Cookie留駐）"
 
-#: lib/cookies/cookiemanager.ui:304 lib/cookies/cookiemanager.ui:358
+#: lib/cookies/cookiemanager.ui:307 lib/cookies/cookiemanager.ui:361
 msgctxt "CookieManager|"
 msgid "Add"
 msgstr "加入"
 
-#: lib/cookies/cookiemanager.ui:311 lib/cookies/cookiemanager.ui:365
+#: lib/cookies/cookiemanager.ui:314 lib/cookies/cookiemanager.ui:368
 msgctxt "CookieManager|"
 msgid "Remove"
 msgstr "移除"
 
-#: lib/cookies/cookiemanager.ui:323
+#: lib/cookies/cookiemanager.ui:326
 msgctxt "CookieManager|"
 msgid "<b>Cookie blacklist</b>"
 msgstr "<b>Cookie黑名單</b>"
 
-#: lib/cookies/cookiemanager.ui:330
+#: lib/cookies/cookiemanager.ui:333
 msgctxt "CookieManager|"
 msgid "Cookies from these servers will NEVER be accepted"
 msgstr "永不接受來自這些伺服器的Cookie"
 
-#: lib/cookies/cookiemanager.ui:382
+#: lib/cookies/cookiemanager.ui:385
 msgctxt "CookieManager|"
 msgid "Settings"
 msgstr "設定"
 
-#: lib/cookies/cookiemanager.ui:404
+#: lib/cookies/cookiemanager.ui:407
 msgctxt "CookieManager|"
 msgid "Filter 3rd party cookies"
 msgstr "過濾第三方Cookie"
 
-#: lib/cookies/cookiemanager.ui:411
+#: lib/cookies/cookiemanager.ui:414
 msgctxt "CookieManager|"
 msgid "<b>Cookie Settings</b>"
 msgstr "<b>Cookie設定</b>"
 
-#: lib/cookies/cookiemanager.ui:418
+#: lib/cookies/cookiemanager.ui:421
 msgctxt "CookieManager|"
 msgid "Allow storing of cookies"
 msgstr "容許Cookie留駐"
 
-#: lib/cookies/cookiemanager.ui:425
+#: lib/cookies/cookiemanager.ui:428
 msgctxt "CookieManager|"
 msgid "Filter tracking cookies"
 msgstr "過濾追蹤用cookie"
 
-#: lib/cookies/cookiemanager.ui:432
+#: lib/cookies/cookiemanager.ui:435
 msgctxt "CookieManager|"
 msgid "Delete cookies on close"
 msgstr ""
