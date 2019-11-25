@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 02:50+0100\n"
+"POT-Creation-Date: 2019-11-25 02:54+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -35,82 +35,48 @@ msgstr ""
 "X-Generator: KBabel 1.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kaboutapplicationdialog.cpp:81 khelpmenu.cpp:280
+#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
 #, kde-format
 msgid "About %1"
 msgstr "關於 %1"
 
-#: kaboutapplicationdialog.cpp:98
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr ""
-
-#: kaboutapplicationdialog.cpp:136
+#: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
 #, fuzzy, kde-format
-#| msgid "License:"
-msgid "License: %1"
-msgstr "許可證："
-
-#: kaboutapplicationdialog.cpp:148
-#, kde-format
-msgid "&About"
+#| msgid "&About"
+msgid "About"
 msgstr "關於(&A)"
 
-#: kaboutapplicationdialog.cpp:155
+#: kaboutapplicationdialog.cpp:109
 #, kde-format
 msgid ""
 "<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
 "%4</em> windowing system</li></ul>"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:165
+#: kaboutapplicationdialog.cpp:119
 #, fuzzy, kde-format
 #| msgid "Libraries"
-msgid "&Libraries"
+msgid "Libraries"
 msgstr "程式庫"
 
-#: kaboutapplicationdialog.cpp:186
+#: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
 #, fuzzy, kde-format
-#| msgid ""
-#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
-#| "report bugs.\n"
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+#| msgid "Author"
+msgid "Author"
+msgid_plural "Authors"
+msgstr[0] "作者"
 
-#: kaboutapplicationdialog.cpp:192
+#: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
 #, fuzzy, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr "請向 <a href=\"mailto:%1\">%2</a> 報告問題。\n"
-
-#: kaboutapplicationdialog.cpp:218
-#, kde-format
-msgid "A&uthor"
-msgstr "作者(&U)"
-
-#: kaboutapplicationdialog.cpp:218
-#, kde-format
-msgid "A&uthors"
-msgstr "作者(&U)"
-
-#: kaboutapplicationdialog.cpp:245
-#, kde-format
-msgid "&Thanks To"
+#| msgid "&Thanks To"
+msgid "Thanks To"
 msgstr "感謝(&T)"
 
-#: kaboutapplicationdialog.cpp:284
+#: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
+#: kbugreport.cpp:251
 #, kde-format
-msgid "T&ranslation"
-msgstr "翻譯(&R)"
-
-#: kaboutapplicationdialog.cpp:316
-#, fuzzy, kde-format
-#| msgid "&License Agreement"
-msgid "License Agreement"
-msgstr "授權宣告(&L)"
+msgid "Translation"
+msgstr "翻譯"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:62
 #, fuzzy, kde-format
@@ -326,6 +292,34 @@ msgstr "加入 KDE 隊伍(&J)"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
+#: kabstractaboutdialog_p.cpp:47
+#, kde-format
+msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:92
+#, fuzzy, kde-format
+#| msgid "License:"
+msgid "License: %1"
+msgstr "許可證："
+
+#: kabstractaboutdialog_p.cpp:124
+#, fuzzy, kde-format
+#| msgid ""
+#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
+#| "report bugs.\n"
+msgid ""
+"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+"report bugs.\n"
+msgstr ""
+"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+
+#: kabstractaboutdialog_p.cpp:130
+#, fuzzy, kde-format
+#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgstr "請向 <a href=\"mailto:%1\">%2</a> 報告問題。\n"
+
 #: kactionconflictdetector.cpp:50
 #, kde-format
 msgid ""
@@ -457,11 +451,6 @@ msgstr "普通的"
 #, kde-format
 msgid "Wishlist"
 msgstr "希望清單"
-
-#: kbugreport.cpp:251
-#, kde-format
-msgid "Translation"
-msgstr "翻譯"
 
 #: kbugreport.cpp:269
 #, kde-format
@@ -965,6 +954,12 @@ msgstr ""
 #| msgid "Untrusted"
 msgid "Unsupported Key"
 msgstr "不可信的"
+
+#: klicensedialog_p.cpp:44
+#, fuzzy, kde-format
+#| msgid "&License Agreement"
+msgid "License Agreement"
+msgstr "授權宣告(&L)"
 
 #: kmainwindow.cpp:249
 #, kde-format
@@ -1591,6 +1586,15 @@ msgstr "設定(&S)"
 msgid "Main Toolbar"
 msgstr "主工具列"
 
+#~ msgid "A&uthor"
+#~ msgstr "作者(&U)"
+
+#~ msgid "A&uthors"
+#~ msgstr "作者(&U)"
+
+#~ msgid "T&ranslation"
+#~ msgstr "翻譯(&R)"
+
 #, fuzzy
 #~| msgid "%1%"
 #~ msgctxt "@action:intoolbar Text label of toolbar button"
@@ -1715,9 +1719,6 @@ msgstr "主工具列"
 
 #~ msgid "&License Agreement"
 #~ msgstr "授權宣告(&L)"
-
-#~ msgid "Author"
-#~ msgstr "作者"
 
 #~ msgid "Email"
 #~ msgstr "Email"
