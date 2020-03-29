@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-17 03:10+0100\n"
+"POT-Creation-Date: 2020-03-29 04:27+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -145,44 +145,74 @@ msgstr ""
 msgid "Convert to Black & White"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:112
+#, kde-format
+msgid "Invert Lightness"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:117
+#, kde-format
+msgid "Invert Luma (sRGB Linear)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:122
+#, kde-format
+msgid "Invert Luma (Symmetric)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:127
+#, kde-format
+msgid "Shift Hue Positive"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:132
+#, kde-format
+msgid "Shift Hue Negative"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: conf/dlgaccessibilitybase.ui:168
+#: conf/dlgaccessibilitybase.ui:193
 #, kde-format
 msgid "Paper color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: conf/dlgaccessibilitybase.ui:221
+#: conf/dlgaccessibilitybase.ui:246
 #, kde-format
 msgid "Dark color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: conf/dlgaccessibilitybase.ui:256
+#: conf/dlgaccessibilitybase.ui:281
 #, kde-format
 msgid "Light color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: conf/dlgaccessibilitybase.ui:300
+#: conf/dlgaccessibilitybase.ui:325
 #, kde-format
 msgid "Threshold:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: conf/dlgaccessibilitybase.ui:335
+#: conf/dlgaccessibilitybase.ui:360
 #, kde-format
 msgid "Contrast:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, speechBox)
-#: conf/dlgaccessibilitybase.ui:372
+#: conf/dlgaccessibilitybase.ui:412
 #, kde-format
 msgid "Speech"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: conf/dlgaccessibilitybase.ui:378
+#: conf/dlgaccessibilitybase.ui:418
 #, kde-format
 msgid "Engine"
 msgstr ""
@@ -1199,180 +1229,180 @@ msgctxt "%1 is width, %2 is height, %3 is paper size name"
 msgid "%1 x %2 mm (%3)"
 msgstr ""
 
-#: core/document.cpp:1762
+#: core/document.cpp:1763
 #, kde-format
 msgid "Continuing search from beginning"
 msgstr ""
 
-#: core/document.cpp:1767
+#: core/document.cpp:1768
 #, kde-format
 msgid "Continuing search from bottom"
 msgstr ""
 
-#: core/document.cpp:2581
+#: core/document.cpp:2582
 #, kde-format
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:3713
+#: core/document.cpp:3714
 #, fuzzy, kde-format
 #| msgid "Presentation"
 msgctxt "remove a collection of annotations from the page"
 msgid "remove annotations"
 msgstr "表現"
 
-#: core/document.cpp:4292 core/document.cpp:4300
+#: core/document.cpp:4293 core/document.cpp:4301
 #, kde-format
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:4313
+#: core/document.cpp:4314
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:4688
+#: core/document.cpp:4689
 #, fuzzy, kde-format
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:4690
+#: core/document.cpp:4691
 #, kde-format
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:4692
+#: core/document.cpp:4693
 #, kde-format
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:4694
+#: core/document.cpp:4695
 #, kde-format
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:4696
+#: core/document.cpp:4697
 #, kde-format
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:4698
+#: core/document.cpp:4699
 #, kde-format
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:4700
+#: core/document.cpp:4701
 #, kde-format
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:4702
+#: core/document.cpp:4703
 #, kde-format
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:4704
+#: core/document.cpp:4705
 #, kde-format
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4706
+#: core/document.cpp:4707
 #, kde-format
 msgid "The page print size is invalid"
 msgstr ""
 
-#: core/document.cpp:5371 part.cpp:1114
+#: core/document.cpp:5372 part.cpp:1114
 #, kde-format
 msgid "Could not open '%1'. File does not exist"
 msgstr ""
 
-#: core/document.cpp:5859
+#: core/document.cpp:5860
 #, kde-format
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:5862
+#: core/document.cpp:5863
 #, kde-format
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:5865
+#: core/document.cpp:5866
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:5868
+#: core/document.cpp:5869
 #, fuzzy, kde-format
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:5871
+#: core/document.cpp:5872
 #, fuzzy, kde-format
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:5874
+#: core/document.cpp:5875
 #, kde-format
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:5877
+#: core/document.cpp:5878
 #, kde-format
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:5880
+#: core/document.cpp:5881
 #, fuzzy, kde-format
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:5883
+#: core/document.cpp:5884
 #, kde-format
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:5886
+#: core/document.cpp:5887
 #, kde-format
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:5889
+#: core/document.cpp:5890
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:5892
+#: core/document.cpp:5893
 #, kde-format
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:5895
+#: core/document.cpp:5896
 #, kde-format
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:5898
+#: core/document.cpp:5899
 #, fuzzy, kde-format
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:5901
+#: core/document.cpp:5902
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:5904
+#: core/document.cpp:5905
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "Page Size"
