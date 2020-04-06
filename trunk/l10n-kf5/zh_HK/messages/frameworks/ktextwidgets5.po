@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-08 02:59+0100\n"
+"POT-Creation-Date: 2020-04-06 03:00+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -53,48 +53,48 @@ msgstr "尋找文字"
 msgid "Link URL:"
 msgstr "URL："
 
-#: findreplace/kfind.cpp:60
+#: findreplace/kfind.cpp:61
 #, kde-format
 msgid "Find Next"
 msgstr "尋找下一個"
 
-#: findreplace/kfind.cpp:64
+#: findreplace/kfind.cpp:65
 #, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>搜尋下一個 '<b>%1</b>'？</qt>"
 
-#: findreplace/kfind.cpp:622 findreplace/kfind.cpp:641
+#: findreplace/kfind.cpp:665 findreplace/kfind.cpp:684
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
 msgstr[0] "找到了 %1 個相符項目。"
 
-#: findreplace/kfind.cpp:624
+#: findreplace/kfind.cpp:667
 #, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>找不到相符 '<b>%1</b>' 的項目。</qt>"
 
-#: findreplace/kfind.cpp:643
+#: findreplace/kfind.cpp:686
 #, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "找不到相符 '<b>%1</b>' 的項目。"
 
-#: findreplace/kfind.cpp:647 findreplace/kreplace.cpp:387
+#: findreplace/kfind.cpp:690 findreplace/kreplace.cpp:419
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "已達文件開頭。"
 
-#: findreplace/kfind.cpp:649 findreplace/kreplace.cpp:389
+#: findreplace/kfind.cpp:692 findreplace/kreplace.cpp:421
 #, kde-format
 msgid "End of document reached."
 msgstr "已達文件結尾。"
 
-#: findreplace/kfind.cpp:657
+#: findreplace/kfind.cpp:700
 #, kde-format
 msgid "Continue from the end?"
 msgstr "要從結尾繼續？"
 
-#: findreplace/kfind.cpp:658
+#: findreplace/kfind.cpp:701
 #, kde-format
 msgid "Continue from the beginning?"
 msgstr "要從頭繼續？"
@@ -371,72 +371,72 @@ msgstr "數字"
 msgid "Complete Match"
 msgstr "完全符合"
 
-#: findreplace/kfinddialog.cpp:553
+#: findreplace/kfinddialog.cpp:552
 #, kde-format
 msgid "Captured Text (%1)"
 msgstr "找到的文字 (%1)"
 
-#: findreplace/kfinddialog.cpp:561
+#: findreplace/kfinddialog.cpp:560
 #, kde-format
 msgid "You must enter some text to search for."
 msgstr "你必須輸入要搜尋的文字。"
 
-#: findreplace/kfinddialog.cpp:570
+#: findreplace/kfinddialog.cpp:567
 #, kde-format
-msgid "Invalid regular expression."
-msgstr "無效的正規表達式。"
+msgid "Invalid PCRE pattern syntax."
+msgstr ""
 
-#: findreplace/kreplace.cpp:60 findreplace/kreplace.cpp:72
+#: findreplace/kreplace.cpp:61 findreplace/kreplace.cpp:73
 #, kde-format
 msgid "Replace"
 msgstr "取代"
 
-#: findreplace/kreplace.cpp:68
+#: findreplace/kreplace.cpp:69
 #, fuzzy, kde-format
 #| msgid "&All"
 msgctxt "@action:button Replace all occurrences"
 msgid "&All"
 msgstr "全部(&A)"
 
-#: findreplace/kreplace.cpp:70
+#: findreplace/kreplace.cpp:71
 #, kde-format
 msgid "&Skip"
 msgstr "略過(&S)"
 
-#: findreplace/kreplace.cpp:89
+#: findreplace/kreplace.cpp:90
 #, kde-format
 msgid "Replace '%1' with '%2'?"
 msgstr "將‘%1’替換為‘%2”嗎？"
 
-#: findreplace/kreplace.cpp:177 findreplace/kreplace.cpp:381
+#: findreplace/kreplace.cpp:179 findreplace/kreplace.cpp:413
 #, kde-format
 msgid "No text was replaced."
 msgstr "沒有替換任何文字。"
 
-#: findreplace/kreplace.cpp:179 findreplace/kreplace.cpp:383
+#: findreplace/kreplace.cpp:181 findreplace/kreplace.cpp:415
 #, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
 msgstr[0] "完成了 %1 次替換。"
 
-#: findreplace/kreplace.cpp:397
+#: findreplace/kreplace.cpp:429
 #, kde-format
 msgid "Do you want to restart search from the end?"
 msgstr "你要從頭重新開始搜尋嗎？"
 
-#: findreplace/kreplace.cpp:398
+#: findreplace/kreplace.cpp:430
 #, kde-format
 msgid "Do you want to restart search at the beginning?"
 msgstr "你要從頭重新開始搜尋嗎？"
 
-#: findreplace/kreplace.cpp:401
+#: findreplace/kreplace.cpp:433
 #, fuzzy, kde-format
 #| msgid "Restart"
 msgctxt "@action:button Restart find & replace"
 msgid "Restart"
 msgstr "重新開始"
 
-#: findreplace/kreplace.cpp:402
+#: findreplace/kreplace.cpp:434
 #, fuzzy, kde-format
 #| msgid "Stop"
 msgctxt "@action:button Stop find & replace"
@@ -754,6 +754,9 @@ msgstr "允許跳格"
 #| msgid "Please enter &name:"
 msgid "Speak Text"
 msgstr "請輸入名稱(&N)："
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "無效的正規表達式。"
 
 #, fuzzy
 #~| msgid "%1%"
