@@ -72,40 +72,40 @@ msgstr "%1 - [%2]"
 #: kactionselector.cpp:106
 #, fuzzy
 #| msgid "&Available:"
-msgctxt "KActionSelector|"
+msgctxt "KActionSelector|@label:listbox"
 msgid "&Available:"
 msgstr "可用的(&V)："
 
 #: kactionselector.cpp:123
 #, fuzzy
 #| msgid "&Selected:"
-msgctxt "KActionSelector|"
+msgctxt "KActionSelector|@label:listbox"
 msgid "&Selected:"
 msgstr "已選取的(&S)："
 
 #: kassistantdialog.cpp:105
 #, fuzzy
 #| msgid "&Back"
-msgctxt "KAssistantDialog|go back"
+msgctxt "KAssistantDialog|@action:button go back"
 msgid "&Back"
 msgstr "上一步(&B)"
 
 #: kassistantdialog.cpp:107
 #, fuzzy
 #| msgid "Go back one step"
-msgctxt "KAssistantDialog|"
+msgctxt "KAssistantDialog|@info:tooltip"
 msgid "Go back one step"
 msgstr "返回上一個步驟"
 
 #: kassistantdialog.cpp:112
 #, fuzzy
-msgctxt "KAssistantDialog|Opposite to Back"
+msgctxt "KAssistantDialog|@action:button Opposite to Back"
 msgid "Next"
 msgstr "Next"
 
 #: kassistantdialog.cpp:119
 #, fuzzy
-msgctxt "KAssistantDialog|"
+msgctxt "KAssistantDialog|@action:button"
 msgid "Finish"
 msgstr "完成(&F)"
 
@@ -1464,50 +1464,56 @@ msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Symbols for Legacy Computing"
 msgstr ""
 
-#: kcharselect.cpp:406 kcharselect.cpp:408
-msgctxt "KCharSelect|"
+#: kcharselect.cpp:406
+#, fuzzy
+msgctxt "KCharSelect|@info:placeholder"
+msgid "Enter a search term or character..."
+msgstr "網絡搜尋"
+
+#: kcharselect.cpp:408
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Enter a search term or character here"
 msgstr ""
 
 #: kcharselect.cpp:413
 #, fuzzy
 #| msgid "&Find..."
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@action"
 msgid "&Find..."
 msgstr "尋找(&F)..."
 
 #: kcharselect.cpp:433
 #, fuzzy
 #| msgid "Previous Item in List"
-msgctxt "KCharSelect|Goes to previous character"
+msgctxt "KCharSelect|@action:button Goes to previous character"
 msgid "Previous in History"
 msgstr "上一個清單中的項目"
 
 #: kcharselect.cpp:435
 #, fuzzy
 #| msgid "Previous year"
-msgctxt "KCharSelect|"
-msgid "Previous Character in History"
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Go to previous character in history"
 msgstr "前一年"
 
 #: kcharselect.cpp:440
 #, fuzzy
 #| msgid "Next Item in List"
-msgctxt "KCharSelect|Goes to next character"
+msgctxt "KCharSelect|@action:button Goes to next character"
 msgid "Next in History"
 msgstr "下一個清單中的項目"
 
 #: kcharselect.cpp:442
 #, fuzzy
 #| msgid "Set of Characters"
-msgctxt "KCharSelect|"
-msgid "Next Character in History"
+msgctxt "KCharSelect|info:tooltip"
+msgid "Go to next character in history"
 msgstr "字集"
 
 #: kcharselect.cpp:447
 #, fuzzy
 #| msgid "&Back"
-msgctxt "KCharSelect|go back"
+msgctxt "KCharSelect|@action go back"
 msgid "&Back"
 msgstr "上一步(&B)"
 
@@ -1515,35 +1521,35 @@ msgstr "上一步(&B)"
 #, fuzzy
 #| msgctxt "go forward"
 #| msgid "&Forward"
-msgctxt "KCharSelect|go forward"
+msgctxt "KCharSelect|@action go forward"
 msgid "&Forward"
 msgstr "往前(&F)"
 
 #: kcharselect.cpp:469
 #, fuzzy
 #| msgid "Select a year"
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Select a category"
 msgstr "選擇一個年份"
 
 #: kcharselect.cpp:473
 #, fuzzy
 #| msgid "Message string to be displayed"
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Select a block to be displayed"
 msgstr "將要顯示的訊息字串"
 
 #: kcharselect.cpp:486
 #, fuzzy
 #| msgid "Select Font"
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Set font"
 msgstr "選擇字型"
 
 #: kcharselect.cpp:493
 #, fuzzy
 #| msgid "Change font size?"
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Set font size"
 msgstr "變更字型大小？"
 
@@ -1946,7 +1952,7 @@ msgstr "無法識別"
 #: kcolorcombo.cpp:341
 #, fuzzy
 #| msgid "Custom..."
-msgctxt "KColorCombo|Custom color"
+msgctxt "KColorCombo|@item:inlistbox Custom color"
 msgid "Custom..."
 msgstr "自訂..."
 
@@ -2045,56 +2051,56 @@ msgstr "第 %1 週"
 #: kdatepicker.cpp:292
 #, fuzzy
 #| msgid "Next year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Next year"
 msgstr "下一年"
 
 #: kdatepicker.cpp:293
 #, fuzzy
 #| msgid "Previous year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Previous year"
 msgstr "前一年"
 
 #: kdatepicker.cpp:294
 #, fuzzy
 #| msgid "Next month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Next month"
 msgstr "下一個月"
 
 #: kdatepicker.cpp:295
 #, fuzzy
 #| msgid "Previous month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Previous month"
 msgstr "上一個月"
 
 #: kdatepicker.cpp:296
 #, fuzzy
 #| msgid "Select a week"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a week"
 msgstr "選擇一個星期"
 
 #: kdatepicker.cpp:297
 #, fuzzy
 #| msgid "Select a month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a month"
 msgstr "選擇一個月份"
 
 #: kdatepicker.cpp:298
 #, fuzzy
 #| msgid "Select a year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a year"
 msgstr "選擇一個年份"
 
 #: kdatepicker.cpp:299
 #, fuzzy
 #| msgid "Select the current day"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select the current day"
 msgstr "選擇一個日期"
 
@@ -2106,14 +2112,14 @@ msgid "Close"
 msgstr "關閉"
 
 #: kdatetimeedit.cpp:186
-msgctxt "KDateTimeEdit|UTC time zone"
+msgctxt "KDateTimeEdit|@item:inlistbox UTC time zone"
 msgid "UTC"
 msgstr ""
 
 #: kdatetimeedit.cpp:187
 #, fuzzy
 #| msgid "Rating"
-msgctxt "KDateTimeEdit|No specific time zone"
+msgctxt "KDateTimeEdit|@item:inlistbox No specific time zone"
 msgid "Floating"
 msgstr "評分"
 
@@ -2130,35 +2136,35 @@ msgstr ""
 #: keditlistwidget.cpp:305
 #, fuzzy
 #| msgid "&Add"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "&Add"
 msgstr "新增(&A)"
 
 #: keditlistwidget.cpp:317
 #, fuzzy
 #| msgid "&Remove"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #: keditlistwidget.cpp:329
 #, fuzzy
 #| msgid "Move &Up"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "Move &Up"
 msgstr "向上移動(&U)"
 
 #: keditlistwidget.cpp:334
 #, fuzzy
 #| msgid "Move &Down"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
 #: kfontchooser.cpp:189
 #, fuzzy
 #| msgid "Requested Font"
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "要求的字型"
 
@@ -2186,7 +2192,7 @@ msgstr "字型樣式"
 #: kfontchooser.cpp:246
 #, fuzzy
 #| msgid "Font style:"
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@label"
 msgid "Font style:"
 msgstr "字型樣式："
 
@@ -2194,7 +2200,7 @@ msgstr "字型樣式："
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
-msgctxt "KFontChooser|QFontDatabase"
+msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "普通的"
 
@@ -2251,7 +2257,7 @@ msgstr "相對"
 #: kfontchooser.cpp:305
 #, fuzzy
 #| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "字型大小<br>「<b>固定</b>」或「<b>相對</b>」<br>於環境"
 
@@ -2261,7 +2267,7 @@ msgstr "字型大小<br>「<b>固定</b>」或「<b>相對</b>」<br>於環境"
 #| "Here you can switch between fixed font size and font size to be "
 #| "calculated dynamically and adjusted to changing environment (e.g. widget "
 #| "dimensions, paper size)."
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
 "dynamically and adjusted to changing environment (e.g. widget dimensions, "
@@ -2282,7 +2288,7 @@ msgstr "The Quick Brown Fox 跳過那隻懶狗"
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
 #| "test special characters."
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
@@ -2303,21 +2309,21 @@ msgstr "%1%"
 #: kfontchooserdialog.cpp:43
 #, fuzzy
 #| msgid "Select Font"
-msgctxt "KFontChooserDialog|"
+msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "選擇字型"
 
 #: kfontrequester.cpp:215
 #, fuzzy
 #| msgid "Choose..."
-msgctxt "KFontRequester|"
-msgid "Choose Font..."
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Choose font..."
 msgstr "選擇..."
 
 #: kfontrequester.cpp:221
 #, fuzzy
 #| msgid "Preview of the selected font"
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the selected font"
 msgstr "預覽所選擇的字型"
 
@@ -2326,7 +2332,7 @@ msgstr "預覽所選擇的字型"
 #| msgid ""
 #| "This is a preview of the selected font. You can change it by clicking the "
 #| "\"Choose...\" button."
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:whatsthis"
 msgid ""
 "This is a preview of the selected font. You can change it by clicking the "
 "\"Choose Font...\" button."
@@ -2335,7 +2341,7 @@ msgstr "這些是選擇字型的預覽。你可以按\"選擇...\"來預覽其�
 #: kfontrequester.cpp:225
 #, fuzzy, qt-format
 #| msgid "Preview of the \"%1\" font"
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the \"%1\" font"
 msgstr "預覽 \"%1\" 字型"
 
@@ -2344,7 +2350,7 @@ msgstr "預覽 \"%1\" 字型"
 #| msgid ""
 #| "This is a preview of the \"%1\" font. You can change it by clicking the "
 #| "\"Choose...\" button."
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:whatsthis"
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose Font...\" button."
@@ -2425,39 +2431,39 @@ msgstr "不要再顯示這個訊息"
 #: kmessagewidget.cpp:88
 #, fuzzy
 #| msgid "&Close"
-msgctxt "KMessageWidget|"
+msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "關閉(&C)"
 
 #: kmessagewidget.cpp:89
 #, fuzzy
 #| msgid "Close Message"
-msgctxt "KMessageWidget|"
+msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "關閉訊息"
 
 #: kmimetypechooser.cpp:99
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@info:placeholder"
 msgid "Search for file type or filename pattern..."
 msgstr ""
 
 #: kmimetypechooser.cpp:100
 #, fuzzy
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@label:textbox"
 msgid "&Filter:"
 msgstr "過濾器："
 
 #: kmimetypechooser.cpp:114
 #, fuzzy
 #| msgid "Mime types"
-msgctxt "KMimeTypeChooser|"
-msgid "Mime Type"
+msgctxt "KMimeTypeChooser|@title:column"
+msgid "MIME Type"
 msgstr "Mime 類型"
 
 #: kmimetypechooser.cpp:117
 #, fuzzy
 #| msgid "Comment"
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@title:column"
 msgid "Comment"
 msgstr "備註"
 
@@ -2465,27 +2471,27 @@ msgstr "備註"
 #, fuzzy
 #| msgctxt "QFont"
 #| msgid "Braille"
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@title:column"
 msgid "Patterns"
 msgstr "布拉耶點字法"
 
 #: kmimetypechooser.cpp:137
 #, fuzzy
 #| msgid "&Edit..."
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@action:button"
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
 #: kmimetypechooser.cpp:147
-msgctxt "KMimeTypeChooser|"
-msgid "Launch the KDE mime type editor."
+msgctxt "KMimeTypeChooser|@info:tooltip"
+msgid "Launch the MIME type editor"
 msgstr ""
 
 #: knewpassworddialog.cpp:69
 #, fuzzy, qt-format
 #| msgid "Password must be at least 1 character long"
 #| msgid_plural "Password must be at least %1 characters long"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Password must be at least %n character(s) long."
 msgid_plural "Password must be at least %n character(s) long."
 msgstr[0] "密碼最少要有 %1 個字元"
@@ -2493,28 +2499,28 @@ msgstr[0] "密碼最少要有 %1 個字元"
 #: knewpassworddialog.cpp:73
 #, fuzzy
 #| msgid "Password is empty"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Password is empty."
 msgstr "密碼是空白的"
 
 #: knewpassworddialog.cpp:77
 #, fuzzy
 #| msgid "Passwords do not match"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Passwords do not match."
 msgstr "密碼不同"
 
 #: knewpassworddialog.cpp:82
 #, fuzzy
 #| msgid "Passwords match"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Passwords match."
 msgstr "密碼相同"
 
 #: knewpassworddialog.cpp:154
 #, fuzzy
 #| msgid "Low Password Strength"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@title:window"
 msgid "Low Password Strength"
 msgstr "密碼不夠安全"
 
@@ -2568,27 +2574,27 @@ msgstr ""
 #: knewpasswordwidget.ui:19
 #, fuzzy
 #| msgid "Password:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label:textbox"
 msgid "Password:"
 msgstr "密碼："
 
 #: knewpasswordwidget.ui:29
 #, fuzzy
 #| msgid "&Verify:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label:textbox"
 msgid "&Verify:"
 msgstr "確認(&V)："
 
 #: knewpasswordwidget.ui:54
 #, fuzzy
 #| msgid "Password strength meter:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "密碼安全測量器："
 
 #: kpassworddialog.cpp:63
 #, fuzzy
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@title:window"
 msgid "Password"
 msgstr "密碼："
 
@@ -2603,88 +2609,88 @@ msgid "Supply a username and password below."
 msgstr ""
 
 #: kpassworddialog.ui:70
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:radio"
 msgid "No password, use anonymous (or &guest) login"
 msgstr ""
 
 #: kpassworddialog.ui:77
 #, fuzzy
 #| msgid "&Keep password"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:radio"
 msgid "Use this password:"
 msgstr "保存密碼(&K)"
 
 #: kpassworddialog.ui:102
 #, fuzzy
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Username:"
 msgstr "使用者："
 
 #: kpassworddialog.ui:116
 #, fuzzy
 #| msgid "Chain:"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Domain:"
 msgstr "信任鏈:"
 
 #: kpassworddialog.ui:130
 #, fuzzy
 #| msgid "Password:"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Password:"
 msgstr "密碼："
 
 #: kpassworddialog.ui:144
 #, fuzzy
 #| msgid "&Keep password"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:check"
 msgid "Remember password"
 msgstr "保存密碼(&K)"
 
 #: kpasswordlineedit.cpp:56
-msgctxt "QObject|"
+msgctxt "QObject|@info:tooltip"
 msgid "Change the visibility of the password"
 msgstr ""
 
 #: kpixmapregionselectordialog.cpp:72
 #, fuzzy
 #| msgid "Select Region of Image"
-msgctxt "KPixmapRegionSelectorDialog|"
+msgctxt "KPixmapRegionSelectorDialog|@title:window"
 msgid "Select Region of Image"
 msgstr "選擇圖片的一份區域"
 
 #: kpixmapregionselectordialog.cpp:76
 #, fuzzy
 #| msgid "Please click and drag on the image to select the region of interest:"
-msgctxt "KPixmapRegionSelectorDialog|"
+msgctxt "KPixmapRegionSelectorDialog|@label:chooser"
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr "請按下並拖曳圖片來選擇一份區域："
 
 #: kpixmapregionselectorwidget.cpp:192
 #, fuzzy
 #| msgid "Image Operations"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@title:menu"
 msgid "Image Operations"
 msgstr "圖像操作"
 
 #: kpixmapregionselectorwidget.cpp:194
 #, fuzzy
 #| msgid "&Rotate Clockwise"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
 msgid "&Rotate Clockwise"
 msgstr "順時針方向旋轉(&R)"
 
 #: kpixmapregionselectorwidget.cpp:196
 #, fuzzy
 #| msgid "Rotate &Counterclockwise"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
 msgid "Rotate &Counterclockwise"
 msgstr "逆時針方向旋轉(&C)"
 
 #: ksqueezedtextlabel.cpp:217
 #, fuzzy
 #| msgid "&Copy Text"
-msgctxt "KSqueezedTextLabel|"
+msgctxt "KSqueezedTextLabel|@action:inmenu"
 msgid "&Copy Full Text"
 msgstr "複製文字(&C)"
 
@@ -3160,6 +3166,18 @@ msgstr "全螢幕模式"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Back"
+#~ msgctxt "KCharSelect|go back"
+#~ msgid "&Back"
+#~ msgstr "上一步(&B)"
+
+#, fuzzy
+#~| msgid "Password:"
+#~ msgctxt "KPasswordDialog|"
+#~ msgid "Password:"
+#~ msgstr "密碼："
 
 #, fuzzy
 #~| msgid "Here you can choose the font to be used."
@@ -10194,10 +10212,6 @@ msgstr ""
 #~ msgctxt "@title:column The Nepomuk resource's RDF type"
 #~ msgid "Resource Type"
 #~ msgstr "資源選擇"
-
-#, fuzzy
-#~ msgid "Enter Search Terms..."
-#~ msgstr "網絡搜尋"
 
 #, fuzzy
 #~ msgctxt "@option:check A filter on resource type"
