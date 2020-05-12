@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-08 03:01+0200\n"
+"POT-Creation-Date: 2020-05-12 03:07+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Error initializing provider."
 msgstr "供應者列表有語法錯誤。"
 
-#: core/engine.cpp:285 core/engine.cpp:799
+#: core/engine.cpp:285 core/engine.cpp:797
 #, fuzzy, kde-format
 #| msgid "Loading Applet"
 msgid "Loading data"
@@ -187,20 +187,20 @@ msgid ""
 "original item, which was named %1"
 msgstr ""
 
-#: core/engine.cpp:759
+#: core/engine.cpp:757
 #, fuzzy, kde-format
 #| msgid "Redo: %1"
 msgid "Re: %1"
 msgstr "重做：%1"
 
-#: core/engine.cpp:801
+#: core/engine.cpp:799
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "預覽列印(&W)..."
 
-#: core/engine.cpp:803 ui/itemsgridviewdelegate.cpp:342
+#: core/engine.cpp:801 ui/itemsgridviewdelegate.cpp:342
 #: ui/itemsviewdelegate.cpp:133
 #, fuzzy, kde-format
 #| msgid "Install"
@@ -385,9 +385,14 @@ msgid ""
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:819
+#: core/installation.cpp:837
 #, kde-format
-msgid "The uninstallation process failed to successfully run the command %1"
+msgid ""
+"The uninstallation process failed to successfully run the command %1\n"
+"The output of was: \n"
+"%2\n"
+"If you think this is incorrect, you can continue or cancel the "
+"uninstallation process"
 msgstr ""
 
 #: core/jobs/kpackagejob.cpp:100
