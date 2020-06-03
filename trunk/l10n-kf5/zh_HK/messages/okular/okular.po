@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-02 02:03+0200\n"
+"POT-Creation-Date: 2020-06-03 02:05+0200\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1211,210 +1211,211 @@ msgid ""
 "><br />Please select which one to use:</qt>"
 msgstr ""
 
-#: core/document.cpp:170
-#, kde-format
-msgctxt "Used in this context: 'Page sizes: Multiple'"
-msgid "Multiple"
-msgstr ""
+#: core/document.cpp:197
+#, fuzzy, kde-format
+#| msgid "Go to Page"
+msgctxt "@info %1 is a page size"
+msgid "Most pages are %1."
+msgstr "跳至頁"
 
-#: core/document.cpp:187
+#: core/document.cpp:216
 #, kde-format
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Portrait %1"
 msgstr ""
 
-#: core/document.cpp:189
+#: core/document.cpp:218
 #, kde-format
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Landscape %1"
 msgstr ""
 
-#: core/document.cpp:216
+#: core/document.cpp:245
 #, kde-format
 msgctxt "%1 is width, %2 is height, %3 is paper size name"
 msgid "%1 x %2 in (%3)"
 msgstr ""
 
-#: core/document.cpp:220
+#: core/document.cpp:249
 #, kde-format
 msgctxt "%1 is width, %2 is height, %3 is paper size name"
 msgid "%1 x %2 mm (%3)"
 msgstr ""
 
-#: core/document.cpp:1763
+#: core/document.cpp:1792
 #, kde-format
 msgid "Continuing search from beginning"
 msgstr ""
 
-#: core/document.cpp:1768
+#: core/document.cpp:1797
 #, kde-format
 msgid "Continuing search from bottom"
 msgstr ""
 
-#: core/document.cpp:2582
+#: core/document.cpp:2611
 #, kde-format
 msgid ""
 "Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 
-#: core/document.cpp:3714
+#: core/document.cpp:3743
 #, fuzzy, kde-format
 #| msgid "Presentation"
 msgctxt "remove a collection of annotations from the page"
 msgid "remove annotations"
 msgstr "表現"
 
-#: core/document.cpp:4293 core/document.cpp:4301
+#: core/document.cpp:4322 core/document.cpp:4330
 #, kde-format
 msgid ""
 "The document is trying to execute an external application and, for your "
 "safety, Okular does not allow that."
 msgstr ""
 
-#: core/document.cpp:4314
+#: core/document.cpp:4343
 #, kde-format
 msgid "No application found for opening file of mimetype %1."
 msgstr ""
 
-#: core/document.cpp:4689
+#: core/document.cpp:4718
 #, fuzzy, kde-format
 #| msgid "Could not open %1"
 msgid "Could not open a temporary file"
 msgstr "無法開啟 %1"
 
-#: core/document.cpp:4691
+#: core/document.cpp:4720
 #, kde-format
 msgid "Print conversion failed"
 msgstr ""
 
-#: core/document.cpp:4693
+#: core/document.cpp:4722
 #, kde-format
 msgid "Printing process crashed"
 msgstr ""
 
-#: core/document.cpp:4695
+#: core/document.cpp:4724
 #, kde-format
 msgid "Printing process could not start"
 msgstr ""
 
-#: core/document.cpp:4697
+#: core/document.cpp:4726
 #, kde-format
 msgid "Printing to file failed"
 msgstr ""
 
-#: core/document.cpp:4699
+#: core/document.cpp:4728
 #, kde-format
 msgid "Printer was in invalid state"
 msgstr ""
 
-#: core/document.cpp:4701
+#: core/document.cpp:4730
 #, kde-format
 msgid "Unable to find file to print"
 msgstr ""
 
-#: core/document.cpp:4703
+#: core/document.cpp:4732
 #, kde-format
 msgid "There was no file to print"
 msgstr ""
 
-#: core/document.cpp:4705
+#: core/document.cpp:4734
 #, kde-format
 msgid ""
 "Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
 "available"
 msgstr ""
 
-#: core/document.cpp:4707
+#: core/document.cpp:4736
 #, kde-format
 msgid "The page print size is invalid"
 msgstr ""
 
-#: core/document.cpp:5372 part.cpp:1111
+#: core/document.cpp:5401 part.cpp:1111
 #, kde-format
 msgid "Could not open '%1'. File does not exist"
 msgstr ""
 
-#: core/document.cpp:5860
+#: core/document.cpp:5889
 #, kde-format
 msgid "Title"
 msgstr "標題"
 
-#: core/document.cpp:5863
+#: core/document.cpp:5892
 #, kde-format
 msgid "Subject"
 msgstr "主題"
 
-#: core/document.cpp:5866
+#: core/document.cpp:5895
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#: core/document.cpp:5869
+#: core/document.cpp:5898
 #, fuzzy, kde-format
 #| msgid "Author"
 msgid "Author"
 msgstr "作者"
 
-#: core/document.cpp:5872
+#: core/document.cpp:5901
 #, fuzzy, kde-format
 #| msgid "Creator"
 msgid "Creator"
 msgstr "建立者"
 
-#: core/document.cpp:5875
+#: core/document.cpp:5904
 #, kde-format
 msgid "Producer"
 msgstr ""
 
-#: core/document.cpp:5878
+#: core/document.cpp:5907
 #, kde-format
 msgid "Copyright"
 msgstr ""
 
-#: core/document.cpp:5881
+#: core/document.cpp:5910
 #, fuzzy, kde-format
 #| msgid "Pages:"
 msgid "Pages"
 msgstr "頁："
 
-#: core/document.cpp:5884
+#: core/document.cpp:5913
 #, kde-format
 msgid "Created"
 msgstr ""
 
-#: core/document.cpp:5887
+#: core/document.cpp:5916
 #, kde-format
 msgid "Modified"
 msgstr ""
 
-#: core/document.cpp:5890
+#: core/document.cpp:5919
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Mime Type"
 msgstr "類型"
 
-#: core/document.cpp:5893
+#: core/document.cpp:5922
 #, kde-format
 msgid "Category"
 msgstr ""
 
-#: core/document.cpp:5896
+#: core/document.cpp:5925
 #, kde-format
 msgid "Keywords"
 msgstr "關鍵字"
 
-#: core/document.cpp:5899
+#: core/document.cpp:5928
 #, fuzzy, kde-format
 msgid "File Path"
 msgstr "標題"
 
-#: core/document.cpp:5902
+#: core/document.cpp:5931
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "File Size"
 msgstr "頁："
 
-#: core/document.cpp:5905
+#: core/document.cpp:5934
 #, fuzzy, kde-format
 #| msgid "Pages"
 msgid "Page Size"
@@ -1744,7 +1745,7 @@ msgid "Configure Backends..."
 msgstr "設定 KPDF..."
 
 #: part.cpp:773 ui/annotationpopup.cpp:105 ui/annotationpopup.cpp:140
-#: ui/propertiesdialog.cpp:53
+#: ui/propertiesdialog.cpp:54
 #, kde-format
 msgid "&Properties"
 msgstr "屬性(&P)"
@@ -3608,12 +3609,12 @@ msgstr "未知"
 msgid "Author: %1"
 msgstr "作者：%1"
 
-#: ui/guiutils.cpp:230 ui/propertiesdialog.cpp:212
+#: ui/guiutils.cpp:230 ui/propertiesdialog.cpp:237
 #, kde-format
 msgid "Where do you want to save %1?"
 msgstr ""
 
-#: ui/guiutils.cpp:241 ui/propertiesdialog.cpp:225
+#: ui/guiutils.cpp:241 ui/propertiesdialog.cpp:250
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
@@ -4197,198 +4198,215 @@ msgctxt ""
 msgid "Giving a presentation"
 msgstr "表現"
 
-#: ui/propertiesdialog.cpp:48
+#: ui/propertiesdialog.cpp:49
 #, kde-format
 msgid "Unknown File"
 msgstr "未知檔案"
 
-#: ui/propertiesdialog.cpp:62
+#: ui/propertiesdialog.cpp:63
 #, kde-format
 msgid "%1 Properties"
 msgstr "%1 屬性"
 
-#: ui/propertiesdialog.cpp:107
+#: ui/propertiesdialog.cpp:108
 #, kde-format
 msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
 msgid "%1 (%2)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:120
+#: ui/propertiesdialog.cpp:121
 #, kde-format
 msgid "%1:"
 msgstr "%1:"
 
-#: ui/propertiesdialog.cpp:127
+#: ui/propertiesdialog.cpp:128
 #, kde-format
 msgid "&Fonts"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:148
+#: ui/propertiesdialog.cpp:149
 #, fuzzy, kde-format
 #| msgid "Reloading the document..."
 msgid "Reading font information..."
 msgstr "正在重新載入文件..."
 
-#: ui/propertiesdialog.cpp:207
+#: ui/propertiesdialog.cpp:162
+#, fuzzy, kde-format
+#| msgid "&Page:"
+msgid "&Page Sizes"
+msgstr "頁(&P)："
+
+#: ui/propertiesdialog.cpp:232
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Extract Font"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:259
+#: ui/propertiesdialog.cpp:284
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Type 1"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:262
+#: ui/propertiesdialog.cpp:287
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Type 1C"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:265
+#: ui/propertiesdialog.cpp:290
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "Type 1C (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:268
+#: ui/propertiesdialog.cpp:293
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "Type 3"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:271
+#: ui/propertiesdialog.cpp:296
 #, fuzzy, kde-format
 #| msgid "Type"
 msgid "TrueType"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:274
+#: ui/propertiesdialog.cpp:299
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "TrueType (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:277
+#: ui/propertiesdialog.cpp:302
 #, kde-format
 msgid "CID Type 0"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:280
+#: ui/propertiesdialog.cpp:305
 #, kde-format
 msgid "CID Type 0C"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:283
+#: ui/propertiesdialog.cpp:308
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "CID Type 0C (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:286
+#: ui/propertiesdialog.cpp:311
 #, kde-format
 msgid "CID TrueType"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:289
+#: ui/propertiesdialog.cpp:314
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "CID TrueType (OT)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:292
+#: ui/propertiesdialog.cpp:317
 #, kde-format
 msgid "TeX PK"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:295
+#: ui/propertiesdialog.cpp:320
 #, kde-format
 msgid "TeX virtual"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:298
+#: ui/propertiesdialog.cpp:323
 #, kde-format
 msgid "TeX Font Metric"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:301
+#: ui/propertiesdialog.cpp:326
 #, kde-format
 msgid "TeX FreeType-handled"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:304
+#: ui/propertiesdialog.cpp:329
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "Unknown font type"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/propertiesdialog.cpp:318
+#: ui/propertiesdialog.cpp:343
 #, fuzzy, kde-format
 #| msgid "Embedded"
 msgid "Embedded (subset)"
 msgstr "內嵌的"
 
-#: ui/propertiesdialog.cpp:321
+#: ui/propertiesdialog.cpp:346
 #, fuzzy, kde-format
 #| msgid "Embedded"
 msgid "Fully embedded"
 msgstr "內嵌的"
 
-#: ui/propertiesdialog.cpp:332
+#: ui/propertiesdialog.cpp:357
 #, kde-format
 msgid "No"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:335
+#: ui/propertiesdialog.cpp:360
 #, kde-format
 msgid "Yes (subset)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:338
+#: ui/propertiesdialog.cpp:363
 #, kde-format
 msgid "Yes"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:360
+#: ui/propertiesdialog.cpp:385
 #, kde-format
 msgctxt "Replacing missing font with another one"
 msgid "%1 (substituting with %2)"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:362
+#: ui/propertiesdialog.cpp:387
 #, kde-format
 msgctxt "font name not available (empty)"
 msgid "[n/a]"
 msgstr ""
 
-#: ui/propertiesdialog.cpp:377
+#: ui/propertiesdialog.cpp:402
 #, fuzzy, kde-format
 #| msgid "Unknown Date"
 msgid "Unknown font"
 msgstr "未知日期"
 
-#: ui/propertiesdialog.cpp:381
+#: ui/propertiesdialog.cpp:406
 #, fuzzy, kde-format
 #| msgid "Embedded"
 msgid "Embedded: %1"
 msgstr "內嵌的"
 
-#: ui/propertiesdialog.cpp:414
+#: ui/propertiesdialog.cpp:439
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: ui/propertiesdialog.cpp:415
+#: ui/propertiesdialog.cpp:440
 #, kde-format
 msgid "Type"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:416
+#: ui/propertiesdialog.cpp:441
 #, fuzzy, kde-format
 msgid "File"
+msgstr "標題"
+
+#: ui/propertiesdialog.cpp:501
+#, fuzzy, kde-format
+#| msgid "Pages:"
+msgid "Page"
+msgstr "頁："
+
+#: ui/propertiesdialog.cpp:502
+#, fuzzy, kde-format
+msgid "Size"
 msgstr "標題"
 
 #: ui/revisionviewer.cpp:43
@@ -4803,11 +4821,6 @@ msgstr ""
 
 #~ msgid "Show &Navigation Panel"
 #~ msgstr "顯示導覽面版(&N)"
-
-#, fuzzy
-#~| msgid "&Page:"
-#~ msgid "&Page Size"
-#~ msgstr "頁(&P)："
 
 #, fuzzy
 #~| msgid "Speak Text"
