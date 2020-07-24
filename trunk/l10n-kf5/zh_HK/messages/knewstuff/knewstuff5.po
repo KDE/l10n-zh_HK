@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-23 02:05+0200\n"
+"POT-Creation-Date: 2020-07-24 02:06+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -628,7 +628,7 @@ msgstr "更新"
 
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
 #: downloadwidget.ui:582 ui/itemsgridviewdelegate.cpp:333
-#: ui/itemsviewdelegate.cpp:124
+#: ui/itemsviewdelegate.cpp:124 ui/itemsviewdelegate.cpp:191
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Uninstall"
@@ -1119,7 +1119,7 @@ msgid "Show Reviews and Replies"
 msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:155
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:199
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:200
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "The number of times the item has been downloaded"
@@ -1127,7 +1127,7 @@ msgid "%1 downloads"
 msgstr "下載"
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:168
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:180
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:181
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt ""
@@ -1185,7 +1185,7 @@ msgctxt "Title for a dialog box which shows error messages"
 msgid "An Error Occurred"
 msgstr "沒有發生錯誤"
 
-#: qtquick/qml/private/GridTileDelegate.qml:118
+#: qtquick/qml/private/GridTileDelegate.qml:120
 #, fuzzy, kde-format
 #| msgid "None"
 msgid "None"
@@ -1249,7 +1249,7 @@ msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
 msgstr "在新視窗開啟(&W)"
 
-#: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:281
+#: ui/itemsgridviewdelegate.cpp:101 ui/itemsviewdelegate.cpp:297
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating: %1%"
@@ -1263,35 +1263,35 @@ msgid "<br />Size: %1"
 msgstr "隱藏 %1"
 
 #: ui/itemsgridviewdelegate.cpp:159 ui/itemsgridviewdelegate.cpp:161
-#: ui/itemsgridviewdelegate.cpp:163 ui/itemsviewdelegate.cpp:241
-#: ui/itemsviewdelegate.cpp:243 ui/itemsviewdelegate.cpp:245
+#: ui/itemsgridviewdelegate.cpp:163 ui/itemsviewdelegate.cpp:257
+#: ui/itemsviewdelegate.cpp:259 ui/itemsviewdelegate.cpp:261
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<b>錯誤</b>：%1：%2<br>"
 
-#: ui/itemsgridviewdelegate.cpp:186 ui/itemsviewdelegate.cpp:259
+#: ui/itemsgridviewdelegate.cpp:186 ui/itemsviewdelegate.cpp:275
 #, kde-format
 msgctxt "fan as in supporter"
 msgid "1 fan"
 msgid_plural "%1 fans"
 msgstr[0] ""
 
-#: ui/itemsgridviewdelegate.cpp:189 ui/itemsviewdelegate.cpp:262
+#: ui/itemsgridviewdelegate.cpp:189 ui/itemsviewdelegate.cpp:278
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "1 download"
 msgid_plural "%1 downloads"
 msgstr[0] "下載"
 
-#: ui/itemsgridviewdelegate.cpp:255 ui/itemsviewdelegate.cpp:335
+#: ui/itemsgridviewdelegate.cpp:255 ui/itemsviewdelegate.cpp:351
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgid "Loading Preview"
 msgstr "預覽列印(&W)..."
 
-#: ui/itemsgridviewdelegate.cpp:282 ui/itemsviewdelegate.cpp:186
+#: ui/itemsgridviewdelegate.cpp:282 ui/itemsviewdelegate.cpp:202
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
@@ -1308,13 +1308,13 @@ msgstr "更新"
 msgid "Install Again"
 msgstr "安裝"
 
-#: ui/itemsviewdelegate.cpp:174
+#: ui/itemsviewdelegate.cpp:176
 #, fuzzy, kde-format
 #| msgid "Unshade"
 msgid "Use"
 msgstr "展開"
 
-#: ui/itemsviewdelegate.cpp:230
+#: ui/itemsviewdelegate.cpp:246
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "Show the size of the file in a list"
