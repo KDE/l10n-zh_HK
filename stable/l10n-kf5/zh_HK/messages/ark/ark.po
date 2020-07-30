@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-13 07:53+0200\n"
+"POT-Creation-Date: 2020-07-30 08:07+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -922,83 +922,90 @@ msgid ""
 "the archive type are installed."
 msgstr "加入檔案到壓縮檔時發生錯誤。"
 
-#: kerfuffle/jobs.cpp:261
+#: kerfuffle/jobs.cpp:186
+#, kde-format
+msgid ""
+"Could not load the archive because it contains ill-formed entries and might "
+"be a malicious archive."
+msgstr ""
+
+#: kerfuffle/jobs.cpp:269
 #, fuzzy, kde-format
 #| msgid "Creating archive..."
 msgid "Loading archive"
 msgstr "正在建立壓縮檔...."
 
-#: kerfuffle/jobs.cpp:261 kerfuffle/jobs.cpp:515 kerfuffle/jobs.cpp:661
-#: kerfuffle/jobs.cpp:714 kerfuffle/jobs.cpp:752 kerfuffle/jobs.cpp:784
-#: kerfuffle/jobs.cpp:832
+#: kerfuffle/jobs.cpp:269 kerfuffle/jobs.cpp:523 kerfuffle/jobs.cpp:669
+#: kerfuffle/jobs.cpp:722 kerfuffle/jobs.cpp:760 kerfuffle/jobs.cpp:792
+#: kerfuffle/jobs.cpp:840
 #, fuzzy, kde-format
 #| msgid "Open 'archive'"
 msgid "Archive"
 msgstr "開啟「壓縮檔」"
 
-#: kerfuffle/jobs.cpp:511
+#: kerfuffle/jobs.cpp:519
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting all files"
 msgstr "解開所有檔案"
 
 #. i18np on purpose so this translation may properly be reused.
-#: kerfuffle/jobs.cpp:513 kerfuffle/jobs.cpp:587
+#: kerfuffle/jobs.cpp:521 kerfuffle/jobs.cpp:595
 #, fuzzy, kde-format
 #| msgid "Extract all files"
 msgid "Extracting one file"
 msgid_plural "Extracting %1 files"
 msgstr[0] "解開所有檔案"
 
-#: kerfuffle/jobs.cpp:515
+#: kerfuffle/jobs.cpp:523
 #, fuzzy, kde-format
 #| msgid "Destination folder: "
 msgctxt "extraction folder"
 msgid "Destination"
 msgstr "目的地資料夾："
 
-#: kerfuffle/jobs.cpp:519
+#: kerfuffle/jobs.cpp:527
 #, kde-kuit-format
 msgid ""
 "Could not write to destination <filename>%1</filename>.<nl/>Check whether "
 "you have sufficient permissions."
 msgstr ""
 
-#: kerfuffle/jobs.cpp:660
+#: kerfuffle/jobs.cpp:668
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Compressing a file"
 msgid_plural "Compressing %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:713
+#: kerfuffle/jobs.cpp:721
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Moving a file"
 msgid_plural "Moving %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:751
+#: kerfuffle/jobs.cpp:759
 #, fuzzy, kde-format
 #| msgid "Adding files..."
 msgid "Copying a file"
 msgid_plural "Copying %1 files"
 msgstr[0] "加入檔案中..."
 
-#: kerfuffle/jobs.cpp:783
+#: kerfuffle/jobs.cpp:791
 #, fuzzy, kde-format
 #| msgid "An error occurred while adding the files to the archive."
 msgid "Deleting a file from the archive"
 msgid_plural "Deleting %1 files"
 msgstr[0] "加入檔案到壓縮檔時發生錯誤。"
 
-#: kerfuffle/jobs.cpp:807
+#: kerfuffle/jobs.cpp:815
 #, fuzzy, kde-format
 #| msgid "Adding folder..."
 msgid "Adding comment"
 msgstr "加入資料夾..."
 
-#: kerfuffle/jobs.cpp:832
+#: kerfuffle/jobs.cpp:840
 #, fuzzy, kde-format
 #| msgid "Creating archive..."
 msgid "Testing archive"
