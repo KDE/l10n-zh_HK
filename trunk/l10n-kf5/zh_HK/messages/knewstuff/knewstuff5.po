@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-30 02:07+0200\n"
+"POT-Creation-Date: 2020-08-02 02:07+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -786,7 +786,7 @@ msgstr "更多..."
 #| msgid "Categories"
 msgctxt ""
 "The first entry in the category selection list (also the default value)"
-msgid "Show All Categories"
+msgid "All Categories"
 msgstr "分類"
 
 #: qtquick/categoriesmodel.cpp:108
@@ -985,13 +985,13 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "安裝"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:189
+#: qtquick/qml/NewStuffList.qml:83
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:190
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:195
 #, fuzzy, kde-format
 #| msgid "Installation"
 msgctxt ""
@@ -999,7 +999,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "安裝"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:191
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:196
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -1007,7 +1007,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:203
+#: qtquick/qml/NewStuffList.qml:97
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
@@ -1015,7 +1015,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:204
+#: qtquick/qml/NewStuffList.qml:98
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -1023,13 +1023,13 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:205
+#: qtquick/qml/NewStuffList.qml:99
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:206
+#: qtquick/qml/NewStuffList.qml:100
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -1058,7 +1058,50 @@ msgstr "詳細資料"
 msgid "Preview view mode"
 msgstr "詳細資料"
 
-#: qtquick/qml/Page.qml:253
+#: qtquick/qml/Page.qml:176
+#, fuzzy, kde-format
+#| msgid "Show %1"
+msgid "Show:"
+msgstr "顯示 %1"
+
+#: qtquick/qml/Page.qml:194
+#, kde-format
+msgctxt "List option which will set the filter to show everything"
+msgid "Everything"
+msgstr ""
+
+#: qtquick/qml/Page.qml:208
+#, kde-format
+msgctxt ""
+"List option which will set the sort order to based on when items were most "
+"recently updated"
+msgid "Most recent first"
+msgstr ""
+
+#: qtquick/qml/Page.qml:209
+#, kde-format
+msgctxt ""
+"List option which will set the sort order to be alphabetical based on the "
+"name"
+msgid "A-Z"
+msgstr ""
+
+#: qtquick/qml/Page.qml:210
+#, fuzzy, kde-format
+#| msgid "Highest Rated"
+msgctxt "List option which will set the sort order to based on user ratings"
+msgid "Highest rated first"
+msgstr "最高評分"
+
+#: qtquick/qml/Page.qml:211
+#, fuzzy, kde-format
+#| msgid "Most Downloads"
+msgctxt ""
+"List option which will set the sort order to based on number of downloads"
+msgid "Most downloaded first"
+msgstr "最多下載次數"
+
+#: qtquick/qml/Page.qml:258
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgctxt ""
@@ -1066,7 +1109,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "預覽列印(&W)..."
 
-#: qtquick/qml/Page.qml:320
+#: qtquick/qml/Page.qml:325
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1662,6 +1705,13 @@ msgstr ""
 #| msgid "Start replace"
 msgid "Start Upload"
 msgstr "開始取代"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgctxt ""
+#~ "The first entry in the category selection list (also the default value)"
+#~ msgid "Show All Categories"
+#~ msgstr "分類"
 
 #, fuzzy
 #~| msgid "Internet Search"
@@ -9725,9 +9775,6 @@ msgstr "開始取代"
 #~ msgid "Latest"
 #~ msgstr "最新"
 
-#~ msgid "Highest Rated"
-#~ msgstr "最高評分"
-
 #~ msgid "Most Downloads"
 #~ msgstr "最多下載次數"
 
@@ -13386,11 +13433,6 @@ msgstr "開始取代"
 #~| msgid "Email"
 #~ msgid "Email:"
 #~ msgstr "Email"
-
-#, fuzzy
-#~| msgid "Show %1"
-#~ msgid "Show:"
-#~ msgstr "顯示 %1"
 
 #~ msgid "Close this tab"
 #~ msgstr "關閉此分頁"
