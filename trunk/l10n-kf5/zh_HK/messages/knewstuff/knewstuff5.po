@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-14 02:08+0200\n"
+"POT-Creation-Date: 2020-08-15 02:07+0200\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -257,7 +257,7 @@ msgstr "安裝熱門禮物失敗。"
 msgid "The installation of %1 failed to create the expected new directory %2"
 msgstr ""
 
-#: core/installation.cpp:456 core/installation.cpp:690
+#: core/installation.cpp:456 core/installation.cpp:724
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installation of %1 failed: %2"
@@ -341,14 +341,14 @@ msgid ""
 "%3"
 msgstr ""
 
-#: core/installation.cpp:696
+#: core/installation.cpp:730
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:700
+#: core/installation.cpp:734
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package is not a supported type "
@@ -356,21 +356,21 @@ msgid ""
 "package?)"
 msgstr ""
 
-#: core/installation.cpp:704
+#: core/installation.cpp:738
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain any "
 "useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:744
+#: core/installation.cpp:778
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the downloaded file %2 could not be "
 "automatically removed."
 msgstr ""
 
-#: core/installation.cpp:748
+#: core/installation.cpp:782
 #, kde-format
 msgid ""
 "The removal of %1 failed, due to the installed file not being a KPackage. "
@@ -378,14 +378,14 @@ msgid ""
 "you are certain that it is not needed."
 msgstr ""
 
-#: core/installation.cpp:752
+#: core/installation.cpp:786
 #, kde-format
 msgid ""
 "The removal of %1 failed, as there seems to somehow be more than one thing "
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:780
+#: core/installation.cpp:815
 #, kde-format
 msgid ""
 "The uninstallation process failed to successfully run the command %1\n"
@@ -1101,7 +1101,7 @@ msgctxt ""
 msgid "Most downloaded first"
 msgstr "最多下載次數"
 
-#: qtquick/qml/Page.qml:249
+#: qtquick/qml/Page.qml:277
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgctxt ""
@@ -1109,7 +1109,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "預覽列印(&W)..."
 
-#: qtquick/qml/Page.qml:316
+#: qtquick/qml/Page.qml:288
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1162,7 +1162,7 @@ msgid "Show Reviews and Replies"
 msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:140
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:185
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:179
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "The number of times the item has been downloaded"
@@ -1170,7 +1170,7 @@ msgid "%1 downloads"
 msgstr "下載"
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:153
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:166
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:160
 #, fuzzy, kde-format
 #| msgid "<b>Error</b>: %1: %2"
 msgctxt ""
@@ -1212,13 +1212,6 @@ msgstr ""
 msgctxt "Label for the busy indicator showing an item is installing"
 msgid "Installing..."
 msgstr "安裝"
-
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:79
-#, fuzzy, kde-format
-#| msgid "Details"
-msgctxt "Show a page with details for this item"
-msgid "Details..."
-msgstr "詳細資料"
 
 #: qtquick/qml/private/ErrorDisplayer.qml:11
 #, fuzzy, kde-format
@@ -1705,6 +1698,12 @@ msgstr ""
 #| msgid "Start replace"
 msgid "Start Upload"
 msgstr "開始取代"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgctxt "Show a page with details for this item"
+#~ msgid "Details..."
+#~ msgstr "詳細資料"
 
 #, fuzzy
 #~| msgid "Categories"
