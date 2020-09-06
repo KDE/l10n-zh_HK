@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_sambaconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-28 02:23+0200\n"
+"POT-Creation-Date: 2020-09-06 02:19+0200\n"
 "PO-Revision-Date: 2006-01-02 22:10+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -95,11 +95,10 @@ msgid "Show Samba status monitor"
 msgstr ""
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:24
-#, fuzzy, kde-format
-#| msgid "Remove User"
+#, kde-format
 msgctxt "@title"
-msgid "Create User"
-msgstr "移除使用者"
+msgid "Set password"
+msgstr ""
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:75
 #, kde-format
@@ -120,11 +119,11 @@ msgid "Passwords must match"
 msgstr ""
 
 #: samba/filepropertiesplugin/qml/ChangePassword.qml:116
-#, fuzzy, kde-format
-#| msgid "Remove User"
-msgctxt "@action:button creates a new samba user"
-msgid "Create User"
-msgstr "移除使用者"
+#, kde-format
+msgctxt ""
+"@action:button creates a new samba user with the user-specified password"
+msgid "Set Password"
+msgstr ""
 
 #: samba/filepropertiesplugin/qml/GroupPage.qml:30
 #, kde-format
@@ -187,7 +186,7 @@ msgstr ""
 #: samba/filepropertiesplugin/qml/UserPage.qml:70
 #, kde-format
 msgctxt "@action:button opens dialog to create new user"
-msgid "Create My Samba User"
+msgid "Create Samba password"
 msgstr ""
 
 #: samba/filepropertiesplugin/sambausershareplugin.cpp:215
@@ -311,6 +310,18 @@ msgstr ""
 msgctxt "@label kauth action description %1 is a username"
 msgid "Creating new Samba user '%1'"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Remove User"
+#~ msgctxt "@title"
+#~ msgid "Create User"
+#~ msgstr "移除使用者"
+
+#, fuzzy
+#~| msgid "Remove User"
+#~ msgctxt "@action:button creates a new samba user"
+#~ msgid "Create User"
+#~ msgstr "移除使用者"
 
 #, fuzzy
 #~| msgid "Use Sam&ba (Microsoft(R) Windows(R))"
