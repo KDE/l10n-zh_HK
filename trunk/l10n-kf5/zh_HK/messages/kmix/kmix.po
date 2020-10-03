@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-02 02:17+0200\n"
+"POT-Creation-Date: 2020-10-03 02:19+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -102,34 +102,34 @@ msgstr "靜音"
 msgid "Add new view"
 msgstr ""
 
-#: apps/kmix.cpp:806
+#: apps/kmix.cpp:799
 #, kde-format
 msgid "Cannot add view - GUIProfile is invalid."
 msgstr ""
 
-#: apps/kmix.cpp:806 apps/kmix.cpp:813
+#: apps/kmix.cpp:799 apps/kmix.cpp:806
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: apps/kmix.cpp:813
+#: apps/kmix.cpp:806
 #, kde-format
 msgid "Cannot add view - View already exists."
 msgstr ""
 
-#: apps/kmix.cpp:933 apps/kmixd.cpp:199
+#: apps/kmix.cpp:926 apps/kmixd.cpp:199
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
 
-#: apps/kmix.cpp:942 apps/kmixd.cpp:209
+#: apps/kmix.cpp:935 apps/kmixd.cpp:209
 #, kde-format
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: apps/kmix.cpp:1214
+#: apps/kmix.cpp:1207
 #, kde-format
 msgid ""
 "The helper application is either not installed or not working.\n"
@@ -137,7 +137,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: apps/kmix.cpp:1266
+#: apps/kmix.cpp:1259
 #, fuzzy, kde-format
 #| msgid "Mixer"
 msgid "Mixer (%1)"
@@ -307,7 +307,7 @@ msgstr ""
 msgid "Starts KMix in failsafe mode."
 msgstr ""
 
-#: backends/mixer_alsa9.cpp:981
+#: backends/mixer_alsa9.cpp:1020
 #, kde-format
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
@@ -316,7 +316,7 @@ msgstr ""
 "你沒有足夠權限存取 alsa 混音器裝置。\n"
 "請查看所有的 alsa 裝置是否已正確的建立。"
 
-#: backends/mixer_alsa9.cpp:985
+#: backends/mixer_alsa9.cpp:1024
 #, kde-format
 msgid ""
 "Alsa mixer cannot be found.\n"
@@ -326,6 +326,12 @@ msgstr ""
 "找不到 Alsa 混音器。\n"
 "請確定音效卡已經安裝及音效卡的\n"
 "驅動程式亦已載入。\n"
+
+#: backends/mixer_alsa9.cpp:1077 backends/mixer_pulse.cpp:1213
+#, fuzzy, kde-format
+#| msgid "Volume"
+msgid "Volume Control Feedback Sound"
+msgstr "音量"
 
 #: backends/mixer_backend.cpp:325
 #, kde-format
@@ -536,7 +542,7 @@ msgstr "3D-depth"
 msgid "3D-center"
 msgstr "3D-center"
 
-#: backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68 core/mixdevice.cpp:134
+#: backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68 core/mixdevice.cpp:126
 #, kde-format
 msgid "unknown"
 msgstr "不詳"
@@ -616,12 +622,6 @@ msgstr ""
 msgid "Capture Streams"
 msgstr ""
 
-#: backends/mixer_pulse.cpp:1213
-#, fuzzy, kde-format
-#| msgid "Volume"
-msgid "Volume Control Feedback Sound"
-msgstr "音量"
-
 #: backends/mixer_sun.cpp:69
 #, kde-format
 msgid "Master Volume"
@@ -661,64 +661,64 @@ msgstr ""
 "kmix: 你沒有足夠權限存取混音器裝置。\n"
 "請向系統管理員要求修正以存取這個裝置 /dev/audioctl 。"
 
-#: core/volume.cpp:47
+#: core/volume.cpp:58
 #, kde-format
 msgctxt "Channel name"
 msgid "Left"
 msgstr ""
 
-#: core/volume.cpp:48
+#: core/volume.cpp:59
 #, kde-format
 msgctxt "Channel name"
 msgid "Right"
 msgstr ""
 
-#: core/volume.cpp:49
+#: core/volume.cpp:60
 #, fuzzy, kde-format
 #| msgid "3D-center"
 msgctxt "Channel name"
 msgid "Center"
 msgstr "3D-center"
 
-#: core/volume.cpp:50
+#: core/volume.cpp:61
 #, kde-format
 msgctxt "Channel name"
 msgid "Subwoofer"
 msgstr ""
 
-#: core/volume.cpp:51
+#: core/volume.cpp:62
 #, fuzzy, kde-format
 #| msgid "Surround"
 msgctxt "Channel name"
 msgid "Surround Left"
 msgstr "環繞"
 
-#: core/volume.cpp:52
+#: core/volume.cpp:63
 #, fuzzy, kde-format
 #| msgid "Surround"
 msgctxt "Channel name"
 msgid "Surround Right"
 msgstr "環繞"
 
-#: core/volume.cpp:53
+#: core/volume.cpp:64
 #, kde-format
 msgctxt "Channel name"
 msgid "Side Left"
 msgstr ""
 
-#: core/volume.cpp:54
+#: core/volume.cpp:65
 #, kde-format
 msgctxt "Channel name"
 msgid "Side Right"
 msgstr ""
 
-#: core/volume.cpp:55
+#: core/volume.cpp:66
 #, kde-format
 msgctxt "Channel name"
 msgid "Rear Center"
 msgstr ""
 
-#: core/volume.cpp:57
+#: core/volume.cpp:68
 #, fuzzy, kde-format
 #| msgid "unknown"
 msgctxt "Channel name"
@@ -850,7 +850,7 @@ msgstr "選取聲道"
 msgid "Available channels"
 msgstr "可用的混音器:"
 
-#: gui/kmixdockwidget.cpp:65 gui/kmixprefdlg.cpp:81
+#: gui/kmixdockwidget.cpp:65 gui/kmixprefdlg.cpp:82
 #, fuzzy, kde-format
 #| msgid "Volume"
 msgid "Volume Control"
@@ -882,45 +882,45 @@ msgstr "在 %1% 的音量"
 msgid "%1 - %2"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:60
+#: gui/kmixprefdlg.cpp:61
 #, kde-format
 msgid "Configure"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:79
+#: gui/kmixprefdlg.cpp:80
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:80
+#: gui/kmixprefdlg.cpp:81
 #, kde-format
 msgid "Startup"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:118
+#: gui/kmixprefdlg.cpp:119
 #, kde-format
 msgid "Start KMix on desktop startup"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:120
+#: gui/kmixprefdlg.cpp:121
 #, kde-format
 msgid "Start KMix automatically when the desktop starts."
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:123
+#: gui/kmixprefdlg.cpp:124
 #, kde-format
 msgid ""
 "Autostart will not work, because the autostart file kmix_autostart.desktop "
 "is missing. Check that KMix is installed correctly."
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:133
+#: gui/kmixprefdlg.cpp:134
 #, fuzzy, kde-format
 #| msgid "Restore volumes on login"
 msgid "Restore previous volume settings on desktop startup"
 msgstr "登入時回復原來的音量"
 
-#: gui/kmixprefdlg.cpp:135
+#: gui/kmixprefdlg.cpp:136
 #, fuzzy, kde-format
 #| msgid "Restore volumes on login"
 msgid ""
@@ -928,114 +928,124 @@ msgid ""
 "when the desktop starts."
 msgstr "登入時回復原來的音量"
 
-#: gui/kmixprefdlg.cpp:138
+#: gui/kmixprefdlg.cpp:139
 #, kde-format
 msgid ""
 "The volume of PulseAudio or MPRIS2 dynamic controls will not be restored."
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:155
+#: gui/kmixprefdlg.cpp:156
 #, kde-format
 msgid "&Horizontal"
 msgstr "水平(&H)"
 
-#: gui/kmixprefdlg.cpp:156
+#: gui/kmixprefdlg.cpp:157
 #, kde-format
 msgid "&Vertical"
 msgstr "垂直(&V)"
 
-#: gui/kmixprefdlg.cpp:198
+#: gui/kmixprefdlg.cpp:199
 #, kde-format
 msgid "Behavior"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:207
+#: gui/kmixprefdlg.cpp:208
 #, fuzzy, kde-format
 #| msgid "Volume"
 msgid "Volume feedback"
 msgstr "音量"
 
-#: gui/kmixprefdlg.cpp:210
+#: gui/kmixprefdlg.cpp:211
 #, fuzzy, kde-format
 #| msgid "Volume"
 msgid "Volume overdrive"
 msgstr "音量"
 
-#: gui/kmixprefdlg.cpp:211
+#: gui/kmixprefdlg.cpp:212
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Raise the maximum volume to 150%"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:215
+#: gui/kmixprefdlg.cpp:216
 #, kde-format
 msgid "Volume feedback and volume overdrive are only available for PulseAudio."
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:234
+#: gui/kmixprefdlg.cpp:236
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para>Set the volume step as a percentage of the volume range.</"
+"para><para>This affects changing the volume via hot keys, with the mouse "
+"wheel over the system tray icon, or moving sliders by a page step.</"
+"para><para>%1 must be restarted for this change to take effect.</para>"
+msgstr ""
+
+#: gui/kmixprefdlg.cpp:243
 #, fuzzy, kde-format
 #| msgid "Volume"
 msgid "Volume step:"
 msgstr "音量"
 
-#: gui/kmixprefdlg.cpp:243
+#: gui/kmixprefdlg.cpp:252
 #, kde-format
 msgid ""
-"KMix must be restarted for the Volume Step and Overdrive settings to take "
+"%1 must be restarted for the Volume Step and Overdrive settings to take "
 "effect."
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:253
+#: gui/kmixprefdlg.cpp:263
 #, kde-format
 msgid "Visual"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:262
+#: gui/kmixprefdlg.cpp:272
 #, fuzzy, kde-format
 #| msgid "Show &tickmarks"
 msgid "Show slider &tickmarks"
 msgstr "顯示刻度(&T)"
 
-#: gui/kmixprefdlg.cpp:263
+#: gui/kmixprefdlg.cpp:273
 #, kde-format
 msgid "Enable/disable tickmark scales on the sliders"
 msgstr "顯示/隱藏音量控制器的刻度"
 
-#: gui/kmixprefdlg.cpp:265
+#: gui/kmixprefdlg.cpp:275
 #, fuzzy, kde-format
 #| msgid "Show &labels"
 msgid "Show control &labels"
 msgstr "顯示標籤(&L)"
 
-#: gui/kmixprefdlg.cpp:266
+#: gui/kmixprefdlg.cpp:276
 #, kde-format
 msgid "Enables/disables description labels above the sliders"
 msgstr "顯示/隱藏音量控制器上的說明標籤"
 
-#: gui/kmixprefdlg.cpp:270
+#: gui/kmixprefdlg.cpp:280
 #, kde-format
 msgid "Show On Screen Display (&OSD)"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:280
+#: gui/kmixprefdlg.cpp:290
 #, fuzzy, kde-format
 #| msgid "Enable system tray &volume control"
 msgid "Slider orientation (main window): "
 msgstr "啟動系統匣音量控制器(&V)"
 
-#: gui/kmixprefdlg.cpp:281
+#: gui/kmixprefdlg.cpp:291
 #, fuzzy, kde-format
 #| msgid "Enable system tray &volume control"
 msgid "Slider orientation (system tray popup):"
 msgstr "啟動系統匣音量控制器(&V)"
 
-#: gui/kmixprefdlg.cpp:292
+#: gui/kmixprefdlg.cpp:302
 #, fuzzy, kde-format
 #| msgid "&Dock into panel"
 msgid "Dock in system tray"
 msgstr "停泊在面板內(&D)"
 
-#: gui/kmixprefdlg.cpp:294
+#: gui/kmixprefdlg.cpp:304
 #, kde-format
 msgid ""
 "Dock the mixer into the system tray. Click on it to open the popup volume "
@@ -1053,7 +1063,7 @@ msgstr ""
 msgid "Split Channels"
 msgstr "分開聲道(&S)"
 
-#: gui/mdwslider.cpp:109 gui/mdwslider.cpp:618
+#: gui/mdwslider.cpp:109 gui/mdwslider.cpp:629
 #, kde-format
 msgid "Capture"
 msgstr ""
@@ -1083,19 +1093,19 @@ msgctxt "1=device name, 2=control name"
 msgid "Decrease volume of %2 on %1"
 msgstr "減少主聲道音量"
 
-#: gui/mdwslider.cpp:318
+#: gui/mdwslider.cpp:329
 #, kde-format
 msgctxt "%1=channel"
 msgid "Capture/Uncapture %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:319
+#: gui/mdwslider.cpp:330
 #, kde-format
 msgctxt "%1=channel"
 msgid "Mute/Unmute %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:323 gui/mdwslider.cpp:324 gui/mdwslider.cpp:325
+#: gui/mdwslider.cpp:334 gui/mdwslider.cpp:335 gui/mdwslider.cpp:336
 #, kde-format
 msgctxt "%1=device %2=channel"
 msgid ""
@@ -1103,12 +1113,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: gui/mdwslider.cpp:644
+#: gui/mdwslider.cpp:663
 #, kde-format
 msgid "%1 (capture)"
 msgstr ""
 
-#: gui/mdwslider.cpp:1081
+#: gui/mdwslider.cpp:1100
 #, kde-format
 msgid "Automatic (according to category)"
 msgstr ""
