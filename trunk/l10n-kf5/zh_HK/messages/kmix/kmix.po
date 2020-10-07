@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-06 02:18+0200\n"
+"POT-Creation-Date: 2020-10-07 02:19+0200\n"
 "PO-Revision-Date: 2006-01-14 17:20+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -772,22 +772,35 @@ msgstr ""
 msgid "Select Mixers"
 msgstr "選取混音器"
 
-#: gui/dialogselectmaster.cpp:41 gui/dialogselectmaster.cpp:149
+#: gui/dialogselectmaster.cpp:42 gui/dialogselectmaster.cpp:166
 #, kde-format
 msgid "Select Master Channel"
 msgstr "顯示主聲道"
 
-#: gui/dialogselectmaster.cpp:71
+#: gui/dialogselectmaster.cpp:75
 #, kde-format
 msgid "Current mixer:"
 msgstr "當前混音器:"
 
-#: gui/dialogselectmaster.cpp:98
-#, kde-format
-msgid "Select the channel representing the master volume:"
+#: gui/dialogselectmaster.cpp:101
+#, fuzzy, kde-kuit-format
+#| msgid "Select the channel representing the master volume:"
+msgctxt "@info"
+msgid "Select the <a href=\"i\">master volume</a> channel:"
 msgstr "選取代表主音量的聲道:"
 
-#: gui/dialogselectmaster.cpp:176
+#: gui/dialogselectmaster.cpp:109
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para>Here you can select the master sound device (if there is more than "
+"one) and its master channel.</para><para>The master channel is the one that "
+"is affected by the system tray volume control, the volume up/down and mute "
+"global shortcut keys, and the <interface>Mute</interface> action in the "
+"system tray popup menu.</para>"
+msgstr ""
+
+#: gui/dialogselectmaster.cpp:191
 #, kde-format
 msgid "Automatic (%1 recommendation)"
 msgstr ""
