@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-15 02:37+0200\n"
+"POT-Creation-Date: 2020-10-19 02:32+0200\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -93,6 +93,15 @@ msgctxt "@info"
 msgid ""
 "There was an error while extracting <filename>%1</filename>:<nl/><message>"
 "%2</message>"
+msgstr "上次用作解壓縮的資料夾"
+
+#: app/batchextract.cpp:312
+#, fuzzy, kde-kuit-format
+#| msgid "Last folders used for extraction"
+msgctxt "@info"
+msgid ""
+"The archive could not be extracted to <filename>%1</filename> because Ark "
+"can only extract to local destinations."
 msgstr "上次用作解壓縮的資料夾"
 
 #: app/compressfileitemaction.cpp:69
