@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-27 03:37+0100\n"
+"POT-Creation-Date: 2021-01-04 02:20+0100\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -177,52 +177,52 @@ msgstr "旋轉"
 msgid "Skew"
 msgstr "扭曲"
 
-#: commands/kpCommandHistoryBase.cpp:446
+#: commands/kpCommandHistoryBase.cpp:437
 #, kde-format
 msgid "&Undo: %1"
 msgstr "復原(&U): %1"
 
-#: commands/kpCommandHistoryBase.cpp:446
+#: commands/kpCommandHistoryBase.cpp:437
 #, fuzzy, kde-format
 msgid "&Undo"
 msgstr "復原(&U): %1"
 
-#: commands/kpCommandHistoryBase.cpp:454
+#: commands/kpCommandHistoryBase.cpp:445
 #, kde-format
 msgid "&Redo: %1"
 msgstr "取消復原(&R): %1"
 
-#: commands/kpCommandHistoryBase.cpp:454
+#: commands/kpCommandHistoryBase.cpp:445
 #, fuzzy, kde-format
 msgid "&Redo"
 msgstr "紅色(&R)"
 
-#: commands/kpCommandHistoryBase.cpp:463
+#: commands/kpCommandHistoryBase.cpp:454
 #, fuzzy, kde-format
 msgid "Undo: %1"
 msgstr "復原(&U): %1"
 
-#: commands/kpCommandHistoryBase.cpp:463 commands/kpCommandHistoryBase.cpp:649
+#: commands/kpCommandHistoryBase.cpp:454 commands/kpCommandHistoryBase.cpp:635
 #, fuzzy, kde-format
 msgid "Undo"
 msgstr "復原(&U): %1"
 
-#: commands/kpCommandHistoryBase.cpp:471
+#: commands/kpCommandHistoryBase.cpp:462
 #, fuzzy, kde-format
 msgid "Redo: %1"
 msgstr "取消復原(&R): %1"
 
-#: commands/kpCommandHistoryBase.cpp:471 commands/kpCommandHistoryBase.cpp:670
+#: commands/kpCommandHistoryBase.cpp:462 commands/kpCommandHistoryBase.cpp:656
 #, fuzzy, kde-format
 msgid "Redo"
 msgstr "紅色"
 
-#: commands/kpCommandHistoryBase.cpp:611
+#: commands/kpCommandHistoryBase.cpp:597
 #, kde-format
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: commands/kpCommandHistoryBase.cpp:622
+#: commands/kpCommandHistoryBase.cpp:608
 #, kde-format
 msgid "%1 more item"
 msgid_plural "%1 more items"
@@ -560,7 +560,7 @@ msgid "R&esize Text Box"
 msgstr "更改文字盒大小(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:740
-#: mainWindow/kpMainWindow_Tools.cpp:664
+#: mainWindow/kpMainWindow_Tools.cpp:654
 #, kde-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
@@ -571,7 +571,7 @@ msgstr ""
 "用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:748
-#: mainWindow/kpMainWindow_Tools.cpp:674
+#: mainWindow/kpMainWindow_Tools.cpp:664
 #, fuzzy, kde-format
 #| msgid "Resize Image?"
 msgctxt "@title:window"
@@ -579,7 +579,7 @@ msgid "Resize Image?"
 msgstr "要更改圖像大小嗎？"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
-#: mainWindow/kpMainWindow_Tools.cpp:675
+#: mainWindow/kpMainWindow_Tools.cpp:665
 #, kde-format
 msgid "R&esize Image"
 msgstr "更改圖像大小(&E)"
@@ -994,23 +994,23 @@ msgctxt "@title:window"
 msgid "Low Color Depth"
 msgstr "低色彩深度"
 
-#: document/kpDocument_Save.cpp:284
+#: document/kpDocument_Save.cpp:277
 #, kde-format
 msgid "Could not save image - unable to create temporary file."
 msgstr "無法儲存圖像 - 無法建立暫存檔。"
 
-#: document/kpDocument_Save.cpp:292
+#: document/kpDocument_Save.cpp:285
 #, fuzzy, kde-format
 #| msgid "Could not save as \"%1\"."
 msgid "Could not save as \"%1\": %2"
 msgstr "無法儲存為「%1」。"
 
-#: document/kpDocument_Save.cpp:364 document/kpDocument_Save.cpp:407
+#: document/kpDocument_Save.cpp:357 document/kpDocument_Save.cpp:400
 #, kde-format
 msgid "Error saving image"
 msgstr ""
 
-#: document/kpDocument_Save.cpp:442
+#: document/kpDocument_Save.cpp:435
 #, kde-format
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存圖像 - 上載失敗。"
@@ -1495,47 +1495,47 @@ msgstr "文字：建立盒子"
 msgid "Text: Paste"
 msgstr "文字：貼上"
 
-#: mainWindow/kpMainWindow_Edit.cpp:617
+#: mainWindow/kpMainWindow_Edit.cpp:610
 #, kde-format
 msgid ""
 "<qt>KolourPaint cannot paste the contents of the clipboard as it has an "
 "unknown format.</qt>"
 msgstr ""
 
-#: mainWindow/kpMainWindow_Edit.cpp:619
+#: mainWindow/kpMainWindow_Edit.cpp:612
 #, kde-format
 msgid "Cannot Paste"
 msgstr "無法貼上"
 
-#: mainWindow/kpMainWindow_Edit.cpp:698
+#: mainWindow/kpMainWindow_Edit.cpp:691
 #, kde-format
 msgid "Text: Delete Box"
 msgstr "文字：刪除盒子"
 
 #. i18n ("Text: Delete")
-#: mainWindow/kpMainWindow_Edit.cpp:699
+#: mainWindow/kpMainWindow_Edit.cpp:692
 #, kde-format
 msgid "Selection: Delete"
 msgstr "選取：刪除"
 
-#: mainWindow/kpMainWindow_Edit.cpp:773
+#: mainWindow/kpMainWindow_Edit.cpp:766
 #, kde-format
 msgid "Text: Finish"
 msgstr "文字：完成"
 
-#: mainWindow/kpMainWindow_Edit.cpp:774
+#: mainWindow/kpMainWindow_Edit.cpp:767
 #, kde-format
 msgid "Selection: Deselect"
 msgstr "選取：反選取"
 
-#: mainWindow/kpMainWindow_Edit.cpp:858
+#: mainWindow/kpMainWindow_Edit.cpp:851
 #, fuzzy, kde-format
 #| msgid "Copy to File"
 msgctxt "@title:window"
 msgid "Copy to File"
 msgstr "複製至檔案"
 
-#: mainWindow/kpMainWindow_Edit.cpp:905
+#: mainWindow/kpMainWindow_Edit.cpp:898
 #, fuzzy, kde-format
 #| msgid "Paste From File"
 msgctxt "@title:window"
