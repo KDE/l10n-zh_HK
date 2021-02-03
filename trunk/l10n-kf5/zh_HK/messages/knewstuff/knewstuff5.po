@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-02 02:29+0100\n"
+"POT-Creation-Date: 2021-02-03 02:46+0100\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1145,7 +1145,7 @@ msgctxt ""
 msgid "<i>(no title)</i>"
 msgstr ""
 
-#: qtquick/qml/private/EntryCommentDelegate.qml:141
+#: qtquick/qml/private/EntryCommentDelegate.qml:142
 #, kde-format
 msgctxt ""
 "The author label in case the comment was written by the author of the "
@@ -1183,7 +1183,7 @@ msgid "Show Reviews and Replies"
 msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:141
-#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:179
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:180
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "The number of times the item has been downloaded"
@@ -1247,6 +1247,14 @@ msgstr "沒有發生錯誤"
 #| msgid "None"
 msgid "None"
 msgstr "無"
+
+#: qtquick/qml/private/Rating.qml:80
+#, fuzzy, kde-format
+#| msgid "(%1/s)"
+msgctxt ""
+"A text representation of the rating, shown as a fraction of the max value"
+msgid "(%1/%2)"
+msgstr "(%1/s)"
 
 #: qtquick/quickengine.cpp:143
 #, kde-format
@@ -9274,9 +9282,6 @@ msgstr "開始取代"
 #~ msgstr ""
 #~ "這個網站的表格提交時試圖在你的電腦附加一個檔案。為了保護你，這個附件已經被"
 #~ "移除。"
-
-#~ msgid "(%1/s)"
-#~ msgstr "(%1/s)"
 
 #~ msgid "Security Warning"
 #~ msgstr "安全警告"
