@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QtCurve-KDE4 1.8.3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-16 18:07+0000\n"
+"POT-Creation-Date: 2021-03-17 04:41+0100\n"
 "PO-Revision-Date: 2011-01-03 14:20+0800\n"
 "Last-Translator: 綠色聖光 <lishaohui.qd@163.com>\n"
 "Language-Team: 綠色聖光 <lishaohui.qd@163.com>\n"
@@ -106,10 +106,10 @@ msgstr "在窗口邊框上："
 #. i18n: ectx: property (text), widget (QCheckBox, lvLines)
 #. i18n: ectx: property (text), widget (QCheckBox, windowBorder_addLightBorder)
 #. i18n: ectx: property (text), widget (QCheckBox, windowBorder_separator)
-#. i18n: ectx: property (text), widget (QCheckBox, xbar)
 #. i18n: ectx: property (text), widget (QCheckBox, popupBorder)
 #. i18n: ectx: property (text), widget (QCheckBox, shadePopupMenu)
 #. i18n: ectx: property (text), widget (QCheckBox, grouping)
+#. i18n: ectx: property (text), widget (QCheckBox, xbar)
 #: qt4/config/imageproperties.ui:80 qt4/config/qtcurveconfigbase.ui:1442
 #: qt4/config/qtcurveconfigbase.ui:2250 qt4/config/qtcurveconfigbase.ui:2267
 #: qt4/config/qtcurveconfigbase.ui:3101 qt4/config/qtcurveconfigbase.ui:3338
@@ -868,8 +868,8 @@ msgstr "常規（自動突升）"
 msgid "Raised and joined"
 msgstr "突升并合并"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, sliderWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sliderWidth)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, sliderWidth)
 #: qt4/config/qtcurveconfig.cpp:972 qt4/config/qtcurveconfigbase.ui:1085
 #: qt5/config/qtcurveconfig.cpp:977 qt5/config/qtcurveconfigbase.ui:1094
 #, kde-format
@@ -1346,22 +1346,22 @@ msgstr ""
 "<li>選擇“默認”會丟失剛才所做的全部修改，而恢複成QtCurve的默認樣式。</li>\n"
 "</ul>"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, saveButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveButton)
+#. i18n: ectx: property (toolTip), widget (KPushButton, saveButton)
 #: qt4/config/qtcurveconfigbase.ui:132 qt5/config/qtcurveconfigbase.ui:132
 #, kde-format
 msgid "<p>Save the current settings to be retrieved later.</p>"
 msgstr "<p>儲存當前設定以用于恢複。</p>"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, deleteButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteButton)
 #: qt4/config/qtcurveconfigbase.ui:139 qt5/config/qtcurveconfigbase.ui:139
 #, kde-format
 msgid "<p>Delete a previously stored setting.</p>"
 msgstr "<p>刪除先前儲存的設定</p>。"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, importButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, importButton)
+#. i18n: ectx: property (toolTip), widget (KPushButton, importButton)
 #: qt4/config/qtcurveconfigbase.ui:146 qt5/config/qtcurveconfigbase.ui:146
 #, kde-format
 msgid ""
@@ -1369,8 +1369,8 @@ msgid ""
 "org</p>"
 msgstr "<p>匯入一個QtCurve設定檔案——可以從www.kde-look.org下載一個。</p>"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, exportButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, exportButton)
+#. i18n: ectx: property (toolTip), widget (KPushButton, exportButton)
 #: qt4/config/qtcurveconfigbase.ui:153 qt5/config/qtcurveconfigbase.ui:153
 #, kde-format
 msgid ""
@@ -1773,8 +1773,8 @@ msgstr "提示框"
 msgid "Windows:"
 msgstr "窗口："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, bgndOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, bgndOpacity)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, bgndOpacity)
 #: qt4/config/qtcurveconfigbase.ui:582 qt5/config/qtcurveconfigbase.ui:591
 #, fuzzy, kde-format
 #| msgid ""
@@ -1783,27 +1783,12 @@ msgid ""
 "<p>Sets the opacity of window backgrounds when using desktop effects.</p>"
 msgstr "<p>設置使用“桌面效果”時，窗口背景的透明度。</p>"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, bgndOpacity)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, dlgOpacity)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, menuBgndOpacity)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, gbFactor)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, splitterHighlight)
-#. i18n: ectx: property (suffix), widget (QSpinBox, highlightFactor)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, colorSelTab)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, tabBgnd)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, crHighlight)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, lighterPopupMenuBgnd)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, expanderHighlight)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, stopPosition)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, stopValue)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, stopAlpha)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, activeOpacity)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, inactiveOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bgndOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, dlgOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, menuBgndOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, gbFactor)
 #. i18n: ectx: property (suffix), widget (QSpinBox, splitterHighlight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, highlightFactor)
 #. i18n: ectx: property (suffix), widget (QSpinBox, colorSelTab)
 #. i18n: ectx: property (suffix), widget (QSpinBox, tabBgnd)
 #. i18n: ectx: property (suffix), widget (QSpinBox, crHighlight)
@@ -1814,6 +1799,21 @@ msgstr "<p>設置使用“桌面效果”時，窗口背景的透明度。</p>"
 #. i18n: ectx: property (suffix), widget (QSpinBox, stopAlpha)
 #. i18n: ectx: property (suffix), widget (QSpinBox, activeOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, inactiveOpacity)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, bgndOpacity)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, dlgOpacity)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, menuBgndOpacity)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, gbFactor)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, splitterHighlight)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, colorSelTab)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, tabBgnd)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, crHighlight)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, lighterPopupMenuBgnd)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, expanderHighlight)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, stopPosition)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, stopValue)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, stopAlpha)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, activeOpacity)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, inactiveOpacity)
 #: qt4/config/qtcurveconfigbase.ui:585 qt4/config/qtcurveconfigbase.ui:602
 #: qt4/config/qtcurveconfigbase.ui:619 qt4/config/qtcurveconfigbase.ui:681
 #: qt4/config/qtcurveconfigbase.ui:888 qt4/config/qtcurveconfigbase.ui:1314
@@ -1842,8 +1842,8 @@ msgstr ""
 msgid "Dialogs:"
 msgstr "對話窗："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, dlgOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, dlgOpacity)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, dlgOpacity)
 #: qt4/config/qtcurveconfigbase.ui:599 qt5/config/qtcurveconfigbase.ui:608
 #, fuzzy, kde-format
 #| msgid ""
@@ -1858,8 +1858,8 @@ msgstr "<p>設置使用“桌面效果”時，對話窗背景的透明度。</p
 msgid "Pop-up menus:"
 msgstr "彈出選單："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, menuBgndOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, menuBgndOpacity)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, menuBgndOpacity)
 #: qt4/config/qtcurveconfigbase.ui:616 qt5/config/qtcurveconfigbase.ui:625
 #, fuzzy, kde-format
 #| msgid "<p>Sets the opacity of popup menus when using deskop effects.</p>"
@@ -1896,8 +1896,8 @@ msgstr ""
 msgid "Frame type:"
 msgstr "框架格式："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, gbFactor)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, gbFactor)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, gbFactor)
 #: qt4/config/qtcurveconfigbase.ui:678 qt5/config/qtcurveconfigbase.ui:687
 #, kde-format
 msgid ""
@@ -2088,8 +2088,8 @@ msgstr "<p>設置用于控件分隔線的標記。</p>"
 msgid "Background mouse-over highlight:"
 msgstr "滑鼠滑過背景高亮："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, splitterHighlight)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, splitterHighlight)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, splitterHighlight)
 #: qt4/config/qtcurveconfigbase.ui:885 qt5/config/qtcurveconfigbase.ui:894
 #, fuzzy, kde-format
 #| msgid ""
@@ -2297,8 +2297,8 @@ msgstr "<p>定義樸素樣式滑塊和滾動條滑塊中間的標記樣式。</p
 msgid "Slider width:"
 msgstr "滑塊寬度："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, sliderWidth)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sliderWidth)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, sliderWidth)
 #: qt4/config/qtcurveconfigbase.ui:1082 qt5/config/qtcurveconfigbase.ui:1091
 #, kde-format
 msgid ""
@@ -2668,8 +2668,8 @@ msgstr "<p>這會在當前標簽的頂端或底端繪制一條彩色條紋。"
 msgid "Highlight"
 msgstr "高亮"
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, colorSelTab)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, colorSelTab)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, colorSelTab)
 #: qt4/config/qtcurveconfigbase.ui:1514 qt5/config/qtcurveconfigbase.ui:1523
 #, kde-format
 msgid ""
@@ -2678,8 +2678,8 @@ msgid ""
 msgstr ""
 "<p>控制活動標簽著淡色的額度。活動標簽會被著高亮色與背景色混合色的淡色。"
 
-#. i18n: ectx: property (prefix), widget (KIntNumInput, colorSelTab)
 #. i18n: ectx: property (prefix), widget (QSpinBox, colorSelTab)
+#. i18n: ectx: property (prefix), widget (KIntNumInput, colorSelTab)
 #: qt4/config/qtcurveconfigbase.ui:1520 qt5/config/qtcurveconfigbase.ui:1529
 #, kde-format
 msgid "Tint by "
@@ -2720,8 +2720,8 @@ msgstr ""
 msgid "Alter background by:"
 msgstr "背景變化比："
 
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, tabBgnd)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, tabBgnd)
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, tabBgnd)
 #: qt4/config/qtcurveconfigbase.ui:1562 qt5/config/qtcurveconfigbase.ui:1571
 #, kde-format
 msgid "<p>Lightens, or darkens, the background of the whole tab widget."
@@ -3016,8 +3016,8 @@ msgstr "<p>如果啓用該項，單選鈕在被選中時會包含一個小“點
 msgid "Small"
 msgstr "小"
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, crHighlight)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, crHighlight)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, crHighlight)
 #: qt4/config/qtcurveconfigbase.ui:2057 qt5/config/qtcurveconfigbase.ui:2138
 #, fuzzy, kde-format
 #| msgid ""
@@ -3579,8 +3579,8 @@ msgstr "常居底端："
 msgid "<p>Defines the gradient used for the background of menubars."
 msgstr "<p>定義菜單欄背景的漸變效果。"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, menubarBlend)
 #. i18n: ectx: property (toolTip), widget (QPushButton, menubarBlend)
+#. i18n: ectx: property (toolTip), widget (KPushButton, menubarBlend)
 #: qt4/config/qtcurveconfigbase.ui:2919 qt5/config/qtcurveconfigbase.ui:3000
 #, fuzzy, kde-format
 #| msgid ""
@@ -3591,8 +3591,8 @@ msgid ""
 "blended."
 msgstr "<p>設置相關的自訂項，以使窗口標題欄和菜單欄呈現融合效果。"
 
-#. i18n: ectx: property (text), widget (KPushButton, menubarBlend)
 #. i18n: ectx: property (text), widget (QPushButton, menubarBlend)
+#. i18n: ectx: property (text), widget (KPushButton, menubarBlend)
 #: qt4/config/qtcurveconfigbase.ui:2922 qt5/config/qtcurveconfigbase.ui:3003
 #, kde-format
 msgid "Blend with titlebar"
@@ -3863,10 +3863,10 @@ msgstr "複選框標記："
 msgid "Shade background by:"
 msgstr "加深背景的比例："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, lighterPopupMenuBgnd)
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, expanderHighlight)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lighterPopupMenuBgnd)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, expanderHighlight)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, lighterPopupMenuBgnd)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, expanderHighlight)
 #: qt4/config/qtcurveconfigbase.ui:3183 qt4/config/qtcurveconfigbase.ui:3755
 #: qt5/config/qtcurveconfigbase.ui:3247 qt5/config/qtcurveconfigbase.ui:3819
 #, kde-format
@@ -3912,17 +3912,17 @@ msgstr ""
 msgid "Sub-menu delay:"
 msgstr "子菜單延時："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, menuDelay)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, menuDelay)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, menuDelay)
 #: qt4/config/qtcurveconfigbase.ui:3258 qt5/config/qtcurveconfigbase.ui:3322
 #, kde-format
 msgid "<p>Defines the delay before a sub-menu appears."
 msgstr "<p>定義子菜單顯示前的延時。"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, menuDelay)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, menuCloseDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, menuDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, menuCloseDelay)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, menuDelay)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, menuCloseDelay)
 #: qt4/config/qtcurveconfigbase.ui:3261 qt4/config/qtcurveconfigbase.ui:3274
 #: qt5/config/qtcurveconfigbase.ui:3325 qt5/config/qtcurveconfigbase.ui:3422
 #, kde-format
@@ -3937,8 +3937,8 @@ msgid ""
 "<p>Defines the delay before a sub-menu closes. Applicable on Qt 5.5 or later"
 msgstr "<p>定義子菜單顯示前的延時。"
 
-#. i18n: ectx: property (text), widget (QLabel, label_103)
 #. i18n: ectx: property (text), widget (QLabel, label_72)
+#. i18n: ectx: property (text), widget (QLabel, label_103)
 #: qt4/config/qtcurveconfigbase.ui:3281 qt5/config/qtcurveconfigbase.ui:3429
 #, fuzzy, kde-format
 #| msgid "Sub-menu delay:"
@@ -4589,8 +4589,8 @@ msgstr ""
 "<p>這會讓QtCurve顯示探測到的進程名，如下：</p>\n"
 "<p><code>QtCurve: Application name: \"firefox\"</code></p></i>"
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, exportKde3Button)
 #. i18n: ectx: property (toolTip), widget (QPushButton, exportKde3Button)
+#. i18n: ectx: property (toolTip), widget (KPushButton, exportKde3Button)
 #: qt4/config/qtcurveconfigbase.ui:3953 qt5/config/qtcurveconfigbase.ui:4017
 #, kde-format
 msgid ""
@@ -4601,15 +4601,15 @@ msgstr ""
 "匯出您當前的顔色和字體設定，以便它們可以應用于KDE3應用程式。這會在KDE3的設定"
 "檔案中新增相關條目。"
 
-#. i18n: ectx: property (text), widget (KPushButton, exportKde3Button)
 #. i18n: ectx: property (text), widget (QPushButton, exportKde3Button)
+#. i18n: ectx: property (text), widget (KPushButton, exportKde3Button)
 #: qt4/config/qtcurveconfigbase.ui:3956 qt5/config/qtcurveconfigbase.ui:4020
 #, kde-format
 msgid "Export colors and fonts for KDE3 applications..."
 msgstr "爲 KDE3 程式匯出顔色和字體設定..."
 
-#. i18n: ectx: property (toolTip), widget (KPushButton, exportQt3Button)
 #. i18n: ectx: property (toolTip), widget (QPushButton, exportQt3Button)
+#. i18n: ectx: property (toolTip), widget (KPushButton, exportQt3Button)
 #: qt4/config/qtcurveconfigbase.ui:3963 qt5/config/qtcurveconfigbase.ui:4027
 #, kde-format
 msgid ""
@@ -4620,8 +4620,8 @@ msgstr ""
 "<p>匯出您當前的顔色和字體設定，以便它們可以應用于純Qt3應用程式。這會在Qt3的 "
 "~/.qt/qtrc 檔案中新增相關條目。"
 
-#. i18n: ectx: property (text), widget (KPushButton, exportQt3Button)
 #. i18n: ectx: property (text), widget (QPushButton, exportQt3Button)
+#. i18n: ectx: property (text), widget (KPushButton, exportQt3Button)
 #: qt4/config/qtcurveconfigbase.ui:3966 qt5/config/qtcurveconfigbase.ui:4030
 #, kde-format
 msgid "Export colors and fonts for pure-Qt3 applications..."
@@ -4728,8 +4728,8 @@ msgstr "變化值："
 msgid "Alpha:"
 msgstr "α值："
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopPosition)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, stopPosition)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopPosition)
 #: qt4/config/qtcurveconfigbase.ui:4115 qt5/config/qtcurveconfigbase.ui:4179
 #, no-c-format, kde-format
 msgid ""
@@ -4737,8 +4737,8 @@ msgid ""
 "gradients, and the left for vertical gradients."
 msgstr "設置漸變值的位置。0%表示水平漸變的頂端或垂直漸變的左端。"
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopValue)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, stopValue)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopValue)
 #: qt4/config/qtcurveconfigbase.ui:4134 qt5/config/qtcurveconfigbase.ui:4198
 #, no-c-format, kde-format
 msgid ""
@@ -4749,8 +4749,8 @@ msgstr ""
 "<p>設置指定位置的漸變強度。110%將會把顔色亮化10%，90%則會暗化10%，而100%表示"
 "原始色。"
 
-#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopAlpha)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, stopAlpha)
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, stopAlpha)
 #: qt4/config/qtcurveconfigbase.ui:4153 qt5/config/qtcurveconfigbase.ui:4217
 #, kde-format
 msgid "<p>Sets the alpha value of the gradient at the defined position."
@@ -5363,8 +5363,8 @@ msgstr "如果啓用該項，QtCurve 將允許窗口分組——就像標簽部�
 msgid "Titlebar text padding:"
 msgstr "標題欄文本填充："
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, titleBarPad)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, titleBarPad)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, titleBarPad)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:134
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:134
 #, kde-format
@@ -5375,10 +5375,10 @@ msgid ""
 msgstr ""
 "控制標題欄文本高度向頂部和底部的填充。修改它會影響標題欄和它的按鈕的高度。"
 
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, titleBarPad)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, edgePad)
 #. i18n: ectx: property (suffix), widget (QSpinBox, titleBarPad)
 #. i18n: ectx: property (suffix), widget (QSpinBox, edgePad)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, titleBarPad)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, edgePad)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:137
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:154
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:137
@@ -5394,8 +5394,8 @@ msgstr "像素"
 msgid "Titlebar border padding:"
 msgstr "標題欄邊框填充："
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, edgePad)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, edgePad)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, edgePad)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:151
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:151
 #, kde-format
@@ -5434,8 +5434,8 @@ msgstr ""
 msgid "Active windows:"
 msgstr "活動窗口："
 
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, activeOpacity)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, activeOpacity)
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, activeOpacity)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:224
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:224
 #, no-c-format, kde-format
@@ -5451,8 +5451,8 @@ msgstr "控制活動窗口裝飾的透明度。0%會導致窗口裝飾完全透�
 msgid "Inactive windows:"
 msgstr "非活動窗口："
 
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, inactiveOpacity)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, inactiveOpacity)
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, inactiveOpacity)
 #: qt4/kwinconfig/qtcurvekwinconfigwidget.ui:253
 #: qt5/kwinconfig/qtcurvekwinconfigwidget.ui:253
 #, no-c-format, kde-format
