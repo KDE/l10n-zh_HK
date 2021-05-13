@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -312,10 +312,12 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
-#: kabstractaboutdialog_p.cpp:35
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr ""
+#: kabstractaboutdialog_p.cpp:36
+#, fuzzy, kde-format
+#| msgid "Version"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "版本"
 
 #: kabstractaboutdialog_p.cpp:79
 #, fuzzy, kde-format
@@ -323,22 +325,19 @@ msgstr ""
 msgid "License: %1"
 msgstr "許可證："
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, fuzzy, kde-format
-#| msgid ""
-#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
-#| "report bugs.\n"
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+#| msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
+msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kabstractaboutdialog_p.cpp:117
+#: kabstractaboutdialog_p.cpp:120
 #, fuzzy, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr "請向 <a href=\"mailto:%1\">%2</a> 報告問題。\n"
+#| msgid "Please report bugs to %1.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
+msgstr "請回報問題到 %1。\n"
 
 #: kactionconflictdetector.cpp:38
 #, kde-format
@@ -1626,6 +1625,22 @@ msgid "Main Toolbar"
 msgstr "主工具列"
 
 #, fuzzy
+#~| msgid ""
+#~| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
+#~| "report bugs.\n"
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問"
+#~ "題。\n"
+
+#, fuzzy
+#~| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#~ msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#~ msgstr "請向 <a href=\"mailto:%1\">%2</a> 報告問題。\n"
+
+#, fuzzy
 #~| msgid "Untrusted"
 #~ msgctxt "@title:window"
 #~ msgid "Unsupported Key"
@@ -2799,12 +2814,6 @@ msgstr "主工具列"
 #~ msgid ""
 #~ "This application was written by somebody who wants to remain anonymous."
 #~ msgstr "這個應用程式是由某個不願透露姓名的人編寫。"
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr "請使用 http://bugs.kde.org 報告問題。\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "請回報問題到 %1。\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "未預料到的參數‘%1’。"
@@ -9102,11 +9111,6 @@ msgstr "主工具列"
 #~| msgid "New Distribution List"
 #~ msgid "KNewStuff contributions"
 #~ msgstr "新分發清單"
-
-#, fuzzy
-#~| msgid "Version"
-#~ msgid "Version %1"
-#~ msgstr "版本"
 
 #, fuzzy
 #~| msgid "Comment"
