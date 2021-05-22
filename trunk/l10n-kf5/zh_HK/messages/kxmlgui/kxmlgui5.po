@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-13 00:15+0000\n"
+"POT-Creation-Date: 2021-05-22 00:13+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -63,7 +63,7 @@ msgctxt "@title:tab"
 msgid "Libraries"
 msgstr "程式庫"
 
-#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@title:tab"
@@ -71,34 +71,34 @@ msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "作者"
 
-#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "感謝(&T)"
 
-#: kaboutapplicationdialog.cpp:138 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "@title:tab"
 msgid "Translation"
 msgstr "翻譯"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:49
+#: kaboutapplicationpersonlistdelegate_p.cpp:53
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
 msgctxt "Action to send an email to a contributor"
 msgid "Email contributor"
 msgstr "其他貢獻者："
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:54
+#: kaboutapplicationpersonlistdelegate_p.cpp:58
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid "Visit contributor's homepage"
 msgstr "首頁"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:112
+#: kaboutapplicationpersonlistdelegate_p.cpp:106
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
 msgctxt "@info:tooltip Action to send an email to a contributor"
@@ -107,8 +107,7 @@ msgid ""
 "%1"
 msgstr "其他貢獻者："
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:118
-#: kaboutapplicationpersonlistdelegate_p.cpp:151
+#: kaboutapplicationpersonlistdelegate_p.cpp:112
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgctxt "@info:tooltip"
@@ -117,8 +116,7 @@ msgid ""
 "%1"
 msgstr "首頁"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:125
-#: kaboutapplicationpersonlistdelegate_p.cpp:153
+#: kaboutapplicationpersonlistdelegate_p.cpp:119
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgctxt "@info:tooltip"
@@ -127,58 +125,12 @@ msgid ""
 "%2"
 msgstr "首頁"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:147
-#, fuzzy, kde-format
-#| msgid "Homepage"
-msgctxt "@info:tooltip"
-msgid ""
-"Visit contributor's page\n"
-"%1"
-msgstr "首頁"
-
-#: kaboutapplicationpersonlistdelegate_p.cpp:149
-#, fuzzy, kde-format
-#| msgid "Homepage"
-msgctxt "@info:tooltip"
-msgid ""
-"Visit contributor's blog\n"
-"%1"
-msgstr "首頁"
-
-#: kaboutapplicationpersonlistdelegate_p.cpp:233
+#: kaboutapplicationpersonlistdelegate_p.cpp:188
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1%"
-
-#: kaboutapplicationpersonmodel_p.cpp:177
-#, fuzzy, kde-format
-#| msgctxt "concatenation of dates and time"
-#| msgid "%1 %2"
-msgctxt "City, Country"
-msgid "%1, %2"
-msgstr "%1 %2"
-
-#: kaboutapplicationpersonmodel_p.cpp:277
-#, fuzzy, kde-format
-#| msgid "Other"
-msgctxt "A generic social network or homepage link of an unlisted type."
-msgid "Other"
-msgstr "其他"
-
-#: kaboutapplicationpersonmodel_p.cpp:279
-#, fuzzy, kde-format
-msgctxt "A type of link."
-msgid "Blog"
-msgstr "不允許"
-
-#: kaboutapplicationpersonmodel_p.cpp:287
-#, fuzzy, kde-format
-#| msgid "Homepage"
-msgctxt "A type of link."
-msgid "Homepage"
-msgstr "首頁"
 
 #: kaboutkdedialog_p.cpp:31
 #, fuzzy, kde-format
@@ -312,27 +264,38 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
-#: kabstractaboutdialog_p.cpp:36
+#: kabstractaboutdialog_p.cpp:37
 #, fuzzy, kde-format
 #| msgid "Version"
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "版本"
 
-#: kabstractaboutdialog_p.cpp:79
+#: kabstractaboutdialog_p.cpp:80
 #, fuzzy, kde-format
 #| msgid "License:"
 msgid "License: %1"
 msgstr "許可證："
 
-#: kabstractaboutdialog_p.cpp:112
+#: kabstractaboutdialog_p.cpp:100
+#, fuzzy, kde-format
+#| msgid "Show author information"
+msgid "Show author photos"
+msgstr "顯示作者資訊"
+
+#: kabstractaboutdialog_p.cpp:101
+#, kde-format
+msgid "Enabling this will fetch images from an online location"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:140
 #, fuzzy, kde-format
 #| msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kabstractaboutdialog_p.cpp:120
+#: kabstractaboutdialog_p.cpp:148
 #, fuzzy, kde-format
 #| msgid "Please report bugs to %1.\n"
 msgctxt "Reference to email address"
@@ -1625,6 +1588,46 @@ msgid "Main Toolbar"
 msgstr "主工具列"
 
 #, fuzzy
+#~| msgid "Homepage"
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Visit contributor's page\n"
+#~ "%1"
+#~ msgstr "首頁"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Visit contributor's blog\n"
+#~ "%1"
+#~ msgstr "首頁"
+
+#, fuzzy
+#~| msgctxt "concatenation of dates and time"
+#~| msgid "%1 %2"
+#~ msgctxt "City, Country"
+#~ msgid "%1, %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "Other"
+#~ msgctxt "A generic social network or homepage link of an unlisted type."
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#, fuzzy
+#~ msgctxt "A type of link."
+#~ msgid "Blog"
+#~ msgstr "不允許"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgctxt "A type of link."
+#~ msgid "Homepage"
+#~ msgstr "首頁"
+
+#, fuzzy
 #~| msgid ""
 #~| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
 #~| "report bugs.\n"
@@ -2844,9 +2847,6 @@ msgstr "主工具列"
 
 #~ msgid "Show all options"
 #~ msgstr "顯示所有選項"
-
-#~ msgid "Show author information"
-#~ msgstr "顯示作者資訊"
 
 #~ msgid "Show version information"
 #~ msgstr "顯示版本資訊"
