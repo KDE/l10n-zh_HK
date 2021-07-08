@@ -2161,42 +2161,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "向下移動(&D)"
 
-#: kfontchooser.cpp:161
+#: kfontchooser.cpp:140
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "要求的字型"
 
-#: kfontchooser.cpp:175
-#, fuzzy
-#| msgid "Font"
-msgctxt "KFontChooser|@option:check"
-msgid "Font"
-msgstr "字型"
-
-#: kfontchooser.cpp:180
-#, fuzzy
-#| msgid "Font:"
-msgctxt "KFontChooser|@label"
-msgid "Font:"
-msgstr "字型："
-
-#: kfontchooser.cpp:212
-#, fuzzy
-#| msgid "Font style"
-msgctxt "KFontChooser|@option:check"
-msgid "Font style"
-msgstr "字型樣式"
-
-#: kfontchooser.cpp:217
-#, fuzzy
-#| msgid "Font style:"
-msgctxt "KFontChooser|@label"
-msgid "Font style:"
-msgstr "字型樣式："
-
-#: kfontchooser.cpp:230
+#: kfontchooser.cpp:185
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2204,14 +2176,14 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "普通的"
 
-#: kfontchooser.cpp:231 kfontchooser.cpp:579
+#: kfontchooser.cpp:186 kfontchooser.cpp:468
 #, fuzzy
 #| msgid "Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "斜體"
 
-#: kfontchooser.cpp:232 kfontchooser.cpp:580
+#: kfontchooser.cpp:187 kfontchooser.cpp:469
 #, fuzzy
 #| msgctxt "font style"
 #| msgid "Oblique"
@@ -2219,49 +2191,28 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "傾斜"
 
-#: kfontchooser.cpp:233
+#: kfontchooser.cpp:188
 #, fuzzy
 #| msgid "Bold"
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "粗體"
 
-#: kfontchooser.cpp:234
+#: kfontchooser.cpp:189
 #, fuzzy
 #| msgid "Bold Italic"
 msgctxt "KFontChooser|@item font"
 msgid "Bold Italic"
 msgstr "粗斜體"
 
-#: kfontchooser.cpp:251
-#, fuzzy
-#| msgid "Size"
-msgctxt "KFontChooser|@option:check"
-msgid "Size"
-msgstr "大小"
-
-#: kfontchooser.cpp:256
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KFontChooser|@label:listbox Font size"
-msgid "Size:"
-msgstr "大小："
-
-#: kfontchooser.cpp:273
-#, fuzzy
-#| msgid "Relative"
-msgctxt "KFontChooser|@item font size"
-msgid "Relative"
-msgstr "相對"
-
-#: kfontchooser.cpp:274
+#: kfontchooser.cpp:206
 #, fuzzy
 #| msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
 msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "字型大小<br>「<b>固定</b>」或「<b>相對</b>」<br>於環境"
 
-#: kfontchooser.cpp:275
+#: kfontchooser.cpp:207
 #, fuzzy
 #| msgid ""
 #| "Here you can switch between fixed font size and font size to be "
@@ -2276,30 +2227,14 @@ msgstr ""
 "在此你可以選擇使用固定大小字型，或根據環境動態計算調整字型大小 (例如根據部件"
 "大小、紙張大小等)。"
 
-#: kfontchooser.cpp:331
+#: kfontchooser.cpp:250
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "The Quick Brown Fox 跳過那隻懶狗"
 
-#: kfontchooser.cpp:333
-#, fuzzy
-#| msgid ""
-#| "This sample text illustrates the current settings. You may edit it to "
-#| "test special characters."
-msgctxt "KFontChooser|@info:whatsthis"
-msgid ""
-"This sample text illustrates the current settings. You may edit it to test "
-"special characters."
-msgstr "此段範例文字顯示目前的設定。你可以編輯這段文字來測試特殊字符。"
-
-#: kfontchooser.cpp:348
-msgctxt "KFontChooser|@option:check"
-msgid "Show only monospaced fonts"
-msgstr ""
-
-#: kfontchooser.cpp:564
+#: kfontchooser.cpp:453
 #, fuzzy, qt-format
 #| msgid "%1%"
 msgctxt "KFontChooser|@item Font style"
@@ -2312,6 +2247,76 @@ msgstr "%1%"
 msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "選擇字型"
+
+#: kfontchooserwidget.ui:14
+msgctxt "KFontChooserWidget|"
+msgid "KFontChooserWidget"
+msgstr ""
+
+#: kfontchooserwidget.ui:31
+#, fuzzy
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "字型"
+
+#: kfontchooserwidget.ui:38
+#, fuzzy
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "字型："
+
+#: kfontchooserwidget.ui:56
+#, fuzzy
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "字型樣式"
+
+#: kfontchooserwidget.ui:63
+#, fuzzy
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "字型樣式："
+
+#: kfontchooserwidget.ui:81
+#, fuzzy
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "大小"
+
+#: kfontchooserwidget.ui:88
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "大小："
+
+#: kfontchooserwidget.ui:97
+#, fuzzy
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "相對"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgid ""
+#| "This sample text illustrates the current settings. You may edit it to "
+#| "test special characters."
+msgctxt "KFontChooserWidget|"
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr "此段範例文字顯示目前的設定。你可以編輯這段文字來測試特殊字符。"
+
+#: kfontchooserwidget.ui:128
+msgctxt "KFontChooserWidget|"
+msgid "Show only monospaced fonts"
+msgstr ""
 
 #: kfontrequester.cpp:155
 #, fuzzy
