@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-13 00:14+0000\n"
+"POT-Creation-Date: 2021-08-22 00:14+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -52,12 +52,12 @@ msgstr ""
 "ycheng@slat.org,lark@linux.ustc.edu.cn,fundawang@en2china.com,sarahs@redhat."
 "com,jxiong@offtopic.org,acelan@linux.org.tw,stanley18fan0k@yahoo.com.hk"
 
-#: kcmoduleloader.cpp:69
+#: kcmoduleloader.cpp:68
 #, kde-format
 msgid "The module %1 could not be found."
 msgstr "找不到模組 %1。"
 
-#: kcmoduleloader.cpp:70
+#: kcmoduleloader.cpp:69
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
@@ -66,30 +66,36 @@ msgid ""
 "qt>"
 msgstr "<qt><p>診斷結果：<br>找不到桌面設定檔 %1。</qt>"
 
-#: kcmoduleloader.cpp:76 kcmoduleloader.cpp:161
+#: kcmoduleloader.cpp:75 kcmoduleloader.cpp:164
 #, fuzzy, kde-format
 msgid "The module %1 is disabled."
 msgstr "無法載入模組 %1。"
 
-#: kcmoduleloader.cpp:77
+#: kcmoduleloader.cpp:76
 #, kde-format
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
 "or the module has been disabled by the administrator.</p></qt>"
 msgstr ""
 
-#: kcmoduleloader.cpp:105 kcmoduleloader.cpp:173
+#: kcmoduleloader.cpp:99 kcmoduleloader.cpp:176
 #, fuzzy, kde-format
 #| msgid "Error opening file."
 msgid "Error loading QML file."
 msgstr "開啟檔案時發生錯誤。"
 
-#: kcmoduleloader.cpp:151
+#: kcmoduleloader.cpp:107
+#, fuzzy, kde-format
+#| msgid "Error opening file."
+msgid "Error loading config module"
+msgstr "開啟檔案時發生錯誤。"
+
+#: kcmoduleloader.cpp:154
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "模組 %1 不是一個有效的設定模組。"
 
-#: kcmoduleloader.cpp:152
+#: kcmoduleloader.cpp:155
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>The desktop file %1 does not specify a "
@@ -99,13 +105,13 @@ msgid ""
 "qt>"
 msgstr "<qt><p>診斷結果：<br>桌面設定檔 %1 未指定一個程式庫。</qt>"
 
-#: kcmoduleloader.cpp:162
+#: kcmoduleloader.cpp:165
 #, fuzzy, kde-format
 #| msgid "Please contact your system administrator."
 msgid "The module has been disabled by the system administrator."
 msgstr "請聯絡你的系統管理者。"
 
-#: kcmoduleloader.cpp:208
+#: kcmoduleloader.cpp:213
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
