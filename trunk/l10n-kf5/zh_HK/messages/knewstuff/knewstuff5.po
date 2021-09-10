@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-04 00:14+0000\n"
+"POT-Creation-Date: 2021-09-10 00:14+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -585,7 +585,7 @@ msgid "Provider:"
 msgstr "隱藏 %1"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 qtquick/qml/Page.qml:411
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:424
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "Category:"
@@ -606,14 +606,14 @@ msgid "Newest"
 msgstr "新清單"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110 qtquick/qml/Page.qml:299
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:312
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating"
 msgstr "評分"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117 qtquick/qml/Page.qml:248
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:261
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installed"
@@ -633,7 +633,7 @@ msgid "Search:"
 msgstr "搜尋(&S)："
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:368 qtquick/qml/Page.qml:375
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:381 qtquick/qml/Page.qml:388
 #, fuzzy, kde-format
 #| msgctxt "QAccel"
 #| msgid "Search"
@@ -1086,60 +1086,67 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:201
+#: qtquick/qml/Page.qml:179
+#, kde-format
+msgid ""
+"The content available here has been uploaded by users like you, and has not "
+"been reviewed by your distributor for functionality or stability."
+msgstr ""
+
+#: qtquick/qml/Page.qml:214
 #, fuzzy, kde-format
 #| msgid "&Tile"
 msgid "Tiles"
 msgstr "鋪排(&T)"
 
-#: qtquick/qml/Page.qml:203
+#: qtquick/qml/Page.qml:216
 #, kde-format
 msgid "Icons"
 msgstr "圖示"
 
-#: qtquick/qml/Page.qml:205
+#: qtquick/qml/Page.qml:218
 #, fuzzy, kde-format
 #| msgid "Preview URL:"
 msgid "Preview"
 msgstr "預覽 URL："
 
-#: qtquick/qml/Page.qml:220
+#: qtquick/qml/Page.qml:233
 #, fuzzy, kde-format
 #| msgid "Details"
 msgid "Detailed Tiles View Mode"
 msgstr "詳細資料"
 
-#: qtquick/qml/Page.qml:228
+#: qtquick/qml/Page.qml:241
 #, fuzzy, kde-format
 #| msgid "Icon Size"
 msgid "Icons Only View Mode"
 msgstr "圖示大小"
 
-#: qtquick/qml/Page.qml:236
+#: qtquick/qml/Page.qml:249
 #, fuzzy, kde-format
 #| msgid "Details"
 msgid "Large Preview View Mode"
 msgstr "詳細資料"
 
-#: qtquick/qml/Page.qml:246
+#: qtquick/qml/Page.qml:259
 #, kde-format
 msgid "Everything"
 msgstr ""
 
-#: qtquick/qml/Page.qml:250
+#: qtquick/qml/Page.qml:263
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Updateable"
 msgstr "更新"
 
-#: qtquick/qml/Page.qml:269
+#: qtquick/qml/Page.qml:282
 #, fuzzy, kde-format
 #| msgid "Show all options"
 msgctxt "List option which will set the filter to show everything"
 msgid "Show All Entries"
 msgstr "顯示所有選項"
 
-#: qtquick/qml/Page.qml:277
+#: qtquick/qml/Page.qml:290
 #, fuzzy, kde-format
 #| msgid "Show all options"
 msgctxt ""
@@ -1147,7 +1154,7 @@ msgctxt ""
 msgid "Show Only Installed Entries"
 msgstr "顯示所有選項"
 
-#: qtquick/qml/Page.qml:285
+#: qtquick/qml/Page.qml:298
 #, fuzzy, kde-format
 #| msgid "Show all options"
 msgctxt ""
@@ -1156,25 +1163,25 @@ msgctxt ""
 msgid "Show Only Updateable Entries"
 msgstr "顯示所有選項"
 
-#: qtquick/qml/Page.qml:295
+#: qtquick/qml/Page.qml:308
 #, fuzzy, kde-format
 #| msgctxt "QAccel"
 #| msgid "Percent"
 msgid "Recent"
 msgstr "百分比符號"
 
-#: qtquick/qml/Page.qml:297
+#: qtquick/qml/Page.qml:310
 #, kde-format
 msgid "Alphabetical"
 msgstr ""
 
-#: qtquick/qml/Page.qml:301
+#: qtquick/qml/Page.qml:314
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "Downloads"
 msgstr "下載"
 
-#: qtquick/qml/Page.qml:320
+#: qtquick/qml/Page.qml:333
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -1183,7 +1190,7 @@ msgctxt ""
 msgid "Show Most Recent First"
 msgstr "最多下載次數"
 
-#: qtquick/qml/Page.qml:328
+#: qtquick/qml/Page.qml:341
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -1191,14 +1198,14 @@ msgctxt ""
 msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:336
+#: qtquick/qml/Page.qml:349
 #, fuzzy, kde-format
 #| msgid "Highest Rated"
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show Highest Rated First"
 msgstr "最高評分"
 
-#: qtquick/qml/Page.qml:344
+#: qtquick/qml/Page.qml:357
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -1206,24 +1213,24 @@ msgctxt ""
 msgid "Show Most Downloaded First"
 msgstr "最多下載次數"
 
-#: qtquick/qml/Page.qml:353
+#: qtquick/qml/Page.qml:366
 #, fuzzy, kde-format
 #| msgid "&Upload"
 msgid "Upload..."
 msgstr "上傳(&U)"
 
-#: qtquick/qml/Page.qml:354
+#: qtquick/qml/Page.qml:367
 #, kde-format
 msgid "Learn how to add your own hot new stuff to this list"
 msgstr ""
 
-#: qtquick/qml/Page.qml:362
+#: qtquick/qml/Page.qml:375
 #, fuzzy, kde-format
 #| msgid "&Go To..."
 msgid "Go to..."
 msgstr "移至(&G)..."
 
-#: qtquick/qml/Page.qml:496
+#: qtquick/qml/Page.qml:510
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgctxt ""
@@ -1231,7 +1238,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "預覽列印(&W)..."
 
-#: qtquick/qml/Page.qml:507
+#: qtquick/qml/Page.qml:521
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
