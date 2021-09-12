@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:14+0000\n"
+"POT-Creation-Date: 2021-09-12 00:15+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -35,35 +35,63 @@ msgstr ""
 "X-Generator: KBabel 1.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kaboutapplicationdialog.cpp:59 kaboutplugindialog.cpp:65
+#: kaboutapplicationcomponentlistdelegate_p.cpp:52
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgid "Visit component's homepage"
+msgstr "首頁"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:100
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgctxt "@info:tooltip"
+msgid ""
+"Visit components's homepage\n"
+"%1"
+msgstr "首頁"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:141
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item Component name in about dialog."
+msgid "%1"
+msgstr "%1%"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:144
+#, fuzzy, kde-format
+#| msgid "Version"
+msgid "Version %1"
+msgstr "版本"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:153
+#: kabstractaboutdialog_p.cpp:85
+#, fuzzy, kde-format
+#| msgid "License:"
+msgid "License: %1"
+msgstr "許可證："
+
+#: kaboutapplicationdialog.cpp:60 kaboutplugindialog.cpp:65
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "@title:window"
 msgid "About %1"
 msgstr "關於 %1"
 
-#: kaboutapplicationdialog.cpp:97 kaboutplugindialog.cpp:83
+#: kaboutapplicationdialog.cpp:98 kaboutplugindialog.cpp:83
 #, fuzzy, kde-format
 #| msgid "&About"
 msgctxt "@title:tab"
 msgid "About"
 msgstr "關於(&A)"
 
-#: kaboutapplicationdialog.cpp:103
-#, kde-format
-msgid ""
-"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
-"%4</em> windowing system</li></ul>"
-msgstr ""
-
-#: kaboutapplicationdialog.cpp:111
+#: kaboutapplicationdialog.cpp:104
 #, fuzzy, kde-format
-#| msgid "Libraries"
+#| msgid "Comment"
 msgctxt "@title:tab"
-msgid "Libraries"
-msgstr "程式庫"
+msgid "Components"
+msgstr "備註"
 
-#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:117 kaboutplugindialog.cpp:91
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@title:tab"
@@ -71,14 +99,14 @@ msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "作者"
 
-#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:98
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "感謝(&T)"
 
-#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:104
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "@title:tab"
@@ -264,38 +292,53 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
-#: kabstractaboutdialog_p.cpp:38
+#: kabstractaboutdialog_p.cpp:42
 #, fuzzy, kde-format
 #| msgid "Version"
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "版本"
 
-#: kabstractaboutdialog_p.cpp:81
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid "License: %1"
-msgstr "許可證："
+#: kabstractaboutdialog_p.cpp:107
+#, kde-format
+msgid "The <em>%1</em> windowing system"
+msgstr ""
 
-#: kabstractaboutdialog_p.cpp:101
+#: kabstractaboutdialog_p.cpp:108
+#, fuzzy, kde-format
+#| msgid "Quit"
+msgid "Qt"
+msgstr "離開"
+
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:109
+#, kde-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:130
 #, fuzzy, kde-format
 #| msgid "Show author information"
 msgid "Show author photos"
 msgstr "顯示作者資訊"
 
-#: kabstractaboutdialog_p.cpp:102
+#: kabstractaboutdialog_p.cpp:131
 #, kde-format
 msgid "Enabling this will fetch images from an online location"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:141
+#: kabstractaboutdialog_p.cpp:170
 #, fuzzy, kde-format
 #| msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "請使用 http://bugs.kde.org 報告問題。\n"
 
-#: kabstractaboutdialog_p.cpp:149
+#: kabstractaboutdialog_p.cpp:178
 #, fuzzy, kde-format
 #| msgid "Please report bugs to %1.\n"
 msgctxt "Reference to email address"
@@ -1612,6 +1655,12 @@ msgid "Main Toolbar"
 msgstr "主工具列"
 
 #, fuzzy
+#~| msgid "Libraries"
+#~ msgctxt "@title:tab"
+#~ msgid "Libraries"
+#~ msgstr "程式庫"
+
+#, fuzzy
 #~| msgid "Homepage"
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
@@ -2812,11 +2861,6 @@ msgstr "主工具列"
 #~| msgid "Application: "
 #~ msgid "KDE Application"
 #~ msgstr "應用程式："
-
-#, fuzzy
-#~| msgid "Quit"
-#~ msgid "Qt"
-#~ msgstr "離開"
 
 #~ msgid "KDE"
 #~ msgstr "KDE"
@@ -9061,11 +9105,6 @@ msgstr "主工具列"
 #~| msgid "Print Previe&w..."
 #~ msgid "Loading Preview"
 #~ msgstr "預覽列印(&W)..."
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgid "Comments"
-#~ msgstr "備註"
 
 #, fuzzy
 #~| msgid "Change"
