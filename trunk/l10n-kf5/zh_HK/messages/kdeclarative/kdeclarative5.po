@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-26 00:24+0000\n"
+"POT-Creation-Date: 2021-12-18 00:40+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -104,12 +104,34 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:171
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:142
+#, fuzzy, kde-format
+msgid "Global Shortcut Shadowing"
+msgstr "快速鍵"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:145
+#, kde-format
+msgid "The '%1' key combination is shadowed by following global actions:\n"
+msgstr ""
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:147
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:153
+#, fuzzy, kde-format
+#| msgid "Content information: %1\n"
+msgid "Action '%1' in context '%2'\n"
+msgstr "內容資訊:：%1\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:151
+#, kde-format
+msgid "The '%1' key combination shadows following global actions:\n"
+msgstr ""
+
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:190
 #, kde-format
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快速鍵定義衝突"
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:173
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:192
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -119,7 +141,7 @@ msgstr ""
 "'%1' 按鍵組合已配置給標準 \"%2\" 動作。\n"
 "你確定要重新設定此組合鍵給此動作？"
 
-#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:179
+#: qmlcontrols/kquickcontrols/private/keysequencehelper.cpp:198
 #, kde-format
 msgid "Reassign"
 msgstr "重新指定"
@@ -4639,11 +4661,6 @@ msgstr ""
 #~ msgstr ""
 #~ "'%1' 按鍵組合已配置給 \"%2\" 動作。\n"
 #~ "你確定要重新設定此組合鍵給此動作？"
-
-#, fuzzy
-#~| msgid "Content information: %1\n"
-#~ msgid "In context '%1' for action '%2'\n"
-#~ msgstr "內容資訊:：%1\n"
 
 #, fuzzy
 #~| msgid "Conflict with Global Shortcut"
@@ -13315,10 +13332,6 @@ msgstr ""
 #~ msgstr ""
 #~ "請使用此按扭來選擇快速鍵。一旦你按下了它，你可以按下你希望的組合鍵與目前選"
 #~ "定的動作相聯繫。"
-
-#, fuzzy
-#~ msgid "Global Shortcut(s)"
-#~ msgstr "快速鍵"
 
 #~ msgid "Advanced"
 #~ msgstr "進階"
