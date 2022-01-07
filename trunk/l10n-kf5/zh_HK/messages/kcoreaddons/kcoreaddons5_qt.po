@@ -893,24 +893,24 @@ msgctxt "KFormat|"
 msgid "Two days ago"
 msgstr ""
 
-#: lib/util/kformatprivate.cpp:513
+#: lib/util/kformatprivate.cpp:510
 msgctxt "KFormat|"
 msgid "Just now"
 msgstr ""
 
-#: lib/util/kformatprivate.cpp:515
+#: lib/util/kformatprivate.cpp:512
 #, fuzzy, qt-format
 msgctxt "KFormat|"
 msgid "%1 minutes ago"
 msgstr "%1 個選項"
 
-#. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:521
+#. relative datetime with %1 result of QLocale.toString(date, format) or formatRelativeDate and %2 result of QLocale.toString(time, timeformatType) If this does not fit the grammar of your language please contact the i18n team to solve the problem
+#: lib/util/kformatprivate.cpp:528
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt "KFormat|"
-msgid "%1, %2"
+msgid "%1 at %2"
 msgstr "%1 %2"
 
 #: lib/util/klistopenfilesjob_unix.cpp:36
@@ -929,6 +929,13 @@ msgstr ""
 msgctxt "QObject|"
 msgid "KListOpenFilesJob is not supported on Windows"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "concatenation of dates and time"
+#~| msgid "%1 %2"
+#~ msgctxt "KFormat|"
+#~ msgid "%1, %2"
+#~ msgstr "%1 %2"
 
 #, fuzzy
 #~ msgctxt "KFormat|most recent such day before today"
