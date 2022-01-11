@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-01-11 00:41+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -101,7 +101,7 @@ msgctxt "@title:window"
 msgid "Configure"
 msgstr "設定"
 
-#: khamburgermenu.cpp:126
+#: khamburgermenu.cpp:128
 #, fuzzy, kde-format
 #| msgctxt "QAccel"
 #| msgid "Menu"
@@ -109,21 +109,27 @@ msgctxt "@action:inmenu General purpose menu"
 msgid "&Menu"
 msgstr "選單"
 
-#: khamburgermenu.cpp:342
+#: khamburgermenu.cpp:334
 #, fuzzy, kde-format
-#| msgid "Content information: %1\n"
-msgctxt "@action:inmenu A menu text advertising its contents (more features)."
-msgid "For %1 more action:"
-msgid_plural "For %1 more actions:"
-msgstr[0] "內容資訊:：%1\n"
+#| msgid "Show all options"
+msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
+msgid "Show &Menubar with All Actions"
+msgstr "顯示所有選項"
 
-#: khamburgermenu.cpp:345
-#, kde-format
+#: khamburgermenu.cpp:362
+#, fuzzy, kde-format
+#| msgid "More..."
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr "更多..."
+
+#: khamburgermenu.cpp:363
+#, fuzzy, kde-format
+#| msgid "Action"
 msgctxt ""
 "@action:inmenu A section heading advertising the contents of the menu bar"
-msgid "%1 Menu Bar Exclusive Action"
-msgid_plural "%1 Menu Bar Exclusive Actions"
-msgstr[0] ""
+msgid "More Actions"
+msgstr "動作"
 
 #: krecentfilesaction.cpp:68
 #, fuzzy, kde-format
@@ -672,6 +678,14 @@ msgstr "上一頁(&P)"
 msgctxt "@action:button Goes to next tip, opposite to previous"
 msgid "&Next"
 msgstr "下一頁(&N)"
+
+#, fuzzy
+#~| msgid "Content information: %1\n"
+#~ msgctxt ""
+#~ "@action:inmenu A menu text advertising its contents (more features)."
+#~ msgid "For %1 more action:"
+#~ msgid_plural "For %1 more actions:"
+#~ msgstr[0] "內容資訊:：%1\n"
 
 #, fuzzy
 #~ msgid "Switch Application &Language..."
@@ -1826,9 +1840,6 @@ msgstr "下一頁(&N)"
 
 #~ msgid "Show %1 specific options"
 #~ msgstr "顯示 %1 相關的選項"
-
-#~ msgid "Show all options"
-#~ msgstr "顯示所有選項"
 
 #~ msgid "Show author information"
 #~ msgstr "顯示作者資訊"
@@ -4034,11 +4045,6 @@ msgstr "下一頁(&N)"
 
 #~ msgid "Delete"
 #~ msgstr "刪除"
-
-#, fuzzy
-#~| msgid "Action"
-#~ msgid "More Actions"
-#~ msgstr "動作"
 
 #, fuzzy
 #~| msgid "Defaults"
@@ -9599,14 +9605,6 @@ msgstr "下一頁(&N)"
 #~| msgid "Asterisk"
 #~ msgid "After"
 #~ msgstr "星號"
-
-#, fuzzy
-#~| msgid "More..."
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "更多..."
 
 #, fuzzy
 #~ msgctxt "@option:check A filter on file type"
