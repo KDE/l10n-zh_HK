@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-20 00:54+0000\n"
+"POT-Creation-Date: 2022-02-25 00:56+0000\n"
 "PO-Revision-Date: 2005-12-24 08:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -482,6 +482,26 @@ msgid ""
 "https://search.cpan.org/search?mode=\\\\{mode,2,\"\"}&query=\\\\{query,q,1}"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/cplusplus.desktop:2
+msgctxt "Name"
+msgid "CPlusPlus"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/cplusplus.desktop:5
+msgctxt "Query"
+msgid "http://cplusplus.com/search.do?q=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/cppreference.desktop:2
+msgctxt "Name"
+msgid "CPP Reference"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/cppreference.desktop:5
+msgctxt "Query"
+msgid "https://cppreference.com/w/?search=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
 msgid "CTAN Catalog"
@@ -693,6 +713,21 @@ msgstr ""
 msgctxt "Query"
 msgid ""
 "https://www.feedster.com/index.php?page=search/web&type=Web&search=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/flatpak.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Krita Document"
+msgctxt "Name"
+msgid "Flatpak Documentation"
+msgstr "Krita 文件"
+
+#: src/urifilters/ikws/searchproviders/flatpak.desktop:5
+msgctxt "Query"
+msgid ""
+"https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
+"&check_keywords=yes&area=default"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/flickrcc.desktop:5
@@ -981,6 +1016,29 @@ msgctxt "Query"
 msgid "https://invent.kde.org/search?search=\\\\{@}"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/invent_issues.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE Component"
+msgctxt "Name"
+msgid "KDE Invent Issues"
+msgstr "KDE 元件"
+
+#: src/urifilters/ikws/searchproviders/invent_issues.desktop:4
+msgctxt "Query"
+msgid "https://invent.kde.org/search?scope=issues&search=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/invent_mr.desktop:3
+msgctxt "Name"
+msgid "KDE Invent Merge Requests"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/invent_mr.desktop:4
+msgctxt "Query"
+msgid "https://invent.kde.org/search?scope=merge_requests&search=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/invent_repo.desktop:3
 msgctxt "Name"
 msgid "KDE Invent Repositories"
@@ -1043,7 +1101,7 @@ msgstr "OASIS OpenDocument 簡報"
 
 #: src/urifilters/ikws/searchproviders/kde.desktop:99
 msgctxt "Query"
-msgid "https://api.kde.org/classmapper.php?class=\\\\{@}"
+msgid "https://api.kde.org/search.html?query=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/kde_forums.desktop:5
@@ -1061,14 +1119,17 @@ msgid ""
 "&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/kde_look.desktop:5
+#: src/urifilters/ikws/searchproviders/kde_store.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Step"
 msgctxt "Name"
-msgid "KDE Look"
-msgstr ""
+msgid "KDE Store"
+msgstr "KDE Step"
 
-#: src/urifilters/ikws/searchproviders/kde_look.desktop:77
+#: src/urifilters/ikws/searchproviders/kde_store.desktop:77
 msgctxt "Query"
-msgid "https://www.kde-look.org/content/search.php?search=Search&name=\\\\{@}"
+msgid "https://store.kde.org/content/search.php?search=Search&name=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/kde_techbase.desktop:5
@@ -1091,6 +1152,39 @@ msgctxt "Query"
 msgid "https://userbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/kreddit.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE Component"
+msgctxt "Name"
+msgid "KDE Reddit"
+msgstr "KDE 元件"
+
+#: src/urifilters/ikws/searchproviders/kreddit.desktop:5
+msgctxt "Query"
+msgid "https://www.reddit.com/r/kde/search/?q=\\\\{@}&restrict_sr=1"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/krita.desktop:2
+msgctxt "Name"
+msgid "Krita Manual"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/krita.desktop:5
+msgctxt "Query"
+msgid "https://docs.krita.org/en/search.html?q=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/learncpp.desktop:2
+msgctxt "Name"
+msgid "Learn CPP"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/learncpp.desktop:5
+msgctxt "Query"
+msgid "https://www.learncpp.com/gsearch/?q=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/leo.desktop:3
 msgctxt "Name"
 msgid "LEO-Translate"
@@ -1099,6 +1193,16 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/leo.desktop:96
 msgctxt "Query"
 msgid "https://dict.leo.org/?search=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/linguee.desktop:2
+msgctxt "Name"
+msgid "Linguee"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/linguee.desktop:5
+msgctxt "Query"
+msgid "https://www.linguee.com/search?source=auto&query=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/magnatune.desktop:5
@@ -1119,6 +1223,19 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/metacrawler.desktop:98
 msgctxt "Query"
 msgid "https://www.metacrawler.com/info.metac.cloud.other/search/web?q=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Microsoft Word Document"
+msgctxt "Name"
+msgid "Microsoft C++ Documentation"
+msgstr "微軟 Word 文件"
+
+#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:5
+msgctxt "Query"
+msgid "https://docs.microsoft.com/search/?terms=\\\\{@}&scope=C%2B%2B"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/msdn.desktop:3
@@ -1234,6 +1351,16 @@ msgid ""
 "https://www.opendesktop.org/content/search.php?search=Search&name=\\\\{@}"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/opensuse.desktop:2
+msgctxt "Name"
+msgid "OpenSUSE Software"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/opensuse.desktop:5
+msgctxt "Query"
+msgid "https://software.opensuse.org/search?utf8=%E2%9C%93&q=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/pgpkeys.desktop:3
 msgctxt "Name"
 msgid "OpenPGP Key Search"
@@ -1254,6 +1381,16 @@ msgctxt "Query"
 msgid "https://secure.php.net/manual-lookup.php?pattern=\\\\{@}"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/protondb.desktop:2
+msgctxt "Name"
+msgid "ProtonDB"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/protondb.desktop:5
+msgctxt "Query"
+msgid "https://www.protondb.com/search?q=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/python.desktop:5
 msgctxt "Name"
 msgid "Python Reference Manual"
@@ -1266,27 +1403,30 @@ msgid ""
 "&submit=Search&q=site%3Apython.org"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qt4.desktop:3
+#: src/urifilters/ikws/searchproviders/qt5.desktop:5
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Krita Document"
 msgctxt "Name"
-msgid "Qt4 Documentation"
+msgid "Qt5 Online Documentation"
 msgstr "Krita 文件"
 
-#: src/urifilters/ikws/searchproviders/qt4.desktop:64
-msgctxt "Query"
-msgid "https://doc.qt.io/archives/qt-4.8/search-results.html?q=\\\\{@}"
-msgstr ""
-
-#: src/urifilters/ikws/searchproviders/qt.desktop:5
-msgctxt "Name"
-msgid "Latest Qt Online Documentation"
-msgstr ""
-
-#: src/urifilters/ikws/searchproviders/qt.desktop:96
+#: src/urifilters/ikws/searchproviders/qt5.desktop:96
 msgctxt "Query"
 msgid "https://doc.qt.io/qt-5/search-results.html?q=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/qt6.desktop:5
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Krita Document"
+msgctxt "Name"
+msgid "Qt6 Online Documentation"
+msgstr "Krita 文件"
+
+#: src/urifilters/ikws/searchproviders/qt6.desktop:6
+msgctxt "Query"
+msgid "https://doc.qt.io/qt-6/search-results.html?q=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/qwant.desktop:3
@@ -1375,6 +1515,16 @@ msgctxt "Query"
 msgid "https://academia.gal/dicionario/-/termo/busca/\\\\{@}"
 msgstr ""
 
+#: src/urifilters/ikws/searchproviders/reddit.desktop:2
+msgctxt "Name"
+msgid "Reddit"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/reddit.desktop:5
+msgctxt "Query"
+msgid "https://www.reddit.com/search/?q=\\\\{@}"
+msgstr ""
+
 #: src/urifilters/ikws/searchproviders/rfc.desktop:3
 msgctxt "Name"
 msgid "IETF Requests for Comments"
@@ -1406,6 +1556,19 @@ msgstr "應用程式日誌檔案"
 #: src/urifilters/ikws/searchproviders/ruby_application_archive.desktop:97
 msgctxt "Query"
 msgid "https://www.ruby-lang.org/en/raa-list.rhtml?name=\\\\{@}"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/rust.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Krita Document"
+msgctxt "Name"
+msgid "Rust STD Documentation"
+msgstr "Krita 文件"
+
+#: src/urifilters/ikws/searchproviders/rust.desktop:5
+msgctxt "Query"
+msgid "https://doc.rust-lang.org/std/index.html?search=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/soundcloud.desktop:3
@@ -1474,6 +1637,19 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/tvtome.desktop:96
 msgctxt "Query"
 msgid "https://www.tv.com/search.php?type=11&stype=all&qs=\\\\{@}&x=0&y=0"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/ubuntu.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Debian Package"
+msgctxt "Name"
+msgid "Ubuntu Package Search"
+msgstr "Debian 套件"
+
+#: src/urifilters/ikws/searchproviders/ubuntu.desktop:5
+msgctxt "Query"
+msgid "https://packages.ubuntu.com/\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/urbandictionary.desktop:5
@@ -1558,6 +1734,19 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/wiktionary.desktop:95
 msgctxt "Query"
 msgid "https://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
+msgstr ""
+
+#: src/urifilters/ikws/searchproviders/wine.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "SQLite2 Database File"
+msgctxt "Name"
+msgid "WineHQ Database"
+msgstr "SQLite2 資料庫檔案"
+
+#: src/urifilters/ikws/searchproviders/wine.desktop:5
+msgctxt "Query"
+msgid "https://www.winehq.org/search?q=\\\\{@}"
 msgstr ""
 
 #: src/urifilters/ikws/searchproviders/wolfram_alpha.desktop:3
@@ -2952,10 +3141,6 @@ msgstr "增強功能的瀏覽外掛程式"
 #~ msgid "A style using alphablending"
 #~ msgstr "一個使用漸變色的佈景"
 
-#~ msgctxt "Name"
-#~ msgid "KDE Step"
-#~ msgstr "KDE Step"
-
 #~ msgctxt "Comment"
 #~ msgid "Unthemed Next-like style"
 #~ msgstr "類似未修改佈景的 NextStep"
@@ -3230,10 +3415,6 @@ msgstr "增強功能的瀏覽外掛程式"
 #~ msgctxt "Comment"
 #~ msgid "Microsoft PowerPoint Presentation"
 #~ msgstr "微軟 PowerPoint 文件"
-
-#~ msgctxt "Comment"
-#~ msgid "Microsoft Word Document"
-#~ msgstr "微軟 Word 文件"
 
 #~ msgctxt "Comment"
 #~ msgid "Unknown"
@@ -3749,10 +3930,6 @@ msgstr "增強功能的瀏覽外掛程式"
 #~ msgctxt "Comment"
 #~ msgid "Siag Spreadsheet"
 #~ msgstr "Siag 電子表格"
-
-#~ msgctxt "Comment"
-#~ msgid "SQLite2 Database File"
-#~ msgstr "SQLite2 資料庫檔案"
 
 #~ msgctxt "Comment"
 #~ msgid "SQLite3 Database File"
