@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-08 00:42+0000\n"
+"POT-Creation-Date: 2022-03-09 00:43+0000\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -5172,81 +5172,105 @@ msgstr ""
 msgid "Unable to find the Okular component: %1"
 msgstr ""
 
-#: shell/shell.cpp:132
+#: shell/shell.cpp:146
 #, kde-format
 msgid ""
 "There is already a unique Okular instance running. This instance won't be "
 "the unique one."
 msgstr ""
 
-#: shell/shell.cpp:151
+#: shell/shell.cpp:168
 #, kde-format
 msgid "Unable to find the Okular component."
 msgstr ""
 
-#: shell/shell.cpp:362
+#: shell/shell.cpp:390
 #, kde-format
 msgid ""
 "Click to open a file\n"
 "Click and hold to open a recent file"
 msgstr ""
 
-#: shell/shell.cpp:363
+#: shell/shell.cpp:391
 #, kde-format
 msgid ""
 "<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
 msgstr ""
 
-#: shell/shell.cpp:376
+#: shell/shell.cpp:404
 #, fuzzy, kde-format
 msgid "Next Tab"
 msgstr "符合頁面"
 
-#: shell/shell.cpp:382
+#: shell/shell.cpp:410
 #, kde-format
 msgid "Previous Tab"
 msgstr ""
 
-#: shell/shell.cpp:388
+#: shell/shell.cpp:416
 #, kde-format
 msgid "Undo close tab"
 msgstr ""
 
-#: shell/shell.cpp:493
+#: shell/shell.cpp:521
 #, kde-format
 msgid "All files (*)"
 msgstr ""
 
-#: shell/shell.cpp:494
+#: shell/shell.cpp:522
 #, kde-format
 msgid "All supported files (%1)"
 msgstr ""
 
-#: shell/shell.cpp:498
+#: shell/shell.cpp:526
 #, fuzzy, kde-format
 #| msgid "Current mantainer"
 msgid "Open Document"
 msgstr "目前維護者"
 
-#: shell/shell.cpp:599
+#: shell/shell.cpp:627
 #, kde-format
 msgid "Confirm Close"
 msgstr ""
 
-#: shell/shell.cpp:603
+#: shell/shell.cpp:631
 #, kde-format
 msgid "Close Tabs"
 msgstr ""
 
-#: shell/shell.cpp:610
+#: shell/shell.cpp:638
 #, kde-format
 msgid "You are about to close %1 tabs. Are you sure you want to continue?"
 msgstr ""
 
-#: shell/shell.cpp:612
+#: shell/shell.cpp:640
 #, kde-format
 msgid "Warn me when I attempt to close multiple tabs"
 msgstr ""
+
+#: shell/welcomescreen.cpp:65
+#, fuzzy, kde-format
+#| msgid "Speak Text"
+msgid "&Copy Path"
+msgstr "讀出文字"
+
+#: shell/welcomescreen.cpp:78
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr ""
+
+#: shell/welcomescreen.cpp:93
+#, kde-format
+msgctxt "recent items context menu"
+msgid "&Forget This Item"
+msgstr ""
+
+#: shell/welcomescreen.cpp:145
+#, fuzzy, kde-format
+#| msgid "Current mantainer"
+msgctxt "on welcome screen"
+msgid "No recent documents"
+msgstr "目前維護者"
 
 #, fuzzy
 #~| msgid "Pages"
@@ -5346,11 +5370,6 @@ msgstr ""
 #~| msgid "Pages: %1"
 #~ msgid "Reason: %1"
 #~ msgstr "頁：%1"
-
-#, fuzzy
-#~| msgid "Current mantainer"
-#~ msgid "Current document only"
-#~ msgstr "目前維護者"
 
 #, fuzzy
 #~| msgid "Presentation"
