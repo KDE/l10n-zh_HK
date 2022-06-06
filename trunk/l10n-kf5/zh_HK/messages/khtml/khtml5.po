@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:42+0000\n"
+"POT-Creation-Date: 2022-06-06 00:41+0000\n"
 "PO-Revision-Date: 2006-01-04 13:32+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -210,7 +210,6 @@ msgstr "參考錯誤"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "值"
@@ -592,113 +591,6 @@ msgstr "HTTP 標頭"
 #, kde-format
 msgid "Property"
 msgstr "內容"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "初始化 Applet \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "啟動 Applet \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Applet \"%1\" 啟動"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Applet \"%1\" 停止"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "載入 Applet"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "錯誤：找不到 java 執行檔"
-
-#: java/kjavaappletserver.cpp:673
-#, fuzzy, kde-format
-#| msgid "Signed by (validation: "
-msgid "Signed by (validation: %1)"
-msgstr "簽署者(驗證："
-
-#: java/kjavaappletserver.cpp:675
-#, fuzzy, kde-format
-#| msgid "Certificate (validation: "
-msgid "Certificate (validation: %1)"
-msgstr "證書(驗證："
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "安全警報"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "你是否允許有下列證書的 Java applet："
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "接著的權限"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "否(&N)"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "全部拒絕(&R)"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "是(&Y)"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "全部允許(&R)"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE Java Applet Plugin"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Applet 參數"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "參數"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "類別"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Base URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "套件包"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1394,6 +1286,11 @@ msgstr "安全警告"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>此不可信賴的網頁對<BR><B>%1</B>的存取<BR>已被禁止了。"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "安全警報"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1913,6 +1810,70 @@ msgstr "嚴重解析錯誤：%1，發生在第 %2 行，第 %3 列"
 #, kde-format
 msgid "XML parsing error"
 msgstr "XML 解析錯誤"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "初始化 Applet \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "啟動 Applet \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "Applet \"%1\" 啟動"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "Applet \"%1\" 停止"
+
+#~ msgid "Loading Applet"
+#~ msgstr "載入 Applet"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "錯誤：找不到 java 執行檔"
+
+#, fuzzy
+#~| msgid "Signed by (validation: "
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "簽署者(驗證："
+
+#, fuzzy
+#~| msgid "Certificate (validation: "
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "證書(驗證："
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "你是否允許有下列證書的 Java applet："
+
+#~ msgid "the following permission"
+#~ msgstr "接著的權限"
+
+#~ msgid "&No"
+#~ msgstr "否(&N)"
+
+#~ msgid "&Reject All"
+#~ msgstr "全部拒絕(&R)"
+
+#~ msgid "&Yes"
+#~ msgstr "是(&Y)"
+
+#~ msgid "&Grant All"
+#~ msgstr "全部允許(&R)"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "KDE Java Applet Plugin"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "Applet 參數"
+
+#~ msgid "Parameter"
+#~ msgstr "參數"
+
+#~ msgid "Class"
+#~ msgstr "類別"
+
+#~ msgid "Base URL"
+#~ msgstr "Base URL"
+
+#~ msgid "Archives"
+#~ msgstr "套件包"
 
 #~ msgid "Overwrite"
 #~ msgstr "覆寫"
