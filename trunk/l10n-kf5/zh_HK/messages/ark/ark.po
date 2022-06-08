@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 2.60\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-24 00:47+0000\n"
+"POT-Creation-Date: 2022-06-08 00:49+0000\n"
 "PO-Revision-Date: 2006-01-13 09:15+0800\n"
 "Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -1298,17 +1298,16 @@ msgid "Name"
 msgstr ""
 
 #: part/archivemodel.cpp:157
-#, fuzzy, kde-format
-#| msgid " Size "
+#, kde-format
 msgctxt "Uncompressed size of a file inside an archive"
-msgid "Size"
-msgstr " 大小 "
+msgid "Original Size"
+msgstr ""
 
 #: part/archivemodel.cpp:159
 #, fuzzy, kde-format
 #| msgid "Compressed File"
 msgctxt "Compressed size of a file inside an archive"
-msgid "Compressed"
+msgid "Compressed Size"
 msgstr "已壓縮檔案"
 
 #: part/archivemodel.cpp:161
@@ -2237,6 +2236,12 @@ msgstr ""
 #| msgid "Folder to extract to"
 msgid "Failed to set metadata for entry: %1"
 msgstr "資料夾解壓至"
+
+#, fuzzy
+#~| msgid " Size "
+#~ msgctxt "Uncompressed size of a file inside an archive"
+#~ msgid "Size"
+#~ msgstr " 大小 "
 
 #, fuzzy
 #~ msgctxt "action, to open an archive"
