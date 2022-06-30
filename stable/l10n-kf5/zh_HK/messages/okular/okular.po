@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpdf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-10 02:05+0000\n"
+"POT-Creation-Date: 2022-06-30 02:09+0000\n"
 "PO-Revision-Date: 2006-01-10 22:45+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -564,6 +564,511 @@ msgstr "標題"
 #, kde-format
 msgid "&Default Font:"
 msgstr ""
+
+#: gui/certificatemodel.cpp:39
+#, fuzzy, kde-format
+#| msgid "Document to open"
+msgid "Version"
+msgstr "要開啟的文件"
+
+#: gui/certificatemodel.cpp:41
+#, fuzzy, kde-format
+#| msgid "Pages"
+msgid "Serial Number"
+msgstr "頁："
+
+#: gui/certificatemodel.cpp:43
+#, kde-format
+msgid "Issuer"
+msgstr ""
+
+#: gui/certificatemodel.cpp:45 part/certificateviewer.cpp:134
+#, kde-format
+msgid "Issued On"
+msgstr ""
+
+#: gui/certificatemodel.cpp:47 part/certificateviewer.cpp:135
+#, kde-format
+msgid "Expires On"
+msgstr ""
+
+#: gui/certificatemodel.cpp:49
+#, fuzzy, kde-format
+#| msgid "Subject"
+msgctxt "The person/company that made the signature"
+msgid "Subject"
+msgstr "主題"
+
+#: gui/certificatemodel.cpp:51
+#, kde-format
+msgid "Public Key"
+msgstr ""
+
+#: gui/certificatemodel.cpp:53
+#, kde-format
+msgid "Key Usage"
+msgstr ""
+
+#: gui/certificatemodel.cpp:72
+#, fuzzy, kde-format
+#| msgid "%1:"
+msgid "V%1"
+msgstr "%1:"
+
+#: gui/certificatemodel.cpp:84
+#, kde-format
+msgid "%1 (%2 bits)"
+msgstr ""
+
+#: gui/certificatemodel.cpp:146
+#, fuzzy, kde-format
+#| msgid "&Properties"
+msgid "Property"
+msgstr "屬性(&P)"
+
+#: gui/certificatemodel.cpp:148
+#, kde-format
+msgid "Value"
+msgstr ""
+
+#: gui/guiutils.cpp:37 part/editannottooldialog.cpp:88
+#: part/pageviewannotator.cpp:233 part/pageviewannotator.cpp:1320
+#, kde-format
+msgid "Pop-up Note"
+msgstr ""
+
+#: gui/guiutils.cpp:40 part/editannottooldialog.cpp:96
+#: part/pageviewannotator.cpp:220 part/pageviewannotator.cpp:1336
+#, kde-format
+msgid "Typewriter"
+msgstr ""
+
+#: gui/guiutils.cpp:42 part/editannottooldialog.cpp:89
+#: part/pageviewannotator.cpp:215 part/pageviewannotator.cpp:1318
+#, kde-format
+msgid "Inline Note"
+msgstr ""
+
+#: gui/guiutils.cpp:48
+#, fuzzy, kde-format
+msgid "Straight Line with Comment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:48 part/editannottooldialog.cpp:91
+#: part/pageviewannotator.cpp:1330
+#, kde-format
+msgid "Straight Line"
+msgstr ""
+
+#: gui/guiutils.cpp:50
+#, fuzzy, kde-format
+msgid "Polygon with Comment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:50 part/editannottooldialog.cpp:92
+#: part/pageviewannotator.cpp:1322
+#, kde-format
+msgid "Polygon"
+msgstr ""
+
+#: gui/guiutils.cpp:54
+#, fuzzy, kde-format
+msgid "Geometry with Comment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:54
+#, kde-format
+msgid "Geometry"
+msgstr ""
+
+#: gui/guiutils.cpp:59
+#, fuzzy, kde-format
+msgid "Highlight with Comment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:59 part/annotationwidgets.cpp:672
+#, kde-format
+msgid "Highlight"
+msgstr ""
+
+#: gui/guiutils.cpp:62
+#, fuzzy, kde-format
+#| msgid "&Select Tool"
+msgid "Squiggle with Comment"
+msgstr "選取工具(&S)"
+
+#: gui/guiutils.cpp:62 part/annotationwidgets.cpp:673
+#: part/pageviewannotator.cpp:1326
+#, kde-format
+msgid "Squiggle"
+msgstr ""
+
+#: gui/guiutils.cpp:65
+#, fuzzy, kde-format
+#| msgid "&Select Tool"
+msgid "Underline with Comment"
+msgstr "選取工具(&S)"
+
+#: gui/guiutils.cpp:65 part/annotationwidgets.cpp:674
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Underline"
+msgstr ""
+
+#: gui/guiutils.cpp:68
+#, fuzzy, kde-format
+#| msgid "&Select Tool"
+msgid "Strike Out with Comment"
+msgstr "選取工具(&S)"
+
+#: gui/guiutils.cpp:68
+#, fuzzy, kde-format
+#| msgid "&Select Tool"
+msgid "Strike Out"
+msgstr "選取工具(&S)"
+
+#: gui/guiutils.cpp:73
+#, fuzzy, kde-format
+#| msgid "&Select Tool"
+msgid "Stamp with Comment"
+msgstr "選取工具(&S)"
+
+#: gui/guiutils.cpp:73 part/editannottooldialog.cpp:95
+#: part/pageviewannotator.cpp:1328
+#, kde-format
+msgid "Stamp"
+msgstr ""
+
+#: gui/guiutils.cpp:76
+#, fuzzy, kde-format
+msgid "Freehand Line with Comment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:76 part/editannottooldialog.cpp:90
+#: part/pageviewannotator.cpp:1316
+#, kde-format
+msgid "Freehand Line"
+msgstr ""
+
+#: gui/guiutils.cpp:79
+#, fuzzy, kde-format
+#| msgid "Creator"
+msgid "Caret"
+msgstr "建立者"
+
+#: gui/guiutils.cpp:82
+#, fuzzy, kde-format
+msgid "File Attachment"
+msgstr "屬性(&P)"
+
+#: gui/guiutils.cpp:85
+#, kde-format
+msgid "Sound"
+msgstr ""
+
+#: gui/guiutils.cpp:88
+#, kde-format
+msgid "Movie"
+msgstr ""
+
+#: gui/guiutils.cpp:91
+#, fuzzy, kde-format
+#| msgid "Creator"
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "建立者"
+
+#: gui/guiutils.cpp:94
+#, kde-format
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr ""
+
+#: gui/guiutils.cpp:97
+#, kde-format
+msgctxt "Caption for a rich media annotation"
+msgid "Rich Media"
+msgstr ""
+
+#: gui/guiutils.cpp:109
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "未知"
+
+#: gui/guiutils.cpp:126 part/presentationwidget.cpp:370
+#, kde-format
+msgid "Author: %1"
+msgstr "作者：%1"
+
+#: gui/guiutils.cpp:138 part/propertiesdialog.cpp:229
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr ""
+
+#: gui/guiutils.cpp:150 part/propertiesdialog.cpp:240
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:42
+#, kde-format
+msgid "The signature is cryptographically valid."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:44
+#, kde-format
+msgid "The signature is cryptographically invalid."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:46
+#, kde-format
+msgid "Digest Mismatch occurred."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:48
+#, kde-format
+msgid "The signature CMS/PKCS7 structure is malformed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:50
+#, kde-format
+msgid "The requested signature is not present in the document."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:52
+#, kde-format
+msgid "The signature could not be verified."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:60
+#, fuzzy, kde-format
+#| msgid "Configure KPDF..."
+msgid "Certificate is Trusted."
+msgstr "設定 KPDF..."
+
+#: gui/signatureguiutils.cpp:62
+#, kde-format
+msgid "Certificate issuer isn't Trusted."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:64
+#, fuzzy, kde-format
+#| msgid "Configure KPDF..."
+msgid "Certificate issuer is unknown."
+msgstr "設定 KPDF..."
+
+#: gui/signatureguiutils.cpp:66
+#, kde-format
+msgid "Certificate has been Revoked."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:68
+#, fuzzy, kde-format
+#| msgid "Configure KPDF..."
+msgid "Certificate has Expired."
+msgstr "設定 KPDF..."
+
+#: gui/signatureguiutils.cpp:70
+#, kde-format
+msgid "Certificate has not yet been verified."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:72
+#, kde-format
+msgid "Unknown issue with Certificate or corrupted data."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:80
+#, kde-format
+msgid "MD2"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:82
+#, kde-format
+msgid "MD5"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:84
+#, kde-format
+msgid "SHA1"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:86
+#, kde-format
+msgid "SHA256"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:88
+#, kde-format
+msgid "SHA384"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:90
+#, kde-format
+msgid "SHA512"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:92
+#, kde-format
+msgid "SHA224"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:94
+#, fuzzy, kde-format
+#| msgid "Unknown Date"
+msgid "Unknown Algorithm"
+msgstr "未知日期"
+
+#: gui/signatureguiutils.cpp:102
+#, kde-format
+msgid "RSA"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:104
+#, kde-format
+msgid "DSA"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:106
+#, kde-format
+msgid "EC"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:108 gui/signatureguiutils.cpp:111
+#, fuzzy, kde-format
+#| msgid "Unknown File"
+msgid "Unknown Type"
+msgstr "未知檔案"
+
+#: gui/signatureguiutils.cpp:118
+#, kde-format
+msgid "Digital Signature"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:121
+#, kde-format
+msgid "Non-Repudiation"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:124
+#, fuzzy, kde-format
+#| msgid "Encrypted"
+msgid "Encrypt Keys"
+msgstr "已加密"
+
+#: gui/signatureguiutils.cpp:127
+#, fuzzy, kde-format
+#| msgid "Unencrypted"
+msgid "Decrypt Keys"
+msgstr "未加密"
+
+#: gui/signatureguiutils.cpp:130
+#, kde-format
+msgid "Key Agreement"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:133
+#, fuzzy, kde-format
+#| msgid "Configure KPDF..."
+msgid "Sign Certificate"
+msgstr "設定 KPDF..."
+
+#: gui/signatureguiutils.cpp:136
+#, kde-format
+msgid "Sign CRL"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:139
+#, fuzzy, kde-format
+#| msgid "Encrypted"
+msgid "Encrypt Only"
+msgstr "已加密"
+
+#: gui/signatureguiutils.cpp:142
+#, kde-format
+msgid "No Usage Specified"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:149
+#, kde-format
+msgctxt "Joins the various ways a signature key can be used in a longer string"
+msgid ", "
+msgstr ""
+
+#: gui/signatureguiutils.cpp:163
+#, kde-format
+msgid "The document has not been modified since it was signed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:166
+#, kde-format
+msgid ""
+"The revision of the document that was covered by this signature has not been "
+"modified;\n"
+"however there have been subsequent changes to the document."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:170
+#, kde-format
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:172
+#, kde-format
+msgid "The document integrity verification could not be completed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:205
+#, kde-format
+msgid "This document has unsigned signature fields."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:208
+#, kde-format
+msgid "This document is digitally signed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:210
+#, kde-format
+msgid ""
+"This document is digitally signed. There have been changes since last signed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:213
+#, kde-format
+msgid ""
+"This document is digitally signed. Some of the signatures could not be "
+"validated properly."
+msgstr ""
+
+#: gui/signaturemodel.cpp:141
+#, kde-format
+msgid "Unsigned Signature %1"
+msgstr ""
+
+#: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:167
+#, kde-format
+msgid "Field: %1 on page %2"
+msgstr ""
+
+#: gui/signaturemodel.cpp:152
+#, kde-format
+msgid "Rev. %1: Signed By %2"
+msgstr ""
+
+#: gui/signaturemodel.cpp:158
+#, kde-format
+msgid "Signing Time: %1"
+msgstr ""
+
+#: gui/signaturemodel.cpp:163
+#, fuzzy, kde-format
+#| msgid "Pages: %1"
+msgid "Reason: %1"
+msgstr "頁：%1"
 
 #: part/annotationactionhandler.cpp:147
 #, kde-format
@@ -1468,21 +1973,6 @@ msgstr "儲存至檔案..."
 msgid "Type:"
 msgstr "類型"
 
-#: part/annotationwidgets.cpp:672
-#, kde-format
-msgid "Highlight"
-msgstr ""
-
-#: part/annotationwidgets.cpp:673 part/pageviewannotator.cpp:1326
-#, kde-format
-msgid "Squiggle"
-msgstr ""
-
-#: part/annotationwidgets.cpp:674 part/pageviewannotator.cpp:1334
-#, kde-format
-msgid "Underline"
-msgstr ""
-
 #: part/annotationwidgets.cpp:675 part/pageviewannotator.cpp:1332
 #, kde-format
 msgid "Strike out"
@@ -1719,16 +2209,6 @@ msgstr ""
 #: part/certificateviewer.cpp:131
 #, kde-format
 msgid "Validity"
-msgstr ""
-
-#: part/certificateviewer.cpp:134
-#, kde-format
-msgid "Issued On"
-msgstr ""
-
-#: part/certificateviewer.cpp:135
-#, kde-format
-msgid "Expires On"
 msgstr ""
 
 #: part/certificateviewer.cpp:137
@@ -2729,33 +3209,6 @@ msgstr "類型"
 msgid "Appearance"
 msgstr ""
 
-#: part/editannottooldialog.cpp:88 part/pageviewannotator.cpp:233
-#: part/pageviewannotator.cpp:1320
-#, kde-format
-msgid "Pop-up Note"
-msgstr ""
-
-#: part/editannottooldialog.cpp:89 part/pageviewannotator.cpp:215
-#: part/pageviewannotator.cpp:1318
-#, kde-format
-msgid "Inline Note"
-msgstr ""
-
-#: part/editannottooldialog.cpp:90 part/pageviewannotator.cpp:1316
-#, kde-format
-msgid "Freehand Line"
-msgstr ""
-
-#: part/editannottooldialog.cpp:91 part/pageviewannotator.cpp:1330
-#, kde-format
-msgid "Straight Line"
-msgstr ""
-
-#: part/editannottooldialog.cpp:92 part/pageviewannotator.cpp:1322
-#, kde-format
-msgid "Polygon"
-msgstr ""
-
 #: part/editannottooldialog.cpp:93
 #, kde-format
 msgid "Text markup"
@@ -2764,17 +3217,6 @@ msgstr ""
 #: part/editannottooldialog.cpp:94
 #, kde-format
 msgid "Geometrical shape"
-msgstr ""
-
-#: part/editannottooldialog.cpp:95 part/pageviewannotator.cpp:1328
-#, kde-format
-msgid "Stamp"
-msgstr ""
-
-#: part/editannottooldialog.cpp:96 part/pageviewannotator.cpp:220
-#: part/pageviewannotator.cpp:1336
-#, kde-format
-msgid "Typewriter"
 msgstr ""
 
 #: part/editannottooldialog.cpp:101
@@ -4558,11 +5000,6 @@ msgstr "表現模式選項"
 msgid "Title: %1"
 msgstr "標題：%1"
 
-#: part/presentationwidget.cpp:370
-#, kde-format
-msgid "Author: %1"
-msgstr "作者：%1"
-
 #: part/presentationwidget.cpp:372
 #, kde-format
 msgid "Pages: %1"
@@ -4646,16 +5083,6 @@ msgstr "頁(&P)："
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Extract Font"
-msgstr ""
-
-#: part/propertiesdialog.cpp:229
-#, kde-format
-msgid "Where do you want to save %1?"
-msgstr ""
-
-#: part/propertiesdialog.cpp:240
-#, kde-format
-msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr ""
 
 #: part/propertiesdialog.cpp:273
@@ -5313,105 +5740,6 @@ msgstr ""
 #, kde-format
 msgid "Hide welcome screen"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Pages"
-#~ msgid "Serial Number"
-#~ msgstr "頁："
-
-#, fuzzy
-#~| msgid "Subject"
-#~ msgctxt "The person/company that made the signature"
-#~ msgid "Subject"
-#~ msgstr "主題"
-
-#, fuzzy
-#~| msgid "%1:"
-#~ msgid "V%1"
-#~ msgstr "%1:"
-
-#, fuzzy
-#~| msgid "&Properties"
-#~ msgid "Property"
-#~ msgstr "屬性(&P)"
-
-#, fuzzy
-#~ msgid "Straight Line with Comment"
-#~ msgstr "屬性(&P)"
-
-#, fuzzy
-#~ msgid "Geometry with Comment"
-#~ msgstr "屬性(&P)"
-
-#, fuzzy
-#~ msgid "Highlight with Comment"
-#~ msgstr "屬性(&P)"
-
-#, fuzzy
-#~| msgid "&Select Tool"
-#~ msgid "Squiggle with Comment"
-#~ msgstr "選取工具(&S)"
-
-#, fuzzy
-#~| msgid "&Select Tool"
-#~ msgid "Underline with Comment"
-#~ msgstr "選取工具(&S)"
-
-#, fuzzy
-#~| msgid "&Select Tool"
-#~ msgid "Strike Out with Comment"
-#~ msgstr "選取工具(&S)"
-
-#, fuzzy
-#~ msgid "Freehand Line with Comment"
-#~ msgstr "屬性(&P)"
-
-#, fuzzy
-#~| msgid "Creator"
-#~ msgid "Caret"
-#~ msgstr "建立者"
-
-#, fuzzy
-#~| msgid "Creator"
-#~ msgctxt "Caption for a screen annotation"
-#~ msgid "Screen"
-#~ msgstr "建立者"
-
-#, fuzzy
-#~| msgid "Unknown"
-#~ msgctxt "Unknown author"
-#~ msgid "Unknown"
-#~ msgstr "未知"
-
-#, fuzzy
-#~| msgid "Unknown Date"
-#~ msgid "Unknown Algorithm"
-#~ msgstr "未知日期"
-
-#, fuzzy
-#~| msgid "Unknown File"
-#~ msgid "Unknown Type"
-#~ msgstr "未知檔案"
-
-#, fuzzy
-#~| msgid "Encrypted"
-#~ msgid "Encrypt Keys"
-#~ msgstr "已加密"
-
-#, fuzzy
-#~| msgid "Unencrypted"
-#~ msgid "Decrypt Keys"
-#~ msgstr "未加密"
-
-#, fuzzy
-#~| msgid "Encrypted"
-#~ msgid "Encrypt Only"
-#~ msgstr "已加密"
-
-#, fuzzy
-#~| msgid "Pages: %1"
-#~ msgid "Reason: %1"
-#~ msgstr "頁：%1"
 
 #, fuzzy
 #~| msgid "Presentation"
