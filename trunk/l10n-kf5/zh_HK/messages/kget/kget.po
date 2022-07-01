@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KGet\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-30 00:44+0000\n"
+"POT-Creation-Date: 2022-07-01 00:44+0000\n"
 "PO-Revision-Date: 2006-01-03 22:09\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese(traditinal) <zh-l10n@linux.org.tw>\n"
@@ -500,7 +500,7 @@ msgid "Keyservers:"
 msgstr "速度"
 
 #: core/datasourcefactory.cpp:279 core/datasourcefactory.cpp:624
-#: core/kget.cpp:1386 transfer-plugins/metalink/metalink.cpp:199
+#: core/kget.cpp:1396 transfer-plugins/metalink/metalink.cpp:199
 #: transfer-plugins/metalink/metalinkhttp.cpp:241
 #: transfer-plugins/metalink/metalinkxml.cpp:198
 #: ui/metalinkcreator/metalinkcreator.cpp:149
@@ -799,32 +799,32 @@ msgstr ""
 "%1\n"
 "不是本機檔案，未能刪除。"
 
-#: core/kget.cpp:1379
+#: core/kget.cpp:1389
 #, kde-format
 msgid ""
 "<p>The following file has finished downloading:</p><p style=\"font-size: "
 "small;\">%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1380
+#: core/kget.cpp:1390
 #, fuzzy, kde-format
 #| msgid "Download finished"
 msgid "Download completed"
 msgstr "完成下載"
 
-#: core/kget.cpp:1383
+#: core/kget.cpp:1393
 #, kde-format
 msgid ""
 "<p>The following transfer has been started:</p><p style=\"font-size: small;"
 "\">%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1394
 #, fuzzy, kde-format
 msgid "Download started"
 msgstr "下載已續傳"
 
-#: core/kget.cpp:1386
+#: core/kget.cpp:1396
 #, kde-format
 msgid ""
 "<p>There has been an error in the following transfer:</p><p style=\"font-"
@@ -832,74 +832,74 @@ msgid ""
 "\">%2</p>"
 msgstr ""
 
-#: core/kget.cpp:1391
+#: core/kget.cpp:1401
 #, fuzzy, kde-format
 #| msgid "Open Transfer"
 msgid "Resolve"
 msgstr "開啟傳輸"
 
-#: core/kget.cpp:1443
+#: core/kget.cpp:1453
 #, fuzzy, kde-format
 #| msgid "All the downloads are finished."
 msgid "KGet is now closing, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1447
+#: core/kget.cpp:1457
 #, fuzzy, kde-format
 #| msgid "All the downloads are finished."
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1447
+#: core/kget.cpp:1457
 #, fuzzy, kde-format
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "自動關閉開啟。"
 
-#: core/kget.cpp:1450
+#: core/kget.cpp:1460
 #, fuzzy, kde-format
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1450
+#: core/kget.cpp:1460
 #, kde-format
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1453
+#: core/kget.cpp:1463
 #, fuzzy, kde-format
 #| msgid "All the downloads are finished."
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr "所有下載已完成。"
 
-#: core/kget.cpp:1453
+#: core/kget.cpp:1463
 #, fuzzy, kde-format
 #| msgid "Scheduling"
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "正在排程"
 
-#: core/kget.cpp:1461
+#: core/kget.cpp:1471
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr "字型:"
 
-#: core/kget.cpp:1471
+#: core/kget.cpp:1481
 #, kde-format
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1472
+#: core/kget.cpp:1482
 #, fuzzy, kde-format
 #| msgid "Download finished"
 msgid "Downloads completed"
 msgstr "完成下載"
 
-#: core/kget.h:365 main.cpp:102 mainwindow.cpp:95 mainwindow.cpp:526
+#: core/kget.h:369 main.cpp:102 mainwindow.cpp:95 mainwindow.cpp:526
 #: ui/tray.cpp:44
 #, kde-format
 msgid "KGet"
@@ -943,19 +943,19 @@ msgstr ""
 msgid "Signature not verified"
 msgstr ""
 
-#: core/transfer.cpp:32
-#, fuzzy, kde-format
+#: core/transfer.cpp:31
+#, fuzzy
 msgid "Downloading...."
 msgstr "下載已續傳"
 
-#: core/transfer.cpp:33
-#, fuzzy, kde-format
+#: core/transfer.cpp:32
+#, fuzzy
 #| msgid "Delayed"
 msgctxt "transfer state: delayed"
 msgid "Delayed"
 msgstr "已延遲"
 
-#: core/transfer.cpp:34 core/transfer.cpp:233 core/transfer.cpp:252
+#: core/transfer.cpp:33 core/transfer.cpp:232 core/transfer.cpp:251
 #: transfer-plugins/bittorrent/bttransfer.cpp:308
 #: transfer-plugins/contentfetch/contentfetch.cpp:68
 #: transfer-plugins/mmsthreads/mmstransfer.cpp:94
@@ -965,14 +965,14 @@ msgctxt "transfer state: stopped"
 msgid "Stopped"
 msgstr "已停止"
 
-#: core/transfer.cpp:35
-#, fuzzy, kde-format
+#: core/transfer.cpp:34
+#, fuzzy
 #| msgid "Font:"
 msgctxt "transfer state: aborted"
 msgid "Aborted"
 msgstr "字型:"
 
-#: core/transfer.cpp:36 transfer-plugins/bittorrent/bttransfer.cpp:225
+#: core/transfer.cpp:35 transfer-plugins/bittorrent/bttransfer.cpp:225
 #: transfer-plugins/bittorrent/bttransfer.cpp:304
 #, fuzzy, kde-format
 #| msgid "Finished"
@@ -980,7 +980,7 @@ msgctxt "transfer state: finished"
 msgid "Finished"
 msgstr "已完成"
 
-#: core/transfer.cpp:38 transfer-plugins/bittorrent/bttransfer.cpp:169
+#: core/transfer.cpp:37 transfer-plugins/bittorrent/bttransfer.cpp:169
 #, fuzzy, kde-format
 msgctxt "changing the destination of the file"
 msgid "Changing destination"
