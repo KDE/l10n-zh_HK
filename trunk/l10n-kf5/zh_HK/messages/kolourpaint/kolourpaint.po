@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:44+0000\n"
+"POT-Creation-Date: 2022-07-25 00:44+0000\n"
 "PO-Revision-Date: 2006-01-10 02:28+0800\n"
 "Last-Translator: Walter Cheuk <wwycheuk@netvigator.com>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -560,7 +560,7 @@ msgid "R&esize Text Box"
 msgstr "更改文字盒大小(&E)"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:740
-#: mainWindow/kpMainWindow_Tools.cpp:654
+#: mainWindow/kpMainWindow_Tools.cpp:653
 #, kde-format
 msgid ""
 "<qt><p>Resizing the image to %1x%2 may take a substantial amount of memory. "
@@ -571,7 +571,7 @@ msgstr ""
 "用程式產生資源問題。</p><p>確定要更改圖像的大小嗎？</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:748
-#: mainWindow/kpMainWindow_Tools.cpp:664
+#: mainWindow/kpMainWindow_Tools.cpp:663
 #, fuzzy, kde-format
 #| msgid "Resize Image?"
 msgctxt "@title:window"
@@ -579,7 +579,7 @@ msgid "Resize Image?"
 msgstr "要更改圖像大小嗎？"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
-#: mainWindow/kpMainWindow_Tools.cpp:665
+#: mainWindow/kpMainWindow_Tools.cpp:664
 #, kde-format
 msgid "R&esize Image"
 msgstr "更改圖像大小(&E)"
@@ -1773,12 +1773,12 @@ msgctxt ""
 msgid "Select&ion"
 msgstr "選取(&I)"
 
-#: mainWindow/kpMainWindow_Settings.cpp:67
+#: mainWindow/kpMainWindow_Settings.cpp:66
 #, kde-format
 msgid "Show &Path"
 msgstr "顯示路徑(&P)"
 
-#: mainWindow/kpMainWindow_Settings.cpp:72
+#: mainWindow/kpMainWindow_Settings.cpp:71
 #, kde-format
 msgid "Draw Anti-Aliased"
 msgstr ""
@@ -1841,39 +1841,39 @@ msgstr "加底線"
 msgid "Strike Through"
 msgstr "中間劃線"
 
-#: mainWindow/kpMainWindow_Tools.cpp:135
+#: mainWindow/kpMainWindow_Tools.cpp:134
 #, kde-format
 msgid "Previous Tool Option (Group #1)"
 msgstr "前一個工具選項（第一組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:141
+#: mainWindow/kpMainWindow_Tools.cpp:140
 #, kde-format
 msgid "Next Tool Option (Group #1)"
 msgstr "下一個工具選項（第一組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:147
+#: mainWindow/kpMainWindow_Tools.cpp:146
 #, kde-format
 msgid "Previous Tool Option (Group #2)"
 msgstr "前一個工具選項（第二組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:153
+#: mainWindow/kpMainWindow_Tools.cpp:152
 #, kde-format
 msgid "Next Tool Option (Group #2)"
 msgstr "下一個工具選項（第二組）"
 
-#: mainWindow/kpMainWindow_Tools.cpp:165
+#: mainWindow/kpMainWindow_Tools.cpp:164
 #, fuzzy, kde-format
 #| msgid "Opaque"
 msgid "&Draw Opaque"
 msgstr "不透明"
 
-#: mainWindow/kpMainWindow_Tools.cpp:170
+#: mainWindow/kpMainWindow_Tools.cpp:169
 #, fuzzy, kde-format
 #| msgid "Color Similarity"
 msgid "Draw With Color Similarity..."
 msgstr "顏色相似性"
 
-#: mainWindow/kpMainWindow_Tools.cpp:181
+#: mainWindow/kpMainWindow_Tools.cpp:180
 #, kde-format
 msgid "Tool Box"
 msgstr "工具盒"
@@ -1961,7 +1961,7 @@ msgid "Click or drag to erase."
 msgstr "單擊或拖曳擦走。"
 
 #: tools/flow/kpToolFlowBase.cpp:304 tools/kpToolColorPicker.cpp:108
-#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:207
+#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:208
 #: tools/polygonal/kpToolPolygonalBase.cpp:435
 #: tools/rectangular/kpToolRectangularBase.cpp:351
 #: tools/selection/kpAbstractSelectionTool.cpp:261
@@ -1994,12 +1994,6 @@ msgstr "噴塗鴉"
 #, kde-format
 msgid "Click or drag to spray graffiti."
 msgstr "點擊或拖曳噴塗鴉。"
-
-#: tools/kpTool.cpp:140
-#, kde-format
-msgctxt "<Tool Name> (<Single Accel Key>)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
 
 #: tools/kpTool_UserNotifications.cpp:42
 #, kde-format
@@ -2036,17 +2030,17 @@ msgstr "將圖像的區域填滿"
 msgid "Click to fill a region."
 msgstr "單擊填滿區域。"
 
-#: tools/kpToolZoom.cpp:74
+#: tools/kpToolZoom.cpp:75
 #, kde-format
 msgid "Zoom"
 msgstr ""
 
-#: tools/kpToolZoom.cpp:74
+#: tools/kpToolZoom.cpp:75
 #, kde-format
 msgid "Zooms in and out of the image"
 msgstr ""
 
-#: tools/kpToolZoom.cpp:118
+#: tools/kpToolZoom.cpp:119
 #, kde-format
 msgid "Click to zoom in/out or left drag to zoom into a specific area."
 msgstr ""
@@ -2719,6 +2713,10 @@ msgstr "以前景顏色填滿"
 #, kde-format
 msgid "Opaque"
 msgstr "不透明"
+
+#~ msgctxt "<Tool Name> (<Single Accel Key>)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
 
 #~ msgid ""
 #~ "A document called \"%1\" already exists.\n"
